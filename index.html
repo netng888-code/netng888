@@ -195,7 +195,10 @@
 
 <div class="header">
   <div class="logo">持倉 <span>0193</span></div>
-  <div class="header-meta" id="update-time">持倉日期：2026-05-16 · 生成時間 下午05:28</div>
+  <div style="display:flex;align-items:center;gap:16px;">
+    <span id="live-status" style="font-size:11px;color:var(--teal);">✓ 即時價格已更新 下午05:46:04</span>
+    <div class="header-meta" id="update-time">持倉日期：2026-05-16 · 即時更新 下午05:46</div>
+  </div>
 </div>
 
 <div class="main">
@@ -206,7 +209,7 @@
     <div class="summary-grid">
       <div class="card">
         <div class="card-label">美股市值 (USD)</div>
-        <div class="card-value" id="us-mv">$31,338</div>
+        <div class="card-value" id="us-mv">$31,752</div>
         <div class="card-sub">17 持倉</div>
       </div>
       <div class="card">
@@ -216,7 +219,7 @@
       </div>
       <div class="card">
         <div class="card-label">未實現盈虧 (USD)</div>
-        <div class="card-value pos" id="us-pnl">+$11,832</div>
+        <div class="card-value pos" id="us-pnl">+$10,833</div>
         <div class="card-sub" id="us-pnl-pct">未實現盈虧（USD）</div>
       </div>
       <div class="card">
@@ -262,7 +265,7 @@
           </tr>
         </thead>
         <tbody>
-    <tr>
+    <tr id="row-GOOGL">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=GOOGL" target="_blank">
@@ -272,18 +275,18 @@
         </div>
         <div class="name">谷歌-A × 15</div>
       </td>
-      <td>$400.65</td>
-      <td>$6,009.75</td>
-      <td><span class="badge badge-pos">+124.58%</span></td>
+      <td class="live-price" style="color:var(--red)">$396.78</td>
+      <td class="live-mv">$5,952</td>
+      <td><span class="badge badge-pos">+122.41%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:54.64%;background:var(--green);"></div></div>
           <div class="bar-pct">6.83%</div>
         </div>
       </td>
-      <td style="color:var(--red)">-29.55</td>
+      <td class="live-today" style="color:var(--red)">-4.29 (-1.07%)</td>
     </tr>
-    <tr>
+    <tr id="row-NVDA">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=NVDA" target="_blank">
@@ -293,18 +296,18 @@
         </div>
         <div class="name">英偉達 × 25</div>
       </td>
-      <td>$234.06</td>
-      <td>$5,851.50</td>
-      <td><span class="badge badge-pos">+57.62%</span></td>
+      <td class="live-price" style="color:var(--red)">$225.32</td>
+      <td class="live-mv">$5,633</td>
+      <td><span class="badge badge-pos">+51.73%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:53.2%;background:var(--green);"></div></div>
           <div class="bar-pct">6.65%</div>
         </div>
       </td>
-      <td style="color:var(--green)">+205.75</td>
+      <td class="live-today" style="color:var(--red)">-10.42 (-4.42%)</td>
     </tr>
-    <tr>
+    <tr id="row-MU">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=MU" target="_blank">
@@ -314,18 +317,18 @@
         </div>
         <div class="name">美光科技 × 7</div>
       </td>
-      <td>$785.25</td>
-      <td>$4,711.50</td>
-      <td><span class="badge badge-pos">+106.64%</span></td>
+      <td class="live-price" style="color:var(--red)">$724.66</td>
+      <td class="live-mv">$5,073</td>
+      <td><span class="badge badge-pos">+68.92%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:42.8%;background:var(--green);"></div></div>
           <div class="bar-pct">5.35%</div>
         </div>
       </td>
-      <td style="color:var(--red)">-97.54</td>
+      <td class="live-today" style="color:var(--red)">-51.35 (-6.62%)</td>
     </tr>
-    <tr>
+    <tr id="row-AVGO">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=AVGO" target="_blank">
@@ -335,18 +338,18 @@
         </div>
         <div class="name">博通 × 5</div>
       </td>
-      <td>$433.55</td>
-      <td>$2,167.75</td>
-      <td><span class="badge badge-pos">+28.43%</span></td>
+      <td class="live-price" style="color:var(--red)">$425.19</td>
+      <td class="live-mv">$2,126</td>
+      <td><span class="badge badge-pos">+25.96%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:19.68%;background:var(--green);"></div></div>
           <div class="bar-pct">2.46%</div>
         </div>
       </td>
-      <td style="color:var(--green)">+83.80</td>
+      <td class="live-today" style="color:var(--red)">-14.60 (-3.32%)</td>
     </tr>
-    <tr>
+    <tr id="row-META">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=META" target="_blank">
@@ -356,18 +359,18 @@
         </div>
         <div class="name">Meta × 3</div>
       </td>
-      <td>$619.13</td>
-      <td>$1,857.39</td>
-      <td><span class="badge badge-pos">+2.11%</span></td>
+      <td class="live-price" style="color:var(--red)">$614.23</td>
+      <td class="live-mv">$1,843</td>
+      <td><span class="badge badge-pos">+1.30%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:16.88%;background:var(--green);"></div></div>
           <div class="bar-pct">2.11%</div>
         </div>
       </td>
-      <td style="color:var(--green)">+7.50</td>
+      <td class="live-today" style="color:var(--red)">-4.20 (-0.68%)</td>
     </tr>
-    <tr>
+    <tr id="row-TER">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=TER" target="_blank">
@@ -377,18 +380,18 @@
         </div>
         <div class="name">泰瑞達 × 5</div>
       </td>
-      <td>$355.67</td>
-      <td>$1,778.35</td>
-      <td><span class="badge badge-pos">+286.60%</span></td>
+      <td class="live-price" style="color:var(--red)">$337.88</td>
+      <td class="live-mv">$1,689</td>
+      <td><span class="badge badge-pos">+267.26%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:16.16%;background:var(--green);"></div></div>
           <div class="bar-pct">2.02%</div>
         </div>
       </td>
-      <td style="color:var(--red)">-38.55</td>
+      <td class="live-today" style="color:var(--red)">-18.67 (-5.24%)</td>
     </tr>
-    <tr>
+    <tr id="row-LEU">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=LEU" target="_blank">
@@ -398,18 +401,18 @@
         </div>
         <div class="name">Centrus × 8</div>
       </td>
-      <td>$189.88</td>
-      <td>$1,519.04</td>
-      <td><span class="badge badge-neg">-3.86%</span></td>
+      <td class="live-price" style="color:var(--red)">$182.60</td>
+      <td class="live-mv">$1,461</td>
+      <td><span class="badge badge-neg">-7.54%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:13.84%;background:var(--red);"></div></div>
           <div class="bar-pct">1.73%</div>
         </div>
       </td>
-      <td style="color:var(--red)">-19.44</td>
+      <td class="live-today" style="color:var(--red)">-9.72 (-5.05%)</td>
     </tr>
-    <tr>
+    <tr id="row-OKLO">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=OKLO" target="_blank">
@@ -419,18 +422,18 @@
         </div>
         <div class="name">Oklo × 20</div>
       </td>
-      <td>$66.05</td>
-      <td>$1,321.00</td>
-      <td><span class="badge badge-pos">+213.52%</span></td>
+      <td class="live-price" style="color:var(--red)">$62.25</td>
+      <td class="live-mv">$1,245</td>
+      <td><span class="badge badge-pos">+195.49%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:12%;background:var(--green);"></div></div>
           <div class="bar-pct">1.50%</div>
         </div>
       </td>
-      <td style="color:var(--red)">-72.20</td>
+      <td class="live-today" style="color:var(--red)">-4.96 (-7.38%)</td>
     </tr>
-    <tr>
+    <tr id="row-RKLB">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=RKLB" target="_blank">
@@ -440,18 +443,18 @@
         </div>
         <div class="name">Rocket Lab × 10</div>
       </td>
-      <td>$129.49</td>
-      <td>$1,294.90</td>
-      <td><span class="badge badge-pos">+208.31%</span></td>
+      <td class="live-price" style="color:var(--red)">$124.77</td>
+      <td class="live-mv">$1,248</td>
+      <td><span class="badge badge-pos">+197.07%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:11.76%;background:var(--green);"></div></div>
           <div class="bar-pct">1.47%</div>
         </div>
       </td>
-      <td style="color:var(--green)">+53.40</td>
+      <td class="live-today" style="color:var(--red)">-7.78 (-5.87%)</td>
     </tr>
-    <tr>
+    <tr id="row-PLTR">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=PLTR" target="_blank">
@@ -461,18 +464,18 @@
         </div>
         <div class="name">Palantir × 7</div>
       </td>
-      <td>$133.301</td>
-      <td>$933.10</td>
-      <td><span class="badge badge-pos">+7.21%</span></td>
+      <td class="live-price" style="color:var(--green)">$133.99</td>
+      <td class="live-mv">$938</td>
+      <td><span class="badge badge-pos">+7.77%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:8.48%;background:var(--green);"></div></div>
           <div class="bar-pct">1.06%</div>
         </div>
       </td>
-      <td style="color:var(--green)">+22.75</td>
+      <td class="live-today" style="color:var(--green)">+0.26 (+0.19%)</td>
     </tr>
-    <tr>
+    <tr id="row-ISRG">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=ISRG" target="_blank">
@@ -482,18 +485,18 @@
         </div>
         <div class="name">直覺外科 × 2</div>
       </td>
-      <td>$429.65</td>
-      <td>$859.30</td>
-      <td><span class="badge badge-neg">-5.18%</span></td>
+      <td class="live-price" style="color:var(--red)">$421.12</td>
+      <td class="live-mv">$842</td>
+      <td><span class="badge badge-neg">-7.06%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:7.84%;background:var(--red);"></div></div>
           <div class="bar-pct">0.98%</div>
         </div>
       </td>
-      <td style="color:var(--red)">-5.24</td>
+      <td class="live-today" style="color:var(--red)">-6.94 (-1.62%)</td>
     </tr>
-    <tr>
+    <tr id="row-VRT">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=VRT" target="_blank">
@@ -503,18 +506,18 @@
         </div>
         <div class="name">Vertiv × 2</div>
       </td>
-      <td>$371.295</td>
-      <td>$742.59</td>
-      <td><span class="badge badge-pos">+22.23%</span></td>
+      <td class="live-price" style="color:var(--red)">$370.94</td>
+      <td class="live-mv">$742</td>
+      <td><span class="badge badge-pos">+22.12%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:6.72%;background:var(--green);"></div></div>
           <div class="bar-pct">0.84%</div>
         </div>
       </td>
-      <td style="color:var(--green)">+2.61</td>
+      <td class="live-today" style="color:var(--red)">-5.29 (-1.41%)</td>
     </tr>
-    <tr>
+    <tr id="row-RDW">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=RDW" target="_blank">
@@ -524,18 +527,18 @@
         </div>
         <div class="name">Redwire × 100</div>
       </td>
-      <td>$14.185</td>
-      <td>$709.25</td>
-      <td><span class="badge badge-pos">+28.95%</span></td>
+      <td class="live-price" style="color:var(--green)">$14.06</td>
+      <td class="live-mv">$1,406</td>
+      <td><span class="badge badge-pos">+13.39%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:6.48%;background:var(--green);"></div></div>
           <div class="bar-pct">0.81%</div>
         </div>
       </td>
-      <td style="color:var(--green)">+136.25</td>
+      <td class="live-today" style="color:var(--green)">+0.07 (+0.50%)</td>
     </tr>
-    <tr>
+    <tr id="row-RR">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=RR" target="_blank">
@@ -545,18 +548,18 @@
         </div>
         <div class="name">Richtech Robotics × 200</div>
       </td>
-      <td>$2.74</td>
-      <td>$548.00</td>
-      <td><span class="badge badge-pos">+0.18%</span></td>
+      <td class="live-price" style="color:var(--red)">$2.68</td>
+      <td class="live-mv">$536</td>
+      <td><span class="badge badge-neg">-2.01%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:4.96%;background:var(--green);"></div></div>
           <div class="bar-pct">0.62%</div>
         </div>
       </td>
-      <td style="color:var(--red)">-16.00</td>
+      <td class="live-today" style="color:var(--red)">-0.15 (-5.30%)</td>
     </tr>
-    <tr>
+    <tr id="row-ASTS">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=ASTS" target="_blank">
@@ -566,18 +569,18 @@
         </div>
         <div class="name">AST SpaceMobile × 5</div>
       </td>
-      <td>$81.5</td>
-      <td>$407.50</td>
-      <td><span class="badge badge-neg">-18.50%</span></td>
+      <td class="live-price" style="color:var(--green)">$83.67</td>
+      <td class="live-mv">$418</td>
+      <td><span class="badge badge-neg">-16.33%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:3.68%;background:var(--red);"></div></div>
           <div class="bar-pct">0.46%</div>
         </div>
       </td>
-      <td style="color:var(--green)">+33.45</td>
+      <td class="live-today" style="color:var(--green)">+0.66 (+0.80%)</td>
     </tr>
-    <tr>
+    <tr id="row-MRVL">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=MRVL" target="_blank">
@@ -587,18 +590,18 @@
         </div>
         <div class="name">邁威爾科技 × 2</div>
       </td>
-      <td>$181.025</td>
-      <td>$362.05</td>
-      <td><span class="badge badge-pos">+212.11%</span></td>
+      <td class="live-price" style="color:var(--red)">$176.89</td>
+      <td class="live-mv">$354</td>
+      <td><span class="badge badge-pos">+204.98%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:3.28%;background:var(--green);"></div></div>
           <div class="bar-pct">0.41%</div>
         </div>
       </td>
-      <td style="color:var(--green)">+6.15</td>
+      <td class="live-today" style="color:var(--red)">-5.69 (-3.12%)</td>
     </tr>
-    <tr>
+    <tr id="row-SERV">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=SERV" target="_blank">
@@ -608,16 +611,16 @@
         </div>
         <div class="name">Serve Robotics × 30</div>
       </td>
-      <td>$8.83</td>
-      <td>$264.90</td>
-      <td><span class="badge badge-neg">-24.81%</span></td>
+      <td class="live-price" style="color:var(--red)">$8.24</td>
+      <td class="live-mv">$247</td>
+      <td><span class="badge badge-neg">-29.83%</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:2.4%;background:var(--red);"></div></div>
           <div class="bar-pct">0.30%</div>
         </div>
       </td>
-      <td style="color:var(--green)">+6.00</td>
+      <td class="live-today" style="color:var(--red)">-0.50 (-5.72%)</td>
     </tr></tbody>
       </table>
     </div>
@@ -936,7 +939,7 @@ holdings.forEach(h => {
   const barColor = h.pnl.startsWith('+') ? 'var(--green)' : 'var(--red)';
 
   usTbody.innerHTML += `
-    <tr>
+    <tr id="row-${h.code}">
       <td>
         <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
           <a class="ticker" href="https://finviz.com/quote.ashx?t=${h.code}" target="_blank">
@@ -946,16 +949,16 @@ holdings.forEach(h => {
         </div>
         <div class="name">${h.name} × ${h.qty}</div>
       </td>
-      <td>$${h.price.toLocaleString()}</td>
-      <td>$${h.mv}</td>
-      <td><span class="badge ${h.pnl.startsWith('+') ? 'badge-pos' : 'badge-neg'}">${h.pnl}</span></td>
+      <td class="live-price">$${h.price.toLocaleString()}</td>
+      <td class="live-mv">$${h.mv}</td>
+      <td><span class="badge live-pnl ${h.pnl.startsWith('+') ? 'badge-pos' : 'badge-neg'}">${h.pnl}</span></td>
       <td>
         <div class="bar-wrap">
           <div class="bar-track"><div class="bar-fill" style="width:${Math.min(pctNum*8,100)}%;background:${barColor};"></div></div>
           <div class="bar-pct">${h.pct}</div>
         </div>
       </td>
-      <td ${todayColor(h.today)}>${todaySgn}${h.today.toFixed(2)}</td>
+      <td class="live-today" ${todayColor(h.today)}>${todaySgn}${h.today.toFixed(2)}</td>
     </tr>`;
 });
 
@@ -1046,6 +1049,86 @@ hkHoldings.forEach(h => {
 const now = new Date();
 document.getElementById('update-time').textContent =
   '持倉日期：2026-05-16 · 生成時間 ' + now.toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});
+
+// ── Finnhub 即時報價 ──
+const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
+const usTickers = holdings.map(h => h.code);
+
+async function fetchQuote(symbol) {
+  try {
+    const r = await fetch(`https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${FINNHUB_KEY}`);
+    return await r.json();
+  } catch(e) { return null; }
+}
+
+function colorVal(v) {
+  if (v > 0) return `style="color:var(--green)"`;
+  if (v < 0) return `style="color:var(--red)"`;
+  return `style="color:var(--text2)"`;
+}
+
+async function updateLivePrices() {
+  const statusEl = document.getElementById('live-status');
+  if (statusEl) statusEl.textContent = '⟳ 抓取即時報價…';
+
+  let totalMV = 0, totalPNL = 0;
+
+  for (const h of holdings) {
+    const data = await fetchQuote(h.code);
+    if (!data || !data.c || data.c === 0) continue;
+
+    const livePrice = data.c;
+    const prevClose = data.pc || h.price;
+    const dayChg = data.d || 0;
+    const dayChgPct = data.dp || 0;
+    const liveМV = livePrice * h.qty;
+    const livePNL = (livePrice - h.cost) * h.qty;
+    const livePNLpct = ((livePrice - h.cost) / h.cost * 100);
+
+    totalMV += liveМV;
+    totalPNL += livePNL;
+
+    // Update row
+    const row = document.getElementById(`row-${h.code}`);
+    if (!row) continue;
+
+    const priceEl = row.querySelector('.live-price');
+    const mvEl = row.querySelector('.live-mv');
+    const pnlEl = row.querySelector('.live-pnl');
+    const todayEl = row.querySelector('.live-today');
+
+    if (priceEl) {
+      priceEl.textContent = '$' + livePrice.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+      priceEl.setAttribute('style', dayChg >= 0 ? 'color:var(--green)' : 'color:var(--red)');
+    }
+    if (mvEl) mvEl.textContent = '$' + liveМV.toLocaleString('en-US',{maximumFractionDigits:0});
+    if (pnlEl) {
+      const cls = livePNLpct >= 0 ? 'badge-pos' : 'badge-neg';
+      pnlEl.className = `badge ${cls}`;
+      pnlEl.textContent = (livePNLpct >= 0 ? '+' : '') + livePNLpct.toFixed(2) + '%';
+    }
+    if (todayEl) {
+      todayEl.setAttribute('style', dayChg >= 0 ? 'color:var(--green)' : 'color:var(--red)');
+      todayEl.textContent = (dayChg >= 0 ? '+' : '') + dayChg.toFixed(2) + ' (' + (dayChgPct >= 0 ? '+' : '') + dayChgPct.toFixed(2) + '%)';
+    }
+
+    // Small delay to avoid rate limit
+    await new Promise(r => setTimeout(r, 120));
+  }
+
+  // Update summary cards
+  document.getElementById('us-mv').textContent = '$' + totalMV.toLocaleString('en-US',{maximumFractionDigits:0});
+  const pnlEl = document.getElementById('us-pnl');
+  pnlEl.textContent = (totalPNL >= 0 ? '+$' : '-$') + Math.abs(totalPNL).toLocaleString('en-US',{maximumFractionDigits:0});
+  pnlEl.className = 'card-value ' + (totalPNL >= 0 ? 'pos' : 'neg');
+
+  const now2 = new Date();
+  if (statusEl) statusEl.textContent = '✓ 即時價格已更新 ' + now2.toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  document.getElementById('update-time').textContent =
+    '持倉日期：2026-05-16 · 即時更新 ' + now2.toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});
+}
+
+updateLivePrices();
 </script>
 
 
