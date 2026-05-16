@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>帳戶0193 持倉儀表板</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+HK:wght@300;400;500;700&display=swap');
+
+  :root {
+    --bg: #0a0e1a; --bg2: #0f1525; --bg3: #161d30;
+    --border: #1e2a42; --accent: #00d4ff; --accent2: #00ff9d;
+    --red: #ff4d6d; --green: #00ff9d; --yellow: #ffd60a;
+    --text: #e8eaf0; --muted: #6b7a99; --card: #111827;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:'Noto Sans HK',sans-serif; font-size:13px; min-height:100vh; }
+
+  .header {
+    background:linear-gradient(135deg,#0a0e1a 0%,#0f1f3d 100%);
+    border-bottom:1px solid var(--border);
+    padding:14px 20px;
+    display:flex; align-items:center; justify-content:space-between;
+    position:sticky; top:0; z-index:100;
+  }
+  .header-left h1 { font-family:'Space Mono',monospace; font-size:13px; color:var(--accent); letter-spacing:2px; }
+  .header-left p { font-size:10px; color:var(--muted); margin-top:2px; font-family:'Space Mono',monospace; }
+  .header-right { display:flex; align-items:center; gap:12px; }
+  .last-update { font-family:'Space Mono',monospace; font-size:10px; color:var(--muted); }
+  .refresh-btn {
+    background:var(--accent); color:#000; border:none;
+    padding:7px 16px; font-family:'Space Mono',monospace;
+    font-size:11px; cursor:pointer; border-radius:2px; font-weight:700;
+    transition:all 0.2s;
+  }
+  .refresh-btn:hover { background:#00eeff; transform:translateY(-1px); }
+  .refresh-btn:disabled { opacity:0.5; cursor:not-allowed; transform:none; }
+
+  .summary-bar {
+    display:grid; grid-template-columns:repeat(5,1fr);
+    gap:1px; background:var(--border); border-bottom:1px solid var(--border);
+  }
+  .summary-item { background:var(--bg2); padding:12px 16px; text-align:center; }
+  .summary-label { font-size:9px; color:var(--muted); letter-spacing:1px; text-transform:uppercase; margin-bottom:4px; font-family:'Space Mono',monospace; }
+  .summary-value { font-family:'Space Mono',monospace; font-size:15px; font-weight:700; }
+
+  .tabs { display:flex; border-bottom:1px solid var(--border); background:var(--bg2); padding:0 20px; }
+  .tab { padding:11px 18px; cursor:pointer; font-size:11px; color:var(--muted); border-bottom:2px solid transparent; transition:all 0.2s; font-family:'Space Mono',monospace; letter-spacing:1px; }
+  .tab.active { color:var(--accent); border-bottom-color:var(--accent); }
+  .tab:hover { color:var(--text); }
+
+  .content { padding:14px 20px; }
+  .section-title { font-family:'Space Mono',monospace; font-size:9px; color:var(--muted); letter-spacing:2px; text-transform:uppercase; margin-bottom:10px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+
+  table { width:100%; border-collapse:collapse; }
+  th { font-family:'Space Mono',monospace; font-size:9px; color:var(--muted); letter-spacing:1px; text-transform:uppercase; padding:8px 8px; text-align:right; border-bottom:1px solid var(--border); white-space:nowrap; }
+  th:first-child, th:nth-child(2) { text-align:left; }
+  tr.stock-row { border-bottom:1px solid #0d1120; cursor:pointer; transition:background 0.15s; }
+  tr.stock-row:hover { background:var(--bg3); }
+  td { padding:9px 8px; text-align:right; font-family:'Space Mono',monospace; font-size:11px; white-space:nowrap; }
+  td:first-child { text-align:left; }
+  td:nth-child(2) { text-align:left; font-family:'Noto Sans HK',sans-serif; font-size:11px; color:var(--muted); }
+
+  .ticker { font-weight:700; color:var(--accent); font-size:12px; }
+  .pos { color:var(--green); } .neg { color:var(--red); } .neutral { color:var(--muted); }
+
+  .rsi-bar-wrap { display:flex; align-items:center; gap:5px; justify-content:flex-end; }
+  .rsi-bar { width:50px; height:5px; background:var(--bg); border-radius:3px; overflow:hidden; border:1px solid var(--border); }
+  .rsi-fill { height:100%; border-radius:3px; }
+
+  .signal { display:inline-block; padding:2px 5px; border-radius:2px; font-size:9px; font-family:'Space Mono',monospace; font-weight:700; }
+  .signal-buy { background:rgba(0,255,157,0.12); color:var(--green); border:1px solid rgba(0,255,157,0.25); }
+  .signal-sell { background:rgba(255,77,109,0.12); color:var(--red); border:1px solid rgba(255,77,109,0.25); }
+  .signal-hold { background:rgba(255,214,10,0.08); color:var(--yellow); border:1px solid rgba(255,214,10,0.25); }
+  .signal-na { background:rgba(107,122,153,0.08); color:var(--muted); border:1px solid var(--border); }
+
+  .bc-link { color:var(--accent); text-decoration:none; font-size:10px; opacity:0.55; transition:opacity 0.2s; }
+  .bc-link:hover { opacity:1; }
+
+  .loading-cell { color:var(--muted); font-size:10px; }
+  .loading-cell::after { content:''; animation:dots 1.2s infinite; }
+  @keyframes dots { 0%{content:'.'} 33%{content:'..'} 66%{content:'...'} }
+
+  /* Modal */
+  .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.88); z-index:200; overflow-y:auto; padding:20px; }
+  .modal-overlay.open { display:block; }
+  .modal-box { max-width:720px; margin:0 auto; background:var(--bg2); border:1px solid var(--border); border-radius:6px; padding:20px; }
+  .modal-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; }
+  .modal-title { font-family:'Space Mono',monospace; color:var(--accent); font-size:14px; }
+  .close-btn { background:rgba(255,77,109,0.2); color:var(--red); border:1px solid rgba(255,77,109,0.3); padding:5px 12px; cursor:pointer; font-family:'Space Mono',monospace; font-size:11px; border-radius:2px; }
+  .close-btn:hover { background:var(--red); color:#fff; }
+
+  .stat-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:14px; }
+  .stat-card { background:var(--bg); padding:12px; border-radius:4px; border:1px solid var(--border); }
+  .stat-label { font-size:9px; color:var(--muted); font-family:'Space Mono',monospace; letter-spacing:1px; margin-bottom:4px; }
+  .stat-val { font-family:'Space Mono',monospace; font-size:17px; }
+  .stat-sub { font-size:10px; margin-top:2px; font-family:'Space Mono',monospace; }
+
+  .chart-box { background:var(--bg); border:1px solid var(--border); border-radius:4px; padding:12px; }
+  .chart-note { color:var(--muted); font-size:9px; margin-top:8px; font-family:'Space Mono',monospace; line-height:1.6; }
+
+  .note-box { background:rgba(0,212,255,0.05); border:1px solid rgba(0,212,255,0.15); border-radius:4px; padding:10px 14px; margin-top:12px; }
+  .note-box p { font-size:10px; color:var(--muted); line-height:1.7; font-family:'Space Mono',monospace; }
+  .note-box p strong { color:var(--accent); }
+
+  @media (max-width:700px) {
+    .summary-bar { grid-template-columns:repeat(2,1fr); }
+    .stat-grid { grid-template-columns:repeat(2,1fr); }
+    td,th { padding:7px 5px; font-size:10px; }
+    .rsi-bar { width:36px; }
+    .header-left p { display:none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>⬡ 帳戶0193 持倉儀表板</h1>
+    <p>持倉保證金綜合帳戶 · Finnhub實時報價 · 點擊股票查看RSI圖表</p>
+  </div>
+  <div class="header-right">
+    <span class="last-update" id="updateTime">未載入</span>
+    <button class="refresh-btn" id="refreshBtn" onclick="loadAll()">⟳ 更新報價</button>
+  </div>
+</div>
+
+<div class="summary-bar">
+  <div class="summary-item">
+    <div class="summary-label">美股總市值 USD</div>
+    <div class="summary-value" id="sumUS" style="color:var(--accent)">--</div>
+  </div>
+  <div class="summary-item">
+    <div class="summary-label">港股總市值 HKD</div>
+    <div class="summary-value" id="sumHK" style="color:var(--accent)">--</div>
+  </div>
+  <div class="summary-item">
+    <div class="summary-label">美股未實現盈虧</div>
+    <div class="summary-value" id="sumPnL">--</div>
+  </div>
+  <div class="summary-item">
+    <div class="summary-label">今日盈虧 USD</div>
+    <div class="summary-value" id="sumToday">--</div>
+  </div>
+  <div class="summary-item">
+    <div class="summary-label">持倉數目</div>
+    <div class="summary-value" style="color:var(--yellow)">17🇺🇸 + 3🇭🇰</div>
+  </div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="showTab('us')">🇺🇸 美股持倉 (17隻)</div>
+  <div class="tab" onclick="showTab('hk')">🇭🇰 港股持倉 (3隻)</div>
+  <div class="tab" onclick="showTab('info')">ℹ 使用說明</div>
+</div>
+
+<div class="content">
+
+  <div id="tab-us">
+    <div class="section-title">美國股票持倉 — 點擊任何一行查看RSI圖表</div>
+    <table>
+      <thead>
+        <tr>
+          <th>代碼</th><th>名稱</th><th>持股</th><th>成本價</th>
+          <th>現價</th><th>今日升跌</th><th>市值</th>
+          <th>盈虧%</th><th>盈虧額</th>
+          <th>RSI(14)</th><th>信號</th><th>Barchart</th>
+        </tr>
+      </thead>
+      <tbody id="usTable"></tbody>
+    </table>
+    <p style="color:var(--muted);font-size:9px;margin-top:10px;font-family:'Space Mono',monospace;">
+      * 盤後/夜盤價格請點擊 ↗BC 連結直接查閱Barchart（免費API不支援盤後數據）
+    </p>
+  </div>
+
+  <div id="tab-hk" style="display:none">
+    <div class="section-title">香港股票持倉 — 價格來自最新CSV記錄</div>
+    <table>
+      <thead>
+        <tr>
+          <th>代碼</th><th>名稱</th><th>持股</th><th>成本價(HKD)</th>
+          <th>現價(HKD)</th><th>市值(HKD)</th><th>盈虧%</th><th>盈虧額(HKD)</th><th>Barchart</th>
+        </tr>
+      </thead>
+      <tbody id="hkTable"></tbody>
+    </table>
+    <div class="note-box" style="margin-top:14px;">
+      <p>⚠ <strong>港股說明：</strong> Finnhub免費API不支援港股實時報價。現價來自你最後上傳嘅CSV檔案（2026-05-16）。<br>
+      如需實時港股價格，請更新CSV後重新上傳到對話，或點擊 ↗BC 查閱Barchart。</p>
+    </div>
+  </div>
+
+  <div id="tab-info" style="display:none">
+    <div class="section-title">使用說明</div>
+    <div class="note-box">
+      <p>
+        <strong>【更新報價】</strong> 點擊右上角「⟳ 更新報價」按鈕，即時從Finnhub抓取最新美股價格及RSI。<br><br>
+        <strong>【RSI圖表】</strong> 點擊任何美股行，彈出視窗顯示過去30日RSI走勢圖。<br>
+        RSI &gt; 70 = 超買（紅色警示）｜RSI &lt; 30 = 超賣（綠色機會）｜50附近 = 中性<br><br>
+        <strong>【Barchart連結】</strong> 每行右側「↗BC」直接跳去Barchart該股頁面，可查閱盤前/盤後價、詳細圖表、期權數據。<br><br>
+        <strong>【港股更新】</strong> 每次從券商下載最新CSV，上傳到Claude對話，請Claude重新生成此HTML檔案。<br><br>
+        <strong>【API Key】</strong> 本檔案使用Finnhub免費API，每分鐘限60次請求，足夠日常使用。<br><br>
+        <strong>【本地使用】</strong> 此檔案完全離線可用（API calls除外），雙擊HTML即可在瀏覽器打開，無需安裝任何軟件。
+      </p>
+    </div>
+    <div class="note-box" style="margin-top:12px;border-color:rgba(255,214,10,0.2);background:rgba(255,214,10,0.03);">
+      <p>
+        <strong style="color:var(--yellow);">【GitHub Pages進階方法】</strong><br>
+        如想透過固定網址隨時隨地查閱（手機/平板/任何瀏覽器）：<br>
+        1. 免費註冊 github.com<br>
+        2. 新建Repository命名為 <strong>portfolio</strong><br>
+        3. 上傳此HTML檔案，改名為 <strong>index.html</strong><br>
+        4. Settings → Pages → 選 main branch → Save<br>
+        5. 約1分鐘後獲得固定網址：<strong>yourname.github.io/portfolio</strong><br>
+        每次更新持倉，只需替換index.html即可。
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<!-- RSI Modal -->
+<div class="modal-overlay" id="modal" onclick="handleModalClick(event)">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div class="modal-title" id="modalTitle"></div>
+      <button class="close-btn" onclick="closeModal()">✕ 關閉</button>
+    </div>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script>
+// ── CONFIG ──────────────────────────────────────────────
+const API_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
+const BASE    = 'https://finnhub.io/api/v1';
+
+// ── HOLDINGS (從CSV同步) ─────────────────────────────────
+const US = [
+  {t:'GOOGL', n:'谷歌-A',           q:15,  c:178.4   },
+  {t:'NVDA',  n:'英偉達',            q:25,  c:148.5   },
+  {t:'MU',    n:'美光科技',          q:7,   c:429.0   },
+  {t:'AVGO',  n:'博通',              q:5,   c:337.564 },
+  {t:'META',  n:'Meta Platforms',   q:3,   c:606.333 },
+  {t:'TER',   n:'泰瑞達',            q:5,   c:92.0    },
+  {t:'LEU',   n:'Centrus Energy',   q:8,   c:197.5   },
+  {t:'OKLO',  n:'Oklo Inc',         q:20,  c:21.067  },
+  {t:'RKLB',  n:'Rocket Lab',       q:10,  c:42.0    },
+  {t:'PLTR',  n:'Palantir',         q:7,   c:124.335 },
+  {t:'ISRG',  n:'直覺外科',          q:2,   c:453.1   },
+  {t:'VRT',   n:'Vertiv Holdings',  q:2,   c:303.76  },
+  {t:'RDW',   n:'Redwire',          q:100, c:12.4    },
+  {t:'RR',    n:'Richtech Robotics',q:200, c:2.735   },
+  {t:'ASTS',  n:'AST SpaceMobile',  q:5,   c:100.0   },
+  {t:'MRVL',  n:'邁威爾科技',        q:2,   c:58.0    },
+  {t:'SERV',  n:'Serve Robotics',   q:30,  c:11.743  },
+];
+
+const HK = [
+  {t:'7709',  n:'南方兩倍做多海力士', q:400, c:15.8,  p:105.6,  mv:42240  },
+  {t:'2367',  n:'巨子生物',           q:600, c:38.0,  p:30.86,  mv:18516  },
+  {t:'9988',  n:'阿里巴巴-W',         q:100, c:165.0, p:132.8,  mv:13280  },
+];
+
+// ── STATE ────────────────────────────────────────────────
+let quotes  = {};
+let candles = {};
+
+// ── HELPERS ──────────────────────────────────────────────
+const f  = (n,d=2) => (n==null||isNaN(n)) ? '--' : n.toFixed(d);
+const fc = n => n==null ? '--' : n.toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2});
+
+function colorSpan(n, text, prefix='') {
+  if(n==null) return `<span class="neutral">${text}</span>`;
+  return `<span class="${n>=0?'pos':'neg'}">${prefix}${text}</span>`;
+}
+
+function pctSpan(n) {
+  if(n==null||isNaN(n)) return '<span class="neutral">--</span>';
+  return colorSpan(n, `${n>=0?'+':''}${f(n)}%`);
+}
+
+function calcRSI(closes, period=14) {
+  if(!closes||closes.length<period+2) return null;
+  let g=0,l=0;
+  for(let i=1;i<=period;i++){const d=closes[i]-closes[i-1];d>0?g+=d:l+=Math.abs(d);}
+  let ag=g/period, al=l/period;
+  for(let i=period+1;i<closes.length;i++){
+    const d=closes[i]-closes[i-1];
+    ag=(ag*(period-1)+(d>0?d:0))/period;
+    al=(al*(period-1)+(d<0?Math.abs(d):0))/period;
+  }
+  if(al===0) return 100;
+  return Math.round(100-(100/(1+ag/al)));
+}
+
+function rsiColor(r) {
+  if(r==null) return 'var(--muted)';
+  if(r>=70) return 'var(--red)';
+  if(r<=30) return 'var(--green)';
+  if(r>=60) return '#ff9a3c';
+  if(r<=40) return '#7ef2a3';
+  return 'var(--yellow)';
+}
+
+function rsiSignal(r) {
+  if(r==null) return '<span class="signal signal-na">--</span>';
+  if(r>=75) return '<span class="signal signal-sell">超買⚠</span>';
+  if(r>=65) return '<span class="signal signal-sell">偏高</span>';
+  if(r<=25) return '<span class="signal signal-buy">超賣✓</span>';
+  if(r<=35) return '<span class="signal signal-buy">偏低</span>';
+  return '<span class="signal signal-hold">中性</span>';
+}
+
+function rsiBar(r) {
+  if(r==null) return '<span class="neutral" style="font-size:10px;">--</span>';
+  const pct=Math.max(0,Math.min(100,r));
+  const col=rsiColor(r);
+  return `<div class="rsi-bar-wrap">
+    <div class="rsi-bar"><div class="rsi-fill" style="width:${pct}%;background:${col}"></div></div>
+    <span style="color:${col};font-size:11px;min-width:24px;">${r}</span>
+  </div>`;
+}
+
+function bcLink(ticker, hk=false) {
+  const url = hk
+    ? `https://www.barchart.com/stocks/quotes/${ticker}`
+    : `https://www.barchart.com/stocks/quotes/${ticker}/overview`;
+  return `<a href="${url}" target="_blank" class="bc-link" title="Barchart">↗BC</a>`;
+}
+
+// ── API CALLS ────────────────────────────────────────────
+async function getQuote(t) {
+  try {
+    const r = await fetch(`${BASE}/quote?symbol=${t}&token=${API_KEY}`);
+    if(!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
+async function getCandles(t) {
+  const to   = Math.floor(Date.now()/1000);
+  const from = to - 86400*70;
+  try {
+    const r = await fetch(`${BASE}/stock/candle?symbol=${t}&resolution=D&from=${from}&to=${to}&token=${API_KEY}`);
+    if(!r.ok) return null;
+    const d = await r.json();
+    return d.s==='ok' ? d : null;
+  } catch { return null; }
+}
+
+// ── LOAD ALL ─────────────────────────────────────────────
+async function loadAll() {
+  const btn = document.getElementById('refreshBtn');
+  btn.disabled=true; btn.textContent='載入中…';
+
+  // Render skeleton rows
+  document.getElementById('usTable').innerHTML = US.map(h=>`
+    <tr class="stock-row" onclick="showDetail('${h.t}')">
+      <td><span class="ticker">${h.t}</span></td>
+      <td>${h.n}</td>
+      <td>${h.q}</td>
+      <td>$${f(h.c)}</td>
+      <td id="P_${h.t}" class="loading-cell">載入</td>
+      <td id="D_${h.t}" class="loading-cell">載入</td>
+      <td id="MV_${h.t}" class="loading-cell">載入</td>
+      <td id="PL_${h.t}" class="loading-cell">載入</td>
+      <td id="PA_${h.t}" class="loading-cell">載入</td>
+      <td id="R_${h.t}" class="loading-cell">載入</td>
+      <td id="S_${h.t}" class="loading-cell">載入</td>
+      <td>${bcLink(h.t)}</td>
+    </tr>`).join('');
+
+  renderHK();
+
+  // Fetch concurrently
+  let totMV=0, totPnL=0, totToday=0;
+
+  await Promise.all(US.map(async h => {
+    const [q, cd] = await Promise.all([getQuote(h.t), getCandles(h.t)]);
+
+    if(q && q.c) {
+      quotes[h.t] = q;
+      const p   = q.c;
+      const mv  = p * h.q;
+      const plP = (p-h.c)/h.c*100;
+      const plA = (p-h.c)*h.q;
+      const day = (q.d||0)*h.q;
+      totMV    += mv;
+      totPnL   += plA;
+      totToday += day;
+
+      set(`P_${h.t}`,  `$${f(p)}`);
+      set(`D_${h.t}`,  `<span class="${(q.d||0)>=0?'pos':'neg'}">${(q.d||0)>=0?'+':''}${f(q.d)} (${f(q.dp)}%)</span>`);
+      set(`MV_${h.t}`, `$${fc(mv)}`);
+      set(`PL_${h.t}`, pctSpan(plP));
+      set(`PA_${h.t}`, colorSpan(plA, `${plA>=0?'+':''}$${fc(Math.abs(plA))}`));
+    } else {
+      ['P_','D_','MV_','PL_','PA_'].forEach(k=>set(`${k}${h.t}`,'<span class="neg">ERR</span>'));
+    }
+
+    if(cd && cd.c && cd.c.length>15) {
+      candles[h.t] = cd;
+      const rsi = calcRSI(cd.c);
+      set(`R_${h.t}`, rsiBar(rsi));
+      set(`S_${h.t}`, rsiSignal(rsi));
+    } else {
+      set(`R_${h.t}`, '<span class="neutral" style="font-size:10px;">--</span>');
+      set(`S_${h.t}`, '<span class="neutral" style="font-size:10px;">--</span>');
+    }
+  }));
+
+  // Summary
+  setTxt('sumUS',    `$${Math.round(totMV).toLocaleString()}`);
+  setTxt('sumHK',    `HK$${(42240+18516+13280).toLocaleString()}`);
+  document.getElementById('sumPnL').innerHTML   = colorSpan(totPnL,  `${totPnL>=0?'+':''}$${fc(Math.abs(totPnL))}`);
+  document.getElementById('sumToday').innerHTML = colorSpan(totToday,`${totToday>=0?'+':''}$${fc(Math.abs(totToday))}`);
+  setTxt('updateTime', '更新: '+new Date().toLocaleTimeString('zh-HK'));
+
+  btn.disabled=false; btn.textContent='⟳ 更新報價';
+}
+
+function renderHK() {
+  document.getElementById('hkTable').innerHTML = HK.map(h=>{
+    const plP = (h.p-h.c)/h.c*100;
+    const plA = (h.p-h.c)*h.q;
+    return `<tr class="stock-row">
+      <td><span class="ticker">${h.t}</span></td>
+      <td>${h.n}</td><td>${h.q}</td>
+      <td>HK$${f(h.c)}</td>
+      <td>HK$${f(h.p)}</td>
+      <td>HK$${h.mv.toLocaleString()}</td>
+      <td>${pctSpan(plP)}</td>
+      <td>${colorSpan(plA,`${plA>=0?'+':''}HK$${fc(Math.abs(plA))}`)}</td>
+      <td>${bcLink(h.t, true)}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ── DETAIL MODAL ─────────────────────────────────────────
+function showDetail(t) {
+  const h = US.find(x=>x.t===t);
+  const q = quotes[t];
+  const cd= candles[t];
+  if(!h) return;
+
+  document.getElementById('modalTitle').textContent = `${t}  ${h.n}`;
+
+  const p    = q ? q.c : null;
+  const plP  = p ? (p-h.c)/h.c*100 : null;
+  const plA  = p ? (p-h.c)*h.q : null;
+  const rsi  = cd ? calcRSI(cd.c) : null;
+
+  document.getElementById('modalContent').innerHTML = `
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-label">現價</div>
+        <div class="stat-val" style="color:var(--accent)">${p ? '$'+f(p) : '--'}</div>
+        <div class="stat-sub ${(q?.d||0)>=0?'pos':'neg'}">${q ? `${(q.d||0)>=0?'+':''}${f(q.d)} (${f(q.dp)}%)` : '--'}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">未實現盈虧</div>
+        <div class="stat-val ${plA!=null?(plA>=0?'pos':'neg'):'neutral'}">${plA!=null ? `${plA>=0?'+':''}$${fc(Math.abs(plA))}` : '--'}</div>
+        <div class="stat-sub ${plP!=null?(plP>=0?'pos':'neg'):'neutral'}">${plP!=null ? `${plP>=0?'+':''}${f(plP)}%` : '--'}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">RSI(14)</div>
+        <div class="stat-val" style="color:${rsiColor(rsi)}">${rsi??'--'}</div>
+        <div class="stat-sub">${rsiSignal(rsi)}</div>
+      </div>
+    </div>
+    <div class="stat-grid" style="grid-template-columns:repeat(3,1fr);">
+      <div class="stat-card">
+        <div class="stat-label">持股數量</div>
+        <div class="stat-val" style="font-size:14px;color:var(--text)">${h.q} 股</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">平均成本</div>
+        <div class="stat-val" style="font-size:14px;color:var(--text)">$${f(h.c)}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">今日市值</div>
+        <div class="stat-val" style="font-size:14px;color:var(--text)">${p ? '$'+fc(p*h.q) : '--'}</div>
+      </div>
+    </div>
+    <div class="chart-box">
+      <canvas id="modalCanvas" height="180"></canvas>
+    </div>
+    <div class="chart-note">
+      📊 RSI圖表顯示過去30日走勢 ｜ 紅區 &gt;70 超買 ｜ 綠區 &lt;30 超賣<br>
+      🌙 盤後/夜盤價格：<a href="https://www.barchart.com/stocks/quotes/${t}/overview" target="_blank" style="color:var(--accent);">Barchart ${t} ↗</a>（免費API不含盤後數據）
+    </div>`;
+
+  document.getElementById('modal').classList.add('open');
+  if(cd && cd.c) setTimeout(()=>drawChart(t, cd), 80);
+}
+
+function drawChart(t, cd) {
+  const canvas = document.getElementById('modalCanvas');
+  if(!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const W   = canvas.width = canvas.parentElement.clientWidth - 24;
+  const H   = canvas.height = 180;
+
+  const closes = cd.c.slice(-30);
+  const rsiArr  = [];
+  for(let i=0;i<closes.length;i++) {
+    const sub = cd.c.slice(0, cd.c.length - closes.length + i + 1);
+    rsiArr.push(calcRSI(sub));
+  }
+
+  const pL=38, pR=10, pT=12, pB=28;
+  const cW=W-pL-pR, cH=H-pT-pB;
+
+  ctx.clearRect(0,0,W,H);
+  ctx.fillStyle='#0a0e1a'; ctx.fillRect(0,0,W,H);
+
+  // Zones
+  const y70=pT+cH-(70/100*cH);
+  const y30=pT+cH-(30/100*cH);
+  ctx.fillStyle='rgba(255,77,109,0.07)'; ctx.fillRect(pL,pT,cW,y70-pT);
+  ctx.fillStyle='rgba(0,255,157,0.07)'; ctx.fillRect(pL,y30,cW,pT+cH-y30);
+
+  // Grid lines
+  [30,50,70].forEach(lv=>{
+    const y=pT+cH-(lv/100*cH);
+    ctx.beginPath(); ctx.strokeStyle=lv===50?'#253047':'#1a2338';
+    ctx.lineWidth=1; ctx.setLineDash([3,4]);
+    ctx.moveTo(pL,y); ctx.lineTo(W-pR,y); ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle='#4a5a78'; ctx.font='9px monospace';
+    ctx.textAlign='right'; ctx.fillText(lv, pL-4, y+3);
+  });
+
+  // RSI line
+  const step = cW / Math.max(closes.length-1, 1);
+  ctx.beginPath(); ctx.lineWidth=2;
+  rsiArr.forEach((r,i)=>{
+    if(r==null) return;
+    const x=pL+i*step, y=pT+cH-(r/100*cH);
+    i===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
+  });
+  const g=ctx.createLinearGradient(pL,0,W-pR,0);
+  g.addColorStop(0,'#00d4ff'); g.addColorStop(1,'#00ff9d');
+  ctx.strokeStyle=g; ctx.stroke();
+
+  // Highlight dots
+  rsiArr.forEach((r,i)=>{
+    if(r==null||!(r>=70||r<=30)) return;
+    const x=pL+i*step, y=pT+cH-(r/100*cH);
+    ctx.beginPath(); ctx.arc(x,y,4,0,Math.PI*2);
+    ctx.fillStyle=r>=70?'#ff4d6d':'#00ff9d'; ctx.fill();
+  });
+
+  // Latest RSI label
+  const last=rsiArr.filter(x=>x!=null).slice(-1)[0];
+  if(last!=null) {
+    const lx=W-pR, ly=pT+cH-(last/100*cH);
+    ctx.fillStyle=rsiColor(last); ctx.font='bold 10px monospace';
+    ctx.textAlign='right'; ctx.fillText(`${last}`, lx, ly-6); ctx.textAlign='left';
+  }
+
+  // X labels
+  ctx.fillStyle='#4a5a78'; ctx.font='8px monospace'; ctx.textAlign='center';
+  const now=Date.now()/1000;
+  const lStep=Math.max(1,Math.floor(closes.length/6));
+  for(let i=0;i<closes.length;i+=lStep){
+    const x=pL+i*step;
+    const d=new Date((now-(closes.length-1-i)*86400)*1000);
+    ctx.fillText(`${d.getMonth()+1}/${d.getDate()}`, x, H-8);
+  }
+}
+
+// ── MODAL HELPERS ─────────────────────────────────────────
+function closeModal() { document.getElementById('modal').classList.remove('open'); }
+function handleModalClick(e) { if(e.target.id==='modal') closeModal(); }
+
+// ── TAB ──────────────────────────────────────────────────
+function showTab(tab) {
+  ['us','hk','info'].forEach(id=>{
+    document.getElementById(`tab-${id}`).style.display = id===tab?'block':'none';
+  });
+  document.querySelectorAll('.tab').forEach((el,i)=>{
+    el.classList.toggle('active', ['us','hk','info'][i]===tab);
+  });
+}
+
+// ── DOM HELPERS ──────────────────────────────────────────
+function set(id, html) { const el=document.getElementById(id); if(el){el.innerHTML=html; el.className='';} }
+function setTxt(id, t) { const el=document.getElementById(id); if(el) el.textContent=t; }
+
+// ── INIT ─────────────────────────────────────────────────
+loadAll();
+</script>
+</body>
+</html>
