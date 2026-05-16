@@ -3,594 +3,462 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>帳戶0193 持倉儀表板</title>
+<title>持倉儀表板 0193</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+HK:wght@300;400;500;700&display=swap');
-
   :root {
-    --bg: #0a0e1a; --bg2: #0f1525; --bg3: #161d30;
-    --border: #1e2a42; --accent: #00d4ff; --accent2: #00ff9d;
-    --red: #ff4d6d; --green: #00ff9d; --yellow: #ffd60a;
-    --text: #e8eaf0; --muted: #6b7a99; --card: #111827;
+    --bg: #0d0d0f;
+    --bg2: #141417;
+    --bg3: #1c1c21;
+    --border: rgba(255,255,255,0.08);
+    --border2: rgba(255,255,255,0.14);
+    --text: #e8e8ec;
+    --text2: #9898a8;
+    --text3: #5a5a6a;
+    --green: #22c87a;
+    --red: #f05252;
+    --amber: #f0a340;
+    --blue: #4da3ff;
+    --teal: #3dd6c8;
+    --accent: #4da3ff;
+    --radius: 10px;
+    --radius-lg: 14px;
   }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:var(--bg); color:var(--text); font-family:'Noto Sans HK',sans-serif; font-size:13px; min-height:100vh; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'SF Pro Display', -apple-system, 'PingFang HK', 'Noto Sans HK', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.5;
+  }
 
+  /* ── Header ── */
   .header {
-    background:linear-gradient(135deg,#0a0e1a 0%,#0f1f3d 100%);
-    border-bottom:1px solid var(--border);
-    padding:14px 20px;
-    display:flex; align-items:center; justify-content:space-between;
-    position:sticky; top:0; z-index:100;
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
-  .header-left h1 { font-family:'Space Mono',monospace; font-size:13px; color:var(--accent); letter-spacing:2px; }
-  .header-left p { font-size:10px; color:var(--muted); margin-top:2px; font-family:'Space Mono',monospace; }
-  .header-right { display:flex; align-items:center; gap:12px; }
-  .last-update { font-family:'Space Mono',monospace; font-size:10px; color:var(--muted); }
-  .refresh-btn {
-    background:var(--accent); color:#000; border:none;
-    padding:7px 16px; font-family:'Space Mono',monospace;
-    font-size:11px; cursor:pointer; border-radius:2px; font-weight:700;
-    transition:all 0.2s;
+  .logo { font-size: 16px; font-weight: 700; letter-spacing: -0.3px; color: var(--text); }
+  .logo span { color: var(--accent); }
+  .header-meta { font-size: 12px; color: var(--text2); }
+
+  /* ── Layout ── */
+  .main { display: grid; grid-template-columns: 1fr 380px; gap: 0; height: calc(100vh - 57px); overflow: hidden; }
+  .left-panel { overflow-y: auto; padding: 20px; }
+  .right-panel { border-left: 1px solid var(--border); overflow-y: auto; background: var(--bg2); }
+
+  /* ── Summary Cards ── */
+  .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 18px; }
+  .card {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
   }
-  .refresh-btn:hover { background:#00eeff; transform:translateY(-1px); }
-  .refresh-btn:disabled { opacity:0.5; cursor:not-allowed; transform:none; }
+  .card-label { font-size: 11px; color: var(--text2); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+  .card-value { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+  .card-sub { font-size: 12px; color: var(--text2); margin-top: 3px; }
+  .pos { color: var(--green); }
+  .neg { color: var(--red); }
 
-  .summary-bar {
-    display:grid; grid-template-columns:repeat(5,1fr);
-    gap:1px; background:var(--border); border-bottom:1px solid var(--border);
+  /* ── Section ── */
+  .section-header {
+    display: flex; align-items: center; gap: 8px;
+    margin-bottom: 10px;
+    font-size: 12px; font-weight: 600; color: var(--text2);
+    text-transform: uppercase; letter-spacing: 0.6px;
   }
-  .summary-item { background:var(--bg2); padding:12px 16px; text-align:center; }
-  .summary-label { font-size:9px; color:var(--muted); letter-spacing:1px; text-transform:uppercase; margin-bottom:4px; font-family:'Space Mono',monospace; }
-  .summary-value { font-family:'Space Mono',monospace; font-size:15px; font-weight:700; }
+  .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .dot-blue { background: var(--blue); }
+  .dot-green { background: var(--teal); }
+  .dot-amber { background: var(--amber); }
 
-  .tabs { display:flex; border-bottom:1px solid var(--border); background:var(--bg2); padding:0 20px; }
-  .tab { padding:11px 18px; cursor:pointer; font-size:11px; color:var(--muted); border-bottom:2px solid transparent; transition:all 0.2s; font-family:'Space Mono',monospace; letter-spacing:1px; }
-  .tab.active { color:var(--accent); border-bottom-color:var(--accent); }
-  .tab:hover { color:var(--text); }
+  /* ── Holdings Table ── */
+  .table-wrap { background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 18px; }
+  table { width: 100%; border-collapse: collapse; }
+  th {
+    font-size: 11px; color: var(--text3); font-weight: 500; text-align: right;
+    padding: 9px 14px; border-bottom: 1px solid var(--border);
+    background: var(--bg2);
+    text-transform: uppercase; letter-spacing: 0.4px;
+  }
+  th:first-child { text-align: left; }
+  td {
+    padding: 10px 14px; text-align: right;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    font-size: 13px;
+  }
+  td:first-child { text-align: left; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(255,255,255,0.025); }
 
-  .content { padding:14px 20px; }
-  .section-title { font-family:'Space Mono',monospace; font-size:9px; color:var(--muted); letter-spacing:2px; text-transform:uppercase; margin-bottom:10px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+  .ticker {
+    font-weight: 600; font-size: 13px; color: var(--blue);
+    text-decoration: none;
+    display: flex; align-items: center; gap: 5px;
+  }
+  .ticker:hover { color: var(--teal); }
+  .ticker-ext { font-size: 10px; opacity: 0.5; }
+  .name { font-size: 11px; color: var(--text2); margin-top: 1px; }
 
-  table { width:100%; border-collapse:collapse; }
-  th { font-family:'Space Mono',monospace; font-size:9px; color:var(--muted); letter-spacing:1px; text-transform:uppercase; padding:8px 8px; text-align:right; border-bottom:1px solid var(--border); white-space:nowrap; }
-  th:first-child, th:nth-child(2) { text-align:left; }
-  tr.stock-row { border-bottom:1px solid #0d1120; cursor:pointer; transition:background 0.15s; }
-  tr.stock-row:hover { background:var(--bg3); }
-  td { padding:9px 8px; text-align:right; font-family:'Space Mono',monospace; font-size:11px; white-space:nowrap; }
-  td:first-child { text-align:left; }
-  td:nth-child(2) { text-align:left; font-family:'Noto Sans HK',sans-serif; font-size:11px; color:var(--muted); }
+  .badge {
+    display: inline-block; font-size: 10px; padding: 2px 6px;
+    border-radius: 4px; font-weight: 600;
+  }
+  .badge-pos { background: rgba(34,200,122,0.12); color: var(--green); }
+  .badge-neg { background: rgba(240,82,82,0.12); color: var(--red); }
 
-  .ticker { font-weight:700; color:var(--accent); font-size:12px; }
-  .pos { color:var(--green); } .neg { color:var(--red); } .neutral { color:var(--muted); }
+  /* ── Finviz Panel ── */
+  .fv-header {
+    padding: 16px 18px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .fv-header h2 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .fv-header p { font-size: 12px; color: var(--text2); }
 
-  .rsi-bar-wrap { display:flex; align-items:center; gap:5px; justify-content:flex-end; }
-  .rsi-bar { width:50px; height:5px; background:var(--bg); border-radius:3px; overflow:hidden; border:1px solid var(--border); }
-  .rsi-fill { height:100%; border-radius:3px; }
+  .fv-list { padding: 8px; }
+  .fv-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 10px; border-radius: var(--radius);
+    cursor: pointer; transition: background 0.15s;
+    text-decoration: none; color: inherit;
+  }
+  .fv-item:hover { background: var(--bg3); }
+  .fv-item.active { background: rgba(77,163,255,0.1); }
+  .fv-ticker { font-size: 13px; font-weight: 700; color: var(--blue); min-width: 48px; }
+  .fv-name { font-size: 12px; color: var(--text2); flex: 1; }
+  .fv-pnl { font-size: 12px; font-weight: 600; }
+  .fv-btn {
+    font-size: 10px; padding: 3px 8px; border-radius: 5px;
+    background: rgba(77,163,255,0.15); color: var(--blue);
+    border: 1px solid rgba(77,163,255,0.25); flex-shrink: 0;
+    text-decoration: none;
+  }
+  .fv-btn:hover { background: rgba(77,163,255,0.25); }
 
-  .signal { display:inline-block; padding:2px 5px; border-radius:2px; font-size:9px; font-family:'Space Mono',monospace; font-weight:700; }
-  .signal-buy { background:rgba(0,255,157,0.12); color:var(--green); border:1px solid rgba(0,255,157,0.25); }
-  .signal-sell { background:rgba(255,77,109,0.12); color:var(--red); border:1px solid rgba(255,77,109,0.25); }
-  .signal-hold { background:rgba(255,214,10,0.08); color:var(--yellow); border:1px solid rgba(255,214,10,0.25); }
-  .signal-na { background:rgba(107,122,153,0.08); color:var(--muted); border:1px solid var(--border); }
+  .fv-divider { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: 0.5px; padding: 10px 18px 4px; }
 
-  .bc-link { color:var(--accent); text-decoration:none; font-size:10px; opacity:0.55; transition:opacity 0.2s; }
-  .bc-link:hover { opacity:1; }
+  .fv-alt-btn {
+    font-size: 10px; padding: 3px 8px; border-radius: 5px;
+    background: rgba(240,163,64,0.12); color: var(--amber);
+    border: 1px solid rgba(240,163,64,0.2); flex-shrink: 0;
+    text-decoration: none;
+  }
+  .fv-alt-btn:hover { background: rgba(240,163,64,0.22); }
 
-  .loading-cell { color:var(--muted); font-size:10px; }
-  .loading-cell::after { content:''; animation:dots 1.2s infinite; }
-  @keyframes dots { 0%{content:'.'} 33%{content:'..'} 66%{content:'...'} }
+  /* ── Chart Bar ── */
+  .bar-wrap { display: flex; align-items: center; gap: 6px; }
+  .bar-track { flex: 1; height: 4px; background: var(--bg); border-radius: 2px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 2px; }
+  .bar-pct { font-size: 11px; color: var(--text2); min-width: 36px; text-align: right; }
 
-  /* Modal */
-  .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.88); z-index:200; overflow-y:auto; padding:20px; }
-  .modal-overlay.open { display:block; }
-  .modal-box { max-width:720px; margin:0 auto; background:var(--bg2); border:1px solid var(--border); border-radius:6px; padding:20px; }
-  .modal-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; }
-  .modal-title { font-family:'Space Mono',monospace; color:var(--accent); font-size:14px; }
-  .close-btn { background:rgba(255,77,109,0.2); color:var(--red); border:1px solid rgba(255,77,109,0.3); padding:5px 12px; cursor:pointer; font-family:'Space Mono',monospace; font-size:11px; border-radius:2px; }
-  .close-btn:hover { background:var(--red); color:#fff; }
+  /* ── MPF block ── */
+  .mpf-block {
+    background: linear-gradient(135deg, rgba(77,163,255,0.06) 0%, rgba(61,214,200,0.06) 100%);
+    border: 1px solid rgba(77,163,255,0.15);
+    border-radius: var(--radius-lg); padding: 14px 16px; margin-bottom: 18px;
+  }
+  .mpf-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .mpf-label { font-size: 11px; color: var(--text2); min-width: 80px; }
+  .mpf-bar { flex: 1; height: 6px; background: var(--bg); border-radius: 3px; overflow: hidden; display: flex; }
+  .mpf-seg { height: 100%; }
+  .mpf-val { font-size: 12px; font-weight: 600; min-width: 40px; text-align: right; }
+  .mpf-note { font-size: 11px; color: var(--text3); margin-top: 4px; }
 
-  .stat-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:14px; }
-  .stat-card { background:var(--bg); padding:12px; border-radius:4px; border:1px solid var(--border); }
-  .stat-label { font-size:9px; color:var(--muted); font-family:'Space Mono',monospace; letter-spacing:1px; margin-bottom:4px; }
-  .stat-val { font-family:'Space Mono',monospace; font-size:17px; }
-  .stat-sub { font-size:10px; margin-top:2px; font-family:'Space Mono',monospace; }
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
 
-  .chart-box { background:var(--bg); border:1px solid var(--border); border-radius:4px; padding:12px; }
-  .chart-note { color:var(--muted); font-size:9px; margin-top:8px; font-family:'Space Mono',monospace; line-height:1.6; }
-
-  .note-box { background:rgba(0,212,255,0.05); border:1px solid rgba(0,212,255,0.15); border-radius:4px; padding:10px 14px; margin-top:12px; }
-  .note-box p { font-size:10px; color:var(--muted); line-height:1.7; font-family:'Space Mono',monospace; }
-  .note-box p strong { color:var(--accent); }
-
-  @media (max-width:700px) {
-    .summary-bar { grid-template-columns:repeat(2,1fr); }
-    .stat-grid { grid-template-columns:repeat(2,1fr); }
-    td,th { padding:7px 5px; font-size:10px; }
-    .rsi-bar { width:36px; }
-    .header-left p { display:none; }
+  @media (max-width: 900px) {
+    .main { grid-template-columns: 1fr; height: auto; }
+    .right-panel { border-left: none; border-top: 1px solid var(--border); height: 500px; }
+    .summary-grid { grid-template-columns: repeat(2, 1fr); }
   }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <div class="header-left">
-    <h1>⬡ 帳戶0193 持倉儀表板</h1>
-    <p>持倉保證金綜合帳戶 · Finnhub實時報價 · 點擊股票查看RSI圖表</p>
-  </div>
-  <div class="header-right">
-    <span class="last-update" id="updateTime">未載入</span>
-    <button class="refresh-btn" id="refreshBtn" onclick="loadAll()">⟳ 更新報價</button>
-  </div>
+  <div class="logo">持倉 <span>0193</span></div>
+  <div class="header-meta" id="update-time">更新中…</div>
 </div>
 
-<div class="summary-bar">
-  <div class="summary-item">
-    <div class="summary-label">美股總市值 USD</div>
-    <div class="summary-value" id="sumUS" style="color:var(--accent)">--</div>
-  </div>
-  <div class="summary-item">
-    <div class="summary-label">港股總市值 HKD</div>
-    <div class="summary-value" id="sumHK" style="color:var(--accent)">--</div>
-  </div>
-  <div class="summary-item">
-    <div class="summary-label">美股未實現盈虧</div>
-    <div class="summary-value" id="sumPnL">--</div>
-  </div>
-  <div class="summary-item">
-    <div class="summary-label">今日盈虧 USD</div>
-    <div class="summary-value" id="sumToday">--</div>
-  </div>
-  <div class="summary-item">
-    <div class="summary-label">持倉數目</div>
-    <div class="summary-value" style="color:var(--yellow)">17🇺🇸 + 3🇭🇰</div>
-  </div>
-</div>
+<div class="main">
+  <!-- Left Panel -->
+  <div class="left-panel">
 
-<div class="tabs">
-  <div class="tab active" onclick="showTab('us')">🇺🇸 美股持倉 (17隻)</div>
-  <div class="tab" onclick="showTab('hk')">🇭🇰 港股持倉 (3隻)</div>
-  <div class="tab" onclick="showTab('info')">ℹ 使用說明</div>
-</div>
+    <!-- Summary -->
+    <div class="summary-grid">
+      <div class="card">
+        <div class="card-label">美股市值 (USD)</div>
+        <div class="card-value" id="us-mv">—</div>
+        <div class="card-sub">17 持倉</div>
+      </div>
+      <div class="card">
+        <div class="card-label">港股市值 (HKD)</div>
+        <div class="card-value" id="hk-mv">—</div>
+        <div class="card-sub">3 持倉</div>
+      </div>
+      <div class="card">
+        <div class="card-label">未實現盈虧 (USD)</div>
+        <div class="card-value pos" id="us-pnl">—</div>
+        <div class="card-sub" id="us-pnl-pct">—</div>
+      </div>
+      <div class="card">
+        <div class="card-label">未實現盈虧 (HKD)</div>
+        <div class="card-value" id="hk-pnl">—</div>
+        <div class="card-sub" id="hk-pnl-sub">—</div>
+      </div>
+    </div>
 
-<div class="content">
+    <!-- MPF -->
+    <div class="mpf-block">
+      <div style="font-size:12px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px;">MPF 配置 · 宏利環球精選</div>
+      <div class="mpf-row">
+        <div class="mpf-label">北美股票</div>
+        <div class="mpf-bar">
+          <div class="mpf-seg" style="width:65%;background:var(--blue);"></div>
+          <div class="mpf-seg" style="width:35%;background:var(--teal);"></div>
+        </div>
+        <div class="mpf-val" style="color:var(--blue);">65%</div>
+      </div>
+      <div class="mpf-row">
+        <div class="mpf-label">日本股票</div>
+        <div class="mpf-bar">
+          <div class="mpf-seg" style="width:35%;background:var(--teal);"></div>
+        </div>
+        <div class="mpf-val" style="color:var(--teal);">35%</div>
+      </div>
+      <div class="mpf-note">SHK130 北美 65% · SHK131 日本 35% · 轉換生效 T+2 工作日</div>
+    </div>
 
-  <div id="tab-us">
-    <div class="section-title">美國股票持倉 — 點擊任何一行查看RSI圖表</div>
-    <table>
-      <thead>
-        <tr>
-          <th>代碼</th><th>名稱</th><th>持股</th><th>成本價</th>
-          <th>現價</th><th>今日升跌</th><th>市值</th>
-          <th>盈虧%</th><th>盈虧額</th>
-          <th>RSI(14)</th><th>信號</th><th>Barchart</th>
-        </tr>
-      </thead>
-      <tbody id="usTable"></tbody>
-    </table>
-    <p style="color:var(--muted);font-size:9px;margin-top:10px;font-family:'Space Mono',monospace;">
-      * 盤後/夜盤價格請點擊 ↗BC 連結直接查閱Barchart（免費API不支援盤後數據）
-    </p>
-  </div>
+    <!-- US Stocks -->
+    <div class="section-header"><div class="dot dot-blue"></div>美股持倉</div>
+    <div class="table-wrap">
+      <table id="us-table">
+        <thead>
+          <tr>
+            <th>股票</th>
+            <th>現價</th>
+            <th>市值</th>
+            <th>盈虧%</th>
+            <th>佔比</th>
+            <th>今日</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
 
-  <div id="tab-hk" style="display:none">
-    <div class="section-title">香港股票持倉 — 價格來自最新CSV記錄</div>
-    <table>
-      <thead>
-        <tr>
-          <th>代碼</th><th>名稱</th><th>持股</th><th>成本價(HKD)</th>
-          <th>現價(HKD)</th><th>市值(HKD)</th><th>盈虧%</th><th>盈虧額(HKD)</th><th>Barchart</th>
-        </tr>
-      </thead>
-      <tbody id="hkTable"></tbody>
-    </table>
-    <div class="note-box" style="margin-top:14px;">
-      <p>⚠ <strong>港股說明：</strong> Finnhub免費API不支援港股實時報價。現價來自你最後上傳嘅CSV檔案（2026-05-16）。<br>
-      如需實時港股價格，請更新CSV後重新上傳到對話，或點擊 ↗BC 查閱Barchart。</p>
+    <!-- HK Stocks -->
+    <div class="section-header"><div class="dot dot-green"></div>港股持倉</div>
+    <div class="table-wrap">
+      <table id="hk-table">
+        <thead>
+          <tr>
+            <th>股票</th>
+            <th>現價</th>
+            <th>市值</th>
+            <th>盈虧%</th>
+            <th>佔比</th>
+            <th>今日</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div style="font-size:11px;color:var(--text3);text-align:center;padding:12px 0;">
+      數據來源：CSV 持倉文件 · 即時報價請按 Finviz / Yahoo Finance 連結
     </div>
   </div>
 
-  <div id="tab-info" style="display:none">
-    <div class="section-title">使用說明</div>
-    <div class="note-box">
-      <p>
-        <strong>【更新報價】</strong> 點擊右上角「⟳ 更新報價」按鈕，即時從Finnhub抓取最新美股價格及RSI。<br><br>
-        <strong>【RSI圖表】</strong> 點擊任何美股行，彈出視窗顯示過去30日RSI走勢圖。<br>
-        RSI &gt; 70 = 超買（紅色警示）｜RSI &lt; 30 = 超賣（綠色機會）｜50附近 = 中性<br><br>
-        <strong>【Barchart連結】</strong> 每行右側「↗BC」直接跳去Barchart該股頁面，可查閱盤前/盤後價、詳細圖表、期權數據。<br><br>
-        <strong>【港股更新】</strong> 每次從券商下載最新CSV，上傳到Claude對話，請Claude重新生成此HTML檔案。<br><br>
-        <strong>【API Key】</strong> 本檔案使用Finnhub免費API，每分鐘限60次請求，足夠日常使用。<br><br>
-        <strong>【本地使用】</strong> 此檔案完全離線可用（API calls除外），雙擊HTML即可在瀏覽器打開，無需安裝任何軟件。
-      </p>
+  <!-- Right Panel: Finviz Quick Links -->
+  <div class="right-panel">
+    <div class="fv-header">
+      <h2>🔍 Finviz 快速分析</h2>
+      <p>按個別股票連結，直接在 Finviz 查看圖表、基本面及技術分析</p>
     </div>
-    <div class="note-box" style="margin-top:12px;border-color:rgba(255,214,10,0.2);background:rgba(255,214,10,0.03);">
-      <p>
-        <strong style="color:var(--yellow);">【GitHub Pages進階方法】</strong><br>
-        如想透過固定網址隨時隨地查閱（手機/平板/任何瀏覽器）：<br>
-        1. 免費註冊 github.com<br>
-        2. 新建Repository命名為 <strong>portfolio</strong><br>
-        3. 上傳此HTML檔案，改名為 <strong>index.html</strong><br>
-        4. Settings → Pages → 選 main branch → Save<br>
-        5. 約1分鐘後獲得固定網址：<strong>yourname.github.io/portfolio</strong><br>
-        每次更新持倉，只需替換index.html即可。
-      </p>
-    </div>
-  </div>
 
-</div>
-
-<!-- RSI Modal -->
-<div class="modal-overlay" id="modal" onclick="handleModalClick(event)">
-  <div class="modal-box">
-    <div class="modal-header">
-      <div class="modal-title" id="modalTitle"></div>
-      <button class="close-btn" onclick="closeModal()">✕ 關閉</button>
+    <div class="fv-list" id="fv-list">
+      <!-- 由 JS 生成 -->
     </div>
-    <div id="modalContent"></div>
+
+    <div style="padding:12px 18px;border-top:1px solid var(--border);margin-top:8px;">
+      <div style="font-size:11px;color:var(--text3);margin-bottom:8px;">Finviz 快捷工具</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;">
+        <a href="https://finviz.com/screener.ashx?v=111&f=geo_usa&o=-change" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">📈 今日升幅榜</a>
+        <a href="https://finviz.com/map.ashx?t=sec" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">🗺️ 股市熱力圖</a>
+        <a href="https://finviz.com/futures.ashx" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">⚡ 期貨報價</a>
+        <a href="https://finviz.com/quote.ashx?t=SPY" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">SPY 標普500</a>
+        <a href="https://finviz.com/quote.ashx?t=QQQ" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">QQQ 納指</a>
+        <a href="https://finviz.com/quote.ashx?t=VIX" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(240,82,82,0.1);color:var(--red);border:1px solid rgba(240,82,82,0.2);text-decoration:none;">VIX 恐慌指數</a>
+      </div>
+    </div>
+
+    <div style="padding:12px 18px;">
+      <div style="font-size:11px;color:var(--text3);margin-bottom:8px;">港股 / 韓股 → Yahoo Finance HK</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;" id="hk-links"></div>
+    </div>
   </div>
 </div>
 
 <script>
-// ── CONFIG ──────────────────────────────────────────────
-const API_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
-const BASE    = 'https://finnhub.io/api/v1';
-
-// ── HOLDINGS (從CSV同步) ─────────────────────────────────
-const US = [
-  {t:'GOOGL', n:'谷歌-A',           q:15,  c:178.4   },
-  {t:'NVDA',  n:'英偉達',            q:25,  c:148.5   },
-  {t:'MU',    n:'美光科技',          q:7,   c:429.0   },
-  {t:'AVGO',  n:'博通',              q:5,   c:337.564 },
-  {t:'META',  n:'Meta Platforms',   q:3,   c:606.333 },
-  {t:'TER',   n:'泰瑞達',            q:5,   c:92.0    },
-  {t:'LEU',   n:'Centrus Energy',   q:8,   c:197.5   },
-  {t:'OKLO',  n:'Oklo Inc',         q:20,  c:21.067  },
-  {t:'RKLB',  n:'Rocket Lab',       q:10,  c:42.0    },
-  {t:'PLTR',  n:'Palantir',         q:7,   c:124.335 },
-  {t:'ISRG',  n:'直覺外科',          q:2,   c:453.1   },
-  {t:'VRT',   n:'Vertiv Holdings',  q:2,   c:303.76  },
-  {t:'RDW',   n:'Redwire',          q:100, c:12.4    },
-  {t:'RR',    n:'Richtech Robotics',q:200, c:2.735   },
-  {t:'ASTS',  n:'AST SpaceMobile',  q:5,   c:100.0   },
-  {t:'MRVL',  n:'邁威爾科技',        q:2,   c:58.0    },
-  {t:'SERV',  n:'Serve Robotics',   q:30,  c:11.743  },
+const holdings = [
+  { code:'GOOGL', name:'谷歌-A', qty:15, price:400.65, cost:178.4, mv:'6,009.75', pnl:'+124.58%', pnl_usd:'+3,333.75', today:-29.55, pct:'6.83%', ccy:'USD' },
+  { code:'NVDA',  name:'英偉達',  qty:25, price:234.06, cost:148.5, mv:'5,851.50', pnl:'+57.62%', pnl_usd:'+2,139.01', today:205.75, pct:'6.65%', ccy:'USD' },
+  { code:'MU',    name:'美光科技',qty:7,  price:785.25, cost:429.0, mv:'4,711.50', pnl:'+106.64%',pnl_usd:'+2,431.50', today:-97.54, pct:'5.35%', ccy:'USD' },
+  { code:'AVGO',  name:'博通',    qty:5,  price:433.55, cost:337.564,mv:'2,167.75',pnl:'+28.43%', pnl_usd:'+479.93',  today:83.8,  pct:'2.46%', ccy:'USD' },
+  { code:'META',  name:'Meta',    qty:3,  price:619.13, cost:606.333,mv:'1,857.39',pnl:'+2.11%',  pnl_usd:'+38.39',   today:7.5,   pct:'2.11%', ccy:'USD' },
+  { code:'TER',   name:'泰瑞達',  qty:5,  price:355.67, cost:92.0,  mv:'1,778.35', pnl:'+286.60%',pnl_usd:'+1,318.35',today:-38.55,pct:'2.02%', ccy:'USD' },
+  { code:'LEU',   name:'Centrus', qty:8,  price:189.88, cost:197.5, mv:'1,519.04', pnl:'-3.86%',  pnl_usd:'-60.96',   today:-19.44,pct:'1.73%', ccy:'USD' },
+  { code:'OKLO',  name:'Oklo',    qty:20, price:66.05,  cost:21.067,mv:'1,321.00', pnl:'+213.52%',pnl_usd:'+899.67',  today:-72.2, pct:'1.50%', ccy:'USD' },
+  { code:'RKLB',  name:'Rocket Lab',qty:10,price:129.49,cost:42.0, mv:'1,294.90', pnl:'+208.31%',pnl_usd:'+874.90',  today:53.4,  pct:'1.47%', ccy:'USD' },
+  { code:'PLTR',  name:'Palantir',qty:7,  price:133.301,cost:124.335,mv:'933.10', pnl:'+7.21%',  pnl_usd:'+62.76',   today:22.75, pct:'1.06%', ccy:'USD' },
+  { code:'ISRG',  name:'直覺外科',qty:2,  price:429.65, cost:453.1, mv:'859.30',  pnl:'-5.18%',  pnl_usd:'-46.90',   today:-5.24, pct:'0.98%', ccy:'USD' },
+  { code:'VRT',   name:'Vertiv',  qty:2,  price:371.295,cost:303.76,mv:'742.59',  pnl:'+22.23%', pnl_usd:'+135.07',  today:2.61,  pct:'0.84%', ccy:'USD' },
+  { code:'RDW',   name:'Redwire', qty:100,price:14.185, cost:12.4,  mv:'709.25',  pnl:'+28.95%', pnl_usd:'+159.25',  today:136.25,pct:'0.81%', ccy:'USD' },
+  { code:'RR',    name:'Richtech Robotics',qty:200,price:2.74,cost:2.735,mv:'548.00',pnl:'+0.18%',pnl_usd:'+1.09',  today:-16.0, pct:'0.62%', ccy:'USD' },
+  { code:'ASTS',  name:'AST SpaceMobile',qty:5,price:81.5,cost:100.0,mv:'407.50', pnl:'-18.50%', pnl_usd:'-92.50',   today:33.45, pct:'0.46%', ccy:'USD' },
+  { code:'MRVL',  name:'邁威爾科技',qty:2,price:181.025,cost:58.0, mv:'362.05',  pnl:'+212.11%',pnl_usd:'+246.05',  today:6.15,  pct:'0.41%', ccy:'USD' },
+  { code:'SERV',  name:'Serve Robotics',qty:30,price:8.83,cost:11.743,mv:'264.90',pnl:'-24.81%', pnl_usd:'-87.40',   today:6.0,   pct:'0.30%', ccy:'USD' },
 ];
 
-const HK = [
-  {t:'7709',  n:'南方兩倍做多海力士', q:400, c:15.8,  p:105.6,  mv:42240  },
-  {t:'2367',  n:'巨子生物',           q:600, c:38.0,  p:30.86,  mv:18516  },
-  {t:'9988',  n:'阿里巴巴-W',         q:100, c:165.0, p:132.8,  mv:13280  },
+const hkHoldings = [
+  { code:'7709', name:'南方兩倍做多海力士', qty:400, price:105.6,  cost:15.8,  mv:'42,240',  pnl:'+568.35%', pnl_hkd:'+35,920', today:0,   pct:'6.14%', ccy:'HKD' },
+  { code:'2367', name:'巨子生物',           qty:600, price:30.86,  cost:38.0,  mv:'18,516',  pnl:'-18.79%',  pnl_hkd:'-4,284',  today:0,   pct:'2.69%', ccy:'HKD' },
+  { code:'9988', name:'阿里巴巴-W',         qty:100, price:132.8,  cost:165.0, mv:'13,280',  pnl:'-19.52%',  pnl_hkd:'-3,220',  today:0,   pct:'1.93%', ccy:'HKD' },
 ];
 
-// ── STATE ────────────────────────────────────────────────
-let quotes  = {};
-let candles = {};
-
-// ── HELPERS ──────────────────────────────────────────────
-const f  = (n,d=2) => (n==null||isNaN(n)) ? '--' : n.toFixed(d);
-const fc = n => n==null ? '--' : n.toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2});
-
-function colorSpan(n, text, prefix='') {
-  if(n==null) return `<span class="neutral">${text}</span>`;
-  return `<span class="${n>=0?'pos':'neg'}">${prefix}${text}</span>`;
+function pnlClass(str) {
+  if (!str) return '';
+  return str.startsWith('+') ? 'pos' : 'neg';
 }
 
-function pctSpan(n) {
-  if(n==null||isNaN(n)) return '<span class="neutral">--</span>';
-  return colorSpan(n, `${n>=0?'+':''}${f(n)}%`);
+function todayColor(v) {
+  if (v > 0) return 'style="color:var(--green)"';
+  if (v < 0) return 'style="color:var(--red)"';
+  return 'style="color:var(--text2)"';
 }
 
-function calcRSI(closes, period=14) {
-  if(!closes||closes.length<period+2) return null;
-  let g=0,l=0;
-  for(let i=1;i<=period;i++){const d=closes[i]-closes[i-1];d>0?g+=d:l+=Math.abs(d);}
-  let ag=g/period, al=l/period;
-  for(let i=period+1;i<closes.length;i++){
-    const d=closes[i]-closes[i-1];
-    ag=(ag*(period-1)+(d>0?d:0))/period;
-    al=(al*(period-1)+(d<0?Math.abs(d):0))/period;
-  }
-  if(al===0) return 100;
-  return Math.round(100-(100/(1+ag/al)));
+function barWidth(pct) {
+  return parseFloat(pct) || 0;
 }
 
-function rsiColor(r) {
-  if(r==null) return 'var(--muted)';
-  if(r>=70) return 'var(--red)';
-  if(r<=30) return 'var(--green)';
-  if(r>=60) return '#ff9a3c';
-  if(r<=40) return '#7ef2a3';
-  return 'var(--yellow)';
-}
+// Build US table
+const usTbody = document.querySelector('#us-table tbody');
+let usMV = 0, usPNL = 0;
+holdings.forEach(h => {
+  const mv = parseFloat(h.mv.replace(/,/g,'')) || 0;
+  const pnlRaw = parseFloat((h.pnl_usd||'').replace(/[+,]/g,'')) || 0;
+  usMV += mv; usPNL += pnlRaw;
 
-function rsiSignal(r) {
-  if(r==null) return '<span class="signal signal-na">--</span>';
-  if(r>=75) return '<span class="signal signal-sell">超買⚠</span>';
-  if(r>=65) return '<span class="signal signal-sell">偏高</span>';
-  if(r<=25) return '<span class="signal signal-buy">超賣✓</span>';
-  if(r<=35) return '<span class="signal signal-buy">偏低</span>';
-  return '<span class="signal signal-hold">中性</span>';
-}
+  const todaySgn = h.today >= 0 ? '+' : '';
+  const pctNum = barWidth(h.pct);
+  const barColor = h.pnl.startsWith('+') ? 'var(--green)' : 'var(--red)';
 
-function rsiBar(r) {
-  if(r==null) return '<span class="neutral" style="font-size:10px;">--</span>';
-  const pct=Math.max(0,Math.min(100,r));
-  const col=rsiColor(r);
-  return `<div class="rsi-bar-wrap">
-    <div class="rsi-bar"><div class="rsi-fill" style="width:${pct}%;background:${col}"></div></div>
-    <span style="color:${col};font-size:11px;min-width:24px;">${r}</span>
-  </div>`;
-}
-
-function bcLink(ticker, hk=false) {
-  const url = hk
-    ? `https://www.barchart.com/stocks/quotes/${ticker}`
-    : `https://www.barchart.com/stocks/quotes/${ticker}/overview`;
-  return `<a href="${url}" target="_blank" class="bc-link" title="Barchart">↗BC</a>`;
-}
-
-// ── API CALLS ────────────────────────────────────────────
-async function getQuote(t) {
-  try {
-    const r = await fetch(`${BASE}/quote?symbol=${t}&token=${API_KEY}`);
-    if(!r.ok) return null;
-    return await r.json();
-  } catch { return null; }
-}
-
-async function getCandles(t) {
-  const to   = Math.floor(Date.now()/1000);
-  const from = to - 86400*70;
-  try {
-    const r = await fetch(`${BASE}/stock/candle?symbol=${t}&resolution=D&from=${from}&to=${to}&token=${API_KEY}`);
-    if(!r.ok) return null;
-    const d = await r.json();
-    return d.s==='ok' ? d : null;
-  } catch { return null; }
-}
-
-// ── LOAD ALL ─────────────────────────────────────────────
-async function loadAll() {
-  const btn = document.getElementById('refreshBtn');
-  btn.disabled=true; btn.textContent='載入中…';
-
-  // Render skeleton rows
-  document.getElementById('usTable').innerHTML = US.map(h=>`
-    <tr class="stock-row" onclick="showDetail('${h.t}')">
-      <td><span class="ticker">${h.t}</span></td>
-      <td>${h.n}</td>
-      <td>${h.q}</td>
-      <td>$${f(h.c)}</td>
-      <td id="P_${h.t}" class="loading-cell">載入</td>
-      <td id="D_${h.t}" class="loading-cell">載入</td>
-      <td id="MV_${h.t}" class="loading-cell">載入</td>
-      <td id="PL_${h.t}" class="loading-cell">載入</td>
-      <td id="PA_${h.t}" class="loading-cell">載入</td>
-      <td id="R_${h.t}" class="loading-cell">載入</td>
-      <td id="S_${h.t}" class="loading-cell">載入</td>
-      <td>${bcLink(h.t)}</td>
-    </tr>`).join('');
-
-  renderHK();
-
-  // Fetch concurrently
-  let totMV=0, totPnL=0, totToday=0;
-
-  await Promise.all(US.map(async h => {
-    const [q, cd] = await Promise.all([getQuote(h.t), getCandles(h.t)]);
-
-    if(q && q.c) {
-      quotes[h.t] = q;
-      const p   = q.c;
-      const mv  = p * h.q;
-      const plP = (p-h.c)/h.c*100;
-      const plA = (p-h.c)*h.q;
-      const day = (q.d||0)*h.q;
-      totMV    += mv;
-      totPnL   += plA;
-      totToday += day;
-
-      set(`P_${h.t}`,  `$${f(p)}`);
-      set(`D_${h.t}`,  `<span class="${(q.d||0)>=0?'pos':'neg'}">${(q.d||0)>=0?'+':''}${f(q.d)} (${f(q.dp)}%)</span>`);
-      set(`MV_${h.t}`, `$${fc(mv)}`);
-      set(`PL_${h.t}`, pctSpan(plP));
-      set(`PA_${h.t}`, colorSpan(plA, `${plA>=0?'+':''}$${fc(Math.abs(plA))}`));
-    } else {
-      ['P_','D_','MV_','PL_','PA_'].forEach(k=>set(`${k}${h.t}`,'<span class="neg">ERR</span>'));
-    }
-
-    if(cd && cd.c && cd.c.length>15) {
-      candles[h.t] = cd;
-      const rsi = calcRSI(cd.c);
-      set(`R_${h.t}`, rsiBar(rsi));
-      set(`S_${h.t}`, rsiSignal(rsi));
-    } else {
-      set(`R_${h.t}`, '<span class="neutral" style="font-size:10px;">--</span>');
-      set(`S_${h.t}`, '<span class="neutral" style="font-size:10px;">--</span>');
-    }
-  }));
-
-  // Summary
-  setTxt('sumUS',    `$${Math.round(totMV).toLocaleString()}`);
-  setTxt('sumHK',    `HK$${(42240+18516+13280).toLocaleString()}`);
-  document.getElementById('sumPnL').innerHTML   = colorSpan(totPnL,  `${totPnL>=0?'+':''}$${fc(Math.abs(totPnL))}`);
-  document.getElementById('sumToday').innerHTML = colorSpan(totToday,`${totToday>=0?'+':''}$${fc(Math.abs(totToday))}`);
-  setTxt('updateTime', '更新: '+new Date().toLocaleTimeString('zh-HK'));
-
-  btn.disabled=false; btn.textContent='⟳ 更新報價';
-}
-
-function renderHK() {
-  document.getElementById('hkTable').innerHTML = HK.map(h=>{
-    const plP = (h.p-h.c)/h.c*100;
-    const plA = (h.p-h.c)*h.q;
-    return `<tr class="stock-row">
-      <td><span class="ticker">${h.t}</span></td>
-      <td>${h.n}</td><td>${h.q}</td>
-      <td>HK$${f(h.c)}</td>
-      <td>HK$${f(h.p)}</td>
-      <td>HK$${h.mv.toLocaleString()}</td>
-      <td>${pctSpan(plP)}</td>
-      <td>${colorSpan(plA,`${plA>=0?'+':''}HK$${fc(Math.abs(plA))}`)}</td>
-      <td>${bcLink(h.t, true)}</td>
+  usTbody.innerHTML += `
+    <tr>
+      <td>
+        <a class="ticker" href="https://finviz.com/quote.ashx?t=${h.code}" target="_blank">
+          ${h.code} <span class="ticker-ext">↗</span>
+        </a>
+        <div class="name">${h.name} × ${h.qty}</div>
+      </td>
+      <td>$${h.price.toLocaleString()}</td>
+      <td>$${h.mv}</td>
+      <td><span class="badge ${h.pnl.startsWith('+') ? 'badge-pos' : 'badge-neg'}">${h.pnl}</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:${Math.min(pctNum*8,100)}%;background:${barColor};"></div></div>
+          <div class="bar-pct">${h.pct}</div>
+        </div>
+      </td>
+      <td ${todayColor(h.today)}>${todaySgn}${h.today.toFixed(2)}</td>
     </tr>`;
-  }).join('');
-}
+});
 
-// ── DETAIL MODAL ─────────────────────────────────────────
-function showDetail(t) {
-  const h = US.find(x=>x.t===t);
-  const q = quotes[t];
-  const cd= candles[t];
-  if(!h) return;
+document.getElementById('us-mv').textContent = '$' + usMV.toLocaleString('en-US',{maximumFractionDigits:0});
+const usPNLEl = document.getElementById('us-pnl');
+usPNLEl.textContent = (usPNL >= 0 ? '+$' : '-$') + Math.abs(usPNL).toLocaleString('en-US',{maximumFractionDigits:0});
+usPNLEl.className = 'card-value ' + (usPNL >= 0 ? 'pos' : 'neg');
+document.getElementById('us-pnl-pct').textContent = '未實現盈虧（USD）';
 
-  document.getElementById('modalTitle').textContent = `${t}  ${h.n}`;
+// Build HK table
+const hkTbody = document.querySelector('#hk-table tbody');
+let hkMV = 0, hkPNL = 0;
+hkHoldings.forEach(h => {
+  const mv = parseFloat(h.mv.replace(/,/g,'')) || 0;
+  const pnlRaw = parseFloat((h.pnl_hkd||'').replace(/[+,]/g,'')) || 0;
+  hkMV += mv; hkPNL += pnlRaw;
 
-  const p    = q ? q.c : null;
-  const plP  = p ? (p-h.c)/h.c*100 : null;
-  const plA  = p ? (p-h.c)*h.q : null;
-  const rsi  = cd ? calcRSI(cd.c) : null;
+  const pctNum = barWidth(h.pct);
+  const barColor = h.pnl.startsWith('+') ? 'var(--green)' : 'var(--red)';
+  const yhCode = h.code.length <= 4 ? h.code + '.HK' : h.code + '.HK';
 
-  document.getElementById('modalContent').innerHTML = `
-    <div class="stat-grid">
-      <div class="stat-card">
-        <div class="stat-label">現價</div>
-        <div class="stat-val" style="color:var(--accent)">${p ? '$'+f(p) : '--'}</div>
-        <div class="stat-sub ${(q?.d||0)>=0?'pos':'neg'}">${q ? `${(q.d||0)>=0?'+':''}${f(q.d)} (${f(q.dp)}%)` : '--'}</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">未實現盈虧</div>
-        <div class="stat-val ${plA!=null?(plA>=0?'pos':'neg'):'neutral'}">${plA!=null ? `${plA>=0?'+':''}$${fc(Math.abs(plA))}` : '--'}</div>
-        <div class="stat-sub ${plP!=null?(plP>=0?'pos':'neg'):'neutral'}">${plP!=null ? `${plP>=0?'+':''}${f(plP)}%` : '--'}</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">RSI(14)</div>
-        <div class="stat-val" style="color:${rsiColor(rsi)}">${rsi??'--'}</div>
-        <div class="stat-sub">${rsiSignal(rsi)}</div>
-      </div>
-    </div>
-    <div class="stat-grid" style="grid-template-columns:repeat(3,1fr);">
-      <div class="stat-card">
-        <div class="stat-label">持股數量</div>
-        <div class="stat-val" style="font-size:14px;color:var(--text)">${h.q} 股</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">平均成本</div>
-        <div class="stat-val" style="font-size:14px;color:var(--text)">$${f(h.c)}</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">今日市值</div>
-        <div class="stat-val" style="font-size:14px;color:var(--text)">${p ? '$'+fc(p*h.q) : '--'}</div>
-      </div>
-    </div>
-    <div class="chart-box">
-      <canvas id="modalCanvas" height="180"></canvas>
-    </div>
-    <div class="chart-note">
-      📊 RSI圖表顯示過去30日走勢 ｜ 紅區 &gt;70 超買 ｜ 綠區 &lt;30 超賣<br>
-      🌙 盤後/夜盤價格：<a href="https://www.barchart.com/stocks/quotes/${t}/overview" target="_blank" style="color:var(--accent);">Barchart ${t} ↗</a>（免費API不含盤後數據）
-    </div>`;
+  hkTbody.innerHTML += `
+    <tr>
+      <td>
+        <a class="ticker" href="https://finance.yahoo.com/quote/${h.code}.HK" target="_blank">
+          ${h.code} <span class="ticker-ext">↗</span>
+        </a>
+        <div class="name">${h.name} × ${h.qty}</div>
+      </td>
+      <td>$${h.price.toFixed(2)}</td>
+      <td>$${h.mv}</td>
+      <td><span class="badge ${h.pnl.startsWith('+') ? 'badge-pos' : 'badge-neg'}">${h.pnl}</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:${Math.min(pctNum*8,100)}%;background:${barColor};"></div></div>
+          <div class="bar-pct">${h.pct}</div>
+        </div>
+      </td>
+      <td style="color:var(--text2)">—</td>
+    </tr>`;
+});
 
-  document.getElementById('modal').classList.add('open');
-  if(cd && cd.c) setTimeout(()=>drawChart(t, cd), 80);
-}
+document.getElementById('hk-mv').textContent = '$' + hkMV.toLocaleString('en-US',{maximumFractionDigits:0});
+const hkPNLEl = document.getElementById('hk-pnl');
+hkPNLEl.textContent = (hkPNL >= 0 ? '+$' : '-$') + Math.abs(hkPNL).toLocaleString('en-US',{maximumFractionDigits:0});
+hkPNLEl.className = 'card-value ' + (hkPNL >= 0 ? 'pos' : 'neg');
+document.getElementById('hk-pnl-sub').textContent = '未實現盈虧（HKD）';
 
-function drawChart(t, cd) {
-  const canvas = document.getElementById('modalCanvas');
-  if(!canvas) return;
-  const ctx = canvas.getContext('2d');
-  const W   = canvas.width = canvas.parentElement.clientWidth - 24;
-  const H   = canvas.height = 180;
+// Finviz quick list (US stocks only)
+const fvList = document.getElementById('fv-list');
+holdings.forEach(h => {
+  const pnlPos = h.pnl.startsWith('+');
+  fvList.innerHTML += `
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=${h.code}" target="_blank">
+      <div class="fv-ticker">${h.code}</div>
+      <div class="fv-name">${h.name}</div>
+      <div class="fv-pnl ${pnlPos ? 'pos' : 'neg'}">${h.pnl}</div>
+      <div class="fv-btn">Finviz ↗</div>
+    </a>`;
+});
 
-  const closes = cd.c.slice(-30);
-  const rsiArr  = [];
-  for(let i=0;i<closes.length;i++) {
-    const sub = cd.c.slice(0, cd.c.length - closes.length + i + 1);
-    rsiArr.push(calcRSI(sub));
-  }
+// HK links
+const hkLinks = document.getElementById('hk-links');
+hkHoldings.forEach(h => {
+  const pnlPos = h.pnl.startsWith('+');
+  hkLinks.innerHTML += `
+    <a href="https://finance.yahoo.com/quote/${h.code}.HK" target="_blank"
+       style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(240,163,64,0.1);color:var(--amber);border:1px solid rgba(240,163,64,0.2);text-decoration:none;">
+      ${h.code} ${h.name} ↗
+    </a>`;
+});
 
-  const pL=38, pR=10, pT=12, pB=28;
-  const cW=W-pL-pR, cH=H-pT-pB;
-
-  ctx.clearRect(0,0,W,H);
-  ctx.fillStyle='#0a0e1a'; ctx.fillRect(0,0,W,H);
-
-  // Zones
-  const y70=pT+cH-(70/100*cH);
-  const y30=pT+cH-(30/100*cH);
-  ctx.fillStyle='rgba(255,77,109,0.07)'; ctx.fillRect(pL,pT,cW,y70-pT);
-  ctx.fillStyle='rgba(0,255,157,0.07)'; ctx.fillRect(pL,y30,cW,pT+cH-y30);
-
-  // Grid lines
-  [30,50,70].forEach(lv=>{
-    const y=pT+cH-(lv/100*cH);
-    ctx.beginPath(); ctx.strokeStyle=lv===50?'#253047':'#1a2338';
-    ctx.lineWidth=1; ctx.setLineDash([3,4]);
-    ctx.moveTo(pL,y); ctx.lineTo(W-pR,y); ctx.stroke(); ctx.setLineDash([]);
-    ctx.fillStyle='#4a5a78'; ctx.font='9px monospace';
-    ctx.textAlign='right'; ctx.fillText(lv, pL-4, y+3);
-  });
-
-  // RSI line
-  const step = cW / Math.max(closes.length-1, 1);
-  ctx.beginPath(); ctx.lineWidth=2;
-  rsiArr.forEach((r,i)=>{
-    if(r==null) return;
-    const x=pL+i*step, y=pT+cH-(r/100*cH);
-    i===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
-  });
-  const g=ctx.createLinearGradient(pL,0,W-pR,0);
-  g.addColorStop(0,'#00d4ff'); g.addColorStop(1,'#00ff9d');
-  ctx.strokeStyle=g; ctx.stroke();
-
-  // Highlight dots
-  rsiArr.forEach((r,i)=>{
-    if(r==null||!(r>=70||r<=30)) return;
-    const x=pL+i*step, y=pT+cH-(r/100*cH);
-    ctx.beginPath(); ctx.arc(x,y,4,0,Math.PI*2);
-    ctx.fillStyle=r>=70?'#ff4d6d':'#00ff9d'; ctx.fill();
-  });
-
-  // Latest RSI label
-  const last=rsiArr.filter(x=>x!=null).slice(-1)[0];
-  if(last!=null) {
-    const lx=W-pR, ly=pT+cH-(last/100*cH);
-    ctx.fillStyle=rsiColor(last); ctx.font='bold 10px monospace';
-    ctx.textAlign='right'; ctx.fillText(`${last}`, lx, ly-6); ctx.textAlign='left';
-  }
-
-  // X labels
-  ctx.fillStyle='#4a5a78'; ctx.font='8px monospace'; ctx.textAlign='center';
-  const now=Date.now()/1000;
-  const lStep=Math.max(1,Math.floor(closes.length/6));
-  for(let i=0;i<closes.length;i+=lStep){
-    const x=pL+i*step;
-    const d=new Date((now-(closes.length-1-i)*86400)*1000);
-    ctx.fillText(`${d.getMonth()+1}/${d.getDate()}`, x, H-8);
-  }
-}
-
-// ── MODAL HELPERS ─────────────────────────────────────────
-function closeModal() { document.getElementById('modal').classList.remove('open'); }
-function handleModalClick(e) { if(e.target.id==='modal') closeModal(); }
-
-// ── TAB ──────────────────────────────────────────────────
-function showTab(tab) {
-  ['us','hk','info'].forEach(id=>{
-    document.getElementById(`tab-${id}`).style.display = id===tab?'block':'none';
-  });
-  document.querySelectorAll('.tab').forEach((el,i)=>{
-    el.classList.toggle('active', ['us','hk','info'][i]===tab);
-  });
-}
-
-// ── DOM HELPERS ──────────────────────────────────────────
-function set(id, html) { const el=document.getElementById(id); if(el){el.innerHTML=html; el.className='';} }
-function setTxt(id, t) { const el=document.getElementById(id); if(el) el.textContent=t; }
-
-// ── INIT ─────────────────────────────────────────────────
-loadAll();
+// Time
+const now = new Date();
+document.getElementById('update-time').textContent =
+  '持倉日期：2026-05-16 · 生成時間 ' + now.toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});
 </script>
 </body>
 </html>
