@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="zh-HK">
-<head>
+<html lang="zh-HK"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>持倉儀表板 0193</title>
@@ -142,6 +142,13 @@
     text-decoration: none;
   }
   .fv-btn:hover { background: rgba(77,163,255,0.25); }
+  .bc-btn {
+    font-size: 10px; padding: 3px 8px; border-radius: 5px;
+    background: rgba(34,200,122,0.12); color: var(--green);
+    border: 1px solid rgba(34,200,122,0.25); flex-shrink: 0;
+    text-decoration: none;
+  }
+  .bc-btn:hover { background: rgba(34,200,122,0.22); }
 
   .fv-divider { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: 0.5px; padding: 10px 18px 4px; }
 
@@ -188,7 +195,7 @@
 
 <div class="header">
   <div class="logo">持倉 <span>0193</span></div>
-  <div class="header-meta" id="update-time">更新中…</div>
+  <div class="header-meta" id="update-time">持倉日期：2026-05-16 · 生成時間 下午05:28</div>
 </div>
 
 <div class="main">
@@ -199,23 +206,23 @@
     <div class="summary-grid">
       <div class="card">
         <div class="card-label">美股市值 (USD)</div>
-        <div class="card-value" id="us-mv">—</div>
+        <div class="card-value" id="us-mv">$31,338</div>
         <div class="card-sub">17 持倉</div>
       </div>
       <div class="card">
         <div class="card-label">港股市值 (HKD)</div>
-        <div class="card-value" id="hk-mv">—</div>
+        <div class="card-value" id="hk-mv">$74,036</div>
         <div class="card-sub">3 持倉</div>
       </div>
       <div class="card">
         <div class="card-label">未實現盈虧 (USD)</div>
-        <div class="card-value pos" id="us-pnl">—</div>
-        <div class="card-sub" id="us-pnl-pct">—</div>
+        <div class="card-value pos" id="us-pnl">+$11,832</div>
+        <div class="card-sub" id="us-pnl-pct">未實現盈虧（USD）</div>
       </div>
       <div class="card">
         <div class="card-label">未實現盈虧 (HKD)</div>
-        <div class="card-value" id="hk-pnl">—</div>
-        <div class="card-sub" id="hk-pnl-sub">—</div>
+        <div class="card-value pos" id="hk-pnl">+$28,416</div>
+        <div class="card-sub" id="hk-pnl-sub">未實現盈虧（HKD）</div>
       </div>
     </div>
 
@@ -254,7 +261,364 @@
             <th>今日</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=GOOGL" target="_blank">
+            GOOGL <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/GOOGL/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">谷歌-A × 15</div>
+      </td>
+      <td>$400.65</td>
+      <td>$6,009.75</td>
+      <td><span class="badge badge-pos">+124.58%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:54.64%;background:var(--green);"></div></div>
+          <div class="bar-pct">6.83%</div>
+        </div>
+      </td>
+      <td style="color:var(--red)">-29.55</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=NVDA" target="_blank">
+            NVDA <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/NVDA/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">英偉達 × 25</div>
+      </td>
+      <td>$234.06</td>
+      <td>$5,851.50</td>
+      <td><span class="badge badge-pos">+57.62%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:53.2%;background:var(--green);"></div></div>
+          <div class="bar-pct">6.65%</div>
+        </div>
+      </td>
+      <td style="color:var(--green)">+205.75</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=MU" target="_blank">
+            MU <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/MU/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">美光科技 × 7</div>
+      </td>
+      <td>$785.25</td>
+      <td>$4,711.50</td>
+      <td><span class="badge badge-pos">+106.64%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:42.8%;background:var(--green);"></div></div>
+          <div class="bar-pct">5.35%</div>
+        </div>
+      </td>
+      <td style="color:var(--red)">-97.54</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=AVGO" target="_blank">
+            AVGO <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/AVGO/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">博通 × 5</div>
+      </td>
+      <td>$433.55</td>
+      <td>$2,167.75</td>
+      <td><span class="badge badge-pos">+28.43%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:19.68%;background:var(--green);"></div></div>
+          <div class="bar-pct">2.46%</div>
+        </div>
+      </td>
+      <td style="color:var(--green)">+83.80</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=META" target="_blank">
+            META <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/META/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">Meta × 3</div>
+      </td>
+      <td>$619.13</td>
+      <td>$1,857.39</td>
+      <td><span class="badge badge-pos">+2.11%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:16.88%;background:var(--green);"></div></div>
+          <div class="bar-pct">2.11%</div>
+        </div>
+      </td>
+      <td style="color:var(--green)">+7.50</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=TER" target="_blank">
+            TER <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/TER/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">泰瑞達 × 5</div>
+      </td>
+      <td>$355.67</td>
+      <td>$1,778.35</td>
+      <td><span class="badge badge-pos">+286.60%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:16.16%;background:var(--green);"></div></div>
+          <div class="bar-pct">2.02%</div>
+        </div>
+      </td>
+      <td style="color:var(--red)">-38.55</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=LEU" target="_blank">
+            LEU <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/LEU/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">Centrus × 8</div>
+      </td>
+      <td>$189.88</td>
+      <td>$1,519.04</td>
+      <td><span class="badge badge-neg">-3.86%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:13.84%;background:var(--red);"></div></div>
+          <div class="bar-pct">1.73%</div>
+        </div>
+      </td>
+      <td style="color:var(--red)">-19.44</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=OKLO" target="_blank">
+            OKLO <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/OKLO/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">Oklo × 20</div>
+      </td>
+      <td>$66.05</td>
+      <td>$1,321.00</td>
+      <td><span class="badge badge-pos">+213.52%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:12%;background:var(--green);"></div></div>
+          <div class="bar-pct">1.50%</div>
+        </div>
+      </td>
+      <td style="color:var(--red)">-72.20</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=RKLB" target="_blank">
+            RKLB <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/RKLB/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">Rocket Lab × 10</div>
+      </td>
+      <td>$129.49</td>
+      <td>$1,294.90</td>
+      <td><span class="badge badge-pos">+208.31%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:11.76%;background:var(--green);"></div></div>
+          <div class="bar-pct">1.47%</div>
+        </div>
+      </td>
+      <td style="color:var(--green)">+53.40</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=PLTR" target="_blank">
+            PLTR <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/PLTR/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">Palantir × 7</div>
+      </td>
+      <td>$133.301</td>
+      <td>$933.10</td>
+      <td><span class="badge badge-pos">+7.21%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:8.48%;background:var(--green);"></div></div>
+          <div class="bar-pct">1.06%</div>
+        </div>
+      </td>
+      <td style="color:var(--green)">+22.75</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=ISRG" target="_blank">
+            ISRG <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/ISRG/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">直覺外科 × 2</div>
+      </td>
+      <td>$429.65</td>
+      <td>$859.30</td>
+      <td><span class="badge badge-neg">-5.18%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:7.84%;background:var(--red);"></div></div>
+          <div class="bar-pct">0.98%</div>
+        </div>
+      </td>
+      <td style="color:var(--red)">-5.24</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=VRT" target="_blank">
+            VRT <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/VRT/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">Vertiv × 2</div>
+      </td>
+      <td>$371.295</td>
+      <td>$742.59</td>
+      <td><span class="badge badge-pos">+22.23%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:6.72%;background:var(--green);"></div></div>
+          <div class="bar-pct">0.84%</div>
+        </div>
+      </td>
+      <td style="color:var(--green)">+2.61</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=RDW" target="_blank">
+            RDW <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/RDW/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">Redwire × 100</div>
+      </td>
+      <td>$14.185</td>
+      <td>$709.25</td>
+      <td><span class="badge badge-pos">+28.95%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:6.48%;background:var(--green);"></div></div>
+          <div class="bar-pct">0.81%</div>
+        </div>
+      </td>
+      <td style="color:var(--green)">+136.25</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=RR" target="_blank">
+            RR <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/RR/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">Richtech Robotics × 200</div>
+      </td>
+      <td>$2.74</td>
+      <td>$548.00</td>
+      <td><span class="badge badge-pos">+0.18%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:4.96%;background:var(--green);"></div></div>
+          <div class="bar-pct">0.62%</div>
+        </div>
+      </td>
+      <td style="color:var(--red)">-16.00</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=ASTS" target="_blank">
+            ASTS <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/ASTS/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">AST SpaceMobile × 5</div>
+      </td>
+      <td>$81.5</td>
+      <td>$407.50</td>
+      <td><span class="badge badge-neg">-18.50%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:3.68%;background:var(--red);"></div></div>
+          <div class="bar-pct">0.46%</div>
+        </div>
+      </td>
+      <td style="color:var(--green)">+33.45</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=MRVL" target="_blank">
+            MRVL <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/MRVL/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">邁威爾科技 × 2</div>
+      </td>
+      <td>$181.025</td>
+      <td>$362.05</td>
+      <td><span class="badge badge-pos">+212.11%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:3.28%;background:var(--green);"></div></div>
+          <div class="bar-pct">0.41%</div>
+        </div>
+      </td>
+      <td style="color:var(--green)">+6.15</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=SERV" target="_blank">
+            SERV <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/SERV/interactive-chart" target="_blank">BC ↗</a>
+        </div>
+        <div class="name">Serve Robotics × 30</div>
+      </td>
+      <td>$8.83</td>
+      <td>$264.90</td>
+      <td><span class="badge badge-neg">-24.81%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:2.4%;background:var(--red);"></div></div>
+          <div class="bar-pct">0.30%</div>
+        </div>
+      </td>
+      <td style="color:var(--green)">+6.00</td>
+    </tr></tbody>
       </table>
     </div>
 
@@ -272,7 +636,70 @@
             <th>今日</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finance.yahoo.com/quote/7709.HK" target="_blank">
+            7709 <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://hk.investing.com/search/?q=7709" target="_blank" style="background:rgba(240,163,64,0.12);color:var(--amber);border-color:rgba(240,163,64,0.25);">投資 ↗</a>
+        </div>
+        <div class="name">南方兩倍做多海力士 × 400</div>
+      </td>
+      <td>$105.60</td>
+      <td>$42,240</td>
+      <td><span class="badge badge-pos">+568.35%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:49.12%;background:var(--green);"></div></div>
+          <div class="bar-pct">6.14%</div>
+        </div>
+      </td>
+      <td style="color:var(--text2)">—</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finance.yahoo.com/quote/2367.HK" target="_blank">
+            2367 <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://hk.investing.com/search/?q=2367" target="_blank" style="background:rgba(240,163,64,0.12);color:var(--amber);border-color:rgba(240,163,64,0.25);">投資 ↗</a>
+        </div>
+        <div class="name">巨子生物 × 600</div>
+      </td>
+      <td>$30.86</td>
+      <td>$18,516</td>
+      <td><span class="badge badge-neg">-18.79%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:21.52%;background:var(--red);"></div></div>
+          <div class="bar-pct">2.69%</div>
+        </div>
+      </td>
+      <td style="color:var(--text2)">—</td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finance.yahoo.com/quote/9988.HK" target="_blank">
+            9988 <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://hk.investing.com/search/?q=9988" target="_blank" style="background:rgba(240,163,64,0.12);color:var(--amber);border-color:rgba(240,163,64,0.25);">投資 ↗</a>
+        </div>
+        <div class="name">阿里巴巴-W × 100</div>
+      </td>
+      <td>$132.80</td>
+      <td>$13,280</td>
+      <td><span class="badge badge-neg">-19.52%</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-track"><div class="bar-fill" style="width:15.44%;background:var(--red);"></div></div>
+          <div class="bar-pct">1.93%</div>
+        </div>
+      </td>
+      <td style="color:var(--text2)">—</td>
+    </tr></tbody>
       </table>
     </div>
 
@@ -290,23 +717,166 @@
 
     <div class="fv-list" id="fv-list">
       <!-- 由 JS 生成 -->
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=GOOGL" target="_blank">
+      <div class="fv-ticker">GOOGL</div>
+      <div class="fv-name">谷歌-A</div>
+      <div class="fv-pnl pos">+124.58%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=GOOGL" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/GOOGL/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=NVDA" target="_blank">
+      <div class="fv-ticker">NVDA</div>
+      <div class="fv-name">英偉達</div>
+      <div class="fv-pnl pos">+57.62%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=NVDA" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/NVDA/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=MU" target="_blank">
+      <div class="fv-ticker">MU</div>
+      <div class="fv-name">美光科技</div>
+      <div class="fv-pnl pos">+106.64%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=MU" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/MU/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=AVGO" target="_blank">
+      <div class="fv-ticker">AVGO</div>
+      <div class="fv-name">博通</div>
+      <div class="fv-pnl pos">+28.43%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=AVGO" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/AVGO/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=META" target="_blank">
+      <div class="fv-ticker">META</div>
+      <div class="fv-name">Meta</div>
+      <div class="fv-pnl pos">+2.11%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=META" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/META/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=TER" target="_blank">
+      <div class="fv-ticker">TER</div>
+      <div class="fv-name">泰瑞達</div>
+      <div class="fv-pnl pos">+286.60%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=TER" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/TER/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=LEU" target="_blank">
+      <div class="fv-ticker">LEU</div>
+      <div class="fv-name">Centrus</div>
+      <div class="fv-pnl neg">-3.86%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=LEU" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/LEU/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=OKLO" target="_blank">
+      <div class="fv-ticker">OKLO</div>
+      <div class="fv-name">Oklo</div>
+      <div class="fv-pnl pos">+213.52%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=OKLO" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/OKLO/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=RKLB" target="_blank">
+      <div class="fv-ticker">RKLB</div>
+      <div class="fv-name">Rocket Lab</div>
+      <div class="fv-pnl pos">+208.31%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=RKLB" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/RKLB/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=PLTR" target="_blank">
+      <div class="fv-ticker">PLTR</div>
+      <div class="fv-name">Palantir</div>
+      <div class="fv-pnl pos">+7.21%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=PLTR" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/PLTR/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=ISRG" target="_blank">
+      <div class="fv-ticker">ISRG</div>
+      <div class="fv-name">直覺外科</div>
+      <div class="fv-pnl neg">-5.18%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=ISRG" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/ISRG/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=VRT" target="_blank">
+      <div class="fv-ticker">VRT</div>
+      <div class="fv-name">Vertiv</div>
+      <div class="fv-pnl pos">+22.23%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=VRT" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/VRT/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=RDW" target="_blank">
+      <div class="fv-ticker">RDW</div>
+      <div class="fv-name">Redwire</div>
+      <div class="fv-pnl pos">+28.95%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=RDW" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/RDW/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=RR" target="_blank">
+      <div class="fv-ticker">RR</div>
+      <div class="fv-name">Richtech Robotics</div>
+      <div class="fv-pnl pos">+0.18%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=RR" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/RR/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=ASTS" target="_blank">
+      <div class="fv-ticker">ASTS</div>
+      <div class="fv-name">AST SpaceMobile</div>
+      <div class="fv-pnl neg">-18.50%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=ASTS" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/ASTS/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=MRVL" target="_blank">
+      <div class="fv-ticker">MRVL</div>
+      <div class="fv-name">邁威爾科技</div>
+      <div class="fv-pnl pos">+212.11%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=MRVL" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/MRVL/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
+    
+    <a class="fv-item" href="https://finviz.com/quote.ashx?t=SERV" target="_blank">
+      <div class="fv-ticker">SERV</div>
+      <div class="fv-name">Serve Robotics</div>
+      <div class="fv-pnl neg">-24.81%</div>
+      </a><a class="fv-btn" href="https://finviz.com/quote.ashx?t=SERV" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/SERV/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
     </div>
 
     <div style="padding:12px 18px;border-top:1px solid var(--border);margin-top:8px;">
       <div style="font-size:11px;color:var(--text3);margin-bottom:8px;">Finviz 快捷工具</div>
       <div style="display:flex;flex-wrap:wrap;gap:6px;">
-        <a href="https://finviz.com/screener.ashx?v=111&f=geo_usa&o=-change" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">📈 今日升幅榜</a>
+        <a href="https://finviz.com/screener.ashx?v=111&amp;f=geo_usa&amp;o=-change" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">📈 今日升幅榜</a>
         <a href="https://finviz.com/map.ashx?t=sec" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">🗺️ 股市熱力圖</a>
         <a href="https://finviz.com/futures.ashx" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">⚡ 期貨報價</a>
         <a href="https://finviz.com/quote.ashx?t=SPY" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">SPY 標普500</a>
         <a href="https://finviz.com/quote.ashx?t=QQQ" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">QQQ 納指</a>
         <a href="https://finviz.com/quote.ashx?t=VIX" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(240,82,82,0.1);color:var(--red);border:1px solid rgba(240,82,82,0.2);text-decoration:none;">VIX 恐慌指數</a>
+        <div style="width:100%;height:1px;background:var(--border);margin:4px 0;"></div>
+        <div style="font-size:11px;color:var(--text3);width:100%;margin-bottom:2px;">Barchart 工具</div>
+        <a href="https://www.barchart.com/stocks/performance/price-change/advances?reportPage=1" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(34,200,122,0.1);color:var(--green);border:1px solid rgba(34,200,122,0.2);text-decoration:none;">📈 BC 升幅榜</a>
+        <a href="https://www.barchart.com/markets/indices" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(34,200,122,0.1);color:var(--green);border:1px solid rgba(34,200,122,0.2);text-decoration:none;">📊 BC 指數</a>
+        <a href="https://www.barchart.com/stocks/quotes/SPY/interactive-chart" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(34,200,122,0.1);color:var(--green);border:1px solid rgba(34,200,122,0.2);text-decoration:none;">SPY 5分鐘圖</a>
+        <a href="https://www.barchart.com/stocks/quotes/QQQ/interactive-chart" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(34,200,122,0.1);color:var(--green);border:1px solid rgba(34,200,122,0.2);text-decoration:none;">QQQ 5分鐘圖</a>
       </div>
     </div>
 
     <div style="padding:12px 18px;">
-      <div style="font-size:11px;color:var(--text3);margin-bottom:8px;">港股 / 韓股 → Yahoo Finance HK</div>
-      <div style="display:flex;flex-wrap:wrap;gap:6px;" id="hk-links"></div>
+      <div style="font-size:11px;color:var(--text3);margin-bottom:8px;">港股 → Yahoo Finance + investing.com</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;" id="hk-links">
+    <a href="https://finance.yahoo.com/quote/7709.HK" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">
+      7709 Yahoo ↗
+    </a>
+    <a href="https://hk.investing.com/search/?q=7709+HK" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(240,163,64,0.1);color:var(--amber);border:1px solid rgba(240,163,64,0.2);text-decoration:none;">
+      7709 投資網 ↗
+    </a>
+    <a href="https://finance.yahoo.com/quote/2367.HK" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">
+      2367 Yahoo ↗
+    </a>
+    <a href="https://hk.investing.com/search/?q=2367+HK" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(240,163,64,0.1);color:var(--amber);border:1px solid rgba(240,163,64,0.2);text-decoration:none;">
+      2367 投資網 ↗
+    </a>
+    <a href="https://finance.yahoo.com/quote/9988.HK" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">
+      9988 Yahoo ↗
+    </a>
+    <a href="https://hk.investing.com/search/?q=9988+HK" target="_blank" style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(240,163,64,0.1);color:var(--amber);border:1px solid rgba(240,163,64,0.2);text-decoration:none;">
+      9988 投資網 ↗
+    </a></div>
     </div>
   </div>
 </div>
@@ -368,9 +938,12 @@ holdings.forEach(h => {
   usTbody.innerHTML += `
     <tr>
       <td>
-        <a class="ticker" href="https://finviz.com/quote.ashx?t=${h.code}" target="_blank">
-          ${h.code} <span class="ticker-ext">↗</span>
-        </a>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finviz.com/quote.ashx?t=${h.code}" target="_blank">
+            ${h.code} <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/${h.code}/interactive-chart" target="_blank">BC ↗</a>
+        </div>
         <div class="name">${h.name} × ${h.qty}</div>
       </td>
       <td>$${h.price.toLocaleString()}</td>
@@ -404,12 +977,22 @@ hkHoldings.forEach(h => {
   const barColor = h.pnl.startsWith('+') ? 'var(--green)' : 'var(--red)';
   const yhCode = h.code.length <= 4 ? h.code + '.HK' : h.code + '.HK';
 
+  const investingMap = {
+    '7709': 'southern-asset-management-etf',
+    '2367': 'giant-biogene-holding',
+    '9988': 'alibaba'
+  };
+  const invSlug = investingMap[h.code] || h.code;
+
   hkTbody.innerHTML += `
     <tr>
       <td>
-        <a class="ticker" href="https://finance.yahoo.com/quote/${h.code}.HK" target="_blank">
-          ${h.code} <span class="ticker-ext">↗</span>
-        </a>
+        <div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">
+          <a class="ticker" href="https://finance.yahoo.com/quote/${h.code}.HK" target="_blank">
+            ${h.code} <span class="ticker-ext">↗</span>
+          </a>
+          <a class="bc-btn" href="https://hk.investing.com/search/?q=${h.code}" target="_blank" style="background:rgba(240,163,64,0.12);color:var(--amber);border-color:rgba(240,163,64,0.25);">投資 ↗</a>
+        </div>
         <div class="name">${h.name} × ${h.qty}</div>
       </td>
       <td>$${h.price.toFixed(2)}</td>
@@ -440,18 +1023,22 @@ holdings.forEach(h => {
       <div class="fv-ticker">${h.code}</div>
       <div class="fv-name">${h.name}</div>
       <div class="fv-pnl ${pnlPos ? 'pos' : 'neg'}">${h.pnl}</div>
-      <div class="fv-btn">Finviz ↗</div>
+      <a class="fv-btn" href="https://finviz.com/quote.ashx?t=${h.code}" target="_blank" onclick="event.stopPropagation()">FV ↗</a>
+      <a class="bc-btn" href="https://www.barchart.com/stocks/quotes/${h.code}/interactive-chart" target="_blank" onclick="event.stopPropagation()">BC ↗</a>
     </a>`;
 });
 
 // HK links
 const hkLinks = document.getElementById('hk-links');
 hkHoldings.forEach(h => {
-  const pnlPos = h.pnl.startsWith('+');
   hkLinks.innerHTML += `
     <a href="https://finance.yahoo.com/quote/${h.code}.HK" target="_blank"
+       style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(77,163,255,0.1);color:var(--blue);border:1px solid rgba(77,163,255,0.2);text-decoration:none;">
+      ${h.code} Yahoo ↗
+    </a>
+    <a href="https://hk.investing.com/search/?q=${h.code}+HK" target="_blank"
        style="font-size:11px;padding:4px 10px;border-radius:6px;background:rgba(240,163,64,0.1);color:var(--amber);border:1px solid rgba(240,163,64,0.2);text-decoration:none;">
-      ${h.code} ${h.name} ↗
+      ${h.code} 投資網 ↗
     </a>`;
 });
 
@@ -460,5 +1047,6 @@ const now = new Date();
 document.getElementById('update-time').textContent =
   '持倉日期：2026-05-16 · 生成時間 ' + now.toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});
 </script>
-</body>
-</html>
+
+
+</body></html>
