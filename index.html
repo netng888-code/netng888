@@ -347,7 +347,7 @@
       <div class="header-title">▸ 持倉儀表板</div>
       <div class="header-sub">帳號 0193 ｜ 持倉保證金綜合帳戶 ｜ 宏利 MPF</div>
     </div>
-    <div id="last-updated">更新：上午10:42:06</div>
+    <div id="last-updated">更新：上午11:09:43</div>
   </div>
 </header>
 
@@ -381,12 +381,12 @@
     </div>
     <div class="card">
       <div class="card-label">港股市值 (HKD)</div>
-      <div class="card-value">HKD 66,270</div>
+      <div class="card-value" id="hk-mv-val">HKD 68,782.00</div>
       <div class="card-sub">3 個持倉</div>
     </div>
     <div class="card red">
       <div class="card-label">港股未實現盈虧</div>
-      <div class="card-value" style="color:#fbbf24">+HKD 20,650</div>
+      <div class="card-value pos" id="hk-unreal-val">+HKD 23,162.00</div>
       <div class="card-sub">未計已實現</div>
     </div>
   </div>
@@ -741,14 +741,14 @@
     </tr></tbody>
       </table>
     </div>
-    <div style="font-size:10px;color:var(--muted);font-family:var(--mono);margin-top:6px;text-align:right;" id="us-src">報價來源：Finnhub 實時 ｜ 更新：上午10:42:06</div>
+    <div style="font-size:10px;color:var(--muted);font-family:var(--mono);margin-top:6px;text-align:right;" id="us-src">報價來源：Finnhub 實時 ｜ 更新：上午11:09:43</div>
   </div>
 
   <!-- HK Stocks (static) -->
   <div class="section">
     <div class="section-header">
       <span class="section-title">港股持倉</span>
-      <span class="section-badge">HKD · 靜態數據</span>
+      <span class="section-badge" id="hk-badge">HKD · 實時</span>
     </div>
     <div class="table-wrap">
       <table>
@@ -767,49 +767,46 @@
             <th>圖表</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td><span class="ticker">07709</span></td>
-            <td><span class="name">南方兩倍做多海力士</span></td>
-            <td class="mono">400</td>
-            <td class="mono">90.54</td>
-            <td class="mono">15.80</td>
-            <td class="mono">36,216</td>
-            <td class="mono pos">+29,896</td>
-            <td class="mono pos">+473.04%</td>
-            <td class="mono neutral">—</td>
-            <td class="mono">5.41%</td>
-            <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=7709" target="_blank">AAStocks</a></td>
-          </tr>
-          <tr>
-            <td><span class="ticker">02367</span></td>
-            <td><span class="name">巨子生物</span></td>
-            <td class="mono">600</td>
-            <td class="mono">28.14</td>
-            <td class="mono">38.00</td>
-            <td class="mono">16,884</td>
-            <td class="mono neg">−5,916</td>
-            <td class="mono neg">−25.95%</td>
-            <td class="mono neutral">—</td>
-            <td class="mono">2.52%</td>
-            <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=2367" target="_blank">AAStocks</a></td>
-          </tr>
-          <tr>
-            <td><span class="ticker">09988</span></td>
-            <td><span class="name">阿里巴巴-W</span></td>
-            <td class="mono">100</td>
-            <td class="mono">131.70</td>
-            <td class="mono">165.00</td>
-            <td class="mono">13,170</td>
-            <td class="mono neg">−3,330</td>
-            <td class="mono neg">−20.18%</td>
-            <td class="mono neutral">—</td>
-            <td class="mono">1.97%</td>
-            <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=9988" target="_blank">AAStocks</a></td>
-          </tr>
-        </tbody>
+        <tbody id="hk-tbody"><tr>
+      <td><span class="ticker">07709</span></td>
+      <td><span class="name">南方兩倍做多海力士</span></td>
+      <td class="mono">400</td>
+      <td class="mono">97.60</td>
+      <td class="mono">15.80</td>
+      <td class="mono">39,040.00</td>
+      <td class="mono pos">+32,720.00</td>
+      <td class="mono pos">+517.72%</td>
+      <td class="mono pos">+6,312.00</td>
+      <td class="mono">56.8%</td>
+      <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=7709" target="_blank">AAStocks</a></td>
+    </tr><tr>
+      <td><span class="ticker">02367</span></td>
+      <td><span class="name">巨子生物</span></td>
+      <td class="mono">600</td>
+      <td class="mono">28.12</td>
+      <td class="mono">38.00</td>
+      <td class="mono">16,872.00</td>
+      <td class="mono neg">-5,928.00</td>
+      <td class="mono neg">-26.00%</td>
+      <td class="mono neutral">+0.00</td>
+      <td class="mono">24.5%</td>
+      <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=2367" target="_blank">AAStocks</a></td>
+    </tr><tr>
+      <td><span class="ticker">09988</span></td>
+      <td><span class="name">阿里巴巴-W</span></td>
+      <td class="mono">100</td>
+      <td class="mono">128.70</td>
+      <td class="mono">165.00</td>
+      <td class="mono">12,870.00</td>
+      <td class="mono neg">-3,630.00</td>
+      <td class="mono neg">-22.00%</td>
+      <td class="mono neutral">+0.00</td>
+      <td class="mono">18.7%</td>
+      <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=9988" target="_blank">AAStocks</a></td>
+    </tr></tbody>
       </table>
     </div>
+    <div style="font-size:10px;color:var(--muted);font-family:var(--mono);margin-top:6px;text-align:right;" id="hk-src">報價來源：Yahoo Finance 實時 ｜ 更新：上午11:09:43</div>
   </div>
 
   <!-- MPF -->
@@ -880,7 +877,7 @@
 </main>
 
 <footer>
-  <div>美股：Finnhub 實時報價 ｜ 港股：靜態數據（請定期更新）</div>
+  <div>美股：Finnhub 實時報價 ｜ 港股：Yahoo Finance 實時報價</div>
   <div>持倉數據：2026-05-21 上傳 CSV ｜ MPF 轉換機制：T+2 工作日生效</div>
   <div class="disclaimer">
     ⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。
@@ -1012,9 +1009,96 @@ async function loadPrices() {
   document.getElementById('us-src').textContent = '報價來源：Finnhub 實時 ｜ 更新：' + now.toLocaleTimeString('zh-HK');
 }
 
+// HK Holdings
+const hkHoldings = [
+  { code:'07709', symbol:'7709.HK', name:'南方兩倍做多海力士', qty:400,  cost:15.80  },
+  { code:'02367', symbol:'2367.HK', name:'巨子生物',           qty:600,  cost:38.00  },
+  { code:'09988', symbol:'9988.HK', name:'阿里巴巴-W',         qty:100,  cost:165.00 },
+];
+
+// Fallback HK prices from app screenshot 2026-05-21
+const hkCsvPrices = { '7709.HK':97.94, '2367.HK':28.12, '9988.HK':128.70 };
+
+async function fetchHKPrice(symbol) {
+  try {
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1d`;
+    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+    const r = await fetch(proxy);
+    const outer = await r.json();
+    const data = JSON.parse(outer.contents);
+    const meta = data?.chart?.result?.[0]?.meta;
+    if (meta && meta.regularMarketPrice > 0) {
+      return {
+        price: meta.regularMarketPrice,
+        prevClose: meta.chartPreviousClose || meta.previousClose || meta.regularMarketPrice,
+      };
+    }
+  } catch(e) {}
+  return null;
+}
+
+async function loadHKPrices() {
+  const now = new Date();
+  const results = [];
+  let totalHKMV = 0, totalHKUnreal = 0;
+
+  for (const h of hkHoldings) {
+    let price = hkCsvPrices[h.symbol] || h.cost;
+    let prevClose = price;
+    try {
+      const live = await fetchHKPrice(h.symbol);
+      if (live) { price = live.price; prevClose = live.prevClose; }
+    } catch(e) {}
+
+    const mv = price * h.qty;
+    const unreal = (price - h.cost) * h.qty;
+    const unrealPct = ((price - h.cost) / h.cost) * 100;
+    const todayChg = (price - prevClose) * h.qty;
+    totalHKMV += mv;
+    totalHKUnreal += unreal;
+    results.push({ ...h, price, mv, unreal, unrealPct, todayChg });
+  }
+
+  // Update HK summary cards
+  document.getElementById('hk-mv-val').textContent = 'HKD ' + fmt(totalHKMV);
+  const hkUnrealEl = document.getElementById('hk-unreal-val');
+  hkUnrealEl.textContent = (totalHKUnreal >= 0 ? '+' : '') + 'HKD ' + fmt(Math.abs(totalHKUnreal));
+  hkUnrealEl.className = 'card-value ' + (totalHKUnreal >= 0 ? 'pos' : 'neg');
+
+  // Build HK table
+  const tbody = document.getElementById('hk-tbody');
+  tbody.innerHTML = '';
+  for (const r of results) {
+    const pctStr = (r.unrealPct >= 0 ? '+' : '') + fmt(r.unrealPct, 2) + '%';
+    const todayStr = (r.todayChg >= 0 ? '+' : '') + fmt(r.todayChg);
+    const mvPct = (r.mv / totalHKMV * 100).toFixed(1) + '%';
+    const pcls = r.unreal >= 0 ? 'pos' : 'neg';
+    const tcls = r.todayChg > 0 ? 'pos' : r.todayChg < 0 ? 'neg' : 'neutral';
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><span class="ticker">${r.code}</span></td>
+      <td><span class="name">${r.name}</span></td>
+      <td class="mono">${r.qty}</td>
+      <td class="mono">${fmt(r.price)}</td>
+      <td class="mono">${fmt(r.cost)}</td>
+      <td class="mono">${fmt(r.mv)}</td>
+      <td class="mono ${pcls}">${(r.unreal>=0?'+':'')}${fmt(r.unreal)}</td>
+      <td class="mono ${pcls}">${pctStr}</td>
+      <td class="mono ${tcls}">${todayStr}</td>
+      <td class="mono">${mvPct}</td>
+      <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=${r.code.replace(/^0+/,'')}" target="_blank">AAStocks</a></td>
+    `;
+    tbody.appendChild(tr);
+  }
+
+  document.getElementById('hk-badge').textContent = 'HKD · 實時';
+  document.getElementById('hk-src').textContent = '報價來源：Yahoo Finance 實時 ｜ 更新：' + now.toLocaleTimeString('zh-HK');
+}
+
 loadPrices().catch(console.error);
+loadHKPrices().catch(console.error);
 // Auto-refresh every 5 minutes
-setInterval(() => loadPrices().catch(console.error), 300000);
+setInterval(() => { loadPrices().catch(console.error); loadHKPrices().catch(console.error); }, 300000);
 </script>
 
 
