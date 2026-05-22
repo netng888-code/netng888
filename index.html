@@ -167,7 +167,7 @@
     <div class="header-title">▸ 持倉儀表板</div>
     <div class="header-sub">帳號 0193 ｜ 持倉保證金綜合帳戶 ｜ 宏利 MPF</div>
   </div>
-  <div class="update-time" id="updateTime">更新：下午5:14:48</div>
+  <div class="update-time" id="updateTime">更新：下午6:09:23</div>
 </div>
 
 <div class="container">
@@ -565,7 +565,7 @@
     </tr></tbody>
       </table>
     </div>
-    <div style="font-size:11px;color:var(--muted);margin-top:6px" id="usUpdateTime">報價來源：Finnhub 實時 ｜ 更新：下午5:14:49</div>
+    <div style="font-size:11px;color:var(--muted);margin-top:6px" id="usUpdateTime">報價來源：Finnhub 實時（美股）｜ Yahoo Finance 實時（港股）｜ 更新：下午6:09:23</div>
   </div>
 
   <!-- HK Stocks -->
@@ -595,37 +595,37 @@
       <td class="code-col">07709</td>
       <td class="name-col">南方兩倍做多海力士</td>
       <td>400</td>
-      <td>90.54</td>
+      <td>97.02</td>
       <td>15.80</td>
-      <td>36,216.00</td>
-      <td class="up">+29,896.00</td>
-      <td class="up">+473.04%</td>
-      <td>—</td>
-      <td>54.6%</td>
+      <td>38,808.00</td>
+      <td class="up">+32,488.00</td>
+      <td class="up">+514.05%</td>
+      <td class="up">+1,584.00</td>
+      <td>57.1%</td>
       <td><a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=7709" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a></td>
     </tr><tr>
       <td class="code-col">02367</td>
       <td class="name-col">巨子生物</td>
       <td>600</td>
-      <td>28.14</td>
+      <td>27.44</td>
       <td>38.00</td>
-      <td>16,884.00</td>
-      <td class="down">-5,916.00</td>
-      <td class="down">-25.95%</td>
-      <td>—</td>
-      <td>25.5%</td>
+      <td>16,464.00</td>
+      <td class="down">-6,336.00</td>
+      <td class="down">-27.79%</td>
+      <td class="down">-480.00</td>
+      <td>24.2%</td>
       <td><a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=2367" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a></td>
     </tr><tr>
       <td class="code-col">09988</td>
       <td class="name-col">阿里巴巴-W</td>
       <td>100</td>
-      <td>131.70</td>
+      <td>127.00</td>
       <td>165.00</td>
-      <td>13,170.00</td>
-      <td class="down">-3,330.00</td>
-      <td class="down">-20.18%</td>
-      <td>—</td>
-      <td>19.9%</td>
+      <td>12,700.00</td>
+      <td class="down">-3,800.00</td>
+      <td class="down">-23.03%</td>
+      <td class="up">+100.00</td>
+      <td>18.7%</td>
       <td><a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=9988" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a></td>
     </tr></tbody>
       </table>
@@ -712,11 +712,13 @@ const usCsv = [
   {code:'SERV', name:'Serve Robotics', qty:30, cost:11.743, pct:'0.29%'},
 ];
 
-const hkData = [
-  {code:'07709', name:'南方兩倍做多海力士', qty:400, cost:15.80, price:90.54, prevClose:90.54},
-  {code:'02367', name:'巨子生物', qty:600, cost:38.00, price:28.14, prevClose:28.14},
-  {code:'09988', name:'阿里巴巴-W', qty:100, cost:165.00, price:131.70, prevClose:131.70},
+const hkHoldings = [
+  { code:'07709', symbol:'7709.HK', name:'南方兩倍做多海力士', qty:400, cost:15.80 },
+  { code:'02367', symbol:'2367.HK', name:'巨子生物',           qty:600, cost:38.00 },
+  { code:'09988', symbol:'9988.HK', name:'阿里巴巴-W',         qty:100, cost:165.00 },
 ];
+// Fallback prices from 0519 CSV
+const hkCsvPrices = { '7709.HK':90.54, '2367.HK':28.14, '9988.HK':131.70 };
 
 function fmt(n, dp=2) {
   return n.toLocaleString('en-US', {minimumFractionDigits:dp, maximumFractionDigits:dp});
@@ -785,36 +787,72 @@ async function loadUS() {
   document.getElementById('usUpdateTime').textContent = `報價來源：Finnhub 實時 ｜ 更新：${now.toLocaleTimeString('zh-HK')}`;
 }
 
-function loadHK() {
-  const tbody = document.getElementById('hkTableBody');
-  let totalMV = 0, totalUnreal = 0;
-  let rows = '';
-  let totalHKMV = 0;
-  for (const s of hkData) totalHKMV += s.price * s.qty;
+async function fetchHKPrice(symbol) {
+  try {
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1d`;
+    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+    const r = await fetch(proxy);
+    const outer = await r.json();
+    const data = JSON.parse(outer.contents);
+    const meta = data?.chart?.result?.[0]?.meta;
+    if (meta && meta.regularMarketPrice > 0) {
+      return {
+        price: meta.regularMarketPrice,
+        prevClose: meta.chartPreviousClose || meta.previousClose || meta.regularMarketPrice,
+      };
+    }
+  } catch(e) {}
+  return null;
+}
 
-  for (const s of hkData) {
-    const mv = s.price * s.qty;
-    const unreal = mv - s.cost * s.qty;
-    const unrPct = (unreal/(s.cost*s.qty))*100;
-    const todayPL = 0;
-    const pct = (mv/totalHKMV*100).toFixed(1)+'%';
-    totalMV += mv; totalUnreal += unreal;
-    const link = `<a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=${s.code.replace(/^0+/,'')}" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a>`;
-    rows += `<tr>
-      <td class="code-col">${s.code}</td>
-      <td class="name-col">${s.name}</td>
-      <td>${s.qty}</td>
-      <td>${fmt(s.price)}</td>
-      <td>${fmt(s.cost)}</td>
-      <td>${fmt(mv)}</td>
-      <td class="${clr(unreal)}">${sign(unreal)}${fmt(unreal)}</td>
-      <td class="${clr(unrPct)}">${sign(unrPct)}${fmt(unrPct,2)}%</td>
-      <td>—</td>
-      <td>${pct}</td>
-      <td>${link}</td>
-    </tr>`;
+async function loadHK() {
+  const tbody = document.getElementById('hkTableBody');
+  const now = new Date();
+  const results = [];
+  let totalHKMV = 0;
+
+  for (const h of hkHoldings) {
+    let price = hkCsvPrices[h.symbol] || h.cost;
+    let prevClose = price;
+    try {
+      const live = await fetchHKPrice(h.symbol);
+      if (live) { price = live.price; prevClose = live.prevClose; }
+    } catch(e) {}
+
+    const mv = price * h.qty;
+    const unreal = (price - h.cost) * h.qty;
+    const unrealPct = ((price - h.cost) / h.cost) * 100;
+    const todayChg = (price - prevClose) * h.qty;
+    totalHKMV += mv;
+    results.push({ ...h, price, mv, unreal, unrealPct, todayChg });
   }
-  tbody.innerHTML = rows;
+
+  tbody.innerHTML = '';
+  for (const r of results) {
+    const pctStr = (r.unrealPct >= 0 ? '+' : '') + fmt(r.unrealPct, 2) + '%';
+    const todayStr = (r.todayChg >= 0 ? '+' : '') + fmt(r.todayChg);
+    const mvPct = totalHKMV > 0 ? (r.mv / totalHKMV * 100).toFixed(1) + '%' : '—';
+    const pcls = r.unreal >= 0 ? 'up' : 'down';
+    const tcls = r.todayChg > 0 ? 'up' : r.todayChg < 0 ? 'down' : '';
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="code-col">${r.code}</td>
+      <td class="name-col">${r.name}</td>
+      <td>${r.qty}</td>
+      <td>${fmt(r.price)}</td>
+      <td>${fmt(r.cost)}</td>
+      <td>${fmt(r.mv)}</td>
+      <td class="${pcls}">${(r.unreal>=0?'+':'')}${fmt(r.unreal)}</td>
+      <td class="${pcls}">${pctStr}</td>
+      <td class="${tcls}">${todayStr}</td>
+      <td>${mvPct}</td>
+      <td><a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=${r.code.replace(/^0+/,'')}" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a></td>
+    `;
+    tbody.appendChild(tr);
+  }
+
+  document.getElementById('usUpdateTime') && (document.getElementById('usUpdateTime').textContent =
+    `報價來源：Finnhub 實時（美股）｜ Yahoo Finance 實時（港股）｜ 更新：${now.toLocaleTimeString('zh-HK')}`);
 }
 
 function updateTime() {
@@ -826,6 +864,7 @@ setInterval(updateTime, 60000);
 loadUS();
 loadHK();
 setInterval(loadUS, 120000);
+setInterval(loadHK, 120000);
 </script>
 
 </body></html>
