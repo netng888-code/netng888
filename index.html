@@ -4,401 +4,345 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>持倉儀表板 — 帳戶0193</title>
-<link href="index_files/css2.css" rel="stylesheet">
 <style>
   :root {
-    --bg: #0a0e1a;
-    --bg2: #111827;
-    --bg3: #1a2235;
-    --border: #1e2d45;
-    --accent: #00d4ff;
-    --accent2: #00ff9d;
-    --warn: #ff6b35;
-    --red: #ff4757;
-    --green: #2ed573;
-    --text: #e2e8f0;
-    --muted: #64748b;
-    --mono: 'IBM Plex Mono', monospace;
-    --sans: 'Noto Sans HK', sans-serif;
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface2: #1c2128;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --green: #3fb950;
+    --red: #f85149;
+    --amber: #d29922;
+    --blue: #58a6ff;
+    --purple: #bc8cff;
+    --teal: #39d353;
+    --font: "SF Mono", "Monaco", "Consolas", monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--sans);
-    font-size: 14px;
-    line-height: 1.6;
-    min-height: 100vh;
-  }
-
-  /* Header */
-  header {
-    background: linear-gradient(135deg, #0d1b2e 0%, #0a0e1a 60%, #0d2233 100%);
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 14px; line-height: 1.5; }
+  
+  .header {
+    background: var(--surface);
     border-bottom: 1px solid var(--border);
-    padding: 20px 24px 16px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    padding: 16px 20px;
+    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;
   }
-  .header-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .header-title {
-    font-family: var(--mono);
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--accent);
-    letter-spacing: 0.04em;
-  }
-  .header-sub {
-    font-size: 11px;
-    color: var(--muted);
-    font-family: var(--mono);
-    margin-top: 2px;
-  }
-  #last-updated {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--muted);
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    padding: 4px 10px;
-    border-radius: 4px;
-  }
+  .header-title { font-size: 18px; font-weight: 600; }
+  .header-sub { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .update-time { font-size: 12px; color: var(--muted); font-family: var(--font); }
 
-  /* Alert Banner */
-  .alert-banner {
-    background: linear-gradient(90deg, rgba(255,107,53,0.12) 0%, rgba(10,14,26,0) 100%);
-    border-left: 3px solid var(--warn);
-    margin: 16px 24px 0;
-    padding: 10px 14px;
-    border-radius: 0 6px 6px 0;
-    font-size: 12.5px;
-    color: #cbd5e1;
-    display: none;
-  }
-  .alert-banner span { color: var(--warn); font-weight: 700; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 16px 20px; }
 
-  /* Main layout */
-  main { padding: 20px 24px; max-width: 1400px; margin: 0 auto; }
-
-  /* Summary Cards */
   .summary-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 12px;
-    margin-bottom: 24px;
+    gap: 12px; margin-bottom: 20px;
   }
-  .card {
-    background: var(--bg2);
+  .stat-card {
+    background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 14px 16px;
-    position: relative;
-    overflow: hidden;
   }
-  .card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 2px;
-    background: var(--accent);
-  }
-  .card.green::before { background: var(--green); }
-  .card.red::before { background: var(--red); }
-  .card.warn::before { background: var(--warn); }
-  .card-label {
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--muted);
-    font-family: var(--mono);
-    margin-bottom: 6px;
-  }
-  .card-value {
-    font-family: var(--mono);
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--text);
-    line-height: 1.2;
-  }
-  .card-value.pos { color: var(--green); }
-  .card-value.neg { color: var(--red); }
-  .card-sub {
-    font-size: 10px;
-    color: var(--muted);
-    margin-top: 4px;
-    font-family: var(--mono);
-  }
+  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .stat-value { font-size: 20px; font-weight: 700; font-family: var(--font); }
+  .stat-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .up { color: var(--green); }
+  .down { color: var(--red); }
+  .neutral { color: var(--blue); }
 
-  /* Section */
-  .section { margin-bottom: 28px; }
-  .section-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 12px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--border);
-  }
+  .section { margin-bottom: 24px; }
   .section-title {
-    font-family: var(--mono);
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--accent);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-  .section-badge {
-    font-family: var(--mono);
-    font-size: 10px;
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    color: var(--muted);
-    padding: 2px 8px;
-    border-radius: 20px;
-  }
-  .loading-row {
-    text-align: center;
-    color: var(--muted);
-    font-family: var(--mono);
-    font-size: 12px;
-    padding: 20px;
-    animation: pulse 1.5s ease-in-out infinite;
-  }
-  @keyframes pulse { 0%,100%{opacity:.5} 50%{opacity:1} }
-
-  /* Table */
-  .table-wrap { overflow-x: auto; border-radius: 8px; border: 1px solid var(--border); }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 12.5px;
-  }
-  thead tr {
-    background: var(--bg3);
+    font-size: 13px; font-weight: 600; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.8px;
+    margin-bottom: 10px; padding-bottom: 6px;
     border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 8px;
   }
+  .badge {
+    font-size: 10px; font-weight: 500; padding: 1px 6px;
+    border-radius: 10px; letter-spacing: 0;
+  }
+  .badge-live { background: #1a3a1a; color: var(--green); }
+  .badge-hk { background: #1a2a3a; color: var(--blue); }
+  .badge-mpf { background: #2a1a3a; color: var(--purple); }
+
+  .table-wrap { overflow-x: auto; border-radius: 8px; border: 1px solid var(--border); }
+  table { width: 100%; border-collapse: collapse; white-space: nowrap; }
   th {
-    font-family: var(--mono);
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--muted);
-    padding: 9px 10px;
-    text-align: right;
-    white-space: nowrap;
-    font-weight: 600;
+    background: var(--surface2); color: var(--muted);
+    font-size: 11px; font-weight: 500; text-transform: uppercase;
+    padding: 8px 12px; text-align: right; border-bottom: 1px solid var(--border);
   }
-  th:first-child, th:nth-child(2) { text-align: left; }
-  tbody tr {
-    border-bottom: 1px solid rgba(30,45,69,0.5);
-    transition: background 0.15s;
-  }
-  tbody tr:last-child { border-bottom: none; }
-  tbody tr:hover { background: rgba(0,212,255,0.04); }
-  td {
-    padding: 8px 10px;
-    text-align: right;
-    white-space: nowrap;
-    vertical-align: middle;
-  }
+  th:first-child { text-align: left; }
+  td { padding: 8px 12px; text-align: right; border-bottom: 1px solid var(--border); font-family: var(--font); font-size: 13px; }
   td:first-child { text-align: left; }
-  td:nth-child(2) { text-align: left; max-width: 130px; }
-
-  .ticker {
-    font-family: var(--mono);
-    font-weight: 600;
-    font-size: 12px;
-    color: var(--accent);
-  }
-  .name { color: var(--text); font-size: 12px; }
-  .mono { font-family: var(--mono); }
-  .pos { color: var(--green); }
-  .neg { color: var(--red); }
-  .neutral { color: var(--muted); }
-
-  .links-cell { display: flex; gap: 4px; justify-content: flex-end; }
-  .link-btn {
-    font-family: var(--mono);
-    font-size: 9px;
-    padding: 2px 6px;
-    border-radius: 3px;
-    text-decoration: none;
-    border: 1px solid var(--border);
-    color: var(--muted);
-    background: var(--bg3);
-    transition: all 0.15s;
-    white-space: nowrap;
-  }
-  .link-btn:hover { color: var(--accent); border-color: var(--accent); }
-
-  .bar-cell { width: 60px; }
-  .bar-bg {
-    height: 4px;
-    background: var(--bg3);
-    border-radius: 2px;
-    overflow: hidden;
-  }
-  .bar-fill {
-    height: 100%;
-    border-radius: 2px;
-    background: var(--accent);
-    transition: width 0.6s ease;
-  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--surface2); }
+  .name-col { font-family: var(--sans); }
+  .code-col { color: var(--blue); font-weight: 600; }
+  .links a { color: var(--muted); font-size: 11px; text-decoration: none; margin-left: 4px; }
+  .links a:hover { color: var(--blue); }
 
   /* MPF Section */
-  .mpf-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-bottom: 16px;
-  }
-  @media(max-width:600px){ .mpf-grid { grid-template-columns: 1fr; } }
-  .mpf-fund {
-    background: var(--bg2);
+  .mpf-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  @media (max-width: 600px) { .mpf-grid { grid-template-columns: 1fr; } }
+  .mpf-fund-card {
+    background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: 14px 16px;
+    padding: 16px;
   }
-  .mpf-fund-name { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 2px; }
-  .mpf-fund-code { font-family: var(--mono); font-size: 10px; color: var(--muted); margin-bottom: 10px; }
-  .mpf-alloc {
-    font-family: var(--mono);
-    font-size: 28px;
-    font-weight: 600;
-    color: var(--accent);
-    margin-bottom: 6px;
-  }
-  .mpf-note { font-size: 11px; color: var(--muted); line-height: 1.5; }
-  .alloc-bar-bg {
-    height: 6px;
-    background: var(--bg3);
-    border-radius: 3px;
-    overflow: hidden;
-    margin: 8px 0;
-  }
-  .alloc-bar-fill {
-    height: 100%;
-    border-radius: 3px;
-    background: linear-gradient(90deg, var(--accent) 0%, var(--accent2) 100%);
-  }
+  .mpf-fund-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+  .mpf-fund-name { font-weight: 600; font-size: 14px; }
+  .mpf-fund-code { font-size: 11px; color: var(--muted); font-family: var(--font); margin-top: 2px; }
+  .mpf-alloc-bar { height: 6px; background: var(--surface2); border-radius: 3px; margin: 8px 0; overflow: hidden; }
+  .mpf-alloc-fill { height: 100%; border-radius: 3px; }
+  .mpf-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+  .mpf-stat { }
+  .mpf-stat-label { font-size: 10px; color: var(--muted); }
+  .mpf-stat-value { font-size: 13px; font-weight: 600; font-family: var(--font); }
 
-  /* Risk section */
-  .risk-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
+  .mpf-total-card {
+    background: var(--surface);
+    border: 1px solid var(--purple);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
   }
+  .mpf-total-header { display: flex; justify-content: space-between; align-items: center; }
+  .mpf-total-label { font-size: 12px; color: var(--muted); }
+  .mpf-total-value { font-size: 28px; font-weight: 700; font-family: var(--font); color: var(--purple); }
+  .mpf-total-gain { font-size: 14px; color: var(--green); margin-top: 2px; }
+  .mpf-date { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+  .mpf-breakdown {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px;
+  }
+  @media (max-width: 500px) { .mpf-breakdown { grid-template-columns: 1fr; } }
+  .mpf-breakdown-item {
+    background: var(--surface2);
+    border-radius: 6px; padding: 10px;
+    border-left: 3px solid;
+  }
+  .mpf-breakdown-name { font-size: 11px; color: var(--muted); }
+  .mpf-breakdown-val { font-size: 15px; font-weight: 700; font-family: var(--font); margin-top: 2px; }
+  .mpf-breakdown-pct { font-size: 11px; color: var(--muted); }
+
+  .mpf-note { font-size: 11px; color: var(--amber); background: #1a1400; border: 1px solid #3a2a00; border-radius: 6px; padding: 8px 12px; margin-top: 10px; }
+  .mpf-mechanism { font-size: 11px; color: var(--muted); margin-top: 8px; padding: 8px; background: var(--surface2); border-radius: 6px; }
+
+  /* Risk panel */
+  .risk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px; }
   .risk-item {
-    background: var(--bg2);
+    background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 6px;
-    padding: 12px 14px;
+    padding: 12px;
+    display: flex; gap: 10px; align-items: flex-start;
   }
-  .risk-label { font-size: 11px; color: var(--muted); margin-bottom: 4px; }
-  .risk-value { font-family: var(--mono); font-size: 13px; font-weight: 600; }
-  .risk-note { font-size: 11px; color: var(--muted); margin-top: 4px; }
-  .tag {
-    display: inline-block;
-    font-family: var(--mono);
-    font-size: 9px;
-    padding: 2px 7px;
-    border-radius: 10px;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-  }
-  .tag-red { background: rgba(255,71,87,0.15); color: var(--red); border: 1px solid rgba(255,71,87,0.3); }
-  .tag-warn { background: rgba(255,107,53,0.15); color: var(--warn); border: 1px solid rgba(255,107,53,0.3); }
-  .tag-green { background: rgba(46,213,115,0.15); color: var(--green); border: 1px solid rgba(46,213,115,0.3); }
-  .tag-blue { background: rgba(0,212,255,0.1); color: var(--accent); border: 1px solid rgba(0,212,255,0.25); }
+  .risk-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+  .risk-label { font-size: 12px; font-weight: 600; margin-bottom: 2px; }
+  .risk-desc { font-size: 11px; color: var(--muted); }
+  .risk-high { border-left: 3px solid var(--red); }
+  .risk-med { border-left: 3px solid var(--amber); }
+  .risk-low { border-left: 3px solid var(--green); }
 
-  /* Footer */
-  footer {
-    border-top: 1px solid var(--border);
-    margin: 20px 24px 0;
-    padding: 14px 0 20px;
-    font-size: 11px;
-    color: var(--muted);
-    font-family: var(--mono);
-    line-height: 1.8;
-  }
-  .disclaimer {
-    margin-top: 8px;
-    padding: 8px 12px;
-    background: rgba(255,107,53,0.06);
-    border-left: 2px solid var(--warn);
-    border-radius: 0 4px 4px 0;
-    font-size: 10.5px;
-    color: #94a3b8;
-    line-height: 1.6;
-  }
+  .footer { text-align: center; font-size: 11px; color: var(--muted); padding: 20px; border-top: 1px solid var(--border); margin-top: 20px; }
+
+  .performance-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+  .perf-badge { font-size: 10px; padding: 2px 6px; border-radius: 4px; font-family: var(--font); }
+  .perf-1y { background: #0d2a1a; color: var(--green); }
+  .perf-3y { background: #0d1f2a; color: var(--blue); }
+  .perf-5y { background: #1a0d2a; color: var(--purple); }
 </style>
 </head>
 <body>
 
-<header>
-  <div class="header-top">
-    <div>
-      <div class="header-title">▸ 持倉儀表板</div>
-      <div class="header-sub">帳號 0193 ｜ 持倉保證金綜合帳戶 ｜ 宏利 MPF</div>
-    </div>
-    <div id="last-updated">更新：上午11:09:43</div>
+<div class="header">
+  <div>
+    <div class="header-title">▸ 持倉儀表板</div>
+    <div class="header-sub">帳號 0193 ｜ 持倉保證金綜合帳戶 ｜ 宏利 MPF</div>
   </div>
-</header>
-
-<div class="alert-banner" id="alert-banner">
-  <span>⚠ 市況提示</span> <span id="alert-text"></span>
+  <div class="update-time" id="updateTime">更新：下午5:14:48</div>
 </div>
 
-<main>
+<div class="container">
 
-  <!-- Summary Cards -->
+  <!-- Summary cards -->
   <div class="summary-grid">
-    <div class="card">
-      <div class="card-label">美股市值 (USD)</div>
-      <div class="card-value" id="us-mv">USD 29,084.33</div>
-      <div class="card-sub" id="us-count">17 個持倉</div>
+    <div class="stat-card">
+      <div class="stat-label">美股市值 (USD)</div>
+      <div class="stat-value neutral" id="usTotal">USD 29,430.23</div>
+      <div class="stat-sub">17 個持倉</div>
     </div>
-    <div class="card green">
-      <div class="card-label">美股未實現盈虧</div>
-      <div class="card-value pos" id="us-unreal">+USD 9,345.52</div>
-      <div class="card-sub">未計已實現</div>
+    <div class="stat-card">
+      <div class="stat-label">美股未實現盈虧</div>
+      <div class="stat-value up" id="usUnreal">+USD 9,691.42</div>
+      <div class="stat-sub">未計已實現</div>
     </div>
-    <div class="card green">
-      <div class="card-label">美股已實現盈虧</div>
-      <div class="card-value pos" id="us-real">+USD 5,777.84</div>
-      <div class="card-sub">累計</div>
+    <div class="stat-card">
+      <div class="stat-label">美股已實現盈虧</div>
+      <div class="stat-value up">+USD 5,777.84</div>
+      <div class="stat-sub">累計</div>
     </div>
-    <div class="card" id="today-card">
-      <div class="card-label">今日盈虧 (美股)</div>
-      <div class="card-value pos" id="us-today">+819.18</div>
-      <div class="card-sub">USD</div>
+    <div class="stat-card">
+      <div class="stat-label">今日盈虧 (美股)</div>
+      <div class="stat-value up" id="usToday">+345.91</div>
+      <div class="stat-sub">USD</div>
     </div>
-    <div class="card">
-      <div class="card-label">港股市值 (HKD)</div>
-      <div class="card-value" id="hk-mv-val">HKD 68,782.00</div>
-      <div class="card-sub">3 個持倉</div>
+    <div class="stat-card">
+      <div class="stat-label">港股市值 (HKD)</div>
+      <div class="stat-value neutral">HKD 66,270.00</div>
+      <div class="stat-sub">3 個持倉（0519數據）</div>
     </div>
-    <div class="card red">
-      <div class="card-label">港股未實現盈虧</div>
-      <div class="card-value pos" id="hk-unreal-val">+HKD 23,162.00</div>
-      <div class="card-sub">未計已實現</div>
+    <div class="stat-card">
+      <div class="stat-label">港股未實現盈虧</div>
+      <div class="stat-value up">+HKD 20,650.00</div>
+      <div class="stat-sub">未計已實現</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">MPF 總結餘</div>
+      <div class="stat-value" style="color:var(--purple)">HKD 475,009</div>
+      <div class="stat-sub">截至 2026-05-20</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">MPF 升幅</div>
+      <div class="stat-value up">+HKD 23,466</div>
+      <div class="stat-sub">相較上期</div>
+    </div>
+  </div>
+
+  <!-- MPF Section -->
+  <div class="section">
+    <div class="section-title">
+      MPF — 宏利環球精選強積金計劃
+      <span class="badge badge-mpf">截至 20/05/2026</span>
+    </div>
+
+    <div class="mpf-total-card">
+      <div class="mpf-total-header">
+        <div>
+          <div class="mpf-total-label">MPF 總結餘（強制性供款）</div>
+          <div class="mpf-total-value">$475,008.72</div>
+          <div class="mpf-total-gain">▲ $23,465.82 升幅</div>
+          <div class="mpf-date">截至 2026年5月20日 ｜ 成員帳戶：11176182</div>
+        </div>
+      </div>
+      <div class="mpf-breakdown">
+        <div class="mpf-breakdown-item" style="border-color:#58a6ff">
+          <div class="mpf-breakdown-name">北美股票基金 SHK130</div>
+          <div class="mpf-breakdown-val" style="color:#58a6ff">$261,573</div>
+          <div class="mpf-breakdown-pct">佔比 55.1%</div>
+        </div>
+        <div class="mpf-breakdown-item" style="border-color:#bc8cff">
+          <div class="mpf-breakdown-name">日本股票基金 SHK131</div>
+          <div class="mpf-breakdown-val" style="color:#bc8cff">$165,974</div>
+          <div class="mpf-breakdown-pct">佔比 34.9%</div>
+        </div>
+        <div class="mpf-breakdown-item" style="border-color:#3fb950">
+          <div class="mpf-breakdown-name">保守基金</div>
+          <div class="mpf-breakdown-val" style="color:#3fb950">$47,461</div>
+          <div class="mpf-breakdown-pct">佔比 10.0%</div>
+        </div>
+      </div>
+      <div class="mpf-note">⚠ 注意：實際持倉顯示北美55% / 日本35% / 保守10%，而非投資授權65/35。保守基金或為舊有累積，如欲統一配置，可考慮轉換至北美基金。</div>
+    </div>
+
+    <div class="mpf-grid">
+      <div class="mpf-fund-card">
+        <div class="mpf-fund-header">
+          <div>
+            <div class="mpf-fund-name">🇺🇸 宏利MPF北美股票基金</div>
+            <div class="mpf-fund-code">SHK130 ｜ 風險級別 5 ｜ 費用率 1.763%</div>
+          </div>
+          <div style="text-align:right">
+            <div style="font-size:20px;font-weight:700;color:var(--blue)">55.1%</div>
+            <div style="font-size:11px;color:var(--muted)">HKD 261,573</div>
+          </div>
+        </div>
+        <div class="mpf-alloc-bar"><div class="mpf-alloc-fill" style="width:55.1%;background:var(--blue)"></div></div>
+        <div class="performance-row">
+          <span class="perf-badge perf-1y">1年 +11.74%</span>
+          <span class="perf-badge perf-3y">3年 +84.68%</span>
+          <span class="perf-badge perf-5y">5年 +72.14%</span>
+        </div>
+        <div class="mpf-stats">
+          <div class="mpf-stat">
+            <div class="mpf-stat-label">基金價格</div>
+            <div class="mpf-stat-value">HK$35.661</div>
+          </div>
+          <div class="mpf-stat">
+            <div class="mpf-stat-label">基金規模</div>
+            <div class="mpf-stat-value">HK$40,769M</div>
+          </div>
+          <div class="mpf-stat">
+            <div class="mpf-stat-label">季度回報 Q3 2025</div>
+            <div class="mpf-stat-value" style="color:var(--green)">+4.93%</div>
+          </div>
+          <div class="mpf-stat">
+            <div class="mpf-stat-label">風險指標(3年)</div>
+            <div class="mpf-stat-value">14.55%</div>
+          </div>
+        </div>
+        <div style="font-size:10px;color:var(--muted);margin-top:8px">十大持股：Microsoft 6.56% ｜ Amazon 6.12% ｜ Apple 5.25% ｜ Alphabet 3.89% ｜ Nvidia 3.88%</div>
+      </div>
+
+      <div class="mpf-fund-card">
+        <div class="mpf-fund-header">
+          <div>
+            <div class="mpf-fund-name">🇯🇵 宏利MPF日本股票基金</div>
+            <div class="mpf-fund-code">SHK131 ｜ 風險級別 4 ｜ 費用率 1.764%</div>
+          </div>
+          <div style="text-align:right">
+            <div style="font-size:20px;font-weight:700;color:var(--purple)">34.9%</div>
+            <div style="font-size:11px;color:var(--muted)">HKD 165,974</div>
+          </div>
+        </div>
+        <div class="mpf-alloc-bar"><div class="mpf-alloc-fill" style="width:34.9%;background:var(--purple)"></div></div>
+        <div class="performance-row">
+          <span class="perf-badge perf-1y">1年 +16.64%</span>
+          <span class="perf-badge perf-3y">3年 +92.06%</span>
+          <span class="perf-badge perf-5y">5年 +88.53%</span>
+        </div>
+        <div class="mpf-stats">
+          <div class="mpf-stat">
+            <div class="mpf-stat-label">基金價格</div>
+            <div class="mpf-stat-value">HK$24.200</div>
+          </div>
+          <div class="mpf-stat">
+            <div class="mpf-stat-label">基金規模</div>
+            <div class="mpf-stat-value">HK$8,953M</div>
+          </div>
+          <div class="mpf-stat">
+            <div class="mpf-stat-label">季度回報 Q3 2025</div>
+            <div class="mpf-stat-value" style="color:var(--green)">+4.85%</div>
+          </div>
+          <div class="mpf-stat">
+            <div class="mpf-stat-label">風險指標(3年)</div>
+            <div class="mpf-stat-value">9.51%</div>
+          </div>
+        </div>
+        <div style="font-size:10px;color:var(--muted);margin-top:8px">十大持股：Sony 6.40% ｜ Sumitomo Mitsui 4.85% ｜ Hitachi 4.23% ｜ TDK 3.98% ｜ Toyota 3.76%</div>
+      </div>
+    </div>
+
+    <div class="mpf-mechanism">
+      📋 MPF 轉換機制：T+2 工作日生效（週末提交不計算）｜ 季度數據截至 2025年9月30日（最新概覽）
     </div>
   </div>
 
   <!-- US Stocks -->
   <div class="section">
-    <div class="section-header">
-      <span class="section-title">美股持倉</span>
-      <span class="section-badge" id="us-badge">USD</span>
+    <div class="section-title">
+      美股持倉 USD
+      <span class="badge badge-live">Finnhub 實時</span>
     </div>
     <div class="table-wrap">
-      <table>
+      <table id="usTable">
         <thead>
           <tr>
             <th>代碼</th>
@@ -412,346 +356,226 @@
             <th>今日盈虧</th>
             <th>佔比</th>
             <th></th>
-            <th>圖表</th>
           </tr>
         </thead>
-        <tbody id="us-tbody"><tr>
-      <td><span class="ticker">MU</span></td>
-      <td><span class="name">美光科技</span></td>
-      <td class="mono">7</td>
-      <td class="mono">731.99</td>
-      <td class="mono">429.00</td>
-      <td class="mono">5,123.93</td>
-      <td class="mono pos">+2,120.93</td>
-      <td class="mono pos">+70.63%</td>
-      <td class="mono pos">+232.75</td>
-      <td class="mono">17.6%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=MU" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/MU/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/MU/options" target="_blank">期權</a>
-        </div>
-      </td>
+        <tbody id="usTableBody"><tr>
+      <td class="code-col">MU</td>
+      <td class="name-col">美光科技</td>
+      <td>7</td>
+      <td>762.10</td>
+      <td>429.00</td>
+      <td>5,334.70</td>
+      <td class="up">+2,331.70</td>
+      <td class="up">+77.65%</td>
+      <td class="up">+210.77</td>
+      <td>6.05%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=MU" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/MU/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/MU/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">GOOGL</span></td>
-      <td><span class="name">谷歌-A</span></td>
-      <td class="mono">12</td>
-      <td class="mono">388.91</td>
-      <td class="mono">178.40</td>
-      <td class="mono">4,666.92</td>
-      <td class="mono pos">+2,526.12</td>
-      <td class="mono pos">+118.00%</td>
-      <td class="mono pos">+15.00</td>
-      <td class="mono">16.0%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:91%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=GOOGL" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/GOOGL/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/GOOGL/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">GOOGL</td>
+      <td class="name-col">谷歌-A</td>
+      <td>12</td>
+      <td>387.66</td>
+      <td>178.40</td>
+      <td>4,651.92</td>
+      <td class="up">+2,511.12</td>
+      <td class="up">+117.30%</td>
+      <td class="down">-15.00</td>
+      <td>5.42%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=GOOGL" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/GOOGL/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/GOOGL/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">NVDA</span></td>
-      <td><span class="name">英偉達</span></td>
-      <td class="mono">15</td>
-      <td class="mono">223.47</td>
-      <td class="mono">148.50</td>
-      <td class="mono">3,352.05</td>
-      <td class="mono pos">+1,124.55</td>
-      <td class="mono pos">+50.48%</td>
-      <td class="mono pos">+42.90</td>
-      <td class="mono">11.5%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:65%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=NVDA" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/NVDA/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/NVDA/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">NVDA</td>
+      <td class="name-col">英偉達</td>
+      <td>15</td>
+      <td>219.51</td>
+      <td>148.50</td>
+      <td>3,292.65</td>
+      <td class="up">+1,065.15</td>
+      <td class="up">+47.82%</td>
+      <td class="down">-59.40</td>
+      <td>3.85%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=NVDA" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/NVDA/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/NVDA/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">AVGO</span></td>
-      <td><span class="name">博通</span></td>
-      <td class="mono">7</td>
-      <td class="mono">417.76</td>
-      <td class="mono">361.12</td>
-      <td class="mono">2,924.32</td>
-      <td class="mono pos">+396.50</td>
-      <td class="mono pos">+15.69%</td>
-      <td class="mono pos">+46.83</td>
-      <td class="mono">10.1%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:57%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=AVGO" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/AVGO/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/AVGO/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">AVGO</td>
+      <td class="name-col">博通</td>
+      <td>7</td>
+      <td>414.57</td>
+      <td>361.12</td>
+      <td>2,901.99</td>
+      <td class="up">+374.17</td>
+      <td class="up">+14.80%</td>
+      <td class="down">-22.33</td>
+      <td>3.39%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=AVGO" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/AVGO/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/AVGO/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">META</span></td>
-      <td><span class="name">Meta Platforms</span></td>
-      <td class="mono">3</td>
-      <td class="mono">605.06</td>
-      <td class="mono">606.33</td>
-      <td class="mono">1,815.18</td>
-      <td class="mono neg">-3.82</td>
-      <td class="mono neg">-0.21%</td>
-      <td class="mono pos">+7.35</td>
-      <td class="mono">6.2%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:35%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=META" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/META/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/META/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">META</td>
+      <td class="name-col">Meta Platforms</td>
+      <td>3</td>
+      <td>607.38</td>
+      <td>606.33</td>
+      <td>1,822.14</td>
+      <td class="up">+3.14</td>
+      <td class="up">+0.17%</td>
+      <td class="up">+6.96</td>
+      <td>2.11%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=META" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/META/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/META/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">TER</span></td>
-      <td><span class="name">泰瑞達</span></td>
-      <td class="mono">5</td>
-      <td class="mono">344.34</td>
-      <td class="mono">92.00</td>
-      <td class="mono">1,721.70</td>
-      <td class="mono pos">+1,261.70</td>
-      <td class="mono pos">+274.28%</td>
-      <td class="mono pos">+114.10</td>
-      <td class="mono">5.9%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:34%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=TER" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/TER/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/TER/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">TER</td>
+      <td class="name-col">泰瑞達</td>
+      <td>5</td>
+      <td>353.44</td>
+      <td>92.00</td>
+      <td>1,767.20</td>
+      <td class="up">+1,307.20</td>
+      <td class="up">+284.17%</td>
+      <td class="up">+45.50</td>
+      <td>1.99%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=TER" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/TER/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/TER/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">RDW</span></td>
-      <td><span class="name">Redwire</span></td>
-      <td class="mono">100</td>
-      <td class="mono">14.77</td>
-      <td class="mono">12.40</td>
-      <td class="mono">1,477.00</td>
-      <td class="mono pos">+237.00</td>
-      <td class="mono pos">+19.11%</td>
-      <td class="mono pos">+86.00</td>
-      <td class="mono">5.1%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:29%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=RDW" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/RDW/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/RDW/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">RDW</td>
+      <td class="name-col">Redwire</td>
+      <td>100</td>
+      <td>15.35</td>
+      <td>12.40</td>
+      <td>1,535.00</td>
+      <td class="up">+295.00</td>
+      <td class="up">+23.79%</td>
+      <td class="up">+58.00</td>
+      <td>1.71%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=RDW" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/RDW/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/RDW/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">LEU</span></td>
-      <td><span class="name">Centrus Energy</span></td>
-      <td class="mono">8</td>
-      <td class="mono">169.31</td>
-      <td class="mono">197.50</td>
-      <td class="mono">1,354.48</td>
-      <td class="mono neg">-225.52</td>
-      <td class="mono neg">-14.27%</td>
-      <td class="mono pos">+2.48</td>
-      <td class="mono">4.7%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:26%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=LEU" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/LEU/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/LEU/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">LEU</td>
+      <td class="name-col">Centrus Energy</td>
+      <td>8</td>
+      <td>177.15</td>
+      <td>197.50</td>
+      <td>1,417.20</td>
+      <td class="down">-162.80</td>
+      <td class="down">-10.30%</td>
+      <td class="up">+62.72</td>
+      <td>1.59%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=LEU" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/LEU/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/LEU/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">RKLB</span></td>
-      <td><span class="name">Rocket Lab</span></td>
-      <td class="mono">10</td>
-      <td class="mono">134.28</td>
-      <td class="mono">42.00</td>
-      <td class="mono">1,342.80</td>
-      <td class="mono pos">+922.80</td>
-      <td class="mono pos">+219.71%</td>
-      <td class="mono pos">+69.70</td>
-      <td class="mono">4.6%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:26%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=RKLB" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/RKLB/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/RKLB/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">OKLO</td>
+      <td class="name-col">Oklo Inc</td>
+      <td>20</td>
+      <td>65.09</td>
+      <td>21.07</td>
+      <td>1,301.80</td>
+      <td class="up">+880.46</td>
+      <td class="up">+208.97%</td>
+      <td class="up">+50.20</td>
+      <td>1.46%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=OKLO" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/OKLO/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/OKLO/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">OKLO</span></td>
-      <td><span class="name">Oklo Inc</span></td>
-      <td class="mono">20</td>
-      <td class="mono">62.58</td>
-      <td class="mono">21.07</td>
-      <td class="mono">1,251.60</td>
-      <td class="mono pos">+830.26</td>
-      <td class="mono pos">+197.05%</td>
-      <td class="mono pos">+134.00</td>
-      <td class="mono">4.3%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:24%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=OKLO" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/OKLO/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/OKLO/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">RKLB</td>
+      <td class="name-col">Rocket Lab</td>
+      <td>10</td>
+      <td>125.45</td>
+      <td>42.00</td>
+      <td>1,254.50</td>
+      <td class="up">+834.50</td>
+      <td class="up">+198.69%</td>
+      <td class="down">-88.30</td>
+      <td>1.45%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=RKLB" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/RKLB/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/RKLB/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">PLTR</span></td>
-      <td><span class="name">Palantir</span></td>
-      <td class="mono">7</td>
-      <td class="mono">137.15</td>
-      <td class="mono">124.33</td>
-      <td class="mono">960.05</td>
-      <td class="mono pos">+89.71</td>
-      <td class="mono pos">+10.31%</td>
-      <td class="mono pos">+13.23</td>
-      <td class="mono">3.3%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:19%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=PLTR" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/PLTR/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/PLTR/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">PLTR</td>
+      <td class="name-col">Palantir</td>
+      <td>7</td>
+      <td>137.42</td>
+      <td>124.34</td>
+      <td>961.91</td>
+      <td class="up">+91.56</td>
+      <td class="up">+10.52%</td>
+      <td class="up">+1.85</td>
+      <td>1.11%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=PLTR" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/PLTR/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/PLTR/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">ISRG</span></td>
-      <td><span class="name">直覺外科公司</span></td>
-      <td class="mono">2</td>
-      <td class="mono">449.03</td>
-      <td class="mono">453.10</td>
-      <td class="mono">898.06</td>
-      <td class="mono neg">-8.14</td>
-      <td class="mono neg">-0.90%</td>
-      <td class="mono pos">+14.90</td>
-      <td class="mono">3.1%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:18%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=ISRG" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/ISRG/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/ISRG/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">ISRG</td>
+      <td class="name-col">直覺外科公司</td>
+      <td>2</td>
+      <td>439.80</td>
+      <td>453.10</td>
+      <td>879.60</td>
+      <td class="down">-26.60</td>
+      <td class="down">-2.94%</td>
+      <td class="down">-18.46</td>
+      <td>1.04%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=ISRG" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/ISRG/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/ISRG/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">VRT</span></td>
-      <td><span class="name">Vertiv Holdings</span></td>
-      <td class="mono">2</td>
-      <td class="mono">315.67</td>
-      <td class="mono">303.76</td>
-      <td class="mono">631.34</td>
-      <td class="mono pos">+23.82</td>
-      <td class="mono pos">+3.92%</td>
-      <td class="mono neg">-13.92</td>
-      <td class="mono">2.2%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:12%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=VRT" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/VRT/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/VRT/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">VRT</td>
+      <td class="name-col">Vertiv Holdings</td>
+      <td>2</td>
+      <td>323.40</td>
+      <td>303.76</td>
+      <td>646.80</td>
+      <td class="up">+39.28</td>
+      <td class="up">+6.47%</td>
+      <td class="up">+15.46</td>
+      <td>0.74%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=VRT" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/VRT/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/VRT/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">RR</span></td>
-      <td><span class="name">Richtech Robotics</span></td>
-      <td class="mono">200</td>
-      <td class="mono">2.46</td>
-      <td class="mono">2.73</td>
-      <td class="mono">492.00</td>
-      <td class="mono neg">-55.00</td>
-      <td class="mono neg">-10.05%</td>
-      <td class="mono pos">+17.00</td>
-      <td class="mono">1.7%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:10%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=RR" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/RR/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/RR/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">RR</td>
+      <td class="name-col">Richtech Robotics</td>
+      <td>200</td>
+      <td>2.68</td>
+      <td>2.74</td>
+      <td>536.00</td>
+      <td class="down">-11.00</td>
+      <td class="down">-2.01%</td>
+      <td class="up">+44.00</td>
+      <td>0.57%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=RR" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/RR/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/RR/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">ASTS</span></td>
-      <td><span class="name">AST SpaceMobile</span></td>
-      <td class="mono">5</td>
-      <td class="mono">89.58</td>
-      <td class="mono">100.00</td>
-      <td class="mono">447.90</td>
-      <td class="mono neg">-52.10</td>
-      <td class="mono neg">-10.42%</td>
-      <td class="mono pos">+7.40</td>
-      <td class="mono">1.5%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:9%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=ASTS" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/ASTS/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/ASTS/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">ASTS</td>
+      <td class="name-col">AST SpaceMobile</td>
+      <td>5</td>
+      <td>96.23</td>
+      <td>100.00</td>
+      <td>481.15</td>
+      <td class="down">-18.85</td>
+      <td class="down">-3.77%</td>
+      <td class="up">+33.25</td>
+      <td>0.52%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=ASTS" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/ASTS/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/ASTS/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">MRVL</span></td>
-      <td><span class="name">邁威爾科技</span></td>
-      <td class="mono">2</td>
-      <td class="mono">186.80</td>
-      <td class="mono">58.00</td>
-      <td class="mono">373.60</td>
-      <td class="mono pos">+257.60</td>
-      <td class="mono pos">+222.07%</td>
-      <td class="mono pos">+21.06</td>
-      <td class="mono">1.3%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:7%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=MRVL" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/MRVL/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/MRVL/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">MRVL</td>
+      <td class="name-col">邁威爾科技</td>
+      <td>2</td>
+      <td>190.69</td>
+      <td>58.00</td>
+      <td>381.38</td>
+      <td class="up">+265.38</td>
+      <td class="up">+228.78%</td>
+      <td class="up">+7.78</td>
+      <td>0.44%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=MRVL" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/MRVL/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/MRVL/options" target="_blank">期權</a></span></td>
     </tr><tr>
-      <td><span class="ticker">SERV</span></td>
-      <td><span class="name">Serve Robotics</span></td>
-      <td class="mono">30</td>
-      <td class="mono">8.38</td>
-      <td class="mono">11.74</td>
-      <td class="mono">251.40</td>
-      <td class="mono neg">-100.89</td>
-      <td class="mono neg">-28.64%</td>
-      <td class="mono pos">+8.40</td>
-      <td class="mono">0.9%</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:5%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=SERV" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/SERV/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/SERV/options" target="_blank">期權</a>
-        </div>
-      </td>
+      <td class="code-col">SERV</td>
+      <td class="name-col">Serve Robotics</td>
+      <td>30</td>
+      <td>8.81</td>
+      <td>11.74</td>
+      <td>264.30</td>
+      <td class="down">-87.99</td>
+      <td class="down">-24.98%</td>
+      <td class="up">+12.90</td>
+      <td>0.29%</td>
+      <td><span class="links"><a href="https://finviz.com/quote.ashx?t=SERV" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/SERV/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/SERV/options" target="_blank">期權</a></span></td>
     </tr></tbody>
       </table>
     </div>
-    <div style="font-size:10px;color:var(--muted);font-family:var(--mono);margin-top:6px;text-align:right;" id="us-src">報價來源：Finnhub 實時 ｜ 更新：上午11:09:43</div>
+    <div style="font-size:11px;color:var(--muted);margin-top:6px" id="usUpdateTime">報價來源：Finnhub 實時 ｜ 更新：下午5:14:49</div>
   </div>
 
-  <!-- HK Stocks (static) -->
+  <!-- HK Stocks -->
   <div class="section">
-    <div class="section-header">
-      <span class="section-title">港股持倉</span>
-      <span class="section-badge" id="hk-badge">HKD · 實時</span>
+    <div class="section-title">
+      港股持倉 HKD
+      <span class="badge badge-hk">Yahoo Finance 實時</span>
     </div>
     <div class="table-wrap">
-      <table>
+      <table id="hkTable">
         <thead>
           <tr>
             <th>代碼</th>
@@ -767,339 +591,241 @@
             <th>圖表</th>
           </tr>
         </thead>
-        <tbody id="hk-tbody"><tr>
-      <td><span class="ticker">07709</span></td>
-      <td><span class="name">南方兩倍做多海力士</span></td>
-      <td class="mono">400</td>
-      <td class="mono">97.60</td>
-      <td class="mono">15.80</td>
-      <td class="mono">39,040.00</td>
-      <td class="mono pos">+32,720.00</td>
-      <td class="mono pos">+517.72%</td>
-      <td class="mono pos">+6,312.00</td>
-      <td class="mono">56.8%</td>
-      <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=7709" target="_blank">AAStocks</a></td>
+        <tbody id="hkTableBody"><tr>
+      <td class="code-col">07709</td>
+      <td class="name-col">南方兩倍做多海力士</td>
+      <td>400</td>
+      <td>90.54</td>
+      <td>15.80</td>
+      <td>36,216.00</td>
+      <td class="up">+29,896.00</td>
+      <td class="up">+473.04%</td>
+      <td>—</td>
+      <td>54.6%</td>
+      <td><a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=7709" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a></td>
     </tr><tr>
-      <td><span class="ticker">02367</span></td>
-      <td><span class="name">巨子生物</span></td>
-      <td class="mono">600</td>
-      <td class="mono">28.12</td>
-      <td class="mono">38.00</td>
-      <td class="mono">16,872.00</td>
-      <td class="mono neg">-5,928.00</td>
-      <td class="mono neg">-26.00%</td>
-      <td class="mono neutral">+0.00</td>
-      <td class="mono">24.5%</td>
-      <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=2367" target="_blank">AAStocks</a></td>
+      <td class="code-col">02367</td>
+      <td class="name-col">巨子生物</td>
+      <td>600</td>
+      <td>28.14</td>
+      <td>38.00</td>
+      <td>16,884.00</td>
+      <td class="down">-5,916.00</td>
+      <td class="down">-25.95%</td>
+      <td>—</td>
+      <td>25.5%</td>
+      <td><a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=2367" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a></td>
     </tr><tr>
-      <td><span class="ticker">09988</span></td>
-      <td><span class="name">阿里巴巴-W</span></td>
-      <td class="mono">100</td>
-      <td class="mono">128.70</td>
-      <td class="mono">165.00</td>
-      <td class="mono">12,870.00</td>
-      <td class="mono neg">-3,630.00</td>
-      <td class="mono neg">-22.00%</td>
-      <td class="mono neutral">+0.00</td>
-      <td class="mono">18.7%</td>
-      <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=9988" target="_blank">AAStocks</a></td>
+      <td class="code-col">09988</td>
+      <td class="name-col">阿里巴巴-W</td>
+      <td>100</td>
+      <td>131.70</td>
+      <td>165.00</td>
+      <td>13,170.00</td>
+      <td class="down">-3,330.00</td>
+      <td class="down">-20.18%</td>
+      <td>—</td>
+      <td>19.9%</td>
+      <td><a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=9988" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a></td>
     </tr></tbody>
       </table>
     </div>
-    <div style="font-size:10px;color:var(--muted);font-family:var(--mono);margin-top:6px;text-align:right;" id="hk-src">報價來源：Yahoo Finance 實時 ｜ 更新：上午11:09:43</div>
   </div>
 
-  <!-- MPF -->
+  <!-- Risk Overview -->
   <div class="section">
-    <div class="section-header">
-      <span class="section-title">MPF — 宏利環球精選強積金計劃</span>
-    </div>
-    <div class="mpf-grid">
-      <div class="mpf-fund">
-        <div class="mpf-fund-name">北美股票基金</div>
-        <div class="mpf-fund-code">SHK130</div>
-        <div class="mpf-alloc">65%</div>
-        <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width:65%"></div></div>
-        <div class="mpf-note">美股科技股佔比高，受加息預期及科技業績影響較大</div>
-      </div>
-      <div class="mpf-fund">
-        <div class="mpf-fund-name">日本股票基金</div>
-        <div class="mpf-fund-code">SHK131</div>
-        <div class="mpf-alloc">35%</div>
-        <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width:35%"></div></div>
-        <div class="mpf-note">日圓走勢及日本央行政策為主要風險，近期相對穩定</div>
-      </div>
-    </div>
-    <div style="font-size:11px;color:var(--muted);font-family:var(--mono);">
-      MPF 轉換機制：T+2 工作日生效 ｜ 週末提交不計算工作日
-    </div>
-  </div>
-
-  <!-- Risk -->
-  <div class="section">
-    <div class="section-header">
-      <span class="section-title">風險概覽</span>
-    </div>
+    <div class="section-title">風險概覽</div>
     <div class="risk-grid">
-      <div class="risk-item">
-        <div class="risk-label">科技股集中度</div>
-        <div class="risk-value"><span class="tag tag-red">高</span></div>
-        <div class="risk-note">MU / GOOGL / NVDA / AVGO 佔美股市值約 60%+</div>
+      <div class="risk-item risk-high">
+        <div class="risk-icon">⚡</div>
+        <div>
+          <div class="risk-label">科技股集中度高</div>
+          <div class="risk-desc">MU / GOOGL / NVDA / AVGO 佔美股市值約 55%+ ｜ AI相關持倉偏重</div>
+        </div>
       </div>
-      <div class="risk-item">
-        <div class="risk-label">LEU 持倉</div>
-        <div class="risk-value"><span class="tag tag-warn">留意</span></div>
-        <div class="risk-note">Centrus Energy 成本 $197.50，現 $170.70，虧 13.6%</div>
+      <div class="risk-item risk-med">
+        <div class="risk-icon">⚠️</div>
+        <div>
+          <div class="risk-label">LEU 持倉虧損</div>
+          <div class="risk-desc">Centrus Energy 成本$197.50，現$170.70，虧損約14%，核能板塊波動</div>
+        </div>
       </div>
-      <div class="risk-item">
-        <div class="risk-label">港股虧損倉</div>
-        <div class="risk-value neg" style="font-size:14px;">−HKD 9,246</div>
-        <div class="risk-note">巨子生物 −26%，阿里巴巴 −20%</div>
+      <div class="risk-item risk-med">
+        <div class="risk-icon">⚠️</div>
+        <div>
+          <div class="risk-label">港股虧損倉</div>
+          <div class="risk-desc">巨子生物 −26% ｜ 阿里巴巴 −22% ｜ 合計虧損約 HKD 9,546</div>
+        </div>
       </div>
-      <div class="risk-item">
-        <div class="risk-label">MPF 整體評估</div>
-        <div class="risk-value"><span class="tag tag-warn">中等</span></div>
-        <div class="risk-note">北美 65% + 股票帳戶科技股 = 整體美股曝險偏高</div>
+      <div class="risk-item risk-med">
+        <div class="risk-icon">🔴</div>
+        <div>
+          <div class="risk-label">小市值倉位</div>
+          <div class="risk-desc">SERV 虧−41% ｜ RR 虧−10% ｜ ASTS 虧−10% ｜ 流動性較低，波動性高</div>
+        </div>
       </div>
-      <div class="risk-item">
-        <div class="risk-label">SERV / RR 小市值</div>
-        <div class="risk-value"><span class="tag tag-warn">留意</span></div>
-        <div class="risk-note">SERV 虧 29%，RR 虧 10%，流動性較低</div>
+      <div class="risk-item risk-med">
+        <div class="risk-icon">📊</div>
+        <div>
+          <div class="risk-label">MPF 整體評估</div>
+          <div class="risk-desc">北美55% + 股票帳戶科技股 = 整體美股曝險偏高，退休人士宜留意</div>
+        </div>
       </div>
-      <div class="risk-item">
-        <div class="risk-label">ASTS 持倉</div>
-        <div class="risk-value"><span class="tag tag-warn">留意</span></div>
-        <div class="risk-note">AST SpaceMobile 成本 $100，現 $89.78，虧 10.2%</div>
+      <div class="risk-item risk-low">
+        <div class="risk-icon">✅</div>
+        <div>
+          <div class="risk-label">強勢持倉</div>
+          <div class="risk-desc">TER +274% ｜ MRVL +222% ｜ RKLB +198% ｜ OKLO +198% ｜ 多隻大幅跑贏</div>
+        </div>
       </div>
     </div>
   </div>
 
-</main>
+</div>
 
-<footer>
-  <div>美股：Finnhub 實時報價 ｜ 港股：Yahoo Finance 實時報價</div>
-  <div>持倉數據：2026-05-21 上傳 CSV ｜ MPF 轉換機制：T+2 工作日生效</div>
-  <div class="disclaimer">
-    ⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。
-  </div>
-</footer>
+<div class="footer">
+  美股：Finnhub 實時報價 ｜ 港股：Yahoo Finance 實時報價 ｜ MPF：eMPF截至2026年5月20日 ｜ 季度概覽：2025年9月30日<br>
+  持倉數據：2026-05-21 上傳 CSV ｜ MPF 轉換機制：T+2 工作日生效<br><br>
+  ⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。
+</div>
 
 <script>
 const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
 
-// Static holdings from 2026-05-21 CSV
-const holdings = [
-  { ticker:'MU',   name:'美光科技',          qty:7,   cost:429.000 },
-  { ticker:'GOOGL',name:'谷歌-A',             qty:12,  cost:178.40  },
-  { ticker:'NVDA', name:'英偉達',             qty:15,  cost:148.50  },
-  { ticker:'AVGO', name:'博通',               qty:7,   cost:361.117 },
-  { ticker:'META', name:'Meta Platforms',    qty:3,   cost:606.333 },
-  { ticker:'TER',  name:'泰瑞達',             qty:5,   cost:92.00   },
-  { ticker:'RDW',  name:'Redwire',           qty:100, cost:12.40   },
-  { ticker:'LEU',  name:'Centrus Energy',    qty:8,   cost:197.50  },
-  { ticker:'OKLO', name:'Oklo Inc',          qty:20,  cost:21.067  },
-  { ticker:'RKLB', name:'Rocket Lab',        qty:10,  cost:42.00   },
-  { ticker:'PLTR', name:'Palantir',          qty:7,   cost:124.335 },
-  { ticker:'ISRG', name:'直覺外科公司',        qty:2,   cost:453.10  },
-  { ticker:'VRT',  name:'Vertiv Holdings',   qty:2,   cost:303.76  },
-  { ticker:'RR',   name:'Richtech Robotics', qty:200, cost:2.735   },
-  { ticker:'ASTS', name:'AST SpaceMobile',   qty:5,   cost:100.00  },
-  { ticker:'MRVL', name:'邁威爾科技',          qty:2,   cost:58.00   },
-  { ticker:'SERV', name:'Serve Robotics',    qty:30,  cost:11.743  },
+const usCsv = [
+  {code:'MU', name:'美光科技', qty:7, cost:429.000, pct:'6.05%'},
+  {code:'GOOGL', name:'谷歌-A', qty:12, cost:178.400, pct:'5.42%'},
+  {code:'NVDA', name:'英偉達', qty:15, cost:148.500, pct:'3.85%'},
+  {code:'AVGO', name:'博通', qty:7, cost:361.117, pct:'3.39%'},
+  {code:'META', name:'Meta Platforms', qty:3, cost:606.333, pct:'2.11%'},
+  {code:'TER', name:'泰瑞達', qty:5, cost:92.000, pct:'1.99%'},
+  {code:'RDW', name:'Redwire', qty:100, cost:12.400, pct:'1.71%'},
+  {code:'LEU', name:'Centrus Energy', qty:8, cost:197.500, pct:'1.59%'},
+  {code:'OKLO', name:'Oklo Inc', qty:20, cost:21.067, pct:'1.46%'},
+  {code:'RKLB', name:'Rocket Lab', qty:10, cost:42.000, pct:'1.45%'},
+  {code:'PLTR', name:'Palantir', qty:7, cost:124.335, pct:'1.11%'},
+  {code:'ISRG', name:'直覺外科公司', qty:2, cost:453.100, pct:'1.04%'},
+  {code:'VRT', name:'Vertiv Holdings', qty:2, cost:303.760, pct:'0.74%'},
+  {code:'RR', name:'Richtech Robotics', qty:200, cost:2.735, pct:'0.57%'},
+  {code:'ASTS', name:'AST SpaceMobile', qty:5, cost:100.000, pct:'0.52%'},
+  {code:'MRVL', name:'邁威爾科技', qty:2, cost:58.000, pct:'0.44%'},
+  {code:'SERV', name:'Serve Robotics', qty:30, cost:11.743, pct:'0.29%'},
 ];
 
-// Fallback prices from CSV (2026-05-21)
-const csvPrices = {
-  MU:744.350, GOOGL:388.750, NVDA:220.840, AVGO:417.220,
-  META:604.380, TER:342.110, RDW:14.720, LEU:170.700,
-  OKLO:62.830, RKLB:125.100, PLTR:136.080, ISRG:448.100,
-  VRT:317.810, RR:2.460, ASTS:89.780, MRVL:191.380, SERV:8.330
-};
+const hkData = [
+  {code:'07709', name:'南方兩倍做多海力士', qty:400, cost:15.80, price:90.54, prevClose:90.54},
+  {code:'02367', name:'巨子生物', qty:600, cost:38.00, price:28.14, prevClose:28.14},
+  {code:'09988', name:'阿里巴巴-W', qty:100, cost:165.00, price:131.70, prevClose:131.70},
+];
 
-const fmt = (n, dec=2) => n.toFixed(dec).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-const fmtUSD = (n) => (n >= 0 ? '+' : '') + fmt(n);
+function fmt(n, dp=2) {
+  return n.toLocaleString('en-US', {minimumFractionDigits:dp, maximumFractionDigits:dp});
+}
+function clr(n) { return n>=0 ? 'up' : 'down'; }
+function sign(n) { return n>=0 ? '+' : ''; }
 
-async function fetchPrice(ticker) {
-  const url = `https://finnhub.io/api/v1/quote?symbol=${ticker}&token=${FINNHUB_KEY}`;
+async function fetchQuote(symbol) {
+  const url = `https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${FINNHUB_KEY}`;
   const r = await fetch(url);
-  const d = await r.json();
-  if (d && d.c && d.c > 0) return { price: d.c, change: d.d || 0 };
-  return null;
+  return r.json();
 }
 
-async function loadPrices() {
-  const now = new Date();
-  document.getElementById('last-updated').textContent = '更新：' + now.toLocaleTimeString('zh-HK');
+async function loadUS() {
+  const tbody = document.getElementById('usTableBody');
+  const symbols = usCsv.map(s=>s.code);
+  
+  // Batch fetch
+  const quotes = {};
+  await Promise.all(symbols.map(async sym => {
+    try { quotes[sym] = await fetchQuote(sym); } catch(e) {}
+  }));
 
-  const results = [];
   let totalMV = 0, totalUnreal = 0, totalToday = 0;
+  let rows = '';
 
-  for (const h of holdings) {
-    let price = csvPrices[h.ticker] || 0;
-    let todayChg = 0;
-    try {
-      const live = await fetchPrice(h.ticker);
-      if (live) { price = live.price; todayChg = live.change * h.qty; }
-    } catch(e) {}
+  for (const s of usCsv) {
+    const q = quotes[s.code] || {};
+    const price = q.c || 0;
+    const prevClose = q.pc || price;
+    const mv = price * s.qty;
+    const unreal = mv - s.cost * s.qty;
+    const unrPct = s.cost > 0 ? (unreal / (s.cost*s.qty)*100) : 0;
+    const todayPL = (price - prevClose) * s.qty;
+    totalMV += mv; totalUnreal += unreal; totalToday += todayPL;
 
-    const mv = price * h.qty;
-    const unreal = (price - h.cost) * h.qty;
-    const unrealPct = ((price - h.cost) / h.cost) * 100;
-    totalMV += mv;
-    totalUnreal += unreal;
-    totalToday += todayChg;
-    results.push({ ...h, price, mv, unreal, unrealPct, todayChg });
+    const links = `<span class="links"><a href="https://finviz.com/quote.ashx?t=${s.code}" target="_blank">Finviz</a><a href="https://www.barchart.com/stocks/quotes/${s.code}/interactive-chart" target="_blank">圖表</a><a href="https://www.barchart.com/stocks/quotes/${s.code}/options" target="_blank">期權</a></span>`;
+
+    rows += `<tr>
+      <td class="code-col">${s.code}</td>
+      <td class="name-col">${s.name}</td>
+      <td>${s.qty}</td>
+      <td>${price ? fmt(price) : '—'}</td>
+      <td>${fmt(s.cost)}</td>
+      <td>${price ? fmt(mv) : '—'}</td>
+      <td class="${clr(unreal)}">${price ? sign(unreal)+fmt(unreal) : '—'}</td>
+      <td class="${clr(unrPct)}">${price ? sign(unrPct)+fmt(unrPct,2)+'%' : '—'}</td>
+      <td class="${clr(todayPL)}">${price ? sign(todayPL)+fmt(todayPL) : '—'}</td>
+      <td>${s.pct}</td>
+      <td>${links}</td>
+    </tr>`;
   }
 
-  // Sort by market value desc
-  results.sort((a,b) => b.mv - a.mv);
-  const maxMV = results[0].mv;
+  tbody.innerHTML = rows;
 
   // Update summary cards
-  document.getElementById('us-mv').textContent = 'USD ' + fmt(totalMV);
-  document.getElementById('us-count').textContent = holdings.length + ' 個持倉';
-  
-  // Static realized from CSV sum
-  const totalReal = 861.20+1776.20+1268.05+3.78+3.15+1356.54+0+0+370.83+0+112.19+0+0+25.54+0+0.36+0;
-  document.getElementById('us-real').textContent = '+USD ' + fmt(totalReal);
+  document.getElementById('usTotal').textContent = 'USD '+fmt(totalMV);
+  const uEl = document.getElementById('usUnreal');
+  uEl.textContent = (totalUnreal>=0?'+':'')+'USD '+fmt(totalUnreal);
+  uEl.className = 'stat-value '+(totalUnreal>=0?'up':'down');
+  const tEl = document.getElementById('usToday');
+  tEl.textContent = (totalToday>=0?'+':'')+fmt(totalToday);
+  tEl.className = 'stat-value '+(totalToday>=0?'up':'down');
 
-  const unrealEl = document.getElementById('us-unreal');
-  unrealEl.textContent = (totalUnreal >= 0 ? '+' : '') + 'USD ' + fmt(Math.abs(totalUnreal));
-  unrealEl.className = 'card-value ' + (totalUnreal >= 0 ? 'pos' : 'neg');
-
-  const todayEl = document.getElementById('us-today');
-  todayEl.textContent = (totalToday >= 0 ? '+' : '') + fmt(totalToday);
-  todayEl.className = 'card-value ' + (totalToday >= 0 ? 'pos' : 'neg');
-
-  // Build table
-  const tbody = document.getElementById('us-tbody');
-  tbody.innerHTML = '';
-  for (const r of results) {
-    const pctStr = (r.unrealPct >= 0 ? '+' : '') + fmt(r.unrealPct, 2) + '%';
-    const todayStr = r.todayChg !== 0 ? (r.todayChg >= 0 ? '+' : '') + fmt(r.todayChg) : '—';
-    const mvPct = (r.mv / totalMV * 100).toFixed(1) + '%';
-    const barW = Math.round((r.mv / maxMV) * 100);
-    const pcls = r.unreal >= 0 ? 'pos' : 'neg';
-    const tcls = r.todayChg > 0 ? 'pos' : r.todayChg < 0 ? 'neg' : 'neutral';
-
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td><span class="ticker">${r.ticker}</span></td>
-      <td><span class="name">${r.name}</span></td>
-      <td class="mono">${r.qty}</td>
-      <td class="mono">${fmt(r.price)}</td>
-      <td class="mono">${fmt(r.cost)}</td>
-      <td class="mono">${fmt(r.mv)}</td>
-      <td class="mono ${pcls}">${fmtUSD(r.unreal)}</td>
-      <td class="mono ${pcls}">${pctStr}</td>
-      <td class="mono ${tcls}">${todayStr}</td>
-      <td class="mono">${mvPct}</td>
-      <td class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${barW}%"></div></div></td>
-      <td>
-        <div class="links-cell">
-          <a class="link-btn" href="https://finviz.com/quote.ashx?t=${r.ticker}" target="_blank">Finviz</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/${r.ticker}/interactive-chart" target="_blank">圖表</a>
-          <a class="link-btn" href="https://www.barchart.com/stocks/quotes/${r.ticker}/options" target="_blank">期權</a>
-        </div>
-      </td>
-    `;
-    tbody.appendChild(tr);
-  }
-
-  document.getElementById('us-src').textContent = '報價來源：Finnhub 實時 ｜ 更新：' + now.toLocaleTimeString('zh-HK');
-}
-
-// HK Holdings
-const hkHoldings = [
-  { code:'07709', symbol:'7709.HK', name:'南方兩倍做多海力士', qty:400,  cost:15.80  },
-  { code:'02367', symbol:'2367.HK', name:'巨子生物',           qty:600,  cost:38.00  },
-  { code:'09988', symbol:'9988.HK', name:'阿里巴巴-W',         qty:100,  cost:165.00 },
-];
-
-// Fallback HK prices from app screenshot 2026-05-21
-const hkCsvPrices = { '7709.HK':97.94, '2367.HK':28.12, '9988.HK':128.70 };
-
-async function fetchHKPrice(symbol) {
-  try {
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=1d`;
-    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-    const r = await fetch(proxy);
-    const outer = await r.json();
-    const data = JSON.parse(outer.contents);
-    const meta = data?.chart?.result?.[0]?.meta;
-    if (meta && meta.regularMarketPrice > 0) {
-      return {
-        price: meta.regularMarketPrice,
-        prevClose: meta.chartPreviousClose || meta.previousClose || meta.regularMarketPrice,
-      };
-    }
-  } catch(e) {}
-  return null;
-}
-
-async function loadHKPrices() {
   const now = new Date();
-  const results = [];
-  let totalHKMV = 0, totalHKUnreal = 0;
-
-  for (const h of hkHoldings) {
-    let price = hkCsvPrices[h.symbol] || h.cost;
-    let prevClose = price;
-    try {
-      const live = await fetchHKPrice(h.symbol);
-      if (live) { price = live.price; prevClose = live.prevClose; }
-    } catch(e) {}
-
-    const mv = price * h.qty;
-    const unreal = (price - h.cost) * h.qty;
-    const unrealPct = ((price - h.cost) / h.cost) * 100;
-    const todayChg = (price - prevClose) * h.qty;
-    totalHKMV += mv;
-    totalHKUnreal += unreal;
-    results.push({ ...h, price, mv, unreal, unrealPct, todayChg });
-  }
-
-  // Update HK summary cards
-  document.getElementById('hk-mv-val').textContent = 'HKD ' + fmt(totalHKMV);
-  const hkUnrealEl = document.getElementById('hk-unreal-val');
-  hkUnrealEl.textContent = (totalHKUnreal >= 0 ? '+' : '') + 'HKD ' + fmt(Math.abs(totalHKUnreal));
-  hkUnrealEl.className = 'card-value ' + (totalHKUnreal >= 0 ? 'pos' : 'neg');
-
-  // Build HK table
-  const tbody = document.getElementById('hk-tbody');
-  tbody.innerHTML = '';
-  for (const r of results) {
-    const pctStr = (r.unrealPct >= 0 ? '+' : '') + fmt(r.unrealPct, 2) + '%';
-    const todayStr = (r.todayChg >= 0 ? '+' : '') + fmt(r.todayChg);
-    const mvPct = (r.mv / totalHKMV * 100).toFixed(1) + '%';
-    const pcls = r.unreal >= 0 ? 'pos' : 'neg';
-    const tcls = r.todayChg > 0 ? 'pos' : r.todayChg < 0 ? 'neg' : 'neutral';
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td><span class="ticker">${r.code}</span></td>
-      <td><span class="name">${r.name}</span></td>
-      <td class="mono">${r.qty}</td>
-      <td class="mono">${fmt(r.price)}</td>
-      <td class="mono">${fmt(r.cost)}</td>
-      <td class="mono">${fmt(r.mv)}</td>
-      <td class="mono ${pcls}">${(r.unreal>=0?'+':'')}${fmt(r.unreal)}</td>
-      <td class="mono ${pcls}">${pctStr}</td>
-      <td class="mono ${tcls}">${todayStr}</td>
-      <td class="mono">${mvPct}</td>
-      <td><a class="link-btn" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=${r.code.replace(/^0+/,'')}" target="_blank">AAStocks</a></td>
-    `;
-    tbody.appendChild(tr);
-  }
-
-  document.getElementById('hk-badge').textContent = 'HKD · 實時';
-  document.getElementById('hk-src').textContent = '報價來源：Yahoo Finance 實時 ｜ 更新：' + now.toLocaleTimeString('zh-HK');
+  document.getElementById('usUpdateTime').textContent = `報價來源：Finnhub 實時 ｜ 更新：${now.toLocaleTimeString('zh-HK')}`;
 }
 
-loadPrices().catch(console.error);
-loadHKPrices().catch(console.error);
-// Auto-refresh every 5 minutes
-setInterval(() => { loadPrices().catch(console.error); loadHKPrices().catch(console.error); }, 300000);
-</script>
+function loadHK() {
+  const tbody = document.getElementById('hkTableBody');
+  let totalMV = 0, totalUnreal = 0;
+  let rows = '';
+  let totalHKMV = 0;
+  for (const s of hkData) totalHKMV += s.price * s.qty;
 
+  for (const s of hkData) {
+    const mv = s.price * s.qty;
+    const unreal = mv - s.cost * s.qty;
+    const unrPct = (unreal/(s.cost*s.qty))*100;
+    const todayPL = 0;
+    const pct = (mv/totalHKMV*100).toFixed(1)+'%';
+    totalMV += mv; totalUnreal += unreal;
+    const link = `<a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=${s.code.replace(/^0+/,'')}" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a>`;
+    rows += `<tr>
+      <td class="code-col">${s.code}</td>
+      <td class="name-col">${s.name}</td>
+      <td>${s.qty}</td>
+      <td>${fmt(s.price)}</td>
+      <td>${fmt(s.cost)}</td>
+      <td>${fmt(mv)}</td>
+      <td class="${clr(unreal)}">${sign(unreal)}${fmt(unreal)}</td>
+      <td class="${clr(unrPct)}">${sign(unrPct)}${fmt(unrPct,2)}%</td>
+      <td>—</td>
+      <td>${pct}</td>
+      <td>${link}</td>
+    </tr>`;
+  }
+  tbody.innerHTML = rows;
+}
+
+function updateTime() {
+  document.getElementById('updateTime').textContent = '更新：'+new Date().toLocaleTimeString('zh-HK');
+}
+
+updateTime();
+setInterval(updateTime, 60000);
+loadUS();
+loadHK();
+setInterval(loadUS, 120000);
+</script>
 
 </body></html>
