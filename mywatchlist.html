@@ -7,432 +7,135 @@
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg:       #0a0c10;
-    --bg2:      #0f1218;
-    --bg3:      #141820;
-    --border:   #1e2430;
-    --border2:  #252d3a;
-    --text:     #c8d4e8;
-    --muted:    #4a5568;
-    --green:    #00d4aa;
-    --red:      #ff4d6d;
-    --amber:    #f5a623;
-    --blue:     #4a9eff;
-    --accent:   #00d4aa;
-    --font-mono: 'JetBrains Mono', monospace;
-    --font-display: 'Syne', sans-serif;
+    --bg:#0a0c10; --bg2:#0f1218; --bg3:#141820;
+    --border:#1e2430; --border2:#252d3a;
+    --text:#c8d4e8; --muted:#4a5568;
+    --green:#00d4aa; --red:#ff4d6d; --amber:#f5a623; --blue:#4a9eff; --accent:#00d4aa;
+    --font-mono:'JetBrains Mono',monospace; --font-display:'Syne',sans-serif;
   }
-
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--font-mono);
-    font-size: 13px;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-
-  /* Grid noise texture overlay */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image:
-      linear-gradient(rgba(0,212,170,0.015) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0,212,170,0.015) 1px, transparent 1px);
-    background-size: 40px 40px;
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  .container {
-    position: relative;
-    z-index: 1;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 24px 20px 60px;
-  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-size:13px;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(0,212,170,.015) 1px,transparent 1px),linear-gradient(90deg,rgba(0,212,170,.015) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0;}
+  .container{position:relative;z-index:1;max-width:1300px;margin:0 auto;padding:24px 20px 60px;}
 
   /* Header */
-  header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    margin-bottom: 28px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid var(--border);
-  }
+  header{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:28px;padding-bottom:20px;border-bottom:1px solid var(--border);}
+  .header-left h1{font-family:var(--font-display);font-size:28px;font-weight:800;letter-spacing:-.5px;color:#fff;line-height:1;margin-bottom:4px;}
+  .header-left .subtitle{color:var(--muted);font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .header-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;}
+  #clock{font-size:22px;font-weight:500;color:var(--accent);letter-spacing:.05em;}
+  #date-str{font-size:11px;color:var(--muted);letter-spacing:.05em;}
 
-  .header-left h1 {
-    font-family: var(--font-display);
-    font-size: 28px;
-    font-weight: 800;
-    letter-spacing: -0.5px;
-    color: #fff;
-    line-height: 1;
-    margin-bottom: 4px;
-  }
-
-  .header-left .subtitle {
-    color: var(--muted);
-    font-size: 11px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-
-  .header-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 4px;
-  }
-
-  #clock {
-    font-size: 22px;
-    font-weight: 500;
-    color: var(--accent);
-    letter-spacing: 0.05em;
-  }
-
-  #date-str {
-    font-size: 11px;
-    color: var(--muted);
-    letter-spacing: 0.05em;
-  }
+  /* Nav tabs */
+  .nav-tabs{display:flex;gap:4px;margin-bottom:20px;}
+  .nav-tab{background:var(--bg3);border:1px solid var(--border);border-radius:5px 5px 0 0;color:var(--muted);font-family:var(--font-mono);font-size:11px;padding:8px 18px;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;transition:all .2s;border-bottom-color:var(--bg3);}
+  .nav-tab:hover{color:var(--text);}
+  .nav-tab.active{background:var(--bg2);border-color:var(--accent);border-bottom-color:var(--bg2);color:var(--accent);}
+  .tab-content{display:none;}
+  .tab-content.active{display:block;}
 
   /* Status bar */
-  .status-bar {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 18px;
-    flex-wrap: wrap;
-  }
-
-  .status-pill {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: 5px 12px;
-    font-size: 11px;
-    color: var(--muted);
-    letter-spacing: 0.05em;
-  }
-
-  .status-dot {
-    width: 6px; height: 6px;
-    border-radius: 50%;
-    background: var(--amber);
-    animation: pulse 2s infinite;
-  }
-  .status-dot.live { background: var(--green); }
-
-  @keyframes pulse {
-    0%,100% { opacity:1; }
-    50%      { opacity:0.3; }
-  }
-
-  #last-updated { color: var(--text); }
+  .status-bar{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap;}
+  .status-pill{display:flex;align-items:center;gap:6px;background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:5px 12px;font-size:11px;color:var(--muted);letter-spacing:.05em;}
+  .status-dot{width:6px;height:6px;border-radius:50%;background:var(--amber);animation:pulse 2s infinite;}
+  .status-dot.live{background:var(--green);}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
 
   /* Summary cards */
-  .summary-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-
-  .summary-card {
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 14px 16px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .summary-card::after {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 2px;
-    background: var(--accent);
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-
-  .summary-card:hover::after { opacity: 1; }
-
-  .summary-label {
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--muted);
-    margin-bottom: 6px;
-  }
-
-  .summary-value {
-    font-size: 22px;
-    font-weight: 700;
-    font-family: var(--font-display);
-    color: #fff;
-  }
-
-  .summary-sub {
-    font-size: 10px;
-    color: var(--muted);
-    margin-top: 3px;
-  }
+  .summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;}
+  .summary-card{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:14px 16px;position:relative;overflow:hidden;}
+  .summary-card::after{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--accent);opacity:0;transition:opacity .3s;}
+  .summary-card:hover::after{opacity:1;}
+  .summary-label{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;}
+  .summary-value{font-size:22px;font-weight:700;font-family:var(--font-display);color:#fff;}
+  .summary-sub{font-size:10px;color:var(--muted);margin-top:3px;}
 
   /* Controls */
-  .controls {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 14px;
-    flex-wrap: wrap;
-  }
-
-  .search-box {
-    position: relative;
-    flex: 1;
-    min-width: 160px;
-    max-width: 260px;
-  }
-
-  .search-box input {
-    width: 100%;
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    color: var(--text);
-    font-family: var(--font-mono);
-    font-size: 12px;
-    padding: 7px 10px 7px 32px;
-    outline: none;
-    transition: border-color 0.2s;
-  }
-
-  .search-box input:focus { border-color: var(--accent); }
-
-  .search-icon {
-    position: absolute;
-    left: 10px; top: 50%;
-    transform: translateY(-50%);
-    color: var(--muted);
-    font-size: 12px;
-  }
-
-  .btn {
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    color: var(--text);
-    font-family: var(--font-mono);
-    font-size: 11px;
-    padding: 7px 14px;
-    cursor: pointer;
-    letter-spacing: 0.04em;
-    transition: all 0.2s;
-    text-transform: uppercase;
-  }
-
-  .btn:hover { border-color: var(--accent); color: var(--accent); }
-
-  .btn-primary {
-    background: rgba(0,212,170,0.1);
-    border-color: var(--accent);
-    color: var(--accent);
-  }
-
-  .btn-primary:hover { background: rgba(0,212,170,0.2); }
-
-  /* Column filter pills */
-  .sort-info {
-    font-size: 11px;
-    color: var(--muted);
-    margin-left: auto;
-  }
+  .controls{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap;}
+  .search-box{position:relative;flex:1;min-width:160px;max-width:260px;}
+  .search-box input{width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--text);font-family:var(--font-mono);font-size:12px;padding:7px 10px 7px 32px;outline:none;transition:border-color .2s;}
+  .search-box input:focus{border-color:var(--accent);}
+  .search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:12px;}
+  .btn{background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--text);font-family:var(--font-mono);font-size:11px;padding:7px 14px;cursor:pointer;letter-spacing:.04em;transition:all .2s;text-transform:uppercase;}
+  .btn:hover{border-color:var(--accent);color:var(--accent);}
+  .btn-primary{background:rgba(0,212,170,.1);border-color:var(--accent);color:var(--accent);}
+  .btn-primary:hover{background:rgba(0,212,170,.2);}
+  .btn-flip{background:rgba(245,166,35,.1);border-color:var(--amber);color:var(--amber);}
+  .btn-flip:hover{background:rgba(245,166,35,.2);}
+  .sort-info{font-size:11px;color:var(--muted);margin-left:auto;}
 
   /* Table */
-  .table-wrap {
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-  }
+  .table-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;overflow:hidden;}
+  table{width:100%;border-collapse:collapse;}
+  thead tr{background:var(--bg3);border-bottom:1px solid var(--border2);}
+  thead th{padding:10px 14px;text-align:right;font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);white-space:nowrap;cursor:pointer;user-select:none;transition:color .2s;}
+  thead th:first-child,thead th:nth-child(2){text-align:left;}
+  thead th:hover{color:var(--accent);}
+  thead th.sort-asc::after{content:' ↑';color:var(--accent);}
+  thead th.sort-desc::after{content:' ↓';color:var(--accent);}
+  tbody tr{border-bottom:1px solid var(--border);transition:background .15s;animation:rowIn .3s ease both;}
+  @keyframes rowIn{from{opacity:0;transform:translateX(-6px);}to{opacity:1;transform:translateX(0);}}
+  tbody tr:last-child{border-bottom:none;}
+  tbody tr:hover{background:rgba(255,255,255,.025);}
+  tbody tr.selected-row{background:rgba(0,212,170,.07);border-left:2px solid var(--accent);}
+  tbody td{padding:10px 14px;text-align:right;font-size:12.5px;white-space:nowrap;}
+  tbody td:first-child{text-align:left;}
+  tbody td:nth-child(2){text-align:left;}
+  .sym-badge{font-weight:700;font-size:13px;color:var(--blue);letter-spacing:.03em;cursor:pointer;}
+  .sym-badge:hover{color:var(--accent);}
+  .name-cell{color:var(--text);font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;}
+  .price-cell{font-weight:500;font-size:13px;color:#fff;font-feature-settings:'tnum';}
+  .chg-cell,.pct-cell{font-feature-settings:'tnum';font-weight:500;}
+  .pos{color:var(--green);} .neg{color:var(--red);} .neu{color:var(--muted);}
+  .vol-cell{color:var(--muted);font-size:11.5px;}
+  .pct-badge{display:inline-block;padding:2px 7px;border-radius:3px;font-size:11.5px;font-weight:600;letter-spacing:.02em;}
+  .pct-badge.pos{background:rgba(0,212,170,.12);color:var(--green);}
+  .pct-badge.neg{background:rgba(255,77,109,.12);color:var(--red);}
+  .pct-badge.neu{background:rgba(255,255,255,.06);color:var(--muted);}
+  .ohlc-cell{color:var(--muted);font-size:11px;}
+  .finviz-link{font-size:10px;color:var(--muted);text-decoration:none;border:1px solid var(--border);border-radius:3px;padding:2px 6px;transition:all .2s;}
+  .finviz-link:hover{border-color:var(--amber);color:var(--amber);}
+  .flip-btn-row{font-size:10px;color:var(--amber);text-decoration:none;border:1px solid rgba(245,166,35,.3);border-radius:3px;padding:2px 6px;cursor:pointer;transition:all .2s;background:none;}
+  .flip-btn-row:hover{border-color:var(--amber);background:rgba(245,166,35,.1);}
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+  /* ── FLIPCHARTS ── */
+  #flipcharts-tab{position:relative;}
+  .flip-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px;}
+  .flip-title{font-family:var(--font-display);font-size:20px;font-weight:800;color:#fff;}
+  .flip-sym-label{color:var(--accent);margin-left:8px;}
+  .flip-nav{display:flex;align-items:center;gap:10px;}
+  .flip-arrow{background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--text);font-family:var(--font-mono);font-size:18px;width:38px;height:38px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;}
+  .flip-arrow:hover{border-color:var(--accent);color:var(--accent);}
+  .flip-arrow:disabled{opacity:.3;cursor:not-allowed;}
+  .flip-counter{font-size:12px;color:var(--muted);min-width:60px;text-align:center;}
+  .flip-sym-strip{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;}
+  .flip-sym-chip{background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:4px 10px;font-size:11px;color:var(--muted);cursor:pointer;transition:all .2s;}
+  .flip-sym-chip:hover{border-color:var(--accent);color:var(--accent);}
+  .flip-sym-chip.active{background:rgba(0,212,170,.1);border-color:var(--accent);color:var(--accent);font-weight:600;}
+  .flip-interval-bar{display:flex;gap:6px;margin-bottom:14px;align-items:center;}
+  .flip-interval-bar span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-right:4px;}
+  .interval-btn{background:var(--bg3);border:1px solid var(--border);border-radius:3px;color:var(--muted);font-family:var(--font-mono);font-size:10px;padding:4px 9px;cursor:pointer;transition:all .2s;}
+  .interval-btn:hover{color:var(--text);}
+  .interval-btn.active{background:rgba(74,158,255,.12);border-color:var(--blue);color:var(--blue);}
+  .chart-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;overflow:hidden;height:580px;position:relative;}
+  .chart-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--bg2);z-index:10;flex-direction:column;gap:12px;}
+  .chart-loading .spin{width:32px;height:32px;border:2px solid var(--border2);border-top-color:var(--accent);border-radius:50%;animation:spin 0.8s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .chart-loading p{font-size:12px;color:var(--muted);}
+  #tv-chart{width:100%;height:100%;border:none;}
+  .flip-info-bar{display:flex;gap:20px;margin-top:14px;flex-wrap:wrap;}
+  .flip-info-item{background:var(--bg2);border:1px solid var(--border);border-radius:5px;padding:10px 16px;min-width:100px;}
+  .flip-info-label{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:4px;}
+  .flip-info-val{font-size:15px;font-weight:600;color:#fff;}
 
-  thead tr {
-    background: var(--bg3);
-    border-bottom: 1px solid var(--border2);
-  }
-
-  thead th {
-    padding: 10px 14px;
-    text-align: right;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-    white-space: nowrap;
-    cursor: pointer;
-    user-select: none;
-    transition: color 0.2s;
-  }
-
-  thead th:first-child,
-  thead th:nth-child(2) { text-align: left; }
-
-  thead th:hover { color: var(--accent); }
-  thead th.sort-asc::after  { content: ' ↑'; color: var(--accent); }
-  thead th.sort-desc::after { content: ' ↓'; color: var(--accent); }
-
-  tbody tr {
-    border-bottom: 1px solid var(--border);
-    transition: background 0.15s;
-    animation: rowIn 0.3s ease both;
-  }
-
-  @keyframes rowIn {
-    from { opacity:0; transform: translateX(-6px); }
-    to   { opacity:1; transform: translateX(0); }
-  }
-
-  tbody tr:last-child { border-bottom: none; }
-  tbody tr:hover { background: rgba(255,255,255,0.025); }
-
-  tbody td {
-    padding: 10px 14px;
-    text-align: right;
-    font-size: 12.5px;
-    white-space: nowrap;
-  }
-
-  tbody td:first-child { text-align: left; }
-  tbody td:nth-child(2) { text-align: left; }
-
-  .sym-cell {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .sym-badge {
-    font-weight: 700;
-    font-size: 13px;
-    color: var(--blue);
-    letter-spacing: 0.03em;
-    cursor: pointer;
-  }
-
-  .sym-badge:hover { color: var(--accent); text-decoration: underline; }
-
-  .name-cell {
-    color: var(--text);
-    font-size: 12px;
-    max-width: 200px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .price-cell {
-    font-weight: 500;
-    font-size: 13px;
-    color: #fff;
-    font-feature-settings: 'tnum';
-  }
-
-  .price-cell.loading { color: var(--muted); }
-
-  .chg-cell, .pct-cell {
-    font-feature-settings: 'tnum';
-    font-weight: 500;
-  }
-
-  .pos { color: var(--green); }
-  .neg { color: var(--red); }
-  .neu { color: var(--muted); }
-
-  .vol-cell { color: var(--muted); font-size: 11.5px; }
-
-  .pct-badge {
-    display: inline-block;
-    padding: 2px 7px;
-    border-radius: 3px;
-    font-size: 11.5px;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-  }
-
-  .pct-badge.pos { background: rgba(0,212,170,0.12); color: var(--green); }
-  .pct-badge.neg { background: rgba(255,77,109,0.12); color: var(--red); }
-  .pct-badge.neu { background: rgba(255,255,255,0.06); color: var(--muted); }
-
-  .ohlc-cell { color: var(--muted); font-size: 11px; }
-
-  .sparkline-cell { width: 80px; }
-
-  canvas.spark { display: block; }
-
-  .finviz-link {
-    font-size: 10px;
-    color: var(--muted);
-    text-decoration: none;
-    border: 1px solid var(--border);
-    border-radius: 3px;
-    padding: 2px 6px;
-    transition: all 0.2s;
-  }
-
-  .finviz-link:hover { border-color: var(--amber); color: var(--amber); }
-
-  /* Loading shimmer */
-  .shimmer {
-    display: inline-block;
-    width: 60px; height: 13px;
-    background: linear-gradient(90deg, var(--border) 25%, var(--border2) 50%, var(--border) 75%);
-    background-size: 200% 100%;
-    animation: shimmer 1.2s infinite;
-    border-radius: 3px;
-    vertical-align: middle;
-  }
-
-  @keyframes shimmer {
-    0%   { background-position: 200% 0; }
-    100% { background-position: -200% 0; }
-  }
+  /* Keyboard hint */
+  .kb-hint{font-size:10px;color:var(--muted);margin-top:10px;text-align:right;}
+  .kb-hint kbd{background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:1px 5px;font-family:var(--font-mono);}
 
   /* Footer */
-  footer {
-    margin-top: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 10px;
-    color: var(--muted);
-    letter-spacing: 0.04em;
-  }
-
-  /* Responsive */
-  @media (max-width: 900px) {
-    .summary-grid { grid-template-columns: repeat(2,1fr); }
-    .ohlc-wrap, .sparkline-cell { display: none; }
-  }
-  @media (max-width: 600px) {
-    .summary-grid { grid-template-columns: 1fr 1fr; }
-    .vol-cell { display: none; }
-  }
+  footer{margin-top:24px;display:flex;align-items:center;justify-content:space-between;font-size:10px;color:var(--muted);letter-spacing:.04em;}
+  @media(max-width:900px){.summary-grid{grid-template-columns:repeat(2,1fr);}.ohlc-cell{display:none;}.chart-wrap{height:420px;}}
+  @media(max-width:600px){.summary-grid{grid-template-columns:1fr 1fr;}.vol-cell{display:none;}}
 </style>
 </head>
 <body>
@@ -441,7 +144,7 @@
   <header>
     <div class="header-left">
       <h1>MY WATCHLIST</h1>
-      <div class="subtitle">Live Quotes via Finviz &nbsp;·&nbsp; Tech &amp; Semi Focus</div>
+      <div class="subtitle">Live Quotes · Flipcharts · Finviz + TradingView</div>
     </div>
     <div class="header-right">
       <div id="clock">--:--:--</div>
@@ -449,61 +152,41 @@
     </div>
   </header>
 
-  <div class="status-bar">
-    <div class="status-pill">
-      <div class="status-dot" id="status-dot"></div>
-      <span id="status-text">Loading quotes...</span>
-    </div>
-    <div class="status-pill">
-      <span>Source: </span><span style="color:var(--text)">Finviz Elite</span>
-    </div>
-    <div class="status-pill">
-      Last updated: <span id="last-updated" style="margin-left:4px">—</span>
-    </div>
+  <!-- Tab navigation -->
+  <div class="nav-tabs">
+    <button class="nav-tab active" onclick="switchTab('watchlist')">📋 Watchlist</button>
+    <button class="nav-tab" onclick="switchTab('flipcharts')" id="flip-tab-btn">📈 Flipcharts</button>
   </div>
 
-  <!-- Summary cards -->
-  <div class="summary-grid">
-    <div class="summary-card">
-      <div class="summary-label">Total Symbols</div>
-      <div class="summary-value" id="sum-total">20</div>
-      <div class="summary-sub">In watchlist</div>
-    </div>
-    <div class="summary-card">
-      <div class="summary-label">Advancing</div>
-      <div class="summary-value pos" id="sum-adv">—</div>
-      <div class="summary-sub">Positive today</div>
-    </div>
-    <div class="summary-card">
-      <div class="summary-label">Declining</div>
-      <div class="summary-value neg" id="sum-dec">—</div>
-      <div class="summary-sub">Negative today</div>
-    </div>
-    <div class="summary-card">
-      <div class="summary-label">Top Mover</div>
-      <div class="summary-value" id="sum-top" style="font-size:16px">—</div>
-      <div class="summary-sub" id="sum-top-sub">Best % change</div>
-    </div>
-  </div>
+  <!-- ══════════════ WATCHLIST TAB ══════════════ -->
+  <div class="tab-content active" id="tab-watchlist">
 
-  <!-- Controls -->
-  <div class="controls">
-    <div class="search-box">
-      <span class="search-icon">⌕</span>
-      <input type="text" id="search-input" placeholder="Filter symbol / name...">
+    <div class="status-bar">
+      <div class="status-pill"><div class="status-dot" id="status-dot"></div><span id="status-text">Loading...</span></div>
+      <div class="status-pill">Source: <span style="color:var(--text);margin-left:4px">Finviz</span></div>
+      <div class="status-pill">Updated: <span id="last-updated" style="color:var(--text);margin-left:4px">—</span></div>
     </div>
-    <button class="btn btn-primary" id="refresh-btn">↻ Refresh</button>
-    <button class="btn" id="sort-pct-btn">Sort % Chg</button>
-    <button class="btn" id="sort-vol-btn">Sort Volume</button>
-    <button class="btn" id="reset-btn">Reset</button>
-    <span class="sort-info" id="sort-info">20 symbols</span>
-  </div>
 
-  <!-- Table -->
-  <div class="table-wrap">
-    <table id="wl-table">
-      <thead>
-        <tr>
+    <div class="summary-grid">
+      <div class="summary-card"><div class="summary-label">Total Symbols</div><div class="summary-value" id="sum-total">20</div><div class="summary-sub">In watchlist</div></div>
+      <div class="summary-card"><div class="summary-label">Advancing</div><div class="summary-value pos" id="sum-adv">—</div><div class="summary-sub">Positive today</div></div>
+      <div class="summary-card"><div class="summary-label">Declining</div><div class="summary-value neg" id="sum-dec">—</div><div class="summary-sub">Negative today</div></div>
+      <div class="summary-card"><div class="summary-label">Top Mover</div><div class="summary-value" id="sum-top" style="font-size:16px">—</div><div class="summary-sub" id="sum-top-sub">Best % change</div></div>
+    </div>
+
+    <div class="controls">
+      <div class="search-box"><span class="search-icon">⌕</span><input type="text" id="search-input" placeholder="Filter symbol / name..."></div>
+      <button class="btn btn-primary" id="refresh-btn">↻ Refresh</button>
+      <button class="btn" id="sort-pct-btn">Sort % Chg</button>
+      <button class="btn" id="sort-vol-btn">Sort Volume</button>
+      <button class="btn" id="reset-btn">Reset</button>
+      <button class="btn btn-flip" onclick="switchTab('flipcharts')">📈 Flipcharts</button>
+      <span class="sort-info" id="sort-info">20 symbols</span>
+    </div>
+
+    <div class="table-wrap">
+      <table id="wl-table">
+        <thead><tr>
           <th data-col="symbol">Symbol</th>
           <th data-col="name">Name</th>
           <th data-col="price">Price</th>
@@ -515,371 +198,378 @@
           <th data-col="volume">Volume</th>
           <th data-col="time">Date</th>
           <th></th>
-        </tr>
-      </thead>
-      <tbody id="wl-body"></tbody>
-    </table>
-  </div>
+        </tr></thead>
+        <tbody id="wl-body"></tbody>
+      </table>
+    </div>
+
+  </div><!-- /tab-watchlist -->
+
+  <!-- ══════════════ FLIPCHARTS TAB ══════════════ -->
+  <div class="tab-content" id="tab-flipcharts">
+
+    <div class="flip-header">
+      <div>
+        <div class="flip-title">Flipcharts <span class="flip-sym-label" id="flip-sym-label">TSLA</span></div>
+        <div style="font-size:11px;color:var(--muted);margin-top:3px" id="flip-name-label">Tesla Inc</div>
+      </div>
+      <div class="flip-nav">
+        <button class="flip-arrow" id="flip-prev" title="Previous (←)">‹</button>
+        <div class="flip-counter" id="flip-counter">1 / 20</div>
+        <button class="flip-arrow" id="flip-next" title="Next (→)">›</button>
+      </div>
+    </div>
+
+    <!-- Symbol strip -->
+    <div class="flip-sym-strip" id="flip-sym-strip"></div>
+
+    <!-- Interval selector -->
+    <div class="flip-interval-bar">
+      <span>Interval:</span>
+      <button class="interval-btn" data-tv="1">1m</button>
+      <button class="interval-btn" data-tv="5">5m</button>
+      <button class="interval-btn" data-tv="15">15m</button>
+      <button class="interval-btn" data-tv="60">1H</button>
+      <button class="interval-btn active" data-tv="D">1D</button>
+      <button class="interval-btn" data-tv="W">1W</button>
+      <button class="interval-btn" data-tv="M">1M</button>
+    </div>
+
+    <!-- Chart -->
+    <div class="chart-wrap">
+      <div class="chart-loading" id="chart-loading">
+        <div class="spin"></div>
+        <p>Loading chart...</p>
+      </div>
+      <iframe id="tv-chart" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <!-- Info bar from seed data -->
+    <div class="flip-info-bar" id="flip-info-bar"></div>
+
+    <div class="kb-hint">
+      Keyboard: <kbd>←</kbd> <kbd>→</kbd> previous / next &nbsp;|&nbsp; <kbd>F</kbd> fullscreen chart
+    </div>
+
+  </div><!-- /tab-flipcharts -->
 
   <footer>
-    <span>Data source: Finviz.com &nbsp;·&nbsp; Barchart CSV seed data 2026-05-24</span>
-    <span id="footer-time">Auto-refresh every 60s</span>
+    <span>Quotes: Finviz.com &nbsp;·&nbsp; Charts: TradingView &nbsp;·&nbsp; Seed: Barchart 2026-05-24</span>
+    <span>Auto-refresh 60s</span>
   </footer>
 
-</div>
+</div><!-- /container -->
 
 <script>
-// ─── Seed data from Barchart CSV 2026-05-24 ───────────────────────────────────
+// ─── Seed data ────────────────────────────────────────────────────────────────
 const SEED = [
-  { symbol:'TSLA',  name:'Tesla Inc',                 price:426.01, change:8.16,   pct:'+1.95%', open:422.67,  high:431.51,  low:420.51,  volume:46104699,  date:'05/22' },
-  { symbol:'INTC',  name:'Intel Corp',                price:119.84, change:1.34,   pct:'+1.13%', open:120.34,  high:122.78,  low:118.09,  volume:82663000,  date:'05/22' },
-  { symbol:'RDW',   name:'Redwire Corp',              price:17.49,  change:2.14,   pct:'+13.94%',open:15.72,   high:17.89,   low:15.70,   volume:55447700,  date:'05/22' },
-  { symbol:'MU',    name:'Micron Technology',         price:751.00, change:-11.10, pct:'-1.46%', open:756.82,  high:780.20,  low:747.20,  volume:36002902,  date:'05/22' },
-  { symbol:'TER',   name:'Teradyne Inc',              price:358.44, change:5.00,   pct:'+1.41%', open:355.00,  high:360.34,  low:352.41,  volume:2712300,   date:'05/22' },
-  { symbol:'SERV',  name:'Serve Robotics Inc',        price:8.70,   change:-0.11,  pct:'-1.25%', open:8.88,    high:9.01,    low:8.61,    volume:3865500,   date:'05/22' },
-  { symbol:'NOK',   name:'Nokia Corp ADR',            price:15.47,  change:1.29,   pct:'+9.10%', open:14.70,   high:15.78,   low:14.575,  volume:127724300, date:'05/22' },
-  { symbol:'BB',    name:'Blackberry Ltd',            price:7.91,   change:1.26,   pct:'+18.95%',open:6.77,    high:8.03,    low:6.70,    volume:57770200,  date:'05/22' },
-  { symbol:'TXN',   name:'Texas Instruments',         price:309.21, change:10.82,  pct:'+3.63%', open:305.40,  high:315.57,  low:303.00,  volume:7130100,   date:'05/22' },
-  { symbol:'FLEX',  name:'Flextronics Intl Ltd',      price:132.47, change:1.40,   pct:'+1.07%', open:132.76,  high:134.26,  low:128.58,  volume:3592900,   date:'05/22' },
-  { symbol:'IFNNY', name:'Infineon Techs Ag ADR',     price:84.80,  change:4.31,   pct:'+5.35%', open:83.42,   high:85.7724, low:81.10,   volume:710600,    date:'05/22' },
-  { symbol:'MPWR',  name:'Monolithic Power Sys',      price:1589.81,change:28.56,  pct:'+1.83%', open:1579.62, high:1596.74, low:1560.00, volume:476700,    date:'05/22' },
-  { symbol:'NVT',   name:'Nvent Electric Plc',        price:164.66, change:1.09,   pct:'+0.67%', open:166.04,  high:166.34,  low:161.115, volume:1499700,   date:'05/22' },
-  { symbol:'IBM',   name:'Intl Business Machines',    price:253.84, change:0.87,   pct:'+0.34%', open:262.05,  high:264.38,  low:253.39,  volume:19072800,  date:'05/22' },
-  { symbol:'IONQ',  name:'IonQ Inc',                  price:63.64,  change:4.75,   pct:'+8.07%', open:58.00,   high:65.80,   low:58.00,   volume:52650100,  date:'05/22' },
-  { symbol:'RGTI',  name:'Rigetti Computing Inc',     price:26.42,  change:4.38,   pct:'+19.87%',open:22.96,   high:27.78,   low:22.66,   volume:204233203, date:'05/22' },
-  { symbol:'AMD',   name:'Adv Micro Devices',         price:467.51, change:17.92,  pct:'+3.99%', open:469.84,  high:481.41,  low:461.71,  volume:34758602,  date:'05/22' },
-  { symbol:'MDT',   name:'Medtronic Inc',             price:78.60,  change:0.45,   pct:'+0.58%', open:78.40,   high:79.25,   low:78.2069, volume:7051700,   date:'05/22' },
-  { symbol:'INSP',  name:'Inspire Medical Systems',   price:43.84,  change:-0.90,  pct:'-2.01%', open:42.89,   high:44.26,   low:42.60,   volume:1382000,   date:'05/22' },
-  { symbol:'NPCE',  name:'Neuropace Inc',             price:16.92,  change:0.64,   pct:'+3.93%', open:16.38,   high:17.10,   low:16.38,   volume:172500,    date:'05/22' },
+  { symbol:'TSLA',  name:'Tesla Inc',               price:426.01, change:8.16,   pct:'+1.95%', open:422.67,  high:431.51,  low:420.51,  volume:46104699,  date:'05/22' },
+  { symbol:'INTC',  name:'Intel Corp',              price:119.84, change:1.34,   pct:'+1.13%', open:120.34,  high:122.78,  low:118.09,  volume:82663000,  date:'05/22' },
+  { symbol:'RDW',   name:'Redwire Corp',            price:17.49,  change:2.14,   pct:'+13.94%',open:15.72,   high:17.89,   low:15.70,   volume:55447700,  date:'05/22' },
+  { symbol:'MU',    name:'Micron Technology',       price:751.00, change:-11.10, pct:'-1.46%', open:756.82,  high:780.20,  low:747.20,  volume:36002902,  date:'05/22' },
+  { symbol:'TER',   name:'Teradyne Inc',            price:358.44, change:5.00,   pct:'+1.41%', open:355.00,  high:360.34,  low:352.41,  volume:2712300,   date:'05/22' },
+  { symbol:'SERV',  name:'Serve Robotics Inc',      price:8.70,   change:-0.11,  pct:'-1.25%', open:8.88,    high:9.01,    low:8.61,    volume:3865500,   date:'05/22' },
+  { symbol:'NOK',   name:'Nokia Corp ADR',          price:15.47,  change:1.29,   pct:'+9.10%', open:14.70,   high:15.78,   low:14.575,  volume:127724300, date:'05/22' },
+  { symbol:'BB',    name:'Blackberry Ltd',          price:7.91,   change:1.26,   pct:'+18.95%',open:6.77,    high:8.03,    low:6.70,    volume:57770200,  date:'05/22' },
+  { symbol:'TXN',   name:'Texas Instruments',       price:309.21, change:10.82,  pct:'+3.63%', open:305.40,  high:315.57,  low:303.00,  volume:7130100,   date:'05/22' },
+  { symbol:'FLEX',  name:'Flextronics Intl Ltd',    price:132.47, change:1.40,   pct:'+1.07%', open:132.76,  high:134.26,  low:128.58,  volume:3592900,   date:'05/22' },
+  { symbol:'IFNNY', name:'Infineon Techs Ag ADR',   price:84.80,  change:4.31,   pct:'+5.35%', open:83.42,   high:85.77,   low:81.10,   volume:710600,    date:'05/22' },
+  { symbol:'MPWR',  name:'Monolithic Power Sys',    price:1589.81,change:28.56,  pct:'+1.83%', open:1579.62, high:1596.74, low:1560.00, volume:476700,    date:'05/22' },
+  { symbol:'NVT',   name:'Nvent Electric Plc',      price:164.66, change:1.09,   pct:'+0.67%', open:166.04,  high:166.34,  low:161.12,  volume:1499700,   date:'05/22' },
+  { symbol:'IBM',   name:'Intl Business Machines',  price:253.84, change:0.87,   pct:'+0.34%', open:262.05,  high:264.38,  low:253.39,  volume:19072800,  date:'05/22' },
+  { symbol:'IONQ',  name:'IonQ Inc',                price:63.64,  change:4.75,   pct:'+8.07%', open:58.00,   high:65.80,   low:58.00,   volume:52650100,  date:'05/22' },
+  { symbol:'RGTI',  name:'Rigetti Computing Inc',   price:26.42,  change:4.38,   pct:'+19.87%',open:22.96,   high:27.78,   low:22.66,   volume:204233203, date:'05/22' },
+  { symbol:'AMD',   name:'Adv Micro Devices',       price:467.51, change:17.92,  pct:'+3.99%', open:469.84,  high:481.41,  low:461.71,  volume:34758602,  date:'05/22' },
+  { symbol:'MDT',   name:'Medtronic Inc',           price:78.60,  change:0.45,   pct:'+0.58%', open:78.40,   high:79.25,   low:78.21,   volume:7051700,   date:'05/22' },
+  { symbol:'INSP',  name:'Inspire Medical Systems', price:43.84,  change:-0.90,  pct:'-2.01%', open:42.89,   high:44.26,   low:42.60,   volume:1382000,   date:'05/22' },
+  { symbol:'NPCE',  name:'Neuropace Inc',           price:16.92,  change:0.64,   pct:'+3.93%', open:16.38,   high:17.10,   low:16.38,   volume:172500,    date:'05/22' },
 ];
 
-// Live data store (starts with seed, updated by Finviz fetch)
-let DATA = SEED.map(d => ({ ...d, live: false }));
-let sortCol = null, sortDir = 1;
-let filterText = '';
+let DATA = SEED.map(d=>({...d,live:false}));
+let sortCol=null, sortDir=1, filterText='';
 
 // ─── Clock ────────────────────────────────────────────────────────────────────
-function updateClock() {
-  const now = new Date();
-  document.getElementById('clock').textContent =
-    now.toLocaleTimeString('en-US', { hour12: false });
-  document.getElementById('date-str').textContent =
-    now.toLocaleDateString('en-US', { weekday:'short', year:'numeric', month:'short', day:'numeric' });
+function updateClock(){
+  const n=new Date();
+  document.getElementById('clock').textContent=n.toLocaleTimeString('en-US',{hour12:false});
+  document.getElementById('date-str').textContent=n.toLocaleDateString('en-US',{weekday:'short',year:'numeric',month:'short',day:'numeric'});
 }
-setInterval(updateClock, 1000);
-updateClock();
+setInterval(updateClock,1000); updateClock();
 
-// ─── Finviz fetch via allorigins proxy ────────────────────────────────────────
-async function fetchFinviz(symbols) {
-  const tickers = symbols.join(',');
-  const finvizUrl = `https://finviz.com/quotes.ashx?t=${tickers}&ty=l&ta=1&p=d`;
-  const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(finvizUrl)}`;
-
-  try {
-    const resp = await fetch(proxyUrl, { signal: AbortSignal.timeout(12000) });
-    if (!resp.ok) return null;
-    const outer = await resp.json();
-    const html = outer.contents;
-    return html;
-  } catch(e) {
-    return null;
-  }
+// ─── Tab switching ────────────────────────────────────────────────────────────
+function switchTab(name){
+  document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+  const tabs=document.querySelectorAll('.nav-tab');
+  if(name==='watchlist') tabs[0].classList.add('active');
+  else{ tabs[1].classList.add('active'); initFlipcharts(); }
 }
 
-function parseFinvizHTML(html, symbolList) {
-  const results = {};
-  // Finviz quotes page: rows with class "table-dark-row" or "table-light-row"
-  // Each row: ticker | company | price | change | %change | volume ...
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(html, 'text/html');
-
-  // Find the quotes table
-  const rows = doc.querySelectorAll('tr.table-dark-row, tr.table-light-row, tr[class*="finviz-row"]');
-
-  if (rows.length === 0) {
-    // Fallback: parse by searching for ticker cells
-    const allRows = doc.querySelectorAll('tr');
-    allRows.forEach(row => {
-      const cells = row.querySelectorAll('td');
-      if (cells.length >= 9) {
-        const sym = cells[0]?.textContent?.trim().toUpperCase();
-        if (symbolList.includes(sym)) {
-          const price  = parseFloat(cells[8]?.textContent?.replace(/,/g,'')) || 0;
-          const chg    = parseFloat(cells[9]?.textContent?.replace(/,/g,'')) || 0;
-          const pctRaw = cells[10]?.textContent?.trim() || '0%';
-          const vol    = parseInt(cells[12]?.textContent?.replace(/,/g,''), 10) || 0;
-          if (price > 0) results[sym] = { price, change: chg, pct: pctRaw, volume: vol };
-        }
-      }
-    });
-    return results;
-  }
-
-  rows.forEach(row => {
-    const cells = row.querySelectorAll('td');
-    if (cells.length < 5) return;
-    const sym = cells[0]?.textContent?.trim().toUpperCase();
-    if (!sym || !symbolList.includes(sym)) return;
-    const price  = parseFloat(cells[8]?.textContent?.replace(/,/g,'')) || 0;
-    const chg    = parseFloat(cells[9]?.textContent?.replace(/,/g,'')) || 0;
-    const pctRaw = cells[10]?.textContent?.trim() || '';
-    const vol    = parseInt(cells[12]?.textContent?.replace(/,/g,''), 10) || 0;
-    if (price > 0) results[sym] = { price, change: chg, pct: pctRaw, volume: vol };
-  });
-
-  return results;
-}
-
-// Alternative: Finviz Elite JSON endpoint (if available)
-async function fetchFinvizDirect(symbol) {
-  // Use finviz screener export approach via allorigins
-  const url = `https://finviz.com/quote.ashx?t=${symbol}`;
-  const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-  try {
-    const r = await fetch(proxy, { signal: AbortSignal.timeout(10000) });
-    const outer = await r.json();
-    const html = outer.contents;
-    const m = html.match(/class="quote-price_wrapper[^>]*>[\s\S]*?<strong[^>]*>([\d.,]+)<\/strong>/);
-    const price = m ? parseFloat(m[1].replace(',','')) : 0;
-    // change
-    const mc = html.match(/class="[^"]*change[^"]*">([+-]?[\d.]+)</);
-    const change = mc ? parseFloat(mc[1]) : 0;
-    const mp = html.match(/class="[^"]*change[^"]*">[+-]?[\d.]+\s*\(([\d.]+%)\)/);
-    const pct = mp ? mp[1] : '';
-    if (price > 0) return { price, change, pct };
-  } catch(e) {}
-  return null;
-}
-
-// ─── Load live data: sequential per symbol ────────────────────────────────────
-let fetchRunning = false;
-async function loadLiveData() {
-  if (fetchRunning) return;
-  fetchRunning = true;
-
-  setStatus(false, 'Fetching live quotes...');
-
-  for (const row of DATA) {
-    try {
-      const url = `https://finviz.com/quote.ashx?t=${row.symbol}`;
-      const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-      const r = await fetch(proxy, { signal: AbortSignal.timeout(10000) });
-      if (!r.ok) continue;
-      const outer = await r.json();
-      const html = outer.contents || '';
-
-      // Parse price — Finviz page structure: look for snapshot-td2-cp or quote-price
-      let price = 0, change = 0, pct = '', volume = 0;
-
-      // Try multiple patterns for Finviz quote page
-      const priceMatch = html.match(/class="[^"]*quote-price[^"]*"[^>]*>\s*<[^>]+>([\d,]+\.?\d*)</i)
-        || html.match(/snapshot-td2-cp[^>]*>([\d,]+\.?\d*)</)
-        || html.match(/<strong[^>]*class="[^"]*price[^"]*"[^>]*>([\d,]+\.?\d*)<\/strong>/i)
-        || html.match(/fs-3[^>]*>([\d,]+\.?\d*)</)
-        || html.match(/\["LAST"\]="([\d.]+)"/)
-        || html.match(/Last Price[^>]*>[^<]*<[^>]*>([\d,]+\.?\d*)</i);
-
-      if (priceMatch) {
-        price = parseFloat(priceMatch[1].replace(/,/g,''));
-      }
-
-      // Change
-      const chgMatch = html.match(/class="[^"]*(?:change|chg)[^"]*"[^>]*>([+-]?[\d.,]+)</i);
-      if (chgMatch) change = parseFloat(chgMatch[1].replace(/,/g,''));
-
-      // Pct
-      const pctMatch = html.match(/([+-]?[\d.]+%)/);
-      if (pctMatch) pct = pctMatch[1];
-
-      // Volume from the page
-      const volMatch = html.match(/Volume[^>]*>[^<]*<[^>]*>([\d,]+)</i)
-        || html.match(/\bVol\b[^>]*>[^<]*<[^>]*>([\d,]+)</i);
-      if (volMatch) volume = parseInt(volMatch[1].replace(/,/g,''), 10);
-
-      if (price > 0) {
-        row.price  = price;
-        row.change = change || (price - (row.open || price));
-        row.pct    = pct || row.pct;
-        if (volume > 0) row.volume = volume;
-        row.live   = true;
-        row.date   = 'LIVE';
-      }
-    } catch(e) { /* keep seed */ }
-
-    // Re-render after each symbol so UI feels progressive
-    renderTable();
-  }
-
-  setStatus(true, 'Live quotes loaded');
-  document.getElementById('last-updated').textContent = new Date().toLocaleTimeString('en-US', { hour12:false });
-  fetchRunning = false;
-  updateSummary();
-}
-
-function setStatus(live, text) {
-  document.getElementById('status-dot').className = 'status-dot' + (live ? ' live' : '');
-  document.getElementById('status-text').textContent = text;
-}
-
-// ─── Format helpers ───────────────────────────────────────────────────────────
-function fmtPrice(v) {
-  if (v >= 1000) return v.toLocaleString('en-US', { minimumFractionDigits:2, maximumFractionDigits:2 });
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+function fmtPrice(v){
+  if(!v&&v!==0) return '—';
+  if(v>=1000) return v.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
   return v.toFixed(2);
 }
-
-function fmtVol(v) {
-  if (!v) return '—';
-  if (v >= 1e9) return (v/1e9).toFixed(2)+'B';
-  if (v >= 1e6) return (v/1e6).toFixed(2)+'M';
-  if (v >= 1e3) return (v/1e3).toFixed(1)+'K';
+function fmtVol(v){
+  if(!v) return '—';
+  if(v>=1e9) return (v/1e9).toFixed(2)+'B';
+  if(v>=1e6) return (v/1e6).toFixed(2)+'M';
+  if(v>=1e3) return (v/1e3).toFixed(1)+'K';
   return v.toLocaleString();
 }
-
-function pctClass(pct) {
-  if (!pct) return 'neu';
-  const num = parseFloat(pct.replace('%',''));
-  if (num > 0) return 'pos';
-  if (num < 0) return 'neg';
-  return 'neu';
+function pctClass(pct){
+  if(!pct) return 'neu';
+  const n=parseFloat(String(pct).replace('%',''));
+  return n>0?'pos':n<0?'neg':'neu';
 }
 
-function chgSign(v) { return v > 0 ? '+' : ''; }
-
-// ─── Summary bar ─────────────────────────────────────────────────────────────
-function updateSummary() {
-  const adv = DATA.filter(d => parseFloat(String(d.pct).replace('%','')) > 0).length;
-  const dec = DATA.filter(d => parseFloat(String(d.pct).replace('%','')) < 0).length;
-  document.getElementById('sum-adv').textContent = adv;
-  document.getElementById('sum-dec').textContent = dec;
-
-  // Top mover by absolute % change
-  let top = DATA.reduce((a,b) =>
-    Math.abs(parseFloat(String(b.pct).replace('%',''))) > Math.abs(parseFloat(String(a.pct).replace('%',''))) ? b : a, DATA[0]);
-  if (top) {
-    document.getElementById('sum-top').textContent = top.symbol;
-    document.getElementById('sum-top-sub').textContent = top.pct;
-    document.getElementById('sum-top').className = 'summary-value ' + pctClass(top.pct);
+// ─── Summary ──────────────────────────────────────────────────────────────────
+function updateSummary(){
+  const adv=DATA.filter(d=>parseFloat(String(d.pct).replace('%',''))>0).length;
+  const dec=DATA.filter(d=>parseFloat(String(d.pct).replace('%',''))<0).length;
+  document.getElementById('sum-adv').textContent=adv;
+  document.getElementById('sum-dec').textContent=dec;
+  const top=DATA.reduce((a,b)=>Math.abs(parseFloat(String(b.pct).replace('%','')))>Math.abs(parseFloat(String(a.pct).replace('%','')))? b:a, DATA[0]);
+  if(top){
+    document.getElementById('sum-top').textContent=top.symbol;
+    document.getElementById('sum-top-sub').textContent=top.pct;
+    document.getElementById('sum-top').className='summary-value '+pctClass(top.pct);
   }
 }
 
-// ─── Render table ─────────────────────────────────────────────────────────────
-function getDisplayData() {
-  let d = [...DATA];
-  if (filterText) {
-    const q = filterText.toLowerCase();
-    d = d.filter(r => r.symbol.toLowerCase().includes(q) || r.name.toLowerCase().includes(q));
-  }
-  if (sortCol) {
-    d.sort((a, b) => {
-      let av = a[sortCol], bv = b[sortCol];
-      if (sortCol === 'pct') {
-        av = parseFloat(String(av).replace('%',''));
-        bv = parseFloat(String(bv).replace('%',''));
-      }
-      if (typeof av === 'string') av = av.toLowerCase();
-      if (typeof bv === 'string') bv = bv.toLowerCase();
-      return (av < bv ? -1 : av > bv ? 1 : 0) * sortDir;
-    });
-  }
+// ─── Table render ─────────────────────────────────────────────────────────────
+function getDisplayData(){
+  let d=[...DATA];
+  if(filterText){const q=filterText.toLowerCase();d=d.filter(r=>r.symbol.toLowerCase().includes(q)||r.name.toLowerCase().includes(q));}
+  if(sortCol){d.sort((a,b)=>{let av=a[sortCol],bv=b[sortCol];if(sortCol==='pct'){av=parseFloat(String(av).replace('%',''));bv=parseFloat(String(bv).replace('%',''));}if(typeof av==='string')av=av.toLowerCase();if(typeof bv==='string')bv=bv.toLowerCase();return(av<bv?-1:av>bv?1:0)*sortDir;});}
   return d;
 }
 
-function renderTable() {
-  const tbody = document.getElementById('wl-body');
-  const rows = getDisplayData();
-  document.getElementById('sort-info').textContent = `${rows.length} symbols`;
-  document.getElementById('sum-total').textContent = DATA.length;
-
-  // Re-use existing rows if count matches to avoid flicker
-  const existing = tbody.querySelectorAll('tr');
-
-  rows.forEach((row, i) => {
-    const cls = pctClass(row.pct);
-    const sign = row.change >= 0 ? '+' : '';
-    const tr = existing[i] || document.createElement('tr');
-
-    tr.innerHTML = `
-      <td>
-        <div class="sym-cell">
-          <span class="sym-badge" onclick="openFinviz('${row.symbol}')">${row.symbol}</span>
-          ${row.live ? '<span style="font-size:9px;color:var(--green);margin-left:2px">●</span>' : ''}
-        </div>
-      </td>
-      <td class="name-cell" title="${row.name}">${row.name}</td>
-      <td class="price-cell">${fmtPrice(row.price)}</td>
-      <td class="chg-cell ${cls}">${sign}${row.change.toFixed(2)}</td>
-      <td><span class="pct-badge ${cls}">${row.pct}</span></td>
-      <td class="ohlc-cell">${row.open ? fmtPrice(row.open) : '—'}</td>
-      <td class="ohlc-cell">${row.high ? fmtPrice(row.high) : '—'}</td>
-      <td class="ohlc-cell">${row.low  ? fmtPrice(row.low)  : '—'}</td>
-      <td class="vol-cell">${fmtVol(row.volume)}</td>
-      <td class="ohlc-cell" style="font-size:11px">${row.date}</td>
-      <td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=${row.symbol}" target="_blank">FV</a></td>
-    `;
-
-    if (!existing[i]) tbody.appendChild(tr);
+function renderTable(){
+  const tbody=document.getElementById('wl-body');
+  const rows=getDisplayData();
+  document.getElementById('sort-info').textContent=`${rows.length} symbols`;
+  document.getElementById('sum-total').textContent=DATA.length;
+  while(tbody.firstChild) tbody.removeChild(tbody.firstChild);
+  rows.forEach((row,i)=>{
+    const cls=pctClass(row.pct);
+    const sign=row.change>=0?'+':'';
+    const tr=document.createElement('tr');
+    if(row.symbol===FLIP_SYMBOLS[flipIdx]) tr.classList.add('selected-row');
+    const td0=document.createElement('td');
+    td0.innerHTML=`<span class="sym-badge" onclick="openFlipTo('${row.symbol}')">${row.symbol}</span>${row.live?'<span style="font-size:9px;color:var(--green);margin-left:4px">●</span>':''}`;
+    const td1=document.createElement('td'); td1.className='name-cell'; td1.title=row.name; td1.textContent=row.name;
+    const td2=document.createElement('td'); td2.className='price-cell'; td2.textContent=fmtPrice(row.price);
+    const td3=document.createElement('td'); td3.className='chg-cell '+cls; td3.textContent=sign+row.change.toFixed(2);
+    const td4=document.createElement('td'); td4.innerHTML=`<span class="pct-badge ${cls}">${row.pct}</span>`;
+    const td5=document.createElement('td'); td5.className='ohlc-cell'; td5.textContent=row.open?fmtPrice(row.open):'—';
+    const td6=document.createElement('td'); td6.className='ohlc-cell'; td6.textContent=row.high?fmtPrice(row.high):'—';
+    const td7=document.createElement('td'); td7.className='ohlc-cell'; td7.textContent=row.low?fmtPrice(row.low):'—';
+    const td8=document.createElement('td'); td8.className='vol-cell'; td8.textContent=fmtVol(row.volume);
+    const td9=document.createElement('td'); td9.className='ohlc-cell'; td9.style.fontSize='11px'; td9.textContent=row.date;
+    const td10=document.createElement('td');
+    td10.innerHTML=`<a class="finviz-link" href="https://finviz.com/quote.ashx?t=${row.symbol}" target="_blank">FV</a>`;
+    [td0,td1,td2,td3,td4,td5,td6,td7,td8,td9,td10].forEach(td=>tr.appendChild(td));
+    tbody.appendChild(tr);
   });
-
-  // Remove extra rows
-  while (tbody.children.length > rows.length) tbody.removeChild(tbody.lastChild);
-
   updateSummary();
 }
 
-function openFinviz(sym) {
-  window.open(`https://finviz.com/quote.ashx?t=${sym}`, '_blank');
-}
-
 // ─── Sorting ──────────────────────────────────────────────────────────────────
-const COL_MAP = { symbol:'symbol', name:'name', price:'price', change:'change', pct:'pct',
-  open:'open', high:'high', low:'low', volume:'volume', time:'date' };
-
-document.querySelectorAll('thead th[data-col]').forEach(th => {
-  th.addEventListener('click', () => {
-    const col = COL_MAP[th.dataset.col];
-    if (sortCol === col) sortDir *= -1;
-    else { sortCol = col; sortDir = 1; }
-    document.querySelectorAll('thead th').forEach(t => t.classList.remove('sort-asc','sort-desc'));
-    th.classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
+const COL_MAP={symbol:'symbol',name:'name',price:'price',change:'change',pct:'pct',open:'open',high:'high',low:'low',volume:'volume',time:'date'};
+document.querySelectorAll('thead th[data-col]').forEach(th=>{
+  th.addEventListener('click',()=>{
+    const col=COL_MAP[th.dataset.col];
+    if(sortCol===col) sortDir*=-1; else{sortCol=col;sortDir=1;}
+    document.querySelectorAll('thead th').forEach(t=>t.classList.remove('sort-asc','sort-desc'));
+    th.classList.add(sortDir===1?'sort-asc':'sort-desc');
     renderTable();
   });
 });
+document.getElementById('sort-pct-btn').addEventListener('click',()=>{sortCol='pct';sortDir=-1;renderTable();});
+document.getElementById('sort-vol-btn').addEventListener('click',()=>{sortCol='volume';sortDir=-1;renderTable();});
+document.getElementById('reset-btn').addEventListener('click',()=>{sortCol=null;sortDir=1;filterText='';document.getElementById('search-input').value='';document.querySelectorAll('thead th').forEach(t=>t.classList.remove('sort-asc','sort-desc'));renderTable();});
+document.getElementById('search-input').addEventListener('input',e=>{filterText=e.target.value.trim();renderTable();});
 
-document.getElementById('sort-pct-btn').addEventListener('click', () => {
-  sortCol = 'pct'; sortDir = -1;
-  document.querySelectorAll('thead th').forEach(t => t.classList.remove('sort-asc','sort-desc'));
+// ─── Finviz fetch ─────────────────────────────────────────────────────────────
+let fetchRunning=false;
+async function loadLiveData(){
+  if(fetchRunning) return;
+  fetchRunning=true;
+  setStatus(false,'Fetching live quotes...');
+  for(const row of DATA){
+    try{
+      const url=`https://finviz.com/quote.ashx?t=${row.symbol}`;
+      const proxy=`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+      const r=await fetch(proxy,{signal:AbortSignal.timeout(10000)});
+      if(!r.ok) continue;
+      const outer=await r.json();
+      const html=outer.contents||'';
+      const pm=html.match(/class="[^"]*quote-price[^"]*"[^>]*>[\s\S]*?>([\d,]+\.?\d*)</i)
+        ||html.match(/snapshot-td2-cp[^>]*>([\d,]+\.?\d*)</)
+        ||html.match(/fs-3[^>]*>([\d,]+\.?\d*)</)
+        ||html.match(/\["LAST"\]="([\d.]+)"/);
+      if(pm){
+        const price=parseFloat(pm[1].replace(/,/g,''));
+        if(price>0){row.price=price;row.live=true;}
+      }
+    }catch(e){}
+    renderTable();
+  }
+  setStatus(true,'Live quotes loaded');
+  document.getElementById('last-updated').textContent=new Date().toLocaleTimeString('en-US',{hour12:false});
+  fetchRunning=false; updateSummary();
+}
+function setStatus(live,text){
+  document.getElementById('status-dot').className='status-dot'+(live?' live':'');
+  document.getElementById('status-text').textContent=text;
+}
+document.getElementById('refresh-btn').addEventListener('click',()=>{DATA.forEach(d=>d.live=false);loadLiveData();});
+setInterval(loadLiveData,60000);
+
+// ═══════════════════════════════════════════════════════════════════════════
+// FLIPCHARTS
+// ═══════════════════════════════════════════════════════════════════════════
+const FLIP_SYMBOLS = SEED.map(s=>s.symbol);
+let flipIdx=0;
+let flipInterval='D';
+let flipInited=false;
+
+function openFlipTo(sym){
+  const idx=FLIP_SYMBOLS.indexOf(sym);
+  if(idx>=0) flipIdx=idx;
+  switchTab('flipcharts');
+}
+
+function initFlipcharts(){
+  if(!flipInited){
+    buildSymStrip();
+    document.getElementById('flip-prev').addEventListener('click',()=>navigateFlip(-1));
+    document.getElementById('flip-next').addEventListener('click',()=>navigateFlip(1));
+    document.querySelectorAll('.interval-btn').forEach(btn=>{
+      btn.addEventListener('click',()=>{
+        document.querySelectorAll('.interval-btn').forEach(b=>b.classList.remove('active'));
+        btn.classList.add('active');
+        flipInterval=btn.dataset.tv;
+        loadChart();
+      });
+    });
+    flipInited=true;
+  }
+  renderFlip();
+}
+
+function buildSymStrip(){
+  const strip=document.getElementById('flip-sym-strip');
+  strip.innerHTML='';
+  FLIP_SYMBOLS.forEach((sym,i)=>{
+    const chip=document.createElement('div');
+    chip.className='flip-sym-chip'+(i===flipIdx?' active':'');
+    chip.textContent=sym;
+    chip.onclick=()=>{flipIdx=i;renderFlip();};
+    chip.id='chip-'+sym;
+    strip.appendChild(chip);
+  });
+}
+
+function navigateFlip(dir){
+  flipIdx=(flipIdx+dir+FLIP_SYMBOLS.length)%FLIP_SYMBOLS.length;
+  renderFlip();
+}
+
+function renderFlip(){
+  const sym=FLIP_SYMBOLS[flipIdx];
+  const row=DATA.find(d=>d.symbol===sym)||SEED.find(d=>d.symbol===sym);
+
+  // Header
+  document.getElementById('flip-sym-label').textContent=sym;
+  document.getElementById('flip-name-label').textContent=row?row.name:'';
+
+  // Counter
+  document.getElementById('flip-counter').textContent=`${flipIdx+1} / ${FLIP_SYMBOLS.length}`;
+
+  // Arrow state
+  document.getElementById('flip-prev').disabled=false;
+  document.getElementById('flip-next').disabled=false;
+
+  // Symbol strip highlight
+  document.querySelectorAll('.flip-sym-chip').forEach((c,i)=>{
+    c.classList.toggle('active',i===flipIdx);
+  });
+
+  // Info bar
+  if(row){
+    const cls=pctClass(row.pct);
+    document.getElementById('flip-info-bar').innerHTML=`
+      <div class="flip-info-item"><div class="flip-info-label">Price</div><div class="flip-info-val">$${fmtPrice(row.price)}</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">Change</div><div class="flip-info-val ${cls}">${row.change>=0?'+':''}${row.change.toFixed(2)}</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">% Change</div><div class="flip-info-val ${cls}">${row.pct}</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">Open</div><div class="flip-info-val">$${fmtPrice(row.open)}</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">High</div><div class="flip-info-val">$${fmtPrice(row.high)}</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">Low</div><div class="flip-info-val">$${fmtPrice(row.low)}</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">Volume</div><div class="flip-info-val">${fmtVol(row.volume)}</div></div>
+    `;
+  }
+
+  // Highlight table row
   renderTable();
-});
 
-document.getElementById('sort-vol-btn').addEventListener('click', () => {
-  sortCol = 'volume'; sortDir = -1;
-  renderTable();
-});
+  // Load chart
+  loadChart();
+}
 
-document.getElementById('reset-btn').addEventListener('click', () => {
-  sortCol = null; sortDir = 1; filterText = '';
-  document.getElementById('search-input').value = '';
-  document.querySelectorAll('thead th').forEach(t => t.classList.remove('sort-asc','sort-desc'));
-  renderTable();
-});
+function loadChart(){
+  const sym=FLIP_SYMBOLS[flipIdx];
+  const loading=document.getElementById('chart-loading');
+  const iframe=document.getElementById('tv-chart');
+  loading.style.display='flex';
+  iframe.style.opacity='0';
 
-document.getElementById('search-input').addEventListener('input', e => {
-  filterText = e.target.value.trim();
-  renderTable();
-});
+  // TradingView embed URL (free, no API key needed)
+  // Theme: dark, interval configurable
+  const tvUrl=`https://s.tradingview.com/widgetembed/?frameElementId=tv-chart`
+    +`&symbol=${encodeURIComponent('NASDAQ:'+sym)}`
+    +`&interval=${flipInterval}`
+    +`&hidesidetoolbar=0`
+    +`&hidetoptoolbar=0`
+    +`&symboledit=1`
+    +`&saveimage=1`
+    +`&toolbarbg=0f1218`
+    +`&studies=MASimple%40tv-basicstudies%1FMACD%40tv-basicstudies%1FVolume%40tv-basicstudies`
+    +`&theme=dark`
+    +`&style=1`
+    +`&timezone=America%2FNew_York`
+    +`&withdateranges=1`
+    +`&showpopupbutton=1`
+    +`&locale=en`;
 
-document.getElementById('refresh-btn').addEventListener('click', () => {
-  DATA.forEach(d => d.live = false);
-  loadLiveData();
-});
+  iframe.src=tvUrl;
+  iframe.onload=()=>{
+    loading.style.display='none';
+    iframe.style.opacity='1';
+    iframe.style.transition='opacity .3s';
+  };
+  // Safety timeout
+  setTimeout(()=>{loading.style.display='none';iframe.style.opacity='1';},4000);
+}
 
-// ─── Auto-refresh every 60 seconds ───────────────────────────────────────────
-setInterval(() => { loadLiveData(); }, 60000);
+// ─── Keyboard navigation ──────────────────────────────────────────────────────
+document.addEventListener('keydown',e=>{
+  if(document.getElementById('tab-flipcharts').classList.contains('active')){
+    if(e.key==='ArrowLeft'||e.key==='ArrowRight'){
+      e.preventDefault();
+      navigateFlip(e.key==='ArrowLeft'?-1:1);
+    }
+    if(e.key==='f'||e.key==='F'){
+      document.getElementById('tv-chart').requestFullscreen&&document.getElementById('tv-chart').requestFullscreen();
+    }
+  }
+});
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
-renderTable();
-updateSummary();
-loadLiveData();
+renderTable(); updateSummary(); loadLiveData();
 </script>
 </body>
 </html>
