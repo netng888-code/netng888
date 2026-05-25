@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh-HK">
-<head>
+<html lang="zh-HK"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Watchlist</title>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="mywatchlist_files/css2.css" rel="stylesheet">
 <style>
   :root {
     --bg:#0a0c10; --bg2:#0f1218; --bg3:#141820;
@@ -147,8 +147,8 @@
       <div class="subtitle">Live Quotes · Flipcharts · Finviz + TradingView</div>
     </div>
     <div class="header-right">
-      <div id="clock">--:--:--</div>
-      <div id="date-str">--</div>
+      <div id="clock">19:42:44</div>
+      <div id="date-str">Mon, May 25, 2026</div>
     </div>
   </header>
 
@@ -162,16 +162,16 @@
   <div class="tab-content active" id="tab-watchlist">
 
     <div class="status-bar">
-      <div class="status-pill"><div class="status-dot" id="status-dot"></div><span id="status-text">Loading...</span></div>
+      <div class="status-pill"><div class="status-dot" id="status-dot"></div><span id="status-text">Fetching live quotes...</span></div>
       <div class="status-pill">Source: <span style="color:var(--text);margin-left:4px">Finviz</span></div>
       <div class="status-pill">Updated: <span id="last-updated" style="color:var(--text);margin-left:4px">—</span></div>
     </div>
 
     <div class="summary-grid">
       <div class="summary-card"><div class="summary-label">Total Symbols</div><div class="summary-value" id="sum-total">20</div><div class="summary-sub">In watchlist</div></div>
-      <div class="summary-card"><div class="summary-label">Advancing</div><div class="summary-value pos" id="sum-adv">—</div><div class="summary-sub">Positive today</div></div>
-      <div class="summary-card"><div class="summary-label">Declining</div><div class="summary-value neg" id="sum-dec">—</div><div class="summary-sub">Negative today</div></div>
-      <div class="summary-card"><div class="summary-label">Top Mover</div><div class="summary-value" id="sum-top" style="font-size:16px">—</div><div class="summary-sub" id="sum-top-sub">Best % change</div></div>
+      <div class="summary-card"><div class="summary-label">Advancing</div><div class="summary-value pos" id="sum-adv">17</div><div class="summary-sub">Positive today</div></div>
+      <div class="summary-card"><div class="summary-label">Declining</div><div class="summary-value neg" id="sum-dec">3</div><div class="summary-sub">Negative today</div></div>
+      <div class="summary-card"><div class="summary-label">Top Mover</div><div class="summary-value pos" id="sum-top" style="font-size:16px">RGTI</div><div class="summary-sub" id="sum-top-sub">+19.87%</div></div>
     </div>
 
     <div class="controls">
@@ -199,7 +199,7 @@
           <th data-col="time">Date</th>
           <th></th>
         </tr></thead>
-        <tbody id="wl-body"></tbody>
+        <tbody id="wl-body"><tr class="selected-row"><td><span class="sym-badge" onclick="openFlipTo('TSLA')">TSLA</span></td><td class="name-cell" title="Tesla Inc">Tesla Inc</td><td class="price-cell">426.01</td><td class="chg-cell pos">+8.16</td><td><span class="pct-badge pos">+1.95%</span></td><td class="ohlc-cell">422.67</td><td class="ohlc-cell">431.51</td><td class="ohlc-cell">420.51</td><td class="vol-cell">46.10M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=TSLA" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('INTC')">INTC</span></td><td class="name-cell" title="Intel Corp">Intel Corp</td><td class="price-cell">119.84</td><td class="chg-cell pos">+1.34</td><td><span class="pct-badge pos">+1.13%</span></td><td class="ohlc-cell">120.34</td><td class="ohlc-cell">122.78</td><td class="ohlc-cell">118.09</td><td class="vol-cell">82.66M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=INTC" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('RDW')">RDW</span></td><td class="name-cell" title="Redwire Corp">Redwire Corp</td><td class="price-cell">17.49</td><td class="chg-cell pos">+2.14</td><td><span class="pct-badge pos">+13.94%</span></td><td class="ohlc-cell">15.72</td><td class="ohlc-cell">17.89</td><td class="ohlc-cell">15.70</td><td class="vol-cell">55.45M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=RDW" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('MU')">MU</span></td><td class="name-cell" title="Micron Technology">Micron Technology</td><td class="price-cell">751.00</td><td class="chg-cell neg">-11.10</td><td><span class="pct-badge neg">-1.46%</span></td><td class="ohlc-cell">756.82</td><td class="ohlc-cell">780.20</td><td class="ohlc-cell">747.20</td><td class="vol-cell">36.00M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=MU" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('TER')">TER</span></td><td class="name-cell" title="Teradyne Inc">Teradyne Inc</td><td class="price-cell">358.44</td><td class="chg-cell pos">+5.00</td><td><span class="pct-badge pos">+1.41%</span></td><td class="ohlc-cell">355.00</td><td class="ohlc-cell">360.34</td><td class="ohlc-cell">352.41</td><td class="vol-cell">2.71M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=TER" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('SERV')">SERV</span></td><td class="name-cell" title="Serve Robotics Inc">Serve Robotics Inc</td><td class="price-cell">8.70</td><td class="chg-cell neg">-0.11</td><td><span class="pct-badge neg">-1.25%</span></td><td class="ohlc-cell">8.88</td><td class="ohlc-cell">9.01</td><td class="ohlc-cell">8.61</td><td class="vol-cell">3.87M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=SERV" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('NOK')">NOK</span></td><td class="name-cell" title="Nokia Corp ADR">Nokia Corp ADR</td><td class="price-cell">15.47</td><td class="chg-cell pos">+1.29</td><td><span class="pct-badge pos">+9.10%</span></td><td class="ohlc-cell">14.70</td><td class="ohlc-cell">15.78</td><td class="ohlc-cell">14.57</td><td class="vol-cell">127.72M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=NOK" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('BB')">BB</span></td><td class="name-cell" title="Blackberry Ltd">Blackberry Ltd</td><td class="price-cell">7.91</td><td class="chg-cell pos">+1.26</td><td><span class="pct-badge pos">+18.95%</span></td><td class="ohlc-cell">6.77</td><td class="ohlc-cell">8.03</td><td class="ohlc-cell">6.70</td><td class="vol-cell">57.77M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=BB" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('TXN')">TXN</span></td><td class="name-cell" title="Texas Instruments">Texas Instruments</td><td class="price-cell">309.21</td><td class="chg-cell pos">+10.82</td><td><span class="pct-badge pos">+3.63%</span></td><td class="ohlc-cell">305.40</td><td class="ohlc-cell">315.57</td><td class="ohlc-cell">303.00</td><td class="vol-cell">7.13M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=TXN" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('FLEX')">FLEX</span></td><td class="name-cell" title="Flextronics Intl Ltd">Flextronics Intl Ltd</td><td class="price-cell">132.47</td><td class="chg-cell pos">+1.40</td><td><span class="pct-badge pos">+1.07%</span></td><td class="ohlc-cell">132.76</td><td class="ohlc-cell">134.26</td><td class="ohlc-cell">128.58</td><td class="vol-cell">3.59M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=FLEX" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('IFNNY')">IFNNY</span></td><td class="name-cell" title="Infineon Techs Ag ADR">Infineon Techs Ag ADR</td><td class="price-cell">84.80</td><td class="chg-cell pos">+4.31</td><td><span class="pct-badge pos">+5.35%</span></td><td class="ohlc-cell">83.42</td><td class="ohlc-cell">85.77</td><td class="ohlc-cell">81.10</td><td class="vol-cell">710.6K</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=IFNNY" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('MPWR')">MPWR</span></td><td class="name-cell" title="Monolithic Power Sys">Monolithic Power Sys</td><td class="price-cell">1,589.81</td><td class="chg-cell pos">+28.56</td><td><span class="pct-badge pos">+1.83%</span></td><td class="ohlc-cell">1,579.62</td><td class="ohlc-cell">1,596.74</td><td class="ohlc-cell">1,560.00</td><td class="vol-cell">476.7K</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=MPWR" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('NVT')">NVT</span></td><td class="name-cell" title="Nvent Electric Plc">Nvent Electric Plc</td><td class="price-cell">164.66</td><td class="chg-cell pos">+1.09</td><td><span class="pct-badge pos">+0.67%</span></td><td class="ohlc-cell">166.04</td><td class="ohlc-cell">166.34</td><td class="ohlc-cell">161.12</td><td class="vol-cell">1.50M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=NVT" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('IBM')">IBM</span></td><td class="name-cell" title="Intl Business Machines">Intl Business Machines</td><td class="price-cell">253.84</td><td class="chg-cell pos">+0.87</td><td><span class="pct-badge pos">+0.34%</span></td><td class="ohlc-cell">262.05</td><td class="ohlc-cell">264.38</td><td class="ohlc-cell">253.39</td><td class="vol-cell">19.07M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=IBM" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('IONQ')">IONQ</span></td><td class="name-cell" title="IonQ Inc">IonQ Inc</td><td class="price-cell">63.64</td><td class="chg-cell pos">+4.75</td><td><span class="pct-badge pos">+8.07%</span></td><td class="ohlc-cell">58.00</td><td class="ohlc-cell">65.80</td><td class="ohlc-cell">58.00</td><td class="vol-cell">52.65M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=IONQ" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('RGTI')">RGTI</span></td><td class="name-cell" title="Rigetti Computing Inc">Rigetti Computing Inc</td><td class="price-cell">26.42</td><td class="chg-cell pos">+4.38</td><td><span class="pct-badge pos">+19.87%</span></td><td class="ohlc-cell">22.96</td><td class="ohlc-cell">27.78</td><td class="ohlc-cell">22.66</td><td class="vol-cell">204.23M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=RGTI" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('AMD')">AMD</span></td><td class="name-cell" title="Adv Micro Devices">Adv Micro Devices</td><td class="price-cell">467.51</td><td class="chg-cell pos">+17.92</td><td><span class="pct-badge pos">+3.99%</span></td><td class="ohlc-cell">469.84</td><td class="ohlc-cell">481.41</td><td class="ohlc-cell">461.71</td><td class="vol-cell">34.76M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=AMD" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('MDT')">MDT</span></td><td class="name-cell" title="Medtronic Inc">Medtronic Inc</td><td class="price-cell">78.60</td><td class="chg-cell pos">+0.45</td><td><span class="pct-badge pos">+0.58%</span></td><td class="ohlc-cell">78.40</td><td class="ohlc-cell">79.25</td><td class="ohlc-cell">78.21</td><td class="vol-cell">7.05M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=MDT" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('INSP')">INSP</span></td><td class="name-cell" title="Inspire Medical Systems">Inspire Medical Systems</td><td class="price-cell">43.84</td><td class="chg-cell neg">-0.90</td><td><span class="pct-badge neg">-2.01%</span></td><td class="ohlc-cell">42.89</td><td class="ohlc-cell">44.26</td><td class="ohlc-cell">42.60</td><td class="vol-cell">1.38M</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=INSP" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('NPCE')">NPCE</span></td><td class="name-cell" title="Neuropace Inc">Neuropace Inc</td><td class="price-cell">16.92</td><td class="chg-cell pos">+0.64</td><td><span class="pct-badge pos">+3.93%</span></td><td class="ohlc-cell">16.38</td><td class="ohlc-cell">17.10</td><td class="ohlc-cell">16.38</td><td class="vol-cell">172.5K</td><td class="ohlc-cell" style="font-size: 11px;">05/22</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=NPCE" target="_blank">FV</a></td></tr></tbody>
       </table>
     </div>
 
@@ -527,10 +527,9 @@ function loadChart(){
   loading.style.display='flex';
   iframe.style.opacity='0';
 
-  // TradingView embed URL (free, no API key needed)
-  // Theme: dark, interval configurable
+  // ── FIXED: 唔強制指定交易所，讓 TradingView 自動解析（同 index.html 一樣）──
   const tvUrl=`https://s.tradingview.com/widgetembed/?frameElementId=tv-chart`
-    +`&symbol=${encodeURIComponent('NASDAQ:'+sym)}`
+    +`&symbol=${encodeURIComponent(sym)}`
     +`&interval=${flipInterval}`
     +`&hidesidetoolbar=0`
     +`&hidetoptoolbar=0`
@@ -571,5 +570,6 @@ document.addEventListener('keydown',e=>{
 // ─── Init ─────────────────────────────────────────────────────────────────────
 renderTable(); updateSummary(); loadLiveData();
 </script>
-</body>
-</html>
+
+
+</body></html>
