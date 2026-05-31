@@ -31,7 +31,6 @@
   .badge{font-size:10px;font-weight:500;padding:1px 6px;border-radius:10px;letter-spacing:0;}
   .badge-live{background:#1a3a1a;color:var(--green);}
   .badge-hk{background:#1a2a3a;color:var(--blue);}
-  .badge-mpf{background:#2a1a3a;color:var(--purple);}
   .badge-ext{background:#2a1a00;color:var(--amber);}
   .table-wrap{overflow-x:auto;border-radius:8px;border:1px solid var(--border);}
   table{width:100%;border-collapse:collapse;white-space:nowrap;}
@@ -60,37 +59,6 @@
   .market-banner{display:flex;align-items:center;gap:10px;padding:6px 16px;font-size:12px;font-family:var(--font);border-bottom:1px solid var(--border);}
   .market-dot{width:8px;height:8px;border-radius:50%;animation:pulse 2s infinite;}
   @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
-
-  /* MPF */
-  .mpf-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px;}
-  @media(max-width:600px){.mpf-grid{grid-template-columns:1fr;}}
-  .mpf-fund-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px;}
-  .mpf-fund-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;}
-  .mpf-fund-name{font-weight:600;font-size:14px;}
-  .mpf-fund-code{font-size:11px;color:var(--muted);font-family:var(--font);margin-top:2px;}
-  .mpf-alloc-bar{height:6px;background:var(--surface2);border-radius:3px;margin:8px 0;overflow:hidden;}
-  .mpf-alloc-fill{height:100%;border-radius:3px;}
-  .mpf-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px;}
-  .mpf-stat-label{font-size:10px;color:var(--muted);}
-  .mpf-stat-value{font-size:13px;font-weight:600;font-family:var(--font);}
-  .mpf-total-card{background:var(--surface);border:1px solid var(--purple);border-radius:8px;padding:16px;margin-bottom:12px;}
-  .mpf-total-label{font-size:12px;color:var(--muted);}
-  .mpf-total-value{font-size:28px;font-weight:700;font-family:var(--font);color:var(--purple);}
-  .mpf-total-gain{font-size:14px;color:var(--green);margin-top:2px;}
-  .mpf-date{font-size:11px;color:var(--muted);margin-top:4px;}
-  .mpf-breakdown{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px;}
-  @media(max-width:500px){.mpf-breakdown{grid-template-columns:1fr;}}
-  .mpf-breakdown-item{background:var(--surface2);border-radius:6px;padding:10px;border-left:3px solid;}
-  .mpf-breakdown-name{font-size:11px;color:var(--muted);}
-  .mpf-breakdown-val{font-size:15px;font-weight:700;font-family:var(--font);margin-top:2px;}
-  .mpf-breakdown-pct{font-size:11px;color:var(--muted);}
-  .mpf-note{font-size:11px;color:var(--amber);background:#1a1400;border:1px solid #3a2a00;border-radius:6px;padding:8px 12px;margin-top:10px;}
-  .mpf-mechanism{font-size:11px;color:var(--muted);margin-top:8px;padding:8px;background:var(--surface2);border-radius:6px;}
-  .performance-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;}
-  .perf-badge{font-size:10px;padding:2px 6px;border-radius:4px;font-family:var(--font);}
-  .perf-1y{background:#0d2a1a;color:var(--green);}
-  .perf-3y{background:#0d1f2a;color:var(--blue);}
-  .perf-5y{background:#1a0d2a;color:var(--purple);}
 
   /* Risk panel */
   .risk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px;}
@@ -152,20 +120,20 @@
 <body>
 
 <!-- Market State Banner -->
-<div class="market-banner" id="marketBanner" style="background: rgb(26, 13, 42);">
-  <div class="market-dot" id="marketDot" style="background: var(--purple);"></div>
-  <span id="marketStateText" style="color: var(--purple);">🌃 夜盤交易中 Overnight (20:00–04:00 ET)</span>
-  <span style="margin-left:auto;color:var(--muted);font-size:11px" id="marketTimeHK">香港 上午10:57 ｜ 美東 22:57</span>
+<div class="market-banner" id="marketBanner" style="background: var(--surface2);">
+  <div class="market-dot" id="marketDot" style="background: var(--muted);"></div>
+  <span id="marketStateText" style="color: var(--muted);">💤 市場休市 Closed</span>
+  <span style="margin-left:auto;color:var(--muted);font-size:11px" id="marketTimeHK">香港 下午05:19 ｜ 美東 05:19</span>
 </div>
 
 <div class="header">
   <div>
     <div class="header-title">▸ 持倉儀表板</div>
-    <div class="header-sub">帳號 0193 ｜ 持倉保證金綜合帳戶 ｜ 宏利 MPF</div>
+    <div class="header-sub">帳號 0193 ｜ 持倉保證金綜合帳戶</div>
   </div>
   <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
     <button class="btn-flip-trigger" style="font-size:12px;padding:6px 14px;" onclick="openFlip(null)">📈 Flipcharts</button>
-    <div class="update-time" id="updateTime">更新：上午10:57:33</div>
+    <div class="update-time" id="updateTime">更新：下午5:19:00</div>
   </div>
 </div>
 
@@ -223,12 +191,12 @@
   <div class="summary-grid">
     <div class="stat-card">
       <div class="stat-label">美股市值 (USD)</div>
-      <div class="stat-value neutral" id="usTotal">USD 27,844.53</div>
+      <div class="stat-value neutral" id="usTotal">USD 27,870.54</div>
       <div class="stat-sub">15 個持倉</div>
     </div>
     <div class="stat-card">
       <div class="stat-label">美股未實現盈虧</div>
-      <div class="stat-value up" id="usUnreal">+USD 10,315.22</div>
+      <div class="stat-value up" id="usUnreal">+USD 10,341.23</div>
       <div class="stat-sub">未計已實現</div>
     </div>
     <div class="stat-card">
@@ -238,28 +206,18 @@
     </div>
     <div class="stat-card">
       <div class="stat-label">今日盈虧 (美股)</div>
-      <div class="stat-value up" id="usToday">+300.17</div>
+      <div class="stat-value up" id="usToday">+26.01</div>
       <div class="stat-sub">USD</div>
     </div>
     <div class="stat-card">
       <div class="stat-label">港股市值 (HKD)</div>
-      <div class="stat-value neutral" id="hkTotal">HKD 56,490.00</div>
+      <div class="stat-value neutral" id="hkTotal">HKD 56,626.00</div>
       <div class="stat-sub">3 個持倉（07709持200股）</div>
     </div>
     <div class="stat-card">
       <div class="stat-label">港股已實現盈虧</div>
       <div class="stat-value up">+HKD 30,560+</div>
       <div class="stat-sub">07709沽100@110(+9,420) ｜ 07709沽100@133(+11,720) ｜ 舊沽+HKD 9,420</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">MPF 總結餘</div>
-      <div class="stat-value" style="color:var(--purple)">HKD 480,414</div>
-      <div class="stat-sub">截至 2026-05-22</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">MPF 升幅</div>
-      <div class="stat-value up">+HKD 28,871</div>
-      <div class="stat-sub">相較上期</div>
     </div>
   </div>
 
@@ -271,93 +229,6 @@
     RR 沽100股 ｜ RKLB 已減半 ｜
     07709 沽100@$110 <span class="up">+HKD 9,420</span> ｜
     07709 沽100@$133 <span class="up">+HKD 11,720</span>
-  </div>
-
-  <!-- MPF Section -->
-  <div class="section" style="margin-top:16px;">
-    <div class="section-title">
-      MPF — 宏利環球精選強積金計劃
-      <span class="badge badge-mpf">截至 22/05/2026</span>
-    </div>
-    <div class="mpf-total-card">
-      <div>
-        <div class="mpf-total-label">MPF 總結餘（強制性供款）</div>
-        <div class="mpf-total-value">$480,414.26</div>
-        <div class="mpf-total-gain">▲ $28,871.36 升幅</div>
-        <div class="mpf-date">截至 2026年5月22日 ｜ 成員帳戶：11176182</div>
-      </div>
-      <div class="mpf-breakdown">
-        <div class="mpf-breakdown-item" style="border-color:#58a6ff">
-          <div class="mpf-breakdown-name">北美股票基金 SHK130</div>
-          <div class="mpf-breakdown-val" style="color:#58a6ff">$262,414</div>
-          <div class="mpf-breakdown-pct">佔比 54.6%</div>
-        </div>
-        <div class="mpf-breakdown-item" style="border-color:#bc8cff">
-          <div class="mpf-breakdown-name">日本股票基金 SHK131</div>
-          <div class="mpf-breakdown-val" style="color:#bc8cff">$170,524</div>
-          <div class="mpf-breakdown-pct">佔比 35.5%</div>
-        </div>
-        <div class="mpf-breakdown-item" style="border-color:#3fb950">
-          <div class="mpf-breakdown-name">保守基金</div>
-          <div class="mpf-breakdown-val" style="color:#3fb950">$47,476</div>
-          <div class="mpf-breakdown-pct">佔比 9.9%</div>
-        </div>
-      </div>
-      <div class="mpf-note">⚠ 注意：實際持倉顯示北美55% / 日本35% / 保守10%，而非投資授權65/35。保守基金或為舊有累積，如欲統一配置，可考慮轉換至北美基金。</div>
-    </div>
-    <div class="mpf-grid">
-      <div class="mpf-fund-card">
-        <div class="mpf-fund-header">
-          <div>
-            <div class="mpf-fund-name">🇺🇸 宏利MPF北美股票基金</div>
-            <div class="mpf-fund-code">SHK130 ｜ 風險級別 5 ｜ 費用率 1.763%</div>
-          </div>
-          <div style="text-align:right">
-            <div style="font-size:20px;font-weight:700;color:var(--blue)">54.6%</div>
-            <div style="font-size:11px;color:var(--muted)">HKD 262,414</div>
-          </div>
-        </div>
-        <div class="mpf-alloc-bar"><div class="mpf-alloc-fill" style="width:54.6%;background:var(--blue)"></div></div>
-        <div class="performance-row">
-          <span class="perf-badge perf-1y">1年 +11.74%</span>
-          <span class="perf-badge perf-3y">3年 +84.68%</span>
-          <span class="perf-badge perf-5y">5年 +72.14%</span>
-        </div>
-        <div class="mpf-stats">
-          <div class="mpf-stat"><div class="mpf-stat-label">基金價格</div><div class="mpf-stat-value">HK$35.661</div></div>
-          <div class="mpf-stat"><div class="mpf-stat-label">基金規模</div><div class="mpf-stat-value">HK$40,769M</div></div>
-          <div class="mpf-stat"><div class="mpf-stat-label">季度回報 Q3 2025</div><div class="mpf-stat-value" style="color:var(--green)">+4.93%</div></div>
-          <div class="mpf-stat"><div class="mpf-stat-label">風險指標(3年)</div><div class="mpf-stat-value">14.55%</div></div>
-        </div>
-        <div style="font-size:10px;color:var(--muted);margin-top:8px">十大持股：Microsoft 6.56% ｜ Amazon 6.12% ｜ Apple 5.25% ｜ Alphabet 3.89% ｜ Nvidia 3.88%</div>
-      </div>
-      <div class="mpf-fund-card">
-        <div class="mpf-fund-header">
-          <div>
-            <div class="mpf-fund-name">🇯🇵 宏利MPF日本股票基金</div>
-            <div class="mpf-fund-code">SHK131 ｜ 風險級別 4 ｜ 費用率 1.764%</div>
-          </div>
-          <div style="text-align:right">
-            <div style="font-size:20px;font-weight:700;color:var(--purple)">35.5%</div>
-            <div style="font-size:11px;color:var(--muted)">HKD 170,524</div>
-          </div>
-        </div>
-        <div class="mpf-alloc-bar"><div class="mpf-alloc-fill" style="width:35.5%;background:var(--purple)"></div></div>
-        <div class="performance-row">
-          <span class="perf-badge perf-1y">1年 +16.64%</span>
-          <span class="perf-badge perf-3y">3年 +92.06%</span>
-          <span class="perf-badge perf-5y">5年 +88.53%</span>
-        </div>
-        <div class="mpf-stats">
-          <div class="mpf-stat"><div class="mpf-stat-label">基金價格</div><div class="mpf-stat-value">HK$24.200</div></div>
-          <div class="mpf-stat"><div class="mpf-stat-label">基金規模</div><div class="mpf-stat-value">HK$8,953M</div></div>
-          <div class="mpf-stat"><div class="mpf-stat-label">季度回報 Q3 2025</div><div class="mpf-stat-value" style="color:var(--green)">+4.85%</div></div>
-          <div class="mpf-stat"><div class="mpf-stat-label">風險指標(3年)</div><div class="mpf-stat-value">9.51%</div></div>
-        </div>
-        <div style="font-size:10px;color:var(--muted);margin-top:8px">十大持股：Sony 6.40% ｜ Sumitomo Mitsui 4.85% ｜ Hitachi 4.23% ｜ TDK 3.98% ｜ Toyota 3.76%</div>
-      </div>
-    </div>
-    <div class="mpf-mechanism">📋 MPF 轉換機制：T+2 工作日生效（週末提交不計算）｜ 季度數據截至 2025年9月30日</div>
   </div>
 
   <!-- US Stocks -->
@@ -379,210 +250,210 @@
       <td class="code-col">MU</td>
       <td class="name-col">美光科技</td>
       <td>5</td>
-      <td>923.52</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="down">923.52 <small>-4.89 (-0.53%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>971.00</td>
+      <td class="ext-price"><span class="ext-label lbl-post">盤後</span><span class="ext-post">971.00 <small>+47.48 (+5.14%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
       <td>429.00</td>
-      <td>4,617.60</td>
-      <td class="up">+2,472.60</td>
-      <td class="up">+115.27%</td>
-      <td class="down">-24.45</td>
+      <td>4,855.00</td>
+      <td class="up">+2,710.00</td>
+      <td class="up">+126.34%</td>
+      <td class="up">+237.40</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=MU" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('MU')">📈</button><a href="https://www.barchart.com/stocks/quotes/MU/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">GOOGL</td>
       <td class="name-col">谷歌-A</td>
       <td>12</td>
-      <td>390.13</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">390.13 <small>+1.30 (+0.33%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>380.34</td>
+      <td class="ext-price"><span class="ext-label lbl-post">盤後</span><span class="down">380.34 <small>-9.79 (-2.51%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
       <td>178.40</td>
-      <td>4,681.56</td>
-      <td class="up">+2,540.76</td>
-      <td class="up">+118.68%</td>
-      <td class="up">+15.60</td>
+      <td>4,564.08</td>
+      <td class="up">+2,423.28</td>
+      <td class="up">+113.20%</td>
+      <td class="down">-117.48</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=GOOGL" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('GOOGL')">📈</button><a href="https://www.barchart.com/stocks/quotes/GOOGL/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">NVDA</td>
       <td class="name-col">英偉達</td>
       <td>15</td>
-      <td>214.25</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">214.25 <small>+1.65 (+0.78%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>211.14</td>
+      <td class="ext-price"><span class="ext-label lbl-post">盤後</span><span class="down">211.14 <small>-3.11 (-1.45%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
       <td>148.50</td>
-      <td>3,213.75</td>
-      <td class="up">+986.25</td>
-      <td class="up">+44.28%</td>
-      <td class="up">+24.75</td>
+      <td>3,167.10</td>
+      <td class="up">+939.60</td>
+      <td class="up">+42.18%</td>
+      <td class="down">-46.65</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=NVDA" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('NVDA')">📈</button><a href="https://www.barchart.com/stocks/quotes/NVDA/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">AVGO</td>
       <td class="name-col">博通</td>
       <td>7</td>
-      <td>426.58</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">426.58 <small>+4.72 (+1.12%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>446.77</td>
+      <td class="ext-price"><span class="ext-label lbl-post">盤後</span><span class="ext-post">446.77 <small>+20.19 (+4.73%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
       <td>361.12</td>
-      <td>2,986.06</td>
-      <td class="up">+458.24</td>
-      <td class="up">+18.13%</td>
-      <td class="up">+33.04</td>
+      <td>3,127.39</td>
+      <td class="up">+599.57</td>
+      <td class="up">+23.72%</td>
+      <td class="up">+141.33</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=AVGO" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('AVGO')">📈</button><a href="https://www.barchart.com/stocks/quotes/AVGO/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">META</td>
       <td class="name-col">Meta Platforms</td>
       <td>3</td>
-      <td>635.29</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">635.29 <small>+0.03 (+0.01%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>632.51</td>
+      <td class="ext-price"><span class="ext-label lbl-post">盤後</span><span class="down">632.51 <small>-2.78 (-0.44%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
       <td>606.33</td>
-      <td>1,905.87</td>
-      <td class="up">+86.87</td>
-      <td class="up">+4.78%</td>
-      <td class="up">+0.10</td>
+      <td>1,897.53</td>
+      <td class="up">+78.53</td>
+      <td class="up">+4.32%</td>
+      <td class="down">-8.34</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=META" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('META')">📈</button><a href="https://www.barchart.com/stocks/quotes/META/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">TER</td>
       <td class="name-col">泰瑞達</td>
       <td>5</td>
-      <td>382.65</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">382.65 <small>+6.82 (+1.81%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>374.31</td>
+      <td class="ext-price"><span class="ext-label lbl-post">盤後</span><span class="down">374.31 <small>-8.34 (-2.18%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
       <td>92.00</td>
-      <td>1,913.25</td>
-      <td class="up">+1,453.25</td>
-      <td class="up">+315.92%</td>
-      <td class="up">+34.10</td>
+      <td>1,871.55</td>
+      <td class="up">+1,411.55</td>
+      <td class="up">+306.86%</td>
+      <td class="down">-41.70</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=TER" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('TER')">📈</button><a href="https://www.barchart.com/stocks/quotes/TER/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">RDW</td>
       <td class="name-col">Redwire</td>
       <td>30</td>
-      <td>25.90</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">25.90 <small>+1.90 (+7.92%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>24.57</td>
+      <td class="ext-price"><span class="ext-label lbl-post">盤後</span><span class="down">24.57 <small>-1.33 (-5.14%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
       <td>12.40</td>
-      <td>777.00</td>
-      <td class="up">+405.00</td>
-      <td class="up">+108.87%</td>
-      <td class="up">+57.00</td>
+      <td>737.10</td>
+      <td class="up">+365.10</td>
+      <td class="up">+98.15%</td>
+      <td class="down">-39.90</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=RDW" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('RDW')">📈</button><a href="https://www.barchart.com/stocks/quotes/RDW/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">LEU</td>
       <td class="name-col">Centrus Energy</td>
       <td>8</td>
-      <td>185.46</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">185.46 <small>+5.33 (+2.96%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>182.47</td>
+      <td class="ext-price"><span class="ext-label lbl-post">盤後</span><span class="down">182.47 <small>-2.99 (-1.61%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
       <td>197.50</td>
-      <td>1,483.68</td>
-      <td class="down">-96.32</td>
-      <td class="down">-6.10%</td>
-      <td class="up">+42.64</td>
+      <td>1,459.76</td>
+      <td class="down">-120.24</td>
+      <td class="down">-7.61%</td>
+      <td class="down">-23.92</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=LEU" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('LEU')">📈</button><a href="https://www.barchart.com/stocks/quotes/LEU/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">OKLO</td>
       <td class="name-col">Oklo Inc</td>
       <td>20</td>
-      <td>68.09</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">68.09 <small>+0.27 (+0.40%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>66.88</td>
+      <td class="ext-price"><span class="ext-label lbl-post">盤後</span><span class="down">66.88 <small>-1.21 (-1.78%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
       <td>21.07</td>
-      <td>1,361.80</td>
-      <td class="up">+940.46</td>
-      <td class="up">+223.21%</td>
-      <td class="up">+5.40</td>
+      <td>1,337.60</td>
+      <td class="up">+916.26</td>
+      <td class="up">+217.46%</td>
+      <td class="down">-24.20</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=OKLO" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('OKLO')">📈</button><a href="https://www.barchart.com/stocks/quotes/OKLO/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">RKLB</td>
       <td class="name-col">Rocket Lab</td>
       <td>5</td>
-      <td>148.03</td>
+      <td>143.48</td>
       <td class="ext-price"><span style="color:var(--muted);font-size:11px">—</span></td>
       <td>42.00</td>
-      <td>740.15</td>
-      <td class="up">+530.15</td>
-      <td class="up">+252.45%</td>
-      <td class="down">-11.00</td>
+      <td>717.40</td>
+      <td class="up">+507.40</td>
+      <td class="up">+241.62%</td>
+      <td class="down">-22.75</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=RKLB" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('RKLB')">📈</button><a href="https://www.barchart.com/stocks/quotes/RKLB/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">PLTR</td>
       <td class="name-col">Palantir</td>
       <td>7</td>
-      <td>143.34</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">143.34 <small>+10.83 (+8.17%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>156.54</td>
+      <td class="ext-price"><span style="color:var(--muted);font-size:11px">—</span></td>
       <td>124.34</td>
-      <td>1,003.38</td>
-      <td class="up">+133.04</td>
-      <td class="up">+15.29%</td>
-      <td class="up">+75.81</td>
+      <td>1,095.78</td>
+      <td class="up">+225.44</td>
+      <td class="up">+25.90%</td>
+      <td class="up">+92.40</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=PLTR" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('PLTR')">📈</button><a href="https://www.barchart.com/stocks/quotes/PLTR/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">ISRG</td>
       <td class="name-col">直覺外科公司</td>
       <td>2</td>
-      <td>423.63</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">423.63 <small>+5.08 (+1.21%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>424.64</td>
+      <td class="ext-price"><span style="color:var(--muted);font-size:11px">—</span></td>
       <td>453.10</td>
-      <td>847.26</td>
-      <td class="down">-58.94</td>
-      <td class="down">-6.50%</td>
-      <td class="up">+10.16</td>
+      <td>849.28</td>
+      <td class="down">-56.92</td>
+      <td class="down">-6.28%</td>
+      <td class="up">+2.02</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=ISRG" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('ISRG')">📈</button><a href="https://www.barchart.com/stocks/quotes/ISRG/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">VRT</td>
       <td class="name-col">Vertiv Holdings</td>
       <td>2</td>
-      <td>314.18</td>
+      <td>315.71</td>
       <td class="ext-price"><span style="color:var(--muted);font-size:11px">—</span></td>
       <td>303.76</td>
-      <td>628.36</td>
-      <td class="up">+20.84</td>
-      <td class="up">+3.43%</td>
-      <td class="down">-11.20</td>
+      <td>631.42</td>
+      <td class="up">+23.90</td>
+      <td class="up">+3.93%</td>
+      <td class="up">+3.06</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=VRT" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('VRT')">📈</button><a href="https://www.barchart.com/stocks/quotes/VRT/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">RR</td>
       <td class="name-col">Richtech Robotics</td>
       <td>100</td>
-      <td>3.25</td>
+      <td>3.02</td>
       <td class="ext-price"><span style="color:var(--muted);font-size:11px">—</span></td>
       <td>2.74</td>
-      <td>325.00</td>
-      <td class="up">+51.50</td>
-      <td class="up">+18.83%</td>
-      <td class="down">-1.00</td>
+      <td>302.00</td>
+      <td class="up">+28.50</td>
+      <td class="up">+10.42%</td>
+      <td class="down">-23.00</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=RR" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('RR')">📈</button><a href="https://www.barchart.com/stocks/quotes/RR/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">ASTS</td>
       <td class="name-col">AST SpaceMobile</td>
       <td>5</td>
-      <td>133.09</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">133.09 <small>+3.49 (+2.69%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>113.41</td>
+      <td class="ext-price"><span style="color:var(--muted);font-size:11px">—</span></td>
       <td>100.00</td>
-      <td>665.45</td>
-      <td class="up">+165.45</td>
-      <td class="up">+33.09%</td>
-      <td class="up">+17.45</td>
+      <td>567.05</td>
+      <td class="up">+67.05</td>
+      <td class="up">+13.41%</td>
+      <td class="down">-98.40</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=ASTS" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('ASTS')">📈</button><a href="https://www.barchart.com/stocks/quotes/ASTS/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">MRVL</td>
       <td class="name-col">邁威爾科技</td>
       <td>2</td>
-      <td>204.83</td>
+      <td>205.00</td>
       <td class="ext-price"><span style="color:var(--muted);font-size:11px">—</span></td>
       <td>58.00</td>
-      <td>409.66</td>
-      <td class="up">+293.66</td>
-      <td class="up">+253.16%</td>
-      <td class="up">+12.26</td>
+      <td>410.00</td>
+      <td class="up">+294.00</td>
+      <td class="up">+253.45%</td>
+      <td class="up">+0.34</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=MRVL" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('MRVL')">📈</button><a href="https://www.barchart.com/stocks/quotes/MRVL/options" target="_blank">期權</a></span></td>
     </tr><tr>
       <td class="code-col">SERV</td>
       <td class="name-col">Serve Robotics</td>
       <td>30</td>
-      <td>9.49</td>
-      <td class="ext-price"><span class="ext-label lbl-pre">夜盤</span><span class="ext-pre">9.49 <small>+0.65 (+7.35%)</small><span style="color:var(--muted);font-size:9px;margin-left:3px">上午04:00</span></span></td>
+      <td>9.35</td>
+      <td class="ext-price"><span style="color:var(--muted);font-size:11px">—</span></td>
       <td>11.74</td>
-      <td>284.70</td>
-      <td class="down">-67.59</td>
-      <td class="down">-19.19%</td>
-      <td class="up">+19.50</td>
+      <td>280.50</td>
+      <td class="down">-71.79</td>
+      <td class="down">-20.38%</td>
+      <td class="down">-4.20</td>
       <td><span class="links"><a href="https://finviz.com/quote.ashx?t=SERV" target="_blank">Finviz</a><button class="chart-link-btn" onclick="openFlipSym('SERV')">📈</button><a href="https://www.barchart.com/stocks/quotes/SERV/options" target="_blank">期權</a></span></td>
     </tr></tbody>
       </table>
     </div>
-    <div style="font-size:11px;color:var(--muted);margin-top:6px" id="usUpdateTime">報價來源：Finnhub（正市實時 ｜ 盤前/盤後延伸時段）｜ Yahoo Finance（備用）｜ 更新：上午10:57:02</div>
+    <div style="font-size:11px;color:var(--muted);margin-top:6px" id="usUpdateTime">報價來源：Finnhub（正市實時 ｜ 盤前/盤後延伸時段）｜ Yahoo Finance（備用）｜ 更新：下午5:18:01</div>
   </div>
 
   <!-- HK Stocks -->
@@ -602,36 +473,36 @@
       <td class="code-col">07709</td>
       <td class="name-col">南方兩倍做多海力士</td>
       <td>200</td>
-      <td>138.20</td>
+      <td>132.50</td>
       <td>15.80</td>
-      <td>27,640.00</td>
-      <td class="up">+24,480.00</td>
-      <td class="up">+774.68%</td>
-      <td class="up">+930.00</td>
-      <td>48.9%</td>
+      <td>26,500.00</td>
+      <td class="up">+23,340.00</td>
+      <td class="up">+738.61%</td>
+      <td class="">+0.00</td>
+      <td>46.8%</td>
       <td><a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=7709" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a> <button class="chart-link-btn" onclick="openFlipSym('7709')" style="margin-left:4px">📈</button></td>
     </tr><tr>
       <td class="code-col">02367</td>
       <td class="name-col">巨子生物</td>
       <td>600</td>
-      <td>27.90</td>
+      <td>30.06</td>
       <td>38.00</td>
-      <td>16,740.00</td>
-      <td class="down">-6,060.00</td>
-      <td class="down">-26.58%</td>
-      <td class="up">+528.00</td>
-      <td>29.6%</td>
+      <td>18,036.00</td>
+      <td class="down">-4,764.00</td>
+      <td class="down">-20.89%</td>
+      <td class="up">+1,824.00</td>
+      <td>31.9%</td>
       <td><a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=2367" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a> <button class="chart-link-btn" onclick="openFlipSym('2367')" style="margin-left:4px">📈</button></td>
     </tr><tr>
       <td class="code-col">09988</td>
       <td class="name-col">阿里巴巴-W</td>
       <td>100</td>
-      <td>121.10</td>
+      <td>120.90</td>
       <td>165.00</td>
-      <td>12,110.00</td>
-      <td class="down">-4,390.00</td>
-      <td class="down">-26.61%</td>
-      <td class="down">-70.00</td>
+      <td>12,090.00</td>
+      <td class="down">-4,410.00</td>
+      <td class="down">-26.73%</td>
+      <td class="down">-90.00</td>
       <td>21.4%</td>
       <td><a href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=9988" target="_blank" style="color:var(--muted);font-size:11px">AAStocks</a> <button class="chart-link-btn" onclick="openFlipSym('9988')" style="margin-left:4px">📈</button></td>
     </tr></tbody>
@@ -651,17 +522,17 @@
       <div class="risk-item risk-med" id="riskLeuItem">
         <div class="risk-icon">⚠️</div>
         <div><div class="risk-label">LEU 持倉</div>
-        <div class="risk-desc" id="riskLeuDesc">Centrus Energy 成本$197.50，現$185.46，-6.1%，核能板塊波動，留意止蝕位</div></div>
+        <div class="risk-desc" id="riskLeuDesc">Centrus Energy 成本$197.50，現$182.47，-7.6%，核能板塊波動，留意止蝕位</div></div>
       </div>
       <div class="risk-item risk-med" id="riskHkItem">
         <div class="risk-icon">🇭🇰</div>
         <div><div class="risk-label">港股持倉概覽</div>
-        <div class="risk-desc" id="riskHkDesc">07709 +775% ✅ ｜ 02367 -27% ⚠️ ｜ 09988 -27% ⚠️ ｜ 合計未實盈虧 +HKD 14,030</div></div>
+        <div class="risk-desc" id="riskHkDesc">07709 +739% ✅ ｜ 02367 -21% ⚠️ ｜ 09988 -27% ⚠️ ｜ 合計未實盈虧 +HKD 14,166</div></div>
       </div>
       <div class="risk-item risk-med" id="riskSmallItem">
         <div class="risk-icon">🔴</div>
         <div><div class="risk-label">小市值倉位</div>
-        <div class="risk-desc" id="riskSmallDesc">SERV -19% ｜ RR +19% ｜ ASTS +33% ｜ 市值細，流動性較低，波動性高</div></div>
+        <div class="risk-desc" id="riskSmallDesc">SERV -20% ｜ RR +10% ｜ ASTS +13% ｜ 市值細，流動性較低，波動性高</div></div>
       </div>
       <div class="risk-item risk-med">
         <div class="risk-icon">🚀</div>
@@ -671,7 +542,7 @@
       <div class="risk-item risk-low">
         <div class="risk-icon">✅</div>
         <div><div class="risk-label">強勢持倉</div>
-        <div class="risk-desc" id="riskTopDesc">TER +316% ｜ MRVL +253% ｜ RKLB +252% ｜ OKLO +223% ｜ GOOGL +119% ｜ 可考慮分批鎖定部分利潤</div></div>
+        <div class="risk-desc" id="riskTopDesc">TER +307% ｜ MRVL +253% ｜ RKLB +242% ｜ OKLO +217% ｜ MU +126% ｜ 可考慮分批鎖定部分利潤</div></div>
       </div>
     </div>
   </div>
@@ -679,7 +550,7 @@
 </div>
 
 <div class="footer">
-  美股：Finnhub 實時報價（正市 ｜ 盤前/盤後延伸時段）｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ MPF：eMPF截至2026年5月22日<br>
+  美股：Finnhub 實時報價（正市 ｜ 盤前/盤後延伸時段）｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance<br>
   持倉更新：2026-05-27 ｜ MU剩5股 ｜ RR剩100股 ｜ RDW剩30股（已沽70股鎖利）｜ RKLB剩5股 ｜ 07709剩200股（已沽100股鎖利）<br>
   已實現盈利：美股 +USD 7,947+ ｜ 港股 +HKD 30,560+<br><br>
   ⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。
