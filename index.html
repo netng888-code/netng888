@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="zh-HK"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="zh-HK">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>持倉儀表板 — 帳戶0193</title>
@@ -166,17 +166,17 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 <!-- Quick-links bar -->
 <div class="quicklinks-bar">
   <span class="quicklinks-label">快速連結</span>
-  <a class="qlink" href="file:///C:/Users/Dell/Downloads/manulife_mpf.html" target="_blank">
+  <a class="qlink" href="https://netng888-code.github.io/netng888/manulife_mpf.html" target="_blank">
     <span class="qlink-icon">🏦</span> Manulife MPF
     <div class="qlink-preview">
-      <iframe src="index_files/manulife_mpf.htm" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+      <iframe src="https://netng888-code.github.io/netng888/manulife_mpf.html" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
     </div>
   </a>
   <div class="qlink-sep"></div>
-  <a class="qlink" href="file:///C:/Users/Dell/Downloads/mywatchlist.html" target="_blank">
+  <a class="qlink" href="https://netng888-code.github.io/netng888/mywatchlist.html" target="_blank">
     <span class="qlink-icon">📋</span> My Watchlist
     <div class="qlink-preview">
-      <iframe src="index_files/mywatchlist.htm" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+      <iframe src="https://netng888-code.github.io/netng888/mywatchlist.html" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
     </div>
   </a>
 </div>
@@ -189,9 +189,9 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     <div class="subtitle">帳號 0193 ｜ 持倉保證金綜合帳戶</div>
   </div>
   <div class="header-right">
-    <div id="clock">19:11:41</div>
-    <div id="date-str">2026年6月2日週二</div>
-    <div id="market-status" class="market-pre">🌅 盤前 Pre-Market 香港 19:11</div>
+    <div id="clock">—</div>
+    <div id="date-str">—</div>
+    <div id="market-status" class="market-closed">💤 市場休市 Closed</div>
   </div>
 </header>
 
@@ -207,12 +207,12 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="summary-grid">
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
-      <div class="summary-value" id="sum-us-mktval">USD 28,542.35</div>
+      <div class="summary-value" id="sum-us-mktval">—</div>
       <div class="summary-sub" id="sum-us-count">17 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 10,693.04</div>
+      <div class="summary-value pnl-pos" id="sum-us-unrealized">—</div>
       <div class="summary-sub">未計已實現</div>
     </div>
     <div class="summary-card">
@@ -222,16 +222,16 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     </div>
     <div class="summary-card">
       <div class="summary-label">今日盈虧 (美股)</div>
-      <div class="summary-value pnl-pos" id="sum-us-today">+ USD 383.90</div>
+      <div class="summary-value" id="sum-us-today">—</div>
       <div class="summary-sub">USD · 實時</div>
     </div>
   </div>
 
   <!-- Status -->
   <div class="status-bar">
-    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">已載入 17/17 個報價</span></div>
+    <div class="status-pill"><div class="status-dot" id="us-dot"></div><span id="us-status">載入中...</span></div>
     <div class="status-pill">來源: <span style="color:var(--text);margin-left:4px">Finnhub</span></div>
-    <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">19:10:48</span></div>
+    <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">—</span></div>
     <div class="status-pill" style="margin-left:auto">
       <button onclick="refreshAll()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-family:var(--font-mono);font-size:11px;">↻ 刷新報價</button>
     </div>
@@ -271,296 +271,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
         <th>今日盈虧</th>
         <th></th>
       </tr></thead>
-      <tbody id="us-tbody"><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('MU')">MU</span></td>
-      <td class="name-cell">美光科技</td>
-      <td style="color:var(--muted)">5</td>
-      <td><span class="price-cell price-live">1,035.50</span></td>
-      <td><span class="ext-price-cell">+64.50 (+6.64%)</span></td>
-      <td style="color:var(--muted)">429.00</td>
-      <td class="mktval-cell">5,177.50</td>
-      <td class="pnl-pos">+3,032.50</td>
-      <td><span class="pct-badge pos">+141.38%</span></td>
-      <td class="pnl-pos today-pnl-cell">+322.50</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('MU')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=MU" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/MU/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('GOOGL')">GOOGL</span></td>
-      <td class="name-cell">谷歌-A</td>
-      <td style="color:var(--muted)">12</td>
-      <td><span class="price-cell price-live">376.37</span></td>
-      <td><span class="ext-price-cell">-3.97 (-1.04%)</span></td>
-      <td style="color:var(--muted)">178.40</td>
-      <td class="mktval-cell">4,516.44</td>
-      <td class="pnl-pos">+2,375.64</td>
-      <td><span class="pct-badge pos">+110.97%</span></td>
-      <td class="pnl-neg today-pnl-cell">-47.64</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('GOOGL')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=GOOGL" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/GOOGL/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('AVGO')">AVGO</span></td>
-      <td class="name-cell">博通</td>
-      <td style="color:var(--muted)">7</td>
-      <td><span class="price-cell price-live">459.97</span></td>
-      <td><span class="ext-price-cell">+13.20 (+2.95%)</span></td>
-      <td style="color:var(--muted)">361.12</td>
-      <td class="mktval-cell">3,219.79</td>
-      <td class="pnl-pos">+691.97</td>
-      <td><span class="pct-badge pos">+27.37%</span></td>
-      <td class="pnl-pos today-pnl-cell">+92.40</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('AVGO')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=AVGO" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/AVGO/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('NVDA')">NVDA</span></td>
-      <td class="name-cell">英偉達</td>
-      <td style="color:var(--muted)">15</td>
-      <td><span class="price-cell price-live">224.36</span></td>
-      <td><span class="ext-price-cell">+13.22 (+6.26%)</span></td>
-      <td style="color:var(--muted)">148.50</td>
-      <td class="mktval-cell">3,365.40</td>
-      <td class="pnl-pos">+1,137.90</td>
-      <td><span class="pct-badge pos">+51.08%</span></td>
-      <td class="pnl-pos today-pnl-cell">+198.30</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('NVDA')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=NVDA" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/NVDA/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('TER')">TER</span></td>
-      <td class="name-cell">泰瑞達</td>
-      <td style="color:var(--muted)">5</td>
-      <td><span class="price-cell price-live">369.47</span></td>
-      <td><span class="ext-price-cell">-4.84 (-1.29%)</span></td>
-      <td style="color:var(--muted)">92.00</td>
-      <td class="mktval-cell">1,847.35</td>
-      <td class="pnl-pos">+1,387.35</td>
-      <td><span class="pct-badge pos">+301.60%</span></td>
-      <td class="pnl-neg today-pnl-cell">-24.20</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('TER')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=TER" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/TER/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('META')">META</span></td>
-      <td class="name-cell">Meta Platforms</td>
-      <td style="color:var(--muted)">3</td>
-      <td><span class="price-cell price-live">600.47</span></td>
-      <td><span class="ext-price-cell">-32.04 (-5.07%)</span></td>
-      <td style="color:var(--muted)">606.33</td>
-      <td class="mktval-cell">1,801.41</td>
-      <td class="pnl-neg">-17.59</td>
-      <td><span class="pct-badge neg">-0.97%</span></td>
-      <td class="pnl-neg today-pnl-cell">-96.12</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('META')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=META" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/META/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('LEU')">LEU</span></td>
-      <td class="name-cell">Centrus Energy</td>
-      <td style="color:var(--muted)">8</td>
-      <td><span class="price-cell price-live">189.00</span></td>
-      <td><span class="ext-price-cell">+6.53 (+3.58%)</span></td>
-      <td style="color:var(--muted)">197.50</td>
-      <td class="mktval-cell">1,512.00</td>
-      <td class="pnl-neg">-68.00</td>
-      <td><span class="pct-badge neg">-4.30%</span></td>
-      <td class="pnl-pos today-pnl-cell">+52.24</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('LEU')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=LEU" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/LEU/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('OKLO')">OKLO</span></td>
-      <td class="name-cell">Oklo Inc</td>
-      <td style="color:var(--muted)">20</td>
-      <td><span class="price-cell price-live">66.89</span></td>
-      <td><span class="ext-price-cell">+0.01 (+0.01%)</span></td>
-      <td style="color:var(--muted)">21.07</td>
-      <td class="mktval-cell">1,337.80</td>
-      <td class="pnl-pos">+916.46</td>
-      <td><span class="pct-badge pos">+217.51%</span></td>
-      <td class="pnl-pos today-pnl-cell">+0.20</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('OKLO')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=OKLO" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/OKLO/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('PLTR')">PLTR</span></td>
-      <td class="name-cell">Palantir</td>
-      <td style="color:var(--muted)">7</td>
-      <td><span class="price-cell price-live">160.65</span></td>
-      <td><span class="ext-price-cell">+4.11 (+2.63%)</span></td>
-      <td style="color:var(--muted)">124.34</td>
-      <td class="mktval-cell">1,124.55</td>
-      <td class="pnl-pos">+254.21</td>
-      <td><span class="pct-badge pos">+29.21%</span></td>
-      <td class="pnl-pos today-pnl-cell">+28.77</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('PLTR')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=PLTR" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/PLTR/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('LITE')">LITE</span></td>
-      <td class="name-cell">Lumentum</td>
-      <td style="color:var(--muted)">1</td>
-      <td><span class="price-cell price-live">905.00</span></td>
-      <td><span class="ext-price-cell">+50.04 (+5.85%)</span></td>
-      <td style="color:var(--muted)">820.00</td>
-      <td class="mktval-cell">905.00</td>
-      <td class="pnl-pos">+85.00</td>
-      <td><span class="pct-badge pos">+10.37%</span></td>
-      <td class="pnl-pos today-pnl-cell">+50.04</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('LITE')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=LITE" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/LITE/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('ISRG')">ISRG</span></td>
-      <td class="name-cell">直覺外科公司</td>
-      <td style="color:var(--muted)">2</td>
-      <td><span class="price-cell price-live">412.26</span></td>
-      <td><span class="ext-price-cell">-12.38 (-2.92%)</span></td>
-      <td style="color:var(--muted)">453.10</td>
-      <td class="mktval-cell">824.52</td>
-      <td class="pnl-neg">-81.68</td>
-      <td><span class="pct-badge neg">-9.01%</span></td>
-      <td class="pnl-neg today-pnl-cell">-24.76</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('ISRG')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=ISRG" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/ISRG/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('VRT')">VRT</span></td>
-      <td class="name-cell">Vertiv Holdings</td>
-      <td style="color:var(--muted)">2</td>
-      <td><span class="price-cell price-live">323.39</span></td>
-      <td><span class="ext-price-cell">+7.68 (+2.43%)</span></td>
-      <td style="color:var(--muted)">303.76</td>
-      <td class="mktval-cell">646.78</td>
-      <td class="pnl-pos">+39.26</td>
-      <td><span class="pct-badge pos">+6.46%</span></td>
-      <td class="pnl-pos today-pnl-cell">+15.36</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('VRT')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=VRT" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/VRT/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('RKLB')">RKLB</span></td>
-      <td class="name-cell">Rocket Lab</td>
-      <td style="color:var(--muted)">5</td>
-      <td><span class="price-cell price-live">122.39</span></td>
-      <td><span class="ext-price-cell">-21.09 (-14.70%)</span></td>
-      <td style="color:var(--muted)">42.00</td>
-      <td class="mktval-cell">611.95</td>
-      <td class="pnl-pos">+401.95</td>
-      <td><span class="pct-badge pos">+191.40%</span></td>
-      <td class="pnl-neg today-pnl-cell">-105.45</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('RKLB')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=RKLB" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/RKLB/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('RDW')">RDW</span></td>
-      <td class="name-cell">Redwire</td>
-      <td style="color:var(--muted)">30</td>
-      <td><span class="price-cell price-live">20.68</span></td>
-      <td><span class="ext-price-cell">-3.89 (-15.83%)</span></td>
-      <td style="color:var(--muted)">12.40</td>
-      <td class="mktval-cell">620.40</td>
-      <td class="pnl-pos">+248.40</td>
-      <td><span class="pct-badge pos">+66.77%</span></td>
-      <td class="pnl-neg today-pnl-cell">-116.70</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('RDW')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=RDW" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/RDW/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('MRVL')">MRVL</span></td>
-      <td class="name-cell">邁威爾科技</td>
-      <td style="color:var(--muted)">2</td>
-      <td><span class="price-cell price-live">219.43</span></td>
-      <td><span class="ext-price-cell">+14.43 (+7.04%)</span></td>
-      <td style="color:var(--muted)">58.00</td>
-      <td class="mktval-cell">438.86</td>
-      <td class="pnl-pos">+322.86</td>
-      <td><span class="pct-badge pos">+278.33%</span></td>
-      <td class="pnl-pos today-pnl-cell">+28.86</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('MRVL')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=MRVL" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/MRVL/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('RR')">RR</span></td>
-      <td class="name-cell">Richtech Robotics</td>
-      <td style="color:var(--muted)">100</td>
-      <td><span class="price-cell price-live">3.10</span></td>
-      <td><span class="ext-price-cell">+0.08 (+2.65%)</span></td>
-      <td style="color:var(--muted)">2.74</td>
-      <td class="mktval-cell">310.00</td>
-      <td class="pnl-pos">+36.50</td>
-      <td><span class="pct-badge pos">+13.35%</span></td>
-      <td class="pnl-pos today-pnl-cell">+8.00</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('RR')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=RR" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/RR/options" target="_blank">OPT</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('SERV')">SERV</span></td>
-      <td class="name-cell">Serve Robotics</td>
-      <td style="color:var(--muted)">30</td>
-      <td><span class="price-cell price-live">9.42</span></td>
-      <td><span class="ext-price-cell">+0.07 (+0.75%)</span></td>
-      <td style="color:var(--muted)">11.74</td>
-      <td class="mktval-cell">282.60</td>
-      <td class="pnl-neg">-69.69</td>
-      <td><span class="pct-badge neg">-19.78%</span></td>
-      <td class="pnl-pos today-pnl-cell">+2.10</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('SERV')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=SERV" target="_blank">FV</a>
-          <a class="opt-link" href="https://www.barchart.com/stocks/quotes/SERV/options" target="_blank">OPT</a>
-        </div>
-      </td></tr></tbody>
+      <tbody id="us-tbody"></tbody>
     </table>
   </div>
 
@@ -586,55 +297,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
         <th>佔比</th>
         <th></th>
       </tr></thead>
-      <tbody id="hk-tbody"><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('7709')" style="color:var(--amber)">7709</span></td>
-      <td class="name-cell">南方兩倍做多海力士</td>
-      <td style="color:var(--muted)">200</td>
-      <td class="price-cell ">132.50</td>
-      <td style="color:var(--muted)">15.80</td>
-      <td class="mktval-cell">26,500.00</td>
-      <td class="pnl-pos">+23,340.00</td>
-      <td><span class="pct-badge pos">+738.61%</span></td>
-      <td class="pnl-neu today-pnl-cell">+0.00</td>
-      <td style="color:var(--muted);font-size:11px">46.8%</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('7709')">📈</button>
-          <a class="finviz-link" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=7709" target="_blank">AA</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('2367')" style="color:var(--amber)">2367</span></td>
-      <td class="name-cell">巨子生物</td>
-      <td style="color:var(--muted)">600</td>
-      <td class="price-cell ">30.06</td>
-      <td style="color:var(--muted)">38.00</td>
-      <td class="mktval-cell">18,036.00</td>
-      <td class="pnl-neg">-4,764.00</td>
-      <td><span class="pct-badge neg">-20.89%</span></td>
-      <td class="pnl-pos today-pnl-cell">+1,824.00</td>
-      <td style="color:var(--muted);font-size:11px">31.9%</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('2367')">📈</button>
-          <a class="finviz-link" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=2367" target="_blank">AA</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('9988')" style="color:var(--amber)">9988</span></td>
-      <td class="name-cell">阿里巴巴-W</td>
-      <td style="color:var(--muted)">100</td>
-      <td class="price-cell ">120.90</td>
-      <td style="color:var(--muted)">165.00</td>
-      <td class="mktval-cell">12,090.00</td>
-      <td class="pnl-neg">-4,410.00</td>
-      <td><span class="pct-badge neg">-26.73%</span></td>
-      <td class="pnl-neg today-pnl-cell">-90.00</td>
-      <td style="color:var(--muted);font-size:11px">21.4%</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('9988')">📈</button>
-          <a class="finviz-link" href="https://www.aastocks.com/tc/stocks/quote/detail-quote.aspx?symbol=9988" target="_blank">AA</a>
-        </div>
-      </td></tr></tbody>
+      <tbody id="hk-tbody"></tbody>
     </table>
   </div>
 
@@ -1037,6 +700,5 @@ setInterval(refreshAll,60000);
 renderUS(); renderHK();
 loadUSQuotes(); loadHKQuotes();
 </script>
-
-
-</body></html>
+</body>
+</html>
