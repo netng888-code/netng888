@@ -9,11 +9,11 @@
 
 ### ✅ 核心功能（一直正常）
 - 美股持倉表格（US_HOLDINGS JS array，動態渲染）
-- Finnhub 實時報價（17隻美股，60秒自動刷新）
+- Finnhub 實時報價（18隻美股，60秒自動刷新）
 - 港股報價（Yahoo Finance，CORS 問題，有 manual fallback）
 - 已實現盈虧 banner（綠色滾動條）
 - 今日盈虧 summary cards
-- Flipcharts tab（TradingView iframe，每隻持倉股）
+- Flipcharts tab（TradingView iframe，每隻持倉股，含盤前/盤後）
 - FV / GE 按鈕（Finviz + Google Finance 連結）
 
 ### ✅ Quicklinks Bar（頂部快速連結）
@@ -39,6 +39,11 @@
 - Candle cache：`candleCache[sym]`，同 session 只 fetch 一次
 - Tooltip 定位：`positionTT(badge)` 自動避開視窗邊緣
 
+### ✅ Flipcharts 盤前/盤後（2026-06-10 新增）
+- TradingView widget URL 加入 `&extended_hours=1`
+- 所有持倉股（美股+港股）統一顯示盤前/盤後 K 線及價格標籤
+- **注意**：各股票實際顯示效果取決於 TradingView 數據源授權，部份股票可能仍不完整
+
 ---
 
 ## 已知限制
@@ -52,15 +57,27 @@
 
 ---
 
+## 已知 Bug 記錄及修復
+
+### ⚠️ Flipcharts Symbol Strip 重複顯示（已修復 2026-06-10）
+- **症狀**：Flipcharts 的 symbol chip strip 顯示兩行（42個 chip），點擊 MU 等無反應，←→ 導航失效
+- **根源**：HTML 靜態硬碼了 21 個 chip（舊版殘留），`initFlipcharts()` 執行時再 `appendChild` 一次，共 42 個 chip，index 錯亂
+- **修復**：
+  1. 清空 HTML 靜態 chip，只保留空容器 `<div class="flip-sym-strip" id="flip-sym-strip"></div>`
+  2. `initFlipcharts()` 加入 `strip.innerHTML='';` 雙重保險
+- **教訓**：日後修改 Flipcharts 時，**不可在 HTML 靜態寫 chip**，必須由 JS 動態生成
+
+---
+
 ## 每次更新 CSV 的操作流程
 
 1. 從 Futu 匯出 CSV（持倉保證金綜合帳戶 0193）
 2. 上傳到 Claude Project Files
 3. 告訴 Claude：「請根據最新 CSV 更新 index.html」
 4. Claude 會：
-   - `curl` 讀取 GitHub 上的 index.html
-   - Python `re.sub` 替換 `US_HOLDINGS` JS array
-   - 更新 footer 日期、risk card 文字
+   - `curl` 讀取 GitHub 上最新 index.html（**必須以此為基底，不可用本地快取版本**）
+   - Python 字面字串替換 `US_HOLDINGS` JS array comment 日期
+   - 核對 qty / cost 與 CSV 一致
 5. 下載新 index.html → 上傳 GitHub 替換
 
 ---
@@ -69,9 +86,10 @@
 
 ```
 netng888-code/netng888 (GitHub repo)
-├── index.html          ← 主持倉儀表板
-├── manulife_mpf.html   ← MPF 強積金頁面
-└── mywatchlist.html    ← 自選股 Watchlist
+├── index.html            ← 主持倉儀表板
+├── manulife_mpf.html     ← MPF 強積金頁面
+├── mywatchlist.html      ← 自選股 Watchlist
+└── DASHBOARD_CHANGELOG.md ← 本文件
 ```
 
 ---
@@ -82,24 +100,57 @@ netng888-code/netng888 (GitHub repo)
 ```javascript
 // 美股持倉（由Futu CSV更新，成本價/持倉數量靜態，實時價來自Finnhub）
 const US_HOLDINGS = [
-  { symbol:'GOOGL', name:'谷歌-A',   qty:12, cost:178.40, mktval:0 },
+  { symbol:'MU',    name:'美光科技', qty:7,  cost:557.857, mktval:6352.50, pnl:2447.50, pnlPct:'+62.68%', realized:1623.20, todayPnL:-198.73 },
   // ... 其餘持倉
 ];
 ```
 
 ### Regex anchor（Python 替換用）
 ```python
-# 以中文 comment 行作 anchor
-re.sub(r'(// 美股持倉.*?\n)const US_HOLDINGS = \[.*?\];',
-       replacement, content, flags=re.DOTALL)
+# 以中文 comment 行作 anchor（用字面字串替換，避免 regex 特殊字元問題）
+old = '// ── 美股持倉（由Futu CSV 2026-XX-XX 匯出，按市值降序）────────────────────────'
+new = '// ── 美股持倉（由Futu CSV 2026-YY-YY 匯出，按市值降序）────────────────────────'
+content = content.replace(old, new)
 ```
+
+### Flipcharts TradingView URL 參數（loadChart 函數）
+```javascript
+const url = `https://s.tradingview.com/widgetembed/?frameElementId=tv-chart`
+  + `&symbol=${encodeURIComponent(tvSym)}`
+  + `&interval=${flipInterval}`
+  + `&hidesidetoolbar=0&hidetoptoolbar=0&symboledit=1&saveimage=1`
+  + `&toolbarbg=0f1218`
+  + `&studies=MASimple%40tv-basicstudies%1FMACD%40tv-basicstudies%1FVolume%40tv-basicstudies`
+  + `&theme=dark&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=1&locale=zh_TW&extended_hours=1`;
+```
+
+### Symbol Strip（initFlipcharts 函數）— 重要
+```javascript
+function initFlipcharts(){
+  if(flipInited)return;
+  const strip=document.getElementById('flip-sym-strip');
+  strip.innerHTML='';   // ← 必須保留，防止靜態 HTML 殘留導致重複
+  ALL_SYMS.forEach((sym,i)=>{ ... });
+  ...
+}
+```
+- HTML 中 `<div class="flip-sym-strip" id="flip-sym-strip"></div>` **必須是空的**
+- 不可在 HTML 靜態寫入任何 chip div
 
 ### FINNHUB_KEY
 ```javascript
 const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
 ```
 
----
+### HK Holdings（手動維護）
+```javascript
+// ── 港股持倉（手動維護）
+const HK_HOLDINGS = [
+  { symbol:'7709', yahooSym:'7709.HK', name:'南方兩倍做多海力士', qty:200, cost:15.80,  ... },
+  { symbol:'2367', yahooSym:'2367.HK', name:'巨子生物',           qty:600, cost:38.00,  ... },
+  { symbol:'9988', yahooSym:'9988.HK', name:'阿里巴巴-W',         qty:100, cost:165.00, ... },
+];
+```
 
 ---
 
@@ -135,5 +186,9 @@ const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
 - RDW：30 → 80（大幅加倉）
 - NOK：新加入 100 股 @$13.50
 - GitHub index.html 已於 2026-06-10 更新至此版本
+
+**2026-06-10 技術修復：**
+- Flipcharts symbol strip 重複 bug 修復（清空靜態 HTML chip + JS innerHTML guard）
+- TradingView 加入 `&extended_hours=1`，所有股票統一顯示盤前/盤後
 
 *最後更新：2026-06-10*
