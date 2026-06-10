@@ -44,7 +44,7 @@ header{display:flex;align-items:flex-end;justify-content:space-between;margin-bo
   box-shadow:0 8px 32px rgba(0,0,0,.6);
   pointer-events:none;
 }
-.qlink:hover .qlink-preview{display:block;}
+/* preview shown via JS onmouseover */
 .qlink .qlink-preview iframe{width:200%;height:200%;transform:scale(.5);transform-origin:top left;border:none;pointer-events:none;}
 .qlink-sep{width:1px;height:16px;background:var(--border);margin:0 4px;}
 
@@ -196,16 +196,16 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 <!-- Quick-links bar -->
 <div class="quicklinks-bar">
   <span class="quicklinks-label">快速連結</span>
-  <a class="qlink" href="https://netng888-code.github.io/netng888/manulife_mpf.html" target="_blank">
+  <a class="qlink" href="https://netng888-code.github.io/netng888/manulife_mpf.html" target="_blank" onmouseover="this.querySelector('.qlink-preview').style.display='block'" onmouseout="this.querySelector('.qlink-preview').style.display='none'">
     <span class="qlink-icon">🏦</span> Manulife MPF
-    <div class="qlink-preview">
+    <div class="qlink-preview" style="display: none;">
       <iframe src="index_files/manulife_mpf.htm" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
     </div>
   </a>
   <div class="qlink-sep"></div>
-  <a class="qlink" href="https://netng888-code.github.io/netng888/mywatchlist.html" target="_blank">
+  <a class="qlink" href="https://netng888-code.github.io/netng888/mywatchlist.html" target="_blank" onmouseover="this.querySelector('.qlink-preview').style.display='block'" onmouseout="this.querySelector('.qlink-preview').style.display='none'">
     <span class="qlink-icon">📋</span> My Watchlist
-    <div class="qlink-preview">
+    <div class="qlink-preview" style="display: none;">
       <iframe src="index_files/mywatchlist.htm" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
     </div>
   </a>
@@ -219,9 +219,9 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     <div class="subtitle">帳號 0193 ｜ 持倉保證金綜合帳戶</div>
   </div>
   <div class="header-right">
-    <div id="clock">10:07:37</div>
+    <div id="clock">10:49:27</div>
     <div id="date-str">2026年6月10日週三</div>
-    <div id="market-status" class="market-closed">💤 美市休市 Closed 香港 10:07</div>
+    <div id="market-status" class="market-closed">💤 美市休市 Closed 香港 10:49</div>
   </div>
 </header>
 
@@ -237,12 +237,12 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="summary-grid">
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
-      <div class="summary-value" id="sum-us-mktval">USD 28,175.14</div>
+      <div class="summary-value" id="sum-us-mktval">USD 28,037.36</div>
       <div class="summary-sub" id="sum-us-count">17 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 8,225.83</div>
+      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 8,088.05</div>
       <div class="summary-sub">未計已實現</div>
     </div>
     <div class="summary-card">
@@ -252,16 +252,16 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     </div>
     <div class="summary-card">
       <div class="summary-label">今日盈虧 (美股)</div>
-      <div class="summary-value pnl-neg" id="sum-us-today"> USD 472.85</div>
+      <div class="summary-value pnl-neg" id="sum-us-today"> USD 613.15</div>
       <div class="summary-sub">USD · 實時</div>
     </div>
   </div>
 
   <!-- Status -->
   <div class="status-bar">
-    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">已載入 9/17 個報價</span></div>
+    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">已載入 17/17 個報價</span></div>
     <div class="status-pill">來源: <span style="color:var(--text);margin-left:4px">Finnhub</span></div>
-    <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">10:07:10</span></div>
+    <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">10:48:52</span></div>
     <div class="status-pill" style="margin-left:auto">
       <button onclick="refreshAll()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-family:var(--font-mono);font-size:11px;">↻ 刷新報價</button>
     </div>
@@ -509,13 +509,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('VRT')">VRT</span></td>
       <td class="name-cell">Vertiv Holdings</td>
       <td style="color:var(--muted)">2</td>
-      <td><span class="price-cell">300.51</span></td>
-      <td>—</td>
+      <td><span class="price-cell price-live">289.52</span></td>
+      <td><span class="ext-price-cell">-11.05 (-3.68%)</span></td>
       <td style="color:var(--muted)">303.76</td>
-      <td class="mktval-cell">601.02</td>
-      <td class="pnl-neg">-6.50</td>
-      <td><span class="pct-badge neg">-1.07%</span></td>
-      <td class="pnl-neu today-pnl-cell">+0.00</td>
+      <td class="mktval-cell">579.04</td>
+      <td class="pnl-neg">-28.48</td>
+      <td><span class="pct-badge neg">-4.69%</span></td>
+      <td class="pnl-neg today-pnl-cell">-22.10</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('VRT')">📈</button>
@@ -526,13 +526,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('RDW')">RDW</span></td>
       <td class="name-cell">Redwire</td>
       <td style="color:var(--muted)">30</td>
-      <td><span class="price-cell">18.45</span></td>
-      <td>—</td>
+      <td><span class="price-cell price-live">15.75</span></td>
+      <td><span class="ext-price-cell">-2.82 (-15.19%)</span></td>
       <td style="color:var(--muted)">12.40</td>
-      <td class="mktval-cell">553.50</td>
-      <td class="pnl-pos">+181.50</td>
-      <td><span class="pct-badge pos">+48.79%</span></td>
-      <td class="pnl-neu today-pnl-cell">+0.00</td>
+      <td class="mktval-cell">472.50</td>
+      <td class="pnl-pos">+100.50</td>
+      <td><span class="pct-badge pos">+27.02%</span></td>
+      <td class="pnl-neg today-pnl-cell">-84.60</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('RDW')">📈</button>
@@ -560,13 +560,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('RR')">RR</span></td>
       <td class="name-cell">Richtech Robotics</td>
       <td style="color:var(--muted)">100</td>
-      <td><span class="price-cell">2.41</span></td>
-      <td>—</td>
+      <td><span class="price-cell price-live">2.30</span></td>
+      <td><span class="ext-price-cell">-0.14 (-5.54%)</span></td>
       <td style="color:var(--muted)">2.74</td>
-      <td class="mktval-cell">240.50</td>
-      <td class="pnl-neg">-33.00</td>
-      <td><span class="pct-badge neg">-12.07%</span></td>
-      <td class="pnl-neu today-pnl-cell">+0.00</td>
+      <td class="mktval-cell">230.00</td>
+      <td class="pnl-neg">-43.50</td>
+      <td><span class="pct-badge neg">-15.90%</span></td>
+      <td class="pnl-neg today-pnl-cell">-13.50</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('RR')">📈</button>
@@ -577,13 +577,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('SERV')">SERV</span></td>
       <td class="name-cell">Serve Robotics</td>
       <td style="color:var(--muted)">30</td>
-      <td><span class="price-cell">7.75</span></td>
-      <td>—</td>
+      <td><span class="price-cell price-live">6.94</span></td>
+      <td><span class="ext-price-cell">-0.67 (-8.80%)</span></td>
       <td style="color:var(--muted)">11.74</td>
-      <td class="mktval-cell">232.50</td>
-      <td class="pnl-neg">-119.79</td>
-      <td><span class="pct-badge neg">-34.00%</span></td>
-      <td class="pnl-neu today-pnl-cell">+0.00</td>
+      <td class="mktval-cell">208.20</td>
+      <td class="pnl-neg">-144.09</td>
+      <td><span class="pct-badge neg">-40.90%</span></td>
+      <td class="pnl-neg today-pnl-cell">-20.10</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('SERV')">📈</button>
@@ -741,21 +741,49 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 </div><!-- /container -->
 
 <!-- ── Stock Hover Tooltip (global, repositioned by JS) ── -->
-<div id="stock-tooltip" class="stock-tooltip" style="display: none; left: 32.6667px; top: -112.1px;">
+<div id="stock-tooltip" class="stock-tooltip" style="display: none; left: 32.6667px; top: 3.89999px;">
   <div class="tooltip-header">
     <div>
-      <div class="tooltip-sym" id="tt-sym">AVGO</div>
-      <div class="tooltip-name" id="tt-name">博通</div>
+      <div class="tooltip-sym" id="tt-sym">NVDA</div>
+      <div class="tooltip-name" id="tt-name">英偉達</div>
     </div>
     <div class="tooltip-price-block">
-      <div class="tooltip-price" id="tt-price">392.16</div>
-      <div class="tooltip-chg" id="tt-chg"><span class="pnl-neg">-4.44 (-1.12%)</span></div>
+      <div class="tooltip-price" id="tt-price">208.64</div>
+      <div class="tooltip-chg" id="tt-chg"><span class="pnl-pos">+3.54 (+1.73%)</span></div>
     </div>
   </div>
   <div id="tt-chart-wrap" class="tooltip-chart"><img src="index_files/chart.png" style="width: 100%; height: 130px; object-fit: cover; display: block;" alt="NVDA chart"></div>
   <div class="tooltip-news">
     <div class="tooltip-news-title">📰 最新新聞</div>
-    <div id="tt-news-body"><div class="tooltip-no-news">載入新聞...</div></div>
+    <div id="tt-news-body">
+      <div class="tooltip-news-item">
+        <div class="tooltip-news-dot"></div>
+        <div style="flex:1">
+          <div class="tooltip-news-text">Chips Rebound, Intel Catches A $3 Million-Order Tailwind, And OpenAI Joins The I…</div>
+          <div class="tooltip-news-time">ChartMill · 1小時前</div>
+        </div>
+      </div>
+      <div class="tooltip-news-item">
+        <div class="tooltip-news-dot"></div>
+        <div style="flex:1">
+          <div class="tooltip-news-text">Google's 4-Pronged AI Strategy Could Help it Leapfrog Nvidia to Become the World…</div>
+          <div class="tooltip-news-time">Yahoo · 2小時前</div>
+        </div>
+      </div>
+      <div class="tooltip-news-item">
+        <div class="tooltip-news-dot"></div>
+        <div style="flex:1">
+          <div class="tooltip-news-text">Here’s How Nancy Pelosi Beat the Stock Market and Warren Buffett</div>
+          <div class="tooltip-news-time">Yahoo · 20天前</div>
+        </div>
+      </div>
+      <div class="tooltip-news-item">
+        <div class="tooltip-news-dot"></div>
+        <div style="flex:1">
+          <div class="tooltip-news-text">Deliverance AI emerges from stealth with £6m ARR to build the operating system f…</div>
+          <div class="tooltip-news-time">Yahoo · 2小時前</div>
+        </div>
+      </div></div>
   </div>
   <div class="tooltip-footer">來源：Finnhub · Finviz</div>
 </div>
