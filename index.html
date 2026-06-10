@@ -219,9 +219,9 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     <div class="subtitle">帳號 0193 ｜ 持倉保證金綜合帳戶</div>
   </div>
   <div class="header-right">
-    <div id="clock">14:54:14</div>
+    <div id="clock">20:06:06</div>
     <div id="date-str">2026年6月10日週三</div>
-    <div id="market-status" class="market-closed">💤 美市休市 Closed 香港 14:54</div>
+    <div id="market-status" class="market-pre">🌅 盤前 Pre-Market 香港 20:06</div>
   </div>
 </header>
 
@@ -261,7 +261,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="status-bar">
     <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">已載入 18/18 個報價</span></div>
     <div class="status-pill">來源: <span style="color:var(--text);margin-left:4px">Finnhub</span></div>
-    <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">14:53:38</span></div>
+    <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">20:05:47</span></div>
     <div class="status-pill" style="margin-left:auto">
       <button onclick="refreshAll()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-family:var(--font-mono);font-size:11px;">↻ 刷新報價</button>
     </div>
@@ -702,28 +702,28 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 <div class="tab-content" id="tab-flipcharts">
   <div class="flip-header">
     <div>
-      <div class="flip-title">Flipcharts <span class="flip-sym-label" id="flip-sym-label">GOOGL</span></div>
-      <div style="font-size:11px;color:var(--muted);margin-top:3px" id="flip-name-label">谷歌-A</div>
+      <div class="flip-title">Flipcharts <span class="flip-sym-label" id="flip-sym-label">MRVL</span></div>
+      <div style="font-size:11px;color:var(--muted);margin-top:3px" id="flip-name-label">邁威爾科技</div>
     </div>
     <div style="display:flex;align-items:center;gap:10px;">
       <button class="close-btn" onclick="switchTab('main')">✕ 關閉</button>
       <div class="flip-nav">
         <button class="flip-arrow" id="flip-prev">‹</button>
-        <div class="flip-counter" id="flip-counter">1 / 20</div>
+        <div class="flip-counter" id="flip-counter">5 / 21</div>
         <button class="flip-arrow" id="flip-next">›</button>
       </div>
     </div>
   </div>
 
-  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip active" id="chip-MU">MU</div><div class="flip-sym-chip" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-LITE">LITE</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
+  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip" id="chip-MU">MU</div><div class="flip-sym-chip" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip active" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-LITE">LITE</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
 
   <div class="flip-interval-bar">
     <span>Interval:</span>
-    <button class="interval-btn" data-tv="1">1m</button>
+    <button class="interval-btn active" data-tv="1">1m</button>
     <button class="interval-btn" data-tv="5">5m</button>
     <button class="interval-btn" data-tv="15">15m</button>
     <button class="interval-btn" data-tv="60">1H</button>
-    <button class="interval-btn active" data-tv="D">1D</button>
+    <button class="interval-btn" data-tv="D">1D</button>
     <button class="interval-btn" data-tv="W">1W</button>
     <button class="interval-btn" data-tv="M">1M</button>
   </div>
@@ -733,15 +733,15 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <div class="spin"></div>
       <p style="font-size:12px;color:var(--muted)">載入圖表中...</p>
     </div>
-    <iframe id="tv-chart" allowtransparency="true" frameborder="0" scrolling="no" style="opacity: 1; transition: opacity 0.3s;" src=""></iframe>
+    <iframe id="tv-chart" allowtransparency="true" frameborder="0" scrolling="no" style="opacity: 1; transition: opacity 0.3s;" src="https://s.tradingview.com/widgetembed/?frameElementId=tv-chart&amp;symbol=MRVL&amp;interval=1&amp;hidesidetoolbar=0&amp;hidetoptoolbar=0&amp;symboledit=1&amp;saveimage=1&amp;toolbarbg=0f1218&amp;studies=MASimple%40tv-basicstudies%1FMACD%40tv-basicstudies%1FVolume%40tv-basicstudies&amp;theme=dark&amp;style=1&amp;timezone=America%2FNew_York&amp;withdateranges=1&amp;showpopupbutton=1&amp;locale=zh_TW&amp;extended_hours=1"></iframe>
   </div>
 
   <div class="flip-info-bar" id="flip-info-bar">
-      <div class="flip-info-item"><div class="flip-info-label">現價</div><div class="flip-info-val">363.31</div></div>
-      <div class="flip-info-item"><div class="flip-info-label">成本</div><div class="flip-info-val">178.40</div></div>
-      <div class="flip-info-item"><div class="flip-info-label">持有</div><div class="flip-info-val">12</div></div>
-      <div class="flip-info-item"><div class="flip-info-label">未實盈虧</div><div class="flip-info-val pnl-pos">+2,281.56</div></div>
-      <div class="flip-info-item"><div class="flip-info-label">未實 %</div><div class="flip-info-val pnl-pos">+106.58%</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">現價</div><div class="flip-info-val">266.88</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">成本</div><div class="flip-info-val">238.61</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">持有</div><div class="flip-info-val">10</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">未實盈虧</div><div class="flip-info-val pnl-pos">+225.75</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">未實 %</div><div class="flip-info-val pnl-pos">+9.46%</div></div>
     </div>
 
   <div class="kb-hint">
@@ -751,7 +751,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-06-07 ｜ AVGO加至10股 ｜ MRVL加至5股@197.20 ｜ ASTS已清倉</span>
+  <span>持倉更新：2026-06-10 ｜ AVGO加至10股 ｜ MRVL加至5股@197.20 ｜ ASTS已清倉</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -808,7 +808,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 <script>
 const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
 
-// ── 美股持倉（由Futu CSV 2026-06-07 匯出，按市值降序）────────────────────────
+// ── 美股持倉（由Futu CSV 2026-06-10 匯出，按市值降序）────────────────────────
 const US_HOLDINGS = [
   { symbol:'MU',    name:'美光科技',              qty:7,   cost:557.857,  mktval:6352.50,  pnl:2447.50,  pnlPct:'+62.68%',  realized:1623.20, todayPnL:-198.73 },
   { symbol:'GOOGL', name:'谷歌-A',                qty:12,  cost:178.40,   mktval:4349.28,  pnl:2208.48,  pnlPct:'+103.16%', realized:1776.20, todayPnL:-21.84  },
@@ -1040,6 +1040,7 @@ function initFlipcharts(){
   if(flipInited)return;
   // Build strip
   const strip=document.getElementById('flip-sym-strip');
+  strip.innerHTML='';
   ALL_SYMS.forEach((sym,i)=>{
     const chip=document.createElement('div');
     chip.className='flip-sym-chip'+(i===flipIdx?' active':'');
@@ -1104,7 +1105,7 @@ function loadChart(){
     +`&hidesidetoolbar=0&hidetoptoolbar=0&symboledit=1&saveimage=1`
     +`&toolbarbg=0f1218`
     +`&studies=MASimple%40tv-basicstudies%1FMACD%40tv-basicstudies%1FVolume%40tv-basicstudies`
-    +`&theme=dark&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=1&locale=zh_TW`;
+    +`&theme=dark&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=1&locale=zh_TW&extended_hours=1`;
   iframe.src=url;
   iframe.onload=()=>{loading.style.display='none';iframe.style.opacity='1';iframe.style.transition='opacity .3s';};
   setTimeout(()=>{loading.style.display='none';iframe.style.opacity='1';},5000);
