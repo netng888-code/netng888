@@ -99,6 +99,10 @@ tbody td:nth-child(2){text-align:left;}
 .mktval-cell{font-weight:600;color:#fff;font-feature-settings:'tnum';}
 .pnl-pos{color:var(--green);}
 .pnl-neg{color:var(--red);}
+@keyframes flashUp{0%{background:rgba(0,212,170,.3);}100%{background:transparent;}}
+@keyframes flashDn{0%{background:rgba(255,77,109,.3);}100%{background:transparent;}}
+.flash-up{animation:flashUp .8s ease-out;}
+.flash-dn{animation:flashDn .8s ease-out;}
 .pnl-neu{color:var(--muted);}
 .pct-badge{display:inline-block;padding:2px 7px;border-radius:3px;font-size:11px;font-weight:600;}
 .pct-badge.pos{background:rgba(0,212,170,.12);color:var(--green);}
@@ -219,9 +223,9 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     <div class="subtitle">帳號 0193 ｜ 持倉保證金綜合帳戶</div>
   </div>
   <div class="header-right">
-    <div id="clock">20:06:06</div>
-    <div id="date-str">2026年6月10日週三</div>
-    <div id="market-status" class="market-pre">🌅 盤前 Pre-Market 香港 20:06</div>
+    <div id="clock">06:11:16</div>
+    <div id="date-str">2026年6月12日週五</div>
+    <div id="market-status" class="market-closed">🌙 盤後 After-Hours 香港 06:11</div>
   </div>
 </header>
 
@@ -237,12 +241,12 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="summary-grid">
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
-      <div class="summary-value" id="sum-us-mktval">USD 33,957.19</div>
+      <div class="summary-value" id="sum-us-mktval">USD 34,645.02</div>
       <div class="summary-sub" id="sum-us-count">17 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 8,067.83</div>
+      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 8,755.66</div>
       <div class="summary-sub">未計已實現</div>
     </div>
     <div class="summary-card">
@@ -252,16 +256,17 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     </div>
     <div class="summary-card">
       <div class="summary-label">今日盈虧 (美股)</div>
-      <div class="summary-value pnl-neg" id="sum-us-today"> USD 991.88</div>
+      <div class="summary-value pnl-pos" id="sum-us-today">+ USD 2,007.70</div>
       <div class="summary-sub">USD · 實時</div>
     </div>
   </div>
 
   <!-- Status -->
   <div class="status-bar">
-    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">已載入 18/18 個報價</span></div>
+    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">Finnhub 已載入 18/18 個報價 · 06:10:37</span></div>
     <div class="status-pill">來源: <span style="color:var(--text);margin-left:4px">Finnhub</span></div>
-    <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">20:05:47</span></div>
+    <div class="status-pill" style="color:var(--amber);"><span id="refresh-countdown">次更新 21s</span></div>
+    <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">06:10:37</span></div>
     <div class="status-pill" style="margin-left:auto">
       <button onclick="refreshAll()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-family:var(--font-mono);font-size:11px;">↻ 刷新報價</button>
     </div>
@@ -305,13 +310,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('MU')">MU</span></td>
       <td class="name-cell">美光科技</td>
       <td style="color:var(--muted)">7</td>
-      <td><span class="price-cell price-live">935.89</span></td>
-      <td><span class="ext-price-cell">-13.39 (-1.41%)</span></td>
+      <td><span class="price-cell price-live">995.87</span></td>
+      <td><span class="ext-price-cell">+103.99 (+11.66%)</span></td>
       <td style="color:var(--muted)">557.86</td>
-      <td class="mktval-cell">6,551.23</td>
-      <td class="pnl-pos">+2,646.23</td>
-      <td><span class="pct-badge pos">+67.77%</span></td>
-      <td class="pnl-neg today-pnl-cell">-93.73</td>
+      <td class="mktval-cell">6,971.09</td>
+      <td class="pnl-pos">+3,066.09</td>
+      <td><span class="pct-badge pos">+78.52%</span></td>
+      <td class="pnl-pos today-pnl-cell">+727.93</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('MU')">📈</button>
@@ -322,13 +327,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('GOOGL')">GOOGL</span></td>
       <td class="name-cell">谷歌-A</td>
       <td style="color:var(--muted)">12</td>
-      <td><span class="price-cell price-live">364.26</span></td>
-      <td><span class="ext-price-cell">+0.95 (+0.26%)</span></td>
+      <td><span class="price-cell price-live">357.77</span></td>
+      <td><span class="ext-price-cell">+1.39 (+0.39%)</span></td>
       <td style="color:var(--muted)">178.40</td>
-      <td class="mktval-cell">4,371.12</td>
-      <td class="pnl-pos">+2,230.32</td>
-      <td><span class="pct-badge pos">+104.18%</span></td>
-      <td class="pnl-pos today-pnl-cell">+11.40</td>
+      <td class="mktval-cell">4,293.24</td>
+      <td class="pnl-pos">+2,152.44</td>
+      <td><span class="pct-badge pos">+100.54%</span></td>
+      <td class="pnl-pos today-pnl-cell">+16.68</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('GOOGL')">📈</button>
@@ -339,13 +344,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('AVGO')">AVGO</span></td>
       <td class="name-cell">博通</td>
       <td style="color:var(--muted)">10</td>
-      <td><span class="price-cell price-live">392.16</span></td>
-      <td><span class="ext-price-cell">-4.44 (-1.12%)</span></td>
+      <td><span class="price-cell price-live">385.57</span></td>
+      <td><span class="ext-price-cell">+13.47 (+3.62%)</span></td>
       <td style="color:var(--muted)">375.78</td>
-      <td class="mktval-cell">3,921.60</td>
-      <td class="pnl-pos">+163.78</td>
-      <td><span class="pct-badge pos">+4.36%</span></td>
-      <td class="pnl-neg today-pnl-cell">-44.40</td>
+      <td class="mktval-cell">3,855.70</td>
+      <td class="pnl-pos">+97.88</td>
+      <td><span class="pct-badge pos">+2.60%</span></td>
+      <td class="pnl-pos today-pnl-cell">+134.70</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('AVGO')">📈</button>
@@ -356,13 +361,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('NVDA')">NVDA</span></td>
       <td class="name-cell">英偉達</td>
       <td style="color:var(--muted)">15</td>
-      <td><span class="price-cell price-live">208.19</span></td>
-      <td><span class="ext-price-cell">-0.45 (-0.22%)</span></td>
+      <td><span class="price-cell price-live">204.87</span></td>
+      <td><span class="ext-price-cell">+4.45 (+2.22%)</span></td>
       <td style="color:var(--muted)">148.50</td>
-      <td class="mktval-cell">3,122.85</td>
-      <td class="pnl-pos">+895.35</td>
-      <td><span class="pct-badge pos">+40.20%</span></td>
-      <td class="pnl-neg today-pnl-cell">-6.75</td>
+      <td class="mktval-cell">3,073.05</td>
+      <td class="pnl-pos">+845.55</td>
+      <td><span class="pct-badge pos">+37.96%</span></td>
+      <td class="pnl-pos today-pnl-cell">+66.75</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('NVDA')">📈</button>
@@ -373,13 +378,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('MRVL')">MRVL</span></td>
       <td class="name-cell">邁威爾科技</td>
       <td style="color:var(--muted)">10</td>
-      <td><span class="price-cell price-live">266.88</span></td>
-      <td><span class="ext-price-cell">-21.97 (-7.61%)</span></td>
+      <td><span class="price-cell price-live">280.71</span></td>
+      <td><span class="ext-price-cell">+28.12 (+11.13%)</span></td>
       <td style="color:var(--muted)">238.61</td>
-      <td class="mktval-cell">2,668.80</td>
-      <td class="pnl-pos">+282.75</td>
-      <td><span class="pct-badge pos">+11.85%</span></td>
-      <td class="pnl-neg today-pnl-cell">-219.70</td>
+      <td class="mktval-cell">2,807.10</td>
+      <td class="pnl-pos">+421.05</td>
+      <td><span class="pct-badge pos">+17.65%</span></td>
+      <td class="pnl-pos today-pnl-cell">+281.20</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('MRVL')">📈</button>
@@ -390,13 +395,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('TER')">TER</span></td>
       <td class="name-cell">泰瑞達</td>
       <td style="color:var(--muted)">5</td>
-      <td><span class="price-cell price-live">369.21</span></td>
-      <td><span class="ext-price-cell">-5.48 (-1.46%)</span></td>
+      <td><span class="price-cell price-live">381.40</span></td>
+      <td><span class="ext-price-cell">+33.81 (+9.73%)</span></td>
       <td style="color:var(--muted)">92.00</td>
-      <td class="mktval-cell">1,846.05</td>
-      <td class="pnl-pos">+1,386.05</td>
-      <td><span class="pct-badge pos">+301.32%</span></td>
-      <td class="pnl-neg today-pnl-cell">-27.40</td>
+      <td class="mktval-cell">1,907.00</td>
+      <td class="pnl-pos">+1,447.00</td>
+      <td><span class="pct-badge pos">+314.57%</span></td>
+      <td class="pnl-pos today-pnl-cell">+169.05</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('TER')">📈</button>
@@ -407,13 +412,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('META')">META</span></td>
       <td class="name-cell">Meta Platforms</td>
       <td style="color:var(--muted)">3</td>
-      <td><span class="price-cell price-live">584.59</span></td>
-      <td><span class="ext-price-cell">-0.80 (-0.14%)</span></td>
+      <td><span class="price-cell price-live">568.43</span></td>
+      <td><span class="ext-price-cell">-2.55 (-0.45%)</span></td>
       <td style="color:var(--muted)">606.33</td>
-      <td class="mktval-cell">1,753.77</td>
-      <td class="pnl-neg">-65.23</td>
-      <td><span class="pct-badge neg">-3.59%</span></td>
-      <td class="pnl-neg today-pnl-cell">-2.40</td>
+      <td class="mktval-cell">1,705.29</td>
+      <td class="pnl-neg">-113.71</td>
+      <td><span class="pct-badge neg">-6.25%</span></td>
+      <td class="pnl-neg today-pnl-cell">-7.65</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('META')">📈</button>
@@ -424,13 +429,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('NOK')">NOK</span></td>
       <td class="name-cell">諾基亞</td>
       <td style="color:var(--muted)">100</td>
-      <td><span class="price-cell price-live">13.85</span></td>
-      <td><span class="ext-price-cell">-0.74 (-5.07%)</span></td>
+      <td><span class="price-cell price-live">14.09</span></td>
+      <td><span class="ext-price-cell">+0.69 (+5.15%)</span></td>
       <td style="color:var(--muted)">13.50</td>
-      <td class="mktval-cell">1,385.00</td>
-      <td class="pnl-pos">+35.00</td>
-      <td><span class="pct-badge pos">+2.59%</span></td>
-      <td class="pnl-neg today-pnl-cell">-74.00</td>
+      <td class="mktval-cell">1,409.00</td>
+      <td class="pnl-pos">+59.00</td>
+      <td><span class="pct-badge pos">+4.37%</span></td>
+      <td class="pnl-pos today-pnl-cell">+69.00</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('NOK')">📈</button>
@@ -441,13 +446,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('RDW')">RDW</span></td>
       <td class="name-cell">Redwire</td>
       <td style="color:var(--muted)">80</td>
-      <td><span class="price-cell price-live">15.75</span></td>
-      <td><span class="ext-price-cell">-2.82 (-15.19%)</span></td>
+      <td><span class="price-cell price-live">17.09</span></td>
+      <td><span class="ext-price-cell">+2.22 (+14.93%)</span></td>
       <td style="color:var(--muted)">15.65</td>
-      <td class="mktval-cell">1,260.00</td>
-      <td class="pnl-pos">+8.00</td>
-      <td><span class="pct-badge pos">+0.64%</span></td>
-      <td class="pnl-neg today-pnl-cell">-225.60</td>
+      <td class="mktval-cell">1,367.20</td>
+      <td class="pnl-pos">+115.20</td>
+      <td><span class="pct-badge pos">+9.20%</span></td>
+      <td class="pnl-pos today-pnl-cell">+177.60</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('RDW')">📈</button>
@@ -458,13 +463,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('LEU')">LEU</span></td>
       <td class="name-cell">Centrus Energy</td>
       <td style="color:var(--muted)">8</td>
-      <td><span class="price-cell price-live">156.02</span></td>
-      <td><span class="ext-price-cell">-7.72 (-4.71%)</span></td>
+      <td><span class="price-cell price-live">158.68</span></td>
+      <td><span class="ext-price-cell">+12.07 (+8.23%)</span></td>
       <td style="color:var(--muted)">197.50</td>
-      <td class="mktval-cell">1,248.16</td>
-      <td class="pnl-neg">-331.84</td>
-      <td><span class="pct-badge neg">-21.00%</span></td>
-      <td class="pnl-neg today-pnl-cell">-61.76</td>
+      <td class="mktval-cell">1,269.44</td>
+      <td class="pnl-neg">-310.56</td>
+      <td><span class="pct-badge neg">-19.66%</span></td>
+      <td class="pnl-pos today-pnl-cell">+96.56</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('LEU')">📈</button>
@@ -475,13 +480,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('RKLB')">RKLB</span></td>
       <td class="name-cell">Rocket Lab</td>
       <td style="color:var(--muted)">10</td>
-      <td><span class="price-cell price-live">108.23</span></td>
-      <td><span class="ext-price-cell">-5.42 (-4.77%)</span></td>
+      <td><span class="price-cell price-live">114.78</span></td>
+      <td><span class="ext-price-cell">+9.73 (+9.26%)</span></td>
       <td style="color:var(--muted)">76.00</td>
-      <td class="mktval-cell">1,082.30</td>
-      <td class="pnl-pos">+322.30</td>
-      <td><span class="pct-badge pos">+42.41%</span></td>
-      <td class="pnl-neg today-pnl-cell">-54.20</td>
+      <td class="mktval-cell">1,147.80</td>
+      <td class="pnl-pos">+387.80</td>
+      <td><span class="pct-badge pos">+51.03%</span></td>
+      <td class="pnl-pos today-pnl-cell">+97.30</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('RKLB')">📈</button>
@@ -492,13 +497,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('OKLO')">OKLO</span></td>
       <td class="name-cell">Oklo Inc</td>
       <td style="color:var(--muted)">20</td>
-      <td><span class="price-cell price-live">56.48</span></td>
-      <td><span class="ext-price-cell">-2.46 (-4.17%)</span></td>
+      <td><span class="price-cell price-live">57.86</span></td>
+      <td><span class="ext-price-cell">+3.84 (+7.11%)</span></td>
       <td style="color:var(--muted)">21.07</td>
-      <td class="mktval-cell">1,129.60</td>
-      <td class="pnl-pos">+708.26</td>
-      <td><span class="pct-badge pos">+168.10%</span></td>
-      <td class="pnl-neg today-pnl-cell">-49.20</td>
+      <td class="mktval-cell">1,157.20</td>
+      <td class="pnl-pos">+735.86</td>
+      <td><span class="pct-badge pos">+174.65%</span></td>
+      <td class="pnl-pos today-pnl-cell">+76.80</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('OKLO')">📈</button>
@@ -509,13 +514,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('PLTR')">PLTR</span></td>
       <td class="name-cell">Palantir</td>
       <td style="color:var(--muted)">7</td>
-      <td><span class="price-cell price-live">132.07</span></td>
-      <td><span class="ext-price-cell">-4.40 (-3.22%)</span></td>
+      <td><span class="price-cell price-live">131.08</span></td>
+      <td><span class="ext-price-cell">+0.87 (+0.67%)</span></td>
       <td style="color:var(--muted)">124.34</td>
-      <td class="mktval-cell">924.49</td>
-      <td class="pnl-pos">+54.15</td>
-      <td><span class="pct-badge pos">+6.22%</span></td>
-      <td class="pnl-neg today-pnl-cell">-30.80</td>
+      <td class="mktval-cell">917.56</td>
+      <td class="pnl-pos">+47.22</td>
+      <td><span class="pct-badge pos">+5.42%</span></td>
+      <td class="pnl-pos today-pnl-cell">+6.09</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('PLTR')">📈</button>
@@ -526,13 +531,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('ISRG')">ISRG</span></td>
       <td class="name-cell">直覺外科公司</td>
       <td style="color:var(--muted)">2</td>
-      <td><span class="price-cell price-live">426.61</span></td>
-      <td><span class="ext-price-cell">+8.00 (+1.91%)</span></td>
+      <td><span class="price-cell price-live">412.90</span></td>
+      <td><span class="ext-price-cell">+0.88 (+0.21%)</span></td>
       <td style="color:var(--muted)">453.10</td>
-      <td class="mktval-cell">853.22</td>
-      <td class="pnl-neg">-52.98</td>
-      <td><span class="pct-badge neg">-5.85%</span></td>
-      <td class="pnl-pos today-pnl-cell">+16.00</td>
+      <td class="mktval-cell">825.80</td>
+      <td class="pnl-neg">-80.40</td>
+      <td><span class="pct-badge neg">-8.87%</span></td>
+      <td class="pnl-pos today-pnl-cell">+1.76</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('ISRG')">📈</button>
@@ -543,13 +548,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('LITE')">LITE</span></td>
       <td class="name-cell">Lumentum</td>
       <td style="color:var(--muted)">1</td>
-      <td><span class="price-cell price-live">821.76</span></td>
-      <td><span class="ext-price-cell">-73.64 (-8.22%)</span></td>
+      <td><span class="price-cell price-live">889.59</span></td>
+      <td><span class="ext-price-cell">+36.33 (+4.26%)</span></td>
       <td style="color:var(--muted)">820.00</td>
-      <td class="mktval-cell">821.76</td>
-      <td class="pnl-pos">+1.76</td>
-      <td><span class="pct-badge pos">+0.21%</span></td>
-      <td class="pnl-neg today-pnl-cell">-73.64</td>
+      <td class="mktval-cell">889.59</td>
+      <td class="pnl-pos">+69.59</td>
+      <td><span class="pct-badge pos">+8.49%</span></td>
+      <td class="pnl-pos today-pnl-cell">+36.33</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('LITE')">📈</button>
@@ -560,13 +565,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('VRT')">VRT</span></td>
       <td class="name-cell">Vertiv Holdings</td>
       <td style="color:var(--muted)">2</td>
-      <td><span class="price-cell price-live">289.52</span></td>
-      <td><span class="ext-price-cell">-11.05 (-3.68%)</span></td>
+      <td><span class="price-cell price-live">297.88</span></td>
+      <td><span class="ext-price-cell">+16.90 (+6.01%)</span></td>
       <td style="color:var(--muted)">303.76</td>
-      <td class="mktval-cell">579.04</td>
-      <td class="pnl-neg">-28.48</td>
-      <td><span class="pct-badge neg">-4.69%</span></td>
-      <td class="pnl-neg today-pnl-cell">-22.10</td>
+      <td class="mktval-cell">595.76</td>
+      <td class="pnl-neg">-11.76</td>
+      <td><span class="pct-badge neg">-1.94%</span></td>
+      <td class="pnl-pos today-pnl-cell">+33.80</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('VRT')">📈</button>
@@ -578,12 +583,12 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td class="name-cell">Richtech Robotics</td>
       <td style="color:var(--muted)">100</td>
       <td><span class="price-cell price-live">2.30</span></td>
-      <td><span class="ext-price-cell">-0.14 (-5.54%)</span></td>
+      <td><span class="ext-price-cell">+0.10 (+4.55%)</span></td>
       <td style="color:var(--muted)">2.74</td>
       <td class="mktval-cell">230.00</td>
       <td class="pnl-neg">-43.50</td>
       <td><span class="pct-badge neg">-15.90%</span></td>
-      <td class="pnl-neg today-pnl-cell">-13.50</td>
+      <td class="pnl-pos today-pnl-cell">+10.00</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('RR')">📈</button>
@@ -594,13 +599,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td><span class="sym-badge" onclick="openFlipTo('SERV')">SERV</span></td>
       <td class="name-cell">Serve Robotics</td>
       <td style="color:var(--muted)">30</td>
-      <td><span class="price-cell price-live">6.94</span></td>
-      <td><span class="ext-price-cell">-0.67 (-8.80%)</span></td>
+      <td><span class="price-cell price-live">7.44</span></td>
+      <td><span class="ext-price-cell">+0.46 (+6.59%)</span></td>
       <td style="color:var(--muted)">11.74</td>
-      <td class="mktval-cell">208.20</td>
-      <td class="pnl-neg">-144.09</td>
-      <td><span class="pct-badge neg">-40.90%</span></td>
-      <td class="pnl-neg today-pnl-cell">-20.10</td>
+      <td class="mktval-cell">223.20</td>
+      <td class="pnl-neg">-129.09</td>
+      <td><span class="pct-badge neg">-36.64%</span></td>
+      <td class="pnl-pos today-pnl-cell">+13.80</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('SERV')">📈</button>
@@ -702,20 +707,20 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 <div class="tab-content" id="tab-flipcharts">
   <div class="flip-header">
     <div>
-      <div class="flip-title">Flipcharts <span class="flip-sym-label" id="flip-sym-label">MRVL</span></div>
-      <div style="font-size:11px;color:var(--muted);margin-top:3px" id="flip-name-label">邁威爾科技</div>
+      <div class="flip-title">Flipcharts <span class="flip-sym-label" id="flip-sym-label">GOOGL</span></div>
+      <div style="font-size:11px;color:var(--muted);margin-top:3px" id="flip-name-label">谷歌-A</div>
     </div>
     <div style="display:flex;align-items:center;gap:10px;">
       <button class="close-btn" onclick="switchTab('main')">✕ 關閉</button>
       <div class="flip-nav">
         <button class="flip-arrow" id="flip-prev">‹</button>
-        <div class="flip-counter" id="flip-counter">5 / 21</div>
+        <div class="flip-counter" id="flip-counter">2 / 21</div>
         <button class="flip-arrow" id="flip-next">›</button>
       </div>
     </div>
   </div>
 
-  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip" id="chip-MU">MU</div><div class="flip-sym-chip" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip active" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-LITE">LITE</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
+  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip" id="chip-MU">MU</div><div class="flip-sym-chip active" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-LITE">LITE</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
 
   <div class="flip-interval-bar">
     <span>Interval:</span>
@@ -733,15 +738,15 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <div class="spin"></div>
       <p style="font-size:12px;color:var(--muted)">載入圖表中...</p>
     </div>
-    <iframe id="tv-chart" allowtransparency="true" frameborder="0" scrolling="no" style="opacity: 1; transition: opacity 0.3s;" src="https://s.tradingview.com/widgetembed/?frameElementId=tv-chart&amp;symbol=MRVL&amp;interval=1&amp;hidesidetoolbar=0&amp;hidetoptoolbar=0&amp;symboledit=1&amp;saveimage=1&amp;toolbarbg=0f1218&amp;studies=MASimple%40tv-basicstudies%1FMACD%40tv-basicstudies%1FVolume%40tv-basicstudies&amp;theme=dark&amp;style=1&amp;timezone=America%2FNew_York&amp;withdateranges=1&amp;showpopupbutton=1&amp;locale=zh_TW&amp;extended_hours=1"></iframe>
+    <iframe id="tv-chart" allowtransparency="true" frameborder="0" scrolling="no" style="opacity: 1; transition: opacity 0.3s;" src="index_files/a_003.htm"></iframe>
   </div>
 
   <div class="flip-info-bar" id="flip-info-bar">
-      <div class="flip-info-item"><div class="flip-info-label">現價</div><div class="flip-info-val">266.88</div></div>
-      <div class="flip-info-item"><div class="flip-info-label">成本</div><div class="flip-info-val">238.61</div></div>
-      <div class="flip-info-item"><div class="flip-info-label">持有</div><div class="flip-info-val">10</div></div>
-      <div class="flip-info-item"><div class="flip-info-label">未實盈虧</div><div class="flip-info-val pnl-pos">+225.75</div></div>
-      <div class="flip-info-item"><div class="flip-info-label">未實 %</div><div class="flip-info-val pnl-pos">+9.46%</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">現價</div><div class="flip-info-val">357.77</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">成本</div><div class="flip-info-val">178.40</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">持有</div><div class="flip-info-val">12</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">未實盈虧</div><div class="flip-info-val pnl-pos">+2,208.48</div></div>
+      <div class="flip-info-item"><div class="flip-info-label">未實 %</div><div class="flip-info-val pnl-pos">+103.16%</div></div>
     </div>
 
   <div class="kb-hint">
@@ -893,19 +898,23 @@ async function loadUSQuotes(){
   await Promise.all(syms.map(async sym=>{
     const d=await fetchFinnhub(sym);
     if(d){
+      const prev=liveUS[sym];
       liveUS[sym]={
         price:d.c, open:d.o, high:d.h, low:d.l,
         prevClose:d.pc,
         change:d.c-d.pc,
         changePct:((d.c-d.pc)/d.pc*100),
-        isLive:true
+        isLive:true,
+        flash: prev ? (d.c > prev.price ? 'up' : d.c < prev.price ? 'dn' : null) : null
       };
       loaded++;
     }
   }));
-  setUSStatus(loaded>0,'已載入 '+loaded+'/'+syms.length+' 個報價');
-  document.getElementById('last-updated').textContent=new Date().toLocaleTimeString('zh-HK',{hour12:false});
+  const ts=new Date().toLocaleTimeString('zh-HK',{hour12:false});
+  setUSStatus(loaded>0,'Finnhub 已載入 '+loaded+'/'+syms.length+' 個報價 · '+ts);
+  document.getElementById('last-updated').textContent=ts;
   renderUS();
+  startCountdown();
 }
 
 async function loadHKQuotes(){
@@ -951,7 +960,8 @@ function renderUS(){
     totalPnl+=pnl;
     totalToday+=todayChg;
 
-    const priceDisplay=live?`<span class="price-cell price-live">${fmt(price)}</span>`:`<span class="price-cell">${fmt(price)}</span>`;
+    const flashCls=live&&live.flash?` class="flash-${live.flash}"`:'';
+    const priceDisplay=live?`<span class="price-cell price-live"${flashCls}>${fmt(price)}</span>`:`<span class="price-cell">${fmt(price)}</span>`;
     // Extended hours — Finnhub /quote has dp (pre), ap (post) fields via premium; basic gives c only
     // We'll show today's change as proxy
     const extDisplay=live?`<span class="ext-price-cell">${sign(live.change)}${fmt(live.change,2)} (${sign(live.changePct)}${fmt(live.changePct,2)}%)</span>`:'—';
@@ -1135,6 +1145,15 @@ document.addEventListener('keydown',e=>{
 // ── Refresh ────────────────────────────────────────────────────────────────────
 function refreshAll(){loadUSQuotes();loadHKQuotes();}
 setInterval(refreshAll,60000);
+
+// ── Countdown to next refresh ─────────────────────────────────────────────────
+let countdownSec=60;
+function startCountdown(){countdownSec=60;}
+setInterval(()=>{
+  if(countdownSec>0) countdownSec--;
+  const el=document.getElementById('refresh-countdown');
+  if(el) el.textContent='次更新 '+countdownSec+'s';
+},1000);
 
 // ── Init ───────────────────────────────────────────────────────────────────────
 renderUS(); renderHK();
