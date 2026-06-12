@@ -1,702 +1,931 @@
 <!DOCTYPE html>
-<html lang="zh-HK"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="zh-HK">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>我的 MPF 帳戶 | 宏利環球精選強積金</title>
+<title>宏利環球精選 MPF — 我的帳戶</title>
 <style>
-:root {
-  --green:#0F6E56;--green2:#1D9E75;--green-l:#E1F5EE;
-  --blue:#185FA5;--blue-l:#E6F1FB;
-  --amber:#BA7517;--amber-l:#FAEEDA;
-  --red:#A32D2D;--red-l:#FCEBEB;
-  --gray:#5F5E5A;--gray-l:#F1EFE8;--bg:#F5F4F0;
-  --txt:#1a1a1a;--muted:#6b6b68;--card:#fff;--border:rgba(0,0,0,0.09);
-  --r:12px;
-}
-@media(prefers-color-scheme:dark){
-  :root{--bg:#181816;--card:#232320;--txt:#e6e4de;--muted:#9a9990;--border:rgba(255,255,255,0.09);
-  --green-l:#04342C;--blue-l:#042C53;--amber-l:#412402;--red-l:#501313;--gray-l:#2C2C2A;}
-}
-*{box-sizing:border-box;margin:0;padding:0;}
-body{font-family:-apple-system,BlinkMacSystemFont,'PingFang HK','PingFang TC',sans-serif;background:var(--bg);color:var(--txt);font-size:15px;line-height:1.6;}
+  :root{
+    --bg:#f4f6f5; --bg-card:#ffffff; --bg-sunken:#eef2f0;
+    --ink:#10231c; --ink-soft:#52685f; --ink-faint:#94a59d;
+    --line:#dde6e1; --line-soft:#e9efec;
+    --teal:#0b6e5e; --teal-deep:#06433a; --teal-soft:#e3f2ee;
+    --blue:#2f5d8a; --blue-soft:#e7eef6;
+    --gold:#b8862f; --gold-soft:#f6efe1;
+    --plum:#6c5b9e; --plum-soft:#ece8f6;
+    --up:#1a7a52; --down:#bb4b3e; --up-soft:#e6f3ec; --down-soft:#fbece9;
+    --shadow:0 1px 2px rgba(16,35,28,.04), 0 8px 24px -16px rgba(16,35,28,.18);
+    --radius:14px; --radius-sm:9px;
+    --serif:'Source Serif 4','Noto Serif TC',Georgia,'Times New Roman',serif;
+    --sans:'Inter','Noto Sans TC',-apple-system,'PingFang TC','Microsoft JhengHei',sans-serif;
+    --mono:'JetBrains Mono','SF Mono',ui-monospace,monospace;
+  }
+  @media(prefers-color-scheme:dark){
+    :root{
+      --bg:#0e1714; --bg-card:#16221d; --bg-sunken:#0e1714;
+      --ink:#e8f0ec; --ink-soft:#9fb3ab; --ink-faint:#5e7269;
+      --line:#28362f; --line-soft:#1f2b25;
+      --teal:#3fb89a; --teal-deep:#9be8d2; --teal-soft:#1a3530;
+      --blue:#7fb1e0; --blue-soft:#1c2c3c;
+      --gold:#e0b25c; --gold-soft:#352a17;
+      --plum:#b4a3e0; --plum-soft:#2a2438;
+      --up:#4fcf94; --down:#ef7e6f; --up-soft:#16312a; --down-soft:#3a201d;
+      --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -16px rgba(0,0,0,.5);
+    }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:var(--sans); background:var(--bg); color:var(--ink);
+    line-height:1.5; -webkit-font-smoothing:antialiased; padding-bottom:60px;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 
-/* HERO */
-.hero{background:linear-gradient(135deg,#0a5c48 0%,#0F6E56 60%,#1a8a6b 100%);color:#fff;padding:24px 20px 28px;}
-.hero-label{font-size:12px;opacity:.75;letter-spacing:.5px;margin-bottom:4px;}
-.hero-id{font-size:11px;opacity:.6;margin-bottom:20px;}
-.hero-total{font-size:38px;font-weight:700;letter-spacing:-.5px;line-height:1;}
-.hero-gain{display:inline-flex;align-items:center;gap:5px;margin-top:8px;background:rgba(255,255,255,.15);border-radius:20px;padding:4px 12px;font-size:14px;font-weight:500;}
-.hero-date{font-size:11px;opacity:.6;margin-top:10px;}
+  /* ============ HERO ============ */
+  .hero{
+    background:linear-gradient(150deg,var(--teal-deep) 0%,var(--teal) 100%);
+    color:#eafaf3; padding:34px 0 30px; position:relative; overflow:hidden;
+  }
+  .hero::before{
+    content:''; position:absolute; right:-120px; top:-160px; width:420px; height:420px;
+    border-radius:50%; border:1px solid rgba(255,255,255,.08);
+  }
+  .hero::after{
+    content:''; position:absolute; right:-40px; top:-60px; width:280px; height:280px;
+    border-radius:50%; border:1px solid rgba(255,255,255,.06);
+  }
+  .hero-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;position:relative;z-index:1}
+  .hero-id{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:rgba(234,250,243,.6)}
+  .hero-plan{font-size:13px;color:rgba(234,250,243,.78);margin-top:4px}
+  .hero-asof{font-family:var(--mono);font-size:11px;color:rgba(234,250,243,.55);text-align:right}
+  .hero-main{margin-top:22px;position:relative;z-index:1}
+  .hero-label{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:rgba(234,250,243,.55);margin-bottom:6px}
+  .hero-balance{font-family:var(--serif);font-size:56px;font-weight:600;letter-spacing:-.01em;line-height:1}
+  .hero-balance sup{font-size:24px;font-weight:500;vertical-align:.6em;margin-right:2px;opacity:.7}
+  .hero-meta{display:flex;align-items:center;gap:10px;margin-top:12px;flex-wrap:wrap}
+  .pill{
+    display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:99px;
+    font-size:12.5px;font-weight:600;font-family:var(--mono);
+  }
+  .pill-up{background:rgba(255,255,255,.14);color:#c8f3e1}
+  .pill-status{background:rgba(255,255,255,.10);color:rgba(234,250,243,.85);font-weight:500;font-family:var(--sans)}
+  .pill-amber{background:rgba(247,205,120,.18);color:#ffe6ad}
 
-/* PORTFOLIO BAR */
-.port-section{background:var(--card);border-bottom:1px solid var(--border);padding:16px 20px;}
-.port-title{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px;}
-.port-bar{height:10px;border-radius:20px;display:flex;overflow:hidden;gap:2px;margin-bottom:14px;}
-.bar-seg{height:100%;border-radius:3px;transition:width .5s ease;}
-.port-legend{display:flex;flex-direction:column;gap:8px;}
-.legend-row{display:flex;align-items:center;justify-content:space-between;font-size:13px;}
-.legend-left{display:flex;align-items:center;gap:8px;}
-.legend-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
-.legend-name{font-weight:500;}
-.legend-code{font-size:11px;color:var(--muted);margin-left:4px;}
-.legend-amt{font-weight:600;}
-.legend-pct{font-size:11px;color:var(--muted);margin-left:6px;}
+  /* allocation strip in hero */
+  .alloc-strip{margin-top:24px;position:relative;z-index:1}
+  .alloc-strip-label{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(234,250,243,.5);margin-bottom:10px}
+  .alloc-bar{display:flex;height:14px;border-radius:8px;overflow:hidden;gap:2px;background:rgba(255,255,255,.06)}
+  .alloc-seg{height:100%;border-radius:6px;transition:opacity .2s}
+  .alloc-legend{display:flex;gap:22px;margin-top:12px;flex-wrap:wrap}
+  .alloc-legend-item{display:flex;align-items:center;gap:7px;font-size:12.5px;color:rgba(234,250,243,.85)}
+  .alloc-legend-item b{font-family:var(--mono);font-weight:700;color:#fff}
+  .alloc-dot{width:9px;height:9px;border-radius:3px;flex-shrink:0}
 
-/* TABS */
-.tabs{background:var(--card);border-bottom:1px solid var(--border);display:flex;overflow-x:auto;scrollbar-width:none;position:sticky;top:0;z-index:10;}
-.tabs::-webkit-scrollbar{display:none;}
-.tab{padding:13px 16px;font-size:13px;font-weight:500;color:var(--muted);white-space:nowrap;cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;}
-.tab.active{color:var(--green);border-bottom-color:var(--green);}
-.tab:hover:not(.active){color:var(--txt);}
+  /* ============ NAV ============ */
+  .nav{
+    display:flex;gap:4px;margin:24px 0 18px;border-bottom:1px solid var(--line);
+    overflow-x:auto;
+  }
+  .nav-tab{
+    font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--ink-faint);
+    background:none;border:none;padding:10px 16px;cursor:pointer;white-space:nowrap;
+    border-bottom:2.5px solid transparent;transition:color .15s,border-color .15s;
+    display:flex;align-items:center;gap:7px;
+  }
+  .nav-tab:hover{color:var(--ink-soft)}
+  .nav-tab.active{color:var(--teal);border-bottom-color:var(--teal)}
+  .nav-tab .ico{font-size:15px;opacity:.85}
 
-.container{max-width:900px;margin:0 auto;padding:16px;}
+  .view{display:none}
+  .view.active{display:block;animation:fadeIn .35s ease both}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 
-/* MY FUNDS CARDS */
-.my-funds-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:20px;}
-.fund-card{background:var(--card);border-radius:var(--r);border:1px solid var(--border);padding:16px;position:relative;overflow:hidden;}
-.fund-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:4px 0 0 4px;}
-.fc-japan::before{background:#1D9E75;}
-.fc-namerica::before{background:#185FA5;}
-.fc-conservative::before{background:#BA7517;}
-.fc-intbond::before{background:#888780;}
-.fc-europe::before{background:#D4537E;}
-.card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;}
-.card-name-zh{font-weight:600;font-size:14px;line-height:1.3;}
-.card-name-en{font-size:11px;color:var(--muted);margin-top:2px;}
-.card-value{font-size:22px;font-weight:700;margin:8px 0 4px;}
-.card-price{font-size:11px;color:var(--muted);}
-.card-perfs{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap;}
-.perf-pill{background:var(--gray-l);border-radius:6px;padding:4px 8px;font-size:11px;}
-.perf-pill .pl{color:var(--muted);display:block;font-size:10px;}
-.perf-pill .pv{font-weight:600;}
-.pos{color:var(--green);}
-.neg{color:var(--red);}
-.zero-card{opacity:.55;}
+  /* ============ SECTION HEADERS ============ */
+  .section-head{display:flex;justify-content:space-between;align-items:baseline;margin:30px 0 14px;flex-wrap:wrap;gap:8px}
+  .section-title{font-family:var(--serif);font-size:20px;font-weight:600}
+  .section-sub{font-size:12.5px;color:var(--ink-faint)}
+  .section-head:first-child{margin-top:6px}
 
-/* SECTION */
-.sec-hd{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin:20px 0 10px;}
+  /* ============ TRANSITION BANNER ============ */
+  .transition-banner{
+    background:var(--gold-soft);border:1px solid color-mix(in srgb,var(--gold) 35%,transparent);
+    border-radius:var(--radius); padding:16px 18px; margin-bottom:6px;
+    display:flex; gap:14px; align-items:flex-start;
+  }
+  .transition-banner .ico{font-size:22px;line-height:1;flex-shrink:0;margin-top:1px}
+  .transition-banner h3{font-size:14px;font-weight:700;color:var(--gold);margin-bottom:5px}
+  .transition-banner p{font-size:13px;color:var(--ink-soft);line-height:1.65}
+  .transition-banner .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+  .micro-tag{
+    font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.02em;
+    padding:3px 8px;border-radius:5px;background:var(--bg-card);color:var(--ink-soft);
+    border:1px solid var(--line);
+  }
 
-/* PERF TABLE */
-.fund-table{width:100%;border-collapse:collapse;background:var(--card);border-radius:var(--r);overflow:hidden;border:1px solid var(--border);font-size:13px;}
-.fund-table th{background:var(--gray-l);padding:9px 11px;text-align:left;font-weight:600;font-size:11px;color:var(--muted);white-space:nowrap;}
-.fund-table th.r,.fund-table td.r{text-align:right;}
-.fund-table td{padding:8px 11px;border-top:1px solid var(--border);}
-.fund-table tr:hover td{background:var(--bg);}
-.fz{font-weight:500;}
-.fen{font-size:11px;color:var(--muted);margin-top:1px;}
-.fcode{font-size:10px;color:var(--muted);font-family:monospace;}
-.pp{color:var(--green);font-weight:500;}
-.pn{color:var(--red);font-weight:500;}
-.pz{color:var(--muted);}
-.rbadge{display:inline-block;width:21px;height:21px;border-radius:50%;font-size:10px;font-weight:700;text-align:center;line-height:21px;}
-.r1{background:var(--green-l);color:var(--green);}
-.r2{background:var(--blue-l);color:var(--blue);}
-.r3{background:#C0DD97;color:#27500A;}
-.r4{background:var(--amber-l);color:var(--amber);}
-.r5{background:#F5C4B3;color:#993C1D;}
-.r6{background:#F7C1C1;color:var(--red);}
-.r7{background:var(--red-l);color:var(--red);}
-@media(prefers-color-scheme:dark){
-  .r3{background:#173404;color:#C0DD97;}
-}
-.tag{display:inline-block;padding:2px 7px;border-radius:20px;font-size:10px;font-weight:500;white-space:nowrap;}
-.te{background:var(--blue-l);color:var(--blue);}
-.tm{background:var(--amber-l);color:var(--amber);}
-.tb{background:var(--green-l);color:var(--green);}
-.tmm{background:var(--gray-l);color:var(--gray);}
-.tg{background:var(--red-l);color:var(--red);}
-.td{background:#EEF2FF;color:#3730A3;}
-@media(prefers-color-scheme:dark){.td{background:#1E1B4B;color:#A5B4FC;}}
+  /* ============ FUND CARDS GRID ============ */
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .grid-3{grid-template-columns:repeat(3,1fr)}
+  @media(max-width:760px){.grid,.grid-3{grid-template-columns:1fr}}
 
-/* DIST TABLE */
-.dist-table{width:100%;border-collapse:collapse;background:var(--card);border-radius:var(--r);border:1px solid var(--border);font-size:13px;overflow:hidden;}
-.dist-table th{background:var(--gray-l);padding:8px 12px;font-weight:600;font-size:11px;color:var(--muted);}
-.dist-table th.r,.dist-table td.r{text-align:right;}
-.dist-table td{padding:7px 12px;border-top:1px solid var(--border);}
+  .fund-card{
+    background:var(--bg-card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:18px 20px; box-shadow:var(--shadow); position:relative; overflow:hidden;
+  }
+  .fund-card::before{
+    content:''; position:absolute; left:0; top:0; bottom:0; width:4px;
+  }
+  .fund-card.c-na::before{background:var(--blue)}
+  .fund-card.c-jp::before{background:var(--up)}
+  .fund-card.c-cons::before{background:var(--gold)}
+  .fund-card.c-bond::before{background:var(--plum)}
+  .fund-card.dim{opacity:.55}
+  .fund-card.dim::before{background:var(--ink-faint)}
 
-.chart-wrap{position:relative;width:100%;height:240px;margin:14px 0;}
+  .fund-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px}
+  .fund-name{font-size:15px;font-weight:700;line-height:1.35}
+  .fund-en{font-size:11px;color:var(--ink-faint);margin-top:2px;font-family:var(--sans)}
+  .fund-code{
+    font-family:var(--mono);font-size:10.5px;font-weight:700;color:var(--ink-faint);
+    background:var(--bg-sunken); padding:2px 7px;border-radius:5px;white-space:nowrap;flex-shrink:0;margin-left:10px;
+  }
+  .fund-value{font-family:var(--serif);font-size:28px;font-weight:600;margin:10px 0 2px}
+  .fund-value.zero{color:var(--ink-faint);font-size:24px}
+  .fund-sub{font-size:11.5px;color:var(--ink-faint);font-family:var(--mono)}
+  .fund-weight{
+    display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:700;
+    color:var(--teal);background:var(--teal-soft);padding:3px 9px;border-radius:99px;margin-top:8px;
+  }
+  .fund-weight .arrow{font-family:var(--mono);font-size:10px;color:var(--ink-faint);font-weight:500}
 
-.notice{background:var(--amber-l);border-left:3px solid var(--amber);border-radius:0 8px 8px 0;padding:11px 13px;font-size:12px;color:var(--muted);margin-top:14px;}
-.notice strong{color:var(--txt);display:block;margin-bottom:3px;}
+  .perf-row{display:flex;gap:6px;margin-top:12px;flex-wrap:wrap}
+  .perf-chip{
+    font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 8px;border-radius:6px;
+    display:flex;flex-direction:column;align-items:center;gap:1px;min-width:54px;flex:1;
+  }
+  .perf-chip .yr{font-size:9px;color:var(--ink-faint);font-weight:600;letter-spacing:.04em}
+  .perf-up{background:var(--up-soft);color:var(--up)}
+  .perf-down{background:var(--down-soft);color:var(--down)}
 
-.tab-content{display:none;}
-.tab-content.active{display:block;}
+  .fund-foot{
+    margin-top:14px; padding-top:12px; border-top:1px solid var(--line-soft);
+    font-size:11.5px; color:var(--ink-soft); line-height:1.6;
+  }
+  .fund-foot b{color:var(--ink)}
 
-.search-bar{background:var(--card);border-radius:var(--r);border:1px solid var(--border);display:flex;align-items:center;gap:9px;padding:9px 13px;margin-bottom:12px;}
-.search-bar input{border:none;outline:none;flex:1;font-size:14px;background:transparent;color:var(--txt);}
-.filter-row{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:11px;}
-.fbtn{padding:5px 11px;border-radius:20px;font-size:12px;font-weight:500;border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer;transition:all .15s;}
-.fbtn.active{background:var(--green);color:#fff;border-color:var(--green);}
-.fbtn:hover:not(.active){border-color:var(--green);color:var(--green);}
+  /* ============ TARGET ALLOCATION TABLE (account tab) ============ */
+  .alloc-table{
+    background:var(--bg-card); border:1px solid var(--line); border-radius:var(--radius);
+    overflow:hidden; box-shadow:var(--shadow);
+  }
+  .alloc-table table{width:100%;border-collapse:collapse}
+  .alloc-table th{
+    text-align:left; font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--ink-faint); font-weight:600; padding:12px 16px; background:var(--bg-sunken);
+    border-bottom:1px solid var(--line);
+  }
+  .alloc-table th.num, .alloc-table td.num{text-align:right}
+  .alloc-table td{padding:13px 16px; font-size:13.5px; border-bottom:1px solid var(--line-soft)}
+  .alloc-table tr:last-child td{border-bottom:none}
+  .alloc-table .fund-tag{display:flex;align-items:center;gap:9px;font-weight:600}
+  .swatch{width:10px;height:10px;border-radius:3px;flex-shrink:0}
+  .alloc-table .delta-up{color:var(--up);font-family:var(--mono);font-weight:700;font-size:12px}
+  .alloc-table .delta-down{color:var(--down);font-family:var(--mono);font-weight:700;font-size:12px}
+  .alloc-table .delta-new{color:var(--plum);font-family:var(--mono);font-weight:700;font-size:12px}
+  .mono{font-family:var(--mono)}
 
-footer{text-align:center;padding:22px 16px;font-size:11px;color:var(--muted);border-top:1px solid var(--border);margin-top:28px;}
-a{color:var(--green);text-decoration:none;}
-a:hover{text-decoration:underline;}
-@media(max-width:500px){.hero-total{font-size:30px;}.card-value{font-size:18px;}}
+  /* ============ ALL FUNDS TAB ============ */
+  .search-bar{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+  .search-input{
+    flex:1; min-width:180px; background:var(--bg-card); border:1px solid var(--line);
+    border-radius:var(--radius-sm); padding:9px 14px; font-size:13px; font-family:var(--sans);
+    color:var(--ink); outline:none; transition:border-color .15s;
+  }
+  .search-input:focus{border-color:var(--teal)}
+  .filter-chip{
+    font-size:12px; font-weight:600; padding:8px 14px; border-radius:var(--radius-sm);
+    border:1px solid var(--line); background:var(--bg-card); color:var(--ink-soft); cursor:pointer;
+    transition:all .15s; white-space:nowrap;
+  }
+  .filter-chip:hover{border-color:var(--teal);color:var(--teal)}
+  .filter-chip.active{background:var(--teal);border-color:var(--teal);color:#fff}
+
+  .all-funds-table{
+    background:var(--bg-card); border:1px solid var(--line); border-radius:var(--radius);
+    overflow:hidden; box-shadow:var(--shadow);
+  }
+  .all-funds-table table{width:100%;border-collapse:collapse;font-size:13px}
+  .all-funds-table th{
+    text-align:right; font-size:10.5px; letter-spacing:.07em; text-transform:uppercase;
+    color:var(--ink-faint); font-weight:600; padding:10px 12px; background:var(--bg-sunken);
+    border-bottom:1px solid var(--line); white-space:nowrap; cursor:pointer; user-select:none;
+  }
+  .all-funds-table th:first-child, .all-funds-table th:nth-child(2){text-align:left}
+  .all-funds-table th:hover{color:var(--teal)}
+  .all-funds-table td{padding:10px 12px; text-align:right; border-bottom:1px solid var(--line-soft); white-space:nowrap}
+  .all-funds-table td:first-child, .all-funds-table td:nth-child(2){text-align:left}
+  .all-funds-table tr:last-child td{border-bottom:none}
+  .all-funds-table tr.held{background:var(--teal-soft)}
+  .all-funds-table tr:hover{background:var(--bg-sunken)}
+  .all-funds-table .fname{font-weight:600;font-size:12.5px}
+  .all-funds-table .fcat{font-size:10px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.06em;display:block;margin-top:1px}
+  .held-badge{
+    font-size:9px;font-weight:700;color:var(--teal);background:var(--bg-card);
+    border:1px solid var(--teal);padding:1px 6px;border-radius:99px;margin-left:6px;letter-spacing:.04em;
+  }
+  .pos{color:var(--up);font-family:var(--mono);font-weight:600}
+  .neg{color:var(--down);font-family:var(--mono);font-weight:600}
+  .cat-section td{
+    background:var(--bg-sunken); font-weight:700; font-size:11px; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--ink-soft); padding:8px 12px;
+  }
+
+  /* ============ DISTRIBUTION TAB ============ */
+  .dist-card{
+    background:var(--bg-card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:20px; box-shadow:var(--shadow); margin-bottom:18px;
+  }
+  .dist-card h4{font-family:var(--serif);font-size:16px;font-weight:600;margin-bottom:4px}
+  .dist-card .desc{font-size:12px;color:var(--ink-faint);margin-bottom:14px}
+  .dist-table{width:100%;border-collapse:collapse;font-size:12.5px}
+  .dist-table th{
+    text-align:right;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);
+    font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line);
+  }
+  .dist-table th:first-child{text-align:left}
+  .dist-table td{padding:8px 10px;text-align:right;border-bottom:1px solid var(--line-soft);font-family:var(--mono)}
+  .dist-table td:first-child{text-align:left;font-family:var(--sans)}
+  .dist-table tr:last-child td{border-bottom:none}
+  .yield-tag{
+    display:inline-block;font-size:11px;font-weight:700;color:var(--teal);
+    background:var(--teal-soft);padding:2px 8px;border-radius:99px;
+  }
+
+  /* ============ RATE HISTORY TAB ============ */
+  .rate-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:6px}
+  .rate-cell{
+    background:var(--bg-sunken); border-radius:7px; padding:8px 6px; text-align:center;
+  }
+  .rate-cell .m{font-size:10px;color:var(--ink-faint);font-family:var(--mono);margin-bottom:3px}
+  .rate-cell .v{font-size:13px;font-weight:700;font-family:var(--mono)}
+
+  /* ============ CHART CARDS ============ */
+  .chart-card{
+    background:var(--bg-card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:20px; box-shadow:var(--shadow); margin-bottom:16px;
+  }
+  .chart-card h4{font-family:var(--serif);font-size:16px;font-weight:600;margin-bottom:14px}
+  .chart-wrap{position:relative;height:260px}
+
+  /* ============ DISCLAIMER ============ */
+  .disclaimer{
+    font-size:11px; color:var(--ink-faint); line-height:1.8; margin-top:36px;
+    padding-top:18px; border-top:1px solid var(--line); text-align:center;
+  }
+  .disclaimer a{color:var(--teal);text-decoration:none}
+
+  /* ============ Risk meter ============ */
+  .risk-meter{display:flex;gap:3px;margin-left:8px}
+  .risk-bar{width:5px;height:11px;border-radius:1px;background:var(--line)}
+  .risk-bar.on{background:var(--gold)}
 </style>
 </head>
 <body>
 
-<!-- HERO: MY ACCOUNT -->
+<!-- ============ HERO ============ -->
 <div class="hero">
-  <div class="hero-id">成員帳戶號碼：11176182</div>
-  <div class="hero-label">總結餘 Total Balance</div>
-  <div class="hero-total">$484,942.07</div>
-  <div class="hero-gain">▲ +$33,399.17 升幅</div>
-  <div class="hero-date">截至 28/05/2026 · 宏利環球精選(強積金)計劃</div>
-</div>
+  <div class="wrap">
+    <div class="hero-top">
+      <div>
+        <div class="hero-id">成員帳戶號碼 11176182</div>
+        <div class="hero-plan">宏利環球精選（強積金）計劃 · Manulife Global Select (MPF) Scheme</div>
+      </div>
+      <div class="hero-asof">
+        確認轉換 2026/06/11<br>結餘截至 2026/06/11
+      </div>
+    </div>
 
-<!-- PORTFOLIO BAR -->
-<div class="port-section">
-  <div class="port-title">持倉分布（以市場價值）</div>
-  <div class="port-bar">
-    <div class="bar-seg" style="width:54.9%;background:#185FA5;"></div>
-    <div class="bar-seg" style="width:35.4%;background:#1D9E75;"></div>
-    <div class="bar-seg" style="width:9.8%;background:#BA7517;"></div>
-  </div>
-  <div class="port-legend">
-    <div class="legend-row">
-      <div class="legend-left">
-        <div class="legend-dot" style="background:#185FA5;"></div>
-        <span class="legend-name">宏利MPF北美股票基金</span>
-        <span class="legend-code">SHK130</span>
+    <div class="hero-main">
+      <div class="hero-label">總結餘 Total Balance</div>
+      <div class="hero-balance"><sup>$</sup>477,487.67</div>
+      <div class="hero-meta">
+        <span class="pill pill-up">▲ +$33,399.17 YTD（升幅）</span>
+        <span class="pill pill-amber">⟲ 暫時過渡配置 · 已提交</span>
+        <span class="pill pill-status">FOMC 6/17 · BOJ 6/15–16 觀察期</span>
       </div>
-      <div><span class="legend-amt">$266,082</span><span class="legend-pct">54.9%</span></div>
     </div>
-    <div class="legend-row">
-      <div class="legend-left">
-        <div class="legend-dot" style="background:#1D9E75;"></div>
-        <span class="legend-name">宏利MPF日本股票基金</span>
-        <span class="legend-code">SHK131</span>
+
+    <div class="alloc-strip">
+      <div class="alloc-strip-label">新配置分布（以強制性供款比例）</div>
+      <div class="alloc-bar">
+        <div class="alloc-seg" style="width:40%;background:var(--blue)"></div>
+        <div class="alloc-seg" style="width:25%;background:var(--up)"></div>
+        <div class="alloc-seg" style="width:20%;background:var(--gold)"></div>
+        <div class="alloc-seg" style="width:15%;background:var(--plum)"></div>
       </div>
-      <div><span class="legend-amt">$171,372</span><span class="legend-pct">35.4%</span></div>
-    </div>
-    <div class="legend-row">
-      <div class="legend-left">
-        <div class="legend-dot" style="background:#BA7517;"></div>
-        <span class="legend-name">宏利MPF保守基金</span>
-        <span class="legend-code">SHK125</span>
+      <div class="alloc-legend">
+        <div class="alloc-legend-item"><span class="alloc-dot" style="background:var(--blue)"></span>北美股票 <b>40%</b></div>
+        <div class="alloc-legend-item"><span class="alloc-dot" style="background:var(--up)"></span>日本股票 <b>25%</b></div>
+        <div class="alloc-legend-item"><span class="alloc-dot" style="background:var(--gold)"></span>保守基金 <b>20%</b></div>
+        <div class="alloc-legend-item"><span class="alloc-dot" style="background:var(--plum)"></span>國際債券 <b>15%</b></div>
       </div>
-      <div><span class="legend-amt">$47,488</span><span class="legend-pct">9.8%</span></div>
     </div>
   </div>
 </div>
 
-<!-- TABS -->
-<div class="tabs">
-  <div class="tab active" onclick="sw('myaccount')">💼 我的帳戶</div>
-  <div class="tab" onclick="sw('allfunds')">📊 所有基金</div>
-  <div class="tab" onclick="sw('distribution')">💰 派息記錄</div>
-  <div class="tab" onclick="sw('interest')">📈 利率記錄</div>
-</div>
+<!-- ============ NAV ============ -->
+<div class="wrap">
+  <div class="nav">
+    <button class="nav-tab active" data-view="account"><span class="ico">💼</span>我的帳戶</button>
+    <button class="nav-tab" data-view="allfunds"><span class="ico">📊</span>所有基金</button>
+    <button class="nav-tab" data-view="dist"><span class="ico">💰</span>派息記錄</button>
+    <button class="nav-tab" data-view="rates"><span class="ico">📈</span>利率記錄</button>
+  </div>
 
-<!-- TAB: MY ACCOUNT -->
-<div id="tab-myaccount" class="tab-content active">
-<div class="container">
+  <!-- ============================================================ -->
+  <!-- VIEW: 我的帳戶 -->
+  <!-- ============================================================ -->
+  <div class="view active" id="view-account">
 
-  <div class="sec-hd">我的持倉基金</div>
-  <div class="my-funds-grid">
-
-    <!-- NORTH AMERICA -->
-    <div class="fund-card fc-namerica">
-      <div class="card-top">
-        <div>
-          <div class="card-name-zh">宏利MPF北美股票基金</div>
-          <div class="card-name-en">Manulife MPF North American Equity Fund</div>
+    <div class="transition-banner">
+      <div class="ico">🧭</div>
+      <div>
+        <h3>暫時過渡配置 — 已於 2026/06/11 提交</h3>
+        <p>已將全倉（北美/日本/保守基金）按新比例重新分配，並新增宏利MPF國際債券基金作分散。轉換預計 2–4 個工作天內生效（約 6/13–16），剛好在 BOJ 及 FOMC 決定前到位。股票總倉由 90.3% 降至 65%，防守總倉由 9.7% 升至 35%。</p>
+        <div class="tags">
+          <span class="micro-tag">提交時帳戶結餘 $477,487.67</span>
+          <span class="micro-tag">轉出三隻基金 100%</span>
+          <span class="micro-tag">新增 SHK133 國際債券 15%</span>
+          <span class="micro-tag">詳情見 2026mpf.md</span>
         </div>
-        <span class="rbadge r5">5</span>
-      </div>
-      <div class="card-value pos">$266,082.29</div>
-      <div class="card-price">基金價格 HK$36.380（2026年1月）</div>
-      <div class="card-perfs">
-        <div class="perf-pill"><span class="pl">YTD</span><span class="pv pn">-0.23%</span></div>
-        <div class="perf-pill"><span class="pl">1年</span><span class="pv pos">+7.16%</span></div>
-        <div class="perf-pill"><span class="pl">2025</span><span class="pv pos">+12.15%</span></div>
-        <div class="perf-pill"><span class="pl">2024</span><span class="pv pos">+21.23%</span></div>
-        <div class="perf-pill"><span class="pl">2023</span><span class="pv pos">+38.69%</span></div>
-        <div class="perf-pill"><span class="pl">2022</span><span class="pv pn">-31.94%</span></div>
       </div>
     </div>
 
-    <!-- JAPAN -->
-    <div class="fund-card fc-japan">
-      <div class="card-top">
-        <div>
-          <div class="card-name-zh">宏利MPF日本股票基金</div>
-          <div class="card-name-en">Manulife MPF Japan Equity Fund</div>
+    <div class="section-head">
+      <div class="section-title">新配置 — 持倉基金</div>
+      <div class="section-sub">轉換生效後預計分布 · 強制性供款 100%</div>
+    </div>
+
+    <div class="grid">
+
+      <!-- North American -->
+      <div class="fund-card c-na">
+        <div class="fund-head">
+          <div>
+            <div class="fund-name">宏利MPF北美股票基金</div>
+            <div class="fund-en">Manulife MPF North American Equity Fund</div>
+          </div>
+          <div class="fund-code">SHK130</div>
         </div>
-        <span class="rbadge r5">5</span>
-      </div>
-      <div class="card-value pos">$171,372.27</div>
-      <div class="card-price">基金價格 HK$26.170（2026年1月）</div>
-      <div class="card-perfs">
-        <div class="perf-pill"><span class="pl">YTD</span><span class="pv pos">+3.52%</span></div>
-        <div class="perf-pill"><span class="pl">1年</span><span class="pv pos">+25.58%</span></div>
-        <div class="perf-pill"><span class="pl">2025</span><span class="pv pos">+20.77%</span></div>
-        <div class="perf-pill"><span class="pl">2024</span><span class="pv pos">+21.29%</span></div>
-        <div class="perf-pill"><span class="pl">2023</span><span class="pv pos">+24.82%</span></div>
-        <div class="perf-pill"><span class="pl">2022</span><span class="pv pn">-11.30%</span></div>
-      </div>
-    </div>
-
-    <!-- CONSERVATIVE -->
-    <div class="fund-card fc-conservative">
-      <div class="card-top">
-        <div>
-          <div class="card-name-zh">宏利MPF保守基金</div>
-          <div class="card-name-en">Manulife MPF Conservative Fund</div>
+        <div class="fund-sub">基金價格 HK$36.380（2026年1月）· 風險級別 5</div>
+        <div class="fund-weight">40% <span class="arrow">（原 54.9% → −14.9pt）</span></div>
+        <div class="perf-row">
+          <div class="perf-chip perf-down"><span>−0.23%</span><span class="yr">YTD</span></div>
+          <div class="perf-chip perf-up"><span>+7.16%</span><span class="yr">1年</span></div>
+          <div class="perf-chip perf-up"><span>+12.15%</span><span class="yr">2025</span></div>
+          <div class="perf-chip perf-up"><span>+21.23%</span><span class="yr">2024</span></div>
+          <div class="perf-chip perf-up"><span>+38.69%</span><span class="yr">2023</span></div>
+          <div class="perf-chip perf-down"><span>−31.94%</span><span class="yr">2022</span></div>
         </div>
-        <span class="rbadge r1">1</span>
+        <div class="fund-foot">主要投資美國及加拿大股票。情境B（鷹式按兵）下短震後可望企穩；情境A下波動加大，緩衝由保守基金及債券承接。</div>
       </div>
-      <div class="card-value pos">$47,487.51</div>
-      <div class="card-price">基金價格 HK$12.604（2026年1月）</div>
-      <div class="card-perfs">
-        <div class="perf-pill"><span class="pl">YTD</span><span class="pv pos">+0.16%</span></div>
-        <div class="perf-pill"><span class="pl">1年</span><span class="pv pos">+2.30%</span></div>
-        <div class="perf-pill"><span class="pl">2025</span><span class="pv pos">+2.49%</span></div>
-        <div class="perf-pill"><span class="pl">2024</span><span class="pv pos">+3.76%</span></div>
-        <div class="perf-pill"><span class="pl">2023</span><span class="pv pos">+3.78%</span></div>
-        <div class="perf-pill"><span class="pl">2022</span><span class="pv pos">+0.51%</span></div>
-      </div>
-    </div>
 
-    <!-- INT BOND (zero) -->
-    <div class="fund-card fc-intbond zero-card">
-      <div class="card-top">
-        <div>
-          <div class="card-name-zh">宏利MPF國際債券基金</div>
-          <div class="card-name-en">Manulife MPF International Bond Fund</div>
+      <!-- Japan -->
+      <div class="fund-card c-jp">
+        <div class="fund-head">
+          <div>
+            <div class="fund-name">宏利MPF日本股票基金</div>
+            <div class="fund-en">Manulife MPF Japan Equity Fund</div>
+          </div>
+          <div class="fund-code">SHK131</div>
         </div>
-        <span class="rbadge r4">4</span>
-      </div>
-      <div class="card-value" style="color:var(--muted)">$0.00</div>
-      <div class="card-price">SHK133 · 暫無持倉</div>
-      <div class="card-perfs">
-        <div class="perf-pill"><span class="pl">1年</span><span class="pv pos">+6.11%</span></div>
-        <div class="perf-pill"><span class="pl">2025</span><span class="pv pos">+5.24%</span></div>
-        <div class="perf-pill"><span class="pl">2024</span><span class="pv pn">-2.83%</span></div>
-      </div>
-    </div>
-
-    <!-- EUROPE (zero) -->
-    <div class="fund-card fc-europe zero-card">
-      <div class="card-top">
-        <div>
-          <div class="card-name-zh">宏利MPF歐洲股票基金</div>
-          <div class="card-name-en">Manulife MPF European Equity Fund</div>
+        <div class="fund-sub">基金價格 HK$26.170（2026年1月）· 風險級別 5</div>
+        <div class="fund-weight">25% <span class="arrow">（原 35.4% → −10.4pt）</span></div>
+        <div class="perf-row">
+          <div class="perf-chip perf-up"><span>+3.52%</span><span class="yr">YTD</span></div>
+          <div class="perf-chip perf-up"><span>+25.58%</span><span class="yr">1年</span></div>
+          <div class="perf-chip perf-up"><span>+20.77%</span><span class="yr">2025</span></div>
+          <div class="perf-chip perf-up"><span>+21.29%</span><span class="yr">2024</span></div>
+          <div class="perf-chip perf-up"><span>+24.82%</span><span class="yr">2023</span></div>
+          <div class="perf-chip perf-down"><span>−11.30%</span><span class="yr">2022</span></div>
         </div>
-        <span class="rbadge r6">6</span>
+        <div class="fund-foot">BOJ 6/15–16 加息決定為主要變數。估值偏高（22.7× 預期市盈率），日經支撐位約 61,800點。減持為觀察期內最直接的風險緩解。</div>
       </div>
-      <div class="card-value" style="color:var(--muted)">$0.00</div>
-      <div class="card-price">SHK129 · 暫無持倉</div>
-      <div class="card-perfs">
-        <div class="perf-pill"><span class="pl">1年</span><span class="pv pos">+12.26%</span></div>
-        <div class="perf-pill"><span class="pl">2025</span><span class="pv pos">+14.83%</span></div>
-        <div class="perf-pill"><span class="pl">2024</span><span class="pv pn">-2.81%</span></div>
+
+      <!-- Conservative -->
+      <div class="fund-card c-cons">
+        <div class="fund-head">
+          <div>
+            <div class="fund-name">宏利MPF保守基金</div>
+            <div class="fund-en">Manulife MPF Conservative Fund</div>
+          </div>
+          <div class="fund-code">SHK125</div>
+        </div>
+        <div class="fund-sub">基金價格 HK$12.604（2026年1月）· 風險級別 1</div>
+        <div class="fund-weight">20% <span class="arrow">（原 9.7% → +10.3pt）</span></div>
+        <div class="perf-row">
+          <div class="perf-chip perf-up"><span>+0.16%</span><span class="yr">YTD</span></div>
+          <div class="perf-chip perf-up"><span>+2.30%</span><span class="yr">1年</span></div>
+          <div class="perf-chip perf-up"><span>+2.49%</span><span class="yr">2025</span></div>
+          <div class="perf-chip perf-up"><span>+3.76%</span><span class="yr">2024</span></div>
+          <div class="perf-chip perf-up"><span>+3.78%</span><span class="yr">2023</span></div>
+          <div class="perf-chip perf-up"><span>+0.51%</span><span class="yr">2022</span></div>
+        </div>
+        <div class="fund-foot">貨幣市場基金，投資港元固定收益工具。任何情境下波動極小，為過渡期主要防守緩衝。基金開支比率 0.768%。</div>
+      </div>
+
+      <!-- International Bond (new) -->
+      <div class="fund-card c-bond">
+        <div class="fund-head">
+          <div>
+            <div class="fund-name">宏利MPF國際債券基金 <span style="font-size:10px;font-weight:700;color:var(--plum);background:var(--plum-soft);padding:2px 7px;border-radius:99px;margin-left:4px;vertical-align:1px">新增</span></div>
+            <div class="fund-en">Manulife MPF International Bond Fund</div>
+          </div>
+          <div class="fund-code">SHK133</div>
+        </div>
+        <div class="fund-sub">基金價格 HK$15.779（2026年1月）· 風險級別 4</div>
+        <div class="fund-weight">15% <span class="arrow">（原 0% → 新增）</span></div>
+        <div class="perf-row">
+          <div class="perf-chip perf-up"><span>+1.16%</span><span class="yr">YTD</span></div>
+          <div class="perf-chip perf-up"><span>+6.11%</span><span class="yr">1年</span></div>
+          <div class="perf-chip perf-up"><span>+5.24%</span><span class="yr">2025</span></div>
+          <div class="perf-chip perf-down"><span>−2.83%</span><span class="yr">2024</span></div>
+          <div class="perf-chip perf-up"><span>+5.03%</span><span class="yr">2023</span></div>
+          <div class="perf-chip perf-down"><span>−16.11%</span><span class="yr">2022</span></div>
+        </div>
+        <div class="fund-foot">環球債券，主要持有美國國債（前10大資產中8項為美債）。情境C（鴿派／減息）下最大受益；分散風險，與股票相關性較低。風險指標 6.77%。</div>
+      </div>
+
+    </div>
+
+    <!-- Zero-balance / dimmed funds -->
+    <div class="section-head">
+      <div class="section-title" style="font-size:16px">其他相關基金（暫無持倉）</div>
+      <div class="section-sub">供參考 · 不計入新配置</div>
+    </div>
+    <div class="grid">
+      <div class="fund-card dim">
+        <div class="fund-head">
+          <div>
+            <div class="fund-name">宏利MPF歐洲股票基金</div>
+            <div class="fund-en">Manulife MPF European Equity Fund</div>
+          </div>
+          <div class="fund-code">SHK129</div>
+        </div>
+        <div class="fund-value zero">$0.00</div>
+        <div class="fund-sub">風險級別 6 · 暫無持倉</div>
+        <div class="perf-row">
+          <div class="perf-chip perf-up"><span>+12.26%</span><span class="yr">1年</span></div>
+          <div class="perf-chip perf-up"><span>+14.83%</span><span class="yr">2025</span></div>
+          <div class="perf-chip perf-down"><span>−2.81%</span><span class="yr">2024</span></div>
+        </div>
+      </div>
+      <div class="fund-card dim">
+        <div class="fund-head">
+          <div>
+            <div class="fund-name">宏利MPF香港債券基金</div>
+            <div class="fund-en">Manulife MPF Hong Kong Bond Fund</div>
+          </div>
+          <div class="fund-code">SHK132</div>
+        </div>
+        <div class="fund-value zero">$0.00</div>
+        <div class="fund-sub">風險級別 3 · 暫無持倉</div>
+        <div class="perf-row">
+          <div class="perf-chip perf-up"><span>+3.20%</span><span class="yr">1年</span></div>
+          <div class="perf-chip perf-up"><span>+2.60%</span><span class="yr">2024</span></div>
+          <div class="perf-chip perf-up"><span>+5.65%</span><span class="yr">2023</span></div>
+        </div>
       </div>
     </div>
 
-  </div>
-
-  <!-- YEAR COMPARISON CHART -->
-  <div class="sec-hd">我的持倉基金 — 曆年回報比較</div>
-  <div style="display: flex; gap: 16px; font-size: 12px; margin-bottom: 8px; flex-wrap: wrap;"><span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:#185FA5;display:inline-block;"></span>北美股票 SHK130</span><span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:#1D9E75;display:inline-block;"></span>日本股票 SHK131</span><span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:#BA7517;display:inline-block;"></span>保守基金 SHK125</span></div><div class="chart-wrap" style="height:280px;">
-    <canvas id="myPerfChart" role="img" aria-label="My MPF funds calendar year return comparison 2020-2025" style="display: block; box-sizing: border-box; height: 280px; width: 868px;" width="1302" height="420">持倉基金曆年表現比較圖表</canvas>
-  </div>
-
-  <div class="notice">
-    <strong>ℹ 資料說明</strong>
-    帳戶結餘截至 28/05/2026（來源：宏利 App 截圖）。基金價格及表現數據截至 2026年1月31日每月摘要。過往表現不代表未來表現，投資涉及風險。
-  </div>
-</div>
-</div>
-
-<!-- TAB: ALL FUNDS -->
-<div id="tab-allfunds" class="tab-content">
-<div class="container">
-  <div class="search-bar">
-    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
-    <input type="text" id="si" placeholder="搜尋基金… SHK137、康健、North America" oninput="flt()">
-  </div>
-  <div class="filter-row">
-    <button class="fbtn active" onclick="sf('all',this)">全部</button>
-    <button class="fbtn" onclick="sf('equity',this)">股票</button>
-    <button class="fbtn" onclick="sf('mixed',this)">混合</button>
-    <button class="fbtn" onclick="sf('bond',this)">債券</button>
-    <button class="fbtn" onclick="sf('money',this)">貨幣市場</button>
-    <button class="fbtn" onclick="sf('guaranteed',this)">保證</button>
-    <button class="fbtn" onclick="sf('dis',this)">預設策略</button>
-  </div>
-  <table class="fund-table" id="ft">
-    <thead><tr>
-      <th style="min-width:190px">基金名稱</th>
-      <th class="r">基金價格<br><small style="font-weight:400">港元</small></th>
-      <th class="r">YTD</th><th class="r">1年</th><th class="r">3年</th><th class="r">2025</th><th class="r">2024</th>
-      <th class="r">風險</th>
-    </tr></thead>
-    <tbody id="ftb"><tr>
-      <td><div class="fz">宏利 MPF 康健護理基金</div><div class="fen">Manulife MPF Healthcare Fund</div><div style="margin-top:3px"><span class="fcode">SHK137</span> <span class="tag te">股票基金</span></div></td>
-      <td class="r" style="font-weight:500">$34.302</td>
-      <td class="r"><span class="pp">+1.03%</span></td><td class="r"><span class="pp">+12.98%</span></td><td class="r"><span class="pp">+23.02%</span></td>
-      <td class="r"><span class="pp">+18.28%</span></td><td class="r"><span class="pn">-1.55%</span></td>
-      <td class="r"><span class="rbadge r5">5</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 亞太股票基金</div><div class="fen">Manulife MPF Pacific Asia Equity Fund</div><div style="margin-top:3px"><span class="fcode">SHK128</span> <span class="tag te">股票基金</span></div></td>
-      <td class="r" style="font-weight:500">$42.752</td>
-      <td class="r"><span class="pp">+9.09%</span></td><td class="r"><span class="pp">+34.65%</span></td><td class="r"><span class="pp">+48.37%</span></td>
-      <td class="r"><span class="pp">+23.96%</span></td><td class="r"><span class="pp">+11.80%</span></td>
-      <td class="r"><span class="rbadge r5">5</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 中華威力基金</div><div class="fen">Manulife MPF China Value Fund</div><div style="margin-top:3px"><span class="fcode">SHK136</span> <span class="tag te">股票基金</span></div></td>
-      <td class="r" style="font-weight:500">$34.683</td>
-      <td class="r"><span class="pp">+8.95%</span></td><td class="r"><span class="pp">+48.59%</span></td><td class="r"><span class="pp">+40.17%</span></td>
-      <td class="r"><span class="pp">+37.73%</span></td><td class="r"><span class="pp">+13.34%</span></td>
-      <td class="r"><span class="rbadge r6">6</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 香港股票基金</div><div class="fen">Manulife MPF Hong Kong Equity Fund</div><div style="margin-top:3px"><span class="fcode">SHK126</span> <span class="tag te">股票基金</span></div></td>
-      <td class="r" style="font-weight:500">$26.573</td>
-      <td class="r"><span class="pp">+8.11%</span></td><td class="r"><span class="pp">+42.01%</span></td><td class="r"><span class="pp">+24.76%</span></td>
-      <td class="r"><span class="pp">+32.02%</span></td><td class="r"><span class="pp">+14.12%</span></td>
-      <td class="r"><span class="rbadge r6">6</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 恒指 ESG 基金</div><div class="fen">Manulife MPF Hang Seng Index ESG Fund</div><div style="margin-top:3px"><span class="fcode">SHK145</span> <span class="tag te">股票基金</span></div></td>
-      <td class="r" style="font-weight:500">$16.484</td>
-      <td class="r"><span class="pp">+6.35%</span></td><td class="r"><span class="pp">+39.23%</span></td><td class="r"><span class="pp">+21.77%</span></td>
-      <td class="r"><span class="pp">+31.02%</span></td><td class="r"><span class="pp">+11.13%</span></td>
-      <td class="r"><span class="rbadge r7">7</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 日本股票基金</div><div class="fen">Manulife MPF Japan Equity Fund</div><div style="margin-top:3px"><span class="fcode">SHK131</span> <span class="tag te">股票基金</span></div></td>
-      <td class="r" style="font-weight:500">$26.170</td>
-      <td class="r"><span class="pp">+3.52%</span></td><td class="r"><span class="pp">+25.58%</span></td><td class="r"><span class="pp">+78.66%</span></td>
-      <td class="r"><span class="pp">+20.77%</span></td><td class="r"><span class="pp">+21.29%</span></td>
-      <td class="r"><span class="rbadge r5">5</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 歐洲股票基金</div><div class="fen">Manulife MPF European Equity Fund</div><div style="margin-top:3px"><span class="fcode">SHK129</span> <span class="tag te">股票基金</span></div></td>
-      <td class="r" style="font-weight:500">$18.698</td>
-      <td class="r"><span class="pp">+3.65%</span></td><td class="r"><span class="pp">+12.26%</span></td><td class="r"><span class="pp">+29.42%</span></td>
-      <td class="r"><span class="pp">+14.83%</span></td><td class="r"><span class="pn">-2.81%</span></td>
-      <td class="r"><span class="rbadge r6">6</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 北美股票基金</div><div class="fen">Manulife MPF North American Equity Fund</div><div style="margin-top:3px"><span class="fcode">SHK130</span> <span class="tag te">股票基金</span></div></td>
-      <td class="r" style="font-weight:500">$36.380</td>
-      <td class="r"><span class="pn">-0.23%</span></td><td class="r"><span class="pp">+7.16%</span></td><td class="r"><span class="pp">+71.04%</span></td>
-      <td class="r"><span class="pp">+12.15%</span></td><td class="r"><span class="pp">+21.23%</span></td>
-      <td class="r"><span class="rbadge r5">5</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 國際股票基金</div><div class="fen">Manulife MPF International Equity Fund</div><div style="margin-top:3px"><span class="fcode">SHK127</span> <span class="tag te">股票基金</span></div></td>
-      <td class="r" style="font-weight:500">$29.605</td>
-      <td class="r"><span class="pp">+2.21%</span></td><td class="r"><span class="pp">+13.67%</span></td><td class="r"><span class="pp">+57.57%</span></td>
-      <td class="r"><span class="pp">+15.15%</span></td><td class="r"><span class="pp">+15.06%</span></td>
-      <td class="r"><span class="rbadge r5">5</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 進取基金</div><div class="fen">Manulife MPF Aggressive Fund</div><div style="margin-top:3px"><span class="fcode">SHK124</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$29.337</td>
-      <td class="r"><span class="pp">+4.91%</span></td><td class="r"><span class="pp">+25.68%</span></td><td class="r"><span class="pp">+39.82%</span></td>
-      <td class="r"><span class="pp">+22.01%</span></td><td class="r"><span class="pp">+9.61%</span></td>
-      <td class="r"><span class="rbadge r5">5</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 富達增長基金</div><div class="fen">Manulife MPF Fidelity Growth Fund</div><div style="margin-top:3px"><span class="fcode">SHK134</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$40.181</td>
-      <td class="r"><span class="pp">+4.77%</span></td><td class="r"><span class="pp">+23.88%</span></td><td class="r"><span class="pp">+31.99%</span></td>
-      <td class="r"><span class="pp">+20.01%</span></td><td class="r"><span class="pp">+9.70%</span></td>
-      <td class="r"><span class="rbadge r5">5</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 增長基金</div><div class="fen">Manulife MPF Growth Fund</div><div style="margin-top:3px"><span class="fcode">SHK123</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$26.583</td>
-      <td class="r"><span class="pp">+4.12%</span></td><td class="r"><span class="pp">+21.43%</span></td><td class="r"><span class="pp">+31.32%</span></td>
-      <td class="r"><span class="pp">+18.43%</span></td><td class="r"><span class="pp">+7.24%</span></td>
-      <td class="r"><span class="rbadge r4">4</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 富達平穩增長基金</div><div class="fen">Manulife MPF Fidelity Stable Growth Fund</div><div style="margin-top:3px"><span class="fcode">SHK135</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$25.432</td>
-      <td class="r"><span class="pp">+2.94%</span></td><td class="r"><span class="pp">+15.12%</span></td><td class="r"><span class="pp">+18.06%</span></td>
-      <td class="r"><span class="pp">+12.90%</span></td><td class="r"><span class="pp">+3.99%</span></td>
-      <td class="r"><span class="rbadge r4">4</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 退休收益基金</div><div class="fen">Manulife MPF Retirement Income Fund</div><div style="margin-top:3px"><span class="fcode">SHK150</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$9.388</td>
-      <td class="r"><span class="pp">+1.66%</span></td><td class="r"><span class="pp">+8.32%</span></td><td class="r"><span class="pp">+5.31%</span></td>
-      <td class="r"><span class="pp">+7.23%</span></td><td class="r"><span class="pp">+1.01%</span></td>
-      <td class="r"><span class="rbadge r3">3</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 2045 退休基金</div><div class="fen">Manulife MPF 2045 Retirement Fund</div><div style="margin-top:3px"><span class="fcode">SHK144</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$23.030</td>
-      <td class="r"><span class="pp">+5.75%</span></td><td class="r"><span class="pp">+28.95%</span></td><td class="r"><span class="pp">+47.50%</span></td>
-      <td class="r"><span class="pp">+24.08%</span></td><td class="r"><span class="pp">+13.04%</span></td>
-      <td class="r"><span class="rbadge r5">5</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 2040 退休基金</div><div class="fen">Manulife MPF 2040 Retirement Fund</div><div style="margin-top:3px"><span class="fcode">SHK143</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$22.764</td>
-      <td class="r"><span class="pp">+5.72%</span></td><td class="r"><span class="pp">+28.73%</span></td><td class="r"><span class="pp">+47.29%</span></td>
-      <td class="r"><span class="pp">+23.90%</span></td><td class="r"><span class="pp">+13.08%</span></td>
-      <td class="r"><span class="rbadge r5">5</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 2035 退休基金</div><div class="fen">Manulife MPF 2035 Retirement Fund</div><div style="margin-top:3px"><span class="fcode">SHK142</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$21.664</td>
-      <td class="r"><span class="pp">+4.96%</span></td><td class="r"><span class="pp">+25.11%</span></td><td class="r"><span class="pp">+41.23%</span></td>
-      <td class="r"><span class="pp">+21.18%</span></td><td class="r"><span class="pp">+11.15%</span></td>
-      <td class="r"><span class="rbadge r5">5</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 2030 退休基金</div><div class="fen">Manulife MPF 2030 Retirement Fund</div><div style="margin-top:3px"><span class="fcode">SHK141</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$20.048</td>
-      <td class="r"><span class="pp">+4.12%</span></td><td class="r"><span class="pp">+21.38%</span></td><td class="r"><span class="pp">+35.29%</span></td>
-      <td class="r"><span class="pp">+18.41%</span></td><td class="r"><span class="pp">+9.42%</span></td>
-      <td class="r"><span class="rbadge r4">4</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 2025 退休基金</div><div class="fen">Manulife MPF 2025 Retirement Fund</div><div style="margin-top:3px"><span class="fcode">SHK140</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$17.351</td>
-      <td class="r"><span class="pp">+2.78%</span></td><td class="r"><span class="pp">+15.65%</span></td><td class="r"><span class="pp">+25.40%</span></td>
-      <td class="r"><span class="pp">+13.99%</span></td><td class="r"><span class="pp">+7.17%</span></td>
-      <td class="r"><span class="rbadge r4">4</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 智優裕退休基金</div><div class="fen">Manulife MPF Smart Retirement Fund</div><div style="margin-top:3px"><span class="fcode">SHK138</span> <span class="tag tm">混合資產</span></div></td>
-      <td class="r" style="font-weight:500">$15.385</td>
-      <td class="r"><span class="pp">+2.76%</span></td><td class="r"><span class="pp">+15.30%</span></td><td class="r"><span class="pp">+23.96%</span></td>
-      <td class="r"><span class="pp">+13.54%</span></td><td class="r"><span class="pp">+6.06%</span></td>
-      <td class="r"><span class="rbadge r4">4</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 核心累積基金</div><div class="fen">Manulife MPF Core Accumulation Fund</div><div style="margin-top:3px"><span class="fcode">SHK148</span> <span class="tag td">預設投資策略</span></div></td>
-      <td class="r" style="font-weight:500">$18.138</td>
-      <td class="r"><span class="pp">+1.86%</span></td><td class="r"><span class="pp">+13.50%</span></td><td class="r"><span class="pp">+37.82%</span></td>
-      <td class="r"><span class="pp">+13.75%</span></td><td class="r"><span class="pp">+9.63%</span></td>
-      <td class="r"><span class="rbadge r4">4</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 65歲後基金</div><div class="fen">Manulife MPF Age 65 Plus Fund</div><div style="margin-top:3px"><span class="fcode">SHK149</span> <span class="tag td">預設投資策略</span></div></td>
-      <td class="r" style="font-weight:500">$12.277</td>
-      <td class="r"><span class="pp">+0.64%</span></td><td class="r"><span class="pp">+5.67%</span></td><td class="r"><span class="pp">+14.02%</span></td>
-      <td class="r"><span class="pp">+5.79%</span></td><td class="r"><span class="pp">+3.09%</span></td>
-      <td class="r"><span class="rbadge r2">2</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 人民幣債券基金</div><div class="fen">Manulife MPF RMB Bond Fund</div><div style="margin-top:3px"><span class="fcode">SHK147</span> <span class="tag tb">債券基金</span></div></td>
-      <td class="r" style="font-weight:500">$12.389</td>
-      <td class="r"><span class="pp">+0.63%</span></td><td class="r"><span class="pp">+6.57%</span></td><td class="r"><span class="pp">+9.10%</span></td>
-      <td class="r"><span class="pp">+7.27%</span></td><td class="r"><span class="pp">+1.37%</span></td>
-      <td class="r"><span class="rbadge r3">3</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 可持續亞太債券基金</div><div class="fen">Manulife MPF Sustainable Pacific Asia Bond Fund</div><div style="margin-top:3px"><span class="fcode">SHK146</span> <span class="tag tb">債券基金</span></div></td>
-      <td class="r" style="font-weight:500">$12.121</td>
-      <td class="r"><span class="pp">+0.22%</span></td><td class="r"><span class="pp">+6.09%</span></td><td class="r"><span class="pp">+7.23%</span></td>
-      <td class="r"><span class="pp">+6.60%</span></td><td class="r"><span class="pp">+1.90%</span></td>
-      <td class="r"><span class="rbadge r3">3</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 國際債券基金</div><div class="fen">Manulife MPF International Bond Fund</div><div style="margin-top:3px"><span class="fcode">SHK133</span> <span class="tag tb">債券基金</span></div></td>
-      <td class="r" style="font-weight:500">$15.779</td>
-      <td class="r"><span class="pp">+1.16%</span></td><td class="r"><span class="pp">+6.11%</span></td><td class="r"><span class="pp">+5.31%</span></td>
-      <td class="r"><span class="pp">+5.24%</span></td><td class="r"><span class="pn">-2.83%</span></td>
-      <td class="r"><span class="rbadge r4">4</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 香港債券基金</div><div class="fen">Manulife MPF Hong Kong Bond Fund</div><div style="margin-top:3px"><span class="fcode">SHK132</span> <span class="tag tb">債券基金</span></div></td>
-      <td class="r" style="font-weight:500">$16.054</td>
-      <td class="r"><span class="pn">-0.30%</span></td><td class="r"><span class="pp">+5.61%</span></td><td class="r"><span class="pp">+12.37%</span></td>
-      <td class="r"><span class="pp">+6.66%</span></td><td class="r"><span class="pp">+2.60%</span></td>
-      <td class="r"><span class="rbadge r3">3</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 保守基金</div><div class="fen">Manulife MPF Conservative Fund</div><div style="margin-top:3px"><span class="fcode">SHK125</span> <span class="tag tmm">貨幣市場</span></div></td>
-      <td class="r" style="font-weight:500">$12.604</td>
-      <td class="r"><span class="pp">+0.16%</span></td><td class="r"><span class="pp">+2.30%</span></td><td class="r"><span class="pp">+10.18%</span></td>
-      <td class="r"><span class="pp">+2.49%</span></td><td class="r"><span class="pp">+3.76%</span></td>
-      <td class="r"><span class="rbadge r1">1</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 穩健基金</div><div class="fen">Manulife MPF Stable Fund</div><div style="margin-top:3px"><span class="fcode">SHK122</span> <span class="tag tg">保證基金</span></div></td>
-      <td class="r" style="font-weight:500">$17.511</td>
-      <td class="r"><span class="pp">+0.88%</span></td><td class="r"><span class="pp">+10.74%</span></td><td class="r"><span class="pp">+16.60%</span></td>
-      <td class="r"><span class="pp">+10.89%</span></td><td class="r"><span class="pp">+4.64%</span></td>
-      <td class="r"><span class="rbadge r3">3</span></td>
-    </tr><tr>
-      <td><div class="fz">宏利 MPF 利息基金</div><div class="fen">Manulife MPF Interest Fund</div><div style="margin-top:3px"><span class="fcode">DHK121</span> <span class="tag tg">保證基金</span></div></td>
-      <td class="r" style="font-weight:500">—</td>
-      <td class="r"><span class="pp">+0.07%</span></td><td class="r"><span class="pp">+0.88%</span></td><td class="r"><span class="pp">+2.56%</span></td>
-      <td class="r"><span class="pp">+0.88%</span></td><td class="r"><span class="pp">+0.88%</span></td>
-      <td class="r"><span class="rbadge r1">1</span></td>
-    </tr></tbody>
-  </table>
-  <p style="font-size:11px;color:var(--muted);margin-top:8px">截至 2026年1月31日。已扣除所有收費。</p>
-</div>
-</div>
-
-<!-- TAB: DISTRIBUTION -->
-<div id="tab-distribution" class="tab-content">
-<div class="container">
-  <div style="background:var(--card);border-radius:var(--r);border:1px solid var(--border);padding:18px;">
-    <h3 style="font-size:15px;font-weight:600;margin-bottom:4px">宏利 MPF 退休收益基金 派息紀錄</h3>
-    <p style="font-size:12px;color:var(--muted);margin-bottom:14px">Manulife MPF Retirement Income Fund Distribution History</p>
-    <div class="chart-wrap"><canvas id="distChart" role="img" aria-label="Retirement Income Fund annualized yield chart" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" height="0" width="0">派息率圖表</canvas></div>
-    <table class="dist-table">
-      <thead><tr><th>截至日期</th><th>除息日</th><th class="r">每單位派息</th><th class="r">從資本支付</th><th class="r">年度化派息率</th></tr></thead>
-      <tbody>
-        <tr><td>01/19/2026</td><td>01/20/2026</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">3.94%</td></tr>
-        <tr><td>12/18/2025</td><td>12/19/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">3.99%</td></tr>
-        <tr><td>11/18/2025</td><td>11/19/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">4.02%</td></tr>
-        <tr><td>10/13/2025</td><td>10/14/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">4.01%</td></tr>
-        <tr><td>09/18/2025</td><td>09/19/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">4.00%</td></tr>
-        <tr><td>08/18/2025</td><td>08/19/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">4.04%</td></tr>
-        <tr><td>07/18/2025</td><td>07/21/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">4.04%</td></tr>
-        <tr><td>06/18/2025</td><td>06/19/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">4.11%</td></tr>
-        <tr><td>05/19/2025</td><td>05/20/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">4.13%</td></tr>
-        <tr><td>04/17/2025</td><td>04/22/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">4.29%</td></tr>
-        <tr><td>03/18/2025</td><td>03/19/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">4.16%</td></tr>
-        <tr><td>02/18/2025</td><td>02/19/2025</td><td class="r">$0.030</td><td class="r">100%</td><td class="r pp">4.17%</td></tr>
-      </tbody>
-    </table>
-    <div class="notice" style="margin-top:12px"><strong>⚠ 注意</strong>派息全數從資本支付，並不代表正回報。派息率以最近一次計算，假設收益再投資。</div>
-  </div>
-</div>
-</div>
-
-<!-- TAB: INTEREST -->
-<div id="tab-interest" class="tab-content">
-<div class="container">
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px">
-    <div style="background:var(--card);border-radius:var(--r);border:1px solid var(--border);padding:16px;">
-      <h3 style="font-size:14px;font-weight:600;margin-bottom:4px">利息基金 公佈利率</h3>
-      <p style="font-size:11px;color:var(--muted);margin-bottom:10px">Manulife MPF Interest Fund</p>
-      <div class="chart-wrap" style="height:200px;"><canvas id="intChart" role="img" aria-label="Interest fund rate" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" height="0" width="0">利息基金利率</canvas></div>
-      <table class="dist-table" style="font-size:12px;margin-top:10px">
-        <thead><tr><th>年份/月份</th><th class="r">公佈利率</th></tr></thead>
+    <!-- Transition table: before -> after -->
+    <div class="section-head">
+      <div class="section-title">轉換對照表</div>
+      <div class="section-sub">提交於 2026/06/11 · 帳戶結餘 $477,487.67</div>
+    </div>
+    <div class="alloc-table">
+      <table>
+        <thead>
+          <tr>
+            <th>基金</th>
+            <th class="num">調整前</th>
+            <th class="num">調整後</th>
+            <th class="num">變動</th>
+            <th class="num">預計金額（新）</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr><td>2026/01</td><td class="r pp">0.875%</td></tr>
-          <tr><td>2025/12</td><td class="r pp">0.875%</td></tr>
-          <tr><td>2025/11</td><td class="r pp">0.875%</td></tr>
-          <tr><td>2025/10</td><td class="r pp">0.875%</td></tr>
-          <tr><td>2025/09</td><td class="r pp">0.875%</td></tr>
-          <tr><td>2025/08</td><td class="r pp">0.875%</td></tr>
-          <tr><td>2025/07</td><td class="r pp">0.875%</td></tr>
-          <tr><td>2025/06</td><td class="r pp">0.875%</td></tr>
+          <tr>
+            <td><span class="fund-tag"><span class="swatch" style="background:var(--blue)"></span>北美股票 SHK130</span></td>
+            <td class="num mono">54.9%</td>
+            <td class="num mono">40.0%</td>
+            <td class="num delta-down">−14.9pt</td>
+            <td class="num mono">≈ $190,995</td>
+          </tr>
+          <tr>
+            <td><span class="fund-tag"><span class="swatch" style="background:var(--up)"></span>日本股票 SHK131</span></td>
+            <td class="num mono">35.4%</td>
+            <td class="num mono">25.0%</td>
+            <td class="num delta-down">−10.4pt</td>
+            <td class="num mono">≈ $119,372</td>
+          </tr>
+          <tr>
+            <td><span class="fund-tag"><span class="swatch" style="background:var(--gold)"></span>保守基金 SHK125</span></td>
+            <td class="num mono">9.7%</td>
+            <td class="num mono">20.0%</td>
+            <td class="num delta-up">+10.3pt</td>
+            <td class="num mono">≈ $95,498</td>
+          </tr>
+          <tr>
+            <td><span class="fund-tag"><span class="swatch" style="background:var(--plum)"></span>國際債券 SHK133</span></td>
+            <td class="num mono">0%</td>
+            <td class="num mono">15.0%</td>
+            <td class="num delta-new">新增</td>
+            <td class="num mono">≈ $71,623</td>
+          </tr>
+          <tr>
+            <td><b>合計</b></td>
+            <td class="num mono"><b>100%</b></td>
+            <td class="num mono"><b>100%</b></td>
+            <td class="num">—</td>
+            <td class="num mono"><b>$477,487.67</b></td>
+          </tr>
         </tbody>
       </table>
     </div>
-    <div style="background:var(--card);border-radius:var(--r);border:1px solid var(--border);padding:16px;">
-      <h3 style="font-size:14px;font-weight:600;margin-bottom:4px">穩健基金 保證利率</h3>
-      <p style="font-size:11px;color:var(--muted);margin-bottom:10px">Manulife MPF Stable Fund</p>
-      <div class="chart-wrap" style="height:200px;"><canvas id="stChart" role="img" aria-label="Stable fund guaranteed rate" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" height="0" width="0">穩健基金利率</canvas></div>
-      <table class="dist-table" style="font-size:12px;margin-top:10px">
-        <thead><tr><th>年份/月份</th><th class="r">保證利率</th></tr></thead>
+
+    <!-- Calendar return comparison chart -->
+    <div class="section-head">
+      <div class="section-title">持倉基金 — 曆年回報比較</div>
+      <div class="section-sub">2022–2025</div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-wrap"><canvas id="returnChart"></canvas></div>
+    </div>
+
+    <!-- Allocation pie -->
+    <div class="section-head">
+      <div class="section-title">新配置比例</div>
+      <div class="section-sub">強制性供款 · 4 隻基金</div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-wrap" style="height:300px"><canvas id="allocChart"></canvas></div>
+    </div>
+
+  </div><!-- /view-account -->
+
+
+  <!-- ============================================================ -->
+  <!-- VIEW: 所有基金 -->
+  <!-- ============================================================ -->
+  <div class="view" id="view-allfunds">
+
+    <div class="section-head">
+      <div class="section-title">所有基金</div>
+      <div class="section-sub">截至 2026年1月31日 · 資料來源：宏利每月摘要</div>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" class="search-input" id="fundSearch" placeholder="搜尋基金名稱或編號…">
+      <button class="filter-chip active" data-filter="all">全部</button>
+      <button class="filter-chip" data-filter="held">持倉中</button>
+      <button class="filter-chip" data-filter="equity">股票基金</button>
+      <button class="filter-chip" data-filter="mixed">混合資產</button>
+      <button class="filter-chip" data-filter="target">目標日期</button>
+      <button class="filter-chip" data-filter="dis">預設投資策略</button>
+      <button class="filter-chip" data-filter="bond">債券基金</button>
+      <button class="filter-chip" data-filter="mmf">貨幣市場</button>
+      <button class="filter-chip" data-filter="guaranteed">保證基金</button>
+    </div>
+
+    <div class="all-funds-table">
+      <table id="allFundsTable">
+        <thead>
+          <tr>
+            <th data-col="name">基金名稱</th>
+            <th data-col="code">編號</th>
+            <th data-col="price">價格 (HK$)</th>
+            <th data-col="ytd">YTD</th>
+            <th data-col="y1">1年</th>
+            <th data-col="y2025">2025</th>
+            <th data-col="y2024">2024</th>
+            <th data-col="y2023">2023</th>
+            <th data-col="y2022">2022</th>
+          </tr>
+        </thead>
+        <tbody id="allFundsBody"><!-- populated by JS --></tbody>
+      </table>
+    </div>
+
+  </div><!-- /view-allfunds -->
+
+
+  <!-- ============================================================ -->
+  <!-- VIEW: 派息記錄 -->
+  <!-- ============================================================ -->
+  <div class="view" id="view-dist">
+
+    <div class="section-head">
+      <div class="section-title">派息記錄</div>
+      <div class="section-sub">宏利MPF退休收益基金 SHK150 · Manulife MPF Retirement Income Fund</div>
+    </div>
+
+    <div class="dist-card">
+      <h4>派息歷史</h4>
+      <div class="desc">每單位派息 0.030，現時派息全數從資本中支付（100%）。年度化派息率約 3.9–4.3%。65歲以下成員的派息會再投資於本基金。</div>
+      <table class="dist-table">
+        <thead>
+          <tr>
+            <th>除息日</th>
+            <th>每單位派息</th>
+            <th>從可分派收入</th>
+            <th>從資本中支付</th>
+            <th>年度化派息率</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr><td>2026/01</td><td class="r pp">0.001%</td></tr>
-          <tr><td>2025/12</td><td class="r pp">0.001%</td></tr>
-          <tr><td>2025/11</td><td class="r pp">0.007%</td></tr>
-          <tr><td>2025/10</td><td class="r pp">0.124%</td></tr>
-          <tr><td>2025/09</td><td class="r pp">0.209%</td></tr>
-          <tr><td>2025/08</td><td class="r pp">0.250%</td></tr>
-          <tr><td>2025/07</td><td class="r pp">0.250%</td></tr>
-          <tr><td>2025/06</td><td class="r pp">0.250%</td></tr>
+          <tr><td>2026/01/20</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">3.94%</span></td></tr>
+          <tr><td>2025/12/19</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">3.99%</span></td></tr>
+          <tr><td>2025/11/19</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">4.02%</span></td></tr>
+          <tr><td>2025/10/14</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">4.01%</span></td></tr>
+          <tr><td>2025/09/19</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">4.00%</span></td></tr>
+          <tr><td>2025/08/19</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">4.04%</span></td></tr>
+          <tr><td>2025/07/21</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">4.04%</span></td></tr>
+          <tr><td>2025/06/19</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">4.11%</span></td></tr>
+          <tr><td>2025/05/20</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">4.13%</span></td></tr>
+          <tr><td>2025/04/22</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">4.29%</span></td></tr>
+          <tr><td>2025/03/19</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">4.16%</span></td></tr>
+          <tr><td>2025/02/19</td><td>0.030</td><td>0.00%</td><td>100.00%</td><td><span class="yield-tag">4.17%</span></td></tr>
         </tbody>
       </table>
     </div>
-  </div>
-</div>
-</div>
 
-<footer>
-  宏利環球精選(強積金)計劃 · 成員熱線 <a href="tel:+85221081388">(852) 2108 1388</a> · <a href="https://www.manulife.com.hk/mpf-en" target="_blank">manulife.com.hk/mpf-en</a><br>
-  <span style="margin-top:4px;display:block;font-style:italic">過往表現不代表未來表現。投資涉及風險。本頁面僅供參考，不構成投資建議。</span>
-</footer>
+    <div class="dist-card" style="background:var(--bg-sunken);box-shadow:none">
+      <h4 style="font-size:14px">與目前配置的關係</h4>
+      <div class="desc" style="margin-bottom:0">目前持倉的四隻基金（北美股票、日本股票、保守基金、國際債券）均不在退休收益基金的派息安排內，本表純供參考。若日後考慮加入退休收益基金作收息用途，須注意65歲以下成員派息會自動再投資，涉及週期性的離市風險。</div>
+    </div>
 
-<script src="manulife_mpf_files/chart.umd.js"></script>
+  </div><!-- /view-dist -->
+
+
+  <!-- ============================================================ -->
+  <!-- VIEW: 利率記錄 -->
+  <!-- ============================================================ -->
+  <div class="view" id="view-rates">
+
+    <div class="section-head">
+      <div class="section-title">利率記錄</div>
+      <div class="section-sub">宏利MPF利息基金 DHK121 及宏利MPF穩健基金 SHK122</div>
+    </div>
+
+    <div class="dist-card">
+      <h4>宏利MPF利息基金 — 公佈利率</h4>
+      <div class="desc">利率自2025年2月起維持於 0.875%，未有變動。此基金不在目前持倉內，供參考。</div>
+      <div class="rate-grid">
+        <div class="rate-cell"><div class="m">2025/02</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2025/03</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2025/04</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2025/05</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2025/06</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2025/07</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2025/08</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2025/09</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2025/10</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2025/11</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2025/12</div><div class="v">0.875%</div></div>
+        <div class="rate-cell"><div class="m">2026/01</div><div class="v">0.875%</div></div>
+      </div>
+    </div>
+
+    <div class="dist-card">
+      <h4>宏利MPF穩健基金 — 保證利率（訂明儲蓄利率）</h4>
+      <div class="desc">保證利率持續下行，2025年11–12月已跌至接近零（0.001–0.007%）。利率環境是「保守基金」防守效果的重要參考。</div>
+      <div class="rate-grid">
+        <div class="rate-cell"><div class="m">2025/02</div><div class="v">0.250%</div></div>
+        <div class="rate-cell"><div class="m">2025/03</div><div class="v">0.250%</div></div>
+        <div class="rate-cell"><div class="m">2025/04</div><div class="v">0.250%</div></div>
+        <div class="rate-cell"><div class="m">2025/05</div><div class="v">0.250%</div></div>
+        <div class="rate-cell"><div class="m">2025/06</div><div class="v">0.250%</div></div>
+        <div class="rate-cell"><div class="m">2025/07</div><div class="v">0.250%</div></div>
+        <div class="rate-cell"><div class="m">2025/08</div><div class="v">0.250%</div></div>
+        <div class="rate-cell"><div class="m">2025/09</div><div class="v">0.209%</div></div>
+        <div class="rate-cell"><div class="m">2025/10</div><div class="v">0.124%</div></div>
+        <div class="rate-cell"><div class="m">2025/11</div><div class="v">0.007%</div></div>
+        <div class="rate-cell"><div class="m">2025/12</div><div class="v">0.001%</div></div>
+        <div class="rate-cell"><div class="m">2026/01</div><div class="v">0.001%</div></div>
+      </div>
+    </div>
+
+  </div><!-- /view-rates -->
+
+
+  <p class="disclaimer">
+    帳戶結餘截至 28/05/2026 及 11/06/2026（來源：宏利App / 積金易截圖）。基金價格及表現數據截至 2026年1月31日每月摘要；風險級別及投資組合資料來自2025年9月30日季度概覽。<br>
+    過往表現不代表未來表現，投資涉及風險。本頁面僅供個人參考紀錄，不構成投資建議。強積金調整須透過計劃受託人處理。<br>
+    宏利環球精選（強積金）計劃 · 成員熱線 (852) 2108 1388 · manulife.com.hk/mpf-en
+  </p>
+
+</div><!-- /wrap -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>
-const funds=[
-  {code:'SHK137',zh:'宏利 MPF 康健護理基金',en:'Manulife MPF Healthcare Fund',price:34.302,type:'equity',risk:5,ytd:1.03,y1:12.98,y3:23.02,y5:32.56,y2025:18.28,y2024:-1.55},
-  {code:'SHK128',zh:'宏利 MPF 亞太股票基金',en:'Manulife MPF Pacific Asia Equity Fund',price:42.752,type:'equity',risk:5,ytd:9.09,y1:34.65,y3:48.37,y5:30.22,y2025:23.96,y2024:11.80},
-  {code:'SHK136',zh:'宏利 MPF 中華威力基金',en:'Manulife MPF China Value Fund',price:34.683,type:'equity',risk:6,ytd:8.95,y1:48.59,y3:40.17,y5:-4.84,y2025:37.73,y2024:13.34},
-  {code:'SHK126',zh:'宏利 MPF 香港股票基金',en:'Manulife MPF Hong Kong Equity Fund',price:26.573,type:'equity',risk:6,ytd:8.11,y1:42.01,y3:24.76,y5:-14.36,y2025:32.02,y2024:14.12},
-  {code:'SHK145',zh:'宏利 MPF 恒指 ESG 基金',en:'Manulife MPF Hang Seng Index ESG Fund',price:16.484,type:'equity',risk:7,ytd:6.35,y1:39.23,y3:21.77,y5:-2.00,y2025:31.02,y2024:11.13},
-  {code:'SHK131',zh:'宏利 MPF 日本股票基金',en:'Manulife MPF Japan Equity Fund',price:26.170,type:'equity',risk:5,ytd:3.52,y1:25.58,y3:78.66,y5:84.71,y2025:20.77,y2024:21.29},
-  {code:'SHK129',zh:'宏利 MPF 歐洲股票基金',en:'Manulife MPF European Equity Fund',price:18.698,type:'equity',risk:6,ytd:3.65,y1:12.26,y3:29.42,y5:25.87,y2025:14.83,y2024:-2.81},
-  {code:'SHK130',zh:'宏利 MPF 北美股票基金',en:'Manulife MPF North American Equity Fund',price:36.380,type:'equity',risk:5,ytd:-0.23,y1:7.16,y3:71.04,y5:59.93,y2025:12.15,y2024:21.23},
-  {code:'SHK127',zh:'宏利 MPF 國際股票基金',en:'Manulife MPF International Equity Fund',price:29.605,type:'equity',risk:5,ytd:2.21,y1:13.67,y3:57.57,y5:44.53,y2025:15.15,y2024:15.06},
-  {code:'SHK124',zh:'宏利 MPF 進取基金',en:'Manulife MPF Aggressive Fund',price:29.337,type:'mixed',risk:5,ytd:4.91,y1:25.68,y3:39.82,y5:18.89,y2025:22.01,y2024:9.61},
-  {code:'SHK134',zh:'宏利 MPF 富達增長基金',en:'Manulife MPF Fidelity Growth Fund',price:40.181,type:'mixed',risk:5,ytd:4.77,y1:23.88,y3:31.99,y5:13.34,y2025:20.01,y2024:9.70},
-  {code:'SHK123',zh:'宏利 MPF 增長基金',en:'Manulife MPF Growth Fund',price:26.583,type:'mixed',risk:4,ytd:4.12,y1:21.43,y3:31.32,y5:11.60,y2025:18.43,y2024:7.24},
-  {code:'SHK135',zh:'宏利 MPF 富達平穩增長基金',en:'Manulife MPF Fidelity Stable Growth Fund',price:25.432,type:'mixed',risk:4,ytd:2.94,y1:15.12,y3:18.06,y5:-0.52,y2025:12.90,y2024:3.99},
-  {code:'SHK150',zh:'宏利 MPF 退休收益基金',en:'Manulife MPF Retirement Income Fund',price:9.388,type:'mixed',risk:3,ytd:1.66,y1:8.32,y3:5.31,y5:-13.89,y2025:7.23,y2024:1.01},
-  {code:'SHK144',zh:'宏利 MPF 2045 退休基金',en:'Manulife MPF 2045 Retirement Fund',price:23.030,type:'mixed',risk:5,ytd:5.75,y1:28.95,y3:47.50,y5:27.76,y2025:24.08,y2024:13.04},
-  {code:'SHK143',zh:'宏利 MPF 2040 退休基金',en:'Manulife MPF 2040 Retirement Fund',price:22.764,type:'mixed',risk:5,ytd:5.72,y1:28.73,y3:47.29,y5:27.21,y2025:23.90,y2024:13.08},
-  {code:'SHK142',zh:'宏利 MPF 2035 退休基金',en:'Manulife MPF 2035 Retirement Fund',price:21.664,type:'mixed',risk:5,ytd:4.96,y1:25.11,y3:41.23,y5:22.11,y2025:21.18,y2024:11.15},
-  {code:'SHK141',zh:'宏利 MPF 2030 退休基金',en:'Manulife MPF 2030 Retirement Fund',price:20.048,type:'mixed',risk:4,ytd:4.12,y1:21.38,y3:35.29,y5:16.54,y2025:18.41,y2024:9.42},
-  {code:'SHK140',zh:'宏利 MPF 2025 退休基金',en:'Manulife MPF 2025 Retirement Fund',price:17.351,type:'mixed',risk:4,ytd:2.78,y1:15.65,y3:25.40,y5:8.00,y2025:13.99,y2024:7.17},
-  {code:'SHK138',zh:'宏利 MPF 智優裕退休基金',en:'Manulife MPF Smart Retirement Fund',price:15.385,type:'mixed',risk:4,ytd:2.76,y1:15.30,y3:23.96,y5:7.07,y2025:13.54,y2024:6.06},
-  {code:'SHK148',zh:'宏利 MPF 核心累積基金',en:'Manulife MPF Core Accumulation Fund',price:18.138,type:'dis',risk:4,ytd:1.86,y1:13.50,y3:37.82,y5:34.44,y2025:13.75,y2024:9.63},
-  {code:'SHK149',zh:'宏利 MPF 65歲後基金',en:'Manulife MPF Age 65 Plus Fund',price:12.277,type:'dis',risk:2,ytd:0.64,y1:5.67,y3:14.02,y5:2.15,y2025:5.79,y2024:3.09},
-  {code:'SHK147',zh:'宏利 MPF 人民幣債券基金',en:'Manulife MPF RMB Bond Fund',price:12.389,type:'bond',risk:3,ytd:0.63,y1:6.57,y3:9.10,y5:7.13,y2025:7.27,y2024:1.37},
-  {code:'SHK146',zh:'宏利 MPF 可持續亞太債券基金',en:'Manulife MPF Sustainable Pacific Asia Bond Fund',price:12.121,type:'bond',risk:3,ytd:0.22,y1:6.09,y3:7.23,y5:-2.08,y2025:6.60,y2024:1.90},
-  {code:'SHK133',zh:'宏利 MPF 國際債券基金',en:'Manulife MPF International Bond Fund',price:15.779,type:'bond',risk:4,ytd:1.16,y1:6.11,y3:5.31,y5:-12.60,y2025:5.24,y2024:-2.83},
-  {code:'SHK132',zh:'宏利 MPF 香港債券基金',en:'Manulife MPF Hong Kong Bond Fund',price:16.054,type:'bond',risk:3,ytd:-0.30,y1:5.61,y3:12.37,y5:2.80,y2025:6.66,y2024:2.60},
-  {code:'SHK125',zh:'宏利 MPF 保守基金',en:'Manulife MPF Conservative Fund',price:12.604,type:'money',risk:1,ytd:0.16,y1:2.30,y3:10.18,y5:11.12,y2025:2.49,y2024:3.76},
-  {code:'SHK122',zh:'宏利 MPF 穩健基金',en:'Manulife MPF Stable Fund',price:17.511,type:'guaranteed',risk:3,ytd:0.88,y1:10.74,y3:16.60,y5:0.91,y2025:10.89,y2024:4.64},
-  {code:'DHK121',zh:'宏利 MPF 利息基金',en:'Manulife MPF Interest Fund',price:null,type:'guaranteed',risk:1,ytd:0.07,y1:0.88,y3:2.56,y5:3.46,y2025:0.88,y2024:0.88}
-];
-const tlabels={equity:'股票基金',mixed:'混合資產',bond:'債券基金',money:'貨幣市場',guaranteed:'保證基金',dis:'預設投資策略'};
-const tcls={equity:'te',mixed:'tm',bond:'tb',money:'tmm',guaranteed:'tg',dis:'td'};
-let cfilter='all';
-
-function fp(v){if(v===null||v===undefined)return'<span class="pz">N/A</span>';const c=v>0?'pp':v<0?'pn':'pz';return`<span class="${c}">${v>0?'+':''}${v.toFixed(2)}%</span>`;}
-
-function renderAll(list){
-  const b=document.getElementById('ftb');b.innerHTML='';
-  list.forEach(f=>{
-    b.insertAdjacentHTML('beforeend',`<tr>
-      <td><div class="fz">${f.zh}</div><div class="fen">${f.en}</div><div style="margin-top:3px"><span class="fcode">${f.code}</span> <span class="tag ${tcls[f.type]}">${tlabels[f.type]}</span></div></td>
-      <td class="r" style="font-weight:500">${f.price?'$'+f.price.toFixed(3):'—'}</td>
-      <td class="r">${fp(f.ytd)}</td><td class="r">${fp(f.y1)}</td><td class="r">${fp(f.y3)}</td>
-      <td class="r">${fp(f.y2025)}</td><td class="r">${fp(f.y2024)}</td>
-      <td class="r"><span class="rbadge r${f.risk}">${f.risk}</span></td>
-    </tr>`);
+/* ================= TAB SWITCHING ================= */
+document.querySelectorAll('.nav-tab').forEach(tab=>{
+  tab.addEventListener('click',()=>{
+    document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('view-'+tab.dataset.view).classList.add('active');
   });
-}
-function sf(t,btn){cfilter=t;document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');flt();}
-function flt(){const q=document.getElementById('si').value.toLowerCase();const r=funds.filter(f=>(cfilter==='all'||f.type===cfilter)&&(!q||f.code.toLowerCase().includes(q)||f.zh.includes(q)||f.en.toLowerCase().includes(q)));renderAll(r);}
-function sw(n){document.querySelectorAll('.tab-content').forEach(e=>e.classList.remove('active'));document.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));document.getElementById('tab-'+n).classList.add('active');const idx=['myaccount','allfunds','distribution','interest'].indexOf(n);document.querySelectorAll('.tab')[idx].classList.add('active');}
+});
 
-renderAll(funds);
+/* ================= COLOR HELPERS (resolve CSS vars) ================= */
+function cssVar(name){return getComputedStyle(document.documentElement).getPropertyValue(name).trim();}
 
-// MY PERF CHART
-const years=['2020','2021','2022','2023','2024','2025'];
-new Chart(document.getElementById('myPerfChart'),{
+/* ================= CALENDAR RETURN CHART (held funds) ================= */
+const returnCtx = document.getElementById('returnChart');
+new Chart(returnCtx,{
   type:'bar',
-  data:{labels:years,datasets:[
-    {label:'北美股票',data:[null,23.04,-31.94,38.69,21.23,12.15],backgroundColor:'#185FA5',borderRadius:3},
-    {label:'日本股票',data:[null,9.64,-11.30,24.82,21.29,20.77],backgroundColor:'#1D9E75',borderRadius:3},
-    {label:'保守基金',data:[null,0.01,0.51,3.78,3.76,2.49],backgroundColor:'#BA7517',borderRadius:3}
-  ]},
-  options:{responsive:true,maintainAspectRatio:false,
-    plugins:{legend:{display:false}},
+  data:{
+    labels:['2022','2023','2024','2025'],
+    datasets:[
+      {label:'北美股票 SHK130', data:[-31.94, 38.69, 21.23, 12.15], backgroundColor:cssVar('--blue')},
+      {label:'日本股票 SHK131', data:[-11.30, 24.82, 21.29, 20.77], backgroundColor:cssVar('--up')},
+      {label:'保守基金 SHK125',  data:[0.51, 3.78, 3.76, 2.49],     backgroundColor:cssVar('--gold')},
+      {label:'國際債券 SHK133',  data:[-16.11, 5.03, -2.83, 5.24],  backgroundColor:cssVar('--plum')}
+    ]
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    plugins:{
+      legend:{position:'bottom', labels:{color:cssVar('--ink-soft'), font:{size:11}, boxWidth:12, boxHeight:12, padding:14}},
+      tooltip:{callbacks:{label:(c)=>` ${c.dataset.label}: ${c.parsed.y>0?'+':''}${c.parsed.y}%`}}
+    },
     scales:{
-      y:{ticks:{callback:v=>v+'%',font:{size:11}},grid:{color:'rgba(128,128,128,0.1)'}},
-      x:{ticks:{font:{size:11}},grid:{display:false}}
+      x:{grid:{display:false}, ticks:{color:cssVar('--ink-soft'), font:{size:11}}},
+      y:{grid:{color:cssVar('--line-soft')}, ticks:{color:cssVar('--ink-faint'), font:{size:10}, callback:(v)=>v+'%'}}
     }
   }
 });
 
-// CUSTOM LEGEND
-const myChart=document.getElementById('myPerfChart');
-const legendDiv=document.createElement('div');
-legendDiv.style.cssText='display:flex;gap:16px;font-size:12px;margin-bottom:8px;flex-wrap:wrap;';
-legendDiv.innerHTML=`<span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:#185FA5;display:inline-block;"></span>北美股票 SHK130</span><span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:#1D9E75;display:inline-block;"></span>日本股票 SHK131</span><span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:#BA7517;display:inline-block;"></span>保守基金 SHK125</span>`;
-myChart.parentElement.before(legendDiv);
-
-// DIST CHART
-const mons=['25/02','25/03','25/04','25/05','25/06','25/07','25/08','25/09','25/10','25/11','25/12','26/01'];
-new Chart(document.getElementById('distChart'),{
-  type:'line',
-  data:{labels:mons,datasets:[{label:'年度化派息率',data:[4.17,4.16,4.29,4.13,4.11,4.04,4.04,4.00,4.01,4.02,3.99,3.94],borderColor:'#0F6E56',backgroundColor:'rgba(15,110,86,0.07)',fill:true,tension:0.3,pointBackgroundColor:'#0F6E56',pointRadius:4}]},
-  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:3.5,max:4.5,ticks:{callback:v=>v.toFixed(2)+'%',font:{size:11}}},x:{ticks:{font:{size:10},maxRotation:45},grid:{display:false}}}}
+/* ================= ALLOCATION PIE CHART ================= */
+const allocCtx = document.getElementById('allocChart');
+new Chart(allocCtx,{
+  type:'doughnut',
+  data:{
+    labels:['北美股票 SHK130 (40%)','日本股票 SHK131 (25%)','保守基金 SHK125 (20%)','國際債券 SHK133 (15%)'],
+    datasets:[{
+      data:[40,25,20,15],
+      backgroundColor:[cssVar('--blue'), cssVar('--up'), cssVar('--gold'), cssVar('--plum')],
+      borderColor:cssVar('--bg-card'), borderWidth:3
+    }]
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false, cutout:'62%',
+    plugins:{
+      legend:{position:'bottom', labels:{color:cssVar('--ink-soft'), font:{size:11.5}, boxWidth:12, boxHeight:12, padding:14}},
+      tooltip:{callbacks:{label:(c)=>` ${c.label}`}}
+    }
+  }
 });
 
-// INT CHART
-new Chart(document.getElementById('intChart'),{
-  type:'bar',
-  data:{labels:mons,datasets:[{label:'公佈利率',data:[0.875,0.875,0.875,0.875,0.875,0.875,0.875,0.875,0.875,0.875,0.875,0.875],backgroundColor:'#185FA5',borderRadius:3}]},
-  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:0,max:1.5,ticks:{callback:v=>v.toFixed(3)+'%',font:{size:10}}},x:{ticks:{font:{size:9},maxRotation:45},grid:{display:false}}}}
+/* ================= ALL FUNDS DATA ================= */
+// code, name_zh, name_en, price, ytd, y1, y2025, y2024, y2023, y2022, category, held
+const FUNDS = [
+  // Equity
+  ['SHK137','宏利MPF康健護理基金','Manulife MPF Healthcare Fund',34.302,1.03,12.98,18.28,-1.55,3.95,-6.06,'equity',false],
+  ['SHK128','宏利MPF亞太股票基金','Manulife MPF Pacific Asia Equity Fund',42.752,9.09,34.65,23.96,11.80,5.55,-17.17,'equity',false],
+  ['SHK136','宏利MPF中華威力基金','Manulife MPF China Value Fund',34.683,8.95,48.59,37.73,13.34,-8.09,-27.77,'equity',false],
+  ['SHK126','宏利MPF香港股票基金','Manulife MPF Hong Kong Equity Fund',26.573,8.11,42.01,32.02,14.12,-14.97,-22.39,'equity',false],
+  ['SHK145','宏利MPF恒指ESG基金','Manulife MPF Hang Seng Index ESG Fund',16.484,6.35,39.23,31.02,11.13,-13.34,-13.21,'equity',false],
+  ['SHK131','宏利MPF日本股票基金','Manulife MPF Japan Equity Fund',26.170,3.52,25.58,20.77,21.29,24.82,-11.30,'equity',true],
+  ['SHK129','宏利MPF歐洲股票基金','Manulife MPF European Equity Fund',18.698,3.65,12.26,14.83,-2.81,23.66,-31.12,'equity',false],
+  ['SHK130','宏利MPF北美股票基金','Manulife MPF North American Equity Fund',36.380,-0.23,7.16,12.15,21.23,38.69,-31.94,'equity',true],
+  ['SHK127','宏利MPF國際股票基金','Manulife MPF International Equity Fund',29.605,2.21,13.67,15.15,15.06,26.51,-28.29,'equity',false],
+  // Mixed
+  ['SHK124','宏利MPF進取基金','Manulife MPF Aggressive Fund',29.337,4.91,25.68,22.01,9.61,8.00,-23.47,'mixed',false],
+  ['SHK134','宏利MPF富達增長基金','Manulife MPF Fidelity Growth Fund',40.181,4.77,23.88,20.01,9.70,4.16,-20.90,'mixed',false],
+  ['SHK123','宏利MPF增長基金','Manulife MPF Growth Fund',26.583,4.12,21.43,18.43,7.24,6.29,-21.44,'mixed',false],
+  ['SHK135','宏利MPF富達平穩增長基金','Manulife MPF Fidelity Stable Growth Fund',25.432,2.94,15.12,12.90,3.99,3.96,-19.26,'mixed',false],
+  ['SHK150','宏利MPF退休收益基金','Manulife MPF Retirement Income Fund',9.388,1.66,8.32,7.23,1.01,0.19,-2.22,'mixed',false],
+  // Target date
+  ['SHK144','宏利MPF2045退休基金','Manulife MPF 2045 Retirement Fund',23.030,5.75,28.95,24.08,13.04,7.76,-22.74,'target',false],
+  ['SHK143','宏利MPF2040退休基金','Manulife MPF 2040 Retirement Fund',22.764,5.72,28.73,23.90,13.08,7.68,-22.81,'target',false],
+  ['SHK142','宏利MPF2035退休基金','Manulife MPF 2035 Retirement Fund',21.664,4.96,25.11,21.18,11.15,7.88,-22.23,'target',false],
+  ['SHK141','宏利MPF2030退休基金','Manulife MPF 2030 Retirement Fund',20.048,4.12,21.38,18.41,9.42,7.42,-21.24,'target',false],
+  ['SHK140','宏利MPF2025退休基金','Manulife MPF 2025 Retirement Fund',17.351,2.78,15.65,13.99,7.17,5.74,-19.25,'target',false],
+  ['SHK138','宏利MPF智優裕退休基金','Manulife MPF Smart Retirement Fund',15.385,2.76,15.30,13.54,6.06,6.00,-18.74,'target',false],
+  // DIS
+  ['SHK148','宏利MPF核心累積基金','Manulife MPF Core Accumulation Fund',18.138,1.86,13.50,13.75,9.63,14.23,-16.16,'dis',false],
+  ['SHK149','宏利MPF65歲後基金','Manulife MPF Age 65 Plus Fund',12.277,0.64,5.67,5.79,3.09,7.16,-14.74,'dis',false],
+  // Bond
+  ['SHK147','宏利MPF人民幣債券基金','Manulife MPF RMB Bond Fund',12.389,0.63,6.57,7.27,1.37,2.59,-6.01,'bond',false],
+  ['SHK146','宏利MPF可持續亞太債券基金','Manulife MPF Sustainable Pacific Asia Bond Fund',12.121,0.22,6.09,6.60,1.90,3.20,-10.91,'bond',false],
+  ['SHK133','宏利MPF國際債券基金','Manulife MPF International Bond Fund',15.779,1.16,6.11,5.24,-2.83,5.03,-16.11,'bond',true],
+  ['SHK132','宏利MPF香港債券基金','Manulife MPF Hong Kong Bond Fund',16.054,-0.30,5.61,6.66,2.60,5.65,-9.46,'bond',false],
+  // MMF
+  ['SHK125','宏利MPF保守基金','Manulife MPF Conservative Fund',12.604,0.16,2.30,2.49,3.76,3.78,0.51,'mmf',true],
+  // Guaranteed
+  ['SHK122','宏利MPF穩健基金','Manulife MPF Stable Fund',17.511,0.88,10.74,10.89,4.64,4.21,-15.23,'guaranteed',false],
+];
+
+const CAT_LABELS = {
+  equity:'股票基金 Equity Funds', mixed:'混合資產基金 Mixed Asset Funds',
+  target:'目標日期退休基金 Target Date Retirement Funds',
+  dis:'預設投資策略基金 Default Investment Strategy Funds',
+  bond:'債券基金 Bond Funds', mmf:'貨幣市場基金 Money Market Fund',
+  guaranteed:'保證基金 Guaranteed Funds'
+};
+const CAT_ORDER = ['equity','mixed','target','dis','bond','mmf','guaranteed'];
+
+function pctCell(v){
+  if(v===null||v===undefined||v==='') return '<td>—</td>';
+  const cls = v>=0?'pos':'neg';
+  return `<td class="${cls}">${v>=0?'+':''}${v.toFixed(2)}%</td>`;
+}
+
+let currentFilter='all', currentSearch='';
+
+function renderAllFunds(){
+  const tbody=document.getElementById('allFundsBody');
+  tbody.innerHTML='';
+  const q=currentSearch.toLowerCase();
+
+  let groups;
+  if(currentFilter==='all') groups=CAT_ORDER;
+  else if(currentFilter==='held') groups=null; // flat list
+  else groups=[currentFilter];
+
+  if(currentFilter==='held'){
+    const rows=FUNDS.filter(f=>f[11]).filter(f=> f[1].toLowerCase().includes(q)||f[0].toLowerCase().includes(q)||f[2].toLowerCase().includes(q));
+    rows.forEach(f=>tbody.appendChild(makeRow(f)));
+    if(rows.length===0) tbody.innerHTML='<tr><td colspan="9" style="text-align:center;color:var(--ink-faint);padding:24px">沒有符合的基金</td></tr>';
+    return;
+  }
+
+  let any=false;
+  groups.forEach(cat=>{
+    const rows=FUNDS.filter(f=>f[10]===cat).filter(f=> f[1].toLowerCase().includes(q)||f[0].toLowerCase().includes(q)||f[2].toLowerCase().includes(q));
+    if(rows.length===0) return;
+    any=true;
+    if(currentFilter==='all'){
+      const trCat=document.createElement('tr');
+      trCat.className='cat-section';
+      trCat.innerHTML=`<td colspan="9">${CAT_LABELS[cat]}</td>`;
+      tbody.appendChild(trCat);
+    }
+    rows.forEach(f=>tbody.appendChild(makeRow(f)));
+  });
+  if(!any) tbody.innerHTML='<tr><td colspan="9" style="text-align:center;color:var(--ink-faint);padding:24px">沒有符合的基金</td></tr>';
+}
+
+function makeRow(f){
+  const [code,nameZh,nameEn,price,ytd,y1,y2025,y2024,y2023,y2022,cat,held]=f;
+  const tr=document.createElement('tr');
+  if(held) tr.classList.add('held');
+  tr.innerHTML=
+    `<td><span class="fname">${nameZh}${held?'<span class="held-badge">持倉中</span>':''}</span><span class="fcat">${nameEn}</span></td>`+
+    `<td class="mono">${code}</td>`+
+    `<td class="mono">${price.toFixed(3)}</td>`+
+    pctCell(ytd)+pctCell(y1)+pctCell(y2025)+pctCell(y2024)+pctCell(y2023)+pctCell(y2022);
+  return tr;
+}
+
+document.querySelectorAll('.filter-chip').forEach(chip=>{
+  chip.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-chip').forEach(c=>c.classList.remove('active'));
+    chip.classList.add('active');
+    currentFilter=chip.dataset.filter;
+    renderAllFunds();
+  });
+});
+document.getElementById('fundSearch').addEventListener('input',e=>{
+  currentSearch=e.target.value.trim();
+  renderAllFunds();
 });
 
-// STABLE CHART
-new Chart(document.getElementById('stChart'),{
-  type:'bar',
-  data:{labels:mons,datasets:[{label:'保證利率',data:[0.250,0.250,0.250,0.250,0.250,0.250,0.250,0.209,0.124,0.007,0.001,0.001],backgroundColor:'#BA7517',borderRadius:3}]},
-  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:0,max:0.35,ticks:{callback:v=>v.toFixed(3)+'%',font:{size:10}}},x:{ticks:{font:{size:9},maxRotation:45},grid:{display:false}}}}
+/* Sortable columns */
+const COL_IDX={name:1,code:0,price:3,ytd:4,y1:5,y2025:6,y2024:7,y2023:8,y2022:9};
+let sortCol=null, sortDir=1;
+document.querySelectorAll('#allFundsTable thead th[data-col]').forEach(th=>{
+  th.addEventListener('click',()=>{
+    const col=th.dataset.col;
+    if(sortCol===col) sortDir*=-1; else {sortCol=col; sortDir=1;}
+    document.querySelectorAll('#allFundsTable thead th').forEach(t=>t.style.color='');
+    th.style.color='var(--teal)';
+    FUNDS.sort((a,b)=>{
+      const idx=COL_IDX[col];
+      let av=a[idx], bv=b[idx];
+      if(typeof av==='string') av=av.toLowerCase();
+      if(typeof bv==='string') bv=bv.toLowerCase();
+      return (av<bv?-1:av>bv?1:0)*sortDir;
+    });
+    currentFilter='all';
+    document.querySelectorAll('.filter-chip').forEach(c=>c.classList.remove('active'));
+    document.querySelector('.filter-chip[data-filter="all"]').classList.add('active');
+    renderAllFunds();
+  });
 });
+
+renderAllFunds();
 </script>
-
-
-</body></html>
+</body>
+</html>
