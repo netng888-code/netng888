@@ -203,14 +203,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <a class="qlink" href="https://netng888-code.github.io/netng888/manulife_mpf.html" target="_blank" onmouseover="this.querySelector('.qlink-preview').style.display='block'" onmouseout="this.querySelector('.qlink-preview').style.display='none'">
     <span class="qlink-icon">🏦</span> Manulife MPF
     <div class="qlink-preview" style="display: none;">
-      <iframe src="manulife_mpf.html" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+      <iframe src="index_files/manulife_mpf.htm" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
     </div>
   </a>
   <div class="qlink-sep"></div>
   <a class="qlink" href="https://netng888-code.github.io/netng888/mywatchlist.html" target="_blank" onmouseover="this.querySelector('.qlink-preview').style.display='block'" onmouseout="this.querySelector('.qlink-preview').style.display='none'">
     <span class="qlink-icon">📋</span> My Watchlist
     <div class="qlink-preview" style="display: none;">
-      <iframe src="mywatchlist.html" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+      <iframe src="index_files/mywatchlist.htm" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
     </div>
   </a>
 </div>
@@ -223,9 +223,9 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     <div class="subtitle">帳號 0193 ｜ 持倉保證金綜合帳戶</div>
   </div>
   <div class="header-right">
-    <div id="clock">06:11:16</div>
+    <div id="clock">17:45:46</div>
     <div id="date-str">2026年6月12日週五</div>
-    <div id="market-status" class="market-closed">🌙 盤後 After-Hours 香港 06:11</div>
+    <div id="market-status" class="market-pre">🌅 盤前 Pre-Market 香港 17:45</div>
   </div>
 </header>
 
@@ -241,32 +241,32 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="summary-grid">
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
-      <div class="summary-value" id="sum-us-mktval">USD 34,645.02</div>
+      <div class="summary-value" id="sum-us-mktval">USD 32,653.28</div>
       <div class="summary-sub" id="sum-us-count">17 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 8,755.66</div>
+      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 7,879.63</div>
       <div class="summary-sub">未計已實現</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股已實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-realized">+USD 9,736+</div>
-      <div class="summary-sub">MU沽2@810(+762)｜RKLB沽5(+440)｜RDW沽70(+731)</div>
+      <div class="summary-value pnl-pos" id="sum-us-realized">+USD 10,508+</div>
+      <div class="summary-sub">MU沽2@944(+772)｜MU沽2@810(+762)｜RKLB沽5(+440)</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">今日盈虧 (美股)</div>
-      <div class="summary-value pnl-pos" id="sum-us-today">+ USD 2,007.70</div>
+      <div class="summary-value pnl-pos" id="sum-us-today">+ USD 1,799.72</div>
       <div class="summary-sub">USD · 實時</div>
     </div>
   </div>
 
   <!-- Status -->
   <div class="status-bar">
-    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">Finnhub 已載入 18/18 個報價 · 06:10:37</span></div>
+    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">Finnhub 已載入 18/18 個報價 · 17:45:05</span></div>
     <div class="status-pill">來源: <span style="color:var(--text);margin-left:4px">Finnhub</span></div>
-    <div class="status-pill" style="color:var(--amber);"><span id="refresh-countdown">次更新 21s</span></div>
-    <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">06:10:37</span></div>
+    <div class="status-pill" style="color:var(--amber);"><span id="refresh-countdown">次更新 20s</span></div>
+    <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">17:45:05</span></div>
     <div class="status-pill" style="margin-left:auto">
       <button onclick="refreshAll()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-family:var(--font-mono);font-size:11px;">↻ 刷新報價</button>
     </div>
@@ -275,13 +275,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <!-- Realized banner -->
   <div class="realized-banner">
     ✅ <strong>已鎖定利潤：</strong>
+    MU 沽2股@$944 +$772 ｜
     MU 沽2股@$810 +$762 ｜
     RDW 沽30@$20.3 + 沽20@$22.5 + 沽20@$27 = +$731 ｜
     RKLB 沽5股 +$440 ｜
     ASTS 已清倉 ｜
     07709 沽100@$110 +HKD 9,420 ｜
     07709 沽100@$133 +HKD 11,720
-    <br>美股已實現 <strong>+USD 9,736+</strong> ｜ 港股已實現 <strong>+HKD 30,560+</strong>
+    <br>美股已實現 <strong>+USD 10,508+</strong> ｜ 港股已實現 <strong>+HKD 30,560+</strong>
   </div>
 
   <!-- US Stocks -->
@@ -309,14 +310,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <tbody id="us-tbody"><tr>
       <td><span class="sym-badge" onclick="openFlipTo('MU')">MU</span></td>
       <td class="name-cell">美光科技</td>
-      <td style="color:var(--muted)">7</td>
+      <td style="color:var(--muted)">5</td>
       <td><span class="price-cell price-live">995.87</span></td>
       <td><span class="ext-price-cell">+103.99 (+11.66%)</span></td>
       <td style="color:var(--muted)">557.86</td>
-      <td class="mktval-cell">6,971.09</td>
-      <td class="pnl-pos">+3,066.09</td>
+      <td class="mktval-cell">4,979.35</td>
+      <td class="pnl-pos">+2,190.07</td>
       <td><span class="pct-badge pos">+78.52%</span></td>
-      <td class="pnl-pos today-pnl-cell">+727.93</td>
+      <td class="pnl-pos today-pnl-cell">+519.95</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('MU')">📈</button>
@@ -815,7 +816,7 @@ const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
 
 // ── 美股持倉（由Futu CSV 2026-06-10 匯出，按市值降序）────────────────────────
 const US_HOLDINGS = [
-  { symbol:'MU',    name:'美光科技',              qty:7,   cost:557.857,  mktval:6352.50,  pnl:2447.50,  pnlPct:'+62.68%',  realized:1623.20, todayPnL:-198.73 },
+  { symbol:'MU',    name:'美光科技',              qty:5,   cost:557.857,  mktval:4537.50,  pnl:1748.22,  pnlPct:'+62.68%',  realized:2395.49, todayPnL:0 },
   { symbol:'GOOGL', name:'谷歌-A',                qty:12,  cost:178.40,   mktval:4349.28,  pnl:2208.48,  pnlPct:'+103.16%', realized:1776.20, todayPnL:-21.84  },
   { symbol:'AVGO',  name:'博通',                  qty:10,  cost:375.782,  mktval:3870.20,  pnl:112.38,   pnlPct:'+2.99%',   realized:3.78,    todayPnL:-51.40  },
   { symbol:'NVDA',  name:'英偉達',                qty:15,  cost:148.50,   mktval:3094.65,  pnl:867.15,   pnlPct:'+38.93%',  realized:1268.05, todayPnL:-28.20  },
