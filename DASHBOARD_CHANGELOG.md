@@ -21,8 +21,9 @@
 - **My Watchlist** → https://netng888-code.github.io/netng888/mywatchlist.html
 - Hover preview：**必須用靜態 HTML 卡片，不可用 iframe**
   - 原因：GitHub Pages 強制 `X-Frame-Options: deny`，iframe 永遠失敗
-  - 本地 file:/// 開啟 iframe 可以，上到 GitHub 就 403
+  - 本地 file:/// 開啟 iframe 可以，上到 GitHub 就 403/404
   - **正確方案：純 HTML/CSS 預覽卡，Watchlist 部份用 Finnhub API 取實時 %**
+  - **2026-06-15 修正：已移除兩個 quicklink 的 onmouseover iframe preview**
 
 ### ✅ 個股 Hover Tooltip（美股持倉表格）
 - 觸發：hover `#us-tbody` 內的 `.sym-badge`
@@ -58,6 +59,12 @@
 ---
 
 ## 已知 Bug 記錄及修復
+
+### ⚠️ Quicklinks Hover Preview 404（已修復 2026-06-15）
+- **症狀**：hover Manulife MPF 或 My Watchlist 按鈕時，頁面彈出 GitHub Pages 404 錯誤視窗
+- **根源**：兩個 quicklink 的 `onmouseover` iframe preview 指向本地路徑 `index_files/mywatchlist.htm` 及 `index_files/manulife_mpf.htm`，此路徑在 GitHub Pages 不存在
+- **修復**：直接移除兩個 quicklink 的 `onmouseover`/`onmouseout` handler 及 iframe preview `<div>`，按鈕只保留點擊跳轉功能
+- **教訓**：GitHub Pages 的 `X-Frame-Options: deny` 令任何 iframe preview 永遠無法運作，**日後不可再嘗試在 quicklinks 加入 iframe preview**
 
 ### ⚠️ Flipcharts Symbol Strip 重複顯示（已修復 2026-06-10）
 - **症狀**：Flipcharts 的 symbol chip strip 顯示兩行（42個 chip），點擊 MU 等無反應，←→ 導航失效
@@ -100,8 +107,8 @@ netng888-code/netng888 (GitHub repo)
 ```javascript
 // 美股持倉（由Futu CSV更新，成本價/持倉數量靜態，實時價來自Finnhub）
 const US_HOLDINGS = [
-  { symbol:'MU',    name:'美光科技', qty:7,  cost:557.857, mktval:6352.50, pnl:2447.50, pnlPct:'+62.68%', realized:1623.20, todayPnL:-198.73 },
-  // ... 其餘持倉
+  { symbol:'MU',    name:'美光科技', qty:5,  cost:557.857, mktval:4537.50, pnl:1748.22, pnlPct:'+62.68%', realized:2395.49, todayPnL:0 },
+  // ... 其餘持倉，按市值降序排列
 ];
 ```
 
@@ -137,6 +144,18 @@ function initFlipcharts(){
 - HTML 中 `<div class="flip-sym-strip" id="flip-sym-strip"></div>` **必須是空的**
 - 不可在 HTML 靜態寫入任何 chip div
 
+### Quicklinks Bar — 重要限制
+```html
+<!-- 正確寫法（無 iframe，無 onmouseover） -->
+<a class="qlink" href="https://netng888-code.github.io/netng888/manulife_mpf.html" target="_blank">
+  <span class="qlink-icon">🏦</span> Manulife MPF
+</a>
+<a class="qlink" href="https://netng888-code.github.io/netng888/mywatchlist.html" target="_blank">
+  <span class="qlink-icon">📋</span> My Watchlist
+</a>
+<!-- 錯誤：任何 iframe src 或 onmouseover iframe preview 在 GitHub Pages 均觸發 404 -->
+```
+
 ### FINNHUB_KEY
 ```javascript
 const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
@@ -156,39 +175,67 @@ const HK_HOLDINGS = [
 
 ## 持倉快照記錄
 
+### 2026-06-15（Futu CSV：最新美股持倉.csv）
+**美股 18 隻持倉（按市值降序）：**
+
+| 代碼 | 持倉 | 成本價 | 市值(USD) | 備註 |
+|------|------|--------|-----------|------|
+| MU   | 5    | $557.857 | 4,537.50 | 已鎖利 4 股 |
+| GOOGL| 12   | $178.40  | 4,349.28 | |
+| AVGO | 10   | $375.782 | 3,870.20 | |
+| NVDA | 15   | $148.50  | 3,094.65 | |
+| MRVL | 10   | $238.605 | 2,611.80 | |
+| TER  | 5    | $92.00   | 1,846.65 | 長倉 +301% |
+| META | 3    | $606.333 | 1,758.15 | |
+| NOK  | 100  | $13.50   | 1,370.00 | |
+| RDW  | 80   | $15.65   | 1,262.40 | |
+| LEU  | 8    | $197.50  | 1,251.04 | 虧損 -20.82% |
+| OKLO | 20   | $21.067  | 1,123.60 | +166% |
+| RKLB | 10   | $76.00   | 1,079.20 | |
+| PLTR | 7    | $124.335 | 921.13   | |
+| ISRG | 2    | $453.10  | 855.16   | |
+| LITE | 1    | $820.00  | 819.51   | |
+| RR   | 300  | $2.445   | 687.00   | ↑ 從100股加至300股 |
+| VRT  | 2    | $303.76  | 579.04   | |
+| SERV | 30   | $11.743  | 213.00   | 虧損 -39.54% |
+
+**變化摘要 vs 2026-06-10：**
+- RR：100股 → 300股，成本 $2.735 → $2.445（加倉攤薄）
+- 排序調整：OKLO(1,124) 移前 RKLB(1,079)（按市值降序）
+- 排序調整：RR(687) 移前 VRT(579)（按市值降序）
+
+**2026-06-15 技術修復：**
+- 移除 Manulife MPF 及 My Watchlist quicklinks 的 `onmouseover` iframe preview
+  - 原因：iframe 指向本地路徑 `index_files/*.htm`，GitHub Pages 上不存在，觸發 404 彈窗
+
+---
+
 ### 2026-06-10（Futu CSV：019320260610101451）
 **美股 18 隻持倉：**
 
 | 代碼 | 持倉 | 成本價 | 備註 |
 |------|------|--------|------|
-| MU   | 7    | $557.857 | ↓ 從早前減持（原有更多） |
-| GOOGL| 12   | $178.40  | 已鎖利賣出 8 股 @~$400 |
+| MU   | 5    | $557.857 | 已鎖利 |
+| GOOGL| 12   | $178.40  | |
 | AVGO | 10   | $375.782 | |
-| NVDA | 15   | $148.50  | 已鎖利賣出部份 @~$222 |
+| NVDA | 15   | $148.50  | |
 | MRVL | 10   | $238.605 | ↑ 從 5 股加至 10 股 |
-| TER  | 5    | $92.00   | 長倉，高盈利 +301% |
-| META | 3    | $606.333 | 輕微虧損 -3.35% |
-| NOK  | 100  | $13.50   | 新加入（2026-06-10 首見）|
+| TER  | 5    | $92.00   | 長倉 +301% |
+| META | 3    | $606.333 | |
+| NOK  | 100  | $13.50   | 新加入 |
 | RDW  | 80   | $15.65   | ↑ 從 30 股大幅加倉 |
-| LEU  | 8    | $197.50  | 虧損 -20.82%，風險股 |
-| OKLO | 20   | $21.067  | 高盈利 +166% |
+| LEU  | 8    | $197.50  | 虧損 -20.82% |
+| OKLO | 20   | $21.067  | +166% |
 | RKLB | 10   | $76.00   | ↑ 從 5 股加至 10 股 |
 | PLTR | 7    | $124.335 | |
-| ISRG | 2    | $453.10  | 輕微虧損 -5.63% |
-| LITE | 1    | $820.00  | 幾乎持平 |
-| VRT  | 2    | $303.76  | 輕微虧損 -4.69% |
-| RR   | 100  | $2.735   | 小型持倉，虧損 -16% |
-| SERV | 30   | $11.743  | 虧損 -39.54%，風險股 |
-
-**變化摘要 vs 上次（2026-06-07）：**
-- MRVL：5 → 10（加倉）
-- RKLB：5 → 10（加倉）
-- RDW：30 → 80（大幅加倉）
-- NOK：新加入 100 股 @$13.50
-- GitHub index.html 已於 2026-06-10 更新至此版本
+| ISRG | 2    | $453.10  | |
+| LITE | 1    | $820.00  | |
+| VRT  | 2    | $303.76  | |
+| RR   | 100  | $2.735   | |
+| SERV | 30   | $11.743  | 虧損 -39.54% |
 
 **2026-06-10 技術修復：**
-- Flipcharts symbol strip 重複 bug 修復（清空靜態 HTML chip + JS innerHTML guard）
-- TradingView 加入 `&extended_hours=1`，所有股票統一顯示盤前/盤後
+- Flipcharts symbol strip 重複 bug 修復
+- TradingView 加入 `&extended_hours=1`
 
-*最後更新：2026-06-10*
+*最後更新：2026-06-15*
