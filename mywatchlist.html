@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Watchlist</title>
-<link href="mywatchlist_files/css2.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg:#0a0c10; --bg2:#0f1218; --bg3:#141820;
@@ -87,9 +87,6 @@
   .price-cell{font-weight:500;font-size:13px;color:#fff;font-feature-settings:'tnum';}
   .chg-cell,.pct-cell{font-feature-settings:'tnum';font-weight:500;}
   .pos{color:var(--green);} .neg{color:var(--red);} .neu{color:var(--muted);}
-  @keyframes flashUp{0%{background:rgba(0,212,170,.3);}100%{background:transparent;}}
-  @keyframes flashDn{0%{background:rgba(255,77,109,.3);}100%{background:transparent;}}
-  .flash-up{animation:flashUp .8s ease-out;} .flash-dn{animation:flashDn .8s ease-out;}
   .vol-cell{color:var(--muted);font-size:11.5px;}
   .pct-badge{display:inline-block;padding:2px 7px;border-radius:3px;font-size:11.5px;font-weight:600;letter-spacing:.02em;}
   .pct-badge.pos{background:rgba(0,212,170,.12);color:var(--green);}
@@ -98,8 +95,6 @@
   .ohlc-cell{color:var(--muted);font-size:11px;}
   .finviz-link{font-size:10px;color:var(--muted);text-decoration:none;border:1px solid var(--border);border-radius:3px;padding:2px 6px;transition:all .2s;}
   .finviz-link:hover{border-color:var(--amber);color:var(--amber);}
-  .flip-btn-row{font-size:10px;color:var(--amber);text-decoration:none;border:1px solid rgba(245,166,35,.3);border-radius:3px;padding:2px 6px;cursor:pointer;transition:all .2s;background:none;}
-  .flip-btn-row:hover{border-color:var(--amber);background:rgba(245,166,35,.1);}
 
   /* ── FLIPCHARTS ── */
   #flipcharts-tab{position:relative;}
@@ -150,8 +145,8 @@
       <div class="subtitle">Live Quotes · Flipcharts · Finviz + TradingView</div>
     </div>
     <div class="header-right">
-      <div id="clock">12:37:56</div>
-      <div id="date-str">Fri, Jun 12, 2026</div>
+      <div id="clock">--:--:--</div>
+      <div id="date-str">--</div>
     </div>
   </header>
 
@@ -165,17 +160,16 @@
   <div class="tab-content active" id="tab-watchlist">
 
     <div class="status-bar">
-      <div class="status-pill"><div class="status-dot live" id="status-dot"></div><span id="status-text">Finnhub 已載入 20/20 個報價</span></div>
-      <div class="status-pill">來源: <span style="color:var(--text);margin-left:4px">Finnhub</span></div>
-      <div class="status-pill" style="color:var(--amber);"><span id="refresh-countdown">次更新 53s</span></div>
-      <div class="status-pill">Updated: <span id="last-updated" style="color:var(--text);margin-left:4px">12:37:49</span></div>
+      <div class="status-pill"><div class="status-dot" id="status-dot"></div><span id="status-text">Fetching live quotes...</span></div>
+      <div class="status-pill">Source: <span style="color:var(--text);margin-left:4px">Finviz</span></div>
+      <div class="status-pill">Updated: <span id="last-updated" style="color:var(--text);margin-left:4px">—</span></div>
     </div>
 
     <div class="summary-grid">
-      <div class="summary-card"><div class="summary-label">Total Symbols</div><div class="summary-value" id="sum-total">20</div><div class="summary-sub">In watchlist</div></div>
-      <div class="summary-card"><div class="summary-label">Advancing</div><div class="summary-value pos" id="sum-adv">20</div><div class="summary-sub">Positive today</div></div>
-      <div class="summary-card"><div class="summary-label">Declining</div><div class="summary-value neg" id="sum-dec">0</div><div class="summary-sub">Negative today</div></div>
-      <div class="summary-card"><div class="summary-label">Top Mover</div><div class="summary-value pos" id="sum-top" style="font-size:16px">RDW</div><div class="summary-sub" id="sum-top-sub">+14.93%</div></div>
+      <div class="summary-card"><div class="summary-label">Total Symbols</div><div class="summary-value" id="sum-total">21</div><div class="summary-sub">In watchlist</div></div>
+      <div class="summary-card"><div class="summary-label">Advancing</div><div class="summary-value pos" id="sum-adv">14</div><div class="summary-sub">Positive today</div></div>
+      <div class="summary-card"><div class="summary-label">Declining</div><div class="summary-value neg" id="sum-dec">7</div><div class="summary-sub">Negative today</div></div>
+      <div class="summary-card"><div class="summary-label">Top Mover</div><div class="summary-value pos" id="sum-top" style="font-size:16px">SPCX</div><div class="summary-sub" id="sum-top-sub">+7.30%</div></div>
     </div>
 
     <div class="controls">
@@ -185,7 +179,7 @@
       <button class="btn" id="sort-vol-btn">Sort Volume</button>
       <button class="btn" id="reset-btn">Reset</button>
       <button class="btn btn-flip" onclick="switchTab('flipcharts')">📈 Flipcharts</button>
-      <span class="sort-info" id="sort-info">20 symbols</span>
+      <span class="sort-info" id="sort-info">21 symbols</span>
     </div>
 
     <div class="table-wrap">
@@ -203,7 +197,7 @@
           <th data-col="time">Date</th>
           <th></th>
         </tr></thead>
-        <tbody id="wl-body"><tr class="selected-row"><td><span class="sym-badge" onclick="openFlipTo('TSLA')">TSLA</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Tesla Inc">Tesla Inc</td><td class="price-cell">399.15</td><td class="chg-cell pos">+17.56</td><td><span class="pct-badge pos">+4.60%</span></td><td class="ohlc-cell">388.28</td><td class="ohlc-cell">399.54</td><td class="ohlc-cell">380.66</td><td class="vol-cell">46.10M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=TSLA" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('INTC')">INTC</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Intel Corp">Intel Corp</td><td class="price-cell">116.96</td><td class="chg-cell pos">+9.92</td><td><span class="pct-badge pos">+9.27%</span></td><td class="ohlc-cell">113.52</td><td class="ohlc-cell">119.44</td><td class="ohlc-cell">110.51</td><td class="vol-cell">82.66M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=INTC" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('RDW')">RDW</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Redwire Corp">Redwire Corp</td><td class="price-cell">17.09</td><td class="chg-cell pos">+2.22</td><td><span class="pct-badge pos">+14.93%</span></td><td class="ohlc-cell">15.02</td><td class="ohlc-cell">17.27</td><td class="ohlc-cell">14.70</td><td class="vol-cell">55.45M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=RDW" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('MU')">MU</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Micron Technology">Micron Technology</td><td class="price-cell">995.87</td><td class="chg-cell pos">+103.99</td><td><span class="pct-badge pos">+11.66%</span></td><td class="ohlc-cell">904.37</td><td class="ohlc-cell">996.77</td><td class="ohlc-cell">895.50</td><td class="vol-cell">36.00M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=MU" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('TER')">TER</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Teradyne Inc">Teradyne Inc</td><td class="price-cell">381.40</td><td class="chg-cell pos">+33.81</td><td><span class="pct-badge pos">+9.73%</span></td><td class="ohlc-cell">358.55</td><td class="ohlc-cell">381.54</td><td class="ohlc-cell">356.60</td><td class="vol-cell">2.71M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=TER" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('SERV')">SERV</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Serve Robotics Inc">Serve Robotics Inc</td><td class="price-cell">7.44</td><td class="chg-cell pos">+0.46</td><td><span class="pct-badge pos">+6.59%</span></td><td class="ohlc-cell">6.98</td><td class="ohlc-cell">7.45</td><td class="ohlc-cell">6.85</td><td class="vol-cell">3.87M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=SERV" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('NOK')">NOK</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Nokia Corp ADR">Nokia Corp ADR</td><td class="price-cell">14.09</td><td class="chg-cell pos">+0.69</td><td><span class="pct-badge pos">+5.15%</span></td><td class="ohlc-cell">13.57</td><td class="ohlc-cell">14.17</td><td class="ohlc-cell">13.39</td><td class="vol-cell">127.72M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=NOK" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('BB')">BB</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Blackberry Ltd">Blackberry Ltd</td><td class="price-cell">9.29</td><td class="chg-cell pos">+0.47</td><td><span class="pct-badge pos">+5.33%</span></td><td class="ohlc-cell">8.76</td><td class="ohlc-cell">9.34</td><td class="ohlc-cell">8.75</td><td class="vol-cell">57.77M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=BB" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('TXN')">TXN</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Texas Instruments">Texas Instruments</td><td class="price-cell">297.10</td><td class="chg-cell pos">+15.09</td><td><span class="pct-badge pos">+5.35%</span></td><td class="ohlc-cell">289.89</td><td class="ohlc-cell">298.68</td><td class="ohlc-cell">285.79</td><td class="vol-cell">7.13M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=TXN" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('FLEX')">FLEX</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Flextronics Intl Ltd">Flextronics Intl Ltd</td><td class="price-cell">151.99</td><td class="chg-cell pos">+12.50</td><td><span class="pct-badge pos">+8.96%</span></td><td class="ohlc-cell">141.50</td><td class="ohlc-cell">152.13</td><td class="ohlc-cell">141.35</td><td class="vol-cell">3.59M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=FLEX" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('IFNNY')">IFNNY</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Infineon Techs Ag ADR">Infineon Techs Ag ADR</td><td class="price-cell">92.15</td><td class="chg-cell pos">+5.93</td><td><span class="pct-badge pos">+6.88%</span></td><td class="ohlc-cell">87.97</td><td class="ohlc-cell">92.97</td><td class="ohlc-cell">87.31</td><td class="vol-cell">710.6K</td><td class="ohlc-cell" style="font-size: 11px;">06/11</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=IFNNY" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('MPWR')">MPWR</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Monolithic Power Sys">Monolithic Power Sys</td><td class="price-cell">1,589.55</td><td class="chg-cell pos">+116.51</td><td><span class="pct-badge pos">+7.91%</span></td><td class="ohlc-cell">1,523.44</td><td class="ohlc-cell">1,593.77</td><td class="ohlc-cell">1,506.82</td><td class="vol-cell">476.7K</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=MPWR" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('NVT')">NVT</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Nvent Electric Plc">Nvent Electric Plc</td><td class="price-cell">164.52</td><td class="chg-cell pos">+7.73</td><td><span class="pct-badge pos">+4.93%</span></td><td class="ohlc-cell">161.26</td><td class="ohlc-cell">165.65</td><td class="ohlc-cell">159.69</td><td class="vol-cell">1.50M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=NVT" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('IBM')">IBM</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Intl Business Machines">Intl Business Machines</td><td class="price-cell">274.85</td><td class="chg-cell pos">+2.49</td><td><span class="pct-badge pos">+0.91%</span></td><td class="ohlc-cell">268.00</td><td class="ohlc-cell">276.48</td><td class="ohlc-cell">266.50</td><td class="vol-cell">19.07M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=IBM" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('IONQ')">IONQ</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="IonQ Inc">IonQ Inc</td><td class="price-cell">57.99</td><td class="chg-cell pos">+1.36</td><td><span class="pct-badge pos">+2.40%</span></td><td class="ohlc-cell">56.54</td><td class="ohlc-cell">59.47</td><td class="ohlc-cell">54.75</td><td class="vol-cell">52.65M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=IONQ" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('RGTI')">RGTI</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Rigetti Computing Inc">Rigetti Computing Inc</td><td class="price-cell">20.63</td><td class="chg-cell pos">+1.18</td><td><span class="pct-badge pos">+6.09%</span></td><td class="ohlc-cell">19.27</td><td class="ohlc-cell">21.23</td><td class="ohlc-cell">19.16</td><td class="vol-cell">204.23M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=RGTI" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('AMD')">AMD</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Adv Micro Devices">Adv Micro Devices</td><td class="price-cell">488.45</td><td class="chg-cell pos">+36.05</td><td><span class="pct-badge pos">+7.97%</span></td><td class="ohlc-cell">461.60</td><td class="ohlc-cell">490.46</td><td class="ohlc-cell">458.02</td><td class="vol-cell">34.76M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=AMD" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('MDT')">MDT</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Medtronic Inc">Medtronic Inc</td><td class="price-cell">80.33</td><td class="chg-cell pos">+0.08</td><td><span class="pct-badge pos">+0.10%</span></td><td class="ohlc-cell">80.09</td><td class="ohlc-cell">80.92</td><td class="ohlc-cell">79.80</td><td class="vol-cell">7.05M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=MDT" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('INSP')">INSP</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Inspire Medical Systems">Inspire Medical Systems</td><td class="price-cell">42.44</td><td class="chg-cell pos">+0.16</td><td><span class="pct-badge pos">+0.38%</span></td><td class="ohlc-cell">41.96</td><td class="ohlc-cell">42.65</td><td class="ohlc-cell">40.65</td><td class="vol-cell">1.38M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=INSP" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('NPCE')">NPCE</span><span style="font-size:9px;color:var(--green);margin-left:4px">●</span></td><td class="name-cell" title="Neuropace Inc">Neuropace Inc</td><td class="price-cell">15.84</td><td class="chg-cell pos">+0.13</td><td><span class="pct-badge pos">+0.83%</span></td><td class="ohlc-cell">15.71</td><td class="ohlc-cell">16.18</td><td class="ohlc-cell">15.52</td><td class="vol-cell">172.5K</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=NPCE" target="_blank">FV</a></td></tr></tbody>
+        <tbody id="wl-body"><tr class="selected-row"><td><span class="sym-badge" onclick="openFlipTo('SPCX')">SPCX</span></td><td class="name-cell" title="Space Exploration Tech Corp">Space Exploration Tech Corp</td><td class="price-cell">160.95</td><td class="chg-cell pos">+10.95</td><td><span class="pct-badge pos">+7.30%</span></td><td class="ohlc-cell">150.00</td><td class="ohlc-cell">176.52</td><td class="ohlc-cell">149.34</td><td class="vol-cell">522.13M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=SPCX" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('INTC')">INTC</span></td><td class="name-cell" title="Intel Corp">Intel Corp</td><td class="price-cell">124.57</td><td class="chg-cell pos">+7.61</td><td><span class="pct-badge pos">+6.51%</span></td><td class="ohlc-cell">117.42</td><td class="ohlc-cell">127.60</td><td class="ohlc-cell">115.33</td><td class="vol-cell">151.53M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=INTC" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('NOK')">NOK</span></td><td class="name-cell" title="Nokia Corp ADR">Nokia Corp ADR</td><td class="price-cell">14.80</td><td class="chg-cell pos">+0.71</td><td><span class="pct-badge pos">+5.04%</span></td><td class="ohlc-cell">14.34</td><td class="ohlc-cell">15.07</td><td class="ohlc-cell">14.23</td><td class="vol-cell">117.90M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=NOK" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('TSLA')">TSLA</span></td><td class="name-cell" title="Tesla Inc">Tesla Inc</td><td class="price-cell">406.43</td><td class="chg-cell pos">+7.28</td><td><span class="pct-badge pos">+1.82%</span></td><td class="ohlc-cell">399.49</td><td class="ohlc-cell">406.68</td><td class="ohlc-cell">386.76</td><td class="vol-cell">63.65M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=TSLA" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('RGTI')">RGTI</span></td><td class="name-cell" title="Rigetti Computing Inc">Rigetti Computing Inc</td><td class="price-cell">20.98</td><td class="chg-cell pos">+0.35</td><td><span class="pct-badge pos">+1.70%</span></td><td class="ohlc-cell">20.66</td><td class="ohlc-cell">21.94</td><td class="ohlc-cell">20.28</td><td class="vol-cell">34.74M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=RGTI" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('HOOD')">HOOD</span></td><td class="name-cell" title="Robinhood Markets Inc Cl A">Robinhood Markets Inc Cl A</td><td class="price-cell">93.19</td><td class="chg-cell pos">+0.96</td><td><span class="pct-badge pos">+1.04%</span></td><td class="ohlc-cell">92.74</td><td class="ohlc-cell">96.10</td><td class="ohlc-cell">90.22</td><td class="vol-cell">33.08M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=HOOD" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('AMD')">AMD</span></td><td class="name-cell" title="Adv Micro Devices">Adv Micro Devices</td><td class="price-cell">511.57</td><td class="chg-cell pos">+23.12</td><td><span class="pct-badge pos">+4.73%</span></td><td class="ohlc-cell">499.68</td><td class="ohlc-cell">521.71</td><td class="ohlc-cell">494.00</td><td class="vol-cell">31.62M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=AMD" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('IONQ')">IONQ</span></td><td class="name-cell" title="IonQ Inc">IonQ Inc</td><td class="price-cell">57.85</td><td class="chg-cell neg">-0.14</td><td><span class="pct-badge neg">-0.24%</span></td><td class="ohlc-cell">57.70</td><td class="ohlc-cell">60.23</td><td class="ohlc-cell">56.16</td><td class="vol-cell">24.73M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=IONQ" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('BB')">BB</span></td><td class="name-cell" title="Blackberry Ltd">Blackberry Ltd</td><td class="price-cell">9.19</td><td class="chg-cell neg">-0.10</td><td><span class="pct-badge neg">-1.08%</span></td><td class="ohlc-cell">9.29</td><td class="ohlc-cell">9.51</td><td class="ohlc-cell">9.05</td><td class="vol-cell">22.20M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=BB" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('SNDK')">SNDK</span></td><td class="name-cell" title="Sandisk Corp">Sandisk Corp</td><td class="price-cell">1,980.10</td><td class="chg-cell pos">+98.59</td><td><span class="pct-badge pos">+5.24%</span></td><td class="ohlc-cell">1,890.98</td><td class="ohlc-cell">2,021.65</td><td class="ohlc-cell">1,865.11</td><td class="vol-cell">11.96M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=SNDK" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('SNOW')">SNOW</span></td><td class="name-cell" title="Snowflake Inc Cl A">Snowflake Inc Cl A</td><td class="price-cell">232.78</td><td class="chg-cell neg">-7.61</td><td><span class="pct-badge neg">-3.17%</span></td><td class="ohlc-cell">240.49</td><td class="ohlc-cell">242.80</td><td class="ohlc-cell">230.44</td><td class="vol-cell">7.71M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=SNOW" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('MDT')">MDT</span></td><td class="name-cell" title="Medtronic Inc">Medtronic Inc</td><td class="price-cell">80.20</td><td class="chg-cell neg">-0.13</td><td><span class="pct-badge neg">-0.16%</span></td><td class="ohlc-cell">80.58</td><td class="ohlc-cell">80.74</td><td class="ohlc-cell">79.26</td><td class="vol-cell">7.69M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=MDT" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('IBM')">IBM</span></td><td class="name-cell" title="Intl Business Machines">Intl Business Machines</td><td class="price-cell">272.24</td><td class="chg-cell neg">-2.61</td><td><span class="pct-badge neg">-0.95%</span></td><td class="ohlc-cell">278.94</td><td class="ohlc-cell">278.94</td><td class="ohlc-cell">267.68</td><td class="vol-cell">5.75M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=IBM" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('TXN')">TXN</span></td><td class="name-cell" title="Texas Instruments">Texas Instruments</td><td class="price-cell">301.12</td><td class="chg-cell pos">+4.02</td><td><span class="pct-badge pos">+1.35%</span></td><td class="ohlc-cell">298.99</td><td class="ohlc-cell">303.03</td><td class="ohlc-cell">295.85</td><td class="vol-cell">5.37M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=TXN" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('FLEX')">FLEX</span></td><td class="name-cell" title="Flextronics Intl Ltd">Flextronics Intl Ltd</td><td class="price-cell">149.71</td><td class="chg-cell neg">-2.28</td><td><span class="pct-badge neg">-1.50%</span></td><td class="ohlc-cell">149.67</td><td class="ohlc-cell">152.52</td><td class="ohlc-cell">148.36</td><td class="vol-cell">5.12M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=FLEX" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('TER')">TER</span></td><td class="name-cell" title="Teradyne Inc">Teradyne Inc</td><td class="price-cell">403.20</td><td class="chg-cell pos">+21.80</td><td><span class="pct-badge pos">+5.72%</span></td><td class="ohlc-cell">381.94</td><td class="ohlc-cell">408.00</td><td class="ohlc-cell">380.00</td><td class="vol-cell">3.33M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=TER" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('NVT')">NVT</span></td><td class="name-cell" title="Nvent Electric Plc">Nvent Electric Plc</td><td class="price-cell">165.84</td><td class="chg-cell pos">+1.32</td><td><span class="pct-badge pos">+0.80%</span></td><td class="ohlc-cell">166.40</td><td class="ohlc-cell">170.49</td><td class="ohlc-cell">165.00</td><td class="vol-cell">1.38M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=NVT" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('INSP')">INSP</span></td><td class="name-cell" title="Inspire Medical Systems Inc">Inspire Medical Systems Inc</td><td class="price-cell">42.70</td><td class="chg-cell pos">+0.26</td><td><span class="pct-badge pos">+0.61%</span></td><td class="ohlc-cell">42.81</td><td class="ohlc-cell">44.53</td><td class="ohlc-cell">41.76</td><td class="vol-cell">1.05M</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=INSP" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('MPWR')">MPWR</span></td><td class="name-cell" title="Monolithic Power Sys">Monolithic Power Sys</td><td class="price-cell">1,577.32</td><td class="chg-cell pos">+18.70</td><td><span class="pct-badge pos">+1.20%</span></td><td class="ohlc-cell">1,592.21</td><td class="ohlc-cell">1,598.42</td><td class="ohlc-cell">1,558.19</td><td class="vol-cell">567.7K</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=MPWR" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('IFNNY')">IFNNY</span></td><td class="name-cell" title="Infineon Techs Ag ADR">Infineon Techs Ag ADR</td><td class="price-cell">92.30</td><td class="chg-cell pos">+0.15</td><td><span class="pct-badge pos">+0.16%</span></td><td class="ohlc-cell">90.29</td><td class="ohlc-cell">93.00</td><td class="ohlc-cell">89.94</td><td class="vol-cell">237.5K</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=IFNNY" target="_blank">FV</a></td></tr><tr><td><span class="sym-badge" onclick="openFlipTo('NPCE')">NPCE</span></td><td class="name-cell" title="Neuropace Inc">Neuropace Inc</td><td class="price-cell">15.64</td><td class="chg-cell neg">-0.20</td><td><span class="pct-badge neg">-1.26%</span></td><td class="ohlc-cell">15.85</td><td class="ohlc-cell">15.98</td><td class="ohlc-cell">15.62</td><td class="vol-cell">84.0K</td><td class="ohlc-cell" style="font-size: 11px;">06/12</td><td><a class="finviz-link" href="https://finviz.com/quote.ashx?t=NPCE" target="_blank">FV</a></td></tr></tbody>
       </table>
     </div>
 
@@ -214,13 +208,13 @@
 
     <div class="flip-header">
       <div>
-        <div class="flip-title">Flipcharts <span class="flip-sym-label" id="flip-sym-label">TSLA</span></div>
-        <div style="font-size:11px;color:var(--muted);margin-top:3px" id="flip-name-label">Tesla Inc</div>
+        <div class="flip-title">Flipcharts <span class="flip-sym-label" id="flip-sym-label">SPCX</span></div>
+        <div style="font-size:11px;color:var(--muted);margin-top:3px" id="flip-name-label">Space Exploration Tech Corp</div>
       </div>
       <div class="flip-nav">
-        <button class="flip-arrow" id="flip-prev" title="Previous (←)">‹</button>
-        <div class="flip-counter" id="flip-counter">1 / 20</div>
-        <button class="flip-arrow" id="flip-next" title="Next (→)">›</button>
+        <button class="flip-arrow" id="flip-prev" title="Previous (←)">&#8249;</button>
+        <div class="flip-counter" id="flip-counter">1 / 21</div>
+        <button class="flip-arrow" id="flip-next" title="Next (→)">&#8250;</button>
       </div>
     </div>
 
@@ -252,45 +246,46 @@
     <div class="flip-info-bar" id="flip-info-bar"></div>
 
     <div class="kb-hint">
-      Keyboard: <kbd>←</kbd> <kbd>→</kbd> previous / next &nbsp;|&nbsp; <kbd>F</kbd> fullscreen chart
+      Keyboard: <kbd>&larr;</kbd> <kbd>&rarr;</kbd> previous / next &nbsp;|&nbsp; <kbd>F</kbd> fullscreen chart
     </div>
 
   </div><!-- /tab-flipcharts -->
 
   <footer>
-    <span>Quotes: Finviz.com &nbsp;·&nbsp; Charts: TradingView &nbsp;·&nbsp; Seed: Barchart 2026-05-24</span>
+    <span>Quotes: Finviz.com &nbsp;&middot;&nbsp; Charts: TradingView &nbsp;&middot;&nbsp; Seed: Barchart 2026-06-14</span>
     <span>Auto-refresh 60s</span>
   </footer>
 
 </div><!-- /container -->
 
 <script>
-// ─── Seed data ────────────────────────────────────────────────────────────────
+// ─── Seed data (sorted by volume desc, 2026-06-12) ──────────────────────────
 const SEED = [
-  { symbol:'TSLA',  name:'Tesla Inc',               price:426.01, change:8.16,   pct:'+1.95%', open:422.67,  high:431.51,  low:420.51,  volume:46104699,  date:'05/22' },
-  { symbol:'INTC',  name:'Intel Corp',              price:119.84, change:1.34,   pct:'+1.13%', open:120.34,  high:122.78,  low:118.09,  volume:82663000,  date:'05/22' },
-  { symbol:'RDW',   name:'Redwire Corp',            price:17.49,  change:2.14,   pct:'+13.94%',open:15.72,   high:17.89,   low:15.70,   volume:55447700,  date:'05/22' },
-  { symbol:'MU',    name:'Micron Technology',       price:751.00, change:-11.10, pct:'-1.46%', open:756.82,  high:780.20,  low:747.20,  volume:36002902,  date:'05/22' },
-  { symbol:'TER',   name:'Teradyne Inc',            price:358.44, change:5.00,   pct:'+1.41%', open:355.00,  high:360.34,  low:352.41,  volume:2712300,   date:'05/22' },
-  { symbol:'SERV',  name:'Serve Robotics Inc',      price:8.70,   change:-0.11,  pct:'-1.25%', open:8.88,    high:9.01,    low:8.61,    volume:3865500,   date:'05/22' },
-  { symbol:'NOK',   name:'Nokia Corp ADR',          price:15.47,  change:1.29,   pct:'+9.10%', open:14.70,   high:15.78,   low:14.575,  volume:127724300, date:'05/22' },
-  { symbol:'BB',    name:'Blackberry Ltd',          price:7.91,   change:1.26,   pct:'+18.95%',open:6.77,    high:8.03,    low:6.70,    volume:57770200,  date:'05/22' },
-  { symbol:'TXN',   name:'Texas Instruments',       price:309.21, change:10.82,  pct:'+3.63%', open:305.40,  high:315.57,  low:303.00,  volume:7130100,   date:'05/22' },
-  { symbol:'FLEX',  name:'Flextronics Intl Ltd',    price:132.47, change:1.40,   pct:'+1.07%', open:132.76,  high:134.26,  low:128.58,  volume:3592900,   date:'05/22' },
-  { symbol:'IFNNY', name:'Infineon Techs Ag ADR',   price:84.80,  change:4.31,   pct:'+5.35%', open:83.42,   high:85.77,   low:81.10,   volume:710600,    date:'05/22' },
-  { symbol:'MPWR',  name:'Monolithic Power Sys',    price:1589.81,change:28.56,  pct:'+1.83%', open:1579.62, high:1596.74, low:1560.00, volume:476700,    date:'05/22' },
-  { symbol:'NVT',   name:'Nvent Electric Plc',      price:164.66, change:1.09,   pct:'+0.67%', open:166.04,  high:166.34,  low:161.12,  volume:1499700,   date:'05/22' },
-  { symbol:'IBM',   name:'Intl Business Machines',  price:253.84, change:0.87,   pct:'+0.34%', open:262.05,  high:264.38,  low:253.39,  volume:19072800,  date:'05/22' },
-  { symbol:'IONQ',  name:'IonQ Inc',                price:63.64,  change:4.75,   pct:'+8.07%', open:58.00,   high:65.80,   low:58.00,   volume:52650100,  date:'05/22' },
-  { symbol:'RGTI',  name:'Rigetti Computing Inc',   price:26.42,  change:4.38,   pct:'+19.87%',open:22.96,   high:27.78,   low:22.66,   volume:204233203, date:'05/22' },
-  { symbol:'AMD',   name:'Adv Micro Devices',       price:467.51, change:17.92,  pct:'+3.99%', open:469.84,  high:481.41,  low:461.71,  volume:34758602,  date:'05/22' },
-  { symbol:'MDT',   name:'Medtronic Inc',           price:78.60,  change:0.45,   pct:'+0.58%', open:78.40,   high:79.25,   low:78.21,   volume:7051700,   date:'05/22' },
-  { symbol:'INSP',  name:'Inspire Medical Systems', price:43.84,  change:-0.90,  pct:'-2.01%', open:42.89,   high:44.26,   low:42.60,   volume:1382000,   date:'05/22' },
-  { symbol:'NPCE',  name:'Neuropace Inc',           price:16.92,  change:0.64,   pct:'+3.93%', open:16.38,   high:17.10,   low:16.38,   volume:172500,    date:'05/22' },
+  { symbol:'SPCX', name:'Space Exploration Tech Corp', price:160.95, change:10.95, pct:'+7.30%', open:150.0, high:176.52, low:149.34, volume:522131813, date:'06/12' },
+  { symbol:'INTC', name:'Intel Corp', price:124.57, change:7.61, pct:'+6.51%', open:117.42, high:127.6, low:115.33, volume:151526703, date:'06/12' },
+  { symbol:'NOK', name:'Nokia Corp ADR', price:14.8, change:0.71, pct:'+5.04%', open:14.34, high:15.07, low:14.235, volume:117902500, date:'06/12' },
+  { symbol:'TSLA', name:'Tesla Inc', price:406.43, change:7.28, pct:'+1.82%', open:399.49, high:406.68, low:386.76, volume:63652199, date:'06/12' },
+  { symbol:'RGTI', name:'Rigetti Computing Inc', price:20.98, change:0.35, pct:'+1.70%', open:20.66, high:21.94, low:20.28, volume:34741699, date:'06/12' },
+  { symbol:'HOOD', name:'Robinhood Markets Inc Cl A', price:93.19, change:0.96, pct:'+1.04%', open:92.74, high:96.1, low:90.22, volume:33082301, date:'06/12' },
+  { symbol:'AMD', name:'Adv Micro Devices', price:511.57, change:23.12, pct:'+4.73%', open:499.68, high:521.71, low:494.0, volume:31618400, date:'06/12' },
+  { symbol:'IONQ', name:'IonQ Inc', price:57.85, change:-0.14, pct:'-0.24%', open:57.7, high:60.23, low:56.16, volume:24732300, date:'06/12' },
+  { symbol:'BB', name:'Blackberry Ltd', price:9.19, change:-0.1, pct:'-1.08%', open:9.29, high:9.51, low:9.05, volume:22202900, date:'06/12' },
+  { symbol:'SNDK', name:'Sandisk Corp', price:1980.1, change:98.59, pct:'+5.24%', open:1890.98, high:2021.65, low:1865.11, volume:11964500, date:'06/12' },
+  { symbol:'SNOW', name:'Snowflake Inc Cl A', price:232.78, change:-7.61, pct:'-3.17%', open:240.49, high:242.8, low:230.44, volume:7707300, date:'06/12' },
+  { symbol:'MDT', name:'Medtronic Inc', price:80.2, change:-0.13, pct:'-0.16%', open:80.58, high:80.74, low:79.26, volume:7692300, date:'06/12' },
+  { symbol:'IBM', name:'Intl Business Machines', price:272.24, change:-2.61, pct:'-0.95%', open:278.94, high:278.94, low:267.68, volume:5748900, date:'06/12' },
+  { symbol:'TXN', name:'Texas Instruments', price:301.12, change:4.02, pct:'+1.35%', open:298.99, high:303.03, low:295.85, volume:5368500, date:'06/12' },
+  { symbol:'FLEX', name:'Flextronics Intl Ltd', price:149.71, change:-2.28, pct:'-1.50%', open:149.67, high:152.52, low:148.36, volume:5115900, date:'06/12' },
+  { symbol:'TER', name:'Teradyne Inc', price:403.2, change:21.8, pct:'+5.72%', open:381.94, high:408.0, low:380.0, volume:3326800, date:'06/12' },
+  { symbol:'NVT', name:'Nvent Electric Plc', price:165.84, change:1.32, pct:'+0.80%', open:166.4, high:170.49, low:165.0, volume:1375100, date:'06/12' },
+  { symbol:'INSP', name:'Inspire Medical Systems Inc', price:42.7, change:0.26, pct:'+0.61%', open:42.81, high:44.53, low:41.76, volume:1047400, date:'06/12' },
+  { symbol:'MPWR', name:'Monolithic Power Sys', price:1577.32, change:18.7, pct:'+1.20%', open:1592.21, high:1598.42, low:1558.19, volume:567700, date:'06/12' },
+  { symbol:'IFNNY', name:'Infineon Techs Ag ADR', price:92.3, change:0.15, pct:'+0.16%', open:90.29, high:93.0, low:89.94, volume:237500, date:'06/12' },
+  { symbol:'NPCE', name:'Neuropace Inc', price:15.64, change:-0.2, pct:'-1.26%', open:15.85, high:15.98, low:15.62, volume:84000, date:'06/12' }
 ];
 
 let DATA = SEED.map(d=>({...d,live:false}));
-let sortCol=null, sortDir=1, filterText='';
+let sortCol='volume', sortDir=-1, filterText='';
 
 // ─── Clock ────────────────────────────────────────────────────────────────────
 function updateClock(){
@@ -363,10 +358,10 @@ function renderTable(){
     const tr=document.createElement('tr');
     if(row.symbol===FLIP_SYMBOLS[flipIdx]) tr.classList.add('selected-row');
     const td0=document.createElement('td');
-    td0.innerHTML=`<span class="sym-badge" onclick="openFlipTo('${row.symbol}')">${row.symbol}</span>${row.live?'<span style="font-size:9px;color:var(--green);margin-left:4px">●</span>':''}`;
+    td0.innerHTML=`<span class="sym-badge" onclick="openFlipTo('${row.symbol}')">${row.symbol}</span>${row.live?'<span style="font-size:9px;color:var(--green);margin-left:4px">&#9679;</span>':''}`;
     const td1=document.createElement('td'); td1.className='name-cell'; td1.title=row.name; td1.textContent=row.name;
-    const td2=document.createElement('td'); td2.className='price-cell'+(row.flash?' flash-'+row.flash:''); td2.textContent=fmtPrice(row.price);
-    const td3=document.createElement('td'); td3.className='chg-cell '+cls; td3.textContent=sign+row.change.toFixed(2);
+    const td2=document.createElement('td'); td2.className='price-cell'; td2.textContent=fmtPrice(row.price);
+    const td3=document.createElement('td'); td3.className='chg-cell '+(row.change>0?'pos':row.change<0?'neg':'neu'); td3.textContent=sign+row.change.toFixed(2);
     const td4=document.createElement('td'); td4.innerHTML=`<span class="pct-badge ${cls}">${row.pct}</span>`;
     const td5=document.createElement('td'); td5.className='ohlc-cell'; td5.textContent=row.open?fmtPrice(row.open):'—';
     const td6=document.createElement('td'); td6.className='ohlc-cell'; td6.textContent=row.high?fmtPrice(row.high):'—';
@@ -386,7 +381,7 @@ const COL_MAP={symbol:'symbol',name:'name',price:'price',change:'change',pct:'pc
 document.querySelectorAll('thead th[data-col]').forEach(th=>{
   th.addEventListener('click',()=>{
     const col=COL_MAP[th.dataset.col];
-    if(sortCol===col) sortDir*=-1; else{sortCol=col;sortDir=1;}
+    if(sortCol===col) sortDir*=-1; else{sortCol=col;sortDir=-1;}
     document.querySelectorAll('thead th').forEach(t=>t.classList.remove('sort-asc','sort-desc'));
     th.classList.add(sortDir===1?'sort-asc':'sort-desc');
     renderTable();
@@ -394,51 +389,37 @@ document.querySelectorAll('thead th[data-col]').forEach(th=>{
 });
 document.getElementById('sort-pct-btn').addEventListener('click',()=>{sortCol='pct';sortDir=-1;renderTable();});
 document.getElementById('sort-vol-btn').addEventListener('click',()=>{sortCol='volume';sortDir=-1;renderTable();});
-document.getElementById('reset-btn').addEventListener('click',()=>{sortCol=null;sortDir=1;filterText='';document.getElementById('search-input').value='';document.querySelectorAll('thead th').forEach(t=>t.classList.remove('sort-asc','sort-desc'));renderTable();});
+document.getElementById('reset-btn').addEventListener('click',()=>{sortCol='volume';sortDir=-1;filterText='';document.getElementById('search-input').value='';document.querySelectorAll('thead th').forEach(t=>t.classList.remove('sort-asc','sort-desc'));renderTable();});
 document.getElementById('search-input').addEventListener('input',e=>{filterText=e.target.value.trim();renderTable();});
 
-// ─── Finnhub fetch ────────────────────────────────────────────────────────────
-const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
+// ─── Finviz fetch ─────────────────────────────────────────────────────────────
 let fetchRunning=false;
-
-async function fetchFinnhubQuote(sym){
-  try{
-    const r=await fetch(`https://finnhub.io/api/v1/quote?symbol=${sym}&token=${FINNHUB_KEY}`,{signal:AbortSignal.timeout(8000)});
-    if(!r.ok) return null;
-    const d=await r.json();
-    if(!d||!d.c||d.c===0) return null;
-    return d;
-  }catch(e){return null;}
-}
-
 async function loadLiveData(){
   if(fetchRunning) return;
   fetchRunning=true;
-  setStatus(false,'Finnhub 報價載入中...');
-  let loaded=0;
-  await Promise.all(DATA.map(async row=>{
-    const d=await fetchFinnhubQuote(row.symbol);
-    if(d){
-      const chg=d.c-d.pc;
-      const chgPct=d.pc?(chg/d.pc*100):0;
-      row.flash = row.price ? (d.c > row.price ? 'up' : d.c < row.price ? 'dn' : null) : null;
-      row.price=d.c;
-      row.change=chg;
-      row.pct=(chg>=0?'+':'')+chgPct.toFixed(2)+'%';
-      row.open=d.o;
-      row.high=d.h;
-      row.low=d.l;
-      row.live=true;
-      const dt=new Date(d.t*1000);
-      row.date=(dt.getMonth()+1).toString().padStart(2,'0')+'/'+ dt.getDate().toString().padStart(2,'0');
-      loaded++;
-    }
-  }));
-  renderTable();
-  const statusTxt=loaded>0?`Finnhub 已載入 ${loaded}/${DATA.length} 個報價`:'載入失敗，顯示靜態數據';
-  setStatus(loaded>0, statusTxt);
+  setStatus(false,'Fetching live quotes...');
+  for(const row of DATA){
+    try{
+      const url=`https://finviz.com/quote.ashx?t=${row.symbol}`;
+      const proxy=`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+      const r=await fetch(proxy,{signal:AbortSignal.timeout(10000)});
+      if(!r.ok) continue;
+      const outer=await r.json();
+      const html=outer.contents||'';
+      const pm=html.match(/class="[^"]*quote-price[^"]*"[^>]*>[\s\S]*?>([\d,]+\.?\d*)</i)
+        ||html.match(/snapshot-td2-cp[^>]*>([\d,]+\.?\d*)</)
+        ||html.match(/fs-3[^>]*>([\d,]+\.?\d*)</)
+        ||html.match(/\["LAST"\]="([\d.]+)"/);
+      if(pm){
+        const price=parseFloat(pm[1].replace(/,/g,''));
+        if(price>0){row.price=price;row.live=true;}
+      }
+    }catch(e){}
+    renderTable();
+  }
+  setStatus(true,'Live quotes loaded');
   document.getElementById('last-updated').textContent=new Date().toLocaleTimeString('en-US',{hour12:false});
-  fetchRunning=false; updateSummary(); startCountdown();
+  fetchRunning=false; updateSummary();
 }
 function setStatus(live,text){
   document.getElementById('status-dot').className='status-dot'+(live?' live':'');
@@ -446,15 +427,6 @@ function setStatus(live,text){
 }
 document.getElementById('refresh-btn').addEventListener('click',()=>{DATA.forEach(d=>d.live=false);loadLiveData();});
 setInterval(loadLiveData,60000);
-
-// ── Countdown to next refresh ─────────────────────────────────────────────────
-let countdownSec=60;
-function startCountdown(){countdownSec=60;}
-setInterval(()=>{
-  if(countdownSec>0) countdownSec--;
-  const el=document.getElementById('refresh-countdown');
-  if(el) el.textContent='次更新 '+countdownSec+'s';
-},1000);
 
 // ═══════════════════════════════════════════════════════════════════════════
 // FLIPCHARTS
@@ -510,23 +482,16 @@ function renderFlip(){
   const sym=FLIP_SYMBOLS[flipIdx];
   const row=DATA.find(d=>d.symbol===sym)||SEED.find(d=>d.symbol===sym);
 
-  // Header
   document.getElementById('flip-sym-label').textContent=sym;
   document.getElementById('flip-name-label').textContent=row?row.name:'';
-
-  // Counter
   document.getElementById('flip-counter').textContent=`${flipIdx+1} / ${FLIP_SYMBOLS.length}`;
-
-  // Arrow state
   document.getElementById('flip-prev').disabled=false;
   document.getElementById('flip-next').disabled=false;
 
-  // Symbol strip highlight
   document.querySelectorAll('.flip-sym-chip').forEach((c,i)=>{
     c.classList.toggle('active',i===flipIdx);
   });
 
-  // Info bar
   if(row){
     const cls=pctClass(row.pct);
     document.getElementById('flip-info-bar').innerHTML=`
@@ -540,10 +505,7 @@ function renderFlip(){
     `;
   }
 
-  // Highlight table row
   renderTable();
-
-  // Load chart
   loadChart();
 }
 
@@ -554,7 +516,6 @@ function loadChart(){
   loading.style.display='flex';
   iframe.style.opacity='0';
 
-  // ── FIXED: 唔強制指定交易所，讓 TradingView 自動解析（同 index.html 一樣）──
   const tvUrl=`https://s.tradingview.com/widgetembed/?frameElementId=tv-chart`
     +`&symbol=${encodeURIComponent(sym)}`
     +`&interval=${flipInterval}`
@@ -577,7 +538,6 @@ function loadChart(){
     iframe.style.opacity='1';
     iframe.style.transition='opacity .3s';
   };
-  // Safety timeout
   setTimeout(()=>{loading.style.display='none';iframe.style.opacity='1';},4000);
 }
 
@@ -597,6 +557,5 @@ document.addEventListener('keydown',e=>{
 // ─── Init ─────────────────────────────────────────────────────────────────────
 renderTable(); updateSummary(); loadLiveData();
 </script>
-
 
 </body></html>
