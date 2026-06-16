@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-06-16 12:57 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,9 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Yahoo]** Google's Nationwide Expansion Into Home Listings Shakes Real… *(2h前)*
-- **[Yahoo]** Google Just Went All in on Its Deal With Intel *(4h前)*
-- **[Yahoo]** SpaceX Market Cap Breaches $2.5T: Goes Past Tesla, TSMC And … *(4h前)*
+- **[You Can Now Invest in Alphabet With a 6% Dividend Yield, but There's a Catch](https://finnhub.io/api/news?id=0a060ba205782c748b38bcc32bbcd566944fe7a62a9cc024d24b142041e70209)**  
+*Yahoo · 1h前*  
+This new stock offers a high yield and exposure to the AI giant.
+
+- **[SpaceX Valuation Set to Surpass Amazon. Microsoft Is Next.](https://finnhub.io/api/news?id=4128492b3ca5b97ea6627aa99ccc30bd9505671e2c4a67d8167f02b217120f67)**  
+*Yahoo · 1h前*  
+The rocket and AI company’s shares jumped 20% on Monday. It was the second largest one-day gain in market valuation for a U.S. company ever.
+
+- **[EeroQ Makes World-First Breakthrough in Electron Qubits Floating on Helium](https://finnhub.io/api/news?id=541e71479da38ec5864c9442abcd9509c13fac21eb76214061633ce8ecac925c)**  
+*Yahoo · 1h前*  
+EeroQ, the quantum computing company, today announced the first-ever demonstration of the strong coupling of a microwave photon to the charge qubit state of an …
 
 ---
 
@@ -51,4 +59,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:57 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 21:02 HKT*
