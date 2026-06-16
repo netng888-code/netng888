@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-06-16 12:12 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 12:45 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,9 +30,9 @@
 
 ## 📰 最新新聞
 
-- **[Yahoo]** Intel gets a $170 billion AI reason to matter again *(2h前)*
-- **[Yahoo]** Stock Market Today: Dow Pops On Trump-Iran Deal; Elon Musk's… *(7h前)*
-- **[Yahoo]** How Marvell Broke The Law Of Large Numbers *(8h前)*
+- **[Yahoo]** Intel gets a $170 billion AI reason to matter again *(3h前)*
+- **[Yahoo]** Stock Market Today: Dow Pops On Trump-Iran Deal; Elon Musk's… *(8h前)*
+- **[Yahoo]** Stocks Settle Sharply Higher as US-Iran Peace Deal Spurs Opt… *(8h前)*
 
 ---
 
@@ -51,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:12 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 12:45 HKT*
