@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-06-16 12:12 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 12:45 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,8 @@
 
 ## 📰 最新新聞
 
-- **[Benzinga]** 10 Information Technology Stocks With Whale Alerts In Today'… *(14h前)*
-- **[Benzinga]** Why Is Nokia Stock Surging On Monday? *(19h前)*
+- **[Benzinga]** 10 Information Technology Stocks With Whale Alerts In Today'… *(15h前)*
+- **[Benzinga]** Why Is Nokia Stock Surging On Monday? *(20h前)*
 - **[Benzinga]** Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretl… *(1d前)*
 
 ---
@@ -51,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:12 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 12:45 HKT*
