@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-06-16 12:45 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 12:57 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Yahoo]** Google's Nationwide Expansion Into Home Listings Shakes Real… *(2h前)*
-- **[Yahoo]** Google Just Went All in on Its Deal With Intel *(3h前)*
+- **[Yahoo]** Google Just Went All in on Its Deal With Intel *(4h前)*
 - **[Yahoo]** SpaceX Market Cap Breaches $2.5T: Goes Past Tesla, TSMC And … *(4h前)*
 
 ---
@@ -51,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:45 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 12:57 HKT*
