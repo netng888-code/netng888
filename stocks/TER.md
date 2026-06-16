@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-06-16 12:12 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 12:45 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -32,7 +32,7 @@
 
 - **[ChartMill]** Top S&P500 movers in Monday's session *(9h前)*
 - **[Yahoo]** Cathie Wood Buys $444 Million in SpaceX, Dumps Tesla and AMD *(9h前)*
-- **[Yahoo]** Nebius Stock Gets a Boost From Nasdaq-100 Inclusion. What to… *(9h前)*
+- **[Yahoo]** Nebius Stock Gets a Boost From Nasdaq-100 Inclusion. What to… *(10h前)*
 
 ---
 
@@ -51,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:12 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 12:45 HKT*
