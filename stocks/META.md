@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-06-16 12:45 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 12:57 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,8 +31,8 @@
 ## 📰 最新新聞
 
 - **[Yahoo]** AI Wars: Why Microsoft, Google and Amazon Are All Fighting O… *(4h前)*
-- **[Yahoo]** Tech Stocks Aren't The Only Options For Big Gains *(4h前)*
-- **[Yahoo]** QCOM Stock Jumps Over 4% — Qualcomm Reportedly Eyes Tenstorr… *(5h前)*
+- **[Yahoo]** Tech Stocks Aren't The Only Options For Big Gains *(5h前)*
+- **[Yahoo]** QCOM Stock Jumps Over 4% — Qualcomm Reportedly Eyes Tenstorr… *(6h前)*
 
 ---
 
@@ -51,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:45 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 12:57 HKT*
