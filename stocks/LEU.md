@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-06-16 12:57 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,7 +30,8 @@
 
 ## 📰 最新新聞
 
-- **[Benzinga]** Ur-Energy Announces Cost-Saving Measures Including A Workfor… *(14h前)*
+- **[Ur-Energy Announces Cost-Saving Measures Including A Workforce REduction Of 10 Employees](https://finnhub.io/api/news?id=090cfa79cb76dc8b500bfb7c02dc6d94c9415a79e0b096345a137774adb8a5ef)**  
+*Benzinga · 23h前*
 
 ---
 
@@ -49,4 +50,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:57 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 21:03 HKT*
