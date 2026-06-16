@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-06-16 12:12 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 12:45 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,9 +30,9 @@
 
 ## 📰 最新新聞
 
-- **[Yahoo]** Broadcom Ties AI Infrastructure To Spring And Java Security … *(0h前)*
-- **[Yahoo]** Should Broadcom’s AI XPV Platform and Debt Tenders Reshape t… *(1h前)*
-- **[Yahoo]** Intel gets a $170 billion AI reason to matter again *(2h前)*
+- **[Yahoo]** Broadcom Ties AI Infrastructure To Spring And Java Security … *(1h前)*
+- **[Yahoo]** Should Broadcom’s AI XPV Platform and Debt Tenders Reshape t… *(2h前)*
+- **[Yahoo]** Intel gets a $170 billion AI reason to matter again *(3h前)*
 
 ---
 
@@ -51,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:12 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 12:45 HKT*
