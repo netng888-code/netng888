@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-06-16 12:45 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 12:57 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Yahoo]** Why WDC, MU, STX, SNDK Stocks Rallied Hard Today And Lifted … *(2h前)*
-- **[Yahoo]** Why Micron Stock Rocketed to a Record High Today *(4h前)*
+- **[Yahoo]** Why Micron Stock Rocketed to a Record High Today *(5h前)*
 - **[SeekingAlpha]** Micron: AI's Memory King Still Can't Escape The Cycle *(5h前)*
 
 ---
@@ -51,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:45 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 12:57 HKT*
