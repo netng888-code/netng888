@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-06-16 12:12 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 12:45 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,9 +30,9 @@
 
 ## 📰 最新新聞
 
-- **[Yahoo]** Why Palantir Stock Soared Today *(2h前)*
-- **[Yahoo]** Intel gets a $170 billion AI reason to matter again *(2h前)*
-- **[Yahoo]** Google Just Went All in on Its Deal With Intel *(3h前)*
+- **[Yahoo]** Why SpaceX Stock Skyrocketed Today *(1h前)*
+- **[Yahoo]** Why Summer Is the Best Time to Review Your Estate Plan *(2h前)*
+- **[Yahoo]** Applied Optoelectronics (AAOI) Soars 13% as US-Iran Peace De… *(2h前)*
 
 ---
 
@@ -51,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:12 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 12:45 HKT*
