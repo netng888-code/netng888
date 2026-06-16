@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-06-16 12:57 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,9 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Yahoo]** Intel gets a $170 billion AI reason to matter again *(3h前)*
-- **[Yahoo]** Stock Market Today: Dow Pops On Trump-Iran Deal; Elon Musk's… *(8h前)*
-- **[Yahoo]** Stocks Settle Sharply Higher as US-Iran Peace Deal Spurs Opt… *(8h前)*
+- **[MRVL Stock Inches Lower Premarket: Outgoing CFO Files To Sell $65M Shares](https://finnhub.io/api/news?id=40622ebbc6eb7918d1ed0c5feba5b8e52d682ad04a38b343d64ceff75e5b0511)**  
+*Yahoo · 4h前*  
+Willem Meintjes has filed to sell 211,329 Marvell shares, while newly appointed CFO Dan Durn received restricted stock units.
+
+- **[Michael Lee On Palantir, Marvell, And The 3 'Hockey Sticks' Of AI Growth](https://finnhub.io/api/news?id=7b4edd024a90d47c7db80d58c8709e66ef76d4ccce9b4d5a5823452ffa0987da)**  
+*SeekingAlpha · 4h前*  
+Michael Lee, founder of Michael Lee Strategy, shares his expert perspective on the current volatility within the Artificial Intelligence sector.
+
+- **[Marvell: Set To Win From Hyperscalers' Custom Chip Programs](https://finnhub.io/api/news?id=dcd626374b0dd9b727950299cb383400c71efcc1b5260830f7afef7ea83834dc)**  
+*SeekingAlpha · 5h前*  
+Marvell Technology is positioned for multi-year high revenue growth as hyperscalers expand custom chip programs. Click for this latest analysis of MRVL stock.
 
 ---
 
@@ -51,4 +59,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:57 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 21:02 HKT*
