@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-06-16 12:57 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,9 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Benzinga]** 10 Information Technology Stocks With Whale Alerts In Today'… *(15h前)*
-- **[Benzinga]** Why Is Nokia Stock Surging On Monday? *(20h前)*
-- **[Benzinga]** Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretl… *(1d前)*
+- **[10 Information Technology Stocks With Whale Alerts In Today's Session](https://finnhub.io/api/news?id=b186352b51939eb3c8917a7bb6c91bcddffef93f1eaf597fe6ee9c65886e12c5)**  
+*Benzinga · 23h前*
+
+- **[Why Is Nokia Stock Surging On Monday?](https://finnhub.io/api/news?id=cc44d4a0856db94f9b155860b162fa912ea4cb0f7d456688d02fdba49556e697)**  
+*Benzinga · 1d前*  
+Nokia stock (NYSE: NOK) surges on Monday following a JP Morgan price forecast increase to $21 and momentum from its new agentic AI framework.
+
+- **[Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretly Monitor But Don't Talk About Yet](https://finnhub.io/api/news?id=934a79830c81465de2f27ffe29dfc6e17d2711b850e3e15fa89d30c59789aa34)**  
+*Benzinga · 2d前*  
+The Benzinga Stock Whisper Index highlights five stocks seeing increased investor interest during the week and looks at the catalysts driving attention.
 
 ---
 
@@ -51,4 +58,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:57 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 21:03 HKT*
