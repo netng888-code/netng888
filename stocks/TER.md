@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-06-16 12:57 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,9 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[ChartMill]** Top S&P500 movers in Monday's session *(9h前)*
-- **[Yahoo]** Cathie Wood Buys $444 Million in SpaceX, Dumps Tesla and AMD *(10h前)*
-- **[Yahoo]** Nebius Stock Gets a Boost From Nasdaq-100 Inclusion. What to… *(10h前)*
+- **[Teradyne Inc (NASDAQ:TER) Offers Affordable Growth With Strong Fundamentals](https://finnhub.io/api/news?id=eb1870f76038ddcd0914b88e7cc22b129679a47621eea4fcb4d2c448de9a2e35)**  
+*ChartMill · 5h前*  
+Teradyne (TER) scores 8/10 in an Affordable Growth screen, combining strong growth metrics with reasonable valuation. Earnings surged 67% with zero debt, making…
+
+- **[Teradyne: Runaway AI Train At Hefty Premiums - Reiterate Hold](https://finnhub.io/api/news?id=3510084696e1c2af44724ef6d3e05ba6816152e45e37fe6a8a3996b483c7dfc1)**  
+*SeekingAlpha · 8h前*  
+AI-related demand now comprises 70% of Teradyne's revenues, thanks to their strategic partnership with numerous foundries. Read why TER stock is a Hold.
+
+- **[Top S&P500 movers in Monday's session](https://finnhub.io/api/news?id=c4fa3cf648116181bbdb74ae46e84ae9946e06b369d1f17d1f1b844df9dde755)**  
+*ChartMill · 17h前*  
+Let's have a look at the top S&P500 gainers and losers one hour before the close of the markets of today's session.
 
 ---
 
@@ -51,4 +59,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 12:57 HKT*
+*由 morning_monitor.py 自動生成　2026-06-16 21:03 HKT*
