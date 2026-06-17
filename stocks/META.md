@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-06-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$593.48** |
-| 今日變動 | ▲ $26.50　(+4.67%) |
+| 現價 | **$600.21** |
+| 今日變動 | ▲ $6.73　(+1.13%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $39　(▼2.1%) |
+| 未實現盈虧 | ▼ $18　(▼1.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $590.40 | — |
-| Put Wall（支撐） | $600.00 | --1.1% |
-| Call Wall（阻力） | $750.00 | +26.4% |
+| Gamma Flip | $589.03 | — |
+| Put Wall（支撐） | $600.00 | -0.0% |
+| Call Wall（阻力） | $750.00 | +25.0% |
 
 **狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Howard Marks: Investing in AI Stocks Is ‘Closer to Speculating’ Than Analysis](https://finnhub.io/api/news?id=719717a74e778279e759b0aabeeed5d443e927e8e4e26cfa0704e6de75f7f036)**  
+- **[META (NASDAQ:META) Aligns Perfectly with Peter Lynch’s GARP Investment Strategy](https://finnhub.io/api/news?id=31c0f863b4299b5d10b9d639c7fd49867a048dbf015f0c901b2eb8a3000481fb)**  
+*ChartMill · 1h前*  
+Meta stock analysis shows META meets Peter Lynch's GARP criteria with 24.85% EPS growth, a PEG ratio of 0.79, and strong financial health.
+
+- **[OpenAI’s Financials Leaked. They’re Not Bad, but They’re Not Great.](https://finnhub.io/api/news?id=a8c19beeddeb38297cf8a3455b17f319cae3bd6794ebd32e952b3339137313e8)**  
 *Yahoo · 1h前*  
-Although the AI buildout has minted trillions in fresh market value across Wall Street, Howard Marks thinks buyers of these stocks are kidding themselves about …
+Ed Zitron, journalist and infamous AI bear, got his hands on newly leaked OpenAI financials that give the term "cash burn" a whole new meaning.
 
-- **[Meta Critical Minerals Provides a Corporate Update and Target Milestones for 2026](https://finnhub.io/api/news?id=dacc315369a89335eb04294197a034faf1f108798fbcf4af16ada214225e54c6)**  
-*Yahoo · 2h前*  
-VANCOUVER, BC / ACCESS Newswire / June 16, 2026 / Meta Critical Minerals Inc. (formerly Troy Minerals Inc.) (the "Company" or "Meta") (CSE:MTTA)(OTCQB:MTTAF)(FS…
-
-- **[That Didn't Take Long: SpaceX Earned Its First Wall Street Sell Rating Less Than an Hour After Trading Began](https://finnhub.io/api/news?id=01517ffef3d5b7f08c1f053f9caa63dda3ef8adc22006c97b9e1622ee444f293)**  
-*Yahoo · 3h前*  
-SpaceX stock may plunge by up to 29% if this prognostication proves accurate.
+- **[Apple Investors Are Tired of AI Promises, Want Tangible Progress](https://finnhub.io/api/news?id=14181efc791a14401110c4c6f5a54d28b4a31fcfdf9ba2330292623e600c948d)**  
+*Yahoo · 1h前*  
+(Bloomberg) -- Apple Inc. investors are losing patience with the company’s talk about becoming a more formidable presence in artificial intelligence and want to…
 
 ---
 
@@ -48,7 +48,7 @@ SpaceX stock may plunge by up to 29% if this prognostication proves accurate.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-16 | 監控 | $593.48 | — | 自動更新 |
+| 2026-06-17 | 監控 | $600.21 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ SpaceX stock may plunge by up to 29% if this prognostication proves accurate.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-06-17 21:03 HKT*
