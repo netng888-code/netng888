@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-06-16 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-17 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$393.94** |
-| 今日變動 | ▲ $11.87　(+3.11%) |
+| 現價 | **$376.71** |
+| 今日變動 | ▼ $17.23　(-4.37%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▲ $182　(▲4.8%) |
+| 未實現盈虧 | ▲ $9　(▲0.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $384.45 | — |
-| Put Wall（支撐） | $400.00 | --1.5% |
-| Call Wall（阻力） | $400.00 | +1.5% |
+| Gamma Flip | $384.39 | — |
+| Put Wall（支撐） | $380.00 | --0.9% |
+| Call Wall（阻力） | $400.00 | +6.2% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[That Didn't Take Long: SpaceX Earned Its First Wall Street Sell Rating Less Than an Hour After Trading Began](https://finnhub.io/api/news?id=01517ffef3d5b7f08c1f053f9caa63dda3ef8adc22006c97b9e1622ee444f293)**  
-*Yahoo · 3h前*  
-SpaceX stock may plunge by up to 29% if this prognostication proves accurate.
+- **[What's going on in today's pre-market session: S&P500 movers](https://finnhub.io/api/news?id=da97a603e9b1abd241768f50867d97e3c3e36cfa8f92f7c65f7864b594c2e5f0)**  
+*ChartMill · 0h前*  
+Stay updated with the S&P500 stocks that are on the move in today's pre-market session.
 
-- **[Broadcom Ties AI Infrastructure To Spring And Java Security Overhaul](https://finnhub.io/api/news?id=f068a59412d4fb165fe0417ff03219cb5e086899daddb1be27ae6bdf2ed040ee)**  
-*Yahoo · 9h前*  
-Broadcom (NasdaqGS:AVGO) has launched a major Spring and Java security initiative, described as the largest set of Spring security updates in the framework’s 23…
+- **[INTC, AMD, AVGO, Other Chip Stocks Rebound Premarket: Cathie Wood Trims AMD Holding Further](https://finnhub.io/api/news?id=fc0b62717ad2302cf12e57b8928f84137709befdc29ce08940307e934eb928aa)**  
+*Yahoo · 4h前*  
+Chip stocks are rebounding after sharp declines on Tuesday, a cooling-off following the early-week rally sparked by the U.S.-Iran peace deal.
 
-- **[Should Broadcom’s AI XPV Platform and Debt Tenders Reshape the Core Thesis for AVGO Investors?](https://finnhub.io/api/news?id=c56ff4737f22c3cfbb40a750afd7599ebd76d385b8dd81e12fa00e238847332d)**  
-*Yahoo · 10h前*  
-In early June 2026, Broadcom Inc. launched cash tender offers for up to US$2.50 billion of various long-dated senior notes, while also rolling out an AI infrast…
+- **[Chips Crack the Rally - Dow Keeps Climbing, SpaceX Passes Amazon](https://finnhub.io/api/news?id=f186b9ba5a5e821ce8a9a786b8603b1af1d5e1a2591b41e960c2856e0cffe9bf)**  
+*ChartMill · 4h前*  
+Monday's all-everything rally lasted exactly one session. Tuesday was the kind of split tape that reminds you why an index print can hide more than it reveals, …
 
 ---
 
@@ -48,7 +48,7 @@ In early June 2026, Broadcom Inc. launched cash tender offers for up to US$2.50 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-16 | 監控 | $393.94 | — | 自動更新 |
+| 2026-06-17 | 監控 | $376.71 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ In early June 2026, Broadcom Inc. launched cash tender offers for up to US$2.50 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-17 21:02 HKT*
