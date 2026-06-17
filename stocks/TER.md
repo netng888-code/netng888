@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-06-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$432.41** |
-| 今日變動 | ▲ $29.21　(+7.24%) |
+| 現價 | **$409.35** |
+| 今日變動 | ▼ $23.06　(-5.33%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,702　(▲370.0%) |
+| 未實現盈虧 | ▲ $1,587　(▲344.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $367.37 | — |
-| Put Wall（支撐） | $400.00 | -7.5% |
-| Call Wall（阻力） | $420.00 | +-2.9% |
+| Gamma Flip | $371.99 | — |
+| Put Wall（支撐） | $400.00 | -2.3% |
+| Call Wall（阻力） | $500.00 | +22.1% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Teradyne Inc (NASDAQ:TER) Offers Affordable Growth With Strong Fundamentals](https://finnhub.io/api/news?id=eb1870f76038ddcd0914b88e7cc22b129679a47621eea4fcb4d2c448de9a2e35)**  
-*ChartMill · 5h前*  
-Teradyne (TER) scores 8/10 in an Affordable Growth screen, combining strong growth metrics with reasonable valuation. Earnings surged 67% with zero debt, making…
+- **[Decoding LRCX Stock's Premium Valuation](https://finnhub.io/api/news?id=fbced9bba556ae9189b751356aa4189d410c7bf1b48ec7b46c542272f788cad0)**  
+*Yahoo · 14h前*  
+At $388.92, Lam Research (LRCX) is being priced to deliver 26.0% revenue growth annually for the next 5 years simply to defend today's 72.5x multiple. That is e…
 
-- **[Teradyne: Runaway AI Train At Hefty Premiums - Reiterate Hold](https://finnhub.io/api/news?id=3510084696e1c2af44724ef6d3e05ba6816152e45e37fe6a8a3996b483c7dfc1)**  
-*SeekingAlpha · 8h前*  
-AI-related demand now comprises 70% of Teradyne's revenues, thanks to their strategic partnership with numerous foundries. Read why TER stock is a Hold.
+- **[Teradyne (TER) Falls More Steeply Than Broader Market: What Investors Need to Know](https://finnhub.io/api/news?id=dee88038749fb41aaea5c3e9a2b9a3aef0acc9fa5d9367f0897ab9d6ff353dc8)**  
+*Yahoo · 15h前*  
+In the closing of the recent trading day, Teradyne (TER) stood at $409.35, denoting a -5.33% move from the preceding trading day.
 
-- **[Top S&P500 movers in Monday's session](https://finnhub.io/api/news?id=c4fa3cf648116181bbdb74ae46e84ae9946e06b369d1f17d1f1b844df9dde755)**  
-*ChartMill · 17h前*  
-Let's have a look at the top S&P500 gainers and losers one hour before the close of the markets of today's session.
+- **[Dear Teradyne Stock Fans, Mark Your Calendars for June 22](https://finnhub.io/api/news?id=35695b3bd51eb85b3c467fd50c99cb672793cb18a51e49280c9662c968556184)**  
+*Yahoo · 18h前*  
+Teradyne will be joining the Nasdaq 100 ahead of market open on June 22.
 
 ---
 
@@ -48,7 +48,7 @@ Let's have a look at the top S&P500 gainers and losers one hour before the close
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-16 | 監控 | $432.41 | — | 自動更新 |
+| 2026-06-17 | 監控 | $409.35 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Let's have a look at the top S&P500 gainers and losers one hour before the close
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-16 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-06-17 21:03 HKT*
