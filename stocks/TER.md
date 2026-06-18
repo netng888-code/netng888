@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-06-18 21:51 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 22:19 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$428.31** |
-| 今日變動 | ▲ $19.75　(+4.83%) |
+| 現價 | **$430.43** |
+| 今日變動 | ▲ $21.87　(+5.35%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,682　(▲365.6%) |
+| 未實現盈虧 | ▲ $1,692　(▲367.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $378.12 | — |
-| Put Wall（支撐） | $400.00 | -6.6% |
-| Call Wall（阻力） | $500.00 | +16.7% |
+| Gamma Flip | $382.84 | — |
+| Put Wall（支撐） | $400.00 | -7.1% |
+| Call Wall（阻力） | $500.00 | +16.2% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -39,7 +39,7 @@ Get insights into the top gainers and losers in the S&P500 index of Thursday's p
 Nebius has been high on investors’ radars amid a series of expansion news, contract wins and a surging stock price.
 
 - **[Dear CoreWeave Stock Fans, Mark Your Calendars for June 22](https://finnhub.io/api/news?id=404d8184b7fe425055fa960ee8ea68a602dff2fe845413a2cc05db056236000e)**  
-*Yahoo · 19h前*  
+*Yahoo · 20h前*  
 CoreWeave stock has been included in the illustrious Nasdaq 100 club starting June 22.
 
 ---
@@ -48,7 +48,7 @@ CoreWeave stock has been included in the illustrious Nasdaq 100 club starting Ju
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $428.31 | — | 自動更新 |
+| 2026-06-18 | 監控 | $430.43 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ CoreWeave stock has been included in the illustrious Nasdaq 100 club starting Ju
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 21:51 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 22:19 HKT*
