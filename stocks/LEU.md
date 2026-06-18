@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-06-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:51 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$170.31** |
-| 今日變動 | ▲ $4.84　(+2.92%) |
+| 現價 | **$178.09** |
+| 今日變動 | ▲ $7.78　(+4.57%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $218　(▼13.8%) |
+| 未實現盈虧 | ▼ $155　(▼9.8%) |
 
 ---
 
@@ -21,10 +21,10 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $190.43 | — |
-| Put Wall（支撐） | $170.00 | -0.2% |
-| Call Wall（阻力） | $185.00 | +8.6% |
+| Put Wall（支撐） | $170.00 | -4.5% |
+| Call Wall（阻力） | $185.00 | +3.9% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
@@ -46,7 +46,7 @@ UBS  analyst Jon Windham   maintains Centrus Energy (NYSE:LEU) with a Neutral an
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $170.31 | — | 自動更新 |
+| 2026-06-18 | 監控 | $178.09 | — | 自動更新 |
 
 ---
 
@@ -57,4 +57,4 @@ UBS  analyst Jon Windham   maintains Centrus Energy (NYSE:LEU) with a Neutral an
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:51 HKT*
