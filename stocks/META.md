@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-06-18 21:51 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 22:19 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$565.74** |
-| 今日變動 | ▼ $1.84　(-0.32%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $122　(▼6.7%) |
+| 未實現盈虧 | ▼ $1,819　(▼100.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $589.11 | — |
-| Put Wall（支撐） | $550.00 | -2.8% |
-| Call Wall（阻力） | $750.00 | +32.6% |
+| Gamma Flip | $578.06 | — |
+| Put Wall（支撐） | $550.00 | — |
+| Call Wall（阻力） | $750.00 | — |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Top Meta AI Leader Leaves Just Months After Major Restructuring Overhaul](https://finnhub.io/api/news?id=fe943ece5b96254ed7fdc6e24b07adc708194dcbaa38dfe3598c62c04b44cba5)**  
-*Yahoo · 2h前*  
-AI Leadership Exit Adds New Twist to Meta's Massive Transformation Plan
+- **[Apple CEO Cook warns product price increases are ‘unavoidable’](https://finnhub.io/api/news?id=ec102543c6770af591eb5610982a2f7ab93ddf18c30154017663854a6f9eb393)**  
+*Yahoo · 0h前*  
+Apple Inc (NASDAQ:AAPL, XETRA:APC) plans to raise prices on some of its products as surging memory and storage chip costs pressure its supply chain, CEO Tim Coo…
 
-- **[Meta AI Restructuring Hit by Executive Exit](https://finnhub.io/api/news?id=9dd4d3e6af4e954742ce34482307ae10381052e509666c871bee00bb02456039)**  
-*Yahoo · 2h前*  
-Emily Dalton Smith, who was set to lead Meta's internal AI work push, is reportedly leaving the company.
+- **[SpaceX Looks Like Meme Stock To Some. Is That A Good Or Bad Thing?](https://finnhub.io/api/news?id=cbe5bdba53320f0abf339ac34d10d5e964cae8148b025ac749d43ff678259197)**  
+*Yahoo · 1h前*  
+Elon Musk's SpaceX pulled off the biggest IPO ever. For investors, there are still issues to sort out. For one, is SPCX a meme stock?
 
-- **[Stocks Rise Pre-Bell as US, Iran Sign Peace Deal; Traders Assess Fed Rate Decision](https://finnhub.io/api/news?id=97b4f8406ec8398e5a7b0449b602d69b706cd5841fb492f31a0612e648db2ae1)**  
-*Yahoo · 2h前*  
-US equity markets were tracking in the green before the opening bell Thursday as investors weighed t
+- **[Manus original investors plan to buy back AI firm from Meta for $2 billion, The Information reports](https://finnhub.io/api/news?id=baebc940ff155b455e8bb49310f4e0f1fecb67b2cbb39d22c27aa47579b20a91)**  
+*Yahoo · 1h前*  
+The early Chinese ‌backers of ‌AI startup Manus are ​planning to buy the company back from Meta ‌at ⁠the $2 billion price that the ⁠Facebook parent paid, The ​I…
 
 ---
 
@@ -48,7 +48,7 @@ US equity markets were tracking in the green before the opening bell Thursday as
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $565.74 | — | 自動更新 |
+| 2026-06-18 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ US equity markets were tracking in the green before the opening bell Thursday as
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 21:51 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 22:19 HKT*
