@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-06-18 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:51 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$408.56** |
-| 今日變動 | ▼ $0.79　(-0.19%) |
+| 現價 | **$428.31** |
+| 今日變動 | ▲ $19.75　(+4.83%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,583　(▲344.1%) |
+| 未實現盈虧 | ▲ $1,682　(▲365.6%) |
 
 ---
 
@@ -21,8 +21,8 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $378.12 | — |
-| Put Wall（支撐） | $400.00 | -2.1% |
-| Call Wall（阻力） | $500.00 | +22.4% |
+| Put Wall（支撐） | $400.00 | -6.6% |
+| Call Wall（阻力） | $500.00 | +16.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[These S&P500 stocks are moving in today's pre-market session](https://finnhub.io/api/news?id=70fd1c62e67b51ff51960d234215df3424661aedc9c9b986bcfb297f28870be3)**  
-*ChartMill · 0h前*  
+*ChartMill · 1h前*  
 Get insights into the top gainers and losers in the S&P500 index of Thursday's pre-market session.
 
 - **[NBIS Stock Rally Rolls On After Record High: Retail Sees 'Shorts Drowning In Losses' As Nasdaq-100 Inclusion Nears](https://finnhub.io/api/news?id=b9567ec62d5742b5e5b065c12615068f37199dbb0048f87a672d5a5452115ef3)**  
-*Yahoo · 10h前*  
+*Yahoo · 11h前*  
 Nebius has been high on investors’ radars amid a series of expansion news, contract wins and a surging stock price.
 
 - **[Dear CoreWeave Stock Fans, Mark Your Calendars for June 22](https://finnhub.io/api/news?id=404d8184b7fe425055fa960ee8ea68a602dff2fe845413a2cc05db056236000e)**  
-*Yahoo · 18h前*  
+*Yahoo · 19h前*  
 CoreWeave stock has been included in the illustrious Nasdaq 100 club starting June 22.
 
 ---
@@ -48,7 +48,7 @@ CoreWeave stock has been included in the illustrious Nasdaq 100 club starting Ju
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $408.56 | — | 自動更新 |
+| 2026-06-18 | 監控 | $428.31 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ CoreWeave stock has been included in the illustrious Nasdaq 100 club starting Ju
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:51 HKT*
