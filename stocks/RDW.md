@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-06-18 21:51 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 22:19 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$13.49** |
-| 今日變動 | ▼ $0.87　(-6.06%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 80 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $173　(▼13.8%) |
+| 未實現盈虧 | ▼ $1,252　(▼100.0%) |
 
 ---
 
@@ -20,18 +20,18 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.00 | — |
-| Put Wall（支撐） | $15.00 | --11.2% |
-| Call Wall（阻力） | $15.00 | +11.2% |
+| Gamma Flip | $8.86 | — |
+| Put Wall（支撐） | $13.00 | — |
+| Call Wall（阻力） | $15.00 | — |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
 - **[Redwire: Growth Is Accelerating, But So Are Expectations](https://finnhub.io/api/news?id=c9b78bdd9154b13d442ae4933dee6de2b38b652a5f60b05169031866b003e003)**  
-*SeekingAlpha · 12h前*
+*SeekingAlpha · 13h前*
 
 - **[Redwire: New Contracts Support The Bull Case](https://finnhub.io/api/news?id=761e7cdaae84809e43157e771a8ea10f19b0fe19815a7bcf46e13f5ced67c492)**  
 *SeekingAlpha · 1d前*  
@@ -47,7 +47,7 @@ Momentus and AST SpaceMobile lead gains in the space sector following the SpaceX
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $13.49 | — | 自動更新 |
+| 2026-06-18 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ Momentus and AST SpaceMobile lead gains in the space sector following the SpaceX
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 21:51 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 22:19 HKT*
