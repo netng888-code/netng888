@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-06-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$207.41** |
-| 今日變動 | ▼ $5.04　(-2.37%) |
+| 現價 | **$204.65** |
+| 今日變動 | ▼ $2.76　(-1.33%) |
 | 持倉數量 | 15 股 |
 | 平均成本 | $148.500 |
-| 未實現盈虧 | ▲ $884　(▲39.7%) |
+| 未實現盈虧 | ▲ $842　(▲37.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $197.85 | — |
-| Put Wall（支撐） | $200.00 | -3.6% |
-| Call Wall（阻力） | $210.00 | +1.2% |
+| Gamma Flip | $197.97 | — |
+| Put Wall（支撐） | $200.00 | -2.3% |
+| Call Wall（阻力） | $200.00 | +-2.3% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Amazon vs. Alphabet: Which Magnificent Stock Is the Better Buy?](https://finnhub.io/api/news?id=908cbd8056e184cb163aa8c93954e2b9b99c30766114ce32327702c1c3b34df1)**  
+- **[Intel Stock Jumps 10% on Apple Partnership](https://finnhub.io/api/news?id=875b33e6895054b9ca0f437e565beb60a94e71a113a013ef428a3f834c6e6674)**  
 *Yahoo · 1h前*  
-Amazon and Alphabet are both leaders in the AI race, but one of them looks more compelling.
+Apple-Intel Chip Alliance Revealed as Trump Pushes U.S. Semiconductor Revival
 
-- **[AI Chips Update - Advancing European AI with Bull and Foxconn Collaboration](https://finnhub.io/api/news?id=4a59ff11acff47fabc0f30bf631a6b56dbf1879c15796ae5232606d13ef9e492)**  
+- **[Could SpaceX Join the "Magnificent Seven"?](https://finnhub.io/api/news?id=df16fcd1c92dada7f506f38b2a98c8fd40b0646aaf71b3b8bdf63959daf669e8)**  
 *Yahoo · 1h前*  
-Bull and Foxconn have reached a significant milestone in their collaboration to advance AI infrastructure in Europe with the production of key components using …
+SpaceX has quickly become a trillion-dollar company.
 
-- **[OpenAI’s Financials Leaked. They’re Not Bad, but They’re Not Great.](https://finnhub.io/api/news?id=a8c19beeddeb38297cf8a3455b17f319cae3bd6794ebd32e952b3339137313e8)**  
+- **[ExxonMobil Has Its Sights on Its Next Megamerger. Here's the Oil Stock It Should Buy.](https://finnhub.io/api/news?id=7e06cd0826b2cb3a6b67ec7e720653544cac953dc87b087f6c9af27be15eabb7)**  
 *Yahoo · 1h前*  
-Ed Zitron, journalist and infamous AI bear, got his hands on newly leaked OpenAI financials that give the term "cash burn" a whole new meaning.
+Woodside isn't the only LNG target available.
 
 ---
 
@@ -48,7 +48,7 @@ Ed Zitron, journalist and infamous AI bear, got his hands on newly leaked OpenAI
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-17 | 監控 | $207.41 | — | 自動更新 |
+| 2026-06-18 | 監控 | $204.65 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Ed Zitron, journalist and infamous AI bear, got his hands on newly leaked OpenAI
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-17 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:02 HKT*
