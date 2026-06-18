@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-06-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$600.21** |
-| 今日變動 | ▲ $6.73　(+1.13%) |
+| 現價 | **$567.58** |
+| 今日變動 | ▼ $32.63　(-5.44%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $18　(▼1.0%) |
+| 未實現盈虧 | ▼ $116　(▼6.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $589.03 | — |
-| Put Wall（支撐） | $600.00 | -0.0% |
-| Call Wall（阻力） | $750.00 | +25.0% |
+| Gamma Flip | $589.11 | — |
+| Put Wall（支撐） | $550.00 | -3.1% |
+| Call Wall（阻力） | $750.00 | +32.1% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[META (NASDAQ:META) Aligns Perfectly with Peter Lynch’s GARP Investment Strategy](https://finnhub.io/api/news?id=31c0f863b4299b5d10b9d639c7fd49867a048dbf015f0c901b2eb8a3000481fb)**  
-*ChartMill · 1h前*  
-Meta stock analysis shows META meets Peter Lynch's GARP criteria with 24.85% EPS growth, a PEG ratio of 0.79, and strong financial health.
-
-- **[OpenAI’s Financials Leaked. They’re Not Bad, but They’re Not Great.](https://finnhub.io/api/news?id=a8c19beeddeb38297cf8a3455b17f319cae3bd6794ebd32e952b3339137313e8)**  
+- **[Top Meta AI Leader Leaves Just Months After Major Restructuring Overhaul](https://finnhub.io/api/news?id=fe943ece5b96254ed7fdc6e24b07adc708194dcbaa38dfe3598c62c04b44cba5)**  
 *Yahoo · 1h前*  
-Ed Zitron, journalist and infamous AI bear, got his hands on newly leaked OpenAI financials that give the term "cash burn" a whole new meaning.
+AI Leadership Exit Adds New Twist to Meta's Massive Transformation Plan
 
-- **[Apple Investors Are Tired of AI Promises, Want Tangible Progress](https://finnhub.io/api/news?id=14181efc791a14401110c4c6f5a54d28b4a31fcfdf9ba2330292623e600c948d)**  
+- **[Meta AI Restructuring Hit by Executive Exit](https://finnhub.io/api/news?id=9dd4d3e6af4e954742ce34482307ae10381052e509666c871bee00bb02456039)**  
 *Yahoo · 1h前*  
-(Bloomberg) -- Apple Inc. investors are losing patience with the company’s talk about becoming a more formidable presence in artificial intelligence and want to…
+Emily Dalton Smith, who was set to lead Meta's internal AI work push, is reportedly leaving the company.
+
+- **[Stocks Rise Pre-Bell as US, Iran Sign Peace Deal; Traders Assess Fed Rate Decision](https://finnhub.io/api/news?id=97b4f8406ec8398e5a7b0449b602d69b706cd5841fb492f31a0612e648db2ae1)**  
+*Yahoo · 1h前*  
+US equity markets were tracking in the green before the opening bell Thursday as investors weighed t
 
 ---
 
@@ -48,7 +48,7 @@ Ed Zitron, journalist and infamous AI bear, got his hands on newly leaked OpenAI
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-17 | 監控 | $600.21 | — | 自動更新 |
+| 2026-06-18 | 監控 | $567.58 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Ed Zitron, journalist and infamous AI bear, got his hands on newly leaked OpenAI
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-17 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:02 HKT*
