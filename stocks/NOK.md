@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-06-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$13.98** |
-| 今日變動 | ▼ $0.84　(-5.67%) |
+| 現價 | **$13.83** |
+| 今日變動 | ▼ $0.15　(-1.07%) |
 | 持倉數量 | 100 股 |
 | 平均成本 | $13.500 |
-| 未實現盈虧 | ▲ $48　(▲3.6%) |
+| 未實現盈虧 | ▲ $33　(▲2.4%) |
 
 ---
 
@@ -20,26 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $12.85 | — |
-| Put Wall（支撐） | $14.00 | --0.1% |
-| Call Wall（阻力） | $15.00 | +7.3% |
+| Gamma Flip | $13.33 | — |
+| Put Wall（支撐） | $14.00 | --1.2% |
+| Call Wall（阻力） | $14.00 | +1.2% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
+- **[10 Information Technology Stocks Whale Activity In Today's Session](https://finnhub.io/api/news?id=d639428ed0cfd507a3cf33d31f8ef8b6d8cf0dad50e1c6c9bf053fb2ea5795ad)**  
+*Benzinga · 23h前*
+
+- **[What's Going On With Nokia Stock Wednesday?](https://finnhub.io/api/news?id=e87b340fb8cc9f1db4ff0bb868b9f4c009b7ddf1a91074398660069b0660ab74)**  
+*Benzinga · 1d前*  
+Nokia shares are rising in Wednesday&#39;s premarket as traders lean into bullish analyst calls and a steady flow of AI-and-5G product headlines.
+
 - **[Nokia Expanding Its Advanced Test, Packaging Operations In Pennsylvania Under $4B R&D Investment Initiative In U.S.](https://finnhub.io/api/news?id=6342d0327a1ef828f0c963a6f771a8c32853a56c2c34f2920f2e6a9299ef9eed)**  
-*Benzinga · 22h前*  
+*Benzinga · 1d前*  
 Nokia today announced a major expansion of its advanced test and packaging (ATP) operations in Allentown, Pennsylvania. The investment will increase domestic pr…
-
-- **[10 Information Technology Stocks With Whale Alerts In Today's Session](https://finnhub.io/api/news?id=b186352b51939eb3c8917a7bb6c91bcddffef93f1eaf597fe6ee9c65886e12c5)**  
-*Benzinga · 1d前*
-
-- **[Why Is Nokia Stock Surging On Monday?](https://finnhub.io/api/news?id=cc44d4a0856db94f9b155860b162fa912ea4cb0f7d456688d02fdba49556e697)**  
-*Benzinga · 2d前*  
-Nokia stock (NYSE: NOK) surges on Monday following a JP Morgan price forecast increase to $21 and momentum from its new agentic AI framework.
 
 ---
 
@@ -47,7 +47,7 @@ Nokia stock (NYSE: NOK) surges on Monday following a JP Morgan price forecast in
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-17 | 監控 | $13.98 | — | 自動更新 |
+| 2026-06-18 | 監控 | $13.83 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ Nokia stock (NYSE: NOK) surges on Monday following a JP Morgan price forecast in
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-17 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:02 HKT*
