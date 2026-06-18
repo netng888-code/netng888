@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-06-17 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$376.71** |
-| 今日變動 | ▼ $17.23　(-4.37%) |
+| 現價 | **$392.90** |
+| 今日變動 | ▲ $16.19　(+4.30%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▲ $9　(▲0.2%) |
+| 未實現盈虧 | ▲ $171　(▲4.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $384.39 | — |
-| Put Wall（支撐） | $380.00 | --0.9% |
-| Call Wall（阻力） | $400.00 | +6.2% |
+| Gamma Flip | $381.91 | — |
+| Put Wall（支撐） | $400.00 | --1.8% |
+| Call Wall（阻力） | $400.00 | +1.8% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What's going on in today's pre-market session: S&P500 movers](https://finnhub.io/api/news?id=da97a603e9b1abd241768f50867d97e3c3e36cfa8f92f7c65f7864b594c2e5f0)**  
-*ChartMill · 0h前*  
-Stay updated with the S&P500 stocks that are on the move in today's pre-market session.
+- **[Good News for Broadcom Stock Fans](https://finnhub.io/api/news?id=e0269557abb9673b642b01660051feec023b19d7897bf82b0b1c9bffc39e8374)**  
+*Yahoo · 1h前*  
+Broadcom Stock Gets a Boost From $2.5 Billion Debt Buyback Initiative
 
-- **[INTC, AMD, AVGO, Other Chip Stocks Rebound Premarket: Cathie Wood Trims AMD Holding Further](https://finnhub.io/api/news?id=fc0b62717ad2302cf12e57b8928f84137709befdc29ce08940307e934eb928aa)**  
-*Yahoo · 4h前*  
-Chip stocks are rebounding after sharp declines on Tuesday, a cooling-off following the early-week rally sparked by the U.S.-Iran peace deal.
+- **[US chip stocks gain after Apple-Intel partnership](https://finnhub.io/api/news?id=fd1a01d69cb25c850d527a175bb760ac7c969d8e1c9ad49c6d9c896846a4b241)**  
+*Yahoo · 2h前*  
+Investing.com -- Shares of U.S. semiconductor companies climbed in premarket trading Thursday after President Trump said Apple has agreed to work with Intel to …
 
-- **[Chips Crack the Rally - Dow Keeps Climbing, SpaceX Passes Amazon](https://finnhub.io/api/news?id=f186b9ba5a5e821ce8a9a786b8603b1af1d5e1a2591b41e960c2856e0cffe9bf)**  
-*ChartMill · 4h前*  
-Monday's all-everything rally lasted exactly one session. Tuesday was the kind of split tape that reminds you why an index print can hide more than it reveals, …
+- **[SpaceX Can Be Added to the Russell 1000 and Russell 3000 After Today -- Don't Take the Bait](https://finnhub.io/api/news?id=4b804f54d3bb2d69f8504477de29e1bc6170bada807f70ce35de201ee63a6534)**  
+*Yahoo · 3h前*  
+The rewriting of several major index inclusion criteria has set retail investors up to be fleeced.
 
 ---
 
@@ -48,7 +48,7 @@ Monday's all-everything rally lasted exactly one session. Tuesday was the kind o
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-17 | 監控 | $376.71 | — | 自動更新 |
+| 2026-06-18 | 監控 | $392.90 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Monday's all-everything rally lasted exactly one session. Tuesday was the kind o
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-17 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:02 HKT*
