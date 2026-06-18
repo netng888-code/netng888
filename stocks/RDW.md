@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-06-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$13.50** |
-| 今日變動 | ▼ $1.33　(-8.97%) |
+| 現價 | **$14.36** |
+| 今日變動 | ▲ $0.86　(+6.37%) |
 | 持倉數量 | 80 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $172　(▼13.7%) |
+| 未實現盈虧 | ▼ $103　(▼8.2%) |
 
 ---
 
@@ -20,23 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $8.69 | — |
-| Put Wall（支撐） | $12.00 | -11.1% |
-| Call Wall（阻力） | $15.00 | +11.1% |
+| Gamma Flip | $9.00 | — |
+| Put Wall（支撐） | $15.00 | --4.5% |
+| Call Wall（阻力） | $15.00 | +4.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[SpaceX As Big As Amazon?](https://finnhub.io/api/news?id=60acb8b711527176e4572ccef4b0a7fedaae8e9ee9d7e71ab22c3587082a6150)**  
-*SeekingAlpha · 23h前*  
-Shares of SpaceX are up another 5% this morning in pre-market trading ahead of the 9:30 AM ET open.
+- **[Redwire: Growth Is Accelerating, But So Are Expectations](https://finnhub.io/api/news?id=c9b78bdd9154b13d442ae4933dee6de2b38b652a5f60b05169031866b003e003)**  
+*SeekingAlpha · 11h前*
 
-- **[Why Is Redwire Stock Falling On Tuesday?](https://finnhub.io/api/news?id=b7e68905fe317e3c019ed5fcb086604e561cb10bd3128821ef9a3c840946da0f)**  
+- **[Redwire: New Contracts Support The Bull Case](https://finnhub.io/api/news?id=761e7cdaae84809e43157e771a8ea10f19b0fe19815a7bcf46e13f5ced67c492)**  
+*SeekingAlpha · 23h前*  
+Redwire stock remains a "Buy," but investors should note the thin margins and cash burn. Here's what you need to know.
+
+- **[Momentus, AST SpaceMobile Lead The Thaw In Space Stocks](https://finnhub.io/api/news?id=56d601567abe1cbaf705db21a9f7eb64b15b99db88af798cfa429a05af0b7616)**  
 *Benzinga · 1d前*  
-Redwire shares are down due to sector rotation into SpaceX&#39;s $2.1 trillion public debut and lingering fears over an ATM equity offering.
+Momentus and AST SpaceMobile lead gains in the space sector following the SpaceX initial public offering on June 12.
 
 ---
 
@@ -44,7 +47,7 @@ Redwire shares are down due to sector rotation into SpaceX&#39;s $2.1 trillion p
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-17 | 監控 | $13.50 | — | 自動更新 |
+| 2026-06-18 | 監控 | $14.36 | — | 自動更新 |
 
 ---
 
@@ -55,4 +58,4 @@ Redwire shares are down due to sector rotation into SpaceX&#39;s $2.1 trillion p
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-17 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:02 HKT*
