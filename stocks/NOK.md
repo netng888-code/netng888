@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-06-18 21:51 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 22:19 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$13.68** |
-| 今日變動 | ▼ $0.15　(-1.08%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 100 股 |
 | 平均成本 | $13.500 |
-| 未實現盈虧 | ▲ $18　(▲1.3%) |
+| 未實現盈虧 | ▼ $1,350　(▼100.0%) |
 
 ---
 
@@ -20,11 +20,11 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $13.33 | — |
-| Put Wall（支撐） | $14.00 | --2.3% |
-| Call Wall（阻力） | $14.00 | +2.3% |
+| Gamma Flip | $13.53 | — |
+| Put Wall（支撐） | $14.00 | — |
+| Call Wall（阻力） | $14.00 | — |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：❓ GEX 數據不足**
 
 ---
 
@@ -47,7 +47,7 @@ Nokia today announced a major expansion of its advanced test and packaging (ATP)
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $13.68 | — | 自動更新 |
+| 2026-06-18 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ Nokia today announced a major expansion of its advanced test and packaging (ATP)
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 21:51 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 22:19 HKT*
