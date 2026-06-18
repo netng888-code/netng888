@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-06-18 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:51 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$13.83** |
-| 今日變動 | ▼ $0.15　(-1.07%) |
+| 現價 | **$13.68** |
+| 今日變動 | ▼ $0.15　(-1.08%) |
 | 持倉數量 | 100 股 |
 | 平均成本 | $13.500 |
-| 未實現盈虧 | ▲ $33　(▲2.4%) |
+| 未實現盈虧 | ▲ $18　(▲1.3%) |
 
 ---
 
@@ -21,17 +21,17 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $13.33 | — |
-| Put Wall（支撐） | $14.00 | --1.2% |
-| Call Wall（阻力） | $14.00 | +1.2% |
+| Put Wall（支撐） | $14.00 | --2.3% |
+| Call Wall（阻力） | $14.00 | +2.3% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
 - **[10 Information Technology Stocks Whale Activity In Today's Session](https://finnhub.io/api/news?id=d639428ed0cfd507a3cf33d31f8ef8b6d8cf0dad50e1c6c9bf053fb2ea5795ad)**  
-*Benzinga · 23h前*
+*Benzinga · 1d前*
 
 - **[What's Going On With Nokia Stock Wednesday?](https://finnhub.io/api/news?id=e87b340fb8cc9f1db4ff0bb868b9f4c009b7ddf1a91074398660069b0660ab74)**  
 *Benzinga · 1d前*  
@@ -47,7 +47,7 @@ Nokia today announced a major expansion of its advanced test and packaging (ATP)
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $13.83 | — | 自動更新 |
+| 2026-06-18 | 監控 | $13.68 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ Nokia today announced a major expansion of its advanced test and packaging (ATP)
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:51 HKT*
