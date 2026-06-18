@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-06-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$278.67** |
-| 今日變動 | ▼ $30.21　(-9.78%) |
+| 現價 | **$289.54** |
+| 今日變動 | ▲ $10.87　(+3.90%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $238.605 |
-| 未實現盈虧 | ▲ $401　(▲16.8%) |
+| 未實現盈虧 | ▲ $509　(▲21.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $250.67 | — |
-| Put Wall（支撐） | $265.00 | -4.9% |
-| Call Wall（阻力） | $300.00 | +7.7% |
+| Gamma Flip | $262.48 | — |
+| Put Wall（支撐） | $265.00 | -8.5% |
+| Call Wall（阻力） | $300.00 | +3.6% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Chip stocks rebound premarket as Intel manufacturing update lifts sector](https://finnhub.io/api/news?id=86342a24de952a8a3e3aa5dd0e8e841d7638456234ba4f471ee28623e194b18e)**  
-*Yahoo · 1h前*  
-Investing.com -- Chip stocks have rebounded in premarket trading Wednesday, led by Intel after the company announced its next-generation 18A-P manufacturing pro…
+- **[Is Tech Heading for a Correction? Intel and Marvell Technology Are Expensive – Could Lahontan Gold Be a Rotation Winner?](https://finnhub.io/api/news?id=4a8961ff832d3b2ccd5677f4f50f9c6e1782310d73a0cd24254a318754e9c113)**  
+*Yahoo · 2h前*  
+Intel: Operational Pressure Forces Smart Capital ModelAs an integrated chip manufacturer, Intel serves the PC and server market with its own processors and also…
 
-- **[Marvell Technology (NasdaqGS:MRVL) Gets Nvidia Backing And A $2 Billion Investment](https://finnhub.io/api/news?id=d6937930739ec507fe4f03ca5d8fda608e994275d381a9c9fdecd6cee5295db8)**  
-*Yahoo · 3h前*  
-Nvidia CEO Jensen Huang recently highlighted Marvell Technology (NasdaqGS:MRVL) as a potential next trillion-dollar company. Nvidia has expanded its partnership…
+- **[MRVL Stock Rises Premarket: Marvell Ships Over 5M Photonic Chips Ahead Of S&P 500 Entry](https://finnhub.io/api/news?id=689a03b0068b67384b2d5e4ebc5ee6c7a0be62faf51f8adc8cc5971770ede0e8)**  
+*Yahoo · 2h前*  
+The company and Tower Semiconductor have shipped photonic integrated circuits to Marvell’s customers.
 
-- **[US Stock Market Today: S&P 500 Futures Slip As Factory Data Signals Cooling Economy](https://finnhub.io/api/news?id=00bd3c1768789702dcfbaf33033a1e536b27dd14a70bf0407a9299b900f6d04b)**  
-*Yahoo · 4h前*  
-The Morning Bull - US Market Morning Update Wednesday, Jun, 17 2026 US stock futures are mixed this morning, with S&P 500 contracts slightly softer while Nasdaq…
+- **[US chip stocks gain after Apple-Intel partnership](https://finnhub.io/api/news?id=fd1a01d69cb25c850d527a175bb760ac7c969d8e1c9ad49c6d9c896846a4b241)**  
+*Yahoo · 2h前*  
+Investing.com -- Shares of U.S. semiconductor companies climbed in premarket trading Thursday after President Trump said Apple has agreed to work with Intel to …
 
 ---
 
@@ -48,7 +48,7 @@ The Morning Bull - US Market Morning Update Wednesday, Jun, 17 2026 US stock fut
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-17 | 監控 | $278.67 | — | 自動更新 |
+| 2026-06-18 | 監控 | $289.54 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The Morning Bull - US Market Morning Update Wednesday, Jun, 17 2026 US stock fut
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-17 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:02 HKT*
