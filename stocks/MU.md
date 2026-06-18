@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-06-17 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$1,020.76** |
-| 今日變動 | ▼ $67.23　(-6.18%) |
+| 現價 | **$1,043.19** |
+| 今日變動 | ▲ $22.43　(+2.20%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $2,315　(▲83.0%) |
+| 未實現盈虧 | ▲ $2,427　(▲87.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $939.24 | — |
-| Put Wall（支撐） | $900.00 | -11.8% |
-| Call Wall（阻力） | $1,000.00 | +-2.0% |
+| Gamma Flip | $970.38 | — |
+| Put Wall（支撐） | $1,000.00 | -4.1% |
+| Call Wall（阻力） | $1,050.00 | +0.7% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Semiconductor Momentum Surges on AI Capex, but Valuations Signal a Selective Rally](https://finnhub.io/api/news?id=5e2fb2f89662f346af3a780c7522c9b26fdcc2493a8fa549f46af6ba6af58443)**  
+- **[These S&P500 stocks are moving in today's pre-market session](https://finnhub.io/api/news?id=70fd1c62e67b51ff51960d234215df3424661aedc9c9b986bcfb297f28870be3)**  
 *ChartMill · 0h前*  
-The semiconductor rally is strong but selective, driven by AI spending. Key stocks like Micron, AMD, Lam Research, KLA, and Intel show momentum, but fundamental…
+Get insights into the top gainers and losers in the S&P500 index of Thursday's pre-market session.
 
-- **[What's going on in today's pre-market session: S&P500 movers](https://finnhub.io/api/news?id=da97a603e9b1abd241768f50867d97e3c3e36cfa8f92f7c65f7864b594c2e5f0)**  
-*ChartMill · 0h前*  
-Stay updated with the S&P500 stocks that are on the move in today's pre-market session.
-
-- **[AI Chips Update - Advancing European AI with Bull and Foxconn Collaboration](https://finnhub.io/api/news?id=4a59ff11acff47fabc0f30bf631a6b56dbf1879c15796ae5232606d13ef9e492)**  
+- **[SpaceX, Apple, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=8a27ef2a04f9055e8df5e73a5b3ca7620df938af0d43ca8e55bd1efe190f5457)**  
 *Yahoo · 1h前*  
-Bull and Foxconn have reached a significant milestone in their collaboration to advance AI infrastructure in Europe with the production of key components using …
+FEATURE  Tech stocks were rebounding on Thursday after President Donald Trump signed a memorandum of understanding to end the Iran war. Futures tracking the ros…
+
+- **[US chip stocks gain after Apple-Intel partnership](https://finnhub.io/api/news?id=fd1a01d69cb25c850d527a175bb760ac7c969d8e1c9ad49c6d9c896846a4b241)**  
+*Yahoo · 2h前*  
+Investing.com -- Shares of U.S. semiconductor companies climbed in premarket trading Thursday after President Trump said Apple has agreed to work with Intel to …
 
 ---
 
@@ -48,7 +48,7 @@ Bull and Foxconn have reached a significant milestone in their collaboration to 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-17 | 監控 | $1,020.76 | — | 自動更新 |
+| 2026-06-18 | 監控 | $1,043.19 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Bull and Foxconn have reached a significant milestone in their collaboration to 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-17 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:02 HKT*
