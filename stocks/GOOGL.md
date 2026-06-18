@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-06-17 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-18 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$373.25** |
-| 今日變動 | ▲ $3.90　(+1.06%) |
+| 現價 | **$363.79** |
+| 今日變動 | ▼ $9.46　(-2.53%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,338　(▲109.2%) |
+| 未實現盈虧 | ▲ $2,225　(▲103.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $355.77 | — |
-| Put Wall（支撐） | $360.00 | -3.5% |
-| Call Wall（阻力） | $380.00 | +1.8% |
+| Gamma Flip | $357.12 | — |
+| Put Wall（支撐） | $360.00 | -1.0% |
+| Call Wall（阻力） | $370.00 | +1.7% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Amazon vs. Alphabet: Which Magnificent Stock Is the Better Buy?](https://finnhub.io/api/news?id=908cbd8056e184cb163aa8c93954e2b9b99c30766114ce32327702c1c3b34df1)**  
+- **[Google Gemini Co-Lead Leaves for OpenAI](https://finnhub.io/api/news?id=cadb6e688e4812007b0f7302936b815c2c116034e2eeca8f6460cc4069da6de4)**  
 *Yahoo · 1h前*  
-Amazon and Alphabet are both leaders in the AI race, but one of them looks more compelling.
+Noam Shazeer's move adds another twist to the fight for top AI talent.
 
-- **[Dow Jones Futures: Techs Rebound, SpaceX Rises Despite Trump's Iran Threat; Warsh's Fed Debut Due](https://finnhub.io/api/news?id=8c5d70ad797b9a032d27ce67671a889c48e0242d9460b370b5f4aa136730447a)**  
+- **[Could SpaceX Join the "Magnificent Seven"?](https://finnhub.io/api/news?id=df16fcd1c92dada7f506f38b2a98c8fd40b0646aaf71b3b8bdf63959daf669e8)**  
 *Yahoo · 1h前*  
-The Dow Jones hit a new high and SpaceX kept rising. But chips and most AI stocks fell. Fed chief Kevin Warsh's comments will be in focus Wednesday.
+SpaceX has quickly become a trillion-dollar company.
 
-- **[Apple Investors Are Tired of AI Promises, Want Tangible Progress](https://finnhub.io/api/news?id=14181efc791a14401110c4c6f5a54d28b4a31fcfdf9ba2330292623e600c948d)**  
+- **[Tim Cook says Apple price increases are unavoidable, Q3 2026](https://finnhub.io/api/news?id=291f2ed0880f497679952471e27259aab913bd94f23c8dec60db209e5e901163)**  
 *Yahoo · 1h前*  
-(Bloomberg) -- Apple Inc. investors are losing patience with the company’s talk about becoming a more formidable presence in artificial intelligence and want to…
+A surge in AI-driven demand for memory chips has made it impossible to shield customers from rising costs, the outgoing CEO said
 
 ---
 
@@ -48,7 +48,7 @@ The Dow Jones hit a new high and SpaceX kept rising. But chips and most AI stock
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-17 | 監控 | $373.25 | — | 自動更新 |
+| 2026-06-18 | 監控 | $363.79 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The Dow Jones hit a new high and SpaceX kept rising. But chips and most AI stock
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-17 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-18 21:02 HKT*
