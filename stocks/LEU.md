@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-06-18 22:19 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$0.00** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$191.39** |
+| 今日變動 | ▲ $21.08　(+12.38%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $1,580　(▼100.0%) |
+| 未實現盈虧 | ▼ $49　(▼3.1%) |
 
 ---
 
@@ -20,25 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $185.08 | — |
-| Put Wall（支撐） | $180.00 | — |
-| Call Wall（阻力） | $185.00 | — |
+| Gamma Flip | $190.75 | — |
+| Put Wall（支撐） | $180.00 | -6.0% |
+| Call Wall（阻力） | $220.00 | +14.9% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[$100 Invested In Centrus Energy 10 Years Ago Would Be Worth This Much Today](https://finnhub.io/api/news?id=2f49212d03f828e2a7cad7d953dc31223b922d5301ddb49ba8a878bda6cf3cf5)**  
-*Benzinga · 22h前*
+- **[Uranium Stocks Surge 11% in a Week, But Earnings Reality Lags Behind the Rally](https://finnhub.io/api/news?id=93432c533aecf089e19e4924fa8a640ffb729b9d36318fb0e845c1a8f932c951)**  
+*ChartMill · 0h前*  
+Uranium stocks surged 11% this week on nuclear energy enthusiasm, but the sector has sharp divides. Cameco leads with strong earnings, while Centrus offers valu…
 
-- **[UBS Maintains Neutral on Centrus Energy, Lowers Price Target to $170](https://finnhub.io/api/news?id=37c503960254abe3cd8622472e4ae835862c7e5dfccd2dc71c4a7624b6d3ac2a)**  
-*Benzinga · 2d前*  
-UBS  analyst Jon Windham   maintains Centrus Energy (NYSE:LEU) with a Neutral and lowers the price target from $195 to $170.
+- **[Centrus Energy Stock Climbs After Signing Nuclear Fuel Agreement With Oklo](https://finnhub.io/api/news?id=8f78eaf77dd17c94a48dd0960c12d45e0a40cb5ff3cfdfa58b4d068b090162b5)**  
+*Benzinga · 1d前*  
+Centrus Energy shares rise after signing a Letter of Intent with Oklo to supply HALEU fuel for next-generation nuclear reactors.
 
-- **[Ur-Energy Announces Cost-Saving Measures Including A Workforce REduction Of 10 Employees](https://finnhub.io/api/news?id=090cfa79cb76dc8b500bfb7c02dc6d94c9415a79e0b096345a137774adb8a5ef)**  
-*Benzinga · 3d前*
+- **[Quantumscape, Marvell Technology, Micron Technology And Other Big Stocks Moving Higher On Thursday](https://finnhub.io/api/news?id=a943e90c0ea27e904d87ef9c3f645bf9e94d27193f6ae56a77b4c841902f5dee)**  
+*Benzinga · 1d前*  
+Dow Jones index up 200+ points on Thursday. Quantumscape shares rise 12.9%. Other notable gains: BFLY 31.3%, MFI 29.6%, SWBI 17.9%, VELO 16.3%
 
 ---
 
@@ -46,7 +48,7 @@ UBS  analyst Jon Windham   maintains Centrus Energy (NYSE:LEU) with a Neutral an
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $0.00 | — | 自動更新 |
+| 2026-06-19 | 監控 | $191.39 | — | 自動更新 |
 
 ---
 
@@ -57,4 +59,4 @@ UBS  analyst Jon Windham   maintains Centrus Energy (NYSE:LEU) with a Neutral an
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 22:19 HKT*
+*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
