@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-06-18 22:19 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$315.87** |
-| 今日變動 | ▲ $26.33　(+9.09%) |
+| 現價 | **$310.58** |
+| 今日變動 | ▲ $21.04　(+7.27%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $238.605 |
-| 未實現盈虧 | ▲ $773　(▲32.4%) |
+| 未實現盈虧 | ▲ $720　(▲30.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $273.04 | — |
-| Put Wall（支撐） | $287.50 | -9.0% |
-| Call Wall（阻力） | $300.00 | +-5.0% |
+| Gamma Flip | $238.31 | — |
+| Put Wall（支撐） | $300.00 | -3.4% |
+| Call Wall（阻力） | $300.00 | +-3.4% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Is Tech Heading for a Correction? Intel and Marvell Technology Are Expensive – Could Lahontan Gold Be a Rotation Winner?](https://finnhub.io/api/news?id=4a8961ff832d3b2ccd5677f4f50f9c6e1782310d73a0cd24254a318754e9c113)**  
-*Yahoo · 3h前*  
-Intel: Operational Pressure Forces Smart Capital ModelAs an integrated chip manufacturer, Intel serves the PC and server market with its own processors and also…
+- **[Apple's Price Warning Sends Memory Chips To A Record, Accenture Cracks 18%](https://finnhub.io/api/news?id=301f2345c23f938eec305d50352b197a2b7d65b5d344fca4e44aa3db1120717d)**  
+*ChartMill · 3h前*  
+Tim Cook's warning that iPhone and Mac prices are going up because memory chips have become too expensive lit a fire under the storage names. Micron printed a r…
 
-- **[MRVL Stock Rises Premarket: Marvell Ships Over 5M Photonic Chips Ahead Of S&P 500 Entry](https://finnhub.io/api/news?id=689a03b0068b67384b2d5e4ebc5ee6c7a0be62faf51f8adc8cc5971770ede0e8)**  
-*Yahoo · 3h前*  
-The company and Tower Semiconductor have shipped photonic integrated circuits to Marvell’s customers.
+- **[Marvell Technology, Inc. (MRVL) Names Adobe’s Dan Durn as Finance Chief](https://finnhub.io/api/news?id=7a2787877cafcfadbf05248fcde384fdb6f3e70546d17db4ac9b0434914c4307)**  
+*Yahoo · 5h前*  
+Marvell Technology, Inc. (NASDAQ:MRVL) is one of the 10 Best Photonic Computing Stocks to Buy Now. On June 11, Reuters reported that Marvell Technology, Inc. (N…
 
-- **[US chip stocks gain after Apple-Intel partnership](https://finnhub.io/api/news?id=fd1a01d69cb25c850d527a175bb760ac7c969d8e1c9ad49c6d9c896846a4b241)**  
-*Yahoo · 3h前*  
-Investing.com -- Shares of U.S. semiconductor companies climbed in premarket trading Thursday after President Trump said Apple has agreed to work with Intel to …
+- **[Marvell Stock Just Hit a New High. A Quiet Amazon Decision Could Be Why.](https://finnhub.io/api/news?id=2ec13943f43f281feec86ca83a85875f0805fcbc02fe7daa4ce91cd0597fac6b)**  
+*Yahoo · 9h前*  
+A report that the cloud giant may start selling its custom AI chips to outside customers could broaden the market for the semiconductor specialist that designs …
 
 ---
 
@@ -48,7 +48,7 @@ Investing.com -- Shares of U.S. semiconductor companies climbed in premarket tra
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $315.87 | — | 自動更新 |
+| 2026-06-19 | 監控 | $310.58 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Shares of U.S. semiconductor companies climbed in premarket tra
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 22:19 HKT*
+*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
