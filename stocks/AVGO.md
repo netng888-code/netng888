@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-06-18 22:19 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$407.89** |
-| 今日變動 | ▲ $14.99　(+3.82%) |
+| 現價 | **$411.35** |
+| 今日變動 | ▲ $18.45　(+4.70%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▲ $321　(▲8.5%) |
+| 未實現盈虧 | ▲ $356　(▲9.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $383.17 | — |
-| Put Wall（支撐） | $400.00 | -1.9% |
-| Call Wall（阻力） | $410.00 | +0.5% |
+| Gamma Flip | $385.71 | — |
+| Put Wall（支撐） | $400.00 | -2.8% |
+| Call Wall（阻力） | $400.00 | +-2.8% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Architect Labs raises $24 million to take on Broadcom, Marvell custom chip business](https://finnhub.io/api/news?id=dea84520e6b092db241fbd1b8e158b5c6b29113853ca8bfb296e35a70e8885e2)**  
+- **[SpaceX Has a Rapidly Approaching $20 Billion Surprise for Its Shareholders -- and They're Not Going to Be Happy](https://finnhub.io/api/news?id=37af5dc114ec4488f331e3edcec35318808906c2433639a132254dd63f409bd6)**  
 *Yahoo · 1h前*  
-Architect Labs said on Thursday it had raised $24 million in seed funding to ‌build a company that will use artificial intelligence to speed and ‌ease the desig…
+A sizable chunk of SpaceX's $75 billion initial public offering (IPO) capital raise is already spoken for.
 
-- **[Update: Signed US-Iran Peace Deal Lifts US Equity Futures Pre-Bell](https://finnhub.io/api/news?id=4d22153cb7572714a2acaaf2ad223b5b739c02d7e732ce429534dc40ec8f2aa7)**  
-*Yahoo · 1h前*  
-(Updates with economic data, recent oil price movement, world markets' overview and corporate stock
-
-- **[Nvidia Claims No. 1 Spot in $10 Billion AI Networking Market](https://finnhub.io/api/news?id=c4c5e36bcb07e9fb4e64678118b48474380c42df091dd2eeee3b6da2b0d43642)**  
+- **[3 AI Stocks to Buy on the Recent Tech Dip](https://finnhub.io/api/news?id=9ae2f8b61f0148d38a7d1db2aa8ce0a811c0a6c63ef7def1abc99b0dddbf6452)**  
 *Yahoo · 2h前*  
-Nvidia Wins One of the Biggest Battles in the AI Infrastructure Race
+These three hard-hit stocks look poised to rebound.
+
+- **[Broadcom (AVGO): Best US Stocks to Buy and Hold for the Next 5 Years](https://finnhub.io/api/news?id=aeef17d5848115eeb3f441848de2232fa0eed22ec4232bf55a205f1e110fac82)**  
+*Yahoo · 2h前*  
+Broadcom Inc. (NASDAQ:AVGO) is one of the best US stocks to buy and hold for the next 5 years. On June 9, Broadcom’s “Private Cloud Outlook 2026” revealed an AI…
 
 ---
 
@@ -48,7 +48,7 @@ Nvidia Wins One of the Biggest Battles in the AI Infrastructure Race
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $407.89 | — | 自動更新 |
+| 2026-06-19 | 監控 | $411.35 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia Wins One of the Biggest Battles in the AI Infrastructure Race
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 22:19 HKT*
+*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
