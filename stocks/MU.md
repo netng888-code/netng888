@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-06-18 22:18 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$1,112.21** |
-| 今日變動 | ▲ $69.02　(+6.62%) |
+| 現價 | **$1,133.99** |
+| 今日變動 | ▲ $90.80　(+8.70%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $2,772　(▲99.4%) |
+| 未實現盈虧 | ▲ $2,881　(▲103.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $988.14 | — |
-| Put Wall（支撐） | $1,000.00 | -10.1% |
-| Call Wall（阻力） | $1,100.00 | +-1.1% |
+| Gamma Flip | $855.97 | — |
+| Put Wall（支撐） | $900.00 | -20.6% |
+| Call Wall（阻力） | $1,050.00 | +-7.4% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Wall Street scrambles to lift Micron price targets ahead of earnings](https://finnhub.io/api/news?id=f137cf04c13c99ab3a178606e6a57a6a6a0467572284f39322bf83acfbd30118)**  
-*Yahoo · 0h前*  
-Investing.com -- Micron Technology (NASDAQ:MU) has firmly established itself as one of the definitive AI infrastructure winners of 2026, triggering a massive wa…
-
-- **[Bandwidth and Blue Bird have been highlighted as Zacks Bull and Bear of the Day](https://finnhub.io/api/news?id=00f2680c21b1a4ed3f0d1be74581918de5632a9216ea0881fd3943d783f1034b)**  
+- **[Dow Jones Futures Fall With U.S. Markets Shut; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This](https://finnhub.io/api/news?id=7cc0fe956323e4b6f7ae7e353844827d359f8ea7d9d31edca5095051405e2390)**  
 *Yahoo · 1h前*  
-Bandwidth's AI-driven communications growth lifts guidance and profits, while Blue Bird faces volume, incentive, and execution concerns.
+Dow Jones futures fell slightly Friday, along with S&P 500 futures and Nasdaq futures. U.S. stock markets will be closed for the Juneteenth holiday. The stock m…
 
-- **[Intel, Apple, Accenture, SpaceX, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=510f65144ee2b4d51d0018f16ba5e7618da27a50bdf45c567942744b81ea9eac)**  
+- **[Latest News In AI Chips - MEXC Expands Access To Tokenized Stock Trading Globally](https://finnhub.io/api/news?id=9bb4c856464e1ed06a48d2810e863a7a053d5491d9e44fa74534a844bb83c58d)**  
 *Yahoo · 1h前*  
-FEATURE  Tech stocks appeared poised to rebound Thursday after President Donald Trump signed a memorandum of understanding to end the Iran war. Oil prices slid …
+MEXC has introduced nine Ondo tokenized stock trading pairs on its platform, providing users with on-chain access to real-world equity exposure in critical tech…
+
+- **[Wall Street Analysts Picks Nvidia Over Micron: Here’s Why](https://finnhub.io/api/news?id=c447f0e3a880023aad009f53f41f1521387d7f3212026b7e5baa78b44d869910)**  
+*Yahoo · 2h前*  
+Analyst consensus backs Nvidia with 43% upside while flagging Micron as overvalued, citing commodity risk and market share losses.
 
 ---
 
@@ -48,7 +48,7 @@ FEATURE  Tech stocks appeared poised to rebound Thursday after President Donald 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $1,112.21 | — | 自動更新 |
+| 2026-06-19 | 監控 | $1,133.99 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ FEATURE  Tech stocks appeared poised to rebound Thursday after President Donald 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 22:18 HKT*
+*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
