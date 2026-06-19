@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-06-18 22:19 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$208.62** |
-| 今日變動 | ▲ $3.97　(+1.94%) |
+| 現價 | **$210.69** |
+| 今日變動 | ▲ $6.04　(+2.95%) |
 | 持倉數量 | 15 股 |
 | 平均成本 | $148.500 |
-| 未實現盈虧 | ▲ $902　(▲40.5%) |
+| 未實現盈虧 | ▲ $933　(▲41.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $198.65 | — |
-| Put Wall（支撐） | $200.00 | -4.1% |
-| Call Wall（阻力） | $210.00 | +0.7% |
+| Gamma Flip | $199.59 | — |
+| Put Wall（支撐） | $200.00 | -5.1% |
+| Call Wall（阻力） | $220.00 | +4.4% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[11 Words From Nvidia CFO Colette Kress That Should Have AMD and Intel Investors Worried](https://finnhub.io/api/news?id=127d3231cde62643751c2d2577cb6c75a35c4e543aef5c20fe46a5b0a5732ccb)**  
-*Yahoo · 0h前*  
-The giant chipmaker is entering a $200 billion market that it has never competed in before.
+- **[Dow Jones Futures Fall With U.S. Markets Shut; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This](https://finnhub.io/api/news?id=7cc0fe956323e4b6f7ae7e353844827d359f8ea7d9d31edca5095051405e2390)**  
+*Yahoo · 1h前*  
+Dow Jones futures fell slightly Friday, along with S&P 500 futures and Nasdaq futures. U.S. stock markets will be closed for the Juneteenth holiday. The stock m…
 
-- **[Advanced Micro Devices vs. Arm Holdings: Which AI CPU Stock Is the Better Buy?](https://finnhub.io/api/news?id=fdd29684bdb0e53075fc14ea9ee2f909f9ac86ea4ef139afe38ff482d72b0a01)**  
-*Yahoo · 0h前*  
-AMD and Arm are both chasing the next wave of AI CPU demand, but one stock looks better positioned today.
+- **[Latest News In AI Chips - MEXC Expands Access To Tokenized Stock Trading Globally](https://finnhub.io/api/news?id=9bb4c856464e1ed06a48d2810e863a7a053d5491d9e44fa74534a844bb83c58d)**  
+*Yahoo · 1h前*  
+MEXC has introduced nine Ondo tokenized stock trading pairs on its platform, providing users with on-chain access to real-world equity exposure in critical tech…
 
-- **[HIVE Digital’s Stock Jumps 12% On $220 Million Investment](https://finnhub.io/api/news?id=93e3561ecdc9ce9bc560adcecc49cc46386395873bff5a23fdbec01ddec8481b)**  
-*Yahoo · 0h前*  
-HIVE Digital’s (NASDAQ: $HIVE) stock is up 12% on news that the company has secured a $220 million U.S. inves...
+- **[Starbucks Could Double Its International Store Count. Is It Time to Invest $1,000?](https://finnhub.io/api/news?id=4020110f710f6ab0ec938f7f809d39d495a8d0f40e056fd4a4478996ed07f091)**  
+*Yahoo · 1h前*  
+Starbucks plans to double its store count outside of North America.
 
 ---
 
@@ -48,7 +48,7 @@ HIVE Digital’s (NASDAQ: $HIVE) stock is up 12% on news that the company has se
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-18 | 監控 | $208.62 | — | 自動更新 |
+| 2026-06-19 | 監控 | $210.69 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ HIVE Digital’s (NASDAQ: $HIVE) stock is up 12% on news that the company has se
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-18 22:19 HKT*
+*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
