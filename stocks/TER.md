@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[The Nasdaq-100 Is Getting 5 New Members. Here's the List.](https://finnhub.io/api/news?id=c4c044e3bc1bb57d35dd793f28b818987587e3ed0020aa865077c85c40a49fcf)**  
+*Yahoo · 21h前*  
+AI stocks are growing in size, and that's reflected in the June 2026 Nasdaq-100 rebalance.
+
+- **[Teradyne (TER) Moves 7.2% Higher: Will This Strength Last?](https://finnhub.io/api/news?id=5affb116d26af27d39c5d1d6c780572cddb0e788db522ccca5539a900542ddc0)**  
+*Yahoo · 1d前*  
+Teradyne (TER) witnessed a jump in share price last session on above-average trading volume. The latest trend in earnings estimate revisions for the stock doesn…
+
 - **[Teradyne Stock Actionable Now After AI Play's Strong Gap-Up Breakout](https://finnhub.io/api/news?id=2c6ab44226284946c9ff7dc79bc498ddf39731bb8ae7b6090d1595704b803562)**  
-*Yahoo · 16h前*  
+*Yahoo · 1d前*  
 Teradyne stock tops a proper buy point and is nearing a new high. The chip equipment maker is part of a high-ranking IBD industry group.
-
-- **[Kulicke and Soffa, Microchip Technology, and Teradyne Shares Are Soaring, What You Need To Know](https://finnhub.io/api/news?id=7c4817a65e89ee1e09ad8b2ab4f6c3f01ce377235681a2715012855ca0fe00c5)**  
-*Yahoo · 18h前*  
-A number of stocks jumped in the afternoon session after President Trump announced Apple had agreed to design and manufacture chips with Intel in the United Sta…
-
-- **[TER vs. AMAT: Which AI Semiconductor Stock Is the Better Buy?](https://finnhub.io/api/news?id=d0cfa4c50455039a2f06d7a384fa3cfff28096e5315033916c1da63a36ae027b)**  
-*Yahoo · 19h前*  
-Teradyne offers more AI-driven upside than AMAT, backed by stronger AI exposure, faster earnings growth and expanding test and packaging opportunities.
 
 ---
 
@@ -48,7 +48,7 @@ Teradyne offers more AI-driven upside than AMAT, backed by stronger AI exposure,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-19 | 監控 | $437.92 | — | 自動更新 |
+| 2026-06-20 | 監控 | $437.92 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne offers more AI-driven upside than AMAT, backed by stronger AI exposure,
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
