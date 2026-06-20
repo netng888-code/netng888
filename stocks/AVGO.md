@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SpaceX Has a Rapidly Approaching $20 Billion Surprise for Its Shareholders -- and They're Not Going to Be Happy](https://finnhub.io/api/news?id=37af5dc114ec4488f331e3edcec35318808906c2433639a132254dd63f409bd6)**  
+- **[Cloud Infrastructure Rotation Intensifies as AMD Surges While Microsoft Stumbles](https://finnhub.io/api/news?id=66582054d9846d1ce0ca0809842bb8560f99bd4d4abbcbc157f09aac8ad499b2)**  
+*ChartMill · 0h前*  
+AI compute demand is driving a market rotation from cloud platforms to semiconductor stocks. AMD leads with 20% monthly gains, while Broadcom and NVIDIA show st…
+
+- **[From FAANG to MANGOS — Wall Street is searching for the next 'Magnificent 7': Chart of the Day](https://finnhub.io/api/news?id=006823b1dfb76b129fd3b822f04e56ec450cc895c81c5b2825f3ca6e65aefd9f)**  
 *Yahoo · 1h前*  
-A sizable chunk of SpaceX's $75 billion initial public offering (IPO) capital raise is already spoken for.
+Wall Street loves a new nickname for its favorite trade.
 
-- **[3 AI Stocks to Buy on the Recent Tech Dip](https://finnhub.io/api/news?id=9ae2f8b61f0148d38a7d1db2aa8ce0a811c0a6c63ef7def1abc99b0dddbf6452)**  
-*Yahoo · 2h前*  
-These three hard-hit stocks look poised to rebound.
-
-- **[Broadcom (AVGO): Best US Stocks to Buy and Hold for the Next 5 Years](https://finnhub.io/api/news?id=aeef17d5848115eeb3f441848de2232fa0eed22ec4232bf55a205f1e110fac82)**  
-*Yahoo · 2h前*  
-Broadcom Inc. (NASDAQ:AVGO) is one of the best US stocks to buy and hold for the next 5 years. On June 9, Broadcom’s “Private Cloud Outlook 2026” revealed an AI…
+- **[This Artificial Intelligence (AI) Stock Is Up 4,800% in the Past Year. Wall Street Says This Will Happen Next.](https://finnhub.io/api/news?id=f420b3a799138c9b7933870a82f752af09dd5b8a178ac93b85c083ea9a3d2a21)**  
+*Yahoo · 3h前*  
+Sandisk shares have rocketed higher amid an unprecedented memory chip supply shortage.
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom Inc. (NASDAQ:AVGO) is one of the best US stocks to buy and hold for the
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-19 | 監控 | $411.35 | — | 自動更新 |
+| 2026-06-20 | 監控 | $411.35 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom Inc. (NASDAQ:AVGO) is one of the best US stocks to buy and hold for the
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
