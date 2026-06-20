@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Palantir (PLTR) Partners with Google Cloud to Integrate AIP and Foundry Platforms](https://finnhub.io/api/news?id=ffaf84094cd9d044508e03cdd4bbe955324c261291905c870ee57c221415fc03)**  
-*Yahoo · 2h前*  
-Palantir Technologies Inc. (NASDAQ:PLTR) is one of the best US stocks to buy and hold for the next 5 years. On June 4, Palantir partnered with Google Cloud to i…
+- **[From FAANG to MANGOS — Wall Street is searching for the next 'Magnificent 7': Chart of the Day](https://finnhub.io/api/news?id=006823b1dfb76b129fd3b822f04e56ec450cc895c81c5b2825f3ca6e65aefd9f)**  
+*Yahoo · 1h前*  
+Wall Street loves a new nickname for its favorite trade.
 
-- **[Just 4 "Magnificent Seven" Stocks Are Still More Valuable Than SpaceX. Could SpaceX Be a Better Buy Than All of Them?](https://finnhub.io/api/news?id=1a0c937c4635cf2940092c0fa3bc64b1b52826f27049673a9dafe25538589b29)**  
-*Yahoo · 2h前*  
-SpaceX wasted no time surpassing Amazon, Meta Platforms, and Tesla in market cap.
+- **[Alphabet: Why I Am Diluting My Largest Position (Rating Downgrade)](https://finnhub.io/api/news?id=a9c7d4e201207747df0957804b18840df93d4ae13bf3c0b8cfbb7b4603eea6d6)**  
+*SeekingAlpha · 14h前*
 
-- **[The SpaceX Era Is Making the Magnificent Seven Irrelevant](https://finnhub.io/api/news?id=3869191a9093a6103492e5be7559c4b1023ac4497c7de3ce609046a59629ddb3)**  
-*Yahoo · 2h前*  
-What’s the point of the Magnificent Seven? Investors are wondering if the group still makes following SpaceX’s stellar debut.
+- **[Former Connecticut Attorney General George Jepsen: Paramount-WBD Could Strengthen Hollywood Against Big Tech](https://finnhub.io/api/news?id=7c49730362a60fde1cda9e1392c1c41acd78ecffdfda9e59d94bf318778b4ca3)**  
+*Yahoo · 14h前*  
+The proposed merger between Paramount Skydance and Warner Bros. Discovery deserves serious, evidence-based review. But antitrust enforcement should protect comp…
 
 ---
 
@@ -48,7 +47,7 @@ What’s the point of the Magnificent Seven? Investors are wondering if the grou
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-19 | 監控 | $368.03 | — | 自動更新 |
+| 2026-06-20 | 監控 | $368.03 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ What’s the point of the Magnificent Seven? Investors are wondering if the grou
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
