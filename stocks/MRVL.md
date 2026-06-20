@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Apple's Price Warning Sends Memory Chips To A Record, Accenture Cracks 18%](https://finnhub.io/api/news?id=301f2345c23f938eec305d50352b197a2b7d65b5d344fca4e44aa3db1120717d)**  
-*ChartMill · 3h前*  
-Tim Cook's warning that iPhone and Mac prices are going up because memory chips have become too expensive lit a fire under the storage names. Micron printed a r…
+- **[Move Over Marvell, Here Are the Next 2 $1 Trillion Semiconductor Stocks](https://finnhub.io/api/news?id=80d43a72d4a943248d0c433b5c88dd65575a0018125dc95210f927e099974452)**  
+*Yahoo · 1h前*  
+AMD and ASML look set to hit trillion-dollar market caps before Marvell.
 
-- **[Marvell Technology, Inc. (MRVL) Names Adobe’s Dan Durn as Finance Chief](https://finnhub.io/api/news?id=7a2787877cafcfadbf05248fcde384fdb6f3e70546d17db4ac9b0434914c4307)**  
-*Yahoo · 5h前*  
-Marvell Technology, Inc. (NASDAQ:MRVL) is one of the 10 Best Photonic Computing Stocks to Buy Now. On June 11, Reuters reported that Marvell Technology, Inc. (N…
+- **[Is Marvell Technology Going to $1 Trillion?](https://finnhub.io/api/news?id=e617a8b79b5d4d75b18824ff3033513165cc90520779cb1fc1683e251da1aba8)**  
+*Yahoo · 3h前*  
+Nvidia's CEO thinks so, but what are the actual chances?
 
-- **[Marvell Stock Just Hit a New High. A Quiet Amazon Decision Could Be Why.](https://finnhub.io/api/news?id=2ec13943f43f281feec86ca83a85875f0805fcbc02fe7daa4ce91cd0597fac6b)**  
-*Yahoo · 9h前*  
-A report that the cloud giant may start selling its custom AI chips to outside customers could broaden the market for the semiconductor specialist that designs …
+- **[After Being Called the Next Trillion-Dollar AI Stock and Joining the S&P 500, Marvell's CFO Just Filed to Dump $65 Million of Stock. Here's Why.](https://finnhub.io/api/news?id=f9c79dffd676f7e113aacba4a410aa399a51eac2436bc96ea9d2e587d090c093)**  
+*Yahoo · 15h前*  
+Marvell's CFO just filed paperwork with the SEC to offload a significant chunk of stock.
 
 ---
 
@@ -48,7 +48,7 @@ A report that the cloud giant may start selling its custom AI chips to outside c
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-19 | 監控 | $310.58 | — | 自動更新 |
+| 2026-06-20 | 監控 | $310.58 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A report that the cloud giant may start selling its custom AI chips to outside c
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
