@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Fall With U.S. Markets Shut; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This](https://finnhub.io/api/news?id=7cc0fe956323e4b6f7ae7e353844827d359f8ea7d9d31edca5095051405e2390)**  
-*Yahoo · 1h前*  
-Dow Jones futures fell slightly Friday, along with S&P 500 futures and Nasdaq futures. U.S. stock markets will be closed for the Juneteenth holiday. The stock m…
+- **[Cloud Infrastructure Rotation Intensifies as AMD Surges While Microsoft Stumbles](https://finnhub.io/api/news?id=66582054d9846d1ce0ca0809842bb8560f99bd4d4abbcbc157f09aac8ad499b2)**  
+*ChartMill · 0h前*  
+AI compute demand is driving a market rotation from cloud platforms to semiconductor stocks. AMD leads with 20% monthly gains, while Broadcom and NVIDIA show st…
 
-- **[Latest News In AI Chips - MEXC Expands Access To Tokenized Stock Trading Globally](https://finnhub.io/api/news?id=9bb4c856464e1ed06a48d2810e863a7a053d5491d9e44fa74534a844bb83c58d)**  
+- **[3 Stocks That Have Made Long-Term Investors Rich and Could Do It Again](https://finnhub.io/api/news?id=ff13778aa61ee449afb74aec705f91c2bcc57845c068bc1db1b66da9f2d7808a)**  
 *Yahoo · 1h前*  
-MEXC has introduced nine Ondo tokenized stock trading pairs on its platform, providing users with on-chain access to real-world equity exposure in critical tech…
+June is a natural moment for mid-year reflection. Short-term traders are squaring quarterly books, but long-term investors should be doing something different: …
 
-- **[Starbucks Could Double Its International Store Count. Is It Time to Invest $1,000?](https://finnhub.io/api/news?id=4020110f710f6ab0ec938f7f809d39d495a8d0f40e056fd4a4478996ed07f091)**  
+- **[This Space Station Company Will Now Go to the Moon, Too](https://finnhub.io/api/news?id=4f81b322167cd9b5584aab94d3383ac9a0c47be56f66690b84be4b7800a6b036)**  
 *Yahoo · 1h前*  
-Starbucks plans to double its store count outside of North America.
+Voyager Technologies isn't the best-known space stock. It just made a move that could change that.
 
 ---
 
@@ -48,7 +48,7 @@ Starbucks plans to double its store count outside of North America.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-19 | 監控 | $210.69 | — | 自動更新 |
+| 2026-06-20 | 監控 | $210.69 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Starbucks plans to double its store count outside of North America.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
