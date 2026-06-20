@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[Redwire Receives Preliminary Court Approval For Shareholder Derivative Settlement, Including Corporate Governance Reforms And Insurance-Funded Legal Fees; Final Approval Hearing Scheduled For July 30, 2026](https://finnhub.io/api/news?id=b9fefe80645000066469631405a1672c1a12adc706d13ec81b7d1e939011889e)**  
+*Benzinga · 1d前*  
+On June 8, 2026, the United States District Court for the Middle District of Florida (the &#34;Court&#34;) issued an order (the &#34;Order&#34;) for preliminary…
+
 - **[Redwire: Growth Is Accelerating, But So Are Expectations](https://finnhub.io/api/news?id=c9b78bdd9154b13d442ae4933dee6de2b38b652a5f60b05169031866b003e003)**  
-*SeekingAlpha · 1d前*
+*SeekingAlpha · 2d前*
 
 - **[Redwire: New Contracts Support The Bull Case](https://finnhub.io/api/news?id=761e7cdaae84809e43157e771a8ea10f19b0fe19815a7bcf46e13f5ced67c492)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Redwire stock remains a "Buy," but investors should note the thin margins and cash burn. Here's what you need to know.
-
-- **[Momentus, AST SpaceMobile Lead The Thaw In Space Stocks](https://finnhub.io/api/news?id=56d601567abe1cbaf705db21a9f7eb64b15b99db88af798cfa429a05af0b7616)**  
-*Benzinga · 2d前*  
-Momentus and AST SpaceMobile lead gains in the space sector following the SpaceX initial public offering on June 12.
 
 ---
 
@@ -47,7 +47,7 @@ Momentus and AST SpaceMobile lead gains in the space sector following the SpaceX
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-19 | 監控 | $14.35 | — | 自動更新 |
+| 2026-06-20 | 監控 | $14.35 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ Momentus and AST SpaceMobile lead gains in the space sector following the SpaceX
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
