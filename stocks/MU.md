@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-06-19 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Fall With U.S. Markets Shut; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This](https://finnhub.io/api/news?id=7cc0fe956323e4b6f7ae7e353844827d359f8ea7d9d31edca5095051405e2390)**  
+- **[From FAANG to MANGOS — Wall Street is searching for the next 'Magnificent 7': Chart of the Day](https://finnhub.io/api/news?id=006823b1dfb76b129fd3b822f04e56ec450cc895c81c5b2825f3ca6e65aefd9f)**  
 *Yahoo · 1h前*  
-Dow Jones futures fell slightly Friday, along with S&P 500 futures and Nasdaq futures. U.S. stock markets will be closed for the Juneteenth holiday. The stock m…
+Wall Street loves a new nickname for its favorite trade.
 
-- **[Latest News In AI Chips - MEXC Expands Access To Tokenized Stock Trading Globally](https://finnhub.io/api/news?id=9bb4c856464e1ed06a48d2810e863a7a053d5491d9e44fa74534a844bb83c58d)**  
-*Yahoo · 1h前*  
-MEXC has introduced nine Ondo tokenized stock trading pairs on its platform, providing users with on-chain access to real-world equity exposure in critical tech…
+- **[The Memory Boom Has Been a Gift to Micron. For Apple, It's Becoming a Problem. Or Is It?](https://finnhub.io/api/news?id=1a5a010fed01dc1cb77c6ffba068f19e246876a83e1ac21360a6455ba56cecf5)**  
+*Yahoo · 15h前*  
+The same shortage delivering record profits to memory makers is now squeezing one of the world's most valuable companies -- and its CEO says customers will end …
 
-- **[Wall Street Analysts Picks Nvidia Over Micron: Here’s Why](https://finnhub.io/api/news?id=c447f0e3a880023aad009f53f41f1521387d7f3212026b7e5baa78b44d869910)**  
-*Yahoo · 2h前*  
-Analyst consensus backs Nvidia with 43% upside while flagging Micron as overvalued, citing commodity risk and market share losses.
+- **[Micron Gets the Headlines, But Sandisk Could Offer More Upside](https://finnhub.io/api/news?id=60f000935e6301cb59d29af481e95c13ab3aaa6df976c80af3112b6bca02d268)**  
+*Yahoo · 18h前*  
+SNDK has outpaced MU as AI-driven memory demand, strong pricing power and rising data center sales fuel exceptional growth momentum.
 
 ---
 
@@ -48,7 +48,7 @@ Analyst consensus backs Nvidia with 43% upside while flagging Micron as overvalu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-19 | 監控 | $1,133.99 | — | 自動更新 |
+| 2026-06-20 | 監控 | $1,133.99 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Analyst consensus backs Nvidia with 43% upside while flagging Micron as overvalu
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-19 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
