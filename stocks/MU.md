@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[From FAANG to MANGOS — Wall Street is searching for the next 'Magnificent 7': Chart of the Day](https://finnhub.io/api/news?id=006823b1dfb76b129fd3b822f04e56ec450cc895c81c5b2825f3ca6e65aefd9f)**  
-*Yahoo · 1h前*  
-Wall Street loves a new nickname for its favorite trade.
+- **[Wall Street Week Ahead](https://finnhub.io/api/news?id=f7c44453ddb4054c05a4c5a2d9cf01682e8bb797316e673640860f05e731b0f6)**  
+*SeekingAlpha · 5h前*  
+2026-06-21.  Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m.
 
-- **[The Memory Boom Has Been a Gift to Micron. For Apple, It's Becoming a Problem. Or Is It?](https://finnhub.io/api/news?id=1a5a010fed01dc1cb77c6ffba068f19e246876a83e1ac21360a6455ba56cecf5)**  
-*Yahoo · 15h前*  
-The same shortage delivering record profits to memory makers is now squeezing one of the world's most valuable companies -- and its CEO says customers will end …
+- **[Micron's Stock May Be Heading For Another Post-Earnings Plunge](https://finnhub.io/api/news?id=156f422d4ae4138ce020c98a52ce3c0f5b07e7c53ef4ec279b432f84b051849f)**  
+*SeekingAlpha · 6h前*  
+Micron faces asymmetric downside risk ahead of June 24 earnings due to extreme bullish call option positioning. Read more on the analysis of MU stock.
 
-- **[Micron Gets the Headlines, But Sandisk Could Offer More Upside](https://finnhub.io/api/news?id=60f000935e6301cb59d29af481e95c13ab3aaa6df976c80af3112b6bca02d268)**  
-*Yahoo · 18h前*  
-SNDK has outpaced MU as AI-driven memory demand, strong pricing power and rising data center sales fuel exceptional growth momentum.
+- **[Dow Jones Futures: Iran Says Hormuz Closed But New Talks To Start; Nvidia, SpaceX Are Stocks To Watch](https://finnhub.io/api/news?id=ad48eccc18120f1905f0fc3416d7d91b63bdca885c9fc879739ec41018ddc62f)**  
+*Yahoo · 10h前*  
+Iran said it's closed the Strait of Hormuz but new peace talks are set to start Sunday. Nvidia and SpaceX are stocks to watch.
 
 ---
 
@@ -48,7 +48,7 @@ SNDK has outpaced MU as AI-driven memory demand, strong pricing power and rising
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-20 | 監控 | $1,133.99 | — | 自動更新 |
+| 2026-06-21 | 監控 | $1,133.99 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ SNDK has outpaced MU as AI-driven memory demand, strong pricing power and rising
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-21 21:02 HKT*
