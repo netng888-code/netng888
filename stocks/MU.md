@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-06-21 22:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:32 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[Micron Just Crossed $1,000 a Share. Here's the Math on Where It Goes Next.](https://finnhub.io/api/news?id=b98274190b249e4d5c08b329f7a13dee81b780b662a3efd37bbbc8ab31552d42)**  
+*Yahoo · 2h前*  
+Micron stock has gained 270% so far this year, propelling the company's market cap above $1 trillion.
+
 - **[Micron's $1,700 Setup Emerges](https://finnhub.io/api/news?id=d6853286ff52e2a70998eea0b5b4271427359c189bb0aaf33b396cbeae827fbe)**  
 *SeekingAlpha · 5h前*  
 Micron stock surges 50% on HBM demand and strong technicals.
@@ -37,10 +41,6 @@ Micron stock surges 50% on HBM demand and strong technicals.
 - **[TSMC: The Buying Opportunity Is Finally Flashing (Rating Upgrade)](https://finnhub.io/api/news?id=0ad4ce0b85a22cc899bf31fa842314b3c6ff6de05fe9a2e7eb585ff42810853a)**  
 *SeekingAlpha · 5h前*  
 TSMC upgraded to a buy on robust AI demand, disciplined CapEx and EUV edge.
-
-- **[Wall Street Week Ahead](https://finnhub.io/api/news?id=f7c44453ddb4054c05a4c5a2d9cf01682e8bb797316e673640860f05e731b0f6)**  
-*SeekingAlpha · 7h前*  
-2026-06-21.  Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m.
 
 ---
 
@@ -59,4 +59,4 @@ TSMC upgraded to a buy on robust AI demand, disciplined CapEx and EUV edge.
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 22:06 HKT*
+*由 github_gex_updater.py 自動生成　2026-06-21 22:32 HKT*
