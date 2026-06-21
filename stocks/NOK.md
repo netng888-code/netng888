@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-06-21 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$13.49** |
-| 今日變動 | ▼ $0.34　(-2.46%) |
+| 現價 | **$13.50** |
+| 今日變動 | ▼ $0.33　(-2.39%) |
 | 持倉數量 | 100 股 |
 | 平均成本 | $13.500 |
-| 未實現盈虧 | ▼ $1　(▼0.1%) |
+| 未實現盈虧 | ▲ $0　(▲0.0%) |
 
 ---
 
@@ -21,8 +21,8 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $12.73 | — |
-| Put Wall（支撐） | $14.00 | --3.8% |
-| Call Wall（阻力） | $15.00 | +11.2% |
+| Put Wall（支撐） | $14.00 | --3.7% |
+| Call Wall（阻力） | $15.00 | +11.1% |
 
 **狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[BlackBerry Stock: Downgrading To Hold Ahead Of Its Q1 Earnings Report](https://finnhub.io/api/news?id=57814e5db93ae8abf83a9a73cb7b1c5497671eb8ad41e32f524fee83a2f9e82c)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 BlackBerry Limited Q1 FY2027 preview: QNX growth, $950M backlog and restructuring gains, but auto weakness & GEM risks. Click for this BB stock update.
 
 ---
@@ -40,7 +40,7 @@ BlackBerry Limited Q1 FY2027 preview: QNX growth, $950M backlog and restructurin
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $13.49 | — | 自動更新 |
+| 2026-06-21 | 監控 | $13.50 | — | 自動更新 |
 
 ---
 
@@ -51,4 +51,4 @@ BlackBerry Limited Q1 FY2027 preview: QNX growth, $950M backlog and restructurin
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
