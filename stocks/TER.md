@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[The Nasdaq-100 Is Getting 5 New Members. Here's the List.](https://finnhub.io/api/news?id=c4c044e3bc1bb57d35dd793f28b818987587e3ed0020aa865077c85c40a49fcf)**  
-*Yahoo · 21h前*  
-AI stocks are growing in size, and that's reflected in the June 2026 Nasdaq-100 rebalance.
+- **[Does Teradyne’s (TER) Tokyo Electron Alliance Quietly Redefine Its AI Test Leadership Ambitions?](https://finnhub.io/api/news?id=766696a78bd581d9b24e6783eb32d5faee91ad64b68f0bb4db8289ac9c1d1d6e)**  
+*Yahoo · 8h前*  
+Earlier in June 2026, Tokyo Electron and Teradyne announced a commercially available integrated test cell that combines Teradyne’s UltraFLEXplus platform with T…
 
-- **[Teradyne (TER) Moves 7.2% Higher: Will This Strength Last?](https://finnhub.io/api/news?id=5affb116d26af27d39c5d1d6c780572cddb0e788db522ccca5539a900542ddc0)**  
-*Yahoo · 1d前*  
-Teradyne (TER) witnessed a jump in share price last session on above-average trading volume. The latest trend in earnings estimate revisions for the stock doesn…
+- **[The Global X Robotics & AI ETF (BOTZ): A Solid Way to Play Robotics](https://finnhub.io/api/news?id=3b536e83860986955f97555f0024259b30f40e2ecf6d561d476613a3e6512c2f)**  
+*Yahoo · 20h前*  
+The Global X Robotics & Artificial Intelligence ETF (NASDAQ:BOTZ) is the largest pure-play robotics fund in the U.S. market, holding roughly $3.54 billion in ne…
 
-- **[Teradyne Stock Actionable Now After AI Play's Strong Gap-Up Breakout](https://finnhub.io/api/news?id=2c6ab44226284946c9ff7dc79bc498ddf39731bb8ae7b6090d1595704b803562)**  
+- **[Stocks To Watch Echo AI Theme. GE Vernova Among Five Stocks Near Buy Points.](https://finnhub.io/api/news?id=450b5c33948fb03f5557924953edf7627fa4f7005f6a5e76ac914031f580927b)**  
 *Yahoo · 1d前*  
-Teradyne stock tops a proper buy point and is nearing a new high. The chip equipment maker is part of a high-ranking IBD industry group.
+GE Vernova and several other stocks to watch near buy points are part of the so-called picks and shovels swath of the AI data center space.
 
 ---
 
@@ -48,7 +48,7 @@ Teradyne stock tops a proper buy point and is nearing a new high. The chip equip
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-20 | 監控 | $437.92 | — | 自動更新 |
+| 2026-06-21 | 監控 | $437.92 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne stock tops a proper buy point and is nearing a new high. The chip equip
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-21 21:02 HKT*
