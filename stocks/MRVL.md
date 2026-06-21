@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Move Over Marvell, Here Are the Next 2 $1 Trillion Semiconductor Stocks](https://finnhub.io/api/news?id=80d43a72d4a943248d0c433b5c88dd65575a0018125dc95210f927e099974452)**  
+- **[Marvell (MRVL) Unveils 102.4 Tbps Switch As Photonic Shipments Pass 5 Million](https://finnhub.io/api/news?id=7b0be299b8c7831c389b298a0b948f9a2b53dc3c46426931b734dcd8fccc8c60)**  
 *Yahoo · 1h前*  
+Marvell Technology (NasdaqGS:MRVL) introduced what it calls the industry's first 102.4 Tbps Teralynx T100 switch for AI and cloud data centers. The company repo…
+
+- **[Why Does Donald Trump Like Marvell Technology (MRVL)?](https://finnhub.io/api/news?id=1bc9c768239349be136299a4a9e88c4b701315017c659c40111be842205296cb)**  
+*Yahoo · 23h前*  
+We just covered Donald Trump Stock Portfolio: 10 Best AI and Tech Stock Picks in 2026. Marvell Technology (NASDAQ:MRVL) ranks #5 (see Donald Trump Stock Portfol…
+
+- **[Move Over Marvell, Here Are the Next 2 $1 Trillion Semiconductor Stocks](https://finnhub.io/api/news?id=80d43a72d4a943248d0c433b5c88dd65575a0018125dc95210f927e099974452)**  
+*Yahoo · 1d前*  
 AMD and ASML look set to hit trillion-dollar market caps before Marvell.
-
-- **[Is Marvell Technology Going to $1 Trillion?](https://finnhub.io/api/news?id=e617a8b79b5d4d75b18824ff3033513165cc90520779cb1fc1683e251da1aba8)**  
-*Yahoo · 3h前*  
-Nvidia's CEO thinks so, but what are the actual chances?
-
-- **[After Being Called the Next Trillion-Dollar AI Stock and Joining the S&P 500, Marvell's CFO Just Filed to Dump $65 Million of Stock. Here's Why.](https://finnhub.io/api/news?id=f9c79dffd676f7e113aacba4a410aa399a51eac2436bc96ea9d2e587d090c093)**  
-*Yahoo · 15h前*  
-Marvell's CFO just filed paperwork with the SEC to offload a significant chunk of stock.
 
 ---
 
@@ -48,7 +48,7 @@ Marvell's CFO just filed paperwork with the SEC to offload a significant chunk o
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-20 | 監控 | $310.58 | — | 自動更新 |
+| 2026-06-21 | 監控 | $310.58 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Marvell's CFO just filed paperwork with the SEC to offload a significant chunk o
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-21 21:02 HKT*
