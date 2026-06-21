@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:33 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Is It Too Late to Buy Palantir Stock? Here Is What Its Valuation Says About Its Future.](https://finnhub.io/api/news?id=c1e7d656e96b6622480bf26b863cf9f1b1d736e8880a7df8a1265af2edae14f2)**  
-*Yahoo · 5h前*  
+*Yahoo · 6h前*  
 Palantir has a ton of success already priced into the stock.
 
 - **[Here’s why Palantir Technologies Inc. (PLTR) is Still One of the Best Falling Stocks to Invest In](https://finnhub.io/api/news?id=e1cc67f2f1b836e7426e2531025343286406eb009ed9b9c6afb0e86740bbb839)**  
@@ -59,4 +59,4 @@ Markets closed a shortened week higher as lower oil prices and a rally in chip s
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
+*由 github_gex_updater.py 自動生成　2026-06-21 22:33 HKT*
