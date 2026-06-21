@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-06-21 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,8 +8,8 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$191.39** |
-| 今日變動 | ▲ $21.08　(+12.38%) |
+| 現價 | **$191.42** |
+| 今日變動 | ▲ $21.11　(+12.39%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
 | 未實現盈虧 | ▼ $49　(▼3.1%) |
@@ -48,7 +48,7 @@ Dow Jones index up 200+ points on Thursday. Quantumscape shares rise 12.9%. Othe
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $191.39 | — | 自動更新 |
+| 2026-06-21 | 監控 | $191.42 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Dow Jones index up 200+ points on Thursday. Quantumscape shares rise 12.9%. Othe
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
