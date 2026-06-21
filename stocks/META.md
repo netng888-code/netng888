@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:32 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Apple’s Incoming CEO Draws a Line on AI: Tools Serve Products, Not the Reverse](https://finnhub.io/api/news?id=60553907ebd7888356972ebc059dc32d042c2ec122c88b8692466420e181b838)**  
+*Yahoo · 2h前*  
+Apple’s next chief executive has tipped his hand on artificial intelligence, and the message is the opposite of what is coming out of Redmond, Mountain View and…
+
+- **[Why ‘Real-Time AI’ Is AI’s Next Wave, and Why Meta Platforms Could Be a Massive Winner](https://finnhub.io/api/news?id=99ecfb3306128ef782c16ab928cfe2665ba8b76a45b37e552e97b651153e7ccf)**  
+*Yahoo · 2h前*  
+At the Pure Accelerate Summit in Las Vegas, Rob Lee, Chief Technology and Growth Officer at Everpure (NYSE:P), the company recently rebranded from Pure Storage,…
+
 - **[Apple Will Raise Prices Due To Soaring Memory Costs: CEO Tim Cook Says 'This Is A 100-Year Flood'](https://finnhub.io/api/news?id=6845e94fa0a7f2d4f494e07ca4b12e95aa536617519678e183d91d6b51b2b985)**  
 *Yahoo · 4h前*  
 Apple Inc. is preparing to raise prices across its product lineup after CEO Tim Cook acknowledged the company can no longer absorb skyrocketing costs for memory…
-
-- **['Sad' That No One Will Tell Snap CEO The Truth, Says Analyst On Company's 'Horrendous' Product Design For $2,195 AR Glasses](https://finnhub.io/api/news?id=2e6da231a85ca1eb7fdacec326ebba9b63ee239606114f2a9bbcdb4e58d74903)**  
-*Yahoo · 16h前*  
-Snap Inc.’s latest augmented reality glasses are facing sharp criticism from investor Ross Gerber, who questioned both the product’s design and CEO Evan Spiegel…
-
-- **[The Best Semiconductor ETF to Buy With $1,000 Right Now](https://finnhub.io/api/news?id=2e15607cc63e435a22a1087527567ac20e00bc741c85647199d23bc42ef9aa19)**  
-*Yahoo · 20h前*  
-Chip stocks are still hot, but one ETF stands out as the better choice given current conditions.
 
 ---
 
@@ -59,4 +59,4 @@ Chip stocks are still hot, but one ETF stands out as the better choice given cur
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
+*由 github_gex_updater.py 自動生成　2026-06-21 22:32 HKT*
