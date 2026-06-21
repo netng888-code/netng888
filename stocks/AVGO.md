@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Cloud Infrastructure Rotation Intensifies as AMD Surges While Microsoft Stumbles](https://finnhub.io/api/news?id=66582054d9846d1ce0ca0809842bb8560f99bd4d4abbcbc157f09aac8ad499b2)**  
-*ChartMill · 0h前*  
-AI compute demand is driving a market rotation from cloud platforms to semiconductor stocks. AMD leads with 20% monthly gains, while Broadcom and NVIDIA show st…
+- **[Wall Street Week Ahead](https://finnhub.io/api/news?id=f7c44453ddb4054c05a4c5a2d9cf01682e8bb797316e673640860f05e731b0f6)**  
+*SeekingAlpha · 5h前*  
+2026-06-21.  Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m.
 
-- **[From FAANG to MANGOS — Wall Street is searching for the next 'Magnificent 7': Chart of the Day](https://finnhub.io/api/news?id=006823b1dfb76b129fd3b822f04e56ec450cc895c81c5b2825f3ca6e65aefd9f)**  
-*Yahoo · 1h前*  
-Wall Street loves a new nickname for its favorite trade.
+- **[Wall Street Technician Declares Financials, Industrials, and Biotech Poised for Breakouts. 3 ETFs Could Soar.](https://finnhub.io/api/news?id=c9dbfa48c5c76056bf572489736589b4c65b319a25aef8212cd5a199fd68a7e0)**  
+*Yahoo · 22h前*  
+Markets are hunting for new leadership as the Big Tech engine sputters, and one Wall Street technician thinks she knows where the baton is being passed. On CNBC…
 
-- **[This Artificial Intelligence (AI) Stock Is Up 4,800% in the Past Year. Wall Street Says This Will Happen Next.](https://finnhub.io/api/news?id=f420b3a799138c9b7933870a82f752af09dd5b8a178ac93b85c083ea9a3d2a21)**  
-*Yahoo · 3h前*  
-Sandisk shares have rocketed higher amid an unprecedented memory chip supply shortage.
+- **[Prediction: The SpaceX Lockup Period Will Be an Absolute Train Wreck for Retail Investors](https://finnhub.io/api/news?id=a7ef817b339d4352e4321c6c6aab7a7716822b566cb6bc256da7bdda0ef0e2cf)**  
+*Yahoo · 23h前*  
+Despite SpaceX rocketing out of the gate, we're still on track to witness the greatest fleecing of everyday investors in Wall Street's storied history.
 
 ---
 
@@ -48,7 +48,7 @@ Sandisk shares have rocketed higher amid an unprecedented memory chip supply sho
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-20 | 監控 | $411.35 | — | 自動更新 |
+| 2026-06-21 | 監控 | $411.35 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Sandisk shares have rocketed higher amid an unprecedented memory chip supply sho
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-21 21:02 HKT*
