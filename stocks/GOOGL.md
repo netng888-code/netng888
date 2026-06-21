@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-06-20 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[From FAANG to MANGOS — Wall Street is searching for the next 'Magnificent 7': Chart of the Day](https://finnhub.io/api/news?id=006823b1dfb76b129fd3b822f04e56ec450cc895c81c5b2825f3ca6e65aefd9f)**  
+- **[Forget Ads: Alphabet’s CEO Says This Is Now the Biggest Growth Driver](https://finnhub.io/api/news?id=619dadbbea4fff68530bc9c7583eb922bf0d497ce276d886bf2471e17cc0c738)**  
 *Yahoo · 1h前*  
-Wall Street loves a new nickname for its favorite trade.
+For two decades, Alphabet (NASDAQ:GOOGL) was an advertising company that happened to own a cloud business. On the Q1 2026 earnings call, CEO Sundar Pichai refra…
 
-- **[Alphabet: Why I Am Diluting My Largest Position (Rating Downgrade)](https://finnhub.io/api/news?id=a9c7d4e201207747df0957804b18840df93d4ae13bf3c0b8cfbb7b4603eea6d6)**  
-*SeekingAlpha · 14h前*
+- **[Berkshire Hathaway's Greg Abel Dumps Amazon and Loads Up on Alphabet. Is It the Better Buy?](https://finnhub.io/api/news?id=b3ffd09f305bb60be372c6bc053567f21046f29ecf453cc4d069d6c0d8585465)**  
+*Yahoo · 2h前*  
+One of these has performed much better than the other.
 
-- **[Former Connecticut Attorney General George Jepsen: Paramount-WBD Could Strengthen Hollywood Against Big Tech](https://finnhub.io/api/news?id=7c49730362a60fde1cda9e1392c1c41acd78ecffdfda9e59d94bf318778b4ca3)**  
-*Yahoo · 14h前*  
-The proposed merger between Paramount Skydance and Warner Bros. Discovery deserves serious, evidence-based review. But antitrust enforcement should protect comp…
+- **[Apple Will Raise Prices Due To Soaring Memory Costs: CEO Tim Cook Says 'This Is A 100-Year Flood'](https://finnhub.io/api/news?id=6845e94fa0a7f2d4f494e07ca4b12e95aa536617519678e183d91d6b51b2b985)**  
+*Yahoo · 3h前*  
+Apple Inc. is preparing to raise prices across its product lineup after CEO Tim Cook acknowledged the company can no longer absorb skyrocketing costs for memory…
 
 ---
 
@@ -47,7 +48,7 @@ The proposed merger between Paramount Skydance and Warner Bros. Discovery deserv
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-20 | 監控 | $368.03 | — | 自動更新 |
+| 2026-06-21 | 監控 | $368.03 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ The proposed merger between Paramount Skydance and Warner Bros. Discovery deserv
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-20 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-21 21:02 HKT*
