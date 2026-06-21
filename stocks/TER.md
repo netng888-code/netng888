@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:32 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Does Teradyne’s (TER) Tokyo Electron Alliance Quietly Redefine Its AI Test Leadership Ambitions?](https://finnhub.io/api/news?id=766696a78bd581d9b24e6783eb32d5faee91ad64b68f0bb4db8289ac9c1d1d6e)**  
-*Yahoo · 9h前*  
+*Yahoo · 10h前*  
 Earlier in June 2026, Tokyo Electron and Teradyne announced a commercially available integrated test cell that combines Teradyne’s UltraFLEXplus platform with T…
 
 - **[The Global X Robotics & AI ETF (BOTZ): A Solid Way to Play Robotics](https://finnhub.io/api/news?id=3b536e83860986955f97555f0024259b30f40e2ecf6d561d476613a3e6512c2f)**  
@@ -59,4 +59,4 @@ GE Vernova and several other stocks to watch near buy points are part of the so-
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
+*由 github_gex_updater.py 自動生成　2026-06-21 22:32 HKT*
