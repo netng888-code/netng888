@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-06-21 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$14.35** |
-| 今日變動 | ▼ $0.01　(-0.07%) |
+| 現價 | **$14.36** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 80 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $104　(▼8.3%) |
+| 未實現盈虧 | ▼ $103　(▼8.2%) |
 
 ---
 
@@ -43,7 +43,7 @@ On June 8, 2026, the United States District Court for the Middle District of Flo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $14.35 | — | 自動更新 |
+| 2026-06-21 | 監控 | $14.36 | — | 自動更新 |
 
 ---
 
@@ -54,4 +54,4 @@ On June 8, 2026, the United States District Court for the Middle District of Flo
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
