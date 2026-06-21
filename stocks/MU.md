@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-06-21 21:02 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,8 +8,8 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$1,133.99** |
-| 今日變動 | ▲ $90.80　(+8.70%) |
+| 現價 | **$1,134.03** |
+| 今日變動 | ▲ $90.84　(+8.71%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $557.857 |
 | 未實現盈虧 | ▲ $2,881　(▲103.3%) |
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Wall Street Week Ahead](https://finnhub.io/api/news?id=f7c44453ddb4054c05a4c5a2d9cf01682e8bb797316e673640860f05e731b0f6)**  
+- **[Micron's $1,700 Setup Emerges](https://finnhub.io/api/news?id=d6853286ff52e2a70998eea0b5b4271427359c189bb0aaf33b396cbeae827fbe)**  
 *SeekingAlpha · 5h前*  
+Micron stock surges 50% on HBM demand and strong technicals.
+
+- **[TSMC: The Buying Opportunity Is Finally Flashing (Rating Upgrade)](https://finnhub.io/api/news?id=0ad4ce0b85a22cc899bf31fa842314b3c6ff6de05fe9a2e7eb585ff42810853a)**  
+*SeekingAlpha · 5h前*  
+TSMC upgraded to a buy on robust AI demand, disciplined CapEx and EUV edge.
+
+- **[Wall Street Week Ahead](https://finnhub.io/api/news?id=f7c44453ddb4054c05a4c5a2d9cf01682e8bb797316e673640860f05e731b0f6)**  
+*SeekingAlpha · 7h前*  
 2026-06-21.  Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m.
-
-- **[Micron's Stock May Be Heading For Another Post-Earnings Plunge](https://finnhub.io/api/news?id=156f422d4ae4138ce020c98a52ce3c0f5b07e7c53ef4ec279b432f84b051849f)**  
-*SeekingAlpha · 6h前*  
-Micron faces asymmetric downside risk ahead of June 24 earnings due to extreme bullish call option positioning. Read more on the analysis of MU stock.
-
-- **[Dow Jones Futures: Iran Says Hormuz Closed But New Talks To Start; Nvidia, SpaceX Are Stocks To Watch](https://finnhub.io/api/news?id=ad48eccc18120f1905f0fc3416d7d91b63bdca885c9fc879739ec41018ddc62f)**  
-*Yahoo · 10h前*  
-Iran said it's closed the Strait of Hormuz but new peace talks are set to start Sunday. Nvidia and SpaceX are stocks to watch.
 
 ---
 
@@ -48,7 +48,7 @@ Iran said it's closed the Strait of Hormuz but new peace talks are set to start 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $1,133.99 | — | 自動更新 |
+| 2026-06-21 | 監控 | $1,134.03 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Iran said it's closed the Strait of Hormuz but new peace talks are set to start 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 21:02 HKT*
+*由 morning_monitor.py 自動生成　2026-06-21 22:06 HKT*
