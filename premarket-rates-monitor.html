@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>美債孳息 — 開盤前監測</title>
+<style>
+  :root {
+    --bg: #0b0f17; --panel: #131a26; --panel-hover: #1a2333; --border: #232c3d;
+    --text: #d7dee8; --muted: #7c8aa0; --accent: #4fd1c5;
+    --warn-bg: #3b2020; --warn-fg: #ff8f87; --warn-border: #6b2f2a;
+    --tag-low-bg: #1d3b34; --tag-low-fg: #4fd1a8;
+    --tag-mid-bg: #3b3320; --tag-mid-fg: #e0c068;
+    --tag-high-bg: #3b2020; --tag-high-fg: #ef7b72;
+    --mono: 'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang HK', 'Microsoft JhengHei', sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); padding: 28px; }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+  .header { margin-bottom: 14px; }
+  .header h1 { font-size: 19px; font-weight: 600; margin: 0 0 6px; }
+  .header p { font-size: 13px; color: var(--muted); margin: 0; line-height: 1.6; }
+  .header .src-tag {
+    display: inline-block; font-family: var(--mono); font-size: 11px;
+    background: var(--tag-low-bg); color: var(--tag-low-fg);
+    padding: 2px 8px; border-radius: 4px; margin-left: 8px;
+  }
+  .warn-banner {
+    background: var(--warn-bg); border: 1px solid var(--warn-border); color: var(--warn-fg);
+    border-radius: 8px; padding: 12px 16px; font-size: 13px; line-height: 1.6;
+    margin: 14px 0 20px; font-weight: 600;
+  }
+  .warn-banner span.small { display:block; font-weight: 400; color: #d7a8a4; font-size: 12px; margin-top: 4px; }
+
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 22px; }
+  a.link-card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 20px 20px 18px; text-decoration: none; color: var(--text);
+    display: block; transition: all .15s; position: relative;
+  }
+  a.link-card:hover { background: var(--panel-hover); border-color: var(--accent); transform: translateY(-1px); }
+  .link-tenor { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-bottom: 8px; }
+  .link-title { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  .link-sub { font-size: 12px; color: var(--muted); }
+  .link-arrow { position: absolute; top: 18px; right: 18px; color: var(--muted); font-size: 16px; transition: color .15s; }
+  a.link-card:hover .link-arrow { color: var(--accent); }
+
+  .guide { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 18px 22px; font-size: 13px; line-height: 1.75; }
+  .guide h2 { font-size: 14.5px; margin: 0 0 12px; color: var(--accent); }
+  .guide h3 { font-size: 13px; margin: 18px 0 8px; color: var(--text); }
+  .guide ul { margin: 6px 0 6px 18px; padding: 0; color: var(--text); }
+  .guide li { margin-bottom: 6px; }
+  .guide table { width: 100%; border-collapse: collapse; margin: 10px 0 4px; font-family: var(--mono); font-size: 11.5px; }
+  .guide td, .guide th { border-bottom: 1px solid var(--border); padding: 7px 8px; text-align: left; }
+  .guide th { color: var(--muted); font-weight: 500; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-family: var(--mono); }
+  .tag.low  { background: var(--tag-low-bg);  color: var(--tag-low-fg); }
+  .tag.mid  { background: var(--tag-mid-bg);  color: var(--tag-mid-fg); }
+  .tag.high { background: var(--tag-high-bg); color: var(--tag-high-fg); }
+  .note { color: var(--muted); font-size: 12px; margin-top: 16px; border-top: 1px dashed var(--border); padding-top: 14px; }
+  .note b { color: var(--text); }
+  @media (max-width: 880px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="header">
+    <h1>美債孳息 — 開盤前快速連結<span class="src-tag">TradingView 官方頁面</span></h1>
+    <p>三格直接連去TradingView個別孳息率頁面,真實即市數據(你已確認可以正常顯示),一click睇齊現價、變動同走勢圖。</p>
+  </div>
+
+  <div class="grid">
+    <a class="link-card" href="https://www.tradingview.com/symbols/TVC-US10Y/" target="_blank" rel="noopener">
+      <div class="link-tenor">US 10Y · TVC:US10Y</div>
+      <div class="link-title">10年期孳息率</div>
+      <div class="link-sub">開盤前折現率敏感度最關鍵嘅一條</div>
+      <span class="link-arrow">↗</span>
+    </a>
+    <a class="link-card" href="https://www.tradingview.com/symbols/TVC-US05Y/" target="_blank" rel="noopener">
+      <div class="link-tenor">US 5Y · TVC:US05Y</div>
+      <div class="link-title">5年期孳息率</div>
+      <div class="link-sub">中期通脹預期參考</div>
+      <span class="link-arrow">↗</span>
+    </a>
+    <a class="link-card" href="https://www.tradingview.com/symbols/TVC-US02Y/" target="_blank" rel="noopener">
+      <div class="link-tenor">US 2Y · TVC:US02Y</div>
+      <div class="link-title">2年期孳息率</div>
+      <div class="link-sub">Fed政策預期最敏感</div>
+      <span class="link-arrow">↗</span>
+    </a>
+  </div>
+
+  <div class="guide">
+    <h2>點睇 — 解讀步驟</h2>
+
+    <h3>1. 先睇方向一致性</h3>
+    <ul>
+      <li>2Y、5Y、10Y <b>同步</b>升跌 → 整體risk-off/risk-on,或者通脹預期一次過重估,意義較宏觀</li>
+      <li>三條線 <b>唔同步</b> → 先值得細看邊度郁、點解郁(見下)</li>
+    </ul>
+
+    <h3>2. 邊度郁得多 = 邊種訊號</h3>
+    <table>
+      <tbody><tr><th>觀察</th><th>大概意思</th></tr>
+      <tr><td>2Y 郁得多,10Y 偏穩</td><td>Fed 政策預期變動(官員言論、就業/通脹數據),前端敏感</td></tr>
+      <tr><td>10Y 郁得多,2Y 偏穩</td><td>期限溢價/供應面/長期通脹預期 — 對MU/NVDA/MRVL呢類成長股折現率影響更直接</td></tr>
+      <tr><td>2Y、10Y 一齊急升</td><td>廣泛 sell-off,通常伴隨頭條新聞,影響面最廣</td></tr>
+    </tbody></table>
+
+    <h3>3. 幅度參考(粗略)</h3>
+    <ul>
+      <li><span class="tag low">&lt; 5bp</span> 一般雜訊,唔使理</li>
+      <li><span class="tag mid">5–15bp</span> 留意,但等15-30分鐘確認唔係交接時段流動性低造成嘅假突破</li>
+      <li><span class="tag high">&gt; 15-20bp</span> 值得認真留意 — 交叉睇埋ES/NQ期指有冇同步反應</li>
+    </ul>
+
+    <h3>4. Spread(10Y-2Y)</h3>
+    <p>兩個頁面擺埋一齊,10Y數值減2Y數值就係即市spread,留意闊窄變化速度。</p>
+
+    <div class="note">
+      <b>點解唔再用inline embed:</b> 試咗Symbol Overview、Advanced 
+Chart兩款widget,合成孳息指數同CBOT國債期貨都一樣畀Claude嘅artifact預覽sandbox擋咗realtime 
+data連線(同symbol種類無關)。直接連去TradingView官方頁面就冇呢個限制,你個screenshot已經證明數據正常。<br><br>
+      <b>下一步(可選):</b> 如果想做到完全自動化(讀數值、設threshold、auto推送Telegram alert),建議用Python嘅<b>yfinance</b>套件,接落你而家用緊嗰套github_gex_updater.py / Task Scheduler pipeline,效果會比JS widget穩陣可靠得多 — 詳情見下面文字回覆。
+    </div>
+  </div>
+
+</div>
+
+
+</body></html>
