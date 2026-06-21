@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:32 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Marvell (MRVL) Unveils 102.4 Tbps Switch As Photonic Shipments Pass 5 Million](https://finnhub.io/api/news?id=7b0be299b8c7831c389b298a0b948f9a2b53dc3c46426931b734dcd8fccc8c60)**  
-*Yahoo · 2h前*  
+*Yahoo · 3h前*  
 Marvell Technology (NasdaqGS:MRVL) introduced what it calls the industry's first 102.4 Tbps Teralynx T100 switch for AI and cloud data centers. The company repo…
 
 - **[Why Does Donald Trump Like Marvell Technology (MRVL)?](https://finnhub.io/api/news?id=1bc9c768239349be136299a4a9e88c4b701315017c659c40111be842205296cb)**  
@@ -59,4 +59,4 @@ AMD and ASML look set to hit trillion-dollar market caps before Marvell.
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
+*由 github_gex_updater.py 自動生成　2026-06-21 22:32 HKT*
