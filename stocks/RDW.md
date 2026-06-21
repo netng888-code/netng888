@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:32 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -54,4 +54,4 @@ On June 8, 2026, the United States District Court for the Middle District of Flo
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
+*由 github_gex_updater.py 自動生成　2026-06-21 22:32 HKT*
