@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:32 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Forget Ads: Alphabet’s CEO Says This Is Now the Biggest Growth Driver](https://finnhub.io/api/news?id=619dadbbea4fff68530bc9c7583eb922bf0d497ce276d886bf2471e17cc0c738)**  
+- **[Apple’s Incoming CEO Draws a Line on AI: Tools Serve Products, Not the Reverse](https://finnhub.io/api/news?id=60553907ebd7888356972ebc059dc32d042c2ec122c88b8692466420e181b838)**  
 *Yahoo · 2h前*  
+Apple’s next chief executive has tipped his hand on artificial intelligence, and the message is the opposite of what is coming out of Redmond, Mountain View and…
+
+- **[Forget Ads: Alphabet’s CEO Says This Is Now the Biggest Growth Driver](https://finnhub.io/api/news?id=619dadbbea4fff68530bc9c7583eb922bf0d497ce276d886bf2471e17cc0c738)**  
+*Yahoo · 3h前*  
 For two decades, Alphabet (NASDAQ:GOOGL) was an advertising company that happened to own a cloud business. On the Q1 2026 earnings call, CEO Sundar Pichai refra…
 
 - **[Berkshire Hathaway's Greg Abel Dumps Amazon and Loads Up on Alphabet. Is It the Better Buy?](https://finnhub.io/api/news?id=b3ffd09f305bb60be372c6bc053567f21046f29ecf453cc4d069d6c0d8585465)**  
-*Yahoo · 3h前*  
-One of these has performed much better than the other.
-
-- **[Apple Will Raise Prices Due To Soaring Memory Costs: CEO Tim Cook Says 'This Is A 100-Year Flood'](https://finnhub.io/api/news?id=6845e94fa0a7f2d4f494e07ca4b12e95aa536617519678e183d91d6b51b2b985)**  
 *Yahoo · 4h前*  
-Apple Inc. is preparing to raise prices across its product lineup after CEO Tim Cook acknowledged the company can no longer absorb skyrocketing costs for memory…
+One of these has performed much better than the other.
 
 ---
 
@@ -59,4 +59,4 @@ Apple Inc. is preparing to raise prices across its product lineup after CEO Tim 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
+*由 github_gex_updater.py 自動生成　2026-06-21 22:32 HKT*
