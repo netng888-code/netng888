@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:33 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -54,4 +54,4 @@ Rocket Lab Corporation is executing on a strategy to become a fully integrated s
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
+*由 github_gex_updater.py 自動生成　2026-06-21 22:33 HKT*
