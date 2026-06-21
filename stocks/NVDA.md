@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-06-21 22:07 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-21 22:32 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Forget Ads: Alphabet’s CEO Says This Is Now the Biggest Growth Driver](https://finnhub.io/api/news?id=619dadbbea4fff68530bc9c7583eb922bf0d497ce276d886bf2471e17cc0c738)**  
-*Yahoo · 2h前*  
-For two decades, Alphabet (NASDAQ:GOOGL) was an advertising company that happened to own a cloud business. On the Q1 2026 earnings call, CEO Sundar Pichai refra…
+- **[Is It Too Late to Buy SpaceX Stock?](https://finnhub.io/api/news?id=dbcd9adb47551e7c6bf517c3195768d482f1e7d123df29de3a6b63e6e05bc759)**  
+*Yahoo · 0h前*  
+SpaceX has become one of the hottest stocks on Wall Street in just a few trading days.
 
-- **[SpaceX Is Now Worth $2.4 Trillion, Making It Twice as Valuable as Bitcoin. But Here's Why I'm Still Buying Bitcoin.](https://finnhub.io/api/news?id=dec60e2d4f4221f1781aabccf3ae082df7e5dc2f0627e41e2bf68b1bb4c5dce6)**  
-*Yahoo · 2h前*  
-SpaceX just went public at a sky-high valuation. Here's why I'm buying Bitcoin this month instead.
+- **[SpaceX Will Release Earnings Through X and Its Website Only. Is That a Red Flag?](https://finnhub.io/api/news?id=69c6c123f79a2192566e0cb6fff068cf5af5545064e099c9bb15354d0d728833)**  
+*Yahoo · 0h前*  
+Companies typically push earnings releases through major news wire services, but Elon Musk is going his own way again.
 
-- **[Ford and General Motors Are Energy Stocks Now](https://finnhub.io/api/news?id=13d73fdfd1365b57d15c9a39049cc168d0c54fe1534d2dbd5c9adc97897aa1d3)**  
-*Yahoo · 2h前*  
-Should car companies become energy companies? Ford and GM -- and Tesla! -- are racing to do just that.
+- **[Nebius Group (NasdaqGS:NBIS) Lands $2 Billion From Nvidia As Avride Moves With Uber](https://finnhub.io/api/news?id=6b8a1ef7106086a90dfe4d59ce7d8e2351178243263622e30c80a9d5c1473bab)**  
+*Yahoo · 1h前*  
+Nvidia commits a direct US$2b investment to Nebius Group (NasdaqGS:NBIS) to support AI data center expansion. Nebius plans to scale its neocloud infrastructure …
 
 ---
 
@@ -59,4 +59,4 @@ Should car companies become energy companies? Ford and GM -- and Tesla! -- are r
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-21 22:07 HKT*
+*由 github_gex_updater.py 自動生成　2026-06-21 22:32 HKT*
