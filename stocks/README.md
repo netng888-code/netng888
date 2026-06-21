@@ -14,3 +14,11 @@
 | NOK | 諾基亞 | [查看](NOK.md) |
 | RDW | Redwire | [查看](RDW.md) |
 | LEU | Centrus Energy | [查看](LEU.md) |
+| OKLO | Oklo Inc | [查看](OKLO.md) |
+| RKLB | Rocket Lab | [查看](RKLB.md) |
+| PLTR | Palantir | [查看](PLTR.md) |
+| ISRG | 直覺外科公司 | [查看](ISRG.md) |
+| LITE | Lumentum | [查看](LITE.md) |
+| VRT | Vertiv Holdings | [查看](VRT.md) |
+| RR | Richtech Robotics | [查看](RR.md) |
+| SERV | Serve Robotics | [查看](SERV.md) |
