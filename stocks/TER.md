@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-06-23 15:08 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-23 16:17 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Robotics Automation Stocks Surge as Quality Picks Offer Rare Value in High-Multiple Sector](https://finnhub.io/api/news?id=bebea6a9a871a5ad6c5db896956f32eaa34a5b20481e21099f68c20fd2337e33)**  
-*ChartMill · 19h前*  
+*ChartMill · 20h前*  
 Some industrial automation stocks like Teradyne, Cognex, and Rockwell show strong momentum with lower forward P/E multiples than the sector's high 63x average, …
 
 - **[1 Surging  Stock Worth Your Attention and 2 We Find Risky](https://finnhub.io/api/news?id=769321d40b2fc920363c02979221445a5ddd4ec61e49f08ff49b2a65349bce59)**  
-*Yahoo · 21h前*  
+*Yahoo · 22h前*  
 Great things are happening to the stocks in this article. They’re all outperforming the market over the last month because of positive catalysts such as a new p…
 
 - **[Vention Partners With Teradyne Robotics Over Deployment Of Modular Automation](https://finnhub.io/api/news?id=4576604549dab3074e8fd246ad369ed1be5f53c6b0d6b29a8a9dc69206ff9cb2)**  
-*Benzinga · 22h前*  
+*Benzinga · 23h前*  
 Vention, the leading digital-first industrial automation platform, and Teradyne Robotics, today announced a strategic collaboration to accelerate the deployment…
 
 ---
@@ -59,4 +59,4 @@ Vention, the leading digital-first industrial automation platform, and Teradyne 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-23 15:08 HKT*
+*由 morning_monitor.py 自動生成　2026-06-23 16:17 HKT*
