@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-06-21 22:32 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-23 15:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$1,134.03** |
-| 今日變動 | ▲ $90.84　(+8.71%) |
-| 持倉數量 | 5 股 |
+| 現價 | **$1,211.38** |
+| 今日變動 | ▲ $77.39　(+6.82%) |
+| 持倉數量 | 3 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $2,881　(▲103.3%) |
+| 未實現盈虧 | ▲ $1,961　(▲117.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $855.97 | — |
-| Put Wall（支撐） | $900.00 | -20.6% |
-| Call Wall（阻力） | $1,050.00 | +-7.4% |
+| Gamma Flip | N/A（抓取失敗） | — |
+| Put Wall（支撐） | N/A | — |
+| Call Wall（阻力） | N/A | — |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Micron Just Crossed $1,000 a Share. Here's the Math on Where It Goes Next.](https://finnhub.io/api/news?id=b98274190b249e4d5c08b329f7a13dee81b780b662a3efd37bbbc8ab31552d42)**  
+- **[Navellier explains why Micron is better than SpaceX](https://finnhub.io/api/news?id=fc0d4b5c9a75be2cceb43a25156124de8020d51ce6403983b143236146c9599d)**  
 *Yahoo · 2h前*  
-Micron stock has gained 270% so far this year, propelling the company's market cap above $1 trillion.
+Micron Technology’s (MU) earnings announcement on June 24 is expected to be the grand finale to a stunning earnings announcement season. For the most recently r…
 
-- **[Micron's $1,700 Setup Emerges](https://finnhub.io/api/news?id=d6853286ff52e2a70998eea0b5b4271427359c189bb0aaf33b396cbeae827fbe)**  
-*SeekingAlpha · 5h前*  
-Micron stock surges 50% on HBM demand and strong technicals.
+- **[Micron (MU) Q2 Earnings: What To Expect](https://finnhub.io/api/news?id=737ac6953a81766b38d31a017df829c2cdbd8f7bbea128cf91f6411a321ba1b0)**  
+*Yahoo · 3h前*  
+Memory chips maker Micron (NASDAQ:MU) will be reporting results this Wednesday after market hours. Here’s what to expect.
 
-- **[TSMC: The Buying Opportunity Is Finally Flashing (Rating Upgrade)](https://finnhub.io/api/news?id=0ad4ce0b85a22cc899bf31fa842314b3c6ff6de05fe9a2e7eb585ff42810853a)**  
-*SeekingAlpha · 5h前*  
-TSMC upgraded to a buy on robust AI demand, disciplined CapEx and EUV edge.
+- **[Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus](https://finnhub.io/api/news?id=8eef9d9bba33d270cacb173133a97de3dac18c3570a84e1143817502bc40f199)**  
+*Yahoo · 4h前*  
+Tuesday's catalysts include flash PMIs, Richmond Fed data, ADP weekly employment, Treasury bill and 2-year note auctions, and May money supply.
 
 ---
 
@@ -48,7 +48,7 @@ TSMC upgraded to a buy on robust AI demand, disciplined CapEx and EUV edge.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $1,134.03 | — | 自動更新 |
+| 2026-06-23 | 監控 | $1,211.38 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ TSMC upgraded to a buy on robust AI demand, disciplined CapEx and EUV edge.
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 github_gex_updater.py 自動生成　2026-06-21 22:32 HKT*
+*由 morning_monitor.py 自動生成　2026-06-23 15:08 HKT*
