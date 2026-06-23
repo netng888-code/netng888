@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-06-23 15:08 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-23 16:17 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[NVIDIA Stock's Next Big Move Might Not Involve A GPU](https://finnhub.io/api/news?id=f004c248910cc97231686a7b8fbe83c29fb435e67f7b3a256661d9238066c70f)**  
-*Yahoo · 5h前*  
+*Yahoo · 6h前*  
 With all eyes on the company's AI chip dominance, it's quietly opening a massive new front in a market it has never touched before.
 
 - **[Broadcom's AI Revenue Is on Pace to Triple to $16 Billion in a Single Quarter, but the Stock Just Dipped 17%. Is This an Opportunity to Buy the Dip?](https://finnhub.io/api/news?id=660a402b56dae407427945a9fa0d5908306c790678a618e2e5a4608f20669fc0)**  
-*Yahoo · 9h前*  
+*Yahoo · 10h前*  
 Accelerating AI chip demand may give this top chip stock a second wind.
 
 - **[The Market Is Panicking on Broadcom. This Is Why I Keep Buying The Stock](https://finnhub.io/api/news?id=560ad2b9b219c1b1c32a832905b24e086612e815643d704a1b83d3d9550f5b70)**  
-*Yahoo · 10h前*  
+*Yahoo · 11h前*  
 I keep clicking buy on Broadcom (NASDAQ:AVGO) because the math is too good to walk away from, even with a $39 trillion national debt clock ticking and new Fed C…
 
 ---
@@ -59,4 +59,4 @@ I keep clicking buy on Broadcom (NASDAQ:AVGO) because the math is too good to wa
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-23 15:08 HKT*
+*由 morning_monitor.py 自動生成　2026-06-23 16:17 HKT*
