@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-06-23 15:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-23 16:18 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Roth Capital Maintains Neutral on Centrus Energy, Lowers Price Target to $195](https://finnhub.io/api/news?id=4d85955972d9a6edc6931446ab999eb7729ea89917aecf5f59ebc122dc91eaf7)**  
-*Benzinga · 21h前*  
+*Benzinga · 22h前*  
 Roth Capital  analyst Joe Reagor   maintains Centrus Energy (NYSE:LEU) with a Neutral and lowers the price target from $230 to $195.
 
 ---
@@ -51,4 +51,4 @@ Roth Capital  analyst Joe Reagor   maintains Centrus Energy (NYSE:LEU) with a Ne
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-23 15:09 HKT*
+*由 morning_monitor.py 自動生成　2026-06-23 16:18 HKT*
