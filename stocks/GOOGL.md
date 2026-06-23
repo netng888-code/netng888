@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-06-23 15:08 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-23 16:17 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Google and Energy Dome Advance Multi-Continent Energy Storage Buildout with First Bilateral Project in Ireland](https://finnhub.io/api/news?id=17efbf5fc3586fde1b6ec891edd9199c906852377a3a0c021f2036302f6c90e2)**  
+*Yahoo · 1h前*  
+DUBLIN & MILAN, June 23, 2026--Today Energy Dome, a leading long-duration energy storage technology developer, and Google announced their first bilateral commer…
+
+- **[Jim Cramer Wonders How Many Times Alphabet (GOOG) Has Announced NVIDIA Chip Competitors](https://finnhub.io/api/news?id=8ed1f6b24d7865981c33f573c3bab98cc1943128181f1f5c4a89f0efb92a9446)**  
+*Yahoo · 1h前*  
+We recently published Jim Cramer Discussed Expensive Phones, A Cheap Stock Sector & These 18 Stocks. Alphabet Inc. (NASDAQ:GOOG) is one of the stocks discussed …
+
 - **[GoDaddy, Bandwidth, and GitLab Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=7ef97267d53c2896e7dceb8f006d9cea71f4aef78aeed90e16c925dd111b77f3)**  
-*Yahoo · 4h前*  
+*Yahoo · 5h前*  
 A number of stocks fell in the afternoon session after a confluence of high-profile AI talent departures from Alphabet, and a regulatory overhang pulled the ent…
-
-- **[Intuit, Akamai, and RingCentral Shares Plummet, What You Need To Know](https://finnhub.io/api/news?id=bc89b252ea880eba6ce36e6ba74f74d5b31f995a50be8846775cf1d3b92cb2d6)**  
-*Yahoo · 4h前*  
-A number of stocks fell in the afternoon session after a confluence of high-profile AI talent departures from Alphabet, and a regulatory overhang pulled the ent…
-
-- **[Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus](https://finnhub.io/api/news?id=8eef9d9bba33d270cacb173133a97de3dac18c3570a84e1143817502bc40f199)**  
-*Yahoo · 4h前*  
-Tuesday's catalysts include flash PMIs, Richmond Fed data, ADP weekly employment, Treasury bill and 2-year note auctions, and May money supply.
 
 ---
 
@@ -59,4 +59,4 @@ Tuesday's catalysts include flash PMIs, Richmond Fed data, ADP weekly employment
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-23 15:08 HKT*
+*由 morning_monitor.py 自動生成　2026-06-23 16:17 HKT*
