@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-06-21 22:32 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-23 15:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$210.73** |
-| 今日變動 | ▲ $6.08　(+2.97%) |
+| 現價 | **$208.65** |
+| 今日變動 | ▼ $2.04　(-0.97%) |
 | 持倉數量 | 15 股 |
 | 平均成本 | $148.500 |
-| 未實現盈虧 | ▲ $933　(▲41.9%) |
+| 未實現盈虧 | ▲ $902　(▲40.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $199.59 | — |
-| Put Wall（支撐） | $200.00 | -5.1% |
-| Call Wall（阻力） | $220.00 | +4.4% |
+| Gamma Flip | $199.07 | — |
+| Put Wall（支撐） | $200.00 | 距離 4.1% |
+| Call Wall（阻力） | $210.00 | 距離 0.6% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Is It Too Late to Buy SpaceX Stock?](https://finnhub.io/api/news?id=dbcd9adb47551e7c6bf517c3195768d482f1e7d123df29de3a6b63e6e05bc759)**  
-*Yahoo · 0h前*  
-SpaceX has become one of the hottest stocks on Wall Street in just a few trading days.
-
-- **[SpaceX Will Release Earnings Through X and Its Website Only. Is That a Red Flag?](https://finnhub.io/api/news?id=69c6c123f79a2192566e0cb6fff068cf5af5545064e099c9bb15354d0d728833)**  
-*Yahoo · 0h前*  
-Companies typically push earnings releases through major news wire services, but Elon Musk is going his own way again.
-
-- **[Nebius Group (NasdaqGS:NBIS) Lands $2 Billion From Nvidia As Avride Moves With Uber](https://finnhub.io/api/news?id=6b8a1ef7106086a90dfe4d59ce7d8e2351178243263622e30c80a9d5c1473bab)**  
+- **[3 Dividend Stocks to Buy Right Now and Hold Forever](https://finnhub.io/api/news?id=6de80edbb191501aea1934c3da6d4fe167a68e719dbf7334615b76d49347470a)**  
 *Yahoo · 1h前*  
-Nvidia commits a direct US$2b investment to Nebius Group (NasdaqGS:NBIS) to support AI data center expansion. Nebius plans to scale its neocloud infrastructure …
+Companies that consistently increase their dividends have outperformed the market over the long term.
+
+- **[Is SpaceX Outrageously Overvalued or a Long-Term Investment With Unmatched Potential?](https://finnhub.io/api/news?id=b27421fdb50791c217cf98ad0e45e1ec71204af9ddb8fb15351000da3c19ec70)**  
+*Yahoo · 1h前*  
+SpaceX's post-IPO valuation is forcing investors to weigh the company's pros and cons closely.
+
+- **[Kevin Warsh Is Shifting the Future of the Fed in 1 Major Way -- and It Might Rattle Wall Street](https://finnhub.io/api/news?id=9fa288e58f1bd0168a705400291c60b217e1c32aba4771ce9b371ee7e94e31f5)**  
+*Yahoo · 1h前*  
+The new Fed chair is already making his stamp on the organization.
 
 ---
 
@@ -48,7 +48,7 @@ Nvidia commits a direct US$2b investment to Nebius Group (NasdaqGS:NBIS) to supp
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $210.73 | — | 自動更新 |
+| 2026-06-23 | 監控 | $208.65 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia commits a direct US$2b investment to Nebius Group (NasdaqGS:NBIS) to supp
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 github_gex_updater.py 自動生成　2026-06-21 22:32 HKT*
+*由 morning_monitor.py 自動生成　2026-06-23 15:08 HKT*
