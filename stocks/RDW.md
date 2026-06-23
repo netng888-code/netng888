@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-06-23 15:08 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-23 16:18 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -49,4 +49,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-23 15:08 HKT*
+*由 morning_monitor.py 自動生成　2026-06-23 16:18 HKT*
