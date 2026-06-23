@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-06-21 22:32 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-23 15:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$368.07** |
-| 今日變動 | ▲ $4.28　(+1.18%) |
+| 現價 | **$349.68** |
+| 今日變動 | ▼ $18.35　(-4.99%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,276　(▲106.3%) |
+| 未實現盈虧 | ▲ $2,055　(▲96.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $357.90 | — |
-| Put Wall（支撐） | $360.00 | -2.2% |
-| Call Wall（阻力） | $400.00 | +8.7% |
+| Gamma Flip | $355.28 | — |
+| Put Wall（支撐） | $350.00 | 已跌穿 ▼0.1% |
+| Call Wall（阻力） | $400.00 | 距離 14.4% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 💥 已跌穿Put牆（-0.1%）**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Apple’s Incoming CEO Draws a Line on AI: Tools Serve Products, Not the Reverse](https://finnhub.io/api/news?id=60553907ebd7888356972ebc059dc32d042c2ec122c88b8692466420e181b838)**  
-*Yahoo · 2h前*  
-Apple’s next chief executive has tipped his hand on artificial intelligence, and the message is the opposite of what is coming out of Redmond, Mountain View and…
-
-- **[Forget Ads: Alphabet’s CEO Says This Is Now the Biggest Growth Driver](https://finnhub.io/api/news?id=619dadbbea4fff68530bc9c7583eb922bf0d497ce276d886bf2471e17cc0c738)**  
-*Yahoo · 3h前*  
-For two decades, Alphabet (NASDAQ:GOOGL) was an advertising company that happened to own a cloud business. On the Q1 2026 earnings call, CEO Sundar Pichai refra…
-
-- **[Berkshire Hathaway's Greg Abel Dumps Amazon and Loads Up on Alphabet. Is It the Better Buy?](https://finnhub.io/api/news?id=b3ffd09f305bb60be372c6bc053567f21046f29ecf453cc4d069d6c0d8585465)**  
+- **[GoDaddy, Bandwidth, and GitLab Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=7ef97267d53c2896e7dceb8f006d9cea71f4aef78aeed90e16c925dd111b77f3)**  
 *Yahoo · 4h前*  
-One of these has performed much better than the other.
+A number of stocks fell in the afternoon session after a confluence of high-profile AI talent departures from Alphabet, and a regulatory overhang pulled the ent…
+
+- **[Intuit, Akamai, and RingCentral Shares Plummet, What You Need To Know](https://finnhub.io/api/news?id=bc89b252ea880eba6ce36e6ba74f74d5b31f995a50be8846775cf1d3b92cb2d6)**  
+*Yahoo · 4h前*  
+A number of stocks fell in the afternoon session after a confluence of high-profile AI talent departures from Alphabet, and a regulatory overhang pulled the ent…
+
+- **[Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus](https://finnhub.io/api/news?id=8eef9d9bba33d270cacb173133a97de3dac18c3570a84e1143817502bc40f199)**  
+*Yahoo · 4h前*  
+Tuesday's catalysts include flash PMIs, Richmond Fed data, ADP weekly employment, Treasury bill and 2-year note auctions, and May money supply.
 
 ---
 
@@ -48,7 +48,7 @@ One of these has performed much better than the other.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $368.07 | — | 自動更新 |
+| 2026-06-23 | 監控 | $349.68 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ One of these has performed much better than the other.
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 github_gex_updater.py 自動生成　2026-06-21 22:32 HKT*
+*由 morning_monitor.py 自動生成　2026-06-23 15:08 HKT*
