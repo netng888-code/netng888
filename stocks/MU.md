@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-06-23 15:08 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-06-23 16:17 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Navellier explains why Micron is better than SpaceX](https://finnhub.io/api/news?id=fc0d4b5c9a75be2cceb43a25156124de8020d51ce6403983b143236146c9599d)**  
+- **[Cerebras Just Had Its IPO. Now, the Chip Maker Faces Its Next Big Test.](https://finnhub.io/api/news?id=fd1c476f45a16b575299ccf13fd4c2d0871f8907bc411ec7bf0f34c8a7540338)**  
 *Yahoo · 2h前*  
+Cerebras Systems, an AI chip maker, anticipates first-quarter sales of $181 million, an 82% increase year-over-year.
+
+- **[Navellier explains why Micron is better than SpaceX](https://finnhub.io/api/news?id=fc0d4b5c9a75be2cceb43a25156124de8020d51ce6403983b143236146c9599d)**  
+*Yahoo · 4h前*  
 Micron Technology’s (MU) earnings announcement on June 24 is expected to be the grand finale to a stunning earnings announcement season. For the most recently r…
 
 - **[Micron (MU) Q2 Earnings: What To Expect](https://finnhub.io/api/news?id=737ac6953a81766b38d31a017df829c2cdbd8f7bbea128cf91f6411a321ba1b0)**  
-*Yahoo · 3h前*  
+*Yahoo · 5h前*  
 Memory chips maker Micron (NASDAQ:MU) will be reporting results this Wednesday after market hours. Here’s what to expect.
-
-- **[Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus](https://finnhub.io/api/news?id=8eef9d9bba33d270cacb173133a97de3dac18c3570a84e1143817502bc40f199)**  
-*Yahoo · 4h前*  
-Tuesday's catalysts include flash PMIs, Richmond Fed data, ADP weekly employment, Treasury bill and 2-year note auctions, and May money supply.
 
 ---
 
@@ -59,4 +59,4 @@ Tuesday's catalysts include flash PMIs, Richmond Fed data, ADP weekly employment
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-23 15:08 HKT*
+*由 morning_monitor.py 自動生成　2026-06-23 16:17 HKT*
