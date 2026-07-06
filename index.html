@@ -249,8 +249,8 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     </div>
     <div class="summary-card">
       <div class="summary-label">美股已實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-realized">+USD 12,404+</div>
-      <div class="summary-sub">MU沽2@944(+772)｜沽2@810(+762)｜沽2@1185(+1254)｜沽1@1200(+642)</div>
+      <div class="summary-value pnl-pos" id="sum-us-realized">+USD 12,851+</div>
+      <div class="summary-sub">MU沽2@944(+772)｜沽2@810(+762)｜沽2@1185(+1254)｜沽1@1200(+642)｜沽1@1004.66(+447)</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">今日盈虧 (美股)</div>
@@ -277,12 +277,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     MU 沽2股@$810 +$762 ｜
     MU 沽2股@$1,185 +$1,254 ｜
     MU 沽1股@$1,200 +$642 ｜
+    MU 沽1股@$1,004.66 +$447 ｜
     RDW 沽30@$20.3 + 沽20@$22.5 + 沽20@$27 = +$731 ｜
     RKLB 沽5股 +$440 ｜
     ASTS 已清倉 ｜
     07709 沽100@$110 +HKD 9,420 ｜
     07709 沽100@$133 +HKD 11,720
-    <br>美股已實現 <strong>+USD 12,404+</strong> ｜ 港股已實現 <strong>+HKD 30,560+</strong>
+    <br>美股已實現 <strong>+USD 12,851+</strong> ｜ 港股已實現 <strong>+HKD 30,560+</strong>
   </div>
 
   <!-- US Stocks -->
@@ -310,14 +311,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <tbody id="us-tbody"><tr>
       <td><span class="sym-badge" onclick="openFlipTo('MU')">MU</span></td>
       <td class="name-cell">美光科技</td>
-      <td style="color:var(--muted)">2</td>
-      <td><span class="price-cell price-live">1,048.51</span></td>
+      <td style="color:var(--muted)">1</td>
+      <td><span class="price-cell price-live">977.00</span></td>
       <td><span class="ext-price-cell">—</span></td>
       <td style="color:var(--muted)">557.86</td>
-      <td class="mktval-cell">2,097.02</td>
-      <td class="pnl-pos">+981.31</td>
-      <td><span class="pct-badge pos">+87.95%</span></td>
-      <td class="pnl-pos today-pnl-cell">0.00</td>
+      <td class="mktval-cell">977.00</td>
+      <td class="pnl-pos">+419.14</td>
+      <td><span class="pct-badge pos">+75.13%</span></td>
+      <td class="pnl-neg today-pnl-cell">-55.64</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('MU')">📈</button>
@@ -820,7 +821,7 @@ const US_HOLDINGS = [
   { symbol:'NVDA',  name:'英偉達',                qty:20,  cost:160.125,  mktval:3980.00,  pnl:777.50,   pnlPct:'+24.28%',  realized:1268.05, todayPnL:0       },
   { symbol:'AVGO',  name:'博通',                  qty:10,  cost:375.782,  mktval:3870.20,  pnl:112.38,   pnlPct:'+2.99%',   realized:3.78,    todayPnL:-51.40  },
   { symbol:'MRVL',  name:'邁威爾科技',             qty:10,  cost:257.303,  mktval:2767.00,  pnl:193.98,   pnlPct:'+7.54%',   realized:0.36,    todayPnL:0       },
-  { symbol:'MU',    name:'美光科技',              qty:2,   cost:557.857,  mktval:2097.02,  pnl:981.31,   pnlPct:'+87.95%',  realized:4291.94, todayPnL:0       },
+  { symbol:'MU',    name:'美光科技',              qty:1,   cost:557.857,  mktval:977.00,   pnl:419.14,   pnlPct:'+75.13%',  realized:4738.74, todayPnL:-55.64  },
   { symbol:'NOK',   name:'諾基亞',                qty:150, cost:13.167,   mktval:2071.50,  pnl:96.50,    pnlPct:'+4.89%',   realized:0,       todayPnL:0       },
   { symbol:'TER',   name:'泰瑞達',                qty:5,   cost:92.00,    mktval:1846.65,  pnl:1386.65,  pnlPct:'+301.45%', realized:1356.54, todayPnL:0.60    },
   { symbol:'META',  name:'Meta Platforms',       qty:3,   cost:606.333,  mktval:1758.15,  pnl:-60.85,   pnlPct:'-3.35%',   realized:3.15,    todayPnL:4.38    },
