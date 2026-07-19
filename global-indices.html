@@ -39,6 +39,32 @@
     同VIX→VIXY嗰個trade-off一致。顯示名稱（SPX/NDX/...）維持不變，
     只換底層symbol，並喺flip-name/context card加返「(代理)」標示，
     保持透明。
+
+  v3（2026-07-19 續）：用戶反饋SPX/NDX/DJI/SOX（換做美股上市ETF後）
+    完全正常，但HSI/XIN9/NI225/KOSPI（換做港股/日股/韓股上市ETF後）
+    彈窗問題原封不動——證明v2嘅假設只啱一半：真正嘅授權限制單位
+    唔係「index vs ETF」（instrument type），而係「上市交易所」
+    （listing exchange）本身。TradingView anonymous embed對美股
+    交易所（NYSE/Nasdaq/NYSE Arca，即SPY/QQQ/DIA/SOXX呢批全部
+    上市嗰度）嘅redistribution權限係開放嘅，但HKEX/TSE/KRX呢三個
+    交易所本身要求獨立、更嚴格嘅data license先可以喺embed顯示
+    ——淨係將HSI（TVC:HSI）換做同樣喺HKEX上市嘅2800/2822（HKEX:2800/
+    HKEX:2822），限制嘅根源（HKEX呢個交易所本身）完全冇變過，梗係
+    一樣彈窗。
+
+    真正修正：4隻繼續換代理，但呢次揀返喺美股交易所（NYSE Arca，
+    TradingView前綴同SPY/DIA一樣係AMEX:）上市、追蹤返呢4個亞洲市場
+    嘅ETF，令個restriction徹底避開：
+      HSI  → AMEX:EWH（iShares MSCI Hong Kong ETF）
+      XIN9 → AMEX:ASHR（Xtrackers Harvest CSI 300 China A股ETF，
+             同XIN9一樣係追蹤滬深A股，比HSI/H股ETF更貼近原意）
+      NI225→ AMEX:EWJ（iShares MSCI Japan ETF）
+      KOSPI→ AMEX:EWY（iShares MSCI South Korea ETF）
+    Trade-off加碼：呢批MSCI國家ETF追蹤嘅係「市場整體」（例如MSCI
+    Japan包含多過225隻股票、市值加權），同原指數嘅選股方法論
+    （Nikkei225價格加權top225 / HSI市值加權top40 / KOSPI200前200大）
+    唔完全一致，短期走勢可能有少少落差，但方向同大波動高度一致，
+    足夠做「跨市場情緒鏈」用途。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
@@ -168,10 +194,10 @@ footer{margin-top:12px;display:flex;align-items:center;justify-content:space-bet
         {"proName": "NASDAQ:QQQ", "title": "NDX(QQQ代理) 納指100"},
         {"proName": "AMEX:DIA", "title": "DJI(DIA代理) 道瓊斯"},
         {"proName": "NASDAQ:SOXX", "title": "SOX(SOXX代理) 費半"},
-        {"proName": "HKEX:2800", "title": "HSI(2800代理) 恒指"},
-        {"proName": "HKEX:2822", "title": "XIN9(2822代理) A50"},
-        {"proName": "TSE:1321", "title": "NI225(1321代理) 日經"},
-        {"proName": "KRX:069500", "title": "KOSPI(069500代理) 韓綜指"}
+        {"proName": "AMEX:EWH", "title": "HSI(EWH代理) 恒指"},
+        {"proName": "AMEX:ASHR", "title": "XIN9(ASHR代理) A50"},
+        {"proName": "AMEX:EWJ", "title": "NI225(EWJ代理) 日經"},
+        {"proName": "AMEX:EWY", "title": "KOSPI(EWY代理) 韓綜指"}
       ],
       "showSymbolLogo": false,
       "isTransparent": true,
@@ -265,17 +291,17 @@ const INDICES = [
   { code:'SOX',   tv:'NASDAQ:SOXX', rawIndex:'NASDAQ:SOX', proxy:'SOXX ETF',     name:'費城半導體指數',
     represents:'美國半導體行業代表性指數',
     relevance:'直接對應 AVGO/NVDA/MRVL/MU/TER 核心持倉，最高關聯度' },
-  { code:'HSI',   tv:'HKEX:2800',   rawIndex:'TVC:HSI',    proxy:'盈富基金2800', name:'恒生指數',
-    represents:'香港交易所最大40隻上市公司',
+  { code:'HSI',   tv:'AMEX:EWH',    rawIndex:'TVC:HSI',    proxy:'iShares EWH', name:'恒生指數',
+    represents:'香港交易所最大40隻上市公司（代理為MSCI香港市場ETF，非HSI 40隻成分股本身）',
     relevance:'你嘅本地市場 · 港股Futu帳戶大盤情緒' },
-  { code:'XIN9',  tv:'HKEX:2822',   rawIndex:'FTSE:XIN9',  proxy:'CSOP A50 2822',name:'富時中國A50',
-    represents:'滬深兩市最大50隻A股',
+  { code:'XIN9',  tv:'AMEX:ASHR',   rawIndex:'FTSE:XIN9',  proxy:'Xtrackers ASHR', name:'富時中國A50',
+    represents:'滬深兩市最大50隻A股（代理為CSI 300 A股ETF，同屬滬深A股範疇）',
     relevance:'內地政策/刺激措施敏感度高，港股聯動參考' },
-  { code:'NI225', tv:'TSE:1321',    rawIndex:'TVC:NI225',  proxy:'Nomura ETF 1321', name:'日經225',
-    represents:'東證225隻藍籌股，價格加權',
+  { code:'NI225', tv:'AMEX:EWJ',    rawIndex:'TVC:NI225',  proxy:'iShares EWJ', name:'日經225',
+    represents:'東證225隻藍籌股，價格加權（代理為MSCI日本市場ETF，覆蓋面較廣）',
     relevance:'日圓/BOJ利率政策 · 半導體設備股情緒' },
-  { code:'KOSPI', tv:'KRX:069500',  rawIndex:'TVC:KOSPI',  proxy:'KODEX200 069500', name:'韓國綜合指數',
-    represents:'韓國交易所全部上市普通股（代理實際追蹤KOSPI200，佔KOSPI市值七成以上，走勢高度相關但非100%一致）',
+  { code:'KOSPI', tv:'AMEX:EWY',    rawIndex:'TVC:KOSPI',  proxy:'iShares EWY', name:'韓國綜合指數',
+    represents:'韓國交易所全部上市普通股（代理為MSCI南韓市場ETF，三星電子佔比重高）',
     relevance:'SK Hynix/三星電子領先指標 · 記憶體晶片情緒（同MU相關）' },
 ];
 
