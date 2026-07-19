@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<!--
+  global-indices.html  v1
+  ═══════════════════════════════════════════════════
+  獨立「全球指數」頁面 — 跨市場科技情緒鏈監視
+  次序：SPX → NDX → DJI → SOX → HSI → XIN9 → NI225 → KOSPI
+  （美股大盤 → 半導體 → 本地/內地 → 日韓記憶體leading indicator）
+
+  設計：跟返 mywatchlist.html 嘅 Flipcharts 頁面做法（TradingView
+  widgetembed iframe + symbol strip + interval selector + 鍵盤 ←/→
+  導航），加多一條頁頂 Ticker Tape 做「一眼睇晒8隻」總覽（同
+  gex_chart_v5_terminal.html 嘅 Macro Strip 做法一致，已驗證穩定）。
+
+  已confirm有效嘅TradingView代碼（2026-07-19查證）：
+    SPX→SP:SPX / NDX→NASDAQ:NDX / DJI→TVC:DJI / SOX→NASDAQ:SOX
+    HSI→TVC:HSI / XIN9→FTSE:XIN9 / NI225→TVC:NI225 / KOSPI→TVC:KOSPI
+  呢類主要指數屬於「顯示用」授權，同VIX/CBOE Global Indices Feed
+  嗰種需要另外加購嘅data feed唔同——用anonymous embed一般都應該見到
+  合理即市數據，唔似VIX咁成日得個紅色感嘆號。
+
+  注意：Ticker Tape/Chart widget 一律anonymous embed，唔會因為你個人
+  TradingView account登入狀態而改變（同你之前查嘅VIX/CBOE account
+  權限問題係同一個道理，呢度都適用）。
+  ═══════════════════════════════════════════════════
+-->
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Indices — 全球指數監視</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0a0c10;--bg2:#0f1218;--bg3:#141820;
+  --border:#1e2430;--border2:#252d3a;
+  --text:#c8d4e8;--muted:#4a5568;
+  --green:#00d4aa;--red:#ff4d6d;--amber:#f5a623;--blue:#4a9eff;--purple:#a78bfa;
+  --font-mono:'JetBrains Mono',monospace;--font-display:'Syne',sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-size:13px;min-height:100vh;}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:linear-gradient(rgba(0,212,170,.012) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(0,212,170,.012) 1px,transparent 1px);
+  background-size:40px 40px;}
+.wrap{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:20px;}
+
+header{display:flex;align-items:flex-end;justify-content:space-between;
+  border-bottom:1px solid var(--border);padding-bottom:16px;margin-bottom:18px;flex-wrap:wrap;gap:12px;}
+.h-left h1{font-family:var(--font-display);font-size:24px;font-weight:800;color:#fff;letter-spacing:-.5px;}
+.h-left .sub{font-size:10px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-top:4px;}
+.h-right{display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+#clock{font-size:16px;color:var(--green);letter-spacing:.05em;}
+.nav-links{display:flex;gap:6px;flex-wrap:wrap;}
+.nav-links a{font-size:10px;color:var(--muted);text-decoration:none;border:1px solid var(--border);
+  border-radius:4px;padding:5px 10px;transition:all .15s;white-space:nowrap;}
+.nav-links a:hover{border-color:var(--blue);color:var(--blue);}
+
+/* Overview ticker */
+.ticker-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;
+  margin-bottom:18px;overflow:visible;min-height:48px;}
+.ticker-label{font-size:8px;color:var(--border2);text-transform:uppercase;letter-spacing:.1em;padding:6px 12px 0;}
+.ticker-wrap .tradingview-widget-container{padding:2px 0 0;}
+
+/* Section eyebrow */
+.eyebrow{display:flex;align-items:center;gap:10px;margin:6px 0 14px;}
+.eyebrow .txt{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;}
+.eyebrow .line{height:1px;background:var(--border);flex:1;}
+
+/* Flip section */
+.flip-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:10px;}
+.flip-title{font-family:var(--font-display);font-size:20px;font-weight:800;color:#fff;}
+.flip-code{color:var(--green);margin-left:8px;}
+.flip-name{font-size:12px;color:var(--muted);margin-top:3px;}
+.flip-nav{display:flex;align-items:center;gap:10px;}
+.flip-arrow{background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--text);
+  font-family:var(--font-mono);font-size:18px;width:38px;height:38px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;transition:all .2s;}
+.flip-arrow:hover{border-color:var(--green);color:var(--green);}
+.flip-counter{font-size:12px;color:var(--muted);min-width:60px;text-align:center;}
+
+.sym-strip{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;}
+.sym-chip{background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:6px 14px;
+  font-size:11.5px;font-weight:600;color:var(--muted);cursor:pointer;transition:all .2s;letter-spacing:.02em;}
+.sym-chip:hover{border-color:var(--green);color:var(--green);}
+.sym-chip.active{background:rgba(0,212,170,.1);border-color:var(--green);color:var(--green);}
+
+.interval-bar{display:flex;gap:6px;margin-bottom:14px;align-items:center;}
+.interval-bar span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-right:4px;}
+.interval-btn{background:var(--bg3);border:1px solid var(--border);border-radius:3px;color:var(--muted);
+  font-family:var(--font-mono);font-size:10px;padding:5px 11px;cursor:pointer;transition:all .2s;}
+.interval-btn:hover{color:var(--text);}
+.interval-btn.active{background:rgba(74,158,255,.12);border-color:var(--blue);color:var(--blue);}
+
+.chart-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;overflow:hidden;
+  height:560px;position:relative;margin-bottom:16px;}
+.chart-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  background:var(--bg2);z-index:10;flex-direction:column;gap:12px;}
+.chart-loading .spin{width:32px;height:32px;border:2px solid var(--border2);border-top-color:var(--green);
+  border-radius:50%;animation:spin .8s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+.chart-loading p{font-size:12px;color:var(--muted);}
+#tv-chart{width:100%;height:100%;border:none;}
+
+.context-card{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:16px 20px;margin-bottom:14px;}
+.ctx-row{display:flex;gap:20px;flex-wrap:wrap;}
+.ctx-item{flex:1;min-width:200px;}
+.ctx-label{font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:5px;}
+.ctx-val{font-size:13px;color:var(--text);line-height:1.5;}
+.ctx-val.hl{color:var(--amber);font-weight:600;}
+
+.kb-hint{font-size:10px;color:var(--muted);text-align:right;margin-bottom:16px;}
+.kb-hint kbd{background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:1px 5px;font-family:var(--font-mono);}
+
+footer{margin-top:12px;display:flex;align-items:center;justify-content:space-between;
+  font-size:10px;color:var(--muted);letter-spacing:.04em;padding-top:14px;border-top:1px solid var(--border);flex-wrap:wrap;gap:8px;}
+
+@media(max-width:900px){.chart-wrap{height:420px;}}
+@media(max-width:600px){.ctx-row{flex-direction:column;gap:12px;}.h-right{width:100%;justify-content:space-between;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="h-left">
+    <h1>GLOBAL INDICES</h1>
+    <div class="sub">跨市場情緒鏈 · SPX → NDX → DJI → SOX → HSI → XIN9 → NI225 → KOSPI</div>
+  </div>
+  <div class="h-right">
+    <div id="clock">--:--:--</div>
+    <div class="nav-links">
+      <a href="index.html">💼 持倉</a>
+      <a href="mywatchlist.html">👁 Watchlist</a>
+      <a href="gex_chart_v5_terminal.html">📊 GEX Terminal</a>
+      <a href="premarket-rates-monitor.html">🏛️ 孳息率</a>
+    </div>
+  </div>
+</header>
+
+<!-- Overview ticker tape：一眼睇晒8隻，次序跟情緒鏈 -->
+<div class="ticker-wrap">
+  <div class="ticker-label">OVERVIEW · TradingView Live</div>
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+      "symbols": [
+        {"proName": "SP:SPX", "title": "SPX 標普500"},
+        {"proName": "NASDAQ:NDX", "title": "NDX 納指100"},
+        {"proName": "TVC:DJI", "title": "DJI 道瓊斯"},
+        {"proName": "NASDAQ:SOX", "title": "SOX 費半"},
+        {"proName": "TVC:HSI", "title": "HSI 恒指"},
+        {"proName": "FTSE:XIN9", "title": "XIN9 A50"},
+        {"proName": "TVC:NI225", "title": "NI225 日經"},
+        {"proName": "TVC:KOSPI", "title": "KOSPI 韓綜指"}
+      ],
+      "showSymbolLogo": false,
+      "isTransparent": true,
+      "displayMode": "compact",
+      "colorTheme": "dark",
+      "locale": "zh_TW"
+    }
+    </script>
+  </div>
+</div>
+
+<div class="eyebrow"><span class="txt">詳細圖表 · Detail Chart</span><div class="line"></div></div>
+
+<div class="flip-header">
+  <div>
+    <div class="flip-title">Flipcharts <span class="flip-code" id="flip-code">SPX</span></div>
+    <div class="flip-name" id="flip-name">標普500</div>
+  </div>
+  <div class="flip-nav">
+    <button class="flip-arrow" id="flip-prev" title="Previous (←)">‹</button>
+    <div class="flip-counter" id="flip-counter">1 / 8</div>
+    <button class="flip-arrow" id="flip-next" title="Next (→)">›</button>
+  </div>
+</div>
+
+<div class="sym-strip" id="sym-strip"></div>
+
+<div class="interval-bar">
+  <span>Interval:</span>
+  <button class="interval-btn" data-tv="1">1m</button>
+  <button class="interval-btn" data-tv="5">5m</button>
+  <button class="interval-btn" data-tv="15">15m</button>
+  <button class="interval-btn" data-tv="60">1H</button>
+  <button class="interval-btn active" data-tv="D">1D</button>
+  <button class="interval-btn" data-tv="W">1W</button>
+  <button class="interval-btn" data-tv="M">1M</button>
+</div>
+
+<div class="chart-wrap">
+  <div class="chart-loading" id="chart-loading">
+    <div class="spin"></div>
+    <p>Loading chart...</p>
+  </div>
+  <iframe id="tv-chart" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+</div>
+
+<div class="context-card">
+  <div class="ctx-row">
+    <div class="ctx-item">
+      <div class="ctx-label">指數代表</div>
+      <div class="ctx-val" id="ctx-represents">—</div>
+    </div>
+    <div class="ctx-item">
+      <div class="ctx-label">同你持倉嘅關聯</div>
+      <div class="ctx-val hl" id="ctx-relevance">—</div>
+    </div>
+    <div class="ctx-item">
+      <div class="ctx-label">TradingView代碼</div>
+      <div class="ctx-val" id="ctx-code">—</div>
+    </div>
+  </div>
+</div>
+
+<div class="kb-hint">
+  Keyboard: <kbd>←</kbd> <kbd>→</kbd> previous / next &nbsp;|&nbsp; <kbd>F</kbd> fullscreen chart
+</div>
+
+<footer>
+  <span>Charts: TradingView（anonymous embed，顯示用指數授權，同你個人account登入無關）</span>
+  <span id="f-ts">—</span>
+</footer>
+
+</div>
+
+<script>
+// 次序 = 跨市場科技情緒鏈：美股大盤 → 半導體 → 港股/內地 → 日韓記憶體leading indicator
+const INDICES = [
+  { code:'SPX',   tv:'SP:SPX',     name:'標普500',
+    represents:'美股500大市值公司，全球風險情緒總覽指標',
+    relevance:'大盤方向 · 影響全部18隻美股持倉' },
+  { code:'NDX',   tv:'NASDAQ:NDX', name:'納指100',
+    represents:'納斯達克100隻最大非金融公司（科技股集中）',
+    relevance:'GOOGL/META/NVDA/AVGO等大型科技股集中度指標' },
+  { code:'DJI',   tv:'TVC:DJI',    name:'道瓊斯工業指數',
+    represents:'30隻傳統藍籌工業股，價格加權',
+    relevance:'週期股/傳統產業情緒，同AI/半導體板塊分歧時值得留意' },
+  { code:'SOX',   tv:'NASDAQ:SOX', name:'費城半導體指數',
+    represents:'美國半導體行業代表性指數',
+    relevance:'直接對應 AVGO/NVDA/MRVL/MU/TER 核心持倉，最高關聯度' },
+  { code:'HSI',   tv:'TVC:HSI',    name:'恒生指數',
+    represents:'香港交易所最大40隻上市公司',
+    relevance:'你嘅本地市場 · 港股Futu帳戶大盤情緒' },
+  { code:'XIN9',  tv:'FTSE:XIN9',  name:'富時中國A50',
+    represents:'滬深兩市最大50隻A股',
+    relevance:'內地政策/刺激措施敏感度高，港股聯動參考' },
+  { code:'NI225', tv:'TVC:NI225',  name:'日經225',
+    represents:'東證225隻藍籌股，價格加權',
+    relevance:'日圓/BOJ利率政策 · 半導體設備股情緒' },
+  { code:'KOSPI', tv:'TVC:KOSPI',  name:'韓國綜合指數',
+    represents:'韓國交易所全部上市普通股',
+    relevance:'SK Hynix/三星電子領先指標 · 記憶體晶片情緒（同MU相關）' },
+];
+
+let idx = 0;
+let interval = 'D';
+
+function updateClock(){
+  const n = new Date();
+  document.getElementById('clock').textContent = n.toLocaleTimeString('en-US',{hour12:false});
+}
+setInterval(updateClock, 1000); updateClock();
+
+function buildSymStrip(){
+  const strip = document.getElementById('sym-strip');
+  strip.innerHTML = '';
+  INDICES.forEach((ix, i) => {
+    const chip = document.createElement('div');
+    chip.className = 'sym-chip' + (i === idx ? ' active' : '');
+    chip.textContent = ix.code;
+    chip.onclick = () => { idx = i; renderFlip(); };
+    chip.id = 'chip-' + ix.code;
+    strip.appendChild(chip);
+  });
+}
+
+function navigateFlip(dir){
+  idx = (idx + dir + INDICES.length) % INDICES.length;
+  renderFlip();
+}
+
+function renderFlip(){
+  const ix = INDICES[idx];
+  document.getElementById('flip-code').textContent = ix.code;
+  document.getElementById('flip-name').textContent = ix.name;
+  document.getElementById('flip-counter').textContent = `${idx + 1} / ${INDICES.length}`;
+  document.querySelectorAll('.sym-chip').forEach((c, i) => c.classList.toggle('active', i === idx));
+  document.getElementById('ctx-represents').textContent = ix.represents;
+  document.getElementById('ctx-relevance').textContent = ix.relevance;
+  document.getElementById('ctx-code').textContent = ix.tv;
+  loadChart();
+}
+
+function loadChart(){
+  const ix = INDICES[idx];
+  const loading = document.getElementById('chart-loading');
+  const iframe = document.getElementById('tv-chart');
+  loading.style.display = 'flex';
+  iframe.style.opacity = '0';
+
+  const tvUrl = `https://s.tradingview.com/widgetembed/?frameElementId=tv-chart`
+    + `&symbol=${encodeURIComponent(ix.tv)}`
+    + `&interval=${interval}`
+    + `&hidesidetoolbar=0`
+    + `&hidetoptoolbar=0`
+    + `&symboledit=1`
+    + `&saveimage=1`
+    + `&toolbarbg=0f1218`
+    + `&studies=MASimple%40tv-basicstudies%1FMACD%40tv-basicstudies`
+    + `&theme=dark`
+    + `&style=1`
+    + `&timezone=Asia%2FHong_Kong`
+    + `&withdateranges=1`
+    + `&showpopupbutton=1`
+    + `&locale=zh_TW`;
+
+  iframe.src = tvUrl;
+  iframe.onload = () => {
+    loading.style.display = 'none';
+    iframe.style.opacity = '1';
+    iframe.style.transition = 'opacity .3s';
+  };
+  setTimeout(() => { loading.style.display = 'none'; iframe.style.opacity = '1'; }, 4000);
+
+  document.getElementById('f-ts').textContent = '更新：' + new Date().toLocaleTimeString('en-US',{hour12:false});
+}
+
+document.getElementById('flip-prev').addEventListener('click', () => navigateFlip(-1));
+document.getElementById('flip-next').addEventListener('click', () => navigateFlip(1));
+document.querySelectorAll('.interval-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.interval-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    interval = btn.dataset.tv;
+    loadChart();
+  });
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowRight'){
+    e.preventDefault();
+    navigateFlip(e.key === 'ArrowLeft' ? -1 : 1);
+  }
+  if (e.key === 'f' || e.key === 'F'){
+    document.getElementById('tv-chart').requestFullscreen && document.getElementById('tv-chart').requestFullscreen();
+  }
+});
+
+buildSymStrip();
+renderFlip();
+</script>
+</body>
+</html>
