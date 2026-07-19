@@ -11,16 +11,34 @@
   導航），加多一條頁頂 Ticker Tape 做「一眼睇晒8隻」總覽（同
   gex_chart_v5_terminal.html 嘅 Macro Strip 做法一致，已驗證穩定）。
 
-  已confirm有效嘅TradingView代碼（2026-07-19查證）：
-    SPX→SP:SPX / NDX→NASDAQ:NDX / DJI→TVC:DJI / SOX→NASDAQ:SOX
-    HSI→TVC:HSI / XIN9→FTSE:XIN9 / NI225→TVC:NI225 / KOSPI→TVC:KOSPI
-  呢類主要指數屬於「顯示用」授權，同VIX/CBOE Global Indices Feed
-  嗰種需要另外加購嘅data feed唔同——用anonymous embed一般都應該見到
-  合理即市數據，唔似VIX咁成日得個紅色感嘆號。
+  v2（2026-07-19）：實測發現v1嘅假設錯咗——SPX/NDX/DJI/SOX/HSI/XIN9/
+    NI225/KOSPI呢8隻cash index，喺Flipcharts大圖（s.tradingview.com/
+    widgetembed，非官方advanced chart iframe endpoint）入面一樣會撞
+    到同VIX/DXY一樣嘅anonymous embed數據授權限制——分別只在於Ticker
+    Tape widget遇到限制係靜靜哋顯示個紅色感嘆號（優雅降級），而
+    widgetembed全功能圖表遇到限制係彈一個「此商品僅在TradingView上
+    可用」嘅硬modal，要click一次先入到去，而且每次轉symbol/重開個
+    iframe都會再彈一次（因為呢個modal嘅「已閱讀」flag存喺TradingView
+    自己個cross-origin iframe度，瀏覽器第三方storage政策令佢記唔到，
+    亦冇辦法用parent page嘅JS去auto-click——cross-origin iframe嘅DOM
+    受Same-Origin Policy保護，postMessage TradingView又冇提供呢個
+    協議，Service Worker rewrite又會撞正opaque response限制，呢條路
+    喺純網頁JS/HTML層面係封死嘅，唔係「未搵到方法」，係瀏覽器安全
+    機制設計上唔畀）。
 
-  注意：Ticker Tape/Chart widget 一律anonymous embed，唔會因為你個人
-  TradingView account登入狀態而改變（同你之前查嘅VIX/CBOE account
-  權限問題係同一個道理，呢度都適用）。
+    修正：跟返VIX(VIXY代理)/DXY(UUP代理)/SOX(SOXX代理)已經用緊嗰個
+    做法，8隻全部換成有真實交易權限、embed唔會被擋嘅ETF/份額代理
+    （Ticker Tape同Flipcharts大圖都同步換，兩邊symbol一致）：
+      SPX→AMEX:SPY / NDX→NASDAQ:QQQ / DJI→AMEX:DIA / SOX→NASDAQ:SOXX
+      HSI→HKEX:2800（盈富基金） / XIN9→HKEX:2822（CSOP A50 ETF）
+      NI225→TSE:1321（Nomura日經225 ETF） / KOSPI→KRX:069500
+      （Samsung KODEX 200 ETF，追蹤KOSPI200，佔KOSPI市值七成以上，
+      走勢高度相關但唔係100%一樣）
+    Trade-off：圖表顯示嘅係ETF/份額價（例如SPY$6xx），唔係原指數
+    點數（例如SPX 6xxx點）——絕對數值scale唔同，但%走勢高度貼近，
+    同VIX→VIXY嗰個trade-off一致。顯示名稱（SPX/NDX/...）維持不變，
+    只換底層symbol，並喺flip-name/context card加返「(代理)」標示，
+    保持透明。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
@@ -146,14 +164,14 @@ footer{margin-top:12px;display:flex;align-items:center;justify-content:space-bet
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
     {
       "symbols": [
-        {"proName": "SP:SPX", "title": "SPX 標普500"},
-        {"proName": "NASDAQ:NDX", "title": "NDX 納指100"},
-        {"proName": "TVC:DJI", "title": "DJI 道瓊斯"},
-        {"proName": "NASDAQ:SOX", "title": "SOX 費半"},
-        {"proName": "TVC:HSI", "title": "HSI 恒指"},
-        {"proName": "FTSE:XIN9", "title": "XIN9 A50"},
-        {"proName": "TVC:NI225", "title": "NI225 日經"},
-        {"proName": "TVC:KOSPI", "title": "KOSPI 韓綜指"}
+        {"proName": "AMEX:SPY", "title": "SPX(SPY代理) 標普500"},
+        {"proName": "NASDAQ:QQQ", "title": "NDX(QQQ代理) 納指100"},
+        {"proName": "AMEX:DIA", "title": "DJI(DIA代理) 道瓊斯"},
+        {"proName": "NASDAQ:SOXX", "title": "SOX(SOXX代理) 費半"},
+        {"proName": "HKEX:2800", "title": "HSI(2800代理) 恒指"},
+        {"proName": "HKEX:2822", "title": "XIN9(2822代理) A50"},
+        {"proName": "TSE:1321", "title": "NI225(1321代理) 日經"},
+        {"proName": "KRX:069500", "title": "KOSPI(069500代理) 韓綜指"}
       ],
       "showSymbolLogo": false,
       "isTransparent": true,
@@ -170,7 +188,7 @@ footer{margin-top:12px;display:flex;align-items:center;justify-content:space-bet
 <div class="flip-header">
   <div>
     <div class="flip-title">Flipcharts <span class="flip-code" id="flip-code">SPX</span></div>
-    <div class="flip-name" id="flip-name">標普500</div>
+    <div class="flip-name" id="flip-name">標普500 <span id="flip-proxy-tag" style="color:var(--muted);font-size:10.5px"></span></div>
   </div>
   <div class="flip-nav">
     <button class="flip-arrow" id="flip-prev" title="Previous (←)">‹</button>
@@ -222,7 +240,7 @@ footer{margin-top:12px;display:flex;align-items:center;justify-content:space-bet
 </div>
 
 <footer>
-  <span>Charts: TradingView（anonymous embed，顯示用指數授權，同你個人account登入無關）</span>
+  <span>Charts: TradingView（8隻cash index全部用ETF/份額代理symbol，避開anonymous embed彈窗限制——同VIX/DXY/SOX macro strip做法一致）</span>
   <span id="f-ts">—</span>
 </footer>
 
@@ -230,30 +248,34 @@ footer{margin-top:12px;display:flex;align-items:center;justify-content:space-bet
 
 <script>
 // 次序 = 跨市場科技情緒鏈：美股大盤 → 半導體 → 港股/內地 → 日韓記憶體leading indicator
+// tv欄位一律用ETF/份額代理（v2修正，見頁首changelog）——原始cash
+// index代碼（SP:SPX/TVC:HSI等）留喺 rawIndex 純粹做記錄/之後對照用，
+// 圖表同Ticker Tape實際查詢一律用 tv 呢個代理代碼，避開widgetembed
+// 彈窗。code/name（顯示用）保持原指數名稱不變。
 const INDICES = [
-  { code:'SPX',   tv:'SP:SPX',     name:'標普500',
+  { code:'SPX',   tv:'AMEX:SPY',    rawIndex:'SP:SPX',     proxy:'SPY ETF',      name:'標普500',
     represents:'美股500大市值公司，全球風險情緒總覽指標',
     relevance:'大盤方向 · 影響全部18隻美股持倉' },
-  { code:'NDX',   tv:'NASDAQ:NDX', name:'納指100',
+  { code:'NDX',   tv:'NASDAQ:QQQ',  rawIndex:'NASDAQ:NDX', proxy:'QQQ ETF',      name:'納指100',
     represents:'納斯達克100隻最大非金融公司（科技股集中）',
     relevance:'GOOGL/META/NVDA/AVGO等大型科技股集中度指標' },
-  { code:'DJI',   tv:'TVC:DJI',    name:'道瓊斯工業指數',
+  { code:'DJI',   tv:'AMEX:DIA',    rawIndex:'TVC:DJI',    proxy:'DIA ETF',      name:'道瓊斯工業指數',
     represents:'30隻傳統藍籌工業股，價格加權',
     relevance:'週期股/傳統產業情緒，同AI/半導體板塊分歧時值得留意' },
-  { code:'SOX',   tv:'NASDAQ:SOX', name:'費城半導體指數',
+  { code:'SOX',   tv:'NASDAQ:SOXX', rawIndex:'NASDAQ:SOX', proxy:'SOXX ETF',     name:'費城半導體指數',
     represents:'美國半導體行業代表性指數',
     relevance:'直接對應 AVGO/NVDA/MRVL/MU/TER 核心持倉，最高關聯度' },
-  { code:'HSI',   tv:'TVC:HSI',    name:'恒生指數',
+  { code:'HSI',   tv:'HKEX:2800',   rawIndex:'TVC:HSI',    proxy:'盈富基金2800', name:'恒生指數',
     represents:'香港交易所最大40隻上市公司',
     relevance:'你嘅本地市場 · 港股Futu帳戶大盤情緒' },
-  { code:'XIN9',  tv:'FTSE:XIN9',  name:'富時中國A50',
+  { code:'XIN9',  tv:'HKEX:2822',   rawIndex:'FTSE:XIN9',  proxy:'CSOP A50 2822',name:'富時中國A50',
     represents:'滬深兩市最大50隻A股',
     relevance:'內地政策/刺激措施敏感度高，港股聯動參考' },
-  { code:'NI225', tv:'TVC:NI225',  name:'日經225',
+  { code:'NI225', tv:'TSE:1321',    rawIndex:'TVC:NI225',  proxy:'Nomura ETF 1321', name:'日經225',
     represents:'東證225隻藍籌股，價格加權',
     relevance:'日圓/BOJ利率政策 · 半導體設備股情緒' },
-  { code:'KOSPI', tv:'TVC:KOSPI',  name:'韓國綜合指數',
-    represents:'韓國交易所全部上市普通股',
+  { code:'KOSPI', tv:'KRX:069500',  rawIndex:'TVC:KOSPI',  proxy:'KODEX200 069500', name:'韓國綜合指數',
+    represents:'韓國交易所全部上市普通股（代理實際追蹤KOSPI200，佔KOSPI市值七成以上，走勢高度相關但非100%一致）',
     relevance:'SK Hynix/三星電子領先指標 · 記憶體晶片情緒（同MU相關）' },
 ];
 
@@ -287,12 +309,17 @@ function navigateFlip(dir){
 function renderFlip(){
   const ix = INDICES[idx];
   document.getElementById('flip-code').textContent = ix.code;
-  document.getElementById('flip-name').textContent = ix.name;
+  // flip-name同proxy tag要分開set（唔可以用textContent覆蓋成個div，
+  // 會連埋裡面嗰個<span id="flip-proxy-tag">一齊冚走）
+  document.getElementById('flip-name').firstChild.textContent = ix.name + ' ';
+  document.getElementById('flip-proxy-tag').textContent = ix.proxy ? `（${ix.proxy}代理）` : '';
   document.getElementById('flip-counter').textContent = `${idx + 1} / ${INDICES.length}`;
   document.querySelectorAll('.sym-chip').forEach((c, i) => c.classList.toggle('active', i === idx));
   document.getElementById('ctx-represents').textContent = ix.represents;
   document.getElementById('ctx-relevance').textContent = ix.relevance;
-  document.getElementById('ctx-code').textContent = ix.tv;
+  document.getElementById('ctx-code').textContent = ix.proxy
+    ? `${ix.tv}　(原指數 ${ix.rawIndex}，因embed授權限制改用代理)`
+    : ix.tv;
   loadChart();
 }
 
