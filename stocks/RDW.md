@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-07-23 15:11 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -59,4 +59,4 @@ Redwire Q1 2026 saw revenue jump 58% and margins improve, but dilution, weak org
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:11 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
