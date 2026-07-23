@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-07-23 15:10 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne passes Louis Navellier's eight-rule growth stock screen with strong ear
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:10 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
