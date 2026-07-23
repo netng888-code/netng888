@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-07-23 15:11 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -55,4 +55,4 @@ Uranium stocks have plunged nearly 19% in a month, revealing a sharp divide betw
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:11 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
