@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -10,9 +10,9 @@
 |------|------|
 | 現價 | **$212.06** |
 | 今日變動 | ▲ $4.77　(+2.30%) |
-| 持倉數量 | 15 股 |
-| 平均成本 | $148.500 |
-| 未實現盈虧 | ▲ $953　(▲42.8%) |
+| 持倉數量 | 10 股 |
+| 平均成本 | $160.125 |
+| 未實現盈虧 | ▲ $519　(▲32.4%) |
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $197.59 | — |
-| Put Wall（支撐） | $200.00 | 距離 5.7% |
-| Call Wall（阻力） | $210.00 | 已突破 ▲1.0% |
+| Put Wall（支撐） | $200.00 | -5.7% |
+| Call Wall（阻力） | $210.00 | +-1.0% |
 
-**狀態：✅ 正Gamma區 🚀 已突破Call牆（+1.0%）**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Reo.Dev Bags $11.3M Series A to Scale Across the US](https://finnhub.io/api/news?id=47f550d647ecd15f6bda2b6c629bf380b5e86030e49dbcdb3470270f93ba2b21)**  
+- **[Nvidia, Teradyne, and Omnicell Earnings Set to Test Robotics Sector’s Divergent Momentum](https://finnhub.io/api/news?id=2b1032d976c31af0d2a5d4d93fce6eec95c93438ccc54b27cf075e7ff1ef4770)**  
+*ChartMill · 0h前*  
+Robotics and automation stocks enter a high-conviction earnings week with key reports from NVIDIA, Teradyne, and Omnicell. These results will test sector moment…
+
+- **[Is Apple Stock a Buy Right Now?](https://finnhub.io/api/news?id=2f9c06763abb5a83a5d6862b348f9fe26b294f9302999e6e0b377d783f4ebea0)**  
 *Yahoo · 1h前*  
-NEW YORK CITY, NY / ACCESS Newswire / July 23, 2026 / Just eight months after announcing its Seed round, Reo.Dev, the AI-native GTM platform built for companies…
+Shares in the dominant consumer tech enterprise have soared 22% so far in 2026.
 
-- **[The 2 Best Dividend Stocks to Buy Now and Hold Forever](https://finnhub.io/api/news?id=14015521fcf3e6e888857b90e4e28b9e4b9a05bd5f8b3521c94b8aea70d67ea3)**  
-*Yahoo · 2h前*  
-These top beverage brands can potentially pay you dividends for life.
-
-- **[Mega IPOs Like SpaceX Reshape Major Index Funds and ETFs](https://finnhub.io/api/news?id=5f426cdfd38de58a713fcc10a8ebdb18e37e8c418fb68caffb805f7c9a5d179d)**  
-*Yahoo · 2h前*  
-An IPO doesn't just move the value of the new stock. Here's how the SpaceX IPO has impacted millions of passive investors.
+- **[You Can Do Better Than Coca-Cola Stock. Buy This High-Yield Dividend Stock Instead.](https://finnhub.io/api/news?id=847304715b842f53df679e2abc6bf76f38df839053e929114edd054b97b20fe0)**  
+*Yahoo · 1h前*  
+Investors can receive monthly dividends and nearly twice the yield at a far lower valuation.
 
 ---
 
@@ -59,4 +59,4 @@ An IPO doesn't just move the value of the new stock. Here's how the SpaceX IPO h
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
