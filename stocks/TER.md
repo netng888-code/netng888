@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,8 +21,8 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $345.84 | — |
-| Put Wall（支撐） | $300.00 | 距離 18.8% |
-| Call Wall（阻力） | $380.00 | 距離 2.9% |
+| Put Wall（支撐） | $300.00 | -18.8% |
+| Call Wall（阻力） | $380.00 | +2.9% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Nvidia, Teradyne, and Omnicell Earnings Set to Test Robotics Sector’s Divergent Momentum](https://finnhub.io/api/news?id=2b1032d976c31af0d2a5d4d93fce6eec95c93438ccc54b27cf075e7ff1ef4770)**  
+*ChartMill · 0h前*  
+Robotics and automation stocks enter a high-conviction earnings week with key reports from NVIDIA, Teradyne, and Omnicell. These results will test sector moment…
+
 - **[Here's Why Teradyne (TER) Fell More Than Broader Market](https://finnhub.io/api/news?id=844c408b0e473c41fd270f9fc236017005448c07394c8ff7ae9bfa326aede383)**  
-*Yahoo · 9h前*  
+*Yahoo · 15h前*  
 The latest trading day saw Teradyne (TER) settling at $369.46, representing a -1.22% change from its previous close.
 
 - **[Discover the top S&P500 movers in Wednesday's pre-market session.](https://finnhub.io/api/news?id=b56f95459ee77da7bc20527d86956b54b88137f87adea93c30eb3ded9c189498)**  
-*ChartMill · 18h前*  
+*ChartMill · 1d前*  
 Before the US market kicks off on Wednesday, let's examine the pre-market session and unveil the notable performers among the S&P500 top gainers and losers.
-
-- **[Teradyne (NASDAQ:TER): A High Growth Stock Passing the Little Book That Makes You Rich Screen](https://finnhub.io/api/news?id=f05e8e6acb628901258a59bb2ccfbd820f0f975eaff8155a969e789b0577d5c9)**  
-*ChartMill · 19h前*  
-Teradyne passes Louis Navellier's eight-rule growth stock screen with strong earnings surprises, sales growth of 30.3%, and 67% EPS growth. Discover a disciplin…
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne passes Louis Navellier's eight-rule growth stock screen with strong ear
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
