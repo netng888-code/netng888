@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-07-23 15:10 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[BlackRock Leads $12B Meta Data Center Debt, Buys Aligned](https://finnhub.io/api/news?id=edfb93553c9dc290d9c44da0341f51c1d12b706dc699cc8f6c5645ed70eaa02e)**  
-*Yahoo · 2h前*  
+*Yahoo · 3h前*  
 BlackRock cements its role in the AI data center sector, financing Meta’s $12B Texas project and closing a $40B Aligned acquisition.
 
 - **[Jim Cramer reveals 4 surging chip stocks he likes best](https://finnhub.io/api/news?id=20b784be1d53c1dd4982a9f211def2334cd041f655ca0ed39e188d452d53f394)**  
@@ -59,4 +59,4 @@ Alphabet's latest report makes it a no-brainer.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:10 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
