@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-06-21 22:33 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$2.16** |
-| 今日變動 | ▲ $0.08　(+3.85%) |
+| 現價 | **$1.68** |
+| 今日變動 | ▲ $0.03　(+1.82%) |
 | 持倉數量 | 300 股 |
 | 平均成本 | $2.445 |
-| 未實現盈虧 | ▼ $85　(▼11.7%) |
+| 未實現盈虧 | ▼ $229　(▼31.3%) |
 
 ---
 
@@ -20,17 +20,19 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $2.18 | — |
-| Put Wall（支撐） | $3.00 | --38.9% |
-| Call Wall（阻力） | $3.00 | +38.9% |
+| Gamma Flip | $1.56 | — |
+| Put Wall（支撐） | $3.00 | --78.6% |
+| Call Wall（阻力） | $3.00 | +78.6% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[Why Richtech Robotics Stock Dived by Nearly 35% in the First Half of 2026](https://finnhub.io/api/news?id=c81831272d44b02be305cb7b6f0608e35f964ca0c1f766c6cf5d9e9b0db1c6d8)**  
+*Yahoo · 1d前*  
+What the company reported, and what actually occurred, seemed to be different things at certain points.
 
 ---
 
@@ -38,7 +40,7 @@
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $2.16 | — | 自動更新 |
+| 2026-07-23 | 監控 | $1.68 | — | 自動更新 |
 
 ---
 
@@ -49,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 github_gex_updater.py 自動生成　2026-06-21 22:33 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
