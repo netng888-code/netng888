@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-06-23 16:17 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:10 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$349.68** |
-| 今日變動 | ▼ $18.35　(-4.99%) |
+| 現價 | **$342.09** |
+| 今日變動 | ▼ $5.06　(-1.46%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,055　(▲96.0%) |
+| 未實現盈虧 | ▲ $1,964　(▲91.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $355.28 | — |
-| Put Wall（支撐） | $350.00 | 已跌穿 ▼0.1% |
-| Call Wall（阻力） | $400.00 | 距離 14.4% |
+| Gamma Flip | $338.27 | — |
+| Put Wall（支撐） | $320.00 | 距離 6.5% |
+| Call Wall（阻力） | $350.00 | 距離 2.3% |
 
-**狀態：⚠️ 負Gamma區 💥 已跌穿Put牆（-0.1%）**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Google and Energy Dome Advance Multi-Continent Energy Storage Buildout with First Bilateral Project in Ireland](https://finnhub.io/api/news?id=17efbf5fc3586fde1b6ec891edd9199c906852377a3a0c021f2036302f6c90e2)**  
+- **[ITC Infotech and Google Cloud Join Hands to Scale Enterprise Agentic Transformation and AI Innovation](https://finnhub.io/api/news?id=23eef265a08e926c56cee1a4c410c6a6a1bb9eb439b1e2b93aa38bf9e89ecd1d)**  
 *Yahoo · 1h前*  
-DUBLIN & MILAN, June 23, 2026--Today Energy Dome, a leading long-duration energy storage technology developer, and Google announced their first bilateral commer…
+BANGALORE, India & SUNNYVALE, Calif., July 23, 2026--ITC Infotech announced a strategic partnership with Google Cloud to propel its internal transformation to a…
 
-- **[Jim Cramer Wonders How Many Times Alphabet (GOOG) Has Announced NVIDIA Chip Competitors](https://finnhub.io/api/news?id=8ed1f6b24d7865981c33f573c3bab98cc1943128181f1f5c4a89f0efb92a9446)**  
-*Yahoo · 1h前*  
-We recently published Jim Cramer Discussed Expensive Phones, A Cheap Stock Sector & These 18 Stocks. Alphabet Inc. (NASDAQ:GOOG) is one of the stocks discussed …
+- **[Alphabet Inc (GOOG) Q2 2026 Earnings Call Highlights: Record Revenue Growth and AI Innovations ...](https://finnhub.io/api/news?id=4446bbe9220379686510ae58bfa5cbb7102aa191c61cffe5207748f7935ecf7f)**  
+*Yahoo · 2h前*  
+Alphabet Inc (GOOG) reports a 24% revenue surge, driven by robust cloud growth and new AI model launches, despite challenges in free cash flow and operating exp…
 
-- **[GoDaddy, Bandwidth, and GitLab Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=7ef97267d53c2896e7dceb8f006d9cea71f4aef78aeed90e16c925dd111b77f3)**  
-*Yahoo · 5h前*  
-A number of stocks fell in the afternoon session after a confluence of high-profile AI talent departures from Alphabet, and a regulatory overhang pulled the ent…
+- **[COHR, AAOI, LITE, POET: Photonic Stocks Join Google Capex-Fueled AI Rally](https://finnhub.io/api/news?id=41b53588166b901710b6bb13042e4d5094ccab7550b4b1b943c82c86b5af268d)**  
+*Yahoo · 3h前*  
+Investor interest in all four has surged as hyperscalers ramp AI infrastructure spending.
 
 ---
 
@@ -48,7 +48,7 @@ A number of stocks fell in the afternoon session after a confluence of high-prof
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-23 | 監控 | $349.68 | — | 自動更新 |
+| 2026-07-23 | 監控 | $342.09 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks fell in the afternoon session after a confluence of high-prof
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-23 16:17 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:10 HKT*
