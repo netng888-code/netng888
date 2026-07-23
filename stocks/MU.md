@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-07-23 15:10 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:25 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,7 +35,7 @@
 I have covered each of the following four stocks separately over the past few weeks:Micron's historic earnings. Intel's painful turnaround. AMD's server CPU adv…
 
 - **[MU, SNDK, SKHY Stocks Jump: Google's AI Hunger, Elon Musk's Micron Shoutout Send Memory Bulls Charging](https://finnhub.io/api/news?id=a98e9459a6f5b449591d3c834b7c72aff657f0babc99cc984f65d26a1a4fe40c)**  
-*Yahoo · 4h前*  
+*Yahoo · 5h前*  
 The robust pace of Alphabet’s spending is a positive signal for its vendors and partners, particularly chipmakers.
 
 - **[The Ultimate Bull Run for NVIDIA, Micron, and SanDisk May Be Closer Than Investors Think](https://finnhub.io/api/news?id=ba97f512051bcb3ff34f5b053034254bf48537ab59106dd3a8836af4d4cb86cb)**  
@@ -59,4 +59,4 @@ A top tech investor just flipped the scariest AI narrative on its head, arguing 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:10 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:25 HKT*
