@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-06-21 22:33 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$406.82** |
-| 今日變動 | ▲ $4.64　(+1.15%) |
+| 現價 | **$340.69** |
+| 今日變動 | ▼ $9.37　(-2.68%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $93　(▼10.2%) |
+| 未實現盈虧 | ▼ $225　(▼24.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $428.81 | — |
-| Put Wall（支撐） | $390.00 | -4.1% |
-| Call Wall（阻力） | $450.00 | +10.6% |
+| Gamma Flip | $391.48 | — |
+| Put Wall（支撐） | $350.00 | --2.7% |
+| Call Wall（阻力） | $350.00 | +2.7% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical (ISRG) Promotes Taylor Patton to Chief Commercial and Marketing Officer](https://finnhub.io/api/news?id=8c448004934b39372549cf4b83cd2632d7239bdb353d6f6f5b5552384ee5ee5d)**  
-*Yahoo · 1d前*  
-Intuitive Surgical Inc. (NASDAQ:ISRG) is one of the best NASDAQ stocks with high upside potential. On May 28, Intuitive announced the promotion of Taylor Patton…
+- **[Why Did PEGA, ISRG, MCD Stocks Plunge To 52-Week Lows Today?](https://finnhub.io/api/news?id=047e681965bfd08426680193b957bca32d3e9102ba561524161f9a1d4deeb9b0)**  
+*Yahoo · 9h前*  
+Investors reacted to enterprise spending delays, healthcare competition, and weakening consumer demand.
 
-- **[1 S&P 500 Stock to Keep an Eye On and 2 That Underwhelm](https://finnhub.io/api/news?id=de9753e50643d272dc6467da3d45c751bd96495688c2e40baabb599b0bed4dac)**  
-*Yahoo · 1d前*  
-The S&P 500 (^GSPC) is home to the biggest and most well-known companies in the market, making it a go-to index for investors seeking stability. But not all lar…
+- **[Top Stock Reports for Qualcomm, Intuitive Surgical & Stryker](https://finnhub.io/api/news?id=f12b46768222b60cc0e5cc0ad5a8a82c6ef823fd74cb0af6ee75633f8d102550)**  
+*Yahoo · 16h前*  
+QUALCOMM is expanding beyond smartphones with growth in automotive, edge AI and data centers, but competition and weak China demand remain key challenges.
 
-- **[Is PROCEPT BioRobotics Corporation (PRCT) A Good Stock To Buy Now?](https://finnhub.io/api/news?id=89bc2e17dd5f3bb118b01bc25a17724347cd953a11b0faeb20c32794acd9c17d)**  
-*Yahoo · 1d前*  
-Is PRCT a good stock to buy? We came across a bullish thesis on PROCEPT BioRobotics Corporation on r/ValueInvesting by mrmrmrj. In this article, we will summari…
+- **[Why Johnson & Johnson Is Sending Intuitive Surgical (ISRG) Stock Down Today](https://finnhub.io/api/news?id=81fd8a8980d831085dda3c60ed3a64b3c1537b74a859dad13bb7fc26bc5d0a01)**  
+*Yahoo · 16h前*  
+Intuitive Surgical stock sinks as FDA announces marketing authorization for Johnson & Johnson’s Ottava platform. Here’s why the news is largely bearish for ISRG…
 
 ---
 
@@ -48,7 +48,7 @@ Is PRCT a good stock to buy? We came across a bullish thesis on PROCEPT BioRobot
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $406.82 | — | 自動更新 |
+| 2026-07-23 | 監控 | $340.69 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Is PRCT a good stock to buy? We came across a bullish thesis on PROCEPT BioRobot
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 github_gex_updater.py 自動生成　2026-06-21 22:33 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
