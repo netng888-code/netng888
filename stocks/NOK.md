@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-07-23 15:11 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -51,4 +51,4 @@ Nokia Oyj shares rose 4.15% after hours following a 5.46% gain in regular tradin
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:11 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
