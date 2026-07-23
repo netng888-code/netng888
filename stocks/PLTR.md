@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-06-21 22:33 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$128.50** |
-| 今日變動 | ▼ $2.13　(-1.63%) |
+| 現價 | **$124.57** |
+| 今日變動 | ▼ $8.09　(-6.10%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $29　(▲3.3%) |
+| 未實現盈虧 | ▲ $2　(▲0.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $135.54 | — |
-| Put Wall（支撐） | $130.00 | --1.2% |
-| Call Wall（阻力） | $150.00 | +16.7% |
+| Gamma Flip | $127.39 | — |
+| Put Wall（支撐） | $130.00 | --4.4% |
+| Call Wall（阻力） | $130.00 | +4.4% |
 
 **狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Is It Too Late to Buy Palantir Stock? Here Is What Its Valuation Says About Its Future.](https://finnhub.io/api/news?id=c1e7d656e96b6622480bf26b863cf9f1b1d736e8880a7df8a1265af2edae14f2)**  
-*Yahoo · 6h前*  
-Palantir has a ton of success already priced into the stock.
+- **[Michael Burry's $39 a month Substack hits 300,000 subscribers, fueling speculation of a $113M-a-year newsletter empire](https://finnhub.io/api/news?id=4aaa6b8866c1a29d9c765bbb7ea13be88f33bf90bbba411be9e2303f06b6c033)**  
+*Yahoo · 2h前*  
+Could the investing legend be netting hundreds of millions from a newsletter? If not, he’s still making a steady income.
 
-- **[Here’s why Palantir Technologies Inc. (PLTR) is Still One of the Best Falling Stocks to Invest In](https://finnhub.io/api/news?id=e1cc67f2f1b836e7426e2531025343286406eb009ed9b9c6afb0e86740bbb839)**  
-*Yahoo · 1d前*  
-Palantir Technologies Inc. (NASDAQ:PLTR) is one of the best falling stocks to invest in, according to analysts. On June 16, UBS reiterated its Buy rating on Pal…
+- **[ServiceNow Stock Jumps After Earnings but AI Disruption Concerns Linger](https://finnhub.io/api/news?id=33bd401176c2a15c0a97bc1e22b31adc1452009adca8a1aaeb65a875333e08e7)**  
+*Yahoo · 3h前*  
+Artificial intelligence threatens to hurt many kinds of enterprise software, especially those like ServiceNow that bill by the user.
 
-- **[MarketBeat Week in Review – 06/15 - 06/19](https://finnhub.io/api/news?id=994d2ab97e299ecc9a2449365007f64b9a2a66b2adaa9dbad701b13651189694)**  
-*Yahoo · 1d前*  
-Markets closed a shortened week higher as lower oil prices and a rally in chip stocks outweighed concerns about future Fed policy.
+- **[Micron and Sandisk Are Surging: Can the Rally Last Through 2027?](https://finnhub.io/api/news?id=2821a83b17bd81f0ea7a6a41c9baaf18e5da9267585119a48dff1c93daf3f6fb)**  
+*Yahoo · 4h前*  
+Both memory makers have seen their stocks melt up this year due to the artificial intelligence boom.
 
 ---
 
@@ -48,7 +48,7 @@ Markets closed a shortened week higher as lower oil prices and a rally in chip s
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $128.50 | — | 自動更新 |
+| 2026-07-23 | 監控 | $124.57 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Markets closed a shortened week higher as lower oil prices and a rally in chip s
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 github_gex_updater.py 自動生成　2026-06-21 22:33 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
