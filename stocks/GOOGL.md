@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-07-23 15:10 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:25 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -59,4 +59,4 @@ Investor interest in all four has surged as hyperscalers ramp AI infrastructure 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:10 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:25 HKT*
