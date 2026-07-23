@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-06-21 22:33 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$107.27** |
-| 今日變動 | ▼ $0.71　(-0.66%) |
+| 現價 | **$69.75** |
+| 今日變動 | ▲ $0.63　(+0.91%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▲ $313　(▲41.1%) |
+| 未實現盈虧 | ▼ $62　(▼8.2%) |
 
 ---
 
@@ -20,22 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $99.34 | — |
-| Put Wall（支撐） | $100.00 | -6.8% |
-| Call Wall（阻力） | $120.00 | +11.9% |
+| Gamma Flip | $67.13 | — |
+| Put Wall（支撐） | $65.00 | -6.8% |
+| Call Wall（阻力） | $70.00 | +0.4% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Just Got A Step Closer To Mars: Here's Why](https://finnhub.io/api/news?id=1f22b2b6634f944b9ff16b32244bf56e2a1860ea3fe6a1dc8e936194683761eb)**  
-*SeekingAlpha · 2d前*  
-Rocket Lab Corporation is executing on a strategy to become a fully integrated space company, moving beyond launch services. Click here to read more about the R…
+- **[Rocket Lab (RKLB) Could Be 18% Undervalued Following Its $266 Million Government Launch Deal](https://finnhub.io/api/news?id=6b84586a9de9daba88c63aff6edf471df42e07d432c40ae18f1ca50403425dcc)**  
+*Yahoo · 12h前*  
+Rocket Lab (RKLB) is back in focus after securing a multi year U.S. government contract worth $266 million for 12 suborbital launches, with options for six more…
 
-- **[3 Space Stocks to Buy Now That SpaceX Is Off the Table](https://finnhub.io/api/news?id=1fab3b5771dac8d29d4cbb9afc8e5c54d510a1b009a55fb1fb3be678f9ad9112)**  
-*Benzinga · 2d前*
+- **[Stock Market Today, July 22: Nasdaq Slides Prior to Tesla and Alphabet's Earnings After Market Close](https://finnhub.io/api/news?id=39152dc8d232ac34eb9e654fbd56fe6918d338d5fd822a4b7d592821ebea04cb)**  
+*Yahoo · 14h前*  
+The Nasdaq slowly sold off throughout the day as the market awaited new information from Alphabet and Tesla after hours, today, July 22, 2026.
+
+- **[Rocket Lab Announces Date of Second Quarter 2026 Financial Results](https://finnhub.io/api/news?id=459b8b4b186943f043df1e76c3b6374de0acfd3710592493294ed4b118df819b)**  
+*Yahoo · 15h前*  
+LONG BEACH, Calif., July 22, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in launch services and space systems, today announc…
 
 ---
 
@@ -43,7 +48,7 @@ Rocket Lab Corporation is executing on a strategy to become a fully integrated s
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-21 | 監控 | $107.27 | — | 自動更新 |
+| 2026-07-23 | 監控 | $69.75 | — | 自動更新 |
 
 ---
 
@@ -54,4 +59,4 @@ Rocket Lab Corporation is executing on a strategy to become a fully integrated s
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 github_gex_updater.py 自動生成　2026-06-21 22:33 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
