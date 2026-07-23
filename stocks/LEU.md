@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,8 +21,8 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $169.12 | — |
-| Put Wall（支撐） | $150.00 | 距離 13.9% |
-| Call Wall（阻力） | $200.00 | 距離 14.8% |
+| Put Wall（支撐） | $150.00 | -13.9% |
+| Call Wall（阻力） | $200.00 | +14.8% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[The Consortium Fueling The Nuclear Renaissance](https://finnhub.io/api/news?id=34f65c5387db052dd8f6ed187f79b9ec72406539c057cae3255fc3688e8b554c)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 DOE approved the Nuclear Fuel Cycle Consortium Voluntary Agreement. Major participants in the consortium include Solstice Advanced Materials, Mirion Technologie…
 
 - **[Uranium Sector’s 19% Sell-Off Masks a Growing Divide Between Profitable Operators and Cash-Burning Developers](https://finnhub.io/api/news?id=59cab23324dfb17a0ad0ca7872cf4fc41e202643a985a7dfecffcb70cf550a4f)**  
-*ChartMill · 2d前*  
+*ChartMill · 3d前*  
 Uranium stocks have plunged nearly 19% in a month, revealing a sharp divide between profitable producers like Cameco and pre-revenue developers like NexGen, off…
 
 ---
@@ -55,4 +55,4 @@ Uranium stocks have plunged nearly 19% in a month, revealing a sharp divide betw
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
