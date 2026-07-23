@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-07-23 15:10 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Did AI-Euphoria and Volatile Options Pricing Just Shift Marvell Technology's (MRVL) Investment Narrative?](https://finnhub.io/api/news?id=aa6c218c4e80f3985efa747cb1d68157a8e997a761f90959d7140820c4d94044)**  
-*Yahoo · 6h前*  
+*Yahoo · 7h前*  
 In recent months, Marvell Technology has been at the center of renewed AI-chip enthusiasm, buoyed by sector-wide optimism, accelerating AI-related bookings, and…
 
 - **[Marvell Technology (MRVL) Gains As Market Dips: What You Should Know](https://finnhub.io/api/news?id=17a3ecf9c726f2126145833dc944e9be98471bcd310d8e5cf8a1def433ed9ca5)**  
@@ -59,4 +59,4 @@ ALAB rides on strong Taurus demand as AI infrastructure spending fuels growth, e
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:10 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
