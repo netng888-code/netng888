@@ -1,0 +1,1853 @@
+"""
+telegram_bot.py  ── GEX 持倉監控 Telegram Bot  v1.5
+═══════════════════════════════════════════════════
+v1.0: 基礎版本（Futu Bridge T1主 + Finnhub fallback + GEX警報）
+v1.1: 【重要bugfix】修正兩個令GEX警報／/report／/pnl 一直用緊
+      Finnhub舊價、Futu即時數據形同虛設嘅問題：
+      (1) 全檔案完全冇 `import time`，但 get_gex_live/set_gex_live/
+          fetch_live_quote_futu/fetch_all_quotes_futu 四個function
+          內部都用咗 time.time()——每次call都拋NameError，
+          被外層 except Exception 靜默吞咗，結果：
+            - fetch_all_quotes_futu() 永遠返回 {}　→ futu_ok恆為False
+            - fetch_live_quote_futu() 永遠返回 None　→ 逐隻fallback去Finnhub
+            - set_gex_live() 永遠寫入失敗　→ _gex_live_cache恆空
+            - 三者加埋 = 現價/GEX牆100%淨係用緊Finnhub + .md舊快照，
+              Futu Bridge即使正常運行都完全冇被用到
+          修正：加返 `import time`
+      (2) fetch_live_quote_futu/fetch_all_quotes_futu 舊版一律讀
+          rec['last_price']，唔理會現時處於邊個時段——但Futu嘅
+          last_price只喺盤中會即時更新，盤前/盤後/夜盤時段佢會停
+          留喺上個regular session嘅收盤價，導致「盤前/盤後/夜盤
+          GEX警報」實際上一直用緊舊價計距離，形同虛設。
+          修正：新增 detect_et_session() + _select_t1_price()，
+          跟返 gex_chart_v4_terminal.html 嘅 getT1() 同一套
+          session→欄位映射（pre_price/last_price/after_price/
+          overnight_price），兩邊如要再改記得同步。
+      (3) market_session_label() 舊版時區寫死 UTC-4（EDT），
+          冬令時（EST=UTC-5，約11月至3月）會錯一小時；改用
+          detect_et_session()（背後用zoneinfo，自動處理DST）。
+      版本號記錄喺 BOT_VERSION 常數，/help 會顯示，方便對照
+      本機運行緊邊個版本。
+v1.2: 修正AVGO GEX誤判事件——現價$383.01、Put Wall $385.00，AI講
+      「距離Put Wall僅0.5%，接近支撐位」，但實際上現價已經跌穿咗
+      Put Wall（$385 > $383.01），支撐已失守，AI將方向講反咗。
+      根源：build_gex_prompt() 淨係將現價/Put Wall/Call Wall三個
+      原始數字塞落prompt文字，叫AI自己計百分比＋自己判斷邊個高邊個
+      低——呢個要求LLM喺一句說話入面同時做算術、方向推理、語言組織
+      三件事，正正係最易出錯嘅組合（尤其非reasoning嘅chat model）。
+      修正三步：
+      (1) 新增 compute_wall_status()：喺Python code入面預先計好
+          現價相對Put Wall／Call Wall／Gamma Flip嘅方向（已跌穿
+          支撐／企穩支撐之上／未逼近；已突破阻力／逼近阻力／未
+          逼近）同準確百分比，生成一段冇歧義嘅中文敘述，直接交畀
+          AI用。AI唔再需要自己計數判斷方向，淨係負責將已經確定嘅
+          事實組織做操作建議——方向判斷責任由code承擔，唔靠LLM
+          喺自然語言入面自己推斷，呢個係修正嘅核心，同用邊隻AI
+          model無關。
+      (2) ANALYSIS_MODEL 由 deepseek/deepseek-chat 換做
+          moonshotai/kimi-k2-thinking——Kimi K2 Thinking係強制
+          step-by-step推理嘅reasoning model，喺呢類方向性判斷任務
+          上比一般chat model更穩陣，作為(1)之外嘅多一層保險（唔係
+          主要修正，主要修正一定係(1)）。
+      (3) ask_ai() 新增自動fallback：若ANALYSIS_MODEL被OpenRouter
+          帳戶所屬地區封鎖（403）或連接逾時，自動retry一次改用
+          FALLBACK_MODEL（deepseek/deepseek-chat），避免Kimi如果都
+          受地區限制影響時，成個AI分析功能靜默停擺。
+v1.3: gex_alert_job() 推送訊息由淨顯示觸發嗰邊嘅單一wall（例如
+      只觸發Put Wall時就完全睇唔到Call Wall數值），改為Call Wall／
+      Put Wall／Gamma Flip三個水平同時顯示，觸發嗰個用「⚠️觸發」
+      標示。call_wall/put_wall/flip三個變數Step 3已經攞齊，純粹
+      改訊息文字，冇加新API call，唔影響15分鐘檢查週期。
+v1.4:【重要bugfix】修正「週日夜盤／週五收市」被誤判做weekend嘅
+      問題——2026-07-20（週一）HK時間09:36（=ET週日21:36）實測
+      證實：is_nyse_trading_day()／detect_et_session() 兩個function
+      舊版淨係睇 et.weekday()>=5 就一律當weekend處理，完全冇考慮
+      美股夜盤交易實際上喺週日20:00 ET已經開始（HK夏令時換算即
+      週一08:00開始）——嗰陣ET日曆日期仍然顯示緊「週日」，但個
+      trading session其實已經屬於週一。結果：
+        - is_nyse_trading_day() 錯誤返回False → gex_alert_job／
+          gex_refresh_job 兩個背景job喺週日20:00至週一04:00 ET
+          （HK 08:00–16:00）呢成整整8小時完全被skip，一個alert都
+          唔會推，用戶見到「成日冇任何GEX警報」，容易誤以為Bot
+          已經死咗或Futu離線，但實際上係is_nyse_trading_day()
+          喺呢段時間主動叫個job唔好行
+        - detect_et_session() 同一時段錯誤返回"weekend"，即使
+          job冇被skip（例如手動 /gex 查詢），fetch_live_quote_futu/
+          fetch_all_quotes_futu 都會揀錯欄位（跌返last_price，
+          唔會用overnight_price），令夜盤現價實際上都係舊嘅
+          regular收盤價
+      連帶發現埋一個方向相反嘅次要bug：週五20:00 ET之後（收咗市
+      直至週日20:00 ET先重開）舊版detect_et_session()會錯誤返回
+      "overnight"（其實嗰段完全冇夜盤數據），is_nyse_trading_day()
+      就冇呢個問題（因為週五本身weekday<5，job仍然會行，淨係
+      session標籤錯咗）。
+      修正：兩個function都加返「owning trading day」邏輯——
+      週日20:00–23:59 ET視為週一夜盤（用「明日」查假期表）、
+      週五20:00–23:59 ET視為真正weekend（冇夜盤）、週六全日
+      維持weekend。詳細分界見兩個function嘅docstring。
+v1.5:【重要bugfix】修正GOOGL績後大跌完全冇觸發自動警報嘅問題——
+      根源喺 check_gex_proximity()：舊版淨係接受
+      `0 <= dist_pct < GEX_ALERT_THRESHOLD_PCT`，即係話現價一定要
+      仲企喺wall嗰邊、由外面逼近先會觸發；現價一旦已經跌穿Put Wall
+      或突破Call Wall（dist_pct變負數），呢個判斷就永遠唔會再成立，
+      個wall等同「隱形」——同一件事之前v1.2已經喺compute_wall_status()
+      (AI分析文字用) 修正過一次，但嗰次修正冇同步落呢個真正決定
+      「發唔發alert」嘅numeric判斷function，兩個function各自獨立
+      判斷方向，一個啱一個仍然錯。
+      2026-07-23實測：GOOGL績後由高位一路跌落嚟，已經跌穿stale .md
+      快照記錄嗰條Put Wall（見下面.md pipeline停擺備註），用返嗰份
+      舊wall數據計，現價已經低過個wall，`0 <= dist_put_pct`唔成立，
+      觸發判斷直接靜音——同一時間AVGO/VRT淨係因為跌幅細啲、僥倖仲
+      企喺各自stale wall之上先觸發到，證明呢個唔係GOOGL獨有，而係
+      任何一隻股票跌穿/升穿wall之後都會撞到嘅通用缺陷，跌得越多、
+      隱形得越徹底。
+      修正：check_gex_proximity() 加返「已跌穿/已突破」觸發分支
+      （dist_pct<0時觸發，唔設幅度上限），連同原有「逼近」邏輯並存，
+      wall_type帶埋is_breach標記俾gex_alert_job()分辨；gex_alert_job()
+      配合更新——冷卻log_key加"_breach"後綴（令「逼近」轉「已突破」
+      呢個狀態轉變當做新事件、唔會俾舊冷卻期擋住），訊息文字/icon
+      亦分開「已跌穿/已突破」（🚨/💥 + 「已跌穿Put Wall：X%」）同
+      「逼近」（🔴/🟢 + 「距離...僅X%」）兩種描述，唔會再共用一句
+      唔啱意思嘅文案。
+
+架構：
+  Telegram指令
+      ↓
+  Futu Bridge /api/quote /api/gex（主要即時來源，見下方
+  fetch_live_quote_futu / fetch_all_quotes_futu / fetch_futu_gex）
+      ↓（Futu離線或個別股票缺數據時）
+  GitHub stocks/*.md（github_gex_updater.py 21:00已更新）+ Finnhub
+      ↓
+  OpenRouter → Kimi K2 Thinking（主，reasoning model；因OpenRouter
+               帳戶所屬地區被封鎖存取OpenAI/Anthropic/Google）
+               → 403/逾時時自動fallback DeepSeek（備）
+      ↓
+  Telegram回覆
+
+指令：
+  /gex NVDA   — 查單隻GEX + AI分析
+  /report     — 發送今日全部18隻摘要
+  /pnl        — 計算持倉總盈虧
+  /alert      — 設定/查看手動價格警報
+  /help       — 指令說明（含目前版本號）
+
+自動功能：
+  GEX警報    — 背景每15分鐘檢查，當任何持倉現價
+               距離Call/Put Wall < 3% 時自動主動推送
+               （同一警報1小時內不重複發送）
+
+安裝：
+  pip install "python-telegram-bot[job-queue]" requests
+
+執行：
+  python telegram_bot.py
+  （需要長期運行，建議用 Windows 工作排程器開機自動啟動，
+   或保持終端窗口開啟；改完script記得Ctrl+C重啟先生效）
+═══════════════════════════════════════════════════
+"""
+
+BOT_VERSION = "1.5"
+
+import re
+import json
+import time
+import asyncio
+import concurrent.futures
+import datetime
+from zoneinfo import ZoneInfo
+import requests
+from telegram import Update
+from telegram.ext import (
+    Application, CommandHandler, MessageHandler, filters, ContextTypes
+)
+from telegram.request import HTTPXRequest
+
+US_TZ = ZoneInfo("America/New_York")
+
+# ═══════════════════════════════════════════════════
+# ⚙️  設定區（只需改呢度）
+# ═══════════════════════════════════════════════════
+TELEGRAM_BOT_TOKEN = ""   # ← BotFather 俾你嗰串
+OPENROUTER_API_KEY = ""# ← openrouter.ai 嗰串
+FINNHUB_KEY         = "" #
+
+GITHUB_OWNER  = "netng888-code"
+GITHUB_REPO   = "netng888"
+GITHUB_BRANCH = "main"
+
+# Futu Bridge（本機，T1即時報價主要來源）
+# futu_bridge.py 運行中時自動用；唔在線時自動fallback Finnhub
+FUTU_BRIDGE_URL = "http://127.0.0.1:8888"
+
+# AI分析模型（OpenRouter）
+# ⚠️ 注意：你嘅OpenRouter帳戶billing地址所屬地區
+#    被封鎖存取 OpenAI / Anthropic / Google 三大provider
+#    （OpenRouter後台已確認："All other models remain available"）
+# 2026-07-14（v1.2）：由 deepseek/deepseek-chat 換做
+#    moonshotai/kimi-k2-thinking——強制step-by-step推理嘅reasoning
+#    model，喺「現價相對Put/Call Wall邊個高邊個低」呢類方向性判斷
+#    任務上比一般chat model穩陣。價錢約$0.60/$2.50 per M tokens，
+#    貴DeepSeek chat約3倍，但每次分析封頂500 tokens、用量細，
+#    差價可忽略。如果Moonshot都受你帳戶地區限制封鎖（403），
+#    ask_ai() 會自動fallback去 FALLBACK_MODEL，唔使手動改設定。
+ANALYSIS_MODEL = "moonshotai/kimi-k2-thinking"
+FALLBACK_MODEL = "deepseek/deepseek-chat"
+
+# 全部18大持倉（同 github_gex_updater.py 保持一致；
+# GEX數據嗰邊由兩個Barchart帳戶分批攞，呢度純粹係顯示用清單）
+ALL_HOLDINGS = [
+    {"sym": "MU",    "name": "美光科技",       "qty": 5,   "cost": 557.857},
+    {"sym": "GOOGL", "name": "谷歌-A",         "qty": 12,  "cost": 178.40 },
+    {"sym": "AVGO",  "name": "博通",            "qty": 10,  "cost": 375.782},
+    {"sym": "NVDA",  "name": "英偉達",          "qty": 15,  "cost": 148.50 },
+    {"sym": "MRVL",  "name": "邁威爾科技",     "qty": 10,  "cost": 238.605},
+    {"sym": "TER",   "name": "泰瑞達",          "qty": 5,   "cost": 92.00  },
+    {"sym": "META",  "name": "Meta Platforms",  "qty": 3,   "cost": 606.333},
+    {"sym": "NOK",   "name": "諾基亞",          "qty": 100, "cost": 13.50  },
+    {"sym": "RDW",   "name": "Redwire",         "qty": 80,  "cost": 15.65  },
+    {"sym": "LEU",   "name": "Centrus Energy",  "qty": 8,   "cost": 197.50 },
+    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 20,  "cost": 21.067 },
+    {"sym": "RKLB",  "name": "Rocket Lab",        "qty": 10,  "cost": 76.00  },
+    {"sym": "PLTR",  "name": "Palantir",          "qty": 7,   "cost": 124.335},
+    {"sym": "ISRG",  "name": "直覺外科公司",     "qty": 2,   "cost": 453.10 },
+    {"sym": "LITE",  "name": "Lumentum",          "qty": 1,   "cost": 820.00 },
+    {"sym": "VRT",   "name": "Vertiv Holdings",   "qty": 2,   "cost": 303.76 },
+    {"sym": "RR",    "name": "Richtech Robotics", "qty": 300, "cost": 2.445  },
+    {"sym": "SERV",  "name": "Serve Robotics",    "qty": 30,  "cost": 11.743 },
+]
+VALID_SYMS = {h["sym"] for h in ALL_HOLDINGS}
+
+# 簡單本地價格警報儲存（JSON文件）
+ALERT_FILE = "alerts.json"
+
+# ═══════════════════════════════════════════════════
+# 讀取 GitHub stocks/{sym}.md（raw content）
+# ═══════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════
+# NYSE 交易日判斷（週末 + 公眾假期跳過）
+# ═══════════════════════════════════════════════════
+_NYSE_HOLIDAYS = {
+    # 2025
+    "2025-01-01","2025-01-20","2025-02-17","2025-04-18",
+    "2025-05-26","2025-06-19","2025-07-04","2025-09-01",
+    "2025-11-27","2025-12-25",
+    # 2026
+    "2026-01-01","2026-01-19","2026-02-16","2026-04-03",
+    "2026-05-25","2026-06-19","2026-07-03",  # Jul 4 係六，補假Jul 3
+    "2026-09-07","2026-11-26","2026-12-25",
+    # 2027
+    "2027-01-01","2027-01-18","2027-02-15","2027-03-26",
+    "2027-05-31","2027-06-18",  # Jun 19 係六，補假Jun 18
+    "2027-07-05",               # Jul 4 係日，補假Jul 5
+    "2027-09-06","2027-11-25","2027-12-24",  # Dec 25 係六，補假Dec 24
+}
+
+def is_nyse_trading_day() -> bool:
+    """
+    判斷而家呢一刻是否處於「有效交易時段所屬嘅NYSE交易日」。
+
+    v1.4【重要bugfix】：舊版淨係睇「而家嘅ET日曆日期」係星期幾，完全
+    冇考慮夜盤交易喺週日20:00 ET已經開始（呢段其實已經係即將嚟緊嗰個
+    週一嘅交易時段，只不過ET日曆日期仍然顯示緊週日）。
+    結果：週日20:00 ET 之後（換算HK時間即週一08:00之後，夏令時HK
+    同ET差12小時）weekday()讀到6(週日)，令is_nyse_trading_day()
+    錯誤咁返回False，gex_alert_job／gex_refresh_job兩個背景job
+    喺呢段時間會被完全skip——即使個交易日（週一）本身唔係假期，
+    形同由週日20:00 ET直至週一04:00 ET premarket開始前，警報同GEX
+    預熱完全停擺，用戶會見到「見唔到任何alert」。
+
+    修正邏輯（owning trading day）：
+      - 週六全日                    → False（真正冇夜盤，
+                                       Fri 20:00 ET收咗市直至Sun 20:00 ET）
+      - 週日 00:00–19:59 ET          → False（仲係真正休市）
+      - 週日 20:00–23:59 ET          → 呢段係「週一」嘅夜盤已經開始，
+                                       改用「明日」（週一）嘅日期查假期表
+      - 週五 20:00–23:59 ET          → False（冇夜盤，要等週日20:00
+                                       先再開）
+      - 週一至週五其餘時段           → 沿用原本邏輯，查當日假期表
+    """
+    et_now  = datetime.datetime.now(US_TZ)
+    weekday = et_now.weekday()   # 0=週一 … 6=週日
+    minutes = et_now.hour * 60 + et_now.minute
+
+    if weekday == 5:              # 週六，全日冇夜盤
+        return False
+
+    if weekday == 6:              # 週日
+        if minutes < 1200:        # 20:00 ET之前，仲係真休市
+            return False
+        # 20:00 ET之後 = 週一夜盤已開始，owning trading day係週一
+        owning_day = et_now + datetime.timedelta(days=1)
+        return owning_day.strftime("%Y-%m-%d") not in _NYSE_HOLIDAYS
+
+    if weekday == 4 and minutes >= 1200:   # 週五20:00後，冇夜盤
+        return False
+
+    date_str = et_now.strftime("%Y-%m-%d")
+    if date_str in _NYSE_HOLIDAYS:
+        return False
+    return True
+
+
+# ═══════════════════════════════════════════════════
+# ET 交易時段判斷（v1.1新增）
+# 分界點同 gex_chart_v4_terminal.html 嘅 detectSession()/getT1()
+# 完全一致——兩邊如要調整分界，記得同步改，否則Bot同Dashboard
+# 會喺唔同時段判斷出唔同session，數字對唔上。
+# ═══════════════════════════════════════════════════
+def detect_et_session() -> str:
+    """
+    返回：'weekend' | 'overnight' | 'premarket' | 'regular' | 'afterhours'
+
+    v1.4【重要bugfix】：同 is_nyse_trading_day() 同一個根源bug——舊版
+    淨係睇 et.weekday()>=5 就一律返回weekend，冇考慮夜盤交易實際上
+    喺週日20:00 ET已經開始（屬於嚟緊嗰個週一），亦冇考慮週五20:00 ET
+    收市後其實已經冇夜盤（下一節要等週日20:00先重開）。
+    結果：舊版喺週日20:00–23:59 ET會錯誤返回"weekend"（應該係
+    "overnight"），令 fetch_live_quote_futu/fetch_all_quotes_futu 揀
+    錯欄位（跌returns返last_price而唔係overnight_price）；亦令週五
+    20:00–23:59 ET錯誤返回"overnight"（應該係"weekend"，呢段根本
+    冇夜盤數據）。
+
+    分界（修正後）：
+      週六全日                     → weekend
+      週日 00:00–19:59 ET          → weekend
+      週日 20:00–23:59 ET          → overnight（週一夜盤已開始）
+      週五 20:00–23:59 ET          → weekend（冇夜盤，等週日20:00）
+      週一至五 00:00–04:00 ET      → overnight
+      週一至五 04:00–09:30 ET      → premarket
+      週一至五 09:30–16:00 ET      → regular
+      週一至五 16:00–20:00 ET      → afterhours
+      週一至四 20:00–24:00 ET      → overnight（承接落去下一個交易日）
+    用 zoneinfo 自動處理 EDT/EST，唔會夏令時轉錯。
+    """
+    et = datetime.datetime.now(US_TZ)
+    wd = et.weekday()   # 0=週一 … 6=週日
+    m  = et.hour * 60 + et.minute
+
+    if wd == 5:                      # 週六，全日休市
+        return "weekend"
+    if wd == 6:                      # 週日
+        return "overnight" if m >= 1200 else "weekend"
+    if wd == 4 and m >= 1200:        # 週五20:00後，冇夜盤
+        return "weekend"
+
+    if m < 240:
+        return "overnight"
+    if m < 570:
+        return "premarket"
+    if m < 960:
+        return "regular"
+    if m < 1200:
+        return "afterhours"
+    return "overnight"
+
+
+def _select_t1_price(rec: dict, sess: str) -> float | None:
+    """
+    根據時段揀返 Futu snapshot 入面啱嘅『即時』價格欄位。
+    對應 gex_chart_v4_terminal.html 嘅 getT1()：
+      premarket  → pre_price
+      afterhours → after_price
+      overnight  → overnight_price
+      regular/weekend → last_price
+    任何一個 extended-hours 欄位缺值，fallback返 last_price
+    （好過整個報價冇晒）。
+    """
+    if sess == "premarket":
+        return rec.get("pre_price") or rec.get("last_price")
+    if sess == "afterhours":
+        return rec.get("after_price") or rec.get("last_price")
+    if sess == "overnight":
+        return rec.get("overnight_price") or rec.get("last_price")
+    return rec.get("last_price")
+
+
+# ═══════════════════════════════════════════════════
+# Bot 層 GEX Live Cache（30分鐘TTL）
+# 由 gex_refresh_job 每30分鐘預熱，alert job 直接讀取
+# ═══════════════════════════════════════════════════
+_gex_live_cache: dict[str, tuple[dict, float]] = {}  # sym → (gex_data, timestamp)
+GEX_LIVE_CACHE_TTL = 1800  # 30 分鐘
+
+def get_gex_live(sym: str) -> dict | None:
+    """讀取 bot 層 GEX cache，過期或無資料返回 None"""
+    if sym not in _gex_live_cache:
+        return None
+    data, ts = _gex_live_cache[sym]
+    if time.time() - ts > GEX_LIVE_CACHE_TTL:
+        return None
+    return data
+
+def set_gex_live(sym: str, data: dict):
+    _gex_live_cache[sym] = (data, time.time())
+
+# .md 文件內存緩存（TTL=60分鐘）
+# 背景警報每15分鐘 × 18隻 = 本來72次/小時，超出 GitHub 60次/小時免費限制
+# 加緩存後：每隻每小時只讀 GitHub 一次（18次/小時），完全唔超限
+_md_cache: dict[str, tuple[str, float]] = {}   # sym → (content, timestamp)
+MD_CACHE_TTL = 3600  # 60 分鐘
+
+def fetch_stock_md(sym: str, force_refresh: bool = False) -> str | None:
+    now = time.time()  # v1.1: 頂部已有 import time，唔再需要局部 import 補救
+    if not force_refresh and sym in _md_cache:
+        content, ts = _md_cache[sym]
+        if now - ts < MD_CACHE_TTL:
+            return content
+
+    url = (f"https://raw.githubusercontent.com/{GITHUB_OWNER}/"
+           f"{GITHUB_REPO}/{GITHUB_BRANCH}/stocks/{sym}.md")
+    try:
+        r = requests.get(url, timeout=10)
+        if r.status_code == 200:
+            _md_cache[sym] = (r.text, now)
+            return r.text
+        return None
+    except Exception:
+        # 網絡失敗時用舊緩存（如果有），寧可返回過期數據都好過冇
+        if sym in _md_cache:
+            return _md_cache[sym][0]
+        return None
+
+# ═══════════════════════════════════════════════════
+# 報價：Futu Bridge（T1主要）→ Finnhub（fallback）
+# ═══════════════════════════════════════════════════
+def fetch_live_quote_futu(sym: str) -> dict | None:
+    """
+    主要報價來源：Futu Bridge /api/quote
+    優點：T1真實即時價，盤前/正常/盤後/夜盤全時段皆係最新成交價。
+    需要：futu_bridge.py + Futu OpenD 係運行狀態。
+
+    v1.1修正：舊版一律讀 last_price，喺盤前/盤後/夜盤時段last_price
+    其實仲停留喺上個regular session嘅收盤價（唔會即時更新），令
+    「即時報價」名不副實。而家用 detect_et_session() 揀返啱嘅
+    session-aware欄位（pre_price/after_price/overnight_price），
+    同 gex_chart_v4_terminal.html 嘅 getT1() 邏輯一致。
+    """
+    try:
+        r = requests.get(f"{FUTU_BRIDGE_URL}/api/quote", timeout=5)
+        if r.status_code != 200:
+            return None
+        data    = r.json()
+        us_list = data.get("us", [])
+        target  = f"US.{sym.upper()}"
+        sess    = detect_et_session()
+        for rec in us_list:
+            if rec.get("code") != target:
+                continue
+            price = _select_t1_price(rec, sess)
+            prev  = rec.get("prev_close_price") or 0
+            t2    = rec.get("last_price")  # 今日regular收盤價（唔隨session變）
+            # 盤中/週末：同前日收盤(T3)比；盤前/盤後/夜盤：同今日收盤(T2)比
+            # （同 gex_chart_v4_terminal.html 嘅 T1_chg_base 邏輯一致）
+            base = prev if sess in ("regular", "weekend") else (t2 or prev)
+            chg = pct = None
+            if price and base:
+                chg = round(float(price) - float(base), 4)
+                pct = round(chg / float(base) * 100, 4) if float(base) != 0 else None
+            if price and float(price) > 0:
+                return {
+                    "price":   float(price),
+                    "change":  float(chg or 0),
+                    "pct":     float(pct or 0),
+                    "prev":    float(prev),
+                    "session": sess,
+                    "ts":      time.time(),
+                    "source":  "futu_t1",
+                }
+        return None
+    except Exception:
+        return None
+
+
+def fetch_live_quote_finnhub(sym: str) -> dict | None:
+    """
+    Fallback報價：Finnhub /quote（免費tier）。
+    限制：盤前/盤後可能仍返前收市價，timestamp需自行判斷新舊。
+    """
+    url    = "https://finnhub.io/api/v1/quote"
+    params = {"symbol": sym, "token": FINNHUB_KEY}
+    try:
+        r = requests.get(url, params=params, timeout=10)
+        if r.status_code == 200:
+            d = r.json()
+            return {
+                "price":  d.get("c", 0),
+                "change": d.get("d", 0),
+                "pct":    d.get("dp", 0),
+                "prev":   d.get("pc", 0),
+                "ts":     d.get("t", 0),
+                "source": "finnhub",
+            }
+        return None
+    except Exception:
+        return None
+
+
+
+def fetch_all_quotes_futu() -> dict[str, dict]:
+    """
+    一個 API call 攞晒 US_HOLDINGS 全部即時報價（Futu T1）。
+    比逐隻 call 高效得多，背景 job 同 /report 首選。
+    返回 {sym: {price, change, pct, prev, session, source}} 或 {} (Futu離線)
+
+    v1.1修正：同 fetch_live_quote_futu 一樣，唔再一律讀last_price，
+    改用 detect_et_session() + _select_t1_price() 揀返啱嘅欄位。
+    """
+    try:
+        r = requests.get(f"{FUTU_BRIDGE_URL}/api/quote", timeout=8)
+        if r.status_code != 200:
+            return {}
+        us_list = r.json().get("us", [])
+        sess    = detect_et_session()
+        result  = {}
+        for rec in us_list:
+            code = rec.get("code", "")
+            if not code.startswith("US."):
+                continue
+            sym   = code[3:]
+            price = _select_t1_price(rec, sess)
+            prev  = rec.get("prev_close_price") or 0
+            t2    = rec.get("last_price")
+            base  = prev if sess in ("regular", "weekend") else (t2 or prev)
+            chg = pct = None
+            if price and base:
+                chg = round(float(price) - float(base), 4)
+                pct = round(chg / float(base) * 100, 4) if float(base) != 0 else None
+            if price and float(price) > 0:
+                result[sym] = {
+                    "price":   float(price),
+                    "change":  float(chg or 0),
+                    "pct":     float(pct or 0),
+                    "prev":    float(prev),
+                    "session": sess,
+                    "ts":      time.time(),
+                    "source":  "futu_t1",
+                }
+        return result
+    except Exception:
+        return {}
+
+
+def fetch_live_quote(sym: str) -> dict | None:
+    """
+    統一報價入口：Futu T1（主）→ Finnhub（fallback）。
+    呼叫方唔需關心底層來源，直接用返回嘅 price/change/pct/source。
+    """
+    result = fetch_live_quote_futu(sym)
+    if result:
+        print(f"   [Quote] {sym} <- Futu T1  ${result['price']}")
+        return result
+    result = fetch_live_quote_finnhub(sym)
+    if result:
+        print(f"   [Quote] {sym} <- Finnhub(fallback)  ${result['price']}")
+        return result
+    return None
+
+_SESSION_LABELS = {
+    "premarket":  "🌅 盤前時段",
+    "regular":    "☀️ 正常交易時段",
+    "afterhours": "🌆 盤後時段",
+    "overnight":  "🌙 夜盤/休市時段",
+    "weekend":    "🗓 週末休市",
+}
+
+def market_session_label(quote_ts: int = 0, source: str = "", session: str | None = None) -> str:
+    """
+    根據報價來源 + timestamp判斷時段標籤：
+    - Futu T1：直接信任，timestamp係即時（唔做舊報價檢查）
+    - Finnhub fallback：做15分鐘新舊判斷（免費版限制）
+
+    v1.1修正：舊版時區寫死 UTC-4（EDT），冬令時（EST=UTC-5，約11月
+    至3月）會判錯一小時。而家統一改用 detect_et_session()（背後用
+    zoneinfo，自動處理DST）；若quote dict已經帶埋session（Futu來源
+    都會有），直接用嗰個，唔使重新計一次。
+    """
+    if source != "futu_t1" and quote_ts:
+        now = datetime.datetime.now()
+        quote_dt = datetime.datetime.fromtimestamp(quote_ts)
+        age_min  = (now - quote_dt).total_seconds() / 60
+        if age_min > 15:
+            age_str = f"{int(age_min)}分鐘前" if age_min < 60 else f"{age_min/60:.1f}小時前"
+            return f"⚠️ 非即時報價（{age_str}，可能係收市價）[Finnhub]"
+
+    sess       = session or detect_et_session()
+    label      = _SESSION_LABELS.get(sess, sess)
+    source_tag = " [Futu T1]" if source == "futu_t1" else (" [Finnhub]" if source == "finnhub" else "")
+    return f"{label}{source_tag}"
+
+# ═══════════════════════════════════════════════════
+# 解析 .md 內容，抽出關鍵數字（供 /pnl /report 計算用）
+# ═══════════════════════════════════════════════════
+def parse_md(md: str) -> dict:
+    """從 generate_md() 生成嘅 markdown 抽返結構化數據"""
+    data = {}
+
+    m = re.search(r'現價 \| \*\*\$([\d,]+\.?\d*)\*\*', md)
+    if m: data["price"] = float(m.group(1).replace(",", ""))
+
+    m = re.search(r'未實現盈虧 \| (▲|▼) \$([\d,]+)', md)
+    if m:
+        data["pnl_sign"] = 1 if m.group(1) == "▲" else -1
+        data["pnl"] = float(m.group(2).replace(",", ""))
+
+    m = re.search(r'Gamma Flip \| \$([\d,]+\.?\d*)', md)
+    if m: data["flip"] = float(m.group(1).replace(",", ""))
+
+    m = re.search(r'Put Wall（支撐） \| \$([\d,]+\.?\d*)', md)
+    if m: data["put_wall"] = float(m.group(1).replace(",", ""))
+
+    m = re.search(r'Call Wall（阻力） \| \$([\d,]+\.?\d*)', md)
+    if m: data["call_wall"] = float(m.group(1).replace(",", ""))
+
+    m = re.search(r'狀態[：:]\s*\*{0,2}(.+?)\*{0,2}\s*$', md, re.MULTILINE)
+    if m: data["status"] = m.group(1).strip()
+
+    m = re.search(r'最後更新：([\d\- :]+HKT)', md)
+    if m: data["updated"] = m.group(1).strip()
+
+    return data
+
+# ═══════════════════════════════════════════════════
+# OpenRouter → Kimi K2 Thinking（主）／DeepSeek（fallback）：生成分析建議
+# ═══════════════════════════════════════════════════
+def ask_ai(prompt: str, model: str | None = None, _is_fallback_retry: bool = False) -> str:
+    """
+    v1.2新增：model參數 + 自動fallback。
+    若 ANALYSIS_MODEL（主，Kimi K2 Thinking）被OpenRouter帳戶所屬
+    地區封鎖（403）或連接逾時，自動retry一次改用 FALLBACK_MODEL
+    （DeepSeek），只做一次retry（_is_fallback_retry防止死循環），
+    避免主model有事就成個AI分析功能靜默停擺。
+    401（key本身無效）／402（餘額不足）／429（rate limit）呢三類
+    錯誤屬於帳戶層面，換model都冇用，唔會觸發fallback。
+    """
+    url = "https://openrouter.ai/api/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/netng888-code/netng888",
+        "X-Title": "GEX Monitor Bot",
+    }
+    use_model = model or ANALYSIS_MODEL
+    payload = {
+        "model": use_model,
+        "max_tokens": 500,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+    try:
+        r = requests.post(url, headers=headers, json=payload, timeout=30)
+
+        # 一律先印完整response到終端，方便排查任何狀態碼
+        print(f"[OpenRouter] model={use_model}  status={r.status_code}  body={r.text[:500]}")
+
+        if r.status_code == 200:
+            result = r.json()
+            choices = result.get("choices", [])
+            if not choices:
+                return f"⚠️ AI回傳空結果，完整回應：{str(result)[:200]}"
+            return choices[0]["message"]["content"]
+        else:
+            error_detail = ""
+            try:
+                error_json = r.json()
+                error_detail = error_json.get("error", {}).get("message", r.text[:300])
+            except Exception:
+                error_detail = r.text[:300]
+
+            # 403 = 呢隻model/provider喺你個OpenRouter帳戶地區被封鎖
+            # ——自動fallback去FALLBACK_MODEL，唔使等你手動改設定先發現
+            if r.status_code == 403 and not _is_fallback_retry and use_model != FALLBACK_MODEL:
+                print(f"   ⚠️ {use_model} 被拒絕[403]，自動fallback去 {FALLBACK_MODEL}")
+                return ask_ai(prompt, model=FALLBACK_MODEL, _is_fallback_retry=True)
+
+            if r.status_code == 401:
+                return "⚠️ AI API認證失敗：OPENROUTER_API_KEY無效或未填入"
+            elif r.status_code == 402:
+                return "⚠️ OpenRouter帳戶餘額不足，請去openrouter.ai充值"
+            elif r.status_code == 403:
+                return f"⚠️ AI API被拒絕 [403]（{use_model}，fallback亦失敗）：{error_detail}"
+            elif r.status_code == 429:
+                return "⚠️ 請求過於頻密，請稍後再試"
+            else:
+                return f"⚠️ AI API錯誤 [{r.status_code}]（{use_model}）：{error_detail}"
+    except requests.exceptions.Timeout:
+        if not _is_fallback_retry and use_model != FALLBACK_MODEL:
+            print(f"   ⚠️ {use_model} 連接逾時，自動fallback去 {FALLBACK_MODEL}")
+            return ask_ai(prompt, model=FALLBACK_MODEL, _is_fallback_retry=True)
+        return "⚠️ AI API連接逾時（30秒），請稍後再試"
+    except Exception as e:
+        return f"⚠️ AI API連接失敗：{type(e).__name__}: {e}"
+
+def compute_wall_status(price: float | None, flip: float | None,
+                         put_wall: float | None, call_wall: float | None) -> str:
+    """
+    v1.2新增，AVGO誤判事件嘅核心修正。
+
+    背景：build_gex_prompt() 舊版淨係將現價/Put Wall/Call Wall三個
+    原始數字寫落prompt文字，叫AI自己計百分比、自己判斷邊個高邊個
+    低。實測AVGO現價$383.01 vs Put Wall $385.00，AI計啱咗百分比
+    （0.5%）但方向判斷反咗——講成「接近支撐位」，但其實Put Wall
+    ($385) > 現價($383.01)，即係支撐已經跌穿，唔係「接近」。
+
+    修正原則：方向判斷（已跌穿/未跌穿/邊個高邊個低）呢類邏輯運算
+    一定要喺Python code度做，用普通if/else保證100%準確；唔可以將
+    呢類判斷交低LLM喺自然語言入面自己推斷——呢個先係徹底根治嘅
+    方法，同用邊隻AI model冇關係（Kimi/DeepSeek/其他model一樣可能
+    喺呢類任務中犯呢種方向性錯誤，分別只在於機率高低）。
+
+    返回一段冇歧義嘅中文敘述，直接交畀AI，AI唔使再自己計算方向，
+    淨係負責將已確定嘅事實組織做操作建議。
+    """
+    if not price or price <= 0:
+        return "現價數據暫缺，無法判斷相對GEX水平位置。"
+
+    parts = []
+
+    if put_wall:
+        diff_put = price - put_wall
+        pct_put  = abs(diff_put) / price * 100
+        if diff_put < 0:
+            parts.append(
+                f"現價已跌穿Put Wall支撐（${put_wall:,.2f}），低咗{pct_put:.2f}%"
+                f"——支撐位已失守，唔係「接近支撐」"
+            )
+        elif pct_put < 3:
+            parts.append(
+                f"現價企穩喺Put Wall（${put_wall:,.2f}）之上，僅高{pct_put:.2f}%，"
+                f"非常接近支撐位但未跌穿"
+            )
+        else:
+            parts.append(f"現價高於Put Wall（${put_wall:,.2f}）{pct_put:.2f}%，未逼近支撐")
+
+    if call_wall:
+        diff_call = call_wall - price
+        pct_call  = abs(diff_call) / price * 100
+        if diff_call < 0:
+            parts.append(
+                f"現價已突破Call Wall阻力（${call_wall:,.2f}），高咗{pct_call:.2f}%"
+                f"——阻力位已被攻破"
+            )
+        elif pct_call < 3:
+            parts.append(f"現價逼近Call Wall（${call_wall:,.2f}），僅差{pct_call:.2f}%，接近關鍵阻力")
+        else:
+            parts.append(f"現價低於Call Wall（${call_wall:,.2f}）{pct_call:.2f}%，未逼近阻力")
+
+    if flip:
+        if price >= flip:
+            parts.append(f"現價處於Gamma Flip（${flip:,.2f}）之上，屬正Gamma區（波動相對受抑制）")
+        else:
+            parts.append(f"現價處於Gamma Flip（${flip:,.2f}）之下，屬負Gamma區（波動可能放大）")
+
+    return "；".join(parts) + "。" if parts else "GEX水平數據不足，無法判斷位置。"
+
+
+def build_gex_prompt(sym: str, name: str, data: dict, live: dict | None, session: str, source: str = "") -> str:
+    # 決定真正應該俾AI用嗰個「現價」：優先用即時報價，冇先回退緩存
+    is_stale = session.startswith("⚠️")  # session本身已標示報價非即時
+    if live and live.get("price"):
+        current_price = live["price"]
+        price_label   = "最後報價（可能非即時）" if is_stale else "現價"
+        price_note    = f"（{session}）"
+    else:
+        current_price = data.get("price", "N/A")
+        price_label   = "最後報價"
+        price_note    = "（21:00緩存價，即時報價暫不可用）"
+
+    gex_basis_note = ""
+    if live and live.get("price") and data.get("price"):
+        gex_basis_note = (
+            f"\n（注意：Call/Put Wall等GEX水平係根據昨日21:00收盤價"
+            f"${data.get('price')}計算所得，{price_label}已更新為${current_price}，"
+            f"分析時請以呢個{price_label}為準判斷距離牆嘅遠近）"
+        )
+
+    stale_warning = ""
+    if is_stale:
+        stale_warning = (
+            "\n\n⚠️ 重要：以上報價並非即時市場價，可能係市場休市時嘅最後成交價。"
+            "請喺分析中提醒用戶呢點，唔好將呢個價當作「現時」嘅市況下結論，"
+            "並建議用戶查證實時報價（例如打開Futu app）先做決定。"
+        )
+
+    # v1.2：方向/百分比一律由code預先計好，AI唔使自己再計算判斷
+    _price_for_calc = current_price if isinstance(current_price, (int, float)) else None
+    wall_status = compute_wall_status(_price_for_calc, data.get("flip"),
+                                       data.get("put_wall"), data.get("call_wall"))
+
+    return f"""你是一位專業的GEX（Gamma Exposure）期權分析師，正在為一位持有{sym}（{name}）的退休投資者提供簡短操作建議。
+
+該投資者背景：已退休，風險承受能力中低，傾向保守至中等策略，關注下跌風險多於追求最高回報。
+
+當前數據：
+{price_label}：${current_price} {price_note}{gex_basis_note}{stale_warning}
+Gamma Flip：${data.get('flip', 'N/A')}
+Put Wall（支撐）：${data.get('put_wall', 'N/A')}
+Call Wall（阻力）：${data.get('call_wall', 'N/A')}
+狀態：{data.get('status', 'N/A')}
+
+【系統已預先計算嘅位置關係——必須以此為準，唔准自己重新計算或判斷方向】：
+{wall_status}
+
+請用繁體中文（可用少量粵語表達習慣），給出3-4句簡短具體的操作建議，包括：
+1. 直接引用上方「系統已預先計算嘅位置關係」講短線風險，唔使自己重新計算百分比或判斷邊個高邊個低
+2. 是否建議調整持倉（不要假設用戶會盲目跟隨，給出條件式建議）
+3. 不要使用任何免責聲明或"僅供參考"等套話，直接給出分析
+
+回覆控制在100字以內，語氣專業但不要過度保守，避免空泛建議。
+重要：唔准自己重新計算現價同Put/Call Wall嘅距離百分比或方向——一律直接引用上方已計算好嘅「位置關係」段落嘅結論，你嘅角色係將呢啲已確定嘅事實轉化做操作建議，唔係重新做算術或方向判斷。"""
+
+# ═══════════════════════════════════════════════════
+# Futu Bridge GEX（任何美股，唔限持倉）
+# ═══════════════════════════════════════════════════
+def fetch_futu_gex(sym: str) -> dict | None:
+    """
+    呼叫本機 Futu Bridge /api/gex/{sym}，即時計算任何美股 GEX。
+    唔限持倉——SPCX、TSLA 等都可以查。
+    返回完整 dict（含 gex_by_strike），或 None（OpenD 未運行時）。
+    """
+    try:
+        r = requests.get(f"{FUTU_BRIDGE_URL}/api/gex/{sym.upper()}", timeout=30)
+        if r.status_code == 200:
+            data = r.json()
+            if data.get("call_wall") or data.get("flip"):
+                return data
+        return None
+    except Exception:
+        return None
+
+
+# ═══════════════════════════════════════════════════
+# GEX 橫向條形圖（matplotlib，暗色主題）
+# ═══════════════════════════════════════════════════
+def generate_gex_chart(sym: str, gex_data: dict, live_price: float | None = None) -> bytes | None:
+    """
+    從 Futu bridge /api/gex/{sym} 的 gex_by_strike 生成 PNG 圖表。
+    返回 PNG bytes 或 None（matplotlib 未安裝 / 數據不足時）。
+    """
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+        import matplotlib.patches as mpatches
+        from io import BytesIO
+    except ImportError:
+        return None
+
+    strikes_data = gex_data.get("gex_by_strike", [])
+    if not strikes_data:
+        return None
+
+    spot = float(gex_data.get("spot") or live_price or 0)
+
+    # 只顯示 spot ±30% 範圍（過濾遠端 OTM 雜訊）
+    if spot > 0:
+        strikes_data = [s for s in strikes_data
+                        if spot * 0.70 <= s["strike"] <= spot * 1.30]
+
+    # 最多40個strike，太多圖太密
+    if len(strikes_data) > 40:
+        strikes_data = sorted(strikes_data, key=lambda x: abs(x["strike"] - spot))[:40]
+        strikes_data = sorted(strikes_data, key=lambda x: x["strike"])
+
+    if not strikes_data:
+        return None
+
+    strikes  = [s["strike"]  for s in strikes_data]
+    gex_vals = [s["net_gex"] for s in strikes_data]
+    colors   = ["#00d4aa" if v >= 0 else "#ff4d6d" for v in gex_vals]
+
+    fig_h = max(6, min(len(strikes) * 0.28, 14))
+    fig, ax = plt.subplots(figsize=(9, fig_h))
+    fig.patch.set_facecolor("#0a0c10")
+    ax.set_facecolor("#0f1218")
+
+    y_pos = list(range(len(strikes)))
+    ax.barh(y_pos, gex_vals, color=colors, alpha=0.85, height=0.72)
+    ax.set_yticks(y_pos)
+    ax.set_yticklabels([f"${s:,.0f}" for s in strikes], fontsize=7, color="#c8d4e8")
+
+    # 關鍵水平線（根據 strike 索引插值）
+    def price_to_y(price):
+        if price is None or not strikes:
+            return None
+        diffs = [abs(s - price) for s in strikes]
+        return diffs.index(min(diffs))
+
+    flip      = gex_data.get("flip")
+    put_wall  = gex_data.get("put_wall")
+    call_wall = gex_data.get("call_wall")
+    current   = live_price or spot
+
+    line_defs = [
+        (current,   "#f5a623", f"現價 ${current:,.1f}",           "--", 2.0),
+        (flip,      "#ffd700", f"Gamma Flip ${flip:,.1f}" if flip else None,       "-.", 1.5),
+        (put_wall,  "#ff4d6d", f"Put Wall ${put_wall:,.1f}" if put_wall else None,  ":",  1.5),
+        (call_wall, "#00d4aa", f"Call Wall ${call_wall:,.1f}" if call_wall else None, ":", 1.5),
+    ]
+    legend_patches = []
+    for price, color, label, ls, lw in line_defs:
+        if price is not None:
+            yi = price_to_y(price)
+            if yi is not None:
+                ax.axhline(y=yi, color=color, linestyle=ls, linewidth=lw, alpha=0.9)
+            if label:
+                legend_patches.append(mpatches.Patch(color=color, label=label))
+
+    ax.axvline(x=0, color="#4a5568", linewidth=0.8)
+    ax.set_xlabel("Net GEX (百萬 $)", color="#c8d4e8", fontsize=9)
+    ax.tick_params(colors="#c8d4e8", labelsize=8)
+    for sp in ax.spines.values():
+        sp.set_edgecolor("#1e2430")
+
+    bias     = gex_data.get("dealer_bias", "")
+    bias_lbl = "📈 Long Gamma" if bias == "LONG_GAMMA" else "📉 Short Gamma"
+    net_v    = gex_data.get("net_gex") or 0
+    ax.set_title(
+        f"{sym}  GEX by Strike     {bias_lbl}     Net GEX: {net_v:+.1f}M",
+        color="white", fontsize=10, fontweight="bold", pad=10
+    )
+
+    if legend_patches:
+        ax.legend(handles=legend_patches, loc="lower right", fontsize=7,
+                  facecolor="#0f1218", labelcolor="#c8d4e8", edgecolor="#1e2430")
+
+    plt.tight_layout()
+    buf = BytesIO()
+    plt.savefig(buf, format="png", dpi=110, bbox_inches="tight",
+                facecolor=fig.get_facecolor())
+    plt.close(fig)
+    buf.seek(0)
+    return buf.read()
+
+
+# ═══════════════════════════════════════════════════
+# /gex 指令：查單隻GEX + AI分析
+# ═══════════════════════════════════════════════════
+async def cmd_gex(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """
+    /gex SYM — 任何美股皆可查（唔限持倉）
+    流程：
+      1. Futu Bridge /api/gex → 即時 GEX + gex_by_strike（生成圖表）
+      2. 若 Futu 離線 → 讀 GitHub .md 緩存（持倉才有）
+      3. 發送圖表 → 發送 GEX 數字 → AI 分析
+    """
+    register_chat(update.effective_chat.id)
+    if not context.args:
+        await update.message.reply_text(
+            "用法：/gex NVDA\n"
+            "/gex SPCX\n"
+            "可查任何美股，不限持倉"
+        )
+        return
+
+    sym  = context.args[0].upper()
+    name = next((h["name"] for h in ALL_HOLDINGS if h["sym"] == sym), sym)
+    await update.message.reply_text(f"⏳ 查詢 {sym} GEX 數據...")
+
+    # ── Step 1: 嘗試 Futu Bridge（即時 GEX + gex_by_strike）──
+    futu_gex = fetch_futu_gex(sym)
+
+    # ── Step 2: 備用 — 讀 GitHub .md 緩存（持倉才有）──
+    md_data  = {}
+    if sym in VALID_SYMS:
+        md = fetch_stock_md(sym)
+        if md:
+            md_data = parse_md(md)
+
+    # 決定用哪份 GEX 數值
+    if futu_gex and futu_gex.get("call_wall"):
+        flip      = futu_gex.get("flip")
+        put_wall  = futu_gex.get("put_wall")
+        call_wall = futu_gex.get("call_wall")
+        max_pain  = futu_gex.get("max_pain")
+        net_gex   = futu_gex.get("net_gex")
+        exp_move  = futu_gex.get("expected_move")
+        bias      = futu_gex.get("dealer_bias", "")
+        gex_src   = "🟢 Futu 即時"
+    elif md_data:
+        flip      = md_data.get("flip")
+        put_wall  = md_data.get("put_wall")
+        call_wall = md_data.get("call_wall")
+        max_pain  = None
+        net_gex   = None
+        exp_move  = None
+        bias      = ""
+        gex_src   = "🟡 GitHub 緩存（21:00快照）"
+    else:
+        flip = put_wall = call_wall = None
+        gex_src = "❌ 無 GEX 數據"
+
+    # ── Step 3: 即時報價（Futu T1 → Finnhub）──
+    live        = fetch_live_quote(sym)
+    quote_ts    = live.get("ts", 0) if live else 0
+    live_source = live.get("source", "") if live else ""
+    live_sess   = live.get("session") if live else None  # v1.1: Futu來源帶埋實際揀價用嗰個session
+    session     = market_session_label(quote_ts, live_source, live_sess)
+    live_price  = live["price"] if live and live.get("price") else None
+
+    is_stale = session.startswith("⚠️")
+    price_label = "最後報價" if is_stale else "現價"
+
+    if live_price:
+        cached_p   = md_data.get("price") or (futu_gex.get("spot") if futu_gex else None)
+        live_pct   = live.get("pct", 0)
+        price_line = (
+            f"{price_label}：${live_price:,.2f}　({live_pct:+.2f}%，相對前收)\n"
+            f"　　{session}\n"
+        )
+        if cached_p and abs(float(cached_p) - live_price) > 0.01:
+            price_line += f"　　_GEX計算基準：${cached_p:,.2f}_\n"
+    else:
+        cached_p   = md_data.get("price") or (futu_gex.get("spot") if futu_gex else None)
+        price_line = (
+            f"最後報價：${cached_p or 'N/A'}\n"
+            f"　　⚠️ 即時報價暫不可用\n"
+        )
+
+    # ── Step 4: 生成並發送 GEX 圖表 ──
+    chart_sent = False
+    if futu_gex and futu_gex.get("gex_by_strike"):
+        chart_bytes = generate_gex_chart(sym, futu_gex, live_price)
+        if chart_bytes:
+            from io import BytesIO
+            caption = f"📊 {sym} GEX by Strike（Futu 即時）"
+            await update.message.reply_photo(
+                photo=BytesIO(chart_bytes),
+                caption=caption
+            )
+            chart_sent = True
+
+    # ── Step 5: 發送 GEX 數字文字 ──
+    bias_lbl = ("📈 Long Gamma（市場穩定）" if bias == "LONG_GAMMA"
+                else "📉 Short Gamma（波動放大）" if bias == "SHORT_GAMMA"
+                else "—")
+
+    msg  = f"📊 *{sym}* — {name}\n\n"
+    msg += price_line
+    msg += f"\n*GEX 水平* _（{gex_src}）_\n"
+    msg += f"Gamma Flip：${flip:,.2f}\n"        if flip      else "Gamma Flip：N/A\n"
+    msg += f"Put Wall（支撐）：${put_wall:,.2f}\n"  if put_wall  else "Put Wall：N/A\n"
+    msg += f"Call Wall（阻力）：${call_wall:,.2f}\n" if call_wall else "Call Wall：N/A\n"
+    if max_pain:  msg += f"Max Pain：${max_pain:,.2f}\n"
+    if net_gex is not None: msg += f"Net GEX：{net_gex:+.1f}M　{bias_lbl}\n"
+    if exp_move:  msg += f"Expected Move：±${exp_move:,.2f}\n"
+    if not chart_sent:
+        msg += "\n_（Futu OpenD 未運行，圖表不可用）_\n"
+    if md_data.get("updated"):
+        msg += f"\n_數據更新：{md_data['updated']}_"
+
+    await update.message.reply_text(msg, parse_mode="Markdown")
+
+    # ── Step 6: AI 分析 ──
+    if flip or put_wall or call_wall:
+        await update.message.reply_text("🤖 正在生成分析...")
+        ai_data = {
+            "flip":      flip,
+            "put_wall":  put_wall,
+            "call_wall": call_wall,
+            "status":    bias_lbl,
+            "price":     live_price or cached_p,
+        }
+        prompt  = build_gex_prompt(sym, name, ai_data, live, session)
+        analysis = ask_ai(prompt)
+        await update.message.reply_text(f"🤖 *AI分析：*\n{analysis}", parse_mode="Markdown")
+
+# ═══════════════════════════════════════════════════
+# /report 指令：今日全部18隻摘要
+# ═══════════════════════════════════════════════════
+async def cmd_report(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    register_chat(update.effective_chat.id)
+    await update.message.reply_text("⏳ 生成今日報告（18隻持倉）...")
+
+    # ── 一個call攞晒18隻即時報價（Futu T1，最高效）──
+    quotes = fetch_all_quotes_futu()
+    futu_ok = bool(quotes)
+
+    # Futu離線時 fallback Finnhub（逐隻call，慢但穩）
+    def get_price(sym: str) -> dict | None:
+        if sym in quotes:
+            return quotes[sym]
+        return fetch_live_quote(sym)
+
+    lines     = [f"📋 *今日持倉GEX報告* — {datetime.date.today()}"]
+    src_label = "Futu T1" if futu_ok else "Finnhub"
+    lines.append(f"_報價來源：{src_label}_\n")
+
+    total_pnl   = 0
+    total_cost  = 0
+    total_value = 0
+
+    for h in ALL_HOLDINGS:
+        sym  = h["sym"]
+        name = h["name"]
+        qty  = h["qty"]
+        cost = h["cost"]
+
+        # 1. 即時報價
+        live  = get_price(sym)
+        price = live["price"] if live and live.get("price") else None
+
+        # 2. GEX牆：Futu Bridge 即時（5分鐘cache in bridge）
+        gex = fetch_futu_gex(sym)
+        if gex and gex.get("call_wall"):
+            call_wall = gex.get("call_wall")
+            put_wall  = gex.get("put_wall")
+            flip      = gex.get("flip")
+            bias      = gex.get("dealer_bias", "")
+        else:
+            # Fallback：讀.md緩存
+            md = fetch_stock_md(sym)
+            md_data   = parse_md(md) if md else {}
+            call_wall = md_data.get("call_wall")
+            put_wall  = md_data.get("put_wall")
+            flip      = md_data.get("flip")
+            bias      = ""
+
+        # 3. 計算盈虧
+        if price:
+            holding_val  = price * qty
+            holding_cost = cost  * qty
+            pnl          = holding_val - holding_cost
+            pnl_pct      = pnl / holding_cost * 100 if holding_cost else 0
+            total_pnl   += pnl
+            total_value += holding_val
+            total_cost  += holding_cost
+        else:
+            pnl = pnl_pct = 0
+
+        # 4. GEX狀態圖標
+        if price and call_wall and put_wall:
+            dist_call = (call_wall - price) / price * 100 if price > 0 else 99
+            dist_put  = (price - put_wall)  / price * 100 if price > 0 else 99
+            if dist_call < 3:
+                gex_icon = "⚠️"
+            elif dist_put < 3:
+                gex_icon = "🛡️"
+            elif bias == "SHORT_GAMMA":
+                gex_icon = "📉"
+            else:
+                gex_icon = "▫️"
+        else:
+            gex_icon = "❓"
+
+        pnl_color = "🟢" if pnl >= 0 else "🔴"
+        pnl_arrow = "▲" if pnl >= 0 else "▼"
+        price_str = f"${price:,.2f}" if price else "N/A"
+        pnl_str   = f"{pnl_color}{pnl_arrow}${abs(pnl):,.0f}({pnl_pct:+.1f}%)" if pnl != 0 else "—"
+
+        # GEX牆距離小摘要
+        wall_str = ""
+        if price and call_wall and put_wall:
+            wall_str = f"  _P:{put_wall:,.0f}↔C:{call_wall:,.0f}_"
+
+        lines.append(f"{gex_icon} *{sym}* {price_str}  {pnl_str}{wall_str}")
+
+    total_color = "🟢" if total_pnl >= 0 else "🔴"
+    total_arrow = "▲" if total_pnl >= 0 else "▼"
+    total_ret   = (total_pnl / total_cost * 100) if total_cost else 0
+    lines.append(f"\n💰 *總浮盈虧：{total_color}{total_arrow}${abs(total_pnl):,.0f}（{total_ret:+.1f}%）*")
+
+    await update.message.reply_text("\n".join(lines), parse_mode="Markdown")
+# ═══════════════════════════════════════════════════
+# /pnl 指令：總盈虧計算
+# ═══════════════════════════════════════════════════
+async def cmd_pnl(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    register_chat(update.effective_chat.id)
+    await update.message.reply_text("⏳ 計算總盈虧（Futu T1 即時報價）...")
+
+    # 一個call攞晒18隻報價
+    quotes  = fetch_all_quotes_futu()
+    futu_ok = bool(quotes)
+
+    def get_price(sym):
+        if sym in quotes:
+            return quotes[sym]["price"]
+        q = fetch_live_quote(sym)
+        return q["price"] if q and q.get("price") else None
+
+    lines       = ["💰 *持倉盈虧明細*"]
+    src_label   = "Futu T1" if futu_ok else "Finnhub fallback"
+    lines.append(f"_報價來源：{src_label}_\n")
+
+    total_value = total_cost = total_pnl = 0
+
+    for h in ALL_HOLDINGS:
+        sym   = h["sym"]
+        qty   = h["qty"]
+        cost  = h["cost"]
+        price = get_price(sym)
+        if not price:
+            lines.append(f"• {sym}：⚠️ 無法取得報價")
+            continue
+
+        value      = price * qty
+        cost_total = cost  * qty
+        pnl        = value - cost_total
+        pnl_pct    = pnl / cost_total * 100 if cost_total else 0
+
+        total_value += value
+        total_cost  += cost_total
+        total_pnl   += pnl
+
+        color = "🟢" if pnl >= 0 else "🔴"
+        arrow = "▲" if pnl >= 0 else "▼"
+        lines.append(
+            f"{color} *{sym}* ${price:,.2f} × {qty}  "
+            f"{arrow}${abs(pnl):,.0f}（{pnl_pct:+.1f}%）"
+        )
+
+    total_ret   = total_pnl / total_cost * 100 if total_cost else 0
+    total_color = "🟢" if total_pnl >= 0 else "🔴"
+    total_arrow = "▲" if total_pnl >= 0 else "▼"
+    lines.append(
+        f"\n{'─'*30}\n"
+        f"💼 持倉市值：${total_value:,.0f}\n"
+        f"💰 *總浮盈虧：{total_color}{total_arrow}${abs(total_pnl):,.0f}（{total_ret:+.1f}%）*"
+    )
+    await update.message.reply_text("\n".join(lines), parse_mode="Markdown")
+# ═══════════════════════════════════════════════════
+# /alert 指令：簡單價格警報（本地JSON儲存）
+# ═══════════════════════════════════════════════════
+def load_alerts() -> dict:
+    try:
+        with open(ALERT_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except:
+        return {}
+
+def save_alerts(alerts: dict):
+    with open(ALERT_FILE, "w", encoding="utf-8") as f:
+        json.dump(alerts, f, ensure_ascii=False, indent=2)
+
+async def cmd_alert(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """
+    用法：
+      /alert NVDA above 210   — NVDA升穿210提示
+      /alert NVDA below 190   — NVDA跌穿190提示
+      /alert list             — 列出所有警報
+      /alert remove NVDA      — 移除NVDA警報
+    """
+    register_chat(update.effective_chat.id)
+    if not context.args:
+        await update.message.reply_text(
+            "用法：\n"
+            "/alert NVDA above 210\n"
+            "/alert NVDA below 190\n"
+            "/alert list\n"
+            "/alert remove NVDA"
+        )
+        return
+
+    alerts = load_alerts()
+    chat_id = str(update.effective_chat.id)
+    user_alerts = alerts.get(chat_id, {})
+
+    if context.args[0].lower() == "list":
+        if not user_alerts:
+            await update.message.reply_text("📭 暫無設定警報")
+            return
+        lines = ["🔔 *目前警報*\n"]
+        for sym, conf in user_alerts.items():
+            lines.append(f"{sym}: {conf['direction']} ${conf['price']}")
+        await update.message.reply_text("\n".join(lines), parse_mode="Markdown")
+        return
+
+    if context.args[0].lower() == "remove":
+        if len(context.args) < 2:
+            await update.message.reply_text("用法：/alert remove NVDA")
+            return
+        sym = context.args[1].upper()
+        if sym in user_alerts:
+            del user_alerts[sym]
+            alerts[chat_id] = user_alerts
+            save_alerts(alerts)
+            await update.message.reply_text(f"✅ 已移除 {sym} 警報")
+        else:
+            await update.message.reply_text(f"⚠️ {sym} 沒有設定警報")
+        return
+
+    if len(context.args) < 3:
+        await update.message.reply_text("用法：/alert NVDA above 210")
+        return
+
+    sym       = context.args[0].upper()
+    direction = context.args[1].lower()
+    try:
+        price = float(context.args[2])
+    except ValueError:
+        await update.message.reply_text("⚠️ 價格必須是數字")
+        return
+
+    if sym not in VALID_SYMS:
+        await update.message.reply_text(f"⚠️ {sym} 不在持倉清單")
+        return
+    if direction not in ("above", "below"):
+        await update.message.reply_text("⚠️ 方向必須是 above 或 below")
+        return
+
+    user_alerts[sym] = {"direction": direction, "price": price}
+    alerts[chat_id]  = user_alerts
+    save_alerts(alerts)
+
+    await update.message.reply_text(
+        f"✅ 已設定：{sym} {direction} ${price} 時提示"
+    )
+
+# ═══════════════════════════════════════════════════
+# 自動GEX警報（背景循環，每15分鐘檢查一次）
+# ═══════════════════════════════════════════════════
+GEX_ALERT_THRESHOLD_PCT = 3.0      # 距離Wall < 3% 觸發
+GEX_ALERT_COOLDOWN_SEC  = 3600     # 同一警報1小時內不重發
+KNOWN_CHATS_FILE        = "known_chats.json"
+GEX_ALERT_LOG_FILE      = "gex_alert_log.json"
+
+def register_chat(chat_id: int):
+    """每次任何指令被使用時呼叫，記住呢個chat_id供背景job推送用"""
+    try:
+        with open(KNOWN_CHATS_FILE, "r", encoding="utf-8") as f:
+            chats = json.load(f)
+    except Exception:
+        chats = []
+    cid = str(chat_id)
+    if cid not in chats:
+        chats.append(cid)
+        with open(KNOWN_CHATS_FILE, "w", encoding="utf-8") as f:
+            json.dump(chats, f, ensure_ascii=False, indent=2)
+
+def get_known_chats() -> list:
+    try:
+        with open(KNOWN_CHATS_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
+
+def load_gex_alert_log() -> dict:
+    """記錄每個 sym+wall_type 上次觸發嘅unix timestamp，做冷卻判斷"""
+    try:
+        with open(GEX_ALERT_LOG_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+def save_gex_alert_log(log: dict):
+    with open(GEX_ALERT_LOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(log, f, ensure_ascii=False, indent=2)
+
+def check_gex_proximity(sym: str, price: float, call_wall: float, put_wall: float) -> dict | None:
+    """
+    計算現價相對Call/Put Wall嘅位置，兩種情況都會觸發：
+      1.「逼近」— 現價仲喺wall嗰邊未過界，但距離 < GEX_ALERT_THRESHOLD_PCT（原有邏輯）
+      2.「已跌穿/已突破」— 現價已經過咗個wall（v1.5新增）
+
+    v1.5【重要bugfix】：2026-07-23實測GOOGL績後大跌完全冇觸發任何警報——
+    舊版淨係接受 `0 <= dist_pct < threshold`，即係話現價一定要仲企喺wall
+    嗰邊、由外面逼近先會觸發；現價一旦已經跌穿Put Wall／突破Call Wall
+    （dist_pct變負數），呢個判斷就永遠唔會再成立，個wall等同「隱形」。
+    根查發現觸發GOOGL事件嘅根源有兩層疊埋：(a) 全部18隻嘅.md每日快照
+    pipeline已停咗成個月冇更新，(b) GOOGL績後由.md嗰陣嘅價位一路跌落嚟，
+    已經一次過插穿咗stale .md記錄嗰條Put Wall——用返嗰份舊wall數據計，
+    現價已經低過個wall，`0 <= dist_put_pct`呢個條件唔成立，觸發判斷直接
+    靜音。同一時間AVGO/VRT淨係因為跌幅細啲、僥倖仲企喺各自stale wall
+    之上先觸發到，証明呢個唔係GOOGL獨有、而係任何一隻股票跌穿/升穿wall
+    之後都會撞到嘅通用缺陷。
+    而家已跌穿/已突破一律照樣觸發（wall_type會帶埋"_breach"標記俾
+    gex_alert_job()分辨），唔會再因為「已經太遲」而完全靜音；同時保留
+    原有「逼近」觸發，兩者可以並存。
+
+    若同時有多個觸發（理論上罕見），優先順序：已突破 > 逼近，
+    再各自揀距離/突破幅度最細嗰個（最貼近現價、最新鮮嗰單先講）。
+    """
+    if not price or not call_wall or not put_wall:
+        return None
+
+    dist_call_pct = (call_wall - price) / price * 100   # 現價喺call_wall之下 → 正數
+    dist_put_pct  = (price - put_wall)  / price * 100   # 現價喺put_wall之上 → 正數
+
+    triggers = []  # (wall_type, dist_pct, wall_price, is_breach)
+
+    # ── 逼近（原有邏輯：未過界，喺threshold%範圍內）──
+    if 0 <= dist_call_pct < GEX_ALERT_THRESHOLD_PCT:
+        triggers.append(("call", dist_call_pct, call_wall, False))
+    if 0 <= dist_put_pct < GEX_ALERT_THRESHOLD_PCT:
+        triggers.append(("put", dist_put_pct, put_wall, False))
+
+    # ── 已突破/已跌穿（v1.5新增，唔設幅度上限——過咗界本身就係重點）──
+    if dist_call_pct < 0:   # 現價 > call_wall，已突破阻力
+        triggers.append(("call", abs(dist_call_pct), call_wall, True))
+    if dist_put_pct < 0:    # 現價 < put_wall，已跌穿支撐
+        triggers.append(("put", abs(dist_put_pct), put_wall, True))
+
+    if not triggers:
+        return None
+
+    # 優先揀「已突破」，再揀距離/幅度最細嗰個
+    triggers.sort(key=lambda t: (not t[3], t[1]))
+    wall_type, dist_pct, wall_price, is_breach = triggers[0]
+    return {
+        "wall_type": wall_type, "dist_pct": dist_pct,
+        "wall_price": wall_price, "is_breach": is_breach,
+    }
+
+async def gex_refresh_job(context: ContextTypes.DEFAULT_TYPE):
+    """
+    每30分鐘預熱 GEX cache（並行攞18隻，唔 block alert job）
+    ┌─────────────────────────────────────────────────┐
+    │ 18隻全部並行 → 最多等45秒（唔係45×18=810秒）  │
+    │ 成功 → 存入 _gex_live_cache（30分鐘TTL）        │
+    │ 失敗 → 保留舊cache / alert job fallback .md     │
+    └─────────────────────────────────────────────────┘
+    """
+    # ── 休市日（週末/假期）跳過，完全唔需要預熱 ──
+    if not is_nyse_trading_day():
+        et_now = datetime.datetime.now(US_TZ)
+        print(f"[{et_now.strftime('%H:%M')} ET] 🗓 NYSE休市（{et_now.strftime('%a %Y-%m-%d')}），跳過GEX預熱")
+        return
+
+    ts_str = datetime.datetime.now().strftime('%H:%M:%S')
+    print(f"[{ts_str}] 🔄 GEX預熱開始（{len(ALL_HOLDINGS)}隻並行，45秒timeout）...")
+
+    def _fetch_one_gex(sym: str) -> tuple[str, dict | None]:
+        """thread worker：攞單隻GEX，45秒timeout"""
+        try:
+            r = requests.get(
+                f"{FUTU_BRIDGE_URL}/api/gex/{sym.upper()}",
+                timeout=45
+            )
+            if r.status_code == 200:
+                d = r.json()
+                if d.get("call_wall") and d.get("put_wall"):
+                    return sym, d
+        except Exception as e:
+            print(f"   ⚠️ {sym} GEX timeout/error: {type(e).__name__}")
+        return sym, None
+
+    loop = context.application.loop if hasattr(context.application, 'loop') else __import__('asyncio').get_event_loop()
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(ALL_HOLDINGS)) as pool:
+        futures = {pool.submit(_fetch_one_gex, h["sym"]): h["sym"] for h in ALL_HOLDINGS}
+        success = 0
+        for future in concurrent.futures.as_completed(futures, timeout=50):
+            try:
+                sym, data = future.result()
+                if data:
+                    set_gex_live(sym, data)
+                    success += 1
+                    print(f"   ✅ {sym}: CW=${data['call_wall']:,.0f} PW=${data['put_wall']:,.0f}")
+            except Exception as e:
+                print(f"   ⚠️ future error: {e}")
+
+    print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] 🔄 GEX預熱完成 {success}/{len(ALL_HOLDINGS)} 隻已緩存")
+
+
+_SESS_SHORT = {"premarket": "盤前", "regular": "盤中", "afterhours": "盤後",
+               "overnight": "夜盤", "weekend": "週末"}
+
+async def gex_alert_job(context: ContextTypes.DEFAULT_TYPE):
+    """
+    每15分鐘背景job（快速版）：
+    ┌──────────────────────────────────────────────┐
+    │  現價  → Futu /api/quote 批量1個call（快）  │
+    │  GEX牆 → .md 內存緩存（60分鐘TTL，即時）   │
+    │  完全唔call fetch_futu_gex()（太慢！       │
+    │  每隻30秒×18隻=9分鐘，必定超時）            │
+    └──────────────────────────────────────────────┘
+    GEX牆每日更新一次完全夠用——警報精度在於現價
+    是否真的接近牆，牆本身唔係每分鐘都移動。
+    Futu離線時自動fallback Finnhub，唔會靜默失效。
+
+    v1.1：fetch_all_quotes_futu() 而家已經係session-aware（見
+    fetch_all_quotes_futu docstring），警報訊息會顯示緊用緊邊個
+    session嘅價（例如「Futu·盤後」），方便肉眼核實盤前/盤後/夜盤
+    警報係咪真係用緊即時價、唔再係得個name叫「Futu」但實際上係
+    舊last_price。
+    """
+    # ── 休市日跳過（週末 / NYSE 假期）──
+    if not is_nyse_trading_day():
+        et_now = datetime.datetime.now(US_TZ)
+        print(f"[{et_now.strftime('%H:%M')} ET] 🗓 NYSE休市（{et_now.strftime('%a %Y-%m-%d')}），跳過GEX警報")
+        return
+
+    ts_str = datetime.datetime.now().strftime('%H:%M:%S')
+    print(f"[{ts_str}] 🔍 GEX警報檢查...")
+
+    known_chats = get_known_chats()
+    if not known_chats:
+        print("   ⚠️ 暫無已知chat_id，略過")
+        return
+
+    # ── Step 1：批量攞現價（Futu T1，1個call）──
+    quotes  = fetch_all_quotes_futu()
+    futu_ok = bool(quotes)
+    if not futu_ok:
+        print("   ℹ️ Futu Bridge 離線，改用 Finnhub 報價")
+
+    alert_log       = load_gex_alert_log()
+    now_ts          = datetime.datetime.now().timestamp()
+    triggered_count = 0
+    skipped_no_wall = 0
+    skipped_no_price = 0
+
+    for h in ALL_HOLDINGS:
+        sym  = h["sym"]
+        name = h["name"]
+
+        # ── Step 2：現價（Futu批量 → Finnhub逐隻fallback）──
+        if futu_ok and sym in quotes:
+            q     = quotes[sym]
+            price = q["price"]
+            pct   = q.get("pct", 0)
+            sess  = q.get("session", "")
+            psrc  = f"Futu·{_SESS_SHORT.get(sess, sess)}" if sess else "Futu"
+        else:
+            live = fetch_live_quote(sym)          # Futu單隻 → Finnhub
+            if not live or not live.get("price"):
+                skipped_no_price += 1
+                continue
+            price = live["price"]
+            pct   = live.get("pct", 0)
+            src   = live.get("source", "?")
+            sess  = live.get("session", "")
+            psrc  = f"Futu·{_SESS_SHORT.get(sess, sess)}" if src == "futu_t1" and sess else src
+
+        # ── Step 3：GEX牆（優先 Futu live cache → fallback .md）──
+        # _gex_live_cache 由 gex_refresh_job 每30分鐘更新（即時Futu數據）
+        # .md 係每日Barchart快照，作保底fallback
+        gex_live = get_gex_live(sym)
+        if gex_live and gex_live.get("call_wall") and gex_live.get("put_wall"):
+            call_wall = gex_live["call_wall"]
+            put_wall  = gex_live["put_wall"]
+            flip      = gex_live.get("flip")
+            wall_src  = "Futu即時"
+        else:
+            md = fetch_stock_md(sym)              # 60分鐘內存緩存，極快
+            if not md:
+                skipped_no_wall += 1
+                continue
+            md_data   = parse_md(md)
+            call_wall = md_data.get("call_wall")
+            put_wall  = md_data.get("put_wall")
+            flip      = md_data.get("flip")
+            wall_src  = ".md快照"
+
+        if not call_wall or not put_wall:
+            skipped_no_wall += 1
+            print(f"   ⚠️ {sym}: 無GEX牆數據（wall_src={wall_src}）")
+            continue
+
+        # ── Step 4：proximity 檢查 ──
+        result = check_gex_proximity(sym, price, call_wall, put_wall)
+        if not result:
+            continue
+
+        wall_type  = result["wall_type"]
+        dist_pct   = result["dist_pct"]
+        wall_price = result["wall_price"]
+        is_breach  = result["is_breach"]   # v1.5新增
+
+        # ── Step 5：冷卻（1小時內不重複）──
+        # v1.5：log_key加返"_breach"後綴，令「逼近」轉「已突破」呢個狀態
+        # 轉變本身當做新事件、唔會俾返舊嘅「逼近」冷卻期擋住唔發——
+        # 呢個轉變（例如GOOGL由「仲喺Put Wall之上1.55%」變成「已經跌穿」）
+        # 正正係最需要即時通知嘅時刻。
+        log_key = f"{sym}_{wall_type}" + ("_breach" if is_breach else "")
+        if now_ts - alert_log.get(log_key, 0) < GEX_ALERT_COOLDOWN_SEC:
+            continue
+
+        # ── Step 6：推送（v1.3：Call Wall／Put Wall／Gamma Flip 三個水平
+        #    同時顯示，唔再淨係顯示觸發嗰邊嗰隻——call_wall/put_wall/flip
+        #    喺Step 3已經攞齊，呢度直接攞嚟用；觸發嗰個用⚠️標示。
+        #    v1.5：已突破/已跌穿用更搶眼嘅icon + 文字區分,唔再同「逼近」
+        #    共用「距離...僅X%」呢句唔啱意思嘅描述）──
+        wall_label = "Call Wall（阻力）" if wall_type == "call" else "Put Wall（支撐）"
+        arrow      = "▲" if pct >= 0 else "▼"
+        call_mark  = " ⚠️觸發" if wall_type == "call" else ""
+        put_mark   = " ⚠️觸發" if wall_type == "put"  else ""
+        flip_str   = f"\nGamma Flip：${flip:,.2f}" if flip else ""
+        src_note   = f"_{wall_src} GEX牆_"
+
+        if is_breach:
+            icon        = "🚨" if wall_type == "call" else "💥"
+            verb        = "已突破" if wall_type == "call" else "已跌穿"
+            action_line = f"{verb}{wall_label}：{dist_pct:.1f}%（超出wall本身嘅幅度）"
+        else:
+            icon        = "🔴" if wall_type == "call" else "🟢"
+            action_line = f"距離{wall_label}：僅 {dist_pct:.1f}%"
+
+        msg = (
+            f"{icon} *GEX警報：{sym}* — {name}\n\n"
+            f"現價（{psrc}）：${price:,.2f}　{arrow}{abs(pct):.2f}%\n"
+            f"{action_line}\n\n"
+            f"Call Wall（阻力）：${call_wall:,.2f}{call_mark}\n"
+            f"Put Wall（支撐）：${put_wall:,.2f}{put_mark}"
+            f"{flip_str}\n"
+            f"{src_note}\n\n"
+            f"_此警報1小時內不會重複發送_"
+        )
+
+        for chat_id in known_chats:
+            try:
+                await context.bot.send_message(
+                    chat_id=int(chat_id), text=msg, parse_mode="Markdown"
+                )
+            except Exception as e:
+                print(f"   ⚠️ 推送chat_id={chat_id}失敗: {e}")
+
+        alert_log[log_key] = now_ts
+        triggered_count   += 1
+        breach_tag = "（已突破）" if is_breach else "（逼近）"
+        print(f"   🔔 觸發{breach_tag}：{sym} {wall_label} {dist_pct:.1f}% [{psrc}]")
+
+    if triggered_count > 0:
+        save_gex_alert_log(alert_log)
+
+    print(
+        f"   ✅ 完成 | 警報:{triggered_count} | "
+        f"無牆:{skipped_no_wall} | 無價:{skipped_no_price} | "
+        f"報價來源:{'Futu T1' if futu_ok else 'Finnhub'}"
+    )
+
+# ═══════════════════════════════════════════════════
+# /ask 指令：自由問任何投資問題，AI結合持倉上下文回答
+# ═══════════════════════════════════════════════════
+# 識別問題中提到嘅股票代號（持倉 + 常見watchlist）
+_WATCHLIST_EXTRA = {"SPCX", "TSLA", "AMD", "INTC", "IONQ", "RGTI", "TXN"}
+
+def _extract_syms_from_text(text: str) -> list[str]:
+    """從自然語言問題中提取可能嘅股票代號（2-5個英文大寫字母）"""
+    known = {h["sym"] for h in ALL_HOLDINGS} | _WATCHLIST_EXTRA
+    words = text.upper().replace("？","").replace("?","").replace("，","").replace(",","").split()
+    found = []
+    for w in words:
+        clean = w.strip(".,!！。、")
+        if clean in known:
+            found.append(clean)
+        elif 2 <= len(clean) <= 5 and clean.isalpha() and clean not in {"THE","AND","FOR","ARE","BUT","NOT","YOU","ALL","CAN","HAS","WAS","HOW"}:
+            found.append(clean)
+    # 去重,保持順序
+    seen = set()
+    result = []
+    for s in found:
+        if s not in seen:
+            seen.add(s)
+            result.append(s)
+    return result[:3]  # 最多3隻
+
+
+def _fetch_news_summary(sym: str) -> str:
+    """攞Finnhub最新新聞標題(最多3條)做AI上下文用"""
+    try:
+        import datetime as dt
+        to_date   = dt.date.today().isoformat()
+        from_date = (dt.date.today() - dt.timedelta(days=7)).isoformat()
+        url = f"https://finnhub.io/api/v1/company-news?symbol={sym}&from={from_date}&to={to_date}&token={FINNHUB_KEY}"
+        r = requests.get(url, timeout=8)
+        if r.status_code == 200:
+            items = r.json()[:3]
+            if items:
+                headlines = [f"- {n.get('headline','')}" for n in items if n.get('headline')]
+                return "\n".join(headlines)
+    except Exception:
+        pass
+    return ""
+
+
+async def cmd_ask(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """
+    /ask 自由問任何投資問題
+    例：
+      /ask RKLB 同SpaceX有咩競爭關係?
+      /ask SPCX 現時買賣力比例分析
+      /ask 波斯灣局勢對核能股LEU影響
+      /ask PLTR軍事AI合約比例有幾高
+    """
+    register_chat(update.effective_chat.id)
+
+    if not context.args:
+        await update.message.reply_text(
+            "📝 *用法：/ask <問題>*\n\n"
+            "可以問任何投資相關問題，AI會結合你嘅持倉上下文回答：\n\n"
+            "例：\n"
+            "/ask RKLB 同SpaceX有咩競爭關係?\n"
+            "/ask SPCX 現時買賣力比例\n"
+            "/ask 波斯灣局勢對核能股LEU影響\n"
+            "/ask 美聯儲加息對我持倉有咩影響",
+            parse_mode="Markdown"
+        )
+        return
+
+    question = " ".join(context.args)
+    await update.message.reply_text("🤔 分析中，請稍候...")
+
+    # 1. 識別問題中嘅股票代號
+    mentioned_syms = _extract_syms_from_text(question)
+
+    # 2. 為提到嘅持倉股票附加GEX+現價數據
+    gex_context_parts = []
+    for sym in mentioned_syms:
+        md = fetch_stock_md(sym)
+        live = fetch_live_quote(sym)
+        price_str = f"${live['price']:,.2f} [{live.get('source','?')}]" if live and live.get("price") else "N/A"
+        if md:
+            data = parse_md(md)
+            gex_context_parts.append(
+                f"{sym} 現價：{price_str}｜"
+                f"Put Wall：${data.get('put_wall','N/A')}｜"
+                f"Call Wall：${data.get('call_wall','N/A')}｜"
+                f"Gamma Flip：${data.get('flip','N/A')}｜"
+                f"狀態：{data.get('status','N/A')}"
+            )
+        elif live and live.get("price"):
+            gex_context_parts.append(f"{sym} 現價：{price_str}（非持倉，無GEX數據）")
+
+    # 3. 為提到嘅股票搵最新新聞
+    news_parts = []
+    for sym in mentioned_syms[:2]:
+        headlines = _fetch_news_summary(sym)
+        if headlines:
+            news_parts.append(f"{sym} 最新新聞：\n{headlines}")
+
+    # 4. 組裝prompt
+    portfolio_brief = "、".join([f"{h['sym']}({h['name']})" for h in ALL_HOLDINGS])
+    gex_section  = ("\n\n相關持倉GEX數據：\n" + "\n".join(gex_context_parts)) if gex_context_parts else ""
+    news_section = ("\n\n最新新聞上下文：\n" + "\n".join(news_parts)) if news_parts else ""
+
+    prompt = f"""你是一位專業投資分析師，正在協助一位已退休的保守型投資者（風險承受能力中低，關注下跌風險多於追求最高回報）。
+
+用戶持倉（18隻美股）：{portfolio_brief}
+{gex_section}{news_section}
+
+用戶問題：{question}
+
+請用繁體中文回答（可加少量粵語表達），語氣專業、具體、直接。
+回覆控制在200字以內，唔好用免責聲明套話。
+如問到特定股票，請結合以上GEX數據從操作角度給出看法。
+如問到非持倉股票（例如SPCX），請根據公開資料分析，並指出與持倉相關聯係。"""
+
+    answer = ask_ai(prompt)
+    
+    # 標注引用咗咩數據
+    data_sources = []
+    if gex_context_parts:
+        data_sources.append(f"GEX: {', '.join(mentioned_syms)}")
+    if news_parts:
+        data_sources.append("最新新聞")
+    source_note = f"\n\n_📊 數據：{' + '.join(data_sources)}_" if data_sources else ""
+
+    await update.message.reply_text(
+        f"🤖 *AI分析*：\n\n{answer}{source_note}",
+        parse_mode="Markdown"
+    )
+
+# ═══════════════════════════════════════════════════
+# /help 指令
+# ═══════════════════════════════════════════════════
+async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    register_chat(update.effective_chat.id)
+    msg = f"""🤖 *GEX持倉監控 Bot* `v{BOT_VERSION}`
+
+/gex NVDA — 查單隻GEX數據 + AI分析
+/ask RKLB 同SpaceX有咩關係? — 自由問AI
+/report — 今日全部18隻持倉摘要
+/pnl — 計算持倉總盈虧
+/alert NVDA above 210 — 設定價格警報
+/alert list — 列出所有警報
+/alert remove NVDA — 移除警報
+/help — 顯示此說明
+
+報價來源：Futu T1（session-aware，主）→ Finnhub（備用）
+GEX數據每日21:00更新（來源：Futu期權鏈）
+
+🔔 *自動GEX警報*（已啟用，無需設定）
+當任何持倉現價距離Call/Put Wall < 3%時
+會自動主動通知你（每15分鐘檢查一次，
+同一警報1小時內不重複發送）"""
+    await update.message.reply_text(msg, parse_mode="Markdown")
+
+# ═══════════════════════════════════════════════════
+# /start 指令
+# ═══════════════════════════════════════════════════
+async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    register_chat(update.effective_chat.id)
+    await update.message.reply_text(
+        "👋 歡迎使用GEX持倉監控Bot！\n輸入 /help 查看所有指令\n\n"
+        "🔔 自動GEX警報已為你啟用，當持倉逼近Call/Put Wall時會主動通知"
+    )
+
+# ═══════════════════════════════════════════════════
+# 未知指令（避免Telegram靜默無回應）
+# ═══════════════════════════════════════════════════
+async def cmd_unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    register_chat(update.effective_chat.id)
+    text = update.message.text or ""
+    await update.message.reply_text(
+        f"⚠️ 未知指令：{text}\n"
+        "輸入 /help 查看可用指令清單"
+    )
+
+# ═══════════════════════════════════════════════════
+# 主程式
+# ═══════════════════════════════════════════════════
+def main():
+    print(f"🤖 GEX Telegram Bot v{BOT_VERSION} 啟動中...")
+
+    # 自我檢查：確保key已填好，唔再係佔位字
+    if TELEGRAM_BOT_TOKEN == "YOUR_TELEGRAM_BOT_TOKEN" or not TELEGRAM_BOT_TOKEN:
+        print("❌ 錯誤：TELEGRAM_BOT_TOKEN 仍未填入，請編輯腳本第44行")
+        return
+    if OPENROUTER_API_KEY == "YOUR_OPENROUTER_API_KEY" or not OPENROUTER_API_KEY:
+        print("⚠️ 警告：OPENROUTER_API_KEY 仍未填入，AI分析功能將無法使用")
+        print("   （/gex /report /pnl 等基本功能不受影響，只係AI分析部分會錯誤）")
+
+    # 延長逾時時間（預設5秒對某些Windows網絡環境太短）
+    # 並指明用IPv4，避免IPv6解析延遲導致逾時
+    request = HTTPXRequest(
+        connect_timeout=30.0,
+        read_timeout=30.0,
+        write_timeout=30.0,
+        pool_timeout=30.0,
+    )
+
+    app = (
+        Application.builder()
+        .token(TELEGRAM_BOT_TOKEN)
+        .request(request)
+        .get_updates_request(request)
+        .build()
+    )
+
+    app.add_handler(CommandHandler("start",  cmd_start))
+    app.add_handler(CommandHandler("help",   cmd_help))
+    app.add_handler(CommandHandler("gex",    cmd_gex))
+    app.add_handler(CommandHandler("report", cmd_report))
+    app.add_handler(CommandHandler("pnl",    cmd_pnl))
+    app.add_handler(CommandHandler("alert",  cmd_alert))
+    app.add_handler(CommandHandler("ask",    cmd_ask))
+
+    # GEX 預熱 job（每30分鐘，並行攞18隻Futu即時GEX）
+    app.job_queue.run_repeating(
+        gex_refresh_job,
+        interval=1800,   # 30 分鐘
+        first=60,        # 啟動後60秒先跑第一次（等OpenD穩定）
+        name="gex_refresh"
+    )
+    # 捕捉所有未匹配嘅指令（必須放最後，唔阻擋上面已註冊嘅指令）
+    app.add_handler(MessageHandler(filters.COMMAND, cmd_unknown))
+
+    # 背景GEX警報：每15分鐘檢查一次，啟動後10秒先首次執行
+    if app.job_queue:
+        app.job_queue.run_repeating(
+            gex_alert_job,
+            interval=900,    # 15分鐘 = 900秒
+            first=10,         # 啟動後10秒首次執行
+        )
+        print("🔔 自動GEX警報已啟用（每15分鐘檢查，距離Wall<3%觸發）")
+    else:
+        print("⚠️ job_queue未能初始化，自動GEX警報功能停用")
+        print("   請確認已安裝：pip install \"python-telegram-bot[job-queue]\"")
+
+    print("✅ Bot 已啟動，等待Telegram指令...")
+    print("   （按 Ctrl+C 停止）")
+    app.run_polling()
+
+if __name__ == "__main__":
+    main()
