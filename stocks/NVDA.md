@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-07-23 15:10 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,7 +35,7 @@
 NEW YORK CITY, NY / ACCESS Newswire / July 23, 2026 / Just eight months after announcing its Seed round, Reo.Dev, the AI-native GTM platform built for companies…
 
 - **[The 2 Best Dividend Stocks to Buy Now and Hold Forever](https://finnhub.io/api/news?id=14015521fcf3e6e888857b90e4e28b9e4b9a05bd5f8b3521c94b8aea70d67ea3)**  
-*Yahoo · 1h前*  
+*Yahoo · 2h前*  
 These top beverage brands can potentially pay you dividends for life.
 
 - **[Mega IPOs Like SpaceX Reshape Major Index Funds and ETFs](https://finnhub.io/api/news?id=5f426cdfd38de58a713fcc10a8ebdb18e37e8c418fb68caffb805f7c9a5d179d)**  
@@ -59,4 +59,4 @@ An IPO doesn't just move the value of the new stock. Here's how the SpaceX IPO h
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:10 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
