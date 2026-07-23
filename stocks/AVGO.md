@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-06-23 16:17 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:10 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$392.13** |
-| 今日變動 | ▼ $19.22　(-4.67%) |
+| 現價 | **$396.81** |
+| 今日變動 | ▲ $10.31　(+2.67%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▲ $163　(▲4.4%) |
+| 未實現盈虧 | ▲ $210　(▲5.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $387.62 | — |
-| Put Wall（支撐） | $380.00 | 距離 3.1% |
-| Call Wall（阻力） | $400.00 | 距離 2.0% |
+| Gamma Flip | $375.32 | — |
+| Put Wall（支撐） | $380.00 | 距離 4.2% |
+| Call Wall（阻力） | $400.00 | 距離 0.8% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[NVIDIA Stock's Next Big Move Might Not Involve A GPU](https://finnhub.io/api/news?id=f004c248910cc97231686a7b8fbe83c29fb435e67f7b3a256661d9238066c70f)**  
-*Yahoo · 6h前*  
-With all eyes on the company's AI chip dominance, it's quietly opening a massive new front in a market it has never touched before.
+- **[Chasing Yield Is a Trap. These 3 Dividend ETFs Pay You Without the Risk](https://finnhub.io/api/news?id=5afbca660a71ac38443ab27bfd992f205d6ee1cbc11e9f6c217f570babec2b83)**  
+*Yahoo · 8h前*  
+A fat dividend yield can feel like found money, but experienced investors know it sometimes signals a stock in freefall. Three ETFs take a smarter approach to p…
 
-- **[Broadcom's AI Revenue Is on Pace to Triple to $16 Billion in a Single Quarter, but the Stock Just Dipped 17%. Is This an Opportunity to Buy the Dip?](https://finnhub.io/api/news?id=660a402b56dae407427945a9fa0d5908306c790678a618e2e5a4608f20669fc0)**  
+- **[Wall Street Banks Trading Parts of $35 Billion AI Chip Deal](https://finnhub.io/api/news?id=7022a5f5b164d3f482280844073b7dfeabf8401ddfa560d4c2b5882fffc0f6b9)**  
+*Yahoo · 9h前*  
+(Bloomberg) -- Wall Street banks have started buying and selling an initial piece of a $35 billion financing package for Broadcom Inc. and Anthropic PBC’s AI in…
+
+- **[This $222 Billion Vanguard ETF Is Trailing the S&P 500. That Almost Never Happens.](https://finnhub.io/api/news?id=be503855ab24e806291590eed486d6335f2fedc1957adc43a3152faea511cd3b)**  
 *Yahoo · 10h前*  
-Accelerating AI chip demand may give this top chip stock a second wind.
-
-- **[The Market Is Panicking on Broadcom. This Is Why I Keep Buying The Stock](https://finnhub.io/api/news?id=560ad2b9b219c1b1c32a832905b24e086612e815643d704a1b83d3d9550f5b70)**  
-*Yahoo · 11h前*  
-I keep clicking buy on Broadcom (NASDAQ:AVGO) because the math is too good to walk away from, even with a $39 trillion national debt clock ticking and new Fed C…
+Vanguard's flagship growth ETF has spent a decade crushing the market, but something shifted in 2026 and the two signals now driving its fate have nothing to do…
 
 ---
 
@@ -48,7 +48,7 @@ I keep clicking buy on Broadcom (NASDAQ:AVGO) because the math is too good to wa
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-23 | 監控 | $392.13 | — | 自動更新 |
+| 2026-07-23 | 監控 | $396.81 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ I keep clicking buy on Broadcom (NASDAQ:AVGO) because the math is too good to wa
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-23 16:17 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:10 HKT*
