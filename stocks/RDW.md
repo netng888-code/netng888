@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,8 +21,8 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $9.12 | — |
-| Put Wall（支撐） | $8.00 | 距離 11.0% |
-| Call Wall（阻力） | $9.00 | 距離 0.1% |
+| Put Wall（支撐） | $8.00 | -11.0% |
+| Call Wall（阻力） | $9.00 | +0.1% |
 
 **狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
@@ -59,4 +59,4 @@ Redwire Q1 2026 saw revenue jump 58% and margins improve, but dilution, weak org
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
