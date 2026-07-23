@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-06-23 16:17 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 15:10 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$1,211.38** |
-| 今日變動 | ▲ $77.39　(+6.82%) |
+| 現價 | **$959.48** |
+| 今日變動 | ▼ $11.34　(-1.17%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $1,961　(▲117.1%) |
+| 未實現盈虧 | ▲ $1,205　(▲72.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | N/A（抓取失敗） | — |
-| Put Wall（支撐） | N/A | — |
-| Call Wall（阻力） | N/A | — |
+| Gamma Flip | $935.14 | — |
+| Put Wall（支撐） | $800.00 | 距離 16.6% |
+| Call Wall（阻力） | $1,000.00 | 距離 4.2% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Cerebras Just Had Its IPO. Now, the Chip Maker Faces Its Next Big Test.](https://finnhub.io/api/news?id=fd1c476f45a16b575299ccf13fd4c2d0871f8907bc411ec7bf0f34c8a7540338)**  
-*Yahoo · 2h前*  
-Cerebras Systems, an AI chip maker, anticipates first-quarter sales of $181 million, an 82% increase year-over-year.
+- **[Jim Cramer reveals 4 surging chip stocks he likes best](https://finnhub.io/api/news?id=20b784be1d53c1dd4982a9f211def2334cd041f655ca0ed39e188d452d53f394)**  
+*Yahoo · 3h前*  
+I have covered each of the following four stocks separately over the past few weeks:Micron's historic earnings. Intel's painful turnaround. AMD's server CPU adv…
 
-- **[Navellier explains why Micron is better than SpaceX](https://finnhub.io/api/news?id=fc0d4b5c9a75be2cceb43a25156124de8020d51ce6403983b143236146c9599d)**  
+- **[MU, SNDK, SKHY Stocks Jump: Google's AI Hunger, Elon Musk's Micron Shoutout Send Memory Bulls Charging](https://finnhub.io/api/news?id=a98e9459a6f5b449591d3c834b7c72aff657f0babc99cc984f65d26a1a4fe40c)**  
 *Yahoo · 4h前*  
-Micron Technology’s (MU) earnings announcement on June 24 is expected to be the grand finale to a stunning earnings announcement season. For the most recently r…
+The robust pace of Alphabet’s spending is a positive signal for its vendors and partners, particularly chipmakers.
 
-- **[Micron (MU) Q2 Earnings: What To Expect](https://finnhub.io/api/news?id=737ac6953a81766b38d31a017df829c2cdbd8f7bbea128cf91f6411a321ba1b0)**  
-*Yahoo · 5h前*  
-Memory chips maker Micron (NASDAQ:MU) will be reporting results this Wednesday after market hours. Here’s what to expect.
+- **[The Ultimate Bull Run for NVIDIA, Micron, and SanDisk May Be Closer Than Investors Think](https://finnhub.io/api/news?id=ba97f512051bcb3ff34f5b053034254bf48537ab59106dd3a8836af4d4cb86cb)**  
+*Yahoo · 9h前*  
+A top tech investor just flipped the scariest AI narrative on its head, arguing that the very trend spooking NVIDIA bulls could actually send infrastructure sto…
 
 ---
 
@@ -48,7 +48,7 @@ Memory chips maker Micron (NASDAQ:MU) will be reporting results this Wednesday a
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-06-23 | 監控 | $1,211.38 | — | 自動更新 |
+| 2026-07-23 | 監控 | $959.48 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Memory chips maker Micron (NASDAQ:MU) will be reporting results this Wednesday a
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-06-23 16:17 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 15:10 HKT*
