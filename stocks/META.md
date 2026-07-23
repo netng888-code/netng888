@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-07-23 15:26 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,8 +21,8 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $593.61 | — |
-| Put Wall（支撐） | $600.00 | 距離 4.3% |
-| Call Wall（阻力） | $750.00 | 距離 19.6% |
+| Put Wall（支撐） | $600.00 | -4.3% |
+| Call Wall（阻力） | $750.00 | +19.6% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[BlackRock Leads $12B Meta Data Center Debt, Buys Aligned](https://finnhub.io/api/news?id=edfb93553c9dc290d9c44da0341f51c1d12b706dc699cc8f6c5645ed70eaa02e)**  
-*Yahoo · 3h前*  
-BlackRock cements its role in the AI data center sector, financing Meta’s $12B Texas project and closing a $40B Aligned acquisition.
+- **[Space Exploration Technologies Corp. (SPCX) Stock Just Lost $1 Trillion in a Month. Is the Selloff a Buying Opportunity or a Warning?](https://finnhub.io/api/news?id=d4d2d0cdc0becf68cd373c1ab49d031868f8ffc8a75437d6788517e750ac861e)**  
+*Yahoo · 1h前*  
+Space Exploration Technologies Corp. (NASDAQ:SPCX) stock fell for a seventh straight session on Monday, dropping 3.3% to $119.85. That’s below its $135 IPO pric…
 
-- **[Jim Cramer reveals 4 surging chip stocks he likes best](https://finnhub.io/api/news?id=20b784be1d53c1dd4982a9f211def2334cd041f655ca0ed39e188d452d53f394)**  
-*Yahoo · 3h前*  
-I have covered each of the following four stocks separately over the past few weeks:Micron's historic earnings. Intel's painful turnaround. AMD's server CPU adv…
+- **[CrowdStrike Just Became Wall Street's Newest Stock-Split Stock, but Something More "Magnificent" May Be Next](https://finnhub.io/api/news?id=32b38bcc64c31eb3cc8ddf7a5be2072bdaffbe84e5c25feef8c9de7f856a041d)**  
+*Yahoo · 1h前*  
+The stars are aligning for a special member of the "Magnificent Seven" to become the next blockbuster stock split.
 
-- **[Prediction: Meta Platforms Will Soar on July 29 When It Makes This Announcement](https://finnhub.io/api/news?id=8813e03fc0d2d8aba84e1b4d02ca7664886b40a038e1ccc57468b2a948de3ebf)**  
-*Yahoo · 3h前*  
-Alphabet's latest report makes it a no-brainer.
+- **[Alphabet Stock Is Falling as AI Spending Continues to Mount](https://finnhub.io/api/news?id=3184d88998bc8e339249f324e06e1d4051cf945c0c76789e37a5300d9726a303)**  
+*Yahoo · 4h前*  
+Alphabet  reported blowout earnings results late Wednesday, but the stock is dropping after the search giant again raised its forecast for capital expenditures.…
 
 ---
 
@@ -59,4 +59,4 @@ Alphabet's latest report makes it a no-brainer.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 15:26 HKT*
+*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
