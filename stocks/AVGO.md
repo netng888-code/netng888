@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-24 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$396.81** |
-| 今日變動 | ▲ $10.31　(+2.67%) |
+| 現價 | **$392.47** |
+| 今日變動 | ▼ $4.34　(-1.09%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▲ $210　(▲5.6%) |
+| 未實現盈虧 | ▲ $167　(▲4.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $375.32 | — |
-| Put Wall（支撐） | $380.00 | -4.2% |
-| Call Wall（阻力） | $400.00 | +0.8% |
+| Gamma Flip | $377.98 | — |
+| Put Wall（支撐） | $380.00 | -3.2% |
+| Call Wall（阻力） | $400.00 | +1.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Taiwan Semiconductor Manufacturing Company Limited (TSM) Is Raising Prices Up to 10%. Can Customers Push Back?](https://finnhub.io/api/news?id=3668b0d23eca979a405fbfb4b39704f6e364b7cae9fb52bfc9e2c3881efb0b73)**  
+- **[Latest News In AI Chips - AMD and Cerebras Team Up for AI Infrastructure Enhancement](https://finnhub.io/api/news?id=c2ed98dd512ddc2c81f1d4b38e1ebb922d7839147f6bdf6071206affb8eb4650)**  
 *Yahoo · 1h前*  
-Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) plans to raise chipmaking prices by up to 10% starting in 2027, according to Nikkei Asia, citing m…
+AMD and Cerebras Systems have unveiled a collaboration aimed at enhancing AI inference infrastructure through a new disaggregated solution. This partnership int…
 
-- **[Blackstone Profits Jump, Boosted by Exits and Winning Bets on AI](https://finnhub.io/api/news?id=2ec3d9d756f81b920bc6564d7972f9c703fae1f65f496c4b4fdd97bbc9dc9ba0)**  
+- **[Samsung, SK Hynix to Ink Large Chip Supply Deals with US Firms](https://finnhub.io/api/news?id=a6b2c5a17e1ab6482d661f9176059f2826832d86073e0cf3f08678adbf1d1311)**  
 *Yahoo · 2h前*  
-(Bloomberg) -- Blackstone Inc. reported a 26% jump in distributable earnings for the second quarter, buoyed by profits from exits and its artificial intelligenc…
+(Bloomberg) -- Samsung Electronics Co. and SK Hynix Inc. are set to unveil major agreements involving “very large” sums with leading US technology companies dur…
 
-- **[Prediction: Despite Its Recent Pullback, Broadcom Will Beat the S&P 500 for the Third Consecutive Year](https://finnhub.io/api/news?id=a509e08aa0c0232bde944f91aed03f84184c4d22c9fb8083a328614896c05776)**  
-*Yahoo · 2h前*  
-Broadcom stumbled after earnings, but here's why I think the AI giant still has what it takes to beat the market for a third straight year.
+- **[Broadcom (AVGO) Lands At The Center Of A $35 Billion AI Financing Trade](https://finnhub.io/api/news?id=7c72d6a511f98dda79268566eb156a86f9e2dbd35c68c4e3306b66ad63cbe9f7)**  
+*Yahoo · 5h前*  
+Wall Street banks have begun trading pieces of a $35b financing package tied to Broadcom and Anthropic's AI chip and infrastructure build out. The transactions …
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom stumbled after earnings, but here's why I think the AI giant still has 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-23 | 監控 | $396.81 | — | 自動更新 |
+| 2026-07-24 | 監控 | $392.47 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom stumbled after earnings, but here's why I think the AI giant still has 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-24 21:03 HKT*
