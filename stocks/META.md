@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$627.17** |
-| 今日變動 | ▼ $16.64　(-2.58%) |
+| 現價 | **$606.10** |
+| 今日變動 | ▼ $21.07　(-3.36%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $63　(▲3.4%) |
+| 未實現盈虧 | ▼ $1　(▼0.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $593.61 | — |
-| Put Wall（支撐） | $600.00 | -4.3% |
-| Call Wall（阻力） | $750.00 | +19.6% |
+| Gamma Flip | $598.24 | — |
+| Put Wall（支撐） | $600.00 | -1.0% |
+| Call Wall（阻力） | $750.00 | +23.7% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Space Exploration Technologies Corp. (SPCX) Stock Just Lost $1 Trillion in a Month. Is the Selloff a Buying Opportunity or a Warning?](https://finnhub.io/api/news?id=d4d2d0cdc0becf68cd373c1ab49d031868f8ffc8a75437d6788517e750ac861e)**  
+- **[Indian payments firms flag competition risks in one-click UPI checkout- report](https://finnhub.io/api/news?id=ab3f5a62f24b37663fd63ca063f7b32b414848aad6c0163dc5572478bfe958f9)**  
 *Yahoo · 1h前*  
-Space Exploration Technologies Corp. (NASDAQ:SPCX) stock fell for a seventh straight session on Monday, dropping 3.3% to $119.85. That’s below its $135 IPO pric…
+The companies have sent their concerns in a letter to the National Payments Corporation of India (NPCI).
 
-- **[CrowdStrike Just Became Wall Street's Newest Stock-Split Stock, but Something More "Magnificent" May Be Next](https://finnhub.io/api/news?id=32b38bcc64c31eb3cc8ddf7a5be2072bdaffbe84e5c25feef8c9de7f856a041d)**  
-*Yahoo · 1h前*  
-The stars are aligning for a special member of the "Magnificent Seven" to become the next blockbuster stock split.
+- **[Meta’s Latest AI Data Center Debt Raise Could Reportedly Cost More Than Its 2025 Record Deal](https://finnhub.io/api/news?id=352a5e4986749d27801deba9c003e3a5941135148c19148a9a5db96f983c789a)**  
+*Yahoo · 2h前*  
+According to a Financial Times report, investors want yields above 7%, roughly 0.4 percentage points higher than Meta paid during its previous record $27 billio…
 
-- **[Alphabet Stock Is Falling as AI Spending Continues to Mount](https://finnhub.io/api/news?id=3184d88998bc8e339249f324e06e1d4051cf945c0c76789e37a5300d9726a303)**  
-*Yahoo · 4h前*  
-Alphabet  reported blowout earnings results late Wednesday, but the stock is dropping after the search giant again raised its forecast for capital expenditures.…
+- **[Relax, $100 Oil Is No Sweat for Stocks—But There Is a Panic Point](https://finnhub.io/api/news?id=fc2b800e22c770ef5b9dd1a77a76178e1935f63a32959248c2bb7ace2cf9d740)**  
+*Yahoo · 2h前*  
+Intel beats expectations, Alphabet feels the sting of SpaceX’s stock drop, and more news to start your day.
 
 ---
 
@@ -48,7 +48,7 @@ Alphabet  reported blowout earnings results late Wednesday, but the stock is dro
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-23 | 監控 | $627.17 | — | 自動更新 |
+| 2026-07-24 | 監控 | $606.10 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Alphabet  reported blowout earnings results late Wednesday, but the stock is dro
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-24 21:04 HKT*
