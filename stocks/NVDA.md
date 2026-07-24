@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$212.06** |
-| 今日變動 | ▲ $4.77　(+2.30%) |
+| 現價 | **$208.76** |
+| 今日變動 | ▼ $3.30　(-1.56%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $519　(▲32.4%) |
+| 未實現盈虧 | ▲ $486　(▲30.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $197.59 | — |
-| Put Wall（支撐） | $200.00 | -5.7% |
-| Call Wall（阻力） | $210.00 | +-1.0% |
+| Gamma Flip | $200.13 | — |
+| Put Wall（支撐） | $200.00 | -4.2% |
+| Call Wall（阻力） | $210.00 | +0.6% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia, Teradyne, and Omnicell Earnings Set to Test Robotics Sector’s Divergent Momentum](https://finnhub.io/api/news?id=2b1032d976c31af0d2a5d4d93fce6eec95c93438ccc54b27cf075e7ff1ef4770)**  
-*ChartMill · 0h前*  
-Robotics and automation stocks enter a high-conviction earnings week with key reports from NVIDIA, Teradyne, and Omnicell. These results will test sector moment…
-
-- **[Is Apple Stock a Buy Right Now?](https://finnhub.io/api/news?id=2f9c06763abb5a83a5d6862b348f9fe26b294f9302999e6e0b377d783f4ebea0)**  
+- **[Here's Why Aehr Test Systems Stock Surged Higher This Week](https://finnhub.io/api/news?id=d4f1ec46b7f331f05f871436f5920acb394e29afbf8e6d31c6069da099bcaa84)**  
 *Yahoo · 1h前*  
-Shares in the dominant consumer tech enterprise have soared 22% so far in 2026.
+The stock continues to trade as a proxy for AI semiconductor investment, and for good reason.
 
-- **[You Can Do Better Than Coca-Cola Stock. Buy This High-Yield Dividend Stock Instead.](https://finnhub.io/api/news?id=847304715b842f53df679e2abc6bf76f38df839053e929114edd054b97b20fe0)**  
+- **[Rigetti Computing Is Trading Under $15: Is Now the Time to Buy?](https://finnhub.io/api/news?id=2553195e5764a1f32288b932addbc08e13fa64b8b24284e9e3604d4a6eec206f)**  
 *Yahoo · 1h前*  
-Investors can receive monthly dividends and nearly twice the yield at a far lower valuation.
+Is this quantum computing stock a steal at this price?
+
+- **[Here's Why Hyperliquid Is Now a Threat to Robinhood, Kalshi, and Polymarket](https://finnhub.io/api/news?id=77cf8ae07305cf9e26375b08075afba98a71a476aa3b111f1e730f1b266c8bc2)**  
+*Yahoo · 1h前*  
+The decentralized exchange now has a capability that Robinhood lacks.
 
 ---
 
@@ -48,7 +48,7 @@ Investors can receive monthly dividends and nearly twice the yield at a far lowe
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-23 | 監控 | $212.06 | — | 自動更新 |
+| 2026-07-24 | 監控 | $208.76 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Investors can receive monthly dividends and nearly twice the yield at a far lowe
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-24 21:04 HKT*
