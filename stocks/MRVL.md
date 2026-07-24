@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$210.99** |
-| 今日變動 | ▲ $3.03　(+1.46%) |
+| 現價 | **$209.32** |
+| 今日變動 | ▼ $1.67　(-0.79%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $463　(▼18.0%) |
+| 未實現盈虧 | ▼ $480　(▼18.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $202.13 | — |
-| Put Wall（支撐） | $200.00 | -5.2% |
-| Call Wall（阻力） | $200.00 | +-5.2% |
+| Gamma Flip | $201.92 | — |
+| Put Wall（支撐） | $200.00 | -4.5% |
+| Call Wall（阻力） | $200.00 | +-4.5% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Did AI-Euphoria and Volatile Options Pricing Just Shift Marvell Technology's (MRVL) Investment Narrative?](https://finnhub.io/api/news?id=aa6c218c4e80f3985efa747cb1d68157a8e997a761f90959d7140820c4d94044)**  
-*Yahoo · 12h前*  
-In recent months, Marvell Technology has been at the center of renewed AI-chip enthusiasm, buoyed by sector-wide optimism, accelerating AI-related bookings, and…
+- **[Is Marvell Technology the New Nvidia?](https://finnhub.io/api/news?id=2493b412c4d7cbb20cac1e7ff1848d23cd25818f59f0dfebfaf551a770ef89f9)**  
+*Yahoo · 4h前*  
+Nvidia is a significant Marvell investor.
 
-- **[Marvell Technology (MRVL) Gains As Market Dips: What You Should Know](https://finnhub.io/api/news?id=17a3ecf9c726f2126145833dc944e9be98471bcd310d8e5cf8a1def433ed9ca5)**  
-*Yahoo · 15h前*  
-Marvell Technology (MRVL) closed the most recent trading day at $210.99, moving +1.46% from the previous trading session.
+- **[Marvell Technology vs. Nvidia: What Do the Revenue Trends of These Artificial Intelligence Companies Tell Investors?](https://finnhub.io/api/news?id=d6b3e1df12292ffbe4ed84c37916fb3490b803b242db182fe789d56771bd98a5)**  
+*Yahoo · 17h前*  
+Nvidia's latest quarter hit $81.6 billion while Marvell reached $2.4 billion — a 34x gap that's only widened over eight quarters.
 
-- **[Astera Labs Rides on Strong Taurus Demand: More Upside Ahead?](https://finnhub.io/api/news?id=73d19746b07e8a0ca46615400bd7e1db4f71a592c139b6e9057d203a312956b1)**  
-*Yahoo · 20h前*  
-ALAB rides on strong Taurus demand as AI infrastructure spending fuels growth, expands its connectivity portfolio and supports upbeat revenue guidance.
+- **[Marvell Technology Stock And The Forecast It Kept Outgrowing](https://finnhub.io/api/news?id=a24b54f17e1d5f6f60f934b737c54429e46e02d8bb38d2e086109b3ab9a14f38)**  
+*Yahoo · 17h前*  
+The chipmaker kept telling investors its own AI targets were too low, but the message took a while to land.
 
 ---
 
@@ -48,7 +48,7 @@ ALAB rides on strong Taurus demand as AI infrastructure spending fuels growth, e
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-23 | 監控 | $210.99 | — | 自動更新 |
+| 2026-07-24 | 監控 | $209.32 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ ALAB rides on strong Taurus demand as AI infrastructure spending fuels growth, e
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-24 21:04 HKT*
