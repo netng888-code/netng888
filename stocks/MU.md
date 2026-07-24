@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-07-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-24 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$959.48** |
-| 今日變動 | ▼ $11.34　(-1.17%) |
+| 現價 | **$990.21** |
+| 今日變動 | ▲ $30.73　(+3.20%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $402　(▲72.0%) |
+| 未實現盈虧 | ▲ $432　(▲77.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $935.14 | — |
-| Put Wall（支撐） | $800.00 | -16.6% |
-| Call Wall（阻力） | $1,000.00 | +4.2% |
+| Gamma Flip | $938.40 | — |
+| Put Wall（支撐） | $1,000.00 | --1.0% |
+| Call Wall（阻力） | $1,000.00 | +1.0% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Thursday; ServiceNow to Advance, Tesla to Decline](https://finnhub.io/api/news?id=9ed8c7332ac7d6b57bdc9a714db9c5c557ac32542559aa1ddf814f118ecd6682)**  
-*Yahoo · 2h前*  
-The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Thursday'
+- **[Latest News In AI Chips - AMD and Cerebras Team Up for AI Infrastructure Enhancement](https://finnhub.io/api/news?id=c2ed98dd512ddc2c81f1d4b38e1ebb922d7839147f6bdf6071206affb8eb4650)**  
+*Yahoo · 1h前*  
+AMD and Cerebras Systems have unveiled a collaboration aimed at enhancing AI inference infrastructure through a new disaggregated solution. This partnership int…
 
-- **[Intel Needs More Than Blowout Earnings as Chips Rally Falters](https://finnhub.io/api/news?id=a5a6fb0b84c6109252a0df7270f4939d3b23c8659220eab8d08e9d15c3368e1b)**  
-*Yahoo · 4h前*  
-(Bloomberg) -- Intel Corp. is expected to report strong second-quarter earnings after the market close Thursday, but even blowout results likely won’t be enough…
+- **[Why Nvidia Is Falling When Other Chip Stocks Are Rising](https://finnhub.io/api/news?id=c0c1404cdbd56aca47b55001d57ea8518e9866b81699f633147c3c8c09041465)**  
+*Yahoo · 1h前*  
+The AI chip maker hasn't been trading like a chip stock recently, aligning more with its Big Tech peers.
 
-- **[Micron and Sandisk Are Surging: Can the Rally Last Through 2027?](https://finnhub.io/api/news?id=2821a83b17bd81f0ea7a6a41c9baaf18e5da9267585119a48dff1c93daf3f6fb)**  
-*Yahoo · 4h前*  
-Both memory makers have seen their stocks melt up this year due to the artificial intelligence boom.
+- **[Here's the Price Where I'd Start Considering Buying Micron Stock](https://finnhub.io/api/news?id=aeec8812665409e177a277058feda2e4a0b4b87943c5d015cc9a5f6eeb88f082)**  
+*Yahoo · 1h前*  
+Is the memory giant's stock a buy after its recent pullback?
 
 ---
 
@@ -48,7 +48,7 @@ Both memory makers have seen their stocks melt up this year due to the artificia
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-23 | 監控 | $959.48 | — | 自動更新 |
+| 2026-07-24 | 監控 | $990.21 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Both memory makers have seen their stocks melt up this year due to the artificia
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-07-24 21:03 HKT*
