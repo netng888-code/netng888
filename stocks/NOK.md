@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-07-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.28** |
-| 今日變動 | ▼ $0.35　(-3.29%) |
+| 現價 | **$9.73** |
+| 今日變動 | ▼ $0.55　(-5.35%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $433　(▼21.9%) |
+| 未實現盈虧 | ▼ $516　(▼26.1%) |
 
 ---
 
@@ -20,23 +20,28 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $10.02 | — |
-| Put Wall（支撐） | $10.00 | -2.7% |
-| Call Wall（阻力） | $15.00 | +45.9% |
+| Gamma Flip | $10.19 | — |
+| Put Wall（支撐） | $10.00 | --2.8% |
+| Call Wall（阻力） | $10.00 | +2.8% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nokia Oyj 2026 Q2 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=734d83cf74aa76741e6e27eb53d8465d5683a317eb57fb614c55e31b39007bf9)**  
-*SeekingAlpha · 4h前*  
-2026-07-23. The following slide deck was published by Nokia Oyj in conjunction with their 2026 Q2 earnings call.
+- **[Nokia Oyj (NOK) Q2 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=978befd51b86acb69ae58a097979d25a44f59799f45e761321d8fadf654ca767)**  
+*SeekingAlpha · 16h前*  
+Nokia Oyj (NOK) Q2 2026 Earnings Call July 23, 2026 8:00 AM EDTCompany ParticipantsDavid Mulholland - Head of Investor RelationsJustin Hotard - President,...
 
-- **[Nokia Oyj (NOK) Stock Is Trending: Here's What You Should Know](https://finnhub.io/api/news?id=1a0b73654f97e0ea810051fd6b25c543ca2e07d864aa9ae50ca934606b66730d)**  
-*Benzinga · 1d前*  
-Nokia Oyj shares rose 4.15% after hours following a 5.46% gain in regular trading ahead of its upcoming second-quarter earnings report.
+- **[Which stocks are most active on Thursday?](https://finnhub.io/api/news?id=a0dce4e7130a4160dde062fba6850a17a705020a531748f87b09708039d9eb45)**  
+*ChartMill · 19h前*  
+Let's dive into the action on the US markets on Thursday. Here are the most active stocks that are driving the market today.
+
+- **[10 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=94a8dff4e7c7803c18465a913437db217bb513d2de4305c04c7b58a9afacf2bf)**  
+*Benzinga · 23h前*  
+This whale alert can help traders discover the next big trading opportunities.
+Whales are entities with large sums of money and we track their transactions here…
 
 ---
 
@@ -44,7 +49,7 @@ Nokia Oyj shares rose 4.15% after hours following a 5.46% gain in regular tradin
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-23 | 監控 | $10.28 | — | 自動更新 |
+| 2026-07-24 | 監控 | $9.73 | — | 自動更新 |
 
 ---
 
@@ -55,4 +60,4 @@ Nokia Oyj shares rose 4.15% after hours following a 5.46% gain in regular tradin
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-24 21:04 HKT*
