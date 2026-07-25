@@ -65,6 +65,25 @@
     （Nikkei225價格加權top225 / HSI市值加權top40 / KOSPI200前200大）
     唔完全一致，短期走勢可能有少少落差，但方向同大波動高度一致，
     足夠做「跨市場情緒鏈」用途。
+
+  v4（2026-07-25）：新增「真實指數點數」快速連結卡（Overview
+    Ticker Tape 下方、詳細圖表區塊之前）——
+    背景：用戶反饋財經專家嘅貼士（例如「恒指喺22000-25000之間
+    遊走」、「韓綜指升到11000見頂回調」）講嘅係真實指數點數，
+    但v2/v3之後Ticker Tape/Flipcharts大圖已經全部換咗ETF/份額
+    代理（EWH/ASHR/EWJ/EWY），價位scale同真實指數完全唔同
+    （例如EWH$22.55 vs 真實HSI係24000幾點），冇辦法同專家貼士
+    直接對比核實，變相削弱咗買賣決策參考價值。
+    修正：唔再嘗試將真實指數塞落embed（HKEX/TSE/KRX交易所data
+    license限制係根源，改極都改唔到，v2/v3已證實），改用同
+    premarket-rates-monitor.html處理美債孳息率完全一樣嘅思路——
+    真實指數點數頁面本身（TradingView symbol page，例如
+    tradingview.com/symbols/TVC-HSI/）唔係embed，係用戶自己
+    click連結去TradingView官網睇，唔受anonymous embed嘅
+    redistribution授權限制（限制淨係針對embed widget，唔針對
+    使用者自己瀏覽官方頁面），四個頁面（TVC:HSI／FTSE:XIN9／
+    TVC:NI225／TVC:KOSPI）已核實可以正常顯示真實點數。新增4張
+    連結卡，一click直達，方便隨時核對專家講嘅點位。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
@@ -110,6 +129,26 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 .eyebrow{display:flex;align-items:center;gap:10px;margin:6px 0 14px;}
 .eyebrow .txt{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;}
 .eyebrow .line{height:1px;background:var(--border);flex:1;}
+
+/* 真實指數點數 連結卡（v4新增）——8隻ticker全部用緊ETF/份額代理，
+   scale同真實指數點數唔同，呢排卡直達TradingView官方symbol page
+   （非embed，唔受HKEX/TSE/KRX授權限制），俾用戶對照專家講嘅點位 */
+.real-idx-note{font-size:11.5px;color:var(--muted);line-height:1.7;
+  background:var(--bg2);border:1px solid var(--border);border-radius:8px;
+  padding:12px 16px;margin-bottom:12px;}
+.real-idx-note b{color:var(--text);}
+.real-idx-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;}
+.real-idx-card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;
+  padding:16px 18px;text-decoration:none;color:var(--text);display:block;
+  transition:all .15s;position:relative;}
+.real-idx-card:hover{border-color:var(--green);background:var(--bg3);transform:translateY(-1px);}
+.ridx-code{font-family:var(--font-mono);font-size:10px;color:var(--muted);
+  letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;}
+.ridx-title{font-family:var(--font-display);font-size:15px;font-weight:800;color:#fff;margin-bottom:4px;}
+.ridx-sub{font-size:10.5px;color:var(--green);}
+.ridx-arrow{position:absolute;top:16px;right:16px;color:var(--muted);font-size:14px;transition:color .15s;}
+.real-idx-card:hover .ridx-arrow{color:var(--green);}
+@media(max-width:700px){.real-idx-grid{grid-template-columns:repeat(2,1fr);}}
 
 /* Flip section */
 .flip-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:10px;}
@@ -207,6 +246,42 @@ footer{margin-top:12px;display:flex;align-items:center;justify-content:space-bet
     }
     </script>
   </div>
+</div>
+
+<div class="eyebrow"><span class="txt">真實指數點數 · Real Index Points</span><div class="line"></div></div>
+
+<div class="real-idx-note">
+  上面Ticker Tape / 下面Flipcharts大圖，HSI/XIN9/NI225/KOSPI呢4隻全部用緊ETF/份額代理
+  （EWH/ASHR/EWJ/EWY），價位scale同真實指數點數唔同，<b>冇辦法直接同財經專家講嘅點位
+  （例如「恒指22000-25000遊走」、「韓綜指升到11000見頂」）對照</b>。想核實真實點數，
+  click下面連結去TradingView官方頁面——純粹連結、唔係embed，唔受HKEX/TSE/KRX嘅
+  anonymous embed授權限制，隨時可以睇到真實指數。
+</div>
+<div class="real-idx-grid">
+  <a class="real-idx-card" href="https://www.tradingview.com/symbols/TVC-HSI/" target="_blank" rel="noopener">
+    <div class="ridx-code">HSI · TVC:HSI</div>
+    <div class="ridx-title">恒生指數</div>
+    <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
+    <span class="ridx-arrow">↗</span>
+  </a>
+  <a class="real-idx-card" href="https://www.tradingview.com/symbols/FTSE-XIN9/" target="_blank" rel="noopener">
+    <div class="ridx-code">XIN9 · FTSE:XIN9</div>
+    <div class="ridx-title">富時中國A50</div>
+    <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
+    <span class="ridx-arrow">↗</span>
+  </a>
+  <a class="real-idx-card" href="https://www.tradingview.com/symbols/TVC-NI225/" target="_blank" rel="noopener">
+    <div class="ridx-code">NI225 · TVC:NI225</div>
+    <div class="ridx-title">日經225</div>
+    <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
+    <span class="ridx-arrow">↗</span>
+  </a>
+  <a class="real-idx-card" href="https://www.tradingview.com/symbols/TVC-KOSPI/" target="_blank" rel="noopener">
+    <div class="ridx-code">KOSPI · TVC:KOSPI</div>
+    <div class="ridx-title">韓國綜合指數</div>
+    <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
+    <span class="ridx-arrow">↗</span>
+  </a>
 </div>
 
 <div class="eyebrow"><span class="txt">詳細圖表 · Detail Chart</span><div class="line"></div></div>
