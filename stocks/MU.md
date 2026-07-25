@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-07-24 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$990.21** |
-| 今日變動 | ▲ $30.73　(+3.20%) |
+| 現價 | **$920.95** |
+| 今日變動 | ▼ $69.26　(-6.99%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $432　(▲77.5%) |
+| 未實現盈虧 | ▲ $363　(▲65.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $938.40 | — |
-| Put Wall（支撐） | $1,000.00 | --1.0% |
-| Call Wall（阻力） | $1,000.00 | +1.0% |
+| Gamma Flip | $965.57 | — |
+| Put Wall（支撐） | $800.00 | -13.1% |
+| Call Wall（阻力） | $1,000.00 | +8.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Latest News In AI Chips - AMD and Cerebras Team Up for AI Infrastructure Enhancement](https://finnhub.io/api/news?id=c2ed98dd512ddc2c81f1d4b38e1ebb922d7839147f6bdf6071206affb8eb4650)**  
+- **[Micron’s AI Repricing Is Real — But the Market Still Isn’t Sure It Can Last](https://finnhub.io/api/news?id=2e1cd1d7736ab3952ef9e05f8167c8bfd15ce612907cd85ba5f283175b7977c9)**  
 *Yahoo · 1h前*  
-AMD and Cerebras Systems have unveiled a collaboration aimed at enhancing AI inference infrastructure through a new disaggregated solution. This partnership int…
+Micron Technology, Inc. (NASDAQ:MU)’s recent earnings growth has been so rapid that it nearly appears to be a new firm rather than a cyclical memory maker. The …
 
-- **[Why Nvidia Is Falling When Other Chip Stocks Are Rising](https://finnhub.io/api/news?id=c0c1404cdbd56aca47b55001d57ea8518e9866b81699f633147c3c8c09041465)**  
-*Yahoo · 1h前*  
-The AI chip maker hasn't been trading like a chip stock recently, aligning more with its Big Tech peers.
+- **[Western Digital Corporation (NASDAQ:WDC) Got Lucky While Micron’s The Real Deal, Says Jim Cramer](https://finnhub.io/api/news?id=c44c1710cee4cdcca909985f36f5eb8c2cf2bd6e3eb49b5a42c75c71204a5c7d)**  
+*Yahoo · 5h前*  
+Even though the shares have been among the top performers in the market, CNBC’s Jim Cramer still believes that Western Digital Corporation (NASDAQ:WDC) got luck…
 
-- **[Here's the Price Where I'd Start Considering Buying Micron Stock](https://finnhub.io/api/news?id=aeec8812665409e177a277058feda2e4a0b4b87943c5d015cc9a5f6eeb88f082)**  
-*Yahoo · 1h前*  
-Is the memory giant's stock a buy after its recent pullback?
+- **[Better Artificial Intelligence (AI) Buy: Micron Technology vs. Sandisk](https://finnhub.io/api/news?id=7d96989a11b59879c427bd37cd2a3722aaffc88bb5b3518b16b25ea9cc678d04)**  
+*Yahoo · 8h前*  
+Micron and Sandisk are thriving from a memory chip supply shortage.
 
 ---
 
@@ -48,7 +48,7 @@ Is the memory giant's stock a buy after its recent pullback?
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-24 | 監控 | $990.21 | — | 自動更新 |
+| 2026-07-25 | 監控 | $920.95 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Is the memory giant's stock a buy after its recent pullback?
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-24 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-07-25 21:04 HKT*
