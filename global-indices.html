@@ -84,6 +84,25 @@
     使用者自己瀏覽官方頁面），四個頁面（TVC:HSI／FTSE:XIN9／
     TVC:NI225／TVC:KOSPI）已核實可以正常顯示真實點數。新增4張
     連結卡，一click直達，方便隨時核對專家講嘅點位。
+
+  v5（2026-07-25 續）：
+    1. 「真實指數點數」連結卡由4張（HSI/XIN9/NI225/KOSPI）擴展到7張，
+       前面加返 NDX（納指100）／DJI（道瓊斯）／SOX（費城半導體），
+       次序跟返情緒鏈原有排法（NDX→DJI→SOX→HSI→XIN9→NI225→KOSPI，
+       SPX冇加——SPY vs SPX嘅scale關係比較常見已知，優先順序較低，
+       日後有需要可以照跟同一pattern補一張）。三個TradingView symbol
+       page（NASDAQ-NDX／TVC-DJI／NASDAQ-SOX）已核實顯示真實點數。
+    2. 新增 mouseover 真實點數：card加咗一個hover先顯示嘅tooltip，
+       內容由 futu_bridge_v2.py 新增嘅 /api/real_indices endpoint
+       （Yahoo Finance v8 chart，見該檔案v2.2 changelog）動態攞返
+       NDX/DJI/SOX/HSI/NI225/KOSPI六隻嘅即市點數+漲跌%，唔使click
+       出去都可以喺頁面度直接睇到大概數字。XIN9冇呢個live tooltip
+       （Yahoo冇穩定index code對應，見bridge v2.2 changelog），
+       tooltip會顯示提示文字、引導用戶click去TradingView核實。
+       呢個功能需要本機 futu_bridge_v2.py 正在運行（同GEX Terminal
+       其他bridge-dependent功能一樣）；Bridge未連接時tooltip會
+       顯示fallback文字（「🔌本機Bridge未連接」），連結卡本身嘅
+       click-through功能完全不受影響，隨時都work。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
@@ -137,10 +156,10 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
   background:var(--bg2);border:1px solid var(--border);border-radius:8px;
   padding:12px 16px;margin-bottom:12px;}
 .real-idx-note b{color:var(--text);}
-.real-idx-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;}
+.real-idx-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:20px;}
 .real-idx-card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;
   padding:16px 18px;text-decoration:none;color:var(--text);display:block;
-  transition:all .15s;position:relative;}
+  transition:all .15s;position:relative;overflow:visible;}
 .real-idx-card:hover{border-color:var(--green);background:var(--bg3);transform:translateY(-1px);}
 .ridx-code{font-family:var(--font-mono);font-size:10px;color:var(--muted);
   letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;}
@@ -149,6 +168,25 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 .ridx-arrow{position:absolute;top:16px;right:16px;color:var(--muted);font-size:14px;transition:color .15s;}
 .real-idx-card:hover .ridx-arrow{color:var(--green);}
 @media(max-width:700px){.real-idx-grid{grid-template-columns:repeat(2,1fr);}}
+
+/* Mouseover 真實點數 tooltip（v5新增）——內容由 loadRealIndices() 經本機
+   Futu Bridge /api/real_indices（Yahoo Finance來源）動態填入；Bridge
+   未連接時顯示fallback文字，唔會令card壞晒或報錯。*/
+.ridx-tooltip{position:absolute;left:50%;bottom:calc(100% + 10px);
+  transform:translateX(-50%) translateY(4px);min-width:150px;
+  background:var(--bg3);border:1px solid var(--border2);border-radius:7px;
+  padding:9px 13px;font-size:11.5px;line-height:1.5;color:var(--text);
+  white-space:nowrap;opacity:0;pointer-events:none;
+  transition:opacity .15s ease,transform .15s ease;
+  box-shadow:0 8px 20px rgba(0,0,0,.4);z-index:30;text-align:center;}
+.ridx-tooltip::after{content:'';position:absolute;top:100%;left:50%;
+  transform:translateX(-50%);width:0;height:0;
+  border:6px solid transparent;border-top-color:var(--border2);}
+.real-idx-card:hover .ridx-tooltip{opacity:1;transform:translateX(-50%) translateY(0);}
+.ridx-tip-price{color:#fff;font-weight:700;font-family:var(--font-mono);font-size:13px;}
+.ridx-tip-chg{font-family:var(--font-mono);margin-left:6px;font-weight:600;}
+.ridx-tip-chg.pos{color:var(--green);} .ridx-tip-chg.neg{color:var(--red);}
+.ridx-tip-note{color:var(--muted);font-size:10.5px;}
 
 /* Flip section */
 .flip-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:10px;}
@@ -258,29 +296,54 @@ footer{margin-top:12px;display:flex;align-items:center;justify-content:space-bet
   anonymous embed授權限制，隨時可以睇到真實指數。
 </div>
 <div class="real-idx-grid">
+  <a class="real-idx-card" href="https://www.tradingview.com/symbols/NASDAQ-NDX/" target="_blank" rel="noopener">
+    <div class="ridx-code">NDX · NASDAQ:NDX</div>
+    <div class="ridx-title">納指100</div>
+    <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
+    <span class="ridx-arrow">↗</span>
+    <div class="ridx-tooltip" data-code="NDX"><span class="ridx-tip-note">載入中...</span></div>
+  </a>
+  <a class="real-idx-card" href="https://www.tradingview.com/symbols/TVC-DJI/" target="_blank" rel="noopener">
+    <div class="ridx-code">DJI · TVC:DJI</div>
+    <div class="ridx-title">道瓊斯工業指數</div>
+    <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
+    <span class="ridx-arrow">↗</span>
+    <div class="ridx-tooltip" data-code="DJI"><span class="ridx-tip-note">載入中...</span></div>
+  </a>
+  <a class="real-idx-card" href="https://www.tradingview.com/symbols/NASDAQ-SOX/" target="_blank" rel="noopener">
+    <div class="ridx-code">SOX · NASDAQ:SOX</div>
+    <div class="ridx-title">費城半導體指數</div>
+    <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
+    <span class="ridx-arrow">↗</span>
+    <div class="ridx-tooltip" data-code="SOX"><span class="ridx-tip-note">載入中...</span></div>
+  </a>
   <a class="real-idx-card" href="https://www.tradingview.com/symbols/TVC-HSI/" target="_blank" rel="noopener">
     <div class="ridx-code">HSI · TVC:HSI</div>
     <div class="ridx-title">恒生指數</div>
     <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
     <span class="ridx-arrow">↗</span>
+    <div class="ridx-tooltip" data-code="HSI"><span class="ridx-tip-note">載入中...</span></div>
   </a>
   <a class="real-idx-card" href="https://www.tradingview.com/symbols/FTSE-XIN9/" target="_blank" rel="noopener">
     <div class="ridx-code">XIN9 · FTSE:XIN9</div>
     <div class="ridx-title">富時中國A50</div>
     <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
     <span class="ridx-arrow">↗</span>
+    <div class="ridx-tooltip" data-code="XIN9"><span class="ridx-tip-note">Yahoo無穩定數據源<br>click查看真實點數</span></div>
   </a>
   <a class="real-idx-card" href="https://www.tradingview.com/symbols/TVC-NI225/" target="_blank" rel="noopener">
     <div class="ridx-code">NI225 · TVC:NI225</div>
     <div class="ridx-title">日經225</div>
     <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
     <span class="ridx-arrow">↗</span>
+    <div class="ridx-tooltip" data-code="NI225"><span class="ridx-tip-note">載入中...</span></div>
   </a>
   <a class="real-idx-card" href="https://www.tradingview.com/symbols/TVC-KOSPI/" target="_blank" rel="noopener">
     <div class="ridx-code">KOSPI · TVC:KOSPI</div>
     <div class="ridx-title">韓國綜合指數</div>
     <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
     <span class="ridx-arrow">↗</span>
+    <div class="ridx-tooltip" data-code="KOSPI"><span class="ridx-tip-note">載入中...</span></div>
   </a>
 </div>
 
@@ -481,6 +544,46 @@ document.addEventListener('keydown', e => {
 
 buildSymStrip();
 renderFlip();
+
+// ── Mouseover 真實指數點數（v5新增）──────────────────────────
+// tooltip內容由本機 futu_bridge_v2.py /api/real_indices（Yahoo Finance
+// v8 chart，見該檔案v2.2 changelog）攞返；Bridge未運行時graceful
+// fallback，唔會令連結卡本身壞（click-through去TradingView永遠work）。
+const BRIDGE = 'http://127.0.0.1:8888';
+
+function setTooltip(code, html) {
+  const el = document.querySelector(`.ridx-tooltip[data-code="${code}"]`);
+  if (el) el.innerHTML = html;
+}
+
+async function loadRealIndices() {
+  try {
+    const r = await fetch(`${BRIDGE}/api/real_indices`, {signal: AbortSignal.timeout(5000)});
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    document.querySelectorAll('.ridx-tooltip').forEach(el => {
+      const code = el.dataset.code;
+      if (code === 'XIN9') return;  // 固定文字，唔使更新
+      const idx = d.indices && d.indices[code];
+      if (idx && idx.price != null) {
+        const pct = idx.pct;
+        const cls = pct == null ? '' : (pct >= 0 ? 'pos' : 'neg');
+        const pctTxt = pct == null ? '' :
+          `<span class="ridx-tip-chg ${cls}">${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%</span>`;
+        el.innerHTML = `<span class="ridx-tip-price">${idx.price.toLocaleString('en-US')}</span>${pctTxt}`;
+      } else {
+        el.innerHTML = `<span class="ridx-tip-note">數據暫缺<br>click查看真實點數</span>`;
+      }
+    });
+  } catch (e) {
+    document.querySelectorAll('.ridx-tooltip').forEach(el => {
+      if (el.dataset.code === 'XIN9') return;
+      el.innerHTML = `<span class="ridx-tip-note">🔌 本機Bridge未連接<br>click開TradingView核實</span>`;
+    });
+  }
+}
+loadRealIndices();
+setInterval(loadRealIndices, 60000);  // 同bridge嘅60秒緩存TTL對齊
 </script>
 </body>
 </html>
