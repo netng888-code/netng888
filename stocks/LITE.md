@@ -1,6 +1,6 @@
 # LITE — Lumentum
 
-> 最後更新：2026-07-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$833.64** |
-| 今日變動 | ▲ $3.94　(+0.47%) |
+| 現價 | **$762.99** |
+| 今日變動 | ▼ $70.65　(-8.47%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $820.000 |
-| 未實現盈虧 | ▲ $14　(▲1.7%) |
+| 未實現盈虧 | ▼ $57　(▼7.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $787.81 | — |
-| Put Wall（支撐） | $800.00 | -4.0% |
-| Call Wall（阻力） | $800.00 | +-4.0% |
+| Gamma Flip | $821.08 | — |
+| Put Wall（支撐） | $700.00 | -8.3% |
+| Call Wall（阻力） | $800.00 | +4.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Lumentum and 5 Other Stocks Set to Win From Big Tech’s AI Spending Spree](https://finnhub.io/api/news?id=1737363a89f039ce83c4868a2e9e301eb70ea903ee8d5f8588069d41a74798a8)**  
-*Yahoo · 21h前*  
-Google's AI spending may be spooking markets but it will benefit a number of stocks linked to the buildout of data centers.
+- **[2 Stocks to Buy Now as Google Raises Its AI Spending Forecast Yet Again](https://finnhub.io/api/news?id=f5d37e4662deadfa55b4faee5d93b53cfa441d48e5a2d9a90293e26220c0ffaa)**  
+*Yahoo · 23h前*  
+Alphabet's AI spending spree could hand Lumentum and Celestica another tailwind as demand outpaces infrastructure supply.
 
-- **[Lumentum: AI Shovel With Premium Growth Prospects; Dip Buying Opportunity Ahead](https://finnhub.io/api/news?id=e817de7db57383b110176441ec21f8ee320b6635f6daf05270bc068d16546427)**  
-*SeekingAlpha · 1d前*  
-Lumentum benefits from hyperscaler AI data center demand, pricing power, and strong EPS growth. Click here to read more about LITE.
+- **[Explore the top gainers and losers within the S&P500 index in today's session.](https://finnhub.io/api/news?id=3c724bebe6c67a8bf3d7fa844ef1cca7a0c3e1cf06f2c36d17c6830cc1c3a574)**  
+*ChartMill · 1d前*  
+Join us in exploring the top gainers and losers within the S&P500 index one hour before the close of the markets on Friday as we examine the latest happenings i…
 
-- **[Lumentum Holdings' Quarterly Earnings Preview: What You Need to Know](https://finnhub.io/api/news?id=c12fa394c8affbabad973c155642d6371903f291e5a697e610e8194f22dbf5ff)**  
-*Yahoo · 1d前*  
-Lumentum Holdings will release its fourth-quarter earnings next month, and analysts anticipate a robust triple-digit bottom-line growth.
+- **[Uncover the latest developments among S&P500 stocks in today's session.](https://finnhub.io/api/news?id=d659103d7d7b5ef979f73e9b619ecda56339bb5d1d3d2a3be050003d830e115a)**  
+*ChartMill · 1d前*  
+Get insights into the S&P500 index performance on Friday. Explore the top gainers and losers within the S&P500 index in today's session.
 
 ---
 
@@ -48,7 +48,7 @@ Lumentum Holdings will release its fourth-quarter earnings next month, and analy
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-24 | 監控 | $833.64 | — | 自動更新 |
+| 2026-07-26 | 監控 | $762.99 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Lumentum Holdings will release its fourth-quarter earnings next month, and analy
 - [TradingView](https://www.tradingview.com/chart/?symbol=LITE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
