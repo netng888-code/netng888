@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-07-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$69.99** |
-| 今日變動 | ▲ $0.24　(+0.34%) |
+| 現價 | **$63.91** |
+| 今日變動 | ▼ $6.08　(-8.69%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $60　(▼7.9%) |
+| 未實現盈虧 | ▼ $121　(▼15.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $67.21 | — |
-| Put Wall（支撐） | $70.00 | --0.0% |
-| Call Wall（阻力） | $70.00 | +0.0% |
+| Gamma Flip | $72.51 | — |
+| Put Wall（支撐） | $65.00 | --1.7% |
+| Call Wall（阻力） | $80.00 | +25.2% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[SpaceX stock got cut in half after joining an industry sell-off already underway: Chart of the Day](https://finnhub.io/api/news?id=893306143b4623f6a6d139de570631ea77e1ed2cc114657707c586d4dca49919)**  
-*Yahoo · 3h前*  
-SpaceX shares initially surged in their public debut last month, but the broader trade had already rolled over.
+- **[MarketBeat Week in Review – 07/20- 07/24](https://finnhub.io/api/news?id=1011e1f194a780a98bf8b23f87b7cf96200a6cd8159eb0fe61ddeca44aee6a46)**  
+*Yahoo · 1d前*  
+Stocks fell as investors weighed AI CapEx concerns, Oracle's credit downgrade, Netflix and Tesla earnings, and upcoming Fed and Magnificent 7 reports, plus stoc…
 
-- **[ASTS, RKLB Slip Overnight Amid Falcon 9 Booking Freeze: Retail Traders Say SpaceX Is ‘Ruining’ Space Stocks](https://finnhub.io/api/news?id=05df9f3d6f2f67959625c0e3fdf06e5c6e52450c694743a817b793e1f08099e4)**  
-*Yahoo · 6h前*  
-ASTS recently raised $1.15 billion to support growth and secure launch capacity as it remains heavily reliant on SpaceX.
+- **[Benzinga Bulls and Bears: IBM, Super Micro, Tesla](https://finnhub.io/api/news?id=8614cf81f82a0f8d509eb025636405d798723406cb04853bc0d590a59ad7ef4d)**  
+*Benzinga · 1d前*  
+Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
 
-- **[2 Missions, 3 Launches, and Up to $300 Million for Rocket Lab](https://finnhub.io/api/news?id=5b36235045f0881641b38fbfcbb8824d2dbe041ab08df655f6562cd3c440cb21)**  
-*Yahoo · 12h前*  
-Rocket Lab stock is down 32% in July, but it's still winning contracts.
+- **[Oracle’s defense pivot lands its biggest government win yet](https://finnhub.io/api/news?id=ce4e6807a13c25d86dfde3be02866f62fa7de0620164a1147db24d69d80e8472)**  
+*Yahoo · 1d前*  
+The U.S. Department of Defense has entered an aggressive new era of spending this year. Before launching into its massive new tech overhauls, it kicked off the …
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab stock is down 32% in July, but it's still winning contracts.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-24 | 監控 | $69.99 | — | 自動更新 |
+| 2026-07-26 | 監控 | $63.91 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab stock is down 32% in July, but it's still winning contracts.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
