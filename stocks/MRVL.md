@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-07-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$209.32** |
-| 今日變動 | ▼ $1.67　(-0.79%) |
+| 現價 | **$194.23** |
+| 今日變動 | ▼ $15.09　(-7.21%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $480　(▼18.6%) |
+| 未實現盈虧 | ▼ $631　(▼24.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $201.92 | — |
-| Put Wall（支撐） | $200.00 | -4.5% |
-| Call Wall（阻力） | $200.00 | +-4.5% |
+| Gamma Flip | $210.58 | — |
+| Put Wall（支撐） | $200.00 | --3.0% |
+| Call Wall（阻力） | $250.00 | +28.7% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Is Marvell Technology the New Nvidia?](https://finnhub.io/api/news?id=2493b412c4d7cbb20cac1e7ff1848d23cd25818f59f0dfebfaf551a770ef89f9)**  
-*Yahoo · 4h前*  
-Nvidia is a significant Marvell investor.
+- **[Down 34% From Its Highs, Is Marvell Technology a Buy on the Dip?](https://finnhub.io/api/news?id=00bf3649ba8c4cee73b1d6ef1b5abd9e51eca5d403944bec0f7a7b5ed0ed67c5)**  
+*Yahoo · 1d前*  
+Marvell is closely related to another AI giant.
 
-- **[Marvell Technology vs. Nvidia: What Do the Revenue Trends of These Artificial Intelligence Companies Tell Investors?](https://finnhub.io/api/news?id=d6b3e1df12292ffbe4ed84c37916fb3490b803b242db182fe789d56771bd98a5)**  
-*Yahoo · 17h前*  
-Nvidia's latest quarter hit $81.6 billion while Marvell reached $2.4 billion — a 34x gap that's only widened over eight quarters.
+- **[Lattice Semiconductor, Allegro MicroSystems, Monolithic Power Systems, Marvell Technology, and MACOM Shares Are Falling, What You Need To Know](https://finnhub.io/api/news?id=32648a9932ff28890f3ddace482579ddccf73270cf715cf2459912ad29942b6a)**  
+*Yahoo · 1d前*  
+A number of stocks fell in the morning session after the U.S. government announced new tariffs of 10% to 12.5% on 60 trading partners over concerns related to f…
 
-- **[Marvell Technology Stock And The Forecast It Kept Outgrowing](https://finnhub.io/api/news?id=a24b54f17e1d5f6f60f934b737c54429e46e02d8bb38d2e086109b3ab9a14f38)**  
-*Yahoo · 17h前*  
-The chipmaker kept telling investors its own AI targets were too low, but the message took a while to land.
+- **[Marvell Technology (MRVL) Stock Declines While Market Improves: Some Information for Investors](https://finnhub.io/api/news?id=55e630437ada4d8c3a856b4cdafcb59cc91373f789a6bb7e33c359ee08595f30)**  
+*Yahoo · 1d前*  
+In the closing of the recent trading day, Marvell Technology (MRVL) stood at $194.29, denoting a -7.18% move from the preceding trading day.
 
 ---
 
@@ -48,7 +48,7 @@ The chipmaker kept telling investors its own AI targets were too low, but the me
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-24 | 監控 | $209.32 | — | 自動更新 |
+| 2026-07-26 | 監控 | $194.23 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The chipmaker kept telling investors its own AI targets were too low, but the me
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
