@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-07-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$170.78** |
-| 今日變動 | ▼ $3.50　(-2.01%) |
+| 現價 | **$163.89** |
+| 今日變動 | ▼ $6.89　(-4.03%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $214　(▼13.5%) |
+| 未實現盈虧 | ▼ $269　(▼17.0%) |
 
 ---
 
@@ -20,19 +20,17 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $168.64 | — |
-| Put Wall（支撐） | $150.00 | -12.2% |
-| Call Wall（阻力） | $200.00 | +17.1% |
+| Gamma Flip | $168.86 | — |
+| Put Wall（支撐） | $150.00 | -8.5% |
+| Call Wall（阻力） | $200.00 | +22.0% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[The Consortium Fueling The Nuclear Renaissance](https://finnhub.io/api/news?id=34f65c5387db052dd8f6ed187f79b9ec72406539c057cae3255fc3688e8b554c)**  
-*SeekingAlpha · 3d前*  
-DOE approved the Nuclear Fuel Cycle Consortium Voluntary Agreement. Major participants in the consortium include Solstice Advanced Materials, Mirion Technologie…
+- 暫無新聞
 
 ---
 
@@ -40,7 +38,7 @@ DOE approved the Nuclear Fuel Cycle Consortium Voluntary Agreement. Major partic
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-24 | 監控 | $170.78 | — | 自動更新 |
+| 2026-07-26 | 監控 | $163.89 | — | 自動更新 |
 
 ---
 
@@ -51,4 +49,4 @@ DOE approved the Nuclear Fuel Cycle Consortium Voluntary Agreement. Major partic
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
