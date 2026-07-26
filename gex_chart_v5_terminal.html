@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-  gex_chart_terminal.html  v5.1
+  gex_chart_terminal.html  v5.2
   （註：由呢個版本起改用小數點版本號，每次小改+0.1；之前v6/v7
   純屬中途嘗試過嘅整數編號，用戶確認之後統一用v5.x延續）
   ═══════════════════════════════════════════════════
@@ -49,13 +49,23 @@
     一邊啱一邊仍然錯）——週五20:00 ET後至週日20:00 ET前一律視為
     weekend（用last_price），週日20:00 ET後視為週一夜盤已開始
     （overnight）。
+  v5.2（2026-07-26）：
+    1. Macro Strip（第一條跑馬燈）移除 SOX(SOXX代理)——同下面
+       Global Indices（第二條跑馬燈）嘅SOX重複顯示，留低嗰條
+       畀Global Indices專門顯示就夠，Macro Strip淨返VIX/WTI/
+       美元指數三隻純宏觀指標。
+    2. Global Indices（第二條跑馬燈）8隻symbol title前面加返
+       細小國旗emoji，方便一眼分辨邊隻屬邊個市場：SPX/NDX/DJI/
+       SOX（美股，🇺🇸）、HSI（港股，🇭🇰）、XIN9（A股/中國，
+       🇨🇳）、NI225（日股，🇯🇵）、KOSPI（韓股，🇰🇷）。純顯示
+       文字改動，symbol代理本身完全冇變。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.1)</title>
+<title>GEX Chart — Futu Bridge (v5.2)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -406,9 +416,8 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
   <button class="reset-btn" id="btn-reset-conn" onclick="resetConnection()" title="清空Futu訂閱記錄+斷開重連，唔使停低成個bridge process（適用於Order Book/Tick Delta/K線突然無數據嘅情況）">🔄 重置連接</button>
 </div>
 
-<!-- Macro Strip：VIX / Oil / Dollar / SOX（TradingView即時）
-     Oil用WTI（TVC:USOIL），SOX用SOXX ETF代理（NASDAQ:SOXX，真.SOX期貨
-     冇通用TradingView代碼）。
+<!-- Macro Strip：VIX / Oil / Dollar（TradingView即時）
+     Oil用WTI（TVC:USOIL）。
      v5：VIX、美元指數(DXY)兩隻純Cboe/指數盤路喺休市/週末anonymous
      embed常顯示唔到數值（紅色感嘆號=「Cboe數據」標籤，唔係壞），
      改用ETF代理（AMEX:VIXY / AMEX:UUP）令佢哋隨時有數。
@@ -417,7 +426,10 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
      紅色感嘆號、完全冇數值（休市定盤中都一樣），對用戶嚟講純粹係
      雜訊，已刪走。想查真實孳息率，用返下面連結去
      premarket-rates-monitor.html（TradingView官方頁面直連，唔受
-     anonymous embed authorization限制）。 -->
+     anonymous embed authorization限制）。
+     v5.2（2026-07-26）：移除 SOX(SOXX代理)——下面Global Indices
+     跑馬燈已經有SOX（同一個NASDAQ:SOXX代理），兩條跑馬燈同時顯示
+     屬重複資訊，Macro Strip淨返VIX/WTI/美元指數三隻純宏觀指標。 -->
 <div class="macro-strip-wrap">
   <div class="macro-strip-label">
     <span>MACRO · TradingView Live</span>
@@ -430,8 +442,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
       "symbols": [
         {"proName": "AMEX:VIXY", "title": "VIX(VIXY代理)"},
         {"proName": "TVC:USOIL", "title": "WTI原油"},
-        {"proName": "AMEX:UUP", "title": "美元指數(UUP代理)"},
-        {"proName": "NASDAQ:SOXX", "title": "SOX(SOXX代理)"}
+        {"proName": "AMEX:UUP", "title": "美元指數(UUP代理)"}
       ],
       "showSymbolLogo": false,
       "isTransparent": true,
@@ -450,7 +461,10 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
      詳細原因見global-indices.html頁首changelog）。次序跟情緒鏈：
      美股大盤 → 半導體 → 港股/內地 → 日韓記憶體leading indicator。
      顯示名稱保留原指數名（SPX/NDX/...），底層symbol用代理，同
-     global-indices.html做法一致，方便對照。 -->
+     global-indices.html做法一致，方便對照。
+     v5.2（2026-07-26）：title前面加返細小國旗emoji，一眼分辨市場：
+     SPX/NDX/DJI/SOX＝🇺🇸美股，HSI＝🇭🇰港股，XIN9＝🇨🇳A股，
+     NI225＝🇯🇵日股，KOSPI＝🇰🇷韓股。純文字改動，symbol代理冇變。 -->
 <div class="macro-strip-wrap">
   <div class="macro-strip-label">
     <span>GLOBAL INDICES · TradingView Live</span>
@@ -461,14 +475,14 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
     {
       "symbols": [
-        {"proName": "AMEX:SPY", "title": "SPX(SPY代理) 標普500"},
-        {"proName": "NASDAQ:QQQ", "title": "NDX(QQQ代理) 納指100"},
-        {"proName": "AMEX:DIA", "title": "DJI(DIA代理) 道瓊斯"},
-        {"proName": "NASDAQ:SOXX", "title": "SOX(SOXX代理) 費半"},
-        {"proName": "AMEX:EWH", "title": "HSI(EWH代理) 恒指"},
-        {"proName": "AMEX:ASHR", "title": "XIN9(ASHR代理) A50"},
-        {"proName": "AMEX:EWJ", "title": "NI225(EWJ代理) 日經"},
-        {"proName": "AMEX:EWY", "title": "KOSPI(EWY代理) 韓綜指"}
+        {"proName": "AMEX:SPY", "title": "🇺🇸 SPX(SPY代理) 標普500"},
+        {"proName": "NASDAQ:QQQ", "title": "🇺🇸 NDX(QQQ代理) 納指100"},
+        {"proName": "AMEX:DIA", "title": "🇺🇸 DJI(DIA代理) 道瓊斯"},
+        {"proName": "NASDAQ:SOXX", "title": "🇺🇸 SOX(SOXX代理) 費半"},
+        {"proName": "AMEX:EWH", "title": "🇭🇰 HSI(EWH代理) 恒指"},
+        {"proName": "AMEX:ASHR", "title": "🇨🇳 XIN9(ASHR代理) A50"},
+        {"proName": "AMEX:EWJ", "title": "🇯🇵 NI225(EWJ代理) 日經"},
+        {"proName": "AMEX:EWY", "title": "🇰🇷 KOSPI(EWY代理) 韓綜指"}
       ],
       "showSymbolLogo": false,
       "isTransparent": true,
