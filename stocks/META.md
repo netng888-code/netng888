@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-07-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$606.10** |
-| 今日變動 | ▼ $21.07　(-3.36%) |
+| 現價 | **$595.19** |
+| 今日變動 | ▼ $10.91　(-1.80%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $1　(▼0.0%) |
+| 未實現盈虧 | ▼ $33　(▼1.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $598.24 | — |
-| Put Wall（支撐） | $600.00 | -1.0% |
-| Call Wall（阻力） | $750.00 | +23.7% |
+| Gamma Flip | $591.35 | — |
+| Put Wall（支撐） | $600.00 | --0.8% |
+| Call Wall（阻力） | $750.00 | +26.0% |
 
 **狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Indian payments firms flag competition risks in one-click UPI checkout- report](https://finnhub.io/api/news?id=ab3f5a62f24b37663fd63ca063f7b32b414848aad6c0163dc5572478bfe958f9)**  
+- **[Dow Jones Futures: U.S., Iran Halt Attacks After Market Sell Signal; Apple Earnings, Fed Meeting Ahead](https://finnhub.io/api/news?id=ab69518bdd6d046b9590bec47461b201f2dd351e0d2cddaeff359bf3003628a2)**  
 *Yahoo · 1h前*  
-The companies have sent their concerns in a letter to the National Payments Corporation of India (NPCI).
+Apple, Amazon, Meta, Microsoft, SK Hynix are on tap with the Nasdaq breaking lower. So is the Federal Reserve.
 
-- **[Meta’s Latest AI Data Center Debt Raise Could Reportedly Cost More Than Its 2025 Record Deal](https://finnhub.io/api/news?id=352a5e4986749d27801deba9c003e3a5941135148c19148a9a5db96f983c789a)**  
-*Yahoo · 2h前*  
-According to a Financial Times report, investors want yields above 7%, roughly 0.4 percentage points higher than Meta paid during its previous record $27 billio…
+- **[4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter](https://finnhub.io/api/news?id=667552bba63b10f7aaa9012bbe416251c9d9b2941a66a28cb2fad4aac1f5b540)**  
+*Yahoo · 3h前*  
+Investors step into the busiest week of the quarter with hyperscaler earnings, the June Fed meeting, and escalations in the Middle East all in focus.
 
-- **[Relax, $100 Oil Is No Sweat for Stocks—But There Is a Panic Point](https://finnhub.io/api/news?id=fc2b800e22c770ef5b9dd1a77a76178e1935f63a32959248c2bb7ace2cf9d740)**  
-*Yahoo · 2h前*  
-Intel beats expectations, Alphabet feels the sting of SpaceX’s stock drop, and more news to start your day.
+- **[Alphabet: Wall Street Is Being Ridiculous - Elevated CapEx Is A Buying Opportunity](https://finnhub.io/api/news?id=8f812b94734324a82e0dfb5ca92b05a6fad67749cb3675ddc395c9ce2f023ba4)**  
+*SeekingAlpha · 5h前*  
+Alphabet Inc. Q2 earnings beat: 294% EPS, 24% revenue, but shares slid on surging AI CAPEX and FCF dip. Click for this GOOG stock update.
 
 ---
 
@@ -48,7 +48,7 @@ Intel beats expectations, Alphabet feels the sting of SpaceX’s stock drop, and
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-24 | 監控 | $606.10 | — | 自動更新 |
+| 2026-07-26 | 監控 | $595.19 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intel beats expectations, Alphabet feels the sting of SpaceX’s stock drop, and
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
