@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Down 34% From Its Highs, Is Marvell Technology a Buy on the Dip?](https://finnhub.io/api/news?id=00bf3649ba8c4cee73b1d6ef1b5abd9e51eca5d403944bec0f7a7b5ed0ed67c5)**  
-*Yahoo · 1d前*  
-Marvell is closely related to another AI giant.
+- **[These S&P500 stocks that are showing activity before the opening bell on Monday.](https://finnhub.io/api/news?id=6caee4fd9483d323d029bd7ed1a87a2a772ae8fc03ad607c5ddbd3a1c63846cb)**  
+*ChartMill · 0h前*  
+Discover the top S&P500 movers in Monday's pre-market session and stay informed about market dynamics.
 
-- **[Lattice Semiconductor, Allegro MicroSystems, Monolithic Power Systems, Marvell Technology, and MACOM Shares Are Falling, What You Need To Know](https://finnhub.io/api/news?id=32648a9932ff28890f3ddace482579ddccf73270cf715cf2459912ad29942b6a)**  
-*Yahoo · 1d前*  
-A number of stocks fell in the morning session after the U.S. government announced new tariffs of 10% to 12.5% on 60 trading partners over concerns related to f…
+- **[Sandisk, Marvell, Chevron, Broadcom, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=822bf27e51a5626b4f24c8e42ca40a928e7d2ea7944164d825e63c18deea045a)**  
+*Yahoo · 2h前*  
+Artificial-intelligence stocks rise ahead of a slew of mega-cap earnings reports, while lower oil prices drag down shares of energy majors.
 
-- **[Marvell Technology (MRVL) Stock Declines While Market Improves: Some Information for Investors](https://finnhub.io/api/news?id=55e630437ada4d8c3a856b4cdafcb59cc91373f789a6bb7e33c359ee08595f30)**  
-*Yahoo · 1d前*  
-In the closing of the recent trading day, Marvell Technology (MRVL) stood at $194.29, denoting a -7.18% move from the preceding trading day.
+- **[Nvidia’s $750 Billion Deals Revive Fear of AI Circular Financing](https://finnhub.io/api/news?id=3ce33edd72bbaf51c52b7585e87dfc2f8df65a76ebd78ffdde6303f6b252d5e5)**  
+*Yahoo · 2h前*  
+(Bloomberg) -- Nvidia Corp. is working on a fresh round of AI infrastructure deals potentially worth more than $750 billion, accelerating a streak of investment…
 
 ---
 
@@ -48,7 +48,7 @@ In the closing of the recent trading day, Marvell Technology (MRVL) stood at $19
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-26 | 監控 | $194.23 | — | 自動更新 |
+| 2026-07-27 | 監控 | $194.23 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ In the closing of the recent trading day, Marvell Technology (MRVL) stood at $19
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-27 21:05 HKT*
