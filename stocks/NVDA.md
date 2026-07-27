@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Should You Avoid Netflix Stock, Even at a 52-Week Low?](https://finnhub.io/api/news?id=adb54905ab99b22c4d4afbc494a62030d574ede70222502c88c4e02d4db8e15a)**  
+- **[Nvidia in talks to back OpenAI Ohio data center with $250 billion](https://finnhub.io/api/news?id=3561dee8ab82ef4e42d8e3158fa044842c35188b45f2e990879ea0a0824a611b)**  
 *Yahoo · 1h前*  
-Netflix stock has plunged 40% in a year as investors flee. But is the streaming giant actually a bargain at these beaten-down prices?
+The chipmaker's backing would help OpenAI lease a 10-gigawatt project in southern Ohio being developed by SoftBank's energy subsidiary
 
-- **[Salesforce vs. ServiceNow: Which Agentic AI Stock Is Actually the Better Buy Right Now?](https://finnhub.io/api/news?id=cb700f05cea5832621d8c5d7829cc6edc439518b5e422b7fe8cd69c152dc4202)**  
+- **[Here's How to Prevent an Early Market Crash From Destroying Your Retirement](https://finnhub.io/api/news?id=9a87be50a95024d8f2c4e9751efd377d1bec97daeebfa7ed12696024f9b1dead)**  
 *Yahoo · 1h前*  
-These companies are turning AI from a threat into an opportunity.
+It might seem like a nightmare scenario, but there are ways to work around it.
 
-- **[How to Maximize Your Retirement Income in the 5 Years Before You Retire](https://finnhub.io/api/news?id=5884674030a4a34fa3d891ec05ff3c4c5b796366b3f18cc1d24cb896f76f02e2)**  
+- **[AI Chips Today - NVIDIA and Silvaco Partner to Elevate Semiconductor Design](https://finnhub.io/api/news?id=4ebc93c91e1dd8a518a42b02393042a810453fa2cbbc00ca0f2a742f4271d8dc)**  
 *Yahoo · 1h前*  
-Acting on just one or two of these strategies can strengthen your financial condition come retirement.
+Recent developments in AI chips have been highlighted by a collaboration between Silvaco and NVIDIA to advance digital twin technology in semiconductor design a…
 
 ---
 
@@ -48,7 +48,7 @@ Acting on just one or two of these strategies can strengthen your financial cond
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-26 | 監控 | $206.84 | — | 自動更新 |
+| 2026-07-27 | 監控 | $206.84 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Acting on just one or two of these strategies can strengthen your financial cond
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-27 21:05 HKT*
