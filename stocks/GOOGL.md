@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-07-26 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: U.S., Iran Halt Attacks After Market Sell Signal; Apple Earnings, Fed Meeting Ahead](https://finnhub.io/api/news?id=ab69518bdd6d046b9590bec47461b201f2dd351e0d2cddaeff359bf3003628a2)**  
+- **[Earnings live: AstraZeneca stock rises to kick off a busy earnings week](https://finnhub.io/api/news?id=a879e9997dc6ee371ff3fdd33f419384a071c9443d1063bbfdff922013a619c1)**  
 *Yahoo · 1h前*  
-Apple, Amazon, Meta, Microsoft, SK Hynix are on tap with the Nasdaq breaking lower. So is the Federal Reserve.
+Earnings season kicks into high gear this week.
 
-- **[4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter](https://finnhub.io/api/news?id=667552bba63b10f7aaa9012bbe416251c9d9b2941a66a28cb2fad4aac1f5b540)**  
-*Yahoo · 3h前*  
-Investors step into the busiest week of the quarter with hyperscaler earnings, the June Fed meeting, and escalations in the Middle East all in focus.
+- **[Here Are Monday’s Top Wall Street Analyst Research Calls: Alphabet, Clean Harbors, Ford, Huntington Bancshares, Rivian, Rocket Lab, Terawulf, Vale, Warner Bros. Discovery, and More](https://finnhub.io/api/news?id=fd3df2c6f0493272999897f2428b5f0b3821e0f7e0b005e84dfe494f335d496d)**  
+*Yahoo · 1h前*  
+Pre-Market Stock Futures: Futures are trading higher as we head into the busiest week of the second quarter earnings season. More than 30% (over 150 companies) …
 
-- **[The 8 Best Stocks to Buy on Alphabet's Surging Capex](https://finnhub.io/api/news?id=e035ad4b56ec429602d72026096c924faab05886d0aadefe8487f88d453d05d0)**  
-*Yahoo · 3h前*  
-These AI stocks should directly benefit from Alphabet's increasing capex.
+- **[Alphabet's Stake in SpaceX Just Swelled to $94.1 Billion, and Its Position in Anthropic Is Worth Even More](https://finnhub.io/api/news?id=9c0f46113809d320cd2b9400e35a841a3ab05f5c6395c038625c17530263c690)**  
+*Yahoo · 1h前*  
+Google might just be Wall Street's most impressive investor.
 
 ---
 
@@ -48,7 +48,7 @@ These AI stocks should directly benefit from Alphabet's increasing capex.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-26 | 監控 | $319.74 | — | 自動更新 |
+| 2026-07-27 | 監控 | $319.74 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ These AI stocks should directly benefit from Alphabet's increasing capex.
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-26 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-07-27 21:05 HKT*
