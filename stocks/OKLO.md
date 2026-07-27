@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-27 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,16 +31,12 @@
 ## 📰 最新新聞
 
 - **[Benzinga Bulls and Bears: IBM, Super Micro, Tesla](https://finnhub.io/api/news?id=8614cf81f82a0f8d509eb025636405d798723406cb04853bc0d590a59ad7ef4d)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
 
 - **[Oklo: Building Momentum, Still Missing Commercial Proof](https://finnhub.io/api/news?id=1217511996546643fc454c53f007d9c57e28a2d31a70238ecbca5247bcc89c0b)**  
-*SeekingAlpha · 1d前*  
-Oklo is transitioning from a speculative nuclear concept to active facility construction and regulatory advancement. Find out why OKLO stock is a hold.
-
-- **[Oklo: The Story Got Better, But The Stock Still Asks Too Much](https://finnhub.io/api/news?id=d6a65024c92506269bca96c406fad4792c89c25c5b839aae07e00caabd941cb8)**  
 *SeekingAlpha · 2d前*  
-Oklo (OKLO) stock update: shares de-rate on valuation/dilution risk despite reactor & regulatory progress, strong liquidity, and slow revenue rampâread...
+Oklo is transitioning from a speculative nuclear concept to active facility construction and regulatory advancement. Find out why OKLO stock is a hold.
 
 ---
 
@@ -48,7 +44,7 @@ Oklo (OKLO) stock update: shares de-rate on valuation/dilution risk despite reac
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-26 | 監控 | $40.25 | — | 自動更新 |
+| 2026-07-27 | 監控 | $40.25 | — | 自動更新 |
 
 ---
 
@@ -59,4 +55,4 @@ Oklo (OKLO) stock update: shares de-rate on valuation/dilution risk despite reac
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-27 21:06 HKT*
