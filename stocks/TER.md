@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Teradyne (TER) Reports Earnings Tomorrow: What To Expect](https://finnhub.io/api/news?id=5ee48397262c41b07a815b713296a30e63e2bdff9f5db06a1915414e9cab41fe)**  
+*Yahoo · 2h前*  
+Semiconductor testing company Teradyne (NASDAQ:TER) will be reporting results this Tuesday afternoon. Here’s what to look for.
+
+- **[Earnings Volatility Watch: 12 Stocks With Double-Digit Implied Moves This Week](https://finnhub.io/api/news?id=311932cac57a427174119777bdc64152d87f55570840778cb9388262d9f662eb)**  
+*Benzinga · 1d前*  
+Apple, Microsoft, Amazon and Meta report this week, but options traders expect bigger swings from Bloom Energy, KLA and 10 other names.
+
 - **[70% of Teradyne’s Revenue Is Tied to AI. Should You Buy Before July 29 Q2 Earnings?](https://finnhub.io/api/news?id=f4411f9a21dc84af7b820d1059a0480616aed3de9eae48ef909ecc3745cdd137)**  
-*Yahoo · 21h前*  
-Teradyne has nearly doubled in 2026 by placing one very concentrated bet, and its July 29 earnings report will reveal whether that bet still has room to run or …
-
-- **[After a 22% Pullback, Semiconductor Equipment Stocks Face a Pivotal Earnings Test](https://finnhub.io/api/news?id=9ae778ae62a48666a4757d36d344ae3c55b86a9bd2398bb583700b9f36d5989f)**  
-*ChartMill · 1d前*  
-Semiconductor equipment stocks surged 174% but dropped 22% in a month. Lam Research, KLA, Teradyne report earnings, testing if pullback is buying opportunity.
-
-- **[Himax, Teradyne, Entegris, IPG Photonics, and Penguin Solutions Shares Plummet, What You Need To Know](https://finnhub.io/api/news?id=03c2f20b4e11d7f79aa2c93bf26efa3f40affdbfe880ef94a14832fb9d21e1c4)**  
 *Yahoo · 1d前*  
-A number of stocks fell in the morning session after the U.S. government announced new tariffs of 10% to 12.5% on 60 trading partners over concerns related to f…
+Teradyne has nearly doubled in 2026 by placing one very concentrated bet, and its July 29 earnings report will reveal whether that bet still has room to run or …
 
 ---
 
@@ -48,7 +48,7 @@ A number of stocks fell in the morning session after the U.S. government announc
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-26 | 監控 | $349.92 | — | 自動更新 |
+| 2026-07-27 | 監控 | $349.92 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks fell in the morning session after the U.S. government announc
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-27 21:05 HKT*
