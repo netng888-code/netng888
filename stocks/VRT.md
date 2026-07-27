@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-27 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Zacks Investment Ideas feature highlights: Vertiv, Nvidia and EMCOR Group](https://finnhub.io/api/news?id=9cdea48141f251f3d979781d577fa3bc6dcde0a98ab7e848ef7beefbac0914f1)**  
+*Yahoo · 3h前*  
+Vertiv and EMCOR Group are spotlighted as AI infrastructure plays, with data center and energy demand driving growth ahead of upcoming earnings.
+
+- **[Earnings Volatility Watch: 12 Stocks With Double-Digit Implied Moves This Week](https://finnhub.io/api/news?id=311932cac57a427174119777bdc64152d87f55570840778cb9388262d9f662eb)**  
+*Benzinga · 1d前*  
+Apple, Microsoft, Amazon and Meta report this week, but options traders expect bigger swings from Bloom Energy, KLA and 10 other names.
+
 - **[Earn 10-15% Potential Income: Monthly Options Series (Aug. 2026)](https://finnhub.io/api/news?id=2c5db92c8ab827ee6f3b90cbf33fde6ea6c56be2eb02d39168027e8407bb46f0)**  
-*SeekingAlpha · 4h前*  
+*SeekingAlpha · 1d前*  
 The series targets generating 12â15% annualized income through disciplined selling of PUT and BUY-WRITE CALL options on large-cap stocks. Check out the strate…
-
-- **[Did Vertiv’s Expanded AI Cooling Builds And Higher EPS Guidance Just Shift Vertiv Holdings Co's (VRT) Investment Narrative?](https://finnhub.io/api/news?id=c4ea1b27f91481f3d51aae783b178179272c1b34947d28be58a7ad10f8f9fe63)**  
-*Yahoo · 18h前*  
-In recent weeks, Vertiv has expanded AI-focused manufacturing capacity, highlighted new integrated power and liquid-cooling deployments such as its work on the …
-
-- **[3 Major Reasons to Buy Vertiv Before July 29 Q2 Earnings](https://finnhub.io/api/news?id=71ecaae4a934dd9468240abe6d4441ebcbf8eb49f40917d70c93c3812504d960)**  
-*Yahoo · 20h前*  
-Vertiv enters its July 29 earnings report with a $15 billion backlog and a stock price sitting well below analyst targets, but one regional blind spot could com…
 
 ---
 
@@ -48,7 +48,7 @@ Vertiv enters its July 29 earnings report with a $15 billion backlog and a stock
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-26 | 監控 | $290.36 | — | 自動更新 |
+| 2026-07-27 | 監控 | $290.36 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv enters its July 29 earnings report with a $15 billion backlog and a stock
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-27 21:06 HKT*
