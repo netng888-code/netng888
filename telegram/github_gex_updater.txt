@@ -65,7 +65,7 @@ BATCH1 = [
 
 # BATCH2（Barchart帳戶2，8隻，quota用16/20，剩約2隻緩衝，加持倉應加呢度）
 BATCH2 = [
-    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 20,  "cost": 21.067 },
+    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 30,  "cost": 27.745 },
     {"sym": "RKLB",  "name": "Rocket Lab",        "qty": 10,  "cost": 76.00  },
     {"sym": "PLTR",  "name": "Palantir",          "qty": 7,   "cost": 124.335},
     {"sym": "ISRG",  "name": "直覺外科公司",     "qty": 2,   "cost": 453.10 },
