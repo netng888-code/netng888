@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-27 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Prediction: Palantir Stock Will Drop to This Price After Aug. 3](https://finnhub.io/api/news?id=d28b8dc49f813352311f8ba80eed3e67f1a208412b19a94fb6ab03a79481a23c)**  
-*Yahoo · 5h前*  
-Palantir stock is down 30% so far in 2026, and more selling pressure could be on the way.
+- **[Joins Industry Coalition to Launch Open Source AI Cybersecurity Alliance](https://finnhub.io/api/news?id=c2f55e412be34e334c6d16111214f5d6c9f05197748b571ad193dd0376380320)**  
+*Yahoo · 1h前*  
+Nvidia (NVDA) is leading an initiative among a number of companies advocating for open-source AI too
 
-- **[Investors Are Debating Which Stocks They'd Never Buy, No Matter How Bullish Everyone Else Is. 'Money Is Money, But…'](https://finnhub.io/api/news?id=30914d5633f6682dd7d41cf74142fd8745619e9476ee29e83cedeb8859f4a8e3)**  
-*Yahoo · 18h前*  
-Every investor has a stock they simply refuse to own, despite the excitement surrounding it. One Reddit user wanted to know exactly that and asked fellow invest…
+- **[Nvidia rallies the open AI camp](https://finnhub.io/api/news?id=71ba5f97bd07a818a22d1718cfd1cf8177b37ed57b406c7342c977bb77cd6871)**  
+*Yahoo · 4h前*  
+Tech companies are rallying behind open weight AI models — and not just the usual suspects.
 
-- **[2 Millionaire-Maker AI Stocks to Hold for the Next Decade](https://finnhub.io/api/news?id=c5b299511ee315e61628094b8a5d170b97f04fdd5483868220e92caec4318be4)**  
-*Yahoo · 1d前*  
-These stocks are capitalizing on the growth of the emerging neocloud industry.
+- **[The Growth That Has to Land for Palantir Stock to Make Sense](https://finnhub.io/api/news?id=c842b99a681682295a2205c5220ed2d26adf460314fdf85157d54e258d0bd3d6)**  
+*Yahoo · 4h前*  
+The software firm’s shares look expensive, but a look at future earnings reveals a very different picture.
 
 ---
 
@@ -48,7 +48,7 @@ These stocks are capitalizing on the growth of the emerging neocloud industry.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-26 | 監控 | $122.92 | — | 自動更新 |
+| 2026-07-27 | 監控 | $122.92 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ These stocks are capitalizing on the growth of the emerging neocloud industry.
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-27 21:06 HKT*
