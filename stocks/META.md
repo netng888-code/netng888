@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: U.S., Iran Halt Attacks After Market Sell Signal; Apple Earnings, Fed Meeting Ahead](https://finnhub.io/api/news?id=ab69518bdd6d046b9590bec47461b201f2dd351e0d2cddaeff359bf3003628a2)**  
+- **[Earnings live: AstraZeneca stock rises to kick off a busy earnings week](https://finnhub.io/api/news?id=a879e9997dc6ee371ff3fdd33f419384a071c9443d1063bbfdff922013a619c1)**  
 *Yahoo · 1h前*  
-Apple, Amazon, Meta, Microsoft, SK Hynix are on tap with the Nasdaq breaking lower. So is the Federal Reserve.
+Earnings season kicks into high gear this week.
 
-- **[4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter](https://finnhub.io/api/news?id=667552bba63b10f7aaa9012bbe416251c9d9b2941a66a28cb2fad4aac1f5b540)**  
-*Yahoo · 3h前*  
-Investors step into the busiest week of the quarter with hyperscaler earnings, the June Fed meeting, and escalations in the Middle East all in focus.
+- **[Sinking Oil Lifts Wall Street Pre-Bell; Asia, Europe Up](https://finnhub.io/api/news?id=4aa806b23c8e492f14b990a6032ce5ae295159fba5f37c33e5050fc734c0ad1a)**  
+*Yahoo · 1h前*  
+Wall Street futures pointed higher pre-bell Monday on softer oil prices and statements from Tehran a
 
-- **[Alphabet: Wall Street Is Being Ridiculous - Elevated CapEx Is A Buying Opportunity](https://finnhub.io/api/news?id=8f812b94734324a82e0dfb5ca92b05a6fad67749cb3675ddc395c9ce2f023ba4)**  
-*SeekingAlpha · 5h前*  
-Alphabet Inc. Q2 earnings beat: 294% EPS, 24% revenue, but shares slid on surging AI CAPEX and FCF dip. Click for this GOOG stock update.
+- **[Crypto Treasury Firms Pivot to AI in Bid to Win Back Investors](https://finnhub.io/api/news?id=07f4d602786ebb4434eaf7c476e697a19dad44c0f796bf2340b2bfdad0cd4390)**  
+*Yahoo · 1h前*  
+(Bloomberg) -- The implosion of the once-hot market for cryptocurrency treasury stocks is prompting a number of firms to pivot to artificial intelligence in an …
 
 ---
 
@@ -48,7 +48,7 @@ Alphabet Inc. Q2 earnings beat: 294% EPS, 24% revenue, but shares slid on surgin
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-26 | 監控 | $595.19 | — | 自動更新 |
+| 2026-07-27 | 監控 | $595.19 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Alphabet Inc. Q2 earnings beat: 294% EPS, 24% revenue, but shares slid on surgin
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-27 21:05 HKT*
