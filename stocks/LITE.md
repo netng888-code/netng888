@@ -1,6 +1,6 @@
 # LITE — Lumentum
 
-> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-27 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Zacks.com featured highlights include PENN Entertainment, Chemours and Lumentum](https://finnhub.io/api/news?id=faf26675af83350a413c4b349a3230dd6ca1f3c14683ebe7c6c1e5871f1bb86c)**  
+*Yahoo · 2h前*  
+PENN Entertainment, Chemours and Lumentum stand out after broker rating upgrades, supported by stronger earnings growth outlooks and improving analyst sentiment…
+
 - **[2 Stocks to Buy Now as Google Raises Its AI Spending Forecast Yet Again](https://finnhub.io/api/news?id=f5d37e4662deadfa55b4faee5d93b53cfa441d48e5a2d9a90293e26220c0ffaa)**  
-*Yahoo · 23h前*  
+*Yahoo · 1d前*  
 Alphabet's AI spending spree could hand Lumentum and Celestica another tailwind as demand outpaces infrastructure supply.
 
 - **[Explore the top gainers and losers within the S&P500 index in today's session.](https://finnhub.io/api/news?id=3c724bebe6c67a8bf3d7fa844ef1cca7a0c3e1cf06f2c36d17c6830cc1c3a574)**  
-*ChartMill · 1d前*  
+*ChartMill · 2d前*  
 Join us in exploring the top gainers and losers within the S&P500 index one hour before the close of the markets on Friday as we examine the latest happenings i…
-
-- **[Uncover the latest developments among S&P500 stocks in today's session.](https://finnhub.io/api/news?id=d659103d7d7b5ef979f73e9b619ecda56339bb5d1d3d2a3be050003d830e115a)**  
-*ChartMill · 1d前*  
-Get insights into the S&P500 index performance on Friday. Explore the top gainers and losers within the S&P500 index in today's session.
 
 ---
 
@@ -48,7 +48,7 @@ Get insights into the S&P500 index performance on Friday. Explore the top gainer
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-26 | 監控 | $762.99 | — | 自動更新 |
+| 2026-07-27 | 監控 | $762.99 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Get insights into the S&P500 index performance on Friday. Explore the top gainer
 - [TradingView](https://www.tradingview.com/chart/?symbol=LITE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-27 21:06 HKT*
