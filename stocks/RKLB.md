@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-07-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-27 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[MarketBeat Week in Review – 07/20- 07/24](https://finnhub.io/api/news?id=1011e1f194a780a98bf8b23f87b7cf96200a6cd8159eb0fe61ddeca44aee6a46)**  
-*Yahoo · 1d前*  
-Stocks fell as investors weighed AI CapEx concerns, Oracle's credit downgrade, Netflix and Tesla earnings, and upcoming Fed and Magnificent 7 reports, plus stoc…
+- **[RKLB Stock Climbs Premarket On Landmark US Space Force Contract – How Is It Different From Commercial Launches?](https://finnhub.io/api/news?id=78a4368b2dde4ac1e8c4aeb08bbbe4e890ac4f879d39a3b3b87868d2d854dfee)**  
+*Yahoo · 1h前*  
+Under the multi-launch contract, Rocket Lab will be responsible for 12 suborbital launches and an additional six launches on behalf of the U.S. Space Force.
 
-- **[Benzinga Bulls and Bears: IBM, Super Micro, Tesla](https://finnhub.io/api/news?id=8614cf81f82a0f8d509eb025636405d798723406cb04853bc0d590a59ad7ef4d)**  
-*Benzinga · 1d前*  
-Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
+- **[Here Are Monday’s Top Wall Street Analyst Research Calls: Alphabet, Clean Harbors, Ford, Huntington Bancshares, Rivian, Rocket Lab, Terawulf, Vale, Warner Bros. Discovery, and More](https://finnhub.io/api/news?id=fd3df2c6f0493272999897f2428b5f0b3821e0f7e0b005e84dfe494f335d496d)**  
+*Yahoo · 1h前*  
+Pre-Market Stock Futures: Futures are trading higher as we head into the busiest week of the second quarter earnings season. More than 30% (over 150 companies) …
 
-- **[Oracle’s defense pivot lands its biggest government win yet](https://finnhub.io/api/news?id=ce4e6807a13c25d86dfde3be02866f62fa7de0620164a1147db24d69d80e8472)**  
-*Yahoo · 1d前*  
-The U.S. Department of Defense has entered an aggressive new era of spending this year. Before launching into its massive new tech overhauls, it kicked off the …
+- **[Rocket Lab Stock Is Jumping for 2 Reasons](https://finnhub.io/api/news?id=83b2100f539d5a41b3f8933a4bbfcbc053a1af74a145f16ce5eb00fdcf3a6ad2)**  
+*Yahoo · 1h前*  
+Rocket Lab  stock jumped in premarket trading Monday after the company announced a new business win.  Shares of the mini-  SpaceX  which has launch and satellit…
 
 ---
 
@@ -48,7 +48,7 @@ The U.S. Department of Defense has entered an aggressive new era of spending thi
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-26 | 監控 | $63.91 | — | 自動更新 |
+| 2026-07-27 | 監控 | $63.91 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The U.S. Department of Defense has entered an aggressive new era of spending thi
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-27 21:06 HKT*
