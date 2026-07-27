@@ -1,5 +1,5 @@
 """
-telegram_bot.py  ── GEX 持倉監控 Telegram Bot  v1.5
+telegram_bot.py  ── GEX 持倉監控 Telegram Bot  v1.6
 ═══════════════════════════════════════════════════
 v1.0: 基礎版本（Futu Bridge T1主 + Finnhub fallback + GEX警報）
 v1.1: 【重要bugfix】修正兩個令GEX警報／/report／/pnl 一直用緊
@@ -109,6 +109,39 @@ v1.5:【重要bugfix】修正GOOGL績後大跌完全冇觸發自動警報嘅問�
       亦分開「已跌穿/已突破」（🚨/💥 + 「已跌穿Put Wall：X%」）同
       「逼近」（🔴/🟢 + 「距離...僅X%」）兩種描述，唔會再共用一句
       唔啱意思嘅文案。
+v1.6: 主力AI model由 Kimi K2 Thinking 換返 DeepSeek，順便解決埋一個
+      即將爆嘅獨立問題：
+      背景1（換model嘅原因，主要為慳成本）——v1.2嗰陣由DeepSeek
+      換Kimi，真正原因係AVGO事件AI自己計「現價 vs Put Wall邊個
+      高」個方向計錯咗；但嗰次嘅根治方法其實係新增
+      compute_wall_status()，喺Python code層面預先計好方向文字先
+      畀AI用，AI唔使再自己做算術/方向推理——呢個修正同用邊隻model
+      無關，Kimi K2 Thinking淨係嗰次加多一層保險，唔係核心修正
+      （見v1.2 (1)）。呢層防呆機制v1.6完全冇拆過，所以換返平嘅
+      model風險可控。Kimi K2 Thinking約$0.60／$2.50 per M
+      tokens（input/output），DeepSeek V4 Flash約$0.09／$0.18，
+      平成6-12倍。
+      背景2（連埋一齊必須修嘅deadline）——DeepSeek官方
+      deepseek-chat／deepseek-reasoner呢兩個legacy model名
+      （即FALLBACK_MODEL之前一直用緊嗰個字串）將於2026-07-24
+      15:59 UTC完全停用（DeepSeek官方change log原文："fully
+      retired and inaccessible"），過咗呢個死線舊alias會直接
+      拒絕請求。OpenRouter嘅deepseek/deepseek-chat底層都係call緊
+      DeepSeek呢個alias，一樣受影響，所以連埋一齊換做DeepSeek
+      2026-04已發布嘅明確版本名 deepseek-v4-flash，唔再靠隨時
+      斷嘅舊alias。
+      改動：
+      (1) ANALYSIS_MODEL 換做 "deepseek/deepseek-v4-flash"（主，
+          平；已避開就快停用嘅deepseek-chat alias）
+      (2) FALLBACK_MODEL 換做 "moonshotai/kimi-k2-thinking"
+          （備——原本嘅主力model降級做fallback，如果DeepSeek V4
+          Flash都被你OpenRouter帳戶所屬地區封鎖[403]或連接逾時，
+          ask_ai()會自動fallback去佢，reasoning model呢層保險
+          冇拆走，淨係唔再每次分析都畀錢用佢）
+      未變：compute_wall_status()／build_gex_prompt() 嘅方向判斷
+      邏輯完全冇動過，AI喺呢類任務嘅角色維持「將已確定嘅事實組織
+      做建議」而唔係「自己計算方向」，呢個先係AVGO事件真正嘅防
+      呆網，同主力model係邊隻無關。
 
 架構：
   Telegram指令
@@ -118,9 +151,10 @@ v1.5:【重要bugfix】修正GOOGL績後大跌完全冇觸發自動警報嘅問�
       ↓（Futu離線或個別股票缺數據時）
   GitHub stocks/*.md（github_gex_updater.py 21:00已更新）+ Finnhub
       ↓
-  OpenRouter → Kimi K2 Thinking（主，reasoning model；因OpenRouter
-               帳戶所屬地區被封鎖存取OpenAI/Anthropic/Google）
-               → 403/逾時時自動fallback DeepSeek（備）
+  OpenRouter → DeepSeek V4 Flash（主，平；因OpenRouter帳戶所屬
+               地區被封鎖存取OpenAI/Anthropic/Google）
+               → 403/逾時時自動fallback Kimi K2 Thinking（備，
+               reasoning model安全網，v1.6由主力降做fallback）
       ↓
   Telegram回覆
 
@@ -146,7 +180,7 @@ v1.5:【重要bugfix】修正GOOGL績後大跌完全冇觸發自動警報嘅問�
 ═══════════════════════════════════════════════════
 """
 
-BOT_VERSION = "1.5"
+BOT_VERSION = "1.6"
 
 import re
 import json
@@ -167,9 +201,9 @@ US_TZ = ZoneInfo("America/New_York")
 # ═══════════════════════════════════════════════════
 # ⚙️  設定區（只需改呢度）
 # ═══════════════════════════════════════════════════
-TELEGRAM_BOT_TOKEN = ""   # ← BotFather 俾你嗰串
-OPENROUTER_API_KEY = ""# ← openrouter.ai 嗰串
-FINNHUB_KEY         = "" #
+TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"   # ← BotFather 俾你嗰串
+OPENROUTER_API_KEY = "YOUR_OPENROUTER_API_KEY"   # ← openrouter.ai 嗰串
+FINNHUB_KEY         = "d83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g"
 
 GITHUB_OWNER  = "netng888-code"
 GITHUB_REPO   = "netng888"
@@ -184,14 +218,23 @@ FUTU_BRIDGE_URL = "http://127.0.0.1:8888"
 #    被封鎖存取 OpenAI / Anthropic / Google 三大provider
 #    （OpenRouter後台已確認："All other models remain available"）
 # 2026-07-14（v1.2）：由 deepseek/deepseek-chat 換做
-#    moonshotai/kimi-k2-thinking——強制step-by-step推理嘅reasoning
-#    model，喺「現價相對Put/Call Wall邊個高邊個低」呢類方向性判斷
-#    任務上比一般chat model穩陣。價錢約$0.60/$2.50 per M tokens，
-#    貴DeepSeek chat約3倍，但每次分析封頂500 tokens、用量細，
-#    差價可忽略。如果Moonshot都受你帳戶地區限制封鎖（403），
-#    ask_ai() 會自動fallback去 FALLBACK_MODEL，唔使手動改設定。
-ANALYSIS_MODEL = "moonshotai/kimi-k2-thinking"
-FALLBACK_MODEL = "deepseek/deepseek-chat"
+#    moonshotai/kimi-k2-thinking，因AVGO事件AI自己計方向計錯咗，
+#    Kimi係reasoning model，作為多一層保險（核心修正其實係下面
+#    compute_wall_status()，唔係換model本身，詳見v1.2 changelog）。
+# 2026-07-24（v1.6）：主力換返DeepSeek，但換做DeepSeek 2026-04
+#    已發布嘅新版 deepseek-v4-flash，唔再用返v1.2嗰陣嘅舊alias
+#    deepseek-chat——DeepSeek官方2026-07-24 15:59 UTC會完全停用
+#    deepseek-chat／deepseek-reasoner呢兩個legacy alias，過咗
+#    死線舊alias會直接拒絕請求，所以連埋一齊換做明確版本名。
+#    價錢：DeepSeek V4 Flash約$0.09/$0.18 per M tokens，Kimi K2
+#    Thinking約$0.60/$2.50，平成6-12倍。v1.2嗰次嘅根治機制
+#    compute_wall_status()完全冇拆過，AI喺方向判斷呢類任務淨係
+#    負責組織已確定嘅事實，唔使自己計算，所以換返平嘅model風險
+#    可控。Kimi降級做FALLBACK_MODEL保留——DeepSeek都被403封鎖
+#    或逾時嗰陣，ask_ai()會自動fallback去佢，呢層reasoning model
+#    安全網冇拆走。
+ANALYSIS_MODEL = "deepseek/deepseek-v4-flash"
+FALLBACK_MODEL = "moonshotai/kimi-k2-thinking"
 
 # 全部18大持倉（同 github_gex_updater.py 保持一致；
 # GEX數據嗰邊由兩個Barchart帳戶分批攞，呢度純粹係顯示用清單）
@@ -206,7 +249,7 @@ ALL_HOLDINGS = [
     {"sym": "NOK",   "name": "諾基亞",          "qty": 100, "cost": 13.50  },
     {"sym": "RDW",   "name": "Redwire",         "qty": 80,  "cost": 15.65  },
     {"sym": "LEU",   "name": "Centrus Energy",  "qty": 8,   "cost": 197.50 },
-    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 20,  "cost": 21.067 },
+    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 30,  "cost": 27.745 },
     {"sym": "RKLB",  "name": "Rocket Lab",        "qty": 10,  "cost": 76.00  },
     {"sym": "PLTR",  "name": "Palantir",          "qty": 7,   "cost": 124.335},
     {"sym": "ISRG",  "name": "直覺外科公司",     "qty": 2,   "cost": 453.10 },
@@ -609,15 +652,16 @@ def parse_md(md: str) -> dict:
     return data
 
 # ═══════════════════════════════════════════════════
-# OpenRouter → Kimi K2 Thinking（主）／DeepSeek（fallback）：生成分析建議
+# OpenRouter → DeepSeek V4 Flash（主）／Kimi K2 Thinking（fallback）：生成分析建議
 # ═══════════════════════════════════════════════════
 def ask_ai(prompt: str, model: str | None = None, _is_fallback_retry: bool = False) -> str:
     """
     v1.2新增：model參數 + 自動fallback。
-    若 ANALYSIS_MODEL（主，Kimi K2 Thinking）被OpenRouter帳戶所屬
-    地區封鎖（403）或連接逾時，自動retry一次改用 FALLBACK_MODEL
-    （DeepSeek），只做一次retry（_is_fallback_retry防止死循環），
-    避免主model有事就成個AI分析功能靜默停擺。
+    若 ANALYSIS_MODEL（主，v1.6起係DeepSeek V4 Flash）被OpenRouter
+    帳戶所屬地區封鎖（403）或連接逾時，自動retry一次改用
+    FALLBACK_MODEL（v1.6起係Kimi K2 Thinking），只做一次retry
+    （_is_fallback_retry防止死循環），避免主model有事就成個AI
+    分析功能靜默停擺。
     401（key本身無效）／402（餘額不足）／429（rate limit）呢三類
     錯誤屬於帳戶層面，換model都冇用，唔會觸發fallback。
     """
