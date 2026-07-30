@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-07-27 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-30 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$290.36** |
-| 今日變動 | ▼ $13.68　(-4.50%) |
+| 現價 | **$223.04** |
+| 今日變動 | ▼ $46.52　(-17.26%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $27　(▼4.4%) |
+| 未實現盈虧 | ▼ $161　(▼26.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $297.78 | — |
-| Put Wall（支撐） | $210.00 | -27.7% |
-| Call Wall（阻力） | $260.00 | +-10.5% |
+| Gamma Flip | $290.37 | — |
+| Put Wall（支撐） | $210.00 | -5.8% |
+| Call Wall（阻力） | $230.00 | +3.1% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Zacks Investment Ideas feature highlights: Vertiv, Nvidia and EMCOR Group](https://finnhub.io/api/news?id=9cdea48141f251f3d979781d577fa3bc6dcde0a98ab7e848ef7beefbac0914f1)**  
-*Yahoo · 3h前*  
-Vertiv and EMCOR Group are spotlighted as AI infrastructure plays, with data center and energy demand driving growth ahead of upcoming earnings.
+- **[VRT Stock Heads For Worst Week In 4 Years After Revenue Miss – But This Analyst Still Sees 68% Upside As CEO Defends AI Demand](https://finnhub.io/api/news?id=2db0222868be9da65149531bd6dd4bf857b98db4d9dbff453d4e1d4f913a21ba)**  
+*Yahoo · 4h前*  
+Vertiv CEO reassured about strong AI data center demand despite second-quarter revenue pressure.
 
-- **[Earnings Volatility Watch: 12 Stocks With Double-Digit Implied Moves This Week](https://finnhub.io/api/news?id=311932cac57a427174119777bdc64152d87f55570840778cb9388262d9f662eb)**  
-*Benzinga · 1d前*  
-Apple, Microsoft, Amazon and Meta report this week, but options traders expect bigger swings from Bloom Energy, KLA and 10 other names.
+- **[US Stock Market Today: S&P 500 Futures Edge Higher As Rate Jitters Meet Earnings](https://finnhub.io/api/news?id=e8db514e0fd8442d249754b3cecf4423f56769698881eb58679ed1a2b6cc6bb3)**  
+*Yahoo · 4h前*  
+The Morning Bull - US Market Morning Update Thursday, Jul, 30 2026 US stock futures are pointing slightly higher this morning, with E-mini S&P 500 contracts up …
 
-- **[Earn 10-15% Potential Income: Monthly Options Series (Aug. 2026)](https://finnhub.io/api/news?id=2c5db92c8ab827ee6f3b90cbf33fde6ea6c56be2eb02d39168027e8407bb46f0)**  
-*SeekingAlpha · 1d前*  
-The series targets generating 12â15% annualized income through disciplined selling of PUT and BUY-WRITE CALL options on large-cap stocks. Check out the strate…
+- **[Vertiv (VRT) Stock Sinks Despite Earnings Beat. What to Know.](https://finnhub.io/api/news?id=2da9580cde7a4df0396cb92b8be8a49f11ee551606884ebc41489466babe7ada)**  
+*Yahoo · 17h前*  
+Vertiv stock sinks as Q2 revenue comes in shy of expectations. Here’s how you should play VRT shares on the post-earnings selloff.
 
 ---
 
@@ -48,7 +48,7 @@ The series targets generating 12â15% annualized income through disciplined 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-27 | 監控 | $290.36 | — | 自動更新 |
+| 2026-07-30 | 監控 | $223.04 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The series targets generating 12â15% annualized income through disciplined 
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-27 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-07-30 21:05 HKT*
