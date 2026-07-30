@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-07-27 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$40.25** |
-| 今日變動 | ▼ $3.75　(-8.52%) |
+| 現價 | **$36.84** |
+| 今日變動 | ▼ $2.74　(-6.92%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $21.067 |
-| 未實現盈虧 | ▲ $384　(▲91.1%) |
+| 未實現盈虧 | ▲ $315　(▲74.9%) |
 
 ---
 
@@ -20,23 +20,23 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $52.22 | — |
-| Put Wall（支撐） | $50.00 | --24.2% |
-| Call Wall（阻力） | $90.00 | +123.6% |
+| Gamma Flip | $42.09 | — |
+| Put Wall（支撐） | $35.00 | -5.0% |
+| Call Wall（阻力） | $90.00 | +144.3% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Benzinga Bulls and Bears: IBM, Super Micro, Tesla](https://finnhub.io/api/news?id=8614cf81f82a0f8d509eb025636405d798723406cb04853bc0d590a59ad7ef4d)**  
-*Benzinga · 2d前*  
-Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
-
-- **[Oklo: Building Momentum, Still Missing Commercial Proof](https://finnhub.io/api/news?id=1217511996546643fc454c53f007d9c57e28a2d31a70238ecbca5247bcc89c0b)**  
+- **[The Gas-To-Nuclear Bridge For AI Data Centers](https://finnhub.io/api/news?id=7b1ff24eedc5b202eac346ae0218acabb2f60aebb3be4c20930c7ad5d2aacbe1)**  
 *SeekingAlpha · 2d前*  
-Oklo is transitioning from a speculative nuclear concept to active facility construction and regulatory advancement. Find out why OKLO stock is a hold.
+Amentum, GE Vernova, and Oklo are positioned at different points in the gas-to-nuclear development model. Read more here...
+
+- **[Oklo Shares Bounce Off 52-Week Low Zone: What's Driving the Action?](https://finnhub.io/api/news?id=f29ac1e6b29df3e0c0a653eb6ae960304f0144322bb411518058698cfa073c31)**  
+*Benzinga · 3d前*  
+Oklo shares are up 3% in Monday&#39;s pre-market after report of joining federal push to speed up nuclear projects tied to AI data-center demand.
 
 ---
 
@@ -44,7 +44,7 @@ Oklo is transitioning from a speculative nuclear concept to active facility cons
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-27 | 監控 | $40.25 | — | 自動更新 |
+| 2026-07-30 | 監控 | $36.84 | — | 自動更新 |
 
 ---
 
@@ -55,4 +55,4 @@ Oklo is transitioning from a speculative nuclear concept to active facility cons
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-27 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-07-30 21:04 HKT*
