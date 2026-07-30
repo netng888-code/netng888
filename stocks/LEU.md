@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-07-27 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$163.89** |
-| 今日變動 | ▼ $6.89　(-4.03%) |
+| 現價 | **$159.69** |
+| 今日變動 | ▼ $9.96　(-5.87%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $269　(▼17.0%) |
+| 未實現盈虧 | ▼ $302　(▼19.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $168.86 | — |
-| Put Wall（支撐） | $150.00 | -8.5% |
-| Call Wall（阻力） | $200.00 | +22.0% |
+| Gamma Flip | $170.27 | — |
+| Put Wall（支撐） | $150.00 | -6.1% |
+| Call Wall（阻力） | $200.00 | +25.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,7 +30,13 @@
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[JP Morgan Maintains Neutral on Centrus Energy, Lowers Price Target to $178](https://finnhub.io/api/news?id=105d3d868864011c85029a358db63fbddda657a3fbecc86ed34593689a04b3e0)**  
+*Benzinga · 22h前*  
+JP Morgan  analyst Bill Peterson   maintains Centrus Energy (NYSE:LEU) with a Neutral and lowers the price target from $236 to $178.
+
+- **[Avis Budget Posts Weak Q2 Results, Joins Fiverr International, Costar Group And Other Big Stocks Moving Lower In Wednesday’s Pre-Market Session](https://finnhub.io/api/news?id=20ee94d5f5931325ea62467a762d37bb1381df534c42359e52833d7ac6232816)**  
+*Benzinga · 1d前*  
+US stock futures mixed, Dow up 0.1%. Avis Budget Group (CAR) shares down 13.3% after missing earnings &amp; sales estimates. Other stocks also down.
 
 ---
 
@@ -38,7 +44,7 @@
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-27 | 監控 | $163.89 | — | 自動更新 |
+| 2026-07-30 | 監控 | $159.69 | — | 自動更新 |
 
 ---
 
@@ -49,4 +55,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-27 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-07-30 21:04 HKT*
