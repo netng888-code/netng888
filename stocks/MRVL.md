@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-07-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$194.23** |
-| 今日變動 | ▼ $15.09　(-7.21%) |
+| 現價 | **$163.40** |
+| 今日變動 | ▼ $11.07　(-6.34%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $631　(▼24.5%) |
+| 未實現盈虧 | ▼ $939　(▼36.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $210.58 | — |
-| Put Wall（支撐） | $200.00 | --3.0% |
-| Call Wall（阻力） | $250.00 | +28.7% |
+| Gamma Flip | $199.84 | — |
+| Put Wall（支撐） | $165.00 | --1.0% |
+| Call Wall（阻力） | $200.00 | +22.4% |
 
 **狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[These S&P500 stocks that are showing activity before the opening bell on Monday.](https://finnhub.io/api/news?id=6caee4fd9483d323d029bd7ed1a87a2a772ae8fc03ad607c5ddbd3a1c63846cb)**  
-*ChartMill · 0h前*  
-Discover the top S&P500 movers in Monday's pre-market session and stay informed about market dynamics.
+- **[Marvell Is Making a Bigger Bet on India](https://finnhub.io/api/news?id=77361da2bd6dc4ecde07212a0dc5ff5db671858cb5ffadf75fd93023cda5b676)**  
+*Yahoo · 23h前*  
+The chipmaker plans to invest $250 million as demand grows for AI and data center technology.
 
-- **[Sandisk, Marvell, Chevron, Broadcom, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=822bf27e51a5626b4f24c8e42ca40a928e7d2ea7944164d825e63c18deea045a)**  
-*Yahoo · 2h前*  
-Artificial-intelligence stocks rise ahead of a slew of mega-cap earnings reports, while lower oil prices drag down shares of energy majors.
+- **[What Could Push NVDA Stock Higher From Here?](https://finnhub.io/api/news?id=40c6d42a8484897f3aa6dfecb0702143b5c355b3d657e62747d77fec2faef41d)**  
+*Yahoo · 23h前*  
+While the world focuses on its GPU dominance, the company is mounting a surprise attack on an entirely new market. It is now targeting the CPU space, a category…
 
-- **[Nvidia’s $750 Billion Deals Revive Fear of AI Circular Financing](https://finnhub.io/api/news?id=3ce33edd72bbaf51c52b7585e87dfc2f8df65a76ebd78ffdde6303f6b252d5e5)**  
-*Yahoo · 2h前*  
-(Bloomberg) -- Nvidia Corp. is working on a fresh round of AI infrastructure deals potentially worth more than $750 billion, accelerating a streak of investment…
+- **[Here is What to Know Beyond Why Marvell Technology, Inc. (MRVL) is a Trending Stock](https://finnhub.io/api/news?id=4c961297a67a766e92d70a29cd2b6998258478361c03f3cc6da49ca04b7b8636)**  
+*Yahoo · 1d前*  
+Zacks.com users have recently been watching Marvell (MRVL) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.
 
 ---
 
@@ -48,7 +48,7 @@ Artificial-intelligence stocks rise ahead of a slew of mega-cap earnings reports
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-27 | 監控 | $194.23 | — | 自動更新 |
+| 2026-07-30 | 監控 | $163.40 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Artificial-intelligence stocks rise ahead of a slew of mega-cap earnings reports
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-27 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-07-30 21:04 HKT*
