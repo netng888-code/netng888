@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-07-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$739.00** |
-| 今日變動 | ▼ $81.53　(-9.94%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $181　(▲32.5%) |
+| 未實現盈虧 | ▼ $558　(▼100.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $978.47 | — |
-| Put Wall（支撐） | $800.00 | --8.3% |
-| Call Wall（阻力） | $800.00 | +8.3% |
+| Gamma Flip | $881.96 | — |
+| Put Wall（支撐） | $800.00 | — |
+| Call Wall（阻力） | $1,000.00 | — |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Samsung Warns of Memory Shortages Through 2028. Can Micron Bounce Back?](https://finnhub.io/api/news?id=934d953ffa5fab9b2a1d2492f3190c30de741fb99b470d97b2cd84e10bcb7259)**  
+- **[Tesla Snaps Losing Streak. Can It Start To Rebuild Momentum?](https://finnhub.io/api/news?id=70346a2fdac18a3ad9bf065bcee76508c0949c8f9e3231dcc870124337d34b0f)**  
 *Yahoo · 1h前*  
-Samsung ticked all the boxes in its earnings—a 1,814% surge in operating profit, record revenue and remarks suggesting the memory shortage will last through 202…
+Tesla stock gained 3.5% on Thursday after earnings from tech giants Amazon and Microsoft gave investors hope the AI trade wasn't over.
 
-- **[Prediction: Micron Stock Will Be Worth More Than $3,000 by the End of 2027](https://finnhub.io/api/news?id=21cf8f2767e82ca7bde48c8f0974cdae0ee9bb4d92678d8411d8acf40a868b10)**  
-*Yahoo · 1h前*  
-Micron's stock could be set up perfectly for a huge rally.
-
-- **[NVDA, NBIS, SKHY, SNDK Stock Losses Reportedly Force Ex-OpenAI Researcher’s $20B Fund To Seek Capital](https://finnhub.io/api/news?id=453795b067659bf67b20beca31627962a753d15e142259923ae45588350929f6)**  
+- **[IDACORP Q2 Earnings Call Highlights](https://finnhub.io/api/news?id=4e873036c09483e0d6663df4cd331d0fe2b74b57a24a1958bb8650f6db95eed2)**  
 *Yahoo · 2h前*  
-According to a Financial Times report, the Situational Awareness hedge fund reportedly told investors it was up 439% through June and viewed the market correcti…
+IDACORP (NYSE:IDA) raised the lower end of its 2026 earnings guidance after reporting higher second-quarter profit, supported by January rate changes, customer …
+
+- **[Meet the Micron and SK Hynix Competitor That Just Rocketed 466% Higher in 1 Day](https://finnhub.io/api/news?id=48f449d26e6bc317803342aefd502f7aae8cee298ba1ec63f08d50c940046fa4)**  
+*Yahoo · 3h前*  
+How big a threat is the competition after receiving billions in fresh capital?
 
 ---
 
@@ -48,7 +48,7 @@ According to a Financial Times report, the Situational Awareness hedge fund repo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-30 | 監控 | $739.00 | — | 自動更新 |
+| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ According to a Financial Times report, the Situational Awareness hedge fund repo
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
