@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-07-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$336.71** |
-| 今日變動 | ▲ $3.00　(+0.90%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $1,900　(▲88.7%) |
+| 未實現盈虧 | ▼ $2,141　(▼100.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $325.41 | — |
-| Put Wall（支撐） | $320.00 | -5.0% |
-| Call Wall（阻力） | $350.00 | +3.9% |
+| Gamma Flip | $326.83 | — |
+| Put Wall（支撐） | $330.00 | — |
+| Call Wall（阻力） | $350.00 | — |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Omdia: AI Demand Drives 94.1% Surge in Semiconductor Forecast for 2026](https://finnhub.io/api/news?id=0fc0ad63eeedd415f2b3d10a20b1190efc31586d74bf60eaa077849433b13b9c)**  
+- **[Amazon Shares Surge on Cloud-Driven Quarterly Beat; CapEx Outlook Raised](https://finnhub.io/api/news?id=e8310ab351527a6f2d5f273736380e5ac360f1290f9b16d40bb3c8b304fac09c)**  
 *Yahoo · 1h前*  
-LONDON, July 30, 2026--Omdia has raised its 2026 semiconductor revenue forecast to 94.1% year-over-year (YoY), driven by exceptional growth in DRAM and NAND as …
+Amazon.com (AMZN) shares were soaring early Friday after the e-commerce giant's second-quarter resul
 
-- **[The Big Cash Flow Problem That Is Sinking Meta Stock After Earnings](https://finnhub.io/api/news?id=b52e796f7b395a11704ec7678399ed069659806513f9739468972c461c47c634)**  
+- **[Rigetti’s Pullback Opens Door for Strategic Buyer: Which Tech Giant Will Make a Move?](https://finnhub.io/api/news?id=72fc37b1bc7ecbffb8e79bf24328f153e95b82b32a43c9f1addfc2b6a78709f3)**  
 *Yahoo · 1h前*  
-The social-media giant reports weaker-than-expected earnings and narrows its expectations for 2026 capital expenditures.
+Rigetti Computing sits at a crossroads, armed with proprietary quantum hardware and a war chest of cash, while tech giants circle a sector heating up fast. Five…
 
-- **[Meta Is Spending Whatever It Takes to Win AI — And That’s What Worries Investors](https://finnhub.io/api/news?id=5c1cafd554cb75a1bb1ef37ec4833d00807d7626492065392e43737752338b09)**  
+- **[Tim Cook's final earnings call: Apple's on-device AI strategy](https://finnhub.io/api/news?id=173b5a61be5e27cca4a971e0db99cbe02233c3533170cfe424ba27ae172816de)**  
 *Yahoo · 1h前*  
-Zuckerberg has staked Meta's future on AI dominance and made clear that rising costs won't slow him down. But as debt surges and profits shrink, investors are s…
+Cook, who steps down as CEO on Sept. 1, said Apple's hybrid AI approach is an advantage as rivals rely on massive cloud infrastructure
 
 ---
 
@@ -48,7 +48,7 @@ Zuckerberg has staked Meta's future on AI dominance and made clear that rising c
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-30 | 監控 | $336.71 | — | 自動更新 |
+| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Zuckerberg has staked Meta's future on AI dominance and made clear that rising c
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
