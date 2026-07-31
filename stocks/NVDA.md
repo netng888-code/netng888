@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-07-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$190.01** |
-| 今日變動 | ▼ $7.00　(-3.55%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $299　(▲18.7%) |
+| 未實現盈虧 | ▼ $1,601　(▼100.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $193.11 | — |
-| Put Wall（支撐） | $180.00 | -5.3% |
-| Call Wall（阻力） | $200.00 | +5.3% |
+| Gamma Flip | $193.03 | — |
+| Put Wall（支撐） | $180.00 | — |
+| Call Wall（阻力） | $200.00 | — |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Omdia: AI Demand Drives 94.1% Surge in Semiconductor Forecast for 2026](https://finnhub.io/api/news?id=0fc0ad63eeedd415f2b3d10a20b1190efc31586d74bf60eaa077849433b13b9c)**  
+- **[Robinhood Set Records on Revenue, Net Deposits, and Gold Subscribers. The Stock Is Still 44% Below Its High.](https://finnhub.io/api/news?id=e481b188c9cdb34c1a3f268bc95762110474cb9420e51d90382d159f6cbfe1ff)**  
 *Yahoo · 1h前*  
-LONDON, July 30, 2026--Omdia has raised its 2026 semiconductor revenue forecast to 94.1% year-over-year (YoY), driven by exceptional growth in DRAM and NAND as …
+The brokerage just posted one of its best quarters ever. The market still won't pay what it used to.
 
-- **[Meta Is Spending Whatever It Takes to Win AI — And That’s What Worries Investors](https://finnhub.io/api/news?id=5c1cafd554cb75a1bb1ef37ec4833d00807d7626492065392e43737752338b09)**  
+- **[This Dividend ETF Could Build a $1,000 Monthly Passive Income Stream. Here's the Math.](https://finnhub.io/api/news?id=81290897c41173193c5c3f9dc3ce72858cfbf8a4f2fe594b2d220f38a47e35c8)**  
 *Yahoo · 1h前*  
-Zuckerberg has staked Meta's future on AI dominance and made clear that rising costs won't slow him down. But as debt surges and profits shrink, investors are s…
+High-yield dividend equity ETFs are a great way to generate serious income over time.
 
-- **[This Old-School Sector Battles Semiconductor ETFs For Supremacy](https://finnhub.io/api/news?id=fe931736fc78474e4f73284f1265932efaf54f817e1a808052ae47e9fe899093)**  
+- **[Rigetti’s Pullback Opens Door for Strategic Buyer: Which Tech Giant Will Make a Move?](https://finnhub.io/api/news?id=72fc37b1bc7ecbffb8e79bf24328f153e95b82b32a43c9f1addfc2b6a78709f3)**  
 *Yahoo · 1h前*  
-Given the huge rally in S&P 500 stocks like Sandisk — it's no surprise semiconductor ETFs are thriving. But they're getting competition from oil ETFs.
+Rigetti Computing sits at a crossroads, armed with proprietary quantum hardware and a war chest of cash, while tech giants circle a sector heating up fast. Five…
 
 ---
 
@@ -48,7 +48,7 @@ Given the huge rally in S&P 500 stocks like Sandisk — it's no surprise semicon
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-30 | 監控 | $190.01 | — | 自動更新 |
+| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Given the huge rally in S&P 500 stocks like Sandisk — it's no surprise semicon
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
