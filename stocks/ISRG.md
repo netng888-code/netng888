@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-07-30 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-31 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$353.10** |
-| 今日變動 | ▼ $8.70　(-2.40%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $200　(▼22.1%) |
+| 未實現盈虧 | ▼ $906　(▼100.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $375.00 | — |
-| Put Wall（支撐） | $350.00 | -0.9% |
-| Call Wall（阻力） | $350.00 | +-0.9% |
+| Gamma Flip | $372.53 | — |
+| Put Wall（支撐） | $350.00 | — |
+| Call Wall（阻力） | $360.00 | — |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical (ISRG) Could Be 43% Undervalued On Bylaw Changes And Share Price Weakness](https://finnhub.io/api/news?id=e9c0e9075df9538dc7f310f704b1a16bf45c442b8b49cf27d0705cac85a235b7)**  
-*Yahoo · 16h前*  
-Intuitive Surgical (ISRG) has just overhauled its bylaws, reshaping how shareholders can nominate directors, submit proposals, and call special meetings. These …
+- **[UBS reveals what’s next for Intuitive Surgical stock](https://finnhub.io/api/news?id=cc95d7e42fa076b08e9808579d9763c874e7d0b05a3f9d7795ede5434c99ad2c)**  
+*Yahoo · 17h前*  
+Intuitive Surgical (ISRG), maker of the da Vinci surgical robot, has been one of the year's most punished large-cap healthcare names, down about 37% even as rev…
 
-- **[This Stock Is Knocking on the Door of the Dividend Kings -- and Wall Street Thinks It Has Room to Run](https://finnhub.io/api/news?id=2d8e25a88d9a028918c7e979b91906974b96c24259987bf65e557c41094a6c15)**  
-*Yahoo · 21h前*  
-Medtronic could finally be on the cusp of a long-awaited turnaround.
+- **[Is ISRG Winning the Next Phase of Robotic Surgery Beyond Urology?](https://finnhub.io/api/news?id=f5572ddf3d22d2845f8b0c8b91feb2a909850029630299420001508aaac54c05)**  
+*Yahoo · 20h前*  
+ISRG is expanding robotic surgery beyond urology as general surgery and newer specialties gain traction, creating fresh avenues for long-term procedure growth.
 
-- **[The Best House On The Block Costs The Most: ISRG](https://finnhub.io/api/news?id=c8e5fec55ce152c1ae6354957dc3bbd151dcbca6a9ba72d322bff0b1a932d8bb)**  
-*Yahoo · 23h前*  
-In the world of robotic surgery, one company is both the undisputed leader and the most expensive name on the shelf, forcing investors to ask if operational bri…
+- **[ALGN Stock Up Post Q2 Earnings and Revenue Beat, Margins Rise](https://finnhub.io/api/news?id=b68d03bb08ccbdee7efd930b46293002d97506ace367d5d42ee6743bc9de34de)**  
+*Yahoo · 20h前*  
+Align Technology shares rise after Q2 earnings and revenues beat estimates, fueled by record Clear Aligner shipments and wider non-GAAP margins.
 
 ---
 
@@ -48,7 +48,7 @@ In the world of robotic surgery, one company is both the undisputed leader and t
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-30 | 監控 | $353.10 | — | 自動更新 |
+| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ In the world of robotic surgery, one company is both the undisputed leader and t
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-30 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-07-31 21:06 HKT*
