@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-07-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$585.61** |
-| 今日變動 | ▼ $7.80　(-1.31%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $62　(▼3.4%) |
+| 未實現盈虧 | ▼ $1,819　(▼100.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $586.24 | — |
-| Put Wall（支撐） | $550.00 | -6.1% |
-| Call Wall（阻力） | $750.00 | +28.1% |
+| Gamma Flip | $589.42 | — |
+| Put Wall（支撐） | $500.00 | — |
+| Call Wall（阻力） | $750.00 | — |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Top S&P500 movers in Thursday's pre-market session](https://finnhub.io/api/news?id=bf1e50847e33ed20493dcf949388c5f80c0af11365937bdb1f67e964fbeb274e)**  
-*ChartMill · 0h前*  
-Pre-market stock analysis of S&P500 stocks on 2026-07-30: top gainers and losers in today's session.
-
-- **[The Big Cash Flow Problem That Is Sinking Meta Stock After Earnings](https://finnhub.io/api/news?id=b52e796f7b395a11704ec7678399ed069659806513f9739468972c461c47c634)**  
+- **[Stocks Rise Pre-Bell as Amazon Results Lift AI Trade Sentiment](https://finnhub.io/api/news?id=f16d5a2dc9b6a4824034e9a6c0d771a4a457d491209a6f45740cd61bdbd2cfc4)**  
 *Yahoo · 1h前*  
-The social-media giant reports weaker-than-expected earnings and narrows its expectations for 2026 capital expenditures.
+The benchmark US stock measures were tracking in the green before the open Friday as Amazon's (AMZN)
 
-- **[Meta Is Spending Whatever It Takes to Win AI — And That’s What Worries Investors](https://finnhub.io/api/news?id=5c1cafd554cb75a1bb1ef37ec4833d00807d7626492065392e43737752338b09)**  
+- **[Amazon Shares Surge on Cloud-Driven Quarterly Beat; CapEx Outlook Raised](https://finnhub.io/api/news?id=e8310ab351527a6f2d5f273736380e5ac360f1290f9b16d40bb3c8b304fac09c)**  
 *Yahoo · 1h前*  
-Zuckerberg has staked Meta's future on AI dominance and made clear that rising costs won't slow him down. But as debt surges and profits shrink, investors are s…
+Amazon.com (AMZN) shares were soaring early Friday after the e-commerce giant's second-quarter resul
+
+- **[Tim Cook's final earnings call: Apple's on-device AI strategy](https://finnhub.io/api/news?id=173b5a61be5e27cca4a971e0db99cbe02233c3533170cfe424ba27ae172816de)**  
+*Yahoo · 1h前*  
+Cook, who steps down as CEO on Sept. 1, said Apple's hybrid AI approach is an advantage as rivals rely on massive cloud infrastructure
 
 ---
 
@@ -48,7 +48,7 @@ Zuckerberg has staked Meta's future on AI dominance and made clear that rising c
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-30 | 監控 | $585.61 | — | 自動更新 |
+| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Zuckerberg has staked Meta's future on AI dominance and made clear that rising c
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
