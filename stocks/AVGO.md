@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-07-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$370.32** |
-| 今日變動 | ▼ $10.59　(-2.78%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $55　(▼1.5%) |
+| 未實現盈虧 | ▼ $3,758　(▼100.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $377.50 | — |
-| Put Wall（支撐） | $350.00 | -5.5% |
-| Call Wall（阻力） | $410.00 | +10.7% |
+| Gamma Flip | $378.01 | — |
+| Put Wall（支撐） | $380.00 | — |
+| Call Wall（阻力） | $400.00 | — |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[NVDA, NBIS, SKHY, SNDK Stock Losses Reportedly Force Ex-OpenAI Researcher’s $20B Fund To Seek Capital](https://finnhub.io/api/news?id=453795b067659bf67b20beca31627962a753d15e142259923ae45588350929f6)**  
-*Yahoo · 2h前*  
-According to a Financial Times report, the Situational Awareness hedge fund reportedly told investors it was up 439% through June and viewed the market correcti…
+- **[Should Samsung’s US$200 Billion AI Chip Pact With Broadcom Reshape Action From AVGO Investors?](https://finnhub.io/api/news?id=20c8d3fb8817132f6c9cb0f05c6ecfc27afd73da3e14edb272b18f9a046349a6)**  
+*Yahoo · 14h前*  
+Earlier this month, Samsung Electronics and Broadcom signed a long-term memorandum of understanding worth more than US$200 billion to supply high‑bandwidth memo…
 
-- **[Got $1,000? 2 Magnificent Artificial Intelligence (AI) Stocks Down 15% or More From Their Highs to Buy Hand Over Fist](https://finnhub.io/api/news?id=2c9ce5b2332b0f7b0c787d4ee6ce72534151bca428c017f96a39ee90be4f733c)**  
-*Yahoo · 2h前*  
-Broadcom and Alphabet make for two great AI investments.
+- **[Apple commits more than $30 billion to US manufacturing](https://finnhub.io/api/news?id=604778f81cf6ad34df0e0e2ea8418c4c27e7edb43d0f197d9655b777cf3d7e1d)**  
+*Yahoo · 14h前*  
+During Thursday night's earnings call, Apple (AAPL) CEO Tim Cook highlighted a string of milestones, including the company's best-ever June quarter, with revenu…
 
-- **[Is Broadcom (AVGO) Stock Below Fair Value After Its AI Deals?](https://finnhub.io/api/news?id=e4adae28e115f9517e98803d221e6525b4e82e573450c79bdd8a9c89cb7d2beb)**  
-*Yahoo · 11h前*  
-Broadcom stock has pulled back recently after a very strong multi year run, yet on current checks it still screens as undervalued based on both a Discounted Cas…
+- **[Apple Tops Third-Quarter Estimates; IPad, Services Revenue Falls Short](https://finnhub.io/api/news?id=07b7bd946f0a91f5db777650e5e6aba50b6ecff00ed08644bf115d3e51668f40)**  
+*Yahoo · 15h前*  
+Apple (AAPL) reported strong fiscal third-quarter results amid momentum in iPhone sales, though the
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom stock has pulled back recently after a very strong multi year run, yet 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-30 | 監控 | $370.32 | — | 自動更新 |
+| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom stock has pulled back recently after a very strong multi year run, yet 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
