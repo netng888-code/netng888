@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-07-30 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-31 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$123.00** |
-| 今日變動 | ▼ $0.53　(-0.43%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▼ $9　(▼1.1%) |
+| 未實現盈虧 | ▼ $870　(▼100.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $123.11 | — |
-| Put Wall（支撐） | $120.00 | -2.4% |
-| Call Wall（阻力） | $130.00 | +5.7% |
+| Gamma Flip | $123.28 | — |
+| Put Wall（支撐） | $120.00 | — |
+| Call Wall（阻力） | $130.00 | — |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[The Bull and Bear Case for Palantir, According to Wall Street](https://finnhub.io/api/news?id=9852b54ad2ab4b351b7ff354d89a288abc1d6b2164c4cffc360c02d39f154c12)**  
+- **[Prediction: Palantir Stock Is Going to Plunge on Aug. 4](https://finnhub.io/api/news?id=2e8d6851fe6c30553981e5ccd11506400b1e8cba215d0758e255eb8bb7f53867)**  
 *Yahoo · 3h前*  
-There are no shortages of opinions about the divisive company and its stock.
+No earnings beat may be sufficient to prop up Palantir's shares this earnings season.
 
-- **[Prediction: This Will Be Palantir's Stock Price in a Year (Hint: It's Time to Buy)](https://finnhub.io/api/news?id=8eff409db6434b66d6de8c1e3d4aeac7d88b3884e7597ea864eea2b3b84d5823)**  
-*Yahoo · 3h前*  
-Palantir stock looks attractive after tumbling 40% from its high.
+- **[EMCOR Group Q2 Earnings Call Highlights](https://finnhub.io/api/news?id=5661bda415b8a6db985455f4865b4980968f72a873a923bcb916454fcecd153f)**  
+*Yahoo · 6h前*  
+EMCOR Group (NYSE:EME) reported record second-quarter revenue, operating income and remaining performance obligations, driven by strong demand in data centers, …
 
-- **[Did AI Momentum and France’s Exit Just Shift Palantir Technologies' (PLTR) Investment Narrative?](https://finnhub.io/api/news?id=75f4f21262919339dacf0d3217098cd0ba2a6e0e50982ad92ba6c0f19608c748)**  
-*Yahoo · 9h前*  
-In recent weeks, Palantir Technologies has prepared to report its second-quarter results amid intense attention on its Artificial Intelligence Platform, ongoing…
+- **[Analyst compares SpaceX, Palantir to Bitcoin](https://finnhub.io/api/news?id=31cddc4daa0659508000d79453163d0245f15154c52ef922ceddb1555fdb869a)**  
+*Yahoo · 15h前*  
+Though Palantir Technologies Inc. (Nasdaq: PLTR), Space Exploration Technologies or SpaceX (Nasdaq: SPCX), and Bitcoin (BTC) are entirely different assets, they…
 
 ---
 
@@ -48,7 +48,7 @@ In recent weeks, Palantir Technologies has prepared to report its second-quarter
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-30 | 監控 | $123.00 | — | 自動更新 |
+| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ In recent weeks, Palantir Technologies has prepared to report its second-quarter
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-30 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-07-31 21:06 HKT*
