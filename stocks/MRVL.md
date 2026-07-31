@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-07-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$163.40** |
-| 今日變動 | ▼ $11.07　(-6.34%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $939　(▼36.5%) |
+| 未實現盈虧 | ▼ $2,573　(▼100.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $199.84 | — |
-| Put Wall（支撐） | $165.00 | --1.0% |
-| Call Wall（阻力） | $200.00 | +22.4% |
+| Gamma Flip | $197.39 | — |
+| Put Wall（支撐） | $185.00 | — |
+| Call Wall（阻力） | $200.00 | — |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Marvell Is Making a Bigger Bet on India](https://finnhub.io/api/news?id=77361da2bd6dc4ecde07212a0dc5ff5db671858cb5ffadf75fd93023cda5b676)**  
-*Yahoo · 23h前*  
-The chipmaker plans to invest $250 million as demand grows for AI and data center technology.
+- **[Get insights into the top movers in the S&P500 index of Friday's pre-market session.](https://finnhub.io/api/news?id=3223cbf246df2f33c69539037f774a50260cd33d10286f045a518ad8062cad57)**  
+*ChartMill · 0h前*  
+Discover the top S&P500 movers in Friday's pre-market session and stay informed about market dynamics.
 
-- **[What Could Push NVDA Stock Higher From Here?](https://finnhub.io/api/news?id=40c6d42a8484897f3aa6dfecb0702143b5c355b3d657e62747d77fec2faef41d)**  
-*Yahoo · 23h前*  
-While the world focuses on its GPU dominance, the company is mounting a surprise attack on an entirely new market. It is now targeting the CPU space, a category…
+- **[24-Year-Old’s $45 Billion Hedge Fund Blows Up Days After Cramer Warned of the Dangers of Margin Trading](https://finnhub.io/api/news?id=f8ae67c5d87e21bc26082e9bad58c32a5165dae176b2233fb33c7d7463e2a8a2)**  
+*Yahoo · 2h前*  
+A 24-year-old wunderkind turned a few hundred million dollars into a $45 billion AI hedge fund in under two years, then watched it all collapse in a single week…
 
-- **[Here is What to Know Beyond Why Marvell Technology, Inc. (MRVL) is a Trending Stock](https://finnhub.io/api/news?id=4c961297a67a766e92d70a29cd2b6998258478361c03f3cc6da49ca04b7b8636)**  
-*Yahoo · 1d前*  
-Zacks.com users have recently been watching Marvell (MRVL) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.
+- **[Apple, Amazon, Roblox, Microsoft, Marvell, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=f725d2b91c87030d5bf5659e21ad8d50aeeb50f61a6583a54f6194ab6807b2eb)**  
+*Yahoo · 2h前*  
+Amazon  jumped more than 12% after second-quarter earnings and revenue comfortably beat expectations.  Alphabet  and  Meta Platforms  were both punished by the …
 
 ---
 
@@ -48,7 +48,7 @@ Zacks.com users have recently been watching Marvell (MRVL) quite a bit. Thus, it
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-30 | 監控 | $163.40 | — | 自動更新 |
+| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Zacks.com users have recently been watching Marvell (MRVL) quite a bit. Thus, it
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
