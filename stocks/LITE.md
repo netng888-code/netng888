@@ -1,6 +1,6 @@
 # LITE — Lumentum
 
-> 最後更新：2026-07-30 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-07-31 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$602.35** |
-| 今日變動 | ▼ $49.58　(-7.61%) |
+| 現價 | **$0.00** |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $820.000 |
-| 未實現盈虧 | ▼ $218　(▼26.5%) |
+| 未實現盈虧 | ▼ $820　(▼100.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $876.94 | — |
-| Put Wall（支撐） | $600.00 | -0.4% |
-| Call Wall（阻力） | $680.00 | +12.9% |
+| Gamma Flip | $752.02 | — |
+| Put Wall（支撐） | $700.00 | — |
+| Call Wall（阻力） | $800.00 | — |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：❓ GEX 數據不足**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Uncover the latest developments among S&P500 stocks in today's session.](https://finnhub.io/api/news?id=121414bfed0be327ad35d640534fff40dec1c43ecc38b7d5cdce74c34bbab213)**  
+- **[Get insights into the top movers in the S&P500 index of Friday's pre-market session.](https://finnhub.io/api/news?id=3223cbf246df2f33c69539037f774a50260cd33d10286f045a518ad8062cad57)**  
+*ChartMill · 0h前*  
+Discover the top S&P500 movers in Friday's pre-market session and stay informed about market dynamics.
+
+- **[These S&P500 stocks are moving in today's session](https://finnhub.io/api/news?id=af68448e11fcc2bc9a9713886285322d32eabc6249bc9f6a49b64ea4adfdbcdf)**  
+*ChartMill · 18h前*  
+Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Thursday.
+
+- **[Which S&P500 stocks are moving on Thursday?](https://finnhub.io/api/news?id=729e775062bf3b1467bc096218a45323e67422a2e5bbe063e3261c63c2ceaebb)**  
 *ChartMill · 20h前*  
-Curious about the top performers within the S&P500 index in the middle of the day on Wednesday? Dive into the list of today's session's top gainers and losers f…
-
-- **[Stocks making the biggest moves midday: Caterpillar, Vertiv, SoFi Technologies, AMD & more](https://finnhub.io/api/news?id=d736236f0db4d71d7f17a274ae72156e89d8dee050ddb8402beb99d2b40d03e9)**  
-*CNBC · 23h前*  
-Here are some of the companies making headlines in midday trading.
-
-- **[Why Corning Stock Had Its Worst Day in Four Months After Earnings](https://finnhub.io/api/news?id=4b0a5ae972ae2995ce094c314ad331ef33fcb062dd105f42d64663bbb16a8cf8)**  
-*Yahoo · 1d前*  
-Corning surpasses expectations with its second-quarter earnings, but the stock falls on in-line guidance.
+Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Thursday.
 
 ---
 
@@ -48,7 +48,7 @@ Corning surpasses expectations with its second-quarter earnings, but the stock f
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-30 | 監控 | $602.35 | — | 自動更新 |
+| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Corning surpasses expectations with its second-quarter earnings, but the stock f
 - [TradingView](https://www.tradingview.com/chart/?symbol=LITE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-30 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-07-31 21:06 HKT*
