@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$0.00** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$367.69** |
+| 今日變動 | ▲ $2.20　(+0.60%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▼ $460　(▼100.0%) |
+| 未實現盈虧 | ▲ $1,378　(▲299.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $337.08 | — |
-| Put Wall（支撐） | $300.00 | — |
-| Call Wall（阻力） | $380.00 | — |
+| Gamma Flip | $366.57 | — |
+| Put Wall（支撐） | $300.00 | -18.4% |
+| Call Wall（阻力） | $400.00 | +8.8% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Teradyne (TER) Stock Is Trading Up Today](https://finnhub.io/api/news?id=c6c818db2240945c7c5ee7884b370458bab7be475ce612dab4867010cd8d26fd)**  
+- **[Compared to Estimates, Teradyne (TER) Q2 Earnings: A Look at Key Metrics](https://finnhub.io/api/news?id=dbd2a1c3207419e657b0b53087c856b1b335085f8e291b2160b3bff05dc0034c)**  
 *Yahoo · 14h前*  
+Although the revenue and EPS for Teradyne (TER) give a sense of how its business performed in the quarter ended June 2026, it might be worth considering how som…
+
+- **[Why Teradyne (TER) Stock Is Trading Up Today](https://finnhub.io/api/news?id=c6c818db2240945c7c5ee7884b370458bab7be475ce612dab4867010cd8d26fd)**  
+*Yahoo · 1d前*  
 Shares of semiconductor testing company Teradyne (NASDAQ:TER) jumped 12.5% in the afternoon session after the company reported strong second-quarter results, wi…
 
 - **[Lam Research Stock's Surge Was Building In Plain Sight](https://finnhub.io/api/news?id=0cc881daa186259daac9170c610b54680e2d48fbd45d5a7df275b7504098ff34)**  
-*Yahoo · 19h前*  
+*Yahoo · 1d前*  
 The AI equipment demand that repriced Lam Research stock was named, sized and already visible in the reported numbers before the run began.
-
-- **[TER Rides on Strong Semiconductor Test Segment: More Upside Ahead?](https://finnhub.io/api/news?id=3b0233685dd7fdcb0b91418078b9a3296f58d9c431ad062999d1de1592d71b40)**  
-*Yahoo · 20h前*  
-Teradyne rides on AI-driven semiconductor test demand as record revenues, booming compute growth and expanding memory opportunities fuel momentum into the third…
 
 ---
 
@@ -48,7 +48,7 @@ Teradyne rides on AI-driven semiconductor test demand as record revenues, boomin
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
+| 2026-08-01 | 監控 | $367.69 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne rides on AI-driven semiconductor test demand as record revenues, boomin
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
