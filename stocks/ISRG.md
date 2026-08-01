@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-07-31 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$0.00** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$353.33** |
+| 今日變動 | ▲ $0.36　(+0.10%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $906　(▼100.0%) |
+| 未實現盈虧 | ▼ $200　(▼22.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $372.53 | — |
-| Put Wall（支撐） | $350.00 | — |
-| Call Wall（阻力） | $360.00 | — |
+| Gamma Flip | $388.14 | — |
+| Put Wall（支撐） | $350.00 | -0.9% |
+| Call Wall（阻力） | $400.00 | +13.2% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[UBS reveals what’s next for Intuitive Surgical stock](https://finnhub.io/api/news?id=cc95d7e42fa076b08e9808579d9763c874e7d0b05a3f9d7795ede5434c99ad2c)**  
+- **[Intuitive Surgical (ISRG) vs. Medtronic (MDT): Which MedTech Stock Looks Better Positioned for Growth?](https://finnhub.io/api/news?id=3af196ab8e1c829b93cb789485e43d768751c4a769284d7097f2ae2a154268f4)**  
 *Yahoo · 17h前*  
-Intuitive Surgical (ISRG), maker of the da Vinci surgical robot, has been one of the year's most punished large-cap healthcare names, down about 37% even as rev…
+Intuitive Surgical (NASDAQ:ISRG) beat both top- and bottom-line consensus estimates in its fiscal Q2 2026 results, with revenue for the quarter growing 19% to $…
 
-- **[Is ISRG Winning the Next Phase of Robotic Surgery Beyond Urology?](https://finnhub.io/api/news?id=f5572ddf3d22d2845f8b0c8b91feb2a909850029630299420001508aaac54c05)**  
-*Yahoo · 20h前*  
-ISRG is expanding robotic surgery beyond urology as general surgery and newer specialties gain traction, creating fresh avenues for long-term procedure growth.
+- **[TEM Q2 Loss Narrower Than Expected, Revenues Beat, Stock Up](https://finnhub.io/api/news?id=5fe1b014826ca153a98011ee63fddc264294a77183e50e7abefa44a5516f4e66)**  
+*Yahoo · 23h前*  
+Tempus AI climbs 6.6% after its second-quarter loss narrows, revenues beat estimates and 2026 sales guidance rises on diagnostics and data growth.
 
-- **[ALGN Stock Up Post Q2 Earnings and Revenue Beat, Margins Rise](https://finnhub.io/api/news?id=b68d03bb08ccbdee7efd930b46293002d97506ace367d5d42ee6743bc9de34de)**  
-*Yahoo · 20h前*  
-Align Technology shares rise after Q2 earnings and revenues beat estimates, fueled by record Clear Aligner shipments and wider non-GAAP margins.
+- **[Intuitive Surgical, Inc. (ISRG) is Attracting Investor Attention: Here is What You Should Know](https://finnhub.io/api/news?id=7e5bf20d7314ecd57896373664a732bb4439aeacd9ab02ef2d1b99db065d8994)**  
+*Yahoo · 1d前*  
+Intuitive Surgical (ISRG) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.
 
 ---
 
@@ -48,7 +48,7 @@ Align Technology shares rise after Q2 earnings and revenues beat estimates, fuel
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
+| 2026-08-01 | 監控 | $353.33 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Align Technology shares rise after Q2 earnings and revenues beat estimates, fuel
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-31 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
