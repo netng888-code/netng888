@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-07-31 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$0.00** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$123.06** |
+| 今日變動 | ▲ $0.80　(+0.65%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▼ $870　(▼100.0%) |
+| 未實現盈虧 | ▼ $9　(▼1.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $123.28 | — |
-| Put Wall（支撐） | $120.00 | — |
-| Call Wall（阻力） | $130.00 | — |
+| Gamma Flip | $129.13 | — |
+| Put Wall（支撐） | $120.00 | -2.5% |
+| Call Wall（阻力） | $140.00 | +13.8% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Prediction: Palantir Stock Is Going to Plunge on Aug. 4](https://finnhub.io/api/news?id=2e8d6851fe6c30553981e5ccd11506400b1e8cba215d0758e255eb8bb7f53867)**  
-*Yahoo · 3h前*  
-No earnings beat may be sufficient to prop up Palantir's shares this earnings season.
+- **[S&P 500 Posts Weekly Gain Amid AI Monetization Optimism](https://finnhub.io/api/news?id=e4cb926bf0be07df6b11b28b6d49b9290ff6b95a6d81b8dfb9063c26a93be0aa)**  
+*Yahoo · 16h前*  
+The Standard & Poor's 500 index rose 1.1% this week as hyperscalers showed the mega spend on the art
 
-- **[EMCOR Group Q2 Earnings Call Highlights](https://finnhub.io/api/news?id=5661bda415b8a6db985455f4865b4980968f72a873a923bcb916454fcecd153f)**  
-*Yahoo · 6h前*  
-EMCOR Group (NYSE:EME) reported record second-quarter revenue, operating income and remaining performance obligations, driven by strong demand in data centers, …
+- **[Veteran Bank Sounds Alarm on Palantir Stock Ahead of Earnings](https://finnhub.io/api/news?id=7488d09fdaa942decc455ec39b2fe1e5f5b2c8cb278c540ba7164dbcc987b469)**  
+*Yahoo · 16h前*  
+RBC Delivers Bearish Palantir Warning Ahead of High-Stakes Earnings Report
 
-- **[Analyst compares SpaceX, Palantir to Bitcoin](https://finnhub.io/api/news?id=31cddc4daa0659508000d79453163d0245f15154c52ef922ceddb1555fdb869a)**  
-*Yahoo · 15h前*  
-Though Palantir Technologies Inc. (Nasdaq: PLTR), Space Exploration Technologies or SpaceX (Nasdaq: SPCX), and Bitcoin (BTC) are entirely different assets, they…
+- **[Palantir CEO Takes Fresh Shot at AI Giants: 'They Sell Tokens'](https://finnhub.io/api/news?id=7a6e16dac2e6417c6e21a9a6beded70b1d8ffa8e32855a00546daec8946a75f0)**  
+*Yahoo · 17h前*  
+Palantir CEO Takes Aim at AI Giants While Defending Anthropic's Amodei
 
 ---
 
@@ -48,7 +48,7 @@ Though Palantir Technologies Inc. (Nasdaq: PLTR), Space Exploration Technologies
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
+| 2026-08-01 | 監控 | $123.06 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Though Palantir Technologies Inc. (Nasdaq: PLTR), Space Exploration Technologies
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-31 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
