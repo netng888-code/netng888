@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-01 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$0.00** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$823.03** |
+| 今日變動 | ▼ $51.63　(-5.90%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▼ $558　(▼100.0%) |
+| 未實現盈虧 | ▲ $265　(▲47.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $881.96 | — |
-| Put Wall（支撐） | $800.00 | — |
-| Call Wall（阻力） | $1,000.00 | — |
+| Gamma Flip | $882.92 | — |
+| Put Wall（支撐） | $800.00 | -2.8% |
+| Call Wall（阻力） | $900.00 | +9.4% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Tesla Snaps Losing Streak. Can It Start To Rebuild Momentum?](https://finnhub.io/api/news?id=70346a2fdac18a3ad9bf065bcee76508c0949c8f9e3231dcc870124337d34b0f)**  
-*Yahoo · 1h前*  
-Tesla stock gained 3.5% on Thursday after earnings from tech giants Amazon and Microsoft gave investors hope the AI trade wasn't over.
+- **[Prediction: This Is Where Micron Stock Will Be at the End of 2026](https://finnhub.io/api/news?id=ce5cbd58edfdd31d2b4f7faac2e40a1d35c4914b8157e6fb5501ca484295634b)**  
+*Yahoo · 4h前*  
+The prevailing market dynamics serve as a strong tailwind for this tech stock.
 
-- **[IDACORP Q2 Earnings Call Highlights](https://finnhub.io/api/news?id=4e873036c09483e0d6663df4cd331d0fe2b74b57a24a1958bb8650f6db95eed2)**  
-*Yahoo · 2h前*  
-IDACORP (NYSE:IDA) raised the lower end of its 2026 earnings guidance after reporting higher second-quarter profit, supported by January rate changes, customer …
+- **[3 Reasons We Love Micron (MU)](https://finnhub.io/api/news?id=c01ceb5cba11d458608c085786b41420c7c732d59f52c4cc3450f728bed10bbc)**  
+*Yahoo · 4h前*  
+What a time it’s been for Micron. In the past six months alone, the company’s stock price has increased by a massive 106%, reaching $902.93 per share. This was …
 
-- **[Meet the Micron and SK Hynix Competitor That Just Rocketed 466% Higher in 1 Day](https://finnhub.io/api/news?id=48f449d26e6bc317803342aefd502f7aae8cee298ba1ec63f08d50c940046fa4)**  
-*Yahoo · 3h前*  
-How big a threat is the competition after receiving billions in fresh capital?
+- **[Micron (MU) Faces An AI Memory Squeeze As Samsung Sees Shortages Lasting Longer](https://finnhub.io/api/news?id=61e48d3fe91bf95fb1a74bf44fbfaf992fae1ded33a51b0aa25bb35de64fd16d)**  
+*Yahoo · 5h前*  
+Samsung Electronics reported a record jump in semiconductor profits, driven by AI related demand and long term memory contracts. The company signaled that tight…
 
 ---
 
@@ -48,7 +48,7 @@ How big a threat is the competition after receiving billions in fresh capital?
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
+| 2026-08-01 | 監控 | $823.03 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ How big a threat is the competition after receiving billions in fresh capital?
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-01 21:03 HKT*
