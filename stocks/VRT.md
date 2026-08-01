@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-07-31 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-01 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$0.00** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$241.57** |
+| 今日變動 | ▲ $14.07　(+6.18%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $608　(▼100.0%) |
+| 未實現盈虧 | ▼ $124　(▼20.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $281.22 | — |
-| Put Wall（支撐） | $210.00 | — |
-| Call Wall（阻力） | $260.00 | — |
+| Gamma Flip | $277.03 | — |
+| Put Wall（支撐） | $210.00 | -13.1% |
+| Call Wall（阻力） | $260.00 | +7.6% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Get insights into the top movers in the S&P500 index of Friday's pre-market session.](https://finnhub.io/api/news?id=3223cbf246df2f33c69539037f774a50260cd33d10286f045a518ad8062cad57)**  
-*ChartMill · 0h前*  
-Discover the top S&P500 movers in Friday's pre-market session and stay informed about market dynamics.
-
-- **[Compass Datacenters and Meridian Community College Launch Mississippi's First Data Center Workforce Training Program](https://finnhub.io/api/news?id=da66c1adc4f4c29cf268e76a057afbdcc7af207bb02bd453adec32c92e0d0cc7)**  
-*Yahoo · 2h前*  
-Compass Datacenters and Meridian Community College (MCC) are launching the Mechanical, Electrical and Information Technology (MEI) Data Center Pathway Program, …
-
-- **[STARTRADER expands AI offering with 31 New US Share & ETF CFDs in Semiconductors, Optical Networking & Nuclear](https://finnhub.io/api/news?id=e24ee6018ee55f550538cec8daff31d7aa521f915bc2c357eebba33fda34c00e)**  
+- **[Vertiv (VRT) Stock Looks Below Fair Value As AI Demand Grows](https://finnhub.io/api/news?id=4f3244266f6ebdf18a8694516e498207094acc7859633d235b11ffac0e66a56a)**  
 *Yahoo · 3h前*  
-STARTRADER today announced the launch of 31 new US Share CFDs and ETF CFDs, available on the trading platform from August 3 and on the STARTRADER app from Augus…
+Vertiv Holdings Co has seen a very large 5 year share price gain, yet the latest valuation work suggests the stock may still trade below its estimated intrinsic…
+
+- **[Vertiv Q2 Earnings Call Highlights](https://finnhub.io/api/news?id=3a46e46e2d23b8b4db46a374de9c230303426abf500a815fc4f16e50d2d8b1b6)**  
+*Yahoo · 8h前*  
+Vertiv (NYSE:VRT) raised its full-year 2026 outlook after reporting second-quarter growth in sales, profit and cash flow, supported by demand for data center in…
+
+- **[Vertiv: Bypassing AI Utility Pacing Limits](https://finnhub.io/api/news?id=dc9e26f1996ec925e9a759eb8f835b66b0fafdbc88e8ff3d6ee3defdb0068348)**  
+*SeekingAlpha · 10h前*  
+Vertiv (VRT) stock rated Buy: AI data center power shift to 800 VDC boosts pricing, margins & content/MW. Read here for a detailed analysis.
 
 ---
 
@@ -48,7 +48,7 @@ STARTRADER today announced the launch of 31 new US Share CFDs and ETF CFDs, avai
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
+| 2026-08-01 | 監控 | $241.57 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ STARTRADER today announced the launch of 31 new US Share CFDs and ETF CFDs, avai
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-31 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-01 21:05 HKT*
