@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$0.00** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$389.28** |
+| 今日變動 | ▲ $1.44　(+0.37%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $3,758　(▼100.0%) |
+| 未實現盈虧 | ▲ $135　(▲3.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $378.01 | — |
-| Put Wall（支撐） | $380.00 | — |
-| Call Wall（阻力） | $400.00 | — |
+| Gamma Flip | $380.88 | — |
+| Put Wall（支撐） | $350.00 | -10.1% |
+| Call Wall（阻力） | $410.00 | +5.3% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Should Samsung’s US$200 Billion AI Chip Pact With Broadcom Reshape Action From AVGO Investors?](https://finnhub.io/api/news?id=20c8d3fb8817132f6c9cb0f05c6ecfc27afd73da3e14edb272b18f9a046349a6)**  
-*Yahoo · 14h前*  
-Earlier this month, Samsung Electronics and Broadcom signed a long-term memorandum of understanding worth more than US$200 billion to supply high‑bandwidth memo…
+- **[These 3 Dividend ETFs Own Nvidia and Microsoft and Still Pay Up to 8 Percent](https://finnhub.io/api/news?id=666f398b3c9903163793a2fb36e4591fd07d0216f6c1860a3081546801102cd9)**  
+*Yahoo · 18h前*  
+Owning Nvidia and Microsoft while collecting a fat dividend income used to mean picking one or the other. A new generation of ETFs rewrites that tradeoff in thr…
 
-- **[Apple commits more than $30 billion to US manufacturing](https://finnhub.io/api/news?id=604778f81cf6ad34df0e0e2ea8418c4c27e7edb43d0f197d9655b777cf3d7e1d)**  
-*Yahoo · 14h前*  
-During Thursday night's earnings call, Apple (AAPL) CEO Tim Cook highlighted a string of milestones, including the company's best-ever June quarter, with revenu…
+- **[Marvell Technology Is Betting More Of Its Revenue On One End Market](https://finnhub.io/api/news?id=427d251700e4700db464e95f801ad6bca834d60888601efedc6c69ae5ba2f71a)**  
+*Yahoo · 19h前*  
+Three-quarters of its sales already come from data centers, and the company's own guidance widens that share even as it plans for cloud spending growth to cool.
 
-- **[Apple Tops Third-Quarter Estimates; IPad, Services Revenue Falls Short](https://finnhub.io/api/news?id=07b7bd946f0a91f5db777650e5e6aba50b6ecff00ed08644bf115d3e51668f40)**  
-*Yahoo · 15h前*  
-Apple (AAPL) reported strong fiscal third-quarter results amid momentum in iPhone sales, though the
+- **[Best Long-Term Investment Stocks to Buy](https://finnhub.io/api/news?id=a1226102fedf497b0082df25a4a134f65ffb97e9992f1ebb9ec91961ab2f59ca)**  
+*Yahoo · 20h前*  
+The best long-term investment stocks are characterized by solid financial standing, consistent dividend growth and steady buybacks of their own shares.
 
 ---
 
@@ -48,7 +48,7 @@ Apple (AAPL) reported strong fiscal third-quarter results amid momentum in iPhon
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
+| 2026-08-01 | 監控 | $389.28 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Apple (AAPL) reported strong fiscal third-quarter results amid momentum in iPhon
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
