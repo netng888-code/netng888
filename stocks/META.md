@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$0.00** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$556.71** |
+| 今日變動 | ▲ $17.68　(+3.28%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $1,819　(▼100.0%) |
+| 未實現盈虧 | ▼ $149　(▼8.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $589.42 | — |
-| Put Wall（支撐） | $500.00 | — |
-| Call Wall（阻力） | $750.00 | — |
+| Gamma Flip | $570.14 | — |
+| Put Wall（支撐） | $550.00 | -1.2% |
+| Call Wall（阻力） | $750.00 | +34.7% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Stocks Rise Pre-Bell as Amazon Results Lift AI Trade Sentiment](https://finnhub.io/api/news?id=f16d5a2dc9b6a4824034e9a6c0d771a4a457d491209a6f45740cd61bdbd2cfc4)**  
-*Yahoo · 1h前*  
-The benchmark US stock measures were tracking in the green before the open Friday as Amazon's (AMZN)
+- **[Capital Power Q2 Earnings Call Highlights](https://finnhub.io/api/news?id=05bd0b2b161d13c352c3ca3c82d0ef805a5f09bf5621bd4ed4c10afad2157fa7)**  
+*Yahoo · 3h前*  
+Capital Power (TSE:CPX) said its second-quarter results reflected higher generation, contributions from its expanded PJM platform and continued commercial optim…
 
-- **[Amazon Shares Surge on Cloud-Driven Quarterly Beat; CapEx Outlook Raised](https://finnhub.io/api/news?id=e8310ab351527a6f2d5f273736380e5ac360f1290f9b16d40bb3c8b304fac09c)**  
-*Yahoo · 1h前*  
-Amazon.com (AMZN) shares were soaring early Friday after the e-commerce giant's second-quarter resul
+- **[Bank of America sends strong verdict to Meta stock investor](https://finnhub.io/api/news?id=e6cb4a736ae5a0511ce93bb886bc68cda49200e38bbbfba9e45d36ec9d97f59c)**  
+*Yahoo · 9h前*  
+For five consecutive quarters, Meta Platforms did something that very few companies at its scale manage to pull off. It beat earnings expectations every single …
 
-- **[Tim Cook's final earnings call: Apple's on-device AI strategy](https://finnhub.io/api/news?id=173b5a61be5e27cca4a971e0db99cbe02233c3533170cfe424ba27ae172816de)**  
-*Yahoo · 1h前*  
-Cook, who steps down as CEO on Sept. 1, said Apple's hybrid AI approach is an advantage as rivals rely on massive cloud infrastructure
+- **[Jim Cramer Can’t Help But Gloat At Apple Inc (NASDAQ:AAPL)’s AI Developments](https://finnhub.io/api/news?id=b84795b42a7f9e71b9789d58adda42b151b481be22d13ac95d53f5c919635fae)**  
+*Yahoo · 10h前*  
+Ever the Apple Inc. (NASDAQ:AAPL) bull, Jim Cramer is nothing but ecstatic about the firm’s recent fortunes. With a market capitalization of $4.90 trillion when…
 
 ---
 
@@ -48,7 +48,7 @@ Cook, who steps down as CEO on Sept. 1, said Apple's hybrid AI approach is an ad
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
+| 2026-08-01 | 監控 | $556.71 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Cook, who steps down as CEO on Sept. 1, said Apple's hybrid AI approach is an ad
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
