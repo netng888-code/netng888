@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$0.00** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$356.13** |
+| 今日變動 | ▲ $22.47　(+6.73%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▼ $2,141　(▼100.0%) |
+| 未實現盈虧 | ▲ $2,133　(▲99.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $326.83 | — |
-| Put Wall（支撐） | $330.00 | — |
-| Call Wall（阻力） | $350.00 | — |
+| Gamma Flip | $329.91 | — |
+| Put Wall（支撐） | $350.00 | -1.7% |
+| Call Wall（阻力） | $375.00 | +5.3% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Amazon Shares Surge on Cloud-Driven Quarterly Beat; CapEx Outlook Raised](https://finnhub.io/api/news?id=e8310ab351527a6f2d5f273736380e5ac360f1290f9b16d40bb3c8b304fac09c)**  
-*Yahoo · 1h前*  
-Amazon.com (AMZN) shares were soaring early Friday after the e-commerce giant's second-quarter resul
+- **['Tech Titan' Arora spearheads $1bn shot at NBA's London basketball team](https://finnhub.io/api/news?id=1758312c2aec0854786d2c3a83bc275657bad55ea2c873b80acfe6378f1dc705)**  
+*Yahoo · 3h前*  
+The US technology billionaire who led the acquisition of English cricket's most lucrative Hundred franchise is in talks to buy London's new NBA Europe team.  Sk…
 
-- **[Rigetti’s Pullback Opens Door for Strategic Buyer: Which Tech Giant Will Make a Move?](https://finnhub.io/api/news?id=72fc37b1bc7ecbffb8e79bf24328f153e95b82b32a43c9f1addfc2b6a78709f3)**  
-*Yahoo · 1h前*  
-Rigetti Computing sits at a crossroads, armed with proprietary quantum hardware and a war chest of cash, while tech giants circle a sector heating up fast. Five…
+- **[Amazon vs. Microsoft vs. Alphabet: Which Is the Best Cloud Stock to Buy Now?](https://finnhub.io/api/news?id=15288201ea3c67d936aace584372e5e6d15c451a6d0ceeb1cd5cd01f185f7446)**  
+*Yahoo · 5h前*  
+The size of their respective cloud businesses matters, but there are other important considerations.
 
-- **[Tim Cook's final earnings call: Apple's on-device AI strategy](https://finnhub.io/api/news?id=173b5a61be5e27cca4a971e0db99cbe02233c3533170cfe424ba27ae172816de)**  
-*Yahoo · 1h前*  
-Cook, who steps down as CEO on Sept. 1, said Apple's hybrid AI approach is an advantage as rivals rely on massive cloud infrastructure
+- **[Is Oracle (ORCL) Using Google’s Gemini Tie-Up To Reframe Its Core AI Investment Narrative?](https://finnhub.io/api/news?id=6abf97392666813e9e6ce0ed6b384c9e6aa5474ea9e0e5f832bc09c2693a36a1)**  
+*Yahoo · 8h前*  
+In late July 2026, Oracle and Google Cloud expanded their partnership to bring Google's Gemini models into Oracle's Fusion Applications, NetSuite, and AI Agent …
 
 ---
 
@@ -48,7 +48,7 @@ Cook, who steps down as CEO on Sept. 1, said Apple's hybrid AI approach is an ad
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
+| 2026-08-01 | 監控 | $356.13 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Cook, who steps down as CEO on Sept. 1, said Apple's hybrid AI approach is an ad
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
