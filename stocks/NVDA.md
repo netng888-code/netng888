@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-07-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$0.00** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$200.75** |
+| 今日變動 | ▲ $5.71　(+2.93%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▼ $1,601　(▼100.0%) |
+| 未實現盈虧 | ▲ $406　(▲25.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $193.03 | — |
-| Put Wall（支撐） | $180.00 | — |
-| Call Wall（阻力） | $200.00 | — |
+| Gamma Flip | $191.78 | — |
+| Put Wall（支撐） | $200.00 | -0.4% |
+| Call Wall（阻力） | $210.00 | +4.6% |
 
-**狀態：❓ GEX 數據不足**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Robinhood Set Records on Revenue, Net Deposits, and Gold Subscribers. The Stock Is Still 44% Below Its High.](https://finnhub.io/api/news?id=e481b188c9cdb34c1a3f268bc95762110474cb9420e51d90382d159f6cbfe1ff)**  
+- **[Chevron Just Crushed Earnings. Here's What It Means for the Dividend.](https://finnhub.io/api/news?id=749cb9c38b362758252c40f53b2b4ffd6289f0eb215f717a7ac19b51da9b4224)**  
 *Yahoo · 1h前*  
-The brokerage just posted one of its best quarters ever. The market still won't pay what it used to.
+Chevron delivered gushing free cash flow in the second quarter.
 
-- **[This Dividend ETF Could Build a $1,000 Monthly Passive Income Stream. Here's the Math.](https://finnhub.io/api/news?id=81290897c41173193c5c3f9dc3ce72858cfbf8a4f2fe594b2d220f38a47e35c8)**  
+- **[Bristol Myers Squibb Isn't Nearly as Cheap as It Looks -- Here's the 1 Thing That Could Change That](https://finnhub.io/api/news?id=679c4328e708a8f8fd436919a30464508cc254953331dee08017dc057eb91ccd)**  
 *Yahoo · 1h前*  
-High-yield dividend equity ETFs are a great way to generate serious income over time.
+Bristol Myers Squibb's P/E ratio is below the industry average, but you have to take this key fact into consideration before buying it.
 
-- **[Rigetti’s Pullback Opens Door for Strategic Buyer: Which Tech Giant Will Make a Move?](https://finnhub.io/api/news?id=72fc37b1bc7ecbffb8e79bf24328f153e95b82b32a43c9f1addfc2b6a78709f3)**  
+- **[NASA Searches Couch Cushions, Finds Another $600 Million for Moon Missions](https://finnhub.io/api/news?id=01d97c96a32d4ca64f8463e6122e510dea27b826f73653c879119c5fb7282d61)**  
 *Yahoo · 1h前*  
-Rigetti Computing sits at a crossroads, armed with proprietary quantum hardware and a war chest of cash, while tech giants circle a sector heating up fast. Five…
+Voyager Technologies, Firefly Aerospace, and Intuitive Machines have won NASA moon base contracts.
 
 ---
 
@@ -48,7 +48,7 @@ Rigetti Computing sits at a crossroads, armed with proprietary quantum hardware 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-07-31 | 監控 | $0.00 | — | 自動更新 |
+| 2026-08-01 | 監控 | $200.75 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rigetti Computing sits at a crossroads, armed with proprietary quantum hardware 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-07-31 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
