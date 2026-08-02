@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Compared to Estimates, Teradyne (TER) Q2 Earnings: A Look at Key Metrics](https://finnhub.io/api/news?id=dbd2a1c3207419e657b0b53087c856b1b335085f8e291b2160b3bff05dc0034c)**  
-*Yahoo · 14h前*  
+*Yahoo · 1d前*  
 Although the revenue and EPS for Teradyne (TER) give a sense of how its business performed in the quarter ended June 2026, it might be worth considering how som…
 
 - **[Why Teradyne (TER) Stock Is Trading Up Today](https://finnhub.io/api/news?id=c6c818db2240945c7c5ee7884b370458bab7be475ce612dab4867010cd8d26fd)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Shares of semiconductor testing company Teradyne (NASDAQ:TER) jumped 12.5% in the afternoon session after the company reported strong second-quarter results, wi…
 
 - **[Lam Research Stock's Surge Was Building In Plain Sight](https://finnhub.io/api/news?id=0cc881daa186259daac9170c610b54680e2d48fbd45d5a7df275b7504098ff34)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 The AI equipment demand that repriced Lam Research stock was named, sized and already visible in the reported numbers before the run began.
 
 ---
@@ -48,7 +48,7 @@ The AI equipment demand that repriced Lam Research stock was named, sized and al
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-01 | 監控 | $367.69 | — | 自動更新 |
+| 2026-08-02 | 監控 | $367.69 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The AI equipment demand that repriced Lam Research stock was named, sized and al
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
