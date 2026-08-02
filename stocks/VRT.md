@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-08-01 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Vertiv CEO makes critical comment as stock crashes](https://finnhub.io/api/news?id=cceec622050913d77f776bc43561fefa8e5983325cb3e6418d3eecc8ff2f672f)**  
+*Yahoo · 17h前*  
+Vertiv (VRT) had one of its roughest earnings days this week. Its stock fell about 17% on July 29. The AI infrastructure company's second-quarter earnings beat …
+
+- **[Vertiv Holdings: Buy The Q2 Dip Before Growth Reaccelerates](https://finnhub.io/api/news?id=07fa4c00d369792744ed50b35095a0f69019ec14fc1d540b6ea1e3195122847e)**  
+*SeekingAlpha · 1d前*  
+Vertiv's robust demand and expanding AI data center infrastructure position support sustained double-digit topline momentum. Learn why VRT stock is a buy.
+
 - **[Vertiv (VRT) Stock Looks Below Fair Value As AI Demand Grows](https://finnhub.io/api/news?id=4f3244266f6ebdf18a8694516e498207094acc7859633d235b11ffac0e66a56a)**  
-*Yahoo · 3h前*  
+*Yahoo · 1d前*  
 Vertiv Holdings Co has seen a very large 5 year share price gain, yet the latest valuation work suggests the stock may still trade below its estimated intrinsic…
-
-- **[Vertiv Q2 Earnings Call Highlights](https://finnhub.io/api/news?id=3a46e46e2d23b8b4db46a374de9c230303426abf500a815fc4f16e50d2d8b1b6)**  
-*Yahoo · 8h前*  
-Vertiv (NYSE:VRT) raised its full-year 2026 outlook after reporting second-quarter growth in sales, profit and cash flow, supported by demand for data center in…
-
-- **[Vertiv: Bypassing AI Utility Pacing Limits](https://finnhub.io/api/news?id=dc9e26f1996ec925e9a759eb8f835b66b0fafdbc88e8ff3d6ee3defdb0068348)**  
-*SeekingAlpha · 10h前*  
-Vertiv (VRT) stock rated Buy: AI data center power shift to 800 VDC boosts pricing, margins & content/MW. Read here for a detailed analysis.
 
 ---
 
@@ -48,7 +48,7 @@ Vertiv (VRT) stock rated Buy: AI data center power shift to 800 VDC boosts prici
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-01 | 監控 | $241.57 | — | 自動更新 |
+| 2026-08-02 | 監控 | $241.57 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv (VRT) stock rated Buy: AI data center power shift to 800 VDC boosts prici
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-01 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-02 21:05 HKT*
