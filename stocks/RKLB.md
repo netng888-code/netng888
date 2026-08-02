@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[U.S. Air Force Taps Rocket Lab to Sell It 12 Hypersonic Missiles for $266 Million. Here's What Investors Need to Know.](https://finnhub.io/api/news?id=4c5e4d1dd6d364e5c8c830da68cdd367d8bd48385632a4954c0c63b89772ce02)**  
+*Yahoo · 3h前*  
+Rocket Lab may have found a new field for hypergrowth: defending the U.S. from hypersonic missiles.
+
+- **[Lost in Space: Why Aerospace Valuations Are Plummeting Right Now](https://finnhub.io/api/news?id=9b90e2500082ca87e3be1bc35d69127e0695f2e0ac9b8141c68c485f4037937c)**  
+*Yahoo · 1d前*  
+SpaceX shares have lost about $1.2 trillion in value since its IPO, triggering a sector-wide sell-off in space stocks like Rocket Lab as investors demand strong…
+
 - **[$10,000 Invested in Rocket Lab 3 Years Ago Is Worth This Much Today, Even After a 61% Drawdown.](https://finnhub.io/api/news?id=11913cb71ac0d1fed2cf1fd320e89fb2bafc53d3302c02044f85bf05f8811d0e)**  
-*Yahoo · 2h前*  
+*Yahoo · 1d前*  
 The space stock's three-year return laps the market many times over. What the pullback changed deserves just as much attention.
-
-- **[Prediction: Rocket Lab Will Turn Profitable and Free-Cash-Flow-Positive in 2027 -- Thanks to Iridium](https://finnhub.io/api/news?id=eb52889be1d1f240b6b5b28c58ff87c2485d2b1f90e122bde9aa13b143044afb)**  
-*Yahoo · 2h前*  
-Peter Beck already loves this acquisition. Rocket Lab investors should be even happier.
-
-- **[AST SpaceMobile vs. Rocket Lab: Which Space-Based Network Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=c389efbfaa6ef6e76245203bf30f021d58cfa6988065f0fcaca65088300dcbe1)**  
-*Yahoo · 16h前*  
-Both companies are unprofitable and burning cash, but their balance sheets and risk profiles tell very different stories for 2026.
 
 ---
 
@@ -48,7 +48,7 @@ Both companies are unprofitable and burning cash, but their balance sheets and r
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-01 | 監控 | $64.95 | — | 自動更新 |
+| 2026-08-02 | 監控 | $64.95 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Both companies are unprofitable and burning cash, but their balance sheets and r
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
