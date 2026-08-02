@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[S&P 500 Posts Weekly Gain Amid AI Monetization Optimism](https://finnhub.io/api/news?id=e4cb926bf0be07df6b11b28b6d49b9290ff6b95a6d81b8dfb9063c26a93be0aa)**  
-*Yahoo · 16h前*  
-The Standard & Poor's 500 index rose 1.1% this week as hyperscalers showed the mega spend on the art
+- **[Wall Street Week Ahead](https://finnhub.io/api/news?id=6a9e8400d7341f9a25b45a9c8952c859d2f92fe0d0bc5c12a951ccc2c8e93cbf)**  
+*SeekingAlpha · 5h前*  
+Wall Street catalyst week preview: July jobs report, SpaceX debut earnings, and AI semiconductor spending.
 
-- **[Veteran Bank Sounds Alarm on Palantir Stock Ahead of Earnings](https://finnhub.io/api/news?id=7488d09fdaa942decc455ec39b2fe1e5f5b2c8cb278c540ba7164dbcc987b469)**  
-*Yahoo · 16h前*  
-RBC Delivers Bearish Palantir Warning Ahead of High-Stakes Earnings Report
+- **[Palantir Technologies (PLTR) Q2 Earnings: What To Expect](https://finnhub.io/api/news?id=ee3ee955f4556cd162b7ee6ab032b31e5344ae778ffdcf5ac312cd081c97af84)**  
+*Yahoo · 5h前*  
+Data analytics company Palantir Technologies (NASDAQ:PLTR) will be reporting earnings this Monday after market close. Here’s what to look for.
 
-- **[Palantir CEO Takes Fresh Shot at AI Giants: 'They Sell Tokens'](https://finnhub.io/api/news?id=7a6e16dac2e6417c6e21a9a6beded70b1d8ffa8e32855a00546daec8946a75f0)**  
-*Yahoo · 17h前*  
-Palantir CEO Takes Aim at AI Giants While Defending Anthropic's Amodei
+- **[The Market Now Says Palantir Technologies Is Just an LLM Wrapper. The Financials Disagree](https://finnhub.io/api/news?id=632b77a938e823accc9744175706fb6e1b88a50519fedb8000fb996633797a38)**  
+*Yahoo · 22h前*  
+Palantir's stock has cratered 40% from its peak and critics are calling it a glorified chatbot wrapper, but the company's own financials are moving in the oppos…
 
 ---
 
@@ -48,7 +48,7 @@ Palantir CEO Takes Aim at AI Giants While Defending Anthropic's Amodei
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-01 | 監控 | $123.06 | — | 自動更新 |
+| 2026-08-02 | 監控 | $123.06 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir CEO Takes Aim at AI Giants While Defending Anthropic's Amodei
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
