@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Capital Power Q2 Earnings Call Highlights](https://finnhub.io/api/news?id=05bd0b2b161d13c352c3ca3c82d0ef805a5f09bf5621bd4ed4c10afad2157fa7)**  
-*Yahoo · 3h前*  
-Capital Power (TSE:CPX) said its second-quarter results reflected higher generation, contributions from its expanded PJM platform and continued commercial optim…
+- **[Mark Zuckerberg Says He's Betting Big on AI Compute Even as Meta's Free Cash Flow Craters. Here's What Investors Should Watch.](https://finnhub.io/api/news?id=aebf103a0e91cd900b33d8328998fc5cdfbcc255a51feea0a8194b20503d705c)**  
+*Yahoo · 2h前*  
+Meta's free cash flow is getting crushed, but Zuckerberg's AI compute gamble could be the stock's next big catalyst.
 
-- **[Bank of America sends strong verdict to Meta stock investor](https://finnhub.io/api/news?id=e6cb4a736ae5a0511ce93bb886bc68cda49200e38bbbfba9e45d36ec9d97f59c)**  
-*Yahoo · 9h前*  
-For five consecutive quarters, Meta Platforms did something that very few companies at its scale manage to pull off. It beat earnings expectations every single …
+- **[Meta Trades at a Forward P/E of 17, Below Its 5-Year Average, Making the Stock a Potential Bargain as Zuckerberg's Net Worth Rebounds](https://finnhub.io/api/news?id=c18564f7c3ded9cf94c76e96b7779b47381f7115ca9834e947131c3d64ea01ef)**  
+*Yahoo · 5h前*  
+Meta Platforms continues to trade at a discount while strengthening its fundamentals.
 
-- **[Jim Cramer Can’t Help But Gloat At Apple Inc (NASDAQ:AAPL)’s AI Developments](https://finnhub.io/api/news?id=b84795b42a7f9e71b9789d58adda42b151b481be22d13ac95d53f5c919635fae)**  
-*Yahoo · 10h前*  
-Ever the Apple Inc. (NASDAQ:AAPL) bull, Jim Cramer is nothing but ecstatic about the firm’s recent fortunes. With a market capitalization of $4.90 trillion when…
+- **[An Analyst Just Named Mark Zuckerberg's Meta a Top Large-Cap Long Idea, Citing AI-Driven Ad Momentum and an Attractive Valuation](https://finnhub.io/api/news?id=abf12b75d97042c0b0ba374b4abd1c45eca8850d6811d8fda120b1d881088ace)**  
+*Yahoo · 7h前*  
+Analysts are bullish on the social media company, but investors are less confident.
 
 ---
 
@@ -48,7 +48,7 @@ Ever the Apple Inc. (NASDAQ:AAPL) bull, Jim Cramer is nothing but ecstatic about
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-01 | 監控 | $556.71 | — | 自動更新 |
+| 2026-08-02 | 監控 | $556.71 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Ever the Apple Inc. (NASDAQ:AAPL) bull, Jim Cramer is nothing but ecstatic about
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
