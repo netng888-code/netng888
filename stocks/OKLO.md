@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[NUKZ: This Nuclear Power ETF Isn't A Buy Yet](https://finnhub.io/api/news?id=921986a25a19d7bc9b055004da68a3a95ac8bb15f52792980123f0266052fa00)**  
+- **[Wall Street Week Ahead](https://finnhub.io/api/news?id=6a9e8400d7341f9a25b45a9c8952c859d2f92fe0d0bc5c12a951ccc2c8e93cbf)**  
+*SeekingAlpha · 5h前*  
+Wall Street catalyst week preview: July jobs report, SpaceX debut earnings, and AI semiconductor spending.
+
+- **[SpaceX's First Earnings Post IPO](https://finnhub.io/api/news?id=9de17a5f3bdcc68bc05d4cf666a8e11bd0e6515b1992fd4959b95b7838d3aa1b)**  
 *SeekingAlpha · 1d前*  
+Wall Street Week Ahead: key earnings (SpaceX, AMD), IPOs, dividends & macro data (PMIs, jobs). Read here for more details.
+
+- **[NUKZ: This Nuclear Power ETF Isn't A Buy Yet](https://finnhub.io/api/news?id=921986a25a19d7bc9b055004da68a3a95ac8bb15f52792980123f0266052fa00)**  
+*SeekingAlpha · 2d前*  
 NUKZ Nuclear Renaissance ETF review: diversified industrial exposure to nuclear growth, but limited pure-play upside and valuation/fees. Learn more about NUKZ E…
 
 ---
@@ -40,7 +48,7 @@ NUKZ Nuclear Renaissance ETF review: diversified industrial exposure to nuclear 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-01 | 監控 | $38.83 | — | 自動更新 |
+| 2026-08-02 | 監控 | $38.83 | — | 自動更新 |
 
 ---
 
@@ -51,4 +59,4 @@ NUKZ Nuclear Renaissance ETF review: diversified industrial exposure to nuclear 
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
