@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[These 3 Dividend ETFs Own Nvidia and Microsoft and Still Pay Up to 8 Percent](https://finnhub.io/api/news?id=666f398b3c9903163793a2fb36e4591fd07d0216f6c1860a3081546801102cd9)**  
-*Yahoo · 18h前*  
-Owning Nvidia and Microsoft while collecting a fat dividend income used to mean picking one or the other. A new generation of ETFs rewrites that tradeoff in thr…
+- **[3 Top Tech Stocks for Long-Term Growth and Income](https://finnhub.io/api/news?id=8dabc12c0fc8aa040a291cbd0a1ffd61e941cf641d8f2a899588e87aec3754dc)**  
+*Yahoo · 3h前*  
+Here's why Microsoft, Texas Instruments, and Broadcom look built for long-term returns.
 
-- **[Marvell Technology Is Betting More Of Its Revenue On One End Market](https://finnhub.io/api/news?id=427d251700e4700db464e95f801ad6bca834d60888601efedc6c69ae5ba2f71a)**  
-*Yahoo · 19h前*  
-Three-quarters of its sales already come from data centers, and the company's own guidance widens that share even as it plans for cloud spending growth to cool.
+- **[Billionaire Steve Cohen Is Buying This Overlooked Stock While Dumping Big Tech](https://finnhub.io/api/news?id=4a105fcb1aa1c79f7c42bec4c28dbb7088d2f28fb67f80b9238f139eb5b0efd6)**  
+*Yahoo · 3h前*  
+This successful hedge fund manager seems to have had a snack craving in Q1.
 
-- **[Best Long-Term Investment Stocks to Buy](https://finnhub.io/api/news?id=a1226102fedf497b0082df25a4a134f65ffb97e9992f1ebb9ec91961ab2f59ca)**  
-*Yahoo · 20h前*  
-The best long-term investment stocks are characterized by solid financial standing, consistent dividend growth and steady buybacks of their own shares.
+- **[What The Bipolar Silicon Market Structure Means Moving Forward: Nividia Vs. Broadcom](https://finnhub.io/api/news?id=91ee972b795aeb965a3eb3e95deb4cb5c34ffb1138aa83f71e1af5935fafe876)**  
+*Yahoo · 22h前*  
+NVIDIA and Broadcom just reported back-to-back blowout quarters selling to the same hyperscale customers with opposite strategies, and the gap between their sto…
 
 ---
 
@@ -48,7 +48,7 @@ The best long-term investment stocks are characterized by solid financial standi
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-01 | 監控 | $389.28 | — | 自動更新 |
+| 2026-08-02 | 監控 | $389.28 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The best long-term investment stocks are characterized by solid financial standi
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
