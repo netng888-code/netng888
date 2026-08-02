@@ -1,6 +1,6 @@
 # LITE — Lumentum
 
-> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Applied Optoelectronics and Coherent Gain 7%, Lumentum Adds 5% as Risk-On Feeling Spreads to Optics Stocks](https://finnhub.io/api/news?id=a03604ac6e7b3ffe7f75a1113d1dde5153f3da9ee2a1b114051dbacf6c80772e)**  
-*Yahoo · 17h前*  
+*Yahoo · 1d前*  
 Optics stocks are surging well past the broader semiconductor rally as AI data center demand sends valuations into triple-digit territory, but the gap between g…
 
 - **[Get insights into the top movers in the S&P500 index of Friday's pre-market session.](https://finnhub.io/api/news?id=3223cbf246df2f33c69539037f774a50260cd33d10286f045a518ad8062cad57)**  
-*ChartMill · 1d前*  
+*ChartMill · 2d前*  
 Discover the top S&P500 movers in Friday's pre-market session and stay informed about market dynamics.
 
 - **[These S&P500 stocks are moving in today's session](https://finnhub.io/api/news?id=af68448e11fcc2bc9a9713886285322d32eabc6249bc9f6a49b64ea4adfdbcdf)**  
-*ChartMill · 1d前*  
+*ChartMill · 2d前*  
 Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Thursday.
 
 ---
@@ -48,7 +48,7 @@ Wondering what's happening in today's session for the S&P500 index? Stay informe
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-01 | 監控 | $713.94 | — | 自動更新 |
+| 2026-08-02 | 監控 | $713.94 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wondering what's happening in today's session for the S&P500 index? Stay informe
 - [TradingView](https://www.tradingview.com/chart/?symbol=LITE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-02 21:05 HKT*
