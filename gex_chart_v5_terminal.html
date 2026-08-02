@@ -59,13 +59,33 @@
        SOX（美股，🇺🇸）、HSI（港股，🇭🇰）、XIN9（A股/中國，
        🇨🇳）、NI225（日股，🇯🇵）、KOSPI（韓股，🇰🇷）。純顯示
        文字改動，symbol代理本身完全冇變。
+  v5.3（2026-08-01）：Global Indices（第二條跑馬燈）由TradingView
+    anonymous embed widget（ETF/份額代理symbol：SPY/QQQ/DIA/SOXX/
+    EWH/ASHR/EWJ/EWY）換做自建（custom）scrolling ticker，數據源
+    改用futu_bridge_v2.py /api/real_indices——背景同做法完全對齊
+    global-indices.html嘅v6 changelog（該檔案有更詳細背景，呢度
+    摘要）：futu_bridge_v2.py嘅/api/diag_indices實測證實Futu對
+    HK.800000（恒指本身）有原生行情權，令HSI終於有真實數值來源
+    （bridge v2.4/v2.5）；連埋bridge v2.6加嘅SPX（Yahoo）同XIN9
+    （Futu ASHR代理，明確標記），8隻指數而家可以一次過提供真實/
+    最佳可用數值，唔再受TradingView對HKEX/TSE/KRX嘅anonymous
+    embed授權限制影響，亦冧走咗ETF代理價位scale同真實指數點數
+    對唔上嘅老問題。
+    Macro Strip（第一條跑馬燈，VIX/WTI/美元指數）維持TradingView
+    widget唔變——嗰3隻係波動率/商品/貨幣指數，唔屬於呢次「指數
+    顯示限制」討論範圍，Futu/自建ticker都幫唔到。
+    Trade-off：新ticker完全依賴本機bridge運行先有數（Bridge離線
+    時顯示「🔌本機Bridge未連接」提示，唔會令個框變空白/報錯，
+    但都唔會再有代理價當fallback顯示——同global-indices.html
+    v6嘅同一trade-off）；持倉總覽/GEX/Field Inspector三個tab
+    完全唔受影響。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.2)</title>
+<title>GEX Chart — Futu Bridge (v5.3)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -265,6 +285,39 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .macro-strip-label a:hover{border-color:var(--blue);}
 .macro-strip-wrap .tradingview-widget-container{padding:2px 0 0;}
 
+/* 自建Scrolling Ticker Tape（v5.3新增，取代第二條跑馬燈Global Indices
+   Strip嘅TradingView embed widget）——數據源改用futu_bridge_v2.py
+   /api/real_indices（HSI經Futu HK.800000、XIN9經Futu ASHR代理、
+   其餘SPX/NDX/DJI/SOX/NI225/KOSPI經Yahoo，見該檔案v2.4-v2.6
+   changelog），唔再受TradingView anonymous embed對HKEX/TSE/KRX
+   嘅授權限制影響。第一條Macro Strip（VIX/WTI/美元指數）維持
+   TradingView widget唔變，同呢組CSS完全獨立。 */
+.rt-ticker-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;
+  margin-bottom:14px;overflow:hidden;}
+.rt-ticker-label{display:flex;align-items:center;justify-content:space-between;gap:10px;
+  font-size:8px;color:var(--border2);text-transform:uppercase;letter-spacing:.1em;
+  padding:6px 12px 0;}
+.rt-ticker-label a{color:var(--blue);text-decoration:none;letter-spacing:.06em;
+  border:1px solid var(--border);border-radius:3px;padding:2px 7px;text-transform:none;
+  font-size:9px;}
+.rt-ticker-label a:hover{border-color:var(--blue);}
+.rt-ticker-body{overflow:hidden;}
+.rt-ticker-track-outer{overflow:hidden;padding:9px 0 11px;}
+.rt-ticker-track{display:flex;width:max-content;animation:rt-scroll 38s linear infinite;}
+.rt-ticker-track:hover{animation-play-state:paused;}
+@keyframes rt-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.rt-ticker-item{display:flex;align-items:baseline;gap:6px;padding:0 20px;white-space:nowrap;
+  font-family:var(--font-mono);font-size:12px;border-right:1px solid var(--border);}
+.rt-flag{font-size:12px;}
+.rt-code{color:#fff;font-weight:700;letter-spacing:.02em;}
+.rt-name{color:var(--muted);font-size:10.5px;}
+.rt-price{color:var(--text);font-feature-settings:'tnum';}
+.rt-chg{font-weight:600;font-size:11px;font-feature-settings:'tnum';}
+.rt-chg.pos{color:var(--green);} .rt-chg.neg{color:var(--red);}
+.rt-proxy-tag{font-size:9px;color:var(--amber);}
+.rt-ticker-offline{padding:13px 16px;font-size:11.5px;color:var(--muted);
+  text-align:center;line-height:1.6;}
+
 /* 快速連結 Bar（v6新增） */
 .quicklinks-bar{display:flex;align-items:center;gap:10px;background:var(--bg2);
   border:1px solid var(--border);border-radius:8px;padding:10px 16px;
@@ -455,42 +508,16 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 </div>
 
 <!-- Global Indices Strip：SPX→NDX→DJI→SOX→HSI→XIN9→NI225→KOSPI（跨市場情緒鏈）
-     v6新增：同global-indices.html用返同一套已驗證嘅ETF/份額代理symbol
-     （HSI/XIN9/NI225/KOSPI原生cash index代碼喺TradingView anonymous
-     embed會撞到交易所data license限制，必須用美股上市嘅代理先有數，
-     詳細原因見global-indices.html頁首changelog）。次序跟情緒鏈：
-     美股大盤 → 半導體 → 港股/內地 → 日韓記憶體leading indicator。
-     顯示名稱保留原指數名（SPX/NDX/...），底層symbol用代理，同
-     global-indices.html做法一致，方便對照。
-     v5.2（2026-07-26）：title前面加返細小國旗emoji，一眼分辨市場：
-     SPX/NDX/DJI/SOX＝🇺🇸美股，HSI＝🇭🇰港股，XIN9＝🇨🇳A股，
-     NI225＝🇯🇵日股，KOSPI＝🇰🇷韓股。純文字改動，symbol代理冇變。 -->
-<div class="macro-strip-wrap">
-  <div class="macro-strip-label">
-    <span>GLOBAL INDICES · TradingView Live</span>
+     v5.3起自建custom ticker取代TradingView widget，詳見頁首changelog。
+     數據源：futu_bridge_v2.py /api/real_indices（HSI用Futu HK.800000、
+     XIN9用Futu ASHR代理帶is_proxy標記、其餘用Yahoo）。 -->
+<div class="rt-ticker-wrap">
+  <div class="rt-ticker-label">
+    <span>GLOBAL INDICES · 真實指數點數 Live（Futu + Yahoo）</span>
     <a href="https://netng888-code.github.io/netng888/global-indices.html" target="_blank" rel="noopener">🌍 詳細圖表頁</a>
   </div>
-  <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-    {
-      "symbols": [
-        {"proName": "AMEX:SPY", "title": "🇺🇸 SPX(SPY代理) 標普500"},
-        {"proName": "NASDAQ:QQQ", "title": "🇺🇸 NDX(QQQ代理) 納指100"},
-        {"proName": "AMEX:DIA", "title": "🇺🇸 DJI(DIA代理) 道瓊斯"},
-        {"proName": "NASDAQ:SOXX", "title": "🇺🇸 SOX(SOXX代理) 費半"},
-        {"proName": "AMEX:EWH", "title": "🇭🇰 HSI(EWH代理) 恒指"},
-        {"proName": "AMEX:ASHR", "title": "🇨🇳 XIN9(ASHR代理) A50"},
-        {"proName": "AMEX:EWJ", "title": "🇯🇵 NI225(EWJ代理) 日經"},
-        {"proName": "AMEX:EWY", "title": "🇰🇷 KOSPI(EWY代理) 韓綜指"}
-      ],
-      "showSymbolLogo": false,
-      "isTransparent": true,
-      "displayMode": "compact",
-      "colorTheme": "dark",
-      "locale": "zh_TW"
-    }
-    </script>
+  <div class="rt-ticker-body" id="rt-ticker-body">
+    <div class="rt-ticker-offline">載入中...</div>
   </div>
 </div>
 
@@ -705,6 +732,60 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 
 <script>
 const BRIDGE = 'http://127.0.0.1:8888';
+
+// ── Global Indices Ticker（v5.3新增，取代TradingView widget）──────
+// poll futu_bridge_v2.py /api/real_indices，同global-indices.html
+// 用返完全同一套render邏輯（保持兩邊顯示一致，方便對照）。
+const RT_TICKER_INDICES = [
+  { code:'SPX',   flag:'🇺🇸', name:'標普500'  },
+  { code:'NDX',   flag:'🇺🇸', name:'納指100'  },
+  { code:'DJI',   flag:'🇺🇸', name:'道瓊斯'   },
+  { code:'SOX',   flag:'🇺🇸', name:'費半'     },
+  { code:'HSI',   flag:'🇭🇰', name:'恒指'     },
+  { code:'XIN9',  flag:'🇨🇳', name:'A50'      },
+  { code:'NI225', flag:'🇯🇵', name:'日經'     },
+  { code:'KOSPI', flag:'🇰🇷', name:'韓綜指'   },
+];
+
+function rtFmtPrice(v) {
+  if (v == null) return '—';
+  return v.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
+}
+
+function rtRenderTicker(data) {
+  const idxData = (data && data.indices) || {};
+  const items = RT_TICKER_INDICES.map(ix => {
+    const d = idxData[ix.code];
+    if (!d || d.price == null) {
+      return `<div class="rt-ticker-item"><span class="rt-flag">${ix.flag}</span><span class="rt-code">${ix.code}</span><span class="rt-name">${ix.name}</span><span class="rt-price">—</span></div>`;
+    }
+    const pct = d.pct;
+    const cls = pct == null ? '' : (pct >= 0 ? 'pos' : 'neg');
+    const chgTxt = pct == null ? '' :
+      `<span class="rt-chg ${cls}">${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%</span>`;
+    const proxyTxt = d.is_proxy ? `<span class="rt-proxy-tag">(ETF代理)</span>` : '';
+    return `<div class="rt-ticker-item"><span class="rt-flag">${ix.flag}</span><span class="rt-code">${ix.code}</span><span class="rt-name">${ix.name}</span><span class="rt-price">${rtFmtPrice(d.price)}</span>${chgTxt}${proxyTxt}</div>`;
+  }).join('');
+  const el = document.getElementById('rt-ticker-body');
+  if (el) el.innerHTML = `<div class="rt-ticker-track-outer"><div class="rt-ticker-track">${items}${items}</div></div>`;
+}
+
+function rtShowTickerOffline() {
+  const el = document.getElementById('rt-ticker-body');
+  if (el) el.innerHTML = `<div class="rt-ticker-offline">🔌 本機Futu Bridge未連接，跑馬燈需要bridge運行先有實時數據 ── 可click右上角「🌍詳細圖表頁」用連結卡核實</div>`;
+}
+
+async function loadTickerTape() {
+  try {
+    const r = await fetch(`${BRIDGE}/api/real_indices`, {signal: AbortSignal.timeout(5000)});
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    rtRenderTicker(d);
+  } catch (e) {
+    rtShowTickerOffline();
+  }
+}
+
 let chartInst = null;
 let lastData  = null;
 let rangePct  = 30;
@@ -1584,6 +1665,11 @@ function hideAll() {
 // input喺GEX tab入面，預設隱藏住）——切去GEX tab嗰陣setTab()已經
 // 有專門一句處理focus，唔使呢度重複。
 fetchNow();  // 啟動持倉總覽tab嘅背景輪詢（獨立於GEX tab）
+
+// Global Indices Ticker（v5.3新增）：獨立於上面持倉總覽/GEX tab嘅
+// 輪詢，跨全部tab都顯示（喺tabs之上），同bridge嘅60秒緩存TTL對齊。
+loadTickerTape();
+setInterval(loadTickerTape, 60000);
 </script>
 </body>
 </html>
