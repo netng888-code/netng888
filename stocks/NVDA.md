@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Chevron Just Crushed Earnings. Here's What It Means for the Dividend.](https://finnhub.io/api/news?id=749cb9c38b362758252c40f53b2b4ffd6289f0eb215f717a7ac19b51da9b4224)**  
+- **[Warren Buffett Passed on This Stock for Over 7 Years. Greg Abel May Not Wait Any Longer.](https://finnhub.io/api/news?id=74c8e87e43806f57beb4d4cc80b3a20dc53e55f804cd98ee27415c7c067881bb)**  
 *Yahoo · 1h前*  
-Chevron delivered gushing free cash flow in the second quarter.
+MercadoLibre is a fit for Berkshire Hathaway on several levels.
 
-- **[Bristol Myers Squibb Isn't Nearly as Cheap as It Looks -- Here's the 1 Thing That Could Change That](https://finnhub.io/api/news?id=679c4328e708a8f8fd436919a30464508cc254953331dee08017dc057eb91ccd)**  
+- **[Jensen Huang Predicted Nvidia Would Collect $1 Trillion in Chip Sales Through 2027. Is Nvidia Still on Pace?](https://finnhub.io/api/news?id=3bd0ad6b8c96483aa094414ad41f6686a1016542066ca14619ebb83037167e3d)**  
 *Yahoo · 1h前*  
-Bristol Myers Squibb's P/E ratio is below the industry average, but you have to take this key fact into consideration before buying it.
+There is enormous demand for Nvidia's chips, but two looming risks could knock the company off course.
 
-- **[NASA Searches Couch Cushions, Finds Another $600 Million for Moon Missions](https://finnhub.io/api/news?id=01d97c96a32d4ca64f8463e6122e510dea27b826f73653c879119c5fb7282d61)**  
+- **[Blue Owl's BDC Already Cut Its Base Dividend to $0.31. Here's What to Watch as the Rest Report.](https://finnhub.io/api/news?id=3df30adcd9074ad80d63d6fce8325b2a83129949d9100428d48885bc453321ba)**  
 *Yahoo · 1h前*  
-Voyager Technologies, Firefly Aerospace, and Intuitive Machines have won NASA moon base contracts.
+Is Blue Owl Capital the canary in the coal mine or a one-off situation that investors in other BDCs can ignore?
 
 ---
 
@@ -48,7 +48,7 @@ Voyager Technologies, Firefly Aerospace, and Intuitive Machines have won NASA mo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-01 | 監控 | $200.75 | — | 自動更新 |
+| 2026-08-02 | 監控 | $200.75 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Voyager Technologies, Firefly Aerospace, and Intuitive Machines have won NASA mo
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
