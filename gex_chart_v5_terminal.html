@@ -79,13 +79,45 @@
     但都唔會再有代理價當fallback顯示——同global-indices.html
     v6嘅同一trade-off）；持倉總覽/GEX/Field Inspector三個tab
     完全唔受影響。
+  v5.4（2026-08-02）：呼應用戶4項功能請求，配合futu_bridge_v2.py
+    v2.7嘅3個後端新增（見該檔案changelog），前端做齊4項對應改動：
+    1. 到期日數量：搜尋列加咗下拉選擇器（近2/4/8個，預設2），揀
+       嘅值直接帶做/api/gex/{sym}?max_expirations=N。揀8個時前端
+       fetch timeout由60秒放寬到100秒（更多到期日=更多期權合約
+       要掃，容易撞返原本60秒上限）。
+    2.【重要bugfix】修正GEX橫線（Gamma Flip/Call Wall/Put Wall/
+       Max Pain）右邊軸標籤喺日/週線圖擠埋一齊睇唔清嘅問題——根源
+       係renderGexPriceLines()舊版merge門檻用「現價±1.2%」，但
+       日/週線圖Y軸實際顯示範圍可以由$45跨到$1400（成隻股票上市
+       至今嘅歷史高低位），幾個Wall雖然彼此相差3-7%現價，但相對
+       成個Y軸嘅總跨度嚟講只佔好窄一截，令LightweightCharts自動
+       擺喺對應價位嘅標籤文字箱實際上重疊。修正：merge門檻改用
+       「呢批已載入K線嘅實際high-low幅度 × 2.5%」做絕對$基準，
+       日線圖幅度大就自動放大合併距離，1分鐘圖幅度細就自動縮細；
+       每次切換interval（renderPriceChart重新執行）都會用嗰個
+       period嘅實際幅度重新計算+重畫，唔會再一本通書睇到老。
+       首次即時顯示（未有K線data嗰下）保留返舊版spot-based邏輯
+       做fallback，確保隨時有得畫。
+    3. K線主圖加咗布林線（20期SMA±2標準差，bridge新增嘅
+       _calc_bollinger()），新開第3個pane畫RSI（14期，bridge新增
+       嘅_calc_rsi()，Wilder平滑近似，帶30/70靜態參考線），兩者
+       都有獨立開關掣（純視覺toggle，唔重新fetch）。圖表容器高度
+       由480px加到640px，容納新增嘅RSI pane，K線/MACD/RSI三個
+       pane分別設高度360/140/140px，避免迫埋一齊。
+    4. 新增「🤖 AI分析」卡片（Key Levels同Money Flow Dashboard
+       之間）——call bridge v2.7新增嘅/api/ai_analysis/{sym}，
+       DeepSeek V4 Flash分析，方向/百分比一律由bridge嘅
+       compute_wall_status()喺Python預先計好（同telegram_bot.py
+       AVGO事件修正原則一致），前端呢度純粹顯示文字，唔做任何
+       計算。每次搜新symbol（resetAiSection()）會清空返舊嘅分析
+       結果，避免俾人誤會係新symbol嘅分析。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.3)</title>
+<title>GEX Chart — Futu Bridge (v5.4)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -126,6 +158,13 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 .t1live-pill .t1l-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;line-height:1.3;}
 .t1live-pill .t1l-price{font-size:17px;font-weight:700;color:#fff;font-family:var(--font-display);line-height:1.3;}
 .t1live-pill .t1l-chg{font-size:11px;font-weight:600;margin-left:2px;}
+/* 到期日數量選擇器（v5.4新增，配合bridge v2.7嘅max_expirations參數） */
+.exp-select-wrap{display:flex;align-items:center;gap:6px;background:var(--bg2);border:1px solid var(--border);
+  border-radius:6px;padding:0 10px;height:38px;}
+.exp-select-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;}
+.exp-select{background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--text);
+  font-family:var(--font-mono);font-size:11px;padding:5px 6px;outline:none;cursor:pointer;}
+.exp-select:focus{border-color:var(--green);}
 .btn{background:rgba(0,212,170,.1);border:1px solid var(--green);border-radius:6px;
   color:var(--green);font-family:var(--font-mono);font-size:13px;font-weight:700;
   padding:10px 20px;cursor:pointer;transition:all .2s;letter-spacing:.05em;}
@@ -218,6 +257,19 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .section-eyebrow .line{height:1px;background:var(--border);flex:1;}
 .section-eyebrow .tag{font-size:9px;color:var(--bg);background:var(--purple);border-radius:3px;padding:2px 6px;font-weight:700;letter-spacing:.04em;}
 
+/* AI 分析（v5.4新增，bridge v2.7 /api/ai_analysis endpoint） */
+.ai-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:16px 18px;margin-bottom:16px;position:relative;overflow:hidden;}
+.ai-wrap::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--purple);}
+.ai-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;flex-wrap:wrap;gap:8px;}
+.ai-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;}
+.ai-btn{background:rgba(167,139,250,.1);border:1px solid var(--purple);border-radius:6px;color:var(--purple);
+  font-family:var(--font-mono);font-size:12px;font-weight:700;padding:8px 18px;cursor:pointer;transition:all .2s;letter-spacing:.03em;}
+.ai-btn:hover{background:rgba(167,139,250,.2);}
+.ai-btn:disabled{opacity:.5;cursor:not-allowed;}
+.ai-body{font-size:12.5px;color:var(--text);line-height:1.75;min-height:24px;}
+.ai-placeholder{color:var(--muted);font-size:11.5px;}
+.ai-meta{font-size:9.5px;color:var(--border2);margin-top:10px;text-align:right;}
+
 /* Money Flow Dashboard */
 .mf-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px;}
 .mf-card{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;position:relative;overflow:hidden;}
@@ -243,7 +295,15 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .pc-ibtn.active{background:rgba(74,158,255,.12);border-color:var(--blue);color:var(--blue);}
 .pc-legend{display:flex;gap:14px;margin-top:10px;flex-wrap:wrap;font-size:10px;color:var(--muted);}
 .pc-legend .sw{display:inline-block;width:18px;height:2px;margin-right:5px;vertical-align:middle;}
-.pc-chart-container{height:480px;}
+/* K線圖height由480→640px（v5.4）：加咗RSI做第3個pane，原本480px
+   俾K線+MACD兩個pane已經夠迫，加多個pane唔加高會全部擠埋。 */
+.pc-chart-container{height:640px;}
+/* 布林線/RSI 顯示切換掣（v5.4新增） */
+.pc-toggle-row{display:flex;gap:5px;}
+.pc-toggle-btn{background:var(--bg3);border:1px solid var(--border);border-radius:3px;color:var(--muted);
+  font-family:var(--font-mono);font-size:10px;padding:5px 10px;cursor:pointer;transition:all .15s;}
+.pc-toggle-btn:hover{color:var(--text);}
+.pc-toggle-btn.on{background:rgba(167,139,250,.12);border-color:var(--purple);color:var(--purple);}
 
 /* ══════ 移植自 futu.html：Tabs / 全域狀態列 / 持倉總覽 / Field Inspector ══════ */
 
@@ -534,6 +594,14 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <!-- Search -->
 <div class="search-bar">
   <input class="sym-input" id="sym-input" type="text" placeholder="輸入代碼..." maxlength="8">
+  <div class="exp-select-wrap" title="計入GEX計算嘅到期日數量——越多越慢，且會混入低Gamma嘅遠期OI稀釋近期Wall訊號，近2個通常已夠代表短線Dealer部位">
+    <span class="exp-select-label">到期日</span>
+    <select class="exp-select" id="exp-select">
+      <option value="2" selected>近2個（預設）</option>
+      <option value="4">近4個</option>
+      <option value="8">近8個（較慢）</option>
+    </select>
+  </div>
   <div class="t1live-pill" id="t1live-pill" style="display:none">
     <span class="t1l-label">T1 LIVE 股價</span>
     <span class="t1l-price" id="t1l-price">—</span>
@@ -592,6 +660,18 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
   </div>
 </div>
 
+<!-- AI 分析（v5.4新增） -->
+<div class="ai-wrap" id="ai-section" style="display:none">
+  <div class="ai-head">
+    <span class="ai-title">🤖 AI 分析 · DeepSeek V4 Flash</span>
+    <button class="ai-btn" id="ai-btn" onclick="runAiAnalysis()">🤖 開始分析</button>
+  </div>
+  <div class="ai-body" id="ai-body">
+    <span class="ai-placeholder">按「開始分析」——AI會參考上方現價/Gamma Flip/Call Wall/Put Wall嘅位置關係（方向已由系統預先計算好，AI唔會自己重新計算百分比或方向），俾條件式操作建議</span>
+  </div>
+  <div class="ai-meta" id="ai-meta"></div>
+</div>
+
 <!-- Money Flow Dashboard -->
 <div id="mf-section" style="display:none">
   <div class="section-eyebrow">
@@ -625,6 +705,10 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <div class="pc-wrap" id="pc-wrap" style="display:none">
   <div class="pc-head">
     <span class="pc-title" id="pc-title">K線 + GEX橫線</span>
+    <div class="pc-toggle-row">
+      <button class="pc-toggle-btn on" id="pc-toggle-bb">布林線</button>
+      <button class="pc-toggle-btn on" id="pc-toggle-rsi">RSI</button>
+    </div>
     <div class="pc-interval-row" id="pc-interval-row">
       <button class="pc-ibtn" data-period="1">1分</button>
       <button class="pc-ibtn" data-period="5">5分</button>
@@ -641,6 +725,8 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <span><span class="sw" style="background:#f5a623"></span>MA9</span>
     <span><span class="sw" style="background:#4a9eff"></span>MA20</span>
     <span><span class="sw" style="background:#a78bfa"></span>MA60</span>
+    <span><span class="sw" style="background:#8593ad;border-top:1px dashed #8593ad;height:0"></span>布林線(20,2σ)</span>
+    <span><span class="sw" style="background:#e879f9"></span>RSI(14) <span style="color:var(--border2)">· 獨立pane，30/70參考線</span></span>
     <span><span class="sw" style="background:#ffffff;border-top:2px dashed #ffffff;height:0"></span>Gamma Flip</span>
     <span><span class="sw" style="background:#00d4aa;border-top:2px dashed #00d4aa;height:0"></span>Call Wall</span>
     <span><span class="sw" style="background:#ff4d6d;border-top:2px dashed #ff4d6d;height:0"></span>Put Wall</span>
@@ -793,6 +879,8 @@ let currentSym = null;
 
 // ── Price Chart（Lightweight Charts v5）狀態 ────────────────────
 let pcChart, pcCandle, pcMa9, pcMa20, pcMa60, pcMacdHist, pcMacdLine, pcMacdSignal;
+let pcBbUpper, pcBbMiddle, pcBbLower, pcRsi;           // v5.4：布林線 + RSI
+let pcBbVisible = true, pcRsiVisible = true;            // v5.4：切換掣狀態
 let pcPriceLines = [];
 let pcPeriod = 'D';
 let pcInited = false;
@@ -1281,9 +1369,28 @@ function initPriceChart() {
   pcMa20 = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#4a9eff', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
   pcMa60 = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#a78bfa', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
 
+  // 布林線（v5.4新增，pane 0同K線疊埋一齊）：用同一種灰藍色、幼線、
+  // 半透明，令上下軌唔會同MA9/20/60撞色，亦唔會搶咗K線本身嘅視覺重心
+  pcBbUpper  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(133,147,173,0.75)', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dashed, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcBbMiddle = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(133,147,173,0.35)', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcBbLower  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(133,147,173,0.75)', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dashed, priceLineVisible:false, lastValueVisible:false}, 0);
+
   pcMacdHist   = pcChart.addSeries(LightweightCharts.HistogramSeries, {priceFormat:{type:'volume'}}, 1);
   pcMacdLine   = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#4a9eff', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 1);
   pcMacdSignal = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#f5a623', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 1);
+
+  // RSI（v5.4新增，獨立第3個pane）：30/70係靜態參考線（固定價位，唔隨
+  // 數據變，一次過創建就得，唔使每次renderPriceChart都重新畫）
+  pcRsi = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#e879f9', lineWidth:1.5, priceLineVisible:false, lastValueVisible:true}, 2);
+  pcRsi.createPriceLine({price:70, color:'#4a5568', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dotted, axisLabelVisible:true, title:'超買70'});
+  pcRsi.createPriceLine({price:30, color:'#4a5568', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dotted, axisLabelVisible:true, title:'超賣30'});
+
+  // 3個pane各自高度：K線主圖最大，MACD/RSI細啲（v5.4，容器由480→640px，
+  // 加返RSI呢個新pane後三者仍然睇得清，唔會迫埋一齊）
+  const panes = pcChart.panes();
+  if (panes[0]) panes[0].setHeight(360);
+  if (panes[1]) panes[1].setHeight(140);
+  if (panes[2]) panes[2].setHeight(140);
 
   document.querySelectorAll('.pc-ibtn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -1292,6 +1399,18 @@ function initPriceChart() {
       pcPeriod = btn.dataset.period;
       if (currentSym) loadKline(currentSym, pcPeriod);
     });
+  });
+
+  // 布林線/RSI 開關（v5.4）：純視覺切換，唔重新fetch數據
+  document.getElementById('pc-toggle-bb').addEventListener('click', function() {
+    pcBbVisible = !pcBbVisible;
+    this.classList.toggle('on', pcBbVisible);
+    [pcBbUpper, pcBbMiddle, pcBbLower].forEach(s => s.applyOptions({visible: pcBbVisible}));
+  });
+  document.getElementById('pc-toggle-rsi').addEventListener('click', function() {
+    pcRsiVisible = !pcRsiVisible;
+    this.classList.toggle('on', pcRsiVisible);
+    pcRsi.applyOptions({visible: pcRsiVisible});
   });
 }
 
@@ -1306,7 +1425,7 @@ async function loadKline(sym, period) {
   } catch (e) { console.warn('kline fetch failed:', e); }
 }
 
-// ── Price Chart：畫K線+MA+MACD ──────────────────────────────
+// ── Price Chart：畫K線+MA+MACD+布林線+RSI ────────────────────
 function renderPriceChart(d) {
   pcCandle.setData(d.bars.map(b => ({time:b.time, open:b.open, high:b.high, low:b.low, close:b.close})));
 
@@ -1323,7 +1442,32 @@ function renderPriceChart(d) {
   pcMacdLine.setData(toSeries(macd.macd));
   pcMacdSignal.setData(toSeries(macd.signal));
 
+  // 布林線（v5.4，bridge v2.7嘅/api/kline已加返"bb"欄位）
+  const bb = d.bb || {upper:[], middle:[], lower:[]};
+  pcBbUpper.setData(toSeries(bb.upper));
+  pcBbMiddle.setData(toSeries(bb.middle));
+  pcBbLower.setData(toSeries(bb.lower));
+
+  // RSI（v5.4，bridge v2.7嘅/api/kline已加返"rsi"欄位）
+  pcRsi.setData(toSeries(d.rsi || []));
+
   pcChart.timeScale().fitContent();
+
+  // ── GEX橫線label重疊修正（v5.4）───────────────────────────
+  // 舊版merge threshold用「現價±1.2%」，喺日/週線圖（Y軸實際顯示
+  // 範圍可以由$45去到$1400）呢種尺度下完全唔夠——幾個Wall數值明明
+  // 相差成$30-85，但相對於Y軸總跨度嚟講擠喺一齊，right-axis嘅標籤
+  // 文字箱疊晒。而家改用「呢批已載入K線嘅實際高低價幅度」做merge
+  // 基準（而唔係死板嘅%現價），日線圖幅度大、merge距離自動放大；
+  // 1分鐘圖幅度細、merge距離自動縮細，唔會過度合併相近但仍然分得
+  // 開嘅Wall。每次interval切換（loadKline重新fetch）都會經呢度
+  // 重新計算+重畫，確保切圖後都啱。
+  if (lastData && lastData.d && d.bars && d.bars.length) {
+    const highs = d.bars.map(b => b.high);
+    const lows  = d.bars.map(b => b.low);
+    const priceRange = Math.max(...highs) - Math.min(...lows);
+    renderGexPriceLines(lastData.d, priceRange);
+  }
 }
 
 // ── Price Chart：GEX橫線（Flip/Call Wall/Put Wall/Max Pain）──
@@ -1332,7 +1476,16 @@ function renderPriceChart(d) {
 // 顏色備忘：Gamma Flip 由紫色(#a78bfa)改做白色——同MA60撞晒色；
 // Max Pain 由橙色(#f5a623)改做粉紅色——同MA9撞晒色。而家4條GEX橫線
 // (白/綠/紅/粉紅) 同3條MA線(橙/藍/紫) 全部唔會撞色。
-function renderGexPriceLines(d) {
+//
+// v5.4修正（label重疊bug）：priceRange參數＝呢批已載入K線嘅實際
+// high-low幅度，由renderPriceChart()傳入。merge距離而家以「呢個
+// 幅度嘅2.5%」做基準（絕對$數），而唔係舊版嘅「現價嘅1.2%」——
+// 舊版喺日/週線圖（Y軸可以由$45跨到$1400）呢種尺度下，幾個Wall
+// 雖然相對現價嚟講相差3-7%，但相對Y軸總跨度嚟講只佔好窄一截，
+// 令right-axis嘅標籤文字箱實際上重疊。冇priceRange時（例如首次
+// 未有K線data嘅即時fallback）就用返舊版spot-based邏輯，確保隨時
+// 都有得畫，唔會因為冇range就完全唔render。
+function renderGexPriceLines(d, priceRange) {
   pcPriceLines.forEach(pl => pcCandle.removePriceLine(pl));
   pcPriceLines = [];
   if (!pcCandle) return;
@@ -1345,18 +1498,19 @@ function renderGexPriceLines(d) {
   ].filter(l => l.price != null);
   if (!raw.length) return;
 
-  // 價位太接近（例如Call Wall同Max Pain啱啱好同一個strike）會令右邊
-  // 軸標籤文字疊埋一齊睇唔清（附圖入面 Max Pain/Call Wall 同時顯示
-  // 150.00 就係呢個情況）。呢度按價位由低到高排序，相差 < 現價1.2%
-  // 嘅相鄰項目合併做一條線、一個標籤（例如「Call Wall/Max Pain
-  // $150.00」），而唔係兩條線分別顯示但疊喺同一位置。
   const ref = d.spot || raw[0].price;
-  const MERGE_PCT = 0.012;
+  // mergeAbs：合併距離嘅絕對$門檻。有priceRange（已有K線data）就用
+  // 「範圍 × 2.5%」；未有（首次即時fallback）就退返用「現價 × 1.2%」
+  // 舊邏輯，保證兩種情況都有合理嘅門檻。
+  const mergeAbs = (priceRange && priceRange > 0)
+    ? priceRange * 0.025
+    : (ref > 0 ? ref * 0.012 : 0);
+
   raw.sort((a, b) => a.price - b.price);
   const merged = [];
   raw.forEach(l => {
     const last = merged[merged.length - 1];
-    if (last && ref > 0 && Math.abs(l.price - last.price) / ref < MERGE_PCT) {
+    if (last && mergeAbs > 0 && Math.abs(l.price - last.price) < mergeAbs) {
       last.title = `${last.title}/${l.title}`;
       last.price = (last.price + l.price) / 2;
     } else {
@@ -1384,10 +1538,16 @@ async function loadGex(sym) {
   document.getElementById('d-br').className='dot live';
   document.getElementById('t-br').textContent='Bridge: 已連接';
 
+  // 到期日數量（v5.4，配合bridge v2.7嘅max_expirations參數；越大越慢，
+  // 超時保護加返落面AbortSignal——8個到期日冇60秒可能唔夠，放寬到100秒）
+  const expCount = document.getElementById('exp-select').value || '2';
+  const expTimeoutMs = expCount === '8' ? 100000 : 60000;
+  resetAiSection();
+
   try {
     // Parallel: GEX + live price（Money Flow 獨立fetch，唔阻住主流程）
     const [gexResp, liveQuote] = await Promise.all([
-      fetch(`${BRIDGE}/api/gex/${sym}`, {signal:AbortSignal.timeout(60000)}),
+      fetch(`${BRIDGE}/api/gex/${sym}?max_expirations=${expCount}`, {signal:AbortSignal.timeout(expTimeoutMs)}),
       getLiveT1(sym),
     ]);
     if (!gexResp.ok) throw new Error(`HTTP ${gexResp.status}`);
@@ -1439,6 +1599,7 @@ function renderAll(d, lq, sym) {
 
   // Key level cards
   document.getElementById('levels').style.display='';
+  document.getElementById('ai-section').style.display='';
 
   // Spot
   const spotChg = T2 ? (spot-T2)/T2*100 : null;
@@ -1498,6 +1659,49 @@ function renderAll(d, lq, sym) {
   document.getElementById('chart-title-txt').textContent =
     `${sym} GEX by Strike（單位：百萬）`;
   drawChart(d, spot, flip, callWall, putWall);
+}
+
+// ── AI 分析（v5.4新增，call bridge v2.7嘅/api/ai_analysis/{sym}）───
+// 方向/百分比一律由bridge嘅compute_wall_status()喺Python預先計好
+// 先傳畀DeepSeek（同telegram_bot.py嘅AVGO事件修正原則一致），前端
+// 呢度純粹負責攞返嚟嘅文字顯示，唔做任何計算。
+function resetAiSection() {
+  const body = document.getElementById('ai-body');
+  const btn  = document.getElementById('ai-btn');
+  const meta = document.getElementById('ai-meta');
+  if (body) body.innerHTML = '<span class="ai-placeholder">按「開始分析」——AI會參考上方現價/Gamma Flip/Call Wall/Put Wall嘅位置關係（方向已由系統預先計算好），俾條件式操作建議</span>';
+  if (btn)  { btn.disabled = false; btn.textContent = '🤖 開始分析'; }
+  if (meta) meta.textContent = '';
+}
+
+async function runAiAnalysis() {
+  if (!lastData) return;
+  const {d, liveQuote, sym} = lastData;
+  const btn  = document.getElementById('ai-btn');
+  const body = document.getElementById('ai-body');
+  const meta = document.getElementById('ai-meta');
+  btn.disabled = true;
+  btn.textContent = '⏳ 分析中...';
+  body.innerHTML = '<span class="spin"></span> DeepSeek V4 Flash 分析緊，約5-15秒...';
+  meta.textContent = '';
+  try {
+    const price = (liveQuote && liveQuote.T1) || d.spot;
+    const params = new URLSearchParams();
+    params.set('price', price ?? '');
+    if (d.flip      != null) params.set('flip', d.flip);
+    if (d.call_wall != null) params.set('call_wall', d.call_wall);
+    if (d.put_wall  != null) params.set('put_wall', d.put_wall);
+    if (d.max_pain  != null) params.set('max_pain', d.max_pain);
+    const r = await fetch(`${BRIDGE}/api/ai_analysis/${sym}?${params.toString()}`, {signal:AbortSignal.timeout(35000)});
+    const j = await r.json();
+    if (j.error) throw new Error(j.error);
+    body.innerHTML = (j.analysis || '（AI冇回覆內容）').replace(/\n/g, '<br>');
+    meta.textContent = `模型：${j.model || '—'} · ${new Date().toLocaleTimeString('en-US',{hour12:false})}`;
+  } catch(e) {
+    body.innerHTML = `<span class="err-msg">⚠ AI分析失敗：${e.message}</span><br><span style="font-size:10px;color:var(--muted)">確認futu_bridge_v2.py已填OPENROUTER_API_KEY並運行緊</span>`;
+  }
+  btn.disabled = false;
+  btn.textContent = '🤖 重新分析';
 }
 
 // ── Draw Chart ────────────────────────────────────────────────
@@ -1657,6 +1861,7 @@ function hideAll() {
   document.getElementById('mf-section').style.display='none';
   document.getElementById('pc-wrap').style.display='none';
   document.getElementById('t1live-pill').style.display='none';
+  document.getElementById('ai-section').style.display='none';
   ['p-sym','p-exp','p-ts','p-mf'].forEach(id=>document.getElementById(id).style.display='none');
 }
 
