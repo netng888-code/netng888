@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-08-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Intuitive Surgical (ISRG) vs. Medtronic (MDT): Which MedTech Stock Looks Better Positioned for Growth?](https://finnhub.io/api/news?id=3af196ab8e1c829b93cb789485e43d768751c4a769284d7097f2ae2a154268f4)**  
-*Yahoo · 17h前*  
+*Yahoo · 1d前*  
 Intuitive Surgical (NASDAQ:ISRG) beat both top- and bottom-line consensus estimates in its fiscal Q2 2026 results, with revenue for the quarter growing 19% to $…
 
 - **[TEM Q2 Loss Narrower Than Expected, Revenues Beat, Stock Up](https://finnhub.io/api/news?id=5fe1b014826ca153a98011ee63fddc264294a77183e50e7abefa44a5516f4e66)**  
-*Yahoo · 23h前*  
+*Yahoo · 1d前*  
 Tempus AI climbs 6.6% after its second-quarter loss narrows, revenues beat estimates and 2026 sales guidance rises on diagnostics and data growth.
 
 - **[Intuitive Surgical, Inc. (ISRG) is Attracting Investor Attention: Here is What You Should Know](https://finnhub.io/api/news?id=7e5bf20d7314ecd57896373664a732bb4439aeacd9ab02ef2d1b99db065d8994)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Intuitive Surgical (ISRG) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.
 
 ---
@@ -48,7 +48,7 @@ Intuitive Surgical (ISRG) has been one of the stocks most watched by Zacks.com u
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-01 | 監控 | $353.33 | — | 自動更新 |
+| 2026-08-02 | 監控 | $353.33 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical (ISRG) has been one of the stocks most watched by Zacks.com u
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-02 21:05 HKT*
