@@ -103,6 +103,41 @@
        其他bridge-dependent功能一樣）；Bridge未連接時tooltip會
        顯示fallback文字（「🔌本機Bridge未連接」），連結卡本身嘅
        click-through功能完全不受影響，隨時都work。
+
+  v6（2026-08-01）：拆走頁頂Overview Ticker Tape嗰個TradingView
+    embed widget，改做自建（custom）scrolling ticker——背景：v2至v5
+    一路都靠TradingView anonymous embed + ETF/份額代理先能顯示，
+    但ETF代理價位scale同真實指數點數唔同，令跑馬燈顯示嘅數字同
+    財經專家講嘅點位（例如「恒指22000-25000」）對唔上，呢個限制
+    一直只能夠用底下嘅「真實指數點數」連結卡（click去TradingView
+    官方頁面）同v5嘅mouseover tooltip兩種方式局部彌補，跑馬燈
+    本身視覺上顯示嘅仍然係代理價。
+
+    2026-07實測futu_bridge_v2.py嘅/api/diag_indices（見該檔案
+    changelog）證實Futu OpenAPI對HK.800000（恒生指數本身）有原生
+    行情權——同美股指數（SPX/NDX/DJI）嗰種第三方指數公司IP授權
+    限制唔同源，令HSI終於有一個比Yahoo v8非官方endpoint更穩陣嘅
+    真實數據來源（bridge v2.4/v2.5）。連埋bridge v2.6新加嘅SPX
+    （Yahoo）同XIN9（Futu ASHR代理，明確標記is_proxy），/api/
+    real_indices而家可以一次過提供8隻指數嘅真實/最佳可用數值，
+    足夠完全取代TradingView widget，唔使再受HKEX/TSE/KRX嘅
+    anonymous embed授權限制影響。
+
+    做法：頁頂 .ticker-wrap 嗰段TradingView script整段移除，換做
+    純CSS/JS自建嘅.rt-ticker-wrap（CSS keyframe做無縫水平scroll，
+    hover暫停），poll bridge嘅/api/real_indices（同底下mouseover
+    tooltip共用同一個60秒interval fetch，merge埋一齊減少重複
+    request）。7隻（SPX/NDX/DJI/SOX/HSI/NI225/KOSPI）顯示真實
+    指數點數；XIN9因為冇任何API有穩定現貨指數源，維持顯示ASHR
+    ETF代理價，但加咗細細個「(ETF代理)」標籤，唔會扮成真實點數
+    誤導人。
+
+    Trade-off：新ticker完全依賴本機bridge運行先有數（TradingView
+    widget舊版唔需要bridge、隨時都有代理價顯示）——Bridge離線時
+    跑馬燈會顯示「🔌本機Bridge未連接」提示文字（同v5嘅tooltip
+    fallback做法一致），底下「真實指數點數」連結卡（純click-through
+    去TradingView官網，唔靠bridge）依然完全唔受影響，隨時可以
+    用嚟核實。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
@@ -138,11 +173,34 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
   border-radius:4px;padding:5px 10px;transition:all .15s;white-space:nowrap;}
 .nav-links a:hover{border-color:var(--blue);color:var(--blue);}
 
-/* Overview ticker */
-.ticker-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;
-  margin-bottom:18px;overflow:visible;min-height:48px;}
-.ticker-label{font-size:8px;color:var(--border2);text-transform:uppercase;letter-spacing:.1em;padding:6px 12px 0;}
-.ticker-wrap .tradingview-widget-container{padding:2px 0 0;}
+/* 自建Scrolling Ticker Tape（v6新增，取代原本.ticker-wrap嘅TradingView
+   embed widget）——數據源由futu_bridge_v2.py /api/real_indices提供，
+   HSI用Futu HK.800000、SPX/NDX/DJI/SOX/NI225/KOSPI用Yahoo、XIN9用
+   Futu ASHR代理（is_proxy標記），唔再受TradingView anonymous embed
+   對HKEX/TSE/KRX嘅授權限制影響。CSS keyframe做無縫水平scroll，
+   hover暫停方便定睛細看；Bridge離線時顯示fallback文字（見JS
+   rtShowOffline()），唔會令個框變空白/報錯。 */
+.rt-ticker-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;
+  margin-bottom:18px;overflow:hidden;}
+.rt-ticker-label{display:flex;align-items:center;justify-content:space-between;gap:10px;
+  font-size:8px;color:var(--border2);text-transform:uppercase;letter-spacing:.1em;
+  padding:6px 12px 0;}
+.rt-ticker-body{overflow:hidden;}
+.rt-ticker-track-outer{overflow:hidden;padding:9px 0 11px;}
+.rt-ticker-track{display:flex;width:max-content;animation:rt-scroll 38s linear infinite;}
+.rt-ticker-track:hover{animation-play-state:paused;}
+@keyframes rt-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.rt-ticker-item{display:flex;align-items:baseline;gap:6px;padding:0 20px;white-space:nowrap;
+  font-family:var(--font-mono);font-size:12px;border-right:1px solid var(--border);}
+.rt-flag{font-size:12px;}
+.rt-code{color:#fff;font-weight:700;letter-spacing:.02em;}
+.rt-name{color:var(--muted);font-size:10.5px;}
+.rt-price{color:var(--text);font-feature-settings:'tnum';}
+.rt-chg{font-weight:600;font-size:11px;font-feature-settings:'tnum';}
+.rt-chg.pos{color:var(--green);} .rt-chg.neg{color:var(--red);}
+.rt-proxy-tag{font-size:9px;color:var(--amber);}
+.rt-ticker-offline{padding:13px 16px;font-size:11.5px;color:var(--muted);
+  text-align:center;line-height:1.6;}
 
 /* Section eyebrow */
 .eyebrow{display:flex;align-items:center;gap:10px;margin:6px 0 14px;}
@@ -259,41 +317,22 @@ footer{margin-top:12px;display:flex;align-items:center;justify-content:space-bet
   </div>
 </header>
 
-<!-- Overview ticker tape：一眼睇晒8隻，次序跟情緒鏈 -->
-<div class="ticker-wrap">
-  <div class="ticker-label">OVERVIEW · TradingView Live</div>
-  <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-    {
-      "symbols": [
-        {"proName": "AMEX:SPY", "title": "SPX(SPY代理) 標普500"},
-        {"proName": "NASDAQ:QQQ", "title": "NDX(QQQ代理) 納指100"},
-        {"proName": "AMEX:DIA", "title": "DJI(DIA代理) 道瓊斯"},
-        {"proName": "NASDAQ:SOXX", "title": "SOX(SOXX代理) 費半"},
-        {"proName": "AMEX:EWH", "title": "HSI(EWH代理) 恒指"},
-        {"proName": "AMEX:ASHR", "title": "XIN9(ASHR代理) A50"},
-        {"proName": "AMEX:EWJ", "title": "NI225(EWJ代理) 日經"},
-        {"proName": "AMEX:EWY", "title": "KOSPI(EWY代理) 韓綜指"}
-      ],
-      "showSymbolLogo": false,
-      "isTransparent": true,
-      "displayMode": "compact",
-      "colorTheme": "dark",
-      "locale": "zh_TW"
-    }
-    </script>
+<!-- Overview ticker：一眼睇晒8隻，次序跟情緒鏈（v6起自建，見頁首changelog） -->
+<div class="rt-ticker-wrap">
+  <div class="rt-ticker-label"><span>OVERVIEW · 真實指數點數 Live（Futu + Yahoo）</span></div>
+  <div class="rt-ticker-body" id="rt-ticker-body">
+    <div class="rt-ticker-offline">載入中...</div>
   </div>
 </div>
 
 <div class="eyebrow"><span class="txt">真實指數點數 · Real Index Points</span><div class="line"></div></div>
 
 <div class="real-idx-note">
-  上面Ticker Tape / 下面Flipcharts大圖，HSI/XIN9/NI225/KOSPI呢4隻全部用緊ETF/份額代理
-  （EWH/ASHR/EWJ/EWY），價位scale同真實指數點數唔同，<b>冇辦法直接同財經專家講嘅點位
-  （例如「恒指22000-25000遊走」、「韓綜指升到11000見頂」）對照</b>。想核實真實點數，
-  click下面連結去TradingView官方頁面——純粹連結、唔係embed，唔受HKEX/TSE/KRX嘅
-  anonymous embed授權限制，隨時可以睇到真實指數。
+  上面跑馬燈v6起已經改用真實指數點數（HSI經Futu HK.800000、SPX/NDX/DJI/SOX/NI225/KOSPI
+  經Yahoo），唔再係ETF代理價；<b>只有XIN9（富時中國A50）因為冇任何API有穩定現貨指數源，
+  維持顯示ASHR ETF代理價</b>（已標「(ETF代理)」）。下面Flipcharts大圖依然用緊ETF/份額代理
+  （EWH/ASHR/EWJ/EWY），想睇完整圖表/歷史走勢核實，click下面連結去TradingView官方頁面——
+  純粹連結、唔係embed，唔受HKEX/TSE/KRX嘅anonymous embed授權限制。
 </div>
 <div class="real-idx-grid">
   <a class="real-idx-card" href="https://www.tradingview.com/symbols/NASDAQ-NDX/" target="_blank" rel="noopener">
@@ -329,7 +368,7 @@ footer{margin-top:12px;display:flex;align-items:center;justify-content:space-bet
     <div class="ridx-title">富時中國A50</div>
     <div class="ridx-sub">真實點數 ↗ TradingView官方頁</div>
     <span class="ridx-arrow">↗</span>
-    <div class="ridx-tooltip" data-code="XIN9"><span class="ridx-tip-note">Yahoo無穩定數據源<br>click查看真實點數</span></div>
+    <div class="ridx-tooltip" data-code="XIN9"><span class="ridx-tip-note">載入中...</span></div>
   </a>
   <a class="real-idx-card" href="https://www.tradingview.com/symbols/TVC-NI225/" target="_blank" rel="noopener">
     <div class="ridx-code">NI225 · TVC:NI225</div>
@@ -545,45 +584,84 @@ document.addEventListener('keydown', e => {
 buildSymStrip();
 renderFlip();
 
-// ── Mouseover 真實指數點數（v5新增）──────────────────────────
-// tooltip內容由本機 futu_bridge_v2.py /api/real_indices（Yahoo Finance
-// v8 chart，見該檔案v2.2 changelog）攞返；Bridge未運行時graceful
+// ── Mouseover 真實點數 + 頁頂Ticker Tape（v6起合併一次fetch）──────
+// 兩者共用同一個/api/real_indices response，唔使分開request兩次。
+// tooltip內容 + 跑馬燈內容由本機 futu_bridge_v2.py /api/real_indices
+// （HSI經Futu HK.800000、XIN9經Futu ASHR代理、其餘經Yahoo Finance，
+// 見該檔案v2.4-v2.6 changelog）攞返；Bridge未運行時graceful
 // fallback，唔會令連結卡本身壞（click-through去TradingView永遠work）。
 const BRIDGE = 'http://127.0.0.1:8888';
 
-function setTooltip(code, html) {
-  const el = document.querySelector(`.ridx-tooltip[data-code="${code}"]`);
-  if (el) el.innerHTML = html;
+const RT_TICKER_INDICES = [
+  { code:'SPX',   flag:'🇺🇸', name:'標普500'  },
+  { code:'NDX',   flag:'🇺🇸', name:'納指100'  },
+  { code:'DJI',   flag:'🇺🇸', name:'道瓊斯'   },
+  { code:'SOX',   flag:'🇺🇸', name:'費半'     },
+  { code:'HSI',   flag:'🇭🇰', name:'恒指'     },
+  { code:'XIN9',  flag:'🇨🇳', name:'A50'      },
+  { code:'NI225', flag:'🇯🇵', name:'日經'     },
+  { code:'KOSPI', flag:'🇰🇷', name:'韓綜指'   },
+];
+
+function rtFmtPrice(v) {
+  if (v == null) return '—';
+  return v.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
 }
 
-async function loadRealIndices() {
+function rtRenderTicker(data) {
+  const idxData = (data && data.indices) || {};
+  const items = RT_TICKER_INDICES.map(ix => {
+    const d = idxData[ix.code];
+    if (!d || d.price == null) {
+      return `<div class="rt-ticker-item"><span class="rt-flag">${ix.flag}</span><span class="rt-code">${ix.code}</span><span class="rt-name">${ix.name}</span><span class="rt-price">—</span></div>`;
+    }
+    const pct = d.pct;
+    const cls = pct == null ? '' : (pct >= 0 ? 'pos' : 'neg');
+    const chgTxt = pct == null ? '' :
+      `<span class="rt-chg ${cls}">${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%</span>`;
+    const proxyTxt = d.is_proxy ? `<span class="rt-proxy-tag">(ETF代理)</span>` : '';
+    return `<div class="rt-ticker-item"><span class="rt-flag">${ix.flag}</span><span class="rt-code">${ix.code}</span><span class="rt-name">${ix.name}</span><span class="rt-price">${rtFmtPrice(d.price)}</span>${chgTxt}${proxyTxt}</div>`;
+  }).join('');
+  document.getElementById('rt-ticker-body').innerHTML =
+    `<div class="rt-ticker-track-outer"><div class="rt-ticker-track">${items}${items}</div></div>`;
+}
+
+function rtShowTickerOffline() {
+  document.getElementById('rt-ticker-body').innerHTML =
+    `<div class="rt-ticker-offline">🔌 本機Futu Bridge未連接，跑馬燈需要bridge運行先有實時數據 ── 下面「真實指數點數」連結卡仍然可以直接click去TradingView核實</div>`;
+}
+
+async function loadIndicesData() {
   try {
     const r = await fetch(`${BRIDGE}/api/real_indices`, {signal: AbortSignal.timeout(5000)});
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const d = await r.json();
+
+    rtRenderTicker(d);
+
     document.querySelectorAll('.ridx-tooltip').forEach(el => {
       const code = el.dataset.code;
-      if (code === 'XIN9') return;  // 固定文字，唔使更新
       const idx = d.indices && d.indices[code];
       if (idx && idx.price != null) {
         const pct = idx.pct;
         const cls = pct == null ? '' : (pct >= 0 ? 'pos' : 'neg');
         const pctTxt = pct == null ? '' :
           `<span class="ridx-tip-chg ${cls}">${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%</span>`;
-        el.innerHTML = `<span class="ridx-tip-price">${idx.price.toLocaleString('en-US')}</span>${pctTxt}`;
+        const proxyTxt = idx.is_proxy ? `<br><span class="ridx-tip-note">(ETF代理，非真實點數)</span>` : '';
+        el.innerHTML = `<span class="ridx-tip-price">${idx.price.toLocaleString('en-US')}</span>${pctTxt}${proxyTxt}`;
       } else {
         el.innerHTML = `<span class="ridx-tip-note">數據暫缺<br>click查看真實點數</span>`;
       }
     });
   } catch (e) {
+    rtShowTickerOffline();
     document.querySelectorAll('.ridx-tooltip').forEach(el => {
-      if (el.dataset.code === 'XIN9') return;
       el.innerHTML = `<span class="ridx-tip-note">🔌 本機Bridge未連接<br>click開TradingView核實</span>`;
     });
   }
 }
-loadRealIndices();
-setInterval(loadRealIndices, 60000);  // 同bridge嘅60秒緩存TTL對齊
+loadIndicesData();
+setInterval(loadIndicesData, 60000);  // 同bridge嘅60秒緩存TTL對齊
 </script>
 </body>
 </html>
