@@ -130,13 +130,17 @@
        一刻畫面上實際會唔會疊」判斷。priceToCoordinate()攞唔到
        值（例如chart仲未layout完）先fallback落v5.4嘅range百分比
        邏輯，再fallback落更舊嘅spot百分比邏輯，三層保底。
+  v5.6（2026-08-03）：RSI pane嘅超買70/超賣30參考線由
+    color:#4a5568(muted灰)、lineWidth:1、Dotted style改做
+    color:#f5a623(amber)、lineWidth:2、Dashed style——用戶反映
+    舊版太幼太暗，目視幾乎睇唔到。純視覺調整，數值/邏輯完全冇變。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.5)</title>
+<title>GEX Chart — Futu Bridge (v5.6)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -1401,8 +1405,8 @@ function initPriceChart() {
   // RSI（v5.4新增，獨立第3個pane）：30/70係靜態參考線（固定價位，唔隨
   // 數據變，一次過創建就得，唔使每次renderPriceChart都重新畫）
   pcRsi = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#e879f9', lineWidth:1.5, priceLineVisible:false, lastValueVisible:true}, 2);
-  pcRsi.createPriceLine({price:70, color:'#4a5568', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dotted, axisLabelVisible:true, title:'超買70'});
-  pcRsi.createPriceLine({price:30, color:'#4a5568', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dotted, axisLabelVisible:true, title:'超賣30'});
+  pcRsi.createPriceLine({price:70, color:'#f5a623', lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超買70'});
+  pcRsi.createPriceLine({price:30, color:'#f5a623', lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超賣30'});
 
   // 3個pane各自高度：K線主圖最大，MACD/RSI細啲（v5.4，容器由480→640px，
   // 加返RSI呢個新pane後三者仍然睇得清，唔會迫埋一齊）
