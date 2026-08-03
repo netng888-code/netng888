@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $9.41 | — |
-| Put Wall（支撐） | $9.00 | -1.5% |
+| Put Wall（支撐） | $8.00 | -12.5% |
 | Call Wall（阻力） | $10.00 | +9.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
@@ -30,9 +30,7 @@
 
 ## 📰 最新新聞
 
-- **[Most active stocks in Thursday's session](https://finnhub.io/api/news?id=75c81c32c9f203b97471741e711c89bdf1634eb8f1c95fa219067e86be6988f3)**  
-*ChartMill · 2d前*  
-Curious about the most active stocks on Thursday? Find out which stocks are dominating the market action!
+- 暫無新聞
 
 ---
 
@@ -40,7 +38,7 @@ Curious about the most active stocks on Thursday? Find out which stocks are domi
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-02 | 監控 | $9.14 | — | 自動更新 |
+| 2026-08-03 | 監控 | $9.14 | — | 自動更新 |
 
 ---
 
@@ -51,4 +49,4 @@ Curious about the most active stocks on Thursday? Find out which stocks are domi
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-03 21:05 HKT*
