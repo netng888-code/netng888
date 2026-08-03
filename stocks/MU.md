@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $882.92 | — |
-| Put Wall（支撐） | $800.00 | -2.8% |
+| Put Wall（支撐） | $700.00 | -14.9% |
 | Call Wall（阻力） | $900.00 | +9.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Here Are My 3 Top Artificial Intelligence (AI) Stocks to Buy in August](https://finnhub.io/api/news?id=f7b7d2614829f459ba5e7737ad04dc3c9e53640949c05b1044512f4d29f9e24c)**  
-*Yahoo · 4h前*  
-There are several great bargains available in the AI investment sector.
+- **[Which S&P500 stocks are moving before the opening bell on Monday?](https://finnhub.io/api/news?id=f596a060a793d4846f0b87347ea41be3ea04c98760439bd97002638de903cd1f)**  
+*ChartMill · 0h前*  
+Get insights into the top gainers and losers in the S&P500 index of Monday's pre-market session.
 
-- **[If the $1.3 Trillion Chip Stock Sell-Off Was a Warning for the S&P 500, History Repeatedly Suggests 1 Move to Avoid](https://finnhub.io/api/news?id=6ddcb5b20ca5f640e9bfe48dbf96778740273160d91f8696483632b92a506cf7)**  
-*Yahoo · 6h前*  
-There's no way to time a bear market, but there are strategies to help avoid panic selling.
+- **[MU Stock Falls Premarket After Worst Month In 11 Years: Analysts Say Memory Demand Intact, See 85% Upside](https://finnhub.io/api/news?id=c9380db2411fad3e69afe5c603068cf8371d01cca7e69251900ae761aa1430f5)**  
+*Yahoo · 3h前*  
+Memory chip stocks have been volatile and fell as July came to a close, the market’s still-fragile sentiment.
 
-- **[Silicon Motion Crushed Earnings and Surprised Memory Chip Bears](https://finnhub.io/api/news?id=5b7f97c75f4fd37312fb960e4cb8e7844949cb5fd746fd796f64e2081ca10bb9)**  
-*Yahoo · 17h前*  
-Silicon Motion delivered exceptional results and implied the memory chip boom is on a multiyear run.
+- **[Some Investors Are Panicking About Memory Stocks. Micron Shareholders Should Keep a Cool Head.](https://finnhub.io/api/news?id=7780293073e49446e34b4bc7b12e32047a16405fc24f8e643ffa8871b85ecc1c)**  
+*Yahoo · 3h前*  
+Micron investors have every reason to be bullish on the stock.
 
 ---
 
@@ -48,7 +48,7 @@ Silicon Motion delivered exceptional results and implied the memory chip boom is
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-02 | 監控 | $823.03 | — | 自動更新 |
+| 2026-08-03 | 監控 | $823.03 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Silicon Motion delivered exceptional results and implied the memory chip boom is
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-03 21:04 HKT*
