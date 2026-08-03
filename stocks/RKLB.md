@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[One Space Stock Defied July’s Rout – Here’s Why It Outperformed ASTS, RKLB, And SPCX](https://finnhub.io/api/news?id=f595a21f755ae902e2b7b7b46ac40688615e31523a6eea68ad2983e8b704edfc)**  
+*Yahoo · 4h前*  
+Globalstar rose nearly 3% in July, outperforming a space sector in which several peers lost more than one-third of their value.
+
+- **[Peter Beck's Rocket Lab Reports Earnings on Aug. 10. Here's the One Number That Will Move the Stock.](https://finnhub.io/api/news?id=cf89e9b666a1d1e831b6934119804cca339cd6b8e51eb9466e919aee6fcb3d22)**  
+*Yahoo · 23h前*  
+The sky may not be the limit for the company, which provides satellite launch services.
+
 - **[U.S. Air Force Taps Rocket Lab to Sell It 12 Hypersonic Missiles for $266 Million. Here's What Investors Need to Know.](https://finnhub.io/api/news?id=4c5e4d1dd6d364e5c8c830da68cdd367d8bd48385632a4954c0c63b89772ce02)**  
-*Yahoo · 3h前*  
+*Yahoo · 1d前*  
 Rocket Lab may have found a new field for hypergrowth: defending the U.S. from hypersonic missiles.
-
-- **[Lost in Space: Why Aerospace Valuations Are Plummeting Right Now](https://finnhub.io/api/news?id=9b90e2500082ca87e3be1bc35d69127e0695f2e0ac9b8141c68c485f4037937c)**  
-*Yahoo · 1d前*  
-SpaceX shares have lost about $1.2 trillion in value since its IPO, triggering a sector-wide sell-off in space stocks like Rocket Lab as investors demand strong…
-
-- **[$10,000 Invested in Rocket Lab 3 Years Ago Is Worth This Much Today, Even After a 61% Drawdown.](https://finnhub.io/api/news?id=11913cb71ac0d1fed2cf1fd320e89fb2bafc53d3302c02044f85bf05f8811d0e)**  
-*Yahoo · 1d前*  
-The space stock's three-year return laps the market many times over. What the pullback changed deserves just as much attention.
 
 ---
 
@@ -48,7 +48,7 @@ The space stock's three-year return laps the market many times over. What the pu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-02 | 監控 | $64.95 | — | 自動更新 |
+| 2026-08-03 | 監控 | $64.95 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The space stock's three-year return laps the market many times over. What the pu
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-03 21:05 HKT*
