@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Mark Zuckerberg Says He's Betting Big on AI Compute Even as Meta's Free Cash Flow Craters. Here's What Investors Should Watch.](https://finnhub.io/api/news?id=aebf103a0e91cd900b33d8328998fc5cdfbcc255a51feea0a8194b20503d705c)**  
-*Yahoo · 2h前*  
-Meta's free cash flow is getting crushed, but Zuckerberg's AI compute gamble could be the stock's next big catalyst.
+- **[U.S. Futures Rise as Middle East Diplomacy Returns to Focus Ahead of Palantir Results: Dow Jones, S&P, Nasdaq, Wall Street](https://finnhub.io/api/news?id=fe1c53021455344ed5544f0ac4167d2d1dcca631900f199a0c2b0db08a9ba5be)**  
+*Yahoo · 3h前*  
+U. S. stock index futures traded higher on Monday as investors reacted to renewed diplomatic efforts between the United States and Iran while preparing for anot…
 
-- **[Meta Trades at a Forward P/E of 17, Below Its 5-Year Average, Making the Stock a Potential Bargain as Zuckerberg's Net Worth Rebounds](https://finnhub.io/api/news?id=c18564f7c3ded9cf94c76e96b7779b47381f7115ca9834e947131c3d64ea01ef)**  
-*Yahoo · 5h前*  
-Meta Platforms continues to trade at a discount while strengthening its fundamentals.
+- **[Meta's New Cloud Ambitions: How Big Could This Business Actually Get?](https://finnhub.io/api/news?id=c7de89c12bbcd439ce775133e0d2a0d024319701ad4921e0f65893ea24701ca9)**  
+*Yahoo · 4h前*  
+Meta just hinted at a new cloud business -- and it could be worth billions.
 
-- **[An Analyst Just Named Mark Zuckerberg's Meta a Top Large-Cap Long Idea, Citing AI-Driven Ad Momentum and an Attractive Valuation](https://finnhub.io/api/news?id=abf12b75d97042c0b0ba374b4abd1c45eca8850d6811d8fda120b1d881088ace)**  
-*Yahoo · 7h前*  
-Analysts are bullish on the social media company, but investors are less confident.
+- **[GoDaddy: The Market Didn't Get The Memo](https://finnhub.io/api/news?id=392a9f0a8127112421b834ba7c0c46c11c03e6cf004a59073bab158fb8d99fc9)**  
+*SeekingAlpha · 5h前*  
+GoDaddy (GDDY) buy thesis: resilient FCF, sticky SME services, and aggressive buybacks could drive 80% upside to a $160 target.
 
 ---
 
@@ -48,7 +48,7 @@ Analysts are bullish on the social media company, but investors are less confide
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-02 | 監控 | $556.71 | — | 自動更新 |
+| 2026-08-03 | 監控 | $556.71 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Analysts are bullish on the social media company, but investors are less confide
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-03 21:04 HKT*
