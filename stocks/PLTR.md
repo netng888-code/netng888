@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Wall Street Week Ahead](https://finnhub.io/api/news?id=6a9e8400d7341f9a25b45a9c8952c859d2f92fe0d0bc5c12a951ccc2c8e93cbf)**  
-*SeekingAlpha · 5h前*  
-Wall Street catalyst week preview: July jobs report, SpaceX debut earnings, and AI semiconductor spending.
+- **[US Equity Investors to Focus on Quarterly Earnings, Nonfarm Payrolls, Iran Geopolitics This Week](https://finnhub.io/api/news?id=b11d17b74a6242fbb4adb29300c127e2e3e60777041df10bff742b9ef5cdb313)**  
+*Yahoo · 3h前*  
+US equity investors are expected to focus on earnings, labor market data, and messaging from top Fed
 
-- **[Palantir Technologies (PLTR) Q2 Earnings: What To Expect](https://finnhub.io/api/news?id=ee3ee955f4556cd162b7ee6ab032b31e5344ae778ffdcf5ac312cd081c97af84)**  
-*Yahoo · 5h前*  
-Data analytics company Palantir Technologies (NASDAQ:PLTR) will be reporting earnings this Monday after market close. Here’s what to look for.
+- **[Palantir Earnings Will Show If the Software Rocket Is Running Out of Fuel](https://finnhub.io/api/news?id=3aabc8230dbf1e25107b60c50f5ec44c2e9359ec0c392ad67a623ad6b37b8ba0)**  
+*Yahoo · 3h前*  
+Palantir saw sales growth of 85% last quarter. The Wall Street consensus is that both sales growth and margin will begin to fall off when it reports earnings Mo…
 
-- **[The Market Now Says Palantir Technologies Is Just an LLM Wrapper. The Financials Disagree](https://finnhub.io/api/news?id=632b77a938e823accc9744175706fb6e1b88a50519fedb8000fb996633797a38)**  
-*Yahoo · 22h前*  
-Palantir's stock has cratered 40% from its peak and critics are calling it a glorified chatbot wrapper, but the company's own financials are moving in the oppos…
+- **[Stock market today: Dow, S&P 500, Nasdaq futures rise as Trump calls off Iran attack, oil and bond yields ease](https://finnhub.io/api/news?id=4286f1b38f29c068fe1362b22b26a0c00c7d3207d7e7649631e62ab81eac37a4)**  
+*Yahoo · 3h前*  
+Stocks rose to begin the week as oil prices eased and investors geared up for Palantir earnings.
 
 ---
 
@@ -48,7 +48,7 @@ Palantir's stock has cratered 40% from its peak and critics are calling it a glo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-02 | 監控 | $123.06 | — | 自動更新 |
+| 2026-08-03 | 監控 | $123.06 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir's stock has cratered 40% from its peak and critics are calling it a glo
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-03 21:05 HKT*
