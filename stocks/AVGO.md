@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[3 Top Tech Stocks for Long-Term Growth and Income](https://finnhub.io/api/news?id=8dabc12c0fc8aa040a291cbd0a1ffd61e941cf641d8f2a899588e87aec3754dc)**  
-*Yahoo · 3h前*  
+*Yahoo · 1d前*  
 Here's why Microsoft, Texas Instruments, and Broadcom look built for long-term returns.
 
 - **[Billionaire Steve Cohen Is Buying This Overlooked Stock While Dumping Big Tech](https://finnhub.io/api/news?id=4a105fcb1aa1c79f7c42bec4c28dbb7088d2f28fb67f80b9238f139eb5b0efd6)**  
-*Yahoo · 3h前*  
+*Yahoo · 1d前*  
 This successful hedge fund manager seems to have had a snack craving in Q1.
 
 - **[What The Bipolar Silicon Market Structure Means Moving Forward: Nividia Vs. Broadcom](https://finnhub.io/api/news?id=91ee972b795aeb965a3eb3e95deb4cb5c34ffb1138aa83f71e1af5935fafe876)**  
-*Yahoo · 22h前*  
+*Yahoo · 1d前*  
 NVIDIA and Broadcom just reported back-to-back blowout quarters selling to the same hyperscale customers with opposite strategies, and the gap between their sto…
 
 ---
@@ -48,7 +48,7 @@ NVIDIA and Broadcom just reported back-to-back blowout quarters selling to the s
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-02 | 監控 | $389.28 | — | 自動更新 |
+| 2026-08-03 | 監控 | $389.28 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ NVIDIA and Broadcom just reported back-to-back blowout quarters selling to the s
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-03 21:04 HKT*
