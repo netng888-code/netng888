@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$200.75** |
-| 今日變動 | ▲ $5.71　(+2.93%) |
+| 現價 | **$206.64** |
+| 今日變動 | ▲ $5.89　(+2.93%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $406　(▲25.4%) |
+| 未實現盈虧 | ▲ $465　(▲29.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $191.78 | — |
-| Put Wall（支撐） | $180.00 | -10.3% |
-| Call Wall（阻力） | $200.00 | +-0.4% |
+| Gamma Flip | $192.36 | — |
+| Put Wall（支撐） | $200.00 | -3.2% |
+| Call Wall（阻力） | $220.00 | +6.5% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[If I Had $1,000 to Invest Today, Here's the Trillion-Dollar Stock I'd Buy Instead of SpaceX](https://finnhub.io/api/news?id=00b27534a35ef1e75f7fcbc04e38f47647828fcab162abde9a64246e5a9f119d)**  
-*Yahoo · 3h前*  
-This company just reported stellar quarterly operating results, driven by its artificial intelligence-related efforts.
+- **[Eli Lilly Is Up 7% in 2026 and Has Major Catalysts on the Way. Is the Rally Just Getting Started?](https://finnhub.io/api/news?id=4453440e15320b6c4f4fd1f510317ae6798277c904f1a88d29554629842e1dc7)**  
+*Yahoo · 1h前*  
+Eli Lilly's key catalyst for 2027 could positively affect price action sooner than you think.
 
-- **[P&G Guided Below Estimates and Sits 5% Above a 52-Week Low. I'm Not Buying It Yet, and Here's What Would Change That.](https://finnhub.io/api/news?id=f3a627a52f4c2406fa25b3ffb193aee0ee2f089467b46ee72a026ce98eccf890)**  
-*Yahoo · 3h前*  
-A 3% yield near a 52-week low is tempting -- but the new guidance explains why I'm waiting.
+- **[Got $10,000? Here's How I'd Split It Across These 5 Energy Stocks.](https://finnhub.io/api/news?id=525dd473821a8b58750d443e2cd133fc5c50a50dac22eb54fc915c469356a73d)**  
+*Yahoo · 1h前*  
+From Berkshire Hathaway to Oklo, there are plenty of ways to construct a diversified energy portfolio with $10,000.
 
-- **[Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Slashing Berkshire's Chevron Stake and Making a Virtual Monopoly the New No. 5 Holding](https://finnhub.io/api/news?id=0dd7659df568a45fd31c256ea4026875f113877b8bb9a437bcff667274e8ee1b)**  
-*Yahoo · 3h前*  
-The Oracle of Omaha's understudy cut Berkshire Hathaway's Chevron stake by 35% in favor of a company with a foundational sustainable moat and serious artificial…
+- **[Dow hits record, Palantir stock jumps 16% on Q2 earnings](https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f)**  
+*Yahoo · 1h前*  
+Oil prices are also climbing Tuesday after a report of a ship being struck in the Strait of Hormuz
 
 ---
 
@@ -48,7 +48,7 @@ The Oracle of Omaha's understudy cut Berkshire Hathaway's Chevron stake by 35% i
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-03 | 監控 | $200.75 | — | 自動更新 |
+| 2026-08-04 | 監控 | $206.64 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The Oracle of Omaha's understudy cut Berkshire Hathaway's Chevron stake by 35% i
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-04 21:05 HKT*
