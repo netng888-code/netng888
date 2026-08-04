@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-08-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$353.33** |
-| 今日變動 | ▲ $0.36　(+0.10%) |
+| 現價 | **$375.41** |
+| 今日變動 | ▲ $22.08　(+6.25%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $200　(▼22.0%) |
+| 未實現盈虧 | ▼ $155　(▼17.1%) |
 
 ---
 
@@ -20,27 +20,23 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $388.14 | — |
-| Put Wall（支撐） | $350.00 | -0.9% |
-| Call Wall（阻力） | $400.00 | +13.2% |
+| Gamma Flip | $383.47 | — |
+| Put Wall（支撐） | $350.00 | -6.8% |
+| Call Wall（阻力） | $400.00 | +6.6% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical (ISRG) vs. Medtronic (MDT): Which MedTech Stock Looks Better Positioned for Growth?](https://finnhub.io/api/news?id=3af196ab8e1c829b93cb789485e43d768751c4a769284d7097f2ae2a154268f4)**  
-*Yahoo · 2d前*  
-Intuitive Surgical (NASDAQ:ISRG) beat both top- and bottom-line consensus estimates in its fiscal Q2 2026 results, with revenue for the quarter growing 19% to $…
+- **[Mobia Medical Appoints Myriam Curet, M.D., to its Board of Directors](https://finnhub.io/api/news?id=1ec9eb996c5f635a3525ec7831a0846524e7b6eba43e21fe9b6dda28d32530b5)**  
+*Yahoo · 16h前*  
+AUSTIN, Texas, Aug. 03, 2026 (GLOBE NEWSWIRE) -- Mobia Medical, Inc. (Nasdaq: MOBI), a commercial-stage medical device company redefining stroke recovery for su…
 
-- **[TEM Q2 Loss Narrower Than Expected, Revenues Beat, Stock Up](https://finnhub.io/api/news?id=5fe1b014826ca153a98011ee63fddc264294a77183e50e7abefa44a5516f4e66)**  
-*Yahoo · 2d前*  
-Tempus AI climbs 6.6% after its second-quarter loss narrows, revenues beat estimates and 2026 sales guidance rises on diagnostics and data growth.
-
-- **[Intuitive Surgical, Inc. (ISRG) is Attracting Investor Attention: Here is What You Should Know](https://finnhub.io/api/news?id=7e5bf20d7314ecd57896373664a732bb4439aeacd9ab02ef2d1b99db065d8994)**  
-*Yahoo · 3d前*  
-Intuitive Surgical (ISRG) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.
+- **[FTSE 100 Live: London lagging as AstraZeneca offsets gains from oil drop](https://finnhub.io/api/news?id=8ab246737b34fba3547638739cc07520ba40769ada45368f31bde05f68764763)**  
+*Yahoo · 1d前*  
+FTSE 100 flat at 10,868 Housebuilders, airlines climb as oil and bonds fall AstraZeneca drops on reports of Bristol-Myers merger talks 9.55am: Housebuilders bui…
 
 ---
 
@@ -48,7 +44,7 @@ Intuitive Surgical (ISRG) has been one of the stocks most watched by Zacks.com u
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-03 | 監控 | $353.33 | — | 自動更新 |
+| 2026-08-04 | 監控 | $375.41 | — | 自動更新 |
 
 ---
 
@@ -59,4 +55,4 @@ Intuitive Surgical (ISRG) has been one of the stocks most watched by Zacks.com u
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-03 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-04 21:05 HKT*
