@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$123.06** |
-| 今日變動 | ▲ $0.80　(+0.65%) |
+| 現價 | **$125.65** |
+| 今日變動 | ▲ $2.59　(+2.10%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▼ $9　(▼1.0%) |
+| 未實現盈虧 | ▲ $9　(▲1.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $129.13 | — |
-| Put Wall（支撐） | $120.00 | -2.5% |
-| Call Wall（阻力） | $140.00 | +13.8% |
+| Gamma Flip | $126.32 | — |
+| Put Wall（支撐） | $120.00 | -4.5% |
+| Call Wall（阻力） | $150.00 | +19.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[US Equity Investors to Focus on Quarterly Earnings, Nonfarm Payrolls, Iran Geopolitics This Week](https://finnhub.io/api/news?id=b11d17b74a6242fbb4adb29300c127e2e3e60777041df10bff742b9ef5cdb313)**  
-*Yahoo · 3h前*  
-US equity investors are expected to focus on earnings, labor market data, and messaging from top Fed
+- **[Tuesday's pre-market session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=320da3d3973e6d3bdcd1cc79b9a75b0281bbd52cc3563606e540090e47e4930d)**  
+*ChartMill · 0h前*  
+Curious about the S&P500 stocks that are showing activity before the opening bell on Tuesday?
 
-- **[Palantir Earnings Will Show If the Software Rocket Is Running Out of Fuel](https://finnhub.io/api/news?id=3aabc8230dbf1e25107b60c50f5ec44c2e9359ec0c392ad67a623ad6b37b8ba0)**  
-*Yahoo · 3h前*  
-Palantir saw sales growth of 85% last quarter. The Wall Street consensus is that both sales growth and margin will begin to fall off when it reports earnings Mo…
+- **[Did Palantir's Big Q2 Beat Slay Worries Over OpenAI, Anthropic?](https://finnhub.io/api/news?id=a54e3f67b0e0b8046f682e32b7994ca93e5cd1b62b873e4ee90194bedfc1df72)**  
+*Yahoo · 1h前*  
+Palantir stock rose amid June quarter sales that accelerated for the 12th straight quarter while U.S. commercial growth rebounded.
 
-- **[Stock market today: Dow, S&P 500, Nasdaq futures rise as Trump calls off Iran attack, oil and bond yields ease](https://finnhub.io/api/news?id=4286f1b38f29c068fe1362b22b26a0c00c7d3207d7e7649631e62ab81eac37a4)**  
-*Yahoo · 3h前*  
-Stocks rose to begin the week as oil prices eased and investors geared up for Palantir earnings.
+- **[Dow hits record, Palantir stock jumps 16% on Q2 earnings](https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f)**  
+*Yahoo · 1h前*  
+Oil prices are also climbing Tuesday after a report of a ship being struck in the Strait of Hormuz
 
 ---
 
@@ -48,7 +48,7 @@ Stocks rose to begin the week as oil prices eased and investors geared up for Pa
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-03 | 監控 | $123.06 | — | 自動更新 |
+| 2026-08-04 | 監控 | $125.65 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Stocks rose to begin the week as oil prices eased and investors geared up for Pa
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-03 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-04 21:05 HKT*
