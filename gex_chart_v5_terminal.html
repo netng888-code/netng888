@@ -146,13 +146,29 @@
     RKLB→MU→ISRG→LITE→RR→VRT→SERV。呢個純粹係quicklinks按鈕
     嘅靜態排列順序，唔係即時市值計算，日內價格波動可能令排序
     同實際即市市值有少許出入，跟返「持倉有變先更新」嘅一貫做法。
+  v5.8（2026-08-04 續）【重要修正】：用戶截圖實測證實「持倉總覽」
+    table完全冇按市值排（PLTR當時市值已達$1,721.04，卻排喺
+    TER/META/MU/NOK等市值明顯較細嘅持倉之後）——根查發現呢個
+    table嘅render次序（renderUS(rows)）一直都係直接跟Futu Bridge
+    /api/quote回傳嘅rows次序畫，而嗰個次序黎自futu_bridge_v2.py
+    嘅US_STOCKS陣列定義次序（寫死喺Python，同v5.7先至改嘅
+    HOLDINGS陣列係完全獨立嘅兩樣嘢——HOLDINGS淨係控制「GEX+K線」
+    tab搜尋列嗰排quicklinks按鈕，同「持倉總覽」table嘅實際render
+    次序完全無關，v5.7嗰次改動冇解決到用戶依家呢個問題）。
+    治本修正：renderUS(rows)入面加一步——先將全部18隻有效持倉
+    entries計好T1即市價/市值，用Array.sort()按市值降序排好先至
+    開始畫table row，唔再直接跟rows原始次序。呢個做法比靜態陣列
+    排序更好：每次30秒自動刷新都會用返嗰一刻嘅即市T1價重新計算
+    排序，日內價格漲跌令市值排名有變動時會自動反映，唔使再手動
+    維護邊個持倉市值大就擺前面，亦完全唔受futu_bridge_v2.py入面
+    US_STOCKS陣列次序影響（唔使改動嗰個local-only嘅Python檔案）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.7)</title>
+<title>GEX Chart — Futu Bridge (v5.8)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -922,7 +938,7 @@ let pcInited = false;
 
 // ── Futu 持倉 + Watchlist（quicklinks 來源）────────────────────
 // 持倉：holdings_US CSV（依市值降序）。改持倉後記得同步更新呢度。
-const HOLDINGS = ['GOOGL','AVGO','MRVL','NOK','NVDA','TER','META','PLTR','RDW','LEU','OKLO','RKLB','MU','ISRG','LITE','RR','VRT','SERV'];
+const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','MU','LITE','RDW','ISRG','RKLB','VRT','RR','SERV'];
 // Watchlist：GitHub live mywatchlist.html（21隻）+ 用戶另外要求加入嘅5隻（GLD/KLAC/LRCX/AMAT/ASML）
 // + 2026-07-10新增5隻生物科技/製藥股（LLY/VRTX/REGN/MRNA/BNTX）
 // + 2026-07-18新增SKHY（SK海力士ADR，2026年7月NASDAQ新上市，原代碼SKHYV
@@ -1108,6 +1124,15 @@ function renderUS(rows) {
     <th>操作</th>
   </tr></thead><tbody>`;
 
+  // v5.8【重要修正】：舊版直接跟Futu Bridge /api/quote回傳嘅rows次序
+  // 畫table——嗰個次序黎自futu_bridge_v2.py嘅US_STOCKS陣列定義次序
+  // （寫死，唔會變），完全唔反映實際市值。用戶截圖實測證實個table
+  // 冇按市值排（PLTR市值已升到$1,721.04卻排喺TER/META/MU之後）。
+  // 修正：先將全部有效持倉entries計好T1/市值，用Array.sort()按
+  // 市值降序排好先至開始畫table——而家每次30秒refresh都會用返
+  // 嗰一刻嘅即市T1價自動重新排序，唔使再手動維護邊個持倉市值大
+  // 就擺前面，亦唔受futu_bridge_v2.py陣列次序影響。
+  const entries = [];
   for (const r of rows) {
     const sym  = (r.code||'').replace('US.','');
     const port = PORTFOLIO[sym];
@@ -1118,6 +1143,12 @@ function renderUS(rows) {
     const {price: T1raw} = getT1(r, sess);
     const T1 = T1raw || T2;
     if (!T1||!T2) continue;
+    entries.push({r, sym, qty, cost, T1, T2, T3, mktval: T1*qty});
+  }
+  entries.sort((a,b) => b.mktval - a.mktval);
+
+  for (const e of entries) {
+    const {r, sym, qty, cost, T1, T2, T3, mktval} = e;
     hasData++;
 
     const T1_chg_base = (sess==='regular'||sess==='weekend') ? T3 : T2;
@@ -1125,7 +1156,6 @@ function renderUS(rows) {
     const T1_chg_lbl  = (sess==='regular'||sess==='weekend') ? 'vs前日' : 'vs收盤';
     const T2_chg_pct = T3 ? (T2-T3)/T3*100 : null;
 
-    const mktval     = T1 * qty;
     const unrealized = (T1 - cost) * qty;
     const unrPct     = (T1 - cost) / cost * 100;
     const todayPnl   = (sess==='regular'||sess==='weekend') ? (T2 - T3) * qty : (T1 - T2) * qty;
