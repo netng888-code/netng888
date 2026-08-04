@@ -134,13 +134,25 @@
     color:#4a5568(muted灰)、lineWidth:1、Dotted style改做
     color:#f5a623(amber)、lineWidth:2、Dashed style——用戶反映
     舊版太幼太暗，目視幾乎睇唔到。純視覺調整，數值/邏輯完全冇變。
+  v5.7（2026-08-04）：PLTR加倉5股@$131.46（原7股@$124.335 →
+    12股，總成本$870.345+$657.30=$1,527.645，新平均成本
+    $127.304），PORTFOLIO['PLTR']同步更新。同時將HOLDINGS陣列
+    （Futu持倉quicklinks按鈕次序）按最新市值降序重新排列——舊排序
+    用緊較舊嘅股數/價位快照，同實際市值次序已經有出入（例如
+    PLTR加倉後由$921市值躍升至約$1,578，理應排喺META之後、RDW
+    之前，舊陣列仍然擺喺RKLB/ISRG中間）。基準價位用2026-07-27
+    CSV收盤價（PLTR用今日買入價$131.46代替），排序：
+    GOOGL→AVGO→MRVL→NOK→NVDA→TER→META→PLTR→RDW→LEU→OKLO→
+    RKLB→MU→ISRG→LITE→RR→VRT→SERV。呢個純粹係quicklinks按鈕
+    嘅靜態排列順序，唔係即時市值計算，日內價格波動可能令排序
+    同實際即市市值有少許出入，跟返「持倉有變先更新」嘅一貫做法。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.6)</title>
+<title>GEX Chart — Futu Bridge (v5.7)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -910,7 +922,7 @@ let pcInited = false;
 
 // ── Futu 持倉 + Watchlist（quicklinks 來源）────────────────────
 // 持倉：holdings_US CSV（依市值降序）。改持倉後記得同步更新呢度。
-const HOLDINGS = ['GOOGL','NVDA','AVGO','MRVL','MU','NOK','TER','META','RDW','LEU','OKLO','RKLB','PLTR','ISRG','LITE','RR','VRT','SERV'];
+const HOLDINGS = ['GOOGL','AVGO','MRVL','NOK','NVDA','TER','META','PLTR','RDW','LEU','OKLO','RKLB','MU','ISRG','LITE','RR','VRT','SERV'];
 // Watchlist：GitHub live mywatchlist.html（21隻）+ 用戶另外要求加入嘅5隻（GLD/KLAC/LRCX/AMAT/ASML）
 // + 2026-07-10新增5隻生物科技/製藥股（LLY/VRTX/REGN/MRNA/BNTX）
 // + 2026-07-18新增SKHY（SK海力士ADR，2026年7月NASDAQ新上市，原代碼SKHYV
@@ -946,7 +958,7 @@ const PORTFOLIO = {
   'LEU':  {qty:8,   cost:197.50  },
   'OKLO': {qty:30,  cost:27.745  },
   'RKLB': {qty:10,  cost:76.00   },
-  'PLTR': {qty:7,   cost:124.335 },
+  'PLTR': {qty:12,  cost:127.304 },
   'ISRG': {qty:2,   cost:453.10  },
   'LITE': {qty:1,   cost:820.00  },
   'RR':   {qty:300, cost:2.445   },
