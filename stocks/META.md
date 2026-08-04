@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$556.71** |
-| 今日變動 | ▲ $17.68　(+3.28%) |
+| 現價 | **$590.24** |
+| 今日變動 | ▲ $33.53　(+6.02%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $149　(▼8.2%) |
+| 未實現盈虧 | ▼ $48　(▼2.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $570.14 | — |
-| Put Wall（支撐） | $550.00 | -1.2% |
-| Call Wall（阻力） | $750.00 | +34.7% |
+| Gamma Flip | $569.74 | — |
+| Put Wall（支撐） | $550.00 | -6.8% |
+| Call Wall（阻力） | $750.00 | +27.1% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[U.S. Futures Rise as Middle East Diplomacy Returns to Focus Ahead of Palantir Results: Dow Jones, S&P, Nasdaq, Wall Street](https://finnhub.io/api/news?id=fe1c53021455344ed5544f0ac4167d2d1dcca631900f199a0c2b0db08a9ba5be)**  
-*Yahoo · 3h前*  
-U. S. stock index futures traded higher on Monday as investors reacted to renewed diplomatic efforts between the United States and Iran while preparing for anot…
+- **[Google exec warns AI spending could trigger a painful revenue gap](https://finnhub.io/api/news?id=7c9f68e76c95495eca2e9fe78b8ea212dd2dadd2bc1d5fbb62931db5bff8229d)**  
+*Yahoo · 1h前*  
+Google's massive AI spending comes with a new risk investors can't ignore
 
-- **[Meta's New Cloud Ambitions: How Big Could This Business Actually Get?](https://finnhub.io/api/news?id=c7de89c12bbcd439ce775133e0d2a0d024319701ad4921e0f65893ea24701ca9)**  
-*Yahoo · 4h前*  
-Meta just hinted at a new cloud business -- and it could be worth billions.
+- **[Dow hits record, Palantir stock jumps 16% on Q2 earnings](https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f)**  
+*Yahoo · 1h前*  
+Oil prices are also climbing Tuesday after a report of a ship being struck in the Strait of Hormuz
 
-- **[GoDaddy: The Market Didn't Get The Memo](https://finnhub.io/api/news?id=392a9f0a8127112421b834ba7c0c46c11c03e6cf004a59073bab158fb8d99fc9)**  
-*SeekingAlpha · 5h前*  
-GoDaddy (GDDY) buy thesis: resilient FCF, sticky SME services, and aggressive buybacks could drive 80% upside to a $160 target.
+- **[Mark Zuckerberg tells investors why Meta is selling compute and still buying more — as capex guidance rises to $130B](https://finnhub.io/api/news?id=838ee5c398f7c887b03bb275f95061d2236d84306de98e23ae8621470d5a3976)**  
+*Yahoo · 1h前*  
+The Meta founder is looking to have his cake and eat it too by acquiring short-term revenue from compute, while playing the long game.
 
 ---
 
@@ -48,7 +48,7 @@ GoDaddy (GDDY) buy thesis: resilient FCF, sticky SME services, and aggressive bu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-03 | 監控 | $556.71 | — | 自動更新 |
+| 2026-08-04 | 監控 | $590.24 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ GoDaddy (GDDY) buy thesis: resilient FCF, sticky SME services, and aggressive bu
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-04 21:05 HKT*
