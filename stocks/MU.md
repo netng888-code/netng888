@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$823.03** |
-| 今日變動 | ▼ $51.63　(-5.90%) |
+| 現價 | **$829.50** |
+| 今日變動 | ▲ $6.47　(+0.79%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $265　(▲47.5%) |
+| 未實現盈虧 | ▲ $272　(▲48.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $882.92 | — |
-| Put Wall（支撐） | $700.00 | -14.9% |
-| Call Wall（阻力） | $900.00 | +9.4% |
+| Gamma Flip | $875.46 | — |
+| Put Wall（支撐） | $800.00 | -3.6% |
+| Call Wall（阻力） | $900.00 | +8.5% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Which S&P500 stocks are moving before the opening bell on Monday?](https://finnhub.io/api/news?id=f596a060a793d4846f0b87347ea41be3ea04c98760439bd97002638de903cd1f)**  
-*ChartMill · 0h前*  
-Get insights into the top gainers and losers in the S&P500 index of Monday's pre-market session.
+- **[Dow hits record, Palantir stock jumps 16% on Q2 earnings](https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f)**  
+*Yahoo · 1h前*  
+Oil prices are also climbing Tuesday after a report of a ship being struck in the Strait of Hormuz
 
-- **[MU Stock Falls Premarket After Worst Month In 11 Years: Analysts Say Memory Demand Intact, See 85% Upside](https://finnhub.io/api/news?id=c9380db2411fad3e69afe5c603068cf8371d01cca7e69251900ae761aa1430f5)**  
-*Yahoo · 3h前*  
-Memory chip stocks have been volatile and fell as July came to a close, the market’s still-fragile sentiment.
+- **[The Price of Reinvention for SanDisk Stock](https://finnhub.io/api/news?id=14de55a17edffb98ad3f7be560f860a73b312897841915982d2006ff392c259e)**  
+*Yahoo · 1h前*  
+The company is trying to shed its cyclical past, and the options market is pricing a vast range of outcomes for whether it will succeed.
 
-- **[Some Investors Are Panicking About Memory Stocks. Micron Shareholders Should Keep a Cool Head.](https://finnhub.io/api/news?id=7780293073e49446e34b4bc7b12e32047a16405fc24f8e643ffa8871b85ecc1c)**  
-*Yahoo · 3h前*  
-Micron investors have every reason to be bullish on the stock.
+- **[Microchip Technology, in Collaboration With Micron Technology, Demonstrates High-Performance PCIe® Gen 6 Storage Architecture for AI and Data Center Infrastructure](https://finnhub.io/api/news?id=0efa7dda41e91ba5f8516f0877bd2e1336ec0cae974e9abd924c730a4f03e705)**  
+*Yahoo · 1h前*  
+Switchtec™ PCIe Switches and Micron® 9650 NVMe® solid state drives (SSDs) leverage next generation interface technology to deliver increased bandwidth, low late…
 
 ---
 
@@ -48,7 +48,7 @@ Micron investors have every reason to be bullish on the stock.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-03 | 監控 | $823.03 | — | 自動更新 |
+| 2026-08-04 | 監控 | $829.50 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Micron investors have every reason to be bullish on the stock.
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-04 21:04 HKT*
