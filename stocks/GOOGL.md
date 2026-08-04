@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$356.13** |
-| 今日變動 | ▲ $22.47　(+6.73%) |
+| 現價 | **$373.51** |
+| 今日變動 | ▲ $17.38　(+4.88%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,133　(▲99.6%) |
+| 未實現盈虧 | ▲ $2,341　(▲109.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $329.91 | — |
-| Put Wall（支撐） | $360.00 | --1.1% |
-| Call Wall（阻力） | $375.00 | +5.3% |
+| Gamma Flip | $334.10 | — |
+| Put Wall（支撐） | $350.00 | -6.3% |
+| Call Wall（阻力） | $375.00 | +0.4% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Slashing Berkshire's Chevron Stake and Making a Virtual Monopoly the New No. 5 Holding](https://finnhub.io/api/news?id=0dd7659df568a45fd31c256ea4026875f113877b8bb9a437bcff667274e8ee1b)**  
-*Yahoo · 3h前*  
-The Oracle of Omaha's understudy cut Berkshire Hathaway's Chevron stake by 35% in favor of a company with a foundational sustainable moat and serious artificial…
+- **[Google exec warns AI spending could trigger a painful revenue gap](https://finnhub.io/api/news?id=7c9f68e76c95495eca2e9fe78b8ea212dd2dadd2bc1d5fbb62931db5bff8229d)**  
+*Yahoo · 1h前*  
+Google's massive AI spending comes with a new risk investors can't ignore
 
-- **[Alphabet's AI Spending Finally Makes Sense](https://finnhub.io/api/news?id=ad02eeac06926634d87a0046fb26c288ab90c318060638603e103e7b60bf42ff)**  
-*SeekingAlpha · 4h前*  
-Alphabetâs Google Cloud jumps 82% with a record $514B backlog and rising AI (Gemini) adoption. Click here to read an analysis of GOOG stock now.
+- **[Dow hits record, Palantir stock jumps 16% on Q2 earnings](https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f)**  
+*Yahoo · 1h前*  
+Oil prices are also climbing Tuesday after a report of a ship being struck in the Strait of Hormuz
 
-- **[Bull of the Day: Ciena (CIEN)](https://finnhub.io/api/news?id=43ec8169cf80f807201912933575bf4aab755d3b71e2e0a7c422f23d5d7c05e2)**  
-*Yahoo · 5h前*  
-As hyperscalers scale out distributed AI factories, high-speed optical networking infrastructure becomes a vital link that prevents high-cost GPU clusters from …
+- **[Want to Buy SpaceX? Why You May Be Better Off Just Buying Alphabet's Stock](https://finnhub.io/api/news?id=8a60648d1cdb5f4495e57b27ac73d6693ad6aa11da7abf18203d7f38c9f678d1)**  
+*Yahoo · 1h前*  
+The tech giant has a significant stake in the space company.
 
 ---
 
@@ -48,7 +48,7 @@ As hyperscalers scale out distributed AI factories, high-speed optical networkin
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-03 | 監控 | $356.13 | — | 自動更新 |
+| 2026-08-04 | 監控 | $373.51 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ As hyperscalers scale out distributed AI factories, high-speed optical networkin
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-04 21:04 HKT*
