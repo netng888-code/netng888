@@ -758,7 +758,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-08-04 ｜ PLTR加倉5股@131.46（7→12股，新成本$127.304）</span>
+  <span>持倉更新：2026-08-04 ｜ PLTR加倉5股@131.46（7→12股，新成本$127.304）｜ 持倉table改為按即市市值自動排序</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -950,10 +950,19 @@ function renderUS(){
   tbody.innerHTML='';
   let totalMktval=0, totalPnl=0, totalToday=0;
 
-  US_HOLDINGS.forEach(h=>{
+  // v2【重要修正】：舊版直接跟US_HOLDINGS陣列定義次序畫table——嗰個
+  // 次序只反映最後一次手動整理嗰陣嘅市值快照，隨即市股價浮動好快
+  // 就會唔啱（例如PLTR加倉後市值已升到$1,721卻仍然排喺陣列較後
+  // 位置）。修正：先將全部持倉計好live價/市值，用Array.sort()按
+  // 市值降序排好先至畫table row，每次60秒自動刷新都會用返嗰一刻
+  // 嘅live價重新排序，唔使再手動維護次序。
+  const sortedHoldings = US_HOLDINGS.map(h=>{
     const live=liveUS[h.symbol];
     const price=live?live.price:h.mktval/h.qty;
-    const mktval=price*h.qty;
+    return {h, live, price, mktval:price*h.qty};
+  }).sort((a,b)=>b.mktval-a.mktval);
+
+  sortedHoldings.forEach(({h, live, price, mktval})=>{
     const pnl=mktval-h.cost*h.qty;
     const pnlPct=(pnl/(h.cost*h.qty)*100);
     const todayChg=live?(live.change*h.qty):h.todayPnL;
