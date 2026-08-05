@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-08-04 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$263.05** |
-| 今日變動 | ▲ $21.48　(+8.89%) |
+| 現價 | **$269.93** |
+| 今日變動 | ▲ $6.88　(+2.62%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $81　(▼13.4%) |
+| 未實現盈虧 | ▼ $68　(▼11.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $268.11 | — |
-| Put Wall（支撐） | $210.00 | -20.2% |
-| Call Wall（阻力） | $300.00 | +14.0% |
+| Gamma Flip | $260.39 | — |
+| Put Wall（支撐） | $210.00 | -22.2% |
+| Call Wall（阻力） | $300.00 | +11.1% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Bitzero Deepens Technical & Supply Chain Capabilities Through Collaboration with Vertiv](https://finnhub.io/api/news?id=d7af607a731b088a12de9c55ac629f30f067470b07d58f0c09192a822f2f3e6a)**  
+- **[The Zacks Analyst Blog Highlights Comfort Systems, The Goldman Sachs, Vertiv, Seagate and The Travelers](https://finnhub.io/api/news?id=0356e050f82095d3941846ef79228fb28c00d95c4037f6c10d4adda6e0994bbe)**  
 *Yahoo · 3h前*  
-The collaboration strengthens Bitzero's growing ecosystem of leading infrastructure and technology partnersVancouver, British Columbia--(Newsfile Corp. - August…
+Five momentum stocks stand out for August after a mixed July, backed by strong growth drivers, rising earnings estimates and favorable momentum ratings.
 
-- **[Top Stock Picks for Week of August 3, 2026](https://finnhub.io/api/news?id=be14ed88e4cf3d56448c693b7432dedd5a3504da6f2bfd773ffb52ae84154aeb)**  
-*Yahoo · 15h前*  
-A Digital Infrastructure Technology Company with a Top Zacks Rank and Momentum Score and a Pollution Control Company That Analysts Have Become Bullish On.
-
-- **[Top Research Reports for Amazon, Marvell & Starbucks](https://finnhub.io/api/news?id=3f231fb0754dcef3f53539197539aba7ecf9fd6ca6848ff7424b606918926ce7)**  
+- **[Dycom Industries, Inc. Appoints David Fallon and Michael Lenz to Board of Directors](https://finnhub.io/api/news?id=fb3a6c9319d892d575c2262ef61d5f8e15480acd8ebdb5ecf4b382e78bd1dc29)**  
 *Yahoo · 16h前*  
-Amazon, Marvell and Starbucks lead today's featured research reports, highlighting AI, growth trends and key opportunities and risks.
+WEST PALM BEACH, Fla., Aug. 04, 2026 (GLOBE NEWSWIRE) -- Dycom Industries, Inc. (NYSE: DY) today announced the appointment of David Fallon and Michael Lenz to i…
+
+- **[Caterpillar stock surges on data center boom: How the AI trade is expanding](https://finnhub.io/api/news?id=5a8e948d14bc7c0bf8de003785c1c9fa791e03faaa157c576c86259dfede9e22)**  
+*Yahoo · 21h前*  
+Caterpillar's (CAT) second quarter earnings results beat Wall Street's expectations. Morning Brief host Julie Hyman chats with Business Insider executive editor…
 
 ---
 
@@ -48,7 +48,7 @@ Amazon, Marvell and Starbucks lead today's featured research reports, highlighti
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-04 | 監控 | $263.05 | — | 自動更新 |
+| 2026-08-05 | 監控 | $269.93 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Amazon, Marvell and Starbucks lead today's featured research reports, highlighti
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-04 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
