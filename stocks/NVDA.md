@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$206.64** |
-| 今日變動 | ▲ $5.89　(+2.93%) |
+| 現價 | **$211.94** |
+| 今日變動 | ▲ $5.30　(+2.56%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $465　(▲29.0%) |
+| 未實現盈虧 | ▲ $518　(▲32.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $192.36 | — |
-| Put Wall（支撐） | $200.00 | -3.2% |
-| Call Wall（阻力） | $220.00 | +6.5% |
+| Gamma Flip | $193.32 | — |
+| Put Wall（支撐） | $200.00 | -5.6% |
+| Call Wall（阻力） | $220.00 | +3.8% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Eli Lilly Is Up 7% in 2026 and Has Major Catalysts on the Way. Is the Rally Just Getting Started?](https://finnhub.io/api/news?id=4453440e15320b6c4f4fd1f510317ae6798277c904f1a88d29554629842e1dc7)**  
+- **[Brian Niccol’s Turnaround Is Working, and Starbucks Has Rewarded Long-Term Believers](https://finnhub.io/api/news?id=563c6756a343b1588c18510ffdbd457d2203f8136182bc9ed228d29dd7f71594)**  
 *Yahoo · 1h前*  
-Eli Lilly's key catalyst for 2027 could positively affect price action sooner than you think.
+Brian Niccol walked into a struggling Starbucks with a deceptively simple plan, and the numbers are starting to prove the skeptics wrong. Here is what a $10,000…
 
-- **[Got $10,000? Here's How I'd Split It Across These 5 Energy Stocks.](https://finnhub.io/api/news?id=525dd473821a8b58750d443e2cd133fc5c50a50dac22eb54fc915c469356a73d)**  
+- **[Michael Burry warns of 1987-style crash, holds Nvidia shorts](https://finnhub.io/api/news?id=b6411eb28cc7a0b70b75de020557733a601e7f9e98462402c71a0aa527f19367)**  
 *Yahoo · 1h前*  
-From Berkshire Hathaway to Oklo, there are plenty of ways to construct a diversified energy portfolio with $10,000.
+The "Big Short" investor said all his short positions remain profitable except his bet against Nvidia stock
 
-- **[Dow hits record, Palantir stock jumps 16% on Q2 earnings](https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f)**  
+- **[3 Robotics and Automation Stocks to Buy in August](https://finnhub.io/api/news?id=3066a6bc32e470e157c0ca051c66d3ebc7f3b66e53af97f7711c6b118b08531b)**  
 *Yahoo · 1h前*  
-Oil prices are also climbing Tuesday after a report of a ship being struck in the Strait of Hormuz
+These three automation stocks offer investors different ways to profit from the next wave of robotics growth.
 
 ---
 
@@ -48,7 +48,7 @@ Oil prices are also climbing Tuesday after a report of a ship being struck in th
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-04 | 監控 | $206.64 | — | 自動更新 |
+| 2026-08-05 | 監控 | $211.94 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Oil prices are also climbing Tuesday after a report of a ship being struck in th
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-04 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
