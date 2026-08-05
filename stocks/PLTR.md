@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$125.65** |
-| 今日變動 | ▲ $2.59　(+2.10%) |
+| 現價 | **$162.66** |
+| 今日變動 | ▲ $37.01　(+29.45%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $9　(▲1.1%) |
+| 未實現盈虧 | ▲ $268　(▲30.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $126.32 | — |
-| Put Wall（支撐） | $120.00 | -4.5% |
-| Call Wall（阻力） | $150.00 | +19.4% |
+| Gamma Flip | $121.83 | — |
+| Put Wall（支撐） | $130.00 | -20.1% |
+| Call Wall（阻力） | $165.00 | +1.4% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Tuesday's pre-market session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=320da3d3973e6d3bdcd1cc79b9a75b0281bbd52cc3563606e540090e47e4930d)**  
-*ChartMill · 0h前*  
-Curious about the S&P500 stocks that are showing activity before the opening bell on Tuesday?
-
-- **[Did Palantir's Big Q2 Beat Slay Worries Over OpenAI, Anthropic?](https://finnhub.io/api/news?id=a54e3f67b0e0b8046f682e32b7994ca93e5cd1b62b873e4ee90194bedfc1df72)**  
+- **[Michael Burry warns of 1987-style crash, holds Nvidia shorts](https://finnhub.io/api/news?id=b6411eb28cc7a0b70b75de020557733a601e7f9e98462402c71a0aa527f19367)**  
 *Yahoo · 1h前*  
-Palantir stock rose amid June quarter sales that accelerated for the 12th straight quarter while U.S. commercial growth rebounded.
+The "Big Short" investor said all his short positions remain profitable except his bet against Nvidia stock
 
-- **[Dow hits record, Palantir stock jumps 16% on Q2 earnings](https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f)**  
+- **[“A Possible 1987-Type Fall”: Why Michael Burry Refuses to Cover His Bets as Stocks Hit New Highs](https://finnhub.io/api/news?id=b830d3e6189c7c93d13db4a84362516506cbaf719de173d500e10513c09668d9)**  
 *Yahoo · 1h前*  
-Oil prices are also climbing Tuesday after a report of a ship being struck in the Strait of Hormuz
+While the S&P 500 just hit a record high and the AI trade roars back to life, one famous short seller is keeping his bearish bets intact and warning that the ma…
+
+- **[Palantir Stock Rallies 30% and Its CEO Climbs Forbes Billionaire Ranking](https://finnhub.io/api/news?id=4cb67d172dfd1472f9d39d709f75d41ba3308061226f6e83031933d0378cbfe9)**  
+*Yahoo · 2h前*  
+Palantir's CEO climbed the Forbes ranking as the stock rally hit 30%. Here is what changed for Alex Karp today.
 
 ---
 
@@ -48,7 +48,7 @@ Oil prices are also climbing Tuesday after a report of a ship being struck in th
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-04 | 監控 | $125.65 | — | 自動更新 |
+| 2026-08-05 | 監控 | $162.66 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Oil prices are also climbing Tuesday after a report of a ship being struck in th
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-04 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
