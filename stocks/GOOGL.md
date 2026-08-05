@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$373.51** |
-| 今日變動 | ▲ $17.38　(+4.88%) |
+| 現價 | **$377.65** |
+| 今日變動 | ▲ $4.14　(+1.11%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,341　(▲109.4%) |
+| 未實現盈虧 | ▲ $2,391　(▲111.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $334.10 | — |
-| Put Wall（支撐） | $350.00 | -6.3% |
-| Call Wall（阻力） | $375.00 | +0.4% |
+| Gamma Flip | $336.69 | — |
+| Put Wall（支撐） | $360.00 | -4.7% |
+| Call Wall（阻力） | $400.00 | +5.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Google exec warns AI spending could trigger a painful revenue gap](https://finnhub.io/api/news?id=7c9f68e76c95495eca2e9fe78b8ea212dd2dadd2bc1d5fbb62931db5bff8229d)**  
+- **[Got $500? 2 Magnificent AI Stocks to Buy Hand Over Fist Before the Anthropic IPO](https://finnhub.io/api/news?id=88ab65418b484bc1f588fe8b66fefa5cc254e4f662f7805acf8436659b29963d)**  
 *Yahoo · 1h前*  
-Google's massive AI spending comes with a new risk investors can't ignore
+Amazon and Alphabet are smart backdoor ways to gain exposure to Anthropic while owning two AI giants built to win (with or without the start-up).
 
-- **[Dow hits record, Palantir stock jumps 16% on Q2 earnings](https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f)**  
+- **[Canada's Shopify forecasts revenue above estimates, shares surge](https://finnhub.io/api/news?id=5c77e3476944fd6c1106dfa3edcc2428305b321a04d8ef5973b55ab8cd81b21f)**  
 *Yahoo · 1h前*  
-Oil prices are also climbing Tuesday after a report of a ship being struck in the Strait of Hormuz
+Canada's Shopify projected current-quarter revenue growth above Wall Street estimates on Wednesday, signaling the company's AI efforts were drawing more merchan…
 
-- **[Want to Buy SpaceX? Why You May Be Better Off Just Buying Alphabet's Stock](https://finnhub.io/api/news?id=8a60648d1cdb5f4495e57b27ac73d6693ad6aa11da7abf18203d7f38c9f678d1)**  
-*Yahoo · 1h前*  
-The tech giant has a significant stake in the space company.
+- **[NiSource Announces Second Quarter Results](https://finnhub.io/api/news?id=53ea0332aab8d02e5b3ed9573485037a8bcbb48dd0e3f613ccb247fcff0f94cd)**  
+*Yahoo · 2h前*  
+MERRILLVILLE, Ind., August 05, 2026--NiSource Inc. (NYSE: NI) today announced, on a GAAP basis, net income available to common shareholders for the quarter ende…
 
 ---
 
@@ -48,7 +48,7 @@ The tech giant has a significant stake in the space company.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-04 | 監控 | $373.51 | — | 自動更新 |
+| 2026-08-05 | 監控 | $377.65 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The tech giant has a significant stake in the space company.
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-04 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
