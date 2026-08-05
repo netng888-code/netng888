@@ -162,13 +162,28 @@
     排序，日內價格漲跌令市值排名有變動時會自動反映，唔使再手動
     維護邊個持倉市值大就擺前面，亦完全唔受futu_bridge_v2.py入面
     US_STOCKS陣列次序影響（唔使改動嗰個local-only嘅Python檔案）。
+  v5.9（2026-08-05）：K線分鐘線x軸時間改顯示香港時間——用戶反映
+    切1分/5分等分鐘線時，x軸標籤（例如「19:10」）同screen右上角
+    香港時鐘（例如「03:10」）完全對唔上，難以核對。根源：bridge嘅
+    /api/kline回傳嘅分鐘線time係UTC epoch秒數（ET wall time
+    localize完再轉出嚟），但Lightweight Charts淨係識用getUTC*()
+    讀呢個數字畫x軸/crosshair，完全唔理瀏覽器自己個timezone——結果
+    用戶見到嘅其實係「原始UTC時間」。Lightweight Charts本身冇提供
+    「顯示邊個timezone」嘅API，修正用業界標準做法：喺傳入嘅epoch
+    度人為加返香港offset（UTC+8＝28800秒，全年冇夏令時），等佢用
+    UTC getters讀出嚟嘅「數字」啱啱好等於香港wall time。新增
+    hkTime()helper，renderPriceChart()入面全部time欄位（K線/MA/
+    MACD/布林線/RSI）經過呢個helper先set落chart；日/週/月線嘅time
+    係'YYYY-MM-DD'日期字串（冇時分秒），唔受影響、亦冇shift。K線
+    標題右邊加咗個「🕐 時間軸：HKT」小標籤，方便隨時確認依家顯示
+    緊邊個時區。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.8)</title>
+<title>GEX Chart — Futu Bridge (v5.9)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -756,6 +771,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <div class="pc-wrap" id="pc-wrap" style="display:none">
   <div class="pc-head">
     <span class="pc-title" id="pc-title">K線 + GEX橫線</span>
+    <span style="font-size:9px;color:var(--blue);background:rgba(74,158,255,.1);border:1px solid var(--blue);border-radius:3px;padding:2px 6px;letter-spacing:.04em" title="分鐘線x軸時間已轉做香港時間顯示（日/週/月線維持美股交易日期）">🕐 時間軸：HKT</span>
     <div class="pc-toggle-row">
       <button class="pc-toggle-btn on" id="pc-toggle-bb">布林線</button>
       <button class="pc-toggle-btn on" id="pc-toggle-rsi">RSI</button>
@@ -1490,18 +1506,33 @@ async function loadKline(sym, period) {
   } catch (e) { console.warn('kline fetch failed:', e); }
 }
 
+// ── K線時間軸轉香港時間（v5.9新增）─────────────────────────────
+// 背景：分鐘線嘅time係bridge嗰邊_format_kline_time()將ET wall time
+// localize完再.timestamp()轉出嚟嘅UTC epoch秒數（見futu_bridge_v2.py）。
+// Lightweight Charts淨係識用getUTC*()讀呢個數字嚟畫x軸／crosshair，
+// 完全唔理瀏覽器自己個timezone係乜——結果用戶見到嘅x軸其實係「原始
+// UTC時間」，同香港日常時間概念對唔上（例如ET 15:10（現價戶）＝
+// UTC 19:10，x軸就會顯示19:10，同screen右上角香港時鐘03:10完全
+// 兜唔埋）。Lightweight Charts本身冇提供「顯示邊個timezone」呢個
+// API，業界標準做法係喺傳入嘅epoch度人為加返目標時區offset（香港
+// UTC+8＝28800秒，全年冇夏令時），等佢用UTC getters讀出嚟嘅「數字」
+// 啱啱好等於香港嘅wall time。淨係影響分鐘線（數字epoch）；日/週/月
+// 線嘅time係'YYYY-MM-DD'日期字串（冇時分秒），唔受影響、唔使shift。
+const HK_OFFSET_SEC = 8 * 3600;
+const hkTime = (t) => (typeof t === 'number') ? (t + HK_OFFSET_SEC) : t;
+
 // ── Price Chart：畫K線+MA+MACD+布林線+RSI ────────────────────
 function renderPriceChart(d) {
-  pcCandle.setData(d.bars.map(b => ({time:b.time, open:b.open, high:b.high, low:b.low, close:b.close})));
+  pcCandle.setData(d.bars.map(b => ({time:hkTime(b.time), open:b.open, high:b.high, low:b.low, close:b.close})));
 
-  const toSeries = (arr) => d.bars.map((b,i) => ({time:b.time, value:arr[i]})).filter(x => x.value != null);
+  const toSeries = (arr) => d.bars.map((b,i) => ({time:hkTime(b.time), value:arr[i]})).filter(x => x.value != null);
   pcMa9.setData(toSeries(d.ma9));
   pcMa20.setData(toSeries(d.ma20));
   pcMa60.setData(toSeries(d.ma60));
 
   const macd = d.macd || {macd:[], signal:[], hist:[]};
   pcMacdHist.setData(d.bars.map((b,i) => ({
-    time:b.time, value: macd.hist[i] ?? 0,
+    time:hkTime(b.time), value: macd.hist[i] ?? 0,
     color: (macd.hist[i] ?? 0) >= 0 ? 'rgba(0,212,170,0.5)' : 'rgba(255,77,109,0.5)',
   })));
   pcMacdLine.setData(toSeries(macd.macd));
