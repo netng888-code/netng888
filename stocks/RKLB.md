@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$70.43** |
-| 今日變動 | ▲ $5.48　(+8.44%) |
+| 現價 | **$74.48** |
+| 今日變動 | ▲ $4.05　(+5.75%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $56　(▼7.3%) |
+| 未實現盈虧 | ▼ $15　(▼2.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $65.76 | — |
-| Put Wall（支撐） | $65.00 | -7.7% |
-| Call Wall（阻力） | $100.00 | +42.0% |
+| Gamma Flip | $64.42 | — |
+| Put Wall（支撐） | $65.00 | -12.7% |
+| Call Wall（阻力） | $100.00 | +34.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab's Dilution Dilemma: Iridium Acquisition And Neutron's Ticking Clock](https://finnhub.io/api/news?id=f571040e07e35b7cc8f6c582c87b73164de2f8382d1b389013723dd49c0da4cf)**  
-*SeekingAlpha · 8h前*  
-Rocket Lab is positioned as the second most important US satellite launch provider, with the future hinging on the Neutron rocket. See why RKLB stock is a buy.
-
-- **[3 Growth Stocks Set to Flourish](https://finnhub.io/api/news?id=7c97950d2047d1b6a262f54f88a043d6e43e3f2f0e6b6b065bdf1c2ed7ed79a6)**  
+- **[Rocket Lab (RKLB) Lands $397 Million Space Force Flatellite Contract](https://finnhub.io/api/news?id=56d4dd315ad3b2c2c321daf6bbfb7b9c33aad3c6f88436b45203b81568126c83)**  
 *Yahoo · 11h前*  
-Growth is a hallmark of all great companies, but the laws of gravity eventually take hold. Those who rode the COVID boom and ensuing tech selloff in 2022 will s…
+Rocket Lab was awarded a $397 million contract to build, launch, and operate advanced Flatellites for the U.S. Space Force's SB-AMTI program. The award expands …
 
-- **[Rocket Lab vs. Caterpillar: Is a Space Industrials Stock a Better Buy in 2026 Than a Revered Earth-Bound Equipment Maker?](https://finnhub.io/api/news?id=8812d36e5265ab893d8666eb9e965aef335048b6a8275ea0d5c16ae9d0d70a88)**  
-*Yahoo · 14h前*  
-Rocket Lab burns cash while scaling, while Caterpillar converts revenue into billions in free cash flow, a stark contrast in financial maturity.
+- **[RKLB Stock Extends 4-Day Rally Overnight: Rocket Lab Lands $397M Deal To Track Airborne Threats From Space](https://finnhub.io/api/news?id=245e1b6681fba8391a6c21420bd7e27dab7d8f71ed64e4475e5e17b3eb389e35)**  
+*Yahoo · 11h前*  
+Rocket Lab will develop advanced “Flatellites” equipped with space-based sensors and low-latency, high-bandwidth communications.
+
+- **[Rocket Lab Awarded $397 Million Contract to Build and Launch Flatellites for U.S. Space Force’s Space-Based Airborne Moving Target Indicator Program](https://finnhub.io/api/news?id=53d47d853f10a69aa150798034da0383003c0ea4aa3b21c43ceeeb46685801e6)**  
+*Yahoo · 13h前*  
+Rocket Lab Awarded $397 Million Contract to Build and Launch Flatellites for U.S. Space Force’s Space-Based Airborne Moving Target Indicator Program Artist impr…
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab burns cash while scaling, while Caterpillar converts revenue into bil
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-04 | 監控 | $70.43 | — | 自動更新 |
+| 2026-08-05 | 監控 | $74.48 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab burns cash while scaling, while Caterpillar converts revenue into bil
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-04 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
