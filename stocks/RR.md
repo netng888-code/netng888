@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[CNH Industrial shares are trading lower after the company reported Q4 financial results and issued FY26 adjusted EPS guidance below estimates.](https://finnhub.io/api/news?id=094177e28f303632dfe6c0fd825200eced3706073ec216d58b97d3f8708471b9)**  
-*Benzinga · 1d前*
+*Benzinga · 2d前*
 
 ---
 
@@ -50,4 +50,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
