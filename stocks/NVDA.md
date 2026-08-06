@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$211.94** |
-| 今日變動 | ▲ $5.30　(+2.56%) |
+| 現價 | **$219.22** |
+| 今日變動 | ▲ $7.28　(+3.43%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $518　(▲32.4%) |
+| 未實現盈虧 | ▲ $591　(▲36.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $193.32 | — |
-| Put Wall（支撐） | $200.00 | -5.6% |
-| Call Wall（阻力） | $220.00 | +3.8% |
+| Gamma Flip | $193.33 | — |
+| Put Wall（支撐） | $200.00 | -8.8% |
+| Call Wall（阻力） | $220.00 | +0.4% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Brian Niccol’s Turnaround Is Working, and Starbucks Has Rewarded Long-Term Believers](https://finnhub.io/api/news?id=563c6756a343b1588c18510ffdbd457d2203f8136182bc9ed228d29dd7f71594)**  
+- **[Disney Reaffirms Double-Digit Earnings Growth, Targets $9 Billion in Buybacks. Here’s What Investors Need to Know.](https://finnhub.io/api/news?id=99dc4a136a2eaa73109c28b83129533c647ea4fe8b53ed0250be25b292dc329a)**  
 *Yahoo · 1h前*  
-Brian Niccol walked into a struggling Starbucks with a deceptively simple plan, and the numbers are starting to prove the skeptics wrong. Here is what a $10,000…
+The entertainment giant crushed analyst profitability estimates for its third quarter.
 
-- **[Michael Burry warns of 1987-style crash, holds Nvidia shorts](https://finnhub.io/api/news?id=b6411eb28cc7a0b70b75de020557733a601e7f9e98462402c71a0aa527f19367)**  
+- **[Why Rivian Is Poised to Soar. Hint: It's Not All R2 Hype.](https://finnhub.io/api/news?id=def5d160927cf82878d31b34e3b3b98ae5c57a58a69d5d185f7e7ad495aba0ca)**  
 *Yahoo · 1h前*  
-The "Big Short" investor said all his short positions remain profitable except his bet against Nvidia stock
+Rivian's investor focus is largely on the R2 launch and ramp-up, but don't overlook its staggering margins in software and services that are helping offset earl…
 
-- **[3 Robotics and Automation Stocks to Buy in August](https://finnhub.io/api/news?id=3066a6bc32e470e157c0ca051c66d3ebc7f3b66e53af97f7711c6b118b08531b)**  
+- **[Amazon and Alphabet Just Crushed Expectations. Which Is the Better Buy Now?](https://finnhub.io/api/news?id=d1d64125f1a73dbe21c634c2df636be59acd168e9899d09e25edd57c5aa3479c)**  
 *Yahoo · 1h前*  
-These three automation stocks offer investors different ways to profit from the next wave of robotics growth.
+Amazon and Alphabet are remarkably comparable.
 
 ---
 
@@ -48,7 +48,7 @@ These three automation stocks offer investors different ways to profit from the 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-05 | 監控 | $211.94 | — | 自動更新 |
+| 2026-08-06 | 監控 | $219.22 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ These three automation stocks offer investors different ways to profit from the 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 09:03 HKT*
