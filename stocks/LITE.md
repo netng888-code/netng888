@@ -1,6 +1,6 @@
 # LITE — Lumentum
 
-> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[LITE Stock Alert: Analysts See Big Upside Ahead for Lumentum as Trump Aims to Restrict Chinese Data Center Components](https://finnhub.io/api/news?id=0519ba9d45e31c1f96d63954b2ce1ebbdc26f52fedc6a2b6be4a7c3f099733ef)**  
+*Yahoo · 19h前*  
+Lumentum shares are already up about 130% in 2026, while strong earnings growth and a $1,100 analyst target suggest Wall Street sees further upside.
+
 - **[Broadcom: Big, Bad News When Compute Leaders Need Optical Advantage (Upgrade)](https://finnhub.io/api/news?id=30cdad70cc876fc684008b369f3ad588e5bca6c35f2bc682991246e19354ab67)**  
-*SeekingAlpha · 8h前*  
+*SeekingAlpha · 20h前*  
 Broadcom Inc. is upgraded to Buy, driven by its AI compute leadership and robust supply-chain position. Read more on AVGO stock here.
 
 - **[Is Lumentum (LITE) Quietly Redefining Its Moat With This Post-Retirement Quality Guru Arrangement?](https://finnhub.io/api/news?id=48c3aeac1ce64073810173afd5508518b691a1ba8f331422c8d12fd608b662ba)**  
-*Yahoo · 9h前*  
+*Yahoo · 21h前*  
 In late July 2026, Lumentum Holdings Inc. disclosed that long-serving Executive Vice President of Global Reliability & Quality Vincent Retort plans to retire in…
-
-- **[Broadcom, Marvell And Nvidia Could Feel the Impact of US Ban on Chinese AI Components](https://finnhub.io/api/news?id=3a9dc6f577168b1b9381b713efd5b273e06251e86e486591631fd363a5b1bc3e)**  
-*Benzinga · 11h前*  
-BNP Paribas warns a proposed U.S. ban on Chinese AI components could disrupt Broadcom, Marvell and Nvidia while driving up costs.
 
 ---
 
@@ -59,4 +59,4 @@ BNP Paribas warns a proposed U.S. ban on Chinese AI components could disrupt Bro
 - [TradingView](https://www.tradingview.com/chart/?symbol=LITE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
