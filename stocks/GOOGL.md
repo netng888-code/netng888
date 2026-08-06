@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-06 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Google-parent Alphabet shakes up AI division](https://finnhub.io/api/news?id=f7c2754427b3c9a0616f52fc347ec4d350d608802beae7063ec9589a50124b20)**  
+- **[Dow Jones Futures Rise But Techs Fall As Sandisk, Western Digital, Datadog Lead Earnings Losers](https://finnhub.io/api/news?id=dab40dc036edf242ee2e0ff25dc741522c9477d44ed9bd74737f7a3c75ff3cad)**  
 *Yahoo · 1h前*  
-Google's head of AI, Demis Hassabis, will step down from his current role to become Alphabet's chief scientist amid a reshuffling at DeepMind that will also inc…
+The Dow Jones hit a new high thanks to Nvidia, but Google, SpaceX and AMD weighed on the Nasdaq. Sandisk, Western Digital fell late.
 
-- **[Amazon and Alphabet Just Crushed Expectations. Which Is the Better Buy Now?](https://finnhub.io/api/news?id=d1d64125f1a73dbe21c634c2df636be59acd168e9899d09e25edd57c5aa3479c)**  
+- **[Cathie Wood invests a combined $28.7 million in TSMC, SpaceX after trimming investments in Amazon, Alphabet and Shopify](https://finnhub.io/api/news?id=7e13a04a9ae882fcd08254e334d0895ed7529515e7da6018e1ac114ab81aa80c)**  
 *Yahoo · 1h前*  
-Amazon and Alphabet are remarkably comparable.
+The ARK Invest founder wasn’t deterred by a certain stock’s bumpy lift-off over the last few weeks.
 
-- **[NiSource Inc (NI) (Q2 2026) Earnings Call Highlights: Reaffirms Guidance Amid Data Center ...](https://finnhub.io/api/news?id=c74b74617bc18327a93d0f793444b5ad1b06f8c4acf37403b098bea00ab82c97)**  
-*Yahoo · 2h前*  
-NiSource Inc (NI) navigates regulatory changes while securing $1.4 billion in customer bill relief from major data center agreements.
+- **[3 Reasons Alphabet Stock Has Investors Buzzing Right Now](https://finnhub.io/api/news?id=865a1d79b799d6b283e36ea2778fc90c90dab262a68efc65e64d73c16b75a8d7)**  
+*Yahoo · 1h前*  
+Alphabet is in the spotlight as investors look to these catalysts for future growth.
 
 ---
 
@@ -59,4 +59,4 @@ NiSource Inc (NI) navigates regulatory changes while securing $1.4 billion in cu
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:03 HKT*
