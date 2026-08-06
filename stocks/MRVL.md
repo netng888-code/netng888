@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-06 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[The companies emerging as new leaders in this renewed AI rally](https://finnhub.io/api/news?id=932eea13db773920965e98a45010824861bd09e9fa716b1d398590a9be2fe5a9)**  
-*Yahoo · 5h前*  
-Yahoo Finance Markets and Data Editor Jared Blikre examines the comeback seen across the semiconductor landscape over the past five trading days, while also ana…
+- **[Why Marvell (MRVL) Is Up 29.1% After Launching Its New AI Memory Infrastructure Portfolio](https://finnhub.io/api/news?id=0995866b4820f8f489495c445f64156b1fa38fe34bfa1503a37c9d8eb72f598a)**  
+*Yahoo · 2h前*  
+In early August 2026, Marvell Technology, Inc. unveiled a broad AI memory infrastructure portfolio spanning Bravera SC6 PCIe 6.0 SSD controllers, Structera X CX…
 
-- **[Marvell Stock Amplifies The Market You Already Own](https://finnhub.io/api/news?id=ca75658089b5d2e0660cf9056b0fdbb903ba36ffb8e07b9c285fa426786bc086)**  
+- **[Marvell Is Positioned to Absorb a Disproportionate Amount of This AI Capex Surge, So I Keep Buying](https://finnhub.io/api/news?id=179907e3438fb75a938a926573295ddbd996d50582303d5d4dcb7678ec888bd6)**  
 *Yahoo · 8h前*  
-Its five-year correlation to the index says overlap, and its past-year capture readings say that overlap arrives magnified in both directions.
+Hyperscalers are quietly ripping out the networking fabric of every major data center, and one overlooked chipmaker keeps landing the contracts that make that r…
 
-- **[Can MRVL's Communications Recovery Drive Broad-Based Growth?](https://finnhub.io/api/news?id=0abc8eac0d0dff8aac9b106766bc90e52a1b1ec38598c284b2257d8fe9414806)**  
-*Yahoo · 9h前*  
-Marvell Technology's communications business is rebounding as AI networking demand accelerates, but can that momentum offset margin pressure and uneven recovery…
+- **[Who Will Benefit Most From Amazon and Microsoft’s Hyperscaler Leading AI Capex This Quarter?](https://finnhub.io/api/news?id=b3f5870014bc1d6118f5bb2f6299b2f33001d4f52dcb81c831e3cda211bfbad4)**  
+*Yahoo · 8h前*  
+Amazon and Microsoft are burning through roughly $100 billion a quarter on AI infrastructure, and two companies sit directly in that cash flow's path. One just …
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology's communications business is rebounding as AI networking dema
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
