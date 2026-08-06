@@ -1,6 +1,6 @@
 # LITE — Lumentum
 
-> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$849.47** |
-| 今日變動 | ▲ $69.58　(+8.92%) |
+| 現價 | **$826.26** |
+| 今日變動 | ▼ $23.21　(-2.73%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $820.000 |
-| 未實現盈虧 | ▲ $29　(▲3.6%) |
+| 未實現盈虧 | ▲ $6　(▲0.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $736.62 | — |
-| Put Wall（支撐） | $700.00 | -17.6% |
-| Call Wall（阻力） | $900.00 | +5.9% |
+| Gamma Flip | $776.31 | — |
+| Put Wall（支撐） | $800.00 | -3.2% |
+| Call Wall（阻力） | $900.00 | +8.9% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[New report warns China transceiver ban would hurt U.S. AI giants](https://finnhub.io/api/news?id=ef87f8c949a040bbd9355d84774e49ed2224d97065c348148000a227ddc5db13)**  
-*Yahoo · 3h前*  
-Investing.com - Chinese optical module makers control roughly two-thirds of global transceiver supply, and no Western alternative can absorb that volume within …
+- **[Broadcom: Big, Bad News When Compute Leaders Need Optical Advantage (Upgrade)](https://finnhub.io/api/news?id=30cdad70cc876fc684008b369f3ad588e5bca6c35f2bc682991246e19354ab67)**  
+*SeekingAlpha · 8h前*  
+Broadcom Inc. is upgraded to Buy, driven by its AI compute leadership and robust supply-chain position. Read more on AVGO stock here.
 
-- **[US Ban on Chinese Optical Parts Hurts Hyperscalers, Report Says](https://finnhub.io/api/news?id=1e7e28b3242340446695688b871903cea24855a94c1eed737ebf667167391e35)**  
-*Yahoo · 4h前*  
-(Bloomberg) -- A potential ban on the import of Chinese optical transceiver modules into the US would inflict collateral damage on US hyperscalers, exacerbating…
+- **[Is Lumentum (LITE) Quietly Redefining Its Moat With This Post-Retirement Quality Guru Arrangement?](https://finnhub.io/api/news?id=48c3aeac1ce64073810173afd5508518b691a1ba8f331422c8d12fd608b662ba)**  
+*Yahoo · 9h前*  
+In late July 2026, Lumentum Holdings Inc. disclosed that long-serving Executive Vice President of Global Reliability & Quality Vincent Retort plans to retire in…
 
-- **[S&P 500 Prints Fresh Record As Chips Rip And Hormuz Talks Crack The Oil Trade](https://finnhub.io/api/news?id=1ea4568bc1d11f797a0e714c3ea983f28f4fb27c99c4caede80ea7b9cea51b03)**  
-*ChartMill · 5h前*  
-The S&P 500 printed a fresh record above 7,700 on Tuesday as an incoming ban on China-made datacenter components lit the optical and memory names on fire, Palan…
+- **[Broadcom, Marvell And Nvidia Could Feel the Impact of US Ban on Chinese AI Components](https://finnhub.io/api/news?id=3a9dc6f577168b1b9381b713efd5b273e06251e86e486591631fd363a5b1bc3e)**  
+*Benzinga · 11h前*  
+BNP Paribas warns a proposed U.S. ban on Chinese AI components could disrupt Broadcom, Marvell and Nvidia while driving up costs.
 
 ---
 
@@ -48,7 +48,7 @@ The S&P 500 printed a fresh record above 7,700 on Tuesday as an incoming ban on 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-05 | 監控 | $849.47 | — | 自動更新 |
+| 2026-08-06 | 監控 | $826.26 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The S&P 500 printed a fresh record above 7,700 on Tuesday as an incoming ban on 
 - [TradingView](https://www.tradingview.com/chart/?symbol=LITE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
