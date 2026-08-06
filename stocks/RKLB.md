@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$74.48** |
-| 今日變動 | ▲ $4.05　(+5.75%) |
+| 現價 | **$74.82** |
+| 今日變動 | ▲ $0.34　(+0.46%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $15　(▼2.0%) |
+| 未實現盈虧 | ▼ $12　(▼1.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $64.42 | — |
-| Put Wall（支撐） | $65.00 | -12.7% |
-| Call Wall（阻力） | $100.00 | +34.3% |
+| Gamma Flip | $66.13 | — |
+| Put Wall（支撐） | $65.00 | -13.1% |
+| Call Wall（阻力） | $75.00 | +0.2% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Rocket Lab (RKLB) Lands $397 Million Space Force Flatellite Contract](https://finnhub.io/api/news?id=56d4dd315ad3b2c2c321daf6bbfb7b9c33aad3c6f88436b45203b81568126c83)**  
-*Yahoo · 11h前*  
-Rocket Lab was awarded a $397 million contract to build, launch, and operate advanced Flatellites for the U.S. Space Force's SB-AMTI program. The award expands …
+- **[Stock Market Today, Aug. 5: SpaceX Beats Revenue but Faces Capital Spending Pressure](https://finnhub.io/api/news?id=3364199b1e44fccf540443bcf03e9e9aa45eeeab0feba138036d6a67bc696c06)**  
+*Yahoo · 3h前*  
+Today, Aug. 5, 2026, the reusable rocket provider's first public earnings report revealed widening losses despite strong top-line results.
 
-- **[RKLB Stock Extends 4-Day Rally Overnight: Rocket Lab Lands $397M Deal To Track Airborne Threats From Space](https://finnhub.io/api/news?id=245e1b6681fba8391a6c21420bd7e27dab7d8f71ed64e4475e5e17b3eb389e35)**  
-*Yahoo · 11h前*  
-Rocket Lab will develop advanced “Flatellites” equipped with space-based sensors and low-latency, high-bandwidth communications.
+- **[Rocket Lab wins $397 million Space Force SB-AMTI contract](https://finnhub.io/api/news?id=e5b9b9e36ee6ca8ab99c7dfea93fd3932dc02e0297a2d87dfc2c51f31101cd16)**  
+*Yahoo · 7h前*  
+The deal covers development, launch, and operation of Rocket Lab's flat satellite design as part of a broader $615 million award to three contractors
 
-- **[Rocket Lab Awarded $397 Million Contract to Build and Launch Flatellites for U.S. Space Force’s Space-Based Airborne Moving Target Indicator Program](https://finnhub.io/api/news?id=53d47d853f10a69aa150798034da0383003c0ea4aa3b21c43ceeeb46685801e6)**  
-*Yahoo · 13h前*  
-Rocket Lab Awarded $397 Million Contract to Build and Launch Flatellites for U.S. Space Force’s Space-Based Airborne Moving Target Indicator Program Artist impr…
+- **[These Stocks Are Making Moves Today, Thanks to SpaceX](https://finnhub.io/api/news?id=0898bbb73ae3328c16f78649919c9cd836b1aec98946dd6561e6f72ecafb1d49)**  
+*Yahoo · 10h前*  
+SpaceX has designs to leverage its dominant position in the space business into a dominant position in AI and communications.  SpaceX stock, for starters, was d…
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab Awarded $397 Million Contract to Build and Launch Flatellites for U.S
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-05 | 監控 | $74.48 | — | 自動更新 |
+| 2026-08-06 | 監控 | $74.82 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab Awarded $397 Million Contract to Build and Launch Flatellites for U.S
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
