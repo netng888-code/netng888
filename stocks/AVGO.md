@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-06 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Top Analyst Reports for Broadcom, Coca-Cola & Palantir](https://finnhub.io/api/news?id=74b2221c87d4004d4084299c62271c91bc75a6ceb1db94de0517c139e92dbbdf)**  
+- **[How Large Does Your Portfolio Need to Be to Generate $30,000 a Month?](https://finnhub.io/api/news?id=d2dcb2ab8565d0d8f0aae96ae81881eda093038752e451ea5ec27408ef9f16c2)**  
+*Yahoo · 1h前*  
+Replacing a six-figure income with portfolio yield sounds straightforward until you realize the required capital swings by millions depending on which yield tie…
+
+- **[Broadcom Is Down 20% From Its All-Time High. Here's Why It's a Screaming Bargain.](https://finnhub.io/api/news?id=b759e469455ba2ed49ec7041eb307367d7ff982e420e7e639e5b40173576ea31)**  
+*Yahoo · 3h前*  
+Broadcom stock looks like a screaming deal at these prices.
+
+- **[The Zacks Analyst Blog Highlights Broadcom, The Coca-Cola and Palantir](https://finnhub.io/api/news?id=8cee2c1e13a8ac131762613071f023c27edf538ef7f9e624bb5efb3add4a0d57)**  
 *Yahoo · 4h前*  
-Broadcom's AI momentum, Coca-Cola's resilient growth and Palantir's expanding AI strategy headline today's top analyst reports.
-
-- **[AIPO: All Around Power Exposure To The AI Revolution](https://finnhub.io/api/news?id=adb9240679e79ef207e3bc8357946e8cc22f945badfa6980a054a482ca32bbb0)**  
-*SeekingAlpha · 5h前*  
-Defiance AIPO ETF: Targeted AI power, grid & data center infrastructure exposure. Click here to read more about AIPO.
-
-- **[Can Microchip's Micron Alliance Help it Challenge AVGO & ALAB?](https://finnhub.io/api/news?id=80b4c2671013d5e2811996b738004315f71a8cdf10ebe104c9fbec0c96aefb3e)**  
-*Yahoo · 6h前*  
-MCHP's Micron alliance combines PCIe Gen 6 switches and SSDs to boost AI data-center reach and challenge Broadcom and Astera Labs.
+Broadcom, Coca-Cola and Palantir are in focus as Zacks highlights AI growth, resilient execution and key risks shaping each company's outlook.
 
 ---
 
@@ -59,4 +59,4 @@ MCHP's Micron alliance combines PCIe Gen 6 switches and SSDs to boost AI data-ce
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
