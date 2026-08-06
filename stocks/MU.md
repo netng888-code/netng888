@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$892.67** |
-| 今日變動 | ▲ $63.17　(+7.62%) |
+| 現價 | **$893.19** |
+| 今日變動 | ▲ $0.52　(+0.06%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $335　(▲60.0%) |
+| 未實現盈虧 | ▲ $335　(▲60.1%) |
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $841.66 | — |
+| Gamma Flip | $855.07 | — |
 | Put Wall（支撐） | $800.00 | -10.4% |
 | Call Wall（阻力） | $900.00 | +0.8% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Michael Burry warns of 1987-style crash, holds Nvidia shorts](https://finnhub.io/api/news?id=b6411eb28cc7a0b70b75de020557733a601e7f9e98462402c71a0aa527f19367)**  
-*Yahoo · 1h前*  
-The "Big Short" investor said all his short positions remain profitable except his bet against Nvidia stock
+- **[Two chipmakers, one demo, and a signal for AI’s next phase](https://finnhub.io/api/news?id=d7dba4dedee9bba8906ce3a288a3d83bafa372d7d77d0461647bf32e538bb231)**  
+*Yahoo · 2h前*  
+Every AI headline obsesses over GPUs. The chips get the attention, the stock gains, and the breathless coverage. But a GPU sitting idle while it waits for data …
 
-- **[9 Stocks' Cash Flow Seen Blowing The Doors Off The S&P 500](https://finnhub.io/api/news?id=c07a17fe1532fa202709fd939727107ef9e879f0b5054a0605e3a5e6c01759cb)**  
-*Yahoo · 1h前*  
-Just like that, cash flow matters to S&P 500 investors. And it's becoming very apparent. Shares of the nine S&P 500 stocks expected to post the most free cash f…
+- **[The SOXL ETF Is a Popular—and Dangerous—Way to Play Chip Stocks](https://finnhub.io/api/news?id=47ac797eba2d20ee7db080c74e03ebc01f59f3c2feafa4e115ba19522ddf3f1a)**  
+*Yahoo · 2h前*  
+Investors are flocking to an ETF that enhances the daily exposure of leading chip stocks. Buyer beware.
 
-- **[“A Possible 1987-Type Fall”: Why Michael Burry Refuses to Cover His Bets as Stocks Hit New Highs](https://finnhub.io/api/news?id=b830d3e6189c7c93d13db4a84362516506cbaf719de173d500e10513c09668d9)**  
-*Yahoo · 1h前*  
-While the S&P 500 just hit a record high and the AI trade roars back to life, one famous short seller is keeping his bearish bets intact and warning that the ma…
+- **[Earnings Picture Remains Robust: A Closer Look](https://finnhub.io/api/news?id=bd3220e276d39a51ba23c03937525c66d8f023e54f88f0fd07d2fdafedfb0619)**  
+*Yahoo · 2h前*  
+Total earnings for the S&P 500 companies that have reported are up +41.7% from the same period last year on +14.8% higher revenues, reflecting a notably better …
 
 ---
 
@@ -48,7 +48,7 @@ While the S&P 500 just hit a record high and the AI trade roars back to life, on
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-05 | 監控 | $892.67 | — | 自動更新 |
+| 2026-08-06 | 監控 | $893.19 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ While the S&P 500 just hit a record high and the AI trade roars back to life, on
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-05 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 09:03 HKT*
