@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,7 +30,9 @@
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[Centrus Energy (NYSE:LEU) Falls After Q2 EPS Miss Despite Revenue Beat](https://finnhub.io/api/news?id=068e73ce41e2cb31dbe78da4569b1979deb87ab7f92e968b70145f9f3ee62765)**  
+*ChartMill · 11h前*  
+Centrus Energy Q2 revenue beats at $176.1M, up 14% YoY, but GAAP EPS of $0.77 misses estimates; stock drops ~5.7% after hours.
 
 ---
 
@@ -49,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
