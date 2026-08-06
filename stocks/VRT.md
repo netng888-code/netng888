@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AIPO: All Around Power Exposure To The AI Revolution](https://finnhub.io/api/news?id=adb9240679e79ef207e3bc8357946e8cc22f945badfa6980a054a482ca32bbb0)**  
-*SeekingAlpha · 5h前*  
-Defiance AIPO ETF: Targeted AI power, grid & data center infrastructure exposure. Click here to read more about AIPO.
+- **[Zacks.com featured highlights Lam, The Cheesecake, Vertiv and Fortinet](https://finnhub.io/api/news?id=e3c6f021cf8ba0872df328ddd347bb25c2f741eacfdac2092678b536e4768817)**  
+*Yahoo · 2h前*  
+Lam, The Cheesecake, Vertiv and Fortinet have been highlighted in this Screen of The Week article.
 
-- **[MOD vs. VRT: Which Stock Is the Better AI Data Center Play?](https://finnhub.io/api/news?id=69d169fc84fc15d84e040b174ce76a0f26bcd23cc40b3a4f4f940c5d5e74defd)**  
-*Yahoo · 9h前*  
-Vertiv's scale, rising margins and global AI-ready capacity give it an edge in data center infrastructure over fast-growing Modine.
+- **[How Vertiv is Becoming a Pure Play Digital Version of Schneider Electric for an AI-First World](https://finnhub.io/api/news?id=9caf2ebe446a0ff0f79aac8dd0942c067eea1b58a464671129458a133398c980)**  
+*Yahoo · 8h前*  
+Vertiv and Eaton both rode the AI infrastructure wave in Q2 2026, but one is sharpening itself into a pure-play weapon while the other is bulking up through bil…
 
-- **[4 GARP Stocks That Investors Can Scoop Up for Maximum Returns](https://finnhub.io/api/news?id=2a577502239ed4d612c083db9de1dda896c898841de3246ee4bad0ff9eb7cbe2)**  
-*Yahoo · 10h前*  
-The GARP strategy helps investors gain exposure to stocks that have solid prospects and are trading at a discount. LRCX, CAKE, VRT& FTNT are some such stocks.
+- **[Who Will Benefit Most From Amazon and Microsoft’s Hyperscaler Leading AI Capex This Quarter?](https://finnhub.io/api/news?id=b3f5870014bc1d6118f5bb2f6299b2f33001d4f52dcb81c831e3cda211bfbad4)**  
+*Yahoo · 8h前*  
+Amazon and Microsoft are burning through roughly $100 billion a quarter on AI infrastructure, and two companies sit directly in that cash flow's path. One just …
 
 ---
 
@@ -59,4 +59,4 @@ The GARP strategy helps investors gain exposure to stocks that have solid prospe
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
