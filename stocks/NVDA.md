@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-06 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $193.33 | — |
 | Put Wall（支撐） | $200.00 | -8.8% |
-| Call Wall（阻力） | $220.00 | +0.4% |
+| Call Wall（阻力） | $230.00 | +4.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Disney Reaffirms Double-Digit Earnings Growth, Targets $9 Billion in Buybacks. Here’s What Investors Need to Know.](https://finnhub.io/api/news?id=99dc4a136a2eaa73109c28b83129533c647ea4fe8b53ed0250be25b292dc329a)**  
+- **[Where Will Rocket Lab Stock Be in 5 Years?](https://finnhub.io/api/news?id=3fd9b59020e75c4835c3fabe7505b9e01b1be53c18aae9c0245b07321c2ddfaf)**  
 *Yahoo · 1h前*  
-The entertainment giant crushed analyst profitability estimates for its third quarter.
+What comes next for this space infrastructure company?
 
-- **[Why Rivian Is Poised to Soar. Hint: It's Not All R2 Hype.](https://finnhub.io/api/news?id=def5d160927cf82878d31b34e3b3b98ae5c57a58a69d5d185f7e7ad495aba0ca)**  
+- **[Dow Jones Futures Rise But Techs Fall As Sandisk, Western Digital, Datadog Lead Earnings Losers](https://finnhub.io/api/news?id=dab40dc036edf242ee2e0ff25dc741522c9477d44ed9bd74737f7a3c75ff3cad)**  
 *Yahoo · 1h前*  
-Rivian's investor focus is largely on the R2 launch and ramp-up, but don't overlook its staggering margins in software and services that are helping offset earl…
+The Dow Jones hit a new high thanks to Nvidia, but Google, SpaceX and AMD weighed on the Nasdaq. Sandisk, Western Digital fell late.
 
-- **[Amazon and Alphabet Just Crushed Expectations. Which Is the Better Buy Now?](https://finnhub.io/api/news?id=d1d64125f1a73dbe21c634c2df636be59acd168e9899d09e25edd57c5aa3479c)**  
+- **[Prediction: The S&P 500 Will Pull Back This August. Here's What History Says About the Damage.](https://finnhub.io/api/news?id=8a270e67198dd0477061f7b172de4d42ff2f48adb13e939dc2ad798142c0a06e)**  
 *Yahoo · 1h前*  
-Amazon and Alphabet are remarkably comparable.
+Could the S&P 500 stumble this August? History suggests investors should expect turbulence, but not panic.
 
 ---
 
@@ -59,4 +59,4 @@ Amazon and Alphabet are remarkably comparable.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
