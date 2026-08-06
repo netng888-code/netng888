@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -57,4 +57,4 @@ FST (NASDAQ:KBSX) shares rose 17.2% to $0.99 during Monday&#39;s regular session
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:05 HKT*
