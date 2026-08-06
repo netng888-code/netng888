@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Project Prometheus: AI Powers Nuclear Energy](https://finnhub.io/api/news?id=dccbe8bd07dfe687961013fb1957f68e29e9263ddd664c56ec2ac959f3d2884c)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Project Prometheus is the first phase two project under the Genesis Mission and targets nuclear energy applications.
 
 ---
@@ -51,4 +51,4 @@ Project Prometheus is the first phase two project under the Genesis Mission and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
