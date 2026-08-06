@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today, Aug. 5: SpaceX Beats Revenue but Faces Capital Spending Pressure](https://finnhub.io/api/news?id=3364199b1e44fccf540443bcf03e9e9aa45eeeab0feba138036d6a67bc696c06)**  
-*Yahoo · 3h前*  
-Today, Aug. 5, 2026, the reusable rocket provider's first public earnings report revealed widening losses despite strong top-line results.
+- **[Space Stocks Reignite as Earnings Beats Fuel a Sector Rebound](https://finnhub.io/api/news?id=c433464258f1d3e44d68cc57933faf4373904aac69e9bea072523ae609b9417e)**  
+*ChartMill · 0h前*  
+Space stocks split as earnings beat lifts ViaSat, Redwire, Voyager; Rocket Lab and AST SpaceMobile reports due Aug 10 may decide rebound.
 
-- **[Rocket Lab wins $397 million Space Force SB-AMTI contract](https://finnhub.io/api/news?id=e5b9b9e36ee6ca8ab99c7dfea93fd3932dc02e0297a2d87dfc2c51f31101cd16)**  
-*Yahoo · 7h前*  
-The deal covers development, launch, and operation of Rocket Lab's flat satellite design as part of a broader $615 million award to three contractors
+- **[Where Will Rocket Lab Stock Be in 5 Years?](https://finnhub.io/api/news?id=3fd9b59020e75c4835c3fabe7505b9e01b1be53c18aae9c0245b07321c2ddfaf)**  
+*Yahoo · 1h前*  
+What comes next for this space infrastructure company?
 
-- **[These Stocks Are Making Moves Today, Thanks to SpaceX](https://finnhub.io/api/news?id=0898bbb73ae3328c16f78649919c9cd836b1aec98946dd6561e6f72ecafb1d49)**  
-*Yahoo · 10h前*  
-SpaceX has designs to leverage its dominant position in the space business into a dominant position in AI and communications.  SpaceX stock, for starters, was d…
+- **[Rocket Lab Successfully Completes 92nd Electron Mission, 8th Launch for iQPS Earth-Imaging Constellation](https://finnhub.io/api/news?id=b43a8119966545ee87278e6847109c05d57542ad7cceee02527a217bd47880fb)**  
+*Yahoo · 2h前*  
+MAHIA, New Zealand, Aug. 06, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in launch services and space systems, today success…
 
 ---
 
@@ -59,4 +59,4 @@ SpaceX has designs to leverage its dominant position in the space business into 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
