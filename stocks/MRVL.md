@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$218.59** |
-| 今日變動 | ▲ $24.82　(+12.81%) |
+| 現價 | **$211.02** |
+| 今日變動 | ▼ $7.57　(-3.46%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $387　(▼15.0%) |
+| 未實現盈虧 | ▼ $463　(▼18.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $189.25 | — |
-| Put Wall（支撐） | $200.00 | -8.5% |
-| Call Wall（阻力） | $250.00 | +14.4% |
+| Gamma Flip | $192.35 | — |
+| Put Wall（支撐） | $200.00 | -5.2% |
+| Call Wall（阻力） | $240.00 | +13.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvel Biosciences Reports Positive Preclinical Data Demonstrating MB-204 Reverses Behavioural and Cognitive Deficits in a Mouse Model of Fragile X](https://finnhub.io/api/news?id=85fe8ee9624a19c0422b0b3f4190fce1571b164952d8433c2f728544fc608c7b)**  
-*Yahoo · 4h前*  
-CALGARY, Alberta, Aug. 05, 2026 (GLOBE NEWSWIRE) -- Marvel Biosciences Corp. (TSXV: MRVL | OTC: MBCOF), and its wholly-owned subsidiary, Marvel Biotechnology In…
+- **[The companies emerging as new leaders in this renewed AI rally](https://finnhub.io/api/news?id=932eea13db773920965e98a45010824861bd09e9fa716b1d398590a9be2fe5a9)**  
+*Yahoo · 5h前*  
+Yahoo Finance Markets and Data Editor Jared Blikre examines the comeback seen across the semiconductor landscape over the past five trading days, while also ana…
 
-- **[US Ban on Chinese Optical Parts Hurts Hyperscalers, Report Says](https://finnhub.io/api/news?id=1e7e28b3242340446695688b871903cea24855a94c1eed737ebf667167391e35)**  
-*Yahoo · 4h前*  
-(Bloomberg) -- A potential ban on the import of Chinese optical transceiver modules into the US would inflict collateral damage on US hyperscalers, exacerbating…
+- **[Marvell Stock Amplifies The Market You Already Own](https://finnhub.io/api/news?id=ca75658089b5d2e0660cf9056b0fdbb903ba36ffb8e07b9c285fa426786bc086)**  
+*Yahoo · 8h前*  
+Its five-year correlation to the index says overlap, and its past-year capture readings say that overlap arrives magnified in both directions.
 
-- **[S&P 500 Prints Fresh Record As Chips Rip And Hormuz Talks Crack The Oil Trade](https://finnhub.io/api/news?id=1ea4568bc1d11f797a0e714c3ea983f28f4fb27c99c4caede80ea7b9cea51b03)**  
-*ChartMill · 5h前*  
-The S&P 500 printed a fresh record above 7,700 on Tuesday as an incoming ban on China-made datacenter components lit the optical and memory names on fire, Palan…
+- **[Can MRVL's Communications Recovery Drive Broad-Based Growth?](https://finnhub.io/api/news?id=0abc8eac0d0dff8aac9b106766bc90e52a1b1ec38598c284b2257d8fe9414806)**  
+*Yahoo · 9h前*  
+Marvell Technology's communications business is rebounding as AI networking demand accelerates, but can that momentum offset margin pressure and uneven recovery…
 
 ---
 
@@ -48,7 +48,7 @@ The S&P 500 printed a fresh record above 7,700 on Tuesday as an incoming ban on 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-05 | 監控 | $218.59 | — | 自動更新 |
+| 2026-08-06 | 監控 | $211.02 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The S&P 500 printed a fresh record above 7,700 on Tuesday as an incoming ban on 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 09:03 HKT*
