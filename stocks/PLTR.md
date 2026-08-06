@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$162.66** |
-| 今日變動 | ▲ $37.01　(+29.45%) |
+| 現價 | **$158.43** |
+| 今日變動 | ▼ $4.23　(-2.60%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $268　(▲30.8%) |
+| 未實現盈虧 | ▲ $239　(▲27.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $121.83 | — |
-| Put Wall（支撐） | $130.00 | -20.1% |
-| Call Wall（阻力） | $165.00 | +1.4% |
+| Gamma Flip | $122.83 | — |
+| Put Wall（支撐） | $155.00 | -2.2% |
+| Call Wall（阻力） | $160.00 | +1.0% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Michael Burry warns of 1987-style crash, holds Nvidia shorts](https://finnhub.io/api/news?id=b6411eb28cc7a0b70b75de020557733a601e7f9e98462402c71a0aa527f19367)**  
-*Yahoo · 1h前*  
-The "Big Short" investor said all his short positions remain profitable except his bet against Nvidia stock
-
-- **[“A Possible 1987-Type Fall”: Why Michael Burry Refuses to Cover His Bets as Stocks Hit New Highs](https://finnhub.io/api/news?id=b830d3e6189c7c93d13db4a84362516506cbaf719de173d500e10513c09668d9)**  
-*Yahoo · 1h前*  
-While the S&P 500 just hit a record high and the AI trade roars back to life, one famous short seller is keeping his bearish bets intact and warning that the ma…
-
-- **[Palantir Stock Rallies 30% and Its CEO Climbs Forbes Billionaire Ranking](https://finnhub.io/api/news?id=4cb67d172dfd1472f9d39d709f75d41ba3308061226f6e83031933d0378cbfe9)**  
+- **[AI Trailblazers Nvidia, Palantir, Alphabet, and Meta Are Shaking Wall Street to Its Core With This $3.4 Billion Warning](https://finnhub.io/api/news?id=36f36226d4d7300e5be9c0851dc939386f3d64e913f98d529956256b8fab1dd6)**  
 *Yahoo · 2h前*  
-Palantir's CEO climbed the Forbes ranking as the stock rally hit 30%. Here is what changed for Alex Karp today.
+The people who know these AI pioneers best are sending a worrisome message.
+
+- **[Palantir Keeps Beating Estimates, But The Price Keeps Getting Steeper](https://finnhub.io/api/news?id=69db12cfbdc358230bbb9aa578815b72c1a473df00dfa97290165e456309dc8c)**  
+*Yahoo · 3h前*  
+Palantir Technologies (NASDAQ:PLTR) just posted its 12th straight quarter of accelerating revenue growth when it reported FQ2 2026 results, and the market notic…
+
+- **[Palantir CEO Alex Karp Takes a Shot at Silicon Valley Culture, Says Results — Not ‘Steak Dinners’ — Built the AI Giant: 'I'm Struggling With Our Current Popularity'](https://finnhub.io/api/news?id=f8b9f6f823b771c04c12d2ea106ecb7df71c26b4e0304986e92924364543ca21)**  
+*Yahoo · 4h前*  
+As Palantir Technologies, Inc.’s AI business gains momentum, CEO Alex Karp says the company’s years as a Silicon Valley outsider helped build a culture focused …
 
 ---
 
@@ -48,7 +48,7 @@ Palantir's CEO climbed the Forbes ranking as the stock rally hit 30%. Here is wh
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-05 | 監控 | $162.66 | — | 自動更新 |
+| 2026-08-06 | 監控 | $158.43 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir's CEO climbed the Forbes ranking as the stock rally hit 30%. Here is wh
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
