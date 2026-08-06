@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-06 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Two chipmakers, one demo, and a signal for AI’s next phase](https://finnhub.io/api/news?id=d7dba4dedee9bba8906ce3a288a3d83bafa372d7d77d0461647bf32e538bb231)**  
-*Yahoo · 2h前*  
-Every AI headline obsesses over GPUs. The chips get the attention, the stock gains, and the breathless coverage. But a GPU sitting idle while it waits for data …
+- **[What's going on in today's pre-market session: S&P500 movers](https://finnhub.io/api/news?id=91c0194f617b9ce222be9f2c00c78db94f28ee70b970fb642bc4031e439b6786)**  
+*ChartMill · 0h前*  
+As the US market prepares to open on Thursday, let's get an early glimpse into the pre-market session and identify the S&P500 stocks leading the pack in terms o…
 
-- **[The SOXL ETF Is a Popular—and Dangerous—Way to Play Chip Stocks](https://finnhub.io/api/news?id=47ac797eba2d20ee7db080c74e03ebc01f59f3c2feafa4e115ba19522ddf3f1a)**  
-*Yahoo · 2h前*  
-Investors are flocking to an ETF that enhances the daily exposure of leading chip stocks. Buyer beware.
+- **[Why Micron and Other Memory Stocks Are Taking Another Hit](https://finnhub.io/api/news?id=0e8bd672ae65e3aa3ce79811dcd1558e6e936faef6709d5320c1a47e56467326)**  
+*Yahoo · 1h前*  
+Shares dip after Sandisk and Western Digital fail to deliver the sort of knockout guidance investors are used to.
 
-- **[Earnings Picture Remains Robust: A Closer Look](https://finnhub.io/api/news?id=bd3220e276d39a51ba23c03937525c66d8f023e54f88f0fd07d2fdafedfb0619)**  
-*Yahoo · 2h前*  
-Total earnings for the S&P 500 companies that have reported are up +41.7% from the same period last year on +14.8% higher revenues, reflecting a notably better …
+- **[This Comment From Apple CEO Tim Cook Supports Buying the Dip in Micron Stock](https://finnhub.io/api/news?id=491f42d24b72282141ff3d90ebcfda1623256ba6f63da152f284be8dbac0aa8f)**  
+*Yahoo · 1h前*  
+Tim Cook spent considerable time talking about memory prices during Apple's latest earnings call.
 
 ---
 
@@ -59,4 +59,4 @@ Total earnings for the S&P 500 companies that have reported are up +41.7% from t
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:03 HKT*
