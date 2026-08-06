@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$9.92** |
-| 今日變動 | ▲ $0.56　(+5.98%) |
+| 現價 | **$9.58** |
+| 今日變動 | ▼ $0.34　(-3.43%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $487　(▼24.7%) |
+| 未實現盈虧 | ▼ $538　(▼27.2%) |
 
 ---
 
@@ -20,19 +20,23 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.21 | — |
-| Put Wall（支撐） | $9.00 | -9.3% |
-| Call Wall（阻力） | $10.00 | +0.8% |
+| Gamma Flip | $9.25 | — |
+| Put Wall（支撐） | $9.00 | -6.1% |
+| Call Wall（阻力） | $10.00 | +4.4% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
 - **[These stocks are making the most noise in today's session.](https://finnhub.io/api/news?id=5d30267d99047e0e16c35b9a9fed12c21e5343fec842b78ee68d8b0cf3b71579)**  
-*ChartMill · 19h前*  
+*ChartMill · 1d前*  
 Curious about the most active stocks on Tuesday? Find out which stocks are dominating the market action!
+
+- **[Nokia Stock Rallies Tuesday: What's Driving the Rebound?](https://finnhub.io/api/news?id=09738fbbb09b6224c3afe10293af933e234eb37c01c7be0c903a55b0450d9820)**  
+*Benzinga · 1d前*  
+Nokia shares are trading higher on Tuesday, despite a lack of company-specific news for the session. The stock is gaining as AI data center demand and a raised …
 
 ---
 
@@ -40,7 +44,7 @@ Curious about the most active stocks on Tuesday? Find out which stocks are domin
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-05 | 監控 | $9.92 | — | 自動更新 |
+| 2026-08-06 | 監控 | $9.58 | — | 自動更新 |
 
 ---
 
@@ -51,4 +55,4 @@ Curious about the most active stocks on Tuesday? Find out which stocks are domin
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
