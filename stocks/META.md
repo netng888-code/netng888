@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Elon Musk’s Controversial X Staffer Steps Back After Nearly 30 Products](https://finnhub.io/api/news?id=cc9cde2842c416d43096f3b25a96a868d9661eeee4081e5ae269d96b721c4fcd)**  
-*Yahoo · 2h前*  
-Nikita Bier steps back as X product chief. His 30-product claim meets falling downloads and user data.
+- **[Load Up On AMD Because Its High Beta Will Reward You Now](https://finnhub.io/api/news?id=cfe99fed3ab99778b1eedb3b64ba5906cead2729fe5d0f722f0df5c9a8db35aa)**  
+*Yahoo · 1h前*  
+AMD's brutal 2.49 beta has punished shareholders for years, but at this stage of the AI capex cycle, that same volatility becomes a weapon. The question is whet…
 
-- **[AI Trailblazers Nvidia, Palantir, Alphabet, and Meta Are Shaking Wall Street to Its Core With This $3.4 Billion Warning](https://finnhub.io/api/news?id=36f36226d4d7300e5be9c0851dc939386f3d64e913f98d529956256b8fab1dd6)**  
-*Yahoo · 2h前*  
-The people who know these AI pioneers best are sending a worrisome message.
+- **[Why Sandisk Stock Is Falling Sharply After Blowout Earnings](https://finnhub.io/api/news?id=e10258c40418641237b3f166df6caf9723aff9c63117ad2b37e81bcccafb441e)**  
+*Yahoo · 3h前*  
+Sandisk stock was falling early Thursday after a disappointing outlook from the memory maker seemed to overshadow strong fourth-quarter results.
 
-- **[Asian Stocks Set for Declines as AI Rally Cools: Markets Wrap](https://finnhub.io/api/news?id=3d16095d978e92525adbbd38b54041199b8f8835388a49466e61aeee84d2c84e)**  
-*Yahoo · 2h前*  
-(Bloomberg) -- Stocks in Asia were poised to ease Thursday as investors digested gains in technology shares while watching for fresh signs of progress toward a …
+- **[Forget The Magnificent 7: Two Undervalued Dividends Built For A Different Market](https://finnhub.io/api/news?id=4f7ff149db73b91beef1354a85b149b38635f7aba615f148c7592d673f9b6dce)**  
+*SeekingAlpha · 5h前*  
+The Mag 7 face lofty valuations and AI capex risks. Check out two AI-adjacent dividend opportunities with strong fundamentals and attractive valuations.
 
 ---
 
@@ -59,4 +59,4 @@ The people who know these AI pioneers best are sending a worrisome message.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
