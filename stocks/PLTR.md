@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-06 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Trailblazers Nvidia, Palantir, Alphabet, and Meta Are Shaking Wall Street to Its Core With This $3.4 Billion Warning](https://finnhub.io/api/news?id=36f36226d4d7300e5be9c0851dc939386f3d64e913f98d529956256b8fab1dd6)**  
+- **[Cathie Wood’s ARK Buys The Dip In NVDA, CRCL, SPCX Stocks – Dumps PLTR, SHOP, RBLX Shares](https://finnhub.io/api/news?id=4af6a83adf22fc6044cf36fbcd84061a617c74f808cccb960085b1320a1cb686)**  
 *Yahoo · 2h前*  
-The people who know these AI pioneers best are sending a worrisome message.
+ARK Invest added to Circle after the company missed Wall Street's earnings and revenue expectations, and sold Shopify after an earnings beat.
 
-- **[Palantir Keeps Beating Estimates, But The Price Keeps Getting Steeper](https://finnhub.io/api/news?id=69db12cfbdc358230bbb9aa578815b72c1a473df00dfa97290165e456309dc8c)**  
+- **[Palantir CEO Alex Karp Drops an 11-Word Bombshell That Proves Artificial Intelligence (AI) Is Supercharging Software Stocks](https://finnhub.io/api/news?id=83b2cc0613ca99ae7a4c2472a38a80afa50779f8d823308dd9f59706513b105d)**  
 *Yahoo · 3h前*  
-Palantir Technologies (NASDAQ:PLTR) just posted its 12th straight quarter of accelerating revenue growth when it reported FQ2 2026 results, and the market notic…
+Palantir just delivered a monster earnings report.
 
-- **[Palantir CEO Alex Karp Takes a Shot at Silicon Valley Culture, Says Results — Not ‘Steak Dinners’ — Built the AI Giant: 'I'm Struggling With Our Current Popularity'](https://finnhub.io/api/news?id=f8b9f6f823b771c04c12d2ea106ecb7df71c26b4e0304986e92924364543ca21)**  
+- **[The Zacks Analyst Blog Highlights Broadcom, The Coca-Cola and Palantir](https://finnhub.io/api/news?id=8cee2c1e13a8ac131762613071f023c27edf538ef7f9e624bb5efb3add4a0d57)**  
 *Yahoo · 4h前*  
-As Palantir Technologies, Inc.’s AI business gains momentum, CEO Alex Karp says the company’s years as a Silicon Valley outsider helped build a culture focused …
+Broadcom, Coca-Cola and Palantir are in focus as Zacks highlights AI growth, resilient execution and key risks shaping each company's outlook.
 
 ---
 
@@ -59,4 +59,4 @@ As Palantir Technologies, Inc.’s AI business gains momentum, CEO Alex Karp say
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
