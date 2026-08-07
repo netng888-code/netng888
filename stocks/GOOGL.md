@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Alphabet’s stock buybacks: History & investor impact explained](https://finnhub.io/api/news?id=9dcbc7de79d2bb68c5e561a1f6120c09b59e609b938cfda3787704694f289701)**  
-*Yahoo · 1h前*  
-Alphabet was founded in 1998 as Google, a company focused on internet search. In 2004, the company went public, and since then, it has expanded into a wide arra…
-
-- **[Marqeta (MQ) Expands Google Wallet Payments, Is The Stock Fully Valued?](https://finnhub.io/api/news?id=e98ce3a53d709371fb0ccbff526423a78157d8b56294b28150601980e90ce53b)**  
-*Yahoo · 1h前*  
-Marqeta (MQ) is back in focus after expanding its collaboration with Google to power a new family payments experience in Google Wallet. This gives kids and teen…
-
-- **[Toast (TOST) Beat Q2 Estimates And Raised Guidance, Has The Valuation Story Run Ahead?](https://finnhub.io/api/news?id=fb29d9baf0a4fdf779f953605733286f7cfd65c411eb4d1aad3d81f9aacb7217)**  
+- **[Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes](https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f)**  
 *Yahoo · 2h前*  
-Toast (TOST) is back in focus after Q2 2026 results exceeded analyst expectations on both revenue and earnings, alongside a higher full year outlook and new AI …
+(Bloomberg) -- After spending much of the year in the stock market doghouse over fears about their profligate spending on artificial intelligence, the world’s b…
+
+- **[Why Is Rackspace Technology (RXT) Hiring A New AI Infrastructure Leader?](https://finnhub.io/api/news?id=60d2ca734f97d0e3234a6ea951287eb502d6910afe6b975f24b46decf1719d47)**  
+*Yahoo · 2h前*  
+Rackspace Technology (NasdaqGS:RXT) appoints Pranav Nambiar as Senior Vice President and General Manager to lead its AI Infrastructure business. Nambiar brings …
+
+- **[Big Tech is borrowing its way through the AI boom: Chart of the Day](https://finnhub.io/api/news?id=28901c1286a03d569a4a65fefb832eeedb2b84ccdae084af064a8743efa656cb)**  
+*Yahoo · 3h前*  
+Alphabet is borrowing at a historic pace — and it isn't alone.
 
 ---
 
@@ -59,4 +59,4 @@ Toast (TOST) is back in focus after Q2 2026 results exceeded analyst expectation
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:04 HKT*
