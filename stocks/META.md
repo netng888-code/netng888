@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$588.77** |
-| 今日變動 | ▲ $0.83　(+0.14%) |
+| 現價 | **$589.90** |
+| 今日變動 | ▲ $1.13　(+0.19%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $53　(▼2.9%) |
+| 未實現盈虧 | ▼ $49　(▼2.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $574.09 | — |
-| Put Wall（支撐） | $550.00 | -6.6% |
-| Call Wall（阻力） | $750.00 | +27.4% |
+| Gamma Flip | $574.64 | — |
+| Put Wall（支撐） | $550.00 | -6.8% |
+| Call Wall（阻力） | $750.00 | +27.1% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Load Up On AMD Because Its High Beta Will Reward You Now](https://finnhub.io/api/news?id=cfe99fed3ab99778b1eedb3b64ba5906cead2729fe5d0f722f0df5c9a8db35aa)**  
-*Yahoo · 1h前*  
-AMD's brutal 2.49 beta has punished shareholders for years, but at this stage of the AI capex cycle, that same volatility becomes a weapon. The question is whet…
-
-- **[Why Sandisk Stock Is Falling Sharply After Blowout Earnings](https://finnhub.io/api/news?id=e10258c40418641237b3f166df6caf9723aff9c63117ad2b37e81bcccafb441e)**  
+- **[The Unspoken Agreement You've Made Holding Meta Platforms Stock](https://finnhub.io/api/news?id=56b0fb68ec51c927b6ff45195935469ba69eba2bfa3fe4577b872cfc4003c98d)**  
 *Yahoo · 3h前*  
-Sandisk stock was falling early Thursday after a disappointing outlook from the memory maker seemed to overshadow strong fourth-quarter results.
+Owning these shares means signing up for significant price swings, with option pricing reflecting typical levels of market uncertainty.
 
-- **[Forget The Magnificent 7: Two Undervalued Dividends Built For A Different Market](https://finnhub.io/api/news?id=4f7ff149db73b91beef1354a85b149b38635f7aba615f148c7592d673f9b6dce)**  
-*SeekingAlpha · 5h前*  
-The Mag 7 face lofty valuations and AI capex risks. Check out two AI-adjacent dividend opportunities with strong fundamentals and attractive valuations.
+- **[Meta's AI Safety Test Just Escaped the Lab](https://finnhub.io/api/news?id=dd0cad678537d970863a51b92f6d23b65c8ced4655eda7a06d0ec5167dcdccbf)**  
+*Yahoo · 3h前*  
+A testing partner's misconfiguration reportedly gave the model unintended internet access.
+
+- **[$2.9 Billion In Payouts, A Lagging Stock: The SNAP Trade-Off](https://finnhub.io/api/news?id=8206ec0143975facf0368e2c2e36063820241351141604e981b25c49323245cb)**  
+*Yahoo · 3h前*  
+The social media company sent a fortune back to its owners, but the stock went nowhere. Here’s what the cash really bought, and what has to happen next for the …
 
 ---
 
@@ -48,7 +48,7 @@ The Mag 7 face lofty valuations and AI capex risks. Check out two AI-adjacent di
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-06 | 監控 | $588.77 | — | 自動更新 |
+| 2026-08-07 | 監控 | $589.90 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The Mag 7 face lofty valuations and AI capex risks. Check out two AI-adjacent di
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
