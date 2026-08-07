@@ -1,6 +1,6 @@
 # LITE — Lumentum
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[CoreWeave Stock, Nebius Highlight Data Center Earnings; Tech Stars Lumentum, AMAT Also Due](https://finnhub.io/api/news?id=8e8a3c859e79db78eb8423fff3ff730e87bf99b3ae0097dc7f4c7f3b7e1462a3)**  
-*Yahoo · 1h前*  
-CoreWeave stock is stuck in neutral amid strong top-line growth as its second-quarter earnings report approaches. Nebius is also due.
+- **[Which S&P500 stocks are moving before the opening bell on Friday?](https://finnhub.io/api/news?id=073c54ac6a5c9a52cf67af390cc14433ee433ae80c98f88141a2bf1f9b5787c4)**  
+*ChartMill · 0h前*  
+Before the opening bell on Friday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session.
 
-- **[Dow Jones Futures: Cloudflare Leads 5 Software Earnings Winners Late; Jobs Report On Tap](https://finnhub.io/api/news?id=18af84fe5cdef9f50546d0229524092f7499b8d2cccaf52fe69a46908c6614a7)**  
-*Yahoo · 3h前*  
+- **[Dow Jones Futures Rise As Cloudflare Leads Big Software Winners; Jobs Report On Tap](https://finnhub.io/api/news?id=b1e25c753b02c86a5d2baa45e56eeb8b224efc6a5bfb8c0c7c63ee53f3e6a028)**  
+*Yahoo · 1h前*  
 Dow Jones futures: The market pauses, but what happens next? Don't buy these AI stocks yet. Cloudflare, Sezzle lead big earnings movers late.
 
-- **[TTMI Q2 Earnings & Revenues Surpass Estimates, Both Increase Y/Y](https://finnhub.io/api/news?id=e9b7b0f3bd3c1ecf019dedd4366df71098fb2dcb76fed984b728ff388b218ce2)**  
-*Yahoo · 8h前*  
-TTM Technologies' Q2 earnings and revenues beat estimates as AI demand, stronger bookings and margin gains fuel sharp year-over-year growth.
+- **[CoreWeave Stock, Nebius Highlight Data Center Earnings; Tech Stars Lumentum, AMAT Also Due](https://finnhub.io/api/news?id=8e8a3c859e79db78eb8423fff3ff730e87bf99b3ae0097dc7f4c7f3b7e1462a3)**  
+*Yahoo · 13h前*  
+CoreWeave stock is stuck in neutral amid strong top-line growth as its second-quarter earnings report approaches. Nebius is also due.
 
 ---
 
@@ -59,4 +59,4 @@ TTM Technologies' Q2 earnings and revenues beat estimates as AI demand, stronger
 - [TradingView](https://www.tradingview.com/chart/?symbol=LITE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
