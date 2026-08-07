@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-06 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$362.43** |
-| 今日變動 | ▼ $15.22　(-4.03%) |
+| 現價 | **$357.75** |
+| 今日變動 | ▼ $4.68　(-1.29%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,208　(▲103.2%) |
+| 未實現盈虧 | ▲ $2,152　(▲100.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $336.48 | — |
-| Put Wall（支撐） | $360.00 | -0.7% |
-| Call Wall（阻力） | $375.00 | +3.5% |
+| Gamma Flip | $342.50 | — |
+| Put Wall（支撐） | $350.00 | -2.2% |
+| Call Wall（阻力） | $360.00 | +0.6% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Rise But Techs Fall As Sandisk, Western Digital, Datadog Lead Earnings Losers](https://finnhub.io/api/news?id=dab40dc036edf242ee2e0ff25dc741522c9477d44ed9bd74737f7a3c75ff3cad)**  
+- **[Alphabet’s stock buybacks: History & investor impact explained](https://finnhub.io/api/news?id=9dcbc7de79d2bb68c5e561a1f6120c09b59e609b938cfda3787704694f289701)**  
 *Yahoo · 1h前*  
-The Dow Jones hit a new high thanks to Nvidia, but Google, SpaceX and AMD weighed on the Nasdaq. Sandisk, Western Digital fell late.
+Alphabet was founded in 1998 as Google, a company focused on internet search. In 2004, the company went public, and since then, it has expanded into a wide arra…
 
-- **[Cathie Wood invests a combined $28.7 million in TSMC, SpaceX after trimming investments in Amazon, Alphabet and Shopify](https://finnhub.io/api/news?id=7e13a04a9ae882fcd08254e334d0895ed7529515e7da6018e1ac114ab81aa80c)**  
+- **[Marqeta (MQ) Expands Google Wallet Payments, Is The Stock Fully Valued?](https://finnhub.io/api/news?id=e98ce3a53d709371fb0ccbff526423a78157d8b56294b28150601980e90ce53b)**  
 *Yahoo · 1h前*  
-The ARK Invest founder wasn’t deterred by a certain stock’s bumpy lift-off over the last few weeks.
+Marqeta (MQ) is back in focus after expanding its collaboration with Google to power a new family payments experience in Google Wallet. This gives kids and teen…
 
-- **[3 Reasons Alphabet Stock Has Investors Buzzing Right Now](https://finnhub.io/api/news?id=865a1d79b799d6b283e36ea2778fc90c90dab262a68efc65e64d73c16b75a8d7)**  
-*Yahoo · 1h前*  
-Alphabet is in the spotlight as investors look to these catalysts for future growth.
+- **[Toast (TOST) Beat Q2 Estimates And Raised Guidance, Has The Valuation Story Run Ahead?](https://finnhub.io/api/news?id=fb29d9baf0a4fdf779f953605733286f7cfd65c411eb4d1aad3d81f9aacb7217)**  
+*Yahoo · 2h前*  
+Toast (TOST) is back in focus after Q2 2026 results exceeded analyst expectations on both revenue and earnings, alongside a higher full year outlook and new AI …
 
 ---
 
@@ -48,7 +48,7 @@ Alphabet is in the spotlight as investors look to these catalysts for future gro
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-06 | 監控 | $362.43 | — | 自動更新 |
+| 2026-08-07 | 監控 | $357.75 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Alphabet is in the spotlight as investors look to these catalysts for future gro
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
