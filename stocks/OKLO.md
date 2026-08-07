@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Oklo (NYSE:OKLO) Falls on Mixed Q2 as Revenue Beat Offsets Wider Adjusted Loss](https://finnhub.io/api/news?id=3b8f2dbea905892bc72333807158f4806e51e50563ac0167e7ec29c58249ed52)**  
+*ChartMill · 0h前*  
+Oklo's Q2 revenue beats estimates at $1.21M, but adjusted EPS loss wider than expected; shares rise ~4.3% premarket.
+
 - **[Oklo Stock Trades Flat Despite Breakthrough Nuclear Reactor Milestone](https://finnhub.io/api/news?id=e62bfe84f4ce20a414c0ed8a4a1ae4b840e2ef75898370159b4afbb71cd6015f)**  
-*Benzinga · 14h前*  
+*Benzinga · 1d前*  
 Shares of Oklo are trading flat Thursday morning despite the advanced nuclear technology company announcing a major operational milestone.
 
 - **[Oklo's Groves Isotope Test Reactor Achieves First Criticality Following A Controlled, Self-Sustaining Nuclear Chain Reaction At Low Power](https://finnhub.io/api/news?id=6fc28ee48f6ea8364ce67d077c54a1ca94af89517ca2bd680fde0f7a35d400b1)**  
-*Benzinga · 16h前*  
+*Benzinga · 1d前*  
 The milestone comes less than a year after groundbreaking and follows U.S. Department of Energy (DOE) authorization through the DOE Reactor Pilot Program (RPP).…
-
-- **[Project Prometheus: AI Powers Nuclear Energy](https://finnhub.io/api/news?id=dccbe8bd07dfe687961013fb1957f68e29e9263ddd664c56ec2ac959f3d2884c)**  
-*SeekingAlpha · 2d前*  
-Project Prometheus is the first phase two project under the Genesis Mission and targets nuclear energy applications.
 
 ---
 
@@ -59,4 +59,4 @@ Project Prometheus is the first phase two project under the Genesis Mission and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
