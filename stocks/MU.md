@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Micron Shares Surge: What's Driving the Sudden Momentum](https://finnhub.io/api/news?id=b7a78eddf5b8f216b18445f96f4fde08bb1cfcb56156896488dcfcec9648d4fa)**  
-*Yahoo · 4h前*  
-The memory chipmaker still has a bright future.
+- **[AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition](https://finnhub.io/api/news?id=14470c7fe676a501eb55e25a464e454ea42ad2fcf7ed94d61e2717b1eb0b071b)**  
+*Yahoo · 1h前*  
+Advanced Micro Devices (AMD) has announced a definitive agreement to acquire Taalas, a specialist in AI inference silicon, aiming to enhance its compute solutio…
 
-- **[SK hynix Vs. Micron: The Memory Trade Rotates Into The Valuation Gap](https://finnhub.io/api/news?id=bf4aa082aa78d5a1347bf71aaed7739d0909b3233c5254cd45d088491f95cdf9)**  
-*SeekingAlpha · 5h前*  
-SK hynix trades near half of Micron's forward multiple despite HBM leadership. Click to read why you might want to buy SK hynix and sell Micron.
+- **[Micron Technology (NASDAQ:MU): Strong Growth and Technical Setup Quality](https://finnhub.io/api/news?id=ade4728df9853a5764eb0673ad217cbebd3acb74e03a2cda09094344466036d1)**  
+*ChartMill · 1h前*  
+Micron (MU) scores 8/10 fundamentals with explosive growth, strong profitability, and a technical consolidation setup near resistance.
 
-- **[Micron & 2 Profitable Stocks Smart Investors Are Buying in August](https://finnhub.io/api/news?id=f423df5463064de2ce02bf0e73756c0ffc2908df58d39a362f782297735eaaf3)**  
-*Yahoo · 6h前*  
-Micron, BrightSpring Health and Custom Truck One Source combine strong profitability with earnings growth. See why they stand out in August.
+- **[Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock](https://finnhub.io/api/news?id=a25c345a2bf581d92f29fbaf7cd5d7a98754e33684e5a86739134b34e9233be1)**  
+*Yahoo · 3h前*  
+Amazon just raised its artificial intelligence (AI) budget to $220 billion, up from a prior estimate of $200 billion.
 
 ---
 
@@ -59,4 +59,4 @@ Micron, BrightSpring Health and Custom Truck One Source combine strong profitabi
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:04 HKT*
