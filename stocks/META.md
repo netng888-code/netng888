@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[The Unspoken Agreement You've Made Holding Meta Platforms Stock](https://finnhub.io/api/news?id=56b0fb68ec51c927b6ff45195935469ba69eba2bfa3fe4577b872cfc4003c98d)**  
-*Yahoo · 3h前*  
-Owning these shares means signing up for significant price swings, with option pricing reflecting typical levels of market uncertainty.
+- **[British data centre operator to snub London for £19bn stock market listing](https://finnhub.io/api/news?id=01d268999be4728963a708090b17b4901a23d2e9d3aa85e88c46ff390068a719)**  
+*Yahoo · 1h前*  
+One of Britain’s biggest AI companies is planning to float in New York in a new blow to London’s hopes of attracting tech listings.
 
-- **[Meta's AI Safety Test Just Escaped the Lab](https://finnhub.io/api/news?id=dd0cad678537d970863a51b92f6d23b65c8ced4655eda7a06d0ec5167dcdccbf)**  
-*Yahoo · 3h前*  
-A testing partner's misconfiguration reportedly gave the model unintended internet access.
+- **[Where Will Meta Platforms Stock Be in 5 Years?](https://finnhub.io/api/news?id=97c22f3ca026ce1d2d3d0ab12133ab55abf0ea64d9279c92974285175ffba86f)**  
+*Yahoo · 2h前*  
+Investors want to forget about the fact that this dominant company's shares have underperformed the S&P 500 index in the last five years.
 
-- **[$2.9 Billion In Payouts, A Lagging Stock: The SNAP Trade-Off](https://finnhub.io/api/news?id=8206ec0143975facf0368e2c2e36063820241351141604e981b25c49323245cb)**  
-*Yahoo · 3h前*  
-The social media company sent a fortune back to its owners, but the stock went nowhere. Here’s what the cash really bought, and what has to happen next for the …
+- **[Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes](https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f)**  
+*Yahoo · 2h前*  
+(Bloomberg) -- After spending much of the year in the stock market doghouse over fears about their profligate spending on artificial intelligence, the world’s b…
 
 ---
 
@@ -59,4 +59,4 @@ The social media company sent a fortune back to its owners, but the stock went n
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
