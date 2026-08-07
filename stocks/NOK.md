@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,7 +35,7 @@
 Curious about the most active stocks on Tuesday? Find out which stocks are dominating the market action!
 
 - **[Nokia Stock Rallies Tuesday: What's Driving the Rebound?](https://finnhub.io/api/news?id=09738fbbb09b6224c3afe10293af933e234eb37c01c7be0c903a55b0450d9820)**  
-*Benzinga · 2d前*  
+*Benzinga · 3d前*  
 Nokia shares are trading higher on Tuesday, despite a lack of company-specific news for the session. The stock is gaining as AI data center demand and a raised …
 
 ---
@@ -55,4 +55,4 @@ Nokia shares are trading higher on Tuesday, despite a lack of company-specific n
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
