@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,9 +22,9 @@
 |------|------|---------|
 | Gamma Flip | $373.17 | — |
 | Put Wall（支撐） | $360.00 | -6.5% |
-| Call Wall（阻力） | $387.50 | +0.7% |
+| Call Wall（阻力） | $397.50 | +3.3% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
@@ -58,4 +58,4 @@ Teradyne (TER) shares have started gaining and might continue moving higher in t
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:04 HKT*
