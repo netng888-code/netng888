@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Occidental Stock Is Up Today](https://finnhub.io/api/news?id=5897de7a9f14126b2be0a7fabda0af77b65ddea1e65b985a71244332eb0b4b41)**  
+- **[AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition](https://finnhub.io/api/news?id=14470c7fe676a501eb55e25a464e454ea42ad2fcf7ed94d61e2717b1eb0b071b)**  
 *Yahoo · 1h前*  
-Shareholders have larger dividends headed their way.
+Advanced Micro Devices (AMD) has announced a definitive agreement to acquire Taalas, a specialist in AI inference silicon, aiming to enhance its compute solutio…
 
-- **[Nuclear Wipeout: These 5 Nuclear Stocks Are Now Down 44.3% to 82.2%. Time to Buy?](https://finnhub.io/api/news?id=ae536c97f62ba4c6946830706f4df90d764fd25dd62cc54469511d244f0869fc)**  
+- **[2 Space Stocks to Buy in August](https://finnhub.io/api/news?id=177452f580e4cfda37e8c73dfc04faf13ee8c23ec4e390d7ad9ddbcae9d7ca69)**  
 *Yahoo · 1h前*  
-Nuclear investment is still growing, but nuclear share prices have been shrinking.
+The space economy is heating up, and with these two space stocks down about 50% from their highs, now could be an excellent time for investors to scoop up share…
 
-- **[Brookfield (TSX:BN) Completed The Oaktree Acquisition](https://finnhub.io/api/news?id=7efe6485fb01ae4c33de469bde91cecc9497a02a426741fd45e9548c46b714df)**  
+- **[Honeywell Aerospace Tumbles on Disappointing Debut Report, but Bull Case Remains Intact](https://finnhub.io/api/news?id=c8182d2a0c7f4531ca045ccd8f2b486ecd2b42819eb3781cd5bc249ff1831f23)**  
 *Yahoo · 1h前*  
-Brookfield (TSX:BN) has completed its acquisition of Oaktree, expanding its global credit management platform. The company has entered a multi billion dollar jo…
+Honeywell Aerospace cratered after its first earnings report as a standalone company, but the supply chain stumble that spooked investors may be covering up a m…
 
 ---
 
@@ -59,4 +59,4 @@ Brookfield (TSX:BN) has completed its acquisition of Oaktree, expanding its glob
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:04 HKT*
