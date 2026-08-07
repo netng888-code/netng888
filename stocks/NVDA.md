@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$219.22** |
-| 今日變動 | ▲ $7.28　(+3.43%) |
+| 現價 | **$218.99** |
+| 今日變動 | ▼ $0.23　(-0.10%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $591　(▲36.9%) |
+| 未實現盈虧 | ▲ $589　(▲36.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $193.33 | — |
-| Put Wall（支撐） | $200.00 | -8.8% |
-| Call Wall（阻力） | $230.00 | +4.9% |
+| Gamma Flip | $194.80 | — |
+| Put Wall（支撐） | $200.00 | -8.7% |
+| Call Wall（阻力） | $220.00 | +0.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Where Will Rocket Lab Stock Be in 5 Years?](https://finnhub.io/api/news?id=3fd9b59020e75c4835c3fabe7505b9e01b1be53c18aae9c0245b07321c2ddfaf)**  
+- **[Why Occidental Stock Is Up Today](https://finnhub.io/api/news?id=5897de7a9f14126b2be0a7fabda0af77b65ddea1e65b985a71244332eb0b4b41)**  
 *Yahoo · 1h前*  
-What comes next for this space infrastructure company?
+Shareholders have larger dividends headed their way.
 
-- **[Dow Jones Futures Rise But Techs Fall As Sandisk, Western Digital, Datadog Lead Earnings Losers](https://finnhub.io/api/news?id=dab40dc036edf242ee2e0ff25dc741522c9477d44ed9bd74737f7a3c75ff3cad)**  
+- **[Nuclear Wipeout: These 5 Nuclear Stocks Are Now Down 44.3% to 82.2%. Time to Buy?](https://finnhub.io/api/news?id=ae536c97f62ba4c6946830706f4df90d764fd25dd62cc54469511d244f0869fc)**  
 *Yahoo · 1h前*  
-The Dow Jones hit a new high thanks to Nvidia, but Google, SpaceX and AMD weighed on the Nasdaq. Sandisk, Western Digital fell late.
+Nuclear investment is still growing, but nuclear share prices have been shrinking.
 
-- **[Prediction: The S&P 500 Will Pull Back This August. Here's What History Says About the Damage.](https://finnhub.io/api/news?id=8a270e67198dd0477061f7b172de4d42ff2f48adb13e939dc2ad798142c0a06e)**  
+- **[Brookfield (TSX:BN) Completed The Oaktree Acquisition](https://finnhub.io/api/news?id=7efe6485fb01ae4c33de469bde91cecc9497a02a426741fd45e9548c46b714df)**  
 *Yahoo · 1h前*  
-Could the S&P 500 stumble this August? History suggests investors should expect turbulence, but not panic.
+Brookfield (TSX:BN) has completed its acquisition of Oaktree, expanding its global credit management platform. The company has entered a multi billion dollar jo…
 
 ---
 
@@ -48,7 +48,7 @@ Could the S&P 500 stumble this August? History suggests investors should expect 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-06 | 監控 | $219.22 | — | 自動更新 |
+| 2026-08-07 | 監控 | $218.99 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Could the S&P 500 stumble this August? History suggests investors should expect 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
