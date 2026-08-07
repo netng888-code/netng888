@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-06 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$893.19** |
-| 今日變動 | ▲ $0.52　(+0.06%) |
+| 現價 | **$881.47** |
+| 今日變動 | ▼ $11.72　(-1.31%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $335　(▲60.1%) |
+| 未實現盈虧 | ▲ $324　(▲58.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $855.07 | — |
-| Put Wall（支撐） | $800.00 | -10.4% |
-| Call Wall（阻力） | $900.00 | +0.8% |
+| Gamma Flip | $864.14 | — |
+| Put Wall（支撐） | $800.00 | -9.2% |
+| Call Wall（阻力） | $900.00 | +2.1% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What's going on in today's pre-market session: S&P500 movers](https://finnhub.io/api/news?id=91c0194f617b9ce222be9f2c00c78db94f28ee70b970fb642bc4031e439b6786)**  
-*ChartMill · 0h前*  
-As the US market prepares to open on Thursday, let's get an early glimpse into the pre-market session and identify the S&P500 stocks leading the pack in terms o…
+- **[Micron Shares Surge: What's Driving the Sudden Momentum](https://finnhub.io/api/news?id=b7a78eddf5b8f216b18445f96f4fde08bb1cfcb56156896488dcfcec9648d4fa)**  
+*Yahoo · 4h前*  
+The memory chipmaker still has a bright future.
 
-- **[Why Micron and Other Memory Stocks Are Taking Another Hit](https://finnhub.io/api/news?id=0e8bd672ae65e3aa3ce79811dcd1558e6e936faef6709d5320c1a47e56467326)**  
-*Yahoo · 1h前*  
-Shares dip after Sandisk and Western Digital fail to deliver the sort of knockout guidance investors are used to.
+- **[SK hynix Vs. Micron: The Memory Trade Rotates Into The Valuation Gap](https://finnhub.io/api/news?id=bf4aa082aa78d5a1347bf71aaed7739d0909b3233c5254cd45d088491f95cdf9)**  
+*SeekingAlpha · 5h前*  
+SK hynix trades near half of Micron's forward multiple despite HBM leadership. Click to read why you might want to buy SK hynix and sell Micron.
 
-- **[This Comment From Apple CEO Tim Cook Supports Buying the Dip in Micron Stock](https://finnhub.io/api/news?id=491f42d24b72282141ff3d90ebcfda1623256ba6f63da152f284be8dbac0aa8f)**  
-*Yahoo · 1h前*  
-Tim Cook spent considerable time talking about memory prices during Apple's latest earnings call.
+- **[Micron & 2 Profitable Stocks Smart Investors Are Buying in August](https://finnhub.io/api/news?id=f423df5463064de2ce02bf0e73756c0ffc2908df58d39a362f782297735eaaf3)**  
+*Yahoo · 6h前*  
+Micron, BrightSpring Health and Custom Truck One Source combine strong profitability with earnings growth. See why they stand out in August.
 
 ---
 
@@ -48,7 +48,7 @@ Tim Cook spent considerable time talking about memory prices during Apple's late
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-06 | 監控 | $893.19 | — | 自動更新 |
+| 2026-08-07 | 監控 | $881.47 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Tim Cook spent considerable time talking about memory prices during Apple's late
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
