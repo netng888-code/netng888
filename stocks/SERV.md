@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-08-06 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$5.66** |
-| 今日變動 | ▼ $0.03　(-0.53%) |
+| 現價 | **$5.68** |
+| 今日變動 | ▲ $0.02　(+0.35%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $11.743 |
-| 未實現盈虧 | ▼ $182　(▼51.8%) |
+| 未實現盈虧 | ▼ $182　(▼51.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $4.79 | — |
-| Put Wall（支撐） | $5.00 | -11.7% |
-| Call Wall（阻力） | $6.00 | +6.0% |
+| Gamma Flip | $4.86 | — |
+| Put Wall（支撐） | $5.00 | -12.0% |
+| Call Wall（阻力） | $6.00 | +5.6% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,15 +30,9 @@
 
 ## 📰 最新新聞
 
-- **[What's Going On With the Jump in Serve Robotics Stock?](https://finnhub.io/api/news?id=7825aee1d1d3fa50c041828f2a18a411a59d2a60e7ca5b021aa80a711e5f76ec)**  
-*Benzinga · 2d前*  
-Serve Robotics shares are rocketing Monday as investors rush into high-beta growth names ahead of the company&#39;s earnings report.
-
-- **[11 Consumer Discretionary Stocks Moving In Monday's Intraday Session](https://finnhub.io/api/news?id=f1b22e42a7be61fb8fa1963b6c6e52411ad9744fd4c05278be48e119ddcb5541)**  
-*Benzinga · 2d前*  
-Gainers
-
-FST (NASDAQ:KBSX) shares rose 17.2% to $0.99 during Monday&#39;s regular session. The company&#39;s market cap stands at $37.8 million. As per the pres…
+- **[Uber CEO Says 15-Minute Drone Delivery Will Be A 'Magical Experience'](https://finnhub.io/api/news?id=7c35db0c2bf1b63b1314b91655c13d056e4b5659fc637bb12e8d5a5cdd414c4d)**  
+*Benzinga · 1d前*  
+Uber CEO Dara Khosrowshahi believes drones could revolutionize delivery times, improve the customer experience and expand automation.
 
 ---
 
@@ -46,7 +40,7 @@ FST (NASDAQ:KBSX) shares rose 17.2% to $0.99 during Monday&#39;s regular session
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-06 | 監控 | $5.66 | — | 自動更新 |
+| 2026-08-07 | 監控 | $5.68 | — | 自動更新 |
 
 ---
 
@@ -57,4 +51,4 @@ FST (NASDAQ:KBSX) shares rose 17.2% to $0.99 during Monday&#39;s regular session
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 09:05 HKT*
