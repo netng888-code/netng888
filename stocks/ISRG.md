@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,16 +31,16 @@
 ## 📰 最新新聞
 
 - **[Can da Vinci 5 Drive Intuitive Surgical's Next Multi-Year Upgrade Cycle?](https://finnhub.io/api/news?id=262782447449ff61a7c3702f9cf92ea2613dbee793882d07196dcd81e31db6ba)**  
-*Yahoo · 9h前*  
+*Yahoo · 21h前*  
 Intuitive Surgical's da Vinci 5 is gaining rapid adoption, fueling hospital upgrades as software enhancements build a potential multi-year capital cycle.
 
-- **[$1000 Invested In Intuitive Surgical 20 Years Ago Would Be Worth This Much Today](https://finnhub.io/api/news?id=d5b5efe8ce9c91751a588bdf4830ed9e51a367b728d3d5d0511ac7ba1b7aac42)**  
-*Benzinga · 12h前*  
-Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 20 years by 10.15% on an annualized basis producing an average annual return of 19.5%…
+- **[STE Q1 Earnings Beat, Revenues Miss, Stock Dips in Aftermarket Trading](https://finnhub.io/api/news?id=93ed2f326bd23efeabfa6448df1dc7e90b08fe15b5e30db3db486a67c99e3e92)**  
+*Yahoo · 22h前*  
+STERIS beats fiscal Q1 earnings estimates as sales rise 7.3%, but a modest revenue miss sends shares 2.4% lower after hours.
 
-- **[TCW Concentrated Large Cap Growth Fund Q2 2026 Portfolio Update](https://finnhub.io/api/news?id=a4be55e268c5a2f7a9605bc2cc25490523542cfe4ce6f261641d0211a5aa0a3c)**  
-*SeekingAlpha · 21h前*  
-The Fund generated a net return of +15.24% during the second quarter, underperforming the Russell 1000 Growth Index return of +16.74%. Read more here.
+- **[$1000 Invested In Intuitive Surgical 20 Years Ago Would Be Worth This Much Today](https://finnhub.io/api/news?id=d5b5efe8ce9c91751a588bdf4830ed9e51a367b728d3d5d0511ac7ba1b7aac42)**  
+*Benzinga · 1d前*  
+Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 20 years by 10.15% on an annualized basis producing an average annual return of 19.5%…
 
 ---
 
@@ -59,4 +59,4 @@ The Fund generated a net return of +15.24% during the second quarter, underperfo
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
