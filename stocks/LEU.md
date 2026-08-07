@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Centrus Energy Corp. (LEU) Q2 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=e3d93cb5b1ad6c37efcf09d82e1b93bdefa9032136f81f103a14e4ee532a4cfa)**  
-*SeekingAlpha · 8h前*  
+*SeekingAlpha · 20h前*  
 Centrus Energy Corp. (LEU) Q2 2026 Earnings Call August 6, 2026 8:30 AM EDTCompany ParticipantsNeal Nagarajan - Senior VP & Head of Investor...
 
 - **[Centrus Energy Corp. 2026 Q2 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=580cdc5763d983be0d1046c8699003f78e5484733ee428e88e682640398bc04d)**  
-*SeekingAlpha · 8h前*  
+*SeekingAlpha · 20h前*  
 2026-08-06. The following slide deck was published by Centrus Energy Corp.
 
 - **[Centrus Energy Agrees To Supply X-Energy With Enrichment Services For Low-Enriched Uranium And High-Assay Low-Enriched Uranium; Terms Not Disclosed](https://finnhub.io/api/news?id=69b6f15e684052f35f8ab640ff18d5afb3a69e55337feb64c893f81f7bfecb6c)**  
-*Benzinga · 16h前*  
+*Benzinga · 1d前*  
 At full execution, the agreement meaningfully de-risks X-energy&#39;s Xe-100 project pipeline and would secure HALEU to support a portion of the initial fuel ne…
 
 ---
@@ -59,4 +59,4 @@ At full execution, the agreement meaningfully de-risks X-energy&#39;s Xe-100 pro
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
