@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Astera Labs Beat And Guided Higher, Then Fell Because The Rally Came First](https://finnhub.io/api/news?id=1cb53c386d0f0cb5fd2e3b376dcfdcf737bb1eb3a8e7715147ec2fa7d169982d)**  
-*Yahoo · 6h前*  
-A record quarter and a guide above expectations met a stock that had already climbed for four straight sessions, and the mix underneath that growth is what actu…
+- **[AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition](https://finnhub.io/api/news?id=14470c7fe676a501eb55e25a464e454ea42ad2fcf7ed94d61e2717b1eb0b071b)**  
+*Yahoo · 1h前*  
+Advanced Micro Devices (AMD) has announced a definitive agreement to acquire Taalas, a specialist in AI inference silicon, aiming to enhance its compute solutio…
 
-- **[Qualcomm's Largest Revenue Line Is Shrinking From Both Sides](https://finnhub.io/api/news?id=113bc253061b300b6a146d437901d1bccf2f3d18de44dfad26a3f36a0df71d92)**  
-*Yahoo · 6h前*  
-The handset chip business still supplies most of Qualcomm's revenue, and it is now shrinking year over year on the Android side and stepping down on the Apple s…
+- **[Is Broadcom the Best Chip Stock to Own Now? Maybe](https://finnhub.io/api/news?id=3c8475d010eeb292a5a164fa8c3070047dec1571403aafb605fc20afb8feacd3)**  
+*Yahoo · 8h前*  
+Broadcom sits at a tollbooth on the AI buildout, and one look at its order book raises a question worth asking: why are so many chip investors still looking els…
 
-- **[AMD's Record Quarter Landed With A Margin Guide That Did Not Move](https://finnhub.io/api/news?id=3c91c9317a09d7c5502d61402cbe273b3cbc77f04ee263896e50bedf0f61903d)**  
-*Yahoo · 7h前*  
-The next leg of growth runs through AI accelerators, and that is the piece management says carries a gross margin slightly below the company average.
+- **[Where to Invest in AI in 2026: A Guide for Advisors](https://finnhub.io/api/news?id=6d6227310610ca8d6a194360bb69536371e69bf30e11cffb51d577b3879fb1f5)**  
+*Yahoo · 10h前*  
+Where to invest in AI in 2026? Experts from J.P. Morgan, Pictet & Chantico break down AI stocks, ETFs, capex trends, and portfolio strategies for advisors.
 
 ---
 
@@ -59,4 +59,4 @@ The next leg of growth runs through AI accelerators, and that is the piece manag
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:04 HKT*
