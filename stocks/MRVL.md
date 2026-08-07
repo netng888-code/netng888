@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Astera Labs Beat And Guided Higher, Then Fell Because The Rally Came First](https://finnhub.io/api/news?id=1cb53c386d0f0cb5fd2e3b376dcfdcf737bb1eb3a8e7715147ec2fa7d169982d)**  
-*Yahoo · 6h前*  
-A record quarter and a guide above expectations met a stock that had already climbed for four straight sessions, and the mix underneath that growth is what actu…
+- **[B. Riley Financial Q2 Earnings Call Highlights](https://finnhub.io/api/news?id=fcb9451b80008b9686cc7b14eaacea72e47244d9e908ba942fc2f291fab30e81)**  
+*Yahoo · 2h前*  
+B. Riley Financial (NASDAQ:RILY) reported second-quarter net income attributable to common shareholders of $19 million, or $0.45 per diluted share, as its capit…
 
-- **[AMD's Record Quarter Landed With A Margin Guide That Did Not Move](https://finnhub.io/api/news?id=3c91c9317a09d7c5502d61402cbe273b3cbc77f04ee263896e50bedf0f61903d)**  
-*Yahoo · 7h前*  
-The next leg of growth runs through AI accelerators, and that is the piece management says carries a gross margin slightly below the company average.
+- **[Apple Among Three Stocks In Voracious Demand. Funds Also Feast On 14 Others.](https://finnhub.io/api/news?id=c8e51a5c7911f0b7cd49abb0231cf9012f76b82106740c8dedaee2ce40668f6f)**  
+*Yahoo · 2h前*  
+Which stocks are the best mutual funds buying? Marvell, Apple stock and Santander lead as 14 others also make this monthly screen.
 
-- **[Should Investors Hold on to Astera Labs Stock Post Q2 Earnings?](https://finnhub.io/api/news?id=1ad0aa2494e81855104d9b404da1185e13bef34be006fed280a0d112bb3255d3)**  
+- **[Insight Enterprises Q2 Earnings Call Highlights](https://finnhub.io/api/news?id=fae7c16eef46e7c2e0345e01c13c0090e1b7b02f133e7110adc1180f5b665292)**  
 *Yahoo · 7h前*  
-ALAB stock dips after Q2 earnings, but strong AI connectivity demand and upbeat Q3 guidance could shape whether the stock remains worth holding.
+Insight Enterprises (NASDAQ:NSIT) reported second-quarter results that exceeded its expectations, with broad-based growth in hardware, cloud and services helpin…
 
 ---
 
@@ -59,4 +59,4 @@ ALAB stock dips after Q2 earnings, but strong AI connectivity demand and upbeat 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:04 HKT*
