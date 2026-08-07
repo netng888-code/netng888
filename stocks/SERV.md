@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-08-07 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $4.86 | — |
-| Put Wall（支撐） | $5.00 | -12.0% |
+| Put Wall（支撐） | $4.00 | -29.6% |
 | Call Wall（阻力） | $6.00 | +5.6% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
@@ -51,4 +51,4 @@ Uber CEO Dara Khosrowshahi believes drones could revolutionize delivery times, i
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
