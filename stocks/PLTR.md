@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$158.43** |
-| 今日變動 | ▼ $4.23　(-2.60%) |
+| 現價 | **$155.92** |
+| 今日變動 | ▼ $2.51　(-1.58%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $239　(▲27.4%) |
+| 未實現盈虧 | ▲ $221　(▲25.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $122.83 | — |
-| Put Wall（支撐） | $155.00 | -2.2% |
-| Call Wall（阻力） | $160.00 | +1.0% |
+| Gamma Flip | $122.44 | — |
+| Put Wall（支撐） | $155.00 | -0.6% |
+| Call Wall（阻力） | $160.00 | +2.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Cathie Wood’s ARK Buys The Dip In NVDA, CRCL, SPCX Stocks – Dumps PLTR, SHOP, RBLX Shares](https://finnhub.io/api/news?id=4af6a83adf22fc6044cf36fbcd84061a617c74f808cccb960085b1320a1cb686)**  
-*Yahoo · 2h前*  
-ARK Invest added to Circle after the company missed Wall Street's earnings and revenue expectations, and sold Shopify after an earnings beat.
+- **[USA Today Co Inc (TDAY) (Q2 2026) Earnings Call Highlights: AI Partnerships and Record ARPU ...](https://finnhub.io/api/news?id=25bd16d14adf26c8b54c7e169e8a7ed88f11b07a89db45c688457788c33dcbb7)**  
+*Yahoo · 1h前*  
+Despite a dip in total revenue, USA Today Co Inc (TDAY) posts its second consecutive profitable quarter, fueled by surging digital subscription ARPU and a trans…
 
-- **[Palantir CEO Alex Karp Drops an 11-Word Bombshell That Proves Artificial Intelligence (AI) Is Supercharging Software Stocks](https://finnhub.io/api/news?id=83b2cc0613ca99ae7a4c2472a38a80afa50779f8d823308dd9f59706513b105d)**  
+- **[Cathie Wood Dumps $11.4 Million in Palantir Stock](https://finnhub.io/api/news?id=77ed9010f1c3e7bc594c923a4e12e3e63a1caf0ecdfca5155d0e0e3d44e50e46)**  
 *Yahoo · 3h前*  
-Palantir just delivered a monster earnings report.
+Cathie Wood Offloads More Palantir Stock Despite AI Boom
 
-- **[The Zacks Analyst Blog Highlights Broadcom, The Coca-Cola and Palantir](https://finnhub.io/api/news?id=8cee2c1e13a8ac131762613071f023c27edf538ef7f9e624bb5efb3add4a0d57)**  
-*Yahoo · 4h前*  
-Broadcom, Coca-Cola and Palantir are in focus as Zacks highlights AI growth, resilient execution and key risks shaping each company's outlook.
+- **[Peter Thiel Still Owns Roughly 3% of Palantir, a Stake Worth More Than $10 Billion. Here's Why His Continued Conviction Matters for Shareholders.](https://finnhub.io/api/news?id=5a292e32d262018945ef912ed59dcb423cdeeaea37fbfc613fe18b696b944c5c)**  
+*Yahoo · 5h前*  
+The top Silicon Valley investor is sticking with the high-growth data mining company.
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom, Coca-Cola and Palantir are in focus as Zacks highlights AI growth, res
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-06 | 監控 | $158.43 | — | 自動更新 |
+| 2026-08-07 | 監控 | $155.92 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom, Coca-Cola and Palantir are in focus as Zacks highlights AI growth, res
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
