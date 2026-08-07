@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[ASTS Vs. RKLB: Which Space Stock Has More Upside Ahead Of Earnings?](https://finnhub.io/api/news?id=359a8a468a06ff1c650aec0fef8b9a31db28ba64685eed7adcfb6210aff08e31)**  
+*Yahoo · 6h前*  
+Retail sentiment toward both stocks improved to ‘bullish,’ but RKLB leads in watcher growth and share-price performance.
+
 - **[Rocket Lab Corporation (RKLB) Ascends While Market Falls: Some Facts to Note](https://finnhub.io/api/news?id=cf76c4a28b6f45f975574a87b2e61953ac013a81fac903b09f2995a5aee37afc)**  
-*Yahoo · 2h前*  
+*Yahoo · 14h前*  
 In the latest trading session, Rocket Lab Corporation (RKLB) closed at $75.67, marking a +1.14% move from the previous day.
 
 - **[Stock Market Today, Aug. 6: Space Exploration Technologies Rises Despite First Lockup Expiration](https://finnhub.io/api/news?id=426bf961c0f22f48fd38a9983b29d7f724c31e0d5394171a1205a3d78fbc15ce)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 Today, Aug. 6, 2026, insiders gained eligibility to sell 911.5 million shares as the rocket maker's stock climbed 6.14% despite float unlock concerns.
-
-- **[Why Rocket Lab Stock Popped Today](https://finnhub.io/api/news?id=a911f51530d78eac6ae6065e37cc7525927f3e5d9a5637c99a7d1888175ee173)**  
-*Yahoo · 3h前*  
-Rocket Lab Rockets Higher on Blockbuster U.S. Space Force Award
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab Rockets Higher on Blockbuster U.S. Space Force Award
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
