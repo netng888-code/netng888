@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[USA Today Co Inc (TDAY) (Q2 2026) Earnings Call Highlights: AI Partnerships and Record ARPU ...](https://finnhub.io/api/news?id=25bd16d14adf26c8b54c7e169e8a7ed88f11b07a89db45c688457788c33dcbb7)**  
-*Yahoo · 1h前*  
-Despite a dip in total revenue, USA Today Co Inc (TDAY) posts its second consecutive profitable quarter, fueled by surging digital subscription ARPU and a trans…
+- **[Software Stocks Are a Hot Mess. So Is the Whole AI Trade.](https://finnhub.io/api/news?id=4ba04669d4804b864662aee49fadb9f4b6bce682fd865913b2d07ddcf52a1810)**  
+*Yahoo · 2h前*  
+The Fed’s next rate move might actually be a cut, the Clarity Act crypto bill is in doubt, and more news to start your day.
 
-- **[Cathie Wood Dumps $11.4 Million in Palantir Stock](https://finnhub.io/api/news?id=77ed9010f1c3e7bc594c923a4e12e3e63a1caf0ecdfca5155d0e0e3d44e50e46)**  
+- **[Steve Eisman Pushes Back on Michael Burry's Market Top Call: 'I Think It's Premature'](https://finnhub.io/api/news?id=8b6acbbb8e37c153e6a205b4ae67202579f5ec4ee7f332f883b12c9dfe2d06a8)**  
 *Yahoo · 3h前*  
-Cathie Wood Offloads More Palantir Stock Despite AI Boom
+Two investors who called the 2008 housing collapse agree the artificial intelligence trade has a dangerous weak spot. They disagree on whether it is time to bet…
 
-- **[Peter Thiel Still Owns Roughly 3% of Palantir, a Stake Worth More Than $10 Billion. Here's Why His Continued Conviction Matters for Shareholders.](https://finnhub.io/api/news?id=5a292e32d262018945ef912ed59dcb423cdeeaea37fbfc613fe18b696b944c5c)**  
-*Yahoo · 5h前*  
-The top Silicon Valley investor is sticking with the high-growth data mining company.
+- **[Cathie Wood sells $17 million of popular AI stock](https://finnhub.io/api/news?id=ede36a9dd8497b23f87192486443f0addfa8a24e222f82e81a4609c479ed5dc6)**  
+*Yahoo · 8h前*  
+Cathie Wood, head of Ark Investment Management, often trades around earnings, taking advantage of sharp moves in some of her favorite tech stocks. That's exactl…
 
 ---
 
@@ -59,4 +59,4 @@ The top Silicon Valley investor is sticking with the high-growth data mining com
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
