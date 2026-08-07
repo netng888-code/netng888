@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$418.28** |
-| 今日變動 | ▲ $0.12　(+0.03%) |
+| 現價 | **$420.56** |
+| 今日變動 | ▲ $2.29　(+0.55%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▲ $425　(▲11.3%) |
+| 未實現盈虧 | ▲ $448　(▲11.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $384.40 | — |
-| Put Wall（支撐） | $400.00 | -4.4% |
-| Call Wall（阻力） | $420.00 | +0.4% |
+| Gamma Flip | $386.99 | — |
+| Put Wall（支撐） | $400.00 | -4.9% |
+| Call Wall（阻力） | $440.00 | +4.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[How Large Does Your Portfolio Need to Be to Generate $30,000 a Month?](https://finnhub.io/api/news?id=d2dcb2ab8565d0d8f0aae96ae81881eda093038752e451ea5ec27408ef9f16c2)**  
-*Yahoo · 1h前*  
-Replacing a six-figure income with portfolio yield sounds straightforward until you realize the required capital swings by millions depending on which yield tie…
+- **[Astera Labs Beat And Guided Higher, Then Fell Because The Rally Came First](https://finnhub.io/api/news?id=1cb53c386d0f0cb5fd2e3b376dcfdcf737bb1eb3a8e7715147ec2fa7d169982d)**  
+*Yahoo · 6h前*  
+A record quarter and a guide above expectations met a stock that had already climbed for four straight sessions, and the mix underneath that growth is what actu…
 
-- **[Broadcom Is Down 20% From Its All-Time High. Here's Why It's a Screaming Bargain.](https://finnhub.io/api/news?id=b759e469455ba2ed49ec7041eb307367d7ff982e420e7e639e5b40173576ea31)**  
-*Yahoo · 3h前*  
-Broadcom stock looks like a screaming deal at these prices.
+- **[Qualcomm's Largest Revenue Line Is Shrinking From Both Sides](https://finnhub.io/api/news?id=113bc253061b300b6a146d437901d1bccf2f3d18de44dfad26a3f36a0df71d92)**  
+*Yahoo · 6h前*  
+The handset chip business still supplies most of Qualcomm's revenue, and it is now shrinking year over year on the Android side and stepping down on the Apple s…
 
-- **[The Zacks Analyst Blog Highlights Broadcom, The Coca-Cola and Palantir](https://finnhub.io/api/news?id=8cee2c1e13a8ac131762613071f023c27edf538ef7f9e624bb5efb3add4a0d57)**  
-*Yahoo · 4h前*  
-Broadcom, Coca-Cola and Palantir are in focus as Zacks highlights AI growth, resilient execution and key risks shaping each company's outlook.
+- **[AMD's Record Quarter Landed With A Margin Guide That Did Not Move](https://finnhub.io/api/news?id=3c91c9317a09d7c5502d61402cbe273b3cbc77f04ee263896e50bedf0f61903d)**  
+*Yahoo · 7h前*  
+The next leg of growth runs through AI accelerators, and that is the piece management says carries a gross margin slightly below the company average.
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom, Coca-Cola and Palantir are in focus as Zacks highlights AI growth, res
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-06 | 監控 | $418.28 | — | 自動更新 |
+| 2026-08-07 | 監控 | $420.56 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom, Coca-Cola and Palantir are in focus as Zacks highlights AI growth, res
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-07 09:04 HKT*
