@@ -1,9 +1,39 @@
 <!DOCTYPE html>
+<!--
+  premarket-rates-monitor.html  v2
+  ═══════════════════════════════════════════════════
+  v1：3張連結卡直連TradingView個別孳息率symbol page（US10Y/US05Y/
+      US02Y），因為Symbol Overview/Advanced Chart呢兩款TradingView
+      widget測試時撞到realtime data連線限制，改用純click-through
+      連結；配一段「點睇」解讀guide文字。
+
+  v2（2026-08-08）：新增「跨年期孳息曲線」自建圖表——用戶睇到
+      TradingView「Yield Curves」產品頁（tradingview.com/yield-curves/）
+      個一次過對比11個年期 × 現在/1個月前/1年前嘅效果，想加落呢個
+      頁面。搜尋確認TradingView官方embeddable widget庫（Ticker Tape/
+      Advanced Chart/Symbol Overview/Mini Chart/Economic Calendar/
+      Screener）冇「Yield Curve」呢一類，個yield-curves頁面本身同
+      個別symbol page一樣屬於non-embeddable產品頁，冇得塞iframe。
+      改用美國財政部官方Daily Treasury Par Yield Curve Rates XML
+      feed（免費、唔使API key，TradingView個yield-curves頁面用緊
+      嘅其實都係呢份官方數據源）——經futu_bridge_v2.py（v3.0新增
+      /api/yield_curve endpoint）server-side攞，避免瀏覽器CORS
+      限制，前端用Chart.js自己畫線圖+對比表格，完全唔涉及
+      TradingView widget/embed，冇任何授權限制問題（同HSI改用Futu
+      HK.800000、XIN9改用Futu ASHR代理嘅思路一致：唔靠第三方embed，
+      直接攞官方/可靠數據源自己畫）。
+      呢個新圖表需要本機futu_bridge_v2.py運行先有數據；Bridge未
+      連接時會顯示fallback提示文字，唔會令頁面壞晒——底下原有3張
+      連結卡（純TradingView click-through，唔靠bridge）完全唔受
+      影響，隨時可以用嚟核實個別年期現價。
+  ═══════════════════════════════════════════════════
+-->
 <html lang="zh-Hant"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>美債孳息 — 開盤前監測</title>
+<title>美債孳息 — 開盤前監測 (v2)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   :root {
     --bg: #0b0f17; --panel: #131a26; --panel-hover: #1a2333; --border: #232c3d;
@@ -60,7 +90,33 @@
   .tag.high { background: var(--tag-high-bg); color: var(--tag-high-fg); }
   .note { color: var(--muted); font-size: 12px; margin-top: 16px; border-top: 1px dashed var(--border); padding-top: 14px; }
   .note b { color: var(--text); }
+
+  /* ── 跨年期孳息曲線（v2新增）── */
+  .yc-section { margin-bottom: 22px; }
+  .yc-head { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
+  .yc-head h2 { font-size: 14.5px; color: var(--accent); margin: 0; }
+  .yc-controls { display: flex; align-items: center; gap: 10px; }
+  .yc-pill { display: flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; color: var(--muted); background: var(--panel); border: 1px solid var(--border); border-radius: 5px; padding: 4px 10px; }
+  .yc-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); }
+  .yc-dot.live { background: var(--accent); }
+  .yc-refresh { background: var(--panel); border: 1px solid var(--border); color: var(--text); font-family: var(--mono); font-size: 11px; padding: 5px 12px; border-radius: 5px; cursor: pointer; transition: all .15s; }
+  .yc-refresh:hover { border-color: var(--accent); color: var(--accent); }
+  .yc-box { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; }
+  .yc-chart-area { height: 280px; position: relative; }
+  .yc-offline { padding: 40px 16px; text-align: center; color: var(--muted); font-size: 12.5px; line-height: 1.7; }
+  .yc-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 12px; }
+  .yc-stat { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; }
+  .yc-stat-label { font-size: 10.5px; color: var(--muted); margin-bottom: 4px; }
+  .yc-stat-val { font-size: 16px; font-weight: 700; font-family: var(--mono); color: var(--text); }
+  .yc-stat-val.pos { color: var(--tag-low-fg); }
+  .yc-stat-val.neg { color: var(--tag-high-fg); }
+  .yc-table-wrap table { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 11px; }
+  .yc-table-wrap th, .yc-table-wrap td { border-bottom: 1px solid var(--border); padding: 6px 8px; text-align: right; white-space: nowrap; }
+  .yc-table-wrap th:first-child, .yc-table-wrap td:first-child { text-align: left; }
+  .yc-table-wrap th { color: var(--muted); font-weight: 500; }
+  .yc-note { font-size: 11px; color: var(--muted); margin-top: 8px; line-height: 1.6; }
   @media (max-width: 880px) { .grid { grid-template-columns: 1fr; } }
+  @media (max-width: 700px) { .yc-stats { grid-template-columns: 1fr; } .yc-table-wrap { overflow-x: auto; } }
 </style>
 </head>
 <body>
@@ -69,6 +125,22 @@
   <div class="header">
     <h1>美債孳息 — 開盤前快速連結<span class="src-tag">TradingView 官方頁面</span></h1>
     <p>三格直接連去TradingView個別孳息率頁面,真實即市數據(你已確認可以正常顯示),一click睇齊現價、變動同走勢圖。</p>
+  </div>
+
+  <div class="yc-section">
+    <div class="yc-head">
+      <h2>跨年期孳息曲線一覽（1M–30Y，現在 vs 1個月前 vs 1年前）</h2>
+      <div class="yc-controls">
+        <div class="yc-pill"><span class="yc-dot" id="yc-dot"></span><span id="yc-status-text">連接中...</span></div>
+        <button class="yc-refresh" id="yc-refresh-btn">↻ 刷新</button>
+      </div>
+    </div>
+    <div class="yc-box">
+      <div class="yc-chart-area" id="yc-chart-area"><canvas id="yc-canvas"></canvas></div>
+    </div>
+    <div class="yc-stats" id="yc-stats"></div>
+    <div class="yc-box" id="yc-table-wrap"></div>
+    <div class="yc-note">數據源：美國財政部官方 Daily Treasury Par Yield Curve Rates（免費、唔使API key）——經本機 futu_bridge_v2.py（v3.0起 /api/yield_curve）server-side攞，避免瀏覽器CORS限制；同TradingView「Yield Curves」頁面用緊嘅係同一份官方數據，11個年期：1M/3M/6M/1Y/2Y/3Y/5Y/7Y/10Y/20Y/30Y。</div>
   </div>
 
   <div class="grid">
@@ -123,11 +195,133 @@
       <b>點解唔再用inline embed:</b> 試咗Symbol Overview、Advanced 
 Chart兩款widget,合成孳息指數同CBOT國債期貨都一樣畀Claude嘅artifact預覽sandbox擋咗realtime 
 data連線(同symbol種類無關)。直接連去TradingView官方頁面就冇呢個限制,你個screenshot已經證明數據正常。<br><br>
-      <b>下一步(可選):</b> 如果想做到完全自動化(讀數值、設threshold、auto推送Telegram alert),建議用Python嘅<b>yfinance</b>套件,接落你而家用緊嗰套github_gex_updater.py / Task Scheduler pipeline,效果會比JS widget穩陣可靠得多 — 詳情見下面文字回覆。
+      <b>下一步(可選):</b> 如果想做到完全自動化(讀數值、設threshold、auto推送Telegram alert),建議用Python嘅<b>yfinance</b>套件,接落你而家用緊嗰套github_gex_updater.py / Task Scheduler pipeline,效果會比JS widget穩陣可靠得多 — 詳情見下面文字回覆。<br><br>
+      <b>2026-08-08新增(v2)：</b>上面「跨年期孳息曲線」冇呢個限制——唔係TradingView widget，係用自己嘅Chart.js畫圖,數據直接嚟自美國財政部官方XML feed,經futu_bridge_v2.py喺伺服器端攞(唔受瀏覽器CORS限制),所以唔會撞到TradingView anonymous embed嗰種authorization問題。前提係本機bridge要運行緊,離線時個chart區會顯示提示文字,但唔會影響下面3張連結卡。
     </div>
   </div>
 
 </div>
 
+<script>
+// ─── 跨年期孳息曲線（v2新增）─────────────────────────────────────
+// 攞 futu_bridge_v2.py（v3.0起）嘅 /api/yield_curve，用Chart.js
+// 畫現在/1個月前/1年前 × 11個年期嘅曲線，配一個對比表格。
+const BRIDGE = 'http://127.0.0.1:8888';
+const YC_TENOR_LABELS = ['1M','3M','6M','1Y','2Y','3Y','5Y','7Y','10Y','20Y','30Y'];
+let ycChart = null;
+
+function ycFmtDate(iso) {
+  return iso || '—';
+}
+
+function setYcStatus(ok, text) {
+  const dot = document.getElementById('yc-dot');
+  const label = document.getElementById('yc-status-text');
+  if (dot) dot.className = 'yc-dot' + (ok ? ' live' : '');
+  if (label) label.textContent = text;
+}
+
+function ycRenderOffline(msg) {
+  const area = document.getElementById('yc-chart-area');
+  area.innerHTML = `<div class="yc-offline">🔌 ${msg}<br><span style="font-size:11px;color:var(--muted)">你依然可以用返下面3張連結卡直接去TradingView核實個別年期現價。</span></div>`;
+  document.getElementById('yc-table-wrap').innerHTML = '';
+  document.getElementById('yc-stats').innerHTML = '';
+  setYcStatus(false, '未連接');
+}
+
+async function loadYieldCurve() {
+  setYcStatus(false, '載入中...');
+  try {
+    const r = await fetch(`${BRIDGE}/api/yield_curve`, {signal: AbortSignal.timeout(15000)});
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    if (!d.current) throw new Error(d.error || '無數據');
+    renderYieldCurve(d);
+    setYcStatus(true, `已更新 · ${new Date().toLocaleTimeString('en-US',{hour12:false})}${d.cached ? ' (緩存)' : ''}`);
+  } catch (e) {
+    ycRenderOffline('本機Futu Bridge未連接，或Treasury.gov暫時攞唔到數據 —— 呢個圖表需要bridge運行先有數據（避免瀏覽器CORS限制，由bridge server-side攞Treasury官方XML）');
+  }
+}
+
+function renderYieldCurve(d) {
+  const area = document.getElementById('yc-chart-area');
+  if (!document.getElementById('yc-canvas')) {
+    area.innerHTML = '<canvas id="yc-canvas"></canvas>';
+  }
+  const ctx = document.getElementById('yc-canvas').getContext('2d');
+  const seriesFor = snap => YC_TENOR_LABELS.map(t => (snap && snap.rates && snap.rates[t] != null) ? snap.rates[t] : null);
+
+  if (ycChart) { ycChart.destroy(); ycChart = null; }
+  ycChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: YC_TENOR_LABELS,
+      datasets: [
+        { label: `現在 (${ycFmtDate(d.current?.date)})`,     data: seriesFor(d.current),   borderColor:'#4fd1c5', backgroundColor:'rgba(79,209,197,.10)', borderWidth:2.5, pointRadius:3, tension:.2, fill:true },
+        { label: `1個月前 (${ycFmtDate(d.month_ago?.date)})`, data: seriesFor(d.month_ago), borderColor:'#e0c068', borderWidth:1.5, borderDash:[5,3], pointRadius:2, tension:.2 },
+        { label: `1年前 (${ycFmtDate(d.year_ago?.date)})`,    data: seriesFor(d.year_ago),  borderColor:'#ef7b72', borderWidth:1.5, borderDash:[2,2], pointRadius:2, tension:.2 },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { labels: { color:'#d7dee8', font:{size:11,family:"'IBM Plex Mono',monospace"} } },
+        tooltip: {
+          backgroundColor:'#131a26', borderColor:'#232c3d', borderWidth:1,
+          titleColor:'#d7dee8', bodyColor:'#d7dee8',
+          callbacks: { label: c => `${c.dataset.label}: ${c.parsed.y!=null ? c.parsed.y.toFixed(3)+'%' : '—'}` }
+        }
+      },
+      scales: {
+        x: { ticks:{color:'#7c8aa0',font:{size:11}}, grid:{color:'#1a2233'} },
+        y: { ticks:{color:'#7c8aa0',font:{size:11},callback:v=>v.toFixed(1)+'%'}, grid:{color:'#1a2233'} }
+      }
+    }
+  });
+
+  renderYcTable(d);
+  renderYcStats(d);
+}
+
+function renderYcTable(d) {
+  const rows = [
+    {label:'現在',     snap:d.current},
+    {label:'1個月前',  snap:d.month_ago},
+    {label:'1年前',    snap:d.year_ago},
+  ];
+  let html = '<table><thead><tr><th>日期</th>' + YC_TENOR_LABELS.map(t=>`<th>${t}</th>`).join('') + '</tr></thead><tbody>';
+  rows.forEach(r => {
+    html += `<tr><td>${r.label}<br><span style="color:var(--muted);font-size:10px">${ycFmtDate(r.snap?.date)}</span></td>`;
+    YC_TENOR_LABELS.forEach(t => {
+      const v = r.snap && r.snap.rates ? r.snap.rates[t] : null;
+      html += `<td>${v!=null ? v.toFixed(3)+'%' : '—'}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody></table>';
+  document.getElementById('yc-table-wrap').innerHTML = html;
+}
+
+function renderYcStats(d) {
+  const spread = snap => {
+    if (!snap || !snap.rates) return null;
+    const y10 = snap.rates['10Y'], y2 = snap.rates['2Y'];
+    return (y10 != null && y2 != null) ? (y10 - y2) : null;
+  };
+  const cur = spread(d.current), mo = spread(d.month_ago), yr = spread(d.year_ago);
+  const fmtSpread = v => v==null ? '—' : `${v>=0?'+':''}${(v*100).toFixed(0)}bp`;
+  const cls = v => v==null ? '' : (v>=0 ? 'pos' : 'neg');
+  document.getElementById('yc-stats').innerHTML = `
+    <div class="yc-stat"><div class="yc-stat-label">現時 10Y−2Y 利差</div><div class="yc-stat-val ${cls(cur)}">${fmtSpread(cur)}</div></div>
+    <div class="yc-stat"><div class="yc-stat-label">1個月前 10Y−2Y</div><div class="yc-stat-val ${cls(mo)}">${fmtSpread(mo)}</div></div>
+    <div class="yc-stat"><div class="yc-stat-label">1年前 10Y−2Y</div><div class="yc-stat-val ${cls(yr)}">${fmtSpread(yr)}</div></div>
+  `;
+}
+
+document.getElementById('yc-refresh-btn').addEventListener('click', loadYieldCurve);
+loadYieldCurve();
+setInterval(loadYieldCurve, 600000); // 10分鐘——Treasury官方一個交易日只更新一次，唔使太密
+</script>
 
 </body></html>
