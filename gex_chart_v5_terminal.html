@@ -203,13 +203,42 @@
        Futu平台本身限制（淨係反映Regular Trading Hours數據），
        卡片底部已加提示文字講明，盤前/盤後見到數字冇變化屬預期，
        唔係bridge壞咗。
+  v5.11（2026-08-09）【重要bugfix】：修正AI分析「第二次查詢先timeout，
+    第一次正常」嘅間歇性問題——用戶提供OpenRouter usage截圖交叉
+    核實，證實個bug唔喺bridge/AI果邊，而係前端fetch嘅逾時秒數同
+    後端fallback鏈嘅worst-case時間對唔上：
+      前端：runAiAnalysis()嘅fetch用AbortSignal.timeout(35000)，
+      35秒後瀏覽器就會自行放棄，拋出「The operation timed out.」
+      （screenshot見到嘅字面英文訊息，同呢個DOMException嘅.message
+      一字不差，證實真係前端AbortSignal觸發，唔係bridge回報嘅
+      中文錯誤訊息）。
+      後端：futu_bridge_v2.py嘅ask_deepseek()每次OpenRouter call
+      本身有timeout=30；DeepSeek主力逾時/回傳空content時會遞歸
+      call多一次FALLBACK_MODEL(Kimi)，即worst case = 30秒
+      （DeepSeek）+ 30秒（Kimi）= 最多60秒。FastAPI呢個endpoint
+      係sync def、行喺threadpool入面，瀏覽器提早斷開fetch連接
+      唔會令個thread停止運行——backend會繼續行到Kimi call完成
+      為止（唔會理會前端已經放棄），結果就係：用戶見到「timeout」
+      錯誤，但OpenRouter usage dashboard實際上記錄到Kimi K2.5
+      請求真係完成咗、燒咗token，純粹response送唔返去前端（前端
+      個fetch promise已經reject咗，冇嘢等緊接收）。
+      「第一次正常、第二次先timeout」呢個間歇性表現完全符合呢個
+      診斷——DeepSeek回應時間本身有正常波動，大部分時間好快
+      （5-15秒），但一旦某次接近或觸及30秒個ceiling，就會觸發
+      成個fallback鏈，令總時間超出前端35秒嘅等待上限。
+      修正：AbortSignal.timeout(35000) → 70000（70秒）——留返約
+      10秒buffer喺backend理論最大值(30+30=60秒)之上，令前端有
+      耐性等到fallback鏈真正完成先放棄，唔會再喺backend仲運行緊
+      嗰陣就自行斷線、白白浪費咗個成功嘅Kimi回應。呢個純粹係
+      前端等待時間嘅修正，backend嘅30秒/hop設計本身冇問題（已經
+      係刻意留咗嘅生成上限，唔改動），亦冇改AI分析嘅任何邏輯。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.10)</title>
+<title>GEX Chart — Futu Bridge (v5.11)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -1900,7 +1929,7 @@ async function runAiAnalysis() {
   const meta = document.getElementById('ai-meta');
   btn.disabled = true;
   btn.textContent = '⏳ 分析中...';
-  body.innerHTML = '<span class="spin"></span> DeepSeek V4 Flash 分析緊，約5-15秒...';
+  body.innerHTML = '<span class="spin"></span> DeepSeek V4 Flash 分析緊，約5-15秒（如遇fallback最長可達1分鐘）...';
   meta.textContent = '';
   try {
     const price = (liveQuote && liveQuote.T1) || d.spot;
@@ -1925,7 +1954,13 @@ async function runAiAnalysis() {
       if (pf && pf.call_premium != null) params.set('call_premium', pf.call_premium);
       if (pf && pf.put_premium  != null) params.set('put_premium', pf.put_premium);
     }
-    const r = await fetch(`${BRIDGE}/api/ai_analysis/${sym}?${params.toString()}`, {signal:AbortSignal.timeout(35000)});
+    // v5.11【重要bugfix】：舊版35秒——短過backend嘅worst-case
+    // fallback鏈（DeepSeek 30秒 + Kimi 30秒 = 最多60秒），令backend
+    // 仲喺行緊Kimi fallback嗰陣，前端已經自行放棄，用戶見到假嘅
+    // 「timeout」錯誤，但backend其實繼續行完、真係燒咗token，個
+    // 成功回應冇地方送。而家改做70秒，留返約10秒buffer喺60秒
+    // 理論上限之上，詳見頁首v5.11 changelog。
+    const r = await fetch(`${BRIDGE}/api/ai_analysis/${sym}?${params.toString()}`, {signal:AbortSignal.timeout(70000)});
     const j = await r.json();
     if (j.error) throw new Error(j.error);
     body.innerHTML = (j.analysis || '（AI冇回覆內容）').replace(/\n/g, '<br>');
