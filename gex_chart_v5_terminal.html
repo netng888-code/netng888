@@ -177,13 +177,39 @@
     係'YYYY-MM-DD'日期字串（冇時分秒），唔受影響、亦冇shift。K線
     標題右邊加咗個「🕐 時間軸：HKT」小標籤，方便隨時確認依家顯示
     緊邊個時區。
+  v5.10（2026-08-06）：呼應用戶「AI分析要結合散戶K線行為+做市商GEX
+    倉位」同「K線加成交量、加資金分佈/資金流向」兩項請求：
+    1. runAiAnalysis()而家會將散戶K線行為（RSI最後值、近20條bar
+       趨勢%、成交量比率，喺renderPriceChart()計好存入
+       lastKlineStats）同Money Flow（Tick Delta、Order Book
+       Imbalance、期權Call/Put Premium Flow，喺getMoneyFlow()
+       resolve嗰陣存入lastMoneyFlow）一齊帶畀bridge嘅
+       /api/ai_analysis/{sym}，等AI分析可以結合「散戶K線」同
+       「做市商GEX倉位」兩個角度嘅關聯（例如「散戶追買+Dealer
+       Short Gamma」會互相加強波動），唔再淨係得GEX Wall單方面
+       角度。查詢新symbol時（loadGex()）會清空返呢兩個context，
+       避免AI攞到上一隻股票嘅殘留數據。
+    2. K線主圖新增成交量histogram（pcVolume，同K線疊喺pane 0，
+       用獨立price scale擠喺底部18%，唔會撞到K線/MA/布林線價位
+       軸）——直接用bridge/api/kline本身已有嘅bars[].volume，
+       冇改後端。
+    3. 新增「資金分佈 · 資金流向」卡片（Money Flow Dashboard下
+       面），對應Futu App「資金分佈」（特大/大/中/小單買賣拆細，
+       用長條圖顯示買入/賣出佔比）同「資金流向」（分時淨流入
+       走勢，Chart.js長條圖）兩個頁面——用bridge新增嘅
+       /api/capital_dist/{sym}／/api/capital_flow/{sym}
+       endpoint（見futu_bridge_v2.py v2.10 changelog，兩個
+       Futu官方function嘅欄位名已對照官方文件核實）。兩者都受
+       Futu平台本身限制（淨係反映Regular Trading Hours數據），
+       卡片底部已加提示文字講明，盤前/盤後見到數字冇變化屬預期，
+       唔係bridge壞咗。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.9)</title>
+<title>GEX Chart — Futu Bridge (v5.10)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -767,6 +793,25 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
   </div>
 </div>
 
+<!-- 資金分佈 + 資金流向（v5.10新增，對應Futu App「資金分佈」/「資金流向」頁） -->
+<div id="capflow-section" style="display:none">
+  <div class="section-eyebrow">
+    <span class="txt">資金分佈 · 資金流向</span>
+    <span class="tag">FUTU</span>
+    <div class="line"></div>
+  </div>
+  <div class="mf-grid" style="grid-template-columns:1fr 1.6fr">
+    <div class="mf-card" id="capdist-card">
+      <div class="mf-label">資金分佈 <span class="mf-src">Futu 官方 · 特大/大/中/小單</span></div>
+      <div id="capdist-body" class="mf-empty">載入中...</div>
+    </div>
+    <div class="mf-card" id="capflow-card">
+      <div class="mf-label">資金流向（分時） <span class="mf-src">Futu 官方 · 逐分鐘淨流入</span></div>
+      <div id="capflow-body" class="mf-empty">載入中...</div>
+    </div>
+  </div>
+</div>
+
 <!-- Price Chart：K線 + MA + MACD + GEX橫線（Lightweight Charts v5） -->
 <div class="pc-wrap" id="pc-wrap" style="display:none">
   <div class="pc-head">
@@ -793,6 +838,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <span><span class="sw" style="background:#4a9eff"></span>MA20</span>
     <span><span class="sw" style="background:#a78bfa"></span>MA60</span>
     <span><span class="sw" style="background:#8593ad;border-top:1px dashed #8593ad;height:0"></span>布林線(20,2σ)</span>
+    <span><span class="sw" style="background:rgba(0,212,170,0.5)"></span>成交量 <span style="color:var(--border2)">· 貼pane底部</span></span>
     <span><span class="sw" style="background:#e879f9"></span>RSI(14) <span style="color:var(--border2)">· 獨立pane，30/70參考線</span></span>
     <span><span class="sw" style="background:#ffffff;border-top:2px dashed #ffffff;height:0"></span>Gamma Flip</span>
     <span><span class="sw" style="background:#00d4aa;border-top:2px dashed #00d4aa;height:0"></span>Call Wall</span>
@@ -947,10 +993,19 @@ let currentSym = null;
 // ── Price Chart（Lightweight Charts v5）狀態 ────────────────────
 let pcChart, pcCandle, pcMa9, pcMa20, pcMa60, pcMacdHist, pcMacdLine, pcMacdSignal;
 let pcBbUpper, pcBbMiddle, pcBbLower, pcRsi;           // v5.4：布林線 + RSI
+let pcVolume;                                           // v5.10：成交量
 let pcBbVisible = true, pcRsiVisible = true;            // v5.4：切換掣狀態
 let pcPriceLines = [];
 let pcPeriod = 'D';
 let pcInited = false;
+
+// v5.10新增：AI分析結合散戶K線行為 + 做市商GEX倉位用嘅context——
+// lastKlineStats喺renderPriceChart()入面計好（RSI最後值/近期趨勢%/
+// 成交量比率），lastMoneyFlow喺getMoneyFlow().then()嗰陣存低成
+// 原始response。兩者都係查詢新symbol時先更新，runAiAnalysis()call
+// 嗰陣直接讀嚟用，唔使重新fetch。
+let lastKlineStats = null;
+let lastMoneyFlow  = null;
 
 // ── Futu 持倉 + Watchlist（quicklinks 來源）────────────────────
 // 持倉：holdings_US CSV（依市值降序）。改持倉後記得同步更新呢度。
@@ -1450,6 +1505,16 @@ function initPriceChart() {
   pcMa20 = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#4a9eff', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
   pcMa60 = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#a78bfa', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
 
+  // 成交量（v5.10新增，同K線疊喺同一個pane 0，但用自己嘅price scale
+  // 擠喺底部18%，唔會撞到K線/MA/布林線嘅價位軸）——bridge嘅/api/kline
+  // 早就有返bars[].volume呢個欄位，純粹前端加返個histogram顯示，
+  // 冇改過後端。上升K棒用綠色、下跌用紅色，同candle顏色一致。
+  pcVolume = pcChart.addSeries(LightweightCharts.HistogramSeries, {
+    priceFormat: {type:'volume'}, priceScaleId:'volume',
+    lastValueVisible:false, priceLineVisible:false,
+  }, 0);
+  pcChart.priceScale('volume').applyOptions({ scaleMargins: {top:0.82, bottom:0} });
+
   // 布林線（v5.4新增，pane 0同K線疊埋一齊）：用同一種灰藍色、幼線、
   // 半透明，令上下軌唔會同MA9/20/60撞色，亦唔會搶咗K線本身嘅視覺重心
   pcBbUpper  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(133,147,173,0.75)', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dashed, priceLineVisible:false, lastValueVisible:false}, 0);
@@ -1546,6 +1611,35 @@ function renderPriceChart(d) {
 
   // RSI（v5.4，bridge v2.7嘅/api/kline已加返"rsi"欄位）
   pcRsi.setData(toSeries(d.rsi || []));
+
+  // 成交量（v5.10新增，直接用bridge/api/kline本身就有嘅bars[].volume，
+  // 冚糖上升K棒綠色/下跌紅色，同candle一致）
+  pcVolume.setData(d.bars.map(b => ({
+    time: hkTime(b.time), value: b.volume || 0,
+    color: b.close >= b.open ? 'rgba(0,212,170,0.5)' : 'rgba(255,77,109,0.5)',
+  })));
+
+  // v5.10新增：計好散戶K線行為統計（RSI最後值、近20條bar嘅趨勢%、
+  // 最後一條bar成交量相對近期平均嘅比率），存入lastKlineStats俾
+  // runAiAnalysis()用——AI分析而家要結合「散戶K線行為」同「做市商
+  // GEX倉位」，呢批數字一律喺呢度算好先傳落bridge，bridge嗰邊
+  // compute_retail_dealer_context()淨係負責將已經計好嘅數字分類
+  // 做方向性敘述，唔會自己重新計算（同compute_wall_status()原則
+  // 一致）。
+  if (d.bars && d.bars.length) {
+    const N = Math.min(20, d.bars.length);
+    const recent = d.bars.slice(-N);
+    const firstClose = recent[0].close, lastClose = recent[recent.length - 1].close;
+    const trendPct = firstClose ? (lastClose - firstClose) / firstClose * 100 : null;
+    const vols = d.bars.map(b => b.volume).filter(v => v != null && v > 0);
+    const avgVol = vols.length ? vols.reduce((a, b) => a + b, 0) / vols.length : null;
+    const lastVol = d.bars[d.bars.length - 1].volume;
+    const volRatio = (avgVol && lastVol != null) ? lastVol / avgVol : null;
+    const rsiArr = d.rsi || [];
+    let lastRsi = null;
+    for (let i = rsiArr.length - 1; i >= 0; i--) { if (rsiArr[i] != null) { lastRsi = rsiArr[i]; break; } }
+    lastKlineStats = { rsi: lastRsi, trendPct, volRatio };
+  }
 
   pcChart.timeScale().fitContent();
 
@@ -1649,6 +1743,10 @@ async function loadGex(sym) {
   hideAll();
   currentSym = sym;
   highlightActiveQlink(sym);
+  // v5.10：新symbol查詢時清空舊symbol嘅散戶K線/Money Flow context，
+  // 避免AI分析攞到上一隻股票嘅RSI/趨勢/資金流數據
+  lastKlineStats = null;
+  lastMoneyFlow  = null;
 
   // Bridge status
   document.getElementById('d-br').className='dot live';
@@ -1676,8 +1774,12 @@ async function loadGex(sym) {
     renderAll(d, liveQuote, sym);
     clearMsg();
 
-    // Money Flow：唔影響主GEX顯示，失敗都唔throw
-    getMoneyFlow(sym).then(renderMoneyFlow);
+    // Money Flow：唔影響主GEX顯示，失敗都唔throw。v5.10：連埋存低
+    // lastMoneyFlow俾runAiAnalysis()結合散戶行為用
+    getMoneyFlow(sym).then(mf => { lastMoneyFlow = mf; renderMoneyFlow(mf); });
+
+    // 資金分佈 + 資金流向（v5.10新增），獨立fetch，失敗都唔影響主GEX顯示
+    loadCapFlow(sym);
 
     // Price Chart：K線+MA+MACD+GEX橫線，獨立fetch，失敗都唔影響主GEX顯示
     initPriceChart();
@@ -1808,6 +1910,21 @@ async function runAiAnalysis() {
     if (d.call_wall != null) params.set('call_wall', d.call_wall);
     if (d.put_wall  != null) params.set('put_wall', d.put_wall);
     if (d.max_pain  != null) params.set('max_pain', d.max_pain);
+    // v5.10：加埋散戶K線行為（RSI/近期趨勢/成交量比率）+ Money Flow
+    // （Tick Delta/Order Book/期權Premium Flow）context，等AI分析
+    // 可以結合「散戶K線」同「做市商GEX」兩個角度，唔淨係得GEX一邊
+    if (lastKlineStats) {
+      if (lastKlineStats.rsi      != null) params.set('rsi', lastKlineStats.rsi);
+      if (lastKlineStats.trendPct != null) params.set('trend_pct', lastKlineStats.trendPct);
+      if (lastKlineStats.volRatio != null) params.set('vol_ratio', lastKlineStats.volRatio);
+    }
+    if (lastMoneyFlow) {
+      const td = lastMoneyFlow.tick_delta, ob = lastMoneyFlow.order_book, pf = lastMoneyFlow.premium_flow;
+      if (td && td.tick_delta   != null) params.set('tick_delta', td.tick_delta);
+      if (ob && ob.imbalance    != null) params.set('book_imbalance', ob.imbalance);
+      if (pf && pf.call_premium != null) params.set('call_premium', pf.call_premium);
+      if (pf && pf.put_premium  != null) params.set('put_premium', pf.put_premium);
+    }
     const r = await fetch(`${BRIDGE}/api/ai_analysis/${sym}?${params.toString()}`, {signal:AbortSignal.timeout(35000)});
     const j = await r.json();
     if (j.error) throw new Error(j.error);
@@ -1818,6 +1935,115 @@ async function runAiAnalysis() {
   }
   btn.disabled = false;
   btn.textContent = '🤖 重新分析';
+}
+
+// ── 資金分佈 + 資金流向（v5.10新增）─────────────────────────────
+// 用bridge嘅/api/capital_dist/{sym}同/api/capital_flow/{sym}，對應
+// Futu App「資金分佈」（特大/大/中/小單買賣拆細）同「資金流向」
+// （分時淨流入走勢）兩個頁面。兩個endpoint官方文件列明淨係反映
+// Regular Trading Hours數據，盤前/盤後唔會更新——呢個唔係bug，
+// 係Futu平台本身嘅限制（同K線舊版嗰個extended_time問題屬同一類，
+// 但呢兩個endpoint官方完全冇提供盤前盤後版本），非regular時段會
+// 喺卡片度加提示文字講明。
+async function loadCapFlow(sym) {
+  const section = document.getElementById('capflow-section');
+  const distEl  = document.getElementById('capdist-body');
+  const flowEl  = document.getElementById('capflow-body');
+  if (!section) return;
+  section.style.display = '';
+  distEl.className = 'mf-empty'; distEl.textContent = '載入中...';
+  flowEl.className = 'mf-empty'; flowEl.textContent = '載入中...';
+
+  try {
+    const r = await fetch(`${BRIDGE}/api/capital_dist/${sym}`, {signal:AbortSignal.timeout(15000)});
+    const d = await r.json();
+    if (d.error || d.capital_in_super == null) {
+      distEl.innerHTML = `<span style="color:var(--muted)">⚠ ${d.error || '暫無資金分佈數據'}</span>`;
+    } else {
+      renderCapDist(d);
+    }
+  } catch(e) {
+    distEl.innerHTML = `<span style="color:var(--muted)">⚠ 連接失敗</span>`;
+  }
+
+  try {
+    const r2 = await fetch(`${BRIDGE}/api/capital_flow/${sym}`, {signal:AbortSignal.timeout(15000)});
+    const d2 = await r2.json();
+    if (d2.error || !d2.rows || !d2.rows.length) {
+      flowEl.innerHTML = `<span style="color:var(--muted)">⚠ ${d2.error || '暫無資金流向數據'}</span>`;
+    } else {
+      renderCapFlowChart(d2);
+    }
+  } catch(e) {
+    flowEl.innerHTML = `<span style="color:var(--muted)">⚠ 連接失敗</span>`;
+  }
+}
+
+function renderCapDist(d) {
+  const distEl = document.getElementById('capdist-body');
+  const buckets = [
+    {label:'特大單', inV:d.capital_in_super, outV:d.capital_out_super},
+    {label:'大單',   inV:d.capital_in_big,   outV:d.capital_out_big},
+    {label:'中單',   inV:d.capital_in_mid,   outV:d.capital_out_mid},
+    {label:'小單',   inV:d.capital_in_small, outV:d.capital_out_small},
+  ];
+  let totalIn = 0, totalOut = 0;
+  const fmtWan = v => (Math.abs(v || 0) / 1e4).toLocaleString('en-US', {maximumFractionDigits:0});
+  let html = '';
+  buckets.forEach(b => {
+    const inV = b.inV || 0, outV = b.outV || 0;
+    totalIn += inV; totalOut += outV;
+    const sum = inV + outV;
+    const inPct = sum ? (inV / sum * 100) : 50;
+    html += `<div style="margin-bottom:9px">
+      <div style="display:flex;justify-content:space-between;font-size:10.5px;color:var(--muted);margin-bottom:3px">
+        <span>${b.label}</span>
+        <span><span style="color:var(--green)">入${fmtWan(inV)}萬</span> / <span style="color:var(--red)">出${fmtWan(outV)}萬</span></span>
+      </div>
+      <div class="mf-bar-track"><div class="mf-bar-fill" style="width:${inPct}%;background:var(--green)"></div></div>
+    </div>`;
+  });
+  const netFlow = totalIn - totalOut;
+  const netCls  = netFlow >= 0 ? 'var(--green)' : 'var(--red)';
+  const staleTag = d.update_time ? `<span style="color:var(--border2)">· ${d.update_time}</span>` : '';
+  distEl.className = '';
+  distEl.innerHTML = `<div style="font-size:11px;color:var(--muted);margin-bottom:9px">
+      淨流入 <span style="color:${netCls};font-weight:700">${netFlow>=0?'+':''}${fmtWan(netFlow)}萬</span> ${staleTag}
+    </div>${html}
+    <div style="font-size:9.5px;color:var(--border2);margin-top:4px">僅反映Regular Trading Hours（09:30-16:00 ET），盤前/盤後不更新</div>`;
+}
+
+function renderCapFlowChart(d) {
+  const flowEl = document.getElementById('capflow-body');
+  const rows = d.rows;
+  flowEl.className = '';
+  flowEl.innerHTML = '<canvas id="capflow-canvas" style="max-height:150px"></canvas>' +
+    '<div style="font-size:9.5px;color:var(--border2);margin-top:4px">僅反映Regular Trading Hours（09:30-16:00 ET），盤前/盤後不更新'
+    + (d.last_valid_time ? ` · 最後更新 ${d.last_valid_time}` : '') + '</div>';
+  const ctx = document.getElementById('capflow-canvas').getContext('2d');
+  const vals   = rows.map(r => r.in_flow || 0);
+  const labels = rows.map(r => (r.time || '').split(' ')[1] || '');
+  if (window._capFlowChart) window._capFlowChart.destroy();
+  window._capFlowChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        data: vals,
+        backgroundColor: vals.map(v => v >= 0 ? 'rgba(0,212,170,0.7)' : 'rgba(255,77,109,0.7)'),
+        borderRadius: 1,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: {display:false},
+        tooltip: { callbacks: { label: item => `淨流入: ${(item.raw/1e4).toFixed(0)}萬` } } },
+      scales: {
+        x: { ticks:{color:'#4a5568', font:{size:9}, maxTicksLimit:8}, grid:{display:false} },
+        y: { ticks:{color:'#4a5568', font:{size:9}, callback:v=>(v/1e4).toFixed(0)+'萬'}, grid:{color:'rgba(30,36,48,0.6)'} },
+      }
+    }
+  });
 }
 
 // ── Draw Chart ────────────────────────────────────────────────
@@ -1975,6 +2201,7 @@ function hideAll() {
   document.getElementById('levels').style.display='none';
   document.getElementById('chart-wrap').style.display='none';
   document.getElementById('mf-section').style.display='none';
+  document.getElementById('capflow-section').style.display='none';
   document.getElementById('pc-wrap').style.display='none';
   document.getElementById('t1live-pill').style.display='none';
   document.getElementById('ai-section').style.display='none';
