@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$5.68** |
-| 今日變動 | ▲ $0.02　(+0.35%) |
+| 現價 | **$5.08** |
+| 今日變動 | ▼ $0.59　(-10.48%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $11.743 |
-| 未實現盈虧 | ▼ $182　(▼51.6%) |
+| 未實現盈虧 | ▼ $200　(▼56.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $4.86 | — |
-| Put Wall（支撐） | $4.00 | -29.6% |
-| Call Wall（阻力） | $6.00 | +5.6% |
+| Gamma Flip | $4.91 | — |
+| Put Wall（支撐） | $5.00 | -1.7% |
+| Call Wall（阻力） | $10.00 | +96.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,9 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Uber CEO Says 15-Minute Drone Delivery Will Be A 'Magical Experience'](https://finnhub.io/api/news?id=7c35db0c2bf1b63b1314b91655c13d056e4b5659fc637bb12e8d5a5cdd414c4d)**  
-*Benzinga · 1d前*  
-Uber CEO Dara Khosrowshahi believes drones could revolutionize delivery times, improve the customer experience and expand automation.
+- **[Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretly Monitor But Don't Talk About Yet](https://finnhub.io/api/news?id=795016964f69a4ecf03909afd370f20ffc30b218c77daceebaa4cd8593ee4d43)**  
+*Benzinga · 2d前*  
+The Benzinga Stock Whisper Index highlights five stocks seeing increased investor interest during the week and looks at the catalysts driving attention.
+
+- **[Serve Robotics Isn't Managing To Scale (Rating Downgrade)](https://finnhub.io/api/news?id=bac1769d8e57f86a5f09521e53beefd608ac64af1f8b960aa7db07dda1dd6947)**  
+*SeekingAlpha · 2d前*  
+Serve Robotics Inc. reported weak operational momentum in Q2.
+
+- **[Serve Robotics Inc. (SERV) Q2 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=7a70675cfadced21600d62eff4b25335992b9739847b8a092075f749b58d8294)**  
+*SeekingAlpha · 2d前*  
+Serve Robotics Inc. (SERV) Q2 2026 Earnings Call August 6, 2026 5:00 PM EDTCompany ParticipantsSteve Webb - Senior Vice President of Marketing &...
 
 ---
 
@@ -40,7 +48,7 @@ Uber CEO Dara Khosrowshahi believes drones could revolutionize delivery times, i
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-07 | 監控 | $5.68 | — | 自動更新 |
+| 2026-08-10 | 監控 | $5.08 | — | 自動更新 |
 
 ---
 
@@ -51,4 +59,4 @@ Uber CEO Dara Khosrowshahi believes drones could revolutionize delivery times, i
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:05 HKT*
