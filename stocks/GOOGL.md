@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$357.75** |
-| 今日變動 | ▼ $4.68　(-1.29%) |
+| 現價 | **$354.30** |
+| 今日變動 | ▼ $3.45　(-0.96%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,152　(▲100.5%) |
+| 未實現盈虧 | ▲ $2,111　(▲98.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $342.50 | — |
-| Put Wall（支撐） | $350.00 | -2.2% |
-| Call Wall（阻力） | $360.00 | +0.6% |
+| Gamma Flip | $342.85 | — |
+| Put Wall（支撐） | $350.00 | -1.2% |
+| Call Wall（阻力） | $360.00 | +1.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes](https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f)**  
-*Yahoo · 2h前*  
-(Bloomberg) -- After spending much of the year in the stock market doghouse over fears about their profligate spending on artificial intelligence, the world’s b…
+- **[Alphabet's Cloud Computing Business Just Posted 82% Revenue Growth. Next Quarter Could Be Even Better.](https://finnhub.io/api/news?id=738f920c36f1ae89e08534ff143477780c6f2163a073e73b8276d4c6a648931b)**  
+*Yahoo · 4h前*  
+A huge backlog plus massive spending equals incredible revenue growth.
 
-- **[Why Is Rackspace Technology (RXT) Hiring A New AI Infrastructure Leader?](https://finnhub.io/api/news?id=60d2ca734f97d0e3234a6ea951287eb502d6910afe6b975f24b46decf1719d47)**  
-*Yahoo · 2h前*  
-Rackspace Technology (NasdaqGS:RXT) appoints Pranav Nambiar as Senior Vice President and General Manager to lead its AI Infrastructure business. Nambiar brings …
+- **[Berkshire breaks 14-quarter selling streak with $23.5B of stock buys — $10B went to 1 company at a private price](https://finnhub.io/api/news?id=5eb24b8f7c3d0af9762135649795b532a857259f864fd9af849559da5693d66f)**  
+*Yahoo · 5h前*  
+More than 40% of it went into a single private placement, priced about 1% under what public buyers paid in the same deal.
 
-- **[Big Tech is borrowing its way through the AI boom: Chart of the Day](https://finnhub.io/api/news?id=28901c1286a03d569a4a65fefb832eeedb2b84ccdae084af064a8743efa656cb)**  
-*Yahoo · 3h前*  
-Alphabet is borrowing at a historic pace — and it isn't alone.
+- **[Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features](https://finnhub.io/api/news?id=b563b817c44cab4548174be171266ac2b10497054b72f67873e6f2e57e20a0ff)**  
+*Yahoo · 5h前*  
+You can't go anywhere today without hearing people talk about artificial intelligence. AI is seeping into every aspect of our daily lives, for better or worse. …
 
 ---
 
@@ -48,7 +48,7 @@ Alphabet is borrowing at a historic pace — and it isn't alone.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-07 | 監控 | $357.75 | — | 自動更新 |
+| 2026-08-10 | 監控 | $354.30 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Alphabet is borrowing at a historic pace — and it isn't alone.
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 09:06 HKT*
