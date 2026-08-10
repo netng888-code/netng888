@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-10 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Alphabet's Cloud Computing Business Just Posted 82% Revenue Growth. Next Quarter Could Be Even Better.](https://finnhub.io/api/news?id=738f920c36f1ae89e08534ff143477780c6f2163a073e73b8276d4c6a648931b)**  
+- **[48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit](https://finnhub.io/api/news?id=c4850ef1efb39f4b0971e18e6c4b001c66613a10f13b47d07a2080b23900b2a2)**  
+*Yahoo · 1h前*  
+A prominent AI skeptic is making the case that the explosive revenue growth powering Google Cloud, AWS, and Azure traces back to just two companies that have ne…
+
+- **[JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off](https://finnhub.io/api/news?id=9b3b40e6c9c7f9bcbfb95bb22942c5e34ce410b02a047edf8656e7f2c4f3029b)**  
+*Yahoo · 3h前*  
+(Bloomberg) -- JPMorgan Chase & Co. strategists raised their S&P 500 Index forecast for a second time in two months, citing strong corporate earnings and the pa…
+
+- **[Warren Buffett Bought Alphabet Stock Last Year. He Might Buy This Megacap Stock Next, Says a Wall Street Expert.](https://finnhub.io/api/news?id=f57ea8afd003855794d9688fc464e2bfb653eef4e346159a988aeb19b0ed7213)**  
 *Yahoo · 4h前*  
-A huge backlog plus massive spending equals incredible revenue growth.
-
-- **[Berkshire breaks 14-quarter selling streak with $23.5B of stock buys — $10B went to 1 company at a private price](https://finnhub.io/api/news?id=5eb24b8f7c3d0af9762135649795b532a857259f864fd9af849559da5693d66f)**  
-*Yahoo · 5h前*  
-More than 40% of it went into a single private placement, priced about 1% under what public buyers paid in the same deal.
-
-- **[Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features](https://finnhub.io/api/news?id=b563b817c44cab4548174be171266ac2b10497054b72f67873e6f2e57e20a0ff)**  
-*Yahoo · 5h前*  
-You can't go anywhere today without hearing people talk about artificial intelligence. AI is seeping into every aspect of our daily lives, for better or worse. …
+With Netflix trading at its cheapest valuation in three years, the streaming stock could pique Warren Buffett's interest.
 
 ---
 
@@ -59,4 +59,4 @@ You can't go anywhere today without hearing people talk about artificial intelli
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:04 HKT*
