@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-10 09:07 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Reports Monday Night. Wall Street Wants $232 Million and 60% Growth.](https://finnhub.io/api/news?id=7b828af504ad37e6097a7c53d9791e219e5de39b9e905dd1d5586d2ab2d4846c)**  
-*Yahoo · 4h前*  
-A fifth straight quarterly revenue record is the bar -- and the stock climbed 9% on Friday heading into the report.
+- **[Stocks Mostly Up Pre-Bell as Traders Assess Middle East Developments, Await Key Inflation Data](https://finnhub.io/api/news?id=9273470f1c28199053583483cbf4314c9d12dcfb25852f4ee074e25f25140a9b)**  
+*Yahoo · 1h前*  
+The benchmark US stock measures were mostly pointing higher before the opening bell Monday as trader
 
-- **[Inflation Data, Super Micro, Cisco, Rocket Lab, Tapestry, and More to Watch This Week](https://finnhub.io/api/news?id=2196833fa2503ed504da0c249a27b5be9767ce315027ef77e4e98a6a285cd27d)**  
-*Yahoo · 7h前*  
-Economic news this week will include data on consumer and producer prices, existing-home sales, and small-business optimism. As earnings season winds down, we’l…
+- **[Peter Beck's Rocket Lab Fell 30% in a Month While Revenue Grew 63%](https://finnhub.io/api/news?id=511ee12fc559875a463f826632b56e801b25bdb971af1f43bc742d0a67a0fcf7)**  
+*Yahoo · 1h前*  
+Rocket Lab's revenue continues surging to record highs, while the stock is down.
 
-- **[Rocket Lab Is Down 57% From Its Peak While Analysts See 49% Upside. Who Has It Right?](https://finnhub.io/api/news?id=1e3320b2056514678949cddf8eac459f2c52c16e8cc02bdbe518bf97e1cd6c0a)**  
-*Yahoo · 9h前*  
-Spoiler alert: Analysts may be seeing this one more clearly.
+- **[US Equity Investors to Focus on Inflation, Iran Geopolitics, Quarterly Earnings This Week](https://finnhub.io/api/news?id=23890f89f9b88a4e64e41d1f06c973d69254beb8fc9fe6e7dcb5cb14ea62f444)**  
+*Yahoo · 2h前*  
+US equity investors are expected to focus on inflation and Fed speak this week while keeping a close
 
 ---
 
@@ -59,4 +59,4 @@ Spoiler alert: Analysts may be seeing this one more clearly.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 09:07 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:05 HKT*
