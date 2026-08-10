@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-10 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[KOID: Holding An AI CapEx Fund Sold As Humanoid Robotics](https://finnhub.io/api/news?id=bb11fb110992855cba98521f0005e907f820ace06e87dded6f0d9d5c711199cb)**  
+*SeekingAlpha · 6h前*  
+The KraneShares Global Humanoid Robotics and Physical AI Index ETF is rated a hold due to valuation and thematic misalignment. Learn more about the KOID ETF her…
+
 - **[Two AI Names Bounce From Chip Sell-Off; Three More IBD 50 Stocks On Watch](https://finnhub.io/api/news?id=6fc4c2e53ab42f2ed044ed37e1ee37a372fd454ee8c9576e501d72145929a1ae)**  
 *Yahoo · 2d前*  
 Teradyne and Credo Technology are in bases on Thursday. Skyward Specialty Insurance and NetApp also on watch.
 
 - **[Chip Stocks Find Buyers After Earnings Shock Shakes Out AI Trade](https://finnhub.io/api/news?id=8e7fbc035dd720e744a130949fa23f87fbc91716d85b7b9fb7693b77133d3b8e)**  
-*Benzinga · 2d前*  
+*Benzinga · 3d前*  
 Chip stocks attempt to stabilize after AI trade volatility. Rate pause hopes and strong AI demand offset recent earnings guidance jitters.
-
-- **[Terrible Jobs Report Sparks Rally In AI and Tech: 10 Stocks Leading Friday's Surge](https://finnhub.io/api/news?id=07d06119b1075744a6843489de2e699a01317cfa62b1b0dfc3eba4199b6cad1e)**  
-*Benzinga · 2d前*  
-Weak U.S. jobs data boosts hopes for a Fed pause, sending AI chip stocks and other high-beta tech names sharply higher. Here are 10 stocks to watch.
 
 ---
 
@@ -59,4 +59,4 @@ Weak U.S. jobs data boosts hopes for a Fed pause, sending AI chip stocks and oth
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:04 HKT*
