@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-10 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SK Hynix and Samsung Just Sent a Major Warning to Micron Investors](https://finnhub.io/api/news?id=d29b776e04105275fd12381ac14d663ecdb04988ac3d5d8e52a78db5d7e4d6ae)**  
+- **[Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August](https://finnhub.io/api/news?id=06d896163777df42b836f237380644a24032771f3b8c0a1c96ac345ce3a9e3b3)**  
 *Yahoo · 1h前*  
-This detail from their earnings reports could spell trouble for Micron's stock in the long run.
+Valuations for AI hardware stocks faced intense pressures last month, but investors have become more bullish recently.
 
-- **[Unpacking the Latest Pullback in Micron Stock](https://finnhub.io/api/news?id=8663778e8f6a561f7fc0b9ae36a3d6de0b778bb990ee07d5c392df826c71c692)**  
-*Yahoo · 4h前*  
-AI spending worries spread like wildfire.
+- **[Micron’s Memory Boom Is Heading For A Peak, Analyst Warns](https://finnhub.io/api/news?id=644dbd17aafb79fa94d8f56b0b2a34154fc88f71dc8f1aef2d6dbcf6588061fb)**  
+*Yahoo · 3h前*  
+Micron Technology, Inc. (NASDAQ:MU) stock gained about 1% in Monday premarket trading as technology stocks moved higher ahead of the opening bell. Nasdaq future…
 
-- **[Micron Has Surged 207% This Year. Brace for a Steep Pullback.](https://finnhub.io/api/news?id=94308ef42d235b245bc7e10b205a677f62304b920cc33bc7c3c10feb84fe4105)**  
-*Yahoo · 7h前*  
-Micron's business is booming, but slowing memory price gains could quickly test investor expectations.
+- **[Micron Trades at 6 Times Next Year's Earnings. The $38 Billion of Capacity That Ends This Cycle Doesn't Open Until 2028.](https://finnhub.io/api/news?id=1922005264833be86cb75f391e58df358d6c74820799229a4e0a99b418ca2b49)**  
+*Yahoo · 3h前*  
+The memory specialist is priced as if the boom ends imminently. The industry's own construction schedules point years further out.
 
 ---
 
@@ -59,4 +59,4 @@ Micron's business is booming, but slowing memory price gains could quickly test 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:04 HKT*
