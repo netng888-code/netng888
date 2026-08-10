@@ -1,6 +1,6 @@
 # LITE — Lumentum
 
-> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$838.06** |
-| 今日變動 | ▲ $11.80　(+1.43%) |
+| 現價 | **$890.17** |
+| 今日變動 | ▲ $52.11　(+6.22%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $820.000 |
-| 未實現盈虧 | ▲ $18　(▲2.2%) |
+| 未實現盈虧 | ▲ $70　(▲8.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $780.72 | — |
-| Put Wall（支撐） | $800.00 | -4.5% |
-| Call Wall（阻力） | $900.00 | +7.4% |
+| Gamma Flip | $812.48 | — |
+| Put Wall（支撐） | $700.00 | -21.4% |
+| Call Wall（阻力） | $1,000.00 | +12.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Which S&P500 stocks are moving before the opening bell on Friday?](https://finnhub.io/api/news?id=073c54ac6a5c9a52cf67af390cc14433ee433ae80c98f88141a2bf1f9b5787c4)**  
+- **[Get insights into the top movers in the S&P500 index of Monday's pre-market session.](https://finnhub.io/api/news?id=8f8a6c94e14cda994096b4ea274ea3ef41e64e688ce7867132f30f540487144b)**  
 *ChartMill · 0h前*  
-Before the opening bell on Friday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session.
+As the US market prepares to open on Monday, let's get an early glimpse into the pre-market session and identify the S&P500 stocks leading the pack in terms of …
 
-- **[Dow Jones Futures Rise As Cloudflare Leads Big Software Winners; Jobs Report On Tap](https://finnhub.io/api/news?id=b1e25c753b02c86a5d2baa45e56eeb8b224efc6a5bfb8c0c7c63ee53f3e6a028)**  
-*Yahoo · 1h前*  
-Dow Jones futures: The market pauses, but what happens next? Don't buy these AI stocks yet. Cloudflare, Sezzle lead big earnings movers late.
+- **[Dow Jones Futures Fall After Market Ramps Up; Cisco, Lumentum Earnings Ahead](https://finnhub.io/api/news?id=54e528fc6353b326fae9f348ae4935f21675c7b18c61d012b829b1cfa35add4d)**  
+*Yahoo · 9h前*  
+With bulls back in charge, here's what investors should do. Warren Buffett's Berkshire beat views Saturday. Lumentum, Cisco. Applied Materials earnings are on t…
 
-- **[CoreWeave Stock, Nebius Highlight Data Center Earnings; Tech Stars Lumentum, AMAT Also Due](https://finnhub.io/api/news?id=8e8a3c859e79db78eb8423fff3ff730e87bf99b3ae0097dc7f4c7f3b7e1462a3)**  
+- **[Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead](https://finnhub.io/api/news?id=d07f539f863aae63e4ea985f4d3f429c7359be8cae6e4688105987cce16db8df)**  
 *Yahoo · 13h前*  
-CoreWeave stock is stuck in neutral amid strong top-line growth as its second-quarter earnings report approaches. Nebius is also due.
+With bulls back in charge, here's what investors should do. Warren Buffett's Berkshire beat views Saturday. Lumentum, Cisco. Applied Materials earnings are on t…
 
 ---
 
@@ -48,7 +48,7 @@ CoreWeave stock is stuck in neutral amid strong top-line growth as its second-qu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-07 | 監控 | $838.06 | — | 自動更新 |
+| 2026-08-10 | 監控 | $890.17 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ CoreWeave stock is stuck in neutral amid strong top-line growth as its second-qu
 - [TradingView](https://www.tradingview.com/chart/?symbol=LITE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:05 HKT*
