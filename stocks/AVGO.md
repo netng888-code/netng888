@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$420.56** |
-| 今日變動 | ▲ $2.29　(+0.55%) |
+| 現價 | **$427.76** |
+| 今日變動 | ▲ $7.20　(+1.71%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▲ $448　(▲11.9%) |
+| 未實現盈虧 | ▲ $520　(▲13.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $386.99 | — |
-| Put Wall（支撐） | $400.00 | -4.9% |
-| Call Wall（阻力） | $440.00 | +4.6% |
+| Gamma Flip | $387.35 | — |
+| Put Wall（支撐） | $400.00 | -6.5% |
+| Call Wall（阻力） | $450.00 | +5.2% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition](https://finnhub.io/api/news?id=14470c7fe676a501eb55e25a464e454ea42ad2fcf7ed94d61e2717b1eb0b071b)**  
-*Yahoo · 1h前*  
-Advanced Micro Devices (AMD) has announced a definitive agreement to acquire Taalas, a specialist in AI inference silicon, aiming to enhance its compute solutio…
+- **[A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028](https://finnhub.io/api/news?id=825c17b2f2c1865001cc28250b916ff2b10432a8931909117435ee91c1bdbd4f)**  
+*Yahoo · 5h前*  
+Taiwan Semiconductor is a fantastic stock pick.
 
-- **[Is Broadcom the Best Chip Stock to Own Now? Maybe](https://finnhub.io/api/news?id=3c8475d010eeb292a5a164fa8c3070047dec1571403aafb605fc20afb8feacd3)**  
-*Yahoo · 8h前*  
-Broadcom sits at a tollbooth on the AI buildout, and one look at its order book raises a question worth asking: why are so many chip investors still looking els…
+- **[Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?](https://finnhub.io/api/news?id=839ed02a784a723b4186e221b98b5f93319084ad494b5505b6f3cd8ac366d6fc)**  
+*Yahoo · 6h前*  
+Is MRVL a good stock to buy? We came across a bullish thesis on Marvell Technology, Inc. on Compounding Your Wealth’s Substack by Sergey. In this article, we wi…
 
-- **[Where to Invest in AI in 2026: A Guide for Advisors](https://finnhub.io/api/news?id=6d6227310610ca8d6a194360bb69536371e69bf30e11cffb51d577b3879fb1f5)**  
-*Yahoo · 10h前*  
-Where to invest in AI in 2026? Experts from J.P. Morgan, Pictet & Chantico break down AI stocks, ETFs, capex trends, and portfolio strategies for advisors.
+- **[Top Semiconductor Stock Outpacing Nvidia With a 36% Gain Over 6 Months](https://finnhub.io/api/news?id=281b685ec6364503a8f2be16ea0f984ae2e0cd562970fb08f0d9d5f715f121ba)**  
+*Yahoo · 11h前*  
+Broadcom outpaced Nvidia over the past six months and is setting the foundation for continued outperformance.
 
 ---
 
@@ -48,7 +48,7 @@ Where to invest in AI in 2026? Experts from J.P. Morgan, Pictet & Chantico break
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-07 | 監控 | $420.56 | — | 自動更新 |
+| 2026-08-10 | 監控 | $427.76 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Where to invest in AI in 2026? Experts from J.P. Morgan, Pictet & Chantico break
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 09:06 HKT*
