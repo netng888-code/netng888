@@ -138,6 +138,23 @@
     fallback做法一致），底下「真實指數點數」連結卡（純click-through
     去TradingView官網，唔靠bridge）依然完全唔受影響，隨時可以
     用嚟核實。
+
+  v7（2026-08-10）【重要bugfix】：修正跑馬燈間歇性「消失」問題——
+    用戶反映Bridge/OpenD明明已連接（狀態燈都係綠色），但呢條跑馬
+    燈時有時冇，refresh一次見到，跟住又變返「未連接」提示。
+    根源：futu_bridge_v2.py舊版/api/real_indices入面，SPX/NDX/DJI/
+    SOX/NI225/KOSPI呢6隻Yahoo index逐個sequential fetch（每隻獨立
+    timeout=8秒），冷cache（每60秒TTL過期一次，同前端poll interval
+    啱啱好一樣，即幾乎每次poll都撞正冷cache）時總耗時可以去到接近
+    甚至超過8×6=48秒；但呢度嘅fetch用緊AbortSignal.timeout(5000)
+    ——得返5秒，遠遠唔夠backend做完6個sequential call，前端提早
+    放棄顯示「未連接」，但backend其實仲喺度慢慢攞緊，冇壞、純粹
+    前端等得唔夠耐（同gex_chart_v5_terminal.html v5.11個AI分析
+    timeout bugfix屬同一類mismatch）。
+    修正：futu_bridge_v2.py（v3.1起）將6隻Yahoo index改用
+    ThreadPoolExecutor並行攻打，worst case由「6個相加」壓縮做
+    「6個之中最慢嗰個」；呢度前端timeout配合由5秒放寬到20秒，
+    留返安全buffer。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
@@ -633,7 +650,11 @@ function rtShowTickerOffline() {
 
 async function loadIndicesData() {
   try {
-    const r = await fetch(`${BRIDGE}/api/real_indices`, {signal: AbortSignal.timeout(5000)});
+    // v7【重要bugfix】：舊版5秒——backend(v3.1前)舊版6隻Yahoo index
+    // sequential fetch可以去到接近48秒，5秒遠遠唔夠。v3.1起backend
+    // 已經並行化，實際耗時大幅縮短，但呢度仍然留返20秒安全buffer，
+    // 詳見頁首v7 changelog。
+    const r = await fetch(`${BRIDGE}/api/real_indices`, {signal: AbortSignal.timeout(20000)});
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const d = await r.json();
 
