@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$11.83** |
-| 今日變動 | ▲ $1.11　(+10.35%) |
+| 現價 | **$13.59** |
+| 今日變動 | ▲ $1.76　(+14.88%) |
 | 持倉數量 | 80 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $306　(▼24.4%) |
+| 未實現盈虧 | ▼ $165　(▼13.2%) |
 
 ---
 
@@ -20,27 +20,28 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $8.54 | — |
-| Put Wall（支撐） | $12.00 | --1.4% |
-| Call Wall（阻力） | $12.00 | +1.4% |
+| Gamma Flip | $8.56 | — |
+| Put Wall（支撐） | $12.00 | -11.7% |
+| Call Wall（阻力） | $15.00 | +10.4% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Redwire Corporation 2026 Q2 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=8f232653ea3f3bcd42eabc8033f0971a89a2864b35cb05cc6b864d33dea85b4a)**  
-*SeekingAlpha · 23h前*  
-2026-08-06. The following slide deck was published by Redwire Corporation in conjunction with their 2026 Q2 earnings call.
-
-- **[Space Stocks Reignite as Earnings Beats Fuel a Sector Rebound](https://finnhub.io/api/news?id=c433464258f1d3e44d68cc57933faf4373904aac69e9bea072523ae609b9417e)**  
-*ChartMill · 1d前*  
-Space stocks split as earnings beat lifts ViaSat, Redwire, Voyager; Rocket Lab and AST SpaceMobile reports due Aug 10 may decide rebound.
-
-- **[Redwire's SpaceMD Reveals Its First Commercial Mission on SpaceX’s Starfall Spacecraft to Scale In-Space Pharmaceutical Development; SpaceMD Plans To Fly 32 PIL-BOXes  In 2028 On This Starfall Mission](https://finnhub.io/api/news?id=df31dca129a795782cb050f954fb368c0308e4c7ba9a5717132037c11991b819)**  
+- **[Benzinga Bulls And Bears: Palantir, Marvell, AppLovin](https://finnhub.io/api/news?id=d0f9c67598ffdbade8934d2501626965b8caaa3bd05f9a909949b5b01099fec8)**  
 *Benzinga · 1d前*  
-Space Microgravity Development LLC (SpaceMD), a wholly owned subsidiary of Redwire Corporation (NYSE:RDW) and venture company focused on leveraging the microgra…
+Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
+
+- **[Redwire Corporation (RDW) Q2 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=5eebd75bf26251cb17f344cd2539ba08374571e167934e558cc57d563b5d357f)**  
+*SeekingAlpha · 2d前*  
+Redwire Corporation (RDW) Q2 2026 Earnings Call August 6, 2026 9:00 AM EDTCompany ParticipantsAlex Curatolo - Senior Director of Investor RelationsPeter...
+
+- **[10 Industrials Stocks Whale Activity In Today’s Session](https://finnhub.io/api/news?id=58f47eb231a52d3fbbc7f0dfb5f24bbaa6c41278dfe1876b12e3b823eb500825)**  
+*Benzinga · 2d前*  
+This whale alert can help traders discover the next big trading opportunities.
+Whales are entities with large sums of money and we track their transactions here…
 
 ---
 
@@ -48,7 +49,7 @@ Space Microgravity Development LLC (SpaceMD), a wholly owned subsidiary of Redwi
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-07 | 監控 | $11.83 | — | 自動更新 |
+| 2026-08-10 | 監控 | $13.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +60,4 @@ Space Microgravity Development LLC (SpaceMD), a wholly owned subsidiary of Redwi
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 09:06 HKT*
