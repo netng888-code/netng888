@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$155.92** |
-| 今日變動 | ▼ $2.51　(-1.58%) |
+| 現價 | **$172.01** |
+| 今日變動 | ▲ $16.09　(+10.32%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $221　(▲25.4%) |
+| 未實現盈虧 | ▲ $334　(▲38.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $122.44 | — |
-| Put Wall（支撐） | $155.00 | -0.6% |
-| Call Wall（阻力） | $160.00 | +2.6% |
+| Gamma Flip | $135.83 | — |
+| Put Wall（支撐） | $150.00 | -12.8% |
+| Call Wall（阻力） | $170.00 | +-1.2% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Software Stocks Are a Hot Mess. So Is the Whole AI Trade.](https://finnhub.io/api/news?id=4ba04669d4804b864662aee49fadb9f4b6bce682fd865913b2d07ddcf52a1810)**  
-*Yahoo · 2h前*  
-The Fed’s next rate move might actually be a cut, the Clarity Act crypto bill is in doubt, and more news to start your day.
+- **[Stocks Mostly Up Pre-Bell as Traders Assess Middle East Developments, Await Key Inflation Data](https://finnhub.io/api/news?id=9273470f1c28199053583483cbf4314c9d12dcfb25852f4ee074e25f25140a9b)**  
+*Yahoo · 1h前*  
+The benchmark US stock measures were mostly pointing higher before the opening bell Monday as trader
 
-- **[Steve Eisman Pushes Back on Michael Burry's Market Top Call: 'I Think It's Premature'](https://finnhub.io/api/news?id=8b6acbbb8e37c153e6a205b4ae67202579f5ec4ee7f332f883b12c9dfe2d06a8)**  
-*Yahoo · 3h前*  
-Two investors who called the 2008 housing collapse agree the artificial intelligence trade has a dangerous weak spot. They disagree on whether it is time to bet…
+- **[Palantir: A $13.1 Billion Backlog And Investors Are Just Starting To Catch On](https://finnhub.io/api/news?id=33973e1b9a2b96096ff706b82fc9129eb9d9e81e8c0252ab00ff4a232ff2ab9a)**  
+*SeekingAlpha · 4h前*  
+Palantir Technologies Inc. gets a Strong Buy as revenue jumps 93% and backlog hits $13.1B. Click for this updated look at PLTR stock following its Q2 earnings.
 
-- **[Cathie Wood sells $17 million of popular AI stock](https://finnhub.io/api/news?id=ede36a9dd8497b23f87192486443f0addfa8a24e222f82e81a4609c479ed5dc6)**  
-*Yahoo · 8h前*  
-Cathie Wood, head of Ark Investment Management, often trades around earnings, taking advantage of sharp moves in some of her favorite tech stocks. That's exactl…
+- **[Software Had A Winning Week: 3 Stocks I'm Buying](https://finnhub.io/api/news?id=6f8a43c423139d4aa5c5acb0b42021ea7c79f2a847a19d123f097e75c210c24a)**  
+*SeekingAlpha · 5h前*  
+Software stocks surged 8.57% on earningsâPalantir, Zeta & Axon lead.
 
 ---
 
@@ -48,7 +48,7 @@ Cathie Wood, head of Ark Investment Management, often trades around earnings, ta
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-07 | 監控 | $155.92 | — | 自動更新 |
+| 2026-08-10 | 監控 | $172.01 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Cathie Wood, head of Ark Investment Management, often trades around earnings, ta
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:05 HKT*
