@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-10 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Benzinga Bulls And Bears: Palantir, Marvell, AppLovin](https://finnhub.io/api/news?id=d0f9c67598ffdbade8934d2501626965b8caaa3bd05f9a909949b5b01099fec8)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
 
 - **[Redwire Corporation (RDW) Q2 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=5eebd75bf26251cb17f344cd2539ba08374571e167934e558cc57d563b5d357f)**  
@@ -60,4 +60,4 @@ Whales are entities with large sums of money and we track their transactions her
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:05 HKT*
