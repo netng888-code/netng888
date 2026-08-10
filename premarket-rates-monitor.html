@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-  premarket-rates-monitor.html  v2
+  premarket-rates-monitor.html  v3
   ═══════════════════════════════════════════════════
   v1：3張連結卡直連TradingView個別孳息率symbol page（US10Y/US05Y/
       US02Y），因為Symbol Overview/Advanced Chart呢兩款TradingView
@@ -26,13 +26,39 @@
       連接時會顯示fallback提示文字，唔會令頁面壞晒——底下原有3張
       連結卡（純TradingView click-through，唔靠bridge）完全唔受
       影響，隨時可以用嚟核實個別年期現價。
+
+  v3（2026-08-10）【重要bugfix + 版本分支備忘】：用戶反映個chart
+      區一直顯示「未連接」，即使Bridge/OpenD實際上已連接（其他
+      dashboard頁面數據正常）。查證後發現兩層問題：
+      (1) 版本分支：v2嗰次錯誤咁用咗一份較舊嘅futu_bridge_v2.py
+          v2.9重構base嚟起/api/yield_curve，冇留意到用戶實際運行
+          緊嘅係已經加咗資金分佈/資金流向endpoint嘅v2.10——即係話
+          就算用戶當時試過部署v2嗰份bridge delivery，個endpoint
+          都根本唔存在（因為個base版本本身就冇），fetch會直接
+          404，前端見到嘅「未連接」係真嘅冇呢個endpoint，唔係
+          純粹timeout。futu_bridge_v2.py而家已經喺你實際運行緊嘅
+          v2.10 base上面重新加返/api/yield_curve（v3.0），呢次
+          兩個功能（資金分佈/資金流向 + 孳息曲線）齊集，唔會再
+          有分支各自發展嘅問題。
+      (2) 即使endpoint本身冇問題，backend舊版設計都有一個獨立嘅
+          timeout mismatch：get_yield_curve_snapshot()逐個
+          sequential攞現在/1個月前/1年前三個快照，每個快照內部
+          又可能要試最多3個月先搵到數據（每次Treasury.gov XML
+          fetch timeout=10秒），worst case 3快照×3個月×10秒=
+          最多90秒，但呢度嘅fetch得返15秒timeout，backend仲運行
+          緊、前端已經放棄（同gex_chart_v5_terminal.html v5.11
+          個AI分析timeout bugfix、v5.12個跑馬燈timeout bugfix
+          屬同一類問題）。修正：futu_bridge_v2.py（v3.1起）三個
+          快照改用ThreadPoolExecutor並行攻打，worst case壓縮做
+          「三者之中最慢嗰個」（約30秒）；呢度前端timeout由15秒
+          放寬到40秒，留返安全buffer。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-Hant"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>美債孳息 — 開盤前監測 (v2)</title>
+<title>美債孳息 — 開盤前監測 (v3)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   :root {
@@ -232,7 +258,12 @@ function ycRenderOffline(msg) {
 async function loadYieldCurve() {
   setYcStatus(false, '載入中...');
   try {
-    const r = await fetch(`${BRIDGE}/api/yield_curve`, {signal: AbortSignal.timeout(15000)});
+    // v3【重要bugfix】：舊版15秒——backend(v3.1前)舊版三個快照
+    // sequential fetch，每個內部最多試3個月(每次10秒timeout)，
+    // worst case可以去到90秒，15秒遠遠唔夠。v3.1起backend已經
+    // 用ThreadPoolExecutor並行攞三個快照，worst case壓縮到約
+    // 30秒，呢度放寬到40秒留返安全buffer，詳見頁首v3 changelog。
+    const r = await fetch(`${BRIDGE}/api/yield_curve`, {signal: AbortSignal.timeout(40000)});
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const d = await r.json();
     if (!d.current) throw new Error(d.error || '無數據');
