@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-10 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead](https://finnhub.io/api/news?id=d07f539f863aae63e4ea985f4d3f429c7359be8cae6e4688105987cce16db8df)**  
+- **[Peter Beck's Rocket Lab Fell 30% in a Month While Revenue Grew 63%](https://finnhub.io/api/news?id=511ee12fc559875a463f826632b56e801b25bdb971af1f43bc742d0a67a0fcf7)**  
 *Yahoo · 1h前*  
-With bulls back in charge, here's what investors should do. Warren Buffett's Berkshire beat views Saturday. Lumentum, Cisco. Applied Materials earnings are on t…
+Rocket Lab's revenue continues surging to record highs, while the stock is down.
 
-- **[SK Hynix and Samsung Just Sent a Major Warning to Micron Investors](https://finnhub.io/api/news?id=d29b776e04105275fd12381ac14d663ecdb04988ac3d5d8e52a78db5d7e4d6ae)**  
+- **[Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August](https://finnhub.io/api/news?id=06d896163777df42b836f237380644a24032771f3b8c0a1c96ac345ce3a9e3b3)**  
 *Yahoo · 1h前*  
-This detail from their earnings reports could spell trouble for Micron's stock in the long run.
+Valuations for AI hardware stocks faced intense pressures last month, but investors have become more bullish recently.
 
-- **[The Federal Reserve Just Released Its August Inflation Forecast, and It Could Put the FOMC on a Collision Course for Its September Meeting](https://finnhub.io/api/news?id=4e5563acfa8d52a700e45a7db0158248742249b2b70a953f12e7c71514beb6c5)**  
+- **[Does Jamie Dimon Know Something That Wall Street Doesn't? He Just Sent the Market a Clear Warning Shot.](https://finnhub.io/api/news?id=a1e0875ca7bcb0cb4ea79193e84a22a20528ac46c273260a9fa2d715171bb4d5)**  
 *Yahoo · 1h前*  
-The market is unclear whether the Fed will hike interest rates at its September meeting.
+Jamie Dimon is one of the most experienced CEOs in the world.
 
 ---
 
@@ -59,4 +59,4 @@ The market is unclear whether the Fed will hike interest rates at its September 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:04 HKT*
