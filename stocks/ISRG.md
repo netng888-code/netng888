@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$373.71** |
-| 今日變動 | ▼ $1.49　(-0.40%) |
+| 現價 | **$378.81** |
+| 今日變動 | ▲ $5.10　(+1.36%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $159　(▼17.5%) |
+| 未實現盈虧 | ▼ $149　(▼16.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $375.38 | — |
-| Put Wall（支撐） | $350.00 | -6.3% |
-| Call Wall（阻力） | $380.00 | +1.7% |
+| Gamma Flip | $387.91 | — |
+| Put Wall（支撐） | $350.00 | -7.6% |
+| Call Wall（阻力） | $400.00 | +5.6% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Can da Vinci 5 Drive Intuitive Surgical's Next Multi-Year Upgrade Cycle?](https://finnhub.io/api/news?id=262782447449ff61a7c3702f9cf92ea2613dbee793882d07196dcd81e31db6ba)**  
-*Yahoo · 21h前*  
-Intuitive Surgical's da Vinci 5 is gaining rapid adoption, fueling hospital upgrades as software enhancements build a potential multi-year capital cycle.
+- **[Intuitive Surgical (ISRG) Stock Looks Fairly Valued Despite Its 33% Slide](https://finnhub.io/api/news?id=d2317de655bbe9049b1e6c799ed3a0c71d3b83931654cecd4b996611ac38f945)**  
+*Yahoo · 1d前*  
+Intuitive Surgical stock has had a difficult start to 2026, with the share price down 32.6% year to date, while the Discounted Cash Flow (DCF) intrinsic value e…
 
-- **[STE Q1 Earnings Beat, Revenues Miss, Stock Dips in Aftermarket Trading](https://finnhub.io/api/news?id=93ed2f326bd23efeabfa6448df1dc7e90b08fe15b5e30db3db486a67c99e3e92)**  
-*Yahoo · 22h前*  
-STERIS beats fiscal Q1 earnings estimates as sales rise 7.3%, but a modest revenue miss sends shares 2.4% lower after hours.
+- **[What Do Intuitive Surgical (ISRG) Bylaw Changes Mean For Shareholders?](https://finnhub.io/api/news?id=7cbd53db13a7cfee031498f91e806bf8146cd2a88785a2f6119eb9100f4fe04c)**  
+*Yahoo · 1d前*  
+Intuitive Surgical (NasdaqGS: ISRG) has approved amendments to its bylaws, updating shareholder voting rules, nomination processes, and procedural requirements …
 
-- **[$1000 Invested In Intuitive Surgical 20 Years Ago Would Be Worth This Much Today](https://finnhub.io/api/news?id=d5b5efe8ce9c91751a588bdf4830ed9e51a367b728d3d5d0511ac7ba1b7aac42)**  
-*Benzinga · 1d前*  
-Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 20 years by 10.15% on an annualized basis producing an average annual return of 19.5%…
+- **[Medtronic vs. Intuitive Surgical: Which MedTech Stock Is the Better Buy Right Now?](https://finnhub.io/api/news?id=3c5b80e1d6367d6c3134d7ed2dbab5b1d0b0d318b656d268af63da5b1b6a3785)**  
+*Yahoo · 1d前*  
+They are going through a rough patch, but it's too early to give up on them.
 
 ---
 
@@ -48,7 +48,7 @@ Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 20 ye
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-07 | 監控 | $373.71 | — | 自動更新 |
+| 2026-08-10 | 監控 | $378.81 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 20 ye
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:05 HKT*
