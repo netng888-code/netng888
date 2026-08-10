@@ -203,35 +203,29 @@
        Futu平台本身限制（淨係反映Regular Trading Hours數據），
        卡片底部已加提示文字講明，盤前/盤後見到數字冇變化屬預期，
        唔係bridge壞咗。
-  v5.11（2026-08-09）【重要bugfix】：修正AI分析「第二次查詢先timeout，
-    第一次正常」嘅間歇性問題——用戶提供OpenRouter usage截圖交叉
-    核實，證實個bug唔喺bridge/AI果邊，而係前端fetch嘅逾時秒數同
-    後端fallback鏈嘅worst-case時間對唔上：
-      前端：runAiAnalysis()嘅fetch用AbortSignal.timeout(35000)，
-      35秒後瀏覽器就會自行放棄，拋出「The operation timed out.」
-      （screenshot見到嘅字面英文訊息，同呢個DOMException嘅.message
-      一字不差，證實真係前端AbortSignal觸發，唔係bridge回報嘅
-      中文錯誤訊息）。
-      後端：futu_bridge_v2.py嘅ask_deepseek()每次OpenRouter call
-      本身有timeout=30；DeepSeek主力逾時/回傳空content時會遞歸
-      call多一次FALLBACK_MODEL(Kimi)，即worst case = 30秒
-      （DeepSeek）+ 30秒（Kimi）= 最多60秒。FastAPI呢個endpoint
-      係sync def、行喺threadpool入面，瀏覽器提早斷開fetch連接
-      唔會令個thread停止運行——backend會繼續行到Kimi call完成
-      為止（唔會理會前端已經放棄），結果就係：用戶見到「timeout」
-      錯誤，但OpenRouter usage dashboard實際上記錄到Kimi K2.5
-      請求真係完成咗、燒咗token，純粹response送唔返去前端（前端
-      個fetch promise已經reject咗，冇嘢等緊接收）。
-      「第一次正常、第二次先timeout」呢個間歇性表現完全符合呢個
-      診斷——DeepSeek回應時間本身有正常波動，大部分時間好快
-      （5-15秒），但一旦某次接近或觸及30秒個ceiling，就會觸發
-      成個fallback鏈，令總時間超出前端35秒嘅等待上限。
-      修正：AbortSignal.timeout(35000) → 70000（70秒）——留返約
-      10秒buffer喺backend理論最大值(30+30=60秒)之上，令前端有
-      耐性等到fallback鏈真正完成先放棄，唔會再喺backend仲運行緊
-      嗰陣就自行斷線、白白浪費咗個成功嘅Kimi回應。呢個純粹係
-      前端等待時間嘅修正，backend嘅30秒/hop設計本身冇問題（已經
-      係刻意留咗嘅生成上限，唔改動），亦冇改AI分析嘅任何邏輯。
+  v5.11（2026-08-09）：實現「Dealer Gamma變化率／Call Wall有冇
+    移動」day-over-day趨勢視覺化，對應bridge v2.11新增嘅gex
+    snapshot歷史持久化（見futu_bridge_v2.py同一次changelog）：
+    1. 新增「📈 Dealer Gamma／資金流趨勢」橫幅（Levels卡同AI分析
+       卡之間），renderTrendBanner()將bridge /api/gex同/api/
+       moneyflow回應入面新增嘅"trend"欄位直接視覺化俾用戶睇（唔
+       淨係收埋喺AI文字入面）——例如「Net GEX：+8.2M → +10.6M
+       （↑29%）」／「Call Wall：$160.00 → $165.00（上移，市場
+       開始追價）」，同用戶原本個mockup格式一致。第一日部署（未
+       有歷史快照）會顯示「未有可比較嘅歷史快照」提示，唔會靜靜
+       雞冇反應。GEX trend一攞到（renderAll()尾段）即刻render一
+       次，Money Flow trend遲吓resolve就再merge埋一齊重render。
+    2. runAiAnalysis()新增gex_trend／mf_trend兩個參數（將trend
+       object JSON.stringify()之後傳畀bridge嘅/api/ai_analysis），
+       等AI分析結合埋呢個day-over-day趨勢一齊解讀（見prompt新增
+       第4點）。
+    3. 順手發現前端AbortSignal逾時（35秒）本身就短過backend嘅
+       ask_deepseek() fallback鏈理論上限（DeepSeek 30秒+Kimi
+       fallback 30秒＝最多60秒）——如果DeepSeek嗰次啱啱好慢、
+       觸發咗fallback，前端會喺backend仲運算緊嗰陣就自行放棄，
+       用戶見到「timeout」但其實backend後尾都計完咗，純粹送唔返
+       去前端。順帶攞正：35000→70000（70秒），留返充足buffer喺
+       60秒理論上限之上。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
@@ -779,6 +773,12 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <div class="lc-val" style="font-size:13px;line-height:1.4" id="lv-status">—</div>
     <div class="lc-sub" id="lv-status-sub">—</div>
   </div>
+</div>
+
+<!-- Dealer Gamma / 資金流趨勢（v5.11新增，同上次快照day-over-day比較） -->
+<div class="ai-wrap" id="trend-banner" style="display:none;padding:12px 18px">
+  <div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px">📈 Dealer Gamma／資金流趨勢 <span style="color:var(--border2);text-transform:none;letter-spacing:0">· 同上次有記錄嘅交易日比較</span></div>
+  <div id="trend-banner-body" style="font-size:12.5px;color:var(--text);line-height:1.9"></div>
 </div>
 
 <!-- AI 分析（v5.4新增） -->
@@ -1805,7 +1805,7 @@ async function loadGex(sym) {
 
     // Money Flow：唔影響主GEX顯示，失敗都唔throw。v5.10：連埋存低
     // lastMoneyFlow俾runAiAnalysis()結合散戶行為用
-    getMoneyFlow(sym).then(mf => { lastMoneyFlow = mf; renderMoneyFlow(mf); });
+    getMoneyFlow(sym).then(mf => { lastMoneyFlow = mf; renderMoneyFlow(mf); renderTrendBanner(lastData?.d?.trend, mf?.trend); });
 
     // 資金分佈 + 資金流向（v5.10新增），獨立fetch，失敗都唔影響主GEX顯示
     loadCapFlow(sym);
@@ -1906,6 +1906,65 @@ function renderAll(d, lq, sym) {
   document.getElementById('chart-title-txt').textContent =
     `${sym} GEX by Strike（單位：百萬）`;
   drawChart(d, spot, flip, callWall, putWall);
+
+  // Dealer Gamma／資金流趨勢（v5.11新增）——GEX trend呢個時候已經有
+  // （bridge/api/gex response本身帶埋），Money Flow trend遲吓resolve
+  // 先再merge埋一齊重render一次（見loadGex()嗰句getMoneyFlow().then）
+  renderTrendBanner(d.trend, lastMoneyFlow?.trend);
+}
+
+// ── Dealer Gamma／資金流趨勢橫幅（v5.11新增）─────────────────────
+// 用bridge嘅/api/gex同/api/moneyflow回應入面新增嘅"trend"欄位
+// （見futu_bridge_v2.py v2.11：_compute_gex_trend()／
+// _compute_moneyflow_trend()），將day-over-day變化直接視覺化俾用戶
+// 睇（唔淨係收埋喺AI文字入面）——對應用戶mockup「昨天+8.2M→今天
+// +10.6M↑29%」／「Call Wall 160→165上移，代表市場開始追價」呢種
+// 格式。第一日部署（未有歷史快照）會顯示提示文字，唔會靜靜雞冇
+// 反應或報錯。
+function renderTrendBanner(gexTrend, mfTrend) {
+  const el   = document.getElementById('trend-banner');
+  const body = document.getElementById('trend-banner-body');
+  if (!el || !body) return;
+  const parts = [];
+
+  if (gexTrend && gexTrend.available) {
+    if (gexTrend.net_gex_pct_change != null) {
+      const pct = gexTrend.net_gex_pct_change;
+      const up  = pct >= 0;
+      parts.push(
+        `Net GEX：${gexTrend.net_gex_prev>=0?'+':''}${gexTrend.net_gex_prev.toFixed(1)}M → `+
+        `<b style="color:${up?'var(--green)':'var(--red)'}">${gexTrend.net_gex_curr>=0?'+':''}${gexTrend.net_gex_curr.toFixed(1)}M`+
+        `（${up?'↑':'↓'}${Math.abs(pct).toFixed(0)}%）</b>`
+      );
+    }
+    if (gexTrend.call_wall_delta) {
+      const d = gexTrend.call_wall_delta;
+      parts.push(`Call Wall：$${gexTrend.call_wall_prev.toFixed(2)} → $${gexTrend.call_wall_curr.toFixed(2)}`+
+        `（<b style="color:var(--green)">${d>0?'上移':'下移'}</b>${d>0?'，市場開始追價':''}）`);
+    }
+    if (gexTrend.put_wall_delta) {
+      const d = gexTrend.put_wall_delta;
+      parts.push(`Put Wall：$${gexTrend.put_wall_prev.toFixed(2)} → $${gexTrend.put_wall_curr.toFixed(2)}（${d>0?'上移':'下移'}）`);
+    }
+    if (gexTrend.dealer_bias_changed) {
+      parts.push(`Dealer姿態：<b style="color:var(--amber)">${gexTrend.dealer_bias_prev} → ${gexTrend.dealer_bias_curr}</b>`);
+    }
+  } else if (gexTrend && gexTrend.available === false) {
+    parts.push(`<span style="color:var(--muted)">${gexTrend.note || '未有可比較嘅歷史快照'}</span>`);
+  }
+
+  if (mfTrend && mfTrend.available && mfTrend.call_pct_delta != null) {
+    const d = mfTrend.call_pct_delta;
+    parts.push(`期權Call Premium佔比：${mfTrend.call_pct_prev.toFixed(0)}% → ${mfTrend.call_pct_curr.toFixed(0)}%（${d>0?'轉強':d<0?'轉弱':'持平'}）`);
+  }
+
+  if (!parts.length) {
+    body.innerHTML = `<span style="color:var(--muted)">載入緊...</span>`;
+    el.style.display = '';
+    return;
+  }
+  body.innerHTML = parts.join('&nbsp;&nbsp;·&nbsp;&nbsp;');
+  el.style.display = '';
 }
 
 // ── AI 分析（v5.4新增，call bridge v2.7嘅/api/ai_analysis/{sym}）───
@@ -1929,7 +1988,7 @@ async function runAiAnalysis() {
   const meta = document.getElementById('ai-meta');
   btn.disabled = true;
   btn.textContent = '⏳ 分析中...';
-  body.innerHTML = '<span class="spin"></span> DeepSeek V4 Flash 分析緊，約5-15秒（如遇fallback最長可達1分鐘）...';
+  body.innerHTML = '<span class="spin"></span> DeepSeek V4 Flash 分析緊，約5-15秒...';
   meta.textContent = '';
   try {
     const price = (liveQuote && liveQuote.T1) || d.spot;
@@ -1954,12 +2013,12 @@ async function runAiAnalysis() {
       if (pf && pf.call_premium != null) params.set('call_premium', pf.call_premium);
       if (pf && pf.put_premium  != null) params.set('put_premium', pf.put_premium);
     }
-    // v5.11【重要bugfix】：舊版35秒——短過backend嘅worst-case
-    // fallback鏈（DeepSeek 30秒 + Kimi 30秒 = 最多60秒），令backend
-    // 仲喺行緊Kimi fallback嗰陣，前端已經自行放棄，用戶見到假嘅
-    // 「timeout」錯誤，但backend其實繼續行完、真係燒咗token，個
-    // 成功回應冇地方送。而家改做70秒，留返約10秒buffer喺60秒
-    // 理論上限之上，詳見頁首v5.11 changelog。
+    // v5.11：加埋Dealer Gamma／資金流day-over-day趨勢（bridge嘅
+    // /api/gex同/api/moneyflow response而家帶埋"trend"欄位，見
+    // futu_bridge_v2.py v2.11）。用JSON.stringify()傳，backend
+    // 用json.loads()解返，避免將巢狀object逐個field拆做URL param。
+    if (d.trend)                params.set('gex_trend', JSON.stringify(d.trend));
+    if (lastMoneyFlow?.trend)   params.set('mf_trend',   JSON.stringify(lastMoneyFlow.trend));
     const r = await fetch(`${BRIDGE}/api/ai_analysis/${sym}?${params.toString()}`, {signal:AbortSignal.timeout(70000)});
     const j = await r.json();
     if (j.error) throw new Error(j.error);
@@ -2237,6 +2296,7 @@ function hideAll() {
   document.getElementById('chart-wrap').style.display='none';
   document.getElementById('mf-section').style.display='none';
   document.getElementById('capflow-section').style.display='none';
+  document.getElementById('trend-banner').style.display='none';
   document.getElementById('pc-wrap').style.display='none';
   document.getElementById('t1live-pill').style.display='none';
   document.getElementById('ai-section').style.display='none';
