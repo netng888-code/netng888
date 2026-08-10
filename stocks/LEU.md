@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 09:07 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$178.03** |
-| 今日變動 | ▼ $9.60　(-5.12%) |
+| 現價 | **$191.37** |
+| 今日變動 | ▲ $13.34　(+7.49%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $156　(▼9.9%) |
+| 未實現盈虧 | ▼ $49　(▼3.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $174.59 | — |
-| Put Wall（支撐） | $150.00 | -15.7% |
-| Call Wall（阻力） | $200.00 | +12.3% |
+| Gamma Flip | $175.43 | — |
+| Put Wall（支撐） | $185.00 | -3.3% |
+| Call Wall（阻力） | $200.00 | +4.5% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Centrus Energy Corp. (LEU) Q2 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=e3d93cb5b1ad6c37efcf09d82e1b93bdefa9032136f81f103a14e4ee532a4cfa)**  
-*SeekingAlpha · 20h前*  
-Centrus Energy Corp. (LEU) Q2 2026 Earnings Call August 6, 2026 8:30 AM EDTCompany ParticipantsNeal Nagarajan - Senior VP & Head of Investor...
+- **[Uranium Stocks Rebound Sharply as Earnings Disappointments Fail to Halt the Rally](https://finnhub.io/api/news?id=b7fa7245915a2c4120c8ef292c0bb44b139eaf9c4711935cc567bee61e938d14)**  
+*ChartMill · 1d前*  
+Uranium stocks rally 15% despite earnings misses; sector rebound tests as NexGen and Denison report.
 
-- **[Centrus Energy Corp. 2026 Q2 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=580cdc5763d983be0d1046c8699003f78e5484733ee428e88e682640398bc04d)**  
-*SeekingAlpha · 20h前*  
-2026-08-06. The following slide deck was published by Centrus Energy Corp.
+- **[LEU Q2 Earnings Call Highlights Backlog and 2029 Build-Out](https://finnhub.io/api/news?id=db00effd2ca9ad576f6ec778b305ad5152868fcd8aca4df57746599f97e927a1)**  
+*Yahoo · 2d前*  
+Centrus Energy highlights a $4.5B backlog, $900M DOE funding and a 2029 production goal as enrichment demand tightens and Piketon hiring accelerates.
 
-- **[Centrus Energy Agrees To Supply X-Energy With Enrichment Services For Low-Enriched Uranium And High-Assay Low-Enriched Uranium; Terms Not Disclosed](https://finnhub.io/api/news?id=69b6f15e684052f35f8ab640ff18d5afb3a69e55337feb64c893f81f7bfecb6c)**  
-*Benzinga · 1d前*  
-At full execution, the agreement meaningfully de-risks X-energy&#39;s Xe-100 project pipeline and would secure HALEU to support a portion of the initial fuel ne…
+- **[JP Morgan Maintains Neutral on Centrus Energy, Raises Price Target to $180](https://finnhub.io/api/news?id=04721d4ffa982e037ba6e0e56309898b3d7a8b7f8e06c5c19b2b32e5c82c47d0)**  
+*Benzinga · 2d前*  
+JP Morgan  analyst Bill Peterson   maintains Centrus Energy (NYSE:LEU) with a Neutral and raises the price target from $178 to $180.
 
 ---
 
@@ -48,7 +48,7 @@ At full execution, the agreement meaningfully de-risks X-energy&#39;s Xe-100 pro
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-07 | 監控 | $178.03 | — | 自動更新 |
+| 2026-08-10 | 監控 | $191.37 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ At full execution, the agreement meaningfully de-risks X-energy&#39;s Xe-100 pro
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 09:07 HKT*
