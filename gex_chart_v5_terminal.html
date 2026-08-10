@@ -226,13 +226,28 @@
        用戶見到「timeout」但其實backend後尾都計完咗，純粹送唔返
        去前端。順帶攞正：35000→70000（70秒），留返充足buffer喺
        60秒理論上限之上。
+  v5.12（2026-08-10）【重要bugfix】：同上面v5.11點3一樣嘅timeout
+    mismatch問題，今次撞正Global Indices跑馬燈（loadTickerTape()）
+    ——用戶反映Bridge/OpenD明明已連接（狀態燈綠色），但呢條跑馬燈
+    時有時冇，refresh一次見到，跟住又變返「未連接」提示。
+    根源：futu_bridge_v2.py舊版/api/real_indices入面，SPX/NDX/DJI/
+    SOX/NI225/KOSPI呢6隻Yahoo index逐個sequential fetch（每隻獨立
+    timeout=8秒），冷cache（每60秒TTL過期一次，同前端poll interval
+    啱啱好一樣，即幾乎每次poll都撞正冷cache）時總耗時可以去到接近
+    甚至超過8×6=48秒；但loadTickerTape()嘅fetch用緊
+    AbortSignal.timeout(5000)——得返5秒，遠遠唔夠，前端提早放棄
+    顯示「未連接」，backend其實冇壞，純粹仲喺度慢慢攞緊。
+    修正：futu_bridge_v2.py（v3.1起）將6隻Yahoo index改用
+    ThreadPoolExecutor並行攻打，worst case由「6個相加」壓縮做
+    「6個之中最慢嗰個」；呢度前端timeout配合由5秒放寬到20秒，
+    同global-indices.html嘅同一個fix保持一致。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.11)</title>
+<title>GEX Chart — Futu Bridge (v5.12)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -1005,7 +1020,13 @@ function rtShowTickerOffline() {
 
 async function loadTickerTape() {
   try {
-    const r = await fetch(`${BRIDGE}/api/real_indices`, {signal: AbortSignal.timeout(5000)});
+    // v5.12【重要bugfix】：舊版5秒——backend(v3.1前)舊版6隻Yahoo
+    // index sequential fetch可以去到接近48秒，5秒遠遠唔夠，令
+    // 呢條跑馬燈間歇性顯示「未連接」（backend冇壞，純粹前端等
+    // 得唔夠耐，同v5.11個AI分析timeout bugfix屬同一類問題）。
+    // v3.1起backend已經並行化，實際耗時大幅縮短，但呢度仍然留返
+    // 20秒安全buffer，同global-indices.html嘅同一個fix保持一致。
+    const r = await fetch(`${BRIDGE}/api/real_indices`, {signal: AbortSignal.timeout(20000)});
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const d = await r.json();
     rtRenderTicker(d);
