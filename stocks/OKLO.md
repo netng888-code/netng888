@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 09:07 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$42.19** |
-| 今日變動 | ▼ $0.80　(-1.86%) |
+| 現價 | **$48.42** |
+| 今日變動 | ▲ $6.23　(+14.77%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $21.067 |
-| 未實現盈虧 | ▲ $422　(▲100.3%) |
+| 未實現盈虧 | ▲ $547　(▲129.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $42.65 | — |
-| Put Wall（支撐） | $40.00 | -5.2% |
-| Call Wall（阻力） | $90.00 | +113.3% |
+| Gamma Flip | $47.59 | — |
+| Put Wall（支撐） | $45.00 | -7.1% |
+| Call Wall（阻力） | $50.00 | +3.3% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Oklo (NYSE:OKLO) Falls on Mixed Q2 as Revenue Beat Offsets Wider Adjusted Loss](https://finnhub.io/api/news?id=3b8f2dbea905892bc72333807158f4806e51e50563ac0167e7ec29c58249ed52)**  
-*ChartMill · 0h前*  
-Oklo's Q2 revenue beats estimates at $1.21M, but adjusted EPS loss wider than expected; shares rise ~4.3% premarket.
+- **[Inside Oklo's 14% Jump (Q2 Earnings Review)](https://finnhub.io/api/news?id=b2ec96b5486d92b661d350a519db826f52f52c5aa101f600942b801066dcc5f1)**  
+*SeekingAlpha · 1d前*  
+Oklo's Q2 revenue beat, and Groves reactor progress lifted shares, but core fast fission risks and valuation remain. Click here to read more about OKLO.
 
-- **[Oklo Stock Trades Flat Despite Breakthrough Nuclear Reactor Milestone](https://finnhub.io/api/news?id=e62bfe84f4ce20a414c0ed8a4a1ae4b840e2ef75898370159b4afbb71cd6015f)**  
-*Benzinga · 1d前*  
-Shares of Oklo are trading flat Thursday morning despite the advanced nuclear technology company announcing a major operational milestone.
+- **[Oklo Inc. 2026 Q2 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=eb07141f8867c8606567f0ea1e09671b33410f03ec1e99fe192588c43d58f7c3)**  
+*SeekingAlpha · 1d前*  
+2026-08-08. The following slide deck was published by Oklo Inc.
 
-- **[Oklo's Groves Isotope Test Reactor Achieves First Criticality Following A Controlled, Self-Sustaining Nuclear Chain Reaction At Low Power](https://finnhub.io/api/news?id=6fc28ee48f6ea8364ce67d077c54a1ca94af89517ca2bd680fde0f7a35d400b1)**  
-*Benzinga · 1d前*  
-The milestone comes less than a year after groundbreaking and follows U.S. Department of Energy (DOE) authorization through the DOE Reactor Pilot Program (RPP).…
+- **[Oklo Inc. (OKLO) Q2 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=9bda434e3312925ce48e7b7a26606fde7295fc91541a71ac9c846b7d97c8f4cd)**  
+*SeekingAlpha · 2d前*  
+Oklo Inc. (OKLO) Q2 2026 Earnings Call August 7, 2026 8:30 AM EDTCompany ParticipantsSam Doane - Senior Director of Investor RelationsJacob Dewitte -...
 
 ---
 
@@ -48,7 +48,7 @@ The milestone comes less than a year after groundbreaking and follows U.S. Depar
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-07 | 監控 | $42.19 | — | 自動更新 |
+| 2026-08-10 | 監控 | $48.42 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The milestone comes less than a year after groundbreaking and follows U.S. Depar
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 09:07 HKT*
