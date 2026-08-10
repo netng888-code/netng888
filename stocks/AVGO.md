@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-10 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Cold Jobs Report Warms Up Wall Street, Airbnb Steals the Show](https://finnhub.io/api/news?id=3265d1322a7e3a01d1233f899e1eb92b1554c6337fa460fa9b425d9af368fe77)**  
+*ChartMill · 4h前*  
+A surprisingly weak July payrolls print pushed the S&P 500 to a fresh record on Friday, while Airbnb ran off with a 17 percent single-day gain. Over the weekend…
+
 - **[A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028](https://finnhub.io/api/news?id=825c17b2f2c1865001cc28250b916ff2b10432a8931909117435ee91c1bdbd4f)**  
-*Yahoo · 5h前*  
+*Yahoo · 17h前*  
 Taiwan Semiconductor is a fantastic stock pick.
 
 - **[Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?](https://finnhub.io/api/news?id=839ed02a784a723b4186e221b98b5f93319084ad494b5505b6f3cd8ac366d6fc)**  
-*Yahoo · 6h前*  
+*Yahoo · 18h前*  
 Is MRVL a good stock to buy? We came across a bullish thesis on Marvell Technology, Inc. on Compounding Your Wealth’s Substack by Sergey. In this article, we wi…
-
-- **[Top Semiconductor Stock Outpacing Nvidia With a 36% Gain Over 6 Months](https://finnhub.io/api/news?id=281b685ec6364503a8f2be16ea0f984ae2e0cd562970fb08f0d9d5f715f121ba)**  
-*Yahoo · 11h前*  
-Broadcom outpaced Nvidia over the past six months and is setting the foundation for continued outperformance.
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom outpaced Nvidia over the past six months and is setting the foundation 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 21:04 HKT*
