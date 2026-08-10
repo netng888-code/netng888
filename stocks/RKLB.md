@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-10 09:07 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$75.67** |
-| 今日變動 | ▲ $0.85　(+1.14%) |
+| 現價 | **$82.83** |
+| 今日變動 | ▲ $7.16　(+9.46%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $3　(▼0.4%) |
+| 未實現盈虧 | ▲ $68　(▲9.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $67.51 | — |
-| Put Wall（支撐） | $65.00 | -14.1% |
-| Call Wall（阻力） | $80.00 | +5.7% |
+| Gamma Flip | $70.97 | — |
+| Put Wall（支撐） | $65.00 | -21.5% |
+| Call Wall（阻力） | $100.00 | +20.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[ASTS Vs. RKLB: Which Space Stock Has More Upside Ahead Of Earnings?](https://finnhub.io/api/news?id=359a8a468a06ff1c650aec0fef8b9a31db28ba64685eed7adcfb6210aff08e31)**  
-*Yahoo · 6h前*  
-Retail sentiment toward both stocks improved to ‘bullish,’ but RKLB leads in watcher growth and share-price performance.
+- **[Rocket Lab Reports Monday Night. Wall Street Wants $232 Million and 60% Growth.](https://finnhub.io/api/news?id=7b828af504ad37e6097a7c53d9791e219e5de39b9e905dd1d5586d2ab2d4846c)**  
+*Yahoo · 4h前*  
+A fifth straight quarterly revenue record is the bar -- and the stock climbed 9% on Friday heading into the report.
 
-- **[Rocket Lab Corporation (RKLB) Ascends While Market Falls: Some Facts to Note](https://finnhub.io/api/news?id=cf76c4a28b6f45f975574a87b2e61953ac013a81fac903b09f2995a5aee37afc)**  
-*Yahoo · 14h前*  
-In the latest trading session, Rocket Lab Corporation (RKLB) closed at $75.67, marking a +1.14% move from the previous day.
+- **[Inflation Data, Super Micro, Cisco, Rocket Lab, Tapestry, and More to Watch This Week](https://finnhub.io/api/news?id=2196833fa2503ed504da0c249a27b5be9767ce315027ef77e4e98a6a285cd27d)**  
+*Yahoo · 7h前*  
+Economic news this week will include data on consumer and producer prices, existing-home sales, and small-business optimism. As earnings season winds down, we’l…
 
-- **[Stock Market Today, Aug. 6: Space Exploration Technologies Rises Despite First Lockup Expiration](https://finnhub.io/api/news?id=426bf961c0f22f48fd38a9983b29d7f724c31e0d5394171a1205a3d78fbc15ce)**  
-*Yahoo · 15h前*  
-Today, Aug. 6, 2026, insiders gained eligibility to sell 911.5 million shares as the rocket maker's stock climbed 6.14% despite float unlock concerns.
+- **[Rocket Lab Is Down 57% From Its Peak While Analysts See 49% Upside. Who Has It Right?](https://finnhub.io/api/news?id=1e3320b2056514678949cddf8eac459f2c52c16e8cc02bdbe518bf97e1cd6c0a)**  
+*Yahoo · 9h前*  
+Spoiler alert: Analysts may be seeing this one more clearly.
 
 ---
 
@@ -48,7 +48,7 @@ Today, Aug. 6, 2026, insiders gained eligibility to sell 911.5 million shares as
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-07 | 監控 | $75.67 | — | 自動更新 |
+| 2026-08-10 | 監控 | $82.83 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Today, Aug. 6, 2026, insiders gained eligibility to sell 911.5 million shares as
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-07 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-10 09:07 HKT*
