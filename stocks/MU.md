@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$877.57** |
-| 今日變動 | ▼ $3.90　(-0.44%) |
+| 現價 | **$861.00** |
+| 今日變動 | ▼ $16.57　(-1.89%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $320　(▲57.3%) |
+| 未實現盈虧 | ▲ $303　(▲54.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $856.24 | — |
-| Put Wall（支撐） | $800.00 | -8.8% |
-| Call Wall（阻力） | $900.00 | +2.6% |
+| Gamma Flip | $867.33 | — |
+| Put Wall（支撐） | $800.00 | -7.1% |
+| Call Wall（阻力） | $900.00 | +4.5% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August](https://finnhub.io/api/news?id=06d896163777df42b836f237380644a24032771f3b8c0a1c96ac345ce3a9e3b3)**  
-*Yahoo · 1h前*  
-Valuations for AI hardware stocks faced intense pressures last month, but investors have become more bullish recently.
+- **[Micron poised for "structural reset" in earnings power, UBS says, as HBM squeeze tightens further](https://finnhub.io/api/news?id=e517130443980d5e77b7a4dbcac6b27c7c4ca50fd22ab6beb61c733acbdfc3c9)**  
+*Yahoo · 4h前*  
+Micron Technology Inc (NASDAQ:MU)'s earnings power looks headed for a structural reset, according to UBS, which pointed to memory supply so tight that Nvidia wa…
 
-- **[Micron’s Memory Boom Is Heading For A Peak, Analyst Warns](https://finnhub.io/api/news?id=644dbd17aafb79fa94d8f56b0b2a34154fc88f71dc8f1aef2d6dbcf6588061fb)**  
-*Yahoo · 3h前*  
-Micron Technology, Inc. (NASDAQ:MU) stock gained about 1% in Monday premarket trading as technology stocks moved higher ahead of the opening bell. Nasdaq future…
+- **[Micron Stock Rises Despite Reported Apple Supplier Threat](https://finnhub.io/api/news?id=51fea410f251d2efb829da27462a179e0ef0fcf273b56fb0a616fd68fe522364)**  
+*Yahoo · 4h前*  
+Apple's reported testing of Chinese memory chips introduces another competitive variable as Micron's AI revenue reaches record levels.
 
-- **[Micron Trades at 6 Times Next Year's Earnings. The $38 Billion of Capacity That Ends This Cycle Doesn't Open Until 2028.](https://finnhub.io/api/news?id=1922005264833be86cb75f391e58df358d6c74820799229a4e0a99b418ca2b49)**  
-*Yahoo · 3h前*  
-The memory specialist is priced as if the boom ends imminently. The industry's own construction schedules point years further out.
+- **[Coherent (COHR) Stock Is Tumbling Today After Massive Optics vs. Memory Debate on Social Media This Weekend](https://finnhub.io/api/news?id=d9fe4962f677ab704a57d6b23dd4c85ee52cb730537317a0ccabadb24bb3e786)**  
+*Yahoo · 5h前*  
+A weekend debate on social media about optics replacing memory as the hottest AI trade sent optical stocks surging at Monday's open, then something unexpected h…
 
 ---
 
@@ -48,7 +48,7 @@ The memory specialist is priced as if the boom ends imminently. The industry's o
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-10 | 監控 | $877.57 | — | 自動更新 |
+| 2026-08-11 | 監控 | $861.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The memory specialist is priced as if the boom ends imminently. The industry's o
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
