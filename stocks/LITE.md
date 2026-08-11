@@ -1,6 +1,6 @@
 # LITE — Lumentum
 
-> 最後更新：2026-08-11 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[S&P 500 Falls Short of Record While Nasdaq Slips](https://finnhub.io/api/news?id=5557e5100a256867c50a732b6d9d143c21df3f288c02536a07110b3d2121b435)**  
-*Yahoo · 4h前*  
-Fresh off its best week since April, the stock market suffered a bit of a hangover on Monday.  The Nasdaq Composite slipped 0.3%.  The combination of higher oil…
-
-- **[Coherent (COHR) Stock Is Tumbling Today After Massive Optics vs. Memory Debate on Social Media This Weekend](https://finnhub.io/api/news?id=d9fe4962f677ab704a57d6b23dd4c85ee52cb730537317a0ccabadb24bb3e786)**  
+- **[LITE Vs. COHR Vs. AAOI Vs. IPGP: Which Photonics Stock Do Retail Traders Prefer?](https://finnhub.io/api/news?id=0c396e585dd8404844086f82bd6883dd64dbe98f2cdb53e8457a14cf5073ce1c)**  
 *Yahoo · 5h前*  
-A weekend debate on social media about optics replacing memory as the hottest AI trade sent optical stocks surging at Monday's open, then something unexpected h…
+AI data centers are steering the shift from copper to optical connectivity, putting photonics at the center of investor attention.
 
-- **[Discover which S&P500 stocks are making waves on Monday.](https://finnhub.io/api/news?id=33fd1ad98365e1c3dbe7cfb12732e37392475fc9a30b95ecb5247d60db37ef4c)**  
-*ChartMill · 5h前*  
-Let's have a look at the top S&P500 gainers and losers one hour before the close of the markets of today's session.
+- **[12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven](https://finnhub.io/api/news?id=d029b355388a6c5acf2d341b04dbb4f2e819b031490d7c38d542a8ef4e8eee44)**  
+*Yahoo · 7h前*  
+Twelve Nasdaq 100 stocks have doubled in 2026, and not a single the Magnificent Seven is among them. Here is why.
+
+- **[S&P 500 Falls Short of Record While Nasdaq Slips](https://finnhub.io/api/news?id=5557e5100a256867c50a732b6d9d143c21df3f288c02536a07110b3d2121b435)**  
+*Yahoo · 17h前*  
+Fresh off its best week since April, the stock market suffered a bit of a hangover on Monday.  The Nasdaq Composite slipped 0.3%.  The combination of higher oil…
 
 ---
 
@@ -59,4 +59,4 @@ Let's have a look at the top S&P500 gainers and losers one hour before the close
 - [TradingView](https://www.tradingview.com/chart/?symbol=LITE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 21:05 HKT*
