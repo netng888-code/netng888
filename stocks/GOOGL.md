@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$354.30** |
-| 今日變動 | ▼ $3.45　(-0.96%) |
+| 現價 | **$357.52** |
+| 今日變動 | ▲ $3.22　(+0.91%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,111　(▲98.6%) |
+| 未實現盈虧 | ▲ $2,149　(▲100.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $342.85 | — |
-| Put Wall（支撐） | $350.00 | -1.2% |
-| Call Wall（阻力） | $360.00 | +1.6% |
+| Gamma Flip | $344.11 | — |
+| Put Wall（支撐） | $350.00 | -2.1% |
+| Call Wall（阻力） | $360.00 | +0.7% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit](https://finnhub.io/api/news?id=c4850ef1efb39f4b0971e18e6c4b001c66613a10f13b47d07a2080b23900b2a2)**  
-*Yahoo · 1h前*  
-A prominent AI skeptic is making the case that the explosive revenue growth powering Google Cloud, AWS, and Azure traces back to just two companies that have ne…
-
-- **[JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off](https://finnhub.io/api/news?id=9b3b40e6c9c7f9bcbfb95bb22942c5e34ce410b02a047edf8656e7f2c4f3029b)**  
+- **[The loneliness epidemic is growing — can FeedIRL help solve it?](https://finnhub.io/api/news?id=8419707567b9bfdc12926c96dcd6a061a5a51cf3e88528f29a8a3c41529419dc)**  
 *Yahoo · 3h前*  
-(Bloomberg) -- JPMorgan Chase & Co. strategists raised their S&P 500 Index forecast for a second time in two months, citing strong corporate earnings and the pa…
+FeedIRL Founder Kris Mathis joins Josh Lipton on Asking for a Trend to discuss the growing loneliness epidemic and how FeedIRL is working to help people build m…
 
-- **[Warren Buffett Bought Alphabet Stock Last Year. He Might Buy This Megacap Stock Next, Says a Wall Street Expert.](https://finnhub.io/api/news?id=f57ea8afd003855794d9688fc464e2bfb653eef4e346159a988aeb19b0ed7213)**  
-*Yahoo · 4h前*  
-With Netflix trading at its cheapest valuation in three years, the streaming stock could pique Warren Buffett's interest.
+- **[Sector Update: Tech Stocks Decline Late Afternoon](https://finnhub.io/api/news?id=726dec967f312df0761d5640414c3e0682e72dc874c0b75fb09674733cba9848)**  
+*Yahoo · 5h前*  
+Tech stocks were lower late Monday afternoon, with the State Street Technology Select Sector SPDR ET
+
+- **[Microsoft Stock Rises 1.7% as JPMorgan Backs AI Payoff](https://finnhub.io/api/news?id=eaec0ca9403e5d7c7f1381d26f60cd8dd620444f801dc833a690d1f9ffc68424)**  
+*Yahoo · 5h前*  
+JPMorgan highlighted Microsoft's cloud growth and backlog while raising its S&P 500 earnings and year-end forecasts.
 
 ---
 
@@ -48,7 +48,7 @@ With Netflix trading at its cheapest valuation in three years, the streaming sto
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-10 | 監控 | $354.30 | — | 自動更新 |
+| 2026-08-11 | 監控 | $357.52 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ With Netflix trading at its cheapest valuation in three years, the streaming sto
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
