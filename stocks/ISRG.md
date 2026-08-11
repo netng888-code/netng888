@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-08-11 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Intuitive Surgical (ISRG) Just Beat Earnings. Is the Stock Still Worth Paying a Premium?](https://finnhub.io/api/news?id=2542d6ce7cd87669747b598ed75b3fe1d5f9d8ef0396d8f0ea6b587d4c26c78b)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 Intuitive Surgical (NASDAQ:ISRG) beat both top- and bottom-line consensus estimates in its fiscal Q2 2026 results, with revenue for the quarter growing 19% to $…
 
 - **[ISRG Trades at a Premium P/E: Buy, Sell or Hold the Stock Now?](https://finnhub.io/api/news?id=651fb21e318bc41ddae43d10d7c2453b96582a7b566b22793ffdf458b66e5630)**  
-*Yahoo · 10h前*  
+*Yahoo · 22h前*  
 ISRG's premium valuation faces scrutiny as strong Q2 growth, higher margins and expanding robotic platforms support its 2026 outlook.
 
 - **[Can Johnson & Johnson (JNJ) Challenge Intuitive Surgical (ISRG) After Ottava’s FDA Approval?](https://finnhub.io/api/news?id=c8b0be6128448ed6517a29d353ee86a9af7c0598f9d11c7fcacb0a597f3ab561)**  
-*Yahoo · 12h前*  
+*Yahoo · 1d前*  
 Johnson & Johnson (NYSE:JNJ) has officially entered the U.S. soft-tissue robotic surgery market after receiving FDA De Novo authorization for its OTTAVA robotic…
 
 ---
@@ -59,4 +59,4 @@ Johnson & Johnson (NYSE:JNJ) has officially entered the U.S. soft-tissue robotic
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 21:05 HKT*
