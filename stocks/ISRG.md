@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-08-10 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$378.81** |
-| 今日變動 | ▲ $5.10　(+1.36%) |
+| 現價 | **$393.38** |
+| 今日變動 | ▲ $14.57　(+3.85%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $149　(▼16.4%) |
+| 未實現盈虧 | ▼ $119　(▼13.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $387.91 | — |
-| Put Wall（支撐） | $350.00 | -7.6% |
-| Call Wall（阻力） | $400.00 | +5.6% |
+| Gamma Flip | $384.99 | — |
+| Put Wall（支撐） | $350.00 | -11.0% |
+| Call Wall（阻力） | $400.00 | +1.7% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical (ISRG) Stock Looks Fairly Valued Despite Its 33% Slide](https://finnhub.io/api/news?id=d2317de655bbe9049b1e6c799ed3a0c71d3b83931654cecd4b996611ac38f945)**  
-*Yahoo · 1d前*  
-Intuitive Surgical stock has had a difficult start to 2026, with the share price down 32.6% year to date, while the Discounted Cash Flow (DCF) intrinsic value e…
+- **[Intuitive Surgical (ISRG) Just Beat Earnings. Is the Stock Still Worth Paying a Premium?](https://finnhub.io/api/news?id=2542d6ce7cd87669747b598ed75b3fe1d5f9d8ef0396d8f0ea6b587d4c26c78b)**  
+*Yahoo · 3h前*  
+Intuitive Surgical (NASDAQ:ISRG) beat both top- and bottom-line consensus estimates in its fiscal Q2 2026 results, with revenue for the quarter growing 19% to $…
 
-- **[What Do Intuitive Surgical (ISRG) Bylaw Changes Mean For Shareholders?](https://finnhub.io/api/news?id=7cbd53db13a7cfee031498f91e806bf8146cd2a88785a2f6119eb9100f4fe04c)**  
-*Yahoo · 1d前*  
-Intuitive Surgical (NasdaqGS: ISRG) has approved amendments to its bylaws, updating shareholder voting rules, nomination processes, and procedural requirements …
+- **[ISRG Trades at a Premium P/E: Buy, Sell or Hold the Stock Now?](https://finnhub.io/api/news?id=651fb21e318bc41ddae43d10d7c2453b96582a7b566b22793ffdf458b66e5630)**  
+*Yahoo · 10h前*  
+ISRG's premium valuation faces scrutiny as strong Q2 growth, higher margins and expanding robotic platforms support its 2026 outlook.
 
-- **[Medtronic vs. Intuitive Surgical: Which MedTech Stock Is the Better Buy Right Now?](https://finnhub.io/api/news?id=3c5b80e1d6367d6c3134d7ed2dbab5b1d0b0d318b656d268af63da5b1b6a3785)**  
-*Yahoo · 1d前*  
-They are going through a rough patch, but it's too early to give up on them.
+- **[Can Johnson & Johnson (JNJ) Challenge Intuitive Surgical (ISRG) After Ottava’s FDA Approval?](https://finnhub.io/api/news?id=c8b0be6128448ed6517a29d353ee86a9af7c0598f9d11c7fcacb0a597f3ab561)**  
+*Yahoo · 12h前*  
+Johnson & Johnson (NYSE:JNJ) has officially entered the U.S. soft-tissue robotic surgery market after receiving FDA De Novo authorization for its OTTAVA robotic…
 
 ---
 
@@ -48,7 +48,7 @@ They are going through a rough patch, but it's too early to give up on them.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-10 | 監控 | $378.81 | — | 自動更新 |
+| 2026-08-11 | 監控 | $393.38 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ They are going through a rough patch, but it's too early to give up on them.
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 09:05 HKT*
