@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$223.96** |
-| 今日變動 | ▲ $4.97　(+2.27%) |
+| 現價 | **$217.55** |
+| 今日變動 | ▼ $6.41　(-2.86%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $638　(▲39.9%) |
+| 未實現盈虧 | ▲ $574　(▲35.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $197.41 | — |
-| Put Wall（支撐） | $200.00 | -10.7% |
-| Call Wall（阻力） | $225.00 | +0.5% |
+| Gamma Flip | $200.49 | — |
+| Put Wall（支撐） | $200.00 | -8.1% |
+| Call Wall（阻力） | $220.00 | +1.1% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Peter Beck's Rocket Lab Fell 30% in a Month While Revenue Grew 63%](https://finnhub.io/api/news?id=511ee12fc559875a463f826632b56e801b25bdb971af1f43bc742d0a67a0fcf7)**  
+- **[Is Nvidia Stock Still a Good Buy at $220?](https://finnhub.io/api/news?id=530aff3b6456f4b5055ec4432e62132f99c3c6d0dc5987bcda55921b660dc5d2)**  
 *Yahoo · 1h前*  
-Rocket Lab's revenue continues surging to record highs, while the stock is down.
+Shares of the tech behemoth are up 17% this year as it's reached a new record high.
 
-- **[Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August](https://finnhub.io/api/news?id=06d896163777df42b836f237380644a24032771f3b8c0a1c96ac345ce3a9e3b3)**  
+- **[Rocket Lab Just Delivered Record Results. So Why Is the Stock Sinking?](https://finnhub.io/api/news?id=5ae3f7fffc21bde5995c810acccd11361d5264d5f994d68636f503b0658eadb5)**  
 *Yahoo · 1h前*  
-Valuations for AI hardware stocks faced intense pressures last month, but investors have become more bullish recently.
+The rocket launch and satellite specialist is growing at an impressive pace.
 
-- **[Does Jamie Dimon Know Something That Wall Street Doesn't? He Just Sent the Market a Clear Warning Shot.](https://finnhub.io/api/news?id=a1e0875ca7bcb0cb4ea79193e84a22a20528ac46c273260a9fa2d715171bb4d5)**  
+- **[Nvidia gets $500bn from major investors to develop AI data centres](https://finnhub.io/api/news?id=ca53aa1f44616afadb591b09068ebb644f533fb8c8a2a88916a40b2f17eb5b7f)**  
 *Yahoo · 1h前*  
-Jamie Dimon is one of the most experienced CEOs in the world.
+The money will be used to develop new data centres to house, operate, and cool miles of stacked computer chips that process AI data and actions.
 
 ---
 
@@ -48,7 +48,7 @@ Jamie Dimon is one of the most experienced CEOs in the world.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-10 | 監控 | $223.96 | — | 自動更新 |
+| 2026-08-11 | 監控 | $217.55 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Jamie Dimon is one of the most experienced CEOs in the world.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
