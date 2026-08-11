@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Hock Tan Reaffirmed Broadcom's $100 Billion AI Forecast. Six Customers Carry Nearly All of It.](https://finnhub.io/api/news?id=951f29b3a876182a9529777c2c3dfd11feab683033dfc438abd550f3e2be61d4)**  
+*Yahoo · 5h前*  
+The AI target looks more achievable every quarter -- and almost all of it rests on six buyers.
+
 - **[VYM’s 2.2% Yield Hides $141,000 in Decade-Long Underperformance Versus the S&P 500](https://finnhub.io/api/news?id=a445b24404d24547a17ed83fb605a2a9c3a72a85b230744c648f0400df5bcb59)**  
-*Yahoo · 2h前*  
+*Yahoo · 14h前*  
 A retiree who chose VYM for its reliable quarterly deposits may have traded away a surprising fortune without realizing it, and the expense ratio has almost not…
 
 - **[Semiconductor Equipment Makers vs. Chip Designers: Who's Actually Winning the AI Cycle?](https://finnhub.io/api/news?id=94dd9db0b4c840d4571610fb3bdafaa2702e7bd304c2ebe7b4cf9f81dbd2163a)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 Chip designers have one distinct advantage.
-
-- **[Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line](https://finnhub.io/api/news?id=4a8782728aedce2357e9c4eaafdfee82764aeaefc493664412fa88c240f2a443)**  
-*Yahoo · 5h前*  
-Marvell Technology is riding a real data center ramp, but a large slice of the reported profit is behind its multiple sits below the operating line.
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology is riding a real data center ramp, but a large slice of the r
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 21:04 HKT*
