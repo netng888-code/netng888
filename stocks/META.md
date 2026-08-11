@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Amazon Stock And The Profit Signal Everyone Is Chasing](https://finnhub.io/api/news?id=1ef8bf9beed7f6643ed155c5b0b9106cc42a3358657037aad5fa6a82a8e7f533)**  
-*Yahoo · 2h前*  
-Management set a higher bar for profits, and the stock has already jumped, but the real story is how much faster the bottom line is guided to grow than the top …
+- **[Wall Street Titans Line Up $500 Billion Behind Nvidia's AI Buildout](https://finnhub.io/api/news?id=c8e195b822ea32983cfa7a7fe428a81691cad5177a141c8ab398bcb51d2e05a6)**  
+*ChartMill · 5h前*  
+A rare coalition of Apollo, Blackstone, BlackRock, Brookfield, KKR and Goldman Sachs is reportedly readying a $500 billion package to finance Nvidia's AI infras…
 
-- **[Same 100 Stocks, Different Price: Why QQQ Costs $180 Annually While QQQM Charges $150](https://finnhub.io/api/news?id=3bdc105ee3048d988d6a714bb05bf22da8fc2f7478087d8f02c6188b3d174cfc)**  
-*Yahoo · 3h前*  
-Invesco sells you the same 100 stocks through two different funds at two different prices, and most investors buying the pricier one have no idea the cheaper ve…
+- **[Hyperscalers Are 'All In' On Singularity, And OpenAI's Astra Gives Hope](https://finnhub.io/api/news?id=3fdd8e6cedbdfd6d69208ce3df11f071f2d801b79b60a4325f8e6e15b558f252)**  
+*SeekingAlpha · 5h前*  
+Hyperscalers are betting on AGI and singularity, that's when AI capex pays off.
 
-- **[Meta's AI Boom Just Hit a New Hurdle](https://finnhub.io/api/news?id=1bbd2da411dda1566f4e87e4324c619d56aef2e74baf782aaeb11c7b826ea235)**  
-*Yahoo · 3h前*  
-Power and water costs are becoming harder to ignore
+- **[AI’s biggest buildout is here. These stocks offer a way to invest in the data center boom](https://finnhub.io/api/news?id=98de8d77052dfb76d7d0a47caa21dc7cf8a16f713bba76fa091baca915a70d43)**  
+*Yahoo · 6h前*  
+For those seeking a pick-and-shovel approach to the AI wave, here's a guide to utilities, grid hardware, cooling firms, and refinery stocks.
 
 ---
 
@@ -59,4 +59,4 @@ Power and water costs are becoming harder to ignore
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 21:05 HKT*
