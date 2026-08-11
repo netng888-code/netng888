@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$427.76** |
-| 今日變動 | ▲ $7.20　(+1.71%) |
+| 現價 | **$422.40** |
+| 今日變動 | ▼ $5.36　(-1.25%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▲ $520　(▲13.8%) |
+| 未實現盈虧 | ▲ $466　(▲12.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $387.35 | — |
-| Put Wall（支撐） | $400.00 | -6.5% |
-| Call Wall（阻力） | $450.00 | +5.2% |
+| Gamma Flip | $388.75 | — |
+| Put Wall（支撐） | $400.00 | -5.3% |
+| Call Wall（阻力） | $440.00 | +4.2% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Cold Jobs Report Warms Up Wall Street, Airbnb Steals the Show](https://finnhub.io/api/news?id=3265d1322a7e3a01d1233f899e1eb92b1554c6337fa460fa9b425d9af368fe77)**  
-*ChartMill · 4h前*  
-A surprisingly weak July payrolls print pushed the S&P 500 to a fresh record on Friday, while Airbnb ran off with a 17 percent single-day gain. Over the weekend…
+- **[VYM’s 2.2% Yield Hides $141,000 in Decade-Long Underperformance Versus the S&P 500](https://finnhub.io/api/news?id=a445b24404d24547a17ed83fb605a2a9c3a72a85b230744c648f0400df5bcb59)**  
+*Yahoo · 2h前*  
+A retiree who chose VYM for its reliable quarterly deposits may have traded away a surprising fortune without realizing it, and the expense ratio has almost not…
 
-- **[A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028](https://finnhub.io/api/news?id=825c17b2f2c1865001cc28250b916ff2b10432a8931909117435ee91c1bdbd4f)**  
-*Yahoo · 17h前*  
-Taiwan Semiconductor is a fantastic stock pick.
+- **[Semiconductor Equipment Makers vs. Chip Designers: Who's Actually Winning the AI Cycle?](https://finnhub.io/api/news?id=94dd9db0b4c840d4571610fb3bdafaa2702e7bd304c2ebe7b4cf9f81dbd2163a)**  
+*Yahoo · 4h前*  
+Chip designers have one distinct advantage.
 
-- **[Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?](https://finnhub.io/api/news?id=839ed02a784a723b4186e221b98b5f93319084ad494b5505b6f3cd8ac366d6fc)**  
-*Yahoo · 18h前*  
-Is MRVL a good stock to buy? We came across a bullish thesis on Marvell Technology, Inc. on Compounding Your Wealth’s Substack by Sergey. In this article, we wi…
+- **[Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line](https://finnhub.io/api/news?id=4a8782728aedce2357e9c4eaafdfee82764aeaefc493664412fa88c240f2a443)**  
+*Yahoo · 5h前*  
+Marvell Technology is riding a real data center ramp, but a large slice of the reported profit is behind its multiple sits below the operating line.
 
 ---
 
@@ -48,7 +48,7 @@ Is MRVL a good stock to buy? We came across a bullish thesis on Marvell Technolo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-10 | 監控 | $427.76 | — | 自動更新 |
+| 2026-08-11 | 監控 | $422.40 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Is MRVL a good stock to buy? We came across a bullish thesis on Marvell Technolo
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
