@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-10 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$48.42** |
-| 今日變動 | ▲ $6.23　(+14.77%) |
+| 現價 | **$44.49** |
+| 今日變動 | ▼ $3.93　(-8.12%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $21.067 |
-| 未實現盈虧 | ▲ $547　(▲129.8%) |
+| 未實現盈虧 | ▲ $468　(▲111.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $47.59 | — |
-| Put Wall（支撐） | $45.00 | -7.1% |
-| Call Wall（阻力） | $50.00 | +3.3% |
+| Gamma Flip | $45.35 | — |
+| Put Wall（支撐） | $40.00 | -10.1% |
+| Call Wall（阻力） | $50.00 | +12.4% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Inside Oklo's 14% Jump (Q2 Earnings Review)](https://finnhub.io/api/news?id=b2ec96b5486d92b661d350a519db826f52f52c5aa101f600942b801066dcc5f1)**  
-*SeekingAlpha · 2d前*  
-Oklo's Q2 revenue beat, and Groves reactor progress lifted shares, but core fast fission risks and valuation remain. Click here to read more about OKLO.
+- **[Truist Securities Maintains Hold on Oklo, Lowers Price Target to $51](https://finnhub.io/api/news?id=ada1ae66f326bed612ab448a892614876d450dd79a4748375fc05001baf3783e)**  
+*Benzinga · 10h前*  
+Truist Securities  analyst Christopher Souther   maintains Oklo (NYSE:OKLO) with a Hold and lowers the price target from $55 to $51.
 
-- **[Oklo Inc. 2026 Q2 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=eb07141f8867c8606567f0ea1e09671b33410f03ec1e99fe192588c43d58f7c3)**  
-*SeekingAlpha · 2d前*  
-2026-08-08. The following slide deck was published by Oklo Inc.
+- **[Oil Jumps 3%, Yields Climb as Hormuz Hopes Fade: Stock Market Today](https://finnhub.io/api/news?id=b2c3d89e1ba544c6935e885ea50b18ce7f28457e2a8831917fca777a0ce13aa6)**  
+*Benzinga · 12h前*  
+Crude surges above $80 and the 10-year yield hits an August high as an Iran-US deal on the Strait of Hormuz slips away, stalling Wall Street&#39;s record run.
 
-- **[Oklo Inc. (OKLO) Q2 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=9bda434e3312925ce48e7b7a26606fde7295fc91541a71ac9c846b7d97c8f4cd)**  
-*SeekingAlpha · 2d前*  
-Oklo Inc. (OKLO) Q2 2026 Earnings Call August 7, 2026 8:30 AM EDTCompany ParticipantsSam Doane - Senior Director of Investor RelationsJacob Dewitte -...
+- **[These Analysts Cut Their Forecasts On Oklo After Q2 Results](https://finnhub.io/api/news?id=bef00a1b3fb95debfb007d1b80e19af3fd497d92bb7962fbca5c9e19c999078c)**  
+*Benzinga · 12h前*  
+Oklo Inc. (NYSE:OKLO) reported Q2 revenue of $1.21 million, beating estimates. 2026 cash flow expected at $120-150 million, shares down 7.7%.
 
 ---
 
@@ -48,7 +48,7 @@ Oklo Inc. (OKLO) Q2 2026 Earnings Call August 7, 2026 8:30 AM EDTCompany Partici
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-10 | 監控 | $48.42 | — | 自動更新 |
+| 2026-08-11 | 監控 | $44.49 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Oklo Inc. (OKLO) Q2 2026 Earnings Call August 7, 2026 8:30 AM EDTCompany Partici
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 09:05 HKT*
