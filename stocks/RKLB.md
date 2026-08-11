@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-11 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Just Delivered Record Results. So Why Is the Stock Sinking?](https://finnhub.io/api/news?id=5ae3f7fffc21bde5995c810acccd11361d5264d5f994d68636f503b0658eadb5)**  
-*Yahoo · 1h前*  
-The rocket launch and satellite specialist is growing at an impressive pace.
+- **[Rocket Lab Stock Falls After Mixed Earnings Report](https://finnhub.io/api/news?id=4a057e0bb15b6d4d337b69283e0f8694bf4742d8d6099b7bd60aeaaee5e46a5b)**  
+*Yahoo · 4h前*  
+Shares of the SpaceX rival have risen nearly 80% over the past year on higher revenue and a growing backlog of orders.
 
-- **[RKLB Slips After Hours On Q2 Earnings Miss But Retail Traders Cheer Strong Order Backlog, Upcoming Neutron Launch](https://finnhub.io/api/news?id=ffeb4c80f56bc9ade4c41900ad8de6a9cbfa0c8af6d869f67dc3eada1ccd7bfe)**  
-*Yahoo · 2h前*  
-Combined with deals signed since Q2 closed, Rocket Lab has already booked more than $1 billion in new launch and space systems contracts, the firm said.
+- **[Wall Street Titans Line Up $500 Billion Behind Nvidia's AI Buildout](https://finnhub.io/api/news?id=c8e195b822ea32983cfa7a7fe428a81691cad5177a141c8ab398bcb51d2e05a6)**  
+*ChartMill · 5h前*  
+A rare coalition of Apollo, Blackstone, BlackRock, Brookfield, KKR and Goldman Sachs is reportedly readying a $500 billion package to finance Nvidia's AI infras…
 
-- **[Rocket Lab Corporation (RKLB) Reports Q2 Loss, Tops Revenue Estimates](https://finnhub.io/api/news?id=f919427895e286acf9bcc78ca0c5d3ef9551b08c5a96a1281d136e6efa6c5c53)**  
-*Yahoo · 3h前*  
-Rocket Lab Corporation (RKLB) delivered earnings and revenue surprises of 0.00% and +1.08%, respectively, for the quarter ended June 2026. Do the numbers hold c…
+- **[Rocket Lab: Neutron Is Coming, But At A Great Cost](https://finnhub.io/api/news?id=4eeb046ff10f87e2f26d31e8b0b8d16a7a24195d93182c6ef8ef24ef723edc36)**  
+*SeekingAlpha · 5h前*
 
 ---
 
@@ -59,4 +58,4 @@ Rocket Lab Corporation (RKLB) delivered earnings and revenue surprises of 0.00% 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 21:05 HKT*
