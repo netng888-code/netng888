@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven](https://finnhub.io/api/news?id=d029b355388a6c5acf2d341b04dbb4f2e819b031490d7c38d542a8ef4e8eee44)**  
+*Yahoo · 7h前*  
+Twelve Nasdaq 100 stocks have doubled in 2026, and not a single the Magnificent Seven is among them. Here is why.
+
 - **[Here's Why Marvell Technology (MRVL) Fell More Than Broader Market](https://finnhub.io/api/news?id=e5f819243f709baa1e61c12b013c467963354b49dc3cf797d1b5fc5dfea84320)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 Marvell Technology (MRVL) closed at $208.61 in the latest trading session, marking a -4.62% move from the prior day.
 
 - **[Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line](https://finnhub.io/api/news?id=4a8782728aedce2357e9c4eaafdfee82764aeaefc493664412fa88c240f2a443)**  
-*Yahoo · 5h前*  
+*Yahoo · 17h前*  
 Marvell Technology is riding a real data center ramp, but a large slice of the reported profit is behind its multiple sits below the operating line.
-
-- **[Nvidia Stock Slips as Its AI Investments Draw Fresh Scrutiny](https://finnhub.io/api/news?id=2efff8d2671efd3346077196873fb7e18c9b0bdea62f11d3c89afe9eb3484c36)**  
-*Yahoo · 8h前*  
-Nvidia reportedly agreed to invest up to $3 billion in Lancium, adding to a growing list of investments as some analysts argue the chip maker should spend more …
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia reportedly agreed to invest up to $3 billion in Lancium, adding to a grow
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 21:04 HKT*
