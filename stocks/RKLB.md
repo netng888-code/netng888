@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-10 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$82.83** |
-| 今日變動 | ▲ $7.16　(+9.46%) |
+| 現價 | **$80.04** |
+| 今日變動 | ▼ $2.79　(-3.37%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▲ $68　(▲9.0%) |
+| 未實現盈虧 | ▲ $40　(▲5.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $70.97 | — |
-| Put Wall（支撐） | $65.00 | -21.5% |
-| Call Wall（阻力） | $100.00 | +20.7% |
+| Gamma Flip | $71.77 | — |
+| Put Wall（支撐） | $65.00 | -18.8% |
+| Call Wall（阻力） | $100.00 | +24.9% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stocks Mostly Up Pre-Bell as Traders Assess Middle East Developments, Await Key Inflation Data](https://finnhub.io/api/news?id=9273470f1c28199053583483cbf4314c9d12dcfb25852f4ee074e25f25140a9b)**  
+- **[Rocket Lab Just Delivered Record Results. So Why Is the Stock Sinking?](https://finnhub.io/api/news?id=5ae3f7fffc21bde5995c810acccd11361d5264d5f994d68636f503b0658eadb5)**  
 *Yahoo · 1h前*  
-The benchmark US stock measures were mostly pointing higher before the opening bell Monday as trader
+The rocket launch and satellite specialist is growing at an impressive pace.
 
-- **[Peter Beck's Rocket Lab Fell 30% in a Month While Revenue Grew 63%](https://finnhub.io/api/news?id=511ee12fc559875a463f826632b56e801b25bdb971af1f43bc742d0a67a0fcf7)**  
-*Yahoo · 1h前*  
-Rocket Lab's revenue continues surging to record highs, while the stock is down.
-
-- **[US Equity Investors to Focus on Inflation, Iran Geopolitics, Quarterly Earnings This Week](https://finnhub.io/api/news?id=23890f89f9b88a4e64e41d1f06c973d69254beb8fc9fe6e7dcb5cb14ea62f444)**  
+- **[RKLB Slips After Hours On Q2 Earnings Miss But Retail Traders Cheer Strong Order Backlog, Upcoming Neutron Launch](https://finnhub.io/api/news?id=ffeb4c80f56bc9ade4c41900ad8de6a9cbfa0c8af6d869f67dc3eada1ccd7bfe)**  
 *Yahoo · 2h前*  
-US equity investors are expected to focus on inflation and Fed speak this week while keeping a close
+Combined with deals signed since Q2 closed, Rocket Lab has already booked more than $1 billion in new launch and space systems contracts, the firm said.
+
+- **[Rocket Lab Corporation (RKLB) Reports Q2 Loss, Tops Revenue Estimates](https://finnhub.io/api/news?id=f919427895e286acf9bcc78ca0c5d3ef9551b08c5a96a1281d136e6efa6c5c53)**  
+*Yahoo · 3h前*  
+Rocket Lab Corporation (RKLB) delivered earnings and revenue surprises of 0.00% and +1.08%, respectively, for the quarter ended June 2026. Do the numbers hold c…
 
 ---
 
@@ -48,7 +48,7 @@ US equity investors are expected to focus on inflation and Fed speak this week w
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-10 | 監控 | $82.83 | — | 自動更新 |
+| 2026-08-11 | 監控 | $80.04 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ US equity investors are expected to focus on inflation and Fed speak this week w
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 09:05 HKT*
