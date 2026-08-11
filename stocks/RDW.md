@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,20 +22,20 @@
 |------|------|---------|
 | Gamma Flip | $8.57 | — |
 | Put Wall（支撐） | $12.00 | -8.5% |
-| Call Wall（阻力） | $15.00 | +14.3% |
+| Call Wall（阻力） | $13.00 | +-0.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
 - **[Canaccord Genuity Maintains Buy on Redwire, Raises Price Target to $15](https://finnhub.io/api/news?id=8d4abf1776841ac833b4e196f635f65794ec92493abb29e3370c32fce0927958)**  
-*Benzinga · 17h前*  
+*Benzinga · 1d前*  
 Canaccord Genuity  analyst Austin Moeller   maintains Redwire (NYSE:RDW) with a Buy and raises the price target from $14 to $15.
 
 - **[Benzinga Bulls And Bears: Palantir, Marvell, AppLovin](https://finnhub.io/api/news?id=d0f9c67598ffdbade8934d2501626965b8caaa3bd05f9a909949b5b01099fec8)**  
-*Benzinga · 2d前*  
+*Benzinga · 3d前*  
 Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
 
 ---
@@ -55,4 +55,4 @@ Benzinga examined the prospects for many investors’ favorite stocks over the l
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 21:05 HKT*
