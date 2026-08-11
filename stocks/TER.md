@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[KOID: Holding An AI CapEx Fund Sold As Humanoid Robotics](https://finnhub.io/api/news?id=bb11fb110992855cba98521f0005e907f820ace06e87dded6f0d9d5c711199cb)**  
-*SeekingAlpha · 18h前*  
+*SeekingAlpha · 1d前*  
 The KraneShares Global Humanoid Robotics and Physical AI Index ETF is rated a hold due to valuation and thematic misalignment. Learn more about the KOID ETF her…
 
 ---
@@ -51,4 +51,4 @@ The KraneShares Global Humanoid Robotics and Physical AI Index ETF is rated a ho
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 21:04 HKT*
