@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $200.49 | — |
 | Put Wall（支撐） | $200.00 | -8.1% |
-| Call Wall（阻力） | $220.00 | +1.1% |
+| Call Wall（阻力） | $225.00 | +3.4% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Is Nvidia Stock Still a Good Buy at $220?](https://finnhub.io/api/news?id=530aff3b6456f4b5055ec4432e62132f99c3c6d0dc5987bcda55921b660dc5d2)**  
-*Yahoo · 1h前*  
-Shares of the tech behemoth are up 17% this year as it's reached a new record high.
+- **[Got $200 per Month? This ETF Could Turn It Into $455,865 With Minimal Effort on Your Part.](https://finnhub.io/api/news?id=067ce25bcd54c989024e92b4738c929564c5e2cdb826f3a7a8eb374d1a5706b9)**  
+*Yahoo · 3h前*  
+Most ordinary people's investment wealth is built just a few dollars at a time. The key is committing to the process for years on end.
 
-- **[Rocket Lab Just Delivered Record Results. So Why Is the Stock Sinking?](https://finnhub.io/api/news?id=5ae3f7fffc21bde5995c810acccd11361d5264d5f994d68636f503b0658eadb5)**  
-*Yahoo · 1h前*  
-The rocket launch and satellite specialist is growing at an impressive pace.
+- **[Tesla and SpaceX Committed $16.8 Billion to One Chip Plant. Tesla's Entire Annual Profit Is $3.8 Billion.](https://finnhub.io/api/news?id=a7a5ec7e5d034008fddc93a91651a3332160197754630148c17fae6c734301bd)**  
+*Yahoo · 3h前*  
+The first phase of Terafab costs more than four times what the electric-car maker earned over the past year.
 
-- **[Nvidia gets $500bn from major investors to develop AI data centres](https://finnhub.io/api/news?id=ca53aa1f44616afadb591b09068ebb644f533fb8c8a2a88916a40b2f17eb5b7f)**  
-*Yahoo · 1h前*  
-The money will be used to develop new data centres to house, operate, and cool miles of stacked computer chips that process AI data and actions.
+- **[A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Dividend Stock Down 45% to Buy Right Now](https://finnhub.io/api/news?id=e1ef89212091804c11309814f9fde46719b67b0d8e3bafb8780da4adf1dd9f60)**  
+*Yahoo · 3h前*  
+This Steady Eddie compounder is down 45% from its 52-week high, and its president and CEO is buying shares.
 
 ---
 
@@ -59,4 +59,4 @@ The money will be used to develop new data centres to house, operate, and cool m
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 21:04 HKT*
