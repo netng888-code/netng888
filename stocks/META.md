@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$592.10** |
-| 今日變動 | ▲ $2.20　(+0.37%) |
+| 現價 | **$594.92** |
+| 今日變動 | ▲ $2.82　(+0.48%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $43　(▼2.3%) |
+| 未實現盈虧 | ▼ $34　(▼1.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $575.96 | — |
-| Put Wall（支撐） | $600.00 | --1.3% |
-| Call Wall（阻力） | $750.00 | +26.7% |
+| Gamma Flip | $576.37 | — |
+| Put Wall（支撐） | $550.00 | -7.6% |
+| Call Wall（阻力） | $750.00 | +26.1% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Meta unveils Muse Glimmer as Zuckerberg backs stronger U.S. open-weight AI push](https://finnhub.io/api/news?id=85f35833689b394c99ab55be51e7904283e8a4a99431fc99ffb6b79ff986b3d7)**  
+- **[Amazon Stock And The Profit Signal Everyone Is Chasing](https://finnhub.io/api/news?id=1ef8bf9beed7f6643ed155c5b0b9106cc42a3358657037aad5fa6a82a8e7f533)**  
 *Yahoo · 2h前*  
-Meta (NASDAQ:META) launched a new open-weight artificial intelligence model on Monday as CEO Mark Zuckerberg called for the United States to reduce barriers fac…
+Management set a higher bar for profits, and the stock has already jumped, but the real story is how much faster the bottom line is guided to grow than the top …
 
-- **[Airbnb CEO: Why AI is the best thing to happen to us](https://finnhub.io/api/news?id=c005ebb5e28e93e02bece76d0716840853d520f449164ea57d4a1cfb545f02ea)**  
+- **[Same 100 Stocks, Different Price: Why QQQ Costs $180 Annually While QQQM Charges $150](https://finnhub.io/api/news?id=3bdc105ee3048d988d6a714bb05bf22da8fc2f7478087d8f02c6188b3d174cfc)**  
 *Yahoo · 3h前*  
-Airbnb CEO Brian Chesky reveals to Yahoo Finance Executive Editor Brian Sozzi how AI is driving the company's fastest growth in years, shares his bold predictio…
+Invesco sells you the same 100 stocks through two different funds at two different prices, and most investors buying the pricier one have no idea the cheaper ve…
 
-- **[Meta: FCF Crash Concerning, But I Expect Higher Spending To Pay Off](https://finnhub.io/api/news?id=e14b8ddd357c9abc48b38a97e9b15470d608e0d7f0c1461ffdd2e2e8ccee6162)**  
-*SeekingAlpha · 5h前*  
-Meta Platforms trades under 20x forward P/E amid AI spending volatility. Click to see why the pullback may be a long-term buying opportunity.
+- **[Meta's AI Boom Just Hit a New Hurdle](https://finnhub.io/api/news?id=1bbd2da411dda1566f4e87e4324c619d56aef2e74baf782aaeb11c7b826ea235)**  
+*Yahoo · 3h前*  
+Power and water costs are becoming harder to ignore
 
 ---
 
@@ -48,7 +48,7 @@ Meta Platforms trades under 20x forward P/E amid AI spending volatility. Click t
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-10 | 監控 | $592.10 | — | 自動更新 |
+| 2026-08-11 | 監控 | $594.92 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Meta Platforms trades under 20x forward P/E amid AI spending volatility. Click t
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-11 09:04 HKT*
