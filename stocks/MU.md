@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-12 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.](https://finnhub.io/api/news?id=1ddba27a45baea40c7ae79dcb7980b09554fc2ee56597eaef14ffecf9cf9dc26)**  
-*ChartMill · 7h前*  
+*ChartMill · 18h前*  
 Let's have a look at what is happening on the US markets on Tuesday. Below you can find the most active S&P500 stocks in today's session.
 
 - **[Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ](https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300)**  
-*SeekingAlpha · 10h前*  
+*SeekingAlpha · 22h前*  
 Buy SPY and QQQ on dips as AI investing rotates from chipmakers to Big Tech and CapEx cools. Click for an updated market outlook.
 
 - **[Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It](https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284)**  
-*Benzinga · 10h前*  
+*Benzinga · 22h前*  
 JPMorgan predicts a $2.25 trillion global semiconductor industry by 2027, with growth now spreading beyond memory chips and AI to other categories.
 
 ---
@@ -59,4 +59,4 @@ JPMorgan predicts a $2.25 trillion global semiconductor industry by 2027, with g
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 21:05 HKT*
