@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,21 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $376.15 | — |
 | Put Wall（支撐） | $355.00 | -6.5% |
-| Call Wall（阻力） | $390.00 | +2.8% |
+| Call Wall（阻力） | $395.00 | +4.1% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Discover which S&P500 stocks are making waves on Tuesday.](https://finnhub.io/api/news?id=2685212e0c72ba19539d542ed6746418eb64820e0c398230e7ccd79779797a5f)**  
-*ChartMill · 8h前*  
-Stay informed about the performance of the S&P500 index in the middle of the day on Tuesday. Uncover the top gainers and losers in today's session for valuable …
+- **[The Great Robotics Divergence: AI-Native Names Surge, Legacy Vendors Stall](https://finnhub.io/api/news?id=ef451f9499af34533ae30d3e1b54e0a34473a1f1ddc55357686b7e270ffc3249)**  
+*ChartMill · 0h前*  
+Robotics & automation stocks split: AI-driven names like UiPath, Teradyne, NVIDIA surge while legacy Rockwell lags. Theme up 18% but weighted P/E 67.
 
-- **[KOID: Holding An AI CapEx Fund Sold As Humanoid Robotics](https://finnhub.io/api/news?id=bb11fb110992855cba98521f0005e907f820ace06e87dded6f0d9d5c711199cb)**  
-*SeekingAlpha · 1d前*  
-The KraneShares Global Humanoid Robotics and Physical AI Index ETF is rated a hold due to valuation and thematic misalignment. Learn more about the KOID ETF her…
+- **[Teradyne (NASDAQ:TER) Shows Strong Growth and a High-Quality Technical Setup](https://finnhub.io/api/news?id=9cf9dd46069e6ed0cfb3faeaccef822eae9d0658c0f8bd30d4e9862ae4e2795f)**  
+*ChartMill · 5h前*  
+Teradyne (TER) combines strong growth fundamentals with a high-rated technical setup near resistance, signaling a potential breakout opportunity in semiconducto…
+
+- **[Discover which S&P500 stocks are making waves on Tuesday.](https://finnhub.io/api/news?id=2685212e0c72ba19539d542ed6746418eb64820e0c398230e7ccd79779797a5f)**  
+*ChartMill · 20h前*  
+Stay informed about the performance of the S&P500 index in the middle of the day on Tuesday. Uncover the top gainers and losers in today's session for valuable …
 
 ---
 
@@ -55,4 +59,4 @@ The KraneShares Global Humanoid Robotics and Physical AI Index ETF is rated a ho
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 21:06 HKT*
