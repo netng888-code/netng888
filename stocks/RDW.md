@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-11 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$13.12** |
-| 今日變動 | ▼ $0.47　(-3.46%) |
+| 現價 | **$13.51** |
+| 今日變動 | ▲ $0.39　(+2.97%) |
 | 持倉數量 | 80 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $202　(▼16.2%) |
+| 未實現盈虧 | ▼ $171　(▼13.7%) |
 
 ---
 
@@ -20,23 +20,23 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $8.57 | — |
-| Put Wall（支撐） | $12.00 | -8.5% |
-| Call Wall（阻力） | $13.00 | +-0.9% |
+| Gamma Flip | $8.60 | — |
+| Put Wall（支撐） | $12.00 | -11.2% |
+| Call Wall（阻力） | $14.00 | +3.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[JEDI: The New Warfare Paradigm](https://finnhub.io/api/news?id=7a76258cdb626652eb63e4b6b111a4d36e2b4fb25c50a8b7e1435d6fcedb1772)**  
+*SeekingAlpha · 14h前*  
+Explore Defiance Drone & Modern Warfare ETF (JEDI): drone/AI defense plays, rising NATO spending tailwinds, plus key risks.
+
 - **[Canaccord Genuity Maintains Buy on Redwire, Raises Price Target to $15](https://finnhub.io/api/news?id=8d4abf1776841ac833b4e196f635f65794ec92493abb29e3370c32fce0927958)**  
 *Benzinga · 1d前*  
 Canaccord Genuity  analyst Austin Moeller   maintains Redwire (NYSE:RDW) with a Buy and raises the price target from $14 to $15.
-
-- **[Benzinga Bulls And Bears: Palantir, Marvell, AppLovin](https://finnhub.io/api/news?id=d0f9c67598ffdbade8934d2501626965b8caaa3bd05f9a909949b5b01099fec8)**  
-*Benzinga · 3d前*  
-Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
 
 ---
 
@@ -44,7 +44,7 @@ Benzinga examined the prospects for many investors’ favorite stocks over the l
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-11 | 監控 | $13.12 | — | 自動更新 |
+| 2026-08-12 | 監控 | $13.51 | — | 自動更新 |
 
 ---
 
@@ -55,4 +55,4 @@ Benzinga examined the prospects for many investors’ favorite stocks over the l
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
