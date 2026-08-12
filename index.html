@@ -249,7 +249,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     </div>
     <div class="summary-card">
       <div class="summary-label">美股已實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-realized">+USD 12,851+</div>
+      <div class="summary-value pnl-pos" id="sum-us-realized">+USD 12,718+</div>
       <div class="summary-sub">MU沽2@944(+772)｜沽2@810(+762)｜沽2@1185(+1254)｜沽1@1200(+642)｜沽1@1004.66(+447)</div>
     </div>
     <div class="summary-card">
@@ -278,12 +278,12 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     MU 沽2股@$1,185 +$1,254 ｜
     MU 沽1股@$1,200 +$642 ｜
     MU 沽1股@$1,004.66 +$447 ｜
-    RDW 沽30@$20.3 + 沽20@$22.5 + 沽20@$27 = +$731 ｜
+    RDW 沽30@$20.3 + 沽20@$22.5 + 沽20@$27 + 沽40@$12.34（-$132.40）= +$598.60 ｜
     RKLB 沽5股 +$440 ｜
     ASTS 已清倉 ｜
     07709 沽100@$110 +HKD 9,420 ｜
     07709 沽100@$133 +HKD 11,720
-    <br>美股已實現 <strong>+USD 12,851+</strong> ｜ 港股已實現 <strong>+HKD 30,560+</strong>
+    <br>美股已實現 <strong>+USD 12,718+</strong> ｜ 港股已實現 <strong>+HKD 30,560+</strong>
   </div>
 
   <!-- US Stocks -->
@@ -447,14 +447,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('RDW')">RDW</span></td>
       <td class="name-cell">Redwire</td>
-      <td style="color:var(--muted)">80</td>
+      <td style="color:var(--muted)">40</td>
       <td><span class="price-cell price-live">14.35</span></td>
       <td><span class="ext-price-cell">-0.01 (-0.07%)</span></td>
       <td style="color:var(--muted)">15.65</td>
-      <td class="mktval-cell">1,148.00</td>
-      <td class="pnl-neg">-104.00</td>
+      <td class="mktval-cell">574.00</td>
+      <td class="pnl-neg">-52.00</td>
       <td><span class="pct-badge neg">-8.31%</span></td>
-      <td class="pnl-neg today-pnl-cell">-0.80</td>
+      <td class="pnl-neg today-pnl-cell">-0.40</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('RDW')">📈</button>
@@ -699,7 +699,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     <div class="risk-card"><div class="risk-icon">⚠️</div><div class="risk-title">LEU 虧損持倉</div><div class="risk-body">Centrus Energy 成本$197.50，現$161.78，-18.09%。核能板塊持續弱勢，已深度虧損，留意$150止蝕位</div></div>
     <div class="risk-card"><div class="risk-icon">🇭🇰</div><div class="risk-title">港股持倉概覽</div><div class="risk-body">07709 +738% ✅ ｜ 02367 -21% ⚠️ ｜ 09988 -27% ⚠️ ｜ 巨子生物及阿里均處虧損，留意</div></div>
     <div class="risk-card"><div class="risk-icon">🔴</div><div class="risk-title">小市值倉位</div><div class="risk-body">SERV -34% ｜ RR -12% ｜ 市值細，流動性較低，波動性高。兩者均虧損，SERV損幅較大</div></div>
-    <div class="risk-card"><div class="risk-icon">🚀</div><div class="risk-title">航天股持倉</div><div class="risk-body">RDW剩30股 ｜ RKLB剩5股（已減半鎖利） ｜ LITE（Lumentum）新增1股，光通信受AI基建帶動</div></div>
+    <div class="risk-card"><div class="risk-icon">🚀</div><div class="risk-title">航天股持倉</div><div class="risk-body">RDW剩40股 ｜ RKLB剩5股（已減半鎖利） ｜ LITE（Lumentum）新增1股，光通信受AI基建帶動</div></div>
     <div class="risk-card"><div class="risk-icon">✅</div><div class="risk-title">強勢持倉</div><div class="risk-body">TER +289% ｜ MRVL +34% ｜ RKLB +162% ｜ OKLO +176% ｜ MU +101% ｜ GOOGL +107% ｜ 可考慮分批鎖定利潤</div></div>
   </div>
 
@@ -758,7 +758,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-08-04 ｜ PLTR加倉5股@131.46（7→12股，新成本$127.304）｜ 持倉table改為按即市市值自動排序</span>
+  <span>持倉更新：2026-08-11 ｜ RDW沽出40股@$12.34（80→40股，成本不變$15.65，此筆已實現-$132.40）</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -825,7 +825,7 @@ const US_HOLDINGS = [
   { symbol:'NOK',   name:'諾基亞',                qty:150, cost:13.167,   mktval:2071.50,  pnl:96.50,    pnlPct:'+4.89%',   realized:0,       todayPnL:0       },
   { symbol:'TER',   name:'泰瑞達',                qty:5,   cost:92.00,    mktval:1846.65,  pnl:1386.65,  pnlPct:'+301.45%', realized:1356.54, todayPnL:0.60    },
   { symbol:'META',  name:'Meta Platforms',       qty:3,   cost:606.333,  mktval:1758.15,  pnl:-60.85,   pnlPct:'-3.35%',   realized:3.15,    todayPnL:4.38    },
-  { symbol:'RDW',   name:'Redwire',              qty:80,  cost:15.65,    mktval:1262.40,  pnl:10.40,    pnlPct:'+0.83%',   realized:731.00,  todayPnL:2.40    },
+  { symbol:'RDW',   name:'Redwire',              qty:40,  cost:15.65,    mktval:631.20,   pnl:5.20,     pnlPct:'+0.83%',   realized:598.60,  todayPnL:1.20    },
   { symbol:'LEU',   name:'Centrus Energy',       qty:8,   cost:197.50,   mktval:1251.04,  pnl:-328.96,  pnlPct:'-20.82%',  realized:0,       todayPnL:2.88    },
   { symbol:'OKLO',  name:'Oklo Inc',             qty:30,  cost:27.745,   mktval:1233.00,  pnl:400.66,   pnlPct:'+48.14%',  realized:370.83,  todayPnL:-9.00   },
   { symbol:'RKLB',  name:'Rocket Lab',           qty:10,  cost:76.00,    mktval:1079.20,  pnl:319.20,   pnlPct:'+42.00%',  realized:440.00,  todayPnL:-3.10   },
