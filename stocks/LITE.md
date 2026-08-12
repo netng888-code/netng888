@@ -1,6 +1,6 @@
 # LITE — Lumentum
 
-> 最後更新：2026-08-12 09:07 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,7 +22,7 @@
 |------|------|---------|
 | Gamma Flip | $873.23 | — |
 | Put Wall（支撐） | $800.00 | -2.5% |
-| Call Wall（阻力） | $870.00 | +6.0% |
+| Call Wall（阻力） | $900.00 | +9.7% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Lumentum Beats Q4 Estimates: CEO Says Data Centers Turn Increasingly to Optical Links](https://finnhub.io/api/news?id=a1bb7caa6be06705533769dd5d593411a1a01623879f17c1aff09f46a5eee485)**  
-*Benzinga · 8h前*  
-Here&#39;s a detailed look inside Lumentum&#39;s Q4 earnings report.
+- **[Which S&P500 stocks are moving before the opening bell on Wednesday?](https://finnhub.io/api/news?id=1a51c3fda625137f05bd7a8622dd3db9cd4f97aa3ff563d6f1aa5511d9562da4)**  
+*ChartMill · 0h前*  
+As the US market prepares to open on Wednesday, let's get an early glimpse into the pre-market session and identify the S&P500 stocks leading the pack in terms …
 
-- **[Lumentum Holdings Sees Q1 Adj EPS $4.05-$4.35 vs $3.61 Est; Sees Sales $1.225B-$1.275B vs $1.159B Est](https://finnhub.io/api/news?id=3e74dbc430f34675a97119d5745c4229d421e7217c12f827b853668f98bd3345)**  
-*Benzinga · 9h前*  
-Lumentum Holdings (NASDAQ:LITE) is looking for Q1 Adj EPS of $4.05-$4.35 vs $3.61 analyst estimate. sees sales of $1.225 billion-$1.275 billion vs $1.159 billio…
+- **[Lumentum: Strike While The Iron Is Hot](https://finnhub.io/api/news?id=4848b5ebdce0cbe9ff5d81e6fc1822e281efda8f0fe04a95962cc03d1789b33d)**  
+*SeekingAlpha · 10h前*  
+Lumentum (LITE) surges on AI/data center demand with a blowout Q4 and bullish Q1 guidance. Read here for a detailed investment analysis.
 
-- **[Lumentum Holdings Q4 Adj. EPS $3.23 Beats $2.97 Estimate, Sales $1.006B Beat $987.892M Estimate](https://finnhub.io/api/news?id=c50a3f2698005403959051008d23a09413d8b8a443364271eef3c8f0d1a60959)**  
-*Benzinga · 9h前*  
-Lumentum Holdings (NASDAQ:LITE) reported quarterly earnings of $3.23 per share which beat the analyst consensus estimate of $2.97 by 8.75 percent. This is a 267…
+- **[Lumentum Holdings Inc. (LITE) Q4 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=fcae7ef089834b83c04b3047fe874919739006c28112f051220229de3ef74d6a)**  
+*SeekingAlpha · 13h前*  
+Lumentum Holdings Inc. (LITE) Q4 2026 Earnings Call August 11, 2026 5:00 PM EDTCompany ParticipantsKathryn Ta - Vice President of Investor RelationsMichael...
 
 ---
 
@@ -59,4 +59,4 @@ Lumentum Holdings (NASDAQ:LITE) reported quarterly earnings of $3.23 per share w
 - [TradingView](https://www.tradingview.com/chart/?symbol=LITE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 09:07 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 21:06 HKT*
