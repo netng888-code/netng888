@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-11 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$175.23** |
-| 今日變動 | ▲ $3.22　(+1.87%) |
+| 現價 | **$174.94** |
+| 今日變動 | ▼ $0.29　(-0.17%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $356　(▲40.9%) |
+| 未實現盈虧 | ▲ $354　(▲40.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $139.85 | — |
-| Put Wall（支撐） | $170.00 | -3.0% |
-| Call Wall（阻力） | $175.00 | +-0.1% |
+| Gamma Flip | $142.89 | — |
+| Put Wall（支撐） | $170.00 | -2.8% |
+| Call Wall（阻力） | $180.00 | +2.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir (PLTR) Q2 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=c90e53c696cc2176575a2feb0eee1b07101e6cb07281dcfcf288649fa62b157b)**  
-*Yahoo · 11h前*  
-Revenue surged 93% year over year as AI demand accelerated across U.S. markets.
+- **[Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.](https://finnhub.io/api/news?id=1ddba27a45baea40c7ae79dcb7980b09554fc2ee56597eaef14ffecf9cf9dc26)**  
+*ChartMill · 7h前*  
+Let's have a look at what is happening on the US markets on Tuesday. Below you can find the most active S&P500 stocks in today's session.
 
-- **[S&P500, Nasdaq, Dow Futures Unchanged After Ending Session Mildly Lower As  Investors Brace For Key Inflation Data  — SPCX, TSLA, INTC, NFLX, PLTR In Focus](https://finnhub.io/api/news?id=76f90655d84f5b39c4c81c9756c95cba6cae9a4c7a0649d295f53fd83049e2ce)**  
-*Yahoo · 14h前*  
-Intel’s stock dropped 4%, weighing on the Nasdaq after announcing a $15 billion stock offering.
+- **[Polymarket Loads Up on Robinhood, Coinbase, Nasdaq Veterans Ahead of Its Biggest US Test](https://finnhub.io/api/news?id=7aa34f9b9597250b8a19d3e4f0025de2a79a36fb32c0ab8ff85fbde11d119a34)**  
+*Benzinga · 10h前*  
+Polymarket is hiring veterans of Robinhood, Coinbase and Nasdaq as it prepares for a major U.S. test against Kalshi during NFL season.
 
-- **[Cathie Wood Invests $36.9 Million in Surging Stock](https://finnhub.io/api/news?id=b56dc5cf2f43a2f40e4609fda1288c459781ed3a41ac1b2be69d3cbed12f0245)**  
-*Yahoo · 16h前*  
-Fresh buying reveals where Wood sees better risk-reward
+- **[ValuEngine Weekly Market Summary And Commentary](https://finnhub.io/api/news?id=512cb5e3c45f8dd23e0f741191a2f85925d30cb818018ad7e2e80ee8846b5488)**  
+*SeekingAlpha · 13h前*  
+U.S. equity markets rebounded strongly this week, with gains led by technology and growth-oriented sectors.
 
 ---
 
@@ -48,7 +48,7 @@ Fresh buying reveals where Wood sees better risk-reward
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-11 | 監控 | $175.23 | — | 自動更新 |
+| 2026-08-12 | 監控 | $174.94 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Fresh buying reveals where Wood sees better risk-reward
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
