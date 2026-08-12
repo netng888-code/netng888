@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[AI Capex Roars On After Hours as Hormuz Stress Keeps Traders on Edge](https://finnhub.io/api/news?id=2fda3972ef45894d8aea037ab08da77b91763a6b420e109649ec7014c5596eec)**  
+*ChartMill · 4h前*  
+Super Micro and CoreWeave delivered blockbuster after-hours prints that reinforced the AI-infrastructure spending cycle, even as Wall Street eased back for a se…
+
 - **[Where The Next $1.3 Trillion Of CapEx Gets Spent](https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a)**  
-*SeekingAlpha · 8h前*  
+*SeekingAlpha · 20h前*  
 Semiconductor sector faces capex-fatigue, but committed $1.3T cloud spending through 2027 underpins long-term opportunity. Read the full analysis here.
 
 - **[FTEC: Fidelity's IT ETF Is A Fantastic Long-Term Core Tech Holding](https://finnhub.io/api/news?id=4d376b0daec0833082a3f94df50421b15d71ffd4e490fc7fc8b298c1325ad346)**  
-*SeekingAlpha · 9h前*  
+*SeekingAlpha · 21h前*  
 Fidelity MSCI Information Technology ETF has delivered exceptional long-term outperformance. Click to know why FTEC is a good long-term tech holding.
-
-- **[Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ](https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300)**  
-*SeekingAlpha · 10h前*  
-Buy SPY and QQQ on dips as AI investing rotates from chipmakers to Big Tech and CapEx cools. Click for an updated market outlook.
 
 ---
 
@@ -59,4 +59,4 @@ Buy SPY and QQQ on dips as AI investing rotates from chipmakers to Big Tech and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 21:05 HKT*
