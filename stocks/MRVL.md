@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$208.56** |
-| 今日變動 | ▼ $10.16　(-4.65%) |
+| 現價 | **$212.31** |
+| 今日變動 | ▲ $3.75　(+1.80%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $487　(▼18.9%) |
+| 未實現盈虧 | ▼ $450　(▼17.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $203.03 | — |
-| Put Wall（支撐） | $200.00 | -4.1% |
-| Call Wall（阻力） | $250.00 | +19.9% |
+| Gamma Flip | $205.57 | — |
+| Put Wall（支撐） | $200.00 | -5.8% |
+| Call Wall（阻力） | $250.00 | +17.8% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,30 @@
 
 ## 📰 最新新聞
 
-- **[12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven](https://finnhub.io/api/news?id=d029b355388a6c5acf2d341b04dbb4f2e819b031490d7c38d542a8ef4e8eee44)**  
-*Yahoo · 7h前*  
-Twelve Nasdaq 100 stocks have doubled in 2026, and not a single the Magnificent Seven is among them. Here is why.
+- **[Marvell: Don't Get Shaken Out Of The Sharp Sell-Off](https://finnhub.io/api/news?id=7c5ede631ac5a11728c44b82fac2000977a940b4f14da164a20728dc13910290)**  
+*SeekingAlpha · 7h前*  
+Marvell benefits from exponential AI data center growth and leadership in 1.6T optical networking chips. Read more on MRVL stock here.
 
-- **[Here's Why Marvell Technology (MRVL) Fell More Than Broader Market](https://finnhub.io/api/news?id=e5f819243f709baa1e61c12b013c467963354b49dc3cf797d1b5fc5dfea84320)**  
-*Yahoo · 15h前*  
-Marvell Technology (MRVL) closed at $208.61 in the latest trading session, marking a -4.62% move from the prior day.
+- **[Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It](https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284)**  
+*Benzinga · 10h前*  
+JPMorgan predicts a $2.25 trillion global semiconductor industry by 2027, with growth now spreading beyond memory chips and AI to other categories.
 
-- **[Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line](https://finnhub.io/api/news?id=4a8782728aedce2357e9c4eaafdfee82764aeaefc493664412fa88c240f2a443)**  
-*Yahoo · 17h前*  
-Marvell Technology is riding a real data center ramp, but a large slice of the reported profit is behind its multiple sits below the operating line.
+- **[Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed](https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e)**  
+*Benzinga · 12h前*  
+Masterstroke Creates More Risk
+
+
+
+Please click here for an enlarged chart of NVIDIA Corp (NASDAQ:NVDA).
+
+
+
+Note the following:
+
+
+
+
+This article is about the big…
 
 ---
 
@@ -48,7 +61,7 @@ Marvell Technology is riding a real data center ramp, but a large slice of the r
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-11 | 監控 | $208.56 | — | 自動更新 |
+| 2026-08-12 | 監控 | $212.31 | — | 自動更新 |
 
 ---
 
@@ -59,4 +72,4 @@ Marvell Technology is riding a real data center ramp, but a large slice of the r
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
