@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -10,9 +10,9 @@
 |------|------|
 | 現價 | **$13.51** |
 | 今日變動 | ▲ $0.39　(+2.97%) |
-| 持倉數量 | 80 股 |
+| 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $171　(▼13.7%) |
+| 未實現盈虧 | ▼ $86　(▼13.7%) |
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[JEDI: The New Warfare Paradigm](https://finnhub.io/api/news?id=7a76258cdb626652eb63e4b6b111a4d36e2b4fb25c50a8b7e1435d6fcedb1772)**  
-*SeekingAlpha · 14h前*  
+*SeekingAlpha · 1d前*  
 Explore Defiance Drone & Modern Warfare ETF (JEDI): drone/AI defense plays, rising NATO spending tailwinds, plus key risks.
 
 - **[Canaccord Genuity Maintains Buy on Redwire, Raises Price Target to $15](https://finnhub.io/api/news?id=8d4abf1776841ac833b4e196f635f65794ec92493abb29e3370c32fce0927958)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 Canaccord Genuity  analyst Austin Moeller   maintains Redwire (NYSE:RDW) with a Buy and raises the price target from $14 to $15.
 
 ---
@@ -55,4 +55,4 @@ Canaccord Genuity  analyst Austin Moeller   maintains Redwire (NYSE:RDW) with a 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 21:06 HKT*
