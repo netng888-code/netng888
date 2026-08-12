@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Unlocking $50 Billion Across The Nuclear Value Chain](https://finnhub.io/api/news?id=75e4a76bc35ff94bb64049334007da7f97984db52e1f1c48747ac7339b3339c0)**  
-*SeekingAlpha · 17h前*  
+*SeekingAlpha · 1d前*  
 The DOE has selected five initial contenders after reviewing 28 applications from 26 states. The five states have signed memorandums of understanding to discuss…
 
 - **[Truist Securities Maintains Hold on Oklo, Lowers Price Target to $51](https://finnhub.io/api/news?id=ada1ae66f326bed612ab448a892614876d450dd79a4748375fc05001baf3783e)**  
@@ -39,7 +39,7 @@ The DOE has selected five initial contenders after reviewing 28 applications fro
 Truist Securities  analyst Christopher Souther   maintains Oklo (NYSE:OKLO) with a Hold and lowers the price target from $55 to $51.
 
 - **[Oil Jumps 3%, Yields Climb as Hormuz Hopes Fade: Stock Market Today](https://finnhub.io/api/news?id=b2c3d89e1ba544c6935e885ea50b18ce7f28457e2a8831917fca777a0ce13aa6)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 Crude surges above $80 and the 10-year yield hits an August high as an Iran-US deal on the Strait of Hormuz slips away, stalling Wall Street&#39;s record run.
 
 ---
@@ -59,4 +59,4 @@ Crude surges above $80 and the 10-year yield hits an August high as an Iran-US d
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 21:06 HKT*
