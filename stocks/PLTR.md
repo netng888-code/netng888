@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.](https://finnhub.io/api/news?id=1ddba27a45baea40c7ae79dcb7980b09554fc2ee56597eaef14ffecf9cf9dc26)**  
-*ChartMill · 7h前*  
+*ChartMill · 19h前*  
 Let's have a look at what is happening on the US markets on Tuesday. Below you can find the most active S&P500 stocks in today's session.
 
 - **[Polymarket Loads Up on Robinhood, Coinbase, Nasdaq Veterans Ahead of Its Biggest US Test](https://finnhub.io/api/news?id=7aa34f9b9597250b8a19d3e4f0025de2a79a36fb32c0ab8ff85fbde11d119a34)**  
-*Benzinga · 10h前*  
+*Benzinga · 22h前*  
 Polymarket is hiring veterans of Robinhood, Coinbase and Nasdaq as it prepares for a major U.S. test against Kalshi during NFL season.
 
 - **[ValuEngine Weekly Market Summary And Commentary](https://finnhub.io/api/news?id=512cb5e3c45f8dd23e0f741191a2f85925d30cb818018ad7e2e80ee8846b5488)**  
-*SeekingAlpha · 13h前*  
+*SeekingAlpha · 1d前*  
 U.S. equity markets rebounded strongly this week, with gains led by technology and growth-oriented sectors.
 
 ---
@@ -59,4 +59,4 @@ U.S. equity markets rebounded strongly this week, with gains led by technology a
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 21:06 HKT*
