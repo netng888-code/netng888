@@ -59,13 +59,13 @@ BATCH1 = [
     {"sym": "TER",   "name": "泰瑞達",          "qty": 5,   "cost": 92.00  },
     {"sym": "META",  "name": "Meta Platforms",  "qty": 3,   "cost": 606.333},
     {"sym": "NOK",   "name": "諾基亞",          "qty": 150, "cost": 13.167 },
-    {"sym": "RDW",   "name": "Redwire",         "qty": 80,  "cost": 15.65  },
+    {"sym": "RDW",   "name": "Redwire",         "qty": 40,  "cost": 15.65  },
     {"sym": "LEU",   "name": "Centrus Energy",  "qty": 8,   "cost": 197.50 },
 ]
 
 # BATCH2（Barchart帳戶2，8隻，quota用16/20，剩約2隻緩衝，加持倉應加呢度）
 BATCH2 = [
-    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 30,  "cost": 27.745 },
+    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 20,  "cost": 21.067 },
     {"sym": "RKLB",  "name": "Rocket Lab",        "qty": 10,  "cost": 76.00  },
     {"sym": "PLTR",  "name": "Palantir",          "qty": 7,   "cost": 124.335},
     {"sym": "ISRG",  "name": "直覺外科公司",     "qty": 2,   "cost": 453.10 },
