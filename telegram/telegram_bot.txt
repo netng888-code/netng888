@@ -73,7 +73,7 @@ v1.4:【重要bugfix】修正「週日夜盤／週五收市」被誤判做weeken
           喺呢段時間主動叫個job唔好行
         - detect_et_session() 同一時段錯誤返回"weekend"，即使
           job冇被skip（例如手動 /gex 查詢），fetch_live_quote_futu/
-          fetch_all_quotes_futu 都會揀錯欄位（跌返last_price，
+          fetch_all_quotes_futu 都會揀錯欄位（跌returns返last_price，
           唔會用overnight_price），令夜盤現價實際上都係舊嘅
           regular收盤價
       連帶發現埋一個方向相反嘅次要bug：週五20:00 ET之後（收咗市
@@ -142,7 +142,58 @@ v1.6: 主力AI model由 Kimi K2 Thinking 換返 DeepSeek，順便解決埋一個
       邏輯完全冇動過，AI喺呢類任務嘅角色維持「將已確定嘅事實組織
       做建議」而唔係「自己計算方向」，呢個先係AVGO事件真正嘅防
       呆網，同主力model係邊隻無關。
-
+v1.7: 兩項改動：
+      (1) generate_gex_chart() 現價橫線顏色由 #f5a623（琥珀色）
+          改做 #ffffff（白色）——用戶反映同Gamma Flip線嘅
+          #ffd700（金黃色）視覺上太接近，細圖睇唔清邊條係邊條，
+          白色對比度更高，一眼分辨得到（見附圖SKHY GEX chart，
+          現價線同Flip線幾乎撞色）。
+      (2) build_gex_prompt() 新增第2、3點「突破Call Wall／跌穿
+          Put Wall後可能發生咩」（Dealer對沖行為點樣加速升／跌
+          勢，例如短倉回補／Gamma Squeeze動態）——呢兩點純粹係
+          期權機制嘅情境推理，唔涉及現價/Wall嘅距離計算或方向
+          判斷，唔會撞到v1.2 AVGO事件嗰種方向性算術錯誤，可以
+          放心交畀AI自由發揮；原有第1點（引用compute_wall_status()
+          已計算好嘅位置關係）同埋「唔准自己重新計算方向」嘅
+          限制完全冇拆走，兩者並存——算術/方向判斷繼續100%由
+          code負責，情境推理先畀AI自由發揮。回覆字數上限由100字
+          放寬到150字，遷就多咗兩點內容。
+v1.8（2026-08-02）：兩項改動：
+      (1) ANALYSIS_MODEL由deepseek-v4-flash換做deepseek-v4-flash-
+          0731（釘死checkpoint，唔用會隨DeepSeek新版靜靜雞轉行為
+          嘅"-latest" alias）；FALLBACK_MODEL由kimi-k2-thinking
+          （~9個月前checkpoint，$0.60/$2.50 per M）升級做kimi-k2.5
+          （$0.375/$2.025，context一樣262K）——新啲又平啲，換咗
+          淨賺，同futu_bridge_v2.py（GEX+K線terminal網頁版）嘅
+          AI分析卡同一日做嘅同一個決策，兩邊保持一致。
+      (2)【重要bugfix】換咗deepseek-v4-flash-0731之後，/gex嘅AI
+          分析步驟開始出現Telegram顯示「🤖 AI分析：\nNone」——
+          根源：ask_ai()舊版response成功(200)就直接
+          `return choices[0]["message"]["content"]`，冇檢查content
+          係咪None/空。deepseek-v4-flash-0731係reasoning model，
+          舊版max_tokens=500對reasoning model太細，reasoning階段
+          食晒成個budget，令response嘅message.content變成JSON
+          null（Python讀出嚟就係None），直接串入f-string變成
+          字面「None」畀用戶見到。修正：max_tokens 500→2000 + 加
+          OpenRouter官方統一reasoning參數
+          reasoning:{"effort":"low","exclude":true}盡量壓低
+          reasoning token消耗；content經None/空字串檢查後當做同
+          403/逾時同一類「呢個model今次搞唔掂」情況，自動fallback
+          去FALLBACK_MODEL，唔會再淨係將None直接return俾用戶。
+v1.9（2026-08-05）【重要修正】：gex_refresh_job() 並行度由18降到4。
+      背景：從bot terminal log發現一個穩定Pattern——18隻齊齊fire
+      request嗰陣，成個job淨係使6秒左右就完成，但成功率穩定喺
+      10/18（~56%），而且邊隻symbol成功／失敗每次會轉。呢個組合
+      （完成極快 + 失敗率穩定 + 失敗symbol隨機轉換）唔似係真係
+      45秒request timeout，更似係futu_bridge_v2.py嗰邊單一
+      OpenQuoteContext（`_ctx`全域變量）被18條thread同時撞，令
+      部分request收唔到啱嘅response（快速返回空數據，而唔係慢慢
+      等到timeout先失敗）。詳細分析見gex_refresh_job() docstring。
+      修正：新增GEX_REFRESH_MAX_WORKERS=4常數，
+      ThreadPoolExecutor(max_workers=...)由len(ALL_HOLDINGS)（18）
+      改用呢個常數，令request分成約5批陸續打去bridge；連帶
+      as_completed()整體timeout由50秒放寬到180秒，配合降低咗嘅
+      並行度（job本身30分鐘先跑一次，多等幾十秒完全負擔得起）。
 架構：
   Telegram指令
       ↓
@@ -151,10 +202,10 @@ v1.6: 主力AI model由 Kimi K2 Thinking 換返 DeepSeek，順便解決埋一個
       ↓（Futu離線或個別股票缺數據時）
   GitHub stocks/*.md（github_gex_updater.py 21:00已更新）+ Finnhub
       ↓
-  OpenRouter → DeepSeek V4 Flash（主，平；因OpenRouter帳戶所屬
-               地區被封鎖存取OpenAI/Anthropic/Google）
-               → 403/逾時時自動fallback Kimi K2 Thinking（備，
-               reasoning model安全網，v1.6由主力降做fallback）
+  OpenRouter → DeepSeek V4 Flash 0731（主，穩定pin；因OpenRouter
+               帳戶所屬地區被封鎖存取OpenAI/Anthropic/Google）
+               → 403/逾時/content為空時自動fallback Kimi K2.5
+               （備，v1.8由kimi-k2-thinking升級）
       ↓
   Telegram回覆
 
@@ -180,7 +231,7 @@ v1.6: 主力AI model由 Kimi K2 Thinking 換返 DeepSeek，順便解決埋一個
 ═══════════════════════════════════════════════════
 """
 
-BOT_VERSION = "1.6"
+BOT_VERSION = "1.9"
 
 import re
 import json
@@ -233,8 +284,15 @@ FUTU_BRIDGE_URL = "http://127.0.0.1:8888"
 #    可控。Kimi降級做FALLBACK_MODEL保留——DeepSeek都被403封鎖
 #    或逾時嗰陣，ask_ai()會自動fallback去佢，呢層reasoning model
 #    安全網冇拆走。
-ANALYSIS_MODEL = "deepseek/deepseek-v4-flash"
-FALLBACK_MODEL = "moonshotai/kimi-k2-thinking"
+# 2026-08-02（v1.8）：ANALYSIS_MODEL換做deepseek-v4-flash-0731（釘死
+#    checkpoint，唔用會隨DeepSeek新版靜靜雞轉行為嘅"-latest" alias）；
+#    FALLBACK_MODEL由kimi-k2-thinking（~9個月前checkpoint，$0.60/
+#    $2.50 per M）升級做kimi-k2.5（$0.375/$2.025，context一樣
+#    262K）——新啲又平啲，換咗淨賺，詳細比較見futu_bridge_v2.py
+#    同一次改動嘅changelog。同一次順便修正埋ask_ai()嘅reasoning
+#    token bug（見下面function內註解）。
+ANALYSIS_MODEL = "deepseek/deepseek-v4-flash-0731"  # 主，穩定pin
+FALLBACK_MODEL = "moonshotai/kimi-k2.5"             # 備（原kimi-k2-thinking升級）
 
 # 全部18大持倉（同 github_gex_updater.py 保持一致；
 # GEX數據嗰邊由兩個Barchart帳戶分批攞，呢度純粹係顯示用清單）
@@ -247,9 +305,9 @@ ALL_HOLDINGS = [
     {"sym": "TER",   "name": "泰瑞達",          "qty": 5,   "cost": 92.00  },
     {"sym": "META",  "name": "Meta Platforms",  "qty": 3,   "cost": 606.333},
     {"sym": "NOK",   "name": "諾基亞",          "qty": 100, "cost": 13.50  },
-    {"sym": "RDW",   "name": "Redwire",         "qty": 80,  "cost": 15.65  },
+    {"sym": "RDW",   "name": "Redwire",         "qty": 40,  "cost": 15.65  },
     {"sym": "LEU",   "name": "Centrus Energy",  "qty": 8,   "cost": 197.50 },
-    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 30,  "cost": 27.745 },
+    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 20,  "cost": 21.067 },
     {"sym": "RKLB",  "name": "Rocket Lab",        "qty": 10,  "cost": 76.00  },
     {"sym": "PLTR",  "name": "Palantir",          "qty": 7,   "cost": 124.335},
     {"sym": "ISRG",  "name": "直覺外科公司",     "qty": 2,   "cost": 453.10 },
@@ -652,7 +710,7 @@ def parse_md(md: str) -> dict:
     return data
 
 # ═══════════════════════════════════════════════════
-# OpenRouter → DeepSeek V4 Flash（主）／Kimi K2 Thinking（fallback）：生成分析建議
+# OpenRouter → DeepSeek V4 Flash 0731（主）／Kimi K2.5（fallback）：生成分析建議
 # ═══════════════════════════════════════════════════
 def ask_ai(prompt: str, model: str | None = None, _is_fallback_retry: bool = False) -> str:
     """
@@ -664,6 +722,32 @@ def ask_ai(prompt: str, model: str | None = None, _is_fallback_retry: bool = Fal
     分析功能靜默停擺。
     401（key本身無效）／402（餘額不足）／429（rate limit）呢三類
     錯誤屬於帳戶層面，換model都冇用，唔會觸發fallback。
+
+    v1.8【重要bugfix】：實測/gex查詢AI分析步驟，Telegram顯示成句
+    「🤖 AI分析：\nNone」——即係choices[0]["message"]["content"]
+    本身係Python None，唔係空字串，先會令f-string串出字面「None」
+    （之前呢個function冇檢查content係咪None/空，成功狀態碼200就
+    直接return content，冇診斷過）。
+    根源：ANALYSIS_MODEL喺v1.8升做deepseek-v4-flash-0731——呢個
+    係reasoning model（OpenRouter model卡明確標示支援high/xhigh
+    reasoning effort），reasoning階段本身會食用max_tokens呢個共用
+    budget。舊版max_tokens=500對reasoning model嚟講太細，reasoning
+    階段直接食晒成個budget，令final answer嗰邊response嘅
+    message.content變成JSON null（Python讀出嚟就係None）——呢個
+    唔係DeepSeek獨有，OpenRouter官方reasoning tokens文件都有講
+    低budget會撞到呢個症狀（"the reasoning phase can consume the
+    entire max_tokens budget, leaving zero tokens for the final
+    answer"）。futu_bridge_v2.py嘅AI分析卡（GEX+K線terminal個
+    網頁版）同一日撞到一模一樣嘅bug，修法完全一致，兩邊同步。
+    修正：
+      (1) max_tokens 500→2000——加大budget，成本可忽略（DeepSeek
+          V4 Flash 0731約$0.09/$0.18 per M tokens）
+      (2) 加返OpenRouter官方統一reasoning參數 reasoning:{"effort":
+          "low","exclude":true}，盡量壓低reasoning消耗（model唔
+          支援"low"嘅話OpenRouter自動map去佢支援嘅級別，唔會報錯）
+      (3) content經None/空字串檢查後，當做同403/逾時同一類「呢個
+          model今次搞唔掂」情況，自動fallback去FALLBACK_MODEL——
+          唔會再淨係將None/空白直接return俾用戶見到。
     """
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
@@ -675,7 +759,8 @@ def ask_ai(prompt: str, model: str | None = None, _is_fallback_retry: bool = Fal
     use_model = model or ANALYSIS_MODEL
     payload = {
         "model": use_model,
-        "max_tokens": 500,
+        "max_tokens": 2000,
+        "reasoning": {"effort": "low", "exclude": True},
         "messages": [{"role": "user", "content": prompt}],
     }
     try:
@@ -689,7 +774,16 @@ def ask_ai(prompt: str, model: str | None = None, _is_fallback_retry: bool = Fal
             choices = result.get("choices", [])
             if not choices:
                 return f"⚠️ AI回傳空結果，完整回應：{str(result)[:200]}"
-            return choices[0]["message"]["content"]
+            content = (choices[0].get("message", {}).get("content") or "").strip()
+            if content:
+                return content
+            # content係None或空字串——大機會reasoning token食晒budget，
+            # 當做失敗處理，同403/逾時一樣觸發自動fallback
+            print(f"   ⚠️ {use_model} 回傳content為空/None（reasoning token可能耗盡預算）")
+            if not _is_fallback_retry and use_model != FALLBACK_MODEL:
+                print(f"   ⚠️ 自動fallback去 {FALLBACK_MODEL}")
+                return ask_ai(prompt, model=FALLBACK_MODEL, _is_fallback_retry=True)
+            return "⚠️ AI回傳content為空（reasoning token可能耗盡預算，兩個model都試過）"
         else:
             error_detail = ""
             try:
@@ -818,7 +912,14 @@ def build_gex_prompt(sym: str, name: str, data: dict, live: dict | None, session
     wall_status = compute_wall_status(_price_for_calc, data.get("flip"),
                                        data.get("put_wall"), data.get("call_wall"))
 
-    return f"""你是一位專業的GEX（Gamma Exposure）期權分析師，正在為一位持有{sym}（{name}）的退休投資者提供簡短操作建議。
+    # v1.7：新增第2、3點（突破Call Wall／跌穿Put Wall後可能發生咩），
+    # 呢兩點純粹係期權機制嘅情境推理（Dealer對沖行為點樣加速升/跌
+    # 勢，例如短倉回補/Gamma Squeeze動態），唔涉及現價/Wall嘅距離
+    # 計算或方向判斷，唔會撞到v1.2 AVGO事件嗰種方向性算術錯誤，
+    # 可以放心交畀AI自由發揮；第1點（引用compute_wall_status()已
+    # 計算好嘅位置關係）同「唔准自己重新計算方向」嘅限制完全冇拆
+    # 走，兩者並存——算術/方向判斷繼續100%由code負責。
+    return f"""你是一位華爾街Options Trader，正在為一位持有{sym}（{name}）嘅退休投資者提供簡短操作建議。
 
 該投資者背景：已退休，風險承受能力中低，傾向保守至中等策略，關注下跌風險多於追求最高回報。
 
@@ -832,13 +933,15 @@ Call Wall（阻力）：${data.get('call_wall', 'N/A')}
 【系統已預先計算嘅位置關係——必須以此為準，唔准自己重新計算或判斷方向】：
 {wall_status}
 
-請用繁體中文（可用少量粵語表達習慣），給出3-4句簡短具體的操作建議，包括：
+請用繁體中文（可用少量粵語表達習慣），依以下重點給出簡短具體嘅操作建議：
 1. 直接引用上方「系統已預先計算嘅位置關係」講短線風險，唔使自己重新計算百分比或判斷邊個高邊個低
-2. 是否建議調整持倉（不要假設用戶會盲目跟隨，給出條件式建議）
-3. 不要使用任何免責聲明或"僅供參考"等套話，直接給出分析
+2. 若價格突破Call Wall（${data.get('call_wall', 'N/A')}）：簡述Dealer對沖行為可能點樣加速升勢（例如短倉回補／Gamma Squeeze動態），一句講完
+3. 若價格跌穿Put Wall（${data.get('put_wall', 'N/A')}）：簡述失去支撐後Dealer對沖行為可能點樣加速跌勢，一句講完
+4. 是否建議調整持倉（不要假設用戶會盲目跟隨，給出條件式建議，例如「若跌穿$X先考慮減倉」）
+5. 不要使用任何免責聲明或"僅供參考"等套話，直接給出分析
 
-回覆控制在100字以內，語氣專業但不要過度保守，避免空泛建議。
-重要：唔准自己重新計算現價同Put/Call Wall嘅距離百分比或方向——一律直接引用上方已計算好嘅「位置關係」段落嘅結論，你嘅角色係將呢啲已確定嘅事實轉化做操作建議，唔係重新做算術或方向判斷。"""
+回覆控制在150字以內，分點簡短，語氣專業但不要過度保守，避免空泛建議。
+重要：唔准自己重新計算現價同Put/Call Wall嘅距離百分比或方向——一律直接引用上方已計算好嘅「位置關係」段落嘅結論；突破/跌穿之後嘅情境推演（第2、3點）可以自由用你嘅期權知識推理，呢部分唔受此限制。你嘅角色係將已確定嘅事實轉化做操作建議，加上專業情境判斷，唔係重新做算術。"""
 
 # ═══════════════════════════════════════════════════
 # Futu Bridge GEX（任何美股，唔限持倉）
@@ -922,8 +1025,13 @@ def generate_gex_chart(sym: str, gex_data: dict, live_price: float | None = None
     call_wall = gex_data.get("call_wall")
     current   = live_price or spot
 
+    # v1.7：現價橫線顏色由 #f5a623（琥珀色）改做 #ffffff（白色）——
+    # 用戶反映同下面Gamma Flip線嘅 #ffd700（金黃色）視覺上太接近，
+    # 細圖睇唔清邊條係邊條（見附圖SKHY GEX chart，現價線同Flip線
+    # 幾乎撞色）。白色對比度更高，一眼分辨得到；legend_patches用
+    # 返呢個color變量生成圖例swatch，唔使額外改。
     line_defs = [
-        (current,   "#f5a623", f"現價 ${current:,.1f}",           "--", 2.0),
+        (current,   "#ffffff", f"現價 ${current:,.1f}",           "--", 2.0),
         (flip,      "#ffd700", f"Gamma Flip ${flip:,.1f}" if flip else None,       "-.", 1.5),
         (put_wall,  "#ff4d6d", f"Put Wall ${put_wall:,.1f}" if put_wall else None,  ":",  1.5),
         (call_wall, "#00d4aa", f"Call Wall ${call_wall:,.1f}" if call_wall else None, ":", 1.5),
@@ -1432,14 +1540,52 @@ def check_gex_proximity(sym: str, price: float, call_wall: float, put_wall: floa
         "wall_price": wall_price, "is_breach": is_breach,
     }
 
+# v1.9新增：GEX預熱job嘅並行度上限。背景見下面gex_refresh_job()
+# docstring——18隻齊齊thread撞落futu_bridge_v2.py單一
+# OpenQuoteContext connection（_ctx全域變量），會令部分request
+# 「快速失敗」而唔係真係timeout，而家降低到4，等request分批打，
+# 減少同一時間撞_ctx嘅機會。
+GEX_REFRESH_MAX_WORKERS = 4
+
+
 async def gex_refresh_job(context: ContextTypes.DEFAULT_TYPE):
     """
-    每30分鐘預熱 GEX cache（並行攞18隻，唔 block alert job）
+    每30分鐘預熱 GEX cache（分批並行攞18隻，唔 block alert job）
     ┌─────────────────────────────────────────────────┐
-    │ 18隻全部並行 → 最多等45秒（唔係45×18=810秒）  │
+    │ 分批並行（max_workers=4） → 全部18隻行完可能要   │
+    │ 幾十秒（唔再係6秒），但job本身30分鐘先跑一次，  │
+    │ 完全負擔得起                                     │
     │ 成功 → 存入 _gex_live_cache（30分鐘TTL）        │
     │ 失敗 → 保留舊cache / alert job fallback .md     │
     └─────────────────────────────────────────────────┘
+
+    v1.9【重要修正】：2026-08-05從bot terminal log發現一個穩定
+    Pattern——18隻齊齊fire request嗰陣，成個job淨係使6秒左右就
+    完成（14:37:52→14:37:58／15:37:52→15:37:58），但成功率穩定
+    喺10/18（~56%），而且邊隻symbol成功／失敗會轉（TER/NVDA喺
+    14:37嗰輪失敗，15:37嗰輪又成功；PLTR兩輪都成功）。呢個組合
+    （完成極快 + 失敗率穩定 + 失敗symbol隨機轉換）唔似係真係45秒
+    request timeout（如果係真timeout，18個thread嘅batch理應接近
+    45秒先完成）——更似係futu_bridge_v2.py嗰邊單一
+    OpenQuoteContext（`_ctx`全域變量，見get_ctx()）被18條thread
+    同時撞：FastAPI/uvicorn雖然可以同時處理多個incoming
+    request，但全部request底層都係call緊Futu SDK嗰**同一條**
+    connection object嘅方法（get_market_snapshot/get_option_chain
+    等）。Futu OpenAPI單一connection未必設計俾多線程同時打，多個
+    thread搶住用同一條socket，會令部分request收唔到啱嘅response
+    （快速返回空/無效數據），而唔係慢慢等到timeout先失敗。
+    修正：max_workers由18（=len(ALL_HOLDINGS)）降低到
+    GEX_REFRESH_MAX_WORKERS=4——ThreadPoolExecutor會令request分成
+    約5批陸續打去bridge，大幅減少同一時間有幾多個thread會撞落
+    _ctx。代價：18隻全部行完嘅時間由~6秒拉長到可能幾十秒，但呢個
+    job本身每30分鐘先執行一次（run_repeating interval=1800），呢個
+    代價完全負擔得起。連帶將as_completed()嘅整體timeout由50秒
+    放寬到180秒，配合降低咗嘅並行度（唔想序列化咗之後仲未行完就
+    俾整體timeout屈住）。
+    如果降低並行度之後成功率仍然唔理想，下一步可能要喺
+    futu_bridge_v2.py嗰邊加一個threading.Lock()包住全部Futu ctx
+    call（bridge端根治，而唔淨係bot端throttle）——呢個屬於另一個
+    檔案嘅改動，未做。
     """
     # ── 休市日（週末/假期）跳過，完全唔需要預熱 ──
     if not is_nyse_trading_day():
@@ -1448,7 +1594,7 @@ async def gex_refresh_job(context: ContextTypes.DEFAULT_TYPE):
         return
 
     ts_str = datetime.datetime.now().strftime('%H:%M:%S')
-    print(f"[{ts_str}] 🔄 GEX預熱開始（{len(ALL_HOLDINGS)}隻並行，45秒timeout）...")
+    print(f"[{ts_str}] 🔄 GEX預熱開始（{len(ALL_HOLDINGS)}隻，並行度{GEX_REFRESH_MAX_WORKERS}，45秒/隻timeout）...")
 
     def _fetch_one_gex(sym: str) -> tuple[str, dict | None]:
         """thread worker：攞單隻GEX，45秒timeout"""
@@ -1467,10 +1613,15 @@ async def gex_refresh_job(context: ContextTypes.DEFAULT_TYPE):
 
     loop = context.application.loop if hasattr(context.application, 'loop') else __import__('asyncio').get_event_loop()
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=len(ALL_HOLDINGS)) as pool:
+    # v1.9：max_workers由len(ALL_HOLDINGS)（18，全部齊齊撞）降低到
+    # GEX_REFRESH_MAX_WORKERS（4，分批），見上面docstring根源分析
+    with concurrent.futures.ThreadPoolExecutor(max_workers=GEX_REFRESH_MAX_WORKERS) as pool:
         futures = {pool.submit(_fetch_one_gex, h["sym"]): h["sym"] for h in ALL_HOLDINGS}
         success = 0
-        for future in concurrent.futures.as_completed(futures, timeout=50):
+        # v1.9：整體timeout由50秒放寬到180秒——降低並行度後18隻全部
+        # 行完嘅總時間會拉長（分批排隊），但job本身30分鐘先跑一次，
+        # 呢個等待時間完全可以接受
+        for future in concurrent.futures.as_completed(futures, timeout=180):
             try:
                 sym, data = future.result()
                 if data:
