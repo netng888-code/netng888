@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$365.10** |
-| 今日變動 | ▼ $14.21　(-3.75%) |
+| 現價 | **$379.56** |
+| 今日變動 | ▲ $14.46　(+3.96%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,366　(▲296.8%) |
+| 未實現盈虧 | ▲ $1,438　(▲312.6%) |
 
 ---
 
@@ -20,15 +20,19 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $374.17 | — |
-| Put Wall（支撐） | $365.00 | -0.0% |
-| Call Wall（阻力） | $390.00 | +6.8% |
+| Gamma Flip | $376.15 | — |
+| Put Wall（支撐） | $355.00 | -6.5% |
+| Call Wall（阻力） | $390.00 | +2.8% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
+
+- **[Discover which S&P500 stocks are making waves on Tuesday.](https://finnhub.io/api/news?id=2685212e0c72ba19539d542ed6746418eb64820e0c398230e7ccd79779797a5f)**  
+*ChartMill · 8h前*  
+Stay informed about the performance of the S&P500 index in the middle of the day on Tuesday. Uncover the top gainers and losers in today's session for valuable …
 
 - **[KOID: Holding An AI CapEx Fund Sold As Humanoid Robotics](https://finnhub.io/api/news?id=bb11fb110992855cba98521f0005e907f820ace06e87dded6f0d9d5c711199cb)**  
 *SeekingAlpha · 1d前*  
@@ -40,7 +44,7 @@ The KraneShares Global Humanoid Robotics and Physical AI Index ETF is rated a ho
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-11 | 監控 | $365.10 | — | 自動更新 |
+| 2026-08-12 | 監控 | $379.56 | — | 自動更新 |
 
 ---
 
@@ -51,4 +55,4 @@ The KraneShares Global Humanoid Robotics and Physical AI Index ETF is rated a ho
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
