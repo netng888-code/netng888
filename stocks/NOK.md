@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,17 +21,17 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $9.22 | — |
-| Put Wall（支撐） | $9.00 | -4.7% |
-| Call Wall（阻力） | $10.00 | +5.9% |
+| Put Wall（支撐） | $10.00 | --5.9% |
+| Call Wall（阻力） | $11.00 | +16.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
 - **[Why Is Nokia Stock Surging on Tuesday?](https://finnhub.io/api/news?id=c5b1b73b3d99e1121a9f33d8741655d15b70aca32ef9b661c0117d11083735a5)**  
-*Benzinga · 13h前*  
+*Benzinga · 1d前*  
 Nokia (NYSE: NOK) stock surges as strong AI data center demand, Q2 earnings beat and massive cloud infrastructure orders boost investor sentiment.
 
 ---
@@ -51,4 +51,4 @@ Nokia (NYSE: NOK) stock surges as strong AI data center demand, Q2 earnings beat
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 21:06 HKT*
