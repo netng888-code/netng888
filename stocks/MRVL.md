@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-12 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-12 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,30 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Which S&P500 stocks are moving before the opening bell on Wednesday?](https://finnhub.io/api/news?id=1a51c3fda625137f05bd7a8622dd3db9cd4f97aa3ff563d6f1aa5511d9562da4)**  
+*ChartMill · 0h前*  
+As the US market prepares to open on Wednesday, let's get an early glimpse into the pre-market session and identify the S&P500 stocks leading the pack in terms …
+
 - **[Marvell: Don't Get Shaken Out Of The Sharp Sell-Off](https://finnhub.io/api/news?id=7c5ede631ac5a11728c44b82fac2000977a940b4f14da164a20728dc13910290)**  
-*SeekingAlpha · 7h前*  
+*SeekingAlpha · 19h前*  
 Marvell benefits from exponential AI data center growth and leadership in 1.6T optical networking chips. Read more on MRVL stock here.
 
 - **[Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It](https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284)**  
-*Benzinga · 10h前*  
+*Benzinga · 22h前*  
 JPMorgan predicts a $2.25 trillion global semiconductor industry by 2027, with growth now spreading beyond memory chips and AI to other categories.
-
-- **[Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed](https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e)**  
-*Benzinga · 12h前*  
-Masterstroke Creates More Risk
-
-
-
-Please click here for an enlarged chart of NVIDIA Corp (NASDAQ:NVDA).
-
-
-
-Note the following:
-
-
-
-
-This article is about the big…
 
 ---
 
@@ -72,4 +59,4 @@ This article is about the big…
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-12 21:05 HKT*
