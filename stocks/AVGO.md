@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-12 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$416.08** |
-| 今日變動 | ▼ $6.32　(-1.50%) |
-| 持倉數量 | 10 股 |
-| 平均成本 | $375.782 |
-| 未實現盈虧 | ▲ $403　(▲10.7%) |
+| 現價 | **$416.05** |
+| 今日變動 | ▼ $0.03　(-0.01%) |
+| 持倉數量 | 13 股 |
+| 平均成本 | $378.602 |
+| 未實現盈虧 | ▲ $487　(▲9.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $395.27 | — |
+| Gamma Flip | $398.01 | — |
 | Put Wall（支撐） | $400.00 | -3.9% |
-| Call Wall（阻力） | $440.00 | +5.7% |
+| Call Wall（阻力） | $440.00 | +5.8% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Capex Roars On After Hours as Hormuz Stress Keeps Traders on Edge](https://finnhub.io/api/news?id=2fda3972ef45894d8aea037ab08da77b91763a6b420e109649ec7014c5596eec)**  
-*ChartMill · 4h前*  
-Super Micro and CoreWeave delivered blockbuster after-hours prints that reinforced the AI-infrastructure spending cycle, even as Wall Street eased back for a se…
+- **[3 Semiconductor Stocks to Buy Before the Next AI Earnings Wave in August](https://finnhub.io/api/news?id=3c325e0b4dde0a6e429c290732272d096a4ba6ed059012054ec2030edf047222)**  
+*Yahoo · 2h前*  
+NVIDIA, Broadcom, and Marvell each report within days of each other this August, and what they say about the second half of the year could either extend the AI …
 
-- **[Where The Next $1.3 Trillion Of CapEx Gets Spent](https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a)**  
-*SeekingAlpha · 20h前*  
-Semiconductor sector faces capex-fatigue, but committed $1.3T cloud spending through 2027 underpins long-term opportunity. Read the full analysis here.
+- **[American Century Focused Global Growth Fund Q2 2026 Portfolio Review](https://finnhub.io/api/news?id=b33f48fc75f1b9ffcfdf982f5269f978b42b2ad1137e5f452919966d0bda6944)**  
+*SeekingAlpha · 8h前*  
+Key Contributors include Palo Alto Networks, ASML Holding, and Taiwan Semiconductor. Read more here.
 
-- **[FTEC: Fidelity's IT ETF Is A Fantastic Long-Term Core Tech Holding](https://finnhub.io/api/news?id=4d376b0daec0833082a3f94df50421b15d71ffd4e490fc7fc8b298c1325ad346)**  
-*SeekingAlpha · 21h前*  
-Fidelity MSCI Information Technology ETF has delivered exceptional long-term outperformance. Click to know why FTEC is a good long-term tech holding.
+- **[What's Up With Tech?](https://finnhub.io/api/news?id=b7712598b4feffec46ea5810425f208623f4da84db5c62630f2c0e39dbd4ee4e)**  
+*SeekingAlpha · 9h前*  
+Sara Awad from Tech Contrarians talks semis, strong stocks and what's coming for tech in '27.
 
 ---
 
@@ -48,7 +48,7 @@ Fidelity MSCI Information Technology ETF has delivered exceptional long-term out
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-12 | 監控 | $416.08 | — | 自動更新 |
+| 2026-08-13 | 監控 | $416.05 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Fidelity MSCI Information Technology ETF has delivered exceptional long-term out
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-13 21:04 HKT*
