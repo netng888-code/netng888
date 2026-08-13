@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-12 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-13 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$9.44** |
-| 今日變動 | ▲ $0.31　(+3.40%) |
-| 持倉數量 | 150 股 |
-| 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $559　(▼28.3%) |
+| 現價 | **$10.32** |
+| 今日變動 | ▲ $0.88　(+9.32%) |
+| 持倉數量 | 200 股 |
+| 平均成本 | $12.458 |
+| 未實現盈虧 | ▼ $428　(▼17.2%) |
 
 ---
 
@@ -20,19 +20,28 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.22 | — |
-| Put Wall（支撐） | $10.00 | --5.9% |
-| Call Wall（阻力） | $11.00 | +16.5% |
+| Gamma Flip | $9.15 | — |
+| Put Wall（支撐） | $10.00 | -3.1% |
+| Call Wall（阻力） | $11.00 | +6.6% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Is Nokia Stock Surging on Tuesday?](https://finnhub.io/api/news?id=c5b1b73b3d99e1121a9f33d8741655d15b70aca32ef9b661c0117d11083735a5)**  
+- **[These stocks are the most active in today's session](https://finnhub.io/api/news?id=6426c5465955981894d29a2bb1cf4768ede335d9678d9ec41267c650063f483f)**  
+*ChartMill · 19h前*  
+Discover the most active stocks in Wednesday's session. Stay informed about the stocks that are generating the most trading volume!
+
+- **[10 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=5c450deb3a969e8cf3b8db4419beee681289d559e8eb3e613f55512cc5426f04)**  
+*Benzinga · 23h前*  
+This whale alert can help traders discover the next big trading opportunities.
+Whales are entities with large sums of money and we track their transactions here…
+
+- **[Why Is Nokia Stock Surging Wednesday?](https://finnhub.io/api/news?id=3c5aa6c367b6862b1d80400e6a80eb9f808db4332a737290ad90eff8caedfdc0)**  
 *Benzinga · 1d前*  
-Nokia (NYSE: NOK) stock surges as strong AI data center demand, Q2 earnings beat and massive cloud infrastructure orders boost investor sentiment.
+Nokia (NOK) pops 10% on robust AI data center demand and beat-and-raise Q2 earnings. See key support levels and RSI technicals.
 
 ---
 
@@ -40,7 +49,7 @@ Nokia (NYSE: NOK) stock surges as strong AI data center demand, Q2 earnings beat
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-12 | 監控 | $9.44 | — | 自動更新 |
+| 2026-08-13 | 監控 | $10.32 | — | 自動更新 |
 
 ---
 
@@ -51,4 +60,4 @@ Nokia (NYSE: NOK) stock surges as strong AI data center demand, Q2 earnings beat
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-12 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-13 21:05 HKT*
