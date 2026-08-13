@@ -241,13 +241,25 @@
     ThreadPoolExecutor並行攻打，worst case由「6個相加」壓縮做
     「6個之中最慢嗰個」；呢度前端timeout配合由5秒放寬到20秒，
     同global-indices.html嘅同一個fix保持一致。
+  v5.13（2026-08-13）：
+    1. 用戶反映K線圖GEX橫線（Gamma Flip/Call Wall/Put Wall/
+       Max Pain，renderGexPriceLines()畫嘅嗰4條虛線）太幼，肉眼
+       好難分辨——priceLine嘅lineWidth舊版一律用1（LightweightCharts
+       最幼嘅級別），同K線本身、成交量histogram、RSI/MACD等其他
+       線條比起嚟明顯偏幼。改做lineWidth:3，加強視覺辨識度，同
+       RSI pane嘅超買超賣參考線（本身已經用緊lineWidth:2）睇齊
+       甚至更粗；merge邏輯（priceToCoordinate像素判斷）完全冇改。
+    2. 持倉更新：NOK加倉50股@$10.33（150→200股，成本重新加權至
+       $12.458）；LITE以$940全數沽出1股（成本$820，此筆已實現
+       +$120），倉位已清，PORTFOLIO object同HOLDINGS quicklinks
+       陣列已移除LITE。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.12)</title>
+<title>GEX Chart — Futu Bridge (v5.13)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -1059,7 +1071,7 @@ let lastMoneyFlow  = null;
 
 // ── Futu 持倉 + Watchlist（quicklinks 來源）────────────────────
 // 持倉：holdings_US CSV（依市值降序）。改持倉後記得同步更新呢度。
-const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','MU','LITE','RDW','ISRG','RKLB','VRT','RR','SERV'];
+const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','MU','RDW','ISRG','RKLB','VRT','RR','SERV'];
 // Watchlist：GitHub live mywatchlist.html（21隻）+ 用戶另外要求加入嘅5隻（GLD/KLAC/LRCX/AMAT/ASML）
 // + 2026-07-10新增5隻生物科技/製藥股（LLY/VRTX/REGN/MRNA/BNTX）
 // + 2026-07-18新增SKHY（SK海力士ADR，2026年7月NASDAQ新上市，原代碼SKHYV
@@ -1090,14 +1102,13 @@ const PORTFOLIO = {
   'MU':   {qty:1,   cost:557.857 },
   'TER':  {qty:5,   cost:92.00   },
   'META': {qty:3,   cost:606.333 },
-  'NOK':  {qty:150, cost:13.167  },
+  'NOK':  {qty:200, cost:12.458  },
   'RDW':  {qty:40,  cost:15.65   },
   'LEU':  {qty:8,   cost:197.50  },
   'OKLO': {qty:30,  cost:27.745  },
   'RKLB': {qty:10,  cost:76.00   },
   'PLTR': {qty:12,  cost:127.304 },
   'ISRG': {qty:2,   cost:453.10  },
-  'LITE': {qty:1,   cost:820.00  },
   'RR':   {qty:300, cost:2.445   },
   'VRT':  {qty:2,   cost:303.76  },
   'SERV': {qty:30,  cost:11.743  },
@@ -1780,7 +1791,7 @@ function renderGexPriceLines(d, priceRange) {
 
   merged.forEach(l => {
     pcPriceLines.push(pcCandle.createPriceLine({
-      price: l.price, color: l.color, lineWidth: 1,
+      price: l.price, color: l.color, lineWidth: 3,
       lineStyle: LightweightCharts.LineStyle.Dashed,
       axisLabelVisible: true, title: l.title,
     }));

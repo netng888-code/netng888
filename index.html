@@ -239,18 +239,18 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="summary-grid">
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
-      <div class="summary-value" id="sum-us-mktval">USD 34,791.79</div>
+      <div class="summary-value" id="sum-us-mktval">USD 27,781.64</div>
       <div class="summary-sub" id="sum-us-count">17 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 9,558.14</div>
+      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 4,454.83</div>
       <div class="summary-sub">未計已實現</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股已實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-realized">+USD 12,718+</div>
-      <div class="summary-sub">MU沽2@944(+772)｜沽2@810(+762)｜沽2@1185(+1254)｜沽1@1200(+642)｜沽1@1004.66(+447)</div>
+      <div class="summary-value pnl-pos" id="sum-us-realized">+USD 12,838+</div>
+      <div class="summary-sub">MU沽2@944(+772)｜沽2@810(+762)｜沽2@1185(+1254)｜沽1@1200(+642)｜沽1@1004.66(+447)｜LITE沽1@940(+120)已清倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">今日盈虧 (美股)</div>
@@ -261,7 +261,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
   <!-- Status -->
   <div class="status-bar">
-    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">Finnhub 已載入 18/18 個報價 · 11:09:38</span></div>
+    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">Finnhub 已載入 17/17 個報價 · 11:09:38</span></div>
     <div class="status-pill">來源: <span style="color:var(--text);margin-left:4px">Finnhub</span></div>
     <div class="status-pill" style="color:var(--amber);"><span id="refresh-countdown">次更新 42s</span></div>
     <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">11:09:38</span></div>
@@ -280,10 +280,11 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     MU 沽1股@$1,004.66 +$447 ｜
     RDW 沽30@$20.3 + 沽20@$22.5 + 沽20@$27 + 沽40@$12.34（-$132.40）= +$598.60 ｜
     RKLB 沽5股 +$440 ｜
+    LITE 沽1股@$940（成本$820）+$120 已清倉 ｜
     ASTS 已清倉 ｜
     07709 沽100@$110 +HKD 9,420 ｜
     07709 沽100@$133 +HKD 11,720
-    <br>美股已實現 <strong>+USD 12,718+</strong> ｜ 港股已實現 <strong>+HKD 30,560+</strong>
+    <br>美股已實現 <strong>+USD 12,838+</strong> ｜ 港股已實現 <strong>+HKD 30,560+</strong>
   </div>
 
   <!-- US Stocks -->
@@ -362,14 +363,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('NVDA')">NVDA</span></td>
       <td class="name-cell">英偉達</td>
-      <td style="color:var(--muted)">15</td>
-      <td><span class="price-cell price-live">210.69</span></td>
-      <td><span class="ext-price-cell">+6.04 (+2.95%)</span></td>
-      <td style="color:var(--muted)">148.50</td>
-      <td class="mktval-cell">3,160.35</td>
-      <td class="pnl-pos">+932.85</td>
-      <td><span class="pct-badge pos">+41.88%</span></td>
-      <td class="pnl-pos today-pnl-cell">+90.60</td>
+      <td style="color:var(--muted)">10</td>
+      <td><span class="price-cell price-live">204.12</span></td>
+      <td><span class="ext-price-cell">+0.00 (0.00%)</span></td>
+      <td style="color:var(--muted)">160.125</td>
+      <td class="mktval-cell">2,041.20</td>
+      <td class="pnl-pos">+439.95</td>
+      <td><span class="pct-badge pos">+27.48%</span></td>
+      <td class="pnl-neu today-pnl-cell">+0.00</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('NVDA')">📈</button>
@@ -430,14 +431,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('NOK')">NOK</span></td>
       <td class="name-cell">諾基亞</td>
-      <td style="color:var(--muted)">150</td>
-      <td><span class="price-cell price-live">13.49</span></td>
-      <td><span class="ext-price-cell">-0.34 (-2.46%)</span></td>
-      <td style="color:var(--muted)">13.50</td>
-      <td class="mktval-cell">1,349.00</td>
-      <td class="pnl-neg">-1.00</td>
-      <td><span class="pct-badge neg">-0.07%</span></td>
-      <td class="pnl-neg today-pnl-cell">-34.00</td>
+      <td style="color:var(--muted)">200</td>
+      <td><span class="price-cell price-live">10.33</span></td>
+      <td><span class="ext-price-cell">+0.00 (0.00%)</span></td>
+      <td style="color:var(--muted)">12.458</td>
+      <td class="mktval-cell">2,066.00</td>
+      <td class="pnl-neg">-425.55</td>
+      <td><span class="pct-badge neg">-17.08%</span></td>
+      <td class="pnl-neu today-pnl-cell">+0.00</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('NOK')">📈</button>
@@ -545,23 +546,6 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
           <button class="chart-link" onclick="openFlipTo('ISRG')">📈</button>
           <a class="finviz-link" href="https://finviz.com/quote.ashx?t=ISRG" target="_blank">FV</a>
           <a class="ge-link" href="https://www.barchart.com/stocks/quotes/ISRG/gamma-exposure" target="_blank">GE</a>
-        </div>
-      </td></tr><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('LITE')">LITE</span></td>
-      <td class="name-cell">Lumentum</td>
-      <td style="color:var(--muted)">1</td>
-      <td><span class="price-cell price-live">850.00</span></td>
-      <td><span class="ext-price-cell">-19.98 (-2.30%)</span></td>
-      <td style="color:var(--muted)">820.00</td>
-      <td class="mktval-cell">850.00</td>
-      <td class="pnl-pos">+30.00</td>
-      <td><span class="pct-badge pos">+3.66%</span></td>
-      <td class="pnl-neg today-pnl-cell">-19.98</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('LITE')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=LITE" target="_blank">FV</a>
-          <a class="ge-link" href="https://www.barchart.com/stocks/quotes/LITE/gamma-exposure" target="_blank">GE</a>
         </div>
       </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('RR')">RR</span></td>
@@ -699,7 +683,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     <div class="risk-card"><div class="risk-icon">⚠️</div><div class="risk-title">LEU 虧損持倉</div><div class="risk-body">Centrus Energy 成本$197.50，現$161.78，-18.09%。核能板塊持續弱勢，已深度虧損，留意$150止蝕位</div></div>
     <div class="risk-card"><div class="risk-icon">🇭🇰</div><div class="risk-title">港股持倉概覽</div><div class="risk-body">07709 +738% ✅ ｜ 02367 -21% ⚠️ ｜ 09988 -27% ⚠️ ｜ 巨子生物及阿里均處虧損，留意</div></div>
     <div class="risk-card"><div class="risk-icon">🔴</div><div class="risk-title">小市值倉位</div><div class="risk-body">SERV -34% ｜ RR -12% ｜ 市值細，流動性較低，波動性高。兩者均虧損，SERV損幅較大</div></div>
-    <div class="risk-card"><div class="risk-icon">🚀</div><div class="risk-title">航天股持倉</div><div class="risk-body">RDW剩40股 ｜ RKLB剩5股（已減半鎖利） ｜ LITE（Lumentum）新增1股，光通信受AI基建帶動</div></div>
+    <div class="risk-card"><div class="risk-icon">🚀</div><div class="risk-title">航天股持倉</div><div class="risk-body">RDW剩40股 ｜ RKLB剩5股（已減半鎖利） ｜ LITE已於$940全數沽出鎖利+$120，倉位已清</div></div>
     <div class="risk-card"><div class="risk-icon">✅</div><div class="risk-title">強勢持倉</div><div class="risk-body">TER +289% ｜ MRVL +34% ｜ RKLB +162% ｜ OKLO +176% ｜ MU +101% ｜ GOOGL +107% ｜ 可考慮分批鎖定利潤</div></div>
   </div>
 
@@ -722,7 +706,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     </div>
   </div>
 
-  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip" id="chip-MU">MU</div><div class="flip-sym-chip active" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-LITE">LITE</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
+  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip" id="chip-MU">MU</div><div class="flip-sym-chip active" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
 
   <div class="flip-interval-bar">
     <span>Interval:</span>
@@ -758,7 +742,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-08-11 ｜ RDW沽出40股@$12.34（80→40股，成本不變$15.65，此筆已實現-$132.40）</span>
+  <span>持倉更新：2026-08-13 ｜ NOK買入50股@$10.33（150→200股，成本重新加權至$12.458）｜ LITE沽出1股@$940（1→0股，此筆已實現+$120，倉位已清）</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -818,11 +802,11 @@ const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
 // ── 美股持倉（由Futu CSV 2026-06-29 匯出，按市值降序）────────────────────────
 const US_HOLDINGS = [
   { symbol:'GOOGL', name:'谷歌-A',                qty:12,  cost:178.40,   mktval:4349.28,  pnl:2208.48,  pnlPct:'+103.16%', realized:1776.20, todayPnL:-21.84  },
-  { symbol:'NVDA',  name:'英偉達',                qty:20,  cost:160.125,  mktval:3980.00,  pnl:777.50,   pnlPct:'+24.28%',  realized:1268.05, todayPnL:0       },
+  { symbol:'NVDA',  name:'英偉達',                qty:10,  cost:160.125,  mktval:2041.20,  pnl:439.95,   pnlPct:'+27.48%',  realized:1268.05, todayPnL:0       },
   { symbol:'AVGO',  name:'博通',                  qty:10,  cost:375.782,  mktval:3870.20,  pnl:112.38,   pnlPct:'+2.99%',   realized:3.78,    todayPnL:-51.40  },
   { symbol:'MRVL',  name:'邁威爾科技',             qty:10,  cost:257.303,  mktval:2767.00,  pnl:193.98,   pnlPct:'+7.54%',   realized:0.36,    todayPnL:0       },
   { symbol:'MU',    name:'美光科技',              qty:1,   cost:557.857,  mktval:977.00,   pnl:419.14,   pnlPct:'+75.13%',  realized:4738.74, todayPnL:-55.64  },
-  { symbol:'NOK',   name:'諾基亞',                qty:150, cost:13.167,   mktval:2071.50,  pnl:96.50,    pnlPct:'+4.89%',   realized:0,       todayPnL:0       },
+  { symbol:'NOK',   name:'諾基亞',                qty:200, cost:12.458,   mktval:2066.00,  pnl:-425.55,  pnlPct:'-17.08%',  realized:0,       todayPnL:0       },
   { symbol:'TER',   name:'泰瑞達',                qty:5,   cost:92.00,    mktval:1846.65,  pnl:1386.65,  pnlPct:'+301.45%', realized:1356.54, todayPnL:0.60    },
   { symbol:'META',  name:'Meta Platforms',       qty:3,   cost:606.333,  mktval:1758.15,  pnl:-60.85,   pnlPct:'-3.35%',   realized:3.15,    todayPnL:4.38    },
   { symbol:'RDW',   name:'Redwire',              qty:40,  cost:15.65,    mktval:631.20,   pnl:5.20,     pnlPct:'+0.83%',   realized:598.60,  todayPnL:1.20    },
@@ -831,7 +815,6 @@ const US_HOLDINGS = [
   { symbol:'RKLB',  name:'Rocket Lab',           qty:10,  cost:76.00,    mktval:1079.20,  pnl:319.20,   pnlPct:'+42.00%',  realized:440.00,  todayPnL:-3.10   },
   { symbol:'PLTR',  name:'Palantir',             qty:12,  cost:127.304,  mktval:1577.52,  pnl:49.87,    pnlPct:'+3.26%',   realized:112.19,  todayPnL:100.80  },
   { symbol:'ISRG',  name:'直覺外科公司',            qty:2,   cost:453.10,   mktval:855.16,   pnl:-51.04,   pnlPct:'-5.63%',   realized:0,       todayPnL:1.94    },
-  { symbol:'LITE',  name:'Lumentum',             qty:1,   cost:820.00,   mktval:819.51,   pnl:-0.49,    pnlPct:'-0.06%',   realized:0,       todayPnL:-2.25   },
   { symbol:'RR',    name:'Richtech Robotics',    qty:300, cost:2.445,    mktval:687.00,   pnl:-46.50,   pnlPct:'-6.34%',   realized:52.09,   todayPnL:-3.00   },
   { symbol:'VRT',   name:'Vertiv Holdings',      qty:2,   cost:303.76,   mktval:579.04,   pnl:-28.48,   pnlPct:'-4.69%',   realized:0,       todayPnL:0.00    },
   { symbol:'SERV',  name:'Serve Robotics',       qty:30,  cost:11.743,   mktval:213.00,   pnl:-139.30,  pnlPct:'-39.54%',  realized:0,       todayPnL:4.80    },
