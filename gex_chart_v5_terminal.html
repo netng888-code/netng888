@@ -253,13 +253,29 @@
        $12.458）；LITE以$940全數沽出1股（成本$820，此筆已實現
        +$120），倉位已清，PORTFOLIO object同HOLDINGS quicklinks
        陣列已移除LITE。
+  v5.14（2026-08-13 續）：
+    1. 用戶實測v5.13後反映GEX橫線（lineWidth 1→3）目測仍然難睇
+       到——3已經係RSI參考線嘅粗度，但喺busy嘅K線/布林線/成交量
+       背景下，Dashed樣式嘅小段虛線本身視覺上仍然偏「散」，唔夠
+       連貫易追蹤。呢次雙管齊下：lineWidth再加到4（LightweightCharts
+       priceLine嘅硬上限，冇再加嘅空間）；lineStyle由Dashed改做
+       LargeDashed（虛線段同間隔都放大），令線條喺畫面上更連貫
+       顯眼，同時仍然同K線/MA/布林線嘅實線區分得到。
+    2. 「持倉總覽 (18)」tab label修正做「(17)」——LITE清倉後
+       實際得返17隻美股，呢個tab count係v5.13漏咗更新嘅靜態文字
+       （唔影響功能，純顯示）。
+    3. 持倉更新：AVGO加倉3股@約$388.00（10→13股，成本重新加權至
+       $378.602）——用戶已喺github_gex_updater.py自行更正呢筆數
+       據，呢度同步PORTFOLIO object，其餘檔案（CSV/index.html/
+       telegram_bot.py）一併同步，github_gex_updater.py本身維持
+       用戶自行更正嘅版本，唔再重複觸碰。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.13)</title>
+<title>GEX Chart — Futu Bridge (v5.14)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -725,7 +741,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 
 <!-- Tabs（v6：持倉總覽排第一位，並做預設開啟分頁） -->
 <div class="tabs">
-  <button class="tab active" onclick="setTab('holdings')">💼 持倉總覽 (18)</button>
+  <button class="tab active" onclick="setTab('holdings')">💼 持倉總覽 (17)</button>
   <button class="tab" onclick="setTab('gex')">📊 GEX + K線</button>
   <button class="tab" onclick="setTab('fi')">🔬 Field Inspector</button>
 </div>
@@ -1097,7 +1113,7 @@ buildQuicklinks();
 const PORTFOLIO = {
   'GOOGL':{qty:12,  cost:178.40  },
   'NVDA': {qty:10,  cost:160.125 },
-  'AVGO': {qty:10,  cost:375.782 },
+  'AVGO': {qty:13,  cost:378.602 },
   'MRVL': {qty:10,  cost:257.303 },
   'MU':   {qty:1,   cost:557.857 },
   'TER':  {qty:5,   cost:92.00   },
@@ -1791,8 +1807,8 @@ function renderGexPriceLines(d, priceRange) {
 
   merged.forEach(l => {
     pcPriceLines.push(pcCandle.createPriceLine({
-      price: l.price, color: l.color, lineWidth: 3,
-      lineStyle: LightweightCharts.LineStyle.Dashed,
+      price: l.price, color: l.color, lineWidth: 4,
+      lineStyle: LightweightCharts.LineStyle.LargeDashed,
       axisLabelVisible: true, title: l.title,
     }));
   });

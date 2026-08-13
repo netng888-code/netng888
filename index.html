@@ -239,12 +239,12 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="summary-grid">
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
-      <div class="summary-value" id="sum-us-mktval">USD 27,781.64</div>
+      <div class="summary-value" id="sum-us-mktval">USD 29,319.44</div>
       <div class="summary-sub" id="sum-us-count">17 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 4,454.83</div>
+      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 4,828.62</div>
       <div class="summary-sub">未計已實現</div>
     </div>
     <div class="summary-card">
@@ -346,14 +346,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('AVGO')">AVGO</span></td>
       <td class="name-cell">博通</td>
-      <td style="color:var(--muted)">10</td>
-      <td><span class="price-cell price-live">411.35</span></td>
-      <td><span class="ext-price-cell">+18.45 (+4.70%)</span></td>
-      <td style="color:var(--muted)">375.78</td>
-      <td class="mktval-cell">4,113.50</td>
-      <td class="pnl-pos">+355.68</td>
-      <td><span class="pct-badge pos">+9.47%</span></td>
-      <td class="pnl-pos today-pnl-cell">+184.50</td>
+      <td style="color:var(--muted)">13</td>
+      <td><span class="price-cell price-live">416.00</span></td>
+      <td><span class="ext-price-cell">+0.00 (0.00%)</span></td>
+      <td style="color:var(--muted)">378.60</td>
+      <td class="mktval-cell">5,408.00</td>
+      <td class="pnl-pos">+486.17</td>
+      <td><span class="pct-badge pos">+9.88%</span></td>
+      <td class="pnl-neu today-pnl-cell">+0.00</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('AVGO')">📈</button>
@@ -742,7 +742,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-08-13 ｜ NOK買入50股@$10.33（150→200股，成本重新加權至$12.458）｜ LITE沽出1股@$940（1→0股，此筆已實現+$120，倉位已清）</span>
+  <span>持倉更新：2026-08-13 ｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -803,7 +803,7 @@ const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
 const US_HOLDINGS = [
   { symbol:'GOOGL', name:'谷歌-A',                qty:12,  cost:178.40,   mktval:4349.28,  pnl:2208.48,  pnlPct:'+103.16%', realized:1776.20, todayPnL:-21.84  },
   { symbol:'NVDA',  name:'英偉達',                qty:10,  cost:160.125,  mktval:2041.20,  pnl:439.95,   pnlPct:'+27.48%',  realized:1268.05, todayPnL:0       },
-  { symbol:'AVGO',  name:'博通',                  qty:10,  cost:375.782,  mktval:3870.20,  pnl:112.38,   pnlPct:'+2.99%',   realized:3.78,    todayPnL:-51.40  },
+  { symbol:'AVGO',  name:'博通',                  qty:13,  cost:378.602,  mktval:5408.00,  pnl:486.17,   pnlPct:'+9.88%',   realized:3.78,    todayPnL:-51.40  },
   { symbol:'MRVL',  name:'邁威爾科技',             qty:10,  cost:257.303,  mktval:2767.00,  pnl:193.98,   pnlPct:'+7.54%',   realized:0.36,    todayPnL:0       },
   { symbol:'MU',    name:'美光科技',              qty:1,   cost:557.857,  mktval:977.00,   pnl:419.14,   pnlPct:'+75.13%',  realized:4738.74, todayPnL:-55.64  },
   { symbol:'NOK',   name:'諾基亞',                qty:200, cost:12.458,   mktval:2066.00,  pnl:-425.55,  pnlPct:'-17.08%',  realized:0,       todayPnL:0       },
