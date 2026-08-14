@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$343.54** |
-| 今日變動 | ▼ $0.26　(-0.08%) |
+| 現價 | **$346.36** |
+| 今日變動 | ▲ $2.82　(+0.82%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $1,982　(▲92.6%) |
+| 未實現盈虧 | ▲ $2,016　(▲94.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $343.87 | — |
-| Put Wall（支撐） | $340.00 | -1.0% |
-| Call Wall（阻力） | $350.00 | +1.9% |
+| Gamma Flip | $342.61 | — |
+| Put Wall（支撐） | $340.00 | -1.8% |
+| Call Wall（阻力） | $350.00 | +1.1% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Microsoft Is Still Negative 1 Year Later: 76% Increase Lies Ahead According to This Analyst](https://finnhub.io/api/news?id=73e8906f4232b8e426ae4d9a848a7235cd5ffdc441a69da44cf67a213e3af04d)**  
-*Yahoo · 1h前*  
-While its two biggest cloud rivals soared past the market this year, one hyperscaler kept beating earnings estimates and still watched its stock fall. Now a sin…
+- **[Fidelity’s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It](https://finnhub.io/api/news?id=8fd9ab5b9f93dcf3a7bb6363af7368aa7f680fa85d1ac4e677af32dd8d8b6660)**  
+*Yahoo · 3h前*  
+Fidelity Contrafund built a legendary reputation by zigging while Wall Street zagged, but managing $157.8 billion forces some uncomfortable questions about whet…
 
-- **[1 of Wall Street’s Favorite Stocks for Long-Term Investors and 2 Facing Challenges](https://finnhub.io/api/news?id=3fcc75d81b83b0e956ed93073d4eb2d743447ed1a83a6244ebb085be9715aeac)**  
-*Yahoo · 1h前*  
-Wall Street is overwhelmingly bullish on the stocks in this article, with price targets suggesting significant upside potential. However, it’s worth remembering…
+- **[Tracking David Abrams' Abrams Capital Management Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=1b17208bf56d937d30708d86cd81c097347d8c60e1290203ae9824521fa9c3b2)**  
+*SeekingAlpha · 4h前*  
+David Abramsâ Q2 2026 13F: $5.48B, highly concentrated picks. Biggest stake LOAR (47%); GOOGL trimmed 27%. See more analysis here.
 
-- **[GOOGL Stock Tops Retail Pick Over AMZN, META, MSFT For Next 12 Months – But META Leads Wall Street Upside](https://finnhub.io/api/news?id=6942cc6d4309c56b84acd310f4cd8b64edc6ae43160ae50563c9cd48ac53ef46)**  
-*Yahoo · 2h前*  
-Google-parent Alphabet is planning the largest percentage increase in AI spending, with 2026 capital expenditures projected at roughly $195 billion to $205 bill…
+- **[OpenAI's New Revenue Officer Comes From Alphabet's Wiz](https://finnhub.io/api/news?id=1fddc9e7e42a9fdd628ac7985a476e301b1b61f906250a57b2d02f319cd35764)**  
+*Yahoo · 4h前*  
+The appointment signals a move toward performance and metrics frameworks. OpenAI must improve reliance on the tracking tools it offers advertisers before more w…
 
 ---
 
@@ -48,7 +48,7 @@ Google-parent Alphabet is planning the largest percentage increase in AI spendin
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-13 | 監控 | $343.54 | — | 自動更新 |
+| 2026-08-14 | 監控 | $346.36 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Google-parent Alphabet is planning the largest percentage increase in AI spendin
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-13 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 09:04 HKT*
