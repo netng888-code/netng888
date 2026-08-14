@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-14 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[RKLB Q2 Deep Dive: Iridium Acquisition, Neutron Progress, and Margin Pressures Shape Outlook](https://finnhub.io/api/news?id=a9c3e579114d37b742a03cad64361b48d1bec58572141066bf259c9246fba226)**  
-*Yahoo · 1h前*  
-Aerospace and defense company Rocket Lab (NASDAQ:RKLB) reported Q2 CY2026 results exceeding the market’s revenue expectations, with sales up 62% year on year to…
+- **[Rocket Lab (RKLB) Is Up 5.9% After Record Q2, Space Force Win And Neutron Progress - Has The Bull Case Changed?](https://finnhub.io/api/news?id=5555f1797a373bf7ea81fd3d63eeea6866768c512a1804121c31546a15184c02)**  
+*Yahoo · 8h前*  
+In August 2026, Rocket Lab reported record second-quarter revenue of US$234.07 million, a record US$2.36 billion backlog and a US$397 million U.S. Space Force F…
 
-- **[Is Rocket Lab Stock a Safer Option for Space Investors Than SpaceX?](https://finnhub.io/api/news?id=1eef1780b4c89929cb78cd77550b5467dddf5b8e8928b4ef3afdcdf5cc514dc6)**  
-*Yahoo · 5h前*  
-Both stocks have been on similar trajectories since SpaceX went public.
+- **[RKLB Stock Gains Overnight: Rocket Lab Advances Neutron’s ‘Hungry Hippo’ And Wins New Space Force Deal](https://finnhub.io/api/news?id=38a9525de51ed0ed68e060a79eb1df05844d3dfbe4655c2e76eb183a6a150ef1)**  
+*Yahoo · 11h前*  
+Rocket Lab secured a $12 million Space Force award set for an orbital data network.
 
-- **[Rocket Lab Clears a Major Hurdle on the Iridium Acquisition](https://finnhub.io/api/news?id=08379d613ce6115ec146625d2ef1f59ac0ba2e3000d58d340b3f09e1517890c8)**  
-*Yahoo · 6h前*  
-HSR period lapses as Rocket Lab moves to replace a $3.6 billion bridge facility
+- **[Bank of America reveals Rocket Lab stock outlook after earnings](https://finnhub.io/api/news?id=613b08c71c4cb2ae4e5b63815e927ab0b13744ed6117746aaf592a796c3e8984)**  
+*Yahoo · 13h前*  
+Rocket Lab’s second-quarter results gave Bank of America another reason to stay bullish on the space company, even as one part of the business came in lighter t…
 
 ---
 
@@ -59,4 +59,4 @@ HSR period lapses as Rocket Lab moves to replace a $3.6 billion bridge facility
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 21:04 HKT*
