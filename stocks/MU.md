@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$911.29** |
-| 今日變動 | ▲ $42.77　(+4.92%) |
+| 現價 | **$949.83** |
+| 今日變動 | ▲ $38.54　(+4.23%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $353　(▲63.4%) |
+| 未實現盈虧 | ▲ $392　(▲70.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $862.62 | — |
-| Put Wall（支撐） | $900.00 | -1.2% |
-| Call Wall（阻力） | $1,000.00 | +9.7% |
+| Gamma Flip | $868.41 | — |
+| Put Wall（支撐） | $900.00 | -5.2% |
+| Call Wall（阻力） | $1,000.00 | +5.3% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Market Would Fall by 12,152 Points in a ‘Black Monday’ Style Crash. Big Short Investor Says It’s Possible.](https://finnhub.io/api/news?id=6969e537f6b9ebc7373c7c864388fa715168c2d9a39e8c7f00980299c634f5e4)**  
-*Yahoo · 1h前*  
-Michael Burry is still short, still warning of a shock on the scale of 1987, and doing so while the Dow sits near all-time highs and the VIX barely stirs. His r…
-
-- **[Korea’s Stock Market Surges Another 3.5% Overnight. Intel, Coherent, and Micron Among Most Active Premarket Stocks in US Trading.](https://finnhub.io/api/news?id=536f6290f59c89d3650cbcf1dcf062a577c9fc6451a6bbf705723507c5b0efae)**  
-*Yahoo · 1h前*  
-South Korean memory stocks just posted their biggest surge in months while U.S. premarket tells a far more complicated story, with Coherent falling despite a be…
-
-- **[Micron Stock Falls as It Faces a Fresh Chinese Memory-Chip Threat](https://finnhub.io/api/news?id=adfa0b101501ee67174f4cc361382e2f7f0cdc2077b49ad283531d141f3d83e1)**  
+- **[Is Micron (MU) Using Its New AI Fund to Quietly Redefine Its Memory Strategy?](https://finnhub.io/api/news?id=bff1dcd61ff1fde2e1af6bed6d1081f7e0cfea025bc205c570c46bb9c3878b92)**  
 *Yahoo · 2h前*  
-Micron  stock was slipping on Thursday as the recent rebound in the shares from a multi-week slump seemed to slow.  Micron shares were down 0.3% in premarket tr…
+In August 2026, Micron Technology launched the Micron Ventures Paradigm Fund, a US$250 million vehicle that invests across the AI technology stack, covering mod…
+
+- **[Dow Jones Futures: S&P 500 Hits High On Workday, Sandisk, Oil Prices; Applied Materials Earnings Late](https://finnhub.io/api/news?id=e74d8d484cef3d6bec9f9e84d5227675c131df1c0390c2fad04f198bda2daa81)**  
+*Yahoo · 3h前*  
+The S&P 500 hit a new high amid lower oil prices. Workday and Sandisk lifted software and memory plays. Applied Materials fell late on earnings.
+
+- **[The Bull Market Is Almost Back for Chip Stocks](https://finnhub.io/api/news?id=440c3cea64045e87ceffe228cbf5e06d724e0a50a10de76f99a741252b5169eb)**  
+*Yahoo · 4h前*  
+After a steep sell-off last month, investors are chipping in again. Chip stocks were some of the biggest gainers in the S&P 500 and Nasdaq Thursday, a day when …
 
 ---
 
@@ -48,7 +48,7 @@ Micron  stock was slipping on Thursday as the recent rebound in the shares from 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-13 | 監控 | $911.29 | — | 自動更新 |
+| 2026-08-14 | 監控 | $949.83 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Micron  stock was slipping on Thursday as the recent rebound in the shares from 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-13 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 09:04 HKT*
