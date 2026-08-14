@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Semiconductor Equipment Rally Tests Its Breadth as High-Growth Names Surge Ahead of ASML, Lam Earnings](https://finnhub.io/api/news?id=7660d19059ee239ed9b7119169c3d1c13b42b4f720f65c8def0c9c5b0a91e9ba)**  
+*ChartMill · 0h前*  
+Semiconductor equipment stocks split: mega-cap leaders consolidate ahead of earnings while high-growth names surge. Will the rally broaden?
+
+- **[Teradyne (NASDAQ:TER) Shows Accelerating Growth and Strong Fundamentals, Passing All Eight Key Screens](https://finnhub.io/api/news?id=9e6ff1b40bf5bb9f412c4eebbe55e44ffa98dee5c07a408fe94041713781933d)**  
+*ChartMill · 3h前*  
+Teradyne passes all 8 of Navellier's growth rules, with surging earnings, sales, cash flow, and high ROE—making it a standout growth stock.
+
 - **[Cisco's Q4 Earnings Beat Estimates, Strong Networking Aids Revenues](https://finnhub.io/api/news?id=1925bdcbb900c52b8278ada29cde08dc36b2bd31cc8d2944aa86d9e08ca5cf24)**  
-*Yahoo · 8h前*  
+*Yahoo · 20h前*  
 CSCO's fiscal Q4 earnings and revenues rise y/y as networking demand surges, fueled by AI infrastructure, data center switching and campus growth.
-
-- **[Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?](https://finnhub.io/api/news?id=e65246f16bd92cb0421ae9fb28cf424e5243d779fc853f9820fb94129e926108)**  
-*Yahoo · 9h前*  
-TER's AI-driven robotics growth is accelerating as data center demand boosts automation and semiconductor testing.
-
-- **[Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?](https://finnhub.io/api/news?id=b19dd61919eff358dff4d40ea53e503188b4a5f76add79f721d266b5ade200b9)**  
-*Yahoo · 9h前*  
-AEHR's $22M AI order underscores rising WLBI demand as chip complexity and costs increase, while backlog and bookings point to strong growth.
 
 ---
 
@@ -59,4 +59,4 @@ AEHR's $22M AI order underscores rising WLBI demand as chip complexity and costs
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 21:03 HKT*
