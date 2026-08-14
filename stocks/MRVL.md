@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,16 +31,16 @@
 ## 📰 最新新聞
 
 - **[Marvell (MRVL) Stock Trades At A Premium After A 290% Run](https://finnhub.io/api/news?id=23c84c77911a59cf8db830403d9eab2efef15851288338abb3303c69008dedc1)**  
-*Yahoo · 1h前*  
+*Yahoo · 13h前*  
 Marvell Technology stock has delivered a very strong 289.6% return over the past three years, yet current valuation checks suggest the shares are priced at a pr…
 
-- **[Reddit Shares Surge on S&P 500 Inclusion Later This Month](https://finnhub.io/api/news?id=df74461fa32777da7648704a62412957f1c8b31eefed8a37f41062c37ae03de1)**  
-*Yahoo · 2h前*  
-Reddit Inc. will join the S&P 500 next week as part of an off-cycle change, S&P Dow Jones Indices said Thursday, sending the social networking platform’s shares…
+- **[Quantum-Si Incorporated (QSI) Reports Q2 Loss, Tops Revenue Estimates](https://finnhub.io/api/news?id=d8b66ed545551750bc75448944d9e4caccaf4074ee388708f249dd0992565bdc)**  
+*Yahoo · 14h前*  
+QuantumSi Incorporated (QSI) delivered earnings and revenue surprises of +15.39% and +4.24%, respectively, for the quarter ended June 2026. Do the numbers hold …
 
-- **[AMD Stock Can Halve Or Nearly Double, And That Is The Calm Assumption](https://finnhub.io/api/news?id=ade1a93d5b44a0c93c9e1b2ab6f8519431cbe1ea3208da6b583482a0c2f0086c)**  
-*Yahoo · 4h前*  
-Options are priced for a calmer stretch than the stock just delivered, and even that assumption leaves room to lose close to half a position or nearly double it…
+- **[Reddit Shares Surge on S&P 500 Inclusion Later This Month](https://finnhub.io/api/news?id=df74461fa32777da7648704a62412957f1c8b31eefed8a37f41062c37ae03de1)**  
+*Yahoo · 14h前*  
+Reddit Inc. will join the S&P 500 next week as part of an off-cycle change, S&P Dow Jones Indices said Thursday, sending the social networking platform’s shares…
 
 ---
 
@@ -59,4 +59,4 @@ Options are priced for a calmer stretch than the stock just delivered, and even 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 21:03 HKT*
