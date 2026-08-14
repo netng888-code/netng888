@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-13 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$171.04** |
-| 今日變動 | ▼ $3.90　(-2.23%) |
+| 現價 | **$179.01** |
+| 今日變動 | ▲ $7.97　(+4.66%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $525　(▲34.4%) |
+| 未實現盈虧 | ▲ $620　(▲40.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $145.47 | — |
-| Put Wall（支撐） | $170.00 | -0.6% |
-| Call Wall（阻力） | $175.00 | +2.3% |
+| Gamma Flip | $146.24 | — |
+| Put Wall（支撐） | $170.00 | -5.0% |
+| Call Wall（阻力） | $180.00 | +0.6% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Earnings Split: Accelerating Growers Rewarded, Cloud Bellwether Sells Off](https://finnhub.io/api/news?id=796cab26eda2f37b542b1500966dad0f169aac51f497d18acf126608798db5e0)**  
-*ChartMill · 0h前*  
-AI earnings split: Palantir and AMD surge on strong results, Amazon stumbles—investors now reward visible AI momentum.
+- **[Michael Burry Loads Up On QQQ Puts, Boosts MU Short As He Braces For ‘Larger Fall’ — Here’s What He Did To NVDA, PLTR And TSLA](https://finnhub.io/api/news?id=65330279aa584ddf1e94bf6d68f335b212b9fe35d33379aa257ce70ca1015094)**  
+*Yahoo · 4h前*  
+‘The Big Short’ investor is cutting overall exposure and shifting his portfolio as a recent market rally pushes his short book into the red.
 
-- **[Market Would Fall by 12,152 Points in a ‘Black Monday’ Style Crash. Big Short Investor Says It’s Possible.](https://finnhub.io/api/news?id=6969e537f6b9ebc7373c7c864388fa715168c2d9a39e8c7f00980299c634f5e4)**  
-*Yahoo · 1h前*  
-Michael Burry is still short, still warning of a shock on the scale of 1987, and doing so while the Dow sits near all-time highs and the VIX barely stirs. His r…
+- **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=8eb74779bd42b55da4886c5f0c5441ed981ae13ba62ff3d0b55448de918848d6)**  
+*ChartMill · 6h前*  
+Stay informed about the most active stocks in the S&P500 index on Thursday's session. Discover the stocks that are generating the highest trading volume and dri…
 
-- **[Michael Burry Warns of a 1987-Style Crash. Here Are 2 Index ETFs to Buy Anyway.](https://finnhub.io/api/news?id=c7fbddc4198c1cc976e4e7d6dc0c43b1f3d60461b8c03034092757fc45d07281)**  
-*Yahoo · 3h前*  
-A 1987 crash looks unlikely, but a dollar-cost averaging strategy still is most investors' best bet.
+- **[Centrus Energy: Uncle Sam Won't Let His Centrifuge Fail](https://finnhub.io/api/news?id=1bb8d8a2dd6dc64de3eeaf2b0fc988c7ef322187125ca106674aec5fcda2a253)**  
+*SeekingAlpha · 8h前*  
+Centrus Energy is rated a Strong Buy, driven by its critical role in the U.S. advanced nuclear renaissance and HALEU production. Read more on LEU stock here.
 
 ---
 
@@ -48,7 +48,7 @@ A 1987 crash looks unlikely, but a dollar-cost averaging strategy still is most 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-13 | 監控 | $171.04 | — | 自動更新 |
+| 2026-08-14 | 監控 | $179.01 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A 1987 crash looks unlikely, but a dollar-cost averaging strategy still is most 
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-13 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 09:05 HKT*
