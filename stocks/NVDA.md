@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[1 Jaw-Dropping Metric That Shows Why Amazon Is a Force to Be Reckoned With in the AI Arms Race](https://finnhub.io/api/news?id=a8694d0c4cb44f128fff232a9623985e64b51994ba87eff8ba7f5c4ad2d3f3d5)**  
-*Yahoo · 1h前*  
-AWS' growth rate is accelerating.
+- **[The next AI winners may look nothing like Nvidia or Micron: One Big Investment Idea](https://finnhub.io/api/news?id=5958f486c0c7755211c6c6308a6d1f60c1b65de72ee3d5c5f19164d67a5c1552)**  
+*Yahoo · 3h前*  
+The next AI winners may look nothing like Nvidia.
 
-- **[Billionaire Bill Ackman Just Invested 5% of Pershing Square Capital Management's Portfolio in Netflix. Should Investors Follow Suit?](https://finnhub.io/api/news?id=044a6b97ee36ac25510962f534910236f7abb6f5db979aa4b9f2c5f54f568c01)**  
-*Yahoo · 1h前*  
-While the business has been delivering dependable growth, the stock has been crushed, creating an enticing opportunity.
+- **[Vanguard Is Bullish on Developed Markets Outside the U.S. -- But How Can You Buy Them? These 2 ETFs Can Help.](https://finnhub.io/api/news?id=4b47ae780278b9865b9cf221b77863681025d942a3cd960e14a5283c54a98f12)**  
+*Yahoo · 3h前*  
+Want to put your money into global stocks that might be big winners from AI? These two low-cost ETFs offer international diversification.
 
-- **[CoreWeave Is Winning On Price And Racing Its Own Interest Bill](https://finnhub.io/api/news?id=b85e7b23e0231fb9d02c8eb65a31bf84cf89e0096fd1421f8036323170e16006)**  
-*Yahoo · 2h前*  
-What changed against expectations was pricing power rather than the revenue line, and the open question is how fast scale turns into margin against the cost of …
+- **[Warren Buffett's Successor, Greg Abel, Is About to Drop a Bombshell on Wall Street Later Today, Aug. 14](https://finnhub.io/api/news?id=da0951df84bac239cccc1429cb7924b53dbc3371926b9e44b51ccfa8cc288218)**  
+*Yahoo · 3h前*  
+In a matter of hours, we're going to know exactly which stocks Berkshire Hathaway's new boss bought and sold in the second quarter.
 
 ---
 
@@ -59,4 +59,4 @@ What changed against expectations was pricing power rather than the revenue line
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 21:03 HKT*
