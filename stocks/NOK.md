@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Nokia: Rebound After The Purge, But Free Cash Flow Doesn't Justify A Buy Yet](https://finnhub.io/api/news?id=4fe5d29fe91e905cf5c470de57fc4d298ea9152db063c9deea088294ebcc251e)**  
+*SeekingAlpha · 6h前*  
+Nokia surged on AI optimism but sold off sharply; now it's up 67% YTD. Click here to see why NOK stock is a Hold.
+
 - **[These stocks are the most active in today's session](https://finnhub.io/api/news?id=b4a16c357ec1fdce57718546bf6d584b2f94399a479bfe5e34d129c145800c65)**  
-*ChartMill · 7h前*  
+*ChartMill · 19h前*  
 Get a pulse on the US markets on Thursday by checking out the most active stocks in today's session. Discover the stocks that are leading the way in terms of tr…
 
 - **[Why Nokia Is Still A Buy After Q2 Earnings Report And Stock Pullback](https://finnhub.io/api/news?id=4bdcfc055489a3b207a6bd38060b8cb03986dc5c6ad50dd50e0eec73a84e26af)**  
-*SeekingAlpha · 9h前*  
+*SeekingAlpha · 21h前*  
 Nokia Oyj retains its Buy rating following Q2 results, driven by robust AI and cloud sector growth. Learn more about NOK stock here.
-
-- **[Why Is Nokia Stock Surging on Thursday?](https://finnhub.io/api/news?id=2c7f39d332cc7ac0675232234b73cc3cb1f96c3f5b4412fb8e86a0535d34c98a)**  
-*Benzinga · 12h前*  
-Nokia Corp. (NYSE: NOK) stock continues its upward movement following stronger-than-expected second-quarter financial results and expanding AI and Cloud order v…
 
 ---
 
@@ -59,4 +59,4 @@ Nokia Corp. (NYSE: NOK) stock continues its upward movement following stronger-t
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 21:04 HKT*
