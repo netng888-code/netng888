@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Is Micron (MU) Using Its New AI Fund to Quietly Redefine Its Memory Strategy?](https://finnhub.io/api/news?id=bff1dcd61ff1fde2e1af6bed6d1081f7e0cfea025bc205c570c46bb9c3878b92)**  
-*Yahoo · 2h前*  
-In August 2026, Micron Technology launched the Micron Ventures Paradigm Fund, a US$250 million vehicle that invests across the AI technology stack, covering mod…
+- **[Get insights into the top movers in the S&P500 index of Friday's pre-market session.](https://finnhub.io/api/news?id=65bf5a20ca49fa677ed91b73d8243709c5f98aa21cfb6e399a4d084fa22e6884)**  
+*ChartMill · 0h前*  
+Stay updated with the S&P500 stocks that are on the move in today's pre-market session.
 
-- **[Dow Jones Futures: S&P 500 Hits High On Workday, Sandisk, Oil Prices; Applied Materials Earnings Late](https://finnhub.io/api/news?id=e74d8d484cef3d6bec9f9e84d5227675c131df1c0390c2fad04f198bda2daa81)**  
+- **[The next AI winners may look nothing like Nvidia or Micron: One Big Investment Idea](https://finnhub.io/api/news?id=5958f486c0c7755211c6c6308a6d1f60c1b65de72ee3d5c5f19164d67a5c1552)**  
 *Yahoo · 3h前*  
-The S&P 500 hit a new high amid lower oil prices. Workday and Sandisk lifted software and memory plays. Applied Materials fell late on earnings.
+The next AI winners may look nothing like Nvidia.
 
-- **[The Bull Market Is Almost Back for Chip Stocks](https://finnhub.io/api/news?id=440c3cea64045e87ceffe228cbf5e06d724e0a50a10de76f99a741252b5169eb)**  
-*Yahoo · 4h前*  
-After a steep sell-off last month, investors are chipping in again. Chip stocks were some of the biggest gainers in the S&P 500 and Nasdaq Thursday, a day when …
+- **[SanDisk's Investor Day Puts NAND Center Stage as the 30-Year Quietly Prices In Fiscal Reality](https://finnhub.io/api/news?id=7722ba7b10658553902058a38ee09cf3e74aa22e4b2f2161092b7466a6c3db21)**  
+*ChartMill · 5h前*  
+Cooler July producer prices let the Nasdaq rally, but Thursday's real story was a memory chipmaker sketching a 2028-2030 growth path that reset how investors th…
 
 ---
 
@@ -59,4 +59,4 @@ After a steep sell-off last month, investors are chipping in again. Chip stocks 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 21:03 HKT*
