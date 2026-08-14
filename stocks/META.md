@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-13 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$578.85** |
-| 今日變動 | ▼ $20.27　(-3.38%) |
+| 現價 | **$594.97** |
+| 今日變動 | ▲ $16.12　(+2.78%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $82　(▼4.5%) |
+| 未實現盈虧 | ▼ $34　(▼1.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $579.60 | — |
-| Put Wall（支撐） | $550.00 | -5.0% |
-| Call Wall（阻力） | $750.00 | +29.6% |
+| Gamma Flip | $579.55 | — |
+| Put Wall（支撐） | $580.00 | -2.5% |
+| Call Wall（阻力） | $750.00 | +26.1% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[GOOGL Stock Tops Retail Pick Over AMZN, META, MSFT For Next 12 Months – But META Leads Wall Street Upside](https://finnhub.io/api/news?id=6942cc6d4309c56b84acd310f4cd8b64edc6ae43160ae50563c9cd48ac53ef46)**  
+- **[Reddit Stock Pops 11% on S&P 500 Inclusion Despite Google AI Traffic Concerns](https://finnhub.io/api/news?id=8779c6371be369a612911e24be9a229182268618d00f42c948bdb46e63729cd4)**  
 *Yahoo · 2h前*  
-Google-parent Alphabet is planning the largest percentage increase in AI spending, with 2026 capital expenditures projected at roughly $195 billion to $205 bill…
+Reddit shares rose 11% on S&P 500 inclusion news, even as Google's AI Overviews pressure its search traffic.
 
-- **[Big Tech Drives Up Credit Risk for Safe Firms With No AI Links](https://finnhub.io/api/news?id=5f35a8e928c173b4d434b23783d187705ad341bc96dc0f8f39d88fc628c2ae7f)**  
+- **[Reddit Shares Surge on S&P 500 Inclusion Later This Month](https://finnhub.io/api/news?id=df74461fa32777da7648704a62412957f1c8b31eefed8a37f41062c37ae03de1)**  
 *Yahoo · 2h前*  
-As a flood of debt sales by US tech companies ripples through the credit market, it seems to be triggering an inadvertent rise in risk metrics for some of the w…
+Reddit Inc. will join the S&P 500 next week as part of an off-cycle change, S&P Dow Jones Indices said Thursday, sending the social networking platform’s shares…
 
-- **[Meta Removes 756,000 Australian Teen Accounts as Regulatory Scrutiny Intensifies](https://finnhub.io/api/news?id=2e6815e5b43b1de28b044a62e02106a7767f4a17650524e81833856912f4945d)**  
-*Yahoo · 2h前*  
-Meta (NASDAQ:META) said on Thursday that it has removed more than 750,000 Facebook and Instagram accounts suspected of belonging to Australians under the age of…
+- **[Fidelity’s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It](https://finnhub.io/api/news?id=8fd9ab5b9f93dcf3a7bb6363af7368aa7f680fa85d1ac4e677af32dd8d8b6660)**  
+*Yahoo · 3h前*  
+Fidelity Contrafund built a legendary reputation by zigging while Wall Street zagged, but managing $157.8 billion forces some uncomfortable questions about whet…
 
 ---
 
@@ -48,7 +48,7 @@ Meta (NASDAQ:META) said on Thursday that it has removed more than 750,000 Facebo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-13 | 監控 | $578.85 | — | 自動更新 |
+| 2026-08-14 | 監控 | $594.97 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Meta (NASDAQ:META) said on Thursday that it has removed more than 750,000 Facebo
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-13 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 09:04 HKT*
