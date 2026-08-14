@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Reddit Stock Pops 11% on S&P 500 Inclusion Despite Google AI Traffic Concerns](https://finnhub.io/api/news?id=8779c6371be369a612911e24be9a229182268618d00f42c948bdb46e63729cd4)**  
-*Yahoo · 2h前*  
-Reddit shares rose 11% on S&P 500 inclusion news, even as Google's AI Overviews pressure its search traffic.
+- **[Reddit (RDDT) Joins The S&P 500 In A Big Index Milestone](https://finnhub.io/api/news?id=c950ab288670e1c36c38dce0c3fc718d8bb30b2aa18ab0f5e576a9eaa9c5cbaf)**  
+*Yahoo · 4h前*  
+Reddit (NYSE:RDDT) is set to be added to the S&P 500 index, making it the second pureplay social media company in the benchmark alongside Meta. The inclusion ma…
 
-- **[Reddit Shares Surge on S&P 500 Inclusion Later This Month](https://finnhub.io/api/news?id=df74461fa32777da7648704a62412957f1c8b31eefed8a37f41062c37ae03de1)**  
-*Yahoo · 2h前*  
-Reddit Inc. will join the S&P 500 next week as part of an off-cycle change, S&P Dow Jones Indices said Thursday, sending the social networking platform’s shares…
+- **[Meta Platforms (NASDAQ:META) Passes the Growth-at-a-Reasonable-Price Screen](https://finnhub.io/api/news?id=3e033bda96658c8e6b67cb6f395e9114ff802931686c4947043a78e426fcd1ea)**  
+*ChartMill · 5h前*  
+Meta passes Peter Lynch's growth-at-reasonable-price screen with strong EPS growth, a PEG of 0.81, and a solid balance sheet.
 
-- **[Fidelity’s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It](https://finnhub.io/api/news?id=8fd9ab5b9f93dcf3a7bb6363af7368aa7f680fa85d1ac4e677af32dd8d8b6660)**  
-*Yahoo · 3h前*  
-Fidelity Contrafund built a legendary reputation by zigging while Wall Street zagged, but managing $157.8 billion forces some uncomfortable questions about whet…
+- **[The Best "Magnificent Seven" Stocks to Buy in August](https://finnhub.io/api/news?id=9626c64080dfa8088c2f9a44ce471a290721c8066d3341f05a5074f67fff6107)**  
+*Yahoo · 5h前*  
+The Magnificent Seven have been mostly poor performers this year.
 
 ---
 
@@ -59,4 +59,4 @@ Fidelity Contrafund built a legendary reputation by zigging while Wall Street za
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 21:04 HKT*
