@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-14 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Palantir: The Bears Are Running Out Of Arguments](https://finnhub.io/api/news?id=a06ac29afd583ec34368562cc142d703883fbb808d6bb801af8619e518abcd1f)**  
+*SeekingAlpha · 5h前*  
+Palantir (PLTR) Q2: 93% revenue growth, 62% operating margin and record $2.13B pipeline despite 54x sales valuation.
+
+- **[My Near-Perfect $1 Million Retirement Portfolio](https://finnhub.io/api/news?id=5e3541fccf1078926f97612ed0ac0f516a8515190945e8f6003a3f2f27e07619)**  
+*SeekingAlpha · 5h前*  
+Seven-bucket retirement portfolio blueprint with specific picks for reliable income, attractive yield, and sustainable dividend growthâlearn the strategy...
+
 - **[Michael Burry Loads Up On QQQ Puts, Boosts MU Short As He Braces For ‘Larger Fall’ — Here’s What He Did To NVDA, PLTR And TSLA](https://finnhub.io/api/news?id=65330279aa584ddf1e94bf6d68f335b212b9fe35d33379aa257ce70ca1015094)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 ‘The Big Short’ investor is cutting overall exposure and shifting his portfolio as a recent market rally pushes his short book into the red.
-
-- **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=8eb74779bd42b55da4886c5f0c5441ed981ae13ba62ff3d0b55448de918848d6)**  
-*ChartMill · 6h前*  
-Stay informed about the most active stocks in the S&P500 index on Thursday's session. Discover the stocks that are generating the highest trading volume and dri…
-
-- **[Centrus Energy: Uncle Sam Won't Let His Centrifuge Fail](https://finnhub.io/api/news?id=1bb8d8a2dd6dc64de3eeaf2b0fc988c7ef322187125ca106674aec5fcda2a253)**  
-*SeekingAlpha · 8h前*  
-Centrus Energy is rated a Strong Buy, driven by its critical role in the U.S. advanced nuclear renaissance and HALEU production. Read more on LEU stock here.
 
 ---
 
@@ -59,4 +59,4 @@ Centrus Energy is rated a Strong Buy, driven by its critical role in the U.S. ad
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 21:04 HKT*
