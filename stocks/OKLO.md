@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-13 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$45.13** |
-| 今日變動 | ▼ $1.88　(-4.00%) |
+| 現價 | **$46.45** |
+| 今日變動 | ▲ $1.32　(+2.92%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $27.744 |
-| 未實現盈虧 | ▲ $522　(▲62.7%) |
+| 未實現盈虧 | ▲ $561　(▲67.4%) |
 
 ---
 
@@ -20,27 +20,23 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $45.26 | — |
-| Put Wall（支撐） | $45.00 | -0.3% |
-| Call Wall（阻力） | $50.00 | +10.8% |
+| Gamma Flip | $45.46 | — |
+| Put Wall（支撐） | $45.00 | -3.1% |
+| Call Wall（阻力） | $50.00 | +7.6% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Centrus Energy: Uncle Sam Won't Let His Centrifuge Fail](https://finnhub.io/api/news?id=1bb8d8a2dd6dc64de3eeaf2b0fc988c7ef322187125ca106674aec5fcda2a253)**  
+*SeekingAlpha · 8h前*  
+Centrus Energy is rated a Strong Buy, driven by its critical role in the U.S. advanced nuclear renaissance and HALEU production. Read more on LEU stock here.
+
 - **[Unlocking $50 Billion Across The Nuclear Value Chain](https://finnhub.io/api/news?id=75e4a76bc35ff94bb64049334007da7f97984db52e1f1c48747ac7339b3339c0)**  
 *SeekingAlpha · 2d前*  
 The DOE has selected five initial contenders after reviewing 28 applications from 26 states. The five states have signed memorandums of understanding to discuss…
-
-- **[Truist Securities Maintains Hold on Oklo, Lowers Price Target to $51](https://finnhub.io/api/news?id=ada1ae66f326bed612ab448a892614876d450dd79a4748375fc05001baf3783e)**  
-*Benzinga · 2d前*  
-Truist Securities  analyst Christopher Souther   maintains Oklo (NYSE:OKLO) with a Hold and lowers the price target from $55 to $51.
-
-- **[Oil Jumps 3%, Yields Climb as Hormuz Hopes Fade: Stock Market Today](https://finnhub.io/api/news?id=b2c3d89e1ba544c6935e885ea50b18ce7f28457e2a8831917fca777a0ce13aa6)**  
-*Benzinga · 3d前*  
-Crude surges above $80 and the 10-year yield hits an August high as an Iran-US deal on the Strait of Hormuz slips away, stalling Wall Street&#39;s record run.
 
 ---
 
@@ -48,7 +44,7 @@ Crude surges above $80 and the 10-year yield hits an August high as an Iran-US d
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-13 | 監控 | $45.13 | — | 自動更新 |
+| 2026-08-14 | 監控 | $46.45 | — | 自動更新 |
 
 ---
 
@@ -59,4 +55,4 @@ Crude surges above $80 and the 10-year yield hits an August high as an Iran-US d
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-13 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 09:05 HKT*
