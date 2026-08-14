@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-08-14 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[Is SYK Worth Buying as Growth Improves but Execution Risks Persist?](https://finnhub.io/api/news?id=737ffddce8366578aefaee19d208a80c0b1b37e6ef4bbd6db91ed0a2937e91ac)**  
-*Yahoo · 7h前*  
+*Yahoo · 19h前*  
 Stryker's stronger growth, margin gains and product pipeline support the case, but cyber costs, supply constraints and acquisition execution keep risks elevated…
 
 - **[Intuitive Surgical (ISRG) Backs Long-Term Moat Amid Near-Term Volatility](https://finnhub.io/api/news?id=8b3d14b96c2b523f4211f3fdfe35d97dd30bbc4de281096b86ccab3a09f148b9)**  
-*Yahoo · 11h前*  
+*Yahoo · 23h前*  
 TCW Funds, an investment management firm, published its second-quarter 2026 investor letter for the ‘TCW Concentrated Large Cap Growth Fund.’ A copy of the lett…
 
 - **[The Paid-To-Hold Play On ISRG Stock: A 12% Annualized Income](https://finnhub.io/api/news?id=e592376329a72805d9a9aeb76b4e614c74226f090c0ad68a111e0bb4d3e4df81)**  
@@ -59,4 +59,4 @@ Get paid a real income now on your Intuitive Surgical shares—income you keep n
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 21:04 HKT*
