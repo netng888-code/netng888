@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-14 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[Centrus Energy: Uncle Sam Won't Let His Centrifuge Fail](https://finnhub.io/api/news?id=1bb8d8a2dd6dc64de3eeaf2b0fc988c7ef322187125ca106674aec5fcda2a253)**  
-*SeekingAlpha · 8h前*  
+*SeekingAlpha · 20h前*  
 Centrus Energy is rated a Strong Buy, driven by its critical role in the U.S. advanced nuclear renaissance and HALEU production. Read more on LEU stock here.
 
 - **[Unlocking $50 Billion Across The Nuclear Value Chain](https://finnhub.io/api/news?id=75e4a76bc35ff94bb64049334007da7f97984db52e1f1c48747ac7339b3339c0)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 The DOE has selected five initial contenders after reviewing 28 applications from 26 states. The five states have signed memorandums of understanding to discuss…
 
 ---
@@ -55,4 +55,4 @@ The DOE has selected five initial contenders after reviewing 28 applications fro
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-14 21:04 HKT*
