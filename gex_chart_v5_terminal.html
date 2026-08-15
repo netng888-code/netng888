@@ -269,13 +269,20 @@
        據，呢度同步PORTFOLIO object，其餘檔案（CSV/index.html/
        telegram_bot.py）一併同步，github_gex_updater.py本身維持
        用戶自行更正嘅版本，唔再重複觸碰。
+  v5.15（2026-08-14）：持倉更新：AVGO觸發止賺沽出3股@均價$394.9576
+       （觸發價$395.00，13→10股）——加權平均成本喺賣出時唔變
+       （$378.602，同買入時嘅加權平均成本重算唔同，沽出淨係減少
+       股數、唔會影響餘低股份嘅成本基礎），此筆已實現+$49.07
+       （(394.9576−378.602)×3）。PORTFOLIO object AVGO.qty
+       13→10，其餘檔案（CSV/index.html/telegram_bot.py）一併
+       同步，github_gex_updater.py維持唔觸碰（同v5.14備註一致）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.14)</title>
+<title>GEX Chart — Futu Bridge (v5.15)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -1113,7 +1120,7 @@ buildQuicklinks();
 const PORTFOLIO = {
   'GOOGL':{qty:12,  cost:178.40  },
   'NVDA': {qty:10,  cost:160.125 },
-  'AVGO': {qty:13,  cost:378.602 },
+  'AVGO': {qty:10,  cost:378.602 },
   'MRVL': {qty:10,  cost:257.303 },
   'MU':   {qty:1,   cost:557.857 },
   'TER':  {qty:5,   cost:92.00   },
