@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -59,4 +59,4 @@ Anthropic is reportedly projecting up to $200 billion in 2028 revenue as bankers
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 21:04 HKT*
