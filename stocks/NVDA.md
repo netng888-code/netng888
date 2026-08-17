@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[FTXL: The "Situational Awareness Trade" Still Favors AI-Enabling Chips](https://finnhub.io/api/news?id=745e1b1c2311a9a2e0041ec0feb3545d6142daf1d19b8eb4053efc4a5173960e)**  
+*SeekingAlpha · 5h前*  
+FTXL ETF outlook: AI infrastructure buildout may lift Intel, AMD, Broadcom & Micron.
+
+- **[GDV: Deep Discount And Stable Monthly Payout Make This Attractive](https://finnhub.io/api/news?id=e775368ce28c9ec70d0165cccadd07b521e48a057697289840be033cdd754c2e)**  
+*SeekingAlpha · 5h前*
+
 - **[Eli Lilly Is Building a Weight Loss Drug for Every Kind of Patient](https://finnhub.io/api/news?id=06ee74d265a0bb77590f79394eb0d293a79e06593c6c9612d2e3604d328fc044)**  
 *Yahoo · 1d前*  
 The company's peers in the pharmaceutical industry should be worried.
-
-- **[Iren Won't Have to Raise Capital for Much Longer After the Horizon 1 Delivery](https://finnhub.io/api/news?id=cd43b191a9417f18312accd23c0414768a3f063a21b70acd588ee77fa7c80475)**  
-*Yahoo · 1d前*  
-Iren is starting to make money from its Microsoft deal, and that will make it less reliant on issuing corporate bonds.
-
-- **[5 Monthly Dividend ETFs Paying 7 to 14 Percent to Ride Into 2027](https://finnhub.io/api/news?id=ac5ae008cd1c7b76d6138106b448ed1cf2fd03311b8b1548a08fd4ef4d7a8048)**  
-*Yahoo · 1d前*  
-Five monthly paying ETFs are pulling income from covered calls, preferred stock, and junk bond coupons at yields that dwarf the 10-year Treasury, but the engine…
 
 ---
 
@@ -59,4 +58,4 @@ Five monthly paying ETFs are pulling income from covered calls, preferred stock,
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 21:03 HKT*
