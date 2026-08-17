@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$346.36** |
-| 今日變動 | ▲ $2.82　(+0.82%) |
+| 現價 | **$345.90** |
+| 今日變動 | ▼ $0.46　(-0.13%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,016　(▲94.1%) |
+| 未實現盈虧 | ▲ $2,010　(▲93.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $342.61 | — |
-| Put Wall（支撐） | $340.00 | -1.8% |
-| Call Wall（阻力） | $350.00 | +1.1% |
+| Gamma Flip | $340.37 | — |
+| Put Wall（支撐） | $340.00 | -1.7% |
+| Call Wall（阻力） | $350.00 | +1.2% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Prediction: 2 Unstoppable Artificial Intelligence (AI) Hardware Leaders That Will Join Alphabet in the $4 Trillion Club by 2028](https://finnhub.io/api/news?id=651bbfd3451869d4f7a3b810e72b44c2a3424590fefaf032c257e5250b800deb)**  
-*Yahoo · 4h前*  
-Broadcom and Taiwan Semiconductor have a lot of work to do to join the $4 trillion market cap club.
+- **[Tracking Bill Ackman's Pershing Square 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=8f0c6af6146ce467fdc7d871d935aa55516a90bcc60cdc15ed864b80f4e2b14c)**  
+*SeekingAlpha · 4h前*  
+Pershing Square's Q2 2026 13F portfolio surged to $19.47B, expanding from 10 to 14 positions. Check out the portfolio here.
 
-- **[The Best "Magnificent Seven" Stocks to Buy in August](https://finnhub.io/api/news?id=9626c64080dfa8088c2f9a44ce471a290721c8066d3341f05a5074f67fff6107)**  
-*Yahoo · 5h前*  
-The Magnificent Seven have been mostly poor performers this year.
+- **[Projected Robotaxi (Autonomous Ride-Hailing) Growth By Company And Why I Rate Waymo A Buy](https://finnhub.io/api/news?id=39c381aa99b71324087353d3a5efa3591c1f04980b6a21e424e08c758959c44d)**  
+*SeekingAlpha · 15h前*
 
-- **[Jim Cramer Wonders Whether AppLovin Corporation (NASDAQ:APP) Is Facing Off With Google](https://finnhub.io/api/news?id=0d4ce33d4117b21d0c84f82a199fd139c3f466a47371fcbaff15031798b38312)**  
-*Yahoo · 5h前*  
-AppLovin Corporation (NASDAQ:APP) is a software company that operates in the digital advertising space. Its shares are down by 27% over the past year and by 49%…
+- **[Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More](https://finnhub.io/api/news?id=80a4ff54930a1eea63dea0ec7e39c7509a9575579cacc01386fedde5b9601b2f)**  
+*Benzinga · 1d前*  
+AI spending continues reshaping technology as Nvidia, AMD, Cisco, Intel and semiconductor companies announce new investments, partnerships and infrastructure in…
 
 ---
 
@@ -48,7 +47,7 @@ AppLovin Corporation (NASDAQ:APP) is a software company that operates in the dig
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-14 | 監控 | $346.36 | — | 自動更新 |
+| 2026-08-17 | 監控 | $345.90 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ AppLovin Corporation (NASDAQ:APP) is a software company that operates in the dig
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 09:03 HKT*
