@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Tracking Bill Ackman's Pershing Square 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=8f0c6af6146ce467fdc7d871d935aa55516a90bcc60cdc15ed864b80f4e2b14c)**  
-*SeekingAlpha · 4h前*  
+*SeekingAlpha · 16h前*  
 Pershing Square's Q2 2026 13F portfolio surged to $19.47B, expanding from 10 to 14 positions. Check out the portfolio here.
 
 - **[Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside](https://finnhub.io/api/news?id=d651f92ddd0ace78f7f92c2878d40e7535eac6be810461d173aaf4347482170d)**  
@@ -39,7 +39,7 @@ Pershing Square's Q2 2026 13F portfolio surged to $19.47B, expanding from 10 to 
 Dell stock rally has paused in the past two days, but the recent Supermicro and Lenovo earnings show it has more upside
 
 - **[CoreWeave: Tapping Into Broader Enterprise, Yet Stay Updated](https://finnhub.io/api/news?id=e87ed1cd184f28ffcec4fcdc53a8195b7ff6c45c9678f15ca0005bf74702adbb)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Strong Buy on CoreWeave (CRWV): 2027 ~$250 target as backlog surges and DDTL 5.5 financing boosts enterprise margins. Key risksâdebt, dilution.
 
 ---
@@ -59,4 +59,4 @@ Strong Buy on CoreWeave (CRWV): 2027 ~$250 target as backlog surges and DDTL 5.5
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 21:04 HKT*
