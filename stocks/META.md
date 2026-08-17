@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$594.97** |
-| 今日變動 | ▲ $16.12　(+2.78%) |
+| 現價 | **$589.85** |
+| 今日變動 | ▼ $5.12　(-0.86%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $34　(▼1.9%) |
+| 未實現盈虧 | ▼ $49　(▼2.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $579.55 | — |
-| Put Wall（支撐） | $580.00 | -2.5% |
-| Call Wall（阻力） | $750.00 | +26.1% |
+| Gamma Flip | $578.81 | — |
+| Put Wall（支撐） | $550.00 | -6.8% |
+| Call Wall（阻力） | $750.00 | +27.2% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Reddit (RDDT) Joins The S&P 500 In A Big Index Milestone](https://finnhub.io/api/news?id=c950ab288670e1c36c38dce0c3fc718d8bb30b2aa18ab0f5e576a9eaa9c5cbaf)**  
-*Yahoo · 4h前*  
-Reddit (NYSE:RDDT) is set to be added to the S&P 500 index, making it the second pureplay social media company in the benchmark alongside Meta. The inclusion ma…
+- **[Tracking Bill Ackman's Pershing Square 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=8f0c6af6146ce467fdc7d871d935aa55516a90bcc60cdc15ed864b80f4e2b14c)**  
+*SeekingAlpha · 4h前*  
+Pershing Square's Q2 2026 13F portfolio surged to $19.47B, expanding from 10 to 14 positions. Check out the portfolio here.
 
-- **[Meta Platforms (NASDAQ:META) Passes the Growth-at-a-Reasonable-Price Screen](https://finnhub.io/api/news?id=3e033bda96658c8e6b67cb6f395e9114ff802931686c4947043a78e426fcd1ea)**  
-*ChartMill · 5h前*  
-Meta passes Peter Lynch's growth-at-reasonable-price screen with strong EPS growth, a PEG of 0.81, and a solid balance sheet.
+- **[Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside](https://finnhub.io/api/news?id=d651f92ddd0ace78f7f92c2878d40e7535eac6be810461d173aaf4347482170d)**  
+*Benzinga · 1d前*  
+Dell stock rally has paused in the past two days, but the recent Supermicro and Lenovo earnings show it has more upside
 
-- **[The Best "Magnificent Seven" Stocks to Buy in August](https://finnhub.io/api/news?id=9626c64080dfa8088c2f9a44ce471a290721c8066d3341f05a5074f67fff6107)**  
-*Yahoo · 5h前*  
-The Magnificent Seven have been mostly poor performers this year.
+- **[CoreWeave: Tapping Into Broader Enterprise, Yet Stay Updated](https://finnhub.io/api/news?id=e87ed1cd184f28ffcec4fcdc53a8195b7ff6c45c9678f15ca0005bf74702adbb)**  
+*SeekingAlpha · 1d前*  
+Strong Buy on CoreWeave (CRWV): 2027 ~$250 target as backlog surges and DDTL 5.5 financing boosts enterprise margins. Key risksâdebt, dilution.
 
 ---
 
@@ -48,7 +48,7 @@ The Magnificent Seven have been mostly poor performers this year.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-14 | 監控 | $594.97 | — | 自動更新 |
+| 2026-08-17 | 監控 | $589.85 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The Magnificent Seven have been mostly poor performers this year.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
