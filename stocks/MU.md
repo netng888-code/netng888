@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-17 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $880.54 | — |
 | Put Wall（支撐） | $900.00 | -7.4% |
-| Call Wall（阻力） | $1,000.00 | +2.9% |
+| Call Wall（阻力） | $1,100.00 | +13.2% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Sandisk: The Memory Trade Lives On After Investor's Day](https://finnhub.io/api/news?id=7e153e573c69bdd2cb9c654693ee1500452d5a9097a3a3ca79a3a3be924b79f2)**  
-*SeekingAlpha · 15h前*  
-Sandisk Corporation posts $6.9B quarterly profit as pricing drives growth. Click for this SNDK update following the well-received Analyst Day.
+- **[What's going on in today's pre-market session: S&P500 movers](https://finnhub.io/api/news?id=604cc1a3918b9ce571e3e1fa661e5b1eae14315e6dc69a93faca005dd71627c6)**  
+*ChartMill · 0h前*  
+Before the US market kicks off on Monday, let's examine the pre-market session and unveil the notable performers among the S&P500 top gainers and losers.
 
-- **[Micron: Strong Buy As KOSPI Fear Looks Overdone](https://finnhub.io/api/news?id=4d8c9ff016371927404e29e81011171e26bf9fcec77f4a4089ed6844f00f84c8)**  
-*SeekingAlpha · 15h前*  
-Micron (MU) remains a strong buy, with multi-year earnings growth supported by robust AI-driven demand and improving sales, EBITDA, and free cash flow...
+- **[Memory Stocks' Valuation Divide Widens Ahead of Micron's Earnings](https://finnhub.io/api/news?id=466059b7c3c10abacc2eeadc272c4b7806b5db9716a5c909ef5e070a77355697)**  
+*ChartMill · 0h前*  
+Memory stock valuation gap: Micron and Sandisk trade cheap despite huge growth; Seagate and Western Digital are pricey. Earnings will decide.
 
-- **[Micron: I Think We Could Get An Upside Breakout](https://finnhub.io/api/news?id=e21e62eceedc32ae4c4b679540f070585cec0f127e07501d644bd4ce9cc96dac)**  
-*SeekingAlpha · 19h前*  
-Micron looks like a tactical short-term buy as DRAM/NAND tightness and AI/HBM demand lift pricesâplus risk-aware stops. Click for more on MU stock.
+- **[Micron Technology (NASDAQ:MU) Screens as a Peter Lynch Growth-at-a-Reasonable-Price Stock](https://finnhub.io/api/news?id=aff2ff59641ff07c6013cbf575de8acc8cc17ae7f81837eca5163b2775b49ceb)**  
+*ChartMill · 1h前*  
+Micron Technology passes the Peter Lynch screen with strong EPS growth, low PEG, and solid financials, making it a compelling growth-at-a-reasonable-price candi…
 
 ---
 
@@ -59,4 +59,4 @@ Micron looks like a tactical short-term buy as DRAM/NAND tightness and AI/HBM de
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 21:03 HKT*
