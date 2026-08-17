@@ -276,13 +276,58 @@
        （(394.9576−378.602)×3）。PORTFOLIO object AVGO.qty
        13→10，其餘檔案（CSV/index.html/telegram_bot.py）一併
        同步，github_gex_updater.py維持唔觸碰（同v5.14備註一致）。
+  v5.16（2026-08-16）【三個bugfix，回應用戶實測回報】：
+    1. 休市UI狀態切換——舊版即使頂部Session badge已顯示「週末
+       WEEKEND」，中間搜尋列同Key Levels卡依然叫「T1 LIVE 股價」/
+       「T1 Live 現價」，容易畀用戶「市場依然實時交易緊」嘅錯覺；
+       持倉總覽tab嘅刷新倒數（REFRESH_SEC固定30秒）亦冇因為休市
+       而放緩，不必要咁密call bridge。修正：新增getRefreshSec()
+       （休市300秒／交易日30秒）取代固定REFRESH_SEC；renderAll()
+       而家會用lq.sess判斷是否weekend，動態將兩個位置嘅label改做
+       「T1 收盤價」。同時detectSession()／getLiveT1()兩份各自獨立
+       嘅session判斷邏輯都加返NYSE公眾假期表（_NYSE_HOLIDAYS_ET，
+       同telegram_bot.py／futu_bridge_v2.py同一份，人手同步）——
+       舊版淨識判斷週六/週日，平日假期（例如感恩節）會誤判做
+       'regular'。
+    2. AI分析時間戳與UI價格唔同步——用戶反映UI顯示緊12:44:20／
+       $225.16，但AI分析meta卻顯示13:43:56，兩者對唔上。根源：
+       runAiAnalysis()舊版淨係讀lastData（可能係好耐之前search
+       嗰陣嘅舊snapshot），冇隨頁面時間推移重新攞現價/GEX水位；
+       時間戳本身又用瀏覽器locale嘅`toLocaleTimeString('en-US')`，
+       同頁頂時鐘唔一定用緊同一個timezone基準。修正：runAiAnalysis()
+       而家每次撳「開始分析」都會重新fetch一次/api/gex+T1現價，
+       成功即刻renderAll()令UI同步刷新，保證AI分析引用嘅數據同
+       畫面上見到嘅數字係同一份snapshot；新增fmtHKT()統一強制用
+       Asia/Hong_Kong時區顯示，頁頂時鐘同AI meta（「數據時間」+
+       「分析生成」兩個時間戳，「數據時間」直接源自bridge回應嘅
+       d.ts）而家共用返同一套邏輯，唔會再各自顯示唔同時刻。
+    3. 突破/跌穿判斷太敏感——現價僅高過Call Wall 0.1%就被UI同AI
+       判定做「已突破」／觸發「Gamma Squeeze」呢類極端結論，但
+       0.1%完全屬於市場正常微幅波動嘅雜訊範圍。新增全域常數
+       BREAKOUT_BUFFER_PCT=0.5（同futu_bridge_v2.py v3.4新增嘅
+       同名常數保持一致，兩邊人手同步）：renderAll()嘅Gamma狀態卡
+       同lv-call-sub/lv-put-sub distance文字而家分三層——距離
+       >=0.5%先算「已確認突破/跌穿」；過咗界但未夠0.5%顯示「測試
+       阻力中/測試支撐中」（中性語氣，唔講「突破」）；仲喺wall
+       嗰邊、距離<1.5%先維持返原有「逼近」邏輯。AI prompt呢邊嘅
+       對應修正見futu_bridge_v2.py v3.4 changelog（compute_wall_
+       status()／build_ai_prompt()同步加返呢個緩衝區，AI唔會再
+       對雜訊範圍嘅微幅越界講Dealer被迫回補）。
+    （用戶提出嘅第4點——休市期間Net GEX day-over-day趨勢banner
+    出現無意義嘅跳動，例如「+1914.6M→+1833.7M(↓4%)」——純屬
+    backend邏輯（_compute_gex_trend()喺休市期間仍然逐次寫入/比較
+    快照），修正落咗futu_bridge_v2.py v3.4，呢個HTML檔案嘅
+    renderTrendBanner()本身已經識處理`available:false`+自訂note
+    文字，唔使改前端。）
+    4. WATCHLIST新增CRWV／COHR／NBIS／LITE（CoreWeave/Coherent/
+    Nebius三隻AI基建新增追蹤 + LITE清倉後改放watchlist）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.15)</title>
+<title>GEX Chart — Futu Bridge (v5.16)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -768,7 +813,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     </select>
   </div>
   <div class="t1live-pill" id="t1live-pill" style="display:none">
-    <span class="t1l-label">T1 LIVE 股價</span>
+    <span class="t1l-label" id="t1l-label">T1 LIVE 股價</span>
     <span class="t1l-price" id="t1l-price">—</span>
     <span class="t1l-chg" id="t1l-chg"></span>
   </div>
@@ -799,7 +844,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <!-- Key levels -->
 <div class="levels" id="levels" style="display:none">
   <div class="lcard spot">
-    <div class="lc-label">T1 Live 現價</div>
+    <div class="lc-label" id="lv-spot-label">T1 Live 現價</div>
     <div class="lc-val spot-clr" id="lv-spot">—</div>
     <div class="lc-sub" id="lv-spot-sub">—</div>
   </div>
@@ -1011,6 +1056,17 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <script>
 const BRIDGE = 'http://127.0.0.1:8888';
 
+// v5.16新增：突破/跌穿Call/Put Wall嘅「有效性緩衝區」——用戶反映
+// 現價僅高過Call Wall 0.1%就被畫面判定做「已突破」，並連帶令AI
+// 分析講出「Dealer被迫回補/Gamma Squeeze」呢類極端結論，但0.1%
+// 完全屬於市場正常微幅波動嘅雜訊範圍。而家分三層：距離 >=
+// BREAKOUT_BUFFER_PCT先算「已確認突破/跌穿」；0～緩衝區之間算
+// 「測試阻力/支撐中」（Testing Wall，中性語氣）；仲喺wall嗰邊
+// 先睇返原本嘅「逼近」邏輯。同futu_bridge_v2.py嘅
+// BREAKOUT_BUFFER_PCT（AI prompt/compute_wall_status()用嗰個）
+// 保持同一數值，兩邊人手同步。
+const BREAKOUT_BUFFER_PCT = 0.5;
+
 // ── Global Indices Ticker（v5.3新增，取代TradingView widget）──────
 // poll futu_bridge_v2.py /api/real_indices，同global-indices.html
 // 用返完全同一套render邏輯（保持兩邊顯示一致，方便對照）。
@@ -1099,7 +1155,11 @@ const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','
 // + 2026-07-10新增5隻生物科技/製藥股（LLY/VRTX/REGN/MRNA/BNTX）
 // + 2026-07-18新增SKHY（SK海力士ADR，2026年7月NASDAQ新上市，原代碼SKHYV
 //   7/13已改名做SKHY——記憶體/半導體領先指標，同MU/AVGO持倉相關）
-const WATCHLIST = ['GLD','SPCX','INTC','NOK','TSLA','RGTI','HOOD','AMD','IONQ','BB','SNDK','SNOW','MDT','IBM','TXN','FLEX','TER','NVT','INSP','MPWR','IFNNY','NPCE','KLAC','LRCX','AMAT','ASML','LLY','VRTX','REGN','MRNA','BNTX','SKHY'];
+// + 2026-08-16新增CRWV/COHR/NBIS/LITE：CRWV（CoreWeave，AI雲端算力）／
+//   COHR（Coherent，光學元件/AI數據中心互連）／NBIS（Nebius Group，
+//   AI基建雲）／LITE（Lumentum——原持倉，2026-08已於$940全數沽出
+//   鎖利+$120清倉，改放watchlist繼續追蹤，唔再喺HOLDINGS清單）
+const WATCHLIST = ['GLD','SPCX','INTC','NOK','TSLA','RGTI','HOOD','AMD','IONQ','BB','SNDK','SNOW','MDT','IBM','TXN','FLEX','TER','NVT','INSP','MPWR','IFNNY','NPCE','KLAC','LRCX','AMAT','ASML','LLY','VRTX','REGN','MRNA','BNTX','SKHY','CRWV','COHR','NBIS','LITE'];
 
 function buildQuicklinks() {
   document.getElementById('hold-cnt').textContent = `(${HOLDINGS.length})`;
@@ -1150,6 +1210,29 @@ const SESS_CFG = {
   weekend:    {label:'週末 WEEKEND',                    cls:'sess-weekend',   icon:'🗓', rowCls:'t1-reg'},
 };
 
+// v5.16新增：NYSE公眾假期表（同telegram_bot.py／futu_bridge_v2.py
+// 嘅is_nyse_trading_day()同一份清單，人手同步——三個檔案冇互相
+// import，屬呢個codebase一直以嚟嘅慣例，例如session偵測邏輯本身
+// 都係逐個檔案各自複製一份）。背景：detectSession()舊版淨係識
+// 判斷週六/週日，對平日嘅公眾假期（例如感恩節/聖誕）完全冇檢查，
+// 會誤判做'regular'，令「T1 LIVE」呢類字眼喺假期休市時仍然顯示
+// 「實時交易緊」嘅誤導字樣（見Bug 1a）。
+const _NYSE_HOLIDAYS_ET = new Set([
+  '2025-01-01','2025-01-20','2025-02-17','2025-04-18',
+  '2025-05-26','2025-06-19','2025-07-04','2025-09-01',
+  '2025-11-27','2025-12-25',
+  '2026-01-01','2026-01-19','2026-02-16','2026-04-03',
+  '2026-05-25','2026-06-19','2026-07-03',
+  '2026-09-07','2026-11-26','2026-12-25',
+  '2027-01-01','2027-01-18','2027-02-15','2027-03-26',
+  '2027-05-31','2027-06-18','2027-07-05',
+  '2027-09-06','2027-11-25','2027-12-24',
+]);
+function isNyseHolidayET(et) {
+  const y = et.getFullYear(), m = String(et.getMonth()+1).padStart(2,'0'), d = String(et.getDate()).padStart(2,'0');
+  return _NYSE_HOLIDAYS_ET.has(`${y}-${m}-${d}`);
+}
+
 function detectSession() {
   // v6修正（2026-07-25）：補返「owning trading day」邏輯，同
   // telegram_bot.py v1.4已經修正嘅detect_et_session()對齊——舊版
@@ -1158,6 +1241,10 @@ function detectSession() {
   // （HK時間週六日）成日誤判做「夜盤」，攞錯咗停留喺舊值嘅
   // overnight_price去顯示T1，同真實現價（last_price/T2）對唔上。
   const et = new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
+  // v5.16新增：公眾假期（例如感恩節9:30-16:00 ET期間）優先當weekend
+  // 處理——'weekend'呢個標籤本身喺SESS_CFG/UI已經係「休市」通用意思，
+  // 唔使加多一個新state。
+  if (isNyseHolidayET(et)) return 'weekend';
   const day = et.getDay();   // 0=週日 … 6=週六
   const m = et.getHours()*60 + et.getMinutes();
   if (day===6) return 'weekend';                          // 週六全日休市
@@ -1179,11 +1266,31 @@ function getT1(rec, sess) {
 
 let curSession = 'weekend';
 
+// v5.16新增：休市（週末/假期）期間持倉/GEX數據唔會變，30秒一刷新
+// 完全冇必要，仲會不必要咁密call bridge——休市時放寬到300秒（5分
+// 鐘），交易日維持原本30秒。見Bug 1a：呢個function令持倉總覽tab
+// 嘅刷新頻率隨curSession動態調整，唔使再喺市場已經收咗市嗰陣仲
+// 扮緊「實時交易」咁密call。
+function getRefreshSec() {
+  return curSession === 'weekend' ? 300 : 30;
+}
+
+// v5.16新增：分析生成時間／頁頂時鐘統一強制用Asia/Hong_Kong時區
+// 顯示（呢個dashboard套件本身就係為HK用戶而設），唔再靠瀏覽器
+// 本身嘅locale/timezone設定（如果瀏覽器/伺服器環境時區配置錯誤
+// 或者非HKT，會令「AI分析生成時間」同「頁頂時鐘」睇落唔一致，
+// 呢個正正係Bug 1b用戶反映「UI 12:44 vs AI分析 13:43」嗰種時間
+// 錯位嘅其中一個可能根源）。fmtHKT()俾updateClock()同下面
+// runAiAnalysis()嘅meta時間戳共用，保證兩者永遠用返同一套邏輯。
+function fmtHKT(date) {
+  return date.toLocaleTimeString('zh-HK', {hour12:false, timeZone:'Asia/Hong_Kong'});
+}
+
 // ── Clock（跨tab共用，取代原本gex_chart獨立嗰個tick()）─────────
 function updateClock() {
   const now = new Date();
-  document.getElementById('clock').textContent = now.toLocaleTimeString('en-US',{hour12:false});
-  document.getElementById('datep').textContent = now.toLocaleDateString('en-US',{weekday:'short',year:'numeric',month:'short',day:'numeric'});
+  document.getElementById('clock').textContent = fmtHKT(now) + ' HKT';
+  document.getElementById('datep').textContent = now.toLocaleDateString('en-US',{weekday:'short',year:'numeric',month:'short',day:'numeric',timeZone:'Asia/Hong_Kong'});
   curSession = detectSession();
   const cfg = SESS_CFG[curSession];
   const badge = document.getElementById('badge-sess');
@@ -1414,8 +1521,9 @@ function openTV(sym) {
 }
 
 // ── 持倉總覽tab：定時fetch /api/quote（移植自futu.html）──────
-const REFRESH_SEC = 30;
-let _timer=null, _cd=REFRESH_SEC;
+// v5.16：固定嘅REFRESH_SEC=30改用上面新增嘅getRefreshSec()（休市
+// 300秒／交易日30秒），見Bug 1a——唔再喺休市時仍然扮緊實時交易。
+let _timer=null, _cd=getRefreshSec();
 
 function setStatus(bridgeOk, opendOk) {
   document.getElementById('d-bridge').className='dot '+(bridgeOk?'live':'err');
@@ -1426,7 +1534,7 @@ function setStatus(bridgeOk, opendOk) {
 
 async function fetchNow() {
   if (_timer){clearInterval(_timer);_timer=null;}
-  _cd=REFRESH_SEC;
+  _cd=getRefreshSec();
   document.getElementById('t-cd').textContent='刷新中...';
   try {
     const resp=await fetch(BRIDGE+'/api/quote',{signal:AbortSignal.timeout(10000)});
@@ -1452,7 +1560,7 @@ async function fetchNow() {
     document.getElementById('us-content').innerHTML=msg;
     document.getElementById('hk-content').innerHTML=msg;
   }
-  _cd=REFRESH_SEC;
+  _cd=getRefreshSec();
   _timer=setInterval(()=>{
     _cd--;
     document.getElementById('t-cd').textContent=_cd+'s';
@@ -1484,7 +1592,10 @@ async function getLiveT1(sym) {
       const et  = new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
       const h = et.getHours(); const m = et.getMinutes(); const wd = et.getDay();
       const mins = h*60+m;
-      if (wd===6 || (wd===0 && mins<1200) || (wd===5 && mins>=1200)) {
+      // v5.16新增：加返isNyseHolidayET()檢查，同detectSession()同步——
+      // 舊版呢度冇理會公眾假期，令假期（例如感恩節）仍然被判做
+      // regular/pre/after，T1會錯誤讀返last_price而唔係「凍結」狀態
+      if (isNyseHolidayET(et) || wd===6 || (wd===0 && mins<1200) || (wd===5 && mins>=1200)) {
         return {T1:rec.last_price, T2:rec.last_price, sess:'weekend', icon:'🗓',
                 chgRate:rec.change_rate, name:rec.name};
       }
@@ -1905,11 +2016,21 @@ function renderAll(d, lq, sym) {
 
   // Spot
   const spotChg = T2 ? (spot-T2)/T2*100 : null;
+  // v5.16新增（Bug 1a）：休市（週末/假期）期間「T1 LIVE」呢個字眼
+  // 會誤導用戶以為市場依然實時交易緊——lq.sess喺getLiveT1()／
+  // detectSession()已經識判斷weekend，呢度直接攞嚟決定顯示邊句
+  // label，兩個位置（搜尋列badge + Key Levels卡）同步改。
+  const isClosed = (lq?.sess === 'weekend');
+  const t1LabelTxt = isClosed ? 'T1 收盤價' : 'T1 LIVE 股價';
+  const lvSpotLabelTxt = isClosed ? 'T1 收盤價' : 'T1 Live 現價';
   document.getElementById('lv-spot').textContent = `$${f2(spot)}`;
   document.getElementById('lv-spot-sub').textContent = `${sessIcon} ${sessLabel} ${spotChg!=null?fp(spotChg)+' vs收盤':''}`;
+  const lvSpotLabelEl = document.getElementById('lv-spot-label');
+  if (lvSpotLabelEl) lvSpotLabelEl.textContent = lvSpotLabelTxt;
 
   // T1 Live 股價 badge（搜尋列，查詢按鈕前）——同lv-spot用返同一組spot/spotChg數據
   document.getElementById('t1live-pill').style.display = '';
+  document.getElementById('t1l-label').textContent = t1LabelTxt;
   document.getElementById('t1l-price').textContent = `$${f2(spot)}`;
   const t1lChg = document.getElementById('t1l-chg');
   if (spotChg != null) {
@@ -1927,31 +2048,49 @@ function renderAll(d, lq, sym) {
     : '—';
 
   // Call Wall
+  // v5.16修正（Bug 2）：cwDist<=0已經即刻叫「已突破」——現價高過
+  // Call Wall僅0.1%都會觸發，呢個幅度屬市場雜訊，唔應該當做確認
+  // 突破。而家加返BREAKOUT_BUFFER_PCT（0.5%）緩衝區：過咗界但
+  // 未夠0.5% → 顯示「測試阻力中」（中性），過咗界超過0.5% → 先算
+  // 「已確認突破」。
   const cwDist = spot && callWall ? (callWall-spot)/spot*100 : null;
   document.getElementById('lv-call').textContent = `$${f2(callWall)}`;
   document.getElementById('lv-call-sub').textContent = cwDist!=null
-    ? (cwDist<=0 ? `已突破 ▲${Math.abs(cwDist).toFixed(1)}%` : `距離 +${cwDist.toFixed(1)}%`)
+    ? (cwDist <= -BREAKOUT_BUFFER_PCT ? `已確認突破 ▲${Math.abs(cwDist).toFixed(2)}%`
+       : cwDist < 0 ? `測試阻力中 ▲${Math.abs(cwDist).toFixed(2)}%（<${BREAKOUT_BUFFER_PCT}%緩衝區）`
+       : `距離 +${cwDist.toFixed(1)}%`)
     : '—';
 
-  // Put Wall
+  // Put Wall（同上，加返緩衝區）
   const pwDist = spot && putWall ? (spot-putWall)/spot*100 : null;
   document.getElementById('lv-put').textContent = `$${f2(putWall)}`;
   document.getElementById('lv-put-sub').textContent = pwDist!=null
-    ? (pwDist<=0 ? `已跌穿 ▼${Math.abs(pwDist).toFixed(1)}%` : `距離 -${pwDist.toFixed(1)}%`)
+    ? (pwDist <= -BREAKOUT_BUFFER_PCT ? `已確認跌穿 ▼${Math.abs(pwDist).toFixed(2)}%`
+       : pwDist < 0 ? `測試支撐中 ▼${Math.abs(pwDist).toFixed(2)}%（<${BREAKOUT_BUFFER_PCT}%緩衝區）`
+       : `距離 -${pwDist.toFixed(1)}%`)
     : '—';
 
   // Status
+  // v5.16修正（Bug 2）：同上，突破/跌穿判斷加返0.5%緩衝區——舊版
+  // `spot >= callWall`一過界即刻顯示「🚀 已突破Call牆」，0.1%雜訊
+  // 都會觸發呢個搶眼嘅狀態，容易誤導用戶以為Gamma Squeeze已經
+  // 發生緊。而家分三層：確認突破/跌穿（>=0.5%）→ 逼近（仍喺wall
+  // 嗰邊，<1.5%）→ 測試阻力/支撐中（過咗界但喺0.5%緩衝區內）。
   let statusStr = '', statusSub = '';
   if (spot && flip) {
     statusStr = spot > flip ? '✅ 正Gamma區' : '⚠️ 負Gamma區';
   }
   if (spot && callWall) {
-    if (spot >= callWall) statusStr += '\n🚀 已突破Call牆';
-    else if ((callWall-spot)/spot*100 < 1.5) statusStr += '\n🔴 逼近Call牆';
+    const overCallPct = (spot - callWall) / spot * 100;   // 正數=已過界
+    if (overCallPct >= BREAKOUT_BUFFER_PCT) statusStr += '\n🚀 已確認突破Call牆';
+    else if (overCallPct > 0) statusStr += `\n🟠 測試Call牆阻力中（僅高${overCallPct.toFixed(2)}%，屬雜訊範圍）`;
+    else if (-overCallPct < 1.5) statusStr += '\n🔴 逼近Call牆';
   }
   if (spot && putWall) {
-    if (spot <= putWall) statusStr += '\n💥 已跌穿Put牆';
-    else if ((spot-putWall)/spot*100 < 1.5) statusStr += '\n🟢 逼近Put牆';
+    const underPutPct = (putWall - spot) / spot * 100;    // 正數=已過界
+    if (underPutPct >= BREAKOUT_BUFFER_PCT) statusStr += '\n💥 已確認跌穿Put牆';
+    else if (underPutPct > 0) statusStr += `\n🟠 測試Put牆支撐中（僅低${underPutPct.toFixed(2)}%，屬雜訊範圍）`;
+    else if (-underPutPct < 1.5) statusStr += '\n🟢 逼近Put牆';
   }
   document.getElementById('lv-status').innerHTML = statusStr.replace(/\n/g,'<br>');
   document.getElementById('lv-status-sub').textContent = `Futu Live GEX`;
@@ -2037,15 +2176,39 @@ function resetAiSection() {
 
 async function runAiAnalysis() {
   if (!lastData) return;
-  const {d, liveQuote, sym} = lastData;
+  const {sym} = lastData;
   const btn  = document.getElementById('ai-btn');
   const body = document.getElementById('ai-body');
   const meta = document.getElementById('ai-meta');
   btn.disabled = true;
   btn.textContent = '⏳ 分析中...';
-  body.innerHTML = '<span class="spin"></span> DeepSeek V4 Flash 分析緊，約5-15秒...';
+  body.innerHTML = '<span class="spin"></span> 更新最新現價/GEX水位，交畀 DeepSeek V4 Flash 分析緊，約5-15秒...';
   meta.textContent = '';
   try {
+    // v5.16【重要bugfix】：AI分析必須用返「開始分析」呢一刻最新嘅
+    // 現價/GEX水位，唔可以淨係靠lastData（可能係好耐之前search嗰陣
+    // 遺留低嘅snapshot）——用戶反映UI顯示緊12:44:20/$225.16，但AI
+    // 分析卻顯示13:43:56嘅時間戳，兩者對唔上，根源正正係AI分析
+    // 用緊查詢symbol嗰一刻嘅舊liveQuote/d，冇隨頁面時間推移更新。
+    // 而家每次撳「開始分析」都會重新fetch一次GEX+T1現價，成功即刻
+    // renderAll()同步刷新返畫面上嘅Key Levels卡，保證AI分析引用緊
+    // 嘅數據同用戶眼前見到嘅UI數字係同一份snapshot；下面meta時間戳
+    // 亦改用fmtHKT()統一標註做HKT，同頁頂時鐘用返同一套邏輯，唔會
+    // 再因為瀏覽器locale/timezone唔一致而顯示錯亂嘅時間。
+    const expCount = document.getElementById('exp-select').value || '2';
+    const expTimeoutMs = expCount === '8' ? 100000 : 60000;
+    const [gexResp, liveQuote] = await Promise.all([
+      fetch(`${BRIDGE}/api/gex/${sym}?max_expirations=${expCount}`, {signal:AbortSignal.timeout(expTimeoutMs)}),
+      getLiveT1(sym),
+    ]);
+    if (!gexResp.ok) throw new Error(`HTTP ${gexResp.status}`);
+    const d = await gexResp.json();
+    if (d.error) throw new Error(d.error);
+
+    lastData = {d, liveQuote, sym};
+    renderAll(d, liveQuote, sym);
+    renderGexPriceLines(d);
+
     const price = (liveQuote && liveQuote.T1) || d.spot;
     const params = new URLSearchParams();
     params.set('price', price ?? '');
@@ -2078,7 +2241,13 @@ async function runAiAnalysis() {
     const j = await r.json();
     if (j.error) throw new Error(j.error);
     body.innerHTML = (j.analysis || '（AI冇回覆內容）').replace(/\n/g, '<br>');
-    meta.textContent = `模型：${j.model || '—'} · ${new Date().toLocaleTimeString('en-US',{hour12:false})}`;
+    // v5.16：「數據時間」= 呢次攞GEX/現價嗰一刻bridge server端嘅
+    // 時間戳（d.ts，epoch秒），「分析生成」= AI回覆返嚟嗰一刻，兩者
+    // 理應只相差幾秒（fetch+分析耗時），一律用fmtHKT()標註做HKT，
+    // 唔會再出現UI/AI分析各自顯示唔同時刻價位嘅錯位。
+    const dataTimeHKT = d.ts ? fmtHKT(new Date(d.ts*1000)) : '—';
+    const genTimeHKT  = fmtHKT(new Date());
+    meta.textContent = `模型：${j.model || '—'} · 數據時間 ${dataTimeHKT} HKT · 分析生成 ${genTimeHKT} HKT`;
   } catch(e) {
     body.innerHTML = `<span class="err-msg">⚠ AI分析失敗：${e.message}</span><br><span style="font-size:10px;color:var(--muted)">確認futu_bridge_v2.py已填OPENROUTER_API_KEY並運行緊</span>`;
   }
