@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Wall Street Breakfast Podcast: Rocket Lab Gains Altitude](https://finnhub.io/api/news?id=0409bf98a4e157ae2f1d62bc2eb6840f104e18efb858b0bf66051b1206f4f1f5)**  
+*SeekingAlpha · 6h前*  
+Rocket Lab just cleared a key milestone in a $143M space contract. A war-driven motor oil shortage. Colombia wants a tariff timeout.
+
 - **[Rocket Lab: Not Priced For Launch Delays](https://finnhub.io/api/news?id=0de3032e27f91d3c76a2d059264f4a577f0f1ecc521536bc1936a3c3e673985f)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Rocket Lab has a strong backlog and new contracts, but Neutron delays, Iridium acquisition dilution, and a 50x sales valuation raise risk. Click to know more.
 
 - **[Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More](https://finnhub.io/api/news?id=80a4ff54930a1eea63dea0ec7e39c7509a9575579cacc01386fedde5b9601b2f)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 AI spending continues reshaping technology as Nvidia, AMD, Cisco, Intel and semiconductor companies announce new investments, partnerships and infrastructure in…
-
-- **[Rocket Lab: Neutron Is Becoming A Real Growth Driver](https://finnhub.io/api/news?id=6398147da9bb062f206e34b3f0d0900566301ed95ce8cae8fce203dbe50ac640)**  
-*SeekingAlpha · 1d前*  
-Rocket Lab (RKLB) stock update: reiterated Buy with $209 price target after record Q2 2026 revenue, backlog >90 launches & $437M contracts. See more here.
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab (RKLB) stock update: reiterated Buy with $209 price target after reco
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 21:04 HKT*
