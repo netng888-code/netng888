@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$417.82** |
-| 今日變動 | ▲ $1.77　(+0.43%) |
+| 現價 | **$392.99** |
+| 今日變動 | ▼ $24.83　(-5.94%) |
 | 持倉數量 | 13 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▲ $510　(▲10.4%) |
+| 未實現盈虧 | ▲ $187　(▲3.8%) |
 
 ---
 
@@ -20,26 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $404.21 | — |
-| Put Wall（支撐） | $410.00 | -1.9% |
-| Call Wall（阻力） | $420.00 | +0.5% |
+| Gamma Flip | $395.82 | — |
+| Put Wall（支撐） | $380.00 | -3.3% |
+| Call Wall（阻力） | $410.00 | +4.3% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Broadcom (NASDAQ:AVGO) Combines Strong Growth Fundamentals with a Bull Flag Technical Setup](https://finnhub.io/api/news?id=8fb4adfa4e625756eb0ecefb76a8a88ede0f943009c97f6de0894ef2e112d0c6)**  
-*ChartMill · 1h前*  
-Broadcom (AVGO) combines top growth ratings with a bull flag setup, strong profitability, and accelerating EPS/revenue—worth watching for a breakout.
+- **[Broadcom: VMware-Driven Sell-Off Is A Buying Opportunity](https://finnhub.io/api/news?id=3633dd624fc71e6850a1895cf8cc637613891fcc1f03b8b9e866f84934244b5a)**  
+*SeekingAlpha · 18h前*  
+Broadcom outlook: AI semis now ~50% of revenue, 2027 AI rev target $100B. Click for more on AVGO stock.
 
-- **[Prediction: 2 Unstoppable Artificial Intelligence (AI) Hardware Leaders That Will Join Alphabet in the $4 Trillion Club by 2028](https://finnhub.io/api/news?id=651bbfd3451869d4f7a3b810e72b44c2a3424590fefaf032c257e5250b800deb)**  
-*Yahoo · 4h前*  
-Broadcom and Taiwan Semiconductor have a lot of work to do to join the $4 trillion market cap club.
+- **[How To Invest $100,000 In A Retiree's SWAN Income Portfolio](https://finnhub.io/api/news?id=378bd32677ead84815eb5c03e6e3830b56b7b1e398114ef6ed1b456b3a5bcb95)**  
+*SeekingAlpha · 1d前*  
+A SWAN income portfolio aims for consistent income, growth, and lower volatility through diversification and strategic planning. Read how to build one here.
 
-- **[Broadcom: XPU Growth Trajectory Underestimated, Stock A Bargain](https://finnhub.io/api/news?id=a9c46644e09772e1017bc7a5712d8bb34100b45c56d70816faaee72ccc1458dd)**  
-*SeekingAlpha · 7h前*
+- **[Stanley Druckenmiller Bets Big on AMZN, AMD — Dumps AVGO, INTC and MU in Q2](https://finnhub.io/api/news?id=b8a734e5a7a330b90fdad499ca20be27bb422d6bdd9a4ce4f72de1a0c8d1f92a)**  
+*Benzinga · 1d前*  
+Stanely Druckenmiller rotated into Amazon, AMD and AI infrastructure while dumping Broadcom, Intel and Micron.
 
 ---
 
@@ -47,7 +48,7 @@ Broadcom and Taiwan Semiconductor have a lot of work to do to join the $4 trilli
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-14 | 監控 | $417.82 | — | 自動更新 |
+| 2026-08-17 | 監控 | $392.99 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ Broadcom and Taiwan Semiconductor have a lot of work to do to join the $4 trilli
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
