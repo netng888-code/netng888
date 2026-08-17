@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[Nokia: The Optical Story Is Possible And Not Certain](https://finnhub.io/api/news?id=2ece9e19304c63a727c4caf95bc04c1bf53ed01fab9a05a486a4532979833615)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 Nokia (NOK) stock rated Hold with $8.50â$11.30 target; AI infrastructure upside vs valuation and licensing risks.
 
 - **[Nokia: Rebound After The Purge, But Free Cash Flow Doesn't Justify A Buy Yet](https://finnhub.io/api/news?id=4fe5d29fe91e905cf5c470de57fc4d298ea9152db063c9deea088294ebcc251e)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 Nokia surged on AI optimism but sold off sharply; now it's up 67% YTD. Click here to see why NOK stock is a Hold.
 
 ---
@@ -55,4 +55,4 @@ Nokia surged on AI optimism but sold off sharply; now it's up 67% YTD. Click her
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 21:04 HKT*
