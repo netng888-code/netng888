@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$222.18** |
-| 今日變動 | ▲ $5.10　(+2.35%) |
+| 現價 | **$222.02** |
+| 今日變動 | ▼ $0.16　(-0.07%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $351　(▼13.7%) |
+| 未實現盈虧 | ▼ $353　(▼13.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $208.73 | — |
-| Put Wall（支撐） | $200.00 | -10.0% |
-| Call Wall（阻力） | $240.00 | +8.0% |
+| Gamma Flip | $208.91 | — |
+| Put Wall（支撐） | $200.00 | -9.9% |
+| Call Wall（阻力） | $250.00 | +12.6% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Marvell (MRVL) Stock Trades At A Premium After A 290% Run](https://finnhub.io/api/news?id=23c84c77911a59cf8db830403d9eab2efef15851288338abb3303c69008dedc1)**  
-*Yahoo · 13h前*  
-Marvell Technology stock has delivered a very strong 289.6% return over the past three years, yet current valuation checks suggest the shares are priced at a pr…
+- **[What Moved Markets This Week](https://finnhub.io/api/news?id=a5a4dcd16687a68ff6555e7af6d47067d3d338031982fd23c90f5451b7d2b420)**  
+*SeekingAlpha · 1d前*
 
-- **[Quantum-Si Incorporated (QSI) Reports Q2 Loss, Tops Revenue Estimates](https://finnhub.io/api/news?id=d8b66ed545551750bc75448944d9e4caccaf4074ee388708f249dd0992565bdc)**  
-*Yahoo · 14h前*  
-QuantumSi Incorporated (QSI) delivered earnings and revenue surprises of +15.39% and +4.24%, respectively, for the quarter ended June 2026. Do the numbers hold …
+- **[5 AI Stocks with Strong Growth to Buy on the Rebound](https://finnhub.io/api/news?id=4252eb004cca9c955c0a8eeb1d5e08b0fff03da001c9ab6b3266d8a679159ba2)**  
+*Benzinga · 2d前*  
+Markets have been choppy over the last few weeks, but the AI rally appears to be building momentum again as several major stocks bounce off key technical levels…
 
-- **[Reddit Shares Surge on S&P 500 Inclusion Later This Month](https://finnhub.io/api/news?id=df74461fa32777da7648704a62412957f1c8b31eefed8a37f41062c37ae03de1)**  
-*Yahoo · 14h前*  
-Reddit Inc. will join the S&P 500 next week as part of an off-cycle change, S&P Dow Jones Indices said Thursday, sending the social networking platform’s shares…
+- **[Why Is Reddit Stock Surging on Friday?](https://finnhub.io/api/news?id=d4ee2c2e93eab4dbe1670d9c048c7344ea80c8a31108d627b687cdaad62a8935)**  
+*Benzinga · 2d前*  
+Reddit Inc. (NYSE: RDDT) stock rises after S&amp;P Dow Jones Indices announces the company will replace AvalonBay Communities Inc. (NYSE: AVB) in the S&amp;P 50…
 
 ---
 
@@ -48,7 +47,7 @@ Reddit Inc. will join the S&P 500 next week as part of an off-cycle change, S&P 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-14 | 監控 | $222.18 | — | 自動更新 |
+| 2026-08-17 | 監控 | $222.02 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ Reddit Inc. will join the S&P 500 next week as part of an off-cycle change, S&P 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
