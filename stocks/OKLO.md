@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$46.45** |
-| 今日變動 | ▲ $1.32　(+2.92%) |
+| 現價 | **$44.38** |
+| 今日變動 | ▼ $2.07　(-4.46%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $27.744 |
-| 未實現盈虧 | ▲ $561　(▲67.4%) |
+| 未實現盈虧 | ▲ $499　(▲60.0%) |
 
 ---
 
@@ -20,23 +20,17 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $45.46 | — |
-| Put Wall（支撐） | $45.00 | -3.1% |
-| Call Wall（阻力） | $50.00 | +7.6% |
+| Gamma Flip | $48.00 | — |
+| Put Wall（支撐） | $40.00 | -9.9% |
+| Call Wall（阻力） | $50.00 | +12.7% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Centrus Energy: Uncle Sam Won't Let His Centrifuge Fail](https://finnhub.io/api/news?id=1bb8d8a2dd6dc64de3eeaf2b0fc988c7ef322187125ca106674aec5fcda2a253)**  
-*SeekingAlpha · 20h前*  
-Centrus Energy is rated a Strong Buy, driven by its critical role in the U.S. advanced nuclear renaissance and HALEU production. Read more on LEU stock here.
-
-- **[Unlocking $50 Billion Across The Nuclear Value Chain](https://finnhub.io/api/news?id=75e4a76bc35ff94bb64049334007da7f97984db52e1f1c48747ac7339b3339c0)**  
-*SeekingAlpha · 3d前*  
-The DOE has selected five initial contenders after reviewing 28 applications from 26 states. The five states have signed memorandums of understanding to discuss…
+- 暫無新聞
 
 ---
 
@@ -44,7 +38,7 @@ The DOE has selected five initial contenders after reviewing 28 applications fro
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-14 | 監控 | $46.45 | — | 自動更新 |
+| 2026-08-17 | 監控 | $44.38 | — | 自動更新 |
 
 ---
 
@@ -55,4 +49,4 @@ The DOE has selected five initial contenders after reviewing 28 applications fro
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
