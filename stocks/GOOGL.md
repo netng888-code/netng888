@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-17 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,15 @@
 
 ## 📰 最新新聞
 
+- **[GDV: Deep Discount And Stable Monthly Payout Make This Attractive](https://finnhub.io/api/news?id=e775368ce28c9ec70d0165cccadd07b521e48a057697289840be033cdd754c2e)**  
+*SeekingAlpha · 5h前*
+
 - **[Tracking Bill Ackman's Pershing Square 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=8f0c6af6146ce467fdc7d871d935aa55516a90bcc60cdc15ed864b80f4e2b14c)**  
-*SeekingAlpha · 4h前*  
+*SeekingAlpha · 16h前*  
 Pershing Square's Q2 2026 13F portfolio surged to $19.47B, expanding from 10 to 14 positions. Check out the portfolio here.
 
 - **[Projected Robotaxi (Autonomous Ride-Hailing) Growth By Company And Why I Rate Waymo A Buy](https://finnhub.io/api/news?id=39c381aa99b71324087353d3a5efa3591c1f04980b6a21e424e08c758959c44d)**  
-*SeekingAlpha · 15h前*
-
-- **[Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More](https://finnhub.io/api/news?id=80a4ff54930a1eea63dea0ec7e39c7509a9575579cacc01386fedde5b9601b2f)**  
-*Benzinga · 1d前*  
-AI spending continues reshaping technology as Nvidia, AMD, Cisco, Intel and semiconductor companies announce new investments, partnerships and infrastructure in…
+*SeekingAlpha · 1d前*
 
 ---
 
@@ -58,4 +57,4 @@ AI spending continues reshaping technology as Nvidia, AMD, Cisco, Intel and semi
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 21:03 HKT*
