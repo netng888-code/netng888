@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Broadcom: VMware-Driven Sell-Off Is A Buying Opportunity](https://finnhub.io/api/news?id=3633dd624fc71e6850a1895cf8cc637613891fcc1f03b8b9e866f84934244b5a)**  
-*SeekingAlpha · 18h前*  
+*SeekingAlpha · 1d前*  
 Broadcom outlook: AI semis now ~50% of revenue, 2027 AI rev target $100B. Click for more on AVGO stock.
 
 - **[How To Invest $100,000 In A Retiree's SWAN Income Portfolio](https://finnhub.io/api/news?id=378bd32677ead84815eb5c03e6e3830b56b7b1e398114ef6ed1b456b3a5bcb95)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 A SWAN income portfolio aims for consistent income, growth, and lower volatility through diversification and strategic planning. Read how to build one here.
 
 - **[Stanley Druckenmiller Bets Big on AMZN, AMD — Dumps AVGO, INTC and MU in Q2](https://finnhub.io/api/news?id=b8a734e5a7a330b90fdad499ca20be27bb422d6bdd9a4ce4f72de1a0c8d1f92a)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 Stanely Druckenmiller rotated into Amazon, AMD and AI infrastructure while dumping Broadcom, Intel and Micron.
 
 ---
@@ -59,4 +59,4 @@ Stanely Druckenmiller rotated into Amazon, AMD and AI infrastructure while dumpi
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 21:03 HKT*
