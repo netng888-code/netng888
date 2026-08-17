@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$179.01** |
-| 今日變動 | ▲ $7.97　(+4.66%) |
+| 現價 | **$174.04** |
+| 今日變動 | ▼ $4.97　(-2.78%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $620　(▲40.6%) |
+| 未實現盈虧 | ▲ $561　(▲36.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $146.24 | — |
-| Put Wall（支撐） | $170.00 | -5.0% |
-| Call Wall（阻力） | $180.00 | +0.6% |
+| Gamma Flip | $142.35 | — |
+| Put Wall（支撐） | $170.00 | -2.3% |
+| Call Wall（阻力） | $180.00 | +3.4% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir: The Bears Are Running Out Of Arguments](https://finnhub.io/api/news?id=a06ac29afd583ec34368562cc142d703883fbb808d6bb801af8619e518abcd1f)**  
-*SeekingAlpha · 5h前*  
-Palantir (PLTR) Q2: 93% revenue growth, 62% operating margin and record $2.13B pipeline despite 54x sales valuation.
+- **[Palantir Technologies Likely To Plunge After Its Historic Run Higher](https://finnhub.io/api/news?id=538daeaf8042f7bf3dff20d57db741a924fd3c3a05a5bc6cb417e59c1c1fe6ec)**  
+*SeekingAlpha · 1d前*  
+Palantir (PLTR) stock update: revenue and US commercial sales surge as 2026 guidance rises, but valuation looks extremeâsee why itâs a strong sell.
 
-- **[My Near-Perfect $1 Million Retirement Portfolio](https://finnhub.io/api/news?id=5e3541fccf1078926f97612ed0ac0f516a8515190945e8f6003a3f2f27e07619)**  
-*SeekingAlpha · 5h前*  
-Seven-bucket retirement portfolio blueprint with specific picks for reliable income, attractive yield, and sustainable dividend growthâlearn the strategy...
+- **[Anthropic’s Revenue Could Soar From $47 Billion to $200 Billion by 2028 as Bankers Build a Massive AI Valuation Case Ahead of Its IPO: Report](https://finnhub.io/api/news?id=ae21f0e7b83fd846246f23caa957b952041e1d1b91ff3cf15229b66d180fbae5)**  
+*Benzinga · 2d前*  
+Anthropic is reportedly projecting up to $200 billion in 2028 revenue as bankers weigh a potential $2 trillion IPO valuation.
 
-- **[Michael Burry Loads Up On QQQ Puts, Boosts MU Short As He Braces For ‘Larger Fall’ — Here’s What He Did To NVDA, PLTR And TSLA](https://finnhub.io/api/news?id=65330279aa584ddf1e94bf6d68f335b212b9fe35d33379aa257ce70ca1015094)**  
-*Yahoo · 16h前*  
-‘The Big Short’ investor is cutting overall exposure and shifting his portfolio as a recent market rally pushes his short book into the red.
+- **[Peter Thiel and Founders Fund Report 5.5% Stake In SpaceX, Holding 427.3M Shares](https://finnhub.io/api/news?id=2decf0eee32e5bfa4743c621fe15bcd9eabbfed9a0333105296ade389dcd6d5c)**  
+*Benzinga · 2d前*  
+- SEC 13G Filing
 
 ---
 
@@ -48,7 +48,7 @@ Seven-bucket retirement portfolio blueprint with specific picks for reliable inc
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-14 | 監控 | $179.01 | — | 自動更新 |
+| 2026-08-17 | 監控 | $174.04 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Seven-bucket retirement portfolio blueprint with specific picks for reliable inc
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-14 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
