@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-17 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[Semiconductor Equipment Rally Tests Its Breadth as High-Growth Names Surge Ahead of ASML, Lam Earnings](https://finnhub.io/api/news?id=7660d19059ee239ed9b7119169c3d1c13b42b4f720f65c8def0c9c5b0a91e9ba)**  
-*ChartMill · 2d前*  
+*ChartMill · 3d前*  
 Semiconductor equipment stocks split: mega-cap leaders consolidate ahead of earnings while high-growth names surge. Will the rally broaden?
 
 - **[Teradyne (NASDAQ:TER) Shows Accelerating Growth and Strong Fundamentals, Passing All Eight Key Screens](https://finnhub.io/api/news?id=9e6ff1b40bf5bb9f412c4eebbe55e44ffa98dee5c07a408fe94041713781933d)**  
-*ChartMill · 2d前*  
+*ChartMill · 3d前*  
 Teradyne passes all 8 of Navellier's growth rules, with surging earnings, sales, cash flow, and high ROE—making it a standout growth stock.
 
 ---
@@ -55,4 +55,4 @@ Teradyne passes all 8 of Navellier's growth rules, with surging earnings, sales,
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-17 21:04 HKT*
