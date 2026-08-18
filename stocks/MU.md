@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-18 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $902.17 | — |
-| Put Wall（支撐） | $1,000.00 | -1.2% |
-| Call Wall（阻力） | $1,100.00 | +8.7% |
+| Put Wall（支撐） | $900.00 | -11.0% |
+| Call Wall（阻力） | $1,000.00 | +-1.2% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[These S&P500 stocks are the most active in today's session](https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28)**  
-*ChartMill · 6h前*  
-Looking for the most active stocks in the S&P500 index on Monday? Dive into today's session and discover the stocks that are dominating the trading activity and…
+- **[Chip Rally Broadens: AI Infrastructure Supply-Chain Names Are Leading the Market](https://finnhub.io/api/news?id=8b464cc9ba12dc7fc48f2f4bcd41991c3464a7427f3e8ec3c64de7216b8f61cc)**  
+*ChartMill · 0h前*  
+Semiconductor momentum shifts to supply chain: memory, test equipment, wafer-fab, custom silicon, optical. Stocks: MU, TER, LRCX, MRVL, COHR.
 
-- **[These S&P500 stocks are moving in today's session](https://finnhub.io/api/news?id=982102dcb4a89920288ff6d002b987dc6c7f3b6fc5c8d224bc8ff8e9265d9af4)**  
-*ChartMill · 8h前*  
-Curious about the top performers within the S&P500 index in the middle of the day on Monday? Dive into the list of today's session's top gainers and losers for …
+- **[SPMO: Micron Rewrites The Fund's Valuation Story](https://finnhub.io/api/news?id=3fe7f431cc0d83e67abf6a28c7f20f823ab358dc1341d76d8da739dbfdac4f4f)**  
+*SeekingAlpha · 4h前*  
+Micron's weight drags SPMO's portfolio multiple down and pulls the earnings growth line up. Read why I'm maintaining my buy on SPMO ETF.
 
-- **[Nvidia Is the Best S&P 500 Stock of the Past 10, 15, 20 Years — but 4 Stocks Beat It Over the Past 5 Years](https://finnhub.io/api/news?id=ce40230fb606f71ab2305d7395b5b280c15c4d8f82d10aa69714bb9bae8aa6b5)**  
-*Benzinga · 9h前*  
-Nvidia stock is the top stock gainer over the last 10, 15 and 20 years. Here&#39;s who beats the stock in five-year gains.
+- **[Iran Risk and Oil Above $90 Snap the Rally as Memory Chips Do the Heavy Lifting and Reddit Wobbles Into the S&P 500](https://finnhub.io/api/news?id=6d945599b2c038e8f2b97653fb148f3784214b19ac8571a541be3ddb37d1dc68)**  
+*ChartMill · 5h前*  
+Trump's threat against Oman and oil back above ninety dollars pulled Wall Street modestly lower on Monday, but a violent memory-chip bid limited the damage. Red…
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia stock is the top stock gainer over the last 10, 15 and 20 years. Here&#39
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-18 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 21:03 HKT*
