@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Which stocks are most active on Monday?](https://finnhub.io/api/news?id=8a3c3c0e072895595e9b5bf18355564f058eae0f28e99c0ac22ba158d9a44567)**  
-*ChartMill · 7h前*  
+*ChartMill · 19h前*  
 Monday's session is buzzing with activity. Check out the stocks that are attracting the most attention and driving market activity!
 
 ---
@@ -51,4 +51,4 @@ Monday's session is buzzing with activity. Check out the stocks that are attract
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 21:04 HKT*
