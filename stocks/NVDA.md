@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Discover which dow jones stocks are making waves on Monday.](https://finnhub.io/api/news?id=ec0668889a4c1c71892f8037054930e2b4ad337fa2c786bae0c8ac483da2e41c)**  
+- **[BST: This Income Machine Can Still Work After Reaching $50](https://finnhub.io/api/news?id=b5c380b6b2e2927db6bc86716c92f45dc841432586987086e79ae1897f03d2c6)**  
+*SeekingAlpha · 4h前*  
+Explore BlackRock Science & Technology Trust (BST): AI exposure to Anthropic/Databricks, NAV discount, 10.6%+ income and growth tailwindsâread now.
+
+- **[AI Is Not A Bubble: 4 Income Ideas To Ride The Wave](https://finnhub.io/api/news?id=77453322fe1810b5de21ec7eeeb1b8a7a5d439d60f9c8386cc5c4778857532e8)**  
+*SeekingAlpha · 4h前*  
+I remain bullish on AI-driven growth, favoring a diversified, income-oriented portfolio to capture sustained sector upside while mitigating bubble risks.
+
+- **[Iran Risk and Oil Above $90 Snap the Rally as Memory Chips Do the Heavy Lifting and Reddit Wobbles Into the S&P 500](https://finnhub.io/api/news?id=6d945599b2c038e8f2b97653fb148f3784214b19ac8571a541be3ddb37d1dc68)**  
 *ChartMill · 5h前*  
-Let's have a look at the top dow jones gainers and losers one hour before the close of the markets of today's session.
-
-- **[These S&P500 stocks are the most active in today's session](https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28)**  
-*ChartMill · 6h前*  
-Looking for the most active stocks in the S&P500 index on Monday? Dive into today's session and discover the stocks that are dominating the trading activity and…
-
-- **[Which stocks are most active on Monday?](https://finnhub.io/api/news?id=8a3c3c0e072895595e9b5bf18355564f058eae0f28e99c0ac22ba158d9a44567)**  
-*ChartMill · 7h前*  
-Monday's session is buzzing with activity. Check out the stocks that are attracting the most attention and driving market activity!
+Trump's threat against Oman and oil back above ninety dollars pulled Wall Street modestly lower on Monday, but a violent memory-chip bid limited the damage. Red…
 
 ---
 
@@ -59,4 +59,4 @@ Monday's session is buzzing with activity. Check out the stocks that are attract
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 21:03 HKT*
