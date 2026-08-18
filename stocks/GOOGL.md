@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$345.90** |
-| 今日變動 | ▼ $0.46　(-0.13%) |
+| 現價 | **$344.00** |
+| 今日變動 | ▼ $1.90　(-0.55%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,010　(▲93.9%) |
+| 未實現盈虧 | ▲ $1,987　(▲92.8%) |
 
 ---
 
@@ -20,25 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $340.37 | — |
-| Put Wall（支撐） | $340.00 | -1.7% |
-| Call Wall（阻力） | $350.00 | +1.2% |
+| Gamma Flip | $339.81 | — |
+| Put Wall（支撐） | $340.00 | -1.2% |
+| Call Wall（阻力） | $350.00 | +1.7% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[GDV: Deep Discount And Stable Monthly Payout Make This Attractive](https://finnhub.io/api/news?id=e775368ce28c9ec70d0165cccadd07b521e48a057697289840be033cdd754c2e)**  
-*SeekingAlpha · 5h前*
+- **[Tracking Seth Klarman's Baupost Group Holdings - Q2 2026 Update](https://finnhub.io/api/news?id=adf36bd6d8d33f0eda81a3ffe443bb9cac2a47726dfa0107317ec0ca23d0c555)**  
+*SeekingAlpha · 5h前*  
+Baupostâs Q2 2026 13F: AMZN becomes top holding as stakes rise in GOOGL and others, with major sells too.
 
-- **[Tracking Bill Ackman's Pershing Square 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=8f0c6af6146ce467fdc7d871d935aa55516a90bcc60cdc15ed864b80f4e2b14c)**  
-*SeekingAlpha · 16h前*  
-Pershing Square's Q2 2026 13F portfolio surged to $19.47B, expanding from 10 to 14 positions. Check out the portfolio here.
+- **[Alphabet: The Cheapest Mega-Cap Tech Company](https://finnhub.io/api/news?id=38cb145ab5f0a8c07e992eae1a30182b3eab15e70caf7db2ae1da18633327153)**  
+*SeekingAlpha · 8h前*  
+Alphabet analysis: Cloud growth surges, CapEx drives near-term negative FCF, but valuation stays attractive. Click for more on GOOGL stock.
 
-- **[Projected Robotaxi (Autonomous Ride-Hailing) Growth By Company And Why I Rate Waymo A Buy](https://finnhub.io/api/news?id=39c381aa99b71324087353d3a5efa3591c1f04980b6a21e424e08c758959c44d)**  
-*SeekingAlpha · 1d前*
+- **[Don't Expect Massive Upside From Apple At This Entry Point](https://finnhub.io/api/news?id=8a31c7a08e8eb59bf54f4fcc11667cdc1e6604b3ab03451a11f895bc441b611d)**  
+*SeekingAlpha · 8h前*  
+Apple Inc. rated Hold: premium valuation, slowing growth, and neutral technicals. Click for this AAPL update and see whether it is the right stock for you.
 
 ---
 
@@ -46,7 +48,7 @@ Pershing Square's Q2 2026 13F portfolio surged to $19.47B, expanding from 10 to 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-17 | 監控 | $345.90 | — | 自動更新 |
+| 2026-08-18 | 監控 | $344.00 | — | 自動更新 |
 
 ---
 
@@ -57,4 +59,4 @@ Pershing Square's Q2 2026 13F portfolio surged to $19.47B, expanding from 10 to 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 09:03 HKT*
