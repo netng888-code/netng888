@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Which S&P500 stocks are moving on Monday?](https://finnhub.io/api/news?id=f3b05a15d3587a3e698d248c4e9bedeb3e073fabc491252708026a8fe6182d12)**  
+- **[Get insights into the top movers in the S&P500 index of Tuesday's pre-market session.](https://finnhub.io/api/news?id=3936e512a9b5c4ee4d76db468d0fde3622ff0d21217400bb9fb34ea96ffe8977)**  
+*ChartMill · 0h前*  
+Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements.
+
+- **[Chip Rally Broadens: AI Infrastructure Supply-Chain Names Are Leading the Market](https://finnhub.io/api/news?id=8b464cc9ba12dc7fc48f2f4bcd41991c3464a7427f3e8ec3c64de7216b8f61cc)**  
+*ChartMill · 0h前*  
+Semiconductor momentum shifts to supply chain: memory, test equipment, wafer-fab, custom silicon, optical. Stocks: MU, TER, LRCX, MRVL, COHR.
+
+- **[Iran Risk and Oil Above $90 Snap the Rally as Memory Chips Do the Heavy Lifting and Reddit Wobbles Into the S&P 500](https://finnhub.io/api/news?id=6d945599b2c038e8f2b97653fb148f3784214b19ac8571a541be3ddb37d1dc68)**  
 *ChartMill · 5h前*  
-Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Monday.
-
-- **[Broadcom Looks Undervalued With 50% Upside](https://finnhub.io/api/news?id=99874d8148c4b9d33eb91e656a1e156beca9d0d7e46fbb11c6581690f70eecb3)**  
-*SeekingAlpha · 6h前*  
-Broadcom Inc. rated Strong Buy with $588 target and 50% upside on AI demand. Click for this AVGO update and see why I see significant upside.
-
-- **[These S&P500 stocks are moving in today's session](https://finnhub.io/api/news?id=982102dcb4a89920288ff6d002b987dc6c7f3b6fc5c8d224bc8ff8e9265d9af4)**  
-*ChartMill · 8h前*  
-Curious about the top performers within the S&P500 index in the middle of the day on Monday? Dive into the list of today's session's top gainers and losers for …
+Trump's threat against Oman and oil back above ninety dollars pulled Wall Street modestly lower on Monday, but a violent memory-chip bid limited the damage. Red…
 
 ---
 
@@ -59,4 +59,4 @@ Curious about the top performers within the S&P500 index in the middle of the da
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 21:04 HKT*
