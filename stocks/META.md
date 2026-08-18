@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom Looks Undervalued With 50% Upside](https://finnhub.io/api/news?id=99874d8148c4b9d33eb91e656a1e156beca9d0d7e46fbb11c6581690f70eecb3)**  
+- **[The Real Reason Markets Are Rising Despite A Bearish Macro Backdrop](https://finnhub.io/api/news?id=712b058a64e071236348ee01c1d817e2e3629a8f87a7f29d55eaca50323c87d1)**  
 *SeekingAlpha · 6h前*  
+Equity markets hit new highs despite inflation, geopolitics & oil shocks. Learn whatâs fueling the rallyâearnings, credit strength & structural buyers.
+
+- **[Broadcom Looks Undervalued With 50% Upside](https://finnhub.io/api/news?id=99874d8148c4b9d33eb91e656a1e156beca9d0d7e46fbb11c6581690f70eecb3)**  
+*SeekingAlpha · 18h前*  
 Broadcom Inc. rated Strong Buy with $588 target and 50% upside on AI demand. Click for this AVGO update and see why I see significant upside.
 
 - **[QUICK SPARK: OpenAI, Anthropic and SpaceX Fuel Harbor’s New AI ETF Strategy Beyond Big Tech](https://finnhub.io/api/news?id=9af41b125a7fd5571185fce064c8fce9dccc8ce58ae683fabf3def63095624e1)**  
-*Benzinga · 9h前*  
+*Benzinga · 21h前*  
 Harbor’s AI ETFs target the ecosystems powering OpenAI, Anthropic and SpaceX, expanding AI exposure beyond Nvidia and other tech stocks.
-
-- **[Apple Memory Headwinds Are Reason To Pause (Rating Downgrade)](https://finnhub.io/api/news?id=c24b01b3ad196f30a2d939466dd1d4149bfc40127392e077aa0b39895d08c5e9)**  
-*SeekingAlpha · 9h前*  
-Apple faces significant headwinds from rising memory prices, supply chain disruptions, and an over-reliance on iPhone sales. Read more on AAPL stock here.
 
 ---
 
@@ -59,4 +59,4 @@ Apple faces significant headwinds from rising memory prices, supply chain disrup
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 21:04 HKT*
