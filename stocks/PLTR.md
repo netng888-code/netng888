@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,12 @@
 
 ## 📰 最新新聞
 
+- **[Palantir Technologies (NASDAQ:PLTR) Demonstrates High-Growth Leadership and Momentum](https://finnhub.io/api/news?id=011fffb36fad338dbf51292c445a7b1d25536b620f01a48e77fcaa32531e8ec2)**  
+*ChartMill · 1h前*  
+Palantir fits CANSLIM criteria with explosive earnings, strong sales growth, solid technicals, and no debt—but valuation and volatility remain key risks.
+
 - **[7 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=6b3d9f6d0b35974ecf161bbdd4062b34a79f2d665e4b337536367549b0ad7112)**  
-*Benzinga · 11h前*  
+*Benzinga · 23h前*  
 This whale alert can help traders discover the next big trading opportunities.
 Whales are entities with large sums of money and we track their transactions here…
 
@@ -56,4 +60,4 @@ Palantir (PLTR) stock update: revenue and US commercial sales surge as 2026 guid
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 21:04 HKT*
