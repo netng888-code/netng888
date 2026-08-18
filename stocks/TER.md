@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$418.79** |
-| 今日變動 | ▲ $8.27　(+2.01%) |
+| 現價 | **$443.14** |
+| 今日變動 | ▲ $24.35　(+5.81%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,634　(▲355.2%) |
+| 未實現盈虧 | ▲ $1,756　(▲381.7%) |
 
 ---
 
@@ -20,23 +20,22 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $379.86 | — |
-| Put Wall（支撐） | $395.00 | -5.7% |
-| Call Wall（阻力） | $430.00 | +2.7% |
+| Gamma Flip | $383.06 | — |
+| Put Wall（支撐） | $395.00 | -10.9% |
+| Call Wall（阻力） | $470.00 | +6.1% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Semiconductor Equipment Rally Tests Its Breadth as High-Growth Names Surge Ahead of ASML, Lam Earnings](https://finnhub.io/api/news?id=7660d19059ee239ed9b7119169c3d1c13b42b4f720f65c8def0c9c5b0a91e9ba)**  
-*ChartMill · 3d前*  
-Semiconductor equipment stocks split: mega-cap leaders consolidate ahead of earnings while high-growth names surge. Will the rally broaden?
+- **[Which S&P500 stocks are moving on Monday?](https://finnhub.io/api/news?id=f3b05a15d3587a3e698d248c4e9bedeb3e073fabc491252708026a8fe6182d12)**  
+*ChartMill · 5h前*  
+Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Monday.
 
-- **[Teradyne (NASDAQ:TER) Shows Accelerating Growth and Strong Fundamentals, Passing All Eight Key Screens](https://finnhub.io/api/news?id=9e6ff1b40bf5bb9f412c4eebbe55e44ffa98dee5c07a408fe94041713781933d)**  
-*ChartMill · 3d前*  
-Teradyne passes all 8 of Navellier's growth rules, with surging earnings, sales, cash flow, and high ROE—making it a standout growth stock.
+- **[Monolithic Power Systems shares are trading higher after Stifel maintained its Buy rating on the stock and raised its price target from $1300 to $1500.](https://finnhub.io/api/news?id=3b57b0c7dd7514ef8c1daa795ed3eec0592a2b5fd811bc825795dfea389a2418)**  
+*Benzinga · 10h前*
 
 ---
 
@@ -44,7 +43,7 @@ Teradyne passes all 8 of Navellier's growth rules, with surging earnings, sales,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-17 | 監控 | $418.79 | — | 自動更新 |
+| 2026-08-18 | 監控 | $443.14 | — | 自動更新 |
 
 ---
 
@@ -55,4 +54,4 @@ Teradyne passes all 8 of Navellier's growth rules, with surging earnings, sales,
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 09:04 HKT*
