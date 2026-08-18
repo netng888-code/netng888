@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$392.99** |
-| 今日變動 | ▼ $24.83　(-5.94%) |
+| 現價 | **$392.43** |
+| 今日變動 | ▼ $0.56　(-0.14%) |
 | 持倉數量 | 13 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▲ $187　(▲3.8%) |
+| 未實現盈虧 | ▲ $180　(▲3.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $395.82 | — |
-| Put Wall（支撐） | $380.00 | -3.3% |
-| Call Wall（阻力） | $410.00 | +4.3% |
+| Gamma Flip | $390.29 | — |
+| Put Wall（支撐） | $380.00 | -3.2% |
+| Call Wall（阻力） | $400.00 | +1.9% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Broadcom: VMware-Driven Sell-Off Is A Buying Opportunity](https://finnhub.io/api/news?id=3633dd624fc71e6850a1895cf8cc637613891fcc1f03b8b9e866f84934244b5a)**  
-*SeekingAlpha · 1d前*  
-Broadcom outlook: AI semis now ~50% of revenue, 2027 AI rev target $100B. Click for more on AVGO stock.
+- **[Broadcom Looks Undervalued With 50% Upside](https://finnhub.io/api/news?id=99874d8148c4b9d33eb91e656a1e156beca9d0d7e46fbb11c6581690f70eecb3)**  
+*SeekingAlpha · 6h前*  
+Broadcom Inc. rated Strong Buy with $588 target and 50% upside on AI demand. Click for this AVGO update and see why I see significant upside.
 
-- **[How To Invest $100,000 In A Retiree's SWAN Income Portfolio](https://finnhub.io/api/news?id=378bd32677ead84815eb5c03e6e3830b56b7b1e398114ef6ed1b456b3a5bcb95)**  
-*SeekingAlpha · 2d前*  
-A SWAN income portfolio aims for consistent income, growth, and lower volatility through diversification and strategic planning. Read how to build one here.
+- **[Nvidia Is the Best S&P 500 Stock of the Past 10, 15, 20 Years — but 4 Stocks Beat It Over the Past 5 Years](https://finnhub.io/api/news?id=ce40230fb606f71ab2305d7395b5b280c15c4d8f82d10aa69714bb9bae8aa6b5)**  
+*Benzinga · 9h前*  
+Nvidia stock is the top stock gainer over the last 10, 15 and 20 years. Here&#39;s who beats the stock in five-year gains.
 
-- **[Stanley Druckenmiller Bets Big on AMZN, AMD — Dumps AVGO, INTC and MU in Q2](https://finnhub.io/api/news?id=b8a734e5a7a330b90fdad499ca20be27bb422d6bdd9a4ce4f72de1a0c8d1f92a)**  
-*Benzinga · 2d前*  
-Stanely Druckenmiller rotated into Amazon, AMD and AI infrastructure while dumping Broadcom, Intel and Micron.
+- **[Ray Dalio Ups Bet on SPY and IVV: Time to Buy the S&P 500?](https://finnhub.io/api/news?id=a130eb5ccc115937cfee96664a88dd3c404581ca5c3938b927a0689b973ddf50)**  
+*Benzinga · 9h前*  
+Ray Dalio boosted his SPY and IVV stakes by $6.2 billion. Here&#39;s what the move means for S&amp;P 500 valuations, technicals and the SPY vs. IVV debate.
 
 ---
 
@@ -48,7 +48,7 @@ Stanely Druckenmiller rotated into Amazon, AMD and AI infrastructure while dumpi
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-17 | 監控 | $392.99 | — | 自動更新 |
+| 2026-08-18 | 監控 | $392.43 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Stanely Druckenmiller rotated into Amazon, AMD and AI infrastructure while dumpi
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 09:03 HKT*
