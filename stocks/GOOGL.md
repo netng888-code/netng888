@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-18 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tracking Seth Klarman's Baupost Group Holdings - Q2 2026 Update](https://finnhub.io/api/news?id=adf36bd6d8d33f0eda81a3ffe443bb9cac2a47726dfa0107317ec0ca23d0c555)**  
-*SeekingAlpha · 5h前*  
-Baupostâs Q2 2026 13F: AMZN becomes top holding as stakes rise in GOOGL and others, with major sells too.
+- **[AI Is Not A Bubble: 4 Income Ideas To Ride The Wave](https://finnhub.io/api/news?id=77453322fe1810b5de21ec7eeeb1b8a7a5d439d60f9c8386cc5c4778857532e8)**  
+*SeekingAlpha · 4h前*  
+I remain bullish on AI-driven growth, favoring a diversified, income-oriented portfolio to capture sustained sector upside while mitigating bubble risks.
 
-- **[Alphabet: The Cheapest Mega-Cap Tech Company](https://finnhub.io/api/news?id=38cb145ab5f0a8c07e992eae1a30182b3eab15e70caf7db2ae1da18633327153)**  
-*SeekingAlpha · 8h前*  
-Alphabet analysis: Cloud growth surges, CapEx drives near-term negative FCF, but valuation stays attractive. Click for more on GOOGL stock.
+- **[Wall Street Breakfast Podcast: Return Of The Bond Vigilantes?](https://finnhub.io/api/news?id=06838baeacbd9974b30fcd7a4c7abc171bb609708d7abdc8abab2b1bd81236e4)**  
+*SeekingAlpha · 6h前*  
+The 30-year Treasury yield hits 2007 levels. Nasdaq plans 23-hour trading in December. Google buys Spirit Airlines data to train its AI.
 
-- **[Don't Expect Massive Upside From Apple At This Entry Point](https://finnhub.io/api/news?id=8a31c7a08e8eb59bf54f4fcc11667cdc1e6604b3ab03451a11f895bc441b611d)**  
-*SeekingAlpha · 8h前*  
-Apple Inc. rated Hold: premium valuation, slowing growth, and neutral technicals. Click for this AAPL update and see whether it is the right stock for you.
+- **[The Real Reason Markets Are Rising Despite A Bearish Macro Backdrop](https://finnhub.io/api/news?id=712b058a64e071236348ee01c1d817e2e3629a8f87a7f29d55eaca50323c87d1)**  
+*SeekingAlpha · 6h前*  
+Equity markets hit new highs despite inflation, geopolitics & oil shocks. Learn whatâs fueling the rallyâearnings, credit strength & structural buyers.
 
 ---
 
@@ -59,4 +59,4 @@ Apple Inc. rated Hold: premium valuation, slowing growth, and neutral technicals
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-18 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 21:03 HKT*
