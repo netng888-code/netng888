@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$589.85** |
-| 今日變動 | ▼ $5.12　(-0.86%) |
+| 現價 | **$568.97** |
+| 今日變動 | ▼ $20.88　(-3.54%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $49　(▼2.7%) |
+| 未實現盈虧 | ▼ $112　(▼6.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $578.81 | — |
-| Put Wall（支撐） | $550.00 | -6.8% |
-| Call Wall（阻力） | $750.00 | +27.2% |
+| Gamma Flip | $579.50 | — |
+| Put Wall（支撐） | $550.00 | -3.3% |
+| Call Wall（阻力） | $750.00 | +31.8% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Tracking Bill Ackman's Pershing Square 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=8f0c6af6146ce467fdc7d871d935aa55516a90bcc60cdc15ed864b80f4e2b14c)**  
-*SeekingAlpha · 16h前*  
-Pershing Square's Q2 2026 13F portfolio surged to $19.47B, expanding from 10 to 14 positions. Check out the portfolio here.
+- **[Broadcom Looks Undervalued With 50% Upside](https://finnhub.io/api/news?id=99874d8148c4b9d33eb91e656a1e156beca9d0d7e46fbb11c6581690f70eecb3)**  
+*SeekingAlpha · 6h前*  
+Broadcom Inc. rated Strong Buy with $588 target and 50% upside on AI demand. Click for this AVGO update and see why I see significant upside.
 
-- **[Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside](https://finnhub.io/api/news?id=d651f92ddd0ace78f7f92c2878d40e7535eac6be810461d173aaf4347482170d)**  
-*Benzinga · 1d前*  
-Dell stock rally has paused in the past two days, but the recent Supermicro and Lenovo earnings show it has more upside
+- **[QUICK SPARK: OpenAI, Anthropic and SpaceX Fuel Harbor’s New AI ETF Strategy Beyond Big Tech](https://finnhub.io/api/news?id=9af41b125a7fd5571185fce064c8fce9dccc8ce58ae683fabf3def63095624e1)**  
+*Benzinga · 9h前*  
+Harbor’s AI ETFs target the ecosystems powering OpenAI, Anthropic and SpaceX, expanding AI exposure beyond Nvidia and other tech stocks.
 
-- **[CoreWeave: Tapping Into Broader Enterprise, Yet Stay Updated](https://finnhub.io/api/news?id=e87ed1cd184f28ffcec4fcdc53a8195b7ff6c45c9678f15ca0005bf74702adbb)**  
-*SeekingAlpha · 2d前*  
-Strong Buy on CoreWeave (CRWV): 2027 ~$250 target as backlog surges and DDTL 5.5 financing boosts enterprise margins. Key risksâdebt, dilution.
+- **[Apple Memory Headwinds Are Reason To Pause (Rating Downgrade)](https://finnhub.io/api/news?id=c24b01b3ad196f30a2d939466dd1d4149bfc40127392e077aa0b39895d08c5e9)**  
+*SeekingAlpha · 9h前*  
+Apple faces significant headwinds from rising memory prices, supply chain disruptions, and an over-reliance on iPhone sales. Read more on AAPL stock here.
 
 ---
 
@@ -48,7 +48,7 @@ Strong Buy on CoreWeave (CRWV): 2027 ~$250 target as backlog surges and DDTL 5.5
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-17 | 監控 | $589.85 | — | 自動更新 |
+| 2026-08-18 | 監控 | $568.97 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Strong Buy on CoreWeave (CRWV): 2027 ~$250 target as backlog surges and DDTL 5.5
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 09:04 HKT*
