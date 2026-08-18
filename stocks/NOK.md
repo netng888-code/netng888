@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.76** |
-| 今日變動 | ▲ $0.20　(+1.89%) |
+| 現價 | **$10.78** |
+| 今日變動 | ▲ $0.02　(+0.19%) |
 | 持倉數量 | 200 股 |
 | 平均成本 | $12.458 |
-| 未實現盈虧 | ▼ $340　(▼13.6%) |
+| 未實現盈虧 | ▼ $336　(▼13.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.45 | — |
-| Put Wall（支撐） | $10.00 | -7.1% |
-| Call Wall（阻力） | $11.00 | +2.2% |
+| Gamma Flip | $9.52 | — |
+| Put Wall（支撐） | $10.00 | -7.2% |
+| Call Wall（阻力） | $11.00 | +2.0% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,13 +30,9 @@
 
 ## 📰 最新新聞
 
-- **[Nokia: The Optical Story Is Possible And Not Certain](https://finnhub.io/api/news?id=2ece9e19304c63a727c4caf95bc04c1bf53ed01fab9a05a486a4532979833615)**  
-*SeekingAlpha · 3d前*  
-Nokia (NOK) stock rated Hold with $8.50â$11.30 target; AI infrastructure upside vs valuation and licensing risks.
-
-- **[Nokia: Rebound After The Purge, But Free Cash Flow Doesn't Justify A Buy Yet](https://finnhub.io/api/news?id=4fe5d29fe91e905cf5c470de57fc4d298ea9152db063c9deea088294ebcc251e)**  
-*SeekingAlpha · 3d前*  
-Nokia surged on AI optimism but sold off sharply; now it's up 67% YTD. Click here to see why NOK stock is a Hold.
+- **[Which stocks are most active on Monday?](https://finnhub.io/api/news?id=8a3c3c0e072895595e9b5bf18355564f058eae0f28e99c0ac22ba158d9a44567)**  
+*ChartMill · 7h前*  
+Monday's session is buzzing with activity. Check out the stocks that are attracting the most attention and driving market activity!
 
 ---
 
@@ -44,7 +40,7 @@ Nokia surged on AI optimism but sold off sharply; now it's up 67% YTD. Click her
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-17 | 監控 | $10.76 | — | 自動更新 |
+| 2026-08-18 | 監控 | $10.78 | — | 自動更新 |
 
 ---
 
@@ -55,4 +51,4 @@ Nokia surged on AI optimism but sold off sharply; now it's up 67% YTD. Click her
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 09:04 HKT*
