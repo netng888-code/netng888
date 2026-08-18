@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$222.02** |
-| 今日變動 | ▼ $0.16　(-0.07%) |
+| 現價 | **$234.33** |
+| 今日變動 | ▲ $12.31　(+5.54%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $353　(▼13.7%) |
+| 未實現盈虧 | ▼ $230　(▼8.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $208.91 | — |
-| Put Wall（支撐） | $200.00 | -9.9% |
-| Call Wall（阻力） | $250.00 | +12.6% |
+| Gamma Flip | $208.19 | — |
+| Put Wall（支撐） | $200.00 | -14.7% |
+| Call Wall（阻力） | $250.00 | +6.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Moved Markets This Week](https://finnhub.io/api/news?id=a5a4dcd16687a68ff6555e7af6d47067d3d338031982fd23c90f5451b7d2b420)**  
-*SeekingAlpha · 2d前*
+- **[Which S&P500 stocks are moving on Monday?](https://finnhub.io/api/news?id=f3b05a15d3587a3e698d248c4e9bedeb3e073fabc491252708026a8fe6182d12)**  
+*ChartMill · 5h前*  
+Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Monday.
 
-- **[5 AI Stocks with Strong Growth to Buy on the Rebound](https://finnhub.io/api/news?id=4252eb004cca9c955c0a8eeb1d5e08b0fff03da001c9ab6b3266d8a679159ba2)**  
-*Benzinga · 2d前*  
-Markets have been choppy over the last few weeks, but the AI rally appears to be building momentum again as several major stocks bounce off key technical levels…
+- **[Broadcom Looks Undervalued With 50% Upside](https://finnhub.io/api/news?id=99874d8148c4b9d33eb91e656a1e156beca9d0d7e46fbb11c6581690f70eecb3)**  
+*SeekingAlpha · 6h前*  
+Broadcom Inc. rated Strong Buy with $588 target and 50% upside on AI demand. Click for this AVGO update and see why I see significant upside.
 
-- **[Why Is Reddit Stock Surging on Friday?](https://finnhub.io/api/news?id=d4ee2c2e93eab4dbe1670d9c048c7344ea80c8a31108d627b687cdaad62a8935)**  
-*Benzinga · 3d前*  
-Reddit Inc. (NYSE: RDDT) stock rises after S&amp;P Dow Jones Indices announces the company will replace AvalonBay Communities Inc. (NYSE: AVB) in the S&amp;P 50…
+- **[These S&P500 stocks are moving in today's session](https://finnhub.io/api/news?id=982102dcb4a89920288ff6d002b987dc6c7f3b6fc5c8d224bc8ff8e9265d9af4)**  
+*ChartMill · 8h前*  
+Curious about the top performers within the S&P500 index in the middle of the day on Monday? Dive into the list of today's session's top gainers and losers for …
 
 ---
 
@@ -47,7 +48,7 @@ Reddit Inc. (NYSE: RDDT) stock rises after S&amp;P Dow Jones Indices announces t
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-17 | 監控 | $222.02 | — | 自動更新 |
+| 2026-08-18 | 監控 | $234.33 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ Reddit Inc. (NYSE: RDDT) stock rises after S&amp;P Dow Jones Indices announces t
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 09:04 HKT*
