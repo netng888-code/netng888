@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$174.04** |
-| 今日變動 | ▼ $4.97　(-2.78%) |
+| 現價 | **$172.55** |
+| 今日變動 | ▼ $1.49　(-0.86%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $561　(▲36.7%) |
+| 未實現盈虧 | ▲ $543　(▲35.5%) |
 
 ---
 
@@ -20,27 +20,24 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $142.35 | — |
-| Put Wall（支撐） | $170.00 | -2.3% |
-| Call Wall（阻力） | $180.00 | +3.4% |
+| Gamma Flip | $143.13 | — |
+| Put Wall（支撐） | $170.00 | -1.5% |
+| Call Wall（阻力） | $175.00 | +1.4% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
+- **[7 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=6b3d9f6d0b35974ecf161bbdd4062b34a79f2d665e4b337536367549b0ad7112)**  
+*Benzinga · 11h前*  
+This whale alert can help traders discover the next big trading opportunities.
+Whales are entities with large sums of money and we track their transactions here…
+
 - **[Palantir Technologies Likely To Plunge After Its Historic Run Higher](https://finnhub.io/api/news?id=538daeaf8042f7bf3dff20d57db741a924fd3c3a05a5bc6cb417e59c1c1fe6ec)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Palantir (PLTR) stock update: revenue and US commercial sales surge as 2026 guidance rises, but valuation looks extremeâsee why itâs a strong sell.
-
-- **[Anthropic’s Revenue Could Soar From $47 Billion to $200 Billion by 2028 as Bankers Build a Massive AI Valuation Case Ahead of Its IPO: Report](https://finnhub.io/api/news?id=ae21f0e7b83fd846246f23caa957b952041e1d1b91ff3cf15229b66d180fbae5)**  
-*Benzinga · 2d前*  
-Anthropic is reportedly projecting up to $200 billion in 2028 revenue as bankers weigh a potential $2 trillion IPO valuation.
-
-- **[Peter Thiel and Founders Fund Report 5.5% Stake In SpaceX, Holding 427.3M Shares](https://finnhub.io/api/news?id=2decf0eee32e5bfa4743c621fe15bcd9eabbfed9a0333105296ade389dcd6d5c)**  
-*Benzinga · 2d前*  
-- SEC 13G Filing
 
 ---
 
@@ -48,7 +45,7 @@ Anthropic is reportedly projecting up to $200 billion in 2028 revenue as bankers
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-17 | 監控 | $174.04 | — | 自動更新 |
+| 2026-08-18 | 監控 | $172.55 | — | 自動更新 |
 
 ---
 
@@ -59,4 +56,4 @@ Anthropic is reportedly projecting up to $200 billion in 2028 revenue as bankers
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-18 09:04 HKT*
