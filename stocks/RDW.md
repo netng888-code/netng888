@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-19 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Mark Kelly Defends NASA Spending, Says ‘People Are Alive Today’ Because of Space Exploration and Medical Breakthroughs](https://finnhub.io/api/news?id=3a139880636e7183e001bf595832cca64a6ec9eaf3ebd944ca4554c90f6b7d1d)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 Kelly defends NASA spending, saying space exploration has driven medical breakthroughs, rescue technology.
 
 ---
@@ -51,4 +51,4 @@ Kelly defends NASA spending, saying space exploration has driven medical breakth
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-19 21:04 HKT*
