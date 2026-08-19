@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-19 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$82.08** |
-| 今日變動 | ▲ $1.83　(+2.28%) |
+| 現價 | **$79.16** |
+| 今日變動 | ▼ $2.92　(-3.56%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▲ $61　(▲8.0%) |
+| 未實現盈虧 | ▲ $32　(▲4.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $76.42 | — |
-| Put Wall（支撐） | $65.00 | -20.8% |
-| Call Wall（阻力） | $90.00 | +9.6% |
+| Gamma Flip | $77.98 | — |
+| Put Wall（支撐） | $75.00 | -5.3% |
+| Call Wall（阻力） | $85.00 | +7.4% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Onboarded To The United States Space Force’s NITE-STAR IDIQ Contract, An Advanced Space Test And Training Infrastructure With A $981M Contract Ceiling](https://finnhub.io/api/news?id=ca82ea5bede521a580c947138fa988c8d5de193238fdf6513acc0c789765cf5b)**  
-*Benzinga · 19h前*  
-Rocket Lab Corporation (NASDAQ:RKLB), a global leader in launch services and space systems, today announced it has been onboarded to the United States Space For…
+- **[Goldman's 'Second Space Age' — $1.8 Trillion Global Market by 2035](https://finnhub.io/api/news?id=2d24f9b4daa34363473af59ba65821fe60341732d839c1b7794d6112f516a29a)**  
+*Benzinga · 10h前*  
+Goldman Sachs sees a $1.8 trillion space economy by 2035, driven by collapsing launch costs, surging private and public-market funding.
 
-- **[What's Going On With Viasat Stock Monday?](https://finnhub.io/api/news?id=35833bcf6852667b24d8c950700c85091b975be197bcd6bb81fc62c238aa3861)**  
-*Benzinga · 23h前*  
-Viasat selects Rocket Lab to build an anti-jam Space Force satellite bus. VSAT trades higher at $83.33 amid strong technical momentum.
+- **[Rocket Lab: Strong Buy With An Investment Case That Goes Beyond Neutron](https://finnhub.io/api/news?id=81a7f97a0064a0559dac9bbf33c37eb285940861535f236096d6fb8cd288b894)**  
+*SeekingAlpha · 15h前*  
+Rocket Lab (RKLB) Q2 record revenue, backlog growth, and Iridium deal drive a strong buy thesis despite Neutron risk.
 
-- **[Stock Market Futures Mixed: Dow Futures Slips, Nasdaq 100, S&P 500 Rises as Fed Rate Hike Odds Drop to 30% for September—SanDisk, Micron, HIVE Digital in Focus (UPDATED)](https://finnhub.io/api/news?id=b83e876d224f5da5ffbb069804a1f6bf47b4bb7f88b9cab8deeb1e160c64d55f)**  
+- **[Rocket Lab Joins Boeing, Lockheed Martin and Northrop Grumman in $981M Space Force Program to Build Advanced Test Infrastructure](https://finnhub.io/api/news?id=a62cedbec839ecc25b2b9e3a63e1c13d9faafc0ad55ac5df1e73d3b3e562cfd5)**  
 *Benzinga · 1d前*  
-U.S. stock futures were mixed on Monday, as the Dow Jones index slipped and the Nasdaq 100 and S&amp;P 500 indices rose.
+Rocket Lab joins the U.S. Space Force&#39;s $981 million NITE-STAR program supporting space test infrastructure.
 
 ---
 
@@ -48,7 +48,7 @@ U.S. stock futures were mixed on Monday, as the Dow Jones index slipped and the 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-18 | 監控 | $82.08 | — | 自動更新 |
+| 2026-08-19 | 監控 | $79.16 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ U.S. stock futures were mixed on Monday, as the Dow Jones index slipped and the 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-18 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-19 09:04 HKT*
