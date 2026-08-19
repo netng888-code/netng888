@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-19 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,17 +21,20 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $181.46 | — |
-| Put Wall（支撐） | $175.00 | -0.4% |
+| Put Wall（支撐） | $150.00 | -14.6% |
 | Call Wall（阻力） | $200.00 | +13.8% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Barclays Initiates Coverage of Centrus Energy (LEU) with Equal-Weight Recommendation](https://finnhub.io/api/news?id=be7e0fdb4d64b7e176a8b0c434a8de9084203fd18c295ce44771ec249f8d8521)**  
+*Fintel · 10h前*
+
 - **[Terrestrial Energy shares are trading lower. The company reported Q4 financial results.](https://finnhub.io/api/news?id=77e352dd150f0d8a8a9b2e52b026da6e6164ac8bbaef25d6176d19aa9bc15ed8)**  
-*Benzinga · 10h前*
+*Benzinga · 22h前*
 
 - **[The Bottlenecks Of The Nuclear Fuel And Supply Chain](https://finnhub.io/api/news?id=bef8c00eb286616614b5061578ed3dedfa68841554d9593422a192b539583571)**  
 *SeekingAlpha · 1d前*
@@ -53,4 +56,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-19 21:04 HKT*
