@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-08-19 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,10 +31,10 @@
 ## 📰 最新新聞
 
 - **[Generac Holdings shares are trading higher after the company reported better-than-expected Q1 financial results.](https://finnhub.io/api/news?id=9dd9787def885ccc08bef3a37f555f9bcf03408bec9645a5da455627bc0ee278)**  
-*Benzinga · 12h前*
+*Benzinga · 1d前*
 
 - **[Memory Is The Best AI Story, Equipment Is The Better Trade](https://finnhub.io/api/news?id=2f35153d7912668572f2ad77d391fb0992779e3cf086986fa0d3f5fe1ad6640a)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 AI Stack Model: 14 AI trade segments ranked by macro, estimate revisions, and valuation.
 
 ---
@@ -54,4 +54,4 @@ AI Stack Model: 14 AI trade segments ranked by macro, estimate revisions, and va
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-19 21:04 HKT*
