@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-19 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Curious about the most active S&P500 stocks in today's session?](https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa)**  
-*ChartMill · 6h前*  
-Looking for the most active S&P500 stocks in today's session? Join us as we dive into the US markets on Tuesday and discover the stocks that are dominating the …
+- **[Wall Street Sinks as 30-Year Yield Hits 19-Year High, Chip Names Crumble](https://finnhub.io/api/news?id=62931e0861f4d587e501c84a06cf467fff02e73396bc22fd37f2c5a19c943e4b)**  
+*ChartMill · 4h前*  
+Rising long-end Treasury yields and a sharp reversal in semiconductors dragged US stocks lower on Tuesday, August 18, 2026. Duolingo bucked the trend on a broke…
 
-- **[Sandisk: Investors Are Ignoring The Ceilings](https://finnhub.io/api/news?id=eeb42323f7cf9ec650a2158623807698925e34ce3b6e7ac94997a4a1946577a4)**  
-*SeekingAlpha · 8h前*
+- **[Why Sandisk's 80% Margin Is More Than Just A Cycle Peak](https://finnhub.io/api/news?id=053d9e984390f146d8a88877e55be740628e024a2952921b79b8a053f89881b0)**  
+*SeekingAlpha · 5h前*  
+Sandisk Q2 2026 crushes expectations, yet trades at a low 7.6x forward P/E. Click for more on SNDK stock and see if it is right for you.
 
-- **[SK hynix: Believe In The HBM Leader](https://finnhub.io/api/news?id=5bcb77326368d578aa97a2a913551aca5ea4f487c926e532282fd144f2e46cb4)**  
-*SeekingAlpha · 9h前*  
-SK hynix Inc. looks undervalued (5.7x forward P/E, 13% FCF yield) despite ADR premium risks and HBM competition. Click for this SKHY update.
+- **[There Is So Much Alpha To Be Harvested In Micron's Options](https://finnhub.io/api/news?id=07704bd03cd54d835cdcc7fef9c782c3bcc2726babaec1720d5fa6432395cedd)**  
+*SeekingAlpha · 6h前*  
+Micron's SSD business just cleared $5B in a quarter, with NAND growing 361% YoY, and management signaling buybacks. Learn why MU stock is a buy.
 
 ---
 
@@ -58,4 +59,4 @@ SK hynix Inc. looks undervalued (5.7x forward P/E, 13% FCF yield) despite ADR pr
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-19 21:03 HKT*
