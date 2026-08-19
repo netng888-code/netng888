@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-19 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$568.97** |
-| 今日變動 | ▼ $20.88　(-3.54%) |
+| 現價 | **$543.67** |
+| 今日變動 | ▼ $25.30　(-4.45%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $112　(▼6.2%) |
+| 未實現盈虧 | ▼ $188　(▼10.3%) |
 
 ---
 
@@ -20,27 +20,40 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $579.50 | — |
-| Put Wall（支撐） | $550.00 | -3.3% |
-| Call Wall（阻力） | $750.00 | +31.8% |
+| Gamma Flip | $572.20 | — |
+| Put Wall（支撐） | $540.00 | -0.7% |
+| Call Wall（阻力） | $750.00 | +38.0% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[The Real Reason Markets Are Rising Despite A Bearish Macro Backdrop](https://finnhub.io/api/news?id=712b058a64e071236348ee01c1d817e2e3629a8f87a7f29d55eaca50323c87d1)**  
-*SeekingAlpha · 6h前*  
-Equity markets hit new highs despite inflation, geopolitics & oil shocks. Learn whatâs fueling the rallyâearnings, credit strength & structural buyers.
+- **[AI Utilization May Be The Next Driver Of Growth](https://finnhub.io/api/news?id=4d2d5bcd7f640b2e20b026df63f0801731062a4dd7031dc67029e970601b4e97)**  
+*SeekingAlpha · 7h前*  
+Explore Alger AI Enablers & Adopters ETF (ALAI): AI cloud spend to hit $42B by 2026, active picks for efficiency gains. Read more macro analysis here.
 
-- **[Broadcom Looks Undervalued With 50% Upside](https://finnhub.io/api/news?id=99874d8148c4b9d33eb91e656a1e156beca9d0d7e46fbb11c6581690f70eecb3)**  
-*SeekingAlpha · 18h前*  
-Broadcom Inc. rated Strong Buy with $588 target and 50% upside on AI demand. Click for this AVGO update and see why I see significant upside.
+- **[AMD: On Dilution And Insider Sales](https://finnhub.io/api/news?id=66ab3affb53046c7710ef217f37050fe03579ce79910d4c241482d9ea6d6c1bc)**  
+*SeekingAlpha · 7h前*  
+Advanced Micro Devices, Inc. stock surged on AI deals, but dilution, insider selling, and margin risk threaten long-term earnings. Click for more on AMD prospec…
 
-- **[QUICK SPARK: OpenAI, Anthropic and SpaceX Fuel Harbor’s New AI ETF Strategy Beyond Big Tech](https://finnhub.io/api/news?id=9af41b125a7fd5571185fce064c8fce9dccc8ce58ae683fabf3def63095624e1)**  
-*Benzinga · 21h前*  
-Harbor’s AI ETFs target the ecosystems powering OpenAI, Anthropic and SpaceX, expanding AI exposure beyond Nvidia and other tech stocks.
+- **[US Debt Nearing $40T; Home Depot earnings Better Than Expected](https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2)**  
+*Benzinga · 10h前*  
+$40 Trillion Debt
+
+
+
+Please click here for an enlarged chart of Home Depot Inc (NYSE:HD).
+
+
+
+Note the following:
+
+
+
+
+This article is about the big picture, not …
 
 ---
 
@@ -48,7 +61,7 @@ Harbor’s AI ETFs target the ecosystems powering OpenAI, Anthropic and SpaceX, 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-18 | 監控 | $568.97 | — | 自動更新 |
+| 2026-08-19 | 監控 | $543.67 | — | 自動更新 |
 
 ---
 
@@ -59,4 +72,4 @@ Harbor’s AI ETFs target the ecosystems powering OpenAI, Anthropic and SpaceX, 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-18 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-19 09:04 HKT*
