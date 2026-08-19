@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-19 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,30 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Meta's AI Payoff Has Already Begun](https://finnhub.io/api/news?id=b6a7199220883383f51ad312554012cf201dbdd176417aa13df3ca3d0bef216f)**  
+*SeekingAlpha · 5h前*  
+Metaâs Q2 revenue rose 28% to $60.8 billion, while ad impressions increased 14% and average ad pricing gained 12%. Read more on META stock here.
+
 - **[AI Utilization May Be The Next Driver Of Growth](https://finnhub.io/api/news?id=4d2d5bcd7f640b2e20b026df63f0801731062a4dd7031dc67029e970601b4e97)**  
-*SeekingAlpha · 7h前*  
+*SeekingAlpha · 19h前*  
 Explore Alger AI Enablers & Adopters ETF (ALAI): AI cloud spend to hit $42B by 2026, active picks for efficiency gains. Read more macro analysis here.
 
 - **[AMD: On Dilution And Insider Sales](https://finnhub.io/api/news?id=66ab3affb53046c7710ef217f37050fe03579ce79910d4c241482d9ea6d6c1bc)**  
-*SeekingAlpha · 7h前*  
+*SeekingAlpha · 19h前*  
 Advanced Micro Devices, Inc. stock surged on AI deals, but dilution, insider selling, and margin risk threaten long-term earnings. Click for more on AMD prospec…
-
-- **[US Debt Nearing $40T; Home Depot earnings Better Than Expected](https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2)**  
-*Benzinga · 10h前*  
-$40 Trillion Debt
-
-
-
-Please click here for an enlarged chart of Home Depot Inc (NYSE:HD).
-
-
-
-Note the following:
-
-
-
-
-This article is about the big picture, not …
 
 ---
 
@@ -72,4 +59,4 @@ This article is about the big picture, not …
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-19 21:04 HKT*
