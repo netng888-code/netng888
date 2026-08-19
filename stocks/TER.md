@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-19 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Discover which S&P500 stocks are making waves on Tuesday.](https://finnhub.io/api/news?id=0c34c0b3b03ebf33b5cdb2e2aa62df9dea0c5b400ba5098836973b6aae6b94b7)**  
-*ChartMill · 5h前*  
+*ChartMill · 17h前*  
 Curious about the S&P500 stocks that are in motion on Tuesday? Join us as we explore the top movers within the S&P500 index during today's session.
 
 - **[Stay informed with the top movers within the S&P500 index on Tuesday.](https://finnhub.io/api/news?id=fca39c0b151eec8262878ba40ac18260199ffcf7927c70595271e1c7c746f5ee)**  
-*ChartMill · 8h前*  
+*ChartMill · 20h前*  
 Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Tuesday as we examine the latest happenings in today's sessi…
 
 - **[What's going on in today's session: S&P500 gap up and gap down stocks](https://finnhub.io/api/news?id=9626c0be69139cdf2d6bf2fa947d6449bd83c3f1019a1f0e25e374ce40d657cc)**  
-*ChartMill · 10h前*  
+*ChartMill · 22h前*  
 Curious about the market action on Tuesday? Dive into the US markets to explore the gap up and gap down stocks in the S&P500 index during today's session.
 
 ---
@@ -59,4 +59,4 @@ Curious about the market action on Tuesday? Dive into the US markets to explore 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-19 21:04 HKT*
