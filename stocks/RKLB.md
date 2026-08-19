@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-19 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[Goldman's 'Second Space Age' — $1.8 Trillion Global Market by 2035](https://finnhub.io/api/news?id=2d24f9b4daa34363473af59ba65821fe60341732d839c1b7794d6112f516a29a)**  
-*Benzinga · 10h前*  
+*Benzinga · 22h前*  
 Goldman Sachs sees a $1.8 trillion space economy by 2035, driven by collapsing launch costs, surging private and public-market funding.
 
 - **[Rocket Lab: Strong Buy With An Investment Case That Goes Beyond Neutron](https://finnhub.io/api/news?id=81a7f97a0064a0559dac9bbf33c37eb285940861535f236096d6fb8cd288b894)**  
-*SeekingAlpha · 15h前*  
+*SeekingAlpha · 1d前*  
 Rocket Lab (RKLB) Q2 record revenue, backlog growth, and Iridium deal drive a strong buy thesis despite Neutron risk.
 
 - **[Rocket Lab Joins Boeing, Lockheed Martin and Northrop Grumman in $981M Space Force Program to Build Advanced Test Infrastructure](https://finnhub.io/api/news?id=a62cedbec839ecc25b2b9e3a63e1c13d9faafc0ad55ac5df1e73d3b3e562cfd5)**  
@@ -59,4 +59,4 @@ Rocket Lab joins the U.S. Space Force&#39;s $981 million NITE-STAR program suppo
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-19 21:04 HKT*
