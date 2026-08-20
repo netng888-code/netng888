@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Teradyne (NASDAQ:TER): An Affordable Growth Play with Strong Fundamentals](https://finnhub.io/api/news?id=f0813c7b19858dd71289e191050a187d7c2fd7ee1d473f69bc77bb831d9b8897)**  
+*ChartMill · 1h前*  
+Teradyne (NASDAQ:TER) fits Affordable Growth with strong growth, reasonable valuation, solid health and profitability. See why it screens well.
+
+- **[Teradyne: Upgraded Buy As Chips Grow In Volume/Density - Potential Dip Ahead](https://finnhub.io/api/news?id=7dd200fdf9afe2cd32e4596a538150c784175f18c58f7a4ed05babd16fcfcb79)**  
+*SeekingAlpha · 14h前*  
+Teradyne stock outlook: AI-driven chip testing demand boosts WFE/ATE and earnings growth. Read here for a detailed analysis of TER stock.
+
 - **[Exploring the top movers within the S&P500 index during today's session.](https://finnhub.io/api/news?id=e46427aae39604591751787a13c6e26e654e9b8fcdfef2fc617183f68f47e48f)**  
-*ChartMill · 5h前*  
+*ChartMill · 17h前*  
 Curious about the top performers within the S&P500 index one hour before the close of the markets on Wednesday? Dive into the list of today's session's top gain…
-
-- **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=9d113a09f48670d436e6f2252bf1887b5a026dfadda5e1b78c4e9f01efe715bf)**  
-*ChartMill · 8h前*  
-Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Wednesday as we examine the latest happenings in today's ses…
-
-- **[Amtech Systems shares are trading lower after the company reported worse-than-expected Q1 financial results.](https://finnhub.io/api/news?id=5fe19d8d82b011548d036955326e9eec94c792a8eb80183da6279cfc3441aa8f)**  
-*Benzinga · 9h前*
 
 ---
 
@@ -58,4 +59,4 @@ Join us in exploring the top gainers and losers within the S&P500 index in the m
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
