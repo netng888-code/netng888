@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -38,7 +38,7 @@
 Hadron Energy targets AI power demand with its Halo micro modular reactor. Click for more on HDRN stock.
 
 - **[Nuclear Earnings Season: A Tale of Two Markets – Profitable Operators vs. Speculative Start-Ups](https://finnhub.io/api/news?id=10a43480c8b7562fd1fc8a5baf6ca8e47b526695d425023055c49bfd8d29ef9b)**  
-*ChartMill · 2d前*  
+*ChartMill · 3d前*  
 Nuclear energy stocks split: profitable operators and suppliers deliver, but speculative developers with losses rally most. Investors are betting on future dema…
 
 ---
@@ -58,4 +58,4 @@ Nuclear energy stocks split: profitable operators and suppliers deliver, but spe
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
