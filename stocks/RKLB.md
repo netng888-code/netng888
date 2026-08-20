@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$79.16** |
-| 今日變動 | ▼ $2.92　(-3.56%) |
+| 現價 | **$75.84** |
+| 今日變動 | ▼ $3.32　(-4.19%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▲ $32　(▲4.2%) |
+| 未實現盈虧 | ▼ $2　(▼0.2%) |
 
 ---
 
@@ -20,27 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $77.98 | — |
-| Put Wall（支撐） | $75.00 | -5.3% |
-| Call Wall（阻力） | $85.00 | +7.4% |
+| Gamma Flip | $78.63 | — |
+| Put Wall（支撐） | $75.00 | -1.1% |
+| Call Wall（阻力） | $80.00 | +5.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Goldman's 'Second Space Age' — $1.8 Trillion Global Market by 2035](https://finnhub.io/api/news?id=2d24f9b4daa34363473af59ba65821fe60341732d839c1b7794d6112f516a29a)**  
-*Benzinga · 22h前*  
-Goldman Sachs sees a $1.8 trillion space economy by 2035, driven by collapsing launch costs, surging private and public-market funding.
+- **[Rocket Lab's Next Phase Changes The Entire Thesis](https://finnhub.io/api/news?id=b1931fb2915c83134520cce7ac5a3f214019f4fa8dcfe94a5fb42d947ac54d5f)**  
+*SeekingAlpha · 12h前*
 
-- **[Rocket Lab: Strong Buy With An Investment Case That Goes Beyond Neutron](https://finnhub.io/api/news?id=81a7f97a0064a0559dac9bbf33c37eb285940861535f236096d6fb8cd288b894)**  
-*SeekingAlpha · 1d前*  
-Rocket Lab (RKLB) Q2 record revenue, backlog growth, and Iridium deal drive a strong buy thesis despite Neutron risk.
+- **[Rocket Lab: The Math Doesn't Work](https://finnhub.io/api/news?id=1c569151d29b475eb6a35b62adda47c3df357ce2ebc5c551f9ec0966db5d13f0)**  
+*SeekingAlpha · 15h前*  
+Rocket Lab's Neutron delays to 2027, dilution risk from the $8B Iridium deal, and rich 50x sales valuation amid SpaceX IPO. Find out why RKLB stock is a sell.
 
-- **[Rocket Lab Joins Boeing, Lockheed Martin and Northrop Grumman in $981M Space Force Program to Build Advanced Test Infrastructure](https://finnhub.io/api/news?id=a62cedbec839ecc25b2b9e3a63e1c13d9faafc0ad55ac5df1e73d3b3e562cfd5)**  
-*Benzinga · 1d前*  
-Rocket Lab joins the U.S. Space Force&#39;s $981 million NITE-STAR program supporting space test infrastructure.
+- **[Rocket Lab Lands $12 Million Deal To Advance US Military Space Network](https://finnhub.io/api/news?id=a5d44f96bc12b6e8a7e47acf98bc8de0398f444c5d1cd294f759099ca8c171ac)**  
+*Benzinga · 16h前*  
+Rocket Lab joins the U.S. Space Force Space Data Network Consortium and wins two delivery orders worth $12 million for secure optical communications.
 
 ---
 
@@ -48,7 +47,7 @@ Rocket Lab joins the U.S. Space Force&#39;s $981 million NITE-STAR program suppo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-19 | 監控 | $79.16 | — | 自動更新 |
+| 2026-08-20 | 監控 | $75.84 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ Rocket Lab joins the U.S. Space Force&#39;s $981 million NITE-STAR program suppo
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
