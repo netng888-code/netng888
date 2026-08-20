@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[UBS Maintains Neutral on Centrus Energy, Raises Price Target to $185](https://finnhub.io/api/news?id=9e727201a61f6739354110837cdcb73ad6ca8a78fba97b857bd6d5eceda90a2a)**  
-*Benzinga · 14h前*  
+*Benzinga · 1d前*  
 UBS  analyst Jon Windham   maintains Centrus Energy (NYSE:LEU) with a Neutral and raises the price target from $170 to $185.
 
 - **[Barclays Initiates Coverage On Centrus Energy with Equal-Weight Rating, Announces Price Target of $207](https://finnhub.io/api/news?id=3bdae32308770fb30cff96e58d01619679897a0c4e2d41aa9236145a674782ad)**  
-*Benzinga · 15h前*  
+*Benzinga · 1d前*  
 Barclays  analyst Christine Cho   initiates coverage on Centrus Energy (NYSE:LEU) with a Equal-Weight rating and announces Price Target of $207.
 
 - **[Barclays Initiates Coverage of Centrus Energy (LEU) with Equal-Weight Recommendation](https://finnhub.io/api/news?id=be7e0fdb4d64b7e176a8b0c434a8de9084203fd18c295ce44771ec249f8d8521)**  
-*Fintel · 22h前*
+*Fintel · 1d前*
 
 ---
 
@@ -58,4 +58,4 @@ Barclays  analyst Christine Cho   initiates coverage on Centrus Energy (NYSE:LEU
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
