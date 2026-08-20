@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Which dow jones stocks are moving on Wednesday?](https://finnhub.io/api/news?id=40115c3c3464e83a2660ead2dc4dec4295ca940e8503f339c0e49581f3b5cef4)**  
+- **[Marvell: The Deal And The Dilution Are Both Real](https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99)**  
+*SeekingAlpha · 4h前*  
+Marvell lands a major Google custom silicon AI deal, but warrants and rich valuation add risk ahead of Aug. Click for more on MRVL stock.
+
+- **[Moderna Doubles on Melanoma Vaccine Win, Treasury Steps In to Cap Long-End Yields](https://finnhub.io/api/news?id=508d178665ed408c01403249081d5127f914ba13062aa866c375984e312e5d86)**  
 *ChartMill · 5h前*  
-Wondering what's happening in today's session for the dow jones index? Stay informed with the top movers within the dow jones index on Wednesday.
+US stocks eked out a modest gain on Wednesday, August 19, 2026, as Moderna nearly tripled on a landmark cancer vaccine readout, Marvell locked in a multi-billio…
 
-- **[Samsung Tumbled Nearly 8% in Seoul Even as AI Demand Drives Chip Prices Up To 15%](https://finnhub.io/api/news?id=e551fabc0eaf1bf604fb78bf3da7ac26bae8cd8888398860076567dbc0a75d32)**  
-*Benzinga · 7h前*  
-Samsung raised advanced chipmaking prices by up to 15% as AI demand fills key production lines, even as shares fell nearly 8%.
-
-- **[Alphabet Stock: A Berkshire Hathaway-Style Compounder Hiding In Plain Sight](https://finnhub.io/api/news?id=d1a4c1f6cffc33ee58ea8e9a3d9ebef4a3335a871fe0a93b55d4784c35332c22)**  
-*SeekingAlpha · 8h前*
+- **[Harry Qelm Baabsman's 2026 Half-Year Letter To Investors](https://finnhub.io/api/news?id=a5aec2a565933f017eebe10cb4892d3023a83d60b2201ae7b78504bf0fdde8c6)**  
+*SeekingAlpha · 15h前*  
+Steppe Eagle OEICâs YTD return vs MSCI World, tactical buys and mega-cap tech risk.
 
 ---
 
@@ -58,4 +59,4 @@ Samsung raised advanced chipmaking prices by up to 15% as AI demand fills key pr
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
