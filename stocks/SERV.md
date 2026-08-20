@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-08-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$4.55** |
-| 今日變動 | ▼ $0.35　(-7.14%) |
+| 現價 | **$4.78** |
+| 今日變動 | ▲ $0.23　(+5.05%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $11.743 |
-| 未實現盈虧 | ▼ $216　(▼61.3%) |
+| 未實現盈虧 | ▼ $209　(▼59.3%) |
 
 ---
 
@@ -20,11 +20,11 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $4.62 | — |
-| Put Wall（支撐） | $4.50 | -1.1% |
-| Call Wall（阻力） | $5.00 | +9.9% |
+| Gamma Flip | $4.74 | — |
+| Put Wall（支撐） | $4.50 | -5.9% |
+| Call Wall（阻力） | $5.00 | +4.6% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
@@ -48,7 +48,7 @@ Expansion to San Jose and Washington, DC, an innovative micro-depot in Miami, a 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-19 | 監控 | $4.55 | — | 自動更新 |
+| 2026-08-20 | 監控 | $4.78 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Expansion to San Jose and Washington, DC, an innovative micro-depot in Miami, a 
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 09:05 HKT*
