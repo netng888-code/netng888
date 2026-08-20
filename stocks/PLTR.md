@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Tracking Cathie Wood's ARK Invest 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=6176cf1f3006a9b7f1e7eece33e01b74901f7d28aa6591f2ed6baa2cc5a017ee)**  
+*SeekingAlpha · 16h前*  
+ARK Invest's Q2 2026 13F portfolio rose to ~$15.4B, with holdings increasing from 182 to 191 and a focus on disruptive innovation. Read more on the portfolio he…
+
 - **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=06bc9619bf53a11a041c1a94ae5eb97fa03663fcef161e2b5f6c6836998b06d4)**  
-*ChartMill · 6h前*  
+*ChartMill · 18h前*  
 Curious about the most active S&P500 stocks in today's session? Get insights into the stocks that are leading the way in terms of trading volume and market atte…
 
 - **[Short Sellers Are Losing Big on Palantir — Here's the Data](https://finnhub.io/api/news?id=8d6ecb1fe0e7ea71d0abbf86fc7ad5132e75d0e2f47b1b2bb600d09d52fc414d)**  
-*Benzinga · 12h前*  
+*Benzinga · 1d前*  
 Palantir squeezes short sellers in a market rally, with $12 billion in short interest and $5 billion in losses.
-
-- **[Palantir: Why I'm Not Buying This Rally](https://finnhub.io/api/news?id=8f2111f10eb660ed593b0a3e94191b968c68f31ad7073788fa99ce55b202fe75)**  
-*SeekingAlpha · 13h前*  
-Palantir Technologies Inc. Q2 earnings beat: 12th straight growth quarter, raised guidance, U.S. commercial +149%. Click for this PLTR update.
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies Inc. Q2 earnings beat: 12th straight growth quarter, raise
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 21:05 HKT*
