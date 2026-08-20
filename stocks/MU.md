@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$940.76** |
-| 今日變動 | ▼ $70.99　(-7.02%) |
+| 現價 | **$937.11** |
+| 今日變動 | ▼ $3.65　(-0.39%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $383　(▲68.6%) |
+| 未實現盈虧 | ▲ $379　(▲68.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $934.82 | — |
-| Put Wall（支撐） | $900.00 | -4.3% |
-| Call Wall（阻力） | $1,000.00 | +6.3% |
+| Gamma Flip | $920.44 | — |
+| Put Wall（支撐） | $900.00 | -4.0% |
+| Call Wall（阻力） | $1,000.00 | +6.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Wall Street Sinks as 30-Year Yield Hits 19-Year High, Chip Names Crumble](https://finnhub.io/api/news?id=62931e0861f4d587e501c84a06cf467fff02e73396bc22fd37f2c5a19c943e4b)**  
-*ChartMill · 4h前*  
-Rising long-end Treasury yields and a sharp reversal in semiconductors dragged US stocks lower on Tuesday, August 18, 2026. Duolingo bucked the trend on a broke…
+- **[Cathie Wood Says Elon Musk's Tesla Playbook Explains Why She's Avoiding SK Hynix and Micron](https://finnhub.io/api/news?id=62d1b739860b3706d50c6862e2b99ac2589823059104be5866adcb12c36093ff)**  
+*Benzinga · 13h前*  
+Cathie Wood explains why Elon Musk&#39;s Tesla strategy shapes her cautious view on SK Hynix, Micron and the AI memory boom.
 
-- **[Why Sandisk's 80% Margin Is More Than Just A Cycle Peak](https://finnhub.io/api/news?id=053d9e984390f146d8a88877e55be740628e024a2952921b79b8a053f89881b0)**  
-*SeekingAlpha · 5h前*  
-Sandisk Q2 2026 crushes expectations, yet trades at a low 7.6x forward P/E. Click for more on SNDK stock and see if it is right for you.
+- **[Here's How Much $1000 Invested In Micron Technology 15 Years Ago Would Be Worth Today](https://finnhub.io/api/news?id=5a2610973010cbc759ac4f299b3b55c46e10b64e4d80f585d452bfb9e5646427)**  
+*Benzinga · 14h前*  
+Micron Technology (NASDAQ:MU) has outperformed the market over the past 15 years by 27.54% on an annualized basis producing an average annual return of 40.98%. …
 
-- **[There Is So Much Alpha To Be Harvested In Micron's Options](https://finnhub.io/api/news?id=07704bd03cd54d835cdcc7fef9c782c3bcc2726babaec1720d5fa6432395cedd)**  
-*SeekingAlpha · 6h前*  
-Micron's SSD business just cleared $5B in a quarter, with NAND growing 361% YoY, and management signaling buybacks. Learn why MU stock is a buy.
+- **[Stripe’s $8 Billion OpenRouter Deal Reveals Where the AI ETF Trade Is Actually Expanding](https://finnhub.io/api/news?id=9a884db856424f40ce0359e24909a5d2d6d87fcaabcaa4d867c003d2e6053f7a)**  
+*Benzinga · 15h前*  
+Stripe’s $8B OpenRouter AI deal highlights the rising value of AI infrastructure and these two ETFs are giving investors exposure.
 
 ---
 
@@ -48,7 +48,7 @@ Micron's SSD business just cleared $5B in a quarter, with NAND growing 361% YoY,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-19 | 監控 | $940.76 | — | 自動更新 |
+| 2026-08-20 | 監控 | $937.11 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Micron's SSD business just cleared $5B in a quarter, with NAND growing 361% YoY,
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
