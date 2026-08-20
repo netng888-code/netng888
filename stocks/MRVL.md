@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$216.00** |
-| 今日變動 | ▼ $18.33　(-7.82%) |
+| 現價 | **$237.27** |
+| 今日變動 | ▲ $21.27　(+9.85%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $413　(▼16.1%) |
+| 未實現盈虧 | ▼ $200　(▼7.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $211.20 | — |
-| Put Wall（支撐） | $200.00 | -7.4% |
-| Call Wall（阻力） | $250.00 | +15.7% |
+| Gamma Flip | $211.46 | — |
+| Put Wall（支撐） | $200.00 | -15.7% |
+| Call Wall（阻力） | $250.00 | +5.4% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Wall Street Sinks as 30-Year Yield Hits 19-Year High, Chip Names Crumble](https://finnhub.io/api/news?id=62931e0861f4d587e501c84a06cf467fff02e73396bc22fd37f2c5a19c943e4b)**  
-*ChartMill · 4h前*  
-Rising long-end Treasury yields and a sharp reversal in semiconductors dragged US stocks lower on Tuesday, August 18, 2026. Duolingo bucked the trend on a broke…
+- **[Exploring the top movers within the S&P500 index during today's session.](https://finnhub.io/api/news?id=e46427aae39604591751787a13c6e26e654e9b8fcdfef2fc617183f68f47e48f)**  
+*ChartMill · 5h前*  
+Curious about the top performers within the S&P500 index one hour before the close of the markets on Wednesday? Dive into the list of today's session's top gain…
 
-- **[Discover which S&P500 stocks are making waves on Tuesday.](https://finnhub.io/api/news?id=0c34c0b3b03ebf33b5cdb2e2aa62df9dea0c5b400ba5098836973b6aae6b94b7)**  
-*ChartMill · 17h前*  
-Curious about the S&P500 stocks that are in motion on Tuesday? Join us as we explore the top movers within the S&P500 index during today's session.
+- **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=06bc9619bf53a11a041c1a94ae5eb97fa03663fcef161e2b5f6c6836998b06d4)**  
+*ChartMill · 6h前*  
+Curious about the most active S&P500 stocks in today's session? Get insights into the stocks that are leading the way in terms of trading volume and market atte…
 
-- **[Stay informed with the top movers within the S&P500 index on Tuesday.](https://finnhub.io/api/news?id=fca39c0b151eec8262878ba40ac18260199ffcf7927c70595271e1c7c746f5ee)**  
-*ChartMill · 20h前*  
-Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Tuesday as we examine the latest happenings in today's sessi…
+- **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=9d113a09f48670d436e6f2252bf1887b5a026dfadda5e1b78c4e9f01efe715bf)**  
+*ChartMill · 8h前*  
+Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Wednesday as we examine the latest happenings in today's ses…
 
 ---
 
@@ -48,7 +48,7 @@ Join us in exploring the top gainers and losers within the S&P500 index in the m
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-19 | 監控 | $216.00 | — | 自動更新 |
+| 2026-08-20 | 監控 | $237.27 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Join us in exploring the top gainers and losers within the S&P500 index in the m
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
