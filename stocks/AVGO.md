@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Marvell: The Deal And The Dilution Are Both Real](https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99)**  
+*SeekingAlpha · 4h前*  
+Marvell lands a major Google custom silicon AI deal, but warrants and rich valuation add risk ahead of Aug. Click for more on MRVL stock.
+
+- **[Moderna Doubles on Melanoma Vaccine Win, Treasury Steps In to Cap Long-End Yields](https://finnhub.io/api/news?id=508d178665ed408c01403249081d5127f914ba13062aa866c375984e312e5d86)**  
+*ChartMill · 5h前*  
+US stocks eked out a modest gain on Wednesday, August 19, 2026, as Moderna nearly tripled on a landmark cancer vaccine readout, Marvell locked in a multi-billio…
+
 - **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=9d113a09f48670d436e6f2252bf1887b5a026dfadda5e1b78c4e9f01efe715bf)**  
-*ChartMill · 8h前*  
+*ChartMill · 20h前*  
 Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Wednesday as we examine the latest happenings in today's ses…
-
-- **[Amtech Systems shares are trading lower after the company reported worse-than-expected Q1 financial results.](https://finnhub.io/api/news?id=5fe19d8d82b011548d036955326e9eec94c792a8eb80183da6279cfc3441aa8f)**  
-*Benzinga · 9h前*
-
-- **[I Changed My Mind, Broadcom And Semiconductors Have Peaked For Now](https://finnhub.io/api/news?id=d38500d4868d52a784ea3876ea29bcfc5b7e7e37c6033d2830182a9a8390dc86)**  
-*SeekingAlpha · 9h前*  
-Broadcom Inc. dips 2% as charts signal a bearish semiconductor reversal and fading sentiment. Click for this AVGO stock update.
 
 ---
 
@@ -58,4 +59,4 @@ Broadcom Inc. dips 2% as charts signal a bearish semiconductor reversal and fadi
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
