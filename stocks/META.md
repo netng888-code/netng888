@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,26 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Meta Platforms: H2 2026 May Disappoint - Value Trap Risks Meet Rich Rebound Prospects](https://finnhub.io/api/news?id=8d5c160a2aa798312698cd93a58e5af7b0418e87757a159bb2f98d284d9e2924)**  
+*SeekingAlpha · 7h前*  
+Meta has been able to generate rich advertising revenues of $59.36B in FQ2'26, accelerating from a year ago. Learn why META stock is a buy.
+
+- **[Meta: The Drawdown Is An Opportunity](https://finnhub.io/api/news?id=313505ed8bed4fc195d60a2aa914adc4d0273afec20216bdf86ef3c7d38b2052)**  
+*SeekingAlpha · 13h前*  
+Meta Platforms (META) rated Strong Buy after sell-off; Q2 revenue is +27.9% to $60.8B. Read here for a detailed investment analysis.
+
 - **[Enbridge: Buy The 5.5% Yield And Growing Backlog](https://finnhub.io/api/news?id=98f73a19a15622c76be65cf92568cd2548ca54c63572c2e22909676901a361a7)**  
-*SeekingAlpha · 11h前*  
+*SeekingAlpha · 23h前*  
 Enbridge is rated a Buy driven by a 5.5% dividend yield, modest EBITDA growth, and a robust C$41B secured project backlog. Read more on ENB stock here.
-
-- **[Investors Should Position For Humanoid Robot Boom—Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds](https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e)**  
-*Benzinga · 11h前*  
-Please click here for an enlarged chart of Moderna Inc (NASDAQ:MRNA).
-
-
-
-Note the following:
-
-
-
-
-This article is about the big picture, not an individual stock.…
-
-- **[Hims & Hers Rejects Privacy Allegations While Promising Expanded Patient Access](https://finnhub.io/api/news?id=95450ee9c53d7be5b717131027a21d590462e376e08175dff8b62941afc7d70c)**  
-*Benzinga · 12h前*  
-Hims &amp; Hers CEO Andrew Dudum defends the firm against an FTC lawsuit, discusses dropping GLP-1 drug prices and reveals in-house AI plans.
 
 ---
 
@@ -68,4 +59,4 @@ Hims &amp; Hers CEO Andrew Dudum defends the firm against an FTC lawsuit, discus
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
