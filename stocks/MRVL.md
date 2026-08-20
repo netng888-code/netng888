@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Exploring the top movers within the S&P500 index during today's session.](https://finnhub.io/api/news?id=e46427aae39604591751787a13c6e26e654e9b8fcdfef2fc617183f68f47e48f)**  
-*ChartMill · 5h前*  
-Curious about the top performers within the S&P500 index one hour before the close of the markets on Wednesday? Dive into the list of today's session's top gain…
+- **[These S&P500 stocks that are showing activity before the opening bell on Thursday.](https://finnhub.io/api/news?id=710c4f6ba1bc6547fe0bdb24de23d157524b5f38b704e2396156c75b4c0b5bc2)**  
+*ChartMill · 0h前*  
+As we await the opening of the US market on Thursday, let's delve into the pre-market session and discover the S&P500 top gainers and losers shaping the early m…
 
-- **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=06bc9619bf53a11a041c1a94ae5eb97fa03663fcef161e2b5f6c6836998b06d4)**  
-*ChartMill · 6h前*  
-Curious about the most active S&P500 stocks in today's session? Get insights into the stocks that are leading the way in terms of trading volume and market atte…
+- **[Marvell Q2 Preview: Marveling Momentum, High Expectations, Shares A 'Hold'](https://finnhub.io/api/news?id=ed36d6b2c2698a7d4c7d94ca7e5a0f0948cc7755fb8514d196d8a012bac07014)**  
+*SeekingAlpha · 4h前*  
+Marvell now expects to reach over $3B in quarterly revenue in Q3, a full quarter ahead of its prior forecast. Find out why MRVL stock is a hold.
 
-- **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=9d113a09f48670d436e6f2252bf1887b5a026dfadda5e1b78c4e9f01efe715bf)**  
-*ChartMill · 8h前*  
-Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Wednesday as we examine the latest happenings in today's ses…
+- **[Marvell: The Deal And The Dilution Are Both Real](https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99)**  
+*SeekingAlpha · 4h前*  
+Marvell lands a major Google custom silicon AI deal, but warrants and rich valuation add risk ahead of Aug. Click for more on MRVL stock.
 
 ---
 
@@ -59,4 +59,4 @@ Join us in exploring the top gainers and losers within the S&P500 index in the m
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
