@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$175.70** |
-| 今日變動 | ▼ $8.42　(-4.57%) |
+| 現價 | **$183.68** |
+| 今日變動 | ▲ $7.98　(+4.54%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $174　(▼11.0%) |
+| 未實現盈虧 | ▼ $111　(▼7.0%) |
 
 ---
 
@@ -20,24 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $181.46 | — |
-| Put Wall（支撐） | $150.00 | -14.6% |
-| Call Wall（阻力） | $200.00 | +13.8% |
+| Gamma Flip | $182.65 | — |
+| Put Wall（支撐） | $175.00 | -4.7% |
+| Call Wall（阻力） | $200.00 | +8.9% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[UBS Maintains Neutral on Centrus Energy, Raises Price Target to $185](https://finnhub.io/api/news?id=9e727201a61f6739354110837cdcb73ad6ca8a78fba97b857bd6d5eceda90a2a)**  
+*Benzinga · 14h前*  
+UBS  analyst Jon Windham   maintains Centrus Energy (NYSE:LEU) with a Neutral and raises the price target from $170 to $185.
+
+- **[Barclays Initiates Coverage On Centrus Energy with Equal-Weight Rating, Announces Price Target of $207](https://finnhub.io/api/news?id=3bdae32308770fb30cff96e58d01619679897a0c4e2d41aa9236145a674782ad)**  
+*Benzinga · 15h前*  
+Barclays  analyst Christine Cho   initiates coverage on Centrus Energy (NYSE:LEU) with a Equal-Weight rating and announces Price Target of $207.
+
 - **[Barclays Initiates Coverage of Centrus Energy (LEU) with Equal-Weight Recommendation](https://finnhub.io/api/news?id=be7e0fdb4d64b7e176a8b0c434a8de9084203fd18c295ce44771ec249f8d8521)**  
-*Fintel · 10h前*
-
-- **[Terrestrial Energy shares are trading lower. The company reported Q4 financial results.](https://finnhub.io/api/news?id=77e352dd150f0d8a8a9b2e52b026da6e6164ac8bbaef25d6176d19aa9bc15ed8)**  
-*Benzinga · 22h前*
-
-- **[The Bottlenecks Of The Nuclear Fuel And Supply Chain](https://finnhub.io/api/news?id=bef8c00eb286616614b5061578ed3dedfa68841554d9593422a192b539583571)**  
-*SeekingAlpha · 1d前*
+*Fintel · 22h前*
 
 ---
 
@@ -45,7 +47,7 @@
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-19 | 監控 | $175.70 | — | 自動更新 |
+| 2026-08-20 | 監控 | $183.68 | — | 自動更新 |
 
 ---
 
@@ -56,4 +58,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
