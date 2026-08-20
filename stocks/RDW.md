@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$12.94** |
-| 今日變動 | ▼ $0.47　(-3.50%) |
+| 現價 | **$12.40** |
+| 今日變動 | ▼ $0.54　(-4.17%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $108　(▼17.3%) |
+| 未實現盈虧 | ▼ $130　(▼20.8%) |
 
 ---
 
@@ -20,11 +20,11 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $8.83 | — |
-| Put Wall（支撐） | $12.00 | -7.3% |
-| Call Wall（阻力） | $13.00 | +0.5% |
+| Gamma Flip | $8.99 | — |
+| Put Wall（支撐） | $12.00 | -3.2% |
+| Call Wall（阻力） | $13.00 | +4.8% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
@@ -40,7 +40,7 @@ Kelly defends NASA spending, saying space exploration has driven medical breakth
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-19 | 監控 | $12.94 | — | 自動更新 |
+| 2026-08-20 | 監控 | $12.40 | — | 自動更新 |
 
 ---
 
@@ -51,4 +51,4 @@ Kelly defends NASA spending, saying space exploration has driven medical breakth
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
