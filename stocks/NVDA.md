@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-20 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$219.74** |
-| 今日變動 | ▼ $5.27　(-2.34%) |
+| 現價 | **$217.56** |
+| 今日變動 | ▼ $2.18　(-0.99%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $596　(▲37.2%) |
+| 未實現盈虧 | ▲ $574　(▲35.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $203.15 | — |
-| Put Wall（支撐） | $220.00 | --0.1% |
-| Call Wall（阻力） | $230.00 | +4.7% |
+| Gamma Flip | $203.06 | — |
+| Put Wall（支撐） | $215.00 | -1.2% |
+| Call Wall（阻力） | $220.00 | +1.1% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[NVIDIA (NASDAQ:NVDA) Qualifies as an Affordable Growth Pick](https://finnhub.io/api/news?id=c76fb2ffc4b6a48e2bb32a05ecaa356238a074c97e35811359aa83d3f9934d42)**  
-*ChartMill · 3h前*  
-NVIDIA fits affordable growth: strong earnings/revenue growth, forward P/E below S&P 500, top profitability/health. A balanced growth-value pick.
+- **[Which dow jones stocks are moving on Wednesday?](https://finnhub.io/api/news?id=40115c3c3464e83a2660ead2dc4dec4295ca940e8503f339c0e49581f3b5cef4)**  
+*ChartMill · 5h前*  
+Wondering what's happening in today's session for the dow jones index? Stay informed with the top movers within the dow jones index on Wednesday.
 
-- **[Wall Street Sinks as 30-Year Yield Hits 19-Year High, Chip Names Crumble](https://finnhub.io/api/news?id=62931e0861f4d587e501c84a06cf467fff02e73396bc22fd37f2c5a19c943e4b)**  
-*ChartMill · 4h前*  
-Rising long-end Treasury yields and a sharp reversal in semiconductors dragged US stocks lower on Tuesday, August 18, 2026. Duolingo bucked the trend on a broke…
+- **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=06bc9619bf53a11a041c1a94ae5eb97fa03663fcef161e2b5f6c6836998b06d4)**  
+*ChartMill · 6h前*  
+Curious about the most active S&P500 stocks in today's session? Get insights into the stocks that are leading the way in terms of trading volume and market atte…
 
-- **[Nvidia: Upgrade To Strong Buy On Elongation Of GPU Cycle, Value](https://finnhub.io/api/news?id=09bf27246db2d730d5ebb857c0f57903c8faaa5738e465411f67278caaf51866)**  
-*SeekingAlpha · 5h前*  
-Supply bottlenecks at TSMC and HBM are extending NVIDIAâs GPU cycle and supporting high marginsâsee why itâs upgraded to Strong Buy with a $265 target.
+- **[Which stocks are most active on Wednesday?](https://finnhub.io/api/news?id=709907e313da67eb9297d61718e239cfbac798b8fcaa3222f3077e4bb4eb234f)**  
+*ChartMill · 7h前*  
+Get a pulse on the US markets on Wednesday by checking out the most active stocks in today's session. Discover the stocks that are leading the way in terms of t…
 
 ---
 
@@ -48,7 +48,7 @@ Supply bottlenecks at TSMC and HBM are extending NVIDIAâs GPU cycle and sup
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-19 | 監控 | $219.74 | — | 自動更新 |
+| 2026-08-20 | 監控 | $217.56 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Supply bottlenecks at TSMC and HBM are extending NVIDIAâs GPU cycle and sup
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-19 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-20 09:04 HKT*
