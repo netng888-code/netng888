@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b)**  
-*SeekingAlpha · 4h前*
+- **[Alphabet (NASDAQ:GOOGL): Strong Growth and a Technical Setup Point to a Potential Breakout](https://finnhub.io/api/news?id=6a3ec9ae0ae599cb9acdf3e10380252d90d047641d46fa8e0eb0e6664bde984b)**  
+*ChartMill · 0h前*  
+Alphabet (GOOGL) shows strong growth with EPS up 28.7% and revenue up 20%, backed by solid fundamentals and a technical setup near support.
 
-- **['Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing'- Bloomberg](https://finnhub.io/api/news?id=b953fcc1677023df0bb53e839bc4e97fcf76c4122fdfb3280c74f7c3d72c427e)**  
-*Benzinga · 7h前*  
-https://www.bloomberg.com/news/articles/2026-08-20/anthropic-set-to-add-citigroup-to-top-ipo-banks-on-mega-listing
+- **[Buying Marvell Before Broadcom Is A Big Mistake](https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150)**  
+*SeekingAlpha · 4h前*  
+Broadcom trades at a forward PEG of 0.66x and a FY3 PE under 14x, reflecting significant earnings expansion potential. Learn why AVGO stock is a buy.
 
-- **[Discover which dow jones stocks are making waves on Thursday.](https://finnhub.io/api/news?id=1d8363aabcf751eaf84d1590e0e4b66548c336e4febf069797c0fb58279fa25d)**  
-*ChartMill · 8h前*  
-Stay updated with the movement of dow jones stocks in today's session. Discover which dow jones stocks are making waves on Thursday.
+- **[$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy](https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d)**  
+*SeekingAlpha · 4h前*  
+Direct indexing is rising fast: build an 11-stock, sector-matched S&P 500-style portfolio and boost after-tax returns with tax-loss harvesting. Read more here.
 
 ---
 
@@ -58,4 +59,4 @@ Stay updated with the movement of dow jones stocks in today's session. Discover 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
