@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[Meta Thinks Outside The Box With Memory](https://finnhub.io/api/news?id=ccc06d31b06b868713cb2b564c749ada8b94f4337f4f90ccfeb3ec5836ac2867)**  
+*SeekingAlpha · 10h前*
+
 - **[Win or lose, Meta still faces real risks in its social media addiction trial](https://finnhub.io/api/news?id=4a5a74a098a6112500c983dff88a09233eadd41e8195f272843bb13cffcd3c91)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 Yahoo Finance Tech Editor Dan Howley highlights the risks that Meta Platforms (META) could still face even if it wins its current social media addiction trial b…
 
 - **[LPL Financial Reports Monthly Activity for July 2026](https://finnhub.io/api/news?id=203f5de9dccaf44bcd7169801cf4e436b372479a02474082a031528f3f5c5db5)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 SAN DIEGO, Aug. 20, 2026 (GLOBE NEWSWIRE) -- LPL Financial Holdings Inc. (Nasdaq: LPLA) (the “Company”) today released its monthly activity report for July 2026…
-
-- **[Meta Slips as $200 Billion Youth-Safety Trial Intensifies](https://finnhub.io/api/news?id=f69da5a4c14fb68d9140b9a66fec00214b09324e40ae4fe2b1ce5facd0b85bbe)**  
-*Yahoo · 5h前*  
-Former employee testimony sharpened the legal threat surrounding Facebook and Instagram's design, data collection and recommendation systems.
 
 ---
 
@@ -59,4 +58,4 @@ Former employee testimony sharpened the legal threat surrounding Facebook and In
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
