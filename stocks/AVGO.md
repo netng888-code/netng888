@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Buying Marvell Before Broadcom Is A Big Mistake](https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150)**  
+*SeekingAlpha · 4h前*  
+Broadcom trades at a forward PEG of 0.66x and a FY3 PE under 14x, reflecting significant earnings expansion potential. Learn why AVGO stock is a buy.
+
+- **[EOS: Looking To Explain Weaker Results, Still A 'Buy'](https://finnhub.io/api/news?id=1b28db6798a5f7fbb7a5ac8249e4a625ee682eaaca45c1de30818da665bf6fe5)**  
+*SeekingAlpha · 6h前*  
+The Eaton Vance Enhanced Equity Income Fund II trades at a rare 10.45% discount, offering an 8.36% yield attractive to income-focused investors. Learn more on E…
+
 - **[Hedging Exposure In This Volatile Market](https://finnhub.io/api/news?id=93f337f985f0311e22819a35e71c4675f54bf694bae3c2e6449779c783ab45d3)**  
-*SeekingAlpha · 7h前*  
+*SeekingAlpha · 19h前*  
 Michael Kramer from Reading The MarketsÂ shares why it's important to understand market direction, implied volatility and option positioning.
-
-- **['Broadcom Seeks More Than $60 Billion in Latest AI Debt Deal' - Bloomberg](https://finnhub.io/api/news?id=be47314eef46f3b29cea6eeebfb187ebbd7607353b02e61277f02148e320b8f9)**  
-*Benzinga · 8h前*  
-https://www.bloomberg.com/news/articles/2026-08-20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal
-
-- **[Broadcom: Marvell Panic Causes A Huge Buying Opportunity](https://finnhub.io/api/news?id=42c8bba8655a078154193a1cbcdbdcab4010b3969600f3f8c0f4e073167a5b84)**  
-*SeekingAlpha · 10h前*  
-Broadcom Inc. outlook: why the Marvell-Alphabet deal sell-off looks overdone, plus valuation and AI growth return scenarios. Click for this AVGO update.
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom Inc. outlook: why the Marvell-Alphabet deal sell-off looks overdone, pl
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
