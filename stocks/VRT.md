@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-08-21 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,7 +35,7 @@
 Let's take a look at the S&P500 stocks that are experiencing notable price gaps in today's session on Wednesday. Discover the gap up and gap down stocks in the …
 
 - **[Generac Holdings shares are trading higher after the company reported better-than-expected Q1 financial results.](https://finnhub.io/api/news?id=9dd9787def885ccc08bef3a37f555f9bcf03408bec9645a5da455627bc0ee278)**  
-*Benzinga · 2d前*
+*Benzinga · 3d前*
 
 ---
 
@@ -54,4 +54,4 @@ Let's take a look at the S&P500 stocks that are experiencing notable price gaps 
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:04 HKT*
