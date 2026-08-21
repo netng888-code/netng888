@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-20 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$75.84** |
-| 今日變動 | ▼ $3.32　(-4.19%) |
+| 現價 | **$72.95** |
+| 今日變動 | ▼ $2.89　(-3.81%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $2　(▼0.2%) |
+| 未實現盈虧 | ▼ $30　(▼4.0%) |
 
 ---
 
@@ -20,26 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $78.63 | — |
-| Put Wall（支撐） | $65.00 | -14.3% |
-| Call Wall（阻力） | $80.00 | +5.5% |
+| Gamma Flip | $78.39 | — |
+| Put Wall（支撐） | $70.00 | -4.0% |
+| Call Wall（阻力） | $75.00 | +2.8% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Rocket Lab's Next Phase Changes The Entire Thesis](https://finnhub.io/api/news?id=b1931fb2915c83134520cce7ac5a3f214019f4fa8dcfe94a5fb42d947ac54d5f)**  
-*SeekingAlpha · 1d前*
+- **[Bessent's Bond Rescue Fizzles, Walmart Craters 9%: Stock Market Today](https://finnhub.io/api/news?id=3f3a28f79218cb81b53764c2f6a3e497a8c47216dad56246efc6c5c12b4bd996)**  
+*Benzinga · 12h前*  
+Long-end Treasury yields snapped back toward 20-month highs; Walmart posted its worst session in four years.
 
-- **[Rocket Lab: The Math Doesn't Work](https://finnhub.io/api/news?id=1c569151d29b475eb6a35b62adda47c3df357ce2ebc5c551f9ec0966db5d13f0)**  
-*SeekingAlpha · 1d前*  
-Rocket Lab's Neutron delays to 2027, dilution risk from the $8B Iridium deal, and rich 50x sales valuation amid SpaceX IPO. Find out why RKLB stock is a sell.
+- **[Firefly Aerospace: Riding The Space Race Higher](https://finnhub.io/api/news?id=8ece4bc3278c8abf7392aa9f7a9fc30ac4a967ac7a52eeb0b69938cd9f812b89)**  
+*SeekingAlpha · 12h前*  
+Firefly Aerospace Inc. is trading at a discount to peers amid strong quarterly results and robust backlog growth. Read more on FLY stock here.
 
-- **[Rocket Lab Lands $12 Million Deal To Advance US Military Space Network](https://finnhub.io/api/news?id=a5d44f96bc12b6e8a7e47acf98bc8de0398f444c5d1cd294f759099ca8c171ac)**  
-*Benzinga · 1d前*  
-Rocket Lab joins the U.S. Space Force Space Data Network Consortium and wins two delivery orders worth $12 million for secure optical communications.
+- **[Applied Aerospace & Defense IPO Opens For Trade At $20.75/Share](https://finnhub.io/api/news?id=94956aaed5f42a66be5c8d16245ad64ef09a03aa3534e4e22ee66f3fd23d944b)**  
+*Benzinga · 13h前*
 
 ---
 
@@ -47,7 +47,7 @@ Rocket Lab joins the U.S. Space Force Space Data Network Consortium and wins two
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-20 | 監控 | $75.84 | — | 自動更新 |
+| 2026-08-21 | 監控 | $72.95 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ Rocket Lab joins the U.S. Space Force Space Data Network Consortium and wins two
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 09:05 HKT*
