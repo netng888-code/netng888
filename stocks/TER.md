@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[If You Invested $100 In Teradyne Stock 20 Years Ago, You Would Have This Much Today](https://finnhub.io/api/news?id=ac11275cc882504a7f6a951819594193fd0db92fc384ca56223f52ceb959cfe3)**  
-*Benzinga · 7h前*  
+*Benzinga · 19h前*  
 Teradyne (NASDAQ:TER) has outperformed the market over the past 20 years by 8.81% on an annualized basis producing an average annual return of 18.04%. Currently…
 
 - **[Teradyne (NASDAQ:TER): An Affordable Growth Play with Strong Fundamentals](https://finnhub.io/api/news?id=f0813c7b19858dd71289e191050a187d7c2fd7ee1d473f69bc77bb831d9b8897)**  
-*ChartMill · 13h前*  
+*ChartMill · 1d前*  
 Teradyne (NASDAQ:TER) fits Affordable Growth with strong growth, reasonable valuation, solid health and profitability. See why it screens well.
 
 - **[Teradyne: Upgraded Buy As Chips Grow In Volume/Density - Potential Dip Ahead](https://finnhub.io/api/news?id=7dd200fdf9afe2cd32e4596a538150c784175f18c58f7a4ed05babd16fcfcb79)**  
@@ -59,4 +59,4 @@ Teradyne stock outlook: AI-driven chip testing demand boosts WFE/ATE and earning
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
