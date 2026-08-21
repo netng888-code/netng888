@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$237.27** |
-| 今日變動 | ▲ $21.27　(+9.85%) |
+| 現價 | **$251.01** |
+| 今日變動 | ▲ $13.74　(+5.79%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $200　(▼7.8%) |
+| 未實現盈虧 | ▼ $63　(▼2.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $211.46 | — |
-| Put Wall（支撐） | $200.00 | -15.7% |
-| Call Wall（阻力） | $250.00 | +5.4% |
+| Gamma Flip | $214.26 | — |
+| Put Wall（支撐） | $250.00 | -0.4% |
+| Call Wall（阻力） | $260.00 | +3.6% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[These S&P500 stocks that are showing activity before the opening bell on Thursday.](https://finnhub.io/api/news?id=710c4f6ba1bc6547fe0bdb24de23d157524b5f38b704e2396156c75b4c0b5bc2)**  
-*ChartMill · 0h前*  
-As we await the opening of the US market on Thursday, let's delve into the pre-market session and discover the S&P500 top gainers and losers shaping the early m…
+- **[Looking for the most active stocks in the S&P500 index on Thursday?](https://finnhub.io/api/news?id=de80fd99b19d51b1c063dd5d4eb7830387e2c641e2ad3bda312e7bbd5d6af86f)**  
+*ChartMill · 6h前*  
+Let's have a look at what is happening on the US markets on Thursday. Below you can find the most active S&P500 stocks in today's session.
 
-- **[Marvell Q2 Preview: Marveling Momentum, High Expectations, Shares A 'Hold'](https://finnhub.io/api/news?id=ed36d6b2c2698a7d4c7d94ca7e5a0f0948cc7755fb8514d196d8a012bac07014)**  
-*SeekingAlpha · 4h前*  
-Marvell now expects to reach over $3B in quarterly revenue in Q3, a full quarter ahead of its prior forecast. Find out why MRVL stock is a hold.
+- **[S&P 500 Just Got The Green Light To 8000](https://finnhub.io/api/news?id=1a961459316c8bdf0d9d3718475df173b3baef3c3c18a7fb603ef47084c11ff0)**  
+*SeekingAlpha · 10h前*  
+The S&P 500 could hit 8000 on AI fundamentals and liquidity from Treasury buybacks. Click for why recent decisions could be jet fuel for the market.
 
-- **[Marvell: The Deal And The Dilution Are Both Real](https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99)**  
-*SeekingAlpha · 4h前*  
-Marvell lands a major Google custom silicon AI deal, but warrants and rich valuation add risk ahead of Aug. Click for more on MRVL stock.
+- **[Broadcom: Marvell Panic Causes A Huge Buying Opportunity](https://finnhub.io/api/news?id=42c8bba8655a078154193a1cbcdbdcab4010b3969600f3f8c0f4e073167a5b84)**  
+*SeekingAlpha · 10h前*  
+Broadcom Inc. outlook: why the Marvell-Alphabet deal sell-off looks overdone, plus valuation and AI growth return scenarios. Click for this AVGO update.
 
 ---
 
@@ -48,7 +48,7 @@ Marvell lands a major Google custom silicon AI deal, but warrants and rich valua
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-20 | 監控 | $237.27 | — | 自動更新 |
+| 2026-08-21 | 監控 | $251.01 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Marvell lands a major Google custom silicon AI deal, but warrants and rich valua
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
