@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,30 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Micron Technology (NASDAQ:MU) Flags All Eight Growth Screens as Fundamentals Accelerate](https://finnhub.io/api/news?id=10fdc6a34dd91195e0d2ffde566f40165514557808cec606baf9d9db070629d3)**  
+*ChartMill · 1h前*  
+Micron (MU) clears all 8 Little Book screens. Strong earnings revisions, sales growth, margins, cash flow, and ROE make it a top growth pick.
+
+- **[EOS: Looking To Explain Weaker Results, Still A 'Buy'](https://finnhub.io/api/news?id=1b28db6798a5f7fbb7a5ac8249e4a625ee682eaaca45c1de30818da665bf6fe5)**  
+*SeekingAlpha · 6h前*  
+The Eaton Vance Enhanced Equity Income Fund II trades at a rare 10.45% discount, offering an 8.36% yield attractive to income-focused investors. Learn more on E…
+
 - **[Hedging Exposure In This Volatile Market](https://finnhub.io/api/news?id=93f337f985f0311e22819a35e71c4675f54bf694bae3c2e6449779c783ab45d3)**  
-*SeekingAlpha · 7h前*  
+*SeekingAlpha · 19h前*  
 Michael Kramer from Reading The MarketsÂ shares why it's important to understand market direction, implied volatility and option positioning.
-
-- **[Sandisk: Bulls Are Misjudging Its Valuation And Cyclicality](https://finnhub.io/api/news?id=c7c5b25c2eafdadc430f1ba94c14e82aa7f27535dadac8fe761bc841e68ba1d6)**  
-*SeekingAlpha · 9h前*  
-Sandisk Corporation valuation analysis: backlog, margins, and low forward P/E vs. elevated EV/S and AI-cycle doubts. Click for more on SNDK stock prospects.
-
-- **[Walmart's Outlook Signals Cautious Spending Ahead; Treasury Euphoria Fades; Samsung Soars; Bitcoin Shorts Crushed](https://finnhub.io/api/news?id=9f0fa6491050ece16f58e6bad9a1a4f330e0e162e9f4b10b87b5fd9db4f36298)**  
-*Benzinga · 10h前*  
-Weakening Consumer
-
-
-
-Please click here for an enlarged chart of Walmart Inc (NASDAQ:WMT).
-
-
-
-Note the following:
-
-
-
-
-This article is about the big picture, not…
 
 ---
 
@@ -72,4 +59,4 @@ This article is about the big picture, not…
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
