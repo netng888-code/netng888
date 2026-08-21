@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -39,7 +39,7 @@ Get a pulse on the US markets on Wednesday by checking out the most active stock
 Curious about the most active stocks in today's session? Get a glimpse into the stocks that are generating the highest trading volume and capturing market atten…
 
 - **[Nokia Plans Near-Total China Exit As Domestic Rivals Gain Ground: Report](https://finnhub.io/api/news?id=d7f3bfaca47c04ec7ac19fa708fbc1da629e0c06c6a4c69241061c4b5f10c9db)**  
-*Benzinga · 2d前*  
+*Benzinga · 3d前*  
 Nokia stock drops nearly 4% as reports reveal major mainland China retreat, workforce cuts, and broader tech sell-off. Details here.
 
 ---
@@ -59,4 +59,4 @@ Nokia stock drops nearly 4% as reports reveal major mainland China retreat, work
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:04 HKT*
