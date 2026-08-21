@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Buying Marvell Before Broadcom Is A Big Mistake](https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150)**  
+*SeekingAlpha · 4h前*  
+Broadcom trades at a forward PEG of 0.66x and a FY3 PE under 14x, reflecting significant earnings expansion potential. Learn why AVGO stock is a buy.
+
 - **[Looking for the most active stocks in the S&P500 index on Thursday?](https://finnhub.io/api/news?id=de80fd99b19d51b1c063dd5d4eb7830387e2c641e2ad3bda312e7bbd5d6af86f)**  
-*ChartMill · 6h前*  
+*ChartMill · 18h前*  
 Let's have a look at what is happening on the US markets on Thursday. Below you can find the most active S&P500 stocks in today's session.
 
 - **[S&P 500 Just Got The Green Light To 8000](https://finnhub.io/api/news?id=1a961459316c8bdf0d9d3718475df173b3baef3c3c18a7fb603ef47084c11ff0)**  
-*SeekingAlpha · 10h前*  
+*SeekingAlpha · 22h前*  
 The S&P 500 could hit 8000 on AI fundamentals and liquidity from Treasury buybacks. Click for why recent decisions could be jet fuel for the market.
-
-- **[Broadcom: Marvell Panic Causes A Huge Buying Opportunity](https://finnhub.io/api/news?id=42c8bba8655a078154193a1cbcdbdcab4010b3969600f3f8c0f4e073167a5b84)**  
-*SeekingAlpha · 10h前*  
-Broadcom Inc. outlook: why the Marvell-Alphabet deal sell-off looks overdone, plus valuation and AI growth return scenarios. Click for this AVGO update.
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom Inc. outlook: why the Marvell-Alphabet deal sell-off looks overdone, pl
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
