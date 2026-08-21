@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-08-21 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,12 @@
 
 ## 📰 最新新聞
 
+- **[Intuitive Surgical: Stock Price Too High Even For Great Business](https://finnhub.io/api/news?id=6f374ae6c15fa7dea349cf91294b96c12a7e7af313f4c1d618bbfd9539b379a8)**  
+*SeekingAlpha · 12h前*  
+Intuitive Surgical (ISRG)'s Q2/26 surge shows a moat and recurring revenue, but a rich valuation keeps it a Hold. Read here for more details.
+
 - **[Exploring the top movers within the S&P500 index during today's session.](https://finnhub.io/api/news?id=79817c6765abca477c158dde61718bc04fe3d602b4fecbff929b0a7fcd1bb05a)**  
-*ChartMill · 5h前*  
+*ChartMill · 17h前*  
 Stay informed about the performance of the S&P500 index one hour before the close of the markets on Thursday. Uncover the top gainers and losers in today's sess…
 
 ---
@@ -51,4 +55,4 @@ Stay informed about the performance of the S&P500 index one hour before the clos
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:04 HKT*
