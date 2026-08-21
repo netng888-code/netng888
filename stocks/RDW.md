@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,17 +21,17 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $12.06 | — |
-| Put Wall（支撐） | $11.50 | -2.3% |
+| Put Wall（支撐） | $12.00 | --2.0% |
 | Call Wall（阻力） | $13.00 | +10.5% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
 - **[Applied Aerospace & Defense IPO Opens For Trade At $20.75/Share](https://finnhub.io/api/news?id=94956aaed5f42a66be5c8d16245ad64ef09a03aa3534e4e22ee66f3fd23d944b)**  
-*Benzinga · 13h前*
+*Benzinga · 1d前*
 
 ---
 
@@ -50,4 +50,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:04 HKT*
