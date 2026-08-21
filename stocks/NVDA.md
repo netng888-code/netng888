@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$217.56** |
-| 今日變動 | ▼ $2.18　(-0.99%) |
+| 現價 | **$216.85** |
+| 今日變動 | ▼ $0.71　(-0.33%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $574　(▲35.9%) |
+| 未實現盈虧 | ▲ $567　(▲35.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $203.06 | — |
-| Put Wall（支撐） | $215.00 | -1.2% |
-| Call Wall（阻力） | $220.00 | +1.1% |
+| Gamma Flip | $204.66 | — |
+| Put Wall（支撐） | $215.00 | -0.9% |
+| Call Wall（阻力） | $220.00 | +1.5% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia FQ2 Preview: I'm Seeing A 50%+ FCF Discount](https://finnhub.io/api/news?id=b77380b3f8123ad2ebbb78612bce447fe5a9fecb805b09a4d0898abf53ad90f8)**  
-*SeekingAlpha · 4h前*  
-Nvidia will provide up to $105 billion for the credit and compute for an OpenAI data center in Ohio. Find out why NVDA stock is a buy.
+- **[Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b)**  
+*SeekingAlpha · 4h前*
 
-- **[Investing In The Building Blocks Of The Humanoid Revolution - Part 2 (The Brain)](https://finnhub.io/api/news?id=27169b49a8a67e1d061d882987a133367971362d000faef12ba8ecd56b2edb02)**  
-*SeekingAlpha · 10h前*  
-Humanoid brains require specialized modular assembly. Building a functional digital brain requires assembling best-in-class hardware from specialized suppliers.
+- **[Which dow jones stocks are moving on Thursday?](https://finnhub.io/api/news?id=dfd1ab1771431dd4977c3660606f49ee58f6377693bed6cc3754ed3555c67ed0)**  
+*ChartMill · 5h前*  
+Uncover the latest developments among dow jones stocks in today's session. Stay tuned to the dow jones index's top gainers and losers on Thursday.
 
-- **[Which dow jones stocks are moving on Wednesday?](https://finnhub.io/api/news?id=40115c3c3464e83a2660ead2dc4dec4295ca940e8503f339c0e49581f3b5cef4)**  
-*ChartMill · 17h前*  
-Wondering what's happening in today's session for the dow jones index? Stay informed with the top movers within the dow jones index on Wednesday.
+- **[Looking for the most active stocks in the S&P500 index on Thursday?](https://finnhub.io/api/news?id=de80fd99b19d51b1c063dd5d4eb7830387e2c641e2ad3bda312e7bbd5d6af86f)**  
+*ChartMill · 6h前*  
+Let's have a look at what is happening on the US markets on Thursday. Below you can find the most active S&P500 stocks in today's session.
 
 ---
 
@@ -48,7 +47,7 @@ Wondering what's happening in today's session for the dow jones index? Stay info
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-20 | 監控 | $217.56 | — | 自動更新 |
+| 2026-08-21 | 監控 | $216.85 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ Wondering what's happening in today's session for the dow jones index? Stay info
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
