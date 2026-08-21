@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Bessent's Bond Rescue Fizzles, Walmart Craters 9%: Stock Market Today](https://finnhub.io/api/news?id=3f3a28f79218cb81b53764c2f6a3e497a8c47216dad56246efc6c5c12b4bd996)**  
-*Benzinga · 12h前*  
+*Benzinga · 1d前*  
 Long-end Treasury yields snapped back toward 20-month highs; Walmart posted its worst session in four years.
 
 - **[Terrestrial Energy shares are trading lower. The company reported Q4 financial results.](https://finnhub.io/api/news?id=77e352dd150f0d8a8a9b2e52b026da6e6164ac8bbaef25d6176d19aa9bc15ed8)**  
@@ -54,4 +54,4 @@ Long-end Treasury yields snapped back toward 20-month highs; Walmart posted its 
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 21:04 HKT*
