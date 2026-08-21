@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$344.72** |
-| 今日變動 | ▲ $0.52　(+0.15%) |
+| 現價 | **$340.67** |
+| 今日變動 | ▼ $4.05　(-1.17%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $1,996　(▲93.2%) |
+| 未實現盈虧 | ▲ $1,947　(▲91.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $339.93 | — |
-| Put Wall（支撐） | $340.00 | -1.4% |
-| Call Wall（阻力） | $350.00 | +1.5% |
+| Gamma Flip | $340.55 | — |
+| Put Wall（支撐） | $340.00 | -0.2% |
+| Call Wall（阻力） | $350.00 | +2.7% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Marvell: The Deal And The Dilution Are Both Real](https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99)**  
-*SeekingAlpha · 4h前*  
-Marvell lands a major Google custom silicon AI deal, but warrants and rich valuation add risk ahead of Aug. Click for more on MRVL stock.
+- **[Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b)**  
+*SeekingAlpha · 4h前*
 
-- **[Moderna Doubles on Melanoma Vaccine Win, Treasury Steps In to Cap Long-End Yields](https://finnhub.io/api/news?id=508d178665ed408c01403249081d5127f914ba13062aa866c375984e312e5d86)**  
-*ChartMill · 5h前*  
-US stocks eked out a modest gain on Wednesday, August 19, 2026, as Moderna nearly tripled on a landmark cancer vaccine readout, Marvell locked in a multi-billio…
+- **['Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing'- Bloomberg](https://finnhub.io/api/news?id=b953fcc1677023df0bb53e839bc4e97fcf76c4122fdfb3280c74f7c3d72c427e)**  
+*Benzinga · 7h前*  
+https://www.bloomberg.com/news/articles/2026-08-20/anthropic-set-to-add-citigroup-to-top-ipo-banks-on-mega-listing
 
-- **[Harry Qelm Baabsman's 2026 Half-Year Letter To Investors](https://finnhub.io/api/news?id=a5aec2a565933f017eebe10cb4892d3023a83d60b2201ae7b78504bf0fdde8c6)**  
-*SeekingAlpha · 15h前*  
-Steppe Eagle OEICâs YTD return vs MSCI World, tactical buys and mega-cap tech risk.
+- **[Discover which dow jones stocks are making waves on Thursday.](https://finnhub.io/api/news?id=1d8363aabcf751eaf84d1590e0e4b66548c336e4febf069797c0fb58279fa25d)**  
+*ChartMill · 8h前*  
+Stay updated with the movement of dow jones stocks in today's session. Discover which dow jones stocks are making waves on Thursday.
 
 ---
 
@@ -48,7 +47,7 @@ Steppe Eagle OEICâs YTD return vs MSCI World, tactical buys and mega-cap te
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-20 | 監控 | $344.72 | — | 自動更新 |
+| 2026-08-21 | 監控 | $340.67 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ Steppe Eagle OEICâs YTD return vs MSCI World, tactical buys and mega-cap te
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
