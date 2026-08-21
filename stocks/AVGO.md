@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$362.48** |
-| 今日變動 | ▼ $17.52　(-4.61%) |
+| 現價 | **$364.03** |
+| 今日變動 | ▲ $1.55　(+0.43%) |
 | 持倉數量 | 13 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $210　(▼4.3%) |
+| 未實現盈虧 | ▼ $189　(▼3.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $386.50 | — |
-| Put Wall（支撐） | $360.00 | -0.7% |
-| Call Wall（阻力） | $400.00 | +10.4% |
+| Gamma Flip | $382.62 | — |
+| Put Wall（支撐） | $360.00 | -1.1% |
+| Call Wall（阻力） | $400.00 | +9.9% |
 
 **狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell: The Deal And The Dilution Are Both Real](https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99)**  
-*SeekingAlpha · 4h前*  
-Marvell lands a major Google custom silicon AI deal, but warrants and rich valuation add risk ahead of Aug. Click for more on MRVL stock.
+- **[Hedging Exposure In This Volatile Market](https://finnhub.io/api/news?id=93f337f985f0311e22819a35e71c4675f54bf694bae3c2e6449779c783ab45d3)**  
+*SeekingAlpha · 7h前*  
+Michael Kramer from Reading The MarketsÂ shares why it's important to understand market direction, implied volatility and option positioning.
 
-- **[Moderna Doubles on Melanoma Vaccine Win, Treasury Steps In to Cap Long-End Yields](https://finnhub.io/api/news?id=508d178665ed408c01403249081d5127f914ba13062aa866c375984e312e5d86)**  
-*ChartMill · 5h前*  
-US stocks eked out a modest gain on Wednesday, August 19, 2026, as Moderna nearly tripled on a landmark cancer vaccine readout, Marvell locked in a multi-billio…
+- **['Broadcom Seeks More Than $60 Billion in Latest AI Debt Deal' - Bloomberg](https://finnhub.io/api/news?id=be47314eef46f3b29cea6eeebfb187ebbd7607353b02e61277f02148e320b8f9)**  
+*Benzinga · 8h前*  
+https://www.bloomberg.com/news/articles/2026-08-20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal
 
-- **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=9d113a09f48670d436e6f2252bf1887b5a026dfadda5e1b78c4e9f01efe715bf)**  
-*ChartMill · 20h前*  
-Join us in exploring the top gainers and losers within the S&P500 index in the middle of the day on Wednesday as we examine the latest happenings in today's ses…
+- **[Broadcom: Marvell Panic Causes A Huge Buying Opportunity](https://finnhub.io/api/news?id=42c8bba8655a078154193a1cbcdbdcab4010b3969600f3f8c0f4e073167a5b84)**  
+*SeekingAlpha · 10h前*  
+Broadcom Inc. outlook: why the Marvell-Alphabet deal sell-off looks overdone, plus valuation and AI growth return scenarios. Click for this AVGO update.
 
 ---
 
@@ -48,7 +48,7 @@ Join us in exploring the top gainers and losers within the S&P500 index in the m
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-20 | 監控 | $362.48 | — | 自動更新 |
+| 2026-08-21 | 監控 | $364.03 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Join us in exploring the top gainers and losers within the S&P500 index in the m
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
