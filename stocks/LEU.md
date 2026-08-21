@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$183.68** |
-| 今日變動 | ▲ $7.98　(+4.54%) |
+| 現價 | **$176.13** |
+| 今日變動 | ▼ $7.55　(-4.11%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $111　(▼7.0%) |
+| 未實現盈虧 | ▼ $171　(▼10.8%) |
 
 ---
 
@@ -20,11 +20,11 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $182.65 | — |
-| Put Wall（支撐） | $175.00 | -4.7% |
-| Call Wall（阻力） | $200.00 | +8.9% |
+| Gamma Flip | $184.43 | — |
+| Put Wall（支撐） | $175.00 | -0.6% |
+| Call Wall（阻力） | $180.00 | +2.2% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
@@ -47,7 +47,7 @@ Barclays  analyst Christine Cho   initiates coverage on Centrus Energy (NYSE:LEU
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-20 | 監控 | $183.68 | — | 自動更新 |
+| 2026-08-21 | 監控 | $176.13 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ Barclays  analyst Christine Cho   initiates coverage on Centrus Energy (NYSE:LEU
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
