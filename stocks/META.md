@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$546.03** |
-| 今日變動 | ▲ $2.36　(+0.43%) |
+| 現價 | **$545.83** |
+| 今日變動 | ▼ $0.20　(-0.04%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $181　(▼9.9%) |
+| 未實現盈虧 | ▼ $182　(▼10.0%) |
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $562.81 | — |
+| Gamma Flip | $559.46 | — |
 | Put Wall（支撐） | $540.00 | -1.1% |
 | Call Wall（阻力） | $750.00 | +37.4% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Platforms: H2 2026 May Disappoint - Value Trap Risks Meet Rich Rebound Prospects](https://finnhub.io/api/news?id=8d5c160a2aa798312698cd93a58e5af7b0418e87757a159bb2f98d284d9e2924)**  
-*SeekingAlpha · 7h前*  
-Meta has been able to generate rich advertising revenues of $59.36B in FQ2'26, accelerating from a year ago. Learn why META stock is a buy.
+- **[Win or lose, Meta still faces real risks in its social media addiction trial](https://finnhub.io/api/news?id=4a5a74a098a6112500c983dff88a09233eadd41e8195f272843bb13cffcd3c91)**  
+*Yahoo · 4h前*  
+Yahoo Finance Tech Editor Dan Howley highlights the risks that Meta Platforms (META) could still face even if it wins its current social media addiction trial b…
 
-- **[Meta: The Drawdown Is An Opportunity](https://finnhub.io/api/news?id=313505ed8bed4fc195d60a2aa914adc4d0273afec20216bdf86ef3c7d38b2052)**  
-*SeekingAlpha · 13h前*  
-Meta Platforms (META) rated Strong Buy after sell-off; Q2 revenue is +27.9% to $60.8B. Read here for a detailed investment analysis.
+- **[LPL Financial Reports Monthly Activity for July 2026](https://finnhub.io/api/news?id=203f5de9dccaf44bcd7169801cf4e436b372479a02474082a031528f3f5c5db5)**  
+*Yahoo · 4h前*  
+SAN DIEGO, Aug. 20, 2026 (GLOBE NEWSWIRE) -- LPL Financial Holdings Inc. (Nasdaq: LPLA) (the “Company”) today released its monthly activity report for July 2026…
 
-- **[Enbridge: Buy The 5.5% Yield And Growing Backlog](https://finnhub.io/api/news?id=98f73a19a15622c76be65cf92568cd2548ca54c63572c2e22909676901a361a7)**  
-*SeekingAlpha · 23h前*  
-Enbridge is rated a Buy driven by a 5.5% dividend yield, modest EBITDA growth, and a robust C$41B secured project backlog. Read more on ENB stock here.
+- **[Meta Slips as $200 Billion Youth-Safety Trial Intensifies](https://finnhub.io/api/news?id=f69da5a4c14fb68d9140b9a66fec00214b09324e40ae4fe2b1ce5facd0b85bbe)**  
+*Yahoo · 5h前*  
+Former employee testimony sharpened the legal threat surrounding Facebook and Instagram's design, data collection and recommendation systems.
 
 ---
 
@@ -48,7 +48,7 @@ Enbridge is rated a Buy driven by a 5.5% dividend yield, modest EBITDA growth, a
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-20 | 監控 | $546.03 | — | 自動更新 |
+| 2026-08-21 | 監控 | $545.83 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Enbridge is rated a Buy driven by a 5.5% dividend yield, modest EBITDA growth, a
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-21 09:04 HKT*
