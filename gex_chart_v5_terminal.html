@@ -321,13 +321,44 @@
     文字，唔使改前端。）
     4. WATCHLIST新增CRWV／COHR／NBIS／LITE（CoreWeave/Coherent/
     Nebius三隻AI基建新增追蹤 + LITE清倉後改放watchlist）。
+  v5.17（2026-08-21）：新增「📅 到期日曆」tab——回應用戶提出「Futu
+    冇官方期權到期提醒/事件日曆功能」（已直接問過Futu客服確認），
+    整合全部持倉嘅期權到期日做一個自建日曆，等用戶一眼睇晒邊隻
+    持倉幾時撞正OPEX。背景：GEX Wall建基於期權OI，OPEX一過，相關
+    到期日嘅OI會「roll off」，Call/Put Wall好可能大幅跳動——但依家
+    個「GEX + K線」tab淨係俾用戶主動查詢單一symbol嘅到期日list
+    （t-exp pill），冇一個俾用戶一次過睇晒全部持倉嘅到期日總覽、
+    亦冇高亮邊個係Monthly OPEX（每月第三個星期五，OI通常最大，
+    Max Pain磁吸效應最明顯）定Quarterly（3/6/9/12月嘅Monthly，即
+    Triple Witching）。
+    新增第4個tab「📅 到期日曆」（排喺GEX + K線之後、Field Inspector
+    之前），call futu_bridge_v2.py v3.5新增嘅/api/options_calendar
+    （sequential逐隻攞ctx.get_option_expiration_date()——呢個call
+    get_gex()一路都有用緊，只不過攞完即棄，而家獨立包裝成endpoint
+    俾呢度重用，冇額外API成本），前端將回應整理做時間排序表格，
+    Weekly/Monthly/Quarterly三種類型用不同顏色badge區分，未來7日內
+    嘅row用amber highlight，頂部有摘要橫額列出邊幾隻持倉即將撞正
+    Monthly/Quarterly OPEX。table入面股票代碼可以直接click跳去
+    「GEX + K線」tab並自動查詢嗰隻，同其他tab嘅quicklinks一致嘅
+    互動模式。fetchOptionsCalendar()喺setTab('calendar')嗰陣先call
+    （lazy load，唔喺頁面init就攞），backend有24小時cache，重複
+    切換tab唔會構成負擔。
+  v5.18（2026-08-21 續）：新增持倉LYTE（Roundhill Photonics & Optics
+    ETF）——2026-08-20買入30股@$25.00（Futu截圖確認），PORTFOLIO
+    object／HOLDINGS quicklinks陣列（插喺ISRG之後、RKLB之前，粗略
+    對應市值排序）／持倉總覽tab label「(17)」→「(18)」同步更新。
+    同步futu_bridge_v2.py（v3.6，US_STOCKS加返US.LYTE）／
+    index.html／telegram_bot.py／github_gex_updater.py／CSV，五檔
+    同步規則走齊。LYTE係2026-08-06先上市嘅新ETF，期權鏈/OI可能仲
+    未夠成熟，查詢GEX或落新增嘅「📅 到期日曆」度可能出現數據較薄
+    或Field Inspector顯示唔到嘅情況，屬正常現象，唔係bridge壞咗。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.16)</title>
+<title>GEX Chart — Futu Bridge (v5.18)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -793,8 +824,9 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 
 <!-- Tabs（v6：持倉總覽排第一位，並做預設開啟分頁） -->
 <div class="tabs">
-  <button class="tab active" onclick="setTab('holdings')">💼 持倉總覽 (17)</button>
+  <button class="tab active" onclick="setTab('holdings')">💼 持倉總覽 (18)</button>
   <button class="tab" onclick="setTab('gex')">📊 GEX + K線</button>
+  <button class="tab" onclick="setTab('calendar')">📅 到期日曆</button>
   <button class="tab" onclick="setTab('fi')">🔬 Field Inspector</button>
 </div>
 
@@ -1033,6 +1065,29 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 
 </div>
 
+<!-- ══════════════ 到期日曆 TAB（v5.17新增）══════════════ -->
+<div class="pane" id="pane-calendar">
+  <div class="section-eyebrow">
+    <span class="txt">期權到期日曆</span>
+    <span class="tag">NEW</span>
+    <div class="line"></div>
+  </div>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:14px;line-height:1.6">
+    整合全部17隻持倉嘅期權到期日（未來45日內）。GEX Wall建基於期權OI，OPEX一過相關到期日嘅OI會「roll off」，Call/Put Wall好可能大幅跳動——留意🟢Monthly／🟣Quarterly（Triple Witching）呢兩類，OI通常最大、Max Pain磁吸效應最明顯。
+  </div>
+  <div class="ctrl">
+    <button class="refresh-btn primary" onclick="fetchOptionsCalendar()">↻ 刷新</button>
+    <div class="legend">
+      <span class="leg" style="color:var(--purple)">🟣 Quarterly</span>
+      <span class="leg" style="color:var(--green)">🟢 Monthly OPEX</span>
+      <span class="leg" style="color:var(--muted)">⚪ Weekly</span>
+    </div>
+    <span style="font-size:10px;color:var(--muted);margin-left:auto" id="cal-src">—</span>
+  </div>
+  <div id="cal-summary"></div>
+  <div id="cal-content"><div class="loading"><span class="spin"></span>連接 Bridge...</div></div>
+</div>
+
 <!-- ══════════════ FIELD INSPECTOR TAB ══════════════ -->
 <div class="pane" id="pane-fi">
   <div class="fi-wrap">
@@ -1150,7 +1205,7 @@ let lastMoneyFlow  = null;
 
 // ── Futu 持倉 + Watchlist（quicklinks 來源）────────────────────
 // 持倉：holdings_US CSV（依市值降序）。改持倉後記得同步更新呢度。
-const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','MU','RDW','ISRG','RKLB','VRT','RR','SERV'];
+const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','MU','RDW','ISRG','LYTE','RKLB','VRT','RR','SERV'];
 // Watchlist：GitHub live mywatchlist.html（21隻）+ 用戶另外要求加入嘅5隻（GLD/KLAC/LRCX/AMAT/ASML）
 // + 2026-07-10新增5隻生物科技/製藥股（LLY/VRTX/REGN/MRNA/BNTX）
 // + 2026-07-18新增SKHY（SK海力士ADR，2026年7月NASDAQ新上市，原代碼SKHYV
@@ -1192,6 +1247,7 @@ const PORTFOLIO = {
   'RKLB': {qty:10,  cost:76.00   },
   'PLTR': {qty:12,  cost:127.304 },
   'ISRG': {qty:2,   cost:453.10  },
+  'LYTE': {qty:30,  cost:25.00   },
   'RR':   {qty:300, cost:2.445   },
   'VRT':  {qty:2,   cost:303.76  },
   'SERV': {qty:30,  cost:11.743  },
@@ -1569,13 +1625,17 @@ async function fetchNow() {
   document.getElementById('t-cd').textContent=_cd+'s';
 }
 
-// ── Tabs（3個：gex預設/holdings/fi）──────────────────────────
-const TABS = ['holdings','gex','fi'];
+// ── Tabs（4個：holdings/gex/calendar(v5.17新增)/fi）──────────
+const TABS = ['holdings','gex','calendar','fi'];
 function setTab(name) {
   document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',TABS[i]===name));
   document.querySelectorAll('.pane').forEach(p=>p.classList.remove('active'));
   document.getElementById('pane-'+name).classList.add('active');
   if (name==='gex') document.getElementById('sym-input').focus();
+  // v5.17：到期日曆lazy load——淨係喺用戶真正撳入呢個tab先call bridge，
+  // 唔喺頁面init就攞（backend有24小時cache，重複切換tab唔會加負擔，
+  // 但都冇必要每個用戶一開頁就攞埋呢份唔一定會睇嘅數據）。
+  if (name==='calendar') fetchOptionsCalendar();
 }
 
 // ── T1 from live quote ─────────────────────────────────────────
@@ -2525,6 +2585,81 @@ function hideAll() {
   document.getElementById('t1live-pill').style.display='none';
   document.getElementById('ai-section').style.display='none';
   ['p-sym','p-exp','p-ts','p-mf'].forEach(id=>document.getElementById(id).style.display='none');
+}
+
+// ══════════════════════════════════════════════════════════════
+// 期權到期日曆（v5.17新增）── call futu_bridge_v2.py v3.5新增嘅
+// /api/options_calendar，整合全部持倉嘅期權到期日做時間排序表格。
+// ══════════════════════════════════════════════════════════════
+const OPEX_TYPE_CFG = {
+  quarterly: {label:'Quarterly',    icon:'🟣', color:'var(--purple)'},
+  monthly:   {label:'Monthly OPEX', icon:'🟢', color:'var(--green)'},
+  weekly:    {label:'Weekly',       icon:'⚪', color:'var(--muted)'},
+};
+
+async function fetchOptionsCalendar() {
+  const contentEl = document.getElementById('cal-content');
+  const summaryEl = document.getElementById('cal-summary');
+  contentEl.innerHTML = '<div class="loading"><span class="spin"></span>載入期權到期日曆...</div>';
+  summaryEl.innerHTML = '';
+  document.getElementById('cal-src').textContent = '載入中...';
+  try {
+    const r = await fetch(`${BRIDGE}/api/options_calendar?days_ahead=45`, {signal:AbortSignal.timeout(30000)});
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    renderOptionsCalendar(d);
+  } catch (e) {
+    contentEl.innerHTML = `<div class="loading" style="color:var(--red)">
+      ⚠ 無法連接 Bridge (127.0.0.1:8888)<br>
+      <span style="font-size:10px;color:var(--muted)">確認 futu_bridge_v2.py 正在運行，OpenD 已登入。Error: ${e.message}</span>
+    </div>`;
+    document.getElementById('cal-src').textContent = '連接失敗';
+  }
+}
+
+function renderOptionsCalendar(d) {
+  const events   = d.events || [];
+  const contentEl = document.getElementById('cal-content');
+  const summaryEl = document.getElementById('cal-summary');
+  const srcTag = d.cached ? '（緩存，24小時TTL）' : '（剛從Futu OpenD攞）';
+  document.getElementById('cal-src').textContent = `Futu · 未來${d.days_ahead || 45}日 ${srcTag}`;
+
+  if (!events.length) {
+    contentEl.innerHTML = '<div class="loading">暫無數據 — Bridge未連接，或未來45日內查唔到任何到期日</div>';
+    return;
+  }
+
+  // 摘要橫額：未來7日內嘅Monthly/Quarterly OPEX（Weekly太頻密，唔值得摘要提醒）
+  const soon = events.filter(e => e.days_to_expiry <= 7 && (e.type === 'monthly' || e.type === 'quarterly'));
+  if (soon.length) {
+    const symList = [...new Set(soon.map(e => e.sym))].join('、');
+    summaryEl.innerHTML = `<div class="realized-banner" style="border-color:rgba(245,166,35,.3);background:rgba(245,166,35,.07);margin-bottom:14px">
+      ⚠️ <strong>${soon.length}個持倉將於7日內撞正Monthly/Quarterly OPEX：${symList}</strong>
+      —— OPEX過後相關到期日OI會roll off，Call/Put Wall可能大幅跳動，查詢GEX時留意Wall有冇突然改變。
+    </div>`;
+  }
+
+  let html = `<div class="tbl-wrap"><table>
+    <thead><tr><th>股票</th><th>到期日</th><th>距今</th><th>類型</th></tr></thead><tbody>`;
+  events.forEach(e => {
+    const cfg = OPEX_TYPE_CFG[e.type] || OPEX_TYPE_CFG.weekly;
+    const isSoon = e.days_to_expiry <= 7;
+    const rowStyle = isSoon ? ' style="background:rgba(245,166,35,.06)"' : '';
+    const dueLabel = e.days_to_expiry === 0 ? '今日' : `${e.days_to_expiry}日後`;
+    html += `<tr${rowStyle}>
+      <td><span class="sym" onclick="setTab('gex');quickSearch('${e.sym}')">${e.sym}</span></td>
+      <td class="mv-cell">${e.date}</td>
+      <td style="color:${isSoon ? 'var(--amber)' : 'var(--muted)'};font-weight:${isSoon?'600':'400'}">${dueLabel}</td>
+      <td><span style="color:${cfg.color}">${cfg.icon} ${cfg.label}</span></td>
+    </tr>`;
+  });
+  html += '</tbody></table></div>';
+  contentEl.innerHTML = html;
+
+  if (d.errors && Object.keys(d.errors).length) {
+    const errSyms = Object.keys(d.errors).join('、');
+    contentEl.innerHTML += `<div style="font-size:10px;color:var(--muted);margin-top:8px">⚠ ${errSyms} 未能攞到到期日數據</div>`;
+  }
 }
 
 // ── Init ─────────────────────────────────────────────────────

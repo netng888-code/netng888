@@ -240,7 +240,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
       <div class="summary-value" id="sum-us-mktval">USD 29,319.44</div>
-      <div class="summary-sub" id="sum-us-count">17 個持倉</div>
+      <div class="summary-sub" id="sum-us-count">18 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
@@ -549,6 +549,23 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
           <a class="ge-link" href="https://www.barchart.com/stocks/quotes/ISRG/gamma-exposure" target="_blank">GE</a>
         </div>
       </td></tr><tr>
+      <td><span class="sym-badge" onclick="openFlipTo('LYTE')">LYTE</span></td>
+      <td class="name-cell">Roundhill Photonics &amp; Optics ETF</td>
+      <td style="color:var(--muted)">30</td>
+      <td><span class="price-cell price-live">25.65</span></td>
+      <td><span class="ext-price-cell">—</span></td>
+      <td style="color:var(--muted)">25.00</td>
+      <td class="mktval-cell">769.50</td>
+      <td class="pnl-pos">+19.50</td>
+      <td><span class="pct-badge pos">+2.60%</span></td>
+      <td class="pnl-pos today-pnl-cell">+12.00</td>
+      <td>
+        <div class="action-links">
+          <button class="chart-link" onclick="openFlipTo('LYTE')">📈</button>
+          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=LYTE" target="_blank">FV</a>
+          <a class="ge-link" href="https://www.barchart.com/stocks/quotes/LYTE/gamma-exposure" target="_blank">GE</a>
+        </div>
+      </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('RR')">RR</span></td>
       <td class="name-cell">Richtech Robotics</td>
       <td style="color:var(--muted)">300</td>
@@ -743,7 +760,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-08-14 ｜ AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
+  <span>持倉更新：2026-08-21 ｜ LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -816,6 +833,7 @@ const US_HOLDINGS = [
   { symbol:'RKLB',  name:'Rocket Lab',           qty:10,  cost:76.00,    mktval:1079.20,  pnl:319.20,   pnlPct:'+42.00%',  realized:440.00,  todayPnL:-3.10   },
   { symbol:'PLTR',  name:'Palantir',             qty:12,  cost:127.304,  mktval:1577.52,  pnl:49.87,    pnlPct:'+3.26%',   realized:112.19,  todayPnL:100.80  },
   { symbol:'ISRG',  name:'直覺外科公司',            qty:2,   cost:453.10,   mktval:855.16,   pnl:-51.04,   pnlPct:'-5.63%',   realized:0,       todayPnL:1.94    },
+  { symbol:'LYTE',  name:'Roundhill Photonics & Optics ETF', qty:30, cost:25.00, mktval:769.50, pnl:19.50, pnlPct:'+2.60%',   realized:0,       todayPnL:12.00   },
   { symbol:'RR',    name:'Richtech Robotics',    qty:300, cost:2.445,    mktval:687.00,   pnl:-46.50,   pnlPct:'-6.34%',   realized:52.09,   todayPnL:-3.00   },
   { symbol:'VRT',   name:'Vertiv Holdings',      qty:2,   cost:303.76,   mktval:579.04,   pnl:-28.48,   pnlPct:'-4.69%',   realized:0,       todayPnL:0.00    },
   { symbol:'SERV',  name:'Serve Robotics',       qty:30,  cost:11.743,   mktval:213.00,   pnl:-139.30,  pnlPct:'-39.54%',  realized:0,       todayPnL:4.80    },
