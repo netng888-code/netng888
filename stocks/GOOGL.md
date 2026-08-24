@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$340.67** |
-| 今日變動 | ▼ $4.05　(-1.17%) |
+| 現價 | **$344.82** |
+| 今日變動 | ▲ $4.15　(+1.22%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $1,947　(▲91.0%) |
+| 未實現盈虧 | ▲ $1,997　(▲93.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $340.55 | — |
-| Put Wall（支撐） | $340.00 | -0.2% |
-| Call Wall（阻力） | $350.00 | +2.7% |
+| Gamma Flip | $337.65 | — |
+| Put Wall（支撐） | $330.00 | -4.3% |
+| Call Wall（阻力） | $350.00 | +1.5% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Alphabet (NASDAQ:GOOGL): Strong Growth and a Technical Setup Point to a Potential Breakout](https://finnhub.io/api/news?id=6a3ec9ae0ae599cb9acdf3e10380252d90d047641d46fa8e0eb0e6664bde984b)**  
-*ChartMill · 0h前*  
-Alphabet (GOOGL) shows strong growth with EPS up 28.7% and revenue up 20%, backed by solid fundamentals and a technical setup near support.
+- **[Data Center and Cloud Infrastructure Earnings Face a High-Stakes AI Demand Test](https://finnhub.io/api/news?id=e5f829afa2f6175b149487545832e8aa7e002e52df98231000d53e26fd1155fa)**  
+*ChartMill · 1d前*  
+Data center and cloud infrastructure stocks face a key earnings test as NVDA, MSFT, GOOGL, AMZN, and EQIX report—AI spending pace vs high valuations.
 
-- **[Buying Marvell Before Broadcom Is A Big Mistake](https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150)**  
-*SeekingAlpha · 4h前*  
-Broadcom trades at a forward PEG of 0.66x and a FY3 PE under 14x, reflecting significant earnings expansion potential. Learn why AVGO stock is a buy.
+- **[FFA: Beware Of The AI Risk With This High-Yielding Covered Call Fund](https://finnhub.io/api/news?id=0cbcff8caf58cbcfbfc47128930be73edbbd176eb424c7737c0049545a204699)**  
+*SeekingAlpha · 1d前*  
+Explore First Trust Enhanced Equity Income Fund: 6.67% yield via covered calls, tech-heavy risks, discount to NAV, performance vs. S&P 500. Click to read more.
 
-- **[$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy](https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d)**  
-*SeekingAlpha · 4h前*  
-Direct indexing is rising fast: build an 11-stock, sector-matched S&P 500-style portfolio and boost after-tax returns with tax-loss harvesting. Read more here.
+- **[Benzinga Bulls and Bears: Ross, Moderna, Webull](https://finnhub.io/api/news?id=9c7c4b6e7a4bd983931392cae935ba5ee7de9fcf2e7462339dc649abae2c0a2a)**  
+*Benzinga · 1d前*  
+Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
 
 ---
 
@@ -48,7 +48,7 @@ Direct indexing is rising fast: build an 11-stock, sector-matched S&P 500-style 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-21 | 監控 | $340.67 | — | 自動更新 |
+| 2026-08-24 | 監控 | $344.82 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Direct indexing is rising fast: build an 11-stock, sector-matched S&P 500-style 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 09:05 HKT*
