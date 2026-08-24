@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$545.83** |
-| 今日變動 | ▼ $0.20　(-0.04%) |
+| 現價 | **$549.90** |
+| 今日變動 | ▲ $4.07　(+0.75%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $182　(▼10.0%) |
+| 未實現盈虧 | ▼ $169　(▼9.3%) |
 
 ---
 
@@ -20,26 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $559.46 | — |
-| Put Wall（支撐） | $540.00 | -1.1% |
-| Call Wall（阻力） | $750.00 | +37.4% |
+| Gamma Flip | $563.31 | — |
+| Put Wall（支撐） | $540.00 | -1.8% |
+| Call Wall（阻力） | $750.00 | +36.4% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Meta Thinks Outside The Box With Memory](https://finnhub.io/api/news?id=ccc06d31b06b868713cb2b564c749ada8b94f4337f4f90ccfeb3ec5836ac2867)**  
-*SeekingAlpha · 10h前*
+- **[Nobody Warned Her That Two Retirement Accounts Meant Two RMD Rules, a 25% Penalty](https://finnhub.io/api/news?id=86011f05583cbdc29708497735170951a408aed7390139fb652c423818647de9)**  
+*Yahoo · 6h前*  
+She calculated her required withdrawals correctly, pulled the right total, and still triggered a painful IRS penalty. The mistake had nothing to do with the mat…
 
-- **[Win or lose, Meta still faces real risks in its social media addiction trial](https://finnhub.io/api/news?id=4a5a74a098a6112500c983dff88a09233eadd41e8195f272843bb13cffcd3c91)**  
-*Yahoo · 16h前*  
-Yahoo Finance Tech Editor Dan Howley highlights the risks that Meta Platforms (META) could still face even if it wins its current social media addiction trial b…
+- **[Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens](https://finnhub.io/api/news?id=e12b285cb9bab3e4e96048a68e48dea5f65168b112c994b8f79247df72c03371)**  
+*Yahoo · 6h前*  
+Microsoft (NasdaqGS:MSFT) faces new obligations in Australia as a law requiring large digital platforms to pay local publishers for news content comes into effe…
 
-- **[LPL Financial Reports Monthly Activity for July 2026](https://finnhub.io/api/news?id=203f5de9dccaf44bcd7169801cf4e436b372479a02474082a031528f3f5c5db5)**  
-*Yahoo · 16h前*  
-SAN DIEGO, Aug. 20, 2026 (GLOBE NEWSWIRE) -- LPL Financial Holdings Inc. (Nasdaq: LPLA) (the “Company”) today released its monthly activity report for July 2026…
+- **[Trump Continues Trading Stocks at Warp Speed: Berkshire Bought, Meta Sold](https://finnhub.io/api/news?id=9e0bdc9badb8609b9eb8174cf6711e4131b5f18c8a220c9ca0c969805b9bdd83)**  
+*Yahoo · 10h前*  
+President Trump's accounts executed more than 1,000 trades in a single month, including moves in a major defense contractor timed suspiciously close to a surpri…
 
 ---
 
@@ -47,7 +48,7 @@ SAN DIEGO, Aug. 20, 2026 (GLOBE NEWSWIRE) -- LPL Financial Holdings Inc. (Nasdaq
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-21 | 監控 | $545.83 | — | 自動更新 |
+| 2026-08-24 | 監控 | $549.90 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ SAN DIEGO, Aug. 20, 2026 (GLOBE NEWSWIRE) -- LPL Financial Holdings Inc. (Nasdaq
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 09:05 HKT*
