@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-24 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[These S&P500 stocks are moving in today's pre-market session](https://finnhub.io/api/news?id=e9386091a547b5c5ac5664a5b9868042b9c5f651b4bfd68eef3b900e2c40acb2)**  
+*ChartMill · 0h前*  
+Get insights into the top gainers and losers in the S&P500 index of Monday's pre-market session.
+
+- **[Marvell Technology: A Lot Of Moving Parts](https://finnhub.io/api/news?id=dfa3de0d1f365df4ac5b3127f32e9707f529fe59ec802d3d892bc869e11a0d94)**  
+*SeekingAlpha · 10h前*  
+Marvell Technology's landmark Google deal could potentially triple revenues to $31 billion. Read why I remain on the sidelines of MRVL stock.
+
 - **[Dow Jones Futures Due With Nvidia Earnings, Tariffs, Warsh In Focus](https://finnhub.io/api/news?id=577c8a3d6038618e28ec5afaa43dec0226d48d1817f11f0686ae6a2bdee952d9)**  
-*Yahoo · 6h前*  
+*Yahoo · 18h前*  
 The market rally suffered damage last week, though bitcoin and gold shined. New Trump tariffs on Canada began Saturday. Nvidia, CrowdStrike and Fed's Warsh loom…
-
-- **[Broadcom vs. Marvell Technology: 1 Critical Metric Decides the Better Custom AI Chip Stock](https://finnhub.io/api/news?id=12f1e456221807cd220275e57f4df8b49a9783c2523e582ee86b95a6dfcf70a1)**  
-*Yahoo · 6h前*  
-Custom AI chips will see more demand over the next few years.
-
-- **[Wall Street Brunch: Nvidia And Jackson Hole Vie For Market Sway](https://finnhub.io/api/news?id=12cd46b0cff0e28d639ec498220f053d46a43a80156d3db8cdb9d92d4ad86b9f)**  
-*SeekingAlpha · 11h前*  
-Nvidia earnings put the AI trade back in focus. Kevin Warsh heads to Jackson Hole as bond vigilantes stir. Canada hits back with retaliatory tariffs on U.S. imp…
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia earnings put the AI trade back in focus. Kevin Warsh heads to Jackson Hol
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
