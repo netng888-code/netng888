@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$216.85** |
-| 今日變動 | ▼ $0.71　(-0.33%) |
+| 現價 | **$214.72** |
+| 今日變動 | ▼ $2.13　(-0.98%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $567　(▲35.4%) |
+| 未實現盈虧 | ▲ $546　(▲34.1%) |
 
 ---
 
@@ -20,26 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $204.66 | — |
-| Put Wall（支撐） | $215.00 | -0.9% |
-| Call Wall（阻力） | $220.00 | +1.5% |
+| Gamma Flip | $199.09 | — |
+| Put Wall（支撐） | $200.00 | -6.9% |
+| Call Wall（阻力） | $220.00 | +2.5% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nvidia: There Is No Plan B](https://finnhub.io/api/news?id=fba8f1f77c01a624e196e4b357b1335a7b53a3df2b39be1ae58938f84185f18f)**  
-*SeekingAlpha · 5h前*  
-Nvidia Corporation is valued at $5.45T, trading at 22x forward earnings, with 85% annual revenue growth and a singular focus on AI. Click for this NVDA update.
+- **[Target Just Reported Earnings. Here's Whether the Dividend King Is Still a Buy.](https://finnhub.io/api/news?id=6c96e89c38999e2c42720f86887deb312dfaa033a7c01ca2152b00736d9bc64a)**  
+*Yahoo · 6h前*  
+The once-struggling retailer just reported a second-consecutive solid quarter just one year after a new CEO took over. Connect the dots.
 
-- **[Nvidia Next Up](https://finnhub.io/api/news?id=e2906889cfaae86a98f587d38a8ad30b980f5f00c3a687314435d8251ad09758)**  
-*SeekingAlpha · 12h前*  
-Nvidia is set to report next Wednesday (8/26) after the close.
+- **[The U.S. National Debt Officially Surpassed $40 Trillion in August: Here's What History Says This Means for the Stock Market](https://finnhub.io/api/news?id=70aa09e38af46e3dfcefb67e425dc8d1ac0437fb92c90bf84013fcae876b14f8)**  
+*Yahoo · 6h前*  
+This enormous figure shines a bright light on the country's troubled financial situation.
 
-- **[Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b)**  
-*SeekingAlpha · 16h前*
+- **[SentinelOne Is Up 42% This Year and Reports Earnings on August 27. Should You Buy Before the Earnings Release?](https://finnhub.io/api/news?id=4d4b35e25727d44c6b38d5e53dc4c93ead55deb21beb1d859b9a4231f23ad276)**  
+*Yahoo · 6h前*  
+SentinelOne has had a nice run, but is that enough to make it a buy before the earnings release?
 
 ---
 
@@ -47,7 +48,7 @@ Nvidia is set to report next Wednesday (8/26) after the close.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-21 | 監控 | $216.85 | — | 自動更新 |
+| 2026-08-24 | 監控 | $214.72 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ Nvidia is set to report next Wednesday (8/26) after the close.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 09:05 HKT*
