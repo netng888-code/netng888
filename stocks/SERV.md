@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-08-24 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Nvidia Earnings Report To Keep Next Week Busy](https://finnhub.io/api/news?id=942876dc175ea29c858a82fdcbd974cd778b10d64012ed7a210d252cbf8b1602)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Wall Street Week Ahead: key market events, earnings (NVDA, CRM), economic data (PCE, GDP), Jackson Hole, dividends & volatility. See here for more.
 
 ---
@@ -51,4 +51,4 @@ Wall Street Week Ahead: key market events, earnings (NVDA, CRM), economic data (
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 21:05 HKT*
