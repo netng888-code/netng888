@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-24 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Forget The Cloud Rally: Semiconductors Rule AI](https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf)**  
+*SeekingAlpha · 4h前*  
+Cloud computing ETFs (SKYY) surged on AWS/Azure/Google earningsâbut risks loom. Get a cautious '26â27 outlook favoring AI infrastructure over cloud. Click f…
+
+- **[Market Volatility Risk: Nvidia Earnings And Jackson Hole Next Week](https://finnhub.io/api/news?id=8522f9c5d378b2e6f3094ea6b686f844912c8f43296bc2edff0144a92bd32f24)**  
+*SeekingAlpha · 15h前*  
+Upcoming catalysts for the market include Nvidia earnings and the Federal Reserve's Jackson Hole conference. Read more on the market here.
+
 - **[Data Center and Cloud Infrastructure Earnings Face a High-Stakes AI Demand Test](https://finnhub.io/api/news?id=e5f829afa2f6175b149487545832e8aa7e002e52df98231000d53e26fd1155fa)**  
-*ChartMill · 1d前*  
+*ChartMill · 2d前*  
 Data center and cloud infrastructure stocks face a key earnings test as NVDA, MSFT, GOOGL, AMZN, and EQIX report—AI spending pace vs high valuations.
-
-- **[FFA: Beware Of The AI Risk With This High-Yielding Covered Call Fund](https://finnhub.io/api/news?id=0cbcff8caf58cbcfbfc47128930be73edbbd176eb424c7737c0049545a204699)**  
-*SeekingAlpha · 1d前*  
-Explore First Trust Enhanced Equity Income Fund: 6.67% yield via covered calls, tech-heavy risks, discount to NAV, performance vs. S&P 500. Click to read more.
-
-- **[Benzinga Bulls and Bears: Ross, Moderna, Webull](https://finnhub.io/api/news?id=9c7c4b6e7a4bd983931392cae935ba5ee7de9fcf2e7462339dc649abae2c0a2a)**  
-*Benzinga · 1d前*  
-Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
 
 ---
 
@@ -59,4 +59,4 @@ Benzinga examined the prospects for many investors’ favorite stocks over the l
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
