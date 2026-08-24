@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-24 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Target Just Reported Earnings. Here's Whether the Dividend King Is Still a Buy.](https://finnhub.io/api/news?id=6c96e89c38999e2c42720f86887deb312dfaa033a7c01ca2152b00736d9bc64a)**  
-*Yahoo · 6h前*  
-The once-struggling retailer just reported a second-consecutive solid quarter just one year after a new CEO took over. Connect the dots.
+- **[NVIDIA (NASDAQ:NVDA) Pairs High Growth Momentum with a Breakout Setup](https://finnhub.io/api/news?id=e1c60b399ed39a900e0d80fcbc0f1729243c862583550bf3d26340b2b803395f)**  
+*ChartMill · 2h前*  
+NVIDIA (NVDA) scores 8/10 for growth momentum and technicals, with accelerating earnings/sales and a defined setup. See the full analysis.
 
-- **[The U.S. National Debt Officially Surpassed $40 Trillion in August: Here's What History Says This Means for the Stock Market](https://finnhub.io/api/news?id=70aa09e38af46e3dfcefb67e425dc8d1ac0437fb92c90bf84013fcae876b14f8)**  
-*Yahoo · 6h前*  
-This enormous figure shines a bright light on the country's troubled financial situation.
+- **[Bessent's Toolbox Gets a Rest as Gold Prints $4,600 and Ross Stores Cleans Up](https://finnhub.io/api/news?id=7787e77d790c82615e1e824a41688465d5bf2c4d110e7c42c19de2bdd668833b)**  
+*ChartMill · 3h前*  
+Wall Street closed a bruising week on a firmer note Friday, August 21, 2026, with the Dow up nearly 1%, gold pushing above $4,600 an ounce, Ross Stores and BJ's…
 
-- **[SentinelOne Is Up 42% This Year and Reports Earnings on August 27. Should You Buy Before the Earnings Release?](https://finnhub.io/api/news?id=4d4b35e25727d44c6b38d5e53dc4c93ead55deb21beb1d859b9a4231f23ad276)**  
-*Yahoo · 6h前*  
-SentinelOne has had a nice run, but is that enough to make it a buy before the earnings release?
+- **[Dividend Harvesting Portfolio Week 286: $28,600 Allocated, $3,258.87 In Projected Dividends](https://finnhub.io/api/news?id=81c77f54c115f7f22d56de5258f065c35c8b5019b334448239e76dc706b67c0d)**  
+*SeekingAlpha · 4h前*
 
 ---
 
@@ -59,4 +58,4 @@ SentinelOne has had a nice run, but is that enough to make it a buy before the e
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
