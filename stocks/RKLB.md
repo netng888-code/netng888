@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$72.95** |
-| 今日變動 | ▼ $2.89　(-3.81%) |
+| 現價 | **$72.57** |
+| 今日變動 | ▼ $0.38　(-0.52%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $30　(▼4.0%) |
+| 未實現盈虧 | ▼ $34　(▼4.5%) |
 
 ---
 
@@ -20,26 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $78.39 | — |
-| Put Wall（支撐） | $70.00 | -4.0% |
-| Call Wall（阻力） | $75.00 | +2.8% |
+| Gamma Flip | $77.94 | — |
+| Put Wall（支撐） | $65.00 | -10.4% |
+| Call Wall（阻力） | $90.00 | +24.0% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Bessent's Bond Rescue Fizzles, Walmart Craters 9%: Stock Market Today](https://finnhub.io/api/news?id=3f3a28f79218cb81b53764c2f6a3e497a8c47216dad56246efc6c5c12b4bd996)**  
-*Benzinga · 1d前*  
-Long-end Treasury yields snapped back toward 20-month highs; Walmart posted its worst session in four years.
+- **[Trump Orders 1,000 Space Launches a Year by 2030 — That's 5x Today's Pace](https://finnhub.io/api/news?id=2433d951c0562ac6b93cfc15cd07f82079a1a269f27f7824664156bb63702a75)**  
+*Yahoo · 14h前*  
+President Donald Trump signed a memo Thursday directing federal agencies to dramatically ramp up commercial rocket activity, setting a target of at least 1,000 …
 
-- **[Firefly Aerospace: Riding The Space Race Higher](https://finnhub.io/api/news?id=8ece4bc3278c8abf7392aa9f7a9fc30ac4a967ac7a52eeb0b69938cd9f812b89)**  
+- **[Rocket Lab Trades at 59 Times Revenue With Neutron Still Unflown](https://finnhub.io/api/news?id=495ccceaae0994cd94b70045390ddd383be3c6812d583ed0a8f74302151644aa)**  
+*Yahoo · 1d前*  
+The launch company keeps setting records, and its backlog has more than doubled. The valuation assumes a much bigger company -- one that needs a rocket that has…
+
+- **[Rocket Lab: Mars Ambition & Growing Backlog Outweighs Delayed Neutron Timing (Rating Upgrade)](https://finnhub.io/api/news?id=27d9b15adf1ebcddf806cdc21edc1a3bcf1d5124ec8a20fb38b62e3e3417e4c1)**  
 *SeekingAlpha · 1d前*  
-Firefly Aerospace Inc. is trading at a discount to peers amid strong quarterly results and robust backlog growth. Read more on FLY stock here.
-
-- **[Applied Aerospace & Defense IPO Opens For Trade At $20.75/Share](https://finnhub.io/api/news?id=94956aaed5f42a66be5c8d16245ad64ef09a03aa3534e4e22ee66f3fd23d944b)**  
-*Benzinga · 1d前*
+Rocket Lab's acquisitions, Mars projects, and a $2.36B backlog fueling growth make a case for a buy. Click here to read more about the RKLB stock.
 
 ---
 
@@ -47,7 +48,7 @@ Firefly Aerospace Inc. is trading at a discount to peers amid strong quarterly r
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-21 | 監控 | $72.95 | — | 自動更新 |
+| 2026-08-24 | 監控 | $72.57 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ Firefly Aerospace Inc. is trading at a discount to peers amid strong quarterly r
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 09:06 HKT*
