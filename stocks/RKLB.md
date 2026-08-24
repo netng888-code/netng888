@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-24 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Trump Orders 1,000 Space Launches a Year by 2030 — That's 5x Today's Pace](https://finnhub.io/api/news?id=2433d951c0562ac6b93cfc15cd07f82079a1a269f27f7824664156bb63702a75)**  
-*Yahoo · 14h前*  
+*Yahoo · 1d前*  
 President Donald Trump signed a memo Thursday directing federal agencies to dramatically ramp up commercial rocket activity, setting a target of at least 1,000 …
 
 - **[Rocket Lab Trades at 59 Times Revenue With Neutron Still Unflown](https://finnhub.io/api/news?id=495ccceaae0994cd94b70045390ddd383be3c6812d583ed0a8f74302151644aa)**  
@@ -39,7 +39,7 @@ President Donald Trump signed a memo Thursday directing federal agencies to dram
 The launch company keeps setting records, and its backlog has more than doubled. The valuation assumes a much bigger company -- one that needs a rocket that has…
 
 - **[Rocket Lab: Mars Ambition & Growing Backlog Outweighs Delayed Neutron Timing (Rating Upgrade)](https://finnhub.io/api/news?id=27d9b15adf1ebcddf806cdc21edc1a3bcf1d5124ec8a20fb38b62e3e3417e4c1)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Rocket Lab's acquisitions, Mars projects, and a $2.36B backlog fueling growth make a case for a buy. Click here to read more about the RKLB stock.
 
 ---
@@ -59,4 +59,4 @@ Rocket Lab's acquisitions, Mars projects, and a $2.36B backlog fueling growth ma
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
