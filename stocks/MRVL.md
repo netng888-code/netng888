@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$251.01** |
-| 今日變動 | ▲ $13.74　(+5.79%) |
+| 現價 | **$237.04** |
+| 今日變動 | ▼ $13.97　(-5.57%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $63　(▼2.4%) |
+| 未實現盈虧 | ▼ $203　(▼7.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $214.26 | — |
-| Put Wall（支撐） | $250.00 | -0.4% |
-| Call Wall（阻力） | $260.00 | +3.6% |
+| Gamma Flip | $215.85 | — |
+| Put Wall（支撐） | $200.00 | -15.6% |
+| Call Wall（阻力） | $250.00 | +5.5% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Buying Marvell Before Broadcom Is A Big Mistake](https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150)**  
-*SeekingAlpha · 4h前*  
-Broadcom trades at a forward PEG of 0.66x and a FY3 PE under 14x, reflecting significant earnings expansion potential. Learn why AVGO stock is a buy.
+- **[Dow Jones Futures Due With Nvidia Earnings, Tariffs, Warsh In Focus](https://finnhub.io/api/news?id=577c8a3d6038618e28ec5afaa43dec0226d48d1817f11f0686ae6a2bdee952d9)**  
+*Yahoo · 6h前*  
+The market rally suffered damage last week, though bitcoin and gold shined. New Trump tariffs on Canada began Saturday. Nvidia, CrowdStrike and Fed's Warsh loom…
 
-- **[Looking for the most active stocks in the S&P500 index on Thursday?](https://finnhub.io/api/news?id=de80fd99b19d51b1c063dd5d4eb7830387e2c641e2ad3bda312e7bbd5d6af86f)**  
-*ChartMill · 18h前*  
-Let's have a look at what is happening on the US markets on Thursday. Below you can find the most active S&P500 stocks in today's session.
+- **[Broadcom vs. Marvell Technology: 1 Critical Metric Decides the Better Custom AI Chip Stock](https://finnhub.io/api/news?id=12f1e456221807cd220275e57f4df8b49a9783c2523e582ee86b95a6dfcf70a1)**  
+*Yahoo · 6h前*  
+Custom AI chips will see more demand over the next few years.
 
-- **[S&P 500 Just Got The Green Light To 8000](https://finnhub.io/api/news?id=1a961459316c8bdf0d9d3718475df173b3baef3c3c18a7fb603ef47084c11ff0)**  
-*SeekingAlpha · 22h前*  
-The S&P 500 could hit 8000 on AI fundamentals and liquidity from Treasury buybacks. Click for why recent decisions could be jet fuel for the market.
+- **[Wall Street Brunch: Nvidia And Jackson Hole Vie For Market Sway](https://finnhub.io/api/news?id=12cd46b0cff0e28d639ec498220f053d46a43a80156d3db8cdb9d92d4ad86b9f)**  
+*SeekingAlpha · 11h前*  
+Nvidia earnings put the AI trade back in focus. Kevin Warsh heads to Jackson Hole as bond vigilantes stir. Canada hits back with retaliatory tariffs on U.S. imp…
 
 ---
 
@@ -48,7 +48,7 @@ The S&P 500 could hit 8000 on AI fundamentals and liquidity from Treasury buybac
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-21 | 監控 | $251.01 | — | 自動更新 |
+| 2026-08-24 | 監控 | $237.04 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The S&P 500 could hit 8000 on AI fundamentals and liquidity from Treasury buybac
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 09:05 HKT*
