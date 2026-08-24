@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-24 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -34,7 +34,7 @@
 *Benzinga · 2d前*
 
 - **['Centrus Sees US Military as Key Market for Its Enriched Uranium' - Bloomberg Interview](https://finnhub.io/api/news?id=e381c4ca9ea4ea46cd49534593233d9dca655e76d0e8d48f45faaf171ddb38bf)**  
-*Benzinga · 2d前*  
+*Benzinga · 3d前*  
 https://www.bloomberg.com/news/articles/2026-08-21/centrus-sees-us-military-as-key-market-for-its-enriched-uranium
 
 ---
@@ -54,4 +54,4 @@ https://www.bloomberg.com/news/articles/2026-08-21/centrus-sees-us-military-as-k
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
