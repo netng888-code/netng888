@@ -1,6 +1,6 @@
 # LYTE — Roundhill Photonics & Optics ETF
 
-> 最後更新：2026-08-24 09:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[BUZZ Investing: Markets Look Through Intra-Period Volatility](https://finnhub.io/api/news?id=f8b1da701340dfb84dd264e2e4b41797bbdb4a488d598888072f0f3a46f94b8e)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 AI and semiconductor volatility gave way to an August recovery as a leveraged hedge fund unwind cleared, and Super Micro and Palantir led BUZZ Index gains. Read…
 
 ---
@@ -51,4 +51,4 @@ AI and semiconductor volatility gave way to an August recovery as a leveraged he
 - [TradingView](https://www.tradingview.com/chart/?symbol=LYTE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 09:06 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
