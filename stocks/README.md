@@ -1,6 +1,6 @@
 # 持倉 GEX 快照索引
 
-最後更新：2026-08-21
+最後更新：2026-08-24
 
 | 股票 | 名稱 | 連結 |
 |------|------|------|
@@ -18,6 +18,7 @@
 | RKLB | Rocket Lab | [查看](RKLB.md) |
 | PLTR | Palantir | [查看](PLTR.md) |
 | ISRG | 直覺外科公司 | [查看](ISRG.md) |
+| LYTE | Roundhill Photonics & Optics ETF | [查看](LYTE.md) |
 | RR | Richtech Robotics | [查看](RR.md) |
 | VRT | Vertiv Holdings | [查看](VRT.md) |
 | SERV | Serve Robotics | [查看](SERV.md) |
