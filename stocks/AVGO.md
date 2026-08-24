@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$364.03** |
-| 今日變動 | ▲ $1.55　(+0.43%) |
-| 持倉數量 | 13 股 |
-| 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $189　(▼3.8%) |
+| 現價 | **$368.45** |
+| 今日變動 | ▲ $4.42　(+1.21%) |
+| 持倉數量 | 10 股 |
+| 平均成本 | $375.782 |
+| 未實現盈虧 | ▼ $73　(▼2.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $382.62 | — |
-| Put Wall（支撐） | $360.00 | -1.1% |
-| Call Wall（阻力） | $400.00 | +9.9% |
+| Gamma Flip | $380.14 | — |
+| Put Wall（支撐） | $360.00 | -2.3% |
+| Call Wall（阻力） | $400.00 | +8.6% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Buying Marvell Before Broadcom Is A Big Mistake](https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150)**  
-*SeekingAlpha · 4h前*  
-Broadcom trades at a forward PEG of 0.66x and a FY3 PE under 14x, reflecting significant earnings expansion potential. Learn why AVGO stock is a buy.
+- **[Broadcom vs. Marvell Technology: 1 Critical Metric Decides the Better Custom AI Chip Stock](https://finnhub.io/api/news?id=12f1e456221807cd220275e57f4df8b49a9783c2523e582ee86b95a6dfcf70a1)**  
+*Yahoo · 6h前*  
+Custom AI chips will see more demand over the next few years.
 
-- **[EOS: Looking To Explain Weaker Results, Still A 'Buy'](https://finnhub.io/api/news?id=1b28db6798a5f7fbb7a5ac8249e4a625ee682eaaca45c1de30818da665bf6fe5)**  
-*SeekingAlpha · 6h前*  
-The Eaton Vance Enhanced Equity Income Fund II trades at a rare 10.45% discount, offering an 8.36% yield attractive to income-focused investors. Learn more on E…
+- **[Forget Broadcom: Nvidia (NVDA) Is Still the Top Semiconductor Stock for 2027 and Beyond](https://finnhub.io/api/news?id=b40be1909044dd7a0c90eeb83fd286d6cccfbb4425b8e58d4185c1043fe67018)**  
+*Yahoo · 14h前*  
+Nvidia stands out as the top semiconductor stock for the coming years because of its dominant AI ecosystem, not to mention it's the most popular AI stock in the…
 
-- **[Hedging Exposure In This Volatile Market](https://finnhub.io/api/news?id=93f337f985f0311e22819a35e71c4675f54bf694bae3c2e6449779c783ab45d3)**  
-*SeekingAlpha · 19h前*  
-Michael Kramer from Reading The MarketsÂ shares why it's important to understand market direction, implied volatility and option positioning.
+- **[Third Point Starts to Raise Alarm Bells on Broadcom After Dumping AVGO Stock in Q2](https://finnhub.io/api/news?id=0ca279e7b64d74c6c0ae82e4785b5d0fe1ac8dd868657e961011a4f4d780033c)**  
+*Yahoo · 1d前*  
+Dan Loeb's Third Point exits Broadcom ahead of second-quarter results as the stock has surged in 2026.
 
 ---
 
@@ -48,7 +48,7 @@ Michael Kramer from Reading The MarketsÂ shares why it's important to understa
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-21 | 監控 | $364.03 | — | 自動更新 |
+| 2026-08-24 | 監控 | $368.45 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Michael Kramer from Reading The MarketsÂ shares why it's important to understa
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 09:05 HKT*
