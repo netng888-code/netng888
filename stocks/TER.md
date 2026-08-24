@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-24 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$383.15** |
-| 今日變動 | ▲ $3.50　(+0.92%) |
+| 現價 | **$375.74** |
+| 今日變動 | ▼ $7.41　(-1.93%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,456　(▲316.5%) |
+| 未實現盈虧 | ▲ $1,419　(▲308.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $380.78 | — |
-| Put Wall（支撐） | $360.00 | -6.0% |
-| Call Wall（阻力） | $390.00 | +1.8% |
+| Gamma Flip | $382.32 | — |
+| Put Wall（支撐） | $375.00 | -0.2% |
+| Call Wall（阻力） | $405.00 | +7.8% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[If You Invested $100 In Teradyne Stock 20 Years Ago, You Would Have This Much Today](https://finnhub.io/api/news?id=ac11275cc882504a7f6a951819594193fd0db92fc384ca56223f52ceb959cfe3)**  
-*Benzinga · 19h前*  
-Teradyne (NASDAQ:TER) has outperformed the market over the past 20 years by 8.81% on an annualized basis producing an average annual return of 18.04%. Currently…
+- **[Exploring the top movers within the S&P500 index during today's session.](https://finnhub.io/api/news?id=708327aa4cf03c9d0967d12cb84df44a2e6c3be635420cd2ec7b4c4b54c811d9)**  
+*ChartMill · 2d前*  
+Curious about the S&P500 stocks that are in motion on Friday? Join us as we explore the top movers within the S&P500 index during today's session.
 
-- **[Teradyne (NASDAQ:TER): An Affordable Growth Play with Strong Fundamentals](https://finnhub.io/api/news?id=f0813c7b19858dd71289e191050a187d7c2fd7ee1d473f69bc77bb831d9b8897)**  
-*ChartMill · 1d前*  
-Teradyne (NASDAQ:TER) fits Affordable Growth with strong growth, reasonable valuation, solid health and profitability. See why it screens well.
+- **[Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls](https://finnhub.io/api/news?id=9c1f430fce17af8d010b3fb1eaee8275436eef26d8278df820a98e773e87580b)**  
+*Yahoo · 2d前*  
+Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls
 
-- **[Teradyne: Upgraded Buy As Chips Grow In Volume/Density - Potential Dip Ahead](https://finnhub.io/api/news?id=7dd200fdf9afe2cd32e4596a538150c784175f18c58f7a4ed05babd16fcfcb79)**  
-*SeekingAlpha · 1d前*  
-Teradyne stock outlook: AI-driven chip testing demand boosts WFE/ATE and earnings growth. Read here for a detailed analysis of TER stock.
+- **[Gapping S&P500 stocks in Friday's session](https://finnhub.io/api/news?id=f94d15727706d55a828bd7d5b086fb07632bdb7c50289291e884e38e3051b0c3)**  
+*ChartMill · 2d前*  
+Let's have a look at the S&P500 gap up and gap down stocks in today's session.
 
 ---
 
@@ -48,7 +48,7 @@ Teradyne stock outlook: AI-driven chip testing demand boosts WFE/ATE and earning
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-21 | 監控 | $383.15 | — | 自動更新 |
+| 2026-08-24 | 監控 | $375.74 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne stock outlook: AI-driven chip testing demand boosts WFE/ATE and earning
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-24 09:05 HKT*
