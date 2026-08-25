@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$186.26** |
-| 今日變動 | ▲ $10.13　(+5.75%) |
+| 現價 | **$177.14** |
+| 今日變動 | ▼ $9.12　(-4.90%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $90　(▼5.7%) |
+| 未實現盈虧 | ▼ $163　(▼10.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $189.41 | — |
-| Put Wall（支撐） | $175.00 | -6.0% |
-| Call Wall（阻力） | $220.00 | +18.1% |
+| Gamma Flip | $185.33 | — |
+| Put Wall（支撐） | $150.00 | -15.3% |
+| Call Wall（阻力） | $220.00 | +24.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,12 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[X-Energy IPO Opens For Trade At $30.11/Share; IPO Priced At $23/Share On 44,254,659 Shares](https://finnhub.io/api/news?id=975af2f337d72d70b61a69fd97e5afeca128898f530aa00c65a97c1b2b4f3894)**  
-*Benzinga · 2d前*
+- **[Green Plains, Liberty Energy, Nabors Industries, Centrus Energy, and Oceaneering Shares Are Falling, What You Need To Know](https://finnhub.io/api/news?id=5ea01086a43914455560760ebe0495f63185518b3ae80732857df0a8c4bf14d7)**  
+*Yahoo · 4h前*  
+A number of stocks fell in the afternoon session after Crude oil prices pulled back as traders locked in profits after two weeks of gains and awaited details on…
 
-- **['Centrus Sees US Military as Key Market for Its Enriched Uranium' - Bloomberg Interview](https://finnhub.io/api/news?id=e381c4ca9ea4ea46cd49534593233d9dca655e76d0e8d48f45faaf171ddb38bf)**  
-*Benzinga · 3d前*  
-https://www.bloomberg.com/news/articles/2026-08-21/centrus-sees-us-military-as-key-market-for-its-enriched-uranium
+- **[Keep This Renewable Energy Stock Close Until November](https://finnhub.io/api/news?id=d190ffdf5d875481f182bd06c3e2c7a840c9a91a9f9b2eea2e030e740d1002b2)**  
+*Yahoo · 5h前*  
+History says you should 'buy the dip' on Centrus Energy stock
+
+- **[3 Growth Stocks to Buy Before Wall Street Catches On](https://finnhub.io/api/news?id=f2be284bfabceffc484766da0fd3c83878e012fc66f35e4975815434ddce6fc3)**  
+*Yahoo · 14h前*  
+Three under-followed stocks are sitting on tens of billions in contracted backlogs while Wall Street coverage lags behind, and the window to get in ahead of ins…
 
 ---
 
@@ -43,7 +48,7 @@ https://www.bloomberg.com/news/articles/2026-08-21/centrus-sees-us-military-as-k
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-24 | 監控 | $186.26 | — | 自動更新 |
+| 2026-08-25 | 監控 | $177.14 | — | 自動更新 |
 
 ---
 
@@ -54,4 +59,4 @@ https://www.bloomberg.com/news/articles/2026-08-21/centrus-sees-us-military-as-k
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
