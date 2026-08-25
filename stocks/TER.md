@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$375.74** |
-| 今日變動 | ▼ $7.41　(-1.93%) |
+| 現價 | **$364.90** |
+| 今日變動 | ▼ $10.84　(-2.88%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,419　(▲308.4%) |
+| 未實現盈虧 | ▲ $1,364　(▲296.6%) |
 
 ---
 
@@ -20,27 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $382.32 | — |
-| Put Wall（支撐） | $360.00 | -4.2% |
-| Call Wall（阻力） | $405.00 | +7.8% |
+| Gamma Flip | $380.52 | — |
+| Put Wall（支撐） | $360.00 | -1.3% |
+| Call Wall（阻力） | $392.50 | +7.6% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Smartkem shares are trading lower. The company announced a non-binding letter of intent to acquire all outstanding shares of Carbonium Core in exchange for shares of Smartkem Series B Convertible Preferred Stock.](https://finnhub.io/api/news?id=28a0b1d17e9f4125a0a962072507893cab5497146ee4fa9163f537a2140b0c0d)**  
+*Benzinga · 9h前*
+
+- **[Monday's session: gap up and gap down stock in the S&P500 index](https://finnhub.io/api/news?id=0fbb69c795f1bcd179b38c2d46070486d6fbc6e32d205e66f21d16810365802c)**  
+*ChartMill · 10h前*  
+Curious about the market action on Monday? Dive into the US markets to explore the gap up and gap down stocks in the S&P500 index during today's session.
+
 - **[These S&P500 stocks are moving in today's pre-market session](https://finnhub.io/api/news?id=e9386091a547b5c5ac5664a5b9868042b9c5f651b4bfd68eef3b900e2c40acb2)**  
-*ChartMill · 0h前*  
+*ChartMill · 12h前*  
 Get insights into the top gainers and losers in the S&P500 index of Monday's pre-market session.
-
-- **[Exploring the top movers within the S&P500 index during today's session.](https://finnhub.io/api/news?id=708327aa4cf03c9d0967d12cb84df44a2e6c3be635420cd2ec7b4c4b54c811d9)**  
-*ChartMill · 2d前*  
-Curious about the S&P500 stocks that are in motion on Friday? Join us as we explore the top movers within the S&P500 index during today's session.
-
-- **[Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls](https://finnhub.io/api/news?id=9c1f430fce17af8d010b3fb1eaee8275436eef26d8278df820a98e773e87580b)**  
-*Yahoo · 2d前*  
-Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls
 
 ---
 
@@ -48,7 +47,7 @@ Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-24 | 監控 | $375.74 | — | 自動更新 |
+| 2026-08-25 | 監控 | $364.90 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
