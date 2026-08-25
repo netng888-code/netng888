@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[How Slowing US Bariatric Procedures and Capital Constraints Will Impact Intuitive Surgical (ISRG) Investors](https://finnhub.io/api/news?id=a6e1e02ade69922abfb2d3db460f1d89a58a87b56b452317d25fcc3286f76b7a)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 In the past year, Intuitive Surgical has seen procedure growth in the US slow, particularly in bariatric surgeries influenced by rising GLP-1 use, even as its o…
 
 ---
@@ -51,4 +51,4 @@ In the past year, Intuitive Surgical has seen procedure growth in the US slow, p
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 21:04 HKT*
