@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.21** |
-| 今日變動 | ▲ $0.06　(+0.59%) |
+| 現價 | **$9.96** |
+| 今日變動 | ▼ $0.25　(-2.45%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $444　(▼22.5%) |
+| 未實現盈虧 | ▼ $481　(▼24.4%) |
 
 ---
 
@@ -20,17 +20,23 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.39 | — |
-| Put Wall（支撐） | $10.00 | -2.1% |
-| Call Wall（阻力） | $11.00 | +7.7% |
+| Gamma Flip | $9.33 | — |
+| Put Wall（支撐） | $9.00 | -9.6% |
+| Call Wall（阻力） | $10.00 | +0.4% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[What's Going On With Nokia Stock Monday?](https://finnhub.io/api/news?id=455b3bb4e50df93fa361e31ab11b72dd37ac08c9564595cefe6307cbabc4ea1e)**  
+*Benzinga · 13h前*  
+Nokia stock slides 2% during tech sell-off. Discover key support levels, technical indicators, and analyst ratings.
+
+- **[Perplexity Deal Highlights a Pattern in Nvidia's AI Investments](https://finnhub.io/api/news?id=3193b80d04aa71d35afab754365cdc08b9a97d0cf059339394728e450ad75f24)**  
+*Benzinga · 15h前*  
+Nvidia&#39;s reported Perplexity deal highlights a growing pattern across its AI investments, with portfolio companies building on Nvidia infra.
 
 ---
 
@@ -38,7 +44,7 @@
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-24 | 監控 | $10.21 | — | 自動更新 |
+| 2026-08-25 | 監控 | $9.96 | — | 自動更新 |
 
 ---
 
@@ -49,4 +55,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
