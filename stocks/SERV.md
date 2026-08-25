@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-08-24 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$4.98** |
-| 今日變動 | ▲ $0.24　(+5.06%) |
+| 現價 | **$4.67** |
+| 今日變動 | ▼ $0.31　(-6.22%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $11.743 |
-| 未實現盈虧 | ▼ $203　(▼57.6%) |
+| 未實現盈虧 | ▼ $212　(▼60.2%) |
 
 ---
 
@@ -20,11 +20,11 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $4.16 | — |
-| Put Wall（支撐） | $4.50 | -9.6% |
-| Call Wall（阻力） | $5.00 | +0.4% |
+| Gamma Flip | $4.30 | — |
+| Put Wall（支撐） | $4.50 | -3.6% |
+| Call Wall（阻力） | $5.00 | +7.1% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
@@ -40,7 +40,7 @@ Wall Street Week Ahead: key market events, earnings (NVDA, CRM), economic data (
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-24 | 監控 | $4.98 | — | 自動更新 |
+| 2026-08-25 | 監控 | $4.67 | — | 自動更新 |
 
 ---
 
@@ -51,4 +51,4 @@ Wall Street Week Ahead: key market events, earnings (NVDA, CRM), economic data (
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
