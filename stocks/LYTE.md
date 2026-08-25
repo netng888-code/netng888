@@ -1,6 +1,6 @@
 # LYTE — Roundhill Photonics & Optics ETF
 
-> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$25.52** |
-| 今日變動 | ▲ $0.27　(+1.07%) |
+| 現價 | **$23.88** |
+| 今日變動 | ▼ $1.64　(-6.43%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $25.000 |
-| 未實現盈虧 | ▲ $16　(▲2.1%) |
+| 未實現盈虧 | ▼ $34　(▼4.5%) |
 
 ---
 
@@ -20,19 +20,17 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $24.62 | — |
-| Put Wall（支撐） | $20.00 | -21.6% |
-| Call Wall（阻力） | $30.00 | +17.6% |
+| Gamma Flip | $24.57 | — |
+| Put Wall（支撐） | $20.00 | -16.2% |
+| Call Wall（阻力） | $30.00 | +25.6% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[BUZZ Investing: Markets Look Through Intra-Period Volatility](https://finnhub.io/api/news?id=f8b1da701340dfb84dd264e2e4b41797bbdb4a488d598888072f0f3a46f94b8e)**  
-*SeekingAlpha · 3d前*  
-AI and semiconductor volatility gave way to an August recovery as a leveraged hedge fund unwind cleared, and Super Micro and Palantir led BUZZ Index gains. Read…
+- 暫無新聞
 
 ---
 
@@ -40,7 +38,7 @@ AI and semiconductor volatility gave way to an August recovery as a leveraged he
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-24 | 監控 | $25.52 | — | 自動更新 |
+| 2026-08-25 | 監控 | $23.88 | — | 自動更新 |
 
 ---
 
@@ -51,4 +49,4 @@ AI and semiconductor volatility gave way to an August recovery as a leveraged he
 - [TradingView](https://www.tradingview.com/chart/?symbol=LYTE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
