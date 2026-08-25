@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-25 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Nvidia: The Last Hurrah Before ASIC (Earnings Preview)](https://finnhub.io/api/news?id=6164f6385b35dc0f3b590f19a9191c2ede170765d8c82055d403a81a7c9365fa)**  
-*SeekingAlpha · 6h前*  
+*SeekingAlpha · 18h前*  
 Nvidia Corporation stock lags despite leading AI. See a final earnings trade on the Q3 guide, margins, and price hikes. Click for this NVDA earnings preview upd…
 
 - **[More 'Naked Swimmers' Will Continue To Emerge As The Tide Recedes](https://finnhub.io/api/news?id=74c428b2f640aae320191551ae774dcfcd20522fb3883b8639f5f241a28dc568)**  
-*SeekingAlpha · 11h前*  
+*SeekingAlpha · 23h前*  
 Markets are near record highs as yields and energy prices rise. Click for an updated market outlook.
 
 - **[Bessent's Toolbox Gets a Rest as Gold Prints $4,600 and Ross Stores Cleans Up](https://finnhub.io/api/news?id=7787e77d790c82615e1e824a41688465d5bf2c4d110e7c42c19de2bdd668833b)**  
-*ChartMill · 15h前*  
+*ChartMill · 1d前*  
 Wall Street closed a bruising week on a firmer note Friday, August 21, 2026, with the Dow up nearly 1%, gold pushing above $4,600 an ounce, Ross Stores and BJ's…
 
 ---
@@ -59,4 +59,4 @@ Wall Street closed a bruising week on a firmer note Friday, August 21, 2026, wit
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 21:03 HKT*
