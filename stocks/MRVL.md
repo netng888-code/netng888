@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$237.04** |
-| 今日變動 | ▼ $13.97　(-5.57%) |
+| 現價 | **$229.29** |
+| 今日變動 | ▼ $7.75　(-3.27%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $203　(▼7.9%) |
+| 未實現盈虧 | ▼ $280　(▼10.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $215.85 | — |
-| Put Wall（支撐） | $200.00 | -15.6% |
-| Call Wall（阻力） | $250.00 | +5.5% |
+| Gamma Flip | $217.43 | — |
+| Put Wall（支撐） | $200.00 | -12.8% |
+| Call Wall（阻力） | $250.00 | +9.0% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[These S&P500 stocks are moving in today's pre-market session](https://finnhub.io/api/news?id=e9386091a547b5c5ac5664a5b9868042b9c5f651b4bfd68eef3b900e2c40acb2)**  
-*ChartMill · 0h前*  
-Get insights into the top gainers and losers in the S&P500 index of Monday's pre-market session.
+- **[Marvell: Google Strengthens The AI Thesis, But Q2 Must Justify The Premium](https://finnhub.io/api/news?id=d367226c7afd0def73450d4508a39879b195389ed00dee3bb31ce07eeba5fa78)**  
+*SeekingAlpha · 6h前*  
+Marvell Technology, Inc. looks technically bullish, but valuation and sector risks support a Hold. Click for this MRVL earnings preview update.
 
-- **[Marvell Technology: A Lot Of Moving Parts](https://finnhub.io/api/news?id=dfa3de0d1f365df4ac5b3127f32e9707f529fe59ec802d3d892bc869e11a0d94)**  
-*SeekingAlpha · 10h前*  
-Marvell Technology's landmark Google deal could potentially triple revenues to $31 billion. Read why I remain on the sidelines of MRVL stock.
+- **[Nvidia: The Last Hurrah Before ASIC (Earnings Preview)](https://finnhub.io/api/news?id=6164f6385b35dc0f3b590f19a9191c2ede170765d8c82055d403a81a7c9365fa)**  
+*SeekingAlpha · 6h前*  
+Nvidia Corporation stock lags despite leading AI. See a final earnings trade on the Q3 guide, margins, and price hikes. Click for this NVDA earnings preview upd…
 
-- **[Dow Jones Futures Due With Nvidia Earnings, Tariffs, Warsh In Focus](https://finnhub.io/api/news?id=577c8a3d6038618e28ec5afaa43dec0226d48d1817f11f0686ae6a2bdee952d9)**  
-*Yahoo · 18h前*  
-The market rally suffered damage last week, though bitcoin and gold shined. New Trump tariffs on Canada began Saturday. Nvidia, CrowdStrike and Fed's Warsh loom…
+- **[Smartkem shares are trading lower. The company announced a non-binding letter of intent to acquire all outstanding shares of Carbonium Core in exchange for shares of Smartkem Series B Convertible Preferred Stock.](https://finnhub.io/api/news?id=28a0b1d17e9f4125a0a962072507893cab5497146ee4fa9163f537a2140b0c0d)**  
+*Benzinga · 9h前*
 
 ---
 
@@ -48,7 +47,7 @@ The market rally suffered damage last week, though bitcoin and gold shined. New 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-24 | 監控 | $237.04 | — | 自動更新 |
+| 2026-08-25 | 監控 | $229.29 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ The market rally suffered damage last week, though bitcoin and gold shined. New 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
