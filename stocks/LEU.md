@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Green Plains, Liberty Energy, Nabors Industries, Centrus Energy, and Oceaneering Shares Are Falling, What You Need To Know](https://finnhub.io/api/news?id=5ea01086a43914455560760ebe0495f63185518b3ae80732857df0a8c4bf14d7)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 A number of stocks fell in the afternoon session after Crude oil prices pulled back as traders locked in profits after two weeks of gains and awaited details on…
 
 - **[Keep This Renewable Energy Stock Close Until November](https://finnhub.io/api/news?id=d190ffdf5d875481f182bd06c3e2c7a840c9a91a9f9b2eea2e030e740d1002b2)**  
-*Yahoo · 5h前*  
+*Yahoo · 17h前*  
 History says you should 'buy the dip' on Centrus Energy stock
 
 - **[3 Growth Stocks to Buy Before Wall Street Catches On](https://finnhub.io/api/news?id=f2be284bfabceffc484766da0fd3c83878e012fc66f35e4975815434ddce6fc3)**  
-*Yahoo · 14h前*  
+*Yahoo · 1d前*  
 Three under-followed stocks are sitting on tens of billions in contracted backlogs while Wall Street coverage lags behind, and the window to get in ahead of ins…
 
 ---
@@ -59,4 +59,4 @@ Three under-followed stocks are sitting on tens of billions in contracted backlo
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 21:04 HKT*
