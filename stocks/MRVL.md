@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell: Google Strengthens The AI Thesis, But Q2 Must Justify The Premium](https://finnhub.io/api/news?id=d367226c7afd0def73450d4508a39879b195389ed00dee3bb31ce07eeba5fa78)**  
-*SeekingAlpha · 6h前*  
-Marvell Technology, Inc. looks technically bullish, but valuation and sector risks support a Hold. Click for this MRVL earnings preview update.
+- **[Which S&P500 stocks are moving before the opening bell on Tuesday?](https://finnhub.io/api/news?id=d44ae880012a4f33762d53100b314f1895a0d7bc8d84b9479edaf08c001133a2)**  
+*ChartMill · 0h前*  
+As we await the opening of the US market on Tuesday, let's delve into the pre-market session and discover the S&P500 top gainers and losers shaping the early ma…
 
-- **[Nvidia: The Last Hurrah Before ASIC (Earnings Preview)](https://finnhub.io/api/news?id=6164f6385b35dc0f3b590f19a9191c2ede170765d8c82055d403a81a7c9365fa)**  
-*SeekingAlpha · 6h前*  
-Nvidia Corporation stock lags despite leading AI. See a final earnings trade on the Q3 guide, margins, and price hikes. Click for this NVDA earnings preview upd…
+- **[Why $40 Trillion In Debt Is Really A Tech-Stock Story](https://finnhub.io/api/news?id=f2a0f7f0ff10af70f9159c954bca0e71be979f65a5d8ae66c8fbe881d95e20fd)**  
+*SeekingAlpha · 4h前*  
+The $40 trillion U.S. national debt has fundamentally shifted the investment landscape for equities. Read why investors should prioritize near-term cash flow.
 
-- **[Smartkem shares are trading lower. The company announced a non-binding letter of intent to acquire all outstanding shares of Carbonium Core in exchange for shares of Smartkem Series B Convertible Preferred Stock.](https://finnhub.io/api/news?id=28a0b1d17e9f4125a0a962072507893cab5497146ee4fa9163f537a2140b0c0d)**  
-*Benzinga · 9h前*
+- **[Marvell: Another Guidance Raise Could Signal A Stronger Growth Trajectory](https://finnhub.io/api/news?id=6be231b94874b1d3ca9a29d7386fa435866c2af0d08dda2b453c8a0d4a1383a7)**  
+*SeekingAlpha · 5h前*  
+Marvell disclosed in an 8-K that it had entered a commercial agreement with Google on July 29. Check out why MRVL stock is a buy.
 
 ---
 
@@ -58,4 +59,4 @@ Nvidia Corporation stock lags despite leading AI. See a final earnings trade on 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 21:04 HKT*
