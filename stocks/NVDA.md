@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$214.72** |
-| 今日變動 | ▼ $2.13　(-0.98%) |
+| 現價 | **$208.48** |
+| 今日變動 | ▼ $6.24　(-2.91%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $546　(▲34.1%) |
+| 未實現盈虧 | ▲ $484　(▲30.2%) |
 
 ---
 
@@ -20,26 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $199.09 | — |
-| Put Wall（支撐） | $200.00 | -6.9% |
-| Call Wall（阻力） | $220.00 | +2.5% |
+| Gamma Flip | $198.77 | — |
+| Put Wall（支撐） | $200.00 | -4.1% |
+| Call Wall（阻力） | $220.00 | +5.5% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[NVIDIA (NASDAQ:NVDA) Pairs High Growth Momentum with a Breakout Setup](https://finnhub.io/api/news?id=e1c60b399ed39a900e0d80fcbc0f1729243c862583550bf3d26340b2b803395f)**  
-*ChartMill · 2h前*  
-NVIDIA (NVDA) scores 8/10 for growth momentum and technicals, with accelerating earnings/sales and a defined setup. See the full analysis.
+- **[Exploring the top movers within the dow jones index during today's session.](https://finnhub.io/api/news?id=995746628753bb1c107dff0fd621de739c068e1e4feeb404b2f0ce3d0523b435)**  
+*ChartMill · 5h前*  
+Wondering what's happening in today's session for the dow jones index? Stay informed with the top movers within the dow jones index on Monday.
 
-- **[Bessent's Toolbox Gets a Rest as Gold Prints $4,600 and Ross Stores Cleans Up](https://finnhub.io/api/news?id=7787e77d790c82615e1e824a41688465d5bf2c4d110e7c42c19de2bdd668833b)**  
-*ChartMill · 3h前*  
-Wall Street closed a bruising week on a firmer note Friday, August 21, 2026, with the Dow up nearly 1%, gold pushing above $4,600 an ounce, Ross Stores and BJ's…
+- **[Nvidia: The Last Hurrah Before ASIC (Earnings Preview)](https://finnhub.io/api/news?id=6164f6385b35dc0f3b590f19a9191c2ede170765d8c82055d403a81a7c9365fa)**  
+*SeekingAlpha · 6h前*  
+Nvidia Corporation stock lags despite leading AI. See a final earnings trade on the Q3 guide, margins, and price hikes. Click for this NVDA earnings preview upd…
 
-- **[Dividend Harvesting Portfolio Week 286: $28,600 Allocated, $3,258.87 In Projected Dividends](https://finnhub.io/api/news?id=81c77f54c115f7f22d56de5258f065c35c8b5019b334448239e76dc706b67c0d)**  
-*SeekingAlpha · 4h前*
+- **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=b4e7862ecff49c01c686f4ff93eb405072c170ffc8e5c83fda06da0f37f4a012)**  
+*ChartMill · 6h前*  
+Stay informed about the most active S&P500 stocks in today's session as we take a closer look at what's happening on the US markets on Monday. Discover the stoc…
 
 ---
 
@@ -47,7 +48,7 @@ Wall Street closed a bruising week on a firmer note Friday, August 21, 2026, wit
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-24 | 監控 | $214.72 | — | 自動更新 |
+| 2026-08-25 | 監控 | $208.48 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ Wall Street closed a bruising week on a firmer note Friday, August 21, 2026, wit
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 09:03 HKT*
