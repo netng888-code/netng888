@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Smartkem shares are trading lower. The company announced a non-binding letter of intent to acquire all outstanding shares of Carbonium Core in exchange for shares of Smartkem Series B Convertible Preferred Stock.](https://finnhub.io/api/news?id=28a0b1d17e9f4125a0a962072507893cab5497146ee4fa9163f537a2140b0c0d)**  
-*Benzinga · 9h前*
+- **[Which S&P500 stocks are moving before the opening bell on Tuesday?](https://finnhub.io/api/news?id=d44ae880012a4f33762d53100b314f1895a0d7bc8d84b9479edaf08c001133a2)**  
+*ChartMill · 0h前*  
+As we await the opening of the US market on Tuesday, let's delve into the pre-market session and discover the S&P500 top gainers and losers shaping the early ma…
 
-- **[Monday's session: gap up and gap down stock in the S&P500 index](https://finnhub.io/api/news?id=0fbb69c795f1bcd179b38c2d46070486d6fbc6e32d205e66f21d16810365802c)**  
-*ChartMill · 10h前*  
-Curious about the market action on Monday? Dive into the US markets to explore the gap up and gap down stocks in the S&P500 index during today's session.
+- **[Teradyne: An Excellent Company To Buy On Declines](https://finnhub.io/api/news?id=5e0b9aaf1afaa22c6bc3edbca4a3d968caa2ab88f437d168d0ef30f36aca6187)**  
+*SeekingAlpha · 5h前*  
+Teradyneâs duopoly in semiconductor testing offers long-term upside, but valuation and Advantest underperformance suggest a hold. Click for more on TER stock.
 
-- **[These S&P500 stocks are moving in today's pre-market session](https://finnhub.io/api/news?id=e9386091a547b5c5ac5664a5b9868042b9c5f651b4bfd68eef3b900e2c40acb2)**  
-*ChartMill · 12h前*  
-Get insights into the top gainers and losers in the S&P500 index of Monday's pre-market session.
+- **[Chips Take the Punch Ahead of Nvidia as Trump's Canada Tariffs Rattle Detroit](https://finnhub.io/api/news?id=2be168855ee50e913a997ad60b9ba46a6dce9f94c3f66325445b6b6e82be88ad)**  
+*ChartMill · 5h前*  
+Wall Street opened the week split on Monday, August 24, 2026, with the Nasdaq bleeding 0.8% as semiconductor names sold off ahead of Nvidia's Wednesday print an…
 
 ---
 
@@ -58,4 +59,4 @@ Get insights into the top gainers and losers in the S&P500 index of Monday's pre
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 21:04 HKT*
