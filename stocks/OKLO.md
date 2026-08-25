@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$42.09** |
-| 今日變動 | ▲ $0.43　(+1.03%) |
+| 現價 | **$39.69** |
+| 今日變動 | ▼ $2.40　(-5.70%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $21.067 |
-| 未實現盈虧 | ▲ $420　(▲99.8%) |
+| 未實現盈虧 | ▲ $372　(▲88.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $45.36 | — |
-| Put Wall（支撐） | $40.00 | -5.0% |
-| Call Wall（阻力） | $50.00 | +18.8% |
+| Gamma Flip | $44.53 | — |
+| Put Wall（支撐） | $35.00 | -11.8% |
+| Call Wall（阻力） | $50.00 | +26.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,8 +30,9 @@
 
 ## 📰 最新新聞
 
-- **[X-Energy IPO Opens For Trade At $30.11/Share; IPO Priced At $23/Share On 44,254,659 Shares](https://finnhub.io/api/news?id=975af2f337d72d70b61a69fd97e5afeca128898f530aa00c65a97c1b2b4f3894)**  
-*Benzinga · 2d前*
+- **[Why The Nuclear Sector Still Has Room To Grow](https://finnhub.io/api/news?id=b240b6b70994bc3eb35e09de8099034f7dbe45fb709d21d3a24800eb0ad84b4b)**  
+*SeekingAlpha · 8h前*  
+New investors looking at the nuclear renaissance story are assessing whether the opportunity has gone for capitalizing on interest in nuclear energy. There is s…
 
 ---
 
@@ -39,7 +40,7 @@
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-24 | 監控 | $42.09 | — | 自動更新 |
+| 2026-08-25 | 監控 | $39.69 | — | 自動更新 |
 
 ---
 
@@ -50,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
