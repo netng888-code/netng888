@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-08-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $267.84 | — |
 | Put Wall（支撐） | $240.00 | -5.9% |
-| Call Wall（阻力） | $260.00 | +2.0% |
+| Call Wall（阻力） | $270.00 | +5.9% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Which S&P500 stocks are moving before the opening bell on Tuesday?](https://finnhub.io/api/news?id=d44ae880012a4f33762d53100b314f1895a0d7bc8d84b9479edaf08c001133a2)**  
+*ChartMill · 0h前*  
+As we await the opening of the US market on Tuesday, let's delve into the pre-market session and discover the S&P500 top gainers and losers shaping the early ma…
+
 - **[Vertiv (NYSE:VRT) Passes the Affordable Growth Screen](https://finnhub.io/api/news?id=8f89ad760ca0fd06bb6fae6c15a19b24b340d0db5726dfde1b41e1869dab244c)**  
-*ChartMill · 16h前*  
+*ChartMill · 1d前*  
 Vertiv Holdings (VRT) passes the Affordable Growth screen with an 8/10 rating: strong EPS and revenue growth, reasonable forward valuation, and solid profitabil…
 
 - **[Invesco Discovery Mid Cap Growth Fund Q2 2026 Portfolio Performance](https://finnhub.io/api/news?id=1bc7c8c3f2c66972d3399d77bb4313e98ddbdc8d97239280f5785bd552745225)**  
 *SeekingAlpha · 1d前*  
 Invesco Discovery Mid Cap Growth Fund had a positive return and outperformed its benchmark in the second quarter. Read more here.
-
-- **[3 Data Center Stocks Powering the AI Buildout](https://finnhub.io/api/news?id=30650d4add92b2f97825d29df8177e767738a61d7105bd2dcc8aaeca2bc30604)**  
-*Yahoo · 1d前*  
-The AI spending boom has moved past GPUs and into the physical infrastructure holding it all together, and three US-listed stocks are quietly capturing billions…
 
 ---
 
@@ -59,4 +59,4 @@ The AI spending boom has moved past GPUs and into the physical infrastructure ho
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-25 21:04 HKT*
