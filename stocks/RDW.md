@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-26 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Redwire Corporation: A Record Quarter That Got Smaller Per Share](https://finnhub.io/api/news?id=1afaaa0b19f974fc9908a0c690b49f78fb678ee404e9821d43d9f5403a5588aa)**  
-*SeekingAlpha · 13h前*  
+*SeekingAlpha · 1d前*  
 Redwire Corporation delivered record revenue, gross margin, backlog, and liquidity, but share dilution offset per-share gains. Learn more about RDW stock here.
 
 - **[Redwire: Market Optimism Overlooks Dismal Results](https://finnhub.io/api/news?id=b89e1845bff5cbc10d8f7355a7dc19cb8191e26e512bb79302532e49e37e88a7)**  
-*SeekingAlpha · 15h前*  
+*SeekingAlpha · 1d前*  
 Redwire's backlog is up 32%, but execution missteps and high valuation persist. Click here to read this latest analysis of RDW stock.
 
 - **[Redwire Makes Strategic Investment In Next‑Generation Phased Array Antenna Technology To Deliver Faster, More Resilient And More Scalable Space‑Based Data Networks](https://finnhub.io/api/news?id=b3f2799af883baee6e916c109494503ff85a1aee49cc5e68d8faa02a8bf96280)**  
-*Benzinga · 17h前*  
+*Benzinga · 1d前*  
 This strategic investment positions Redwire at the forefront of a rapidly expanding market where high‑capacity, low‑latency communication is essential for natio…
 
 ---
@@ -59,4 +59,4 @@ This strategic investment positions Redwire at the forefront of a rapidly expand
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
