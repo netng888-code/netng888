@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-26 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[Tracking David Tepper's Appaloosa Management Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=68f02ebf639be16304aa29f695612e1a36fd9a7c80878ee95a3e4e4ff62f02aa)**  
+*SeekingAlpha · 16h前*
+
 - **[How To Retire: Stop Looking For Magic](https://finnhub.io/api/news?id=b3ea1d3810b5b37c6bf5bb8f368c1231cd83526444e6d176c1d445c0e6450f8f)**  
-*SeekingAlpha · 7h前*  
+*SeekingAlpha · 19h前*  
 Retirement portfolios should emphasize income, growth, and diversification. Read about one approach to retirement portfolio strategy.
 
 - **[Don't Sleep On Software](https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d)**  
-*SeekingAlpha · 7h前*  
+*SeekingAlpha · 19h前*  
 Alex King from Growth Investor ProÂ discusses theÂ AI cycle, semis and software.
-
-- **[AI Bubble Could Be Ready to Pop and Jim Cramer May Be the Warning Sign](https://finnhub.io/api/news?id=a451a16ed1610807e4f2159401eb3ed682025169d98a6c4f10732539abe725f5)**  
-*Benzinga · 8h前*  
-Former hedge fund manager thinks the AI bubble could be close to popping and Jim Cramer could be one of the reasons why.
 
 ---
 
@@ -59,4 +58,4 @@ Former hedge fund manager thinks the AI bubble could be close to popping and Jim
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
