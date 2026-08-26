@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-26 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[DRNZ: Buy The Drone Buildout Before The Rules Change (For The Better)](https://finnhub.io/api/news?id=d467e0ec208307bd49dbae4601d6779debb678249676f98906f5fa2bcefc2d58)**  
+*SeekingAlpha · 12h前*  
+DRNZ is concentrated in a few top holdings, notably AeroVironment and Ondas, with many positions still lacking consistent profitability. See why DRNZ ETF is a B…
+
 - **[Which S&P500 stocks are the most active on Tuesday?](https://finnhub.io/api/news?id=a9251f9283b5230d33a2e52ed6096324c868b9a20066ede8525d714353dc782a)**  
-*ChartMill · 6h前*  
+*ChartMill · 18h前*  
 Curious about the most active S&P500 stocks in today's session? Get insights into the stocks that are leading the way in terms of trading volume and market atte…
 
 - **[Don't Sleep On Software](https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d)**  
-*SeekingAlpha · 7h前*  
+*SeekingAlpha · 19h前*  
 Alex King from Growth Investor ProÂ discusses theÂ AI cycle, semis and software.
-
-- **[AI Semiconductor Chips Vs. Software Stocks: Understanding Cyclicality And Disruption](https://finnhub.io/api/news?id=be982ebc4a89a5a9360ce887cc0bb555e3d0c48ed10a27a2b0c301e97e2dc1a9)**  
-*SeekingAlpha · 9h前*  
-Read this comparison of top AI software vs. semiconductor stocksâNVDA, MSFT, PLTR, CRWD, AVGO, AMD, MU & CRMâto know their valuations, risks, and catalysts.
 
 ---
 
@@ -59,4 +59,4 @@ Read this comparison of top AI software vs. semiconductor stocksâNVDA, MSFT
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
