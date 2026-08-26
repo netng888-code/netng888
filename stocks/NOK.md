@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-26 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[What's Going On With Nokia Stock Monday?](https://finnhub.io/api/news?id=455b3bb4e50df93fa361e31ab11b72dd37ac08c9564595cefe6307cbabc4ea1e)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 Nokia stock slides 2% during tech sell-off. Discover key support levels, technical indicators, and analyst ratings.
 
 - **[Perplexity Deal Highlights a Pattern in Nvidia's AI Investments](https://finnhub.io/api/news?id=3193b80d04aa71d35afab754365cdc08b9a97d0cf059339394728e450ad75f24)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 Nvidia&#39;s reported Perplexity deal highlights a growing pattern across its AI investments, with portfolio companies building on Nvidia infra.
 
 ---
@@ -55,4 +55,4 @@ Nvidia&#39;s reported Perplexity deal highlights a growing pattern across its AI
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
