@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-26 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[These dow jones stocks are moving in today's session](https://finnhub.io/api/news?id=4a58a6f746e24ff8c34ddff188f2b82ff0e1326f391c36ca862d996d0c19ac28)**  
-*ChartMill · 5h前*  
-Uncover the latest developments among dow jones stocks in today's session. Stay tuned to the dow jones index's top gainers and losers on Tuesday.
+- **[SCHD And STK: A 3%+ Income Barbell](https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6)**  
+*SeekingAlpha · 5h前*  
+STK yields 3.56% with special distribution potential, while SCHD's 2.98% yield reflects strong price appreciation. Check out the strategy with SCHD and STK here…
 
-- **[Don't Sleep On Software](https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d)**  
-*SeekingAlpha · 7h前*  
-Alex King from Growth Investor ProÂ discusses theÂ AI cycle, semis and software.
+- **[Big Tech Off-Balance Sheet Concerns](https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23)**  
+*SeekingAlpha · 6h前*  
+Media outlets like WSJ and Financial Times have been covering big techâs growing affinity towards off-balance sheet financing in recent weeks. Read more here.…
 
-- **[Broadcom: Moving Big Into Vendor Financing](https://finnhub.io/api/news?id=1e3a378c6c5ede2d5185cdc9938738b11f392691a0fd607ae87896267a54b8a3)**  
-*SeekingAlpha · 7h前*  
-Broadcom Inc.: AI chip growth targets, SPV financing and default risks, insider selling, and valuationâsee why investors may avoid now. Click for more on AVGO…
+- **[The Deep Unknowns Of AI](https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c)**  
+*SeekingAlpha · 9h前*  
+Nvidia and Apple may best withstand a $3T off-balance sheet AI data center debt risk facing Big Tech. Read why holding NVDA and AAPL stocks is recommended.
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom Inc.: AI chip growth targets, SPV financing and default risks, insider 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
