@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$68.28** |
-| 今日變動 | ▼ $4.29　(-5.91%) |
+| 現價 | **$66.91** |
+| 今日變動 | ▼ $1.37　(-2.01%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $77　(▼10.2%) |
+| 未實現盈虧 | ▼ $91　(▼12.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $77.37 | — |
-| Put Wall（支撐） | $65.00 | -4.8% |
-| Call Wall（阻力） | $80.00 | +17.2% |
+| Gamma Flip | $74.75 | — |
+| Put Wall（支撐） | $65.00 | -2.9% |
+| Call Wall（阻力） | $80.00 | +19.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why I'm Buying Rocket Lab Over SpaceX](https://finnhub.io/api/news?id=bdea5d91cb40a72b9e379a4bc8e5a3072e74a51a0372ce21f6948c33f457449f)**  
-*SeekingAlpha · 20h前*  
-Rocket Lab delivered $234M Q2 revenue and $2.36B backlog, while Space Systems increasingly broadens the growth engine. Read more on RKLB stock here.
+- **[Rocket Lab: Neutron May Yet Again Be Delayed](https://finnhub.io/api/news?id=9d71e10e7eff384fa182db083c0cda459d97c057f5bf1ddefbb946e580f0e795)**  
+*SeekingAlpha · 9h前*  
+Rocket Lab Corporation posted strong Q2 results with 62% Y/Y revenue growth and a record $2.36B backlog. Read more on RKLB stock here.
 
-- **[RKLX: A Tactical Buy On Rocket Lab's 2x ETF With Q4 Neutron Launch On The Horizon](https://finnhub.io/api/news?id=80bd3b6efea584639734986fc2e93a129cf4cfb4e66481d7ba0419c23066c87e)**  
-*SeekingAlpha · 1d前*  
-Buy RKLX? Explore this 2x daily Rocket Lab ETF, Neutron-driven growth outlook, key risks (volatility/fees), and why it fits short-term tradesâread now.
+- **[If You Invested $1000 In Rocket Lab Stock 5 Years Ago, You Would Have This Much Today](https://finnhub.io/api/news?id=0dcff2b4542345511032937a07df59bb17c3c6018d14004c7da67f97107f3518)**  
+*Benzinga · 12h前*  
+Rocket Lab (NASDAQ:RKLB) has outperformed the market over the past 5 years by 35.31% on an annualized basis producing an average annual return of 46.42%. Curren…
 
-- **[Rocket Lab: The Hidden Risks No One Talks About](https://finnhub.io/api/news?id=9669764eef13e92c567b7f100ad9fbbde35715964973292192797970235d2a98)**  
-*SeekingAlpha · 1d前*  
-Rocket Lab (RKLB) faces heightened supply chain risk due to reliance on germanium, a critical mineral dominated by China and in high demand from the...
+- **[Rocket Lab Stock Ticks Higher Tuesday: What's Going On?](https://finnhub.io/api/news?id=03b95d8156122b67df1b32c4db31438614f53b6242171f0dc053b48b9a0b5138)**  
+*Benzinga · 16h前*  
+Rocket Lab is rising Tuesday, finding stability as multi-week selling pressure across growth and space equities loses momentum.
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab (RKLB) faces heightened supply chain risk due to reliance on germaniu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-25 | 監控 | $68.28 | — | 自動更新 |
+| 2026-08-26 | 監控 | $66.91 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab (RKLB) faces heightened supply chain risk due to reliance on germaniu
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 09:05 HKT*
