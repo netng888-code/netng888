@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$9.96** |
-| 今日變動 | ▼ $0.25　(-2.45%) |
+| 現價 | **$10.35** |
+| 今日變動 | ▲ $0.39　(+3.92%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $481　(▼24.4%) |
+| 未實現盈虧 | ▼ $423　(▼21.4%) |
 
 ---
 
@@ -20,11 +20,11 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.33 | — |
-| Put Wall（支撐） | $10.00 | --0.4% |
-| Call Wall（阻力） | $11.00 | +10.4% |
+| Gamma Flip | $9.44 | — |
+| Put Wall（支撐） | $10.00 | -3.4% |
+| Call Wall（阻力） | $11.00 | +6.3% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
@@ -44,7 +44,7 @@ Nvidia&#39;s reported Perplexity deal highlights a growing pattern across its AI
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-25 | 監控 | $9.96 | — | 自動更新 |
+| 2026-08-26 | 監控 | $10.35 | — | 自動更新 |
 
 ---
 
@@ -55,4 +55,4 @@ Nvidia&#39;s reported Perplexity deal highlights a growing pattern across its AI
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 09:04 HKT*
