@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-26 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,25 +21,25 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $43.45 | — |
-| Put Wall（支撐） | $40.00 | -9.6% |
+| Put Wall（支撐） | $45.00 | --1.6% |
 | Call Wall（阻力） | $50.00 | +12.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
 - **[Oklo Stock Surges Tuesday on Escalating US-Canada Trade Tensions](https://finnhub.io/api/news?id=b39681980f657cb56f4ad076c6f68c4251ff3da24c444c525206f1b72a7ca192)**  
-*Benzinga · 10h前*  
+*Benzinga · 22h前*  
 Oklo is trading higher Tuesday afternoon as buying momentum accelerates across uranium miners and advanced nuclear technology developers.
 
 - **[Bitcoin Tops $80,000, Oil Sinks As Navy Clears Hormuz Mines: Stock Market Today](https://finnhub.io/api/news?id=05804c95ab58ba262bb452c5640017d019dab62d1376acde6b7416e51bb1b6fe)**  
-*Benzinga · 12h前*  
+*Benzinga · 1d前*  
 Wall Street clawed back Monday&#39;s AI selloff as Brent slid below $90 and 10-year yields eased from 20-month highs.
 
 - **[Reported Earlier, Standard Nuclear TRISO Fuel Producer, Prices Initial Public Offering Of 10M Class A Shares At $15.00 Per Share](https://finnhub.io/api/news?id=1fabdbf0d4ddd34d8786720a12a77205ed269e86d8ad3c6c41e97a2483643ae2)**  
-*Benzinga · 12h前*
+*Benzinga · 1d前*
 
 ---
 
@@ -58,4 +58,4 @@ Wall Street clawed back Monday&#39;s AI selloff as Brent slid below $90 and 10-y
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
