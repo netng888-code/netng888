@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$175.89** |
-| 今日變動 | ▼ $4.05　(-2.25%) |
+| 現價 | **$172.73** |
+| 今日變動 | ▼ $3.16　(-1.80%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $361　(▲41.5%) |
+| 未實現盈虧 | ▲ $339　(▲38.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $158.91 | — |
-| Put Wall（支撐） | $170.00 | -3.3% |
-| Call Wall（阻力） | $180.00 | +2.3% |
+| Gamma Flip | $161.81 | — |
+| Put Wall（支撐） | $170.00 | -1.6% |
+| Call Wall（阻力） | $180.00 | +4.2% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[TLT: AI Productivity Gains Threaten Long-End Treasuries](https://finnhub.io/api/news?id=082baac6a7eb4628455a08f3f3ab0c49134fc6ff7a03fad7074071ceea5ee11b)**  
-*SeekingAlpha · 4h前*  
-Downgrading the iShares 20+ Year Treasury Bond ETF from buy to sell as real yields rise on AI-driven GDP strength. Learn more about the TLT ETF here.
+- **[Which S&P500 stocks are the most active on Tuesday?](https://finnhub.io/api/news?id=a9251f9283b5230d33a2e52ed6096324c868b9a20066ede8525d714353dc782a)**  
+*ChartMill · 6h前*  
+Curious about the most active S&P500 stocks in today's session? Get insights into the stocks that are leading the way in terms of trading volume and market atte…
 
-- **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=b4e7862ecff49c01c686f4ff93eb405072c170ffc8e5c83fda06da0f37f4a012)**  
-*ChartMill · 18h前*  
-Stay informed about the most active S&P500 stocks in today's session as we take a closer look at what's happening on the US markets on Monday. Discover the stoc…
+- **[Don't Sleep On Software](https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d)**  
+*SeekingAlpha · 7h前*  
+Alex King from Growth Investor ProÂ discusses theÂ AI cycle, semis and software.
 
-- **[Trump Bought Dividend Stocks And Dumped AI (The Real Story)](https://finnhub.io/api/news?id=e04988931136a24c3c0c73e63ae859a7199eaaad6bf968af6e2a93a6548b2ef5)**  
-*SeekingAlpha · 22h前*  
-Trumpâs June stock disclosure shows a shift from dividend ETFs to individual dividend-growth stocks, with minimal tech/AI sellingâsee what it means. Click f…
+- **[AI Semiconductor Chips Vs. Software Stocks: Understanding Cyclicality And Disruption](https://finnhub.io/api/news?id=be982ebc4a89a5a9360ce887cc0bb555e3d0c48ed10a27a2b0c301e97e2dc1a9)**  
+*SeekingAlpha · 9h前*  
+Read this comparison of top AI software vs. semiconductor stocksâNVDA, MSFT, PLTR, CRWD, AVGO, AMD, MU & CRMâto know their valuations, risks, and catalysts.
 
 ---
 
@@ -48,7 +48,7 @@ Trumpâs June stock disclosure shows a shift from dividend ETFs to individua
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-25 | 監控 | $175.89 | — | 自動更新 |
+| 2026-08-26 | 監控 | $172.73 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Trumpâs June stock disclosure shows a shift from dividend ETFs to individua
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 09:05 HKT*
