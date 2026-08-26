@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-26 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[SCHD And STK: A 3%+ Income Barbell](https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6)**  
+*SeekingAlpha · 5h前*  
+STK yields 3.56% with special distribution potential, while SCHD's 2.98% yield reflects strong price appreciation. Check out the strategy with SCHD and STK here…
+
+- **[Cheaper Oil and a Chip Bid Set the Table Before Nvidia Speaks](https://finnhub.io/api/news?id=bdd5ff242d5acf57f02c5b23519220e818af944279b3c1f3f5ab65b2e2fffb55)**  
+*ChartMill · 6h前*  
+Wall Street clawed back ground on Tuesday, August 25, 2026, as Brent slipped under $90, Treasury yields eased, and the chip complex broke a seven-session losing…
+
 - **[Top S&P500 movers in Tuesday's session](https://finnhub.io/api/news?id=d9a2b22a4880b4c57a5a78e197c6c5ce8a510e121a48982bd29dab32dc155385)**  
-*ChartMill · 5h前*  
+*ChartMill · 17h前*  
 Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Tuesday.
-
-- **[Here's How Much $100 Invested In Marvell Technology 10 Years Ago Would Be Worth Today](https://finnhub.io/api/news?id=8dd0db28ee030d07f8e7361dfb343679fd62f58c68029f295f36d22bbe1de74e)**  
-*Benzinga · 6h前*  
-Marvell Technology (NASDAQ:MRVL) has outperformed the market over the past 10 years by 21.23% on an annualized basis producing an average annual return of 34.62…
-
-- **[Don't Sleep On Software](https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d)**  
-*SeekingAlpha · 7h前*  
-Alex King from Growth Investor ProÂ discusses theÂ AI cycle, semis and software.
 
 ---
 
@@ -59,4 +59,4 @@ Alex King from Growth Investor ProÂ discusses theÂ AI cycle, semis and softw
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
