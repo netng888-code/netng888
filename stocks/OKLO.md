@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$39.69** |
-| 今日變動 | ▼ $2.40　(-5.70%) |
+| 現價 | **$44.27** |
+| 今日變動 | ▲ $4.58　(+11.54%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $21.067 |
-| 未實現盈虧 | ▲ $372　(▲88.4%) |
+| 未實現盈虧 | ▲ $464　(▲110.1%) |
 
 ---
 
@@ -20,23 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $44.53 | — |
-| Put Wall（支撐） | $40.00 | --0.8% |
-| Call Wall（阻力） | $50.00 | +26.0% |
+| Gamma Flip | $43.45 | — |
+| Put Wall（支撐） | $40.00 | -9.6% |
+| Call Wall（阻力） | $50.00 | +12.9% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Oklo: The Nuclear Renaissance Could Leave A Trail Of Busted SMR Companies](https://finnhub.io/api/news?id=ddc2e8d937d979ba6fd71e63908c9745375315347a5a791d7aecc01a1cae0690)**  
-*SeekingAlpha · 6h前*  
-Oklo Inc.'s $8 billion valuation faces risks as data center moratoriums dampen investor enthusiasm for AI energy plays. Learn more about OKLO stock here.
+- **[Oklo Stock Surges Tuesday on Escalating US-Canada Trade Tensions](https://finnhub.io/api/news?id=b39681980f657cb56f4ad076c6f68c4251ff3da24c444c525206f1b72a7ca192)**  
+*Benzinga · 10h前*  
+Oklo is trading higher Tuesday afternoon as buying momentum accelerates across uranium miners and advanced nuclear technology developers.
 
-- **[Why The Nuclear Sector Still Has Room To Grow](https://finnhub.io/api/news?id=b240b6b70994bc3eb35e09de8099034f7dbe45fb709d21d3a24800eb0ad84b4b)**  
-*SeekingAlpha · 20h前*  
-New investors looking at the nuclear renaissance story are assessing whether the opportunity has gone for capitalizing on interest in nuclear energy. There is s…
+- **[Bitcoin Tops $80,000, Oil Sinks As Navy Clears Hormuz Mines: Stock Market Today](https://finnhub.io/api/news?id=05804c95ab58ba262bb452c5640017d019dab62d1376acde6b7416e51bb1b6fe)**  
+*Benzinga · 12h前*  
+Wall Street clawed back Monday&#39;s AI selloff as Brent slid below $90 and 10-year yields eased from 20-month highs.
+
+- **[Reported Earlier, Standard Nuclear TRISO Fuel Producer, Prices Initial Public Offering Of 10M Class A Shares At $15.00 Per Share](https://finnhub.io/api/news?id=1fabdbf0d4ddd34d8786720a12a77205ed269e86d8ad3c6c41e97a2483643ae2)**  
+*Benzinga · 12h前*
 
 ---
 
@@ -44,7 +47,7 @@ New investors looking at the nuclear renaissance story are assessing whether the
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-25 | 監控 | $39.69 | — | 自動更新 |
+| 2026-08-26 | 監控 | $44.27 | — | 自動更新 |
 
 ---
 
@@ -55,4 +58,4 @@ New investors looking at the nuclear renaissance story are assessing whether the
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 09:05 HKT*
