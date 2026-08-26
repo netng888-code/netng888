@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-08-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$1.62** |
-| 今日變動 | ▼ $0.08　(-4.71%) |
+| 現價 | **$1.97** |
+| 今日變動 | ▲ $0.35　(+21.60%) |
 | 持倉數量 | 300 股 |
 | 平均成本 | $2.445 |
-| 未實現盈虧 | ▼ $247　(▼33.7%) |
+| 未實現盈虧 | ▼ $142　(▼19.4%) |
 
 ---
 
@@ -20,17 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $1.52 | — |
-| Put Wall（支撐） | $1.50 | -7.4% |
-| Call Wall（阻力） | $3.00 | +85.2% |
+| Gamma Flip | $1.53 | — |
+| Put Wall（支撐） | $1.50 | -23.9% |
+| Call Wall（阻力） | $2.00 | +1.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[Richtech Robotics Stock Surges Following Buyback Approval: What Investors Need to Know](https://finnhub.io/api/news?id=f3d115d5d3cfa11714e348691d9cf2c75a097b945d2c65481e188554feb1b61e)**  
+*Benzinga · 9h前*  
+Shares of Richtech Robotics are climbing Tuesday afternoon on heavy trading volume after the company announced a stock repurchase program.
+
+- **[Nayax, Immatics, Moderna, Marvell Technology And Other Big Stocks Moving Higher On Tuesday](https://finnhub.io/api/news?id=fa8a1a655519668c95ae8e211c29c5f86a9f486190381f2c9af84f64974dac66)**  
+*Benzinga · 15h前*  
+Nasdaq: NYAX rose 13.9% on Tuesday after announcing acquisition of IPS Group Inc. for $350 million. Other big gainers include CAPR, RZLV, CRML, and MAIR.
+
+- **[Richtech Robotics Announces $12M Buyback Plan](https://finnhub.io/api/news?id=f6aef0eef2e72bc8de2d478f0576d135067c2125dcea15433e882133e35223d5)**  
+*Benzinga · 17h前*  
+Richtech Robotics Inc. (NASDAQ:RR) (&#34;Richtech Robotics&#34; or &#34;the Company&#34;), a Nevada-based provider of AI-driven service robots, announces that i…
 
 ---
 
@@ -38,7 +48,7 @@
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-25 | 監控 | $1.62 | — | 自動更新 |
+| 2026-08-26 | 監控 | $1.97 | — | 自動更新 |
 
 ---
 
@@ -49,4 +59,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 09:05 HKT*
