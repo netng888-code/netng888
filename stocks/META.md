@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-26 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,30 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom: Moving Big Into Vendor Financing](https://finnhub.io/api/news?id=1e3a378c6c5ede2d5185cdc9938738b11f392691a0fd607ae87896267a54b8a3)**  
-*SeekingAlpha · 7h前*  
-Broadcom Inc.: AI chip growth targets, SPV financing and default risks, insider selling, and valuationâsee why investors may avoid now. Click for more on AVGO…
+- **[Big Tech Off-Balance Sheet Concerns](https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23)**  
+*SeekingAlpha · 6h前*  
+Media outlets like WSJ and Financial Times have been covering big techâs growing affinity towards off-balance sheet financing in recent weeks. Read more here.…
 
-- **[Seeking And Finding Data Center Clarity: The AI Trade And The Economy (Video)](https://finnhub.io/api/news?id=83dd865c525020fe5df0907bb850f6f2493ba32e01162770b91820599548fa60)**  
+- **[The Deep Unknowns Of AI](https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c)**  
 *SeekingAlpha · 9h前*  
-The AI data center boom faces regulatory scrutiny and shifting power demand signals. Click for this look at how the current tech wave affects the economy.
+Nvidia and Apple may best withstand a $3T off-balance sheet AI data center debt risk facing Big Tech. Read why holding NVDA and AAPL stocks is recommended.
 
-- **[Treasury Bond Buybacks Cannot Solve A Fiscal Problem; Nvidia Earnings And Inflation Data Expected Tomorrow](https://finnhub.io/api/news?id=b79b16c471bcc0898122b4984a9697a565e0a077e356fc4b8e6fa80e5d01d750)**  
-*Benzinga · 10h前*  
-Key Data Ahead
-
-
-
-Please click here for an enlarged chart of Invesco QQQ Trust Series 1 (NASDAQ:QQQ).
-
-
-
-Note the following:
-
-
-
-
-The chart shows that QQQ did no…
+- **[Broadcom: Moving Big Into Vendor Financing](https://finnhub.io/api/news?id=1e3a378c6c5ede2d5185cdc9938738b11f392691a0fd607ae87896267a54b8a3)**  
+*SeekingAlpha · 19h前*  
+Broadcom Inc.: AI chip growth targets, SPV financing and default risks, insider selling, and valuationâsee why investors may avoid now. Click for more on AVGO…
 
 ---
 
@@ -72,4 +59,4 @@ The chart shows that QQQ did no…
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
