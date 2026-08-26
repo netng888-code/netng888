@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-26 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Don't Sleep On Software](https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d)**  
-*SeekingAlpha · 7h前*  
-Alex King from Growth Investor ProÂ discusses theÂ AI cycle, semis and software.
+- **[Broadcom: Firing On All Fronts, But Is The Price Really Justified?](https://finnhub.io/api/news?id=18309c0ff85bf10e683c5f669b29266b59270aed98f02fdeb9c14f54a3fb5ab3)**  
+*SeekingAlpha · 4h前*  
+Broadcom trades margin for volume in lower-margin AI segments, raising concerns about long-term pricing power and profitability. Read why AVGO stock is a hold.
 
-- **[Broadcom: Moving Big Into Vendor Financing](https://finnhub.io/api/news?id=1e3a378c6c5ede2d5185cdc9938738b11f392691a0fd607ae87896267a54b8a3)**  
-*SeekingAlpha · 7h前*  
-Broadcom Inc.: AI chip growth targets, SPV financing and default risks, insider selling, and valuationâsee why investors may avoid now. Click for more on AVGO…
+- **[SCHD And STK: A 3%+ Income Barbell](https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6)**  
+*SeekingAlpha · 5h前*  
+STK yields 3.56% with special distribution potential, while SCHD's 2.98% yield reflects strong price appreciation. Check out the strategy with SCHD and STK here…
 
-- **[AI Semiconductor Chips Vs. Software Stocks: Understanding Cyclicality And Disruption](https://finnhub.io/api/news?id=be982ebc4a89a5a9360ce887cc0bb555e3d0c48ed10a27a2b0c301e97e2dc1a9)**  
-*SeekingAlpha · 9h前*  
-Read this comparison of top AI software vs. semiconductor stocksâNVDA, MSFT, PLTR, CRWD, AVGO, AMD, MU & CRMâto know their valuations, risks, and catalysts.
+- **[Cheaper Oil and a Chip Bid Set the Table Before Nvidia Speaks](https://finnhub.io/api/news?id=bdd5ff242d5acf57f02c5b23519220e818af944279b3c1f3f5ab65b2e2fffb55)**  
+*ChartMill · 6h前*  
+Wall Street clawed back ground on Tuesday, August 25, 2026, as Brent slipped under $90, Treasury yields eased, and the chip complex broke a seven-session losing…
 
 ---
 
@@ -59,4 +59,4 @@ Read this comparison of top AI software vs. semiconductor stocksâNVDA, MSFT
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
