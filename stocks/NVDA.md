@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,7 +22,7 @@
 |------|------|---------|
 | Gamma Flip | $199.95 | — |
 | Put Wall（支撐） | $200.00 | -4.6% |
-| Call Wall（阻力） | $220.00 | +4.9% |
+| Call Wall（阻力） | $230.00 | +9.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Explore the top gainers and losers within the dow jones index in today's session.](https://finnhub.io/api/news?id=45b7ccfee9169d8cf3dc418bd809f9b83e3e927cd7530f4e98fda7ca7f6a2c9d)**  
-*ChartMill · 5h前*  
-Stay informed about the performance of the dow jones index one hour before the close of the markets on Wednesday. Uncover the top gainers and losers in today's …
+- **[These S&P500 stocks that are showing activity before the opening bell on Thursday.](https://finnhub.io/api/news?id=6eddc22315eab437a036c92d41b9413ce1649a99d12f9437bfddd25f4c2ca7de)**  
+*ChartMill · 0h前*  
+Before the US market kicks off on Thursday, let's examine the pre-market session and unveil the notable performers among the S&P500 top gainers and losers.
 
-- **[Nvidia Q2: The $10 Trillion Thesis](https://finnhub.io/api/news?id=2817a606305ccb037b2cf67f2e2d75762fde7f333f8228b530d0fdf68286741e)**  
-*SeekingAlpha · 6h前*  
-Nvidia posts triple-digit AI revenue growth, strong margins, and upbeat guidanceâsupporting a compelling valuation and $10T upside. Click to know more on NVDA…
+- **[Nvidia's Next-Year Guide Rewrites the AI Ceiling Debate](https://finnhub.io/api/news?id=200be3363ed0151f98d6c29801ffa0ae13c6a8c8aafec1083d6d9779f16cb265)**  
+*ChartMill · 3h前*  
+Wall Street traded a nervous flatline on Wednesday, August 26, 2026, waiting on Nvidia. The after-hours tape then did what the day session wouldn't: a rare next…
 
-- **[Nvidia Q2 FY27: I'm Buying This Weakness](https://finnhub.io/api/news?id=3c01c0f0f65d887f542e7cb91ac6587ac2ae2faf1f4a662e998555f76be9d6df)**  
-*SeekingAlpha · 6h前*  
-Nvidia (NVDA) is a Strong Buy as P/E compresses and earnings surge; see Q2 revenue +106% and key risks like margins and supplyâread now.
+- **[Nvidia Just Obliterated The Bear Case, And Shares Are Still Undervalued](https://finnhub.io/api/news?id=d7b48103a6056a9c8541c07c8302a128297e3340b031ac4f666a84c6b3023d49)**  
+*SeekingAlpha · 4h前*  
+Nvidia delivered record Q2 FY2027 results, with 105.85% YoY revenue growth and management guiding to 70% growth in FY2028, citing supply constraints. Learn more…
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia (NVDA) is a Strong Buy as P/E compresses and earnings surge; see Q2 reven
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 21:03 HKT*
