@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$932.97** |
-| 今日變動 | ▲ $22.54　(+2.48%) |
+| 現價 | **$938.40** |
+| 今日變動 | ▲ $5.43　(+0.58%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $375　(▲67.2%) |
+| 未實現盈虧 | ▲ $381　(▲68.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $907.34 | — |
-| Put Wall（支撐） | $900.00 | -3.5% |
-| Call Wall（阻力） | $1,000.00 | +7.2% |
+| Gamma Flip | $909.88 | — |
+| Put Wall（支撐） | $900.00 | -4.1% |
+| Call Wall（阻力） | $1,000.00 | +6.6% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tracking David Tepper's Appaloosa Management Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=68f02ebf639be16304aa29f695612e1a36fd9a7c80878ee95a3e4e4ff62f02aa)**  
-*SeekingAlpha · 16h前*
+- **[10 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=0e4cb4e27393a5b69ff43258a0e2de829fd04fd71f409c904035480afb36f0c1)**  
+*Benzinga · 11h前*  
+This whale alert can help traders discover the next big trading opportunities.
+Whales are entities with large sums of money and we track their transactions here…
 
-- **[How To Retire: Stop Looking For Magic](https://finnhub.io/api/news?id=b3ea1d3810b5b37c6bf5bb8f368c1231cd83526444e6d176c1d445c0e6450f8f)**  
-*SeekingAlpha · 19h前*  
-Retirement portfolios should emphasize income, growth, and diversification. Read about one approach to retirement portfolio strategy.
+- **[Howmet Aerospace shares are trading higher after B of A Securities raised its price target on the stock from $250 to $300.](https://finnhub.io/api/news?id=4f8729313aec0207dd007101aabb3b63509933bd65c7a59412eb1777fdd30dc8)**  
+*Benzinga · 12h前*
 
-- **[Don't Sleep On Software](https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d)**  
-*SeekingAlpha · 19h前*  
-Alex King from Growth Investor ProÂ discusses theÂ AI cycle, semis and software.
+- **[Nvidia Earnings: Top AI Stocks And What We Need To See For A Rally](https://finnhub.io/api/news?id=0476f7ef930de980f7966778d688764048769fe102d32ccca11e277073a8723b)**  
+*SeekingAlpha · 13h前*  
+The top AI stocks to watch after Nvidia earnings include infrastructure beneficiaries that have strategic connections to NVDA. Click here to see the top 3 stock…
 
 ---
 
@@ -47,7 +48,7 @@ Alex King from Growth Investor ProÂ discusses theÂ AI cycle, semis and softw
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-26 | 監控 | $932.97 | — | 自動更新 |
+| 2026-08-27 | 監控 | $938.40 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ Alex King from Growth Investor ProÂ discusses theÂ AI cycle, semis and softw
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 09:03 HKT*
