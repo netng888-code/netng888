@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-08-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$1.97** |
-| 今日變動 | ▲ $0.35　(+21.60%) |
+| 現價 | **$1.85** |
+| 今日變動 | ▼ $0.12　(-6.09%) |
 | 持倉數量 | 300 股 |
 | 平均成本 | $2.445 |
-| 未實現盈虧 | ▼ $142　(▼19.4%) |
+| 未實現盈虧 | ▼ $178　(▼24.3%) |
 
 ---
 
@@ -20,18 +20,18 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $1.53 | — |
-| Put Wall（支撐） | $1.50 | -23.9% |
-| Call Wall（阻力） | $2.00 | +1.5% |
+| Gamma Flip | $1.51 | — |
+| Put Wall（支撐） | $1.50 | -18.9% |
+| Call Wall（阻力） | $2.00 | +8.1% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
 - **[Richtech Robotics Stock Surges Following Buyback Approval: What Investors Need to Know](https://finnhub.io/api/news?id=f3d115d5d3cfa11714e348691d9cf2c75a097b945d2c65481e188554feb1b61e)**  
-*Benzinga · 21h前*  
+*Benzinga · 1d前*  
 Shares of Richtech Robotics are climbing Tuesday afternoon on heavy trading volume after the company announced a stock repurchase program.
 
 - **[Nayax, Immatics, Moderna, Marvell Technology And Other Big Stocks Moving Higher On Tuesday](https://finnhub.io/api/news?id=fa8a1a655519668c95ae8e211c29c5f86a9f486190381f2c9af84f64974dac66)**  
@@ -48,7 +48,7 @@ Richtech Robotics Inc. (NASDAQ:RR) (&#34;Richtech Robotics&#34; or &#34;the Comp
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-26 | 監控 | $1.97 | — | 自動更新 |
+| 2026-08-27 | 監控 | $1.85 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Richtech Robotics Inc. (NASDAQ:RR) (&#34;Richtech Robotics&#34; or &#34;the Comp
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
