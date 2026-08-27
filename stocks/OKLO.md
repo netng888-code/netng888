@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Oklo Stock Edges Higher Wednesday: What's Happening?](https://finnhub.io/api/news?id=799acfe599fcdcb626fac3a7bbf00d833521987e9a6e848b84778cc8a626e111)**  
-*Benzinga · 15h前*  
+*Benzinga · 1d前*  
 Shares of Oklo are edging higher Wednesday morning as investors digest ongoing trade friction between the U.S. and Canada.
 
 - **[Intuit, DICK'S Sporting Goods, Zoom, Oklo and Rezolve AI: Why These 5 Stocks Are on Investors' Radars Today](https://finnhub.io/api/news?id=51c43e9d04eeb9a56779aa2ea746b3a7b36e034d378554184d3e28f8b4d21db2)**  
@@ -59,4 +59,4 @@ Oklo is trading higher Tuesday afternoon as buying momentum accelerates across u
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 21:04 HKT*
