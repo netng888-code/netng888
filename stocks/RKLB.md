@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Why Is AST SpaceMobile Stock Falling on Wednesday?](https://finnhub.io/api/news?id=8bc80989313ca0d53f9e16305de7d94faef11342bff5bb6361de6001a3ffbdc4)**  
-*Benzinga · 11h前*  
+*Benzinga · 23h前*  
 AST SpaceMobile stock fell Wednesday after SpaceX announced changes to its launch operations, raising market concerns.
 
 - **[Rocket Lab Is Becoming Much Bigger Than Neutron](https://finnhub.io/api/news?id=10bce86c1cc3499ccff489362466cee215c96cb189bb1a6ea8c711441adb79ce)**  
-*SeekingAlpha · 11h前*  
+*SeekingAlpha · 23h前*  
 Rocket Lab generated $234 million in Q2 revenue while its backlog reached $2.36 billion across increasingly integrated space programs. Learn more about RKLB sto…
 
 - **[Rocket Lab Stock Pauses Wednesday: What's Happening?](https://finnhub.io/api/news?id=2f069358f8034d774a61e452fe166cce7ef8901d480a51f4430285e7b5b88220)**  
-*Benzinga · 14h前*  
+*Benzinga · 1d前*  
 Rocket Lab is trading flat Wednesday after a 10% weekly pullback as investors weigh high development costs against major defense wins.
 
 ---
@@ -59,4 +59,4 @@ Rocket Lab is trading flat Wednesday after a 10% weekly pullback as investors we
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 21:04 HKT*
