@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,11 +35,11 @@
 The mean of analysts' price targets for Redwire Corporation (RDW) points to a 27.9% upside in the stock. While this highly sought-after metric has not proven re…
 
 - **[Redwire Corporation: A Record Quarter That Got Smaller Per Share](https://finnhub.io/api/news?id=1afaaa0b19f974fc9908a0c690b49f78fb678ee404e9821d43d9f5403a5588aa)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Redwire Corporation delivered record revenue, gross margin, backlog, and liquidity, but share dilution offset per-share gains. Learn more about RDW stock here.
 
 - **[Redwire Announces Strategic Investment in Next-Generation Phased Array Antenna Technology to Advance Global Warfighter Connectivity](https://finnhub.io/api/news?id=0e357b855da8c5f70cd61620ece7e6fee504191b531852d1ab308d21907c5750)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 SALT LAKE CITY, August 25, 2026--Redwire Corporation (NYSE: RDW), a global leader in aerospace and defense technology solutions, today announced a strategic inv…
 
 ---
@@ -59,4 +59,4 @@ SALT LAKE CITY, August 25, 2026--Redwire Corporation (NYSE: RDW), a global leade
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 21:04 HKT*
