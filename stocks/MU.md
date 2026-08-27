@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-27 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[10 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=0e4cb4e27393a5b69ff43258a0e2de829fd04fd71f409c904035480afb36f0c1)**  
-*Benzinga · 11h前*  
+*Benzinga · 23h前*  
 This whale alert can help traders discover the next big trading opportunities.
 Whales are entities with large sums of money and we track their transactions here…
 
 - **[Howmet Aerospace shares are trading higher after B of A Securities raised its price target on the stock from $250 to $300.](https://finnhub.io/api/news?id=4f8729313aec0207dd007101aabb3b63509933bd65c7a59412eb1777fdd30dc8)**  
-*Benzinga · 12h前*
+*Benzinga · 1d前*
 
 - **[Nvidia Earnings: Top AI Stocks And What We Need To See For A Rally](https://finnhub.io/api/news?id=0476f7ef930de980f7966778d688764048769fe102d32ccca11e277073a8723b)**  
-*SeekingAlpha · 13h前*  
+*SeekingAlpha · 1d前*  
 The top AI stocks to watch after Nvidia earnings include infrastructure beneficiaries that have strategic connections to NVDA. Click here to see the top 3 stock…
 
 ---
@@ -59,4 +59,4 @@ The top AI stocks to watch after Nvidia earnings include infrastructure benefici
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 21:03 HKT*
