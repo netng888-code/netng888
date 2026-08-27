@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[The Government Took Equity In Quantum Stocks, So Should We](https://finnhub.io/api/news?id=526b9cab301084be2bd6dff7af650538fa06a5242359ebf2c95023bd0bb9e74d)**  
-*SeekingAlpha · 12h前*  
+*SeekingAlpha · 1d前*  
 Explore quantum computing investing: why profits are years away, why broad/AI funds miss it, and how QTUM vs WQTM ETFs offer diversified exposureâlearn...
 
 - **[Bill Gates Sounds a Chilling AI Warning: Millions of Jobs Could Disappear, Wealth Could Pile Up at the Top and Robots May Need to Be Taxed](https://finnhub.io/api/news?id=fb4b0e675a62b760edafa934a5bb69ca7f8c4f9d1b968ff5e332ef1dda53166e)**  
-*Benzinga · 17h前*  
+*Benzinga · 1d前*  
 Bill Gates warns AI could accelerate job losses and wealth inequality, urging governments to prepare with new policies.
 
 - **[DRNZ: Buy The Drone Buildout Before The Rules Change (For The Better)](https://finnhub.io/api/news?id=d467e0ec208307bd49dbae4601d6779debb678249676f98906f5fa2bcefc2d58)**  
@@ -59,4 +59,4 @@ DRNZ is concentrated in a few top holdings, notably AeroVironment and Ondas, wit
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 21:04 HKT*
