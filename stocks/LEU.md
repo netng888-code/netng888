@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$193.39** |
-| 今日變動 | ▲ $16.25　(+9.17%) |
+| 現價 | **$187.63** |
+| 今日變動 | ▼ $5.76　(-2.98%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $33　(▼2.1%) |
+| 未實現盈虧 | ▼ $79　(▼5.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $186.49 | — |
-| Put Wall（支撐） | $175.00 | -9.5% |
-| Call Wall（阻力） | $220.00 | +13.8% |
+| Gamma Flip | $181.21 | — |
+| Put Wall（支撐） | $175.00 | -6.7% |
+| Call Wall（阻力） | $220.00 | +17.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -38,7 +38,7 @@
 Stifel  analyst Stephen Gengaro   maintains Centrus Energy (NYSE:LEU) with a Buy and lowers the price target from $246 to $216.
 
 - **[Green Plains, Liberty Energy, Nabors Industries, Centrus Energy, and Oceaneering Shares Are Falling, What You Need To Know](https://finnhub.io/api/news?id=5ea01086a43914455560760ebe0495f63185518b3ae80732857df0a8c4bf14d7)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 A number of stocks fell in the afternoon session after Crude oil prices pulled back as traders locked in profits after two weeks of gains and awaited details on…
 
 ---
@@ -47,7 +47,7 @@ A number of stocks fell in the afternoon session after Crude oil prices pulled b
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-26 | 監控 | $193.39 | — | 自動更新 |
+| 2026-08-27 | 監控 | $187.63 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ A number of stocks fell in the afternoon session after Crude oil prices pulled b
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
