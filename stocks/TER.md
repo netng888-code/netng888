@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$366.43** |
-| 今日變動 | ▲ $1.53　(+0.42%) |
+| 現價 | **$363.10** |
+| 今日變動 | ▼ $3.33　(-0.91%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,372　(▲298.3%) |
+| 未實現盈虧 | ▲ $1,356　(▲294.7%) |
 
 ---
 
@@ -20,15 +20,19 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $379.27 | — |
-| Put Wall（支撐） | $360.00 | -1.8% |
-| Call Wall（阻力） | $392.50 | +7.1% |
+| Gamma Flip | $377.91 | — |
+| Put Wall（支撐） | $360.00 | -0.9% |
+| Call Wall（阻力） | $392.50 | +8.1% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
+
+- **[Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next](https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93)**  
+*SeekingAlpha · 13h前*  
+S&P 500 IndexÂ earnings grew roughly 31% YoY in Q2 2026, and AI infrastructure companies contributed about half of that growth, with their own earnings rising a…
 
 - **[Which S&P500 stocks are moving before the opening bell on Tuesday?](https://finnhub.io/api/news?id=d44ae880012a4f33762d53100b314f1895a0d7bc8d84b9479edaf08c001133a2)**  
 *ChartMill · 1d前*  
@@ -38,17 +42,13 @@ As we await the opening of the US market on Tuesday, let's delve into the pre-ma
 *SeekingAlpha · 1d前*  
 Teradyneâs duopoly in semiconductor testing offers long-term upside, but valuation and Advantest underperformance suggest a hold. Click for more on TER stock.
 
-- **[Chips Take the Punch Ahead of Nvidia as Trump's Canada Tariffs Rattle Detroit](https://finnhub.io/api/news?id=2be168855ee50e913a997ad60b9ba46a6dce9f94c3f66325445b6b6e82be88ad)**  
-*ChartMill · 1d前*  
-Wall Street opened the week split on Monday, August 24, 2026, with the Nasdaq bleeding 0.8% as semiconductor names sold off ahead of Nvidia's Wednesday print an…
-
 ---
 
 ## 📝 操作記錄
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-26 | 監控 | $366.43 | — | 自動更新 |
+| 2026-08-27 | 監控 | $363.10 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street opened the week split on Monday, August 24, 2026, with the Nasdaq bl
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
