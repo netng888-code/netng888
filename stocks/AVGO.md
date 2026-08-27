@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[AI Bubble Alert: The Rubber Hits The Road In 2027](https://finnhub.io/api/news?id=f6018372a73257397902f83f94ec08db28d77e3e15820591182a0a76c1a5bcab)**  
-*SeekingAlpha · 11h前*  
+*SeekingAlpha · 23h前*  
 The circular financing driving the AI boom mirrors the subprime crisis, warning investors of a dangerous tech bubble. Read what investors need to know.
 
 - **[Broadcom Is The New Nvidia, And That's The Problem](https://finnhub.io/api/news?id=e1c1e0d11f02d847fa2f3da08bc17299451bda89bf10efc19cb8b201d06b0484)**  
-*SeekingAlpha · 11h前*  
+*SeekingAlpha · 23h前*  
 Broadcom Inc. stock outlook: flat YTD, rising ASIC competition from hyperscalers, possible price cuts, and share loss risks. Click for this AVGO update.
 
 - **[Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next](https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93)**  
-*SeekingAlpha · 13h前*  
+*SeekingAlpha · 1d前*  
 S&P 500 IndexÂ earnings grew roughly 31% YoY in Q2 2026, and AI infrastructure companies contributed about half of that growth, with their own earnings rising a…
 
 ---
@@ -59,4 +59,4 @@ S&P 500 IndexÂ earnings grew roughly 31% YoY in Q2 2026, and AI infrastructure
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 21:03 HKT*
