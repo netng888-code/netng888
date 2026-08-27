@@ -239,12 +239,12 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="summary-grid">
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
-      <div class="summary-value" id="sum-us-mktval">USD 29,319.44</div>
+      <div class="summary-value" id="sum-us-mktval">USD 31,163.94</div>
       <div class="summary-sub" id="sum-us-count">18 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 4,828.62</div>
+      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 4,878.93</div>
       <div class="summary-sub">未計已實現</div>
     </div>
     <div class="summary-card">
@@ -254,7 +254,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     </div>
     <div class="summary-card">
       <div class="summary-label">今日盈虧 (美股)</div>
-      <div class="summary-value pnl-pos" id="sum-us-today">+ USD 1,371.58</div>
+      <div class="summary-value pnl-pos" id="sum-us-today">+ USD 167.68</div>
       <div class="summary-sub">USD · 實時</div>
     </div>
   </div>
@@ -364,14 +364,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('NVDA')">NVDA</span></td>
       <td class="name-cell">英偉達</td>
-      <td style="color:var(--muted)">10</td>
-      <td><span class="price-cell price-live">204.12</span></td>
-      <td><span class="ext-price-cell">+0.00 (0.00%)</span></td>
-      <td style="color:var(--muted)">160.125</td>
-      <td class="mktval-cell">2,041.20</td>
-      <td class="pnl-pos">+439.95</td>
-      <td><span class="pct-badge pos">+27.48%</span></td>
-      <td class="pnl-neu today-pnl-cell">+0.00</td>
+      <td style="color:var(--muted)">20</td>
+      <td><span class="price-cell price-live">218.21</span></td>
+      <td><span class="ext-price-cell">+8.56 (+4.08%)</span></td>
+      <td style="color:var(--muted)">189.063</td>
+      <td class="mktval-cell">4,364.20</td>
+      <td class="pnl-pos">+582.95</td>
+      <td><span class="pct-badge pos">+15.42%</span></td>
+      <td class="pnl-pos today-pnl-cell">+171.20</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('NVDA')">📈</button>
@@ -760,7 +760,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-08-21 ｜ LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
+  <span>持倉更新：2026-08-26：NVDA Q2業績後盤後加倉10股@$218.00（10→20股，成本加權至$189.0625）｜ 2026-08-21：LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -820,7 +820,7 @@ const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
 // ── 美股持倉（由Futu CSV 2026-06-29 匯出，按市值降序）────────────────────────
 const US_HOLDINGS = [
   { symbol:'GOOGL', name:'谷歌-A',                qty:12,  cost:178.40,   mktval:4349.28,  pnl:2208.48,  pnlPct:'+103.16%', realized:1776.20, todayPnL:-21.84  },
-  { symbol:'NVDA',  name:'英偉達',                qty:10,  cost:160.125,  mktval:2041.20,  pnl:439.95,   pnlPct:'+27.48%',  realized:1268.05, todayPnL:0       },
+  { symbol:'NVDA',  name:'英偉達',                qty:20,  cost:189.0625, mktval:4364.20,  pnl:582.95,   pnlPct:'+15.42%',  realized:1268.05, todayPnL:171.20  },
   { symbol:'AVGO',  name:'博通',                  qty:10,  cost:378.602,  mktval:4160.00,  pnl:373.98,   pnlPct:'+9.88%',   realized:52.85,   todayPnL:-39.54  },
   { symbol:'MRVL',  name:'邁威爾科技',             qty:10,  cost:257.303,  mktval:2767.00,  pnl:193.98,   pnlPct:'+7.54%',   realized:0.36,    todayPnL:0       },
   { symbol:'MU',    name:'美光科技',              qty:1,   cost:557.857,  mktval:977.00,   pnl:419.14,   pnlPct:'+75.13%',  realized:4738.74, todayPnL:-55.64  },

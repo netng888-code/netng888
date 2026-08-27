@@ -352,13 +352,20 @@
     同步規則走齊。LYTE係2026-08-06先上市嘅新ETF，期權鏈/OI可能仲
     未夠成熟，查詢GEX或落新增嘅「📅 到期日曆」度可能出現數據較薄
     或Field Inspector顯示唔到嘅情況，屬正常現象，唔係bridge壞咗。
+  v5.19（2026-08-26）：NVDA Q2 FY2027業績（beat-and-raise，Q3
+    guidance $108B高於預期$104.2B，盤後+4.08%）後，用戶盤後
+    $218.00加倉10股（10→20股），加權平均成本由$160.125上調至
+    **$189.0625**。PORTFOLIO object同步更新，其餘四檔（CSV／
+    index.html／telegram_bot.py／github_gex_updater.py）跟返
+    五檔同步規則一併處理（github_gex_updater.py按慣例由用戶
+    自行更正，呢度唔重複觸碰）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.18)</title>
+<title>GEX Chart — Futu Bridge (v5.19)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -1234,7 +1241,7 @@ buildQuicklinks();
 // 同NOK（100@13.50→150@13.167，之前個file漏咗一次加倉）
 const PORTFOLIO = {
   'GOOGL':{qty:12,  cost:178.40  },
-  'NVDA': {qty:10,  cost:160.125 },
+  'NVDA': {qty:20,  cost:189.0625},
   'AVGO': {qty:10,  cost:378.602 },
   'MRVL': {qty:10,  cost:257.303 },
   'MU':   {qty:1,   cost:557.857 },
