@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,11 +35,11 @@
 Shares of Richtech Robotics are climbing Tuesday afternoon on heavy trading volume after the company announced a stock repurchase program.
 
 - **[Nayax, Immatics, Moderna, Marvell Technology And Other Big Stocks Moving Higher On Tuesday](https://finnhub.io/api/news?id=fa8a1a655519668c95ae8e211c29c5f86a9f486190381f2c9af84f64974dac66)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 Nasdaq: NYAX rose 13.9% on Tuesday after announcing acquisition of IPS Group Inc. for $350 million. Other big gainers include CAPR, RZLV, CRML, and MAIR.
 
 - **[Richtech Robotics Announces $12M Buyback Plan](https://finnhub.io/api/news?id=f6aef0eef2e72bc8de2d478f0576d135067c2125dcea15433e882133e35223d5)**  
-*Benzinga · 1d前*  
+*Benzinga · 2d前*  
 Richtech Robotics Inc. (NASDAQ:RR) (&#34;Richtech Robotics&#34; or &#34;the Company&#34;), a Nevada-based provider of AI-driven service robots, announces that i…
 
 ---
@@ -59,4 +59,4 @@ Richtech Robotics Inc. (NASDAQ:RR) (&#34;Richtech Robotics&#34; or &#34;the Comp
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 21:04 HKT*
