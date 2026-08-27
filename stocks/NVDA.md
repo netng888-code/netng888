@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-27 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$213.05** |
-| 今日變動 | ▲ $4.57　(+2.19%) |
+| 現價 | **$209.66** |
+| 今日變動 | ▼ $3.39　(-1.59%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $529　(▲33.1%) |
+| 未實現盈虧 | ▲ $495　(▲30.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $199.80 | — |
-| Put Wall（支撐） | $200.00 | -6.1% |
-| Call Wall（阻力） | $220.00 | +3.3% |
+| Gamma Flip | $199.95 | — |
+| Put Wall（支撐） | $200.00 | -4.6% |
+| Call Wall（阻力） | $220.00 | +4.9% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Amazon's Earnings Matter For Nvidia's Outlook](https://finnhub.io/api/news?id=605b07496038751bdcf6893d550beb3dcdef7cc203d959ecfb120f16ab048c6c)**  
-*SeekingAlpha · 4h前*  
-Amazon led the Magnificent Seven post-earnings rally in August, driven by robust AWS growth and clear AI monetization progress. Learn more about AMZN stock here…
+- **[Explore the top gainers and losers within the dow jones index in today's session.](https://finnhub.io/api/news?id=45b7ccfee9169d8cf3dc418bd809f9b83e3e927cd7530f4e98fda7ca7f6a2c9d)**  
+*ChartMill · 5h前*  
+Stay informed about the performance of the dow jones index one hour before the close of the markets on Wednesday. Uncover the top gainers and losers in today's …
 
-- **[SCHD And STK: A 3%+ Income Barbell](https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6)**  
-*SeekingAlpha · 5h前*  
-STK yields 3.56% with special distribution potential, while SCHD's 2.98% yield reflects strong price appreciation. Check out the strategy with SCHD and STK here…
+- **[Nvidia Q2: The $10 Trillion Thesis](https://finnhub.io/api/news?id=2817a606305ccb037b2cf67f2e2d75762fde7f333f8228b530d0fdf68286741e)**  
+*SeekingAlpha · 6h前*  
+Nvidia posts triple-digit AI revenue growth, strong margins, and upbeat guidanceâsupporting a compelling valuation and $10T upside. Click to know more on NVDA…
 
-- **[Cheaper Oil and a Chip Bid Set the Table Before Nvidia Speaks](https://finnhub.io/api/news?id=bdd5ff242d5acf57f02c5b23519220e818af944279b3c1f3f5ab65b2e2fffb55)**  
-*ChartMill · 6h前*  
-Wall Street clawed back ground on Tuesday, August 25, 2026, as Brent slipped under $90, Treasury yields eased, and the chip complex broke a seven-session losing…
+- **[Nvidia Q2 FY27: I'm Buying This Weakness](https://finnhub.io/api/news?id=3c01c0f0f65d887f542e7cb91ac6587ac2ae2faf1f4a662e998555f76be9d6df)**  
+*SeekingAlpha · 6h前*  
+Nvidia (NVDA) is a Strong Buy as P/E compresses and earnings surge; see Q2 revenue +106% and key risks like margins and supplyâread now.
 
 ---
 
@@ -48,7 +48,7 @@ Wall Street clawed back ground on Tuesday, August 25, 2026, as Brent slipped und
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-26 | 監控 | $213.05 | — | 自動更新 |
+| 2026-08-27 | 監控 | $209.66 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street clawed back ground on Tuesday, August 25, 2026, as Brent slipped und
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-27 09:04 HKT*
