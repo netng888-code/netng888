@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-27 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$355.59** |
-| 今日變動 | ▼ $1.15　(-0.32%) |
+| 現價 | **$371.54** |
+| 今日變動 | ▲ $15.95　(+4.49%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $202　(▼5.4%) |
+| 未實現盈虧 | ▼ $42　(▼1.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $372.34 | — |
-| Put Wall（支撐） | $350.00 | -1.6% |
-| Call Wall（阻力） | $400.00 | +12.5% |
+| Gamma Flip | $368.21 | — |
+| Put Wall（支撐） | $360.00 | -3.1% |
+| Call Wall（阻力） | $380.00 | +2.3% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Bubble Alert: The Rubber Hits The Road In 2027](https://finnhub.io/api/news?id=f6018372a73257397902f83f94ec08db28d77e3e15820591182a0a76c1a5bcab)**  
-*SeekingAlpha · 23h前*  
-The circular financing driving the AI boom mirrors the subprime crisis, warning investors of a dangerous tech bubble. Read what investors need to know.
+- **[Marvell Q2: I Agree With The Market](https://finnhub.io/api/news?id=f6ea36e7578e110c526702d56e4e49e3cb1b2da8c578cbd0b5435d64c91ff326)**  
+*SeekingAlpha · 6h前*  
+Marvell Technology, Inc. Q2 results: 37% revenue growth, AI data center surge, and margin gainsâyet valuation looks rich vs. peers. Click for more on MRVL ear…
 
-- **[Broadcom Is The New Nvidia, And That's The Problem](https://finnhub.io/api/news?id=e1c1e0d11f02d847fa2f3da08bc17299451bda89bf10efc19cb8b201d06b0484)**  
-*SeekingAlpha · 23h前*  
-Broadcom Inc. stock outlook: flat YTD, rising ASIC competition from hyperscalers, possible price cuts, and share loss risks. Click for this AVGO update.
+- **[Marvell Q2: Not Good Enough](https://finnhub.io/api/news?id=0e41ce09491882242356dc16f075d68cbafb302a6ea2fe9bc854f67b1f464e0b)**  
+*SeekingAlpha · 6h前*  
+Marvell Technology, Inc. Q2 earnings show 37% revenue growth, but valuation (~60x) and dilution look rich vs. AI chip peers. Click for this MRVL stock update.
 
-- **[Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next](https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93)**  
-*SeekingAlpha · 1d前*  
-S&P 500 IndexÂ earnings grew roughly 31% YoY in Q2 2026, and AI infrastructure companies contributed about half of that growth, with their own earnings rising a…
+- **[ETJ: Very High Tech Exposure Could Be A Risk](https://finnhub.io/api/news?id=c04386acd520e450ecbc6ba427b8cd3bb701cde71cd2850ba4460d9c584f7560)**  
+*SeekingAlpha · 12h前*  
+The Eaton Vance Risk-Managed Diversified Equity Income Fund offers a 9.26% yield and employs a unique risk-managed options strategy. Learn more about the ETJ ET…
 
 ---
 
@@ -48,7 +48,7 @@ S&P 500 IndexÂ earnings grew roughly 31% YoY in Q2 2026, and AI infrastructure
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-27 | 監控 | $355.59 | — | 自動更新 |
+| 2026-08-28 | 監控 | $371.54 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ S&P 500 IndexÂ earnings grew roughly 31% YoY in Q2 2026, and AI infrastructure
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 09:03 HKT*
