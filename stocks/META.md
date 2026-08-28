@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-27 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$576.14** |
-| 今日變動 | ▲ $6.09　(+1.07%) |
+| 現價 | **$571.10** |
+| 今日變動 | ▼ $5.04　(-0.87%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $91　(▼5.0%) |
+| 未實現盈虧 | ▼ $106　(▼5.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $559.64 | — |
-| Put Wall（支撐） | $550.00 | -4.5% |
-| Call Wall（阻力） | $750.00 | +30.2% |
+| Gamma Flip | $562.18 | — |
+| Put Wall（支撐） | $550.00 | -3.7% |
+| Call Wall（阻力） | $750.00 | +31.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,30 @@
 
 ## 📰 最新新聞
 
-- **[Tracking Ruane, Cunniff, & Goldfarb's Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=f0ee289a15577c07a4f88b461b3b9df0cab874642345723232053d6898832f08)**  
-*SeekingAlpha · 15h前*  
-Ruane, Cunniff & Goldfarb Q2 2026 13F: key holdings, new buys & trims, and Sequoia Fund vs S&P 500. Read here for a detailed investment analysis.
+- **[Meta: Disappointing Settlement, But Cost Of Doing Business](https://finnhub.io/api/news?id=5438fcf3b97fdab383b9548ccdc83aeeb9376fa36f095bc5c7e6ae9531d4d03a)**  
+*SeekingAlpha · 5h前*  
+Meta Platforms is rated a Strong Buy with the stock beaten down and the teen health overhang greatly reduced. Read more on META stock here.
 
-- **[Explore the S&P500 index on Wednesday and find out which stocks are the most active in today's session.](https://finnhub.io/api/news?id=c710f4da94ba6b1816de5555e8b2151446aae51f52ce20fa254d5a2921bdc8fd)**  
-*ChartMill · 18h前*  
-Stay informed about the most active stocks in the S&P500 index on Wednesday's session. Discover the stocks that are generating the highest trading volume and dr…
+- **[Nvidia's Unusual Move Answers AI Trade’s Key Question; $40 Trillion US Debt Bomb Ticks; Key Fed Speech Awaited](https://finnhub.io/api/news?id=586f505d7e72db784aca8e169728a1f0dfc9b7687c426d0c491ba3ce7f044961)**  
+*Benzinga · 12h前*  
+Nvidia’s Unusual Move
 
-- **[Meta Platforms: Time To Load Up On This Bargain](https://finnhub.io/api/news?id=652ac0789d8da867492ed953aa2368d7756fbd9a6a5481f90942b3d0152dd24f)**  
-*SeekingAlpha · 20h前*  
-Meta is a "Buy" given its ad algorithm gains, network effects, and AA- credit support. Here's what investors need to know about META stock.
+
+
+Please click here for an enlarged chart of NVIDIA Corp (NASDAQ:NVDA).
+
+
+
+Note the following:
+
+
+
+
+The chart shows that NVDA gapped up ab…
+
+- **[ETJ: Very High Tech Exposure Could Be A Risk](https://finnhub.io/api/news?id=c04386acd520e450ecbc6ba427b8cd3bb701cde71cd2850ba4460d9c584f7560)**  
+*SeekingAlpha · 12h前*  
+The Eaton Vance Risk-Managed Diversified Equity Income Fund offers a 9.26% yield and employs a unique risk-managed options strategy. Learn more about the ETJ ET…
 
 ---
 
@@ -48,7 +61,7 @@ Meta is a "Buy" given its ad algorithm gains, network effects, and AA- credit su
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-27 | 監控 | $576.14 | — | 自動更新 |
+| 2026-08-28 | 監控 | $571.10 | — | 自動更新 |
 
 ---
 
@@ -59,4 +72,4 @@ Meta is a "Buy" given its ad algorithm gains, network effects, and AA- credit su
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 09:04 HKT*
