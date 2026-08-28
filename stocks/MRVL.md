@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-27 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$245.11** |
-| 今日變動 | ▲ $4.73　(+1.97%) |
+| 現價 | **$241.45** |
+| 今日變動 | ▼ $3.66　(-1.49%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $122　(▼4.7%) |
+| 未實現盈虧 | ▼ $159　(▼6.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $218.73 | — |
-| Put Wall（支撐） | $200.00 | -18.4% |
-| Call Wall（阻力） | $280.00 | +14.2% |
+| Gamma Flip | $220.13 | — |
+| Put Wall（支撐） | $200.00 | -17.2% |
+| Call Wall（阻力） | $250.00 | +3.5% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,18 @@
 
 ## 📰 最新新聞
 
-- **[Stay updated with the S&P500 stocks that are on the move in today's after-hours session.](https://finnhub.io/api/news?id=f958314b4ee9ab1a1bbec252f4ecf81e1db41470f2f308d74e256640f1a5a6ad)**  
-*ChartMill · 15h前*  
-After the conclusion of the US market's regular session on Wednesday, let's examine the after-hours session and unveil the notable S&P500 performers among the t…
+- **[Marvell Q2: I Agree With The Market](https://finnhub.io/api/news?id=f6ea36e7578e110c526702d56e4e49e3cb1b2da8c578cbd0b5435d64c91ff326)**  
+*SeekingAlpha · 6h前*  
+Marvell Technology, Inc. Q2 results: 37% revenue growth, AI data center surge, and margin gainsâyet valuation looks rich vs. peers. Click for more on MRVL ear…
 
-- **[Marvell Technology Could Swing $20.8 Billion After Earnings](https://finnhub.io/api/news?id=5de354d13730a93ee429314425e07f00cd7acbab3adf57ab4bc021f564f1d6f0)**  
-*Benzinga · 21h前*  
-Options markets signal major post-earnings moves for Workday, Marvell, IREN, Gap and Hyperliquid Strategies, with implied volatility reaching 15.98%.
+- **[Marvell Q2: Not Good Enough](https://finnhub.io/api/news?id=0e41ce09491882242356dc16f075d68cbafb302a6ea2fe9bc854f67b1f464e0b)**  
+*SeekingAlpha · 6h前*  
+Marvell Technology, Inc. Q2 earnings show 37% revenue growth, but valuation (~60x) and dilution look rich vs. AI chip peers. Click for this MRVL stock update.
 
-- **[Marvell Technology, Inc. (MRVL) Presents at The Six Five Summit: AI Unleashed 2026 Transcript](https://finnhub.io/api/news?id=4ec8a0b7927b4c36c04521cfe1ff6889f9fc730707d6f9c8d209503d1058d5a7)**  
-*SeekingAlpha · 23h前*  
-Marvell Technology, Inc. (MRVL) The Six Five Summit: AI Unleashed 2026 August 26, 2026 11:00 AM EDTCompany ParticipantsMatthew Murphy - CEO &...
+- **[10 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=f8406579c7df6276bca493dabbc46c86c5f5a6165a69299edcf61297100ec7ee)**  
+*Benzinga · 11h前*  
+This whale alert can help traders discover the next big trading opportunities.
+Whales are entities with large sums of money and we track their transactions here…
 
 ---
 
@@ -48,7 +49,7 @@ Marvell Technology, Inc. (MRVL) The Six Five Summit: AI Unleashed 2026 August 26
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-27 | 監控 | $245.11 | — | 自動更新 |
+| 2026-08-28 | 監控 | $241.45 | — | 自動更新 |
 
 ---
 
@@ -59,4 +60,4 @@ Marvell Technology, Inc. (MRVL) The Six Five Summit: AI Unleashed 2026 August 26
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 09:04 HKT*
