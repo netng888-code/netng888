@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-08-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[AI Stocks Enter a High-Stakes Earnings Gauntlet](https://finnhub.io/api/news?id=a55a04d5b30dd8970e2a9e574d09c90f5e0125ae17f03079c65646e6e33f86a2)**  
+*ChartMill · 0h前*  
+AI earnings week: Amazon, Salesforce, AMD, Palantir, Snowflake report. Results will test if AI stock rally is backed by profits.
+
 - **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=ec2b40b60a205b60de6817ccb29564ac8d77ca419b4368cf7973ff4726b60f7f)**  
-*ChartMill · 6h前*  
+*ChartMill · 18h前*  
 Curious about the most active S&P500 stocks in today's session? Join us as we explore the US markets on Thursday and uncover the stocks that are leading the way…
 
 - **[Salesforce leads software rally, rocketing 20% on track for second-best day ever](https://finnhub.io/api/news?id=34b403919ff52b0a8dfb912a43c2f80ae067dcf4535774088eb4c08b02df58e7)**  
-*CNBC · 13h前*  
+*CNBC · 1d前*  
 Salesforce reported a strong beat on second-quarter earnings and announced an expanded AI partnership with Anthropic.
-
-- **[The Government Took Equity In Quantum Stocks, So Should We](https://finnhub.io/api/news?id=526b9cab301084be2bd6dff7af650538fa06a5242359ebf2c95023bd0bb9e74d)**  
-*SeekingAlpha · 1d前*  
-Explore quantum computing investing: why profits are years away, why broad/AI funds miss it, and how QTUM vs WQTM ETFs offer diversified exposureâlearn...
 
 ---
 
@@ -59,4 +59,4 @@ Explore quantum computing investing: why profits are years away, why broad/AI fu
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 21:04 HKT*
