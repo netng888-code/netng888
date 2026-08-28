@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-27 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$209.66** |
-| 今日變動 | ▼ $3.39　(-1.59%) |
+| 現價 | **$227.98** |
+| 今日變動 | ▲ $18.32　(+8.74%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $495　(▲30.9%) |
+| 未實現盈虧 | ▲ $679　(▲42.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $199.95 | — |
-| Put Wall（支撐） | $200.00 | -4.6% |
-| Call Wall（阻力） | $230.00 | +9.7% |
+| Gamma Flip | $205.96 | — |
+| Put Wall（支撐） | $220.00 | -3.5% |
+| Call Wall（阻力） | $230.00 | +0.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[These S&P500 stocks that are showing activity before the opening bell on Thursday.](https://finnhub.io/api/news?id=6eddc22315eab437a036c92d41b9413ce1649a99d12f9437bfddd25f4c2ca7de)**  
-*ChartMill · 0h前*  
-Before the US market kicks off on Thursday, let's examine the pre-market session and unveil the notable performers among the S&P500 top gainers and losers.
+- **[Thursday's session: top gainers and losers in the dow jones index](https://finnhub.io/api/news?id=f91bace257ba0af744e76346de1ee986e0b1ace6e3fd1e564f4da44e81506cdf)**  
+*ChartMill · 5h前*  
+Stay updated with the movement of dow jones stocks in today's session. Discover which dow jones stocks are making waves on Thursday.
 
-- **[Nvidia's Next-Year Guide Rewrites the AI Ceiling Debate](https://finnhub.io/api/news?id=200be3363ed0151f98d6c29801ffa0ae13c6a8c8aafec1083d6d9779f16cb265)**  
-*ChartMill · 3h前*  
-Wall Street traded a nervous flatline on Wednesday, August 26, 2026, waiting on Nvidia. The after-hours tape then did what the day session wouldn't: a rare next…
+- **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=f563c106233d14ebb69586ee907707f00b570373de8f8e44db8bfd287e5b4889)**  
+*ChartMill · 5h前*  
+Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Thursday.
 
-- **[Nvidia Just Obliterated The Bear Case, And Shares Are Still Undervalued](https://finnhub.io/api/news?id=d7b48103a6056a9c8541c07c8302a128297e3340b031ac4f666a84c6b3023d49)**  
-*SeekingAlpha · 4h前*  
-Nvidia delivered record Q2 FY2027 results, with 105.85% YoY revenue growth and management guiding to 70% growth in FY2028, citing supply constraints. Learn more…
+- **[Marvell Q2: I Agree With The Market](https://finnhub.io/api/news?id=f6ea36e7578e110c526702d56e4e49e3cb1b2da8c578cbd0b5435d64c91ff326)**  
+*SeekingAlpha · 6h前*  
+Marvell Technology, Inc. Q2 results: 37% revenue growth, AI data center surge, and margin gainsâyet valuation looks rich vs. peers. Click for more on MRVL ear…
 
 ---
 
@@ -48,7 +48,7 @@ Nvidia delivered record Q2 FY2027 results, with 105.85% YoY revenue growth and m
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-27 | 監控 | $209.66 | — | 自動更新 |
+| 2026-08-28 | 監控 | $227.98 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia delivered record Q2 FY2027 results, with 105.85% YoY revenue growth and m
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 09:03 HKT*
