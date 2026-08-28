@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-08-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,18 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell Q2: I Agree With The Market](https://finnhub.io/api/news?id=f6ea36e7578e110c526702d56e4e49e3cb1b2da8c578cbd0b5435d64c91ff326)**  
-*SeekingAlpha · 6h前*  
-Marvell Technology, Inc. Q2 results: 37% revenue growth, AI data center surge, and margin gainsâyet valuation looks rich vs. peers. Click for more on MRVL ear…
+- **[Friday's pre-market session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=dcb4b71fd2871b34d27da0105bf9221f9976270688aee3d4fc4cdfc744af2869)**  
+*ChartMill · 0h前*  
+Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements.
 
-- **[Marvell Q2: Not Good Enough](https://finnhub.io/api/news?id=0e41ce09491882242356dc16f075d68cbafb302a6ea2fe9bc854f67b1f464e0b)**  
-*SeekingAlpha · 6h前*  
-Marvell Technology, Inc. Q2 earnings show 37% revenue growth, but valuation (~60x) and dilution look rich vs. AI chip peers. Click for this MRVL stock update.
+- **[Nvidia's Guide Ignites a Broad AI Bid Ahead of Warsh's Jackson Hole Debut](https://finnhub.io/api/news?id=457bd7fc29d410106289bf72204c3d054ee7a43a67c755c3ca5fa615916a810e)**  
+*ChartMill · 2h前*  
+Thursday, August 27, 2026 handed the AI trade the reset it needed. Nvidia's forward number lit the whole complex, Salesforce and CrowdStrike delivered outsized …
 
-- **[10 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=f8406579c7df6276bca493dabbc46c86c5f5a6165a69299edcf61297100ec7ee)**  
-*Benzinga · 11h前*  
-This whale alert can help traders discover the next big trading opportunities.
-Whales are entities with large sums of money and we track their transactions here…
+- **[Wall Street Breakfast Podcast: Marvell Beats, Street Shrugs](https://finnhub.io/api/news?id=f600217c717a7110bcb548d8b8a01bd33ef80b9a7ff8cc6f284321e004b307ba)**  
+*SeekingAlpha · 7h前*  
+Marvell's AI engine is roaring, but investors still hit the sell button. Anthropic scores a courtroom win. Stripe and Advent reportedly walk away from PayPal de…
 
 ---
 
@@ -60,4 +59,4 @@ Whales are entities with large sums of money and we track their transactions her
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 21:03 HKT*
