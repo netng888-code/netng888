@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-28 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,18 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Nvidia's Guide Ignites a Broad AI Bid Ahead of Warsh's Jackson Hole Debut](https://finnhub.io/api/news?id=457bd7fc29d410106289bf72204c3d054ee7a43a67c755c3ca5fa615916a810e)**  
+*ChartMill · 2h前*  
+Thursday, August 27, 2026 handed the AI trade the reset it needed. Nvidia's forward number lit the whole complex, Salesforce and CrowdStrike delivered outsized …
+
 - **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=ec2b40b60a205b60de6817ccb29564ac8d77ca419b4368cf7973ff4726b60f7f)**  
-*ChartMill · 6h前*  
+*ChartMill · 18h前*  
 Curious about the most active S&P500 stocks in today's session? Join us as we explore the US markets on Thursday and uncover the stocks that are leading the way…
 
 - **[Thursday's session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=dbe97060b57c6fcca42b09bac712bf7bcd8a4983c5dc92553f86f718d593e9cd)**  
-*ChartMill · 8h前*  
+*ChartMill · 20h前*  
 Stay informed about the performance of the S&P500 index in the middle of the day on Thursday. Uncover the top gainers and losers in today's session for valuable…
-
-- **[10 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=f8406579c7df6276bca493dabbc46c86c5f5a6165a69299edcf61297100ec7ee)**  
-*Benzinga · 11h前*  
-This whale alert can help traders discover the next big trading opportunities.
-Whales are entities with large sums of money and we track their transactions here…
 
 ---
 
@@ -60,4 +59,4 @@ Whales are entities with large sums of money and we track their transactions her
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 21:03 HKT*
