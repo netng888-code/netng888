@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-08-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[How Investors Can Participate In AI](https://finnhub.io/api/news?id=31af6443b7bfd53b015bb374b399e20a63049b682e4891e31aeb3cfc81bf073e)**  
-*SeekingAlpha · 21h前*  
+*SeekingAlpha · 1d前*  
 The explosion in usage of ChatGPT and other generative AI tools has opened investorsâ eyes to their potential to boost profits and productivity throughout the…
 
 ---
@@ -51,4 +51,4 @@ The explosion in usage of ChatGPT and other generative AI tools has opened inves
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 21:04 HKT*
