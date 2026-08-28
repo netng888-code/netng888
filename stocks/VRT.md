@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-08-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Vertiv: AI's Physical Bottleneck Is Expanding Its Value Per Megawatt](https://finnhub.io/api/news?id=15f3ee7e0ecfa797048afe51cdff16a568f6756c26539491519b6e02689d628e)**  
-*SeekingAlpha · 18h前*  
-Vertiv's co-design capabilities and expanding service offerings position it to capture increasing content per megawatt. Find out why VRT stock is a buy.
+- **[The Vertiv Stock Signal Was Never In The Demand Headline](https://finnhub.io/api/news?id=a278b4fba61e430d3cad03eca8b08e2d64d085f21f308fcbf6a07cf01b9a136f)**  
+*Yahoo · 18h前*  
+Before the stock more than doubled, Vertiv had already sold far more than it could ship, and its latest quarterly margin was going the other way.
 
-- **[10 Dividend Growth Stocks: August 2026](https://finnhub.io/api/news?id=6900fa5c3aa143c73f904675b328e0ae4c45f07c31b5fb84bd4d19e51f5870fb)**  
-*SeekingAlpha · 1d前*  
-Read this monthâs top 10 dividend growth stocksâranked by a 10-point quality scoreâwith 12%+ projected dividend growth and fair value screens.
+- **[Vertiv (VRT) is an Incredible Growth Stock: 3 Reasons Why](https://finnhub.io/api/news?id=b01413de9c92981a7afd9fd4ec77b45372f3ce75aed80dae4fca9529f194d88d)**  
+*Yahoo · 20h前*  
+Vertiv (VRT) is well positioned to outperform the market, as it exhibits above-average growth in financials.
 
-- **[Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next](https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93)**  
-*SeekingAlpha · 1d前*  
-S&P 500 IndexÂ earnings grew roughly 31% YoY in Q2 2026, and AI infrastructure companies contributed about half of that growth, with their own earnings rising a…
+- **[Can Maverick Power Acquisition Boost NVT's Data Center Growth?](https://finnhub.io/api/news?id=f67fb67ad3b029de3a8d232da8774f17bb4828618b6250ffa078dcbb6e0c6ea1)**  
+*Yahoo · 22h前*  
+nVent Electric's planned $1.75B Maverick Power deal can expand its data center portfolio, add power distribution products and drive growth.
 
 ---
 
@@ -59,4 +59,4 @@ S&P 500 IndexÂ earnings grew roughly 31% YoY in Q2 2026, and AI infrastructure
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 21:04 HKT*
