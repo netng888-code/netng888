@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-08-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$263.81** |
-| 今日變動 | ▲ $8.06　(+3.15%) |
+| 現價 | **$269.28** |
+| 今日變動 | ▲ $5.47　(+2.07%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $80　(▼13.2%) |
+| 未實現盈虧 | ▼ $69　(▼11.4%) |
 
 ---
 
@@ -20,18 +20,18 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $266.46 | — |
-| Put Wall（支撐） | $240.00 | -9.0% |
-| Call Wall（阻力） | $300.00 | +13.7% |
+| Gamma Flip | $264.03 | — |
+| Put Wall（支撐） | $240.00 | -10.9% |
+| Call Wall（阻力） | $270.00 | +0.3% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
 - **[Vertiv: AI's Physical Bottleneck Is Expanding Its Value Per Megawatt](https://finnhub.io/api/news?id=15f3ee7e0ecfa797048afe51cdff16a568f6756c26539491519b6e02689d628e)**  
-*SeekingAlpha · 6h前*  
+*SeekingAlpha · 18h前*  
 Vertiv's co-design capabilities and expanding service offerings position it to capture increasing content per megawatt. Find out why VRT stock is a buy.
 
 - **[10 Dividend Growth Stocks: August 2026](https://finnhub.io/api/news?id=6900fa5c3aa143c73f904675b328e0ae4c45f07c31b5fb84bd4d19e51f5870fb)**  
@@ -48,7 +48,7 @@ S&P 500 IndexÂ earnings grew roughly 31% YoY in Q2 2026, and AI infrastructure
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-27 | 監控 | $263.81 | — | 自動更新 |
+| 2026-08-28 | 監控 | $269.28 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ S&P 500 IndexÂ earnings grew roughly 31% YoY in Q2 2026, and AI infrastructure
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-27 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 09:04 HKT*
