@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Is RKLB Stock A Buy Or A High-Beta Trap?](https://finnhub.io/api/news?id=41a480c824e610c288df102e1dc673251dcadfe2a3961ac78d65cbaf603da7b5)**  
+*Yahoo · 20h前*  
+The multiple rests on a launch vehicle that has yet to fly and an acquisition that has yet to close, while most of the revenue arriving today comes from satelli…
+
+- **[Can Redwire's Space and Defense Portfolio Drive a New Growth Phase?](https://finnhub.io/api/news?id=ca5cb54afb88d54060d494a882c3ceb8f3bbd513bfb236dda691d2b06e27fd5a)**  
+*Yahoo · 1d前*  
+RDW's record revenues, improving margins and rising Defense Tech contribution signal growing momentum in space and autonomous defense systems.
+
 - **[Wall Street Analysts Believe Redwire Corporation (RDW) Could Rally 27.94%: Here's is How to Trade](https://finnhub.io/api/news?id=9262a0582178abc151a205639be0aaa3ab989e31b3ed359fead98641eb26b44f)**  
 *Yahoo · 2d前*  
 The mean of analysts' price targets for Redwire Corporation (RDW) points to a 27.9% upside in the stock. While this highly sought-after metric has not proven re…
-
-- **[Redwire Corporation: A Record Quarter That Got Smaller Per Share](https://finnhub.io/api/news?id=1afaaa0b19f974fc9908a0c690b49f78fb678ee404e9821d43d9f5403a5588aa)**  
-*SeekingAlpha · 2d前*  
-Redwire Corporation delivered record revenue, gross margin, backlog, and liquidity, but share dilution offset per-share gains. Learn more about RDW stock here.
-
-- **[Redwire Announces Strategic Investment in Next-Generation Phased Array Antenna Technology to Advance Global Warfighter Connectivity](https://finnhub.io/api/news?id=0e357b855da8c5f70cd61620ece7e6fee504191b531852d1ab308d21907c5750)**  
-*Yahoo · 2d前*  
-SALT LAKE CITY, August 25, 2026--Redwire Corporation (NYSE: RDW), a global leader in aerospace and defense technology solutions, today announced a strategic inv…
 
 ---
 
@@ -59,4 +59,4 @@ SALT LAKE CITY, August 25, 2026--Redwire Corporation (NYSE: RDW), a global leade
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 21:04 HKT*
