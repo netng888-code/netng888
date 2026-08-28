@@ -359,13 +359,39 @@
     index.html／telegram_bot.py／github_gex_updater.py）跟返
     五檔同步規則一併處理（github_gex_updater.py按慣例由用戶
     自行更正，呢度唔重複觸碰）。
+  v5.20（2026-08-28）：回應用戶反映「到期日曆」tab兩個易用性問題：
+    1. 日期唔夠易睇——舊版淨係得「未來7日」一種amber highlight，
+       今日到期同7日後到期視覺上分唔到邊行更急迫。而家改用
+       calRowBg()按distance_to_expiry分四級底色（今日=紅／1-3日
+       =橙／4-7日=淺黃，同舊版7日門檻對齊／8-14日=淺藍），控制列
+       下面加多一行圖例對照顏色。三種OPEX類型（Weekly/Monthly/
+       Quarterly）嘅圖示同顏色維持不變，純粹加多一層「幾時到期」
+       嘅視覺提示，唔影響原有嘅「邊類OPEX」判斷。
+    2. 每行到期日要跳去「GEX + K線」tab先睇到現價/Wall/Money
+       Flow——新增「持倉快照」欄（renderOptionsCalendar()新加
+       第5個column），將現價/漲跌%、Gamma Flip／Call Wall／Put
+       Wall、Gamma狀態（正/負Gamma + 距Wall遠近，沿用同一套
+       BREAKOUT_BUFFER_PCT 0.5%緩衝區判斷）、Call/Put Premium
+       Flow佔比、Order Book Imbalance、Tick Delta一次過顯示喺
+       同一格，唔使再逐隻click入「GEX + K線」check。技術實現：
+       新增fetchCalSnapshotBatch()——現價用一個/api/quote call
+       攞晒全部持倉（唔逐隻查），GEX（/api/gex/{sym}）同Money
+       Flow（/api/moneyflow/{sym}）就淨係喺每隻唯一symbol攞一次
+       （日曆好多行都係同一隻股票嘅唔同到期日，Wall/現價唔會因
+       住揀邊個到期日而變，冇必要每行都查一次），batch(4)並行
+       攞（同telegram_bot.py GEX_REFRESH_MAX_WORKERS=4／
+       futu_bridge_v2.py options_calendar endpoint嘅sequential-
+       only註解同一原則：單一OpenQuoteContext唔宜俾太多thread
+       同時撞）。每隻symbol攞完即刻update返佢嗰幾行cell
+       （applyCalSnapshotToRows()），唔使等18隻全部攞晒先顯示，
+       個別symbol攞唔到就顯示「快照暫缺」，唔會累到成個日曆壞咗。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.19)</title>
+<title>GEX Chart — Futu Bridge (v5.20)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -716,6 +742,11 @@ input[type=range]{accent-color:var(--green);width:120px;}
   padding:2px 5px;transition:all .15s;}
 .lnk:hover{border-color:var(--amber);color:var(--amber);}
 .loading{padding:30px;text-align:center;color:var(--muted);font-size:12px;}
+
+/* 到期日曆：距今日子分級底色（v5.20新增） + 持倉快照欄 */
+.cal-daylegend{display:flex;gap:14px;flex-wrap:wrap;font-size:10px;color:var(--muted);margin:2px 0 12px;}
+.cal-daylegend .dl-swatch{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:4px;vertical-align:-2px;}
+.tbl-wrap td.cal-snap-td{text-align:left;white-space:normal;line-height:1.7;max-width:260px;min-width:200px;font-size:11px;vertical-align:top;}
 
 /* Field Inspector */
 .fi-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:16px;}
@@ -1090,6 +1121,14 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
       <span class="leg" style="color:var(--muted)">⚪ Weekly</span>
     </div>
     <span style="font-size:10px;color:var(--muted);margin-left:auto" id="cal-src">—</span>
+  </div>
+  <div class="cal-daylegend">
+    <span>距今日子：</span>
+    <span><span class="dl-swatch" style="background:rgba(255,77,109,.55)"></span>今日到期</span>
+    <span><span class="dl-swatch" style="background:rgba(245,166,35,.55)"></span>1-3日內</span>
+    <span><span class="dl-swatch" style="background:rgba(245,166,35,.25)"></span>4-7日內</span>
+    <span><span class="dl-swatch" style="background:rgba(74,158,255,.30)"></span>8-14日內</span>
+    <span><span class="dl-swatch" style="background:transparent;border:1px solid var(--border)"></span>14日以上</span>
   </div>
   <div id="cal-summary"></div>
   <div id="cal-content"><div class="loading"><span class="spin"></span>連接 Bridge...</div></div>
@@ -2624,6 +2663,147 @@ async function fetchOptionsCalendar() {
   }
 }
 
+// v5.20新增：距今日子分級底色——舊版淨係得「未來7日」一種amber
+// highlight，今日到期同7日後到期視覺上分唔到邊行更急迫。而家分
+// 四級：今日(紅)／1-3日(橙)／4-7日(淺黃，同舊版7日門檻對齊，維持
+// 唔太搶眼)／8-14日(淺藍)，14日以上冇底色。純顯示用途，唔影響
+// events本身嘅排序/篩選邏輯。
+function calRowBg(days) {
+  if (days <= 0) return 'rgba(255,77,109,.16)';
+  if (days <= 3) return 'rgba(245,166,35,.16)';
+  if (days <= 7) return 'rgba(245,166,35,.06)';
+  if (days <= 14) return 'rgba(74,158,255,.05)';
+  return '';
+}
+
+// v5.20新增：「持倉快照」欄——用戶反映要逐隻click去「GEX + K線」
+// tab先睇到現價/Wall/Money Flow，太煩。而家日曆每一行直接顯示
+// 現價/Gamma關鍵位/Gamma狀態/Call-Put Flow/Order Book/Tick Delta，
+// 唔使再逐隻check。sym -> {price, pct, flip, call_wall, put_wall,
+// dealer_bias, call_pct, book_imbalance, tick_delta, loaded}
+let calSnapshots = {};
+
+function calSnapshotCellHtml(sym) {
+  const s = calSnapshots[sym];
+  if (!s) return `<span style="color:var(--muted)">載入中...</span>`;
+  if (s.price == null && s.flip == null) return `<span style="color:var(--muted)">快照暫缺</span>`;
+
+  const lines = [];
+
+  // 現價 + 今日%
+  if (s.price != null) {
+    const pctTxt = s.pct != null
+      ? ` <span style="color:${s.pct>=0?'var(--green)':'var(--red)'}">${s.pct>=0?'+':''}${s.pct.toFixed(2)}%</span>`
+      : '';
+    lines.push(`<span style="color:#fff;font-weight:700">$${s.price.toFixed(2)}</span>${pctTxt}`);
+  }
+
+  // Gamma關鍵位
+  if (s.flip != null || s.call_wall != null || s.put_wall != null) {
+    const bits = [];
+    if (s.flip != null) bits.push(`Flip $${s.flip.toFixed(0)}`);
+    if (s.call_wall != null) bits.push(`<span style="color:var(--green)">Call $${s.call_wall.toFixed(0)}</span>`);
+    if (s.put_wall != null) bits.push(`<span style="color:var(--red)">Put $${s.put_wall.toFixed(0)}</span>`);
+    lines.push(`<span style="color:var(--muted)">${bits.join(' · ')}</span>`);
+  }
+
+  // Gamma狀態（沿用同一套BREAKOUT_BUFFER_PCT 0.5%緩衝區判斷，同
+  // 「GEX + K線」tab嘅renderAll()一致，唔會出現兩邊講法唔同）
+  if (s.price != null && (s.flip != null || s.call_wall != null || s.put_wall != null)) {
+    let gammaTxt = s.flip != null ? (s.price >= s.flip ? '✅正Gamma' : '⚠️負Gamma') : '';
+    let wallNote = '';
+    if (s.call_wall != null) {
+      const dd = (s.price - s.call_wall) / s.price * 100;
+      if (dd >= BREAKOUT_BUFFER_PCT) wallNote = ' 🚀已突破Call';
+      else if (dd > 0) wallNote = ' 🟠測試Call阻力';
+      else if (-dd < 1.5) wallNote = ' 🔴逼近Call';
+    }
+    if (!wallNote && s.put_wall != null) {
+      const dd = (s.put_wall - s.price) / s.price * 100;
+      if (dd >= BREAKOUT_BUFFER_PCT) wallNote = ' 💥已跌穿Put';
+      else if (dd > 0) wallNote = ' 🟠測試Put支撐';
+      else if (-dd < 1.5) wallNote = ' 🟢逼近Put';
+    }
+    const biasTag = s.dealer_bias ? ` <span style="color:var(--border2)">(${s.dealer_bias==='LONG_GAMMA'?'Long':'Short'}Gamma)</span>` : '';
+    lines.push(`${gammaTxt}${wallNote}${biasTag}`);
+  }
+
+  // Money Flow：Call/Put Premium Flow佔比 · Order Book Imbalance · Tick Delta
+  const mfBits = [];
+  if (s.call_pct != null) mfBits.push(`Flow:<span style="color:${s.call_pct>=50?'var(--green)':'var(--red)'}">${s.call_pct.toFixed(0)}%Call</span>`);
+  if (s.book_imbalance != null) mfBits.push(`OB:<span style="color:${s.book_imbalance>=0?'var(--green)':'var(--red)'}">${(s.book_imbalance*100>=0?'+':'')}${(s.book_imbalance*100).toFixed(1)}%</span>`);
+  if (s.tick_delta != null) mfBits.push(`Tick:<span style="color:${s.tick_delta>=0?'var(--green)':'var(--red)'}">${s.tick_delta>=0?'+':''}${s.tick_delta.toLocaleString()}</span>`);
+  if (mfBits.length) lines.push(`<span style="color:var(--muted)">${mfBits.join(' · ')}</span>`);
+
+  return lines.join('<br>');
+}
+
+function applyCalSnapshotToRows(sym) {
+  document.querySelectorAll(`.cal-snap-${sym}`).forEach(el => { el.innerHTML = calSnapshotCellHtml(sym); });
+}
+
+// v5.20新增：批量攞每隻唯一symbol嘅現價/GEX/Money Flow快照。日曆
+// 好多行都係同一隻股票嘅唔同到期日（尤其Weekly），Wall/現價唔會
+// 因住揀邊個到期日而變，所以淨係每隻symbol攞一次、套用到佢全部
+// row，唔會逐行各自查（會慢好多亦冇意義）。
+// 現價：一個/api/quote call攞晒全部持倉（唔逐隻查，快）。
+// GEX/Money Flow：batch(4)並行攻打，同telegram_bot.py
+// GEX_REFRESH_MAX_WORKERS=4／futu_bridge_v2.py options_calendar
+// endpoint嘅sequential-only註解同一原則——單一OpenQuoteContext
+// 唔宜俾太多thread同時撞，避免部分request收唔到啱嘅response。
+// 每隻symbol攞完即刻applyCalSnapshotToRows()更新返嗰幾行cell，
+// 唔使等全部攞晒先顯示；個別symbol失敗（gex/moneyflow任一個攞
+// 唔到）唔會累到其他symbol，仍會用攞到嗰部分數據顯示。
+async function fetchCalSnapshotBatch(symbols) {
+  let quotesBySym = {};
+  try {
+    const r = await fetch(`${BRIDGE}/api/quote`, {signal:AbortSignal.timeout(10000)});
+    if (r.ok) {
+      const dq = await r.json();
+      const sess = curSession;
+      (dq.us||[]).forEach(rec => {
+        const sym = (rec.code||'').replace('US.','');
+        const {price} = getT1(rec, sess);
+        quotesBySym[sym] = { price: price || rec.last_price, pct: rec.change_rate };
+      });
+    }
+  } catch(e) {}
+
+  const BATCH = 4;
+  for (let i = 0; i < symbols.length; i += BATCH) {
+    const chunk = symbols.slice(i, i + BATCH);
+    await Promise.all(chunk.map(async sym => {
+      let gex = null, mf = null;
+      try {
+        const rg = await fetch(`${BRIDGE}/api/gex/${sym}?max_expirations=2`, {signal:AbortSignal.timeout(30000)});
+        if (rg.ok) { const dg = await rg.json(); if (!dg.error && dg.call_wall) gex = dg; }
+      } catch(e) {}
+      try {
+        const rm = await fetch(`${BRIDGE}/api/moneyflow/${sym}`, {signal:AbortSignal.timeout(15000)});
+        if (rm.ok) { const dm = await rm.json(); if (!dm.error) mf = dm; }
+      } catch(e) {}
+
+      const q = quotesBySym[sym] || {};
+      const pf = mf && mf.premium_flow;
+      const callPct = (pf && (pf.call_premium + pf.put_premium) > 0)
+        ? pf.call_premium / (pf.call_premium + pf.put_premium) * 100 : null;
+
+      calSnapshots[sym] = {
+        price: q.price ?? (gex ? gex.spot : null),
+        pct: q.pct ?? null,
+        flip: gex ? gex.flip : null,
+        call_wall: gex ? gex.call_wall : null,
+        put_wall: gex ? gex.put_wall : null,
+        dealer_bias: gex ? gex.dealer_bias : null,
+        call_pct: callPct,
+        book_imbalance: (mf && mf.order_book) ? mf.order_book.imbalance : null,
+        tick_delta: (mf && mf.tick_delta) ? mf.tick_delta.tick_delta : null,
+      };
+      applyCalSnapshotToRows(sym);
+    }));
+  }
+}
+
 function renderOptionsCalendar(d) {
   const events   = d.events || [];
   const contentEl = document.getElementById('cal-content');
@@ -2647,17 +2827,19 @@ function renderOptionsCalendar(d) {
   }
 
   let html = `<div class="tbl-wrap"><table>
-    <thead><tr><th>股票</th><th>到期日</th><th>距今</th><th>類型</th></tr></thead><tbody>`;
+    <thead><tr><th>股票</th><th>到期日</th><th>距今</th><th>類型</th><th>持倉快照</th></tr></thead><tbody>`;
   events.forEach(e => {
     const cfg = OPEX_TYPE_CFG[e.type] || OPEX_TYPE_CFG.weekly;
     const isSoon = e.days_to_expiry <= 7;
-    const rowStyle = isSoon ? ' style="background:rgba(245,166,35,.06)"' : '';
+    const bg = calRowBg(e.days_to_expiry);
+    const rowStyle = bg ? ` style="background:${bg}"` : '';
     const dueLabel = e.days_to_expiry === 0 ? '今日' : `${e.days_to_expiry}日後`;
     html += `<tr${rowStyle}>
       <td><span class="sym" onclick="setTab('gex');quickSearch('${e.sym}')">${e.sym}</span></td>
       <td class="mv-cell">${e.date}</td>
       <td style="color:${isSoon ? 'var(--amber)' : 'var(--muted)'};font-weight:${isSoon?'600':'400'}">${dueLabel}</td>
       <td><span style="color:${cfg.color}">${cfg.icon} ${cfg.label}</span></td>
+      <td class="cal-snap-td"><span class="cal-snap-${e.sym}">${calSnapshotCellHtml(e.sym)}</span></td>
     </tr>`;
   });
   html += '</tbody></table></div>';
@@ -2667,6 +2849,12 @@ function renderOptionsCalendar(d) {
     const errSyms = Object.keys(d.errors).join('、');
     contentEl.innerHTML += `<div style="font-size:10px;color:var(--muted);margin-top:8px">⚠ ${errSyms} 未能攞到到期日數據</div>`;
   }
+
+  // v5.20：背景批量攞每隻唯一symbol嘅現價/GEX/Money Flow快照，
+  // 攞完即刻update返對應嘅cell（見fetchCalSnapshotBatch()同
+  // applyCalSnapshotToRows()），唔阻住上面表格已經顯示晒嘅日期。
+  const uniqueSyms = [...new Set(events.map(e => e.sym))];
+  fetchCalSnapshotBatch(uniqueSyms);
 }
 
 // ── Init ─────────────────────────────────────────────────────
