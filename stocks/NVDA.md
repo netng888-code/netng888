@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-28 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Thursday's session: top gainers and losers in the dow jones index](https://finnhub.io/api/news?id=f91bace257ba0af744e76346de1ee986e0b1ace6e3fd1e564f4da44e81506cdf)**  
-*ChartMill · 5h前*  
-Stay updated with the movement of dow jones stocks in today's session. Discover which dow jones stocks are making waves on Thursday.
+- **[NVIDIA (NASDAQ:NVDA) Shows High-Growth Leadership and Strong Momentum](https://finnhub.io/api/news?id=f3bb331db396cabf04b82d32af09e0c81dccf2e90d680e84c21011e0e97cc6d5)**  
+*ChartMill · 0h前*  
+NVIDIA excels in CANSLIM screen with 111% EPS growth, strong sales, high ROE, and momentum—though extended setup warrants patience.
 
-- **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=f563c106233d14ebb69586ee907707f00b570373de8f8e44db8bfd287e5b4889)**  
-*ChartMill · 5h前*  
-Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Thursday.
+- **[Nvidia's Guide Ignites a Broad AI Bid Ahead of Warsh's Jackson Hole Debut](https://finnhub.io/api/news?id=457bd7fc29d410106289bf72204c3d054ee7a43a67c755c3ca5fa615916a810e)**  
+*ChartMill · 2h前*  
+Thursday, August 27, 2026 handed the AI trade the reset it needed. Nvidia's forward number lit the whole complex, Salesforce and CrowdStrike delivered outsized …
 
-- **[Marvell Q2: I Agree With The Market](https://finnhub.io/api/news?id=f6ea36e7578e110c526702d56e4e49e3cb1b2da8c578cbd0b5435d64c91ff326)**  
-*SeekingAlpha · 6h前*  
-Marvell Technology, Inc. Q2 results: 37% revenue growth, AI data center surge, and margin gainsâyet valuation looks rich vs. peers. Click for more on MRVL ear…
+- **[YNVD:CA: Nvidia's Q2 Fixed The Thesis, But The Best Entry Was In January](https://finnhub.io/api/news?id=6de2e0c0c4575110f6f9c9b1ddb83160c3fb3d4ad41942c0581c171e8f1118c3)**  
+*SeekingAlpha · 4h前*  
+YNVD:CA's upside is fully dependent on Nvidia's performance, with minimal income cushion and exposure to NAV. Read more on YNVD:CA ETF here.
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology, Inc. Q2 results: 37% revenue growth, AI data center surge, a
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-28 21:03 HKT*
