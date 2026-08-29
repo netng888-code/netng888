@@ -385,13 +385,53 @@
        同時撞）。每隻symbol攞完即刻update返佢嗰幾行cell
        （applyCalSnapshotToRows()），唔使等18隻全部攞晒先顯示，
        個別symbol攞唔到就顯示「快照暫缺」，唔會累到成個日曆壞咗。
+  v5.21（2026-08-28 續）：用戶截圖實測v5.20之後反映4個易用性問題，
+    逐一修正：
+    (1) 「股票／到期日／距今」睇落隔好遠——根源：新加嘅「持倉快照」
+        欄內容好闊（多行文字），table用緊browser預設嘅auto layout，
+        會將前4欄（股票/到期日/距今/類型）都同步撐闊到唔合理嘅
+        闊度，得返短短幾隻字卻佔晒一大截，睇落好似欄與欄之間有
+        好大段留白。修正：table加返class="cal-table"，配合
+        table-layout:fixed + nth-child明確指定前4欄闊度（9%／14%／
+        9%／13%），持倉快照欄自動攞返剩低嘅約55%空間，唔會再被
+        短內容嘅欄不必要咁撐闊。同時將cal-table全部td改用
+        vertical-align:top（原本預設middle，喺持倉快照欄變成
+        3-4行高之後，其他短內容嘅欄會夾喺成行中間，睇落更似「隔
+        好遠」），對齊到頂之後成行視覺上先至企理返。
+    (2)(3)【核心修正】舊版將距今日子嘅分級顏色淋喺成行background
+        （淡紅/橙/黃/藍疊喺深色底之上），撞到兩個問題：
+          - 4-7日嗰級opacity（.06）太淺，混咗落成行深色底之後
+            肉眼幾乎見唔到（問題3）
+          - 部分行入面用緊嘅字色（尤其(LongGamma)/(ShortGamma)
+            用緊嘅var(--border2)，本身已經係好深嘅深藍灰色）同
+            染色後嘅底色撞埋一齊，對比度唔夠，睇唔清（問題2）
+        修正雙管齊下：
+          a. 距今分級顏色（calDayTierStyle()，取代舊版calRowBg()）
+             改為淨係加落「股票」單一欄（用戶第4點建議），唔再淋
+             成行——其他欄（到期日/距今/類型/持倉快照）維持原本
+             純粹深色背景，唔會再同任何字色相撞。因為淨係一格窄
+             chip，唔使再遷就成行文字對比度，opacity可以加返上去
+             （今日.38／1-3日.35／4-7日.18／8-14日.26），4-7日
+             呢級終於睇得出。仲加咗3px實色左border做強調（呢個
+             border用實色、唔係半透明，喺任何底色之下都夠crisp）。
+          b. (LongGamma)/(ShortGamma)呢個tag嘅字色由var(--border2)
+             （太深，本身已知係邊框顏色，唔係設計嚟做正文字色用）
+             改做var(--muted)（成個dashboard成日用嚟做次要文字嘅
+             標準顏色，對比度夠），呢個修正同底色淋成行定淨係淋
+             股票欄無關，係獨立必要嘅contrast fix。
+    (4) 呼應第(2)(3)點嘅設計，distant-day分級底色而家已經改成
+        「股票」單一欄顯示（用戶原話：「可否考慮(股票)單列分四級
+        底色，其它列正常」），其餘4欄（到期日/距今/類型/持倉快照）
+        完全冇底色，回復純粹深色背景。控制列下面嘅圖例已同步標
+        「（顯示喺「股票」欄）」，並更新返圖例swatch嘅顏色數值，
+        同實際chip顏色一致。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.20)</title>
+<title>GEX Chart — Futu Bridge (v5.21)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -746,7 +786,18 @@ input[type=range]{accent-color:var(--green);width:120px;}
 /* 到期日曆：距今日子分級底色（v5.20新增） + 持倉快照欄 */
 .cal-daylegend{display:flex;gap:14px;flex-wrap:wrap;font-size:10px;color:var(--muted);margin:2px 0 12px;}
 .cal-daylegend .dl-swatch{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:4px;vertical-align:-2px;}
-.tbl-wrap td.cal-snap-td{text-align:left;white-space:normal;line-height:1.7;max-width:260px;min-width:200px;font-size:11px;vertical-align:top;}
+.tbl-wrap td.cal-snap-td{text-align:left;white-space:normal;line-height:1.6;max-width:260px;min-width:200px;font-size:11px;vertical-align:top;}
+/* v5.21新增：cal-table用table-layout:fixed令頭4欄（股票/到期日/距今/
+   類型）固定較窄闊度，唔會因為持倉快照欄好闊而被auto layout拉到
+   同樣咁闊、令欄與欄之間睇落好似隔好遠（用戶反映嘅Bug 1）。淨係
+   影響到期日曆呢個table，唔影響持倉總覽table嘅原有欄寬邏輯。 */
+.tbl-wrap table.cal-table{table-layout:fixed;}
+.cal-table th:nth-child(1),.cal-table td:nth-child(1){width:9%;}
+.cal-table th:nth-child(2),.cal-table td:nth-child(2){width:14%;}
+.cal-table th:nth-child(3),.cal-table td:nth-child(3){width:9%;}
+.cal-table th:nth-child(4),.cal-table td:nth-child(4){width:13%;}
+.cal-table td{vertical-align:top;}
+.cal-table td:nth-child(1){padding-top:11px;padding-bottom:11px;}
 
 /* Field Inspector */
 .fi-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:16px;}
@@ -1123,11 +1174,11 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <span style="font-size:10px;color:var(--muted);margin-left:auto" id="cal-src">—</span>
   </div>
   <div class="cal-daylegend">
-    <span>距今日子：</span>
-    <span><span class="dl-swatch" style="background:rgba(255,77,109,.55)"></span>今日到期</span>
-    <span><span class="dl-swatch" style="background:rgba(245,166,35,.55)"></span>1-3日內</span>
-    <span><span class="dl-swatch" style="background:rgba(245,166,35,.25)"></span>4-7日內</span>
-    <span><span class="dl-swatch" style="background:rgba(74,158,255,.30)"></span>8-14日內</span>
+    <span>距今日子（顯示喺「股票」欄）：</span>
+    <span><span class="dl-swatch" style="background:rgba(255,77,109,.38)"></span>今日到期</span>
+    <span><span class="dl-swatch" style="background:rgba(245,166,35,.35)"></span>1-3日內</span>
+    <span><span class="dl-swatch" style="background:rgba(245,166,35,.18)"></span>4-7日內</span>
+    <span><span class="dl-swatch" style="background:rgba(74,158,255,.26)"></span>8-14日內</span>
     <span><span class="dl-swatch" style="background:transparent;border:1px solid var(--border)"></span>14日以上</span>
   </div>
   <div id="cal-summary"></div>
@@ -2663,17 +2714,25 @@ async function fetchOptionsCalendar() {
   }
 }
 
-// v5.20新增：距今日子分級底色——舊版淨係得「未來7日」一種amber
-// highlight，今日到期同7日後到期視覺上分唔到邊行更急迫。而家分
-// 四級：今日(紅)／1-3日(橙)／4-7日(淺黃，同舊版7日門檻對齊，維持
-// 唔太搶眼)／8-14日(淺藍)，14日以上冇底色。純顯示用途，唔影響
-// events本身嘅排序/篩選邏輯。
-function calRowBg(days) {
-  if (days <= 0) return 'rgba(255,77,109,.16)';
-  if (days <= 3) return 'rgba(245,166,35,.16)';
-  if (days <= 7) return 'rgba(245,166,35,.06)';
-  if (days <= 14) return 'rgba(74,158,255,.05)';
-  return '';
+// v5.20新增，v5.21修正：距今日子分級底色——舊版將呢個顏色淋喺
+// 成行background，用戶反映撞到兩個問題：(a) 4-7日嗰級太淺
+// （rgba(...,.06)）淋喺成行背景之後，同底色混埋幾乎睇唔出；
+// (b) 底色同行入面各種顏色文字（尤其(LongGamma)/(ShortGamma)嗰種
+// 用var(--border2)呢種本身已經好深嘅顏色做字色）相撞，某幾級底色
+// 之下呢類字完全睇唔到。用戶建議淨係喺「股票」單一欄度做分級底色，
+// 其他欄保持原本嘅純背景，唔會再撞色。
+// 而家呢個function改做回傳{bg, border}俾renderOptionsCalendar()
+// 淨係加落第一欄（股票）度：因為呢個chip只係窄窄一格、唔使再
+// 顧慮同成行文字混色，opacity可以加返上去，4-7日嗰級先至真係
+// 睇得出（fix另一半问题(b)：見下面biasTag改用var(--muted)取代
+// var(--border2)，令(LongGamma)/(ShortGamma)喺任何背景之下都
+// 睇得清）。
+function calDayTierStyle(days) {
+  if (days <= 0)  return {bg:'rgba(255,77,109,.38)', border:'#ff4d6d'};
+  if (days <= 3)  return {bg:'rgba(245,166,35,.35)', border:'#f5a623'};
+  if (days <= 7)  return {bg:'rgba(245,166,35,.18)', border:'#f5a623'};
+  if (days <= 14) return {bg:'rgba(74,158,255,.26)', border:'#4a9eff'};
+  return {bg:'', border:'transparent'};
 }
 
 // v5.20新增：「持倉快照」欄——用戶反映要逐隻click去「GEX + K線」
@@ -2724,7 +2783,7 @@ function calSnapshotCellHtml(sym) {
       else if (dd > 0) wallNote = ' 🟠測試Put支撐';
       else if (-dd < 1.5) wallNote = ' 🟢逼近Put';
     }
-    const biasTag = s.dealer_bias ? ` <span style="color:var(--border2)">(${s.dealer_bias==='LONG_GAMMA'?'Long':'Short'}Gamma)</span>` : '';
+    const biasTag = s.dealer_bias ? ` <span style="color:var(--muted)">(${s.dealer_bias==='LONG_GAMMA'?'Long':'Short'}Gamma)</span>` : '';
     lines.push(`${gammaTxt}${wallNote}${biasTag}`);
   }
 
@@ -2826,16 +2885,18 @@ function renderOptionsCalendar(d) {
     </div>`;
   }
 
-  let html = `<div class="tbl-wrap"><table>
+  let html = `<div class="tbl-wrap"><table class="cal-table">
     <thead><tr><th>股票</th><th>到期日</th><th>距今</th><th>類型</th><th>持倉快照</th></tr></thead><tbody>`;
   events.forEach(e => {
     const cfg = OPEX_TYPE_CFG[e.type] || OPEX_TYPE_CFG.weekly;
     const isSoon = e.days_to_expiry <= 7;
-    const bg = calRowBg(e.days_to_expiry);
-    const rowStyle = bg ? ` style="background:${bg}"` : '';
+    const tier = calDayTierStyle(e.days_to_expiry);
+    const symStyle = tier.bg
+      ? ` style="background:${tier.bg};border-left:3px solid ${tier.border};"`
+      : ` style="border-left:3px solid transparent;"`;
     const dueLabel = e.days_to_expiry === 0 ? '今日' : `${e.days_to_expiry}日後`;
-    html += `<tr${rowStyle}>
-      <td><span class="sym" onclick="setTab('gex');quickSearch('${e.sym}')">${e.sym}</span></td>
+    html += `<tr>
+      <td${symStyle}><span class="sym" onclick="setTab('gex');quickSearch('${e.sym}')">${e.sym}</span></td>
       <td class="mv-cell">${e.date}</td>
       <td style="color:${isSoon ? 'var(--amber)' : 'var(--muted)'};font-weight:${isSoon?'600':'400'}">${dueLabel}</td>
       <td><span style="color:${cfg.color}">${cfg.icon} ${cfg.label}</span></td>
