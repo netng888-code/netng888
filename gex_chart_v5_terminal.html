@@ -425,13 +425,32 @@
         完全冇底色，回復純粹深色背景。控制列下面嘅圖例已同步標
         「（顯示喺「股票」欄）」，並更新返圖例swatch嘅顏色數值，
         同實際chip顏色一致。
+  v5.22（2026-08-29）：用戶要求頁頂「MACRO」跑馬燈（VIX/WTI原油/
+    美元指數，TradingView Ticker Tape widget）取消跑馬燈（scroll
+    marquee）模式，因為呢行數據（得3隻）比下面Global Indices（8
+    隻）少好多，冇必要做scroll；順手加埋Bitcoin同GLD黃金ETF。
+    TradingView Ticker Tape widget本身冇「唔scroll」嘅官方config
+    選項（呢個係widget內部行為，改config都改唔到——同呢個檔案
+    其他地方講過嘅cross-origin iframe限制屬同一類「唔係搵唔到
+    方法，係架構設計上做唔到」，例如v3嘅global-indices.html widget
+    彈窗問題）。跟返Global Indices（v5.3）已經行過嘅路：放棄
+    TradingView embed widget，改用futu_bridge_v2.py v3.7新增嘅
+    /api/macro_quotes（VIX/WTI/美元指數/Bitcoin/GLD，全部經Yahoo
+    Finance並行攻打，60秒緩存），前端新增loadMacroTicker()／
+    renderMacroTicker()poll呢個endpoint，直接重用Global Indices
+    已經定義好嘅.rt-ticker-item等CSS class顯示（淨係容器由
+    .rt-ticker-track換做新增嘅.macro-static-row，冇animation，
+    flex-wrap企定唔郁）。原本嘅.macro-strip-wrap／TradingView
+    embed script已完全移除，HTML/CSS/JS三邊同步清走，冇殘留
+    dead code。⚠️ 需要futu_bridge_v2.py同步更新到v3.7先有
+    /api/macro_quotes endpoint（見另外交付嘅.txt檔案）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.21)</title>
+<title>GEX Chart — Futu Bridge (v5.22)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -647,25 +666,37 @@ input[type=range]{accent-color:var(--green);width:120px;}
        （見下面symbols陣列），US10Y/US02Y冇合適代理（ETF價格同
        殖利率%意義唔同，換咗會誤導），保留原生代碼，週末見到冇數
        屬預期之內，可以用返你之前起嗰個premarket-rates-monitor.html
-       查真實數字（下面已加返連結）。 */
-.macro-strip-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;
-  margin-bottom:14px;overflow:visible;min-height:48px;}
-.macro-strip-label{display:flex;align-items:center;justify-content:space-between;gap:10px;
-  font-size:8px;color:var(--border2);text-transform:uppercase;letter-spacing:.1em;
-  padding:6px 12px 0;}
-.macro-strip-label a{color:var(--blue);text-decoration:none;letter-spacing:.06em;
-  border:1px solid var(--border);border-radius:3px;padding:2px 7px;text-transform:none;
-  font-size:9px;}
-.macro-strip-label a:hover{border-color:var(--blue);}
-.macro-strip-wrap .tradingview-widget-container{padding:2px 0 0;}
+       查真實數字（下面已加返連結）。
+
+   v3.7（2026-08-29）【重要改動，取代呢個widget】：用戶反映Macro
+   Strip得3隻symbol、比下面Global Indices（8隻）少好多，TradingView
+   Ticker Tape widget嘅自動scroll marquee行為冇必要，要求取消
+   跑馬燈、改做企定嘅靜態一行，順手加埋Bitcoin同GLD。TradingView
+   Ticker Tape widget本身冇「唔scroll」嘅官方config選項——上面呢段
+   comment記錄嘅所有VIX/US10Y/US02Y anonymous embed限制歷史背景
+   維持保留（歷史記錄，唔刪走），但HTML/CSS已經改用下面
+   .macro-static-row（同Global Indices一樣嘅自建靜態方案，數據源
+   futu_bridge_v2.py v3.7新增嘅/api/macro_quotes），.macro-strip-wrap
+   相關CSS已移除（唔再被使用）。 */
+
+/* 自建靜態一行 Macro Strip（v3.7新增，取代上面TradingView Ticker
+   Tape widget）——直接重用下面.rt-ticker-wrap／.rt-ticker-label／
+   .rt-ticker-item等CSS（同HTML內layout一致），淨係用呢個
+   .macro-static-row代替.rt-ticker-track，冇animation，flex-wrap
+   企定唔郁。數據源：futu_bridge_v2.py /api/macro_quotes
+   （VIX/WTI/美元指數/Bitcoin/GLD，全部經Yahoo Finance）。 */
+.macro-static-row{display:flex;flex-wrap:wrap;row-gap:8px;padding:9px 4px 11px;}
 
 /* 自建Scrolling Ticker Tape（v5.3新增，取代第二條跑馬燈Global Indices
    Strip嘅TradingView embed widget）——數據源改用futu_bridge_v2.py
    /api/real_indices（HSI經Futu HK.800000、XIN9經Futu ASHR代理、
    其餘SPX/NDX/DJI/SOX/NI225/KOSPI經Yahoo，見該檔案v2.4-v2.6
    changelog），唔再受TradingView anonymous embed對HKEX/TSE/KRX
-   嘅授權限制影響。第一條Macro Strip（VIX/WTI/美元指數）維持
-   TradingView widget唔變，同呢組CSS完全獨立。 */
+   嘅授權限制影響。第一條Macro Strip（VIX/WTI/美元指數/Bitcoin/
+   GLD）v3.7起亦已經改用自建靜態方案（.macro-static-row，見上面），
+   兩條ticker而家共用.rt-ticker-item等item樣式，分別淨係喺
+   scroll（.rt-ticker-track，有animation）定static（.macro-
+   static-row，冇animation）。 */
 .rt-ticker-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;
   margin-bottom:14px;overflow:hidden;}
 .rt-ticker-label{display:flex;align-items:center;justify-content:space-between;gap:10px;
@@ -859,8 +890,9 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
   <button class="reset-btn" id="btn-reset-conn" onclick="resetConnection()" title="清空Futu訂閱記錄+斷開重連，唔使停低成個bridge process（適用於Order Book/Tick Delta/K線突然無數據嘅情況）">🔄 重置連接</button>
 </div>
 
-<!-- Macro Strip：VIX / Oil / Dollar（TradingView即時）
-     Oil用WTI（TVC:USOIL）。
+<!-- Macro Strip：VIX / Oil / Dollar / Bitcoin / GLD（v3.7起自建靜態一行，
+     取代TradingView Ticker Tape widget，詳見頁首changelog）
+     Oil用WTI（TVC:USOIL，舊）→ CL=F（Yahoo連續合約期貨）。
      v5：VIX、美元指數(DXY)兩隻純Cboe/指數盤路喺休市/週末anonymous
      embed常顯示唔到數值（紅色感嘆號=「Cboe數據」標籤，唔係壞），
      改用ETF代理（AMEX:VIXY / AMEX:UUP）令佢哋隨時有數。
@@ -872,28 +904,26 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
      anonymous embed authorization限制）。
      v5.2（2026-07-26）：移除 SOX(SOXX代理)——下面Global Indices
      跑馬燈已經有SOX（同一個NASDAQ:SOXX代理），兩條跑馬燈同時顯示
-     屬重複資訊，Macro Strip淨返VIX/WTI/美元指數三隻純宏觀指標。 -->
-<div class="macro-strip-wrap">
-  <div class="macro-strip-label">
-    <span>MACRO · TradingView Live</span>
+     屬重複資訊，Macro Strip淨返VIX/WTI/美元指數三隻純宏觀指標。
+     v3.7（2026-08-29）【重要改動】：用戶反映呢行數據（得3隻）比
+     下面Global Indices（8隻）少好多，跑馬燈（TradingView Ticker
+     Tape widget嘅自動scroll marquee行為）冇必要，要求取消跑馬燈
+     模式，順手加埋Bitcoin同GLD。TradingView Ticker Tape widget
+     本身冇「唔scroll」嘅官方config選項（widget內部行為，改config
+     都改唔到）——跟返Global Indices（v5.3）已經行過嘅路：放棄
+     TradingView embed widget，改用futu_bridge_v2.py v3.7新增嘅
+     /api/macro_quotes（VIX/WTI/美元指數/Bitcoin/GLD全部經Yahoo
+     Finance），前端loadMacroTicker()poll呢個endpoint，直接重用
+     Global Indices已經定義好嘅.rt-ticker-item等CSS class（淨係
+     容器唔用.rt-ticker-track嗰個scroll animation，改用
+     .macro-static-row靜態flex-wrap排列，企定唔郁）。 -->
+<div class="rt-ticker-wrap">
+  <div class="rt-ticker-label">
+    <span>MACRO · 宏觀指標 Live（Yahoo Finance，靜態顯示）</span>
     <a href="https://netng888-code.github.io/netng888/premarket-rates-monitor.html" target="_blank" rel="noopener">🏛️ 孳息率詳細頁</a>
   </div>
-  <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-    {
-      "symbols": [
-        {"proName": "AMEX:VIXY", "title": "VIX(VIXY代理)"},
-        {"proName": "TVC:USOIL", "title": "WTI原油"},
-        {"proName": "AMEX:UUP", "title": "美元指數(UUP代理)"}
-      ],
-      "showSymbolLogo": false,
-      "isTransparent": true,
-      "displayMode": "compact",
-      "colorTheme": "dark",
-      "locale": "en"
-    }
-    </script>
+  <div class="macro-static-row" id="macro-ticker-body">
+    <div class="rt-ticker-offline">載入中...</div>
   </div>
 </div>
 
@@ -1275,6 +1305,66 @@ async function loadTickerTape() {
     rtRenderTicker(d);
   } catch (e) {
     rtShowTickerOffline();
+  }
+}
+
+// ── Macro Strip（v3.7新增，取代TradingView Ticker Tape widget）────
+// 靜態一行，冇scroll animation——設計原則見上面.macro-static-row
+// CSS嘅comment。5隻：VIX/WTI原油/美元指數/Bitcoin/GLD，數據源
+// futu_bridge_v2.py v3.7新增嘅/api/macro_quotes（全部經Yahoo
+// Finance，Futu冇呢類產品嘅行情權）。渲染邏輯刻意同rtRenderTicker()
+// 保持同一套（重用.rt-ticker-item/.rt-flag/.rt-code/.rt-name/
+// .rt-price/.rt-chg class），純粹容器由.rt-ticker-track（有
+// animation）換做.macro-static-row（冇animation，flex-wrap企定）。
+const MACRO_TICKER_ITEMS = [
+  { code:'VIX', flag:'📉', name:'VIX恐慌指數' },
+  { code:'WTI', flag:'🛢️', name:'WTI原油'   },
+  { code:'DXY', flag:'💵', name:'美元指數'   },
+  { code:'BTC', flag:'₿',  name:'比特幣'     },
+  { code:'GLD', flag:'🥇', name:'黃金(GLD)'  },
+];
+
+function macroFmtPrice(code, v) {
+  if (v == null) return '—';
+  // Bitcoin價位動輒五位數美元，唔使小數位；其餘維持2位小數同
+  // rtFmtPrice()一致嘅格式。
+  if (code === 'BTC') return v.toLocaleString('en-US', {maximumFractionDigits:0});
+  return v.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
+}
+
+function renderMacroTicker(data) {
+  const q = (data && data.quotes) || {};
+  const items = MACRO_TICKER_ITEMS.map(ix => {
+    const d = q[ix.code];
+    if (!d || d.price == null) {
+      return `<div class="rt-ticker-item"><span class="rt-flag">${ix.flag}</span><span class="rt-code">${ix.code}</span><span class="rt-name">${ix.name}</span><span class="rt-price">—</span></div>`;
+    }
+    const pct = d.pct;
+    const cls = pct == null ? '' : (pct >= 0 ? 'pos' : 'neg');
+    const chgTxt = pct == null ? '' :
+      `<span class="rt-chg ${cls}">${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%</span>`;
+    return `<div class="rt-ticker-item"><span class="rt-flag">${ix.flag}</span><span class="rt-code">${ix.code}</span><span class="rt-name">${ix.name}</span><span class="rt-price">${macroFmtPrice(ix.code, d.price)}</span>${chgTxt}</div>`;
+  }).join('');
+  const el = document.getElementById('macro-ticker-body');
+  if (el) el.innerHTML = items;
+}
+
+function showMacroOffline() {
+  const el = document.getElementById('macro-ticker-body');
+  if (el) el.innerHTML = `<div class="rt-ticker-offline">🔌 本機Futu Bridge未連接，宏觀指標需要bridge運行先有實時數據</div>`;
+}
+
+async function loadMacroTicker() {
+  try {
+    // 同loadTickerTape()一致嘅20秒安全buffer原則——backend並行攻打
+    // 5隻Yahoo symbol，worst case遠低於20秒，但留返buffer避免假陽性
+    // 「未連接」（見futu_bridge_v2.py v3.1嘅timeout mismatch教訓）。
+    const r = await fetch(`${BRIDGE}/api/macro_quotes`, {signal: AbortSignal.timeout(20000)});
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    renderMacroTicker(d);
+  } catch (e) {
+    showMacroOffline();
   }
 }
 
@@ -2928,6 +3018,11 @@ fetchNow();  // 啟動持倉總覽tab嘅背景輪詢（獨立於GEX tab）
 // 輪詢，跨全部tab都顯示（喺tabs之上），同bridge嘅60秒緩存TTL對齊。
 loadTickerTape();
 setInterval(loadTickerTape, 60000);
+
+// Macro Strip（v3.7新增）：獨立於Global Indices嘅輪詢，同一個60秒
+// 節奏，同bridge嘅/api/macro_quotes 60秒緩存TTL對齊。
+loadMacroTicker();
+setInterval(loadMacroTicker, 60000);
 </script>
 </body>
 </html>
