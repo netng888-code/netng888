@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-08-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-31 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$571.10** |
-| 今日變動 | ▼ $5.04　(-0.87%) |
+| 現價 | **$578.02** |
+| 今日變動 | ▲ $6.92　(+1.21%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $106　(▼5.8%) |
+| 未實現盈虧 | ▼ $85　(▼4.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $562.18 | — |
-| Put Wall（支撐） | $550.00 | -3.7% |
-| Call Wall（阻力） | $750.00 | +31.3% |
+| Gamma Flip | $563.11 | — |
+| Put Wall（支撐） | $550.00 | -4.8% |
+| Call Wall（阻力） | $750.00 | +29.8% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Platforms Beats The Man, Again - We Move To Accumulate Rating](https://finnhub.io/api/news?id=b9a3f281f33a8e172235fd8c8ba320f18e2010b787f1f2112458882e3c2a8bb6)**  
+- **[After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)](https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5)**  
+*SeekingAlpha · 4h前*  
+Explore Fed Chair Warshâs view on AI-driven capex, booming token sales, and inflation risksâplus why a diversified strategy matters. Click for more.
+
+- **[AI Threat To Global Financial System](https://finnhub.io/api/news?id=700b0dcac7386e497ccee5924ba0fffc7f5c416a51977aef6382e7e470de55d2)**  
 *SeekingAlpha · 5h前*  
-Meta Platforms (META) settles child-harm lawsuits with limited stock impact; see our Accumulate range, stop and Fibonacci upside targets. See more here.
+G20 warned of frontier AI threats - cyber risks, financial stability and market fears. Read more.
 
-- **[Meta: When An $18 Billion Settlement Is Bullish](https://finnhub.io/api/news?id=dd8cc4deb4b2623fc525393c32cbe08cd7153726f8d3543bc85d19841a094aad)**  
-*SeekingAlpha · 10h前*  
-Meta's $18B legal settlement mitigates regulatory uncertainty and costs only $1B per year. Find out why META stock is a Buy.
-
-- **[Nvidia Is Becoming The AI Nation-State](https://finnhub.io/api/news?id=c1f21ef0a9fda7ae70ea1fee206f61769ad636a8188e428004badb2cb7db3956)**  
-*SeekingAlpha · 11h前*  
-Nvidia (NVDA) stock is subsidizing the AI ecosystem to widen its moat as compute demand expands beyond frontier labsâwhy itâs a bullish buy.
+- **[Tracking Terry Smith's Fundsmith 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=891189d904c37cd1a42d9adf35703a2729dacbb6529f24d5bb557f9ddb970015)**  
+*SeekingAlpha · 16h前*  
+Fundsmith's 13F portfolio rose to ~$13.65B in Q2 2026, expanding holdings from 34 to 41. Click here to read more about the portfolio.
 
 ---
 
@@ -48,7 +48,7 @@ Nvidia (NVDA) stock is subsidizing the AI ecosystem to widen its moat as compute
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-28 | 監控 | $571.10 | — | 自動更新 |
+| 2026-08-31 | 監控 | $578.02 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia (NVDA) stock is subsidizing the AI ecosystem to widen its moat as compute
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-31 21:04 HKT*
