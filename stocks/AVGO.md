@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-31 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$371.54** |
-| 今日變動 | ▲ $15.95　(+4.49%) |
+| 現價 | **$368.79** |
+| 今日變動 | ▼ $2.75　(-0.74%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $42　(▼1.1%) |
+| 未實現盈虧 | ▼ $70　(▼1.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $368.21 | — |
-| Put Wall（支撐） | $360.00 | -3.1% |
-| Call Wall（阻力） | $380.00 | +2.3% |
+| Gamma Flip | $370.55 | — |
+| Put Wall（支撐） | $350.00 | -5.1% |
+| Call Wall（阻力） | $400.00 | +8.5% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nvidia's Guide Ignites a Broad AI Bid Ahead of Warsh's Jackson Hole Debut](https://finnhub.io/api/news?id=457bd7fc29d410106289bf72204c3d054ee7a43a67c755c3ca5fa615916a810e)**  
-*ChartMill · 2h前*  
-Thursday, August 27, 2026 handed the AI trade the reset it needed. Nvidia's forward number lit the whole complex, Salesforce and CrowdStrike delivered outsized …
+- **[Wall Street Brunch: Jobs And More AI Litmus Test Earnings](https://finnhub.io/api/news?id=b65dcfa0f8f8e542ff67693f72381cc5309af36902e5be4ba7bbc2a6c8f91e94)**  
+*SeekingAlpha · 1d前*  
+Augustâs jobs report could cement a September rate hike. Broadcom earnings give another look at the AI spending. John Ternus takes the reins from Tim Cook at …
 
-- **[Marvell Q2: I Agree With The Market](https://finnhub.io/api/news?id=f6ea36e7578e110c526702d56e4e49e3cb1b2da8c578cbd0b5435d64c91ff326)**  
-*SeekingAlpha · 18h前*  
-Marvell Technology, Inc. Q2 results: 37% revenue growth, AI data center surge, and margin gainsâyet valuation looks rich vs. peers. Click for more on MRVL ear…
+- **[Wall Street Week Ahead](https://finnhub.io/api/news?id=ba315618ffbe316cfaad6942270af6a92eed58515a9f13eba6d622c94ad24900)**  
+*SeekingAlpha · 1d前*  
+Wall Street heads into September: August jobs report, AI chip earnings, and Teslaâs Cybercab launchâplus Fed Beige Book insights.
 
-- **[Marvell Q2: Not Good Enough](https://finnhub.io/api/news?id=0e41ce09491882242356dc16f075d68cbafb302a6ea2fe9bc854f67b1f464e0b)**  
-*SeekingAlpha · 18h前*  
-Marvell Technology, Inc. Q2 earnings show 37% revenue growth, but valuation (~60x) and dilution look rich vs. AI chip peers. Click for this MRVL stock update.
+- **[Broadcom Stock Faces Valuation Test as Fiscal Q3 Earnings Approach](https://finnhub.io/api/news?id=57465e6b570887927c69c198fa50b0fec911d3b237cc3b4a0007f20fa1eb78e1)**  
+*Benzinga · 1d前*  
+Broadcom stock is in the spotlight as it prepares to publish its financial results. Here&#39;s what to expect when the numbers come out
 
 ---
 
@@ -48,7 +48,7 @@ Marvell Technology, Inc. Q2 earnings show 37% revenue growth, but valuation (~60
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-28 | 監控 | $371.54 | — | 自動更新 |
+| 2026-08-31 | 監控 | $368.79 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology, Inc. Q2 earnings show 37% revenue growth, but valuation (~60
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-31 21:04 HKT*
