@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$67.53** |
-| 今日變動 | ▲ $1.35　(+2.04%) |
+| 現價 | **$64.39** |
+| 今日變動 | ▼ $3.14　(-4.65%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $85　(▼11.1%) |
+| 未實現盈虧 | ▼ $116　(▼15.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $71.25 | — |
-| Put Wall（支撐） | $65.00 | -3.7% |
-| Call Wall（阻力） | $70.00 | +3.7% |
+| Gamma Flip | $73.39 | — |
+| Put Wall（支撐） | $60.00 | -6.8% |
+| Call Wall（阻力） | $80.00 | +24.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,18 +30,9 @@
 
 ## 📰 最新新聞
 
-- **[10 Industrials Stocks Whale Activity In Today’s Session](https://finnhub.io/api/news?id=2d65dcd8356635bea019bedd859120d43ad89cdad086ff177889b6fb7577593c)**  
-*Benzinga · 23h前*  
-This whale alert can help traders discover the next big trading opportunities.
-Whales are entities with large sums of money and we track their transactions here…
-
-- **[Rocket Lab Doesn't Need Neutron To Justify This Quarter, But Does For What's Next](https://finnhub.io/api/news?id=910ea47afe775de23d6454cedfb54b913803c6ec098b662f99cf46a0577ee670)**  
-*SeekingAlpha · 1d前*  
-Rocket Lab's defense business is scaling independently, with $456 million in suborbital contracts that do not require Neutron. Read why RKLB stock is a strong b…
-
-- **[NASA Chief Jared Isaacman Wants Data Centers In Space as AI Devours Electricity, Says US Should Tap ‘Free Fusion Reactor’ To Win AI Race](https://finnhub.io/api/news?id=0bdb8fedeeb5ead4976ee0171f05a7b783136e67e2e15c32f5869343dfd8ae2c)**  
-*Benzinga · 1d前*  
-NASA Admin Jared Isaacman wants to move AI data centers to Earth orbit, using solar power to strengthen US&#39;s position in space and AI race.
+- **[Rocket Lab: The Dream That Hasn't Launched Yet](https://finnhub.io/api/news?id=9cd9061f0361785d0cc69388c979206a233e69a0fa62c868b477c9ab9a524ee2)**  
+*SeekingAlpha · 2d前*  
+Rocket Lab (RKLB) shows strong revenue growth but lofty valuation, margin pressure, and rising cash burn amid Neutron delays and SpaceX riskâread now.
 
 ---
 
@@ -49,7 +40,7 @@ NASA Admin Jared Isaacman wants to move AI data centers to Earth orbit, using so
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-28 | 監控 | $67.53 | — | 自動更新 |
+| 2026-08-31 | 監控 | $64.39 | — | 自動更新 |
 
 ---
 
@@ -60,4 +51,4 @@ NASA Admin Jared Isaacman wants to move AI data centers to Earth orbit, using so
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-31 21:05 HKT*
