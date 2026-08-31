@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-31 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$935.39** |
-| 今日變動 | ▼ $3.01　(-0.32%) |
+| 現價 | **$932.86** |
+| 今日變動 | ▼ $2.53　(-0.27%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $378　(▲67.7%) |
+| 未實現盈虧 | ▲ $375　(▲67.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $917.17 | — |
-| Put Wall（支撐） | $900.00 | -3.8% |
-| Call Wall（阻力） | $1,000.00 | +6.9% |
+| Gamma Flip | $897.85 | — |
+| Put Wall（支撐） | $900.00 | -3.5% |
+| Call Wall（阻力） | $1,000.00 | +7.2% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia's Guide Ignites a Broad AI Bid Ahead of Warsh's Jackson Hole Debut](https://finnhub.io/api/news?id=457bd7fc29d410106289bf72204c3d054ee7a43a67c755c3ca5fa615916a810e)**  
-*ChartMill · 2h前*  
-Thursday, August 27, 2026 handed the AI trade the reset it needed. Nvidia's forward number lit the whole complex, Salesforce and CrowdStrike delivered outsized …
+- **[After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)](https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5)**  
+*SeekingAlpha · 4h前*  
+Explore Fed Chair Warshâs view on AI-driven capex, booming token sales, and inflation risksâplus why a diversified strategy matters. Click for more.
 
-- **[What's going on in today's session: S&P500 most active stocks](https://finnhub.io/api/news?id=ec2b40b60a205b60de6817ccb29564ac8d77ca419b4368cf7973ff4726b60f7f)**  
-*ChartMill · 18h前*  
-Curious about the most active S&P500 stocks in today's session? Join us as we explore the US markets on Thursday and uncover the stocks that are leading the way…
+- **[Broadcom Stock Faces Valuation Test as Fiscal Q3 Earnings Approach](https://finnhub.io/api/news?id=57465e6b570887927c69c198fa50b0fec911d3b237cc3b4a0007f20fa1eb78e1)**  
+*Benzinga · 1d前*  
+Broadcom stock is in the spotlight as it prepares to publish its financial results. Here&#39;s what to expect when the numbers come out
 
-- **[Thursday's session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=dbe97060b57c6fcca42b09bac712bf7bcd8a4983c5dc92553f86f718d593e9cd)**  
-*ChartMill · 20h前*  
-Stay informed about the performance of the S&P500 index in the middle of the day on Thursday. Uncover the top gainers and losers in today's session for valuable…
+- **[Dell Stock Analysis: Options and Technicals Send Mixed Signals Ahead of Earnings](https://finnhub.io/api/news?id=69a0e0125ff75464ed9cd6b1eb24058bc9b919b8c5e4361e52a3287cd4a628bb)**  
+*Benzinga · 1d前*  
+Dell stock is sending mixed signals with options and technicals are sending mixed signals ahead of its earnings report next week
 
 ---
 
@@ -48,7 +48,7 @@ Stay informed about the performance of the S&P500 index in the middle of the day
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-28 | 監控 | $935.39 | — | 自動更新 |
+| 2026-08-31 | 監控 | $932.86 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Stay informed about the performance of the S&P500 index in the middle of the day
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-31 21:04 HKT*
