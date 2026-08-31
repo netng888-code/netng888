@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-31 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$340.65** |
-| 今日變動 | ▼ $1.35　(-0.39%) |
+| 現價 | **$346.59** |
+| 今日變動 | ▲ $5.94　(+1.74%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $1,947　(▲90.9%) |
+| 未實現盈虧 | ▲ $2,018　(▲94.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $340.98 | — |
-| Put Wall（支撐） | $340.00 | -0.2% |
-| Call Wall（阻力） | $350.00 | +2.7% |
+| Gamma Flip | $337.26 | — |
+| Put Wall（支撐） | $340.00 | -1.9% |
+| Call Wall（阻力） | $375.00 | +8.2% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Tracking George Soros's 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=13b2bc4b692d796c93baed31652eac9113d40ea10263965f9bce2ff9a56b98bb)**  
-*SeekingAlpha · 15h前*  
-Soros Fundâs Q2 2026 13F: $8.14B portfolio shifts, top holdings (AMZN, TSM, GOOGL), new buys & trims. Read here for a detailed analysis.
+- **[After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)](https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5)**  
+*SeekingAlpha · 4h前*  
+Explore Fed Chair Warshâs view on AI-driven capex, booming token sales, and inflation risksâplus why a diversified strategy matters. Click for more.
 
-- **[Thursday's session: top gainers and losers in the dow jones index](https://finnhub.io/api/news?id=f91bace257ba0af744e76346de1ee986e0b1ace6e3fd1e564f4da44e81506cdf)**  
-*ChartMill · 17h前*  
-Stay updated with the movement of dow jones stocks in today's session. Discover which dow jones stocks are making waves on Thursday.
+- **[Tracking Terry Smith's Fundsmith 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=891189d904c37cd1a42d9adf35703a2729dacbb6529f24d5bb557f9ddb970015)**  
+*SeekingAlpha · 16h前*  
+Fundsmith's 13F portfolio rose to ~$13.65B in Q2 2026, expanding holdings from 34 to 41. Click here to read more about the portfolio.
 
-- **[Exploring the top movers within the dow jones index during today's session.](https://finnhub.io/api/news?id=5c23c716656d25f98d61da7895898b299ef98b2bd2a7cea04355a7c099030532)**  
-*ChartMill · 20h前*  
-Let's have a look at the top dow jones gainers and losers in the middle of the day of today's session.
+- **[Microsoft: A High-Quality AI Name That Is No Longer Misunderstood](https://finnhub.io/api/news?id=b1c233d5799408d07e2e32b2a1adca075e81e92599584c8165fa077acb1c0882)**  
+*SeekingAlpha · 1d前*  
+Microsoft Q4: Azure tops $100B, AI/cloud fueled by strong free cash flow. Click for more on MSFT stock.
 
 ---
 
@@ -48,7 +48,7 @@ Let's have a look at the top dow jones gainers and losers in the middle of the d
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-28 | 監控 | $340.65 | — | 自動更新 |
+| 2026-08-31 | 監控 | $346.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Let's have a look at the top dow jones gainers and losers in the middle of the d
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-08-31 21:04 HKT*
