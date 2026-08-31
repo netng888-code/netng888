@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-08-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-08-31 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.59** |
-| 今日變動 | ▲ $0.18　(+1.73%) |
+| 現價 | **$10.21** |
+| 今日變動 | ▼ $0.38　(-3.59%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $387　(▼19.6%) |
+| 未實現盈虧 | ▼ $444　(▼22.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.51 | — |
-| Put Wall（支撐） | $10.00 | -5.6% |
-| Call Wall（阻力） | $11.00 | +3.9% |
+| Gamma Flip | $9.42 | — |
+| Put Wall（支撐） | $10.00 | -2.1% |
+| Call Wall（阻力） | $11.00 | +7.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,14 +30,7 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia is looking more like the central bank of AI: Chart of the Day](https://finnhub.io/api/news?id=68d0c633478c534c9766b00e9fed51748ebadd5dd1e139ddac6ae17dcf14f6d6)**  
-*Yahoo · 1d前*  
-Nvidia made its fortune selling the AI boom — now it's helping finance the next chapter.
-
-- **[10 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=0e4cb4e27393a5b69ff43258a0e2de829fd04fd71f409c904035480afb36f0c1)**  
-*Benzinga · 1d前*  
-This whale alert can help traders discover the next big trading opportunities.
-Whales are entities with large sums of money and we track their transactions here…
+- 暫無新聞
 
 ---
 
@@ -45,7 +38,7 @@ Whales are entities with large sums of money and we track their transactions her
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-28 | 監控 | $10.59 | — | 自動更新 |
+| 2026-08-31 | 監控 | $10.21 | — | 自動更新 |
 
 ---
 
@@ -56,4 +49,4 @@ Whales are entities with large sums of money and we track their transactions her
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-08-31 21:04 HKT*
