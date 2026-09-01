@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-08-31 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$346.59** |
-| 今日變動 | ▲ $5.94　(+1.74%) |
+| 現價 | **$339.35** |
+| 今日變動 | ▼ $7.24　(-2.09%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,018　(▲94.3%) |
+| 未實現盈虧 | ▲ $1,931　(▲90.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $337.26 | — |
-| Put Wall（支撐） | $340.00 | -1.9% |
-| Call Wall（阻力） | $375.00 | +8.2% |
+| Gamma Flip | $337.34 | — |
+| Put Wall（支撐） | $330.00 | -2.8% |
+| Call Wall（阻力） | $350.00 | +3.1% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)](https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5)**  
+- **[How Stock Picking Can Compress The Path To A $1 Million Portfolio](https://finnhub.io/api/news?id=00db6e308d21946410cb4d96933f813219a39fc26a74f0d7bd9b118560df4234)**  
 *SeekingAlpha · 4h前*  
-Explore Fed Chair Warshâs view on AI-driven capex, booming token sales, and inflation risksâplus why a diversified strategy matters. Click for more.
+Learn how to build a $1M portfolio with index funds or stock pickingâtimelines, contribution math, and risk controls like moats & margin of safety.
 
-- **[Tracking Terry Smith's Fundsmith 13F Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=891189d904c37cd1a42d9adf35703a2729dacbb6529f24d5bb557f9ddb970015)**  
-*SeekingAlpha · 16h前*  
-Fundsmith's 13F portfolio rose to ~$13.65B in Q2 2026, expanding holdings from 34 to 41. Click here to read more about the portfolio.
+- **[Top dow jones movers in Monday's session](https://finnhub.io/api/news?id=70b9550024f8c5d254fc55828103b4b095d43a0883efa08bacf46c4e37fc2a76)**  
+*ChartMill · 5h前*  
+Get insights into the dow jones index performance on Monday. Explore the top gainers and losers within the dow jones index in today's session.
 
-- **[Microsoft: A High-Quality AI Name That Is No Longer Misunderstood](https://finnhub.io/api/news?id=b1c233d5799408d07e2e32b2a1adca075e81e92599584c8165fa077acb1c0882)**  
-*SeekingAlpha · 1d前*  
-Microsoft Q4: Azure tops $100B, AI/cloud fueled by strong free cash flow. Click for more on MSFT stock.
+- **[Warren Buffett Set Berkshire Hathaway Up for Years: Top 5 Stocks Yield $589 Million Each Quarter](https://finnhub.io/api/news?id=690565576346cd400325fdb37c9bc7e5f768199f5de14530361241e514cbaa53)**  
+*Benzinga · 8h前*  
+A focus on dividends has helped Berkshire Hathaway generate quarterly payments to reinvest. A look at the top five stock holdings.
 
 ---
 
@@ -48,7 +48,7 @@ Microsoft Q4: Azure tops $100B, AI/cloud fueled by strong free cash flow. Click 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-31 | 監控 | $346.59 | — | 自動更新 |
+| 2026-09-01 | 監控 | $339.35 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Microsoft Q4: Azure tops $100B, AI/cloud fueled by strong free cash flow. Click 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-31 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
