@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-08-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$40.14** |
-| 今日變動 | ▼ $2.39　(-5.62%) |
+| 現價 | **$40.57** |
+| 今日變動 | ▲ $0.43　(+1.07%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $21.067 |
-| 未實現盈虧 | ▲ $381　(▲90.5%) |
+| 未實現盈虧 | ▲ $390　(▲92.6%) |
 
 ---
 
@@ -20,17 +20,19 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $45.65 | — |
-| Put Wall（支撐） | $35.00 | -12.8% |
-| Call Wall（阻力） | $50.00 | +24.6% |
+| Gamma Flip | $44.83 | — |
+| Put Wall（支撐） | $40.00 | -1.4% |
+| Call Wall（阻力） | $50.00 | +23.2% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[Nuclear Energy Scaling Up Through New Federal Projects](https://finnhub.io/api/news?id=7988e3cefa6f34396cdef092033c8dac6ba7e35550f8a93f864c49517c18c86c)**  
+*SeekingAlpha · 8h前*  
+The Nuclear Energy Launch Pad added 13 reactor and fuel cycle technology projects to its pipeline. The US Army announced Project Janus to move five reactor deve…
 
 ---
 
@@ -38,7 +40,7 @@
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-31 | 監控 | $40.14 | — | 自動更新 |
+| 2026-09-01 | 監控 | $40.57 | — | 自動更新 |
 
 ---
 
@@ -49,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-31 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
