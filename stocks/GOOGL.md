@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Alphabet: Question Marks Behind The AI Boom](https://finnhub.io/api/news?id=d164d6d7f051248a902d19755dd9143bcf56d75a2687c4254ff9f4549a4e9894)**  
+*SeekingAlpha · 11h前*  
+Alphabet is overvalued despite strong AI-driven growth and a wide economic moat. Click here to see why GOOG stock is a Hold.
+
 - **[How Stock Picking Can Compress The Path To A $1 Million Portfolio](https://finnhub.io/api/news?id=00db6e308d21946410cb4d96933f813219a39fc26a74f0d7bd9b118560df4234)**  
-*SeekingAlpha · 4h前*  
+*SeekingAlpha · 16h前*  
 Learn how to build a $1M portfolio with index funds or stock pickingâtimelines, contribution math, and risk controls like moats & margin of safety.
 
 - **[Top dow jones movers in Monday's session](https://finnhub.io/api/news?id=70b9550024f8c5d254fc55828103b4b095d43a0883efa08bacf46c4e37fc2a76)**  
-*ChartMill · 5h前*  
+*ChartMill · 17h前*  
 Get insights into the dow jones index performance on Monday. Explore the top gainers and losers within the dow jones index in today's session.
-
-- **[Warren Buffett Set Berkshire Hathaway Up for Years: Top 5 Stocks Yield $589 Million Each Quarter](https://finnhub.io/api/news?id=690565576346cd400325fdb37c9bc7e5f768199f5de14530361241e514cbaa53)**  
-*Benzinga · 8h前*  
-A focus on dividends has helped Berkshire Hathaway generate quarterly payments to reinvest. A look at the top five stock holdings.
 
 ---
 
@@ -59,4 +59,4 @@ A focus on dividends has helped Berkshire Hathaway generate quarterly payments t
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 21:03 HKT*
