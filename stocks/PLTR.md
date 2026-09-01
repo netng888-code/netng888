@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,12 @@
 
 ## 📰 最新新聞
 
+- **[ValuEngine Weekly Commentary: Will Disruptive Technologies Upend Aerospace Companies?](https://finnhub.io/api/news?id=f92e42ba0fd391439b9372466bb070027ee9fafb6e2e1388e5a346dc14508642)**  
+*SeekingAlpha · 13h前*  
+U.S. equity markets were mixed this past week, with modest gains in the major benchmarks offset by weakness across several defensive and cyclical sectors.
+
 - **[Jackson Hole Just Changed The Game](https://finnhub.io/api/news?id=69c13fb568ed66aae2fc04afe7601d7d6482c634af27cf03a14645b8a4ecc0fc)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 The Fed Chairman's speech at Jackson Hole just changed the game for markets. I detail the reasons why the Fed may (and may not) cut rates by year-end.
 
 ---
@@ -51,4 +55,4 @@ The Fed Chairman's speech at Jackson Hole just changed the game for markets. I d
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 21:04 HKT*
