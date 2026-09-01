@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Centrus Energy: The Backlog Is Now Real](https://finnhub.io/api/news?id=c8aa34fd6fb076481bab68be6f47a4419fd7e8ebc64a97a52a6ef9729cc98f12)**  
-*SeekingAlpha · 9h前*  
+*SeekingAlpha · 21h前*  
 Centrus Energy (LEU) Q2 beat boosts HALEU thesis as $3B contingencies drop and backlog converts to contracts.
 
 ---
@@ -51,4 +51,4 @@ Centrus Energy (LEU) Q2 beat boosts HALEU thesis as $3B contingencies drop and b
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 21:03 HKT*
