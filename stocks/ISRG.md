@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Intuitive Surgical Vs. SS Innovations: Why You Should Buy The Lesser-Known Indian Competitor](https://finnhub.io/api/news?id=3bc420092aebcb8971b91fd83d22aaf16431a744f360a1e12d4cbf8c8074f319)**  
-*SeekingAlpha · 8h前*  
+*SeekingAlpha · 20h前*  
 Compare SS Innovations vs. Intuitive Surgical in medical roboticsâwhy SS Innovations may offer asymmetric upside, stronger growth, and better returns. Click t…
 
 ---
@@ -51,4 +51,4 @@ Compare SS Innovations vs. Intuitive Surgical in medical roboticsâwhy SS In
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 21:04 HKT*
