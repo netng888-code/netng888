@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Memory Mania: AI Demand Meets Single-Digit Multiples](https://finnhub.io/api/news?id=231d9ac9489a88128c94d0acb0c220c8e8d11dc47b3c8ca10ff3fe24db3d7297)**  
+*ChartMill · 0h前*  
+AI memory stocks boom with triple-digit growth, yet forward P/Es stay low. Sandisk's report will test if valuation gap closes via estimates or prices.
+
+- **[DRAM: Final Call Before The Recovery Takes Off Without You](https://finnhub.io/api/news?id=a00f90e9b57ba3d7b8edce3454ce1525cdd4f7ad2cdf279663e1da9a09196d05)**  
+*SeekingAlpha · 7h前*  
+Upgrade Roundhill Memory ETF (DRAM) to Buy: 6x earnings, supply constraints support pricing, dip-buyers accumulate.
+
 - **[Trump’s Truth Social ETF Manager Is Betting Big on AI, Crypto and New ETFs](https://finnhub.io/api/news?id=379b352d0de5bb6d45d2ce5d132795804bbcda6cdfa1bba75116c990e11b8a61)**  
-*Benzinga · 8h前*  
+*Benzinga · 20h前*  
 Trump’s Truth Social ETF manager is expanding into AI, crypto, and macro strategies with a new MANGOS ETF and a planned acquisition.
-
-- **[Micron: Hyperscalers Bought The Fab, Bears Bought Fairy Tales](https://finnhub.io/api/news?id=ba94c10d144aa803f0b7952e56c7b6fb36f21512d3cf4f017ead8e8cf86d63de)**  
-*SeekingAlpha · 8h前*  
-Micron Technology, Inc. Buy case: hyperscalersâ SCAs secure capacity, steady FCF and high margins on AI/HBM demand. Click for this MU update.
-
-- **[CXMT’s HBM3E Push Challenges Micron: These ETFs Play the AI Memory Boom](https://finnhub.io/api/news?id=119bd1f1b742d5baf2cc4979373912b11f74479b690a62fef8e507af89beb052)**  
-*Benzinga · 9h前*  
-CXMT’s HBM3E push is intensifying the AI memory race. Here are ETFs offering different ways to play Micron, CXMT and the booming memory market.
 
 ---
 
@@ -59,4 +59,4 @@ CXMT’s HBM3E push is intensifying the AI memory race. Here are ETFs offering d
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 21:03 HKT*
