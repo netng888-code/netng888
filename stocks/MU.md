@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-08-31 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$932.86** |
-| 今日變動 | ▼ $2.53　(-0.27%) |
+| 現價 | **$958.73** |
+| 今日變動 | ▲ $25.87　(+2.77%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $375　(▲67.2%) |
+| 未實現盈虧 | ▲ $401　(▲71.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $897.85 | — |
-| Put Wall（支撐） | $900.00 | -3.5% |
-| Call Wall（阻力） | $1,000.00 | +7.2% |
+| Gamma Flip | $903.40 | — |
+| Put Wall（支撐） | $900.00 | -6.1% |
+| Call Wall（阻力） | $1,000.00 | +4.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)](https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5)**  
-*SeekingAlpha · 4h前*  
-Explore Fed Chair Warshâs view on AI-driven capex, booming token sales, and inflation risksâplus why a diversified strategy matters. Click for more.
+- **[Trump’s Truth Social ETF Manager Is Betting Big on AI, Crypto and New ETFs](https://finnhub.io/api/news?id=379b352d0de5bb6d45d2ce5d132795804bbcda6cdfa1bba75116c990e11b8a61)**  
+*Benzinga · 8h前*  
+Trump’s Truth Social ETF manager is expanding into AI, crypto, and macro strategies with a new MANGOS ETF and a planned acquisition.
 
-- **[Broadcom Stock Faces Valuation Test as Fiscal Q3 Earnings Approach](https://finnhub.io/api/news?id=57465e6b570887927c69c198fa50b0fec911d3b237cc3b4a0007f20fa1eb78e1)**  
-*Benzinga · 1d前*  
-Broadcom stock is in the spotlight as it prepares to publish its financial results. Here&#39;s what to expect when the numbers come out
+- **[Micron: Hyperscalers Bought The Fab, Bears Bought Fairy Tales](https://finnhub.io/api/news?id=ba94c10d144aa803f0b7952e56c7b6fb36f21512d3cf4f017ead8e8cf86d63de)**  
+*SeekingAlpha · 8h前*  
+Micron Technology, Inc. Buy case: hyperscalersâ SCAs secure capacity, steady FCF and high margins on AI/HBM demand. Click for this MU update.
 
-- **[Dell Stock Analysis: Options and Technicals Send Mixed Signals Ahead of Earnings](https://finnhub.io/api/news?id=69a0e0125ff75464ed9cd6b1eb24058bc9b919b8c5e4361e52a3287cd4a628bb)**  
-*Benzinga · 1d前*  
-Dell stock is sending mixed signals with options and technicals are sending mixed signals ahead of its earnings report next week
+- **[CXMT’s HBM3E Push Challenges Micron: These ETFs Play the AI Memory Boom](https://finnhub.io/api/news?id=119bd1f1b742d5baf2cc4979373912b11f74479b690a62fef8e507af89beb052)**  
+*Benzinga · 9h前*  
+CXMT’s HBM3E push is intensifying the AI memory race. Here are ETFs offering different ways to play Micron, CXMT and the booming memory market.
 
 ---
 
@@ -48,7 +48,7 @@ Dell stock is sending mixed signals with options and technicals are sending mixe
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-31 | 監控 | $932.86 | — | 自動更新 |
+| 2026-09-01 | 監控 | $958.73 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Dell stock is sending mixed signals with options and technicals are sending mixe
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-31 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
