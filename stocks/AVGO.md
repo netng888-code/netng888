@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-08-31 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$368.79** |
-| 今日變動 | ▼ $2.75　(-0.74%) |
+| 現價 | **$370.34** |
+| 今日變動 | ▲ $1.55　(+0.42%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $70　(▼1.9%) |
+| 未實現盈虧 | ▼ $54　(▼1.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $370.55 | — |
-| Put Wall（支撐） | $350.00 | -5.1% |
-| Call Wall（阻力） | $400.00 | +8.5% |
+| Gamma Flip | $375.50 | — |
+| Put Wall（支撐） | $350.00 | -5.5% |
+| Call Wall（阻力） | $400.00 | +8.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Wall Street Brunch: Jobs And More AI Litmus Test Earnings](https://finnhub.io/api/news?id=b65dcfa0f8f8e542ff67693f72381cc5309af36902e5be4ba7bbc2a6c8f91e94)**  
-*SeekingAlpha · 1d前*  
-Augustâs jobs report could cement a September rate hike. Broadcom earnings give another look at the AI spending. John Ternus takes the reins from Tim Cook at …
+- **[Broadcom Could Swing $139 Billion In Value After Earnings](https://finnhub.io/api/news?id=6125a10cbc4708559611d3126d9137cd11e7a749ae20ba2cd91d0a8f50748834)**  
+*Benzinga · 6h前*  
+Earnings season brings heightened volatility. See the five stocks with the biggest implied moves, including Broadcom, Snowflake, Dell and Palo Alto Networks.
 
-- **[Wall Street Week Ahead](https://finnhub.io/api/news?id=ba315618ffbe316cfaad6942270af6a92eed58515a9f13eba6d622c94ad24900)**  
-*SeekingAlpha · 1d前*  
-Wall Street heads into September: August jobs report, AI chip earnings, and Teslaâs Cybercab launchâplus Fed Beige Book insights.
+- **[Marvell: Market's Myopia On Alphabet Deal's Potential Is Baffling](https://finnhub.io/api/news?id=4e98513098d2b5cc14bbfe6fb8c034e9bee1ed220022a46f52ccf43edf7d570d)**  
+*SeekingAlpha · 9h前*  
+Marvell Technology, Inc. post-earnings: Google partnership, AI/data center upside, and a valuation reset to 40x. Click for this MRVL earnings update.
 
-- **[Broadcom Stock Faces Valuation Test as Fiscal Q3 Earnings Approach](https://finnhub.io/api/news?id=57465e6b570887927c69c198fa50b0fec911d3b237cc3b4a0007f20fa1eb78e1)**  
-*Benzinga · 1d前*  
-Broadcom stock is in the spotlight as it prepares to publish its financial results. Here&#39;s what to expect when the numbers come out
+- **[Nvidia: Analyzing Its Datacenter Customers In A Changing Environment](https://finnhub.io/api/news?id=34fcdc5b395ae44bd3a01c6180162677594447ca079b80f3c68238569f37151a)**  
+*SeekingAlpha · 9h前*  
+Nvidia Corporation remains a Buy as hyperscaler and NeoCloud demand drives robust growth and profitability. Read more on NVDA stock here.
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom stock is in the spotlight as it prepares to publish its financial resul
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-31 | 監控 | $368.79 | — | 自動更新 |
+| 2026-09-01 | 監控 | $370.34 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom stock is in the spotlight as it prepares to publish its financial resul
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-31 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
