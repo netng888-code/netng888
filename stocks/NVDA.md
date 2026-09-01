@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-08-31 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$217.55** |
-| 今日變動 | ▼ $10.43　(-4.58%) |
+| 現價 | **$220.78** |
+| 今日變動 | ▲ $3.23　(+1.48%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $574　(▲35.9%) |
+| 未實現盈虧 | ▲ $607　(▲37.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $204.47 | — |
-| Put Wall（支撐） | $200.00 | -8.1% |
-| Call Wall（阻力） | $220.00 | +1.1% |
+| Gamma Flip | $205.96 | — |
+| Put Wall（支撐） | $220.00 | -0.4% |
+| Call Wall（阻力） | $230.00 | +4.2% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dividend Harvesting Portfolio Week 287: $28,700 Allocated, $3,270.88 In Projected Dividends](https://finnhub.io/api/news?id=c7873c284a1cda36df65c7f7f383e8a5f54fcfaebeb705358044514b0275aa8c)**  
-*SeekingAlpha · 4h前*  
-Dividend Harvesting Portfolio update: 45.46% ROI, $3,270 forward income at 7.84% yield.
+- **[Nvidia: AI Boom Times Still Ahead](https://finnhub.io/api/news?id=967de8b85d58ad5415281693a1941e1756c722df88d9ce349c58e0f43df6bf12)**  
+*SeekingAlpha · 5h前*  
+NVIDIA (NVDA) surges on 70â100% AI-driven revenue growth, big earnings beats, and cheap ~11x FY29 EPS. Read here for a detailed analysis.
 
-- **[Warsh's Jackson Hole Debut Rattles Rates and Tech](https://finnhub.io/api/news?id=2d5abdb607b055573b7822022510206b08f75be320eb83da85199aa95a9795c4)**  
+- **[Top dow jones movers in Monday's session](https://finnhub.io/api/news?id=70b9550024f8c5d254fc55828103b4b095d43a0883efa08bacf46c4e37fc2a76)**  
 *ChartMill · 5h前*  
-New Fed chair Kevin Warsh sounded hawkish in his first Jackson Hole speech, lifting Treasury yields and dragging the Nasdaq lower. Chips led the reversal, PayPa…
+Get insights into the dow jones index performance on Monday. Explore the top gainers and losers within the dow jones index in today's session.
 
-- **[Nvidia: Stock Price To Catch Up To Earnings Growth](https://finnhub.io/api/news?id=acf97cc25e2e683b51527b41f31cd317f3ee2460fb1fa882d0f00520063dc567)**  
-*SeekingAlpha · 8h前*  
-NVIDIA is positioned for strong long-term growth, driven by advanced AI and data center solutions, notably the Vera Rubin architecture. Learn more about NVDA st…
+- **[Stay informed about the most active stocks in the S&P500 index on Monday's session.](https://finnhub.io/api/news?id=3acb000fbcd04c48667d73cb6408b0aeb637920de5672722498fff8d7028614e)**  
+*ChartMill · 6h前*  
+Curious about the most active S&P500 stocks in today's session? Join us as we explore the US markets on Monday and uncover the stocks that are leading the way i…
 
 ---
 
@@ -48,7 +48,7 @@ NVIDIA is positioned for strong long-term growth, driven by advanced AI and data
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-31 | 監控 | $217.55 | — | 自動更新 |
+| 2026-09-01 | 監控 | $220.78 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ NVIDIA is positioned for strong long-term growth, driven by advanced AI and data
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-31 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
