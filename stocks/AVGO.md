@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Broadcom: Why Q3 Is Not Going To Change Anything](https://finnhub.io/api/news?id=2dd765d8845bc304763a3af23c6c7641b07e0eaf4b429793b5802e86930d69fb)**  
+*SeekingAlpha · 12h前*  
+Broadcom (AVGO) stock is rated Hold: valuation fair at $346â$382 amid VMware security risks. Read here for a detailed investment analysis.
+
 - **[Broadcom Could Swing $139 Billion In Value After Earnings](https://finnhub.io/api/news?id=6125a10cbc4708559611d3126d9137cd11e7a749ae20ba2cd91d0a8f50748834)**  
-*Benzinga · 6h前*  
+*Benzinga · 18h前*  
 Earnings season brings heightened volatility. See the five stocks with the biggest implied moves, including Broadcom, Snowflake, Dell and Palo Alto Networks.
 
 - **[Marvell: Market's Myopia On Alphabet Deal's Potential Is Baffling](https://finnhub.io/api/news?id=4e98513098d2b5cc14bbfe6fb8c034e9bee1ed220022a46f52ccf43edf7d570d)**  
-*SeekingAlpha · 9h前*  
+*SeekingAlpha · 21h前*  
 Marvell Technology, Inc. post-earnings: Google partnership, AI/data center upside, and a valuation reset to 40x. Click for this MRVL earnings update.
-
-- **[Nvidia: Analyzing Its Datacenter Customers In A Changing Environment](https://finnhub.io/api/news?id=34fcdc5b395ae44bd3a01c6180162677594447ca079b80f3c68238569f37151a)**  
-*SeekingAlpha · 9h前*  
-Nvidia Corporation remains a Buy as hyperscaler and NeoCloud demand drives robust growth and profitability. Read more on NVDA stock here.
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia Corporation remains a Buy as hyperscaler and NeoCloud demand drives robus
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 21:03 HKT*
