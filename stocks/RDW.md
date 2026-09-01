@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-08-31 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.87** |
-| 今日變動 | ▼ $0.40　(-3.55%) |
+| 現價 | **$10.70** |
+| 今日變動 | ▼ $0.17　(-1.56%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $191　(▼30.5%) |
+| 未實現盈虧 | ▼ $198　(▼31.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.07 | — |
-| Put Wall（支撐） | $10.00 | -8.0% |
-| Call Wall（阻力） | $12.00 | +10.4% |
+| Gamma Flip | $9.62 | — |
+| Put Wall（支撐） | $10.00 | -6.5% |
+| Call Wall（阻力） | $12.00 | +12.1% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,7 +30,9 @@
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[B of A Securities Maintains Underperform on Redwire, Raises Price Target to $8](https://finnhub.io/api/news?id=795235e9ed9b57f4e8305ea77f39ddf52b571fc32bfe3241459285d5b8e09014)**  
+*Benzinga · 11h前*  
+B of A Securities  analyst Ronald Epstein   maintains Redwire (NYSE:RDW) with a Underperform and raises the price target from $7 to $8.
 
 ---
 
@@ -38,7 +40,7 @@
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-31 | 監控 | $10.87 | — | 自動更新 |
+| 2026-09-01 | 監控 | $10.70 | — | 自動更新 |
 
 ---
 
@@ -49,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-31 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
