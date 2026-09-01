@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[ValuEngine Weekly Commentary: Will Disruptive Technologies Upend Aerospace Companies?](https://finnhub.io/api/news?id=f92e42ba0fd391439b9372466bb070027ee9fafb6e2e1388e5a346dc14508642)**  
+*SeekingAlpha · 13h前*  
+U.S. equity markets were mixed this past week, with modest gains in the major benchmarks offset by weakness across several defensive and cyclical sectors.
+
 - **[Cathie Wood's SpaceX Bet Grows as Rocket Lab Stock Flashes a Death Cross](https://finnhub.io/api/news?id=4eecdf8a3d26a51cd12a526a0ae87104eed8a7f68eaa2c5bfc079cb6cf321e58)**  
-*Benzinga · 10h前*  
+*Benzinga · 22h前*  
 Rocket Lab stock flashed a death cross as Cathie Wood trimmed RKLB while her SpaceX investment gained prominence after a strong rally.
 
 - **[B of A Securities Maintains Buy on Rocket Lab, Lowers Price Target to $110](https://finnhub.io/api/news?id=94cb052ba5d0474cbd7b92c83e1f883cd28c78164cdefe0d4ea8a8e70c69463a)**  
-*Benzinga · 11h前*  
+*Benzinga · 23h前*  
 B of A Securities  analyst Ronald Epstein   maintains Rocket Lab (NASDAQ:RKLB) with a Buy and lowers the price target from $115 to $110.
-
-- **[The New Space ETFs Keep Buying the Same Names: Rocket Lab, AST SpaceMobile, SpaceX](https://finnhub.io/api/news?id=84e856074a7bccafc32d71b03f78bd492695592b95a8d70dcfba1d37481c649e)**  
-*Benzinga · 13h前*  
-Space ETFs are entering a new phase as SPCX, RKLB and ASTS fuel demand for exposure to commercial launches, satellites and next-gen space infrastructure.
 
 ---
 
@@ -59,4 +59,4 @@ Space ETFs are entering a new phase as SPCX, RKLB and ASTS fuel demand for expos
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 21:04 HKT*
