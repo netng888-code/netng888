@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-01 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -49,4 +49,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 21:04 HKT*
