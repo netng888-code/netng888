@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-08-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$64.39** |
-| 今日變動 | ▼ $3.14　(-4.65%) |
+| 現價 | **$63.92** |
+| 今日變動 | ▼ $0.47　(-0.73%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $116　(▼15.3%) |
+| 未實現盈虧 | ▼ $121　(▼15.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $73.39 | — |
-| Put Wall（支撐） | $60.00 | -6.8% |
-| Call Wall（阻力） | $80.00 | +24.2% |
+| Gamma Flip | $70.77 | — |
+| Put Wall（支撐） | $60.00 | -6.1% |
+| Call Wall（阻力） | $70.00 | +9.5% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,9 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab: The Dream That Hasn't Launched Yet](https://finnhub.io/api/news?id=9cd9061f0361785d0cc69388c979206a233e69a0fa62c868b477c9ab9a524ee2)**  
-*SeekingAlpha · 2d前*  
-Rocket Lab (RKLB) shows strong revenue growth but lofty valuation, margin pressure, and rising cash burn amid Neutron delays and SpaceX riskâread now.
+- **[Cathie Wood's SpaceX Bet Grows as Rocket Lab Stock Flashes a Death Cross](https://finnhub.io/api/news?id=4eecdf8a3d26a51cd12a526a0ae87104eed8a7f68eaa2c5bfc079cb6cf321e58)**  
+*Benzinga · 10h前*  
+Rocket Lab stock flashed a death cross as Cathie Wood trimmed RKLB while her SpaceX investment gained prominence after a strong rally.
+
+- **[B of A Securities Maintains Buy on Rocket Lab, Lowers Price Target to $110](https://finnhub.io/api/news?id=94cb052ba5d0474cbd7b92c83e1f883cd28c78164cdefe0d4ea8a8e70c69463a)**  
+*Benzinga · 11h前*  
+B of A Securities  analyst Ronald Epstein   maintains Rocket Lab (NASDAQ:RKLB) with a Buy and lowers the price target from $115 to $110.
+
+- **[The New Space ETFs Keep Buying the Same Names: Rocket Lab, AST SpaceMobile, SpaceX](https://finnhub.io/api/news?id=84e856074a7bccafc32d71b03f78bd492695592b95a8d70dcfba1d37481c649e)**  
+*Benzinga · 13h前*  
+Space ETFs are entering a new phase as SPCX, RKLB and ASTS fuel demand for exposure to commercial launches, satellites and next-gen space infrastructure.
 
 ---
 
@@ -40,7 +48,7 @@ Rocket Lab (RKLB) shows strong revenue growth but lofty valuation, margin pressu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-31 | 監控 | $64.39 | — | 自動更新 |
+| 2026-09-01 | 監控 | $63.92 | — | 自動更新 |
 
 ---
 
@@ -51,4 +59,4 @@ Rocket Lab (RKLB) shows strong revenue growth but lofty valuation, margin pressu
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-31 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
