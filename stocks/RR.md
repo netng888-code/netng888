@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-08-31 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$1.83** |
-| 今日變動 | ▼ $0.12　(-6.15%) |
+| 現價 | **$1.87** |
+| 今日變動 | ▲ $0.04　(+2.19%) |
 | 持倉數量 | 300 股 |
 | 平均成本 | $2.445 |
-| 未實現盈虧 | ▼ $184　(▼25.2%) |
+| 未實現盈虧 | ▼ $172　(▼23.5%) |
 
 ---
 
@@ -21,8 +21,8 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $1.51 | — |
-| Put Wall（支撐） | $1.50 | -18.0% |
-| Call Wall（阻力） | $2.00 | +9.3% |
+| Put Wall（支撐） | $1.50 | -19.8% |
+| Call Wall（阻力） | $2.00 | +7.0% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -40,7 +40,7 @@ Richtech Robotics wasn't able to capture the same growth rate as the robotics ma
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-08-31 | 監控 | $1.83 | — | 自動更新 |
+| 2026-09-01 | 監控 | $1.87 | — | 自動更新 |
 
 ---
 
@@ -51,4 +51,4 @@ Richtech Robotics wasn't able to capture the same growth rate as the robotics ma
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-08-31 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
