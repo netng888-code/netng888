@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-01 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,7 +30,9 @@
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[Wondering what's happening in today's S&P500  pre-market session?](https://finnhub.io/api/news?id=d6bdccfbc69efd55c6234393d099aa343c0a759a6b9134acb8dd86cf856fed58)**  
+*ChartMill · 0h前*  
+Discover the top S&P500 movers in Tuesday's pre-market session and stay informed about market dynamics.
 
 ---
 
@@ -49,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-01 21:03 HKT*
