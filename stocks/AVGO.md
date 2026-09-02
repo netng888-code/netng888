@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-02 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia: Betting Against AI's Landlord Is A Widow-Maker Trade](https://finnhub.io/api/news?id=917d8a7976ba8b3e4504514f0e93cec344656db2b6fbf75b1141b2e6a9c958f9)**  
-*SeekingAlpha · 5h前*  
-Nvidia Corporation is rated Strong Buy due to NeoCloud revenue-sharing, Hugging Face integration, and mega-deals. Click for this NVDA update.
+- **[Review & Preview: September Blues](https://finnhub.io/api/news?id=bb8b39ecb39dbca90c3ec3faf89128b1d62253652bc863d0d3ce22e899db6fd4)**  
+*Yahoo · 12h前*  
+REVIEW PREVIEW NEWSLETTER Feeling the Chill. It’s a new month, and suddenly investors have fresh worries about old problems like interest rates, the bond market…
 
-- **[Broadcom Boosts VMware AI Push to Challenge Nutanix & Microsoft](https://finnhub.io/api/news?id=57e5abd9b3eeaf33e78b2950f28a4b5f390bbc855e7d0fb8655e91a9ead6e486)**  
-*Yahoo · 6h前*  
-AVGO's VMware AI push gains traction with VCF 9.1, while NTNX and MSFT intensify competition across enterprise AI and hybrid cloud.
+- **[Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking](https://finnhub.io/api/news?id=354222f8f27a0f2f4173d2755df785fe2c4fb2ea51cf8b15069ad1f5b66fc779)**  
+*Yahoo · 12h前*  
+Nvidia landed at No. 76 ranking in the Roundtable 100, with an unlikely candidate topping the list.
 
-- **[Broadcom (AVGO) Launches Private AI Cloud Tools, Is It Still Below Fair Value?](https://finnhub.io/api/news?id=17e3aa4fe7db55fd3c93e54a2d102cc5dee0309a790eb34547c5b6ff87bfadc7)**  
-*Yahoo · 7h前*  
-Broadcom (AVGO) has launched VMware Private AI Cloud, VMware AI Factory and the AgentMinder governance stack, giving enterprises tools to run AI models and auto…
+- **[Broadcom's earnings loom, but this reveal came first](https://finnhub.io/api/news?id=dc6e0ae547bdf6114e220c7ddfa53b2c545e4a8f85c3b6e4f6c5d519bd003d1b)**  
+*Yahoo · 13h前*  
+Days before its Q3 report, Broadcom made a move that could matter more than the headline numbers.
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom (AVGO) has launched VMware Private AI Cloud, VMware AI Factory and the 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 21:03 HKT*
