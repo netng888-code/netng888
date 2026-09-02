@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-01 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$572.34** |
-| 今日變動 | ▼ $5.68　(-0.98%) |
+| 現價 | **$578.54** |
+| 今日變動 | ▲ $6.20　(+1.08%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $102　(▼5.6%) |
+| 未實現盈虧 | ▼ $83　(▼4.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $565.04 | — |
-| Put Wall（支撐） | $550.00 | -3.9% |
-| Call Wall（阻力） | $750.00 | +31.0% |
+| Gamma Flip | $565.24 | — |
+| Put Wall（支撐） | $550.00 | -4.9% |
+| Call Wall（阻力） | $750.00 | +29.6% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Trump’s Truth Social ETF Manager Is Betting Big on AI, Crypto and New ETFs](https://finnhub.io/api/news?id=379b352d0de5bb6d45d2ce5d132795804bbcda6cdfa1bba75116c990e11b8a61)**  
-*Benzinga · 20h前*  
-Trump’s Truth Social ETF manager is expanding into AI, crypto, and macro strategies with a new MANGOS ETF and a planned acquisition.
+- **[Oklo Sinks 5% as PJM Pulls Its Meta-Backed Ohio Project, NuScale Power Barely Budges](https://finnhub.io/api/news?id=481a968aceed238ff759767244ad77eafcff2c65bec52c42a104e54084cd65fc)**  
+*Yahoo · 6h前*  
+PJM yanked a Meta-backed nuclear campus from its grid queue, hitting Oklo with a company-specific blow on top of a sector already reeling from surging Treasury …
 
-- **[Nvidia: Analyzing Its Datacenter Customers In A Changing Environment](https://finnhub.io/api/news?id=34fcdc5b395ae44bd3a01c6180162677594447ca079b80f3c68238569f37151a)**  
-*SeekingAlpha · 21h前*  
-Nvidia Corporation remains a Buy as hyperscaler and NeoCloud demand drives robust growth and profitability. Read more on NVDA stock here.
+- **[Jensen Huang Has Become World’s 8th Richest Person](https://finnhub.io/api/news?id=8b2b67a6949d04057d8b585bd39cad07bc47caac8cd9fd999ba76ac78c620530)**  
+*Yahoo · 6h前*  
+Jensen Huang turned a modest chip startup into the backbone of the global AI arms race, and his personal fortune now rivals the biggest names in tech. But three…
 
-- **[ChatGPT Ads Surge: How OpenAI's Rapid Expansion Imperils Google and Meta](https://finnhub.io/api/news?id=5b13fde1228411d2fc1d165a44b76169437e97d0cd0ce5c106ac338c6a40a306)**  
-*Benzinga · 22h前*  
-OpenAI&#39;s ad business hit a $1B run rate, posing a direct threat to Google Search and Meta as ChatGPT monetization shifts toward digital advertising.
+- **[The Market May Be Underestimating This Stock](https://finnhub.io/api/news?id=f5ddbea51903fcd5a90c41abab036796098697e9f729a5e90cb949c1133f6176)**  
+*Yahoo · 6h前*  
+Alphabet's cloud business just posted growth numbers that look more like a startup than a mega-cap, yet the stock still trades at a forward multiple that sugges…
 
 ---
 
@@ -48,7 +48,7 @@ OpenAI&#39;s ad business hit a $1B run rate, posing a direct threat to Google Se
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-01 | 監控 | $572.34 | — | 自動更新 |
+| 2026-09-02 | 監控 | $578.54 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ OpenAI&#39;s ad business hit a $1B run rate, posing a direct threat to Google Se
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 09:04 HKT*
