@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$63.92** |
-| 今日變動 | ▼ $0.47　(-0.73%) |
+| 現價 | **$62.54** |
+| 今日變動 | ▼ $1.38　(-2.16%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $121　(▼15.9%) |
+| 未實現盈虧 | ▼ $135　(▼17.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $70.77 | — |
-| Put Wall（支撐） | $60.00 | -6.1% |
-| Call Wall（阻力） | $70.00 | +9.5% |
+| Gamma Flip | $68.21 | — |
+| Put Wall（支撐） | $60.00 | -4.1% |
+| Call Wall（阻力） | $70.00 | +11.9% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[ValuEngine Weekly Commentary: Will Disruptive Technologies Upend Aerospace Companies?](https://finnhub.io/api/news?id=f92e42ba0fd391439b9372466bb070027ee9fafb6e2e1388e5a346dc14508642)**  
-*SeekingAlpha · 13h前*  
-U.S. equity markets were mixed this past week, with modest gains in the major benchmarks offset by weakness across several defensive and cyclical sectors.
+- **[Cathie Wood Makes Surprise $51 Million Bet on 2 Growth Stocks](https://finnhub.io/api/news?id=f8a084c11fc572ca03854bc71d087878ef794fdfefdd26b83fc26985a155a0d2)**  
+*Yahoo · 6h前*  
+Two very different growth bets now face major execution tests
 
-- **[Cathie Wood's SpaceX Bet Grows as Rocket Lab Stock Flashes a Death Cross](https://finnhub.io/api/news?id=4eecdf8a3d26a51cd12a526a0ae87104eed8a7f68eaa2c5bfc079cb6cf321e58)**  
-*Benzinga · 22h前*  
-Rocket Lab stock flashed a death cross as Cathie Wood trimmed RKLB while her SpaceX investment gained prominence after a strong rally.
+- **[Can Rocket Lab's Spacecraft Component Business Support Growth?](https://finnhub.io/api/news?id=8886298c746ae17df38ff3d85aa6a95541d21788c81a4a81806c71e2fafaf141)**  
+*Yahoo · 8h前*  
+RKLB broadens its space system role with spacecraft components spanning reaction wheels, radios, solar solutions and optical systems.
 
-- **[B of A Securities Maintains Buy on Rocket Lab, Lowers Price Target to $110](https://finnhub.io/api/news?id=94cb052ba5d0474cbd7b92c83e1f883cd28c78164cdefe0d4ea8a8e70c69463a)**  
-*Benzinga · 23h前*  
-B of A Securities  analyst Ronald Epstein   maintains Rocket Lab (NASDAQ:RKLB) with a Buy and lowers the price target from $115 to $110.
+- **[Cathie Wood Sold $26 Million of Palantir to Buy These Two Stocks](https://finnhub.io/api/news?id=f0516ce1cf48c2f7de40f1b05d61747adf22f55fe3163625008e19b6d6b3eaea)**  
+*Yahoo · 10h前*  
+ARK shifted more than $50 million into Block and Rocket Lab while trimming several high-profile growth names.
 
 ---
 
@@ -48,7 +48,7 @@ B of A Securities  analyst Ronald Epstein   maintains Rocket Lab (NASDAQ:RKLB) w
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-01 | 監控 | $63.92 | — | 自動更新 |
+| 2026-09-02 | 監控 | $62.54 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ B of A Securities  analyst Ronald Epstein   maintains Rocket Lab (NASDAQ:RKLB) w
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 09:04 HKT*
