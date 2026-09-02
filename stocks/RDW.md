@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -51,4 +51,4 @@ B of A Securities  analyst Ronald Epstein   maintains Redwire (NYSE:RDW) with a 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 21:04 HKT*
