@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Vertiv Plunges 20% in Three Months: Buy, Sell, or Hold the Stock?](https://finnhub.io/api/news?id=c9db9de0ff561d65a80734e72973f800ad504977e91ff37bc5af5516498a7867)**  
-*Yahoo · 6h前*  
-VRT's AI infrastructure demand, margin gains, and upbeat outlook support growth, but execution risks, supply-chain volatility, and premium valuation remain risk…
+- **[3 Automation Stocks With Revenue Growth Up To 30%](https://finnhub.io/api/news?id=0c6d23fbc1dc5b96c501b1b9fc1468d94b1ef45b1a5558035bf00e6f3f420b8c)**  
+*Yahoo · 13h前*  
+Bond markets in Europe have recently pushed government yields to multi year highs, which puts pressure on companies that rely heavily on cheap debt for growth. …
 
-- **[What's going on in today's session: S&P500 gap up and gap down stocks](https://finnhub.io/api/news?id=6fd92980e0f1c91b4762f92170390371892233ed4aff12b9d656e148934eb028)**  
-*ChartMill · 10h前*  
-Curious about the market action on Tuesday? Dive into the US markets to explore the gap up and gap down stocks in the S&P500 index during today's session.
+- **[Entegris, Penguin Solutions, Teradyne, Applied Materials, and KLA Corporation Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=ff477924050e7d9848b283bc4d6c315d51490eec550bbf98c32fe0b0dc77c5d3)**  
+*Yahoo · 14h前*  
+A number of stocks fell in the afternoon session after surging crude oil prices and a jump in benchmark Treasury yields stoked renewed concerns over inflation a…
 
-- **[Teradyne Launches Advanced UltraFLEXplus Instruments Engineered for AI and Data Center Computing Devices](https://finnhub.io/api/news?id=3db4ee6f51f3dda484e11dfe5c77c7faebbd025dee0c0f9e0d1e5225fa9c3a33)**  
-*Yahoo · 11h前*  
-NORTH READING, Mass., September 01, 2026--Teradyne announced the launch of three new instruments for its UltraFLEXplus platform, designed to meet the demands of…
+- **[Lam Research: AI Growth Is Strong, But The Valuation Demands More](https://finnhub.io/api/news?id=f5dbc28033f6af54e9791f3fe5a4d3a2ba6153e4bc5d67eb8b01710b8f5847ec)**  
+*SeekingAlpha · 14h前*  
+Lam Research (LRCX) posts strong FY2026 growth on AI-driven chip demand, but valuation looks stretched. Read here for a detailed analysis.
 
 ---
 
@@ -59,4 +59,4 @@ NORTH READING, Mass., September 01, 2026--Teradyne announced the launch of three
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 21:04 HKT*
