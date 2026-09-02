@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell’s $120B AI deal came with an unexpected catch](https://finnhub.io/api/news?id=8471d33a020d2e999e06df0373c13a11351cd1f84df5c7553cddf284f0be2941)**  
-*Yahoo · 5h前*  
-Marvell just learned why a huge AI deal may not be enough.
+- **[Why Is Marvell Technology (MRVL) Pushing Deeper Into AI Photonics?](https://finnhub.io/api/news?id=f708467f3e935e644fbf925520b1dd905ef9b7aeb3fb3f306658c35633c22545)**  
+*Yahoo · 9h前*  
+Marvell Technology (NasdaqGS: MRVL) plans to acquire Celestial AI, signaling a push into AI-focused photonics and optical connectivity. The deal centers on Cele…
 
-- **[Apple, Tesla, Nvidia, Medtronic, Alumis, Robinhood, Fervo, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=fa831241684159c63db0ca89432424d5e5b93cc326ad56f10861dc9b757ad87c)**  
-*Yahoo · 7h前*  
-Tesla trades lower even as investors anticipate the potential entry of Cybercab into the company’s fleet of self-driving cabs.
+- **[Marvell Technology (MRVL) Could Be 25% Below Fair Value After Raised Revenue Outlook](https://finnhub.io/api/news?id=0c1b48dc9f76a72d7861538e604660b96dbb021197270a617ccb7fbd2f8da34e)**  
+*Yahoo · 10h前*  
+Marvell Technology (MRVL) reset expectations with a raised multi year revenue outlook and fresh quarterly guidance, after reporting second quarter results that …
 
-- **[Nvidia-Backed Anthropic Inks $35 Billion Deal—Just Don’t Call It ‘Circular Financing’](https://finnhub.io/api/news?id=9d58d2d7b6b5eeaf7957e7ce4930c022370afa128765ddb01e6a25045a84db92)**  
-*Yahoo · 7h前*  
-Nvidia stock was edging down early Tuesday as investors assess its role in the latest AI cloud-computing deal with Anthropic.
+- **[The Memory Wall And Next Leg Of The AI Story: The Connection Bottleneck](https://finnhub.io/api/news?id=e26e5c96b0453ee0036503ccc72bf4c90cdf2bd3762053a1319d40455f51185c)**  
+*SeekingAlpha · 13h前*  
+The total HBM market is projected to grow from $35 billion in 2025 to $54.6 billion in 2026, an increase of more than 50% in a single year, with $100 billion in…
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia stock was edging down early Tuesday as investors assess its role in the l
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 21:04 HKT*
