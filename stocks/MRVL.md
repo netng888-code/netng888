@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-01 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$211.66** |
-| 今日變動 | ▼ $4.96　(-2.29%) |
+| 現價 | **$210.39** |
+| 今日變動 | ▼ $1.27　(-0.60%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $456　(▼17.7%) |
+| 未實現盈虧 | ▼ $469　(▼18.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $221.19 | — |
-| Put Wall（支撐） | $200.00 | -5.5% |
-| Call Wall（阻力） | $250.00 | +18.1% |
+| Gamma Flip | $217.57 | — |
+| Put Wall（支撐） | $200.00 | -4.9% |
+| Call Wall（阻力） | $250.00 | +18.8% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Wondering what's happening in today's S&P500  pre-market session?](https://finnhub.io/api/news?id=d6bdccfbc69efd55c6234393d099aa343c0a759a6b9134acb8dd86cf856fed58)**  
-*ChartMill · 0h前*  
-Discover the top S&P500 movers in Tuesday's pre-market session and stay informed about market dynamics.
+- **[Marvell’s $120B AI deal came with an unexpected catch](https://finnhub.io/api/news?id=8471d33a020d2e999e06df0373c13a11351cd1f84df5c7553cddf284f0be2941)**  
+*Yahoo · 5h前*  
+Marvell just learned why a huge AI deal may not be enough.
 
-- **[Stay informed about the most active stocks in the S&P500 index on Monday's session.](https://finnhub.io/api/news?id=3acb000fbcd04c48667d73cb6408b0aeb637920de5672722498fff8d7028614e)**  
-*ChartMill · 18h前*  
-Curious about the most active S&P500 stocks in today's session? Join us as we explore the US markets on Monday and uncover the stocks that are leading the way i…
+- **[Apple, Tesla, Nvidia, Medtronic, Alumis, Robinhood, Fervo, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=fa831241684159c63db0ca89432424d5e5b93cc326ad56f10861dc9b757ad87c)**  
+*Yahoo · 7h前*  
+Tesla trades lower even as investors anticipate the potential entry of Cybercab into the company’s fleet of self-driving cabs.
 
-- **[Marvell Technology: Greater Clarity Does Not Impress](https://finnhub.io/api/news?id=5b4a71f6c01dc5299eafffd7f57c6315118979a3a2767dca80452da6a9f002aa)**  
-*SeekingAlpha · 20h前*  
-Marvell Technology stock drops 10% after earnings as Google deal uncertainty hits despite strong AI data center growth. Click for this MRVL earnings update.
+- **[Nvidia-Backed Anthropic Inks $35 Billion Deal—Just Don’t Call It ‘Circular Financing’](https://finnhub.io/api/news?id=9d58d2d7b6b5eeaf7957e7ce4930c022370afa128765ddb01e6a25045a84db92)**  
+*Yahoo · 7h前*  
+Nvidia stock was edging down early Tuesday as investors assess its role in the latest AI cloud-computing deal with Anthropic.
 
 ---
 
@@ -48,7 +48,7 @@ Marvell Technology stock drops 10% after earnings as Google deal uncertainty hit
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-01 | 監控 | $211.66 | — | 自動更新 |
+| 2026-09-02 | 監控 | $210.39 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology stock drops 10% after earnings as Google deal uncertainty hit
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 09:04 HKT*
