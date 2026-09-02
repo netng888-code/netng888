@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Oklo Sinks 5% as PJM Pulls Its Meta-Backed Ohio Project, NuScale Power Barely Budges](https://finnhub.io/api/news?id=481a968aceed238ff759767244ad77eafcff2c65bec52c42a104e54084cd65fc)**  
-*Yahoo · 6h前*  
-PJM yanked a Meta-backed nuclear campus from its grid queue, hitting Oklo with a company-specific blow on top of a sector already reeling from surging Treasury …
+- **[Reddit: Rapid Earnings Growth With Room For An AI Expansion](https://finnhub.io/api/news?id=7d044cfab9df71d5edffac9bf6dedfb80dc254cef0d8f54aa31a4caa0cbc6892)**  
+*SeekingAlpha · 5h前*  
+Reddit has a fair value of $230, implying 50% upside from current levels, based on robust earnings growth and margin expansion. See why RDDT stock is a Buy.
 
-- **[Jensen Huang Has Become World’s 8th Richest Person](https://finnhub.io/api/news?id=8b2b67a6949d04057d8b585bd39cad07bc47caac8cd9fd999ba76ac78c620530)**  
-*Yahoo · 6h前*  
-Jensen Huang turned a modest chip startup into the backbone of the global AI arms race, and his personal fortune now rivals the biggest names in tech. But three…
+- **[Solar Power Purchase Contracts Dominate First Half Of 2026](https://finnhub.io/api/news?id=12b56c2544e78ad4107be332cda8c5981e000ea63d2beda30798652b025ebbfb)**  
+*SeekingAlpha · 8h前*  
+While the year began with several notable nuclear agreements, solar power remained the clean energy source of choice in the US during the first half of 2026. Re…
 
-- **[The Market May Be Underestimating This Stock](https://finnhub.io/api/news?id=f5ddbea51903fcd5a90c41abab036796098697e9f729a5e90cb949c1133f6176)**  
-*Yahoo · 6h前*  
-Alphabet's cloud business just posted growth numbers that look more like a startup than a mega-cap, yet the stock still trades at a forward multiple that sugges…
+- **[OCBC, Visa and Doxa deploy Singapore's first deep-tier financing solution to strengthen cashflow for the construction sector](https://finnhub.io/api/news?id=5fd35a31e9bc2e8c59d5e0d0aec1f7fa30a1bc864fc3309a8909ae833bcd5af7)**  
+*Yahoo · 9h前*  
+OCBC, Visa and Doxa have deployed Singapore's first deep-tier financing solution through the Doxa Connex platform, expanding access to working capital for subco…
 
 ---
 
@@ -59,4 +59,4 @@ Alphabet's cloud business just posted growth numbers that look more like a start
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 21:04 HKT*
