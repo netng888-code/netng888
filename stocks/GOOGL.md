@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-02 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stay informed with the top movers within the dow jones index on Tuesday.](https://finnhub.io/api/news?id=2811d09bc453d60ad535201a16e94c17326b4e0711eab591a46c0c53c4effcac)**  
-*ChartMill · 5h前*  
-Get insights into the dow jones index performance on Tuesday. Explore the top gainers and losers within the dow jones index in today's session.
+- **[Fervo Energy's Google Deal Might Be The Proof Bears Needed To See](https://finnhub.io/api/news?id=2a954d4bfcf4a3bc3355fd2f1f0a18d3c1a94fac32fd2de7a0779b89c9bef683)**  
+*SeekingAlpha · 5h前*  
+Fervo Energy secures a landmark deal with Google, validating enhanced geothermal as a viable baseload for hyperscaler data centers. Read why FRVO stock is a buy…
 
-- **[EXCLUSIVE: DeepSeek Was Just the Start. New ETF Targets China’s AI Tigers in a 'Convergence Trade'](https://finnhub.io/api/news?id=ce4a34ffd5b68578288640c4739fd959587f86c71b03c46cc139407987a1faf1)**  
-*Benzinga · 9h前*  
-New ETF TGRZ targets China’s AI Tigers, including Z.ai. Kevin Carter, founder of EMXETF sees a potential valuation convergence trade beyond DeepSeek.
+- **[Solar Power Purchase Contracts Dominate First Half Of 2026](https://finnhub.io/api/news?id=12b56c2544e78ad4107be332cda8c5981e000ea63d2beda30798652b025ebbfb)**  
+*SeekingAlpha · 8h前*  
+While the year began with several notable nuclear agreements, solar power remained the clean energy source of choice in the US during the first half of 2026. Re…
 
-- **[Anthropic Announces Claude Fable 5.1 And Mythos 5.1](https://finnhub.io/api/news?id=ca308d31833b124c4a9f19c5790e4c67bddbef0e676e26a5982c2b2cbe31d4c6)**  
-*Benzinga · 10h前*  
-https://www.anthropic.com/claude-fable-and-mythos-5-1
+- **[Why Fervo Energy Stock Skyrocketed Today](https://finnhub.io/api/news?id=adc4a33be37ec958815907262a774d41f37f1f8c18d72eeca30d35ed7d533cc6)**  
+*Yahoo · 10h前*  
+A blockbuster deal with an AI colossus has investors excited.
 
 ---
 
@@ -59,4 +59,4 @@ https://www.anthropic.com/claude-fable-and-mythos-5-1
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 21:03 HKT*
