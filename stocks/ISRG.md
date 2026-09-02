@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Is ISRG Investing More Aggressively in R&D Despite Macro Headwinds?](https://finnhub.io/api/news?id=059db278a5816d8a3090601824208a14b78b68eed829ec97b66edee7c3671c73)**  
-*Yahoo · 9h前*  
-Intuitive Surgical is boosting R&D despite macro headwinds, targeting AI, robotics and new procedures to expand its market and drive long-term growth.
+- **[How Investors Are Reacting To Merit Medical Systems (MMSI) New Global Operations Leadership Transition](https://finnhub.io/api/news?id=afa65034f7579432b1d57502c780d52f8dd164c949fe1c6d378dc4be79a5acc5)**  
+*Yahoo · 10h前*  
+In August 2026, Merit Medical Systems announced that Sheri Lewis would join as Executive Vice President of Global Operations, bringing three decades of global m…
 
-- **[Medtronic Tops Earnings Estimates and Makes $700M Robot Surgeon Investment. Is It Gaining on Intuitive Surgical?](https://finnhub.io/api/news?id=08406bb536df4ca9272275dcd5acc8ee8365b0072528edef83b9d583852ab632)**  
-*Yahoo · 12h前*  
-Medtronic stock advances after the company posts better-than-expected quarterly earnings, raises revenue guidance, and announces a $700 million investment.
+- **[Zentek Approved for Trading on the OTCQX Best Market](https://finnhub.io/api/news?id=c570bd23c058b035d332a00ebe305036a196042744618ec3070b47a97d47c8e9)**  
+*Yahoo · 13h前*  
+Common shares to trade in the U.S. under new ticker ZTEKF beginning September 2, 2026Guelph, Ontario--(Newsfile Corp. - September 1, 2026) - Zentek Ltd. (TSXV: …
 
-- **[Intuitive Surgical Vs. SS Innovations: Why You Should Buy The Lesser-Known Indian Competitor](https://finnhub.io/api/news?id=3bc420092aebcb8971b91fd83d22aaf16431a744f360a1e12d4cbf8c8074f319)**  
-*SeekingAlpha · 1d前*  
-Compare SS Innovations vs. Intuitive Surgical in medical roboticsâwhy SS Innovations may offer asymmetric upside, stronger growth, and better returns. Click t…
+- **[These 2 Stocks Hit New Milestones Today – What’s Driving Retail Enthusiasm?](https://finnhub.io/api/news?id=cec7707db82b718729f8ebeef46623489c71cc056c8de0942f562e097c8b1930)**  
+*Yahoo · 17h前*  
+MiniMed’s first-quarter sales rose 17% to $843 million, while BTIG upgraded Tidewater to ‘Buy’ from ‘Neutral’.
 
 ---
 
@@ -59,4 +59,4 @@ Compare SS Innovations vs. Intuitive Surgical in medical roboticsâwhy SS In
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 21:04 HKT*
