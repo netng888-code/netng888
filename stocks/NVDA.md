@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-02 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Got $10,000 to Invest This September? These Energy Stocks Could Turn It Into Over $600 in Annual Income.](https://finnhub.io/api/news?id=cfa0383ae6a160ca0de4b37cadadd4fef26c3b8a1d34510d1b920a04d0ef1f77)**  
-*Yahoo · 5h前*  
-Energy Transfer and MPLX are reliable income-generating pipeline plays.
+- **[NVIDIA (NASDAQ:NVDA) Screens as High-Growth Trend Template Stock](https://finnhub.io/api/news?id=ee5c5fb26a7102f5dbf51777e02b983bc2934165770b4dd9cf7a16eed03bc924)**  
+*ChartMill · 2h前*  
+NVIDIA clears Mark Minervini's Trend Template with high-growth momentum: strong technicals, accelerating earnings and sales. A leading stock candidate.
 
-- **[I'm Planning to Downsize in Retirement. You May Want to Do the Same.](https://finnhub.io/api/news?id=25d4f780211b3daac3af9f75f9d74b0dcf7c58dce90f8c451e566d55699cbd3f)**  
-*Yahoo · 5h前*  
-In my book, there's lots to be gained by moving to a smaller space.
+- **[Iran Strikes Send Oil to $95 as Rate Fears Redden Wall Street, Dell's AI Server Blowout Steals the After-Hours](https://finnhub.io/api/news?id=a97439f0189a7516ff3b930f948e9ec02921a81d1a1a758e7724404b8bde1d67)**  
+*ChartMill · 6h前*  
+Renewed US strikes on Iran pushed crude 5% higher to $95 and drove the ten-year yield to 4.79%, dragging chips and megacap tech into the red. After the close, D…
 
-- **[Why Interactive Brokers Stock Tumbled on Tuesday](https://finnhub.io/api/news?id=c765e49bffb2342cec5cadf9da061444104ccee0b5773b39f618b505d980dc1b)**  
-*Yahoo · 5h前*  
-A dose of uncertainty from Wall Street weighed on the shares.
+- **[CoreWeave's Interest Expense Hit $640 Million Last Quarter, 2.4 Times What It Was a Year Ago](https://finnhub.io/api/news?id=33cf4edd66012e565663aaaa76c07b18c7a32e0bcaaa9e7857c598561c650825)**  
+*Yahoo · 9h前*  
+The AI cloud provider's borrowing rate fell over the past year. The bill got bigger anyway -- and it isn't done growing.
 
 ---
 
@@ -59,4 +59,4 @@ A dose of uncertainty from Wall Street weighed on the shares.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 21:03 HKT*
