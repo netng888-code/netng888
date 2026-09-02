@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Software Giant Microsoft, AI Leader Palantir Eye Latest Entries](https://finnhub.io/api/news?id=577ad108d548df8c262a6d300e5b267729ec498a91d7256a9ed988258c4d888f)**  
-*Yahoo · 5h前*  
-Dow Jones software giant Microsoft, along with Palantir stock, Shopify and ServiceNow, are in or near buy zones.
+- **[Palantir Technologies (NASDAQ:PLTR) Clears All Eight Navellier Growth Rules](https://finnhub.io/api/news?id=8bcc0ba3cdf8c8210e150235aebb9ca5ec9e19d960e221dcd3fbecfb04567eda)**  
+*ChartMill · 1h前*  
+Palantir clears all 8 Navellier growth rules—upbeat estimates, triple-digit sales/EPS growth, strong ROE—but faces high valuation risk.
 
-- **[Can Palantir's Customer Surge Sustain Its AI-Driven Growth Momentum?](https://finnhub.io/api/news?id=ba53b995f6537eb3589d5b46c514d45b622df3dae008ddd97485736762332073)**  
-*Yahoo · 5h前*  
-PLTR's customer base rose 24% to 1,049 as AI adoption fueled revenue growth, but valuation and contract risks remain key tests for momentum.
+- **[Palantir Is Priced for Perfection. These 2 Defense Stocks Are Priced for Pessimism.](https://finnhub.io/api/news?id=587555ad3d6028ee1b076f137d160f4ef00a366929a6ba92b2b8077b81d7c56a)**  
+*Yahoo · 10h前*  
+AI defense spending is booming, but not every stock reflects that optimism. Two contractors trade at low multiples and may have more upside.
 
-- **[Michael Burry's Biggest AI Bets Take Surprising Turn](https://finnhub.io/api/news?id=b665677de61c45b823f956c75a4c2a44c1fd4bd4704731dd8ac6e838d1a9a2c8)**  
-*Yahoo · 6h前*  
-Being early proved costly as AI stocks kept climbing
+- **[As AI Models Become Commoditized, Palantir Is Betting Its Ontology Is the New Moat](https://finnhub.io/api/news?id=497fe702abcbc9e46e39ed07d114d3f5e1d2fe640a71366a5a8cf198b76c0e54)**  
+*Yahoo · 14h前*  
+After attending a technology demonstration with a small group of investors, Baird came away incrementally positive on Palantir Technologies Inc. (NASDAQ:PLTR) .…
 
 ---
 
@@ -59,4 +59,4 @@ Being early proved costly as AI stocks kept climbing
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 21:04 HKT*
