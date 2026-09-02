@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-01 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$220.78** |
-| 今日變動 | ▲ $3.23　(+1.48%) |
+| 現價 | **$217.44** |
+| 今日變動 | ▼ $3.34　(-1.51%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $607　(▲37.9%) |
+| 未實現盈虧 | ▲ $573　(▲35.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $205.96 | — |
-| Put Wall（支撐） | $200.00 | -9.4% |
-| Call Wall（阻力） | $220.00 | +-0.4% |
+| Gamma Flip | $208.35 | — |
+| Put Wall（支撐） | $200.00 | -8.0% |
+| Call Wall（阻力） | $220.00 | +1.2% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rising Rates and $90 Oil Break the August Winning Streak](https://finnhub.io/api/news?id=a682723299d894f8ee60a01c84e7d16ba079508b5f0a24675319482dacfc0af5)**  
-*ChartMill · 4h前*  
-Wall Street closed a positive August in the red as Kevin Warsh's Jackson Hole hangover kept the ten-year yield climbing and Brent pushed back above $90. Amazon …
+- **[Got $10,000 to Invest This September? These Energy Stocks Could Turn It Into Over $600 in Annual Income.](https://finnhub.io/api/news?id=cfa0383ae6a160ca0de4b37cadadd4fef26c3b8a1d34510d1b920a04d0ef1f77)**  
+*Yahoo · 5h前*  
+Energy Transfer and MPLX are reliable income-generating pipeline plays.
 
-- **[Nvidia: AI Boom Times Still Ahead](https://finnhub.io/api/news?id=967de8b85d58ad5415281693a1941e1756c722df88d9ce349c58e0f43df6bf12)**  
-*SeekingAlpha · 17h前*  
-NVIDIA (NVDA) surges on 70â100% AI-driven revenue growth, big earnings beats, and cheap ~11x FY29 EPS. Read here for a detailed analysis.
+- **[I'm Planning to Downsize in Retirement. You May Want to Do the Same.](https://finnhub.io/api/news?id=25d4f780211b3daac3af9f75f9d74b0dcf7c58dce90f8c451e566d55699cbd3f)**  
+*Yahoo · 5h前*  
+In my book, there's lots to be gained by moving to a smaller space.
 
-- **[Top dow jones movers in Monday's session](https://finnhub.io/api/news?id=70b9550024f8c5d254fc55828103b4b095d43a0883efa08bacf46c4e37fc2a76)**  
-*ChartMill · 17h前*  
-Get insights into the dow jones index performance on Monday. Explore the top gainers and losers within the dow jones index in today's session.
+- **[Why Interactive Brokers Stock Tumbled on Tuesday](https://finnhub.io/api/news?id=c765e49bffb2342cec5cadf9da061444104ccee0b5773b39f618b505d980dc1b)**  
+*Yahoo · 5h前*  
+A dose of uncertainty from Wall Street weighed on the shares.
 
 ---
 
@@ -48,7 +48,7 @@ Get insights into the dow jones index performance on Monday. Explore the top gai
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-01 | 監控 | $220.78 | — | 自動更新 |
+| 2026-09-02 | 監控 | $217.44 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Get insights into the dow jones index performance on Monday. Explore the top gai
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-01 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 09:03 HKT*
