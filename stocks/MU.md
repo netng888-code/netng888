@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-09-02 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-02 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today: Nasdaq, Dow Slide As Oil Prices Spike; Shell, Exxon Get A Boost (Live Coverage)](https://finnhub.io/api/news?id=51166aebf25efdd52d11d94574d5a9c466aac3e2269a0cce2fd962bbe3657f63)**  
-*Yahoo · 5h前*  
+- **[The 3 Best Artificial Intelligence (AI) Stocks for September](https://finnhub.io/api/news?id=04d9bda988e6249f35bfc2bdcc5c7016f3a0aabfb9fd325e7bd6b651220cd01c)**  
+*Yahoo · 10h前*  
+Nvidia, Amazon, and Micron still look like genius buys.
+
+- **[Stock Market Today: Nasdaq Ends Lower As Oil Prices Top $90; Micron, Nvidia Shares Wrapped in Red](https://finnhub.io/api/news?id=ba4f199fd80d2a22bbae5c9c4ab511f42ad9f66192efbb4fd025f9306e118430)**  
+*Yahoo · 15h前*  
 Stock Market Today: The Dow Jones index sinks Tuesday as oil prices jump around 5% on news of new U.S. military attacks on Iran.
 
-- **[Michael Burry's Biggest AI Bets Take Surprising Turn](https://finnhub.io/api/news?id=b665677de61c45b823f956c75a4c2a44c1fd4bd4704731dd8ac6e838d1a9a2c8)**  
-*Yahoo · 6h前*  
-Being early proved costly as AI stocks kept climbing
-
-- **[Micron Rises Despite Potential Strike, Trades 53.67% Above GF Value](https://finnhub.io/api/news?id=4435e23c4f1ef1b220b3e66bee31330fae371c57660a1617fbf96f6752933bca)**  
-*Yahoo · 6h前*  
-Nearly 10,000 Taiwanese workers are seeking larger bonuses as unions consider industrial action at Micron's biggest manufacturing base.
+- **[Micron Stock Drops as Nearly 10,000 Taiwan Workers Push for Strike](https://finnhub.io/api/news?id=be986cf88cb9c75a40a54d8390de19aced069b30c30465646c6f1e78de0f59d9)**  
+*Yahoo · 15h前*  
+Micron Stock Falls as Taiwan Unions Demand Bigger Bonuses and Profit Share
 
 ---
 
@@ -59,4 +59,4 @@ Nearly 10,000 Taiwanese workers are seeking larger bonuses as unions consider in
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-02 21:03 HKT*
