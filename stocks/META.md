@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$578.54** |
-| 今日變動 | ▲ $6.20　(+1.08%) |
+| 現價 | **$592.85** |
+| 今日變動 | ▲ $14.31　(+2.47%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $83　(▼4.6%) |
+| 未實現盈虧 | ▼ $40　(▼2.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $565.24 | — |
-| Put Wall（支撐） | $550.00 | -4.9% |
-| Call Wall（阻力） | $750.00 | +29.6% |
+| Gamma Flip | $566.94 | — |
+| Put Wall（支撐） | $550.00 | -7.2% |
+| Call Wall（阻力） | $750.00 | +26.5% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Reddit: Rapid Earnings Growth With Room For An AI Expansion](https://finnhub.io/api/news?id=7d044cfab9df71d5edffac9bf6dedfb80dc254cef0d8f54aa31a4caa0cbc6892)**  
-*SeekingAlpha · 5h前*  
-Reddit has a fair value of $230, implying 50% upside from current levels, based on robust earnings growth and margin expansion. See why RDDT stock is a Buy.
+- **[Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Thursday; Snowflake to Advance, Broadcom to Decline](https://finnhub.io/api/news?id=6961cd37cb81f997ef8b51b82ca4c9e96b19c9a7357046bef8d1797113b94246)**  
+*Yahoo · 2h前*  
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Thursday'
 
-- **[Solar Power Purchase Contracts Dominate First Half Of 2026](https://finnhub.io/api/news?id=12b56c2544e78ad4107be332cda8c5981e000ea63d2beda30798652b025ebbfb)**  
-*SeekingAlpha · 8h前*  
-While the year began with several notable nuclear agreements, solar power remained the clean energy source of choice in the US during the first half of 2026. Re…
+- **[Meta Platforms May Have Escaped the Worst of a Landmark Teen-Safety Lawsuit. But the Ramifications Could Be Much Worse for Snap.](https://finnhub.io/api/news?id=9106503458df4279c4da3ef5d524841a873e050adc520803882f957859ca9cbf)**  
+*Yahoo · 3h前*  
+Meta Platforms will pay up to $18 billion and significantly overhaul its teen-usage policies across its platforms.
 
-- **[OCBC, Visa and Doxa deploy Singapore's first deep-tier financing solution to strengthen cashflow for the construction sector](https://finnhub.io/api/news?id=5fd35a31e9bc2e8c59d5e0d0aec1f7fa30a1bc864fc3309a8909ae833bcd5af7)**  
-*Yahoo · 9h前*  
-OCBC, Visa and Doxa have deployed Singapore's first deep-tier financing solution through the Doxa Connex platform, expanding access to working capital for subco…
+- **[AGIX Vs. CHAT: I'm Buying The Loser](https://finnhub.io/api/news?id=7861a469391d2e4332d86912e29f5d04d1349175d52c37120bddef2dcf2ca53f)**  
+*SeekingAlpha · 9h前*  
+AGIX and CHAT offer broad AI ecosystem exposure but differ in holdings and risk profiles. Read why I lean on AGIX ETF despite the fee and the performance gap.
 
 ---
 
@@ -48,7 +48,7 @@ OCBC, Visa and Doxa have deployed Singapore's first deep-tier financing solution
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-02 | 監控 | $578.54 | — | 自動更新 |
+| 2026-09-03 | 監控 | $592.85 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ OCBC, Visa and Doxa have deployed Singapore's first deep-tier financing solution
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
