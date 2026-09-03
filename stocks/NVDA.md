@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-02 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$217.44** |
-| 今日變動 | ▼ $3.34　(-1.51%) |
+| 現價 | **$224.41** |
+| 今日變動 | ▲ $6.97　(+3.21%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $573　(▲35.8%) |
+| 未實現盈虧 | ▲ $643　(▲40.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $208.35 | — |
-| Put Wall（支撐） | $200.00 | -8.0% |
-| Call Wall（阻力） | $220.00 | +1.2% |
+| Gamma Flip | $207.93 | — |
+| Put Wall（支撐） | $220.00 | -2.0% |
+| Call Wall（阻力） | $230.00 | +2.5% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[NVIDIA (NASDAQ:NVDA) Screens as High-Growth Trend Template Stock](https://finnhub.io/api/news?id=ee5c5fb26a7102f5dbf51777e02b983bc2934165770b4dd9cf7a16eed03bc924)**  
-*ChartMill · 2h前*  
-NVIDIA clears Mark Minervini's Trend Template with high-growth momentum: strong technicals, accelerating earnings and sales. A leading stock candidate.
+- **[Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy](https://finnhub.io/api/news?id=2b841c03994bdbeaf8a4f9d29cd333752a1fd60a9a87c9844aa5170f19069119)**  
+*Yahoo · 3h前*  
+Broadcom (AVGO) reported third quarter earnings results that modestly beat Wall Street's estimates. StoneX Financial equity research analyst Cody Acree shares h…
 
-- **[Iran Strikes Send Oil to $95 as Rate Fears Redden Wall Street, Dell's AI Server Blowout Steals the After-Hours](https://finnhub.io/api/news?id=a97439f0189a7516ff3b930f948e9ec02921a81d1a1a758e7724404b8bde1d67)**  
-*ChartMill · 6h前*  
-Renewed US strikes on Iran pushed crude 5% higher to $95 and drove the ten-year yield to 4.79%, dragging chips and megacap tech into the red. After the close, D…
+- **[Why Sirius XM Holdings Rallied Today](https://finnhub.io/api/news?id=492908384474cc99c9c5c0944461207dbc3484b917b4873a138fc7d818f73731)**  
+*Yahoo · 3h前*  
+A Wall Street analyst likes the satellite radio company's advertising opportunity.
 
-- **[CoreWeave's Interest Expense Hit $640 Million Last Quarter, 2.4 Times What It Was a Year Ago](https://finnhub.io/api/news?id=33cf4edd66012e565663aaaa76c07b18c7a32e0bcaaa9e7857c598561c650825)**  
-*Yahoo · 9h前*  
-The AI cloud provider's borrowing rate fell over the past year. The bill got bigger anyway -- and it isn't done growing.
+- **[Where Will IonQ Stock Be in 1 Year?](https://finnhub.io/api/news?id=04436c89f131375ad1896b7994c2c51452cfa341baca02f137167706af8f9f39)**  
+*Yahoo · 3h前*  
+There are a lot of moving parts at IonQ, but it might take a while for the stock to gain new traction.
 
 ---
 
@@ -48,7 +48,7 @@ The AI cloud provider's borrowing rate fell over the past year. The bill got big
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-02 | 監控 | $217.44 | — | 自動更新 |
+| 2026-09-03 | 監控 | $224.41 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The AI cloud provider's borrowing rate fell over the past year. The bill got big
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 09:04 HKT*
