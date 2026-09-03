@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-02 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$335.02** |
-| 今日變動 | ▼ $4.33　(-1.28%) |
+| 現價 | **$337.12** |
+| 今日變動 | ▲ $2.10　(+0.63%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $1,879　(▲87.8%) |
+| 未實現盈虧 | ▲ $1,905　(▲89.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $336.82 | — |
-| Put Wall（支撐） | $330.00 | -1.5% |
-| Call Wall（阻力） | $350.00 | +4.5% |
+| Gamma Flip | $334.85 | — |
+| Put Wall（支撐） | $330.00 | -2.1% |
+| Call Wall（阻力） | $340.00 | +0.9% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Fervo Energy's Google Deal Might Be The Proof Bears Needed To See](https://finnhub.io/api/news?id=2a954d4bfcf4a3bc3355fd2f1f0a18d3c1a94fac32fd2de7a0779b89c9bef683)**  
-*SeekingAlpha · 5h前*  
-Fervo Energy secures a landmark deal with Google, validating enhanced geothermal as a viable baseload for hyperscaler data centers. Read why FRVO stock is a buy…
+- **[Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy](https://finnhub.io/api/news?id=2b841c03994bdbeaf8a4f9d29cd333752a1fd60a9a87c9844aa5170f19069119)**  
+*Yahoo · 3h前*  
+Broadcom (AVGO) reported third quarter earnings results that modestly beat Wall Street's estimates. StoneX Financial equity research analyst Cody Acree shares h…
 
-- **[Solar Power Purchase Contracts Dominate First Half Of 2026](https://finnhub.io/api/news?id=12b56c2544e78ad4107be332cda8c5981e000ea63d2beda30798652b025ebbfb)**  
-*SeekingAlpha · 8h前*  
-While the year began with several notable nuclear agreements, solar power remained the clean energy source of choice in the US during the first half of 2026. Re…
+- **[Broadcom Q3 FY2026 earnings: Record revenue on AI chip demand](https://finnhub.io/api/news?id=843481624f0f311bd97eb4eb6b949072f718ead3bb8acf7033e149572dc51165)**  
+*Yahoo · 3h前*  
+The chipmaker's semiconductor solutions segment more than doubled year over year, driven by custom AI accelerator demand
 
-- **[Why Fervo Energy Stock Skyrocketed Today](https://finnhub.io/api/news?id=adc4a33be37ec958815907262a774d41f37f1f8c18d72eeca30d35ed7d533cc6)**  
-*Yahoo · 10h前*  
-A blockbuster deal with an AI colossus has investors excited.
+- **[3 Mega-Cap Stocks to Consider Right Now](https://finnhub.io/api/news?id=0a57442769e5267b768e447f2905138064ff4cfa80a1e7192c7c5381d5e3e7f9)**  
+*Yahoo · 3h前*  
+“Too big to fail” is how we would describe the megacap stocks in this article today. While they will likely stand the test of time, it’s not all sunshine and ra…
 
 ---
 
@@ -48,7 +48,7 @@ A blockbuster deal with an AI colossus has investors excited.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-02 | 監控 | $335.02 | — | 自動更新 |
+| 2026-09-03 | 監控 | $337.12 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A blockbuster deal with an AI colossus has investors excited.
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 09:04 HKT*
