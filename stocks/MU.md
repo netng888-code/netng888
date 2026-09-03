@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-09-03 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[GitLab Q2 Earnings Beat on Revenue Growth and Sales Productivity](https://finnhub.io/api/news?id=1e4ffbeb4fc93c76bf82362d5e2f7e0785b0e3795667075521eb535cb87850d3)**  
-*Yahoo · 6h前*  
-GTLB's fiscal Q2 revenues increase 21.3% as customer expansion, sales productivity, and AI product traction support growth.
+- **[Semiconductor Market Splits as AI Heavyweights Mask a Broad Chip Selloff](https://finnhub.io/api/news?id=287c31428601e0f36560db5f3271591b320e73e9b22ab8efc6205f27f05e2b8e)**  
+*ChartMill · 0h前*  
+Semiconductor stocks show sharp divergence: AI-driven leaders like Nvidia and Micron outperform while the average chip stock falls.
 
-- **[AI Capital Spending Could Top $31 Trillion as Tech Expansion Accelerates](https://finnhub.io/api/news?id=5dbff0b15d2bfda13ad1c1ae39cf8ca0e143dac529eacac8df8b4104d567b539)**  
-*Yahoo · 7h前*  
-PwC sees the AI buildout topping a cumulative $31 trillion globally by 2050. That’s about the size of the U.S. economy.
+- **[A Once-in-a-Lifetime Investment Opportunity: The 3 Best Stocks to Take Advantage of the AI Build-Out](https://finnhub.io/api/news?id=4215c7068da570b9902c8b5e503396cbd349b2c8d75f1d68a591b7cbd1f570ad)**  
+*Yahoo · 2h前*  
+The AI build-out is still going strong, and these three stocks are a great way to cash in.
 
-- **[Micron Rises as Taiwan Workers Demand 15% Profit Pool](https://finnhub.io/api/news?id=dcc37dfef08b86e373133c9e4c2f92d23f7ee9ea3758468a28519f66b679c373)**  
-*Yahoo · 7h前*  
-A threatened strike turns record AI-memory profits into a compensation and supply-continuity test.
+- **[Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Thursday; Snowflake to Advance, Broadcom to Decline](https://finnhub.io/api/news?id=6961cd37cb81f997ef8b51b82ca4c9e96b19c9a7357046bef8d1797113b94246)**  
+*Yahoo · 2h前*  
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Thursday'
 
 ---
 
@@ -59,4 +59,4 @@ A threatened strike turns record AI-memory profits into a compensation and suppl
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
