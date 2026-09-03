@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$369.25** |
-| 今日變動 | ▼ $7.61　(-2.02%) |
+| 現價 | **$371.88** |
+| 今日變動 | ▲ $2.63　(+0.71%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $168　(▼18.5%) |
+| 未實現盈虧 | ▼ $162　(▼17.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $385.49 | — |
-| Put Wall（支撐） | $350.00 | -5.2% |
-| Call Wall（阻力） | $400.00 | +8.3% |
+| Gamma Flip | $385.24 | — |
+| Put Wall（支撐） | $350.00 | -5.9% |
+| Call Wall（阻力） | $400.00 | +7.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[How Investors Are Reacting To Merit Medical Systems (MMSI) New Global Operations Leadership Transition](https://finnhub.io/api/news?id=afa65034f7579432b1d57502c780d52f8dd164c949fe1c6d378dc4be79a5acc5)**  
-*Yahoo · 10h前*  
-In August 2026, Merit Medical Systems announced that Sheri Lewis would join as Executive Vice President of Global Operations, bringing three decades of global m…
+- **[ISRG Stock: The Best House On The Block Costs The Most](https://finnhub.io/api/news?id=2b3549b7f8cb8125eb4f126f266bc4f7b1ff45999bedafe3fbd3f7d0c3d75f3e)**  
+*Yahoo · 16h前*  
+In the world of robotic surgery, one company is both the undisputed leader and the most expensive option, forcing investors to ask if operational excellence is …
 
-- **[Zentek Approved for Trading on the OTCQX Best Market](https://finnhub.io/api/news?id=c570bd23c058b035d332a00ebe305036a196042744618ec3070b47a97d47c8e9)**  
-*Yahoo · 13h前*  
-Common shares to trade in the U.S. under new ticker ZTEKF beginning September 2, 2026Guelph, Ontario--(Newsfile Corp. - September 1, 2026) - Zentek Ltd. (TSXV: …
+- **[Protean Funds Scandinavia AB August 2026 Partner Letter](https://finnhub.io/api/news?id=a6f6ec2c65e326fc347e7b4ccbce5a26e16c41b5e52e33603b96899d02c71fc8)**  
+*SeekingAlpha · 16h前*  
+Protean Small Cap returned 4.7% in August, outperforming its benchmark index by 0.3%. Since launching in August 2023, the fund has gained 89.8%.
 
-- **[These 2 Stocks Hit New Milestones Today – What’s Driving Retail Enthusiasm?](https://finnhub.io/api/news?id=cec7707db82b718729f8ebeef46623489c71cc056c8de0942f562e097c8b1930)**  
-*Yahoo · 17h前*  
-MiniMed’s first-quarter sales rose 17% to $843 million, while BTIG upgraded Tidewater to ‘Buy’ from ‘Neutral’.
+- **[PAHC or LMAT: Which Is the Better Value Stock Right Now?](https://finnhub.io/api/news?id=6b00a4516b3e19a233746fe9980cd764aa349b0f4f071857b1142b66c92d7560)**  
+*Yahoo · 20h前*  
+PAHC vs. LMAT: Which Stock Is the Better Value Option?
 
 ---
 
@@ -48,7 +48,7 @@ MiniMed’s first-quarter sales rose 17% to $843 million, while BTIG upgraded Ti
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-02 | 監控 | $369.25 | — | 自動更新 |
+| 2026-09-03 | 監控 | $371.88 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ MiniMed’s first-quarter sales rose 17% to $843 million, while BTIG upgraded Ti
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 21:05 HKT*
