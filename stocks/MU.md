@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-09-02 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$933.44** |
-| 今日變動 | ▼ $25.29　(-2.64%) |
+| 現價 | **$956.08** |
+| 今日變動 | ▲ $22.64　(+2.43%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $376　(▲67.3%) |
+| 未實現盈虧 | ▲ $398　(▲71.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $915.75 | — |
-| Put Wall（支撐） | $900.00 | -3.6% |
-| Call Wall（阻力） | $1,000.00 | +7.1% |
+| Gamma Flip | $912.96 | — |
+| Put Wall（支撐） | $900.00 | -5.9% |
+| Call Wall（阻力） | $1,000.00 | +4.6% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[The 3 Best Artificial Intelligence (AI) Stocks for September](https://finnhub.io/api/news?id=04d9bda988e6249f35bfc2bdcc5c7016f3a0aabfb9fd325e7bd6b651220cd01c)**  
-*Yahoo · 10h前*  
-Nvidia, Amazon, and Micron still look like genius buys.
+- **[GitLab Q2 Earnings Beat on Revenue Growth and Sales Productivity](https://finnhub.io/api/news?id=1e4ffbeb4fc93c76bf82362d5e2f7e0785b0e3795667075521eb535cb87850d3)**  
+*Yahoo · 6h前*  
+GTLB's fiscal Q2 revenues increase 21.3% as customer expansion, sales productivity, and AI product traction support growth.
 
-- **[Stock Market Today: Nasdaq Ends Lower As Oil Prices Top $90; Micron, Nvidia Shares Wrapped in Red](https://finnhub.io/api/news?id=ba4f199fd80d2a22bbae5c9c4ab511f42ad9f66192efbb4fd025f9306e118430)**  
-*Yahoo · 15h前*  
-Stock Market Today: The Dow Jones index sinks Tuesday as oil prices jump around 5% on news of new U.S. military attacks on Iran.
+- **[AI Capital Spending Could Top $31 Trillion as Tech Expansion Accelerates](https://finnhub.io/api/news?id=5dbff0b15d2bfda13ad1c1ae39cf8ca0e143dac529eacac8df8b4104d567b539)**  
+*Yahoo · 7h前*  
+PwC sees the AI buildout topping a cumulative $31 trillion globally by 2050. That’s about the size of the U.S. economy.
 
-- **[Micron Stock Drops as Nearly 10,000 Taiwan Workers Push for Strike](https://finnhub.io/api/news?id=be986cf88cb9c75a40a54d8390de19aced069b30c30465646c6f1e78de0f59d9)**  
-*Yahoo · 15h前*  
-Micron Stock Falls as Taiwan Unions Demand Bigger Bonuses and Profit Share
+- **[Micron Rises as Taiwan Workers Demand 15% Profit Pool](https://finnhub.io/api/news?id=dcc37dfef08b86e373133c9e4c2f92d23f7ee9ea3758468a28519f66b679c373)**  
+*Yahoo · 7h前*  
+A threatened strike turns record AI-memory profits into a compensation and supply-continuity test.
 
 ---
 
@@ -48,7 +48,7 @@ Micron Stock Falls as Taiwan Unions Demand Bigger Bonuses and Profit Share
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-02 | 監控 | $933.44 | — | 自動更新 |
+| 2026-09-03 | 監控 | $956.08 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Micron Stock Falls as Taiwan Unions Demand Bigger Bonuses and Profit Share
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 09:04 HKT*
