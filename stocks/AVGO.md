@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-02 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$369.68** |
-| 今日變動 | ▼ $0.66　(-0.18%) |
+| 現價 | **$367.24** |
+| 今日變動 | ▼ $2.44　(-0.66%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $61　(▼1.6%) |
+| 未實現盈虧 | ▼ $85　(▼2.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $375.01 | — |
-| Put Wall（支撐） | $350.00 | -5.3% |
-| Call Wall（阻力） | $400.00 | +8.2% |
+| Gamma Flip | $373.49 | — |
+| Put Wall（支撐） | $350.00 | -4.7% |
+| Call Wall（阻力） | $400.00 | +8.9% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Review & Preview: September Blues](https://finnhub.io/api/news?id=bb8b39ecb39dbca90c3ec3faf89128b1d62253652bc863d0d3ce22e899db6fd4)**  
-*Yahoo · 12h前*  
-REVIEW PREVIEW NEWSLETTER Feeling the Chill. It’s a new month, and suddenly investors have fresh worries about old problems like interest rates, the bond market…
+- **[Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy](https://finnhub.io/api/news?id=2b841c03994bdbeaf8a4f9d29cd333752a1fd60a9a87c9844aa5170f19069119)**  
+*Yahoo · 3h前*  
+Broadcom (AVGO) reported third quarter earnings results that modestly beat Wall Street's estimates. StoneX Financial equity research analyst Cody Acree shares h…
 
-- **[Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking](https://finnhub.io/api/news?id=354222f8f27a0f2f4173d2755df785fe2c4fb2ea51cf8b15069ad1f5b66fc779)**  
-*Yahoo · 12h前*  
-Nvidia landed at No. 76 ranking in the Roundtable 100, with an unlikely candidate topping the list.
+- **[Broadcom Q3 FY2026 earnings: Record revenue on AI chip demand](https://finnhub.io/api/news?id=843481624f0f311bd97eb4eb6b949072f718ead3bb8acf7033e149572dc51165)**  
+*Yahoo · 3h前*  
+The chipmaker's semiconductor solutions segment more than doubled year over year, driven by custom AI accelerator demand
 
-- **[Broadcom's earnings loom, but this reveal came first](https://finnhub.io/api/news?id=dc6e0ae547bdf6114e220c7ddfa53b2c545e4a8f85c3b6e4f6c5d519bd003d1b)**  
-*Yahoo · 13h前*  
-Days before its Q3 report, Broadcom made a move that could matter more than the headline numbers.
+- **[Broadcom Beats Third-Quarter Estimates on Strong AI Chip Sales](https://finnhub.io/api/news?id=26bb6fc1ff3d69d8cdbffafc30d4b995331b2f895e8d70dfa4ed3e3544ab480b)**  
+*Yahoo · 3h前*  
+Broadcom's (AVGO) fiscal third-quarter results topped Wall Street estimates, driven by a surge in ar
 
 ---
 
@@ -48,7 +48,7 @@ Days before its Q3 report, Broadcom made a move that could matter more than the 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-02 | 監控 | $369.68 | — | 自動更新 |
+| 2026-09-03 | 監控 | $367.24 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Days before its Q3 report, Broadcom made a move that could matter more than the 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 09:04 HKT*
