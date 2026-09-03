@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$255.97** |
-| 今日變動 | ▼ $2.75　(-1.06%) |
+| 現價 | **$256.70** |
+| 今日變動 | ▲ $0.73　(+0.29%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $96　(▼15.7%) |
+| 未實現盈虧 | ▼ $94　(▼15.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $262.13 | — |
-| Put Wall（支撐） | $240.00 | -6.2% |
-| Call Wall（阻力） | $260.00 | +1.6% |
+| Gamma Flip | $261.17 | — |
+| Put Wall（支撐） | $240.00 | -6.5% |
+| Call Wall（阻力） | $260.00 | +1.3% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Top 3 Defensive Stocks To Watch In September 2026](https://finnhub.io/api/news?id=c04244de8bae54c8199d1780da7b8e38a9db9d2d4b73519e10bfa6744a66fd19)**  
-*Yahoo · 9h前*  
-European government bond yields have climbed to multi year highs as investors price in higher policy rates for longer. That kind of backdrop often punishes weak…
+- **[Vertiv Holdings: The Market Is Making The Same Mistake Twice, Still A Buy](https://finnhub.io/api/news?id=e16fa2b1ec2eaee6fbd4afa18f78bc2917dea8d088050c80a63cb64a5dce463a)**  
+*SeekingAlpha · 4h前*  
+Vertiv (VRT) Q2 2026: 60% EPS growth, raised guidance, NVIDIA integration and booming demand despite a sell-off.
 
-- **[3 AI Stocks With At Least 18% Earnings Growth](https://finnhub.io/api/news?id=3515f6cab8ec7e38289a44bc15d715e63f34fe32f26c7091ecdee5dcc75dc6ec)**  
-*Yahoo · 11h前*  
-Bond market volatility has pushed government yields in major economies to multi year highs, which keeps borrowing costs in focus for every sector. At the same t…
+- **[Vertiv: Filter Out The Noise, This Is A Golden Opportunity](https://finnhub.io/api/news?id=a4f57a79a80e9e821cc6fe51af55ede3c2e8a8e14d09f97e9370450576afacc2)**  
+*SeekingAlpha · 5h前*  
+Vertiv remains a buy after pullback: AI infrastructure tailwinds, raised guidance, margin gains, and acquisitions improve upside. See more on VRT stock here.
 
-- **[Vertiv Plunges 20% in Three Months: Buy, Sell, or Hold the Stock?](https://finnhub.io/api/news?id=c9db9de0ff561d65a80734e72973f800ad504977e91ff37bc5af5516498a7867)**  
-*Yahoo · 18h前*  
-VRT's AI infrastructure demand, margin gains, and upbeat outlook support growth, but execution risks, supply-chain volatility, and premium valuation remain risk…
+- **[Vertiv Just Made an Up to $2.6 Billion Bet to Solve AI Data Centers' Biggest Bottleneck](https://finnhub.io/api/news?id=cc78d5f06cef09bc52e8b32687c4fd5244354883743471487d85f16fe988907e)**  
+*Yahoo · 6h前*  
+Vertiv is expanding beyond the building shell to help connect data centers to power more quickly.
 
 ---
 
@@ -48,7 +48,7 @@ VRT's AI infrastructure demand, margin gains, and upbeat outlook support growth,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-02 | 監控 | $255.97 | — | 自動更新 |
+| 2026-09-03 | 監控 | $256.70 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ VRT's AI infrastructure demand, margin gains, and upbeat outlook support growth,
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 21:05 HKT*
