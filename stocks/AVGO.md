@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-03 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy](https://finnhub.io/api/news?id=2b841c03994bdbeaf8a4f9d29cd333752a1fd60a9a87c9844aa5170f19069119)**  
-*Yahoo · 3h前*  
-Broadcom (AVGO) reported third quarter earnings results that modestly beat Wall Street's estimates. StoneX Financial equity research analyst Cody Acree shares h…
+- **[These S&P500 stocks are moving in today's pre-market session](https://finnhub.io/api/news?id=2dd7d4483cd4f670e119da44d572bf1091418e7f41588bec2d25cfe69ad8e822)**  
+*ChartMill · 0h前*  
+The US market is yet to commence its session on Thursday, but let's get a preview of the pre-market session and explore the top S&P500 gainers and losers drivin…
 
-- **[Broadcom Q3 FY2026 earnings: Record revenue on AI chip demand](https://finnhub.io/api/news?id=843481624f0f311bd97eb4eb6b949072f718ead3bb8acf7033e149572dc51165)**  
-*Yahoo · 3h前*  
-The chipmaker's semiconductor solutions segment more than doubled year over year, driven by custom AI accelerator demand
+- **[Dow Jones Futures Rise, Oil Prices Keep Climbing; Snowflake, Victoria's Secret Are Big Movers With Tesla Cybercab Event Due](https://finnhub.io/api/news?id=251477642f7c961dea822eff5f1bff23fafb7bad2d17b2ca06df6f75b92110dd)**  
+*Yahoo · 1h前*  
+The stock market rose modestly Wednesday. Snowflake surged late on earnings while Broadcom and HPE fell. A Tesla Cybercab event looms.
 
-- **[Broadcom Beats Third-Quarter Estimates on Strong AI Chip Sales](https://finnhub.io/api/news?id=26bb6fc1ff3d69d8cdbffafc30d4b995331b2f895e8d70dfa4ed3e3544ab480b)**  
-*Yahoo · 3h前*  
-Broadcom's (AVGO) fiscal third-quarter results topped Wall Street estimates, driven by a surge in ar
+- **[Broadcom and Snowflake Perfectly Sum Up the AI Trade](https://finnhub.io/api/news?id=602f38b4d42f6b0ded7f7f587a3ebdaf62281ded3983f17e039518fb1605fb2b)**  
+*Yahoo · 1h前*  
+Stock futures fall, Broadcom beat forecasts for AI Chip sales growth, Micron and China chip makers fight for market share.
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom's (AVGO) fiscal third-quarter results topped Wall Street estimates, dri
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
