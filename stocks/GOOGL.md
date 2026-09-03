@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-03 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy](https://finnhub.io/api/news?id=2b841c03994bdbeaf8a4f9d29cd333752a1fd60a9a87c9844aa5170f19069119)**  
-*Yahoo · 3h前*  
-Broadcom (AVGO) reported third quarter earnings results that modestly beat Wall Street's estimates. StoneX Financial equity research analyst Cody Acree shares h…
+- **[Google launches Gemini 3.8 Flash coding model, dodges AdX breakup](https://finnhub.io/api/news?id=bc8f78d8922fbf9429d664aaf5b2f7d0f6287046fc8688892c0af958ce32fe86)**  
+*Yahoo · 1h前*  
+A federal judge rejected the DOJ's push to force Google to sell AdX, the same day Alphabet unveiled its third Flash AI model in six weeks
 
-- **[Broadcom Q3 FY2026 earnings: Record revenue on AI chip demand](https://finnhub.io/api/news?id=843481624f0f311bd97eb4eb6b949072f718ead3bb8acf7033e149572dc51165)**  
-*Yahoo · 3h前*  
-The chipmaker's semiconductor solutions segment more than doubled year over year, driven by custom AI accelerator demand
+- **[Broadcom and Snowflake Perfectly Sum Up the AI Trade](https://finnhub.io/api/news?id=602f38b4d42f6b0ded7f7f587a3ebdaf62281ded3983f17e039518fb1605fb2b)**  
+*Yahoo · 1h前*  
+Stock futures fall, Broadcom beat forecasts for AI Chip sales growth, Micron and China chip makers fight for market share.
 
-- **[3 Mega-Cap Stocks to Consider Right Now](https://finnhub.io/api/news?id=0a57442769e5267b768e447f2905138064ff4cfa80a1e7192c7c5381d5e3e7f9)**  
-*Yahoo · 3h前*  
-“Too big to fail” is how we would describe the megacap stocks in this article today. While they will likely stand the test of time, it’s not all sunshine and ra…
+- **[MN8, Google and Eos launch clean energy project in West Virginia](https://finnhub.io/api/news?id=e3a6d2391b46aa3a9b897e3dedcb8bfaa15582c01af8f41b6bb95e1ee2235f42)**  
+*Yahoo · 1h前*  
+The facility, which is planned to support Google’s data centres in the area, will combine solar and advanced energy storage.
 
 ---
 
@@ -59,4 +59,4 @@ The chipmaker's semiconductor solutions segment more than doubled year over year
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
