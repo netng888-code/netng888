@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-03 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy](https://finnhub.io/api/news?id=2b841c03994bdbeaf8a4f9d29cd333752a1fd60a9a87c9844aa5170f19069119)**  
-*Yahoo · 3h前*  
-Broadcom (AVGO) reported third quarter earnings results that modestly beat Wall Street's estimates. StoneX Financial equity research analyst Cody Acree shares h…
+- **[Semiconductor Market Splits as AI Heavyweights Mask a Broad Chip Selloff](https://finnhub.io/api/news?id=287c31428601e0f36560db5f3271591b320e73e9b22ab8efc6205f27f05e2b8e)**  
+*ChartMill · 0h前*  
+Semiconductor stocks show sharp divergence: AI-driven leaders like Nvidia and Micron outperform while the average chip stock falls.
 
-- **[Why Sirius XM Holdings Rallied Today](https://finnhub.io/api/news?id=492908384474cc99c9c5c0944461207dbc3484b917b4873a138fc7d818f73731)**  
-*Yahoo · 3h前*  
-A Wall Street analyst likes the satellite radio company's advertising opportunity.
+- **[SoFi Just Posted Another Quarter of Fast Growth. What Has to Happen Next for the Stock to Follow?](https://finnhub.io/api/news?id=bfe1bd0a58e94d943e1fcde75defa135419376beefcf659f08c9368ee37d8ac8)**  
+*Yahoo · 1h前*  
+This fintech stock trades 45% below its record high reached in November 2025.
 
-- **[Where Will IonQ Stock Be in 1 Year?](https://finnhub.io/api/news?id=04436c89f131375ad1896b7994c2c51452cfa341baca02f137167706af8f9f39)**  
-*Yahoo · 3h前*  
-There are a lot of moving parts at IonQ, but it might take a while for the stock to gain new traction.
+- **[Dow Jones Futures Rise, Oil Prices Keep Climbing; Snowflake, Victoria's Secret Are Big Movers With Tesla Cybercab Event Due](https://finnhub.io/api/news?id=251477642f7c961dea822eff5f1bff23fafb7bad2d17b2ca06df6f75b92110dd)**  
+*Yahoo · 1h前*  
+The stock market rose modestly Wednesday. Snowflake surged late on earnings while Broadcom and HPE fell. A Tesla Cybercab event looms.
 
 ---
 
@@ -59,4 +59,4 @@ There are a lot of moving parts at IonQ, but it might take a while for the stock
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
