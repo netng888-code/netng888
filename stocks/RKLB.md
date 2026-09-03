@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$62.54** |
-| 今日變動 | ▼ $1.38　(-2.16%) |
+| 現價 | **$63.10** |
+| 今日變動 | ▲ $0.56　(+0.90%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $135　(▼17.7%) |
+| 未實現盈虧 | ▼ $129　(▼17.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $68.21 | — |
-| Put Wall（支撐） | $60.00 | -4.1% |
-| Call Wall（阻力） | $70.00 | +11.9% |
+| Gamma Flip | $66.90 | — |
+| Put Wall（支撐） | $60.00 | -4.9% |
+| Call Wall（阻力） | $70.00 | +10.9% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[RKLB Stock Slips After $700M NASA Snub: Cathie Wood Buys The Dip As Retail Blames Neutron Delays](https://finnhub.io/api/news?id=a87f7dde63667e8a385f3b13ac85282ff81d27861b5f83451aef1d0c82f24ea6)**  
-*Yahoo · 10h前*  
-Rocket Lab had proposed an Explorer-based Mars orbiter featuring optical communications and said it felt “strongly positioned” to win.
+- **[RKLB Stock Snaps 3-Day Slide: Investors Shrug Off CFO’s $8.8M Sale As Rocket Lab Scores 94th Launch Win](https://finnhub.io/api/news?id=fd45b5f357d7e447da9a7a6a986dea4c99837597df176ce555882327328df546)**  
+*Yahoo · 11h前*  
+Rocket Lab maintained its perfect Synspective record, with 16 more missions booked through 2030.
 
-- **[Cathie Wood Makes Surprise $51 Million Bet on 2 Growth Stocks](https://finnhub.io/api/news?id=f8a084c11fc572ca03854bc71d087878ef794fdfefdd26b83fc26985a155a0d2)**  
-*Yahoo · 18h前*  
-Two very different growth bets now face major execution tests
+- **[Rocket Lab Gets Bullish Call From Top Bank as Space Market Could Double](https://finnhub.io/api/news?id=4aad4718bf1b38025310e6200b99a7e96c677e5a21eb44c8d0c916c8f4cc03fb)**  
+*Yahoo · 15h前*  
+Berenberg Turns Bullish on Rocket Lab as Space Industry Races Toward $1 Trillion
 
-- **[Can Rocket Lab's Spacecraft Component Business Support Growth?](https://finnhub.io/api/news?id=8886298c746ae17df38ff3d85aa6a95541d21788c81a4a81806c71e2fafaf141)**  
-*Yahoo · 20h前*  
-RKLB broadens its space system role with spacecraft components spanning reaction wheels, radios, solar solutions and optical systems.
+- **[Rocket Lab Stock Flashes Major Warning Signal](https://finnhub.io/api/news?id=cfbeb7f9be458b01c0619b16e9d0295a84c26e7c0c8db94c385ca37b3c37b5a0)**  
+*Yahoo · 16h前*  
+Weak momentum is colliding with a still-bullish growth story
 
 ---
 
@@ -48,7 +48,7 @@ RKLB broadens its space system role with spacecraft components spanning reaction
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-02 | 監控 | $62.54 | — | 自動更新 |
+| 2026-09-03 | 監控 | $63.10 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ RKLB broadens its space system role with spacecraft components spanning reaction
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-03 21:05 HKT*
