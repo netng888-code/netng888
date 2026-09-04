@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,7 +35,7 @@
 Bullish on URNM: concentrated uranium miners & physical uranium exposure.
 
 - **[XME: The Bull Case Survives The August Rally](https://finnhub.io/api/news?id=f87290852f71ed815273b7d67234dc7951d9c14954ebd5f76e1c8b40ab93f891)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 Explore XME ETFâs shifting metals & mining exposureâsteel, gold, coal vs copperâplus key drivers like gold rally, trade policy, and holdings.
 
 ---
@@ -55,4 +55,4 @@ Explore XME ETFâs shifting metals & mining exposureâsteel, gold, coal 
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
