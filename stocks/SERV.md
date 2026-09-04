@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-09-04 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,7 +30,9 @@
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[Can Serve Robotics' $240M Liquidity Cushion Fund Its Robot Ambitions?](https://finnhub.io/api/news?id=fd9b25630dc18240e3042df45dc8cbf513f3d9e75220afa23c0ea7b5d672bc9e)**  
+*Yahoo · 1d前*  
+SERV has $240.4 million in liquidity, but heavy cash burn and lower revenue guidance raise questions about funding scalable growth.
 
 ---
 
@@ -49,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
