@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$956.08** |
-| 今日變動 | ▲ $22.64　(+2.43%) |
+| 現價 | **$958.16** |
+| 今日變動 | ▲ $2.08　(+0.22%) |
 | 持倉數量 | 1 股 |
 | 平均成本 | $557.857 |
-| 未實現盈虧 | ▲ $398　(▲71.4%) |
+| 未實現盈虧 | ▲ $400　(▲71.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $912.96 | — |
-| Put Wall（支撐） | $900.00 | -5.9% |
-| Call Wall（阻力） | $1,000.00 | +4.6% |
+| Gamma Flip | $918.23 | — |
+| Put Wall（支撐） | $950.00 | -0.9% |
+| Call Wall（阻力） | $1,000.00 | +4.4% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Semiconductor Market Splits as AI Heavyweights Mask a Broad Chip Selloff](https://finnhub.io/api/news?id=287c31428601e0f36560db5f3271591b320e73e9b22ab8efc6205f27f05e2b8e)**  
-*ChartMill · 0h前*  
-Semiconductor stocks show sharp divergence: AI-driven leaders like Nvidia and Micron outperform while the average chip stock falls.
+- **[eGain (EGAN) Q4 Earnings and Revenues Beat Estimates](https://finnhub.io/api/news?id=9d386e9c8548322143120bc5188a56e13a31d6b6dfe65cdd5de6e61362fd669a)**  
+*Yahoo · 3h前*  
+eGain (EGAN) delivered earnings and revenue surprises of +166.67% and +1.84%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what l…
 
-- **[A Once-in-a-Lifetime Investment Opportunity: The 3 Best Stocks to Take Advantage of the AI Build-Out](https://finnhub.io/api/news?id=4215c7068da570b9902c8b5e503396cbd349b2c8d75f1d68a591b7cbd1f570ad)**  
-*Yahoo · 2h前*  
-The AI build-out is still going strong, and these three stocks are a great way to cash in.
+- **[Micron, Nvidia, and the September Effect: What 98 Years of Data Say Investors Should Do](https://finnhub.io/api/news?id=5e3cfd789e6381cb89bf83f0d06994c43992f2b2ba1e410f6c0f8053fc5c76b8)**  
+*Yahoo · 4h前*  
+September can be a tough month for stocks, but for AI investors looking at Micron and Nvidia, this may be a better time to check the fundamentals than to panic …
 
-- **[Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Thursday; Snowflake to Advance, Broadcom to Decline](https://finnhub.io/api/news?id=6961cd37cb81f997ef8b51b82ca4c9e96b19c9a7357046bef8d1797113b94246)**  
-*Yahoo · 2h前*  
-The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Thursday'
+- **[Investor Who Went 30 Years Without a Loss Just Bet $125 Million on Bitcoin](https://finnhub.io/api/news?id=99a5cd9a5a112793b643622eb2bde4dc61b8fab290933dc1e4703db921342c20)**  
+*Yahoo · 6h前*  
+Druckenmiller's family office bought $125.6 million of Bitcoin miners. The bet is down roughly $30 million on paper.
 
 ---
 
@@ -48,7 +48,7 @@ The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed ho
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-03 | 監控 | $956.08 | — | 自動更新 |
+| 2026-09-04 | 監控 | $958.16 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed ho
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 09:03 HKT*
