@@ -1,6 +1,6 @@
 # MU — 美光科技
 
-> 最後更新：2026-09-04 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[eGain (EGAN) Q4 Earnings and Revenues Beat Estimates](https://finnhub.io/api/news?id=9d386e9c8548322143120bc5188a56e13a31d6b6dfe65cdd5de6e61362fd669a)**  
-*Yahoo · 3h前*  
-eGain (EGAN) delivered earnings and revenue surprises of +166.67% and +1.84%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what l…
+- **[Micron Technology (NASDAQ:MU) Makes the Affordable Growth Screen with High Growth and Low Valuation](https://finnhub.io/api/news?id=d3ab64140e44d1553ccd19bbf301009171585008311fa4ff7d8c521a20dcdc46)**  
+*ChartMill · 0h前*  
+Micron Technology (MU) stands out on the Affordable Growth screen, combining strong earnings growth, reasonable valuation, and solid financial health.
 
-- **[Micron, Nvidia, and the September Effect: What 98 Years of Data Say Investors Should Do](https://finnhub.io/api/news?id=5e3cfd789e6381cb89bf83f0d06994c43992f2b2ba1e410f6c0f8053fc5c76b8)**  
-*Yahoo · 4h前*  
-September can be a tough month for stocks, but for AI investors looking at Micron and Nvidia, this may be a better time to check the fundamentals than to panic …
+- **[The AI Boom Is Eating Its Own Margins](https://finnhub.io/api/news?id=b1f7e5b7eede59329c530114bbe353329f68a74d74cdcc0a7f9d1b0032fdc805)**  
+*SeekingAlpha · 4h前*  
+AI-driven memory cost surge is squeezing Nvidia, Broadcom, NetApp & Cisco margins. Click for this look at the sector and where it may be headed.
 
-- **[Investor Who Went 30 Years Without a Loss Just Bet $125 Million on Bitcoin](https://finnhub.io/api/news?id=99a5cd9a5a112793b643622eb2bde4dc61b8fab290933dc1e4703db921342c20)**  
-*Yahoo · 6h前*  
-Druckenmiller's family office bought $125.6 million of Bitcoin miners. The bet is down roughly $30 million on paper.
+- **[Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years?](https://finnhub.io/api/news?id=621e1b678a037049c86a70afcad64cf225bcf14f4a3782849cecd216c92e4ace)**  
+*Yahoo · 7h前*  
+Micron has outperformed Nvidia over the past year, but that could change over the next five.
 
 ---
 
@@ -59,4 +59,4 @@ Druckenmiller's family office bought $125.6 million of Bitcoin miners. The bet i
 - [TradingView](https://www.tradingview.com/chart/?symbol=MU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:03 HKT*
