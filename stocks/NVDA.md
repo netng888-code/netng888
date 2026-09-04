@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$224.41** |
-| 今日變動 | ▲ $6.97　(+3.21%) |
+| 現價 | **$228.45** |
+| 今日變動 | ▲ $4.04　(+1.80%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $643　(▲40.1%) |
+| 未實現盈虧 | ▲ $683　(▲42.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $207.93 | — |
-| Put Wall（支撐） | $220.00 | -2.0% |
-| Call Wall（阻力） | $230.00 | +2.5% |
+| Gamma Flip | $210.27 | — |
+| Put Wall（支撐） | $220.00 | -3.7% |
+| Call Wall（阻力） | $230.00 | +0.7% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Semiconductor Market Splits as AI Heavyweights Mask a Broad Chip Selloff](https://finnhub.io/api/news?id=287c31428601e0f36560db5f3271591b320e73e9b22ab8efc6205f27f05e2b8e)**  
-*ChartMill · 0h前*  
-Semiconductor stocks show sharp divergence: AI-driven leaders like Nvidia and Micron outperform while the average chip stock falls.
-
-- **[SoFi Just Posted Another Quarter of Fast Growth. What Has to Happen Next for the Stock to Follow?](https://finnhub.io/api/news?id=bfe1bd0a58e94d943e1fcde75defa135419376beefcf659f08c9368ee37d8ac8)**  
+- **[Why Phreesia Stock Tumbled Today](https://finnhub.io/api/news?id=6f6b95ddd41d7db72cb8d439272bc0613085809dfd0f853890310c6d8d878386)**  
 *Yahoo · 1h前*  
-This fintech stock trades 45% below its record high reached in November 2025.
+Its latest quarterly earnings were not greeted warmly by Mr. Market.
 
-- **[Dow Jones Futures Rise, Oil Prices Keep Climbing; Snowflake, Victoria's Secret Are Big Movers With Tesla Cybercab Event Due](https://finnhub.io/api/news?id=251477642f7c961dea822eff5f1bff23fafb7bad2d17b2ca06df6f75b92110dd)**  
+- **[Where Will Bitcoin Be in 2030?](https://finnhub.io/api/news?id=6c9d8333a98a1a73abeba102c386a11e8746a088dfb710a28bb25f0741c133c1)**  
 *Yahoo · 1h前*  
-The stock market rose modestly Wednesday. Snowflake surged late on earnings while Broadcom and HPE fell. A Tesla Cybercab event looms.
+In a best-case scenario, Bitcoin could hit a price of $1 million or higher by 2030.
+
+- **[Tesla Officially Launches the Cybercab -- 2 Things Investors Need to Know](https://finnhub.io/api/news?id=88d566a367b8ab121343dd34f6d3c7f3d7e8d8ce5643096f3de4f7eda96e3677)**  
+*Yahoo · 1h前*  
+Tesla's Cybercab event positions the company for robotaxi growth.
 
 ---
 
@@ -48,7 +48,7 @@ The stock market rose modestly Wednesday. Snowflake surged late on earnings whil
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-03 | 監控 | $224.41 | — | 自動更新 |
+| 2026-09-04 | 監控 | $228.45 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The stock market rose modestly Wednesday. Snowflake surged late on earnings whil
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
