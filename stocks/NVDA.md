@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $210.27 | — |
 | Put Wall（支撐） | $220.00 | -3.7% |
-| Call Wall（阻力） | $230.00 | +0.7% |
+| Call Wall（阻力） | $235.00 | +2.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Phreesia Stock Tumbled Today](https://finnhub.io/api/news?id=6f6b95ddd41d7db72cb8d439272bc0613085809dfd0f853890310c6d8d878386)**  
-*Yahoo · 1h前*  
-Its latest quarterly earnings were not greeted warmly by Mr. Market.
+- **[The AI Boom Is Eating Its Own Margins](https://finnhub.io/api/news?id=b1f7e5b7eede59329c530114bbe353329f68a74d74cdcc0a7f9d1b0032fdc805)**  
+*SeekingAlpha · 4h前*  
+AI-driven memory cost surge is squeezing Nvidia, Broadcom, NetApp & Cisco margins. Click for this look at the sector and where it may be headed.
 
-- **[Where Will Bitcoin Be in 2030?](https://finnhub.io/api/news?id=6c9d8333a98a1a73abeba102c386a11e8746a088dfb710a28bb25f0741c133c1)**  
-*Yahoo · 1h前*  
-In a best-case scenario, Bitcoin could hit a price of $1 million or higher by 2030.
+- **[Rare Stock Picks In August 2026 - From 21 Discerning Analysts](https://finnhub.io/api/news?id=03506c0968ac04fef9eca132c9e0a15083a007ee327c051af15b249f8a93f031)**  
+*SeekingAlpha · 5h前*  
+In our monthly Rare Stock Picks series, we're highlighting August 2026 investment picks. Click here for the list of August 2026 Buy recommendations.
 
-- **[Tesla Officially Launches the Cybercab -- 2 Things Investors Need to Know](https://finnhub.io/api/news?id=88d566a367b8ab121343dd34f6d3c7f3d7e8d8ce5643096f3de4f7eda96e3677)**  
-*Yahoo · 1h前*  
-Tesla's Cybercab event positions the company for robotaxi growth.
+- **[Jensen Huang's Latest Deal Is Expensive, But It Strengthens Nvidia's Moat](https://finnhub.io/api/news?id=79b9e122669b546119c5aa2964742647d871d454da62bc1cafcfbd48fffb66e7)**  
+*SeekingAlpha · 5h前*  
+Nvidiaâs $12.93B Hugging Face deal targets AI ecosystem control via 18M developersâmoat building, not earnings. See here for more on NVDA stock.
 
 ---
 
@@ -59,4 +59,4 @@ Tesla's Cybercab event positions the company for robotaxi growth.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
