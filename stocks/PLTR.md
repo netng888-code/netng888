@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$169.46** |
-| 今日變動 | ▼ $10.46　(-5.81%) |
+| 現價 | **$182.53** |
+| 今日變動 | ▲ $13.07　(+7.71%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $316　(▲36.3%) |
+| 未實現盈虧 | ▲ $407　(▲46.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $168.42 | — |
-| Put Wall（支撐） | $170.00 | --0.3% |
-| Call Wall（阻力） | $175.00 | +3.3% |
+| Gamma Flip | $166.37 | — |
+| Put Wall（支撐） | $180.00 | -1.4% |
+| Call Wall（阻力） | $190.00 | +4.1% |
 
 **狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Are Nasdaq, S&P 500 Futures Rising Premarket? TSLA, AVGO, SNOW, HPE, PLTR, LULU Stocks In Focus](https://finnhub.io/api/news?id=e5f39bc962bac2dde06a97ade39c5515e7ee6591fd5ec1c1bbd0d710d55109ef)**  
-*Yahoo · 4h前*  
-Retail sentiment on Stocktwits remained ‘bearish’ on SPY and moderated to ‘neutral’ on QQQ.
+- **[Palantir Technologies, Workiva, Elastic, RingCentral, and 8x8 Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=555dbadae70c77d1248a2b96f9c54a9bc1e2fcacc50289d485f723c397d2c0f4)**  
+*Yahoo · 2h前*  
+A number of stocks jumped in the afternoon session after software equities broadly gained momentum following a pullback in treasury yields and second-quarter fi…
 
-- **[‘Big Short’ Michael Burry Calls Palantir An ‘AI FOMO’ Consultant — Warns Market Cap Could Crash Below $100B](https://finnhub.io/api/news?id=b2c9f1b7bd3d55abe5fd8638e26058c67ed954125391b9cb91a5d2ee5657634c)**  
-*Yahoo · 6h前*  
-Burry also attacked the $17.2 million spent on Karp’s aircraft in 2025, dubbing it the “$17.2 million mile-high club.”
+- **[Palantir Stock Jumps on Expanded PwC AI Deal](https://finnhub.io/api/news?id=d12ad58548d6d49a0e0a7ae303f3b048ae90e2106241a6eb6f161b1b5f83689f)**  
+*Yahoo · 3h前*  
+Palantir Gains on Expanded PwC Deal: AI Push Gets Another Major Boost
 
-- **[Prediction: Here's Where Palantir Stock Will Be in 3 Years](https://finnhub.io/api/news?id=0068ab03a3c18c991e2cdb71aafdd42960c01b8d616d80660aaaa6aa20251f1b)**  
-*Yahoo · 7h前*  
-The data analytics powerhouse has grown rapidly, but too much expected growth is already priced into its stock.
+- **[US Equity Markets End Higher as Expectations Build for Fed to Keep Rates Steady](https://finnhub.io/api/news?id=335b4923c3cedb02008c60623ab1dc23c64367f059df4f601f883c49c488880b)**  
+*Yahoo · 3h前*  
+US equity indexes ended higher Thursday in a broad-based rally amid rising expectations that the Fed
 
 ---
 
@@ -48,7 +48,7 @@ The data analytics powerhouse has grown rapidly, but too much expected growth is
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-03 | 監控 | $169.46 | — | 自動更新 |
+| 2026-09-04 | 監控 | $182.53 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The data analytics powerhouse has grown rapidly, but too much expected growth is
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
