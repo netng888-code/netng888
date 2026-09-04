@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet](https://finnhub.io/api/news?id=d91c654bfd19dedaa097db31f9bc7cb6790ab7b80072442a4369329de1c7e0c3)**  
+*Yahoo · 9h前*  
+The AI software company’s latest consulting tie-up comes as Burry doubles down on his view that Palantir’s valuation and business model face serious risks.
+
+- **[What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?](https://finnhub.io/api/news?id=0499bcfc1adfe33ffa9b4f24e1387385996c5a5f7f3cad2a2a87854da6fef200)**  
+*Yahoo · 11h前*  
+Palantir Technologies (NasdaqGS:PLTR) announced a prime agreement to deliver eight Tactical Intelligence Targeting Access Node (TITAN) ground station systems to…
+
 - **[Palantir Technologies, Workiva, Elastic, RingCentral, and 8x8 Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=555dbadae70c77d1248a2b96f9c54a9bc1e2fcacc50289d485f723c397d2c0f4)**  
-*Yahoo · 2h前*  
+*Yahoo · 14h前*  
 A number of stocks jumped in the afternoon session after software equities broadly gained momentum following a pullback in treasury yields and second-quarter fi…
-
-- **[Palantir Stock Jumps on Expanded PwC AI Deal](https://finnhub.io/api/news?id=d12ad58548d6d49a0e0a7ae303f3b048ae90e2106241a6eb6f161b1b5f83689f)**  
-*Yahoo · 3h前*  
-Palantir Gains on Expanded PwC Deal: AI Push Gets Another Major Boost
-
-- **[US Equity Markets End Higher as Expectations Build for Fed to Keep Rates Steady](https://finnhub.io/api/news?id=335b4923c3cedb02008c60623ab1dc23c64367f059df4f601f883c49c488880b)**  
-*Yahoo · 3h前*  
-US equity indexes ended higher Thursday in a broad-based rally amid rising expectations that the Fed
 
 ---
 
@@ -59,4 +59,4 @@ US equity indexes ended higher Thursday in a broad-based rally amid rising expec
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
