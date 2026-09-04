@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $64.83 | — |
 | Put Wall（支撐） | $60.00 | -6.0% |
-| Call Wall（阻力） | $65.00 | +1.9% |
+| Call Wall（阻力） | $70.00 | +9.7% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[1 Monster Space Stock I'm Watching This Upcoming Earnings Season](https://finnhub.io/api/news?id=5d1517b1a189918beaab8fea5b3b8b21238bbadd24fbf112216122600a0eca01)**  
-*Yahoo · 5h前*  
-Rocket Lab continues to thrive in SpaceX's shadow.
+- **[Is Rocket Lab Stock a Millionaire Maker?](https://finnhub.io/api/news?id=975d7d91577dd96a59ce5a2293dbd12f314a3c72ab1b1b3e3a4a82efc2526a64)**  
+*Yahoo · 8h前*  
+Rocket Lab has some exciting things happening with its launch business, but keep your head out of the clouds.
 
-- **[Iridium CEO Sells Over 9,500 Shares as Rocket Lab Is Poised to Acquire the Company](https://finnhub.io/api/news?id=0c6b4e9a51b9768f2d5716edd63eb5f68abb3bad774393981bd4823e75d41fda)**  
-*Yahoo · 6h前*  
-The insider's sale comes after the stock experienced an impressive 88% one-year return.
+- **[Rocket Lab: Quality Is No Secret, And This Is Why I'm Cautious](https://finnhub.io/api/news?id=80b0edb3f7ce6d457b5f12566865b9cf9990f7596f91f1fe7c1f3927d0c7a056)**  
+*SeekingAlpha · 9h前*  
+Rocket Lab is an exceptional aerospace business with strong execution and a bright long-term future. Read why RKLB stock is a hold.
 
-- **[SpaceX Rises 7% as Starship Test 14 Approaches, Tesla Jumps 7%, Rocket Lab Ticks Up](https://finnhub.io/api/news?id=e405fec6bc74e130fd76a31cef3a26cb9f619a9044fcfb9e2d33cbec48326aa0)**  
-*Yahoo · 7h前*  
-Starship test 14 is close enough to taste, and investors are already crowding into two specific Musk-linked names while the broader space sector barely moves. T…
+- **[RKLB And FLY Investors, Take Note: Planet Labs Flags SpaceX Rideshare Crunch As Smaller Operators Seek Alternatives](https://finnhub.io/api/news?id=0d098e6d561c08add0bc730ac24d878299cc582bd24b5873557b21c9fac5ccee)**  
+*Yahoo · 9h前*  
+Rocket Lab’s Electron offers dedicated launch dates, orbits and mission profiles, unlike shared Falcon 9 rideshare missions.
 
 ---
 
@@ -59,4 +59,4 @@ Starship test 14 is close enough to taste, and investors are already crowding in
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
