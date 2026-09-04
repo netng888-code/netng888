@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$371.88** |
-| 今日變動 | ▲ $2.63　(+0.71%) |
+| 現價 | **$369.83** |
+| 今日變動 | ▼ $2.05　(-0.55%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $162　(▼17.9%) |
+| 未實現盈虧 | ▼ $167　(▼18.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $385.24 | — |
-| Put Wall（支撐） | $350.00 | -5.9% |
-| Call Wall（阻力） | $400.00 | +7.6% |
+| Gamma Flip | $381.64 | — |
+| Put Wall（支撐） | $350.00 | -5.4% |
+| Call Wall（阻力） | $400.00 | +8.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Is TMDX Stock Worth Buying as Growth Meets Rising Margin Pressure?](https://finnhub.io/api/news?id=9cd5058399002add8c16f829d615ea94956b7a7e1135a345ee6d9ecd3e2a37ad)**  
+*Yahoo · 7h前*  
+TransMedics' rapid revenue growth and cheaper valuation face rising margin pressure as heavy investment raises execution risks.
+
+- **[Governments Are Encouraging Industrial Robotic Growth](https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec)**  
+*SeekingAlpha · 8h前*  
+Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risksâread before investing.
+
 - **[ISRG Stock: The Best House On The Block Costs The Most](https://finnhub.io/api/news?id=2b3549b7f8cb8125eb4f126f266bc4f7b1ff45999bedafe3fbd3f7d0c3d75f3e)**  
-*Yahoo · 16h前*  
+*Yahoo · 1d前*  
 In the world of robotic surgery, one company is both the undisputed leader and the most expensive option, forcing investors to ask if operational excellence is …
-
-- **[Protean Funds Scandinavia AB August 2026 Partner Letter](https://finnhub.io/api/news?id=a6f6ec2c65e326fc347e7b4ccbce5a26e16c41b5e52e33603b96899d02c71fc8)**  
-*SeekingAlpha · 16h前*  
-Protean Small Cap returned 4.7% in August, outperforming its benchmark index by 0.3%. Since launching in August 2023, the fund has gained 89.8%.
-
-- **[PAHC or LMAT: Which Is the Better Value Stock Right Now?](https://finnhub.io/api/news?id=6b00a4516b3e19a233746fe9980cd764aa349b0f4f071857b1142b66c92d7560)**  
-*Yahoo · 20h前*  
-PAHC vs. LMAT: Which Stock Is the Better Value Option?
 
 ---
 
@@ -48,7 +48,7 @@ PAHC vs. LMAT: Which Stock Is the Better Value Option?
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-03 | 監控 | $371.88 | — | 自動更新 |
+| 2026-09-04 | 監控 | $369.83 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ PAHC vs. LMAT: Which Stock Is the Better Value Option?
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
