@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-04 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $260.43 | — |
 | Put Wall（支撐） | $240.00 | -10.7% |
-| Call Wall（阻力） | $270.00 | +0.4% |
+| Call Wall（阻力） | $300.00 | +11.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Is This Pullback In Vertiv Stock A Glitch Or A Warning?](https://finnhub.io/api/news?id=f228635d417fc5005db066e76659d9907a2bb6f7fab48988c52328d3a8caa1b7)**  
-*Yahoo · 6h前*  
-The data center infrastructure provider is growing fast, but its stock just hit a rough patch, leaving investors to weigh a powerful history against a pricey pr…
+- **[Vertiv: AI Infrastructure Growth Impressive, Valuation Reflects High-Growth Expectations](https://finnhub.io/api/news?id=d4de9934f88e07a07d202b63fe10d6c14173e2cdef4f3ca3d4813a1df5bb2b0c)**  
+*SeekingAlpha · 5h前*  
+Vertiv Holdings benefits from surging AI data center demand, driving record sales and robust profit growth. Find out why VRT stock is a Hold.
 
-- **[Teradyne Stock Plunges 15% in a Month: Should You Buy the Dip?](https://finnhub.io/api/news?id=de224ec8754df01417fa3681a9c2a172180abb437f149138ae7ee21b4060fea2)**  
-*Yahoo · 7h前*  
-TER stock lost 15.4% in a month, but strong AI data-center demand, UltraFLEXplus growth, and positive third-quarter guidance support its outlook.
+- **[Vertiv Is Putting $1.45 Billion Down for AI Power. Nearly Half the Price Is Contingent.](https://finnhub.io/api/news?id=64c5c3a9a523d7de79c93b8331b2ed673834a4f33a5dbb9db6d819d72db1a69c)**  
+*Yahoo · 8h前*  
+Whether the data center infrastructure supplier pays the full $2.6 billion is up to the company it's buying.
 
-- **[Can VRT's UIG Deal Deepen Its AI Power Edge Over APH & SMCI?](https://finnhub.io/api/news?id=d30cb98c403a70559cf0d33d776e3ab063b9d615bb60f534197c71c22cdf447a)**  
-*Yahoo · 9h前*  
-Vertiv's $1.45B UIG deal adds microgrid and behind-the-meter power capabilities, broadening its AI data-center infrastructure push.
+- **[Why Vertiv (VRT) Stock Is Up Today](https://finnhub.io/api/news?id=dc3072733b7c86e9f32e81665e6c58d68343f20e5a11290a6825194cf0da2dac)**  
+*Yahoo · 11h前*  
+Shares of data center products and services company Vertiv (NYSE:VRT) jumped 4.6% in the afternoon session after the stock continued to rally as the company ann…
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv's $1.45B UIG deal adds microgrid and behind-the-meter power capabilities,
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
