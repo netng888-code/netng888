@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-04 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Eos Energy Enterprises (EOSE) Stock Dropped, So What Is Driving Attention Now?](https://finnhub.io/api/news?id=688f68551e46ca94d9d89fcf743c95c06e30d3e077e66ebe51ac3d1e5ddd611c)**  
-*Yahoo · 1h前*  
-Eos Energy Enterprises (EOSE) drew fresh investor attention after MN8 Energy and Google selected its Z3 zinc based long duration storage for a PJM grid project …
+- **[Liftoff Mobile: A Fine Business, Fair Price, But I Think Smadex Is The Better Trade](https://finnhub.io/api/news?id=0203f9a3e127875e285b5b46ac6cee1229c7429903d047c4977c4d2df8b78602)**  
+*SeekingAlpha · 5h前*  
+Liftoff Mobile's Q2 results beat, but slower growth, a flat Q3 guide, share unlocks & regulation raise risk. Click here to read this LFTO stock update.
 
-- **[Snowflake (SNOW) Stock Soars 16% After Q2 Earnings: Is It Still a Buy?](https://finnhub.io/api/news?id=c780a6e8d681c986341e46c249623dc3e4009a0803b16b3c4aa0c73616f51a7d)**  
-*Yahoo · 2h前*  
-Snowflake stock surged 16% in Thursday's trading session after the cloud-data leader crushed its Q2 expectations yesterday evening and raised its full-year outl…
+- **[Mark Zuckerberg Opposes Federal AI Watchdog in Call With Trump: Report](https://finnhub.io/api/news?id=0a5ac898eab6bbd6b41d4e67bff3068cda9d383fee1fe16906213dde50b04f98)**  
+*Yahoo · 8h前*  
+Meta Platforms Inc. (NASDAQ:META) CEO Mark Zuckerberg reportedly pushed back against a proposed national artificial-intelligence regulator during an August phon…
 
-- **[Should You Buy Reddit Stock Because Its Renewal Risk Is Already Priced In?](https://finnhub.io/api/news?id=938f14789a95c845259a01e18c8aaa49af27fc1d94254cb07136f54afd32a71a)**  
-*Yahoo · 2h前*  
-Reddit (RDDT) stock closed 9.3% higher on Wednesday at $158.10, and the news behind it came from a research desk rather than from Reddit. The argument was that …
+- **[Google’s New Energy Project Gives Eos Energy a Key Technology Validation](https://finnhub.io/api/news?id=72f5e714c5aa2d24dbed13d87ffb75123903fd782aeb4a6e47e94693f8a73584)**  
+*Yahoo · 9h前*  
+MN8 Energy, Eos Energy Enterprises, Inc. (NASDAQ: EOSE), and Alphabet Inc. (NASDAQ:GOOGL)’s Google announced a collaboration on September 2 to deliver new, clea…
 
 ---
 
@@ -59,4 +59,4 @@ Reddit (RDDT) stock closed 9.3% higher on Wednesday at $158.10, and the news beh
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:03 HKT*
