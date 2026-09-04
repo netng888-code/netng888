@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$63.10** |
-| 今日變動 | ▲ $0.56　(+0.90%) |
+| 現價 | **$63.81** |
+| 今日變動 | ▲ $0.71　(+1.13%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $129　(▼17.0%) |
+| 未實現盈虧 | ▼ $122　(▼16.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $66.90 | — |
-| Put Wall（支撐） | $60.00 | -4.9% |
-| Call Wall（阻力） | $70.00 | +10.9% |
+| Gamma Flip | $64.83 | — |
+| Put Wall（支撐） | $60.00 | -6.0% |
+| Call Wall（阻力） | $65.00 | +1.9% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[RKLB Stock Snaps 3-Day Slide: Investors Shrug Off CFO’s $8.8M Sale As Rocket Lab Scores 94th Launch Win](https://finnhub.io/api/news?id=fd45b5f357d7e447da9a7a6a986dea4c99837597df176ce555882327328df546)**  
-*Yahoo · 11h前*  
-Rocket Lab maintained its perfect Synspective record, with 16 more missions booked through 2030.
+- **[1 Monster Space Stock I'm Watching This Upcoming Earnings Season](https://finnhub.io/api/news?id=5d1517b1a189918beaab8fea5b3b8b21238bbadd24fbf112216122600a0eca01)**  
+*Yahoo · 5h前*  
+Rocket Lab continues to thrive in SpaceX's shadow.
 
-- **[Rocket Lab Gets Bullish Call From Top Bank as Space Market Could Double](https://finnhub.io/api/news?id=4aad4718bf1b38025310e6200b99a7e96c677e5a21eb44c8d0c916c8f4cc03fb)**  
-*Yahoo · 15h前*  
-Berenberg Turns Bullish on Rocket Lab as Space Industry Races Toward $1 Trillion
+- **[Iridium CEO Sells Over 9,500 Shares as Rocket Lab Is Poised to Acquire the Company](https://finnhub.io/api/news?id=0c6b4e9a51b9768f2d5716edd63eb5f68abb3bad774393981bd4823e75d41fda)**  
+*Yahoo · 6h前*  
+The insider's sale comes after the stock experienced an impressive 88% one-year return.
 
-- **[Rocket Lab Stock Flashes Major Warning Signal](https://finnhub.io/api/news?id=cfbeb7f9be458b01c0619b16e9d0295a84c26e7c0c8db94c385ca37b3c37b5a0)**  
-*Yahoo · 16h前*  
-Weak momentum is colliding with a still-bullish growth story
+- **[SpaceX Rises 7% as Starship Test 14 Approaches, Tesla Jumps 7%, Rocket Lab Ticks Up](https://finnhub.io/api/news?id=e405fec6bc74e130fd76a31cef3a26cb9f619a9044fcfb9e2d33cbec48326aa0)**  
+*Yahoo · 7h前*  
+Starship test 14 is close enough to taste, and investors are already crowding into two specific Musk-linked names while the broader space sector barely moves. T…
 
 ---
 
@@ -48,7 +48,7 @@ Weak momentum is colliding with a still-bullish growth story
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-03 | 監控 | $63.10 | — | 自動更新 |
+| 2026-09-04 | 監控 | $63.81 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Weak momentum is colliding with a still-bullish growth story
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
