@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $211.93 | — |
 | Put Wall（支撐） | $200.00 | -4.2% |
-| Call Wall（阻力） | $210.00 | +0.6% |
+| Call Wall（阻力） | $220.00 | +5.3% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Does Marvell (MRVL) Signal Patience or Urgency With Its AI Data Center Timeline and Buybacks?](https://finnhub.io/api/news?id=34e2e60420052a6c879f3b870fb3ba08349ac15433e4c96b3dba701e7cdcece1)**  
+*Yahoo · 12h前*  
+In late August 2026, Marvell Technology reported higher second-quarter revenue and earnings compared to a year earlier, raised its fiscal 2027 and 2028 revenue …
+
 - **[Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?](https://finnhub.io/api/news?id=fed7f650e1edb9385988469941a361630ab1832a2d80d3233bf03cedd534bc52)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 Marvell Technology (MRVL) lifted its revenue outlook for fiscal 2027 and fiscal 2028 in its late-August report. The stock, at about $206, is up more than 220% o…
 
 - **[Do You Still Own The NVIDIA You Bought?](https://finnhub.io/api/news?id=338f755bccfb89a2a652106a4a06220884ab0f0927f842bae23e91bd7970b893)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 NVIDIA (NVDA) has been an easy stock to hold. The shares trade near $224, up about 32% over the past year and comfortably ahead of the S&P 500. The tape has not…
-
-- **[ALAB Stock Down 24% in a Month: Should Investors Buy the Dip or Wait?](https://finnhub.io/api/news?id=ce9869226ea0a7d890354667447c9ce4c79393b5e3d338b9c1b0a18722ae2f07)**  
-*Yahoo · 7h前*  
-Astera Labs is gaining momentum from strong Scorpio, Aries and Taurus demand, with robust third-quarter growth expectations supporting its AI infrastructure sto…
 
 ---
 
@@ -59,4 +59,4 @@ Astera Labs is gaining momentum from strong Scorpio, Aries and Taurus demand, wi
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
