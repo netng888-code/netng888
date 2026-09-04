@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$337.12** |
-| 今日變動 | ▲ $2.10　(+0.63%) |
+| 現價 | **$342.48** |
+| 今日變動 | ▲ $5.36　(+1.59%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $1,905　(▲89.0%) |
+| 未實現盈虧 | ▲ $1,969　(▲92.0%) |
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $334.85 | — |
-| Put Wall（支撐） | $330.00 | -2.1% |
-| Call Wall（阻力） | $340.00 | +0.9% |
+| Put Wall（支撐） | $340.00 | -0.7% |
+| Call Wall（阻力） | $350.00 | +2.2% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Google launches Gemini 3.8 Flash coding model, dodges AdX breakup](https://finnhub.io/api/news?id=bc8f78d8922fbf9429d664aaf5b2f7d0f6287046fc8688892c0af958ce32fe86)**  
+- **[Eos Energy Enterprises (EOSE) Stock Dropped, So What Is Driving Attention Now?](https://finnhub.io/api/news?id=688f68551e46ca94d9d89fcf743c95c06e30d3e077e66ebe51ac3d1e5ddd611c)**  
 *Yahoo · 1h前*  
-A federal judge rejected the DOJ's push to force Google to sell AdX, the same day Alphabet unveiled its third Flash AI model in six weeks
+Eos Energy Enterprises (EOSE) drew fresh investor attention after MN8 Energy and Google selected its Z3 zinc based long duration storage for a PJM grid project …
 
-- **[Broadcom and Snowflake Perfectly Sum Up the AI Trade](https://finnhub.io/api/news?id=602f38b4d42f6b0ded7f7f587a3ebdaf62281ded3983f17e039518fb1605fb2b)**  
-*Yahoo · 1h前*  
-Stock futures fall, Broadcom beat forecasts for AI Chip sales growth, Micron and China chip makers fight for market share.
+- **[Snowflake (SNOW) Stock Soars 16% After Q2 Earnings: Is It Still a Buy?](https://finnhub.io/api/news?id=c780a6e8d681c986341e46c249623dc3e4009a0803b16b3c4aa0c73616f51a7d)**  
+*Yahoo · 2h前*  
+Snowflake stock surged 16% in Thursday's trading session after the cloud-data leader crushed its Q2 expectations yesterday evening and raised its full-year outl…
 
-- **[MN8, Google and Eos launch clean energy project in West Virginia](https://finnhub.io/api/news?id=e3a6d2391b46aa3a9b897e3dedcb8bfaa15582c01af8f41b6bb95e1ee2235f42)**  
-*Yahoo · 1h前*  
-The facility, which is planned to support Google’s data centres in the area, will combine solar and advanced energy storage.
+- **[Should You Buy Reddit Stock Because Its Renewal Risk Is Already Priced In?](https://finnhub.io/api/news?id=938f14789a95c845259a01e18c8aaa49af27fc1d94254cb07136f54afd32a71a)**  
+*Yahoo · 2h前*  
+Reddit (RDDT) stock closed 9.3% higher on Wednesday at $158.10, and the news behind it came from a research desk rather than from Reddit. The argument was that …
 
 ---
 
@@ -48,7 +48,7 @@ The facility, which is planned to support Google’s data centres in the area, w
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-03 | 監控 | $337.12 | — | 自動更新 |
+| 2026-09-04 | 監控 | $342.48 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The facility, which is planned to support Google’s data centres in the area, w
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 09:03 HKT*
