@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $349.33 | — |
 | Put Wall（支撐） | $330.00 | -2.5% |
-| Call Wall（阻力） | $345.00 | +1.9% |
+| Call Wall（阻力） | $350.00 | +3.4% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Teradyne (NASDAQ:TER) Delivers High Growth and Improving Fundamentals](https://finnhub.io/api/news?id=1386d15aa46011871348fbecb387176f03a1d402276c66fc303d166aa888f9e9)**  
+*ChartMill · 1h前*  
+Teradyne matches Navellier's 8-part growth strategy with strong earnings, sales, margins, cash flow, and ROE—perfect for growth investors.
+
 - **[AVGO Q3 Earnings Beat Estimates, Revenues Rise on Strong AI Demand](https://finnhub.io/api/news?id=137d9b45b44de398a1155e3c6d398b51f093c8c4f56bb1d5d6e36f908ae9fc9d)**  
-*Yahoo · 7h前*  
+*Yahoo · 19h前*  
 Broadcom's fiscal Q3 earnings and revenues beat estimates as AI chip demand surges, with AI semiconductor sales up 221% and a higher fiscal 2026 outlook.
 
 - **[Teradyne Stock Plunges 15% in a Month: Should You Buy the Dip?](https://finnhub.io/api/news?id=de224ec8754df01417fa3681a9c2a172180abb437f149138ae7ee21b4060fea2)**  
-*Yahoo · 7h前*  
+*Yahoo · 19h前*  
 TER stock lost 15.4% in a month, but strong AI data-center demand, UltraFLEXplus growth, and positive third-quarter guidance support its outlook.
-
-- **[Governments Are Encouraging Industrial Robotic Growth](https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec)**  
-*SeekingAlpha · 8h前*  
-Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risksâread before investing.
 
 ---
 
@@ -59,4 +59,4 @@ Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics lea
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
