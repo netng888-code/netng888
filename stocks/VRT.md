@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$256.70** |
-| 今日變動 | ▲ $0.73　(+0.29%) |
+| 現價 | **$268.83** |
+| 今日變動 | ▲ $12.13　(+4.73%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $94　(▼15.5%) |
+| 未實現盈虧 | ▼ $70　(▼11.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $261.17 | — |
-| Put Wall（支撐） | $240.00 | -6.5% |
-| Call Wall（阻力） | $260.00 | +1.3% |
+| Gamma Flip | $260.43 | — |
+| Put Wall（支撐） | $240.00 | -10.7% |
+| Call Wall（阻力） | $270.00 | +0.4% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Vertiv Holdings: The Market Is Making The Same Mistake Twice, Still A Buy](https://finnhub.io/api/news?id=e16fa2b1ec2eaee6fbd4afa18f78bc2917dea8d088050c80a63cb64a5dce463a)**  
-*SeekingAlpha · 4h前*  
-Vertiv (VRT) Q2 2026: 60% EPS growth, raised guidance, NVIDIA integration and booming demand despite a sell-off.
-
-- **[Vertiv: Filter Out The Noise, This Is A Golden Opportunity](https://finnhub.io/api/news?id=a4f57a79a80e9e821cc6fe51af55ede3c2e8a8e14d09f97e9370450576afacc2)**  
-*SeekingAlpha · 5h前*  
-Vertiv remains a buy after pullback: AI infrastructure tailwinds, raised guidance, margin gains, and acquisitions improve upside. See more on VRT stock here.
-
-- **[Vertiv Just Made an Up to $2.6 Billion Bet to Solve AI Data Centers' Biggest Bottleneck](https://finnhub.io/api/news?id=cc78d5f06cef09bc52e8b32687c4fd5244354883743471487d85f16fe988907e)**  
+- **[Is This Pullback In Vertiv Stock A Glitch Or A Warning?](https://finnhub.io/api/news?id=f228635d417fc5005db066e76659d9907a2bb6f7fab48988c52328d3a8caa1b7)**  
 *Yahoo · 6h前*  
-Vertiv is expanding beyond the building shell to help connect data centers to power more quickly.
+The data center infrastructure provider is growing fast, but its stock just hit a rough patch, leaving investors to weigh a powerful history against a pricey pr…
+
+- **[Teradyne Stock Plunges 15% in a Month: Should You Buy the Dip?](https://finnhub.io/api/news?id=de224ec8754df01417fa3681a9c2a172180abb437f149138ae7ee21b4060fea2)**  
+*Yahoo · 7h前*  
+TER stock lost 15.4% in a month, but strong AI data-center demand, UltraFLEXplus growth, and positive third-quarter guidance support its outlook.
+
+- **[Can VRT's UIG Deal Deepen Its AI Power Edge Over APH & SMCI?](https://finnhub.io/api/news?id=d30cb98c403a70559cf0d33d776e3ab063b9d615bb60f534197c71c22cdf447a)**  
+*Yahoo · 9h前*  
+Vertiv's $1.45B UIG deal adds microgrid and behind-the-meter power capabilities, broadening its AI data-center infrastructure push.
 
 ---
 
@@ -48,7 +48,7 @@ Vertiv is expanding beyond the building shell to help connect data centers to po
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-03 | 監控 | $256.70 | — | 自動更新 |
+| 2026-09-04 | 監控 | $268.83 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv is expanding beyond the building shell to help connect data centers to po
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 09:05 HKT*
