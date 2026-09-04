@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,17 +21,17 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $9.48 | — |
-| Put Wall（支撐） | $9.00 | -7.9% |
-| Call Wall（阻力） | $10.00 | +2.4% |
+| Put Wall（支撐） | $10.00 | --2.4% |
+| Call Wall（阻力） | $11.00 | +12.6% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
 - **[10 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=927d1b482fd8bb1ad301f0fcda23e8ed86570fe48c08a0349f44f96f359f0351)**  
-*Benzinga · 11h前*  
+*Benzinga · 23h前*  
 This whale alert can help traders discover the next big trading opportunities.
 Whales are entities with large sums of money and we track their transactions here…
 
@@ -56,4 +56,4 @@ Curious about the most active stocks in today's session? Get a glimpse into the 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
