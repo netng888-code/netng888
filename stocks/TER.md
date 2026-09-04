@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$341.62** |
-| 今日變動 | ▲ $6.16　(+1.84%) |
+| 現價 | **$338.59** |
+| 今日變動 | ▼ $3.03　(-0.89%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,248　(▲271.3%) |
+| 未實現盈虧 | ▲ $1,233　(▲268.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $366.43 | — |
-| Put Wall（支撐） | $330.00 | -3.4% |
-| Call Wall（阻力） | $390.00 | +14.2% |
+| Gamma Flip | $349.33 | — |
+| Put Wall（支撐） | $330.00 | -2.5% |
+| Call Wall（阻力） | $345.00 | +1.9% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Teradyne (TER) Rises Higher Than Market: Key Facts](https://finnhub.io/api/news?id=f07c8d14e1ebf44f83171c9b54253a7aa906a1e39f3f75b1da3a8cc72f4feb6d)**  
-*Yahoo · 15h前*  
-In the latest trading session, Teradyne (TER) closed at $341.62, marking a +1.84% move from the previous day.
+- **[AVGO Q3 Earnings Beat Estimates, Revenues Rise on Strong AI Demand](https://finnhub.io/api/news?id=137d9b45b44de398a1155e3c6d398b51f093c8c4f56bb1d5d6e36f908ae9fc9d)**  
+*Yahoo · 7h前*  
+Broadcom's fiscal Q3 earnings and revenues beat estimates as AI chip demand surges, with AI semiconductor sales up 221% and a higher fiscal 2026 outlook.
 
-- **[1 Growth Stock Set to Flourishand 2 We Brush Off](https://finnhub.io/api/news?id=3e33b4197e0d156ef17ec768b17c89daa4278277264cdc63516dfe7ff5a1e379)**  
-*Yahoo · 16h前*  
-Growth is a hallmark of all great companies, but the laws of gravity eventually take hold. Those who rode the COVID boom and ensuing tech selloff in 2022 will s…
+- **[Teradyne Stock Plunges 15% in a Month: Should You Buy the Dip?](https://finnhub.io/api/news?id=de224ec8754df01417fa3681a9c2a172180abb437f149138ae7ee21b4060fea2)**  
+*Yahoo · 7h前*  
+TER stock lost 15.4% in a month, but strong AI data-center demand, UltraFLEXplus growth, and positive third-quarter guidance support its outlook.
 
-- **[DELL Q2 Earnings Beat Estimates, Strong AI Demand Aids Revenue Growth](https://finnhub.io/api/news?id=ba57d54691ba7500d086fc92b9371ce2fe1aa00b82ca8959ac11c3371d467f55)**  
-*Yahoo · 17h前*  
-Dell's Q2 fiscal 2027 results beat estimates as AI server demand surges, ISG revenues hit a record and management raises its full-year outlook.
+- **[Governments Are Encouraging Industrial Robotic Growth](https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec)**  
+*SeekingAlpha · 8h前*  
+Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risksâread before investing.
 
 ---
 
@@ -48,7 +48,7 @@ Dell's Q2 fiscal 2027 results beat estimates as AI server demand surges, ISG rev
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-03 | 監控 | $341.62 | — | 自動更新 |
+| 2026-09-04 | 監控 | $338.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Dell's Q2 fiscal 2027 results beat estimates as AI server demand surges, ISG rev
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
