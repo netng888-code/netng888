@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$592.85** |
-| 今日變動 | ▲ $14.31　(+2.47%) |
+| 現價 | **$610.68** |
+| 今日變動 | ▲ $17.83　(+3.01%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $40　(▼2.2%) |
+| 未實現盈虧 | ▲ $13　(▲0.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $566.94 | — |
-| Put Wall（支撐） | $550.00 | -7.2% |
-| Call Wall（阻力） | $750.00 | +26.5% |
+| Gamma Flip | $569.65 | — |
+| Put Wall（支撐） | $600.00 | -1.7% |
+| Call Wall（阻力） | $750.00 | +22.8% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Thursday; Snowflake to Advance, Broadcom to Decline](https://finnhub.io/api/news?id=6961cd37cb81f997ef8b51b82ca4c9e96b19c9a7357046bef8d1797113b94246)**  
+- **[Alcatraz AI Names Bobby Louissaint Head of Business Development](https://finnhub.io/api/news?id=98e2f5e44f365080bd704af9843671e99ce4d2c7d5eb9a9452a91dfc335e4cd2)**  
 *Yahoo · 2h前*  
-The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Thursday'
+CUPERTINO, Calif., September 03, 2026--Alcatraz AI today announced the hiring of Bobby Louissaint as its first Head of Business Development, a newly created rol…
 
-- **[Meta Platforms May Have Escaped the Worst of a Landmark Teen-Safety Lawsuit. But the Ramifications Could Be Much Worse for Snap.](https://finnhub.io/api/news?id=9106503458df4279c4da3ef5d524841a873e050adc520803882f957859ca9cbf)**  
+- **[Should You Buy Reddit Stock Because Its Renewal Risk Is Already Priced In?](https://finnhub.io/api/news?id=938f14789a95c845259a01e18c8aaa49af27fc1d94254cb07136f54afd32a71a)**  
+*Yahoo · 2h前*  
+Reddit (RDDT) stock closed 9.3% higher on Wednesday at $158.10, and the news behind it came from a research desk rather than from Reddit. The argument was that …
+
+- **[Former Meta Superintelligence Labs Agentic AI Lead Joins Project 777, Strengthening Technical Leadership Alongside Former U.S. Space Force CTO Preston Dunlap](https://finnhub.io/api/news?id=445031a912f3453a69db5ae89221aee030dc762c8a28e200c8a30ace8ab17ee9)**  
 *Yahoo · 3h前*  
-Meta Platforms will pay up to $18 billion and significantly overhaul its teen-usage policies across its platforms.
-
-- **[AGIX Vs. CHAT: I'm Buying The Loser](https://finnhub.io/api/news?id=7861a469391d2e4332d86912e29f5d04d1349175d52c37120bddef2dcf2ca53f)**  
-*SeekingAlpha · 9h前*  
-AGIX and CHAT offer broad AI ecosystem exposure but differ in holdings and risk profiles. Read why I lean on AGIX ETF despite the fee and the performance gap.
+A2035 Ventures has expanded the technical leadership around Project 777 as the company advances strategic discussions with major AI organizations.
 
 ---
 
@@ -48,7 +48,7 @@ AGIX and CHAT offer broad AI ecosystem exposure but differ in holdings and risk 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-03 | 監控 | $592.85 | — | 自動更新 |
+| 2026-09-04 | 監控 | $610.68 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ AGIX and CHAT offer broad AI ecosystem exposure but differ in holdings and risk 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
