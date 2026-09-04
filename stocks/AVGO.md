@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Hock Tan Just Put a $230 Billion Number on Broadcom's 2028 AI Revenue. That Is 4 Times This Year's.](https://finnhub.io/api/news?id=b37fd1d13d880cb8fecf07556978e321b5448d4ecf29bae8e3d5613ecb23c04b)**  
-*Yahoo · 1h前*  
-Supply is secured for two straight doublings, the CEO says. Deployment is the part no chipmaker can promise.
+- **[AI Chips Update - AI Circuit Breaker Revolutionizes Security In Autonomous Systems](https://finnhub.io/api/news?id=135651ea21dfd112d3ee800d6902fbf7575e6f985127a56ec2b9d7e2098f6e72)**  
+*Yahoo · 0h前*  
+Recent developments in AI chip technology have been highlighted by Capsule Security's introduction of an "AI circuit breaker," which is designed to stop rogue A…
 
-- **[Nvidia Is Now Paying to Train Plumbers, and the Stock That Should Benefit Most Just Hit a 52-Week Low](https://finnhub.io/api/news?id=cfff816a3678757dc1be54563abe9c35d7feb4134cf524e0134f8129f95492c1)**  
+- **[AVGO Stock’s 27% Selloff Is Sending A Signal – But Morningstar Sees AI Demand Getting Stronger Through 2030](https://finnhub.io/api/news?id=4a8fbd2b6b50e0aeae3666440614ae5119a3951fabd952c23d344a0423924d38)**  
 *Yahoo · 1h前*  
-Nvidia just committed serious money to train plumbers and electricians, and the retailer that sells to those exact tradespeople responded by printing a 52-week …
+Morningstar said Broadcom’s 2028 outlook exceeded its own estimates and expects demand for the company’s AI chips to remain strong over the next two years.
 
-- **[AI Infrastructure Demand Remains Red-Hot: HPE, AVGO, DELL Deliver](https://finnhub.io/api/news?id=e55ee262788b3341d46d6385d098edd9db66c1575d30b5de1da6df42371c560a)**  
-*Yahoo · 3h前*  
-The AI trade remains alive and well, with Hewlett Packard Enterprise (HPE), Broadcom (AVGO), and Dell Technologies (DELL) all recently posting strong quarterly …
+- **[Social Buzz: Wallstreetbets Stocks Mixed Premarket Friday; Micron to Rise, Lululemon to Fall](https://finnhub.io/api/news?id=cecbcb46db91037dcb57edd9b539d5b742462d6b908276fb7066f43658f4e3d9)**  
+*Yahoo · 1h前*  
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Friday's
 
 ---
 
@@ -59,4 +59,4 @@ The AI trade remains alive and well, with Hewlett Packard Enterprise (HPE), Broa
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:03 HKT*
