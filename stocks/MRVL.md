@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$206.48** |
-| 今日變動 | ▼ $3.91　(-1.86%) |
+| 現價 | **$208.83** |
+| 今日變動 | ▲ $2.35　(+1.14%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $508　(▼19.8%) |
+| 未實現盈虧 | ▼ $485　(▼18.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $215.22 | — |
-| Put Wall（支撐） | $200.00 | -3.1% |
-| Call Wall（阻力） | $250.00 | +21.1% |
+| Gamma Flip | $211.93 | — |
+| Put Wall（支撐） | $200.00 | -4.2% |
+| Call Wall（阻力） | $210.00 | +0.6% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Semiconductor Market Splits as AI Heavyweights Mask a Broad Chip Selloff](https://finnhub.io/api/news?id=287c31428601e0f36560db5f3271591b320e73e9b22ab8efc6205f27f05e2b8e)**  
-*ChartMill · 0h前*  
-Semiconductor stocks show sharp divergence: AI-driven leaders like Nvidia and Micron outperform while the average chip stock falls.
-
-- **[Jim Cramer's Says This Stock Is Primed for a “Huge Move”](https://finnhub.io/api/news?id=853b390624d1011d63c984487ee258128e1f48ba2d4719e83b5b77cdc221d712)**  
-*Yahoo · 1h前*  
-Jim Cramer says Snowflake stock faces a huge move after a 23% pop, while Broadcom's AI beat gets a cooler read.
-
-- **[Bull of the Day: Semtech (SMTC)](https://finnhub.io/api/news?id=90f30df2e01c4f28803a5f2a8ff979f9c1a2fa3814c7ab20858e09b3a4aaaf6d)**  
+- **[Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?](https://finnhub.io/api/news?id=fed7f650e1edb9385988469941a361630ab1832a2d80d3233bf03cedd534bc52)**  
 *Yahoo · 3h前*  
-Small player in a $200 billion AI connectivity TAM is on sale after EPS estimates just jumped 50%
+Marvell Technology (MRVL) lifted its revenue outlook for fiscal 2027 and fiscal 2028 in its late-August report. The stock, at about $206, is up more than 220% o…
+
+- **[Do You Still Own The NVIDIA You Bought?](https://finnhub.io/api/news?id=338f755bccfb89a2a652106a4a06220884ab0f0927f842bae23e91bd7970b893)**  
+*Yahoo · 3h前*  
+NVIDIA (NVDA) has been an easy stock to hold. The shares trade near $224, up about 32% over the past year and comfortably ahead of the S&P 500. The tape has not…
+
+- **[ALAB Stock Down 24% in a Month: Should Investors Buy the Dip or Wait?](https://finnhub.io/api/news?id=ce9869226ea0a7d890354667447c9ce4c79393b5e3d338b9c1b0a18722ae2f07)**  
+*Yahoo · 7h前*  
+Astera Labs is gaining momentum from strong Scorpio, Aries and Taurus demand, with robust third-quarter growth expectations supporting its AI infrastructure sto…
 
 ---
 
@@ -48,7 +48,7 @@ Small player in a $200 billion AI connectivity TAM is on sale after EPS estimate
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-03 | 監控 | $206.48 | — | 自動更新 |
+| 2026-09-04 | 監控 | $208.83 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Small player in a $200 billion AI connectivity TAM is on sale after EPS estimate
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
