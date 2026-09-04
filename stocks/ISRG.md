@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-04 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[Is TMDX Stock Worth Buying as Growth Meets Rising Margin Pressure?](https://finnhub.io/api/news?id=9cd5058399002add8c16f829d615ea94956b7a7e1135a345ee6d9ecd3e2a37ad)**  
-*Yahoo · 7h前*  
+*Yahoo · 19h前*  
 TransMedics' rapid revenue growth and cheaper valuation face rising margin pressure as heavy investment raises execution risks.
 
 - **[Governments Are Encouraging Industrial Robotic Growth](https://finnhub.io/api/news?id=9e6f67cd69e3910cb1691c496d4c347449f0dd785cad524e06b19447426a8eec)**  
-*SeekingAlpha · 8h前*  
+*SeekingAlpha · 20h前*  
 Robotics ETFs (BOTZ, ROBO, ARKQ) offer early growth, but industrial robotics leads. Weigh QQQ/SPY vs. niche ETF risksâread before investing.
 
 - **[ISRG Stock: The Best House On The Block Costs The Most](https://finnhub.io/api/news?id=2b3549b7f8cb8125eb4f126f266bc4f7b1ff45999bedafe3fbd3f7d0c3d75f3e)**  
@@ -59,4 +59,4 @@ In the world of robotic surgery, one company is both the undisputed leader and t
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
