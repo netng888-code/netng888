@@ -239,22 +239,22 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="summary-grid">
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
-      <div class="summary-value" id="sum-us-mktval">USD 31,163.94</div>
-      <div class="summary-sub" id="sum-us-count">18 個持倉</div>
+      <div class="summary-value" id="sum-us-mktval">USD 30,186.94</div>
+      <div class="summary-sub" id="sum-us-count">17 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 4,878.93</div>
+      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 4,459.79</div>
       <div class="summary-sub">未計已實現</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股已實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-realized">+USD 12,887+</div>
-      <div class="summary-sub">MU沽2@944(+772)｜沽2@810(+762)｜沽2@1185(+1254)｜沽1@1200(+642)｜沽1@1004.66(+447)｜LITE沽1@940(+120)已清倉｜AVGO沽3@394.96(+49)</div>
+      <div class="summary-value pnl-pos" id="sum-us-realized">+USD 13,329+</div>
+      <div class="summary-sub">MU沽1@1000(+442)已沽清｜沽2@944(+772)｜沽2@810(+762)｜沽2@1185(+1254)｜沽1@1200(+642)｜沽1@1004.66(+447)｜LITE沽1@940(+120)已清倉｜AVGO沽3@394.96(+49)</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">今日盈虧 (美股)</div>
-      <div class="summary-value pnl-pos" id="sum-us-today">+ USD 167.68</div>
+      <div class="summary-value pnl-pos" id="sum-us-today">+ USD 223.32</div>
       <div class="summary-sub">USD · 實時</div>
     </div>
   </div>
@@ -273,6 +273,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <!-- Realized banner -->
   <div class="realized-banner">
     ✅ <strong>已鎖定利潤：</strong>
+    MU 沽1股@$1,000.00（成本$557.857）+$442.14 已沽清 ｜
     MU 沽2股@$944 +$772 ｜
     MU 沽2股@$810 +$762 ｜
     MU 沽2股@$1,185 +$1,254 ｜
@@ -285,7 +286,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     ASTS 已清倉 ｜
     07709 沽100@$110 +HKD 9,420 ｜
     07709 沽100@$133 +HKD 11,720
-    <br>美股已實現 <strong>+USD 12,887+</strong> ｜ 港股已實現 <strong>+HKD 30,560+</strong>
+    <br>美股已實現 <strong>+USD 13,329+</strong> ｜ 港股已實現 <strong>+HKD 30,560+</strong>
   </div>
 
   <!-- US Stocks -->
@@ -311,23 +312,6 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
         <th></th>
       </tr></thead>
       <tbody id="us-tbody"><tr>
-      <td><span class="sym-badge" onclick="openFlipTo('MU')">MU</span></td>
-      <td class="name-cell">美光科技</td>
-      <td style="color:var(--muted)">1</td>
-      <td><span class="price-cell price-live">977.00</span></td>
-      <td><span class="ext-price-cell">—</span></td>
-      <td style="color:var(--muted)">557.86</td>
-      <td class="mktval-cell">977.00</td>
-      <td class="pnl-pos">+419.14</td>
-      <td><span class="pct-badge pos">+75.13%</span></td>
-      <td class="pnl-neg today-pnl-cell">-55.64</td>
-      <td>
-        <div class="action-links">
-          <button class="chart-link" onclick="openFlipTo('MU')">📈</button>
-          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=MU" target="_blank">FV</a>
-          <a class="ge-link" href="https://www.barchart.com/stocks/quotes/MU/gamma-exposure" target="_blank">GE</a>
-        </div>
-      </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('GOOGL')">GOOGL</span></td>
       <td class="name-cell">谷歌-A</td>
       <td style="color:var(--muted)">12</td>
@@ -697,12 +681,12 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <!-- Risk -->
   <div class="section-header"><span class="section-title">⚡ 風險概覽</span></div>
   <div class="risk-grid">
-    <div class="risk-card"><div class="risk-icon">⚡</div><div class="risk-title">科技股集中度高</div><div class="risk-body">GOOGL / MU / AVGO / NVDA 佔美股市值約 60%+ ｜ AI相關持倉偏重，注意板塊輪動風險</div></div>
+    <div class="risk-card"><div class="risk-icon">⚡</div><div class="risk-title">科技股集中度高</div><div class="risk-body">GOOGL / NVDA / AVGO / MRVL 佔美股市值約 52%+ ｜ AI相關持倉偏重，注意板塊輪動風險</div></div>
     <div class="risk-card"><div class="risk-icon">⚠️</div><div class="risk-title">LEU 虧損持倉</div><div class="risk-body">Centrus Energy 成本$197.50，現$161.78，-18.09%。核能板塊持續弱勢，已深度虧損，留意$150止蝕位</div></div>
     <div class="risk-card"><div class="risk-icon">🇭🇰</div><div class="risk-title">港股持倉概覽</div><div class="risk-body">07709 +738% ✅ ｜ 02367 -21% ⚠️ ｜ 09988 -27% ⚠️ ｜ 巨子生物及阿里均處虧損，留意</div></div>
     <div class="risk-card"><div class="risk-icon">🔴</div><div class="risk-title">小市值倉位</div><div class="risk-body">SERV -34% ｜ RR -12% ｜ 市值細，流動性較低，波動性高。兩者均虧損，SERV損幅較大</div></div>
     <div class="risk-card"><div class="risk-icon">🚀</div><div class="risk-title">航天股持倉</div><div class="risk-body">RDW剩40股 ｜ RKLB剩5股（已減半鎖利） ｜ LITE已於$940全數沽出鎖利+$120，倉位已清</div></div>
-    <div class="risk-card"><div class="risk-icon">✅</div><div class="risk-title">強勢持倉</div><div class="risk-body">TER +289% ｜ MRVL +34% ｜ RKLB +162% ｜ OKLO +176% ｜ MU +101% ｜ GOOGL +107% ｜ 可考慮分批鎖定利潤</div></div>
+    <div class="risk-card"><div class="risk-icon">✅</div><div class="risk-title">強勢持倉</div><div class="risk-body">TER +289% ｜ MRVL +34% ｜ RKLB +162% ｜ OKLO +176% ｜ GOOGL +107% ｜ MU已於$1,000沽清（+$442.14）鎖定利潤 ｜ 可考慮分批鎖定利潤</div></div>
   </div>
 
 </div><!-- /tab-main -->
@@ -718,13 +702,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <button class="close-btn" onclick="switchTab('main')">✕ 關閉</button>
       <div class="flip-nav">
         <button class="flip-arrow" id="flip-prev">‹</button>
-        <div class="flip-counter" id="flip-counter">2 / 21</div>
+        <div class="flip-counter" id="flip-counter">1 / 20</div>
         <button class="flip-arrow" id="flip-next">›</button>
       </div>
     </div>
   </div>
 
-  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip" id="chip-MU">MU</div><div class="flip-sym-chip active" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
+  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip active" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-LYTE">LYTE</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
 
   <div class="flip-interval-bar">
     <span>Interval:</span>
@@ -760,7 +744,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-08-26：NVDA Q2業績後盤後加倉10股@$218.00（10→20股，成本加權至$189.0625）｜ 2026-08-21：LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
+  <span>持倉更新：2026-09-03：MU沽出1股@$1,000.00（限價單，成本$557.857，已沽清倉，已實現+$442.14）｜ 2026-08-26：NVDA Q2業績後盤後加倉10股@$218.00（10→20股，成本加權至$189.0625）｜ 2026-08-21：LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -823,7 +807,6 @@ const US_HOLDINGS = [
   { symbol:'NVDA',  name:'英偉達',                qty:20,  cost:189.0625, mktval:4364.20,  pnl:582.95,   pnlPct:'+15.42%',  realized:1268.05, todayPnL:171.20  },
   { symbol:'AVGO',  name:'博通',                  qty:10,  cost:378.602,  mktval:4160.00,  pnl:373.98,   pnlPct:'+9.88%',   realized:52.85,   todayPnL:-39.54  },
   { symbol:'MRVL',  name:'邁威爾科技',             qty:10,  cost:257.303,  mktval:2767.00,  pnl:193.98,   pnlPct:'+7.54%',   realized:0.36,    todayPnL:0       },
-  { symbol:'MU',    name:'美光科技',              qty:1,   cost:557.857,  mktval:977.00,   pnl:419.14,   pnlPct:'+75.13%',  realized:4738.74, todayPnL:-55.64  },
   { symbol:'NOK',   name:'諾基亞',                qty:200, cost:12.458,   mktval:2066.00,  pnl:-425.55,  pnlPct:'-17.08%',  realized:0,       todayPnL:0       },
   { symbol:'TER',   name:'泰瑞達',                qty:5,   cost:92.00,    mktval:1846.65,  pnl:1386.65,  pnlPct:'+301.45%', realized:1356.54, todayPnL:0.60    },
   { symbol:'META',  name:'Meta Platforms',       qty:3,   cost:606.333,  mktval:1758.15,  pnl:-60.85,   pnlPct:'-3.35%',   realized:3.15,    todayPnL:4.38    },

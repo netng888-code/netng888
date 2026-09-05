@@ -943,7 +943,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 
 <!-- Tabs（v6：持倉總覽排第一位，並做預設開啟分頁） -->
 <div class="tabs">
-  <button class="tab active" onclick="setTab('holdings')">💼 持倉總覽 (18)</button>
+  <button class="tab active" onclick="setTab('holdings')">💼 持倉總覽 (17)</button>
   <button class="tab" onclick="setTab('gex')">📊 GEX + K線</button>
   <button class="tab" onclick="setTab('calendar')">📅 到期日曆</button>
   <button class="tab" onclick="setTab('fi')">🔬 Field Inspector</button>
@@ -1156,7 +1156,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <div class="pane active" id="pane-holdings">
 
   <div class="scards">
-    <div class="scard"><div class="sc-label">總市值 (USD)</div><div class="sc-val" id="s-mv">—</div><div class="sc-sub">18隻美股</div></div>
+    <div class="scard"><div class="sc-label">總市值 (USD)</div><div class="sc-val" id="s-mv">—</div><div class="sc-sub">17隻美股</div></div>
     <div class="scard"><div class="sc-label">未實現盈虧</div><div class="sc-val" id="s-pnl">—</div><div class="sc-sub" id="s-pnlpct">—</div></div>
     <div class="scard"><div class="sc-label">今日盈虧 (T1-T2)</div><div class="sc-val" id="s-td">—</div><div class="sc-sub" id="s-tdsub">vs 今日收盤</div></div>
     <div class="scard"><div class="sc-label">報價時段</div><div class="sc-val" style="font-size:14px" id="s-sess">—</div><div class="sc-sub" id="s-sessub">—</div></div>
@@ -1392,7 +1392,7 @@ let lastMoneyFlow  = null;
 
 // ── Futu 持倉 + Watchlist（quicklinks 來源）────────────────────
 // 持倉：holdings_US CSV（依市值降序）。改持倉後記得同步更新呢度。
-const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','MU','RDW','ISRG','LYTE','RKLB','VRT','RR','SERV'];
+const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','RDW','ISRG','LYTE','RKLB','VRT','RR','SERV'];
 // Watchlist：GitHub live mywatchlist.html（21隻）+ 用戶另外要求加入嘅5隻（GLD/KLAC/LRCX/AMAT/ASML）
 // + 2026-07-10新增5隻生物科技/製藥股（LLY/VRTX/REGN/MRNA/BNTX）
 // + 2026-07-18新增SKHY（SK海力士ADR，2026年7月NASDAQ新上市，原代碼SKHYV
@@ -1424,7 +1424,6 @@ const PORTFOLIO = {
   'NVDA': {qty:20,  cost:189.0625},
   'AVGO': {qty:10,  cost:378.602 },
   'MRVL': {qty:10,  cost:257.303 },
-  'MU':   {qty:1,   cost:557.857 },
   'TER':  {qty:5,   cost:92.00   },
   'META': {qty:3,   cost:606.333 },
   'NOK':  {qty:200, cost:12.458  },
