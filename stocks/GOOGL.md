@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-07 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet](https://finnhub.io/api/news?id=0af492eafa8a1c2529e56b7c222f60c50e17739840635565e17003628c39c2fd)**  
-*Yahoo · 1h前*  
-CNBC reported that NVIDIA Corporation (NASDAQ:NVDA) CFO Colette Kress told investors on August 26 that fiscal 2028 revenue growth will reach 70%, far above the …
+- **[Alphabet Balances Strengths And Weaknesses](https://finnhub.io/api/news?id=545a50528e5eaf4bca00a26348d85ff0e35761f63e3bd82082ea382dc5c80590)**  
+*SeekingAlpha · 7h前*  
+Alphabet demonstrates prodigious Google Cloud growth, with quarterly revenue surging from $20B to $25B in just one quarter. Read more on GOOG stock here.
 
-- **[Musk Moves Up SpaceX (SPCX)’s Orbital Data Center Timeline, Again](https://finnhub.io/api/news?id=b5e65c7deb988b3f6874b472ff1560018a67fba0764fa660c647fc3bb4427fc4)**  
-*Yahoo · 3h前*  
-Bloomberg reported that Elon Musk said Space Exploration Technologies Corp. (NASDAQ:SPCX) first AI satellites, powered exclusively by NVIDIA Corporation (NASDAQ…
+- **[The Pentagon Doubled Down on Its Anthropic Blacklist. Why Amazon and Alphabet Investors Should Care](https://finnhub.io/api/news?id=8cde0bc3f47096b0460460de64d08d21e54af110d2ebae6d11dbf2bd3e54bb30)**  
+*Yahoo · 9h前*  
+A senior Pentagon official said on September 3 that the Pentagon still considers Anthropic a supply-chain risk, despite comments that had suggested the dispute …
 
-- **[Can Nvidia (NVDA) Prove it Doesn’t Live or Die by a Handful of Hyperscalers?](https://finnhub.io/api/news?id=bb778d9eb180c7bcb18e5ce8f837dfc5465ee61464aa9559b4c0f9af1e0ab636)**  
-*Yahoo · 3h前*  
-NVIDIA Corporation (NASDAQ:NVDA) biggest lingering investor concern was customer concentration, CNBC reported. Nvidia relies on hyperscalers Amazon, Google, and…
+- **[Baron Asset Fund: Q2 2026 Top Contributors And Detractors](https://finnhub.io/api/news?id=dee96b1f0606d86d482c30a9e71ccf424b117a43e4557544bd3fc40c2476b0b8)**  
+*SeekingAlpha · 10h前*  
+Baron Asset Fund highlights strong returns from the SpaceX IPO while navigating AI-driven market volatility. Read the full shareholder letter for analysis.
 
 ---
 
@@ -59,4 +59,4 @@ NVIDIA Corporation (NASDAQ:NVDA) biggest lingering investor concern was customer
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 21:03 HKT*
