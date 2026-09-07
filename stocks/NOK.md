@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$9.77** |
-| 今日變動 | ▼ $0.07　(-0.71%) |
+| 現價 | **$10.03** |
+| 今日變動 | ▲ $0.26　(+2.66%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $510　(▼25.8%) |
+| 未實現盈虧 | ▼ $471　(▼23.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.48 | — |
-| Put Wall（支撐） | $10.00 | --2.4% |
-| Call Wall（阻力） | $11.00 | +12.6% |
+| Gamma Flip | $9.04 | — |
+| Put Wall（支撐） | $10.00 | -0.3% |
+| Call Wall（阻力） | $11.00 | +9.7% |
 
 **狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,14 +30,18 @@
 
 ## 📰 最新新聞
 
-- **[10 Information Technology Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=927d1b482fd8bb1ad301f0fcda23e8ed86570fe48c08a0349f44f96f359f0351)**  
-*Benzinga · 23h前*  
+- **[Why Is Motorola (MSI) Down 0.4% Since Last Earnings Report?](https://finnhub.io/api/news?id=164803e8924f0ae74469153718b11babb9f065cd5005d05072961d789e06880d)**  
+*Yahoo · 2d前*  
+Motorola (MSI) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
+
+- **[European Equities Traded in the US as American Depositary Receipts Marginally Higher in Friday Trading](https://finnhub.io/api/news?id=5fc28704817141930c729d43f9226081762de2fe86118ee63cf03df81f3c42d6)**  
+*Yahoo · 2d前*  
+European equities traded in the US as American depositary receipts were marginally higher late Frida
+
+- **[10 Information Technology Stocks Whale Activity In Today’s Session](https://finnhub.io/api/news?id=2cc961b39ada0207f1ae9ed2adf380e8dd272bb732a3761bfa459ecbc0fcea4a)**  
+*Benzinga · 2d前*  
 This whale alert can help traders discover the next big trading opportunities.
 Whales are entities with large sums of money and we track their transactions here…
-
-- **[Curious about the most active stocks on Tuesday?](https://finnhub.io/api/news?id=85a0113f35793f7cf97f9845f95b8271243744fb85befad5084131c91ed932e2)**  
-*ChartMill · 2d前*  
-Curious about the most active stocks in today's session? Get a glimpse into the stocks that are generating the highest trading volume and capturing market atten…
 
 ---
 
@@ -45,7 +49,7 @@ Curious about the most active stocks in today's session? Get a glimpse into the 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-04 | 監控 | $9.77 | — | 自動更新 |
+| 2026-09-07 | 監控 | $10.03 | — | 自動更新 |
 
 ---
 
@@ -56,4 +60,4 @@ Curious about the most active stocks in today's session? Get a glimpse into the 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 09:04 HKT*
