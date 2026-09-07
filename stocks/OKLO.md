@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[BWX Technologies Already Builds Reactors for the Navy. Why Is It Still the Cheapest Nuclear Stock?](https://finnhub.io/api/news?id=402bbe95864e0d1b7071f8958707d135faea734d813a65a4837448196b09d760)**  
+*Yahoo · 23h前*  
+BWX Technologies is trading at a discount compared to its peers despite its military moat.
+
+- **[Here's Why Oklo Stock Trades at a 900% Premium to NuScale Power](https://finnhub.io/api/news?id=802ecfdc9b6392468a60d86043d8728ee95e5e88927278fb80a6220b4d69283e)**  
+*Yahoo · 1d前*  
+Two SMR stocks have wildly different valuations.
+
 - **[Nuclear Stock Face-Off: Is NuScale Power or Oklo the Better Buy Right Now?](https://finnhub.io/api/news?id=a2629c2b8ca36643256525ba55233394907fdd5c040945e2a6b7a72e51b98c55)**  
-*Yahoo · 2d前*  
-Choosing an SMR stock depends on how AI companies choose to adopt nuclear energy.
-
-- **[Oklo Inc.: The AI Power Trade Is Getting More Tangible](https://finnhub.io/api/news?id=cb265463f27dc709ee5fa1a47f0226bae91d720f2bb79d635fa02d846385b162)**  
-*SeekingAlpha · 2d前*  
-Oklo now has an organization that has designed, procured, constructed, authorized, commissioned, and operated a nuclear facility. Read more on OKLO stock here.
-
-- **[Our Pick Of The Best Nuclear Stocks In September 2026](https://finnhub.io/api/news?id=08d75bfc387357dede48bb156b7d9a3f5fdeccd4a187d632d2402c907031fdb5)**  
 *Yahoo · 3d前*  
-Energy driven price pressures remain in focus for central banks, which keeps reliable power sources in the spotlight. That puts nuclear linked energy stocks on …
+Choosing an SMR stock depends on how AI companies choose to adopt nuclear energy.
 
 ---
 
@@ -59,4 +59,4 @@ Energy driven price pressures remain in focus for central banks, which keeps rel
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
