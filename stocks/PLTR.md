@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$182.53** |
-| 今日變動 | ▲ $13.07　(+7.71%) |
+| 現價 | **$174.33** |
+| 今日變動 | ▼ $8.20　(-4.49%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $407　(▲46.8%) |
+| 未實現盈虧 | ▲ $350　(▲40.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $166.37 | — |
-| Put Wall（支撐） | $180.00 | -1.4% |
-| Call Wall（阻力） | $190.00 | +4.1% |
+| Gamma Flip | $160.94 | — |
+| Put Wall（支撐） | $170.00 | -2.5% |
+| Call Wall（阻力） | $175.00 | +0.4% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet](https://finnhub.io/api/news?id=d91c654bfd19dedaa097db31f9bc7cb6790ab7b80072442a4369329de1c7e0c3)**  
-*Yahoo · 9h前*  
-The AI software company’s latest consulting tie-up comes as Burry doubles down on his view that Palantir’s valuation and business model face serious risks.
-
-- **[What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?](https://finnhub.io/api/news?id=0499bcfc1adfe33ffa9b4f24e1387385996c5a5f7f3cad2a2a87854da6fef200)**  
+- **[Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'](https://finnhub.io/api/news?id=9f32abbd15f04ac9e56aead36e4156917f49afc27cebde74575e2a9b91b1a218)**  
 *Yahoo · 11h前*  
-Palantir Technologies (NasdaqGS:PLTR) announced a prime agreement to deliver eight Tactical Intelligence Targeting Access Node (TITAN) ground station systems to…
+Companies have long worried about artificial intelligence exposing sensitive data. Palantir Technologies Inc. CEO Alex Karp says they’re focused on the wrong th…
 
-- **[Palantir Technologies, Workiva, Elastic, RingCentral, and 8x8 Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=555dbadae70c77d1248a2b96f9c54a9bc1e2fcacc50289d485f723c397d2c0f4)**  
-*Yahoo · 14h前*  
-A number of stocks jumped in the afternoon session after software equities broadly gained momentum following a pullback in treasury yields and second-quarter fi…
+- **[Michael Burry sends a strong warning to Palantir stock investors](https://finnhub.io/api/news?id=8dcfffec7892dec0dbfe7acac0a28a2a1f909d59d0b8250633bb5dedbf150a80)**  
+*Yahoo · 21h前*  
+Michael Burry had plenty to say about Palantir’s market cap.
+
+- **[Michael Burry Says Palantir's Books Look More Like a Consultant's Than a Software Company's](https://finnhub.io/api/news?id=5714bc35e234c84b1b652560d57698764d9188429e146be68b146a681ea2b14e)**  
+*Yahoo · 1d前*  
+The Big Short investor's numbers come straight from the AI specialist's own filings. What they mean is another matter.
 
 ---
 
@@ -48,7 +48,7 @@ A number of stocks jumped in the afternoon session after software equities broad
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-04 | 監控 | $182.53 | — | 自動更新 |
+| 2026-09-07 | 監控 | $174.33 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks jumped in the afternoon session after software equities broad
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
