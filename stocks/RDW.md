@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -55,4 +55,4 @@ RDW expands its space and defense portfolio as backlog grows, but continued loss
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
