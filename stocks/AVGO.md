@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-07 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.](https://finnhub.io/api/news?id=50b120564eecbbbee0e2ebd59ef2a28fd08023ebf7a1379534e4efa0669fa535)**  
-*Yahoo · 6h前*  
-One wave of AI spending pays all five of these companies. Why do their discounts run from 2.6% to 32%?
+- **[Broadcom: A New Catalyst The Market Is Missing](https://finnhub.io/api/news?id=d1244d00ed7d834411f7ae7971e5974664eaebfac0cf81d4ccd66b21b3207ea3)**  
+*SeekingAlpha · 4h前*  
+Broadcom is a Strong Buy due to booming AI semiconductor & networking revenue, high margins, and attractive valuation. Click for this AVGO stock update.
 
-- **[These AI numbers are getting crazy](https://finnhub.io/api/news?id=e62f09f62e1338e340e3353c629772eea6b2dd86df12ced7e15fddae147d0faf)**  
-*Yahoo · 11h前*  
-The past two weeks have been bonkers for the AI investment thesis, and any talk about peak AI needs to be tossed aside.
+- **[Hot Payrolls Reload the September Hike Bet and Push Wall Street Into a Quiet Labor Day on the Back Foot](https://finnhub.io/api/news?id=f18133eba8cfe4de1a0040ef723c5f04e69debc44f0a362604012a2d4d428379)**  
+*ChartMill · 4h前*  
+Wall Street closed Friday in the red after a much stronger than expected August payrolls report reset the odds on a September rate hike above 50%. Nvidia reclai…
 
-- **[Broadcom And 2 Top Growth Stocks To Watch](https://finnhub.io/api/news?id=1da2b321390f0151cef238359899a39b3757b12e31984406225343e7aaf08dcf)**  
-*Yahoo · 11h前*  
-Strong US jobs data has kept the prospect of further Federal Reserve rate hikes firmly on the table, which keeps pressure on companies that rely too heavily on …
+- **[SCHD-Inspired 4-Factor Dividend Growth Strategy Selections For September 2026](https://finnhub.io/api/news?id=bb42b4fff5961915e0943d39451f7e871deed7c2986a302501fb247dccc82cdd)**  
+*SeekingAlpha · 9h前*  
+4-Factor Dividend Growth Strategy targets high-quality, growth-oriented dividend stocks using a rules-based, four-metric screen. Learn more about the strategy h…
 
 ---
 
@@ -59,4 +59,4 @@ Strong US jobs data has kept the prospect of further Federal Reserve rate hikes 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 21:03 HKT*
