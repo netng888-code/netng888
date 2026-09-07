@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Can Nvidia (NVDA) Prove it Doesn’t Live or Die by a Handful of Hyperscalers?](https://finnhub.io/api/news?id=bb778d9eb180c7bcb18e5ce8f837dfc5465ee61464aa9559b4c0f9af1e0ab636)**  
-*Yahoo · 3h前*  
-NVIDIA Corporation (NASDAQ:NVDA) biggest lingering investor concern was customer concentration, CNBC reported. Nvidia relies on hyperscalers Amazon, Google, and…
+- **[Bypassing RevenueBench To Buy The Feedback Loop](https://finnhub.io/api/news?id=e5b71ec0e5b840a4e1521eb586d233afa6d7e4341a89c21ae7f0b26648a929b2)**  
+*SeekingAlpha · 6h前*  
+Companies such as Meta are deliberately playing the catch-up game to the frontier by avoiding the âRevenueBenchâ altogether. Read more here...
 
-- **[I Own Both Oracle and NuScale for Different Reasons. Here's How They Fit Together.](https://finnhub.io/api/news?id=b40793938842a642033beb13c69ba7da156ae6298c41f34398889d0733596bf4)**  
-*Yahoo · 13h前*  
-I bought the dip in both Oracle and NuScale. Here's why.
+- **[Meta’s $18 Billion Teen Safety Deal Puts the Pressure on TikTok and YouTube Next](https://finnhub.io/api/news?id=13dfd6f695cca4f6776492e69d2af6375a4836c13cfcb6621751508bc0dde196)**  
+*Yahoo · 11h前*  
+CNBC reported that Meta Platforms, Inc. (NASDAQ:META) agreed to pay up to $18 billion combined to settle claims that its platforms fueled a teen mental health c…
 
-- **[What I Found By Analyzing How Seeking Alpha Analysts Rated The Mag 7](https://finnhub.io/api/news?id=eba233ff3388800a9f35b66ef6f1f68eff2afea31b642f11a07505e75d4043ea)**  
-*SeekingAlpha · 16h前*  
-Mag 7 is fragmentingâstock picking matters. See Seeking Alpha analysts' upgrade trends, Nvidia vs Apple/Tesla outlooks, and options hedging signals.
+- **[I'm Buying Consumer Experience Like Delta, Carnival, And Avoiding Discretionary Stocks](https://finnhub.io/api/news?id=1582ef2d0582b3ed5928ab2cc1a284c1b649982bd24e5b3d62a524023d8373cd)**  
+*SeekingAlpha · 13h前*  
+Travel demand is robust among boomers, and inflation risks are monitored. Click here to see why consumer experience stocks are constructive.
 
 ---
 
@@ -59,4 +59,4 @@ Mag 7 is fragmentingâstock picking matters. See Seeking Alpha analysts' upg
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 21:03 HKT*
