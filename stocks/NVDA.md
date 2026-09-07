@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Where Will Berkshire Hathaway Stock Be in 5 Years?](https://finnhub.io/api/news?id=e5c87435729e8188828604516d73cedac234fbfd5d5e5b81561560d4038962fb)**  
+- **[1 Unstoppable Vanguard Growth ETF Up 14% in 2026 to Buy and Hold for the Next 20 Years](https://finnhub.io/api/news?id=974c0bc9dac4d8b101591bae1508b7d2b43e990b34c22c39f97a125bb1d3fd31)**  
 *Yahoo · 0h前*  
-The range is wide -- and what Greg Abel does with $365 billion of cash and Treasury bills decides which end of it the stock lands on.
+The Vanguard S&P 500 Growth ETF is a solid growth bet for buy-and-hold investors.
 
-- **[Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals](https://finnhub.io/api/news?id=cffb60530c356ad83d70f5ba341f71adb8ce87c95dbba1f4ae5067ff4efff611)**  
+- **[Jensen Huang Says AGI Has Arrived. Nvidia Investors Should Pay Attention](https://finnhub.io/api/news?id=371420ebbf4be3ec25b24a64d36de4187a26532c0465602b1a5bbef67af7518a)**  
 *Yahoo · 0h前*  
-Dow Jones futures: The U.S. and Iran exchanged attacks. Nvidia, Micron, Sandisk are buys, but for how long? Apple, inflation data loom.
+The Nvidia CEO's reaction to OpenAI's GPT-6 Astra puts the enormous computing needs behind advanced AI back in focus.
 
-- **[What a $10,000 Investment in the Vanguard S&P 500 ETF (VOO) a Decade Ago Is Worth Today](https://finnhub.io/api/news?id=649ec6b53c4e46f863ad36693eb3cc76e5417314871a7aae5c6494c7a0767742)**  
+- **[Nebius Stock Up 254% in a Year: Should You Buy, Hold or Sell?](https://finnhub.io/api/news?id=a2f39a72ba6e03d4d185cc86683f05d1657b804872a1add5b2f505d525700744)**  
 *Yahoo · 0h前*  
-That investment would have compounded at a rapid rate.
+NBIS surges 253.5% in a year on AI infrastructure demand, but high capital needs and valuation raise questions about further upside.
 
 ---
 
@@ -59,4 +59,4 @@ That investment would have compounded at a rapid rate.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 21:03 HKT*
