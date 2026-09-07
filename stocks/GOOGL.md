@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-04 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$342.48** |
-| 今日變動 | ▲ $5.36　(+1.59%) |
+| 現價 | **$338.46** |
+| 今日變動 | ▼ $4.02　(-1.17%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $1,969　(▲92.0%) |
+| 未實現盈虧 | ▲ $1,921　(▲89.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $334.85 | — |
-| Put Wall（支撐） | $340.00 | -0.7% |
-| Call Wall（阻力） | $350.00 | +2.2% |
+| Gamma Flip | $336.59 | — |
+| Put Wall（支撐） | $330.00 | -2.5% |
+| Call Wall（阻力） | $350.00 | +3.4% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Liftoff Mobile: A Fine Business, Fair Price, But I Think Smadex Is The Better Trade](https://finnhub.io/api/news?id=0203f9a3e127875e285b5b46ac6cee1229c7429903d047c4977c4d2df8b78602)**  
-*SeekingAlpha · 5h前*  
-Liftoff Mobile's Q2 results beat, but slower growth, a flat Q3 guide, share unlocks & regulation raise risk. Click here to read this LFTO stock update.
+- **[Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet](https://finnhub.io/api/news?id=0af492eafa8a1c2529e56b7c222f60c50e17739840635565e17003628c39c2fd)**  
+*Yahoo · 1h前*  
+CNBC reported that NVIDIA Corporation (NASDAQ:NVDA) CFO Colette Kress told investors on August 26 that fiscal 2028 revenue growth will reach 70%, far above the …
 
-- **[Mark Zuckerberg Opposes Federal AI Watchdog in Call With Trump: Report](https://finnhub.io/api/news?id=0a5ac898eab6bbd6b41d4e67bff3068cda9d383fee1fe16906213dde50b04f98)**  
-*Yahoo · 8h前*  
-Meta Platforms Inc. (NASDAQ:META) CEO Mark Zuckerberg reportedly pushed back against a proposed national artificial-intelligence regulator during an August phon…
+- **[Musk Moves Up SpaceX (SPCX)’s Orbital Data Center Timeline, Again](https://finnhub.io/api/news?id=b5e65c7deb988b3f6874b472ff1560018a67fba0764fa660c647fc3bb4427fc4)**  
+*Yahoo · 3h前*  
+Bloomberg reported that Elon Musk said Space Exploration Technologies Corp. (NASDAQ:SPCX) first AI satellites, powered exclusively by NVIDIA Corporation (NASDAQ…
 
-- **[Google’s New Energy Project Gives Eos Energy a Key Technology Validation](https://finnhub.io/api/news?id=72f5e714c5aa2d24dbed13d87ffb75123903fd782aeb4a6e47e94693f8a73584)**  
-*Yahoo · 9h前*  
-MN8 Energy, Eos Energy Enterprises, Inc. (NASDAQ: EOSE), and Alphabet Inc. (NASDAQ:GOOGL)’s Google announced a collaboration on September 2 to deliver new, clea…
+- **[Can Nvidia (NVDA) Prove it Doesn’t Live or Die by a Handful of Hyperscalers?](https://finnhub.io/api/news?id=bb778d9eb180c7bcb18e5ce8f837dfc5465ee61464aa9559b4c0f9af1e0ab636)**  
+*Yahoo · 3h前*  
+NVIDIA Corporation (NASDAQ:NVDA) biggest lingering investor concern was customer concentration, CNBC reported. Nvidia relies on hyperscalers Amazon, Google, and…
 
 ---
 
@@ -48,7 +48,7 @@ MN8 Energy, Eos Energy Enterprises, Inc. (NASDAQ: EOSE), and Alphabet Inc. (NASD
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-04 | 監控 | $342.48 | — | 自動更新 |
+| 2026-09-07 | 監控 | $338.46 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ MN8 Energy, Eos Energy Enterprises, Inc. (NASDAQ: EOSE), and Alphabet Inc. (NASD
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 09:03 HKT*
