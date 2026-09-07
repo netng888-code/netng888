@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.](https://finnhub.io/api/news?id=50b120564eecbbbee0e2ebd59ef2a28fd08023ebf7a1379534e4efa0669fa535)**  
-*Yahoo · 6h前*  
+*Yahoo · 18h前*  
 One wave of AI spending pays all five of these companies. Why do their discounts run from 2.6% to 32%?
 
 - **[Nvidia Barely Moved. These 2 AI Connectivity Stocks Jumped More Than 7%](https://finnhub.io/api/news?id=cf0e6f1798e75872ac0c1441e71e299a10edfd0ce042c5245411dab79a7d9da9)**  
@@ -39,7 +39,7 @@ One wave of AI spending pays all five of these companies. Why do their discounts
 Nvidia rose only 0.8% on September 4, while Astera Labs jumped 9.8% and Marvell gained 7.1%. The comparison was consistent with investors broadening the AI trad…
 
 - **[FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know](https://finnhub.io/api/news?id=a96b9dd6e0f0976195e604e79d21e7ddf0f42388977af49a20b3263c933662dc)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 A number of stocks jumped in the afternoon session after investors shrugged off interest rate hike expectations following the August jobs report and unwound def…
 
 ---
@@ -59,4 +59,4 @@ A number of stocks jumped in the afternoon session after investors shrugged off 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 21:03 HKT*
