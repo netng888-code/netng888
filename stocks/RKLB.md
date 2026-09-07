@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Rocket Lab CFO Dumps Over 140,000 Company Shares Worth $8.8 Million Amid a 28% One-Year Return](https://finnhub.io/api/news?id=8576dd5557c90a72d9bded140e684022750b7be33a774be6fc845aeea5e1355f)**  
-*Yahoo · 18h前*  
+*Yahoo · 1d前*  
 The space services company reported a notable insider stock sale.
 
 - **[Prediction: Here's What a $10,000 Investment in Rocket Lab Will Be Worth in 5 Years](https://finnhub.io/api/news?id=52658f53300bc7f696746f5962a580892156309a4d124c31d17ef0197b65f2c4)**  
@@ -59,4 +59,4 @@ The rocket flight company might push back the timeline yet again for the debut o
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
