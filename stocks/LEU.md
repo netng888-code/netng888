@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -54,4 +54,4 @@ Centrus Energy (LEU) reported earnings 30 days ago. What's next for the stock? W
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
