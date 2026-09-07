@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!--
+  secreport.html  v1.0（2026-09-07）
+  ═══════════════════════════════════════════════════
+  v1.0：新增。單一HTML檔，輸入美股代號 → 攞SEC EDGAR最近5季財報
+    （companyfacts XBRL），整成專業報告 + DeepSeek V4 Flash 0731分析。
+
+    【重要技術限制】data.sec.gov 唔支援CORS，加上SEC要求所有自動化
+    request要帶合規嘅User-Agent header（瀏覽器JS冇辦法自訂呢個
+    header），所以呢個頁面無法喺瀏覽器度直接call SEC API，一定要
+    經返futu_bridge_v2.py（同gex_chart_v5_terminal.html用緊嗰個
+    local bridge，127.0.0.1:8888）先得。你需要將 sec_bridge_addon.py
+    入面兩個新endpoint（/api/sec_financials/<sym> 同
+    /api/sec_analysis/<sym>）merge入你依家嘅bridge，詳見嗰個檔案
+    頭段註解。
+
+    HOLDINGS快速切換列表複製自gex_chart_v5_terminal.html，兩邊持倉
+    有改動記得同步更新。
+  ═══════════════════════════════════════════════════
+-->
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEC 財報分析 — Fundamentals Report</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0a0c10;--bg2:#0f1218;--bg3:#141820;
+  --border:#1e2430;--border2:#252d3a;
+  --text:#c8d4e8;--muted:#4a5568;
+  --green:#00d4aa;--red:#ff4d6d;--amber:#f5a623;
+  --blue:#4a9eff;--purple:#a78bfa;--white:#ffffff;
+  --font-mono:'JetBrains Mono',monospace;
+  --font-display:'Syne',sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-size:13px;min-height:100vh;}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:linear-gradient(rgba(0,212,170,.012) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(0,212,170,.012) 1px,transparent 1px);
+  background-size:40px 40px;}
+.wrap{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:20px;}
+
+header{display:flex;align-items:flex-end;justify-content:space-between;
+  border-bottom:1px solid var(--border);padding-bottom:16px;margin-bottom:16px;flex-wrap:wrap;gap:10px;}
+.h-left h1{font-family:var(--font-display);font-size:24px;font-weight:800;color:#fff;}
+.h-left .sub{font-size:10px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:3px;}
+
+.nav-row{display:flex;gap:8px;flex-wrap:wrap;}
+.nav-link{background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--muted);
+  text-decoration:none;font-size:11px;padding:7px 12px;transition:all .2s;}
+.nav-link:hover{border-color:var(--blue);color:var(--blue);}
+
+.search-bar{display:flex;gap:10px;margin-bottom:14px;align-items:center;flex-wrap:wrap;}
+.sym-input{background:var(--bg2);border:1px solid var(--border);border-radius:6px;
+  color:#fff;font-family:var(--font-mono);font-size:16px;font-weight:700;
+  padding:10px 16px;width:180px;letter-spacing:.1em;text-transform:uppercase;outline:none;}
+.sym-input:focus{border-color:var(--green);}
+.sym-input::placeholder{color:var(--muted);font-weight:400;text-transform:none;}
+.btn{background:rgba(0,212,170,.1);border:1px solid var(--green);border-radius:6px;
+  color:var(--green);font-family:var(--font-mono);font-size:13px;font-weight:700;
+  padding:10px 20px;cursor:pointer;transition:all .2s;letter-spacing:.05em;}
+.btn:hover{background:rgba(0,212,170,.2);}
+.btn:disabled{opacity:.5;cursor:default;}
+.btn-sec{background:var(--bg3);border-color:var(--border);color:var(--muted);}
+.btn-sec:hover{border-color:var(--amber);color:var(--amber);}
+
+.qlinks{margin-bottom:18px;}
+.qlink-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;}
+.qlink-row{display:flex;gap:6px;flex-wrap:wrap;}
+.qbtn2{background:var(--bg3);border:1px solid var(--border);border-radius:4px;
+  color:var(--muted);font-family:var(--font-mono);font-size:11px;font-weight:600;
+  padding:6px 10px;cursor:pointer;transition:all .2s;}
+.qbtn2:hover{border-color:var(--purple);color:var(--purple);}
+.qbtn2.active{border-color:var(--purple);color:var(--purple);background:rgba(167,139,250,.1);}
+
+.msg{text-align:center;padding:60px 20px;color:var(--muted);}
+.spin{display:inline-block;width:24px;height:24px;border:2px solid var(--border2);
+  border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite;vertical-align:middle;margin-right:8px;}
+@keyframes spin{to{transform:rotate(360deg);}}
+.err-msg{color:var(--red);}
+
+.company-hdr{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;
+  margin-bottom:18px;padding-bottom:12px;border-bottom:1px solid var(--border);}
+.company-hdr .name{font-family:var(--font-display);font-size:20px;font-weight:800;color:#fff;}
+.company-hdr .meta{font-size:11px;color:var(--muted);}
+
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;}
+.kpi-card{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;}
+.kpi-label{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;}
+.kpi-val{font-size:22px;font-weight:700;font-family:var(--font-display);color:#fff;line-height:1;margin-bottom:8px;}
+.kpi-badges{display:flex;gap:6px;flex-wrap:wrap;}
+.badge{font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;background:var(--bg3);}
+.badge.up{color:var(--green);}
+.badge.down{color:var(--red);}
+.badge.flat{color:var(--muted);}
+
+.chart-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:10px;
+  padding:20px;margin-bottom:20px;}
+.chart-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px;}
+.chart-canvas-wrap{position:relative;height:300px;}
+
+.fin-table-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:10px;
+  padding:20px;margin-bottom:20px;overflow-x:auto;}
+.fin-table{width:100%;border-collapse:collapse;font-size:11.5px;white-space:nowrap;}
+.fin-table th,.fin-table td{padding:9px 12px;border-bottom:1px solid var(--border);text-align:right;}
+.fin-table th:first-child,.fin-table td:first-child{text-align:left;color:var(--muted);position:sticky;left:0;background:var(--bg2);}
+.fin-table th{color:var(--muted);font-size:9.5px;text-transform:uppercase;letter-spacing:.06em;font-weight:600;}
+.fin-table td{color:#fff;font-weight:500;}
+.fin-table td.sub{font-size:9.5px;color:var(--muted);font-weight:400;}
+.fin-table tr.latest td{color:var(--green);}
+.fin-table tr:last-child td{border-bottom:none;}
+.pct-up{color:var(--green);}
+.pct-down{color:var(--red);}
+
+.ai-section{background:var(--bg2);border:1px solid var(--border);border-radius:10px;
+  padding:20px;margin-bottom:20px;}
+.ai-hdr{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:12px;}
+.ai-title{font-family:var(--font-display);font-size:14px;font-weight:700;color:#fff;}
+.ai-btn{background:rgba(167,139,250,.1);border:1px solid var(--purple);border-radius:6px;
+  color:var(--purple);font-family:var(--font-mono);font-size:12px;font-weight:700;
+  padding:8px 16px;cursor:pointer;transition:all .2s;}
+.ai-btn:hover{background:rgba(167,139,250,.2);}
+.ai-btn:disabled{opacity:.5;cursor:default;}
+.ai-body{font-size:12.5px;line-height:1.8;color:var(--text);}
+.ai-placeholder{color:var(--muted);}
+.ai-meta{font-size:10px;color:var(--muted);margin-top:10px;}
+
+.notes-section{background:var(--bg2);border:1px solid var(--border);border-radius:10px;
+  padding:20px;margin-bottom:20px;}
+.notes-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;}
+.notes-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;}
+.notes-box{width:100%;min-height:100px;background:var(--bg3);border:1px solid var(--border);
+  border-radius:6px;color:var(--text);font-family:var(--font-mono);font-size:12.5px;
+  padding:12px;resize:vertical;outline:none;}
+.notes-box:focus{border-color:var(--green);}
+.notes-saved{font-size:10px;color:var(--muted);margin-top:6px;}
+
+.bottom-actions{display:flex;gap:10px;justify-content:flex-end;margin-bottom:40px;}
+
+@media print{
+  .no-print{display:none!important;}
+  body{background:#fff;color:#000;}
+  .kpi-card,.chart-wrap,.fin-table-wrap,.ai-section,.notes-section{background:#fff;border-color:#ccc;}
+  .kpi-val,.company-hdr .name{color:#000;}
+  .fin-table td{color:#000;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="h-left">
+      <h1>📑 SEC 財報分析</h1>
+      <div class="sub">Fundamentals Report · SEC EDGAR + DeepSeek V4 Flash</div>
+    </div>
+    <div class="nav-row no-print">
+      <a class="nav-link" href="index.html">🏠 Dashboard</a>
+      <a class="nav-link" href="gex_chart_v5_terminal.html">📊 GEX Terminal</a>
+      <a class="nav-link" href="mywatchlist.html">📋 My Watchlist</a>
+    </div>
+  </header>
+
+  <div class="search-bar no-print">
+    <input type="text" class="sym-input" id="sym-input" placeholder="NVDA" maxlength="8"
+      onkeydown="if(event.key==='Enter')generateReport()">
+    <button class="btn" id="gen-btn" onclick="generateReport()">📑 產生報告</button>
+    <button class="btn-sec btn" id="print-btn" onclick="window.print()" style="display:none;">🖨️ 匯出 PDF</button>
+  </div>
+
+  <div class="qlinks no-print">
+    <div class="qlink-label">持倉快速切換</div>
+    <div class="qlink-row" id="qlinks-holdings"></div>
+  </div>
+
+  <div id="status-area">
+    <div class="msg">輸入股票代號，或者由GEX Terminal持倉列表撳「📄」跳轉過嚟</div>
+  </div>
+
+  <div id="report-area" style="display:none;">
+
+    <div class="company-hdr">
+      <div>
+        <div class="name" id="rep-company">—</div>
+        <div class="meta" id="rep-meta">—</div>
+      </div>
+    </div>
+
+    <div class="kpi-grid" id="kpi-grid"></div>
+
+    <div class="chart-wrap">
+      <div class="chart-title">營收 (Revenue) 與 每股盈利 (Diluted EPS) 走勢 · 最近5季</div>
+      <div class="chart-canvas-wrap"><canvas id="trend-chart"></canvas></div>
+    </div>
+
+    <div class="fin-table-wrap">
+      <table class="fin-table" id="fin-table"></table>
+    </div>
+
+    <div class="ai-section">
+      <div class="ai-hdr">
+        <span class="ai-title">🤖 AI 分析 · DeepSeek V4 Flash 0731</span>
+        <button class="ai-btn" id="ai-btn" onclick="runSecAiAnalysis()">🤖 開始分析</button>
+      </div>
+      <div class="ai-body" id="ai-body"><span class="ai-placeholder">按「開始分析」——AI會參考上面5季營收/盈利/毛利率/現金流趨勢，用你慣用嘅基本面角度俾睇法</span></div>
+      <div class="ai-meta" id="ai-meta"></div>
+    </div>
+
+    <div class="notes-section no-print">
+      <div class="notes-hdr">
+        <span class="notes-title">📝 投資筆記（只存喺呢部機嘅瀏覽器本地，唔會上傳）</span>
+        <button class="btn-sec btn" style="padding:6px 12px;font-size:11px;" onclick="saveNotes()">💾 儲存</button>
+      </div>
+      <textarea class="notes-box" id="notes-box" placeholder="記低你對呢隻股嘅投資取向、進出場價位、觀察重點..."></textarea>
+      <div class="notes-saved" id="notes-saved"></div>
+    </div>
+
+    <div class="bottom-actions no-print">
+      <button class="btn-sec btn" onclick="window.print()">🖨️ 匯出 PDF</button>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+// ── 設定 ──────────────────────────────────────────────────────
+// 同gex_chart_v5_terminal.html用緊同一個local bridge。secreport.html
+// 需要futu_bridge_v2.py已經merge咗sec_bridge_addon.py入面兩個
+// endpoint（/api/sec_financials/<sym>、/api/sec_analysis/<sym>）。
+const BRIDGE = 'http://127.0.0.1:8888';
+
+// 持倉快速切換（複製自gex_chart_v5_terminal.html，改持倉記得兩邊同步）
+const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','RDW','ISRG','LYTE','RKLB','VRT','RR','SERV'];
+
+let currentSym = null;
+let trendChart = null;
+
+function buildHoldingsQuicklinks() {
+  const row = document.getElementById('qlinks-holdings');
+  row.innerHTML = HOLDINGS.map(s =>
+    `<button class="qbtn2" data-sym="${s}" onclick="jumpTo('${s}')">${s}</button>`
+  ).join('');
+}
+function jumpTo(sym) {
+  document.getElementById('sym-input').value = sym;
+  generateReport();
+}
+function highlightActive(sym) {
+  document.querySelectorAll('.qbtn2').forEach(b => b.classList.toggle('active', b.dataset.sym === sym));
+}
+
+function getQueryParam(name) {
+  return new URLSearchParams(window.location.search).get(name);
+}
+
+// ── 格式化 helpers ────────────────────────────────────────────
+function fmtUSD(n) {
+  if (n === null || n === undefined) return '—';
+  const abs = Math.abs(n);
+  if (abs >= 1e9) return (n/1e9).toFixed(2) + 'B';
+  if (abs >= 1e6) return (n/1e6).toFixed(1) + 'M';
+  if (abs >= 1e3) return (n/1e3).toFixed(1) + 'K';
+  return n.toFixed(2);
+}
+function fmtPct(x) {
+  if (x === null || x === undefined) return '—';
+  return (x >= 0 ? '+' : '') + (x*100).toFixed(1) + '%';
+}
+function pctClass(x) {
+  if (x === null || x === undefined) return '';
+  return x > 0.001 ? 'pct-up' : (x < -0.001 ? 'pct-down' : '');
+}
+function badgeHtml(label, x) {
+  if (x === null || x === undefined) return '';
+  const cls = x > 0.001 ? 'up' : (x < -0.001 ? 'down' : 'flat');
+  return `<span class="badge ${cls}">${label} ${fmtPct(x)}</span>`;
+}
+
+// ── 主流程 ────────────────────────────────────────────────────
+async function generateReport() {
+  const sym = document.getElementById('sym-input').value.trim().toUpperCase();
+  if (!sym) return;
+  currentSym = sym;
+  highlightActive(sym);
+  document.getElementById('report-area').style.display = 'none';
+  document.getElementById('print-btn').style.display = 'none';
+  const statusArea = document.getElementById('status-area');
+  statusArea.style.display = '';
+  statusArea.innerHTML = `<div class="msg"><span class="spin"></span> 向SEC EDGAR攞緊 ${sym} 最近5季財報...</div>`;
+  const genBtn = document.getElementById('gen-btn');
+  genBtn.disabled = true;
+
+  try {
+    const r = await fetch(`${BRIDGE}/api/sec_financials/${sym}`, {signal: AbortSignal.timeout(30000)});
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    if (d.error) throw new Error(d.error);
+    if (!d.quarters || !d.quarters.length) throw new Error('SEC冇返任何季度數據，可能呢間公司用緊非標準taxonomy');
+
+    renderReport(d);
+    statusArea.style.display = 'none';
+    document.getElementById('report-area').style.display = '';
+    document.getElementById('print-btn').style.display = '';
+    resetAiSection();
+  } catch (e) {
+    statusArea.innerHTML = `<div class="msg err-msg">⚠ 攞唔到財報數據：${e.message}<br>
+      <span style="font-size:10px;color:var(--muted)">確認futu_bridge_v2.py運行緊，並已merge咗sec_bridge_addon.py嘅新endpoint</span></div>`;
+  }
+  genBtn.disabled = false;
+}
+
+function renderReport(d) {
+  document.getElementById('rep-company').textContent = `${d.symbol} · ${d.company}`;
+  document.getElementById('rep-meta').textContent = `CIK ${d.cik} · 數據來源：SEC EDGAR companyfacts（10-Q/10-K XBRL）`;
+
+  const latest = d.quarters[0]; // 後端回傳順序：最新在前
+  const oldestFirst = [...d.quarters].reverse();
+
+  // KPI cards（最新一季）
+  const kpiGrid = document.getElementById('kpi-grid');
+  const kpis = [
+    {label:'營收 Revenue', val:'$'+fmtUSD(latest.revenue), yoy:latest.revenue_yoy, qoq:latest.revenue_qoq},
+    {label:'淨利潤 Net Income', val:'$'+fmtUSD(latest.net_income), yoy:latest.net_income_yoy, qoq:latest.net_income_qoq},
+    {label:'每股盈利 EPS(稀釋)', val: latest.eps_diluted!=null ? '$'+latest.eps_diluted.toFixed(2) : '—', yoy:null, qoq:null},
+    {label:'自由現金流 FCF', val:'$'+fmtUSD(latest.free_cash_flow), yoy:null, qoq:null},
+  ];
+  kpiGrid.innerHTML = kpis.map(k => `
+    <div class="kpi-card">
+      <div class="kpi-label">${k.label}</div>
+      <div class="kpi-val">${k.val}</div>
+      <div class="kpi-badges">${badgeHtml('YoY', k.yoy)}${badgeHtml('QoQ', k.qoq)}</div>
+    </div>`).join('');
+
+  // Trend chart
+  const labels = oldestFirst.map(q => `${q.fy}${q.fp}`);
+  if (trendChart) trendChart.destroy();
+  trendChart = new Chart(document.getElementById('trend-chart').getContext('2d'), {
+    data: {
+      labels,
+      datasets: [
+        {type:'bar', label:'Revenue (USD)', data: oldestFirst.map(q=>q.revenue),
+          backgroundColor:'rgba(0,212,170,.35)', borderColor:'#00d4aa', borderWidth:1, yAxisID:'y'},
+        {type:'line', label:'Diluted EPS (USD)', data: oldestFirst.map(q=>q.eps_diluted),
+          borderColor:'#f5a623', backgroundColor:'#f5a623', yAxisID:'y1', tension:.3, pointRadius:4},
+      ]
+    },
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      scales:{
+        x:{ticks:{color:'#4a5568'}, grid:{color:'#1e2430'}},
+        y:{position:'left', ticks:{color:'#4a5568', callback:v=>fmtUSD(v)}, grid:{color:'#1e2430'}},
+        y1:{position:'right', ticks:{color:'#4a5568'}, grid:{display:false}},
+      },
+      plugins:{legend:{labels:{color:'#c8d4e8'}}}
+    }
+  });
+
+  // Full comparison table（metric列 x quarter欄，舊→新）
+  const rowsDef = [
+    {label:'期間', fn:q=>`${q.fy}${q.fp}<div class="sub">${q.end}</div>`, raw:true},
+    {label:'申報類型', fn:q=>q.form || '—'},
+    {label:'營收 Revenue', fn:q=>'$'+fmtUSD(q.revenue), sub:q=>[badgeHtml('YoY',q.revenue_yoy),badgeHtml('QoQ',q.revenue_qoq)].join(' ')},
+    {label:'淨利潤 Net Income', fn:q=>'$'+fmtUSD(q.net_income), sub:q=>[badgeHtml('YoY',q.net_income_yoy),badgeHtml('QoQ',q.net_income_qoq)].join(' ')},
+    {label:'每股盈利(稀釋) EPS', fn:q=>q.eps_diluted!=null?'$'+q.eps_diluted.toFixed(2):'—'},
+    {label:'毛利率 Gross Margin', fn:q=>q.gross_margin!=null?(q.gross_margin*100).toFixed(1)+'%':'—'},
+    {label:'營運利潤率 Op. Margin', fn:q=>q.operating_margin!=null?(q.operating_margin*100).toFixed(1)+'%':'—'},
+    {label:'營運現金流 OCF', fn:q=>'$'+fmtUSD(q.operating_cash_flow)},
+    {label:'自由現金流 FCF', fn:q=>'$'+fmtUSD(q.free_cash_flow)},
+    {label:'總資產 Assets', fn:q=>'$'+fmtUSD(q.total_assets)},
+    {label:'總負債 Liabilities', fn:q=>'$'+fmtUSD(q.total_liabilities)},
+    {label:'現金 Cash', fn:q=>'$'+fmtUSD(q.cash)},
+  ];
+  const table = document.getElementById('fin-table');
+  let thead = '<thead><tr><th>指標</th>' + oldestFirst.map((q,i)=>`<th${i===oldestFirst.length-1?' style="color:var(--green)"':''}>${q.fy}${q.fp}</th>`).join('') + '</tr></thead>';
+  let tbody = '<tbody>' + rowsDef.map(rd => {
+    const cells = oldestFirst.map((q,i) => {
+      let html = rd.fn(q);
+      if (rd.sub) html += `<div class="sub">${rd.sub(q)}</div>`;
+      return `<td${i===oldestFirst.length-1?' class="latest-cell"':''}>${html}</td>`;
+    }).join('');
+    return `<tr>${rd.raw ? `<td>${rd.label}</td>` : `<td>${rd.label}</td>`}${cells}</tr>`;
+  }).join('') + '</tbody>';
+  table.innerHTML = thead + tbody;
+
+  loadNotes(d.symbol);
+}
+
+// ── AI 分析（call bridge嘅/api/sec_analysis/{sym}，同gex_chart_v5_terminal.html
+// 嘅runAiAnalysis()一樣用DeepSeek V4 Flash 0731，經OpenRouter）───────
+function resetAiSection() {
+  const body = document.getElementById('ai-body');
+  const btn = document.getElementById('ai-btn');
+  const meta = document.getElementById('ai-meta');
+  body.innerHTML = '<span class="ai-placeholder">按「開始分析」——AI會參考上面5季營收/盈利/毛利率/現金流趨勢，用你慣用嘅基本面角度俾睇法</span>';
+  btn.disabled = false;
+  btn.textContent = '🤖 開始分析';
+  meta.textContent = '';
+}
+
+async function runSecAiAnalysis() {
+  if (!currentSym) return;
+  const btn = document.getElementById('ai-btn');
+  const body = document.getElementById('ai-body');
+  const meta = document.getElementById('ai-meta');
+  btn.disabled = true;
+  btn.textContent = '⏳ 分析中...';
+  body.innerHTML = '<span class="spin"></span> 交畀 DeepSeek V4 Flash 分析緊5季財報趨勢，約5-15秒...';
+  meta.textContent = '';
+  try {
+    const r = await fetch(`${BRIDGE}/api/sec_analysis/${currentSym}`, {signal: AbortSignal.timeout(70000)});
+    const j = await r.json();
+    if (j.error) throw new Error(j.error);
+    body.innerHTML = (j.analysis || '（AI冇回覆內容）').replace(/\n/g, '<br>');
+    meta.textContent = `模型：${j.model || 'DeepSeek V4 Flash 0731'} · 分析生成 ${new Date().toLocaleString('zh-HK')}`;
+  } catch (e) {
+    body.innerHTML = `<span class="err-msg">⚠ AI分析失敗：${e.message}</span><br><span style="font-size:10px;color:var(--muted)">確認futu_bridge_v2.py已填OPENROUTER_API_KEY並運行緊</span>`;
+  }
+  btn.disabled = false;
+  btn.textContent = '🤖 重新分析';
+}
+
+// ── 投資筆記（純local storage，唔上傳） ────────────────────────
+function notesKey(sym) { return `secreport-notes-${sym}`; }
+function loadNotes(sym) {
+  const box = document.getElementById('notes-box');
+  box.value = localStorage.getItem(notesKey(sym)) || '';
+  document.getElementById('notes-saved').textContent = '';
+}
+function saveNotes() {
+  if (!currentSym) return;
+  localStorage.setItem(notesKey(currentSym), document.getElementById('notes-box').value);
+  document.getElementById('notes-saved').textContent = `已儲存 ${new Date().toLocaleTimeString('zh-HK')}`;
+}
+
+// ── 初始化 ────────────────────────────────────────────────────
+buildHoldingsQuicklinks();
+const initSym = getQueryParam('sym');
+if (initSym) {
+  document.getElementById('sym-input').value = initSym.toUpperCase();
+  generateReport();
+}
+</script>
+</body>
+</html>

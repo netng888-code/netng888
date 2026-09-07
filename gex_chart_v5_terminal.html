@@ -583,6 +583,13 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .qbtn2:hover{border-color:var(--blue);color:var(--blue);}
 .qbtn2.active{background:rgba(0,212,170,.12);border-color:var(--green);color:var(--green);}
 .qlink-group.holdings .qbtn2:hover{border-color:var(--green);color:var(--green);}
+/* 持倉→SEC財報報告按鈕（v5.23新增，跳去secreport.html?sym=XXX） */
+.hold-item{display:inline-flex;align-items:center;gap:2px;}
+.hold-item .qbtn2{border-radius:4px 0 0 4px;}
+.rbtn{display:inline-flex;align-items:center;justify-content:center;width:26px;height:28px;
+  background:var(--bg3);border:1px solid var(--border);border-left:none;border-radius:0 4px 4px 0;
+  color:var(--muted);text-decoration:none;font-size:11px;transition:all .15s;}
+.rbtn:hover{border-color:var(--purple);color:var(--purple);}
 
 /* Section divider / eyebrow */
 .section-eyebrow{display:flex;align-items:center;gap:10px;margin:22px 0 12px;}
@@ -1408,7 +1415,9 @@ function buildQuicklinks() {
   document.getElementById('watch-cnt').textContent = `(${WATCHLIST.length})`;
   const holdRow = document.getElementById('qlinks-holdings');
   const watchRow = document.getElementById('qlinks-watchlist');
-  holdRow.innerHTML = HOLDINGS.map(s=>`<button class="qbtn2" data-sym="${s}" onclick="quickSearch('${s}')">${s}</button>`).join('');
+  // v5.23：每個持倉button右側加埋「📄」小按鈕，新tab跳去secreport.html
+  // 睇嗰隻股嘅SEC最近5季財報分析（需secreport.html擺喺同一repo）
+  holdRow.innerHTML = HOLDINGS.map(s=>`<span class="hold-item"><button class="qbtn2" data-sym="${s}" onclick="quickSearch('${s}')">${s}</button><a class="rbtn" href="secreport.html?sym=${s}" target="_blank" rel="noopener" title="${s} SEC財報分析">📄</a></span>`).join('');
   watchRow.innerHTML = WATCHLIST.map(s=>`<button class="qbtn2" data-sym="${s}" onclick="quickSearch('${s}')">${s}</button>`).join('');
 }
 function highlightActiveQlink(sym) {
