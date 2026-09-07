@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$170.46** |
-| 今日變動 | ▼ $1.03　(-0.60%) |
+| 現價 | **$173.89** |
+| 今日變動 | ▲ $3.43　(+2.01%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $216　(▼13.7%) |
+| 未實現盈虧 | ▼ $189　(▼12.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $183.56 | — |
-| Put Wall（支撐） | $150.00 | -12.0% |
-| Call Wall（阻力） | $200.00 | +17.3% |
+| Gamma Flip | $183.32 | — |
+| Put Wall（支撐） | $150.00 | -13.7% |
+| Call Wall（阻力） | $200.00 | +15.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,13 +30,12 @@
 
 ## 📰 最新新聞
 
-- **[URNM: The Uranium Supply Crunch Is Far From Over](https://finnhub.io/api/news?id=a35f461dc55a0cc7bd55bde45ed7ef37b58209d0cd43f718f3ebdb1aaf7ff524)**  
-*SeekingAlpha · 1d前*  
-Bullish on URNM: concentrated uranium miners & physical uranium exposure.
+- **[Jefferies Initiates Coverage of Centrus Energy (LEU) with Hold](https://finnhub.io/api/news?id=3370aabb008980269d698ece6d02559d9067de8801216ef19c42fa811346c6b8)**  
+*Fintel · 2d前*
 
-- **[XME: The Bull Case Survives The August Rally](https://finnhub.io/api/news?id=f87290852f71ed815273b7d67234dc7951d9c14954ebd5f76e1c8b40ab93f891)**  
-*SeekingAlpha · 3d前*  
-Explore XME ETFâs shifting metals & mining exposureâsteel, gold, coal vs copperâplus key drivers like gold rally, trade policy, and holdings.
+- **[Centrus Energy (LEU) Down 4.3% Since Last Earnings Report: Can It Rebound?](https://finnhub.io/api/news?id=bb71e45f113d74057938814ff2bc8b6b8cb63b1a1f7fd9bdd07351758a8112df)**  
+*Yahoo · 2d前*  
+Centrus Energy (LEU) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
 
 ---
 
@@ -44,7 +43,7 @@ Explore XME ETFâs shifting metals & mining exposureâsteel, gold, coal 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-04 | 監控 | $170.46 | — | 自動更新 |
+| 2026-09-07 | 監控 | $173.89 | — | 自動更新 |
 
 ---
 
@@ -55,4 +54,4 @@ Explore XME ETFâs shifting metals & mining exposureâsteel, gold, coal 
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 09:04 HKT*
