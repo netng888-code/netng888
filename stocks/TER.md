@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$338.59** |
-| 今日變動 | ▼ $3.03　(-0.89%) |
+| 現價 | **$357.03** |
+| 今日變動 | ▲ $18.44　(+5.45%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,233　(▲268.0%) |
+| 未實現盈虧 | ▲ $1,325　(▲288.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $349.33 | — |
-| Put Wall（支撐） | $330.00 | -2.5% |
-| Call Wall（阻力） | $350.00 | +3.4% |
+| Gamma Flip | $386.48 | — |
+| Put Wall（支撐） | $330.00 | -7.6% |
+| Call Wall（阻力） | $400.00 | +12.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Teradyne (NASDAQ:TER) Delivers High Growth and Improving Fundamentals](https://finnhub.io/api/news?id=1386d15aa46011871348fbecb387176f03a1d402276c66fc303d166aa888f9e9)**  
-*ChartMill · 1h前*  
-Teradyne matches Navellier's 8-part growth strategy with strong earnings, sales, margins, cash flow, and ROE—perfect for growth investors.
+- **[FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know](https://finnhub.io/api/news?id=a96b9dd6e0f0976195e604e79d21e7ddf0f42388977af49a20b3263c933662dc)**  
+*Yahoo · 1d前*  
+A number of stocks jumped in the afternoon session after investors shrugged off interest rate hike expectations following the August jobs report and unwound def…
 
-- **[AVGO Q3 Earnings Beat Estimates, Revenues Rise on Strong AI Demand](https://finnhub.io/api/news?id=137d9b45b44de398a1155e3c6d398b51f093c8c4f56bb1d5d6e36f908ae9fc9d)**  
-*Yahoo · 19h前*  
-Broadcom's fiscal Q3 earnings and revenues beat estimates as AI chip demand surges, with AI semiconductor sales up 221% and a higher fiscal 2026 outlook.
+- **[Exploring the top movers within the S&P500 index during today's session.](https://finnhub.io/api/news?id=3efa247763ccb82bb432983509e2a71efe32dcd5773a037e2a6257e90876b9ce)**  
+*ChartMill · 2d前*  
+Let's have a look at the top S&P500 gainers and losers one hour before the close of the markets of today's session.
 
-- **[Teradyne Stock Plunges 15% in a Month: Should You Buy the Dip?](https://finnhub.io/api/news?id=de224ec8754df01417fa3681a9c2a172180abb437f149138ae7ee21b4060fea2)**  
-*Yahoo · 19h前*  
-TER stock lost 15.4% in a month, but strong AI data-center demand, UltraFLEXplus growth, and positive third-quarter guidance support its outlook.
+- **[Discover which S&P500 stocks are making waves on Friday.](https://finnhub.io/api/news?id=8365b14ad862209478e14241b98643c5a1b70d3eb7cfb54eeaa638afc9d6c0a4)**  
+*ChartMill · 2d前*  
+Stay updated with the movements of the S&P500 index in the middle of the day on Friday. Discover which stocks are leading as top gainers and losers in today's s…
 
 ---
 
@@ -48,7 +48,7 @@ TER stock lost 15.4% in a month, but strong AI data-center demand, UltraFLEXplus
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-04 | 監控 | $338.59 | — | 自動更新 |
+| 2026-09-07 | 監控 | $357.03 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ TER stock lost 15.4% in a month, but strong AI data-center demand, UltraFLEXplus
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-04 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-07 09:04 HKT*
