@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-07 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom: A New Catalyst The Market Is Missing](https://finnhub.io/api/news?id=d1244d00ed7d834411f7ae7971e5974664eaebfac0cf81d4ccd66b21b3207ea3)**  
-*SeekingAlpha · 4h前*  
-Broadcom is a Strong Buy due to booming AI semiconductor & networking revenue, high margins, and attractive valuation. Click for this AVGO stock update.
+- **[The S&P 100 ETF Just Dumped Nike and Colgate for 4 AI Stocks. Here’s What That Means for Your Portfolio](https://finnhub.io/api/news?id=42fbcd571f4e0ff319ea17c0fe94bd2d9085859a6a211459ff345ebc0a878b0d)**  
+*Yahoo · 10h前*  
+The iShares S&P 100 ETF just swapped out a toothpaste giant and a mall REIT for four AI infrastructure plays, and the move reveals something uncomfortable about…
 
-- **[Hot Payrolls Reload the September Hike Bet and Push Wall Street Into a Quiet Labor Day on the Back Foot](https://finnhub.io/api/news?id=f18133eba8cfe4de1a0040ef723c5f04e69debc44f0a362604012a2d4d428379)**  
-*ChartMill · 4h前*  
-Wall Street closed Friday in the red after a much stronger than expected August payrolls report reset the odds on a September rate hike above 50%. Nvidia reclai…
+- **[Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner](https://finnhub.io/api/news?id=10cacaa0c276487f38fdc13443277bde152a7bc9aa6864dd73b60840f308cc19)**  
+*Yahoo · 10h前*  
+Broadcom and Marvell both just reported blowout AI chip quarters, but the gap between them runs far deeper than raw revenue numbers. Picking the right one depen…
 
-- **[SCHD-Inspired 4-Factor Dividend Growth Strategy Selections For September 2026](https://finnhub.io/api/news?id=bb42b4fff5961915e0943d39451f7e871deed7c2986a302501fb247dccc82cdd)**  
-*SeekingAlpha · 9h前*  
-4-Factor Dividend Growth Strategy targets high-quality, growth-oriented dividend stocks using a rules-based, four-metric screen. Learn more about the strategy h…
+- **[Broadcom Inc. (AVGO) Is a Trending Stock: Facts to Know Before Betting on It](https://finnhub.io/api/news?id=139ec771ea0213660fd0393d58075d9bf4b8b0961cf78e5ccef71366694e39f2)**  
+*Yahoo · 12h前*  
+Recently, Zacks.com users have been paying close attention to Broadcom Inc. (AVGO). This makes it worthwhile to examine what the stock has in store.
 
 ---
 
@@ -48,7 +48,7 @@ Wall Street closed Friday in the red after a much stronger than expected August 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-07 | 監控 | $357.89 | — | 自動更新 |
+| 2026-09-08 | 監控 | $357.89 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street closed Friday in the red after a much stronger than expected August 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 09:03 HKT*
