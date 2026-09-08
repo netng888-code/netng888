@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Is Oklo at $41 a Bargain or a Trap? Here's the Answer.](https://finnhub.io/api/news?id=da321c46bd7846c0d142971a028fe3c1283950b5974f7031c7eb1096397e63a3)**  
+*Yahoo · 11h前*  
+Oklo doesn't generate meaningful revenue, so an investment today is a bet on its future.
+
 - **[BWX Technologies Already Builds Reactors for the Navy. Why Is It Still the Cheapest Nuclear Stock?](https://finnhub.io/api/news?id=402bbe95864e0d1b7071f8958707d135faea734d813a65a4837448196b09d760)**  
-*Yahoo · 23h前*  
+*Yahoo · 1d前*  
 BWX Technologies is trading at a discount compared to its peers despite its military moat.
 
 - **[Here's Why Oklo Stock Trades at a 900% Premium to NuScale Power](https://finnhub.io/api/news?id=802ecfdc9b6392468a60d86043d8728ee95e5e88927278fb80a6220b4d69283e)**  
 *Yahoo · 1d前*  
 Two SMR stocks have wildly different valuations.
-
-- **[Nuclear Stock Face-Off: Is NuScale Power or Oklo the Better Buy Right Now?](https://finnhub.io/api/news?id=a2629c2b8ca36643256525ba55233394907fdd5c040945e2a6b7a72e51b98c55)**  
-*Yahoo · 3d前*  
-Choosing an SMR stock depends on how AI companies choose to adopt nuclear energy.
 
 ---
 
@@ -48,7 +48,7 @@ Choosing an SMR stock depends on how AI companies choose to adopt nuclear energy
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-07 | 監控 | $41.27 | — | 自動更新 |
+| 2026-09-08 | 監控 | $41.27 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Choosing an SMR stock depends on how AI companies choose to adopt nuclear energy
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 09:04 HKT*
