@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-08 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[How Nvidia’s Investment Juggernaut Can Jump from Big to Enormous](https://finnhub.io/api/news?id=dfd32d6523dd94c55deb552b3ac63439d8b04483f0fd0b24d6db0a6273308319)**  
-*Yahoo · 9h前*  
-Nvidia has big investments in Intel, SpaceX and many more public companies. But its stakes in OpenAI and Anthropic are the real prize.
+- **[Semiconductor ETFs: The Good, The Bad, And The Ugly](https://finnhub.io/api/news?id=a303f880b87da2d533ae2b1983cdce7210e78c86385ee2bb8ef6e281c218849e)**  
+*SeekingAlpha · 5h前*  
+AI infrastructure demand is strong, but expectations and fragile financing raise risks. See why we rate broad U.S. equities and semiconductor ETFs a strong sell…
 
-- **[Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner](https://finnhub.io/api/news?id=10cacaa0c276487f38fdc13443277bde152a7bc9aa6864dd73b60840f308cc19)**  
-*Yahoo · 10h前*  
-Broadcom and Marvell both just reported blowout AI chip quarters, but the gap between them runs far deeper than raw revenue numbers. Picking the right one depen…
+- **[Should You Buy Marvell Technology Stock Before Oct. 6?](https://finnhub.io/api/news?id=3ea9224d2db1cec32d022aa830f5964a98aef4d7711afa9dad2071c33dbe6f70)**  
+*Yahoo · 18h前*  
+The company's Investor Day event is coming up next month, which may feature some big announcements.
 
-- **[Broadcom: Market Is In Disbelief; Don't Be Mistaken](https://finnhub.io/api/news?id=3fb8395b8442cc3160f1217a7f7556b2986ec575fbb2ee4160effa8d6061f111)**  
-*SeekingAlpha · 16h前*  
-Broadcom ramps multi-gigawatt AI chip capacity with OpenAI/Anthropic as valuation compresses. Click for more on AVGO stock.
+- **[Marvell's AI Business Is Booming. Photonics Could Be Next](https://finnhub.io/api/news?id=42e021a8d5b615c94a6d165a5986c499964aecbb1ee9499813535010fa9f9e97)**  
+*Yahoo · 19h前*  
+Data-center revenue jumped 46% as Marvell positions itself for a shift from copper connections toward faster optical technology.
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom ramps multi-gigawatt AI chip capacity with OpenAI/Anthropic as valuatio
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 21:03 HKT*
