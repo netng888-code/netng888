@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-08 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[1 Stat That Makes Costco Hard to Ignore this September](https://finnhub.io/api/news?id=cb18f714fda83bd60a692cbfddf9735cdf2cc14fe004910f1889b74157a4f418)**  
-*Yahoo · 8h前*  
-The warehouse chain's latest sales update gave investors another reason to watch September closely.
+- **[Micron vs. Sandisk: 1 Artificial Intelligence (AI) Memory Winner Is Down 20% and Clearly the Superior Buy Today](https://finnhub.io/api/news?id=df9407e0a8dffe9ecf7bc29c65174d27dbdc17d6666131b99fb96e092bed7c3d)**  
+*Yahoo · 1h前*  
+Both stocks are growing at an unreal pace.
 
-- **[Up 26% in 2026, Is Coca-Cola a Buy Near an All-Time High?](https://finnhub.io/api/news?id=cc58735c2e268622cdb2b60372b4b56194f0e75eaea492afd4473dc018f3cd58)**  
-*Yahoo · 8h前*  
-The beverage bellwether is beating the market this year. Is the fizz about to go flat?
+- **[Quantum Cyber Acquires NVIDIA A100 AI Compute Cluster to Power Its Swarm Operating System](https://finnhub.io/api/news?id=1974437e9e333c761dfc81d65185fce7311cef2f0d19b9170c49844781b9c2c4)**  
+*Yahoo · 1h前*  
+Establishes In-House AI Backbone at the Company's Bridgeport, Connecticut Facility; Positions Quantum Cyber as an AI-Native, Vertically Integrated Autonomous De…
 
-- **[What If the Clarity Act Doesn't Pass This Year? Here Are 3 Ways to Bulletproof Your Crypto Portfolio.](https://finnhub.io/api/news?id=04cf90d6658bb59287c971a7ecbdea09a06259ea4b3739333c02f24ba9cf0d35)**  
-*Yahoo · 8h前*  
-Plan for the contingency now so that you won't be chasing the market later.
+- **[Why Archer Aviation Skyrocketed 24.6% Last Month](https://finnhub.io/api/news?id=42b0fa89a18c5f953890f47eeb2eb8aaa6bda8baf69f16361f27869ff77a4f62)**  
+*Yahoo · 1h前*  
+Archer recently made a deal that's poised to have a transformative impact on the company.
 
 ---
 
@@ -59,4 +59,4 @@ Plan for the contingency now so that you won't be chasing the market later.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 21:03 HKT*
