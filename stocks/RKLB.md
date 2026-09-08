@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Cathie Wood Is Moving Money From Palantir Into Rocket Lab and Fintech](https://finnhub.io/api/news?id=b8bd745bb2aa30f966bf4f45624526b74dfcb4be40ed406474c8547865d5f458)**  
-*Yahoo · 5h前*  
+*Yahoo · 17h前*  
 ARK's latest trades show a shift toward space and financial technology while trimming several of its high-profile AI holdings.
 
 - **[The Real Satellite Race Isn’t About Rockets — It’s About Who Controls the Spectrum in Your Phone](https://finnhub.io/api/news?id=7ab2874e38eb2891e3e9cba8e520a4f00d0705364afec320c947f4124539e7d0)**  
-*Yahoo · 8h前*  
+*Yahoo · 20h前*  
 The satellite race everyone is watching plays out on launchpads, but the contest that determines who profits runs through a far less visible battlefield: the ra…
 
 - **[Cathie Wood Just Made a $45 Million Rocket Lab Move](https://finnhub.io/api/news?id=d04ed131e7f4b334e57ec85ebe9f7131ab104eef38230a437ee5323bcf4e0581)**  
-*Yahoo · 9h前*  
+*Yahoo · 21h前*  
 Rocket Lab Lands a $45 Million Ark Invest Boost as Cathie Wood Adds 705,000 Shares
 
 ---
@@ -59,4 +59,4 @@ Rocket Lab Lands a $45 Million Ark Invest Boost as Cathie Wood Adds 705,000 Shar
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 21:04 HKT*
