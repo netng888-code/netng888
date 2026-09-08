@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-07 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Bypassing RevenueBench To Buy The Feedback Loop](https://finnhub.io/api/news?id=e5b71ec0e5b840a4e1521eb586d233afa6d7e4341a89c21ae7f0b26648a929b2)**  
-*SeekingAlpha · 6h前*  
-Companies such as Meta are deliberately playing the catch-up game to the frontier by avoiding the âRevenueBenchâ altogether. Read more here...
+- **[Tracking Chase Coleman's Tiger Global Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=4bbe3f6b03058c2dfc665caf549debb0f9f373d42038beb99391bbe921c28385)**  
+*SeekingAlpha · 4h前*  
+Tiger Global Management's Q2 2026 13F portfolio rose to $23.98B, with 26 major positions. Click here to read more about the portfolio.
 
-- **[Meta’s $18 Billion Teen Safety Deal Puts the Pressure on TikTok and YouTube Next](https://finnhub.io/api/news?id=13dfd6f695cca4f6776492e69d2af6375a4836c13cfcb6621751508bc0dde196)**  
-*Yahoo · 11h前*  
-CNBC reported that Meta Platforms, Inc. (NASDAQ:META) agreed to pay up to $18 billion combined to settle claims that its platforms fueled a teen mental health c…
+- **[AMD Is Behind The AI Chip Shift Nobody Is Talking About](https://finnhub.io/api/news?id=ed58ccb2a6d417bdb7eafb56f307cb7f915d6a5ce939224d2e07ec6d5f917b32)**  
+*Yahoo · 9h前*  
+AMD and NVIDIA both posted explosive AI quarters, but they are betting on opposite visions of how the AI economy will actually be won. One of those visions fits…
 
-- **[I'm Buying Consumer Experience Like Delta, Carnival, And Avoiding Discretionary Stocks](https://finnhub.io/api/news?id=1582ef2d0582b3ed5928ab2cc1a284c1b649982bd24e5b3d62a524023d8373cd)**  
-*SeekingAlpha · 13h前*  
-Travel demand is robust among boomers, and inflation risks are monitored. Click here to see why consumer experience stocks are constructive.
+- **[Alphabet May Be the Mag 7 Stock Investors Are Underestimating](https://finnhub.io/api/news?id=eac300c64a3a9a78cebf60cea3ed85304c066ace4b6e74247e3ebe481aef4821)**  
+*Yahoo · 10h前*  
+Google Cloud is growing at twice the rate of Azure while GOOG trades at half the valuation multiple, and the gap between perception and reality may be the bigge…
 
 ---
 
@@ -48,7 +48,7 @@ Travel demand is robust among boomers, and inflation risks are monitored. Click 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-07 | 監控 | $616.77 | — | 自動更新 |
+| 2026-09-08 | 監控 | $616.77 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Travel demand is robust among boomers, and inflation risks are monitored. Click 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 09:03 HKT*
