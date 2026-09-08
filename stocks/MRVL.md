@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-07 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.](https://finnhub.io/api/news?id=50b120564eecbbbee0e2ebd59ef2a28fd08023ebf7a1379534e4efa0669fa535)**  
-*Yahoo · 18h前*  
-One wave of AI spending pays all five of these companies. Why do their discounts run from 2.6% to 32%?
+- **[How Nvidia’s Investment Juggernaut Can Jump from Big to Enormous](https://finnhub.io/api/news?id=dfd32d6523dd94c55deb552b3ac63439d8b04483f0fd0b24d6db0a6273308319)**  
+*Yahoo · 9h前*  
+Nvidia has big investments in Intel, SpaceX and many more public companies. But its stakes in OpenAI and Anthropic are the real prize.
 
-- **[Nvidia Barely Moved. These 2 AI Connectivity Stocks Jumped More Than 7%](https://finnhub.io/api/news?id=cf0e6f1798e75872ac0c1441e71e299a10edfd0ce042c5245411dab79a7d9da9)**  
-*Yahoo · 1d前*  
-Nvidia rose only 0.8% on September 4, while Astera Labs jumped 9.8% and Marvell gained 7.1%. The comparison was consistent with investors broadening the AI trad…
+- **[Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner](https://finnhub.io/api/news?id=10cacaa0c276487f38fdc13443277bde152a7bc9aa6864dd73b60840f308cc19)**  
+*Yahoo · 10h前*  
+Broadcom and Marvell both just reported blowout AI chip quarters, but the gap between them runs far deeper than raw revenue numbers. Picking the right one depen…
 
-- **[FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know](https://finnhub.io/api/news?id=a96b9dd6e0f0976195e604e79d21e7ddf0f42388977af49a20b3263c933662dc)**  
-*Yahoo · 2d前*  
-A number of stocks jumped in the afternoon session after investors shrugged off interest rate hike expectations following the August jobs report and unwound def…
+- **[Broadcom: Market Is In Disbelief; Don't Be Mistaken](https://finnhub.io/api/news?id=3fb8395b8442cc3160f1217a7f7556b2986ec575fbb2ee4160effa8d6061f111)**  
+*SeekingAlpha · 16h前*  
+Broadcom ramps multi-gigawatt AI chip capacity with OpenAI/Anthropic as valuation compresses. Click for more on AVGO stock.
 
 ---
 
@@ -48,7 +48,7 @@ A number of stocks jumped in the afternoon session after investors shrugged off 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-07 | 監控 | $223.55 | — | 自動更新 |
+| 2026-09-08 | 監控 | $223.55 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks jumped in the afternoon session after investors shrugged off 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 09:03 HKT*
