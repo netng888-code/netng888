@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -38,7 +38,7 @@
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-07 | 監控 | $1.75 | — | 自動更新 |
+| 2026-09-08 | 監控 | $1.75 | — | 自動更新 |
 
 ---
 
@@ -49,4 +49,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 09:04 HKT*
