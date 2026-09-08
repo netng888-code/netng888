@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-07 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[1 Unstoppable Vanguard Growth ETF Up 14% in 2026 to Buy and Hold for the Next 20 Years](https://finnhub.io/api/news?id=974c0bc9dac4d8b101591bae1508b7d2b43e990b34c22c39f97a125bb1d3fd31)**  
-*Yahoo · 0h前*  
-The Vanguard S&P 500 Growth ETF is a solid growth bet for buy-and-hold investors.
+- **[1 Stat That Makes Costco Hard to Ignore this September](https://finnhub.io/api/news?id=cb18f714fda83bd60a692cbfddf9735cdf2cc14fe004910f1889b74157a4f418)**  
+*Yahoo · 8h前*  
+The warehouse chain's latest sales update gave investors another reason to watch September closely.
 
-- **[Jensen Huang Says AGI Has Arrived. Nvidia Investors Should Pay Attention](https://finnhub.io/api/news?id=371420ebbf4be3ec25b24a64d36de4187a26532c0465602b1a5bbef67af7518a)**  
-*Yahoo · 0h前*  
-The Nvidia CEO's reaction to OpenAI's GPT-6 Astra puts the enormous computing needs behind advanced AI back in focus.
+- **[Up 26% in 2026, Is Coca-Cola a Buy Near an All-Time High?](https://finnhub.io/api/news?id=cc58735c2e268622cdb2b60372b4b56194f0e75eaea492afd4473dc018f3cd58)**  
+*Yahoo · 8h前*  
+The beverage bellwether is beating the market this year. Is the fizz about to go flat?
 
-- **[Nebius Stock Up 254% in a Year: Should You Buy, Hold or Sell?](https://finnhub.io/api/news?id=a2f39a72ba6e03d4d185cc86683f05d1657b804872a1add5b2f505d525700744)**  
-*Yahoo · 0h前*  
-NBIS surges 253.5% in a year on AI infrastructure demand, but high capital needs and valuation raise questions about further upside.
+- **[What If the Clarity Act Doesn't Pass This Year? Here Are 3 Ways to Bulletproof Your Crypto Portfolio.](https://finnhub.io/api/news?id=04cf90d6658bb59287c971a7ecbdea09a06259ea4b3739333c02f24ba9cf0d35)**  
+*Yahoo · 8h前*  
+Plan for the contingency now so that you won't be chasing the market later.
 
 ---
 
@@ -48,7 +48,7 @@ NBIS surges 253.5% in a year on AI infrastructure demand, but high capital needs
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-07 | 監控 | $230.36 | — | 自動更新 |
+| 2026-09-08 | 監控 | $230.36 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ NBIS surges 253.5% in a year on AI infrastructure demand, but high capital needs
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 09:03 HKT*
