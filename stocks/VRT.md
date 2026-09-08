@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Top M&A Deals In September: Nvidia, Dominion Energy, Nextera Energy, Vertiv In Focus](https://finnhub.io/api/news?id=6a31e4a15734c0e8da38044ba7d74e57ee28ad6addb508517255acbb3c67228c)**  
+*Yahoo · 6h前*  
+Nvidia’s acquisition of Hugging Face, shareholder approval of the merger of NextEra Energy and Dominion Energy, and Vertiv Holdings’ acquisition of UtilityInnov…
+
 - **[AI Is Moving Into Everyday Business — These 5 Stocks Sit Squarely in the Path of the Surge](https://finnhub.io/api/news?id=b47f4345a1532218546d58f41d29a5f8a4db384e1bff22250b6094bbe7e6bfc7)**  
-*Yahoo · 8h前*  
+*Yahoo · 20h前*  
 Goldman Sachs data suggests nearly half of all businesses could be running AI in daily operations within months, and the physical infrastructure scrambling to k…
 
 - **[Vertiv Holdings Co. (VRT) is Attracting Investor Attention: Here is What You Should Know](https://finnhub.io/api/news?id=e1822bf1ccdac90d4c20ecabe0cb312453013b140fab403205d5d4a6a1774820)**  
-*Yahoo · 12h前*  
+*Yahoo · 1d前*  
 Vertiv (VRT) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prosp…
-
-- **[These 3 AI Stocks Are Way Off Their Highs. Is the Pullback a Buying Opportunity?](https://finnhub.io/api/news?id=14ba9aa89d0b03f43386ac970f17c9a6dea7ac3832918ed06e64d37d5907993c)**  
-*Yahoo · 2d前*  
-Vertiv, Applied Optoelectronics, and Innodata entered September well below their 2026 highs despite strong operating growth. The pullbacks do not make them inte…
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv, Applied Optoelectronics, and Innodata entered September well below their
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 21:04 HKT*
