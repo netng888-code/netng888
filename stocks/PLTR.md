@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'](https://finnhub.io/api/news?id=9f32abbd15f04ac9e56aead36e4156917f49afc27cebde74575e2a9b91b1a218)**  
+- **[Palantir Stock Could Make a Dramatic Move Over the Next Year (Hint: It Implies a Big Move)](https://finnhub.io/api/news?id=20b226e6c9de799af015715ae850e20f687ef6ebd708d6c3a0d6f26ed91066a1)**  
 *Yahoo · 11h前*  
-Companies have long worried about artificial intelligence exposing sensitive data. Palantir Technologies Inc. CEO Alex Karp says they’re focused on the wrong th…
+Palantir has seen a parabolic jump in its stock price following its earnings report, and it can sustain its impressive momentum in the coming year.
 
-- **[Michael Burry sends a strong warning to Palantir stock investors](https://finnhub.io/api/news?id=8dcfffec7892dec0dbfe7acac0a28a2a1f909d59d0b8250633bb5dedbf150a80)**  
-*Yahoo · 21h前*  
-Michael Burry had plenty to say about Palantir’s market cap.
+- **[Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software](https://finnhub.io/api/news?id=8e593eda15a8a5e2cb6a56e330c9bff38b88c816bcc465d34f6fd84cfe25481e)**  
+*Yahoo · 11h前*  
+Investors yanked $700 million from the top software ETF in a single session, and within hours a major earnings report threatened to make that timing look catast…
 
-- **[Michael Burry Says Palantir's Books Look More Like a Consultant's Than a Software Company's](https://finnhub.io/api/news?id=5714bc35e234c84b1b652560d57698764d9188429e146be68b146a681ea2b14e)**  
-*Yahoo · 1d前*  
-The Big Short investor's numbers come straight from the AI specialist's own filings. What they mean is another matter.
+- **[Down Nearly 50% in 2026, Is BigBear.ai Stock Cheap Enough to Finally Buy?](https://finnhub.io/api/news?id=a19621c58dde115029fb8286fee43cbbd40d94423844643a837c143b3990a1eb)**  
+*Yahoo · 12h前*  
+The tech stock has fallen considerably from a high of more than $9 that it hit last year.
 
 ---
 
@@ -48,7 +48,7 @@ The Big Short investor's numbers come straight from the AI specialist's own fili
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-07 | 監控 | $174.33 | — | 自動更新 |
+| 2026-09-08 | 監控 | $174.33 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The Big Short investor's numbers come straight from the AI specialist's own fili
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 09:04 HKT*
