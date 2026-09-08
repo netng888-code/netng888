@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-08 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[The S&P 100 ETF Just Dumped Nike and Colgate for 4 AI Stocks. Here’s What That Means for Your Portfolio](https://finnhub.io/api/news?id=42fbcd571f4e0ff319ea17c0fe94bd2d9085859a6a211459ff345ebc0a878b0d)**  
-*Yahoo · 10h前*  
-The iShares S&P 100 ETF just swapped out a toothpaste giant and a mall REIT for four AI infrastructure plays, and the move reveals something uncomfortable about…
+- **[Dividend Harvesting Portfolio Week 288: $28,800 Allocated, $3,289.51 In Projected Dividends](https://finnhub.io/api/news?id=d3d1a380b95492109fe7307d02168b156b4c4a80de9fc5a262c0b1e539182525)**  
+*SeekingAlpha · 4h前*  
+Dividend Harvesting Portfolio update: 45.8% ROI, $3,289 forward annual income, 7.83% yield. Click here to read more.
 
-- **[Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner](https://finnhub.io/api/news?id=10cacaa0c276487f38fdc13443277bde152a7bc9aa6864dd73b60840f308cc19)**  
-*Yahoo · 10h前*  
-Broadcom and Marvell both just reported blowout AI chip quarters, but the gap between them runs far deeper than raw revenue numbers. Picking the right one depen…
+- **[Semiconductor ETFs: The Good, The Bad, And The Ugly](https://finnhub.io/api/news?id=a303f880b87da2d533ae2b1983cdce7210e78c86385ee2bb8ef6e281c218849e)**  
+*SeekingAlpha · 5h前*  
+AI infrastructure demand is strong, but expectations and fragile financing raise risks. See why we rate broad U.S. equities and semiconductor ETFs a strong sell…
 
-- **[Broadcom Inc. (AVGO) Is a Trending Stock: Facts to Know Before Betting on It](https://finnhub.io/api/news?id=139ec771ea0213660fd0393d58075d9bf4b8b0961cf78e5ccef71366694e39f2)**  
-*Yahoo · 12h前*  
-Recently, Zacks.com users have been paying close attention to Broadcom Inc. (AVGO). This makes it worthwhile to examine what the stock has in store.
+- **[Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive](https://finnhub.io/api/news?id=cdd42ce8f29ed0a1e06abdc3a3c6ea85ccf31fd4ee553efda116030f96416f70)**  
+*SeekingAlpha · 6h前*  
+Nvidia's Hugging Face investment bets on open-weight AI models as token prices commoditize. Learn why hyperscalers are vulnerable and what it means.
 
 ---
 
@@ -59,4 +59,4 @@ Recently, Zacks.com users have been paying close attention to Broadcom Inc. (AVG
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 21:03 HKT*
