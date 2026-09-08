@@ -444,13 +444,28 @@
     embed script已完全移除，HTML/CSS/JS三邊同步清走，冇殘留
     dead code。⚠️ 需要futu_bridge_v2.py同步更新到v3.7先有
     /api/macro_quotes endpoint（見另外交付嘅.txt檔案）。
+  v5.23（2026-09-07）：新增secreport.html（SEC EDGAR最近5季財報分析
+    + DeepSeek V4 Flash 0731，另一個獨立HTML檔）——「GEX + K線」tab
+    嘅搜尋列quicklinks（Futu持倉股row）每個ticker右側加咗個「📄」
+    小按鈕，新tab跳去secreport.html?sym=XXX。
+  v5.24（2026-09-07 續）【重要修正】：用戶截圖反映v5.23個「📄」按鈕
+    完全見唔到——根源：v5.23淨係加咗落「GEX + K線」tab嘅搜尋列
+    quicklinks（qlinks-holdings，buildQuicklinks()），但用戶日常
+    打開個page預設睇緊嘅係「持倉總覽」tab（v6起已經係預設分頁），
+    嗰個table係renderUS()獨立畫嘅另一組DOM，同quicklinks完全冇
+    關係，兩者係唔同tab、唔同function負責render，加落嗰一邊完全
+    唔會反映落呢一邊。修正：renderUS()每行「操作」欄（.act，已有
+    📈/FV/GE三個按鈕嗰個位）加多個「📄」連結，先至係用戶實際成日
+    睇緊嘅「持倉總覽」table度見到。v5.23嘅quicklinks按鈕維持保留
+    （兩個位都有唔重複，一個係搜尋列快速切換用，一個係主table
+    操作欄用，睇邊個順手用邊個）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.22)</title>
+<title>GEX Chart — Futu Bridge (v5.24)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -1698,6 +1713,7 @@ function renderUS(rows) {
         <button class="lnk" onclick="openTV('${sym}')">📈</button>
         <a class="lnk" href="https://finviz.com/quote.ashx?t=${sym}" target="_blank">FV</a>
         <a class="lnk" href="https://www.barchart.com/stocks/quotes/${sym}/gamma-exposure" target="_blank">GE</a>
+        <a class="lnk" href="secreport.html?sym=${sym}" target="_blank" rel="noopener" title="${sym} SEC財報分析">📄</a>
       </div></td>
     </tr>`;
   }
