@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab CFO Dumps Over 140,000 Company Shares Worth $8.8 Million Amid a 28% One-Year Return](https://finnhub.io/api/news?id=8576dd5557c90a72d9bded140e684022750b7be33a774be6fc845aeea5e1355f)**  
-*Yahoo · 1d前*  
-The space services company reported a notable insider stock sale.
+- **[Cathie Wood Is Moving Money From Palantir Into Rocket Lab and Fintech](https://finnhub.io/api/news?id=b8bd745bb2aa30f966bf4f45624526b74dfcb4be40ed406474c8547865d5f458)**  
+*Yahoo · 5h前*  
+ARK's latest trades show a shift toward space and financial technology while trimming several of its high-profile AI holdings.
 
-- **[Prediction: Here's What a $10,000 Investment in Rocket Lab Will Be Worth in 5 Years](https://finnhub.io/api/news?id=52658f53300bc7f696746f5962a580892156309a4d124c31d17ef0197b65f2c4)**  
-*Yahoo · 1d前*  
-It's hard to make predictions, especially about the future.
+- **[The Real Satellite Race Isn’t About Rockets — It’s About Who Controls the Spectrum in Your Phone](https://finnhub.io/api/news?id=7ab2874e38eb2891e3e9cba8e520a4f00d0705364afec320c947f4124539e7d0)**  
+*Yahoo · 8h前*  
+The satellite race everyone is watching plays out on launchpads, but the contest that determines who profits runs through a far less visible battlefield: the ra…
 
-- **[Rocket Lab's Revenue Is Soaring. So Why Is the Stock Sinking?](https://finnhub.io/api/news?id=d75d947946246522fc44bb2841d0ccaa193ddeb16412c5298a6340d14449c0e2)**  
-*Yahoo · 1d前*  
-The rocket flight company might push back the timeline yet again for the debut of its new rocket type.
+- **[Cathie Wood Just Made a $45 Million Rocket Lab Move](https://finnhub.io/api/news?id=d04ed131e7f4b334e57ec85ebe9f7131ab104eef38230a437ee5323bcf4e0581)**  
+*Yahoo · 9h前*  
+Rocket Lab Lands a $45 Million Ark Invest Boost as Cathie Wood Adds 705,000 Shares
 
 ---
 
@@ -48,7 +48,7 @@ The rocket flight company might push back the timeline yet again for the debut o
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-07 | 監控 | $64.26 | — | 自動更新 |
+| 2026-09-08 | 監控 | $64.26 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The rocket flight company might push back the timeline yet again for the debut o
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 09:04 HKT*
