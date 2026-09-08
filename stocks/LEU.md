@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,12 +30,7 @@
 
 ## 📰 最新新聞
 
-- **[Jefferies Initiates Coverage of Centrus Energy (LEU) with Hold](https://finnhub.io/api/news?id=3370aabb008980269d698ece6d02559d9067de8801216ef19c42fa811346c6b8)**  
-*Fintel · 2d前*
-
-- **[Centrus Energy (LEU) Down 4.3% Since Last Earnings Report: Can It Rebound?](https://finnhub.io/api/news?id=bb71e45f113d74057938814ff2bc8b6b8cb63b1a1f7fd9bdd07351758a8112df)**  
-*Yahoo · 2d前*  
-Centrus Energy (LEU) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
+- 暫無新聞
 
 ---
 
@@ -43,7 +38,7 @@ Centrus Energy (LEU) reported earnings 30 days ago. What's next for the stock? W
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-07 | 監控 | $173.89 | — | 自動更新 |
+| 2026-09-08 | 監控 | $173.89 | — | 自動更新 |
 
 ---
 
@@ -54,4 +49,4 @@ Centrus Energy (LEU) reported earnings 30 days ago. What's next for the stock? W
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 09:04 HKT*
