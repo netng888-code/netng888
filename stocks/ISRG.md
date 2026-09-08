@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical's Growth Has Cooled From Its Post-Pandemic Highs. Is That a Buying Opportunity or a Warning?](https://finnhub.io/api/news?id=f31cc8d1255da3ee79e5624e02335c5248d5b4a3379803c2af1f1642307dfd60)**  
-*Yahoo · 1d前*  
-Intuitive Surgical's flywheel isn't selling new surgical robots, its selling parts and services to support the ones it has already sold.
+- **[ISRG's Ion Platform Is Quietly Becoming a Second Growth Engine](https://finnhub.io/api/news?id=30f82c3d71c728c02b8284a8860ea904bbbc22691e7920cba19df99641cdfb6e)**  
+*Yahoo · 9h前*  
+Intuitive Surgical's Ion platform is gaining momentum, with rising procedures, a larger installed base and global expansion fueling a second growth engine.
 
-- **[2 Stocks Down 8% or More That Are Screaming Buys Right Now](https://finnhub.io/api/news?id=62ee29f2438111e292e68f25c0a9a3e289f960d0f95bdd76f41ce778ce43a6d1)**  
-*Yahoo · 2d前*  
-You might regret ignoring these companies at current levels.
+- **[Intuitive Surgical (ISRG): Embracing AI Innovations in Robotic Surgery for Future Growth](https://finnhub.io/api/news?id=bd62df8ef1027cea2e815ad3bbb21d584987832cf3ac67fb352bc6b373aa8446)**  
+*Yahoo · 12h前*  
+Sands Capital, an investment management company, released its second-quarter 2026 investor letter for “Sands Capital Global Growth Fund”. The letter can be down…
 
-- **[Intuitive Surgical Vs. Stryker: Wall Street Loves Both But One Has a Quiet Advantage That Will Make Investors Money](https://finnhub.io/api/news?id=76f3698994d65bb294be8ceff12ff1a40bf34f8086fc4997976d2b23b48436f1)**  
-*Yahoo · 2d前*  
-Both Intuitive Surgical and Stryker just posted their fifth straight earnings beat, and Wall Street is cheering for both. But a structural difference buried ins…
+- **[Global Surgical Robots Market to Reach $10.6 Billion in 2026, Driven by AI Integration and Minimally Invasive Surgery](https://finnhub.io/api/news?id=4f2802aa4ef24aef7667975d5a4b559ef64630292829d06fe129c3b40461cdab)**  
+*Yahoo · 16h前*  
+Report Features In-Depth Profiles of Abbott, Great Robotics, Intuitive Surgical, Johnson & Johnson, Medtronic, Panasonic, Renishaw, Siemens Healthineers, Smith+…
 
 ---
 
@@ -48,7 +48,7 @@ Both Intuitive Surgical and Stryker just posted their fifth straight earnings be
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-07 | 監控 | $366.70 | — | 自動更新 |
+| 2026-09-08 | 監控 | $366.70 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Both Intuitive Surgical and Stryker just posted their fifth straight earnings be
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-07 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 09:04 HKT*
