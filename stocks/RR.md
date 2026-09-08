@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-09-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,7 +30,9 @@
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[Why Richtech Robotics Zoomed Nearly 32% Higher in August](https://finnhub.io/api/news?id=65d33679480cf1bb96be48213e65a7bf3968dfd53c8b50afa0e71a507abc335b)**  
+*Yahoo · 11h前*  
+The beaten-down service robotics stock staged quite a comeback.
 
 ---
 
@@ -49,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 21:04 HKT*
