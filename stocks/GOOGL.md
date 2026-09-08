@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-08 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tracking Chase Coleman's Tiger Global Portfolio - Q2 2026 Update](https://finnhub.io/api/news?id=4bbe3f6b03058c2dfc665caf549debb0f9f373d42038beb99391bbe921c28385)**  
-*SeekingAlpha · 4h前*  
-Tiger Global Management's Q2 2026 13F portfolio rose to $23.98B, with 26 major positions. Click here to read more about the portfolio.
+- **[Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive](https://finnhub.io/api/news?id=cdd42ce8f29ed0a1e06abdc3a3c6ea85ccf31fd4ee553efda116030f96416f70)**  
+*SeekingAlpha · 6h前*  
+Nvidia's Hugging Face investment bets on open-weight AI models as token prices commoditize. Learn why hyperscalers are vulnerable and what it means.
 
-- **[Jabil Rises 36.2% Year to Date: Should You Buy the Stock?](https://finnhub.io/api/news?id=44dddb55bb0d7ed25552d7253c8bf8e890e65c33b8405b205c6779707d7fd853)**  
-*Yahoo · 8h前*  
-JBL's AI infrastructure growth and diversified portfolio are fueling gains, but supply chain risks and customer concentration remain key concerns.
+- **[Warren Buffett Told CNBC 'I Initiated It' About Berkshire's Alphabet Bet, and New Reporting Says He's Still Calling the Shots on Stocks. Here's What That Means for Reading Greg Abel's Tenure.](https://finnhub.io/api/news?id=6c815cdd8e2f04d174304f70542e67d32fcf9e3dafbdd838a2c0ed9251934407)**  
+*Yahoo · 14h前*  
+Berkshire Hathaway could be moving toward a more traditional insurance model.
 
-- **[Microsoft Stock Is Building a Trillion-Dollar AI Opportunity. Is $600 Next?](https://finnhub.io/api/news?id=cb0691a9cce468da03f653426f3bea8ca9143c1dd284f0365fe1f7bfe52756fc)**  
-*Yahoo · 9h前*  
-Azure just crossed a revenue milestone that caught Wall Street off guard, and Microsoft's backlog tells a story the headline numbers barely hint at. Whether the…
+- **[Google's AI Slashes Contrail Warming 40% in a Real-World Test](https://finnhub.io/api/news?id=0001709625f8e66ce7e841ce60023c282ffe04437460d74927a125daa720d8ca)**  
+*Yahoo · 15h前*  
+Cathay's ultra-long-haul trial gives Alphabet a climate showcase, although commercial terms remain undisclosed.
 
 ---
 
@@ -59,4 +59,4 @@ Azure just crossed a revenue milestone that caught Wall Street off guard, and Mi
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-08 21:03 HKT*
