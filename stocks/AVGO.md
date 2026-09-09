@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$357.89** |
-| 今日變動 | ▲ $0.73　(+0.21%) |
+| 現價 | **$368.56** |
+| 今日變動 | ▲ $10.66　(+2.98%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $179　(▼4.8%) |
+| 未實現盈虧 | ▼ $72　(▼1.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $362.72 | — |
-| Put Wall（支撐） | $350.00 | -2.2% |
-| Call Wall（阻力） | $370.00 | +3.4% |
+| Gamma Flip | $359.35 | — |
+| Put Wall（支撐） | $350.00 | -5.0% |
+| Call Wall（阻力） | $370.00 | +0.4% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dividend Harvesting Portfolio Week 288: $28,800 Allocated, $3,289.51 In Projected Dividends](https://finnhub.io/api/news?id=d3d1a380b95492109fe7307d02168b156b4c4a80de9fc5a262c0b1e539182525)**  
-*SeekingAlpha · 4h前*  
-Dividend Harvesting Portfolio update: 45.8% ROI, $3,289 forward annual income, 7.83% yield. Click here to read more.
+- **[S&P 500, Dow End Lower As Middle East Tensions Spur Oil Rally Ahead Of Key Inflation Data — META, QCOM, BE, AMZN, AVGO In Focus](https://finnhub.io/api/news?id=a315f6709959f09b7975b57023eb1f1e42c8aa9255c8cb764863fc87b4c164c5)**  
+*Yahoo · 2h前*  
+The U.S. struck targets near Kharg Island and the port city of Jask, Fox News reported.
 
-- **[Semiconductor ETFs: The Good, The Bad, And The Ugly](https://finnhub.io/api/news?id=a303f880b87da2d533ae2b1983cdce7210e78c86385ee2bb8ef6e281c218849e)**  
-*SeekingAlpha · 5h前*  
-AI infrastructure demand is strong, but expectations and fragile financing raise risks. See why we rate broad U.S. equities and semiconductor ETFs a strong sell…
+- **[Marvell Is Growing Faster And Its Margin Guide Is Standing Still](https://finnhub.io/api/news?id=f40d4a35a446667d8f084ca40e2197e439f8563387629f30ace47e12a71d6d34)**  
+*Yahoo · 2h前*  
+Marvell Technology (MRVL) trades at $223.55, down 22.6% over the past three months, even after a 249.5% gain over the past twelve. Management raised its revenue…
 
-- **[Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive](https://finnhub.io/api/news?id=cdd42ce8f29ed0a1e06abdc3a3c6ea85ccf31fd4ee553efda116030f96416f70)**  
-*SeekingAlpha · 6h前*  
-Nvidia's Hugging Face investment bets on open-weight AI models as token prices commoditize. Learn why hyperscalers are vulnerable and what it means.
+- **[Nvidia vs. Broadcom: Comparing Recent Quarterly Revenue Trajectories](https://finnhub.io/api/news?id=dc40c139926b5ff2051be84ab554f3af3871e90861ea3a2942e216cc5dac9983)**  
+*Yahoo · 3h前*  
+Nvidia's quarterly revenue has more than doubled in two years, while Broadcom's has roughly doubled — but the gap between them is widening at an accelerating pa…
 
 ---
 
@@ -48,7 +48,7 @@ Nvidia's Hugging Face investment bets on open-weight AI models as token prices c
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-08 | 監控 | $357.89 | — | 自動更新 |
+| 2026-09-09 | 監控 | $368.56 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia's Hugging Face investment bets on open-weight AI models as token prices c
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 09:03 HKT*
