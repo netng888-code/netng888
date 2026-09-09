@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-09 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[How Far Could RKLB Stock Fall In The Next Shock?](https://finnhub.io/api/news?id=a97c4ddf115e3ca00ca3f70f92fe52b53620235548d14b4e42eb92a463c8af4f)**  
+*Yahoo · 20h前*  
+Rocket Lab (RKLB) trades near $64, about 57% below the high it set inside the last year, though it is still up 49.5% over twelve months against 19.7% for the S&…
+
+- **[Trump Declares the Moon Belongs to the U.S. Here Are 5 Space Stocks to Watch](https://finnhub.io/api/news?id=62d12ccc9c6e2bdbb016e287656ec50bda43085cc0756f5fd2e59a147c4a0d5c)**  
+*Yahoo · 22h前*  
+A presidential caption declaring the Moon American property changes no treaty, but it may be reshuffling billions in defense contracts toward a handful of space…
+
 - **[10 Industrials Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=3da3ba41b12690b3ef72eeb609764d657a72cb1294e49559d3062ac2fdabdb3f)**  
-*Benzinga · 11h前*  
+*Benzinga · 23h前*  
 This whale alert can help traders discover the next big trading opportunities.
 Whales are entities with large sums of money and we track their transactions here…
 
@@ -52,4 +60,4 @@ Whales are entities with large sums of money and we track their transactions her
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 21:04 HKT*
