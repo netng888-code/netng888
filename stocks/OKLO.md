@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-09 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[NuScale Stock vs. Oklo Stock: Wall Street Says Buy One and Sell the Other.](https://finnhub.io/api/news?id=922e501cd32a01e59d730e22405e79225fd5a0e8915f1fdbe5c201b339a625ac)**  
+*Yahoo · 2h前*  
+Despite its tumble this year, analysts see a brighter future for Oklo than for NuScale.
+
+- **[SMR Stock Clocks Best Day In Over 4 Months: Retail Feels ‘Something Is Cooking’](https://finnhub.io/api/news?id=811ae2317c68d6649f88f468121f32d896e4c90f1d3b8664837fd0b5f21218e8)**  
+*Yahoo · 11h前*  
+NuScale Power’s stock saw its prices climb most since April.
+
 - **[Holtec Launches One of the Largest Nuclear IPOs Yet](https://finnhub.io/api/news?id=c7e7703620fade404cd5da696b14f9c3a8e03464e49bc75a641583a48807e9b6)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 Holtec Nuclear is seeking to raise about $900 million as it prepares to restart the Palisades nuclear plant and expand into small modular reactors.
-
-- **[NuScale And Oklo Heat Up, These Leveraged Nuclear ETFs Are Soaring Past 30%](https://finnhub.io/api/news?id=24c5a9b5ca65a372bb803b18a3e67490e20133067c52191479bb588ff270328a)**  
-*Benzinga · 8h前*  
-ETFs tied to NuScale surged more than 30% Tuesday as renewed investor interest in nuclear energy sent SMR, Oklo shares higher.
-
-- **[NuScale Power Spikes 13%, Oklo Climbs 7%: Is the Nuclear Selloff Finally Exhausted?](https://finnhub.io/api/news?id=fda46fbd53b5d2b634f92a936e0fca64e4dbb4df148c3c44da00adcf5ee35e72)**  
-*Yahoo · 9h前*  
-Small modular reactor stocks are surging against a red broad market, but with NuScale and Oklo still deep in the red for the year, the real question is whether …
 
 ---
 
@@ -59,4 +59,4 @@ Small modular reactor stocks are surging against a red broad market, but with Nu
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 21:04 HKT*
