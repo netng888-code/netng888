@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-09 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027](https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc)**  
+- **[Stay updated with the S&P500 stocks that are on the move in today's pre-market session.](https://finnhub.io/api/news?id=fee7ff8411d4d6ec06d6d4910d7f911dd35d3fd361ea815c362df264666f9d36)**  
+*ChartMill · 0h前*  
+Before the US market kicks off on Wednesday, let's examine the pre-market session and unveil the notable performers among the S&P500 top gainers and losers.
+
+- **[Premarket movers: Meta Jumps on AI agent launch, NETGEAR surges](https://finnhub.io/api/news?id=78304cd73ed5599529af7332896ee7a79acc878dcb184cbe2dd79f92f0859b42)**  
 *Yahoo · 1h前*  
-Meta signed a 20-year deal built around one Illinois nuclear plant. The first contracted dollar is still nine months away.
+Investing.com - U.S. stock futures traded below the flatline on Wednesday as oil prices climbed above $100 a barrel and investors awaited inflation data that co…
 
-- **[Why AMD Stock Popped Today?](https://finnhub.io/api/news?id=781ed3e2dcedccb92e1ecbcaa06a0d54cb142fde26d777f8553ea817c4d7ad14)**  
-*Yahoo · 3h前*  
-AMD Stock Rallies on Massive AI Market Opportunity
-
-- **[AMD Guides to $70 Billion of 2027 Data Center Revenue](https://finnhub.io/api/news?id=cfc6cf7db8086ed621155f91ed042f19b6b67753f986ed4c43d3283cf8f2aa82)**  
-*Yahoo · 3h前*  
-Anthropic joins Meta and OpenAI as a named anchor customer
+- **[Vistra Has Edged Lower Throughout 2026: One Bank Says It’s On The Verge of Doubling](https://finnhub.io/api/news?id=252f8438caecb180052b9f3ee99f73d36028d0f6bfe0ddb8dea5dce2559466c2)**  
+*Yahoo · 1h前*  
+Vistra has spent nine months drifting lower while Wall Street piled up bullish price targets, and at least one major bank now sees a setup that looks nothing li…
 
 ---
 
@@ -59,4 +59,4 @@ Anthropic joins Meta and OpenAI as a named anchor customer
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 21:03 HKT*
