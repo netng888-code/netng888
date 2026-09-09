@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$616.77** |
-| 今日變動 | ▲ $6.09　(+1.00%) |
+| 現價 | **$613.48** |
+| 今日變動 | ▼ $3.29　(-0.53%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $31　(▲1.7%) |
+| 未實現盈虧 | ▲ $21　(▲1.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $570.43 | — |
-| Put Wall（支撐） | $600.00 | -2.7% |
-| Call Wall（阻力） | $750.00 | +21.6% |
+| Gamma Flip | $572.45 | — |
+| Put Wall（支撐） | $600.00 | -2.2% |
+| Call Wall（阻力） | $750.00 | +22.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive](https://finnhub.io/api/news?id=cdd42ce8f29ed0a1e06abdc3a3c6ea85ccf31fd4ee553efda116030f96416f70)**  
-*SeekingAlpha · 6h前*  
-Nvidia's Hugging Face investment bets on open-weight AI models as token prices commoditize. Learn why hyperscalers are vulnerable and what it means.
+- **[Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027](https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc)**  
+*Yahoo · 1h前*  
+Meta signed a 20-year deal built around one Illinois nuclear plant. The first contracted dollar is still nine months away.
 
-- **[You're Telling Me That Circular Financing Can Reduce The Risk Of A Bubble?](https://finnhub.io/api/news?id=447a7c57d6676d7639d07b87d03a49ca7c6e8f69f79bb0584d383acbde0a2f73)**  
-*SeekingAlpha · 8h前*
+- **[Why AMD Stock Popped Today?](https://finnhub.io/api/news?id=781ed3e2dcedccb92e1ecbcaa06a0d54cb142fde26d777f8553ea817c4d7ad14)**  
+*Yahoo · 3h前*  
+AMD Stock Rallies on Massive AI Market Opportunity
 
-- **[Meta Platforms Is Too Attractive To Ignore](https://finnhub.io/api/news?id=14457dc17f1060ef9e48b97de9cd538c9cae4ff978c2f856434285df49b8fd30)**  
-*SeekingAlpha · 12h前*  
-Meta Platforms' revenue and cash flows rise despite recent stock underperformance versus the S&P 500. Find out why META stock is a Buy.
+- **[AMD Guides to $70 Billion of 2027 Data Center Revenue](https://finnhub.io/api/news?id=cfc6cf7db8086ed621155f91ed042f19b6b67753f986ed4c43d3283cf8f2aa82)**  
+*Yahoo · 3h前*  
+Anthropic joins Meta and OpenAI as a named anchor customer
 
 ---
 
@@ -47,7 +48,7 @@ Meta Platforms' revenue and cash flows rise despite recent stock underperformanc
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-08 | 監控 | $616.77 | — | 自動更新 |
+| 2026-09-09 | 監控 | $613.48 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ Meta Platforms' revenue and cash flows rise despite recent stock underperformanc
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 09:03 HKT*
