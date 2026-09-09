@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-09 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell Is Growing Faster And Its Margin Guide Is Standing Still](https://finnhub.io/api/news?id=f40d4a35a446667d8f084ca40e2197e439f8563387629f30ace47e12a71d6d34)**  
-*Yahoo · 2h前*  
-Marvell Technology (MRVL) trades at $223.55, down 22.6% over the past three months, even after a 249.5% gain over the past twelve. Management raised its revenue…
+- **[Jensen Huang's AI Capex Pulse Check](https://finnhub.io/api/news?id=f26bfa5dd2cdcf02065a8e5bff83c303492378135be57ce94f2b8f4f763d6b21)**  
+*Yahoo · 8h前*  
+Nvidia's CEO stunned investors with a bold prediction for AI capex spending, and Marvell's blowout earnings seem to back him up.
 
-- **[Broadcom vs. Marvell: Which Custom AI Chip Stock Is the Better Buy?](https://finnhub.io/api/news?id=2adab0fe459929c68338c9410b47c9f4a1e3433b4a6ff8c3341e74f3929967ba)**  
-*Yahoo · 6h前*  
-Investors looking to capitalize on the custom AI chip market need to take a closer look at these two companies dominating this space.
+- **[MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'](https://finnhub.io/api/news?id=8118bcc9942e673c9a18b59b8d19226a7edf1d28a8b3bbb3b6d85600c50f3176)**  
+*Yahoo · 9h前*  
+Marvell’s broad hyperscaler footprint and custom-chip ambitions are helping it shrug off fresh competitive pressure in AI infrastructure.
 
-- **[This Stock Just Became One of the Most Important AI Picks. Here’s Why](https://finnhub.io/api/news?id=161be106992eb095f3bb07417693a536ad30effd5417d6daba6d11e8bd79b573)**  
+- **[Applied Materials, AMD, Broadcom, Lam Research, and Marvell Technology Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=7faead45d0862b2bb97857274399d1789bc228c0e1d23f9985b3f2002a11ca1e)**  
 *Yahoo · 11h前*  
-Broadcom just delivered an earnings report that analysts say rewrites the AI semiconductor playbook entirely, and the numbers behind its custom chip roadmap sug…
+A number of stocks jumped in the afternoon session after Qualcomm announced a multi-generational product collaboration with Amazon Web Services to develop custo…
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom just delivered an earnings report that analysts say rewrites the AI sem
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 21:03 HKT*
