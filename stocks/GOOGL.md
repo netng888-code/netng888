@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$338.46** |
-| 今日變動 | ▼ $4.02　(-1.17%) |
+| 現價 | **$338.36** |
+| 今日變動 | ▼ $0.10　(-0.03%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $1,921　(▲89.7%) |
+| 未實現盈虧 | ▲ $1,920　(▲89.7%) |
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $336.59 | — |
+| Gamma Flip | $334.58 | — |
 | Put Wall（支撐） | $330.00 | -2.5% |
 | Call Wall（阻力） | $350.00 | +3.4% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive](https://finnhub.io/api/news?id=cdd42ce8f29ed0a1e06abdc3a3c6ea85ccf31fd4ee553efda116030f96416f70)**  
-*SeekingAlpha · 6h前*  
-Nvidia's Hugging Face investment bets on open-weight AI models as token prices commoditize. Learn why hyperscalers are vulnerable and what it means.
+- **[Bill Ackman Sold His Remaining Alphabet Shares and Bought This Streaming Stock](https://finnhub.io/api/news?id=ebc88ed8c055359f55158cd3e5655db5833a39dee816a95542f05eb6c12857a7)**  
+*Yahoo · 1h前*  
+Bill Ackman’s Q2 portfolio changes are drawing fresh attention on September 7: Pershing Square exited its remaining Alphabet Inc. (NASDAQ:GOOGL) shares and esta…
 
-- **[Warren Buffett Told CNBC 'I Initiated It' About Berkshire's Alphabet Bet, and New Reporting Says He's Still Calling the Shots on Stocks. Here's What That Means for Reading Greg Abel's Tenure.](https://finnhub.io/api/news?id=6c815cdd8e2f04d174304f70542e67d32fcf9e3dafbdd838a2c0ed9251934407)**  
-*Yahoo · 14h前*  
-Berkshire Hathaway could be moving toward a more traditional insurance model.
+- **[Jim Cramer Says Amazon and Alphabet Are Cheap. Their Cash Flows Complicate the Case](https://finnhub.io/api/news?id=d3c44e35067c13af7cdf79dffc2a06f9496b616809fdaa616737a9e2f5786b53)**  
+*Yahoo · 1h前*  
+Jim Cramer thinks investors have neglected two familiar AI giants. In his September 3 CNBC commentary, he argued that Amazon.com, Inc. (NASDAQ:AMZN) and Alphabe…
 
-- **[Google's AI Slashes Contrail Warming 40% in a Real-World Test](https://finnhub.io/api/news?id=0001709625f8e66ce7e841ce60023c282ffe04437460d74927a125daa720d8ca)**  
-*Yahoo · 15h前*  
-Cathay's ultra-long-haul trial gives Alphabet a climate showcase, although commercial terms remain undisclosed.
+- **[Druckenmiller Exited Micron and Bought Alphabet. The AI Risks Moved With Him](https://finnhub.io/api/news?id=e840de6c3e3b8f8ad7453a5c1174ae3f5e3348e614cd098f6600218f0452b8ee)**  
+*Yahoo · 2h前*  
+Micron Technology, Inc. (NASDAQ:MU) and Alphabet Inc. (NASDAQ:GOOGL) offer two ways to invest in AI demand. One sells essential memory; the other must turn comp…
 
 ---
 
@@ -48,7 +48,7 @@ Cathay's ultra-long-haul trial gives Alphabet a climate showcase, although comme
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-08 | 監控 | $338.46 | — | 自動更新 |
+| 2026-09-09 | 監控 | $338.36 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Cathay's ultra-long-haul trial gives Alphabet a climate showcase, although comme
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 09:03 HKT*
