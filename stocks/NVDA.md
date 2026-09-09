@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$230.36** |
-| 今日變動 | ▲ $1.91　(+0.84%) |
+| 現價 | **$225.73** |
+| 今日變動 | ▼ $4.63　(-2.01%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $702　(▲43.9%) |
+| 未實現盈虧 | ▲ $656　(▲41.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $205.59 | — |
-| Put Wall（支撐） | $220.00 | -4.5% |
-| Call Wall（阻力） | $240.00 | +4.2% |
+| Gamma Flip | $209.28 | — |
+| Put Wall（支撐） | $220.00 | -2.5% |
+| Call Wall（阻力） | $230.00 | +1.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Micron vs. Sandisk: 1 Artificial Intelligence (AI) Memory Winner Is Down 20% and Clearly the Superior Buy Today](https://finnhub.io/api/news?id=df9407e0a8dffe9ecf7bc29c65174d27dbdc17d6666131b99fb96e092bed7c3d)**  
+- **[Why Delek Holdings Stock Triumphed on Tuesday](https://finnhub.io/api/news?id=035c5d167b23eb352a5180425e6307efbdb2fe81a6d97332938393b88ba6b11c)**  
 *Yahoo · 1h前*  
-Both stocks are growing at an unreal pace.
+It's about to become a component of one of the more high-profile stock indexes.
 
-- **[Quantum Cyber Acquires NVIDIA A100 AI Compute Cluster to Power Its Swarm Operating System](https://finnhub.io/api/news?id=1974437e9e333c761dfc81d65185fce7311cef2f0d19b9170c49844781b9c2c4)**  
+- **[Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027](https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc)**  
 *Yahoo · 1h前*  
-Establishes In-House AI Backbone at the Company's Bridgeport, Connecticut Facility; Positions Quantum Cyber as an AI-Native, Vertically Integrated Autonomous De…
+Meta signed a 20-year deal built around one Illinois nuclear plant. The first contracted dollar is still nine months away.
 
-- **[Why Archer Aviation Skyrocketed 24.6% Last Month](https://finnhub.io/api/news?id=42b0fa89a18c5f953890f47eeb2eb8aaa6bda8baf69f16361f27869ff77a4f62)**  
+- **[Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due](https://finnhub.io/api/news?id=cd6d68021a949cdb1ddc3c820f58998eda93e19230e21105b3368311d1bd49c6)**  
 *Yahoo · 1h前*  
-Archer recently made a deal that's poised to have a transformative impact on the company.
+Stocks fell Tuesday as oil prices and Treasury yields rose, but AMD and HPE led AI plays flashing buy signals. An Apple iPhone event is on tap.
 
 ---
 
@@ -48,7 +48,7 @@ Archer recently made a deal that's poised to have a transformative impact on the
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-08 | 監控 | $230.36 | — | 自動更新 |
+| 2026-09-09 | 監控 | $225.73 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Archer recently made a deal that's poised to have a transformative impact on the
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 09:03 HKT*
