@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$366.70** |
-| 今日變動 | ▼ $3.13　(-0.85%) |
+| 現價 | **$350.16** |
+| 今日變動 | ▼ $16.54　(-4.51%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $173　(▼19.1%) |
+| 未實現盈虧 | ▼ $206　(▼22.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $390.85 | — |
-| Put Wall（支撐） | $350.00 | -4.6% |
-| Call Wall（阻力） | $400.00 | +9.1% |
+| Gamma Flip | $391.26 | — |
+| Put Wall（支撐） | $350.00 | -0.0% |
+| Call Wall（阻力） | $400.00 | +14.2% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[ISRG's Ion Platform Is Quietly Becoming a Second Growth Engine](https://finnhub.io/api/news?id=30f82c3d71c728c02b8284a8860ea904bbbc22691e7920cba19df99641cdfb6e)**  
-*Yahoo · 21h前*  
-Intuitive Surgical's Ion platform is gaining momentum, with rising procedures, a larger installed base and global expansion fueling a second growth engine.
+- **[Here's Why Intuitive Surgical, Inc. (ISRG) Fell More Than Broader Market](https://finnhub.io/api/news?id=4e30ea85a7614ab8467872e5fae21d1ff1b0e11a414919d6c30f6ca8a0cd4179)**  
+*Yahoo · 3h前*  
+Intuitive Surgical, Inc. (ISRG) closed the most recent trading day at $350.16, moving 4.51% from the previous trading session.
 
-- **[Intuitive Surgical (ISRG): Embracing AI Innovations in Robotic Surgery for Future Growth](https://finnhub.io/api/news?id=bd62df8ef1027cea2e815ad3bbb21d584987832cf3ac67fb352bc6b373aa8446)**  
-*Yahoo · 1d前*  
-Sands Capital, an investment management company, released its second-quarter 2026 investor letter for “Sands Capital Global Growth Fund”. The letter can be down…
+- **[New meta-analysis shows statistically significant improvements in patient outcomes associated with da Vinci surgery versus laparoscopic and open surgery across 13 common benign conditions](https://finnhub.io/api/news?id=fd54f80c06aa4a9a9658b7f6d663df2a994d6f921a2c7e17a591b1c308175632)**  
+*Yahoo · 4h前*  
+Largest comparative meta-analysis of its kind found da Vinci robotic-assisted surgery was associated with shorter hospital stays and a faster return to work com…
 
-- **[Global Surgical Robots Market to Reach $10.6 Billion in 2026, Driven by AI Integration and Minimally Invasive Surgery](https://finnhub.io/api/news?id=4f2802aa4ef24aef7667975d5a4b559ef64630292829d06fe129c3b40461cdab)**  
-*Yahoo · 1d前*  
-Report Features In-Depth Profiles of Abbott, Great Robotics, Intuitive Surgical, Johnson & Johnson, Medtronic, Panasonic, Renishaw, Siemens Healthineers, Smith+…
+- **[The Zacks Analyst Blog Highlights FANUY, ABBNY, KYCCF, NVDA, ISRG, ILMN, NOVT, BOTZ, ROBO, ROBT and IBOT](https://finnhub.io/api/news?id=d719bf4179166f804962f458c60fedca5ab419c8b8e4f402545a7df02e0737fe)**  
+*Yahoo · 10h前*  
+BOTZ offers diversified exposure to a robotics boom fueled by AI, humanoid robots and industrial automation, as the sector rapidly evolves.
 
 ---
 
@@ -48,7 +48,7 @@ Report Features In-Depth Profiles of Abbott, Great Robotics, Intuitive Surgical,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-08 | 監控 | $366.70 | — | 自動更新 |
+| 2026-09-09 | 監控 | $350.16 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Report Features In-Depth Profiles of Abbott, Great Robotics, Intuitive Surgical,
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 09:04 HKT*
