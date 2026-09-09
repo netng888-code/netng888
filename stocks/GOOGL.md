@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-09 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Bill Ackman Sold His Remaining Alphabet Shares and Bought This Streaming Stock](https://finnhub.io/api/news?id=ebc88ed8c055359f55158cd3e5655db5833a39dee816a95542f05eb6c12857a7)**  
-*Yahoo · 1h前*  
-Bill Ackman’s Q2 portfolio changes are drawing fresh attention on September 7: Pershing Square exited its remaining Alphabet Inc. (NASDAQ:GOOGL) shares and esta…
+- **[Stay updated with the S&P500 stocks that are on the move in today's pre-market session.](https://finnhub.io/api/news?id=fee7ff8411d4d6ec06d6d4910d7f911dd35d3fd361ea815c362df264666f9d36)**  
+*ChartMill · 0h前*  
+Before the US market kicks off on Wednesday, let's examine the pre-market session and unveil the notable performers among the S&P500 top gainers and losers.
 
-- **[Jim Cramer Says Amazon and Alphabet Are Cheap. Their Cash Flows Complicate the Case](https://finnhub.io/api/news?id=d3c44e35067c13af7cdf79dffc2a06f9496b616809fdaa616737a9e2f5786b53)**  
+- **[Google unveils 13 bn euro AI expansion in Finland](https://finnhub.io/api/news?id=4efc3f0134ef7e8bb2e782e6360cbbcd0e87cd988ca49d7706b8a17428d690ec)**  
 *Yahoo · 1h前*  
-Jim Cramer thinks investors have neglected two familiar AI giants. In his September 3 CNBC commentary, he argued that Amazon.com, Inc. (NASDAQ:AMZN) and Alphabe…
+Google will invest at least 13 billion euros in data centres and other digital infrastructure to power its AI ambitions in Finland, in what the US tech giant ca…
 
-- **[Druckenmiller Exited Micron and Bought Alphabet. The AI Risks Moved With Him](https://finnhub.io/api/news?id=e840de6c3e3b8f8ad7453a5c1174ae3f5e3348e614cd098f6600218f0452b8ee)**  
+- **[Google Has a Cool $15 Billion Fix to the AI Energy Problem](https://finnhub.io/api/news?id=9eae671206d61f604157a5f0684f18cbe4f1fc5e5457e81e47bf49f9207bde38)**  
 *Yahoo · 2h前*  
-Micron Technology, Inc. (NASDAQ:MU) and Alphabet Inc. (NASDAQ:GOOGL) offer two ways to invest in AI demand. One sells essential memory; the other must turn comp…
+Google has found an interesting way to combat the sky-high energy costs involved in data centers—build them in an extremely cold country.  The tech giant announ…
 
 ---
 
@@ -59,4 +59,4 @@ Micron Technology, Inc. (NASDAQ:MU) and Alphabet Inc. (NASDAQ:GOOGL) offer two w
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 21:03 HKT*
