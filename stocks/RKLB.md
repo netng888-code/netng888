@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$64.26** |
-| 今日變動 | ▲ $0.45　(+0.71%) |
+| 現價 | **$65.87** |
+| 今日變動 | ▲ $1.61　(+2.51%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $117　(▼15.4%) |
+| 未實現盈虧 | ▼ $101　(▼13.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $68.12 | — |
-| Put Wall（支撐） | $60.00 | -6.6% |
-| Call Wall（阻力） | $70.00 | +8.9% |
+| Gamma Flip | $66.28 | — |
+| Put Wall（支撐） | $65.00 | -1.3% |
+| Call Wall（阻力） | $70.00 | +6.3% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Cathie Wood Is Moving Money From Palantir Into Rocket Lab and Fintech](https://finnhub.io/api/news?id=b8bd745bb2aa30f966bf4f45624526b74dfcb4be40ed406474c8547865d5f458)**  
-*Yahoo · 17h前*  
-ARK's latest trades show a shift toward space and financial technology while trimming several of its high-profile AI holdings.
+- **[Rocket Lab Introduces New Solar Cell — Can RKLB Tackle Supply Chain Constraints In The Space Power Industry?](https://finnhub.io/api/news?id=edf429f637501e5edbaee92588ffb731a3bce965294805dbfc59a0f2107d86a3)**  
+*Yahoo · 2h前*  
+Rocket Lab says the new cell cuts weight by 40%, delivers 31.5% efficiency, and removes the need for germanium.
 
-- **[The Real Satellite Race Isn’t About Rockets — It’s About Who Controls the Spectrum in Your Phone](https://finnhub.io/api/news?id=7ab2874e38eb2891e3e9cba8e520a4f00d0705364afec320c947f4124539e7d0)**  
-*Yahoo · 20h前*  
-The satellite race everyone is watching plays out on launchpads, but the contest that determines who profits runs through a far less visible battlefield: the ra…
+- **[Rocket Lab Introduces High-Efficiency Solar Cell to Reduce Reliance on Supply-Constrained Critical Minerals](https://finnhub.io/api/news?id=0e87d30ecdb56a74fb4321c2b1af41f6b45e6d7b01a4d675655241fdad63a2b2)**  
+*Yahoo · 4h前*  
+Rocket Lab Headquarters Rocket Lab Introduces High-Efficiency Solar Cell to Reduce Reliance on Supply-Constrained Critical Minerals. LONG BEACH, Calif., Sept. 0…
 
-- **[Cathie Wood Just Made a $45 Million Rocket Lab Move](https://finnhub.io/api/news?id=d04ed131e7f4b334e57ec85ebe9f7131ab104eef38230a437ee5323bcf4e0581)**  
-*Yahoo · 21h前*  
-Rocket Lab Lands a $45 Million Ark Invest Boost as Cathie Wood Adds 705,000 Shares
+- **[SpaceX Rises 4% as Pivotal Research Launches Coverage at $220, Intuitive Machines Climbs 5%, Rocket Lab Gains 3%](https://finnhub.io/api/news?id=0ac714e967df0d506e966a24332e72362ff06a5a36fb2675534a559804c18ff2)**  
+*Yahoo · 6h前*  
+Pivotal Research just slapped a price target on SpaceX that towers above where shares currently trade, and the space complex is rallying in response, but a loom…
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab Lands a $45 Million Ark Invest Boost as Cathie Wood Adds 705,000 Shar
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-08 | 監控 | $64.26 | — | 自動更新 |
+| 2026-09-09 | 監控 | $65.87 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab Lands a $45 Million Ark Invest Boost as Cathie Wood Adds 705,000 Shar
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 09:04 HKT*
