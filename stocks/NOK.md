@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-09 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Curious about the most active stocks on Tuesday?](https://finnhub.io/api/news?id=e7ff2c19b1ea0dd0b5fc7c743285265a03298aa5dceb13fe5ea04cab8325a641)**  
-*ChartMill · 7h前*  
+*ChartMill · 19h前*  
 These stocks are making the most noise in today's session. Stay tuned for the latest updates!
 
 - **[European Equities Traded in the US as American Depositary Receipts Fall in Tuesday Trading](https://finnhub.io/api/news?id=fa5cee34494e7ba53526ed98bc2b50051a9b44ee92d48113aaf8c21922bae51f)**  
-*Yahoo · 9h前*  
+*Yahoo · 21h前*  
 European equities traded in the US as American depositary receipts were tracking lower late Tuesday
 
 - **[Changes in Nokia Corporation's own shares](https://finnhub.io/api/news?id=06e47e2336b40beb106598cd321bdf3cd5df0cc6cef443dc604db93699dad345)**  
-*Yahoo · 11h前*  
+*Yahoo · 23h前*  
 Nokia CorporationStock Exchange Release8 September 2026 at 17:00 EESTChanges in Nokia Corporation's own shares Espoo, Finland – A total of 687 145 Nokia shares …
 
 ---
@@ -59,4 +59,4 @@ Nokia CorporationStock Exchange Release8 September 2026 at 17:00 EESTChanges in 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 21:04 HKT*
