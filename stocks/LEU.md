@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-09 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,12 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[BWX Technologies shares are trading lower after the company announced it will acquire Precision Components Group.](https://finnhub.io/api/news?id=04932489db0ab02fec751dd36d2630f8de578f81f92bbbf683beeed295549eb7)**  
-*Benzinga · 11h前*
+- **[Centrus Energy, SM Energy, BKV, Select Water Solutions, and ProFrac Stocks Trade Up, What You Need To Know](https://finnhub.io/api/news?id=f85409dc65b324af28f543760f16b6d2786d48f422a1f85de88ca91e1efceb53)**  
+*Yahoo · 11h前*  
+A number of stocks jumped in the afternoon session after crude oil prices climbed sharply following strikes on Saudi Arabian energy facilities and mounting supp…
 
-- **[Construction Firms Powering The Nuclear Renaissance](https://finnhub.io/api/news?id=dedca74292306a6a4e0f3b3ed1ee5b1685102c9af8d22a76c15f98ad3e126c3a)**  
+- **[ValuEngine Weekly Commentary: Advancing Nuclear Energy And Evaluating Its Current Place Within Dynamic Asset Strategies](https://finnhub.io/api/news?id=b3fa24628d8b85adc54ce55ff5a908ddb804fb3b6784003aac2b8d59a31fddca)**  
 *SeekingAlpha · 13h前*  
-Construction companies such as Fluor and AtkinsRÃ©alis have active work spanning the nuclear value chain. These companies are seeing money from the nuclear rena…
+U.S. equity markets were mostly mixed this week, with modest gains in the major benchmarks masking weakness across several sectors.
+
+- **[NuScale Power Spikes 13%, Oklo Climbs 7%: Is the Nuclear Selloff Finally Exhausted?](https://finnhub.io/api/news?id=fda46fbd53b5d2b634f92a936e0fca64e4dbb4df148c3c44da00adcf5ee35e72)**  
+*Yahoo · 21h前*  
+Small modular reactor stocks are surging against a red broad market, but with NuScale and Oklo still deep in the red for the year, the real question is whether …
 
 ---
 
@@ -54,4 +59,4 @@ Construction companies such as Fluor and AtkinsRÃ©alis have active work spanni
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 21:04 HKT*
