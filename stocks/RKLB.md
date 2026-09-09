@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-09 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Introduces New Solar Cell — Can RKLB Tackle Supply Chain Constraints In The Space Power Industry?](https://finnhub.io/api/news?id=edf429f637501e5edbaee92588ffb731a3bce965294805dbfc59a0f2107d86a3)**  
-*Yahoo · 2h前*  
-Rocket Lab says the new cell cuts weight by 40%, delivers 31.5% efficiency, and removes the need for germanium.
-
-- **[Rocket Lab Introduces High-Efficiency Solar Cell to Reduce Reliance on Supply-Constrained Critical Minerals](https://finnhub.io/api/news?id=0e87d30ecdb56a74fb4321c2b1af41f6b45e6d7b01a4d675655241fdad63a2b2)**  
+- **[Nasdaq, Dow, S&P 500 Futures Mixed As Oil Hits $100 Again: QCOM, ORCL, AAPL, AMD, TSLA, RKLB, HOOD, GME In Focus](https://finnhub.io/api/news?id=2ac2ba787536589b8e9b25b125562b5cf8a6fed3b33a834f5fb8f3541beb7db9)**  
 *Yahoo · 4h前*  
-Rocket Lab Headquarters Rocket Lab Introduces High-Efficiency Solar Cell to Reduce Reliance on Supply-Constrained Critical Minerals. LONG BEACH, Calif., Sept. 0…
+Retail sentiment on Stocktwits remained ‘bullish’ on SPY and QQQ.
 
-- **[SpaceX Rises 4% as Pivotal Research Launches Coverage at $220, Intuitive Machines Climbs 5%, Rocket Lab Gains 3%](https://finnhub.io/api/news?id=0ac714e967df0d506e966a24332e72362ff06a5a36fb2675534a559804c18ff2)**  
-*Yahoo · 6h前*  
-Pivotal Research just slapped a price target on SpaceX that towers above where shares currently trade, and the space complex is rallying in response, but a loom…
+- **[RKLB Stock Extends Gains Overnight: Cathie Wood’s ARK Adds To Rocket Lab Stake On New Space Solar Catalyst](https://finnhub.io/api/news?id=2239d3c2162488b7ac1561916d94bd955c649e9fc084a177ea3c667c7b379b02)**  
+*Yahoo · 7h前*  
+Cathie Wood’s ARK Space Exploration & Innovation ETF (ARKX) bought 2,341 RKLB shares on Tuesday worth about $154,000.
+
+- **[Rocket Lab's Next Neutron Milestone Is a Pad Delivery, Not a Launch. I'd Hold Off on Buying the Stock.](https://finnhub.io/api/news?id=3ab34e17eb3397b04bcc5a3ba49803f741de121b0434cd078769caac42de6893)**  
+*Yahoo · 10h前*  
+Revenue records keep coming, and the cash pile tops $2 billion. What's still missing is a launch date.
 
 ---
 
@@ -59,4 +59,4 @@ Pivotal Research just slapped a price target on SpaceX that towers above where s
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 21:04 HKT*
