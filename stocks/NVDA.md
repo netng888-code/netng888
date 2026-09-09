@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-09 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Delek Holdings Stock Triumphed on Tuesday](https://finnhub.io/api/news?id=035c5d167b23eb352a5180425e6307efbdb2fe81a6d97332938393b88ba6b11c)**  
-*Yahoo · 1h前*  
-It's about to become a component of one of the more high-profile stock indexes.
-
-- **[Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027](https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc)**  
-*Yahoo · 1h前*  
-Meta signed a 20-year deal built around one Illinois nuclear plant. The first contracted dollar is still nine months away.
-
-- **[Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due](https://finnhub.io/api/news?id=cd6d68021a949cdb1ddc3c820f58998eda93e19230e21105b3368311d1bd49c6)**  
+- **[Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due](https://finnhub.io/api/news?id=913b558c09278e539d862e0229fab36439c210e6c2e2d26e784cf6c11145fb76)**  
 *Yahoo · 1h前*  
 Stocks fell Tuesday as oil prices and Treasury yields rose, but AMD and HPE led AI plays flashing buy signals. An Apple iPhone event is on tap.
+
+- **[Oracle Is The Disruptive Cloud Wildcard: Do You Buy It?](https://finnhub.io/api/news?id=a54eecff78f02cb4b9cf9b7e482c02e9e31292ce2a76256bbb5aae62644328d4)**  
+*Yahoo · 1h前*  
+Oracle has shed a third of its value while booking a backlog that no software company has ever matched, and the reason that gap exists is exactly what divides W…
+
+- **[This AI Chipmaker Looks Like a Bargain With AI Revenue Set to Double Again Next Year](https://finnhub.io/api/news?id=d2de0b23b5471efa004318a81d75c6fa70d555a86a0bc8b876889a8c27947a5d)**  
+*Yahoo · 1h前*  
+Broadcom recently delivered a substantial update about future revenue, and that forecast is not yet being reflected in its stock price.
 
 ---
 
@@ -59,4 +59,4 @@ Stocks fell Tuesday as oil prices and Treasury yields rose, but AMD and HPE led 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 21:03 HKT*
