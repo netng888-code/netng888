@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$174.33** |
-| 今日變動 | ▼ $8.20　(-4.49%) |
+| 現價 | **$170.30** |
+| 今日變動 | ▼ $4.03　(-2.31%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $350　(▲40.2%) |
+| 未實現盈虧 | ▲ $322　(▲37.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $160.94 | — |
-| Put Wall（支撐） | $170.00 | -2.5% |
-| Call Wall（阻力） | $175.00 | +0.4% |
+| Gamma Flip | $164.40 | — |
+| Put Wall（支撐） | $170.00 | -0.2% |
+| Call Wall（阻力） | $175.00 | +2.8% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir: Bears Cannot Trap AI Leader Of The Meta-Compute Layer (Rating Upgrade)](https://finnhub.io/api/news?id=c727a76a1377499e16b64f5c9cb5516a51ff89c7dc365bd7d55b39a80f0bf906)**  
-*SeekingAlpha · 12h前*  
-Palantir's meta-compute layer and ontology-driven AI architecture solidify a unique moat in enterprise and sovereign AI. Find out why PLTR stock is a Buy.
+- **[Palantir Technologies Inc. (PLTR) Falls More Steeply Than Broader Market: What Investors Need to Know](https://finnhub.io/api/news?id=8a010ff89c752008a0b5a703032e98f93e8090bc8cd63de3aa83791ad1c76460)**  
+*Yahoo · 3h前*  
+Palantir Technologies Inc. (PLTR) closed at $170.3 in the latest trading session, marking a -2.31% move from the prior day.
 
-- **[Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump](https://finnhub.io/api/news?id=89ee1437c35b1ea43ff04c0695734f1b0ef289bd07ced8822ca70a45052719c9)**  
-*Yahoo · 15h前*  
-Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps
+- **[Why CoreWeave Stock Soared 12% Today](https://finnhub.io/api/news?id=e8e95f7e9e1d9f3219d2367426846889ae1cb921ebf9fa4d9ceee80b24d43c78)**  
+*Yahoo · 4h前*  
+An announcement from rival Nebius seemed to lift CoreWeave.
 
-- **[Burry’s Palantir Warning Is Back. Accenture Shows What Investors Should Check](https://finnhub.io/api/news?id=751bff668d962532e99c934d094fef830a22db53c9eb88e1c986ed08dca55eb9)**  
-*Yahoo · 16h前*  
-Michael Burry’s accounting critique of Palantir Technologies Inc. (NASDAQ:PLTR) resurfaced in September 5 coverage, reviving the question of whether its economi…
+- **[Sector Update: Tech Stocks Rise Late Afternoon](https://finnhub.io/api/news?id=2d497d3dd33abc83c11ee636ae98c94220ee63fa1e1879442691e4e523db3eff)**  
+*Yahoo · 5h前*  
+Tech stocks were higher late Tuesday afternoon, with the State Street Technology Select Sector SPDR
 
 ---
 
@@ -48,7 +48,7 @@ Michael Burry’s accounting critique of Palantir Technologies Inc. (NASDAQ:PLTR
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-08 | 監控 | $174.33 | — | 自動更新 |
+| 2026-09-09 | 監控 | $170.30 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Michael Burry’s accounting critique of Palantir Technologies Inc. (NASDAQ:PLTR
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-08 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 09:04 HKT*
