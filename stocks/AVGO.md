@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-09 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[S&P 500, Dow End Lower As Middle East Tensions Spur Oil Rally Ahead Of Key Inflation Data — META, QCOM, BE, AMZN, AVGO In Focus](https://finnhub.io/api/news?id=a315f6709959f09b7975b57023eb1f1e42c8aa9255c8cb764863fc87b4c164c5)**  
-*Yahoo · 2h前*  
-The U.S. struck targets near Kharg Island and the port city of Jask, Fox News reported.
+- **[This AI Chipmaker Looks Like a Bargain With AI Revenue Set to Double Again Next Year](https://finnhub.io/api/news?id=d2de0b23b5471efa004318a81d75c6fa70d555a86a0bc8b876889a8c27947a5d)**  
+*Yahoo · 1h前*  
+Broadcom recently delivered a substantial update about future revenue, and that forecast is not yet being reflected in its stock price.
 
-- **[Marvell Is Growing Faster And Its Margin Guide Is Standing Still](https://finnhub.io/api/news?id=f40d4a35a446667d8f084ca40e2197e439f8563387629f30ace47e12a71d6d34)**  
+- **[Amazon CEO Andy Jassy Explained Why Semiconductor Sales Could Keep Climbing for Years to Come. Here's My Favorite AI Chipmaker Right Now.](https://finnhub.io/api/news?id=798a173f183835bf6dd0acdb0f231d003cdcbe5d0c82e6262115e46d4b126f93)**  
 *Yahoo · 2h前*  
-Marvell Technology (MRVL) trades at $223.55, down 22.6% over the past three months, even after a 249.5% gain over the past twelve. Management raised its revenue…
+This chipmaker is poised to benefit from the long-term trend.
 
-- **[Nvidia vs. Broadcom: Comparing Recent Quarterly Revenue Trajectories](https://finnhub.io/api/news?id=dc40c139926b5ff2051be84ab554f3af3871e90861ea3a2942e216cc5dac9983)**  
+- **[OpenAI Used Its Own AI Models to Design the Jalapeno Chip – The Compute Landlord Thesis Just Went Recursive](https://finnhub.io/api/news?id=a77e84ee718a679a55025ad97c2b9b3aca4bd442abbb173f46d4c0bb72f80f77)**  
 *Yahoo · 3h前*  
-Nvidia's quarterly revenue has more than doubled in two years, while Broadcom's has roughly doubled — but the gap between them is widening at an accelerating pa…
+On September 8, at Goldman Sachs’ Communacopia conference, OpenAI CFO Sarah Friar confirmed that the company utilized its own frontier AI models to design the J…
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia's quarterly revenue has more than doubled in two years, while Broadcom's 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-09 21:03 HKT*
