@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$225.41** |
-| 今日變動 | ▲ $1.86　(+0.83%) |
+| 現價 | **$235.01** |
+| 今日變動 | ▲ $9.60　(+4.26%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $319　(▼12.4%) |
+| 未實現盈虧 | ▼ $223　(▼8.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $215.02 | — |
-| Put Wall（支撐） | $200.00 | -11.3% |
-| Call Wall（阻力） | $250.00 | +10.9% |
+| Gamma Flip | $217.03 | — |
+| Put Wall（支撐） | $200.00 | -14.9% |
+| Call Wall（阻力） | $250.00 | +6.4% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jensen Huang's AI Capex Pulse Check](https://finnhub.io/api/news?id=f26bfa5dd2cdcf02065a8e5bff83c303492378135be57ce94f2b8f4f763d6b21)**  
-*Yahoo · 8h前*  
-Nvidia's CEO stunned investors with a bold prediction for AI capex spending, and Marvell's blowout earnings seem to back him up.
+- **[Marvell Or NVIDIA: Which One Costs Less Per Dollar Of Profit?](https://finnhub.io/api/news?id=c4fe7030b5ff3d9fc13b612c854759c02fd9127736442ff58ab699f613224b83)**  
+*Yahoo · 2h前*  
+If you own Marvell Technology (MRVL) or NVIDIA, you own one idea: the world is building AI data centers as fast as the supply chain allows. NVIDIA sells the who…
 
-- **[MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'](https://finnhub.io/api/news?id=8118bcc9942e673c9a18b59b8d19226a7edf1d28a8b3bbb3b6d85600c50f3176)**  
-*Yahoo · 9h前*  
-Marvell’s broad hyperscaler footprint and custom-chip ambitions are helping it shrug off fresh competitive pressure in AI infrastructure.
+- **[Marvell Has Raised Its Growth Outlook 3 Times Since December. The Stock Still Sits 28% Below Its High.](https://finnhub.io/api/news?id=3c9cfaa143f1f8b55356bfafe6a930e829bcf7e8b416d16890028df07be341eb)**  
+*Yahoo · 4h前*  
+Marvell keeps raising its revenue outlook, yet the stock sits far below its high. One of those readings has the numbers on its side.
 
-- **[Applied Materials, AMD, Broadcom, Lam Research, and Marvell Technology Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=7faead45d0862b2bb97857274399d1789bc228c0e1d23f9985b3f2002a11ca1e)**  
-*Yahoo · 11h前*  
-A number of stocks jumped in the afternoon session after Qualcomm announced a multi-generational product collaboration with Amazon Web Services to develop custo…
+- **[Uncover the latest developments among S&P500 stocks in today's session.](https://finnhub.io/api/news?id=49ea1126bd4422ec77ea9bc56b3774aa7c4f436c915c9e97d2f3ea4f9965510d)**  
+*ChartMill · 5h前*  
+Curious about the S&P500 stocks that are in motion on Wednesday? Join us as we explore the top movers within the S&P500 index during today's session.
 
 ---
 
@@ -48,7 +48,7 @@ A number of stocks jumped in the afternoon session after Qualcomm announced a mu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-09 | 監控 | $225.41 | — | 自動更新 |
+| 2026-09-10 | 監控 | $235.01 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks jumped in the afternoon session after Qualcomm announced a mu
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
