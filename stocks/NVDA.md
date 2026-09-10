@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Signet Jewelers Stock Popped Today](https://finnhub.io/api/news?id=41ff7eb158ef628a62d41ba776cd26f2121cfd7ef4f6a7a2b7e19c811b2aa6ee)**  
-*Yahoo · 0h前*  
-Diamonds don't go out of style.
+- **[Nvidia Earnings Put Narrow Robotics Rally to the Test](https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a)**  
+*ChartMill · 0h前*  
+Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership.
 
-- **[Why Comcast Stock Plummeted on Wednesday](https://finnhub.io/api/news?id=f6dbc96f4ec84a01e5281d9d503feb146e6e6120f1c919f2a9eb1508f70e2397)**  
-*Yahoo · 0h前*  
-Investors were concerned about some remarks made by the company's CFO in a conference.
-
-- **[NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem](https://finnhub.io/api/news?id=f997e67e68a4e3e63b9e5338aae37a8be5c4d78837d3664769028896f64946a3)**  
+- **[Could Buying Brookfield Renewable Today Set You Up for Life?](https://finnhub.io/api/news?id=29a7f75f86c4472b5a45a85242f6c08df7b3eb64d49489a5f07238deb70253ca)**  
 *Yahoo · 1h前*  
-Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC and AirTrunk to Deliver Up to 2-Gigawatt Buildout by 2027, Meeting Surging Demand From AI Labs and AI-…
+It could. Just not in the way you might expect.
+
+- **[Will Apple's Foldable iPhone Flourish or Flop?](https://finnhub.io/api/news?id=84df4b4abde6105e42321c69d0191da8a2b3b56964a677d35b4127cea158a8ff)**  
+*Yahoo · 1h前*  
+Apple's new CEO and foldable phone will face a real test with consumers.
 
 ---
 
@@ -59,4 +59,4 @@ Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC and AirTrunk to Delive
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
