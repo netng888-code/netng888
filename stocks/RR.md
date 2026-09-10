@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-09-09 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$1.74** |
-| 今日變動 | ▼ $0.01　(-0.57%) |
+| 現價 | **$1.67** |
+| 今日變動 | ▼ $0.07　(-4.02%) |
 | 持倉數量 | 300 股 |
 | 平均成本 | $2.445 |
-| 未實現盈虧 | ▼ $211　(▼28.8%) |
+| 未實現盈虧 | ▼ $232　(▼31.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $1.52 | — |
-| Put Wall（支撐） | $1.50 | -13.8% |
-| Call Wall（阻力） | $2.00 | +14.9% |
+| Gamma Flip | $1.53 | — |
+| Put Wall（支撐） | $1.50 | -10.2% |
+| Call Wall（阻力） | $2.00 | +19.8% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Why Richtech Robotics Zoomed Nearly 32% Higher in August](https://finnhub.io/api/news?id=65d33679480cf1bb96be48213e65a7bf3968dfd53c8b50afa0e71a507abc335b)**  
-*Yahoo · 23h前*  
+*Yahoo · 1d前*  
 The beaten-down service robotics stock staged quite a comeback.
 
 ---
@@ -40,7 +40,7 @@ The beaten-down service robotics stock staged quite a comeback.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-09 | 監控 | $1.74 | — | 自動更新 |
+| 2026-09-10 | 監控 | $1.67 | — | 自動更新 |
 
 ---
 
@@ -51,4 +51,4 @@ The beaten-down service robotics stock staged quite a comeback.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
