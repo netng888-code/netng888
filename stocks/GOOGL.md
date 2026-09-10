@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-10 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $334.01 | — |
-| Put Wall（支撐） | $330.00 | -0.2% |
+| Put Wall（支撐） | $320.00 | -3.2% |
 | Call Wall（阻力） | $350.00 | +5.9% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[HIVE joins Google, Microsoft, and Amazon in new Canada data center pledge](https://finnhub.io/api/news?id=34f11eaf89e2a676db850950a1967980551c18a67bd73bde0e46e2adf21a9398)**  
-*Yahoo · 2h前*  
-BUZZ HPC, HIVE’s AI subsidiary, signed Canada’s data center development principles alongside Google, Microsoft, AWS, Meta and Anthropic.
+- **[India’s NPCI, HDFC tie up to launch sovereign AI retail banking model](https://finnhub.io/api/news?id=ed9ec37280cc569ccf82a3a237ed563fa7a4f879d641993b86b7e8333f49d3be)**  
+*Yahoo · 1h前*  
+FiMi is intended to handle complex assignments involving long-context processing within a bank’s rules and existing systems.
 
-- **[Do Amazon and Alphabet's Combined $420 Billion in Capital Expenditures Make Sense?](https://finnhub.io/api/news?id=ff951a80c9793bdca05d94c4fe4ff878b33f0975aae72c736f349c009566553d)**  
-*Yahoo · 2h前*  
-Amazon and Alphabet are seeing results of their spending paying off.
+- **[Google, Y Combinator back Aqua’s alts platform launch](https://finnhub.io/api/news?id=d2cb22e27f36f0e1bb0003269ce8bff7ce7b9aaa0ee5eaa519291db3a6325094)**  
+*Yahoo · 1h前*  
+The capital will go towards faster business and product development, growth in its engineering and partnership teams.
 
-- **[Multi-Category Presence Key To AI Visibility For Fintech Brands](https://finnhub.io/api/news?id=0870c01e5af14b8633b168976a3d382d20d3ee190d993efbe68691e3a6a10ecc)**  
-*Yahoo · 3h前*  
-Fintech brands face greater challenges gaining visibility in AI-generated answers than brands in other sectors, but rank high when their product offerings span …
+- **[Buy the Stocks Dip or Foldable iPhone? How to Spend Trump’s $5,000 Handout.](https://finnhub.io/api/news?id=6d2b94c3d68cccf5e31ad81295772b1047fbc0a2d3628285dc2d5f3773e88a03)**  
+*Yahoo · 1h前*  
+Oil prices stay above $100, stoking stock market inflation fears; Macy’s and other key earnings; and more news to start your day.
 
 ---
 
@@ -59,4 +59,4 @@ Fintech brands face greater challenges gaining visibility in AI-generated answer
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:03 HKT*
