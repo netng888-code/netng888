@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$225.73** |
-| 今日變動 | ▼ $4.63　(-2.01%) |
+| 現價 | **$223.67** |
+| 今日變動 | ▼ $2.06　(-0.91%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $656　(▲41.0%) |
+| 未實現盈虧 | ▲ $635　(▲39.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $209.28 | — |
-| Put Wall（支撐） | $220.00 | -2.5% |
-| Call Wall（阻力） | $230.00 | +1.9% |
+| Gamma Flip | $209.13 | — |
+| Put Wall（支撐） | $220.00 | -1.6% |
+| Call Wall（阻力） | $230.00 | +2.8% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due](https://finnhub.io/api/news?id=913b558c09278e539d862e0229fab36439c210e6c2e2d26e784cf6c11145fb76)**  
-*Yahoo · 1h前*  
-Stocks fell Tuesday as oil prices and Treasury yields rose, but AMD and HPE led AI plays flashing buy signals. An Apple iPhone event is on tap.
+- **[Why Signet Jewelers Stock Popped Today](https://finnhub.io/api/news?id=41ff7eb158ef628a62d41ba776cd26f2121cfd7ef4f6a7a2b7e19c811b2aa6ee)**  
+*Yahoo · 0h前*  
+Diamonds don't go out of style.
 
-- **[Oracle Is The Disruptive Cloud Wildcard: Do You Buy It?](https://finnhub.io/api/news?id=a54eecff78f02cb4b9cf9b7e482c02e9e31292ce2a76256bbb5aae62644328d4)**  
-*Yahoo · 1h前*  
-Oracle has shed a third of its value while booking a backlog that no software company has ever matched, and the reason that gap exists is exactly what divides W…
+- **[Why Comcast Stock Plummeted on Wednesday](https://finnhub.io/api/news?id=f6dbc96f4ec84a01e5281d9d503feb146e6e6120f1c919f2a9eb1508f70e2397)**  
+*Yahoo · 0h前*  
+Investors were concerned about some remarks made by the company's CFO in a conference.
 
-- **[This AI Chipmaker Looks Like a Bargain With AI Revenue Set to Double Again Next Year](https://finnhub.io/api/news?id=d2de0b23b5471efa004318a81d75c6fa70d555a86a0bc8b876889a8c27947a5d)**  
+- **[NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem](https://finnhub.io/api/news?id=f997e67e68a4e3e63b9e5338aae37a8be5c4d78837d3664769028896f64946a3)**  
 *Yahoo · 1h前*  
-Broadcom recently delivered a substantial update about future revenue, and that forecast is not yet being reflected in its stock price.
+Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC and AirTrunk to Deliver Up to 2-Gigawatt Buildout by 2027, Meeting Surging Demand From AI Labs and AI-…
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom recently delivered a substantial update about future revenue, and that 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-09 | 監控 | $225.73 | — | 自動更新 |
+| 2026-09-10 | 監控 | $223.67 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom recently delivered a substantial update about future revenue, and that 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
