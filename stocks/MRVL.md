@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell Or NVIDIA: Which One Costs Less Per Dollar Of Profit?](https://finnhub.io/api/news?id=c4fe7030b5ff3d9fc13b612c854759c02fd9127736442ff58ab699f613224b83)**  
-*Yahoo · 2h前*  
-If you own Marvell Technology (MRVL) or NVIDIA, you own one idea: the world is building AI data centers as fast as the supply chain allows. NVIDIA sells the who…
+- **[Which S&P500 stocks are moving before the opening bell on Thursday?](https://finnhub.io/api/news?id=8f0ecb0c946565ff79ac4b73566e7b4fc9c73bb56cca3c0f7c47c0fb20ef9322)**  
+*ChartMill · 0h前*  
+Discover the top S&P500 movers in Thursday's pre-market session and stay informed about market dynamics.
 
-- **[Marvell Has Raised Its Growth Outlook 3 Times Since December. The Stock Still Sits 28% Below Its High.](https://finnhub.io/api/news?id=3c9cfaa143f1f8b55356bfafe6a930e829bcf7e8b416d16890028df07be341eb)**  
-*Yahoo · 4h前*  
-Marvell keeps raising its revenue outlook, yet the stock sits far below its high. One of those readings has the numbers on its side.
+- **[Piper Sandler lists 5 chip stocks to buy](https://finnhub.io/api/news?id=17868840fce96f0320727842548d54f80ffa3f9612844bdaf19b6055a7198383)**  
+*Yahoo · 1h前*  
+Investing.com -- Piper Sandler launched coverage of the artificial intelligence chip sector on Thursday, initiating five semiconductor stocks at Overweight and …
 
-- **[Uncover the latest developments among S&P500 stocks in today's session.](https://finnhub.io/api/news?id=49ea1126bd4422ec77ea9bc56b3774aa7c4f436c915c9e97d2f3ea4f9965510d)**  
-*ChartMill · 5h前*  
-Curious about the S&P500 stocks that are in motion on Wednesday? Join us as we explore the top movers within the S&P500 index during today's session.
+- **[Marvell Technology Targets $18B as AI Networking and Optics Fuel Growth](https://finnhub.io/api/news?id=26e5220dbbd76d905e5111814e353710c92da60b2ee37d9571e8ba16c8486f8a)**  
+*Yahoo · 7h前*  
+Marvell Technology (NASDAQ:MRVL) executives outlined the company’s expanding role in AI data-center infrastructure at Citi’s Global TMT Conference, pointing to …
 
 ---
 
@@ -59,4 +59,4 @@ Curious about the S&P500 stocks that are in motion on Wednesday? Join us as we e
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
