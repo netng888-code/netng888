@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$613.48** |
-| 今日變動 | ▼ $3.29　(-0.53%) |
+| 現價 | **$653.69** |
+| 今日變動 | ▲ $40.21　(+6.55%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $21　(▲1.2%) |
+| 未實現盈虧 | ▲ $142　(▲7.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $572.45 | — |
-| Put Wall（支撐） | $600.00 | -2.2% |
-| Call Wall（阻力） | $750.00 | +22.3% |
+| Gamma Flip | $574.15 | — |
+| Put Wall（支撐） | $600.00 | -8.2% |
+| Call Wall（阻力） | $750.00 | +14.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stay updated with the S&P500 stocks that are on the move in today's pre-market session.](https://finnhub.io/api/news?id=fee7ff8411d4d6ec06d6d4910d7f911dd35d3fd361ea815c362df264666f9d36)**  
-*ChartMill · 0h前*  
-Before the US market kicks off on Wednesday, let's examine the pre-market session and unveil the notable performers among the S&P500 top gainers and losers.
-
-- **[Premarket movers: Meta Jumps on AI agent launch, NETGEAR surges](https://finnhub.io/api/news?id=78304cd73ed5599529af7332896ee7a79acc878dcb184cbe2dd79f92f0859b42)**  
+- **[Dow Jones Futures: Oil Prices Keep Rising But Market Hasn't Broken Yet. Inflation Data Due.](https://finnhub.io/api/news?id=8904051218fef57450cd22f0745d735efb35e21e1c28d028aaba2adb472de0b7)**  
 *Yahoo · 1h前*  
-Investing.com - U.S. stock futures traded below the flatline on Wednesday as oil prices climbed above $100 a barrel and investors awaited inflation data that co…
+Oil prices and Treasury yields weighed on the indexes, But Meta, AMD were winners. Apple unveiled its foldable iPhone. Inflation data looms.
 
-- **[Vistra Has Edged Lower Throughout 2026: One Bank Says It’s On The Verge of Doubling](https://finnhub.io/api/news?id=252f8438caecb180052b9f3ee99f73d36028d0f6bfe0ddb8dea5dce2559466c2)**  
-*Yahoo · 1h前*  
-Vistra has spent nine months drifting lower while Wall Street piled up bullish price targets, and at least one major bank now sees a setup that looks nothing li…
+- **[HIVE joins Google, Microsoft, and Amazon in new Canada data center pledge](https://finnhub.io/api/news?id=34f11eaf89e2a676db850950a1967980551c18a67bd73bde0e46e2adf21a9398)**  
+*Yahoo · 2h前*  
+BUZZ HPC, HIVE’s AI subsidiary, signed Canada’s data center development principles alongside Google, Microsoft, AWS, Meta and Anthropic.
+
+- **[Why Cloudflare Rallied Today](https://finnhub.io/api/news?id=e56fde949839472dc36469f632fee9dcd7aa5ecd43cc0f3d3bbe34a28fb84ef7)**  
+*Yahoo · 2h前*  
+Meta's new Muse agent could turbocharge web traffic and Cloudflare's revenue.
 
 ---
 
@@ -48,7 +48,7 @@ Vistra has spent nine months drifting lower while Wall Street piled up bullish p
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-09 | 監控 | $613.48 | — | 自動更新 |
+| 2026-09-10 | 監控 | $653.69 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Vistra has spent nine months drifting lower while Wall Street piled up bullish p
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
