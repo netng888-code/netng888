@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[OKLO Stock Slips Overnight: This Analyst Sees 29% Upside, But Retail Turns Bearish](https://finnhub.io/api/news?id=c5e3ac20bfa3b8796c942fbd539a048c2ac90b06372142bfa8137250766ddeca)**  
+*Yahoo · 9h前*  
+Piper Sandler initiated coverage of Oklo with an ‘Overweight’ rating and a $55 price target, implying an upside of about 29%.
+
 - **[Oklo Trades at $43. Wall Street's Average Target Is $75. Here's What I Think It's Actually Worth.](https://finnhub.io/api/news?id=05da9c3f9f712dd7573ed5c2ff9d56afd678176bb8849481e380a976bf8fdf4c)**  
-*Yahoo · 5h前*  
+*Yahoo · 17h前*  
 The microreactor maker won't attract too many risk-seeking investors in this choppy market.
 
 - **[Uber initiated, Thermo Fisher upgraded: Wall Street's top analyst calls](https://finnhub.io/api/news?id=6ddf0f41f1d6437c138acf209a8f0bd17a53be689818cb41dff1eae7fba8d6a8)**  
-*Yahoo · 11h前*  
+*Yahoo · 23h前*  
 Uber initiated, Thermo Fisher upgraded: Wall Street's top analyst calls
-
-- **[Forget Oklo: This Nuclear Stock Could Be the Better Buy](https://finnhub.io/api/news?id=7f91bfd8d4d6481b72102cd24f8a6c1680f00d37831c7833a70dafc54229c481)**  
-*Yahoo · 12h前*  
-Nuclear investors should weigh growth potential against a company's valuation.
 
 ---
 
@@ -59,4 +59,4 @@ Nuclear investors should weigh growth potential against a company's valuation.
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
