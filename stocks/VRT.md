@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-09 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$290.83** |
-| 今日變動 | ▲ $10.30　(+3.67%) |
+| 現價 | **$262.89** |
+| 今日變動 | ▼ $27.94　(-9.61%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $26　(▼4.3%) |
+| 未實現盈虧 | ▼ $82　(▼13.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $263.57 | — |
-| Put Wall（支撐） | $280.00 | -3.7% |
-| Call Wall（阻力） | $300.00 | +3.2% |
+| Gamma Flip | $264.42 | — |
+| Put Wall（支撐） | $240.00 | -8.7% |
+| Call Wall（阻力） | $300.00 | +14.1% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Visa CEO Highlights Cross-Border Growth, AI Gains and Stablecoin Push](https://finnhub.io/api/news?id=6fdb1c8c75bfd06236c18018d5f8e4318b39311911ef7202c2521adf11cdbd98)**  
-*Yahoo · 2h前*  
-Visa (NYSE:V) CEO Ryan McInerney said the payments company is seeing continued strength in consumer spending, accelerating cross-border activity and growing dem…
-
-- **[Prediction: This AI Power Stock Will Double Revenue Before 2030. Here's the Math.](https://finnhub.io/api/news?id=c9e0d2ac72286758e1e24e04f62e06bdf1edf45bdc7242762e171c96032a7b48)**  
+- **[Why Vertiv Holdings Co. (VRT) Dipped More Than Broader Market Today](https://finnhub.io/api/news?id=b8c2e9525360491eec4c07589808918bee413c52352e2aa178ede956d2fd91d0)**  
 *Yahoo · 3h前*  
-Vertiv's next phase of growth will depend on demand trends and execution.
+Vertiv Holdings Co. (VRT) concluded the recent trading session at $262.89, signifying a -9.61% move from its prior day's close.
 
-- **[Vertiv Holdings Co (VRT) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript](https://finnhub.io/api/news?id=23705c21f69cbaa4ea4675360a1f43648d438eb7e1a15f05bca3b5745809c135)**  
-*SeekingAlpha · 7h前*  
-Vertiv Holdings Co (VRT) Goldman Sachs Communacopia + Technology Conference 2026 September 8, 2026 1:50 PM EDTCompany ParticipantsGiordano Albertazzi - CEO...
+- **[Uncover the latest developments among S&P500 stocks in today's session.](https://finnhub.io/api/news?id=49ea1126bd4422ec77ea9bc56b3774aa7c4f436c915c9e97d2f3ea4f9965510d)**  
+*ChartMill · 5h前*  
+Curious about the S&P500 stocks that are in motion on Wednesday? Join us as we explore the top movers within the S&P500 index during today's session.
+
+- **[Explore the top gainers and losers within the S&P500 index in today's session.](https://finnhub.io/api/news?id=9010e2be1fabb11bd0e4b96f580bfbdf4df2d168c86e72bedc5388b43a1e69fc)**  
+*ChartMill · 8h前*  
+Stay informed about the performance of the S&P500 index in the middle of the day on Wednesday. Uncover the top gainers and losers in today's session for valuabl…
 
 ---
 
@@ -48,7 +48,7 @@ Vertiv Holdings Co (VRT) Goldman Sachs Communacopia + Technology Conference 2026
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-09 | 監控 | $290.83 | — | 自動更新 |
+| 2026-09-10 | 監控 | $262.89 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv Holdings Co (VRT) Goldman Sachs Communacopia + Technology Conference 2026
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
