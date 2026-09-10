@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: Oil Prices Keep Rising But Market Hasn't Broken Yet. Inflation Data Due.](https://finnhub.io/api/news?id=8904051218fef57450cd22f0745d735efb35e21e1c28d028aaba2adb472de0b7)**  
+- **[Dow Jones Futures Rise, Oil Prices Keep Climbing; Inflation Data Due.](https://finnhub.io/api/news?id=dd3d17e2f806bc40ccca35d29f266c89d6e1a041a462227620a74fef0b2eae10)**  
 *Yahoo · 1h前*  
 Oil prices and Treasury yields weighed on the indexes, But Meta, AMD were winners. Apple unveiled its foldable iPhone. Inflation data looms.
 
-- **[HIVE joins Google, Microsoft, and Amazon in new Canada data center pledge](https://finnhub.io/api/news?id=34f11eaf89e2a676db850950a1967980551c18a67bd73bde0e46e2adf21a9398)**  
-*Yahoo · 2h前*  
-BUZZ HPC, HIVE’s AI subsidiary, signed Canada’s data center development principles alongside Google, Microsoft, AWS, Meta and Anthropic.
+- **[JPMorgan upgrades Meta on AI models and agents, sees ’meaningful headroom’](https://finnhub.io/api/news?id=8648cd281b8749bd5f0e73d07be9db913c443e9646eba007734814c7afbe9ff7)**  
+*Yahoo · 1h前*  
+Investing.com -- JPMorgan upgraded Meta Platforms to Overweight from Neutral in a note Thursday, saying the company’s push into frontier artificial intelligence…
 
-- **[Why Cloudflare Rallied Today](https://finnhub.io/api/news?id=e56fde949839472dc36469f632fee9dcd7aa5ecd43cc0f3d3bbe34a28fb84ef7)**  
+- **[Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell; AeroVironment to Rise, American Eagle to Fall](https://finnhub.io/api/news?id=a656bae23aed94412f76e1d32fa741e667d0c1bd4e13997e5bb83deb9c014c24)**  
 *Yahoo · 2h前*  
-Meta's new Muse agent could turbocharge web traffic and Cloudflare's revenue.
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Thursday'
 
 ---
 
@@ -59,4 +59,4 @@ Meta's new Muse agent could turbocharge web traffic and Cloudflare's revenue.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
