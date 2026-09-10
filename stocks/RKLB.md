@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$65.87** |
-| 今日變動 | ▲ $1.61　(+2.51%) |
+| 現價 | **$63.07** |
+| 今日變動 | ▼ $2.80　(-4.25%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $101　(▼13.3%) |
+| 未實現盈虧 | ▼ $129　(▼17.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $66.28 | — |
-| Put Wall（支撐） | $65.00 | -1.3% |
-| Call Wall（阻力） | $70.00 | +6.3% |
+| Gamma Flip | $65.75 | — |
+| Put Wall（支撐） | $60.00 | -4.9% |
+| Call Wall（阻力） | $70.00 | +11.0% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nasdaq, Dow, S&P 500 Futures Mixed As Oil Hits $100 Again: QCOM, ORCL, AAPL, AMD, TSLA, RKLB, HOOD, GME In Focus](https://finnhub.io/api/news?id=2ac2ba787536589b8e9b25b125562b5cf8a6fed3b33a834f5fb8f3541beb7db9)**  
-*Yahoo · 4h前*  
-Retail sentiment on Stocktwits remained ‘bullish’ on SPY and QQQ.
+- **[SpaceX Sinks 5% as $47.2B Insider Share Unlock Hits the Tape, AST SpaceMobile Drops 4%, Rocket Lab Slips 2%](https://finnhub.io/api/news?id=1988420b1e2ff64bf0f49efef639bc01e0d897b16b22adb1fd3f7478aacc0a1f)**  
+*Yahoo · 8h前*  
+A multi-billion-dollar insider unlock window just opened at the newly public space giant, and the shockwave is spreading across the entire sector. Here is what …
 
-- **[RKLB Stock Extends Gains Overnight: Cathie Wood’s ARK Adds To Rocket Lab Stake On New Space Solar Catalyst](https://finnhub.io/api/news?id=2239d3c2162488b7ac1561916d94bd955c649e9fc084a177ea3c667c7b379b02)**  
-*Yahoo · 7h前*  
-Cathie Wood’s ARK Space Exploration & Innovation ETF (ARKX) bought 2,341 RKLB shares on Tuesday worth about $154,000.
+- **[Rocket Lab Stock Climbs. Yet Neutron Launch Date Remains Out of Reach](https://finnhub.io/api/news?id=dbeaa09fae5faf801ebd9929e4a84e924ab5cc70f919964bbf303a4b2f74a68d)**  
+*Yahoo · 8h前*  
+Record revenue and a $2.4 billion cash position give Rocket Lab room to keep funding Neutron as investors await its first flight
 
-- **[Rocket Lab's Next Neutron Milestone Is a Pad Delivery, Not a Launch. I'd Hold Off on Buying the Stock.](https://finnhub.io/api/news?id=3ab34e17eb3397b04bcc5a3ba49803f741de121b0434cd078769caac42de6893)**  
-*Yahoo · 10h前*  
-Revenue records keep coming, and the cash pile tops $2 billion. What's still missing is a launch date.
+- **[Rocket Lab Corporation (RKLB) Down 17.7% Since Last Earnings Report: Can It Rebound?](https://finnhub.io/api/news?id=91c58656a3097b7ce1dc341d806f07d965b517affb009c8bd64514e8f8d5357f)**  
+*Yahoo · 9h前*  
+Rocket Lab Corporation (RKLB) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
 
 ---
 
@@ -48,7 +48,7 @@ Revenue records keep coming, and the cash pile tops $2 billion. What's still mis
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-09 | 監控 | $65.87 | — | 自動更新 |
+| 2026-09-10 | 監控 | $63.07 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Revenue records keep coming, and the cash pile tops $2 billion. What's still mis
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
