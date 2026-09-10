@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $358.29 | — |
 | Put Wall（支撐） | $360.00 | -6.2% |
-| Call Wall（阻力） | $400.00 | +4.3% |
+| Call Wall（阻力） | $375.00 | +-2.3% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Teradyne, Inc. (TER) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript](https://finnhub.io/api/news?id=e3314f7cc638a830c8a213f36c9a6249600b9675b3512dd1caa0af4b64efcfde)**  
-*SeekingAlpha · 5h前*  
-Teradyne, Inc. (TER) Goldman Sachs Communacopia + Technology Conference 2026 September 9, 2026 4:45 PM EDTCompany ParticipantsGregory Smith - President, CEO...
+- **[Nvidia Earnings Put Narrow Robotics Rally to the Test](https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a)**  
+*ChartMill · 0h前*  
+Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership.
 
-- **[Teradyne Rides on Strong UltraFLEXplus Demand: Can It Beat KLAC & COHU?](https://finnhub.io/api/news?id=c298c71b80f0a703ce6b2aa2e5c5c493b682bc0537439186811639e6c2207390)**  
-*Yahoo · 1d前*  
-TER's UltraFLEXplus demand is surging on AI-driven test needs, fueling chip-test growth and strengthening its position against KLA and Cohu.
+- **[Which S&P500 stocks are moving before the opening bell on Thursday?](https://finnhub.io/api/news?id=8f0ecb0c946565ff79ac4b73566e7b4fc9c73bb56cca3c0f7c47c0fb20ef9322)**  
+*ChartMill · 0h前*  
+Discover the top S&P500 movers in Thursday's pre-market session and stay informed about market dynamics.
 
-- **[Tesla and XPENG Are Taking Humanoid Robots to the Factory: 3 ETFs to Watch as Production Scales](https://finnhub.io/api/news?id=5544e930704a41e0218172f07e8bbac1fde579da8c99ddd1c9305e957ee43f68)**  
-*Benzinga · 1d前*  
-Tesla and XPENG are pushing humanoid robots toward mass production. See how BOTT, KOID and HUMN ETFs are positioned for the next robotics boom.
+- **[AI And Robotics In 2026: 16 Recent Developments For Investors](https://finnhub.io/api/news?id=52562ddf2a6c2687841344a20584b7dbbff017f24bdf5eb5c9ae273fdb14f613)**  
+*SeekingAlpha · 9h前*  
+If AI and robotics suddenly feel like they are moving faster, August gave investors plenty of evidence that the pace really is accelerating.
 
 ---
 
@@ -59,4 +59,4 @@ Tesla and XPENG are pushing humanoid robots toward mass production. See how BOTT
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
