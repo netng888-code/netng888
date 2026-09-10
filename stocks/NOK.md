@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,16 +31,16 @@
 ## 📰 最新新聞
 
 - **[These stocks are the most active in today's session](https://finnhub.io/api/news?id=591ea925f4f2e3dd201318877edfdeb3a90ea74d152ace9ec1ee441c0b2be78f)**  
-*ChartMill · 7h前*  
+*ChartMill · 19h前*  
 Wednesday's session is buzzing with activity. Check out the stocks that are attracting the most attention and driving market activity!
 
-- **[What's Going On With Nokia Stock Wednesday?](https://finnhub.io/api/news?id=03f44036e28659ce5206d2e4c69d5e89fb63c00461b55dcd235651ba09afe566)**  
-*Benzinga · 17h前*  
-Nokia (NYSE: NOK) stock rose over 2% premarket to $10.91, bucking a market drop. Key technical levels, MACD, and analyst forecasts ahead.
+- **[European Equities Traded in the US as American Depositary Receipts Decline in Wednesday Trading](https://finnhub.io/api/news?id=447b818d5cb61d9ac5591f08f3bc46cf08a13a6f3849f67ea422df0c2598690e)**  
+*Yahoo · 21h前*  
+European equities traded in the US as American depositary receipts were trending lower late Wednesda
 
-- **[Curious about the most active stocks on Tuesday?](https://finnhub.io/api/news?id=e7ff2c19b1ea0dd0b5fc7c743285265a03298aa5dceb13fe5ea04cab8325a641)**  
-*ChartMill · 1d前*  
-These stocks are making the most noise in today's session. Stay tuned for the latest updates!
+- **[SCTE TechExpo 2026 Brings the Executives & Technologists Shaping Content and Connectivity to Atlanta — Sept. 29–Oct. 1](https://finnhub.io/api/news?id=03a705c99ff74a7f15ba39d440d0f94f5f75e06adf5e557c8073cb46fbfee611)**  
+*Yahoo · 22h前*  
+175+ Speakers, Industry Leaders and Innovators from AMC Global Media, Apple, AT&T, AWS, Comcast, GFiber, Google, Liberty Latin America, Nokia, Rogers, Spectrum,…
 
 ---
 
@@ -59,4 +59,4 @@ These stocks are making the most noise in today's session. Stay tuned for the la
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
