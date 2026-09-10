@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jim Cramer Compares Palantir (PLTR) to an NFL Wide Receiver](https://finnhub.io/api/news?id=3629e6d404b4e1e46d7eaa6def72cd1d3f2ac69421ac34d8e0681718d8d15eae)**  
+- **[Iren's Sweetwater Announcement Hints at a Larger Gigawatt Pipeline Than the Public Number](https://finnhub.io/api/news?id=e7a24ea4c53db88186f11124e0a5994138cf946a3bda9d104be3430da7e6cca2)**  
+*Yahoo · 1h前*  
+Iren may have multiple gigawatts in its control that investors do not know about.
+
+- **[Inovio Pharmaceuticals Nears Oct. 30 FDA Decision for INO-3107 in RRP](https://finnhub.io/api/news?id=b0eb851873f47738f6aac0c4f02c8f6879e1bc5b6f6aac9ebedbb947106c1178)**  
 *Yahoo · 2h前*  
-During the Mad Money episode aired on September 8, Jim Cramer designated Palantir Technologies (NASDAQ:PLTR) as a portfolio wide receiver. Comparing the high-fl…
+Inovio Pharmaceuticals (NASDAQ:INO) is approaching an October 30 PDUFA date for INO-3107, its lead DNA medicine candidate for recurrent respiratory papillomatos…
 
-- **[Q2 Data Analytics Earnings Review: First Prize Goes to Palantir Technologies (NASDAQ:PLTR)](https://finnhub.io/api/news?id=546a5e7beb58bec416f949b83477d5119adf6d642db6e064e3d30bdad48ac0aa)**  
-*Yahoo · 4h前*  
-Wrapping up Q2 earnings, we look at the numbers and key takeaways for the data analytics stocks, including Palantir Technologies (NASDAQ:PLTR) and its peers.
-
-- **[Meet the AI Software Stock That’s Crushing Palantir (Hint: It’s Significantly Cheaper)](https://finnhub.io/api/news?id=e3cbf71595907e71b27f21bc8e179d1dcd84903e535217356328ed4b2159d0e4)**  
-*Yahoo · 5h前*  
-Snowflake stock has surged impressively in 2026 so far, and the growing demand for its AI software tools suggests it could continue to soar.
+- **[Palantir Builds Out AI Ecosystem With NVIDIA, Fujitsu, Method Security](https://finnhub.io/api/news?id=e8f19767540df7c805f58d970aca94afae7ed66af8fd537a9268c879b76d6162)**  
+*Yahoo · 2h前*  
+The deals build on Palantir's broader push to position Foundry, AIP and Ontology as the operating layer connecting different AI models, infrastructure and enter…
 
 ---
 
@@ -59,4 +59,4 @@ Snowflake stock has surged impressively in 2026 so far, and the growing demand f
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
