@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.65** |
-| 今日變動 | ▲ $0.62　(+6.18%) |
+| 現價 | **$10.76** |
+| 今日變動 | ▲ $0.11　(+1.03%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $378　(▼19.1%) |
+| 未實現盈虧 | ▼ $361　(▼18.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.03 | — |
-| Put Wall（支撐） | $10.00 | -6.1% |
-| Call Wall（阻力） | $11.00 | +3.3% |
+| Gamma Flip | $9.19 | — |
+| Put Wall（支撐） | $10.00 | -7.1% |
+| Call Wall（阻力） | $11.00 | +2.2% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
+- **[These stocks are the most active in today's session](https://finnhub.io/api/news?id=591ea925f4f2e3dd201318877edfdeb3a90ea74d152ace9ec1ee441c0b2be78f)**  
+*ChartMill · 7h前*  
+Wednesday's session is buzzing with activity. Check out the stocks that are attracting the most attention and driving market activity!
+
+- **[What's Going On With Nokia Stock Wednesday?](https://finnhub.io/api/news?id=03f44036e28659ce5206d2e4c69d5e89fb63c00461b55dcd235651ba09afe566)**  
+*Benzinga · 17h前*  
+Nokia (NYSE: NOK) stock rose over 2% premarket to $10.91, bucking a market drop. Key technical levels, MACD, and analyst forecasts ahead.
+
 - **[Curious about the most active stocks on Tuesday?](https://finnhub.io/api/news?id=e7ff2c19b1ea0dd0b5fc7c743285265a03298aa5dceb13fe5ea04cab8325a641)**  
-*ChartMill · 19h前*  
+*ChartMill · 1d前*  
 These stocks are making the most noise in today's session. Stay tuned for the latest updates!
-
-- **[European Equities Traded in the US as American Depositary Receipts Fall in Tuesday Trading](https://finnhub.io/api/news?id=fa5cee34494e7ba53526ed98bc2b50051a9b44ee92d48113aaf8c21922bae51f)**  
-*Yahoo · 21h前*  
-European equities traded in the US as American depositary receipts were tracking lower late Tuesday
-
-- **[Changes in Nokia Corporation's own shares](https://finnhub.io/api/news?id=06e47e2336b40beb106598cd321bdf3cd5df0cc6cef443dc604db93699dad345)**  
-*Yahoo · 23h前*  
-Nokia CorporationStock Exchange Release8 September 2026 at 17:00 EESTChanges in Nokia Corporation's own shares Espoo, Finland – A total of 687 145 Nokia shares …
 
 ---
 
@@ -48,7 +48,7 @@ Nokia CorporationStock Exchange Release8 September 2026 at 17:00 EESTChanges in 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-09 | 監控 | $10.65 | — | 自動更新 |
+| 2026-09-10 | 監控 | $10.76 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nokia CorporationStock Exchange Release8 September 2026 at 17:00 EESTChanges in 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
