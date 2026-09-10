@@ -459,13 +459,34 @@
     睇緊嘅「持倉總覽」table度見到。v5.23嘅quicklinks按鈕維持保留
     （兩個位都有唔重複，一個係搜尋列快速切換用，一個係主table
     操作欄用，睇邊個順手用邊個）。
+  v5.25（2026-09-10）【重要修正，同telegram_bot.py v1.16補做同一個
+    fix】：AI分析（runAiAnalysis()）舊版一直冇將dealer_bias（Long/
+    Short Gamma）帶去/api/ai_analysis——用戶查詢AVGO時發現，Key
+    Levels卡已經清楚顯示「✅正Gamma區」，但AI文字卻寫「跌穿Put
+    Wall後Dealer為對沖會加速沽出、觸發Gamma Squeeze」，同「正Gamma
+    ＝波動受抑制」呢個系統自己嘅結論互相矛盾——同telegram_bot.py
+    v1.16已經修正過嘅PLTR事件屬同一種bug（果次AI對Long Gamma環境
+    講咗「突破/跌穿即加速」，方向係反嘅），但嗰次修正一直冇移植
+    落呢個網頁版嘅AI分析路徑（futu_bridge_v2.py嘅build_ai_prompt()
+    同呢度嘅runAiAnalysis()），兩條AI分析code path（Telegram Bot
+    自己call OpenRouter；呢個網頁版經bridge嘅/api/ai_analysis）各自
+    獨立維護，一邊啱一邊仍然錯，同呢個codebase一貫嘅「session偵測
+    邏輯逐個檔案各自複製一份」模式一致。
+    修正：runAiAnalysis()新增一行，將GEX response已有嘅
+    d.dealer_bias一齊傳去/api/ai_analysis；backend futu_bridge_v2.py
+    （v3.12起）新增compute_breakout_scenario(dealer_bias)——同
+    telegram_bot.py v1.16嘅同名function邏輯完全一致，喺Python code
+    預先根據dealer_bias判定突破/跌穿之後Dealer對沖行為係「壓抑」
+    （Long Gamma）定「加速」（Short Gamma），AI唔准自己另外判斷
+    方向，只可以引用同潤飾語言。⚠️ 需要futu_bridge_v2.py同步更新
+    到v3.12先有呢個修正（見另外交付嘅.txt檔案）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.24)</title>
+<title>GEX Chart — Futu Bridge (v5.25)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -2487,6 +2508,11 @@ async function runAiAnalysis() {
     if (d.call_wall != null) params.set('call_wall', d.call_wall);
     if (d.put_wall  != null) params.set('put_wall', d.put_wall);
     if (d.max_pain  != null) params.set('max_pain', d.max_pain);
+    // v5.25【重要bugfix】：加埋dealer_bias（LONG_GAMMA/SHORT_GAMMA）
+    // ——冇呢個就bridge嗰邊compute_breakout_scenario()攞唔到方向，
+    // 只能夠fallback做「未能確定」嗰種中性講法，AVGO事件見頁首
+    // v5.25 changelog（同telegram_bot.py v1.16係同一種bug）。
+    if (d.dealer_bias) params.set('dealer_bias', d.dealer_bias);
     // v5.10：加埋散戶K線行為（RSI/近期趨勢/成交量比率）+ Money Flow
     // （Tick Delta/Order Book/期權Premium Flow）context，等AI分析
     // 可以結合「散戶K線」同「做市商GEX」兩個角度，唔淨係得GEX一邊
