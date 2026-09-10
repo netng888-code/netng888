@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $181.42 | — |
-| Put Wall（支撐） | $175.00 | -3.6% |
+| Put Wall（支撐） | $150.00 | -17.4% |
 | Call Wall（阻力） | $200.00 | +10.2% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Centrus Energy Trending After Signing Multi-Year Uranium Deal With Radiant](https://finnhub.io/api/news?id=20566abf0e0b14c643d78848f3f1dd309989011a47ea2e8ebeb42f70b8f06e7f)**  
-*Benzinga · 16h前*  
-Centrus Energy is trending after the company announced a multi-year contract to supply HALEU for Radiant&#39;s Kaleidos microreactor fleet.
+- **[Centrus Announces Pricing of $500 Million Underwritten Public Offering of Class A Common Stock and Warrants](https://finnhub.io/api/news?id=22c1add1c06a1b1f40f832d55ef1e5a9baf703f5ca1b10eb1415be8f892a08d2)**  
+*Yahoo · 10h前*  
+Centrus Energy Corp. (NYSE: LEU) ("Centrus" or the "Company") today announced the pricing of its previously announced underwritten public offering of 500,000 sh…
 
-- **[Centrus Energy Enters Multi-Year Contract With Radiant To Supply High-Assay, Low-Enriched Uranium For Multiple Kaleidos Microreactors](https://finnhub.io/api/news?id=cc9a439f6b282be89d50b61f94c48b36dc7ccd63ec43689f9e0d8514b6e3ce45)**  
-*Benzinga · 18h前*  
-Under the agreement, Centrus will begin delivering HALEU before the end of the decade, adding another domestic source of fuel to support commercial scale-up of …
+- **[Centrus Announces Proposed Public Underwritten Offering of Class A Common Stock and Warrants](https://finnhub.io/api/news?id=2138564f705cf87e5053ae2b21dc3648fa1863685247c7131e4c9b01c5774782)**  
+*Yahoo · 15h前*  
+Centrus Energy Corp. (NYSE: LEU) ("Centrus" or the "Company") today announced the launch of an underwritten public offering of shares of its Class A common stoc…
 
-- **[Centrus Energy, SM Energy, BKV, Select Water Solutions, and ProFrac Stocks Trade Up, What You Need To Know](https://finnhub.io/api/news?id=f85409dc65b324af28f543760f16b6d2786d48f422a1f85de88ca91e1efceb53)**  
-*Yahoo · 23h前*  
-A number of stocks jumped in the afternoon session after crude oil prices climbed sharply following strikes on Saudi Arabian energy facilities and mounting supp…
+- **[Energy Fuels Down 28% in the Past 6 Months: How to Play the Stock?](https://finnhub.io/api/news?id=0c0887da0ff645543d102027c3a100d1811ba909135322802df7ac4436862b5b)**  
+*Yahoo · 21h前*  
+UUUU faces near-term challenges despite rising uranium output and rare earth expansion, with losses, costs and valuation weighing on the stock.
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks jumped in the afternoon session after crude oil prices climbe
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
