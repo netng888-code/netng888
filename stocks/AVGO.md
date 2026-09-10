@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-10 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell Or NVIDIA: Which One Costs Less Per Dollar Of Profit?](https://finnhub.io/api/news?id=c4fe7030b5ff3d9fc13b612c854759c02fd9127736442ff58ab699f613224b83)**  
-*Yahoo · 2h前*  
-If you own Marvell Technology (MRVL) or NVIDIA, you own one idea: the world is building AI data centers as fast as the supply chain allows. NVIDIA sells the who…
+- **[TSMC Posts Record Sales. Why AMD and Other Chip Stocks Are Falling.](https://finnhub.io/api/news?id=16d2ccd8609066607c4471e8bbe83d2904292c2a6587bf5a414ea07219291ae9)**  
+*Yahoo · 1h前*  
+Even record-breaking monthly revenue from the world’s biggest chip manufacturer isn’t reviving the faltering AI trade.
 
-- **[Broadcom Forecasts $230 Billion in AI Semiconductor Revenue in 2028. The Stock Could Reach $900 Per Share as a Result.](https://finnhub.io/api/news?id=20719dec6ddf2d07e95ae0e5d3e23ff0b5f47efee43fa1193a62a42e804926ff)**  
-*Yahoo · 2h前*  
-The custom chip designer could be one of the best buys in the market at today's prices.
-
-- **[Broadcom (AVGO) Q3 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=e4c965012211efea973ebf641a6455cd2ad126ab4b9bcb2f0ee3b240068b9edd)**  
+- **[Wall Street Is Wrong About These 2 Chip Stocks](https://finnhub.io/api/news?id=c334bc5e78d4e633b3612f81d926b2e47c99c2fdb2ab7458307093de5627a661)**  
 *Yahoo · 3h前*  
-Custom AI accelerators drove record revenue with $230B AI projection by 2028.
+Investors are missing the long-term opportunities for Broadcom and AMD.
+
+- **[Not Nvidia. Not Broadcom. But This Semiconductor Stock Is Set to Grow Faster Than Any Other Major AI Chipmaker Through the End of the Decade.](https://finnhub.io/api/news?id=b7d429b4e11a2c61494d8eda52080e14b16466380cda734b3a4ee2c4fd7b9e23)**  
+*Yahoo · 4h前*  
+This chipmaker's revenue can keep accelerating during the next few years.
 
 ---
 
@@ -59,4 +59,4 @@ Custom AI accelerators drove record revenue with $230B AI projection by 2028.
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
