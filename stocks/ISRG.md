@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-09 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$350.16** |
-| 今日變動 | ▼ $16.54　(-4.51%) |
+| 現價 | **$353.24** |
+| 今日變動 | ▲ $3.08　(+0.88%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $206　(▼22.7%) |
+| 未實現盈虧 | ▼ $200　(▼22.0%) |
 
 ---
 
@@ -20,27 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $391.26 | — |
-| Put Wall（支撐） | $350.00 | -0.0% |
-| Call Wall（阻力） | $400.00 | +14.2% |
+| Gamma Flip | $383.88 | — |
+| Put Wall（支撐） | $350.00 | -0.9% |
+| Call Wall（阻力） | $360.00 | +1.9% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Here's Why Intuitive Surgical, Inc. (ISRG) Fell More Than Broader Market](https://finnhub.io/api/news?id=4e30ea85a7614ab8467872e5fae21d1ff1b0e11a414919d6c30f6ca8a0cd4179)**  
-*Yahoo · 3h前*  
-Intuitive Surgical, Inc. (ISRG) closed the most recent trading day at $350.16, moving 4.51% from the previous trading session.
-
-- **[New meta-analysis shows statistically significant improvements in patient outcomes associated with da Vinci surgery versus laparoscopic and open surgery across 13 common benign conditions](https://finnhub.io/api/news?id=fd54f80c06aa4a9a9658b7f6d663df2a994d6f921a2c7e17a591b1c308175632)**  
+- **[How Much Can ISRG Stock Still Move Against You?](https://finnhub.io/api/news?id=1aa1e22c6ac3142237a0016f4299f278aafa537090db39915324d58d984718f3)**  
 *Yahoo · 4h前*  
-Largest comparative meta-analysis of its kind found da Vinci robotic-assisted surgery was associated with shorter hospital stays and a faster return to work com…
+Intuitive Surgical (ISRG) has handed its owners a hard year. The stock is down 25% over the trailing twelve months while the S&P 500 returned 19.3%, and it now …
 
-- **[The Zacks Analyst Blog Highlights FANUY, ABBNY, KYCCF, NVDA, ISRG, ILMN, NOVT, BOTZ, ROBO, ROBT and IBOT](https://finnhub.io/api/news?id=d719bf4179166f804962f458c60fedca5ab419c8b8e4f402545a7df02e0737fe)**  
-*Yahoo · 10h前*  
-BOTZ offers diversified exposure to a robotics boom fueled by AI, humanoid robots and industrial automation, as the sector rapidly evolves.
+- **[Intuitive Surgical, Inc. (ISRG) Presents at Wells Fargo 21st Annual Healthcare Conference Transcript](https://finnhub.io/api/news?id=a49891db32429aac35505bad2c516ac6ec80355a6c0de650cd1173f545478eaf)**  
+*SeekingAlpha · 11h前*
+
+- **[Brokers Suggest Investing in Intuitive Surgical (ISRG): Read This Before Placing a Bet](https://finnhub.io/api/news?id=d7bea4d553b8b047f788b2b2fcbc3c27477ce62fc683d0269c258331c0ead8e9)**  
+*Yahoo · 11h前*  
+Based on the average brokerage recommendation (ABR), Intuitive Surgical (ISRG) should be added to one's portfolio. Wall Street analysts' overly optimistic recom…
 
 ---
 
@@ -48,7 +47,7 @@ BOTZ offers diversified exposure to a robotics boom fueled by AI, humanoid robot
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-09 | 監控 | $350.16 | — | 自動更新 |
+| 2026-09-10 | 監控 | $353.24 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ BOTZ offers diversified exposure to a robotics boom fueled by AI, humanoid robot
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
