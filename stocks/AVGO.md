@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$368.56** |
-| 今日變動 | ▲ $10.66　(+2.98%) |
+| 現價 | **$364.38** |
+| 今日變動 | ▼ $4.18　(-1.13%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $72　(▼1.9%) |
+| 未實現盈虧 | ▼ $114　(▼3.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $359.35 | — |
-| Put Wall（支撐） | $350.00 | -5.0% |
-| Call Wall（阻力） | $370.00 | +0.4% |
+| Gamma Flip | $362.64 | — |
+| Put Wall（支撐） | $350.00 | -3.9% |
+| Call Wall（阻力） | $370.00 | +1.5% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[This AI Chipmaker Looks Like a Bargain With AI Revenue Set to Double Again Next Year](https://finnhub.io/api/news?id=d2de0b23b5471efa004318a81d75c6fa70d555a86a0bc8b876889a8c27947a5d)**  
-*Yahoo · 1h前*  
-Broadcom recently delivered a substantial update about future revenue, and that forecast is not yet being reflected in its stock price.
-
-- **[Amazon CEO Andy Jassy Explained Why Semiconductor Sales Could Keep Climbing for Years to Come. Here's My Favorite AI Chipmaker Right Now.](https://finnhub.io/api/news?id=798a173f183835bf6dd0acdb0f231d003cdcbe5d0c82e6262115e46d4b126f93)**  
+- **[Marvell Or NVIDIA: Which One Costs Less Per Dollar Of Profit?](https://finnhub.io/api/news?id=c4fe7030b5ff3d9fc13b612c854759c02fd9127736442ff58ab699f613224b83)**  
 *Yahoo · 2h前*  
-This chipmaker is poised to benefit from the long-term trend.
+If you own Marvell Technology (MRVL) or NVIDIA, you own one idea: the world is building AI data centers as fast as the supply chain allows. NVIDIA sells the who…
 
-- **[OpenAI Used Its Own AI Models to Design the Jalapeno Chip – The Compute Landlord Thesis Just Went Recursive](https://finnhub.io/api/news?id=a77e84ee718a679a55025ad97c2b9b3aca4bd442abbb173f46d4c0bb72f80f77)**  
+- **[Broadcom Forecasts $230 Billion in AI Semiconductor Revenue in 2028. The Stock Could Reach $900 Per Share as a Result.](https://finnhub.io/api/news?id=20719dec6ddf2d07e95ae0e5d3e23ff0b5f47efee43fa1193a62a42e804926ff)**  
+*Yahoo · 2h前*  
+The custom chip designer could be one of the best buys in the market at today's prices.
+
+- **[Broadcom (AVGO) Q3 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=e4c965012211efea973ebf641a6455cd2ad126ab4b9bcb2f0ee3b240068b9edd)**  
 *Yahoo · 3h前*  
-On September 8, at Goldman Sachs’ Communacopia conference, OpenAI CFO Sarah Friar confirmed that the company utilized its own frontier AI models to design the J…
+Custom AI accelerators drove record revenue with $230B AI projection by 2028.
 
 ---
 
@@ -48,7 +48,7 @@ On September 8, at Goldman Sachs’ Communacopia conference, OpenAI CFO Sarah Fr
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-09 | 監控 | $368.56 | — | 自動更新 |
+| 2026-09-10 | 監控 | $364.38 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ On September 8, at Goldman Sachs’ Communacopia conference, OpenAI CFO Sarah Fr
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-09 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 09:03 HKT*
