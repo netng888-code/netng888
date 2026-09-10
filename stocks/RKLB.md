@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-10 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SpaceX Sinks 5% as $47.2B Insider Share Unlock Hits the Tape, AST SpaceMobile Drops 4%, Rocket Lab Slips 2%](https://finnhub.io/api/news?id=1988420b1e2ff64bf0f49efef639bc01e0d897b16b22adb1fd3f7478aacc0a1f)**  
-*Yahoo · 8h前*  
-A multi-billion-dollar insider unlock window just opened at the newly public space giant, and the shockwave is spreading across the entire sector. Here is what …
+- **[Backlog Strength and Space Demand Lift Rocket Lab (RKLB)](https://finnhub.io/api/news?id=bae1274595d02faaed629f4a02ab032d0a39d5c35790fbf0355612b510c4f858)**  
+*Yahoo · 1h前*  
+American Century Investments, an investment management company, released its first-quarter 2026 investor letter for the “American Century Investments Focused Dy…
 
-- **[Rocket Lab Stock Climbs. Yet Neutron Launch Date Remains Out of Reach](https://finnhub.io/api/news?id=dbeaa09fae5faf801ebd9929e4a84e924ab5cc70f919964bbf303a4b2f74a68d)**  
-*Yahoo · 8h前*  
-Record revenue and a $2.4 billion cash position give Rocket Lab room to keep funding Neutron as investors await its first flight
+- **[Iridium Communications: The $54 Deal Price Overstates The Upside](https://finnhub.io/api/news?id=998248f14baae61f9ae2baef1b4cd3ecdd92237d68447f5414ece8829c96c4c6)**  
+*SeekingAlpha · 4h前*  
+Iridium Communications (IRDM) offers only about 11% merger-arb upside at current prices, not the headline 15%, due to Rocket Lab (RKLB) stock weakness.
 
-- **[Rocket Lab Corporation (RKLB) Down 17.7% Since Last Earnings Report: Can It Rebound?](https://finnhub.io/api/news?id=91c58656a3097b7ce1dc341d806f07d965b517affb009c8bd64514e8f8d5357f)**  
-*Yahoo · 9h前*  
-Rocket Lab Corporation (RKLB) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
+- **[RKLB, ASTS, SPCX, PL In Focus: New Trump Task Force Targets 10,000 Annual Space Operations By 2035](https://finnhub.io/api/news?id=43d38b0cfe6bb21f286997de5c62c5e396fb7602368440158ed89df062d44225)**  
+*Yahoo · 7h前*  
+The task force will pursue faster approvals, more spaceports, priority launch corridors and improved airspace integration.
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab Corporation (RKLB) reported earnings 30 days ago. What's next for the
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
