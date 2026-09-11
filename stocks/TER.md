@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-11 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,14 +31,14 @@
 ## 📰 最新新聞
 
 - **[Teradyne (TER) Suffers a Larger Drop Than the General Market: Key Insights](https://finnhub.io/api/news?id=8e2ae060449f7f891bb9838103c74679c39bc0a8a92d104fc445a2121eaafd17)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 Teradyne (TER) closed the most recent trading day at $370.19, moving 3.52% from the previous trading session.
 
 - **[Qorvo shares are trading lower after the company reported Q3 financial results and issued Q4 sales guidance below estimates. Also, multiple firms lowered their respective price targets on the stock.](https://finnhub.io/api/news?id=f7b503bbcf45e76892e70c769020db75207f83d97e1644e83f0a215a3219a944)**  
-*Benzinga · 11h前*
+*Benzinga · 23h前*
 
 - **[IMF Cuts Global Growth Forecast Citing Brexit Blowback](https://finnhub.io/api/news?id=4cf23c492c5107eb89d10da340bb43dfe7d17b4c7dde7211317302fe9ea40dca)**  
-*Benzinga · 11h前*
+*Benzinga · 23h前*
 
 ---
 
@@ -57,4 +57,4 @@ Teradyne (TER) closed the most recent trading day at $370.19, moving 3.52% from 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
