@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,12 @@
 
 ## 📰 最新新聞
 
+- **[Richtech Robotics to Showcase Integrated Industrial Robotics Ecosystem at IMTS 2026](https://finnhub.io/api/news?id=4d7344fbf4aa08f6d8f46b8d7019ec5d6b4268a149f113ec90bff8268583ef1b)**  
+*Yahoo · 15h前*  
+Company to demonstrate AI-enabled humanoid robot DEX and Titan 440 autonomous mobile robot working together through a unified intelligent platform at Booth #236…
+
 - **[Why Richtech Robotics Zoomed Nearly 32% Higher in August](https://finnhub.io/api/news?id=65d33679480cf1bb96be48213e65a7bf3968dfd53c8b50afa0e71a507abc335b)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 The beaten-down service robotics stock staged quite a comeback.
 
 ---
@@ -51,4 +55,4 @@ The beaten-down service robotics stock staged quite a comeback.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:04 HKT*
