@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Centrus Energy (LEU) Stock Trades Down, Here Is Why](https://finnhub.io/api/news?id=83cbbccde74321a30ed44f9704b9287ccf260805d0b794de78b3115b890ac00c)**  
+*Yahoo · 10h前*  
+Shares of nuclear fuel supplier Centrus Energy (NYSE:LEU) fell 8.6% in the afternoon session after the company announced the pricing of a $500 million underwrit…
+
 - **[Centrus Announces Pricing of $500 Million Underwritten Public Offering of Class A Common Stock and Warrants](https://finnhub.io/api/news?id=22c1add1c06a1b1f40f832d55ef1e5a9baf703f5ca1b10eb1415be8f892a08d2)**  
-*Yahoo · 22h前*  
+*Yahoo · 1d前*  
 Centrus Energy Corp. (NYSE: LEU) ("Centrus" or the "Company") today announced the pricing of its previously announced underwritten public offering of 500,000 sh…
 
 - **[Centrus Announces Proposed Public Underwritten Offering of Class A Common Stock and Warrants](https://finnhub.io/api/news?id=2138564f705cf87e5053ae2b21dc3648fa1863685247c7131e4c9b01c5774782)**  
 *Yahoo · 1d前*  
 Centrus Energy Corp. (NYSE: LEU) ("Centrus" or the "Company") today announced the launch of an underwritten public offering of shares of its Class A common stoc…
-
-- **[Energy Fuels Down 28% in the Past 6 Months: How to Play the Stock?](https://finnhub.io/api/news?id=0c0887da0ff645543d102027c3a100d1811ba909135322802df7ac4436862b5b)**  
-*Yahoo · 1d前*  
-UUUU faces near-term challenges despite rising uranium output and rare earth expansion, with losses, costs and valuation weighing on the stock.
 
 ---
 
@@ -59,4 +59,4 @@ UUUU faces near-term challenges despite rising uranium output and rare earth exp
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
