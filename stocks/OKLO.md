@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[OKLO Stock Slips Overnight: This Analyst Sees 29% Upside, But Retail Turns Bearish](https://finnhub.io/api/news?id=c5e3ac20bfa3b8796c942fbd539a048c2ac90b06372142bfa8137250766ddeca)**  
-*Yahoo · 21h前*  
-Piper Sandler initiated coverage of Oklo with an ‘Overweight’ rating and a $55 price target, implying an upside of about 29%.
+- **[Is Oklo the Next Great AI Power Story? Here's the Bull Case.](https://finnhub.io/api/news?id=cd15cc5fb14554cdbfb1d4092cc8142a48ba8a8db1355fe535577b0f4b68b3e2)**  
+*Yahoo · 13h前*  
+Oklo's reactors are a seemingly perfect solution for AI's power needs.
 
-- **[Oklo Trades at $43. Wall Street's Average Target Is $75. Here's What I Think It's Actually Worth.](https://finnhub.io/api/news?id=05da9c3f9f712dd7573ed5c2ff9d56afd678176bb8849481e380a976bf8fdf4c)**  
-*Yahoo · 1d前*  
-The microreactor maker won't attract too many risk-seeking investors in this choppy market.
+- **[Nuclear Stocks Slide as Piper Sandler Splits the Sector: Oklo, NuScale Power and X-Energy All Drop 5%](https://finnhub.io/api/news?id=f424f703852a7d29a2670f855db57805e27afc5b5e1e2b010dc34c6321977362)**  
+*Yahoo · 19h前*  
+Piper Sandler just split the advanced nuclear sector down the middle with opposing calls, and the market responded by punishing every name in the group equally,…
 
-- **[Uber initiated, Thermo Fisher upgraded: Wall Street's top analyst calls](https://finnhub.io/api/news?id=6ddf0f41f1d6437c138acf209a8f0bd17a53be689818cb41dff1eae7fba8d6a8)**  
-*Yahoo · 1d前*  
-Uber initiated, Thermo Fisher upgraded: Wall Street's top analyst calls
+- **[4 Reasons Why You Might Want to Sell OKLO Stock in September](https://finnhub.io/api/news?id=0e880da7fccfa6d86b15fa1296a232bde3945338fb932ae9dbd720adbbe9faf8)**  
+*Yahoo · 23h前*  
+OKLO's ambitious nuclear buildout faces a pivotal stretch as investors weigh timelines, spending needs and execution challenges.
 
 ---
 
@@ -59,4 +59,4 @@ Uber initiated, Thermo Fisher upgraded: Wall Street's top analyst calls
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
