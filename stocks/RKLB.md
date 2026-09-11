@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab stock moves on solar cell announcement](https://finnhub.io/api/news?id=deeb3bd5414d76734582223801ee5196374780731e57f4d5859de87ceafc71e8)**  
+- **[Rocket Lab Is Five Launches From 100 Electron Missions — Raymond James Flags Two Opportunities With ‘Significant Upsides’](https://finnhub.io/api/news?id=8c59c3256b92d17116b007195455e06e240157e26fa42eb84462aa796aebd7c5)**  
+*Yahoo · 0h前*  
+Raymond James said Rocket Lab is building a vertically integrated and capital-efficient space platform, with strong revenue and backlog growth potential.
+
+- **[Rocket Lab Completes 16th Electron Launch of 2026](https://finnhub.io/api/news?id=203aaed770eff9769fe26402e58905c5054bcb73b7a1a97d7511cbfc147744b3)**  
+*Yahoo · 2h前*  
+Rocket Lab Corporation (NASDAQ:RKLB) launched its 16th Electron mission of 2026 on September 11, carrying an Earth observation satellite into orbit for an undis…
+
+- **[Nasdaq, Dow, S&P 500 Futures Rise After 4-Day Market Slide As CPI Looms Large: ORCL, ADBE, MU, TSLA, RKLB, IBRX, HOOD, GME In Focus](https://finnhub.io/api/news?id=5743c1cd4f6a2ed60b6deedbfb832a269a672180158ecab790803d669582bf9b)**  
 *Yahoo · 4h前*  
-The reason has less to do with rockets than with what’s inside the panels.
-
-- **[Where Will Rocket Lab Stock Be by This Time Next Year?](https://finnhub.io/api/news?id=dc98edf48ea2fca2375272f19b3c6dace82affcdf04861db665cbb554f3b830b)**  
-*Yahoo · 9h前*  
-No one can predict the future perfectly, but the stock appears to be considerably undervalued.
-
-- **[Trump Administration Reveals SPACE Task Force To Boost Commercial Launches](https://finnhub.io/api/news?id=f6f7496287df09b07a0af48464044511f93dd19fbdf2004a1a5b12f14da8f85d)**  
-*Yahoo · 11h前*  
-The DOT on Wednesday announced a SPACE Task Force, designed to help accelerate commercial launches to 10,000 per year by 2035.
+Retail sentiment on Stocktwits turned bearish on SPY and QQQ ahead of August CPI.
 
 ---
 
@@ -59,4 +59,4 @@ The DOT on Wednesday announced a SPACE Task Force, designed to help accelerate c
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
