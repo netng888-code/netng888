@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir Technologies Showcases Sovereign AI Wins With NVIDIA, Cisco and FAA](https://finnhub.io/api/news?id=ca5dfa845c2fc8ad6c69657740ce95cc87875accde629091606d1e92d759759b)**  
-*Yahoo · 2h前*  
-Palantir Technologies (NASDAQ:PLTR) used its AIPCon event to highlight customer deployments of its Foundry, Ontology and Artificial Intelligence Platform produc…
+- **[Top Funds Aren't Fooling Around. Witness Massive Bets On CrowdStrike And Beyond.](https://finnhub.io/api/news?id=0b2e2b1f6a0d5ed4472f0aee47254686d1e304fcec20cdeee38c98aa99308c38)**  
+*Yahoo · 1h前*  
+As the best mutual funds poured CrowdStrike and Marvell, Palantir also returned to this monthly screen for the first time this year.
 
-- **[Axon beats Palantir by 36 Roundtable 100 spots](https://finnhub.io/api/news?id=3958ad5787a2dbecdf32cd6a0b2e5907ca8c0463a9f5e6a1d0cc8087dfc5e020)**  
+- **[Relatively unknown cloud provider gets Nvidia's stamp of approval](https://finnhub.io/api/news?id=1be376567cb962f4f74f61da152003e32110a1ed055c61c417f111fbe98cf44e)**  
 *Yahoo · 2h前*  
-The weekly technology ranking places Axon at No. 27 and Palantir at No. 63, one of its sharpest valuation calls.
+Nvidia just backed a smaller cloud’s bet that regulated buyers care less about scale and more about who owns the outcome.
 
-- **[Michael Burry Dumps Nvidia and Palantir Put Options in Fresh Risk Warning](https://finnhub.io/api/news?id=b141d636410a88a1ce54f7dca821f31d5ff3ef946df3567614080f1b64323148)**  
-*Yahoo · 5h前*  
-Burry Pulls the Trigger on Nvidia and Palantir Put Options as Market Risks Rise
+- **[The Nvidia Experiment That Makes Palantir Harder To Dismiss](https://finnhub.io/api/news?id=dae869c2c2ed054e476e4bced2c61a818dae0eb4fb27a134b07bc63b60441150)**  
+*SeekingAlpha · 4h前*  
+Palantirâs NVIDIA deployment validates its enterprise AI moat, but at 48x sales, the valuation is steep. Click here to read an analysis of PLTR stock now.
 
 ---
 
@@ -59,4 +59,4 @@ Burry Pulls the Trigger on Nvidia and Palantir Put Options as Market Risks Rise
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:04 HKT*
