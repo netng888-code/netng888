@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-11 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share. The Seven-Year Lockup Is the Price](https://finnhub.io/api/news?id=8921289cb1f7b10eb6ba4514047370ed7900e7c9bf6eb93c33fce00878e367cc)**  
-*Yahoo · 1h前*  
-A retired Apple engineer sits on a $1.95 million gain and a tax bill that would make your eyes water, and her advisor has a perfectly legal way to dodge it enti…
+- **[AI Chip Stocks Diverge Ahead of Nvidia Earnings as AMD and Intel Surge](https://finnhub.io/api/news?id=1adb6232454cb24fe550ac984b4bd5f231eac149c0fb27da17dcec46983f90d8)**  
+*ChartMill · 0h前*  
+AI chip stocks split before Nvidia earnings: AMD and Intel rally as investors seek broader AI hardware exposure beyond the leader.
 
-- **[Why Dogecoin Was Dogged by Sell-offs Today](https://finnhub.io/api/news?id=f2f4088f48cf6b44aad0540d86bfc54ac8794f89845af33606aab067d77350dc)**  
-*Yahoo · 1h前*  
-A spot ETF dedicated to the meme coin is liquidating.
+- **[Nvidia Rival Enflame Jumps 206% on Its Shanghai Debut](https://finnhub.io/api/news?id=307c685c8ecbc70bdae9addee2d2fd79fb15cf4fb3804651a954dd37b7fe2674)**  
+*Yahoo · 0h前*  
+Retail orders ran to more than 6,000 times the shares available
 
-- **[Are Record-Breaking Ticket Sales a Good Reason to Buy AMC Stock?](https://finnhub.io/api/news?id=f9986a04349d5b5a851f064cb65139c52e586b8907b39ebeb48a1e6c841f7d6b)**  
+- **[What a Republican 'wipeout' in the midterm elections means for investors](https://finnhub.io/api/news?id=b868903605db27be8a89bc8794ed0228261d881956cbd26036ee0c4422fc8543)**  
 *Yahoo · 1h前*  
-AMC's audiences have returned, but there's more to the long-term story than this recent boost.
+Veda Partners managing partner and director of economic policy Henrietta Treyz outlines the type of policy shifts that could affect investors most if the Republ…
 
 ---
 
@@ -59,4 +59,4 @@ AMC's audiences have returned, but there's more to the long-term story than this
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
