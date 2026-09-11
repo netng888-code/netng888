@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nokia Unveils Cognitive Operations To Bring AI Intelligence Into Fields](https://finnhub.io/api/news?id=93b653c8a24d3953406aca4d3868f5731f1fd1c1a49e03365456903963b3ca1b)**  
-*Benzinga · 18h前*  
-Nokia launches Cognitive Operations to deliver real-time intelligence through AI assistance, 3D digital twins, video analytics, predictive maintenance and hybri…
+- **[Rajant and Nokia Announce Collaboration to Deliver Integrated Networking Technology and Distributed Edge AI Platform for Mission-Critical Enterprises](https://finnhub.io/api/news?id=aee021d35fbedd2f01cda3ae4e32f9ce6163028aec112927b760685fa26b00eb)**  
+*Yahoo · 18h前*  
+MALVERN, Pa. & ESPOO, Finland, September 10, 2026--Rajant and Nokia unite Kinetic Mesh, distributed edge AI and Cognitive Operations for resilient, intelligent …
 
-- **[These stocks are the most active in today's session](https://finnhub.io/api/news?id=591ea925f4f2e3dd201318877edfdeb3a90ea74d152ace9ec1ee441c0b2be78f)**  
-*ChartMill · 1d前*  
-Wednesday's session is buzzing with activity. Check out the stocks that are attracting the most attention and driving market activity!
+- **[Can Ciena Convert Its $8.5B Backlog Despite Supply Constraints?](https://finnhub.io/api/news?id=72c16a530de364ca3898036a77d90cdea3e1405697919acd19d367a02769ab37)**  
+*Yahoo · 21h前*  
+CIEN's $8.5B backlog is set to top $10B by fiscal 2026-end, but supply constraints will dictate how fast orders convert into revenue.
 
-- **[European Equities Traded in the US as American Depositary Receipts Decline in Wednesday Trading](https://finnhub.io/api/news?id=447b818d5cb61d9ac5591f08f3bc46cf08a13a6f3849f67ea422df0c2598690e)**  
+- **[Nokia launches AI and edge platform to help mining and construction industries, public safety, and defense organizations run safer, more resilient field operations](https://finnhub.io/api/news?id=aa6d40e4731dc698c5c1797d705739b92852e05fa869235c68e02a288c848e1e)**  
 *Yahoo · 1d前*  
-European equities traded in the US as American depositary receipts were trending lower late Wednesda
+Press Release Nokia launches AI and edge platform to help mining and construction industries, public safety, and defense organizations run safer, more resilient…
 
 ---
 
@@ -59,4 +59,4 @@ European equities traded in the US as American depositary receipts were trending
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
