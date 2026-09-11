@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $581.47 | — |
-| Put Wall（支撐） | $640.00 | -0.7% |
+| Put Wall（支撐） | $650.00 | --0.9% |
 | Call Wall（阻力） | $750.00 | +16.4% |
 
 **狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Announces Quarterly Cash Dividend](https://finnhub.io/api/news?id=30cddd84e0be8409516d3ade484da141a13db6aeff3ba13ee3132f0a2e967f40)**  
-*Yahoo · 2h前*  
-The Meta Platforms, Inc. (Nasdaq: META) board of directors today declared a quarterly cash dividend of $0.525 per share of the company's outstanding Class A com…
+- **[Meta reversing course on flat org structure in Applied AI division](https://finnhub.io/api/news?id=388e950e5a7ccff3dda4c29890910c2e38496020532bf4ac8bf845d84502f7b9)**  
+*Yahoo · 1h前*  
+The opt-in program targets individual contributors in Meta's Applied AI unit, which absorbed roughly 7,000 employees earlier this year
 
-- **[Remain Bullish on AI Beneficiaries Like Bloom Energy](https://finnhub.io/api/news?id=e77646d988191f399a243007262e34a444154cab5fa0a27b0581500c55d3fa37)**  
-*Yahoo · 2h前*  
-Investors have hundreds of billions ($) of reasons why to remain bullish on the AI buildout, particularly for companies like Bloom Energy (BE), which represents…
-
-- **[Here's Why Meta Platforms (META) Fell More Than Broader Market](https://finnhub.io/api/news?id=6afeb5ca1ba9360890bafefa50eb4bf6043ab41c4e72fa10569fd355a644ce2e)**  
+- **[Market Chatter: Meta Platforms in Talks With South Korea on Teen Social Media Restrictions](https://finnhub.io/api/news?id=5c2ceb64bb4db3542c03e8570895a5e99f9778bf93257b83edfafe473cca812a)**  
 *Yahoo · 3h前*  
-Meta Platforms (META) closed at $644.38 in the latest trading session, marking a -1.42% move from the prior day.
+Meta Platforms (META) is holding discussions with the South Korean government regarding restrictions
+
+- **[Scoop: TikTok rejects Meta ads amid settlement pressure campaign](https://finnhub.io/api/news?id=da79997a01c82d04b0c51babe134c720c18d5a0543f076b0d793a2603ca25898)**  
+*Yahoo · 4h前*  
+TikTok has rejected ads from Meta that call on TikTok and other tech platforms to join Meta in settling with U.S. state attorneys general in a landmark children…
 
 ---
 
@@ -59,4 +59,4 @@ Meta Platforms (META) closed at $644.38 in the latest trading session, marking a
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
