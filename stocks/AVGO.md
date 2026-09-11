@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-11 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Qualcomm Stock Looks Cheap, But Is The Discount Deserved?](https://finnhub.io/api/news?id=231b0f68f8ca7e6ead89d702d975cf56ae17c57ad0d556699b96f5b5468f4e2c)**  
-*Yahoo · 5h前*  
-Qualcomm (QCOM) trades at about $176 a share, down about 14% over the past three months and up 12.4% over the past twelve. At 20.1 times earnings against an S&P…
+- **[Prediction: Broadcom and Nvidia Will Be 2027's Best Performing AI Stocks](https://finnhub.io/api/news?id=fa9149e4bd7a62694d78374a4da704e98b074b9595221b7918f6bf27620fada3)**  
+*Yahoo · 2h前*  
+Both Nvidia and Broadcom forecast huge growth next year.
 
-- **[Marvell Technology vs. Broadcom: Comparing Revenue Trends Between These Artificial Intelligence Companies](https://finnhub.io/api/news?id=e649459a66cef5d880c0b73b5ad92c514ef9f9e70d703bf837e45fa0f343c3f5)**  
-*Yahoo · 6h前*  
-Broadcom's latest quarter revenue hit $29.6 billion — nearly 11 times Marvell's $2.7 billion — with both companies posting steady gains over the past two years.
+- **[Andy Jassy Just Made a Move That Should Excite Micron and Broadcom Investors](https://finnhub.io/api/news?id=068df1e7dae22bbc3a21d7901108c8b19c7811d42c957801818ae2c38ff8cf8d)**  
+*Yahoo · 4h前*  
+The Amazon CEO has a keen understanding of what's next in the artificial intelligence space.
 
-- **[The Portfolio You Need to Generate $500 a Month in Dividend Income](https://finnhub.io/api/news?id=ad29399e84b41bc1339b127b911b623aa95a44e467ef9e53072ffcdee0c255de)**  
-*Yahoo · 7h前*  
-Generating $500 a month from dividends sounds straightforward until you see how wildly the required capital swings depending on which stocks you pick and which …
+- **[Broadcom: A $230 Billion AI Juggernaut In The Making](https://finnhub.io/api/news?id=ea08963ae5aabdb9bdb6fac7cb23aacb20c968ff8cd04f64b8d90ad228df28ae)**  
+*SeekingAlpha · 5h前*  
+Broadcom's Q3 FY26 beats on AI chip sales; AI revenue may hit $58B in FY26 and surge. Click here to read this earnings analysis of AVGO stock.
 
 ---
 
@@ -59,4 +59,4 @@ Generating $500 a month from dividends sounds straightforward until you see how 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
