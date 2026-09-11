@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Does Buying A Vertiv Dip Cost You Before It Pays?](https://finnhub.io/api/news?id=0767e5ec89d0a757ea9f1d89327e1e60ad778e3a8f51442b8e309a7e1af39a71)**  
-*Yahoo · 2h前*  
-Vertiv (VRT) has fallen about 11% from its mid-August high, and the reflex is to ask whether that is the discount worth taking. Its history after sharp falls sa…
+- **[Prediction: This Underrated AI Infrastructure Stock Will Continue Soaring Despite Doubling in a Year](https://finnhub.io/api/news?id=26662d0455ccd985aaf4c37acf42a0941d30a95f963ab3c8732e9d2064668b28)**  
+*Yahoo · 3h前*  
+Vertiv is a key AI infrastructure provider, which explains why the company is projected to clock healthy earnings growth over the long run.
 
-- **[Thursday's session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=7c28e78d9040a5cce97fe2b77384836940d53d535f5f71724541cccc657ad8ee)**  
-*ChartMill · 5h前*  
-Curious about the S&P500 stocks that are in motion on Thursday? Join us as we explore the top movers within the S&P500 index during today's session.
+- **[1 Big Reason Vertiv's New Acquisition Could Supercharge Its AI Dominance](https://finnhub.io/api/news?id=7914867a607fbdd0dec3ac0321718a9b05092375705847899fd3ebda824bf9d9)**  
+*Yahoo · 6h前*  
+Vertiv recently announced a major acquisition that could help it capture a larger share of hyperscalers' growing capital expenditures.
 
-- **[3 Stocks Powering the AI Boom That Are Not Named Nvidia](https://finnhub.io/api/news?id=ce6861a9ab0b602859be942ad523dfc3c6d008d7cb66588ed37397ee1b838f00)**  
-*Yahoo · 8h前*  
-Every investor knows Nvidia won the chip race, but the physical layers that actually keep AI data centers alive belong to a different set of companies, and thre…
+- **[The Scarcity Trade Is Starting To Eat The Capital Cycle](https://finnhub.io/api/news?id=24731274831ce8145d1c37ffad8b8ead2d88b889626dd7fbac33b9f9d7be4e36)**  
+*SeekingAlpha · 13h前*  
+For a while, the story was actually pretty constructive. Energy scarcity was pushing up commodity prices, but higher prices were also improving the expected ret…
 
 ---
 
@@ -59,4 +59,4 @@ Every investor knows Nvidia won the chip race, but the physical layers that actu
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:04 HKT*
