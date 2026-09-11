@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Nvidia Earnings Put Narrow Robotics Rally to the Test](https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a)**  
-*ChartMill · 12h前*  
+*ChartMill · 1d前*  
 Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership.
 
 - **[How Much Can ISRG Stock Still Move Against You?](https://finnhub.io/api/news?id=1aa1e22c6ac3142237a0016f4299f278aafa537090db39915324d58d984718f3)**  
@@ -58,4 +58,4 @@ Intuitive Surgical (ISRG) has handed its owners a hard year. The stock is down 2
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 21:04 HKT*
