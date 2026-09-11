@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$63.07** |
-| 今日變動 | ▼ $2.80　(-4.25%) |
+| 現價 | **$61.96** |
+| 今日變動 | ▼ $1.11　(-1.76%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $129　(▼17.0%) |
+| 未實現盈虧 | ▼ $140　(▼18.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $65.75 | — |
-| Put Wall（支撐） | $60.00 | -4.9% |
-| Call Wall（阻力） | $70.00 | +11.0% |
+| Gamma Flip | $65.28 | — |
+| Put Wall（支撐） | $60.00 | -3.2% |
+| Call Wall（阻力） | $70.00 | +13.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Backlog Strength and Space Demand Lift Rocket Lab (RKLB)](https://finnhub.io/api/news?id=bae1274595d02faaed629f4a02ab032d0a39d5c35790fbf0355612b510c4f858)**  
-*Yahoo · 1h前*  
-American Century Investments, an investment management company, released its first-quarter 2026 investor letter for the “American Century Investments Focused Dy…
+- **[Rocket Lab stock moves on solar cell announcement](https://finnhub.io/api/news?id=deeb3bd5414d76734582223801ee5196374780731e57f4d5859de87ceafc71e8)**  
+*Yahoo · 4h前*  
+The reason has less to do with rockets than with what’s inside the panels.
 
-- **[Iridium Communications: The $54 Deal Price Overstates The Upside](https://finnhub.io/api/news?id=998248f14baae61f9ae2baef1b4cd3ecdd92237d68447f5414ece8829c96c4c6)**  
-*SeekingAlpha · 4h前*  
-Iridium Communications (IRDM) offers only about 11% merger-arb upside at current prices, not the headline 15%, due to Rocket Lab (RKLB) stock weakness.
+- **[Where Will Rocket Lab Stock Be by This Time Next Year?](https://finnhub.io/api/news?id=dc98edf48ea2fca2375272f19b3c6dace82affcdf04861db665cbb554f3b830b)**  
+*Yahoo · 9h前*  
+No one can predict the future perfectly, but the stock appears to be considerably undervalued.
 
-- **[RKLB, ASTS, SPCX, PL In Focus: New Trump Task Force Targets 10,000 Annual Space Operations By 2035](https://finnhub.io/api/news?id=43d38b0cfe6bb21f286997de5c62c5e396fb7602368440158ed89df062d44225)**  
-*Yahoo · 7h前*  
-The task force will pursue faster approvals, more spaceports, priority launch corridors and improved airspace integration.
+- **[Trump Administration Reveals SPACE Task Force To Boost Commercial Launches](https://finnhub.io/api/news?id=f6f7496287df09b07a0af48464044511f93dd19fbdf2004a1a5b12f14da8f85d)**  
+*Yahoo · 11h前*  
+The DOT on Wednesday announced a SPACE Task Force, designed to help accelerate commercial launches to 10,000 per year by 2035.
 
 ---
 
@@ -48,7 +48,7 @@ The task force will pursue faster approvals, more spaceports, priority launch co
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-10 | 監控 | $63.07 | — | 自動更新 |
+| 2026-09-11 | 監控 | $61.96 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The task force will pursue faster approvals, more spaceports, priority launch co
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
