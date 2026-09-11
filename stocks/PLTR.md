@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$169.53** |
-| 今日變動 | ▼ $0.77　(-0.45%) |
+| 現價 | **$165.86** |
+| 今日變動 | ▼ $3.67　(-2.16%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $316　(▲36.3%) |
+| 未實現盈虧 | ▲ $291　(▲33.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $165.06 | — |
-| Put Wall（支撐） | $160.00 | -5.6% |
-| Call Wall（阻力） | $175.00 | +3.2% |
+| Gamma Flip | $165.91 | — |
+| Put Wall（支撐） | $165.00 | -0.5% |
+| Call Wall（阻力） | $170.00 | +2.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Iren's Sweetwater Announcement Hints at a Larger Gigawatt Pipeline Than the Public Number](https://finnhub.io/api/news?id=e7a24ea4c53db88186f11124e0a5994138cf946a3bda9d104be3430da7e6cca2)**  
-*Yahoo · 1h前*  
-Iren may have multiple gigawatts in its control that investors do not know about.
-
-- **[Inovio Pharmaceuticals Nears Oct. 30 FDA Decision for INO-3107 in RRP](https://finnhub.io/api/news?id=b0eb851873f47738f6aac0c4f02c8f6879e1bc5b6f6aac9ebedbb947106c1178)**  
+- **[Palantir Technologies Showcases Sovereign AI Wins With NVIDIA, Cisco and FAA](https://finnhub.io/api/news?id=ca5dfa845c2fc8ad6c69657740ce95cc87875accde629091606d1e92d759759b)**  
 *Yahoo · 2h前*  
-Inovio Pharmaceuticals (NASDAQ:INO) is approaching an October 30 PDUFA date for INO-3107, its lead DNA medicine candidate for recurrent respiratory papillomatos…
+Palantir Technologies (NASDAQ:PLTR) used its AIPCon event to highlight customer deployments of its Foundry, Ontology and Artificial Intelligence Platform produc…
 
-- **[Palantir Builds Out AI Ecosystem With NVIDIA, Fujitsu, Method Security](https://finnhub.io/api/news?id=e8f19767540df7c805f58d970aca94afae7ed66af8fd537a9268c879b76d6162)**  
+- **[Axon beats Palantir by 36 Roundtable 100 spots](https://finnhub.io/api/news?id=3958ad5787a2dbecdf32cd6a0b2e5907ca8c0463a9f5e6a1d0cc8087dfc5e020)**  
 *Yahoo · 2h前*  
-The deals build on Palantir's broader push to position Foundry, AIP and Ontology as the operating layer connecting different AI models, infrastructure and enter…
+The weekly technology ranking places Axon at No. 27 and Palantir at No. 63, one of its sharpest valuation calls.
+
+- **[Michael Burry Dumps Nvidia and Palantir Put Options in Fresh Risk Warning](https://finnhub.io/api/news?id=b141d636410a88a1ce54f7dca821f31d5ff3ef946df3567614080f1b64323148)**  
+*Yahoo · 5h前*  
+Burry Pulls the Trigger on Nvidia and Palantir Put Options as Market Risks Rise
 
 ---
 
@@ -48,7 +48,7 @@ The deals build on Palantir's broader push to position Foundry, AIP and Ontology
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-10 | 監控 | $169.53 | — | 自動更新 |
+| 2026-09-11 | 監控 | $165.86 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The deals build on Palantir's broader push to position Foundry, AIP and Ontology
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 09:04 HKT*
