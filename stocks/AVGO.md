@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-11 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$364.38** |
-| 今日變動 | ▼ $4.18　(-1.13%) |
+| 現價 | **$360.83** |
+| 今日變動 | ▼ $3.55　(-0.97%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $114　(▼3.0%) |
+| 未實現盈虧 | ▼ $150　(▼4.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $362.64 | — |
-| Put Wall（支撐） | $350.00 | -3.9% |
-| Call Wall（阻力） | $370.00 | +1.5% |
+| Gamma Flip | $361.83 | — |
+| Put Wall（支撐） | $350.00 | -3.0% |
+| Call Wall（阻力） | $370.00 | +2.5% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[TSMC Posts Record Sales. Why AMD and Other Chip Stocks Are Falling.](https://finnhub.io/api/news?id=16d2ccd8609066607c4471e8bbe83d2904292c2a6587bf5a414ea07219291ae9)**  
-*Yahoo · 1h前*  
-Even record-breaking monthly revenue from the world’s biggest chip manufacturer isn’t reviving the faltering AI trade.
+- **[Qualcomm Stock Looks Cheap, But Is The Discount Deserved?](https://finnhub.io/api/news?id=231b0f68f8ca7e6ead89d702d975cf56ae17c57ad0d556699b96f5b5468f4e2c)**  
+*Yahoo · 5h前*  
+Qualcomm (QCOM) trades at about $176 a share, down about 14% over the past three months and up 12.4% over the past twelve. At 20.1 times earnings against an S&P…
 
-- **[Wall Street Is Wrong About These 2 Chip Stocks](https://finnhub.io/api/news?id=c334bc5e78d4e633b3612f81d926b2e47c99c2fdb2ab7458307093de5627a661)**  
-*Yahoo · 3h前*  
-Investors are missing the long-term opportunities for Broadcom and AMD.
+- **[Marvell Technology vs. Broadcom: Comparing Revenue Trends Between These Artificial Intelligence Companies](https://finnhub.io/api/news?id=e649459a66cef5d880c0b73b5ad92c514ef9f9e70d703bf837e45fa0f343c3f5)**  
+*Yahoo · 6h前*  
+Broadcom's latest quarter revenue hit $29.6 billion — nearly 11 times Marvell's $2.7 billion — with both companies posting steady gains over the past two years.
 
-- **[Not Nvidia. Not Broadcom. But This Semiconductor Stock Is Set to Grow Faster Than Any Other Major AI Chipmaker Through the End of the Decade.](https://finnhub.io/api/news?id=b7d429b4e11a2c61494d8eda52080e14b16466380cda734b3a4ee2c4fd7b9e23)**  
-*Yahoo · 4h前*  
-This chipmaker's revenue can keep accelerating during the next few years.
+- **[The Portfolio You Need to Generate $500 a Month in Dividend Income](https://finnhub.io/api/news?id=ad29399e84b41bc1339b127b911b623aa95a44e467ef9e53072ffcdee0c255de)**  
+*Yahoo · 7h前*  
+Generating $500 a month from dividends sounds straightforward until you see how wildly the required capital swings depending on which stocks you pick and which …
 
 ---
 
@@ -48,7 +48,7 @@ This chipmaker's revenue can keep accelerating during the next few years.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-10 | 監控 | $364.38 | — | 自動更新 |
+| 2026-09-11 | 監控 | $360.83 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ This chipmaker's revenue can keep accelerating during the next few years.
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-11 09:03 HKT*
