@@ -480,23 +480,72 @@
     （Long Gamma）定「加速」（Short Gamma），AI唔准自己另外判斷
     方向，只可以引用同潤飾語言。⚠️ 需要futu_bridge_v2.py同步更新
     到v3.12先有呢個修正（見另外交付嘅.txt檔案）。
+  v5.26（2026-09-13）：兩項改動，回應用戶兩個獨立要求：
+    1. 「持倉總覽」table新增P/E TTM／EPS TTM／Div Yield／EPS
+       Growth YoY／Sector五個基本面欄位——用戶睇到TradingView Stock
+       Screener有呢批欄，問可唔可以借鏡。查證Futu官方
+       get_market_snapshot()文件證實，equity_valid=true嗰陣，
+       回傳嘅欄位本身已經包含earning_per_share／pe_ratio／
+       pe_ttm_ratio／dividend_ttm／dividend_ratio_ttm——即係/api/
+       quote每30秒refresh嗰陣已經帶埋呢批數字返嚟，前端淨係未攞
+       出嚟顯示。採用「Futu為主 + Finnhub補」原則：P/E TTM／EPS
+       TTM／Div Yield TTM優先讀Futu snapshot嘅pe_ttm_ratio／
+       earning_per_share／dividend_ratio_ttm（零額外API call），
+       Futu缺值（虧損中嘅新興股例如OKLO/RKLB/RR/SERV，pe_ttm_ratio
+       可能負數/None）先fallback用Finnhub；EPS Growth YoY／Sector
+       Futu完全冇提供，一律經新增嘅/api/fundamentals（futu_
+       bridge_v2.py v3.13，見該檔案changelog）攞。前端新增
+       fmtFund()／loadFundamentals()／fundamentalsBySym／
+       lastUSRows，跟fetchNow()嘅30秒週期一齊call（backend有6
+       小時cache，唔會加重Finnhub負擔）。⚠️ 需要futu_bridge_v2.py
+       同步更新到v3.13先會有/api/fundamentals呢個endpoint。
+    2. 全站配色由dark theme改做white/light theme——用戶指定跟
+       tradingview.com/screener嘅白底風格，並要求原本靠白色字先
+       睇到嘅內容（喺深色底先啱用）要同步改做黑色，唔會變成白底
+       白字睇唔到。做法：:root CSS變量全套重新定義（--bg由#0a0c10
+       改#ffffff、--text由淺藍灰#c8d4e8改深藍黑#1a2233、--muted
+       由#4a5568改#64748b、--green/red/amber/blue/purple五隻
+       accent色全部加深至少一級先夠喺白底嘅文字對比度，例如
+       --green由亮青綠#00d4aa改深青綠#0d9488、--amber由亮黃
+       #f5a623改深琥珀#b45309；--white呢個變量原本代表「深色底
+       最搶眼嘅純白強調色」，而家反過來代表「淺色底最搶眼嘅
+       深黑強調色」，數值由#ffffff改#0f172a，變量名維持不變但
+       語意反轉，已加註解說明）。由於呢個codebase習慣喺JS/Canvas
+       （Chart.js／Lightweight Charts嘅tooltip/grid/textColor/
+       priceLine等）直接用同CSS變量完全一樣嘅literal hex字串
+       （唔係讀CSS var()，因為canvas/chart library入面通常要
+       literal色碼），採用全域exact-string替換方式一次過將所有
+       CSS同JS內嘅literal hex都同步轉晒，唔使逐個chart config手
+       動改。兩個特殊case獨立處理，冇跟全域規則：(a) GEX bar
+       chart垂直線plugin入面`c.fillStyle='#0a0c10'`——呢個係
+       「深色文字寫喺彩色highlight rect之上」嘅badge文字色，喺
+       邊個theme都應該維持深色，冇跟隨--bg變白色；(b) `rgba(255,
+       255,255,X)`呢類靠深色底先睇到嘅「白色透明疊層」（.pct-
+       badge.neu／tbody row hover），改做`rgba(0,0,0,X)`黑色
+       疊層，先至喺白底度有視覺效果。Accent色徽章（.pct-badge、
+       .chg-badge等）背景嘅低透明度rgba（例如rgba(0,212,170,.12)）
+       刻意保留原本亮色RGB數值冇改——喺白底之下呢啲低alpha疊層
+       會自動變成淡色徽章底（例如淡薄荷綠），配合已加深嘅前景
+       accent色文字，正正係一般fintech淺色UI常見嘅「淡底+深字」
+       徽章風格，唔使額外調整。Chart.js嘅深色grid line
+       （rgba(30,36,48,X)）都改做淺灰rgba(0,0,0,X)。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.25)</title>
+<title>GEX Chart — Futu Bridge (v5.26)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg:#0a0c10;--bg2:#0f1218;--bg3:#141820;
-  --border:#1e2430;--border2:#252d3a;
-  --text:#c8d4e8;--muted:#4a5568;
-  --green:#00d4aa;--red:#ff4d6d;--amber:#f5a623;
-  --blue:#4a9eff;--purple:#a78bfa;--white:#ffffff;
+  --bg:#ffffff;--bg2:#f7f8fa;--bg3:#eef0f4;
+  --border:#e3e6ec;--border2:#d3d7e0;
+  --text:#1a2233;--muted:#64748b;
+  --green:#0d9488;--red:#dc2626;--amber:#b45309;
+  --blue:#2563eb;--purple:#7c3aed;--white:#0f172a;
   --font-mono:'JetBrains Mono',monospace;
   --font-display:'Syne',sans-serif;
 }
@@ -511,21 +560,21 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 /* Header */
 header{display:flex;align-items:flex-end;justify-content:space-between;
   border-bottom:1px solid var(--border);padding-bottom:16px;margin-bottom:20px;}
-.h-left h1{font-family:var(--font-display);font-size:24px;font-weight:800;color:#fff;}
+.h-left h1{font-family:var(--font-display);font-size:24px;font-weight:800;color:#0f172a;}
 .h-left .sub{font-size:10px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:3px;}
 #clock{font-size:18px;color:var(--green);letter-spacing:.05em;}
 
 /* Search bar */
 .search-bar{display:flex;gap:10px;margin-bottom:20px;align-items:center;}
 .sym-input{background:var(--bg2);border:1px solid var(--border);border-radius:6px;
-  color:#fff;font-family:var(--font-mono);font-size:16px;font-weight:700;
+  color:#0f172a;font-family:var(--font-mono);font-size:16px;font-weight:700;
   padding:10px 16px;width:180px;letter-spacing:.1em;text-transform:uppercase;outline:none;}
 .sym-input:focus{border-color:var(--green);}
 .sym-input::placeholder{color:var(--muted);font-weight:400;text-transform:none;}
 .t1live-pill{display:flex;align-items:center;gap:10px;background:var(--bg2);border:1px solid var(--border);
   border-radius:6px;padding:8px 16px;white-space:nowrap;}
 .t1live-pill .t1l-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;line-height:1.3;}
-.t1live-pill .t1l-price{font-size:17px;font-weight:700;color:#fff;font-family:var(--font-display);line-height:1.3;}
+.t1live-pill .t1l-price{font-size:17px;font-weight:700;color:#0f172a;font-family:var(--font-display);line-height:1.3;}
 .t1live-pill .t1l-chg{font-size:11px;font-weight:600;margin-left:2px;}
 /* 到期日數量選擇器（v5.4新增，配合bridge v2.7嘅max_expirations參數） */
 .exp-select-wrap{display:flex;align-items:center;gap:6px;background:var(--bg2);border:1px solid var(--border);
@@ -567,7 +616,7 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 .lc-label{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;}
 .lc-val{font-size:20px;font-weight:700;font-family:var(--font-display);line-height:1;}
 .lc-sub{font-size:10px;color:var(--muted);margin-top:4px;}
-.lc-val.spot-clr{color:#fff;}
+.lc-val.spot-clr{color:#0f172a;}
 .lc-val.flip-clr{color:var(--amber);}
 .lc-val.call-clr{color:var(--green);}
 .lc-val.put-clr{color:var(--red);}
@@ -603,7 +652,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .info-table td{padding:6px 10px;border-bottom:1px solid var(--border);}
 .info-table tr:last-child td{border-bottom:none;}
 .info-table .k{color:var(--muted);width:140px;}
-.info-table .v{color:#fff;font-weight:500;}
+.info-table .v{color:#0f172a;font-weight:500;}
 
 /* Quicklinks (Futu持倉 / Watchlist) */
 .qlinks{margin-bottom:18px;}
@@ -757,7 +806,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .rt-ticker-item{display:flex;align-items:baseline;gap:6px;padding:0 20px;white-space:nowrap;
   font-family:var(--font-mono);font-size:12px;border-right:1px solid var(--border);}
 .rt-flag{font-size:12px;}
-.rt-code{color:#fff;font-weight:700;letter-spacing:.02em;}
+.rt-code{color:#0f172a;font-weight:700;letter-spacing:.02em;}
 .rt-name{color:var(--muted);font-size:10.5px;}
 .rt-price{color:var(--text);font-feature-settings:'tnum';}
 .rt-chg{font-weight:600;font-size:11px;font-feature-settings:'tnum';}
@@ -808,7 +857,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .scards{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px;}
 .scard{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;}
 .sc-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;}
-.sc-val{font-size:20px;font-weight:700;font-family:var(--font-display);color:#fff;}
+.sc-val{font-size:20px;font-weight:700;font-family:var(--font-display);color:#0f172a;}
 .sc-sub{font-size:11px;color:var(--muted);margin-top:3px;}
 
 /* 持倉總覽：控制列 + 圖例 */
@@ -832,25 +881,25 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .tbl-wrap thead th:first-child,.tbl-wrap thead th:nth-child(2){text-align:left;}
 .tbl-wrap tbody tr{border-bottom:1px solid var(--border);}
 .tbl-wrap tbody tr:last-child{border-bottom:none;}
-.tbl-wrap tbody tr:hover{background:rgba(255,255,255,.02);}
+.tbl-wrap tbody tr:hover{background:rgba(0,0,0,.04);}
 .tbl-wrap tbody tr.total-row{background:rgba(0,212,170,.04);font-weight:600;}
 .tbl-wrap td{padding:9px 12px;text-align:right;white-space:nowrap;font-feature-settings:'tnum';}
 .tbl-wrap td:first-child,.tbl-wrap td:nth-child(2){text-align:left;}
 .sym{font-weight:700;color:var(--blue);cursor:pointer;}
 .sym:hover{color:var(--accent);}
-.t1-cell{font-weight:600;color:#fff;}
+.t1-cell{font-weight:600;color:#0f172a;}
 .chg-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;margin-left:4px;}
 .chg-badge.pos{background:rgba(0,212,170,.12);color:var(--green);}
 .chg-badge.neg{background:rgba(255,77,109,.12);color:var(--red);}
-.chg-badge.neu{background:rgba(255,255,255,.05);color:var(--muted);}
+.chg-badge.neu{background:rgba(0,0,0,.05);color:var(--muted);}
 .t2-cell,.t3-cell{color:var(--muted);}
 .cost-cell{color:var(--muted);}
-.mv-cell{color:#fff;font-weight:500;}
+.mv-cell{color:#0f172a;font-weight:500;}
 .pnl-pos{color:var(--green);} .pnl-neg{color:var(--red);} .pnl-neu{color:var(--muted);}
 .pct-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;}
 .pct-badge.pos{background:rgba(0,212,170,.1);color:var(--green);}
 .pct-badge.neg{background:rgba(255,77,109,.1);color:var(--red);}
-.pct-badge.neu{background:rgba(255,255,255,.05);color:var(--muted);}
+.pct-badge.neu{background:rgba(0,0,0,.05);color:var(--muted);}
 .act{display:flex;gap:4px;}
 .lnk{font-size:9px;color:var(--muted);text-decoration:none;border:1px solid var(--border);border-radius:3px;
   padding:2px 5px;transition:all .15s;}
@@ -1029,7 +1078,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <!-- Status -->
 <div class="status-row">
   <div class="pill"><div class="dot" id="d-br"></div><span id="t-br">Bridge: —</span></div>
-  <div class="pill" id="p-sym" style="display:none"><span id="t-sym" style="color:#fff;font-weight:700">—</span></div>
+  <div class="pill" id="p-sym" style="display:none"><span id="t-sym" style="color:#0f172a;font-weight:700">—</span></div>
   <div class="pill" id="p-exp" style="display:none"><span id="t-exp">—</span></div>
   <div class="pill" id="p-ts"  style="display:none"><span id="t-ts">—</span></div>
   <div class="pill" id="p-mf"  style="display:none"><div class="dot" id="d-mf"></div><span id="t-mf">Money Flow: —</span></div>
@@ -1152,16 +1201,16 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
   </div>
   <div class="pc-chart-container" id="pc-chart-container"></div>
   <div class="pc-legend">
-    <span><span class="sw" style="background:#f5a623"></span>MA9</span>
-    <span><span class="sw" style="background:#4a9eff"></span>MA20</span>
-    <span><span class="sw" style="background:#a78bfa"></span>MA60</span>
-    <span><span class="sw" style="background:#8593ad;border-top:1px dashed #8593ad;height:0"></span>布林線(20,2σ)</span>
+    <span><span class="sw" style="background:#b45309"></span>MA9</span>
+    <span><span class="sw" style="background:#2563eb"></span>MA20</span>
+    <span><span class="sw" style="background:#7c3aed"></span>MA60</span>
+    <span><span class="sw" style="background:#5b6472;border-top:1px dashed #5b6472;height:0"></span>布林線(20,2σ)</span>
     <span><span class="sw" style="background:rgba(0,212,170,0.5)"></span>成交量 <span style="color:var(--border2)">· 貼pane底部</span></span>
-    <span><span class="sw" style="background:#e879f9"></span>RSI(14) <span style="color:var(--border2)">· 獨立pane，30/70參考線</span></span>
-    <span><span class="sw" style="background:#ffffff;border-top:2px dashed #ffffff;height:0"></span>Gamma Flip</span>
-    <span><span class="sw" style="background:#00d4aa;border-top:2px dashed #00d4aa;height:0"></span>Call Wall</span>
-    <span><span class="sw" style="background:#ff4d6d;border-top:2px dashed #ff4d6d;height:0"></span>Put Wall</span>
-    <span><span class="sw" style="background:#ec4899;border-top:2px dashed #ec4899;height:0"></span>Max Pain</span>
+    <span><span class="sw" style="background:#a21caf"></span>RSI(14) <span style="color:var(--border2)">· 獨立pane，30/70參考線</span></span>
+    <span><span class="sw" style="background:#0f172a;border-top:2px dashed #0f172a;height:0"></span>Gamma Flip</span>
+    <span><span class="sw" style="background:#0d9488;border-top:2px dashed #0d9488;height:0"></span>Call Wall</span>
+    <span><span class="sw" style="background:#dc2626;border-top:2px dashed #dc2626;height:0"></span>Put Wall</span>
+    <span><span class="sw" style="background:#db2777;border-top:2px dashed #db2777;height:0"></span>Max Pain</span>
   </div>
 </div>
 
@@ -1179,12 +1228,12 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <canvas id="gex-chart"></canvas>
   </div>
   <div class="chart-legend">
-    <div class="leg-item"><div class="leg-swatch" style="background:#00d4aa"></div>正GEX（Call主導，Dealer Long Gamma）</div>
-    <div class="leg-item"><div class="leg-swatch" style="background:#ff4d6d"></div>負GEX（Put主導，Dealer Short Gamma）</div>
-    <div class="leg-item"><div class="leg-line" style="border-color:#fff"></div>現價 Spot</div>
-    <div class="leg-item"><div class="leg-line" style="border-color:#f5a623"></div>Gamma Flip</div>
-    <div class="leg-item"><div class="leg-line" style="border-color:#00d4aa"></div>Call Wall</div>
-    <div class="leg-item"><div class="leg-line" style="border-color:#ff4d6d"></div>Put Wall</div>
+    <div class="leg-item"><div class="leg-swatch" style="background:#0d9488"></div>正GEX（Call主導，Dealer Long Gamma）</div>
+    <div class="leg-item"><div class="leg-swatch" style="background:#dc2626"></div>負GEX（Put主導，Dealer Short Gamma）</div>
+    <div class="leg-item"><div class="leg-line" style="border-color:#0f172a"></div>現價 Spot</div>
+    <div class="leg-item"><div class="leg-line" style="border-color:#b45309"></div>Gamma Flip</div>
+    <div class="leg-item"><div class="leg-line" style="border-color:#0d9488"></div>Call Wall</div>
+    <div class="leg-item"><div class="leg-line" style="border-color:#dc2626"></div>Put Wall</div>
   </div>
 </div>
 
@@ -1639,7 +1688,7 @@ function doSearch() {
 // ── Helpers ───────────────────────────────────────────────────
 const f2  = v => v==null?'N/A':Number(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
 const fp  = v => v==null?'':((v>=0?'+':'')+v.toFixed(2)+'%');
-const cls = v => v==null?'#888':v>0?'#00d4aa':v<0?'#ff4d6d':'#888';
+const cls = v => v==null?'#64748b':v>0?'#0d9488':v<0?'#dc2626':'#64748b';
 
 // ── 持倉總覽tab專用formatter（移植自futu.html，改名避免同上面
 // gex tab嘅f2/fp/cls撞名——兩邊用途完全唔同：呢度cls()返嘅係
@@ -1650,6 +1699,78 @@ const fm   = v => v==null?'—':Number(v)<0?`-$${Math.abs(v).toLocaleString('en-
 const fmv  = v => v==null?'—':`$${Number(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})}`;
 const fvol = v => {if(!v)return '—';if(v>=1e9)return(v/1e9).toFixed(2)+'B';if(v>=1e6)return(v/1e6).toFixed(2)+'M';if(v>=1e3)return(v/1e3).toFixed(0)+'K';return v;}
 const hCls = v => v==null?'neu':Number(v)>0?'pos':Number(v)<0?'neg':'neu';
+
+// ── 股票基本面（P/E TTM／EPS TTM／Div Yield TTM／EPS Growth YoY／
+// Sector，v5.26新增）──────────────────────────────────────────
+// 背景：呼應用戶對照TradingView Stock Screener提出嘅要求。採用
+// 「Futu為主 + Finnhub補」原則：
+//   - P/E TTM／EPS TTM／Div Yield TTM 優先讀Futu snapshot本身已有
+//     嘅pe_ttm_ratio／earning_per_share／dividend_ratio_ttm（呢批
+//     欄位喺/api/quote每30秒refresh嗰陣已經一齊帶返嚟，零額外API
+//     call）；Futu缺值（例如虧損中嘅新興股pe_ttm_ratio可能係負數
+//     或None，OKLO/RKLB/RR/SERV呢類要留意）先fallback用Finnhub。
+//   - EPS Growth YoY／Sector：Futu snapshot完全冇提供，一律經新增
+//     嘅/api/fundamentals（futu_bridge_v2.py v3.13，Finnhub Basic
+//     Financials + Company Profile2）攞。
+// fundamentalsBySym：由loadFundamentals()填入，{sym: {pe_ttm_fh,
+// div_yield_fh, eps_ttm_fh, eps_growth_yoy, sector}}
+// lastUSRows：保留最後一次/api/quote嘅us陣列，等fundamentals喺
+// quote之後先攞到嗰陣，都可以攞返嚟重新renderUS()，唔使等落次
+// 30秒自動poll先反映新數據。
+let fundamentalsBySym = {};
+let lastUSRows = [];
+
+function fmtFund(sym, r) {
+  const fh = fundamentalsBySym[sym] || {};
+
+  // P/E TTM：Futu為主，Finnhub補；負數或0當冇意義（虧損中嘅股P/E
+  // 唔應該顯示負數，同持倉總覽其餘pnl欄位一貫嘅「冇意義就顯示—」
+  // 做法一致）
+  let pe = r.pe_ttm_ratio;
+  if (pe == null || pe <= 0) pe = fh.pe_ttm_fh;
+  const peTxt = (pe != null && pe > 0) ? Number(pe).toFixed(1) : '—';
+
+  // EPS TTM：Futu為主，Finnhub補
+  let eps = r.earning_per_share;
+  if (eps == null) eps = fh.eps_ttm_fh;
+  const epsTxt = (eps != null) ? `$${Number(eps).toFixed(2)}` : '—';
+
+  // Div Yield TTM：Futu為主（dividend_ratio_ttm本身已經係百分比數值，
+  // 例如20即係20%，唔使再×100）；Finnhub嘅dividendYieldIndicated
+  // Annual一般都係同樣單位，兩個source直接可以互換顯示
+  let div = r.dividend_ratio_ttm;
+  if (div == null) div = fh.div_yield_fh;
+  const divTxt = (div != null) ? `${Number(div).toFixed(2)}%` : '—';
+
+  // EPS Growth YoY：淨係Finnhub有（Futu snapshot冇呢個growth rate）
+  const growth = fh.eps_growth_yoy;
+  const growthCls = growth == null ? '' : (Number(growth) >= 0 ? 'pnl-pos' : 'pnl-neg');
+  const growthTxt = (growth != null)
+    ? `<span class="${growthCls}">${Number(growth)>=0?'+':''}${Number(growth).toFixed(1)}%</span>` : '—';
+
+  // Sector：淨係Finnhub有
+  const sectorTxt = fh.sector
+    ? `<span style="color:var(--muted);font-size:11px">${fh.sector}</span>` : '—';
+
+  return {peTxt, epsTxt, divTxt, growthTxt, sectorTxt};
+}
+
+async function loadFundamentals() {
+  try {
+    // 基本面數據一日先變一次，backend（futu_bridge_v2.py v3.13）
+    // 已經有6小時cache，前端呢度就算隨fetchNow()每30秒一齊call都
+    // 唔會加重Finnhub負擔（backend命中cache即刻返，唔會重新打
+    // Finnhub）；60秒timeout係俾冷cache嗰陣17隻sequential+delay
+    // 用（約17×2×0.15秒+network，留返充足buffer）。
+    const r = await fetch(`${BRIDGE}/api/fundamentals`, {signal: AbortSignal.timeout(60000)});
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    fundamentalsBySym = d.fundamentals || {};
+    if (lastUSRows.length) renderUS(lastUSRows);  // 攞到即刻重畫，唔使等落次30秒poll
+  } catch (e) {
+    console.warn('loadFundamentals failed:', e);
+  }
+}
 
 // ── Render US table（移植自futu.html，T1/T2/T3三層報價模型）───
 function renderUS(rows) {
@@ -1670,6 +1791,9 @@ function renderUS(rows) {
     <th style="min-width:100px">T3 前日收盤<br><span style="font-size:8px;color:var(--muted)">不變，每天一次</span></th>
     <th>成本價</th><th>市值 (USD)</th><th>未實現盈虧</th><th>未實 %</th>
     <th>今日盈虧<br><span style="font-size:8px;color:var(--muted)">(T1−T2)×持股</span></th>
+    <th>P/E TTM</th><th>EPS TTM</th><th>Div Yield</th>
+    <th>EPS Growth<br><span style="font-size:8px;color:var(--muted)">YoY</span></th>
+    <th>Sector</th>
     <th>操作</th>
   </tr></thead><tbody>`;
 
@@ -1718,6 +1842,8 @@ function renderUS(rows) {
     const T2badge = T2_chg_pct!=null
       ? `<span style="font-size:9px;color:var(--muted);margin-left:4px">${T2_chg_pct>=0?'+':''}${T2_chg_pct.toFixed(2)}%</span>` : '';
 
+    const fund = fmtFund(sym, r);
+
     html += `<tr class="${cfg.rowCls}">
       <td><span class="sym">${sym}</span></td>
       <td title="${r.name||''}">${(r.name||'').substring(0,14)}</td>
@@ -1730,6 +1856,11 @@ function renderUS(rows) {
       <td class="${uCls==='pos'?'pnl-pos':uCls==='neg'?'pnl-neg':'pnl-neu'}">${fm(unrealized)}</td>
       <td><span class="pct-badge ${uCls}">${unrPct>=0?'+':''}${unrPct.toFixed(2)}%</span></td>
       <td class="td-pnl ${tCls==='pos'?'pnl-pos':tCls==='neg'?'pnl-neg':'pnl-neu'}">${fm(todayPnl)}</td>
+      <td class="cost-cell">${fund.peTxt}</td>
+      <td class="cost-cell">${fund.epsTxt}</td>
+      <td class="cost-cell">${fund.divTxt}</td>
+      <td>${fund.growthTxt}</td>
+      <td>${fund.sectorTxt}</td>
       <td><div class="act">
         <button class="lnk" onclick="openTV('${sym}')">📈</button>
         <a class="lnk" href="https://finviz.com/quote.ashx?t=${sym}" target="_blank">FV</a>
@@ -1748,6 +1879,7 @@ function renderUS(rows) {
     <td class="${tunrCls==='pos'?'pnl-pos':'pnl-neg'}" style="font-weight:700">${fm(totalPNL)}</td>
     <td><span class="pct-badge ${tunrCls}">${totalUnrPct>=0?'+':''}${totalUnrPct.toFixed(2)}%</span></td>
     <td class="${ttdCls==='pos'?'pnl-pos':'pnl-neg'}" style="font-weight:700">${fm(totalTD)}</td>
+    <td></td><td></td><td></td><td></td><td></td>
     <td></td>
   </tr>`;
   html += '</tbody></table></div>';
@@ -1833,8 +1965,10 @@ async function fetchNow() {
     document.getElementById('t-upd').textContent=new Date().toLocaleTimeString('en-US',{hour12:false});
     document.getElementById('f-ts').textContent='Snapshot: '+new Date(d.ts*1000).toLocaleTimeString('en-US',{hour12:false});
     renderUS(d.us||[]);
+    lastUSRows = d.us||[];
     renderHK(d.hk||[]);
     if ((d.columns||[]).length) renderFI(d.columns,(d.us||[])[0]||null);
+    loadFundamentals();  // v5.26新增：P/E TTM／EPS TTM／Div Yield／Growth／Sector，backend有6小時cache，唔會加重負擔
   } catch(e) {
     setStatus(false,false);
     const msg=`<div class="loading" style="color:var(--red)">
@@ -1945,7 +2079,7 @@ function renderMoneyFlow(mf) {
   const ob = mf.order_book || {};
   const imb = ob.imbalance; // -1 ~ +1
   document.getElementById('mf-book-val').textContent = imb!=null ? `${(imb*100>=0?'+':'')}${(imb*100).toFixed(1)}%` : '無數據';
-  document.getElementById('mf-book-val').style.color = imb==null?'#888':imb>0?'var(--green)':imb<0?'var(--red)':'#888';
+  document.getElementById('mf-book-val').style.color = imb==null?'#64748b':imb>0?'var(--green)':imb<0?'var(--red)':'#64748b';
   document.getElementById('mf-book-sub').textContent = imb!=null
     ? `Bid量 ${ob.bid_total?.toLocaleString()||'—'} vs Ask量 ${ob.ask_total?.toLocaleString()||'—'}（${imb>0?'買盤較厚':imb<0?'賣盤較厚':'均衡'}）` : '—';
   document.getElementById('mf-book-bar').style.width = imb!=null ? `${50+imb*50}%` : '50%';
@@ -1955,7 +2089,7 @@ function renderMoneyFlow(mf) {
   const td = mf.tick_delta || {};
   const delta = td.tick_delta;
   document.getElementById('mf-tick-val').textContent = delta!=null ? `${delta>=0?'+':''}${delta.toLocaleString()}股` : '無數據';
-  document.getElementById('mf-tick-val').style.color = delta==null?'#888':delta>0?'var(--green)':delta<0?'var(--red)':'#888';
+  document.getElementById('mf-tick-val').style.color = delta==null?'#64748b':delta>0?'var(--green)':delta<0?'var(--red)':'#64748b';
   document.getElementById('mf-tick-sub').textContent = delta!=null
     ? `主動買${td.buy_vol?.toLocaleString()||0} / 主動賣${td.sell_vol?.toLocaleString()||0}（${td.window_min||5}分鐘窗）` : '—';
   const tickTotal = (td.buy_vol||0)+(td.sell_vol||0);
@@ -1969,10 +2103,10 @@ function initPriceChart() {
 
   const container = document.getElementById('pc-chart-container');
   pcChart = LightweightCharts.createChart(container, {
-    layout: { background:{type:'solid', color:'transparent'}, textColor:'#c8d4e8', panes:{separatorColor:'#1e2430'} },
-    grid: { vertLines:{color:'#141820'}, horzLines:{color:'#141820'} },
-    timeScale: { timeVisible:true, borderColor:'#1e2430' },
-    rightPriceScale: { borderColor:'#1e2430' },
+    layout: { background:{type:'solid', color:'transparent'}, textColor:'#1a2233', panes:{separatorColor:'#e3e6ec'} },
+    grid: { vertLines:{color:'#eef0f4'}, horzLines:{color:'#eef0f4'} },
+    timeScale: { timeVisible:true, borderColor:'#e3e6ec' },
+    rightPriceScale: { borderColor:'#e3e6ec' },
     crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
   });
   new ResizeObserver(entries => {
@@ -1980,17 +2114,17 @@ function initPriceChart() {
   }).observe(container);
 
   pcCandle = pcChart.addSeries(LightweightCharts.CandlestickSeries, {
-    upColor:'#00d4aa', downColor:'#ff4d6d', borderVisible:false,
-    wickUpColor:'#00d4aa', wickDownColor:'#ff4d6d',
+    upColor:'#0d9488', downColor:'#dc2626', borderVisible:false,
+    wickUpColor:'#0d9488', wickDownColor:'#dc2626',
     // 現價已經有「T1 Live 股價」搜尋列badge + 上面Spot卡顯示，呢度熄咗
     // 原生「最後收市價」標籤——佢之前成日同Put Wall/Gamma Flip標籤
     // 疊埋一齊（例如附圖$123.99同Put Wall$125.00幾乎貼晒），係文字
     // 堆疊問題其中一個主因
     lastValueVisible:false,
   }, 0);
-  pcMa9  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#f5a623', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
-  pcMa20 = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#4a9eff', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
-  pcMa60 = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#a78bfa', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcMa9  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#b45309', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcMa20 = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#2563eb', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcMa60 = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#7c3aed', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
 
   // 成交量（v5.10新增，同K線疊喺同一個pane 0，但用自己嘅price scale
   // 擠喺底部18%，唔會撞到K線/MA/布林線嘅價位軸）——bridge嘅/api/kline
@@ -2004,19 +2138,19 @@ function initPriceChart() {
 
   // 布林線（v5.4新增，pane 0同K線疊埋一齊）：用同一種灰藍色、幼線、
   // 半透明，令上下軌唔會同MA9/20/60撞色，亦唔會搶咗K線本身嘅視覺重心
-  pcBbUpper  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(133,147,173,0.75)', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dashed, priceLineVisible:false, lastValueVisible:false}, 0);
-  pcBbMiddle = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(133,147,173,0.35)', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
-  pcBbLower  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(133,147,173,0.75)', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dashed, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcBbUpper  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(91,100,114,0.75)', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dashed, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcBbMiddle = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(91,100,114,0.35)', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcBbLower  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(91,100,114,0.75)', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dashed, priceLineVisible:false, lastValueVisible:false}, 0);
 
   pcMacdHist   = pcChart.addSeries(LightweightCharts.HistogramSeries, {priceFormat:{type:'volume'}}, 1);
-  pcMacdLine   = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#4a9eff', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 1);
-  pcMacdSignal = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#f5a623', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 1);
+  pcMacdLine   = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#2563eb', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 1);
+  pcMacdSignal = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#b45309', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 1);
 
   // RSI（v5.4新增，獨立第3個pane）：30/70係靜態參考線（固定價位，唔隨
   // 數據變，一次過創建就得，唔使每次renderPriceChart都重新畫）
-  pcRsi = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#e879f9', lineWidth:1.5, priceLineVisible:false, lastValueVisible:true}, 2);
-  pcRsi.createPriceLine({price:70, color:'#f5a623', lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超買70'});
-  pcRsi.createPriceLine({price:30, color:'#f5a623', lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超賣30'});
+  pcRsi = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#a21caf', lineWidth:1.5, priceLineVisible:false, lastValueVisible:true}, 2);
+  pcRsi.createPriceLine({price:70, color:'#b45309', lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超買70'});
+  pcRsi.createPriceLine({price:30, color:'#b45309', lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超賣30'});
 
   // 3個pane各自高度：K線主圖最大，MACD/RSI細啲（v5.4，容器由480→640px，
   // 加返RSI呢個新pane後三者仍然睇得清，唔會迫埋一齊）
@@ -2179,10 +2313,10 @@ function renderGexPriceLines(d, priceRange) {
   if (!pcCandle) return;
 
   const raw = [
-    {price: d.flip,      color:'#ffffff', title:'Gamma Flip'},
-    {price: d.call_wall, color:'#00d4aa', title:'Call Wall'},
-    {price: d.put_wall,  color:'#ff4d6d', title:'Put Wall'},
-    {price: d.max_pain,  color:'#ec4899', title:'Max Pain'},
+    {price: d.flip,      color:'#0f172a', title:'Gamma Flip'},
+    {price: d.call_wall, color:'#0d9488', title:'Call Wall'},
+    {price: d.put_wall,  color:'#dc2626', title:'Put Wall'},
+    {price: d.max_pain,  color:'#db2777', title:'Max Pain'},
   ].filter(l => l.price != null);
   if (!raw.length) return;
 
@@ -2654,8 +2788,8 @@ function renderCapFlowChart(d) {
       plugins: { legend: {display:false},
         tooltip: { callbacks: { label: item => `淨流入: ${(item.raw/1e4).toFixed(0)}萬` } } },
       scales: {
-        x: { ticks:{color:'#4a5568', font:{size:9}, maxTicksLimit:8}, grid:{display:false} },
-        y: { ticks:{color:'#4a5568', font:{size:9}, callback:v=>(v/1e4).toFixed(0)+'萬'}, grid:{color:'rgba(30,36,48,0.6)'} },
+        x: { ticks:{color:'#64748b', font:{size:9}, maxTicksLimit:8}, grid:{display:false} },
+        y: { ticks:{color:'#64748b', font:{size:9}, callback:v=>(v/1e4).toFixed(0)+'萬'}, grid:{color:'rgba(0,0,0,0.06)'} },
       }
     }
   });
@@ -2676,7 +2810,7 @@ function drawChart(d, spot, flip, callWall, putWall) {
   const labels = filtered.map(s => s.strike.toFixed(0));
   const values = filtered.map(s => s.net_gex);
   const colors = values.map(v => v >= 0 ? 'rgba(0,212,170,0.75)' : 'rgba(255,77,109,0.75)');
-  const borderColors = values.map(v => v >= 0 ? '#00d4aa' : '#ff4d6d');
+  const borderColors = values.map(v => v >= 0 ? '#0d9488' : '#dc2626');
 
   // Destroy old chart
   if (chartInst) { chartInst.destroy(); chartInst=null; }
@@ -2723,10 +2857,10 @@ function drawChart(d, spot, flip, callWall, putWall) {
         c.fillText(label, xPos, yOff);
         c.restore();
       };
-      drawVLine(putIdx,  '#ff4d6d', 'Put Wall', true);
-      drawVLine(callIdx, '#00d4aa', 'Call Wall', true);
-      drawVLine(flipIdx, '#f5a623', 'Flip', true);
-      drawVLine(spotIdx, '#ffffff', 'Spot', false);
+      drawVLine(putIdx,  '#dc2626', 'Put Wall', true);
+      drawVLine(callIdx, '#0d9488', 'Call Wall', true);
+      drawVLine(flipIdx, '#b45309', 'Flip', true);
+      drawVLine(spotIdx, '#0f172a', 'Spot', false);
     }
   };
 
@@ -2750,11 +2884,11 @@ function drawChart(d, spot, flip, callWall, putWall) {
       plugins: {
         legend: {display: false},
         tooltip: {
-          backgroundColor: '#141820',
-          borderColor: '#1e2430',
+          backgroundColor: '#eef0f4',
+          borderColor: '#e3e6ec',
           borderWidth: 1,
-          titleColor: '#c8d4e8',
-          bodyColor: '#c8d4e8',
+          titleColor: '#1a2233',
+          bodyColor: '#1a2233',
           callbacks: {
             title: items => `Strike: $${Number(items[0].label).toLocaleString()}`,
             label: item => {
@@ -2767,7 +2901,7 @@ function drawChart(d, spot, flip, callWall, putWall) {
       scales: {
         x: {
           ticks: {
-            color: '#4a5568',
+            color: '#64748b',
             maxTicksLimit: 20,
             font: {size:10, family:'JetBrains Mono'},
             callback: (val,idx) => {
@@ -2776,16 +2910,16 @@ function drawChart(d, spot, flip, callWall, putWall) {
               return idx % step === 0 ? `$${filtered[idx]?.strike.toFixed(0)||''}` : '';
             }
           },
-          grid: {color:'rgba(30,36,48,0.8)'},
+          grid: {color:'rgba(0,0,0,0.1)'},
         },
         y: {
           ticks: {
-            color: '#4a5568',
+            color: '#64748b',
             font: {size:10, family:'JetBrains Mono'},
             callback: v => `${v>=0?'+':''}${v.toFixed(1)}M`
           },
-          grid: {color:'rgba(30,36,48,0.6)'},
-          border:{color:'#252d3a'},
+          grid: {color:'rgba(0,0,0,0.06)'},
+          border:{color:'#d3d7e0'},
           zero: true,
         }
       }
@@ -2868,10 +3002,10 @@ async function fetchOptionsCalendar() {
 // var(--border2)，令(LongGamma)/(ShortGamma)喺任何背景之下都
 // 睇得清）。
 function calDayTierStyle(days) {
-  if (days <= 0)  return {bg:'rgba(255,77,109,.38)', border:'#ff4d6d'};
-  if (days <= 3)  return {bg:'rgba(245,166,35,.35)', border:'#f5a623'};
-  if (days <= 7)  return {bg:'rgba(245,166,35,.18)', border:'#f5a623'};
-  if (days <= 14) return {bg:'rgba(74,158,255,.26)', border:'#4a9eff'};
+  if (days <= 0)  return {bg:'rgba(255,77,109,.38)', border:'#dc2626'};
+  if (days <= 3)  return {bg:'rgba(245,166,35,.35)', border:'#b45309'};
+  if (days <= 7)  return {bg:'rgba(245,166,35,.18)', border:'#b45309'};
+  if (days <= 14) return {bg:'rgba(74,158,255,.26)', border:'#2563eb'};
   return {bg:'', border:'transparent'};
 }
 
@@ -2894,7 +3028,7 @@ function calSnapshotCellHtml(sym) {
     const pctTxt = s.pct != null
       ? ` <span style="color:${s.pct>=0?'var(--green)':'var(--red)'}">${s.pct>=0?'+':''}${s.pct.toFixed(2)}%</span>`
       : '';
-    lines.push(`<span style="color:#fff;font-weight:700">$${s.price.toFixed(2)}</span>${pctTxt}`);
+    lines.push(`<span style="color:#0f172a;font-weight:700">$${s.price.toFixed(2)}</span>${pctTxt}`);
   }
 
   // Gamma關鍵位
