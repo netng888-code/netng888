@@ -529,13 +529,40 @@
        accent色文字，正正係一般fintech淺色UI常見嘅「淡底+深字」
        徽章風格，唔使額外調整。Chart.js嘅深色grid line
        （rgba(30,36,48,X)）都改做淺灰rgba(0,0,0,X)。
+  v5.27（2026-09-13 續）：用戶反映「持倉總覽」加咗基本面欄效果
+    好，要求「GEX + K線」／「到期日曆」兩個tab都加埋P/E TTM／
+    EPS TTM／Div Yield TTM／EPS Growth YoY（呢次冇要求Sector，
+    跟返用戶原話範圍冇加）。
+    背景：呢兩個tab查詢嘅symbol唔限持倉——「GEX + K線」搜尋列
+    支援任何美股（Watchlist/手動輸入都得），「到期日曆」table
+    雖然目前淨係列持倉，但底層fetchCalSnapshotBatch()本身冇假設
+    一定係持倉。v5.26嗰個/api/fundamentals係批量endpoint（淨係
+    循環17隻持倉），唔夠用，所以backend（futu_bridge_v2.py
+    v3.14）加咗兩樣嘢：(1) /api/gex/{sym}擴展帶埋pe_ttm_ratio／
+    earning_per_share／dividend_ratio_ttm（重用同一個
+    get_market_snapshot() call，零額外成本，天然適用任何美股）；
+    (2) 新增單symbol版/api/fundamentals/{sym}（獨立6小時cache），
+    俾EPS Growth YoY（Finnhub先有）都可以查任何symbol。
+    前端新增loadFundamentalsFor(sym)（帶cache check，持倉symbol
+    如果之前已經喺「持倉總覽」攞過就唔會重複fetch Finnhub）+
+    renderFundRow()，兩者都reuse v5.26已經寫好嘅fmtFund()，冇
+    重複開發格式化邏輯：
+    1. 「GEX + K線」：Key Levels卡下面新增一排4張卡（P/E TTM／
+       EPS TTM／Div Yield TTM／EPS Growth YoY，藍色accent同
+       Spot/Flip/Call/Put/Status五張卡區分開），loadGex()查詢
+       嗰陣一齊render（P/E/EPS/Div即時有，因為已經喺gex response
+       入面；Growth等Finnhub call完先補上）。
+    2. 「到期日曆」：「持倉快照」cell新增多一行基本面資訊，
+       fetchCalSnapshotBatch()喺batch(4)攞GEX/Money Flow嗰陣一齊
+       攞（同一套「單一OpenQuoteContext唔宜太多thread同時撞」
+       審慎原則，Finnhub部分理論上可以並行但冇必要爭嗰幾秒）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.26)</title>
+<title>GEX Chart — Futu Bridge (v5.27)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -606,6 +633,7 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 
 /* Key levels cards */
 .levels{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:20px;}
+.fund-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;}
 .lcard{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;text-align:center;position:relative;}
 .lcard::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;border-radius:0 0 8px 8px;}
 .lcard.spot::after{background:var(--white);}
@@ -613,6 +641,7 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 .lcard.call::after{background:var(--green);}
 .lcard.put::after{background:var(--red);}
 .lcard.status-card::after{background:var(--purple);}
+.lcard.fund::after{background:var(--blue);}
 .lc-label{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;}
 .lc-val{font-size:20px;font-weight:700;font-family:var(--font-display);line-height:1;}
 .lc-sub{font-size:10px;color:var(--muted);margin-top:4px;}
@@ -935,9 +964,9 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
   font-size:10px;color:var(--muted);letter-spacing:.04em;padding-top:14px;border-top:1px solid var(--border);}
 
 @media(max-width:1100px){.scards{grid-template-columns:repeat(2,1fr);}}
-@media(max-width:900px){.levels{grid-template-columns:repeat(3,1fr);}.mf-grid{grid-template-columns:1fr;}}
+@media(max-width:900px){.levels{grid-template-columns:repeat(3,1fr);}.fund-row{grid-template-columns:repeat(2,1fr);}.mf-grid{grid-template-columns:1fr;}}
 @media(max-width:800px){.tbl-wrap td:nth-child(n+9){display:none;}.tbl-wrap thead th:nth-child(n+9){display:none;}}
-@media(max-width:600px){.levels{grid-template-columns:repeat(2,1fr);}.pc-chart-container{height:380px;}.scards{grid-template-columns:1fr;}}
+@media(max-width:600px){.levels{grid-template-columns:repeat(2,1fr);}.fund-row{grid-template-columns:1fr;}.pc-chart-container{height:380px;}.scards{grid-template-columns:1fr;}}
 </style>
 </head>
 <body>
@@ -1110,6 +1139,29 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <div class="lc-label">Gamma 狀態</div>
     <div class="lc-val" style="font-size:13px;line-height:1.4" id="lv-status">—</div>
     <div class="lc-sub" id="lv-status-sub">—</div>
+  </div>
+</div>
+
+<!-- 股票基本面（v5.27新增）：P/E TTM／EPS TTM／Div Yield TTM／
+     EPS Growth YoY——P/E/EPS/Div Yield嚟自/api/gex已經帶埋嘅Futu
+     snapshot欄位（零額外API call），Growth嚟自/api/fundamentals/{sym}
+     （Finnhub），呢個tab查詢任何美股（唔限持倉）都會顯示 -->
+<div class="fund-row" id="fund-row" style="display:none">
+  <div class="lcard fund">
+    <div class="lc-label">P/E TTM</div>
+    <div class="lc-val" id="fund-pe">—</div>
+  </div>
+  <div class="lcard fund">
+    <div class="lc-label">EPS TTM</div>
+    <div class="lc-val" id="fund-eps">—</div>
+  </div>
+  <div class="lcard fund">
+    <div class="lc-label">Div Yield TTM</div>
+    <div class="lc-val" id="fund-div">—</div>
+  </div>
+  <div class="lcard fund">
+    <div class="lc-label">EPS Growth YoY</div>
+    <div class="lc-val" id="fund-growth">—</div>
   </div>
 </div>
 
@@ -1772,6 +1824,44 @@ async function loadFundamentals() {
   }
 }
 
+// ── 單symbol版基本面（v5.27新增）── 俾「GEX + K線」／「到期日曆」
+// 兩個tab用，配合futu_bridge_v2.py v3.14新增嘅/api/fundamentals/{sym}。
+// 呢兩個tab查詢嘅symbol唔限持倉（可以係Watchlist或用戶手動輸入），
+// 淨用批量嘅/api/fundamentals（只循環17隻持倉）攞唔到——單symbol
+// endpoint冇呢個限制。fundamentalsBySym係同一個全域cache，無論係
+// 批量（loadFundamentals，持倉總覽用）定呢度（單symbol）填入，
+// 格式一致，fmtFund()可以共用，唔使查詢緊持倉symbol時重複再攞
+// 一次（下面已經有cache check）。
+async function loadFundamentalsFor(sym) {
+  if (fundamentalsBySym[sym]) return fundamentalsBySym[sym];  // 已有（持倉批量或之前查過），唔使再fetch
+  try {
+    const r = await fetch(`${BRIDGE}/api/fundamentals/${sym}`, {signal: AbortSignal.timeout(15000)});
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    fundamentalsBySym[sym] = d;
+    return d;
+  } catch (e) {
+    console.warn('loadFundamentalsFor failed:', sym, e);
+    return {};
+  }
+}
+
+// 「GEX + K線」tab嘅基本面row渲染（v5.27新增）——P/E TTM／EPS TTM／
+// Div Yield TTM直接用fmtFund()讀gexData（futu_bridge_v2.py v3.14
+// 已經將pe_ttm_ratio／earning_per_share／dividend_ratio_ttm三個
+// 欄位加入/api/gex response，同一個get_market_snapshot() call，
+// 零額外API成本）；EPS Growth YoY讀fundamentalsBySym[sym]（Finnhub，
+// 由loadFundamentalsFor()填入）。Sector呢個tab冇要求顯示，跟返
+// fmtFund()原有輸出但淨係揀用四個欄位。
+function renderFundRow(sym, gexData) {
+  const fund = fmtFund(sym, gexData || {});
+  document.getElementById('fund-row').style.display = '';
+  document.getElementById('fund-pe').textContent = fund.peTxt;
+  document.getElementById('fund-eps').textContent = fund.epsTxt;
+  document.getElementById('fund-div').textContent = fund.divTxt;
+  document.getElementById('fund-growth').innerHTML = fund.growthTxt;
+}
+
 // ── Render US table（移植自futu.html，T1/T2/T3三層報價模型）───
 function renderUS(rows) {
   if (!rows||!rows.length) {
@@ -2395,6 +2485,14 @@ async function loadGex(sym) {
     renderAll(d, liveQuote, sym);
     clearMsg();
 
+    // 股票基本面（v5.27新增）：P/E TTM／EPS TTM／Div Yield TTM嚟自
+    // 上面已經攞到嘅d（bridge v3.14已加pe_ttm_ratio等欄位，零額外
+    // API call），即刻可以render；EPS Growth YoY要另外call Finnhub
+    // （loadFundamentalsFor），獨立fetch，唔阻住主GEX顯示，攞到之後
+    // 先重新render一次補埋growth個位。
+    renderFundRow(sym, d);
+    loadFundamentalsFor(sym).then(() => renderFundRow(sym, d));
+
     // Money Flow：唔影響主GEX顯示，失敗都唔throw。v5.10：連埋存低
     // lastMoneyFlow俾runAiAnalysis()結合散戶行為用
     getMoneyFlow(sym).then(mf => { lastMoneyFlow = mf; renderMoneyFlow(mf); renderTrendBanner(lastData?.d?.trend, mf?.trend); });
@@ -2948,6 +3046,7 @@ function clearMsg() {
 }
 function hideAll() {
   document.getElementById('levels').style.display='none';
+  document.getElementById('fund-row').style.display='none';
   document.getElementById('chart-wrap').style.display='none';
   document.getElementById('mf-section').style.display='none';
   document.getElementById('capflow-section').style.display='none';
@@ -3068,6 +3167,19 @@ function calSnapshotCellHtml(sym) {
   if (s.tick_delta != null) mfBits.push(`Tick:<span style="color:${s.tick_delta>=0?'var(--green)':'var(--red)'}">${s.tick_delta>=0?'+':''}${s.tick_delta.toLocaleString()}</span>`);
   if (mfBits.length) lines.push(`<span style="color:var(--muted)">${mfBits.join(' · ')}</span>`);
 
+  // 基本面（v5.27新增）：P/E TTM／EPS TTM／Div Yield TTM／EPS Growth
+  // YoY——用返同一個fmtFund()（同「持倉總覽」／「GEX + K線」三個位
+  // 共用一套邏輯），s.fund由fetchCalSnapshotBatch()喺攞GEX嗰陣一齊
+  // 計好存低。
+  if (s.fund) {
+    const fundBits = [];
+    if (s.fund.peTxt !== '—') fundBits.push(`P/E ${s.fund.peTxt}`);
+    if (s.fund.epsTxt !== '—') fundBits.push(`EPS ${s.fund.epsTxt}`);
+    if (s.fund.divTxt !== '—') fundBits.push(`Div ${s.fund.divTxt}`);
+    if (s.fund.growthTxt !== '—') fundBits.push(`Growth ${s.fund.growthTxt}`);
+    if (fundBits.length) lines.push(`<span style="color:var(--muted)">${fundBits.join(' · ')}</span>`);
+  }
+
   return lines.join('<br>');
 }
 
@@ -3115,6 +3227,12 @@ async function fetchCalSnapshotBatch(symbols) {
         const rm = await fetch(`${BRIDGE}/api/moneyflow/${sym}`, {signal:AbortSignal.timeout(15000)});
         if (rm.ok) { const dm = await rm.json(); if (!dm.error) mf = dm; }
       } catch(e) {}
+      // 基本面（v5.27新增）：P/E TTM／EPS TTM／Div Yield TTM讀gex
+      // response（bridge v3.14已加pe_ttm_ratio等欄位，零額外API
+      // call）；EPS Growth YoY要另外call Finnhub（loadFundamentalsFor，
+      // 內部有cache，持倉symbol如果之前已經喺「持倉總覽」攞過就
+      // 唔會重複fetch）。
+      await loadFundamentalsFor(sym);
 
       const q = quotesBySym[sym] || {};
       const pf = mf && mf.premium_flow;
@@ -3131,6 +3249,7 @@ async function fetchCalSnapshotBatch(symbols) {
         call_pct: callPct,
         book_imbalance: (mf && mf.order_book) ? mf.order_book.imbalance : null,
         tick_delta: (mf && mf.tick_delta) ? mf.tick_delta.tick_delta : null,
+        fund: fmtFund(sym, gex || {}),
       };
       applyCalSnapshotToRows(sym);
     }));
