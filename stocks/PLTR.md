@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$165.86** |
-| 今日變動 | ▼ $3.67　(-2.16%) |
+| 現價 | **$167.23** |
+| 今日變動 | ▲ $1.37　(+0.83%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $291　(▲33.4%) |
+| 未實現盈虧 | ▲ $300　(▲34.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $165.91 | — |
-| Put Wall（支撐） | $165.00 | -0.5% |
-| Call Wall（阻力） | $170.00 | +2.5% |
+| Gamma Flip | $161.37 | — |
+| Put Wall（支撐） | $160.00 | -4.3% |
+| Call Wall（阻力） | $170.00 | +1.7% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Top Funds Aren't Fooling Around. Witness Massive Bets On CrowdStrike And Beyond.](https://finnhub.io/api/news?id=0b2e2b1f6a0d5ed4472f0aee47254686d1e304fcec20cdeee38c98aa99308c38)**  
-*Yahoo · 1h前*  
-As the best mutual funds poured CrowdStrike and Marvell, Palantir also returned to this monthly screen for the first time this year.
+- **[3 Stocks to Bet Against If You Want to Invest Like Michael Burry](https://finnhub.io/api/news?id=2828a4fc22f3bc9048c86e721537d55a0d62f75027c995caa3e96665c2323c05)**  
+*Yahoo · 13h前*  
+Michael Burry’s bearish positioning in these three names offers investors an opportunity to examine the risks behind some of the market’s closely watched AI sto…
 
-- **[Relatively unknown cloud provider gets Nvidia's stamp of approval](https://finnhub.io/api/news?id=1be376567cb962f4f74f61da152003e32110a1ed055c61c417f111fbe98cf44e)**  
-*Yahoo · 2h前*  
-Nvidia just backed a smaller cloud’s bet that regulated buyers care less about scale and more about who owns the outcome.
+- **[Nebius And Palantir: Implications Of The New Partnership](https://finnhub.io/api/news?id=7e64b016ea3de207f1f7a0fc1d9494659a8dad54373215c8245c70b56ceb00ec)**  
+*SeekingAlpha · 1d前*  
+Nebius surged 8% after announcing a strategic AI infrastructure partnership with Palantir this week. Read why I reaffirm my Strong Buy rating for NBIS stock.
 
-- **[The Nvidia Experiment That Makes Palantir Harder To Dismiss](https://finnhub.io/api/news?id=dae869c2c2ed054e476e4bced2c61a818dae0eb4fb27a134b07bc63b60441150)**  
-*SeekingAlpha · 4h前*  
-Palantirâs NVIDIA deployment validates its enterprise AI moat, but at 48x sales, the valuation is steep. Click here to read an analysis of PLTR stock now.
+- **[Palantir's Growth Has Kept Accelerating, but Can the Rally Continue?](https://finnhub.io/api/news?id=9b489e2c8f75ab5642c2b568a659573c464486759bb1e292737ef398b7961532)**  
+*Yahoo · 1d前*  
+The AI data analytics giant could run up against a wall in the near future.
 
 ---
 
@@ -48,7 +48,7 @@ Palantirâs NVIDIA deployment validates its enterprise AI moat, but at 48x s
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-11 | 監控 | $165.86 | — | 自動更新 |
+| 2026-09-14 | 監控 | $167.23 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantirâs NVIDIA deployment validates its enterprise AI moat, but at 48x s
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 09:04 HKT*
