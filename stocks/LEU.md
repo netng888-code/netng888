@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Centrus Energy (LEU) Stock Trades Down, Here Is Why](https://finnhub.io/api/news?id=83cbbccde74321a30ed44f9704b9287ccf260805d0b794de78b3115b890ac00c)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 Shares of nuclear fuel supplier Centrus Energy (NYSE:LEU) fell 8.6% in the afternoon session after the company announced the pricing of a $500 million underwrit…
 
 ---
@@ -51,4 +51,4 @@ Shares of nuclear fuel supplier Centrus Energy (NYSE:LEU) fell 8.6% in the after
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 21:04 HKT*
