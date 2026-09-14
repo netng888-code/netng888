@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$61.96** |
-| 今日變動 | ▼ $1.11　(-1.76%) |
+| 現價 | **$62.95** |
+| 今日變動 | ▲ $0.99　(+1.60%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $140　(▼18.5%) |
+| 未實現盈虧 | ▼ $130　(▼17.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $65.28 | — |
-| Put Wall（支撐） | $60.00 | -3.2% |
-| Call Wall（阻力） | $70.00 | +13.0% |
+| Gamma Flip | $66.34 | — |
+| Put Wall（支撐） | $60.00 | -4.7% |
+| Call Wall（阻力） | $70.00 | +11.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Is Five Launches From 100 Electron Missions — Raymond James Flags Two Opportunities With ‘Significant Upsides’](https://finnhub.io/api/news?id=8c59c3256b92d17116b007195455e06e240157e26fa42eb84462aa796aebd7c5)**  
-*Yahoo · 0h前*  
-Raymond James said Rocket Lab is building a vertically integrated and capital-efficient space platform, with strong revenue and backlog growth potential.
+- **[SpaceX and Rocket Lab Have a New Space Rival -- in Norway](https://finnhub.io/api/news?id=86a0ea500e13d1e8385a640323236885ca1b0f5c675cb4263c58f0761c751647)**  
+*Yahoo · 13h前*  
+The number of space companies keeps growing, and this new entrant is a bigger threat to Rocket Lab than to SpaceX.
 
-- **[Rocket Lab Completes 16th Electron Launch of 2026](https://finnhub.io/api/news?id=203aaed770eff9769fe26402e58905c5054bcb73b7a1a97d7511cbfc147744b3)**  
-*Yahoo · 2h前*  
-Rocket Lab Corporation (NASDAQ:RKLB) launched its 16th Electron mission of 2026 on September 11, carrying an Earth observation satellite into orbit for an undis…
+- **[Rocket Lab Tackles a Supply Chain Bottleneck as the Stock Hunts for a Bottom. Time to Buy?](https://finnhub.io/api/news?id=296dad7f3d5a8835e2934929f3f4b734d2cf2413bbfaf74f7f8a460925ac450d)**  
+*Yahoo · 1d前*  
+Rocket Lab shares trade near $62 despite new solar cell tech, a 16th Electron launch and analyst optimism, as investors await the Neutron rocket's debut for a t…
 
-- **[Nasdaq, Dow, S&P 500 Futures Rise After 4-Day Market Slide As CPI Looms Large: ORCL, ADBE, MU, TSLA, RKLB, IBRX, HOOD, GME In Focus](https://finnhub.io/api/news?id=5743c1cd4f6a2ed60b6deedbfb832a269a672180158ecab790803d669582bf9b)**  
-*Yahoo · 4h前*  
-Retail sentiment on Stocktwits turned bearish on SPY and QQQ ahead of August CPI.
+- **[2 Stocks Cathie Wood Is Snapping Up at a Discount Right Now](https://finnhub.io/api/news?id=f9dc5d861de516976cf1c39a974745e794477d1548d734bca867a96afda9d503)**  
+*Yahoo · 2d前*  
+Several Ark funds recently bought the dip in Meta and Rocket Lab.
 
 ---
 
@@ -48,7 +48,7 @@ Retail sentiment on Stocktwits turned bearish on SPY and QQQ ahead of August CPI
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-11 | 監控 | $61.96 | — | 自動更新 |
+| 2026-09-14 | 監控 | $62.95 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Retail sentiment on Stocktwits turned bearish on SPY and QQQ ahead of August CPI
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
