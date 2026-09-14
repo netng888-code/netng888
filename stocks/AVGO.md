@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$360.83** |
-| 今日變動 | ▼ $3.55　(-0.97%) |
+| 現價 | **$361.99** |
+| 今日變動 | ▲ $1.16　(+0.32%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $150　(▼4.0%) |
+| 未實現盈虧 | ▼ $138　(▼3.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $361.83 | — |
-| Put Wall（支撐） | $350.00 | -3.0% |
-| Call Wall（阻力） | $370.00 | +2.5% |
+| Gamma Flip | $365.08 | — |
+| Put Wall（支撐） | $350.00 | -3.3% |
+| Call Wall（阻力） | $370.00 | +2.2% |
 
 **狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Prediction: Broadcom and Nvidia Will Be 2027's Best Performing AI Stocks](https://finnhub.io/api/news?id=fa9149e4bd7a62694d78374a4da704e98b074b9595221b7918f6bf27620fada3)**  
-*Yahoo · 2h前*  
-Both Nvidia and Broadcom forecast huge growth next year.
+- **[Goldman Sachs Says AI Is Driving Half of S&P 500 Earnings Growth. That Number Cuts Both Ways.](https://finnhub.io/api/news?id=af678d9eee32dcdeb85c86c3dae9cc235cfa295730d0d1cc1612180b9a5a41db)**  
+*Yahoo · 7h前*  
+Goldman Sachs says AI spending is propping up S&P 500 earnings growth, but that same statistic reveals a fragile dependency on a handful of buyers whose budgets…
 
-- **[Andy Jassy Just Made a Move That Should Excite Micron and Broadcom Investors](https://finnhub.io/api/news?id=068df1e7dae22bbc3a21d7901108c8b19c7811d42c957801818ae2c38ff8cf8d)**  
-*Yahoo · 4h前*  
-The Amazon CEO has a keen understanding of what's next in the artificial intelligence space.
+- **[Nvidia vs. Broadcom: Which Trillion-Dollar AI Chip Stock Has More Upside After Their Latest Earnings?](https://finnhub.io/api/news?id=99a0a7d560641299354330c6b8697f0729b8a0eb4fbdd064f27eeff597908e7c)**  
+*Yahoo · 7h前*  
+Nvidia and Broadcom both just delivered monster earnings reports.
 
-- **[Broadcom: A $230 Billion AI Juggernaut In The Making](https://finnhub.io/api/news?id=ea08963ae5aabdb9bdb6fac7cb23aacb20c968ff8cd04f64b8d90ad228df28ae)**  
-*SeekingAlpha · 5h前*  
-Broadcom's Q3 FY26 beats on AI chip sales; AI revenue may hit $58B in FY26 and surge. Click here to read this earnings analysis of AVGO stock.
+- **[Dreamforce Will Pitch Unified Agent Trust. The Market Is Still Stitching Together Three Separate Layers](https://finnhub.io/api/news?id=df52652abe5cc06d944b0dfa7a102757eea24764ee239a085e645e8300dc8e60)**  
+*Yahoo · 7h前*  
+As the industry converges on San Francisco for Dreamforce 2026, the narrative is predictably polished. Salesforce is positioning its Trust Boundary as the defin…
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom's Q3 FY26 beats on AI chip sales; AI revenue may hit $58B in FY26 and s
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-11 | 監控 | $360.83 | — | 自動更新 |
+| 2026-09-14 | 監控 | $361.99 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom's Q3 FY26 beats on AI chip sales; AI revenue may hit $58B in FY26 and s
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
