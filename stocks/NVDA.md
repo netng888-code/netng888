@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead](https://finnhub.io/api/news?id=8001ee9da5eb75c60caddb3f42e9733f2df07a6d51cfdccc9bd96c48f74fa851)**  
+- **[Nvidia Returned a Record $26 Billion to Shareholders. Here's Why That Matters.](https://finnhub.io/api/news?id=d99415ac2e078dc86bad1fdb603578c84901c349413aca049f50b90cea74509a)**  
 *Yahoo · 1h前*  
-Anthropic's Dario Amodei, OpenAI's and SpaceX's Elon Musk say they want an AI slowdown. Will they? The Fed looms as well.
+The chip leader raised its dividend 25-fold after revenue doubled last quarter.
 
-- **[Netflix Stock Will Be Worth More by 2028: My Case for Buying NFLX Now](https://finnhub.io/api/news?id=9a40e74a8dd85eeb88e4a0037dec1776ec7d46816c7c8203e336beb5b86e4809)**  
+- **[The Stock Market Is Doing Something Incredibly Rare Right Now, and History Has Promising News for Investors](https://finnhub.io/api/news?id=19963d0abd7d141208c53abb9b6fd3a79afca5e01d4dd940b6a88100fa3c4df4)**  
 *Yahoo · 1h前*  
-Management continues to execute, making the stock look incredibly cheap after its sell-off.
+Volatility could be looming, but there's a silver lining for investors.
 
-- **[Prediction: ServiceNow's AI Business Triples Before 2029](https://finnhub.io/api/news?id=83387fd10962d5d0da3b3df84f4190ff7b0740414c18029021674ab5f1dac30f)**  
+- **[Major Tech Stocks Fall as AI Leaders Warn of Risks From Rapid Advances](https://finnhub.io/api/news?id=754bcc9f4c033c2d48a3d6ee6ca476dafd8d4f8680517bb22f8cd1011827c99f)**  
 *Yahoo · 1h前*  
-Tripling works out to about 55% a year -- and the company's own target asks for even more.
+Shares of major technology companies fell early Monday after leading artificial intelligence executi
 
 ---
 
@@ -59,4 +59,4 @@ Tripling works out to about 55% a year -- and the company's own target asks for 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 21:03 HKT*
