@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $331.44 | — |
 | Put Wall（支撐） | $330.00 | -2.5% |
-| Call Wall（阻力） | $340.00 | +0.4% |
+| Call Wall（阻力） | $350.00 | +3.4% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Amazon, Alphabet, and Microsoft: Which 2 to Buy and Which 1 to Avoid](https://finnhub.io/api/news?id=ccd1786374d01e879d60000dc1403e60a94d84586b8b3a56b404d44bb3b967e8)**  
-*Yahoo · 4h前*  
-All three hyperscalers have invested staggering amounts of capital into their AI infrastructure build-outs.
+- **[Tesla Stock Drops as Musk Adds to the Chorus of AI Concern](https://finnhub.io/api/news?id=2ee8ba2a2dbb34d1d04762b36becec2cb8dcdc06b15e7eea298fece0e52189cb)**  
+*Yahoo · 1h前*  
+Tesla  stock dropped early on Monday after CEO Elon Musk joined those concerned about humanity’s ability to control AI.  “Dario is right,” tweeted Musk on Satur…
 
-- **[Viral AI Dommer Tweet: Engineered Panic?](https://finnhub.io/api/news?id=9ae562fc9cc15f5456c3ed64cc8572837f2fd436e670c179f64c30a1e297b5f3)**  
-*Yahoo · 5h前*  
-Potentially orchestrated headlines and regulatory capture attempts are clouding AI investor sentiment.
+- **[AI stocks fall after Amodei, Altman, and Musk back AI slowdown](https://finnhub.io/api/news?id=6dcac5a1e85706d2d3f6d8bf1978810a43c6177c6ae16bcd692b056a7f76b920)**  
+*Yahoo · 1h前*  
+Nvidia, Intel, ASML, SK Hynix, and SoftBank were among the hardest-hit names as investors weighed the implications of a deliberate cap on AI progress
 
-- **[Forget Chatbot Benchmarks. Google Just Found 1,000 Ways Into Microsoft’s Best Customers.](https://finnhub.io/api/news?id=66d1460ecc1f270cd3cd087757699739ade99674b8f5694b5ee0890a82a3c66c)**  
-*Yahoo · 6h前*  
-Google just landed inside nearly every major Fortune 100 company, but having access and winning the deal are two very different things. The real fight is happen…
+- **[Broadcom Just Named Its Next Customer to Pass Google: Anthropic. Here's Why That Matters More Than the Earnings Beat.](https://finnhub.io/api/news?id=0d940d6174dac7c26cb6d0bfb9ac96958683758cd934c291f04ca9a16931f48f)**  
+*Yahoo · 1h前*  
+The market didn't reward Broadcom's latest quarterly report with big stock gains, but the business's outlook remains promising.
 
 ---
 
@@ -59,4 +59,4 @@ Google just landed inside nearly every major Fortune 100 company, but having acc
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 21:03 HKT*
