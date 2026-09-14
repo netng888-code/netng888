@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$360.46** |
-| 今日變動 | ▲ $7.22　(+2.04%) |
+| 現價 | **$369.15** |
+| 今日變動 | ▲ $8.69　(+2.41%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $185　(▼20.4%) |
+| 未實現盈虧 | ▼ $168　(▼18.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $381.87 | — |
-| Put Wall（支撐） | $350.00 | -2.9% |
-| Call Wall（阻力） | $400.00 | +11.0% |
+| Gamma Flip | $383.60 | — |
+| Put Wall（支撐） | $350.00 | -5.2% |
+| Call Wall（阻力） | $400.00 | +8.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Earnings Put Narrow Robotics Rally to the Test](https://finnhub.io/api/news?id=e8ed59ce5c0c6772120fe5becf0cd40a5c92e61ca1284b2895de7d7711952a4a)**  
-*ChartMill · 1d前*  
-Robotics rally narrows as AI, chip test, and machine vision suppliers lead while traditional names lag. Earnings could test this leadership.
+- **[Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035](https://finnhub.io/api/news?id=22f4a830e839b259ddc3d13080195397b050d382ba253f927c2c4e56fd6dd661)**  
+*Yahoo · 9h前*  
+A major bank just dropped a forecast that reframes the entire robotics industry, and the ripple effects are already moving stock prices across chips, foundries,…
 
-- **[How Much Can ISRG Stock Still Move Against You?](https://finnhub.io/api/news?id=1aa1e22c6ac3142237a0016f4299f278aafa537090db39915324d58d984718f3)**  
-*Yahoo · 1d前*  
-Intuitive Surgical (ISRG) has handed its owners a hard year. The stock is down 25% over the trailing twelve months while the S&P 500 returned 19.3%, and it now …
+- **[Intuitive Surgical Sees Procedure Growth Despite U.S. Slowdown and China Pressure](https://finnhub.io/api/news?id=02bd95612ccbc6727f625d795c327601d9740f8061c8c60a998b7fba5af54190)**  
+*Yahoo · 2d前*  
+Intuitive Surgical (NASDAQ:ISRG) executives said the company remains focused on global procedure growth, while acknowledging a recent deceleration in U.S. proce…
 
-- **[Intuitive Surgical, Inc. (ISRG) Presents at Wells Fargo 21st Annual Healthcare Conference Transcript](https://finnhub.io/api/news?id=a49891db32429aac35505bad2c516ac6ec80355a6c0de650cd1173f545478eaf)**  
-*SeekingAlpha · 1d前*
+- **[$1000 Invested In Intuitive Surgical 10 Years Ago Would Be Worth This Much Today](https://finnhub.io/api/news?id=89b0eb1bf7f4d36eb804c1454de72126b52218b7d4f9df1cecdfbc788fa57c8e)**  
+*Benzinga · 2d前*  
+Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 10 years by 3.55% on an annualized basis producing an average annual return of 17.12%…
 
 ---
 
@@ -47,7 +48,7 @@ Intuitive Surgical (ISRG) has handed its owners a hard year. The stock is down 2
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-11 | 監控 | $360.46 | — | 自動更新 |
+| 2026-09-14 | 監控 | $369.15 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ Intuitive Surgical (ISRG) has handed its owners a hard year. The stock is down 2
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 09:04 HKT*
