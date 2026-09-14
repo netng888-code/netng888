@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035](https://finnhub.io/api/news?id=22f4a830e839b259ddc3d13080195397b050d382ba253f927c2c4e56fd6dd661)**  
-*Yahoo · 9h前*  
+*Yahoo · 21h前*  
 A major bank just dropped a forecast that reframes the entire robotics industry, and the ripple effects are already moving stock prices across chips, foundries,…
 
 - **[Intuitive Surgical Sees Procedure Growth Despite U.S. Slowdown and China Pressure](https://finnhub.io/api/news?id=02bd95612ccbc6727f625d795c327601d9740f8061c8c60a998b7fba5af54190)**  
@@ -59,4 +59,4 @@ Intuitive Surgical (NASDAQ:ISRG) has outperformed the market over the past 10 ye
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 21:04 HKT*
