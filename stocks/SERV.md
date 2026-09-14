@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-09-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,12 @@
 
 ## 📰 最新新聞
 
+- **[Wonder Deal, $240M Cash, and 31% Short Interest. A Short Squeeze Could Be Brewing in Serve Robotics Stock.](https://finnhub.io/api/news?id=e4440ae84d32ae7024685e9dae6323527c3d501b9b1b46db86eb7ab9ec5e94a4)**  
+*Yahoo · 18h前*  
+Serve Robotics combines a cash-rich balance sheet and 31% short interest with a new Wonder delivery partnership. Yet SERV stock isn't moving in the right direct…
+
 - **[Can SERV's Revenue Diversification Offset Weaker Uber Deliveries?](https://finnhub.io/api/news?id=d03016874ea5eb894aae1ccf513844a92fc56f83dfb0b81a05ebe3f511c1eafe)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 SERV targets $9-$10M in 2026 revenues, as DoorDash growth, advertising and hospital contracts test diversification beyond weaker Uber deliveries.
 
 ---
@@ -51,4 +55,4 @@ SERV targets $9-$10M in 2026 revenues, as DoorDash growth, advertising and hospi
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 21:04 HKT*
