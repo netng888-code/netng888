@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Bank of America has strong message for Marvell stock investors](https://finnhub.io/api/news?id=d9a10fce455488332662e15ffdc16e471dd5165ef8360c4449a6771e43c62a36)**  
-*Yahoo · 7h前*  
-The bank’s bullish outlook comes with a crucial test
+- **[These S&P500 stocks are moving in today's pre-market session](https://finnhub.io/api/news?id=76c773023dd384750d773a9fe1b120bea7e2a515a5497932b9412c5f4e482e15)**  
+*ChartMill · 0h前*  
+Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements.
 
-- **[Wall Street Analyst Sees Between 19% to 37% Upside in These 5 AI Chip Stocks](https://finnhub.io/api/news?id=e4c6cecba5f5a33e9ea40e3edc9a2a2ac21b3b0fe97c685213ec6949b86ec585)**  
-*Yahoo · 14h前*  
-Piper Sandler initiated coverage of Nvidia, Broadcom, AMD, Arm, and Marvell, all with "overweight" ratings.
+- **[Nvidia, chip stocks fall as AI CEOs call for slowdown](https://finnhub.io/api/news?id=6c55b29b078e56f8bb63e0604f88f1a947550eefd34ef57deb01f213ebc88160)**  
+*Yahoo · 1h前*  
+Nasdaq-100 futures fell more than 1.5% Monday after Anthropic CEO Dario Amodei urged a pause on frontier AI model development
 
-- **[Qualcomm Lost Apple’s Modem Business. Amazon Just Offered a $60 Billion Escape Route.](https://finnhub.io/api/news?id=332503480b1329d0e654a007d8e1251b42257f9052784264d67932caede0c951)**  
-*Yahoo · 1d前*  
-Qualcomm is watching Apple walk out the door with its modem business, but a surprise Amazon partnership promises a $60 billion lifeline built on unproven silico…
+- **[Friday's Oil-Relief Rally Meets a Weekend of Saudi Pipeline Fires, AI Pause Calls and Anthropic's Two-Trillion IPO Whisper](https://finnhub.io/api/news?id=768a04b8b70ac66f81712432afce0079b6b297f9eecafb11c47e02d16ae33897)**  
+*ChartMill · 1h前*  
+Wall Street snapped its four-session losing streak on Friday after Brent pulled back from $108 to $105 and Oracle's mammoth order book lit up the AI-hardware co…
 
 ---
 
@@ -59,4 +59,4 @@ Qualcomm is watching Apple walk out the door with its modem business, but a surp
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 21:03 HKT*
