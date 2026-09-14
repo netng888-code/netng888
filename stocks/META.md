@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $584.81 | — |
-| Put Wall（支撐） | $600.00 | -7.4% |
+| Put Wall（支撐） | $650.00 | --0.3% |
 | Call Wall（阻力） | $750.00 | +15.7% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Billionaire Bill Ackman Trimmed This Big Tech Position to Back These 2 AI Contenders](https://finnhub.io/api/news?id=2eaa5dbc845c565644de45665b35b3a95161a7587828070179c17f4b8f0403f5)**  
-*Yahoo · 8h前*  
-The famed fund manager lowered his position in Amazon and was buying shares of Microsoft and Meta Platforms.
+- **[Data Centers At The Ballot Box: Why Google Holds The Edge In The Power War Against Amazon And Meta](https://finnhub.io/api/news?id=72c04bc8fb2c57e49316e093e75cb0024326d8f9394702626a2389273c93a9c0)**  
+*Yahoo · 1h前*  
+Public pushback against AI data centers is spiking. Cleanview's Michael Thomas explains how local politics threaten Big Tech margins.
 
-- **[Jim Cramer says big tech stock could double in 3–5 years](https://finnhub.io/api/news?id=8989a7f1bffb2cafbe59373c8dbb2dfc8451628b96bfa63b754137cc07e1dbe3)**  
-*Yahoo · 9h前*  
-It’s a big name that has dealt with plenty of controversy.
+- **[Bank of Korea Says the AI Chip Trade Is Now a Financial Stability Problem](https://finnhub.io/api/news?id=7838d256fb1275657a543725bb0a59b38c52d996ac47020759647fda606c8db2)**  
+*Yahoo · 1h前*  
+South Korea's AI chip boom lifts GDP to 21.9% in H1 2026 but hides the biggest concentration risk since the 1970s.
 
-- **[Beyond Nvidia: Finding Opportunity In The AI Buildout](https://finnhub.io/api/news?id=43dd2e87fc78e1c2c00d864bcafad7355f31721e5953f44cd8683a05fe6db3af)**  
-*SeekingAlpha · 10h前*  
-Joe Albano from Tech Cache explains why the easy money is gone when it comes to AI investments.
+- **[The Zacks Analyst Blog Highlights Meta, Marvell, Amphenol, SandRidge and BK Technologies](https://finnhub.io/api/news?id=54e78aa9d5a5327e01c132dee1aafa817ea3bd57c8ee452d8c71ffbfb8955e13)**  
+*Yahoo · 2h前*  
+Meta Platforms, Marvell and Amphenol feature in today's research as AI demand drives growth, while spending, competition and execution risks persist.
 
 ---
 
@@ -59,4 +59,4 @@ Joe Albano from Tech Cache explains why the easy money is gone when it comes to 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 21:03 HKT*
