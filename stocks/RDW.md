@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.87** |
-| 今日變動 | ▲ $0.17　(+1.59%) |
+| 現價 | **$10.62** |
+| 今日變動 | ▼ $0.25　(-2.30%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $191　(▼30.5%) |
+| 未實現盈虧 | ▼ $201　(▼32.1%) |
 
 ---
 
@@ -20,28 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.88 | — |
-| Put Wall（支撐） | $10.00 | -8.0% |
-| Call Wall（阻力） | $11.00 | +1.2% |
+| Gamma Flip | $9.74 | — |
+| Put Wall（支撐） | $10.00 | -5.8% |
+| Call Wall（阻力） | $11.00 | +3.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[How Far Could RKLB Stock Fall In The Next Shock?](https://finnhub.io/api/news?id=a97c4ddf115e3ca00ca3f70f92fe52b53620235548d14b4e42eb92a463c8af4f)**  
-*Yahoo · 2d前*  
-Rocket Lab (RKLB) trades near $64, about 57% below the high it set inside the last year, though it is still up 49.5% over twelve months against 19.7% for the S&…
+- **[1 Cash-Burning Stock Worth Investigating and 2 We Avoid](https://finnhub.io/api/news?id=f45091f1e37236644ae310fab6d4fd415d127b0db8fcdf2144805fc3d12252a4)**  
+*Yahoo · 1d前*  
+Rapid spending isn’t always a sign of progress. Some cash-burning businesses fail to convert investments into meaningful competitive advantages, leaving them vu…
 
-- **[Trump Declares the Moon Belongs to the U.S. Here Are 5 Space Stocks to Watch](https://finnhub.io/api/news?id=62d12ccc9c6e2bdbb016e287656ec50bda43085cc0756f5fd2e59a147c4a0d5c)**  
+- **[RKLB Stock: What's Behind The 39% Drop?](https://finnhub.io/api/news?id=a6826d85f55cb4e8336c6f6b21f841793fa1bc79835f659ea47a84d06ea1115b)**  
 *Yahoo · 2d前*  
-A presidential caption declaring the Moon American property changes no treaty, but it may be reshuffling billions in defense contracts toward a handful of space…
+Rocket Lab (RKLB) stock fell 39% between mid-June and September 10, while the S&P 500 gained 2.4%. The stock fell 39%—about twice as far as L3Harris Technologie…
 
-- **[10 Industrials Stocks With Whale Alerts In Today’s Session](https://finnhub.io/api/news?id=3da3ba41b12690b3ef72eeb609764d657a72cb1294e49559d3062ac2fdabdb3f)**  
-*Benzinga · 2d前*  
-This whale alert can help traders discover the next big trading opportunities.
-Whales are entities with large sums of money and we track their transactions here…
+- **[Should You Buy Redwire While It's Below $13?](https://finnhub.io/api/news?id=725cfe3e00828303dcf66db8785d9106d88b1a2b6f775dd7f8cef781af23b373)**  
+*Yahoo · 2d前*  
+The space stock's price has been cut in half from its peak earlier this year.
 
 ---
 
@@ -49,7 +48,7 @@ Whales are entities with large sums of money and we track their transactions her
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-11 | 監控 | $10.87 | — | 自動更新 |
+| 2026-09-14 | 監控 | $10.62 | — | 自動更新 |
 
 ---
 
@@ -60,4 +59,4 @@ Whales are entities with large sums of money and we track their transactions her
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
