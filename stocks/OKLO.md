@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$39.88** |
-| 今日變動 | ▼ $2.69　(-6.32%) |
+| 現價 | **$36.22** |
+| 今日變動 | ▼ $3.66　(-9.18%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $21.067 |
-| 未實現盈虧 | ▲ $376　(▲89.3%) |
+| 未實現盈虧 | ▲ $303　(▲71.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $40.14 | — |
-| Put Wall（支撐） | $35.00 | -12.2% |
-| Call Wall（阻力） | $45.00 | +12.8% |
+| Gamma Flip | $39.47 | — |
+| Put Wall（支撐） | $35.00 | -3.4% |
+| Call Wall（阻力） | $45.00 | +24.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Is Oklo the Next Great AI Power Story? Here's the Bull Case.](https://finnhub.io/api/news?id=cd15cc5fb14554cdbfb1d4092cc8142a48ba8a8db1355fe535577b0f4b68b3e2)**  
-*Yahoo · 13h前*  
-Oklo's reactors are a seemingly perfect solution for AI's power needs.
+- **[Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First.](https://finnhub.io/api/news?id=a6efbf43a998b349a9dc5feccf1430ac84df70c24346b2b09e72f03e8fdeff48)**  
+*Yahoo · 11h前*  
+If you are an aggressive growth investor willing to get in early, it looks like NuScale Power may have the lead over Oklo and TMC.
 
-- **[Nuclear Stocks Slide as Piper Sandler Splits the Sector: Oklo, NuScale Power and X-Energy All Drop 5%](https://finnhub.io/api/news?id=f424f703852a7d29a2670f855db57805e27afc5b5e1e2b010dc34c6321977362)**  
-*Yahoo · 19h前*  
-Piper Sandler just split the advanced nuclear sector down the middle with opposing calls, and the market responded by punishing every name in the group equally,…
+- **[NuScale Power Stock Jumps 15% in 1 Day. Here's How Nuclear Energy Investors Should Respond.](https://finnhub.io/api/news?id=70892c751a33ab684aff24f51726faba9956edadf4641e6b146f221b03e26c7c)**  
+*Yahoo · 1d前*  
+NuScale Power stock spiked in value despite minimal news.
 
-- **[4 Reasons Why You Might Want to Sell OKLO Stock in September](https://finnhub.io/api/news?id=0e880da7fccfa6d86b15fa1296a232bde3945338fb932ae9dbd720adbbe9faf8)**  
-*Yahoo · 23h前*  
-OKLO's ambitious nuclear buildout faces a pivotal stretch as investors weigh timelines, spending needs and execution challenges.
+- **[Oklo Stock Falls 7% on a Fresh $1 Billion Equity Program](https://finnhub.io/api/news?id=1f48ed9b414de627d4cd0408dabc59bcccf295eb6d2405b463ec7e1dfca20735)**  
+*Yahoo · 2d前*  
+The prior program raised $1 billion on 17.97 million shares
 
 ---
 
@@ -48,7 +48,7 @@ OKLO's ambitious nuclear buildout faces a pivotal stretch as investors weigh tim
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-11 | 監控 | $39.88 | — | 自動更新 |
+| 2026-09-14 | 監控 | $36.22 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ OKLO's ambitious nuclear buildout faces a pivotal stretch as investors weigh tim
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
