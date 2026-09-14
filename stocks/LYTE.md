@@ -1,6 +1,6 @@
 # LYTE — Roundhill Photonics & Optics ETF
 
-> 最後更新：2026-09-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,10 +21,10 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $24.02 | — |
-| Put Wall（支撐） | $25.00 | -0.9% |
+| Put Wall（支撐） | $20.00 | -20.7% |
 | Call Wall（阻力） | $30.00 | +18.9% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
@@ -49,4 +49,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=LYTE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 21:04 HKT*
