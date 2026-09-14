@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-09-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$4.42** |
-| 今日變動 | ▼ $0.23　(-5.05%) |
+| 現價 | **$4.48** |
+| 今日變動 | ▲ $0.06　(+1.36%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $11.743 |
-| 未實現盈虧 | ▼ $220　(▼62.4%) |
+| 未實現盈虧 | ▼ $218　(▼61.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $4.56 | — |
-| Put Wall（支撐） | $4.00 | -9.5% |
-| Call Wall（阻力） | $5.00 | +13.1% |
+| Gamma Flip | $4.51 | — |
+| Put Wall（支撐） | $4.00 | -10.7% |
+| Call Wall（阻力） | $5.00 | +11.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,9 +30,9 @@
 
 ## 📰 最新新聞
 
-- **[Serve Robotics Stock Slides 55% YTD: Should You Buy the Dip or Wait?](https://finnhub.io/api/news?id=5f73935c91fb41d2cce111593ea8f911ced594154ed2beb3e556605422010044)**  
-*Yahoo · 20h前*  
-SERV faces near-term pressure from weaker revenues and Uber uncertainty, but hospital wins, autonomy gains and new use cases offer growth avenues.
+- **[Can SERV's Revenue Diversification Offset Weaker Uber Deliveries?](https://finnhub.io/api/news?id=d03016874ea5eb894aae1ccf513844a92fc56f83dfb0b81a05ebe3f511c1eafe)**  
+*Yahoo · 2d前*  
+SERV targets $9-$10M in 2026 revenues, as DoorDash growth, advertising and hospital contracts test diversification beyond weaker Uber deliveries.
 
 ---
 
@@ -40,7 +40,7 @@ SERV faces near-term pressure from weaker revenues and Uber uncertainty, but hos
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-11 | 監控 | $4.42 | — | 自動更新 |
+| 2026-09-14 | 監控 | $4.48 | — | 自動更新 |
 
 ---
 
@@ -51,4 +51,4 @@ SERV faces near-term pressure from weaker revenues and Uber uncertainty, but hos
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 09:04 HKT*
