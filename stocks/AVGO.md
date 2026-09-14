@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $365.08 | — |
-| Put Wall（支撐） | $350.00 | -3.3% |
+| Put Wall（支撐） | $340.00 | -6.1% |
 | Call Wall（阻力） | $370.00 | +2.2% |
 
 **狀態：⚠️ 負Gamma區 🟡 接近Call牆**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Goldman Sachs Says AI Is Driving Half of S&P 500 Earnings Growth. That Number Cuts Both Ways.](https://finnhub.io/api/news?id=af678d9eee32dcdeb85c86c3dae9cc235cfa295730d0d1cc1612180b9a5a41db)**  
-*Yahoo · 7h前*  
-Goldman Sachs says AI spending is propping up S&P 500 earnings growth, but that same statistic reveals a fragile dependency on a handful of buyers whose budgets…
+- **[Nvidia, chip stocks fall as AI CEOs call for slowdown](https://finnhub.io/api/news?id=6c55b29b078e56f8bb63e0604f88f1a947550eefd34ef57deb01f213ebc88160)**  
+*Yahoo · 1h前*  
+Nasdaq-100 futures fell more than 1.5% Monday after Anthropic CEO Dario Amodei urged a pause on frontier AI model development
 
-- **[Nvidia vs. Broadcom: Which Trillion-Dollar AI Chip Stock Has More Upside After Their Latest Earnings?](https://finnhub.io/api/news?id=99a0a7d560641299354330c6b8697f0729b8a0eb4fbdd064f27eeff597908e7c)**  
-*Yahoo · 7h前*  
-Nvidia and Broadcom both just delivered monster earnings reports.
+- **[Broadcom Just Named Its Next Customer to Pass Google: Anthropic. Here's Why That Matters More Than the Earnings Beat.](https://finnhub.io/api/news?id=0d940d6174dac7c26cb6d0bfb9ac96958683758cd934c291f04ca9a16931f48f)**  
+*Yahoo · 1h前*  
+The market didn't reward Broadcom's latest quarterly report with big stock gains, but the business's outlook remains promising.
 
-- **[Dreamforce Will Pitch Unified Agent Trust. The Market Is Still Stitching Together Three Separate Layers](https://finnhub.io/api/news?id=df52652abe5cc06d944b0dfa7a102757eea24764ee239a085e645e8300dc8e60)**  
-*Yahoo · 7h前*  
-As the industry converges on San Francisco for Dreamforce 2026, the narrative is predictably polished. Salesforce is positioning its Trust Boundary as the defin…
+- **[Broadcom Shares Fall 3.2% as AI Development Debate Weighs on Semiconductor Stocks](https://finnhub.io/api/news?id=6a6b9380ca8fed6935c4aabd26d86fa1e1bb478f6b4b9bb952521184cdcec253)**  
+*Yahoo · 1h前*  
+Broadcom (NASDAQ:AVGO) shares fell 3. 2% in pre-market trading on Monday to $350.
 
 ---
 
@@ -59,4 +59,4 @@ As the industry converges on San Francisco for Dreamforce 2026, the narrative is
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 21:03 HKT*
