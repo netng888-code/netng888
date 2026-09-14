@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$218.36** |
-| 今日變動 | ▼ $5.31　(-2.37%) |
+| 現價 | **$218.29** |
+| 今日變動 | ▼ $0.07　(-0.03%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $582　(▲36.4%) |
+| 未實現盈虧 | ▲ $582　(▲36.3%) |
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $211.44 | — |
+| Gamma Flip | $207.27 | — |
 | Put Wall（支撐） | $200.00 | -8.4% |
 | Call Wall（阻力） | $220.00 | +0.8% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Chip Stocks Diverge Ahead of Nvidia Earnings as AMD and Intel Surge](https://finnhub.io/api/news?id=1adb6232454cb24fe550ac984b4bd5f231eac149c0fb27da17dcec46983f90d8)**  
-*ChartMill · 0h前*  
-AI chip stocks split before Nvidia earnings: AMD and Intel rally as investors seek broader AI hardware exposure beyond the leader.
-
-- **[Nvidia Rival Enflame Jumps 206% on Its Shanghai Debut](https://finnhub.io/api/news?id=307c685c8ecbc70bdae9addee2d2fd79fb15cf4fb3804651a954dd37b7fe2674)**  
-*Yahoo · 0h前*  
-Retail orders ran to more than 6,000 times the shares available
-
-- **[What a Republican 'wipeout' in the midterm elections means for investors](https://finnhub.io/api/news?id=b868903605db27be8a89bc8794ed0228261d881956cbd26036ee0c4422fc8543)**  
+- **[Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead](https://finnhub.io/api/news?id=8001ee9da5eb75c60caddb3f42e9733f2df07a6d51cfdccc9bd96c48f74fa851)**  
 *Yahoo · 1h前*  
-Veda Partners managing partner and director of economic policy Henrietta Treyz outlines the type of policy shifts that could affect investors most if the Republ…
+Anthropic's Dario Amodei, OpenAI's and SpaceX's Elon Musk say they want an AI slowdown. Will they? The Fed looms as well.
+
+- **[Netflix Stock Will Be Worth More by 2028: My Case for Buying NFLX Now](https://finnhub.io/api/news?id=9a40e74a8dd85eeb88e4a0037dec1776ec7d46816c7c8203e336beb5b86e4809)**  
+*Yahoo · 1h前*  
+Management continues to execute, making the stock look incredibly cheap after its sell-off.
+
+- **[Prediction: ServiceNow's AI Business Triples Before 2029](https://finnhub.io/api/news?id=83387fd10962d5d0da3b3df84f4190ff7b0740414c18029021674ab5f1dac30f)**  
+*Yahoo · 1h前*  
+Tripling works out to about 55% a year -- and the company's own target asks for even more.
 
 ---
 
@@ -48,7 +48,7 @@ Veda Partners managing partner and director of economic policy Henrietta Treyz o
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-11 | 監控 | $218.36 | — | 自動更新 |
+| 2026-09-14 | 監控 | $218.29 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Veda Partners managing partner and director of economic policy Henrietta Treyz o
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
