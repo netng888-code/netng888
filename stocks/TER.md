@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-14 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$370.19** |
-| 今日變動 | ▼ $13.50　(-3.52%) |
+| 現價 | **$379.72** |
+| 今日變動 | ▲ $9.53　(+2.57%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,391　(▲302.4%) |
+| 未實現盈虧 | ▲ $1,439　(▲312.7%) |
 
 ---
 
@@ -20,25 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $357.62 | — |
-| Put Wall（支撐） | $360.00 | -2.8% |
-| Call Wall（阻力） | $375.00 | +1.3% |
+| Gamma Flip | $380.35 | — |
+| Put Wall（支撐） | $360.00 | -5.2% |
+| Call Wall（阻力） | $400.00 | +5.3% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Teradyne (TER) Suffers a Larger Drop Than the General Market: Key Insights](https://finnhub.io/api/news?id=8e2ae060449f7f891bb9838103c74679c39bc0a8a92d104fc445a2121eaafd17)**  
-*Yahoo · 15h前*  
-Teradyne (TER) closed the most recent trading day at $370.19, moving 3.52% from the previous trading session.
+- **[Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035](https://finnhub.io/api/news?id=22f4a830e839b259ddc3d13080195397b050d382ba253f927c2c4e56fd6dd661)**  
+*Yahoo · 9h前*  
+A major bank just dropped a forecast that reframes the entire robotics industry, and the ripple effects are already moving stock prices across chips, foundries,…
 
-- **[Qorvo shares are trading lower after the company reported Q3 financial results and issued Q4 sales guidance below estimates. Also, multiple firms lowered their respective price targets on the stock.](https://finnhub.io/api/news?id=f7b503bbcf45e76892e70c769020db75207f83d97e1644e83f0a215a3219a944)**  
-*Benzinga · 23h前*
+- **[Semiconductor Equipment Stocks Face ASML and Applied Materials Earnings Test After High-Quality Pullback](https://finnhub.io/api/news?id=8d0cb8aae946432c362e205f32d7215e3e4ec0187996b01bcb18fce3b8150550)**  
+*ChartMill · 1d前*  
+Semiconductor equipment stocks pull back after huge gains as ASML, AMAT, LRCX, KLAC and TER earnings test high-quality momentum and profits.
 
-- **[IMF Cuts Global Growth Forecast Citing Brexit Blowback](https://finnhub.io/api/news?id=4cf23c492c5107eb89d10da340bb43dfe7d17b4c7dde7211317302fe9ea40dca)**  
-*Benzinga · 23h前*
+- **[Teradyne (NASDAQ:TER): Strong Minervini Trend and Growth Momentum, But a Volatile Setup](https://finnhub.io/api/news?id=0822dc6638002f945bdb6f2e9823ceeec0399911c735c76bf9a9bf82b2d2a773)**  
+*ChartMill · 1d前*  
+TERADYNE (TER) shows a Minervini Trend Template setup with strong relative strength and accelerating growth, but volatile price action limits entry.
 
 ---
 
@@ -46,7 +48,7 @@ Teradyne (TER) closed the most recent trading day at $370.19, moving 3.52% from 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-11 | 監控 | $370.19 | — | 自動更新 |
+| 2026-09-14 | 監控 | $379.72 | — | 自動更新 |
 
 ---
 
@@ -57,4 +59,4 @@ Teradyne (TER) closed the most recent trading day at $370.19, moving 3.52% from 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-11 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-14 09:03 HKT*
