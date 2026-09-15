@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$11.13** |
-| 今日變動 | ▲ $0.51　(+4.80%) |
+| 現價 | **$9.65** |
+| 今日變動 | ▼ $1.48　(-13.30%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $306　(▼15.5%) |
+| 未實現盈虧 | ▼ $528　(▼26.7%) |
 
 ---
 
@@ -20,27 +20,29 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.37 | — |
-| Put Wall（支撐） | $10.00 | -10.2% |
-| Call Wall（阻力） | $11.00 | +-1.2% |
+| Gamma Flip | $9.40 | — |
+| Put Wall（支撐） | $9.00 | -6.7% |
+| Call Wall（阻力） | $10.00 | +3.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[ESpanix deploys Nokia Deepfield Defender to protect Spain's internet traffic from DDoS attacks](https://finnhub.io/api/news?id=f9195e25f1dd587ec99505811b4fa895b28808db30a701c036191284dd0f8307)**  
-*Yahoo · 6h前*  
-Press ReleaseESpanix deploys Nokia Deepfield Defender to protect Spain's internet traffic from DDoS attacks Spain's largest internet exchange point deploys Noki…
+- **[Most active stocks in Monday's session](https://finnhub.io/api/news?id=4d029fa0b74e496190e5a68ee91633099fb39904560f25b0dfd9b291822ff7ff)**  
+*ChartMill · 7h前*  
+Discover the most active stocks in Monday's session. Stay informed about the stocks that are generating the most trading volume!
 
-- **[Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week: AAPL, NVDA, ORCL, NOK, SPCX](https://finnhub.io/api/news?id=0b9ed8531c128af820c6b6c73a4be8375c6074899daa4d361d670dbca7f87ab3)**  
-*Yahoo · 11h前*  
-Apple’s foldable iPhone launch, Nvidia’s potential Anthropic investment, Oracle’s expanding AI backlog, Nokia’s industrial AI platform and SpaceX’s computing pl…
+- **[What's Going On With Nokia Stock Monday?](https://finnhub.io/api/news?id=573bf77022a1f10d10c4606dbffa89315663c2da3365a60e33769808ae9de436)**  
+*Benzinga · 14h前*  
+Nokia (NOK) stock fell over 9% during a broader tech selloff, testing key technical support levels despite solid year-to-date performance.
 
-- **[Nscale’s Funding Talks Put Dell and Nokia’s AI Supply Relationships to the Test](https://finnhub.io/api/news?id=0523d178ada3480fa820b034d06ce2662b8a83c2ef25a93181ef47dfa031f132)**  
-*Yahoo · 1d前*  
-Nscale’s reported pursuit of about $3.5 billion in pre-IPO financing matters to more than its prospective shareholders. Dell Technologies Inc. (NYSE:DELL) and N…
+- **[12 Information Technology Stocks Moving In Monday's Pre-Market Session](https://finnhub.io/api/news?id=2242a1ada3f260fa2fee2f5bf1c4ba6e8e6822d8a6e0fa3f75abb5b7c4649658)**  
+*Benzinga · 16h前*  
+Gainers
+
+Lianhe Sowell Intl (NASDAQ:LHSW) stock increased by 12.3% to $0.54 during Monday&#39;s pre-market session. The company&#39;s market cap stands at $6.5 …
 
 ---
 
@@ -48,7 +50,7 @@ Nscale’s reported pursuit of about $3.5 billion in pre-IPO financing matters t
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-14 | 監控 | $11.13 | — | 自動更新 |
+| 2026-09-15 | 監控 | $9.65 | — | 自動更新 |
 
 ---
 
@@ -59,4 +61,4 @@ Nscale’s reported pursuit of about $3.5 billion in pre-IPO financing matters t
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
