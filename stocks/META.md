@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$648.03** |
-| 今日變動 | ▲ $3.65　(+0.57%) |
+| 現價 | **$665.60** |
+| 今日變動 | ▲ $17.57　(+2.71%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $125　(▲6.9%) |
+| 未實現盈虧 | ▲ $178　(▲9.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $584.81 | — |
-| Put Wall（支撐） | $650.00 | --0.3% |
-| Call Wall（阻力） | $750.00 | +15.7% |
+| Gamma Flip | $588.55 | — |
+| Put Wall（支撐） | $650.00 | -2.3% |
+| Call Wall（阻力） | $750.00 | +12.7% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Data Centers At The Ballot Box: Why Google Holds The Edge In The Power War Against Amazon And Meta](https://finnhub.io/api/news?id=72c04bc8fb2c57e49316e093e75cb0024326d8f9394702626a2389273c93a9c0)**  
-*Yahoo · 1h前*  
-Public pushback against AI data centers is spiking. Cleanview's Michael Thomas explains how local politics threaten Big Tech margins.
+- **[Big Tech Issued About $220 Billion of Bonds. Alphabet and Meta Show How AI Is Warping the Credit Market](https://finnhub.io/api/news?id=90ec7de50bce06e131bad79726bd4df850afa47acc3da8ba426d9ece1d110b45)**  
+*Yahoo · 3h前*  
+AI spending is now large enough to distort the bond market around it. Reuters reported on September 10 that Alphabet, Amazon, Meta, Microsoft and Oracle issued …
 
-- **[Bank of Korea Says the AI Chip Trade Is Now a Financial Stability Problem](https://finnhub.io/api/news?id=7838d256fb1275657a543725bb0a59b38c52d996ac47020759647fda606c8db2)**  
-*Yahoo · 1h前*  
-South Korea's AI chip boom lifts GDP to 21.9% in H1 2026 but hides the biggest concentration risk since the 1970s.
+- **[Meta’s AI Agents Are Coming for Your Shopping Cart. These ETFs Could Cash In](https://finnhub.io/api/news?id=fc89b116a4065d673a0bb064d14599f798da957c04c1cab615afa8f20e7ce5bc)**  
+*Yahoo · 4h前*  
+Meta Platforms Inc’s latest AI push is moving beyond chatbots, creating a potential new catalyst for ETFs with sizeable exposure to the social-media giant. The …
 
-- **[The Zacks Analyst Blog Highlights Meta, Marvell, Amphenol, SandRidge and BK Technologies](https://finnhub.io/api/news?id=54e78aa9d5a5327e01c132dee1aafa817ea3bd57c8ee452d8c71ffbfb8955e13)**  
-*Yahoo · 2h前*  
-Meta Platforms, Marvell and Amphenol feature in today's research as AI demand drives growth, while spending, competition and execution risks persist.
+- **[Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?](https://finnhub.io/api/news?id=181d3bdaad0da5cb78503b1b147d750e0d64df3bfac3297b5c746da9efcf0dd0)**  
+*Yahoo · 4h前*  
+Meta Platforms (META) trades about 17% below its 52-week high, and has lost ground over the past year while the S&P 500 climbed. You can be paid now for agreein…
 
 ---
 
@@ -48,7 +48,7 @@ Meta Platforms, Marvell and Amphenol feature in today's research as AI demand dr
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-14 | 監控 | $648.03 | — | 自動更新 |
+| 2026-09-15 | 監控 | $665.60 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Meta Platforms, Marvell and Amphenol feature in today's research as AI demand dr
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
