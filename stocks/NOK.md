@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,19 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Most active stocks in Monday's session](https://finnhub.io/api/news?id=4d029fa0b74e496190e5a68ee91633099fb39904560f25b0dfd9b291822ff7ff)**  
-*ChartMill · 7h前*  
-Discover the most active stocks in Monday's session. Stay informed about the stocks that are generating the most trading volume!
+- **[Here Are Tuesday’s Top Wall Street Analyst Research Calls: Autodesk, Eli Lilly, Etsy, Lear, Netskope, Nokia, Northrop Grumman, Rapid7, Rivian Automotive, Ulta Beauty, and More](https://finnhub.io/api/news?id=533e6c384718a6f527d82c56c170a13d83a7b1c001c3b48a6c8935dac330183c)**  
+*Yahoo · 0h前*  
+Markets are rattled ahead of Wednesday's Fed decision, and Wall Street analysts are making bold moves on names like Eli Lilly, Etsy, Northrop Grumman, and Rivia…
 
-- **[What's Going On With Nokia Stock Monday?](https://finnhub.io/api/news?id=573bf77022a1f10d10c4606dbffa89315663c2da3365a60e33769808ae9de436)**  
-*Benzinga · 14h前*  
-Nokia (NOK) stock fell over 9% during a broader tech selloff, testing key technical support levels despite solid year-to-date performance.
+- **[What Just Happened With Nokia Oyj (HLSE:NOKIA) Shares?](https://finnhub.io/api/news?id=69819555e51514f0500351b499cc1e90ac8ce76e21255bcd487cb3e79a411cf9)**  
+*Yahoo · 1h前*  
+ESpanix’s decision to deploy Nokia Oyj (HLSE:NOKIA) Deepfield Defender to deliver in-network DDoS protection across its Spanish internet exchange gives investor…
 
-- **[12 Information Technology Stocks Moving In Monday's Pre-Market Session](https://finnhub.io/api/news?id=2242a1ada3f260fa2fee2f5bf1c4ba6e8e6822d8a6e0fa3f75abb5b7c4649658)**  
-*Benzinga · 16h前*  
-Gainers
-
-Lianhe Sowell Intl (NASDAQ:LHSW) stock increased by 12.3% to $0.54 during Monday&#39;s pre-market session. The company&#39;s market cap stands at $6.5 …
+- **[Telxius Boosts Global Network Capacity and Efficiency with Nokia 800G Coherent Pluggable Deployment](https://finnhub.io/api/news?id=0fb3fcce64667e037f642dfb992645a9cb7b7be1221bfc428730f7158a55418e)**  
+*Yahoo · 4h前*  
+Press ReleaseTelxius boosts global network capacity and efficiency with Nokia 800G Coherent Pluggable deployment Telxius is evolving its high-capacity internati…
 
 ---
 
@@ -61,4 +59,4 @@ Lianhe Sowell Intl (NASDAQ:LHSW) stock increased by 12.3% to $0.54 during Monday
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
