@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $370.36 | — |
-| Put Wall（支撐） | $300.00 | -8.9% |
+| Put Wall（支撐） | $330.00 | --0.2% |
 | Call Wall（阻力） | $400.00 | +21.5% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Teradyne Opens Office in India, Deepening Commitment to the Country’s Growing Semiconductor Ecosystem](https://finnhub.io/api/news?id=8190861566213d6ca8ec87745d555635664648411848f9f0e1e9d3850f7c0b04)**  
+*Yahoo · 9h前*  
+BENGALURU, India, September 15, 2026--Teradyne announced the opening of an office in India focused on supporting semiconductor manufacturing, located in Bengalu…
+
 - **[Lattice Semiconductor, Amkor, Himax, Teradyne, and Entegris Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=222c437502fa616931e981dfee3500a16529e412d858f43a81388963dea8d565)**  
-*Yahoo · 0h前*  
+*Yahoo · 12h前*  
 A number of stocks fell in the afternoon session after the chief executives of Anthropic, OpenAI, and SpaceX publicly united to call for a deliberate slowdown i…
 
 - **[Is Teradyne Stock Asking Too Much Of Its Test Business?](https://finnhub.io/api/news?id=fe9bdbe4e3cc8cb4d01f677f874953f115b8920d0fe8d06b3bf87927be02af06)**  
-*Yahoo · 2h前*  
+*Yahoo · 14h前*  
 Teradyne (TER) trades at 51.7 times trailing earnings. A multiple that high is a requirement rather than an opinion: the business has to grow into it, and you c…
-
-- **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=ea4563099fe5ea2cba59e8cd68a63af9ec6cbc298bc55ae01da2ddfa09d5f6fe)**  
-*ChartMill · 5h前*  
-Get insights into the S&P500 index performance on Monday. Explore the top gainers and losers within the S&P500 index in today's session.
 
 ---
 
@@ -59,4 +59,4 @@ Get insights into the S&P500 index performance on Monday. Explore the top gainer
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:03 HKT*
