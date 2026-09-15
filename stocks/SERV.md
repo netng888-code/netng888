@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-09-15 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[Can Serve Robotics' Beacon Overcome Restaurant Integration Barriers?](https://finnhub.io/api/news?id=cdfeced7212ad87a6d6839f0b0e436c906d1661295e81f3a5ec43ef06c4bab15)**  
+*Yahoo · 23h前*  
+Can Beacon help SERV break restaurant integration barriers and unlock more delivery orders as it expands direct merchant access?
+
 - **[Wonder Deal, $240M Cash, and 31% Short Interest. A Short Squeeze Could Be Brewing in Serve Robotics Stock.](https://finnhub.io/api/news?id=e4440ae84d32ae7024685e9dae6323527c3d501b9b1b46db86eb7ab9ec5e94a4)**  
 *Yahoo · 1d前*  
 Serve Robotics combines a cash-rich balance sheet and 31% short interest with a new Wonder delivery partnership. Yet SERV stock isn't moving in the right direct…
@@ -51,4 +55,4 @@ Serve Robotics combines a cash-rich balance sheet and 31% short interest with a 
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
