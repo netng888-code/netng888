@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$236.10** |
-| 今日變動 | ▲ $9.14　(+4.03%) |
+| 現價 | **$218.82** |
+| 今日變動 | ▼ $17.28　(-7.32%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $212　(▼8.2%) |
+| 未實現盈虧 | ▼ $385　(▼15.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $224.07 | — |
-| Put Wall（支撐） | $200.00 | -15.3% |
-| Call Wall（阻力） | $250.00 | +5.9% |
+| Gamma Flip | $223.73 | — |
+| Put Wall（支撐） | $200.00 | -8.6% |
+| Call Wall（阻力） | $250.00 | +14.2% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[These S&P500 stocks are moving in today's pre-market session](https://finnhub.io/api/news?id=76c773023dd384750d773a9fe1b120bea7e2a515a5497932b9412c5f4e482e15)**  
-*ChartMill · 0h前*  
-Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements.
+- **[Marvell stock plunges as a new threat hits the AI trade](https://finnhub.io/api/news?id=45dad0303e4090ef86c05699fb06733c5fe1a14e246609a667c59c70bfbc6204)**  
+*Yahoo · 5h前*  
+Investors are questioning the AI spending cycle just as Marvell prepares to showcase its data-center portfolio.
 
-- **[Nvidia, chip stocks fall as AI CEOs call for slowdown](https://finnhub.io/api/news?id=6c55b29b078e56f8bb63e0604f88f1a947550eefd34ef57deb01f213ebc88160)**  
-*Yahoo · 1h前*  
-Nasdaq-100 futures fell more than 1.5% Monday after Anthropic CEO Dario Amodei urged a pause on frontier AI model development
+- **[Marvell Falls 7% as AI Pacing Debate Collides With Fed Week; Broadcom Drops 4%, NVIDIA Pulls Back](https://finnhub.io/api/news?id=51ce192cc0d5fc4b15eefddfa0f619e62d07e62550aaa14561671637ceb98230)**  
+*Yahoo · 8h前*  
+A weekend debate over AI pacing collided with a Federal Reserve rate decision, and the chip sector is now sorting winners from losers in a way that reveals exac…
 
-- **[Friday's Oil-Relief Rally Meets a Weekend of Saudi Pipeline Fires, AI Pause Calls and Anthropic's Two-Trillion IPO Whisper](https://finnhub.io/api/news?id=768a04b8b70ac66f81712432afce0079b6b297f9eecafb11c47e02d16ae33897)**  
-*ChartMill · 1h前*  
-Wall Street snapped its four-session losing streak on Friday after Brent pulled back from $108 to $105 and Oracle's mammoth order book lit up the AI-hardware co…
+- **[Why Marvell Stock Is Falling Today](https://finnhub.io/api/news?id=7253414ae758a3fa5559234ffe6889ee1426b681044df5ed554cda7e2020801f)**  
+*Yahoo · 8h前*  
+Investors are worried about an AI slowdown.
 
 ---
 
@@ -48,7 +48,7 @@ Wall Street snapped its four-session losing streak on Friday after Brent pulled 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-14 | 監控 | $236.10 | — | 自動更新 |
+| 2026-09-15 | 監控 | $218.82 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street snapped its four-session losing streak on Friday after Brent pulled 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
