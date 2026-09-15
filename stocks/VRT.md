@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-15 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $262.73 | — |
-| Put Wall（支撐） | $220.00 | -7.3% |
+| Put Wall（支撐） | $240.00 | --1.1% |
 | Call Wall（阻力） | $260.00 | +9.5% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Vertiv vs. Broadcom: Which AI Infrastructure Stock Has More Upside?](https://finnhub.io/api/news?id=4884c92aa2a6bec95c3ed8333166e11febb5730a577a4c2c7c8da773d9950a5b)**  
-*Yahoo · 8h前*  
-VRT appears better positioned for AI demand, earnings surprises and valuation, while AVGO faces margin, concentration and execution risks.
+- **[Vertiv (VRT) Stock Stays Fairly Priced Following Its $2.6B AI Power Deal](https://finnhub.io/api/news?id=172c9eb73e0695be9d952800d218689e92478c03d0caa8c526a60ac6cf25553c)**  
+*Yahoo · 5h前*  
+Vertiv Holdings Co has seen its stock swing sharply in recent years, which naturally raises a question for anyone looking at Vertiv today. Is the current share …
 
-- **[Is Vertiv (VRT) a Solid Growth Stock? 3 Reasons to Think "Yes"](https://finnhub.io/api/news?id=34c960045559082c4a7bbfb81bbeea9a3001c738119fb8e290681936f9fbd011)**  
-*Yahoo · 8h前*  
-Vertiv (VRT) possesses solid growth attributes, which could help it handily outperform the market.
+- **[3 Stocks That Offer AI Exposure and Dividends](https://finnhub.io/api/news?id=a14937d6bfa0bbf4f95cc937def4edad68785ed3cb8ad2ae2cfbd1f52f13534f)**  
+*Yahoo · 13h前*  
+Several stocks with favorable AI tailwinds - Broadcom (AVGO), Vertiv (VRT), and Caterpillar (CAT) - shell out dividend payments.
 
-- **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=322d58da2170240be72b3584a50ee4038137ab2ec783ebd47ca624ffcd982a3b)**  
-*ChartMill · 8h前*  
-Curious about the S&P500 stocks that are in motion on Monday? Join us as we explore the top movers within the S&P500 index during today's session.
+- **[Vertiv Has Guided Itself Into A Steep Second Half](https://finnhub.io/api/news?id=267becee7efd814a23b13e54bd53751a98c6e0ff27d3d2454ef7f7319402cfca)**  
+*Yahoo · 14h前*  
+Vertiv (VRT) is up about 88% over the past year, and down nearly 14% over the past three months. The number that should worry a holder sits in the company's own…
 
 ---
 
@@ -59,4 +59,4 @@ Curious about the S&P500 stocks that are in motion on Monday? Join us as we expl
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
