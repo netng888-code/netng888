@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom Drops Over 4% as $21.7 Billion AI Forecast Meets Slowdown Fears](https://finnhub.io/api/news?id=d142438bc7bfb55c2895ae8b57e5eb7e10d0929e372682f8f83b0fa663a85a26)**  
-*Yahoo · 4h前*  
-Broadcom expects another surge in AI-chip sales, making Monday's selloff a direct test of infrastructure-spending confidence.
+- **[Broadcom CEO Sends Urgent Message on AI Slowdown Fears](https://finnhub.io/api/news?id=c75937cb9e2a9ecc7adf43c8b98c485d4e00fdf23a6a374bf8b589758de0a605)**  
+*Yahoo · 0h前*  
+Broadcom stock drops with ai names. Hock Tan stands by long-term growth outlook
 
-- **[Broadcom buys its Irvine office building](https://finnhub.io/api/news?id=e8d17eafa3c4f7b71e934089bbfb7f2993c2843bdb509dc6517dd41f0a0a557e)**  
-*Yahoo · 5h前*  
-Broadcom paid its former landlord, PRP Real Assets, $325 million for the 660,000-square-foot research campus in one of the largest office sales in Southern Cali…
+- **[Broadcom’s Real Constraint Isn’t Demand. It’s Supply.](https://finnhub.io/api/news?id=0e96996b1a5bd3ab418e03e965cde68da13a9d89d81f37c97a72eed40e089a30)**  
+*Yahoo · 0h前*  
+Piper Sandler believes Broadcom Inc. (NASDAQ:AVGO) is the leader in ASIC chips, holding 75% share of the ASIC market for AI inference. On September 9, firm anal…
 
-- **[AI Warning Sends Nvidia, AMD, Micron and Intel Shares Tumbling](https://finnhub.io/api/news?id=23082b3c996d80263fb2bc3abbf79f918117ebbd852c86fb0edda9edb8ab8b5b)**  
-*Yahoo · 5h前*  
-Nvidia, Intel And AMD Shares Sink As AI Leaders Sound Fresh Warning
+- **[AI chip sell-off overblown: Zero GPU slowdown after Anthropic essay, analyst says](https://finnhub.io/api/news?id=b2041c9601060ffcaffe51f41372587b35c72c61d9a89086850644580ce48e19)**  
+*Yahoo · 0h前*  
+NVIDIA (NASDAQ: NVDA), the dominant supplier of AI training GPUs and the most direct equity expression of AI infrastructure buildout, sits at the center of the …
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia, Intel And AMD Shares Sink As AI Leaders Sound Fresh Warning
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:03 HKT*
