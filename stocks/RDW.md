@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[1 Cash-Burning Stock Worth Investigating and 2 We Avoid](https://finnhub.io/api/news?id=f45091f1e37236644ae310fab6d4fd415d127b0db8fcdf2144805fc3d12252a4)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 Rapid spending isn’t always a sign of progress. Some cash-burning businesses fail to convert investments into meaningful competitive advantages, leaving them vu…
 
 ---
@@ -51,4 +51,4 @@ Rapid spending isn’t always a sign of progress. Some cash-burning businesses f
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
