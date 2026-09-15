@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-15 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[2 Popular AI Stocks to Sell Before They Fall 53% and 58%, According to Wall Street Analysts](https://finnhub.io/api/news?id=25cdf8f2c6e15d9f25a0161f340e1bc71e7ae106769eb17c64980455309a3462)**  
+*Yahoo · 4h前*  
+Certain Wall Street analysts expect major losses for shareholders of Palantir and SpaceX.
+
 - **[Oklo Has Massive Potential Due to Artificial Intelligence, but the Stock Is Sinking. Here's What I'd Do](https://finnhub.io/api/news?id=d8d59aaa194532a74ad936aeaf9d418686afedc7441c082e7494784ee54cfcf2)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 The stock is trading near its 52-week low, but it may have significant upside in the long run.
 
 - **[Palantir and Nvidia rethink AI use over a growing data risk](https://finnhub.io/api/news?id=9e352c764d6430688b49bda6d055cc16caae9229abb11e3230e1b88e0552947d)**  
-*Yahoo · 6h前*  
+*Yahoo · 18h前*  
 Data concerns are pushing major AI customers to rethink where frontier models can be used.
-
-- **[Did You Pay For Palantir's Guidance Or For Something Else?](https://finnhub.io/api/news?id=c3974509279070742f85a17dc52cf35f3ccacec4f79c8067045cb4f8fe25d44d)**  
-*Yahoo · 7h前*  
-Palantir Technologies (PLTR) raised its 2026 revenue guidance in August, and the stock gained about 32% across the release. The easy read is that the market was…
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies (PLTR) raised its 2026 revenue guidance in August, and the
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
