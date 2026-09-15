@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-15 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Intuitive Surgical: My Sell Case Is Losing Ground (Rating Upgrade)](https://finnhub.io/api/news?id=9bfded3988e69b9c669234f295c0eb3a61e3a97b064c6b64beb8711a02b974da)**  
+*SeekingAlpha · 11h前*  
+Intuitive Surgical remains a compelling long-term investment, though current valuation still demands strong execution. See why ISRG stock is a Hold.
+
 - **[Intuitive Surgical, Inc. (ISRG) Rises As Market Takes a Dip: Key Facts](https://finnhub.io/api/news?id=408267e76428aa34d8c5479af24cdb4c8a99ee261240330974da156866fdf292)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 In the closing of the recent trading day, Intuitive Surgical, Inc. (ISRG) stood at $377.94, denoting a +2.38% move from the preceding trading day.
 
 - **[Can AI Keep ISRG Ahead of Rising Robotic Surgery Competition?](https://finnhub.io/api/news?id=da7007a2eef121ee341522a7184dbecb559cae6bfae7ed6c3b45478eb0f5797c)**  
-*Yahoo · 6h前*  
+*Yahoo · 18h前*  
 ISRG is using AI, software, data and advanced instruments to strengthen da Vinci 5 and stay ahead as robotic surgery competition intensifies.
-
-- **[Get Paid To Wait For ISRG Stock To Go On Sale](https://finnhub.io/api/news?id=e37b9d7890526c4e0caed0883fb19c430e690fbd0d024abedd2bd40733d67921)**  
-*Yahoo · 10h前*  
-Intuitive Surgical (ISRG) trades near $370, about 38% below its 52-week high, after growth in its US robotic-surgery procedures slowed. Selling a put pays you n…
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical (ISRG) trades near $370, about 38% below its 52-week high, af
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
