@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Here's Why SpaceX Stock Could Finish 2026 Above $200](https://finnhub.io/api/news?id=de7e490ea97f3b29f5e10e2ec75cbfb7615d13fc8dade9118f5809e3c988219c)**  
+- **[Trump's Marijuana Rescheduling Push Is Back in Focus. Is Tilray Stock Finally a Buy?](https://finnhub.io/api/news?id=58b0f6c39f74e37e4e334ad6886bf495d737dcef0e2bfc14015497bf02737033)**  
 *Yahoo · 3h前*  
-SpaceX stock hasn't been at $200 since shortly after it went public in mid-June.
+The Tilray bull case is getting stronger without U.S. legalization.
 
-- **[If You'd Invested $1,000 in Tesla Stock 1 Year Ago, Here's How Much You'd Have Today](https://finnhub.io/api/news?id=4359748e4127532b19df217ee4ec848843bd603fec7d0efe2152d6306af1476f)**  
+- **[What a $10,000 Investment in Amazon Now Would Be Worth if Its Anthropic Stake Gets Marked at $2 Trillion](https://finnhub.io/api/news?id=08861e5240ed0be4dd4c0d93a9ad98c860e758cb0c1510f6c7571f503524931c)**  
 *Yahoo · 3h前*  
-Tesla hasn't been its usual market-beating self.
+Anthropic is reportedly considering an initial public offering next month at a valuation of $2 trillion.
 
-- **[Why S&P Global Stock Beat the Market on Monday](https://finnhub.io/api/news?id=65b3e197abde58dfea825f09160397097bf7af63507d500aaec03de3b27be19a)**  
+- **[Wall Street Expects Bad News From the Federal Reserve This Week. History Says a Stock Market Correction May Follow.](https://finnhub.io/api/news?id=a99eff25161c49b4e37df3c617feca7432e7e256f6d8d68d68d7bdfe5b26ee76)**  
 *Yahoo · 3h前*  
-The company participated in a fundraising round for a privately held peer.
+Investors expect the Fed to raise interest rates this week, and new rate-hike cycles have often precipitated stock market corrections.
 
 ---
 
@@ -59,4 +59,4 @@ The company participated in a fundraising round for a privately held peer.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:03 HKT*
