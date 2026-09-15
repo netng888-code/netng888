@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-15 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Rocket Lab Fully Funds Iridium Acquisition, Including Completion of $1.94 Billion ATM](https://finnhub.io/api/news?id=bd9e49b1f8872ea655d4de1ae732c4618df9358f6fd5e777d0439dd21e750c73)**  
+*Yahoo · 3h前*  
+Iridium Acquisition Now Fully Financed: Rocket Lab completes the $1.944 billion At-The-Market (ATM) equity offering, securing the required cash consideration (a…
+
+- **[Rocket Lab Expects Iridium Deal To Double Its Size ‘Overnight’ — CFO Says More Space Deals May Follow](https://finnhub.io/api/news?id=bd98f499fde001e78a47b56a2ba2bb9fce36f6f6f21472580fad666a4d1edbfc)**  
+*Yahoo · 7h前*  
+The slower-growing Iridium business is expected to initially dilute Rocket Lab’s nearly 100% annual growth rate.
+
 - **[ViaSat Stock Soared on Hopes of a Big Deal. The Company Has Other Ideas.](https://finnhub.io/api/news?id=032af3fe10d308c8afce100b8706c7d7c6badff5f9f7606abc9d2716a6321851)**  
-*Yahoo · 9h前*  
+*Yahoo · 21h前*  
 ViaSat stock has more than doubled this year amid a flurry of satellite-company takeovers, but it is pursuing a different path.
-
-- **[Stock of the Day: Where Is the Bottom for Rocket Lab?](https://finnhub.io/api/news?id=6595a0a08edf194d60f2b43243d196338371285251f92beddb7fbf889ebaaec6)**  
-*Benzinga · 15h前*  
-Rocket Lab falls amid its NASA protest, but shares near $57.50 support could halt the selloff and spark a reversal.
-
-- **[RKLB Stock Slips Overnight: Rocket Lab Protests Blue Origin’s $700M NASA Mars Deal, Calls Review ‘Punitive’](https://finnhub.io/api/news?id=830071519d2c632440e9b6a8e8a890cc54f04e2bb5b7000f2b8e0c8fa32dab84)**  
-*Yahoo · 22h前*  
-Eligible bidders needed prior NASA funding for a Mars Sample Return study and a proposal featuring a separately launched telecommunications orbiter.
 
 ---
 
@@ -59,4 +59,4 @@ Eligible bidders needed prior NASA funding for a Mars Sample Return study and a 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
