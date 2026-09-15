@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,7 +30,9 @@
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[New Momentum In The Nuclear Fuel Chain](https://finnhub.io/api/news?id=b645b7b561f6fc0f27b3b9e6ce790db1a7ac64967928b6e40bf3f62a2ed20f6c)**  
+*SeekingAlpha · 6h前*  
+The nuclear renaissance requires a fuel chain that can support the ambitions of reactor development companies. In recent weeks, the nuclear fuel chain has shown…
 
 ---
 
@@ -49,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
