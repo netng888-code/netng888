@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$257.06** |
-| 今日變動 | ▲ $8.93　(+3.60%) |
+| 現價 | **$237.39** |
+| 今日變動 | ▼ $19.67　(-7.65%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $93　(▼15.4%) |
+| 未實現盈虧 | ▼ $133　(▼21.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $262.81 | — |
-| Put Wall（支撐） | $220.00 | -14.4% |
-| Call Wall（阻力） | $260.00 | +1.1% |
+| Gamma Flip | $262.73 | — |
+| Put Wall（支撐） | $220.00 | -7.3% |
+| Call Wall（阻力） | $260.00 | +9.5% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[These S&P500 stocks are moving in today's pre-market session](https://finnhub.io/api/news?id=76c773023dd384750d773a9fe1b120bea7e2a515a5497932b9412c5f4e482e15)**  
-*ChartMill · 0h前*  
-Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements.
+- **[Vertiv vs. Broadcom: Which AI Infrastructure Stock Has More Upside?](https://finnhub.io/api/news?id=4884c92aa2a6bec95c3ed8333166e11febb5730a577a4c2c7c8da773d9950a5b)**  
+*Yahoo · 8h前*  
+VRT appears better positioned for AI demand, earnings surprises and valuation, while AVGO faces margin, concentration and execution risks.
 
-- **[The Zacks Analyst Blog Highlights Alphabet, Microsoft, NVIDIA, Arista Networks and Vertiv](https://finnhub.io/api/news?id=ca396d7846fd98f49f0035213a96cc302afc1704eadf27db411e453d1ff96b7f)**  
-*Yahoo · 3h前*  
-NVIDIA, Arista Networks and Vertiv offer exposure to AI infrastructure as surging capex drives demand for computing, networking and power systems.
+- **[Is Vertiv (VRT) a Solid Growth Stock? 3 Reasons to Think "Yes"](https://finnhub.io/api/news?id=34c960045559082c4a7bbfb81bbeea9a3001c738119fb8e290681936f9fbd011)**  
+*Yahoo · 8h前*  
+Vertiv (VRT) possesses solid growth attributes, which could help it handily outperform the market.
 
-- **[Vertiv Sees Data Center Demand Strengthen as AI Infrastructure Pipeline Expands](https://finnhub.io/api/news?id=f6d75be1524d8a0425d1a4662a6bf046eb545a55ec4a478974f812c091fb93ae)**  
-*Yahoo · 11h前*  
-Vertiv (NYSE:VRT) executives said demand for data center infrastructure remains strong and is showing signs of further strengthening, citing expanding customer …
+- **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=322d58da2170240be72b3584a50ee4038137ab2ec783ebd47ca624ffcd982a3b)**  
+*ChartMill · 8h前*  
+Curious about the S&P500 stocks that are in motion on Monday? Join us as we explore the top movers within the S&P500 index during today's session.
 
 ---
 
@@ -48,7 +48,7 @@ Vertiv (NYSE:VRT) executives said demand for data center infrastructure remains 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-14 | 監控 | $257.06 | — | 自動更新 |
+| 2026-09-15 | 監控 | $237.39 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv (NYSE:VRT) executives said demand for data center infrastructure remains 
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 09:04 HKT*
