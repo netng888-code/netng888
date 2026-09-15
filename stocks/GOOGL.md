@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Big Tech Issued About $220 Billion of Bonds. Alphabet and Meta Show How AI Is Warping the Credit Market](https://finnhub.io/api/news?id=90ec7de50bce06e131bad79726bd4df850afa47acc3da8ba426d9ece1d110b45)**  
-*Yahoo · 3h前*  
-AI spending is now large enough to distort the bond market around it. Reuters reported on September 10 that Alphabet, Amazon, Meta, Microsoft and Oracle issued …
+- **[Latest News In Cloud AI - Bitdeer AI Expands With New AI Cloud Data Center](https://finnhub.io/api/news?id=5fd4972db095df5b72f6c169e2b9c6e01bee0f87d32a4a314d1b8a6f3f164448)**  
+*Yahoo · 0h前*  
+Bitdeer AI has announced the securing of a 65.1MW AI Cloud data center facility, A202, at its Johor Bahru, Malaysia campus under a 10-year data center services …
 
-- **[Stock Market Today: Dow Falls, Cyber Plays Soar Amid AI Fears; Bessent Makes This Move On Iran (Live Coverage)](https://finnhub.io/api/news?id=9eaa9cf18c95b70563c52139b238bcdaa372e860a94a7145472fc3da3cf0b7df)**  
-*Yahoo · 4h前*  
-The Dow Jones index falls on the stock market today as President Trump hits out at AI slowdown calls. Treasury Secretary Bessent makes an Iran move.
+- **[2 Stocks That Will Cash In When Anthropic Goes Public](https://finnhub.io/api/news?id=92bb2d8290c0d3c6b683907386cac15f8b2ab51c39e8227b15612155a6088417)**  
+*Yahoo · 0h前*  
+These tech juggernauts are tied to the Claude parent through equity stakes and multi-gigawatt cloud deals.
 
-- **[Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?](https://finnhub.io/api/news?id=181d3bdaad0da5cb78503b1b147d750e0d64df3bfac3297b5c746da9efcf0dd0)**  
-*Yahoo · 4h前*  
-Meta Platforms (META) trades about 17% below its 52-week high, and has lost ground over the past year while the S&P 500 climbed. You can be paid now for agreein…
+- **[Cathie Wood Makes Striking Switch Between AI Stock Giants](https://finnhub.io/api/news?id=1c5345c0c7644084504aa9d4e7276ff3c09d19ab450e9dd3e8cfb205aeedc9c2)**  
+*Yahoo · 0h前*  
+One portfolio shift stands out from Wood's latest moves
 
 ---
 
@@ -59,4 +59,4 @@ Meta Platforms (META) trades about 17% below its 52-week high, and has lost grou
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 21:03 HKT*
