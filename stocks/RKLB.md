@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$62.95** |
-| 今日變動 | ▲ $0.99　(+1.60%) |
+| 現價 | **$62.55** |
+| 今日變動 | ▼ $0.40　(-0.64%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $130　(▼17.2%) |
+| 未實現盈虧 | ▼ $135　(▼17.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $66.34 | — |
-| Put Wall（支撐） | $60.00 | -4.7% |
-| Call Wall（阻力） | $70.00 | +11.2% |
+| Gamma Flip | $65.67 | — |
+| Put Wall（支撐） | $60.00 | -4.1% |
+| Call Wall（阻力） | $70.00 | +11.9% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[ViaSat Stock Soared on Hopes of a Big Deal. The Company Has Other Ideas.](https://finnhub.io/api/news?id=032af3fe10d308c8afce100b8706c7d7c6badff5f9f7606abc9d2716a6321851)**  
+*Yahoo · 9h前*  
+ViaSat stock has more than doubled this year amid a flurry of satellite-company takeovers, but it is pursuing a different path.
+
+- **[Stock of the Day: Where Is the Bottom for Rocket Lab?](https://finnhub.io/api/news?id=6595a0a08edf194d60f2b43243d196338371285251f92beddb7fbf889ebaaec6)**  
+*Benzinga · 15h前*  
+Rocket Lab falls amid its NASA protest, but shares near $57.50 support could halt the selloff and spark a reversal.
+
 - **[RKLB Stock Slips Overnight: Rocket Lab Protests Blue Origin’s $700M NASA Mars Deal, Calls Review ‘Punitive’](https://finnhub.io/api/news?id=830071519d2c632440e9b6a8e8a890cc54f04e2bb5b7000f2b8e0c8fa32dab84)**  
-*Yahoo · 10h前*  
+*Yahoo · 22h前*  
 Eligible bidders needed prior NASA funding for a Mars Sample Return study and a proposal featuring a separately launched telecommunications orbiter.
-
-- **[SpaceX and Rocket Lab Have a New Space Rival -- in Norway](https://finnhub.io/api/news?id=86a0ea500e13d1e8385a640323236885ca1b0f5c675cb4263c58f0761c751647)**  
-*Yahoo · 1d前*  
-The number of space companies keeps growing, and this new entrant is a bigger threat to Rocket Lab than to SpaceX.
-
-- **[Rocket Lab Tackles a Supply Chain Bottleneck as the Stock Hunts for a Bottom. Time to Buy?](https://finnhub.io/api/news?id=296dad7f3d5a8835e2934929f3f4b734d2cf2413bbfaf74f7f8a460925ac450d)**  
-*Yahoo · 1d前*  
-Rocket Lab shares trade near $62 despite new solar cell tech, a 16th Electron launch and analyst optimism, as investors await the Neutron rocket's debut for a t…
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab shares trade near $62 despite new solar cell tech, a 16th Electron la
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-14 | 監控 | $62.95 | — | 自動更新 |
+| 2026-09-15 | 監控 | $62.55 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab shares trade near $62 despite new solar cell tech, a 16th Electron la
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 09:04 HKT*
