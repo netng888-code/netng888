@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-15 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$361.99** |
-| 今日變動 | ▲ $1.16　(+0.32%) |
+| 現價 | **$344.72** |
+| 今日變動 | ▼ $17.27　(-4.77%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $138　(▼3.7%) |
+| 未實現盈虧 | ▼ $311　(▼8.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $365.08 | — |
-| Put Wall（支撐） | $340.00 | -6.1% |
-| Call Wall（阻力） | $370.00 | +2.2% |
+| Gamma Flip | $362.22 | — |
+| Put Wall（支撐） | $340.00 | -1.4% |
+| Call Wall（阻力） | $360.00 | +4.4% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nvidia, chip stocks fall as AI CEOs call for slowdown](https://finnhub.io/api/news?id=6c55b29b078e56f8bb63e0604f88f1a947550eefd34ef57deb01f213ebc88160)**  
-*Yahoo · 1h前*  
-Nasdaq-100 futures fell more than 1.5% Monday after Anthropic CEO Dario Amodei urged a pause on frontier AI model development
+- **[Broadcom Drops Over 4% as $21.7 Billion AI Forecast Meets Slowdown Fears](https://finnhub.io/api/news?id=d142438bc7bfb55c2895ae8b57e5eb7e10d0929e372682f8f83b0fa663a85a26)**  
+*Yahoo · 4h前*  
+Broadcom expects another surge in AI-chip sales, making Monday's selloff a direct test of infrastructure-spending confidence.
 
-- **[Broadcom Just Named Its Next Customer to Pass Google: Anthropic. Here's Why That Matters More Than the Earnings Beat.](https://finnhub.io/api/news?id=0d940d6174dac7c26cb6d0bfb9ac96958683758cd934c291f04ca9a16931f48f)**  
-*Yahoo · 1h前*  
-The market didn't reward Broadcom's latest quarterly report with big stock gains, but the business's outlook remains promising.
+- **[Broadcom buys its Irvine office building](https://finnhub.io/api/news?id=e8d17eafa3c4f7b71e934089bbfb7f2993c2843bdb509dc6517dd41f0a0a557e)**  
+*Yahoo · 5h前*  
+Broadcom paid its former landlord, PRP Real Assets, $325 million for the 660,000-square-foot research campus in one of the largest office sales in Southern Cali…
 
-- **[Broadcom Shares Fall 3.2% as AI Development Debate Weighs on Semiconductor Stocks](https://finnhub.io/api/news?id=6a6b9380ca8fed6935c4aabd26d86fa1e1bb478f6b4b9bb952521184cdcec253)**  
-*Yahoo · 1h前*  
-Broadcom (NASDAQ:AVGO) shares fell 3. 2% in pre-market trading on Monday to $350.
+- **[AI Warning Sends Nvidia, AMD, Micron and Intel Shares Tumbling](https://finnhub.io/api/news?id=23082b3c996d80263fb2bc3abbf79f918117ebbd852c86fb0edda9edb8ab8b5b)**  
+*Yahoo · 5h前*  
+Nvidia, Intel And AMD Shares Sink As AI Leaders Sound Fresh Warning
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom (NASDAQ:AVGO) shares fell 3. 2% in pre-market trading on Monday to $350
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-14 | 監控 | $361.99 | — | 自動更新 |
+| 2026-09-15 | 監控 | $344.72 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom (NASDAQ:AVGO) shares fell 3. 2% in pre-market trading on Monday to $350
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-15 09:03 HKT*
