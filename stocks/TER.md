@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Teradyne India Office Expands Semiconductor Manufacturing Support in Bengaluru](https://finnhub.io/api/news?id=6d1fb4d3e89b7d869b9249739cb2ecd1c82de05a0b1d3a92054b18028ca8f5a3)**  
-*Yahoo · 10h前*  
-Teradyne is establishing a permanent semiconductor-focused presence in India as the country expands domestic fabrication, packaging and testing infrastructure. …
+- **[Wondering what's happening in today's S&P500  pre-market session?](https://finnhub.io/api/news?id=27e52a5918184ca78e2cf94c89a854e9f18d269c09f0237e3ffbafcb760f0c1c)**  
+*ChartMill · 0h前*  
+Before the opening bell on Wednesday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session.
 
-- **[Top Robotics Stocks to Add to Your Portfolio for Impressive Returns](https://finnhub.io/api/news?id=c9b1ab86e8a93957dca4ae5822d8f4dc93d5f3b974ed04fe27c8cb0e546575f2)**  
-*Yahoo · 11h前*  
-Robotics is poised for robust long-term growth. Consider NVDA, TER, ZBRA and GMED for potential market dominance across sectors.
+- **[AI Infrastructure Takes A Collective Tumble](https://finnhub.io/api/news?id=58d5a3553c4205d186f75ac77a6b5936026c3b7483008e2d00e976600bdb22db)**  
+*SeekingAlpha · 11h前*  
+There was nowhere to hide in our AI infrastructure basket on Monday, with every stock closing lower.
 
-- **[What's Going On With Teradyne Stock Tuesday?](https://finnhub.io/api/news?id=9ab27ac0a3e879ad3c3ece9b909ae6f2a521a534fa0d516c65e99ea6d1cdcf14)**  
-*Benzinga · 17h前*  
-Teradyne (TER) stock gains nearly 2% premarket after a 13.3% drop. Read key support levels and price analysis.
+- **[Teradyne Looks Expensive Until You Price The AI Chips It Has Not Tested Yet](https://finnhub.io/api/news?id=b1df9ee9e0054bde05d44a61d97478900ffb851ae3c670e3dd43f6b49e34cb97)**  
+*Yahoo · 12h前*  
+Teradyne (TER) makes the equipment that tests semiconductors, and AI data centers have remade a business that last peaked on smartphones in 2021. The stock has …
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne (TER) stock gains nearly 2% premarket after a 13.3% drop. Read key supp
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:03 HKT*
