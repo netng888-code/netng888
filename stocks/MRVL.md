@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-16 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Credo (CRDO) vs. Marvell (MRVL): Which AI Chip Stock Is the Better Buy?](https://finnhub.io/api/news?id=ebf12ffcb67a09ec7a1f6d4ced50523a5bf9e1c5b1709b40081e86d6738b08bf)**  
-*Yahoo · 2h前*  
-Outside of Nvidia (NVDA) and Broadcom (AVGO), Credo Technology (CRDO) and Marvell Technology (MRVL) are two of the most searched-for chip stocks on Zacks.com.
+- **[3 Semiconductor Stocks to Buy Before AI Demand Explodes in September](https://finnhub.io/api/news?id=41f8eb0aa0c1efb5a18a10d9cabeb700e6ce205a89baf2e009120cc799c65dda)**  
+*Yahoo · 3h前*  
+Hyperscalers keep pulling forward orders for custom silicon, high-bandwidth memory, and networking chips, and three semiconductor names just raised guidance int…
 
-- **[Nvidia Just Invited a Rival Chipmaker Into Its Own Racks. Here’s Why](https://finnhub.io/api/news?id=561bdb0ff95aaab6d001add22053cba687c8cba994898113f88b8ab21fbefcbf)**  
-*Yahoo · 7h前*  
-Nvidia is letting a rival chipmaker plug directly into its own racks, and the move only looks like a concession until you follow the money through every layer o…
+- **[Wall Street Freezes Up as Oil Tops $108 and the Ten-Year Clears 5% Ahead of Warsh's First Hike Test](https://finnhub.io/api/news?id=5b9afc6a2765be4dcb459f4d7e3bc28535769faef01e43c7ae1224ee6dd76560)**  
+*ChartMill · 4h前*  
+US stocks closed lower on Tuesday as Brent crude pushed above $108 on a shuttered Saudi pipeline and the ten-year Treasury yield broke above 5% for the first ti…
 
-- **[The AI Boom Has a Secret Weapon, and It’s Marvell](https://finnhub.io/api/news?id=ac7a8728ad8901634fc0ef1272c7c4607c5dc0a89015d347b657db3bda065c13)**  
+- **[Marvell Technology (MRVL) Faces AI Volatility, Is It 58% Overvalued?](https://finnhub.io/api/news?id=ad9557f9c31c71e9094588cd85f58843e40a6119e9d6cdea1a1ad14197d4a85e)**  
 *Yahoo · 9h前*  
-Marvell has surged over 150% this year on the back of explosive data center growth, but Wall Street's consensus target may still be too conservative. Here is wh…
+Marvell Technology (MRVL) is back in focus after an AI driven sell-off hit semiconductor stocks, with investors now weighing that volatility against the company…
 
 ---
 
@@ -59,4 +59,4 @@ Marvell has surged over 150% this year on the back of explosive data center grow
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:03 HKT*
