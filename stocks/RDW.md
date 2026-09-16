@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,13 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[2 Small-Cap Stocks with Solid Fundamentals and 1 We Find Risky](https://finnhub.io/api/news?id=1f5ef985e9d9d87ca1dac6b036c8a045eb6f7b28f353c2e0ef76c2af1619b85a)**  
-*Yahoo · 15h前*  
-Investors looking for hidden gems should keep an eye on small-cap stocks because they’re frequently overlooked by Wall Street. Many opportunities exist in this …
+- **[RKLB, ASTS, SPCX, RDW Stocks Set For A Boost? Pentagon Confirms Orbital Weapons Use, Ramps Up Golden Dome Plans](https://finnhub.io/api/news?id=0bbc07883226f478204144d6ac19cbbd2c0fed2c5c901ac7d0f95b56e5aba353)**  
+*Yahoo · 9h前*  
+Golden Dome’s space-based interceptor program reached “flight-ready hardware,” with an integrated demonstration targeted for 2028.
 
-- **[Guggenheim Initiates Coverage On Redwire with Neutral Rating](https://finnhub.io/api/news?id=32b5811f72a8e5bd0f8f5afea518cfdc4b44b1184a392d6192100c7faa8c888d)**  
-*Benzinga · 16h前*  
-Guggenheim  analyst Michael Ciarmoli   initiates coverage on Redwire (NYSE:RDW) with a Neutral rating.
+- **[Boeing vs. Redwire: Which Aerospace Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=830fdc1d2dff16ae4819187af70647bc20b7af30b2d672b41f01968c06a53c99)**  
+*Yahoo · 16h前*  
+Boeing's 35% revenue surge masks a negative free cash flow and 10x debt load, while Redwire burns cash but carries minimal leverage, a classic risk-reward trade…
+
+- **[AST SpaceMobile vs. Redwire: Which Space Infrastructure Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=43a8cda6c0e15a5ba9c19df88309dfcfcd639af257afff2a27f742116a8f7a91)**  
+*Yahoo · 16h前*  
+Both burn cash heavily, but one trades at a large valuation premium, a gap that may or may not be justified by growth potential.
 
 ---
 
@@ -55,4 +59,4 @@ Guggenheim  analyst Michael Ciarmoli   initiates coverage on Redwire (NYSE:RDW) 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:03 HKT*
