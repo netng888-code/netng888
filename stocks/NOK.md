@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$9.65** |
-| 今日變動 | ▼ $1.48　(-13.30%) |
+| 現價 | **$9.84** |
+| 今日變動 | ▲ $0.19　(+1.97%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $528　(▼26.7%) |
+| 未實現盈虧 | ▼ $499　(▼25.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.40 | — |
-| Put Wall（支撐） | $9.00 | -6.7% |
-| Call Wall（阻力） | $10.00 | +3.6% |
+| Gamma Flip | $9.32 | — |
+| Put Wall（支撐） | $9.00 | -8.5% |
+| Call Wall（阻力） | $10.00 | +1.6% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Here Are Tuesday’s Top Wall Street Analyst Research Calls: Autodesk, Eli Lilly, Etsy, Lear, Netskope, Nokia, Northrop Grumman, Rapid7, Rivian Automotive, Ulta Beauty, and More](https://finnhub.io/api/news?id=533e6c384718a6f527d82c56c170a13d83a7b1c001c3b48a6c8935dac330183c)**  
-*Yahoo · 0h前*  
-Markets are rattled ahead of Wednesday's Fed decision, and Wall Street analysts are making bold moves on names like Eli Lilly, Etsy, Northrop Grumman, and Rivia…
-
-- **[What Just Happened With Nokia Oyj (HLSE:NOKIA) Shares?](https://finnhub.io/api/news?id=69819555e51514f0500351b499cc1e90ac8ce76e21255bcd487cb3e79a411cf9)**  
+- **[Intuitive Machines vs. Vertiv: Which Industrials Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=d6c78ff6bfbbb964f4b33f062c3d432fe0189c113d4dd9daa7b1dd6919e66999)**  
 *Yahoo · 1h前*  
-ESpanix’s decision to deploy Nokia Oyj (HLSE:NOKIA) Deepfield Defender to deliver in-network DDoS protection across its Spanish internet exchange gives investor…
+One trades on speculative lunar ambitions with heavy government concentration; the other captures immediate AI infrastructure demand with $1.9B in free cash flo…
 
-- **[Telxius Boosts Global Network Capacity and Efficiency with Nokia 800G Coherent Pluggable Deployment](https://finnhub.io/api/news?id=0fb3fcce64667e037f642dfb992645a9cb7b7be1221bfc428730f7158a55418e)**  
-*Yahoo · 4h前*  
-Press ReleaseTelxius boosts global network capacity and efficiency with Nokia 800G Coherent Pluggable deployment Telxius is evolving its high-capacity internati…
+- **[Nokia Oyj (HLSE:NOKIA) Is Tied To A $3.5 Billion AI Funding Test](https://finnhub.io/api/news?id=b82a77afffa8f2c372ada98b3253bc47072116d1445eb61d6388801cdc1fa0c2)**  
+*Yahoo · 3h前*  
+Nokia Oyj (HLSE:NOKIA) is linked to Nscale’s plan to raise about $3.5b in pre-IPO funding for AI infrastructure. Nscale’s planned round is expected to test Noki…
+
+- **[Tuesday's session: most active stocks](https://finnhub.io/api/news?id=691d7e386c43358c7f780d7d199852d605b5fc80e133555d8ac05afbddd3fcdf)**  
+*ChartMill · 7h前*  
+Let's dive into the action on the US markets on Tuesday. Here are the most active stocks that are driving the market today.
 
 ---
 
@@ -48,7 +48,7 @@ Press ReleaseTelxius boosts global network capacity and efficiency with Nokia 80
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-15 | 監控 | $9.65 | — | 自動更新 |
+| 2026-09-16 | 監控 | $9.84 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Press ReleaseTelxius boosts global network capacity and efficiency with Nokia 80
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
