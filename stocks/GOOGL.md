@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-16 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Workday (WDAY) Names Sarah Kennedy Ellis CMO As AI Marketing Takes Center Stage](https://finnhub.io/api/news?id=ca9149014d888e72fadda059b380d6f38a0b05172b03fb4f5f92da1013fc718e)**  
+- **[Alphabet Vs. Apple: Heavy Regulatory Pressure Threatens Cash Flows More At This Firm](https://finnhub.io/api/news?id=cec7f72fdadcecd975fa6a2a3658b45ee6086faea8838c62e3b4a19de24d2088)**  
+*Yahoo · 1h前*  
+Both Alphabet and Apple just reported blowout quarters, but one of them is sitting on a regulatory time bomb aimed directly at its core revenue engine while the…
+
+- **[Cathie Wood's ARK Invest Buys AVAV Stock Again, Trims GOOGL Stake And Sells Iridium](https://finnhub.io/api/news?id=9daaba8330716392da53beebed486820d50e8bb54ea50828c3c5f63b62731c2c)**  
 *Yahoo · 2h前*  
-Workday (NasdaqGS:WDAY) has appointed Sarah Kennedy Ellis as Chief Marketing Officer, effective immediately. Ellis previously held senior marketing roles at Goo…
+Cathie Wood's ARK Invest bought another 9,037 AeroVironment shares Tuesday, extending its AVAV buying to a second consecutive session.
 
-- **[TSMC’s 2nm Era Is Accelerating With MediaTek. Nvidia and Alphabet Already Have Money on the Table](https://finnhub.io/api/news?id=86105b30bc518a119ef014f8b7c80f7f22eae6554c40f68f5a512b72d3a97b49)**  
-*Yahoo · 3h前*  
-MediaTek launched its Dimensity 9600 Pro on September 15 using Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) 2-nanometer technology, putting TSM…
-
-- **[Tesla’s Cybercab Launch Fizzles, Leaving Waymo as the Robotaxi Leader](https://finnhub.io/api/news?id=9231f48a7c00085aa9b15352d407dbbaf097aba859212518d0ef744e29f7455d)**  
-*Yahoo · 4h前*  
-Tesla, Inc. (NASDAQ:TSLA) spent nearly two years raising anticipation for the Cybercab. When the time arrived on September 3 in Austin, the result was a stock t…
+- **[Bill Ackman’s Pershing Square Capital Management Sold Alphabet and Bought These 2 Beaten-Down Stocks](https://finnhub.io/api/news?id=f1229b3ea5dcf46baabe0ca81fb0cb02ddded5c8ae32bdbe7aae09ba2c0764d8)**  
+*Yahoo · 2h前*  
+Does Ackman know something Wall Street doesn't?
 
 ---
 
@@ -59,4 +59,4 @@ Tesla, Inc. (NASDAQ:TSLA) spent nearly two years raising anticipation for the Cy
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:03 HKT*
