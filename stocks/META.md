@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Is AppLovin's Lead Over Its Peers Already In The Price?](https://finnhub.io/api/news?id=80a982c6db42358fa502fdc2bf9441d8d370fc445a5303e72cd546e6aa72b53c)**  
+- **[Meta CEO Sends Powerful Message on AI Slowdown](https://finnhub.io/api/news?id=dba9eef63f3596b5287518398bffe58d86235c2be0e59570e3e3c4b59b7bf1de)**  
 *Yahoo · 1h前*  
-AppLovin (APP) grows revenue faster than any peer and earns the group's highest operating margin. It also carries the highest earnings multiple, and the premium…
+After Nvidia's Stand, Zuckerberg Fires Back at AI Slowdown Efforts
 
-- **[S&P 500, Nasdaq, Dow End Lower As Investors Price In Rate Hike Ahead Of Fed Meeting — AMZN, META, MU, TSLA, PLTR In Focus](https://finnhub.io/api/news?id=937b1548531416896a208cab353bef25747baa53e6bb5913f23c7bfa721f6d8a)**  
+- **[Bristol Myers Squibb Announces Dividend](https://finnhub.io/api/news?id=8afdb50e2d2b4a946037454091ddceb6e660a8a264b756fbc8025bc187a02a27)**  
 *Yahoo · 2h前*  
-Traders expect a 92% chance the Fed will hike interest rates on Wednesday.
+PRINCETON, N.J., September 16, 2026--Bristol Myers Squibb Announces Dividend
 
-- **[Meta Launches Creator Marketing Hub, IG Live Video Ads](https://finnhub.io/api/news?id=b0d381a388807a7dac4de2ba471589c7568d04c9651e97316e90abc96b781635)**  
-*Yahoo · 3h前*  
-Meta is investing further in creator marketing and live streaming. As part of IAB's newfound global creator week, the tech giant announced the launch of its Cre…
+- **[Why Zuckerberg and the 1% are signaling their health as the latest status symbol, and why you can't fake it with Ozempic](https://finnhub.io/api/news?id=ce6a7b9f0bf329791c3de68adfba4c8feaa3ccf5ad63f5b29414b9e39389d558)**  
+*Yahoo · 2h前*  
+Gone are the days when the rich would demonstrate their wealth by sporting Rolex watches and bespoke suits.
 
 ---
 
@@ -59,4 +59,4 @@ Meta is investing further in creator marketing and live streaming. As part of IA
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:03 HKT*
