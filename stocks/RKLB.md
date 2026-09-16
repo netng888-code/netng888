@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Prediction: Rocket Lab's Revenue Tops $1.5 Billion in 2027 Without Counting Iridium](https://finnhub.io/api/news?id=fa63b17e6ae4b1d466b78046c20f14bc061c17664a1d044766405916e95f4e5c)**  
+*Yahoo · 5h前*  
+Getting there takes about 55% growth next year -- less than the space company is delivering right now.
+
+- **[RKLB, ASTS, SPCX, RDW Stocks Set For A Boost? Pentagon Confirms Orbital Weapons Use, Ramps Up Golden Dome Plans](https://finnhub.io/api/news?id=0bbc07883226f478204144d6ac19cbbd2c0fed2c5c901ac7d0f95b56e5aba353)**  
+*Yahoo · 9h前*  
+Golden Dome’s space-based interceptor program reached “flight-ready hardware,” with an integrated demonstration targeted for 2028.
+
 - **[Rocket Lab Corporation (RKLB) Advances While Market Declines: Some Information for Investors](https://finnhub.io/api/news?id=fd8b2ad822319fff244ae9bba3d291f945095d65cd702ce3b60586afaf0ecdf5)**  
-*Yahoo · 2h前*  
+*Yahoo · 14h前*  
 Rocket Lab Corporation (RKLB) closed at $63.55 in the latest trading session, marking a +1.6% move from the prior day.
-
-- **[Space Weapons: How Boeing, SpaceX, and Others Stand to Gain](https://finnhub.io/api/news?id=07bf6a765705724a2698281d744903f64ffa834a6d7e0cb1646862db90c0458f)**  
-*Yahoo · 4h前*  
-On Monday, the U.S. Space Force confirmed the existence of space-based weapons, though what exactly is in space is classified.  The news represents a milestone …
-
-- **[Rocket Lab Makes Bold Move to Broaden Space Business](https://finnhub.io/api/news?id=a8c46a6355bc91c0ccff4fbccd26cf7b6d2b07f10009b31cba450786da2dfda2)**  
-*Yahoo · 4h前*  
-One major risk surrounding Rocket Lab's expansion just disappeared
 
 ---
 
@@ -59,4 +59,4 @@ One major risk surrounding Rocket Lab's expansion just disappeared
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:04 HKT*
