@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-15 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$218.82** |
-| 今日變動 | ▼ $17.28　(-7.32%) |
+| 現價 | **$221.70** |
+| 今日變動 | ▲ $2.88　(+1.32%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $385　(▼15.0%) |
+| 未實現盈虧 | ▼ $356　(▼13.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $223.73 | — |
-| Put Wall（支撐） | $200.00 | -8.6% |
-| Call Wall（阻力） | $250.00 | +14.2% |
+| Gamma Flip | $221.66 | — |
+| Put Wall（支撐） | $200.00 | -9.8% |
+| Call Wall（阻力） | $250.00 | +12.8% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Wall Street Sells the AI-Pause Weekend as Brent Punches Through $106 and the Ten-Year Cracks 5% for the First Time Since 2023](https://finnhub.io/api/news?id=1b41e3fd3fcef742b5861b9456231cbbf5da3f8f3bfc7c8ee35a7249d7649144)**  
-*ChartMill · 3h前*  
-Monday closed lower on Wall Street as the pause-the-frontier call from Anthropic's Dario Amodei drained the AI-chip complex and a shut Saudi East-West pipeline …
+- **[Credo (CRDO) vs. Marvell (MRVL): Which AI Chip Stock Is the Better Buy?](https://finnhub.io/api/news?id=ebf12ffcb67a09ec7a1f6d4ced50523a5bf9e1c5b1709b40081e86d6738b08bf)**  
+*Yahoo · 2h前*  
+Outside of Nvidia (NVDA) and Broadcom (AVGO), Credo Technology (CRDO) and Marvell Technology (MRVL) are two of the most searched-for chip stocks on Zacks.com.
 
-- **[Marvell Technology: Qualcomm Just Entered Its AWS Territory, But The Buy Case Still Holds](https://finnhub.io/api/news?id=431f78bb1c4a14b424439430603bce9ee26342cb5a0fe89e52811447f36ec15a)**  
-*SeekingAlpha · 10h前*  
-Marvell Technology faces new competition as Qualcomm enters Amazon's AI custom silicon and optical connectivity ecosystem. Read why MRVL stock is a buy.
+- **[Nvidia Just Invited a Rival Chipmaker Into Its Own Racks. Here’s Why](https://finnhub.io/api/news?id=561bdb0ff95aaab6d001add22053cba687c8cba994898113f88b8ab21fbefcbf)**  
+*Yahoo · 7h前*  
+Nvidia is letting a rival chipmaker plug directly into its own racks, and the move only looks like a concession until you follow the money through every layer o…
 
-- **[Applied Materials, Lam Research, Monolithic Power Systems, Marvell Technology, and MACOM Shares Are Falling, What You Need To Know](https://finnhub.io/api/news?id=3ab1e1cd50b50858b11d889d162fcc50166258f5a189d9c817c451f30ab98b42)**  
-*Yahoo · 13h前*  
-A number of stocks fell in the afternoon session after the chief executives of Anthropic, OpenAI, and SpaceX publicly united to call for a deliberate slowdown i…
+- **[The AI Boom Has a Secret Weapon, and It’s Marvell](https://finnhub.io/api/news?id=ac7a8728ad8901634fc0ef1272c7c4607c5dc0a89015d347b657db3bda065c13)**  
+*Yahoo · 9h前*  
+Marvell has surged over 150% this year on the back of explosive data center growth, but Wall Street's consensus target may still be too conservative. Here is wh…
 
 ---
 
@@ -48,7 +48,7 @@ A number of stocks fell in the afternoon session after the chief executives of A
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-15 | 監控 | $218.82 | — | 自動更新 |
+| 2026-09-16 | 監控 | $221.70 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks fell in the afternoon session after the chief executives of A
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 09:03 HKT*
