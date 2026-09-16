@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$146.25** |
-| 今日變動 | ▼ $6.06　(-3.98%) |
+| 現價 | **$142.12** |
+| 今日變動 | ▼ $4.13　(-2.82%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $410　(▼25.9%) |
+| 未實現盈虧 | ▼ $443　(▼28.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $183.32 | — |
-| Put Wall（支撐） | $145.00 | -0.9% |
-| Call Wall（阻力） | $200.00 | +36.8% |
+| Gamma Flip | $182.02 | — |
+| Put Wall（支撐） | $140.00 | -1.5% |
+| Call Wall（阻力） | $200.00 | +40.7% |
 
 **狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[New Momentum In The Nuclear Fuel Chain](https://finnhub.io/api/news?id=b645b7b561f6fc0f27b3b9e6ce790db1a7ac64967928b6e40bf3f62a2ed20f6c)**  
-*SeekingAlpha · 6h前*  
+*SeekingAlpha · 18h前*  
 The nuclear renaissance requires a fuel chain that can support the ambitions of reactor development companies. In recent weeks, the nuclear fuel chain has shown…
 
 ---
@@ -40,7 +40,7 @@ The nuclear renaissance requires a fuel chain that can support the ambitions of 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-15 | 監控 | $146.25 | — | 自動更新 |
+| 2026-09-16 | 監控 | $142.12 | — | 自動更新 |
 
 ---
 
@@ -51,4 +51,4 @@ The nuclear renaissance requires a fuel chain that can support the ambitions of 
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
