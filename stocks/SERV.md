@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -55,4 +55,4 @@ Serve Robotics combines a cash-rich balance sheet and 31% short interest with a 
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:04 HKT*
