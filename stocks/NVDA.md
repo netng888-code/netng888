@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-16 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Circle Internet Group Stock Was Crushed Today](https://finnhub.io/api/news?id=1395d7ca7eecf6cc28e327c654ab663f8a005c10258c32a10de2ab2cf1d86a72)**  
+- **[Meta CEO Sends Powerful Message on AI Slowdown](https://finnhub.io/api/news?id=dba9eef63f3596b5287518398bffe58d86235c2be0e59570e3e3c4b59b7bf1de)**  
 *Yahoo · 1h前*  
-A major piece of crypto legislation failed to advance on Capitol Hill.
+After Nvidia's Stand, Zuckerberg Fires Back at AI Slowdown Efforts
 
-- **[Calls for Slower AI Development Have Created a Compelling Dip for AI Stocks](https://finnhub.io/api/news?id=fdd641785cbf3adf4ca7a9c5e72694fd58a5c68fe3798b9758a776a613e875a7)**  
-*Yahoo · 2h前*  
-AI stocks have slid amid some tech CEOs raising concerns about unchecked AI development.
+- **[The Stock Market Is Flashing a Warning Sign Rarely Seen in 145 Years. Here's What History Says Comes Next.](https://finnhub.io/api/news?id=d45688140f58e62d38f71ab20ae94176925e8bbc7ca21ea5e24f69a8130bc61a)**  
+*Yahoo · 1h前*  
+The CAPE ratio is near a level last seen during the dot-com bubble.
 
-- **[Berkshire Hathaway's Class A Shares Cost About $766,000. Here's Why the Class B Shares Exist.](https://finnhub.io/api/news?id=f486a87b19ce3a7872901e83fdd1ad4e32912e8913c2169d41a6516a7f57dd27)**  
-*Yahoo · 2h前*  
-If you don't have three-quarters of a million dollars available to invest, consider Class B shares.
+- **[The New Crypto Bull Market Could Be Coming. I Predict That These 3 Coins Will Lead It.](https://finnhub.io/api/news?id=c9f24df79222c96849e2b2cb7cf1f901f9926a5f9e26374f03de5bc1e75384a6)**  
+*Yahoo · 1h前*  
+With crypto prices rebounding, there are already a few leaders pulling ahead of the pack.
 
 ---
 
@@ -59,4 +59,4 @@ If you don't have three-quarters of a million dollars available to invest, consi
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:03 HKT*
