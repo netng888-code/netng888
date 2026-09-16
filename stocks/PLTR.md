@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir and Nvidia Are Restricting Anthropic’s AI. Microsoft Could Win the Enterprise Trust War](https://finnhub.io/api/news?id=f4e1e9091623af3c7c8e7f844d59b0cde0578101ea393489e2049becfbca10eb)**  
+- **[Death of software 'greatly overstated' as sector flips the script on chip stocks: Chart of the Day](https://finnhub.io/api/news?id=81b58a9063a3b90ddba3e6074063e2cb6c12e1fc1839b8e297531b413a17a5c7)**  
 *Yahoo · 3h前*  
-Palantir and Nvidia have reportedly tightened restrictions around Anthropic’s advanced AI models over data-retention concerns. Palantir has demanded irrevocable…
+Software stocks have outperformed over the past three months as the sector.
 
-- **[Nvidia, Coinbase, Skyworks, Axon, Tesla, Applied Aerospace, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=a2157e9f5a610237a2b186b1c0291e52b1bd430d39cc91638003ad02ecbdabe3)**  
-*Yahoo · 4h前*  
-FEATURE  Stocks declined Tuesday as the yield reached its highest level in 19 years. Investor fears over the selloff in artificial-intelligence stocks eased som…
+- **[The Big Short’s Michael Burry Predicts a Possible 1987-Style Drop and is Betting Against AI Giants Nvidia and Palantir. Should You Follow?](https://finnhub.io/api/news?id=77fc41009a7326a5c25bfbe001f7d4a79e97fe4b5126c5f2f6ceca3f6cce57f0)**  
+*Yahoo · 3h前*  
+Burry gained fame after predicting the subprime market crash.
 
-- **[Can Palantir Technologies (PLTR) Justify Its Price On Cash Flow?](https://finnhub.io/api/news?id=8244208265c7269fa6a79ff6d1f0ac471e1a307da193a41e50cb0bd4533e109b)**  
-*Yahoo · 4h前*  
-Palantir Technologies, available to view in more detail at this Simply Wall St summary page, has become a high profile AI and data software stock, and with the …
+- **[Palantir Technologies (NASDAQ:PLTR): Strong Growth Paired With a Promising Technical Setup](https://finnhub.io/api/news?id=abbf53bbc02c657e11f37f2a4e0eb267e949c8a42a4a7c9317df9cb6270d84e3)**  
+*ChartMill · 4h前*  
+Palantir (PLTR) pairs strong revenue and EPS growth with a consolidating chart, making it a breakout candidate in this strong-growth screen.
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies, available to view in more detail at this Simply Wall St s
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:04 HKT*
