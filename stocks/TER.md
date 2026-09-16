@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-15 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$329.20** |
-| 今日變動 | ▼ $50.52　(-13.30%) |
+| 現價 | **$332.85** |
+| 今日變動 | ▲ $3.65　(+1.11%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,186　(▲257.8%) |
+| 未實現盈虧 | ▲ $1,204　(▲261.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $370.36 | — |
-| Put Wall（支撐） | $330.00 | --0.2% |
-| Call Wall（阻力） | $400.00 | +21.5% |
+| Gamma Flip | $348.10 | — |
+| Put Wall（支撐） | $330.00 | -0.9% |
+| Call Wall（阻力） | $340.00 | +2.1% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Teradyne Opens Office in India, Deepening Commitment to the Country’s Growing Semiconductor Ecosystem](https://finnhub.io/api/news?id=8190861566213d6ca8ec87745d555635664648411848f9f0e1e9d3850f7c0b04)**  
-*Yahoo · 9h前*  
-BENGALURU, India, September 15, 2026--Teradyne announced the opening of an office in India focused on supporting semiconductor manufacturing, located in Bengalu…
+- **[Teradyne India Office Expands Semiconductor Manufacturing Support in Bengaluru](https://finnhub.io/api/news?id=6d1fb4d3e89b7d869b9249739cb2ecd1c82de05a0b1d3a92054b18028ca8f5a3)**  
+*Yahoo · 10h前*  
+Teradyne is establishing a permanent semiconductor-focused presence in India as the country expands domestic fabrication, packaging and testing infrastructure. …
 
-- **[Lattice Semiconductor, Amkor, Himax, Teradyne, and Entegris Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=222c437502fa616931e981dfee3500a16529e412d858f43a81388963dea8d565)**  
-*Yahoo · 12h前*  
-A number of stocks fell in the afternoon session after the chief executives of Anthropic, OpenAI, and SpaceX publicly united to call for a deliberate slowdown i…
+- **[Top Robotics Stocks to Add to Your Portfolio for Impressive Returns](https://finnhub.io/api/news?id=c9b1ab86e8a93957dca4ae5822d8f4dc93d5f3b974ed04fe27c8cb0e546575f2)**  
+*Yahoo · 11h前*  
+Robotics is poised for robust long-term growth. Consider NVDA, TER, ZBRA and GMED for potential market dominance across sectors.
 
-- **[Is Teradyne Stock Asking Too Much Of Its Test Business?](https://finnhub.io/api/news?id=fe9bdbe4e3cc8cb4d01f677f874953f115b8920d0fe8d06b3bf87927be02af06)**  
-*Yahoo · 14h前*  
-Teradyne (TER) trades at 51.7 times trailing earnings. A multiple that high is a requirement rather than an opinion: the business has to grow into it, and you c…
+- **[What's Going On With Teradyne Stock Tuesday?](https://finnhub.io/api/news?id=9ab27ac0a3e879ad3c3ece9b909ae6f2a521a534fa0d516c65e99ea6d1cdcf14)**  
+*Benzinga · 17h前*  
+Teradyne (TER) stock gains nearly 2% premarket after a 13.3% drop. Read key support levels and price analysis.
 
 ---
 
@@ -48,7 +48,7 @@ Teradyne (TER) trades at 51.7 times trailing earnings. A multiple that high is a
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-15 | 監控 | $329.20 | — | 自動更新 |
+| 2026-09-16 | 監控 | $332.85 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne (TER) trades at 51.7 times trailing earnings. A multiple that high is a
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
