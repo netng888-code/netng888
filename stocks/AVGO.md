@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-16 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $359.24 | — |
-| Put Wall（支撐） | $330.00 | -2.7% |
+| Put Wall（支撐） | $340.00 | --0.2% |
 | Call Wall（阻力） | $350.00 | +3.2% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Credo (CRDO) vs. Marvell (MRVL): Which AI Chip Stock Is the Better Buy?](https://finnhub.io/api/news?id=ebf12ffcb67a09ec7a1f6d4ced50523a5bf9e1c5b1709b40081e86d6738b08bf)**  
-*Yahoo · 2h前*  
-Outside of Nvidia (NVDA) and Broadcom (AVGO), Credo Technology (CRDO) and Marvell Technology (MRVL) are two of the most searched-for chip stocks on Zacks.com.
+- **[Broadcom CEO pushes back on AI slowdown fears](https://finnhub.io/api/news?id=e976fba62a7fc894ada6c66c9c023847f538443489c40888a2aa099feb36330f)**  
+*Yahoo · 1h前*  
+The chipmaker is sticking with its long-term targets despite growing questions about the AI spending cycle.
 
-- **[Why Rule Breakers Dig Stocks With Multiple Futures](https://finnhub.io/api/news?id=466e78ea50f8b3e6ddd1e4737a81d9ece024ea527a25cbf5b74dce7a108c442d)**  
+- **[3 Semiconductor Stocks to Buy Before AI Demand Explodes in September](https://finnhub.io/api/news?id=41f8eb0aa0c1efb5a18a10d9cabeb700e6ce205a89baf2e009120cc799c65dda)**  
 *Yahoo · 3h前*  
-Different industries, different products, same shape: a company with several genuine paths forward, not just one.
+Hyperscalers keep pulling forward orders for custom silicon, high-bandwidth memory, and networking chips, and three semiconductor names just raised guidance int…
 
-- **[What Was Qualcomm Stock Telling You Before It Ran?](https://finnhub.io/api/news?id=02658fc90610a07217de35ed7584ae21bb283fd70a982d7df81f1b5477de6cdf)**  
-*Yahoo · 4h前*  
-Qualcomm (QCOM) stock rose 40% between mid-March and mid-September 2026, from near the bottom of its 52-week range, while the S&P 500 gained 15.5%. The market w…
+- **[Blackstone Sees Earnings Boom Fueling AI, Infrastructure and Fundraising Growth](https://finnhub.io/api/news?id=26933f0bc29893ae2e08852376370af1c0fc26390b26f40d7ef80c638e9b8ff2)**  
+*Yahoo · 11h前*  
+Blackstone (NYSE:BX) CFO Michael Chae said the firm sees a constructive backdrop for corporate profits, investment deployment and fundraising, citing accelerati…
 
 ---
 
@@ -59,4 +59,4 @@ Qualcomm (QCOM) stock rose 40% between mid-March and mid-September 2026, from ne
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:03 HKT*
