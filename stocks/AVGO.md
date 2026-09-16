@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-15 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$344.72** |
-| 今日變動 | ▼ $17.27　(-4.77%) |
+| 現價 | **$339.27** |
+| 今日變動 | ▼ $5.45　(-1.58%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $311　(▼8.3%) |
+| 未實現盈虧 | ▼ $365　(▼9.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $362.22 | — |
-| Put Wall（支撐） | $340.00 | -1.4% |
-| Call Wall（阻力） | $360.00 | +4.4% |
+| Gamma Flip | $359.24 | — |
+| Put Wall（支撐） | $330.00 | -2.7% |
+| Call Wall（阻力） | $350.00 | +3.2% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Broadcom CEO Sends Urgent Message on AI Slowdown Fears](https://finnhub.io/api/news?id=c75937cb9e2a9ecc7adf43c8b98c485d4e00fdf23a6a374bf8b589758de0a605)**  
-*Yahoo · 0h前*  
-Broadcom stock drops with ai names. Hock Tan stands by long-term growth outlook
+- **[Credo (CRDO) vs. Marvell (MRVL): Which AI Chip Stock Is the Better Buy?](https://finnhub.io/api/news?id=ebf12ffcb67a09ec7a1f6d4ced50523a5bf9e1c5b1709b40081e86d6738b08bf)**  
+*Yahoo · 2h前*  
+Outside of Nvidia (NVDA) and Broadcom (AVGO), Credo Technology (CRDO) and Marvell Technology (MRVL) are two of the most searched-for chip stocks on Zacks.com.
 
-- **[Broadcom’s Real Constraint Isn’t Demand. It’s Supply.](https://finnhub.io/api/news?id=0e96996b1a5bd3ab418e03e965cde68da13a9d89d81f37c97a72eed40e089a30)**  
-*Yahoo · 0h前*  
-Piper Sandler believes Broadcom Inc. (NASDAQ:AVGO) is the leader in ASIC chips, holding 75% share of the ASIC market for AI inference. On September 9, firm anal…
+- **[Why Rule Breakers Dig Stocks With Multiple Futures](https://finnhub.io/api/news?id=466e78ea50f8b3e6ddd1e4737a81d9ece024ea527a25cbf5b74dce7a108c442d)**  
+*Yahoo · 3h前*  
+Different industries, different products, same shape: a company with several genuine paths forward, not just one.
 
-- **[AI chip sell-off overblown: Zero GPU slowdown after Anthropic essay, analyst says](https://finnhub.io/api/news?id=b2041c9601060ffcaffe51f41372587b35c72c61d9a89086850644580ce48e19)**  
-*Yahoo · 0h前*  
-NVIDIA (NASDAQ: NVDA), the dominant supplier of AI training GPUs and the most direct equity expression of AI infrastructure buildout, sits at the center of the …
+- **[What Was Qualcomm Stock Telling You Before It Ran?](https://finnhub.io/api/news?id=02658fc90610a07217de35ed7584ae21bb283fd70a982d7df81f1b5477de6cdf)**  
+*Yahoo · 4h前*  
+Qualcomm (QCOM) stock rose 40% between mid-March and mid-September 2026, from near the bottom of its 52-week range, while the S&P 500 gained 15.5%. The market w…
 
 ---
 
@@ -48,7 +48,7 @@ NVIDIA (NASDAQ: NVDA), the dominant supplier of AI training GPUs and the most di
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-15 | 監控 | $344.72 | — | 自動更新 |
+| 2026-09-16 | 監控 | $339.27 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ NVIDIA (NASDAQ: NVDA), the dominant supplier of AI training GPUs and the most di
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 09:03 HKT*
