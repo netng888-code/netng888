@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$62.55** |
-| 今日變動 | ▼ $0.40　(-0.64%) |
+| 現價 | **$63.55** |
+| 今日變動 | ▲ $1.00　(+1.60%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $135　(▼17.7%) |
+| 未實現盈虧 | ▼ $125　(▼16.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $65.67 | — |
-| Put Wall（支撐） | $60.00 | -4.1% |
-| Call Wall（阻力） | $70.00 | +11.9% |
+| Gamma Flip | $65.12 | — |
+| Put Wall（支撐） | $60.00 | -5.6% |
+| Call Wall（阻力） | $70.00 | +10.1% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Fully Funds Iridium Acquisition, Including Completion of $1.94 Billion ATM](https://finnhub.io/api/news?id=bd9e49b1f8872ea655d4de1ae732c4618df9358f6fd5e777d0439dd21e750c73)**  
-*Yahoo · 3h前*  
-Iridium Acquisition Now Fully Financed: Rocket Lab completes the $1.944 billion At-The-Market (ATM) equity offering, securing the required cash consideration (a…
+- **[Rocket Lab Corporation (RKLB) Advances While Market Declines: Some Information for Investors](https://finnhub.io/api/news?id=fd8b2ad822319fff244ae9bba3d291f945095d65cd702ce3b60586afaf0ecdf5)**  
+*Yahoo · 2h前*  
+Rocket Lab Corporation (RKLB) closed at $63.55 in the latest trading session, marking a +1.6% move from the prior day.
 
-- **[Rocket Lab Expects Iridium Deal To Double Its Size ‘Overnight’ — CFO Says More Space Deals May Follow](https://finnhub.io/api/news?id=bd98f499fde001e78a47b56a2ba2bb9fce36f6f6f21472580fad666a4d1edbfc)**  
-*Yahoo · 7h前*  
-The slower-growing Iridium business is expected to initially dilute Rocket Lab’s nearly 100% annual growth rate.
+- **[Space Weapons: How Boeing, SpaceX, and Others Stand to Gain](https://finnhub.io/api/news?id=07bf6a765705724a2698281d744903f64ffa834a6d7e0cb1646862db90c0458f)**  
+*Yahoo · 4h前*  
+On Monday, the U.S. Space Force confirmed the existence of space-based weapons, though what exactly is in space is classified.  The news represents a milestone …
 
-- **[ViaSat Stock Soared on Hopes of a Big Deal. The Company Has Other Ideas.](https://finnhub.io/api/news?id=032af3fe10d308c8afce100b8706c7d7c6badff5f9f7606abc9d2716a6321851)**  
-*Yahoo · 21h前*  
-ViaSat stock has more than doubled this year amid a flurry of satellite-company takeovers, but it is pursuing a different path.
+- **[Rocket Lab Makes Bold Move to Broaden Space Business](https://finnhub.io/api/news?id=a8c46a6355bc91c0ccff4fbccd26cf7b6d2b07f10009b31cba450786da2dfda2)**  
+*Yahoo · 4h前*  
+One major risk surrounding Rocket Lab's expansion just disappeared
 
 ---
 
@@ -48,7 +48,7 @@ ViaSat stock has more than doubled this year amid a flurry of satellite-company 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-15 | 監控 | $62.55 | — | 自動更新 |
+| 2026-09-16 | 監控 | $63.55 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ ViaSat stock has more than doubled this year amid a flurry of satellite-company 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-15 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
