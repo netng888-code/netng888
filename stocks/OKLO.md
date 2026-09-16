@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-16 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Oklo Has Massive Potential Due to Artificial Intelligence, but the Stock Is Sinking. Here's What I'd Do](https://finnhub.io/api/news?id=d8d59aaa194532a74ad936aeaf9d418686afedc7441c082e7494784ee54cfcf2)**  
-*Yahoo · 1d前*  
-The stock is trading near its 52-week low, but it may have significant upside in the long run.
+- **[Europe Bets Big on Small Modular Reactors. Here's How NuScale Power and Oklo Will Benefit.](https://finnhub.io/api/news?id=c9d7d54b98f07e2a3a23d7a27ff0b2a05b550c33badd1eb2bcf6b71fe60c5986)**  
+*Yahoo · 17h前*  
+The European Investment Bank is ramping up investment in small modular nuclear reactors, or SMRs.
 
-- **[Oklo Stock Drops After Announcing $1 Billion Share Sale. Should Investors Panic?](https://finnhub.io/api/news?id=5dd9d5dcca4c8960b96618634fb7831e86b29be66342d3c32e03c03dfe6ff5c1)**  
-*Yahoo · 1d前*  
-Oklo investors should prepare for ongoing shareholder dilution.
+- **[Bloom Energy vs. Oklo: Which Industrials Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=a9406da5bc8eecf529e9e6fffadf78f08049542cd31251b95d8385219b79ce80)**  
+*Yahoo · 22h前*  
+One company is already supplying power to the AI infrastructure build-out with rapidly growing revenue and improving profits. The other is building toward a nuc…
 
-- **[Not Oklo. Not NuScale. This Nuclear Stock Is Going to Be the Biggest Winner of the AI Power Boom.](https://finnhub.io/api/news?id=81de4a1ce1d65fa951965820f28f391f3ec54d101cff61af250e2f17acab579a)**  
+- **[SMR Loss to Improve 70.5%: Is This Sub-$10 Stock a Bargain?](https://finnhub.io/api/news?id=e604550e205e21c47b8c164a32283be8380ea75bfabf53f9032be621e5a1847c)**  
 *Yahoo · 1d前*  
-Vistra is a more balanced play on the growing nuclear energy and AI markets.
+NuScale Power's regulatory head start, deployment readiness and commercial ambitions offer investors plenty to weigh as the nuclear developer approaches a pivot…
 
 ---
 
@@ -59,4 +59,4 @@ Vistra is a more balanced play on the growing nuclear energy and AI markets.
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-16 21:04 HKT*
