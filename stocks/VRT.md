@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$234.61** |
-| 今日變動 | ▼ $2.78　(-1.17%) |
+| 現價 | **$239.41** |
+| 今日變動 | ▲ $4.80　(+2.05%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $138　(▼22.8%) |
+| 未實現盈虧 | ▼ $129　(▼21.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $261.43 | — |
-| Put Wall（支撐） | $220.00 | -6.2% |
-| Call Wall（阻力） | $260.00 | +10.8% |
+| Gamma Flip | $258.68 | — |
+| Put Wall（支撐） | $240.00 | --0.2% |
+| Call Wall（阻力） | $260.00 | +8.6% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intuitive Machines vs. Vertiv: Which Industrials Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=d6c78ff6bfbbb964f4b33f062c3d432fe0189c113d4dd9daa7b1dd6919e66999)**  
-*Yahoo · 13h前*  
-One trades on speculative lunar ambitions with heavy government concentration; the other captures immediate AI infrastructure demand with $1.9B in free cash flo…
+- **[Eaton Sees Best Years Ahead as Data Center Demand Powers Growth](https://finnhub.io/api/news?id=b9d1b6a860fd0adf17f84f3e7f84dbbc14487011dafb47a72d4ced30d57f401e)**  
+*Yahoo · 4h前*  
+Eaton (NYSE:ETN) Chief Executive Officer Paulo Ruiz told investors at Morgan Stanley’s Laguna Conference that the company’s strategy is gaining momentum, suppor…
 
-- **[Here's Why Vertiv Holdings Co. (VRT) Fell More Than Broader Market](https://finnhub.io/api/news?id=34c53c88cd56a897d9c981a7b9066f830b1ab5e134a88b5d1e6e7ade27972402)**  
-*Yahoo · 15h前*  
-In the latest trading session, Vertiv Holdings Co. (VRT) closed at $234.26, marking a -1.32% move from the previous day.
+- **[Zacks.com featured highlights DiamondRock, Vertiv, Mueller Water Products and Phibro](https://finnhub.io/api/news?id=fa4708416b7f383a123406b490efce57fd958434c14fdb7d0574d6e82a8d288a)**  
+*Yahoo · 5h前*  
+DiamondRock, Vertiv, Mueller Water Products and Phibro have been highlighted in this Screen of The Week article.
 
-- **[The AI Slowdown Call: Another Reason To Hedge, Not To Exit](https://finnhub.io/api/news?id=1769e710bf16759e8159b120b039f7700b90b14575028e52fc8b1dd564547911)**  
-*SeekingAlpha · 20h前*  
-AI development slowdown calls are shaking stocks, but hedging AI exposure, favoring equipment, and selective optical/networking plays for alpha. Click for more.
+- **[Should You Get Paid To Wait Out Vertiv's Learning Curve?](https://finnhub.io/api/news?id=3df96d8db1aad6313a1e9dbafd13a9b451bf46b0de3fc70cbdd182983b2d4d8d)**  
+*Yahoo · 11h前*  
+Vertiv (VRT) makes the power and cooling systems that keep AI data centers running, and the stock trades about 38% below its 52-week high. Selling a put pays yo…
 
 ---
 
@@ -48,7 +48,7 @@ AI development slowdown calls are shaking stocks, but hedging AI exposure, favor
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-16 | 監控 | $234.61 | — | 自動更新 |
+| 2026-09-17 | 監控 | $239.41 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ AI development slowdown calls are shaking stocks, but hedging AI exposure, favor
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-17 21:04 HKT*
