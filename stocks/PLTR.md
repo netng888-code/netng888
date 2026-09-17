@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$172.56** |
-| 今日變動 | ▼ $0.75　(-0.43%) |
+| 現價 | **$174.34** |
+| 今日變動 | ▲ $1.78　(+1.03%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $338　(▲38.8%) |
+| 未實現盈虧 | ▲ $350　(▲40.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $161.20 | — |
-| Put Wall（支撐） | $170.00 | -1.5% |
-| Call Wall（阻力） | $175.00 | +1.4% |
+| Gamma Flip | $163.78 | — |
+| Put Wall（支撐） | $170.00 | -2.5% |
+| Call Wall（阻力） | $180.00 | +3.2% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Death of software 'greatly overstated' as sector flips the script on chip stocks: Chart of the Day](https://finnhub.io/api/news?id=81b58a9063a3b90ddba3e6074063e2cb6c12e1fc1839b8e297531b413a17a5c7)**  
-*Yahoo · 3h前*  
-Software stocks have outperformed over the past three months as the sector.
+- **[CMG Stock Ticks Up On AI Food Safety Bet With Palantir: Retail Bullish On ‘Ontological Burritos'](https://finnhub.io/api/news?id=5d8d069475dec364439dd0392f8cb3487c2ec7b8652f5ae48893d54afbf9ada4)**  
+*Yahoo · 9h前*  
+Chipotle is adding AI-driven analytics to food safety as outbreaks, supply chain risks pressure industry.
 
-- **[The Big Short’s Michael Burry Predicts a Possible 1987-Style Drop and is Betting Against AI Giants Nvidia and Palantir. Should You Follow?](https://finnhub.io/api/news?id=77fc41009a7326a5c25bfbe001f7d4a79e97fe4b5126c5f2f6ceca3f6cce57f0)**  
-*Yahoo · 3h前*  
-Burry gained fame after predicting the subprime market crash.
+- **[Nebius Group (NBIS) Is Down 12.9% After Becoming Palantir’s Preferred Sovereign AI Cloud Partner – Has The Bull Case Changed?](https://finnhub.io/api/news?id=c9ac88a8980c3cffa2dd992c74927f5cb2b9679287d0b947aff53ac48ee9a336)**  
+*Yahoo · 11h前*  
+On 8 September 2026, Palantir Technologies and Nebius Group announced a partnership making Nebius Palantir's preferred sovereign AI infrastructure provider, int…
 
-- **[Palantir Technologies (NASDAQ:PLTR): Strong Growth Paired With a Promising Technical Setup](https://finnhub.io/api/news?id=abbf53bbc02c657e11f37f2a4e0eb267e949c8a42a4a7c9317df9cb6270d84e3)**  
-*ChartMill · 4h前*  
-Palantir (PLTR) pairs strong revenue and EPS growth with a consolidating chart, making it a breakout candidate in this strong-growth screen.
+- **[Palantir Technologies (PLTR) Tightens Rules On External Generative AI Models](https://finnhub.io/api/news?id=89697c3f6269299f9a5a4ce4f42875e85f9c3e6fee4925b6bdf263721880e21a)**  
+*Yahoo · 14h前*  
+Palantir Technologies (NasdaqGS:PLTR) has tightened rules on advanced generative AI, curbing use of OpenAI and Anthropic models across its platforms. Alongside …
 
 ---
 
@@ -48,7 +48,7 @@ Palantir (PLTR) pairs strong revenue and EPS growth with a consolidating chart, 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-16 | 監控 | $172.56 | — | 自動更新 |
+| 2026-09-17 | 監控 | $174.34 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir (PLTR) pairs strong revenue and EPS growth with a consolidating chart, 
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-17 21:04 HKT*
