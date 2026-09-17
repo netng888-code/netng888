@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$221.70** |
-| 今日變動 | ▲ $2.88　(+1.32%) |
+| 現價 | **$229.71** |
+| 今日變動 | ▲ $8.01　(+3.61%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $356　(▼13.8%) |
+| 未實現盈虧 | ▼ $276　(▼10.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $221.66 | — |
-| Put Wall（支撐） | $200.00 | -9.8% |
-| Call Wall（阻力） | $250.00 | +12.8% |
+| Gamma Flip | $221.46 | — |
+| Put Wall（支撐） | $230.00 | --0.1% |
+| Call Wall（阻力） | $250.00 | +8.8% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[3 Semiconductor Stocks to Buy Before AI Demand Explodes in September](https://finnhub.io/api/news?id=41f8eb0aa0c1efb5a18a10d9cabeb700e6ce205a89baf2e009120cc799c65dda)**  
-*Yahoo · 3h前*  
-Hyperscalers keep pulling forward orders for custom silicon, high-bandwidth memory, and networking chips, and three semiconductor names just raised guidance int…
+- **[Thursday's pre-market session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=79297d4ba8c67746e1ab4669964a024be87599dc02da183ce972a67432a4ae14)**  
+*ChartMill · 0h前*  
+Stay updated with the S&P500 stocks that are on the move in today's pre-market session.
 
-- **[Wall Street Freezes Up as Oil Tops $108 and the Ten-Year Clears 5% Ahead of Warsh's First Hike Test](https://finnhub.io/api/news?id=5b9afc6a2765be4dcb459f4d7e3bc28535769faef01e43c7ae1224ee6dd76560)**  
-*ChartMill · 4h前*  
-US stocks closed lower on Tuesday as Brent crude pushed above $108 on a shuttered Saudi pipeline and the ten-year Treasury yield broke above 5% for the first ti…
+- **[Applied Materials vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=a875a189f64df299bbbda4b0f41c50dd16aad4fc3822ae54920318dff3e52d64)**  
+*Yahoo · 1h前*  
+Applied Materials trades at a forward P/E of 35 versus Marvell's 56, but one company's exposure to AI infrastructure spending carries distinctly different risks…
 
-- **[Marvell Technology (MRVL) Faces AI Volatility, Is It 58% Overvalued?](https://finnhub.io/api/news?id=ad9557f9c31c71e9094588cd85f58843e40a6119e9d6cdea1a1ad14197d4a85e)**  
-*Yahoo · 9h前*  
-Marvell Technology (MRVL) is back in focus after an AI driven sell-off hit semiconductor stocks, with investors now weighing that volatility against the company…
+- **[Marvell Technology Dropped By 25% in 3 Months: This Trusted Analyst Says 75% Returns Are Coming In The Next Year](https://finnhub.io/api/news?id=92ef61a28484e39e2b1664bc9dcdbe4fa2ae328dfdea03e51c6eb9aa4a7f7541)**  
+*Yahoo · 1h前*  
+Marvell's stock has cratered even as its AI data-center business posts record numbers and analysts pile on upgrades, and one KeyBanc analyst is drawing a very d…
 
 ---
 
@@ -48,7 +48,7 @@ Marvell Technology (MRVL) is back in focus after an AI driven sell-off hit semic
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-16 | 監控 | $221.70 | — | 自動更新 |
+| 2026-09-17 | 監控 | $229.71 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology (MRVL) is back in focus after an AI driven sell-off hit semic
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-17 21:04 HKT*
