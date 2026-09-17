@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$377.16** |
-| 今日變動 | ▼ $0.78　(-0.21%) |
+| 現價 | **$382.29** |
+| 今日變動 | ▲ $5.13　(+1.36%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $152　(▼16.8%) |
+| 未實現盈虧 | ▼ $142　(▼15.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $380.78 | — |
-| Put Wall（支撐） | $350.00 | -7.2% |
-| Call Wall（阻力） | $400.00 | +6.1% |
+| Gamma Flip | $379.52 | — |
+| Put Wall（支撐） | $350.00 | -8.4% |
+| Call Wall（阻力） | $400.00 | +4.6% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What Is Intuitive Surgical (ISRG) Gaining From Its First CE Mark In Gynecology?](https://finnhub.io/api/news?id=5da0481fd4199f848fdbec023c53210f275aa94f2cc6f5b86fad1a5dc186ca18)**  
-*Yahoo · 18h前*  
-Intuitive Surgical (NasdaqGS:ISRG) received the world's first CE mark for transvaginal gynecologic procedures using its da Vinci SP system. The approval expands…
-
-- **[ISRG's da Vinci Study Shows Better Outcomes Across 13 Common Conditions](https://finnhub.io/api/news?id=e6db18273990311a74a0f34a7a246676cffd4c2e666850929af728888f6172b8)**  
+- **[ISRG Wins EU Nod to Expand da Vinci SP in Gynecologic Procedures](https://finnhub.io/api/news?id=31b7b9378130cf9e9c52a19433ea20bcecd6c59da8e4e6fa8575f09ed3811998)**  
 *Yahoo · 21h前*  
-Intuitive Surgical's da Vinci meta-analysis across 14 million procedures found better perioperative outcomes versus laparoscopic and open surgery.
+Intuitive Surgical's CE mark expands da Vinci SP into transvaginal gynecology in Europe, opening a new women's health opportunity and growth runway.
 
-- **[Intuitive Surgical: My Sell Case Is Losing Ground (Rating Upgrade)](https://finnhub.io/api/news?id=9bfded3988e69b9c669234f295c0eb3a61e3a97b064c6b64beb8711a02b974da)**  
-*SeekingAlpha · 1d前*  
-Intuitive Surgical remains a compelling long-term investment, though current valuation still demands strong execution. See why ISRG stock is a Hold.
+- **[Intuitive Surgical, Inc. (ISRG) is Attracting Investor Attention: Here is What You Should Know](https://finnhub.io/api/news?id=c48741f19108db66d98bbd8cc5c804a5b06c553696a7895c33fe8bbee68616f2)**  
+*Yahoo · 1d前*  
+Recently, Zacks.com users have been paying close attention to Intuitive Surgical (ISRG). This makes it worthwhile to examine what the stock has in store.
+
+- **[What Is Intuitive Surgical (ISRG) Gaining From Its First CE Mark In Gynecology?](https://finnhub.io/api/news?id=5da0481fd4199f848fdbec023c53210f275aa94f2cc6f5b86fad1a5dc186ca18)**  
+*Yahoo · 1d前*  
+Intuitive Surgical (NasdaqGS:ISRG) received the world's first CE mark for transvaginal gynecologic procedures using its da Vinci SP system. The approval expands…
 
 ---
 
@@ -48,7 +48,7 @@ Intuitive Surgical remains a compelling long-term investment, though current val
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-16 | 監控 | $377.16 | — | 自動更新 |
+| 2026-09-17 | 監控 | $382.29 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical remains a compelling long-term investment, though current val
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-17 21:04 HKT*
