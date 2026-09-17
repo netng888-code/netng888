@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$212.17** |
-| 今日變動 | ▲ $1.21　(+0.57%) |
+| 現價 | **$213.90** |
+| 今日變動 | ▲ $1.73　(+0.82%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $520　(▲32.5%) |
+| 未實現盈虧 | ▲ $538　(▲33.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $206.99 | — |
-| Put Wall（支撐） | $200.00 | -5.7% |
-| Call Wall（阻力） | $220.00 | +3.7% |
+| Gamma Flip | $206.75 | — |
+| Put Wall（支撐） | $210.00 | -1.8% |
+| Call Wall（阻力） | $220.00 | +2.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Meta CEO Sends Powerful Message on AI Slowdown](https://finnhub.io/api/news?id=dba9eef63f3596b5287518398bffe58d86235c2be0e59570e3e3c4b59b7bf1de)**  
-*Yahoo · 1h前*  
-After Nvidia's Stand, Zuckerberg Fires Back at AI Slowdown Efforts
+- **[Nvidia: An Article Focused On Facts, Not Feelings](https://finnhub.io/api/news?id=bef30ecd0fee9e54ba2343c5114d016bfe88ebe477d877d9a3f5a15c586840e0)**  
+*SeekingAlpha · 5h前*  
+Nvidia Corp. offers a compelling growth and value hybrid, trading at a significant discount to its historical P/E multiples. Click for this NVDA stock update.
 
-- **[The Stock Market Is Flashing a Warning Sign Rarely Seen in 145 Years. Here's What History Says Comes Next.](https://finnhub.io/api/news?id=d45688140f58e62d38f71ab20ae94176925e8bbc7ca21ea5e24f69a8130bc61a)**  
-*Yahoo · 1h前*  
-The CAPE ratio is near a level last seen during the dot-com bubble.
+- **[Baron Technology ETF Q2 2026 Portfolio Activity](https://finnhub.io/api/news?id=2060f1dc5634fc9da72bf9ffeb4876ff7a3069d6c509e72a00c7cd9c52e5fa85)**  
+*SeekingAlpha · 6h前*  
+As part of its record-breaking IPO, we acquired shares in Space Exploration Technologies Corp.
 
-- **[The New Crypto Bull Market Could Be Coming. I Predict That These 3 Coins Will Lead It.](https://finnhub.io/api/news?id=c9f24df79222c96849e2b2cb7cf1f901f9926a5f9e26374f03de5bc1e75384a6)**  
-*Yahoo · 1h前*  
-With crypto prices rebounding, there are already a few leaders pulling ahead of the pack.
+- **[SpaceX's First Orbital Starship Flight Is Targeted for Sept. 22. Here's What's Riding on It for the Stock.](https://finnhub.io/api/news?id=11af245d6e439cc0c359d4d1f7d3f977b073ede0bc8982f1cec084ff166703ef)**  
+*Yahoo · 7h前*  
+Starship's 14th test flight would be its first try at orbit -- and its first with a payload that makes money.
 
 ---
 
@@ -48,7 +48,7 @@ With crypto prices rebounding, there are already a few leaders pulling ahead of 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-16 | 監控 | $212.17 | — | 自動更新 |
+| 2026-09-17 | 監控 | $213.90 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ With crypto prices rebounding, there are already a few leaders pulling ahead of 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-17 21:03 HKT*
