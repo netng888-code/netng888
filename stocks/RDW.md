@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.75** |
-| 今日變動 | ▲ $0.26　(+2.48%) |
+| 現價 | **$10.79** |
+| 今日變動 | ▲ $0.04　(+0.37%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $196　(▼31.3%) |
+| 未實現盈虧 | ▼ $194　(▼31.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.86 | — |
-| Put Wall（支撐） | $10.00 | -7.0% |
-| Call Wall（阻力） | $11.00 | +2.3% |
+| Gamma Flip | $9.90 | — |
+| Put Wall（支撐） | $11.00 | --1.9% |
+| Call Wall（阻力） | $12.00 | +11.2% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
+- **[What Are You Actually Buying In RKLB Stock?](https://finnhub.io/api/news?id=76d86cc7fcb4fe9d69c85c20530179cb8919885fe11fce7c39447318461915f5)**  
+*Yahoo · 1d前*  
+Rocket Lab (RKLB) stock has traded between $39.48 and $150.23 over the past 52 weeks. It now sits about 58% below its 52-week high, and anyone who bought twelve…
+
+- **[Intuitive Machines: If You Wanted To Buy Space Stock, Do It Now](https://finnhub.io/api/news?id=a6206b59882b0203834faf839e31e8433b98347fe0f70c67a7a6b8c24c631995)**  
+*SeekingAlpha · 1d前*  
+Intuitive Machines is rated Buy: NASA partnerships, $1.8B backlog, 300% revenue growth & low valuationâget the key risks and upside now. Click for a LUNR upda…
+
 - **[RKLB, ASTS, SPCX, RDW Stocks Set For A Boost? Pentagon Confirms Orbital Weapons Use, Ramps Up Golden Dome Plans](https://finnhub.io/api/news?id=0bbc07883226f478204144d6ac19cbbd2c0fed2c5c901ac7d0f95b56e5aba353)**  
-*Yahoo · 9h前*  
+*Yahoo · 1d前*  
 Golden Dome’s space-based interceptor program reached “flight-ready hardware,” with an integrated demonstration targeted for 2028.
-
-- **[Boeing vs. Redwire: Which Aerospace Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=830fdc1d2dff16ae4819187af70647bc20b7af30b2d672b41f01968c06a53c99)**  
-*Yahoo · 16h前*  
-Boeing's 35% revenue surge masks a negative free cash flow and 10x debt load, while Redwire burns cash but carries minimal leverage, a classic risk-reward trade…
-
-- **[AST SpaceMobile vs. Redwire: Which Space Infrastructure Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=43a8cda6c0e15a5ba9c19df88309dfcfcd639af257afff2a27f742116a8f7a91)**  
-*Yahoo · 16h前*  
-Both burn cash heavily, but one trades at a large valuation premium, a gap that may or may not be justified by growth potential.
 
 ---
 
@@ -48,7 +48,7 @@ Both burn cash heavily, but one trades at a large valuation premium, a gap that 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-16 | 監控 | $10.75 | — | 自動更新 |
+| 2026-09-17 | 監控 | $10.79 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Both burn cash heavily, but one trades at a large valuation premium, a gap that 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-16 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-17 21:04 HKT*
