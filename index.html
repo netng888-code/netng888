@@ -239,12 +239,12 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="summary-grid">
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
-      <div class="summary-value" id="sum-us-mktval">USD 30,186.94</div>
+      <div class="summary-value" id="sum-us-mktval">USD 30,433.94</div>
       <div class="summary-sub" id="sum-us-count">17 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
-      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 4,459.79</div>
+      <div class="summary-value pnl-pos" id="sum-us-unrealized">+ USD 4,336.78</div>
       <div class="summary-sub">未計已實現</div>
     </div>
     <div class="summary-card">
@@ -254,7 +254,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     </div>
     <div class="summary-card">
       <div class="summary-label">今日盈虧 (美股)</div>
-      <div class="summary-value pnl-pos" id="sum-us-today">+ USD 223.32</div>
+      <div class="summary-value pnl-pos" id="sum-us-today">+ USD 232.32</div>
       <div class="summary-sub">USD · 實時</div>
     </div>
   </div>
@@ -467,14 +467,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('OKLO')">OKLO</span></td>
       <td class="name-cell">Oklo Inc</td>
-      <td style="color:var(--muted)">30</td>
-      <td><span class="price-cell price-live">41.10</span></td>
+      <td style="color:var(--muted)">40</td>
+      <td><span class="price-cell price-live">37.00</span></td>
       <td><span class="ext-price-cell">+0.00 (+0.00%)</span></td>
-      <td style="color:var(--muted)">27.75</td>
-      <td class="mktval-cell">1,233.00</td>
-      <td class="pnl-pos">+400.66</td>
-      <td><span class="pct-badge pos">+48.14%</span></td>
-      <td class="pnl-pos today-pnl-cell">-9.00</td>
+      <td style="color:var(--muted)">30.06</td>
+      <td class="mktval-cell">1,480.00</td>
+      <td class="pnl-pos">+277.65</td>
+      <td><span class="pct-badge pos">+23.09%</span></td>
+      <td class="pnl-neu today-pnl-cell">+0.00</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('OKLO')">📈</button>
@@ -744,7 +744,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-09-03：MU沽出1股@$1,000.00（限價單，成本$557.857，已沽清倉，已實現+$442.14）｜ 2026-08-26：NVDA Q2業績後盤後加倉10股@$218.00（10→20股，成本加權至$189.0625）｜ 2026-08-21：LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
+  <span>持倉更新：2026-09-18：OKLO買入10股@$37.00（30→40股，成本加權至$30.05875）｜ 2026-09-03：MU沽出1股@$1,000.00（限價單，成本$557.857，已沽清倉，已實現+$442.14）｜ 2026-08-26：NVDA Q2業績後盤後加倉10股@$218.00（10→20股，成本加權至$189.0625）｜ 2026-08-21：LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -812,7 +812,7 @@ const US_HOLDINGS = [
   { symbol:'META',  name:'Meta Platforms',       qty:3,   cost:606.333,  mktval:1758.15,  pnl:-60.85,   pnlPct:'-3.35%',   realized:3.15,    todayPnL:4.38    },
   { symbol:'RDW',   name:'Redwire',              qty:40,  cost:15.65,    mktval:631.20,   pnl:5.20,     pnlPct:'+0.83%',   realized:598.60,  todayPnL:1.20    },
   { symbol:'LEU',   name:'Centrus Energy',       qty:8,   cost:197.50,   mktval:1251.04,  pnl:-328.96,  pnlPct:'-20.82%',  realized:0,       todayPnL:2.88    },
-  { symbol:'OKLO',  name:'Oklo Inc',             qty:30,  cost:27.745,   mktval:1233.00,  pnl:400.66,   pnlPct:'+48.14%',  realized:370.83,  todayPnL:-9.00   },
+  { symbol:'OKLO',  name:'Oklo Inc',             qty:40,  cost:30.05875, mktval:1480.00,  pnl:277.65,   pnlPct:'+23.09%',  realized:370.83,  todayPnL:0.00    },
   { symbol:'RKLB',  name:'Rocket Lab',           qty:10,  cost:76.00,    mktval:1079.20,  pnl:319.20,   pnlPct:'+42.00%',  realized:440.00,  todayPnL:-3.10   },
   { symbol:'PLTR',  name:'Palantir',             qty:12,  cost:127.304,  mktval:1577.52,  pnl:49.87,    pnlPct:'+3.26%',   realized:112.19,  todayPnL:100.80  },
   { symbol:'ISRG',  name:'直覺外科公司',            qty:2,   cost:453.10,   mktval:855.16,   pnl:-51.04,   pnlPct:'-5.63%',   realized:0,       todayPnL:1.94    },
