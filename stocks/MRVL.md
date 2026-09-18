@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SentinelOne, Marvell Technology, FormFactor, Teradyne, and Intel Shares Are Soaring, What You Need To Know](https://finnhub.io/api/news?id=ec32d4b972cb9c81180aef2eade52f128eb9cb44d3acf75b164d4f1f1cb01477)**  
-*Yahoo · 4h前*  
-A number of stocks jumped in the afternoon session after Treasury yields retreated below 5% and oil prices declined, sparking a recovery across growth-oriented …
+- **[GlobalFoundries and Marvell agree on SiGe technology expansion](https://finnhub.io/api/news?id=67544bbd3b165238d6f2dfbc205c6c6a3fd10f7edc62b892c2bbe6394cf9e600)**  
+*Yahoo · 2h前*  
+The companies aim to ramp up SiGe production in Vermont to meet rising demand for faster AI data-centre connectivity.
 
-- **[Generac, Nebius, CoreWeave, Nokia, Lucid, Paramount, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=f75a51fb50dc3adb94742c4c64ffb21053489ac2b79635f6907a6f2ba98e399f)**  
-*Yahoo · 4h前*  
-Nebius gains as the so-called neocloud recently announced it would raise its on-demand rates for a range of AI chips.
+- **[Relief Rally: Wall Street Decides a Hawkish Fed It Understands Beats a Fed It Doesn't](https://finnhub.io/api/news?id=ba02b2fc907acb035fced53dacc1e5cef6255a6e9bb64f62e530af3ea559ceb8)**  
+*ChartMill · 4h前*  
+A day after the Federal Reserve's first rate hike in three years, US stocks rallied as yields eased and the tech names that had been sold hardest this week boun…
 
-- **[Sector Update: Tech Stocks Gain Late Afternoon](https://finnhub.io/api/news?id=bcccdf179c83b497235ae40911b38019b4da1309e7e2f0a61277b52148969cfd)**  
-*Yahoo · 5h前*  
-Tech stocks were higher late Thursday afternoon, with the State Street Technology Select Sector SPDR
+- **[Marvell Technology (MRVL) Deepens Its AI Infrastructure Footprint](https://finnhub.io/api/news?id=c69c2dad330498fe529473a9a0609a781ea81b9871c73edfaeaf1baf8d96ac84)**  
+*Yahoo · 9h前*  
+Marvell Technology (NasdaqGS:MRVL) announced new collaborations with GlobalFoundries, Microsoft and Utimaco focused on advanced connectivity and payment securit…
 
 ---
 
@@ -59,4 +59,4 @@ Tech stocks were higher late Thursday afternoon, with the State Street Technolog
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
