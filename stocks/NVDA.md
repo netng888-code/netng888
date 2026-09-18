@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Long-Term Treasury Yields Now Beat These Dividend Stalwarts. Is Government Debt the Top Passive-Income Play?](https://finnhub.io/api/news?id=2dacad2c494326505afdbdc69f9fdc1c013469a3788cb11b30bd65d3cfca8da0)**  
-*Yahoo · 1h前*  
-With new money ready to be allocated, income investors are faced with an important decision.
+- **[Step Aside, Nvidia: 1 Reason Why Meta Platforms Could Be the Best AI Stock to Buy in 2026.](https://finnhub.io/api/news?id=8a9685787b7ed25da2d03702cb226ab16ae1452dc02296b486215597dd7bac65)**  
+*Yahoo · 0h前*  
+In the long run, the infrastructure powering the AI boom could become commoditized, with more of the value going to the businesses creating applications.
 
-- **[Why Generac Stock Soared Today](https://finnhub.io/api/news?id=03375cdefa167d9101123c7ca918e689e9c867849f4cc31ac78c3fd2f5b82690)**  
-*Yahoo · 1h前*  
-A long-term supply deal with an AI juggernaut has investors excited.
+- **[Prediction: This Is Where Nvidia Stock Could Be by the End of Next Year](https://finnhub.io/api/news?id=035567a326efdf5c5c693b7714fa844628accbd01f71161b0a95eeea6d106bea)**  
+*Yahoo · 0h前*  
+Nvidia shares have already delivered 900% over five years, but a specific multiple applied to a rising earnings estimate points to a price target that Wall Stre…
 
-- **[Why CoreWeave Stock Dived by More Than 5% Today](https://finnhub.io/api/news?id=9b19d9d1e201e5374e49d8f7cc713275f5ad6985929fd8f4bb39fe84a29bfdd0)**  
-*Yahoo · 1h前*  
-It's launching not one, but two new fundraising efforts.
+- **[Jensen Huang just gave Nvidia investors a massive 2027 signal](https://finnhub.io/api/news?id=f2b9f4964bb2cb7be797fd6da07a62fbaa860e110cff1ce28fed983d460ca530)**  
+*Yahoo · 0h前*  
+Nvidia is already preparing investors for another unusually large jump in AI chip demand
 
 ---
 
@@ -59,4 +59,4 @@ It's launching not one, but two new fundraising efforts.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
