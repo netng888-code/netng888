@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-18 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $334.75 | — |
 | Put Wall（支撐） | $340.00 | -2.1% |
-| Call Wall（阻力） | $350.00 | +0.8% |
+| Call Wall（阻力） | $370.00 | +6.5% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[SpaceX: A $3.2 Trillion Inflection Is Closer Than It Looks](https://finnhub.io/api/news?id=e59c4b8f9801ea000af134d61b1ba62c935cc0acdc7e49c4dc0d021740d99a09)**  
-*SeekingAlpha · 12h前*  
-SpaceX maintains a significant valuation premium post-IPO supported by resilient institutional confidence and a robust execution roadmap. Read more on SPCX.
+- **[Top S&P500 movers in Friday's pre-market session](https://finnhub.io/api/news?id=22202a1c3b3db791efb6be9d5dde6ef4262d339064af13f5b47ade0f9a2e5171)**  
+*ChartMill · 0h前*  
+The US market session of Friday has yet to be opened, let's have a look at the top S&P500 gainers and losers in the pre-market session today.
 
-- **[Lagging The S&P 500? I Don't Care, And Neither Should You](https://finnhub.io/api/news?id=38511e139416253ef546439f35b4217c6fbb4d237681ab3a96555c3fa10e6d00)**  
-*SeekingAlpha · 12h前*  
-This U.S. equities portfolio prioritizes long-term compounding and margin of safety over short-term benchmark outperformance. Click to read more in detail.
+- **[Here's How Google Advertising Antitrust Ruling Could Play Out](https://finnhub.io/api/news?id=db17c6a1f0a2376c66703c6cdc817d074870cd786f0d3145252185f1c98c79a0)**  
+*Yahoo · 1h前*  
+Google stock edged up after the federal judge unsealed a detailed remedies decision in an advertising antitrust case.
 
-- **[Earnings Drag and Geopolitical Headwinds Weigh on Lockheed Martin’s (LMT) Performance](https://finnhub.io/api/news?id=73e12dba546ef59f77e9756e020dfbb1d2f2768cbf0348efea7d8f2f145240a1)**  
-*Yahoo · 13h前*  
-Alluvium Asset Management, an asset management company, released its “Conventum – Alluvium Global Fund” second-quarter 2026 investor letter. The letter can be d…
+- **[Warren Buffett Steps Down as Berkshire Hathaway Chair: ‘Father Time Always Wins’](https://finnhub.io/api/news?id=b7f2ce56e48cdcea6bc750ee2faab4fa32786e4dd17ec929518dde72ce6cae3a)**  
+*Yahoo · 1h前*  
+After 60 years at the helm of Berkshire Hathaway, Warren Buffett just made a move that reshapes who controls the culture and the cash at one of the world's most…
 
 ---
 
@@ -59,4 +59,4 @@ Alluvium Asset Management, an asset management company, released its “Conventu
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
