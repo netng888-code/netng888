@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Are You Actually Buying In RKLB Stock?](https://finnhub.io/api/news?id=76d86cc7fcb4fe9d69c85c20530179cb8919885fe11fce7c39447318461915f5)**  
-*Yahoo · 1d前*  
-Rocket Lab (RKLB) stock has traded between $39.48 and $150.23 over the past 52 weeks. It now sits about 58% below its 52-week high, and anyone who bought twelve…
+- **[1 Industrials Stock with Promising Prospects and 2 Facing Headwinds](https://finnhub.io/api/news?id=92ff30f79c4a3d6525dcce0661d0281243e7eb87c11bc3b94f9bb36d847215f6)**  
+*Yahoo · 5h前*  
+Even if they go mostly unnoticed, industrial businesses are the backbone of our country. Still, their generally high capital requirements expose them to the ups…
 
-- **[Intuitive Machines: If You Wanted To Buy Space Stock, Do It Now](https://finnhub.io/api/news?id=a6206b59882b0203834faf839e31e8433b98347fe0f70c67a7a6b8c24c631995)**  
-*SeekingAlpha · 1d前*  
-Intuitive Machines is rated Buy: NASA partnerships, $1.8B backlog, 300% revenue growth & low valuationâget the key risks and upside now. Click for a LUNR upda…
+- **[Redwire (RDW) Stock May Offer A 30% Discount To Fair Value](https://finnhub.io/api/news?id=d4d6ce696efeed0598329a033e23dd384444abcedbe64696716f452040e782cc)**  
+*Yahoo · 20h前*  
+Redwire has seen its share price move around sharply in recent years, so the immediate question for you today is whether the current US$10.79 price is supported…
 
-- **[RKLB, ASTS, SPCX, RDW Stocks Set For A Boost? Pentagon Confirms Orbital Weapons Use, Ramps Up Golden Dome Plans](https://finnhub.io/api/news?id=0bbc07883226f478204144d6ac19cbbd2c0fed2c5c901ac7d0f95b56e5aba353)**  
-*Yahoo · 1d前*  
-Golden Dome’s space-based interceptor program reached “flight-ready hardware,” with an integrated demonstration targeted for 2028.
+- **[Winners And Losers Of Q2: Redwire (NYSE:RDW) Vs The Rest Of The Aerospace Stocks](https://finnhub.io/api/news?id=74cd66f89af0128db1d308513ebbdfbcbe613cf9340435ee15992238e50ffc4c)**  
+*Yahoo · 21h前*  
+Looking back on aerospace stocks’ Q2 earnings, we examine this quarter’s best and worst performers, including Redwire (NYSE:RDW) and its peers.
 
 ---
 
@@ -59,4 +59,4 @@ Golden Dome’s space-based interceptor program reached “flight-ready hardware
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
