@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab: A Stronger Business Still Has To Grow Into Its Price](https://finnhub.io/api/news?id=7e2a24df0354195b21dbbb031d5b39f7942ab97f0ed16434bc17c28e1887df05)**  
-*SeekingAlpha · 11h前*  
-Rocket Lab stock trades at a premium; Q2 revenue rose 62%, but losses persist. Click to read this analysis and for more on RKLB.
+- **[3 Market-Beating Stocks for Long-Term Investors](https://finnhub.io/api/news?id=812cdf1d121ec34d600389c8a13df366cf03dd186a1277b7a8e2bdbae0ab2487)**  
+*Yahoo · 2h前*  
+Stocks that outperform the market usually share key traits such as rising sales, expanding margins, and increasing returns on capital. The select few that can d…
 
-- **[Satellites Built Today Must Outlive the Encryption Protecting Them](https://finnhub.io/api/news?id=17b13a800f94f7d4e7ae3f5a880f86d8e7238cc88f13e7bc685968056d53af09)**  
+- **[RKLB, ASTS, VOYG, LUNR Steal SpaceX’s Thunder — Here’s What Lit Up Space Stocks This Week](https://finnhub.io/api/news?id=f185401e0863c31bfb6a900f278d17b7b5db5ccb60e32cc8d389a89f2c1c01ab)**  
+*Yahoo · 6h前*  
+Rocket Lab raised $1.944 billion for its $8 billion Iridium acquisition, while advancing Neutron hardware testing in Virginia.
+
+- **[SpaceX or Rocket Lab: Which Space Stock Is the Better Buy for the Next Decade?](https://finnhub.io/api/news?id=47c64387535138e8571f0545f6793204866c1ee1b6043c043f8e7a7b6dd8d89e)**  
 *Yahoo · 11h前*  
-Equity Insider News Commentary – A satellite launched this year may still be flying in the 2040s. The cryptography protecting its command links, its downlinks a…
-
-- **[SpaceX Is Worth $2 Trillion. Why Does Its Stock Swing Like a Small-Cap?](https://finnhub.io/api/news?id=c199e2b30aa58bc7ada83ad306812fac546f8f9535dc1cbc79d70f3c0a0dc088)**  
-*Benzinga · 15h前*  
-SpaceX is worth about $2 trillion, but its shares swing roughly 4.5% a day as a small float and heavy retail trading drive volatility.
+Both companies are battling for commercial orbital supremacy.
 
 ---
 
@@ -59,4 +59,4 @@ SpaceX is worth about $2 trillion, but its shares swing roughly 4.5% a day as a 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:04 HKT*
