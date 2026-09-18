@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Relief Rally: Wall Street Decides a Hawkish Fed It Understands Beats a Fed It Doesn't](https://finnhub.io/api/news?id=ba02b2fc907acb035fced53dacc1e5cef6255a6e9bb64f62e530af3ea559ceb8)**  
+*ChartMill · 4h前*  
+A day after the Federal Reserve's first rate hike in three years, US stocks rallied as yields eased and the tech names that had been sold hardest this week boun…
+
 - **[Generac, Nebius, CoreWeave, Nokia, Lucid, Paramount, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=f75a51fb50dc3adb94742c4c64ffb21053489ac2b79635f6907a6f2ba98e399f)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 Nebius gains as the so-called neocloud recently announced it would raise its on-demand rates for a range of AI chips.
 
 - **[These stocks are the most active in today's session](https://finnhub.io/api/news?id=dedfe38710995a682c638e976577ca6cad53eb6c9038f2b98fe6766db67847db)**  
-*ChartMill · 7h前*  
+*ChartMill · 19h前*  
 Curious about the most active stocks on Thursday? Find out which stocks are dominating the market action!
-
-- **[Jim Cramer Picks Nokia as AI Supercycle Winner While Dumping on BWX Technologies’ 30x Multiple](https://finnhub.io/api/news?id=d8cb8b872062639694becebf4a81815191ade7b7e492703073400cc0b55466ce)**  
-*Yahoo · 7h前*  
-Jim Cramer gave two nuclear and AI infrastructure plays completely opposite verdicts on the same night, and the reason comes down to a single number that separa…
 
 ---
 
@@ -59,4 +59,4 @@ Jim Cramer gave two nuclear and AI infrastructure plays completely opposite verd
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
