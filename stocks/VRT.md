@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-18 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Thursday's pre-market session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=79297d4ba8c67746e1ab4669964a024be87599dc02da183ce972a67432a4ae14)**  
-*ChartMill · 12h前*  
-Stay updated with the S&P500 stocks that are on the move in today's pre-market session.
+- **[AI Power Stocks Rally After Generac's Deal For Amazon Data Centers](https://finnhub.io/api/news?id=47b8ffbd43b1348fb8a614f37c0b76734d89a30aa3f202ddb2328352dbe1e2c2)**  
+*Yahoo · 15h前*  
+Generac's Amazon agreement spotlighted an emerging growth lever as the rapid buildout of data centers offsets sluggish demand for home standby generators. The n…
 
-- **[Eaton Sees Best Years Ahead as Data Center Demand Powers Growth](https://finnhub.io/api/news?id=b9d1b6a860fd0adf17f84f3e7f84dbbc14487011dafb47a72d4ced30d57f401e)**  
+- **[Should You Buy Vertiv Stock For Its Widening Margin Despite Delivery Doubts?](https://finnhub.io/api/news?id=5d2673d3deb97ec5e1d63b3995285f5d703dbab6c5b8dcb1eade821b6932491c)**  
 *Yahoo · 16h前*  
-Eaton (NYSE:ETN) Chief Executive Officer Paulo Ruiz told investors at Morgan Stanley’s Laguna Conference that the company’s strategy is gaining momentum, suppor…
+Vertiv (VRT) supplies the power and cooling systems inside AI data centers, and its stock sits near $240, about 64% of its 52-week high. It is still up about 73…
 
-- **[Zacks.com featured highlights DiamondRock, Vertiv, Mueller Water Products and Phibro](https://finnhub.io/api/news?id=fa4708416b7f383a123406b490efce57fd958434c14fdb7d0574d6e82a8d288a)**  
+- **[Jim Cramer Presses OpenAI CFO on AI Spending. 6 Stocks Are Riding on What Happens Next](https://finnhub.io/api/news?id=18d3bae4a7e7b37c2d5f7c7bfa79311120ac6c5f1d1d3ef67ced12d9da8dacf0)**  
 *Yahoo · 17h前*  
-DiamondRock, Vertiv, Mueller Water Products and Phibro have been highlighted in this Screen of The Week article.
+Jim Cramer put OpenAI's CFO on the spot about whether a safety-driven slowdown could pull the rug out from under billions in AI infrastructure spending, and her…
 
 ---
 
@@ -59,4 +59,4 @@ DiamondRock, Vertiv, Mueller Water Products and Phibro have been highlighted in 
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:04 HKT*
