@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$229.71** |
-| 今日變動 | ▲ $8.01　(+3.61%) |
+| 現價 | **$240.76** |
+| 今日變動 | ▲ $11.05　(+4.81%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $276　(▼10.7%) |
+| 未實現盈虧 | ▼ $165　(▼6.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $221.46 | — |
-| Put Wall（支撐） | $230.00 | --0.1% |
-| Call Wall（阻力） | $250.00 | +8.8% |
+| Gamma Flip | $221.80 | — |
+| Put Wall（支撐） | $240.00 | -0.3% |
+| Call Wall（阻力） | $250.00 | +3.8% |
 
 **狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Thursday's pre-market session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=79297d4ba8c67746e1ab4669964a024be87599dc02da183ce972a67432a4ae14)**  
-*ChartMill · 0h前*  
-Stay updated with the S&P500 stocks that are on the move in today's pre-market session.
+- **[SentinelOne, Marvell Technology, FormFactor, Teradyne, and Intel Shares Are Soaring, What You Need To Know](https://finnhub.io/api/news?id=ec32d4b972cb9c81180aef2eade52f128eb9cb44d3acf75b164d4f1f1cb01477)**  
+*Yahoo · 4h前*  
+A number of stocks jumped in the afternoon session after Treasury yields retreated below 5% and oil prices declined, sparking a recovery across growth-oriented …
 
-- **[Applied Materials vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=a875a189f64df299bbbda4b0f41c50dd16aad4fc3822ae54920318dff3e52d64)**  
-*Yahoo · 1h前*  
-Applied Materials trades at a forward P/E of 35 versus Marvell's 56, but one company's exposure to AI infrastructure spending carries distinctly different risks…
+- **[Generac, Nebius, CoreWeave, Nokia, Lucid, Paramount, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=f75a51fb50dc3adb94742c4c64ffb21053489ac2b79635f6907a6f2ba98e399f)**  
+*Yahoo · 4h前*  
+Nebius gains as the so-called neocloud recently announced it would raise its on-demand rates for a range of AI chips.
 
-- **[Marvell Technology Dropped By 25% in 3 Months: This Trusted Analyst Says 75% Returns Are Coming In The Next Year](https://finnhub.io/api/news?id=92ef61a28484e39e2b1664bc9dcdbe4fa2ae328dfdea03e51c6eb9aa4a7f7541)**  
-*Yahoo · 1h前*  
-Marvell's stock has cratered even as its AI data-center business posts record numbers and analysts pile on upgrades, and one KeyBanc analyst is drawing a very d…
+- **[Sector Update: Tech Stocks Gain Late Afternoon](https://finnhub.io/api/news?id=bcccdf179c83b497235ae40911b38019b4da1309e7e2f0a61277b52148969cfd)**  
+*Yahoo · 5h前*  
+Tech stocks were higher late Thursday afternoon, with the State Street Technology Select Sector SPDR
 
 ---
 
@@ -48,7 +48,7 @@ Marvell's stock has cratered even as its AI data-center business posts record nu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-17 | 監控 | $229.71 | — | 自動更新 |
+| 2026-09-18 | 監控 | $240.76 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Marvell's stock has cratered even as its AI data-center business posts record nu
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
