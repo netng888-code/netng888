@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$213.90** |
-| 今日變動 | ▲ $1.73　(+0.82%) |
+| 現價 | **$219.34** |
+| 今日變動 | ▲ $5.44　(+2.54%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $538　(▲33.6%) |
+| 未實現盈虧 | ▲ $592　(▲37.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $206.75 | — |
-| Put Wall（支撐） | $210.00 | -1.8% |
-| Call Wall（阻力） | $220.00 | +2.9% |
+| Gamma Flip | $208.03 | — |
+| Put Wall（支撐） | $200.00 | -8.8% |
+| Call Wall（阻力） | $220.00 | +0.3% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nvidia: An Article Focused On Facts, Not Feelings](https://finnhub.io/api/news?id=bef30ecd0fee9e54ba2343c5114d016bfe88ebe477d877d9a3f5a15c586840e0)**  
-*SeekingAlpha · 5h前*  
-Nvidia Corp. offers a compelling growth and value hybrid, trading at a significant discount to its historical P/E multiples. Click for this NVDA stock update.
+- **[Long-Term Treasury Yields Now Beat These Dividend Stalwarts. Is Government Debt the Top Passive-Income Play?](https://finnhub.io/api/news?id=2dacad2c494326505afdbdc69f9fdc1c013469a3788cb11b30bd65d3cfca8da0)**  
+*Yahoo · 1h前*  
+With new money ready to be allocated, income investors are faced with an important decision.
 
-- **[Baron Technology ETF Q2 2026 Portfolio Activity](https://finnhub.io/api/news?id=2060f1dc5634fc9da72bf9ffeb4876ff7a3069d6c509e72a00c7cd9c52e5fa85)**  
-*SeekingAlpha · 6h前*  
-As part of its record-breaking IPO, we acquired shares in Space Exploration Technologies Corp.
+- **[Why Generac Stock Soared Today](https://finnhub.io/api/news?id=03375cdefa167d9101123c7ca918e689e9c867849f4cc31ac78c3fd2f5b82690)**  
+*Yahoo · 1h前*  
+A long-term supply deal with an AI juggernaut has investors excited.
 
-- **[SpaceX's First Orbital Starship Flight Is Targeted for Sept. 22. Here's What's Riding on It for the Stock.](https://finnhub.io/api/news?id=11af245d6e439cc0c359d4d1f7d3f977b073ede0bc8982f1cec084ff166703ef)**  
-*Yahoo · 7h前*  
-Starship's 14th test flight would be its first try at orbit -- and its first with a payload that makes money.
+- **[Why CoreWeave Stock Dived by More Than 5% Today](https://finnhub.io/api/news?id=9b19d9d1e201e5374e49d8f7cc713275f5ad6985929fd8f4bb39fe84a29bfdd0)**  
+*Yahoo · 1h前*  
+It's launching not one, but two new fundraising efforts.
 
 ---
 
@@ -48,7 +48,7 @@ Starship's 14th test flight would be its first try at orbit -- and its first wit
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-17 | 監控 | $213.90 | — | 自動更新 |
+| 2026-09-18 | 監控 | $219.34 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Starship's 14th test flight would be its first try at orbit -- and its first wit
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-17 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
