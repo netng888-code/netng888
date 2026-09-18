@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir, Rocket Lab among biggest climbers in power ranking](https://finnhub.io/api/news?id=f88c44269c1b2100d165894d7451190f4628f77eb0c2046b06748822589425f6)**  
-*Yahoo · 2h前*  
-Palantir climbs 30 places and Rocket Lab 34 places in the Roundtable 100 this week.
+- **[2 Game-Changing AI Stocks That Can Plunge 48% and 54%, According to Select Wall Street Analysts](https://finnhub.io/api/news?id=98f7e3745d1731726d1dbcda9e2ff197478a1640a685c3baecaf83a7dd70be59)**  
+*Yahoo · 1h前*  
+Despite popular belief, optimism about the artificial intelligence (AI) revolution isn’t universal on Wall Street.
 
-- **[Michael Burry returns to a difficult corner of Wall Street](https://finnhub.io/api/news?id=eac772ec617011cbb5ef0de3118377485f1513f2afb40c8f228457ed1bcd0a31)**  
-*Yahoo · 2h前*  
-Burry is putting his bearish reputation back to work
+- **[Prediction: This Will Be Palantir's Stock Price 1 Year From Now (Hint: It's a Bigger Move Than You Think)](https://finnhub.io/api/news?id=670f81445074ae8ec03c7c9f162c7a32d5ad6a03cdc66b9238d98b74e74f9076)**  
+*Yahoo · 4h前*  
+Palantir stock is flat on the year, but meaningful upside could be on the horizon.
 
-- **['You’re Liable For Your Own Actions': Palantir CEO Alex Karp Opens a Third Front In The AI Safety Fight](https://finnhub.io/api/news?id=55f1640f22c6564f0369954a74cdf4599bed27c14273c5b537b4560f7be65a19)**  
-*Yahoo · 3h前*  
-Karp argues the push for oversight could be a bid for nationalization.
+- **[Forget Michael Burry's Short Thesis. Here's the Bull Case for Palantir He's Not Talking About.](https://finnhub.io/api/news?id=704dc0d3dce667bebdd87efaf9e42fe5dde16789bc3fcb7b012cc22ab39218c9)**  
+*Yahoo · 5h前*  
+The famous investor sees consulting-industry-like risks in Palantir, but several of the company's operating metrics tell a different story.
 
 ---
 
@@ -59,4 +59,4 @@ Karp argues the push for oversight could be a bid for nationalization.
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:04 HKT*
