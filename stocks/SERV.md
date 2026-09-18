@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-09-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$4.29** |
-| 今日變動 | ▼ $0.04　(-0.92%) |
+| 現價 | **$4.30** |
+| 今日變動 | ▲ $0.01　(+0.23%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $11.743 |
-| 未實現盈虧 | ▼ $224　(▼63.5%) |
+| 未實現盈虧 | ▼ $223　(▼63.4%) |
 
 ---
 
@@ -20,19 +20,17 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $4.35 | — |
-| Put Wall（支撐） | $4.00 | -6.8% |
-| Call Wall（阻力） | $5.00 | +16.6% |
+| Gamma Flip | $4.23 | — |
+| Put Wall（支撐） | $4.00 | -7.0% |
+| Call Wall（阻力） | $5.00 | +16.3% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Can Serve Robotics' Beacon Overcome Restaurant Integration Barriers?](https://finnhub.io/api/news?id=cdfeced7212ad87a6d6839f0b0e436c906d1661295e81f3a5ec43ef06c4bab15)**  
-*Yahoo · 2d前*  
-Can Beacon help SERV break restaurant integration barriers and unlock more delivery orders as it expands direct merchant access?
+- 暫無新聞
 
 ---
 
@@ -40,7 +38,7 @@ Can Beacon help SERV break restaurant integration barriers and unlock more deliv
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-17 | 監控 | $4.29 | — | 自動更新 |
+| 2026-09-18 | 監控 | $4.30 | — | 自動更新 |
 
 ---
 
@@ -51,4 +49,4 @@ Can Beacon help SERV break restaurant integration barriers and unlock more deliv
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 09:05 HKT*
