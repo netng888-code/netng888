@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$35.62** |
-| 今日變動 | ▼ $0.36　(-1.00%) |
-| 持倉數量 | 20 股 |
-| 平均成本 | $21.067 |
-| 未實現盈虧 | ▲ $291　(▲69.1%) |
+| 現價 | **$39.65** |
+| 今日變動 | ▲ $4.03　(+11.31%) |
+| 持倉數量 | 40 股 |
+| 平均成本 | $30.059 |
+| 未實現盈虧 | ▲ $384　(▲31.9%) |
 
 ---
 
@@ -20,11 +20,11 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $38.25 | — |
-| Put Wall（支撐） | $35.00 | -1.7% |
-| Call Wall（阻力） | $45.00 | +26.3% |
+| Gamma Flip | $37.87 | — |
+| Put Wall（支撐） | $35.00 | -11.7% |
+| Call Wall（阻力） | $45.00 | +13.5% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
@@ -39,7 +39,7 @@ Oklo's future relies on the viability of SMRs in general.
 SMR stocks have struggled in 2026.
 
 - **[Europe Bets Big on Small Modular Reactors. Here's How NuScale Power and Oklo Will Benefit.](https://finnhub.io/api/news?id=c9d7d54b98f07e2a3a23d7a27ff0b2a05b550c33badd1eb2bcf6b71fe60c5986)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 The European Investment Bank is ramping up investment in small modular nuclear reactors, or SMRs.
 
 ---
@@ -48,7 +48,7 @@ The European Investment Bank is ramping up investment in small modular nuclear r
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-17 | 監控 | $35.62 | — | 自動更新 |
+| 2026-09-18 | 監控 | $39.65 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The European Investment Bank is ramping up investment in small modular nuclear r
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
