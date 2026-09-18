@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Non-Tech Stocks Can Still Deliver Huge Gains](https://finnhub.io/api/news?id=3128336e6444f9f2b8508632a417e486bd162c24384db7b8675771ef33939118)**  
-*Yahoo · 0h前*  
-Perhaps to the surprise of some, a few non-technology companies have seen wildly strong performances YTD, with their lower-beta nature providing a nice shield a…
-
-- **[Meta (META) Hands its New AI Agent the Keys to Your Inbox and Wallet](https://finnhub.io/api/news?id=221e2bb929d58aac38e27f7491ec6960e5ffe5ef60963948a6a209fc7ea3fa4f)**  
+- **[Manus Eyes $4 Billion Valuation in First Round Since Beijing Forced Meta to Walk Away](https://finnhub.io/api/news?id=44d952d0d9094d6052dbfdbdeb9c70a58788b9c27e06f3fd7f76808b762315a1)**  
 *Yahoo · 1h前*  
-On September 9, 2026, Reuters reported that Meta Platforms, Inc. (NASDAQ:META) rolled out Muse, a long-touted AI agent that can autonomously send emails, sell a…
+Manus AI is in discussions to raise $500 million at a $4 billion valuation, which would make it China’s most valuable autonomous agent startup. The round is not…
 
-- **[$500,000 Split Between VOO and QQQ Owns the Same Seven Stocks Twice, and Nobody Adds Up the Overlap](https://finnhub.io/api/news?id=0b898181b02e65154129436a08b5bb0389fde70af88bb2ffb900070c12263f51)**  
-*Yahoo · 2h前*  
-Splitting a half-million dollars between two popular ETFs feels like textbook diversification, but a quiet look under the hood reveals something most investors …
+- **[Meta Vs. Oracle: The Laggards of AI Capex Payback Velocity](https://finnhub.io/api/news?id=ba3b7bc83aba24868f837ac223c7c588f138e08f6cb62dea4bdef74a9dd5b190)**  
+*Yahoo · 1h前*  
+Oracle is sitting on a $664 billion backlog while Meta just watched its free cash flow crater by more than 90%, yet both companies are pouring tens of billions …
+
+- **[Meta: Buy The Muse Catalyst, But Watch The AI Bill](https://finnhub.io/api/news?id=2491b3c6ba7e4119527595ad9dd44b2835963e4456ec1f82d8a9c10af5290803)**  
+*SeekingAlpha · 4h前*  
+Meta Platforms, Inc. Buy rating: Q2 FY2026 revenue up 28% YoY as AI boosts ad performance and consumer AI emerges. Click for this META update.
 
 ---
 
@@ -59,4 +59,4 @@ Splitting a half-million dollars between two popular ETFs feels like textbook di
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
