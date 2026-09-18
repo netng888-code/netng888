@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[SentinelOne, Marvell Technology, FormFactor, Teradyne, and Intel Shares Are Soaring, What You Need To Know](https://finnhub.io/api/news?id=ec32d4b972cb9c81180aef2eade52f128eb9cb44d3acf75b164d4f1f1cb01477)**  
+*Yahoo · 16h前*  
+A number of stocks jumped in the afternoon session after Treasury yields retreated below 5% and oil prices declined, sparking a recovery across growth-oriented …
+
 - **[Thursday's pre-market session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=79297d4ba8c67746e1ab4669964a024be87599dc02da183ce972a67432a4ae14)**  
-*ChartMill · 12h前*  
+*ChartMill · 1d前*  
 Stay updated with the S&P500 stocks that are on the move in today's pre-market session.
 
 - **[Teradyne (TER) Advances While Market Declines: Some Information for Investors](https://finnhub.io/api/news?id=2c6dc330d873ceb6100127e9df910cea68c2254e20e7f73ccd58e4faef716340)**  
 *Yahoo · 1d前*  
 The latest trading day saw Teradyne (TER) settling at $340.69, representing a +2.36% change from its previous close.
-
-- **[ASX vs. TER: Which AI Semiconductor Stock Should You Buy Right Now?](https://finnhub.io/api/news?id=224068d520b742aa337d2cb860be82b82479465dca5921713dce90147ca053e4)**  
-*Yahoo · 1d前*  
-Teradyne's AI-driven test growth and stronger earnings momentum give it an edge over ASE Technology's capacity execution and EMS margin risks.
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne's AI-driven test growth and stronger earnings momentum give it an edge 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
