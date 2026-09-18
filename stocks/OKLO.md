@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Don't Buy Oklo Stock Until This Catalyst Hits](https://finnhub.io/api/news?id=84f665d9dff6484f3d1888f8ccb6846a7af25dd614d555d0132de06eb568e63b)**  
-*Yahoo · 1d前*  
-Oklo's future relies on the viability of SMRs in general.
+- **[House Data Center Power Bill Lifts Nuclear Stocks: Here's Why](https://finnhub.io/api/news?id=45e5db6d9bf0c78438f94f6348c46c81326f767edded1e008030d1f0a814c4a3)**  
+*Yahoo · 1h前*  
+OKLO, SMR and NNE surged after a House bill shifted data-center power costs toward operators, spotlighting advanced nuclear as dedicated supply.
 
-- **[Oklo Just Hit a 70-Week Low. Here's My Investing Reaction.](https://finnhub.io/api/news?id=51831c176ed78ab94c8112518e77705140f26468ff3b1f9307821451fb2f5d3c)**  
-*Yahoo · 1d前*  
-SMR stocks have struggled in 2026.
+- **[The Anthropic IPO Could Be Bigger Than SpaceX. Here's What That Means for Vistra, Bloom Energy, and Oklo.](https://finnhub.io/api/news?id=43486c87606c085b6e407e31f48b4c26527b3fc482d5f4b3a5f8cae3e4a52c7b)**  
+*Yahoo · 2h前*  
+Spending from the AI giant could flow through nicely to electric power providers.
 
-- **[Europe Bets Big on Small Modular Reactors. Here's How NuScale Power and Oklo Will Benefit.](https://finnhub.io/api/news?id=c9d7d54b98f07e2a3a23d7a27ff0b2a05b550c33badd1eb2bcf6b71fe60c5986)**  
-*Yahoo · 2d前*  
-The European Investment Bank is ramping up investment in small modular nuclear reactors, or SMRs.
+- **[Why Did Nuclear Stocks OKLO, SMR, NNE, LEU, XE Jump On Thursday?](https://finnhub.io/api/news?id=a4d2fade4c908a809e6331df05a86e4ac0d1a956c7cb558a349ab173badff376)**  
+*Yahoo · 11h前*  
+Nuclear stocks jumped after the House passed the Ratepayers Protection Act, which aims to shift responsibility for paying for power upgrades from consumers to t…
 
 ---
 
@@ -59,4 +59,4 @@ The European Investment Bank is ramping up investment in small modular nuclear r
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:04 HKT*
