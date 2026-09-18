@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.79** |
-| 今日變動 | ▲ $0.04　(+0.37%) |
+| 現價 | **$11.55** |
+| 今日變動 | ▲ $0.76　(+7.04%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $194　(▼31.1%) |
+| 未實現盈虧 | ▼ $164　(▼26.2%) |
 
 ---
 
@@ -20,11 +20,11 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.90 | — |
-| Put Wall（支撐） | $11.00 | --1.9% |
-| Call Wall（阻力） | $12.00 | +11.2% |
+| Gamma Flip | $9.98 | — |
+| Put Wall（支撐） | $11.00 | -4.8% |
+| Call Wall（阻力） | $12.00 | +3.9% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
@@ -48,7 +48,7 @@ Golden Dome’s space-based interceptor program reached “flight-ready hardware
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-17 | 監控 | $10.79 | — | 自動更新 |
+| 2026-09-18 | 監控 | $11.55 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Golden Dome’s space-based interceptor program reached “flight-ready hardware
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
