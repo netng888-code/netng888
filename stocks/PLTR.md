@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$174.34** |
-| 今日變動 | ▲ $1.78　(+1.03%) |
+| 現價 | **$176.24** |
+| 今日變動 | ▲ $1.90　(+1.09%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $350　(▲40.2%) |
+| 未實現盈虧 | ▲ $363　(▲41.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $163.78 | — |
-| Put Wall（支撐） | $170.00 | -2.5% |
-| Call Wall（阻力） | $180.00 | +3.2% |
+| Gamma Flip | $165.56 | — |
+| Put Wall（支撐） | $170.00 | -3.5% |
+| Call Wall（阻力） | $180.00 | +2.1% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[CMG Stock Ticks Up On AI Food Safety Bet With Palantir: Retail Bullish On ‘Ontological Burritos'](https://finnhub.io/api/news?id=5d8d069475dec364439dd0392f8cb3487c2ec7b8652f5ae48893d54afbf9ada4)**  
-*Yahoo · 9h前*  
-Chipotle is adding AI-driven analytics to food safety as outbreaks, supply chain risks pressure industry.
+- **[Palantir, Rocket Lab among biggest climbers in power ranking](https://finnhub.io/api/news?id=f88c44269c1b2100d165894d7451190f4628f77eb0c2046b06748822589425f6)**  
+*Yahoo · 2h前*  
+Palantir climbs 30 places and Rocket Lab 34 places in the Roundtable 100 this week.
 
-- **[Nebius Group (NBIS) Is Down 12.9% After Becoming Palantir’s Preferred Sovereign AI Cloud Partner – Has The Bull Case Changed?](https://finnhub.io/api/news?id=c9ac88a8980c3cffa2dd992c74927f5cb2b9679287d0b947aff53ac48ee9a336)**  
-*Yahoo · 11h前*  
-On 8 September 2026, Palantir Technologies and Nebius Group announced a partnership making Nebius Palantir's preferred sovereign AI infrastructure provider, int…
+- **[Michael Burry returns to a difficult corner of Wall Street](https://finnhub.io/api/news?id=eac772ec617011cbb5ef0de3118377485f1513f2afb40c8f228457ed1bcd0a31)**  
+*Yahoo · 2h前*  
+Burry is putting his bearish reputation back to work
 
-- **[Palantir Technologies (PLTR) Tightens Rules On External Generative AI Models](https://finnhub.io/api/news?id=89697c3f6269299f9a5a4ce4f42875e85f9c3e6fee4925b6bdf263721880e21a)**  
-*Yahoo · 14h前*  
-Palantir Technologies (NasdaqGS:PLTR) has tightened rules on advanced generative AI, curbing use of OpenAI and Anthropic models across its platforms. Alongside …
+- **['You’re Liable For Your Own Actions': Palantir CEO Alex Karp Opens a Third Front In The AI Safety Fight](https://finnhub.io/api/news?id=55f1640f22c6564f0369954a74cdf4599bed27c14273c5b537b4560f7be65a19)**  
+*Yahoo · 3h前*  
+Karp argues the push for oversight could be a bid for nationalization.
 
 ---
 
@@ -48,7 +48,7 @@ Palantir Technologies (NasdaqGS:PLTR) has tightened rules on advanced generative
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-17 | 監控 | $174.34 | — | 自動更新 |
+| 2026-09-18 | 監控 | $176.24 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies (NasdaqGS:PLTR) has tightened rules on advanced generative
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
