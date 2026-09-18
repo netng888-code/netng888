@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-18 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,13 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Centrus and Antares Sign Multi-Year HALEU Supply Contract](https://finnhub.io/api/news?id=4eefffe7d56f28cbd77b07a4d79d1d4c8b1f7a3bf23a01827528a78e9ad14514)**  
-*Yahoo · 14h前*  
-Centrus Energy (NYSE: LEU) and Antares Nuclear today announced the signing of a definitive multi-year contract for Centrus to supply Antares with High-Assay Low…
+- **[Why Did Nuclear Stocks OKLO, SMR, NNE, LEU, XE Jump On Thursday?](https://finnhub.io/api/news?id=a4d2fade4c908a809e6331df05a86e4ac0d1a956c7cb558a349ab173badff376)**  
+*Yahoo · 11h前*  
+Nuclear stocks jumped after the House passed the Ratepayers Protection Act, which aims to shift responsibility for paying for power upgrades from consumers to t…
 
-- **[New Momentum In The Nuclear Fuel Chain](https://finnhub.io/api/news?id=b645b7b561f6fc0f27b3b9e6ce790db1a7ac64967928b6e40bf3f62a2ed20f6c)**  
-*SeekingAlpha · 2d前*  
-The nuclear renaissance requires a fuel chain that can support the ambitions of reactor development companies. In recent weeks, the nuclear fuel chain has shown…
+- **[Why Is Centrus Energy (LEU) Stock Soaring Today](https://finnhub.io/api/news?id=603e367166d6d66f20048311efb39e5ce548708fc256110a677bd4dd7c9e9b6d)**  
+*Yahoo · 14h前*  
+Shares of nuclear fuel supplier Centrus Energy (NYSE:LEU) jumped 7.1% in the afternoon session after the company and Antares Nuclear announced a definitive mult…
+
+- **[Centrus and Antares Sign Multi-Year HALEU Supply Contract](https://finnhub.io/api/news?id=4eefffe7d56f28cbd77b07a4d79d1d4c8b1f7a3bf23a01827528a78e9ad14514)**  
+*Yahoo · 1d前*  
+Centrus Energy (NYSE: LEU) and Antares Nuclear today announced the signing of a definitive multi-year contract for Centrus to supply Antares with High-Assay Low…
 
 ---
 
@@ -55,4 +59,4 @@ The nuclear renaissance requires a fuel chain that can support the ambitions of 
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:04 HKT*
