@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-18 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Investors Want to Know When Broadcom’s Custom Hyperscaler Chips Will Move Share Prices](https://finnhub.io/api/news?id=a729b9ee706afbcfbb75d7af45b2d3f8ab29cb4b211da9d5f3733bd2ffcd4109)**  
-*Yahoo · 12h前*  
-Broadcom's AI chip orders are tripling while the stock keeps sliding, and investors are stuck debating whether the business has already won or whether the harde…
+- **[AI Chips Update - BrainChip Expands Edge AI Capabilities With New Development Card](https://finnhub.io/api/news?id=f814dbddfddf2d2d25e38b07ccd46ac49c1f2c9eac310fa273678ff00fe79bc9)**  
+*Yahoo · 1h前*  
+BrainChip Holdings Ltd. has launched the AKD1500 PCIe development card, designed to facilitate edge AI evaluation by enabling installation in standard PCIe slot…
 
-- **[Despite Hype, Broadcom Keeps Edging Sideways and Down: This Wall Street Analyst Says It Will Provide 75% Returns Soon](https://finnhub.io/api/news?id=618e749b92ba5ebb35884d35db4870ba5fae1d641a26a90fff36a3aa04717064)**  
-*Yahoo · 12h前*  
-Broadcom just posted its ninth consecutive earnings beat and guided AI revenue up 236% year-on-year, yet the stock keeps sliding while the rest of the sector ho…
+- **[Broadcom (NASDAQ:AVGO): A Compelling Affordable Growth Story With Elite Expansion and Reasonable Forward Valuation](https://finnhub.io/api/news?id=add6428a1670d10b32e52aafe7601334cb2dc30332e3dbd7d3e6179a1f064581)**  
+*ChartMill · 3h前*  
+Broadcom (AVGO) earns 8/10 for affordable growth, with elite growth, strong profitability, and a reasonable forward valuation for investors.
 
-- **[Marvell Technology Dropped By 25% in 3 Months: This Trusted Analyst Says 75% Returns Are Coming In The Next Year](https://finnhub.io/api/news?id=92ef61a28484e39e2b1664bc9dcdbe4fa2ae328dfdea03e51c6eb9aa4a7f7541)**  
-*Yahoo · 13h前*  
-Marvell's stock has cratered even as its AI data-center business posts record numbers and analysts pile on upgrades, and one KeyBanc analyst is drawing a very d…
+- **[Nvidia vs. Broadcom: Whose AI Revenue Actually Grows Faster From Here?](https://finnhub.io/api/news?id=12a943c49b0c41542e6110b5907bd643716ff95df92c7be7cfdba4c415d5c29d)**  
+*Yahoo · 4h前*  
+Broadcom has higher AI revenue growth projections, but Nvidia's larger and more diversified business could make its growth more durable.
 
 ---
 
@@ -59,4 +59,4 @@ Marvell's stock has cratered even as its AI data-center business posts record nu
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
