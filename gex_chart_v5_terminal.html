@@ -556,13 +556,36 @@
        fetchCalSnapshotBatch()喺batch(4)攞GEX/Money Flow嗰陣一齊
        攞（同一套「單一OpenQuoteContext唔宜太多thread同時撞」
        審慎原則，Finnhub部分理論上可以並行但冇必要爭嗰幾秒）。
+  v5.28（2026-09-19）：持倉更新：GOOGL加倉4股@$350.00（12→16股，成本
+    加權至$221.30）。PORTFOLIO object同步更新，其餘四檔（CSV／
+    index.html／telegram_bot.py／github_gex_updater.py）跟返五檔
+    同步規則一併處理。
+  v5.29（2026-09-19 續）：用戶截圖反映「持倉總覽」table太迫——
+    v5.26/v5.27加咗嘅5個基本面欄（P/E TTM／EPS TTM／Div Yield／
+    EPS Growth YoY／Sector）令table總欄數去到17欄，橫向scroll去到
+    尾嗰陣「代碼」欄已經飄出畫面（截圖第2張），完全睇唔到嗰行係
+    邊隻股票；截圖第3張「到期日曆」tab嘅「持倉快照」cell（多個
+    指標擠入一個靠左對齊、細字換行嘅欄）反而冇呢個問題，用戶
+    提出跟返呢個設計。
+    修正兩步：
+    (1) 新增fundCellHtml()，將P/E／EPS／Div／Growth／Sector合併
+        做一個「基本面」欄（兩行：「P/E · EPS · Div」／「Growth ·
+        Sector」），renderUS()嘅table由17欄減至13欄，跟返「到期
+        日曆」tab已經驗證好用嘅設計，唔使重複開發新pattern。
+    (2) 新增CSS令table第一欄（代碼）sticky凍結（position:sticky;
+        left:0），唔理點樣橫向scroll都留喺畫面最左，唔使再淨係
+        靠「減欄數」嚟解決——兩者係互補而唔係二選一：日後即使
+        再加返欄位，都仍然睇得到邊行係邊隻股票。thead／tbody／
+        hover／total-row四種狀態分別設定實色背景（tbody用linear-
+        gradient將半透明row背景「烘焙」做實色composite），避免
+        sticky個cell同隔籬欄斷色或者露出底下捲動緊嘅內容。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.27)</title>
+<title>GEX Chart — Futu Bridge (v5.29)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -914,6 +937,20 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .tbl-wrap tbody tr.total-row{background:rgba(0,212,170,.04);font-weight:600;}
 .tbl-wrap td{padding:9px 12px;text-align:right;white-space:nowrap;font-feature-settings:'tnum';}
 .tbl-wrap td:first-child,.tbl-wrap td:nth-child(2){text-align:left;}
+/* v5.29新增：凍結（sticky）第一欄「代碼」——用戶截圖反映「持倉總覽」
+   table欄數多（17欄），橫向scroll去到尾嗰陣「代碼」欄已經飄出畫面，
+   完全睇唔到嗰行係邊隻股票。淨係freeze第一欄（唔連「名稱」），
+   left:0企定唔郁，其餘欄位正常隨橫向scroll移動。
+   背景色處理：sticky cell本身要有實色背景先唔會俾底下捲動緊嘅
+   內容透出嚟；thead用返同一個var(--bg3)，tbody預設用linear-
+   gradient疊一層透明色喺實色var(--bg2)之上（等於將row原本嗰種
+   半透明rgba背景「烘焙」成一個唔透明嘅composite顏色），hover／
+   total-row兩個狀態同樣做法，確保sticky個掣唔會同隔籬欄斷色。
+   右邊加一條幼陰影同scroll緊嘅內容做視覺分隔。 */
+.tbl-wrap thead th:first-child{position:sticky;left:0;z-index:3;background:var(--bg3);box-shadow:2px 0 4px -2px rgba(0,0,0,.15);}
+.tbl-wrap tbody td:first-child{position:sticky;left:0;z-index:1;background:var(--bg2);box-shadow:2px 0 4px -2px rgba(0,0,0,.15);}
+.tbl-wrap tbody tr:hover td:first-child{background:linear-gradient(rgba(0,0,0,.04),rgba(0,0,0,.04)),var(--bg2);}
+.tbl-wrap tbody tr.total-row td:first-child{background:linear-gradient(rgba(0,212,170,.04),rgba(0,212,170,.04)),var(--bg2);}
 .sym{font-weight:700;color:var(--blue);cursor:pointer;}
 .sym:hover{color:var(--accent);}
 .t1-cell{font-weight:600;color:#0f172a;}
@@ -1566,7 +1603,7 @@ buildQuicklinks();
 // holdings_US_20260706.csv 最新數字修正咗MU（2→1股，7/2有部分賣出）
 // 同NOK（100@13.50→150@13.167，之前個file漏咗一次加倉）
 const PORTFOLIO = {
-  'GOOGL':{qty:12,  cost:178.40  },
+  'GOOGL':{qty:16,  cost:221.30  },
   'NVDA': {qty:20,  cost:189.0625},
   'AVGO': {qty:10,  cost:378.602 },
   'MRVL': {qty:10,  cost:257.303 },
@@ -1807,6 +1844,31 @@ function fmtFund(sym, r) {
   return {peTxt, epsTxt, divTxt, growthTxt, sectorTxt};
 }
 
+// v5.29新增：將fmtFund()嘅5個獨立欄位（P/E TTM／EPS TTM／Div Yield
+// TTM／EPS Growth YoY／Sector）合併做一個多行顯示嘅「基本面」cell，
+// 俾「持倉總覽」table用——背景：用戶截圖反映v5.26/v5.27分開5欄
+// display之後，table總欄數（代碼/名稱/持股/T1/T2/T3/成本價/市值/
+// 未實盈虧/未實%/今日盈虧/P-E/EPS/Div/Growth/Sector/操作＝17欄）
+// 太多，橫向scroll好遠先睇到後面欄位，向右拉到尾嗰陣「代碼」欄
+// 已經飄出畫面，完全睇唔到究竟嗰行係邊隻股票。跟返「到期日曆」
+// tab嘅「持倉快照」cell（calSnapshotCellHtml()）同一設計原則——
+// 多個指標擠入一個靠左對齊、細字、可換行嘅cell，唔使逐個開獨立
+// 欄位，大幅收窄table總闊度。
+function fundCellHtml(fund) {
+  const line1Parts = [];
+  if (fund.peTxt !== '—')  line1Parts.push(`P/E ${fund.peTxt}`);
+  if (fund.epsTxt !== '—') line1Parts.push(`EPS ${fund.epsTxt}`);
+  if (fund.divTxt !== '—') line1Parts.push(`Div ${fund.divTxt}`);
+  const line1 = line1Parts.length ? line1Parts.join(' · ') : '—';
+
+  const line2Parts = [];
+  if (fund.growthTxt !== '—') line2Parts.push(`Growth ${fund.growthTxt}`);
+  if (fund.sectorTxt !== '—') line2Parts.push(fund.sectorTxt);
+  const line2 = line2Parts.join(' · ');
+
+  return line2 ? `${line1}<br>${line2}` : line1;
+}
+
 async function loadFundamentals() {
   try {
     // 基本面數據一日先變一次，backend（futu_bridge_v2.py v3.13）
@@ -1881,9 +1943,7 @@ function renderUS(rows) {
     <th style="min-width:100px">T3 前日收盤<br><span style="font-size:8px;color:var(--muted)">不變，每天一次</span></th>
     <th>成本價</th><th>市值 (USD)</th><th>未實現盈虧</th><th>未實 %</th>
     <th>今日盈虧<br><span style="font-size:8px;color:var(--muted)">(T1−T2)×持股</span></th>
-    <th>P/E TTM</th><th>EPS TTM</th><th>Div Yield</th>
-    <th>EPS Growth<br><span style="font-size:8px;color:var(--muted)">YoY</span></th>
-    <th>Sector</th>
+    <th style="text-align:left;min-width:190px">基本面<br><span style="font-size:8px;color:var(--muted)">P/E・EPS・Div・Growth・Sector</span></th>
     <th>操作</th>
   </tr></thead><tbody>`;
 
@@ -1946,11 +2006,7 @@ function renderUS(rows) {
       <td class="${uCls==='pos'?'pnl-pos':uCls==='neg'?'pnl-neg':'pnl-neu'}">${fm(unrealized)}</td>
       <td><span class="pct-badge ${uCls}">${unrPct>=0?'+':''}${unrPct.toFixed(2)}%</span></td>
       <td class="td-pnl ${tCls==='pos'?'pnl-pos':tCls==='neg'?'pnl-neg':'pnl-neu'}">${fm(todayPnl)}</td>
-      <td class="cost-cell">${fund.peTxt}</td>
-      <td class="cost-cell">${fund.epsTxt}</td>
-      <td class="cost-cell">${fund.divTxt}</td>
-      <td>${fund.growthTxt}</td>
-      <td>${fund.sectorTxt}</td>
+      <td style="text-align:left;font-size:11px;line-height:1.6;white-space:normal;color:var(--muted)">${fundCellHtml(fund)}</td>
       <td><div class="act">
         <button class="lnk" onclick="openTV('${sym}')">📈</button>
         <a class="lnk" href="https://finviz.com/quote.ashx?t=${sym}" target="_blank">FV</a>
@@ -1969,7 +2025,7 @@ function renderUS(rows) {
     <td class="${tunrCls==='pos'?'pnl-pos':'pnl-neg'}" style="font-weight:700">${fm(totalPNL)}</td>
     <td><span class="pct-badge ${tunrCls}">${totalUnrPct>=0?'+':''}${totalUnrPct.toFixed(2)}%</span></td>
     <td class="${ttdCls==='pos'?'pnl-pos':'pnl-neg'}" style="font-weight:700">${fm(totalTD)}</td>
-    <td></td><td></td><td></td><td></td><td></td>
+    <td></td>
     <td></td>
   </tr>`;
   html += '</tbody></table></div>';
