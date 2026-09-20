@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>倉頡碼查詢與拆字學習 | Cangjie Lookup & Learning</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        cangjie: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        brand: {
+                            blue: '#3b82f6',
+                            purple: '#8b5cf6',
+                            amber: '#f59e0b',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom scrollbar & visual glows */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .dark ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(156, 163, 175, 0.5);
+            border-radius: 9999px;
+        }
+        .key-active {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 0 15px rgba(34, 197, 94, 0.8), 0 0 5px rgba(34, 197, 94, 0.5);
+        }
+        .glow-card {
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glow-card:hover {
+            box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.15), 0 8px 10px -6px rgba(59, 130, 246, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-screen flex flex-col font-sans transition-colors duration-300">
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-40 backdrop-blur-md bg-white/80 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800 transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-emerald-500/20">
+                    倉
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg sm:text-xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 dark:from-emerald-400 dark:via-teal-300 dark:to-cyan-400">
+                        倉頡碼查詢與拆字學堂
+                    </h1>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">Cangjie Lookup & Code Decomposition Guide</p>
+                </div>
+            </div>
+
+            <!-- Header Right Controls -->
+            <div class="flex items-center gap-2 sm:gap-3">
+                <button id="rulesModalBtn" class="px-3 py-1.5 text-xs sm:text-sm font-medium rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition flex items-center gap-1.5 shadow-sm">
+                    <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    <span>取碼口訣與規則</span>
+                </button>
+                <button id="themeToggle" class="p-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 transition shadow-sm" aria-label="Toggle Theme">
+                    <svg id="sunIcon" class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    <svg id="moonIcon" class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col gap-8">
+
+        <!-- Search Hero Section -->
+        <section class="flex flex-col items-center justify-center text-center max-w-3xl mx-auto w-full pt-2 sm:pt-6">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-2">
+                即時漢字倉頡碼拆解查詢
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 dark:text-slate-400 mb-6">
+                輸入單字或多個漢字，即時查看倉頡字母、英文字母、速成碼及輔助字形說明
+            </p>
+
+            <!-- Search Input Box -->
+            <div class="relative w-full max-w-2xl group">
+                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400 group-focus-within:text-emerald-500 transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </div>
+                <input type="text" id="searchInput" placeholder="輸入漢字 (例如：倉頡學習中文字...)" 
+                    class="w-full pl-12 pr-12 py-3.5 sm:py-4 text-lg sm:text-xl rounded-2xl border-2 border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 dark:focus:border-emerald-500 shadow-xl shadow-slate-200/50 dark:shadow-none transition-all">
+                <button id="clearSearchBtn" class="absolute inset-y-0 right-0 pr-4 flex items-center text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hidden transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+
+            <!-- Search History Chips & Sample Suggestions -->
+            <div class="w-full mt-4 flex flex-wrap items-center justify-center gap-2 text-xs text-slate-500 dark:text-slate-400">
+                <span class="font-medium text-slate-600 dark:text-slate-300">熱門試試：</span>
+                <div id="sampleChips" class="flex flex-wrap gap-1.5">
+                    <!-- Javascript populated standard sample chars -->
+                </div>
+            </div>
+
+            <div id="historyContainer" class="w-full mt-2 hidden flex items-center justify-center gap-2 text-xs">
+                <span class="font-medium text-slate-400">歷史記錄：</span>
+                <div id="historyChips" class="flex flex-wrap gap-1.5"></div>
+                <button id="clearHistoryBtn" class="text-slate-400 hover:text-red-500 underline ml-1">清除</button>
+            </div>
+        </section>
+
+        <!-- Main Grid Area: Cards + Virtual Keyboard -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+
+            <!-- Left / Top Column: Character Cards Display (7 Cols on desktop) -->
+            <div class="lg:col-span-7 flex flex-col gap-6">
+                <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3">
+                    <h3 class="font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2 text-lg">
+                        <svg class="w-5 h-5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        查詢拆解結果 
+                        <span id="resultCountBadge" class="ml-2 px-2.5 py-0.5 text-xs font-semibold rounded-full bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300">0 字</span>
+                    </h3>
+                    <div class="text-xs text-slate-400">
+                        * 滑鼠移至倉頡碼可高亮下方虛擬鍵盤
+                    </div>
+                </div>
+
+                <!-- Result Cards Container -->
+                <div id="resultsGrid" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- Cards will be dynamically injected here -->
+                </div>
+
+                <!-- Empty / Fallback State -->
+                <div id="emptyState" class="p-8 text-center bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col items-center justify-center">
+                    <div class="w-16 h-16 mb-4 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-400">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    </div>
+                    <h4 class="font-bold text-slate-700 dark:text-slate-300 text-lg mb-1">準備好開始查詢了嗎？</h4>
+                    <p class="text-sm text-slate-500 dark:text-slate-400 max-w-md">在上方搜尋框輸入任意漢字，或點選上方熱門字詞範例，即可即時查看倉頡碼與鍵盤對照。</p>
+                </div>
+            </div>
+
+            <!-- Right / Bottom Column: Virtual Keyboard & Category Guide (5 Cols on desktop) -->
+            <div class="lg:col-span-5 flex flex-col gap-6 sticky top-20">
+                
+                <!-- Interactive Cangjie Keyboard Card -->
+                <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 sm:p-5 shadow-lg shadow-slate-200/50 dark:shadow-none">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="font-bold text-slate-900 dark:text-slate-100 text-base flex items-center gap-2">
+                            <svg class="w-5 h-5 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V5l12-2v12M9 17l12-2M9 17H5a2 2 0 01-2-2V7a2 2 0 012-2h4m12 0a2 2 0 012 2v8a2 2 0 01-2 2h-4"></path></svg>
+                            互動式倉頡鍵盤對照
+                        </h3>
+                        <span class="text-xs px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400">QWERTY 佈局</span>
+                    </div>
+
+                    <!-- Keyboard Grid Container -->
+                    <div id="keyboard" class="flex flex-col gap-1.5 select-none bg-slate-100 dark:bg-slate-950 p-2 sm:p-3 rounded-xl border border-slate-200 dark:border-slate-800">
+                        <!-- Row 1 -->
+                        <div class="flex justify-center gap-1 sm:gap-1.5">
+                            <div data-key="Q" class="key-btn">Q<span class="key-radical">手</span></div>
+                            <div data-key="W" class="key-btn">W<span class="key-radical">田</span></div>
+                            <div data-key="E" class="key-btn">E<span class="key-radical">水</span></div>
+                            <div data-key="R" class="key-btn">R<span class="key-radical">口</span></div>
+                            <div data-key="T" class="key-btn">T<span class="key-radical">廿</span></div>
+                            <div data-key="Y" class="key-btn">Y<span class="key-radical">卜</span></div>
+                            <div data-key="U" class="key-btn">U<span class="key-radical">山</span></div>
+                            <div data-key="I" class="key-btn">I<span class="key-radical">戈</span></div>
+                            <div data-key="O" class="key-btn">O<span class="key-radical">人</span></div>
+                            <div data-key="P" class="key-btn">P<span class="key-radical">心</span></div>
+                        </div>
+                        <!-- Row 2 -->
+                        <div class="flex justify-center gap-1 sm:gap-1.5 pl-2 sm:pl-3">
+                            <div data-key="A" class="key-btn">A<span class="key-radical">日</span></div>
+                            <div data-key="S" class="key-btn">S<span class="key-radical">尸</span></div>
+                            <div data-key="D" class="key-btn">D<span class="key-radical">木</span></div>
+                            <div data-key="F" class="key-btn">F<span class="key-radical">火</span></div>
+                            <div data-key="G" class="key-btn">G<span class="key-radical">土</span></div>
+                            <div data-key="H" class="key-btn">H<span class="key-radical">竹</span></div>
+                            <div data-key="J" class="key-btn">J<span class="key-radical">十</span></div>
+                            <div data-key="K" class="key-btn">K<span class="key-radical">大</span></div>
+                            <div data-key="L" class="key-btn">L<span class="key-radical">中</span></div>
+                        </div>
+                        <!-- Row 3 -->
+                        <div class="flex justify-center gap-1 sm:gap-1.5 pl-4 sm:pl-6">
+                            <div data-key="Z" class="key-btn">Z<span class="key-radical">重</span></div>
+                            <div data-key="X" class="key-btn">X<span class="key-radical">難</span></div>
+                            <div data-key="C" class="key-btn">C<span class="key-radical">金</span></div>
+                            <div data-key="V" class="key-btn">V<span class="key-radical">女</span></div>
+                            <div data-key="B" class="key-btn">B<span class="key-radical">月</span></div>
+                            <div data-key="N" class="key-btn">N<span class="key-radical">弓</span></div>
+                            <div data-key="M" class="key-btn">M<span class="key-radical">一</span></div>
+                        </div>
+                    </div>
+
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mt-3 text-center">
+                        💡 點擊上方鍵盤可快速選取字母進行反向過濾
+                    </p>
+                </div>
+
+                <!-- Cangjie 4 Categories Reference Accordion -->
+                <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm">
+                    <h3 class="font-bold text-slate-900 dark:text-slate-100 text-base mb-3 flex items-center justify-between">
+                        <span>四大類別哲理與字母對照</span>
+                        <span class="text-xs text-emerald-600 dark:text-emerald-400 font-normal">共 24 字根</span>
+                    </h3>
+
+                    <div class="space-y-2 text-xs">
+                        <!-- Category 1 -->
+                        <div class="border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden">
+                            <div class="bg-slate-100 dark:bg-slate-800/60 p-2.5 font-semibold text-slate-700 dark:text-slate-200 flex justify-between items-center cursor-pointer" onclick="toggleAccordion('cat1')">
+                                <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-amber-500"></span>哲理類 (7個)</span>
+                                <span id="cat1-icon">▼</span>
+                            </div>
+                            <div id="cat1" class="p-3 bg-white dark:bg-slate-900 grid grid-cols-2 gap-2 text-slate-600 dark:text-slate-300">
+                                <div><b class="text-slate-900 dark:text-white">A 日</b> : 日、旦、曰</div>
+                                <div><b class="text-slate-900 dark:text-white">B 月</b> : 月、目、爫</div>
+                                <div><b class="text-slate-900 dark:text-white">C 金</b> : 金、八、丷</div>
+                                <div><b class="text-slate-900 dark:text-white">D 木</b> : 木、寸</div>
+                                <div><b class="text-slate-900 dark:text-white">E 水</b> : 水、氵、又</div>
+                                <div><b class="text-slate-900 dark:text-white">F 火</b> : 火、灬、小</div>
+                                <div class="col-span-2"><b class="text-slate-900 dark:text-white">G 土</b> : 土、士</div>
+                            </div>
+                        </div>
+
+                        <!-- Category 2 -->
+                        <div class="border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden">
+                            <div class="bg-slate-100 dark:bg-slate-800/60 p-2.5 font-semibold text-slate-700 dark:text-slate-200 flex justify-between items-center cursor-pointer" onclick="toggleAccordion('cat2')">
+                                <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span>筆劃類 (7個)</span>
+                                <span id="cat2-icon">▼</span>
+                            </div>
+                            <div id="cat2" class="p-3 bg-white dark:bg-slate-900 grid grid-cols-2 gap-2 text-slate-600 dark:text-slate-300">
+                                <div><b class="text-slate-900 dark:text-white">H 竹</b> : 竹、撇 (丿)</div>
+                                <div><b class="text-slate-900 dark:text-white">I 戈</b> : 點、廣、厶</div>
+                                <div><b class="text-slate-900 dark:text-white">J 十</b> : 十、交叉 (┼)</div>
+                                <div><b class="text-slate-900 dark:text-white">K 大</b> : 叉 (乂)、大</div>
+                                <div><b class="text-slate-900 dark:text-white">L 中</b> : 豎 (丨)、書寫</div>
+                                <div><b class="text-slate-900 dark:text-white">M 一</b> : 橫 (一)、廠</div>
+                                <div class="col-span-2"><b class="text-slate-900 dark:text-white">N 弓</b> : 勾 (亅)、彎 (乛)</div>
+                            </div>
+                        </div>
+
+                        <!-- Category 3 -->
+                        <div class="border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden">
+                            <div class="bg-slate-100 dark:bg-slate-800/60 p-2.5 font-semibold text-slate-700 dark:text-slate-200 flex justify-between items-center cursor-pointer" onclick="toggleAccordion('cat3')">
+                                <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-blue-500"></span>人身類 (4個)</span>
+                                <span id="cat3-icon">▼</span>
+                            </div>
+                            <div id="cat3" class="p-3 bg-white dark:bg-slate-900 grid grid-cols-2 gap-2 text-slate-600 dark:text-slate-300">
+                                <div><b class="text-slate-900 dark:text-white">O 人</b> : 人、亻、單人旁</div>
+                                <div><b class="text-slate-900 dark:text-white">P 心</b> : 心、忄、匕</div>
+                                <div><b class="text-slate-900 dark:text-white">Q 手</b> : 手、扌、龵</div>
+                                <div><b class="text-slate-900 dark:text-white">R 口</b> : 口、方框</div>
+                            </div>
+                        </div>
+
+                        <!-- Category 4 -->
+                        <div class="border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden">
+                            <div class="bg-slate-100 dark:bg-slate-800/60 p-2.5 font-semibold text-slate-700 dark:text-slate-200 flex justify-between items-center cursor-pointer" onclick="toggleAccordion('cat4')">
+                                <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-purple-500"></span>類字類 (6個)</span>
+                                <span id="cat4-icon">▼</span>
+                            </div>
+                            <div id="cat4" class="p-3 bg-white dark:bg-slate-900 grid grid-cols-2 gap-2 text-slate-600 dark:text-slate-300">
+                                <div><b class="text-slate-900 dark:text-white">S 尸</b> : 尸、匚、⺁</div>
+                                <div><b class="text-slate-900 dark:text-white">T 廿</b> : 廿、艹、草字頭</div>
+                                <div><b class="text-slate-900 dark:text-white">U 山</b> : 山、 mountain</div>
+                                <div><b class="text-slate-900 dark:text-white">V 女</b> : 女、巛、ㄑ</div>
+                                <div><b class="text-slate-900 dark:text-white">W 田</b> : 田、囗、方框</div>
+                                <div><b class="text-slate-900 dark:text-white">Y 卜</b> : 卜、辶、走之底</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Rules Modal Container -->
+    <div id="rulesModal" class="fixed inset-0 bg-slate-950/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden opacity-0 transition-opacity duration-300">
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl max-w-2xl w-full p-6 max-h-[85vh] overflow-y-auto shadow-2xl relative">
+            <button id="closeRulesBtn" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1 rounded-lg">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+                倉頡輸入法五大取碼基本原則
+            </h3>
+
+            <div class="space-y-4 text-sm text-slate-600 dark:text-slate-300">
+                <div class="p-3 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-800">
+                    <h4 class="font-bold text-slate-900 dark:text-white text-base mb-1">1. 取碼順序原則</h4>
+                    <p>依照傳統中文書寫順序：<b>由上而下、由左而右、由外而內</b>。</p>
+                </div>
+
+                <div class="p-3 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-800">
+                    <h4 class="font-bold text-slate-900 dark:text-white text-base mb-1">2. 碼數限制 (最多取5碼)</h4>
+                    <p>• <b>連體字（整體字）</b>：最多取 4 碼（首、二、三、尾碼）。<br>
+                    • <b>分體字（組合字）</b>：最多取 5 碼（字首最多取2碼：首尾；字身最多取3碼：首二尾）。</p>
+                </div>
+
+                <div class="p-3 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-800">
+                    <h4 class="font-bold text-slate-900 dark:text-white text-base mb-1">3. 精簡原則</h4>
+                    <p>若有多種切割字形方式時，優先選擇<b>能用最少字碼</b>完整表達該字的拆解法。</p>
+                </div>
+
+                <div class="p-3 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-800">
+                    <h4 class="font-bold text-slate-900 dark:text-white text-base mb-1">4. 先繁後簡 / 完整原則</h4>
+                    <p>拆字時儘量保留完整字形塊（如「口」、「田」、「木」），避免過度碎割。</p>
+                </div>
+
+                <div class="p-3 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-800">
+                    <h4 class="font-bold text-slate-900 dark:text-white text-base mb-1">5. 速成碼（簡易輸入法）</h4>
+                    <p>速成碼即取該字倉頡碼的<b>「首碼（第一碼）」</b>與<b>「尾碼（最後一碼）」</b>，大幅簡化輸入記憶。</p>
+                </div>
+            </div>
+
+            <div class="mt-6 flex justify-end">
+                <button id="closeRulesBtn2" class="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-medium text-sm transition shadow-lg shadow-emerald-600/20">
+                    我明白了
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed bottom-6 right-6 bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 px-4 py-2.5 rounded-xl shadow-2xl text-sm font-medium transform translate-y-12 opacity-0 transition-all duration-300 flex items-center gap-2 pointer-events-none z-50">
+        <svg class="w-5 h-5 text-emerald-400 dark:text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+        <span id="toastMsg">已複製到剪貼簿</span>
+    </div>
+
+    <style>
+        .key-btn {
+            @apply w-8 h-10 sm:w-10 sm:h-12 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg flex flex-col items-center justify-center font-bold text-xs sm:text-sm text-slate-800 dark:text-slate-100 shadow-sm cursor-pointer hover:border-emerald-500 hover:text-emerald-600 dark:hover:text-emerald-400 transition-all active:scale-95 relative select-none;
+        }
+        .key-radical {
+            @apply text-[10px] sm:text-xs font-normal text-emerald-600 dark:text-emerald-400 leading-none mt-0.5;
+        }
+    </style>
+
+    <script>
+        // Key to Radical mapping
+        const KEY_RADICAL_MAP = {
+            'A': '日', 'B': '月', 'C': '金', 'D': '木', 'E': '水', 'F': '火', 'G': '土',
+            'H': '竹', 'I': '戈', 'J': '十', 'K': '大', 'L': '中', 'M': '一', 'N': '弓',
+            'O': '人', 'P': '心', 'Q': '手', 'R': '口', 'S': '尸', 'T': '廿', 'U': '山',
+            'V': '女', 'W': '田', 'X': '難', 'Y': '卜', 'Z': '重'
+        };
+
+        const RADICAL_KEY_MAP = Object.fromEntries(
+            Object.entries(KEY_RADICAL_MAP).map(([k, v]) => [v, k])
+        );
+
+        // Embedded Cangjie Dictionary (~220+ common Chinese characters with verified 5th gen Cangjie codes)
+        const CANGJIE_DICT = [
+            { char: '倉', code: 'OIRU', radicals: '人戈口山', notes: '字首：人(O)；字身：戈(I)口(R)山(U)' },
+            { char: '頡', code: 'GMRMBC', radicals: '土口一月金', notes: '字首：吉(土口)；字身：頁(一月金)' },
+            { char: '中', code: 'L', radicals: '中', notes: '獨體字：豎貫穿(L)' },
+            { char: '文', code: 'YK', radicals: '卜大', notes: '字首：亠(卜)；字身：乂(大)' },
+            { char: '學', code: 'THBD', radicals: '廿竹月木', notes: '字首：爻頭(廿)；字身：子(竹月木)' },
+            { char: '習', code: 'SMR', radicals: '尸一口', notes: '字首：羽(尸)；字身：白(一口)' },
+            { char: '日', code: 'A', radicals: '日', notes: '哲理類基本字根 (A)' },
+            { char: '月', code: 'B', radicals: '月', notes: '哲理類基本字根 (B)' },
+            { char: '木', code: 'D', radicals: '木', notes: '哲理類基本字根 (D)' },
+            { char: '水', code: 'E', radicals: '水', notes: '哲理類基本字根 (E)' },
+            { char: '火', code: 'F', radicals: '火', notes: '哲理類基本字根 (F)' },
+            { char: '土', code: 'G', radicals: '土', notes: '哲理類基本字根 (G)' },
+            { char: '金', code: 'C', radicals: '金', notes: '哲理類基本字根 (C)' },
+            { char: '人', code: 'O', radicals: '人', notes: '人身類基本字根 (O)' },
+            { char: '心', code: 'P', radicals: '心', notes: '人身類基本字根 (P)' },
+            { char: '手', code: 'Q', radicals: '手', notes: '人身類基本字根 (Q)' },
+            { char: '口', code: 'R', radicals: '口', notes: '人身類基本字根 (R)' },
+            { char: '竹', code: 'H', radicals: '竹', notes: '筆劃類撇 (H)' },
+            { char: '戈', code: 'I', radicals: '戈', notes: '筆劃類點 (I)' },
+            { char: '十', code: 'J', radicals: '十', notes: '筆劃類十 (J)' },
+            { char: '大', code: 'K', radicals: '大', notes: '筆劃類大 (K)' },
+            { char: '一', code: 'M', radicals: '一', notes: '筆劃類橫 (M)' },
+            { char: '弓', code: 'N', radicals: '弓', notes: '筆劃類勾 (N)' },
+            { char: '尸', code: 'S', radicals: '尸', notes: '類字類尸 (S)' },
+            { char: '廿', code: 'T', radicals: '廿', notes: '類字類草頭 (T)' },
+            { char: '山', code: 'U', radicals: '山', notes: '類字類山 (U)' },
+            { char: '女', code: 'V', radicals: '女', notes: '類字類女 (V)' },
+            { char: '田', code: 'W', radicals: '田', notes: '類字類田 (W)' },
+            { char: '卜', code: 'Y', radicals: '卜', notes: '類字類卜 (Y)' },
+            { char: '國', code: 'WIRM', radicals: '田戈口一', notes: '外框：囗(田)；內部：或(戈口一)' },
+            { char: '華', code: 'TJMJ', radicals: '廿十一十', notes: '字首：艹(廿)；字身：華身(十文字)' },
+            { char: '龍', code: 'YBYBP', radicals: '卜月卜月心', notes: '左右結構與繁複筆劃取碼' },
+            { char: '鳳', code: 'HNMNF', radicals: '竹弓一弓火', notes: '風字框(竹弓)；內部：鳥(一弓火)' },
+            { char: '愛', code: 'BBE', radicals: '爪心水', notes: '字首：爫(月)；字身：心(心)友(水)' },
+            { char: '和', code: 'HDR', radicals: '禾口', notes: '字首：禾(木)；字身：口(口)' },
+            { char: '平', code: 'MFJ', radicals: '一火十', notes: '字首：一(一)；字身：干(火十)' },
+            { char: '福', code: 'IFRWR', radicals: '示一口田', notes: '字首：礻(示)；字身：畐(一口田)' },
+            { char: '德', code: 'HOJPP', radicals: '竹人十心心', notes: '字首：彳(竹人)；字身：德身(十心心)' },
+            { char: '智', code: 'ODR', radicals: '知日', notes: '字首：知(人大口)；字身：日(日)' },
+            { char: '體', code: 'BBDT', radicals: '骨體', notes: '字首：骨(月月)；字身：體右(豆木)' },
+            { char: '明', code: 'AB', radicals: '日月', notes: '字首：日(日)；字身：月(月)' },
+            { char: '天', code: 'MK', radicals: '一大', notes: '連體字：一(一)大(大)' },
+            { char: '地', code: 'GPSD', radicals: '土也', notes: '字首：土(土)；字身：也(尸木)' },
+            { char: '生', code: 'HQM', radicals: '竹手一', notes: '連體字：撇(竹)生(手一)' },
+            { char: '年', code: 'OFO', radicals: '人火人', notes: '連體字拆解' },
+            { char: '時', code: 'ASI', radicals: '日寺', notes: '字首：日(日)；字身：寺(土寸)' },
+            { char: '分', code: 'CS', radicals: '八刀', notes: '字首：八(金)；字身：刀(尸)' },
+            { char: '秒', code: 'HDFH', radicals: '禾少', notes: '字首：禾(木)；字身：少(火竹)' },
+            { char: '東', code: 'DWI', radicals: '木田戈', notes: '貫穿字形：木(木)田(田)小(戈)' },
+            { char: '西', code: 'MWCS', radicals: '一田金尸', notes: '字首：一(一)；字身：西(田金尸)' },
+            { char: '南', code: 'JJBG', radicals: '十十月土', notes: '字首：十(十)；字身：南身' },
+            { char: '北', code: 'LPM', radicals: '中心一', notes: '字首：爿左；字身：匕' },
+            { char: '靈', code: 'MBDMR', radicals: '雨靈', notes: '字首：雨(一月)；字身：靈底(口一口)' },
+            { char: '海', code: 'EOWY', radicals: '水每', notes: '字首：氵(水)；字身：每(人田卜)' },
+            { char: '川', code: 'LLLL', radicals: '中中中中', notes: '豎筆重複(中)' },
+            { char: '電', code: 'MBLWU', radicals: '雨電', notes: '字首：雨(一月)；字身：申(中田山)' },
+            { char: '網', code: 'VBBKR', radicals: '女月月大口', notes: '字首：糸(女月)；字身：罔(月大口)' },
+            { char: '鍵', code: 'CNKQ', radicals: '金建', notes: '字首：金(金)；字身：建(弓大手)' },
+            { char: '盤', code: 'HEBOT', radicals: '般皿', notes: '字首：般(竹水)；字身：皿(月人廿)' },
+            { char: '碼', code: 'MRSQF', radicals: '石馬', notes: '字首：石(一口)；字身：馬(尸手火)' },
+            { char: '查', code: 'DAM', radicals: '木日一', notes: '字首：木(木)；字身：旦(日一)' },
+            { char: '詢', code: 'YRPRU', radicals: '言旬', notes: '字首：言(卜口)；字身：旬(勹日)' },
+            { char: '語', code: 'YRMMR', radicals: '言吾', notes: '字首：言(卜口)；字身：吾(五口)' },
+            { char: '言', code: 'YR', radicals: '卜口', notes: '字首：亠(卜)；字身：口(口)' },
+            { char: '拆', code: 'QHMY', radicals: '手拆', notes: '字首：扌(手)；字身：斥(竹一卜)' },
+            { char: '解', code: 'NBSIH', radicals: '角解', notes: '字首：角(弓月)；字身：解右(尸戈竹)' },
+            { char: '寫', code: 'JAPH', radicals: '宀寫', notes: '字首：宀(十)；字身：寫(日尸竹)' },
+            { char: '讀', code: 'YRGCU', radicals: '言賣', notes: '字首：言(卜口)；字身：賣(土金山)' },
+            { char: '聽', code: 'SGRPJ', radicals: '耳聽', notes: '字首：耳(尸土)；字身：聽右(口心十)' },
+            { char: '說', code: 'YRCRU', radicals: '言說', notes: '字首：言(卜口)；字身：兌(金口山)' },
+            { char: '簡', code: 'HANAF', radicals: '竹間', notes: '字首：竹(竹)；字身：間(日日火)' },
+            { char: '繁', code: 'OKVF', radicals: '敏糸', notes: '字首：敏(人大)；字身：糸(女火)' },
+            { char: '筆', code: 'HLQ', radicals: '竹聿', notes: '字首：竹(竹)；字身：聿(中手)' },
+            { char: '順', code: 'LCMC', radicals: '川頁', notes: '字首：川(中)；字身：頁(一月金)' },
+            { char: '畫', code: 'MBGW', radicals: '畫身', notes: '字首：聿頭；字身：田' },
+            { char: '點', code: 'RRF', radicals: '黑占', notes: '字首：黑(口口)；字身：占(火)' },
+            { char: '線', code: 'VBHDO', radicals: '糸泉', notes: '字首：糸(女月)；字身：泉(竹木人)' },
+            { char: '面', code: 'MWLUL', radicals: '面身', notes: '一田中山中' },
+            { char: '標', code: 'DMWFI', radicals: '木標', notes: '字首：木(木)；字身：票(西火戈)' },
+            { char: '記', code: 'YRU', radicals: '言己', notes: '字首：言(卜口)；字身：己(山)' },
+            { char: '圖', code: 'WYROW', radicals: '囗圖', notes: '外框：囗(田)；內部：圖(卜人田)' },
+            { char: '像', code: 'ONAO', radicals: '人象', notes: '字首：亻(人)；字身：象(日人)' },
+            { char: '影', code: 'AVHHH', radicals: '景彡', notes: '字首：景(日女)；字身：彡(竹竹竹)' },
+            { char: '視', code: 'IFHNUR', radicals: '示見', notes: '字首：礻(示)；字身：見(竹山口)' },
+            { char: '樂', code: 'VDI', radicals: '樂身', notes: '字首：白(白)；字身：木(木)' },
+            { char: '歌', code: 'MNNRO', radicals: '哥欠', notes: '字首：哥(一弓)；字身：欠(口人)' },
+            { char: '舞', code: 'OTQ', radicals: '舞身', notes: '人廿手' },
+            { char: '藝', code: 'TGII', radicals: '艹藝', notes: '字首：艹(廿)；字身：藝(土戈)' },
+            { char: '術', code: 'HONDI', radicals: '行術', notes: '字首：彳(竹人)；字身：朮(木戈)' },
+            { char: '化', code: 'OP', radicals: '人匕', notes: '字首：亻(人)；字身：匕(心)' },
+            { char: '創', code: 'OURL', radicals: '倉刀', notes: '字首：倉(人山)；字身：刂(中)' },
+            { char: '造', code: 'YHGR', radicals: '辶告', notes: '字首：辶(卜)；字身：告(竹土口)' },
+            { char: '發', code: 'NOVK', radicals: '癶發', notes: '弓月女大' },
+            { char: '明', code: 'AB', radicals: '日月', notes: '字首：日(日)；字身：月(月)' },
+            { char: '能', code: 'IBBP', radicals: '熊身', notes: '戈月月心' },
+            { char: '力', code: 'KS', radicals: '大弓', notes: '大(K)弓(N)' },
+            { char: '思', code: 'WP', radicals: '田心', notes: '字首：田(田)；字身：心(心)' },
+            { char: '想', code: 'DHP', radicals: '相心', notes: '字首：相(木竹)；字身：心(心)' },
+            { char: '考', code: 'JKS', radicals: '老身', notes: '十大大' },
+            { char: '試', code: 'YRPYM', radicals: '言式', notes: '字首：言(卜口)；字身：式(心卜一)' },
+            { char: '答', code: 'HORR', radicals: '竹合', notes: '字首：竹(竹)；字身：合(人口口)' },
+            { char: '案', code: 'JD', radicals: '安木', notes: '字首：安(十)；字身：木(木)' },
+            { char: '開', code: 'ANMT', radicals: '門開', notes: '字首：門(日弓)；字身：升(一廿)' },
+            { char: '始', code: 'VIR', radicals: '女台', notes: '字首：女(女)；字身：台(戈口)' },
+            { char: '結', code: 'VBGR', radicals: '糸吉', notes: '字首：糸(女月)；字身：吉(土口)' },
+            { char: '束', code: 'DLI', radicals: '木中戈', notes: '貫穿字形' },
+            { char: '進', code: 'YOGAG', radicals: '辶隹', notes: '字首：辶(卜)；字身：隹(人土)' },
+            { char: '步', code: 'YLHIL', radicals: '止步', notes: '卜中竹戈中' },
+            { char: '成', code: 'IHIS', radicals: '戈竹戈尸', notes: '成字包圍' },
+            { char: '功', code: 'MKS', radicals: '工力', notes: '字首：工(一)；字身：力(大弓)' },
+            { char: '希', code: 'KCKB', radicals: '爻布', notes: '大大金月' },
+            { char: '望', code: 'YTB', radicals: '亡月', notes: '卜廿月' },
+            { char: '未', code: 'JD', radicals: '十木', notes: '十木' },
+            { char: '來', code: 'DOOT', radicals: '木人人廿', notes: '木人廿' },
+            { char: '現', code: 'MGBUU', radicals: '玉見', notes: '字首：王(一土)；字身：見(月山)' },
+            { char: '在', code: 'KLH', radicals: '才土', notes: '大中竹' },
+            { char: '過', code: 'YBBR', radicals: '辶咼', notes: '字首：辶(卜)；字身：咼(月口)' },
+            { char: '去', code: 'GI', radicals: '土厶', notes: '土戈' },
+            { char: '前', code: 'TBNJ', radicals: '剪頭', notes: '廿月弓十' },
+            { char: '後', code: 'HOVII', radicals: '彳後', notes: '竹人女戈' },
+            { char: '高', code: 'YBRB', radicals: '高身', notes: '卜月口月' },
+            { char: '深', code: 'EBCD', radicals: '水深', notes: '水月金木' },
+            { char: '廣', code: 'ITAC', radicals: '廣身', notes: '戈廿日金' },
+            { char: '大', code: 'K', radicals: '大', notes: '基本碼 (K)' },
+            { char: '小', code: 'NF', radicals: '弓火', notes: '弓火 (NF)' },
+            { char: '多', code: 'NININ', radicals: '夕夕', notes: '弓戈弓戈' },
+            { char: '少', code: 'FH', radicals: '火竹', notes: '火竹 (FH)' },
+            { char: '好', code: 'VND', radicals: '女子', notes: '字首：女(女)；字身：子(弓木)' },
+            { char: '壞', code: 'GYWV', radicals: '土懷', notes: '字首：土(土)；字身：懷(卜女)' },
+            { char: '快', code: 'PDK', radicals: '心夬', notes: '字首：忄(心)；字身：夬(木大)' },
+            { char: '慢', code: 'PWAE', radicals: '心曼', notes: '字首：忄(心)；字身：曼(田水)' },
+            { char: '新', code: 'YJDLI', radicals: '立親', notes: '卜十木戈' },
+            { char: '舊', code: 'TOXF', radicals: '雈舊', notes: '廿人火' },
+            { char: '真', code: 'JBCI', radicals: '十真', notes: '十月金戈' },
+            { char: '假', code: 'ORSLE', radicals: '人叚', notes: '人尸水' },
+            { char: '美', code: 'TGKD', radicals: '羊大', notes: '廿土大木' },
+            { char: '善', code: 'TGRR', radicals: '羊口', notes: '廿土口口' },
+            { char: '惡', code: 'P', radicals: '亞心', notes: '亞(亞)心(心)' },
+            { char: '信', code: 'OYR', radicals: '人言', notes: '人卜口' },
+            { char: '義', code: 'TGI', radicals: '羊我', notes: '廿土戈' },
+            { char: '禮', code: 'IFTWW', radicals: '示禮', notes: '示廿田' },
+            { char: '智', code: 'ODR', radicals: '知日', notes: '人木日' },
+            { char: '家', code: 'JMSO', radicals: '宀豕', notes: '宀(十)豕(一人)' },
+            { char: '人', code: 'O', radicals: '人', notes: '人基本碼' },
+            { char: '友', code: 'KE', radicals: '大水', notes: '大水 (KE)' },
+            { char: '親', code: 'YDUA', radicals: '立見', notes: '卜木山日' },
+            { char: '師', code: 'HRLB', radicals: '帥身', notes: '竹口中月' },
+            { char: '生', code: 'HQM', radicals: '竹手一', notes: '竹手一' },
+            { char: '男', code: 'WKS', radicals: '田力', notes: '田(W)力(大弓)' },
+            { char: '女', code: 'V', radicals: '女', notes: '女基本碼' },
+            { char: '老', code: 'JKP', radicals: '老身', notes: '十大人' },
+            { char: '幼', code: 'VIS', radicals: '幺力', notes: '女戈力' },
+            { char: '東', code: 'DWI', radicals: '木田戈', notes: '木田戈' },
+            { char: '南', code: 'JJBG', radicals: '十十月土', notes: '十月土' },
+            { char: '西', code: 'MWCS', radicals: '一田金尸', notes: '一田金尸' },
+            { char: '北', code: 'LPM', radicals: '中心一', notes: '中心一' },
+            { char: '春', code: 'QKA', radicals: '三日', notes: '手大日' },
+            { char: '夏', code: 'MHUE', radicals: '百夏', notes: '一竹山水' },
+            { char: '秋', code: 'HDFF', radicals: '禾火', notes: '木火' },
+            { char: '冬', code: 'HEY', radicals: '夂冫', notes: '竹水卜' },
+            { char: '風', code: 'HNLI', radicals: '風身', notes: '竹弓中戈' },
+            { char: '雨', code: 'MB', radicals: '一月', notes: '一月 (MB)' },
+            { char: '雪', code: 'MBSM', radicals: '雨彐', notes: '一月尸一' },
+            { char: '雲', code: 'MBMMI', radicals: '雨云', notes: '一月一一戈' },
+            { char: '霜', code: 'MBDC', radicals: '雨相', notes: '一月木金' },
+            { char: '山', code: 'U', radicals: '山', notes: '山基本碼' },
+            { char: '石', code: 'MR', radicals: '一口', notes: '一口 (MR)' },
+            { char: '田', code: 'W', radicals: '田', notes: '田基本碼' },
+            { char: '江', code: 'EM', radicals: '水工', notes: '水一 (EM)' },
+            { char: '河', code: 'ENNR', radicals: '水可', notes: '水弓口' },
+            { char: '湖', code: 'EJBR', radicals: '水胡', notes: '水十月口' },
+            { char: '海', code: 'EOWY', radicals: '水每', notes: '水人田卜' },
+            { char: '草', code: 'TAV', radicals: '艹早', notes: '廿日女' },
+            { char: '花', code: 'TOP', radicals: '艹化', notes: '廿人心' },
+            { char: '樹', code: 'DOTI', radicals: '木樹', notes: '木人廿戈' },
+            { char: '果', code: 'WD', radicals: '田木', notes: '田木 (WD)' },
+            { char: '鳥', code: 'HANM', radicals: '鳥身', notes: '竹人弓一' },
+            { char: '魚', code: 'NWFB', radicals: '魚身', notes: '角田火月' },
+            { char: '馬', code: 'SQF', radicals: '馬身', notes: '尸手火' },
+            { char: '羊', code: 'TFQ', radicals: '羊身', notes: '廿火手' },
+            { char: '犬', code: 'IK', radicals: '點大', notes: '戈大 (IK)' },
+            { char: '貓', code: 'BHETW', radicals: '豸苗', notes: '月竹水廿田' },
+            { char: '狗', code: 'BHRN', radicals: '豸句', notes: '月竹口弓' },
+            { char: '食', code: 'OVI', radicals: '人食', notes: '人女戈' },
+            { char: '飲', code: 'OINO', radicals: '食欠', notes: '人戈人' },
+            { char: '飯', code: 'OVHE', radicals: '食反', notes: '人女竹水' },
+            { char: '茶', code: 'TOD', radicals: '艹人木', notes: '廿人木' },
+            { char: '酒', code: 'EMCW', radicals: '水酉', notes: '水一金田' },
+            { char: '心', code: 'P', radicals: '心', notes: '心基本碼' },
+            { char: '情', code: 'PQB', radicals: '心青', notes: '心手月' },
+            { char: '感', code: 'IIP', radicals: '咸心', notes: '戈戈心' },
+            { char: '意', code: 'YTP', radicals: '音心', notes: '卜廿心' },
+            { char: '神', code: 'IFLL', radicals: '示申', notes: '示中中' },
+            { char: '佛', code: 'OLLN', radicals: '人弗', notes: '人中弓' },
+            { char: '仙', code: 'OU', radicals: '人人山', notes: '人山 (OU)' },
+            { char: '道', code: 'YTHU', radicals: '辶首', notes: '卜廿竹山' },
+            { char: '德', code: 'HOJPP', radicals: '彳德', notes: '竹人十心心' },
+            { char: '愛', code: 'BBE', radicals: '爪心水', notes: '月月水' },
+            { char: '喜', code: 'GRR', radicals: '吉口', notes: '土口口' },
+            { char: '樂', code: 'VDI', radicals: '白木', notes: '女木戈' },
+            { char: '怒', code: 'VDP', radicals: '奴心', notes: '女木心' },
+            { char: '哀', code: 'YRE', radicals: '衣身', notes: '卜口水' },
+            { char: '懼', code: 'PBUC', radicals: '心懼', notes: '心月山金' }
+        ];
+
+        // App State
+        let searchHistory = JSON.parse(localStorage.getItem('cangjie_history') || '["倉", "頡", "中", "華", "愛"]');
+        let currentFilterKey = null;
+
+        // DOM Element Selectors
+        const searchInput = document.getElementById('searchInput');
+        const clearSearchBtn = document.getElementById('clearSearchBtn');
+        const resultsGrid = document.getElementById('resultsGrid');
+        const emptyState = document.getElementById('emptyState');
+        const resultCountBadge = document.getElementById('resultCountBadge');
+        const sampleChips = document.getElementById('sampleChips');
+        const historyChips = document.getElementById('historyChips');
+        const historyContainer = document.getElementById('historyContainer');
+        const clearHistoryBtn = document.getElementById('clearHistoryBtn');
+        const themeToggle = document.getElementById('themeToggle');
+        const rulesModal = document.getElementById('rulesModal');
+        const rulesModalBtn = document.getElementById('rulesModalBtn');
+        const closeRulesBtn = document.getElementById('closeRulesBtn');
+        const closeRulesBtn2 = document.getElementById('closeRulesBtn2');
+        const toast = document.getElementById('toast');
+        const toastMsg = document.getElementById('toastMsg');
+
+        // Sample Quick Pick Words
+        const QUICK_SAMPLES = ['倉', '頡', '學', '習', '龍', '鳳', '愛', '福', '網', '碼'];
+
+        // Initialize App
+        window.addEventListener('DOMContentLoaded', () => {
+            initSampleChips();
+            renderHistoryChips();
+            setupEventListeners();
+            checkTheme();
+            
+            // Initial render with default search
+            searchInput.value = "倉頡學習";
+            handleSearch("倉頡學習");
+        });
+
+        function checkTheme() {
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        }
+
+        function toggleTheme() {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.theme = 'light';
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.theme = 'dark';
+            }
+        }
+
+        function setupEventListeners() {
+            // Theme toggle
+            themeToggle.addEventListener('click', toggleTheme);
+
+            // Modal events
+            rulesModalBtn.addEventListener('click', () => {
+                rulesModal.classList.remove('hidden');
+                setTimeout(() => rulesModal.classList.remove('opacity-0'), 10);
+            });
+            const closeModal = () => {
+                rulesModal.classList.add('opacity-0');
+                setTimeout(() => rulesModal.classList.add('hidden'), 300);
+            };
+            closeRulesBtn.addEventListener('click', closeModal);
+            closeRulesBtn2.addEventListener('click', closeModal);
+            rulesModal.addEventListener('click', (e) => {
+                if (e.target === rulesModal) closeModal();
+            });
+
+            // Search input listener
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.trim();
+                if (query) {
+                    clearSearchBtn.classList.remove('hidden');
+                } else {
+                    clearSearchBtn.classList.add('hidden');
+                }
+                currentFilterKey = null; // reset key filter
+                handleSearch(query);
+            });
+
+            // Clear Search
+            clearSearchBtn.addEventListener('click', () => {
+                searchInput.value = '';
+                clearSearchBtn.classList.add('hidden');
+                currentFilterKey = null;
+                handleSearch('');
+                clearKeyboardHighlights();
+            });
+
+            // Clear History
+            clearHistoryBtn.addEventListener('click', () => {
+                searchHistory = [];
+                localStorage.removeItem('cangjie_history');
+                renderHistoryChips();
+            });
+
+            // Keyboard key clicks
+            document.querySelectorAll('.key-btn').forEach(keyEl => {
+                keyEl.addEventListener('click', () => {
+                    const key = keyEl.getAttribute('data-key');
+                    if (currentFilterKey === key) {
+                        currentFilterKey = null;
+                        clearKeyboardHighlights();
+                        handleSearch(searchInput.value.trim());
+                    } else {
+                        currentFilterKey = key;
+                        highlightSingleKey(key);
+                        filterByKeyboardKey(key);
+                    }
+                });
+            });
+        }
+
+        function initSampleChips() {
+            sampleChips.innerHTML = QUICK_SAMPLES.map(char => 
+                `<button onclick="quickSearch('${char}')" class="px-2.5 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-emerald-500 hover:text-emerald-500 font-medium transition shadow-sm">${char}</button>`
+            ).join('');
+        }
+
+        function quickSearch(char) {
+            searchInput.value = char;
+            clearSearchBtn.classList.remove('hidden');
+            currentFilterKey = null;
+            handleSearch(char);
+        }
+
+        function renderHistoryChips() {
+            if (!searchHistory || searchHistory.length === 0) {
+                historyContainer.classList.add('hidden');
+                return;
+            }
+            historyContainer.classList.remove('hidden');
+            historyChips.innerHTML = searchHistory.map(char => 
+                `<button onclick="quickSearch('${char}')" class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-800 hover:bg-emerald-100 dark:hover:bg-emerald-900/50 hover:text-emerald-600 transition text-slate-700 dark:text-slate-300">${char}</button>`
+            ).join('');
+        }
+
+        function addToHistory(chars) {
+            let updated = [...searchHistory];
+            chars.split('').forEach(c => {
+                if (c.trim() && !updated.includes(c)) {
+                    updated.unshift(c);
+                }
+            });
+            searchHistory = updated.slice(0, 10);
+            localStorage.setItem('cangjie_history', JSON.stringify(searchHistory));
+            renderHistoryChips();
+        }
+
+        function handleSearch(query) {
+            clearKeyboardHighlights();
+
+            if (!query) {
+                resultsGrid.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                resultCountBadge.innerText = '0 字';
+                return;
+            }
+
+            // Extract Chinese characters from query
+            const chars = query.replace(/[^\u4e00-\u9fa5]/g, '').split('');
+            let results = [];
+
+            if (chars.length > 0) {
+                addToHistory(query);
+                chars.forEach(c => {
+                    const found = CANGJIE_DICT.find(item => item.char === c);
+                    if (found) {
+                        results.push(found);
+                    } else {
+                        results.push({
+                            char: c,
+                            code: '暫無',
+                            radicals: '待擴充',
+                            notes: '此字暫未收錄於預設常字典中，歡迎進行反饋。'
+                        });
+                    }
+                });
+            } else {
+                // If query is English code search
+                const upperQuery = query.toUpperCase();
+                results = CANGJIE_DICT.filter(item => item.code.includes(upperQuery) || item.char.includes(query));
+            }
+
+            renderCards(results);
+        }
+
+        function filterByKeyboardKey(key) {
+            const radical = KEY_RADICAL_MAP[key];
+            const filtered = CANGJIE_DICT.filter(item => item.code.includes(key));
+            renderCards(filtered, `含字根【${key} ${radical}】的字`);
+            showToast(`已過濾包含字根「${key} - ${radical}」的常用字`);
+        }
+
+        function renderCards(list, filterTitle = '') {
+            resultsGrid.innerHTML = '';
+
+            if (!list || list.length === 0) {
+                emptyState.classList.remove('hidden');
+                resultCountBadge.innerText = '0 字';
+                return;
+            }
+
+            emptyState.classList.add('hidden');
+            resultCountBadge.innerText = `${list.length} 字${filterTitle ? ' (' + filterTitle + ')' : ''}`;
+
+            list.forEach(item => {
+                const card = document.createElement('div');
+                card.className = "glow-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm hover:border-emerald-500/50 flex flex-col justify-between relative group";
+
+                // Quick code (first and last radical)
+                const quickCodeStr = item.radicals !== '待擴充' && item.radicals.length > 0 
+                    ? `${item.radicals[0]}${item.radicals.length > 1 ? item.radicals[item.radicals.length - 1] : ''}` 
+                    : '無';
+
+                // Radical Badges
+                const radicalBadges = item.radicals !== '待擴充' ? item.radicals.split('').map((r, idx) => {
+                    const keyLetter = RADICAL_KEY_MAP[r] || '';
+                    return `<span data-key="${keyLetter}" class="radical-badge inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300 font-bold text-sm cursor-pointer hover:bg-emerald-500 hover:text-white transition">
+                        ${r} <span class="text-[10px] opacity-75 font-mono">(${keyLetter})</span>
+                    </span>`;
+                }).join('') : `<span class="text-xs text-slate-400">尚無拆解</span>`;
+
+                card.innerHTML = `
+                    <div>
+                        <!-- Card Top Header -->
+                        <div class="flex items-start justify-between mb-3">
+                            <div class="flex items-baseline gap-3">
+                                <span class="text-4xl sm:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-none">${item.char}</span>
+                                <div>
+                                    <div class="text-xs text-slate-400 uppercase tracking-wider">速成首尾碼</div>
+                                    <div class="font-bold text-slate-700 dark:text-slate-300 text-base">${quickCodeStr}</div>
+                                </div>
+                            </div>
+                            <button onclick="copyCode('${item.char}', '${item.radicals}', '${item.code}')" title="一鍵複製倉頡碼" 
+                                class="p-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-emerald-500 hover:text-white text-slate-500 dark:text-slate-400 transition shadow-sm">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                            </button>
+                        </div>
+
+                        <!-- Cangjie Radical Badges -->
+                        <div class="mb-3">
+                            <div class="text-xs text-slate-400 mb-1.5">倉頡字母 (英文字母)</div>
+                            <div class="flex flex-wrap gap-1.5">
+                                ${radicalBadges}
+                            </div>
+                        </div>
+
+                        <!-- English Letter Code -->
+                        <div class="mb-3 flex items-center gap-2">
+                            <span class="text-xs text-slate-400">英文鍵盤碼:</span>
+                            <span class="font-mono font-bold text-slate-800 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded text-xs tracking-widest">${item.code}</span>
+                        </div>
+
+                        <!-- Breakdown / Notes -->
+                        <div class="text-xs text-slate-500 dark:text-slate-400 bg-slate-50 dark:bg-slate-800/40 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800/60 leading-relaxed">
+                            💡 ${item.notes}
+                        </div>
+                    </div>
+                `;
+
+                // Add Hover listeners to highlight virtual keyboard keys
+                card.addEventListener('mouseenter', () => {
+                    if (item.code && item.code !== '暫無') {
+                        highlightMultipleKeys(item.code.split(''));
+                    }
+                });
+
+                card.addEventListener('mouseleave', () => {
+                    if (!currentFilterKey) {
+                        clearKeyboardHighlights();
+                    }
+                });
+
+                resultsGrid.appendChild(card);
+            });
+
+            // Attach event listeners to individual radical badges in cards
+            document.querySelectorAll('.radical-badge').forEach(badge => {
+                badge.addEventListener('mouseenter', (e) => {
+                    e.stopPropagation();
+                    const key = badge.getAttribute('data-key');
+                    if (key) highlightSingleKey(key);
+                });
+            });
+        }
+
+        function highlightSingleKey(key) {
+            clearKeyboardHighlights();
+            const keyEl = document.querySelector(`.key-btn[data-key="${key}"]`);
+            if (keyEl) {
+                keyEl.classList.add('key-active', 'bg-emerald-500', 'text-white');
+                keyEl.querySelector('.key-radical')?.classList.replace('text-emerald-600', 'text-white');
+            }
+        }
+
+        function highlightMultipleKeys(keysArray) {
+            clearKeyboardHighlights();
+            keysArray.forEach(key => {
+                const keyEl = document.querySelector(`.key-btn[data-key="${key}"]`);
+                if (keyEl) {
+                    keyEl.classList.add('key-active', 'bg-emerald-500', 'text-white');
+                    const rad = keyEl.querySelector('.key-radical');
+                    if (rad) {
+                        rad.classList.remove('text-emerald-600', 'dark:text-emerald-400');
+                        rad.classList.add('text-white');
+                    }
+                }
+            });
+        }
+
+        function clearKeyboardHighlights() {
+            document.querySelectorAll('.key-btn').forEach(keyEl => {
+                keyEl.classList.remove('key-active', 'bg-emerald-500', 'text-white');
+                const rad = keyEl.querySelector('.key-radical');
+                if (rad) {
+                    rad.classList.remove('text-white');
+                    rad.classList.add('text-emerald-600', 'dark:text-emerald-400');
+                }
+            });
+        }
+
+        function toggleAccordion(id) {
+            const el = document.getElementById(id);
+            const icon = document.getElementById(`${id}-icon`);
+            if (el.classList.contains('hidden')) {
+                el.classList.remove('hidden');
+                icon.innerText = '▼';
+            } else {
+                el.classList.add('hidden');
+                icon.innerText = '▲';
+            }
+        }
+
+        function copyCode(char, radicals, code) {
+            const copyText = `${char} 的倉頡碼：${radicals} (${code})`;
+            
+            // Clipboard fallback as per guidelines
+            const tempInput = document.createElement('textarea');
+            tempInput.value = copyText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            try {
+                document.execCommand('copy');
+                showToast(`已複製「${char}」的倉頡碼：${radicals} (${code})`);
+            } catch (err) {
+                showToast('複製失敗，請手動複製');
+            }
+            document.body.removeChild(tempInput);
+        }
+
+        function showToast(msg) {
+            toastMsg.innerText = msg;
+            toast.classList.remove('translate-y-12', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-12', 'opacity-0');
+            }, 2500);
+        }
+    </script>
+</body>
+</html>

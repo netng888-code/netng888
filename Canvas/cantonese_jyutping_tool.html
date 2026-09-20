@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="zh-HK" class="h-full dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>粵拼 Jyutping - 粵語拼音即時轉換與學習工具</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            canton: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
+            },
+            accent: {
+              500: '#6366f1',
+              600: '#4f46e5',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'PingFang HK', 'Noto Sans HK', 'Microsoft JhengHei', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- FontAwesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    /* 自訂 Ruby 拼音樣式 */
+    ruby {
+      ruby-position: over;
+      display: inline-flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin: 0.15em 0.25em;
+      vertical-align: bottom;
+      cursor: pointer;
+      border-radius: 0.25rem;
+      padding: 0.1rem 0.25rem;
+      transition: all 0.15s ease-in-out;
+    }
+    ruby:hover {
+      background-color: rgba(16, 185, 129, 0.15);
+    }
+    rt {
+      font-size: 0.75rem;
+      line-height: 1rem;
+      font-weight: 600;
+      color: #059669;
+      user-select: none;
+      margin-bottom: 2px;
+      font-family: monospace, sans-serif;
+    }
+    .dark rt {
+      color: #34d399;
+    }
+    rb {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      font-weight: 500;
+    }
+
+    /* 多音字下劃虛線標記 */
+    .polyphonic {
+      border-bottom: 2px dashed #f59e0b;
+      position: relative;
+    }
+    .polyphonic::after {
+      content: '•';
+      position: absolute;
+      top: -6px;
+      right: -3px;
+      font-size: 10px;
+      color: #f59e0b;
+    }
+
+    /* 捲軸美化 */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(156, 163, 175, 0.4);
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 min-h-full flex flex-col font-sans transition-colors duration-200">
+
+  <!-- 頁尾與頂部導覽列 -->
+  <header class="sticky top-0 z-30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-4 lg:px-8 py-3">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-canton-600 to-emerald-400 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-canton-500/20">
+          粵
+        </div>
+        <div>
+          <h1 class="text-lg font-bold bg-gradient-to-r from-canton-600 to-accent-600 bg-clip-text text-transparent">
+            粵拼 Jyutping 學習與轉換工具
+          </h1>
+          <p class="text-xs text-slate-500 dark:text-slate-400">廣東話拼音即時轉換 • 多音字校正 • 語音朗讀</p>
+        </div>
+      </div>
+
+      <div class="flex items-center space-x-2 sm:space-x-3">
+        <!-- 九聲六調對照 Modal 按鈕 -->
+        <button id="openTonesModalBtn" class="flex items-center space-x-1.5 text-xs sm:text-sm bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 px-3 py-2 rounded-lg transition">
+          <i class="fa-solid fa-music text-canton-500"></i>
+          <span class="hidden sm:inline">粵語九聲六調</span>
+        </button>
+
+        <!-- 深色 / 淺色模式切換 -->
+        <button id="themeToggleBtn" class="p-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition" title="切換主題">
+          <i class="fa-solid fa-moon dark:hidden text-slate-600"></i>
+          <i class="fa-solid fa-sun hidden dark:inline text-amber-400"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主內容區 -->
+  <main class="flex-grow max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8 space-y-6">
+
+    <!-- 快速範例預設詞組按鈕 -->
+    <div class="flex items-center space-x-2 overflow-x-auto pb-2 scrollbar-none text-xs sm:text-sm">
+      <span class="text-slate-500 dark:text-slate-400 flex-shrink-0 font-medium">快速載入：</span>
+      <button class="preset-btn bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-canton-500 px-3 py-1.5 rounded-full text-slate-700 dark:text-slate-300 transition flex-shrink-0" data-text="佢哋喺邊度食飯呀？咁好聽嘅廣東歌，睇完電影一齊去飲茶啦！">
+        🗣️ 日常口語
+      </button>
+      <button class="preset-btn bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-canton-500 px-3 py-1.5 rounded-full text-slate-700 dark:text-slate-300 transition flex-shrink-0" data-text="食得鹹魚抵得渴，偷雞唔成蝕揀米，食少多覺瞓。">
+        💡 經典俗語
+      </button>
+      <button class="preset-btn bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-canton-500 px-3 py-1.5 rounded-full text-slate-700 dark:text-slate-300 transition flex-shrink-0" data-text="掘金掘桔掘金桔，掘雞掘骨掘雞骨，掘完雞骨掘金桔，掘完金桔掘雞骨。">
+        🌀 粵語繞口令
+      </button>
+      <button class="preset-btn bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-canton-500 px-3 py-1.5 rounded-full text-slate-700 dark:text-slate-300 transition flex-shrink-0" data-text="床前明月光，疑是地上霜。舉頭望明月，低頭思故鄉。">
+        📜 唐詩欣賞
+      </button>
+    </div>
+
+    <!-- 工作區：左側輸入 / 右側輸出 -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+      <!-- 輸入區卡片 -->
+      <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700/60 p-5 flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-center mb-3">
+            <label for="textInput" class="font-semibold text-slate-700 dark:text-slate-200 flex items-center space-x-2">
+              <i class="fa-solid fa-keyboard text-canton-500"></i>
+              <span>輸入文本（繁體 / 簡體）</span>
+            </label>
+            <span id="charCount" class="text-xs text-slate-400">0 字</span>
+          </div>
+          
+          <textarea id="textInput" rows="8" placeholder="請在此輸入或貼上中文文本（例如：香港粵語普及拼音方案...）"
+            class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl p-4 text-slate-800 dark:text-slate-100 focus:ring-2 focus:ring-canton-500 focus:border-transparent outline-none resize-none transition font-sans text-base leading-relaxed"></textarea>
+        </div>
+
+        <div class="mt-4 flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-100 dark:border-slate-700/50">
+          <div class="flex items-center space-x-2">
+            <button id="clearBtn" class="px-3 py-1.5 text-xs text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700/50 rounded-lg transition">
+              <i class="fa-solid fa-trash-can mr-1"></i>清空
+            </button>
+            <button id="pasteBtn" class="px-3 py-1.5 text-xs text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700/50 rounded-lg transition">
+              <i class="fa-solid fa-paste mr-1"></i>貼上
+            </button>
+          </div>
+
+          <button id="convertBtn" class="bg-gradient-to-r from-canton-600 to-canton-500 hover:from-canton-700 hover:to-canton-600 text-white font-medium px-5 py-2 rounded-xl shadow-md shadow-canton-500/20 active:scale-95 transition flex items-center space-x-2">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <span>即時轉換</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 輸出區卡片 -->
+      <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700/60 p-5 flex flex-col justify-between">
+        <div>
+          <!-- 工具與模式選單頭部 -->
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+            <!-- 顯示模式頁籤 -->
+            <div class="flex bg-slate-100 dark:bg-slate-900 p-1 rounded-xl text-xs sm:text-sm font-medium">
+              <button data-mode="ruby" class="mode-tab active-tab flex-1 px-3 py-1.5 rounded-lg transition bg-white dark:bg-slate-800 text-canton-600 dark:text-canton-400 shadow-sm">
+                <i class="fa-solid fa-heading mr-1"></i>Ruby 上下標
+              </button>
+              <button data-mode="line" class="mode-tab flex-1 px-3 py-1.5 rounded-lg transition text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200">
+                <i class="fa-solid fa-align-left mr-1"></i>文本對照
+              </button>
+              <button data-mode="pure" class="mode-tab flex-1 px-3 py-1.5 rounded-lg transition text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200">
+                <i class="fa-solid fa-font mr-1"></i>純拼音
+              </button>
+            </div>
+
+            <!-- 聲調表示法切換 -->
+            <div class="flex items-center space-x-2 bg-slate-100 dark:bg-slate-900 px-2 py-1 rounded-xl text-xs">
+              <span class="text-slate-500 dark:text-slate-400 font-medium">標調：</span>
+              <button id="toneNumBtn" class="tone-style-btn font-semibold px-2 py-1 rounded-lg bg-white dark:bg-slate-800 text-canton-600 dark:text-canton-400 shadow-sm">數字 (ho2)</button>
+              <button id="toneMarkBtn" class="tone-style-btn px-2 py-1 rounded-lg text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">符號 (hóu)</button>
+            </div>
+          </div>
+
+          <!-- 拼音轉換結果顯示區 -->
+          <div id="outputDisplay" class="min-h-[220px] max-h-[360px] overflow-y-auto p-4 bg-slate-50 dark:bg-slate-900/60 rounded-xl border border-slate-200 dark:border-slate-700/50 leading-relaxed text-slate-800 dark:text-slate-100">
+            <div class="text-center text-slate-400 my-12 flex flex-col items-center justify-center space-y-2">
+              <i class="fa-solid fa-language text-3xl text-slate-300 dark:text-slate-600"></i>
+              <p>轉換結果將在此處顯示...</p>
+              <p class="text-xs text-slate-400 dark:text-slate-500">提示：點擊任何標有黃色小點的多音字可切換讀音；點擊文字可單字發音。</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 底部控制工具列（語音與複製） -->
+        <div class="mt-4 flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-100 dark:border-slate-700/50">
+          <!-- 語音控制條 -->
+          <div class="flex items-center space-x-2">
+            <button id="playAudioBtn" class="px-3.5 py-1.5 bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-200 dark:hover:bg-emerald-900 rounded-xl text-xs sm:text-sm font-medium transition flex items-center space-x-1.5">
+              <i class="fa-solid fa-volume-high"></i>
+              <span>全文朗讀</span>
+            </button>
+            <button id="stopAudioBtn" class="px-2.5 py-1.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 rounded-xl text-xs transition" title="停止朗讀">
+              <i class="fa-solid fa-square"></i>
+            </button>
+            
+            <!-- 語速選擇 -->
+            <div class="hidden sm:flex items-center space-x-1 text-xs text-slate-500">
+              <span>語速:</span>
+              <select id="speechRate" class="bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 rounded px-1.5 py-1 outline-none border border-slate-200 dark:border-slate-700">
+                <option value="0.75">0.75x</option>
+                <option value="1.0" selected>1.0x</option>
+                <option value="1.25">1.25x</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 複製與匯出 -->
+          <div class="flex items-center space-x-1.5">
+            <div class="relative inline-block text-left">
+              <button id="copyMenuBtn" class="px-3 py-1.5 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 rounded-xl text-xs sm:text-sm font-medium transition flex items-center space-x-1">
+                <i class="fa-solid fa-copy text-slate-500"></i>
+                <span>複製結果</span>
+                <i class="fa-solid fa-chevron-down text-[10px] ml-1"></i>
+              </button>
+              
+              <!-- 複製格式選單 Dropdown -->
+              <div id="copyDropdown" class="hidden absolute right-0 mt-2 w-44 bg-white dark:bg-slate-800 rounded-xl shadow-xl border border-slate-200 dark:border-slate-700 z-20 overflow-hidden py-1 text-xs">
+                <button data-copy="pure" class="copy-opt w-full text-left px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-700 flex items-center space-x-2">
+                  <i class="fa-solid fa-font text-slate-400"></i>
+                  <span>複製純拼音</span>
+                </button>
+                <button data-copy="ruby-html" class="copy-opt w-full text-left px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-700 flex items-center space-x-2">
+                  <i class="fa-code text-slate-400"></i>
+                  <span>複製 HTML Ruby 碼</span>
+                </button>
+                <button data-copy="markdown" class="copy-opt w-full text-left px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-700 flex items-center space-x-2">
+                  <i class="fa-brands fa-markdown text-slate-400"></i>
+                  <span>複製 Markdown 格式</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 粵語學習資源 & 拼音教學卡片 -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+      <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700/60 shadow-sm">
+        <div class="w-8 h-8 rounded-lg bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-3 font-bold">
+          1
+        </div>
+        <h3 class="font-bold text-slate-800 dark:text-slate-100 mb-1">什麼是「粵拼 Jyutping」？</h3>
+        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+          粵拼（LSHK Jyutping）是由香港語言學學會於1993年制定的廣東話拼音方案。使用英文字母標示聲母與韻母，數字 1–6 標示六個調值，精準且規範。
+        </p>
+      </div>
+
+      <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700/60 shadow-sm">
+        <div class="w-8 h-8 rounded-lg bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center mb-3 font-bold">
+          2
+        </div>
+        <h3 class="font-bold text-slate-800 dark:text-slate-100 mb-1">多音字校正功能</h3>
+        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+          廣東話存在大量破讀與多音字（如「行」: hang4 / hong4 / hang6）。本工具自動識別並加註虛線，點擊即可彈出讀音選單即時更正。
+        </p>
+      </div>
+
+      <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700/60 shadow-sm">
+        <div class="w-8 h-8 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center mb-3 font-bold">
+          3
+        </div>
+        <h3 class="font-bold text-slate-800 dark:text-slate-100 mb-1">真人發音與聲調標示</h3>
+        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+          整合瀏覽器標準廣東話語音合成引擎（zh-HK），並支援數字聲調（例：`ho2`）與國際聲調標記符號（例：`hóu`）隨心切換。
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- 粵語九聲六調 Modal 彈窗 -->
+  <div id="tonesModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden transition-opacity">
+    <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto border border-slate-200 dark:border-slate-700">
+      <div class="p-5 border-b border-slate-100 dark:border-slate-700 flex justify-between items-center sticky top-0 bg-white dark:bg-slate-800 z-10">
+        <div class="flex items-center space-x-2">
+          <i class="fa-solid fa-music text-canton-500 text-lg"></i>
+          <h2 class="font-bold text-lg text-slate-800 dark:text-slate-100">粵語九聲六調口訣與參考表</h2>
+        </div>
+        <button id="closeTonesModalBtn" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1.5 rounded-lg transition">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="p-6 space-y-6 text-sm">
+        <!-- 記憶口訣 -->
+        <div class="p-4 bg-emerald-50 dark:bg-emerald-950/40 rounded-xl border border-emerald-200 dark:border-emerald-800/50">
+          <h4 class="font-bold text-emerald-800 dark:text-emerald-300 mb-2 flex items-center">
+            <i class="fa-solid fa-lightbulb mr-2"></i>經典九聲記憶口訣
+          </h4>
+          <p class="text-slate-700 dark:text-slate-300 font-medium text-base tracking-wider mb-1">
+            「三 碗 半 牛 肉 麵 ， 百 伯 白」
+          </p>
+          <p class="text-xs text-slate-500 dark:text-slate-400">
+            ( sam1 / wun2 / bun3 / ngau4 / juk5 / min6 , baak3 / baak3 / baak6 )
+          </p>
+        </div>
+
+        <!-- 六聲簡表 -->
+        <div>
+          <h4 class="font-bold text-slate-800 dark:text-slate-200 mb-3">六個主要聲調 (Standard 6 Tones)</h4>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="border-b border-slate-200 dark:border-slate-700 text-xs text-slate-400">
+                  <th class="py-2 px-3">調號</th>
+                  <th class="py-2 px-3">聲調名稱</th>
+                  <th class="py-2 px-3">調值相對高低</th>
+                  <th class="py-2 px-3">例字 (粵拼)</th>
+                  <th class="py-2 px-3">試聽</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-xs sm:text-sm">
+                <tr>
+                  <td class="py-2.5 px-3 font-semibold text-canton-600">1</td>
+                  <td class="py-2.5 px-3">陰平 (High Level)</td>
+                  <td class="py-2.5 px-3 font-mono text-slate-500">55 / 53</td>
+                  <td class="py-2.5 px-3 font-bold">詩 (si1)</td>
+                  <td class="py-2.5 px-3"><button class="modal-play-btn text-canton-500 hover:text-canton-600" data-word="詩"><i class="fa-solid fa-circle-play text-lg"></i></button></td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 px-3 font-semibold text-canton-600">2</td>
+                  <td class="py-2.5 px-3">陰上 (High Rising)</td>
+                  <td class="py-2.5 px-3 font-mono text-slate-500">35</td>
+                  <td class="py-2.5 px-3 font-bold">史 (si2)</td>
+                  <td class="py-2.5 px-3"><button class="modal-play-btn text-canton-500 hover:text-canton-600" data-word="史"><i class="fa-solid fa-circle-play text-lg"></i></button></td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 px-3 font-semibold text-canton-600">3</td>
+                  <td class="py-2.5 px-3">陰去 (Mid Level)</td>
+                  <td class="py-2.5 px-3 font-mono text-slate-500">33</td>
+                  <td class="py-2.5 px-3 font-bold">試 (si3)</td>
+                  <td class="py-2.5 px-3"><button class="modal-play-btn text-canton-500 hover:text-canton-600" data-word="試"><i class="fa-solid fa-circle-play text-lg"></i></button></td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 px-3 font-semibold text-canton-600">4</td>
+                  <td class="py-2.5 px-3">陽平 (Low Falling)</td>
+                  <td class="py-2.5 px-3 font-mono text-slate-500">21 / 11</td>
+                  <td class="py-2.5 px-3 font-bold">時 (si4)</td>
+                  <td class="py-2.5 px-3"><button class="modal-play-btn text-canton-500 hover:text-canton-600" data-word="時"><i class="fa-solid fa-circle-play text-lg"></i></button></td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 px-3 font-semibold text-canton-600">5</td>
+                  <td class="py-2.5 px-3">陽上 (Low Rising)</td>
+                  <td class="py-2.5 px-3 font-mono text-slate-500">23</td>
+                  <td class="py-2.5 px-3 font-bold">市 (si5)</td>
+                  <td class="py-2.5 px-3"><button class="modal-play-btn text-canton-500 hover:text-canton-600" data-word="市"><i class="fa-solid fa-circle-play text-lg"></i></button></td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 px-3 font-semibold text-canton-600">6</td>
+                  <td class="py-2.5 px-3">陽去 (Low Level)</td>
+                  <td class="py-2.5 px-3 font-mono text-slate-500">22</td>
+                  <td class="py-2.5 px-3 font-bold">事 (si6)</td>
+                  <td class="py-2.5 px-3"><button class="modal-play-btn text-canton-500 hover:text-canton-600" data-word="事"><i class="fa-solid fa-circle-play text-lg"></i></button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 說明 -->
+        <p class="text-xs text-slate-400">
+          註：入聲（第 7、8、9 聲：識 sik1, 錫 sik3, 食 sik6）調值與 1、3、6 聲相同，僅韻尾帶有 p/t/k 塞音，因此統稱為九聲六調。
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 多音字選擇 Popover Modal -->
+  <div id="polyModal" class="fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl max-w-sm w-full p-5 border border-slate-200 dark:border-slate-700 animate-in fade-in zoom-in-95 duration-150">
+      <div class="flex justify-between items-center mb-3">
+        <h3 class="font-bold text-slate-800 dark:text-slate-100 flex items-center space-x-2">
+          <span>校正多音字讀音：</span>
+          <span id="polyCharDisplay" class="text-xl text-canton-600 dark:text-canton-400 font-serif font-bold"></span>
+        </h3>
+        <button id="closePolyModalBtn" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">請點選最符合上下文語境的讀音：</p>
+
+      <div id="polyOptionsContainer" class="space-y-2">
+        <!-- 多音字選項動態注入 -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 浮動 Prompt Toast 提示訊息 -->
+  <div id="toast" class="fixed bottom-6 right-6 bg-slate-800 text-white text-xs sm:text-sm px-4 py-2.5 rounded-xl shadow-xl z-50 flex items-center space-x-2 transition-all duration-300 transform translate-y-20 opacity-0">
+    <i class="fa-solid fa-circle-check text-canton-400"></i>
+    <span id="toastMsg">操作成功</span>
+  </div>
+
+  <!-- 全局 JavaScript 邏輯與內建字典數據 -->
+  <script>
+    /**
+     * 內建高頻粵語漢字與多音字粵拼字典 (Jyutping Dictionary)
+     * 涵蓋繁體、簡體與常見粵語方言字（如：佢、喺、咁、睇、食、搵、嚟等）
+     */
+    const JYUTPING_DICT = {
+      // Common Cantonese Characters
+      '佢': ['keoi5'], '喺': ['hai2'], '咁': ['gam2', 'gam1'], '噉': ['gam2'],
+      '嘅': ['ge3', 'kai2'], '乜': ['mat1'], '睇': ['tai2'], '食': ['sik6'],
+      '搵': ['wan2'], '嚟': ['lai4'], '呢': ['ni1', 'nei1'], '嗰': ['go2'],
+      '喎': ['wo3', 'wo5'], '咩': ['me1'], '㗎': ['gaa3', 'gaa1'], '諗': ['nam2'],
+      '囉': ['lo1', 'lo3'], '嘞': ['laak3'], '點': ['dim2'], '邊': ['bin1'],
+      '仲': ['zung6'], '嘢': ['je5'], '聽': ['teng1', 'ting1'], '講': ['gong2'],
+      '玩': ['waan2'], '返': ['faan1'], '屋': ['uk1'], '企': ['kei5'],
+      '緊': ['gan2'], '咗': ['zo2'], '晒': ['saai3'], '埋': ['maai4'],
+      '樽': ['zeon1'], '飲': ['jam2'], '茶': ['caa4'], '飯': ['faan6'],
+      
+      // Multi-tone High Frequency Words (多音字專用庫)
+      '行': ['hang4', 'hong4', 'hang6'], // 行路 / 銀行 / 行為
+      '重': ['zung6', 'cung2'],         // 重量 / 重複
+      '長': ['coeng4', 'zoeng2'],       // 長短 / 長大
+      '好': ['hou2', 'hou4'],           // 好人 / 愛好
+      '樂': ['lok6', 'ngok6', 'joek6'],  // 快樂 / 音樂 / 藥樂
+      '數': ['sou3', 'sou2'],           // 數字 / 計算(數數)
+      '會': ['wui6', 'kui2'],           // 開會 / 會計
+      '大': ['daai6', 'daai1'],         // 大小 / 大夫
+      '過': ['gwo3', 'gwo1'],           // 過去 / 經過
+      '差': ['caa1', 'caa3', 'ci1'],     // 差別 / 差錯 / 參差
+      '分': ['fan1', 'fan6'],           // 分開 / 身分
+      '少': ['siu2', 'siu4'],           // 多少 / 年少
+      '便': ['bin6', 'pin4'],           // 方便 / 便宜
+      '轉': ['zyun3', 'zyun2'],         // 旋轉 / 轉彎
+      '樂': ['lok6', 'ngok6'],          // 快樂 / 音樂
+      '相': ['soeng1', 'soeng3'],       // 互相 / 相片
+      '朝': ['ziu1', 'ciu4'],           // 朝早 / 朝代
+      '更': ['gang1', 'gang3'],         // 更換 / 更加
+      '當': ['dong1', 'dong3'],         // 當然 / 當真
+      '結': ['git3', 'git6'],           // 結果 / 結實
+      '著': ['zoek6', 'zyu3'],         // 穿著 / 著書
+      '假': ['gaa2', 'gaa3'],           // 真假 / 假期
+      '給': ['gap1', 'kap1'],           // 給予 / 供給
+      '傳': ['cyun4', 'zyun6'],         // 傳播 / 自傳
+      '率': ['seot1', 'leot6'],         // 率領 / 效率
+      '將': ['zoeng1', 'zoeng3'],       // 將來 / 將軍
+
+      // High-Frequency Standard Characters Mapping
+      '一': ['jat1'], '二': ['ji6'], '三': ['sam1'], '四': ['sei3'], '五': ['ng5'],
+      '六': ['luk6'], '七': ['cat1'], '八': ['baat3'], '九': ['gau2'], '十': ['sap6'],
+      '百': ['baak3'], '千': ['cin1'], '萬': ['maan6'], '億': ['jik1'],
+      '人': ['jan4'], '山': ['saan1'], '水': ['seoi2'], '日': ['jat6'], '月': ['jyut6'],
+      '明': ['ming4'], '光': ['gwong1'], '疑': ['ji4'], '是': ['si6'], '地': ['dei6'],
+      '上': ['soeng5', 'soeng6'], '霜': ['soeng1'], '舉': ['geoi2'], '頭': ['tau4'],
+      '望': ['mong6'], '低': ['dai1'], '思': ['si1'], '故': ['gu3'], '鄉': ['hoeng1'],
+      '床': ['cong4'], '前': ['cin4'], '咸': ['haam4'], '鹹': ['haam4'], '魚': ['jyu4'],
+      '抵': ['dai2'], '渴': ['hot3'], '偷': ['tau1'], '雞': ['gai1'], '唔': ['m4'],
+      '成': ['sing4'], '蝕': ['sik6'], '揀': ['gaan2'], '米': ['mai5'], '少': ['siu2'],
+      '多': ['do1'], '覺': ['gok3', 'gaau3'], '瞓': ['fan3'], '掘': ['gwat6'], '金': ['gam1'],
+      '桔': ['gat1'], '骨': ['gwat1'], '完': ['jyun4'], '香': ['hoeng1'], '港': ['gong2'],
+      '廣': ['gwong2'], '東': ['dung1'], '話': ['waa6', 'waa2'], '語': ['jyu5'],
+      '音': ['jam1'], '文': ['man4'], '學': ['hok6'], '習': ['zaap6'], '工': ['gung1'],
+      '具': ['geoi6'], '標': ['biu1'], '調': ['tiu4', 'diu6'], '聲': ['sing1'],
+      '中': ['zung1', 'zung3'], '國': ['gwok3'], '自': ['zi6'], '由': ['jau4'],
+      '愛': ['oi3'], '心': ['sam1'], '天': ['tin1'], '地': ['dei6'], '年': ['nin4'],
+      '月': ['jyut6'], '時': ['si4'], '空': ['hung1'], '電': ['din6'], '影': ['jing2'],
+      '歌': ['go1'], '曲': ['guk1'], '極': ['gik6'], '好': ['hou2'], '聽': ['teng1']
+    };
+
+    // 簡體字對照轉換備用表
+    const SIMP_TO_TRAD = {
+      '佢': '佢', '喺': '喺', '么': '麼', '听': '聽', '讲': '講', '玩': '玩',
+      '饭': '飯', '饮': '飲', '车': '車', '东': '東', '广': '廣', '话': '話',
+      '语': '語', '音': '音', '标': '標', '调': '調', '声': '聲', '国': '國',
+      '爱': '愛', '时': '時', '电': '電', '影': '影', '歌': '歌', '曲': '曲',
+      '咸': '鹹', '鱼': '魚', '鸡': '雞', '蚀': '蝕', '拣': '揀', '觉': '覺',
+      '睏': '瞓', '掘': '掘', '桔': '桔', '骨': '骨'
+    };
+
+    // 全局狀態變數
+    let currentConvertedTokens = []; // 儲存轉換後的 Token 結構
+    let currentPolyOverrides = {};   // 儲存多音字手動覆蓋索引
+    let currentToneStyle = 'number'; // 'number' (ho2) or 'mark' (hóu)
+    let currentDisplayMode = 'ruby'; // 'ruby', 'line', 'pure'
+
+    /**
+     * 數字標調 -> 聲調符號 (Diacritic Tone Format) 轉換器
+     * 例如: ho2 -> hó, gwong1 -> gwōng, zi3 -> zî
+     */
+    function convertToneToDiacritic(jyutpingStr) {
+      if (!jyutpingStr) return '';
+      const match = jyutpingStr.match(/^([a-z]+)([1-6])$/i);
+      if (!match) return jyutpingStr;
+
+      const syllable = match[1];
+      const tone = parseInt(match[2]);
+
+      // 聲調符號映射表 (Standard Jyutping Diacritics Mapping)
+      const diacriticMap = {
+        1: { 'a':'ā', 'e':'ē', 'i':'ī', 'o':'ō', 'u':'ū', 'y':'ȳ', 'm':'m̄', 'n':'n̄' },
+        2: { 'a':'á', 'e':'é', 'i':'í', 'o':'ó', 'u':'ú', 'y':'ý' },
+        3: { 'a':'a', 'e':'e', 'i':'i', 'o':'o', 'u':'u', 'y':'y' }, // 陰去標平或不加標記
+        4: { 'a':'à', 'e':'è', 'i':'ì', 'o':'ò', 'u':'ù', 'y':'ỳ' },
+        5: { 'a':'ǎ', 'e':'ě', 'i':'ǐ', 'o':'ǒ', 'u':'ǔ', 'y':'y̌' },
+        6: { 'a':'â', 'e':'ê', 'i':'î', 'o':'ô', 'u':'û', 'y':'ŷ' }
+      };
+
+      let chars = syllable.split('');
+      let targetIdx = -1;
+
+      // 尋找主要的母音字母標記聲調
+      const vowelPriority = ['a', 'e', 'o', 'i', 'u', 'y', 'm', 'n'];
+      for (let v of vowelPriority) {
+        const idx = chars.indexOf(v);
+        if (idx !== -1) {
+          targetIdx = idx;
+          break;
+        }
+      }
+
+      if (targetIdx !== -1 && diacriticMap[tone]) {
+        const origChar = chars[targetIdx];
+        if (diacriticMap[tone][origChar]) {
+          chars[targetIdx] = diacriticMap[tone][origChar];
+          return chars.join('');
+        }
+      }
+      return jyutpingStr;
+    }
+
+    /**
+     * 單字粵拼查詢 (含簡繁轉換與預設 fallback)
+     */
+    function lookupJyutping(char) {
+      // 轉繁體後查表
+      const tradChar = SIMP_TO_TRAD[char] || char;
+      if (JYUTPING_DICT[tradChar]) {
+        return JYUTPING_DICT[tradChar];
+      }
+      
+      // 非漢字或未收錄標點符號
+      return null;
+    }
+
+    /**
+     * 解析輸入文本，生成結構化數據
+     */
+    function parseTextToTokens(text) {
+      const tokens = [];
+      for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+        const readings = lookupJyutping(char);
+
+        if (readings) {
+          tokens.push({
+            index: i,
+            char: char,
+            readings: readings,
+            isPoly: readings.length > 1,
+            isWord: true
+          });
+        } else {
+          tokens.push({
+            index: i,
+            char: char,
+            readings: null,
+            isPoly: false,
+            isWord: false
+          });
+        }
+      }
+      return tokens;
+    }
+
+    /**
+     * 格式化拼音字串 (依據數字或標調符號設定)
+     */
+    function formatJyutping(jp) {
+      if (!jp) return '';
+      return currentToneStyle === 'mark' ? convertToneToDiacritic(jp) : jp;
+    }
+
+    /**
+     * 渲染主輸出介面
+     */
+    function renderOutput() {
+      const container = document.getElementById('outputDisplay');
+      if (!currentConvertedTokens || currentConvertedTokens.length === 0) {
+        container.innerHTML = `
+          <div class="text-center text-slate-400 my-12 flex flex-col items-center justify-center space-y-2">
+            <i class="fa-solid fa-language text-3xl text-slate-300 dark:text-slate-600"></i>
+            <p>轉換結果將在此處顯示...</p>
+          </div>`;
+        return;
+      }
+
+      if (currentDisplayMode === 'ruby') {
+        renderRubyMode(container);
+      } else if (currentDisplayMode === 'line') {
+        renderLineMode(container);
+      } else if (currentDisplayMode === 'pure') {
+        renderPureMode(container);
+      }
+    }
+
+    // 1. Render Ruby Mode
+    function renderRubyMode(container) {
+      let html = '<div class="flex flex-wrap items-end leading-loose">';
+      
+      currentConvertedTokens.forEach((token) => {
+        if (!token.isWord) {
+          // 非漢字（標點或換行）
+          if (token.char === '\n') {
+            html += '<div class="w-full h-2"></div>';
+          } else {
+            html += `<span class="mx-1 text-slate-500 font-serif text-lg">${token.char}</span>`;
+          }
+        } else {
+          // 選擇讀音
+          const selectedIdx = currentPolyOverrides[token.index] !== undefined ? currentPolyOverrides[token.index] : 0;
+          const jp = token.readings[selectedIdx];
+          const formattedJp = formatJyutping(jp);
+
+          const polyClass = token.isPoly ? 'polyphonic' : '';
+          
+          html += `
+            <ruby class="${polyClass}" data-index="${token.index}" onclick="handleWordClick(${token.index}, event)">
+              <rb class="text-slate-800 dark:text-slate-100">${token.char}</rb>
+              <rt>${formattedJp}</rt>
+            </ruby>`;
+        }
+      });
+
+      html += '</div>';
+      container.innerHTML = html;
+    }
+
+    // 2. Render Line-by-Line Mode
+    function renderLineMode(container) {
+      let textLine = '';
+      let jpLine = '';
+      let fullHtml = '<div class="space-y-4 font-mono text-sm sm:text-base">';
+
+      currentConvertedTokens.forEach((token) => {
+        if (!token.isWord) {
+          if (token.char === '\n') {
+            fullHtml += `
+              <div class="p-3 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700/50">
+                <div class="text-slate-800 dark:text-slate-200 font-sans text-base">${textLine}</div>
+                <div class="text-canton-600 dark:text-canton-400 font-semibold text-xs sm:text-sm mt-1">${jpLine}</div>
+              </div>`;
+            textLine = '';
+            jpLine = '';
+          } else {
+            textLine += token.char;
+            jpLine += ' ';
+          }
+        } else {
+          const selectedIdx = currentPolyOverrides[token.index] !== undefined ? currentPolyOverrides[token.index] : 0;
+          const jp = formatJyutping(token.readings[selectedIdx]);
+
+          textLine += token.char + ' ';
+          jpLine += jp + ' ';
+        }
+      });
+
+      if (textLine.trim() !== '') {
+        fullHtml += `
+          <div class="p-3 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700/50">
+            <div class="text-slate-800 dark:text-slate-200 font-sans text-base">${textLine}</div>
+            <div class="text-canton-600 dark:text-canton-400 font-semibold text-xs sm:text-sm mt-1">${jpLine}</div>
+          </div>`;
+      }
+
+      fullHtml += '</div>';
+      container.innerHTML = fullHtml;
+    }
+
+    // 3. Render Pure Jyutping Mode
+    function renderPureMode(container) {
+      let pureJp = '';
+      currentConvertedTokens.forEach((token) => {
+        if (!token.isWord) {
+          pureJp += token.char === '\n' ? '\n' : token.char;
+        } else {
+          const selectedIdx = currentPolyOverrides[token.index] !== undefined ? currentPolyOverrides[token.index] : 0;
+          pureJp += formatJyutping(token.readings[selectedIdx]) + ' ';
+        }
+      });
+
+      container.innerHTML = `
+        <div class="whitespace-pre-wrap font-mono text-sm sm:text-base text-canton-700 dark:text-canton-300 leading-relaxed tracking-wide select-all">
+          ${pureJp}
+        </div>`;
+    }
+
+    /**
+     * Web Speech API (廣東話語音朗讀合成)
+     */
+    function speakCantonese(text) {
+      if (!('speechSynthesis' in window)) {
+        showToast('您的瀏覽器不支援語音朗讀功能');
+        return;
+      }
+
+      window.speechSynthesis.cancel(); // 停止先前的發音
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'zh-HK'; // 設定為香港粵語
+
+      // 設定語速
+      const rateInput = document.getElementById('speechRate');
+      if (rateInput) utterance.rate = parseFloat(rateInput.value);
+
+      window.speechSynthesis.speak(utterance);
+    }
+
+    /**
+     * 處理單字點擊（如果是多音字則開 Modal，否則單獨發音）
+     */
+    function handleWordClick(index, event) {
+      event.stopPropagation();
+      const token = currentConvertedTokens[index];
+      if (!token) return;
+
+      if (token.isPoly) {
+        // 開啟多音字選擇彈窗
+        openPolyModal(token);
+      } else {
+        // 播放單字語音
+        speakCantonese(token.char);
+      }
+    }
+
+    /**
+     * 多音字 Modal 控制
+     */
+    function openPolyModal(token) {
+      const modal = document.getElementById('polyModal');
+      const charDisplay = document.getElementById('polyCharDisplay');
+      const container = document.getElementById('polyOptionsContainer');
+
+      charDisplay.textContent = token.char;
+      container.innerHTML = '';
+
+      const currentSelectedIdx = currentPolyOverrides[token.index] !== undefined ? currentPolyOverrides[token.index] : 0;
+
+      token.readings.forEach((reading, idx) => {
+        const formattedJp = formatJyutping(reading);
+        const isSelected = idx === currentSelectedIdx;
+
+        const optBtn = document.createElement('button');
+        optBtn.className = `w-full text-left p-3 rounded-xl border flex items-center justify-between transition ${
+          isSelected 
+            ? 'border-canton-500 bg-canton-50 dark:bg-canton-950/40 text-canton-700 dark:text-canton-300 font-bold' 
+            : 'border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/50 text-slate-700 dark:text-slate-300'
+        }`;
+
+        optBtn.innerHTML = `
+          <div class="flex items-center space-x-3">
+            <span class="font-mono text-base">${formattedJp}</span>
+            <span class="text-xs text-slate-400">讀音 ${idx + 1}</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <button type="button" class="listen-btn p-1.5 text-canton-500 hover:text-canton-600" title="試聽">
+              <i class="fa-solid fa-volume-low"></i>
+            </button>
+            ${isSelected ? '<i class="fa-solid fa-check text-canton-500"></i>' : ''}
+          </div>
+        `;
+
+        // 試聽按鈕事件
+        optBtn.querySelector('.listen-btn').onclick = (e) => {
+          e.stopPropagation();
+          speakCantonese(token.char);
+        };
+
+        // 選擇此讀音
+        optBtn.onclick = () => {
+          currentPolyOverrides[token.index] = idx;
+          renderOutput();
+          closePolyModal();
+          showToast(`已將「${token.char}」更改為讀音：${formattedJp}`);
+        };
+
+        container.appendChild(optBtn);
+      });
+
+      modal.classList.remove('hidden');
+    }
+
+    function closePolyModal() {
+      document.getElementById('polyModal').classList.add('hidden');
+    }
+
+    /**
+     * UI 互動事件監聽與初始化
+     */
+    document.addEventListener('DOMContentLoaded', () => {
+      const textInput = document.getElementById('textInput');
+      const charCount = document.getElementById('charCount');
+      const convertBtn = document.getElementById('convertBtn');
+
+      // 即時轉換與字數統計
+      function triggerConvert() {
+        const text = textInput.value;
+        charCount.textContent = `${text.length} 字`;
+        currentConvertedTokens = parseTextToTokens(text);
+        renderOutput();
+      }
+
+      textInput.addEventListener('input', triggerConvert);
+      convertBtn.addEventListener('click', triggerConvert);
+
+      // 快速載入預設語句
+      document.querySelectorAll('.preset-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          textInput.value = btn.dataset.text;
+          currentPolyOverrides = {}; // 重置多音字
+          triggerConvert();
+          showToast('已載入範例文本');
+        });
+      });
+
+      // 清空按鈕
+      document.getElementById('clearBtn').addEventListener('click', () => {
+        textInput.value = '';
+        currentConvertedTokens = [];
+        currentPolyOverrides = {};
+        renderOutput();
+        charCount.textContent = '0 字';
+      });
+
+      // 貼上按鈕
+      document.getElementById('pasteBtn').addEventListener('click', async () => {
+        try {
+          const text = await navigator.clipboard.readText();
+          textInput.value = text;
+          triggerConvert();
+          showToast('已貼上剪貼簿內容');
+        } catch (err) {
+          showToast('請直接在框內按 Ctrl+V 貼上');
+        }
+      });
+
+      // 顯示模式切換 Tab
+      document.querySelectorAll('.mode-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          document.querySelectorAll('.mode-tab').forEach(t => {
+            t.classList.remove('active-tab', 'bg-white', 'dark:bg-slate-800', 'text-canton-600', 'dark:text-canton-400', 'shadow-sm');
+            t.classList.add('text-slate-600', 'dark:text-slate-400');
+          });
+          tab.classList.add('active-tab', 'bg-white', 'dark:bg-slate-800', 'text-canton-600', 'dark:text-canton-400', 'shadow-sm');
+          tab.classList.remove('text-slate-600', 'dark:text-slate-400');
+
+          currentDisplayMode = tab.dataset.mode;
+          renderOutput();
+        });
+      });
+
+      // 聲調標示樣式切換 (數字 vs 符號)
+      const toneNumBtn = document.getElementById('toneNumBtn');
+      const toneMarkBtn = document.getElementById('toneMarkBtn');
+
+      toneNumBtn.addEventListener('click', () => {
+        currentToneStyle = 'number';
+        toneNumBtn.classList.add('bg-white', 'dark:bg-slate-800', 'text-canton-600', 'dark:text-canton-400', 'shadow-sm', 'font-semibold');
+        toneMarkBtn.classList.remove('bg-white', 'dark:bg-slate-800', 'text-canton-600', 'dark:text-canton-400', 'shadow-sm', 'font-semibold');
+        renderOutput();
+      });
+
+      toneMarkBtn.addEventListener('click', () => {
+        currentToneStyle = 'mark';
+        toneMarkBtn.classList.add('bg-white', 'dark:bg-slate-800', 'text-canton-600', 'dark:text-canton-400', 'shadow-sm', 'font-semibold');
+        toneNumBtn.classList.remove('bg-white', 'dark:bg-slate-800', 'text-canton-600', 'dark:text-canton-400', 'shadow-sm', 'font-semibold');
+        renderOutput();
+      });
+
+      // 朗讀與停止按鈕
+      document.getElementById('playAudioBtn').addEventListener('click', () => {
+        const text = textInput.value;
+        if (!text) {
+          showToast('請先輸入要朗讀的文字');
+          return;
+        }
+        speakCantonese(text);
+      });
+
+      document.getElementById('stopAudioBtn').addEventListener('click', () => {
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+        }
+      });
+
+      // 複製結果選單 Dropdown 開關
+      const copyMenuBtn = document.getElementById('copyMenuBtn');
+      const copyDropdown = document.getElementById('copyDropdown');
+
+      copyMenuBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        copyDropdown.classList.toggle('hidden');
+      });
+
+      document.addEventListener('click', () => {
+        copyDropdown.classList.add('hidden');
+      });
+
+      // 執行複製操作
+      document.querySelectorAll('.copy-opt').forEach(opt => {
+        opt.addEventListener('click', () => {
+          const type = opt.dataset.copy;
+          let textToCopy = '';
+
+          if (type === 'pure') {
+            currentConvertedTokens.forEach(t => {
+              if (t.isWord) {
+                const idx = currentPolyOverrides[t.index] || 0;
+                textToCopy += formatJyutping(t.readings[idx]) + ' ';
+              } else {
+                textToCopy += t.char;
+              }
+            });
+          } else if (type === 'ruby-html') {
+            const display = document.getElementById('outputDisplay');
+            textToCopy = display.innerHTML;
+          } else if (type === 'markdown') {
+            currentConvertedTokens.forEach(t => {
+              if (t.isWord) {
+                const idx = currentPolyOverrides[t.index] || 0;
+                textToCopy += `[${t.char}](${formatJyutping(t.readings[idx])})`;
+              } else {
+                textToCopy += t.char;
+              }
+            });
+          }
+
+          // 複製到剪貼簿 (相容模式)
+          const dummy = document.createElement('textarea');
+          document.body.appendChild(dummy);
+          dummy.value = textToCopy;
+          dummy.select();
+          document.execCommand('copy');
+          document.body.removeChild(dummy);
+
+          showToast('已成功複製到剪貼簿！');
+        });
+      });
+
+      // 粵語九聲六調 Modal 綁定
+      const tonesModal = document.getElementById('tonesModal');
+      document.getElementById('openTonesModalBtn').addEventListener('click', () => {
+        tonesModal.classList.remove('hidden');
+      });
+      document.getElementById('closeTonesModalBtn').addEventListener('click', () => {
+        tonesModal.classList.add('hidden');
+      });
+
+      // Modal 中的範例發音
+      document.querySelectorAll('.modal-play-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          speakCantonese(btn.dataset.word);
+        });
+      });
+
+      // 多音字 Modal 關閉
+      document.getElementById('closePolyModalBtn').addEventListener('click', closePolyModal);
+
+      // 深色 / 淺色主題切換
+      const themeToggleBtn = document.getElementById('themeToggleBtn');
+      themeToggleBtn.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+      });
+
+      // 預設載入範例 1
+      document.querySelector('.preset-btn').click();
+    });
+
+    /**
+     * Toast 提示彈框
+     */
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toastMsg');
+      toastMsg.textContent = message;
+
+      toast.classList.remove('translate-y-20', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-20', 'opacity-0');
+      }, 2500);
+    }
+  </script>
+</body>
+</html>
