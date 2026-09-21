@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-21 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Hyperliquid Just Hit a New All-Time High of $92. How Hyped Should Investors Be For HYPE?](https://finnhub.io/api/news?id=c10b3b48f1fb7498df68ce99758f10bb999146e2ee4e28eaf6c067b3891529b4)**  
-*Yahoo · 0h前*  
-Hyperliquid may be soaring, but how much longer can it hold on to its market-leading position?
-
-- **[Should You Buy Goldman Sachs Stock After Its 26% Run-Up From Its 52-Week Low?](https://finnhub.io/api/news?id=914f697be0912acb6c203d7c04a0324191aef76f4b038612d5ac888ba84d3bbc)**  
+- **[This Popular eVTOL Stock Could Still Turn $7,500 Into a Fortune](https://finnhub.io/api/news?id=143015adb01cf70561b6227e1daaa0a0db8d912578d50333d00e75993e2ad4e6)**  
 *Yahoo · 1h前*  
-The investment bank's stock is in a prime position to head higher.
+Joby is one of the most popular eVTOL stocks in the U.S. Can it really grow as big as Tesla?
 
-- **[Prediction: Nvidia's Revenue Growth Will Drive Shares to $400 Next Year](https://finnhub.io/api/news?id=d83ca8a35caceecee4eb9b849a83f6789e213dcb95f5dbc4b375f2e0d2890d4c)**  
+- **[Nscale, Rival Of CoreWeave And Nebius, Files For IPO](https://finnhub.io/api/news?id=334ac3beee69dce34eb824e3c66b69cdc2fcead43f53e6a7cc9fee4293486cc6)**  
 *Yahoo · 1h前*  
-Nvidia is guiding for 70% top-line growth in its next fiscal year, but the chipmaker has regularly proven too conservative with its guidance in the past.
+Nscale, a cloud computing rival of CoreWeave and Nebius, has filed for an IPO. Nscale stock will trade on the NYSE.
+
+- **[AI Chips Today - Einride NVIDIA Team Up for Autonomous Truck Expansion](https://finnhub.io/api/news?id=1b6e423a194ef5bef51d94edf4a9a15295074cfa1e77c5d7187bcfd6e11ca2a6)**  
+*Yahoo · 1h前*  
+Einride AB has announced a strategic collaboration with NVIDIA to enhance its autonomous trucking capabilities by integrating the NVIDIA DRIVE Hyperion platform…
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia is guiding for 70% top-line growth in its next fiscal year, but the chipm
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:03 HKT*
