@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$149.85** |
-| 今日變動 | ▲ $10.84　(+7.80%) |
+| 現價 | **$145.23** |
+| 今日變動 | ▼ $4.62　(-3.08%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $381　(▼24.1%) |
+| 未實現盈虧 | ▼ $418　(▼26.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $174.84 | — |
-| Put Wall（支撐） | $145.00 | -3.2% |
-| Call Wall（阻力） | $150.00 | +0.1% |
+| Gamma Flip | $182.77 | — |
+| Put Wall（支撐） | $140.00 | -3.6% |
+| Call Wall（阻力） | $200.00 | +37.7% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Did Nuclear Stocks OKLO, SMR, NNE, LEU, XE Jump On Thursday?](https://finnhub.io/api/news?id=a4d2fade4c908a809e6331df05a86e4ac0d1a956c7cb558a349ab173badff376)**  
-*Yahoo · 11h前*  
-Nuclear stocks jumped after the House passed the Ratepayers Protection Act, which aims to shift responsibility for paying for power upgrades from consumers to t…
-
-- **[Why Is Centrus Energy (LEU) Stock Soaring Today](https://finnhub.io/api/news?id=603e367166d6d66f20048311efb39e5ce548708fc256110a677bd4dd7c9e9b6d)**  
-*Yahoo · 14h前*  
-Shares of nuclear fuel supplier Centrus Energy (NYSE:LEU) jumped 7.1% in the afternoon session after the company and Antares Nuclear announced a definitive mult…
-
-- **[Centrus and Antares Sign Multi-Year HALEU Supply Contract](https://finnhub.io/api/news?id=4eefffe7d56f28cbd77b07a4d79d1d4c8b1f7a3bf23a01827528a78e9ad14514)**  
+- **[Centrus Energy (LEU) Signs Two HALEU Supply Agreements Backing Reactor And Security Demand](https://finnhub.io/api/news?id=6c17ba88bbb243dc27733904ae5adfd92c24c715276e8b026d1761862b563c64)**  
 *Yahoo · 1d前*  
-Centrus Energy (NYSE: LEU) and Antares Nuclear today announced the signing of a definitive multi-year contract for Centrus to supply Antares with High-Assay Low…
+Centrus Energy (NYSE:LEU) agreed to a multi year HALEU supply contract with Antares Nuclear to fuel advanced reactor projects. The company also signed an agreem…
+
+- **[NuScale Power Drops 7% as Nuclear Stocks Hand Back the Vote Rally; Oklo Falls 5%, Centrus Energy Slides 3%](https://finnhub.io/api/news?id=06979412e4d7e8fa9e0738ca5510c5e125f2a884451065b0614337b823162163)**  
+*Yahoo · 2d前*  
+A single House vote sent nuclear stocks surging Thursday, but Friday's trading tells a very different story about how durable that enthusiasm really was.
+
+- **[1 High-Flying Stock Worth Your Attention and 2 We Ignore](https://finnhub.io/api/news?id=dc07cb3897a78f02eb4aed3eadca782fc575318e239c42539b6a727c54b1c389)**  
+*Yahoo · 2d前*  
+“You get what you pay for” often applies to expensive stocks with best-in-class business models and execution. While their quality can sometimes justify the pre…
 
 ---
 
@@ -48,7 +48,7 @@ Centrus Energy (NYSE: LEU) and Antares Nuclear today announced the signing of a 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-18 | 監控 | $149.85 | — | 自動更新 |
+| 2026-09-21 | 監控 | $145.23 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Centrus Energy (NYSE: LEU) and Antares Nuclear today announced the signing of a 
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
