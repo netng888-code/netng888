@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[MarketBeat Week in Review – 09/14 - 09/18](https://finnhub.io/api/news?id=904750d2e043356ea12a4afb85fdf82a865d94b0a3b19739cc572b4f999707a8)**  
-*Yahoo · 1d前*  
-A volatile week saw AI regulation fears hit chip stocks before a recovery, with MarketBeat writers covering Micron, Nike, Tesla, Rocket Lab, Adobe, SpaceX and o…
+- **[Four Launches From 100: Rocket Lab Gets a Bullish New Call, With Iridium and Mynaric Along for the Ride](https://finnhub.io/api/news?id=f042c16cd8391dd9b71222296019135752c8292f1a9fa8833775496f817ee2d5)**  
+*Yahoo · 1h前*  
+Rocket Lab Corporation (NASDAQ:RKLB) is approaching a milestone, and Wall Street recently offered it a new vote of confidence that extends beyond the company’s …
 
-- **[MISSION SUCCESS: Rocket Lab Launches 96th Electron Mission](https://finnhub.io/api/news?id=a717e61af68010c56ec8be10152fc5c124ccb109ee7fb05fb1e7217a53e542d5)**  
-*Yahoo · 1d前*  
-MAHIA, New Zealand, Sept. 19, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in launch services and space systems, today succes…
+- **[Rocket Lab (RKLB) Dropped, So What Is Behind Its Latest Move?](https://finnhub.io/api/news?id=48543bbecac2da344e2d7b2ac36bd6df3e5961db9aeb1c897a6ec9973edf57e9)**  
+*Yahoo · 2h前*  
+Rocket Lab (RKLB) just completed another successful Synspective launch, maintained a 100% mission record with that customer, booked 15 more flights through 2030…
 
-- **[Is RKLB Stock Paying You Enough For The Swings?](https://finnhub.io/api/news?id=6efeb2b155a61b644c9f50218720123b43b0acf09c03582f6528e3b8507155ec)**  
-*Yahoo · 2d前*  
-Rocket Lab (RKLB) has gained 9.5% over the last five trading days, while the S&P 500 added 0.6%. A week like that pulls money in. The stock is still about 55% b…
+- **[Nasdaq, S&P 500, Dow Futures Rise Ahead Of Trump-Xi Summit This Week: NVDA, META, CRML, GLND, SPCX, RKLB, BE Stocks In Focus](https://finnhub.io/api/news?id=9bce2170c50609aa141158fa7494c9db6dc6a7ed2dab1506b9b890ad6c50a2bb)**  
+*Yahoo · 4h前*  
+Retail sentiment on SPY remained ‘bearish’, and moderated to ‘neutral’ on QQQ.
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab (RKLB) has gained 9.5% over the last five trading days, while the S&P
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
