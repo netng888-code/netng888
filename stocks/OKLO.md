@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,7 +35,7 @@
 Oklo’s updated fair value estimate has shifted to US$78.69 from US$88.63, which puts a fresh spotlight on how analysts are framing the stock today. The change c…
 
 - **[Got $1,000? 2 No-Brainer Nuclear Stocks to Buy Right Now.](https://finnhub.io/api/news?id=596e795656ecc32a2d18b84651424c99ffdb3c5a7e0bf3f6cd22d2c39a7491ec)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Nuclear demand is rising fast, and two very different stocks offer two very different ways for investors to cash in.
 
 - **[Everything You Need to Know About Oklo's Strategy](https://finnhub.io/api/news?id=69ea223c1109cd317cb5fd3e7a6c82b63eb32e3717f59dd9ec8c7f9e2f8ac62b)**  
@@ -59,4 +59,4 @@ The microreactor maker has a promising future, but it's also richly valued.
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
