@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$39.65** |
-| 今日變動 | ▲ $4.03　(+11.31%) |
+| 現價 | **$38.00** |
+| 今日變動 | ▼ $1.65　(-4.16%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▲ $384　(▲31.9%) |
+| 未實現盈虧 | ▲ $318　(▲26.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $37.87 | — |
-| Put Wall（支撐） | $35.00 | -11.7% |
-| Call Wall（阻力） | $45.00 | +13.5% |
+| Gamma Flip | $37.67 | — |
+| Put Wall（支撐） | $35.00 | -7.9% |
+| Call Wall（阻力） | $45.00 | +18.4% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[House Data Center Power Bill Lifts Nuclear Stocks: Here's Why](https://finnhub.io/api/news?id=45e5db6d9bf0c78438f94f6348c46c81326f767edded1e008030d1f0a814c4a3)**  
-*Yahoo · 1h前*  
-OKLO, SMR and NNE surged after a House bill shifted data-center power costs toward operators, spotlighting advanced nuclear as dedicated supply.
+- **[Oklo (OKLO) Stock Sees Fair Value Cut As Analysts Weigh Growth Against Execution Risk](https://finnhub.io/api/news?id=280c7e3d9221ed9ccca50be27cb1f81083ca79d50efb1f60eda4609e232a9e1a)**  
+*Yahoo · 1d前*  
+Oklo’s updated fair value estimate has shifted to US$78.69 from US$88.63, which puts a fresh spotlight on how analysts are framing the stock today. The change c…
 
-- **[The Anthropic IPO Could Be Bigger Than SpaceX. Here's What That Means for Vistra, Bloom Energy, and Oklo.](https://finnhub.io/api/news?id=43486c87606c085b6e407e31f48b4c26527b3fc482d5f4b3a5f8cae3e4a52c7b)**  
-*Yahoo · 2h前*  
-Spending from the AI giant could flow through nicely to electric power providers.
+- **[Got $1,000? 2 No-Brainer Nuclear Stocks to Buy Right Now.](https://finnhub.io/api/news?id=596e795656ecc32a2d18b84651424c99ffdb3c5a7e0bf3f6cd22d2c39a7491ec)**  
+*Yahoo · 1d前*  
+Nuclear demand is rising fast, and two very different stocks offer two very different ways for investors to cash in.
 
-- **[Why Did Nuclear Stocks OKLO, SMR, NNE, LEU, XE Jump On Thursday?](https://finnhub.io/api/news?id=a4d2fade4c908a809e6331df05a86e4ac0d1a956c7cb558a349ab173badff376)**  
-*Yahoo · 11h前*  
-Nuclear stocks jumped after the House passed the Ratepayers Protection Act, which aims to shift responsibility for paying for power upgrades from consumers to t…
+- **[Everything You Need to Know About Oklo's Strategy](https://finnhub.io/api/news?id=69ea223c1109cd317cb5fd3e7a6c82b63eb32e3717f59dd9ec8c7f9e2f8ac62b)**  
+*Yahoo · 2d前*  
+The microreactor maker has a promising future, but it's also richly valued.
 
 ---
 
@@ -48,7 +48,7 @@ Nuclear stocks jumped after the House passed the Ratepayers Protection Act, whic
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-18 | 監控 | $39.65 | — | 自動更新 |
+| 2026-09-21 | 監控 | $38.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nuclear stocks jumped after the House passed the Ratepayers Protection Act, whic
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
