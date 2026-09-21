@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$347.33** |
-| 今日變動 | ▲ $4.46　(+1.30%) |
-| 持倉數量 | 12 股 |
-| 平均成本 | $178.400 |
-| 未實現盈虧 | ▲ $2,027　(▲94.7%) |
+| 現價 | **$349.54** |
+| 今日變動 | ▲ $2.21　(+0.64%) |
+| 持倉數量 | 16 股 |
+| 平均成本 | $221.300 |
+| 未實現盈虧 | ▲ $2,052　(▲57.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $334.75 | — |
-| Put Wall（支撐） | $340.00 | -2.1% |
-| Call Wall（阻力） | $370.00 | +6.5% |
+| Gamma Flip | $332.88 | — |
+| Put Wall（支撐） | $330.00 | -5.6% |
+| Call Wall（阻力） | $370.00 | +5.9% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Top S&P500 movers in Friday's pre-market session](https://finnhub.io/api/news?id=22202a1c3b3db791efb6be9d5dde6ef4262d339064af13f5b47ade0f9a2e5171)**  
-*ChartMill · 0h前*  
-The US market session of Friday has yet to be opened, let's have a look at the top S&P500 gainers and losers in the pre-market session today.
-
-- **[Here's How Google Advertising Antitrust Ruling Could Play Out](https://finnhub.io/api/news?id=db17c6a1f0a2376c66703c6cdc817d074870cd786f0d3145252185f1c98c79a0)**  
+- **[Alphabet (GOOGL)’s Google Bets on Finland’s Cold Weather and Nuclear Power for its Next AI Buildout](https://finnhub.io/api/news?id=34a6ce19bbca6ed99288f4fc674fa3ea99dc1b7490cac9440b43e1d2434d64e0)**  
 *Yahoo · 1h前*  
-Google stock edged up after the federal judge unsealed a detailed remedies decision in an advertising antitrust case.
+On September 9, 2026, Reuters reported that Alphabet Inc. (NASDAQ:GOOGL)’s Google will invest at least €13 billion, or about $15.1 billion, in AI infrastructure…
 
-- **[Warren Buffett Steps Down as Berkshire Hathaway Chair: ‘Father Time Always Wins’](https://finnhub.io/api/news?id=b7f2ce56e48cdcea6bc750ee2faab4fa32786e4dd17ec929518dde72ce6cae3a)**  
-*Yahoo · 1h前*  
-After 60 years at the helm of Berkshire Hathaway, Warren Buffett just made a move that reshapes who controls the culture and the cash at one of the world's most…
+- **[Nvidia CEO Jensen Huang Expects Chip Sales To Double Next Year as He Downplays AI Slowdown Calls: 'When a Product is Not Safe...'](https://finnhub.io/api/news?id=383f38f0b4b6a98e3eef0ef94199e8885f4261665c393e8f04dd63422c06535a)**  
+*Yahoo · 3h前*  
+Nvidia Corporation CEO Jensen Huang expects the company to double its chip sales in the coming year. “I expect Nvidia to sell twice as many chips as this next y…
+
+- **[10 Years Later: 5 Low-Risk Stocks for the Next Year](https://finnhub.io/api/news?id=d238cf149199dfb297c5c7a7ac8373648dcde4c35ada6fa278c7873e72806c98)**  
+*Yahoo · 4h前*  
+Looking back at how five stocks picked specifically to beat the market over just the next year have now fared 10 years later.
 
 ---
 
@@ -48,7 +48,7 @@ After 60 years at the helm of Berkshire Hathaway, Warren Buffett just made a mov
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-18 | 監控 | $347.33 | — | 自動更新 |
+| 2026-09-21 | 監控 | $349.54 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ After 60 years at the helm of Berkshire Hathaway, Warren Buffett just made a mov
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 09:03 HKT*
