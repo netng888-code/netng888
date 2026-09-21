@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-21 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Alphabet (GOOGL)’s Google Bets on Finland’s Cold Weather and Nuclear Power for its Next AI Buildout](https://finnhub.io/api/news?id=34a6ce19bbca6ed99288f4fc674fa3ea99dc1b7490cac9440b43e1d2434d64e0)**  
+- **[Cloud Infrastructure Earnings Put AI Spending and Premium Valuations to the Test](https://finnhub.io/api/news?id=b2f6ee996e61d5f544545063e2cf9b4d1305b4147238a250fe920678cba847e1)**  
+*ChartMill · 0h前*  
+Key AI data center earnings test: hyperscaler cloud growth, capex, and data-center REIT leasing now must justify premium valuations after a strong rally.
+
+- **[The Tech Selloff Is Only Strengthening My Belief In Alphabet](https://finnhub.io/api/news?id=e6222db2e5e7db2760c706194e0753a2e4e935ae331fbe72b3733331913c1c02)**  
 *Yahoo · 1h前*  
-On September 9, 2026, Reuters reported that Alphabet Inc. (NASDAQ:GOOGL)’s Google will invest at least €13 billion, or about $15.1 billion, in AI infrastructure…
+While most investors flee the tech selloff, one mega cap keeps pulling more capital in the opposite direction, and the reasoning has nothing to do with hoping f…
 
-- **[Nvidia CEO Jensen Huang Expects Chip Sales To Double Next Year as He Downplays AI Slowdown Calls: 'When a Product is Not Safe...'](https://finnhub.io/api/news?id=383f38f0b4b6a98e3eef0ef94199e8885f4261665c393e8f04dd63422c06535a)**  
-*Yahoo · 3h前*  
-Nvidia Corporation CEO Jensen Huang expects the company to double its chip sales in the coming year. “I expect Nvidia to sell twice as many chips as this next y…
-
-- **[10 Years Later: 5 Low-Risk Stocks for the Next Year](https://finnhub.io/api/news?id=d238cf149199dfb297c5c7a7ac8373648dcde4c35ada6fa278c7873e72806c98)**  
-*Yahoo · 4h前*  
-Looking back at how five stocks picked specifically to beat the market over just the next year have now fared 10 years later.
+- **[Here’s What to Expect From AI’s Two Biggest 2026 Spenders in 2027](https://finnhub.io/api/news?id=d4cd92013a3f7dbd95b27a30af3a8338a2a8c84504c69a71a94717a4db402dd5)**  
+*Yahoo · 1h前*  
+Amazon and Alphabet are together pouring close to $400 billion into AI infrastructure this year, and the race to turn that mountain of spending into actual prof…
 
 ---
 
@@ -59,4 +59,4 @@ Looking back at how five stocks picked specifically to beat the market over just
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:03 HKT*
