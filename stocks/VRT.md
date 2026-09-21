@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$241.49** |
-| 今日變動 | ▲ $2.08　(+0.87%) |
+| 現價 | **$249.39** |
+| 今日變動 | ▲ $7.90　(+3.27%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $125　(▼20.5%) |
+| 未實現盈虧 | ▼ $109　(▼17.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $255.23 | — |
-| Put Wall（支撐） | $240.00 | -0.6% |
-| Call Wall（阻力） | $250.00 | +3.5% |
+| Gamma Flip | $257.73 | — |
+| Put Wall（支撐） | $220.00 | -11.8% |
+| Call Wall（阻力） | $260.00 | +4.3% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Power Stocks Rally After Generac's Deal For Amazon Data Centers](https://finnhub.io/api/news?id=47b8ffbd43b1348fb8a614f37c0b76734d89a30aa3f202ddb2328352dbe1e2c2)**  
-*Yahoo · 15h前*  
-Generac's Amazon agreement spotlighted an emerging growth lever as the rapid buildout of data centers offsets sluggish demand for home standby generators. The n…
+- **[2 Superior AI Infrastructure Stocks to Buy and Hold for 10 Years](https://finnhub.io/api/news?id=d9cbf991e1775fff3bdd3edb3e6c4ab2635f1d36cf3dad19b25ce5316de2f1d5)**  
+*Yahoo · 4h前*  
+Arista Networks and Vertiv Holdings give investors two long-term ways to play the AI boom beyond the crowded chip trade.
 
-- **[Should You Buy Vertiv Stock For Its Widening Margin Despite Delivery Doubts?](https://finnhub.io/api/news?id=5d2673d3deb97ec5e1d63b3995285f5d703dbab6c5b8dcb1eade821b6932491c)**  
-*Yahoo · 16h前*  
-Vertiv (VRT) supplies the power and cooling systems inside AI data centers, and its stock sits near $240, about 64% of its 52-week high. It is still up about 73…
+- **[AI's Power Bottleneck Is Here, Profiting Is The Hard Part](https://finnhub.io/api/news?id=8b4a703d965de4e1fdcd81a5afcbb51a6339fcd086a966e5299153d2962d9f9c)**  
+*SeekingAlpha · 6h前*  
+AI power trade cooled in 2024 despite rising earnings.
 
-- **[Jim Cramer Presses OpenAI CFO on AI Spending. 6 Stocks Are Riding on What Happens Next](https://finnhub.io/api/news?id=18d3bae4a7e7b37c2d5f7c7bfa79311120ac6c5f1d1d3ef67ced12d9da8dacf0)**  
-*Yahoo · 17h前*  
-Jim Cramer put OpenAI's CFO on the spot about whether a safety-driven slowdown could pull the rug out from under billions in AI infrastructure spending, and her…
+- **[Oracle Has Committed Hundreds of Billions to AI Data Centers. These 2 Industrial Stocks Will Power Them.](https://finnhub.io/api/news?id=755a800258640b6a9416ef74f735a7e011acba52f61f342363808c0c65d6d329)**  
+*Yahoo · 1d前*  
+Oracle's AI spending spree needs power and cooling to match. Two industrial stocks are already cashing in on that demand.
 
 ---
 
@@ -48,7 +48,7 @@ Jim Cramer put OpenAI's CFO on the spot about whether a safety-driven slowdown c
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-18 | 監控 | $241.49 | — | 自動更新 |
+| 2026-09-21 | 監控 | $249.39 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Jim Cramer put OpenAI's CFO on the spot about whether a safety-driven slowdown c
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
