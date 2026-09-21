@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir Nearly Doubled Its Revenue. Its Stock Stood Still. Is It Time to Buy the Stock?](https://finnhub.io/api/news?id=a1be0ba270d37e86f0c50ae75bc4a60caedbe0901a3fbb802035fc022f39d416)**  
-*Yahoo · 1h前*  
-The software maker is growing faster than ever, yet its shares sit about where they were a year ago. So is the stock finally reasonably priced?
+- **[Palantir CEO Alex Karp Says Only Washington Can Cap AI Liability: 'These Businesses Have to Be Nationalized'](https://finnhub.io/api/news?id=c3ebce33b3f259ee0819d9e3da82cd5fc6e9772633e75acf1db49966846dc118)**  
+*Yahoo · 2h前*  
+With President Donald Trump and Vice President J.D. Vance chiming in on potential AI regulation in recent days, Palantir Technologies CEO and co-founder Alex Ka…
 
-- **[Why You Should Avoid Palantir and Buy These 2 Defense Stocks Instead](https://finnhub.io/api/news?id=8f9316959e49175d5a269885a5c8e8dfc7c7e5b76e4814c9aa943db72fdac021)**  
-*Yahoo · 12h前*  
-Palantir is in the AI defense spotlight, but a pair of hardware-focused rivals may offer a steadier way to play the same trend.
+- **[Vertical Aerospace Appoints Former Airbus Commercial Aircraft CEO Fabrice Brégier as Chair as it Accelerates Commercialisation and Defence Strategy](https://finnhub.io/api/news?id=5d4d2845bca803591c272967496ba6166d5ac3b8c2eeb348d020fbabac431d7d)**  
+*Yahoo · 3h前*  
+LONDON & NEW YORK, September 21, 2026--Vertical Aerospace ("Vertical" or the "Company") [NYSE: EVTL], a global aerospace and technology company pioneering elect…
 
-- **[Cathie Wood Sold Palantir and AMD, Then Poured $3.35 Million Into Archer Aviation. Is ARK Betting Big on Flying Taxis?](https://finnhub.io/api/news?id=f4c0f2c2b84a8d7451e2891debfae50698eb6af3372638e99e843a12c75546bb)**  
-*Yahoo · 1d前*  
-Cathie Wood just bought more shares of Archer Aviation for her company's flagship ETF.
+- **[Michael Burry Doubles Down On Palantir Bear Case: ‘A Lot Of’ Money Still To Be Made Shorting PLTR](https://finnhub.io/api/news?id=2485367c5bf7624fbe2852bc4ca0080b1d09b4a8f6113e738f7ac90e50287b7c)**  
+*Yahoo · 4h前*  
+“The Big Short” investor keeps his Palantir short play even as the AI stock rebounds.
 
 ---
 
@@ -59,4 +59,4 @@ Cathie Wood just bought more shares of Archer Aviation for her company's flagshi
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
