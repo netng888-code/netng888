@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$347.30** |
-| 今日變動 | ▲ $7.79　(+2.29%) |
+| 現價 | **$357.61** |
+| 今日變動 | ▲ $10.31　(+2.97%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $285　(▼7.6%) |
+| 未實現盈虧 | ▼ $182　(▼4.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $353.78 | — |
-| Put Wall（支撐） | $340.00 | -2.1% |
-| Call Wall（阻力） | $350.00 | +0.8% |
+| Gamma Flip | $356.49 | — |
+| Put Wall（支撐） | $350.00 | -2.1% |
+| Call Wall（阻力） | $360.00 | +0.7% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Chips Update - BrainChip Expands Edge AI Capabilities With New Development Card](https://finnhub.io/api/news?id=f814dbddfddf2d2d25e38b07ccd46ac49c1f2c9eac310fa273678ff00fe79bc9)**  
-*Yahoo · 1h前*  
-BrainChip Holdings Ltd. has launched the AKD1500 PCIe development card, designed to facilitate edge AI evaluation by enabling installation in standard PCIe slot…
+- **[Jim Cramer shares a strong verdict on Broadcom stock for investors](https://finnhub.io/api/news?id=e96d74cb7dc6af96be08af57e4d036b3adb38d8c7f7127e31b87796e6857e1aa)**  
+*Yahoo · 7h前*  
+Jim Cramer watched what happened to Broadcom stock on September 14 and came to Mad Money that evening with a very specific read on the selloff.
 
-- **[Broadcom (NASDAQ:AVGO): A Compelling Affordable Growth Story With Elite Expansion and Reasonable Forward Valuation](https://finnhub.io/api/news?id=add6428a1670d10b32e52aafe7601334cb2dc30332e3dbd7d3e6179a1f064581)**  
-*ChartMill · 3h前*  
-Broadcom (AVGO) earns 8/10 for affordable growth, with elite growth, strong profitability, and a reasonable forward valuation for investors.
+- **[Wall Street Brunch: U.S.-China Summit In Spotlight](https://finnhub.io/api/news?id=e2972381010a8ed6329d7047e94f453e8c0e4121e4497cf8ad3a417c76f42666)**  
+*SeekingAlpha · 11h前*  
+Trump and Xi meet with trade, tariffs and AI on deck. Trump pitches an AI Force while Google reveals a Gemini breach. Costco earnings put its sky-high valuation…
 
-- **[Nvidia vs. Broadcom: Whose AI Revenue Actually Grows Faster From Here?](https://finnhub.io/api/news?id=12a943c49b0c41542e6110b5907bd643716ff95df92c7be7cfdba4c415d5c29d)**  
-*Yahoo · 4h前*  
-Broadcom has higher AI revenue growth projections, but Nvidia's larger and more diversified business could make its growth more durable.
+- **[Semis: Market Has Completely Misunderstood The Potential AI Slowdown](https://finnhub.io/api/news?id=e5f2ea56408c6c3b9318e1143e1d66c8a4e1547f4f50cadb3945ab5cad1bf104)**  
+*SeekingAlpha · 16h前*  
+Reallocate into semiconductors now: Nvidia and Broadcom lead AI chip demand as valuations hit multi-year lows and compute capacity surgesâread the case.
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom has higher AI revenue growth projections, but Nvidia's larger and more 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-18 | 監控 | $347.30 | — | 自動更新 |
+| 2026-09-21 | 監控 | $357.61 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom has higher AI revenue growth projections, but Nvidia's larger and more 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 09:03 HKT*
