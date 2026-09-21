@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-21 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $356.49 | — |
 | Put Wall（支撐） | $350.00 | -2.1% |
-| Call Wall（阻力） | $360.00 | +0.7% |
+| Call Wall（阻力） | $400.00 | +11.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Jim Cramer shares a strong verdict on Broadcom stock for investors](https://finnhub.io/api/news?id=e96d74cb7dc6af96be08af57e4d036b3adb38d8c7f7127e31b87796e6857e1aa)**  
-*Yahoo · 7h前*  
-Jim Cramer watched what happened to Broadcom stock on September 14 and came to Mad Money that evening with a very specific read on the selloff.
+- **[Credo Technology Crashed for 3 Months: This Wall Street Pro Says It’s About to Double](https://finnhub.io/api/news?id=aa0241fb0d9063a137cf7d29215db7a7d22c088b64fff17b59b37da0c2cf6fb6)**  
+*Yahoo · 1h前*  
+A fabless semiconductor company just posted 115% revenue growth, beat earnings, and raised guidance, yet the stock cratered 43% from its highs. One Wall Street …
 
-- **[Wall Street Brunch: U.S.-China Summit In Spotlight](https://finnhub.io/api/news?id=e2972381010a8ed6329d7047e94f453e8c0e4121e4497cf8ad3a417c76f42666)**  
-*SeekingAlpha · 11h前*  
-Trump and Xi meet with trade, tariffs and AI on deck. Trump pitches an AI Force while Google reveals a Gemini breach. Costco earnings put its sky-high valuation…
+- **[AI Chips Today - Einride NVIDIA Team Up for Autonomous Truck Expansion](https://finnhub.io/api/news?id=1b6e423a194ef5bef51d94edf4a9a15295074cfa1e77c5d7187bcfd6e11ca2a6)**  
+*Yahoo · 1h前*  
+Einride AB has announced a strategic collaboration with NVIDIA to enhance its autonomous trucking capabilities by integrating the NVIDIA DRIVE Hyperion platform…
 
-- **[Semis: Market Has Completely Misunderstood The Potential AI Slowdown](https://finnhub.io/api/news?id=e5f2ea56408c6c3b9318e1143e1d66c8a4e1547f4f50cadb3945ab5cad1bf104)**  
-*SeekingAlpha · 16h前*  
-Reallocate into semiconductors now: Nvidia and Broadcom lead AI chip demand as valuations hit multi-year lows and compute capacity surgesâread the case.
+- **[“Our Targets Haven’t Changed”: Broadcom’s CEO Pushes Back on the AI Slowdown Scare](https://finnhub.io/api/news?id=91d0dff52b8ac206bff53409dc88dfb65c9ab59adb6c8015090eb61ed8e49b26)**  
+*Yahoo · 1h前*  
+When Anthropic CEO Dario Amodei wrote a weekend essay proposing that the AI industry should deliberately restrict its pace of progress, few companies were more …
 
 ---
 
@@ -59,4 +59,4 @@ Reallocate into semiconductors now: Nvidia and Broadcom lead AI chip demand as v
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:03 HKT*
