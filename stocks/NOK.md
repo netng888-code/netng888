@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $9.24 | — |
 | Put Wall（支撐） | $10.00 | -6.4% |
-| Call Wall（阻力） | $11.00 | +3.0% |
+| Call Wall（阻力） | $12.00 | +12.4% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[NOK Stock Rises Overnight: Nokia’s EURO STOXX 50 Index Return On Monday Adds To AI-Fueled Momentum](https://finnhub.io/api/news?id=59de802070fab17442b80fcbe7d16eebb625901192e8797e5a0cc0bddd8ae381)**  
+*Yahoo · 7h前*  
+Nokia will rejoin the top Eurozone index a year after it was dropped.
+
+- **[Nokia (NOK) Gets a Buy Rating, But Q2 Operating Loss Raises Questions](https://finnhub.io/api/news?id=512909e0c0638b51fa63d7ea9eb70115060b83867c1dc89311497277da8ee048)**  
+*Yahoo · 15h前*  
+On September 17, B. Riley initiated coverage of Nokia Oyj (NYSE:NOK), giving the stock a Buy rating and setting the price target at $15. The firm pointed to the…
+
 - **[Nokia: Back To The Buy Zone (Rating Upgrade)](https://finnhub.io/api/news?id=81f9f8dcda256599b9e9254387d6aeca55be81079293ce012cde589f6a65c839)**  
-*SeekingAlpha · 11h前*  
+*SeekingAlpha · 23h前*  
 Nokia stock looks undervalued near $10 as AI & Cloud orders surge, boosting optical networking demand and long-term growth.
-
-- **[Can Nokia Oyj (HLSE:NOKIA) Speed Up Telecom AI With Its New Data Push?](https://finnhub.io/api/news?id=982b341e553b39483d8c543df42b944e2656b2b183c54bdcfaa75d44194c34ba)**  
-*Yahoo · 21h前*  
-Nokia Oyj (HLSE:NOKIA) expanded its partnership with Microsoft to transform telecom automation using unified, AI-driven data operations. The collaboration conne…
-
-- **[Cramer strongly recommends buying beaten-down 90s tech legend](https://finnhub.io/api/news?id=c0c92924ae13cb6f019c9e221fca221df8b2936806878be8b9ee43a0d423aa82)**  
-*Yahoo · 1d前*  
-Jim Cramer touts a former mobile phone king as an AI buy, though its Q2 cash flow raises questions.
 
 ---
 
@@ -59,4 +59,4 @@ Jim Cramer touts a former mobile phone king as an AI buy, though its Q2 cash flo
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
