@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[I Own Constellation for the Nuclear Fleet, Not the AI Headlines. Here's Why That Matters Now.](https://finnhub.io/api/news?id=e11fb55c785609bebbc03e8c0bfbfcf7e049cc348c8f0c27548bf659d9d222e0)**  
-*Yahoo · 6h前*  
-Constellation Energy has the largest nuclear fleet in the country and should benefit from rising power demand in the decades ahead.
+- **[The Tech Selloff Is Only Strengthening My Belief In Alphabet](https://finnhub.io/api/news?id=e6222db2e5e7db2760c706194e0753a2e4e935ae331fbe72b3733331913c1c02)**  
+*Yahoo · 1h前*  
+While most investors flee the tech selloff, one mega cap keeps pulling more capital in the opposite direction, and the reasoning has nothing to do with hoping f…
 
-- **[Billionaire Bill Ackman Dumps Alphabet and Loads Up On a Mega-Cap Stock Down 15% From Its Peak](https://finnhub.io/api/news?id=56a88259e6c7a2b419478646572c22a8e11ababde44e86683f8b7b0d43bdbdeb)**  
-*Yahoo · 7h前*  
-Bill Ackman sold Alphabet and bought Meta Platforms during Q2.
+- **[“The Mag 7’s Market Cap Is Going to $100 Trillion. But One of Them Is Going Extinct.”](https://finnhub.io/api/news?id=fad5e48a90f9229ee27d3aa930d6928bc5fe2e6cbf0ddae87e5dc316d2a14b15)**  
+*Yahoo · 2h前*  
+One veteran hedge fund manager believes the Magnificent 7 will grow into one of the most dominant forces in financial history, yet predicts that one or two of t…
 
-- **[Why India's Big Tech Companies Are Betting on Hyderabad](https://finnhub.io/api/news?id=2dd6c7e1c1d8b3a34ca4f9ff7edc0dbfd2a9fd41500476d5dd7fd27aef7565c5)**  
-*Yahoo · 8h前*  
-Hyderabad has spent decades building the talent, infrastructure and business climate to compete with Bangalore, attracting major tech firms while becoming a hub…
+- **[Intel, AMD, Strategy, Meta, Warner Bros, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=b3b59ff9b83f681c5e62ceb4f8930350c30a4bb14d81b480bc0ff32769fb5535)**  
+*Yahoo · 3h前*  
+Stock futures were rising to start the week as oil prices fell and the market digested positive progress between the U.S. and China
 
 ---
 
@@ -59,4 +59,4 @@ Hyderabad has spent decades building the talent, infrastructure and business cli
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:03 HKT*
