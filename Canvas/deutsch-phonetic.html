@@ -143,6 +143,16 @@
   .seg-group button.active { background: var(--accent); color: var(--accent-ink); font-weight: 600; }
   .seg-group button:hover:not(.active):not(:disabled) { background: var(--bg); }
 
+  .lang-select {
+    font-family: var(--font-slab);
+    font-size: 0.85rem;
+    color: var(--ink);
+    background: var(--bg);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 0.4rem 0.5rem;
+  }
+
   #output {
     margin-top: 1.6rem;
     padding-top: 1.4rem;
@@ -245,8 +255,22 @@
       <button class="btn-primary" id="playAllBtn" type="button">
         <span class="speaker-icon">🔊</span> 播放全文
       </button>
+      <div class="toolbar-group">
+        <span class="toolbar-label">翻譯做:</span>
+        <select id="translateLang" class="lang-select">
+          <option value="en">英文</option>
+          <option value="zh-TW">繁體中文</option>
+          <option value="zh-CN">簡體中文</option>
+          <option value="ja">日文</option>
+          <option value="ko">韓文</option>
+          <option value="fr">法文</option>
+          <option value="es">西班牙文</option>
+        </select>
+        <button class="btn-secondary" id="translateBtn" type="button">用 Google 翻譯開啟</button>
+      </div>
     </div>
     <div class="tts-note" id="ttsNote" hidden>呢個瀏覽器唔支援語音朗讀,「播放」功能用唔到。</div>
+    <div class="tts-note">「用 Google 翻譯開啟」會開新分頁——Google 唔畀人將翻譯結果塞落其他網站頁面度顯示,所以做唔到喺呢頁度直接睇結果。</div>
 
     <div id="output"><span class="hint">按「轉做拼音」睇結果,或者撳個德文字聽讀音。</span></div>
 
@@ -706,6 +730,15 @@
     if (!text.trim()) return;
     btn.classList.add("speaking");
     speak(text, function () { btn.classList.remove("speaking"); });
+  });
+
+  document.getElementById("translateBtn").addEventListener("click", function () {
+    var text = document.getElementById("input").value.trim();
+    if (!text) return;
+    var tl = document.getElementById("translateLang").value;
+    var url = "https://translate.google.com/?sl=de&tl=" + encodeURIComponent(tl) +
+      "&text=" + encodeURIComponent(text) + "&op=translate";
+    window.open(url, "_blank", "noopener");
   });
 
   buildLegend();
