@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $224.58 | — |
 | Put Wall（支撐） | $200.00 | -18.1% |
-| Call Wall（阻力） | $250.00 | +2.4% |
+| Call Wall（阻力） | $300.00 | +22.8% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[3 AI Hardware Stocks Linked To Nvidia And US China Trade Talks](https://finnhub.io/api/news?id=ebe5949ad0e96af93bd3c674af590ee606aa88f53a3a3ef1a1d2b011add649f2)**  
-*Yahoo · 9h前*  
-AI hardware went from tech niche to geopolitical bargaining chip almost overnight, as Nvidia CEO Jensen Huang now shapes how President Trump talks about regulat…
+- **[Credo Technology Crashed for 3 Months: This Wall Street Pro Says It’s About to Double](https://finnhub.io/api/news?id=aa0241fb0d9063a137cf7d29215db7a7d22c088b64fff17b59b37da0c2cf6fb6)**  
+*Yahoo · 1h前*  
+A fabless semiconductor company just posted 115% revenue growth, beat earnings, and raised guidance, yet the stock cratered 43% from its highs. One Wall Street …
 
-- **[Broadcom: 5 Reasons To Buy This Dip](https://finnhub.io/api/news?id=e626abd251e326fcb3191f5308cdd521d8161410b30c4b9c2d9de411fc7c1e5f)**  
-*SeekingAlpha · 16h前*  
-Broadcom AI chip growth is accelerating, but TPU competition and margin pressures loom. Click for more on AVGO stock.
+- **[Intel, AMD, Strategy, Meta, Warner Bros, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=b3b59ff9b83f681c5e62ceb4f8930350c30a4bb14d81b480bc0ff32769fb5535)**  
+*Yahoo · 3h前*  
+Stock futures were rising to start the week as oil prices fell and the market digested positive progress between the U.S. and China
 
-- **[How Expanded GlobalFoundries SiGe Capacity for AI Optics Will Impact Marvell Technology (MRVL) Investors](https://finnhub.io/api/news?id=faa0d1a692d407fe68793da595e59fc310b4b444569a1f2b68a1055ed29b5fa7)**  
-*Yahoo · 18h前*  
-Earlier this month, GlobalFoundries and Marvell Technology expanded a multi-year agreement to boost silicon germanium chip capacity at GlobalFoundries’ Vermont …
+- **[Tough Times for Stockpickers: Passive Index Funds Continue To Dominate](https://finnhub.io/api/news?id=b43020d44c24c9ffa1f606f1e995595f65fb190a7baf144a6285ac619d20f1bf)**  
+*Yahoo · 7h前*  
+A recent report by Jefferies shows that passive investing strategies are attracting an even greater share of investor inflows as stock-picking strategies underp…
 
 ---
 
@@ -59,4 +59,4 @@ Earlier this month, GlobalFoundries and Marvell Technology expanded a multi-year
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:03 HKT*
