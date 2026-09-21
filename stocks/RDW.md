@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -39,7 +39,7 @@ On September 16, toward the end of the lightning round, a caller asked what Jim 
 Rocket Lab (RKLB) has gained 9.5% over the last five trading days, while the S&P 500 added 0.6%. A week like that pulls money in. The stock is still about 55% b…
 
 - **[1 Industrials Stock with Promising Prospects and 2 Facing Headwinds](https://finnhub.io/api/news?id=92ff30f79c4a3d6525dcce0661d0281243e7eb87c11bc3b94f9bb36d847215f6)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 Even if they go mostly unnoticed, industrial businesses are the backbone of our country. Still, their generally high capital requirements expose them to the ups…
 
 ---
@@ -59,4 +59,4 @@ Even if they go mostly unnoticed, industrial businesses are the backbone of our 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
