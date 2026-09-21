@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[2 Superior AI Infrastructure Stocks to Buy and Hold for 10 Years](https://finnhub.io/api/news?id=d9cbf991e1775fff3bdd3edb3e6c4ab2635f1d36cf3dad19b25ce5316de2f1d5)**  
+- **[3 AI Infrastructure Stocks To Watch As Data Center Spending Reshapes Demand](https://finnhub.io/api/news?id=80bebfa9870d915eadc1dbaf4d5c9fca22c6babed6153af8b76d6be84320d958)**  
+*Yahoo · 2h前*  
+Higher rates, sticky inflation and a 10-year Treasury around 5% are squeezing lofty valuations, yet AI infrastructure spending keeps pulling fresh capital into …
+
+- **[What Higher Interest Rates Mean for Caterpillar, GE Vernova, and Vertiv](https://finnhub.io/api/news?id=a6d1e5cdc9837aeb762ca6f65b3cc38feef8426fbfa16289cf62e1273014792d)**  
 *Yahoo · 4h前*  
-Arista Networks and Vertiv Holdings give investors two long-term ways to play the AI boom beyond the crowded chip trade.
+It's important not to panic over the impact of rising rates on industrial stocks, not least because they are likely to affect different stocks in varied ways.
 
-- **[AI's Power Bottleneck Is Here, Profiting Is The Hard Part](https://finnhub.io/api/news?id=8b4a703d965de4e1fdcd81a5afcbb51a6339fcd086a966e5299153d2962d9f9c)**  
-*SeekingAlpha · 6h前*  
-AI power trade cooled in 2024 despite rising earnings.
-
-- **[Oracle Has Committed Hundreds of Billions to AI Data Centers. These 2 Industrial Stocks Will Power Them.](https://finnhub.io/api/news?id=755a800258640b6a9416ef74f735a7e011acba52f61f342363808c0c65d6d329)**  
-*Yahoo · 1d前*  
-Oracle's AI spending spree needs power and cooling to match. Two industrial stocks are already cashing in on that demand.
+- **[Vertiv Holdings Co-A (NYSE:VRT): An Affordable Growth Case Backed by Strong Profitability](https://finnhub.io/api/news?id=9ef0d00f6eabc8ba38615ab12bca022b5fd68040aa43253689f48905257f1c71)**  
+*ChartMill · 4h前*  
+Vertiv (VRT) screens as affordable growth: strong revenue/EPS growth, high profitability and solid health, though valuation hinges on forecasts.
 
 ---
 
@@ -59,4 +59,4 @@ Oracle's AI spending spree needs power and cooling to match. Two industrial stoc
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
