@@ -1,6 +1,6 @@
 # LYTE — Roundhill Photonics & Optics ETF
 
-> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -51,4 +51,4 @@ Photonics is emerging as a key AI infrastructure technology, with surging invest
 - [TradingView](https://www.tradingview.com/chart/?symbol=LYTE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
