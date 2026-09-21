@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-18 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$682.31** |
-| 今日變動 | ▲ $9.00　(+1.34%) |
+| 現價 | **$665.75** |
+| 今日變動 | ▼ $16.56　(-2.43%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $228　(▲12.5%) |
+| 未實現盈虧 | ▲ $178　(▲9.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $588.40 | — |
-| Put Wall（支撐） | $670.00 | -1.8% |
-| Call Wall（阻力） | $700.00 | +2.6% |
+| Gamma Flip | $585.03 | — |
+| Put Wall（支撐） | $640.00 | -3.9% |
+| Call Wall（阻力） | $750.00 | +12.7% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Manus Eyes $4 Billion Valuation in First Round Since Beijing Forced Meta to Walk Away](https://finnhub.io/api/news?id=44d952d0d9094d6052dbfdbdeb9c70a58788b9c27e06f3fd7f76808b762315a1)**  
-*Yahoo · 1h前*  
-Manus AI is in discussions to raise $500 million at a $4 billion valuation, which would make it China’s most valuable autonomous agent startup. The round is not…
+- **[I Own Constellation for the Nuclear Fleet, Not the AI Headlines. Here's Why That Matters Now.](https://finnhub.io/api/news?id=e11fb55c785609bebbc03e8c0bfbfcf7e049cc348c8f0c27548bf659d9d222e0)**  
+*Yahoo · 6h前*  
+Constellation Energy has the largest nuclear fleet in the country and should benefit from rising power demand in the decades ahead.
 
-- **[Meta Vs. Oracle: The Laggards of AI Capex Payback Velocity](https://finnhub.io/api/news?id=ba3b7bc83aba24868f837ac223c7c588f138e08f6cb62dea4bdef74a9dd5b190)**  
-*Yahoo · 1h前*  
-Oracle is sitting on a $664 billion backlog while Meta just watched its free cash flow crater by more than 90%, yet both companies are pouring tens of billions …
+- **[Billionaire Bill Ackman Dumps Alphabet and Loads Up On a Mega-Cap Stock Down 15% From Its Peak](https://finnhub.io/api/news?id=56a88259e6c7a2b419478646572c22a8e11ababde44e86683f8b7b0d43bdbdeb)**  
+*Yahoo · 7h前*  
+Bill Ackman sold Alphabet and bought Meta Platforms during Q2.
 
-- **[Meta: Buy The Muse Catalyst, But Watch The AI Bill](https://finnhub.io/api/news?id=2491b3c6ba7e4119527595ad9dd44b2835963e4456ec1f82d8a9c10af5290803)**  
-*SeekingAlpha · 4h前*  
-Meta Platforms, Inc. Buy rating: Q2 FY2026 revenue up 28% YoY as AI boosts ad performance and consumer AI emerges. Click for this META update.
+- **[Why India's Big Tech Companies Are Betting on Hyderabad](https://finnhub.io/api/news?id=2dd6c7e1c1d8b3a34ca4f9ff7edc0dbfd2a9fd41500476d5dd7fd27aef7565c5)**  
+*Yahoo · 8h前*  
+Hyderabad has spent decades building the talent, infrastructure and business climate to compete with Bangalore, attracting major tech firms while becoming a hub…
 
 ---
 
@@ -48,7 +48,7 @@ Meta Platforms, Inc. Buy rating: Q2 FY2026 revenue up 28% YoY as AI boosts ad pe
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-18 | 監控 | $682.31 | — | 自動更新 |
+| 2026-09-21 | 監控 | $665.75 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Meta Platforms, Inc. Buy rating: Q2 FY2026 revenue up 28% YoY as AI boosts ad pe
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
