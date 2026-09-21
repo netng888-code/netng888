@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-18 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-21 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$176.24** |
-| 今日變動 | ▲ $1.90　(+1.09%) |
+| 現價 | **$177.64** |
+| 今日變動 | ▲ $1.40　(+0.79%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $363　(▲41.7%) |
+| 未實現盈虧 | ▲ $373　(▲42.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $165.56 | — |
-| Put Wall（支撐） | $170.00 | -3.5% |
-| Call Wall（阻力） | $180.00 | +2.1% |
+| Gamma Flip | $165.77 | — |
+| Put Wall（支撐） | $170.00 | -4.3% |
+| Call Wall（阻力） | $200.00 | +12.6% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[2 Game-Changing AI Stocks That Can Plunge 48% and 54%, According to Select Wall Street Analysts](https://finnhub.io/api/news?id=98f7e3745d1731726d1dbcda9e2ff197478a1640a685c3baecaf83a7dd70be59)**  
+- **[Palantir Nearly Doubled Its Revenue. Its Stock Stood Still. Is It Time to Buy the Stock?](https://finnhub.io/api/news?id=a1be0ba270d37e86f0c50ae75bc4a60caedbe0901a3fbb802035fc022f39d416)**  
 *Yahoo · 1h前*  
-Despite popular belief, optimism about the artificial intelligence (AI) revolution isn’t universal on Wall Street.
+The software maker is growing faster than ever, yet its shares sit about where they were a year ago. So is the stock finally reasonably priced?
 
-- **[Prediction: This Will Be Palantir's Stock Price 1 Year From Now (Hint: It's a Bigger Move Than You Think)](https://finnhub.io/api/news?id=670f81445074ae8ec03c7c9f162c7a32d5ad6a03cdc66b9238d98b74e74f9076)**  
-*Yahoo · 4h前*  
-Palantir stock is flat on the year, but meaningful upside could be on the horizon.
+- **[Why You Should Avoid Palantir and Buy These 2 Defense Stocks Instead](https://finnhub.io/api/news?id=8f9316959e49175d5a269885a5c8e8dfc7c7e5b76e4814c9aa943db72fdac021)**  
+*Yahoo · 12h前*  
+Palantir is in the AI defense spotlight, but a pair of hardware-focused rivals may offer a steadier way to play the same trend.
 
-- **[Forget Michael Burry's Short Thesis. Here's the Bull Case for Palantir He's Not Talking About.](https://finnhub.io/api/news?id=704dc0d3dce667bebdd87efaf9e42fe5dde16789bc3fcb7b012cc22ab39218c9)**  
-*Yahoo · 5h前*  
-The famous investor sees consulting-industry-like risks in Palantir, but several of the company's operating metrics tell a different story.
+- **[Cathie Wood Sold Palantir and AMD, Then Poured $3.35 Million Into Archer Aviation. Is ARK Betting Big on Flying Taxis?](https://finnhub.io/api/news?id=f4c0f2c2b84a8d7451e2891debfae50698eb6af3372638e99e843a12c75546bb)**  
+*Yahoo · 1d前*  
+Cathie Wood just bought more shares of Archer Aviation for her company's flagship ETF.
 
 ---
 
@@ -48,7 +48,7 @@ The famous investor sees consulting-industry-like risks in Palantir, but several
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-18 | 監控 | $176.24 | — | 自動更新 |
+| 2026-09-21 | 監控 | $177.64 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The famous investor sees consulting-industry-like risks in Palantir, but several
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-18 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-21 09:04 HKT*
