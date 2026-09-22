@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$244.25** |
-| 今日變動 | ▲ $3.49　(+1.45%) |
+| 現價 | **$257.38** |
+| 今日變動 | ▲ $13.13　(+5.38%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $131　(▼5.1%) |
+| 未實現盈虧 | ▲ $1　(▲0.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $224.58 | — |
-| Put Wall（支撐） | $200.00 | -18.1% |
-| Call Wall（阻力） | $300.00 | +22.8% |
+| Gamma Flip | $222.72 | — |
+| Put Wall（支撐） | $200.00 | -22.3% |
+| Call Wall（阻力） | $300.00 | +16.6% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Credo Technology Crashed for 3 Months: This Wall Street Pro Says It’s About to Double](https://finnhub.io/api/news?id=aa0241fb0d9063a137cf7d29215db7a7d22c088b64fff17b59b37da0c2cf6fb6)**  
-*Yahoo · 1h前*  
-A fabless semiconductor company just posted 115% revenue growth, beat earnings, and raised guidance, yet the stock cratered 43% from its highs. One Wall Street …
+- **[Prediction: Here's What a $5,000 Investment in Marvell Could Be Worth by 2030](https://finnhub.io/api/news?id=e4e39f13ba174f0e2632df63e41a50eb344adc9143ba6df917cff9d8629507bb)**  
+*Yahoo · 4h前*  
+Marvell Technology stock has multibagger potential even after rising substantially over the past year.
 
-- **[Intel, AMD, Strategy, Meta, Warner Bros, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=b3b59ff9b83f681c5e62ceb4f8930350c30a4bb14d81b480bc0ff32769fb5535)**  
-*Yahoo · 3h前*  
-Stock futures were rising to start the week as oil prices fell and the market digested positive progress between the U.S. and China
+- **[Marvell just made a move that changes the AI networking story](https://finnhub.io/api/news?id=903f90e68818db01bf9bc79fb0abdc4bf40d0554d5ef876227770fbcfb8af8a6)**  
+*Yahoo · 4h前*  
+The chip designer took new optical hardware to a European stage this week, and the timing lines up with where hyperscaler spending is heading.
 
-- **[Tough Times for Stockpickers: Passive Index Funds Continue To Dominate](https://finnhub.io/api/news?id=b43020d44c24c9ffa1f606f1e995595f65fb190a7baf144a6285ac619d20f1bf)**  
-*Yahoo · 7h前*  
-A recent report by Jefferies shows that passive investing strategies are attracting an even greater share of investor inflows as stock-picking strategies underp…
+- **[Marvell Shares Rally After Unveiling 1.6T Optical Technology for AI Networks](https://finnhub.io/api/news?id=64561fe5c212c7b7508af82f776d6243d54b6e3ccf6c765f9990086f429a423e)**  
+*Yahoo · 5h前*  
+Marvell Takes Aim at AI Data Centers With New 2nm Optical Technology
 
 ---
 
@@ -48,7 +48,7 @@ A recent report by Jefferies shows that passive investing strategies are attract
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-21 | 監控 | $244.25 | — | 自動更新 |
+| 2026-09-22 | 監控 | $257.38 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A recent report by Jefferies shows that passive investing strategies are attract
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
