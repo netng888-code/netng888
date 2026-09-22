@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>日語拼音・發音學習</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--text:#202431;--muted:#687080;--accent:#d94b4b;--accent2:#f1d7d7;--line:#e6e8ee;--good:#2d8a62}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Noto Sans JP","Yu Gothic",sans-serif;background:var(--bg);color:var(--text)}
+header{position:sticky;top:0;z-index:5;background:#ffffffee;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{max-width:1180px;margin:auto;padding:14px 18px;display:flex;gap:12px;align-items:center;justify-content:space-between}.brand{font-weight:800;font-size:19px}.nav button{border:1px solid var(--line);background:white;border-radius:10px;padding:8px 11px;cursor:pointer}
+main{max-width:1180px;margin:auto;padding:24px 18px 60px}.hero{background:linear-gradient(135deg,#fff,#fff5f5);border:1px solid var(--line);border-radius:22px;padding:30px;margin-bottom:18px}.hero h1{font-size:clamp(30px,5vw,48px);margin:0 0 8px}.hero p{color:var(--muted);margin:0 0 20px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px}.tile{padding:17px;border:1px solid var(--line);border-radius:15px;background:var(--card);cursor:pointer;font-weight:700;text-align:left}.tile:hover{transform:translateY(-1px);box-shadow:0 8px 25px #0000000b}.stats{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.stat{background:#fff;border:1px solid var(--line);padding:12px 15px;border-radius:13px}.bar{height:8px;background:#eee;border-radius:99px;overflow:hidden;margin-top:8px}.bar i{display:block;height:100%;background:var(--accent);width:35%}
+section{display:none}.active{display:block}.title{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap}.title h2{margin:0 0 5px}.muted{color:var(--muted)}.controls{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.controls input,.controls select{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:white}.btn{border:0;border-radius:10px;padding:10px 14px;background:var(--accent);color:white;cursor:pointer;font-weight:700}.btn.secondary{background:#fff;color:var(--text);border:1px solid var(--line)}
+.kana-grid{display:grid;grid-template-columns:repeat(5,minmax(90px,1fr));gap:10px}.kana{background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px;text-align:center;cursor:pointer}.kana .jp{font-size:34px;font-weight:800}.kana .romaji{color:var(--accent);font-weight:700}.kana small{display:block;color:var(--muted);margin-top:5px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:18px}.jpword{font-size:30px;font-weight:800}.romaji{color:var(--accent);font-weight:700}.hint{font-size:14px;color:var(--muted);line-height:1.7}.hidden{display:none}.table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden}.table td,.table th{padding:12px;border-bottom:1px solid var(--line);text-align:left}.quiz{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}.quiz .q{font-size:54px;font-weight:800;text-align:center;margin:15px}.answers{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.answers button{padding:14px;border:1px solid var(--line);background:#fff;border-radius:12px;cursor:pointer;font-size:18px}.result{min-height:25px;font-weight:700}.footer{text-align:center;color:var(--muted);padding:25px}
+@media(max-width:600px){main{padding:16px 12px 45px}.hero{padding:22px}.kana-grid{grid-template-columns:repeat(5,1fr);gap:6px}.kana{padding:9px 3px}.kana .jp{font-size:27px}.answers{grid-template-columns:1fr}.nav{padding:11px 12px}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="brand">🇯🇵 日語拼音・發音學習</div><div><button onclick="toggleTheme()">◐</button> <button onclick="show('home')">首頁</button></div></div></header>
+<main>
+<section id="home" class="active">
+<div class="hero"><h1>日語拼音・發音學習</h1><p>由五十音開始，掌握日語羅馬拼音、實際發音與會話。</p><div class="grid">
+<button class="tile" onclick="show('gojuon')">🔤 五十音</button><button class="tile" onclick="show('hiragana')">あ 平假名</button><button class="tile" onclick="show('katakana')">ア 片假名</button><button class="tile" onclick="show('romaji')">ABC Romaji 拼音</button><button class="tile" onclick="show('practice')">🎤 發音練習</button><button class="tile" onclick="show('words')">📖 單字練習</button><button class="tile" onclick="show('conversation')">💬 日常會話</button><button class="tile" onclick="show('quiz')">🧠 測驗</button>
+</div><div class="stats"><div class="stat">今日學習：<b id="today">0 / 20</b></div><div class="stat">五十音完成度：<b>35%</b><div class="bar"><i></i></div></div></div></div>
+<div class="cards"><div class="card"><b>學習路線</b><p class="hint">假名 → Romaji 輔助 → 聽標準發音 → 自己朗讀 → 隱藏 Romaji。</p></div><div class="card"><b>重要提醒</b><p class="hint">Romaji 是學習工具，不是日語聲音本身。目標是最後直接閱讀假名。</p></div></div>
+</section>
+
+<section id="gojuon"><div class="title"><div><h2>五十音</h2><div class="muted">點擊任何假名播放日語發音</div></div><button class="btn secondary" onclick="show('home')">← 返回</button></div><div class="controls"><input id="search" placeholder="搜尋 あ / ka / こんにちは..." oninput="renderKana(this.value)"><button class="btn secondary" onclick="setSpeed(.6)">慢速</button><button class="btn secondary" onclick="setSpeed(1)">正常</button></div><div id="kanaGrid" class="kana-grid"></div></section>
+
+<section id="hiragana"><div class="title"><div><h2>平假名</h2><div class="muted">Hepburn Romaji</div></div></div><div id="hiraGrid" class="kana-grid"></div></section>
+<section id="katakana"><div class="title"><div><h2>片假名</h2><div class="muted">常見於外來語</div></div></div><div id="kataGrid" class="kana-grid"></div></section>
+
+<section id="romaji"><div class="title"><h2>Romaji 教學</h2></div><div class="card"><h3>Hepburn 基本規則</h3><table class="table"><tr><th>假名</th><th>Romaji</th></tr><tr><td>あ い う え お</td><td>a i u e o</td></tr><tr><td>か き く け こ</td><td>ka ki ku ke ko</td></tr><tr><td>し ち つ</td><td>shi chi tsu</td></tr><tr><td>ふ</td><td>fu</td></tr><tr><td>ら り る れ ろ</td><td>ra ri ru re ro</td></tr></table><h3>中文／粵語使用者容易混淆</h3><ul class="hint"><li><b>つ</b>：不是單純中文「次」；舌頭位置與氣流需要實際聽音模仿。</li><li><b>ふ</b>：雙唇接近，並非完全等同中文 f 的齒唇音。</li><li><b>ら行</b>：舌尖快速輕觸齒齦附近，不等同中文 l 或英文 r。</li></ul></div></section>
+
+<section id="practice"><div class="title"><h2>🎤 跟讀練習</h2></div><div class="quiz"><div class="q" id="practiceWord">こんにちは</div><div style="text-align:center"><button class="btn" onclick="speak(document.getElementById('practiceWord').textContent)">🔊 聽示範</button> <button class="btn secondary" onclick="record()">🎤 開始錄音</button> <button class="btn secondary" onclick="playRecording()">🔁 再聽一次</button></div><p id="recStatus" class="result"></p><p class="hint">瀏覽器可提供錄音與播放；本版本不會假裝提供準確的 AI 發音評分，未來可接入語音辨識 API。</p></div></section>
+
+<section id="words"><div class="title"><h2>📖 單字練習</h2><button class="btn secondary" onclick="toggleRomaji()">隱藏／顯示 Romaji</button></div><div id="wordCards" class="cards"></div></section>
+<section id="conversation"><div class="title"><h2>💬 日常會話</h2></div><div id="conversationCards" class="cards"></div></section>
+
+<section id="quiz"><div class="title"><h2>🧠 互動測驗</h2><div class="muted">模式 A：假名 → 正確 Romaji</div></div><div class="quiz"><div class="q" id="quizQ">あ</div><div class="answers" id="answers"></div><p id="quizResult" class="result"></p><button class="btn" onclick="newQuiz()">下一題</button></div></section>
+<div class="footer">日語拼音・發音學習 · 單一 HTML / CSS / JavaScript，可離線使用</div>
+</main>
+<script>
+const kana=[
+["あ","a","asa","早上"],["い","i","inu","狗"],["う","u","umi","海"],["え","e","eki","車站"],["お","o","ocha","茶"],
+["か","ka","kasa","雨傘"],["き","ki","kita","北"],["く","ku","kuchi","嘴巴"],["け","ke","keki","蛋糕"],["こ","ko","koe","聲音"],
+["さ","sa","sakana","魚"],["し","shi","shio","鹽"],["す","su","sushi","壽司"],["せ","se","sensei","老師"],["そ","so","sora","天空"],
+["た","ta","tabemono","食物"],["ち","chi","chizu","地圖"],["つ","tsu","tsuki","月亮"],["て","te","te","手"],["と","to","tomodachi","朋友"],
+["な","na","natsu","夏天"],["に","ni","niku","肉"],["ぬ","nu","nuno","布"],["ね","ne","neko","貓"],["の","no","nomu","喝"],
+["は","ha","hana","花"],["ひ","hi","hikari","光"],["ふ","fu","fune","船"],["へ","he","heya","房間"],["ほ","ho","hon","書"],
+["ま","ma","mizu","水"],["み","mi","mimi","耳朵"],["む","mu","mushi","蟲"],["め","me","me","眼睛"],["も","mo","mori","森林"],
+["や","ya","yama","山"],["ゆ","yu","yuki","雪"],["よ","yo","yoru","晚上"],
+["ら","ra","ringo","蘋果"],["り","ri","ringo","蘋果"],["る","ru","ru","流（例）"],["れ","re","rekishi","歷史"],["ろ","ro","roku","六"],
+["わ","wa","watashi","我"],["を","wo","wo","助詞"],["ん","n","nihon","日本"]
+];
+const extra=[
+["が","ga"],["ぎ","gi"],["ぐ","gu"],["げ","ge"],["ご","go"],["ざ","za"],["じ","ji"],["ず","zu"],["ぜ","ze"],["ぞ","zo"],
+["だ","da"],["ぢ","ji"],["づ","zu"],["で","de"],["ど","do"],["ば","ba"],["び","bi"],["ぶ","bu"],["べ","be"],["ぼ","bo"],["ぱ","pa"],["ぴ","pi"],["ぷ","pu"],["ぺ","pe"],["ぽ","po"],
+["きゃ","kya"],["きゅ","kyu"],["きょ","kyo"],["しゃ","sha"],["しゅ","shu"],["しょ","sho"],["ちゃ","cha"],["ちゅ","chu"],["ちょ","cho"],["にゃ","nya"],["にゅ","nyu"],["にょ","nyo"],["ひゃ","hya"],["ひゅ","hyu"],["ひょ","hyo"],["みゃ","mya"],["みゅ","myu"],["みょ","myo"],["りゃ","rya"],["りゅ","ryu"],["りょ","ryo"]
+];
+let speed=1, romajiVisible=true, recorder, chunks=[], recordingBlob=null;
+function show(id){document.querySelectorAll("section").forEach(s=>s.classList.remove("active"));document.getElementById(id).classList.add("active");window.scrollTo(0,0);if(id==="gojuon")renderKana("");if(id==="hiragana")renderSimple("hiraGrid",kana);if(id==="katakana")renderKatakana();if(id==="words")renderWords();if(id==="conversation")renderConversation();if(id==="quiz")newQuiz()}
+function speak(text){if(!("speechSynthesis" in window)){alert("此瀏覽器不支援語音播放");return} speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang="ja-JP";u.rate=speed;speechSynthesis.speak(u)}
+function setSpeed(v){speed=v}
+function card(item){return `<div class="kana" onclick="speak('${item[0]}')"><div class="jp">${item[0]}</div><div class="romaji">${item[1]}</div><small>🔊 播放</small></div>`}
+function renderKana(q){let list=[...kana,...extra.map(x=>[x[0],x[1],"",""])] .filter(x=>(x[0]+x[1]+x[2]).toLowerCase().includes(q.toLowerCase()));document.getElementById("kanaGrid").innerHTML=list.map(card).join("")}
+function renderSimple(id,list){document.getElementById(id).innerHTML=list.map(card).join("")}
+function renderKatakana(){const map={"あ":"ア","い":"イ","う":"ウ","え":"エ","お":"オ","か":"カ","き":"キ","く":"ク","け":"ケ","こ":"コ","さ":"サ","し":"シ","す":"ス","せ":"セ","そ":"ソ","た":"タ","ち":"チ","つ":"ツ","て":"テ","と":"ト","な":"ナ","に":"ニ","ぬ":"ヌ","ね":"ネ","の":"ノ","は":"ハ","ひ":"ヒ","ふ":"フ","へ":"ヘ","ほ":"ホ","ま":"マ","み":"ミ","む":"ム","め":"メ","も":"モ","や":"ヤ","ゆ":"ユ","よ":"ヨ","ら":"ラ","り":"リ","る":"ル","れ":"レ","ろ":"ロ","わ":"ワ","を":"ヲ","ん":"ン"};document.getElementById("kataGrid").innerHTML=kana.map(x=>[map[x[0]],x[1],x[2],x[3]]).map(card).join("")}
+const words=[["こんにちは","Konnichiwa","你好"],["ありがとう","Arigatou","謝謝"],["すみません","Sumimasen","不好意思／對不起"],["おはよう","Ohayou","早安"],["こんばんは","Konbanwa","晚上好"],["さようなら","Sayounara","再見"],["だいじょうぶ","Daijoubu","沒問題／沒事"],["よろしくおねがいします","Yoroshiku onegaishimasu","請多多指教"]];
+function renderWords(){document.getElementById("wordCards").innerHTML=words.map(w=>`<div class="card"><div class="jpword">${w[0]}</div><div class="romaji ${romajiVisible?"":"hidden"}">${w[1]}</div><p>${w[2]}</p><button class="btn" onclick="speak('${w[0]}')">🔊 發音</button></div>`).join("")}
+function toggleRomaji(){romajiVisible=!romajiVisible;renderWords()}
+function renderConversation(){document.getElementById("conversationCards").innerHTML=[["お元気ですか。","Ogenki desu ka.","你好嗎？"],["はい、元気です。","Hai, genki desu.","是的，我很好。"],["ありがとうございます。","Arigatou gozaimasu.","非常謝謝。"],["また明日。","Mata ashita.","明天見。"]].map(w=>`<div class="card"><div class="jpword">${w[0]}</div><div class="romaji">${w[1]}</div><p>${w[2]}</p><button class="btn" onclick="speak('${w[0]}')">🔊 播放</button></div>`).join("")}
+function newQuiz(){let x=kana[Math.floor(Math.random()*kana.length)], choices=new Set([x[1]]);while(choices.size<4)choices.add(kana[Math.floor(Math.random()*kana.length)][1]);document.getElementById("quizQ").textContent=x[0];document.getElementById("quizResult").textContent="";document.getElementById("answers").innerHTML=[...choices].sort(()=>Math.random()-.5).map(a=>`<button onclick="answer('${a}','${x[1]}')">${a}</button>`).join("")}
+function answer(a,c){document.getElementById("quizResult").textContent=a===c?"✓ 正確！":"✗ 再試一次。正確答案是 "+c;document.getElementById("today").textContent="1 / 20"}
+async function record(){if(!navigator.mediaDevices?.getUserMedia){document.getElementById("recStatus").textContent="此瀏覽器不支援錄音。";return}if(recorder?.state==="recording"){recorder.stop();return}chunks=[];const stream=await navigator.mediaDevices.getUserMedia({audio:true});recorder=new MediaRecorder(stream);recorder.ondataavailable=e=>chunks.push(e.data);recorder.onstop=()=>{recordingBlob=new Blob(chunks,{type:"audio/webm"});stream.getTracks().forEach(t=>t.stop());document.getElementById("recStatus").textContent="✓ 錄音完成，可以按「再聽一次」。"};recorder.start();document.getElementById("recStatus").textContent="● 錄音中，再按一次停止。"}
+function playRecording(){if(!recordingBlob){document.getElementById("recStatus").textContent="尚未有錄音。";return}new Audio(URL.createObjectURL(recordingBlob)).play()}
+function toggleTheme(){document.body.classList.toggle("dark");if(document.body.classList.contains("dark")){document.documentElement.style.setProperty("--bg","#15171c");document.documentElement.style.setProperty("--card","#20232a");document.documentElement.style.setProperty("--text","#f2f3f5");document.documentElement.style.setProperty("--line","#343844")}else location.reload()}
+renderKana("");
+</script>
+</body>
+</html>
