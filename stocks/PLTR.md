@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Palantir Technologies (NASDAQ:PLTR): High Growth Momentum Meets Breakout Setup](https://finnhub.io/api/news?id=9303116b591dba6514901b52b2c837c9ddfd32d8aed57c16d2506e05827ca94a)**  
+*ChartMill · 3h前*  
+Palantir stock clears strict growth, technical and setup screens as EPS and sales accelerate. See the PLTR breakout setup, ratings and key risks.
+
+- **[The 3 Most Dangerous Investing Mistakes I Keep Seeing](https://finnhub.io/api/news?id=64d367167015b117f4aaa9ed5b6145a3d13c44bad8b42e3c97e6fef3f4624240)**  
+*SeekingAlpha · 4h前*  
+Many investors are becoming too complacent instead of adapting to a rapidly changing world. Read the three mistakes that a lot of investors make right now.
+
 - **[A Closer Look at the 'Big 3' Investing Styles](https://finnhub.io/api/news?id=06515fc5deb57dfa77d7800a87686791109c531843b4a7d755d8cda45062c003)**  
-*Yahoo · 1h前*  
+*Yahoo · 13h前*  
 Investors typically gravitate toward several market strategies, including income, growth, or value.
-
-- **[Palantir's Alex Karp says AI's biggest names may never IPO — the play is telling Washington 'nationalize us, please'](https://finnhub.io/api/news?id=daa33eb86584345e72a20db7f989b9c925ed43991fdecc9e1e85b52f9fb43dbb)**  
-*Yahoo · 3h前*  
-More government oversight could be better for humanity, but also serves to cover AI companies’ butts.
-
-- **[Palantir Climbs as CEO Sends Blunt Message to AI Industry](https://finnhub.io/api/news?id=bf34d234c46bd14846ad89a43c89162c32895d56c1f335171af73ef9fd0811be)**  
-*Yahoo · 5h前*  
-Palantir Stock Rises After Alex Karp's Stark Warning on AI Lawsuits
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Stock Rises After Alex Karp's Stark Warning on AI Lawsuits
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
