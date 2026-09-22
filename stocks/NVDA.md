@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Johnson & Johnson May Offload Its Orthopedics Unit for $20 Billion -- and Investors Shouldn't Miss What That Could Signal](https://finnhub.io/api/news?id=1edd9302360af3e178a55192f1fc1bcf4856c49a61ea226edbe1b8bf11ee6588)**  
+- **[United States Integrated Circuits Market to Reach US$330 Billion by 2035 as AI and Domestic Manufacturing Accelerate Growth](https://finnhub.io/api/news?id=1c3bfcda672a7f44b28dfd3f01a3cc496a0f667768e58ec1fa375d9fa35949f2)**  
 *Yahoo · 1h前*  
-Healthcare giant Johnson & Johnson is looking to become a more profitable and faster-growing business.
+AI accelerators are boosting US chip demand, while reshoring, edge AI, EVs and ADAS create opportunities in advanced logic, memory, networking and secure domest…
 
-- **[Why ServiceNow Stock Inched Higher on Monday](https://finnhub.io/api/news?id=1807b727413ecfc38076ff7c6328428fd37256bf98d5e1250a5da83281667d09)**  
+- **[Coca-Cola's “$10 Billion” Investment Announcement Is Smaller Than It Sounds. Here's the Math.](https://finnhub.io/api/news?id=6ca2a2debb8736b2ecbb5b528a3e9b08828727555c0107ff4eecf4334b8d8671)**  
 *Yahoo · 1h前*  
-An analyst raised his price target on the enterprise software solutions developer.
+Coca-Cola isn't going on an investment spending spree.
 
-- **[Why Strategy Stock Surged Today](https://finnhub.io/api/news?id=a78cfbaa72a76ef4f84427eb2e85df8739fd4769d1259b5f728961ec08668e8e)**  
+- **[Freeport-McMoRan's Low-Cost Secret to Take Advantage of Record Copper Prices](https://finnhub.io/api/news?id=84a81050704124ce1af077f4fee5e72fae9dbe534d682d7ff4b3aa14c1d80846)**  
 *Yahoo · 1h前*  
-Bitcoin is rallying.
+There are no AI data centers without copper.
 
 ---
 
@@ -59,4 +59,4 @@ Bitcoin is rallying.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:03 HKT*
