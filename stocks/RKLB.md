@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $65.20 | — |
 | Put Wall（支撐） | $65.00 | -7.0% |
-| Call Wall（阻力） | $70.00 | +0.2% |
+| Call Wall（阻力） | $80.00 | +14.5% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Looks More and More Like a SpaceX Competitor. The Stock Is Up.](https://finnhub.io/api/news?id=a3ac47c786631d8d04c7286a13e99dd61cb0acf35f6739b92e910b78c0eade42)**  
-*Yahoo · 4h前*  
-The space business is roaring, and it isn’t just  SpaceX  getting all the applause.  Rocket Lab stock jumped Monday after Cantor Fitzgerald analyst Andres Shepp…
-
-- **[Archer Aviation vs. Rocket Lab: Which Aerospace Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=866fe1916bf2316c72e249ed15dce5949d7a0fead2f744394c38adf1e1aa84e3)**  
+- **[Rocket Lab Sold $1.9 Billion of New Stock to Pay for Iridium. Here's the Dilution Math.](https://finnhub.io/api/news?id=79b31008476e529a527fee4a068b68bef860ccbee97a6aac67b0034bf58b50dd)**  
 *Yahoo · 5h前*  
-Archer is racing toward FAA certification with Boeing backing, while Rocket Lab is already generating revenue but faces integration risks.
+The space company sold about 5% of itself so it wouldn't have to borrow $3.6 billion. And the share count still isn't done growing.
 
-- **[Rocket Lab Poised to Become “Only Viable Alternative” to SpaceX, Says Cantor Fitzgerald](https://finnhub.io/api/news?id=efe8986e965be263627095d02bfbcfb3bbd5f9fccaa284d672f03aaaa2cac30a)**  
-*Yahoo · 6h前*  
-Cantor Fitzgerald just named Rocket Lab the only listed stock that can challenge SpaceX at scale, but the path to a $122 price target runs through an unflown ro…
+- **[RKLB Stock Extends Rally Overnight: CEO Says Iridium Deal Will Forge A Self-Launching ‘Tier-1 Space Power’](https://finnhub.io/api/news?id=edaa9e8019256e906b925e62ce9ccb9058fa65fe67cacec902a53231731c507e)**  
+*Yahoo · 9h前*  
+Iridium shareholders will vote on the $8.1 billion enterprise-value deal on Sept.24, with closing targeted for mid-2027.
+
+- **[Why Are Rocket Lab (RKLB) Shares Soaring Today](https://finnhub.io/api/news?id=da8cc42077bb94afdcaff8a296e18d348333484fbfeb49807340f59572038ecc)**  
+*Yahoo · 11h前*  
+Shares of aerospace and defense company Rocket Lab (NASDAQ:RKLB) jumped 8.2% in the afternoon session after Cantor Fitzgerald reiterated an Overweight rating an…
 
 ---
 
@@ -59,4 +59,4 @@ Cantor Fitzgerald just named Rocket Lab the only listed stock that can challenge
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
