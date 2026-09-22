@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-22 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 Stocks That Pay Dividends and Offer AI Exposure](https://finnhub.io/api/news?id=4decf81b3c2a217cfdef2a361dc181ed864db9e18be85fbf8f944217d1987c6a)**  
+- **[United States Integrated Circuits Market to Reach US$330 Billion by 2035 as AI and Domestic Manufacturing Accelerate Growth](https://finnhub.io/api/news?id=1c3bfcda672a7f44b28dfd3f01a3cc496a0f667768e58ec1fa375d9fa35949f2)**  
 *Yahoo · 1h前*  
-For those interested in getting paid with some AI exposure, Broadcom (AVGO), Vertiv (VRT), and Caterpillar (CAT) all fit the criteria.
+AI accelerators are boosting US chip demand, while reshoring, edge AI, EVs and ADAS create opportunities in advanced logic, memory, networking and secure domest…
 
-- **[NVIDIA Or Micron: Which Gets Paid More Safely For The AI Shortage?](https://finnhub.io/api/news?id=ef3bfcf8c1c19773033f33386d60055f91601912d3a8bd7d6b25e6f17fac7f7a)**  
-*Yahoo · 4h前*  
-If you own NVIDIA (NVDA) or Micron Technology (MU), you own the same idea: AI data centers want more chips and memory than the industry can supply. The two spli…
+- **[AMD Just Joined the $1 Trillion Club. Here's Why Investors Are Betting Big on the Chipmaker.](https://finnhub.io/api/news?id=fe1f6c96dc5e8852556454d2e7c80958f074f2508911e323f79e0c9590fda0e1)**  
+*Yahoo · 1h前*  
+Investors are willing to pay more for AMD's future earnings.
 
-- **[Prediction: This Data Center Stock Will Be the AI Supercycle's Biggest Winner -- and It's Not a Household Name](https://finnhub.io/api/news?id=7197bf644545295b190f97995ab479781f70e3f208f85908694563da87558d65)**  
-*Yahoo · 5h前*  
-The demand for optical networking components is poised to boom, and Lumentum is one of the best ways to capitalize on this lucrative niche.
+- **[Meta's Muse Sends the Nasdaq to a Record and Rekindles the AI Trade](https://finnhub.io/api/news?id=243db43307a3884832bb7a9dcdd2c7dbdfabb3920122c6201283cb5cc65b8c33)**  
+*ChartMill · 3h前*  
+Meta's agentic AI assistant Muse lit a fire under tech on Monday, pushing the Nasdaq to a record close and lifting chipmakers by double digits. Cheaper oil, a t…
 
 ---
 
@@ -59,4 +59,4 @@ The demand for optical networking components is poised to boom, and Lumentum is 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:03 HKT*
