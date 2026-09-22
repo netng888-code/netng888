@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$177.64** |
-| 今日變動 | ▲ $1.40　(+0.79%) |
+| 現價 | **$183.09** |
+| 今日變動 | ▲ $5.45　(+3.07%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $373　(▲42.9%) |
+| 未實現盈虧 | ▲ $411　(▲47.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $165.77 | — |
-| Put Wall（支撐） | $170.00 | -4.3% |
-| Call Wall（阻力） | $200.00 | +12.6% |
+| Gamma Flip | $166.34 | — |
+| Put Wall（支撐） | $170.00 | -7.1% |
+| Call Wall（阻力） | $185.00 | +1.0% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir CEO Alex Karp Says Only Washington Can Cap AI Liability: 'These Businesses Have to Be Nationalized'](https://finnhub.io/api/news?id=c3ebce33b3f259ee0819d9e3da82cd5fc6e9772633e75acf1db49966846dc118)**  
-*Yahoo · 2h前*  
-With President Donald Trump and Vice President J.D. Vance chiming in on potential AI regulation in recent days, Palantir Technologies CEO and co-founder Alex Ka…
+- **[A Closer Look at the 'Big 3' Investing Styles](https://finnhub.io/api/news?id=06515fc5deb57dfa77d7800a87686791109c531843b4a7d755d8cda45062c003)**  
+*Yahoo · 1h前*  
+Investors typically gravitate toward several market strategies, including income, growth, or value.
 
-- **[Vertical Aerospace Appoints Former Airbus Commercial Aircraft CEO Fabrice Brégier as Chair as it Accelerates Commercialisation and Defence Strategy](https://finnhub.io/api/news?id=5d4d2845bca803591c272967496ba6166d5ac3b8c2eeb348d020fbabac431d7d)**  
+- **[Palantir's Alex Karp says AI's biggest names may never IPO — the play is telling Washington 'nationalize us, please'](https://finnhub.io/api/news?id=daa33eb86584345e72a20db7f989b9c925ed43991fdecc9e1e85b52f9fb43dbb)**  
 *Yahoo · 3h前*  
-LONDON & NEW YORK, September 21, 2026--Vertical Aerospace ("Vertical" or the "Company") [NYSE: EVTL], a global aerospace and technology company pioneering elect…
+More government oversight could be better for humanity, but also serves to cover AI companies’ butts.
 
-- **[Michael Burry Doubles Down On Palantir Bear Case: ‘A Lot Of’ Money Still To Be Made Shorting PLTR](https://finnhub.io/api/news?id=2485367c5bf7624fbe2852bc4ca0080b1d09b4a8f6113e738f7ac90e50287b7c)**  
-*Yahoo · 4h前*  
-“The Big Short” investor keeps his Palantir short play even as the AI stock rebounds.
+- **[Palantir Climbs as CEO Sends Blunt Message to AI Industry](https://finnhub.io/api/news?id=bf34d234c46bd14846ad89a43c89162c32895d56c1f335171af73ef9fd0811be)**  
+*Yahoo · 5h前*  
+Palantir Stock Rises After Alex Karp's Stark Warning on AI Lawsuits
 
 ---
 
@@ -48,7 +48,7 @@ LONDON & NEW YORK, September 21, 2026--Vertical Aerospace ("Vertical" or the "Co
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-21 | 監控 | $177.64 | — | 自動更新 |
+| 2026-09-22 | 監控 | $183.09 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ LONDON & NEW YORK, September 21, 2026--Vertical Aerospace ("Vertical" or the "Co
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
