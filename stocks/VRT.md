@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$249.39** |
-| 今日變動 | ▲ $7.90　(+3.27%) |
+| 現價 | **$250.86** |
+| 今日變動 | ▲ $1.47　(+0.59%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $109　(▼17.9%) |
+| 未實現盈虧 | ▼ $106　(▼17.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $257.73 | — |
-| Put Wall（支撐） | $220.00 | -11.8% |
-| Call Wall（阻力） | $260.00 | +4.3% |
+| Gamma Flip | $256.35 | — |
+| Put Wall（支撐） | $220.00 | -12.3% |
+| Call Wall（阻力） | $260.00 | +3.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 AI Infrastructure Stocks To Watch As Data Center Spending Reshapes Demand](https://finnhub.io/api/news?id=80bebfa9870d915eadc1dbaf4d5c9fca22c6babed6153af8b76d6be84320d958)**  
-*Yahoo · 2h前*  
-Higher rates, sticky inflation and a 10-year Treasury around 5% are squeezing lofty valuations, yet AI infrastructure spending keeps pulling fresh capital into …
+- **[3 Stocks That Pay Dividends and Offer AI Exposure](https://finnhub.io/api/news?id=4decf81b3c2a217cfdef2a361dc181ed864db9e18be85fbf8f944217d1987c6a)**  
+*Yahoo · 1h前*  
+For those interested in getting paid with some AI exposure, Broadcom (AVGO), Vertiv (VRT), and Caterpillar (CAT) all fit the criteria.
 
-- **[What Higher Interest Rates Mean for Caterpillar, GE Vernova, and Vertiv](https://finnhub.io/api/news?id=a6d1e5cdc9837aeb762ca6f65b3cc38feef8426fbfa16289cf62e1273014792d)**  
+- **[Why Is Vertiv Stock Up Sharply Over The Past Year Yet Well Below Its Peak?](https://finnhub.io/api/news?id=09f8e5b7b4da4ed850f5af06b56f687467165579eaf1a0c08084f1e3e0eea48a)**  
 *Yahoo · 4h前*  
-It's important not to panic over the impact of rising rates on industrial stocks, not least because they are likely to affect different stocks in varied ways.
+Vertiv (VRT) stock gained 75.9% over the past year, more than four times the S&P 500's 16.7% return. The company sells the power and cooling equipment that AI d…
 
-- **[Vertiv Holdings Co-A (NYSE:VRT): An Affordable Growth Case Backed by Strong Profitability](https://finnhub.io/api/news?id=9ef0d00f6eabc8ba38615ab12bca022b5fd68040aa43253689f48905257f1c71)**  
-*ChartMill · 4h前*  
-Vertiv (VRT) screens as affordable growth: strong revenue/EPS growth, high profitability and solid health, though valuation hinges on forecasts.
+- **[Beyond NVIDIA: 2 AI Data Center Stocks to Buy for More Upside](https://finnhub.io/api/news?id=e1e9ab01e95482e261745e127e839b928b6d01eedaef77a0c64dcc2c2798915b)**  
+*Yahoo · 6h前*  
+Vertiv and Arista offer AI data-center exposure beyond GPUs, spanning power, cooling and networking as hyperscalers expand capacity.
 
 ---
 
@@ -48,7 +48,7 @@ Vertiv (VRT) screens as affordable growth: strong revenue/EPS growth, high profi
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-21 | 監控 | $249.39 | — | 自動更新 |
+| 2026-09-22 | 監控 | $250.86 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv (VRT) screens as affordable growth: strong revenue/EPS growth, high profi
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
