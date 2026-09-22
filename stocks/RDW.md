@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Redwire Surges 8% but Is Still Down 3% in a Month: Will the Bulls or Bears Win?](https://finnhub.io/api/news?id=d38198e97352a3c0b4a5674cc64f8d5fb97b929803bbe4ad53df25dcb4067402)**  
-*Yahoo · 6h前*  
+*Yahoo · 18h前*  
 Redwire is bouncing hard on Monday, but one session barely dents a brutal month where the entire space sector sold off while the broader market climbed. The rea…
 
 - **[Jim Cramer Suggests Avoiding Redwire (RDW) In A Rate Tightening Cycle](https://finnhub.io/api/news?id=b62cbc4e451ebd9171f24e448d8bccbbebbae04e483ea71e6ac41d677871f411)**  
@@ -55,4 +55,4 @@ On September 16, toward the end of the lightning round, a caller asked what Jim 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
