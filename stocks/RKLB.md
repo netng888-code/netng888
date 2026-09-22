@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$64.57** |
-| 今日變動 | ▼ $3.25　(-4.79%) |
+| 現價 | **$69.89** |
+| 今日變動 | ▲ $5.32　(+8.24%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $114　(▼15.0%) |
+| 未實現盈虧 | ▼ $61　(▼8.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $65.96 | — |
-| Put Wall（支撐） | $60.00 | -7.1% |
-| Call Wall（阻力） | $70.00 | +8.4% |
+| Gamma Flip | $65.20 | — |
+| Put Wall（支撐） | $65.00 | -7.0% |
+| Call Wall（阻力） | $70.00 | +0.2% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Four Launches From 100: Rocket Lab Gets a Bullish New Call, With Iridium and Mynaric Along for the Ride](https://finnhub.io/api/news?id=f042c16cd8391dd9b71222296019135752c8292f1a9fa8833775496f817ee2d5)**  
-*Yahoo · 1h前*  
-Rocket Lab Corporation (NASDAQ:RKLB) is approaching a milestone, and Wall Street recently offered it a new vote of confidence that extends beyond the company’s …
-
-- **[Rocket Lab (RKLB) Dropped, So What Is Behind Its Latest Move?](https://finnhub.io/api/news?id=48543bbecac2da344e2d7b2ac36bd6df3e5961db9aeb1c897a6ec9973edf57e9)**  
-*Yahoo · 2h前*  
-Rocket Lab (RKLB) just completed another successful Synspective launch, maintained a 100% mission record with that customer, booked 15 more flights through 2030…
-
-- **[Nasdaq, S&P 500, Dow Futures Rise Ahead Of Trump-Xi Summit This Week: NVDA, META, CRML, GLND, SPCX, RKLB, BE Stocks In Focus](https://finnhub.io/api/news?id=9bce2170c50609aa141158fa7494c9db6dc6a7ed2dab1506b9b890ad6c50a2bb)**  
+- **[Rocket Lab Looks More and More Like a SpaceX Competitor. The Stock Is Up.](https://finnhub.io/api/news?id=a3ac47c786631d8d04c7286a13e99dd61cb0acf35f6739b92e910b78c0eade42)**  
 *Yahoo · 4h前*  
-Retail sentiment on SPY remained ‘bearish’, and moderated to ‘neutral’ on QQQ.
+The space business is roaring, and it isn’t just  SpaceX  getting all the applause.  Rocket Lab stock jumped Monday after Cantor Fitzgerald analyst Andres Shepp…
+
+- **[Archer Aviation vs. Rocket Lab: Which Aerospace Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=866fe1916bf2316c72e249ed15dce5949d7a0fead2f744394c38adf1e1aa84e3)**  
+*Yahoo · 5h前*  
+Archer is racing toward FAA certification with Boeing backing, while Rocket Lab is already generating revenue but faces integration risks.
+
+- **[Rocket Lab Poised to Become “Only Viable Alternative” to SpaceX, Says Cantor Fitzgerald](https://finnhub.io/api/news?id=efe8986e965be263627095d02bfbcfb3bbd5f9fccaa284d672f03aaaa2cac30a)**  
+*Yahoo · 6h前*  
+Cantor Fitzgerald just named Rocket Lab the only listed stock that can challenge SpaceX at scale, but the path to a $122 price target runs through an unflown ro…
 
 ---
 
@@ -48,7 +48,7 @@ Retail sentiment on SPY remained ‘bearish’, and moderated to ‘neutral’ o
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-21 | 監控 | $64.57 | — | 自動更新 |
+| 2026-09-22 | 監控 | $69.89 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Retail sentiment on SPY remained ‘bearish’, and moderated to ‘neutral’ o
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
