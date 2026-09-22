@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Shorts Prevail as Oklo and NuScale Stocks Dive as SMR Risks Rise](https://finnhub.io/api/news?id=bbc10721c2efd6f145802f73f3265f3161fe6d6b032f473185cee4d398df1db6)**  
-*Benzinga · 1d前*  
-Oklo and NuScale stocks have plunged this year, with short sellers making billions of dollars as risks in the SMR industry rise.
+- **[Should You Forget Nvidia and Buy These 3 Millionaire-Maker AI Infrastructure Stocks Instead?](https://finnhub.io/api/news?id=908c26e1c27ebaff207c2b8ffd54dd49e00662a665e92c19b5f7862f9dfcd80e)**  
+*Yahoo · 15h前*  
+Nvidia gets the AI spotlight, but three power infrastructure stocks may be quietly building the bigger long-term opportunity.
 
-- **[Oklo (OKLO) Stock Sees Fair Value Cut As Analysts Weigh Growth Against Execution Risk](https://finnhub.io/api/news?id=280c7e3d9221ed9ccca50be27cb1f81083ca79d50efb1f60eda4609e232a9e1a)**  
-*Yahoo · 2d前*  
-Oklo’s updated fair value estimate has shifted to US$78.69 from US$88.63, which puts a fresh spotlight on how analysts are framing the stock today. The change c…
+- **[This Energy Stock Has 130% Upside Potential](https://finnhub.io/api/news?id=ca37a7b6f97281dc059b4bcfce6f59b4ea216b6c0e16e03b985cbf345645952d)**  
+*Yahoo · 19h前*  
+Oklo shares have been crushed over the past year, yet the company just pulled off something no other advanced nuclear startup has done at full scale. Whether th…
 
-- **[Got $1,000? 2 No-Brainer Nuclear Stocks to Buy Right Now.](https://finnhub.io/api/news?id=596e795656ecc32a2d18b84651424c99ffdb3c5a7e0bf3f6cd22d2c39a7491ec)**  
-*Yahoo · 2d前*  
-Nuclear demand is rising fast, and two very different stocks offer two very different ways for investors to cash in.
+- **[Uranium Stocks Are Rallying. Why NXE Got Initiated At Overweight.](https://finnhub.io/api/news?id=1973db9a64921fe4e08b5341c2627852ea8d95148cd4ca1c055f458e2cde9336)**  
+*Yahoo · 19h前*  
+In a boost for struggling sector, JPMorgan highlighted long-term, structural supply deficits for uranium.
 
 ---
 
@@ -59,4 +59,4 @@ Nuclear demand is rising fast, and two very different stocks offer two very diff
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
