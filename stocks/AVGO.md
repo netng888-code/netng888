@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$357.61** |
-| 今日變動 | ▲ $10.31　(+2.97%) |
+| 現價 | **$362.66** |
+| 今日變動 | ▲ $5.05　(+1.41%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $182　(▼4.8%) |
+| 未實現盈虧 | ▼ $131　(▼3.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $356.49 | — |
-| Put Wall（支撐） | $350.00 | -2.1% |
-| Call Wall（阻力） | $400.00 | +11.9% |
+| Gamma Flip | $356.78 | — |
+| Put Wall（支撐） | $350.00 | -3.5% |
+| Call Wall（阻力） | $370.00 | +2.0% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Credo Technology Crashed for 3 Months: This Wall Street Pro Says It’s About to Double](https://finnhub.io/api/news?id=aa0241fb0d9063a137cf7d29215db7a7d22c088b64fff17b59b37da0c2cf6fb6)**  
+- **[3 Stocks That Pay Dividends and Offer AI Exposure](https://finnhub.io/api/news?id=4decf81b3c2a217cfdef2a361dc181ed864db9e18be85fbf8f944217d1987c6a)**  
 *Yahoo · 1h前*  
-A fabless semiconductor company just posted 115% revenue growth, beat earnings, and raised guidance, yet the stock cratered 43% from its highs. One Wall Street …
+For those interested in getting paid with some AI exposure, Broadcom (AVGO), Vertiv (VRT), and Caterpillar (CAT) all fit the criteria.
 
-- **[AI Chips Today - Einride NVIDIA Team Up for Autonomous Truck Expansion](https://finnhub.io/api/news?id=1b6e423a194ef5bef51d94edf4a9a15295074cfa1e77c5d7187bcfd6e11ca2a6)**  
-*Yahoo · 1h前*  
-Einride AB has announced a strategic collaboration with NVIDIA to enhance its autonomous trucking capabilities by integrating the NVIDIA DRIVE Hyperion platform…
+- **[NVIDIA Or Micron: Which Gets Paid More Safely For The AI Shortage?](https://finnhub.io/api/news?id=ef3bfcf8c1c19773033f33386d60055f91601912d3a8bd7d6b25e6f17fac7f7a)**  
+*Yahoo · 4h前*  
+If you own NVIDIA (NVDA) or Micron Technology (MU), you own the same idea: AI data centers want more chips and memory than the industry can supply. The two spli…
 
-- **[“Our Targets Haven’t Changed”: Broadcom’s CEO Pushes Back on the AI Slowdown Scare](https://finnhub.io/api/news?id=91d0dff52b8ac206bff53409dc88dfb65c9ab59adb6c8015090eb61ed8e49b26)**  
-*Yahoo · 1h前*  
-When Anthropic CEO Dario Amodei wrote a weekend essay proposing that the AI industry should deliberately restrict its pace of progress, few companies were more …
+- **[Prediction: This Data Center Stock Will Be the AI Supercycle's Biggest Winner -- and It's Not a Household Name](https://finnhub.io/api/news?id=7197bf644545295b190f97995ab479781f70e3f208f85908694563da87558d65)**  
+*Yahoo · 5h前*  
+The demand for optical networking components is poised to boom, and Lumentum is one of the best ways to capitalize on this lucrative niche.
 
 ---
 
@@ -48,7 +48,7 @@ When Anthropic CEO Dario Amodei wrote a weekend essay proposing that the AI indu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-21 | 監控 | $357.61 | — | 自動更新 |
+| 2026-09-22 | 監控 | $362.66 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ When Anthropic CEO Dario Amodei wrote a weekend essay proposing that the AI indu
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 09:03 HKT*
