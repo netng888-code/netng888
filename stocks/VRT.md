@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[3 Stocks That Pay Dividends and Offer AI Exposure](https://finnhub.io/api/news?id=4decf81b3c2a217cfdef2a361dc181ed864db9e18be85fbf8f944217d1987c6a)**  
-*Yahoo · 1h前*  
+*Yahoo · 13h前*  
 For those interested in getting paid with some AI exposure, Broadcom (AVGO), Vertiv (VRT), and Caterpillar (CAT) all fit the criteria.
 
 - **[Why Is Vertiv Stock Up Sharply Over The Past Year Yet Well Below Its Peak?](https://finnhub.io/api/news?id=09f8e5b7b4da4ed850f5af06b56f687467165579eaf1a0c08084f1e3e0eea48a)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 Vertiv (VRT) stock gained 75.9% over the past year, more than four times the S&P 500's 16.7% return. The company sells the power and cooling equipment that AI d…
 
 - **[Beyond NVIDIA: 2 AI Data Center Stocks to Buy for More Upside](https://finnhub.io/api/news?id=e1e9ab01e95482e261745e127e839b928b6d01eedaef77a0c64dcc2c2798915b)**  
-*Yahoo · 6h前*  
+*Yahoo · 18h前*  
 Vertiv and Arista offer AI data-center exposure beyond GPUs, spanning power, cooling and networking as hyperscalers expand capacity.
 
 ---
@@ -59,4 +59,4 @@ Vertiv and Arista offer AI data-center exposure beyond GPUs, spanning power, coo
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
