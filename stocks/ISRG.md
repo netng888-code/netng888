@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[1 S&P 500 Stock with Exciting Potential and 2 We Ignore](https://finnhub.io/api/news?id=fee18e15306034892ca3afc97a697bf829ff2cdb7ca4328b001fb8a29035682e)**  
+*Yahoo · 4h前*  
+While the S&P 500 (^GSPC) includes industry leaders, not every stock in the index is a winner. Some companies are past their prime, weighed down by poor executi…
+
 - **[Abbott Laboratories vs. Intuitive Surgical: Recent Quarterly Revenue Trends Reveal a Classic Investing Truth](https://finnhub.io/api/news?id=49d7801003b62f6bb233559f1129990070d1ebd399c6f3c592aa1042cb77622c)**  
-*Yahoo · 5h前*  
+*Yahoo · 17h前*  
 Abbott leads in absolute revenue, but Intuitive Surgical's growth rate tells a different story over the past eight quarters.
 
 - **[Q2 Earnings Roundup: Intuitive Surgical (NASDAQ:ISRG) And The Rest Of The Surgical Equipment & Consumables - Specialty Segment](https://finnhub.io/api/news?id=99797b3d79ca59ddc5a9bc77495b350b8427fb6e2dfb214dcb9d43d1c7b3f005)**  
-*Yahoo · 6h前*  
+*Yahoo · 18h前*  
 Wrapping up Q2 earnings, we look at the numbers and key takeaways for the surgical equipment & consumables - specialty stocks, including Intuitive Surgical (NAS…
-
-- **[Ambulatory Surgery Centers Are Becoming ISRG's New Growth Engine](https://finnhub.io/api/news?id=59dda8078a45a12151b3610719dd5ca94d272073b562dca557b4c4d3d847917e)**  
-*Yahoo · 8h前*  
-Intuitive Surgical is expanding robotic surgery in ASCs with lower-cost XiR systems, opening access to new customers and outpatient procedures.
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical is expanding robotic surgery in ASCs with lower-cost XiR syst
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
