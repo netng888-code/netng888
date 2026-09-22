@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Prediction: Here's What a $5,000 Investment in Marvell Could Be Worth by 2030](https://finnhub.io/api/news?id=e4e39f13ba174f0e2632df63e41a50eb344adc9143ba6df917cff9d8629507bb)**  
-*Yahoo · 4h前*  
-Marvell Technology stock has multibagger potential even after rising substantially over the past year.
+- **[Marvell Technology (MRVL) Debuts Industry First 2nm Optical Interconnects](https://finnhub.io/api/news?id=5d8d9c5ec967cf9344e868afc0d6dd7d78f2a16a828af324da5c95c9a0753ef8)**  
+*Yahoo · 1h前*  
+Marvell Technology (NasdaqGS:MRVL) revealed industry-first 2nm optical interconnect solutions for AI data centers at ECOC 2026 on 21 September 2026. The new 2nm…
 
-- **[Marvell just made a move that changes the AI networking story](https://finnhub.io/api/news?id=903f90e68818db01bf9bc79fb0abdc4bf40d0554d5ef876227770fbcfb8af8a6)**  
-*Yahoo · 4h前*  
-The chip designer took new optical hardware to a European stage this week, and the timing lines up with where hyperscaler spending is heading.
+- **[AMD, Intel, Salesforce, GameStop, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=1262c981f9dad4d64cf2baa3ff909c3a535775b37761c4ef2b92541d6fd7b88d)**  
+*Yahoo · 2h前*  
+FEATURE  Stock futures were sliding on Tuesday as investors opted to lock in some profit following the previous session’s record-breaking tech rally. Artificial…
 
-- **[Marvell Shares Rally After Unveiling 1.6T Optical Technology for AI Networks](https://finnhub.io/api/news?id=64561fe5c212c7b7508af82f776d6243d54b6e3ccf6c765f9990086f429a423e)**  
-*Yahoo · 5h前*  
-Marvell Takes Aim at AI Data Centers With New 2nm Optical Technology
+- **[Custom Chips May Outpace GPUs By 2027](https://finnhub.io/api/news?id=4282adad981ca31c48794b2fcf6bbaae96f3f960a12cc1a0b20f0fbe5413a976)**  
+*SeekingAlpha · 5h前*  
+Strive US Semiconductor ETF offers diversified exposure to both GPU and custom chip growth. Read why SHOC ETF may outperform peers.
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Takes Aim at AI Data Centers With New 2nm Optical Technology
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:03 HKT*
