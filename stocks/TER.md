@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Will AI Expansion Drive CEVA's Shares to Further Heights?](https://finnhub.io/api/news?id=809521725900a51ca59269f17cb40e9079c3c3a58ace2a4356493ef7f5d227d5)**  
-*Yahoo · 8h前*  
+*Yahoo · 20h前*  
 Ceva's LG partnership pairs UWB IP and software with RF technology, targeting faster time to market as global UWB device shipments are projected to surge.
 
 - **[AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?](https://finnhub.io/api/news?id=10c9059151a7cacb25502b4804867ae0fbc8a6db1ac052079f11df6a49f7ff02)**  
-*Yahoo · 8h前*  
+*Yahoo · 20h前*  
 Aehr Test Systems' 363% 2026 surge and 18.59X sales multiple reflect AI optimism, but customer concentration and execution risks leave little room for error.
 
 - **[Chip Earnings Wave to Test Whether Semiconductor Rally Broadens Beyond AI Leaders](https://finnhub.io/api/news?id=a02b5181684b941f4b10fb982b1d6a1bf143a59c252ba8d582b1ab8dd878184d)**  
-*ChartMill · 12h前*  
+*ChartMill · 1d前*  
 Semiconductor earnings preview: Intel, Analog Devices, Teradyne, Rambus and KLA reveal if chip demand is broadening beyond AI leaders.
 
 ---
@@ -59,4 +59,4 @@ Semiconductor earnings preview: Intel, Analog Devices, Teradyne, Rambus and KLA 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:03 HKT*
