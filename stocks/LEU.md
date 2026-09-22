@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[1 Small-Cap Stock with Exciting Potential and 2 We Find Risky](https://finnhub.io/api/news?id=37b75c4f4db190582054cae69fd5b3fb53918cf6eda04f1546fd7a1e68f9f8f0)**  
-*Yahoo · 15h前*  
+*Yahoo · 1d前*  
 Investors looking for hidden gems should keep an eye on small-cap stocks because they’re frequently overlooked by Wall Street. Many opportunities exist in this …
 
 - **[Centrus Energy (LEU) Lands New HALEU Deal with Antares](https://finnhub.io/api/news?id=0063e575538adb78b36ab16ab9e169f659baab548ea32cd3c9e01fc6954b3151)**  
@@ -59,4 +59,4 @@ Centrus Energy (NYSE:LEU) agreed to a multi year HALEU supply contract with Anta
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
