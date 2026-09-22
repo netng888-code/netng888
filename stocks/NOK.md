@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.68** |
-| 今日變動 | ▲ $0.08　(+0.75%) |
+| 現價 | **$10.94** |
+| 今日變動 | ▲ $0.26　(+2.43%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $373　(▼18.9%) |
+| 未實現盈虧 | ▼ $334　(▼16.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.24 | — |
-| Put Wall（支撐） | $10.00 | -6.4% |
-| Call Wall（阻力） | $12.00 | +12.4% |
+| Gamma Flip | $9.36 | — |
+| Put Wall（支撐） | $10.00 | -8.6% |
+| Call Wall（阻力） | $11.00 | +0.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[NOK Stock Rises Overnight: Nokia’s EURO STOXX 50 Index Return On Monday Adds To AI-Fueled Momentum](https://finnhub.io/api/news?id=59de802070fab17442b80fcbe7d16eebb625901192e8797e5a0cc0bddd8ae381)**  
-*Yahoo · 7h前*  
-Nokia will rejoin the top Eurozone index a year after it was dropped.
+- **[Why Is Nokia Stock Surging Monday?](https://finnhub.io/api/news?id=c7865e1f77cb55dc67a8f51086b3f2b46b76e4b9cd922329239b5879dbd47137)**  
+*Benzinga · 15h前*  
+Wall Street turns bullish on Nokia (NOK) with Buy ratings &amp; targets up to $21 as AI growth accelerates. Get full stock analysis.
 
-- **[Nokia (NOK) Gets a Buy Rating, But Q2 Operating Loss Raises Questions](https://finnhub.io/api/news?id=512909e0c0638b51fa63d7ea9eb70115060b83867c1dc89311497277da8ee048)**  
+- **[Volkswagen exits Euro Stoxx 50 as index removal adds to pressure on troubled firm](https://finnhub.io/api/news?id=bb7f147c8ae854cd46bd8d8c0b18fac0e63bd201a966648d82b285e444fb023f)**  
 *Yahoo · 15h前*  
-On September 17, B. Riley initiated coverage of Nokia Oyj (NYSE:NOK), giving the stock a Buy rating and setting the price target at $15. The firm pointed to the…
+Volkswagen has been removed from the Euro Stoxx 50, the eurozone's benchmark index of its largest listed companies, taking effect as markets opened on Monday ju…
 
-- **[Nokia: Back To The Buy Zone (Rating Upgrade)](https://finnhub.io/api/news?id=81f9f8dcda256599b9e9254387d6aeca55be81079293ce012cde589f6a65c839)**  
-*SeekingAlpha · 23h前*  
-Nokia stock looks undervalued near $10 as AI & Cloud orders surge, boosting optical networking demand and long-term growth.
+- **[Semtech Enables 50G Optical Transition for AI-Driven 5G-Advanced](https://finnhub.io/api/news?id=b9c64d55ecdb4e9b5c71d8846398254b844446cc10af8d3fdc932bf6fa481aa6)**  
+*Yahoo · 18h前*  
+CAMARILLO, Calif., September 21, 2026--Semtech Corporation (Nasdaq: SMTC), a leading provider of high-performance semiconductors powering AI data center network…
 
 ---
 
@@ -48,7 +48,7 @@ Nokia stock looks undervalued near $10 as AI & Cloud orders surge, boosting opti
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-21 | 監控 | $10.68 | — | 自動更新 |
+| 2026-09-22 | 監控 | $10.94 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nokia stock looks undervalued near $10 as AI & Cloud orders surge, boosting opti
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
