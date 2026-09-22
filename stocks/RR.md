@@ -1,6 +1,6 @@
 # RR — Richtech Robotics
 
-> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$1.67** |
-| 今日變動 | ▼ $0.04　(-2.34%) |
+| 現價 | **$1.74** |
+| 今日變動 | ▲ $0.07　(+4.19%) |
 | 持倉數量 | 300 股 |
 | 平均成本 | $2.445 |
-| 未實現盈虧 | ▼ $232　(▼31.7%) |
+| 未實現盈虧 | ▼ $211　(▼28.8%) |
 
 ---
 
@@ -21,8 +21,8 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $1.56 | — |
-| Put Wall（支撐） | $1.50 | -10.2% |
-| Call Wall（阻力） | $3.00 | +79.6% |
+| Put Wall（支撐） | $1.50 | -13.8% |
+| Call Wall（阻力） | $2.00 | +14.9% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,9 +30,7 @@
 
 ## 📰 最新新聞
 
-- **[Richtech Robotics: Plenty Of Cash, But Growth Remains Elusive](https://finnhub.io/api/news?id=a722f9be099173510cc438ce9b739c952d223cdc2dee12779fab7ba3a166e6a0)**  
-*SeekingAlpha · 2d前*  
-Richtech Robotics (RR) stock analysis: minimal revenue growth, rising losses, small RaaS impact, dilution risks, and cash-heavy valuation. See more here.
+- 暫無新聞
 
 ---
 
@@ -40,7 +38,7 @@ Richtech Robotics (RR) stock analysis: minimal revenue growth, rising losses, sm
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-21 | 監控 | $1.67 | — | 自動更新 |
+| 2026-09-22 | 監控 | $1.74 | — | 自動更新 |
 
 ---
 
@@ -51,4 +49,4 @@ Richtech Robotics (RR) stock analysis: minimal revenue growth, rising losses, sm
 - [TradingView](https://www.tradingview.com/chart/?symbol=RR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
