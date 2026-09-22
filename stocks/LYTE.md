@@ -1,6 +1,6 @@
 # LYTE — Roundhill Photonics & Optics ETF
 
-> 最後更新：2026-09-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-22 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$26.25** |
-| 今日變動 | ▲ $1.03　(+4.08%) |
+| 現價 | **$26.76** |
+| 今日變動 | ▲ $0.51　(+1.94%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $25.000 |
-| 未實現盈虧 | ▲ $38　(▲5.0%) |
+| 未實現盈虧 | ▲ $53　(▲7.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $23.76 | — |
-| Put Wall（支撐） | $20.00 | -23.8% |
-| Call Wall（阻力） | $30.00 | +14.3% |
+| Gamma Flip | $23.41 | — |
+| Put Wall（支撐） | $20.00 | -25.3% |
+| Call Wall（阻力） | $30.00 | +12.1% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,9 +30,7 @@
 
 ## 📰 最新新聞
 
-- **[Bet on These Photonics ETFs to Exploit the Next Wave of AI Revolution](https://finnhub.io/api/news?id=1fc1b7efc14480ca25c73b2f91afca3e6595ce98053607a3c3844da0ac003836)**  
-*Yahoo · 2d前*  
-Photonics is emerging as a key AI infrastructure technology, with surging investments and growth projections fueling interest in ETFs.
+- 暫無新聞
 
 ---
 
@@ -40,7 +38,7 @@ Photonics is emerging as a key AI infrastructure technology, with surging invest
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-21 | 監控 | $26.25 | — | 自動更新 |
+| 2026-09-22 | 監控 | $26.76 | — | 自動更新 |
 
 ---
 
@@ -51,4 +49,4 @@ Photonics is emerging as a key AI infrastructure technology, with surging invest
 - [TradingView](https://www.tradingview.com/chart/?symbol=LYTE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-21 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-22 09:04 HKT*
