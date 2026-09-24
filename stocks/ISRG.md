@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$401.65** |
-| 今日變動 | ▲ $8.32　(+2.12%) |
+| 現價 | **$398.30** |
+| 今日變動 | ▼ $3.79　(-0.94%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $103　(▼11.4%) |
+| 未實現盈虧 | ▼ $110　(▼12.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $385.17 | — |
-| Put Wall（支撐） | $350.00 | -12.9% |
-| Call Wall（阻力） | $420.00 | +4.6% |
+| Gamma Flip | $386.63 | — |
+| Put Wall（支撐） | $350.00 | -12.1% |
+| Call Wall（阻力） | $400.00 | +0.4% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[1 S&P 500 Stock with Exciting Potential and 2 We Ignore](https://finnhub.io/api/news?id=fee18e15306034892ca3afc97a697bf829ff2cdb7ca4328b001fb8a29035682e)**  
-*Yahoo · 4h前*  
-While the S&P 500 (^GSPC) includes industry leaders, not every stock in the index is a winner. Some companies are past their prime, weighed down by poor executi…
+- **[Buy 3 AI-Powered Medical Stocks to Strengthen Your Portfolio in Q4](https://finnhub.io/api/news?id=6a272da4299dbdd38ecc1f05f9aea0440ad19c5b994b479014c02f7cbb1f1f1d)**  
+*Yahoo · 2h前*  
+AI adoption is reshaping medical devices, with ISRG, TEM and TMO leveraging AI to advance precision medicine and drug development.
 
-- **[Abbott Laboratories vs. Intuitive Surgical: Recent Quarterly Revenue Trends Reveal a Classic Investing Truth](https://finnhub.io/api/news?id=49d7801003b62f6bb233559f1129990070d1ebd399c6f3c592aa1042cb77622c)**  
-*Yahoo · 17h前*  
-Abbott leads in absolute revenue, but Intuitive Surgical's growth rate tells a different story over the past eight quarters.
+- **[Medical Robots Market Forecasts Growth from $20.6B (2026) to $41.7B by 2031, Profiling Intuitive Surgical, Stryker, Zimmer Biomet & Medtronic](https://finnhub.io/api/news?id=79dd7f01c6ecef2740e3a6268b02c082b383afae7fc17168d71498774b5d6f8d)**  
+*Yahoo · 2h前*  
+The global medical robots market is projected to grow from USD 20.6 billion in 2026 to USD 41.7 billion by 2031, at a 15.1% CAGR. Growth is driven by demand for…
 
-- **[Q2 Earnings Roundup: Intuitive Surgical (NASDAQ:ISRG) And The Rest Of The Surgical Equipment & Consumables - Specialty Segment](https://finnhub.io/api/news?id=99797b3d79ca59ddc5a9bc77495b350b8427fb6e2dfb214dcb9d43d1c7b3f005)**  
-*Yahoo · 18h前*  
-Wrapping up Q2 earnings, we look at the numbers and key takeaways for the surgical equipment & consumables - specialty stocks, including Intuitive Surgical (NAS…
+- **[Intuitive Surgical Stock Has Plunged 29% This Year. Is the Market Overreacting?](https://finnhub.io/api/news?id=5f76ba72aeebc504c3922930d3403b30174fda18678807b4c9c37c44831ded12)**  
+*Yahoo · 3h前*  
+Wall Street thinks that this robotic surgical systems leader's sell-off is overdone.
 
 ---
 
@@ -48,7 +48,7 @@ Wrapping up Q2 earnings, we look at the numbers and key takeaways for the surgic
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-22 | 監控 | $401.65 | — | 自動更新 |
+| 2026-09-24 | 監控 | $398.30 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wrapping up Q2 earnings, we look at the numbers and key takeaways for the surgic
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
