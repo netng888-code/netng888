@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$354.97** |
-| 今日變動 | ▲ $5.43　(+1.55%) |
+| 現價 | **$337.83** |
+| 今日變動 | ▼ $13.33　(-3.80%) |
 | 持倉數量 | 16 股 |
 | 平均成本 | $221.300 |
-| 未實現盈虧 | ▲ $2,139　(▲60.4%) |
+| 未實現盈虧 | ▲ $1,864　(▲52.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $333.64 | — |
-| Put Wall（支撐） | $340.00 | -4.2% |
-| Call Wall（阻力） | $370.00 | +4.2% |
+| Gamma Flip | $337.35 | — |
+| Put Wall（支撐） | $330.00 | -2.3% |
+| Call Wall（阻力） | $370.00 | +9.5% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[12 S&P 500 Stocks Hit Trillion-Dollar Club — What Could Go Wrong?](https://finnhub.io/api/news?id=5cd123fb197784b4d9e12e9da7ef0d20df16c98419e92f716e2022a14e806ead)**  
-*Yahoo · 1h前*  
-It was big news when the value of Apple surpassed $1 trillion. But now a dozen S&P 500 companies have done it.
-
-- **[Amazon, Alphabet, and Microsoft: 2 Cloud Giants I Am Buying in September and 1 I Am Avoiding](https://finnhub.io/api/news?id=c7e58167faf64c47a2e8e9eb0bcbe943735b015fc8627e2738179b6a2ae9ef79)**  
+- **[Meta is making a Tamagotchi-style ‘Charm’ that wants to run your life for you](https://finnhub.io/api/news?id=1486d3390569aa4e34517f8e9c185de5b24ba12380dbc2e8da630bbcaff4a076)**  
 *Yahoo · 2h前*  
-The cloud computing race is heating up.
+Meta is making a Tamagotchi-style device that can run your life for you, chief executive Mark Zuckerberg has announced.  The device, called the Muse Charm, is a…
 
-- **[Aviatrix Launches Harvest and Decrypt Protection, the First Post-Quantum Protection That Also Governs What a Compromised Workload Can Reach](https://finnhub.io/api/news?id=4d5b7bf77c42ec87f4624ce126235dfec5d4d0de1c445976310f0d49d32b6dfd)**  
+- **[Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum Last?](https://finnhub.io/api/news?id=7422b41fe575673e92c7200d3d19df7368ecb019b98f8ceb72e3898d97ce619f)**  
+*Yahoo · 2h前*  
+AI leadership is increasingly becoming a key growth engine across Alphabet Inc. (NASDAQ:GOOGL)’s core businesses. Tigress Financial analyst Ivan Feinseth echoed…
+
+- **[Zacks Earnings Trends Highlights: Micron, Nvidia and Alphabet](https://finnhub.io/api/news?id=50026334c801517eb95a0014e8f7a303994b2a5fab78891a8fddd59fdd8e568d)**  
 *Yahoo · 3h前*  
-Crypto-agile encryption and Communication Governance ship as one policy in software, on the network enterprises already run, a month before federal post-quantum…
+S&P 500 Q3 earnings are projected to rise 23.9%, with Micron, NVIDIA and Alphabet materially shaping tech-sector growth.
 
 ---
 
@@ -48,7 +48,7 @@ Crypto-agile encryption and Communication Governance ship as one policy in softw
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-22 | 監控 | $354.97 | — | 自動更新 |
+| 2026-09-24 | 監控 | $337.83 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Crypto-agile encryption and Communication Governance ship as one policy in softw
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
