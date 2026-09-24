@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$69.89** |
-| 今日變動 | ▲ $5.32　(+8.24%) |
+| 現價 | **$70.31** |
+| 今日變動 | ▼ $1.67　(-2.32%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $61　(▼8.0%) |
+| 未實現盈虧 | ▼ $57　(▼7.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $65.20 | — |
-| Put Wall（支撐） | $65.00 | -7.0% |
-| Call Wall（阻力） | $80.00 | +14.5% |
+| Gamma Flip | $65.91 | — |
+| Put Wall（支撐） | $65.00 | -7.6% |
+| Call Wall（阻力） | $70.00 | +-0.4% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Sold $1.9 Billion of New Stock to Pay for Iridium. Here's the Dilution Math.](https://finnhub.io/api/news?id=79b31008476e529a527fee4a068b68bef860ccbee97a6aac67b0034bf58b50dd)**  
-*Yahoo · 5h前*  
-The space company sold about 5% of itself so it wouldn't have to borrow $3.6 billion. And the share count still isn't done growing.
+- **[Cathie Wood Just Made Another Big Bet on Rocket Lab](https://finnhub.io/api/news?id=01ab2eb6f08d80fa8bd023e02d71e7f10a473d373cc747207b1c072d3e1a6f63)**  
+*Yahoo · 0h前*  
+ARK Invest bought another $25 million of Rocket Lab shares as the company approaches its 97th Electron launch and prepares for its next major growth phase.
 
-- **[RKLB Stock Extends Rally Overnight: CEO Says Iridium Deal Will Forge A Self-Launching ‘Tier-1 Space Power’](https://finnhub.io/api/news?id=edaa9e8019256e906b925e62ce9ccb9058fa65fe67cacec902a53231731c507e)**  
-*Yahoo · 9h前*  
-Iridium shareholders will vote on the $8.1 billion enterprise-value deal on Sept.24, with closing targeted for mid-2027.
+- **[Our Pick Of The Best Defense Stocks In September 2026](https://finnhub.io/api/news?id=10627dea7caae689d2a0ac8542bf4ed8d008aec3c6adaed4ff80303e03e860b3)**  
+*Yahoo · 1h前*  
+Global government bond yields are hovering near 4%, a level last seen in 2007, and that shift in borrowing costs is reshaping how investors think about risk and…
 
-- **[Why Are Rocket Lab (RKLB) Shares Soaring Today](https://finnhub.io/api/news?id=da8cc42077bb94afdcaff8a296e18d348333484fbfeb49807340f59572038ecc)**  
-*Yahoo · 11h前*  
-Shares of aerospace and defense company Rocket Lab (NASDAQ:RKLB) jumped 8.2% in the afternoon session after Cantor Fitzgerald reiterated an Overweight rating an…
+- **[Rocket Lab (RKLB) Neutron Could Fill A Medium Lift Launch Gap](https://finnhub.io/api/news?id=864600109d9bf36579a130dfee6117b9d17fe79b77d10f7faf42da7d579e46e4)**  
+*Yahoo · 16h前*  
+Rocket Lab (NasdaqGS:RKLB) is positioning its Neutron rocket for medium-lift missions as SpaceX prepares to wind down Falcon 9 later this decade. SpaceX plans t…
 
 ---
 
@@ -48,7 +48,7 @@ Shares of aerospace and defense company Rocket Lab (NASDAQ:RKLB) jumped 8.2% in 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-22 | 監控 | $69.89 | — | 自動更新 |
+| 2026-09-24 | 監控 | $70.31 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Shares of aerospace and defense company Rocket Lab (NASDAQ:RKLB) jumped 8.2% in 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
