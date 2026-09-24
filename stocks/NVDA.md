@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$227.38** |
-| 今日變動 | ▲ $5.11　(+2.30%) |
+| 現價 | **$225.51** |
+| 今日變動 | ▼ $3.36　(-1.47%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $673　(▲42.0%) |
+| 未實現盈虧 | ▲ $654　(▲40.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $208.18 | — |
-| Put Wall（支撐） | $220.00 | -3.2% |
-| Call Wall（阻力） | $230.00 | +1.2% |
+| Gamma Flip | $210.11 | — |
+| Put Wall（支撐） | $220.00 | -2.4% |
+| Call Wall（阻力） | $230.00 | +2.0% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[United States Integrated Circuits Market to Reach US$330 Billion by 2035 as AI and Domestic Manufacturing Accelerate Growth](https://finnhub.io/api/news?id=1c3bfcda672a7f44b28dfd3f01a3cc496a0f667768e58ec1fa375d9fa35949f2)**  
+- **[If Kevin Warsh Keeps Rates Elevated, These 2 Stocks Are Built to Handle It](https://finnhub.io/api/news?id=ea31c74d0984f412bb3504a054899413324b0732bf218cf34d87720bbcc8a19b)**  
 *Yahoo · 1h前*  
-AI accelerators are boosting US chip demand, while reshoring, edge AI, EVs and ADAS create opportunities in advanced logic, memory, networking and secure domest…
+The Federal Open Market Committee recently raised interest rates for the first time in three years.
 
-- **[Coca-Cola's “$10 Billion” Investment Announcement Is Smaller Than It Sounds. Here's the Math.](https://finnhub.io/api/news?id=6ca2a2debb8736b2ecbb5b528a3e9b08828727555c0107ff4eecf4334b8d8671)**  
+- **[SpaceX Stock Is Sliding. Should You Buy the Dip?](https://finnhub.io/api/news?id=36b7076da48a5d79f68d3bca6db1d5ac49d6541c6c7c3fb0ba22165cc809b97f)**  
 *Yahoo · 1h前*  
-Coca-Cola isn't going on an investment spending spree.
+SpaceX has declined from its IPO price.
 
-- **[Freeport-McMoRan's Low-Cost Secret to Take Advantage of Record Copper Prices](https://finnhub.io/api/news?id=84a81050704124ce1af077f4fee5e72fae9dbe534d682d7ff4b3aa14c1d80846)**  
+- **[AMD vs. Intel: Which Artificial Intelligence (AI) Chip Stock Has More Room to Run?](https://finnhub.io/api/news?id=794749277dbf560f885831f9653682b7f04a44884acabdce2d72c55b702253e2)**  
 *Yahoo · 1h前*  
-There are no AI data centers without copper.
+Intel has outperformed AMD over the past year, but the future could be different.
 
 ---
 
@@ -48,7 +48,7 @@ There are no AI data centers without copper.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-22 | 監控 | $227.38 | — | 自動更新 |
+| 2026-09-24 | 監控 | $225.51 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ There are no AI data centers without copper.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
