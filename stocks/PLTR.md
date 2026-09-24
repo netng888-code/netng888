@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$183.09** |
-| 今日變動 | ▲ $5.45　(+3.07%) |
+| 現價 | **$191.79** |
+| 今日變動 | ▲ $6.80　(+3.68%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $411　(▲47.3%) |
+| 未實現盈虧 | ▲ $472　(▲54.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $166.34 | — |
-| Put Wall（支撐） | $170.00 | -7.1% |
-| Call Wall（阻力） | $185.00 | +1.0% |
+| Gamma Flip | $169.78 | — |
+| Put Wall（支撐） | $170.00 | -11.4% |
+| Call Wall（阻力） | $200.00 | +4.3% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir Technologies (NASDAQ:PLTR): High Growth Momentum Meets Breakout Setup](https://finnhub.io/api/news?id=9303116b591dba6514901b52b2c837c9ddfd32d8aed57c16d2506e05827ca94a)**  
-*ChartMill · 3h前*  
-Palantir stock clears strict growth, technical and setup screens as EPS and sales accelerate. See the PLTR breakout setup, ratings and key risks.
+- **[Dow Jones Futures Fall As Treasury Yields, Oil Prices Keep Rising. Meta, Everpure, Grail Are Early Movers.](https://finnhub.io/api/news?id=a1968f7dfdc35eb701af6355cb35cf6d4ecba067b0a422de48c6d7a39b18964b)**  
+*Yahoo · 1h前*  
+Dow Jones futures fell early Thursday, along with S&P 500 futures and especially Nasdaq futures. The 30-year Treasury yield hit a fresh long-term high while oil…
 
-- **[The 3 Most Dangerous Investing Mistakes I Keep Seeing](https://finnhub.io/api/news?id=64d367167015b117f4aaa9ed5b6145a3d13c44bad8b42e3c97e6fef3f4624240)**  
-*SeekingAlpha · 4h前*  
-Many investors are becoming too complacent instead of adapting to a rapidly changing world. Read the three mistakes that a lot of investors make right now.
+- **[Palantir Technologies (NASDAQ:PLTR) Shows Explosive Growth and Strengthening Fundamentals Across the Board](https://finnhub.io/api/news?id=278fa9f523be5b545ef3d2877acd934802c4d9acddf0720e2a0b95775d7821b2)**  
+*ChartMill · 2h前*  
+Palantir (PLTR) clears Navellier's 8 growth rules, with strong earnings, sales, margins, and cash flow, but high valuation remains a key risk.
 
-- **[A Closer Look at the 'Big 3' Investing Styles](https://finnhub.io/api/news?id=06515fc5deb57dfa77d7800a87686791109c531843b4a7d755d8cda45062c003)**  
-*Yahoo · 13h前*  
-Investors typically gravitate toward several market strategies, including income, growth, or value.
+- **[UBS Says This Bargain Stock Is the "Best AI Enabler in the Market" and Sees Shares Surging 30%+](https://finnhub.io/api/news?id=d2334931e151c59e4ffb4ee7ab2f8d51828138e4c01ad9b3a2e7ab6e0f069ff2)**  
+*Yahoo · 2h前*  
+UBS analyst Karl Keirstead just put a $250 price target on Palantir stock.
 
 ---
 
@@ -48,7 +48,7 @@ Investors typically gravitate toward several market strategies, including income
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-22 | 監控 | $183.09 | — | 自動更新 |
+| 2026-09-24 | 監控 | $191.79 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Investors typically gravitate toward several market strategies, including income
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
