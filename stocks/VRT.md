@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-24 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$250.86** |
-| 今日變動 | ▲ $1.47　(+0.59%) |
+| 現價 | **$248.78** |
+| 今日變動 | ▼ $4.68　(-1.85%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $106　(▼17.4%) |
+| 未實現盈虧 | ▼ $110　(▼18.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $256.35 | — |
-| Put Wall（支撐） | $220.00 | -12.3% |
-| Call Wall（阻力） | $260.00 | +3.6% |
+| Gamma Flip | $253.06 | — |
+| Put Wall（支撐） | $220.00 | -11.6% |
+| Call Wall（阻力） | $260.00 | +4.5% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 Stocks That Pay Dividends and Offer AI Exposure](https://finnhub.io/api/news?id=4decf81b3c2a217cfdef2a361dc181ed864db9e18be85fbf8f944217d1987c6a)**  
-*Yahoo · 13h前*  
-For those interested in getting paid with some AI exposure, Broadcom (AVGO), Vertiv (VRT), and Caterpillar (CAT) all fit the criteria.
+- **[Vertiv To Acquire King Environmental As AI Drives Demand For Liquid-Cooling Services](https://finnhub.io/api/news?id=8949da48fdc88a8e210f0f55840a0114c6e844047d9debd27d59ccb001878316)**  
+*Yahoo · 1h前*  
+The deal adds European fluid-management and commissioning capabilities as Vertiv builds out services for increasingly complex liquid-cooled data centers.
 
-- **[Why Is Vertiv Stock Up Sharply Over The Past Year Yet Well Below Its Peak?](https://finnhub.io/api/news?id=09f8e5b7b4da4ed850f5af06b56f687467165579eaf1a0c08084f1e3e0eea48a)**  
-*Yahoo · 16h前*  
-Vertiv (VRT) stock gained 75.9% over the past year, more than four times the S&P 500's 16.7% return. The company sells the power and cooling equipment that AI d…
+- **[Vertiv Announces Agreement to Acquire King Environmental Services Ltd., Expanding Global Fluid Management Services](https://finnhub.io/api/news?id=faed0e6fcadca7aac046cb1e95fb717bd7d366f412323b34f25a47a7affa6acc)**  
+*Yahoo · 2h前*  
+Vertiv Holdings Co (NYSE: VRT), a global leader in critical digital infrastructure, today announced that it has entered into an agreement to acquire King Enviro…
 
-- **[Beyond NVIDIA: 2 AI Data Center Stocks to Buy for More Upside](https://finnhub.io/api/news?id=e1e9ab01e95482e261745e127e839b928b6d01eedaef77a0c64dcc2c2798915b)**  
-*Yahoo · 18h前*  
-Vertiv and Arista offer AI data-center exposure beyond GPUs, spanning power, cooling and networking as hyperscalers expand capacity.
+- **[2 Industrials Stocks to Keep an Eye On and 1 We Turn Down](https://finnhub.io/api/news?id=62a5957e0919b45aa6867479c25d7261848c6fa9ded6763cdf24b0efab9f7643)**  
+*Yahoo · 4h前*  
+Whether you see them or not, industrials businesses play a crucial part in our daily activities. Still, their generally high capital requirements expose them to…
 
 ---
 
@@ -48,7 +48,7 @@ Vertiv and Arista offer AI data-center exposure beyond GPUs, spanning power, coo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-22 | 監控 | $250.86 | — | 自動更新 |
+| 2026-09-24 | 監控 | $248.78 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv and Arista offer AI data-center exposure beyond GPUs, spanning power, coo
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-24 21:05 HKT*
