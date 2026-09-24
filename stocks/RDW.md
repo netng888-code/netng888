@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$11.60** |
-| 今日變動 | ▲ $0.86　(+8.01%) |
+| 現價 | **$11.27** |
+| 今日變動 | ▼ $0.49　(-4.17%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $162　(▼25.9%) |
+| 未實現盈虧 | ▼ $175　(▼28.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $10.11 | — |
-| Put Wall（支撐） | $11.00 | -5.2% |
-| Call Wall（阻力） | $12.00 | +3.4% |
+| Gamma Flip | $10.21 | — |
+| Put Wall（支撐） | $11.00 | -2.4% |
+| Call Wall（阻力） | $12.00 | +6.5% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,13 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Redwire Surges 8% but Is Still Down 3% in a Month: Will the Bulls or Bears Win?](https://finnhub.io/api/news?id=d38198e97352a3c0b4a5674cc64f8d5fb97b929803bbe4ad53df25dcb4067402)**  
-*Yahoo · 18h前*  
-Redwire is bouncing hard on Monday, but one session barely dents a brutal month where the entire space sector sold off while the broader market climbed. The rea…
+- **[Space Stocks Rally Looks Top-Heavy as Smaller Names Play Catch-Up](https://finnhub.io/api/news?id=eebf62c6aaa2e4a8d50899e09344c9d97e0315433a6e559a6f0285ec11dd7203)**  
+*ChartMill · 1d前*  
+Space industry stocks rally is narrow: one mega-cap drives gains while smaller unprofitable names catch up. Key risks, metrics, and trends.
 
-- **[Jim Cramer Suggests Avoiding Redwire (RDW) In A Rate Tightening Cycle](https://finnhub.io/api/news?id=b62cbc4e451ebd9171f24e448d8bccbbebbae04e483ea71e6ac41d677871f411)**  
-*Yahoo · 2d前*  
-On September 16, toward the end of the lightning round, a caller asked what Jim Cramer thinks of Redwire Corporation (NYSE:RDW). Mad Money host replied: We are …
+- **[Redwire vs. Rocket Lab: Which Space Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=452d15c6b21f57d07f7475e1654555ab677289a0f02ebb4acfce1733b2049d18)**  
+*Yahoo · 1d前*  
+Rocket Lab commands a premium valuation that reflects investor confidence in its commercial momentum. Redwire is cheaper, improving fast, and often overlooked.
+
+- **[Can Redwire's Docking Technology Unlock New Growth Opportunities?](https://finnhub.io/api/news?id=b19fc53cdfdc2648895cb5962229d3f2b59dcb280b548699fcf41a0b0de65591)**  
+*Yahoo · 1d前*  
+RDW's autonomous docking system supports rendezvous, docking and resource transfer, opening another path in future space infrastructure.
 
 ---
 
@@ -44,7 +48,7 @@ On September 16, toward the end of the lightning round, a caller asked what Jim 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-22 | 監控 | $11.60 | — | 自動更新 |
+| 2026-09-24 | 監控 | $11.27 | — | 自動更新 |
 
 ---
 
@@ -55,4 +59,4 @@ On September 16, toward the end of the lightning round, a caller asked what Jim 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
