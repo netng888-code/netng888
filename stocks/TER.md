@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$381.54** |
-| 今日變動 | ▲ $10.07　(+2.71%) |
+| 現價 | **$389.14** |
+| 今日變動 | ▼ $9.55　(-2.40%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,448　(▲314.7%) |
+| 未實現盈虧 | ▲ $1,486　(▲323.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $353.84 | — |
-| Put Wall（支撐） | $300.00 | -21.4% |
-| Call Wall（阻力） | $385.00 | +0.9% |
+| Gamma Flip | $356.99 | — |
+| Put Wall（支撐） | $350.00 | -10.1% |
+| Call Wall（阻力） | $385.00 | +-1.1% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Will AI Expansion Drive CEVA's Shares to Further Heights?](https://finnhub.io/api/news?id=809521725900a51ca59269f17cb40e9079c3c3a58ace2a4356493ef7f5d227d5)**  
-*Yahoo · 20h前*  
-Ceva's LG partnership pairs UWB IP and software with RF technology, targeting faster time to market as global UWB device shipments are projected to surge.
+- **[Wondering what's happening in today's S&P500  pre-market session?](https://finnhub.io/api/news?id=e36f17a0a336c936e7bcf62e255c87584a2afb5e2fb83f8131263752f543b5ab)**  
+*ChartMill · 0h前*  
+The US market is yet to commence its session on Thursday, but let's get a preview of the pre-market session and explore the top S&P500 gainers and losers drivin…
 
-- **[AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?](https://finnhub.io/api/news?id=10c9059151a7cacb25502b4804867ae0fbc8a6db1ac052079f11df6a49f7ff02)**  
-*Yahoo · 20h前*  
-Aehr Test Systems' 363% 2026 surge and 18.59X sales multiple reflect AI optimism, but customer concentration and execution risks leave little room for error.
+- **[Teradyne (TER) Sees a More Significant Dip Than Broader Market: Some Facts to Know](https://finnhub.io/api/news?id=9b5409a0be5a778705aef894d09f6d430d39bb943345c38b457bf97c46b393f4)**  
+*Yahoo · 14h前*  
+The latest trading day saw Teradyne (TER) settling at $389.14, representing a -2.4% change from its previous close.
 
-- **[Chip Earnings Wave to Test Whether Semiconductor Rally Broadens Beyond AI Leaders](https://finnhub.io/api/news?id=a02b5181684b941f4b10fb982b1d6a1bf143a59c252ba8d582b1ab8dd878184d)**  
-*ChartMill · 1d前*  
-Semiconductor earnings preview: Intel, Analog Devices, Teradyne, Rambus and KLA reveal if chip demand is broadening beyond AI leaders.
+- **[What's going on in today's session: S&P500 movers](https://finnhub.io/api/news?id=605977504757e7e3e80d88506dbb7320e228bde5306828633fe3b5b1a8169658)**  
+*ChartMill · 20h前*  
+Curious about the top performers within the S&P500 index in the middle of the day on Wednesday? Dive into the list of today's session's top gainers and losers f…
 
 ---
 
@@ -48,7 +48,7 @@ Semiconductor earnings preview: Intel, Analog Devices, Teradyne, Rambus and KLA 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-22 | 監控 | $381.54 | — | 自動更新 |
+| 2026-09-24 | 監控 | $389.14 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Semiconductor earnings preview: Intel, Analog Devices, Teradyne, Rambus and KLA 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
