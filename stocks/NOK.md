@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.94** |
-| 今日變動 | ▲ $0.26　(+2.43%) |
+| 現價 | **$10.63** |
+| 今日變動 | ▼ $0.19　(-1.76%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $334　(▼16.9%) |
+| 未實現盈虧 | ▼ $381　(▼19.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.36 | — |
-| Put Wall（支撐） | $10.00 | -8.6% |
-| Call Wall（阻力） | $11.00 | +0.5% |
+| Gamma Flip | $9.54 | — |
+| Put Wall（支撐） | $10.00 | -5.9% |
+| Call Wall（阻力） | $11.00 | +3.5% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Is Nokia Stock Surging Monday?](https://finnhub.io/api/news?id=c7865e1f77cb55dc67a8f51086b3f2b46b76e4b9cd922329239b5879dbd47137)**  
-*Benzinga · 1d前*  
-Wall Street turns bullish on Nokia (NOK) with Buy ratings &amp; targets up to $21 as AI growth accelerates. Get full stock analysis.
+- **[5G NTN Market Forecasts Growth from $11.91B (2026) to $45.55B by 2031, Profiling Thales, Qualcomm, SpaceX, Ericsson & Nokia](https://finnhub.io/api/news?id=83924c877bab09cf6def8f60985a9f1ac756bd005dae3c1510fb8df1f56bb931)**  
+*Yahoo · 2h前*  
+The global 5G NTN market is projected to grow from USD 11.91 billion in 2026 to USD 45.55 billion by 2031, registering a 30.8% CAGR. Growth is driven by demand …
 
-- **[Volkswagen exits Euro Stoxx 50 as index removal adds to pressure on troubled firm](https://finnhub.io/api/news?id=bb7f147c8ae854cd46bd8d8c0b18fac0e63bd201a966648d82b285e444fb023f)**  
-*Yahoo · 1d前*  
-Volkswagen has been removed from the Euro Stoxx 50, the eurozone's benchmark index of its largest listed companies, taking effect as markets opened on Monday ju…
+- **[How Deeper Azure and Copilot Adoption Across Regulated Industries Will Impact Microsoft (MSFT) Investors](https://finnhub.io/api/news?id=8cd6a7eac7e579d01ca01d2975a196c771051b5a24fb2e4f0b15af3d1a859823)**  
+*Yahoo · 20h前*  
+In recent days, partners including Marvell, Nokia, Causaly, Everforth and others have announced expanded collaborations that embed Microsoft Azure, Copilot and …
 
-- **[Semtech Enables 50G Optical Transition for AI-Driven 5G-Advanced](https://finnhub.io/api/news?id=b9c64d55ecdb4e9b5c71d8846398254b844446cc10af8d3fdc932bf6fa481aa6)**  
+- **[5 Tips for Using Stock Screeners to Build Your Portfolio](https://finnhub.io/api/news?id=2ecb253dac679f892977431a41eb5338a7a2e8e2d740c9300f11d2972ff0e474)**  
 *Yahoo · 1d前*  
-CAMARILLO, Calif., September 21, 2026--Semtech Corporation (Nasdaq: SMTC), a leading provider of high-performance semiconductors powering AI data center network…
+There's no magic formula to fit all cases, but these tips for using stock screeners can help you identify risks and rewards on your terms.
 
 ---
 
@@ -48,7 +48,7 @@ CAMARILLO, Calif., September 21, 2026--Semtech Corporation (Nasdaq: SMTC), a lea
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-22 | 監控 | $10.94 | — | 自動更新 |
+| 2026-09-24 | 監控 | $10.63 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ CAMARILLO, Calif., September 21, 2026--Semtech Corporation (Nasdaq: SMTC), a lea
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
