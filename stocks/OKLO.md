@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$40.18** |
-| 今日變動 | ▲ $2.18　(+5.74%) |
+| 現價 | **$38.82** |
+| 今日變動 | ▼ $1.63　(-4.03%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▲ $405　(▲33.7%) |
+| 未實現盈虧 | ▲ $350　(▲29.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $37.57 | — |
-| Put Wall（支撐） | $40.00 | -0.4% |
-| Call Wall（阻力） | $45.00 | +12.0% |
+| Gamma Flip | $37.79 | — |
+| Put Wall（支撐） | $35.00 | -9.8% |
+| Call Wall（阻力） | $45.00 | +15.9% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Should You Forget Nvidia and Buy These 3 Millionaire-Maker AI Infrastructure Stocks Instead?](https://finnhub.io/api/news?id=908c26e1c27ebaff207c2b8ffd54dd49e00662a665e92c19b5f7862f9dfcd80e)**  
-*Yahoo · 15h前*  
-Nvidia gets the AI spotlight, but three power infrastructure stocks may be quietly building the bigger long-term opportunity.
+- **[NuScale Power Stock Is Just One Of 3 Top Nuclear Stocks](https://finnhub.io/api/news?id=868ce76818f18d69a6444d32c432ca76860b0329f40cdf93752601f763437f05)**  
+*Yahoo · 11h前*  
+Oil markets are on edge as traffic through the Strait of Hormuz remains constrained, which keeps energy security in sharp focus for governments and utilities. T…
 
-- **[This Energy Stock Has 130% Upside Potential](https://finnhub.io/api/news?id=ca37a7b6f97281dc059b4bcfce6f59b4ea216b6c0e16e03b985cbf345645952d)**  
-*Yahoo · 19h前*  
-Oklo shares have been crushed over the past year, yet the company just pulled off something no other advanced nuclear startup has done at full scale. Whether th…
+- **[Is X-Energy Building a New Model for Industrial Nuclear Power?](https://finnhub.io/api/news?id=b15d75b3aa6f5bd22d814a9ed62a8407b89dfcec37321183425ec85638deed63)**  
+*Yahoo · 21h前*  
+XE is advancing the Xe-100 for electricity and industrial heat, with Centrica pursuing a U.K. fleet of up to 6 GW.
 
-- **[Uranium Stocks Are Rallying. Why NXE Got Initiated At Overweight.](https://finnhub.io/api/news?id=1973db9a64921fe4e08b5341c2627852ea8d95148cd4ca1c055f458e2cde9336)**  
-*Yahoo · 19h前*  
-In a boost for struggling sector, JPMorgan highlighted long-term, structural supply deficits for uranium.
+- **[Oklo vs. NuScale vs. BWX Technologies: Ranking the 3 Popular Nuclear Stocks From Worst to First](https://finnhub.io/api/news?id=91b50417d077d6f4048b267ecba63551f1981bbda3d7f8d3ca29529540924b1e)**  
+*Yahoo · 1d前*  
+Three nuclear stocks are chasing the same industry revival, but only one of them already has a real business to back it up.
 
 ---
 
@@ -48,7 +48,7 @@ In a boost for struggling sector, JPMorgan highlighted long-term, structural sup
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-22 | 監控 | $40.18 | — | 自動更新 |
+| 2026-09-24 | 監控 | $38.82 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ In a boost for struggling sector, JPMorgan highlighted long-term, structural sup
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
