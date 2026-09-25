@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-25 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $230.97 | — |
 | Put Wall（支撐） | $250.00 | -3.5% |
-| Call Wall（阻力） | $260.00 | +0.4% |
+| Call Wall（阻力） | $300.00 | +15.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Options Say Marvell Stock Could Halve Or Nearly Double In A Year](https://finnhub.io/api/news?id=bacbc7bbdfb056628af57fb2c506c3609de6baafa584ca4f0fd3e0b134f7302f)**  
-*Yahoo · 1h前*  
-Marvell Technology (MRVL) shares trade near $261, and its options price a one-year range of about $133 to about $514. In plain terms, a rough but ordinary year …
+- **[Wondering what's happening in today's S&P500  pre-market session?](https://finnhub.io/api/news?id=eecd41dedad803ee95bc80410630c118848c067cdb6306e7be95cb266425763c)**  
+*ChartMill · 0h前*  
+Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements.
 
-- **[Lam Research, Marvell Technology, Western Digital, FormFactor, and Penguin Solutions Shares Are Falling, What You Need To Know](https://finnhub.io/api/news?id=72622cb2bf1789fc02dcaf33d3430fc28b14de55f1257e2cd5e97ebb44168dfa)**  
-*Yahoo · 1h前*  
-A number of stocks fell in the afternoon session after the 10-year Treasury yield climbed to 5.14% following strong September business activity data that raised…
+- **[AMD, Marvell, Akamai, Chevron, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=76c7f0cdc69cf34c2734804e2a5394168d294ac2fa0fe7abc65228e1c751e3a0)**  
+*Yahoo · 2h前*  
+It was looking like a good end to the week for tech but energy stocks were falling as oil prices slipped.
 
-- **[Marvell vs. NVIDIA: One AI Stock Looks Like the Better Buy Now](https://finnhub.io/api/news?id=ab420e4b49c5ff4b8b3e5bdc02460af5e235b93b604af97e8a55e28ee5b8572d)**  
-*Yahoo · 7h前*  
-NVIDIA's faster AI growth, stronger margins and higher ROE give it an edge over Marvell as Data Center demand accelerates.
+- **[The Zacks Analyst Blog Highlights Marvell Technology and NVIDIA](https://finnhub.io/api/news?id=e0dd49e48a70d970eae532740394afa77694958c28be8abbd459eb2fadfa3a22)**  
+*Yahoo · 4h前*  
+NVIDIA and Marvell are riding AI infrastructure demand, but their growth, margins, profitability and valuations differ sharply.
 
 ---
 
@@ -59,4 +59,4 @@ NVIDIA's faster AI growth, stronger margins and higher ROE give it an edge over 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:03 HKT*
