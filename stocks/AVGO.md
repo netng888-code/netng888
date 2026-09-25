@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$354.99** |
-| 今日變動 | ▼ $9.55　(-2.62%) |
+| 現價 | **$350.36** |
+| 今日變動 | ▼ $4.63　(-1.30%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $208　(▼5.5%) |
+| 未實現盈虧 | ▼ $254　(▼6.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $355.47 | — |
-| Put Wall（支撐） | $340.00 | -4.2% |
-| Call Wall（阻力） | $360.00 | +1.4% |
+| Gamma Flip | $355.57 | — |
+| Put Wall（支撐） | $350.00 | -0.1% |
+| Call Wall（阻力） | $360.00 | +2.8% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AMD's Six-Day Rally Finally Hits a Pause](https://finnhub.io/api/news?id=129eb1c49c02682e2adc557954ec9d25c9ed79229dce0c9e1f032a0d598c9a8f)**  
-*Yahoo · 0h前*  
-AMD has gained more than 180% this year and recently crossed a $1 trillion market cap.
-
-- **[AMD Joined Nvidia in the Trillion Dollar Club. The Run Isn’t an Accident](https://finnhub.io/api/news?id=18cb38c36abd3f685d20b84c0a6c4d9e79d7e6cdf24809621daed961c4aa3b04)**  
+- **[Options Say Marvell Stock Could Halve Or Nearly Double In A Year](https://finnhub.io/api/news?id=bacbc7bbdfb056628af57fb2c506c3609de6baafa584ca4f0fd3e0b134f7302f)**  
 *Yahoo · 1h前*  
-AMD just crossed a threshold only one other chip company has ever reached, but the rally into that milestone raises a harder question about what the stock is ac…
+Marvell Technology (MRVL) shares trade near $261, and its options price a one-year range of about $133 to about $514. In plain terms, a rough but ordinary year …
 
-- **[Where Will Broadcom Stock Be in 5 Years?](https://finnhub.io/api/news?id=7ac467c44e068dc16de0dcb02f531c8c222424d0be616e47c3ef85fd078616b7)**  
-*Yahoo · 7h前*  
-Broadcom is unlikely to match the performance of the previous five years, but that does not mean investors should dismiss it.
+- **[Broadcom (AVGO) Stock May Be 24% Undervalued Following Fresh AI Demand Fears](https://finnhub.io/api/news?id=44db05e99983d5ff4a00c64a9fd426a0cf3dc8f281fd14b9afd9d98019532a78)**  
+*Yahoo · 3h前*  
+Broadcom has delivered very strong long term gains, so the real question for anyone looking at the stock today is whether the current share price still lines up…
+
+- **[Broadcom's Latest Prediction Makes the Stock a No-Brainer Buy Right Now](https://finnhub.io/api/news?id=6afeeb919aaa50f703383f7a42c0fba594aa8b52f15277aeb92ae420d329f8b1)**  
+*Yahoo · 4h前*  
+The custom chip designer recently offered stunning guidance for its fiscal 2028.
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom is unlikely to match the performance of the previous five years, but th
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-24 | 監控 | $354.99 | — | 自動更新 |
+| 2026-09-25 | 監控 | $350.36 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom is unlikely to match the performance of the previous five years, but th
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 09:03 HKT*
