@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$225.51** |
-| 今日變動 | ▼ $3.36　(-1.47%) |
+| 現價 | **$224.58** |
+| 今日變動 | ▼ $0.93　(-0.41%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $654　(▲40.8%) |
+| 未實現盈虧 | ▲ $645　(▲40.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $210.11 | — |
-| Put Wall（支撐） | $220.00 | -2.4% |
-| Call Wall（阻力） | $230.00 | +2.0% |
+| Gamma Flip | $211.31 | — |
+| Put Wall（支撐） | $220.00 | -2.0% |
+| Call Wall（阻力） | $230.00 | +2.4% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[If Kevin Warsh Keeps Rates Elevated, These 2 Stocks Are Built to Handle It](https://finnhub.io/api/news?id=ea31c74d0984f412bb3504a054899413324b0732bf218cf34d87720bbcc8a19b)**  
+- **[Why Welltower Stock Topped the Market on Thursday](https://finnhub.io/api/news?id=561480f3f2831097c0a1f8196644d8bf1ecd0dc2219ef18287b5a9ad22787cda)**  
 *Yahoo · 1h前*  
-The Federal Open Market Committee recently raised interest rates for the first time in three years.
+An analyst upgraded his recommendation on the specialty REIT.
 
-- **[SpaceX Stock Is Sliding. Should You Buy the Dip?](https://finnhub.io/api/news?id=36b7076da48a5d79f68d3bca6db1d5ac49d6541c6c7c3fb0ba22165cc809b97f)**  
+- **[Oracle Wants Protection If Its AI Data Center Is Delayed. Here's What That Changes for Investors.](https://finnhub.io/api/news?id=592e01d5b9cda1a437e7350f1a043d723d33a5e49e9ba27710b533cf074a8708)**  
 *Yahoo · 1h前*  
-SpaceX has declined from its IPO price.
+Oracle’s Project Jupiter notice raises new questions about the risks behind its data center expansion.
 
-- **[AMD vs. Intel: Which Artificial Intelligence (AI) Chip Stock Has More Room to Run?](https://finnhub.io/api/news?id=794749277dbf560f885831f9653682b7f04a44884acabdce2d72c55b702253e2)**  
+- **[Why H.B. Fuller Stock Dipped on Thursday](https://finnhub.io/api/news?id=66ce3631a5a7b71591219a8ae2385476c87d7fc21ed735753a808552f0c25980)**  
 *Yahoo · 1h前*  
-Intel has outperformed AMD over the past year, but the future could be different.
+The company published its latest quarterly earnings report after the previous day's market close.
 
 ---
 
@@ -48,7 +48,7 @@ Intel has outperformed AMD over the past year, but the future could be different
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-24 | 監控 | $225.51 | — | 自動更新 |
+| 2026-09-25 | 監控 | $224.58 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intel has outperformed AMD over the past year, but the future could be different
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 09:03 HKT*
