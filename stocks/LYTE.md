@@ -1,6 +1,6 @@
 # LYTE — Roundhill Photonics & Optics ETF
 
-> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,7 +30,9 @@
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[LAZR: The Right Supply Chain, The Wrong Top Two](https://finnhub.io/api/news?id=ca848c434bb050c42b9d919334815f3d04995bb138741a1fbfa6131870d03476)**  
+*SeekingAlpha · 7h前*  
+LAZR ETF's photonics/AI infrastructure theme is strong, but high LITE valuation and risky Anthropic stake add beta. Learn more on LAZR here.
 
 ---
 
@@ -49,4 +51,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=LYTE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
