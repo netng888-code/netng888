@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$191.79** |
-| 今日變動 | ▲ $6.80　(+3.68%) |
+| 現價 | **$192.59** |
+| 今日變動 | ▲ $0.80　(+0.42%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $472　(▲54.3%) |
+| 未實現盈虧 | ▲ $478　(▲54.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $169.78 | — |
-| Put Wall（支撐） | $170.00 | -11.4% |
-| Call Wall（阻力） | $200.00 | +4.3% |
+| Gamma Flip | $172.00 | — |
+| Put Wall（支撐） | $190.00 | -1.3% |
+| Call Wall（阻力） | $200.00 | +3.8% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Fall As Treasury Yields, Oil Prices Keep Rising. Meta, Everpure, Grail Are Early Movers.](https://finnhub.io/api/news?id=a1968f7dfdc35eb701af6355cb35cf6d4ecba067b0a422de48c6d7a39b18964b)**  
+- **[Reddit Stock And 2 More Quality Stocks](https://finnhub.io/api/news?id=99435e7fe7c1f50b07893feaffcf73dc5015cd20ef9df243ac36c526d5cb8e80)**  
 *Yahoo · 1h前*  
-Dow Jones futures fell early Thursday, along with S&P 500 futures and especially Nasdaq futures. The 30-year Treasury yield hit a fresh long-term high while oil…
+Bond yields near two decade highs are forcing weaker borrowers to pay up for capital, while companies with strong cash generation and low debt have more room to…
 
-- **[Palantir Technologies (NASDAQ:PLTR) Shows Explosive Growth and Strengthening Fundamentals Across the Board](https://finnhub.io/api/news?id=278fa9f523be5b545ef3d2877acd934802c4d9acddf0720e2a0b95775d7821b2)**  
-*ChartMill · 2h前*  
-Palantir (PLTR) clears Navellier's 8 growth rules, with strong earnings, sales, margins, and cash flow, but high valuation remains a key risk.
-
-- **[UBS Says This Bargain Stock Is the "Best AI Enabler in the Market" and Sees Shares Surging 30%+](https://finnhub.io/api/news?id=d2334931e151c59e4ffb4ee7ab2f8d51828138e4c01ad9b3a2e7ab6e0f069ff2)**  
+- **[Anthropic proposes supervoting shares to give co-founders majority control -report](https://finnhub.io/api/news?id=0b95dd30d9fdb4ec4b3714b614b3797f4174c3aebda486820120ea2b24f398e1)**  
 *Yahoo · 2h前*  
-UBS analyst Karl Keirstead just put a $250 price target on Palantir stock.
+Investing.com -- Anthropic (NASDAQ:ANTP) is seeking shareholder approval for a dual-class share structure that would hand its seven co-founders majority voting …
+
+- **[Could Palantir (PLTR)’s Partnership with Nebius Group (NBIS) Accelerate its AI Growth?](https://finnhub.io/api/news?id=8340565a33a599194669ac3155e56f3b39034a34cababffa72a1b0bccd8e65b8)**  
+*Yahoo · 3h前*  
+Palantir Technologies Inc. (NASDAQ:PLTR) and Nebius Group N.V. (NASDAQ:NBIS) announced a strategic partnership on September 8 to bring Nebius’s AI-native comput…
 
 ---
 
@@ -48,7 +48,7 @@ UBS analyst Karl Keirstead just put a $250 price target on Palantir stock.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-24 | 監控 | $191.79 | — | 自動更新 |
+| 2026-09-25 | 監控 | $192.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ UBS analyst Karl Keirstead just put a $250 price target on Palantir stock.
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
