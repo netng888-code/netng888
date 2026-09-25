@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-25 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Options Say Marvell Stock Could Halve Or Nearly Double In A Year](https://finnhub.io/api/news?id=bacbc7bbdfb056628af57fb2c506c3609de6baafa584ca4f0fd3e0b134f7302f)**  
+- **[This Week In AI Chips - Secure AI Integration Advances with VAST DataEnclave Launch](https://finnhub.io/api/news?id=e861c10df1c97c626f169a1d92a2ba36b5862ba8b6bf1773d2f4536ba4e1dfde)**  
 *Yahoo · 1h前*  
-Marvell Technology (MRVL) shares trade near $261, and its options price a one-year range of about $133 to about $514. In plain terms, a rough but ordinary year …
+VAST Data has announced the introduction of VAST DataEnclave, a confidential AI capability designed to securely integrate leading AI models with sensitive enter…
 
-- **[Broadcom (AVGO) Stock May Be 24% Undervalued Following Fresh AI Demand Fears](https://finnhub.io/api/news?id=44db05e99983d5ff4a00c64a9fd426a0cf3dc8f281fd14b9afd9d98019532a78)**  
-*Yahoo · 3h前*  
-Broadcom has delivered very strong long term gains, so the real question for anyone looking at the stock today is whether the current share price still lines up…
+- **[AMD Just Joined Nvidia in the $1 Trillion Club. At $614, Wall Street Is Paying Too Much for a Distant No. 2.](https://finnhub.io/api/news?id=dad3a4651f31a14be8d86d8c788706994c2f4ebfffea1061c7ff69705465b98c)**  
+*Yahoo · 1h前*  
+AMD is the latest semiconductor stock to reach a trillion-dollar market cap.
 
-- **[Broadcom's Latest Prediction Makes the Stock a No-Brainer Buy Right Now](https://finnhub.io/api/news?id=6afeeb919aaa50f703383f7a42c0fba594aa8b52f15277aeb92ae420d329f8b1)**  
-*Yahoo · 4h前*  
-The custom chip designer recently offered stunning guidance for its fiscal 2028.
+- **[Broadcom And 2 Other High Growth Stocks To Own](https://finnhub.io/api/news?id=ffa629d66040fb9160861602a3bc525db62ec76a30d86d679d1a46c4b25073fb)**  
+*Yahoo · 5h前*  
+With global bond markets selling off and US 30 year Treasury yields touching levels last seen in 2004, money is getting more expensive and weaker balance sheets…
 
 ---
 
@@ -59,4 +59,4 @@ The custom chip designer recently offered stunning guidance for its fiscal 2028.
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:03 HKT*
