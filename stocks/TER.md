@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-25 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Reflecting On Semiconductor Manufacturing Stocks’ Q2 Earnings: Teradyne (NASDAQ:TER)](https://finnhub.io/api/news?id=973b96e9bb156dbefe9c54fef6f91de0614a2ef5bf8a8fc05db026c7e16bd3e9)**  
-*Yahoo · 5h前*  
-The end of the earnings season is always a good time to take a step back and see who shined (and who didn’t). Let’s take a look at how semiconductor manufacturi…
+- **[Wondering what's happening in today's S&P500  pre-market session?](https://finnhub.io/api/news?id=eecd41dedad803ee95bc80410630c118848c067cdb6306e7be95cb266425763c)**  
+*ChartMill · 0h前*  
+Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements.
 
-- **[Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?](https://finnhub.io/api/news?id=fae78af6d0bea98b3154a6075a765d8dc25a468a69ce7ebd35a65dbba37954d1)**  
-*Yahoo · 9h前*  
-TER's AI-driven test momentum is accelerating, with Iris 100 expanding its optical portfolio as semiconductor and data-center demand surges.
+- **[Teradyne (NASDAQ:TER) Delivers High Growth and Improving Fundamentals Across the Board](https://finnhub.io/api/news?id=ba2031e7c7e41dd129aeda1f90fbc11618f6e9029d57388590b5299257808778)**  
+*ChartMill · 0h前*  
+Teradyne (TER) scores 8/10 on Navellier’s Little Book growth screen, with strong earnings revisions, sales growth, cash flow, and 33.46% ROE.
 
-- **[Wondering what's happening in today's S&P500  pre-market session?](https://finnhub.io/api/news?id=e36f17a0a336c936e7bcf62e255c87584a2afb5e2fb83f8131263752f543b5ab)**  
-*ChartMill · 12h前*  
-The US market is yet to commence its session on Thursday, but let's get a preview of the pre-market session and explore the top S&P500 gainers and losers drivin…
+- **[Robotics Earnings Week: Momentum vs. Value as Four Automation Names Report](https://finnhub.io/api/news?id=f06ec312415593847b80fd89886771c16f98e5eedc01ae9e8b928abb44ffb725)**  
+*ChartMill · 0h前*  
+Robotics automation earnings preview: Teradyne, Cognex, Omnicell, UiPath face key tests as momentum leaders and value laggards report.
 
 ---
 
@@ -59,4 +59,4 @@ The US market is yet to commence its session on Thursday, but let's get a previe
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:03 HKT*
