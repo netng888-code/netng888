@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-24 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$248.78** |
-| 今日變動 | ▼ $4.68　(-1.85%) |
+| 現價 | **$245.30** |
+| 今日變動 | ▼ $3.48　(-1.40%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $110　(▼18.1%) |
+| 未實現盈虧 | ▼ $117　(▼19.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $253.06 | — |
-| Put Wall（支撐） | $220.00 | -11.6% |
-| Call Wall（阻力） | $260.00 | +4.5% |
+| Gamma Flip | $252.93 | — |
+| Put Wall（支撐） | $220.00 | -10.3% |
+| Call Wall（阻力） | $260.00 | +6.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Vertiv To Acquire King Environmental As AI Drives Demand For Liquid-Cooling Services](https://finnhub.io/api/news?id=8949da48fdc88a8e210f0f55840a0114c6e844047d9debd27d59ccb001878316)**  
+- **[Ameresco, NN, FuelCell Energy, Vertiv, and Blue Bird Shares Plummet, What You Need To Know](https://finnhub.io/api/news?id=0281a78e757eabe82931d5516f5c824903f2a04a1484bcb4267e0f102e6d9ccd)**  
 *Yahoo · 1h前*  
-The deal adds European fluid-management and commissioning capabilities as Vertiv builds out services for increasingly complex liquid-cooled data centers.
+A number of stocks fell in the afternoon session after the 10-year Treasury yield jumped to 5.14%, reaching levels last seen in 2007 and raising borrowing costs…
 
-- **[Vertiv Announces Agreement to Acquire King Environmental Services Ltd., Expanding Global Fluid Management Services](https://finnhub.io/api/news?id=faed0e6fcadca7aac046cb1e95fb717bd7d366f412323b34f25a47a7affa6acc)**  
-*Yahoo · 2h前*  
-Vertiv Holdings Co (NYSE: VRT), a global leader in critical digital infrastructure, today announced that it has entered into an agreement to acquire King Enviro…
-
-- **[2 Industrials Stocks to Keep an Eye On and 1 We Turn Down](https://finnhub.io/api/news?id=62a5957e0919b45aa6867479c25d7261848c6fa9ded6763cdf24b0efab9f7643)**  
+- **[Will Vertiv Holdings (VRT)’s $1.45 Billion UIG Deal Accelerate its AI Infrastructure Growth?](https://finnhub.io/api/news?id=ebd6cae8fbb22847c5dc7de6f16df89b6342265361990dae6d20d2320d4417bf)**  
 *Yahoo · 4h前*  
-Whether you see them or not, industrials businesses play a crucial part in our daily activities. Still, their generally high capital requirements expose them to…
+On September 2, Vertiv Holdings Co (NYSE:VRT) agreed to acquire Utility Innovation Holdings, Inc. (operating as UtilityInnovation Group or UIG) for approximatel…
+
+- **[Vertiv’s Serial M&A Trail: What $1.5B in ‘Immaterial’ Deals Is Doing to Its Margins](https://finnhub.io/api/news?id=11ccf5b0b4427002145bbc7be512c657f0b7c1892cc2c33425d1416b00b85ea0)**  
+*Yahoo · 8h前*  
+Key TakeawaysOn September 24, the same day it paid its $0. 0625 quarterly dividend, Vertiv announced it would buy King Environmental Services, a European fluid …
 
 ---
 
@@ -48,7 +48,7 @@ Whether you see them or not, industrials businesses play a crucial part in our d
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-24 | 監控 | $248.78 | — | 自動更新 |
+| 2026-09-25 | 監控 | $245.30 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Whether you see them or not, industrials businesses play a crucial part in our d
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-24 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
