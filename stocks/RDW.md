@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Redwire, Rocket Lab, Firefly Split a $981 Million Space Force Pie](https://finnhub.io/api/news?id=97bde1d8b23409da203e39bf22f67024ecaf5be267c1e5d8152f9362c2c59079)**  
-*Benzinga · 13h前*  
-Redwire, Rocket Lab and Firefly won spots on the Space Force’s $981M NITE-STAR contract for test and training tools through 2036.
+- **[Stocktwits Space Race Weekly: Why RKLB, FLY, RDW And PL Are Outpacing SPCX](https://finnhub.io/api/news?id=80317a1b56351172d7ca147d1dc6e70c26d792d0a0e09f134b402a648de48362)**  
+*Yahoo · 5h前*  
+RKLB rose 14% this week after its 96th Electron launch, a bullish Cantor call, an ARK purchase and shareholder approval of its Iridium deal.
 
-- **[Redwire Selected for Space Systems Command’s $980 million NITE-STAR IDIQ Contract](https://finnhub.io/api/news?id=a8cbe32d3bf4054d51d2cca5f5f785b297cf56646f9cb457e142d11b6d601b8a)**  
-*Yahoo · 14h前*  
-JACKSONVILLE, Fla., September 24, 2026--Redwire Corporation (NYSE:RDW), a global leader in space and defense technology solutions, announced today that it has b…
+- **[A $980 Million Reason to Buy Redwire Stock](https://finnhub.io/api/news?id=cf6bb00586f4020150dc3a2311e8bb8707000127f3be09e0fc0b069956e2dc6f)**  
+*Yahoo · 16h前*  
+Redwire stock rallies on selection by Space Systems Command to compete under a major new defense initiative. Here’s why RDW shares are worth buying today.
 
-- **[1 Cash-Heavy Stock for Long-Term Investors and 2 We Question](https://finnhub.io/api/news?id=418667781898a9ffffe1661efadb4205dcd8f1dc337ccbc0707dd4df361a1bd3)**  
-*Yahoo · 17h前*  
-A cash-heavy balance sheet is often a sign of strength, but not always. Some companies avoid debt because they have weak business models, limited expansion oppo…
+- **[Analysts Warn the Entire Space Trade Is Sitting in Neutral Waiting on One Rocket](https://finnhub.io/api/news?id=1ed373c2f6c08a70ba223f433880182286f3570ba8437610d5a74d76807bc618)**  
+*Yahoo · 20h前*  
+Every space supplier building lunar modules, satellite hardware, and heavy components is betting its revenue timeline on a rocket it does not own, and the gap b…
 
 ---
 
@@ -59,4 +59,4 @@ A cash-heavy balance sheet is often a sign of strength, but not always. Some com
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
