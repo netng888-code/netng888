@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[The Math Doesn't Lie: What Oklo's Stock Sales Actually Cost Investors](https://finnhub.io/api/news?id=1e3efb7c2f8358428105612964fe49a2ed90fc43ddfa06a707dadb467313ea1c)**  
+*Yahoo · 6h前*  
+Oklo could change the way we use nuclear energy. But getting there hasn't been cheap.
+
 - **[NuScale Power Stock Is Just One Of 3 Top Nuclear Stocks](https://finnhub.io/api/news?id=868ce76818f18d69a6444d32c432ca76860b0329f40cdf93752601f763437f05)**  
-*Yahoo · 23h前*  
+*Yahoo · 1d前*  
 Oil markets are on edge as traffic through the Strait of Hormuz remains constrained, which keeps energy security in sharp focus for governments and utilities. T…
 
 - **[Is X-Energy Building a New Model for Industrial Nuclear Power?](https://finnhub.io/api/news?id=b15d75b3aa6f5bd22d814a9ed62a8407b89dfcec37321183425ec85638deed63)**  
 *Yahoo · 1d前*  
 XE is advancing the Xe-100 for electricity and industrial heat, with Centrica pursuing a U.K. fleet of up to 6 GW.
-
-- **[Oklo vs. NuScale vs. BWX Technologies: Ranking the 3 Popular Nuclear Stocks From Worst to First](https://finnhub.io/api/news?id=91b50417d077d6f4048b267ecba63551f1981bbda3d7f8d3ca29529540924b1e)**  
-*Yahoo · 1d前*  
-Three nuclear stocks are chasing the same industry revival, but only one of them already has a real business to back it up.
 
 ---
 
@@ -59,4 +59,4 @@ Three nuclear stocks are chasing the same industry revival, but only one of them
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
