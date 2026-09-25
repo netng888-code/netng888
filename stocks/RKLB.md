@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Stocktwits Space Race Weekly: Why RKLB, FLY, RDW And PL Are Outpacing SPCX](https://finnhub.io/api/news?id=80317a1b56351172d7ca147d1dc6e70c26d792d0a0e09f134b402a648de48362)**  
+*Yahoo · 5h前*  
+RKLB rose 14% this week after its 96th Electron launch, a bullish Cantor call, an ARK purchase and shareholder approval of its Iridium deal.
+
+- **[Why Rocket Lab Wants To Pay Up Big For Iridium](https://finnhub.io/api/news?id=a28a1846ea47f9dabec66573288592d6fd7496372ee6809bb684a55a5052527f)**  
+*SeekingAlpha · 6h前*  
+Rocket Lab is accelerating its evolution into a vertically integrated space infrastructure platform with the strategic acquisition of Iridium. Learn more about …
+
 - **[Cathie Wood buys $25 million in tumbling tech stock](https://finnhub.io/api/news?id=15852a2f1e6bb4e16fe009f3a7601535d7b976d927f8d304c0fd37068a5b4681)**  
-*Yahoo · 1h前*  
+*Yahoo · 13h前*  
 A battered space favorite just attracted Wood’s attention again.
-
-- **[IRDM Shareholders Approve Acquisition By RKLB In $54-A-Share Deal — Iridium-Rocket Lab Merger Expected To Close By Mid-2027](https://finnhub.io/api/news?id=9f5c6f1683bfa26c5cadd2d5d6fe0d049c5b85fb6ad422f71bc1507910f0311a)**  
-*Yahoo · 2h前*  
-Nearly 100% of votes cast backed the acquisition, bringing Rocket Lab closer to completing its planned purchase of Iridium.
-
-- **[Iridium Stockholders Approve Acquisition by Rocket Lab](https://finnhub.io/api/news?id=a9ea956a5fa9143d5d2d255a369848ed5079e39c3dd7b0c43826656c120af0e1)**  
-*Yahoo · 4h前*  
-Stockholder approval marks important milestone toward completion of transactionMCLEAN, Va., and LONG BEACH, Calif., Sept. 24, 2026 (GLOBE NEWSWIRE) -- Iridium C…
 
 ---
 
@@ -59,4 +59,4 @@ Stockholder approval marks important milestone toward completion of transactionM
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
