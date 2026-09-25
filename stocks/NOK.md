@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Connectivity: The Backbone of Community Resilience During Extreme Weather Events](https://finnhub.io/api/news?id=bb58c434da0b7309db2102ca2b54255835ea872970e3f49aa644012d5cf8d202)**  
+*Yahoo · 21h前*  
+NORTHAMPTON, MA / ACCESS Newswire / September 24, 2026 / by Subho MukherjeeAs the effects of climate change become more pronounced, extreme weather events such …
+
+- **[European Equities Traded in the US as American Depositary Receipts Edge Lower in Thursday Trading](https://finnhub.io/api/news?id=25ede88f415f5610a459fe3778d613f23b897c4d9ab4b05718655842a7c3e762)**  
+*Yahoo · 21h前*  
+European equities traded in the US as American depositary receipts were tracking slightly lower Thur
+
 - **[5G NTN Market Forecasts Growth from $11.91B (2026) to $45.55B by 2031, Profiling Thales, Qualcomm, SpaceX, Ericsson & Nokia](https://finnhub.io/api/news?id=83924c877bab09cf6def8f60985a9f1ac756bd005dae3c1510fb8df1f56bb931)**  
-*Yahoo · 14h前*  
-The global 5G NTN market is projected to grow from USD 11.91 billion in 2026 to USD 45.55 billion by 2031, registering a 30.8% CAGR. Growth is driven by demand …
-
-- **[What's Going On With Nokia Stock Thursday?](https://finnhub.io/api/news?id=cc2e2b8ffe7df89a50955dd2dc060c535b3773c500d8c1b91234e64a1fbbdd30)**  
-*Benzinga · 15h前*  
-Nokia (NOK) stock fell nearly 3% Thursday amid market weakness. Read our analysis on key $11 resistance and $9.50 support levels.
-
-- **[How Deeper Azure and Copilot Adoption Across Regulated Industries Will Impact Microsoft (MSFT) Investors](https://finnhub.io/api/news?id=8cd6a7eac7e579d01ca01d2975a196c771051b5a24fb2e4f0b15af3d1a859823)**  
 *Yahoo · 1d前*  
-In recent days, partners including Marvell, Nokia, Causaly, Everforth and others have announced expanded collaborations that embed Microsoft Azure, Copilot and …
+The global 5G NTN market is projected to grow from USD 11.91 billion in 2026 to USD 45.55 billion by 2031, registering a 30.8% CAGR. Growth is driven by demand …
 
 ---
 
@@ -59,4 +59,4 @@ In recent days, partners including Marvell, Nokia, Causaly, Everforth and others
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
