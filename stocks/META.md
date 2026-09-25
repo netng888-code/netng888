@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Etsy (ETSY) Stock Is Trading Lower Today](https://finnhub.io/api/news?id=e5f5444185887203e63c316d0667bca5b405178946456562a71ba9cfbc65e24c)**  
-*Yahoo · 0h前*  
-Shares of online marketplace Etsy (NYSE:ETSY) fell 8.1% in the afternoon session after online marketplace shares fell as investors kept pricing in the threat th…
+- **[Meta (META) Stock Looks Cheap Enough To Back Its Cash Flow Story](https://finnhub.io/api/news?id=d5a0ebfaa43517f8d122b69e7da124a88921e40c4a54dde8c18ae300b15217bc)**  
+*Yahoo · 1h前*  
+Meta Platforms has surged back into the spotlight, with the stock recently closing at US$777.59 and riding a wave of AI driven headlines, which raises a straigh…
 
-- **[Meta (META) Stock Is Up, What You Need To Know](https://finnhub.io/api/news?id=2fee4a6058cc51539ab2d089035fd0dcd5be83d4d1a61ce5b8fb6dc9e62f11f4)**  
-*Yahoo · 0h前*  
-Shares of social network operator Meta Platforms (NASDAQ:META) jumped 4.3% in the afternoon session after investors continued to bid the stock higher as the Met…
+- **[Meta’s AI Strategy Runs From Hearing Aids to a $1,299 Cinema: JPMorgan Sees a Giant Market](https://finnhub.io/api/news?id=57f0f006104ac98bac0c39c608e3ad8d367cb0528100b07413e15af0063f7af9)**  
+*Yahoo · 2h前*  
+Meta Platforms, Inc‘s AI strategy is getting an unusual makeover. CEO Mark Zuckerberg is talking about a "private cinema," a "joyful little device" for your key…
 
-- **[Unity Software (U) Opens Day One VR Glasses Tools For Next Hardware Launch](https://finnhub.io/api/news?id=eee037fb99b810f9fa92732e7072fe73fd5b67ba626142e7ac0d0b2fcafd4d32)**  
-*Yahoo · 0h前*  
-Unity Software (NYSE:U) said it will offer day one engine support for Meta's next-generation VR Glasses. The toolkit lets creators build launch experiences usin…
+- **[Jim Cramer Turned Out Right About This AI Stock Making Big Gains](https://finnhub.io/api/news?id=8df26bd6abd2bbab6429bedce369ff110a021110c92472b6abb92fc56b9cf13d)**  
+*Yahoo · 3h前*  
+After Meta Platforms, Inc. (NASDAQ:META) settled with state attorneys general in a lawsuit targeting underage social media use, Cramer continues to assert that …
 
 ---
 
@@ -59,4 +59,4 @@ Unity Software (NYSE:U) said it will offer day one engine support for Meta's nex
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
