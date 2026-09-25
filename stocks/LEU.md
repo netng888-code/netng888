@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Centrus Energy: The Selloff Has Finally Made The Risk Worth Taking (Rating Upgrade)](https://finnhub.io/api/news?id=a4fbe61d730e02024893178782dccf854c79799a1be9df00d8a960a8ef4a7dcd)**  
-*SeekingAlpha · 6h前*  
+*SeekingAlpha · 18h前*  
 Centrus Energy Corp. is now attractively valued after a 66% decline from recent highs, offering a compelling entry. Read more on the LEU stock upgrade.
 
 - **[Is Centrus Energy the Ultimate Pick-and-Shovel Play on the Nuclear Technology Boom?](https://finnhub.io/api/news?id=fea57b2b0cd0f418fa0fabd57bcbefb6e9ff6bf716bc09e89a0353e6a31e0ee7)**  
-*Yahoo · 9h前*  
+*Yahoo · 21h前*  
 Centrus is securing deals to supply the fuel powering the next generation of nuclear reactors.
 
 - **[Uranium Stocks’ Broad Selloff Masks a Domestic Fuel-Cycle Revenue Divergence](https://finnhub.io/api/news?id=2c2f3aa0e2f88ac04c73195a81c57d54d459d922d3e6caf2c6ba5e417afd3680)**  
-*ChartMill · 12h前*  
+*ChartMill · 1d前*  
 Uranium stocks are weak, but producers like UUUU, EU, URG, LEU and UEC show sharp revenue growth, creating a gap between fundamentals and share prices.
 
 ---
@@ -59,4 +59,4 @@ Uranium stocks are weak, but producers like UUUU, EU, URG, LEU and UEC show shar
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
