@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$70.31** |
-| 今日變動 | ▼ $1.67　(-2.32%) |
+| 現價 | **$73.61** |
+| 今日變動 | ▲ $3.30　(+4.69%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $57　(▼7.5%) |
+| 未實現盈虧 | ▼ $24　(▼3.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $65.91 | — |
-| Put Wall（支撐） | $65.00 | -7.6% |
-| Call Wall（阻力） | $70.00 | +-0.4% |
+| Gamma Flip | $66.23 | — |
+| Put Wall（支撐） | $65.00 | -11.7% |
+| Call Wall（阻力） | $75.00 | +1.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Cathie Wood Just Made Another Big Bet on Rocket Lab](https://finnhub.io/api/news?id=01ab2eb6f08d80fa8bd023e02d71e7f10a473d373cc747207b1c072d3e1a6f63)**  
-*Yahoo · 0h前*  
-ARK Invest bought another $25 million of Rocket Lab shares as the company approaches its 97th Electron launch and prepares for its next major growth phase.
-
-- **[Our Pick Of The Best Defense Stocks In September 2026](https://finnhub.io/api/news?id=10627dea7caae689d2a0ac8542bf4ed8d008aec3c6adaed4ff80303e03e860b3)**  
+- **[Cathie Wood buys $25 million in tumbling tech stock](https://finnhub.io/api/news?id=15852a2f1e6bb4e16fe009f3a7601535d7b976d927f8d304c0fd37068a5b4681)**  
 *Yahoo · 1h前*  
-Global government bond yields are hovering near 4%, a level last seen in 2007, and that shift in borrowing costs is reshaping how investors think about risk and…
+A battered space favorite just attracted Wood’s attention again.
 
-- **[Rocket Lab (RKLB) Neutron Could Fill A Medium Lift Launch Gap](https://finnhub.io/api/news?id=864600109d9bf36579a130dfee6117b9d17fe79b77d10f7faf42da7d579e46e4)**  
-*Yahoo · 16h前*  
-Rocket Lab (NasdaqGS:RKLB) is positioning its Neutron rocket for medium-lift missions as SpaceX prepares to wind down Falcon 9 later this decade. SpaceX plans t…
+- **[IRDM Shareholders Approve Acquisition By RKLB In $54-A-Share Deal — Iridium-Rocket Lab Merger Expected To Close By Mid-2027](https://finnhub.io/api/news?id=9f5c6f1683bfa26c5cadd2d5d6fe0d049c5b85fb6ad422f71bc1507910f0311a)**  
+*Yahoo · 2h前*  
+Nearly 100% of votes cast backed the acquisition, bringing Rocket Lab closer to completing its planned purchase of Iridium.
+
+- **[Iridium Stockholders Approve Acquisition by Rocket Lab](https://finnhub.io/api/news?id=a9ea956a5fa9143d5d2d255a369848ed5079e39c3dd7b0c43826656c120af0e1)**  
+*Yahoo · 4h前*  
+Stockholder approval marks important milestone toward completion of transactionMCLEAN, Va., and LONG BEACH, Calif., Sept. 24, 2026 (GLOBE NEWSWIRE) -- Iridium C…
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab (NasdaqGS:RKLB) is positioning its Neutron rocket for medium-lift mis
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-24 | 監控 | $70.31 | — | 自動更新 |
+| 2026-09-25 | 監控 | $73.61 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab (NasdaqGS:RKLB) is positioning its Neutron rocket for medium-lift mis
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
