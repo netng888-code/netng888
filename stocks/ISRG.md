@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Can This Number Push ISRG Stock Higher?](https://finnhub.io/api/news?id=ada4e79b8d60c72f2fd08b95f47d426e44168ce5ba5b5c138c70ee676f8688f2)**  
-*Yahoo · 6h前*  
+*Yahoo · 18h前*  
 Intuitive Surgical (ISRG) shares fell 10.4% in the past year, while the S&P 500 returned 16.5%. Much of the market has focused on moderating U.S. procedure grow…
 
 - **[Here's Why You Should Retain Baxter Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=fac52144dbf3a1921369819886515d383ec1e44ae006b63f82bbac7afd4455d2)**  
-*Yahoo · 11h前*  
+*Yahoo · 23h前*  
 BAX's portfolio reset and growth in connected care and advanced surgery support prospects, but margins, Novum IQ and China pricing remain risks.
 
 - **[COO Unveils New Innovation Hub & Lens Launch Plans to Aid CooperVision](https://finnhub.io/api/news?id=a323105b776fdaab6265a82d006aa851bdca893958c3e9c6d01c51d5ad58928f)**  
-*Yahoo · 11h前*  
+*Yahoo · 23h前*  
 The Cooper Companies opens a global innovation hub in England and unveils six contact lens programs to support sustainable long-term growth.
 
 ---
@@ -59,4 +59,4 @@ The Cooper Companies opens a global innovation hub in England and unveils six co
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
