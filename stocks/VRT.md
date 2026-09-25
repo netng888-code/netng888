@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Wondering what's happening in today's S&P500  pre-market session?](https://finnhub.io/api/news?id=eecd41dedad803ee95bc80410630c118848c067cdb6306e7be95cb266425763c)**  
+*ChartMill · 0h前*  
+Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements.
+
 - **[Ameresco, NN, FuelCell Energy, Vertiv, and Blue Bird Shares Plummet, What You Need To Know](https://finnhub.io/api/news?id=0281a78e757eabe82931d5516f5c824903f2a04a1484bcb4267e0f102e6d9ccd)**  
-*Yahoo · 1h前*  
+*Yahoo · 13h前*  
 A number of stocks fell in the afternoon session after the 10-year Treasury yield jumped to 5.14%, reaching levels last seen in 2007 and raising borrowing costs…
 
 - **[Will Vertiv Holdings (VRT)’s $1.45 Billion UIG Deal Accelerate its AI Infrastructure Growth?](https://finnhub.io/api/news?id=ebd6cae8fbb22847c5dc7de6f16df89b6342265361990dae6d20d2320d4417bf)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 On September 2, Vertiv Holdings Co (NYSE:VRT) agreed to acquire Utility Innovation Holdings, Inc. (operating as UtilityInnovation Group or UIG) for approximatel…
-
-- **[Vertiv’s Serial M&A Trail: What $1.5B in ‘Immaterial’ Deals Is Doing to Its Margins](https://finnhub.io/api/news?id=11ccf5b0b4427002145bbc7be512c657f0b7c1892cc2c33425d1416b00b85ea0)**  
-*Yahoo · 8h前*  
-Key TakeawaysOn September 24, the same day it paid its $0. 0625 quarterly dividend, Vertiv announced it would buy King Environmental Services, a European fluid …
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysOn September 24, the same day it paid its $0. 0625 quarterly divide
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
