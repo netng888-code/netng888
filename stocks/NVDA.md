@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-25 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Welltower Stock Topped the Market on Thursday](https://finnhub.io/api/news?id=561480f3f2831097c0a1f8196644d8bf1ecd0dc2219ef18287b5a9ad22787cda)**  
+- **[Nvidia Vs. AMD: Who Wins The Critical Coming 6 Month Period?](https://finnhub.io/api/news?id=b5b7b7ed026c4821cbc78be8340f5b7f2d79fa8a0ffbf0638d3215d7a037b98f)**  
 *Yahoo · 1h前*  
-An analyst upgraded his recommendation on the specialty REIT.
+NVIDIA is already shipping Vera Rubin while AMD's Helios rack barely leaves the gate, and the next six months will separate a compounding platform giant from a …
 
-- **[Oracle Wants Protection If Its AI Data Center Is Delayed. Here's What That Changes for Investors.](https://finnhub.io/api/news?id=592e01d5b9cda1a437e7350f1a043d723d33a5e49e9ba27710b533cf074a8708)**  
+- **[Aurora And Curaleaf’s Hostile Bid Fight Gets Even Messier](https://finnhub.io/api/news?id=dca78847fbd1f71cf1c7c5644f4de44a6ff22c0fccc025efafd9831d6389f9c7)**  
 *Yahoo · 1h前*  
-Oracle’s Project Jupiter notice raises new questions about the risks behind its data center expansion.
+Aurora is asking Alberta regulators to fix what it calls three deficiencies in Curaleaf’s $4 hostile bid, while Curaleaf says the complaints are technicalities …
 
-- **[Why H.B. Fuller Stock Dipped on Thursday](https://finnhub.io/api/news?id=66ce3631a5a7b71591219a8ae2385476c87d7fc21ed735753a808552f0c25980)**  
+- **[This Week In AI Chips - Secure AI Integration Advances with VAST DataEnclave Launch](https://finnhub.io/api/news?id=e861c10df1c97c626f169a1d92a2ba36b5862ba8b6bf1773d2f4536ba4e1dfde)**  
 *Yahoo · 1h前*  
-The company published its latest quarterly earnings report after the previous day's market close.
+VAST Data has announced the introduction of VAST DataEnclave, a confidential AI capability designed to securely integrate leading AI models with sensitive enter…
 
 ---
 
@@ -59,4 +59,4 @@ The company published its latest quarterly earnings report after the previous da
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:03 HKT*
