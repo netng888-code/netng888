@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$744.10** |
-| 今日變動 | ▲ $7.50　(+1.02%) |
+| 現價 | **$777.59** |
+| 今日變動 | ▲ $33.49　(+4.50%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $413　(▲22.7%) |
+| 未實現盈虧 | ▲ $514　(▲28.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $593.66 | — |
-| Put Wall（支撐） | $700.00 | -5.9% |
-| Call Wall（阻力） | $750.00 | +0.8% |
+| Gamma Flip | $589.55 | — |
+| Put Wall（支撐） | $750.00 | -3.5% |
+| Call Wall（阻力） | $800.00 | +2.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Wall Street sees Muse as Meta’s next big catalyst after Connect event](https://finnhub.io/api/news?id=c4afa6fe81d67b9f6ea055101d41c893779e880eeaa42cbc3908f637c4d4e9ab)**  
+- **[Why Etsy (ETSY) Stock Is Trading Lower Today](https://finnhub.io/api/news?id=e5f5444185887203e63c316d0667bca5b405178946456562a71ba9cfbc65e24c)**  
 *Yahoo · 0h前*  
-Investing.com -- Wall Street analysts were largely positive on Meta Platforms (NASDAQ: META) after its Meta Connect event, where the company made its Muse AI ag…
+Shares of online marketplace Etsy (NYSE:ETSY) fell 8.1% in the afternoon session after online marketplace shares fell as investors kept pricing in the threat th…
 
-- **[Walmart (WMT) Stock Looks About Right As AI Shopping Ties Expand](https://finnhub.io/api/news?id=615ab1240fd9aa007432a78d620e66040d09183f43c840297b3f4b6715795021)**  
+- **[Meta (META) Stock Is Up, What You Need To Know](https://finnhub.io/api/news?id=2fee4a6058cc51539ab2d089035fd0dcd5be83d4d1a61ce5b8fb6dc9e62f11f4)**  
 *Yahoo · 0h前*  
-Walmart shares have quietly built a powerful track record over the past few years, which puts a sharper spotlight on what investors are really paying for its ea…
+Shares of social network operator Meta Platforms (NASDAQ:META) jumped 4.3% in the afternoon session after investors continued to bid the stock higher as the Met…
 
-- **[Dow Jones Futures Fall As Treasury Yields, Oil Prices Keep Rising. Meta, Everpure, Grail Are Early Movers.](https://finnhub.io/api/news?id=a1968f7dfdc35eb701af6355cb35cf6d4ecba067b0a422de48c6d7a39b18964b)**  
-*Yahoo · 1h前*  
-Dow Jones futures fell early Thursday, along with S&P 500 futures and especially Nasdaq futures. The 30-year Treasury yield hit a fresh long-term high while oil…
+- **[Unity Software (U) Opens Day One VR Glasses Tools For Next Hardware Launch](https://finnhub.io/api/news?id=eee037fb99b810f9fa92732e7072fe73fd5b67ba626142e7ac0d0b2fcafd4d32)**  
+*Yahoo · 0h前*  
+Unity Software (NYSE:U) said it will offer day one engine support for Meta's next-generation VR Glasses. The toolkit lets creators build launch experiences usin…
 
 ---
 
@@ -48,7 +48,7 @@ Dow Jones futures fell early Thursday, along with S&P 500 futures and especially
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-24 | 監控 | $744.10 | — | 自動更新 |
+| 2026-09-25 | 監控 | $777.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Dow Jones futures fell early Thursday, along with S&P 500 futures and especially
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 09:04 HKT*
