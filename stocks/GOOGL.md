@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-25 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-25 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Waymo Takes On Zoox in Las Vegas. Is Alphabet Winning the Robotaxi Race?](https://finnhub.io/api/news?id=0d2f875883cb21500af2f5eb5ac190c872a9848b563cc6d44b0120bae782aff8)**  
+- **[Alphabet Trades for 17 Times Earnings. The S&P 500 Trades for 25 Times Earnings. Is This the Best Stock to Buy in the Market?](https://finnhub.io/api/news?id=3972bea8dcdc47b254e730e7f62b5b11a43d35f976152d729d59a9441e07b266)**  
 *Yahoo · 1h前*  
-Waymo is planning on entering Las Vegas, but it is not alone in the market there. Amazon-backed Zoox already has a public robotaxi presence in the city, giving …
+Alphabet is still a great stock to buy, but there's a caveat to its valuation.
 
-- **[Waymo is Taking Robotaxis to Tokyo. Can Alphabet Get Ahead of Uber in Japan?](https://finnhub.io/api/news?id=e062e276c43be505082fae73ab19e022dae9eb63b7592461814b91ec37bdb8af)**  
-*Yahoo · 1h前*  
-Waymo has spent years proving that driverless taxis can operate commercially in U.S. cities, and is now taking the model to Tokyo to test whether it can work th…
+- **[Rollins Says AI Search Shift Is Driving Volatile Residential Lead Trends](https://finnhub.io/api/news?id=21925f1c1f0cc9ee3926546f966a34039842bc765a96c454cde9b564c3b07d90)**  
+*Yahoo · 2h前*  
+Rollins (NYSE:ROL) executives said the pest-control company is working to adapt its marketing and customer-acquisition strategy after an unusually volatile peri…
 
-- **[Waymo is scaling fast. Here’s what the fleet data shows.](https://finnhub.io/api/news?id=4cb0c20138639c800e4daca16ad7935a08caf8e60f6d981890ef0fe7e77465be)**  
-*Yahoo · 1h前*  
-In the past month, Waymo has expanded its fleet in Texas by 49%. There are other hotspots as well.
+- **[Berkshire Hathaway Just Bought $212 Million of This Beaten Down Stock in 3 Days, and Its Stake Has Increased 81% This Quarter](https://finnhub.io/api/news?id=75842676cc94ce039b536959491d4af561f54699d5cfc7fe9e5c22940d5ea788)**  
+*Yahoo · 2h前*  
+It's part of a broader turnaround investment in a struggling industry.
 
 ---
 
@@ -59,4 +59,4 @@ In the past month, Waymo has expanded its fleet in Texas by 49%. There are other
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-25 21:03 HKT*
