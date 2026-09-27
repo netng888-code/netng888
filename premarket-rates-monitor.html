@@ -52,15 +52,46 @@
           快照改用ThreadPoolExecutor並行攻打，worst case壓縮做
           「三者之中最慢嗰個」（約30秒）；呢度前端timeout由15秒
           放寬到40秒，留返安全buffer。
+
+  v4（2026-09-27）：
+      1. 新增「🇯🇵 日本國債(JGB)孳息曲線」——同美債嗰個做法一致，
+         用Chart.js自畫圖（現在/1個月前/1年前 × 1Y-40Y共15個年期），
+         數據源改用日本財務省(MOF)官方Daily JGB Yield CSV（免費、
+         唔使API key），經futu_bridge_v2.py（v3.16新增
+         /api/yield_curve_jp）server-side攻打，同美債同一設計原則
+         （官方一手數據、伺服器端Python request避開CORS）。
+      2. 新增「🇺🇸🇯🇵 美日息差比較」——將已經攞到嘅美債/JGB兩份
+         snapshot，喺前端就住兩地都有嘅共同年期（1Y/2Y/3Y/5Y/
+         7Y/10Y/20Y/30Y）逐檔計美日息差(bp)，現在/1個月前/1年前
+         三欄對比，配10Y美日息差做headline stat卡。
+      3. 新增🌞白天/🌙黑夜/☁️陰天三套主題掣（頁首右上角），揀咗
+         邊套會存落localStorage，下次開返頁面自動沿用，唔使每次
+         都要揀。
+      4. 頁面title/H1由「開盤前監測」改做「最新息率監測」，並將
+         連去呢頁嘅按鈕（gex_chart_v5_terminal.html／index.html
+         嘅快速連結bar）由「開盤前監測」同步改名做「最新息率」。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-Hant"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>美債孳息 — 開盤前監測 (v3)</title>
+<title>美日息率 — 最新息率監測 (v4)</title>
+<script>
+// 主題（v4新增）：頁面render前就讀返localStorage揀嘅主題set落
+// <html data-theme>，避免CSS variables先用預設黑夜色render一瞬先
+// 至切過去（flash of wrong theme）。冇存過就用返「黑夜」做預設，
+// 同呢個頁面一直以嚟嘅原有配色一致。
+(function () {
+  const saved = localStorage.getItem('prm-theme') || 'dark';
+  if (saved !== 'dark') document.documentElement.setAttribute('data-theme', saved);
+})();
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
+  /* ── 主題（v4新增）：🌙黑夜（原有預設）/ 🌞白天 / ☁️陰天，三套配色
+     用CSS變量切換，JS記住揀咗邊套落localStorage，下次開返頁面自動
+     沿用（見底部「主題切換」script區）。 */
   :root {
     --bg: #0b0f17; --panel: #131a26; --panel-hover: #1a2333; --border: #232c3d;
     --text: #d7dee8; --muted: #7c8aa0; --accent: #4fd1c5;
@@ -71,10 +102,35 @@
     --mono: 'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;
     --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang HK', 'Microsoft JhengHei', sans-serif;
   }
+  :root[data-theme="light"] {
+    --bg: #f4f6f9; --panel: #ffffff; --panel-hover: #eef2f7; --border: #dde3ec;
+    --text: #1a2233; --muted: #64748b; --accent: #0d9488;
+    --warn-bg: #fdecea; --warn-fg: #b3261e; --warn-border: #f3c6c2;
+    --tag-low-bg: #e3f7f1; --tag-low-fg: #0d9488;
+    --tag-mid-bg: #fdf3d8; --tag-mid-fg: #a8710a;
+    --tag-high-bg: #fdecea; --tag-high-fg: #b3261e;
+  }
+  :root[data-theme="cloudy"] {
+    --bg: #dde3ea; --panel: #eef1f5; --panel-hover: #e2e7ee; --border: #c6cedb;
+    --text: #2b3542; --muted: #5b6472; --accent: #2f8f86;
+    --warn-bg: #ecd9d6; --warn-fg: #8a3a32; --warn-border: #d6b8b3;
+    --tag-low-bg: #d7ece6; --tag-low-fg: #2f8f70;
+    --tag-mid-bg: #ece3ca; --tag-mid-fg: #8a6a1f;
+    --tag-high-bg: #ecd9d6; --tag-high-fg: #8a3a32;
+  }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); padding: 28px; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); padding: 28px; transition: background .2s, color .2s; }
+  .theme-switch { display: flex; gap: 6px; }
+  .theme-btn {
+    background: var(--panel); border: 1px solid var(--border); color: var(--muted);
+    font-size: 12px; padding: 5px 11px; border-radius: 6px; cursor: pointer;
+    transition: all .15s; font-family: var(--sans);
+  }
+  .theme-btn:hover { border-color: var(--accent); color: var(--text); }
+  .theme-btn.active { border-color: var(--accent); color: var(--accent); background: var(--panel-hover); font-weight: 600; }
   .wrap { max-width: 1100px; margin: 0 auto; }
-  .header { margin-bottom: 14px; }
+  .header { margin-bottom: 14px; display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+  .header-text { flex: 1; min-width: 260px; }
   .header h1 { font-size: 19px; font-weight: 600; margin: 0 0 6px; }
   .header p { font-size: 13px; color: var(--muted); margin: 0; line-height: 1.6; }
   .header .src-tag {
@@ -149,13 +205,20 @@
 <div class="wrap">
 
   <div class="header">
-    <h1>美債孳息 — 開盤前快速連結<span class="src-tag">TradingView 官方頁面</span></h1>
-    <p>三格直接連去TradingView個別孳息率頁面,真實即市數據(你已確認可以正常顯示),一click睇齊現價、變動同走勢圖。</p>
+    <div class="header-text">
+      <h1>美債孳息 — 開盤前快速連結<span class="src-tag">TradingView 官方頁面</span></h1>
+      <p>三格直接連去TradingView個別孳息率頁面,真實即市數據(你已確認可以正常顯示),一click睇齊現價、變動同走勢圖。</p>
+    </div>
+    <div class="theme-switch" id="theme-switch">
+      <button class="theme-btn" data-theme="light">🌞 白天</button>
+      <button class="theme-btn" data-theme="dark">🌙 黑夜</button>
+      <button class="theme-btn" data-theme="cloudy">☁️ 陰天</button>
+    </div>
   </div>
 
   <div class="yc-section">
     <div class="yc-head">
-      <h2>跨年期孳息曲線一覽（1M–30Y，現在 vs 1個月前 vs 1年前）</h2>
+      <h2>🇺🇸 美國國債孳息曲線一覽（1M–30Y，現在 vs 1個月前 vs 1年前）</h2>
       <div class="yc-controls">
         <div class="yc-pill"><span class="yc-dot" id="yc-dot"></span><span id="yc-status-text">連接中...</span></div>
         <button class="yc-refresh" id="yc-refresh-btn">↻ 刷新</button>
@@ -167,6 +230,34 @@
     <div class="yc-stats" id="yc-stats"></div>
     <div class="yc-box" id="yc-table-wrap"></div>
     <div class="yc-note">數據源：美國財政部官方 Daily Treasury Par Yield Curve Rates（免費、唔使API key）——經本機 futu_bridge_v2.py（v3.0起 /api/yield_curve）server-side攞，避免瀏覽器CORS限制；同TradingView「Yield Curves」頁面用緊嘅係同一份官方數據，11個年期：1M/3M/6M/1Y/2Y/3Y/5Y/7Y/10Y/20Y/30Y。</div>
+  </div>
+
+  <div class="yc-section">
+    <div class="yc-head">
+      <h2>🇯🇵 日本國債(JGB)孳息曲線一覽（1Y–40Y，現在 vs 1個月前 vs 1年前）</h2>
+      <div class="yc-controls">
+        <div class="yc-pill"><span class="yc-dot" id="yc-jp-dot"></span><span id="yc-jp-status-text">連接中...</span></div>
+        <button class="yc-refresh" id="yc-jp-refresh-btn">↻ 刷新</button>
+      </div>
+    </div>
+    <div class="yc-box">
+      <div class="yc-chart-area" id="yc-jp-chart-area"><canvas id="yc-jp-canvas"></canvas></div>
+    </div>
+    <div class="yc-stats" id="yc-jp-stats"></div>
+    <div class="yc-box" id="yc-jp-table-wrap"></div>
+    <div class="yc-note">數據源：日本財務省(MOF)官方 Daily JGB Yield（Interest Rate on Constant Maturity Basis）——同美債同一設計原則，經本機 futu_bridge_v2.py（v3.16起 /api/yield_curve_jp）server-side攻打，避免瀏覽器CORS限制。15個年期：1Y/2Y/3Y/4Y/5Y/6Y/7Y/8Y/9Y/10Y/15Y/20Y/25Y/30Y/40Y。</div>
+  </div>
+
+  <div class="yc-section">
+    <div class="yc-head">
+      <h2>🇺🇸🇯🇵 美日息差比較（US − JP，共同年期）</h2>
+      <div class="yc-controls">
+        <div class="yc-pill"><span class="yc-dot" id="yc-spread-dot"></span><span id="yc-spread-status-text">等待兩地數據...</span></div>
+      </div>
+    </div>
+    <div class="yc-stats" id="yc-spread-headline"></div>
+    <div class="yc-box" id="yc-spread-table-wrap"></div>
+    <div class="yc-note">息差 = 美國孳息 − 日本孳息，數值以基點(bp)顯示；正數代表美息高過日息（一般伴隨USDJPY偏強嘅套息誘因）。就住兩地CSV都有出現嘅年期先計得到：1Y/2Y/3Y/5Y/7Y/10Y/20Y/30Y。</div>
   </div>
 
   <div class="grid">
@@ -229,12 +320,33 @@ data連線(同symbol種類無關)。直接連去TradingView官方頁面就冇呢
 </div>
 
 <script>
+// ─── 主題切換（v4新增）：🌞白天 / 🌙黑夜 / ☁️陰天 ────────────────
+// <head>嗰段inline script已經喺render前set好data-theme（避免閃色），
+// 呢度負責：(1) 高亮返現時揀緊嗰個掣、(2) click切換 + 存落
+// localStorage（key: 'prm-theme'），下次開返頁面自動沿用上次揀嘅
+// 主題，唔使每次都要揀多次。
+const THEME_KEY = 'prm-theme';
+function applyTheme(theme) {
+  if (theme === 'dark') document.documentElement.removeAttribute('data-theme');
+  else document.documentElement.setAttribute('data-theme', theme);
+  document.querySelectorAll('.theme-btn').forEach(b => b.classList.toggle('active', b.dataset.theme === theme));
+  localStorage.setItem(THEME_KEY, theme);
+}
+document.querySelectorAll('.theme-btn').forEach(btn => {
+  btn.addEventListener('click', () => applyTheme(btn.dataset.theme));
+});
+applyTheme(localStorage.getItem(THEME_KEY) || 'dark');
+
 // ─── 跨年期孳息曲線（v2新增）─────────────────────────────────────
 // 攞 futu_bridge_v2.py（v3.0起）嘅 /api/yield_curve，用Chart.js
 // 畫現在/1個月前/1年前 × 11個年期嘅曲線，配一個對比表格。
 const BRIDGE = 'http://127.0.0.1:8888';
 const YC_TENOR_LABELS = ['1M','3M','6M','1Y','2Y','3Y','5Y','7Y','10Y','20Y','30Y'];
-let ycChart = null;
+const YC_JP_TENOR_LABELS = ['1Y','2Y','3Y','4Y','5Y','6Y','7Y','8Y','9Y','10Y','15Y','20Y','25Y','30Y','40Y'];
+// 美日兩地CSV都有出現嘅共同年期（v4新增，美日息差比較用）
+const US_JP_COMMON_TENORS = ['1Y','2Y','3Y','5Y','7Y','10Y','20Y','30Y'];
+let ycChart = null, ycJpChart = null;
+let lastUsYc = null, lastJpYc = null;  // v4新增：兩份最新snapshot都存低，等兩邊都攞到先計得到美日息差
 
 function ycFmtDate(iso) {
   return iso || '—';
@@ -267,11 +379,177 @@ async function loadYieldCurve() {
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const d = await r.json();
     if (!d.current) throw new Error(d.error || '無數據');
+    lastUsYc = d;
     renderYieldCurve(d);
     setYcStatus(true, `已更新 · ${new Date().toLocaleTimeString('en-US',{hour12:false})}${d.cached ? ' (緩存)' : ''}`);
+    maybeRenderSpread();
   } catch (e) {
+    lastUsYc = null;
     ycRenderOffline('本機Futu Bridge未連接，或Treasury.gov暫時攞唔到數據 —— 呢個圖表需要bridge運行先有數據（避免瀏覽器CORS限制，由bridge server-side攞Treasury官方XML）');
+    maybeRenderSpread();
   }
+}
+
+// ─── 日本國債(JGB)孳息曲線（v4新增）────────────────────────────
+// 做法完全對齊上面美債嗰套（renderYieldCurve/renderYcTable/
+// renderYcStats），淨係換咗年期list（1Y-40Y共15檔）同DOM id
+// （*-jp-*），數據源係futu_bridge_v2.py（v3.16新增）嘅
+// /api/yield_curve_jp。
+function ycJpRenderOffline(msg) {
+  const area = document.getElementById('yc-jp-chart-area');
+  area.innerHTML = `<div class="yc-offline">🔌 ${msg}</div>`;
+  document.getElementById('yc-jp-table-wrap').innerHTML = '';
+  document.getElementById('yc-jp-stats').innerHTML = '';
+  const dot = document.getElementById('yc-jp-dot');
+  const label = document.getElementById('yc-jp-status-text');
+  if (dot) dot.className = 'yc-dot';
+  if (label) label.textContent = '未連接';
+}
+
+async function loadJpYieldCurve() {
+  const dot = document.getElementById('yc-jp-dot');
+  const label = document.getElementById('yc-jp-status-text');
+  if (label) label.textContent = '載入中...';
+  try {
+    // 同美債同一個40秒安全buffer原則——MOF CSV本身一次過攞晒歷史
+    // 數據，理論上唔會好似Treasury三快照咁慢，但留返同一個buffer
+    // 保險。
+    const r = await fetch(`${BRIDGE}/api/yield_curve_jp`, {signal: AbortSignal.timeout(40000)});
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    if (!d.current) throw new Error(d.error || '無數據');
+    lastJpYc = d;
+    renderJpYieldCurve(d);
+    if (dot) dot.className = 'yc-dot live';
+    if (label) label.textContent = `已更新 · ${new Date().toLocaleTimeString('en-US',{hour12:false})}${d.cached ? ' (緩存)' : ''}`;
+    if (d.warnings && d.warnings.length) console.warn('JGB yield curve:', d.warnings.join('；'));
+    maybeRenderSpread();
+  } catch (e) {
+    lastJpYc = null;
+    ycJpRenderOffline('本機Futu Bridge未連接，或MOF(日本財務省)官方CSV暫時攞唔到數據 —— 呢個圖表需要bridge運行先有數據');
+    maybeRenderSpread();
+  }
+}
+
+function renderJpYieldCurve(d) {
+  const area = document.getElementById('yc-jp-chart-area');
+  if (!document.getElementById('yc-jp-canvas')) {
+    area.innerHTML = '<canvas id="yc-jp-canvas"></canvas>';
+  }
+  const ctx = document.getElementById('yc-jp-canvas').getContext('2d');
+  const seriesFor = snap => YC_JP_TENOR_LABELS.map(t => (snap && snap.rates && snap.rates[t] != null) ? snap.rates[t] : null);
+
+  if (ycJpChart) { ycJpChart.destroy(); ycJpChart = null; }
+  ycJpChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: YC_JP_TENOR_LABELS,
+      datasets: [
+        { label: `現在 (${ycFmtDate(d.current?.date)})`,     data: seriesFor(d.current),   borderColor:'#e04fbb', backgroundColor:'rgba(224,79,187,.10)', borderWidth:2.5, pointRadius:3, tension:.2, fill:true },
+        { label: `1個月前 (${ycFmtDate(d.month_ago?.date)})`, data: seriesFor(d.month_ago), borderColor:'#e0c068', borderWidth:1.5, borderDash:[5,3], pointRadius:2, tension:.2 },
+        { label: `1年前 (${ycFmtDate(d.year_ago?.date)})`,    data: seriesFor(d.year_ago),  borderColor:'#7c9ce0', borderWidth:1.5, borderDash:[2,2], pointRadius:2, tension:.2 },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { labels: { color:'#d7dee8', font:{size:11,family:"'IBM Plex Mono',monospace"} } },
+        tooltip: {
+          backgroundColor:'#131a26', borderColor:'#232c3d', borderWidth:1,
+          titleColor:'#d7dee8', bodyColor:'#d7dee8',
+          callbacks: { label: c => `${c.dataset.label}: ${c.parsed.y!=null ? c.parsed.y.toFixed(3)+'%' : '—'}` }
+        }
+      },
+      scales: {
+        x: { ticks:{color:'#7c8aa0',font:{size:11}}, grid:{color:'#1a2233'} },
+        y: { ticks:{color:'#7c8aa0',font:{size:11},callback:v=>v.toFixed(1)+'%'}, grid:{color:'#1a2233'} }
+      }
+    }
+  });
+
+  renderJpYcTable(d);
+  renderJpYcStats(d);
+}
+
+function renderJpYcTable(d) {
+  const rows = [
+    {label:'現在',     snap:d.current},
+    {label:'1個月前',  snap:d.month_ago},
+    {label:'1年前',    snap:d.year_ago},
+  ];
+  let html = '<table><thead><tr><th>日期</th>' + YC_JP_TENOR_LABELS.map(t=>`<th>${t}</th>`).join('') + '</tr></thead><tbody>';
+  rows.forEach(r => {
+    html += `<tr><td>${r.label}<br><span style="color:var(--muted);font-size:10px">${ycFmtDate(r.snap?.date)}</span></td>`;
+    YC_JP_TENOR_LABELS.forEach(t => {
+      const v = r.snap && r.snap.rates ? r.snap.rates[t] : null;
+      html += `<td>${v!=null ? v.toFixed(3)+'%' : '—'}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody></table>';
+  document.getElementById('yc-jp-table-wrap').innerHTML = html;
+}
+
+function renderJpYcStats(d) {
+  const spread = snap => {
+    if (!snap || !snap.rates) return null;
+    const y10 = snap.rates['10Y'], y2 = snap.rates['2Y'];
+    return (y10 != null && y2 != null) ? (y10 - y2) : null;
+  };
+  const cur = spread(d.current), mo = spread(d.month_ago), yr = spread(d.year_ago);
+  const fmtSpread = v => v==null ? '—' : `${v>=0?'+':''}${(v*100).toFixed(0)}bp`;
+  const cls = v => v==null ? '' : (v>=0 ? 'pos' : 'neg');
+  document.getElementById('yc-jp-stats').innerHTML = `
+    <div class="yc-stat"><div class="yc-stat-label">現時 10Y−2Y 利差</div><div class="yc-stat-val ${cls(cur)}">${fmtSpread(cur)}</div></div>
+    <div class="yc-stat"><div class="yc-stat-label">1個月前 10Y−2Y</div><div class="yc-stat-val ${cls(mo)}">${fmtSpread(mo)}</div></div>
+    <div class="yc-stat"><div class="yc-stat-label">1年前 10Y−2Y</div><div class="yc-stat-val ${cls(yr)}">${fmtSpread(yr)}</div></div>
+  `;
+}
+
+// ─── 美日息差比較（v4新增）── 兩地snapshot都攞到先計得到，任何一
+// 邊未連接都會顯示提示文字，唔會半桶水噉顯示錯數。
+function maybeRenderSpread() {
+  const dot = document.getElementById('yc-spread-dot');
+  const label = document.getElementById('yc-spread-status-text');
+  if (!lastUsYc || !lastJpYc) {
+    document.getElementById('yc-spread-headline').innerHTML = '';
+    document.getElementById('yc-spread-table-wrap').innerHTML =
+      `<div class="yc-offline">🔌 ${!lastUsYc ? '美債' : '日本JGB'}孳息曲線暫未連接，兩邊都攞到數據先計得到美日息差</div>`;
+    if (dot) dot.className = 'yc-dot';
+    if (label) label.textContent = '等待兩地數據...';
+    return;
+  }
+  if (dot) dot.className = 'yc-dot live';
+  if (label) label.textContent = '已更新';
+
+  const fmtBp = v => v==null ? '—' : `${v>=0?'+':''}${Math.round(v*100)}bp`;
+  const cls = v => v==null ? '' : (v>=0 ? 'pos' : 'neg');
+  const spreadAt = (usSnap, jpSnap, t) => {
+    const u = usSnap && usSnap.rates ? usSnap.rates[t] : null;
+    const j = jpSnap && jpSnap.rates ? jpSnap.rates[t] : null;
+    return (u != null && j != null) ? (u - j) : null;
+  };
+
+  // Headline：10Y美日息差（現在），全頁面最常用嚟判斷套息(carry)方向嗰個年期
+  const cur10 = spreadAt(lastUsYc.current, lastJpYc.current, '10Y');
+  const mo10  = spreadAt(lastUsYc.month_ago, lastJpYc.month_ago, '10Y');
+  const yr10  = spreadAt(lastUsYc.year_ago, lastJpYc.year_ago, '10Y');
+  document.getElementById('yc-spread-headline').innerHTML = `
+    <div class="yc-stat"><div class="yc-stat-label">現時 10Y 美日息差</div><div class="yc-stat-val ${cls(cur10)}">${fmtBp(cur10)}</div></div>
+    <div class="yc-stat"><div class="yc-stat-label">1個月前 10Y 美日息差</div><div class="yc-stat-val ${cls(mo10)}">${fmtBp(mo10)}</div></div>
+    <div class="yc-stat"><div class="yc-stat-label">1年前 10Y 美日息差</div><div class="yc-stat-val ${cls(yr10)}">${fmtBp(yr10)}</div></div>
+  `;
+
+  let html = '<table><thead><tr><th>年期</th><th>現時息差</th><th>1個月前</th><th>1年前</th></tr></thead><tbody>';
+  US_JP_COMMON_TENORS.forEach(t => {
+    const cur = spreadAt(lastUsYc.current, lastJpYc.current, t);
+    const mo  = spreadAt(lastUsYc.month_ago, lastJpYc.month_ago, t);
+    const yr  = spreadAt(lastUsYc.year_ago, lastJpYc.year_ago, t);
+    html += `<tr><td>${t}</td><td class="${cls(cur)}">${fmtBp(cur)}</td><td class="${cls(mo)}">${fmtBp(mo)}</td><td class="${cls(yr)}">${fmtBp(yr)}</td></tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('yc-spread-table-wrap').innerHTML = html;
 }
 
 function renderYieldCurve(d) {
@@ -351,8 +629,11 @@ function renderYcStats(d) {
 }
 
 document.getElementById('yc-refresh-btn').addEventListener('click', loadYieldCurve);
+document.getElementById('yc-jp-refresh-btn').addEventListener('click', loadJpYieldCurve);
 loadYieldCurve();
-setInterval(loadYieldCurve, 600000); // 10分鐘——Treasury官方一個交易日只更新一次，唔使太密
+loadJpYieldCurve();
+setInterval(loadYieldCurve, 600000);   // 10分鐘——Treasury官方一個交易日只更新一次，唔使太密
+setInterval(loadJpYieldCurve, 600000); // 同上，MOF都係一個交易日先更新一次
 </script>
 
 </body></html>
