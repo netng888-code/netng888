@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Chip Equipment Stocks Rally as Quality Growers Lead the Snapback](https://finnhub.io/api/news?id=3949e451c2a639a3423306f9abe01c0a8d4de77e04e115b657fdc35d2e3c93a4)**  
+*ChartMill · 0h前*  
+Semiconductor equipment stocks rally 6.3% in a week, led by quality growth names TER, LRCX, ASML, AMAT, and ONTO as sentiment resets.
+
+- **[Cohu: Earnings Are Catching Up With The Rally](https://finnhub.io/api/news?id=031b9034d733e317e78da7018d9c4f5f8afcb41f478f0b3af01c1f1ebffb02a0)**  
+*SeekingAlpha · 4h前*  
+Strong Buy on Cohu, Inc.: price target raised to $95 after strong Q2 2026 results and AI/HPC pipeline to $850M. Click for this COHU stock update.
+
 - **[Teradyne (TER) Surpasses Market Returns: Some Facts Worth Knowing](https://finnhub.io/api/news?id=ffa3c1e80364a3e11472ebf51ae10302792b3cb8a16aa4bb4a7198bf0ba642ae)**  
 *Yahoo · 2d前*  
 Teradyne (TER) closed the most recent trading day at $398.32, moving +2.74% from the previous trading session.
-
-- **['A Good Time To Buy Equipment Stocks': Citi Upgrades Lam Research, Updates Sector Model](https://finnhub.io/api/news?id=6568ee5d0418649fb2d15d3245337f245e1c15c7bfdfff4664c640f0cfaaaeee)**  
-*Benzinga · 2d前*
-
-- **[Wondering what's happening in today's S&P500  pre-market session?](https://finnhub.io/api/news?id=eecd41dedad803ee95bc80410630c118848c067cdb6306e7be95cb266425763c)**  
-*ChartMill · 2d前*  
-Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements.
 
 ---
 
@@ -58,4 +59,4 @@ Wondering what's happening in today's pre-market session? Stay tuned for the lat
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
