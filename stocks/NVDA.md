@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Here's How Many Shares of Coca-Cola You'd Need for $10,000 in Yearly Dividends](https://finnhub.io/api/news?id=e3be967c1232b4aa6ff9ed54b907b75906b0c99a5da2d57955a97634c7ce7ead)**  
-*Yahoo · 2h前*  
-A 64-year streak of increasing the payout makes this a top dividend stock.
+- **[Nvidia announces jaw-dropping $150 billion stock buyback, largest single authorization in history](https://finnhub.io/api/news?id=24f7bf047e05b3ce89a8b94321f0aa35213d09f653799ac5cd4f04720b67b30a)**  
+*Yahoo · 0h前*  
+The valuation on Nvidia is too appetizing for CEO Jensen Huang to ignore any longer.
 
-- **[1 Top Warren Buffett Stock Trading 21% Below Its All-Time High That Can Double a $1,000 Investment in 5 Years](https://finnhub.io/api/news?id=f5d21a2bfb92a2464f4a27d5cd9dcbf8b5566cdef6b4f2add1b4b900f4918f74)**  
-*Yahoo · 3h前*  
-This is one of the highest-quality businesses in the conglomerate's portfolio.
+- **[If You'd Invested $1,000 in the Vanguard S&P 500 ETF (VOO) 10 Years Ago, Here's How Much You'd Have Today](https://finnhub.io/api/news?id=dc690c095cd26cc8b7dc2f80fd26d20f2d0f2949677ac66f115a1d9f57f572bf)**  
+*Yahoo · 0h前*  
+Performance in the last decade is well above the benchmark's historical average.
 
-- **[I'd Buy Amazon Stock While It Sits 12% Below Its Record](https://finnhub.io/api/news?id=b495c52071712436fd2d36279ee75eb9feb8d68ccbc7899b1bc9381b7a1bb45a)**  
-*Yahoo · 3h前*  
-The cloud unit is growing faster than it has in years. Why are the shares cheaper than they were in August?
+- **[Dell's AI Server Backlog Has Ballooned to $95 Billion. Here's What a $1,000 Investment Today Could Be Worth by 2030](https://finnhub.io/api/news?id=0800c7744c2bb21090cd8b8e0fe153c44afe4666d379f9546616110a880b8d73)**  
+*Yahoo · 1h前*  
+Dell's potential AI server pipeline suggests the company is on track to deliver phenomenal growth over the next five years.
 
 ---
 
@@ -59,4 +59,4 @@ The cloud unit is growing faster than it has in years. Why are the shares cheape
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:03 HKT*
