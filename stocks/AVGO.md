@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-25 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$350.36** |
-| 今日變動 | ▼ $4.63　(-1.30%) |
+| 現價 | **$352.81** |
+| 今日變動 | ▲ $2.45　(+0.70%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $254　(▼6.8%) |
+| 未實現盈虧 | ▼ $230　(▼6.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $355.57 | — |
-| Put Wall（支撐） | $350.00 | -0.1% |
-| Call Wall（阻力） | $360.00 | +2.8% |
+| Gamma Flip | $353.11 | — |
+| Put Wall（支撐） | $350.00 | -0.8% |
+| Call Wall（阻力） | $360.00 | +2.0% |
 
 **狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[This Week In AI Chips - Secure AI Integration Advances with VAST DataEnclave Launch](https://finnhub.io/api/news?id=e861c10df1c97c626f169a1d92a2ba36b5862ba8b6bf1773d2f4536ba4e1dfde)**  
-*Yahoo · 1h前*  
-VAST Data has announced the introduction of VAST DataEnclave, a confidential AI capability designed to securely integrate leading AI models with sensitive enter…
+- **[Qualcomm Stock Has an Opportunity Investors May Be Underestimating](https://finnhub.io/api/news?id=bdd2775ac19e93f3c3e0fff7a86ac508490bf102e5c2d048f8148e1716943a18)**  
+*Yahoo · 8h前*  
+Qualcomm just posted 61% automotive growth and raised its non-handset target to $40 billion, yet the market keeps valuing it like a company living and dying by …
 
-- **[AMD Just Joined Nvidia in the $1 Trillion Club. At $614, Wall Street Is Paying Too Much for a Distant No. 2.](https://finnhub.io/api/news?id=dad3a4651f31a14be8d86d8c788706994c2f4ebfffea1061c7ff69705465b98c)**  
-*Yahoo · 1h前*  
-AMD is the latest semiconductor stock to reach a trillion-dollar market cap.
+- **[Broadcom vs. Marvell: The AI Supercycle Is Big Enough for Both. Here's the Better Buy.](https://finnhub.io/api/news?id=e74eeb9753af950d2475cdd7a2feeae150198ca2a6af67ca5a8af3150a066e4b)**  
+*Yahoo · 9h前*  
+Broadcom and Marvell are both gaining from the AI infrastructure boom, but one stock offers a better risk-reward proposition.
 
-- **[Broadcom And 2 Other High Growth Stocks To Own](https://finnhub.io/api/news?id=ffa629d66040fb9160861602a3bc525db62ec76a30d86d679d1a46c4b25073fb)**  
-*Yahoo · 5h前*  
-With global bond markets selling off and US 30 year Treasury yields touching levels last seen in 2004, money is getting more expensive and weaker balance sheets…
+- **[Analysts Keep Hiking Broadcom Price Targets, But AVGO Is Flat - Shorting AVGO Puts Is an Attractive Play](https://finnhub.io/api/news?id=8270b5d6ddf9582408378b5a42a01d48f24cdf6b9b6d743fb1f4dbfe86f1d0f6)**  
+*Yahoo · 11h前*  
+Analysts keep raising their price targets on chip maker Broadcom (AVGO) since the Sept. 2 release of its fiscal Q3 results. One attractive play is to sell cash-…
 
 ---
 
@@ -48,7 +48,7 @@ With global bond markets selling off and US 30 year Treasury yields touching lev
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-25 | 監控 | $350.36 | — | 自動更新 |
+| 2026-09-28 | 監控 | $352.81 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ With global bond markets selling off and US 30 year Treasury yields touching lev
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
