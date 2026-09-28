@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-25 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$342.36** |
-| 今日變動 | ▲ $4.53　(+1.34%) |
+| 現價 | **$343.92** |
+| 今日變動 | ▲ $1.56　(+0.46%) |
 | 持倉數量 | 16 股 |
 | 平均成本 | $221.300 |
-| 未實現盈虧 | ▲ $1,937　(▲54.7%) |
+| 未實現盈虧 | ▲ $1,962　(▲55.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $337.57 | — |
-| Put Wall（支撐） | $340.00 | -0.7% |
-| Call Wall（阻力） | $350.00 | +2.2% |
+| Gamma Flip | $334.72 | — |
+| Put Wall（支撐） | $340.00 | -1.1% |
+| Call Wall（阻力） | $350.00 | +1.8% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Alphabet Trades for 17 Times Earnings. The S&P 500 Trades for 25 Times Earnings. Is This the Best Stock to Buy in the Market?](https://finnhub.io/api/news?id=3972bea8dcdc47b254e730e7f62b5b11a43d35f976152d729d59a9441e07b266)**  
-*Yahoo · 1h前*  
-Alphabet is still a great stock to buy, but there's a caveat to its valuation.
+- **[Michael Burry just put a date on Big Tech's AI reckoning, and Oracle's $664 billion lands in crosshairs](https://finnhub.io/api/news?id=a784045f174387c69128bf330aa2d021a4ada7f854b57af5e895a66fcecffcac)**  
+*Yahoo · 3h前*  
+The Big Short investor tallied the AI commitments piling up at five hyperscalers. He says even a small write-off could land harder than anyone expects.
 
-- **[Rollins Says AI Search Shift Is Driving Volatile Residential Lead Trends](https://finnhub.io/api/news?id=21925f1c1f0cc9ee3926546f966a34039842bc765a96c454cde9b564c3b07d90)**  
-*Yahoo · 2h前*  
-Rollins (NYSE:ROL) executives said the pest-control company is working to adapt its marketing and customer-acquisition strategy after an unusually volatile peri…
+- **[Is Gemini 4 the Catalyst Alphabet (GOOGL) Needs to Win the AI Race?](https://finnhub.io/api/news?id=5dae1836a674aa9b712fcecf779b430a030ff15cdc4597712508708cea9c822d)**  
+*Yahoo · 3h前*  
+Alphabet Inc. (NASDAQ:GOOGL) is approaching another important milestone in its artificial intelligence push. On September 23, Google DeepMind division head Kora…
 
-- **[Berkshire Hathaway Just Bought $212 Million of This Beaten Down Stock in 3 Days, and Its Stake Has Increased 81% This Quarter](https://finnhub.io/api/news?id=75842676cc94ce039b536959491d4af561f54699d5cfc7fe9e5c22940d5ea788)**  
-*Yahoo · 2h前*  
-It's part of a broader turnaround investment in a struggling industry.
+- **[Why the Nasdaq Refuses to Break Even With Treasury Yields Above Five Percent](https://finnhub.io/api/news?id=e7b04b219bdb4304f2daf3e88e243a774a914db8d02a09aa8375d095b76a2c8f)**  
+*Yahoo · 5h前*  
+The ten-year Treasury yield just hit levels that should be crushing growth stocks, yet the Nasdaq-100 keeps refusing to fall. The reason comes down to six compa…
 
 ---
 
@@ -48,7 +48,7 @@ It's part of a broader turnaround investment in a struggling industry.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-25 | 監控 | $342.36 | — | 自動更新 |
+| 2026-09-28 | 監控 | $343.92 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ It's part of a broader turnaround investment in a struggling industry.
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
