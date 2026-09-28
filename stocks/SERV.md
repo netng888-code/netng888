@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-09-28 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Micron, Nike To Headline Earnings Next Week; GDP Numbers Awaited](https://finnhub.io/api/news?id=73b6acdf2bbb7d9709982357cc0520acb53ffb719221ec04f386a13837d8216a)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Wall Street Week Ahead: key market events, earnings (MU, NKE), IPOs (OURA), and major economic data. See here for more details.
 
 - **[Serve Robotics Targets a $450B Market: How Big Is Its Growth Runway?](https://finnhub.io/api/news?id=6f6a73ceb73ea2aac5f850d8c378af3d192a86dab800fadfdb6b5865cb1c6e56)**  
@@ -55,4 +55,4 @@ SERV targets a $450B delivery market by 2030, but growth hinges on higher utiliz
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
