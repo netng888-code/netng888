@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Qualcomm Stock Has an Opportunity Investors May Be Underestimating](https://finnhub.io/api/news?id=bdd2775ac19e93f3c3e0fff7a86ac508490bf102e5c2d048f8148e1716943a18)**  
-*Yahoo · 8h前*  
-Qualcomm just posted 61% automotive growth and raised its non-handset target to $40 billion, yet the market keeps valuing it like a company living and dying by …
+- **[These AI Stocks Took Off Or Tumbled In Q3. Here's Why.](https://finnhub.io/api/news?id=5021ab32b249699f3d99fe30d8626a97ed33ea746712d3d7ebc283900dfe0971)**  
+*Yahoo · 1h前*  
+AI stocks show diverging fortunes in Q3, with software plays and Nvidia rebounding while Ciena, CoreWeave, Broadcom and Google lagged.
 
-- **[Broadcom vs. Marvell: The AI Supercycle Is Big Enough for Both. Here's the Better Buy.](https://finnhub.io/api/news?id=e74eeb9753af950d2475cdd7a2feeae150198ca2a6af67ca5a8af3150a066e4b)**  
-*Yahoo · 9h前*  
-Broadcom and Marvell are both gaining from the AI infrastructure boom, but one stock offers a better risk-reward proposition.
+- **[Latest News In AI Chips - AI's Impact on Semiconductor Transformation and Material Demand](https://finnhub.io/api/news?id=f664d4e5c7561eec6d87238c40f7ce057a3d372e7b51cc55e8e4fabcd4ec5339)**  
+*Yahoo · 1h前*  
+Recent developments in the AI chips sector highlight a significant transformation in the electronic chemicals and materials industry. Artificial intelligence is…
 
-- **[Analysts Keep Hiking Broadcom Price Targets, But AVGO Is Flat - Shorting AVGO Puts Is an Attractive Play](https://finnhub.io/api/news?id=8270b5d6ddf9582408378b5a42a01d48f24cdf6b9b6d743fb1f4dbfe86f1d0f6)**  
-*Yahoo · 11h前*  
-Analysts keep raising their price targets on chip maker Broadcom (AVGO) since the Sept. 2 release of its fiscal Q3 results. One attractive play is to sell cash-…
+- **[INTC, AMD, AVGO: Chip Stocks Lead Slide As Tech Gets Hammered Amid Renewed U.S.-Iran Tensions](https://finnhub.io/api/news?id=f0962506e75fdbd8c68f04e26ab77822fa6dfca9adfe3e913a6fa0130704283f)**  
+*Yahoo · 3h前*  
+Oil shock has put the AI trade under a fresh macro test.
 
 ---
 
@@ -59,4 +59,4 @@ Analysts keep raising their price targets on chip maker Broadcom (AVGO) since th
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:03 HKT*
