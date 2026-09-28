@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-28 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Salesforce vs. Palantir Technologies: What Revenue Trends Reveal to Investors About These Tech Giants](https://finnhub.io/api/news?id=5287b6c214906caf05e49bb7eb42b6ee9c77764999a1f05f298b26c35865d71f)**  
-*Yahoo · 1h前*  
-Salesforce commands a 6x revenue advantage, but Palantir's growth rate is nearly triple — a divergence that will determine which thesis wins.
+- **[Palantir's Stock Is Up Over 50% Since Reporting Earnings. Is It Heading for a New All-Time High?](https://finnhub.io/api/news?id=6e1bffd43d78074b1409ae101b154a70e04d49fa1a3a7e9b90f821de4d8eaa44)**  
+*Yahoo · 2h前*  
+Investors are bullish on Palantir's stock due to not only the company's strong growth but also a convincing vision from CEO Alex Karp.
 
-- **[3 Founder Led Stocks To Own In September 2026](https://finnhub.io/api/news?id=469b466e38226660d2cc579186f65bfe6a40b1ff25c4b53d03d754af40fb2209)**  
-*Yahoo · 13h前*  
-Bond market volatility is flaring up and investors are pulling money from corporate debt just as U.S. Treasury yields reach 5%. When safer bonds suddenly offer …
+- **[MAG 7 Voices: Jensen Huang, Elon Musk, Mark Zuckerberg Shape A Week Of AI Debate](https://finnhub.io/api/news?id=8e4177e474e3569bb0f4f6b485e555f2b6f8a65478a6ed497ea2fcc0116dd594)**  
+*Yahoo · 2h前*  
+Nvidia CEO Jensen Huang defended continued AI development while calling for AI labs that cannot contain unsafe experiments to be shut down.
 
-- **[Is Palantir a Millionaire-Maker Stock After Its Rally?](https://finnhub.io/api/news?id=6821de4b6e5c26b05ca1d9d43412b79d2eb43d1a3965b0767d3f7255c26d497c)**  
-*Yahoo · 16h前*  
-The stock has jumped more than 60% over three months.
+- **[2 Profitable Stocks Worth Your Attention and 1 We Avoid](https://finnhub.io/api/news?id=8feaeb6aaa87499963153c196a66601046a7dc7c409c844cc11f1fc3beb7986c)**  
+*Yahoo · 4h前*  
+While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies …
 
 ---
 
@@ -59,4 +59,4 @@ The stock has jumped more than 60% over three months.
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
