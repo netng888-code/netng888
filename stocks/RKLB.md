@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$73.61** |
-| 今日變動 | ▲ $3.30　(+4.69%) |
+| 現價 | **$73.95** |
+| 今日變動 | ▲ $0.34　(+0.46%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $24　(▼3.1%) |
+| 未實現盈虧 | ▼ $20　(▼2.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $66.23 | — |
-| Put Wall（支撐） | $65.00 | -11.7% |
-| Call Wall（阻力） | $75.00 | +1.9% |
+| Gamma Flip | $66.53 | — |
+| Put Wall（支撐） | $65.00 | -12.1% |
+| Call Wall（阻力） | $80.00 | +8.2% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Stocktwits Space Race Weekly: Why RKLB, FLY, RDW And PL Are Outpacing SPCX](https://finnhub.io/api/news?id=80317a1b56351172d7ca147d1dc6e70c26d792d0a0e09f134b402a648de48362)**  
-*Yahoo · 5h前*  
-RKLB rose 14% this week after its 96th Electron launch, a bullish Cantor call, an ARK purchase and shareholder approval of its Iridium deal.
+- **[Prediction: This Space Stock Will Outperform SpaceX Over the Next 10 Years](https://finnhub.io/api/news?id=bc6a35bc6ad6a60db7ab1aa187ef2b5a6e038bb739999b210bee65a1c6f56998)**  
+*Yahoo · 19h前*  
+Smaller is mightier when looking for long-term winners.
 
-- **[Why Rocket Lab Wants To Pay Up Big For Iridium](https://finnhub.io/api/news?id=a28a1846ea47f9dabec66573288592d6fd7496372ee6809bb684a55a5052527f)**  
-*SeekingAlpha · 6h前*  
-Rocket Lab is accelerating its evolution into a vertically integrated space infrastructure platform with the strategic acquisition of Iridium. Learn more about …
+- **[The Opportunity Behind AST SpaceMobile Stock Is Hard to Ignore](https://finnhub.io/api/news?id=d239d593e370b1e3239eec93d98f68646f933d17ee45be23c22aa1055e8deabc)**  
+*Yahoo · 1d前*  
+AST SpaceMobile is burning through capital at a staggering pace while racing to blanket the globe with satellites, and whether that gamble pays off depends on a…
 
-- **[Cathie Wood buys $25 million in tumbling tech stock](https://finnhub.io/api/news?id=15852a2f1e6bb4e16fe009f3a7601535d7b976d927f8d304c0fd37068a5b4681)**  
-*Yahoo · 13h前*  
-A battered space favorite just attracted Wood’s attention again.
+- **[Prediction: The Next Chapter of the Space Race Could Be Very Good for Rocket Lab](https://finnhub.io/api/news?id=fc6e1f83c2cb88386b0964ef5ff315ef5932548e33067b0ecc5d9f6cb923fdff)**  
+*Yahoo · 1d前*  
+Rocket Lab enters 2026 with a record backlog, a transformative acquisition pending, and a brand-new rocket on the launchpad, but whether those pieces come toget…
 
 ---
 
@@ -48,7 +48,7 @@ A battered space favorite just attracted Wood’s attention again.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-25 | 監控 | $73.61 | — | 自動更新 |
+| 2026-09-28 | 監控 | $73.95 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A battered space favorite just attracted Wood’s attention again.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
