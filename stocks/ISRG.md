@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-28 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -51,4 +51,4 @@ Revvity launches a CE-IVDR-certified automated T1D screening kit for children, e
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
