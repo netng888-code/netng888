@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Qualcomm Stock Has an Opportunity Investors May Be Underestimating](https://finnhub.io/api/news?id=bdd2775ac19e93f3c3e0fff7a86ac508490bf102e5c2d048f8148e1716943a18)**  
-*Yahoo · 8h前*  
-Qualcomm just posted 61% automotive growth and raised its non-handset target to $40 billion, yet the market keeps valuing it like a company living and dying by …
+- **[Sandisk, Marvell and Other AI Stocks Fall. OpenAI Just Reignited Safety Fears.](https://finnhub.io/api/news?id=dafb57d370c01ca365a2ab28488f62dc34226673b44d934580ca54d9d70ab05b)**  
+*Yahoo · 2h前*  
+OpenAI said it has halted the training of its latest AI models. It follows more incidents of AI agents going rogue.
 
-- **[Broadcom vs. Marvell: The AI Supercycle Is Big Enough for Both. Here's the Better Buy.](https://finnhub.io/api/news?id=e74eeb9753af950d2475cdd7a2feeae150198ca2a6af67ca5a8af3150a066e4b)**  
-*Yahoo · 9h前*  
-Broadcom and Marvell are both gaining from the AI infrastructure boom, but one stock offers a better risk-reward proposition.
+- **[Intel, Sandisk, Chevron, Boeing, NIO, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=aa83a639d5a815b9bc68f13e337a87fdb352dd898d9c2a72448e9ec7d1d1b395)**  
+*Yahoo · 3h前*  
+FEATURE  Stock futures were dropping on Monday after talks between the U.S. and Iran failed to yield a peace deal, driving oil prices and bond yields higher. Ar…
 
-- **[Forget Google. This Is the Marvell Story That Matters Right Now](https://finnhub.io/api/news?id=583314728790fbb02c28d442fca799579d7ba780ca6848ab492c22a5e26d81b1)**  
-*Yahoo · 16h前*  
-Key TakeawaysConnectivity-Led Raise: Marvell lifted its fiscal 2028 revenue outlook to about $18 billion, and CEO Matt Murphy said connectivity, not the new Goo…
+- **[Copilot Reboot Sends Microsoft Soaring, but Trump's No to Iran Hangs Over Monday](https://finnhub.io/api/news?id=a2b7dc9eeea5d94aaba6a7c3f389b01e95bb8333f1593ffa51f07c8d174b3473)**  
+*ChartMill · 4h前*  
+Microsoft jumped to a ten-month high after a sweeping Copilot overhaul and helped Wall Street lock in a winning week. Over the weekend, Trump rejected Iran's ce…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysConnectivity-Led Raise: Marvell lifted its fiscal 2028 revenue outl
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
