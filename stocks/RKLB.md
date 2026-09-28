@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Stocktwits M&A Watch: PSKY, WBD, BP, DVN, RKLB, IRDM Stocks In Focus](https://finnhub.io/api/news?id=595233b6b1d4ea5f18168aa751e33fec4a5aab976b1dd86dca78fd35ef0e3775)**  
+*Yahoo · 6h前*  
+Paramount Skydance’s acquisition of Warner Bros. Discovery, BP's reported interest in Devon Energy’s South Texas operations, and a shareholder approval of Iridi…
+
 - **[Prediction: This Space Stock Will Outperform SpaceX Over the Next 10 Years](https://finnhub.io/api/news?id=bc6a35bc6ad6a60db7ab1aa187ef2b5a6e038bb739999b210bee65a1c6f56998)**  
-*Yahoo · 19h前*  
+*Yahoo · 1d前*  
 Smaller is mightier when looking for long-term winners.
 
 - **[The Opportunity Behind AST SpaceMobile Stock Is Hard to Ignore](https://finnhub.io/api/news?id=d239d593e370b1e3239eec93d98f68646f933d17ee45be23c22aa1055e8deabc)**  
 *Yahoo · 1d前*  
 AST SpaceMobile is burning through capital at a staggering pace while racing to blanket the globe with satellites, and whether that gamble pays off depends on a…
-
-- **[Prediction: The Next Chapter of the Space Race Could Be Very Good for Rocket Lab](https://finnhub.io/api/news?id=fc6e1f83c2cb88386b0964ef5ff315ef5932548e33067b0ecc5d9f6cb923fdff)**  
-*Yahoo · 1d前*  
-Rocket Lab enters 2026 with a record backlog, a transformative acquisition pending, and a brand-new rocket on the launchpad, but whether those pieces come toget…
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab enters 2026 with a record backlog, a transformative acquisition pendi
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
