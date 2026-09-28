@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-28 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Datalec Strengthens its Liquid Cooling Capabilities with the Appointment of Dominik Dziarczykowski](https://finnhub.io/api/news?id=1ec3ed18952b40fdd8d0cd5cde6eaa1137c6219482a141516f261db75116a83b)**  
+*Yahoo · 5h前*  
+LONDON, Sept. 28, 2026 (GLOBE NEWSWIRE) -- Datalec Precision Installations (DPI), a global provider of integrated data centre delivery solutions, has appointed …
+
+- **[Western Digital Stock Is Just One Of 3 Top AI Infrastructure Picks](https://finnhub.io/api/news?id=f5d6945d425e3576b7960a0f138dc09eef9ce0de81de3624fdeff265d2d864bb)**  
+*Yahoo · 11h前*  
+The AI boom is now reshaping bond markets, with long term yields hitting levels last seen in the mid 2000s as heavy spending on AI infrastructure meets higher i…
+
 - **[Earn 10-15% Potential Income: Monthly Options Series (Oct. 2026)](https://finnhub.io/api/news?id=7c1a0aeb6277c151d4fccec96b9399cf1676fb428cb2d9bf97e8b20a119ac724)**  
-*SeekingAlpha · 16h前*  
+*SeekingAlpha · 1d前*  
 Build a disciplined options income strategy targeting 12â15% annually. Read the full analysis here.
-
-- **[2 Data Center Stocks That Could Help Make You a Fortune](https://finnhub.io/api/news?id=9dabbc03a124e4d742c40a53dff9d44ac7ebd5b9c0f6807e1501a5a939fe8d46)**  
-*Yahoo · 1d前*  
-These stocks are poised for growth as hyperscaler capital spending grows into the trillions.
-
-- **[How Much Further Could Vertiv Stock Fall?](https://finnhub.io/api/news?id=aecf2c6328a3a0cea1c628dad0a2c7effdeb5cad98602a758fab23dde11e5026)**  
-*Yahoo · 2d前*  
-Vertiv (VRT) stock has lost about a quarter of its value over the past three months and now trades near $245. Its options price a range of $135 to $444 over rou…
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv (VRT) stock has lost about a quarter of its value over the past three mon
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
