@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[2 Nuclear Stocks Crashed by About 50% in 2026. Here's the 1 Thing That Would Bring Them Back.](https://finnhub.io/api/news?id=7df831e1e7e8173716005eb4bff60841a5b553aa857a85f4b7b2635fe217e85a)**  
+*Yahoo · 23h前*  
+Many stocks in the nuclear space have lost ground this year.
+
 - **[This Nuclear Stock Could Make Patient Investors Rich](https://finnhub.io/api/news?id=8b378222ed0d7d72aa8375ec5d51233d0533eb55ee048a26dbc6f17e5a26c877)**  
 *Yahoo · 1d前*  
 Oklo stock could easily triple if its project pipeline materializes.
@@ -37,10 +41,6 @@ Oklo stock could easily triple if its project pipeline materializes.
 - **[Oklo Just Proved It Can Build, Now Comes The Hard Part](https://finnhub.io/api/news?id=8227e6afd4ae1367482da7a6124b730b3f51fafe2b3977d7aaefc4c96c51fcad)**  
 *SeekingAlpha · 2d前*  
 Oklo demonstrated execution with the Groves reactor, but valuation remains stretched at a $7.2B market cap and $39 share price. Read more on OKLO stock here.
-
-- **[Oklo: Shares Have Plunged, But I'm Still Bearish](https://finnhub.io/api/news?id=8a1b42c7434a9472825d3a31e4d935326aba8b1d6c3689700710713baee33628)**  
-*SeekingAlpha · 2d前*  
-I'm bullish on nuclear overall, but still rate Oklo (OKLO) stock as a 'sell'. Read how I'm using put options to play the thesis here.
 
 ---
 
@@ -59,4 +59,4 @@ I'm bullish on nuclear overall, but still rate Oklo (OKLO) stock as a 'sell'. Re
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
