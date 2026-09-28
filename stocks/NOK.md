@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Private 5G Market Forecasts Growth from $5.35B (2026) to $24.84B by 2032, Profiling Ericsson, Huawei, Nokia, Samsung & Cisco Systems](https://finnhub.io/api/news?id=c880f48e2f5429d95a6bf6359362cda5caffb86264946cf1aab55f0f82b4be95)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 The global private 5G market is projected to grow from USD 5.35 billion in 2026 to USD 24.84 billion by 2032, at a 29.1% CAGR. Growth is driven by Industry 4.0,…
 
 ---
@@ -51,4 +51,4 @@ The global private 5G market is projected to grow from USD 5.35 billion in 2026 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
