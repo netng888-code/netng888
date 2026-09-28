@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-09-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-28 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$11.60** |
-| 今日變動 | ▲ $0.33　(+2.93%) |
+| 現價 | **$11.62** |
+| 今日變動 | ▲ $0.02　(+0.17%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $162　(▼25.9%) |
+| 未實現盈虧 | ▼ $161　(▼25.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $10.67 | — |
-| Put Wall（支撐） | $11.00 | -5.2% |
-| Call Wall（阻力） | $12.00 | +3.4% |
+| Gamma Flip | $10.88 | — |
+| Put Wall（支撐） | $11.00 | -5.3% |
+| Call Wall（阻力） | $12.00 | +3.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stocktwits Space Race Weekly: Why RKLB, FLY, RDW And PL Are Outpacing SPCX](https://finnhub.io/api/news?id=80317a1b56351172d7ca147d1dc6e70c26d792d0a0e09f134b402a648de48362)**  
-*Yahoo · 5h前*  
-RKLB rose 14% this week after its 96th Electron launch, a bullish Cantor call, an ARK purchase and shareholder approval of its Iridium deal.
+- **[Benzinga Bulls and Bears: Costco, KB Home, McDonald’s](https://finnhub.io/api/news?id=165f43ff73b96a081df901ff04a57d7fefbc00ba4510c7f2632a916e8e037e57)**  
+*Benzinga · 1d前*  
+Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.
 
-- **[A $980 Million Reason to Buy Redwire Stock](https://finnhub.io/api/news?id=cf6bb00586f4020150dc3a2311e8bb8707000127f3be09e0fc0b069956e2dc6f)**  
-*Yahoo · 16h前*  
-Redwire stock rallies on selection by Space Systems Command to compete under a major new defense initiative. Here’s why RDW shares are worth buying today.
+- **[Is Redwire (RDW) A Bargain Following Its NITE STAR Contract Win?](https://finnhub.io/api/news?id=d77fb54239e907967acebf3a63e5cba2bcce8dc62750453b862dce31ead4e91f)**  
+*Yahoo · 2d前*  
+Redwire (RDW) just picked up a fresh government opportunity, being selected as one of 15 vendors on Space Systems Command’s NITE-STAR IDIQ contract, a multi-ven…
 
-- **[Analysts Warn the Entire Space Trade Is Sitting in Neutral Waiting on One Rocket](https://finnhub.io/api/news?id=1ed373c2f6c08a70ba223f433880182286f3570ba8437610d5a74d76807bc618)**  
-*Yahoo · 20h前*  
-Every space supplier building lunar modules, satellite hardware, and heavy components is betting its revenue timeline on a rocket it does not own, and the gap b…
+- **[1 Stock Under $50 with Exciting Potential and 2 We Brush Off](https://finnhub.io/api/news?id=c0272f0fa05e3c39177858036f3ee65844d7a17b826dda9bbbb151563127ad4e)**  
+*Yahoo · 2d前*  
+The $10-50 price range often includes mid-sized businesses with proven track records and plenty of growth runway ahead. They also usually carry less risk than p…
 
 ---
 
@@ -48,7 +48,7 @@ Every space supplier building lunar modules, satellite hardware, and heavy compo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-25 | 監控 | $11.60 | — | 自動更新 |
+| 2026-09-28 | 監控 | $11.62 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Every space supplier building lunar modules, satellite hardware, and heavy compo
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-28 09:04 HKT*
