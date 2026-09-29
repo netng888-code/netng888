@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-29 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Burry Sees AI Bubble Bursting Sooner, Shifts to Put Options](https://finnhub.io/api/news?id=715184a42ce09165402d9a00c0181d266e60b217cb7303ced770cabc5d1c0388)**  
+- **[AI Earnings Loom as Valuation Divide Takes Center Stage](https://finnhub.io/api/news?id=457ef15b1f290eaab61e16399bd7427865b3d5119e26c6ded99a411c45976599)**  
+*ChartMill · 0h前*  
+AI stocks face earnings test as valuation gap widens; AMD, Palantir, Salesforce, and Snowflake results expose growth vs. profitability divides.
+
+- **[AI Jitters, Oil, Bond Outlooks Cap Wall Street Pre-Bell; Asia Off, Europe Up](https://finnhub.io/api/news?id=f6f2f17101bdb622fe3f101dec72beed040124ed751866882136c7637a4ea89f)**  
 *Yahoo · 1h前*  
-Michael Burry is moving up the timeline for his bearish thesis on the AI boom, switching from short
+Wall Street futures were muted pre-bell Tuesday as traders awaited clarity on the AI sector, and wei
 
-- **[REDLattice To Become Public Via $1.25B SPAC Transaction](https://finnhub.io/api/news?id=e3cf2556a1079100b69ccf19367f3185405217509ecef6142c98358cc08492e9)**  
-*Yahoo · 4h前*  
-By Karen Roman Cyber intelligence and technology provider REDL Intermediate Holdings, LLC (REDLattice) said it is going public through a combination with Bold E…
-
-- **[Michael Burry Swaps MU, NBIS, NVDA, PLTR Shorts For Puts — Says AI Bubble May Burst ‘Sooner Than Later’](https://finnhub.io/api/news?id=30700271e6181cc735bab112c230aa0551f18a37307e5e36857e5d834888d07c)**  
-*Yahoo · 4h前*  
-Burry has replaced his common-stock shorts with put options across several AI-linked names, saying new research has convinced him to move his timelines forward.
+- **[3 S&P 500 Stocks to Target This Week](https://finnhub.io/api/news?id=78341468d52b0f706a78c44b7f129bb142879bdffd5ef4406c43f76f0dc82b62)**  
+*Yahoo · 2h前*  
+The S&P 500 (^GSPC) is full of established businesses, but only some continue to outperform the market. A few standout companies are thriving thanks to strong f…
 
 ---
 
@@ -59,4 +59,4 @@ Burry has replaced his common-stock shorts with put options across several AI-li
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
