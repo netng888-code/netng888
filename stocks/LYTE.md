@@ -1,6 +1,6 @@
 # LYTE — Roundhill Photonics & Optics ETF
 
-> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$25.44** |
-| 今日變動 | ▲ $0.09　(+0.35%) |
+| 現價 | **$23.82** |
+| 今日變動 | ▼ $1.62　(-6.37%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $25.000 |
-| 未實現盈虧 | ▲ $13　(▲1.8%) |
+| 未實現盈虧 | ▼ $35　(▼4.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $23.87 | — |
-| Put Wall（支撐） | $23.00 | -9.6% |
-| Call Wall（阻力） | $30.00 | +17.9% |
+| Gamma Flip | $23.80 | — |
+| Put Wall（支撐） | $23.00 | -3.4% |
+| Call Wall（阻力） | $30.00 | +25.9% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,9 +30,7 @@
 
 ## 📰 最新新聞
 
-- **[LAZR: The Right Supply Chain, The Wrong Top Two](https://finnhub.io/api/news?id=ca848c434bb050c42b9d919334815f3d04995bb138741a1fbfa6131870d03476)**  
-*SeekingAlpha · 3d前*  
-LAZR ETF's photonics/AI infrastructure theme is strong, but high LITE valuation and risky Anthropic stake add beta. Learn more on LAZR here.
+- 暫無新聞
 
 ---
 
@@ -40,7 +38,7 @@ LAZR ETF's photonics/AI infrastructure theme is strong, but high LITE valuation 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-28 | 監控 | $25.44 | — | 自動更新 |
+| 2026-09-29 | 監控 | $23.82 | — | 自動更新 |
 
 ---
 
@@ -51,4 +49,4 @@ LAZR ETF's photonics/AI infrastructure theme is strong, but high LITE valuation 
 - [TradingView](https://www.tradingview.com/chart/?symbol=LYTE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 09:04 HKT*
