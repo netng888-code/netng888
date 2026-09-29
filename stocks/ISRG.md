@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-09-29 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Gilead vs. Intuitive Surgical: Which Healthcare Stock Offers the Better Risk-Adjusted Upside?](https://finnhub.io/api/news?id=c1a29e6923dd60319cf3d8cf5214d780ef3c4e0ca7128a19e93e684c9184dcf8)**  
-*Yahoo · 5h前*  
+*Yahoo · 17h前*  
 At first glance, Gilead Sciences, Inc. (NASDAQ:GILD) and Intuitive Surgical, Inc. (NASDAQ:ISRG) don’t make for the most obvious comparison. One sells medicines …
 
 - **[Stay informed with the top movers within the S&P500 index on Monday.](https://finnhub.io/api/news?id=c12fd4505fe17fdad5ac70e1ca08de2c446637afd094d810b99c6d6f5a82993e)**  
-*ChartMill · 5h前*  
+*ChartMill · 17h前*  
 Curious about the S&P500 stocks that are in motion on Monday? Join us as we explore the top movers within the S&P500 index during today's session.
 
 - **[Which S&P500 stocks are moving on Monday?](https://finnhub.io/api/news?id=9ff638211af9695af811e0b0c8a54eeb199d3613c1b0baba17d91732994a3931)**  
-*ChartMill · 8h前*  
+*ChartMill · 20h前*  
 Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Monday.
 
 ---
@@ -59,4 +59,4 @@ Wondering what's happening in today's session for the S&P500 index? Stay informe
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
