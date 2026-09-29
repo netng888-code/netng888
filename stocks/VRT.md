@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$253.28** |
-| 今日變動 | ▲ $7.98　(+3.25%) |
+| 現價 | **$244.04** |
+| 今日變動 | ▼ $9.24　(-3.65%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $101　(▼16.6%) |
+| 未實現盈虧 | ▼ $119　(▼19.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $254.55 | — |
-| Put Wall（支撐） | $220.00 | -13.1% |
-| Call Wall（阻力） | $260.00 | +2.7% |
+| Gamma Flip | $254.45 | — |
+| Put Wall（支撐） | $220.00 | -9.9% |
+| Call Wall（阻力） | $260.00 | +6.5% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Datalec Strengthens its Liquid Cooling Capabilities with the Appointment of Dominik Dziarczykowski](https://finnhub.io/api/news?id=1ec3ed18952b40fdd8d0cd5cde6eaa1137c6219482a141516f261db75116a83b)**  
-*Yahoo · 5h前*  
-LONDON, Sept. 28, 2026 (GLOBE NEWSWIRE) -- Datalec Precision Installations (DPI), a global provider of integrated data centre delivery solutions, has appointed …
+- **[Why Vertiv Holdings Co. (VRT) Dipped More Than Broader Market Today](https://finnhub.io/api/news?id=4d45fbcddcb5c46728f39ad856f68fc250a9546e190ce04e7782378ef668be3e)**  
+*Yahoo · 4h前*  
+Vertiv Holdings Co. (VRT) closed at $243.85 in the latest trading session, marking a -3.72% move from the prior day.
 
-- **[Western Digital Stock Is Just One Of 3 Top AI Infrastructure Picks](https://finnhub.io/api/news?id=f5d6945d425e3576b7960a0f138dc09eef9ce0de81de3624fdeff265d2d864bb)**  
-*Yahoo · 11h前*  
-The AI boom is now reshaping bond markets, with long term yields hitting levels last seen in the mid 2000s as heavy spending on AI infrastructure meets higher i…
+- **[Vertiv (VRT) vs. Eaton (ETN): Which AI Power Stock Is the Better Buy?](https://finnhub.io/api/news?id=5fe0eda31d02523c09981422a4eede4147e646310af777f7ecd0c657651325c9)**  
+*Yahoo · 4h前*  
+As data centers become larger and more power-hungry, companies need far more than servers and chips. They need equipment to deliver electricity, manage heat, an…
 
-- **[Earn 10-15% Potential Income: Monthly Options Series (Oct. 2026)](https://finnhub.io/api/news?id=7c1a0aeb6277c151d4fccec96b9399cf1676fb428cb2d9bf97e8b20a119ac724)**  
-*SeekingAlpha · 1d前*  
-Build a disciplined options income strategy targeting 12â15% annually. Read the full analysis here.
+- **[9 Green Days In A Row: nVent Electric Stock Is Up 12%](https://finnhub.io/api/news?id=b38b72235bb93957ab2986d6e39783ef2700f84f7c58d5c21a1bfaaf6b059298)**  
+*Yahoo · 7h前*  
+A nine-day run has pushed the stock higher, raising new questions about whether the price now reflects the underlying business.
 
 ---
 
@@ -48,7 +48,7 @@ Build a disciplined options income strategy targeting 12â15% annually. Read
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-28 | 監控 | $253.28 | — | 自動更新 |
+| 2026-09-29 | 監控 | $244.04 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Build a disciplined options income strategy targeting 12â15% annually. Read
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 09:04 HKT*
