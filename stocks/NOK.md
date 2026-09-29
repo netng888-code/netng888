@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Nokia improves network performance and efficiency for Zain KSA across Saudi Arabia](https://finnhub.io/api/news?id=6e094d64bec6354185ebd0433b13d39eeb56bb370e190f2099c6c8b456d37f9f)**  
+*Yahoo · 6h前*  
+Press ReleaseNokia improves network performance and efficiency for Zain KSA across Saudi Arabia Deployment delivers real-time, application-level visibility acro…
+
 - **[Nokia (NOK) and Microsoft (MSFT) are Expanding Their AI Reach. Can the Opportunity Translate into Returns?](https://finnhub.io/api/news?id=823d2cb633c72b4aa7ab46a742fed029861318ac48ba81ea2cc883c18ca8b290)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 It was reported on September 17 that Nokia Oyj (NYSE:NOK) is extending its partnership with Microsoft Corporation (NASDAQ:MSFT) to build an agentic, unified dat…
 
 - **[Nokia (NOK) is Getting More Exposure to AI Spending. Is the Opportunity Bigger than it Looks?](https://finnhub.io/api/news?id=05fec5e7d52d30edfdde74300362088e5171ccb01da84e56d879646a670033c0)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 On September 9, Shares of Nokia Oyj (NYSE:NOK) rose 3% to $10.98 following Google’s announcement of a €13 billion investment to expand its AI infrastructure and…
-
-- **[European Equities Traded in the US as American Depositary Receipts Start Week Slightly Lower in Monday Trading](https://finnhub.io/api/news?id=5ea586445c9ebe23beb33679cade2b210fb444cbc85eb9cdf110ac8ec3f67d0c)**  
-*Yahoo · 9h前*  
-European equities traded in the US as American depositary receipts opened the week tracking slightly
 
 ---
 
@@ -59,4 +59,4 @@ European equities traded in the US as American depositary receipts opened the we
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
