@@ -70,6 +70,18 @@
       4. 頁面title/H1由「開盤前監測」改做「最新息率監測」，並將
          連去呢頁嘅按鈕（gex_chart_v5_terminal.html／index.html
          嘅快速連結bar）由「開盤前監測」同步改名做「最新息率」。
+  v5（2026-09-28）：回應用戶要求，喺「美日息差比較」section頂部新增
+      「美債／日債現時曲線重疊圖」——用戶反映美債圖同日債圖分開兩個
+      獨立chart，要嚟回望對比先睇到邊個年期息差大，唔夠直觀。新增
+      renderYieldOverlayChart()：將兩地現時（唔包1個月前/1年前，
+      保持圖表簡潔）曲線畫喺同一個%座標軸、共同年期（1Y/2Y/3Y/5Y/
+      7Y/10Y/20Y/30Y，同美日息差table用緊同一份US_JP_COMMON_TENORS
+      清單），兩線之間嘅垂直距離就係息差，用Chart.js嘅fill:'-1'
+      加咗陰影帶做視覺強化；hover任一年期，tooltip額外顯示嗰個位嘅
+      精確bp息差（唔使再睇低面張table先知道實際數值）。喺
+      maybeRenderSpread()（兩地snapshot都攞到先計算嗰個function）
+      尾段call render，同表格/headline stat共用返同一個「等待兩地
+      數據」離線判斷，唔會半桶水噉顯示得一邊。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-Hant"><head>
@@ -255,9 +267,12 @@
         <div class="yc-pill"><span class="yc-dot" id="yc-spread-dot"></span><span id="yc-spread-status-text">等待兩地數據...</span></div>
       </div>
     </div>
+    <div class="yc-box">
+      <div class="yc-chart-area" id="yc-overlay-chart-area"><canvas id="yc-overlay-canvas"></canvas></div>
+    </div>
     <div class="yc-stats" id="yc-spread-headline"></div>
     <div class="yc-box" id="yc-spread-table-wrap"></div>
-    <div class="yc-note">息差 = 美國孳息 − 日本孳息，數值以基點(bp)顯示；正數代表美息高過日息（一般伴隨USDJPY偏強嘅套息誘因）。就住兩地CSV都有出現嘅年期先計得到：1Y/2Y/3Y/5Y/7Y/10Y/20Y/30Y。</div>
+    <div class="yc-note">息差 = 美國孳息 − 日本孳息，數值以基點(bp)顯示；正數代表美息高過日息（一般伴隨USDJPY偏強嘅套息誘因）。就住兩地CSV都有出現嘅年期先計得到：1Y/2Y/3Y/5Y/7Y/10Y/20Y/30Y。上面圖表將美債／日債現時曲線重疊喺同一個座標軸（同屬百分比%，直接對比），兩線之間嘅垂直距離就係息差，hover個位仲會即時顯示bp數值；陰影帶為美息高於日息嘅範圍。</div>
   </div>
 
   <div class="grid">
@@ -345,7 +360,7 @@ const YC_TENOR_LABELS = ['1M','3M','6M','1Y','2Y','3Y','5Y','7Y','10Y','20Y','30
 const YC_JP_TENOR_LABELS = ['1Y','2Y','3Y','4Y','5Y','6Y','7Y','8Y','9Y','10Y','15Y','20Y','25Y','30Y','40Y'];
 // 美日兩地CSV都有出現嘅共同年期（v4新增，美日息差比較用）
 const US_JP_COMMON_TENORS = ['1Y','2Y','3Y','5Y','7Y','10Y','20Y','30Y'];
-let ycChart = null, ycJpChart = null;
+let ycChart = null, ycJpChart = null, ycOverlayChart = null;
 let lastUsYc = null, lastJpYc = null;  // v4新增：兩份最新snapshot都存低，等兩邊都攞到先計得到美日息差
 
 function ycFmtDate(iso) {
@@ -516,6 +531,9 @@ function maybeRenderSpread() {
     document.getElementById('yc-spread-headline').innerHTML = '';
     document.getElementById('yc-spread-table-wrap').innerHTML =
       `<div class="yc-offline">🔌 ${!lastUsYc ? '美債' : '日本JGB'}孳息曲線暫未連接，兩邊都攞到數據先計得到美日息差</div>`;
+    const overlayArea = document.getElementById('yc-overlay-chart-area');
+    if (overlayArea) overlayArea.innerHTML = `<div class="yc-offline">🔌 ${!lastUsYc ? '美債' : '日本JGB'}孳息曲線暫未連接，兩邊都攞到數據先畫得到重疊圖</div>`;
+    if (ycOverlayChart) { ycOverlayChart.destroy(); ycOverlayChart = null; }
     if (dot) dot.className = 'yc-dot';
     if (label) label.textContent = '等待兩地數據...';
     return;
@@ -550,6 +568,60 @@ function maybeRenderSpread() {
   });
   html += '</tbody></table>';
   document.getElementById('yc-spread-table-wrap').innerHTML = html;
+
+  renderYieldOverlayChart();
+}
+
+// ─── 美債／日債現時曲線重疊圖（v5新增）── 兩條線畫喺同一個%座標軸，
+// 垂直距離就係息差，直接對比一眼睇晒，唔使睇落面張bp table先知道邊
+// 個年期差幾多。fill:'-1'畫出兩線之間嘅陰影帶（代表美息高於日息嘅
+// 幅度）；只用共同年期（US_JP_COMMON_TENORS），兩地都必然有數，
+// 唔會出現一邊有值一邊冇嘅缺口。
+function renderYieldOverlayChart() {
+  const area = document.getElementById('yc-overlay-chart-area');
+  if (!document.getElementById('yc-overlay-canvas')) {
+    area.innerHTML = '<canvas id="yc-overlay-canvas"></canvas>';
+  }
+  const ctx = document.getElementById('yc-overlay-canvas').getContext('2d');
+  const usVals = US_JP_COMMON_TENORS.map(t => (lastUsYc.current && lastUsYc.current.rates) ? (lastUsYc.current.rates[t] ?? null) : null);
+  const jpVals = US_JP_COMMON_TENORS.map(t => (lastJpYc.current && lastJpYc.current.rates) ? (lastJpYc.current.rates[t] ?? null) : null);
+
+  if (ycOverlayChart) { ycOverlayChart.destroy(); ycOverlayChart = null; }
+  ycOverlayChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: US_JP_COMMON_TENORS,
+      datasets: [
+        { label: `🇺🇸 美國 (${ycFmtDate(lastUsYc.current?.date)})`, data: usVals, borderColor:'#4fd1c5', backgroundColor:'rgba(79,209,197,.10)', borderWidth:2.5, pointRadius:3, tension:.2, fill:false },
+        { label: `🇯🇵 日本 (${ycFmtDate(lastJpYc.current?.date)})`, data: jpVals, borderColor:'#e04fbb', backgroundColor:'rgba(245,166,35,.10)', borderWidth:2.5, pointRadius:3, tension:.2, fill:'-1' },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { labels: { color:'#d7dee8', font:{size:11,family:"'IBM Plex Mono',monospace"} } },
+        tooltip: {
+          backgroundColor:'#131a26', borderColor:'#232c3d', borderWidth:1,
+          titleColor:'#d7dee8', bodyColor:'#d7dee8',
+          callbacks: {
+            label: c => `${c.dataset.label}: ${c.parsed.y!=null ? c.parsed.y.toFixed(3)+'%' : '—'}`,
+            afterBody: items => {
+              const u = items.find(i => i.datasetIndex === 0);
+              const j = items.find(i => i.datasetIndex === 1);
+              if (!u || !j || u.parsed.y == null || j.parsed.y == null) return '';
+              const bp = Math.round((u.parsed.y - j.parsed.y) * 100);
+              return `息差: ${bp >= 0 ? '+' : ''}${bp}bp`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: { ticks:{color:'#7c8aa0',font:{size:11}}, grid:{color:'#1a2233'} },
+        y: { ticks:{color:'#7c8aa0',font:{size:11},callback:v=>v.toFixed(1)+'%'}, grid:{color:'#1a2233'} }
+      }
+    }
+  });
 }
 
 function renderYieldCurve(d) {

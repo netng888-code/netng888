@@ -579,13 +579,51 @@
         hover／total-row四種狀態分別設定實色背景（tbody用linear-
         gradient將半透明row背景「烘焙」做實色composite），避免
         sticky個cell同隔籬欄斷色或者露出底下捲動緊嘅內容。
+  v5.30（2026-09-28）：兩項改動，回應用戶兩個要求：
+    1. OptionCharts外鏈掣——用戶認為optioncharts.io嘅Market Trends menu
+       對GEX/Gamma分析有用（補返你而家未做嘅IV Rank、異常期權成交、
+       Options Flow、Historical Data、DEX、IV Skew）。純外鏈，唔scrape、
+       唔需要登入：(a) 快速連結bar新增4個掣：OptionCharts首頁／🔥異常
+       成交／📈高IV Rank／🌊Options Flow（URL已用公開頁核實）；(b) 每隻
+       持倉喺「持倉總覽」操作欄同「GEX + K線」快速掣旁邊加「OC」，去
+       optioncharts.io/options/{代號}；(c)「GEX + K線」搜尋列加「🔗
+       OptionCharts」掣，跟返當前查詢嘅symbol（包括Watchlist／手動輸入
+       嘅非持倉股票）。注意：OptionCharts免費版有「limited results」限制，
+       完整數據要付費；佢嘅GEX係「每1%價格變動」單位，同bridge嘅
+       gamma×OI×mult×spot絕對數值唔可直接比，只比Wall位置同正負Gamma。
+    2. 三套主題：🌞白天（v5.26起嘅白底，預設）／🌙黑夜（v5.25或之前嘅
+       原黑底配色）／☁️陰天（中灰藍，同premarket-rates-monitor.html
+       陰天主題同一風格），header右上角三個掣，揀咗會存落localStorage
+       （key: gex-theme），下次開頁自動沿用；<head>有early script喺
+       render前set好data-theme，避免閃色。實作：CSS全部用變量，三套
+       主題各自定義（新增--accent／--pink／--magenta／--hover／
+       --neu-bg／--shadow-edge／--grid／--badge-ink）；CSS/HTML入面
+       所有literal色碼（#0f172a→var(--white)等）改用變量；Chart.js
+       同Lightweight Charts喺canvas畫、唔識讀CSS var()，改用cssVar()
+       讀返當前主題色值，切換主題時：GEX by Strike圖重畫、K線圖
+       applyOptions更新（MA/MACD/RSI/布林線外嘅grid/文字/上落色/RSI
+       參考線/GEX橫線）、資金流向圖用返最後一份data重畫。
+       順手修正兩個舊issue：(a) --accent一直冇喺:root定義（v5.26前
+       已存在），令active tab/按鈕hover色fallback失效，而家三套主題
+       都有定義；(b) GEX by Strike圖上Spot/Flip等badge文字舊版寫死
+       深色，喺白底深色badge上睇唔到（例如Spot=#0f172a深黑badge配
+       #0a0c10字），改用--badge-ink（白/黑主題自動反轉）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.29)</title>
+<title>GEX Chart — Futu Bridge (v5.30)</title>
+<script>
+// v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
+(function(){
+  var t = 'light';
+  try { t = localStorage.getItem('gex-theme') || 'light'; } catch(e) {}
+  if (['light','dark','cloudy'].indexOf(t) < 0) t = 'light';
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -596,9 +634,47 @@
   --text:#1a2233;--muted:#64748b;
   --green:#0d9488;--red:#dc2626;--amber:#b45309;
   --blue:#2563eb;--purple:#7c3aed;--white:#0f172a;
+  --accent:#0d9488;--pink:#db2777;--magenta:#a21caf;
+  --hover:rgba(0,0,0,.04);--neu-bg:rgba(0,0,0,.05);--shadow-edge:rgba(0,0,0,.15);
+  --grid:rgba(0,0,0,.08);--badge-ink:#ffffff;
   --font-mono:'JetBrains Mono',monospace;
   --font-display:'Syne',sans-serif;
+  color-scheme:light;
 }
+/* v5.30：三套主題。light = v5.26起嘅白底；dark = v5.25或之前嘅原黑底配色；
+   cloudy = 中灰藍（同premarket-rates-monitor.html陰天主題同一風格）。
+   --white 語意：「最搶眼嘅強調字色」——light=深黑、dark=純白、cloudy=深灰藍。
+   JS（Chart.js／Lightweight Charts）唔識讀CSS var()，用cssVar()讀返呢批
+   變量，主題切換時重畫。 */
+:root[data-theme="dark"] {
+  --bg:#0a0c10;--bg2:#0f1218;--bg3:#141820;
+  --border:#1e2430;--border2:#252d3a;
+  --text:#c8d4e8;--muted:#4a5568;
+  --green:#00d4aa;--red:#ff4d6d;--amber:#f5a623;
+  --blue:#4a9eff;--purple:#a78bfa;--white:#ffffff;
+  --accent:#00d4aa;--pink:#ec4899;--magenta:#d946ef;
+  --hover:rgba(255,255,255,.04);--neu-bg:rgba(255,255,255,.06);--shadow-edge:rgba(0,0,0,.5);
+  --grid:rgba(255,255,255,.06);--badge-ink:#0a0c10;
+  color-scheme:dark;
+}
+:root[data-theme="cloudy"] {
+  --bg:#dde3ea;--bg2:#eef1f5;--bg3:#e2e7ee;
+  --border:#c6cedb;--border2:#b4bdcc;
+  --text:#2b3542;--muted:#5b6472;
+  --green:#2f8f86;--red:#b3403a;--amber:#94600f;
+  --blue:#3468b8;--purple:#6d4fc2;--white:#1b2430;
+  --accent:#2f8f86;--pink:#be2a73;--magenta:#8f1a9c;
+  --hover:rgba(0,0,0,.05);--neu-bg:rgba(0,0,0,.06);--shadow-edge:rgba(0,0,0,.2);
+  --grid:rgba(0,0,0,.09);--badge-ink:#ffffff;
+  color-scheme:light;
+}
+/* 主題掣（v5.30） */
+.theme-switch{display:flex;gap:6px;justify-content:flex-end;margin-bottom:8px;}
+.theme-btn{background:var(--bg2);border:1px solid var(--border);color:var(--muted);
+  font-family:var(--font-mono);font-size:11px;padding:5px 11px;border-radius:6px;
+  cursor:pointer;transition:all .15s;white-space:nowrap;}
+.theme-btn:hover{border-color:var(--accent);color:var(--text);}
+.theme-btn.active{border-color:var(--accent);color:var(--accent);background:var(--bg3);font-weight:700;}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-size:13px;min-height:100vh;}
 body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
@@ -610,21 +686,21 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 /* Header */
 header{display:flex;align-items:flex-end;justify-content:space-between;
   border-bottom:1px solid var(--border);padding-bottom:16px;margin-bottom:20px;}
-.h-left h1{font-family:var(--font-display);font-size:24px;font-weight:800;color:#0f172a;}
+.h-left h1{font-family:var(--font-display);font-size:24px;font-weight:800;color:var(--white);}
 .h-left .sub{font-size:10px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:3px;}
 #clock{font-size:18px;color:var(--green);letter-spacing:.05em;}
 
 /* Search bar */
 .search-bar{display:flex;gap:10px;margin-bottom:20px;align-items:center;}
 .sym-input{background:var(--bg2);border:1px solid var(--border);border-radius:6px;
-  color:#0f172a;font-family:var(--font-mono);font-size:16px;font-weight:700;
+  color:var(--white);font-family:var(--font-mono);font-size:16px;font-weight:700;
   padding:10px 16px;width:180px;letter-spacing:.1em;text-transform:uppercase;outline:none;}
 .sym-input:focus{border-color:var(--green);}
 .sym-input::placeholder{color:var(--muted);font-weight:400;text-transform:none;}
 .t1live-pill{display:flex;align-items:center;gap:10px;background:var(--bg2);border:1px solid var(--border);
   border-radius:6px;padding:8px 16px;white-space:nowrap;}
 .t1live-pill .t1l-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;line-height:1.3;}
-.t1live-pill .t1l-price{font-size:17px;font-weight:700;color:#0f172a;font-family:var(--font-display);line-height:1.3;}
+.t1live-pill .t1l-price{font-size:17px;font-weight:700;color:var(--white);font-family:var(--font-display);line-height:1.3;}
 .t1live-pill .t1l-chg{font-size:11px;font-weight:600;margin-left:2px;}
 /* 到期日數量選擇器（v5.4新增，配合bridge v2.7嘅max_expirations參數） */
 .exp-select-wrap{display:flex;align-items:center;gap:6px;background:var(--bg2);border:1px solid var(--border);
@@ -668,7 +744,7 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 .lc-label{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;}
 .lc-val{font-size:20px;font-weight:700;font-family:var(--font-display);line-height:1;}
 .lc-sub{font-size:10px;color:var(--muted);margin-top:4px;}
-.lc-val.spot-clr{color:#0f172a;}
+.lc-val.spot-clr{color:var(--white);}
 .lc-val.flip-clr{color:var(--amber);}
 .lc-val.call-clr{color:var(--green);}
 .lc-val.put-clr{color:var(--red);}
@@ -704,7 +780,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .info-table td{padding:6px 10px;border-bottom:1px solid var(--border);}
 .info-table tr:last-child td{border-bottom:none;}
 .info-table .k{color:var(--muted);width:140px;}
-.info-table .v{color:#0f172a;font-weight:500;}
+.info-table .v{color:var(--white);font-weight:500;}
 
 /* Quicklinks (Futu持倉 / Watchlist) */
 .qlinks{margin-bottom:18px;}
@@ -727,6 +803,11 @@ input[type=range]{accent-color:var(--green);width:120px;}
   background:var(--bg3);border:1px solid var(--border);border-left:none;border-radius:0 4px 4px 0;
   color:var(--muted);text-decoration:none;font-size:11px;transition:all .15s;}
 .rbtn:hover{border-color:var(--purple);color:var(--purple);}
+/* v5.30：OptionCharts外鏈（OC）——同📄並排，中間掣冇右圓角 */
+.hold-item .rbtn:not(:last-child){border-radius:0;}
+.rbtn.oc{width:30px;font-size:9px;font-weight:700;letter-spacing:.02em;}
+.rbtn.oc:hover{border-color:var(--blue);color:var(--blue);}
+.lnk.oc:hover{border-color:var(--blue);color:var(--blue);}
 
 /* Section divider / eyebrow */
 .section-eyebrow{display:flex;align-items:center;gap:10px;margin:22px 0 12px;}
@@ -858,7 +939,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .rt-ticker-item{display:flex;align-items:baseline;gap:6px;padding:0 20px;white-space:nowrap;
   font-family:var(--font-mono);font-size:12px;border-right:1px solid var(--border);}
 .rt-flag{font-size:12px;}
-.rt-code{color:#0f172a;font-weight:700;letter-spacing:.02em;}
+.rt-code{color:var(--white);font-weight:700;letter-spacing:.02em;}
 .rt-name{color:var(--muted);font-size:10.5px;}
 .rt-price{color:var(--text);font-feature-settings:'tnum';}
 .rt-chg{font-weight:600;font-size:11px;font-feature-settings:'tnum';}
@@ -909,7 +990,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .scards{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px;}
 .scard{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;}
 .sc-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;}
-.sc-val{font-size:20px;font-weight:700;font-family:var(--font-display);color:#0f172a;}
+.sc-val{font-size:20px;font-weight:700;font-family:var(--font-display);color:var(--white);}
 .sc-sub{font-size:11px;color:var(--muted);margin-top:3px;}
 
 /* 持倉總覽：控制列 + 圖例 */
@@ -933,7 +1014,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .tbl-wrap thead th:first-child,.tbl-wrap thead th:nth-child(2){text-align:left;}
 .tbl-wrap tbody tr{border-bottom:1px solid var(--border);}
 .tbl-wrap tbody tr:last-child{border-bottom:none;}
-.tbl-wrap tbody tr:hover{background:rgba(0,0,0,.04);}
+.tbl-wrap tbody tr:hover{background:var(--hover);}
 .tbl-wrap tbody tr.total-row{background:rgba(0,212,170,.04);font-weight:600;}
 .tbl-wrap td{padding:9px 12px;text-align:right;white-space:nowrap;font-feature-settings:'tnum';}
 .tbl-wrap td:first-child,.tbl-wrap td:nth-child(2){text-align:left;}
@@ -947,25 +1028,25 @@ input[type=range]{accent-color:var(--green);width:120px;}
    半透明rgba背景「烘焙」成一個唔透明嘅composite顏色），hover／
    total-row兩個狀態同樣做法，確保sticky個掣唔會同隔籬欄斷色。
    右邊加一條幼陰影同scroll緊嘅內容做視覺分隔。 */
-.tbl-wrap thead th:first-child{position:sticky;left:0;z-index:3;background:var(--bg3);box-shadow:2px 0 4px -2px rgba(0,0,0,.15);}
-.tbl-wrap tbody td:first-child{position:sticky;left:0;z-index:1;background:var(--bg2);box-shadow:2px 0 4px -2px rgba(0,0,0,.15);}
-.tbl-wrap tbody tr:hover td:first-child{background:linear-gradient(rgba(0,0,0,.04),rgba(0,0,0,.04)),var(--bg2);}
+.tbl-wrap thead th:first-child{position:sticky;left:0;z-index:3;background:var(--bg3);box-shadow:2px 0 4px -2px var(--shadow-edge);}
+.tbl-wrap tbody td:first-child{position:sticky;left:0;z-index:1;background:var(--bg2);box-shadow:2px 0 4px -2px var(--shadow-edge);}
+.tbl-wrap tbody tr:hover td:first-child{background:linear-gradient(var(--hover),var(--hover)),var(--bg2);}
 .tbl-wrap tbody tr.total-row td:first-child{background:linear-gradient(rgba(0,212,170,.04),rgba(0,212,170,.04)),var(--bg2);}
 .sym{font-weight:700;color:var(--blue);cursor:pointer;}
 .sym:hover{color:var(--accent);}
-.t1-cell{font-weight:600;color:#0f172a;}
+.t1-cell{font-weight:600;color:var(--white);}
 .chg-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;margin-left:4px;}
 .chg-badge.pos{background:rgba(0,212,170,.12);color:var(--green);}
 .chg-badge.neg{background:rgba(255,77,109,.12);color:var(--red);}
-.chg-badge.neu{background:rgba(0,0,0,.05);color:var(--muted);}
+.chg-badge.neu{background:var(--neu-bg);color:var(--muted);}
 .t2-cell,.t3-cell{color:var(--muted);}
 .cost-cell{color:var(--muted);}
-.mv-cell{color:#0f172a;font-weight:500;}
+.mv-cell{color:var(--white);font-weight:500;}
 .pnl-pos{color:var(--green);} .pnl-neg{color:var(--red);} .pnl-neu{color:var(--muted);}
 .pct-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;}
 .pct-badge.pos{background:rgba(0,212,170,.1);color:var(--green);}
 .pct-badge.neg{background:rgba(255,77,109,.1);color:var(--red);}
-.pct-badge.neu{background:rgba(0,0,0,.05);color:var(--muted);}
+.pct-badge.neu{background:var(--neu-bg);color:var(--muted);}
 .act{display:flex;gap:4px;}
 .lnk{font-size:9px;color:var(--muted);text-decoration:none;border:1px solid var(--border);border-radius:3px;
   padding:2px 5px;transition:all .15s;}
@@ -1015,6 +1096,11 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <div class="sub">Futu Bridge · 持倉總覽 + GEX + K線 + Money Flow</div>
   </div>
   <div style="text-align:right">
+    <div class="theme-switch" id="theme-switch">
+      <button class="theme-btn" data-theme="light" title="白天主題">🌞 白天</button>
+      <button class="theme-btn" data-theme="dark" title="黑夜主題">🌙 黑夜</button>
+      <button class="theme-btn" data-theme="cloudy" title="陰天主題">☁️ 陰天</button>
+    </div>
     <div id="clock">--:--:--</div>
     <div id="datep" style="font-size:10px;color:var(--muted);margin-top:2px">讀取中...</div>
   </div>
@@ -1036,6 +1122,11 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
   <a class="ql-link" href="https://finviz.com/futures" target="_blank" rel="noopener"><span class="ql-icon">📊</span>Finviz Futures</a>
   <div class="ql-divider"></div>
   <a class="ql-link" href="https://www.barchart.com" target="_blank" rel="noopener"><span class="ql-icon">📉</span>Barchart</a>
+  <div class="ql-divider"></div>
+  <a class="ql-link" href="https://optioncharts.io/" target="_blank" rel="noopener" title="OptionCharts首頁"><span class="ql-icon">🧭</span>OptionCharts</a>
+  <a class="ql-link" href="https://optioncharts.io/trending/unusual-options-activity-stock-contracts" target="_blank" rel="noopener" title="OptionCharts：異常期權成交（按合約）"><span class="ql-icon">🔥</span>異常成交</a>
+  <a class="ql-link" href="https://optioncharts.io/trending/high-iv-rank-stocks" target="_blank" rel="noopener" title="OptionCharts：高IV Rank股票"><span class="ql-icon">📈</span>高IV Rank</a>
+  <a class="ql-link" href="https://optioncharts.io/trending/options-flow-stock" target="_blank" rel="noopener" title="OptionCharts：Options Flow"><span class="ql-icon">🌊</span>Options Flow</a>
 </div>
 
 <!-- 全域狀態列（跨tab都見到） -->
@@ -1127,6 +1218,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <span class="t1l-chg" id="t1l-chg"></span>
   </div>
   <button class="btn" onclick="doSearch()">🔍 查詢 GEX</button>
+  <a class="btn btn-sec" id="oc-link" href="https://optioncharts.io/" target="_blank" rel="noopener" style="display:none;text-decoration:none" title="喺OptionCharts開返呢隻股票（GEX/DEX/IV Skew/Historical Data）">🔗 OptionCharts</a>
 </div>
 
 <!-- Quicklinks: Futu 持倉 + My Watchlist -->
@@ -1144,7 +1236,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <!-- Status -->
 <div class="status-row">
   <div class="pill"><div class="dot" id="d-br"></div><span id="t-br">Bridge: —</span></div>
-  <div class="pill" id="p-sym" style="display:none"><span id="t-sym" style="color:#0f172a;font-weight:700">—</span></div>
+  <div class="pill" id="p-sym" style="display:none"><span id="t-sym" style="color:var(--white);font-weight:700">—</span></div>
   <div class="pill" id="p-exp" style="display:none"><span id="t-exp">—</span></div>
   <div class="pill" id="p-ts"  style="display:none"><span id="t-ts">—</span></div>
   <div class="pill" id="p-mf"  style="display:none"><div class="dot" id="d-mf"></div><span id="t-mf">Money Flow: —</span></div>
@@ -1290,16 +1382,16 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
   </div>
   <div class="pc-chart-container" id="pc-chart-container"></div>
   <div class="pc-legend">
-    <span><span class="sw" style="background:#b45309"></span>MA9</span>
-    <span><span class="sw" style="background:#2563eb"></span>MA20</span>
-    <span><span class="sw" style="background:#7c3aed"></span>MA60</span>
-    <span><span class="sw" style="background:#5b6472;border-top:1px dashed #5b6472;height:0"></span>布林線(20,2σ)</span>
+    <span><span class="sw" style="background:var(--amber)"></span>MA9</span>
+    <span><span class="sw" style="background:var(--blue)"></span>MA20</span>
+    <span><span class="sw" style="background:var(--purple)"></span>MA60</span>
+    <span><span class="sw" style="background:var(--muted);border-top:1px dashed var(--muted);height:0"></span>布林線(20,2σ)</span>
     <span><span class="sw" style="background:rgba(0,212,170,0.5)"></span>成交量 <span style="color:var(--border2)">· 貼pane底部</span></span>
-    <span><span class="sw" style="background:#a21caf"></span>RSI(14) <span style="color:var(--border2)">· 獨立pane，30/70參考線</span></span>
-    <span><span class="sw" style="background:#0f172a;border-top:2px dashed #0f172a;height:0"></span>Gamma Flip</span>
-    <span><span class="sw" style="background:#0d9488;border-top:2px dashed #0d9488;height:0"></span>Call Wall</span>
-    <span><span class="sw" style="background:#dc2626;border-top:2px dashed #dc2626;height:0"></span>Put Wall</span>
-    <span><span class="sw" style="background:#db2777;border-top:2px dashed #db2777;height:0"></span>Max Pain</span>
+    <span><span class="sw" style="background:var(--magenta)"></span>RSI(14) <span style="color:var(--border2)">· 獨立pane，30/70參考線</span></span>
+    <span><span class="sw" style="background:var(--white);border-top:2px dashed var(--white);height:0"></span>Gamma Flip</span>
+    <span><span class="sw" style="background:var(--green);border-top:2px dashed var(--green);height:0"></span>Call Wall</span>
+    <span><span class="sw" style="background:var(--red);border-top:2px dashed var(--red);height:0"></span>Put Wall</span>
+    <span><span class="sw" style="background:var(--pink);border-top:2px dashed var(--pink);height:0"></span>Max Pain</span>
   </div>
 </div>
 
@@ -1317,12 +1409,12 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <canvas id="gex-chart"></canvas>
   </div>
   <div class="chart-legend">
-    <div class="leg-item"><div class="leg-swatch" style="background:#0d9488"></div>正GEX（Call主導，Dealer Long Gamma）</div>
-    <div class="leg-item"><div class="leg-swatch" style="background:#dc2626"></div>負GEX（Put主導，Dealer Short Gamma）</div>
-    <div class="leg-item"><div class="leg-line" style="border-color:#0f172a"></div>現價 Spot</div>
-    <div class="leg-item"><div class="leg-line" style="border-color:#b45309"></div>Gamma Flip</div>
-    <div class="leg-item"><div class="leg-line" style="border-color:#0d9488"></div>Call Wall</div>
-    <div class="leg-item"><div class="leg-line" style="border-color:#dc2626"></div>Put Wall</div>
+    <div class="leg-item"><div class="leg-swatch" style="background:var(--green)"></div>正GEX（Call主導，Dealer Long Gamma）</div>
+    <div class="leg-item"><div class="leg-swatch" style="background:var(--red)"></div>負GEX（Put主導，Dealer Short Gamma）</div>
+    <div class="leg-item"><div class="leg-line" style="border-color:var(--white)"></div>現價 Spot</div>
+    <div class="leg-item"><div class="leg-line" style="border-color:var(--amber)"></div>Gamma Flip</div>
+    <div class="leg-item"><div class="leg-line" style="border-color:var(--green)"></div>Call Wall</div>
+    <div class="leg-item"><div class="leg-line" style="border-color:var(--red)"></div>Put Wall</div>
   </div>
 </div>
 
@@ -1418,6 +1510,28 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 
 <script>
 const BRIDGE = 'http://127.0.0.1:8888';
+
+// ── 主題系統（v5.30）───────────────────────────────────────────
+// CSS用變量切換三套主題（見<style>入面 :root[data-theme=...]）；Chart.js／
+// Lightweight Charts喺canvas度畫，唔識讀CSS var()，所以用cssVar()讀返
+// 當前主題嘅實際色值，主題切換時重畫/applyOptions。
+function cssVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+const THEMES = ['light', 'dark', 'cloudy'];
+function applyTheme(t, persist) {
+  if (THEMES.indexOf(t) < 0) t = 'light';
+  document.documentElement.setAttribute('data-theme', t);
+  if (persist) { try { localStorage.setItem('gex-theme', t); } catch (e) {} }
+  document.querySelectorAll('.theme-btn').forEach(b => b.classList.toggle('active', b.dataset.theme === t));
+  applyPriceChartTheme();
+  const cw = document.getElementById('chart-wrap');
+  if (typeof lastData !== 'undefined' && lastData && lastData.d && cw && cw.style.display !== 'none') {
+    const {d, liveQuote} = lastData;
+    drawChart(d, (liveQuote && liveQuote.T1) || d.spot, d.flip, d.call_wall, d.put_wall);
+  }
+  if (lastCapFlowData && document.getElementById('capflow-canvas')) renderCapFlowChart(lastCapFlowData);
+}
 
 // v5.16新增：突破/跌穿Call/Put Wall嘅「有效性緩衝區」——用戶反映
 // 現價僅高過Call Wall 0.1%就被畫面判定做「已突破」，並連帶令AI
@@ -1560,6 +1674,8 @@ let pcBbUpper, pcBbMiddle, pcBbLower, pcRsi;           // v5.4：布林線 + RSI
 let pcVolume;                                           // v5.10：成交量
 let pcBbVisible = true, pcRsiVisible = true;            // v5.4：切換掣狀態
 let pcPriceLines = [];
+let pcRsiLines = [];        // v5.30：RSI 70/30參考線，主題切換時要重畫
+let lastCapFlowData = null; // v5.30：資金流向圖，主題切換時要用返最後一份data重畫
 let pcPeriod = 'D';
 let pcInited = false;
 
@@ -1591,7 +1707,7 @@ function buildQuicklinks() {
   const watchRow = document.getElementById('qlinks-watchlist');
   // v5.23：每個持倉button右側加埋「📄」小按鈕，新tab跳去secreport.html
   // 睇嗰隻股嘅SEC最近5季財報分析（需secreport.html擺喺同一repo）
-  holdRow.innerHTML = HOLDINGS.map(s=>`<span class="hold-item"><button class="qbtn2" data-sym="${s}" onclick="quickSearch('${s}')">${s}</button><a class="rbtn" href="secreport.html?sym=${s}" target="_blank" rel="noopener" title="${s} SEC財報分析">📄</a></span>`).join('');
+  holdRow.innerHTML = HOLDINGS.map(s=>`<span class="hold-item"><button class="qbtn2" data-sym="${s}" onclick="quickSearch('${s}')">${s}</button><a class="rbtn" href="secreport.html?sym=${s}" target="_blank" rel="noopener" title="${s} SEC財報分析">📄</a><a class="rbtn oc" href="https://optioncharts.io/options/${s}" target="_blank" rel="noopener" title="${s} OptionCharts">OC</a></span>`).join('');
   watchRow.innerHTML = WATCHLIST.map(s=>`<button class="qbtn2" data-sym="${s}" onclick="quickSearch('${s}')">${s}</button>`).join('');
 }
 function highlightActiveQlink(sym) {
@@ -1764,6 +1880,14 @@ async function resetConnection() {
 document.getElementById('sym-input').addEventListener('keydown', e => {
   if (e.key==='Enter') doSearch();
 });
+// v5.30：搜尋列嘅「🔗 OptionCharts」掣，跟返當前查詢緊嘅symbol
+function updateOcLink(sym) {
+  const a = document.getElementById('oc-link');
+  if (!a) return;
+  a.href = 'https://optioncharts.io/options/' + encodeURIComponent(sym);
+  a.title = `喺OptionCharts開返 ${sym}（GEX/DEX/IV Skew/Historical Data）`;
+  a.style.display = '';
+}
 function quickSearch(sym) {
   document.getElementById('sym-input').value = sym;
   doSearch();
@@ -1777,7 +1901,7 @@ function doSearch() {
 // ── Helpers ───────────────────────────────────────────────────
 const f2  = v => v==null?'N/A':Number(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
 const fp  = v => v==null?'':((v>=0?'+':'')+v.toFixed(2)+'%');
-const cls = v => v==null?'#64748b':v>0?'#0d9488':v<0?'#dc2626':'#64748b';
+const cls = v => v==null?'var(--muted)':v>0?'var(--green)':v<0?'var(--red)':'var(--muted)';
 
 // ── 持倉總覽tab專用formatter（移植自futu.html，改名避免同上面
 // gex tab嘅f2/fp/cls撞名——兩邊用途完全唔同：呢度cls()返嘅係
@@ -2012,6 +2136,7 @@ function renderUS(rows) {
         <a class="lnk" href="https://finviz.com/quote.ashx?t=${sym}" target="_blank">FV</a>
         <a class="lnk" href="https://www.barchart.com/stocks/quotes/${sym}/gamma-exposure" target="_blank">GE</a>
         <a class="lnk" href="secreport.html?sym=${sym}" target="_blank" rel="noopener" title="${sym} SEC財報分析">📄</a>
+        <a class="lnk oc" href="https://optioncharts.io/options/${sym}" target="_blank" rel="noopener" title="${sym} OptionCharts">OC</a>
       </div></td>
     </tr>`;
   }
@@ -2225,7 +2350,7 @@ function renderMoneyFlow(mf) {
   const ob = mf.order_book || {};
   const imb = ob.imbalance; // -1 ~ +1
   document.getElementById('mf-book-val').textContent = imb!=null ? `${(imb*100>=0?'+':'')}${(imb*100).toFixed(1)}%` : '無數據';
-  document.getElementById('mf-book-val').style.color = imb==null?'#64748b':imb>0?'var(--green)':imb<0?'var(--red)':'#64748b';
+  document.getElementById('mf-book-val').style.color = imb==null?'var(--muted)':imb>0?'var(--green)':imb<0?'var(--red)':'var(--muted)';
   document.getElementById('mf-book-sub').textContent = imb!=null
     ? `Bid量 ${ob.bid_total?.toLocaleString()||'—'} vs Ask量 ${ob.ask_total?.toLocaleString()||'—'}（${imb>0?'買盤較厚':imb<0?'賣盤較厚':'均衡'}）` : '—';
   document.getElementById('mf-book-bar').style.width = imb!=null ? `${50+imb*50}%` : '50%';
@@ -2235,7 +2360,7 @@ function renderMoneyFlow(mf) {
   const td = mf.tick_delta || {};
   const delta = td.tick_delta;
   document.getElementById('mf-tick-val').textContent = delta!=null ? `${delta>=0?'+':''}${delta.toLocaleString()}股` : '無數據';
-  document.getElementById('mf-tick-val').style.color = delta==null?'#64748b':delta>0?'var(--green)':delta<0?'var(--red)':'#64748b';
+  document.getElementById('mf-tick-val').style.color = delta==null?'var(--muted)':delta>0?'var(--green)':delta<0?'var(--red)':'var(--muted)';
   document.getElementById('mf-tick-sub').textContent = delta!=null
     ? `主動買${td.buy_vol?.toLocaleString()||0} / 主動賣${td.sell_vol?.toLocaleString()||0}（${td.window_min||5}分鐘窗）` : '—';
   const tickTotal = (td.buy_vol||0)+(td.sell_vol||0);
@@ -2249,10 +2374,10 @@ function initPriceChart() {
 
   const container = document.getElementById('pc-chart-container');
   pcChart = LightweightCharts.createChart(container, {
-    layout: { background:{type:'solid', color:'transparent'}, textColor:'#1a2233', panes:{separatorColor:'#e3e6ec'} },
-    grid: { vertLines:{color:'#eef0f4'}, horzLines:{color:'#eef0f4'} },
-    timeScale: { timeVisible:true, borderColor:'#e3e6ec' },
-    rightPriceScale: { borderColor:'#e3e6ec' },
+    layout: { background:{type:'solid', color:'transparent'}, textColor:cssVar('--text'), panes:{separatorColor:cssVar('--border')} },
+    grid: { vertLines:{color:cssVar('--grid')}, horzLines:{color:cssVar('--grid')} },
+    timeScale: { timeVisible:true, borderColor:cssVar('--border') },
+    rightPriceScale: { borderColor:cssVar('--border') },
     crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
   });
   new ResizeObserver(entries => {
@@ -2260,17 +2385,17 @@ function initPriceChart() {
   }).observe(container);
 
   pcCandle = pcChart.addSeries(LightweightCharts.CandlestickSeries, {
-    upColor:'#0d9488', downColor:'#dc2626', borderVisible:false,
-    wickUpColor:'#0d9488', wickDownColor:'#dc2626',
+    upColor:cssVar('--green'), downColor:cssVar('--red'), borderVisible:false,
+    wickUpColor:cssVar('--green'), wickDownColor:cssVar('--red'),
     // 現價已經有「T1 Live 股價」搜尋列badge + 上面Spot卡顯示，呢度熄咗
     // 原生「最後收市價」標籤——佢之前成日同Put Wall/Gamma Flip標籤
     // 疊埋一齊（例如附圖$123.99同Put Wall$125.00幾乎貼晒），係文字
     // 堆疊問題其中一個主因
     lastValueVisible:false,
   }, 0);
-  pcMa9  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#b45309', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
-  pcMa20 = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#2563eb', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
-  pcMa60 = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#7c3aed', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcMa9  = pcChart.addSeries(LightweightCharts.LineSeries, {color:cssVar('--amber'), lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcMa20 = pcChart.addSeries(LightweightCharts.LineSeries, {color:cssVar('--blue'), lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
+  pcMa60 = pcChart.addSeries(LightweightCharts.LineSeries, {color:cssVar('--purple'), lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 0);
 
   // 成交量（v5.10新增，同K線疊喺同一個pane 0，但用自己嘅price scale
   // 擠喺底部18%，唔會撞到K線/MA/布林線嘅價位軸）——bridge嘅/api/kline
@@ -2289,14 +2414,16 @@ function initPriceChart() {
   pcBbLower  = pcChart.addSeries(LightweightCharts.LineSeries, {color:'rgba(91,100,114,0.75)', lineWidth:1, lineStyle:LightweightCharts.LineStyle.Dashed, priceLineVisible:false, lastValueVisible:false}, 0);
 
   pcMacdHist   = pcChart.addSeries(LightweightCharts.HistogramSeries, {priceFormat:{type:'volume'}}, 1);
-  pcMacdLine   = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#2563eb', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 1);
-  pcMacdSignal = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#b45309', lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 1);
+  pcMacdLine   = pcChart.addSeries(LightweightCharts.LineSeries, {color:cssVar('--blue'), lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 1);
+  pcMacdSignal = pcChart.addSeries(LightweightCharts.LineSeries, {color:cssVar('--amber'), lineWidth:1, priceLineVisible:false, lastValueVisible:false}, 1);
 
   // RSI（v5.4新增，獨立第3個pane）：30/70係靜態參考線（固定價位，唔隨
   // 數據變，一次過創建就得，唔使每次renderPriceChart都重新畫）
-  pcRsi = pcChart.addSeries(LightweightCharts.LineSeries, {color:'#a21caf', lineWidth:1.5, priceLineVisible:false, lastValueVisible:true}, 2);
-  pcRsi.createPriceLine({price:70, color:'#b45309', lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超買70'});
-  pcRsi.createPriceLine({price:30, color:'#b45309', lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超賣30'});
+  pcRsi = pcChart.addSeries(LightweightCharts.LineSeries, {color:cssVar('--magenta'), lineWidth:1.5, priceLineVisible:false, lastValueVisible:true}, 2);
+  pcRsiLines = [
+    pcRsi.createPriceLine({price:70, color:cssVar('--amber'), lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超買70'}),
+    pcRsi.createPriceLine({price:30, color:cssVar('--amber'), lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超賣30'}),
+  ];
 
   // 3個pane各自高度：K線主圖最大，MACD/RSI細啲（v5.4，容器由480→640px，
   // 加返RSI呢個新pane後三者仍然睇得清，唔會迫埋一齊）
@@ -2325,6 +2452,33 @@ function initPriceChart() {
     this.classList.toggle('on', pcRsiVisible);
     pcRsi.applyOptions({visible: pcRsiVisible});
   });
+}
+
+// ── 主題切換時更新K線圖顏色（v5.30）────────────────────────────
+function applyPriceChartTheme() {
+  if (!pcInited || !pcChart) return;
+  pcChart.applyOptions({
+    layout: { textColor: cssVar('--text'), panes: { separatorColor: cssVar('--border') } },
+    grid: { vertLines: {color: cssVar('--grid')}, horzLines: {color: cssVar('--grid')} },
+    timeScale: { borderColor: cssVar('--border') },
+    rightPriceScale: { borderColor: cssVar('--border') },
+  });
+  pcCandle.applyOptions({
+    upColor: cssVar('--green'), downColor: cssVar('--red'),
+    wickUpColor: cssVar('--green'), wickDownColor: cssVar('--red'),
+  });
+  pcMa9.applyOptions({color: cssVar('--amber')});
+  pcMa20.applyOptions({color: cssVar('--blue')});
+  pcMa60.applyOptions({color: cssVar('--purple')});
+  pcMacdLine.applyOptions({color: cssVar('--blue')});
+  pcMacdSignal.applyOptions({color: cssVar('--amber')});
+  pcRsi.applyOptions({color: cssVar('--magenta')});
+  pcRsiLines.forEach(l => pcRsi.removePriceLine(l));
+  pcRsiLines = [
+    pcRsi.createPriceLine({price:70, color:cssVar('--amber'), lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超買70'}),
+    pcRsi.createPriceLine({price:30, color:cssVar('--amber'), lineWidth:2, lineStyle:LightweightCharts.LineStyle.Dashed, axisLabelVisible:true, title:'超賣30'}),
+  ];
+  if (typeof lastData !== 'undefined' && lastData && lastData.d) renderGexPriceLines(lastData.d);
 }
 
 // ── Price Chart：攞K線 ───────────────────────────────────────
@@ -2459,10 +2613,10 @@ function renderGexPriceLines(d, priceRange) {
   if (!pcCandle) return;
 
   const raw = [
-    {price: d.flip,      color:'#0f172a', title:'Gamma Flip'},
-    {price: d.call_wall, color:'#0d9488', title:'Call Wall'},
-    {price: d.put_wall,  color:'#dc2626', title:'Put Wall'},
-    {price: d.max_pain,  color:'#db2777', title:'Max Pain'},
+    {price: d.flip,      color:cssVar('--white'), title:'Gamma Flip'},
+    {price: d.call_wall, color:cssVar('--green'), title:'Call Wall'},
+    {price: d.put_wall,  color:cssVar('--red'),   title:'Put Wall'},
+    {price: d.max_pain,  color:cssVar('--pink'),  title:'Max Pain'},
   ].filter(l => l.price != null);
   if (!raw.length) return;
 
@@ -2509,6 +2663,7 @@ async function loadGex(sym) {
   setMsg(`<span class="spin"></span>查詢 ${sym} GEX 數據中...`);
   hideAll();
   currentSym = sym;
+  updateOcLink(sym);
   highlightActiveQlink(sym);
   // v5.10：新symbol查詢時清空舊symbol嘅散戶K線/Money Flow context，
   // 避免AI分析攞到上一隻股票嘅RSI/趨勢/資金流數據
@@ -2917,6 +3072,7 @@ function renderCapDist(d) {
 }
 
 function renderCapFlowChart(d) {
+  lastCapFlowData = d;
   const flowEl = document.getElementById('capflow-body');
   const rows = d.rows;
   flowEl.className = '';
@@ -2942,8 +3098,8 @@ function renderCapFlowChart(d) {
       plugins: { legend: {display:false},
         tooltip: { callbacks: { label: item => `淨流入: ${(item.raw/1e4).toFixed(0)}萬` } } },
       scales: {
-        x: { ticks:{color:'#64748b', font:{size:9}, maxTicksLimit:8}, grid:{display:false} },
-        y: { ticks:{color:'#64748b', font:{size:9}, callback:v=>(v/1e4).toFixed(0)+'萬'}, grid:{color:'rgba(0,0,0,0.06)'} },
+        x: { ticks:{color:cssVar('--muted'), font:{size:9}, maxTicksLimit:8}, grid:{display:false} },
+        y: { ticks:{color:cssVar('--muted'), font:{size:9}, callback:v=>(v/1e4).toFixed(0)+'萬'}, grid:{color:cssVar('--grid')} },
       }
     }
   });
@@ -2964,7 +3120,7 @@ function drawChart(d, spot, flip, callWall, putWall) {
   const labels = filtered.map(s => s.strike.toFixed(0));
   const values = filtered.map(s => s.net_gex);
   const colors = values.map(v => v >= 0 ? 'rgba(0,212,170,0.75)' : 'rgba(255,77,109,0.75)');
-  const borderColors = values.map(v => v >= 0 ? '#0d9488' : '#dc2626');
+  const borderColors = values.map(v => v >= 0 ? cssVar('--green') : cssVar('--red'));
 
   // Destroy old chart
   if (chartInst) { chartInst.destroy(); chartInst=null; }
@@ -3007,14 +3163,14 @@ function drawChart(d, spot, flip, callWall, putWall) {
         c.textAlign = 'center';
         const yOff = idx===spotIdx ? top+12 : idx===flipIdx ? top+28 : idx===callIdx ? top+44 : top+60;
         c.fillRect(xPos-24, yOff-10, 48, 13);
-        c.fillStyle = '#0a0c10';
+        c.fillStyle = cssVar('--badge-ink');
         c.fillText(label, xPos, yOff);
         c.restore();
       };
-      drawVLine(putIdx,  '#dc2626', 'Put Wall', true);
-      drawVLine(callIdx, '#0d9488', 'Call Wall', true);
-      drawVLine(flipIdx, '#b45309', 'Flip', true);
-      drawVLine(spotIdx, '#0f172a', 'Spot', false);
+      drawVLine(putIdx,  cssVar('--red'),   'Put Wall', true);
+      drawVLine(callIdx, cssVar('--green'), 'Call Wall', true);
+      drawVLine(flipIdx, cssVar('--amber'), 'Flip', true);
+      drawVLine(spotIdx, cssVar('--white'), 'Spot', false);
     }
   };
 
@@ -3038,11 +3194,11 @@ function drawChart(d, spot, flip, callWall, putWall) {
       plugins: {
         legend: {display: false},
         tooltip: {
-          backgroundColor: '#eef0f4',
-          borderColor: '#e3e6ec',
+          backgroundColor: cssVar('--bg3'),
+          borderColor: cssVar('--border'),
           borderWidth: 1,
-          titleColor: '#1a2233',
-          bodyColor: '#1a2233',
+          titleColor: cssVar('--text'),
+          bodyColor: cssVar('--text'),
           callbacks: {
             title: items => `Strike: $${Number(items[0].label).toLocaleString()}`,
             label: item => {
@@ -3055,7 +3211,7 @@ function drawChart(d, spot, flip, callWall, putWall) {
       scales: {
         x: {
           ticks: {
-            color: '#64748b',
+            color: cssVar('--muted'),
             maxTicksLimit: 20,
             font: {size:10, family:'JetBrains Mono'},
             callback: (val,idx) => {
@@ -3064,16 +3220,16 @@ function drawChart(d, spot, flip, callWall, putWall) {
               return idx % step === 0 ? `$${filtered[idx]?.strike.toFixed(0)||''}` : '';
             }
           },
-          grid: {color:'rgba(0,0,0,0.1)'},
+          grid: {color: cssVar('--grid')},
         },
         y: {
           ticks: {
-            color: '#64748b',
+            color: cssVar('--muted'),
             font: {size:10, family:'JetBrains Mono'},
             callback: v => `${v>=0?'+':''}${v.toFixed(1)}M`
           },
-          grid: {color:'rgba(0,0,0,0.06)'},
-          border:{color:'#d3d7e0'},
+          grid: {color: cssVar('--grid')},
+          border:{color: cssVar('--border2')},
           zero: true,
         }
       }
@@ -3157,10 +3313,10 @@ async function fetchOptionsCalendar() {
 // var(--border2)，令(LongGamma)/(ShortGamma)喺任何背景之下都
 // 睇得清）。
 function calDayTierStyle(days) {
-  if (days <= 0)  return {bg:'rgba(255,77,109,.38)', border:'#dc2626'};
-  if (days <= 3)  return {bg:'rgba(245,166,35,.35)', border:'#b45309'};
-  if (days <= 7)  return {bg:'rgba(245,166,35,.18)', border:'#b45309'};
-  if (days <= 14) return {bg:'rgba(74,158,255,.26)', border:'#2563eb'};
+  if (days <= 0)  return {bg:'rgba(255,77,109,.38)', border:'var(--red)'};
+  if (days <= 3)  return {bg:'rgba(245,166,35,.35)', border:'var(--amber)'};
+  if (days <= 7)  return {bg:'rgba(245,166,35,.18)', border:'var(--amber)'};
+  if (days <= 14) return {bg:'rgba(74,158,255,.26)', border:'var(--blue)'};
   return {bg:'', border:'transparent'};
 }
 
@@ -3183,7 +3339,7 @@ function calSnapshotCellHtml(sym) {
     const pctTxt = s.pct != null
       ? ` <span style="color:${s.pct>=0?'var(--green)':'var(--red)'}">${s.pct>=0?'+':''}${s.pct.toFixed(2)}%</span>`
       : '';
-    lines.push(`<span style="color:#0f172a;font-weight:700">$${s.price.toFixed(2)}</span>${pctTxt}`);
+    lines.push(`<span style="color:var(--white);font-weight:700">$${s.price.toFixed(2)}</span>${pctTxt}`);
   }
 
   // Gamma關鍵位
@@ -3371,6 +3527,12 @@ function renderOptionsCalendar(d) {
 // v6：持倉總覽而家係預設分頁，唔再喺load時focus sym-input（嗰個
 // input喺GEX tab入面，預設隱藏住）——切去GEX tab嗰陣setTab()已經
 // 有專門一句處理focus，唔使呢度重複。
+// v5.30：主題掣——<head>已經set好data-theme，呢度負責高亮返當前掣 + click切換
+document.querySelectorAll('.theme-btn').forEach(btn => {
+  btn.addEventListener('click', () => applyTheme(btn.dataset.theme, true));
+});
+applyTheme(document.documentElement.getAttribute('data-theme') || 'light', false);
+
 fetchNow();  // 啟動持倉總覽tab嘅背景輪詢（獨立於GEX tab）
 
 // Global Indices Ticker（v5.3新增）：獨立於上面持倉總覽/GEX tab嘅
