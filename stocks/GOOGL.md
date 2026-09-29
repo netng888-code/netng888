@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$343.92** |
-| 今日變動 | ▲ $1.56　(+0.46%) |
+| 現價 | **$342.75** |
+| 今日變動 | ▼ $1.17　(-0.34%) |
 | 持倉數量 | 16 股 |
 | 平均成本 | $221.300 |
-| 未實現盈虧 | ▲ $1,962　(▲55.4%) |
+| 未實現盈虧 | ▲ $1,943　(▲54.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $334.72 | — |
-| Put Wall（支撐） | $340.00 | -1.1% |
-| Call Wall（阻力） | $350.00 | +1.8% |
+| Gamma Flip | $335.06 | — |
+| Put Wall（支撐） | $340.00 | -0.8% |
+| Call Wall（阻力） | $350.00 | +2.1% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Amazon’s AI Capex Is Paying Off and I’m Buying](https://finnhub.io/api/news?id=808d854c8eab75bae56807253ffecaf816062dbcc5184e4bd2bd0355de1b24ae)**  
-*Yahoo · 0h前*  
-Amazon is spending at a scale that makes most investors nervous, but the cash flow charts tell a story that has me adding to my position every quarter. Here is …
-
-- **[Mona Raises $3.5M to Expand Its AI Platform for Small Business Capital Access and Financial Coaching](https://finnhub.io/api/news?id=a035da2a640a3d7068496f7cfd8f49fa92c8d217ee0f3a63c25e465ba14db44e)**  
-*Yahoo · 0h前*  
-SAN FRANCISCO, September 28, 2026--Mona raises $3.5M led by Sheryl Sandberg's venture fund SBVP with participation from Alumni Ventures, Wisdom Ventures, angels…
-
-- **[Citadel broadens quant hiring from AI research labs – report](https://finnhub.io/api/news?id=a37c828698d635dc681149809d3ec0100807964822aecd0cdb3ffb23d24327be)**  
+- **[Robotaxi Firms Quietly Growing Real Estate Footprint, Even Where They're Not Yet Legal](https://finnhub.io/api/news?id=8fbc6f4b69d3142f8dda7630b2e816a4114ec161f9b3ff3adaec9404e521fbfc)**  
 *Yahoo · 1h前*  
-Citadel is continuing to recruit university graduates while also approaching researchers at AI laboratories including Google DeepMind.
+The amount of space robotaxi companies have leased in 2026 has exceeded the total of 2022 to 2025 combined, according to Cushman & Wakefield.
+
+- **[AMD just spent $8.2 billion to enlist the 'Godmother of AI'](https://finnhub.io/api/news?id=977b41b81292ac19bc47aafa8293e51be94f42cc74bc9177497fcfaf16a6e0bf)**  
+*Yahoo · 1h前*  
+In spending $8.2 billion to scoop up World Labs, AMD CEO Lisa Su has gained the "Godmother of AI" and possible successor for when the time comes.
+
+- **[1 Monster AI Stock Greg Abel and Warren Buffett Are Extremely Bullish On](https://finnhub.io/api/news?id=8ffa71ff00307bfeefda924e9a40c9f0f291abdf22791184ab10849c7b231464)**  
+*Yahoo · 2h前*  
+The legendary investor and his successor have transitioned Berkshire Hathaway's public equities portfolio toward a willingness to bet on tech companies.
 
 ---
 
@@ -48,7 +48,7 @@ Citadel is continuing to recruit university graduates while also approaching res
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-28 | 監控 | $343.92 | — | 自動更新 |
+| 2026-09-29 | 監控 | $342.75 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Citadel is continuing to recruit university graduates while also approaching res
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
