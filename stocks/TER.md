@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Teradyne (TER) Has More Riding on AI Than Meets the Eye. Can Execution Deliver?](https://finnhub.io/api/news?id=e115e15efdaa8463b155518a1e6e974593c2f9e3cd8d89733882049a98c2650b)**  
-*Yahoo · 3h前*  
-On September 1, Teradyne, Inc. (NASDAQ:TER) announced the launch of three new instruments for its UltraFLEXplus platform: the UltraPin5000-EM, UltraPort-PCIe6, …
+- **[Teradyne (NASDAQ:TER): Affordable Growth With Elite Quality and a Reasonable Valuation](https://finnhub.io/api/news?id=d7c1b16755d56fef603d962b6dd0fcf0b32b548db6972a79dae1660c68ac11f3)**  
+*ChartMill · 3h前*  
+Teradyne fits the Affordable Growth screen with strong forward growth, elite health, and a valuation reasonable relative to its growth.
 
-- **[Is Teradyne (TER) Fully Priced After Record Q2 Results?](https://finnhub.io/api/news?id=efff319561aa0e8bc9714ca390add0ff9392d8b745598d98b646b18118df95cd)**  
-*Yahoo · 3h前*  
-Teradyne has rallied hard in recent years, and with the stock last closing at US$398.38, the real question for investors is how well that price lines up with th…
+- **[Is Teradyne (TER) Fully Valued On Its Latest Semiconductor And Robotics Expansion?](https://finnhub.io/api/news?id=f1a4393f6fc6c71181ee15266fc2aca29d3a29ec9a1c442253011642295f4d84)**  
+*Yahoo · 8h前*  
+Why Teradyne Stock Is Back in Focus Teradyne (TER) has moved back onto investor radars after a flurry of company news, including a new GS Microelectronics partn…
 
-- **[3 Reasons to Sell TER and 1 Stock to Buy Instead](https://finnhub.io/api/news?id=31c9cd9867429b419668154cc9335096cf1590a6c0560119bae11782a0f2ab71)**  
-*Yahoo · 6h前*  
-What a time it’s been for Teradyne. In the past six months alone, the company’s stock price has increased by a massive 44.5%, reaching $399.20 per share. This w…
+- **[Teradyne (TER) Is Up 5.2% After New AI-Optical Test Push And India Expansion - Has The Bull Case Changed?](https://finnhub.io/api/news?id=0b9827570b7505ccab8a8908f9e71924bba3ac8320ce1fb802c7c8a0389c0db1)**  
+*Yahoo · 9h前*  
+In September 2026, Teradyne and GS Microelectronics U.S. formed a multi-year partnership to build a Teradyne-equipped semiconductor test and evaluation center i…
 
 ---
 
@@ -59,4 +59,4 @@ What a time it’s been for Teradyne. In the past six months alone, the company�
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
