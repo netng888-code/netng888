@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.39** |
-| 今日變動 | ▼ $0.04　(-0.38%) |
+| 現價 | **$10.12** |
+| 今日變動 | ▼ $0.27　(-2.60%) |
 | 持倉數量 | 150 股 |
 | 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $417　(▼21.1%) |
+| 未實現盈虧 | ▼ $457　(▼23.1%) |
 
 ---
 
@@ -20,19 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.59 | — |
-| Put Wall（支撐） | $10.00 | -3.8% |
-| Call Wall（阻力） | $11.00 | +5.9% |
+| Gamma Flip | $9.62 | — |
+| Put Wall（支撐） | $10.00 | -1.2% |
+| Call Wall（阻力） | $11.00 | +8.7% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Private 5G Market Forecasts Growth from $5.35B (2026) to $24.84B by 2032, Profiling Ericsson, Huawei, Nokia, Samsung & Cisco Systems](https://finnhub.io/api/news?id=c880f48e2f5429d95a6bf6359362cda5caffb86264946cf1aab55f0f82b4be95)**  
-*Yahoo · 3d前*  
-The global private 5G market is projected to grow from USD 5.35 billion in 2026 to USD 24.84 billion by 2032, at a 29.1% CAGR. Growth is driven by Industry 4.0,…
+- **[Nokia (NOK) and Microsoft (MSFT) are Expanding Their AI Reach. Can the Opportunity Translate into Returns?](https://finnhub.io/api/news?id=823d2cb633c72b4aa7ab46a742fed029861318ac48ba81ea2cc883c18ca8b290)**  
+*Yahoo · 3h前*  
+It was reported on September 17 that Nokia Oyj (NYSE:NOK) is extending its partnership with Microsoft Corporation (NASDAQ:MSFT) to build an agentic, unified dat…
+
+- **[Nokia (NOK) is Getting More Exposure to AI Spending. Is the Opportunity Bigger than it Looks?](https://finnhub.io/api/news?id=05fec5e7d52d30edfdde74300362088e5171ccb01da84e56d879646a670033c0)**  
+*Yahoo · 3h前*  
+On September 9, Shares of Nokia Oyj (NYSE:NOK) rose 3% to $10.98 following Google’s announcement of a €13 billion investment to expand its AI infrastructure and…
+
+- **[European Equities Traded in the US as American Depositary Receipts Start Week Slightly Lower in Monday Trading](https://finnhub.io/api/news?id=5ea586445c9ebe23beb33679cade2b210fb444cbc85eb9cdf110ac8ec3f67d0c)**  
+*Yahoo · 9h前*  
+European equities traded in the US as American depositary receipts opened the week tracking slightly
 
 ---
 
@@ -40,7 +48,7 @@ The global private 5G market is projected to grow from USD 5.35 billion in 2026 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-28 | 監控 | $10.39 | — | 自動更新 |
+| 2026-09-29 | 監控 | $10.12 | — | 自動更新 |
 
 ---
 
@@ -51,4 +59,4 @@ The global private 5G market is projected to grow from USD 5.35 billion in 2026 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
