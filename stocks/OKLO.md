@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-29 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[3 Great Nuclear Stocks To Own In September 2026](https://finnhub.io/api/news?id=d246e57a01f0c377503f418a284cdc08bef496a98d9a7ae8080c3f1011ce0c25)**  
-*Yahoo · 14h前*  
+*Yahoo · 1d前*  
 Oil at more than $108 a barrel and fragile trade routes have put reliable electricity supply back in the spotlight. Investors looking beyond short term swings a…
 
 - **[2 Nuclear Stocks Crashed by About 50% in 2026. Here's the 1 Thing That Would Bring Them Back.](https://finnhub.io/api/news?id=7df831e1e7e8173716005eb4bff60841a5b553aa857a85f4b7b2635fe217e85a)**  
@@ -59,4 +59,4 @@ Oklo stock could easily triple if its project pipeline materializes.
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
