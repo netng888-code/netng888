@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[What Moved Markets This Week](https://finnhub.io/api/news?id=8db58902f8a901e02142333e7092ccad903b8ead626c0ca0d7858ec1a754c93b)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 U.S. stocks advanced for the week while Treasury yields surged and petroleum markets remained in focus. Read more about this week's major events on Wall Street.
 
 ---
@@ -51,4 +51,4 @@ U.S. stocks advanced for the week while Treasury yields surged and petroleum mar
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
