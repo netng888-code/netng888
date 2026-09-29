@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-09-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$225.07** |
-| 今日變動 | ▲ $0.49　(+0.22%) |
+| 現價 | **$228.86** |
+| 今日變動 | ▲ $3.79　(+1.68%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $649　(▲40.6%) |
+| 未實現盈虧 | ▲ $687　(▲42.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $209.19 | — |
-| Put Wall（支撐） | $220.00 | -2.3% |
-| Call Wall（阻力） | $230.00 | +2.2% |
+| Gamma Flip | $210.40 | — |
+| Put Wall（支撐） | $220.00 | -3.9% |
+| Call Wall（阻力） | $230.00 | +0.5% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nvidia announces jaw-dropping $150 billion stock buyback, largest single authorization in history](https://finnhub.io/api/news?id=24f7bf047e05b3ce89a8b94321f0aa35213d09f653799ac5cd4f04720b67b30a)**  
-*Yahoo · 0h前*  
-The valuation on Nvidia is too appetizing for CEO Jensen Huang to ignore any longer.
-
-- **[If You'd Invested $1,000 in the Vanguard S&P 500 ETF (VOO) 10 Years Ago, Here's How Much You'd Have Today](https://finnhub.io/api/news?id=dc690c095cd26cc8b7dc2f80fd26d20f2d0f2949677ac66f115a1d9f57f572bf)**  
-*Yahoo · 0h前*  
-Performance in the last decade is well above the benchmark's historical average.
-
-- **[Dell's AI Server Backlog Has Ballooned to $95 Billion. Here's What a $1,000 Investment Today Could Be Worth by 2030](https://finnhub.io/api/news?id=0800c7744c2bb21090cd8b8e0fe153c44afe4666d379f9546616110a880b8d73)**  
+- **[Sandisk Jumped 22% the Day After Micron's Last Report. Micron Reports Again Wednesday.](https://finnhub.io/api/news?id=5ff074e5fec7d83b8412dd3e55777c4841c6d12da019cd7f11093055805adce3)**  
 *Yahoo · 1h前*  
-Dell's potential AI server pipeline suggests the company is on track to deliver phenomenal growth over the next five years.
+The memory giant's summer quarter spans around two months of the flash specialist's current one.
+
+- **[3 Australian AI Stocks For September 2026](https://finnhub.io/api/news?id=8857b00eb96175a3ee816d34e9c02f150359a8c2a1d3cd34c68a3620e2191d43)**  
+*Yahoo · 1h前*  
+Nvidia’s record A$150b share buyback plan has put a bright global spotlight on AI hardware and software, and Australian AI players are riding that wave of atten…
+
+- **[S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus](https://finnhub.io/api/news?id=b057d340744e7590865880f8a83751b466d402f8a17a19fb34b5a008d6e818fb)**  
+*Yahoo · 1h前*  
+President Donald Trump was open to providing sanctions relief to Iran on nuclear matters, CNN and Axios reported.
 
 ---
 
@@ -48,7 +48,7 @@ Dell's potential AI server pipeline suggests the company is on track to deliver 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-28 | 監控 | $225.07 | — | 自動更新 |
+| 2026-09-29 | 監控 | $228.86 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Dell's potential AI server pipeline suggests the company is on track to deliver 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
