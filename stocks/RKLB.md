@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$73.95** |
-| 今日變動 | ▲ $0.34　(+0.46%) |
+| 現價 | **$72.19** |
+| 今日變動 | ▼ $1.76　(-2.38%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $20　(▼2.7%) |
+| 未實現盈虧 | ▼ $38　(▼5.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $66.53 | — |
-| Put Wall（支撐） | $65.00 | -12.1% |
-| Call Wall（阻力） | $80.00 | +8.2% |
+| Gamma Flip | $66.70 | — |
+| Put Wall（支撐） | $65.00 | -10.0% |
+| Call Wall（阻力） | $80.00 | +10.8% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stocktwits M&A Watch: PSKY, WBD, BP, DVN, RKLB, IRDM Stocks In Focus](https://finnhub.io/api/news?id=595233b6b1d4ea5f18168aa751e33fec4a5aab976b1dd86dca78fd35ef0e3775)**  
-*Yahoo · 6h前*  
-Paramount Skydance’s acquisition of Warner Bros. Discovery, BP's reported interest in Devon Energy’s South Texas operations, and a shareholder approval of Iridi…
+- **[Rocket Lab Corporation (RKLB) Declines More Than Market: Some Information for Investors](https://finnhub.io/api/news?id=5d13718bb14b32e8e6709643763b10211ee7bb590633eb99e11fad4ae76e8468)**  
+*Yahoo · 3h前*  
+Rocket Lab Corporation (RKLB) reached $72.19 at the closing of the latest trading day, reflecting a -2.38% change compared to its last close.
 
-- **[Prediction: This Space Stock Will Outperform SpaceX Over the Next 10 Years](https://finnhub.io/api/news?id=bc6a35bc6ad6a60db7ab1aa187ef2b5a6e038bb739999b210bee65a1c6f56998)**  
-*Yahoo · 1d前*  
-Smaller is mightier when looking for long-term winners.
+- **[Cathie Wood Makes $64 Million Bet on Two Stocks](https://finnhub.io/api/news?id=81df007d834d08341a17610937953398b20543ac36f35f8b1d1980634f25ed67)**  
+*Yahoo · 5h前*  
+The latest trades reveal where Wood sees opportunity
 
-- **[The Opportunity Behind AST SpaceMobile Stock Is Hard to Ignore](https://finnhub.io/api/news?id=d239d593e370b1e3239eec93d98f68646f933d17ee45be23c22aa1055e8deabc)**  
-*Yahoo · 1d前*  
-AST SpaceMobile is burning through capital at a staggering pace while racing to blanket the globe with satellites, and whether that gamble pays off depends on a…
+- **[Cantor Backs Rocket Lab’s Launch Momentum After 97th Electron Mission – Highlights These ‘Competitive Advantages’](https://finnhub.io/api/news?id=b712a5f4bdaec48174050ccf761382ca88d8382dc72964e5de4602c580519164)**  
+*Yahoo · 7h前*  
+Cantor Fitzgerald said Rocket Lab’s launch record is a key differentiator, while reiterating an ‘Overweight’ rating and $122 price target.
 
 ---
 
@@ -48,7 +48,7 @@ AST SpaceMobile is burning through capital at a staggering pace while racing to 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-28 | 監控 | $73.95 | — | 自動更新 |
+| 2026-09-29 | 監控 | $72.19 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ AST SpaceMobile is burning through capital at a staggering pace while racing to 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 09:04 HKT*
