@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Robotaxi Firms Quietly Growing Real Estate Footprint, Even Where They're Not Yet Legal](https://finnhub.io/api/news?id=8fbc6f4b69d3142f8dda7630b2e816a4114ec161f9b3ff3adaec9404e521fbfc)**  
+- **[Billionaire Money Managers Have Chosen Their 2 Favorite AI Stocks (and It's Not Nvidia or Alphabet)](https://finnhub.io/api/news?id=ddbe6ec8f5d5edb27302fbff5d8dd3ffbc3c5c91fca475eb0eac3882d05e3d63)**  
 *Yahoo · 1h前*  
-The amount of space robotaxi companies have leased in 2026 has exceeded the total of 2022 to 2025 combined, according to Cushman & Wakefield.
+A dual-industry leader and a foundational artificial intelligence (AI) hardware company are among the top holdings of at least five billionaire investors each.
 
-- **[AMD just spent $8.2 billion to enlist the 'Godmother of AI'](https://finnhub.io/api/news?id=977b41b81292ac19bc47aafa8293e51be94f42cc74bc9177497fcfaf16a6e0bf)**  
-*Yahoo · 1h前*  
-In spending $8.2 billion to scoop up World Labs, AMD CEO Lisa Su has gained the "Godmother of AI" and possible successor for when the time comes.
-
-- **[1 Monster AI Stock Greg Abel and Warren Buffett Are Extremely Bullish On](https://finnhub.io/api/news?id=8ffa71ff00307bfeefda924e9a40c9f0f291abdf22791184ab10849c7b231464)**  
+- **[Nvidia's answer to rogue AI changes the conversation](https://finnhub.io/api/news?id=d526b9cbd11d887f997578c81838d4d2a5dc22b37118839b7272aa9211b82732)**  
 *Yahoo · 2h前*  
-The legendary investor and his successor have transitioned Berkshire Hathaway's public equities portfolio toward a willingness to bet on tech companies.
+Nvidia CEO Jensen Huang just made two huge moves that might change how we think about AI risk entirely. First, a new agent safety platform engineered to catch a…
+
+- **[Update: Alphabet's Google Appeals EU Orders to Share Search Data](https://finnhub.io/api/news?id=bce7891383a98f11a42f37b911c3a38cebd5bb960e36969e9c582d94e29eced3)**  
+*Yahoo · 2h前*  
+(Updates with statements from Google and the European Commission throughout) Alphabet's (GOOG, GO
 
 ---
 
@@ -59,4 +59,4 @@ The legendary investor and his successor have transitioned Berkshire Hathaway's 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 21:03 HKT*
