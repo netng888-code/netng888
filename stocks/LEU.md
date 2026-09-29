@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$147.07** |
-| 今日變動 | ▼ $0.25　(-0.17%) |
+| 現價 | **$140.37** |
+| 今日變動 | ▼ $6.70　(-4.56%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $403　(▼25.5%) |
+| 未實現盈虧 | ▼ $457　(▼28.9%) |
 
 ---
 
@@ -20,11 +20,11 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $177.16 | — |
-| Put Wall（支撐） | $145.00 | -1.4% |
-| Call Wall（阻力） | $200.00 | +36.0% |
+| Gamma Flip | $176.90 | — |
+| Put Wall（支撐） | $130.00 | -7.4% |
+| Call Wall（阻力） | $200.00 | +42.5% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
@@ -40,7 +40,7 @@ U.S. stocks advanced for the week while Treasury yields surged and petroleum mar
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-28 | 監控 | $147.07 | — | 自動更新 |
+| 2026-09-29 | 監控 | $140.37 | — | 自動更新 |
 
 ---
 
@@ -51,4 +51,4 @@ U.S. stocks advanced for the week while Treasury yields surged and petroleum mar
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
