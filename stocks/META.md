@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$751.66** |
-| 今日變動 | ▼ $25.93　(-3.33%) |
+| 現價 | **$715.62** |
+| 今日變動 | ▼ $36.04　(-4.79%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $436　(▲24.0%) |
+| 未實現盈虧 | ▲ $328　(▲18.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $598.01 | — |
-| Put Wall（支撐） | $700.00 | -6.9% |
-| Call Wall（阻力） | $750.00 | +-0.2% |
+| Gamma Flip | $607.42 | — |
+| Put Wall（支撐） | $700.00 | -2.2% |
+| Call Wall（阻力） | $750.00 | +4.8% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[These S&P500 stocks that are showing activity before the opening bell on Monday.](https://finnhub.io/api/news?id=27c7414fb6603d9617ca86e3afb46098324b65b0ddda4f5ef726ec4e93b36535)**  
-*ChartMill · 0h前*  
-Wondering what's happening in today's pre-market session? Stay tuned for the latest updates on S&P500 stock movements.
+- **[OpenAI Cancels Latest Model Release Ahead of DevDay Conference: Report](https://finnhub.io/api/news?id=b3ba60a7947c91c49a50ecbd4edd85c5af3806a6f9942c9f8ee2f641745bc6ac)**  
+*Yahoo · 2h前*  
+On the eve of its developer conference, OpenAI scrapped the release of its most advanced artificial intelligence model due to safety concerns.  According to a r…
 
-- **[These AI Stocks Took Off Or Tumbled In Q3. Here's Why.](https://finnhub.io/api/news?id=5021ab32b249699f3d99fe30d8626a97ed33ea746712d3d7ebc283900dfe0971)**  
-*Yahoo · 1h前*  
-AI stocks show diverging fortunes in Q3, with software plays and Nvidia rebounding while Ciena, CoreWeave, Broadcom and Google lagged.
+- **[Why Meta (META) Stock Is Trading Lower Today](https://finnhub.io/api/news?id=901dc5890855f6b1a2410c04d78c29648f44da9b2cc5c13eeaaefc5eb61fc220)**  
+*Yahoo · 2h前*  
+Shares of social network operator Meta Platforms (NASDAQ:META) fell 4.1% in the morning session as investors locked in profits following a 13% weekly rally driv…
 
-- **[Apollo's Sløk: Is an 'agentic bank run' coming?](https://finnhub.io/api/news?id=ce752df0f4febc94e37f41421d895c0590822983274594725370c69c65c87a67)**  
-*Yahoo · 1h前*  
-Apollo chief economist Torsten Sløk is looking ahead to when AI agents such as Meta's Muse are empowered to make common-sense money moves.
+- **[Meta Platforms (META): Are You Going to Buy the Promise?](https://finnhub.io/api/news?id=7d0636d0084fa1b33f3cc67531629a0a73c17b760080fc69066a70cbf32ee52d)**  
+*Yahoo · 2h前*  
+The promise is what Meta Platforms, Inc. (NASDAQ:META) can do with AI and the reward for investors. But the cost associated with the AI ambitions is steep, even…
 
 ---
 
@@ -48,7 +48,7 @@ Apollo chief economist Torsten Sløk is looking ahead to when AI agents such as 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-28 | 監控 | $751.66 | — | 自動更新 |
+| 2026-09-29 | 監控 | $715.62 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Apollo chief economist Torsten Sløk is looking ahead to when AI agents such as 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
