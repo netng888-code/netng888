@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-09-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$352.81** |
-| 今日變動 | ▲ $2.45　(+0.70%) |
+| 現價 | **$349.57** |
+| 今日變動 | ▼ $3.24　(-0.92%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $230　(▼6.1%) |
+| 未實現盈虧 | ▼ $262　(▼7.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $353.11 | — |
-| Put Wall（支撐） | $350.00 | -0.8% |
-| Call Wall（阻力） | $360.00 | +2.0% |
+| Gamma Flip | $354.19 | — |
+| Put Wall（支撐） | $340.00 | -2.7% |
+| Call Wall（阻力） | $350.00 | +0.1% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[These AI Stocks Took Off Or Tumbled In Q3. Here's Why.](https://finnhub.io/api/news?id=5021ab32b249699f3d99fe30d8626a97ed33ea746712d3d7ebc283900dfe0971)**  
-*Yahoo · 1h前*  
-AI stocks show diverging fortunes in Q3, with software plays and Nvidia rebounding while Ciena, CoreWeave, Broadcom and Google lagged.
-
-- **[Latest News In AI Chips - AI's Impact on Semiconductor Transformation and Material Demand](https://finnhub.io/api/news?id=f664d4e5c7561eec6d87238c40f7ce057a3d372e7b51cc55e8e4fabcd4ec5339)**  
-*Yahoo · 1h前*  
-Recent developments in the AI chips sector highlight a significant transformation in the electronic chemicals and materials industry. Artificial intelligence is…
-
-- **[INTC, AMD, AVGO: Chip Stocks Lead Slide As Tech Gets Hammered Amid Renewed U.S.-Iran Tensions](https://finnhub.io/api/news?id=f0962506e75fdbd8c68f04e26ab77822fa6dfca9adfe3e913a6fa0130704283f)**  
+- **[Top 3 Cash Flow Stocks To Watch In September 2026](https://finnhub.io/api/news?id=ebe8464f5d38e21dbf415e86183e6da74c826da73fa37c4ffe734c0b88767104)**  
 *Yahoo · 3h前*  
-Oil shock has put the AI trade under a fresh macro test.
+Bond markets are edging toward a classic warning sign, with the US yield curve close to inversion as investors worry that higher interest rates could pressure g…
+
+- **[Did The Market Read Marvell Stock Right?](https://finnhub.io/api/news?id=ed7df84c6426c3a5b78a7c05370fb2fd15a10be3181fdd88aed593ef64f1acbd)**  
+*Yahoo · 4h前*  
+Marvell Technology (MRVL) stock fell 7.3% on Monday, September 14. A $10,000 holding at the prior close was worth about $9,270 when trading ended that day. That…
+
+- **[The Best ETF to Own in Your 30s, 40s, 50s, and 60s, According to the Math](https://finnhub.io/api/news?id=736476664bcb18570333e1e2f7ca7c8d8be519f301a472e1b60634f9da66618a)**  
+*Yahoo · 4h前*  
+Your age is only half the equation. The variable that actually determines which ETF belongs in your portfolio right now might send you back a decade or push you…
 
 ---
 
@@ -48,7 +48,7 @@ Oil shock has put the AI trade under a fresh macro test.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-28 | 監控 | $352.81 | — | 自動更新 |
+| 2026-09-29 | 監控 | $349.57 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Oil shock has put the AI trade under a fresh macro test.
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
