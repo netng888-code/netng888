@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-09-29 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Corporation (RKLB) Declines More Than Market: Some Information for Investors](https://finnhub.io/api/news?id=5d13718bb14b32e8e6709643763b10211ee7bb590633eb99e11fad4ae76e8468)**  
-*Yahoo · 3h前*  
-Rocket Lab Corporation (RKLB) reached $72.19 at the closing of the latest trading day, reflecting a -2.38% change compared to its last close.
+- **[Rocket Lab: Iridium Financing Solved, Neutron Next](https://finnhub.io/api/news?id=c47711418e5448d8a088e359a5a385390d07db9224aa403f610e01e771336b41)**  
+*SeekingAlpha · 5h前*  
+Rocket Lab is positioned to become an end-to-end space company following the Iridium acquisition, unlocking new growth and market opportunities. Learn more abou…
 
-- **[Cathie Wood Makes $64 Million Bet on Two Stocks](https://finnhub.io/api/news?id=81df007d834d08341a17610937953398b20543ac36f35f8b1d1980634f25ed67)**  
-*Yahoo · 5h前*  
-The latest trades reveal where Wood sees opportunity
+- **[Prediction: Rocket Lab Stock Trades Above $100 Again Before 2029](https://finnhub.io/api/news?id=b2ca33a9b50024c078e6f76fcf217fa91569edb760d93140ba52c8f3a304754e)**  
+*Yahoo · 12h前*  
+The needed gain is roughly 14% a year -- and most of it rests on a rocket that hasn't flown yet.
 
-- **[Cantor Backs Rocket Lab’s Launch Momentum After 97th Electron Mission – Highlights These ‘Competitive Advantages’](https://finnhub.io/api/news?id=b712a5f4bdaec48174050ccf761382ca88d8382dc72964e5de4602c580519164)**  
-*Yahoo · 7h前*  
-Cantor Fitzgerald said Rocket Lab’s launch record is a key differentiator, while reiterating an ‘Overweight’ rating and $122 price target.
+- **[Rocket Lab (RKLB) Nails Back To Back September Launches With 100% Mission Record](https://finnhub.io/api/news?id=6dd23e392c193558f514d8329db8cfa7391909789c4174087beb9bef70e8e3b5)**  
+*Yahoo · 12h前*  
+Rocket Lab (NasdaqGS:RKLB) completed two back to back Electron launches for Synspective in September 2026 as part of its SAR constellation build out. The missio…
 
 ---
 
@@ -59,4 +59,4 @@ Cantor Fitzgerald said Rocket Lab’s launch record is a key differentiator, whi
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
