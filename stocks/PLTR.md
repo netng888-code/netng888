@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$189.67** |
-| 今日變動 | ▼ $2.92　(-1.52%) |
+| 現價 | **$187.48** |
+| 今日變動 | ▼ $2.19　(-1.15%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $457　(▲52.5%) |
+| 未實現盈虧 | ▲ $442　(▲50.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $167.05 | — |
-| Put Wall（支撐） | $170.00 | -10.4% |
-| Call Wall（阻力） | $200.00 | +5.4% |
+| Gamma Flip | $169.90 | — |
+| Put Wall（支撐） | $170.00 | -9.3% |
+| Call Wall（阻力） | $200.00 | +6.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir's Stock Is Up Over 50% Since Reporting Earnings. Is It Heading for a New All-Time High?](https://finnhub.io/api/news?id=6e1bffd43d78074b1409ae101b154a70e04d49fa1a3a7e9b90f821de4d8eaa44)**  
-*Yahoo · 2h前*  
-Investors are bullish on Palantir's stock due to not only the company's strong growth but also a convincing vision from CEO Alex Karp.
+- **[Burry Sees AI Bubble Bursting Sooner, Shifts to Put Options](https://finnhub.io/api/news?id=715184a42ce09165402d9a00c0181d266e60b217cb7303ced770cabc5d1c0388)**  
+*Yahoo · 1h前*  
+Michael Burry is moving up the timeline for his bearish thesis on the AI boom, switching from short
 
-- **[MAG 7 Voices: Jensen Huang, Elon Musk, Mark Zuckerberg Shape A Week Of AI Debate](https://finnhub.io/api/news?id=8e4177e474e3569bb0f4f6b485e555f2b6f8a65478a6ed497ea2fcc0116dd594)**  
-*Yahoo · 2h前*  
-Nvidia CEO Jensen Huang defended continued AI development while calling for AI labs that cannot contain unsafe experiments to be shut down.
-
-- **[2 Profitable Stocks Worth Your Attention and 1 We Avoid](https://finnhub.io/api/news?id=8feaeb6aaa87499963153c196a66601046a7dc7c409c844cc11f1fc3beb7986c)**  
+- **[REDLattice To Become Public Via $1.25B SPAC Transaction](https://finnhub.io/api/news?id=e3cf2556a1079100b69ccf19367f3185405217509ecef6142c98358cc08492e9)**  
 *Yahoo · 4h前*  
-While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies …
+By Karen Roman Cyber intelligence and technology provider REDL Intermediate Holdings, LLC (REDLattice) said it is going public through a combination with Bold E…
+
+- **[Michael Burry Swaps MU, NBIS, NVDA, PLTR Shorts For Puts — Says AI Bubble May Burst ‘Sooner Than Later’](https://finnhub.io/api/news?id=30700271e6181cc735bab112c230aa0551f18a37307e5e36857e5d834888d07c)**  
+*Yahoo · 4h前*  
+Burry has replaced his common-stock shorts with put options across several AI-linked names, saying new research has convinced him to move his timelines forward.
 
 ---
 
@@ -48,7 +48,7 @@ While profitability is essential, it doesn’t guarantee long-term success. Some
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-28 | 監控 | $189.67 | — | 自動更新 |
+| 2026-09-29 | 監控 | $187.48 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ While profitability is essential, it doesn’t guarantee long-term success. Some
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 09:04 HKT*
