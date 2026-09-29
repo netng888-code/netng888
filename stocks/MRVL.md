@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-09-29 09:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Marvell Technology, Semtech, Lattice Semiconductor, and Micron Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=a1df64cbc79cdc00a33340524c8b4f12222d90e16c4cb6a771071f9db66d5014)**  
+*Yahoo · 12h前*  
+A number of stocks fell in the afternoon session after OpenAI paused training of its frontier artificial intelligence models following a security breach, raisin…
+
 - **[Arm vs. Marvell Technology: Which AI Chip Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=8c41fd07c0ce8d0cfccf39b78e7cab5eed1c04fccaeed0859318311f4372dca0)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 Arm's licensing model commands a steep valuation premium, while Marvell is growing faster but depends heavily on a small group of large customers.
 
 - **[Did The Market Read Marvell Stock Right?](https://finnhub.io/api/news?id=ed7df84c6426c3a5b78a7c05370fb2fd15a10be3181fdd88aed593ef64f1acbd)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 Marvell Technology (MRVL) stock fell 7.3% on Monday, September 14. A $10,000 holding at the prior close was worth about $9,270 when trading ended that day. That…
-
-- **[Broadcom vs. Marvell Technology: Which Semiconductor Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=b78a942e2c9f8288e314af078a248061aa2c8937e49521b76557761845e29fe2)**  
-*Yahoo · 4h前*  
-Broadcom has locked-in AI revenue commitments from some of the most important companies in the industry. Marvell is growing faster but leans heavily on a small …
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom has locked-in AI revenue commitments from some of the most important co
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 09:03 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 21:03 HKT*
