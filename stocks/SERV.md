@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-09-29 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,12 @@
 
 ## 📰 最新新聞
 
+- **[Serve Robotics vs. Symbotic: Which Robotics Stock Has the Edge Now?](https://finnhub.io/api/news?id=90ed5dd8df6c53148d1d6d996bbff53fefb066e24a508de7b9ed5c168a9d51f8)**  
+*Yahoo · 22h前*  
+SERV and SYM show contrasting robotics growth paths, with differing backlogs, revenue trends, profitability and execution risks.
+
 - **[Micron, Nike To Headline Earnings Next Week; GDP Numbers Awaited](https://finnhub.io/api/news?id=73b6acdf2bbb7d9709982357cc0520acb53ffb719221ec04f386a13837d8216a)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 Wall Street Week Ahead: key market events, earnings (MU, NKE), IPOs (OURA), and major economic data. See here for more details.
 
 ---
@@ -51,4 +55,4 @@ Wall Street Week Ahead: key market events, earnings (MU, NKE), IPOs (OURA), and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
