@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Is Teradyne (TER) a Buy as Wall Street Analysts Look Optimistic?](https://finnhub.io/api/news?id=255c5723aed6178f259946ea2d47d757b4eb3ce71cc80ec58180dd16cbd6d630)**  
-*Yahoo · 12h前*  
+*Yahoo · 1d前*  
 The average brokerage recommendation (ABR) for Teradyne (TER) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the eff…
 
 - **[Teradyne (TER) Debuts Magnum E2 For AI Memory Testing](https://finnhub.io/api/news?id=0c5a91281128a25ae5ce49564c2e72931bc4e74223841be5a5cae4c0d57d4a5a)**  
@@ -59,4 +59,4 @@ A look at the stocks that are owned by Cathie Wood&#39;s Ark Invest and Donald T
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:04 HKT*
