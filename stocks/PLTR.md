@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[ServiceNow vs. Palantir Technologies: Which Tech Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=798e106826e9de2192270e05537827876be12e9f21ed313169722199fe0ca1de)**  
-*Yahoo · 1h前*  
-Palantir's hypergrowth and profitability are rare at this scale, while ServiceNow offers the kind of steady, compounding enterprise platform that rewards patien…
+- **[Palantir Technologies (NASDAQ:PLTR): A High-Growth Momentum Leader](https://finnhub.io/api/news?id=1dd1ecee55ee091a6573d1c158d35a11f7b9929b4eac0899a762eaeb415ecf31)**  
+*ChartMill · 1h前*  
+Palantir (PLTR) passes CANSLIM with explosive growth, high relative strength, low debt, and a bull flag setup; valuation remains the key risk.
 
-- **[Palantir CEO Karp drops "Warfighter" hot take before super intelligence meeting at White House](https://finnhub.io/api/news?id=222aed307a295ec902c3560abffbcae19d7f6c84dbc8ed0052cf2da166da090b)**  
+- **[Palantir’s CEO Bought 37,000 Acres of Swedish Forestland and Hunting Leases Vanished. Five Years of Rent Can Count as $0 Toward Social Security’s Earnings Test](https://finnhub.io/api/news?id=c28b18d887d69e5aa9abb30d0f47068ec5cb024d5ff94eb2ffd9f8543cbf175c)**  
 *Yahoo · 4h前*  
-Karp’s latest remarks put Palantir’s AI promise under scrutiny.
+When Palantir's CEO quietly bought 37,000 acres of Swedish forest and shut out local hunters, it revealed something most landowners never consider: a single hun…
 
-- **[Was There Any Sign Palantir Stock Would Run?](https://finnhub.io/api/news?id=f2ae93e6291a58a5a4a8b2a4c4cd6f8c6ee3a9038cfdc413cead7447478ea89c)**  
-*Yahoo · 5h前*  
-Palantir Technologies (PLTR) stock returned 60.3% in the three months from June 30 to September 29, 2026. A $10,000 holding at the start of that window was wort…
+- **[Palantir Remains Our Top Tech Pick Of The 2020s](https://finnhub.io/api/news?id=95c6e79abed05d7f1a48cd47747c0b8dd525ba2e4e1dbc7aa25e1c13984f129b)**  
+*SeekingAlpha · 8h前*  
+Palantir posted 115% YoY US revenue growth, 63% FCF margins, and annualized FCF nearing $5 billion, supporting its premium valuation. Learn why PLTR stock is a …
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies (PLTR) stock returned 60.3% in the three months from June 
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:05 HKT*
