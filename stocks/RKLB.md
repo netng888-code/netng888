@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $67.45 | — |
 | Put Wall（支撐） | $65.00 | -6.7% |
-| Call Wall（阻力） | $70.00 | +0.5% |
+| Call Wall（阻力） | $80.00 | +14.8% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Secures Largest-Ever Electron Commercial Deal: 20-Launch Contract for Synspective](https://finnhub.io/api/news?id=4d534087559b420cecf9495addddb936a581a4e9eb7071f3474d800fbbb4fd12)**  
-*Yahoo · 2h前*  
-The deal marks Rocket Lab’s single largest commercial launch contract for Electron to date, reinforcing Electron’s position as the world’s most in-demand rocket…
+- **[RKLB Stock A ‘Core Holding For Space Bulls,’ Analyst Says – Sees 43% Upside As Synspective Deal Boosts Backlog](https://finnhub.io/api/news?id=805cdc9f6d71920a472ffe4ada08c429ceb01f7f63b79a0024a9e6ae43f8e2a2)**  
+*Yahoo · 1h前*  
+Citi highlighted Rocket Lab’s unique position in the space industry given its proven Electron launch vehicle
 
-- **[3 Space Stocks to Buy in October](https://finnhub.io/api/news?id=2759e491fbbad0507f8cdf053f7ecd6454200a82d25da6155d27d5f8086ad958)**  
+- **[Nasdaq, S&P 500, Dow Futures Mixed Even As Micron Fuels AI Rally: ORCL, NKE, TSLA, RKLB, ASTS, PSKY In Focus](https://finnhub.io/api/news?id=78207f31393227024ab6c551e75d470b255a711685f7a656212b7a60603b4dd7)**  
+*Yahoo · 4h前*  
+On Stocktwits, retail sentiment toward SPY and QQQ remained ‘bullish’ as Micron’s results provided another catalyst for AI and semiconductor stocks.
+
+- **[Is SpaceX's Starship a Threat to Rocket Lab Stock Now That It Has Reached Orbit?](https://finnhub.io/api/news?id=ffa3603feacf14d93115fda1ee66396e04ee663b972aa0b11b1654a0b8f7dbdb)**  
 *Yahoo · 9h前*  
-SpaceX has cooled off, but these three space stocks still offer real upside, from launch infrastructure to profitable defense components.
-
-- **[AST SpaceMobile Jumps 5% on Takeover Speculation; Rocket Lab Rises 5%, SpaceX Treads Water](https://finnhub.io/api/news?id=cf8378397b189cf534c37486827b99efb7f82bd0bd1c5fdfd7e8079f001528c2)**  
-*Yahoo · 11h前*  
-A quiet executive compensation filing at AST SpaceMobile set off a wave of takeover speculation Wednesday, sending shares surging alongside Rocket Lab while inv…
+A full load of the huge rocket's new satellites can add as much Starlink capacity as around 20 Falcon 9 launches. So where does this leave the medium-lift rocke…
 
 ---
 
@@ -59,4 +59,4 @@ A quiet executive compensation filing at AST SpaceMobile set off a wave of takeo
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:05 HKT*
