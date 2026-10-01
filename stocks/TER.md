@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$401.30** |
-| 今日變動 | ▲ $2.92　(+0.73%) |
+| 現價 | **$400.91** |
+| 今日變動 | ▼ $2.11　(-0.52%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,546　(▲336.2%) |
+| 未實現盈虧 | ▲ $1,545　(▲335.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $368.97 | — |
-| Put Wall（支撐） | $390.00 | -2.8% |
-| Call Wall（阻力） | $410.00 | +2.2% |
+| Gamma Flip | $371.88 | — |
+| Put Wall（支撐） | $390.00 | -2.7% |
+| Call Wall（阻力） | $410.00 | +2.3% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Teradyne (NASDAQ:TER): Affordable Growth With Elite Quality and a Reasonable Valuation](https://finnhub.io/api/news?id=d7c1b16755d56fef603d962b6dd0fcf0b32b548db6972a79dae1660c68ac11f3)**  
-*ChartMill · 3h前*  
-Teradyne fits the Affordable Growth screen with strong forward growth, elite health, and a valuation reasonable relative to its growth.
+- **[Is Teradyne (TER) a Buy as Wall Street Analysts Look Optimistic?](https://finnhub.io/api/news?id=255c5723aed6178f259946ea2d47d757b4eb3ce71cc80ec58180dd16cbd6d630)**  
+*Yahoo · 12h前*  
+The average brokerage recommendation (ABR) for Teradyne (TER) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the eff…
 
-- **[Is Teradyne (TER) Fully Valued On Its Latest Semiconductor And Robotics Expansion?](https://finnhub.io/api/news?id=f1a4393f6fc6c71181ee15266fc2aca29d3a29ec9a1c442253011642295f4d84)**  
-*Yahoo · 8h前*  
-Why Teradyne Stock Is Back in Focus Teradyne (TER) has moved back onto investor radars after a flurry of company news, including a new GS Microelectronics partn…
+- **[Teradyne (TER) Debuts Magnum E2 For AI Memory Testing](https://finnhub.io/api/news?id=0c5a91281128a25ae5ce49564c2e72931bc4e74223841be5a5cae4c0d57d4a5a)**  
+*Yahoo · 1d前*  
+Teradyne (NasdaqGS:TER) introduced its Magnum E2 high-speed memory test system for next-generation DRAM and flash used in AI data centers. The Magnum E2 platfor…
 
-- **[Teradyne (TER) Is Up 5.2% After New AI-Optical Test Push And India Expansion - Has The Bull Case Changed?](https://finnhub.io/api/news?id=0b9827570b7505ccab8a8908f9e71924bba3ac8320ce1fb802c7c8a0389c0db1)**  
-*Yahoo · 9h前*  
-In September 2026, Teradyne and GS Microelectronics U.S. formed a multi-year partnership to build a Teradyne-equipped semiconductor test and evaluation center i…
+- **[Donald Trump, Cathie Wood Bet on the Same 32 Stocks – Some Might Surprise You](https://finnhub.io/api/news?id=d045ab6b0c4376bf4a2ea7aa473ff0560d74d081f9b6d94301e57de6a14ea47f)**  
+*Benzinga · 1d前*  
+A look at the stocks that are owned by Cathie Wood&#39;s Ark Invest and Donald Trump.
 
 ---
 
@@ -48,7 +48,7 @@ In September 2026, Teradyne and GS Microelectronics U.S. formed a multi-year par
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-29 | 監控 | $401.30 | — | 自動更新 |
+| 2026-10-01 | 監控 | $400.91 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ In September 2026, Teradyne and GS Microelectronics U.S. formed a multi-year par
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
