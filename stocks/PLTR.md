@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$187.48** |
-| 今日變動 | ▼ $2.19　(-1.15%) |
+| 現價 | **$187.05** |
+| 今日變動 | ▲ $0.08　(+0.04%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $442　(▲50.8%) |
+| 未實現盈虧 | ▲ $439　(▲50.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $169.90 | — |
-| Put Wall（支撐） | $170.00 | -9.3% |
-| Call Wall（阻力） | $200.00 | +6.7% |
+| Gamma Flip | $174.66 | — |
+| Put Wall（支撐） | $185.00 | -1.1% |
+| Call Wall（阻力） | $200.00 | +6.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Earnings Loom as Valuation Divide Takes Center Stage](https://finnhub.io/api/news?id=457ef15b1f290eaab61e16399bd7427865b3d5119e26c6ded99a411c45976599)**  
-*ChartMill · 0h前*  
-AI stocks face earnings test as valuation gap widens; AMD, Palantir, Salesforce, and Snowflake results expose growth vs. profitability divides.
-
-- **[AI Jitters, Oil, Bond Outlooks Cap Wall Street Pre-Bell; Asia Off, Europe Up](https://finnhub.io/api/news?id=f6f2f17101bdb622fe3f101dec72beed040124ed751866882136c7637a4ea89f)**  
+- **[ServiceNow vs. Palantir Technologies: Which Tech Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=798e106826e9de2192270e05537827876be12e9f21ed313169722199fe0ca1de)**  
 *Yahoo · 1h前*  
-Wall Street futures were muted pre-bell Tuesday as traders awaited clarity on the AI sector, and wei
+Palantir's hypergrowth and profitability are rare at this scale, while ServiceNow offers the kind of steady, compounding enterprise platform that rewards patien…
 
-- **[3 S&P 500 Stocks to Target This Week](https://finnhub.io/api/news?id=78341468d52b0f706a78c44b7f129bb142879bdffd5ef4406c43f76f0dc82b62)**  
-*Yahoo · 2h前*  
-The S&P 500 (^GSPC) is full of established businesses, but only some continue to outperform the market. A few standout companies are thriving thanks to strong f…
+- **[Palantir CEO Karp drops "Warfighter" hot take before super intelligence meeting at White House](https://finnhub.io/api/news?id=222aed307a295ec902c3560abffbcae19d7f6c84dbc8ed0052cf2da166da090b)**  
+*Yahoo · 4h前*  
+Karp’s latest remarks put Palantir’s AI promise under scrutiny.
+
+- **[Was There Any Sign Palantir Stock Would Run?](https://finnhub.io/api/news?id=f2ae93e6291a58a5a4a8b2a4c4cd6f8c6ee3a9038cfdc413cead7447478ea89c)**  
+*Yahoo · 5h前*  
+Palantir Technologies (PLTR) stock returned 60.3% in the three months from June 30 to September 29, 2026. A $10,000 holding at the start of that window was wort…
 
 ---
 
@@ -48,7 +48,7 @@ The S&P 500 (^GSPC) is full of established businesses, but only some continue to
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-29 | 監控 | $187.48 | — | 自動更新 |
+| 2026-10-01 | 監控 | $187.05 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The S&P 500 (^GSPC) is full of established businesses, but only some continue to
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
