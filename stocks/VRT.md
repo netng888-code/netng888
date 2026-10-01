@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$244.04** |
-| 今日變動 | ▼ $9.24　(-3.65%) |
+| 現價 | **$241.31** |
+| 今日變動 | ▼ $7.03　(-2.83%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $119　(▼19.7%) |
+| 未實現盈虧 | ▼ $125　(▼20.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $254.45 | — |
-| Put Wall（支撐） | $220.00 | -9.9% |
-| Call Wall（阻力） | $260.00 | +6.5% |
+| Gamma Flip | $250.90 | — |
+| Put Wall（支撐） | $220.00 | -8.8% |
+| Call Wall（阻力） | $260.00 | +7.7% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[These S&P500 stocks that are showing activity before the opening bell on Tuesday.](https://finnhub.io/api/news?id=c45aa58597c7d4b6bc61b8c98f39d0afb15082d94b61de4bd058035988bab9b9)**  
-*ChartMill · 0h前*  
-As the US market prepares to open on Tuesday, let's get an early glimpse into the pre-market session and identify the S&P500 stocks leading the pack in terms of…
+- **[Should You Think About Vertiv Differently Now?](https://finnhub.io/api/news?id=d00ed75c6fbc959803571a919a52aae7df0d9677171f24d3418ec31d0db9850d)**  
+*Yahoo · 6h前*  
+Vertiv (VRT) stock trades at 55.1 times earnings, against 21.9 for the S&P 500. At that price, investors expect years of fast growth from AI data centers. For t…
 
-- **[2 Profitable Stocks with Promising Prospects and 1 We Avoid](https://finnhub.io/api/news?id=8bc1c7bb9e8a291585cfa531d4933b9ae736227e9a1a001c9b12acd015eb001c)**  
-*Yahoo · 3h前*  
-While profitability is essential, it doesn’t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies …
+- **[Flex: Strong CPI Growth, EPC Power, And The Spin-Off Support Further Upside](https://finnhub.io/api/news?id=a20edc16347dacfbf25a21193eab723b64e53d6f73c8ae53b37b7622dabaf6a8)**  
+*SeekingAlpha · 7h前*  
+Flex Ltd. is well-positioned for strong growth, driven by robust demand in its CPI segment and the EPC Power acquisition. Click to read more on FLEX stock.
 
-- **[The AI Bubble Question Is Wrong: Follow The Economics Across The Value Chain](https://finnhub.io/api/news?id=ae2e91936e47a207b4f05643ca7d161f2f9484454b2908c266e034595e05de51)**  
-*SeekingAlpha · 4h前*
+- **[3 Reasons Why Growth Investors Shouldn't Overlook Vertiv (VRT)](https://finnhub.io/api/news?id=926eb955270122deda6faef0faf9b643291105ec0cb69ed96202cc894dbc45a7)**  
+*Yahoo · 9h前*  
+Vertiv (VRT) is well positioned to outperform the market, as it exhibits above-average growth in financials.
 
 ---
 
@@ -47,7 +48,7 @@ While profitability is essential, it doesn’t guarantee long-term success. Some
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-29 | 監控 | $244.04 | — | 自動更新 |
+| 2026-10-01 | 監控 | $241.31 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ While profitability is essential, it doesn’t guarantee long-term success. Some
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 09:05 HKT*
