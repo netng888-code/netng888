@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia, Broadcom, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars](https://finnhub.io/api/news?id=4a438b5d0e95cb6bd7403fa88539f5348b58651232f9615f1d3f5d35a122dbaa)**  
-*Yahoo · 1h前*  
-Taiwan Semiconductor is the main foundry for those three chip designers, and its report could impact their stocks, too.
+- **[Anthropic may borrow up to $42bn from Broadcom to lease its chips - report](https://finnhub.io/api/news?id=46c27a725b406569ce2962e40fdfe285815fd78ecbfee53a2367fb2e13b227d0)**  
+*Yahoo · 2h前*  
+Investing.com -- Anthropic has disclosed a $42 billion financing agreement with Broadcom as part of a partnership that extends beyond typical chip supply arrang…
 
-- **[Stock Market Today, Sept. 30: Nvidia Authorizes $150B Buyback, Lifting Total to $235B](https://finnhub.io/api/news?id=896f4a4e19435f89e701a78564b104ce85f21479fba1841fe468e3a7db5e1394)**  
-*Yahoo · 3h前*  
-Today, Sept. 30, 2026, the AI chip giant reinforced management confidence with an expanded repurchase program through 2028.
+- **[The Zacks Analyst Blog Highlights Apple, Microsoft and Broadcom](https://finnhub.io/api/news?id=eb1b1a99a65498e2c6389a4dcf8ce8a7574f6cb1199e3c7650ff4395296fd573)**  
+*Yahoo · 5h前*  
+AAPL, MSFT and AVGO benefit from AI, cloud and infrastructure demand, while supply, capacity and customer risks shape their outlooks.
 
-- **[What Changed In Marvell's Story?](https://finnhub.io/api/news?id=b05b1e969245e0bfbedb856808dedb6899f5e29074591516279fb401e99f90d5)**  
-*Yahoo · 4h前*  
-Marvell Technology (MRVL) stock returned 201% in the past year, against 17.7% for the S&P 500. Investors value it as an AI data center chip company at 85.6 time…
+- **[History Says AMD Stock's $1 Trillion Milestone Isn't a Ceiling](https://finnhub.io/api/news?id=b7deef85221430a024a04d7f5653a91a75e6f3b37f8f949b6802afdcb00b5c74)**  
+*Yahoo · 7h前*  
+The three chipmakers with a full year of history past $1 trillion all kept climbing. Can AMD?
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology (MRVL) stock returned 201% in the past year, against 17.7% fo
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:04 HKT*
