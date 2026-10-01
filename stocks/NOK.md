@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Undercovered Dozen: Vicor, Rayonier, Accenture And More](https://finnhub.io/api/news?id=e1265d9b585534751c4a97e3dcc26f3989e93ae1a830a6690ca4b9a7895b7c20)**  
-*SeekingAlpha · 11h前*
+- **[Inseego Completes Acquisition of Nokia’s Fixed Wireless Access Business](https://finnhub.io/api/news?id=cc7e8b6dd956c3a1ffcf50cf14a57544415abd214aea7b2fe260fe35c4c51a87)**  
+*Yahoo · 5h前*  
+Transaction expected to approximately double Inseego’s revenue and expand its global footprint across Europe, the Middle East, Asia, Oceania, and the AmericasSA…
 
-- **[Nokia Oyj (HLSE:NOKIA) Expands AI Partnerships, Is The Stock Still A Bargain?](https://finnhub.io/api/news?id=f7f057449cff8c1986e0234636ec1f67e8f932ec36fe67f05b702599c6ad056f)**  
-*Yahoo · 12h前*  
-Nokia Oyj (HLSE:NOKIA) is back in focus after two AI related announcements: an expanded Microsoft partnership on automated telecom operations, and a Deepfield C…
+- **[ICEYE and Nokia partner to launch secure and sovereign satellite communications for governments and defense customers](https://finnhub.io/api/news?id=c4a2ec49509e46031c9cb3421e7d492c914776067635e5e5fbf7c8f9cd81e2f6)**  
+*Yahoo · 6h前*  
+ICEYE, the European leader in sovereign intelligence from space, and Nokia, a global leader in connectivity infrastructure, today announced a partnership to dev…
 
-- **[Inseego Names Nick Lambourne Chief Technology Officer to Lead Global Engineering Organization](https://finnhub.io/api/news?id=a560239ae5b164622f792857b5250c8e0bc7fc4f2f34b5c3f2324bd739ba5e00)**  
-*Yahoo · 1d前*  
-Former Particle CTO brings deep cellular and IoT leadership to drive Inseego's global engineering operations and execution, including those from the acquisition…
+- **[Nokia (HLSE:NOKIA) Stock May Be Below Fair Value On AI Partnership Expansion](https://finnhub.io/api/news?id=ae03e0122d39ed64105a62153533f74d8924f8a5ef9b75167bd5b5a899bb0155)**  
+*Yahoo · 11h前*  
+Nokia Oyj has delivered a powerful run over the past few years, which puts a bright spotlight on whether the current share price is supported by the cash the bu…
 
 ---
 
@@ -58,4 +59,4 @@ Former Particle CTO brings deep cellular and IoT leadership to drive Inseego's g
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:04 HKT*
