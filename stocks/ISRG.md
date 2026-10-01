@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Is Wall Street Dead Wrong About Intuitive Surgical? Here's My Honest Answer.](https://finnhub.io/api/news?id=0f46fd3991b6034c5e32178cada89682379b8b97f273d838e33a0f9bc7cce035)**  
+*Yahoo · 4h前*  
+Analysts think this beaten-down healthcare stock will rebound.
+
+- **[The Top HealthTech Questions Landing On Our Desks](https://finnhub.io/api/news?id=7d6465b472d118677c03014527a5f47cd568772afebdfde05f26b16e70df37cb)**  
+*SeekingAlpha · 9h前*  
+Strong performance across the healthtech sector over the past two quarters has sparked renewed market interest in medical innovation.
+
 - **[10x Genomics Begins Atera Shipments as Spatial Biology Demand Rises](https://finnhub.io/api/news?id=8cca48fbe430bc36a7d774e02dac8dc457221328e1ffabebf1c2c888711d55bd)**  
-*Yahoo · 9h前*  
+*Yahoo · 21h前*  
 TXG begins Atera shipments as orders top 40 systems, highlighting strong early demand and broad research interest in its spatial biology platform.
-
-- **[What You Need To Know Ahead of Intuitive Surgical's Earnings Release](https://finnhub.io/api/news?id=489b08f91cd7e3799bac635257a1fd296e3387c2f511a2bdefc8ea2e612e6e0f)**  
-*Yahoo · 10h前*  
-Intuitive Surgical is expected to announce its third-quarter earnings in October, and Wall Street expects the company’s EPS to increase by a single-digit percen…
-
-- **[Move Over Tesla: Intuitive Surgical Shows Why Robotics Could Be Bigger Than Humanoids](https://finnhub.io/api/news?id=68f9383451dfc12a55a62e1731bd2dc387a79c4c3bfbfeb57b9cea4976d528ec)**  
-*Benzinga · 14h前*  
-Tesla’s Optimus is chasing general-purpose robotics, but Intuitive Surgical shows how specialized robots can build massive businesses.
 
 ---
 
@@ -59,4 +59,4 @@ Tesla’s Optimus is chasing general-purpose robotics, but Intuitive Surgical sh
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:05 HKT*
