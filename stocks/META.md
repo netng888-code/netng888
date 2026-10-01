@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **['AI or bust:' Tech trade powered stocks through volatile September](https://finnhub.io/api/news?id=170ba7372fe2294fc40a734dde16cf0abff20301866e10da30e83de3d900198f)**  
-*Yahoo · 2h前*  
-Wall Street fared better than expected in September, given the month's historical reputation as the worst month for stocks.
+- **[Prediction: Meta Stock's Rebound Will Continue as Its AI Infrastructure Spending Starts Paying Off in New Revenue Streams](https://finnhub.io/api/news?id=84e02ec7af5fafd739e5927b9c461470d4861d307f7f1dc8991738d6d432c8ab)**  
+*Yahoo · 1h前*  
+Meta's new Muse AI agents could be a game changer for the stock.
 
-- **[VIG Cannot Own Meta’s or Alphabet’s Dividends Until 2035 at the Earliest: The 10-Year Rule Written Into Its Index](https://finnhub.io/api/news?id=385fe360bd925dc7aec0eaf265ded2160ac19c98a77a7438b11801e72ced6398)**  
-*Yahoo · 2h前*  
-VIG promises exposure to America's greatest dividend growers, but a single rule in its index methodology keeps two of the biggest new payers completely locked o…
+- **[Meta Now Owes $22 Billion More Than It Holds. Here’s Why That Matters](https://finnhub.io/api/news?id=35459cbbc069dfffcad42dcf7466b3de3454d40733fe435a51d363e687443905)**  
+*Yahoo · 1h前*  
+Key TakeawaysMeta’s capex reached $30. 12 billion in the June 2026 quarter against $31.
 
-- **[Tech CEOs questioned Anthropic leader over AI safety warnings, WSJ reports](https://finnhub.io/api/news?id=2e7c30b64a15bca359cc262d3161efd378f87d094791c9aa2fa423cbb8138cad)**  
-*Yahoo · 2h前*  
-Investing.com -- Top artificial intelligence executives confronted Anthropic (NASDAQ:ANTP) Chief Executive Dario Amodei during a high-stakes White House gatheri…
+- **[Vistra’s Price Dropped 30% in 1 Year: Why One Wall Street Analyst Predicts 115% Returns From Here](https://finnhub.io/api/news?id=70e2480e63e873bc8dcfcc516c466542989267ddba01b0879eff0411f98ff165)**  
+*Yahoo · 1h前*  
+Vistra has shed nearly 30% while Wall Street analysts keep raising their price targets, creating a gap that one top analyst thinks is worth 115% upside. The cat…
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Top artificial intelligence executives confronted Anthropic (NA
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:04 HKT*
