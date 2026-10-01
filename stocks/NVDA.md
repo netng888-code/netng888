@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $211.90 | — |
 | Put Wall（支撐） | $220.00 | -3.7% |
-| Call Wall（阻力） | $230.00 | +0.7% |
+| Call Wall（阻力） | $235.00 | +2.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nvidia Could Have a Monster October. Here's Why.](https://finnhub.io/api/news?id=098f9eddad33e548b6ace72d5b5df9d3bca0678e963281149902cb7192461575)**  
-*Yahoo · 0h前*  
-Nvidia expects to grow revenue at a 70% pace next year.
-
-- **[Trend vs. Hype](https://finnhub.io/api/news?id=d7c4a53bcaa40d5f5cfd919bc15bd033ad552f7889f0e5fc52405e163383713f)**  
-*Yahoo · 0h前*  
-Every few years, an investing theme momentarily captures the zeitgeist, but then fades into the background just as quickly. What's part of the hype cycle versus…
-
-- **[Warren Buffett's Record: $1,000 Became About $61 Million. Can Greg Abel Keep Compounding It?](https://finnhub.io/api/news?id=f64cf8d0bfe65ab93a4ead735ee19ec12352ebade3499f14b6d76e7e942b0c07)**  
+- **[Prediction: Here's What a $5,000 Investment in VUG Could Be Worth in 20 Years](https://finnhub.io/api/news?id=e32e3e0e6c4802bee57368c8374d1431849cdcdea65bdfaf13e9d5f1832c2e27)**  
 *Yahoo · 1h前*  
-Repeating generational returns is a tough ask for any company.
+Here's how much an investment in VUG can grow under different scenarios.
+
+- **[These 5 AI chip stocks are must-own into Q4, BofA says](https://finnhub.io/api/news?id=20e161539e22c22accecb37f63a4fe71bedad59862d353bbaa1c11fd096d8c1f)**  
+*Yahoo · 1h前*  
+Investing.com -- In a note on Thursday, analysts at Bank of America named its top semiconductor picks for the fourth quarter.
+
+- **[Here's What a $10,000 Investment in Nvidia Stock Could Be Worth in 10 Years](https://finnhub.io/api/news?id=87a91de44df55128c9cd980c50e0d9e2740c91795c49dc9bfeb16efbf0aa5e12)**  
+*Yahoo · 1h前*  
+After gaining more than 13,500% over the past decade, Nvidia stock still has plenty of upside potential over the next 10 years.
 
 ---
 
@@ -59,4 +59,4 @@ Repeating generational returns is a tough ask for any company.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:04 HKT*
