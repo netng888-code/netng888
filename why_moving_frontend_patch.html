@@ -1,0 +1,94 @@
+<!--
+  why_moving_frontend_patch.html ── gex_chart_v5_terminal.html  v5.31 新增（4處改動）
+  ════════════════════════════════════════════════════════════════════
+  改動①：HTML —— 貼喺 <!-- AI 分析（v5.4新增） --> 嗰個 <div class="ai-wrap" id="ai-section"> 整個block【之後】、
+         <!-- Dealer Gamma / 資金流趨勢 --> 之前或之後都得（我建議喺AI分析卡之後）。
+-->
+<div class="ai-wrap" id="why-section" style="display:none">
+  <div class="ai-head">
+    <span class="ai-title">🔎 今日點解升跌 · 歸因（Python統計 + AI解釋）</span>
+    <button class="ai-btn" id="why-btn" onclick="runWhyMoving()">🔎 分析最近交易日走勢</button>
+  </div>
+  <textarea id="why-extra" rows="2" placeholder="（可選）貼上牛牛或其他新聞標題，每行一條——例如：OpenAI 發布新模型，由 chat 升級至 AI agent"
+    style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--text);font-family:var(--font-mono);font-size:11px;padding:8px 10px;margin-bottom:10px;resize:vertical;outline:none"></textarea>
+  <div class="ai-body" id="why-body">
+    <span class="ai-placeholder">按「分析」——系統會先用統計拆開：大市 / 板塊 / 公司特定 / 10Y / WTI / BTC / Dealer倉位，每個因素俾出「主要／次要／不支持／證據不足」，再由AI按證據講解。證據唔夠就會明講，唔會硬編原因。</span>
+  </div>
+  <div class="ai-meta" id="why-meta"></div>
+</div>
+
+<script>
+/* 改動②：JS —— 貼喺 runAiAnalysis() 之後（<script> 入面任何位置都得） */
+const WHY_VERDICT_STYLE = {
+  '主要':'color:var(--amber);font-weight:700', '次要':'color:var(--blue);font-weight:600',
+  '背景':'color:var(--purple)', '不支持':'color:var(--muted)', '未見異動':'color:var(--muted)',
+  '證據不足':'color:var(--muted);font-style:italic'
+};
+function escHtml(s){ return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function resetWhySection() {
+  const b = document.getElementById('why-body'), m = document.getElementById('why-meta'), btn = document.getElementById('why-btn');
+  if (b) b.innerHTML = '<span class="ai-placeholder">按「分析」——系統會先用統計拆開各因素，再由AI按證據講解。證據唔夠就會明講。</span>';
+  if (m) m.textContent = '';
+  if (btn) { btn.disabled = false; btn.textContent = '🔎 分析最近交易日走勢'; }
+}
+
+async function runWhyMoving() {
+  if (!lastData) return;
+  const {sym} = lastData;
+  const btn = document.getElementById('why-btn'), body = document.getElementById('why-body'), meta = document.getElementById('why-meta');
+  btn.disabled = true; btn.textContent = '⏳ 分析中...';
+  body.innerHTML = '<span class="spin"></span> 攞日線／宏觀／新聞／GEX，再交畀AI，約15-60秒...';
+  meta.textContent = '';
+  try {
+    const params = new URLSearchParams();
+    const extra = document.getElementById('why-extra').value.trim();
+    if (extra) params.set('extra_news', extra.slice(0, 1500));
+    // 並行攞多個外部源 + GEX + AI(最多30秒+fallback30秒)，worst case可去到約90秒，前端放寬到120秒
+    // （同v3.1教訓一致：前端等待時間一定要大過backend理論worst-case）
+    const r = await fetch(`${BRIDGE}/api/why_moving/${sym}?${params.toString()}`, {signal: AbortSignal.timeout(120000)});
+    const j = await r.json();
+    if (j.error) throw new Error(j.error);
+    const ev = j.evidence;
+
+    let html = `<div style="font-size:12.5px;line-height:1.7;margin-bottom:10px"><b>${escHtml(ev.headline)}</b></div>`;
+    html += '<div style="display:grid;grid-template-columns:auto 70px 1fr;gap:4px 12px;font-size:11.5px;margin-bottom:12px">';
+    ev.hypotheses.forEach(h => {
+      html += `<div>${escHtml(h.label)}</div><div style="${WHY_VERDICT_STYLE[h.verdict] || ''}">${escHtml(h.verdict)}</div><div style="color:var(--muted)">${escHtml(h.detail)}</div>`;
+    });
+    html += '</div>';
+
+    if (ev.news && ev.news.length) {
+      html += '<div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:6px 0 4px">相關新聞（候選催化劑，未證明因果）</div>';
+      ev.news.slice(0, 8).forEach(n => {
+        const tags = n.tags.length ? `<span style="color:var(--purple)">[${escHtml(n.tags.join('/'))}]</span> ` : '';
+        const age = n.age_h != null ? `${Math.round(n.age_h)}小時前` : '手動';
+        const t = n.url ? `<a href="${escHtml(n.url)}" target="_blank" rel="noopener" style="color:var(--text);text-decoration:none">${escHtml(n.title)}</a>` : escHtml(n.title);
+        html += `<div style="font-size:11px;line-height:1.6">${tags}${t} <span style="color:var(--muted)">· ${escHtml(n.source)} · ${age}</span></div>`;
+      });
+    }
+
+    if (j.analysis) {
+      html += `<div style="border-top:1px solid var(--border);margin-top:12px;padding-top:10px;font-size:12.5px;line-height:1.75">${escHtml(j.analysis).replace(/\n/g,'<br>')}</div>`;
+    } else if (j.ai_error) {
+      html += `<div style="margin-top:10px;font-size:11px;color:var(--muted)">⚠ AI解釋失敗（上面統計結果仍然有效）：${escHtml(j.ai_error)}</div>`;
+    }
+    body.innerHTML = html;
+    meta.textContent = `數據日期 ${ev.as_of}${ev.is_today ? '（今日）' : '（最近交易日，非今日）'} · 模型：${j.model || '—'} · 耗時 ${j.elapsed_s}s · 基於日線收市價，唔係盤中即時`;
+  } catch (e) {
+    body.innerHTML = `<span class="err-msg">⚠ 分析失敗：${escHtml(e.message)}</span><br><span style="font-size:10px;color:var(--muted)">確認 futu_bridge_v2.py 已升級到 v3.17</span>`;
+  }
+  btn.disabled = false; btn.textContent = '🔎 重新分析';
+}
+</script>
+
+<!--
+  改動③：renderAll() 入面，搵到 `document.getElementById('ai-section').style.display='';` 嗰句，喺後面加一句：
+      document.getElementById('why-section').style.display='';
+
+  改動④：兩個位：
+    (a) hideAll() 入面搵到 `document.getElementById('ai-section').style.display='none';`，喺後面加：
+          document.getElementById('why-section').style.display='none';
+    (b) loadGex() 入面搵到 `resetAiSection();`，喺後面加：
+          resetWhySection();
+-->
