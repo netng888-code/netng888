@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[These 5 AI chip stocks are must-own into Q4, BofA says](https://finnhub.io/api/news?id=20e161539e22c22accecb37f63a4fe71bedad59862d353bbaa1c11fd096d8c1f)**  
+*Yahoo · 1h前*  
+Investing.com -- In a note on Thursday, analysts at Bank of America named its top semiconductor picks for the fourth quarter.
+
 - **[What Changed In Marvell's Story?](https://finnhub.io/api/news?id=b05b1e969245e0bfbedb856808dedb6899f5e29074591516279fb401e99f90d5)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 Marvell Technology (MRVL) stock returned 201% in the past year, against 17.7% for the S&P 500. Investors value it as an AI data center chip company at 85.6 time…
 
 - **[Is Cerebras' Next Big Thing Already Here?](https://finnhub.io/api/news?id=5cc48d59eda873553181be54ce757e32bedc8ce18c017060ac2b51c76d383f17)**  
-*Yahoo · 5h前*  
+*Yahoo · 17h前*  
 Cerebras Systems (CBRS) sells AI hardware and rents out computing power through its own cloud. The shares trade 37.3% below their 52-week high, even though mana…
-
-- **[Washington Refuses To Regulate AI](https://finnhub.io/api/news?id=bd6dcad00dcb357187fce1e7713a91d262f823f473d2ce2e7cd252cfb7d2d8b8)**  
-*SeekingAlpha · 8h前*  
-The White House AI summit backs self-regulationâbullish for hyperscalers. Learn state-level risks to data center CapEx & top AI trades like Mag 7, MAGS & AIHY…
 
 ---
 
@@ -59,4 +59,4 @@ The White House AI summit backs self-regulationâbullish for hyperscalers. L
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:04 HKT*
