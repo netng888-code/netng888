@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-09-29 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$37.11** |
-| 今日變動 | ▼ $0.93　(-2.44%) |
+| 現價 | **$37.02** |
+| 今日變動 | ▼ $0.09　(-0.24%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▲ $282　(▲23.5%) |
+| 未實現盈虧 | ▲ $278　(▲23.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $38.16 | — |
-| Put Wall（支撐） | $35.00 | -5.7% |
-| Call Wall（阻力） | $45.00 | +21.3% |
+| Gamma Flip | $37.76 | — |
+| Put Wall（支撐） | $35.00 | -5.5% |
+| Call Wall（阻力） | $45.00 | +21.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 Great Nuclear Stocks To Own In September 2026](https://finnhub.io/api/news?id=d246e57a01f0c377503f418a284cdc08bef496a98d9a7ae8080c3f1011ce0c25)**  
-*Yahoo · 1d前*  
-Oil at more than $108 a barrel and fragile trade routes have put reliable electricity supply back in the spotlight. Investors looking beyond short term swings a…
+- **[NuScale Power Rises 4% Despite Dilution Concerns; Uranium Energy Advances 4%, Oklo Gains 2%](https://finnhub.io/api/news?id=d159a91993f85495eedf3d855bd70f5cf395aad7be92c5c6451b2cdb207e3ff5)**  
+*Yahoo · 9h前*  
+NuScale Power climbed Wednesday even as a fresh $750 million share-sale program keeps dilution fears alive, while Oklo and Uranium Energy rode the same nuclear …
 
-- **[2 Nuclear Stocks Crashed by About 50% in 2026. Here's the 1 Thing That Would Bring Them Back.](https://finnhub.io/api/news?id=7df831e1e7e8173716005eb4bff60841a5b553aa857a85f4b7b2635fe217e85a)**  
-*Yahoo · 1d前*  
-Many stocks in the nuclear space have lost ground this year.
+- **[Oklo Just Launched Another $1 Billion Stock Sale. Is This a Worrisome Trend or Business as Usual?](https://finnhub.io/api/news?id=5f051e956ec4244297788f931ee87416a5adc2fb9f7d6c95338e3a8f16824847)**  
+*Yahoo · 9h前*  
+The microreactor maker just launched its second $1 billion ATM offering of the year.
 
-- **[This Nuclear Stock Could Make Patient Investors Rich](https://finnhub.io/api/news?id=8b378222ed0d7d72aa8375ec5d51233d0533eb55ee048a26dbc6f17e5a26c877)**  
-*Yahoo · 2d前*  
-Oklo stock could easily triple if its project pipeline materializes.
+- **[FRVO Stock Slides 16.4% in a Week: Is This an Opportunity?](https://finnhub.io/api/news?id=67da53616eb9310ec5dbe095810fd44dfe430b3fdae002a47aad71c63dafae0b)**  
+*Yahoo · 13h前*  
+Cape Station's First Power and $11.9 billion in contracted revenue bolster Fervo Energy's growth story, while heavy spending and financing needs remain key risk…
 
 ---
 
@@ -48,7 +48,7 @@ Oklo stock could easily triple if its project pipeline materializes.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-09-29 | 監控 | $37.11 | — | 自動更新 |
+| 2026-10-01 | 監控 | $37.02 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Oklo stock could easily triple if its project pipeline materializes.
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-09-29 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
