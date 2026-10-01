@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[NuScale Power Rises 4% Despite Dilution Concerns; Uranium Energy Advances 4%, Oklo Gains 2%](https://finnhub.io/api/news?id=d159a91993f85495eedf3d855bd70f5cf395aad7be92c5c6451b2cdb207e3ff5)**  
-*Yahoo · 9h前*  
+*Yahoo · 21h前*  
 NuScale Power climbed Wednesday even as a fresh $750 million share-sale program keeps dilution fears alive, while Oklo and Uranium Energy rode the same nuclear …
 
 - **[Oklo Just Launched Another $1 Billion Stock Sale. Is This a Worrisome Trend or Business as Usual?](https://finnhub.io/api/news?id=5f051e956ec4244297788f931ee87416a5adc2fb9f7d6c95338e3a8f16824847)**  
-*Yahoo · 9h前*  
+*Yahoo · 21h前*  
 The microreactor maker just launched its second $1 billion ATM offering of the year.
 
 - **[FRVO Stock Slides 16.4% in a Week: Is This an Opportunity?](https://finnhub.io/api/news?id=67da53616eb9310ec5dbe095810fd44dfe430b3fdae002a47aad71c63dafae0b)**  
-*Yahoo · 13h前*  
+*Yahoo · 1d前*  
 Cape Station's First Power and $11.9 billion in contracted revenue bolster Fervo Energy's growth story, while heavy spending and financing needs remain key risk…
 
 ---
@@ -59,4 +59,4 @@ Cape Station's First Power and $11.9 billion in contracted revenue bolster Fervo
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:05 HKT*
