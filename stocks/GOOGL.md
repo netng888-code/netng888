@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-01 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[VIG Cannot Own Meta’s or Alphabet’s Dividends Until 2035 at the Earliest: The 10-Year Rule Written Into Its Index](https://finnhub.io/api/news?id=385fe360bd925dc7aec0eaf265ded2160ac19c98a77a7438b11801e72ced6398)**  
-*Yahoo · 2h前*  
-VIG promises exposure to America's greatest dividend growers, but a single rule in its index methodology keeps two of the biggest new payers completely locked o…
+- **[Dow Jones Futures Rise, S&P 500 Finds Key Support As Micron Earnings Crush Views; Oil Prices, Treasury Yields In Focus](https://finnhub.io/api/news?id=b93e8f88558ad486df4a8905d374656b0c7d744546d6cba83f30821413876c8d)**  
+*Yahoo · 1h前*  
+Futures: The S&P 500 is trying to bounce off its 50-day line amid high oil prices and Treasury yields. Micron earnings easily beat.
 
-- **[The $30M company run with zero employees](https://finnhub.io/api/news?id=f576b4b6eb82d2ae6d2b0efd5d4fffd0fa13d2202b31b700509d76f7818eef78)**  
-*Yahoo · 2h前*  
-The $30M company run with zero employees
+- **[Google's Gemini 4 Takes Aim At Wall Street's AI Doubts — And Rivals' Pricing](https://finnhub.io/api/news?id=553b4dc89cf25201f711453048f3d8363563fc1a8650aaf2e812a1b8cb71e9e9)**  
+*Yahoo · 1h前*  
+Wall Street cheered Alphabet's release of a new artificial-intelligence model, called Gemini 4 Argon, after delays. Google stock climbed.
 
-- **[Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise](https://finnhub.io/api/news?id=70621d3264f819ce191cd5084fd2f0e9b0b998cdc1a56523ec51421ff4fec6c5)**  
-*Yahoo · 3h前*  
-The Nasdaq faded while the S&P 500 fell to its 50-day as Treasury yields keep running. Micron earnings easily beat views.
+- **[Everyone Is Wrong About The Anthropic IPO](https://finnhub.io/api/news?id=364f118f5474cbae87d00e7785c6af41f8680aed764ec5713cca6e7ed64d486c)**  
+*Yahoo · 2h前*  
+Anthropic's IPO prospectus just leaked, and the numbers paint a complicated picture: a $42B loss, nearly $4.6B in revenue, and a rumored $2 trillion valuation t…
 
 ---
 
@@ -59,4 +59,4 @@ The Nasdaq faded while the S&P 500 fell to its 50-day as Treasury yields keep ru
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-01 21:04 HKT*
