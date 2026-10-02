@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$725.18** |
-| 今日變動 | ▼ $13.61　(-1.84%) |
+| 現價 | **$725.93** |
+| 今日變動 | ▲ $0.75　(+0.10%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $357　(▲19.6%) |
+| 未實現盈虧 | ▲ $359　(▲19.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $614.36 | — |
-| Put Wall（支撐） | $700.00 | -3.5% |
-| Call Wall（阻力） | $750.00 | +3.4% |
+| Gamma Flip | $616.32 | — |
+| Put Wall（支撐） | $700.00 | -3.6% |
+| Call Wall（阻力） | $750.00 | +3.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Prediction: Meta Stock's Rebound Will Continue as Its AI Infrastructure Spending Starts Paying Off in New Revenue Streams](https://finnhub.io/api/news?id=84e02ec7af5fafd739e5927b9c461470d4861d307f7f1dc8991738d6d432c8ab)**  
-*Yahoo · 1h前*  
-Meta's new Muse AI agents could be a game changer for the stock.
+- **[Mark Zuckerberg's Muse Could Charge You for Saving You Money — META President Reveals AI Agent's Potential Monetization Model](https://finnhub.io/api/news?id=421b43e37cc2d92c5952424447d0329b1f186f664560277d56702d6c09b6f54c)**  
+*Yahoo · 3h前*  
+Meta Platforms Inc. is exploring transaction fees and paid subscriptions as potential ways to monetize its artificial intelligence service, Muse. Meta President…
 
-- **[Meta Now Owes $22 Billion More Than It Holds. Here’s Why That Matters](https://finnhub.io/api/news?id=35459cbbc069dfffcad42dcf7466b3de3454d40733fe435a51d363e687443905)**  
-*Yahoo · 1h前*  
-Key TakeawaysMeta’s capex reached $30. 12 billion in the June 2026 quarter against $31.
+- **[Dow Jones Futures: Stocks Rise Off Support As Yields Tumble, Micron, Meta In Focus; Tesla, Jobs Report Due](https://finnhub.io/api/news?id=fcf67aa83e6e7c7f767d7e5f3acab229f459cc21c7999b5f79d77630c862e083)**  
+*Yahoo · 3h前*  
+Stock market rises slightly off key levels with Micron, Lumentum around buy points. Tesla deliveries, jobs report loom.
 
-- **[Vistra’s Price Dropped 30% in 1 Year: Why One Wall Street Analyst Predicts 115% Returns From Here](https://finnhub.io/api/news?id=70e2480e63e873bc8dcfcc516c466542989267ddba01b0879eff0411f98ff165)**  
-*Yahoo · 1h前*  
-Vistra has shed nearly 30% while Wall Street analysts keep raising their price targets, creating a gap that one top analyst thinks is worth 115% upside. The cat…
+- **[Can Reality Labs Ever Earn Enough to Justify Meta’s Spending?](https://finnhub.io/api/news?id=446dacbe4bbef14075601000880d2a9dbc3a41e3f86feb260047fbb4ded53866)**  
+*Yahoo · 3h前*  
+Meta Platforms, Inc. (NASDAQ:META) earns enough from its apps to fund a business that loses billions of dollars each quarter. That financial capacity gives Real…
 
 ---
 
@@ -48,7 +48,7 @@ Vistra has shed nearly 30% while Wall Street analysts keep raising their price t
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-01 | 監控 | $725.18 | — | 自動更新 |
+| 2026-10-02 | 監控 | $725.93 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Vistra has shed nearly 30% while Wall Street analysts keep raising their price t
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 09:04 HKT*
