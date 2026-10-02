@@ -82,7 +82,7 @@ v1.4:【重要bugfix】修正「週日夜盤／週五收市」被誤判做weeken
       就冇呢個問題（因為週五本身weekday<5，job仍然會行，淨係
       session標籤錯咗）。
       修正：兩個function都加返「owning trading day」邏輯——
-      週日20:00–23:59 ET視為週一夜盤（用「明日」查假期表）、
+      週日20:00–23:59 ET視為週一夜盤已開始（用「明日」查假期表）、
       週五20:00–23:59 ET視為真正weekend（冇夜盤）、週六全日
       維持weekend。詳細分界見兩個function嘅docstring。
 v1.5:【重要bugfix】修正GOOGL績後大跌完全冇觸發自動警報嘅問題——
@@ -179,7 +179,7 @@ v1.8（2026-08-02）：兩項改動：
           reasoning:{"effort":"low","exclude":true}盡量壓低
           reasoning token消耗；content經None/空字串檢查後當做同
           403/逾時同一類「呢個model今次搞唔掂」情況，自動fallback
-          去FALLBACK_MODEL，唔會再淨係將None直接return俾用戶。
+          去FALLBACK_MODEL，唔會再淨係將None直接return俾用戶見到。
 v1.9（2026-08-05）【重要修正】：gex_refresh_job() 並行度由18降到4。
       背景：從bot terminal log發現一個穩定Pattern——18隻齊齊fire
       request嗰陣，成個job淨係使6秒左右就完成，但成功率穩定喺
@@ -194,13 +194,378 @@ v1.9（2026-08-05）【重要修正】：gex_refresh_job() 並行度由18降到4
       改用呢個常數，令request分成約5批陸續打去bridge；連帶
       as_completed()整體timeout由50秒放寬到180秒，配合降低咗嘅
       並行度（job本身30分鐘先跑一次，多等幾十秒完全負擔得起）。
+v1.10（2026-08-13）：ALL_HOLDINGS持倉同步——
+      (1) NOK加倉50股@$10.33（150→200股，成本重新加權至$12.458）；
+          舊版呢度寫住100股@$13.50，同其他4個檔案（CSV/index.html/
+          gex_chart_v5_terminal.html/github_gex_updater.py）記錄嘅
+          150股@$13.167對唔上，已一併修正做交易後正確嘅200股@
+          $12.458。
+      (2) LITE以$940全數沽出1股（成本$820，此筆已實現+$120），
+          倉位已清，移除呢個entry。
+      ⚠️ 注意：MU（呢度5股，其他檔案1股）／MRVL（成本238.605，
+      其他檔案257.303）／OKLO（20股@21.067，其他檔案30股@27.745）
+      呢3隻喺呢個檔案入面都仲係舊數字，同CSV/index.html/
+      gex_chart_v5_terminal.html已經有出入——呢次改動範圍淨係
+      NOK/LITE（今次實際交易嗰兩隻），冇一併修正呢3隻，需要用戶
+      確認正確數值後再手動同步。
+v1.11（2026-08-13 續）：AVGO加倉3股@約$388（10→13股，成本重新
+      加權至$378.602）——用戶已喺github_gex_updater.py自行更正
+      呢筆交易數據，呢度同步返ALL_HOLDINGS，其餘檔案（CSV/
+      index.html/gex_chart_v5_terminal.html）一併同步；
+      github_gex_updater.py本身維持用戶自行更正嘅版本，冇再重複
+      改動。MU/MRVL/OKLO嘅v1.10已知落差維持未解決，等用戶確認。
+v1.12（2026-08-14）：兩項改動——
+      (1)【重要修正】GEX_LIVE_CACHE_TTL 由1800秒（30分鐘）大幅
+         拉長到72000秒（20小時）。背景：用戶反映/gex查詢／GEX
+         警報幾乎永遠顯示「.md快照」嚟源，即使Bridge/OpenD明明
+         已連接（現價都顯示緊「Futu·夜盤」）。查證發現：
+         GEX_LIVE_CACHE_TTL（30分鐘）同gex_refresh_job()自己嘅
+         refresh週期（30分鐘）啱啱好相等，完全冇buffer；更關鍵
+         嘅係，_gex_live_cache入面嘅數據淨係喺gex_refresh_job()
+         成功call到bridge嘅/api/gex/{sym}先會寫入——而bridge嘅
+         get_gex()會用option_valid呢個flag filter期權snapshot
+         （同HSI用嘅index_valid同一套設計，見futu_bridge_v2.py），
+         美股期權淨係喺09:30–16:00 ET（約6.5小時）交易，夜盤／
+         盤前／盤後呢~17.5小時期權市場根本冇開市，Futu好大機會
+         將啲期權quote標做option_valid=False，被bridge filter
+         哂，令call_wall/put_wall變成None——呢個時候
+         _fetch_one_gex()視為失敗，_gex_live_cache完全攞唔到
+         新數。結果：一日24小時入面，只有期權交易緊嗰~6.5小時
+         （+30分鐘TTL buffer）先有機會見到「Futu即時」，其餘
+         ~17小時（幾乎等於成個夜盤/盤前/盤後）幾乎必然跌返
+         .md快照——呢個唔止PLTR一隻，係全部18隻持倉喺呢啲時段
+         嘅共同現象（用戶提供嘅截圖入面RKLB/PLTR/VRT同一批警報
+         全部都係.md快照，證實咗呢點）。
+         修正：GEX Wall本身建基於期權OI，期權市場一休市，Wall
+         理應唔會變，用「最後一次喺交易時段成功計出嚟嘅Futu即時
+         GEX」去覆蓋成個夜盤/盤前/盤後，會比跌返去「Barchart每日
+         21:00先更新一次」嘅.md快照更貼近實況、更少delay。將TTL
+         拉長到20小時，令regular session（09:30–16:00 ET）內最近
+         一次成功嘅refresh結果，可以持續覆蓋到下一個交易日
+         premarket開始為止，唔會再喺收市30分鐘後就跌返去用日更
+         一次嘅.md快照。
+      (2) ALL_HOLDINGS 全面同步（對齊index.html／
+         gex_chart_v5_terminal.html PORTFOLIO object／最新CSV）：
+           MU：5股 → 1股（cost $557.857不變）
+           NVDA：15股@$148.50 → 10股@$160.125
+           MRVL：cost $238.605 → $257.303（10股不變）
+           OKLO：20股@$21.067 → 30股@$27.745
+           PLTR：7股@$124.335 → 12股@$127.304（2026-08-04
+                 加倉5股@$131.46後嘅新加權平均成本）
+         呢5隻之前散落喺v1.10/v1.11遺留嘅已知落差（詳見上面兩個
+         版本嘅changelog備註），而家一次過同步返晒，同其餘12隻
+         （GOOGL/AVGO/TER/META/NOK/RDW/LEU/RKLB/ISRG/VRT/RR/
+         SERV）一樣，同其他4個檔案（CSV/index.html/
+         gex_chart_v5_terminal.html/github_gex_updater.py）完全
+         對齊，五檔同步規則正式追平。
+v1.13（2026-08-14 續）：三項改動，回應用戶截圖反映嘅兩個bug：
+      (1)【重要bugfix】_gex_live_cache 由純記憶體dict改做同步
+         持久化到 gex_live_cache.json（同alerts.json／
+         known_chats.json／futu_bridge_v2.py嘅gex_trend_
+         snapshots.json一貫做法一致）。背景：用戶截圖顯示PLTR／
+         OKLO／ISRG嘅GEX警報，即使已經升級到v1.12（20小時TTL）
+         之後，wall_src依然顯示".md快照"而唔係"Futu即時"。查證
+         發現v1.12個TTL延長本身冇錯，但漏咗一個更根本嘅缺口：
+         _gex_live_cache係一個純Python記憶體dict，Bot process
+         一旦重啟（例如電腦重啟、Task Scheduler重新執行、或者
+         人手Ctrl+C重開），呢個dict會直接歸零，20小時TTL完全
+         幫唔到手——因為TTL淨係限制「幾耐之前嘅數據仲有效」，
+         唔會令個dict喺process重啟後憑空記得返舊數據。如果Bot
+         啱啱喺regular session之外（例如盤後/夜盤）先重啟，個
+         cache由零開始，要等到下一個regular session（期權市場
+         重開，option_valid先會轉返true）先有機會再次成功refresh
+         入cache，呢段期間（可能成日甚至跨埋一晚）會一直fallback
+         去.md快照，同v1.12想解決嘅問題本質上一樣，只不過觸發
+         條件由「TTL過期」變成「process重啟」。
+         修正：新增 _load_gex_live_cache_from_disk() /
+         _save_gex_live_cache_to_disk()，set_gex_live()每次寫入
+         都同步落JSON檔（同上面總結嘅其他JSON持久化一致風格），
+         main()啟動時讀返上次留低嘅快取——即使Bot process重啟，
+         上一個regular session成功攞到嘅GEX Wall數據依然喺度，
+         20小時TTL先至真正可以喺跨process重啟嘅情況下發揮作用。
+      (2) gex_refresh_job()嘅_fetch_one_gex()：response狀態碼
+         200但call_wall/put_wall缺失（例如bridge嗰邊option_valid
+         filter完全冇剩低有效期權行）嘅情況，舊版完全靜默、冇任何
+         log——今次加返一句print，將bridge回傳嘅error欄位（如果
+         有）一併打印出嚟，方便日後排查邊隻symbol持續攞唔到GEX
+         係bridge端問題定係單純冇成功refresh過。
+      (3)【重要bugfix】cmd_ask()（/ask指令）一直冇call
+         compute_wall_status()——同build_gex_prompt()（/gex用緊
+         嗰個）唔同，cmd_ask()淨係將Put Wall/Call Wall/Gamma Flip
+         原始數字直接串落prompt文字，叫AI自己喺自然語言度計算
+         現價相對邊個Wall嘅方向，正正係v1.2 AVGO事件已經證實過
+         好易錯嗰種做法（呢次係/ask AVGO分析出現「股價392.75低於
+         Put Wall(410)/Call Wall(420)嘅區間，卻話「已逼近Call
+         牆」、仲話係「正Gamma區」」——兩者都同Gamma Flip(404)/
+         Put Wall(410)嘅實際數值關係矛盾，AI自己計方向計錯咗，
+         同AVGO事件屬同一種錯誤，只不過發生喺/ask呢條冇受
+         compute_wall_status()保護嘅code path）。
+         修正：cmd_ask()而家針對每隻提及嘅持倉symbol，都會call
+         compute_wall_status()將現價相對Put/Call Wall/Gamma Flip
+         嘅方向預先計算好，連同「唔准重新計算方向」嘅指示一齊
+         塞入prompt——同build_gex_prompt()同一套原則。順便將GEX
+         數據來源由「淨係讀.md快照」改為優先call fetch_futu_gex()
+         攞Futu即時GEX（同/gex一致），.md做fallback，减少因為
+         用緊過時嘅21:00快照數據而令分析同即市現價脫節。
+v1.14（2026-08-15）：/gex 新增K線圖（呼應「GEX+K線terminal」網頁版
+      嘅做法搬落Telegram）——用戶反映Bot淨係有GEX by Strike嘅長條
+      圖，冇K線圖，睇唔到「散戶價格行為」呢一半。
+      新增 fetch_futu_kline()：call bridge嘅/api/kline/{sym}（見
+      futu_bridge_v2.py，已有MA9/20/60/布林線/RSI，唔使改bridge），
+      支援period參數（1/5/15/30/60分鐘、D/W/M，同bridge一致）。
+      新增 generate_kline_chart()：用mplfinance畫暗色主題candlestick
+      圖（同generate_gex_chart()嘅配色風格一致：漲#00d4aa／
+      跌#ff4d6d／背景#0a0c10），疊加MA9(琥珀)/MA20(藍)/MA60(紫)，
+      底部帶成交量subplot；若已有GEX數據（futu_gex），仲會將Gamma
+      Flip(白)/Call Wall(綠)/Put Wall(紅)/Max Pain(粉紅)四條水平線
+      直接疊落K線圖度——同gex_chart_v5_terminal.html嘅K線+GEX橫線
+      做法一致，等用戶一張圖睇晒「現價相對Wall嘅位置」點樣隨時間
+      演變，唔使分開睇兩張圖再自己腦內對照。
+      cmd_gex()新增：
+      (1) /gex NVDA 60 — 第二個參數可選period（1/5/15/30/60/D/W/M，
+          唔輸入預設D日線，60分鐘等intraday期數用count=180，日/週/
+          月線用count=90），用法提示已同步更新。
+      (2) K線圖發送順序排喺GEX by Strike長條圖之前（先睇價格行為，
+          再睇期權倉位分佈），K線圖攞唔到（bridge離線/mplfinance
+          未裝/symbol冇K線）唔會影響後面GEX數字/AI分析繼續發送。
+      新增pip依賴：mplfinance（純畫圖用，冇加任何新嘅Futu/OpenRouter
+      API call）。
+v1.15（2026-08-15 續）【兩個重要bugfix，用戶截圖+終端log交叉核實】：
+      (1) K線圖冇顯示——用戶反映升級v1.14後/gex完全冇K線圖，冇任何
+          error提示。根源：generate_kline_chart()舊版`except
+          ImportError: return None`完全靜默，最大機會係本機未
+          `pip install mplfinance`（v1.14先新加嘅依賴，之前
+          冇裝過），import失敗就靜靜雞跳過，用戶睇落好似「冇做
+          嘢」。修正：fetch_futu_kline()／generate_kline_chart()
+          兩個function嘅所有失敗分支（連唔到bridge/K線為空/
+          mplfinance未裝）而家都會print返具體原因落終端log；
+          cmd_gex()新增kline_sent旗標，K線攞唔到嗰陣仲會喺
+          Telegram主訊息度加一句提示（「確認本機已pip install
+          mplfinance pandas」），唔使淨係睇終端log先知。
+      (2)【更嚴重】/ask同/gex嘅AI分析步驟卡死喺「分析中/正在生成
+          分析...」永遠冇下文——終端log顯示
+          `telegram.error.BadRequest: Can't parse entities: can't
+          find end of the entity starting at byte offset 858`。
+          根源：cmd_gex()／cmd_ask()舊版將DeepSeek/Kimi生成嘅自由
+          文字直接用`parse_mode="Markdown"`發送，冇任何try/except；
+          LLM輸出嘅文字冇任何機制保證每次啲Markdown特殊符號
+          （*、_、`、[ 等）都啱啱好配對晒，一旦剛好出現單獨一個
+          冇閉合嘅符號，Telegram官方Markdown parser會直接拒絕成個
+          message完全唔送出，個await拋BadRequest，command coroutine
+          就喺嗰度死咗（PTB冇註冊error handler，淨係log低exception，
+          唔會累到成個bot process崩潰，但用戶見到嘅就係停喺
+          「分析中...」永遠冇下文）。呢類bug唔係一次性修正就唔會
+          再發生——只要AI輸出係自由文字，理論上隨時可以再撞到。
+          修正：新增safe_reply_markdown()——先試Markdown parse_mode
+          發送，撞到"can't parse entities"呢類BadRequest就自動改用
+          冇parse_mode（純文字）重試一次，寧願AI分析嗰段文字冇晒
+          bold/斜體格式，都好過成個回覆完全送唔到。cmd_gex()嘅AI
+          分析、cmd_gex()嘅主GEX數字文字、cmd_ask()嘅AI分析三個
+          位一律經呢個helper發送。
+v1.16（2026-08-15 續）【兩個重要修正，用戶引用另一個Claude
+      instance嘅獨立分析交叉核實後確認】：
+      (1) GEX情境敘事方向喺Long Gamma狀態下講反咗——build_gex_
+          prompt()舊版第2、3點無條件寫死「突破Call Wall→Gamma
+          Squeeze加速升勢」／「跌穿Put Wall→拋售鏈加速跌勢」，
+          完全冇理會dealer_bias係LONG_GAMMA定SHORT_GAMMA。但呢個
+          codebase自己嘅慣例（compute_wall_status()「正Gamma區＝
+          波動相對受抑制」、dealer_bias標籤「Long Gamma＝市場
+          穩定」）已經講明：Long Gamma環境下Dealer避險方向理論上
+          應該係「壓抑」（漲沽跌買，mean-reverting），唔係
+          「加速」——舊版prompt對Long/Short Gamma兩種情況一律用
+          同一套「加速」敘事，喺Long Gamma嗰種情況底下方向就係
+          講反咗，同自己標籤嘅「市場穩定」互相矛盾（實測案例：
+          PLTR 2026-08-15查詢，Net GEX+100.7M／Long Gamma，AI
+          舊版分析依然講「升穿Call Wall會Gamma Squeeze加速噴
+          上」、「跌穿Put Wall會拋售鏈加速下跌」）。
+          修正：新增compute_breakout_scenario(dealer_bias)——同
+          compute_wall_status()一樣嘅設計原則，將突破/跌穿之後
+          Dealer對沖行為係「加速」定「壓抑」波動，一律根據
+          dealer_bias（LONG_GAMMA/SHORT_GAMMA/未知）喺Python
+          code預先寫定正確方向嘅敘事，AI唔准自己另外推斷方向，
+          只可以引用同做語言潤飾。build_gex_prompt()同cmd_ask()
+          （/gex／/ask兩條分析路徑）嘅prompt都已經接入呢個新
+          function，帶埋「突破/跌穿情境方向」呢段結論一齊塞入
+          prompt，同「位置關係」段落用返同一套「必須引用、唔准
+          另外判斷」嘅硬性指示。
+      (2)【重要bugfix】gex_refresh_job()宣告做async def，但內部
+          直接用concurrent.futures.as_completed(futures,
+          timeout=180)——呢個係stdlib同步阻塞call，唔係asyncio嘅
+          嘢，喺coroutine入面咁樣用會令呢段最長180秒嘅等待完全
+          凍結成個asyncio event loop。呢個bot淨係用單一event loop
+          處理晒所有嘢（JobQueue背景job + 全部command handler），
+          event loop一凍結，即係呢30分鐘一次、最長可攪足3分鐘嘅
+          背景job跑緊嗰陣，Bot完全答唔到任何人嘅/gex／/ask等
+          指令，用戶會見到Bot好似「死咗」，但其實只係event loop
+          俾呢個job霸住（ThreadPoolExecutor入面嘅worker thread
+          本身冇問題，問題出喺for future in as_completed(...)
+          呢個迭代loop本身運行喺主event loop thread度，係阻塞
+          call）。
+          修正：新增_run_gex_refresh_sync()——將成段阻塞邏輯
+          （ThreadPoolExecutor建立+as_completed迭代等待）抽出做
+          獨立嘅純同步function，gex_refresh_job()改用await
+          asyncio.to_thread(_run_gex_refresh_sync)將成段邏輯丟去
+          asyncio預設線程池執行，event loop喺await嗰陣會讓出控制
+          權俾其他coroutine，唔會再被呢個job霸住成3分鐘。順手
+          移除咗舊版一句冇用到嘅`loop = context.application.loop
+          ...`死code（pyflakes一路都有flag呢個unused variable）。
+v1.17（2026-08-16）【重要bugfix，用戶截圖實測SKHY週末查詢發現】：
+      market_session_label()舊版純粹用「Finnhub報價年齡 > 15分鐘」
+      一個條件就顯示「⚠️ 非即時報價（X小時前，可能係收市價）」，
+      完全冇理會而家係咪美股休市時段（週末/假期），——喺休市時段，
+      Finnhub報價停留喺上個交易日收市價完全正常、理應如此，但呢句
+      警告嘅語氣好似出咗事，容易誤會Bot/API壞咗（實測：SKHY週末
+      查詢，Finnhub報價29.5小時前，即係上個交易日（週五）收市價，
+      顯示「⚠️ 非即時報價」完全係誤導）。
+      修正：加返休市判斷，優先行is_nyse_trading_day()（已經包埋
+      _NYSE_HOLIDAYS假期list + 週末邏輯，比純睇detect_et_session()
+      個'weekend'標籤更全面——後者對平日假期完全冇檢查，例如感恩節
+      當日9:30-16:00 ET會被誤判做'regular'）：唔係交易日就唔理報價
+      年齡，一律改顯示友善提示「📅 週末休市／假期休市，顯示上一
+      交易日收市數據」；淨係喺確認而家真係交易日（包括夜盤/盤前/
+      盤後/盤中）但報價仍然過舊，先顯示原本嗰句警告——呢個先代表
+      真正值得留意嘅API delay問題，唔會再同「休市所以舊屬正常」
+      呢個情況混為一談。
+      未加pandas_market_calendars做新依賴——is_nyse_trading_day()／
+      _NYSE_HOLIDAYS／US_TZ（zoneinfo）呢一套手動維護嘅假期判斷
+      邏輯本身已經存在（v1.4已建立），直接重用即可。
+v1.18（2026-08-20）：純文字/註解更新，冇邏輯改動——用戶將本機
+      Windows工作排程器嘅GEX_Monitor_Daily（執行github_gex_
+      updater.py）由「每日一次（21:00）」改做「每日兩次（09:00＋
+      21:00）」，令GitHub stocks/*.md快照嘅更新頻率提高一倍，
+      fallback到.md嗰陣嘅最舊delay由最多接近24小時縮短到最多約
+      12小時。以下位置嘅「21:00」相關文字/註解同步更新，反映呢個
+      新頻率（純顯示文字，唔涉及任何判斷邏輯）：
+      (1) 檔首架構圖：「GitHub stocks/*.md（github_gex_updater.py
+          21:00已更新）」→「（github_gex_updater.py 09:00+21:00
+          已更新）」
+      (2) build_gex_prompt()嘅price_note／gex_basis_note：由寫死
+          「21:00緩存價」／「昨日21:00收盤價」改做冇特定時間嘅
+          「.md緩存價」／「.md快照收盤價」——依家一日兩次，寫死
+          「21:00」／「昨日」已經唔準確（例如09:00嗰次run攞到嘅
+          係「今日」凌晨嘅美股收盤數據，唔係「昨日21:00」）
+      (3) cmd_gex()嘅gex_src顯示標籤：「🟡 GitHub 緩存（21:00
+          快照）」→「🟡 GitHub 緩存（.md快照）」
+      (4) /help指令顯示文字：「GitHub .md快照（每日21:00更新，
+          來源：Futu期權鏈）」→「（每日09:00+21:00更新，來源：
+          Futu期權鏈）」
+      舊版changelog（v1.12等）入面提及「Barchart每日21:00先更新
+      一次」嘅歷史段落維持不動——嗰啲係記錄當時（修正嗰一刻）嘅
+      實際狀況嘅歷史記錄，唔係現況描述，改動歷史記錄反而會令人
+      誤解嗰次bugfix發生時嘅背景，故意保留原文。
+v1.19（2026-08-21）：ALL_HOLDINGS新增LYTE（Roundhill Photonics &
+      Optics ETF）——2026-08-20買入30股@$25.00（Futu截圖確認）。
+      VALID_SYMS由ALL_HOLDINGS自動derive，唔使額外改。現時18隻，
+      同gex_chart_v5_terminal.html／index.html／futu_bridge_v2.py
+      US_STOCKS／github_gex_updater.py／CSV同步。LYTE係2026-08-06
+      先上市嘅新ETF，期權鏈/OI可能仲未夠成熟，/gex查詢LYTE時GEX
+      Wall或K線可能數據較薄或完全查唔到，屬正常現象，唔係bug。
+v1.20（2026-08-21 續）：新增「期權到期日曆提醒」背景job——回應
+      用戶提出「Futu冇官方期權到期提醒/事件日曆功能」（已直接問過
+      Futu客服確認），完成gex_chart_v5_terminal.html v5.17「📅 到期
+      日曆」tab之外嘅第二個surface（用戶原話：「先做GEX Terminal
+      網頁日曆」→依家跟埋Telegram Bot嗰邊）。
+      新增 fetch_options_calendar()：call futu_bridge_v2.py v3.5
+      新增嘅/api/options_calendar（同gex_chart_v5_terminal.html
+      「到期日曆」tab用緊完全同一個endpoint，兩個surface共享同一
+      份數據源+Weekly/Monthly/Quarterly分類邏輯，Bot呢邊唔使獨立
+      開發到期日判斷）。
+      新增 opex_reminder_job()：每日08:00 HKT執行一次（用
+      job_queue.run_daily() + Asia/Hong_Kong tzinfo，HKT全年
+      UTC+8冇DST，唔似ET咁要理會夏令時），check未來3日內
+      （OPEX_REMINDER_DAYS_AHEAD）有冇Monthly/Quarterly OPEX，
+      有就推送——Weekly到期太頻密（幾乎每個星期五都有），唔值得
+      日日提醒，同網頁版「到期日曆」摘要橫額用緊嘅篩選邏輯一致，
+      淨係揀monthly/quarterly。新增opex_reminder_log.json做冷卻
+      持久化（同一個sym_date組合只提醒一次，60日前嘅舊記錄自動
+      清走，避免檔案無限脹大），同gex_alert_log.json一貫做法一致。
+      /help文字同步新增呢個功能嘅說明。
+v1.21（2026-09-06）：新增 /cot 指令 + 每週COT自動推送——接入
+      cftc_cot_updater.py（另一個獨立script，逢週六08:00 HKT用
+      Windows工作排程器自動抓CFTC官方Leveraged Funds COT數據，
+      寫入GitHub cot/{ES,NQ}_COT.md，見該檔案自己嘅changelog）
+      嘅輸出，等用戶唔使開瀏覽器/GitHub就可以喺Telegram度睇到
+      「COT weekly（purple Leveraged Funds line）」，同你現有嘅
+      GEX/持倉監控用埋同一個介面。
+      新增fetch_cot_md()：讀GitHub raw cot/{sym}_COT.md，做法
+      同fetch_stock_md()一致（內存緩存+fallback用返舊緩存），但
+      COT_CACHE_TTL特登用21600秒（6小時）而唔係MD_CACHE_TTL嗰個
+      3600秒（1小時）——COT數據本身一週先更新一次（cftc_cot_
+      updater.py淨係逢週六先寫一次GitHub），用返1小時TTL冇意義，
+      淨係嘥GitHub API quota。
+      新增parse_cot_md()：regex-based抽取cftc_cot_updater.py
+      generate_cot_md()生成嘅markdown入面嘅Long/Short/Net/Net佔OI
+      百分比/WoW變化/COT Index分級敘述/近8週mini table，同parse_md()
+      （持倉GEX快照用嗰個）同一套設計原則。
+      新增/cot指令（cmd_cot()）：/cot 顯示ES+NQ兩個，/cot ES或
+      /cot NQ淨顯示單一個，AI唔參與呢個指令——COT Index嘅分級
+      敘述本身已經由cftc_cot_updater.py嘅compute_cot_index()／
+      classify_cot_index()喺Python code度預先計好判斷（同呢個
+      bot自己嘅compute_wall_status()同一設計原則：方向/分級判斷
+      一律由code負責，唔靠LLM自然語言生成），Bot呢度純粹讀取
+      已經計算好嘅結論嚟顯示，唔需要額外嘅AI分析步驟。
+      新增cot_reminder_job()：每週六08:15 HKT執行一次（job_queue.
+      run_daily()+days=(5,)，Python weekday慣例0=週一...5=週六，
+      同opex_reminder_job()一樣用Asia/Hong_Kong tzinfo），刻意排
+      喺Windows工作排程器嘅COT_Monitor_Weekly（週六08:00 HKT）
+      之後15分鐘，留返buffer等cftc_cot_updater.py實際行完、GitHub
+      cot/*.md已經更新先至嚟fetch，避免撞正個檔案仲喺度寫緊嘅
+      空窗期。新增cot_reminder_log.json做冷卻持久化（記錄每個
+      symbol上次已經推送過嘅report_date，同一份報告只推送一次，
+      防止bot process重啟或Task Scheduler手動額外run導致重複
+      推送），同opex_reminder_log.json一貫做法一致。
+      /help文字同步新增呢個指令同自動推送功能嘅說明。
+v1.22（2026-09-19）：ALL_HOLDINGS同步——GOOGL加倉4股@$350.00
+      （12→16股，成本加權至$221.30），同步CSV／index.html／
+      gex_chart_v5_terminal.html／github_gex_updater.py，五檔
+      同步規則走齊。⚠️ 呢次改動範圍淨係GOOGL：呢個檔案MU（仍殘留
+      1股@$557.857，實際已於2026-09-03全數沽清）／NVDA（仍係
+      10股@$160.125，實際已加倉至20股@$189.0625）兩項已知落差
+      維持未解決（歷史遺留，見v1.10/v1.12備註），需要用戶自行
+      確認正確數值後再手動同步。
+v1.23（2026-09-24）：ANALYSIS_MODEL不變（DeepSeek V4 Flash 0731
+      繼續做主力），但FALLBACK_MODEL由moonshotai/kimi-k2.5換做
+      z-ai/glm-5.3-flash——同futu_bridge_v2.py v3.15同一次改動，
+      理由同該檔案changelog一致：用戶提供OpenRouter官方compare
+      頁截圖（GLM Flash Latest vs DeepSeek V4 Flash 0731 vs Kimi
+      K2.5），證實GLM喺Coding（72分）／Agentic（51分）兩項
+      Artificial Analysis benchmark都跑贏Kimi K2.5（47分／冇
+      Agentic數據），標準價（非promo）$0.15/$0.50 per M仍然平過
+      Kimi K2.5嘅$0.45/$2.25，provider diversity完全保持（Z.ai同
+      DeepSeek唔同源）。
+      ⚠️ 刻意揀「z-ai/glm-5.3-flash」呢個釘死版本slug，唔用
+      OpenRouter個「~z-ai/glm-flash-latest」auto-redirect alias
+      ——官方文件明文寫住呢個alias會「always redirects to the
+      latest model in the GLM Flash family」，同呢個bot自己v1.6
+      解釋過嘅原則（ANALYSIS_MODEL刻意揀"-0731"釘死checkpoint、
+      唔用會隨官方發新版靜靜雞轉行為嘅"-latest"／已停用嘅
+      "deepseek-chat"）完全一致，換fallback都唔可以雙重標準。
+      GLM 5.3 Flash嘅reasoning喺OpenRouter官方metadata標明
+      "mandatory":true（唔可以完全熄，只可以揀effort級別），
+      ask_ai()個payload已經帶緊reasoning:{"effort":"low",
+      "exclude":true}+max_tokens=2000（v1.8已經修過嘅reasoning
+      token bug防呆設定），理論上適用，但屬新model未實測過，首次
+      經/gex或/ask觸發fallback時要留意content係咪又變None/空
+      字串。已知trade-off：GLM latency（p50約1.9-4.2秒）比Kimi
+      K2.5（約1.5秒）慢，throughput反而GLM快（35 vs 25 tok/s）
+      但呢度輸出短、優勢有限，fallback觸發時可能要多等1-2秒。
+v1.24（2026-10-02）：ALL_HOLDINGS同步最新Futu CSV（holdings_US_20261001.csv），一次過處理三項：
+      (1) GOOGL加倉4股@$340.00（16→20股，成本加權至$245.04）。
+      (2) NVDA 10@160.125 → 20@189.0625（8/26 Q2業績後盤後加倉10股@$218.00，v1.22已知落差）。
+      (3) 移除MU——已於2026-09-03以$1,000.00全數沽出清倉（已實現+$442.14），v1.22已知落差；
+          ALL_HOLDINGS由18隻變17隻，VALID_SYMS自動跟隨（/alert MU將唔再接受，/gex MU仍然可查）。
+      /report「18隻」字樣同步改17隻。其餘（GEX Wall／警報／COT／AI分析）邏輯完全冇動。
+      五檔同步（CSV／index.html／gex_chart_v5_terminal.html／github_gex_updater.py／telegram_bot.py）
+      數字而家全部對齊。
+═══════════════════════════════════════════════════
 架構：
   Telegram指令
       ↓
-  Futu Bridge /api/quote /api/gex（主要即時來源，見下方
-  fetch_live_quote_futu / fetch_all_quotes_futu / fetch_futu_gex）
+  Futu Bridge /api/quote /api/gex /api/kline /api/options_calendar
+  （主要即時來源，見下方 fetch_live_quote_futu / fetch_all_quotes_futu /
+  fetch_futu_gex / fetch_futu_kline / fetch_options_calendar）
       ↓（Futu離線或個別股票缺數據時）
-  GitHub stocks/*.md（github_gex_updater.py 21:00已更新）+ Finnhub
+  GitHub stocks/*.md（github_gex_updater.py 每日09:00+21:00已更新）+ Finnhub
       ↓
   OpenRouter → DeepSeek V4 Flash 0731（主，穩定pin；因OpenRouter
                帳戶所屬地區被封鎖存取OpenAI/Anthropic/Google）
@@ -209,20 +574,37 @@ v1.9（2026-08-05）【重要修正】：gex_refresh_job() 並行度由18降到4
       ↓
   Telegram回覆
 
+  另外獨立一條線（v1.21新增，冇經過上面GEX pipeline）：
+  cftc_cot_updater.py（週六08:00 HKT，Windows工作排程器）
+      ↓
+  CFTC官方Socrata API（TFF Futures Only）
+      ↓
+  GitHub cot/{ES,NQ}_COT.md
+      ↓（fetch_cot_md，6小時緩存）
+  Telegram /cot 指令 + cot_reminder_job()（週六08:15 HKT自動推送）
+
 指令：
-  /gex NVDA   — 查單隻GEX + AI分析
-  /report     — 發送今日全部18隻摘要
+  /gex NVDA [period]  — 查單隻GEX + K線圖（v1.14新增）+ AI分析
+                         period可選：1/5/15/30/60/D/W/M，預設D
+  /cot [ES|NQ]        — 查CFTC Leveraged Funds COT持倉（v1.21新增，
+                         唔輸入預設兩個都顯示，每週六更新一次）
+  /report     — 發送今日全部持倉摘要
   /pnl        — 計算持倉總盈虧
   /alert      — 設定/查看手動價格警報
+  /ask        — 自由問任何投資問題，AI結合持倉上下文回答
   /help       — 指令說明（含目前版本號）
 
 自動功能：
   GEX警報    — 背景每15分鐘檢查，當任何持倉現價
                距離Call/Put Wall < 3% 時自動主動推送
                （同一警報1小時內不重複發送）
+  期權到期日曆提醒 — 每日08:00 HKT檢查未來3日內有冇Monthly/
+               Quarterly OPEX，有就主動推送
+  COT週報    — 每週六08:15 HKT自動推送最新Leveraged Funds
+               COT數據（v1.21新增）
 
 安裝：
-  pip install "python-telegram-bot[job-queue]" requests
+  pip install "python-telegram-bot[job-queue]" requests matplotlib mplfinance
 
 執行：
   python telegram_bot.py
@@ -231,7 +613,7 @@ v1.9（2026-08-05）【重要修正】：gex_refresh_job() 並行度由18降到4
 ═══════════════════════════════════════════════════
 """
 
-BOT_VERSION = "1.9"
+BOT_VERSION = "1.24"
 
 import re
 import json
@@ -242,6 +624,7 @@ import datetime
 from zoneinfo import ZoneInfo
 import requests
 from telegram import Update
+from telegram.error import BadRequest
 from telegram.ext import (
     Application, CommandHandler, MessageHandler, filters, ContextTypes
 )
@@ -291,32 +674,41 @@ FUTU_BRIDGE_URL = "http://127.0.0.1:8888"
 #    262K）——新啲又平啲，換咗淨賺，詳細比較見futu_bridge_v2.py
 #    同一次改動嘅changelog。同一次順便修正埋ask_ai()嘅reasoning
 #    token bug（見下面function內註解）。
+# 2026-09-24（v1.23）：FALLBACK_MODEL再由kimi-k2.5換做
+#    z-ai/glm-5.3-flash（釘死版本slug，唔用~z-ai/glm-flash-latest
+#    呢個auto-redirect alias），詳細理由見頁首v1.23 changelog。
 ANALYSIS_MODEL = "deepseek/deepseek-v4-flash-0731"  # 主，穩定pin
-FALLBACK_MODEL = "moonshotai/kimi-k2.5"             # 備（原kimi-k2-thinking升級）
+FALLBACK_MODEL = "z-ai/glm-5.3-flash"               # 備（v1.23由kimi-k2.5換入）
 
-# 全部18大持倉（同 github_gex_updater.py 保持一致；
+# 全部17大持倉（同 github_gex_updater.py 保持一致；
 # GEX數據嗰邊由兩個Barchart帳戶分批攞，呢度純粹係顯示用清單）
 ALL_HOLDINGS = [
-    {"sym": "MU",    "name": "美光科技",       "qty": 5,   "cost": 557.857},
-    {"sym": "GOOGL", "name": "谷歌-A",         "qty": 12,  "cost": 178.40 },
-    {"sym": "AVGO",  "name": "博通",            "qty": 10,  "cost": 375.782},
-    {"sym": "NVDA",  "name": "英偉達",          "qty": 15,  "cost": 148.50 },
-    {"sym": "MRVL",  "name": "邁威爾科技",     "qty": 10,  "cost": 238.605},
+    {"sym": "GOOGL", "name": "谷歌-A",         "qty": 20,  "cost": 245.04 },
+    {"sym": "AVGO",  "name": "博通",            "qty": 10,  "cost": 378.602},
+    {"sym": "NVDA",  "name": "英偉達",          "qty": 20,  "cost": 189.0625},
+    {"sym": "MRVL",  "name": "邁威爾科技",     "qty": 10,  "cost": 257.303},
     {"sym": "TER",   "name": "泰瑞達",          "qty": 5,   "cost": 92.00  },
     {"sym": "META",  "name": "Meta Platforms",  "qty": 3,   "cost": 606.333},
-    {"sym": "NOK",   "name": "諾基亞",          "qty": 100, "cost": 13.50  },
+    {"sym": "NOK",   "name": "諾基亞",          "qty": 200, "cost": 12.458 },
     {"sym": "RDW",   "name": "Redwire",         "qty": 40,  "cost": 15.65  },
     {"sym": "LEU",   "name": "Centrus Energy",  "qty": 8,   "cost": 197.50 },
-    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 20,  "cost": 21.067 },
+    {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 40,  "cost": 30.05875},
     {"sym": "RKLB",  "name": "Rocket Lab",        "qty": 10,  "cost": 76.00  },
-    {"sym": "PLTR",  "name": "Palantir",          "qty": 7,   "cost": 124.335},
+    {"sym": "PLTR",  "name": "Palantir",          "qty": 12,  "cost": 127.304},
     {"sym": "ISRG",  "name": "直覺外科公司",     "qty": 2,   "cost": 453.10 },
-    {"sym": "LITE",  "name": "Lumentum",          "qty": 1,   "cost": 820.00 },
+    {"sym": "LYTE",  "name": "Roundhill Photonics & Optics ETF", "qty": 30, "cost": 25.00 },
     {"sym": "VRT",   "name": "Vertiv Holdings",   "qty": 2,   "cost": 303.76 },
     {"sym": "RR",    "name": "Richtech Robotics", "qty": 300, "cost": 2.445  },
     {"sym": "SERV",  "name": "Serve Robotics",    "qty": 30,  "cost": 11.743 },
 ]
 VALID_SYMS = {h["sym"] for h in ALL_HOLDINGS}
+
+# CFTC COT 監視symbol（v1.21新增，同cftc_cot_updater.py嘅SYMBOLS一致，
+# 兩個檔案冇互相import，各自維護一份，同呢個codebase一貫做法一致）
+COT_SYMBOLS = {
+    "ES": "E-mini標普500",
+    "NQ": "E-mini納指100",
+}
 
 # 簡單本地價格警報儲存（JSON文件）
 ALERT_FILE = "alerts.json"
@@ -465,11 +857,37 @@ def _select_t1_price(rec: dict, sess: str) -> float | None:
 
 
 # ═══════════════════════════════════════════════════
-# Bot 層 GEX Live Cache（30分鐘TTL）
-# 由 gex_refresh_job 每30分鐘預熱，alert job 直接讀取
+# Bot 層 GEX Live Cache（v1.12起 20小時TTL；v1.13起持久化到磁碟）
+# 由 gex_refresh_job 每30分鐘嘗試預熱，alert job 直接讀取
 # ═══════════════════════════════════════════════════
 _gex_live_cache: dict[str, tuple[dict, float]] = {}  # sym → (gex_data, timestamp)
-GEX_LIVE_CACHE_TTL = 1800  # 30 分鐘
+GEX_LIVE_CACHE_TTL = 72000  # 20 小時（v1.12起，原30分鐘，見上面註解）
+GEX_LIVE_CACHE_FILE = "gex_live_cache.json"  # v1.13新增：磁碟持久化
+
+def _load_gex_live_cache_from_disk():
+    """
+    v1.13新增：Bot啟動時讀返上次留低嘅GEX live cache，等process
+    重啟唔會令20小時TTL形同虛設。讀取失敗（檔案未存在/格式壞咗）
+    就當做空cache處理，唔會累到Bot完全啟動唔到。
+    """
+    global _gex_live_cache
+    try:
+        with open(GEX_LIVE_CACHE_FILE, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+        _gex_live_cache = {sym: (v["data"], v["ts"]) for sym, v in raw.items()}
+        print(f"   📦 已讀取磁碟GEX cache：{len(_gex_live_cache)}隻symbol")
+    except Exception:
+        _gex_live_cache = {}
+
+def _save_gex_live_cache_to_disk():
+    """寫入失敗（例如冇寫入權限）唔應該累到set_gex_live()本身失敗，
+    靜默處理就算——下次成功refresh再試過寫，好過成個process炸咗。"""
+    try:
+        raw = {sym: {"data": data, "ts": ts} for sym, (data, ts) in _gex_live_cache.items()}
+        with open(GEX_LIVE_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(raw, f, ensure_ascii=False, indent=2)
+    except Exception:
+        pass
 
 def get_gex_live(sym: str) -> dict | None:
     """讀取 bot 層 GEX cache，過期或無資料返回 None"""
@@ -482,6 +900,7 @@ def get_gex_live(sym: str) -> dict | None:
 
 def set_gex_live(sym: str, data: dict):
     _gex_live_cache[sym] = (data, time.time())
+    _save_gex_live_cache_to_disk()  # v1.13新增：每次成功refresh都同步落磁碟
 
 # .md 文件內存緩存（TTL=60分鐘）
 # 背景警報每15分鐘 × 18隻 = 本來72次/小時，超出 GitHub 60次/小時免費限制
@@ -509,6 +928,101 @@ def fetch_stock_md(sym: str, force_refresh: bool = False) -> str | None:
         if sym in _md_cache:
             return _md_cache[sym][0]
         return None
+
+
+# ═══════════════════════════════════════════════════
+# CFTC COT（Leveraged Funds）── GitHub cot/{sym}_COT.md（v1.21新增）
+# ═══════════════════════════════════════════════════
+# COT_CACHE_TTL特登用長過MD_CACHE_TTL（6小時 vs 1小時）——COT數據
+# 本身一週先更新一次（cftc_cot_updater.py淨係逢週六08:00 HKT行一次
+# Windows工作排程器），用返.md快照嗰個1小時TTL冇實際意義，淨係嘥
+# GitHub API quota（同呢個bot其餘全部持倉共用緊60次/小時嘅免費
+# 額度）。6小時已經足夠應付一日之內用戶反覆用/cot查詢嘅情況。
+_cot_cache: dict[str, tuple[str, float]] = {}   # sym → (content, timestamp)
+COT_CACHE_TTL = 21600  # 6 小時
+
+def fetch_cot_md(sym: str, force_refresh: bool = False) -> str | None:
+    """
+    讀 GitHub raw cot/{sym}_COT.md（由cftc_cot_updater.py每週六
+    自動生成寫入），做法同fetch_stock_md()一致——內存緩存 +
+    網絡失敗時fallback用舊緩存（寧可顯示舊數據都好過完全冇數）。
+    """
+    now = time.time()
+    if not force_refresh and sym in _cot_cache:
+        content, ts = _cot_cache[sym]
+        if now - ts < COT_CACHE_TTL:
+            return content
+
+    url = (f"https://raw.githubusercontent.com/{GITHUB_OWNER}/"
+           f"{GITHUB_REPO}/{GITHUB_BRANCH}/cot/{sym}_COT.md")
+    try:
+        r = requests.get(url, timeout=10)
+        if r.status_code == 200:
+            _cot_cache[sym] = (r.text, now)
+            return r.text
+        return None
+    except Exception:
+        if sym in _cot_cache:
+            return _cot_cache[sym][0]
+        return None
+
+
+def parse_cot_md(md: str) -> dict:
+    """
+    從 cftc_cot_updater.py 嘅 generate_cot_md() 生成嘅markdown抽返
+    結構化數據，同parse_md()（持倉GEX快照用嗰個）同一套regex-based
+    設計原則。
+
+    抽取嘅欄位：
+      report_date     (str)  數據截至嘅Report Date（週二倉位截止）
+      long/short/net  (str)  Leveraged Funds Long/Short/Net（連
+                              千分位逗號同"張"單位一齊keep住，直接
+                              顯示用，唔做二次數值運算）
+      net_pct_oi      (str)  Net佔總未平倉合約(OI)百分比
+      open_interest   (str)  總未平倉合約
+      wow             (str)  週對週(WoW)變化敘述（已經由
+                              cftc_cot_updater.py嘅classify_wow_
+                              change()分類好，呢度純粹讀取）
+      cot_index_desc  (str)  COT Index分級敘述（同上，已經由
+                              classify_cot_index()分類好）
+      updated         (str)  最後更新時間戳
+      recent_weeks    (list) 近8週mini table揀最尾4行，
+                              [(date, net_str, wow_str), ...]
+    """
+    data = {}
+
+    m = re.search(r'數據截至（Report Date，週二倉位截止）：\*\*([\d\-]+)\*\*', md)
+    if m: data["report_date"] = m.group(1)
+
+    m = re.search(r'Long（多倉） \| ([^\|\n]+) \|', md)
+    if m: data["long"] = m.group(1).strip()
+
+    m = re.search(r'Short（空倉） \| ([^\|\n]+) \|', md)
+    if m: data["short"] = m.group(1).strip()
+
+    m = re.search(r'\*\*Net（淨倉位）\*\* \| \*\*([^\|\n]+)\*\* \|', md)
+    if m: data["net"] = m.group(1).strip()
+
+    m = re.search(r'Net 佔總未平倉合約\(OI\) \| ([^\|\n]+) \|', md)
+    if m: data["net_pct_oi"] = m.group(1).strip()
+
+    m = re.search(r'總未平倉合約\(Open Interest\) \| ([^\|\n]+) \|', md)
+    if m: data["open_interest"] = m.group(1).strip()
+
+    m = re.search(r'週對週\(WoW\)變化 \| ([^\|\n]+) \|', md)
+    if m: data["wow"] = m.group(1).strip()
+
+    m = re.search(r'🎯 COT Index.*?\*\*(.+?)\*\*', md, re.S)
+    if m: data["cot_index_desc"] = m.group(1).strip()
+
+    m = re.search(r'最後更新：([\d\- :]+HKT)', md)
+    if m: data["updated"] = m.group(1).strip()
+
+    rows = re.findall(r'\| (\d{4}-\d{2}-\d{2}) \| ([^\|\n]+) \| ([^\|\n]+) \|', md)
+    if rows:
+        data["recent_weeks"] = rows[-4:]
+
+    return data
 
 # ═══════════════════════════════════════════════════
 # 報價：Futu Bridge（T1主要）→ Finnhub（fallback）
@@ -663,7 +1177,36 @@ def market_session_label(quote_ts: int = 0, source: str = "", session: str | Non
     至3月）會判錯一小時。而家統一改用 detect_et_session()（背後用
     zoneinfo，自動處理DST）；若quote dict已經帶埋session（Futu來源
     都會有），直接用嗰個，唔使重新計一次。
+
+    v1.17【重要bugfix】：舊版純粹用「報價年齡 > 15分鐘」呢一個條件
+    就顯示「⚠️ 非即時報價」警告，完全冇理會而家係咪美股休市時段
+    （週末/假期/非交易時間）——用戶截圖實測SKHY喺週末查詢，Finnhub
+    報價29.5小時前（即係上個交易日收市價，完全正常、理應如此），
+    卻顯示「⚠️ 非即時報價（29.5小時前，可能係收市價）」呢句語氣
+    好似出咗事嘅警告，容易誤會Bot/API壞咗，同「休市所以報價舊屬
+    正常」呢個事實矛盾。
+    修正：加返休市判斷，一律行is_nyse_trading_day()（已經包埋
+    _NYSE_HOLIDAYS假期list + 週末，比detect_et_session()淨睇時分
+    嘅'weekend'判斷更全面——後者對平日假期完全冇檢查，例如感恩節
+    當日9:30-16:00 ET會被誤判做'regular'）：
+      - 唔係交易日（假期或週末）→ 唔理報價年齡，一律顯示友善提示
+        「📅 週末休市／假期休市，顯示上一交易日收市數據」
+      - 係交易日（包括夜盤/盤前/盤後/盤中）但報價仍然過舊 → 先顯示
+        原本嗰句「⚠️ 非即時報價」警告，代表呢個先係真正值得留意
+        嘅API delay問題
     """
+    sess = session or detect_et_session()
+
+    # ── 休市時段（假期或週末）：唔理報價年齡，一律用友善提示 ──
+    # is_nyse_trading_day()已經包埋_NYSE_HOLIDAYS，比呢度sess=='weekend'
+    # 呢個純時分判斷更全面（平日假期detect_et_session()驗唔到）。
+    if not is_nyse_trading_day() or sess == "weekend":
+        et_now       = datetime.datetime.now(US_TZ)
+        closed_label = "週末休市" if et_now.weekday() >= 5 else "假期休市"
+        source_tag   = " [Futu T1]" if source == "futu_t1" else (" [Finnhub]" if source == "finnhub" else "")
+        return f"📅 {closed_label}，顯示上一交易日收市數據{source_tag}"
+
+    # ── 交易日內：Futu T1直接信任；Finnhub fallback先做新舊判斷 ──
     if source != "futu_t1" and quote_ts:
         now = datetime.datetime.now()
         quote_dt = datetime.datetime.fromtimestamp(quote_ts)
@@ -672,7 +1215,6 @@ def market_session_label(quote_ts: int = 0, source: str = "", session: str | Non
             age_str = f"{int(age_min)}分鐘前" if age_min < 60 else f"{age_min/60:.1f}小時前"
             return f"⚠️ 非即時報價（{age_str}，可能係收市價）[Finnhub]"
 
-    sess       = session or detect_et_session()
     label      = _SESSION_LABELS.get(sess, sess)
     source_tag = " [Futu T1]" if source == "futu_t1" else (" [Finnhub]" if source == "finnhub" else "")
     return f"{label}{source_tag}"
@@ -708,6 +1250,51 @@ def parse_md(md: str) -> dict:
     if m: data["updated"] = m.group(1).strip()
 
     return data
+
+# ═══════════════════════════════════════════════════
+# 發送AI生成文字（v1.15新增）── Markdown parse失敗自動fallback
+# ═══════════════════════════════════════════════════
+async def safe_reply_markdown(message_obj, text: str):
+    """
+    用 parse_mode="Markdown" 發送AI生成嘅自由文字（/gex同/ask嘅AI分析
+    步驟都用緊）。
+
+    背景【重要bugfix】：用戶截圖+終端log證實/ask AVGO／/ask SPCX
+    卡死喺「分析中，請稍候...」永遠冇下文，終端log顯示：
+      telegram.error.BadRequest: Can't parse entities: can't find
+      end of the entity starting at byte offset 858
+    根源：DeepSeek/Kimi生成嘅自由文字入面，如果剛好出現冇配對好嘅
+    Markdown特殊字符（單獨一個*、_、`、[ 之類，例如AI寫「*」表示
+    項目符號但漏咗閉合嗰個，或者股票名/數字入面剛好夾埋一個特殊
+    符號），Telegram官方Markdown parser會直接拒絕成個message、
+    完全唔會送出——同message內容有幾長、AI分析講咗幾多嘢完全無關，
+    純粹嗰一個字符配對唔到就死。cmd_gex()同cmd_ask()嘅AI分析步驟
+    舊版都直接
+      `await update.message.reply_text(f"...{analysis}...",
+                                        parse_mode="Markdown")`
+    冇任何try/except包住——一旦AI呢次生成嘅文字剛好觸發呢個parse
+    錯誤，個await直接拋BadRequest，成個command coroutine喺嗰度
+    死咗（PTB嘅Application冇註冊error handler，淨係log低exception，
+    唔會累到成個bot process崩潰，但呢條command嘅使用者見到嘅就係
+    「分析中...」之後永遠冇下文）。LLM生成嘅自由文字冇任何辦法
+    保證每次輸出嘅Markdown符號都啱啱好配對晒，呢類bug喺embed AI
+    output落Telegram Markdown message嘅位一定會不定期撞到，唔係
+    一次性修正就永遠唔會再發生，所以要做返呢一層防禦。
+
+    修正：捕捉BadRequest，如果錯誤訊息確認係entity parse失敗，
+    改用冇parse_mode（純文字）重新發送一次——寧願AI分析嗰段文字
+    冇晒bold/斜體格式，都好過成個回覆完全送唔到用戶手上見唔到
+    任何嘢。非parse相關嘅其他BadRequest（例如message太長）維持
+    原本咁raise，唔會被呢層fallback静默吞咗。
+    """
+    try:
+        await message_obj.reply_text(text, parse_mode="Markdown")
+    except BadRequest as e:
+        if "can't parse entities" in str(e).lower():
+            print(f"   ⚠️ Markdown parse失敗，改用純文字重發: {e}")
+            await message_obj.reply_text(text)
+        else:
+            raise
 
 # ═══════════════════════════════════════════════════
 # OpenRouter → DeepSeek V4 Flash 0731（主）／Kimi K2.5（fallback）：生成分析建議
@@ -827,6 +1414,14 @@ def compute_wall_status(price: float | None, flip: float | None,
     （0.5%）但方向判斷反咗——講成「接近支撐位」，但其實Put Wall
     ($385) > 現價($383.01)，即係支撐已經跌穿，唔係「接近」。
 
+    v1.13：cmd_ask()（/ask指令）一直冇call呢個function——用戶截圖
+    證實/ask AVGO分析出現「股價392.75低於Put Wall(410)/Call
+    Wall(420)嘅區間，卻話「已逼近Call牆」、仲話係「正Gamma區」」，
+    兩者都同Put Wall/Gamma Flip嘅實際數值關係矛盾，AI自己計方向
+    計錯咗，同呢度嘅AVGO事件屬同一種錯誤，只不過發生喺/ask呢條
+    冇受呢個function保護嘅code path。而家cmd_ask()已經改用返呢個
+    function（見下面改動）。
+
     修正原則：方向判斷（已跌穿/未跌穿/邊個高邊個低）呢類邏輯運算
     一定要喺Python code度做，用普通if/else保證100%準確；唔可以將
     呢類判斷交低LLM喺自然語言入面自己推斷——呢個先係徹底根治嘅
@@ -879,6 +1474,69 @@ def compute_wall_status(price: float | None, flip: float | None,
     return "；".join(parts) + "。" if parts else "GEX水平數據不足，無法判斷位置。"
 
 
+def compute_breakout_scenario(dealer_bias: str) -> str:
+    """
+    v1.16新增，修正一個現存bug：build_gex_prompt()嘅第2、3點（舊版）
+    無條件寫死「突破Call Wall→Gamma Squeeze加速升勢」、「跌穿Put
+    Wall→拋售鏈加速跌勢」呢個敘事，完全冇理會現時究竟係Long Gamma
+    定Short Gamma——但呢個codebase自己嘅慣例（compute_wall_status()
+    「正Gamma區＝波動相對受抑制」、dealer_bias標籤「Long Gamma＝
+    市場穩定」）已經講明：Long Gamma環境下Dealer避險方向應該係
+    「壓抑」（漲就沽、跌就買，mean-reverting），唔係「加速」——舊版
+    prompt對Long/Short Gamma兩種情況一律用同一套「加速」敘事，喺
+    Long Gamma嗰種情況底下方向係講反咗（實測案例：PLTR Net GEX
+    +100.7M／Long Gamma，AI舊版分析依然講「升穿Call Wall會Gamma
+    Squeeze加速噴上」、「跌穿Put Wall會拋售鏈加速下跌」，同「Long
+    Gamma＝市場穩定」呢個系統自己嘅結論互相矛盾）。
+
+    呢個function同compute_wall_status()一樣嘅設計原則：方向性敘事
+    一律由Python code根據dealer_bias預先寫定，AI唔准自己另外推斷
+    方向，只可以引用同做語言潤飾。
+
+    Long Gamma（dealer整體傾向壓抑波動）：
+      - 突破Call Wall：Dealer對沖行為（漲沽跌買）本身傾向壓抑，
+        突破更多反映真實買盤力度蓋過壓抑力，而唔係人為加速；個別
+        重倉strike嘅局部對沖流可能帶嚟短暫波動，但唔等於全面加速
+      - 跌穿Put Wall：同樣道理，喺仍然處於Long Gamma嘅範圍內，
+        Dealer對沖（跌買）傾向緩衝跌勢，真正嘅「加速下跌」通常要
+        等價格進一步跌穿Gamma Flip先會出現（可對照上面wall_status
+        入面Gamma Flip嘅實際位置嚟判斷仲有幾遠）
+
+    Short Gamma（dealer整體傾向加速波動）：
+      - 突破Call Wall：Dealer為對沖上升delta被迫追貨，形成典型
+        Gamma Squeeze，升勢確實有機會加速
+      - 跌穿Put Wall：Dealer為對沖被迫沽貨，形成拋售鏈，跌勢確實
+        有機會加速
+
+    dealer_bias為空／未知：保留中性、雙向都可能嘅籠統講法，唔強行
+    斷定方向。
+    """
+    if dealer_bias == "LONG_GAMMA":
+        return (
+            "目前屬Long Gamma（正Gamma）狀態——Dealer對沖行為理論上傾向"
+            "「壓抑」波動（股價升，Dealer沽貨；股價跌，Dealer買貨），"
+            "呢個同市場穩定嘅描述一致。突破Call Wall更大機會反映真實"
+            "買盤力度蓋過Dealer壓抑性沽壓，而唔係人為加速噴升；跌穿"
+            "Put Wall喺仍然身處Long Gamma範圍內，Dealer買貨對沖亦傾向"
+            "緩衝跌勢，真正嘅加速下跌通常要價格進一步跌穿Gamma Flip"
+            "先會出現——分析呢兩個情境時必須以「壓抑」為預設方向，"
+            "唔可以講成「突破/跌穿即加速」。"
+        )
+    if dealer_bias == "SHORT_GAMMA":
+        return (
+            "目前屬Short Gamma（負Gamma）狀態——Dealer對沖行為理論上"
+            "傾向「加速」波動（股價升，Dealer被迫追貨；股價跌，Dealer"
+            "被迫沽貨），呢個同波動放大嘅描述一致。突破Call Wall有機會"
+            "觸發Dealer追貨形成Gamma Squeeze，跌穿Put Wall有機會觸發"
+            "Dealer沽貨形成拋售鏈，兩個方向都可以用「加速」嚟描述。"
+        )
+    return (
+        "Dealer Gamma狀態暫缺，突破/跌穿之後Dealer對沖行為究竟係"
+        "壓抑定加速波動未能確定，分析時唔好單方面斷定「必然加速」，"
+        "可以雙向討論但要註明呢個不確定性。"
+    )
+
+
 def build_gex_prompt(sym: str, name: str, data: dict, live: dict | None, session: str, source: str = "") -> str:
     # 決定真正應該俾AI用嗰個「現價」：優先用即時報價，冇先回退緩存
     is_stale = session.startswith("⚠️")  # session本身已標示報價非即時
@@ -889,12 +1547,12 @@ def build_gex_prompt(sym: str, name: str, data: dict, live: dict | None, session
     else:
         current_price = data.get("price", "N/A")
         price_label   = "最後報價"
-        price_note    = "（21:00緩存價，即時報價暫不可用）"
+        price_note    = "（.md緩存價，即時報價暫不可用）"
 
     gex_basis_note = ""
     if live and live.get("price") and data.get("price"):
         gex_basis_note = (
-            f"\n（注意：Call/Put Wall等GEX水平係根據昨日21:00收盤價"
+            f"\n（注意：Call/Put Wall等GEX水平係根據.md快照收盤價"
             f"${data.get('price')}計算所得，{price_label}已更新為${current_price}，"
             f"分析時請以呢個{price_label}為準判斷距離牆嘅遠近）"
         )
@@ -912,13 +1570,15 @@ def build_gex_prompt(sym: str, name: str, data: dict, live: dict | None, session
     wall_status = compute_wall_status(_price_for_calc, data.get("flip"),
                                        data.get("put_wall"), data.get("call_wall"))
 
-    # v1.7：新增第2、3點（突破Call Wall／跌穿Put Wall後可能發生咩），
-    # 呢兩點純粹係期權機制嘅情境推理（Dealer對沖行為點樣加速升/跌
-    # 勢，例如短倉回補/Gamma Squeeze動態），唔涉及現價/Wall嘅距離
-    # 計算或方向判斷，唔會撞到v1.2 AVGO事件嗰種方向性算術錯誤，
-    # 可以放心交畀AI自由發揮；第1點（引用compute_wall_status()已
-    # 計算好嘅位置關係）同「唔准自己重新計算方向」嘅限制完全冇拆
-    # 走，兩者並存——算術/方向判斷繼續100%由code負責。
+    # v1.16【重要bugfix】：舊版第2、3點（突破Call Wall／跌穿Put Wall
+    # 後可能發生咩）無條件寫死「加速」敘事，冇理會dealer_bias係Long
+    # 定Short Gamma——喺Long Gamma情況下方向講反咗，同「市場穩定」
+    # 呢個系統自己嘅結論矛盾（實測案例：PLTR Net GEX+100.7M／Long
+    # Gamma，見compute_breakout_scenario() docstring詳細背景）。而家
+    # 改用compute_breakout_scenario()根據dealer_bias預先寫定正確
+    # 方向嘅敘事，AI唔准自己另外推斷方向，只可以引用同潤飾語言。
+    breakout_scenario = compute_breakout_scenario(data.get("dealer_bias", ""))
+
     return f"""你是一位華爾街Options Trader，正在為一位持有{sym}（{name}）嘅退休投資者提供簡短操作建議。
 
 該投資者背景：已退休，風險承受能力中低，傾向保守至中等策略，關注下跌風險多於追求最高回報。
@@ -933,15 +1593,18 @@ Call Wall（阻力）：${data.get('call_wall', 'N/A')}
 【系統已預先計算嘅位置關係——必須以此為準，唔准自己重新計算或判斷方向】：
 {wall_status}
 
+【系統已預先計算嘅突破/跌穿情境方向——必須以此為準，唔准自己另外判斷會加速定壓抑】：
+{breakout_scenario}
+
 請用繁體中文（可用少量粵語表達習慣），依以下重點給出簡短具體嘅操作建議：
 1. 直接引用上方「系統已預先計算嘅位置關係」講短線風險，唔使自己重新計算百分比或判斷邊個高邊個低
-2. 若價格突破Call Wall（${data.get('call_wall', 'N/A')}）：簡述Dealer對沖行為可能點樣加速升勢（例如短倉回補／Gamma Squeeze動態），一句講完
-3. 若價格跌穿Put Wall（${data.get('put_wall', 'N/A')}）：簡述失去支撐後Dealer對沖行為可能點樣加速跌勢，一句講完
+2. 若價格突破Call Wall（${data.get('call_wall', 'N/A')}）：直接引用上方「突破/跌穿情境方向」講Dealer對沖行為嘅影響，一句講完
+3. 若價格跌穿Put Wall（${data.get('put_wall', 'N/A')}）：同樣直接引用上方「突破/跌穿情境方向」，一句講完
 4. 是否建議調整持倉（不要假設用戶會盲目跟隨，給出條件式建議，例如「若跌穿$X先考慮減倉」）
 5. 不要使用任何免責聲明或"僅供參考"等套話，直接給出分析
 
 回覆控制在150字以內，分點簡短，語氣專業但不要過度保守，避免空泛建議。
-重要：唔准自己重新計算現價同Put/Call Wall嘅距離百分比或方向——一律直接引用上方已計算好嘅「位置關係」段落嘅結論；突破/跌穿之後嘅情境推演（第2、3點）可以自由用你嘅期權知識推理，呢部分唔受此限制。你嘅角色係將已確定嘅事實轉化做操作建議，加上專業情境判斷，唔係重新做算術。"""
+重要：唔准自己重新計算現價同Put/Call Wall嘅距離百分比或方向，亦唔准自己另外判斷突破/跌穿之後會加速定壓抑——一律直接引用上方已計算好嘅「位置關係」同「突破/跌穿情境方向」兩段結論；除咗方向本身，具體嘅市場情境描寫、用字組織可以自由用你嘅期權知識潤飾。你嘅角色係將已確定嘅事實轉化做操作建議，唔係重新做算術或判斷方向。"""
 
 # ═══════════════════════════════════════════════════
 # Futu Bridge GEX（任何美股，唔限持倉）
@@ -958,6 +1621,30 @@ def fetch_futu_gex(sym: str) -> dict | None:
             data = r.json()
             if data.get("call_wall") or data.get("flip"):
                 return data
+        return None
+    except Exception:
+        return None
+
+
+def fetch_options_calendar(days_ahead: int = 7) -> list | None:
+    """
+    v1.20新增：呼叫本機 Futu Bridge /api/options_calendar（
+    futu_bridge_v2.py v3.5新增，gex_chart_v5_terminal.html v5.17嘅
+    「📅 到期日曆」tab用緊嗰個endpoint）。攞返未來days_ahead日內
+    全部持倉嘅期權到期日事件list，俾opex_reminder_job()做Monthly/
+    Quarterly OPEX提前提醒——同網頁版嘅到期日曆共享同一份數據源，
+    Bot呢邊唔使獨立開發到期日判斷邏輯。
+    返回events list（見bridge嘅回應格式：[{sym,date,days_to_expiry,
+    type}, ...]），或None（Bridge離線/連接失敗）。
+    """
+    try:
+        r = requests.get(
+            f"{FUTU_BRIDGE_URL}/api/options_calendar",
+            params={"days_ahead": days_ahead},
+            timeout=20,
+        )
+        if r.status_code == 200:
+            return r.json().get("events")
         return None
     except Exception:
         return None
@@ -1073,26 +1760,170 @@ def generate_gex_chart(sym: str, gex_data: dict, live_price: float | None = None
 
 
 # ═══════════════════════════════════════════════════
-# /gex 指令：查單隻GEX + AI分析
+# K線圖（v1.14新增）── Futu Bridge /api/kline/{sym} + mplfinance
+# ═══════════════════════════════════════════════════
+KLINE_PERIOD_ALIASES = {
+    "1": "1", "5": "5", "15": "15", "30": "30", "60": "60",
+    "D": "D", "1D": "D", "DAY": "D",
+    "W": "W", "1W": "W", "WEEK": "W",
+    "M": "M", "1M": "M", "MONTH": "M",
+}
+KLINE_INTRADAY_PERIODS = {"1", "5", "15", "30", "60"}
+
+
+def fetch_futu_kline(sym: str, period: str = "D", count: int = 90) -> dict | None:
+    """
+    呼叫本機 Futu Bridge /api/kline/{sym}（見futu_bridge_v2.py，已有
+    MA9/20/60/布林線/RSI，唔使改bridge），攞K線數據俾/gex畫candlestick
+    圖用。period同bridge一致：1/5/15/30/60（分鐘）／D／W／M。
+    返回完整dict（bars/ma9/ma20/ma60/bb/rsi）或None（bridge離線/
+    symbol錯/K線為空）。
+
+    v1.15：加返print診斷——舊版任何失敗（連唔到bridge/K線為空/
+    非200狀態碼）一律靜默return None，用戶完全睇唔到K線圖，亦冇
+    任何終端log提示係邊一步失敗，好難診斷。而家統一將失敗原因
+    print出嚟。
+    """
+    try:
+        r = requests.get(
+            f"{FUTU_BRIDGE_URL}/api/kline/{sym.upper()}",
+            params={"period": period, "count": count},
+            timeout=20,
+        )
+        if r.status_code == 200:
+            data = r.json()
+            if data.get("bars"):
+                return data
+            print(f"   ⚠️ fetch_futu_kline({sym}) 200 OK但bars為空（{data.get('error', '無error欄位')}）")
+            return None
+        print(f"   ⚠️ fetch_futu_kline({sym}) HTTP {r.status_code}")
+        return None
+    except Exception as e:
+        print(f"   ⚠️ fetch_futu_kline({sym}) 連接失敗: {type(e).__name__}: {e}")
+        return None
+
+
+def generate_kline_chart(sym: str, kline_data: dict, gex_data: dict | None = None) -> bytes | None:
+    """
+    用 mplfinance 畫暗色主題candlestick K線圖，配色風格對齊
+    generate_gex_chart()（漲#00d4aa／跌#ff4d6d／背景#0a0c10）：
+      - 疊加 MA9(琥珀#f5a623) / MA20(藍#4a9eff) / MA60(紫#a78bfa)
+      - 底部帶成交量subplot（mplfinance volume=True）
+      - 若有gex_data（futu即時GEX），將Gamma Flip(白)/Call Wall(綠)/
+        Put Wall(紅)/Max Pain(粉紅)四條水平線直接疊落K線圖——同
+        gex_chart_v5_terminal.html嘅K線+GEX橫線做法一致，等用戶一張
+        圖睇晒現價相對Wall嘅位置點樣隨時間演變。
+    返回PNG bytes，或None（mplfinance未安裝／bars為空）。
+
+    v1.15【重要bugfix】：用戶反映升級到v1.14後/gex完全冇K線圖，但
+    終端log冇任何相關error——根源就係呢度：mplfinance係v1.14先加
+    嘅新pip依賴，如果本機冇裝，`import mplfinance`拋ImportError，
+    舊版export except ImportError: return None，完全靜默、冇print
+    任何嘢，令人以為個功能「冇做嘢」而唔知道係缺咗依賴。而家加返
+    一句print，第一次撞到就會喺終端見到清楚提示。
+    """
+    try:
+        import mplfinance as mpf
+        import pandas as pd
+        import matplotlib.pyplot as plt
+        from io import BytesIO
+    except ImportError as e:
+        print(f"   ⚠️ generate_kline_chart({sym}) 缺依賴: {e}（請 pip install mplfinance pandas）")
+        return None
+
+    bars = kline_data.get("bars", [])
+    if not bars:
+        return None
+
+    period = kline_data.get("period", "D")
+    df = pd.DataFrame(bars)
+    if period in KLINE_INTRADAY_PERIODS:
+        df["Date"] = pd.to_datetime(df["time"], unit="s")
+    else:
+        df["Date"] = pd.to_datetime(df["time"])
+    df = df.set_index("Date")
+    df = df.rename(columns={"open": "Open", "high": "High", "low": "Low",
+                             "close": "Close", "volume": "Volume"})
+    df = df[["Open", "High", "Low", "Close", "Volume"]]
+
+    add_plots = []
+    for key, color in (("ma9", "#f5a623"), ("ma20", "#4a9eff"), ("ma60", "#a78bfa")):
+        vals = kline_data.get(key)
+        if vals and len(vals) == len(df):
+            s = pd.Series(vals, index=df.index, dtype="float64")
+            if s.notna().any():
+                add_plots.append(mpf.make_addplot(s, color=color, width=1.1))
+
+    hline_prices, hline_colors = [], []
+    if gex_data:
+        for key, color in (("flip", "#ffffff"), ("call_wall", "#00d4aa"),
+                            ("put_wall", "#ff4d6d"), ("max_pain", "#ec4899")):
+            v = gex_data.get(key)
+            if v:
+                hline_prices.append(v)
+                hline_colors.append(color)
+
+    mc = mpf.make_marketcolors(up="#00d4aa", down="#ff4d6d", edge="inherit",
+                                wick="inherit", volume="inherit")
+    style = mpf.make_mpf_style(
+        marketcolors=mc, facecolor="#0f1218", edgecolor="#1e2430",
+        figcolor="#0a0c10", gridcolor="#141820", gridstyle="-",
+        rc={"axes.labelcolor": "#c8d4e8", "xtick.color": "#4a5568",
+            "ytick.color": "#4a5568", "text.color": "#c8d4e8"},
+    )
+
+    plot_kwargs = dict(
+        type="candle", style=style, volume=True, figsize=(10, 7.5),
+        title=f"\n{sym}  K線（{period}）",
+        returnfig=True,
+    )
+    if add_plots:
+        plot_kwargs["addplot"] = add_plots
+    if hline_prices:
+        plot_kwargs["hlines"] = dict(hlines=hline_prices, colors=hline_colors,
+                                      linestyle="--", linewidths=1.3)
+
+    try:
+        fig, axes = mpf.plot(df, **plot_kwargs)
+    except Exception as e:
+        print(f"   ⚠️ generate_kline_chart({sym}) 繪圖失敗: {type(e).__name__}: {e}")
+        return None
+
+    buf = BytesIO()
+    fig.savefig(buf, format="png", dpi=110, bbox_inches="tight",
+                facecolor=fig.get_facecolor())
+    plt.close(fig)
+    buf.seek(0)
+    return buf.read()
+
+
+# ═══════════════════════════════════════════════════
+# /gex 指令：查單隻GEX + K線圖 + AI分析
 # ═══════════════════════════════════════════════════
 async def cmd_gex(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """
-    /gex SYM — 任何美股皆可查（唔限持倉）
+    /gex SYM [period] — 任何美股皆可查（唔限持倉）
     流程：
       1. Futu Bridge /api/gex → 即時 GEX + gex_by_strike（生成圖表）
       2. 若 Futu 離線 → 讀 GitHub .md 緩存（持倉才有）
-      3. 發送圖表 → 發送 GEX 數字 → AI 分析
+      3. K線圖（v1.14新增，疊MA9/20/60 + GEX橫線）→ GEX by Strike圖
+         → GEX 數字 → AI 分析
+    period（v1.14新增，可選第二參數）：1/5/15/30/60/D/W/M，
+    唔輸入預設D（日線）。
     """
     register_chat(update.effective_chat.id)
     if not context.args:
         await update.message.reply_text(
             "用法：/gex NVDA\n"
+            "/gex NVDA 60　（60分鐘線，可選：1/5/15/30/60/D/W/M，預設D）\n"
             "/gex SPCX\n"
             "可查任何美股，不限持倉"
         )
         return
 
     sym  = context.args[0].upper()
+    period_arg = context.args[1].upper() if len(context.args) > 1 else "D"
+    period = KLINE_PERIOD_ALIASES.get(period_arg, "D")
     name = next((h["name"] for h in ALL_HOLDINGS if h["sym"] == sym), sym)
     await update.message.reply_text(f"⏳ 查詢 {sym} GEX 數據...")
 
@@ -1124,7 +1955,7 @@ async def cmd_gex(update: Update, context: ContextTypes.DEFAULT_TYPE):
         net_gex   = None
         exp_move  = None
         bias      = ""
-        gex_src   = "🟡 GitHub 緩存（21:00快照）"
+        gex_src   = "🟡 GitHub 緩存（.md快照）"
     else:
         flip = put_wall = call_wall = None
         gex_src = "❌ 無 GEX 數據"
@@ -1156,6 +1987,29 @@ async def cmd_gex(update: Update, context: ContextTypes.DEFAULT_TYPE):
             f"　　⚠️ 即時報價暫不可用\n"
         )
 
+    # ── Step 3.5（v1.14新增）：K線圖（candlestick + MA9/20/60 + GEX橫線）──
+    # 排喺GEX by Strike長條圖之前——先睇價格行為（散戶K線），再睇期權
+    # 倉位分佈（做市商GEX），對應futu_bridge_v2.py嘅/api/kline endpoint，
+    # 唔使改bridge。攞唔到（bridge離線/mplfinance未裝/K線為空）唔會
+    # 影響後面GEX數字/AI分析繼續發送——純粹加多一步，唔改動主流程。
+    # v1.15：加返kline_sent旗標，攞唔到嗰陣會喺主訊息度加一句提示
+    # （見下面msg組裝），等用戶喺Telegram度都睇得到、唔使淨係睇終端
+    # log先知道係咪缺咗mplfinance依賴。
+    kline_sent  = False
+    kline_count = 180 if period in KLINE_INTRADAY_PERIODS else 90
+    kline_data  = fetch_futu_kline(sym, period=period, count=kline_count)
+    if kline_data:
+        gex_for_kline = futu_gex if (futu_gex and futu_gex.get("call_wall")) else None
+        kline_bytes = generate_kline_chart(sym, kline_data, gex_for_kline)
+        if kline_bytes:
+            from io import BytesIO
+            period_lbl = {"D": "日線", "W": "週線", "M": "月線"}.get(period, f"{period}分鐘線")
+            kline_caption = f"🕯️ {sym} K線（{period_lbl}）+ MA9/20/60"
+            if gex_for_kline:
+                kline_caption += "｜已疊加GEX關鍵水平（Flip白/CallWall綠/PutWall紅/MaxPain粉）"
+            await update.message.reply_photo(photo=BytesIO(kline_bytes), caption=kline_caption)
+            kline_sent = True
+
     # ── Step 4: 生成並發送 GEX 圖表 ──
     chart_sent = False
     if futu_gex and futu_gex.get("gex_by_strike"):
@@ -1185,33 +2039,86 @@ async def cmd_gex(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if exp_move:  msg += f"Expected Move：±${exp_move:,.2f}\n"
     if not chart_sent:
         msg += "\n_（Futu OpenD 未運行，圖表不可用）_\n"
+    if not kline_sent:
+        msg += "\n_（K線圖不可用——確認本機已 pip install mplfinance pandas，或查看終端log嘅具體原因）_\n"
     if md_data.get("updated"):
         msg += f"\n_數據更新：{md_data['updated']}_"
 
-    await update.message.reply_text(msg, parse_mode="Markdown")
+    await safe_reply_markdown(update.message, msg)
 
     # ── Step 6: AI 分析 ──
     if flip or put_wall or call_wall:
         await update.message.reply_text("🤖 正在生成分析...")
         ai_data = {
-            "flip":      flip,
-            "put_wall":  put_wall,
-            "call_wall": call_wall,
-            "status":    bias_lbl,
-            "price":     live_price or cached_p,
+            "flip":        flip,
+            "put_wall":    put_wall,
+            "call_wall":   call_wall,
+            "status":      bias_lbl,
+            "dealer_bias": bias,
+            "price":       live_price or cached_p,
         }
         prompt  = build_gex_prompt(sym, name, ai_data, live, session)
         analysis = ask_ai(prompt)
-        await update.message.reply_text(f"🤖 *AI分析：*\n{analysis}", parse_mode="Markdown")
+        await safe_reply_markdown(update.message, f"🤖 *AI分析：*\n{analysis}")
+
 
 # ═══════════════════════════════════════════════════
-# /report 指令：今日全部18隻摘要
+# /cot 指令：CFTC Leveraged Funds COT持倉（v1.21新增）
+# ═══════════════════════════════════════════════════
+async def cmd_cot(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """
+    /cot        — 顯示ES同NQ兩個嘅Leveraged Funds COT持倉
+    /cot ES     — 淨顯示ES
+    /cot NQ     — 淨顯示NQ
+
+    數據源：GitHub cot/{sym}_COT.md，由獨立嘅cftc_cot_updater.py
+    （逢週六08:00 HKT Windows工作排程器自動跑）生成——呢度純粹
+    讀取＋顯示，唔call CFTC API、唔做任何計算（COT Index分級/
+    WoW變化敘述全部已經由cftc_cot_updater.py嘅Python code預先
+    計算好，呢個bot淨係負責格式化顯示，冇AI參與）。
+    """
+    register_chat(update.effective_chat.id)
+    args = [a.upper() for a in context.args] if context.args else []
+    syms = [s for s in args if s in COT_SYMBOLS] or list(COT_SYMBOLS.keys())
+
+    lines = ["📊 *CFTC COT — Leveraged Funds 持倉*"]
+    any_ok = False
+
+    for sym in syms:
+        md = fetch_cot_md(sym)
+        if not md:
+            lines.append(f"\n⚠️ *{sym}*：暫時攞唔到COT數據"
+                         f"（GitHub cot/{sym}_COT.md 未生成或連接失敗，"
+                         f"確認cftc_cot_updater.py已經成功跑過至少一次）")
+            continue
+
+        d = parse_cot_md(md)
+        any_ok = True
+        lines.append(f"\n*{sym}（{COT_SYMBOLS[sym]}）* — 數據截至 {d.get('report_date', 'N/A')}")
+        lines.append(f"Long：{d.get('long','N/A')}張　Short：{d.get('short','N/A')}張")
+        lines.append(f"Net：{d.get('net','N/A')}張（佔OI {d.get('net_pct_oi','N/A')}）")
+        lines.append(f"WoW：{d.get('wow','N/A')}")
+        lines.append(f"COT Index：{d.get('cot_index_desc','N/A')}")
+
+        recent = d.get("recent_weeks")
+        if recent:
+            trend = "　".join(f"{date[5:]}▸{net.strip()}({wow.strip()})" for date, net, wow in recent)
+            lines.append(f"近4週：{trend}")
+
+    if not any_ok:
+        lines.append("\n提示：確認Windows工作排程器`COT_Monitor_Weekly`已經至少成功執行過一次")
+
+    lines.append("\n_數據來源：CFTC官方（每週六更新）_")
+    await safe_reply_markdown(update.message, "\n".join(lines))
+
+# ═══════════════════════════════════════════════════
+# /report 指令：今日全部17隻摘要
 # ═══════════════════════════════════════════════════
 async def cmd_report(update: Update, context: ContextTypes.DEFAULT_TYPE):
     register_chat(update.effective_chat.id)
-    await update.message.reply_text("⏳ 生成今日報告（18隻持倉）...")
+    await update.message.reply_text("⏳ 生成今日報告（17隻持倉）...")
 
-    # ── 一個call攞晒18隻即時報價（Futu T1，最高效）──
+    # ── 一個call攞晒17隻即時報價（Futu T1，最高效）──
     quotes = fetch_all_quotes_futu()
     futu_ok = bool(quotes)
 
@@ -1307,7 +2214,7 @@ async def cmd_pnl(update: Update, context: ContextTypes.DEFAULT_TYPE):
     register_chat(update.effective_chat.id)
     await update.message.reply_text("⏳ 計算總盈虧（Futu T1 即時報價）...")
 
-    # 一個call攞晒18隻報價
+    # 一個call攞晒17隻報價
     quotes  = fetch_all_quotes_futu()
     futu_ok = bool(quotes)
 
@@ -1452,6 +2359,8 @@ GEX_ALERT_THRESHOLD_PCT = 3.0      # 距離Wall < 3% 觸發
 GEX_ALERT_COOLDOWN_SEC  = 3600     # 同一警報1小時內不重發
 KNOWN_CHATS_FILE        = "known_chats.json"
 GEX_ALERT_LOG_FILE      = "gex_alert_log.json"
+OPEX_REMINDER_LOG_FILE  = "opex_reminder_log.json"   # v1.20新增
+COT_REMINDER_LOG_FILE   = "cot_reminder_log.json"    # v1.21新增
 
 def register_chat(chat_id: int):
     """每次任何指令被使用時呼叫，記住呢個chat_id供背景job推送用"""
@@ -1484,6 +2393,49 @@ def load_gex_alert_log() -> dict:
 def save_gex_alert_log(log: dict):
     with open(GEX_ALERT_LOG_FILE, "w", encoding="utf-8") as f:
         json.dump(log, f, ensure_ascii=False, indent=2)
+
+
+def load_opex_reminder_log() -> dict:
+    """
+    v1.20新增：記錄每個「sym_date」組合上次已經提醒過嘅unix
+    timestamp，做冷卻判斷——避免opex_reminder_job()每日一次咁跑，
+    同一單OPEX（例如「PLTR_2026-09-18」）連續幾日都重複推送。
+    順手清走60日前嘅舊記錄（OPEX日期一過就冇比較價值），避免
+    JSON檔案隨時間無限脹大。
+    """
+    try:
+        with open(OPEX_REMINDER_LOG_FILE, "r", encoding="utf-8") as f:
+            log = json.load(f)
+    except Exception:
+        return {}
+    cutoff = time.time() - 60 * 86400
+    return {k: v for k, v in log.items() if v >= cutoff}
+
+def save_opex_reminder_log(log: dict):
+    with open(OPEX_REMINDER_LOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(log, f, ensure_ascii=False, indent=2)
+
+
+def load_cot_reminder_log() -> dict:
+    """
+    v1.21新增：記錄每個symbol（ES/NQ）上次已經推送過嘅report_date，
+    做冷卻判斷——同一份COT報告只會推送一次，防止bot process重啟
+    或Windows工作排程器手動額外run多次導致cot_reminder_job()重複
+    推送同一份數據。同opex_reminder_log()一貫做法一致，但呢度keyed
+    做{sym: report_date}（唔係opex嗰種sym_date組合set），因為COT
+    每個symbol任何時候都只有一個「最新report_date」需要追蹤，
+    唔似OPEX咁一個symbol可能同時有幾個唔同到期日需要分開記錄。
+    """
+    try:
+        with open(COT_REMINDER_LOG_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+def save_cot_reminder_log(log: dict):
+    with open(COT_REMINDER_LOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(log, f, ensure_ascii=False, indent=2)
+
 
 def check_gex_proximity(sym: str, price: float, call_wall: float, put_wall: float) -> dict | None:
     """
@@ -1548,6 +2500,54 @@ def check_gex_proximity(sym: str, price: float, call_wall: float, put_wall: floa
 GEX_REFRESH_MAX_WORKERS = 4
 
 
+def _run_gex_refresh_sync() -> int:
+    """
+    v1.16新增：抽出咗gex_refresh_job()原本喺coroutine入面直接做嘅
+    阻塞邏輯（ThreadPoolExecutor + concurrent.futures.as_completed()，
+    最長等180秒）。純同步function，冇任何async/await，設計俾
+    asyncio.to_thread()放入獨立線程執行——詳細背景見
+    gex_refresh_job() docstring嘅v1.16段落。
+    """
+    def _fetch_one_gex(sym: str) -> tuple[str, dict | None]:
+        """thread worker：攞單隻GEX，45秒timeout"""
+        try:
+            r = requests.get(
+                f"{FUTU_BRIDGE_URL}/api/gex/{sym.upper()}",
+                timeout=45
+            )
+            if r.status_code == 200:
+                d = r.json()
+                if d.get("call_wall") and d.get("put_wall"):
+                    return sym, d
+                # v1.13新增：200 OK但call_wall/put_wall缺失——舊版靜默
+                # 略過，而家印返bridge嘅error欄位（如有），方便排查
+                print(f"   ⚠️ {sym} GEX 200 OK但call_wall/put_wall缺失"
+                      f"（bridge error: {d.get('error', '無error欄位')}）")
+        except Exception as e:
+            print(f"   ⚠️ {sym} GEX timeout/error: {type(e).__name__}")
+        return sym, None
+
+    success = 0
+    # v1.9：max_workers由len(ALL_HOLDINGS)（18，全部齊齊撞）降低到
+    # GEX_REFRESH_MAX_WORKERS（4，分批），見gex_refresh_job() docstring
+    # 根源分析
+    with concurrent.futures.ThreadPoolExecutor(max_workers=GEX_REFRESH_MAX_WORKERS) as pool:
+        futures = {pool.submit(_fetch_one_gex, h["sym"]): h["sym"] for h in ALL_HOLDINGS}
+        # v1.9：整體timeout由50秒放寬到180秒——降低並行度後18隻全部
+        # 行完嘅總時間會拉長（分批排隊），但job本身30分鐘先跑一次，
+        # 呢個等待時間完全可以接受
+        for future in concurrent.futures.as_completed(futures, timeout=180):
+            try:
+                sym, data = future.result()
+                if data:
+                    set_gex_live(sym, data)
+                    success += 1
+                    print(f"   ✅ {sym}: CW=${data['call_wall']:,.0f} PW=${data['put_wall']:,.0f}")
+            except Exception as e:
+                print(f"   ⚠️ future error: {e}")
+    return success
+
+
 async def gex_refresh_job(context: ContextTypes.DEFAULT_TYPE):
     """
     每30分鐘預熱 GEX cache（分批並行攞18隻，唔 block alert job）
@@ -1555,7 +2555,8 @@ async def gex_refresh_job(context: ContextTypes.DEFAULT_TYPE):
     │ 分批並行（max_workers=4） → 全部18隻行完可能要   │
     │ 幾十秒（唔再係6秒），但job本身30分鐘先跑一次，  │
     │ 完全負擔得起                                     │
-    │ 成功 → 存入 _gex_live_cache（30分鐘TTL）        │
+    │ 成功 → 存入 _gex_live_cache（20小時TTL，v1.13起  │
+    │        同步持久化落磁碟）                        │
     │ 失敗 → 保留舊cache / alert job fallback .md     │
     └─────────────────────────────────────────────────┘
 
@@ -1586,6 +2587,32 @@ async def gex_refresh_job(context: ContextTypes.DEFAULT_TYPE):
     futu_bridge_v2.py嗰邊加一個threading.Lock()包住全部Futu ctx
     call（bridge端根治，而唔淨係bot端throttle）——呢個屬於另一個
     檔案嘅改動，未做。
+
+    v1.13：加返一句print——舊版response狀態碼200但call_wall/
+    put_wall缺失（例如bridge嗰邊option_valid filter完全冇剩低
+    有效期權行）嘅情況完全靜默、冇任何log，令人好難分辨邊隻
+    symbol持續攞唔到GEX係bridge端問題定係單純冇成功refresh
+    過。而家會將bridge回傳嘅error欄位（如果有）一併打印出嚟。
+
+    v1.16【重要bugfix】：舊版呢個function雖然宣告做async def，但
+    內部直接用`concurrent.futures.as_completed(futures, timeout=180)`
+    ——呢個係stdlib嘅同步阻塞call，唔係asyncio嘅嘢，喺coroutine
+    入面直接咁用會令成條call chain阻塞緊嘅呢段時間（最長180秒）
+    完全凍結asyncio event loop。呢個bot淨係用單一event loop處理
+    晒所有嘢（包括JobQueue背景job同全部Telegram command handler），
+    event loop一凍結，就代表呢30分鐘一次、最長可以攪足3分鐘嘅
+    背景job跑緊嗰陣，Bot完全答唔到任何人嘅/gex／/ask等指令，
+    用戶會見到Bot好似「死咗」但其實只係event loop俾呢個job
+    霸住。（ThreadPoolExecutor入面嘅worker thread本身已經係喺
+    獨立OS thread執行HTTP request冇問題；問題出喺
+    `for future in concurrent.futures.as_completed(...)`呢個
+    迭代loop本身係阻塞call，運行喺主event loop thread度。）
+    修正：將成段阻塞邏輯（ThreadPoolExecutor建立+as_completed
+    迭代等待）抽出做獨立嘅同步function _run_gex_refresh_sync()，
+    呢度改用`await asyncio.to_thread(_run_gex_refresh_sync)`將
+    成段阻塞邏輯丟去asyncio預設嘅線程池執行——event loop喺
+    await嗰陣會讓出控制權俾其他coroutine（例如處理緊嘅Telegram
+    command），唔會再被呢個job霸住成3分鐘。
     """
     # ── 休市日（週末/假期）跳過，完全唔需要預熱 ──
     if not is_nyse_trading_day():
@@ -1596,42 +2623,168 @@ async def gex_refresh_job(context: ContextTypes.DEFAULT_TYPE):
     ts_str = datetime.datetime.now().strftime('%H:%M:%S')
     print(f"[{ts_str}] 🔄 GEX預熱開始（{len(ALL_HOLDINGS)}隻，並行度{GEX_REFRESH_MAX_WORKERS}，45秒/隻timeout）...")
 
-    def _fetch_one_gex(sym: str) -> tuple[str, dict | None]:
-        """thread worker：攞單隻GEX，45秒timeout"""
-        try:
-            r = requests.get(
-                f"{FUTU_BRIDGE_URL}/api/gex/{sym.upper()}",
-                timeout=45
-            )
-            if r.status_code == 200:
-                d = r.json()
-                if d.get("call_wall") and d.get("put_wall"):
-                    return sym, d
-        except Exception as e:
-            print(f"   ⚠️ {sym} GEX timeout/error: {type(e).__name__}")
-        return sym, None
-
-    loop = context.application.loop if hasattr(context.application, 'loop') else __import__('asyncio').get_event_loop()
-
-    # v1.9：max_workers由len(ALL_HOLDINGS)（18，全部齊齊撞）降低到
-    # GEX_REFRESH_MAX_WORKERS（4，分批），見上面docstring根源分析
-    with concurrent.futures.ThreadPoolExecutor(max_workers=GEX_REFRESH_MAX_WORKERS) as pool:
-        futures = {pool.submit(_fetch_one_gex, h["sym"]): h["sym"] for h in ALL_HOLDINGS}
-        success = 0
-        # v1.9：整體timeout由50秒放寬到180秒——降低並行度後18隻全部
-        # 行完嘅總時間會拉長（分批排隊），但job本身30分鐘先跑一次，
-        # 呢個等待時間完全可以接受
-        for future in concurrent.futures.as_completed(futures, timeout=180):
-            try:
-                sym, data = future.result()
-                if data:
-                    set_gex_live(sym, data)
-                    success += 1
-                    print(f"   ✅ {sym}: CW=${data['call_wall']:,.0f} PW=${data['put_wall']:,.0f}")
-            except Exception as e:
-                print(f"   ⚠️ future error: {e}")
+    # v1.16：成段阻塞邏輯改喺獨立線程執行，唔再凍結event loop
+    success = await asyncio.to_thread(_run_gex_refresh_sync)
 
     print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] 🔄 GEX預熱完成 {success}/{len(ALL_HOLDINGS)} 隻已緩存")
+
+
+# ═══════════════════════════════════════════════════
+# 期權到期日曆提醒（v1.20新增）── 每日一次，08:00 HKT
+# ═══════════════════════════════════════════════════
+OPEX_REMINDER_DAYS_AHEAD = 3   # 提前幾多日開始提醒
+_OPEX_TYPE_ICON = {"monthly": "🟢", "quarterly": "🟣"}
+_OPEX_TYPE_LABEL = {"monthly": "Monthly OPEX", "quarterly": "Quarterly（Triple Witching）"}
+
+async def opex_reminder_job(context: ContextTypes.DEFAULT_TYPE):
+    """
+    每日一次（08:00 HKT，見main()嘅run_daily註冊）背景job：check全部
+    持倉未來OPEX_REMINDER_DAYS_AHEAD日內有冇Monthly/Quarterly OPEX，
+    有就主動推送提醒。
+
+    呼應futu_bridge_v2.py v3.5新增嘅/api/options_calendar——
+    gex_chart_v5_terminal.html v5.17嘅「📅 到期日曆」tab用緊同一個
+    endpoint，Bot呢度直接重用（見fetch_options_calendar()），兩個
+    surface（網頁被動查詢 + Telegram主動推送）共享同一份數據源同
+    Weekly/Monthly/Quarterly分類邏輯，唔使Bot呢邊獨立開發一套。
+
+    背景：GEX Wall建基於期權OI，OPEX一過，相關到期日嘅OI會「roll
+    off」，Call/Put Wall好可能大幅跳動，值得預先留意。Weekly到期
+    太頻密（幾乎每個星期五都有），唔值得日日提醒——同gex_chart_v5_
+    terminal.html「到期日曆」摘要橫額用緊嘅篩選邏輯一致，淨係篩選
+    type為monthly/quarterly嘅事件。
+
+    冷卻：同一個「sym_date」組合只會提醒一次（用opex_reminder_log.json
+    記錄，同gex_alert_log.json同一套JSON persist模式），避免OPEX_
+    REMINDER_DAYS_AHEAD日窗口內每日重跑都重複推送同一單。
+    """
+    known_chats = get_known_chats()
+    if not known_chats:
+        print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] 📅 OPEX提醒：暫無已知chat_id，略過")
+        return
+
+    events = fetch_options_calendar(days_ahead=OPEX_REMINDER_DAYS_AHEAD)
+    if events is None:
+        print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] 📅 OPEX提醒：Bridge離線或連接失敗，略過")
+        return
+
+    soon = [e for e in events if e.get("type") in ("monthly", "quarterly")]
+    if not soon:
+        print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] 📅 OPEX提醒：未來{OPEX_REMINDER_DAYS_AHEAD}日內冇Monthly/Quarterly OPEX")
+        return
+
+    log = load_opex_reminder_log()
+    new_events = [e for e in soon if f"{e['sym']}_{e['date']}" not in log]
+    if not new_events:
+        print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] 📅 OPEX提醒：{len(soon)}個事件已提醒過，冷卻中")
+        return
+
+    lines = ["📅 *期權到期日曆提醒*\n"]
+    for e in sorted(new_events, key=lambda x: x["date"]):
+        icon     = _OPEX_TYPE_ICON.get(e["type"], "⚪")
+        type_lbl = _OPEX_TYPE_LABEL.get(e["type"], e["type"])
+        due      = "今日" if e["days_to_expiry"] == 0 else f"{e['days_to_expiry']}日後"
+        lines.append(f"{icon} *{e['sym']}* — {e['date']}（{due}）　{type_lbl}")
+    lines.append(
+        "\n_OPEX過後相關到期日OI會roll off，Call/Put Wall可能大幅跳動，"
+        "查詢 /gex 時留意Wall有冇突然改變_"
+    )
+    msg = "\n".join(lines)
+
+    for chat_id in known_chats:
+        try:
+            await context.bot.send_message(chat_id=int(chat_id), text=msg, parse_mode="Markdown")
+        except Exception as e:
+            print(f"   ⚠️ OPEX提醒推送chat_id={chat_id}失敗: {e}")
+
+    now_ts = time.time()
+    for e in new_events:
+        log[f"{e['sym']}_{e['date']}"] = now_ts
+    save_opex_reminder_log(log)
+
+    print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] 📅 OPEX提醒已推送 {len(new_events)} 個事件（{', '.join(e['sym'] for e in new_events)}）")
+
+
+# ═══════════════════════════════════════════════════
+# CFTC COT週報自動推送（v1.21新增）── 每週六 08:15 HKT
+# ═══════════════════════════════════════════════════
+async def cot_reminder_job(context: ContextTypes.DEFAULT_TYPE):
+    """
+    每週六08:15 HKT執行一次（見main()嘅run_daily(days=(5,))註冊，
+    Python weekday慣例0=週一...6=週日，5=週六）。
+
+    背景：cftc_cot_updater.py（獨立script，Windows工作排程器任務
+    `COT_Monitor_Weekly`，逢週六08:00 HKT執行）會自動將最新CFTC
+    Leveraged Funds COT快照寫入GitHub cot/{ES,NQ}_COT.md，但用戶
+    要自己記得打/cot先睇到——同gex_alert_job/opex_reminder_job
+    一樣嘅「主動推送好過被動等查詢」原則，加呢個背景job每週自動
+    將最新COT快照推送畀已知chat，唔使記得手動查。
+
+    時間差：刻意排喺COT_Monitor_Weekly（08:00 HKT）之後15分鐘先
+    執行，留返buffer等cftc_cot_updater.py實際攞完CFTC API+寫完
+    GitHub，避免撞正個檔案仲喺度寫緊、cot/*.md仲係舊版本嘅空窗期
+    （CFTC API本身通常幾秒就回應完，加GitHub API寫入，15分鐘
+    buffer綽綽有餘）。
+
+    冷卻：用cot_reminder_log.json記錄每個symbol上次已經推送過嘅
+    report_date（由parse_cot_md()解析出嚟嘅「數據截至」日期），
+    同一個report_date只會推送一次——防止bot process喺呢個時間點
+    附近重啟導致job重複觸發，或者用戶手動額外run多次
+    cftc_cot_updater.py都唔會重複推送同一份數據，同
+    opex_reminder_log.json一貫做法一致。
+
+    force_refresh=True：呢個job本身一週先跑一次，冇必要理會
+    fetch_cot_md()嘅6小時cache TTL，直接強制攞最新，確保推送嘅
+    一定係啱嗰份（唔會因為之前查詢/cot留低嘅舊cache而推送咗
+    上一週嘅數據）。
+    """
+    known_chats = get_known_chats()
+    if not known_chats:
+        print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] 📊 COT提醒：暫無已知chat_id，略過")
+        return
+
+    log = load_cot_reminder_log()
+    lines = ["📊 *CFTC COT週報 — Leveraged Funds 持倉*\n"]
+    any_new = False
+
+    for sym, name in COT_SYMBOLS.items():
+        md = fetch_cot_md(sym, force_refresh=True)
+        if not md:
+            print(f"    ⚠️ COT提醒：{sym} 攞唔到cot/{sym}_COT.md（GitHub未生成或連接失敗）")
+            continue
+
+        d = parse_cot_md(md)
+        report_date = d.get("report_date")
+        if not report_date:
+            print(f"    ⚠️ COT提醒：{sym} 解析唔到report_date，跳過（md格式可能有變）")
+            continue
+
+        if log.get(sym) == report_date:
+            print(f"    ℹ️ COT提醒：{sym} 呢份報告（{report_date}）之前已經推送過，跳過")
+            continue
+
+        any_new = True
+        lines.append(f"*{sym}（{name}）* — 數據截至 {report_date}")
+        lines.append(f"Net：{d.get('net','N/A')}張（佔OI {d.get('net_pct_oi','N/A')}）")
+        lines.append(f"WoW：{d.get('wow','N/A')}")
+        lines.append(f"COT Index：{d.get('cot_index_desc','N/A')}\n")
+        log[sym] = report_date
+
+    if not any_new:
+        print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] 📊 COT提醒：冇新報告需要推送")
+        return
+
+    lines.append("_輸入 /cot 查詢完整走勢 · 數據來源：CFTC官方_")
+    msg = "\n".join(lines)
+
+    for chat_id in known_chats:
+        try:
+            await context.bot.send_message(chat_id=int(chat_id), text=msg, parse_mode="Markdown")
+        except Exception as e:
+            print(f"    ⚠️ COT提醒推送chat_id={chat_id}失敗: {e}")
+
+    save_cot_reminder_log(log)
+    print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] 📊 COT週報已推送（{', '.join(COT_SYMBOLS.keys())}）")
 
 
 _SESS_SHORT = {"premarket": "盤前", "regular": "盤中", "afterhours": "盤後",
@@ -1854,6 +3007,19 @@ async def cmd_ask(update: Update, context: ContextTypes.DEFAULT_TYPE):
       /ask SPCX 現時買賣力比例分析
       /ask 波斯灣局勢對核能股LEU影響
       /ask PLTR軍事AI合約比例有幾高
+
+    v1.13【重要bugfix】：舊版呢度淨係將Put Wall/Call Wall/Gamma
+    Flip嘅原始數字直接串落prompt文字，叫AI自己喺自然語言度計算
+    現價相對邊個Wall嘅方向——同build_gex_prompt()（/gex用緊嗰個）
+    唔一致，亦正正係v1.2 AVGO事件已經證實過好易錯嗰種做法（呢次
+    喺/ask AVGO分析出現「股價392.75低於Put Wall(410)/Call
+    Wall(420)嘅區間，卻話已逼近Call牆、仲話係正Gamma區」——兩者
+    都同實際數值關係矛盾）。而家改用返compute_wall_status()將
+    現價相對Put/Call Wall/Gamma Flip嘅方向預先計算好，連同「唔准
+    重新計算方向」嘅指示一齊塞入prompt，同build_gex_prompt()同一
+    套原則。順便將GEX數據來源由「淨係讀.md快照」改為優先call
+    fetch_futu_gex()攞Futu即時GEX（同/gex一致），.md做fallback，
+    減少因為用緊過時嘅21:00快照數據而令分析同即市現價脫節。
     """
     register_chat(update.effective_chat.id)
 
@@ -1877,19 +3043,59 @@ async def cmd_ask(update: Update, context: ContextTypes.DEFAULT_TYPE):
     mentioned_syms = _extract_syms_from_text(question)
 
     # 2. 為提到嘅持倉股票附加GEX+現價數據
+    #    v1.13：優先Futu即時GEX（同/gex一致），.md做fallback；並且
+    #    一律經compute_wall_status()將方向預先計好先塞入prompt，
+    #    AI唔准自己重新計算（同build_gex_prompt()同一套原則）。
     gex_context_parts = []
     for sym in mentioned_syms:
-        md = fetch_stock_md(sym)
         live = fetch_live_quote(sym)
+        current_price = live["price"] if live and live.get("price") else None
         price_str = f"${live['price']:,.2f} [{live.get('source','?')}]" if live and live.get("price") else "N/A"
-        if md:
-            data = parse_md(md)
+
+        futu_gex = fetch_futu_gex(sym)
+        if futu_gex and futu_gex.get("call_wall"):
+            flip      = futu_gex.get("flip")
+            put_wall  = futu_gex.get("put_wall")
+            call_wall = futu_gex.get("call_wall")
+            status    = futu_gex.get("dealer_bias", "N/A")
+            dealer_bias_raw = futu_gex.get("dealer_bias", "")
+            gex_src   = "Futu即時"
+            if current_price is None:
+                current_price = futu_gex.get("spot")
+        else:
+            md = fetch_stock_md(sym)
+            if md:
+                data      = parse_md(md)
+                flip      = data.get("flip")
+                put_wall  = data.get("put_wall")
+                call_wall = data.get("call_wall")
+                status    = data.get("status", "N/A")
+                dealer_bias_raw = ""  # .md快照冇dealer_bias呢個原始欄位
+                gex_src   = ".md快照"
+                if current_price is None:
+                    current_price = data.get("price")
+            else:
+                flip = put_wall = call_wall = None
+                status  = "N/A"
+                dealer_bias_raw = ""
+                gex_src = None
+
+        if gex_src:
+            wall_status = compute_wall_status(current_price, flip, put_wall, call_wall)
+            # v1.16：同build_gex_prompt()一致，突破/跌穿之後係加速定
+            # 壓抑波動，一律由compute_breakout_scenario()根據dealer_bias
+            # 預先判定，唔准AI自己另外推斷方向（見該function docstring
+            # 詳細背景：Long Gamma環境下舊版prompt「突破必加速」嘅講法
+            # 方向講反咗）
+            breakout_scenario = compute_breakout_scenario(dealer_bias_raw)
             gex_context_parts.append(
                 f"{sym} 現價：{price_str}｜"
-                f"Put Wall：${data.get('put_wall','N/A')}｜"
-                f"Call Wall：${data.get('call_wall','N/A')}｜"
-                f"Gamma Flip：${data.get('flip','N/A')}｜"
-                f"狀態：{data.get('status','N/A')}"
+                f"Put Wall：${put_wall if put_wall is not None else 'N/A'}｜"
+                f"Call Wall：${call_wall if call_wall is not None else 'N/A'}｜"
+                f"Gamma Flip：${flip if flip is not None else 'N/A'}｜"
+                f"狀態：{status}（{gex_src}）\n"
+                f"　　【已計算好嘅位置關係，唔准重新計算方向或百分比】：{wall_status}\n"
+                f"　　【已計算好嘅突破/跌穿情境方向，唔准另外判斷加速定壓抑】：{breakout_scenario}"
             )
         elif live and live.get("price"):
             gex_context_parts.append(f"{sym} 現價：{price_str}（非持倉，無GEX數據）")
@@ -1908,14 +3114,14 @@ async def cmd_ask(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     prompt = f"""你是一位專業投資分析師，正在協助一位已退休的保守型投資者（風險承受能力中低，關注下跌風險多於追求最高回報）。
 
-用戶持倉（18隻美股）：{portfolio_brief}
+用戶持倉（17隻美股）：{portfolio_brief}
 {gex_section}{news_section}
 
 用戶問題：{question}
 
 請用繁體中文回答（可加少量粵語表達），語氣專業、具體、直接。
 回覆控制在200字以內，唔好用免責聲明套話。
-如問到特定股票，請結合以上GEX數據從操作角度給出看法。
+如問到特定股票，請結合以上GEX數據從操作角度給出看法——若上方有「已計算好嘅位置關係」，必須直接引用嗰段結論講方向/距離，唔准自己重新計算現價相對Wall嘅百分比或判斷邊個高邊個低；若上方有「已計算好嘅突破/跌穿情境方向」，突破/跌穿之後Dealer對沖行為係加速定壓抑波動，一律直接引用嗰段結論，唔准自己另外判斷（Long Gamma同Short Gamma嘅方向啱啱相反，唔可以一概而論）。
 如問到非持倉股票（例如SPCX），請根據公開資料分析，並指出與持倉相關聯係。"""
 
     answer = ask_ai(prompt)
@@ -1928,10 +3134,7 @@ async def cmd_ask(update: Update, context: ContextTypes.DEFAULT_TYPE):
         data_sources.append("最新新聞")
     source_note = f"\n\n_📊 數據：{' + '.join(data_sources)}_" if data_sources else ""
 
-    await update.message.reply_text(
-        f"🤖 *AI分析*：\n\n{answer}{source_note}",
-        parse_mode="Markdown"
-    )
+    await safe_reply_markdown(update.message, f"🤖 *AI分析*：\n\n{answer}{source_note}")
 
 # ═══════════════════════════════════════════════════
 # /help 指令
@@ -1940,9 +3143,12 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     register_chat(update.effective_chat.id)
     msg = f"""🤖 *GEX持倉監控 Bot* `v{BOT_VERSION}`
 
-/gex NVDA — 查單隻GEX數據 + AI分析
+/gex NVDA — 查單隻GEX數據 + K線圖 + AI分析
+/gex NVDA 60 — 同上，睇60分鐘線（可選：1/5/15/30/60/D/W/M，預設D）
+/cot — 查CFTC Leveraged Funds COT持倉（ES+NQ，每週六更新）
+/cot ES — 淨顯示ES；/cot NQ — 淨顯示NQ
 /ask RKLB 同SpaceX有咩關係? — 自由問AI
-/report — 今日全部18隻持倉摘要
+/report — 今日全部持倉摘要
 /pnl — 計算持倉總盈虧
 /alert NVDA above 210 — 設定價格警報
 /alert list — 列出所有警報
@@ -1950,12 +3156,25 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
 /help — 顯示此說明
 
 報價來源：Futu T1（session-aware，主）→ Finnhub（備用）
-GEX數據每日21:00更新（來源：Futu期權鏈）
+GEX數據：Futu即時（優先，v1.13起持久化落磁碟，process重啟都
+留得住上次成功嘅Wall數據）→ GitHub .md快照（每日09:00+21:00
+更新，來源：Futu期權鏈）
+COT數據：GitHub cot/*.md（每週六更新，來源：CFTC官方Socrata
+Open Data API，Leveraged Funds持倉）
 
 🔔 *自動GEX警報*（已啟用，無需設定）
 當任何持倉現價距離Call/Put Wall < 3%時
 會自動主動通知你（每15分鐘檢查一次，
-同一警報1小時內不重複發送）"""
+同一警報1小時內不重複發送）
+
+📅 *期權到期日曆提醒*（已啟用，無需設定）
+每日08:00 HKT自動check全部持倉未來3日內
+有冇撞正Monthly/Quarterly OPEX，有就主動
+通知你（同一單OPEX只會提醒一次）
+
+📊 *COT週報*（已啟用，無需設定）
+每週六08:15 HKT自動推送最新ES/NQ
+Leveraged Funds淨倉位（同一份報告只推送一次）"""
     await update.message.reply_text(msg, parse_mode="Markdown")
 
 # ═══════════════════════════════════════════════════
@@ -1985,6 +3204,11 @@ async def cmd_unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     print(f"🤖 GEX Telegram Bot v{BOT_VERSION} 啟動中...")
 
+    # v1.13新增：啟動時讀返上次留低嘅GEX live cache（JSON持久化），
+    # 令process重啟唔會令20小時TTL形同虛設（見上面_gex_live_cache
+    # 區塊嘅v1.13註解）
+    _load_gex_live_cache_from_disk()
+
     # 自我檢查：確保key已填好，唔再係佔位字
     if TELEGRAM_BOT_TOKEN == "YOUR_TELEGRAM_BOT_TOKEN" or not TELEGRAM_BOT_TOKEN:
         print("❌ 錯誤：TELEGRAM_BOT_TOKEN 仍未填入，請編輯腳本第44行")
@@ -2013,6 +3237,7 @@ def main():
     app.add_handler(CommandHandler("start",  cmd_start))
     app.add_handler(CommandHandler("help",   cmd_help))
     app.add_handler(CommandHandler("gex",    cmd_gex))
+    app.add_handler(CommandHandler("cot",    cmd_cot))
     app.add_handler(CommandHandler("report", cmd_report))
     app.add_handler(CommandHandler("pnl",    cmd_pnl))
     app.add_handler(CommandHandler("alert",  cmd_alert))
@@ -2036,6 +3261,31 @@ def main():
             first=10,         # 啟動後10秒首次執行
         )
         print("🔔 自動GEX警報已啟用（每15分鐘檢查，距離Wall<3%觸發）")
+
+        # v1.20新增：期權到期日曆提醒，每日08:00 HKT執行一次。用
+        # Asia/Hong_Kong做tzinfo（HKT全年UTC+8冇夏令時，唔似ET咁
+        # 要理會DST），時間揀朝早，等用戶開市前有機會睇到提醒、
+        # 及早decide要唔要喺OPEX前調整持倉。
+        app.job_queue.run_daily(
+            opex_reminder_job,
+            time=datetime.time(hour=8, minute=0, tzinfo=ZoneInfo("Asia/Hong_Kong")),
+            name="opex_reminder",
+        )
+        print("📅 期權到期日曆提醒已啟用（每日08:00 HKT，Monthly/Quarterly OPEX提前3日提醒）")
+
+        # v1.21新增：CFTC COT週報自動推送，每週六08:15 HKT執行一次
+        # （days=(5,)——PTB JobQueue.run_daily嘅days參數用Python
+        # weekday慣例：0=週一...6=週日，5=週六）。刻意排喺Windows
+        # 工作排程器COT_Monitor_Weekly（週六08:00 HKT）之後15分鐘，
+        # 留返buffer等cftc_cot_updater.py行完、GitHub cot/*.md
+        # 已經更新先至嚟fetch。
+        app.job_queue.run_daily(
+            cot_reminder_job,
+            time=datetime.time(hour=8, minute=15, tzinfo=ZoneInfo("Asia/Hong_Kong")),
+            days=(5,),
+            name="cot_reminder",
+        )
+        print("📊 CFTC COT週報提醒已啟用（每週六08:15 HKT，Leveraged Funds淨倉）")
     else:
         print("⚠️ job_queue未能初始化，自動GEX警報功能停用")
         print("   請確認已安裝：pip install \"python-telegram-bot[job-queue]\"")
