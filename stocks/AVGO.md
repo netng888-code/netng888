@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -11,8 +11,8 @@
 | 現價 | **$343.64** |
 | 今日變動 | ▼ $7.55　(-2.15%) |
 | 持倉數量 | 10 股 |
-| 平均成本 | $375.782 |
-| 未實現盈虧 | ▼ $321　(▼8.6%) |
+| 平均成本 | $378.602 |
+| 未實現盈虧 | ▼ $350　(▼9.2%) |
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Is Marvell Stock Ready For A Slowdown In AI Demand?](https://finnhub.io/api/news?id=0285a6d1db0bed4cc0b79c3edf21275ff5e70005157e9cceea8c3fc99e3ef001)**  
-*Yahoo · 5h前*  
-Marvell Technology (MRVL) got 79% of fiscal Q2 2027 revenue from data centers. A September 28, 2026 news report tied a fall in Marvell and other AI stocks to Op…
+- **[Latest News In AI Chips - Micron Technology Thrives with AI-Driven Demand Surge](https://finnhub.io/api/news?id=d75345635d967cbccff954f82c53abce56f4206f3efca678f4530fa0ec319b45)**  
+*Yahoo · 1h前*  
+Recent developments in the AI chip sector highlight significant advancements, particularly with Micron Technology, Inc. reporting record financial results for i…
 
-- **[Broadcom: Get Ready For A Breakout](https://finnhub.io/api/news?id=55e9a580b29ceeb4ee80c3f86f68cc35fe29f1eaf6de1ac3d8b2074213db2bad)**  
-*SeekingAlpha · 5h前*  
-Broadcom gets a Buy as it continues to deliver robust revenue growth, with Q3 FY2026 up 86% YoY and AI semiconductor revenues surging. Click for more on AVGO.
+- **[Broadcom raises $60 billion in debt to fund Anthropic AI chips](https://finnhub.io/api/news?id=95b1b873ef305092c5035ef97e7970ba208e4e3c08c0a9a45f57127ae644792c)**  
+*Yahoo · 1h前*  
+Banks are set to syndicate a $42 billion senior-secured tranche, while Blackstone is leading an $18 billion junior debt tranche
 
-- **[Applied Materials vs. Broadcom: Which Semiconductor Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=6f3e91de8704ac93d4fdf702bbb7770dbd94930ccf9dc6f9975ef83e8b8b86bf)**  
-*Yahoo · 6h前*  
-Broadcom has locked-in AI revenue commitments from the world's largest tech companies, while Applied Materials offers broad chip equipment exposure across the s…
+- **[Broadcom Financing Syndicate Reportedly Seeks $60 Billion for Anthropic and Other AI Companies](https://finnhub.io/api/news?id=ccedd5e23d03c6b1558aa3013c4b456a479342a064837e6269e5ec8b9ab505be)**  
+*Yahoo · 2h前*  
+Broadcom (NASDAQ:AVGO) and its Wall Street banking syndicate are beginning efforts to arrange approximately $60 billion in new financing intended to support Ant…
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom has locked-in AI revenue commitments from the world's largest tech comp
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
