@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-02 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -10,9 +10,9 @@
 |------|------|
 | 現價 | **$190.04** |
 | 今日變動 | ▲ $2.99　(+1.60%) |
-| 持倉數量 | 7 股 |
-| 平均成本 | $124.335 |
-| 未實現盈虧 | ▲ $460　(▲52.8%) |
+| 持倉數量 | 12 股 |
+| 平均成本 | $127.304 |
+| 未實現盈虧 | ▲ $753　(▲49.3%) |
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir and Armada Partner to Accelerate Sovereign AI Infrastructure](https://finnhub.io/api/news?id=16ce6c692b71ba3bcd208d5e647c13e5c37636ca6e393ab1fc55f6786e8b445b)**  
+- **[1 Software Stock with Exciting Potential and 2 We Ignore](https://finnhub.io/api/news?id=1ea30286a43c3b0098beaaab34838aecec40742f60396d3e5158a3ff913caeca)**  
+*Yahoo · 1h前*  
+Software is eating the world, and virtually no business is left untouched by it. Companies bringing it to life have been rewarded with explosive earnings growth…
+
+- **[The Bull Case For Nebius Group (NBIS) Could Change Following Inferize Deal And New AI Capacity Commitments](https://finnhub.io/api/news?id=b2fa6b6d3a21ad9350fd75ae976515d88301801b0fa4751441c7781532eb56a5)**  
+*Yahoo · 2h前*  
+Nebius Group’s recent inclusion in the FTSE All-World Index came alongside fresh analyst coverage, new long-term AI data center capacity deals, and the acquisit…
+
+- **[What Could Go Wrong With Palantir Stock?](https://finnhub.io/api/news?id=534054347138e6f32845301e189aa19c997fc52182a871e11f905ff86ac4a6fc)**  
 *Yahoo · 3h前*  
-MIAMI & SAN FRANCISCO, October 01, 2026--Palantir Technologies Inc. (NASDAQ: PLTR) and Armada today announced a partnership to deliver sovereign AI on infrastru…
-
-- **[Palantir Technologies Inc. (PLTR) Laps the Stock Market: Here's Why](https://finnhub.io/api/news?id=d58b1c6e59f2f2f626e7532c5e55be21d67f6de1eeff27c3ae9a7f82d2f7b637)**  
-*Yahoo · 4h前*  
-In the closing of the recent trading day, Palantir Technologies Inc. (PLTR) stood at $190, denoting a +1.58% move from the preceding trading day.
-
-- **[Where Will Palantir Stock Be in 5 Years?](https://finnhub.io/api/news?id=8a505f1963f25abbf6bcd51ecd1513f4e00ba4111cf1a40e35b0d87fa28b189f)**  
-*Yahoo · 6h前*  
-Palantir stock has made a parabolic move, and it could surge higher amid growing demand for AI software.
+Palantir Technologies (PLTR) turned 42.8% of its sales into operating profit over the past twelve months. A year earlier that figure, the operating margin, was …
 
 ---
 
@@ -59,4 +59,4 @@ Palantir stock has made a parabolic move, and it could surge higher amid growing
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:05 HKT*
