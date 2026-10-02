@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Is Marvell Stock Ready For A Slowdown In AI Demand?](https://finnhub.io/api/news?id=0285a6d1db0bed4cc0b79c3edf21275ff5e70005157e9cceea8c3fc99e3ef001)**  
-*Yahoo · 5h前*  
-Marvell Technology (MRVL) got 79% of fiscal Q2 2027 revenue from data centers. A September 28, 2026 news report tied a fall in Marvell and other AI stocks to Op…
+- **[Top S&P500 movers in Friday's pre-market session](https://finnhub.io/api/news?id=d674fc0a6667a4bad40905abffa35b1f158852775d0f2c63316a7d2a5f493f83)**  
+*ChartMill · 0h前*  
+Before the opening bell on Friday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session.
 
-- **[Why Did AMD Stock Jump?](https://finnhub.io/api/news?id=179b81b2efb1c751797187a71b6871e83de204b5d534b7a4c5024935d51782d0)**  
-*Yahoo · 6h前*  
-If you owned Advanced Micro Devices (AMD) stock on Monday, September 21, 2026, you had a good day. The stock rose 9.9% in that one session. A $10,000 holding at…
+- **[Marvell's Custom AI Silicon Deals With Hyperscalers Could Redefine Its Growth Story](https://finnhub.io/api/news?id=9c34e384aef29741842c48ab4579aa3559fb30b3d02e8315cf4151b5e2d9d0a0)**  
+*Yahoo · 1h前*  
+A recent deal with Google could significantly boost Marvell's custom chip business.
 
-- **[Is NVIDIA Stock Increasing Your Market Risk?](https://finnhub.io/api/news?id=8d09cb3607cc111630e7ad977f1c810872f3230171c99d1afcc28b439f6c9917)**  
-*Yahoo · 6h前*  
-You own or plan to own NVIDIA (NVDA), the chipmaker worth about $5.5 trillion, probably alongside funds that follow the market. If NVIDIA rises and falls with t…
+- **[What Could Send NVIDIA Stock Higher?](https://finnhub.io/api/news?id=6c3d740688fab61693d440611b886b90c8056797c9779b93c1bca17433af4c81)**  
+*Yahoo · 3h前*  
+NVIDIA's revenue more than doubled from a year earlier in fiscal Q2 2027, to $96 billion. Investors value the company at about $5.6 trillion. A company that siz…
 
 ---
 
@@ -59,4 +59,4 @@ You own or plan to own NVIDIA (NVDA), the chipmaker worth about $5.5 trillion, p
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
