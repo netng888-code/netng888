@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-01 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$69.68** |
-| 今日變動 | ▼ $0.02　(-0.03%) |
+| 現價 | **$70.46** |
+| 今日變動 | ▲ $0.78　(+1.12%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $63　(▼8.3%) |
+| 未實現盈虧 | ▼ $55　(▼7.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $67.45 | — |
-| Put Wall（支撐） | $65.00 | -6.7% |
-| Call Wall（阻力） | $80.00 | +14.8% |
+| Gamma Flip | $67.73 | — |
+| Put Wall（支撐） | $70.00 | -0.7% |
+| Call Wall（阻力） | $80.00 | +13.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[RKLB Stock A ‘Core Holding For Space Bulls,’ Analyst Says – Sees 43% Upside As Synspective Deal Boosts Backlog](https://finnhub.io/api/news?id=805cdc9f6d71920a472ffe4ada08c429ceb01f7f63b79a0024a9e6ae43f8e2a2)**  
+- **[Wall Street Backs Coherent, Rocket Lab and Vertiv](https://finnhub.io/api/news?id=c446ea8bf121259d1da41295ccca5053960528dc6f7b29aae514cb9fdd17daf0)**  
 *Yahoo · 1h前*  
-Citi highlighted Rocket Lab’s unique position in the space industry given its proven Electron launch vehicle
+Bernstein, Citi, and Wells Fargo all launched bullish coverage on Coherent, Rocket Lab, and Vertiv within weeks of each other, but the real question is whether …
 
-- **[Nasdaq, S&P 500, Dow Futures Mixed Even As Micron Fuels AI Rally: ORCL, NKE, TSLA, RKLB, ASTS, PSKY In Focus](https://finnhub.io/api/news?id=78207f31393227024ab6c551e75d470b255a711685f7a656212b7a60603b4dd7)**  
-*Yahoo · 4h前*  
-On Stocktwits, retail sentiment toward SPY and QQQ remained ‘bullish’ as Micron’s results provided another catalyst for AI and semiconductor stocks.
+- **[Intuitive Machines vs. Rocket Lab: Which Space Stock Can Send Your Returns Into Orbit in 2026?](https://finnhub.io/api/news?id=41e0db71e283d1a19dcb68b8e9b3d7bba2babaa31caa0f3aa055575696325231)**  
+*Yahoo · 1h前*  
+One focuses on lunar infrastructure with heavy customer concentration; the other is scaling launch services but carrying an $8 billion acquisition burden.
 
-- **[Is SpaceX's Starship a Threat to Rocket Lab Stock Now That It Has Reached Orbit?](https://finnhub.io/api/news?id=ffa3603feacf14d93115fda1ee66396e04ee663b972aa0b11b1654a0b8f7dbdb)**  
-*Yahoo · 9h前*  
-A full load of the huge rocket's new satellites can add as much Starlink capacity as around 20 Falcon 9 launches. So where does this leave the medium-lift rocke…
+- **[Citi Just Upgraded Rocket Lab Stock. Here's Why.](https://finnhub.io/api/news?id=587a6dca2dc6d1534ef11ae2828040b2329f4e4bfce20c8f4070023ad7148df6)**  
+*Yahoo · 7h前*  
+Rocket Lab stock pushes higher on a bullish Citi note. Here’s why analyst John Godyn recommends buying RKLB shares.
 
 ---
 
@@ -48,7 +48,7 @@ A full load of the huge rocket's new satellites can add as much Starlink capacit
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-01 | 監控 | $69.68 | — | 自動更新 |
+| 2026-10-02 | 監控 | $70.46 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A full load of the huge rocket's new satellites can add as much Starlink capacit
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 09:05 HKT*
