@@ -1,241 +1,182 @@
-# 持倉儀表板 index.html — 版本記錄
+# 持倉監控系統 — 技術參考與版本記錄
 
-**Dashboard URL:** https://netng888-code.github.io/netng888/index.html  
-**Finnhub API Key:** d83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g
+> 最後更新：2026-10-02　｜　取代舊版（舊版只涵蓋 index.html，停留喺 2026-06-15、18隻持倉）
+> **呢份係「格式規格＋歷史記錄」，唔等於任何檔案嘅現時實際內容。兩者有出入時，以檔案本身（Project Files 或 GitHub live）為準。**
+> 唔好喺呢份文件入面放任何真實 API key／token／密碼（GitHub repo 公開）。
 
----
-
-## 已確認正常功能清單
-
-### ✅ 核心功能（一直正常）
-- 美股持倉表格（US_HOLDINGS JS array，動態渲染）
-- Finnhub 實時報價（18隻美股，60秒自動刷新）
-- 港股報價（Yahoo Finance，CORS 問題，有 manual fallback）
-- 已實現盈虧 banner（綠色滾動條）
-- 今日盈虧 summary cards
-- Flipcharts tab（TradingView iframe，每隻持倉股，含盤前/盤後）
-- FV / GE 按鈕（Finviz + Google Finance 連結）
-
-### ✅ Quicklinks Bar（頂部快速連結）
-- **Manulife MPF** → https://netng888-code.github.io/netng888/manulife_mpf.html
-- **My Watchlist** → https://netng888-code.github.io/netng888/mywatchlist.html
-- Hover preview：**必須用靜態 HTML 卡片，不可用 iframe**
-  - 原因：GitHub Pages 強制 `X-Frame-Options: deny`，iframe 永遠失敗
-  - 本地 file:/// 開啟 iframe 可以，上到 GitHub 就 403/404
-  - **正確方案：純 HTML/CSS 預覽卡，Watchlist 部份用 Finnhub API 取實時 %**
-  - **2026-06-15 修正：已移除兩個 quicklink 的 onmouseover iframe preview**
-
-### ✅ 個股 Hover Tooltip（美股持倉表格）
-- 觸發：hover `#us-tbody` 內的 `.sym-badge`
-- 觸發方式：`e.target.closest('#us-tbody .sym-badge')` ← 必須用此寫法
-- 顯示內容：
-  1. 股票名稱 + 實時價格/升跌（來自 `liveUS[sym]`）
-  2. **Finnhub Candle API** 繪製 Canvas 蠟燭圖（90日，最後60根）
-     - `https://finnhub.io/api/v1/stock/candle?symbol=X&resolution=D&from=...&to=...&token=KEY`
-     - 自行用 Canvas drawCandleChart() 渲染，無依賴第三方
-  3. Finnhub 公司新聞（過去7日，最多5條）
-     - `https://finnhub.io/api/v1/company-news?symbol=X&from=...&to=...&token=KEY`
-- **Finviz chart PNG 不可用**：有 hotlink protection，`<img src>` 直接載入會空白
-- 新聞 cache：`newsCache[sym]`，同 session 只 fetch 一次
-- Candle cache：`candleCache[sym]`，同 session 只 fetch 一次
-- Tooltip 定位：`positionTT(badge)` 自動避開視窗邊緣
-
-### ✅ Flipcharts 盤前/盤後（2026-06-10 新增）
-- TradingView widget URL 加入 `&extended_hours=1`
-- 所有持倉股（美股+港股）統一顯示盤前/盤後 K 線及價格標籤
-- **注意**：各股票實際顯示效果取決於 TradingView 數據源授權，部份股票可能仍不完整
+**Dashboard：** https://netng888-code.github.io/netng888/
+**Repo：** https://github.com/netng888-code/netng888
+**Raw 基底：** `https://raw.githubusercontent.com/netng888-code/netng888/main/<路徑>`
 
 ---
 
-## 已知限制
+## 0. 讀檔規則（Claude 必讀）
 
-| 功能 | 限制 | 備註 |
-|------|------|------|
-| 港股實時價 | Yahoo Finance CORS/cookie 問題 | 有手動輸入 fallback |
-| Quicklinks iframe | GitHub Pages X-Frame-Options deny | 永久限制，只能用靜態卡片 |
-| Finviz chart PNG | Hotlink protection | 改用 Finnhub Canvas 方案 |
-| Finnhub 免費 API | 60次/分鐘 limit | 夠用，但 tooltip fetch 太快可能觸發 |
+1. **先喺 Project Files 搵**（`/mnt/project/`）。
+2. 搵唔到、或者懷疑過時 → 用 `curl -s` 攞 GitHub raw（見下表路徑）。
+3. 修改任何會上傳 GitHub 嘅檔案前，**必須以 GitHub live 版本做 base**，唔可以用對話內舊結果、本機暫存或呢份文件嘅描述。
+4. 用 raw URL 或者 `github.com/.../tree/main/<folder>` 嘅 HTML 頁睇目錄；**唔好用 api.github.com**（無 token 好快撞 rate limit，2026-10-02 實測會 403）。
+5. raw 有幾分鐘 CDN 緩存，剛 push 完未必即時見到。
+6. 中文檔名要 URL encode（例如 `CTA_GEX_監視工具學習記錄_20260614.md`）。
 
----
+### 檔案地圖（2026-10-02 核實）
 
-## 已知 Bug 記錄及修復
-
-### ⚠️ Quicklinks Hover Preview 404（已修復 2026-06-15）
-- **症狀**：hover Manulife MPF 或 My Watchlist 按鈕時，頁面彈出 GitHub Pages 404 錯誤視窗
-- **根源**：兩個 quicklink 的 `onmouseover` iframe preview 指向本地路徑 `index_files/mywatchlist.htm` 及 `index_files/manulife_mpf.htm`，此路徑在 GitHub Pages 不存在
-- **修復**：直接移除兩個 quicklink 的 `onmouseover`/`onmouseout` handler 及 iframe preview `<div>`，按鈕只保留點擊跳轉功能
-- **教訓**：GitHub Pages 的 `X-Frame-Options: deny` 令任何 iframe preview 永遠無法運作，**日後不可再嘗試在 quicklinks 加入 iframe preview**
-
-### ⚠️ Flipcharts Symbol Strip 重複顯示（已修復 2026-06-10）
-- **症狀**：Flipcharts 的 symbol chip strip 顯示兩行（42個 chip），點擊 MU 等無反應，←→ 導航失效
-- **根源**：HTML 靜態硬碼了 21 個 chip（舊版殘留），`initFlipcharts()` 執行時再 `appendChild` 一次，共 42 個 chip，index 錯亂
-- **修復**：
-  1. 清空 HTML 靜態 chip，只保留空容器 `<div class="flip-sym-strip" id="flip-sym-strip"></div>`
-  2. `initFlipcharts()` 加入 `strip.innerHTML='';` 雙重保險
-- **教訓**：日後修改 Flipcharts 時，**不可在 HTML 靜態寫 chip**，必須由 JS 動態生成
-
----
-
-## 每次更新 CSV 的操作流程
-
-1. 從 Futu 匯出 CSV（持倉保證金綜合帳戶 0193）
-2. 上傳到 Claude Project Files
-3. 告訴 Claude：「請根據最新 CSV 更新 index.html」
-4. Claude 會：
-   - `curl` 讀取 GitHub 上最新 index.html（**必須以此為基底，不可用本地快取版本**）
-   - Python 字面字串替換 `US_HOLDINGS` JS array comment 日期
-   - 核對 qty / cost 與 CSV 一致
-5. 下載新 index.html → 上傳 GitHub 替換
+| 檔案 | Project Files | GitHub raw 路徑 | 備註 |
+|---|---|---|---|
+| `gex_chart_v5_terminal.html` | ✅ | `gex_chart_v5_terminal.html` | 主終端，上傳 GitHub 替換 |
+| `index.html` | ✅ | `index.html` | 持倉儀表板（GitHub Pages 首頁） |
+| `mywatchlist.html` | ✅ | `mywatchlist.html` | Watchlist |
+| `global-indices.html` | ✅ | `global-indices.html` | 全球指數 |
+| `premarket-rates-monitor.html` | ✅ | `premarket-rates-monitor.html` | 美日息率（頁面標題「最新息率」） |
+| `secreport.html` | ❌ | `secreport.html` | SEC 財報分析頁，Project Files 冇 |
+| `manulife_mpf.html` | ❌ | `manulife_mpf.html` | MPF 頁 |
+| `futu_bridge_v2.py` | ✅（v3.16，見下） | **冇**（root 404） | 本機專用，永遠唔 push |
+| `why_moving_bridge_patch.py` | ✅ | **冇** | 貼入 bridge 嘅區塊，見 §5 |
+| `telegram_bot.py` | ✅（v1.24） | `telegram/telegram_bot.txt`（⚠️ 備份只係 v1.9，已過時） | GitHub 係 `.txt` |
+| `github_gex_updater.py` | ✅ | `telegram/github_gex_updater.txt` | GitHub 係 `.txt` |
+| `cftc_cot_updater.py` | ✅ | **冇** | 輸出寫入 `cot/*.md` |
+| `telegram/telegram.md` | ❌ | `telegram/telegram.md` | Bot 架構文件 |
+| `DASHBOARD_CHANGELOG.md` | ❌ | `DASHBOARD_CHANGELOG.md` | 本文件 |
+| CTA/GEX 學習記錄 | ❌ | `CTA_GEX_監視工具學習記錄_20260614.md`（repo root；`notes/` 路徑 404） | 宏觀框架 |
+| `cot/ES_COT.md`、`cot/NQ_COT.md` | ❌ | 同路徑 | 每週六自動更新 |
+| `stocks/*.md`、`stocks/README.md` | ❌ | 同路徑 | 每日 GEX 快照（Futu 離線時 fallback） |
+| 持倉 CSV | ✅ `holdings_US_20261001.csv`、港股 `…20260527港股.csv` | — | 由 Futu 匯出 |
 
 ---
 
-## 文件結構
+## 1. 系統架構
 
 ```
-netng888-code/netng888 (GitHub repo)
-├── index.html            ← 主持倉儀表板
-├── manulife_mpf.html     ← MPF 強積金頁面
-├── mywatchlist.html      ← 自選股 Watchlist
-└── DASHBOARD_CHANGELOG.md ← 本文件
+Futu OpenD (127.0.0.1:11111, US LV3 + Options LV1)
+   └─ futu_bridge_v2.py（FastAPI :8888，本機）
+        ├─ /api/quote /gex /moneyflow /kline /capital_dist /capital_flow
+        ├─ /api/fundamentals(/{sym})   Futu snapshot + Finnhub 補
+        ├─ /api/real_indices /macro_quotes   Futu(HSI,ASHR代理) + Yahoo
+        ├─ /api/yield_curve /yield_curve_jp   Treasury XML / 日本 MOF CSV
+        ├─ /api/options_calendar /sec_financials /sec_analysis
+        ├─ /api/ai_analysis/{sym}   OpenRouter → DeepSeek（主）→ GLM（備）
+        └─ /api/why_moving/{sym}    歸因（Python 統計 + AI 講解）
+              ↑ 前端：gex_chart_v5_terminal.html / global-indices.html /
+                       premarket-rates-monitor.html / secreport.html
+github_gex_updater.py（排程 09:00 + 21:00 HKT）→ GitHub stocks/*.md
+cftc_cot_updater.py（排程 週六 08:00 HKT）→ GitHub cot/*.md
+telegram_bot.py（長期運行）← 讀 Futu bridge / GitHub md → Telegram
 ```
 
 ---
 
-## 重要技術細節備忘
+## 2. 版本現況（2026-10-02）
 
-### US_HOLDINGS array 格式
-```javascript
-// 美股持倉（由Futu CSV更新，成本價/持倉數量靜態，實時價來自Finnhub）
-const US_HOLDINGS = [
-  { symbol:'MU',    name:'美光科技', qty:5,  cost:557.857, mktval:4537.50, pnl:1748.22, pnlPct:'+62.68%', realized:2395.49, todayPnL:0 },
-  // ... 其餘持倉，按市值降序排列
-];
-```
+| 組件 | 版本 | 備註 |
+|---|---|---|
+| gex_chart_v5_terminal.html | **v5.34**（本次交付）；GitHub 上係 v5.33 | v5.34 修正「點解升跌」新聞截斷 |
+| futu_bridge_v2.py | Project Files 係 v3.16；本機運行版已包含 why_moving 區塊（v3.17.x） | 區塊獨立存喺 `why_moving_bridge_patch.py`，最新 **v3.17.2** |
+| telegram_bot.py | v1.24（Project Files）；GitHub 備份 v1.9 ⚠️ | 改 bot 前以 Project Files 為準 |
+| cftc_cot_updater.py | v1.2（含 REQUIRED_FIELDS schema 診斷） | |
+| global-indices.html | v7 | |
+| premarket-rates-monitor.html | v5 | 美債 + JGB + 美日息差 + 重疊圖 |
 
-### Regex anchor（Python 替換用）
-```python
-# 以中文 comment 行作 anchor（用字面字串替換，避免 regex 特殊字元問題）
-old = '// ── 美股持倉（由Futu CSV 2026-XX-XX 匯出，按市值降序）────────────────────────'
-new = '// ── 美股持倉（由Futu CSV 2026-YY-YY 匯出，按市值降序）────────────────────────'
-content = content.replace(old, new)
-```
+**AI 模型鏈（bridge v3.15 / bot v1.23 起）：** 主 `deepseek/deepseek-v4-flash-0731`，備 `z-ai/glm-5.3-flash`（兩個都用釘死版本 slug，唔用 `-latest` alias）。請求帶 `provider.sort=latency`、`max_tokens=2000`、`reasoning:{effort:low, exclude:true}`；content 為空／403／逾時 → 自動 fallback。
 
-### Flipcharts TradingView URL 參數（loadChart 函數）
-```javascript
-const url = `https://s.tradingview.com/widgetembed/?frameElementId=tv-chart`
-  + `&symbol=${encodeURIComponent(tvSym)}`
-  + `&interval=${flipInterval}`
-  + `&hidesidetoolbar=0&hidetoptoolbar=0&symboledit=1&saveimage=1`
-  + `&toolbarbg=0f1218`
-  + `&studies=MASimple%40tv-basicstudies%1FMACD%40tv-basicstudies%1FVolume%40tv-basicstudies`
-  + `&theme=dark&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=1&locale=zh_TW&extended_hours=1`;
-```
-
-### Symbol Strip（initFlipcharts 函數）— 重要
-```javascript
-function initFlipcharts(){
-  if(flipInited)return;
-  const strip=document.getElementById('flip-sym-strip');
-  strip.innerHTML='';   // ← 必須保留，防止靜態 HTML 殘留導致重複
-  ALL_SYMS.forEach((sym,i)=>{ ... });
-  ...
-}
-```
-- HTML 中 `<div class="flip-sym-strip" id="flip-sym-strip"></div>` **必須是空的**
-- 不可在 HTML 靜態寫入任何 chip div
-
-### Quicklinks Bar — 重要限制
-```html
-<!-- 正確寫法（無 iframe，無 onmouseover） -->
-<a class="qlink" href="https://netng888-code.github.io/netng888/manulife_mpf.html" target="_blank">
-  <span class="qlink-icon">🏦</span> Manulife MPF
-</a>
-<a class="qlink" href="https://netng888-code.github.io/netng888/mywatchlist.html" target="_blank">
-  <span class="qlink-icon">📋</span> My Watchlist
-</a>
-<!-- 錯誤：任何 iframe src 或 onmouseover iframe preview 在 GitHub Pages 均觸發 404 -->
-```
-
-### FINNHUB_KEY
-```javascript
-const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
-```
-
-### HK Holdings（手動維護）
-```javascript
-// ── 港股持倉（手動維護）
-const HK_HOLDINGS = [
-  { symbol:'7709', yahooSym:'7709.HK', name:'南方兩倍做多海力士', qty:200, cost:15.80,  ... },
-  { symbol:'2367', yahooSym:'2367.HK', name:'巨子生物',           qty:600, cost:38.00,  ... },
-  { symbol:'9988', yahooSym:'9988.HK', name:'阿里巴巴-W',         qty:100, cost:165.00, ... },
-];
-```
+**排程（Windows 工作排程器，本機 `C:\Users\Dell\Downloads\FUTU\telegram\`）：** `github_gex_updater.py` 09:00＋21:00 HKT；`cftc_cot_updater.py` 週六 08:00 HKT。
 
 ---
 
-## 持倉快照記錄
+## 3. 持倉快照（Futu CSV 2026-10-01，美股 17 隻）
 
-### 2026-06-15（Futu CSV：最新美股持倉.csv）
-**美股 18 隻持倉（按市值降序）：**
+| 代碼 | 持股 | 平均成本 |
+|---|---|---|
+| GOOGL | 20 | 245.04 |
+| NVDA | 20 | 189.0625 |
+| AVGO | 10 | 378.602 |
+| MRVL | 10 | 257.303 |
+| NOK | 200 | 12.458 |
+| TER | 5 | 92.00 |
+| META | 3 | 606.333 |
+| RDW | 40 | 15.65 |
+| LEU | 8 | 197.50 |
+| OKLO | 40 | 30.05875 |
+| RKLB | 10 | 76.00 |
+| PLTR | 12 | 127.304 |
+| ISRG | 2 | 453.10 |
+| LYTE | 30 | 25.00 |
+| RR | 300 | 2.445 |
+| VRT | 2 | 303.76 |
+| SERV | 30 | 11.743 |
 
-| 代碼 | 持倉 | 成本價 | 市值(USD) | 備註 |
-|------|------|--------|-----------|------|
-| MU   | 5    | $557.857 | 4,537.50 | 已鎖利 4 股 |
-| GOOGL| 12   | $178.40  | 4,349.28 | |
-| AVGO | 10   | $375.782 | 3,870.20 | |
-| NVDA | 15   | $148.50  | 3,094.65 | |
-| MRVL | 10   | $238.605 | 2,611.80 | |
-| TER  | 5    | $92.00   | 1,846.65 | 長倉 +301% |
-| META | 3    | $606.333 | 1,758.15 | |
-| NOK  | 100  | $13.50   | 1,370.00 | |
-| RDW  | 80   | $15.65   | 1,262.40 | |
-| LEU  | 8    | $197.50  | 1,251.04 | 虧損 -20.82% |
-| OKLO | 20   | $21.067  | 1,123.60 | +166% |
-| RKLB | 10   | $76.00   | 1,079.20 | |
-| PLTR | 7    | $124.335 | 921.13   | |
-| ISRG | 2    | $453.10  | 855.16   | |
-| LITE | 1    | $820.00  | 819.51   | |
-| RR   | 300  | $2.445   | 687.00   | ↑ 從100股加至300股 |
-| VRT  | 2    | $303.76  | 579.04   | |
-| SERV | 30   | $11.743  | 213.00   | 虧損 -39.54% |
+港股（CSV 係 2026-05-27，**已過時**；index.html 手動維護）：07709 200@15.80、02367 600@38.00、09988 100@165.00。
 
-**變化摘要 vs 2026-06-10：**
-- RR：100股 → 300股，成本 $2.735 → $2.445（加倉攤薄）
-- 排序調整：OKLO(1,124) 移前 RKLB(1,079)（按市值降序）
-- 排序調整：RR(687) 移前 VRT(579)（按市值降序）
+已清倉：MU（2026-09-03 @1,000，已實現 +442.14）、LITE（2026-08 @940，+120）。
 
-**2026-06-15 技術修復：**
-- 移除 Manulife MPF 及 My Watchlist quicklinks 的 `onmouseover` iframe preview
-  - 原因：iframe 指向本地路徑 `index_files/*.htm`，GitHub Pages 上不存在，觸發 404 彈窗
+⚠️ index.html 入面 qty/cost 已同步，但 `mktval/pnl`、風險概覽卡文字（例如 LEU、SERV 數字）係舊快照靜態字串，唔代表最新；實時價由 Finnhub 覆蓋。
 
 ---
 
-### 2026-06-10（Futu CSV：019320260610101451）
-**美股 18 隻持倉：**
+## 4. 買賣處理規則（五檔同步）
 
-| 代碼 | 持倉 | 成本價 | 備註 |
-|------|------|--------|------|
-| MU   | 5    | $557.857 | 已鎖利 |
-| GOOGL| 12   | $178.40  | |
-| AVGO | 10   | $375.782 | |
-| NVDA | 15   | $148.50  | |
-| MRVL | 10   | $238.605 | ↑ 從 5 股加至 10 股 |
-| TER  | 5    | $92.00   | 長倉 +301% |
-| META | 3    | $606.333 | |
-| NOK  | 100  | $13.50   | 新加入 |
-| RDW  | 80   | $15.65   | ↑ 從 30 股大幅加倉 |
-| LEU  | 8    | $197.50  | 虧損 -20.82% |
-| OKLO | 20   | $21.067  | +166% |
-| RKLB | 10   | $76.00   | ↑ 從 5 股加至 10 股 |
-| PLTR | 7    | $124.335 | |
-| ISRG | 2    | $453.10  | |
-| LITE | 1    | $820.00  | |
-| VRT  | 2    | $303.76  | |
-| RR   | 100  | $2.735   | |
-| SERV | 30   | $11.743  | 虧損 -39.54% |
+每次買賣必須同步：
+1. 持倉 CSV（Project Files 用）
+2. `index.html`：`US_HOLDINGS`（qty/cost/mktval/pnl/pnlPct/realized/todayPnL）、靜態表格行、已實現利潤橫額、summary card、footer 更新記錄
+3. `gex_chart_v5_terminal.html`：`PORTFOLIO` object、`HOLDINGS` quicklinks 陣列、tab 標題「持倉總覽 (N)」、changelog
+4. `futu_bridge_v2.py`：`US_STOCKS`
+5. `telegram_bot.py`：`ALL_HOLDINGS`（`VALID_SYMS` 自動跟隨）
+6. `github_gex_updater.py`：`BATCH1`／`BATCH2`（新持倉加落 BATCH2 或第三個 Barchart 帳戶，唔好加落帳戶1：quota 18/20）
 
-**2026-06-10 技術修復：**
-- Flipcharts symbol strip 重複 bug 修復
-- TradingView 加入 `&extended_hours=1`
+歷史 changelog 條目一律凍結，全局替換時唔好改舊條目，只改現況顯示字串。
 
-*最後更新：2026-06-15*
+---
+
+## 5. 交付與驗證流程（強制）
+
+- HTML：交付完整檔案；Python：以 `.txt` 交付（`.py` 下載會失敗，用戶本機改名）。
+- 驗證：① `node --check`（先抽出 inline JS）② HTML tag-balance（排除 `<script>`/`<style>`）③ `python3 -m py_compile` ＋ `pyflakes` ④ 同 GitHub 原檔 diff，確認只改咗預期行。
+- 改完 bridge／bot 要手動重啟先生效（`telegram_bot.py` 唔會 auto-reload）。
+- `why_moving_bridge_patch.py` 用法：成段貼入 `futu_bridge_v2.py`，位置喺「指數/期貨/ETF代碼可用性診斷（v2.3）」區塊**之前**；替換舊 `<<<WHY_MOVING_BEGIN>>>…<<<WHY_MOVING_END>>>` 整段。
+
+---
+
+## 6. 重要規則與已知教訓
+
+**架構／GEX**
+- 方向、距離、分級判斷一律喺 Python `if/else` 預先計好（`compute_wall_status`、`compute_breakout_scenario`、`compute_retail_dealer_context`），AI 只負責組織語言，唔准自己計方向（AVGO 事件教訓）。
+- Futu SDK 單一 `_ctx`：Futu call 只可 sequential 或 `max_workers ≤ 4`；純 HTTP（Yahoo/Treasury）先可以大量並行。
+- `BREAKOUT_BUFFER_PCT = 0.5` 喺前端、bridge 兩邊人手同步；NYSE 假期表喺 html／bridge／bot 三處人手同步。
+- Put Wall > Call Wall 喺單一到期日 OI 集中時可以合法出現，唔係 bug。
+- Premium Flow 正常但 Order Book／Tick Delta／K線同時失敗 → 訂閱 slot 爆，撳「🔄 重置連接」（`/api/reset`）。
+- `dividend_ratio_ttm` 已係百分比（20＝20%）；虧損股 P/E 負數或 null 顯示「—」。
+- 前端 `AbortSignal.timeout` 一定要大過 backend 理論 worst-case（多次出事：AI 分析、跑馬燈、孳息曲線）。
+
+**今日點解升跌（`/api/why_moving/{sym}`，前端 v5.31 起）**
+- 日線收市價迴歸（估計窗口 60 日、唔包今日）：大市(SPY)／板塊ETF／公司特定殘差(z 值)，加 10Y／WTI／BTC／VIX／DXY 宏觀 verdict 同 Dealer(GEX) 背景。
+- 每個因素 verdict（主要／次要／背景／不支持／未見異動／證據不足）由 Python 判定，AI 唔准推翻或升降級。
+- 新聞按發布時間對比走勢窗口（前一交易日 16:00 ET → 最近交易日 16:00 ET）分類：窗口內／收市後／窗口前／時間未知。收市後新聞唔可以解釋今次升跌。
+- 手動貼入新聞（textarea → `extra_news`，最多 15 行、每行 200 字）永遠標「時間未知」。
+- ⚠️ **2026-10-02 bug（v5.34／bridge v3.17.2 修正）**：手動新聞排清單最尾，前端 `slice(0,8)` 切走；AI prompt 又只叫揀「窗口內」新聞，貼入內容被完全忽略。教訓：往 list 加新來源要諗清楚排序同前端截斷，並提供「已收到 N 條」確認。
+- 已知結構性盲點：ADR（SKHY）嘅海外本地時段走勢會被當「公司特定殘差」；未來可加本地市場因子（例如 `000660.KS`／EWY）。
+
+**SEC XBRL**：用多 tag fallback（NVDA 首個 tag 可能只喺舊財年出現）；現金流量表只有 YTD → `_sec_ytd_buckets` + `_derive_ytd_quarters`；GOOGL 冇 GrossProfit tag → Revenue − Cost of Revenue；用真實期間日期去重，唔用 SEC 嘅 fy/fp。
+
+**index.html 舊教訓（仍然有效）**
+- GitHub Pages `X-Frame-Options: deny`：quicklinks 唔可以做 iframe preview。
+- Finviz chart PNG 有 hotlink protection，唔可 `<img>` 直載。
+- Flipcharts symbol strip 由 JS 動態生成，HTML 必須保持空容器，`initFlipcharts()` 要 `strip.innerHTML=''`。
+- TradingView embed 用純 ticker symbol，唔強制交易所前綴；cash index（SPX/HSI 等）會彈授權窗，改用 ETF 代理或真實點數 ticker。
+- 港股實時價靠 Yahoo，瀏覽器有 CORS 問題，有手動 fallback。
+
+**其他**
+- GitHub 上嘅 python 備份係佔位 key（`YOUR_xxx`），真 key 只喺用戶本機。
+- Finnhub 免費 60 次/分鐘；Barchart 免費帳戶約 20 page views/日。
+
+---
+
+## 7. 近期版本記錄（新→舊）
+
+- **2026-10-02** html v5.34／bridge 區塊 v3.17.2：修正「點解升跌」手動新聞唔顯示（見 §6）；同日重寫本文件同 `telegram/telegram.md`。html v5.33：美股表刪「名稱」欄、操作欄統一 TV／FV／GE／SEC／OC 文字掣。
+- **2026-10-01** html v5.31／v5.32、bridge v3.17.1（歸因窗口＋新聞時間分類）、bot v1.24（GOOGL 20 股、NVDA 20 股、移除 MU）。
+- 2026-09-28 html v5.30：OptionCharts 外鏈、三套主題（白天／黑夜／陰天）；premarket-rates-monitor v5：美日重疊圖。
+- 2026-09-24 bridge v3.15／bot v1.23：備用模型換成 GLM 5.3 Flash。
+- 2026-09-13 html v5.26–v5.29：基本面欄（P/E／EPS／Div／Growth／Sector），表格欄位合併、代碼欄 sticky。
+- 2026-09-07 secreport.html（SEC 財報＋AI）；bridge v3.9–v3.11。
+- 2026-08 起：Dealer Gamma 趨勢、K線 RSI／布林線、到期日曆、COT 週報、OPEX 提醒、雙 Barchart 帳戶。
+
+（更早歷史見各檔案頁首 changelog。）
