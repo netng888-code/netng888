@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-02 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[Are You Overpaying For Intuitive Surgical Stock Versus Its Rivals?](https://finnhub.io/api/news?id=ef547146d71910c1b6a7a247baa1fcc2fbbe0b5f7267a5c6d5fce1b75f4897ff)**  
+*Yahoo · 4h前*  
+Intuitive Surgical (ISRG) grows faster and earns a higher operating margin than any of the five rivals in its health care peer group. It is also the most expens…
+
+- **[Intuitive Surgical: Strong Growth, But Valuation Comes At A Premium](https://finnhub.io/api/news?id=246e6fe5c3fcbc354cf27fc7bea477fb73d2199c42c145d62c39bd25d6d99f2e)**  
+*SeekingAlpha · 4h前*
+
 - **[Abbott Laboratories vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=7d8978edc7fd5a9c86de1f230baa55e83b41e9989c7c5a688bebbb853aaf7c88)**  
-*Yahoo · 7h前*  
+*Yahoo · 19h前*  
 Intuitive Surgical is beating estimates and raising margins while its installed base keeps expanding. Abbott is executing steadily across a diversified portfoli…
-
-- **[Is Wall Street Dead Wrong About Intuitive Surgical? Here's My Honest Answer.](https://finnhub.io/api/news?id=0f46fd3991b6034c5e32178cada89682379b8b97f273d838e33a0f9bc7cce035)**  
-*Yahoo · 16h前*  
-Analysts think this beaten-down healthcare stock will rebound.
-
-- **[The Top HealthTech Questions Landing On Our Desks](https://finnhub.io/api/news?id=7d6465b472d118677c03014527a5f47cd568772afebdfde05f26b16e70df37cb)**  
-*SeekingAlpha · 21h前*  
-Strong performance across the healthtech sector over the past two quarters has sparked renewed market interest in medical innovation.
 
 ---
 
@@ -59,4 +58,4 @@ Strong performance across the healthtech sector over the past two quarters has s
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:05 HKT*
