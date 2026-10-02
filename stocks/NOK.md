@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -10,9 +10,9 @@
 |------|------|
 | 現價 | **$10.37** |
 | 今日變動 | ▲ $0.23　(+2.27%) |
-| 持倉數量 | 150 股 |
-| 平均成本 | $13.167 |
-| 未實現盈虧 | ▼ $420　(▼21.2%) |
+| 持倉數量 | 200 股 |
+| 平均成本 | $12.458 |
+| 未實現盈虧 | ▼ $418　(▼16.8%) |
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Nokia, ICEYE Take On SpaceX’s Starlink With Sovereign LEO Network For Defense Customers](https://finnhub.io/api/news?id=c79f4817262fff7a86d898e62d0e906dd62e8d032d316364741596311a553e61)**  
+*Yahoo · 1d前*  
+Nokia is pushing into space-based defense communications with a European-built LEO system that will allow governments to independently own and control critical …
+
 - **[Inseego Completes Acquisition of Nokia’s Fixed Wireless Access Business](https://finnhub.io/api/news?id=cc7e8b6dd956c3a1ffcf50cf14a57544415abd214aea7b2fe260fe35c4c51a87)**  
-*Yahoo · 17h前*  
+*Yahoo · 1d前*  
 Transaction expected to approximately double Inseego’s revenue and expand its global footprint across Europe, the Middle East, Asia, Oceania, and the AmericasSA…
 
 - **[ICEYE and Nokia partner to launch secure and sovereign satellite communications for governments and defense customers](https://finnhub.io/api/news?id=c4a2ec49509e46031c9cb3421e7d492c914776067635e5e5fbf7c8f9cd81e2f6)**  
-*Yahoo · 18h前*  
+*Yahoo · 1d前*  
 ICEYE, the European leader in sovereign intelligence from space, and Nokia, a global leader in connectivity infrastructure, today announced a partnership to dev…
-
-- **[Nokia Teams With ICEYE On Government-Owned Broadband Satellite Communications Covering Satellites, Ground Segment And Terminals, Targeting First Launches In 2028](https://finnhub.io/api/news?id=10d01a9f47ea751d6528d14d834a0997fd9944febdd3cf1d92e8b089922d4caf)**  
-*Benzinga · 21h前*  
-ICEYE and Nokia partner to launch secure and sovereign satellite communications for governments and defense customersSovereign, dual-use satellite communication…
 
 ---
 
@@ -59,4 +59,4 @@ ICEYE and Nokia partner to launch secure and sovereign satellite communications 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
