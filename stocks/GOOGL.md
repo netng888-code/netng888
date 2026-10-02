@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -10,9 +10,9 @@
 |------|------|
 | 現價 | **$338.24** |
 | 今日變動 | ▼ $5.84　(-1.70%) |
-| 持倉數量 | 16 股 |
-| 平均成本 | $221.300 |
-| 未實現盈虧 | ▲ $1,871　(▲52.8%) |
+| 持倉數量 | 20 股 |
+| 平均成本 | $245.040 |
+| 未實現盈虧 | ▲ $1,864　(▲38.0%) |
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $337.91 | — |
-| Put Wall（支撐） | $330.00 | -2.4% |
+| Put Wall（支撐） | $340.00 | --0.5% |
 | Call Wall（阻力） | $350.00 | +3.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Cheer Cooling Yields — GOOGL, MU, MAT, NVDA In Focus](https://finnhub.io/api/news?id=08849f65268b05479a386e4e1416205e9ce4b6026de02408d117e683d1982533)**  
+- **[How The Two BIggest Hyperscalers Stand to Benefit From Anthropic’s IPO](https://finnhub.io/api/news?id=1679528a3faf533cd72d0f7b1812963434f2601e6a79a3aafe1dd741a93f4ec7)**  
 *Yahoo · 1h前*  
-10-year Treasury yields cooled off from the 2002 highs on Thursday.
+Amazon and Alphabet both booked staggering Anthropic gains last quarter, yet the two hyperscalers are playing completely different games with the AI company hea…
 
-- **[Planet Launches Suncatcher, Tanager-2, and 18 SuperDove Satellites](https://finnhub.io/api/news?id=3cd7e0c94773db12da11d9ae69e6593dc1d77411ad4b4f19891b997a36bcbdab)**  
-*Yahoo · 2h前*  
-SAN FRANCISCO, October 01, 2026--Planet Labs PBC (NYSE: PL), a leading provider of daily data and insights about change on Earth, today announced the successful…
+- **[What $10k In Alphabet Today Becomes By 2030](https://finnhub.io/api/news?id=6ac4df11c06e0a187678aa710a26433c8548aad42ba3e3a4e99abd07a7a2ef2e)**  
+*Yahoo · 1h前*  
+Alphabet is pouring hundreds of billions into AI infrastructure while free cash flow turns negative and buybacks disappear, yet analysts still see 26% upside fr…
 
-- **[Can Reality Labs Ever Earn Enough to Justify Meta’s Spending?](https://finnhub.io/api/news?id=446dacbe4bbef14075601000880d2a9dbc3a41e3f86feb260047fbb4ded53866)**  
-*Yahoo · 3h前*  
-Meta Platforms, Inc. (NASDAQ:META) earns enough from its apps to fund a business that loses billions of dollars each quarter. That financial capacity gives Real…
+- **[Marvell's Custom AI Silicon Deals With Hyperscalers Could Redefine Its Growth Story](https://finnhub.io/api/news?id=9c34e384aef29741842c48ab4579aa3559fb30b3d02e8315cf4151b5e2d9d0a0)**  
+*Yahoo · 1h前*  
+A recent deal with Google could significantly boost Marvell's custom chip business.
 
 ---
 
@@ -59,4 +59,4 @@ Meta Platforms, Inc. (NASDAQ:META) earns enough from its apps to fund a business
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
