@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-02 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,16 +31,16 @@
 ## 📰 最新新聞
 
 - **[Firefly Aerospace vs. Redwire: Which U.S. Space Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=e8cc87dc86c619835ebd119fde9a785b5240014ea11e6f992349299fbaa90a2d)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 Firefly scales fast with a $1.4B backlog but burns cash heavily; Redwire trades cheaper but faces integration risks and internal control weaknesses.
 
-- **[Honda Explores Robotics Solution to Support Research Aboard Future Commercial Space Stations](https://finnhub.io/api/news?id=4f79c70de71402bed35ecfb85bcaf467e9afbd1e3694fdc2a72d29ddb77d8fcf)**  
-*Yahoo · 13h前*  
-Honda today announced efforts to develop a robotics solution for future commercial space stations that could reduce the time needed for astronauts to conduct ex…
+- **[RDW Stock Alert: What to Know as Redwire Teams Up With Honda on Robotics](https://finnhub.io/api/news?id=bf4db8e2f9fe3cb9f9f89e7b371d4a90a898b6e2ac79abd97f6d6c46da06af8d)**  
+*Yahoo · 18h前*  
+Redwire stock rallies on a partnership with Honda’s U.S.-based space development division. Here’s why RDW shares are worth buying today.
 
-- **[Honda Motors Engages With Redwire To Develop Robotics Solution For Future Commercial Space Stations To Reduce Time Needed For Astronauts To Conduct Experiments And Laboratory Operations In Space](https://finnhub.io/api/news?id=49846a3126d009580f428d22aabeea5881bf27d19eda560f357ccbad656ec829)**  
-*Benzinga · 17h前*  
-Honda multi-fingered robotic hand combined with Redwire STAARK robotic arm could automate experiment handling and other research operations in orbitRobotics sol…
+- **[Honda Explores Robotics Solution to Support Research Aboard Future Commercial Space Stations](https://finnhub.io/api/news?id=4f79c70de71402bed35ecfb85bcaf467e9afbd1e3694fdc2a72d29ddb77d8fcf)**  
+*Yahoo · 1d前*  
+Honda today announced efforts to develop a robotics solution for future commercial space stations that could reduce the time needed for astronauts to conduct ex…
 
 ---
 
@@ -59,4 +59,4 @@ Honda multi-fingered robotic hand combined with Redwire STAARK robotic arm could
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
