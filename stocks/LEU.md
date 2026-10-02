@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-02 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -55,4 +55,4 @@ Energy Fuels reduces its operating cash burn in 1H26, but rising investment spen
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
