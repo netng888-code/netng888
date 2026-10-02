@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-02 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Wall Street Backs Coherent, Rocket Lab and Vertiv](https://finnhub.io/api/news?id=c446ea8bf121259d1da41295ccca5053960528dc6f7b29aae514cb9fdd17daf0)**  
-*Yahoo · 1h前*  
-Bernstein, Citi, and Wells Fargo all launched bullish coverage on Coherent, Rocket Lab, and Vertiv within weeks of each other, but the real question is whether …
+- **[Stocktwits Space Race Weekly: SPCX Holds Pole Position As ASTS, RKLB, PL, RDW, FLY Lose Altitude](https://finnhub.io/api/news?id=518cb0e6c4d7fd78780e252f710cd38f60d849e8692bc25bc63178e6501ccef6)**  
+*Yahoo · 3h前*  
+Planet launched Google’s Suncatcher prototype to test TPUs in orbit, and Redwire explored orbital computing and robotics.
 
-- **[Intuitive Machines vs. Rocket Lab: Which Space Stock Can Send Your Returns Into Orbit in 2026?](https://finnhub.io/api/news?id=41e0db71e283d1a19dcb68b8e9b3d7bba2babaa31caa0f3aa055575696325231)**  
-*Yahoo · 1h前*  
-One focuses on lunar infrastructure with heavy customer concentration; the other is scaling launch services but carrying an $8 billion acquisition burden.
+- **[Nasdaq, S&P 500, Dow Futures Rise Ahead Of Jobs Report: NKE, META, RKLB, MRNA, SLS, TSLA Stocks In Focus](https://finnhub.io/api/news?id=b0433938a5153602f02557a4aa3ac9dba90df0c0707dfef81c5471331dcce542)**  
+*Yahoo · 4h前*  
+On Stocktwits, retail sentiment toward SPY and QQQ remained ‘bullish’ ahead of jobs data.
 
-- **[Citi Just Upgraded Rocket Lab Stock. Here's Why.](https://finnhub.io/api/news?id=587a6dca2dc6d1534ef11ae2828040b2329f4e4bfce20c8f4070023ad7148df6)**  
-*Yahoo · 7h前*  
-Rocket Lab stock pushes higher on a bullish Citi note. Here’s why analyst John Godyn recommends buying RKLB shares.
+- **[Prediction: 2 Space Stocks That Could Join SpaceX and Rocket Lab in the Nasdaq-100 by 2030](https://finnhub.io/api/news?id=89413c43ab0343d58643610bc4aae48ab9ce4463e40b7a8d5008f3ca8026476b)**  
+*Yahoo · 6h前*  
+Space stocks could be the next frontier in hypergrowth technology investments.
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab stock pushes higher on a bullish Citi note. Here’s why analyst John
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
