@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-02 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Are Vertiv Investors Betting On?](https://finnhub.io/api/news?id=5bfba3d3cdd9e838f8549c02366b6a51e31d31fccf4b117585b67424bf543530)**  
-*Yahoo · 7h前*  
-Vertiv (VRT) stock trades at 50.5 times its adjusted earnings of the last twelve months: net income with stock-based pay added back. That multiple is a lot for …
+- **[3 Quality Compounders with Exciting Potential](https://finnhub.io/api/news?id=df3b66171eae6ab4bfcff899515870f7b7110651943ae36ab2d904b636cba781)**  
+*Yahoo · 3h前*  
+A quality compounder is a business that not only sports durable competitive advantages but also builds on its success by consistently reinvesting its profits at…
 
-- **[Data Centers Need Copper, Concrete, and Cooling. Here Are 3 Boring Industrials Set to Cash In.](https://finnhub.io/api/news?id=109714b8bc1de7cb1c7471c2106a0fab5ed627fb9e80769d27daf14561193d37)**  
-*Yahoo · 9h前*  
-The AI data center build-out has many years to run, and these stocks are ideally placed to benefit.
+- **[Is Vertiv Stock's Fall A Bargain Or A Warning?](https://finnhub.io/api/news?id=b09718fc9f9379f0bb2319271f57e4232ce9594164705fb4c079de34b237c58f)**  
+*Yahoo · 3h前*  
+Vertiv (VRT) stock has fallen 15% from its September 8 high. A $10,000 purchase at that high is worth about $8,500 today. A fall like that makes you want to act…
 
-- **[Vertiv Soars 49% YTD: Is This the Right Time to Buy the Stock?](https://finnhub.io/api/news?id=47316eac28ed86c1b715aa82feb44ba809ec50ec0893b9cf0802d8cbaa589939)**  
-*Yahoo · 9h前*  
-VRT's AI data center growth, strategic acquisitions, and margin gains are driving strong momentum as demand for power and thermal solutions rises.
+- **[Wall Street Backs Coherent, Rocket Lab and Vertiv](https://finnhub.io/api/news?id=c446ea8bf121259d1da41295ccca5053960528dc6f7b29aae514cb9fdd17daf0)**  
+*Yahoo · 13h前*  
+Bernstein, Citi, and Wells Fargo all launched bullish coverage on Coherent, Rocket Lab, and Vertiv within weeks of each other, but the real question is whether …
 
 ---
 
@@ -59,4 +59,4 @@ VRT's AI data center growth, strategic acquisitions, and margin gains are drivin
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:05 HKT*
