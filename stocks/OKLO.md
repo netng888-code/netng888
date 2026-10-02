@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-02 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[X-Energy Just Went Public in 2026. Here's How It Stacks Up Against Oklo, NuScale, and BWX Technologies.](https://finnhub.io/api/news?id=6daff802a3400e75325cf969b790e8392aa7a13a765f1b765a1bbea0d482da1f)**  
-*Yahoo · 6h前*  
+*Yahoo · 18h前*  
 The small modular reactor maker faces plenty of near-term headwinds.
 
 - **[Can Oklo and NuScale Power Survive a Stock Market Crash? (Hint: Yes, but It's Complicated)](https://finnhub.io/api/news?id=3ecf084ea71467e9798cea98fda1f617ab6e89ab39f2e5889b9ed003fbae72fc)**  
-*Yahoo · 7h前*  
+*Yahoo · 19h前*  
 SMR stocks provide plenty of upside potential, but they're not without risk.
 
 - **[NANO Nuclear Energy vs. Oklo: Which Industrials Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=e9de71344171732b91bba15e67c37775cf06e4d46d18fc2ce1d9f11ae07048f3)**  
-*Yahoo · 11h前*  
+*Yahoo · 23h前*  
 Both companies burn cash heavily and face unproven technology, but their paths to commercialization differ sharply.
 
 ---
@@ -59,4 +59,4 @@ Both companies burn cash heavily and face unproven technology, but their paths t
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
