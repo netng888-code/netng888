@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -10,9 +10,9 @@
 |------|------|
 | 現價 | **$230.86** |
 | 今日變動 | ▲ $2.48　(+1.09%) |
-| 持倉數量 | 10 股 |
-| 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $707　(▲44.2%) |
+| 持倉數量 | 20 股 |
+| 平均成本 | $189.062 |
+| 未實現盈虧 | ▲ $836　(▲22.1%) |
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $213.56 | — |
 | Put Wall（支撐） | $230.00 | -0.4% |
-| Call Wall（阻力） | $235.00 | +1.8% |
+| Call Wall（阻力） | $240.00 | +4.0% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Thomson Reuters Stock Topped the Market on Thursday](https://finnhub.io/api/news?id=05b6f025e2b6c3fbd5c2f7a655266e64ab89cd73c643c287c80abb8ec3a51ca7)**  
+- **[3 Dow Jones Stocks with Exciting Potential](https://finnhub.io/api/news?id=7540d2683c44b228b44a5985be3027fee4b8b4cfd01d701db6e2852ffcab3a9f)**  
 *Yahoo · 1h前*  
-It's leaving the past behind, and investors cheered the move.
+The biggest names in corporate America call the Dow Jones (^DJI) home, but only a handful are still growing at a strong pace. Some of these blue-chip stocks are…
 
-- **[S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Cheer Cooling Yields — GOOGL, MU, MAT, NVDA In Focus](https://finnhub.io/api/news?id=08849f65268b05479a386e4e1416205e9ce4b6026de02408d117e683d1982533)**  
+- **[This ETF Has Quietly Become One of the Best Ways to Invest in Artificial Intelligence](https://finnhub.io/api/news?id=5a31d5b4eb04aeca0c6da9d2d653ff2d3beb4135b130701926f170b5aa68efa6)**  
 *Yahoo · 1h前*  
-10-year Treasury yields cooled off from the 2002 highs on Thursday.
+For the next leg of the AI trade, the best idea isn't to try to pick the next winners.
 
-- **[SpaceX's Terafab Will Be Bigger Than Any Building on Earth. Here's When Investors Will Profit.](https://finnhub.io/api/news?id=63395871752fee879b3e515bdb10b779f546c89449fca1ba4207249a07807220)**  
+- **[Latest News In AI Chips - Micron Technology Thrives with AI-Driven Demand Surge](https://finnhub.io/api/news?id=d75345635d967cbccff954f82c53abce56f4206f3efca678f4530fa0ec319b45)**  
 *Yahoo · 1h前*  
-Space Exploration Technologies wants to become a semiconductor giant.
+Recent developments in the AI chip sector highlight significant advancements, particularly with Micron Technology, Inc. reporting record financial results for i…
 
 ---
 
@@ -59,4 +59,4 @@ Space Exploration Technologies wants to become a semiconductor giant.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
