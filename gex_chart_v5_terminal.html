@@ -613,13 +613,21 @@
     VIX/DXY宏觀verdict、Dealer(GEX)背景、Finnhub+Google News新聞，每個因素由code判定
     「主要/次要/背景/不支持/未見異動/證據不足」，AI只負責按證據講解。輸入框可手動貼牛牛
     新聞標題（Futu OpenAPI冇新聞介面）。⚠️ 需要bridge升級到v3.17先用到。
+  v5.32（2026-10-01）：持倉更新：GOOGL加倉4股@$340.00（16→20股，成本加權至$245.04）。PORTFOLIO
+    object同步更新，其餘四檔（CSV／index.html／telegram_bot.py／github_gex_updater.py）跟返五檔
+    同步規則一併處理。
+  v5.33（2026-10-02）：「持倉總覽」美股表格兩項改動——(1) 刪除第2欄「名稱」（中文名），代碼已夠辨識，
+    省返橫向空間；合計行colspan由3改2同步。港股表格嘅「名稱」欄保留（07709等純數字代碼難辨識）。
+    (2)「操作」欄五個連結統一做文字掣：TV（TradingView圖表）／FV（Finviz）／GE（Barchart Gamma）／
+    SEC（secreport.html財報分析）／OC（OptionCharts），取代舊版📈按鈕同📄圖示。第2欄（持股）右對齊
+    CSS同步加入（us-table限定，唔影響其他table）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.31)</title>
+<title>GEX Chart — Futu Bridge (v5.33)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -1023,6 +1031,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .tbl-wrap tbody tr.total-row{background:rgba(0,212,170,.04);font-weight:600;}
 .tbl-wrap td{padding:9px 12px;text-align:right;white-space:nowrap;font-feature-settings:'tnum';}
 .tbl-wrap td:first-child,.tbl-wrap td:nth-child(2){text-align:left;}
+.tbl-wrap table.us-table thead th:nth-child(2),.tbl-wrap table.us-table td:nth-child(2){text-align:right;}
 /* v5.29新增：凍結（sticky）第一欄「代碼」——用戶截圖反映「持倉總覽」
    table欄數多（17欄），橫向scroll去到尾嗰陣「代碼」欄已經飄出畫面，
    完全睇唔到嗰行係邊隻股票。淨係freeze第一欄（唔連「名稱」），
@@ -1737,7 +1746,7 @@ buildQuicklinks();
 // holdings_US_20260706.csv 最新數字修正咗MU（2→1股，7/2有部分賣出）
 // 同NOK（100@13.50→150@13.167，之前個file漏咗一次加倉）
 const PORTFOLIO = {
-  'GOOGL':{qty:16,  cost:221.30  },
+  'GOOGL':{qty:20,  cost:245.04  },
   'NVDA': {qty:20,  cost:189.0625},
   'AVGO': {qty:10,  cost:378.602 },
   'MRVL': {qty:10,  cost:257.303 },
@@ -2077,9 +2086,9 @@ function renderUS(rows) {
   const cfg  = SESS_CFG[sess];
   let totalMV=0, totalPNL=0, totalTD=0, totalCost=0, hasData=0;
 
-  let html = `<div class="tbl-wrap"><table>
+  let html = `<div class="tbl-wrap"><table class="us-table">
   <thead><tr>
-    <th>代碼</th><th>名稱</th><th>持股</th>
+    <th>代碼</th><th>持股</th>
     <th class="${cfg.rowCls}" style="min-width:130px">${cfg.icon} T1 LIVE（時段輪動）</th>
     <th style="min-width:100px">T2 收盤<br><span style="font-size:8px;color:var(--muted)">不變，每天一次</span></th>
     <th style="min-width:100px">T3 前日收盤<br><span style="font-size:8px;color:var(--muted)">不變，每天一次</span></th>
@@ -2138,7 +2147,6 @@ function renderUS(rows) {
 
     html += `<tr class="${cfg.rowCls}">
       <td><span class="sym">${sym}</span></td>
-      <td title="${r.name||''}">${(r.name||'').substring(0,14)}</td>
       <td style="color:var(--muted)">${qty}</td>
       <td><span class="t1-cell">${fmv(T1)}</span>${T1badge}</td>
       <td class="t2-cell">${fmv(T2)}${T2badge}</td>
@@ -2150,10 +2158,10 @@ function renderUS(rows) {
       <td class="td-pnl ${tCls==='pos'?'pnl-pos':tCls==='neg'?'pnl-neg':'pnl-neu'}">${fm(todayPnl)}</td>
       <td style="text-align:left;font-size:11px;line-height:1.6;white-space:normal;color:var(--muted)">${fundCellHtml(fund)}</td>
       <td><div class="act">
-        <button class="lnk" onclick="openTV('${sym}')">📈</button>
-        <a class="lnk" href="https://finviz.com/quote.ashx?t=${sym}" target="_blank">FV</a>
-        <a class="lnk" href="https://www.barchart.com/stocks/quotes/${sym}/gamma-exposure" target="_blank">GE</a>
-        <a class="lnk" href="secreport.html?sym=${sym}" target="_blank" rel="noopener" title="${sym} SEC財報分析">📄</a>
+        <a class="lnk" href="https://www.tradingview.com/chart/?symbol=${sym}" target="_blank" rel="noopener" title="${sym} TradingView圖表">TV</a>
+        <a class="lnk" href="https://finviz.com/quote.ashx?t=${sym}" target="_blank" rel="noopener" title="${sym} Finviz">FV</a>
+        <a class="lnk" href="https://www.barchart.com/stocks/quotes/${sym}/gamma-exposure" target="_blank" rel="noopener" title="${sym} Barchart Gamma Exposure">GE</a>
+        <a class="lnk" href="secreport.html?sym=${sym}" target="_blank" rel="noopener" title="${sym} SEC財報分析">SEC</a>
         <a class="lnk oc" href="https://optioncharts.io/options/${sym}" target="_blank" rel="noopener" title="${sym} OptionCharts">OC</a>
       </div></td>
     </tr>`;
@@ -2162,7 +2170,7 @@ function renderUS(rows) {
   const totalUnrPct = totalCost ? (totalPNL/totalCost*100) : 0;
   const ttdCls = hCls(totalTD); const tunrCls = hCls(totalPNL);
   html += `<tr class="total-row">
-    <td colspan="3" style="text-align:left;font-weight:700;color:var(--accent)">合計 (${hasData}隻)</td>
+    <td colspan="2" style="text-align:left;font-weight:700;color:var(--accent)">合計 (${hasData}隻)</td>
     <td colspan="3"></td><td></td>
     <td class="mv-cell" style="font-weight:700">${fmv(totalMV)}</td>
     <td class="${tunrCls==='pos'?'pnl-pos':'pnl-neg'}" style="font-weight:700">${fm(totalPNL)}</td>
