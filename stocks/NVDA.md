@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-01 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$228.38** |
-| 今日變動 | ▲ $1.17　(+0.51%) |
+| 現價 | **$230.86** |
+| 今日變動 | ▲ $2.48　(+1.09%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $160.125 |
-| 未實現盈虧 | ▲ $683　(▲42.6%) |
+| 未實現盈虧 | ▲ $707　(▲44.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $211.90 | — |
-| Put Wall（支撐） | $220.00 | -3.7% |
-| Call Wall（阻力） | $235.00 | +2.9% |
+| Gamma Flip | $213.56 | — |
+| Put Wall（支撐） | $230.00 | -0.4% |
+| Call Wall（阻力） | $235.00 | +1.8% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Prediction: Here's What a $5,000 Investment in VUG Could Be Worth in 20 Years](https://finnhub.io/api/news?id=e32e3e0e6c4802bee57368c8374d1431849cdcdea65bdfaf13e9d5f1832c2e27)**  
+- **[Why Thomson Reuters Stock Topped the Market on Thursday](https://finnhub.io/api/news?id=05b6f025e2b6c3fbd5c2f7a655266e64ab89cd73c643c287c80abb8ec3a51ca7)**  
 *Yahoo · 1h前*  
-Here's how much an investment in VUG can grow under different scenarios.
+It's leaving the past behind, and investors cheered the move.
 
-- **[These 5 AI chip stocks are must-own into Q4, BofA says](https://finnhub.io/api/news?id=20e161539e22c22accecb37f63a4fe71bedad59862d353bbaa1c11fd096d8c1f)**  
+- **[S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Cheer Cooling Yields — GOOGL, MU, MAT, NVDA In Focus](https://finnhub.io/api/news?id=08849f65268b05479a386e4e1416205e9ce4b6026de02408d117e683d1982533)**  
 *Yahoo · 1h前*  
-Investing.com -- In a note on Thursday, analysts at Bank of America named its top semiconductor picks for the fourth quarter.
+10-year Treasury yields cooled off from the 2002 highs on Thursday.
 
-- **[Here's What a $10,000 Investment in Nvidia Stock Could Be Worth in 10 Years](https://finnhub.io/api/news?id=87a91de44df55128c9cd980c50e0d9e2740c91795c49dc9bfeb16efbf0aa5e12)**  
+- **[SpaceX's Terafab Will Be Bigger Than Any Building on Earth. Here's When Investors Will Profit.](https://finnhub.io/api/news?id=63395871752fee879b3e515bdb10b779f546c89449fca1ba4207249a07807220)**  
 *Yahoo · 1h前*  
-After gaining more than 13,500% over the past decade, Nvidia stock still has plenty of upside potential over the next 10 years.
+Space Exploration Technologies wants to become a semiconductor giant.
 
 ---
 
@@ -48,7 +48,7 @@ After gaining more than 13,500% over the past decade, Nvidia stock still has ple
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-01 | 監控 | $228.38 | — | 自動更新 |
+| 2026-10-02 | 監控 | $230.86 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ After gaining more than 13,500% over the past decade, Nvidia stock still has ple
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-01 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 09:04 HKT*
