@@ -621,13 +621,20 @@
     (2)「操作」欄五個連結統一做文字掣：TV（TradingView圖表）／FV（Finviz）／GE（Barchart Gamma）／
     SEC（secreport.html財報分析）／OC（OptionCharts），取代舊版📈按鈕同📄圖示。第2欄（持股）右對齊
     CSS同步加入（us-table限定，唔影響其他table）。
+  v5.34（2026-10-02）【bugfix，SKHY實測發現】：「🔎 今日點解升跌」卡貼入嘅新聞完全冇出現——根源：
+    runWhyMoving()舊版用ev.news.slice(0,8)顯示新聞，而bridge舊版將手動貼入新聞放喺清單最尾
+    （_merge_news(...)+extra），所以永遠排第13位之後被切走；同時AI prompt只叫AI揀「窗口內」新聞，
+    時間未知嘅手動新聞被忽略。修正：(1) 手動新聞同自動新聞分開顯示（手動新聞用amber標題），自動新聞
+    最多12條；(2) 貼入內容後會顯示「已收到N條手動新聞」確認，若bridge收到0條就紅字警告（可能bridge
+    未升級）；(3) 配合futu_bridge_v2.py why_moving區塊v3.17.2（手動新聞排最前+evidence帶
+    manual_news_count+prompt加手動新聞逐條回應規則）。⚠️ 要同步升級bridge先有完整效果。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.33)</title>
+<title>GEX Chart — Futu Bridge (v5.34)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -3063,14 +3070,34 @@ async function runWhyMoving() {
     });
     html += '</div>';
 
-    if (ev.news && ev.news.length) {
-      html += '<div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:6px 0 4px">相關新聞（候選催化劑，未證明因果）</div>';
-      ev.news.slice(0, 8).forEach(n => {
-        const tags = n.tags.length ? `<span style="color:var(--purple)">[${escHtml(n.tags.join('/'))}]</span> ` : '';
-        const age = n.age_h != null ? `${Math.round(n.age_h)}小時前` : '手動';
-        const t = n.url ? `<a href="${escHtml(n.url)}" target="_blank" rel="noopener" style="color:var(--text);text-decoration:none">${escHtml(n.title)}</a>` : escHtml(n.title);
-        html += `<div style="font-size:11px;line-height:1.6">${tags}${t} <span style="color:var(--muted)">· ${escHtml(n.source)} · ${age}</span></div>`;
-      });
+    // v5.34：新聞顯示修正——舊版ev.news.slice(0,8)會將排喺清單尾嘅手動新聞切走
+    // （bridge v3.17.2起手動新聞亦已排最前）。而家手動貼入同自動新聞分開顯示，
+    // 自動新聞最多12條（同backend limit一致），唔再靜靜雞截短。
+    const allNews = ev.news || [];
+    const manualNews = allNews.filter(n => n.via === 'manual');
+    const autoNews   = allNews.filter(n => n.via !== 'manual');
+    const renderNewsRow = n => {
+      const tags = (n.tags && n.tags.length) ? `<span style="color:var(--purple)">[${escHtml(n.tags.join('/'))}]</span> ` : '';
+      const age = n.age_h != null ? `${Math.round(n.age_h)}小時前` : '手動·時間未知';
+      const t = n.url ? `<a href="${escHtml(n.url)}" target="_blank" rel="noopener" style="color:var(--text);text-decoration:none">${escHtml(n.title)}</a>` : escHtml(n.title);
+      return `<div style="font-size:11px;line-height:1.6">${tags}${t} <span style="color:var(--muted)">· ${escHtml(n.source)} · ${age}</span></div>`;
+    };
+    if (extra) {
+      const sentLines = extra.split('\n').filter(l => l.trim()).length;
+      const gotN = (ev.manual_news_count != null) ? ev.manual_news_count : manualNews.length;
+      if (gotN === 0) {
+        html += `<div style="font-size:11px;color:var(--red);margin-bottom:8px">⚠ 你貼入咗 ${sentLines} 行，但 bridge 收到 0 條手動新聞——futu_bridge_v2.py 可能未升級到 v3.17.2（或參數冇傳到）</div>`;
+      } else {
+        html += `<div style="font-size:11px;color:var(--green);margin-bottom:8px">✔ 已收到 ${gotN} 條手動新聞（你貼入 ${sentLines} 行，backend最多收15行／每行200字）</div>`;
+      }
+    }
+    if (manualNews.length) {
+      html += '<div style="font-size:10px;color:var(--amber);text-transform:uppercase;letter-spacing:.08em;margin:6px 0 4px">你貼入嘅新聞（發布時間未知，只當候選）</div>';
+      manualNews.forEach(n => { html += renderNewsRow(n); });
+    }
+    if (autoNews.length) {
+      html += '<div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:8px 0 4px">相關新聞（候選催化劑，未證明因果）</div>';
+      autoNews.slice(0, 12).forEach(n => { html += renderNewsRow(n); });
     }
 
     if (j.analysis) {
@@ -3081,7 +3108,7 @@ async function runWhyMoving() {
     body.innerHTML = html;
     meta.textContent = `數據日期 ${ev.as_of}${ev.is_today ? '（今日）' : '（最近交易日，非今日）'} · 模型：${j.model || '—'} · 耗時 ${j.elapsed_s}s · 基於日線收市價，唔係盤中即時`;
   } catch (e) {
-    body.innerHTML = `<span class="err-msg">⚠ 分析失敗：${escHtml(e.message)}</span><br><span style="font-size:10px;color:var(--muted)">確認 futu_bridge_v2.py 已升級到 v3.17</span>`;
+    body.innerHTML = `<span class="err-msg">⚠ 分析失敗：${escHtml(e.message)}</span><br><span style="font-size:10px;color:var(--muted)">確認 futu_bridge_v2.py 已升級到 v3.17.2</span>`;
   }
   btn.disabled = false; btn.textContent = '🔎 重新分析';
 }
