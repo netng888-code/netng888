@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Teradyne: AI Testing Growth Is Impressive, But The Valuation Keeps Me Cautious](https://finnhub.io/api/news?id=9e3d5c79609413afcb46b62a6e62e53216e5b36b4ddcb8f79260b0918314c620)**  
-*SeekingAlpha · 14h前*  
-Teradyne is experiencing robust AI-driven growth, with Q2 2026 revenue up 104% to $1.329 billion. Click here to read an analysis of TER stock now.
+- **[Top S&P500 movers in Friday's pre-market session](https://finnhub.io/api/news?id=d674fc0a6667a4bad40905abffa35b1f158852775d0f2c63316a7d2a5f493f83)**  
+*ChartMill · 0h前*  
+Before the opening bell on Friday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session.
 
-- **[Is Teradyne (TER) a Buy as Wall Street Analysts Look Optimistic?](https://finnhub.io/api/news?id=255c5723aed6178f259946ea2d47d757b4eb3ce71cc80ec58180dd16cbd6d630)**  
-*Yahoo · 1d前*  
-The average brokerage recommendation (ABR) for Teradyne (TER) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the eff…
+- **[Teradyne Expands Memory Test Portfolio: Can It Beat KLAC & COHU?](https://finnhub.io/api/news?id=38b9e470a1017848e06d28c315f3cffea2524e1bf95f49f887aaa2f11594e208)**  
+*Yahoo · 3h前*  
+TER is expanding its memory test portfolio as HBM, DRAM, and NAND demand rises, with Magnum E2 targeting next-gen AI and high-performance computing needs.
 
-- **[Teradyne (TER) Debuts Magnum E2 For AI Memory Testing](https://finnhub.io/api/news?id=0c5a91281128a25ae5ce49564c2e72931bc4e74223841be5a5cae4c0d57d4a5a)**  
-*Yahoo · 2d前*  
-Teradyne (NasdaqGS:TER) introduced its Magnum E2 high-speed memory test system for next-generation DRAM and flash used in AI data centers. The Magnum E2 platfor…
+- **[Teradyne: AI Test Demand Is Exploding, But The Valuation Already Reflects A Lot Of Growth](https://finnhub.io/api/news?id=a52a333fdc23c198cccaadb28a94a45d73b5d9972b9d5188f24b9b71fe8c599b)**  
+*SeekingAlpha · 8h前*  
+Teradyneâs Q2 2026 revenue rose 104% year over year, driven by strong AI-related Semiconductor Test demand. Learn why TER stock is a hold.
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne (NasdaqGS:TER) introduced its Magnum E2 high-speed memory test system f
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
