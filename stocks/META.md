@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-02 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Mark Zuckerberg's Muse Could Charge You for Saving You Money — META President Reveals AI Agent's Potential Monetization Model](https://finnhub.io/api/news?id=421b43e37cc2d92c5952424447d0329b1f186f664560277d56702d6c09b6f54c)**  
-*Yahoo · 3h前*  
-Meta Platforms Inc. is exploring transaction fees and paid subscriptions as potential ways to monetize its artificial intelligence service, Muse. Meta President…
+- **[Marvell's Custom AI Silicon Deals With Hyperscalers Could Redefine Its Growth Story](https://finnhub.io/api/news?id=9c34e384aef29741842c48ab4579aa3559fb30b3d02e8315cf4151b5e2d9d0a0)**  
+*Yahoo · 1h前*  
+A recent deal with Google could significantly boost Marvell's custom chip business.
 
-- **[Dow Jones Futures: Stocks Rise Off Support As Yields Tumble, Micron, Meta In Focus; Tesla, Jobs Report Due](https://finnhub.io/api/news?id=fcf67aa83e6e7c7f767d7e5f3acab229f459cc21c7999b5f79d77630c862e083)**  
-*Yahoo · 3h前*  
-Stock market rises slightly off key levels with Micron, Lumentum around buy points. Tesla deliveries, jobs report loom.
+- **[The most powerful AI in the world is being hidden from you](https://finnhub.io/api/news?id=3beac0e6876609ba448a72dfe06a507562f100a07bedddb4aeef9ede311754a2)**  
+*Yahoo · 2h前*  
+Three new AI models dropped this week, and they're smarter and cheaper than the versions before them. But is that necessarily a good thing? Host Ejaaz Ahamadeen…
 
-- **[Can Reality Labs Ever Earn Enough to Justify Meta’s Spending?](https://finnhub.io/api/news?id=446dacbe4bbef14075601000880d2a9dbc3a41e3f86feb260047fbb4ded53866)**  
-*Yahoo · 3h前*  
-Meta Platforms, Inc. (NASDAQ:META) earns enough from its apps to fund a business that loses billions of dollars each quarter. That financial capacity gives Real…
+- **[The Dates That Matter Most For Amazon Stock](https://finnhub.io/api/news?id=55f1e386a35ca3197073a5ee33eac1a536a7778103adc42c2d440b05d7acd82c)**  
+*Yahoo · 2h前*  
+If you own Amazon stock, your worry is probably the bill for data centers and AI. On its July 30, 2026 call, management put Amazon's capital spending for 2026 a…
 
 ---
 
@@ -59,4 +59,4 @@ Meta Platforms, Inc. (NASDAQ:META) earns enough from its apps to fund a business
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
