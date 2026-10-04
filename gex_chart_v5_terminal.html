@@ -628,13 +628,20 @@
     最多12條；(2) 貼入內容後會顯示「已收到N條手動新聞」確認，若bridge收到0條就紅字警告（可能bridge
     未升級）；(3) 配合futu_bridge_v2.py why_moving區塊v3.17.2（手動新聞排最前+evidence帶
     manual_news_count+prompt加手動新聞逐條回應規則）。⚠️ 要同步升級bridge先有完整效果。
+  v5.35（2026-10-04）【重要bugfix，到期日曆部分持倉冇Gamma】：用戶截圖——10/9到期日曆
+    MRVL/OKLO/PLTR/RDW等有現價/OB/Tick但冇Flip/Call/Put，獨立查GEX又正常。根源：
+    fetchCalSnapshotBatch()用batch(4)並行打/api/gex，bridge單一Futu _ctx被多thread同時
+    撞（同telegram_bot v1.9同類），部分request失敗；前端失敗靜音，所以只見「冇Gamma」。
+    修正：(1) BATCH 4→1；(2) GEX失敗自動重試1次，timeout 30→60秒；(3) 仍失敗就喺
+    「持倉快照」顯示紅字「⚠ GEX攞失敗（原因）」，唔再靜音。⚠️ 需要futu_bridge_v2.py升級到
+    v3.18（_futu_lock令Futu call排隊）先根治。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.34)</title>
+<title>GEX Chart — Futu Bridge (v5.35)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -3491,6 +3498,11 @@ function calSnapshotCellHtml(sym) {
     lines.push(`${gammaTxt}${wallNote}${biasTag}`);
   }
 
+  // v5.35：GEX攞失敗要明講，唔再靜靜雞冇Flip/Call/Put
+  if (s.flip == null && s.call_wall == null && s.put_wall == null && s.gexErr) {
+    lines.push(`<span style="color:var(--red)">⚠ GEX攞失敗（${String(s.gexErr).slice(0,40)}）· 撳股票代碼可重試</span>`);
+  }
+
   // Money Flow：Call/Put Premium Flow佔比 · Order Book Imbalance · Tick Delta
   const mfBits = [];
   if (s.call_pct != null) mfBits.push(`Flow:<span style="color:${s.call_pct>=50?'var(--green)':'var(--red)'}">${s.call_pct.toFixed(0)}%Call</span>`);
@@ -3545,15 +3557,21 @@ async function fetchCalSnapshotBatch(symbols) {
     }
   } catch(e) {}
 
-  const BATCH = 4;
+  // v5.35：BATCH 4→1。bridge v3.18有_futu_lock令Futu call排隊，前端並行只會令
+  // timeout計時白白浪費（冷cache排後面嗰隻會等到超時）
+  const BATCH = 1;
   for (let i = 0; i < symbols.length; i += BATCH) {
     const chunk = symbols.slice(i, i + BATCH);
     await Promise.all(chunk.map(async sym => {
-      let gex = null, mf = null;
-      try {
-        const rg = await fetch(`${BRIDGE}/api/gex/${sym}?max_expirations=2`, {signal:AbortSignal.timeout(30000)});
-        if (rg.ok) { const dg = await rg.json(); if (!dg.error && dg.call_wall) gex = dg; }
-      } catch(e) {}
+      let gex = null, mf = null, gexErr = null;
+      // v5.35：GEX失敗自動重試1次，並記低原因（舊版靜音，見頁首changelog）
+      for (let attempt = 0; attempt < 2 && !gex; attempt++) {
+        try {
+          const rg = await fetch(`${BRIDGE}/api/gex/${sym}?max_expirations=2`, {signal:AbortSignal.timeout(60000)});
+          const dg = await rg.json();
+          if (!dg.error && dg.call_wall) gex = dg; else gexErr = dg.error || 'no call_wall';
+        } catch(e) { gexErr = e.message; }
+      }
       try {
         const rm = await fetch(`${BRIDGE}/api/moneyflow/${sym}`, {signal:AbortSignal.timeout(15000)});
         if (rm.ok) { const dm = await rm.json(); if (!dm.error) mf = dm; }
@@ -3581,6 +3599,7 @@ async function fetchCalSnapshotBatch(symbols) {
         book_imbalance: (mf && mf.order_book) ? mf.order_book.imbalance : null,
         tick_delta: (mf && mf.tick_delta) ? mf.tick_delta.tick_delta : null,
         fund: fmtFund(sym, gex || {}),
+        gexErr: gex ? null : gexErr,
       };
       applyCalSnapshotToRows(sym);
     }));
