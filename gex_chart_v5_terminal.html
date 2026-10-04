@@ -635,13 +635,17 @@
     修正：(1) BATCH 4→1；(2) GEX失敗自動重試1次，timeout 30→60秒；(3) 仍失敗就喺
     「持倉快照」顯示紅字「⚠ GEX攞失敗（原因）」，唔再靜音。⚠️ 需要futu_bridge_v2.py升級到
     v3.18（_futu_lock令Futu call排隊）先根治。
+  v5.36（2026-10-04）：v5.35後到期日曆GEX仍失敗，錯誤訊息顯示真正根源係Futu期權API頻率
+    限制（get_option_chain每30秒10次），唔係_ctx並行。前端配合：GEX單隻timeout 60→150秒
+    （bridge限流可能令冷cache排隊）、重試前等8秒、錯誤文字顯示由40字加到90字。
+    ⚠️ 需要futu_bridge_v2.py v3.19（_opt_throttle限流）先根治。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.35)</title>
+<title>GEX Chart — Futu Bridge (v5.36)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -3500,7 +3504,7 @@ function calSnapshotCellHtml(sym) {
 
   // v5.35：GEX攞失敗要明講，唔再靜靜雞冇Flip/Call/Put
   if (s.flip == null && s.call_wall == null && s.put_wall == null && s.gexErr) {
-    lines.push(`<span style="color:var(--red)">⚠ GEX攞失敗（${String(s.gexErr).slice(0,40)}）· 撳股票代碼可重試</span>`);
+    lines.push(`<span style="color:var(--red)">⚠ GEX攞失敗（${String(s.gexErr).slice(0,90)}）· 撳股票代碼可重試</span>`);
   }
 
   // Money Flow：Call/Put Premium Flow佔比 · Order Book Imbalance · Tick Delta
@@ -3567,10 +3571,11 @@ async function fetchCalSnapshotBatch(symbols) {
       // v5.35：GEX失敗自動重試1次，並記低原因（舊版靜音，見頁首changelog）
       for (let attempt = 0; attempt < 2 && !gex; attempt++) {
         try {
-          const rg = await fetch(`${BRIDGE}/api/gex/${sym}?max_expirations=2`, {signal:AbortSignal.timeout(60000)});
+          const rg = await fetch(`${BRIDGE}/api/gex/${sym}?max_expirations=2`, {signal:AbortSignal.timeout(150000)});
           const dg = await rg.json();
           if (!dg.error && dg.call_wall) gex = dg; else gexErr = dg.error || 'no call_wall';
         } catch(e) { gexErr = e.message; }
+        if (!gex && attempt === 0) await new Promise(r => setTimeout(r, 8000));  // v5.36：重試前等8秒，避開Futu期權API頻率限制
       }
       try {
         const rm = await fetch(`${BRIDGE}/api/moneyflow/${sym}`, {signal:AbortSignal.timeout(15000)});
