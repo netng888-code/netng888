@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Everyone's Watching Oklo and NuScale for Nuclear Exposure. This Company Actually Fuels Them.](https://finnhub.io/api/news?id=f5bbd25544c6f5a093175e920e2c51947303e6e568dfa8fe3b4bfdd9ab0ff832)**  
-*Yahoo · 10h前*  
+*Yahoo · 22h前*  
 Centrus Energy has deals to fuel most SMR developers.
 
 - **[NuScale vs. Oklo vs. GE Vernova: Ranking 3 Nuclear Stocks By Backlog, Not Hype.](https://finnhub.io/api/news?id=2b5f6fe7638bd3f1f5c4c82c20b7af15b0618e346b24f64d361a9590a8e4f2c8)**  
@@ -59,4 +59,4 @@ Uranium just shattered a price record that stood for nearly two decades, yet eve
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:04 HKT*
