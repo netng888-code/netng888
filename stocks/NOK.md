@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Better Telecom Stock: Nokia vs. Verizon](https://finnhub.io/api/news?id=5bf0b1ca847bbcb36fe8877585627932c6e84fd24e63267b0528f0765327b499)**  
-*Yahoo · 20h前*  
+*Yahoo · 1d前*  
 Nokia trades at a steep premium valuation while Verizon generates nearly 13x more net income on a 12.4% margin, a stark contrast in profitability and value.
 
 - **[Nokia (NOK) Has Doubled in a Year. Is the Turnaround Real or Just a Rerating?](https://finnhub.io/api/news?id=a3bf9889f6e8291ecd35b0184ee1ddc03bfe3cea63b4e3fa7d1b74dd3940d82a)**  
-*Yahoo · 21h前*  
+*Yahoo · 1d前*  
 Nokia Oyj (NYSE:NOK) closed at $10.60 on October 2, having doubled over twelve months. For most of the past decade Nokia was a shrinking business in a brutal in…
 
 - **[Roblox (RBLX) Has Lost Two Thirds of Its Value. Is the User Growth Still Real?](https://finnhub.io/api/news?id=44ee472661ec67589f713737dfddb96b4b45a1b887dbf77e96e85b130d6896a6)**  
-*Yahoo · 22h前*  
+*Yahoo · 1d前*  
 Roblox Corporation (NYSE:RBLX) closed at $44.12 on October 2, down about two-thirds over twelve months. A fall that steep normally means something broke. Users …
 
 ---
@@ -59,4 +59,4 @@ Roblox Corporation (NYSE:RBLX) closed at $44.12 on October 2, down about two-thi
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
