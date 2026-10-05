@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$36.14** |
-| 今日變動 | ▼ $0.88　(-2.38%) |
+| 現價 | **$35.87** |
+| 今日變動 | ▼ $0.27　(-0.75%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▲ $243　(▲20.2%) |
+| 未實現盈虧 | ▲ $232　(▲19.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $37.75 | — |
-| Put Wall（支撐） | $35.00 | -3.2% |
-| Call Wall（阻力） | $45.00 | +24.5% |
+| Gamma Flip | $37.82 | — |
+| Put Wall（支撐） | $35.00 | -2.4% |
+| Call Wall（阻力） | $45.00 | +25.5% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[X-Energy Just Went Public in 2026. Here's How It Stacks Up Against Oklo, NuScale, and BWX Technologies.](https://finnhub.io/api/news?id=6daff802a3400e75325cf969b790e8392aa7a13a765f1b765a1bbea0d482da1f)**  
-*Yahoo · 18h前*  
-The small modular reactor maker faces plenty of near-term headwinds.
+- **[Everyone's Watching Oklo and NuScale for Nuclear Exposure. This Company Actually Fuels Them.](https://finnhub.io/api/news?id=f5bbd25544c6f5a093175e920e2c51947303e6e568dfa8fe3b4bfdd9ab0ff832)**  
+*Yahoo · 10h前*  
+Centrus Energy has deals to fuel most SMR developers.
 
-- **[Can Oklo and NuScale Power Survive a Stock Market Crash? (Hint: Yes, but It's Complicated)](https://finnhub.io/api/news?id=3ecf084ea71467e9798cea98fda1f617ab6e89ab39f2e5889b9ed003fbae72fc)**  
-*Yahoo · 19h前*  
-SMR stocks provide plenty of upside potential, but they're not without risk.
+- **[NuScale vs. Oklo vs. GE Vernova: Ranking 3 Nuclear Stocks By Backlog, Not Hype.](https://finnhub.io/api/news?id=2b5f6fe7638bd3f1f5c4c82c20b7af15b0618e346b24f64d361a9590a8e4f2c8)**  
+*Yahoo · 1d前*  
+Shares of small nuclear reactor providers are down big this year despite long-term growth potential.
 
-- **[NANO Nuclear Energy vs. Oklo: Which Industrials Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=e9de71344171732b91bba15e67c37775cf06e4d46d18fc2ce1d9f11ae07048f3)**  
-*Yahoo · 23h前*  
-Both companies burn cash heavily and face unproven technology, but their paths to commercialization differ sharply.
+- **[Uranium Prices Just Broke a 19-Year Record, but Nuclear Stocks Are Collapsing Anyway](https://finnhub.io/api/news?id=579639641feda74902ad65c048f0d1151f8240feddcb95ba8cabde39c614b4e4)**  
+*Yahoo · 1d前*  
+Uranium just shattered a price record that stood for nearly two decades, yet every major nuclear stock is bleeding out. Something in the math does not add up, a…
 
 ---
 
@@ -48,7 +48,7 @@ Both companies burn cash heavily and face unproven technology, but their paths t
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-02 | 監控 | $36.14 | — | 自動更新 |
+| 2026-10-05 | 監控 | $35.87 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Both companies burn cash heavily and face unproven technology, but their paths t
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
