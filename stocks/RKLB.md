@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$70.46** |
-| 今日變動 | ▲ $0.78　(+1.12%) |
+| 現價 | **$73.92** |
+| 今日變動 | ▲ $3.46　(+4.91%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $55　(▼7.3%) |
+| 未實現盈虧 | ▼ $21　(▼2.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $67.73 | — |
-| Put Wall（支撐） | $70.00 | -0.7% |
-| Call Wall（阻力） | $80.00 | +13.5% |
+| Gamma Flip | $68.19 | — |
+| Put Wall（支撐） | $65.00 | -12.1% |
+| Call Wall（阻力） | $80.00 | +8.2% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Stocktwits Space Race Weekly: SPCX Holds Pole Position As ASTS, RKLB, PL, RDW, FLY Lose Altitude](https://finnhub.io/api/news?id=518cb0e6c4d7fd78780e252f710cd38f60d849e8692bc25bc63178e6501ccef6)**  
+- **[SpaceX (SPCX) vs Rocket Lab (RKLB): Which is a Better Stock to Buy?](https://finnhub.io/api/news?id=e551b1c2e81b814831b2c3b7b8bfd5c983c17e722aba0fee75e2fa95672d1b33)**  
 *Yahoo · 3h前*  
-Planet launched Google’s Suncatcher prototype to test TPUs in orbit, and Redwire explored orbital computing and robotics.
+Space Exploration Technologies Corp. (NASDAQ:SPCX) closed at $158.96 on October 2, and Rocket Lab Corporation (NASDAQ:RKLB) at $73.92. One of these companies is…
 
-- **[Nasdaq, S&P 500, Dow Futures Rise Ahead Of Jobs Report: NKE, META, RKLB, MRNA, SLS, TSLA Stocks In Focus](https://finnhub.io/api/news?id=b0433938a5153602f02557a4aa3ac9dba90df0c0707dfef81c5471331dcce542)**  
-*Yahoo · 4h前*  
-On Stocktwits, retail sentiment toward SPY and QQQ remained ‘bullish’ ahead of jobs data.
+- **[SpaceX Isn't Rocket Lab's Biggest Threat Now -- Blue Origin Is](https://finnhub.io/api/news?id=9d6ba1544f82ece5a603b7d1e662bf36bd65bbef7bf071be28f9d248fb19ed8a)**  
+*Yahoo · 13h前*  
+Rocket Lab may need to sue NASA in federal court if it wants to win a $700 million Mars contract.
 
-- **[Prediction: 2 Space Stocks That Could Join SpaceX and Rocket Lab in the Nasdaq-100 by 2030](https://finnhub.io/api/news?id=89413c43ab0343d58643610bc4aae48ab9ce4463e40b7a8d5008f3ca8026476b)**  
-*Yahoo · 6h前*  
-Space stocks could be the next frontier in hypergrowth technology investments.
+- **[How Investors May Respond To Rocket Lab (RKLB) Winning Synspective’s Record 20-Launch Electron Contract](https://finnhub.io/api/news?id=72f747edafbf58645b2503735362ef6018bbff66d759ad6cf4cda8fc00b4682b)**  
+*Yahoo · 20h前*  
+In late September 2026, Rocket Lab Corporation announced a multi-year agreement to launch 20 new Electron missions from Launch Complex 1 for Synspective, carryi…
 
 ---
 
@@ -48,7 +48,7 @@ Space stocks could be the next frontier in hypergrowth technology investments.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-02 | 監控 | $70.46 | — | 自動更新 |
+| 2026-10-05 | 監控 | $73.92 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Space stocks could be the next frontier in hypergrowth technology investments.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
