@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.37** |
-| 今日變動 | ▲ $0.23　(+2.27%) |
+| 現價 | **$10.60** |
+| 今日變動 | ▲ $0.23　(+2.22%) |
 | 持倉數量 | 200 股 |
 | 平均成本 | $12.458 |
-| 未實現盈虧 | ▼ $418　(▼16.8%) |
+| 未實現盈虧 | ▼ $372　(▼14.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.65 | — |
-| Put Wall（支撐） | $10.00 | -3.6% |
-| Call Wall（阻力） | $11.00 | +6.1% |
+| Gamma Flip | $9.53 | — |
+| Put Wall（支撐） | $10.00 | -5.7% |
+| Call Wall（阻力） | $11.00 | +3.8% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nokia, ICEYE Take On SpaceX’s Starlink With Sovereign LEO Network For Defense Customers](https://finnhub.io/api/news?id=c79f4817262fff7a86d898e62d0e906dd62e8d032d316364741596311a553e61)**  
-*Yahoo · 1d前*  
-Nokia is pushing into space-based defense communications with a European-built LEO system that will allow governments to independently own and control critical …
+- **[Better Telecom Stock: Nokia vs. Verizon](https://finnhub.io/api/news?id=5bf0b1ca847bbcb36fe8877585627932c6e84fd24e63267b0528f0765327b499)**  
+*Yahoo · 20h前*  
+Nokia trades at a steep premium valuation while Verizon generates nearly 13x more net income on a 12.4% margin, a stark contrast in profitability and value.
 
-- **[Inseego Completes Acquisition of Nokia’s Fixed Wireless Access Business](https://finnhub.io/api/news?id=cc7e8b6dd956c3a1ffcf50cf14a57544415abd214aea7b2fe260fe35c4c51a87)**  
-*Yahoo · 1d前*  
-Transaction expected to approximately double Inseego’s revenue and expand its global footprint across Europe, the Middle East, Asia, Oceania, and the AmericasSA…
+- **[Nokia (NOK) Has Doubled in a Year. Is the Turnaround Real or Just a Rerating?](https://finnhub.io/api/news?id=a3bf9889f6e8291ecd35b0184ee1ddc03bfe3cea63b4e3fa7d1b74dd3940d82a)**  
+*Yahoo · 21h前*  
+Nokia Oyj (NYSE:NOK) closed at $10.60 on October 2, having doubled over twelve months. For most of the past decade Nokia was a shrinking business in a brutal in…
 
-- **[ICEYE and Nokia partner to launch secure and sovereign satellite communications for governments and defense customers](https://finnhub.io/api/news?id=c4a2ec49509e46031c9cb3421e7d492c914776067635e5e5fbf7c8f9cd81e2f6)**  
-*Yahoo · 1d前*  
-ICEYE, the European leader in sovereign intelligence from space, and Nokia, a global leader in connectivity infrastructure, today announced a partnership to dev…
+- **[Roblox (RBLX) Has Lost Two Thirds of Its Value. Is the User Growth Still Real?](https://finnhub.io/api/news?id=44ee472661ec67589f713737dfddb96b4b45a1b887dbf77e96e85b130d6896a6)**  
+*Yahoo · 22h前*  
+Roblox Corporation (NYSE:RBLX) closed at $44.12 on October 2, down about two-thirds over twelve months. A fall that steep normally means something broke. Users …
 
 ---
 
@@ -48,7 +48,7 @@ ICEYE, the European leader in sovereign intelligence from space, and Nokia, a gl
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-02 | 監控 | $10.37 | — | 自動更新 |
+| 2026-10-05 | 監控 | $10.60 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ ICEYE, the European leader in sovereign intelligence from space, and Nokia, a gl
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
