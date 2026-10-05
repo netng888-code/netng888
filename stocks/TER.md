@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[US Stock Market Today: S&P 500 Futures Climb On Cooling Jobs And Firm Factory Data](https://finnhub.io/api/news?id=667c3608a67a4a3ff5733b4cf38ba93f3a8c23915e0f88377f9149cc9e5cdce7)**  
+*Yahoo · 4h前*  
+The Morning Bull - US Market Morning Update Monday, Oct, 5 2026 US stock futures are pointing higher this morning, with E-mini S&P 500 contracts up about 0.7%, …
+
+- **[Semiconductors Winners And Losers At The Start Of Q4 2026](https://finnhub.io/api/news?id=d7cdd47e7e15c5f64e4ec24ab20183fcacc9ffcbcbfefe646574e1ce084abd2f)**  
+*SeekingAlpha · 8h前*  
+Q2 2026 gave rise to the possibility of a blow-off top, and Q3 2026 strengthened that possibility. Check out the semiconductors' winners and losers here.
+
 - **[Teradyne Is Up Big, But The Real Growth May Still Be Ahead](https://finnhub.io/api/news?id=30259b4d4ea2ed4d1d8c853db858d0ea033cfc536272e10769b28e7f8b6c8fea)**  
 *SeekingAlpha · 1d前*  
 Teradyne is now over 60% AI-driven, with strong Q2 2026 results and significant compute-related growth. Read more on TER stock here.
-
-- **[MACOM, Texas Instruments, Semtech, Amkor, and Teradyne Stocks Trade Up, What You Need To Know](https://finnhub.io/api/news?id=4a9e0c2e57ecc55e0135a0b513552a366ca05347f47ba2450ff5cb109f9f862f)**  
-*Yahoo · 2d前*  
-A number of stocks jumped in the morning session after weaker-than-expected U.S. employment data cooled Treasury yields, easing interest rate pressure.
-
-- **[Stay informed with the top movers within the S&P500 index on Friday.](https://finnhub.io/api/news?id=ca861ffeeb0452b9b3ceee92fd62a06df36568a2f615f744bf4b4c309f941890)**  
-*ChartMill · 2d前*  
-Curious about the top performers within the S&P500 index one hour before the close of the markets on Friday? Dive into the list of today's session's top gainers…
 
 ---
 
@@ -59,4 +59,4 @@ Curious about the top performers within the S&P500 index one hour before the clo
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
