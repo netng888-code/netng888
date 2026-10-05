@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[$13k MRR game app founder explains why gaming is a $100B industry...](https://finnhub.io/api/news?id=b9b65766c8c9a9800b4f09b072966b2beee325f46f771a8ded7953e9ebc4813b)**  
-*Yahoo · 8h前*  
-Meet Ken. He left a big tech job at Meta to build Harpagia, a text-based idle RPG, entirely by himself.A few hundred active users. Over $100K in revenue per yea…
+- **[This multi-trillion stock is "cheap and getting cheaper": Morgan Stanley](https://finnhub.io/api/news?id=768f00f2d7ce5ecf4716ab7b55b609d323406e8acd46d77c192714bfe78b70b7)**  
+*Yahoo · 1h前*  
+Investing.com -- SpaceX (NASDAQ:SPCX) looks "cheap and getting cheaper" once its growth is taken into account, Morgan Stanley analyst Adam Jonas argues, reitera…
 
-- **[VFLO And CGDV: The Perfect Pairing For AI Growth](https://finnhub.io/api/news?id=1f51c558984ec226824455a50b00a46c9e2ddcacb6b7235dfdfca49a3f6fdf0e)**  
-*SeekingAlpha · 9h前*  
-Compare VFLO vs CGDV ETFs: VFLO offers better value (15.8x P/E) and AI tailwinds, while CGDV adds mega-cap dividends.
+- **[Meta Platforms Stock Soared 27% in September. Here's What History Says October Will Bring.](https://finnhub.io/api/news?id=1cf24f73b3239572680712cb79fcf1a3c4518a2d62193416e096a56511ca3850)**  
+*Yahoo · 1h前*  
+Shareholders have their sights on the business hitting a $2 trillion market cap.
 
-- **[Jim Cramer Says He May Quit Amazon for the Rival That Jumped 24% in a Month](https://finnhub.io/api/news?id=59352f12e4d58e8346bfae50c868ea29a592f1221285acb772611671f974581b)**  
-*Yahoo · 9h前*  
-Jim Cramer shocked viewers by questioning his loyalty to Amazon on live television after watching a Meta AI demo, and the timing landed against a backdrop of sh…
+- **[OpenAI Fired the People It Needed Most](https://finnhub.io/api/news?id=dd2b5b9e0d93fe878e6755ec21ac44f7d61f88234efdfcafb37599c029631c35)**  
+*Yahoo · 2h前*  
+OpenAI reportedly let go of almost half of its safety and alignment team, on the heels of a series of hacks tied to AI agents. What did those researchers know? …
 
 ---
 
@@ -59,4 +59,4 @@ Jim Cramer shocked viewers by questioning his loyalty to Amazon on live televisi
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
