@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[SpaceX (SPCX) vs Rocket Lab (RKLB): Which is a Better Stock to Buy?](https://finnhub.io/api/news?id=e551b1c2e81b814831b2c3b7b8bfd5c983c17e722aba0fee75e2fa95672d1b33)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 Space Exploration Technologies Corp. (NASDAQ:SPCX) closed at $158.96 on October 2, and Rocket Lab Corporation (NASDAQ:RKLB) at $73.92. One of these companies is…
 
 - **[SpaceX Isn't Rocket Lab's Biggest Threat Now -- Blue Origin Is](https://finnhub.io/api/news?id=9d6ba1544f82ece5a603b7d1e662bf36bd65bbef7bf071be28f9d248fb19ed8a)**  
-*Yahoo · 13h前*  
+*Yahoo · 1d前*  
 Rocket Lab may need to sue NASA in federal court if it wants to win a $700 million Mars contract.
 
 - **[How Investors May Respond To Rocket Lab (RKLB) Winning Synspective’s Record 20-Launch Electron Contract](https://finnhub.io/api/news?id=72f747edafbf58645b2503735362ef6018bbff66d759ad6cf4cda8fc00b4682b)**  
-*Yahoo · 20h前*  
+*Yahoo · 1d前*  
 In late September 2026, Rocket Lab Corporation announced a multi-year agreement to launch 20 new Electron missions from Launch Complex 1 for Synspective, carryi…
 
 ---
@@ -59,4 +59,4 @@ In late September 2026, Rocket Lab Corporation announced a multi-year agreement 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:04 HKT*
