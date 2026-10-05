@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$230.86** |
-| 今日變動 | ▲ $2.48　(+1.09%) |
+| 現價 | **$233.95** |
+| 今日變動 | ▲ $3.09　(+1.34%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $836　(▲22.1%) |
+| 未實現盈虧 | ▲ $898　(▲23.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $213.56 | — |
-| Put Wall（支撐） | $230.00 | -0.4% |
-| Call Wall（阻力） | $240.00 | +4.0% |
+| Gamma Flip | $210.34 | — |
+| Put Wall（支撐） | $230.00 | -1.7% |
+| Call Wall（阻力） | $235.00 | +0.4% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[3 Dow Jones Stocks with Exciting Potential](https://finnhub.io/api/news?id=7540d2683c44b228b44a5985be3027fee4b8b4cfd01d701db6e2852ffcab3a9f)**  
+- **[Dow Jones Futures Rise; Nasdaq At Highs With Nvidia, SpaceX Buys, But Note These Risks](https://finnhub.io/api/news?id=4da7d798d8edfdaf5ce500dad9feeb202cf1ae6d7cc9fb5f313555a279665c9b)**  
 *Yahoo · 1h前*  
-The biggest names in corporate America call the Dow Jones (^DJI) home, but only a handful are still growing at a strong pace. Some of these blue-chip stocks are…
+The Nasdaq is at highs with Nvidia, SpaceX, Bloom Energy in buy areas. But much of the market remains weak. Here's what to do.
 
-- **[This ETF Has Quietly Become One of the Best Ways to Invest in Artificial Intelligence](https://finnhub.io/api/news?id=5a31d5b4eb04aeca0c6da9d2d653ff2d3beb4135b130701926f170b5aa68efa6)**  
+- **[Don't Sell Netflix: NFLX Is the One Streaming Pick I'd Add to Today](https://finnhub.io/api/news?id=0b644f4ec01552679d9afde4858efb6e8b9c1404d1cae1ee41ec42c7b8932a31)**  
 *Yahoo · 1h前*  
-For the next leg of the AI trade, the best idea isn't to try to pick the next winners.
+Netflix may be a market laggard lately, but that should not make you lose sight of the long-term opportunity.
 
-- **[Latest News In AI Chips - Micron Technology Thrives with AI-Driven Demand Surge](https://finnhub.io/api/news?id=d75345635d967cbccff954f82c53abce56f4206f3efca678f4530fa0ec319b45)**  
+- **[Nike's Earnings Are a Disaster. Run -- Don't Walk -- Away From This Stock.](https://finnhub.io/api/news?id=c3163124592aaf7edfda2950ebe1ebe2afd14043d4cc5176959ba67366504c0e)**  
 *Yahoo · 1h前*  
-Recent developments in the AI chip sector highlight significant advancements, particularly with Micron Technology, Inc. reporting record financial results for i…
+Don't bank on a Nike comeback. Both its quarterly results and guidance were terrible.
 
 ---
 
@@ -48,7 +48,7 @@ Recent developments in the AI chip sector highlight significant advancements, pa
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-02 | 監控 | $230.86 | — | 自動更新 |
+| 2026-10-05 | 監控 | $233.95 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Recent developments in the AI chip sector highlight significant advancements, pa
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
