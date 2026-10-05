@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,21 +21,25 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $174.28 | — |
-| Put Wall（支撐） | $130.00 | -6.7% |
+| Put Wall（支撐） | $140.00 | --0.5% |
 | Call Wall（阻力） | $150.00 | +7.7% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
+
+- **[Everyone's Watching Oklo and NuScale for Nuclear Exposure. This Company Actually Fuels Them.](https://finnhub.io/api/news?id=f5bbd25544c6f5a093175e920e2c51947303e6e568dfa8fe3b4bfdd9ab0ff832)**  
+*Yahoo · 22h前*  
+Centrus Energy has deals to fuel most SMR developers.
 
 - **[Forget Oklo and NuScale. Centrus Energy Is the Safer Way to Bet on Nuclear.](https://finnhub.io/api/news?id=323ffd7c240bb08c3e0c862c748792cc1140e036bceac6eb5885673ad9829f40)**  
 *Yahoo · 2d前*  
 The nuclear fuel producer is a more reliable investment than the next-gen reactor makers.
 
 - **[3 Cash-Heavy Stocks We Steer Clear Of](https://finnhub.io/api/news?id=2bf39b49cd35b191b3fb6d792e2851f9e28db1c1fe6da91638f4d530c6a47036)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 A cash-heavy balance sheet is often a sign of strength, but not always. Some companies avoid debt because they have weak business models, limited expansion oppo…
 
 ---
@@ -55,4 +59,4 @@ A cash-heavy balance sheet is often a sign of strength, but not always. Some com
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
