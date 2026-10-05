@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$415.79** |
-| 今日變動 | ▲ $14.88　(+3.71%) |
+| 現價 | **$449.04** |
+| 今日變動 | ▲ $33.25　(+8.00%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,619　(▲351.9%) |
+| 未實現盈虧 | ▲ $1,785　(▲388.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $376.65 | — |
-| Put Wall（支撐） | $390.00 | -6.2% |
-| Call Wall（阻力） | $500.00 | +20.3% |
+| Gamma Flip | $383.78 | — |
+| Put Wall（支撐） | $390.00 | -13.1% |
+| Call Wall（阻力） | $500.00 | +11.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Top S&P500 movers in Friday's pre-market session](https://finnhub.io/api/news?id=d674fc0a6667a4bad40905abffa35b1f158852775d0f2c63316a7d2a5f493f83)**  
-*ChartMill · 0h前*  
-Before the opening bell on Friday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session.
+- **[Teradyne Is Up Big, But The Real Growth May Still Be Ahead](https://finnhub.io/api/news?id=30259b4d4ea2ed4d1d8c853db858d0ea033cfc536272e10769b28e7f8b6c8fea)**  
+*SeekingAlpha · 1d前*  
+Teradyne is now over 60% AI-driven, with strong Q2 2026 results and significant compute-related growth. Read more on TER stock here.
 
-- **[Teradyne Expands Memory Test Portfolio: Can It Beat KLAC & COHU?](https://finnhub.io/api/news?id=38b9e470a1017848e06d28c315f3cffea2524e1bf95f49f887aaa2f11594e208)**  
-*Yahoo · 3h前*  
-TER is expanding its memory test portfolio as HBM, DRAM, and NAND demand rises, with Magnum E2 targeting next-gen AI and high-performance computing needs.
+- **[MACOM, Texas Instruments, Semtech, Amkor, and Teradyne Stocks Trade Up, What You Need To Know](https://finnhub.io/api/news?id=4a9e0c2e57ecc55e0135a0b513552a366ca05347f47ba2450ff5cb109f9f862f)**  
+*Yahoo · 2d前*  
+A number of stocks jumped in the morning session after weaker-than-expected U.S. employment data cooled Treasury yields, easing interest rate pressure.
 
-- **[Teradyne: AI Test Demand Is Exploding, But The Valuation Already Reflects A Lot Of Growth](https://finnhub.io/api/news?id=a52a333fdc23c198cccaadb28a94a45d73b5d9972b9d5188f24b9b71fe8c599b)**  
-*SeekingAlpha · 8h前*  
-Teradyneâs Q2 2026 revenue rose 104% year over year, driven by strong AI-related Semiconductor Test demand. Learn why TER stock is a hold.
+- **[Stay informed with the top movers within the S&P500 index on Friday.](https://finnhub.io/api/news?id=ca861ffeeb0452b9b3ceee92fd62a06df36568a2f615f744bf4b4c309f941890)**  
+*ChartMill · 2d前*  
+Curious about the top performers within the S&P500 index one hour before the close of the markets on Friday? Dive into the list of today's session's top gainers…
 
 ---
 
@@ -48,7 +48,7 @@ Teradyneâs Q2 2026 revenue rose 104% year over year, driven by strong AI-re
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-02 | 監控 | $415.79 | — | 自動更新 |
+| 2026-10-05 | 監控 | $449.04 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Teradyneâs Q2 2026 revenue rose 104% year over year, driven by strong AI-re
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
