@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$246.12** |
-| 今日變動 | ▲ $4.81　(+1.99%) |
+| 現價 | **$252.18** |
+| 今日變動 | ▲ $6.06　(+2.46%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $115　(▼19.0%) |
+| 未實現盈虧 | ▼ $103　(▼17.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $250.11 | — |
-| Put Wall（支撐） | $240.00 | -2.5% |
-| Call Wall（阻力） | $260.00 | +5.6% |
+| Gamma Flip | $252.73 | — |
+| Put Wall（支撐） | $240.00 | -4.8% |
+| Call Wall（阻力） | $260.00 | +3.1% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[3 Quality Compounders with Exciting Potential](https://finnhub.io/api/news?id=df3b66171eae6ab4bfcff899515870f7b7110651943ae36ab2d904b636cba781)**  
-*Yahoo · 3h前*  
-A quality compounder is a business that not only sports durable competitive advantages but also builds on its success by consistently reinvesting its profits at…
+- **[Rise of the Machines: AI Agents Now Burn 5x More Tokens Than Humans — and the Gap Is Widening Fast](https://finnhub.io/api/news?id=d203be2c57576dcb8271188cccd65bb4120decbfb6172e06ebacdd0e41b843dc)**  
+*Yahoo · 1d前*  
+AI agents are consuming tokens at a pace that dwarfs human usage, and the companies supplying the hardware behind every request are seeing that demand translate…
 
-- **[Is Vertiv Stock's Fall A Bargain Or A Warning?](https://finnhub.io/api/news?id=b09718fc9f9379f0bb2319271f57e4232ce9594164705fb4c079de34b237c58f)**  
-*Yahoo · 3h前*  
-Vertiv (VRT) stock has fallen 15% from its September 8 high. A $10,000 purchase at that high is worth about $8,500 today. A fall like that makes you want to act…
+- **[Regal Rexnord shares are trading higher after Oppenheimer raised its price target on the stock from $180 to $225.](https://finnhub.io/api/news?id=59a830f1d7cc53c461d488c75a004ed55974dd0953dfe92d33e43c7e39c33c1b)**  
+*Benzinga · 2d前*
 
-- **[Wall Street Backs Coherent, Rocket Lab and Vertiv](https://finnhub.io/api/news?id=c446ea8bf121259d1da41295ccca5053960528dc6f7b29aae514cb9fdd17daf0)**  
-*Yahoo · 13h前*  
-Bernstein, Citi, and Wells Fargo all launched bullish coverage on Coherent, Rocket Lab, and Vertiv within weeks of each other, but the real question is whether …
+- **[AI's Construction Boom Runs Through 2027](https://finnhub.io/api/news?id=1e112bed742b94cd1403669aba1b8dc56ea7845010c7b515b6386a4d9e964ffb)**  
+*SeekingAlpha · 2d前*  
+AI data center construction drives an industrial boom through 2027. Explore PRN & AIRR ETFs for diversified exposureâplus key risks and valuations.
 
 ---
 
@@ -48,7 +47,7 @@ Bernstein, Citi, and Wells Fargo all launched bullish coverage on Coherent, Rock
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-02 | 監控 | $246.12 | — | 自動更新 |
+| 2026-10-05 | 監控 | $252.18 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ Bernstein, Citi, and Wells Fargo all launched bullish coverage on Coherent, Rock
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 09:05 HKT*
