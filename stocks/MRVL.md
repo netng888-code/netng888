@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$268.08** |
-| 今日變動 | ▲ $3.87　(+1.46%) |
+| 現價 | **$272.29** |
+| 今日變動 | ▲ $4.21　(+1.57%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▲ $108　(▲4.2%) |
+| 未實現盈虧 | ▲ $150　(▲5.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $242.39 | — |
-| Put Wall（支撐） | $250.00 | -6.7% |
-| Call Wall（阻力） | $300.00 | +11.9% |
+| Gamma Flip | $238.52 | — |
+| Put Wall（支撐） | $250.00 | -8.2% |
+| Call Wall（阻力） | $300.00 | +10.2% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Top S&P500 movers in Friday's pre-market session](https://finnhub.io/api/news?id=d674fc0a6667a4bad40905abffa35b1f158852775d0f2c63316a7d2a5f493f83)**  
-*ChartMill · 0h前*  
-Before the opening bell on Friday, let's take a glimpse of the US markets and explore the S&P500 top gainers and losers in today's pre-market session.
+- **[A $1,000 Bet on Marvell in 2016 Crushed the Market With 2140% Returns](https://finnhub.io/api/news?id=858f6954812836cf6d567922f0a14af10761865669f12f3444ecd035486b298a)**  
+*Yahoo · 11h前*  
+A small bet on Marvell in 2016 survived three brutal collapses that would have shaken most investors out of their positions before the real gains even began.
 
-- **[Marvell's Custom AI Silicon Deals With Hyperscalers Could Redefine Its Growth Story](https://finnhub.io/api/news?id=9c34e384aef29741842c48ab4579aa3559fb30b3d02e8315cf4151b5e2d9d0a0)**  
-*Yahoo · 1h前*  
-A recent deal with Google could significantly boost Marvell's custom chip business.
+- **[Marvell Stock Investors Have 1 Date to Watch. Here’s What Could Be Revealed.](https://finnhub.io/api/news?id=cdc0fb010ca3a4ba88b6d259ede8638de73fc14d216d4c8adcf7b4ac270e147d)**  
+*Yahoo · 13h前*  
+Marvell Technology is heading into an event on Oct. 6 that could reveal much more about its longer-term AI opportunity.
 
-- **[What Could Send NVIDIA Stock Higher?](https://finnhub.io/api/news?id=6c3d740688fab61693d440611b886b90c8056797c9779b93c1bca17433af4c81)**  
-*Yahoo · 3h前*  
-NVIDIA's revenue more than doubled from a year earlier in fiscal Q2 2027, to $96 billion. Investors value the company at about $5.6 trillion. A company that siz…
+- **[How Much of Marvell’s Adjusted Profit Reaches Shareholders?](https://finnhub.io/api/news?id=85cf86be12b53de0ab5519b852f807eba6dc9ea7f11d42cad2139d7d66a738db)**  
+*Yahoo · 22h前*  
+Marvell Technology, Inc. (NASDAQ:MRVL) reported $865.9 million of adjusted net income in its fiscal second quarter, compared with $308 million under GAAP. Neith…
 
 ---
 
@@ -48,7 +48,7 @@ NVIDIA's revenue more than doubled from a year earlier in fiscal Q2 2027, to $96
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-02 | 監控 | $268.08 | — | 自動更新 |
+| 2026-10-05 | 監控 | $272.29 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ NVIDIA's revenue more than doubled from a year earlier in fiscal Q2 2027, to $96
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
