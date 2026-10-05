@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom vs. Intel: What Revenue Trends Tell Investors About These Artificial Intelligence Companies](https://finnhub.io/api/news?id=33b13c9c8e3f454a3825c599f3eb42a30c565f632e8ec831e040a0d5c58c6893)**  
+- **[Broadcom and Applied Materials Earnings Put Broadening Chip Rally to the Test](https://finnhub.io/api/news?id=8c28650ae40efa8d839ce467b5e542a559aab043c0026fb2e1c405c1183e4c94)**  
+*ChartMill · 0h前*  
+Semiconductor stocks face a key earnings test as Broadcom and Applied Materials report; strong gains, high valuations, and Micron's beat set the bar.
+
+- **[AI Chips Update - AIBotics Boosts AI Strategy with Empulser Acquisition](https://finnhub.io/api/news?id=32557e6fd106cb38b0f3952c17904c3017c0b1f2589855efb307086e03143bdc)**  
 *Yahoo · 1h前*  
-Broadcom's revenue has nearly doubled since late 2024, while Intel's has stalled — a widening gap that raises questions about competitive positioning.
+Recent developments in the AI chip industry are highlighted by AIBotics Inc.'s strategic acquisition of Empulser Enterprises LLC, a defense and dual-use technol…
 
-- **[Can Broadcom Keep Growing Its Dividend as AI Customers Gain Power?](https://finnhub.io/api/news?id=43325a2c8ff7132f67a99d499921e589cf9bc0a1149bcecab5ee8949435bc8a8)**  
-*Yahoo · 4h前*  
-Broadcom Inc. (NASDAQ:AVGO) has enough cash generation to cover its dividend comfortably. The more consequential question is whether the economics funding that …
-
-- **[Here is Why Broadcom (AVGO) is a Good Investment at Today’s Price](https://finnhub.io/api/news?id=860113ac420e762057194e9bc74460154cf102c6fccd163b0a0d232a5aaa7ae1)**  
-*Yahoo · 4h前*  
-Broadcom Inc. (NASDAQ:AVGO) closed at $355.14 on October 2, up 5.86% over twelve months. The business underneath moved far faster than the share price did. Reve…
+- **[OpenAI Fired the People It Needed Most](https://finnhub.io/api/news?id=dd2b5b9e0d93fe878e6755ec21ac44f7d61f88234efdfcafb37599c029631c35)**  
+*Yahoo · 2h前*  
+OpenAI reportedly let go of almost half of its safety and alignment team, on the heels of a series of hacks tied to AI agents. What did those researchers know? …
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom Inc. (NASDAQ:AVGO) closed at $355.14 on October 2, up 5.86% over twelve
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
