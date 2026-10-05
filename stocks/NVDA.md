@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $210.34 | — |
 | Put Wall（支撐） | $230.00 | -1.7% |
-| Call Wall（阻力） | $235.00 | +0.4% |
+| Call Wall（阻力） | $240.00 | +2.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Rise; Nasdaq At Highs With Nvidia, SpaceX Buys, But Note These Risks](https://finnhub.io/api/news?id=4da7d798d8edfdaf5ce500dad9feeb202cf1ae6d7cc9fb5f313555a279665c9b)**  
+- **[If You'd Bought $10,000 Worth of Amazon Stock 10 Years Ago, Here's How Much You'd Have Today](https://finnhub.io/api/news?id=8597623b11d4e31c3b849c14a5dce0e6c23ae206ea9c44862ea53fac2033bb57)**  
 *Yahoo · 1h前*  
-The Nasdaq is at highs with Nvidia, SpaceX, Bloom Energy in buy areas. But much of the market remains weak. Here's what to do.
+Despite its tremendous size, this business continues to find ways to grow.
 
-- **[Don't Sell Netflix: NFLX Is the One Streaming Pick I'd Add to Today](https://finnhub.io/api/news?id=0b644f4ec01552679d9afde4858efb6e8b9c1404d1cae1ee41ec42c7b8932a31)**  
+- **[AI Chips Update - AIBotics Boosts AI Strategy with Empulser Acquisition](https://finnhub.io/api/news?id=32557e6fd106cb38b0f3952c17904c3017c0b1f2589855efb307086e03143bdc)**  
 *Yahoo · 1h前*  
-Netflix may be a market laggard lately, but that should not make you lose sight of the long-term opportunity.
+Recent developments in the AI chip industry are highlighted by AIBotics Inc.'s strategic acquisition of Empulser Enterprises LLC, a defense and dual-use technol…
 
-- **[Nike's Earnings Are a Disaster. Run -- Don't Walk -- Away From This Stock.](https://finnhub.io/api/news?id=c3163124592aaf7edfda2950ebe1ebe2afd14043d4cc5176959ba67366504c0e)**  
+- **[The Stock Market Dynamic Has Shifted, Just Look at Intel and Nvidia](https://finnhub.io/api/news?id=3d03c2e99cebb17fb55fb66868052e6506b34adf8323aaf197666e46383b1a91)**  
 *Yahoo · 1h前*  
-Don't bank on a Nike comeback. Both its quarterly results and guidance were terrible.
+Intel takes a Musk hit, Nvidia chases a record high, stock market jobs rally fades, and more things to know today.
 
 ---
 
@@ -59,4 +59,4 @@ Don't bank on a Nike comeback. Both its quarterly results and guidance were terr
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
