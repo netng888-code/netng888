@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.57** |
-| 今日變動 | ▲ $0.13　(+1.25%) |
+| 現價 | **$10.88** |
+| 今日變動 | ▲ $0.31　(+2.93%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $203　(▼32.5%) |
+| 未實現盈虧 | ▼ $191　(▼30.5%) |
 
 ---
 
@@ -20,27 +20,23 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $11.16 | — |
-| Put Wall（支撐） | $10.50 | -0.7% |
-| Call Wall（阻力） | $12.00 | +13.5% |
+| Gamma Flip | $10.40 | — |
+| Put Wall（支撐） | $10.00 | -8.1% |
+| Call Wall（阻力） | $12.00 | +10.3% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Firefly Aerospace vs. Redwire: Which U.S. Space Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=e8cc87dc86c619835ebd119fde9a785b5240014ea11e6f992349299fbaa90a2d)**  
-*Yahoo · 15h前*  
-Firefly scales fast with a $1.4B backlog but burns cash heavily; Redwire trades cheaper but faces integration risks and internal control weaknesses.
+- **[EnerSys, FTAI Infrastructure, Rocket Lab, Redwire, and RXO Stocks Trade Up, What You Need To Know](https://finnhub.io/api/news?id=7b5db8136d283b1c21cbdb7d88d41bccf496a649d1e2160fdd0ae8483b150100)**  
+*Yahoo · 2d前*  
+A number of stocks jumped in the morning session after weaker-than-expected U.S. employment data cooled Treasury yields, easing borrowing-cost pressure across t…
 
-- **[RDW Stock Alert: What to Know as Redwire Teams Up With Honda on Robotics](https://finnhub.io/api/news?id=bf4db8e2f9fe3cb9f9f89e7b371d4a90a898b6e2ac79abd97f6d6c46da06af8d)**  
-*Yahoo · 18h前*  
-Redwire stock rallies on a partnership with Honda’s U.S.-based space development division. Here’s why RDW shares are worth buying today.
-
-- **[Honda Explores Robotics Solution to Support Research Aboard Future Commercial Space Stations](https://finnhub.io/api/news?id=4f79c70de71402bed35ecfb85bcaf467e9afbd1e3694fdc2a72d29ddb77d8fcf)**  
-*Yahoo · 1d前*  
-Honda today announced efforts to develop a robotics solution for future commercial space stations that could reduce the time needed for astronauts to conduct ex…
+- **[SpaceX Just Upped The Ante On Rocket Lab](https://finnhub.io/api/news?id=0199acf43847e8cd7d223e9a868d035e7da67f0c503f18c5b0ec1ed4fcb342e2)**  
+*Yahoo · 2d前*  
+Starship reaching orbit scrambles the economics for every rocket startup, and Rocket Lab and Redwire are betting on opposite strategies to survive the fallout. …
 
 ---
 
@@ -48,7 +44,7 @@ Honda today announced efforts to develop a robotics solution for future commerci
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-02 | 監控 | $10.57 | — | 自動更新 |
+| 2026-10-05 | 監控 | $10.88 | — | 自動更新 |
 
 ---
 
@@ -59,4 +55,4 @@ Honda today announced efforts to develop a robotics solution for future commerci
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
