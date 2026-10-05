@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-05 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[Intuitive Surgical: A Surgical Leader Facing A Valuation Problem](https://finnhub.io/api/news?id=5f3b3cd28c9a30ebb8fe49e36f4bc48561e522b542d779a45257c34c41146a55)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Intuitive Surgical is rated HOLD at $406.63, with a probability-weighted fair value of ~$430/share and 82% confidence in the rating. Click for more on ISRG.
 
 - **[Intuitive Surgical (ISRG): Is Its Robotic-Surgery Moat Still Untouchable?](https://finnhub.io/api/news?id=9e589c3eb72d4f25ae2331533fcf66408ec7af5c4efe629a7c9d2d719652cfe4)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Intuitive Surgical, Inc. (NASDAQ:ISRG) more or less invented modern robotic surgery with its da Vinci system, and for two decades it had the field to itself. Th…
 
 - **[Intuitive Surgical: The 17% Selloff Is A Buy](https://finnhub.io/api/news?id=4109b27c4a1c58dcf5bc7e0a70fe478161313b1d184610adefb4f283f21e54eb)**  
@@ -59,4 +59,4 @@ Intuitive Surgical, Inc. is a Buy: recurring revenue, solid cash flow, da Vinci 
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:04 HKT*
