@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jim Cramer Sticks With Palantir (PLTR) Despite Admitting His Target Was Too Aggressive](https://finnhub.io/api/news?id=8ca6bf220182b51bc938d52aa4e012352f43f490f45e9785584895578d4a3d20)**  
-*Yahoo · 1h前*  
-Jim Cramer maintained his bullish view of Palantir Technologies Inc. (NASDAQ:PLTR) during Mad Money on October 1. Discussing its third-quarter stock performance…
+- **[Palantir's 93% Revenue Growth Is Colliding With Michael Burry's Bear Case -- Here's Who Has the Stronger Argument](https://finnhub.io/api/news?id=dc4ed06f1a67b0b3cbfa1b197e51e476d552600d7333cb93db74dedbfd8e125f)**  
+*Yahoo · 2h前*  
+Burry's argument looks shaky, with Palantir stock still offering significant long-term upside.
 
-- **[BigBear.ai vs. Airship AI: Which Security AI Stock Offers the Better Bet?](https://finnhub.io/api/news?id=240b05d1c572121cff2dfba980a85cd850ba54defaa7a9f26222eecf70746754)**  
-*Yahoo · 1h前*  
-Airship AI has just announced contracts worth more than its trailing annual revenue. BigBear.ai has a cash-and-investment reserve more than thirty times as larg…
+- **[Peter Thiel Says US AI Demand Is Booming, but Cathie Wood Is Trimming Palantir: Here's How Much Ark Invest Sold](https://finnhub.io/api/news?id=20fbc485765882ea6bb13da69e8b8b419cce6630fa171802712a3c76b3df6564)**  
+*Yahoo · 3h前*  
+Cathie Wood-led Ark Invest trimmed its position in Palantir Technologies Inc. on Thursday, as the artificial intelligence software company’s stock continued to …
 
-- **[Meltdown Income: 2 Covered Call ETFs Yielding Up To 13%](https://finnhub.io/api/news?id=27aa17c46857fa49731828f1ee0872232adacdad3c57764b932fdeb7ba7c3ed1)**  
-*SeekingAlpha · 15h前*  
-Defensive sentiment is extreme. Learn the hidden cost of safe havens and why two covered call ETFs may balance income and downside in todayâs ratesâread...
+- **[Palantir (PLTR) Defense Momentum Strengthens the Bullish Case](https://finnhub.io/api/news?id=fdad6f4d6e8df1a319b70bb05a3be82113ccaacb3380995d38154b84ca8610a2)**  
+*Yahoo · 9h前*  
+Palantir Technologies Inc. (NASDAQ:PLTR) enters the fourth quarter with strong momentum. Investors will be looking forward to its third-quarter earnings report …
 
 ---
 
@@ -59,4 +59,4 @@ Defensive sentiment is extreme. Learn the hidden cost of safe havens and why two
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:04 HKT*
