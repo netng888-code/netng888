@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$338.24** |
-| 今日變動 | ▼ $5.84　(-1.70%) |
+| 現價 | **$343.50** |
+| 今日變動 | ▲ $5.26　(+1.56%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $1,864　(▲38.0%) |
+| 未實現盈虧 | ▲ $1,969　(▲40.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $337.91 | — |
-| Put Wall（支撐） | $340.00 | --0.5% |
-| Call Wall（阻力） | $350.00 | +3.5% |
+| Gamma Flip | $335.23 | — |
+| Put Wall（支撐） | $340.00 | -1.0% |
+| Call Wall（阻力） | $350.00 | +1.9% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[How The Two BIggest Hyperscalers Stand to Benefit From Anthropic’s IPO](https://finnhub.io/api/news?id=1679528a3faf533cd72d0f7b1812963434f2601e6a79a3aafe1dd741a93f4ec7)**  
+- **[The Trade Desk vs. Alphabet: Is the Cheaper AI Advertising Stock Worth the Risk?](https://finnhub.io/api/news?id=9a2b92004e5a9f267fc4f8a8c60083efde9693b5b83629481e7763045ac6e017)**  
 *Yahoo · 1h前*  
-Amazon and Alphabet both booked staggering Anthropic gains last quarter, yet the two hyperscalers are playing completely different games with the AI company hea…
+The Trade Desk offers something Alphabet does not: a way to invest in digital advertising without also financing a giant cloud-computing buildout. That distinct…
 
-- **[What $10k In Alphabet Today Becomes By 2030](https://finnhub.io/api/news?id=6ac4df11c06e0a187678aa710a26433c8548aad42ba3e3a4e99abd07a7a2ef2e)**  
+- **[Amazon vs. Alphabet: Which AI Cloud Stock Makes the Better Case After the Spending Bill?](https://finnhub.io/api/news?id=6b2a60755384475fe6fde01a90afc81b6f772fe04aaf60e7d2155a12585a8360)**  
 *Yahoo · 1h前*  
-Alphabet is pouring hundreds of billions into AI infrastructure while free cash flow turns negative and buybacks disappear, yet analysts still see 26% upside fr…
+Amazon’s cloud business earns almost twice as much operating profit as Google Cloud. Google Cloud is growing more than twice as fast. Choosing between the stock…
 
-- **[Marvell's Custom AI Silicon Deals With Hyperscalers Could Redefine Its Growth Story](https://finnhub.io/api/news?id=9c34e384aef29741842c48ab4579aa3559fb30b3d02e8315cf4151b5e2d9d0a0)**  
-*Yahoo · 1h前*  
-A recent deal with Google could significantly boost Marvell's custom chip business.
+- **[Google faces £1 billion legal claim from UK consumers over Play Store fees](https://finnhub.io/api/news?id=ec5d3ec64aeec88e4086751770c5a548e67103a43437934ec1868287e8fe4332)**  
+*Yahoo · 2h前*  
+Claim alleges that Google broke competition law by imposing a commission of up to 30 per cent on app developers for purchases made through its Play Store
 
 ---
 
@@ -48,7 +48,7 @@ A recent deal with Google could significantly boost Marvell's custom chip busine
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-02 | 監控 | $338.24 | — | 自動更新 |
+| 2026-10-05 | 監控 | $343.50 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A recent deal with Google could significantly boost Marvell's custom chip busine
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
