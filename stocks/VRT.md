@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-05 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,14 +31,14 @@
 ## 📰 最新新聞
 
 - **[Rise of the Machines: AI Agents Now Burn 5x More Tokens Than Humans — and the Gap Is Widening Fast](https://finnhub.io/api/news?id=d203be2c57576dcb8271188cccd65bb4120decbfb6172e06ebacdd0e41b843dc)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 AI agents are consuming tokens at a pace that dwarfs human usage, and the companies supplying the hardware behind every request are seeing that demand translate…
 
 - **[Regal Rexnord shares are trading higher after Oppenheimer raised its price target on the stock from $180 to $225.](https://finnhub.io/api/news?id=59a830f1d7cc53c461d488c75a004ed55974dd0953dfe92d33e43c7e39c33c1b)**  
 *Benzinga · 2d前*
 
 - **[AI's Construction Boom Runs Through 2027](https://finnhub.io/api/news?id=1e112bed742b94cd1403669aba1b8dc56ea7845010c7b515b6386a4d9e964ffb)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 AI data center construction drives an industrial boom through 2027. Explore PRN & AIRR ETFs for diversified exposureâplus key risks and valuations.
 
 ---
@@ -58,4 +58,4 @@ AI data center construction drives an industrial boom through 2027. Explore PRN 
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 21:04 HKT*
