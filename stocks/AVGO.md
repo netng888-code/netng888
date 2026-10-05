@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-05 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$343.64** |
-| 今日變動 | ▼ $7.55　(-2.15%) |
+| 現價 | **$355.14** |
+| 今日變動 | ▲ $11.50　(+3.35%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $350　(▼9.2%) |
+| 未實現盈虧 | ▼ $235　(▼6.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $354.56 | — |
-| Put Wall（支撐） | $340.00 | -1.1% |
-| Call Wall（阻力） | $350.00 | +1.9% |
+| Gamma Flip | $356.30 | — |
+| Put Wall（支撐） | $350.00 | -1.4% |
+| Call Wall（阻力） | $370.00 | +4.2% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Latest News In AI Chips - Micron Technology Thrives with AI-Driven Demand Surge](https://finnhub.io/api/news?id=d75345635d967cbccff954f82c53abce56f4206f3efca678f4530fa0ec319b45)**  
+- **[Broadcom vs. Intel: What Revenue Trends Tell Investors About These Artificial Intelligence Companies](https://finnhub.io/api/news?id=33b13c9c8e3f454a3825c599f3eb42a30c565f632e8ec831e040a0d5c58c6893)**  
 *Yahoo · 1h前*  
-Recent developments in the AI chip sector highlight significant advancements, particularly with Micron Technology, Inc. reporting record financial results for i…
+Broadcom's revenue has nearly doubled since late 2024, while Intel's has stalled — a widening gap that raises questions about competitive positioning.
 
-- **[Broadcom raises $60 billion in debt to fund Anthropic AI chips](https://finnhub.io/api/news?id=95b1b873ef305092c5035ef97e7970ba208e4e3c08c0a9a45f57127ae644792c)**  
-*Yahoo · 1h前*  
-Banks are set to syndicate a $42 billion senior-secured tranche, while Blackstone is leading an $18 billion junior debt tranche
+- **[Can Broadcom Keep Growing Its Dividend as AI Customers Gain Power?](https://finnhub.io/api/news?id=43325a2c8ff7132f67a99d499921e589cf9bc0a1149bcecab5ee8949435bc8a8)**  
+*Yahoo · 4h前*  
+Broadcom Inc. (NASDAQ:AVGO) has enough cash generation to cover its dividend comfortably. The more consequential question is whether the economics funding that …
 
-- **[Broadcom Financing Syndicate Reportedly Seeks $60 Billion for Anthropic and Other AI Companies](https://finnhub.io/api/news?id=ccedd5e23d03c6b1558aa3013c4b456a479342a064837e6269e5ec8b9ab505be)**  
-*Yahoo · 2h前*  
-Broadcom (NASDAQ:AVGO) and its Wall Street banking syndicate are beginning efforts to arrange approximately $60 billion in new financing intended to support Ant…
+- **[Here is Why Broadcom (AVGO) is a Good Investment at Today’s Price](https://finnhub.io/api/news?id=860113ac420e762057194e9bc74460154cf102c6fccd163b0a0d232a5aaa7ae1)**  
+*Yahoo · 4h前*  
+Broadcom Inc. (NASDAQ:AVGO) closed at $355.14 on October 2, up 5.86% over twelve months. The business underneath moved far faster than the share price did. Reve…
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom (NASDAQ:AVGO) and its Wall Street banking syndicate are beginning effor
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-02 | 監控 | $343.64 | — | 自動更新 |
+| 2026-10-05 | 監控 | $355.14 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom (NASDAQ:AVGO) and its Wall Street banking syndicate are beginning effor
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-05 09:04 HKT*
