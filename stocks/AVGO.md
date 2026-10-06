@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$355.14** |
-| 今日變動 | ▲ $11.50　(+3.35%) |
+| 現價 | **$362.51** |
+| 今日變動 | ▲ $7.37　(+2.08%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $235　(▼6.2%) |
+| 未實現盈虧 | ▼ $161　(▼4.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $356.30 | — |
-| Put Wall（支撐） | $350.00 | -1.4% |
-| Call Wall（阻力） | $370.00 | +4.2% |
+| Gamma Flip | $355.70 | — |
+| Put Wall（支撐） | $350.00 | -3.5% |
+| Call Wall（阻力） | $370.00 | +2.1% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Broadcom and Applied Materials Earnings Put Broadening Chip Rally to the Test](https://finnhub.io/api/news?id=8c28650ae40efa8d839ce467b5e542a559aab043c0026fb2e1c405c1183e4c94)**  
-*ChartMill · 0h前*  
-Semiconductor stocks face a key earnings test as Broadcom and Applied Materials report; strong gains, high valuations, and Micron's beat set the bar.
-
-- **[AI Chips Update - AIBotics Boosts AI Strategy with Empulser Acquisition](https://finnhub.io/api/news?id=32557e6fd106cb38b0f3952c17904c3017c0b1f2589855efb307086e03143bdc)**  
-*Yahoo · 1h前*  
-Recent developments in the AI chip industry are highlighted by AIBotics Inc.'s strategic acquisition of Empulser Enterprises LLC, a defense and dual-use technol…
-
-- **[OpenAI Fired the People It Needed Most](https://finnhub.io/api/news?id=dd2b5b9e0d93fe878e6755ec21ac44f7d61f88234efdfcafb37599c029631c35)**  
+- **[1 Profitable Stock to Target This Week and 2 We Ignore](https://finnhub.io/api/news?id=54429256bc1ea87ffd136188b6c7c300e78fe5218c983a90ce74becb1341efd7)**  
 *Yahoo · 2h前*  
-OpenAI reportedly let go of almost half of its safety and alignment team, on the heels of a series of hacks tied to AI agents. What did those researchers know? …
+Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn’t…
+
+- **[Nvidia vs. Broadcom: Which AI Chip Stock Is the Better Buy Now?](https://finnhub.io/api/news?id=3dc09e83c32e8f7f00a7eb4d13c8d9dc1f3b161d7ab04ae4b7acf9965ea5ecc9)**  
+*Yahoo · 3h前*  
+NVIDIA Corporation (NASDAQ:NVDA) and Broadcom Inc. (NASDAQ:AVGO) offer two different claims on the AI computing budget. Nvidia sells a broad GPU platform suppor…
+
+- **[Global Change and Configuration Management Market Report 2026; Change and Configuration Management Market Set to Reach $4.25 Billion by 2030 as Security and Automation Demand Accelerates](https://finnhub.io/api/news?id=963e48470c74bd9d6d77b56da3095c08ca7d031ea80f213fe6a99f585732d4b7)**  
+*Yahoo · 4h前*  
+Players: Microsoft, IBM, Broadcom, HPE and AWS. Profiles cover change and configuration management software, services, segments, trends, regional shares and opp…
 
 ---
 
@@ -48,7 +48,7 @@ OpenAI reportedly let go of almost half of its safety and alignment team, on the
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-05 | 監控 | $355.14 | — | 自動更新 |
+| 2026-10-06 | 監控 | $362.51 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ OpenAI reportedly let go of almost half of its safety and alignment team, on the
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
