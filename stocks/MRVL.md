@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$272.29** |
-| 今日變動 | ▲ $4.21　(+1.57%) |
+| 現價 | **$271.25** |
+| 今日變動 | ▼ $1.04　(-0.38%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▲ $150　(▲5.8%) |
+| 未實現盈虧 | ▲ $139　(▲5.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $238.52 | — |
-| Put Wall（支撐） | $250.00 | -8.2% |
-| Call Wall（阻力） | $300.00 | +10.2% |
+| Gamma Flip | $240.20 | — |
+| Put Wall（支撐） | $250.00 | -7.8% |
+| Call Wall（阻力） | $300.00 | +10.6% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Semiconductors Winners And Losers At The Start Of Q4 2026](https://finnhub.io/api/news?id=d7cdd47e7e15c5f64e4ec24ab20183fcacc9ffcbcbfefe646574e1ce084abd2f)**  
-*SeekingAlpha · 8h前*  
-Q2 2026 gave rise to the possibility of a blow-off top, and Q3 2026 strengthened that possibility. Check out the semiconductors' winners and losers here.
+- **[Marvel Biosciences Signs Letter of Intent with Novatech for Phase 1 Trial of MB-204 and Provides Corporate Update](https://finnhub.io/api/news?id=5326311f61eb9a62b5e77a2a022638655ce7581cf9a39661a111caaa9f0d5f7f)**  
+*Yahoo · 2h前*  
+CALGARY, Alberta, Oct. 06, 2026 (GLOBE NEWSWIRE) -- Marvel Biosciences Corp. (TSXV: MRVL | OTCQB: MBCOF), and its wholly-owned subsidiary, Marvel Biotechnology …
 
-- **[Marvell Technology: Poised To Thrive During The AI Buildout](https://finnhub.io/api/news?id=6c854404fdd60c57c385b4bf30f72ef7c4b04f3221d63171736ac6d96dccc862)**  
-*SeekingAlpha · 14h前*  
-Marvell Technology (MRVL) is powering AI datacenter growth; earnings may double every 2 years.
+- **[Nvidia vs. Broadcom: Which AI Chip Stock Is the Better Buy Now?](https://finnhub.io/api/news?id=3dc09e83c32e8f7f00a7eb4d13c8d9dc1f3b161d7ab04ae4b7acf9965ea5ecc9)**  
+*Yahoo · 3h前*  
+NVIDIA Corporation (NASDAQ:NVDA) and Broadcom Inc. (NASDAQ:AVGO) offer two different claims on the AI computing budget. Nvidia sells a broad GPU platform suppor…
 
-- **[A $1,000 Bet on Marvell in 2016 Crushed the Market With 2140% Returns](https://finnhub.io/api/news?id=858f6954812836cf6d567922f0a14af10761865669f12f3444ecd035486b298a)**  
-*Yahoo · 23h前*  
-A small bet on Marvell in 2016 survived three brutal collapses that would have shaken most investors out of their positions before the real gains even began.
+- **[$10,000 in Marvell Stock a Decade Ago Is Worth About $206,000 Now. Repeating That Would Take 35% Annual Earnings Growth.](https://finnhub.io/api/news?id=bb20c72bb1688fd14ed76d5d0e8d6b7cd95a85f329a03c414f60441a452c7a7f)**  
+*Yahoo · 6h前*  
+Most of the decade's rise came this year. What would it take to do it all over?
 
 ---
 
@@ -48,7 +48,7 @@ A small bet on Marvell in 2016 survived three brutal collapses that would have s
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-05 | 監控 | $272.29 | — | 自動更新 |
+| 2026-10-06 | 監控 | $271.25 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A small bet on Marvell in 2016 survived three brutal collapses that would have s
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
