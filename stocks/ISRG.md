@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$391.95** |
-| 今日變動 | ▼ $9.29　(-2.32%) |
+| 現價 | **$406.48** |
+| 今日變動 | ▲ $14.53　(+3.71%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $122　(▼13.5%) |
+| 未實現盈虧 | ▼ $93　(▼10.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $392.66 | — |
-| Put Wall（支撐） | $350.00 | -10.7% |
-| Call Wall（阻力） | $400.00 | +2.1% |
+| Gamma Flip | $394.11 | — |
+| Put Wall（支撐） | $400.00 | -1.6% |
+| Call Wall（阻力） | $420.00 | +3.3% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical: A Surgical Leader Facing A Valuation Problem](https://finnhub.io/api/news?id=5f3b3cd28c9a30ebb8fe49e36f4bc48561e522b542d779a45257c34c41146a55)**  
-*SeekingAlpha · 2d前*  
-Intuitive Surgical is rated HOLD at $406.63, with a probability-weighted fair value of ~$430/share and 82% confidence in the rating. Click for more on ISRG.
+- **[Zacks Industry Outlook Globus Medical, Intuitive Surgical  and Thermo Fisher Scientific](https://finnhub.io/api/news?id=edc042f24fdfd21319847f16066a5fa2b9cfe71df6d4e7fb320c4ce8435ecff5)**  
+*Yahoo · 8h前*  
+Globus Medical, Intuitive Surgical and Thermo Fisher Scientific have been highlighted in this Industry Outlook article.
 
-- **[Intuitive Surgical (ISRG): Is Its Robotic-Surgery Moat Still Untouchable?](https://finnhub.io/api/news?id=9e589c3eb72d4f25ae2331533fcf66408ec7af5c4efe629a7c9d2d719652cfe4)**  
-*Yahoo · 2d前*  
-Intuitive Surgical, Inc. (NASDAQ:ISRG) more or less invented modern robotic surgery with its da Vinci system, and for two decades it had the field to itself. Th…
+- **[Intuitive Surgical: The Multiple Fell, The Story Didn't](https://finnhub.io/api/news?id=1428d3dd999d8b8221f8b6013d83491bed49f9c769c9bee10d79aae308f88bea)**  
+*SeekingAlpha · 12h前*  
+Intuitive Surgical remains a wide-moat leader in robotic surgery with strong secular tailwinds and high recurring revenue potential. Read why ISRG stock is a Bu…
 
-- **[Intuitive Surgical: The 17% Selloff Is A Buy](https://finnhub.io/api/news?id=4109b27c4a1c58dcf5bc7e0a70fe478161313b1d184610adefb4f283f21e54eb)**  
-*SeekingAlpha · 2d前*  
-Intuitive Surgical, Inc. is a Buy: recurring revenue, solid cash flow, da Vinci 5 upgrades, & margins outlook support a $689.75 targetâclick to read more on I…
+- **[Inspire Medical Gains New CPT Codes for Hypoglossal Nerve Stimulation](https://finnhub.io/api/news?id=1f77c39883a9badee4aa990a5a3ba091bade1d44a2219c6b9579dcec43b2ea63)**  
+*Yahoo · 22h前*  
+INSP gains new Category I CPT codes for Inspire V procedures, creating a dedicated coding framework effective Jan. 1, 2028.
 
 ---
 
@@ -48,7 +48,7 @@ Intuitive Surgical, Inc. is a Buy: recurring revenue, solid cash flow, da Vinci 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-05 | 監控 | $391.95 | — | 自動更新 |
+| 2026-10-06 | 監控 | $406.48 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical, Inc. is a Buy: recurring revenue, solid cash flow, da Vinci 
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
