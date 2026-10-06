@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$343.50** |
-| 今日變動 | ▲ $5.26　(+1.56%) |
+| 現價 | **$346.47** |
+| 今日變動 | ▲ $2.97　(+0.86%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $1,969　(▲40.2%) |
+| 未實現盈虧 | ▲ $2,029　(▲41.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $335.23 | — |
-| Put Wall（支撐） | $340.00 | -1.0% |
-| Call Wall（阻力） | $350.00 | +1.9% |
+| Gamma Flip | $336.19 | — |
+| Put Wall（支撐） | $340.00 | -1.9% |
+| Call Wall（阻力） | $350.00 | +1.0% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Investment Wisdom Always Says Buy Assets, So Don’t Ignore That Wisdom As It Relates To This Hyperscaler](https://finnhub.io/api/news?id=78200ab68f9046030d509d2eef4ae192ac62c691e73743fe8290b9d5c0803ed5)**  
+- **[‘Too much risk:’ Pimco’s Bill Gross says you shouldn’t own bonds now — aside from one key Treasury play](https://finnhub.io/api/news?id=4be82abc9fe41a2eb18dcef02a21f4cb8231e08a8339854acd637f447e44499c)**  
 *Yahoo · 1h前*  
-Amazon is pouring hundreds of billions into data centers before most of that spending shows up as profit, and the case for owning it now depends on understandin…
+Surging government borrowing, fading foreign demand for Treasurys and a debt-fueled AI spending boom are changing the risk calculus across markets, he says.
 
-- **[This multi-trillion stock is "cheap and getting cheaper": Morgan Stanley](https://finnhub.io/api/news?id=768f00f2d7ce5ecf4716ab7b55b609d323406e8acd46d77c192714bfe78b70b7)**  
+- **[Constellation Energy Stock Jumps. What a Google Nuclear Deal Will Do for It.](https://finnhub.io/api/news?id=00e619aef536a383af1b5c0178521dd5fc8cb7d1fbfffa22ac760abde6153399)**  
 *Yahoo · 1h前*  
-Investing.com -- SpaceX (NASDAQ:SPCX) looks "cheap and getting cheaper" once its growth is taken into account, Morgan Stanley analyst Adam Jonas argues, reitera…
+Big Tech is going nuclear as Alphabet and others scramble for enough power for their AI data centers.
 
-- **[SpaceX Is Now a Super Intelligence Company. Say Hello to SpaceXSI.](https://finnhub.io/api/news?id=bb65f9082535fa5f5b6e01c9bfc9647ecda49a81e4ad9c37b1f1e2999fdde628)**  
-*Yahoo · 2h前*  
-The tech industry has renamed things to fall in line with the Trump administration.
+- **[Commercial Quantum Computing Solutions Market Global Report 2026 | Capitalize on 33.2% CAGR as IBM, Google, Microsoft and IonQ Accelerate Cloud-Hybrid Adoption](https://finnhub.io/api/news?id=a80bef376b56d4d8d555a2fa7bbbf9c6be87cc149dd0b331df554a540687c2d1)**  
+*Yahoo · 1h前*  
+Boost ROI via cloud access to avoid hardware costs, hybrid quantum-classical tools to speed workflows, and domestic sourcing to reduce tariff and supply-chain r…
 
 ---
 
@@ -48,7 +48,7 @@ The tech industry has renamed things to fall in line with the Trump administrati
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-05 | 監控 | $343.50 | — | 自動更新 |
+| 2026-10-06 | 監控 | $346.47 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The tech industry has renamed things to fall in line with the Trump administrati
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
