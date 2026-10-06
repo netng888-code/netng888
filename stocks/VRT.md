@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-06 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$252.18** |
-| 今日變動 | ▲ $6.06　(+2.46%) |
+| 現價 | **$253.62** |
+| 今日變動 | ▲ $1.44　(+0.57%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $103　(▼17.0%) |
+| 未實現盈虧 | ▼ $100　(▼16.5%) |
 
 ---
 
@@ -20,26 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $252.73 | — |
-| Put Wall（支撐） | $240.00 | -4.8% |
-| Call Wall（阻力） | $260.00 | +3.1% |
+| Gamma Flip | $251.64 | — |
+| Put Wall（支撐） | $240.00 | -5.4% |
+| Call Wall（阻力） | $260.00 | +2.5% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Rise of the Machines: AI Agents Now Burn 5x More Tokens Than Humans — and the Gap Is Widening Fast](https://finnhub.io/api/news?id=d203be2c57576dcb8271188cccd65bb4120decbfb6172e06ebacdd0e41b843dc)**  
-*Yahoo · 2d前*  
-AI agents are consuming tokens at a pace that dwarfs human usage, and the companies supplying the hardware behind every request are seeing that demand translate…
+- **[The Overlooked AI Stock Poised to Outperform Nvidia and Palantir](https://finnhub.io/api/news?id=6d391a88a99329ad4bbdb966d4e2921aabe0c88baae31f89d2ccb7824c434058)**  
+*Yahoo · 5h前*  
+Without liquid cooling systems like Vertiv's, modern AI data centers wouldn't be possible.
 
-- **[Regal Rexnord shares are trading higher after Oppenheimer raised its price target on the stock from $180 to $225.](https://finnhub.io/api/news?id=59a830f1d7cc53c461d488c75a004ed55974dd0953dfe92d33e43c7e39c33c1b)**  
-*Benzinga · 2d前*
+- **[Vertiv's Q3 Earnings Setup Unlocks Solid Upside (Preview)](https://finnhub.io/api/news?id=9cc8e34bf8f8c838481b59ec6acb7bee13cca0a48f452d6f0236db22a87871d3)**  
+*SeekingAlpha · 5h前*  
+Vertiv's temporary Q2 revenue recognition timing shift created an unjustified pullback, setting up a potent Q3 double-beat earnings. Read more on VRT stock here…
 
-- **[AI's Construction Boom Runs Through 2027](https://finnhub.io/api/news?id=1e112bed742b94cd1403669aba1b8dc56ea7845010c7b515b6386a4d9e964ffb)**  
-*SeekingAlpha · 3d前*  
-AI data center construction drives an industrial boom through 2027. Explore PRN & AIRR ETFs for diversified exposureâplus key risks and valuations.
+- **[Vertiv vs. nVent: Why Is the Faster-Growing AI Infrastructure Stock Cheaper?](https://finnhub.io/api/news?id=c6ea6a864adc1f62147acc849475277c2f365791cc25ace0f9436ce6ca3c9ab5)**  
+*Yahoo · 15h前*  
+Vertiv Holdings Co (NYSE:VRT) has become a familiar way to invest in AI power and cooling. Yet nVent Electric plc (NYSE:NVT) recently delivered faster organic g…
 
 ---
 
@@ -47,7 +48,7 @@ AI data center construction drives an industrial boom through 2027. Explore PRN 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-05 | 監控 | $252.18 | — | 自動更新 |
+| 2026-10-06 | 監控 | $253.62 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ AI data center construction drives an industrial boom through 2027. Explore PRN 
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-06 21:05 HKT*
