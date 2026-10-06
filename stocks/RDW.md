@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$10.88** |
-| 今日變動 | ▲ $0.31　(+2.93%) |
+| 現價 | **$10.43** |
+| 今日變動 | ▼ $0.45　(-4.14%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $191　(▼30.5%) |
+| 未實現盈虧 | ▼ $209　(▼33.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $10.40 | — |
-| Put Wall（支撐） | $11.00 | --1.1% |
-| Call Wall（阻力） | $12.00 | +10.3% |
+| Gamma Flip | $10.46 | — |
+| Put Wall（支撐） | $10.00 | -4.1% |
+| Call Wall（阻力） | $12.00 | +15.1% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Wall Street Breakfast Podcast: October's Retail Harvest](https://finnhub.io/api/news?id=035694136145d5f5bb3cfe03aea6d424a42478efde0213255b029fc487c3bd0d)**  
-*SeekingAlpha · 6h前*  
-Retailers are racing to cash in on the holiday season before Halloween. Huawei and Qualcomm strike a deal. Redwire lands another piece of Axiom's space station …
+- **[Honda Explores Space Robotics Solution With Redwire](https://finnhub.io/api/news?id=1fea5d4638635f7444efec931f44cc3142976ac2c13a23a4931227b1c278cf75)**  
+*Yahoo · 22h前*  
+HMC explores a robotic system with Redwire to automate space-station research tasks, easing astronaut workloads and supporting commercial stations.
 
-- **[Is Redwire (RDW) Using Honda Robotics To Quietly Redefine Its Space Infrastructure Strategy?](https://finnhub.io/api/news?id=a080e7f5995bd880592359d37d4016ebf4ea1860139af4a1c6eca281b72f94c6)**  
-*Yahoo · 11h前*  
-In late September and early October 2026, Redwire announced new collaborations with Sophia Space on orbital computing infrastructure and with American Honda Mot…
+- **[RDW Stock Rises Premarket: Redwire Wins New Axiom Space Contract To Power Next Station Module](https://finnhub.io/api/news?id=5919eeefdf40b6ef641e84703a0de1844b8ad19590c0bb19c97d2828d1826271)**  
+*Yahoo · 1d前*  
+Redwire wins an Axiom Space contract for two solar arrays on its second station module.
 
-- **[EnerSys, FTAI Infrastructure, Rocket Lab, Redwire, and RXO Stocks Trade Up, What You Need To Know](https://finnhub.io/api/news?id=7b5db8136d283b1c21cbdb7d88d41bccf496a649d1e2160fdd0ae8483b150100)**  
-*Yahoo · 2d前*  
-A number of stocks jumped in the morning session after weaker-than-expected U.S. employment data cooled Treasury yields, easing borrowing-cost pressure across t…
+- **[Stock Market Today: Dow Futures Gain, S&P 500, Nasdaq 100 Slip as Iran Keeps Conditions To Reopen Hormuz Strait— SPCX, QCOM, VST in Focus (UPDATED)](https://finnhub.io/api/news?id=9a13f8742872fd1a2409dc41a364d59ce2b893949dca9c912bac8c56a3f1e6a9)**  
+*Benzinga · 1d前*  
+U.S. stock futures were lower on Monday, as the Dow Jones, S&amp;P 500 and Nasdaq 100 indices fell, following Friday&#39;s higher close.
 
 ---
 
@@ -48,7 +48,7 @@ A number of stocks jumped in the morning session after weaker-than-expected U.S.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-05 | 監控 | $10.88 | — | 自動更新 |
+| 2026-10-06 | 監控 | $10.43 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks jumped in the morning session after weaker-than-expected U.S.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
