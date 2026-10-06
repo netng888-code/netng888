@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$449.04** |
-| 今日變動 | ▲ $33.25　(+8.00%) |
+| 現價 | **$444.53** |
+| 今日變動 | ▼ $4.51　(-1.00%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,785　(▲388.1%) |
+| 未實現盈虧 | ▲ $1,763　(▲383.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $383.78 | — |
-| Put Wall（支撐） | $390.00 | -13.1% |
-| Call Wall（阻力） | $500.00 | +11.3% |
+| Gamma Flip | $391.94 | — |
+| Put Wall（支撐） | $430.00 | -3.3% |
+| Call Wall（阻力） | $500.00 | +12.5% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[US Stock Market Today: S&P 500 Futures Climb On Cooling Jobs And Firm Factory Data](https://finnhub.io/api/news?id=667c3608a67a4a3ff5733b4cf38ba93f3a8c23915e0f88377f9149cc9e5cdce7)**  
-*Yahoo · 4h前*  
-The Morning Bull - US Market Morning Update Monday, Oct, 5 2026 US stock futures are pointing higher this morning, with E-mini S&P 500 contracts up about 0.7%, …
+- **[Teradyne (TER) Stock Declines While Market Improves: Some Information for Investors](https://finnhub.io/api/news?id=cc7b79cb4e7bec135195d13d5cde551ef9c9b10b423ebcf7501466368d5eb868)**  
+*Yahoo · 16h前*  
+In the latest trading session, Teradyne (TER) closed at $444.53, marking a -1% move from the previous day.
 
-- **[Semiconductors Winners And Losers At The Start Of Q4 2026](https://finnhub.io/api/news?id=d7cdd47e7e15c5f64e4ec24ab20183fcacc9ffcbcbfefe646574e1ce084abd2f)**  
-*SeekingAlpha · 8h前*  
-Q2 2026 gave rise to the possibility of a blow-off top, and Q3 2026 strengthened that possibility. Check out the semiconductors' winners and losers here.
+- **[Nvidia Testing Partner Takes Aim At AI-Fueled Breakout. Robotics Give Shares A Boost.](https://finnhub.io/api/news?id=3efa9d5c5c6c2ed2c58d6d7f4d0a97fb2b5111a9cbdcc6509596149eda45e4a3)**  
+*Yahoo · 22h前*  
+As semiconductor testing, robotics and physical AI partner Nvidia remains in buy range, Teradyne has plans to join it.
 
-- **[Teradyne Is Up Big, But The Real Growth May Still Be Ahead](https://finnhub.io/api/news?id=30259b4d4ea2ed4d1d8c853db858d0ea033cfc536272e10769b28e7f8b6c8fea)**  
-*SeekingAlpha · 1d前*  
-Teradyne is now over 60% AI-driven, with strong Q2 2026 results and significant compute-related growth. Read more on TER stock here.
+- **[Teradyne Makes Strategic Investment in Bright Machines to Advance AI Infrastructure Manufacturing](https://finnhub.io/api/news?id=34b83add1f0384469becbd3bc96224a14ec17b35bba882f98e4830935d51f11e)**  
+*Yahoo · 1d前*  
+Investment and planned collaboration pair Teradyne robotics and test technologies with Bright Machines' software-defined manufacturing platformNORTH READING, Ma…
 
 ---
 
@@ -48,7 +48,7 @@ Teradyne is now over 60% AI-driven, with strong Q2 2026 results and significant 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-05 | 監控 | $449.04 | — | 自動更新 |
+| 2026-10-06 | 監控 | $444.53 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne is now over 60% AI-driven, with strong Q2 2026 results and significant 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
