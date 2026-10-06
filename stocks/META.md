@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$728.08** |
-| 今日變動 | ▲ $2.15　(+0.30%) |
+| 現價 | **$741.90** |
+| 今日變動 | ▲ $13.82　(+1.90%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $365　(▲20.1%) |
+| 未實現盈虧 | ▲ $407　(▲22.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $608.16 | — |
-| Put Wall（支撐） | $700.00 | -3.9% |
-| Call Wall（阻力） | $750.00 | +3.0% |
+| Gamma Flip | $612.07 | — |
+| Put Wall（支撐） | $700.00 | -5.6% |
+| Call Wall（阻力） | $750.00 | +1.1% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[This multi-trillion stock is "cheap and getting cheaper": Morgan Stanley](https://finnhub.io/api/news?id=768f00f2d7ce5ecf4716ab7b55b609d323406e8acd46d77c192714bfe78b70b7)**  
+- **[Cybersecurity stocks hit new highs as AI agents spark 'biggest risk today': Chart of the Day](https://finnhub.io/api/news?id=b279aebfb2e4320ca91b3938dd41a3730c1d9450345cea12ae43f21e42731fa3)**  
 *Yahoo · 1h前*  
-Investing.com -- SpaceX (NASDAQ:SPCX) looks "cheap and getting cheaper" once its growth is taken into account, Morgan Stanley analyst Adam Jonas argues, reitera…
+Cybersecurity stocks are at all-time highs as agentic AI adoption spurs security spending.
 
-- **[Meta Platforms Stock Soared 27% in September. Here's What History Says October Will Bring.](https://finnhub.io/api/news?id=1cf24f73b3239572680712cb79fcf1a3c4518a2d62193416e096a56511ca3850)**  
+- **[‘Too much risk:’ Pimco’s Bill Gross says you shouldn’t own bonds now — aside from one key Treasury play](https://finnhub.io/api/news?id=4be82abc9fe41a2eb18dcef02a21f4cb8231e08a8339854acd637f447e44499c)**  
 *Yahoo · 1h前*  
-Shareholders have their sights on the business hitting a $2 trillion market cap.
+Surging government borrowing, fading foreign demand for Treasurys and a debt-fueled AI spending boom are changing the risk calculus across markets, he says.
 
-- **[OpenAI Fired the People It Needed Most](https://finnhub.io/api/news?id=dd2b5b9e0d93fe878e6755ec21ac44f7d61f88234efdfcafb37599c029631c35)**  
-*Yahoo · 2h前*  
-OpenAI reportedly let go of almost half of its safety and alignment team, on the heels of a series of hacks tied to AI agents. What did those researchers know? …
+- **[Constellation Energy Stock Jumps. What a Google Nuclear Deal Will Do for It.](https://finnhub.io/api/news?id=00e619aef536a383af1b5c0178521dd5fc8cb7d1fbfffa22ac760abde6153399)**  
+*Yahoo · 1h前*  
+Big Tech is going nuclear as Alphabet and others scramble for enough power for their AI data centers.
 
 ---
 
@@ -48,7 +48,7 @@ OpenAI reportedly let go of almost half of its safety and alignment team, on the
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-05 | 監控 | $728.08 | — | 自動更新 |
+| 2026-10-06 | 監控 | $741.90 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ OpenAI reportedly let go of almost half of its safety and alignment team, on the
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
