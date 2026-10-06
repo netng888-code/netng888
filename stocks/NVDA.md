@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$233.95** |
-| 今日變動 | ▲ $3.09　(+1.34%) |
+| 現價 | **$238.90** |
+| 今日變動 | ▲ $4.95　(+2.12%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $898　(▲23.7%) |
+| 未實現盈虧 | ▲ $997　(▲26.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $210.34 | — |
-| Put Wall（支撐） | $230.00 | -1.7% |
-| Call Wall（阻力） | $240.00 | +2.6% |
+| Gamma Flip | $211.80 | — |
+| Put Wall（支撐） | $230.00 | -3.7% |
+| Call Wall（阻力） | $245.00 | +2.6% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[If You'd Bought $10,000 Worth of Amazon Stock 10 Years Ago, Here's How Much You'd Have Today](https://finnhub.io/api/news?id=8597623b11d4e31c3b849c14a5dce0e6c23ae206ea9c44862ea53fac2033bb57)**  
+- **[SpaceX Just Reached Orbit With Starship. Here's What a $1,000 Investment Could Be Worth by 2030](https://finnhub.io/api/news?id=a1cf0ec5b1efceaa9ead6e0e769f41e12635bdb7cc6d82c9bbc6e71253820ee7)**  
 *Yahoo · 1h前*  
-Despite its tremendous size, this business continues to find ways to grow.
+SpaceX just reached a big milestone, but could it actually help investors profit?
 
-- **[AI Chips Update - AIBotics Boosts AI Strategy with Empulser Acquisition](https://finnhub.io/api/news?id=32557e6fd106cb38b0f3952c17904c3017c0b1f2589855efb307086e03143bdc)**  
+- **[I Think BND Is the Best Bond ETF for Most Investors: Here's Why I'm Buying More in 2026.](https://finnhub.io/api/news?id=272f6dbeacd8e9dde0a984685a50248573f876f7dbbae8870f608d11087cbfa3)**  
 *Yahoo · 1h前*  
-Recent developments in the AI chip industry are highlighted by AIBotics Inc.'s strategic acquisition of Empulser Enterprises LLC, a defense and dual-use technol…
+The Vanguard Total Bond Market ETF is currently offering its highest yield in nearly two decades.
 
-- **[The Stock Market Dynamic Has Shifted, Just Look at Intel and Nvidia](https://finnhub.io/api/news?id=3d03c2e99cebb17fb55fb66868052e6506b34adf8323aaf197666e46383b1a91)**  
+- **[AMD hits $1 trillion market cap as AI agents boost CPU demand](https://finnhub.io/api/news?id=33ea0cd69e15be2cece8ba779e15011a1dcd5693b5f2221bddf03f264e7ec203)**  
 *Yahoo · 1h前*  
-Intel takes a Musk hit, Nvidia chases a record high, stock market jobs rally fades, and more things to know today.
+OpenAI's Dots and Meta's Muse both run on AMD EPYC processors, and Morgan Stanley estimates Muse alone could account for 20% of AMD's 2026 chip sales
 
 ---
 
@@ -48,7 +48,7 @@ Intel takes a Musk hit, Nvidia chases a record high, stock market jobs rally fad
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-05 | 監控 | $233.95 | — | 自動更新 |
+| 2026-10-06 | 監控 | $238.90 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intel takes a Musk hit, Nvidia chases a record high, stock market jobs rally fad
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-05 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
