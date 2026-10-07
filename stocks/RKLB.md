@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-07 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab, MYR Group, Ameresco, Comfort Systems, and Powell Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=6b760525abb6b99f1ca4bb2de2eeb1e40afe30f5b8f91253ec222d3557ea1462)**  
-*Yahoo · 4h前*  
-A number of stocks jumped in the morning session after surging capital spending for artificial intelligence infrastructure and defense bolstered demand across p…
+- **[Rocket Lab: Ready For Liftoff](https://finnhub.io/api/news?id=47e463658b96c3a735bf2b7119a14ae81a8d6ca1692f074b856cb259e2f31652)**  
+*SeekingAlpha · 6h前*  
+Rocket Lab is scaling from small-lift Electron launches to medium-lift Neutron, targeting mega-constellation deployments. I rate RKLB stock a strong buy. Read m…
 
-- **[Rocket Lab Just Gained 17% in a Month: Is It Too Late to Buy RKLB Stock Now?](https://finnhub.io/api/news?id=04fe21138317f81e84495c67d09257cd54ff4e2b46d7b24b4f0bc71bc1144295)**  
-*Yahoo · 6h前*  
-Rocket Lab just pulled off a rare feat by leaving the broader space sector in the dust, but three simultaneous high-stakes bets now sit between the company and …
+- **[SpaceX Comfortably Wins on Scale. Here’s How Rocket Lab Still Competes.](https://finnhub.io/api/news?id=d037dafe2d02be9c894a66c29036d35099e33be05025871ba834fca0610b2085)**  
+*Yahoo · 7h前*  
+On September 24, Iridium shareholders approved Rocket Lab’s acquisition of the company, with about 99.6% of votes in favor. The deal values Iridium at roughly $…
 
-- **[Rocket Lab Stock Pops Tuesday: What's Going On?](https://finnhub.io/api/news?id=03e2817be320773ed173d2001c4b9abf13c89589c6f8d2389f983630dc198a72)**  
-*Yahoo · 10h前*  
-Rocket Lab Corp (NASDAQ:RKLB) shares are trading higher Tuesday as NASA has moved toward a bulk purchase of rocket launches for its planned moon base. Here’s wh…
+- **[Rocket Lab Booked 20 Launches Through 2031. The Catch Is in the Price.](https://finnhub.io/api/news?id=6deff4163710fe5fb7b17cc33a3bb83fc6ebb3253a3d619421329ad214e97718)**  
+*Yahoo · 9h前*  
+Rocket Lab Corporation (NASDAQ:RKLB) received a Buy rating from Citi one day after landing its largest Electron contract ever. Citi analyst John Godyn described…
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab Corp (NASDAQ:RKLB) shares are trading higher Tuesday as NASA has move
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 21:05 HKT*
