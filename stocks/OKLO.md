@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-07 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[How AI Is Changing The Growth Outlook Across Industries](https://finnhub.io/api/news?id=ec5c565e602de35a54aa27e73ba29c0f2c070e7bd7fa722a090ce239c9bb01ed)**  
+*SeekingAlpha · 6h前*  
+AI is increasingly reshaping corporate growth plans far beyond the companies building AI models and accelerators. Read more here.
+
 - **[How Deep Borehole Disposal Breakthrough At Oklo (OKLO) Has Changed Its Investment Story](https://finnhub.io/api/news?id=43630db769458cd93346e5736e017fcda0419a1b261f629c18db689b6e95ca51)**  
-*Yahoo · 2h前*  
+*Yahoo · 14h前*  
 In September 2026, Deep Isolation Nuclear announced results from a three-year US Department of Energy-funded ARPA-E CURIE project, conducted with Argonne Nation…
 
 - **[3 S&P 500 Utility Giants Soar Above Key Resistance. This Is Why.](https://finnhub.io/api/news?id=ae7c0f8667bebee97f7b1c727c973189e20858cae8677c4ed3b0d1d70582f828)**  
-*Yahoo · 4h前*  
+*Yahoo · 16h前*  
 A federal loan and a Google deal tied to nuclear plants fueled rally for Vistra, Constellation, NRG.
-
-- **[CEG, VST, TLN Jump: Google’s Power Deal Sparks A Nuclear Rally](https://finnhub.io/api/news?id=2530723524186edfad2fd6e733b0c13c1a155eaed32777e4940ccfa634595340)**  
-*Yahoo · 6h前*  
-Constellation and Google announced two contracts on Tuesday, totaling about 3,590 megawatts, sparking buying in CEG, as well as peers VST and TLN.
 
 ---
 
@@ -59,4 +59,4 @@ Constellation and Google announced two contracts on Tuesday, totaling about 3,59
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 21:05 HKT*
