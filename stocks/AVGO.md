@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[LinkedIn Cofounder Defends Massive AI Infrastructure Spending, Says AI Capital Is 'the Only Reason We’re Not in a Recession'](https://finnhub.io/api/news?id=e8c28d0ddd165a6c62d365eb1b1b71b29441ce2eae26368bba36cdac99598863)**  
-*Yahoo · 3h前*  
-LinkedIn co-founder Reid Hoffman said the massive capital flowing into AI infrastructure and data center construction is helping sustain the U.S. economy, argui…
+- **[Broadcom, Oracle Earnings to Test Cloud Infrastructure's AI-Driven Momentum](https://finnhub.io/api/news?id=543b7a61ed849ae8ca67fcadf0eee529fcdeef470ac13b60afe2cd304c390f04)**  
+*ChartMill · 0h前*  
+Broadcom and Oracle earnings will test whether AI data center momentum can broaden beyond Nvidia and AMD as AI cloud stocks face key valuation tests.
 
-- **[Stock Market Today, Oct. 6: Marvell Stock Is Up as the Company Raises FY2028 Revenue Outlook to $20 Billion](https://finnhub.io/api/news?id=83e0ef9fc987f98db97acab112d97a05f41721729ea51260c55bf20ca9463241)**  
-*Yahoo · 3h前*  
-Today, Oct. 6, 2026, the chipmaker lifted near- and long-term targets at Investor Day, signaling stronger AI infrastructure demand ahead.
+- **[Broadcom's AI Revenue Is Growing at 221%. Here's Why Custom Chips Could Be a Bigger Business Than GPUs.](https://finnhub.io/api/news?id=3732f997d8d62a4304c1b86c2799c8c63d6fc691a0c77fd4315bde256ab932ef)**  
+*Yahoo · 1h前*  
+There's an overlooked reason why custom chips could keep taking share of AI data centers.
 
-- **[$5,100 Split Across These 5 AI Infrastructure Stocks Could Be Worth This Much by 2030](https://finnhub.io/api/news?id=7a571eae5d266955d8e0c4200205760b1c8beecf50044cd2cf7e37d41a2113bb)**  
-*Yahoo · 4h前*  
-A basket of these five semiconductor stocks should produce strong returns in the coming years.
+- **[AI Chips Update - Transforming Video Into Actionable Insights With Pegasus 1.6](https://finnhub.io/api/news?id=e836fe2d43bffc3529c5c1d0cc865af0edb6640ef76acb32dbfc62f3ccf704b4)**  
+*Yahoo · 1h前*  
+TwelveLabs, a video intelligence company, has unveiled Pegasus 1.6, a model that advances the field of physical AI by transforming egocentric video footage into…
 
 ---
 
@@ -59,4 +59,4 @@ A basket of these five semiconductor stocks should produce strong returns in the
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 21:04 HKT*
