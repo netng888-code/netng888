@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[U.S. stock futures steady after tech rally lifts S&P 500, Nasdaq to records](https://finnhub.io/api/news?id=a89afe7abc58ee8c41f9041d16a727dc42e2634a18969c190331790d3e9b1719)**  
-*Yahoo · 0h前*  
-Investing.com-- U.S. stock futures were little changed on Tuesday evening after the S&P 500 and Nasdaq hit record closing highs, as investors turned their atten…
+- **[Qualcomm Could Have a Much Bigger AI Story Than Investors Think](https://finnhub.io/api/news?id=ae7329502961fc37616b1075764be282b9568b8fd0122e1512f66f162be52035)**  
+*Yahoo · 1h前*  
+Qualcomm still gets priced like a smartphone supplier, but two hyperscaler custom silicon deals about to generate revenue suggest the market is missing somethin…
 
-- **[S&P 500 And Nasdaq 100 Soar To Record Highs Amid Rising Bets Of Strong Quarterly Earnings — CEG, LCID, SPCX, MRVL In Focus](https://finnhub.io/api/news?id=682fd04d3d7589318662fd1cea2c31cda184b5f97c1ee5bc306840484d4455e9)**  
+- **[Social Buzz: Wallstreetbets Stocks Mostly Lower Pre-Bell Wednesday; SpaceX, Micron to Fall](https://finnhub.io/api/news?id=74c9a380ac766041ab1ee7a5542605429ed30e9ffc3a4745568c35d2ef6db221)**  
 *Yahoo · 2h前*  
-Constellation Energy was the top Nasdaq 100 gainer on its multi-year nuclear power deal with Google.
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mostly lower hours before We
 
-- **[Marvell Technology (MRVL) Stock Trades Up, Here Is Why](https://finnhub.io/api/news?id=8f5b1b7f953592c7d27092b0104187680cce19fb2c66e507aaf36571be92818c)**  
-*Yahoo · 3h前*  
-Shares of networking chips designer Marvell Technology (NASDAQ: MRVL) jumped 8% in the morning session after the company raised its 2028 revenue forecast to app…
+- **[MRVL Stock Drops After Best Session In A Month: TD Cowen Flips Marvell To ‘Buy,’ Sees XPU Risk ‘Largely De-Risked’](https://finnhub.io/api/news?id=a2bf54d5090307d03d6412ec657d8eb2ab7e5e3f7dde0cb43f0b4456665de034)**  
+*Yahoo · 2h前*  
+TD Cowen upgraded MRVL to ‘Buy’ from ‘Hold’ and raised its price target to $350 from $245, implying more than 20% upside.
 
 ---
 
@@ -59,4 +59,4 @@ Shares of networking chips designer Marvell Technology (NASDAQ: MRVL) jumped 8% 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 21:05 HKT*
