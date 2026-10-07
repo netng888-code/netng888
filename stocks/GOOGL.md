@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$346.47** |
-| 今日變動 | ▲ $2.97　(+0.86%) |
+| 現價 | **$347.68** |
+| 今日變動 | ▲ $1.21　(+0.35%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $2,029　(▲41.4%) |
+| 未實現盈虧 | ▲ $2,053　(▲41.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $336.19 | — |
-| Put Wall（支撐） | $340.00 | -1.9% |
-| Call Wall（阻力） | $350.00 | +1.0% |
+| Gamma Flip | $337.40 | — |
+| Put Wall（支撐） | $340.00 | -2.2% |
+| Call Wall（阻力） | $350.00 | +0.7% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[‘Too much risk:’ Pimco’s Bill Gross says you shouldn’t own bonds now — aside from one key Treasury play](https://finnhub.io/api/news?id=4be82abc9fe41a2eb18dcef02a21f4cb8231e08a8339854acd637f447e44499c)**  
-*Yahoo · 1h前*  
-Surging government borrowing, fading foreign demand for Treasurys and a debt-fueled AI spending boom are changing the risk calculus across markets, he says.
+- **[Rezolve AI Targets $500M ARR as Agentic Commerce Platform Scales](https://finnhub.io/api/news?id=bca95e7fc021f2648d6df688f0128668fb96e6ecbd2ad5526f3ede636e396379)**  
+*Yahoo · 2h前*  
+Rezolve AI (NASDAQ:RZLV) outlined its strategy to build an end-to-end infrastructure platform for “agentic commerce,” reporting sharp first-half revenue growth …
 
-- **[Constellation Energy Stock Jumps. What a Google Nuclear Deal Will Do for It.](https://finnhub.io/api/news?id=00e619aef536a383af1b5c0178521dd5fc8cb7d1fbfffa22ac760abde6153399)**  
-*Yahoo · 1h前*  
-Big Tech is going nuclear as Alphabet and others scramble for enough power for their AI data centers.
+- **[XLK Does Not Own Alphabet, Amazon, Meta, Netflix or Tesla. Three Stocks Are 35.87% of It](https://finnhub.io/api/news?id=e89cf9ca966b15c06f25ef68871e73a4c203607efcaa3cec2e74e247d5ad4c89)**  
+*Yahoo · 2h前*  
+Millions of investors bought XLK expecting broad exposure to the companies reshaping the economy, but a closer look at its SEC filing reveals several of the mos…
 
-- **[Commercial Quantum Computing Solutions Market Global Report 2026 | Capitalize on 33.2% CAGR as IBM, Google, Microsoft and IonQ Accelerate Cloud-Hybrid Adoption](https://finnhub.io/api/news?id=a80bef376b56d4d8d555a2fa7bbbf9c6be87cc149dd0b331df554a540687c2d1)**  
-*Yahoo · 1h前*  
-Boost ROI via cloud access to avoid hardware costs, hybrid quantum-classical tools to speed workflows, and domestic sourcing to reduce tariff and supply-chain r…
+- **[The Overlooked Winner From Google’s Free AI Video Move: Micron](https://finnhub.io/api/news?id=83e46dace353e0226272c58bca7df26f541e906678c7c1734e6e6e2d3cb202a6)**  
+*Yahoo · 2h前*  
+As of September 23, AI video creation in Vids no longer costs anything for Google and Workspace users. The upgrade draws on Gemini Omni 1.1 Flash, the newest ad…
 
 ---
 
@@ -48,7 +48,7 @@ Boost ROI via cloud access to avoid hardware costs, hybrid quantum-classical too
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-06 | 監控 | $346.47 | — | 自動更新 |
+| 2026-10-07 | 監控 | $347.68 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Boost ROI via cloud access to avoid hardware costs, hybrid quantum-classical too
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
