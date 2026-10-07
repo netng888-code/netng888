@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$238.90** |
-| 今日變動 | ▲ $4.95　(+2.12%) |
+| 現價 | **$239.24** |
+| 今日變動 | ▲ $0.34　(+0.14%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $997　(▲26.4%) |
+| 未實現盈虧 | ▲ $1,004　(▲26.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $211.80 | — |
-| Put Wall（支撐） | $230.00 | -3.7% |
-| Call Wall（阻力） | $245.00 | +2.6% |
+| Gamma Flip | $214.55 | — |
+| Put Wall（支撐） | $230.00 | -3.9% |
+| Call Wall（阻力） | $240.00 | +0.3% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[SpaceX Just Reached Orbit With Starship. Here's What a $1,000 Investment Could Be Worth by 2030](https://finnhub.io/api/news?id=a1cf0ec5b1efceaa9ead6e0e769f41e12635bdb7cc6d82c9bbc6e71253820ee7)**  
-*Yahoo · 1h前*  
-SpaceX just reached a big milestone, but could it actually help investors profit?
+- **[Why Boost Run Stock Popped by Nearly 6% Today](https://finnhub.io/api/news?id=43d0eda62ae92ebee190077fc4145e4fff5d97d6101b46a8dfbe966dddd981b0)**  
+*Yahoo · 0h前*  
+The company announced a splashy new AI cloud contract with an unnamed client.
 
-- **[I Think BND Is the Best Bond ETF for Most Investors: Here's Why I'm Buying More in 2026.](https://finnhub.io/api/news?id=272f6dbeacd8e9dde0a984685a50248573f876f7dbbae8870f608d11087cbfa3)**  
-*Yahoo · 1h前*  
-The Vanguard Total Bond Market ETF is currently offering its highest yield in nearly two decades.
+- **[Applied Materials vs. Nvidia: What Revenue Trends Reveal About These Artificial Intelligence Companies](https://finnhub.io/api/news?id=09768827e4a0c77ffadf1adb7e31499366f1ec3a328766e280bfabd8d31dc036)**  
+*Yahoo · 0h前*  
+Applied Materials held steady for most of two years before accelerating, while Nvidia's revenue nearly tripled over the same span.
 
-- **[AMD hits $1 trillion market cap as AI agents boost CPU demand](https://finnhub.io/api/news?id=33ea0cd69e15be2cece8ba779e15011a1dcd5693b5f2221bddf03f264e7ec203)**  
+- **[SpaceX  seeks to raise $40 bln to buy Nvidia chips- FT](https://finnhub.io/api/news?id=8479638fe453da62e369d6ed33d2a9e84223d2461119996fd797225ae8c6472a)**  
 *Yahoo · 1h前*  
-OpenAI's Dots and Meta's Muse both run on AMD EPYC processors, and Morgan Stanley estimates Muse alone could account for 20% of AMD's 2026 chip sales
+Investing.com-- SpaceX is seeking to raise $40 bln in an endeavor led by Apollo Global to buy Nvidia chips, the Financial Times reported on Tuesday, citing peop…
 
 ---
 
@@ -48,7 +48,7 @@ OpenAI's Dots and Meta's Muse both run on AMD EPYC processors, and Morgan Stanle
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-06 | 監控 | $238.90 | — | 自動更新 |
+| 2026-10-07 | 監控 | $239.24 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ OpenAI's Dots and Meta's Muse both run on AMD EPYC processors, and Morgan Stanle
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
