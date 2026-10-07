@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-06 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$253.62** |
-| 今日變動 | ▲ $1.44　(+0.57%) |
+| 現價 | **$253.14** |
+| 今日變動 | ▼ $0.48　(-0.19%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $100　(▼16.5%) |
+| 未實現盈虧 | ▼ $101　(▼16.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $251.64 | — |
-| Put Wall（支撐） | $240.00 | -5.4% |
-| Call Wall（阻力） | $260.00 | +2.5% |
+| Gamma Flip | $251.71 | — |
+| Put Wall（支撐） | $240.00 | -5.2% |
+| Call Wall（阻力） | $260.00 | +2.7% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[The Overlooked AI Stock Poised to Outperform Nvidia and Palantir](https://finnhub.io/api/news?id=6d391a88a99329ad4bbdb966d4e2921aabe0c88baae31f89d2ccb7824c434058)**  
-*Yahoo · 5h前*  
-Without liquid cooling systems like Vertiv's, modern AI data centers wouldn't be possible.
+- **[GLJ Research Initiates Coverage of Vertiv Holdings with Sell Rating](https://finnhub.io/api/news?id=f46db04c340d1e62f6181e558a06e0867423fe328b3bcaca656a067e43ef0276)**  
+*Fintel · 4h前*
 
-- **[Vertiv's Q3 Earnings Setup Unlocks Solid Upside (Preview)](https://finnhub.io/api/news?id=9cc8e34bf8f8c838481b59ec6acb7bee13cca0a48f452d6f0236db22a87871d3)**  
-*SeekingAlpha · 5h前*  
-Vertiv's temporary Q2 revenue recognition timing shift created an unjustified pullback, setting up a potent Q3 double-beat earnings. Read more on VRT stock here…
+- **[Teradyne Gains 130% YTD: Should You Hold or Fold the Stock?](https://finnhub.io/api/news?id=5cab22ace9ab071897d02fce2ce6bc393d81c92d3c0e881df01c730571d81f5a)**  
+*Yahoo · 9h前*  
+TER's AI-driven memory test growth and upbeat Q3 outlook support momentum, but premium valuation, competition, and margin pressures cloud the case.
 
-- **[Vertiv vs. nVent: Why Is the Faster-Growing AI Infrastructure Stock Cheaper?](https://finnhub.io/api/news?id=c6ea6a864adc1f62147acc849475277c2f365791cc25ace0f9436ce6ca3c9ab5)**  
-*Yahoo · 15h前*  
-Vertiv Holdings Co (NYSE:VRT) has become a familiar way to invest in AI power and cooling. Yet nVent Electric plc (NYSE:NVT) recently delivered faster organic g…
+- **[Vertiv: How Much Longer Can Hyperscaler CapEx Support This Growth?](https://finnhub.io/api/news?id=9bab225438abb0669be81d0b5ae431fab170f6dfa6145bfc2ca314e542f3a0f0)**  
+*SeekingAlpha · 14h前*  
+Vertiv stands to gain from the AI data center boom, but its valuation is demanding. Click for more on VRT stock.
 
 ---
 
@@ -48,7 +47,7 @@ Vertiv Holdings Co (NYSE:VRT) has become a familiar way to invest in AI power an
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-06 | 監控 | $253.62 | — | 自動更新 |
+| 2026-10-07 | 監控 | $253.14 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ Vertiv Holdings Co (NYSE:VRT) has become a familiar way to invest in AI power an
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-06 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 09:05 HKT*
