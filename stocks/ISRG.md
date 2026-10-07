@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-07 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Jim Cramer Has Soured on Intuitive Surgical (ISRG). The Reason is Johnson & Johnson](https://finnhub.io/api/news?id=bdf8418f87165d23312194e0e17076b00a74df9674e630b0287ab8ee4385bf67)**  
+*Yahoo · 9h前*  
+Intuitive Surgical, Inc. (NASDAQ:ISRG) was turned down by Jim Cramer on Mad Money on October 6, when a caller asked whether the robotic surgery company counted …
+
 - **[What Could Lift ISRG Stock?](https://finnhub.io/api/news?id=28642705afdda98124992b0c52567853c795c00a7ef0ae1ab9907db34012c607)**  
-*Yahoo · 11h前*  
+*Yahoo · 23h前*  
 Intuitive Surgical (ISRG) stock has lost 8.2% over the past twelve months, while the S&P 500 returned 17.1%. If you own it, you have watched the market move on …
 
 - **[If The MiniMed Split-Off Stalls, What Happens To Your Medtronic Stock?](https://finnhub.io/api/news?id=88e9ab5aabd1b5ea758ed0da36e8174c31ae584da8b1871cec70ef3e2c56d64a)**  
-*Yahoo · 12h前*  
+*Yahoo · 1d前*  
 Medtronic (MDT) is offering its shareholders a swap: hand in Medtronic shares and receive shares of MiniMed, its diabetes business. The offer is worth about $4 …
-
-- **[Zacks Industry Outlook Globus Medical, Intuitive Surgical  and Thermo Fisher Scientific](https://finnhub.io/api/news?id=edc042f24fdfd21319847f16066a5fa2b9cfe71df6d4e7fb320c4ce8435ecff5)**  
-*Yahoo · 20h前*  
-Globus Medical, Intuitive Surgical and Thermo Fisher Scientific have been highlighted in this Industry Outlook article.
 
 ---
 
@@ -59,4 +59,4 @@ Globus Medical, Intuitive Surgical and Thermo Fisher Scientific have been highli
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 21:05 HKT*
