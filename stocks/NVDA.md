@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Boost Run Stock Popped by Nearly 6% Today](https://finnhub.io/api/news?id=43d0eda62ae92ebee190077fc4145e4fff5d97d6101b46a8dfbe966dddd981b0)**  
-*Yahoo · 0h前*  
-The company announced a splashy new AI cloud contract with an unnamed client.
+- **[Broadcom, Oracle Earnings to Test Cloud Infrastructure's AI-Driven Momentum](https://finnhub.io/api/news?id=543b7a61ed849ae8ca67fcadf0eee529fcdeef470ac13b60afe2cd304c390f04)**  
+*ChartMill · 0h前*  
+Broadcom and Oracle earnings will test whether AI data center momentum can broaden beyond Nvidia and AMD as AI cloud stocks face key valuation tests.
 
-- **[Applied Materials vs. Nvidia: What Revenue Trends Reveal About These Artificial Intelligence Companies](https://finnhub.io/api/news?id=09768827e4a0c77ffadf1adb7e31499366f1ec3a328766e280bfabd8d31dc036)**  
-*Yahoo · 0h前*  
-Applied Materials held steady for most of two years before accelerating, while Nvidia's revenue nearly tripled over the same span.
-
-- **[SpaceX  seeks to raise $40 bln to buy Nvidia chips- FT](https://finnhub.io/api/news?id=8479638fe453da62e369d6ed33d2a9e84223d2461119996fd797225ae8c6472a)**  
+- **[Broadcom's AI Revenue Is Growing at 221%. Here's Why Custom Chips Could Be a Bigger Business Than GPUs.](https://finnhub.io/api/news?id=3732f997d8d62a4304c1b86c2799c8c63d6fc691a0c77fd4315bde256ab932ef)**  
 *Yahoo · 1h前*  
-Investing.com-- SpaceX is seeking to raise $40 bln in an endeavor led by Apollo Global to buy Nvidia chips, the Financial Times reported on Tuesday, citing peop…
+There's an overlooked reason why custom chips could keep taking share of AI data centers.
+
+- **[Even With 10-Year Rates at 5.3%, I'd Still Rather Buy These 3 Dividend Stocks and Hold Through 2036](https://finnhub.io/api/news?id=7c3d4e557686d57e2ed35b77af833b66654da4c69d3435dd80a399518a8d557e)**  
+*Yahoo · 1h前*  
+Treasury yields just hit a two-decade high, and I'd still rather risk it and own these three dividend stocks for the next decade.
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com-- SpaceX is seeking to raise $40 bln in an endeavor led by Apollo 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 21:05 HKT*
