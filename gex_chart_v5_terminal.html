@@ -639,13 +639,16 @@
     限制（get_option_chain每30秒10次），唔係_ctx並行。前端配合：GEX單隻timeout 60→150秒
     （bridge限流可能令冷cache排隊）、重試前等8秒、錯誤文字顯示由40字加到90字。
     ⚠️ 需要futu_bridge_v2.py v3.19（_opt_throttle限流）先根治。
+  v5.37（2026-10-07）：持倉更新：LYTE沽出20股（10股@$26.2＋10股@$26.5，成本$25.00，30→10股，
+    已實現+$27）。PORTFOLIO.LYTE.qty 30→10，其餘五檔（CSV／index.html／telegram_bot.py／
+    github_gex_updater.py）同步；US_STOCKS／HOLDINGS不變（LYTE仍持有10股）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.36)</title>
+<title>GEX Chart — Futu Bridge (v5.37)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -1777,7 +1780,7 @@ const PORTFOLIO = {
   'RKLB': {qty:10,  cost:76.00   },
   'PLTR': {qty:12,  cost:127.304 },
   'ISRG': {qty:2,   cost:453.10  },
-  'LYTE': {qty:30,  cost:25.00   },
+  'LYTE': {qty:10,  cost:25.00   },
   'RR':   {qty:300, cost:2.445   },
   'VRT':  {qty:2,   cost:303.76  },
   'SERV': {qty:30,  cost:11.743  },
