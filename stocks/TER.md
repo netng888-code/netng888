@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$444.53** |
-| 今日變動 | ▼ $4.51　(-1.00%) |
+| 現價 | **$430.32** |
+| 今日變動 | ▼ $14.21　(-3.20%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,763　(▲383.2%) |
+| 未實現盈虧 | ▲ $1,692　(▲367.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $391.94 | — |
-| Put Wall（支撐） | $430.00 | -3.3% |
-| Call Wall（阻力） | $500.00 | +12.5% |
+| Gamma Flip | $404.07 | — |
+| Put Wall（支撐） | $430.00 | -0.1% |
+| Call Wall（阻力） | $440.00 | +2.2% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Teradyne (TER) Stock Declines While Market Improves: Some Information for Investors](https://finnhub.io/api/news?id=cc7b79cb4e7bec135195d13d5cde551ef9c9b10b423ebcf7501466368d5eb868)**  
-*Yahoo · 16h前*  
-In the latest trading session, Teradyne (TER) closed at $444.53, marking a -1% move from the previous day.
+- **[Uncover the latest developments among S&P500 stocks in today's session.](https://finnhub.io/api/news?id=799cd2ca19736d45c52db9faa5f9160ef65f2f81c348e1bda7366c44deea05c5)**  
+*ChartMill · 5h前*  
+Curious about the top performers within the S&P500 index one hour before the close of the markets on Tuesday? Dive into the list of today's session's top gainer…
 
-- **[Nvidia Testing Partner Takes Aim At AI-Fueled Breakout. Robotics Give Shares A Boost.](https://finnhub.io/api/news?id=3efa9d5c5c6c2ed2c58d6d7f4d0a97fb2b5111a9cbdcc6509596149eda45e4a3)**  
-*Yahoo · 22h前*  
-As semiconductor testing, robotics and physical AI partner Nvidia remains in buy range, Teradyne has plans to join it.
+- **[Multiply Labs Raises $75 Million Series B to Close the Gap Between Drug Discovery and Drug Manufacturing](https://finnhub.io/api/news?id=6b242ecd6026462e9307a0b256b9dd0afe86ba8df37fc01dd1fcea6a75164d1b)**  
+*Yahoo · 6h前*  
+SAN FRANCISCO, October 06, 2026--Multiply Labs raises $75M Series B led by Dr. Patrick Soon-Shiong to scale robotic manufacturing to help patients access next-g…
 
-- **[Teradyne Makes Strategic Investment in Bright Machines to Advance AI Infrastructure Manufacturing](https://finnhub.io/api/news?id=34b83add1f0384469becbd3bc96224a14ec17b35bba882f98e4830935d51f11e)**  
-*Yahoo · 1d前*  
-Investment and planned collaboration pair Teradyne robotics and test technologies with Bright Machines' software-defined manufacturing platformNORTH READING, Ma…
+- **[Which S&P500 stocks are moving on Tuesday?](https://finnhub.io/api/news?id=77d86f15549f5f68cb794b92dd883f9ce67028af48767f3a173cdb7c589f7e8d)**  
+*ChartMill · 8h前*  
+Stay updated with the movement of S&P500 stocks in today's session. Discover which S&P500 stocks are making waves on Tuesday.
 
 ---
 
@@ -48,7 +48,7 @@ Investment and planned collaboration pair Teradyne robotics and test technologie
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-06 | 監控 | $444.53 | — | 自動更新 |
+| 2026-10-07 | 監控 | $430.32 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Investment and planned collaboration pair Teradyne robotics and test technologie
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
