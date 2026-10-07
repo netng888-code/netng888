@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$741.90** |
-| 今日變動 | ▲ $13.82　(+1.90%) |
+| 現價 | **$738.88** |
+| 今日變動 | ▼ $3.02　(-0.41%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $407　(▲22.4%) |
+| 未實現盈虧 | ▲ $398　(▲21.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $612.07 | — |
-| Put Wall（支撐） | $700.00 | -5.6% |
-| Call Wall（阻力） | $750.00 | +1.1% |
+| Gamma Flip | $612.83 | — |
+| Put Wall（支撐） | $700.00 | -5.3% |
+| Call Wall（阻力） | $750.00 | +1.5% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Cybersecurity stocks hit new highs as AI agents spark 'biggest risk today': Chart of the Day](https://finnhub.io/api/news?id=b279aebfb2e4320ca91b3938dd41a3730c1d9450345cea12ae43f21e42731fa3)**  
-*Yahoo · 1h前*  
-Cybersecurity stocks are at all-time highs as agentic AI adoption spurs security spending.
+- **[XLK Does Not Own Alphabet, Amazon, Meta, Netflix or Tesla. Three Stocks Are 35.87% of It](https://finnhub.io/api/news?id=e89cf9ca966b15c06f25ef68871e73a4c203607efcaa3cec2e74e247d5ad4c89)**  
+*Yahoo · 2h前*  
+Millions of investors bought XLK expecting broad exposure to the companies reshaping the economy, but a closer look at its SEC filing reveals several of the mos…
 
-- **[‘Too much risk:’ Pimco’s Bill Gross says you shouldn’t own bonds now — aside from one key Treasury play](https://finnhub.io/api/news?id=4be82abc9fe41a2eb18dcef02a21f4cb8231e08a8339854acd637f447e44499c)**  
-*Yahoo · 1h前*  
-Surging government borrowing, fading foreign demand for Treasurys and a debt-fueled AI spending boom are changing the risk calculus across markets, he says.
+- **[Is the 'nostalgia economy' safe from tech disruption?](https://finnhub.io/api/news?id=9aa3ba1b3b4fb3cc2fb61eb51d454ae787983489753620464ce1f68d7735e52d)**  
+*Yahoo · 3h前*  
+In this segment of Yahoo Finance's 'Market Hang,' host Dan DeFrancesco leads a lighthearted discussion with panelists David Wagner, Aptus Capital Advisors Head …
 
-- **[Constellation Energy Stock Jumps. What a Google Nuclear Deal Will Do for It.](https://finnhub.io/api/news?id=00e619aef536a383af1b5c0178521dd5fc8cb7d1fbfffa22ac760abde6153399)**  
-*Yahoo · 1h前*  
-Big Tech is going nuclear as Alphabet and others scramble for enough power for their AI data centers.
+- **[ERock Stock Jumps 10% on AI Power Surge](https://finnhub.io/api/news?id=1c66eb9f43a299db090ccc98d9b5f7e82411108cc20dfaa562662649591e7eb7)**  
+*Yahoo · 3h前*  
+After falling out of favor, shares of power stocks got plugged in on Tuesday on a big deal between Constellation Energy and Google.
 
 ---
 
@@ -48,7 +48,7 @@ Big Tech is going nuclear as Alphabet and others scramble for enough power for t
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-06 | 監控 | $741.90 | — | 自動更新 |
+| 2026-10-07 | 監控 | $738.88 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Big Tech is going nuclear as Alphabet and others scramble for enough power for t
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
