@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$271.25** |
-| 今日變動 | ▼ $1.04　(-0.38%) |
+| 現價 | **$287.01** |
+| 今日變動 | ▲ $15.76　(+5.81%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▲ $139　(▲5.4%) |
+| 未實現盈虧 | ▲ $297　(▲11.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $240.20 | — |
-| Put Wall（支撐） | $250.00 | -7.8% |
-| Call Wall（阻力） | $300.00 | +10.6% |
+| Gamma Flip | $247.82 | — |
+| Put Wall（支撐） | $270.00 | -5.9% |
+| Call Wall（阻力） | $300.00 | +4.5% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvel Biosciences Signs Letter of Intent with Novatech for Phase 1 Trial of MB-204 and Provides Corporate Update](https://finnhub.io/api/news?id=5326311f61eb9a62b5e77a2a022638655ce7581cf9a39661a111caaa9f0d5f7f)**  
+- **[U.S. stock futures steady after tech rally lifts S&P 500, Nasdaq to records](https://finnhub.io/api/news?id=a89afe7abc58ee8c41f9041d16a727dc42e2634a18969c190331790d3e9b1719)**  
+*Yahoo · 0h前*  
+Investing.com-- U.S. stock futures were little changed on Tuesday evening after the S&P 500 and Nasdaq hit record closing highs, as investors turned their atten…
+
+- **[S&P 500 And Nasdaq 100 Soar To Record Highs Amid Rising Bets Of Strong Quarterly Earnings — CEG, LCID, SPCX, MRVL In Focus](https://finnhub.io/api/news?id=682fd04d3d7589318662fd1cea2c31cda184b5f97c1ee5bc306840484d4455e9)**  
 *Yahoo · 2h前*  
-CALGARY, Alberta, Oct. 06, 2026 (GLOBE NEWSWIRE) -- Marvel Biosciences Corp. (TSXV: MRVL | OTCQB: MBCOF), and its wholly-owned subsidiary, Marvel Biotechnology …
+Constellation Energy was the top Nasdaq 100 gainer on its multi-year nuclear power deal with Google.
 
-- **[Nvidia vs. Broadcom: Which AI Chip Stock Is the Better Buy Now?](https://finnhub.io/api/news?id=3dc09e83c32e8f7f00a7eb4d13c8d9dc1f3b161d7ab04ae4b7acf9965ea5ecc9)**  
+- **[Marvell Technology (MRVL) Stock Trades Up, Here Is Why](https://finnhub.io/api/news?id=8f5b1b7f953592c7d27092b0104187680cce19fb2c66e507aaf36571be92818c)**  
 *Yahoo · 3h前*  
-NVIDIA Corporation (NASDAQ:NVDA) and Broadcom Inc. (NASDAQ:AVGO) offer two different claims on the AI computing budget. Nvidia sells a broad GPU platform suppor…
-
-- **[$10,000 in Marvell Stock a Decade Ago Is Worth About $206,000 Now. Repeating That Would Take 35% Annual Earnings Growth.](https://finnhub.io/api/news?id=bb20c72bb1688fd14ed76d5d0e8d6b7cd95a85f329a03c414f60441a452c7a7f)**  
-*Yahoo · 6h前*  
-Most of the decade's rise came this year. What would it take to do it all over?
+Shares of networking chips designer Marvell Technology (NASDAQ: MRVL) jumped 8% in the morning session after the company raised its 2028 revenue forecast to app…
 
 ---
 
@@ -48,7 +48,7 @@ Most of the decade's rise came this year. What would it take to do it all over?
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-06 | 監控 | $271.25 | — | 自動更新 |
+| 2026-10-07 | 監控 | $287.01 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Most of the decade's rise came this year. What would it take to do it all over?
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
