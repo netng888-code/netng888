@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[XLK Does Not Own Alphabet, Amazon, Meta, Netflix or Tesla. Three Stocks Are 35.87% of It](https://finnhub.io/api/news?id=e89cf9ca966b15c06f25ef68871e73a4c203607efcaa3cec2e74e247d5ad4c89)**  
-*Yahoo · 2h前*  
-Millions of investors bought XLK expecting broad exposure to the companies reshaping the economy, but a closer look at its SEC filing reveals several of the mos…
+- **[Broadcom's AI Revenue Is Growing at 221%. Here's Why Custom Chips Could Be a Bigger Business Than GPUs.](https://finnhub.io/api/news?id=3732f997d8d62a4304c1b86c2799c8c63d6fc691a0c77fd4315bde256ab932ef)**  
+*Yahoo · 1h前*  
+There's an overlooked reason why custom chips could keep taking share of AI data centers.
 
-- **[Is the 'nostalgia economy' safe from tech disruption?](https://finnhub.io/api/news?id=9aa3ba1b3b4fb3cc2fb61eb51d454ae787983489753620464ce1f68d7735e52d)**  
-*Yahoo · 3h前*  
-In this segment of Yahoo Finance's 'Market Hang,' host Dan DeFrancesco leads a lighthearted discussion with panelists David Wagner, Aptus Capital Advisors Head …
+- **[By 1873, The Railroad Boom Had Built Some Of The Largest Fortunes In American History. Then A Brutal Crash Bankrupted More Than 100 Railroads And Brought A 5-Year Depression. Now, Brookings Projects The AI Buildout Will Be An Even Larger Share Of The Economy Than The Railroad Mania](https://finnhub.io/api/news?id=1a5748c401b0b8e5a7428a96b120c5d52a27968de0f4bf9f7832b9a026dcb080)**  
+*Yahoo · 1h前*  
+Jay Cooke's bank failure in 1873 wiped out more than a hundred railroads and triggered a five-year depression, and a new Brookings paper argues the AI buildout …
 
-- **[ERock Stock Jumps 10% on AI Power Surge](https://finnhub.io/api/news?id=1c66eb9f43a299db090ccc98d9b5f7e82411108cc20dfaa562662649591e7eb7)**  
-*Yahoo · 3h前*  
-After falling out of favor, shares of power stocks got plugged in on Tuesday on a big deal between Constellation Energy and Google.
+- **[Jim Cramer picks Meta and Microsoft as top AI stocks](https://finnhub.io/api/news?id=aa7537f3c65abcdc51ba8d1290ee8eaf04075782fccff58674bf07277958690c)**  
+*Yahoo · 1h前*  
+The "Mad Money" host said blue-chip tech companies with strong management teams offer the best opportunity in the current AI investment cycle
 
 ---
 
@@ -59,4 +59,4 @@ After falling out of favor, shares of power stocks got plugged in on Tuesday on 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 21:05 HKT*
