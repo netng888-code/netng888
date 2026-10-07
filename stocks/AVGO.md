@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$362.51** |
-| 今日變動 | ▲ $7.37　(+2.08%) |
+| 現價 | **$375.81** |
+| 今日變動 | ▲ $13.30　(+3.67%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $161　(▼4.3%) |
+| 未實現盈虧 | ▼ $28　(▼0.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $355.70 | — |
-| Put Wall（支撐） | $350.00 | -3.5% |
-| Call Wall（阻力） | $370.00 | +2.1% |
+| Gamma Flip | $356.00 | — |
+| Put Wall（支撐） | $350.00 | -6.9% |
+| Call Wall（阻力） | $380.00 | +1.1% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[1 Profitable Stock to Target This Week and 2 We Ignore](https://finnhub.io/api/news?id=54429256bc1ea87ffd136188b6c7c300e78fe5218c983a90ce74becb1341efd7)**  
-*Yahoo · 2h前*  
-Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn’t…
-
-- **[Nvidia vs. Broadcom: Which AI Chip Stock Is the Better Buy Now?](https://finnhub.io/api/news?id=3dc09e83c32e8f7f00a7eb4d13c8d9dc1f3b161d7ab04ae4b7acf9965ea5ecc9)**  
+- **[LinkedIn Cofounder Defends Massive AI Infrastructure Spending, Says AI Capital Is 'the Only Reason We’re Not in a Recession'](https://finnhub.io/api/news?id=e8c28d0ddd165a6c62d365eb1b1b71b29441ce2eae26368bba36cdac99598863)**  
 *Yahoo · 3h前*  
-NVIDIA Corporation (NASDAQ:NVDA) and Broadcom Inc. (NASDAQ:AVGO) offer two different claims on the AI computing budget. Nvidia sells a broad GPU platform suppor…
+LinkedIn co-founder Reid Hoffman said the massive capital flowing into AI infrastructure and data center construction is helping sustain the U.S. economy, argui…
 
-- **[Global Change and Configuration Management Market Report 2026; Change and Configuration Management Market Set to Reach $4.25 Billion by 2030 as Security and Automation Demand Accelerates](https://finnhub.io/api/news?id=963e48470c74bd9d6d77b56da3095c08ca7d031ea80f213fe6a99f585732d4b7)**  
+- **[Stock Market Today, Oct. 6: Marvell Stock Is Up as the Company Raises FY2028 Revenue Outlook to $20 Billion](https://finnhub.io/api/news?id=83e0ef9fc987f98db97acab112d97a05f41721729ea51260c55bf20ca9463241)**  
+*Yahoo · 3h前*  
+Today, Oct. 6, 2026, the chipmaker lifted near- and long-term targets at Investor Day, signaling stronger AI infrastructure demand ahead.
+
+- **[$5,100 Split Across These 5 AI Infrastructure Stocks Could Be Worth This Much by 2030](https://finnhub.io/api/news?id=7a571eae5d266955d8e0c4200205760b1c8beecf50044cd2cf7e37d41a2113bb)**  
 *Yahoo · 4h前*  
-Players: Microsoft, IBM, Broadcom, HPE and AWS. Profiles cover change and configuration management software, services, segments, trends, regional shares and opp…
+A basket of these five semiconductor stocks should produce strong returns in the coming years.
 
 ---
 
@@ -48,7 +48,7 @@ Players: Microsoft, IBM, Broadcom, HPE and AWS. Profiles cover change and config
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-06 | 監控 | $362.51 | — | 自動更新 |
+| 2026-10-07 | 監控 | $375.81 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Players: Microsoft, IBM, Broadcom, HPE and AWS. Profiles cover change and config
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
