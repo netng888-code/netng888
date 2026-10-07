@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-07 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rezolve AI Targets $500M ARR as Agentic Commerce Platform Scales](https://finnhub.io/api/news?id=bca95e7fc021f2648d6df688f0128668fb96e6ecbd2ad5526f3ede636e396379)**  
-*Yahoo · 2h前*  
-Rezolve AI (NASDAQ:RZLV) outlined its strategy to build an end-to-end infrastructure platform for “agentic commerce,” reporting sharp first-half revenue growth …
+- **[Broadcom's AI Revenue Is Growing at 221%. Here's Why Custom Chips Could Be a Bigger Business Than GPUs.](https://finnhub.io/api/news?id=3732f997d8d62a4304c1b86c2799c8c63d6fc691a0c77fd4315bde256ab932ef)**  
+*Yahoo · 1h前*  
+There's an overlooked reason why custom chips could keep taking share of AI data centers.
 
-- **[XLK Does Not Own Alphabet, Amazon, Meta, Netflix or Tesla. Three Stocks Are 35.87% of It](https://finnhub.io/api/news?id=e89cf9ca966b15c06f25ef68871e73a4c203607efcaa3cec2e74e247d5ad4c89)**  
-*Yahoo · 2h前*  
-Millions of investors bought XLK expecting broad exposure to the companies reshaping the economy, but a closer look at its SEC filing reveals several of the mos…
+- **[By 1873, The Railroad Boom Had Built Some Of The Largest Fortunes In American History. Then A Brutal Crash Bankrupted More Than 100 Railroads And Brought A 5-Year Depression. Now, Brookings Projects The AI Buildout Will Be An Even Larger Share Of The Economy Than The Railroad Mania](https://finnhub.io/api/news?id=1a5748c401b0b8e5a7428a96b120c5d52a27968de0f4bf9f7832b9a026dcb080)**  
+*Yahoo · 1h前*  
+Jay Cooke's bank failure in 1873 wiped out more than a hundred railroads and triggered a five-year depression, and a new Brookings paper argues the AI buildout …
 
-- **[The Overlooked Winner From Google’s Free AI Video Move: Micron](https://finnhub.io/api/news?id=83e46dace353e0226272c58bca7df26f541e906678c7c1734e6e6e2d3cb202a6)**  
-*Yahoo · 2h前*  
-As of September 23, AI video creation in Vids no longer costs anything for Google and Workspace users. The upgrade draws on Gemini Omni 1.1 Flash, the newest ad…
+- **[Broadcom Owns the Backstage; AMD Fights for the Spotlight](https://finnhub.io/api/news?id=94d0f0432aae19d4079aa013a9adf3e9b78001897d2b49977e3e8a3a5d173ec8)**  
+*Yahoo · 1h前*  
+Broadcom quietly powers the AI chips hyperscalers brand as their own, while AMD wages a public battle against Nvidia with full server racks and a valuation that…
 
 ---
 
@@ -59,4 +59,4 @@ As of September 23, AI video creation in Vids no longer costs anything for Googl
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 21:04 HKT*
