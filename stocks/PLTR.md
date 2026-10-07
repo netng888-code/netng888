@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-07 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Defense Tech Goes Public: REDLattice CEO Andy Boyd, Live at Nasdaq](https://finnhub.io/api/news?id=f9b83373bc09dd6183918c54b4a27256c39f8d629a8dfcc1135e7958bb234a31)**  
-*Yahoo · 5h前*  
-IPO Edge hosted a fireside chat at Nasdaq MarketSite on Oct. 5 with Andy Boyd, Chief Executive Officer at REDL Intermediate Holdings, LLC (REDLattice). The in-p…
+- **[Palantir or Snowflake: If I Had to Pick 1 AI Data Stock and Never Look at It Again, This Is It](https://finnhub.io/api/news?id=a8527ba3cb3034290e67279872b86b09f025ab7e694cd346b9fe8520998ab4e2)**  
+*Yahoo · 1h前*  
+One of these AI data stocks is already printing profits and funding itself. The other is still making promises about a future that retirement investors may not …
 
-- **[The Odd One Out: Why One Mega-Cap Tech Giant Is a Sell While Two Others Are Buys](https://finnhub.io/api/news?id=1a0e7817dce476faccf71415f2f58a9d9e7565b9c415dc93ae701cc76bbfe6b2)**  
-*Yahoo · 6h前*  
-As with other stock categories, you can find buys, holds, and sells among mega-caps.
+- **[Michael Burry Predicts Investors Have Less Than 270 Days To Prepare For Next Phase Of 2008 Style Crash](https://finnhub.io/api/news?id=36c4377f05f6b7ea25a46a2143e5669064eacbf8c7226fc2c2daccc9eb704ebc)**  
+*Yahoo · 2h前*  
+Michael Burry posted a two-sentence market call on X early Tuesday, and unlike most market warnings that lack a timeline, this one gives a duration. Burry’s ful…
 
-- **[Not Microsoft. Not Google. Analysts Call This $2.7 Trillion Tech Titan the Most Undervalued AI Play.](https://finnhub.io/api/news?id=6ace78cffa55a1f59fc8f1d51337c8297fff889c1283b8b9c28203ebe2428365)**  
-*Yahoo · 8h前*  
-Amazon's cloud growth should lead to massive profit expansion.
+- **[Palantir Technologies (PLTR) Expands Sovereign AI Push As Valuation Looks Fully Priced](https://finnhub.io/api/news?id=4a4f451b99b5d9625e684ffde024b6ff136e107b045fdfc6fafb88730914f37d)**  
+*Yahoo · 10h前*  
+Palantir Technologies (PLTR) has pushed deeper into sovereign AI by pairing its Sovereign AI Operating System with Armada’s modular data centers to serve custom…
 
 ---
 
@@ -59,4 +59,4 @@ Amazon's cloud growth should lead to massive profit expansion.
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 21:05 HKT*
