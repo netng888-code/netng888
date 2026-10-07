@@ -1,6 +1,6 @@
 # LYTE — Roundhill Photonics & Optics ETF
 
-> 最後更新：2026-10-07 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-07 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -10,9 +10,9 @@
 |------|------|
 | 現價 | **$26.87** |
 | 今日變動 | ▲ $0.89　(+3.43%) |
-| 持倉數量 | 30 股 |
+| 持倉數量 | 10 股 |
 | 平均成本 | $25.000 |
-| 未實現盈虧 | ▲ $56　(▲7.5%) |
+| 未實現盈虧 | ▲ $19　(▲7.5%) |
 
 ---
 
@@ -49,4 +49,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=LYTE)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-07 21:06 HKT*
