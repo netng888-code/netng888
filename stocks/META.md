@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Cathie Wood buys $7.8 million of surging megacap tech stock](https://finnhub.io/api/news?id=a026eefeb171ec08d10861a5ea2bb4535691f1ae8c90d9396b3ef5f918ab0fe3)**  
+- **[Meta Stock Falls as Florida Asks a Court to Switch Off Infinite Scroll for Teens](https://finnhub.io/api/news?id=10eb6f268e872f7c988f3322e92fd749b4e660bb72da67d44bb2fe0ebc481a1b)**  
+*Yahoo · 1h前*  
+Florida just rejected an $18 billion settlement that every other state accepted, and now its attorney general wants a judge to gut the very features that make I…
+
+- **[Meta Muse, Grok Bot, OpenAI Dots: Which AI agent should you use?](https://finnhub.io/api/news?id=06412d3374a787cf60d70eeb6e802fb9a7906097e274134766344a20258f18f2)**  
 *Yahoo · 2h前*  
-Here are Cathie Wood’s latest moves.
+In The Loop host Ejaaz Ahamadeen ranks the AI agents everyone's talking about by what they cost, what they do, and which one is worth your time.
 
-- **[Does The Fall In AppLovin Stock Change Anything?](https://finnhub.io/api/news?id=8c17141f7468046d45102ab09946c02e7411de0c0733f1c3ac1a630ac1a588e4)**  
-*Yahoo · 4h前*  
-Shares of AppLovin (APP) fell 57% between January 9 and October 6, 2026, a period when the S&P 500 returned 13.2%. During that stretch, the company delivered fo…
-
-- **[Aptos moves Shelby into private beta with AI workloads](https://finnhub.io/api/news?id=09f35d1c345b3299e79cedf2d305907497b99871bea25722b9708de63e9ba0e8)**  
-*Yahoo · 4h前*  
-Aptos Labs’ Shelby data infrastructure enters private beta with three customers running production workloads across enterprise AI, 3D rendering and spatial data…
+- **[Meta's Muse Reached More Than Half of Customers Cequence Studied in Two Weeks Without Identifying Itself as an AI Agent](https://finnhub.io/api/news?id=b83854a900a76f6d55b04a8643d274766f45162d7862d162e7bd45f460abf5c7)**  
+*Yahoo · 3h前*  
+Within two weeks of Meta's Sep. 8 launch of its Muse personal AI agent, Cequence Security found traffic matching Muse at more than half of the customers it stud…
 
 ---
 
@@ -59,4 +59,4 @@ Aptos Labs’ Shelby data infrastructure enters private beta with three customer
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:03 HKT*
