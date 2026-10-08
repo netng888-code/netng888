@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-07 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$253.14** |
-| 今日變動 | ▼ $0.48　(-0.19%) |
+| 現價 | **$246.49** |
+| 今日變動 | ▼ $6.65　(-2.63%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $101　(▼16.7%) |
+| 未實現盈虧 | ▼ $115　(▼18.9%) |
 
 ---
 
@@ -20,26 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $251.71 | — |
-| Put Wall（支撐） | $240.00 | -5.2% |
-| Call Wall（阻力） | $260.00 | +2.7% |
+| Gamma Flip | $251.51 | — |
+| Put Wall（支撐） | $240.00 | -2.6% |
+| Call Wall（阻力） | $260.00 | +5.5% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[3 Monster Stocks Worth Buying and Holding for the Next 5 Years](https://finnhub.io/api/news?id=7621a45ff8cc05c8fda3fcaeb35b8f7ac14e40fdd94482be5d44d98a02a5dde4)**  
+- **[Why Vertiv (VRT) Stock Is Down Today](https://finnhub.io/api/news?id=7825ff60543d6cb5d248d4f242d8e9a867829131feb58e410a7718468ff905b5)**  
 *Yahoo · 2h前*  
-These three industrial suppliers are positioned to benefit from growing investment in data centers.
+Shares of data center products and services company Vertiv (NYSE:VRT) fell 3.5% in the afternoon session after downward momentum continued as GLJ Research initi…
 
-- **[Vertiv: A Major AI Infrastructure Winner, But The Valuation Leaves Little Room For Error](https://finnhub.io/api/news?id=5846c94f1b634d2929e2708d30a8cc2f46ab873b620251a3110137a9e91cd4ee)**  
-*SeekingAlpha · 7h前*  
-Vertiv gains from AI data center growth, rising margins and $15B backlog, but trades at 38x 2026 EPS with execution risk. Learn more about VRT stock here.
+- **[How Much Downside Is Left In Vertiv Stock?](https://finnhub.io/api/news?id=e37fb6bb77fdbd34a3ed5dce467d70a45dbe987a8cc5b8dc5e311192337db007)**  
+*Yahoo · 3h前*  
+Vertiv (VRT) shares have fallen 20% over the past three months, while the S&P 500 gained about 4%. The stock's 9.7% drop over the past month came without any ne…
 
-- **[GLJ Research Initiates Coverage of Vertiv Holdings with Sell Rating](https://finnhub.io/api/news?id=f46db04c340d1e62f6181e558a06e0867423fe328b3bcaca656a067e43ef0276)**  
-*Fintel · 16h前*
+- **[Vertiv Holdings Co. (VRT) Declines More Than Market: Some Information for Investors](https://finnhub.io/api/news?id=5d5dac821a8164382378e889c4eccc67ed65015fbce73bc624a4a5eadfac86f7)**  
+*Yahoo · 4h前*  
+In the closing of the recent trading day, Vertiv Holdings Co. (VRT) stood at $245.85, denoting a -2.88% move from the preceding trading day.
 
 ---
 
@@ -47,7 +48,7 @@ Vertiv gains from AI data center growth, rising margins and $15B backlog, but tr
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-07 | 監控 | $253.14 | — | 自動更新 |
+| 2026-10-08 | 監控 | $246.49 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ Vertiv gains from AI data center growth, rising margins and $15B backlog, but tr
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 09:05 HKT*
