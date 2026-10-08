@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[IPG Photonics, Nova, Teradyne, NXP Semiconductors, and Microchip Technology Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=66eba06d43edb6824763f8aebb19f3791b1dfc8656f991969b5d35267dbf2be2)**  
+- **[Citi names 5 top chip picks ahead of Q3 earnings](https://finnhub.io/api/news?id=af698d789443b7d7d798666bf1c69af3f167f53b1d92d329f85a3297de1d5da2)**  
 *Yahoo · 2h前*  
+Investing.com -- Citi named AMD, Texas Instruments, Lam Research, Teradyne and Synopsys as its top buy-rated semiconductor picks ahead of third-quarter earnings…
+
+- **[IPG Photonics, Nova, Teradyne, NXP Semiconductors, and Microchip Technology Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=66eba06d43edb6824763f8aebb19f3791b1dfc8656f991969b5d35267dbf2be2)**  
+*Yahoo · 14h前*  
 A number of stocks fell in the afternoon session after surging 10-year Treasury yields heightened borrowing cost concerns after the Federal Reserve’s September …
 
 - **[Exploring the top movers within the S&P500 index during today's session.](https://finnhub.io/api/news?id=4969bb37167e933cfd7558289b21f83b2434a2d4a02d1d83b878f78ff6fb8b48)**  
-*ChartMill · 5h前*  
+*ChartMill · 17h前*  
 Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Wednesday.
-
-- **[Wednesday's session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=683287b687d95e857a785c1de492dffd35b70d6ff8db3972eb817f9a09d627d2)**  
-*ChartMill · 8h前*  
-Stay updated with the movements of the S&P500 index in the middle of the day on Wednesday. Discover which stocks are leading as top gainers and losers in today'…
 
 ---
 
@@ -59,4 +59,4 @@ Stay updated with the movements of the S&P500 index in the middle of the day on 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:03 HKT*
