@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why NorthWestern Energy Group Stock Soared on Wednesday](https://finnhub.io/api/news?id=26d6d4a9f6cde5628bf68317ce549ce1ab0c47798bff251e2eccd575fd941494)**  
+- **[Balyasny Asset Management Deploys Gemini Models for Agentic Financial Research](https://finnhub.io/api/news?id=37dabf9826b2ea018f91091e42e49806d5ca7805a344aad4eca1697b6e0d65f4)**  
 *Yahoo · 1h前*  
-The company it's merging with announced a splashy new power supply deal with a tech industry titan.
+Balyasny Asset Management (BAM) and Google Cloud today announced a collaboration to deploy Google's Gemini models within the investment firm's proprietary artif…
 
-- **[What Happens To IBM Stock If Its Slowdown Lasts?](https://finnhub.io/api/news?id=63751dfd0ba45e251e05f6487254cc994a85f171e9b56f25541cb57bdb614c7e)**  
-*Yahoo · 2h前*  
-Over the past three months, IBM (IBM) stock lost 26%, while the S&P 500 gained 4.8%. During its July 22, 2026 earnings call, management acknowledged that second…
+- **[Meta Stock Falls as Florida Asks a Court to Switch Off Infinite Scroll for Teens](https://finnhub.io/api/news?id=10eb6f268e872f7c988f3322e92fd749b4e660bb72da67d44bb2fe0ebc481a1b)**  
+*Yahoo · 1h前*  
+Florida just rejected an $18 billion settlement that every other state accepted, and now its attorney general wants a judge to gut the very features that make I…
 
-- **[Banks Under Pressure from Spiking Yields Ahead of Q3 Results](https://finnhub.io/api/news?id=e32c3ce81ead13bd51895057067c403482588adce9d9d9671a0d42dba7ebd823)**  
-*Yahoo · 2h前*  
-Higher interest rates are generally seen as beneficial for the likes of JPMorgan and Wells Fargo, but spiking yields of the type we have been experiencing are n…
+- **[3 Unprofitable Stocks with Questionable Fundamentals](https://finnhub.io/api/news?id=d5ebb1c7f53fccf982889c7be8684e0fd2f2ce8ec51ef508f78730d480d09329)**  
+*Yahoo · 1h前*  
+Running at a loss can be a red flag. Many of these businesses face mounting challenges as competition increases and funding becomes harder to secure.
 
 ---
 
@@ -59,4 +59,4 @@ Higher interest rates are generally seen as beneficial for the likes of JPMorgan
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:03 HKT*
