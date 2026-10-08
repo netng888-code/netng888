@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-08 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical (ISRG) and JNJ Give Jim Cramer More Than Valuation to Consider](https://finnhub.io/api/news?id=ff2ed7a5beb73e35243ed3d30aed4bf2f06a4bcf4cb325bc124d29601709cd1e)**  
-*Yahoo · 3h前*  
-During the October 5 episode of Mad Money, a caller asked whether Intuitive Surgical, Inc. (NASDAQ:ISRG) was a broken stock and whether they should consider buy…
+- **[The Monopolistic Razor-and-Blade Engine I Can’t Stop Buying](https://finnhub.io/api/news?id=53bbe4aa9c11aaa912b85bc6ec7e10cf64b2e86085ceb4c77aa34351fd789f03)**  
+*Yahoo · 1h前*  
+A 26% price drop on a stock with a near-monopoly business model and 85% recurring revenue sounds like a warning, but one investor sees it as an invitation to ke…
 
-- **[Intuitive Surgical, Inc. (ISRG) Gains As Market Dips: What You Should Know](https://finnhub.io/api/news?id=24566e888d8c3fe4dd2ce63ee3e0c85c1100b3c7194e5bc2098cf4ee51d44531)**  
-*Yahoo · 4h前*  
-Intuitive Surgical, Inc. (ISRG) reached $414.52 at the closing of the latest trading day, reflecting a +2.41% change compared to its last close.
+- **[Intuitive Surgical (NASDAQ:ISRG) Combines Strong Growth With a Constructive Technical Setup](https://finnhub.io/api/news?id=df1cd6419db9df0bf5af0ef0817b082b8dddd428cba634f9389c9499cb3054f7)**  
+*ChartMill · 3h前*  
+Intuitive Surgical shows strong growth, top-tier profits, and a technical setup that could signal a breakout. See the full ISRG stock analysis.
 
-- **[Can ISRG's Single-Port Platform Become the Next Billion-Dollar Franchise?](https://finnhub.io/api/news?id=c7662009b9ace98cff37eb649fd5c094fe1d8023fc1a1ff779048499c9832520)**  
-*Yahoo · 7h前*  
-Intuitive Surgical SP platform is gaining momentum as procedures, utilization and placements rise, with expanding indications and global adoption fueling growth…
+- **[2 Profitable Stocks with Exciting Potential and 1 We Question](https://finnhub.io/api/news?id=259b9f14a2c4c0e2f9a8e774ad3a21f8bed4e08dfd5889115e5ef149f544e134)**  
+*Yahoo · 5h前*  
+Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn’t…
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical SP platform is gaining momentum as procedures, utilization an
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:04 HKT*
