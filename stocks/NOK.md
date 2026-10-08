@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Nokia Oyj (HLSE:NOKIA) Targets Sovereign Satellite Communications For Governments](https://finnhub.io/api/news?id=003e1e0f487529be5f0a6011b6cd0047752ab9885ca1e36a3fdb79e3f5435d28)**  
+*Yahoo · 17h前*  
+Nokia Oyj (HLSE:NOKIA) agreed a new partnership with Finnish satellite company ICEYE to build secure LEO broadband systems for governments. The collaboration ta…
+
 - **[Curious about the most active stocks on Wednesday?](https://finnhub.io/api/news?id=7c562d0c71cb2685a59623ecc4cad446aaae3f8b72f818513bae9f8b2ddc7518)**  
-*ChartMill · 7h前*  
+*ChartMill · 19h前*  
 Discover the most active stocks in Wednesday's session. Stay informed about the stocks that are generating the most trading volume!
 
-- **[Reported Oct. 5: 'Nokia CEO says data centers would be built ‘2x faster’ without supply constraints' - CNBC](https://finnhub.io/api/news?id=8ff246596b64c2e1a8bb19b943d3d3f89debfbed8bd8f57246acf83dafe93db6)**  
-*Benzinga · 1d前*  
-https://www.cnbc.com/2026/10/05/nokia-ai-data-center-buildout.html
-
-- **[European Equities Traded in the US as American Depositary Receipts Track Higher in Tuesday Trading](https://finnhub.io/api/news?id=8f2fbb079db2cd705b0e3090cf9423483803d9b40bc9ca2cdfd81492a7a854d9)**  
-*Yahoo · 1d前*  
-European equities traded in the US as American depositary receipts were tracking higher late Tuesday
+- **[Nokia’s CEO Issues Bullish Verdict on AI Infrastructure Growth as NOK Stock Doubles](https://finnhub.io/api/news?id=e75c4f5aff3560eca14597d3cf1e3df94d2b60e8ca3ed5906e61a917283552ff)**  
+*Yahoo · 19h前*  
+Nokia CEO Justin Hotard says AI demand is far from peaking as supply limits slow data center growth. Here's what his outlook means for NOK stock now.
 
 ---
 
@@ -59,4 +59,4 @@ European equities traded in the US as American depositary receipts were tracking
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:03 HKT*
