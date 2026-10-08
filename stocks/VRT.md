@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-08 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Anthropic and OpenAI Are Both Headed to IPO. These 3 Industrial Stocks Win Either Way.](https://finnhub.io/api/news?id=b86c7569c928d12a83f58f55cc57fef80d8a06ef5e3c2a83930e771dc561efb0)**  
+*Yahoo · 10h前*  
+AI's winner isn't settled, but the cooling, power, and grid companies behind every data center already have their payday locked in.
+
 - **[Why Vertiv (VRT) Stock Is Down Today](https://finnhub.io/api/news?id=7825ff60543d6cb5d248d4f242d8e9a867829131feb58e410a7718468ff905b5)**  
-*Yahoo · 2h前*  
+*Yahoo · 14h前*  
 Shares of data center products and services company Vertiv (NYSE:VRT) fell 3.5% in the afternoon session after downward momentum continued as GLJ Research initi…
 
 - **[How Much Downside Is Left In Vertiv Stock?](https://finnhub.io/api/news?id=e37fb6bb77fdbd34a3ed5dce467d70a45dbe987a8cc5b8dc5e311192337db007)**  
-*Yahoo · 3h前*  
+*Yahoo · 15h前*  
 Vertiv (VRT) shares have fallen 20% over the past three months, while the S&P 500 gained about 4%. The stock's 9.7% drop over the past month came without any ne…
-
-- **[Vertiv Holdings Co. (VRT) Declines More Than Market: Some Information for Investors](https://finnhub.io/api/news?id=5d5dac821a8164382378e889c4eccc67ed65015fbce73bc624a4a5eadfac86f7)**  
-*Yahoo · 4h前*  
-In the closing of the recent trading day, Vertiv Holdings Co. (VRT) stood at $245.85, denoting a -2.88% move from the preceding trading day.
 
 ---
 
@@ -59,4 +59,4 @@ In the closing of the recent trading day, Vertiv Holdings Co. (VRT) stood at $24
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:04 HKT*
