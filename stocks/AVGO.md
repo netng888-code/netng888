@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom, Oracle And SpaceX Tap Private Credit For AI Hardware: Report](https://finnhub.io/api/news?id=26cf7b9a80014b18d22440f9bf485fb8d74828f9595f1ce73c769f2a1edd120b)**  
+- **[Could This Chipmaker Really Overtake Intel in Revenue by 2031?](https://finnhub.io/api/news?id=4505e9b492cc5111c0a1647aa39e0b6ce0276415871608a1090ae9e1f1efda7b)**  
 *Yahoo · 1h前*  
-Broadcom has been working in recent weeks to arrange more than $50 billion in financing for a custom AI chip it is developing with OpenAI, The Wall Street Journ…
+Marvell's management just handed Wall Street a revenue target so far above analyst models that the stock surged double digits, yet one key risk could make the w…
 
-- **[Broadcom (AVGO) Is Seen As Resilient To 32 Gigawatt Power Shortfalls](https://finnhub.io/api/news?id=9ec579a99d207e301a74fc89486a4641555748dc2b5b22da8be42253ee02e1dd)**  
-*Yahoo · 1h前*  
-Morgan Stanley flags Broadcom (NasdaqGS:AVGO) as relatively resilient to U.S. data-center power shortages affecting AI buildouts. The bank frames a 32-gigawatt …
-
-- **[What Are AVGO Stock Investors Betting On?](https://finnhub.io/api/news?id=fe6c2b41f319d645bd53217a37d78a23c4388554fc9dfe3c9e1b3a8fd1ab80fb)**  
+- **[VCSEL Market to Reach US$1.96 Billion by 2032 at 8.8% CAGR, Driven by AI Data Centers and 3D Sensing in Smartphones](https://finnhub.io/api/news?id=689da80dbfb77aca568fd37d16eb3f45233ffac1c3f796a5e20d2d074e7264e0)**  
 *Yahoo · 2h前*  
-Broadcom (AVGO) stock currently trades at 39.5 times its earnings over the past twelve months, a multiple based on adjusted earnings with stock-based pay added …
+Up from US$1.18 billion in 2026, with near-infrared VCSELs leading and automotive growing fastest. Key players include Coherent, Lumentum, ams-OSRAM, TRUMPF and…
+
+- **[TSMC Sales Are a Big Win for the AI Trade. Why AMD and Other Chip Stocks Are Falling Anyway.](https://finnhub.io/api/news?id=f24dbd3892c738debee100a4b5498210da3db59d0310b2a039c5fae099f96e1e)**  
+*Yahoo · 3h前*  
+The artificial-intelligence trade just got a pretty strong signal that the good times can keep going.
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom (AVGO) stock currently trades at 39.5 times its earnings over the past 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:03 HKT*
