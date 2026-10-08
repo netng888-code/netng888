@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intuitive Machines vs. Redwire: Which Space Race Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=5b995b1cd52601bbb66315df509e0e7e88d2eac7793dfae9a27540a1a7dae6a9)**  
-*Yahoo · 1d前*  
-Intuitive Machines bets on lunar dominance with 78% revenue concentration, while Redwire spreads risk across defense and commercial sectors, but both burn cash …
+- **[Littelfuse, Astec, Columbus McKinnon, Redwire, and Resideo Shares Are Falling, What You Need To Know](https://finnhub.io/api/news?id=183d2fbe2303b76fce641e29bf2527085cf67fa4aea13314da6cdee753679fb7)**  
+*Yahoo · 15h前*  
+A number of stocks fell in the afternoon session after rising Treasury yields and climbing oil prices dampened investor sentiment ahead of the release of the Fe…
 
-- **[Generac, American Superconductor, Bloom Energy, Redwire, and Matrix Service Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=87f785abce8ecc4a7f1313ae8c48eda98826a569605e33e612dec83185a5e45a)**  
-*Yahoo · 1d前*  
-A number of stocks jumped in the morning session after surging capital spending for artificial intelligence infrastructure and defense bolstered demand across p…
+- **[Intuitive Machines Falls 7% Despite Scaling Up Satellite Manufacturing; Rocket Lab and Redwire Drop 5%](https://finnhub.io/api/news?id=025b1b937c93e369ab0a44f5485a9f2720bb90ac0c2b152ff6efd4bf1b68bf9a)**  
+*Yahoo · 19h前*  
+Space stocks are selling off hard as a group while the broader market barely budges, and the gap between the two raises a pointed question about what is spookin…
 
-- **[Federal Aviation Administration Proposes Streamlining, Modernizing Commercial Space Launch And Reentry Regulations](https://finnhub.io/api/news?id=317beb7050eee5d86884e5c84c56ebb68fbcc77ee266d9adc904948280467068)**  
-*Benzinga · 1d前*  
--Reuters
+- **[Should You Sell Your RKLB Stock Now, Before Neutron Flies?](https://finnhub.io/api/news?id=83e5d4d8c8ddf6e4fbcd650275697ff07b14e64b22bd7a2ad52f2620fad96ad0)**  
+*Yahoo · 21h前*  
+Investors holding Rocket Lab (RKLB) stock face a complicated decision. While sales grew 62% in the latest quarter from a year earlier, the company still loses m…
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks jumped in the morning session after surging capital spending 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:04 HKT*
