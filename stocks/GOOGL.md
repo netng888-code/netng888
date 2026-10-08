@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-07 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$347.68** |
-| 今日變動 | ▲ $1.21　(+0.35%) |
+| 現價 | **$350.50** |
+| 今日變動 | ▲ $2.82　(+0.81%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $2,053　(▲41.9%) |
+| 未實現盈虧 | ▲ $2,109　(▲43.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $337.40 | — |
-| Put Wall（支撐） | $340.00 | -2.2% |
-| Call Wall（阻力） | $350.00 | +0.7% |
+| Gamma Flip | $335.71 | — |
+| Put Wall（支撐） | $340.00 | -3.0% |
+| Call Wall（阻力） | $370.00 | +5.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Broadcom's AI Revenue Is Growing at 221%. Here's Why Custom Chips Could Be a Bigger Business Than GPUs.](https://finnhub.io/api/news?id=3732f997d8d62a4304c1b86c2799c8c63d6fc691a0c77fd4315bde256ab932ef)**  
+- **[Why NorthWestern Energy Group Stock Soared on Wednesday](https://finnhub.io/api/news?id=26d6d4a9f6cde5628bf68317ce549ce1ab0c47798bff251e2eccd575fd941494)**  
 *Yahoo · 1h前*  
-There's an overlooked reason why custom chips could keep taking share of AI data centers.
+The company it's merging with announced a splashy new power supply deal with a tech industry titan.
 
-- **[By 1873, The Railroad Boom Had Built Some Of The Largest Fortunes In American History. Then A Brutal Crash Bankrupted More Than 100 Railroads And Brought A 5-Year Depression. Now, Brookings Projects The AI Buildout Will Be An Even Larger Share Of The Economy Than The Railroad Mania](https://finnhub.io/api/news?id=1a5748c401b0b8e5a7428a96b120c5d52a27968de0f4bf9f7832b9a026dcb080)**  
-*Yahoo · 1h前*  
-Jay Cooke's bank failure in 1873 wiped out more than a hundred railroads and triggered a five-year depression, and a new Brookings paper argues the AI buildout …
+- **[What Happens To IBM Stock If Its Slowdown Lasts?](https://finnhub.io/api/news?id=63751dfd0ba45e251e05f6487254cc994a85f171e9b56f25541cb57bdb614c7e)**  
+*Yahoo · 2h前*  
+Over the past three months, IBM (IBM) stock lost 26%, while the S&P 500 gained 4.8%. During its July 22, 2026 earnings call, management acknowledged that second…
 
-- **[Broadcom Owns the Backstage; AMD Fights for the Spotlight](https://finnhub.io/api/news?id=94d0f0432aae19d4079aa013a9adf3e9b78001897d2b49977e3e8a3a5d173ec8)**  
-*Yahoo · 1h前*  
-Broadcom quietly powers the AI chips hyperscalers brand as their own, while AMD wages a public battle against Nvidia with full server racks and a valuation that…
+- **[Banks Under Pressure from Spiking Yields Ahead of Q3 Results](https://finnhub.io/api/news?id=e32c3ce81ead13bd51895057067c403482588adce9d9d9671a0d42dba7ebd823)**  
+*Yahoo · 2h前*  
+Higher interest rates are generally seen as beneficial for the likes of JPMorgan and Wells Fargo, but spiking yields of the type we have been experiencing are n…
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom quietly powers the AI chips hyperscalers brand as their own, while AMD 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-07 | 監控 | $347.68 | — | 自動更新 |
+| 2026-10-08 | 監控 | $350.50 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom quietly powers the AI chips hyperscalers brand as their own, while AMD 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
