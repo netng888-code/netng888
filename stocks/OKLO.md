@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[How AI Is Changing The Growth Outlook Across Industries](https://finnhub.io/api/news?id=ec5c565e602de35a54aa27e73ba29c0f2c070e7bd7fa722a090ce239c9bb01ed)**  
-*SeekingAlpha · 18h前*  
-AI is increasingly reshaping corporate growth plans far beyond the companies building AI models and accelerators. Read more here.
+- **[Energy Fuels Falls 9% as Uranium and Reactor Names Sell Off Together; Oklo and Centrus Energy Drop 5%](https://finnhub.io/api/news?id=9896797e6dd9872ba7e1b7b85628400860e834ac58cb3c8d72ef915e3ef88310)**  
+*Yahoo · 19h前*  
+Uranium miners and advanced reactor stocks are dropping together in a single coordinated selloff, and one name is falling nearly twice as hard as the rest of th…
 
-- **[How Deep Borehole Disposal Breakthrough At Oklo (OKLO) Has Changed Its Investment Story](https://finnhub.io/api/news?id=43630db769458cd93346e5736e017fcda0419a1b261f629c18db689b6e95ca51)**  
-*Yahoo · 1d前*  
-In September 2026, Deep Isolation Nuclear announced results from a three-year US Department of Energy-funded ARPA-E CURIE project, conducted with Argonne Nation…
+- **[OKLO Nearly Halved in 2026: 240% Returns to Materialize in 12 Months Says One Wall Street Pro](https://finnhub.io/api/news?id=2cfa446d122abf75fa2feae8e19c0b7308d16cb27e03a8f54ba60c461c13d07c)**  
+*Yahoo · 20h前*  
+Oklo has shed nearly half its value this year while one Wall Street analyst sees a path to more than triple the current price, and the gap between those two rea…
 
-- **[3 S&P 500 Utility Giants Soar Above Key Resistance. This Is Why.](https://finnhub.io/api/news?id=ae7c0f8667bebee97f7b1c727c973189e20858cae8677c4ed3b0d1d70582f828)**  
+- **[Google's Power Deal Fuels Fresh Interest in Nuclear Stocks](https://finnhub.io/api/news?id=6f329272c5a2c07f20dec6a0b23a65c8c05d1e8c19c34096824a499f6f351699)**  
 *Yahoo · 1d前*  
-A federal loan and a Google deal tied to nuclear plants fueled rally for Vistra, Constellation, NRG.
+Google's 20-year nuclear power deal sparked fresh interest in TLN, OKLO and SMR as investors weighed data-center demand and future nuclear growth.
 
 ---
 
@@ -59,4 +59,4 @@ A federal loan and a Google deal tied to nuclear plants fueled rally for Vistra,
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:04 HKT*
