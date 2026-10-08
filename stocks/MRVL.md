@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus](https://finnhub.io/api/news?id=50352b28347a16ef361adee73323be4f5be5b71231708705135708bc7bebdb49)**  
-*Yahoo · 2h前*  
-The 30-year bond yield hit its highest level since May 2002 at 5.732%.
+- **[Prediction: These 2 Stocks Will Be Worth More Than Palantir 5 Years From Now](https://finnhub.io/api/news?id=a38f39d2012130da6c61f1940a77a5c2b75cbd23b801af326403d561e42d1d18)**  
+*Yahoo · 1h前*  
+Under-the-radar AI suppliers Celestica and Marvell are posting explosive growth, and their valuations still have plenty of room to run.
 
-- **[What Are AVGO Stock Investors Betting On?](https://finnhub.io/api/news?id=fe6c2b41f319d645bd53217a37d78a23c4388554fc9dfe3c9e1b3a8fd1ab80fb)**  
-*Yahoo · 2h前*  
-Broadcom (AVGO) stock currently trades at 39.5 times its earnings over the past twelve months, a multiple based on adjusted earnings with stock-based pay added …
+- **[Could This Chipmaker Really Overtake Intel in Revenue by 2031?](https://finnhub.io/api/news?id=4505e9b492cc5111c0a1647aa39e0b6ce0276415871608a1090ae9e1f1efda7b)**  
+*Yahoo · 1h前*  
+Marvell's management just handed Wall Street a revenue target so far above analyst models that the stock surged double digits, yet one key risk could make the w…
 
-- **[Marvell Technology (MRVL) Lifts 2031 Revenue Goal To $70 Billion To $90 Billion](https://finnhub.io/api/news?id=f5daf7d5cbc2a20a6b7d3fce112ca065ed684c09c3e64d80fcfeebc38048ddf9)**  
+- **[Marvel Biosciences Reports MB-204 as Highly Effective at Treating Autism Behaviours in Shank3 Mouse Model](https://finnhub.io/api/news?id=9e7105d40e4b04a67a47987013722fee6bd6c2003ca7183396b19392c86ba70b)**  
 *Yahoo · 2h前*  
-Marvell Technology (NasdaqGS: MRVL) issued new long-term guidance targeting US$70b to US$90b in revenue for fiscal 2031. Management framed the outlook around ri…
+CALGARY, Alberta, Oct. 08, 2026 (GLOBE NEWSWIRE) -- Marvel Biosciences Corp. (TSXV: MRVL | OTCQB: MBCOF), and its wholly-owned subsidiary, Marvel Biotechnology …
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology (NasdaqGS: MRVL) issued new long-term guidance targeting US$7
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:03 HKT*
