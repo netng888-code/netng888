@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-08 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Sanmina, Rocket Lab, Kratos, Advanced Energy, and AECOM Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=04e1f57d9c8bf98ab390194e2227e9520ba482409930d1159ebe752f59601d78)**  
-*Yahoo · 4h前*  
-A number of stocks fell in the afternoon session after rising Treasury yields and climbing oil prices dampened investor sentiment ahead of the release of the Fe…
+- **[Space Stocks’ Double-Digit Rally Masks Narrow Leadership as Scale and Profits Win](https://finnhub.io/api/news?id=965ba9f45ed5ae5121d508a4a044152108718260943fa4519eeb5feeedb77790)**  
+*ChartMill · 0h前*  
+Space stocks rally, but gains are narrow: weighted returns rise while equal-weighted averages slip. Favor profitable, large-cap leaders amid selective market.
 
-- **[Rocket Lab (RKLB) Gets A Fresh Opening In NASA’s $30 Billion Moon Push](https://finnhub.io/api/news?id=ca329cede52dfa6f239a80ba58c0be4e424168e48a5af4ad888dde708c5a0425)**  
-*Yahoo · 6h前*  
-Rocket Lab (NasdaqGS:RKLB) has been cited by NASA as a potential launch provider for its Neutron rocket, alongside SpaceX's Falcon 9. NASA is preparing a bulk l…
+- **[Not SpaceX. Not Blue Origin. The Space Titan That Morgan Stanley Calls an Undervalued Launch Play.](https://finnhub.io/api/news?id=f8841e80acfdea76c82005f8ca0fd09f1520f1b1ca2a36504f307409300af5bf)**  
+*Yahoo · 1h前*  
+This company has the track record to truly compete with SpaceX for launch contracts.
 
-- **[Intuitive Machines Falls 7% Despite Scaling Up Satellite Manufacturing; Rocket Lab and Redwire Drop 5%](https://finnhub.io/api/news?id=025b1b937c93e369ab0a44f5485a9f2720bb90ac0c2b152ff6efd4bf1b68bf9a)**  
-*Yahoo · 7h前*  
-Space stocks are selling off hard as a group while the broader market barely budges, and the gap between the two raises a pointed question about what is spookin…
+- **[Jim Cramer Draws a Line Between Rocket Lab (RKLB)  and SpaceX (SPCX)](https://finnhub.io/api/news?id=418d396fee84cee71ea859d363a749070224483485d33ed43d0c05c2c1650038)**  
+*Yahoo · 9h前*  
+During the October 1 episode of Mad Money, Jim Cramer discussed Rocket Lab Corporation (NASDAQ:RKLB) while reviewing the Nasdaq 100’s third-quarter performance.…
 
 ---
 
@@ -59,4 +59,4 @@ Space stocks are selling off hard as a group while the broader market barely bud
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:04 HKT*
