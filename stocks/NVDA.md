@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why PJT Partners Stock Withered on Wednesday](https://finnhub.io/api/news?id=d25b297854deb3aea21b7476cb81d4f8cddacd6c49cf954bf29a8945bf9e2509)**  
+- **[Elon Musk Just Shared Bad News for Intel Shareholders](https://finnhub.io/api/news?id=3032e77d284f79f7d44fadd6304bed9a2460e1b1769da2bc87d5e5541aebf78d)**  
 *Yahoo · 1h前*  
-One analyst downgraded the stock to the equivalent of hold.
+Intel's biggest rival is encroaching on one of the company's biggest growth catalysts.
 
-- **[Broadcom, Oracle And SpaceX Tap Private Credit For AI Hardware: Report](https://finnhub.io/api/news?id=26cf7b9a80014b18d22440f9bf485fb8d74828f9595f1ce73c769f2a1edd120b)**  
+- **[TSMC Q3 2026 revenue hits record on AI chip demand](https://finnhub.io/api/news?id=b91b3ebb60f5ca75ac4753e5b548fae86ba4bcc82525b654bc69dc18aaf63f7d)**  
 *Yahoo · 1h前*  
-Broadcom has been working in recent weeks to arrange more than $50 billion in financing for a custom AI chip it is developing with OpenAI, The Wall Street Journ…
+September monthly sales climbed 54.6% from a year earlier, though dipped slightly from August's figures
 
-- **[Robot data startup Mecka AI nabs $60M from Sequoia](https://finnhub.io/api/news?id=3a923e593c1343feea60a9a638ef0b271076fb78c577cfb6d11c01e3ec0ba11f)**  
+- **[$10,000 in 10-Year Treasuries vs. $10,000 in SCHD -- Which Pays More Passive Income By 2036?](https://finnhub.io/api/news?id=32c0f46bd5c45cad3682fa5551eaf5e97d609c1b869782708c59505fe46a8324)**  
 *Yahoo · 1h前*  
-The startup pays people to record everyday tasks.
+The 10-year Treasury is at its highest level in nearly a quarter-century.
 
 ---
 
@@ -59,4 +59,4 @@ The startup pays people to record everyday tasks.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:03 HKT*
