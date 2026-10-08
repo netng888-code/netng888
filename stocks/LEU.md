@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-08 09:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Centrus Stock Popped on Tuesday](https://finnhub.io/api/news?id=2becfdcf61aedd9d4c16ce5861d68d0b78a662d3a9dafb5549e3c1fb19eae8d6)**  
-*Yahoo · 1d前*  
-The DOE is loaning Vistra $4.2 billion to produce more nuclear power. But what does that have to do with Centrus?
+- **[Centrus Energy (LEU) Lands HALEU Deal On A Narrative That Still Looks Undervalued](https://finnhub.io/api/news?id=0abc22d793405a1c92b3cf3ffd98b938401f646542bd4bb9b187af47126bbd20)**  
+*Yahoo · 7h前*  
+Centrus Energy’s HALEU deal and conference spotlight Centrus Energy (LEU) has moved into the spotlight after securing a multi-year High-Assay Low-Enriched Urani…
 
-- **[IsoEnergy Commences 2026 Winter Drilling Program At Larocque East Project, Targeting Hurricane Deposit Resource Expansion With 5,200 M Of Drilling](https://finnhub.io/api/news?id=745c0997985c477c94c33dec52f274b9869a363943f6e9c6d4feaa49fd979119)**  
-*Benzinga · 1d前*
+- **[Peabody Energy, Solaris Energy Infrastructure, ProFrac, Centrus Energy, and SLB Shares Are Falling, What You Need To Know](https://finnhub.io/api/news?id=41d01fe2514703cd6b706cb2e451da48cd0266146ade270f67ee8f04c35f6e75)**  
+*Yahoo · 17h前*  
+A number of stocks fell in the afternoon session after surging long-term Treasury yields reached multi-decade highs and energy market tightness prompted global …
 
-- **[Transcript: Centrus Energy Q2 2026 Earnings Conference Call](https://finnhub.io/api/news?id=2f430c5cfd196fe970140b00ac72df6ddd0a890124309ff0474bbca6312950ee)**  
-*Benzinga · 1d前*  
-Centrus Energy (AMEX:LEU) reported second-quarter financial results on Thursday. The transcript from the company&#39;s second-quarter earnings call has been pro…
+- **[Energy Fuels Falls 9% as Uranium and Reactor Names Sell Off Together; Oklo and Centrus Energy Drop 5%](https://finnhub.io/api/news?id=9896797e6dd9872ba7e1b7b85628400860e834ac58cb3c8d72ef915e3ef88310)**  
+*Yahoo · 19h前*  
+Uranium miners and advanced reactor stocks are dropping together in a single coordinated selloff, and one name is falling nearly twice as hard as the rest of th…
 
 ---
 
@@ -58,4 +59,4 @@ Centrus Energy (AMEX:LEU) reported second-quarter financial results on Thursday.
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:04 HKT*
