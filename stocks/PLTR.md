@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-07 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$192.07** |
-| 今日變動 | ▲ $2.67　(+1.41%) |
+| 現價 | **$194.12** |
+| 今日變動 | ▲ $2.05　(+1.07%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $777　(▲50.9%) |
+| 未實現盈虧 | ▲ $802　(▲52.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $173.64 | — |
-| Put Wall（支撐） | $190.00 | -1.1% |
-| Call Wall（阻力） | $200.00 | +4.1% |
+| Gamma Flip | $175.13 | — |
+| Put Wall（支撐） | $190.00 | -2.1% |
+| Call Wall（阻力） | $200.00 | +3.0% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir or Snowflake: If I Had to Pick 1 AI Data Stock and Never Look at It Again, This Is It](https://finnhub.io/api/news?id=a8527ba3cb3034290e67279872b86b09f025ab7e694cd346b9fe8520998ab4e2)**  
-*Yahoo · 1h前*  
-One of these AI data stocks is already printing profits and funding itself. The other is still making promises about a future that retirement investors may not …
+- **[Palantir Technologies Inc. (PLTR) Increases Despite Market Slip: Here's What You Need to Know](https://finnhub.io/api/news?id=89ea4657aa2b36d61455ce4b743d20d31f280aea5b52412f3919797a6b97c6ad)**  
+*Yahoo · 4h前*  
+Palantir Technologies Inc. (PLTR) closed at $194.12 in the latest trading session, marking a +1.07% move from the prior day.
 
-- **[Michael Burry Predicts Investors Have Less Than 270 Days To Prepare For Next Phase Of 2008 Style Crash](https://finnhub.io/api/news?id=36c4377f05f6b7ea25a46a2143e5669064eacbf8c7226fc2c2daccc9eb704ebc)**  
-*Yahoo · 2h前*  
-Michael Burry posted a two-sentence market call on X early Tuesday, and unlike most market warnings that lack a timeline, this one gives a duration. Burry’s ful…
+- **[Zeta Global Announces Palantir's Dr. Alex Karp and Zeta’s David A. Steinberg Will Discuss Data Sovereignty and Enterprise AI at Zeta Live 2026](https://finnhub.io/api/news?id=907703c1bb60f0013dcad954b710d1c380654daee7aff9e833ac424eb36ea225)**  
+*Yahoo · 4h前*  
+NEW YORK, October 07, 2026--Zeta Global Announces Palantir's Dr. Alex Karp and Zeta’s David A. Steinberg Will Discuss Data Sovereignty and Enterprise AI at Zeta…
 
-- **[Palantir Technologies (PLTR) Expands Sovereign AI Push As Valuation Looks Fully Priced](https://finnhub.io/api/news?id=4a4f451b99b5d9625e684ffde024b6ff136e107b045fdfc6fafb88730914f37d)**  
-*Yahoo · 10h前*  
-Palantir Technologies (PLTR) has pushed deeper into sovereign AI by pairing its Sovereign AI Operating System with Armada’s modular data centers to serve custom…
+- **[Dan Ives Thinks AI Buildout Still In Early Stages, With NVDA, MSFT, PLTR, AAPL And CRWD As Top AI Picks](https://finnhub.io/api/news?id=1bc7e28d7009bc9b9c4a2a723dd899b3dd853fe658552bbb86d0f15bad9a4ad1)**  
+*Yahoo · 6h前*  
+Veteran tech analyst Dan Ives predicts a $4 trillion artificial intelligence spending boom is just beginning, naming Nvidia, Microsoft, Palantir, Apple, and Cro…
 
 ---
 
@@ -48,7 +48,7 @@ Palantir Technologies (PLTR) has pushed deeper into sovereign AI by pairing its 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-07 | 監控 | $192.07 | — | 自動更新 |
+| 2026-10-08 | 監控 | $194.12 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies (PLTR) has pushed deeper into sovereign AI by pairing its 
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-07 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 09:05 HKT*
