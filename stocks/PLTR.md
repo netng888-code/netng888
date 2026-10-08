@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-08 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir Technologies Inc. (PLTR) Increases Despite Market Slip: Here's What You Need to Know](https://finnhub.io/api/news?id=89ea4657aa2b36d61455ce4b743d20d31f280aea5b52412f3919797a6b97c6ad)**  
-*Yahoo · 4h前*  
-Palantir Technologies Inc. (PLTR) closed at $194.12 in the latest trading session, marking a +1.07% move from the prior day.
+- **[These S&P500 stocks that are showing activity before the opening bell on Thursday.](https://finnhub.io/api/news?id=1ac25b3729a281f22c541b2922f619ac20a7dd4de053fb7af5ccb6d5a18d03b1)**  
+*ChartMill · 0h前*  
+Stay updated with the S&P500 stocks that are on the move in today's pre-market session.
 
-- **[Zeta Global Announces Palantir's Dr. Alex Karp and Zeta’s David A. Steinberg Will Discuss Data Sovereignty and Enterprise AI at Zeta Live 2026](https://finnhub.io/api/news?id=907703c1bb60f0013dcad954b710d1c380654daee7aff9e833ac424eb36ea225)**  
-*Yahoo · 4h前*  
-NEW YORK, October 07, 2026--Zeta Global Announces Palantir's Dr. Alex Karp and Zeta’s David A. Steinberg Will Discuss Data Sovereignty and Enterprise AI at Zeta…
+- **[Here Are Thursday’s Top Wall Street Analyst Research Calls: CAVA Group, Constellation Brands, Goldman Sachs Group, Hub Spot, Hut 8, Paladin Technologies, NXP Semiconductor, Spotify Technology, Tyler Technologies, and More](https://finnhub.io/api/news?id=5c55bf15f9ef789ef0c822e8e4fd0dc0516256d32a7a60461bab66f0ace0a3d5)**  
+*Yahoo · 1h前*  
+Pre-Market Stock Futures: Futures are tumbling this morning as yields surge higher and oil rises again. After two solid days to start the first full trading wee…
 
-- **[Dan Ives Thinks AI Buildout Still In Early Stages, With NVDA, MSFT, PLTR, AAPL And CRWD As Top AI Picks](https://finnhub.io/api/news?id=1bc7e28d7009bc9b9c4a2a723dd899b3dd853fe658552bbb86d0f15bad9a4ad1)**  
-*Yahoo · 6h前*  
-Veteran tech analyst Dan Ives predicts a $4 trillion artificial intelligence spending boom is just beginning, naming Nvidia, Microsoft, Palantir, Apple, and Cro…
+- **[Prediction: These 2 Stocks Will Be Worth More Than Palantir 5 Years From Now](https://finnhub.io/api/news?id=a38f39d2012130da6c61f1940a77a5c2b75cbd23b801af326403d561e42d1d18)**  
+*Yahoo · 1h前*  
+Under-the-radar AI suppliers Celestica and Marvell are posting explosive growth, and their valuations still have plenty of room to run.
 
 ---
 
@@ -59,4 +59,4 @@ Veteran tech analyst Dan Ives predicts a $4 trillion artificial intelligence spe
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-08 21:04 HKT*
