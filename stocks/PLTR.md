@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$194.12** |
-| 今日變動 | ▲ $2.05　(+1.07%) |
+| 現價 | **$198.78** |
+| 今日變動 | ▲ $4.66　(+2.40%) |
 | 持倉數量 | 12 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $802　(▲52.5%) |
+| 未實現盈虧 | ▲ $858　(▲56.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $175.13 | — |
-| Put Wall（支撐） | $190.00 | -2.1% |
-| Call Wall（阻力） | $200.00 | +3.0% |
+| Gamma Flip | $176.06 | — |
+| Put Wall（支撐） | $190.00 | -4.4% |
+| Call Wall（阻力） | $200.00 | +0.6% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[These S&P500 stocks that are showing activity before the opening bell on Thursday.](https://finnhub.io/api/news?id=1ac25b3729a281f22c541b2922f619ac20a7dd4de053fb7af5ccb6d5a18d03b1)**  
-*ChartMill · 0h前*  
-Stay updated with the S&P500 stocks that are on the move in today's pre-market session.
+- **[Zeta Global Unveils AthenaOS to Connect AI, Data and Marketing Workflows](https://finnhub.io/api/news?id=ac5351669398e21c0476bd5069637a3d2dc2a66b83b204d0ebb3e7873e70cc4c)**  
+*Yahoo · 2h前*  
+Zeta Global (NYSE:ZETA) unveiled AthenaOS, an AI-focused operating system intended to bring together customer data, intelligence, workflows and business applica…
 
-- **[Here Are Thursday’s Top Wall Street Analyst Research Calls: CAVA Group, Constellation Brands, Goldman Sachs Group, Hub Spot, Hut 8, Paladin Technologies, NXP Semiconductor, Spotify Technology, Tyler Technologies, and More](https://finnhub.io/api/news?id=5c55bf15f9ef789ef0c822e8e4fd0dc0516256d32a7a60461bab66f0ace0a3d5)**  
-*Yahoo · 1h前*  
-Pre-Market Stock Futures: Futures are tumbling this morning as yields surge higher and oil rises again. After two solid days to start the first full trading wee…
+- **[Could Palantir Foundry Be a Turning Point for Ocean Power Technologies (OPTT)?](https://finnhub.io/api/news?id=4d1aa0fab0181082cb25fe225ebfbb19c1ccd5c23391082b697ec07df20835d5)**  
+*Yahoo · 2h前*  
+Ocean Power Technologies’ (NYSEAMERICAN:OPTT) implementation of Palantir Foundry is intended to support its expanding deployment footprint across U.S. and inter…
 
-- **[Prediction: These 2 Stocks Will Be Worth More Than Palantir 5 Years From Now](https://finnhub.io/api/news?id=a38f39d2012130da6c61f1940a77a5c2b75cbd23b801af326403d561e42d1d18)**  
-*Yahoo · 1h前*  
-Under-the-radar AI suppliers Celestica and Marvell are posting explosive growth, and their valuations still have plenty of room to run.
+- **[Palantir Technologies, Doximity, Snowflake, and Teradata Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=29c86b547f0f7ad6ac488669abb883e65d3136f44a32e451de24eae58c70e3fb)**  
+*Yahoo · 2h前*  
+A number of stocks jumped in the afternoon session after a comprehensive industry report revealed that infrastructure service spending surged by more than doubl…
 
 ---
 
@@ -48,7 +48,7 @@ Under-the-radar AI suppliers Celestica and Marvell are posting explosive growth,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-08 | 監控 | $194.12 | — | 自動更新 |
+| 2026-10-09 | 監控 | $198.78 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Under-the-radar AI suppliers Celestica and Marvell are posting explosive growth,
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
