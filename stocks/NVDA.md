@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Prediction: This Will Happen to Intel Stock in 2027](https://finnhub.io/api/news?id=d86469372b65f857abcfdce35ad6dfa75cd8288054ea643ead328937d0c166c8)**  
+- **[Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead](https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e)**  
+*ChartMill · 0h前*  
+Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag.
+
+- **[Amazon Just Signed a 20-Year Nuclear Power Deal. Here's the 1 Industrial Stock That Benefits Most.](https://finnhub.io/api/news?id=2a15204dad56db73ee1cf94be32969b66abcc55a73f20ad604853074142af82f)**  
 *Yahoo · 1h前*  
-Intel stock has rallied as the market has re-evaluated its growing foundry capabilities. Now, it will have to deliver.
+This company-specific news is just a sampling of a much bigger, broader trend.
 
-- **[Why Buy-and-Hold Investors Are Switching From QQQ to This Lower-Fee Alternative](https://finnhub.io/api/news?id=c5b01c1a236768a41c8c725c60dce675c04463a93ee2d5a52465d93ff168fdec)**  
-*Yahoo · 2h前*  
-Two Invesco funds track the exact same index, come from the same sponsor, and hold the identical portfolio, yet one quietly costs more than the other every sing…
-
-- **[History Says Every S&P 500 Bull Market That Reached Its 4th Birthday Kept Going](https://finnhub.io/api/news?id=a0e17342368a11b6ec54a38e23a786b4ec7a7b33285b9f8a8e9186dfdc3b15f4)**  
-*Yahoo · 2h前*  
-The current run turns 4 on Monday. Should index fund buyers worry about its age?
+- **[Here's Why I Sold Cipher Digital and Bought More Iren](https://finnhub.io/api/news?id=3882c3cae7658ab12bac7cde120ee686e8485f1ae98d540420e3b97eef02a087)**  
+*Yahoo · 1h前*  
+I got out of Cipher Digital and doubled down on Iren. Here's why.
 
 ---
 
@@ -59,4 +59,4 @@ The current run turns 4 on Monday. Should index fund buyers worry about its age?
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
