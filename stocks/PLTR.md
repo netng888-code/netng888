@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $176.06 | — |
 | Put Wall（支撐） | $190.00 | -4.4% |
-| Call Wall（阻力） | $200.00 | +0.6% |
+| Call Wall（阻力） | $205.00 | +3.1% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Zeta Global Unveils AthenaOS to Connect AI, Data and Marketing Workflows](https://finnhub.io/api/news?id=ac5351669398e21c0476bd5069637a3d2dc2a66b83b204d0ebb3e7873e70cc4c)**  
-*Yahoo · 2h前*  
-Zeta Global (NYSE:ZETA) unveiled AthenaOS, an AI-focused operating system intended to bring together customer data, intelligence, workflows and business applica…
+- **[Two Reasons SpaceX Stock Is Jumping Higher Today](https://finnhub.io/api/news?id=789bae69d2bcc699f8a2948d339e90e31f20b9f345e0618131881778f03b52ad)**  
+*Yahoo · 1h前*  
+Barclays analyst Anthony Valentini launched coverage of SpaceX stock with a Buy-rating and $254 price target.
 
-- **[Could Palantir Foundry Be a Turning Point for Ocean Power Technologies (OPTT)?](https://finnhub.io/api/news?id=4d1aa0fab0181082cb25fe225ebfbb19c1ccd5c23391082b697ec07df20835d5)**  
+- **[Social Buzz: Wallstreetbets Stocks Mostly Higher Pre-Bell Friday; SpaceX, Nebius Group to Advance](https://finnhub.io/api/news?id=f98f52dae6b1c3f34445b85bc8a333038fc0ea7b0a07bc884f94ea9f4809a41f)**  
 *Yahoo · 2h前*  
-Ocean Power Technologies’ (NYSEAMERICAN:OPTT) implementation of Palantir Foundry is intended to support its expanding deployment footprint across U.S. and inter…
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mostly higher hours before F
 
-- **[Palantir Technologies, Doximity, Snowflake, and Teradata Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=29c86b547f0f7ad6ac488669abb883e65d3136f44a32e451de24eae58c70e3fb)**  
-*Yahoo · 2h前*  
-A number of stocks jumped in the afternoon session after a comprehensive industry report revealed that infrastructure service spending surged by more than doubl…
+- **[OpenAI's $20 Billion Revenue Gap Sends Chip Stocks Tumbling](https://finnhub.io/api/news?id=557033d381aadccfe976abc5e7e0ac7ac2483c91237e84c6093fb91093fef475)**  
+*ChartMill · 3h前*  
+Chip stocks slid after reports put OpenAI's annual revenue near $50 billion, well below earlier estimates. Debt-heavy AI names took the hardest hit, SpaceX move…
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks jumped in the afternoon session after a comprehensive industr
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:09 HKT*
