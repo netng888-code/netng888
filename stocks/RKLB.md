@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Fell Hard Over The Last 3 Months: Wall Street Pro Predicts It Doubles From Today](https://finnhub.io/api/news?id=b8aafc70af9e26966a9a809b89435cdd157870fbab0162ebebef30fbc0ecc0d2)**  
-*Yahoo · 8h前*  
-Rocket Lab sits more than 50% below its 52-week high after a brutal stretch of dilution and missed earnings, yet one Wall Street analyst just reiterated a targe…
+- **[Here Are Friday’s Top Wall Street Analyst Research Calls: American Express, Archer Aviation, Fastly, Jack Henry & Associates, Joby Aviation, Lockheed Martin, Palantir, Rocket Lab, SpaceX and More](https://finnhub.io/api/news?id=cb23929f585bd1ede4d3857386d5f7cd7cb2cfec3aa173112e5d0c728ff46463)**  
+*Yahoo · 1h前*  
+Pre-Market Stock Futures: Futures are trading higher this morning after another day of back-and-forth trading across Wall Street, driven by the same two element…
 
-- **[AST SpaceMobile Sinks 7% as Satellite Rival Clears Regulatory Hurdle; Rocket Lab Drops 4%, Planet Labs Falls 5%](https://finnhub.io/api/news?id=f036c6be9c02f5c0b58dad1a69fa77d65b646c1ea7e8290548d1e508d9376ddc)**  
-*Yahoo · 8h前*  
-A regulator just handed SpaceX permission to reach ordinary phones without touching a wireless carrier, and that single order is reshaping which space companies…
+- **[Stocktwits Space Race Weekly: SPCX Flies Solo In Green — RKLB, ASTS, RDW And PL Fall Back To Earth](https://finnhub.io/api/news?id=f9c45ce3ff7f67fd62a79ec2d081680333a9e525280a035d99e48366eefca262)**  
+*Yahoo · 6h前*  
+AST SpaceMobile completed a Telus network integration test and received U.S.-Japan recognition, but faced competitive pressure from SpaceX’s spectrum deal.
 
-- **[Space Stocks’ Double-Digit Rally Masks Narrow Leadership as Scale and Profits Win](https://finnhub.io/api/news?id=965ba9f45ed5ae5121d508a4a044152108718260943fa4519eeb5feeedb77790)**  
-*ChartMill · 12h前*  
-Space stocks rally, but gains are narrow: weighted returns rise while equal-weighted averages slip. Favor profitable, large-cap leaders amid selective market.
+- **[RKLB Rises Overnight: Cathie Wood’s ARK Puts Neutron ‘Close To The Falcon 9’ — Firms ‘In Dire Need’ Of Launches](https://finnhub.io/api/news?id=bb01a295ffc50bb7537a05a315f0b4b9920e1b95b811ed1ea1ab32c445bdf38e)**  
+*Yahoo · 7h前*  
+SpaceX’s Starlink and upcoming StarMind deployments could create an opening for Rocket Lab if Neutron delivers.
 
 ---
 
@@ -59,4 +59,4 @@ Space stocks rally, but gains are narrow: weighted returns rise while equal-weig
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:09 HKT*
