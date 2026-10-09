@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$350.50** |
-| 今日變動 | ▲ $2.82　(+0.81%) |
+| 現價 | **$348.29** |
+| 今日變動 | ▼ $2.21　(-0.63%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $2,109　(▲43.0%) |
+| 未實現盈虧 | ▲ $2,065　(▲42.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $335.71 | — |
-| Put Wall（支撐） | $340.00 | -3.0% |
-| Call Wall（阻力） | $370.00 | +5.6% |
+| Gamma Flip | $338.60 | — |
+| Put Wall（支撐） | $340.00 | -2.4% |
+| Call Wall（阻力） | $350.00 | +0.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Balyasny Asset Management Deploys Gemini Models for Agentic Financial Research](https://finnhub.io/api/news?id=37dabf9826b2ea018f91091e42e49806d5ca7805a344aad4eca1697b6e0d65f4)**  
-*Yahoo · 1h前*  
-Balyasny Asset Management (BAM) and Google Cloud today announced a collaboration to deploy Google's Gemini models within the investment firm's proprietary artif…
+- **[What Does Western Digital Offer That Apple Does Not?](https://finnhub.io/api/news?id=2a3621c8b55a07d1a8a7dcf01f1d30071115719690917cf3c476d8874772b6c4)**  
+*Yahoo · 2h前*  
+Apple (AAPL) and Western Digital (WDC) draw investors for their hardware, which remains in strong demand. However, the two companies sit on opposite ends of a p…
 
-- **[Meta Stock Falls as Florida Asks a Court to Switch Off Infinite Scroll for Teens](https://finnhub.io/api/news?id=10eb6f268e872f7c988f3322e92fd749b4e660bb72da67d44bb2fe0ebc481a1b)**  
-*Yahoo · 1h前*  
-Florida just rejected an $18 billion settlement that every other state accepted, and now its attorney general wants a judge to gut the very features that make I…
+- **[SpaceX Built an AI Business. Its Best Customers Are Grok’s Competitors.](https://finnhub.io/api/news?id=9e3eb8ea8b7935961e4b8867b2b5ce57d8ff1942b089ca813076715f8cea93af)**  
+*Yahoo · 4h前*  
+SpaceX is quietly renting computing power to the very companies trying to outcompete its own AI chatbot, and the landlord strategy is pulling in billions. The q…
 
-- **[3 Unprofitable Stocks with Questionable Fundamentals](https://finnhub.io/api/news?id=d5ebb1c7f53fccf982889c7be8684e0fd2f2ce8ec51ef508f78730d480d09329)**  
-*Yahoo · 1h前*  
-Running at a loss can be a red flag. Many of these businesses face mounting challenges as competition increases and funding becomes harder to secure.
+- **[Cathie Wood’s ARK Sells $23.7M of Robinhood, Buys $27.8M of CoreWeave](https://finnhub.io/api/news?id=cb6e500ddf735d3a05c107020368936e5d685501d0705ec340ec16a4da4e23e7)**  
+*Yahoo · 4h前*  
+ARK Invest, the firm led by Cathie Wood, sold shares of Robinhood Markets (NASDAQ: $HOOD) for a second straight day...
 
 ---
 
@@ -48,7 +48,7 @@ Running at a loss can be a red flag. Many of these businesses face mounting chal
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-08 | 監控 | $350.50 | — | 自動更新 |
+| 2026-10-09 | 監控 | $348.29 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Running at a loss can be a red flag. Many of these businesses face mounting chal
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
