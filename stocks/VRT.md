@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[3 Stocks Already Winning the OpenAI vs. Anthropic Race](https://finnhub.io/api/news?id=0748b40b7e1c2ea6db8fcb8441c5fc56fb89b66cfcc7cee8d2d55ea8b57b860c)**  
+*Yahoo · 12h前*  
+Vertiv, Quanta Services and GE Vernova report surging data center demand as OpenAI and Anthropic head for IPOs.
+
 - **[Jim Cramer On GE Vernova (GEV) & Vertiv (VRT): Two Stocks To Buy Due To The Jobs](https://finnhub.io/api/news?id=ceab0525b47d0122cc58f70d3da4522dfd967560149f96a7ea8a76a82c22dd4f)**  
-*Yahoo · 2h前*  
+*Yahoo · 14h前*  
 GE Vernova Inc. (NYSE:GEV) and Vertiv Holdings Co (NYSE:VRT) made it on Jim Cramer’s radar on October 2nd due to their exposure to the data center industry. Cra…
 
 - **[2 Cash-Producing Stocks to Target This Week and 1 Facing Headwinds](https://finnhub.io/api/news?id=75b3b38437cd721b3436e4257ba3df2a77d9ec991963c50620f59f9395fa3381)**  
-*Yahoo · 11h前*  
+*Yahoo · 23h前*  
 While strong cash flow is a key indicator of stability, it doesn’t always translate to superior returns. Some cash-heavy businesses struggle with inefficient sp…
-
-- **[Anthropic and OpenAI Are Both Headed to IPO. These 3 Industrial Stocks Win Either Way.](https://finnhub.io/api/news?id=b86c7569c928d12a83f58f55cc57fef80d8a06ef5e3c2a83930e771dc561efb0)**  
-*Yahoo · 22h前*  
-AI's winner isn't settled, but the cooling, power, and grid companies behind every data center already have their payday locked in.
 
 ---
 
@@ -59,4 +59,4 @@ AI's winner isn't settled, but the cooling, power, and grid companies behind eve
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:09 HKT*
