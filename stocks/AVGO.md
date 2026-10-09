@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Debt Spree Hammers Tech Debt as Traders Rush to Reprice Risk](https://finnhub.io/api/news?id=3c4da9fdc0f4750f25e5093ad67e4ea5d54b0e91f0c58fed1cec802c81270741)**  
-*Yahoo · 2h前*  
-The rush to finance AI is rattling investors in the more than $10 trillion US corporate market, sparking a repricing of risks around some of the biggest technol…
+- **[Stocks Rise Pre-Bell Following Tech Selloff](https://finnhub.io/api/news?id=36f6ea1ba332ad35e33d2bf0e32eba666f0f901384af73cdc6c7352876847e45)**  
+*Yahoo · 1h前*  
+The benchmark US stock measures pointed higher before the open Friday following a selloff in technol
 
-- **[Broadcom (AVGO) Stock Looks To Trade At A Discount To Fair Value](https://finnhub.io/api/news?id=296f008276284b040d37cf67ceaef520cc36d4810007b1f5d440658f5e33c8be)**  
-*Yahoo · 2h前*  
-Broadcom has ridden the AI buildout to huge attention, and after a very large multi year gain, the key issue now is whether the current share price can still be…
+- **[AI Chips Update - NVIDIA's $1B Boost for US Scientific Innovation](https://finnhub.io/api/news?id=f61ebf6a8d667b1f2d07578c9f1933cdffc3ddbc2ed39ed90b548f360b65dd87)**  
+*Yahoo · 1h前*  
+NVIDIA has announced a significant $1 billion commitment to bolster U.S. scientific research and development over the next five years, focusing on fields crucia…
 
-- **[Why Broadcom Stock Took a Dive Today](https://finnhub.io/api/news?id=8766d43fd2b027ad9ce98ede47f1d5067414f215e398bb10623cd4fa608c5e89)**  
-*Yahoo · 2h前*  
-The semiconductor and networking specialist lost some of its sheen thanks to a disclosure from another AI company.
+- **[Prediction: 2 Stocks That Will Be Worth More Than Broadcom 5 Years From Now](https://finnhub.io/api/news?id=1cc22d26a2247ef8109559ed48a9ca9818e8518e66f5946498512a600ff67edb)**  
+*Yahoo · 1h前*  
+Broadcom is worth $1.7 trillion today, but I think these two faster-growing AI stocks will catch up within five years.
 
 ---
 
@@ -59,4 +59,4 @@ The semiconductor and networking specialist lost some of its sheen thanks to a d
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
