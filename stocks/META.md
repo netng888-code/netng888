@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Market Chatter: Trump Disclosed 517 Securities Transactions in August, Including Up to $25 Million Meta Purchase](https://finnhub.io/api/news?id=be96a44d70a5b21546fabb4f64eed99f8ac7aa10086c4ecba67fb7c79768a69c)**  
-*Yahoo · 1h前*  
-President Donald Trump disclosed 517 securities transactions in August, including a purchase of up t
+- **[Inside Google's AI Slump: Can Gemini 4 Argon Fix it?](https://finnhub.io/api/news?id=aa283c09eb30f351fdb43e0b6ce91499baae724cd14a2654a87e6a32bedad3f2)**  
+*Yahoo · 2h前*  
+Despite having 3 billion users, its own chips, and a $4.1 trillion market cap, Google can't seem to ship an AI model that beats Claude or ChatGPT. Host Ejaaz Ah…
 
-- **[AI Startup Manus Raises $500 Million After China Nixed Meta’s $2 Billion Acquisition](https://finnhub.io/api/news?id=e1736bc5451fcbd2da15a662c034f6805e2a6458c64f8462b2b6833a84944bf6)**  
-*Yahoo · 3h前*  
-Manus built a self-driving AI assistant before the hype, sold itself to Meta, then watched Beijing unwind the deal. Its first fresh money since: more than $500 …
+- **[BMO is bullish on this Magnificent 7 stock after enterprise AI agent launch](https://finnhub.io/api/news?id=501ec9ac25fa55433456ea20db6386d2761a45d9271705ddfe650fd0e6a82278)**  
+*Yahoo · 2h前*  
+Investing.com -- BMO Capital Markets reiterated an Outperform rating and Top Pick status on a tech giant after it launched an enterprise AI agent, entering what…
 
-- **[Top Apple Insider: Meta’s New Headset Is “VR’s Last Stand”](https://finnhub.io/api/news?id=1f5afa668f8eae8eece2ccf3621be5f4d8f9d0d41f4eaba2e063f6bf9a98e6e0)**  
+- **[Nvidia Stock Gains but IPO Worries Are Rocking the AI Market](https://finnhub.io/api/news?id=1ff19ea9167a7ce1a5e88307dc3e35f4a198816081fcf8d100eb09c03a049cb6)**  
 *Yahoo · 3h前*  
-Key TakeawaysMeta unveiled its $1,299. 99 VR Glasses on Sept.
+The chip maker's shares were steadying Friday as the market digests news about the initial public offerings of OpenAI and Firmus.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysMeta unveiled its $1,299. 99 VR Glasses on Sept.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
