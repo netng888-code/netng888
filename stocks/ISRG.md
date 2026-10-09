@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead](https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e)**  
+*ChartMill · 0h前*  
+Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag.
+
 - **[Is Intuitive Surgical (ISRG) a Buy as Wall Street Analysts Look Optimistic?](https://finnhub.io/api/news?id=4033ed6ae8ed17606a1ceae187e57795d32b87189e2c0a317bee21a00a136507)**  
-*Yahoo · 12h前*  
+*Yahoo · 1d前*  
 Based on the average brokerage recommendation (ABR), Intuitive Surgical (ISRG) should be added to one's portfolio. Wall Street analysts' overly optimistic recom…
 
 - **[The Monopolistic Razor-and-Blade Engine I Can’t Stop Buying](https://finnhub.io/api/news?id=53bbe4aa9c11aaa912b85bc6ec7e10cf64b2e86085ceb4c77aa34351fd789f03)**  
-*Yahoo · 13h前*  
+*Yahoo · 1d前*  
 A 26% price drop on a stock with a near-monopoly business model and 85% recurring revenue sounds like a warning, but one investor sees it as an invitation to ke…
-
-- **[Intuitive Surgical (NASDAQ:ISRG) Combines Strong Growth With a Constructive Technical Setup](https://finnhub.io/api/news?id=df1cd6419db9df0bf5af0ef0817b082b8dddd428cba634f9389c9499cb3054f7)**  
-*ChartMill · 15h前*  
-Intuitive Surgical shows strong growth, top-tier profits, and a technical setup that could signal a breakout. See the full ISRG stock analysis.
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical shows strong growth, top-tier profits, and a technical setup 
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:09 HKT*
