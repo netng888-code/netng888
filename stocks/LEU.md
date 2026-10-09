@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,14 +31,14 @@
 ## 📰 最新新聞
 
 - **[Guggenheim Initiates Coverage of Centrus Energy with Buy Rating](https://finnhub.io/api/news?id=c84092be747b68e874c2137f542d5e307d9d42a8b3917df1c905c8d846f95735)**  
-*Fintel · 4h前*
+*Fintel · 16h前*
 
 - **[Guggenheim Initiates Coverage On Centrus Energy with Buy Rating, Announces Price Target of $167](https://finnhub.io/api/news?id=81c17b0842ce9ed0ff3a1742e1e1d252e31b85d1a3b76ac2e013110c1ef3ecfe)**  
-*Benzinga · 15h前*  
+*Benzinga · 1d前*  
 Guggenheim  analyst Joseph Osha   initiates coverage on Centrus Energy (NYSE:LEU) with a Buy rating and announces Price Target of $167.
 
 - **[Centrus Energy (LEU) Lands HALEU Deal On A Narrative That Still Looks Undervalued](https://finnhub.io/api/news?id=0abc22d793405a1c92b3cf3ffd98b938401f646542bd4bb9b187af47126bbd20)**  
-*Yahoo · 19h前*  
+*Yahoo · 1d前*  
 Centrus Energy’s HALEU deal and conference spotlight Centrus Energy (LEU) has moved into the spotlight after securing a multi-year High-Assay Low-Enriched Urani…
 
 ---
@@ -58,4 +58,4 @@ Centrus Energy’s HALEU deal and conference spotlight Centrus Energy (LEU) has 
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
