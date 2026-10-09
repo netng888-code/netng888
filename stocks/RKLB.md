@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-08 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$71.92** |
-| 今日變動 | ▼ $3.14　(-4.18%) |
+| 現價 | **$68.40** |
+| 今日變動 | ▼ $3.52　(-4.89%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $41　(▼5.4%) |
+| 未實現盈虧 | ▼ $76　(▼10.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $70.29 | — |
-| Put Wall（支撐） | $70.00 | -2.7% |
-| Call Wall（阻力） | $80.00 | +11.2% |
+| Gamma Flip | $70.81 | — |
+| Put Wall（支撐） | $65.00 | -5.0% |
+| Call Wall（阻力） | $70.00 | +2.3% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Rocket Lab Fell Hard Over The Last 3 Months: Wall Street Pro Predicts It Doubles From Today](https://finnhub.io/api/news?id=b8aafc70af9e26966a9a809b89435cdd157870fbab0162ebebef30fbc0ecc0d2)**  
+*Yahoo · 8h前*  
+Rocket Lab sits more than 50% below its 52-week high after a brutal stretch of dilution and missed earnings, yet one Wall Street analyst just reiterated a targe…
+
+- **[AST SpaceMobile Sinks 7% as Satellite Rival Clears Regulatory Hurdle; Rocket Lab Drops 4%, Planet Labs Falls 5%](https://finnhub.io/api/news?id=f036c6be9c02f5c0b58dad1a69fa77d65b646c1ea7e8290548d1e508d9376ddc)**  
+*Yahoo · 8h前*  
+A regulator just handed SpaceX permission to reach ordinary phones without touching a wireless carrier, and that single order is reshaping which space companies…
+
 - **[Space Stocks’ Double-Digit Rally Masks Narrow Leadership as Scale and Profits Win](https://finnhub.io/api/news?id=965ba9f45ed5ae5121d508a4a044152108718260943fa4519eeb5feeedb77790)**  
-*ChartMill · 0h前*  
+*ChartMill · 12h前*  
 Space stocks rally, but gains are narrow: weighted returns rise while equal-weighted averages slip. Favor profitable, large-cap leaders amid selective market.
-
-- **[Not SpaceX. Not Blue Origin. The Space Titan That Morgan Stanley Calls an Undervalued Launch Play.](https://finnhub.io/api/news?id=f8841e80acfdea76c82005f8ca0fd09f1520f1b1ca2a36504f307409300af5bf)**  
-*Yahoo · 1h前*  
-This company has the track record to truly compete with SpaceX for launch contracts.
-
-- **[Jim Cramer Draws a Line Between Rocket Lab (RKLB)  and SpaceX (SPCX)](https://finnhub.io/api/news?id=418d396fee84cee71ea859d363a749070224483485d33ed43d0c05c2c1650038)**  
-*Yahoo · 9h前*  
-During the October 1 episode of Mad Money, Jim Cramer discussed Rocket Lab Corporation (NASDAQ:RKLB) while reviewing the Nasdaq 100’s third-quarter performance.…
 
 ---
 
@@ -48,7 +48,7 @@ During the October 1 episode of Mad Money, Jim Cramer discussed Rocket Lab Corpo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-08 | 監控 | $71.92 | — | 自動更新 |
+| 2026-10-09 | 監控 | $68.40 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ During the October 1 episode of Mad Money, Jim Cramer discussed Rocket Lab Corpo
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
