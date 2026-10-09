@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Littelfuse, Astec, Columbus McKinnon, Redwire, and Resideo Shares Are Falling, What You Need To Know](https://finnhub.io/api/news?id=183d2fbe2303b76fce641e29bf2527085cf67fa4aea13314da6cdee753679fb7)**  
-*Yahoo · 1d前*  
-A number of stocks fell in the afternoon session after rising Treasury yields and climbing oil prices dampened investor sentiment ahead of the release of the Fe…
+- **[Stocktwits Space Race Weekly: SPCX Flies Solo In Green — RKLB, ASTS, RDW And PL Fall Back To Earth](https://finnhub.io/api/news?id=f9c45ce3ff7f67fd62a79ec2d081680333a9e525280a035d99e48366eefca262)**  
+*Yahoo · 6h前*  
+AST SpaceMobile completed a Telus network integration test and received U.S.-Japan recognition, but faced competitive pressure from SpaceX’s spectrum deal.
 
-- **[Intuitive Machines Falls 7% Despite Scaling Up Satellite Manufacturing; Rocket Lab and Redwire Drop 5%](https://finnhub.io/api/news?id=025b1b937c93e369ab0a44f5485a9f2720bb90ac0c2b152ff6efd4bf1b68bf9a)**  
-*Yahoo · 1d前*  
-Space stocks are selling off hard as a group while the broader market barely budges, and the gap between the two raises a pointed question about what is spookin…
+- **[Redwire (RDW) Stock May Be Below Fair Value After Solar Array Contract](https://finnhub.io/api/news?id=cf4eb8b0f1777d96a14d48b06a5fbf32d226ee9d324a840479841c4d291e0558)**  
+*Yahoo · 17h前*  
+Redwire has delivered a very large 3 year share price gain, which naturally raises a sharper question for you as an investor. Is the current US$10.24 price stil…
 
-- **[Should You Sell Your RKLB Stock Now, Before Neutron Flies?](https://finnhub.io/api/news?id=83e5d4d8c8ddf6e4fbcd650275697ff07b14e64b22bd7a2ad52f2620fad96ad0)**  
-*Yahoo · 1d前*  
-Investors holding Rocket Lab (RKLB) stock face a complicated decision. While sales grew 62% in the latest quarter from a year earlier, the company still loses m…
+- **[Why Is Redwire (RDW) Supplying Solar Arrays For Another Commercial Station Module?](https://finnhub.io/api/news?id=98c918c3e4bccbb45a24112742d8f9ce64309bb422ab105e436f8042cd5df7e4)**  
+*Yahoo · 18h前*  
+Redwire (NYSE:RDW) won a new contract to supply advanced solar arrays for Axiom Space’s second commercial space station module. The agreement extends Redwire’s …
 
 ---
 
@@ -59,4 +59,4 @@ Investors holding Rocket Lab (RKLB) stock face a complicated decision. While sal
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
