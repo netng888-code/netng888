@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $338.60 | — |
 | Put Wall（支撐） | $340.00 | -2.4% |
-| Call Wall（阻力） | $350.00 | +0.5% |
+| Call Wall（阻力） | $355.00 | +1.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What Does Western Digital Offer That Apple Does Not?](https://finnhub.io/api/news?id=2a3621c8b55a07d1a8a7dcf01f1d30071115719690917cf3c476d8874772b6c4)**  
-*Yahoo · 2h前*  
-Apple (AAPL) and Western Digital (WDC) draw investors for their hardware, which remains in strong demand. However, the two companies sit on opposite ends of a p…
+- **[Amazon Just Signed a 20-Year Nuclear Power Deal. Here's the 1 Industrial Stock That Benefits Most.](https://finnhub.io/api/news?id=2a15204dad56db73ee1cf94be32969b66abcc55a73f20ad604853074142af82f)**  
+*Yahoo · 1h前*  
+This company-specific news is just a sampling of a much bigger, broader trend.
 
-- **[SpaceX Built an AI Business. Its Best Customers Are Grok’s Competitors.](https://finnhub.io/api/news?id=9e3eb8ea8b7935961e4b8867b2b5ce57d8ff1942b089ca813076715f8cea93af)**  
-*Yahoo · 4h前*  
-SpaceX is quietly renting computing power to the very companies trying to outcompete its own AI chatbot, and the landlord strategy is pulling in billions. The q…
+- **[Update: Google's $10 Million Purchase of Spirit Airlines Data Raises Concerns From US Lawmakers](https://finnhub.io/api/news?id=d81af34163f1b020766f78f020fea363690fbbc041a14fd9c3f3c19ca0165e12)**  
+*Yahoo · 1h前*  
+(Updates with Google's response in the last paragraph) Alphabet-owned (GOOG, GOOGL) Google's $10
 
-- **[Cathie Wood’s ARK Sells $23.7M of Robinhood, Buys $27.8M of CoreWeave](https://finnhub.io/api/news?id=cb6e500ddf735d3a05c107020368936e5d685501d0705ec340ec16a4da4e23e7)**  
-*Yahoo · 4h前*  
-ARK Invest, the firm led by Cathie Wood, sold shares of Robinhood Markets (NASDAQ: $HOOD) for a second straight day...
+- **[OpenAI Asia-Pacific policy head Sanghyun Lee leaving after 6 months](https://finnhub.io/api/news?id=ea5fca6d21bcfecc5e1b945bf44e2ba6a3e9198bf4b5ce93eaa7cb830b0bdfa0)**  
+*Yahoo · 1h前*  
+Sanghyun Lee joined OpenAI in April after six years at Google and oversaw government relations across Australia, Japan, Korea, India, and Southeast Asia
 
 ---
 
@@ -59,4 +59,4 @@ ARK Invest, the firm led by Cathie Wood, sold shares of Robinhood Markets (NASDA
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
