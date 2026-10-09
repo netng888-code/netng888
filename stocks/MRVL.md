@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Bank of America tweaks Marvell stock target after key Analyst Day](https://finnhub.io/api/news?id=63d8204d1fa255be0d7403863cc1712acc6b04a0eee8c8036198dd6fe8282d90)**  
-*Yahoo · 3h前*  
-One major shift reshaped BofA’s outlook.
-
-- **[Why Marvell Stock Rocketed Higher Last Month](https://finnhub.io/api/news?id=344754b23ac30189fb788930cbe59d469f96ee5f6a9a46276a5ce38af9f19f85)**  
+- **[Stocktwits Wall Street Wrap: Analysts Turn Bullish On Palantir, Marvell And Cava As Nike Faces Downgrade](https://finnhub.io/api/news?id=25491a2cc68a9b4d38be43d53e0a2e92e3bfe9746d919c2e4f58f2a2fa505e5b)**  
 *Yahoo · 4h前*  
-A booming semiconductor industry, positive CEO comments, and new tech pushed Marvell higher.
+Analysts this week highlighted growth opportunities in artificial intelligence, concerns about consumer spending, and challenges facing established brands.
 
-- **[Here's What a $10,000 Investment in Marvell Stock Could Be Worth in 2031 (Hint: It's a Lot)](https://finnhub.io/api/news?id=c009f9fe1902e3d1b398f44a43aae35bfaca0db72f2df6dea2fe1179c06c1c0a)**  
-*Yahoo · 5h前*  
-As artificial intelligence (AI) infrastructure spending accelerates, Marvell is quietly positioned for lucrative gains.
+- **[What is Marvell’s (MRVL) Economic Moat, and is it Widening or Narrowing?](https://finnhub.io/api/news?id=25732d03be24cbbc85270415d167c41c82791c3f8cc7ef078ade7187df201549)**  
+*Yahoo · 9h前*  
+Marvell Technology, Inc. (NASDAQ:MRVL) traded at around $285 on October 7, down 0.81% on the day, though still 216.51% higher over twelve months. The company ra…
+
+- **[Intel Stock Fell 5% in a Day as Chip Stocks Sold Off Ahead of Its October 29 Report. Here’s Where the Stock Could Go](https://finnhub.io/api/news?id=cf2131b05aad99607beea059cfef8cea50ddb595b0d910e17741e65b06cfed9b)**  
+*Yahoo · 10h前*  
+Key Stats for Intel StockCurrent Price: $107. 08Target Price (Mid): ~$437Street Target: ~$118Potential Total Return: ~308%Annualized IRR: ~39% / yearWhat Happen…
 
 ---
 
@@ -59,4 +59,4 @@ As artificial intelligence (AI) infrastructure spending accelerates, Marvell is 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
