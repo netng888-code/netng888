@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $411.66 | — |
-| Put Wall（支撐） | $390.00 | -2.2% |
-| Call Wall（阻力） | $400.00 | +0.3% |
+| Put Wall（支撐） | $400.00 | --0.3% |
+| Call Wall（阻力） | $410.00 | +2.8% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead](https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e)**  
+*ChartMill · 0h前*  
+Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag.
+
 - **[What Does Teradyne (TER) Mean For AI Infrastructure Manufacturing Now?](https://finnhub.io/api/news?id=88a6ba25c8898306cc40136ae5ad8cc48c3184580fc972147985138a6875cc74)**  
-*Yahoo · 7h前*  
+*Yahoo · 19h前*  
 Teradyne (NasdaqGS:TER) announced a collaboration and investment in Bright Machines to support AI infrastructure manufacturing using software defined production…
 
 - **[Citi names 5 top chip picks ahead of Q3 earnings](https://finnhub.io/api/news?id=af698d789443b7d7d798666bf1c69af3f167f53b1d92d329f85a3297de1d5da2)**  
-*Yahoo · 14h前*  
-Investing.com -- Citi named AMD, Texas Instruments, Lam Research, Teradyne and Synopsys as its top buy-rated semiconductor picks ahead of third-quarter earnings…
-
-- **[IPG Photonics, Nova, Teradyne, NXP Semiconductors, and Microchip Technology Stocks Trade Down, What You Need To Know](https://finnhub.io/api/news?id=66eba06d43edb6824763f8aebb19f3791b1dfc8656f991969b5d35267dbf2be2)**  
 *Yahoo · 1d前*  
-A number of stocks fell in the afternoon session after surging 10-year Treasury yields heightened borrowing cost concerns after the Federal Reserve’s September …
+Investing.com -- Citi named AMD, Texas Instruments, Lam Research, Teradyne and Synopsys as its top buy-rated semiconductor picks ahead of third-quarter earnings…
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks fell in the afternoon session after surging 10-year Treasury 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
