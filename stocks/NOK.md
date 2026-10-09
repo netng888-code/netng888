@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[European Equities Traded in US as ADRs Fall in Thursday Trading](https://finnhub.io/api/news?id=57f134707fd28040a0f733437d7cfd2456287886100469474e1977efc7df5cc8)**  
+*Yahoo · 22h前*  
+European equities traded in the US as American depositary receipts fell late Thursday morning with t
+
+- **[Arelion partners with Nokia to demonstrate expanded optical spectrum and backbone capacity](https://finnhub.io/api/news?id=488e42ce100e2b1616962100f709c10ce8b12f67401fc115630127530eaabbfe)**  
+*Yahoo · 1d前*  
+Arelion today announced it has completed a live network field trial on its 500-kilometer route from Amsterdam to London using Nokia's 1830 Global Express (GX) S…
+
 - **[Nokia Oyj (HLSE:NOKIA) Targets Sovereign Satellite Communications For Governments](https://finnhub.io/api/news?id=003e1e0f487529be5f0a6011b6cd0047752ab9885ca1e36a3fdb79e3f5435d28)**  
 *Yahoo · 1d前*  
 Nokia Oyj (HLSE:NOKIA) agreed a new partnership with Finnish satellite company ICEYE to build secure LEO broadband systems for governments. The collaboration ta…
-
-- **[Curious about the most active stocks on Wednesday?](https://finnhub.io/api/news?id=7c562d0c71cb2685a59623ecc4cad446aaae3f8b72f818513bae9f8b2ddc7518)**  
-*ChartMill · 1d前*  
-Discover the most active stocks in Wednesday's session. Stay informed about the stocks that are generating the most trading volume!
-
-- **[Nokia’s CEO Issues Bullish Verdict on AI Infrastructure Growth as NOK Stock Doubles](https://finnhub.io/api/news?id=e75c4f5aff3560eca14597d3cf1e3df94d2b60e8ca3ed5906e61a917283552ff)**  
-*Yahoo · 1d前*  
-Nokia CEO Justin Hotard says AI demand is far from peaking as supply limits slow data center growth. Here's what his outlook means for NOK stock now.
 
 ---
 
@@ -59,4 +59,4 @@ Nokia CEO Justin Hotard says AI demand is far from peaking as supply limits slow
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
