@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-08 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-09 09:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$721.31** |
-| 今日變動 | ▼ $17.57　(-2.38%) |
+| 現價 | **$720.89** |
+| 今日變動 | ▼ $0.42　(-0.06%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $345　(▲19.0%) |
+| 未實現盈虧 | ▲ $344　(▲18.9%) |
 
 ---
 
@@ -20,8 +20,8 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $613.52 | — |
-| Put Wall（支撐） | $700.00 | -3.0% |
+| Gamma Flip | $617.53 | — |
+| Put Wall（支撐） | $700.00 | -2.9% |
 | Call Wall（阻力） | $750.00 | +4.0% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Stock Falls as Florida Asks a Court to Switch Off Infinite Scroll for Teens](https://finnhub.io/api/news?id=10eb6f268e872f7c988f3322e92fd749b4e660bb72da67d44bb2fe0ebc481a1b)**  
+- **[Market Chatter: Trump Disclosed 517 Securities Transactions in August, Including Up to $25 Million Meta Purchase](https://finnhub.io/api/news?id=be96a44d70a5b21546fabb4f64eed99f8ac7aa10086c4ecba67fb7c79768a69c)**  
 *Yahoo · 1h前*  
-Florida just rejected an $18 billion settlement that every other state accepted, and now its attorney general wants a judge to gut the very features that make I…
+President Donald Trump disclosed 517 securities transactions in August, including a purchase of up t
 
-- **[Meta Muse, Grok Bot, OpenAI Dots: Which AI agent should you use?](https://finnhub.io/api/news?id=06412d3374a787cf60d70eeb6e802fb9a7906097e274134766344a20258f18f2)**  
-*Yahoo · 2h前*  
-In The Loop host Ejaaz Ahamadeen ranks the AI agents everyone's talking about by what they cost, what they do, and which one is worth your time.
-
-- **[Meta's Muse Reached More Than Half of Customers Cequence Studied in Two Weeks Without Identifying Itself as an AI Agent](https://finnhub.io/api/news?id=b83854a900a76f6d55b04a8643d274766f45162d7862d162e7bd45f460abf5c7)**  
+- **[AI Startup Manus Raises $500 Million After China Nixed Meta’s $2 Billion Acquisition](https://finnhub.io/api/news?id=e1736bc5451fcbd2da15a662c034f6805e2a6458c64f8462b2b6833a84944bf6)**  
 *Yahoo · 3h前*  
-Within two weeks of Meta's Sep. 8 launch of its Muse personal AI agent, Cequence Security found traffic matching Muse at more than half of the customers it stud…
+Manus built a self-driving AI assistant before the hype, sold itself to Meta, then watched Beijing unwind the deal. Its first fresh money since: more than $500 …
+
+- **[Top Apple Insider: Meta’s New Headset Is “VR’s Last Stand”](https://finnhub.io/api/news?id=1f5afa668f8eae8eece2ccf3621be5f4d8f9d0d41f4eaba2e063f6bf9a98e6e0)**  
+*Yahoo · 3h前*  
+Key TakeawaysMeta unveiled its $1,299. 99 VR Glasses on Sept.
 
 ---
 
@@ -48,7 +48,7 @@ Within two weeks of Meta's Sep. 8 launch of its Muse personal AI agent, Cequence
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-08 | 監控 | $721.31 | — | 自動更新 |
+| 2026-10-09 | 監控 | $720.89 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Within two weeks of Meta's Sep. 8 launch of its Muse personal AI agent, Cequence
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-08 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-09 09:05 HKT*
