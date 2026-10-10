@@ -557,6 +557,21 @@ v1.24（2026-10-02）：ALL_HOLDINGS同步最新Futu CSV（holdings_US_20261001.
       /report「18隻」字樣同步改17隻。其餘（GEX Wall／警報／COT／AI分析）邏輯完全冇動。
       五檔同步（CSV／index.html／gex_chart_v5_terminal.html／github_gex_updater.py／telegram_bot.py）
       數字而家全部對齊。
+v1.25（2026-10-07）：兩項改動——
+      (1) ALL_HOLDINGS：LYTE沽出20股（10@$26.2＋10@$26.5），30→10股，成本$25.00不變，已實現+$27，
+          五檔同步（CSV／index.html／gex_chart／github_gex_updater.py）。
+      (2)【bugfix，RR警報截圖發現】check_gex_proximity()加sanity guard：RR現價$1.67，GEX顯示
+          Call Wall $2.00但Put Wall $5.00（Put>Call，且Put Wall遠高於現價），觸發「已跌穿Put Wall
+          199.4%」呢類無意義警報。根源：bridge get_gex()嘅Call/Put Wall係全部strike入面net GEX
+          最大/最小值，冇限制要靠近現價；細價低流動性股票（RR/SERV等）嘅深度價內strike（例如$5 Put）
+          OI／gamma數據可以主導，令Put Wall跑到現價之上。修正：(a) put_wall>call_wall一律視為
+          GEX數據失真，唔發警報；(b) 任何wall偏離現價超過GEX_MAX_WALL_DEVIATION_PCT（40%）都當
+          失真，唔做逼近/突破判斷。bridge端根治（限制wall揀選範圍）見對話建議，未改bridge。
+v1.26（2026-10-10）：ALL_HOLDINGS同步三項交易——(1) INTC買入10股@$107.00（新增持倉）；
+      (2) PLTR沽出6股@$203.00（12→6股，成本不變$127.304，已實現+$454.18）；
+      (3) LYTE沽出10股@$26.00，成本$25.00，已全數沽清（已實現+$10，累計+$37），移除。
+      VALID_SYMS自動跟隨（/alert LYTE將唔再接受，/gex LYTE仍然可查）。持倉維持17隻。
+      五檔同步（CSV／index.html／gex_chart v5.38／futu_bridge v3.20／github_gex_updater）。
 ═══════════════════════════════════════════════════
 架構：
   Telegram指令
@@ -613,7 +628,7 @@ v1.24（2026-10-02）：ALL_HOLDINGS同步最新Futu CSV（holdings_US_20261001.
 ═══════════════════════════════════════════════════
 """
 
-BOT_VERSION = "1.24"
+BOT_VERSION = "1.26"
 
 import re
 import json
@@ -694,9 +709,9 @@ ALL_HOLDINGS = [
     {"sym": "LEU",   "name": "Centrus Energy",  "qty": 8,   "cost": 197.50 },
     {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 40,  "cost": 30.05875},
     {"sym": "RKLB",  "name": "Rocket Lab",        "qty": 10,  "cost": 76.00  },
-    {"sym": "PLTR",  "name": "Palantir",          "qty": 12,  "cost": 127.304},
+    {"sym": "PLTR",  "name": "Palantir",          "qty": 6,   "cost": 127.304},
     {"sym": "ISRG",  "name": "直覺外科公司",     "qty": 2,   "cost": 453.10 },
-    {"sym": "LYTE",  "name": "Roundhill Photonics & Optics ETF", "qty": 30, "cost": 25.00 },
+    {"sym": "INTC",  "name": "英特爾 Intel",        "qty": 10,  "cost": 107.00 },
     {"sym": "VRT",   "name": "Vertiv Holdings",   "qty": 2,   "cost": 303.76 },
     {"sym": "RR",    "name": "Richtech Robotics", "qty": 300, "cost": 2.445  },
     {"sym": "SERV",  "name": "Serve Robotics",    "qty": 30,  "cost": 11.743 },
@@ -2357,6 +2372,7 @@ async def cmd_alert(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ═══════════════════════════════════════════════════
 GEX_ALERT_THRESHOLD_PCT = 3.0      # 距離Wall < 3% 觸發
 GEX_ALERT_COOLDOWN_SEC  = 3600     # 同一警報1小時內不重發
+GEX_MAX_WALL_DEVIATION_PCT = 40.0  # v1.25：wall偏離現價超過呢個%當數據失真，唔發警報
 KNOWN_CHATS_FILE        = "known_chats.json"
 GEX_ALERT_LOG_FILE      = "gex_alert_log.json"
 OPEX_REMINDER_LOG_FILE  = "opex_reminder_log.json"   # v1.20新增
@@ -2462,6 +2478,13 @@ def check_gex_proximity(sym: str, price: float, call_wall: float, put_wall: floa
     再各自揀距離/突破幅度最細嗰個（最貼近現價、最新鮮嗰單先講）。
     """
     if not price or not call_wall or not put_wall:
+        return None
+
+    # v1.25 sanity guard：Put Wall高過Call Wall，或任何wall偏離現價>40%，視為GEX數據失真
+    if put_wall > call_wall:
+        return None
+    if (abs(call_wall - price) / price * 100 > GEX_MAX_WALL_DEVIATION_PCT or
+            abs(price - put_wall) / price * 100 > GEX_MAX_WALL_DEVIATION_PCT):
         return None
 
     dist_call_pct = (call_wall - price) / price * 100   # 現價喺call_wall之下 → 正數

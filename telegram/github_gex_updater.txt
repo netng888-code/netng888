@@ -48,6 +48,11 @@ github_gex_updater.py
   （holdings_US_20261001.csv）一次過同步返之前遺留嘅過時數字：NVDA 10@160.125→20@189.0625
   （8/26加倉）／AVGO成本375.782→378.602／NOK 150@13.167→200@12.458／PLTR 7@124.335→
   12@127.304，五檔同步規則正式追平（telegram_bot.py v1.24同步）。
+2026-10-07：BATCH2嘅LYTE沽出20股（10@$26.2＋10@$26.5），30→10股，成本$25.00不變，已實現+$27。
+五檔同步（CSV／index.html／gex_chart／telegram_bot）。
+2026-10-10：BATCH2一換一——LYTE已於$26全數沽清（成本$25.00，累計已實現+$37）移除，新增INTC（買入10股
+@$107.00）；PLTR沽出6股@$203.00（12→6股，成本不變$127.304，已實現+$454.18）。BATCH2維持8隻、
+quota維持16/20唔變。五檔同步（CSV／index.html／gex_chart v5.38／futu_bridge v3.20／telegram_bot v1.26）。
 ═══════════════════════════════════════════════════
 """
 
@@ -101,9 +106,9 @@ BATCH1 = [
 BATCH2 = [
     {"sym": "OKLO",  "name": "Oklo Inc",         "qty": 40,  "cost": 30.05875},
     {"sym": "RKLB",  "name": "Rocket Lab",        "qty": 10,  "cost": 76.00  },
-    {"sym": "PLTR",  "name": "Palantir",          "qty": 12,   "cost": 127.304},
+    {"sym": "PLTR",  "name": "Palantir",          "qty": 6,    "cost": 127.304},
     {"sym": "ISRG",  "name": "直覺外科公司",     "qty": 2,   "cost": 453.10 },
-    {"sym": "LYTE",  "name": "Roundhill Photonics & Optics ETF", "qty": 30, "cost": 25.00 },
+    {"sym": "INTC",  "name": "英特爾 Intel",       "qty": 10, "cost": 107.00 },
     {"sym": "RR",    "name": "Richtech Robotics", "qty": 300, "cost": 2.445  },
     {"sym": "VRT",   "name": "Vertiv Holdings",   "qty": 2,   "cost": 303.76 },
     {"sym": "SERV",  "name": "Serve Robotics",    "qty": 30,  "cost": 11.743 },
