@@ -642,13 +642,20 @@
   v5.37（2026-10-07）：持倉更新：LYTE沽出20股（10股@$26.2＋10股@$26.5，成本$25.00，30→10股，
     已實現+$27）。PORTFOLIO.LYTE.qty 30→10，其餘五檔（CSV／index.html／telegram_bot.py／
     github_gex_updater.py）同步；US_STOCKS／HOLDINGS不變（LYTE仍持有10股）。
+  v5.38（2026-10-10）：持倉更新三項——(1) INTC買入10股@$107.00（新增持倉）；(2) PLTR沽出6股@$203.00
+    （12→6股，成本不變$127.304，已實現+$454.18）；(3) LYTE沽出10股@$26.00（成本$25.00，已全數沽清，
+    已實現+$10，累計+$37）。PORTFOLIO：PLTR.qty 12→6、移除LYTE、新增INTC；HOLDINGS quicklinks
+    LYTE→INTC（原位置）；持倉數維持17隻，tab標題「(17)」不變。WATCHLIST入面INTC保留（同NOK/TER一樣，
+    持倉股同時留喺watchlist，唔算重複）。其餘五檔（CSV／index.html／futu_bridge_v2.py US_STOCKS／
+    telegram_bot.py／github_gex_updater.py）同步。⚠️ futu_bridge_v2.py要升級（US_STOCKS換INTC）先會喺
+    持倉總覽見到INTC報價。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.37)</title>
+<title>GEX Chart — Futu Bridge (v5.38)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -1737,7 +1744,7 @@ let lastMoneyFlow  = null;
 
 // ── Futu 持倉 + Watchlist（quicklinks 來源）────────────────────
 // 持倉：holdings_US CSV（依市值降序）。改持倉後記得同步更新呢度。
-const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','RDW','ISRG','LYTE','RKLB','VRT','RR','SERV'];
+const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','RDW','ISRG','INTC','RKLB','VRT','RR','SERV'];
 // Watchlist：GitHub live mywatchlist.html（21隻）+ 用戶另外要求加入嘅5隻（GLD/KLAC/LRCX/AMAT/ASML）
 // + 2026-07-10新增5隻生物科技/製藥股（LLY/VRTX/REGN/MRNA/BNTX）
 // + 2026-07-18新增SKHY（SK海力士ADR，2026年7月NASDAQ新上市，原代碼SKHYV
@@ -1778,9 +1785,9 @@ const PORTFOLIO = {
   'LEU':  {qty:8,   cost:197.50  },
   'OKLO': {qty:40,  cost:30.05875},
   'RKLB': {qty:10,  cost:76.00   },
-  'PLTR': {qty:12,  cost:127.304 },
+  'PLTR': {qty:6,   cost:127.304 },
   'ISRG': {qty:2,   cost:453.10  },
-  'LYTE': {qty:10,  cost:25.00   },
+  'INTC': {qty:10,  cost:107.00  },
   'RR':   {qty:300, cost:2.445   },
   'VRT':  {qty:2,   cost:303.76  },
   'SERV': {qty:30,  cost:11.743  },
