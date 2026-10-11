@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-09 21:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$198.78** |
-| 今日變動 | ▲ $4.66　(+2.40%) |
-| 持倉數量 | 12 股 |
+| 現價 | **$209.05** |
+| 今日變動 | ▲ $10.27　(+5.17%) |
+| 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $858　(▲56.1%) |
+| 未實現盈虧 | ▲ $490　(▲64.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $176.06 | — |
-| Put Wall（支撐） | $190.00 | -4.4% |
-| Call Wall（阻力） | $205.00 | +3.1% |
+| Gamma Flip | $171.11 | — |
+| Put Wall（支撐） | $140.00 | -33.0% |
+| Call Wall（阻力） | $210.00 | +0.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Two Reasons SpaceX Stock Is Jumping Higher Today](https://finnhub.io/api/news?id=789bae69d2bcc699f8a2948d339e90e31f20b9f345e0618131881778f03b52ad)**  
-*Yahoo · 1h前*  
-Barclays analyst Anthony Valentini launched coverage of SpaceX stock with a Buy-rating and $254 price target.
+- **[History Says This Will Happen to Palantir Stock by 2028](https://finnhub.io/api/news?id=a49e2696a4583055214d9d061a13cf0a85d1a660fdd258cbdb0bfa24873bc6cc)**  
+*Yahoo · 3h前*  
+The AI data analytics company's stock is extremely pricey.
 
-- **[Social Buzz: Wallstreetbets Stocks Mostly Higher Pre-Bell Friday; SpaceX, Nebius Group to Advance](https://finnhub.io/api/news?id=f98f52dae6b1c3f34445b85bc8a333038fc0ea7b0a07bc884f94ea9f4809a41f)**  
-*Yahoo · 2h前*  
-The most-talked-about stocks in the Reddit subforum Wallstreetbets were mostly higher hours before F
+- **[Palantir: I Couldn't Have Been More Wrong, I See The Light Now - Buy (Rating Upgrade)](https://finnhub.io/api/news?id=9e8b62f4fa38da7cb35c7d51f21cde6b431b46a15438bb98e2d3b481816b488f)**  
+*SeekingAlpha · 13h前*  
+Palantir upgraded to Buy as AI fears fade and customer-built tools boost platform demand. Click for more on PLTR stock.
 
-- **[OpenAI's $20 Billion Revenue Gap Sends Chip Stocks Tumbling](https://finnhub.io/api/news?id=557033d381aadccfe976abc5e7e0ac7ac2483c91237e84c6093fb91093fef475)**  
-*ChartMill · 3h前*  
-Chip stocks slid after reports put OpenAI's annual revenue near $50 billion, well below earlier estimates. Debt-heavy AI names took the hardest hit, SpaceX move…
+- **[Palantir: Staying Bullish At Record Highs As Q3 Approaches](https://finnhub.io/api/news?id=dfa8548a9ee0ae30887f60a8689fb9e593bdf0bc0fdf6505b7972e58dc3c4305)**  
+*SeekingAlpha · 14h前*  
+Palantir stays bullish after record Q2 results and strong guidance. Click for more on PLTR stock.
 
 ---
 
@@ -48,7 +48,7 @@ Chip stocks slid after reports put OpenAI's annual revenue near $50 billion, wel
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-09 | 監控 | $198.78 | — | 自動更新 |
+| 2026-10-12 | 監控 | $209.05 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Chip stocks slid after reports put OpenAI's annual revenue near $50 billion, wel
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 21:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
