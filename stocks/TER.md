@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$398.72** |
-| 今日變動 | ▼ $13.06　(-3.17%) |
+| 現價 | **$402.68** |
+| 今日變動 | ▲ $3.96　(+0.99%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,534　(▲333.4%) |
+| 未實現盈虧 | ▲ $1,553　(▲337.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $411.66 | — |
-| Put Wall（支撐） | $400.00 | --0.3% |
-| Call Wall（阻力） | $410.00 | +2.8% |
+| Gamma Flip | $403.30 | — |
+| Put Wall（支撐） | $400.00 | -0.7% |
+| Call Wall（阻力） | $410.00 | +1.8% |
 
 **狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,13 @@
 
 ## 📰 最新新聞
 
+- **[3 US Growth Stocks With AI Earnings Momentum Retail Investors Should Track](https://finnhub.io/api/news?id=88fa697a350088392534b77299224b53c83ddf2bda8aa47af9d620061aac8dcd)**  
+*Yahoo · 13h前*  
+Right now, investors are watching a rare mix of forces collide, from hotly anticipated US inflation data and an aggressive Q3 earnings season to fresh stimulus …
+
 - **[Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead](https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e)**  
-*ChartMill · 0h前*  
+*ChartMill · 2d前*  
 Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag.
-
-- **[What Does Teradyne (TER) Mean For AI Infrastructure Manufacturing Now?](https://finnhub.io/api/news?id=88a6ba25c8898306cc40136ae5ad8cc48c3184580fc972147985138a6875cc74)**  
-*Yahoo · 19h前*  
-Teradyne (NasdaqGS:TER) announced a collaboration and investment in Bright Machines to support AI infrastructure manufacturing using software defined production…
-
-- **[Citi names 5 top chip picks ahead of Q3 earnings](https://finnhub.io/api/news?id=af698d789443b7d7d798666bf1c69af3f167f53b1d92d329f85a3297de1d5da2)**  
-*Yahoo · 1d前*  
-Investing.com -- Citi named AMD, Texas Instruments, Lam Research, Teradyne and Synopsys as its top buy-rated semiconductor picks ahead of third-quarter earnings…
 
 ---
 
@@ -48,7 +44,7 @@ Investing.com -- Citi named AMD, Texas Instruments, Lam Research, Teradyne and S
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-09 | 監控 | $398.72 | — | 自動更新 |
+| 2026-10-12 | 監控 | $402.68 | — | 自動更新 |
 
 ---
 
@@ -59,4 +55,4 @@ Investing.com -- Citi named AMD, Texas Instruments, Lam Research, Teradyne and S
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
