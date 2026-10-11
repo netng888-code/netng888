@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$34.57** |
-| 今日變動 | ▼ $2.25　(-6.11%) |
+| 現價 | **$34.70** |
+| 今日變動 | ▲ $0.13　(+0.38%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▲ $180　(▲15.0%) |
+| 未實現盈虧 | ▲ $186　(▲15.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $36.49 | — |
-| Put Wall（支撐） | $35.00 | --1.2% |
-| Call Wall（阻力） | $45.00 | +30.2% |
+| Gamma Flip | $37.49 | — |
+| Put Wall（支撐） | $30.00 | -13.5% |
+| Call Wall（阻力） | $45.00 | +29.7% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[How Much Could You Lose In NuScale Power Stock?](https://finnhub.io/api/news?id=48f96f6c90445c29b9f31aa5366710564b329aa93cfe7a4d243a61dce8691ecf)**  
+- **[Here's Where These 4 Nuclear Reactor Stocks Could Be in 5 Years](https://finnhub.io/api/news?id=cb16ede0ffdf473dcc3fc2084df3f549ec791bb69b32a6a123bca70349ad3ca3)**  
+*Yahoo · 10h前*  
+Four nuclear reactor stocks could look very different by 2031, as progress in reactors, revenue growth, and valuations determine shareholder returns.
+
+- **[Is Oklo the Next Trillion-Dollar Stock?](https://finnhub.io/api/news?id=c2716e32583c34a7b89cf383577bb974a9247335db4c7392f21064a6b3e5ab1c)**  
 *Yahoo · 11h前*  
-NuScale Power (SMR) stock has lost 31% in the past month, while the S&P 500 gained 1.8%. The decline happened without any specific news from the company, though…
+Could Oklo be the first nuclear company to join the trillion-dollar club?
 
-- **[3 Nuclear Energy Stocks Down 40% or More From Their Highs -- Only 1 Is a Real Opportunity Right Now.](https://finnhub.io/api/news?id=2d15fc2911badd8f8a73ca44d6b9dee5b2d284e885d9698fc379ea8b8823b9df)**  
-*Yahoo · 17h前*  
-NuScale, Oklo, and BWX Technologies have all pulled back from their record highs.
-
-- **[Energy Fuels Falls 9% as Uranium and Reactor Names Sell Off Together; Oklo and Centrus Energy Drop 5%](https://finnhub.io/api/news?id=9896797e6dd9872ba7e1b7b85628400860e834ac58cb3c8d72ef915e3ef88310)**  
-*Yahoo · 1d前*  
-Uranium miners and advanced reactor stocks are dropping together in a single coordinated selloff, and one name is falling nearly twice as hard as the rest of th…
+- **[NuScale Power Is Now Down 49% This Year: Is SMR Stock Dead Money or Due for a Bounce?](https://finnhub.io/api/news?id=247dddda49261af5a6ccb2110dbf5dbcc3defa8392279d7c70f529fb152af936)**  
+*Yahoo · 2d前*  
+NuScale stock has shed nearly half its value this year while the broader market climbed, and now a massive new share sale is fueling a debate about whether pati…
 
 ---
 
@@ -48,7 +48,7 @@ Uranium miners and advanced reactor stocks are dropping together in a single coo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-09 | 監控 | $34.57 | — | 自動更新 |
+| 2026-10-12 | 監控 | $34.70 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Uranium miners and advanced reactor stocks are dropping together in a single coo
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
