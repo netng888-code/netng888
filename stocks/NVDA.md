@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$230.48** |
-| 今日變動 | ▼ $6.99　(-2.94%) |
+| 現價 | **$229.28** |
+| 今日變動 | ▼ $1.20　(-0.52%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $828　(▲21.9%) |
+| 未實現盈虧 | ▲ $804　(▲21.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $213.41 | — |
-| Put Wall（支撐） | $230.00 | -0.2% |
-| Call Wall（阻力） | $240.00 | +4.1% |
+| Gamma Flip | $211.39 | — |
+| Put Wall（支撐） | $220.00 | -4.0% |
+| Call Wall（阻力） | $230.00 | +0.3% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead](https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e)**  
-*ChartMill · 0h前*  
-Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag.
-
-- **[Amazon Just Signed a 20-Year Nuclear Power Deal. Here's the 1 Industrial Stock That Benefits Most.](https://finnhub.io/api/news?id=2a15204dad56db73ee1cf94be32969b66abcc55a73f20ad604853074142af82f)**  
+- **[History Says This Will Happen to AMD Stock in 2027](https://finnhub.io/api/news?id=5a0df68ae0ee258cbb2fcad2d9c11df6e6f128c8d5cce3fc08d89fbc95491936)**  
 *Yahoo · 1h前*  
-This company-specific news is just a sampling of a much bigger, broader trend.
+The chipmaker has had a great year, but its stock has risen too far, too fast.
 
-- **[Here's Why I Sold Cipher Digital and Bought More Iren](https://finnhub.io/api/news?id=3882c3cae7658ab12bac7cde120ee686e8485f1ae98d540420e3b97eef02a087)**  
+- **[Treasury Yields Are Now Above 5%. Here's Why That's Bearish For Bitcoin.](https://finnhub.io/api/news?id=f46598660e98130840dff493be3a12cc4dd3f4b1ca8bff01db9123a2a5fba8fa)**  
 *Yahoo · 1h前*  
-I got out of Cipher Digital and doubled down on Iren. Here's why.
+Investors shouldn't conflate the devaluation of fiat currencies with rising Treasury yields.
+
+- **[3 AI Stocks To Own In October 2026](https://finnhub.io/api/news?id=122bfd7df8b803c0ca64e1fd6e1a83652cc1d1e2efbb095893b835d07c595f6d)**  
+*Yahoo · 1h前*  
+Bond yields are surging worldwide and the era of easy money looks over, which puts real pressure on weaker balance sheets. Investors are hunting for businesses …
 
 ---
 
@@ -48,7 +48,7 @@ I got out of Cipher Digital and doubled down on Iren. Here's why.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-09 | 監控 | $230.48 | — | 自動更新 |
+| 2026-10-12 | 監控 | $229.28 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ I got out of Cipher Digital and doubled down on Iren. Here's why.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
