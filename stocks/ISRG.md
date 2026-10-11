@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-09 21:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$415.41** |
-| 今日變動 | ▲ $0.89　(+0.21%) |
+| 現價 | **$423.96** |
+| 今日變動 | ▲ $8.55　(+2.06%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $75　(▼8.3%) |
+| 未實現盈虧 | ▼ $58　(▼6.4%) |
 
 ---
 
@@ -20,27 +20,23 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $396.30 | — |
-| Put Wall（支撐） | $400.00 | -3.7% |
-| Call Wall（阻力） | $420.00 | +1.1% |
+| Gamma Flip | $394.78 | — |
+| Put Wall（支撐） | $400.00 | -5.7% |
+| Call Wall（阻力） | $440.00 | +3.8% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Intuitive Surgical, Inc. (ISRG) Exceeds Market Returns: Some Facts to Consider](https://finnhub.io/api/news?id=c2ad58dfcffc67be42d9aee482b6541acc4da1f113f0f04758dc0e01fbfb8e0f)**  
+*Yahoo · 2d前*  
+Intuitive Surgical, Inc. (ISRG) concluded the recent trading session at $423.96, signifying a +2.06% move from its prior day's close.
+
 - **[Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead](https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e)**  
-*ChartMill · 0h前*  
+*ChartMill · 2d前*  
 Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag.
-
-- **[Is Intuitive Surgical (ISRG) a Buy as Wall Street Analysts Look Optimistic?](https://finnhub.io/api/news?id=4033ed6ae8ed17606a1ceae187e57795d32b87189e2c0a317bee21a00a136507)**  
-*Yahoo · 1d前*  
-Based on the average brokerage recommendation (ABR), Intuitive Surgical (ISRG) should be added to one's portfolio. Wall Street analysts' overly optimistic recom…
-
-- **[The Monopolistic Razor-and-Blade Engine I Can’t Stop Buying](https://finnhub.io/api/news?id=53bbe4aa9c11aaa912b85bc6ec7e10cf64b2e86085ceb4c77aa34351fd789f03)**  
-*Yahoo · 1d前*  
-A 26% price drop on a stock with a near-monopoly business model and 85% recurring revenue sounds like a warning, but one investor sees it as an invitation to ke…
 
 ---
 
@@ -48,7 +44,7 @@ A 26% price drop on a stock with a near-monopoly business model and 85% recurrin
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-09 | 監控 | $415.41 | — | 自動更新 |
+| 2026-10-12 | 監控 | $423.96 | — | 自動更新 |
 
 ---
 
@@ -59,4 +55,4 @@ A 26% price drop on a stock with a near-monopoly business model and 85% recurrin
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 21:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
