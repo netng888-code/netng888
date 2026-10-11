@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-09 21:08 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$720.89** |
-| 今日變動 | ▼ $0.42　(-0.06%) |
+| 現價 | **$718.67** |
+| 今日變動 | ▼ $2.22　(-0.31%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $344　(▲18.9%) |
+| 未實現盈虧 | ▲ $337　(▲18.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $617.53 | — |
-| Put Wall（支撐） | $700.00 | -2.9% |
-| Call Wall（阻力） | $750.00 | +4.0% |
+| Gamma Flip | $613.27 | — |
+| Put Wall（支撐） | $700.00 | -2.6% |
+| Call Wall（阻力） | $750.00 | +4.4% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Inside Google's AI Slump: Can Gemini 4 Argon Fix it?](https://finnhub.io/api/news?id=aa283c09eb30f351fdb43e0b6ce91499baae724cd14a2654a87e6a32bedad3f2)**  
-*Yahoo · 2h前*  
-Despite having 3 billion users, its own chips, and a $4.1 trillion market cap, Google can't seem to ship an AI model that beats Claude or ChatGPT. Host Ejaaz Ah…
+- **[SpaceX, Telecom Sell-Off, Micron's A Grades, Steve Cress Origin Story](https://finnhub.io/api/news?id=c9a6f34ceccc5d3a3671098211168d4c8a87b81d898473c269c65300a40fb421)**  
+*SeekingAlpha · 5h前*  
+SpaceXâs $8B deal sparked selloff in major telecom stocks - but is it warranted? Why Micron Technology deserves its strong buy status. Steve Cress' origin sto…
 
-- **[BMO is bullish on this Magnificent 7 stock after enterprise AI agent launch](https://finnhub.io/api/news?id=501ec9ac25fa55433456ea20db6386d2761a45d9271705ddfe650fd0e6a82278)**  
-*Yahoo · 2h前*  
-Investing.com -- BMO Capital Markets reiterated an Outperform rating and Top Pick status on a tech giant after it launched an enterprise AI agent, entering what…
+- **[It Now Takes $4.4B To Make the Forbes 400: See America's 10 Richest People](https://finnhub.io/api/news?id=efeecc16c57e17c46d04074221da4494af5c4c2acfc5edb20566d9cdfd57eaf9)**  
+*Yahoo · 6h前*  
+Technology dominates the Forbes 400 rankings, with executives tied to Tesla, Amazon, Google, Meta, Nvidia, Microsoft and Oracle claiming most of the top spots.
 
-- **[Nvidia Stock Gains but IPO Worries Are Rocking the AI Market](https://finnhub.io/api/news?id=1ff19ea9167a7ce1a5e88307dc3e35f4a198816081fcf8d100eb09c03a049cb6)**  
-*Yahoo · 3h前*  
-The chip maker's shares were steadying Friday as the market digests news about the initial public offerings of OpenAI and Firmus.
+- **[Ray Dalio Warns Stocks Are Running Out of Room for Error — and AI Could Make It Worse](https://finnhub.io/api/news?id=2953a388966dff5af22e889263d16600b765c8f33bd4d9b0bfc2ae3cca41aa0a)**  
+*Yahoo · 8h前*  
+Ray Dalio sees a narrowing window for stocks as bond yields climb and AI giants burn through capital faster than they can generate it. The question is whether r…
 
 ---
 
@@ -48,7 +48,7 @@ The chip maker's shares were steadying Friday as the market digests news about t
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-09 | 監控 | $720.89 | — | 自動更新 |
+| 2026-10-12 | 監控 | $718.67 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The chip maker's shares were steadying Friday as the market digests news about t
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-09 21:08 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
