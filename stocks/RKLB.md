@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$68.21** |
-| 今日變動 | ▼ $0.19　(-0.28%) |
+| 現價 | **$65.71** |
+| 今日變動 | ▼ $2.50　(-3.67%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $78　(▼10.3%) |
+| 未實現盈虧 | ▼ $103　(▼13.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $68.82 | — |
-| Put Wall（支撐） | $65.00 | -4.7% |
-| Call Wall（阻力） | $70.00 | +2.6% |
+| Gamma Flip | $68.92 | — |
+| Put Wall（支撐） | $65.00 | -1.1% |
+| Call Wall（阻力） | $70.00 | +6.5% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[RKLB Stock Rises Overnight: NASA Chief Warns Moon Race With China Is ‘Months, Not Years’ As Neutron Opportunity Grows](https://finnhub.io/api/news?id=9bfa4d5db95ecac642e717c7ccb4651725e818b060353f44e15b12b5296f5f30)**  
-*Yahoo · 5h前*  
-NASA is weighing bulk rocket purchases for its estimated $30 billion moon-base effort.
+- **[Rocket Lab: Missing Neutron Catalyst Putting Pressure On Valuation (Downgrade)](https://finnhub.io/api/news?id=d4b68fa501632759d5bb235d92dcdc04741ebd01752679c15a8fc5a57fcbd59f)**  
+*SeekingAlpha · 5h前*  
+Rocket Lab Corporation faces valuation pressure as investors await Neutron launch; Electron adds stability, but upside hinges on execution. Click for a RKLB sto…
 
-- **[Cathie Wood Keeps Buying Rocket Lab Stock as It Trades at Less Than Half Its Record](https://finnhub.io/api/news?id=a05dfc1b1e5a5a7a0488752578e3796672ce4fe1e514e387268a3d5aa998e163)**  
-*Yahoo · 5h前*  
-Her firm is betting on a launch shortage later this decade. Can the space company's unflown rocket make it in time?
+- **[Why SpaceX’s Spectrum Purchase Is Good for AST SpaceMobile Stock](https://finnhub.io/api/news?id=d4df0ef9eea7e58043e81659d8a1e987ae12f30be4fd5fd8400fdd2b0ece1928)**  
+*Yahoo · 9h前*  
+Deutsche Bank upgraded AST SpaceMobile to Buy, arguing that SpaceX’s spectrum purchase could strengthen AST’s appeal to wireless carriers.
 
-- **[TD Cowen Cut Its Rocket Lab Target. It Still Sees 32% Upside](https://finnhub.io/api/news?id=5bcc93cbbf8daac26a4f71625104b7632edbcecedf161c7790ae42e769b7658a)**  
-*Yahoo · 15h前*  
-Key TakeawaysTD Cowen cut its Rocket Lab price target from $120 to $90 on October 9 but maintained its Buy rating, implying approximately 32% upside from the re…
+- **[AST SpaceMobile Rallies 4% as Next BlueBird Satellites Reach Cape Canaveral; Rocket Lab and Intuitive Machines Hold Flat](https://finnhub.io/api/news?id=8207b5e87f40db5d5ed1c04148aff04e0fb81ebfa0c6f874fc5625402be85d8b)**  
+*Yahoo · 10h前*  
+Fresh hardware arriving at Cape Canaveral gave AST SpaceMobile bulls a reason to cheer, but a mounting analyst argument about SpaceX may matter far more for whe…
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysTD Cowen cut its Rocket Lab price target from $120 to $90 on Octobe
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-12 | 監控 | $68.21 | — | 自動更新 |
+| 2026-10-13 | 監控 | $65.71 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysTD Cowen cut its Rocket Lab price target from $120 to $90 on Octobe
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
