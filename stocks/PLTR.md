@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[History Says This Will Happen to Palantir Stock by 2028](https://finnhub.io/api/news?id=a49e2696a4583055214d9d061a13cf0a85d1a660fdd258cbdb0bfa24873bc6cc)**  
-*Yahoo · 3h前*  
-The AI data analytics company's stock is extremely pricey.
+- **[3 Momentum  Stocks to Target This Week](https://finnhub.io/api/news?id=b7d310c02badcba6b5491cdf01827cd87d65bc4f68e94038d857b7107ee5ec73)**  
+*Yahoo · 1h前*  
+Each stock in this article is trading near its 52-week high. These elevated prices usually indicate some degree of investor confidence, business improvements, o…
 
-- **[Palantir: I Couldn't Have Been More Wrong, I See The Light Now - Buy (Rating Upgrade)](https://finnhub.io/api/news?id=9e8b62f4fa38da7cb35c7d51f21cde6b431b46a15438bb98e2d3b481816b488f)**  
-*SeekingAlpha · 13h前*  
-Palantir upgraded to Buy as AI fears fade and customer-built tools boost platform demand. Click for more on PLTR stock.
+- **[Dividend Harvesting Portfolio Week 293: $29,300 Allocated, $3,401.43 In Projected Dividends](https://finnhub.io/api/news?id=c07226292d6cbe47ccd3e5e71d55d8eeec9d2cf70368ea20e5df4fbbd89f5ce8)**  
+*SeekingAlpha · 4h前*  
+Dividend Harvesting Portfolio update: +0.76% weekly, 38.91% ROI and $3,401 forward income.
 
-- **[Palantir: Staying Bullish At Record Highs As Q3 Approaches](https://finnhub.io/api/news?id=dfa8548a9ee0ae30887f60a8689fb9e593bdf0bc0fdf6505b7972e58dc3c4305)**  
-*SeekingAlpha · 14h前*  
-Palantir stays bullish after record Q2 results and strong guidance. Click for more on PLTR stock.
+- **[Michael Burry Shifts Bearish Bets To Nasdaq, Semiconductor ETF Puts — Sees Market Top Within 9 Months](https://finnhub.io/api/news?id=06ed4e229f8e0fb8b438546d03c24d71142741070d2ae438f874addc2120ff73)**  
+*Yahoo · 4h前*  
+The noted investor targets tech-heavy indexes and semiconductor stocks as he braces for a potential market downturn.
 
 ---
 
@@ -59,4 +59,4 @@ Palantir stays bullish after record Q2 results and strong guidance. Click for mo
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
