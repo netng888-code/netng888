@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$423.96** |
-| 今日變動 | ▲ $8.55　(+2.06%) |
+| 現價 | **$427.64** |
+| 今日變動 | ▲ $3.68　(+0.87%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $58　(▼6.4%) |
+| 未實現盈虧 | ▼ $51　(▼5.6%) |
 
 ---
 
@@ -20,23 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $394.78 | — |
-| Put Wall（支撐） | $400.00 | -5.7% |
-| Call Wall（阻力） | $440.00 | +3.8% |
+| Gamma Flip | $397.30 | — |
+| Put Wall（支撐） | $415.00 | -3.0% |
+| Call Wall（阻力） | $440.00 | +2.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical, Inc. (ISRG) Exceeds Market Returns: Some Facts to Consider](https://finnhub.io/api/news?id=c2ad58dfcffc67be42d9aee482b6541acc4da1f113f0f04758dc0e01fbfb8e0f)**  
-*Yahoo · 2d前*  
-Intuitive Surgical, Inc. (ISRG) concluded the recent trading session at $423.96, signifying a +2.06% move from its prior day's close.
+- **[Abbott Laboratories vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=07f64436b15bb515cf5704a99d822bb9995517764231539e379bbadc26ca483a)**  
+*Yahoo · 4h前*  
+Abbott trades at a 18x forward P/E with $7.4B in free cash flow, while Intuitive Surgical commands a 39x multiple backed by zero debt and 20% revenue growth.
 
-- **[Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead](https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e)**  
-*ChartMill · 3d前*  
-Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag.
+- **[Has Medtronic Stock Become A Different Bet?](https://finnhub.io/api/news?id=5b549af35f8c34e8aff5bf2125e0b56139f22e32e5010a2ac3f69e489b9878c2)**  
+*Yahoo · 5h前*  
+Medtronic (MDT) stock trades at 21.6 times earnings, sitting about level with the S&P 500 at 21.9. Shareholders paying that market price need to know what they …
+
+- **[4 Healthcare Stocks Worth Owning for the Next Decade](https://finnhub.io/api/news?id=e56eedd987cc94a618712e6a1e61bc2c1f2659bbfefcac8700a32838ef55df07)**  
+*Yahoo · 7h前*  
+Two healthcare stocks that are leading their niches, and two that investors aren't giving enough credit to in the same niches.
 
 ---
 
@@ -44,7 +48,7 @@ Robotics and automation stocks are splitting: AI, semiconductor, and healthcare 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-12 | 監控 | $423.96 | — | 自動更新 |
+| 2026-10-13 | 監控 | $427.64 | — | 自動更新 |
 
 ---
 
@@ -55,4 +59,4 @@ Robotics and automation stocks are splitting: AI, semiconductor, and healthcare 
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
