@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[Centrus Is Down 69% From Its High. Is Its $4.5 Billion Backlog Enough to Buy at $143?](https://finnhub.io/api/news?id=29e9473d05d7fc296ecc5d44974146f032a2182ffacb8f91aaf909ad22bb572f)**  
+*Yahoo · 19h前*  
+The nuclear energy company faces daunting near-term challenges.
+
 - **[NuScale Power Is Now Down 49% This Year: Is SMR Stock Dead Money or Due for a Bounce?](https://finnhub.io/api/news?id=247dddda49261af5a6ccb2110dbf5dbcc3defa8392279d7c70f529fb152af936)**  
 *Yahoo · 2d前*  
 NuScale stock has shed nearly half its value this year while the broader market climbed, and now a massive new share sale is fueling a debate about whether pati…
@@ -55,4 +59,4 @@ BWXT is expanding specialized uranium processing capabilities, supporting govern
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
