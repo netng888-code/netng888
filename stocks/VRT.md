@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-12 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Bloom Energy vs. Vertiv: Which AI Infrastructure Stock Is the Better Buy After the Pullback?](https://finnhub.io/api/news?id=7d0eda86af49d65cfec75f5b135fd925c419a37afead1931ba2f96cc271a86af)**  
+*Yahoo · 2h前*  
+Two AI infrastructure stocks have pulled back hard this year. Here's which one offers investors the better risk-reward.
+
 - **[A Question About Vertiv (VRT) Leads Jim Cramer to a Bigger Infrastructure Story](https://finnhub.io/api/news?id=4b0ab120d8eb409d912e743cf3e032d219e136959d5af981d9245ca2fd6bd4e5)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 During the October 7 episode of Mad Money, a caller asked whether Jim Cramer had concerns about data center infrastructure while discussing Vertiv Holdings Co (…
 
 - **[Schneider Just Paid Up for PTC—Is the SaaSpocalypse Overdone?](https://finnhub.io/api/news?id=257f44e3d54c5ee7b152814c1e9a18561991bc182fd2cab3b4546d12777e3cd1)**  
 *Yahoo · 1d前*  
 Schneider Electric will pay about $22.6 billion for PTC at a 42% premium, its largest-ever deal, but SBGSY shares fell 16% as investors weighed integration risk…
-
-- **[AI Data Centers Are Power Hungry. These 6 Power and Cooling Stocks Could Benefit Through 2030.](https://finnhub.io/api/news?id=d9353170f29d54d024c5a04f55acedeaaad1b2d5cc8872f74d8a8f81a6df84b6)**  
-*Yahoo · 1d前*  
-Artificial intelligence is just a fancy computer program, and these six companies are well-positioned to provide the ravenous technology with power.
 
 ---
 
@@ -59,4 +59,4 @@ Artificial intelligence is just a fancy computer program, and these six companie
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
