@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$718.67** |
-| 今日變動 | ▼ $2.22　(-0.31%) |
+| 現價 | **$742.96** |
+| 今日變動 | ▲ $24.29　(+3.38%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $337　(▲18.5%) |
+| 未實現盈虧 | ▲ $410　(▲22.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $613.27 | — |
-| Put Wall（支撐） | $700.00 | -2.6% |
-| Call Wall（阻力） | $750.00 | +4.4% |
+| Gamma Flip | $615.01 | — |
+| Put Wall（支撐） | $700.00 | -5.8% |
+| Call Wall（阻力） | $750.00 | +0.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Salesforce Just Turned the Agent Allowlist Into a CRM Product](https://finnhub.io/api/news?id=54a19565c2ac70a5de2a1b859e88466eddbda6abac3b22575f935acb9e23b223)**  
+- **[Is It Too Late To Buy Shopify Stock?](https://finnhub.io/api/news?id=7194798123a72128ef1f23eb2688ac4a3e912b934a410cd825d4d460d29be0a9)**  
 *Yahoo · 1h前*  
-For months, the merchant-side gate in agentic commerce was a line in a robots.txt file. Shopify blocked AI crawlers from its checkout and cart paths, Amazon blo…
+Shopify (SHOP) stock has risen 34.3% over the past three months, while the S&P 500 gained 2.8%. On September 22, the shares rose about 8% in early trading after…
 
-- **[What Projected Job Cuts at These Two Mag 7 Firms Says About AI in 2027](https://finnhub.io/api/news?id=0fa360b13baf1471febdee0366e7a186ff8bfd88fbecaabf835486fc5aa08fe7)**  
+- **[Stock Market Today, Oct. 12: Dow Gains as Memory Stocks Weigh on Nasdaq](https://finnhub.io/api/news?id=a1bc57aec181cff351dc669ee73c0ed3171ce1e04a235c076b501a154eac16cc)**  
 *Yahoo · 1h前*  
-Amazon and Meta are both slashing jobs while pouring record billions into AI, but the strategies behind their cuts reveal something unexpected about which compa…
+On Oct. 12, 2026, investors brace for bank earnings while semiconductor weakness pressures the broader market.
 
-- **[Can broadening earnings growth sustain the equity upcycle? JPM weighs in](https://finnhub.io/api/news?id=c990fd743921e1534d8404b9c7a58c1052369ffb7dead6bc1d5d22c487f4b68d)**  
-*Yahoo · 1h前*  
-Investing.com -- Third-quarter earnings should reassure investors, JPMorgan strategists say, with earnings strength broadening beyond AI, though many investors …
+- **[Dow Jones Futures: Micron, Nvidia Lead AI Trade Lower; Apple, Meta Rally Near Buy Points](https://finnhub.io/api/news?id=7640625929204e2af1763dfe7765c394471896e6f5ab1a20d5e6b8900deffa75)**  
+*Yahoo · 2h前*  
+Dow Jones Futures: Micron and Nvidia stock led the AI trade lower Monday. Apple and Meta rallied near buy points.
 
 ---
 
@@ -48,7 +48,7 @@ Investing.com -- Third-quarter earnings should reassure investors, JPMorgan stra
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-12 | 監控 | $718.67 | — | 自動更新 |
+| 2026-10-13 | 監控 | $742.96 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Third-quarter earnings should reassure investors, JPMorgan stra
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
