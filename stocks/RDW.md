@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,7 +35,7 @@
 Both companies are unprofitable and burning cash, but their paths to scale, and valuations, tell strikingly different stories.
 
 - **[Stocktwits Space Race Weekly: SPCX Flies Solo In Green — RKLB, ASTS, RDW And PL Fall Back To Earth](https://finnhub.io/api/news?id=f9c45ce3ff7f67fd62a79ec2d081680333a9e525280a035d99e48366eefca262)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 AST SpaceMobile completed a Telus network integration test and received U.S.-Japan recognition, but faced competitive pressure from SpaceX’s spectrum deal.
 
 ---
@@ -55,4 +55,4 @@ AST SpaceMobile completed a Telus network integration test and received U.S.-Jap
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
