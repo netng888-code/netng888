@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SpaceX, Telecom Sell-Off, Micron's A Grades, Steve Cress Origin Story](https://finnhub.io/api/news?id=c9a6f34ceccc5d3a3671098211168d4c8a87b81d898473c269c65300a40fb421)**  
-*SeekingAlpha · 5h前*  
-SpaceXâs $8B deal sparked selloff in major telecom stocks - but is it warranted? Why Micron Technology deserves its strong buy status. Steve Cress' origin sto…
+- **[Salesforce Just Turned the Agent Allowlist Into a CRM Product](https://finnhub.io/api/news?id=54a19565c2ac70a5de2a1b859e88466eddbda6abac3b22575f935acb9e23b223)**  
+*Yahoo · 1h前*  
+For months, the merchant-side gate in agentic commerce was a line in a robots.txt file. Shopify blocked AI crawlers from its checkout and cart paths, Amazon blo…
 
-- **[It Now Takes $4.4B To Make the Forbes 400: See America's 10 Richest People](https://finnhub.io/api/news?id=efeecc16c57e17c46d04074221da4494af5c4c2acfc5edb20566d9cdfd57eaf9)**  
-*Yahoo · 6h前*  
-Technology dominates the Forbes 400 rankings, with executives tied to Tesla, Amazon, Google, Meta, Nvidia, Microsoft and Oracle claiming most of the top spots.
+- **[What Projected Job Cuts at These Two Mag 7 Firms Says About AI in 2027](https://finnhub.io/api/news?id=0fa360b13baf1471febdee0366e7a186ff8bfd88fbecaabf835486fc5aa08fe7)**  
+*Yahoo · 1h前*  
+Amazon and Meta are both slashing jobs while pouring record billions into AI, but the strategies behind their cuts reveal something unexpected about which compa…
 
-- **[Ray Dalio Warns Stocks Are Running Out of Room for Error — and AI Could Make It Worse](https://finnhub.io/api/news?id=2953a388966dff5af22e889263d16600b765c8f33bd4d9b0bfc2ae3cca41aa0a)**  
-*Yahoo · 8h前*  
-Ray Dalio sees a narrowing window for stocks as bond yields climb and AI giants burn through capital faster than they can generate it. The question is whether r…
+- **[Can broadening earnings growth sustain the equity upcycle? JPM weighs in](https://finnhub.io/api/news?id=c990fd743921e1534d8404b9c7a58c1052369ffb7dead6bc1d5d22c487f4b68d)**  
+*Yahoo · 1h前*  
+Investing.com -- Third-quarter earnings should reassure investors, JPMorgan strategists say, with earnings strength broadening beyond AI, though many investors …
 
 ---
 
@@ -59,4 +59,4 @@ Ray Dalio sees a narrowing window for stocks as bond yields climb and AI giants 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
