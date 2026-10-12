@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,8 +8,8 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$209.05** |
-| 今日變動 | ▲ $10.27　(+5.17%) |
+| 現價 | **$209.00** |
+| 今日變動 | ▼ $0.05　(-0.02%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
 | 未實現盈虧 | ▲ $490　(▲64.2%) |
@@ -20,8 +20,8 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $171.11 | — |
-| Put Wall（支撐） | $140.00 | -33.0% |
+| Gamma Flip | $173.43 | — |
+| Put Wall（支撐） | $200.00 | -4.3% |
 | Call Wall（阻力） | $210.00 | +0.5% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 Momentum  Stocks to Target This Week](https://finnhub.io/api/news?id=b7d310c02badcba6b5491cdf01827cd87d65bc4f68e94038d857b7107ee5ec73)**  
-*Yahoo · 1h前*  
-Each stock in this article is trading near its 52-week high. These elevated prices usually indicate some degree of investor confidence, business improvements, o…
+- **[Palantir’s Pentagon role reveals a surprising edge](https://finnhub.io/api/news?id=31b0343caa2bf8c8ee6313542db08b5361fd1f482a6dd97c2bd178f9ac11bf99)**  
+*Yahoo · 2h前*  
+Palantir may have found a way to win no matter which AI wins
 
-- **[Dividend Harvesting Portfolio Week 293: $29,300 Allocated, $3,401.43 In Projected Dividends](https://finnhub.io/api/news?id=c07226292d6cbe47ccd3e5e71d55d8eeec9d2cf70368ea20e5df4fbbd89f5ce8)**  
-*SeekingAlpha · 4h前*  
-Dividend Harvesting Portfolio update: +0.76% weekly, 38.91% ROI and $3,401 forward income.
-
-- **[Michael Burry Shifts Bearish Bets To Nasdaq, Semiconductor ETF Puts — Sees Market Top Within 9 Months](https://finnhub.io/api/news?id=06ed4e229f8e0fb8b438546d03c24d71142741070d2ae438f874addc2120ff73)**  
+- **[Sandisk stock is this bull market's emergent star](https://finnhub.io/api/news?id=7d3ee641980e50506f48812798c2c77110d41b6a4845f9df07cefdaeb260d066)**  
 *Yahoo · 4h前*  
-The noted investor targets tech-heavy indexes and semiconductor stocks as he braces for a potential market downturn.
+Sandisk stock (SNDK) has soared over 3,000% since its IPO a year and a half ago.
+
+- **[4 No-Brainer Chip Stocks to Own for the Next Decade](https://finnhub.io/api/news?id=7f2c2e8a864cb364aab08c27e9534c47b0fa38d1867d23f8d3edf26ab3f25a2f)**  
+*Yahoo · 4h前*  
+The current pace of AI development would not be possible without these semiconductor companies.
 
 ---
 
@@ -48,7 +48,7 @@ The noted investor targets tech-heavy indexes and semiconductor stocks as he bra
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-12 | 監控 | $209.05 | — | 自動更新 |
+| 2026-10-13 | 監控 | $209.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The noted investor targets tech-heavy indexes and semiconductor stocks as he bra
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
