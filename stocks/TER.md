@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$402.68** |
-| 今日變動 | ▲ $3.96　(+0.99%) |
+| 現價 | **$383.85** |
+| 今日變動 | ▼ $18.83　(-4.68%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,553　(▲337.7%) |
+| 未實現盈虧 | ▲ $1,459　(▲317.2%) |
 
 ---
 
@@ -20,23 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $403.30 | — |
-| Put Wall（支撐） | $370.00 | -8.1% |
-| Call Wall（阻力） | $410.00 | +1.8% |
+| Gamma Flip | $403.47 | — |
+| Put Wall（支撐） | $370.00 | -3.6% |
+| Call Wall（阻力） | $410.00 | +6.8% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[3 US Growth Stocks With AI Earnings Momentum Retail Investors Should Track](https://finnhub.io/api/news?id=88fa697a350088392534b77299224b53c83ddf2bda8aa47af9d620061aac8dcd)**  
-*Yahoo · 1d前*  
-Right now, investors are watching a rare mix of forces collide, from hotly anticipated US inflation data and an aggressive Q3 earnings season to fresh stimulus …
+- **[FormFactor stock rises on $300M Teradyne investment deal](https://finnhub.io/api/news?id=3ade1486118f0a9ad7c71d8a19bc2b4e79a4b5c4647e99f0a0292590fd734af9)**  
+*Yahoo · 2h前*  
+Investing.com -- FormFactor Inc (NASDAQ:FORM) shares rose 3.6% in after-hours trading Monday following the announcement of a strategic technology collaboration …
 
-- **[Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead](https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e)**  
-*ChartMill · 3d前*  
-Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag.
+- **[FormFactor and Teradyne Announce Strategic Collaboration to Accelerate Next-Generation Semiconductor Testing](https://finnhub.io/api/news?id=00107915edf1601d8c6e57d7a5a5ced759cf7c7389aad29503afd091d5dc926d)**  
+*Yahoo · 3h前*  
+Companies to combine leadership in probe, interface, and test technologies to accelerate AI and high-performance compute deploymentsLIVERMORE, Calif., Oct. 12, …
+
+- **[Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?](https://finnhub.io/api/news?id=14fa67455c5e09ae7082343fcf044768d8d719411081585dc867c9aeb0584e4f)**  
+*Yahoo · 7h前*  
+TER's enhanced Titan HP platform strengthens its AI chip testing portfolio as soaring semiconductor test revenues fuel competition with KLA and Cohu.
 
 ---
 
@@ -44,7 +48,7 @@ Robotics and automation stocks are splitting: AI, semiconductor, and healthcare 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-12 | 監控 | $402.68 | — | 自動更新 |
+| 2026-10-13 | 監控 | $383.85 | — | 自動更新 |
 
 ---
 
@@ -55,4 +59,4 @@ Robotics and automation stocks are splitting: AI, semiconductor, and healthcare 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
