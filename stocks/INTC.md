@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$104.70** |
-| 今日變動 | ▼ $2.38　(-2.22%) |
+| 現價 | **$101.35** |
+| 今日變動 | ▼ $3.35　(-3.20%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $23　(▼2.1%) |
+| 未實現盈虧 | ▼ $57　(▼5.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $105.52 | — |
-| Put Wall（支撐） | $100.00 | -4.5% |
-| Call Wall（阻力） | $110.00 | +5.1% |
+| Gamma Flip | $105.67 | — |
+| Put Wall（支撐） | $100.00 | -1.3% |
+| Call Wall（阻力） | $110.00 | +8.5% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intel CEO Highlights Rapid Adoption of Chinese AI Models and Potential for Quantum Computing](https://finnhub.io/api/news?id=0b27739658227590cf3b5b9bbff8bce5bed32cfc8021fd962d332b3c346cefbc)**  
+- **[Intel (INTC) Sees a More Significant Dip Than Broader Market: Some Facts to Know](https://finnhub.io/api/news?id=4ca7409a737898f1248e5f7d135431941f1df7d32b068afc913b68fe5b792bd4)**  
 *Yahoo · 2h前*  
-Intel (NASDAQ:INTC) Chief Executive Officer Lip-Bu Tan said on Monday that Chinese artificial intelligence models are gaining users rapidly, supported by lower …
+Intel (INTC) concluded the recent trading session at $101.4, signifying a -3.15% move from its prior day's close.
 
-- **[3 Australian Stocks Trading Up To 43% Below Fair Value](https://finnhub.io/api/news?id=51bb64bf7bb30646ef47b3541a273e37cec90a6af2d962c42fd156852877b032)**  
+- **[Is ASML Holding NV's Stock a Buy Ahead of Its Q3 Earnings Report Wednesday?](https://finnhub.io/api/news?id=fa73c65e185f744d28d2d9b85b923c92475b509ecac999e84c223e97d3ed59a3)**  
 *Yahoo · 3h前*  
-Artificial intelligence is drawing huge investment worldwide, and Intel and Broadcom now flag that access to capital is becoming a real bottleneck for this boom…
+ASML is set to report Q3 earnings. Here's what to expect.
 
-- **[Elite AI Stocks To Own In October 2026](https://finnhub.io/api/news?id=dcde6cf6281b44d8bc8e14106234853a9ed23da1df948fb8b68a6264f35ee5bd)**  
+- **[Intel Accelerates Open Infrastructure for the Agentic AI Era](https://finnhub.io/api/news?id=2bcdbbe36c4c0cae26c8e38cd4c6143336325b92d7a787ea8be60ab8150388e6)**  
 *Yahoo · 3h前*  
-AI is soaking up capital worldwide and even Intel and Broadcom now flag funding as a bigger constraint than chips or electricity. That kind of scramble can leav…
+SANTA CLARA, Calif., October 12, 2026--Intel® GPU D-series, Xeon CPUs, open software and ecosystem innovations help customers scale agentic AI.
 
 ---
 
@@ -48,7 +48,7 @@ AI is soaking up capital worldwide and even Intel and Broadcom now flag funding 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-12 | 監控 | $104.70 | — | 自動更新 |
+| 2026-10-13 | 監控 | $101.35 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ AI is soaking up capital worldwide and even Intel and Broadcom now flag funding 
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
