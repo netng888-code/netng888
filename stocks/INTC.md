@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Elon Musk just handed Intel a new problem Wall Street can't ignore](https://finnhub.io/api/news?id=7bac0d84d8d335b2a85a6d26c4f1d3ede45477161d5ac112cc0665ae2f948efe)**  
+- **[Intel CEO Highlights Rapid Adoption of Chinese AI Models and Potential for Quantum Computing](https://finnhub.io/api/news?id=0b27739658227590cf3b5b9bbff8bce5bed32cfc8021fd962d332b3c346cefbc)**  
 *Yahoo · 2h前*  
-The chipmaker’s latest opportunity may come with a complication no one saw coming.
+Intel (NASDAQ:INTC) Chief Executive Officer Lip-Bu Tan said on Monday that Chinese artificial intelligence models are gaining users rapidly, supported by lower …
 
-- **[Intel (INTC) Reaches 500 Million AI Tool Downloads As Edge Integrations Expand](https://finnhub.io/api/news?id=e639412bffa79f9817318a92846764217e4c9bba8a716b37944cc524d4affce9)**  
-*Yahoo · 8h前*  
-Intel (NasdaqGS:INTC) expanded its collaboration with Anaconda to distribute Intel optimized AI, ML, and Python tools through the conda ecosystem. Anaconda repo…
+- **[3 Australian Stocks Trading Up To 43% Below Fair Value](https://finnhub.io/api/news?id=51bb64bf7bb30646ef47b3541a273e37cec90a6af2d962c42fd156852877b032)**  
+*Yahoo · 3h前*  
+Artificial intelligence is drawing huge investment worldwide, and Intel and Broadcom now flag that access to capital is becoming a real bottleneck for this boom…
 
-- **[KLA Turned $1,000 Into $31,595 in a Decade, Crushing the S&P 500 by 8.7x](https://finnhub.io/api/news?id=31e91335b5d3345ef66746347569706cc2d48db4fc2d8f35f542678aeab6ca64)**  
-*Yahoo · 9h前*  
-KLA builds the machines that catch chip defects before they become costly scrap, and that narrow specialty turned one quiet semiconductor stock into one of the …
+- **[Elite AI Stocks To Own In October 2026](https://finnhub.io/api/news?id=dcde6cf6281b44d8bc8e14106234853a9ed23da1df948fb8b68a6264f35ee5bd)**  
+*Yahoo · 3h前*  
+AI is soaking up capital worldwide and even Intel and Broadcom now flag funding as a bigger constraint than chips or electricity. That kind of scramble can leav…
 
 ---
 
@@ -59,4 +59,4 @@ KLA builds the machines that catch chip defects before they become costly scrap,
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
