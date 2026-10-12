@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,12 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[Nokia launches flexible 50G/25G/10GPON solution to accelerate AI-ready fiber broadband](https://finnhub.io/api/news?id=856c10c5de685a60128d8df415dd77f1164787838abe9909dd21af8c293907d8)**  
+*Yahoo · 6h前*  
+Press Release Nokia launches flexible 50G/25G/10GPON solution to accelerate AI-ready fiber broadband Nokia is the first vendor with a 16-port line card solution…
+
 - **[European Equities Traded in the US as American Depositary Receipts Rise in Friday Trading; Flat for Week](https://finnhub.io/api/news?id=bf6113749f6374da7b2a0d75a8d72e4dd0dae6273795e28c09ef2b1545702c63)**  
 *Yahoo · 2d前*  
 European equities traded in the US as American depositary receipts were tracking higher late Friday
 
 - **[Ciena's Openreach Deal: Can 1.6Tb/s Technology Drive Its Growth?](https://finnhub.io/api/news?id=7381f871c9bd2c27f42ba2cd05781b58cfc9de35b69f8cda7d8620d88b782c7b)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 CIEN's Openreach deployment of 1.6Tb/s optical technology positions it to capitalize on rising bandwidth demand from AI, data centers, cloud adoption and subsea…
 
 ---
@@ -55,4 +59,4 @@ CIEN's Openreach deployment of 1.6Tb/s optical technology positions it to capita
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
