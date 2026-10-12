@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $403.30 | — |
-| Put Wall（支撐） | $400.00 | -0.7% |
+| Put Wall（支撐） | $370.00 | -8.1% |
 | Call Wall（阻力） | $410.00 | +1.8% |
 
 **狀態：⚠️ 負Gamma區 🟡 接近Call牆**
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[3 US Growth Stocks With AI Earnings Momentum Retail Investors Should Track](https://finnhub.io/api/news?id=88fa697a350088392534b77299224b53c83ddf2bda8aa47af9d620061aac8dcd)**  
-*Yahoo · 13h前*  
+*Yahoo · 1d前*  
 Right now, investors are watching a rare mix of forces collide, from hotly anticipated US inflation data and an aggressive Q3 earnings season to fresh stimulus …
 
 - **[Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead](https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e)**  
-*ChartMill · 2d前*  
+*ChartMill · 3d前*  
 Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag.
 
 ---
@@ -55,4 +55,4 @@ Robotics and automation stocks are splitting: AI, semiconductor, and healthcare 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
