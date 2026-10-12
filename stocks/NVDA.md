@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[History Says This Will Happen to AMD Stock in 2027](https://finnhub.io/api/news?id=5a0df68ae0ee258cbb2fcad2d9c11df6e6f128c8d5cce3fc08d89fbc95491936)**  
+- **[SpaceX stock poised for a catalyst-fueled 2027](https://finnhub.io/api/news?id=9e39d6d728b8ac78a5ab795bdaa076e16df08d4123a28c664ea091ec0f171e83)**  
 *Yahoo · 1h前*  
-The chipmaker has had a great year, but its stock has risen too far, too fast.
+2027 will be eventful for SpaceX.
 
-- **[Treasury Yields Are Now Above 5%. Here's Why That's Bearish For Bitcoin.](https://finnhub.io/api/news?id=f46598660e98130840dff493be3a12cc4dd3f4b1ca8bff01db9123a2a5fba8fa)**  
+- **[Oppenheimer Thinks Viking Therapeutics Stock Can Soar to $120. Here's the Math Behind the Ultra-Bullish Call.](https://finnhub.io/api/news?id=e3720a2ff5a85aec8b8cacc55256db6736ca08f3e3105488c664973fcef72697)**  
 *Yahoo · 1h前*  
-Investors shouldn't conflate the devaluation of fiat currencies with rising Treasury yields.
+Oppenheimer raised Viking Therapeutics' price target to $120, citing strong trial data, and an improving probability of success for its key drug.
 
-- **[3 AI Stocks To Own In October 2026](https://finnhub.io/api/news?id=122bfd7df8b803c0ca64e1fd6e1a83652cc1d1e2efbb095893b835d07c595f6d)**  
+- **[IREN Stock Jumps on Talk Anthropic Is Its Mystery AI Customer](https://finnhub.io/api/news?id=a6b833d8f599949bf448c1e5d1d3685efcf2f38417b0b9e74994617c7bf8fde8)**  
 *Yahoo · 1h前*  
-Bond yields are surging worldwide and the era of easy money looks over, which puts real pressure on weaker balance sheets. Investors are hunting for businesses …
+Anthropic may well be the unnamed frontier AI lab that IREN said it had signed a cloud contract with when it reported fourth-quarter earnings.
 
 ---
 
@@ -59,4 +59,4 @@ Bond yields are surging worldwide and the era of easy money looks over, which pu
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
