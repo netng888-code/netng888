@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-12 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,7 +35,7 @@
 Intuitive Surgical, Inc. (ISRG) concluded the recent trading session at $423.96, signifying a +2.06% move from its prior day's close.
 
 - **[Robotics Stocks Diverge as AI and Semiconductor Automation Leaders Pull Ahead](https://finnhub.io/api/news?id=27e8d3f00645503716d12005bb437ba0b6b20dbe570fc2a96917ce4cb616786e)**  
-*ChartMill · 2d前*  
+*ChartMill · 3d前*  
 Robotics and automation stocks are splitting: AI, semiconductor, and healthcare robotics lead while traditional industrial and software automation lag.
 
 ---
@@ -55,4 +55,4 @@ Robotics and automation stocks are splitting: AI, semiconductor, and healthcare 
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:04 HKT*
