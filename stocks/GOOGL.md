@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-12 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-12 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Not Alphabet. Not Amazon. Microsoft Trades at Big Tech's Cheapest Valuation.](https://finnhub.io/api/news?id=4e52232f63d589a8b81f66bf8d77a2f620fbd46fb151b456cacac026497cef4f)**  
+- **[WULF Stock Gets A ‘Buy’ From TD Cowen As The AI 'Boom' Overshadows TeraWulf’s Bitcoin Mining Roots](https://finnhub.io/api/news?id=9f7097ba7c4171b92786655afbf698010cd04818f8aee7b526f77b165b231756)**  
+*Yahoo · 1h前*  
+TD Cowen analyst Michael Elias said the 9% cap rate investors use to value TeraWulf’s data center leases was too high.
+
+- **[Waymo Just Borrowed $5 Billion for the First Time](https://finnhub.io/api/news?id=bba5134703ce67f02fb19e61b262f7eb8288cd3b5a8dc64d28d5854c9af70ea9)**  
+*Yahoo · 1h前*  
+Alphabet sits on one of the largest cash piles in corporate history, so why did its robotaxi unit just walk into a room full of private credit funds and ask for…
+
+- **[Stocktwits Power Watch: CEG Bags Google Deal, VST Secures Government Funding, Utility Merger Draws Fire](https://finnhub.io/api/news?id=1d2db8f587b0f2c87d09550cb482633845fb56a2c2dc8e9b99b5bfcec11d9915)**  
 *Yahoo · 2h前*  
-The reason why Microsoft isn't valued at the same premium as its big tech peers has to do with its AI strategy.
-
-- **[Michael Moritz Says Most Investors Can’t Do the One Thing That Actually Makes Money](https://finnhub.io/api/news?id=42b73efe4408426374350440e4062eca2b573ab7199baf45bf6180e40000928a)**  
-*Yahoo · 3h前*  
-Michael Moritz backed Google, PayPal, and Stripe, and Charlie Munger credited one specific trait for his success over smarter rivals. His single question about …
-
-- **[Warren Buffett's Successor Has Billions in This Cloud Titan](https://finnhub.io/api/news?id=41a9b891537545ceeeabe897b358c70bf721c23223cd65bf192fa521ed505cd1)**  
-*Yahoo · 4h前*  
-Alphabet has quickly become one of Berkshire's largest holdings.
+U.S. power and utility companies saw major developments last week as rising AI-driven electricity demand fueled new investments, while concerns over consumer co…
 
 ---
 
@@ -59,4 +59,4 @@ Alphabet has quickly become one of Berkshire's largest holdings.
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-12 21:03 HKT*
