@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-12 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$361.54** |
-| 今日變動 | ▲ $1.40　(+0.39%) |
+| 現價 | **$354.73** |
+| 今日變動 | ▼ $6.81　(-1.88%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $171　(▼4.5%) |
+| 未實現盈虧 | ▼ $239　(▼6.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $360.73 | — |
-| Put Wall（支撐） | $350.00 | -3.2% |
-| Call Wall（阻力） | $370.00 | +2.3% |
+| Gamma Flip | $361.27 | — |
+| Put Wall（支撐） | $350.00 | -1.3% |
+| Call Wall（阻力） | $370.00 | +4.3% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Adding Nvidia During The Current Uncertainty is How Fortunes Are Made](https://finnhub.io/api/news?id=4f9348bc043986474195c4e78c200db24f7c3e035ddeda08ee67eef43da0922a)**  
-*Yahoo · 1h前*  
-Every time the market panics about AI and hammers Nvidia shares, one investor reaches for the buy button instead of the exit. Here is the specific case he makes…
-
-- **[Broadcom CEO Hock Tan calls AI investors casino gamblers](https://finnhub.io/api/news?id=3fb746ebd648a94cec914094f6c4f6604a1339accf58b5139d11ce8fec1f56ed)**  
-*Yahoo · 1h前*  
-Hock Tan said many investors have little understanding of what they're betting on, and questioned whether businesses are wasting money on AI
-
-- **[Broadcom CEO says many AI investors are gamblers](https://finnhub.io/api/news?id=2f28c2ae04158f68f1f32c1d59684c728af18d223bb03c497717d262f0da382e)**  
+- **[3 Dividend Paying Stocks Offering AI Exposure](https://finnhub.io/api/news?id=f7ed4dedfe5bb54bff0a14f84566c034d1031cb47a76a82ad116d600395c80dd)**  
 *Yahoo · 2h前*  
-Investing.com -- Broadcom Inc. Chief Executive Officer Hock Tan said Monday that the artificial intelligence boom has drawn investors who approach the sector li…
+Several stocks with favorable AI tailwinds - Broadcom (AVGO), Vertiv (VRT), and Caterpillar (CAT) - shell out dividend payments.
+
+- **[Nvidia (NVDA) vs. Broadcom (AVGO): Which AI Stock Is a Better Buy After the OpenAI Scare?](https://finnhub.io/api/news?id=fe950936ca9c51e83747140fb2468e083a38eba8ede0d39917fc600b768f189c)**  
+*Yahoo · 2h前*  
+On October 8, the Financial Times reported that OpenAI’s annualized revenue was about $50 billion, roughly $20 billion below figures widely reported in Septembe…
+
+- **[ASML CEO Says AI Chip Boom Could Stretch Beyond 2028, but Broadcom Warns of Financing Bottleneck](https://finnhub.io/api/news?id=03763869c9b37afc3b64c8a185a0158e0d0e75f9bc181bf6b35464ccab7a39e0)**  
+*Yahoo · 2h前*  
+ASML CEO Christophe Fouquet sees the artificial intelligence chip boom potentially lasting beyond 2028, but Broadcom Inc. chief Hock Tan warns that financing ma…
 
 ---
 
@@ -48,7 +48,7 @@ Investing.com -- Broadcom Inc. Chief Executive Officer Hock Tan said Monday that
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-12 | 監控 | $361.54 | — | 自動更新 |
+| 2026-10-13 | 監控 | $354.73 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Broadcom Inc. Chief Executive Officer Hock Tan said Monday that
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-12 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
