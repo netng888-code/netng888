@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[NOK, BB Stocks In Focus: Jim Cramer Expresses Confidence In Nokia, BlackBerry, But Retail Disagrees](https://finnhub.io/api/news?id=809d1c5dfc663bfedb3712fd28ea7be9915bc4c10487f3fcbc0141f756a5a662)**  
+*Yahoo · 7h前*  
+Jim Cramer backed Nokia and BlackBerry, citing AI infrastructure and software growth.
+
+- **[Nokia to sell Enterprise Campus Edge business to AURELIUS](https://finnhub.io/api/news?id=67a34228464c17afebcf91a91cfb72fe2b4342b0f8fd38c55554c90686c81237)**  
+*Yahoo · 8h前*  
+Press release Nokia to sell Enterprise Campus Edge business to AURELIUS Deal supports Nokia’s strategy to focus capital where the company can differentiate and …
+
 - **[Curious about the most active stocks on Monday?](https://finnhub.io/api/news?id=f85a91d1196a1f19d8fbfdd73496a6d057f6add264385b8dfa3e99dd85984b2f)**  
-*ChartMill · 5h前*  
+*ChartMill · 19h前*  
 Let's dive into the action on the US markets on Monday. Here are the most active stocks that are driving the market today.
-
-- **[Nokia launches flexible 50G/25G/10GPON solution to accelerate AI-ready fiber broadband](https://finnhub.io/api/news?id=856c10c5de685a60128d8df415dd77f1164787838abe9909dd21af8c293907d8)**  
-*Yahoo · 16h前*  
-Press Release Nokia launches flexible 50G/25G/10GPON solution to accelerate AI-ready fiber broadband Nokia is the first vendor with a 16-port line card solution…
-
-- **[Nokia Becomes First Vendor With 16-Port Line Card Supporting GPON And 10G, 25G, 50G PON On Every Port For AI-Ready Fiber Broadband](https://finnhub.io/api/news?id=ea9d0e14a0f286e6476ce9d23e86e21c61ae11dfd45935983c0c89d878ec1fcf)**  
-*Benzinga · 19h前*  
-Nokia launches flexible 50G/25G/10GPON solution to accelerate AI-ready fiber broadbandNokia is the first vendor with a 16-port line card solution that supports …
 
 ---
 
@@ -59,4 +59,4 @@ Nokia launches flexible 50G/25G/10GPON solution to accelerate AI-ready fiber bro
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 21:04 HKT*
