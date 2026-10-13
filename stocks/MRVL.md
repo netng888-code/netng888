@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Does NVIDIA Offer That Marvell Does Not?](https://finnhub.io/api/news?id=71af332cd766ac84194a598e771bbea846f054fac024ac252deee52203b02464)**  
-*Yahoo · 3h前*  
-Investors buy Marvell Technology (MRVL) and NVIDIA (NVDA) to capture spending on artificial intelligence data centers, but the two companies generate revenue di…
+- **[Tuesday's pre-market session: top gainers and losers in the S&P500 index](https://finnhub.io/api/news?id=123cdc6d0ab0a2796cf336c8a3776abd50b85fd1ff13a6aa674423cb8464ac24)**  
+*ChartMill · 0h前*  
+Discover the top S&P500 movers in Tuesday's pre-market session and stay informed about market dynamics.
 
-- **[Nvidia Falls Back From Record Highs. Its Stock Chart Offers a Warning.](https://finnhub.io/api/news?id=49460a8343fdb65bd26e5bb03b54eb7de61899e601a56c033fac1cd335ad0bc2)**  
-*Yahoo · 7h前*  
-The AI chip maker's shares hit a record high last week but technical analysis points to a growing risk of the stock peaking.
+- **[STARTRADER Adds 48 US Stock CFDs with 24-Hour Weekday Trading](https://finnhub.io/api/news?id=f950a12d55ff3d896e92b4be9b4344ee820eaf85653561ad9449de86fb8806c9)**  
+*Yahoo · 2h前*  
+STARTRADER has launched 48 new US Stock CFDs on its MT5 servers, tradable from Monday 03:00 to Friday 23:55 (GMT+3 platform time). The regular US session opens …
 
-- **[One Semiconductor Stock Could Surprise Investors Over the Next 3 Years](https://finnhub.io/api/news?id=eb4d8342252f3353d4b01aa5d5cdc54a784dfc38c6f9c2da4f829f0ba78cccd7)**  
-*Yahoo · 8h前*  
-Marvell Technology has quietly become one of the purest AI infrastructure plays in semiconductors, but the real question is whether its explosive run has alread…
+- **[Global chip selloff deepens as AI worries, China competition weigh](https://finnhub.io/api/news?id=4356f889a346c8843869c7c35ddcd81cd93172e0da24dccfce19285c5f2e427d)**  
+*Yahoo · 4h前*  
+Investing.com -- Shares of U.S. and European chipmakers fell Tuesday as a selloff in AI-exposed stocks deepened, pulling the broader technology sector lower ami…
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology has quietly become one of the purest AI infrastructure plays 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 21:04 HKT*
