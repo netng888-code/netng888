@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$101.35** |
-| 今日變動 | ▼ $3.35　(-3.20%) |
+| 現價 | **$102.81** |
+| 今日變動 | ▲ $1.46　(+1.44%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $57　(▼5.3%) |
+| 未實現盈虧 | ▼ $42　(▼3.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $105.67 | — |
-| Put Wall（支撐） | $100.00 | -1.3% |
-| Call Wall（阻力） | $110.00 | +8.5% |
+| Gamma Flip | $103.20 | — |
+| Put Wall（支撐） | $100.00 | -2.7% |
+| Call Wall（阻力） | $110.00 | +7.0% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intel (INTC) Sees a More Significant Dip Than Broader Market: Some Facts to Know](https://finnhub.io/api/news?id=4ca7409a737898f1248e5f7d135431941f1df7d32b068afc913b68fe5b792bd4)**  
-*Yahoo · 2h前*  
-Intel (INTC) concluded the recent trading session at $101.4, signifying a -3.15% move from its prior day's close.
+- **[SUSS Expands Innovation Ecosystem Through Strategic Partnership With Ignite Next](https://finnhub.io/api/news?id=ac6aca6e0228484b8c87de8d203e7f19ea26a8c936c332c65b67325432d6590d)**  
+*Yahoo · 1h前*  
+Access to European start-up platform and leading deep-tech innovators SUSS joins the platform as its semiconductor equipment and process technology partner Earl…
 
-- **[Is ASML Holding NV's Stock a Buy Ahead of Its Q3 Earnings Report Wednesday?](https://finnhub.io/api/news?id=fa73c65e185f744d28d2d9b85b923c92475b509ecac999e84c223e97d3ed59a3)**  
+- **[Inside the Intel Supreme Court Case: Fees, Fiduciaries and Hidden Risk](https://finnhub.io/api/news?id=427a4101b210c6e157e78f4ea953abb66aa712d361cf2afcaaa9db7404ed308b)**  
 *Yahoo · 3h前*  
-ASML is set to report Q3 earnings. Here's what to expect.
+In this episode of the Broadcast Retirement Network, we sit down with Chris Tobe, CFA, CAIA, Chief Investment Officer at The Hackett Group and author of "Kentuc…
 
-- **[Intel Accelerates Open Infrastructure for the Agentic AI Era](https://finnhub.io/api/news?id=2bcdbbe36c4c0cae26c8e38cd4c6143336325b92d7a787ea8be60ab8150388e6)**  
+- **[What Is Next For Micron Stock?](https://finnhub.io/api/news?id=c7dd6f08d6d026874fc81826252e7aa9b277727048eb00a7affc82507f0fa670)**  
 *Yahoo · 3h前*  
-SANTA CLARA, Calif., October 12, 2026--Intel® GPU D-series, Xeon CPUs, open software and ecosystem innovations help customers scale agentic AI.
+Shares of Micron Technology (MU) have returned 415% over the past twelve months, easily outpacing the 17.3% return for the S&P 500. Yet the stock trades at just…
 
 ---
 
@@ -48,7 +48,7 @@ SANTA CLARA, Calif., October 12, 2026--Intel® GPU D-series, Xeon CPUs, open sof
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-13 | 監控 | $101.35 | — | 自動更新 |
+| 2026-10-14 | 監控 | $102.81 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ SANTA CLARA, Calif., October 12, 2026--Intel® GPU D-series, Xeon CPUs, open sof
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
