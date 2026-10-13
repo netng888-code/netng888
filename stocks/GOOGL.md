@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-13 07:08 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $339.14 | — |
+| Gamma Flip | $338.55 | — |
 | Put Wall（支撐） | $350.00 | -0.8% |
 | Call Wall（阻力） | $370.00 | +4.9% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[$10,000 Invested Equally in Alphabet and Nvidia Could Be Worth This Much by 2030](https://finnhub.io/api/news?id=ac3ad1c31f2e904129842dedfc3a722f17f4ac6d12c8ed4382cc5aff8c00ab94)**  
+- **[Microsoft Could Be Worth Far More as Its Cloud and AI Businesses Scale](https://finnhub.io/api/news?id=ea626f314a57fab5059aee5e249e5c1cd242b21c8704667dc21e83ca41c88e2a)**  
 *Yahoo · 1h前*  
-Split $10,000 between Alphabet and Nvidia today, and by 2030 that bet touches everything from search ads to robotaxis to quantum chips.
+Azure is accelerating, the commercial backlog just hit a staggering new record, and Wall Street is nearly unanimous on the stock. So why does free cash flow kee…
 
-- **[JLL poaches one of CBRE’s top brokerage teams in Chicago](https://finnhub.io/api/news?id=c57a7c508263bb1879dcf5bb7f397e17c52a02a736619d8f0706aadf56f7f212)**  
+- **[Constellation's $4.3 Billion Google-Backed Upgrades vs. Vistra's $4.2 Billion Government Loan: Which Nuclear Plan Is Better for Shareholders?](https://finnhub.io/api/news?id=2efb2780eeaacf08fc622ad2958a9f2a2d201895beaadc3643f4fd3878fc3179)**  
 *Yahoo · 1h前*  
-CBRE's Dan Lyne and Kyle Kamin with the Thompson Center (Getty, CBRE, Wikimedia Commons)Chicago-based JLL snagged a six-person team of brokers from one of its b…
+A different means to the same end gives interested investors something to think about, although this difference doesn't necessarily make one stock a better bet …
 
-- **[Palantir’s Pentagon role reveals a surprising edge](https://finnhub.io/api/news?id=31b0343caa2bf8c8ee6313542db08b5361fd1f482a6dd97c2bd178f9ac11bf99)**  
+- **[Rogue agents and fired researchers: Are we losing control of AI?](https://finnhub.io/api/news?id=8e2bef058425d75fbb54a474441cde8c586a0edf3d112f9b35ee1de113ccf894)**  
 *Yahoo · 2h前*  
-Palantir may have found a way to win no matter which AI wins
+Host Ejaaz Ahamadeen connects the dots between OpenAI’s recent safety firings, Anthropic's new ban on being cruel to Claude, and the standoff between AI labs an…
 
 ---
 
@@ -59,4 +59,4 @@ Palantir may have found a way to win no matter which AI wins
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:08 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 21:03 HKT*
