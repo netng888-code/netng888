@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$9.90** |
-| 今日變動 | ▼ $0.46　(-4.44%) |
+| 現價 | **$9.86** |
+| 今日變動 | ▼ $0.04　(-0.40%) |
 | 持倉數量 | 200 股 |
 | 平均成本 | $12.458 |
-| 未實現盈虧 | ▼ $512　(▼20.5%) |
+| 未實現盈虧 | ▼ $520　(▼20.9%) |
 
 ---
 
@@ -21,8 +21,8 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $9.60 | — |
-| Put Wall（支撐） | $9.00 | -9.1% |
-| Call Wall（阻力） | $10.00 | +1.0% |
+| Put Wall（支撐） | $9.00 | -8.7% |
+| Call Wall（阻力） | $10.00 | +1.4% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[NOK, BB Stocks In Focus: Jim Cramer Expresses Confidence In Nokia, BlackBerry, But Retail Disagrees](https://finnhub.io/api/news?id=809d1c5dfc663bfedb3712fd28ea7be9915bc4c10487f3fcbc0141f756a5a662)**  
-*Yahoo · 7h前*  
-Jim Cramer backed Nokia and BlackBerry, citing AI infrastructure and software growth.
+- **[Which stocks are most active on Tuesday?](https://finnhub.io/api/news?id=a17ad523b84dd67056cf3f54c8b26ba43420d2dffa3a07b672a313f3a42b6b65)**  
+*ChartMill · 5h前*  
+These stocks are making the most noise in today's session. Stay tuned for the latest updates!
 
-- **[Nokia to sell Enterprise Campus Edge business to AURELIUS](https://finnhub.io/api/news?id=67a34228464c17afebcf91a91cfb72fe2b4342b0f8fd38c55554c90686c81237)**  
-*Yahoo · 8h前*  
-Press release Nokia to sell Enterprise Campus Edge business to AURELIUS Deal supports Nokia’s strategy to focus capital where the company can differentiate and …
+- **[Nokia to Offload Private Wireless Business As It Sharpens Strategic Focus](https://finnhub.io/api/news?id=4fa9a45437da7970891160e4267c7c594c2283dd2606a45c1173764c2031218d)**  
+*Benzinga · 13h前*  
+Nokia (NYSE: NOK) agrees to sell its Enterprise Campus Edge business to AURELIUS in early 2027 to focus on core high-value growth.
 
-- **[Curious about the most active stocks on Monday?](https://finnhub.io/api/news?id=f85a91d1196a1f19d8fbfdd73496a6d057f6add264385b8dfa3e99dd85984b2f)**  
-*ChartMill · 19h前*  
-Let's dive into the action on the US markets on Monday. Here are the most active stocks that are driving the market today.
+- **[Jim Cramer Likes This Tech Stock, Recommends Sticking With Applied Aerospace](https://finnhub.io/api/news?id=f413d05e558971fa226282f43799d3bd9121ce28b70b314a815e0720cbaa255f)**  
+*Benzinga · 15h前*  
+Cramer favors Applied Aerospace, Nokia and BlackBerry, questions Ambarella, dislikes food stocks, and says Ameresco may be oversold.
 
 ---
 
@@ -48,7 +48,7 @@ Let's dive into the action on the US markets on Monday. Here are the most active
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-13 | 監控 | $9.90 | — | 自動更新 |
+| 2026-10-14 | 監控 | $9.86 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Let's dive into the action on the US markets on Monday. Here are the most active
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
