@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$32.21** |
-| 今日變動 | ▼ $2.49　(-7.18%) |
+| 現價 | **$31.78** |
+| 今日變動 | ▼ $0.43　(-1.33%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▲ $86　(▲7.2%) |
+| 未實現盈虧 | ▲ $69　(▲5.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $37.40 | — |
-| Put Wall（支撐） | $30.00 | -6.9% |
-| Call Wall（阻力） | $40.00 | +24.2% |
+| Gamma Flip | $36.83 | — |
+| Put Wall（支撐） | $30.00 | -5.6% |
+| Call Wall（阻力） | $40.00 | +25.9% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 Stocks To Play The Nuclear Energy Boom](https://finnhub.io/api/news?id=98b0dce0765203c1d0345beb19647015bd5b536d5da104dda1e3314a6cd41375)**  
-*Yahoo · 1d前*  
-The market has been brutal with nuclear companies that are still years away from making real money, but there is a good alternative.
+- **[Oklo To Advance Groves Isotope Production Facility As Part Of US DOE’s National Reactor Innovation Center Nuclear Energy Launch Pad Initiative](https://finnhub.io/api/news?id=2003b4053cce5e995791cd6a916d256612449beaf1c5e13bcc17c2e81d8796ed)**  
+*Benzinga · 15h前*  
+U.S. Department of Energy’s National Reactor Innovation Center picks 12 developers on 13 new projects to take part in the Nuclear Energy Launch Pad initiative.O…
 
-- **[Here's Where These 4 Nuclear Reactor Stocks Could Be in 5 Years](https://finnhub.io/api/news?id=cb16ede0ffdf473dcc3fc2084df3f549ec791bb69b32a6a123bca70349ad3ca3)**  
+- **[NuScale Power Sinks 7% as Nuclear Names Give Back a Month of Ground; Oklo Falls 6%, Centrus Energy Drops 4%](https://finnhub.io/api/news?id=be2ec253a4e710d8fdd97be8d9255674abfad044ddcfa468dbb24de06c5d6928)**  
 *Yahoo · 1d前*  
-Four nuclear reactor stocks could look very different by 2031, as progress in reactors, revenue growth, and valuations determine shareholder returns.
+Nuclear reactor stocks are handing back a month of gains in a single session, and the steepest drops are falling on the companies still years away from a dollar…
 
-- **[Is Oklo the Next Trillion-Dollar Stock?](https://finnhub.io/api/news?id=c2716e32583c34a7b89cf383577bb974a9247335db4c7392f21064a6b3e5ab1c)**  
+- **[Nuclear ETFs in Spotlight as Google and Constellation Sign 3.6 GW Deal](https://finnhub.io/api/news?id=5ada70bb74ba4cbfdd8b1a7cb59ae2d5c44bcfa262db7955cb5c5e4351842352)**  
 *Yahoo · 1d前*  
-Could Oklo be the first nuclear company to join the trillion-dollar club?
+Google and Constellation's 3.59-GW nuclear deal signals a long-term industry shift, putting nuclear ETFs in focus as AI drives demand for reliable power.
 
 ---
 
@@ -48,7 +48,7 @@ Could Oklo be the first nuclear company to join the trillion-dollar club?
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-13 | 監控 | $32.21 | — | 自動更新 |
+| 2026-10-14 | 監控 | $31.78 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Could Oklo be the first nuclear company to join the trillion-dollar club?
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
