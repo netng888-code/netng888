@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[FormFactor stock rises on $300M Teradyne investment deal](https://finnhub.io/api/news?id=3ade1486118f0a9ad7c71d8a19bc2b4e79a4b5c4647e99f0a0292590fd734af9)**  
-*Yahoo · 2h前*  
-Investing.com -- FormFactor Inc (NASDAQ:FORM) shares rose 3.6% in after-hours trading Monday following the announcement of a strategic technology collaboration …
+- **[ASML Earnings Put Semiconductor Equipment Stocks' Momentum to the Test After Sharp Pullback](https://finnhub.io/api/news?id=adc386d7638d79620a3a78f93b3d0c22274363e9d219950a490b6513c180ade5)**  
+*ChartMill · 0h前*  
+Semiconductor equipment stocks face a key ASML earnings test after a sharp pullback, with strong long-term gains but elevated valuations.
 
-- **[FormFactor and Teradyne Announce Strategic Collaboration to Accelerate Next-Generation Semiconductor Testing](https://finnhub.io/api/news?id=00107915edf1601d8c6e57d7a5a5ced759cf7c7389aad29503afd091d5dc926d)**  
-*Yahoo · 3h前*  
-Companies to combine leadership in probe, interface, and test technologies to accelerate AI and high-performance compute deploymentsLIVERMORE, Calif., Oct. 12, …
+- **[Lattice Semiconductor, Amkor, Himax, Teradyne, and Kulicke and Soffa Shares Plummet, What You Need To Know](https://finnhub.io/api/news?id=aed9813f4ac67b91711f57b611d99f4bfd6a865f1570237d5761036897a1ed18)**  
+*Yahoo · 12h前*  
+A number of stocks fell in the afternoon session after worries weighed on memory chipmakers and sparked selling pressure across the broader semiconductor sector…
 
-- **[Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?](https://finnhub.io/api/news?id=14fa67455c5e09ae7082343fcf044768d8d719411081585dc867c9aeb0584e4f)**  
-*Yahoo · 7h前*  
-TER's enhanced Titan HP platform strengthens its AI chip testing portfolio as soaring semiconductor test revenues fuel competition with KLA and Cohu.
+- **[Here's Why Teradyne (TER) Fell More Than Broader Market](https://finnhub.io/api/news?id=e9eb4d76a640b964aecdff9acba753bbbc99489b0a3caecb40f18723471584bf)**  
+*Yahoo · 15h前*  
+Teradyne (TER) closed at $383.85 in the latest trading session, marking a -4.68% move from the prior day.
 
 ---
 
@@ -59,4 +59,4 @@ TER's enhanced Titan HP platform strengthens its AI chip testing portfolio as so
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 21:04 HKT*
