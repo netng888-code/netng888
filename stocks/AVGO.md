@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $361.27 | — |
-| Put Wall（支撐） | $350.00 | -1.3% |
+| Gamma Flip | $359.92 | — |
+| Put Wall（支撐） | $340.00 | -4.2% |
 | Call Wall（阻力） | $370.00 | +4.3% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[3 Dividend Paying Stocks Offering AI Exposure](https://finnhub.io/api/news?id=f7ed4dedfe5bb54bff0a14f84566c034d1031cb47a76a82ad116d600395c80dd)**  
-*Yahoo · 2h前*  
-Several stocks with favorable AI tailwinds - Broadcom (AVGO), Vertiv (VRT), and Caterpillar (CAT) - shell out dividend payments.
+- **[Tech Selloff Deepens as Bank Earnings Fuel Stock Market Rotation](https://finnhub.io/api/news?id=9328fa0cab3286cc651f7448b00e2e8188e5e7ff7ac8ffa01eda5c724ff2fe91)**  
+*Yahoo · 1h前*  
+The stock market is reacting to big bank earnings, Micron gets a warning from Elon Musk about Chinese memory chips, and more news to start your day.
 
-- **[Nvidia (NVDA) vs. Broadcom (AVGO): Which AI Stock Is a Better Buy After the OpenAI Scare?](https://finnhub.io/api/news?id=fe950936ca9c51e83747140fb2468e083a38eba8ede0d39917fc600b768f189c)**  
-*Yahoo · 2h前*  
-On October 8, the Financial Times reported that OpenAI’s annualized revenue was about $50 billion, roughly $20 billion below figures widely reported in Septembe…
+- **[Broadcom vs. Nvidia: The AI Revolution Is Big Enough for Both. Here's the Better Buy.](https://finnhub.io/api/news?id=f017172f3754b7d9bb8941ae11d299585b4b14a8254ec529ec0b50f5c376a04f)**  
+*Yahoo · 1h前*  
+Nvidia and Broadcom are two of the best-positioned stocks for the continued AI infrastructure boom.
 
-- **[ASML CEO Says AI Chip Boom Could Stretch Beyond 2028, but Broadcom Warns of Financing Bottleneck](https://finnhub.io/api/news?id=03763869c9b37afc3b64c8a185a0158e0d0e75f9bc181bf6b35464ccab7a39e0)**  
+- **[Seoul, Tokyo stocks plunge as Asia suffers fresh tech rout](https://finnhub.io/api/news?id=5e0368ab9f2b55a223267289c1a9b825b98e87c71cfa9aa70d00ae9523345d27)**  
 *Yahoo · 2h前*  
-ASML CEO Christophe Fouquet sees the artificial intelligence chip boom potentially lasting beyond 2028, but Broadcom Inc. chief Hock Tan warns that financing ma…
+Seoul, Tokyo and Taipei led losses across Asian stock markets on Tuesday as technology firms plunged on fresh worries about the outlook for the AI investment bo…
 
 ---
 
@@ -59,4 +59,4 @@ ASML CEO Christophe Fouquet sees the artificial intelligence chip boom potential
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 21:03 HKT*
