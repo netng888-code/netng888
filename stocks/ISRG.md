@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$427.64** |
-| 今日變動 | ▲ $3.68　(+0.87%) |
+| 現價 | **$422.06** |
+| 今日變動 | ▼ $5.58　(-1.30%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $51　(▼5.6%) |
+| 未實現盈虧 | ▼ $62　(▼6.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $397.30 | — |
-| Put Wall（支撐） | $415.00 | -3.0% |
-| Call Wall（阻力） | $440.00 | +2.9% |
+| Gamma Flip | $398.02 | — |
+| Put Wall（支撐） | $415.00 | -1.7% |
+| Call Wall（阻力） | $440.00 | +4.3% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Abbott Laboratories vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=07f64436b15bb515cf5704a99d822bb9995517764231539e379bbadc26ca483a)**  
-*Yahoo · 4h前*  
-Abbott trades at a 18x forward P/E with $7.4B in free cash flow, while Intuitive Surgical commands a 39x multiple backed by zero debt and 20% revenue growth.
+- **[Intuitive Surgical (ISRG) Could Be 31% Overvalued After Earnings Outlook Upgrade](https://finnhub.io/api/news?id=be72b4137093491a94b01709e7a08dca52310dcfb8761a6c088cd7b245769cf5)**  
+*Yahoo · 3h前*  
+Intuitive Surgical (ISRG) is back in focus after an upgrade in its earnings outlook, driven by higher analyst estimates, a strong recent quarter, and new GI rob…
 
-- **[Has Medtronic Stock Become A Different Bet?](https://finnhub.io/api/news?id=5b549af35f8c34e8aff5bf2125e0b56139f22e32e5010a2ac3f69e489b9878c2)**  
-*Yahoo · 5h前*  
-Medtronic (MDT) stock trades at 21.6 times earnings, sitting about level with the S&P 500 at 21.9. Shareholders paying that market price need to know what they …
+- **[ISRG Is Expanding Beyond Surgery: Here's Why the GI Opportunity Matters](https://finnhub.io/api/news?id=d4643b3a17cd63a799572f885eb84caf3c32471817891d8fb50fba5d6da03535)**  
+*Yahoo · 6h前*  
+Intuitive Surgical is targeting GI care with a next-generation robotic endoscope submitted to the FDA, opening a potential growth avenue beyond surgery.
 
-- **[4 Healthcare Stocks Worth Owning for the Next Decade](https://finnhub.io/api/news?id=e56eedd987cc94a618712e6a1e61bc2c1f2659bbfefcac8700a32838ef55df07)**  
+- **[Can a Spinoff Fix Johnson & Johnson’s Medtech Problem?](https://finnhub.io/api/news?id=7080d2487b8b3fdcccce025d594bca2057f3180dcc75b63ffdae05b01fe4c4a6)**  
 *Yahoo · 7h前*  
-Two healthcare stocks that are leading their niches, and two that investors aren't giving enough credit to in the same niches.
+Johnson & Johnson says it is working to improve results in its medical-device business, where surgery revenue fell for the latest quarter.
 
 ---
 
@@ -48,7 +48,7 @@ Two healthcare stocks that are leading their niches, and two that investors aren
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-13 | 監控 | $427.64 | — | 自動更新 |
+| 2026-10-14 | 監控 | $422.06 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Two healthcare stocks that are leading their niches, and two that investors aren
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
