@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-13 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$354.73** |
-| 今日變動 | ▼ $6.81　(-1.88%) |
+| 現價 | **$357.31** |
+| 今日變動 | ▲ $2.58　(+0.73%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $239　(▼6.3%) |
+| 未實現盈虧 | ▼ $213　(▼5.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $359.92 | — |
-| Put Wall（支撐） | $340.00 | -4.2% |
-| Call Wall（阻力） | $370.00 | +4.3% |
+| Gamma Flip | $359.55 | — |
+| Put Wall（支撐） | $350.00 | -2.0% |
+| Call Wall（阻力） | $370.00 | +3.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tech Selloff Deepens as Bank Earnings Fuel Stock Market Rotation](https://finnhub.io/api/news?id=9328fa0cab3286cc651f7448b00e2e8188e5e7ff7ac8ffa01eda5c724ff2fe91)**  
-*Yahoo · 1h前*  
-The stock market is reacting to big bank earnings, Micron gets a warning from Elon Musk about Chinese memory chips, and more news to start your day.
-
-- **[Broadcom vs. Nvidia: The AI Revolution Is Big Enough for Both. Here's the Better Buy.](https://finnhub.io/api/news?id=f017172f3754b7d9bb8941ae11d299585b4b14a8254ec529ec0b50f5c376a04f)**  
-*Yahoo · 1h前*  
-Nvidia and Broadcom are two of the best-positioned stocks for the continued AI infrastructure boom.
-
-- **[Seoul, Tokyo stocks plunge as Asia suffers fresh tech rout](https://finnhub.io/api/news?id=5e0368ab9f2b55a223267289c1a9b825b98e87c71cfa9aa70d00ae9523345d27)**  
+- **[Chips' Sixth Straight Loss Drags Nasdaq Into the Red](https://finnhub.io/api/news?id=14c88032d0fdbe056165625ddc6d0141325a2a4ffad3d3780ea52492e44e99e9)**  
 *Yahoo · 2h前*  
-Seoul, Tokyo and Taipei led losses across Asian stock markets on Tuesday as technology firms plunged on fresh worries about the outlook for the AI investment bo…
+Chip stocks marked their longest losing streak in more than a year to overshadow the earnings season kickoff.
+
+- **[Marvell Is Up 214% in 2026 While Broadcom Is Only Up 3%: Take Profits on MRVL Stock, or Hold On for the Ride?](https://finnhub.io/api/news?id=af07cd734a7b14d9bed832d5fb9445710fad8ea2bc841e5998a4204959ada643)**  
+*Yahoo · 4h前*  
+Marvell stock has left Broadcom and NVIDIA in the dust this year, but a gain that steep raises a sharper question than most investors want to answer about what …
+
+- **[The Five Largest Holdings in the RANK ETF After Its Latest Rebalance](https://finnhub.io/api/news?id=567de157dc5959bc72fbaf24453fcb5b90c56837a4b89a235c014dfebf7272d6)**  
+*Yahoo · 4h前*  
+The Defiance KSM TipRanks Analyst ETF (RANK) has completed its latest quarterly reconstitution and rebalance, which took effect after the close on September 21,…
 
 ---
 
@@ -48,7 +48,7 @@ Seoul, Tokyo and Taipei led losses across Asian stock markets on Tuesday as tech
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-13 | 監控 | $354.73 | — | 自動更新 |
+| 2026-10-14 | 監控 | $357.31 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Seoul, Tokyo and Taipei led losses across Asian stock markets on Tuesday as tech
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 07:03 HKT*
