@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[Final Pair of Redwire ROSA Wings Launch to the ISS, Completing Historic Power Modernization Effort](https://finnhub.io/api/news?id=1521cf93269b1a666d4abdd8324f645077c52268b4590a39392194ade1a0a735)**  
+*Yahoo · 1d前*  
+JACKSONVILLE, Fla., October 12, 2026--Redwire Corporation (NYSE: RDW), a leader in space infrastructure for the next generation space economy, announced today t…
+
 - **[Redwire vs. Rocket Lab: Which Industrials Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=06d3672ffde6088cdd59e1e3da1b5462b2a0ae5f78814f5bf0b5420799ff8cce)**  
 *Yahoo · 2d前*  
 Both companies are unprofitable and burning cash, but their paths to scale, and valuations, tell strikingly different stories.
@@ -51,4 +55,4 @@ Both companies are unprofitable and burning cash, but their paths to scale, and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 21:04 HKT*
