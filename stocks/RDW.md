@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$9.22** |
-| 今日變動 | ▼ $0.36　(-3.76%) |
+| 現價 | **$9.16** |
+| 今日變動 | ▼ $0.06　(-0.65%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $257　(▼41.1%) |
+| 未實現盈虧 | ▼ $260　(▼41.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $10.59 | — |
-| Put Wall（支撐） | $8.50 | -7.8% |
-| Call Wall（阻力） | $10.00 | +8.5% |
+| Gamma Flip | $10.57 | — |
+| Put Wall（支撐） | $8.50 | -7.2% |
+| Call Wall（阻力） | $10.00 | +9.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -34,17 +34,13 @@
 *Yahoo · 1d前*  
 JACKSONVILLE, Fla., October 12, 2026--Redwire Corporation (NYSE: RDW), a leader in space infrastructure for the next generation space economy, announced today t…
 
-- **[Redwire vs. Rocket Lab: Which Industrials Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=06d3672ffde6088cdd59e1e3da1b5462b2a0ae5f78814f5bf0b5420799ff8cce)**  
-*Yahoo · 2d前*  
-Both companies are unprofitable and burning cash, but their paths to scale, and valuations, tell strikingly different stories.
-
 ---
 
 ## 📝 操作記錄
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-13 | 監控 | $9.22 | — | 自動更新 |
+| 2026-10-14 | 監控 | $9.16 | — | 自動更新 |
 
 ---
 
@@ -55,4 +51,4 @@ Both companies are unprofitable and burning cash, but their paths to scale, and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
