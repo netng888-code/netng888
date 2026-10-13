@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-13 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$352.72** |
+| 現價 | **$353.78** |
 | 今日變動 | ▲ $1.06　(+0.30%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $2,154　(▲43.9%) |
+| 未實現盈虧 | ▲ $2,175　(▲44.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $338.55 | — |
-| Put Wall（支撐） | $350.00 | -0.8% |
-| Call Wall（阻力） | $370.00 | +4.9% |
+| Gamma Flip | $339.34 | — |
+| Put Wall（支撐） | $350.00 | -1.1% |
+| Call Wall（阻力） | $370.00 | +4.6% |
 
 **狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Microsoft Could Be Worth Far More as Its Cloud and AI Businesses Scale](https://finnhub.io/api/news?id=ea626f314a57fab5059aee5e249e5c1cd242b21c8704667dc21e83ca41c88e2a)**  
+- **[Disney strikes $20-million deal for Character.ai's assets as AI startup files for bankruptcy](https://finnhub.io/api/news?id=4ff145b84bdbef140f3c31d2ba00e7500856ae85ff48d23437d5348b2f54e877)**  
 *Yahoo · 1h前*  
-Azure is accelerating, the commercial backlog just hit a staggering new record, and Wall Street is nearly unanimous on the stock. So why does free cash flow kee…
+The AI company has faced lawsuits over child safety and copyright issues involving Disney.
 
-- **[Constellation's $4.3 Billion Google-Backed Upgrades vs. Vistra's $4.2 Billion Government Loan: Which Nuclear Plan Is Better for Shareholders?](https://finnhub.io/api/news?id=2efb2780eeaacf08fc622ad2958a9f2a2d201895beaadc3643f4fd3878fc3179)**  
+- **[Does the Risk-Reward Profile Still Favor Alphabet (GOOGL) Investors?](https://finnhub.io/api/news?id=90e311ecb163e0e2633cb21a36293336d180874915f3b3e005ab3d2939ff1adc)**  
 *Yahoo · 1h前*  
-A different means to the same end gives interested investors something to think about, although this difference doesn't necessarily make one stock a better bet …
+Alphabet Inc. (NASDAQ:GOOGL) has outpaced the market by more than 26 percentage points during the last 1 year, and a massive gap between its operating cash flow…
 
-- **[Rogue agents and fired researchers: Are we losing control of AI?](https://finnhub.io/api/news?id=8e2bef058425d75fbb54a474441cde8c586a0edf3d112f9b35ee1de113ccf894)**  
+- **[Has IBM Stock Become A Different Bet?](https://finnhub.io/api/news?id=7a60e94db7d4232b90f6724f2239f5bf44333ccb2643e04f5658315d3100a673)**  
 *Yahoo · 2h前*  
-Host Ejaaz Ahamadeen connects the dots between OpenAI’s recent safety firings, Anthropic's new ban on being cruel to Claude, and the standoff between AI labs an…
+Shares of IBM (IBM) currently trade at 19.9 times earnings, while the S&P 500 sits at 21.9. Investors buying at that multiple need to understand the underlying …
 
 ---
 
@@ -48,7 +48,7 @@ Host Ejaaz Ahamadeen connects the dots between OpenAI’s recent safety firings,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-13 | 監控 | $352.72 | — | 自動更新 |
+| 2026-10-14 | 監控 | $353.78 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Host Ejaaz Ahamadeen connects the dots between OpenAI’s recent safety firings,
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 07:03 HKT*
