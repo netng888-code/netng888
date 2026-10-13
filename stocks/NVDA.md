@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $213.02 | — |
+| Gamma Flip | $212.08 | — |
 | Put Wall（支撐） | $220.00 | -2.8% |
 | Call Wall（阻力） | $230.00 | +1.6% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[$10,000 Invested Equally in Alphabet and Nvidia Could Be Worth This Much by 2030](https://finnhub.io/api/news?id=ac3ad1c31f2e904129842dedfc3a722f17f4ac6d12c8ed4382cc5aff8c00ab94)**  
+- **[The Pipeline Stock Wall Street Forgot Could Still Pay You $500 a Month. But There's a Catch.](https://finnhub.io/api/news?id=2ba86366e3943c2687fbfd6fda10f31ecad4a4443f6ee81534bb4a81a7defa73)**  
 *Yahoo · 1h前*  
-Split $10,000 between Alphabet and Nvidia today, and by 2030 that bet touches everything from search ads to robotaxis to quantum chips.
+MPLX has a growing dividend, but reaching a $6,000-a-year income from this midstream stock is an expensive proposition.
 
-- **[Why CCC Intelligent Solutions Stock Soared Today](https://finnhub.io/api/news?id=10579f8753e6fb3f571f87539620499475e6f67f862f38f9acef6237d66c5166)**  
+- **[SpaceX Plans to Take on $40 Billion in New Debt. Here's Why Investors Should Get Used to This](https://finnhub.io/api/news?id=bea4b60a5faf6b0f0d541d1da1873d585b2b1a517b4b8ac00e7f526a65146c6b)**  
 *Yahoo · 1h前*  
-A pair of financial companies is apparently trying to acquire it.
+The company is burning through tons of cash, and that is likely to accelerate in the future.
 
-- **[You Bought VOO to Own the S&P 500. On $500,000, One Chipmaker Is $40,400 of It](https://finnhub.io/api/news?id=168c2e81b310c99e844075634ccb02350cf9070d35303be37bec2dcf182d63cd)**  
+- **[Tech Selloff Deepens as Bank Earnings Fuel Stock Market Rotation](https://finnhub.io/api/news?id=9328fa0cab3286cc651f7448b00e2e8188e5e7ff7ac8ffa01eda5c724ff2fe91)**  
 *Yahoo · 1h前*  
-A single retirement account holding VOO may carry far more exposure to one chipmaker than its owner ever intended, and the fund's own prospectus quietly warns a…
+The stock market is reacting to big bank earnings, Micron gets a warning from Elon Musk about Chinese memory chips, and more news to start your day.
 
 ---
 
@@ -59,4 +59,4 @@ A single retirement account holding VOO may carry far more exposure to one chipm
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-13 21:04 HKT*
