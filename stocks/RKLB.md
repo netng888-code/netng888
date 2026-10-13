@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-13 07:09 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$65.71** |
-| 今日變動 | ▼ $2.50　(-3.67%) |
+| 現價 | **$64.22** |
+| 今日變動 | ▼ $1.49　(-2.27%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $103　(▼13.5%) |
+| 未實現盈虧 | ▼ $118　(▼15.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $68.92 | — |
-| Put Wall（支撐） | $65.00 | -1.1% |
-| Call Wall（阻力） | $70.00 | +6.5% |
+| Gamma Flip | $67.89 | — |
+| Put Wall（支撐） | $60.00 | -6.6% |
+| Call Wall（阻力） | $65.00 | +1.2% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Rocket Lab: Missing Neutron Catalyst Putting Pressure On Valuation (Downgrade)](https://finnhub.io/api/news?id=d4b68fa501632759d5bb235d92dcdc04741ebd01752679c15a8fc5a57fcbd59f)**  
-*SeekingAlpha · 5h前*  
-Rocket Lab Corporation faces valuation pressure as investors await Neutron launch; Electron adds stability, but upside hinges on execution. Click for a RKLB sto…
+- **[AST SpaceMobile vs. Rocket Lab: Which Space-Focused Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=bc50ec755286101f660e1812033a95f78103a4da32ea0e555789dd75f5bc6471)**  
+*Yahoo · 2h前*  
+One company is racing to connect phones directly to satellites; the other builds the rockets that get them there. Both are burning cash, but their paths to prof…
 
-- **[Why SpaceX’s Spectrum Purchase Is Good for AST SpaceMobile Stock](https://finnhub.io/api/news?id=d4df0ef9eea7e58043e81659d8a1e987ae12f30be4fd5fd8400fdd2b0ece1928)**  
+- **[AST SpaceMobile Sinks 9% as Piper Sandler Cuts to Neutral on SpaceX Direct-to-Cell Threat; Planet Labs Drops 4%, Rocket Lab Slips](https://finnhub.io/api/news?id=1a94e911f954ee4f3faf126b9fb38098e85f933c92039bb17d91afb1c8a01ff3)**  
+*Yahoo · 8h前*  
+Piper Sandler and Deutsche Bank looked at the same SpaceX spectrum threat and reached opposite conclusions about AST SpaceMobile, and the split verdict is now f…
+
+- **[Air Launch Is Back on the Space Industry's Flight Plan](https://finnhub.io/api/news?id=572c2038f17fbbdc5574fccd5e9e47e57d156908b685afd54112fe3469a5e9b1)**  
 *Yahoo · 9h前*  
-Deutsche Bank upgraded AST SpaceMobile to Buy, arguing that SpaceX’s spectrum purchase could strengthen AST’s appeal to wireless carriers.
-
-- **[AST SpaceMobile Rallies 4% as Next BlueBird Satellites Reach Cape Canaveral; Rocket Lab and Intuitive Machines Hold Flat](https://finnhub.io/api/news?id=8207b5e87f40db5d5ed1c04148aff04e0fb81ebfa0c6f874fc5625402be85d8b)**  
-*Yahoo · 10h前*  
-Fresh hardware arriving at Cape Canaveral gave AST SpaceMobile bulls a reason to cheer, but a mounting analyst argument about SpaceX may matter far more for whe…
+American News Group News Commentary - The global space launch services market was valued at $16.9 billion in 2022 and is projected to reach $29.6 billion by 202…
 
 ---
 
@@ -48,7 +48,7 @@ Fresh hardware arriving at Cape Canaveral gave AST SpaceMobile bulls a reason to
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-13 | 監控 | $65.71 | — | 自動更新 |
+| 2026-10-14 | 監控 | $64.22 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Fresh hardware arriving at Cape Canaveral gave AST SpaceMobile bulls a reason to
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-13 07:09 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
