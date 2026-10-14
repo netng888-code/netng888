@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$228.52** |
-| 今日變動 | ▲ $2.20　(+0.97%) |
+| 現價 | **$221.30** |
+| 今日變動 | ▼ $7.22　(-3.16%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $789　(▲20.9%) |
+| 未實現盈虧 | ▲ $645　(▲17.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $213.83 | — |
-| Put Wall（支撐） | $220.00 | -3.7% |
-| Call Wall（阻力） | $230.00 | +0.6% |
+| Gamma Flip | $215.68 | — |
+| Put Wall（支撐） | $220.00 | -0.6% |
+| Call Wall（阻力） | $230.00 | +3.9% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Trade Rotation: Software and Cloud Stocks Outpace Chipmakers Ahead of Nvidia Earnings](https://finnhub.io/api/news?id=d7f3da997e09184ffeb64870a1ae539dcb9a965e65271c2358d573922cddcc42)**  
-*ChartMill · 0h前*  
-AI stocks are rotating, not retreating. Software and cloud names lead while chip giants cool. See key valuations, growth, and risks across Nvidia, Palantir, and…
-
-- **[One of The S&P 500's Top-Yielding Dividend Stocks Just Hiked Its Payout Again](https://finnhub.io/api/news?id=15ced2e1249757ebc0b7c5bcfd8399786ac25eb6550747b83e17739f767c95b4)**  
+- **[Jim Cramer Calls CoreWeave the "Real Deal," but the Stock Crashed 15% the Very Next Day. Should You Buy the Dip?](https://finnhub.io/api/news?id=ef1197e0ef50ada873ed93a73c68f4ade5d24b3658ac71a6470ab45561847be5)**  
 *Yahoo · 1h前*  
-This income-generating juggernaut may be one of the stock market's best-kept secrets.
+Jim Cramer says CoreWeave is the only AI neocloud he trusts.
 
-- **[The S&P 500 Is Dangerously Concentrated in 5 Tech Giants. Are They Still Buys?](https://finnhub.io/api/news?id=f5bc56b8af9fba13877c9de385db378b3a73f293dd588365f352721d6c7f9ef3)**  
+- **[Exxon Wants to Repeat Its Guyana Success in Trinidad. Should You Buy the Stock Now or Wait for the First Well?](https://finnhub.io/api/news?id=492b0883335b9dace7d7b346a2517d928f9c15982672df0aa6cb303b77250ec1)**  
 *Yahoo · 1h前*  
-Nvidia, Apple, Microsoft, Alphabet, and Amazon make up nearly 30% of the S&P 500's holdings.
+Trinidad offers upside, but Exxon's existing business remains strong.
+
+- **[Got $5,000? 2 Stocks Supplying the AI Data Center Power Crunch.](https://finnhub.io/api/news?id=09628bf7484e1ab9af008a98d485e6628d198062ded913fb18efe19620d37d6c)**  
+*Yahoo · 1h前*  
+McKinsey expects data center power demand to grow at a 24% annual rate through 2030.
 
 ---
 
@@ -48,7 +48,7 @@ Nvidia, Apple, Microsoft, Alphabet, and Amazon make up nearly 30% of the S&P 500
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-14 | 監控 | $228.52 | — | 自動更新 |
+| 2026-10-15 | 監控 | $221.30 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia, Apple, Microsoft, Alphabet, and Amazon make up nearly 30% of the S&P 500
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 07:03 HKT*
