@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-14 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 Absurdly Cheap Stocks to Buy Before the End of 2026](https://finnhub.io/api/news?id=0225fafa16770b8f902cb98304082528787d231134534da56943ba525d6461e1)**  
-*Yahoo · 1h前*  
-These stocks are priced incredibly low and possess significant upside.
+- **[AI Trade Rotation: Software and Cloud Stocks Outpace Chipmakers Ahead of Nvidia Earnings](https://finnhub.io/api/news?id=d7f3da997e09184ffeb64870a1ae539dcb9a965e65271c2358d573922cddcc42)**  
+*ChartMill · 0h前*  
+AI stocks are rotating, not retreating. Software and cloud names lead while chip giants cool. See key valuations, growth, and risks across Nvidia, Palantir, and…
 
-- **[Which Industrials Stock Do Analysts Like Better: Deere or Caterpillar?](https://finnhub.io/api/news?id=78886dc6c77910524e644e1889e59f753eec885d0ddea8b88a49300eac8805e8)**  
+- **[One of The S&P 500's Top-Yielding Dividend Stocks Just Hiked Its Payout Again](https://finnhub.io/api/news?id=15ced2e1249757ebc0b7c5bcfd8399786ac25eb6550747b83e17739f767c95b4)**  
 *Yahoo · 1h前*  
-Narratives about the two heavy equipment makers have diverged, leaving one a Wall Street favorite.
+This income-generating juggernaut may be one of the stock market's best-kept secrets.
 
-- **[How Early Taltz and Zepbound Biomarker Synergies At Eli Lilly (LLY) Have Changed Its Investment Story](https://finnhub.io/api/news?id=8f910a8d322aaff83d4aec5635894f4b73792284154ceb571de12260593cb0b6)**  
+- **[The S&P 500 Is Dangerously Concentrated in 5 Tech Giants. Are They Still Buys?](https://finnhub.io/api/news?id=f5bc56b8af9fba13877c9de385db378b3a73f293dd588365f352721d6c7f9ef3)**  
 *Yahoo · 1h前*  
-Eli Lilly recently reported exploratory Phase 3b data from the TOGETHER-PsO trial showing that combining Taltz with Zepbound in adults with moderate-to-severe p…
+Nvidia, Apple, Microsoft, Alphabet, and Amazon make up nearly 30% of the S&P 500's holdings.
 
 ---
 
@@ -59,4 +59,4 @@ Eli Lilly recently reported exploratory Phase 3b data from the TOGETHER-PsO tria
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
