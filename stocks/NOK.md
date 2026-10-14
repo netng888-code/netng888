@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[What To Do As Nokia Shares Trade In A Narrow Range](https://finnhub.io/api/news?id=6bd86063691f5045aa9191ef2d0b1f8567c59ee4f664d74879425bc4b439bcdf)**  
+*SeekingAlpha · 8h前*
+
 - **[Which stocks are most active on Tuesday?](https://finnhub.io/api/news?id=a17ad523b84dd67056cf3f54c8b26ba43420d2dffa3a07b672a313f3a42b6b65)**  
-*ChartMill · 5h前*  
+*ChartMill · 19h前*  
 These stocks are making the most noise in today's session. Stay tuned for the latest updates!
 
-- **[Nokia to Offload Private Wireless Business As It Sharpens Strategic Focus](https://finnhub.io/api/news?id=4fa9a45437da7970891160e4267c7c594c2283dd2606a45c1173764c2031218d)**  
-*Benzinga · 13h前*  
-Nokia (NYSE: NOK) agrees to sell its Enterprise Campus Edge business to AURELIUS in early 2027 to focus on core high-value growth.
-
-- **[Jim Cramer Likes This Tech Stock, Recommends Sticking With Applied Aerospace](https://finnhub.io/api/news?id=f413d05e558971fa226282f43799d3bd9121ce28b70b314a815e0720cbaa255f)**  
-*Benzinga · 15h前*  
-Cramer favors Applied Aerospace, Nokia and BlackBerry, questions Ambarella, dislikes food stocks, and says Ameresco may be oversold.
+- **[Inseego Targets New Broadband Opportunities with Licensed Band Radio Technology](https://finnhub.io/api/news?id=f8b01466583101cdb1be001a3e0c98bfc4bf8fe165c114109d7b620afbce659a)**  
+*Yahoo · 20h前*  
+Building on FastMile™ mmWave expertise to support carrier evaluations of emerging Licensed Band Radio deployment modelsVIENNA, Oct. 13, 2026 (GLOBE NEWSWIRE) --…
 
 ---
 
@@ -59,4 +58,4 @@ Cramer favors Applied Aerospace, Nokia and BlackBerry, questions Ambarella, disl
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
