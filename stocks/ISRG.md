@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$422.06** |
-| 今日變動 | ▼ $5.58　(-1.30%) |
+| 現價 | **$420.24** |
+| 今日變動 | ▼ $1.82　(-0.43%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $62　(▼6.9%) |
+| 未實現盈虧 | ▼ $66　(▼7.3%) |
 
 ---
 
@@ -20,27 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $398.02 | — |
-| Put Wall（支撐） | $415.00 | -1.7% |
-| Call Wall（阻力） | $440.00 | +4.3% |
+| Gamma Flip | $399.57 | — |
+| Put Wall（支撐） | $415.00 | -1.2% |
+| Call Wall（阻力） | $425.00 | +1.1% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical (ISRG) Could Be 31% Overvalued After Earnings Outlook Upgrade](https://finnhub.io/api/news?id=be72b4137093491a94b01709e7a08dca52310dcfb8761a6c088cd7b245769cf5)**  
-*Yahoo · 17h前*  
-Intuitive Surgical (ISRG) is back in focus after an upgrade in its earnings outlook, driven by higher analyst estimates, a strong recent quarter, and new GI rob…
+- **[ISRG Gains Nearly 12% in a Month: Should You Buy, Hold or Sell?](https://finnhub.io/api/news?id=52b9192413945d0a0a6604766abffa8725bc7164e4bd7aebb78648b5beee6fea)**  
+*Yahoo · 6h前*  
+Intuitive Surgical shares have surged nearly 12% in a month ahead of Q3 earnings. Strong da Vinci 5 adoption and Ion growth fuel momentum, but valuation and ris…
 
-- **[ISRG Is Expanding Beyond Surgery: Here's Why the GI Opportunity Matters](https://finnhub.io/api/news?id=d4643b3a17cd63a799572f885eb84caf3c32471817891d8fb50fba5d6da03535)**  
-*Yahoo · 20h前*  
-Intuitive Surgical is targeting GI care with a next-generation robotic endoscope submitted to the FDA, opening a potential growth avenue beyond surgery.
+- **[UFP Technologies: Re-Rated As Organic Growth Returns](https://finnhub.io/api/news?id=8cfb673e9d02748ead865fd03180b4fb79526916cd22918f84ae65a04af296f8)**  
+*SeekingAlpha · 9h前*
 
-- **[Can a Spinoff Fix Johnson & Johnson’s Medtech Problem?](https://finnhub.io/api/news?id=7080d2487b8b3fdcccce025d594bca2057f3180dcc75b63ffdae05b01fe4c4a6)**  
-*Yahoo · 21h前*  
-Johnson & Johnson says it is working to improve results in its medical-device business, where surgery revenue fell for the latest quarter.
+- **[Zacks.com featured highlights include Chipotle Mexican Grill, BP and Intuitive Surgical](https://finnhub.io/api/news?id=12c0cbf3f5dcfe6506779b2f7c642f0f8476ff11b7ea185cba807dcfb53f7235)**  
+*Yahoo · 10h前*  
+Chipotle, BP and Intuitive Surgical stand out as sales growth stocks to watch, with 2026 revenue forecasts ranging from 9% to 28.9% as Q3 earnings begin.
 
 ---
 
@@ -48,7 +47,7 @@ Johnson & Johnson says it is working to improve results in its medical-device bu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-14 | 監控 | $422.06 | — | 自動更新 |
+| 2026-10-15 | 監控 | $420.24 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ Johnson & Johnson says it is working to improve results in its medical-device bu
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
