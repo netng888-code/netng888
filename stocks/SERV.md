@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,12 @@
 
 ## 📰 最新新聞
 
+- **[Uber autonomous head Maredia to depart as leadership shifts continue - Bloomberg](https://finnhub.io/api/news?id=63c0d5ec50480f240fdb4e7884561a043afa189a7a3cab2e45ec184e10ab6f5b)**  
+*Yahoo · 22h前*  
+Investing.com -- Uber Technologies Inc (NYSE:UBER) is facing another high-level departure within its self-driving unit as the ride-hailing giant works to scale …
+
 - **[Serve Robotics Q2 2026 Earnings Call: Complete Transcript](https://finnhub.io/api/news?id=cfd78a30c24512cf99293c5a09f835753f21bbf4ba7dac21805b72375565372d)**  
-*Benzinga · 18h前*  
+*Benzinga · 1d前*  
 Serve Robotics (NASDAQ:SERV) released second-quarter financial results and hosted an earnings call on Thursday. Read the complete transcript below.
 Benzinga API…
 
@@ -52,4 +56,4 @@ Benzinga API…
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
