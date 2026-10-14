@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-14 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell Is Up 214% in 2026 While Broadcom Is Only Up 3%: Take Profits on MRVL Stock, or Hold On for the Ride?](https://finnhub.io/api/news?id=af07cd734a7b14d9bed832d5fb9445710fad8ea2bc841e5998a4204959ada643)**  
-*Yahoo · 4h前*  
-Marvell stock has left Broadcom and NVIDIA in the dust this year, but a gain that steep raises a sharper question than most investors want to answer about what …
+- **[Intel vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=c724f13e21efe0d1d0c5682255195a309b5bd490308a822f941acd22421dd643)**  
+*Yahoo · 1h前*  
+Intel swung to near breakeven while Marvell posted a 32.6% net margin, but valuation tells a different story about which has more room to run.
 
-- **[CyberTAN Unveils Pallas Series Liquid-Cooled 102.4 Tbps Ethernet Switch Platform Blueprint at OCP Global Summit 2026](https://finnhub.io/api/news?id=152fd937d02c15b849f44f08f26167fa5c0dbd4d3976087ccd56624d507b70e6)**  
-*Yahoo · 4h前*  
-CyberTAN Technology, Inc., a leading provider of enterprise networking equipment, today announced an architectural collaboration designed to break the thermal a…
+- **[As Big Tech Designs Its Own AI Chips, the Companies Behind the Scenes Win](https://finnhub.io/api/news?id=3ac9e446bd48989ca1ea1376f2b14bdf5049155bf2529721a51020a1ffaa4123)**  
+*Yahoo · 3h前*  
+AI needs more than GPUs, and these companies are delivering.
 
-- **[Marvell Stock Is on a Bad Run, but Microsoft’s New AI Chips Can Revive It](https://finnhub.io/api/news?id=f6bfc430a417008aa966e198c5f5dd4813021f07fba2be0dd694a8a063e5202b)**  
-*Yahoo · 4h前*  
-The chips and networking company has got caught up in a broader AI chip selloff, but Microsoft’s Maia 300 program can change that.
+- **[Marvell: Buy For The Connectivity, Stay For The Custom Silicon](https://finnhub.io/api/news?id=ebb8f35aca8df6641d7eb04dde2b6d018a34f4b4f158ec0a4dc943e968ee7c5b)**  
+*SeekingAlpha · 4h前*  
+Marvell Technology, Inc. gets a Buy with a $298 target, driven by optical interconnect growth and FY28 $20B guidance. Click for more on MRVL stock.
 
 ---
 
@@ -59,4 +59,4 @@ The chips and networking company has got caught up in a broader AI chip selloff,
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
