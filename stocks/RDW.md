@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Final Pair of Redwire ROSA Wings Launch to the ISS, Completing Historic Power Modernization Effort](https://finnhub.io/api/news?id=1521cf93269b1a666d4abdd8324f645077c52268b4590a39392194ade1a0a735)**  
+- **[Air Launch Is Back on the Space Industry's Flight Plan](https://finnhub.io/api/news?id=572c2038f17fbbdc5574fccd5e9e47e57d156908b685afd54112fe3469a5e9b1)**  
+*Yahoo · 23h前*  
+American News Group News Commentary - The global space launch services market was valued at $16.9 billion in 2022 and is projected to reach $29.6 billion by 202…
+
+- **[Can Redwire's VLEO Spacecraft Expand Mission Opportunities?](https://finnhub.io/api/news?id=62509956b3eaf97057eb2b4b78bf4182f5bd3deeedb6cdb348a2e8114c5f4ffb)**  
 *Yahoo · 1d前*  
+RDW expands its VLEO spacecraft portfolio with SabreSat and Phantom, targeting specialized missions that benefit from proximity to Earth.
+
+- **[Final Pair of Redwire ROSA Wings Launch to the ISS, Completing Historic Power Modernization Effort](https://finnhub.io/api/news?id=1521cf93269b1a666d4abdd8324f645077c52268b4590a39392194ade1a0a735)**  
+*Yahoo · 2d前*  
 JACKSONVILLE, Fla., October 12, 2026--Redwire Corporation (NYSE: RDW), a leader in space infrastructure for the next generation space economy, announced today t…
 
 ---
@@ -51,4 +59,4 @@ JACKSONVILLE, Fla., October 12, 2026--Redwire Corporation (NYSE: RDW), a leader 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
