@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AST SpaceMobile vs. Rocket Lab: Which Space-Focused Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=bc50ec755286101f660e1812033a95f78103a4da32ea0e555789dd75f5bc6471)**  
-*Yahoo · 2h前*  
-One company is racing to connect phones directly to satellites; the other builds the rockets that get them there. Both are burning cash, but their paths to prof…
-
-- **[AST SpaceMobile Sinks 9% as Piper Sandler Cuts to Neutral on SpaceX Direct-to-Cell Threat; Planet Labs Drops 4%, Rocket Lab Slips](https://finnhub.io/api/news?id=1a94e911f954ee4f3faf126b9fb38098e85f933c92039bb17d91afb1c8a01ff3)**  
-*Yahoo · 8h前*  
-Piper Sandler and Deutsche Bank looked at the same SpaceX spectrum threat and reached opposite conclusions about AST SpaceMobile, and the split verdict is now f…
-
-- **[Air Launch Is Back on the Space Industry's Flight Plan](https://finnhub.io/api/news?id=572c2038f17fbbdc5574fccd5e9e47e57d156908b685afd54112fe3469a5e9b1)**  
+- **[RKLB Stock Climbs Overnight: Rocket Lab Targets 12 Hypersonic Tests As US Pushes For Faster Weapons Development](https://finnhub.io/api/news?id=f2a3d0b33f58d5cb63e75fce3ba734a7cc85a3385bad09cfcd999980fdf13dd3)**  
 *Yahoo · 9h前*  
-American News Group News Commentary - The global space launch services market was valued at $16.9 billion in 2022 and is projected to reach $29.6 billion by 202…
+Rocket Lab executive Brian Roger said HASTE enables “low-cost, high-frequency hypersonic and missile defense testing.”
+
+- **[Here's Why Rocket Lab Corporation (RKLB) Fell More Than Broader Market](https://finnhub.io/api/news?id=7efc6eeda61be8867b2149b2b4a690d25782be0464f290c4823caf65f7d8931c)**  
+*Yahoo · 15h前*  
+Rocket Lab Corporation (RKLB) reached $64.22 at the closing of the latest trading day, reflecting a -2.27% change compared to its last close.
+
+- **[AST SpaceMobile vs. Rocket Lab: Which Space-Focused Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=bc50ec755286101f660e1812033a95f78103a4da32ea0e555789dd75f5bc6471)**  
+*Yahoo · 16h前*  
+One company is racing to connect phones directly to satellites; the other builds the rockets that get them there. Both are burning cash, but their paths to prof…
 
 ---
 
@@ -59,4 +59,4 @@ American News Group News Commentary - The global space launch services market wa
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
