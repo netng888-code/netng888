@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$357.31** |
-| 今日變動 | ▲ $2.58　(+0.73%) |
+| 現價 | **$346.25** |
+| 今日變動 | ▼ $11.06　(-3.10%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $213　(▼5.6%) |
+| 未實現盈虧 | ▼ $324　(▼8.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $359.55 | — |
-| Put Wall（支撐） | $350.00 | -2.0% |
-| Call Wall（阻力） | $370.00 | +3.6% |
+| Gamma Flip | $356.78 | — |
+| Put Wall（支撐） | $340.00 | -1.8% |
+| Call Wall（阻力） | $360.00 | +4.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Best Semiconductor Stocks to Buy and Hold Through 2030](https://finnhub.io/api/news?id=ffed1c1250a615b2cf6aacc3dc2ceddafddce0ea40c57636ae9f45aeb59bc534)**  
-*Yahoo · 1h前*  
-Semiconductor companies are positioned for long-term growth as artificial intelligence (AI) hyperscalers continue to plow unprecedented sums into data centers.
-
-- **[Not Nvidia. Not Broadcom. This Storage Stock Could Be 2027's Hidden AI Winner.](https://finnhub.io/api/news?id=724024ecfc3318416b7d123ade1080a7c266814815ef744f7a65f0fc8fde2138)**  
+- **[AMD Stock Takes a Bigger Hit as Cracks Emerge in the AI Trade](https://finnhub.io/api/news?id=dc86ed6fe678ecbe3187d90ec1623a282f92c6f9fa75e9939787cab24e87c400)**  
 *Yahoo · 2h前*  
-Chips grab the AI headlines, but Seagate's 34% revenue growth and next-gen hard drives make it an overlooked pick heading into 2027.
+AMD shares fell 5.7% as CoreWeave’s bond selloff raised concerns about AI spending and demand for chips.
 
-- **[As Big Tech Designs Its Own AI Chips, the Companies Behind the Scenes Win](https://finnhub.io/api/news?id=3ac9e446bd48989ca1ea1376f2b14bdf5049155bf2529721a51020a1ffaa4123)**  
+- **[Can Marvell Stock Drop From Here?](https://finnhub.io/api/news?id=d375696a458186d7e68421673a7de0988cde2108a608d9d99e62f21bef4dd037)**  
 *Yahoo · 3h前*  
-AI needs more than GPUs, and these companies are delivering.
+Over the past twelve months, Marvell Technology (MRVL) stock has returned 216%, easily outpacing a roughly 18% return for the S&P 500. On October 6, management …
+
+- **[TSM Earnings Tomorrow: Can Strong AI Demand Boost Q3 Results?](https://finnhub.io/api/news?id=58628f64fcde2bbc075557a107d63d015efd2f40174ce566d161c785ce5e5298)**  
+*Yahoo · 5h前*  
+TSMC heads into Q3 earnings with surging AI demand and advanced chip growth. Can strong sales offset margin pressures and high capital spending?
 
 ---
 
@@ -48,7 +48,7 @@ AI needs more than GPUs, and these companies are delivering.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-14 | 監控 | $357.31 | — | 自動更新 |
+| 2026-10-15 | 監控 | $346.25 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ AI needs more than GPUs, and these companies are delivering.
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 07:03 HKT*
