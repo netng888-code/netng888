@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Intuitive Surgical (ISRG) Could Be 31% Overvalued After Earnings Outlook Upgrade](https://finnhub.io/api/news?id=be72b4137093491a94b01709e7a08dca52310dcfb8761a6c088cd7b245769cf5)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 Intuitive Surgical (ISRG) is back in focus after an upgrade in its earnings outlook, driven by higher analyst estimates, a strong recent quarter, and new GI rob…
 
 - **[ISRG Is Expanding Beyond Surgery: Here's Why the GI Opportunity Matters](https://finnhub.io/api/news?id=d4643b3a17cd63a799572f885eb84caf3c32471817891d8fb50fba5d6da03535)**  
-*Yahoo · 6h前*  
+*Yahoo · 20h前*  
 Intuitive Surgical is targeting GI care with a next-generation robotic endoscope submitted to the FDA, opening a potential growth avenue beyond surgery.
 
 - **[Can a Spinoff Fix Johnson & Johnson’s Medtech Problem?](https://finnhub.io/api/news?id=7080d2487b8b3fdcccce025d594bca2057f3180dcc75b63ffdae05b01fe4c4a6)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 Johnson & Johnson says it is working to improve results in its medical-device business, where surgery revenue fell for the latest quarter.
 
 ---
@@ -59,4 +59,4 @@ Johnson & Johnson says it is working to improve results in its medical-device bu
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
