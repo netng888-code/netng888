@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$134.28** |
-| 今日變動 | ▼ $1.03　(-0.76%) |
+| 現價 | **$119.95** |
+| 今日變動 | ▼ $14.33　(-10.67%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $506　(▼32.0%) |
+| 未實現盈虧 | ▼ $620　(▼39.3%) |
 
 ---
 
@@ -20,27 +20,23 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $162.87 | — |
-| Put Wall（支撐） | $130.00 | -3.2% |
-| Call Wall（阻力） | $135.00 | +0.5% |
+| Gamma Flip | $159.35 | — |
+| Put Wall（支撐） | $115.00 | -4.1% |
+| Call Wall（阻力） | $135.00 | +12.5% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
 - **[3 Stocks to Buy If You Think the Nuclear Fuel Shortage Is the Real Story, Not the Reactors](https://finnhub.io/api/news?id=ae0d66c76e821ba0f3eb1c6ecbc361faabc2b983c0a4035fa57bb032ec9355b2)**  
-*Yahoo · 20h前*  
+*Yahoo · 1d前*  
 Forget the reactors: The real nuclear bottleneck might be fuel. Three stocks give investors exposure to mining, enrichment, and supply.
 
 - **[NuScale Power Sinks 7% as Nuclear Names Give Back a Month of Ground; Oklo Falls 6%, Centrus Energy Drops 4%](https://finnhub.io/api/news?id=be2ec253a4e710d8fdd97be8d9255674abfad044ddcfa468dbb24de06c5d6928)**  
-*Yahoo · 1d前*  
-Nuclear reactor stocks are handing back a month of gains in a single session, and the steepest drops are falling on the companies still years away from a dollar…
-
-- **[Centrus Is Down 69% From Its High. Is Its $4.5 Billion Backlog Enough to Buy at $143?](https://finnhub.io/api/news?id=29e9473d05d7fc296ecc5d44974146f032a2182ffacb8f91aaf909ad22bb572f)**  
 *Yahoo · 2d前*  
-The nuclear energy company faces daunting near-term challenges.
+Nuclear reactor stocks are handing back a month of gains in a single session, and the steepest drops are falling on the companies still years away from a dollar…
 
 ---
 
@@ -48,7 +44,7 @@ The nuclear energy company faces daunting near-term challenges.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-14 | 監控 | $134.28 | — | 自動更新 |
+| 2026-10-15 | 監控 | $119.95 | — | 自動更新 |
 
 ---
 
@@ -59,4 +55,4 @@ The nuclear energy company faces daunting near-term challenges.
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
