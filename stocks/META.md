@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: Stock Market Holds Up As Meta, AMD Lead Buys; ASML, CPI Inflation Due](https://finnhub.io/api/news?id=28a1858c5f1ece6af8b138f7dc018780fdf80aaf62e87e999f8a25e3d9334cf0)**  
+- **[Dow Jones Futures Rise, Techs Fall With ASML, BofA, Dell, HPE Early Movers; CPI Inflation Due](https://finnhub.io/api/news?id=29d32ca512a627743b4d5f03423c05375179d4856fe00b0cc9e7e6ddefc79e7a)**  
 *Yahoo · 1h前*  
-The stock market edged lower Tuesday but Meta and AMD led five buys. AI chip giant ASML and the CPI inflation report loom.
+Dow futures rose with yields falling. Chip-gear giant ASML beat on earnings with the CPI inflation report due.. Meta and AMD are buys.
 
-- **[Stock Market Today: Dow Rallies On Bank Results; Micron, Sandisk, SK Hynix Sell Off (Live Coverage)](https://finnhub.io/api/news?id=7d0ee787dfc6275f3170cb3f896417fe01932316ae6b58e14e38a15871ad5481)**  
-*Yahoo · 2h前*  
-The Dow Jones index rises Tuesday as JPMorgan and Goldman report earnings. Micron, Sandisk and SK Hynix sell off.
+- **[Is AMD Even a Real Threat to Nvidia or Just a Pricing Lever?](https://finnhub.io/api/news?id=2c551b6be517a9221f191f61f76b65868b5f6655849b4dfabf202ce978775331)**  
+*Yahoo · 1h前*  
+AMD just posted record Data Center revenue and claims its Helios racks deliver cheaper tokens than anything NVIDIA sells. Whether that disrupts the world's most…
 
-- **[Why the Market Dipped But Meta Platforms (META) Gained Today](https://finnhub.io/api/news?id=f38fc41c667341cae255e717c613132d5d11c86e12029fc8cf38f6e2e1ae0a1a)**  
+- **[Meta Is Back in the AI Race. Muse Wonder Just Ranked #2 for Accounting, According to DualEntry Accounting AI Benchmark](https://finnhub.io/api/news?id=6278e22c30b3d0c373ba8258b0f4face1c814baa1b006f84924c944762221ecb)**  
 *Yahoo · 2h前*  
-Meta Platforms (META) closed the most recent trading day at $762.5, moving +2.63% from the previous trading session.
+NEW YORK, October 14, 2026--Meta's new Muse Wonder model got 83.2% of tasks right on the DualEntry Accounting AI Benchmark, tying for second place among 57 AI m…
 
 ---
 
@@ -59,4 +59,4 @@ Meta Platforms (META) closed the most recent trading day at $762.5, moving +2.63
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
