@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$102.81** |
-| 今日變動 | ▲ $1.46　(+1.44%) |
+| 現價 | **$98.12** |
+| 今日變動 | ▼ $4.69　(-4.56%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $42　(▼3.9%) |
+| 未實現盈虧 | ▼ $89　(▼8.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $103.20 | — |
-| Put Wall（支撐） | $100.00 | -2.7% |
-| Call Wall（阻力） | $110.00 | +7.0% |
+| Gamma Flip | $102.90 | — |
+| Put Wall（支撐） | $95.00 | -3.2% |
+| Call Wall（阻力） | $100.00 | +1.9% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intel vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=c724f13e21efe0d1d0c5682255195a309b5bd490308a822f941acd22421dd643)**  
-*Yahoo · 1h前*  
-Intel swung to near breakeven while Marvell posted a 32.6% net margin, but valuation tells a different story about which has more room to run.
+- **[CoreWeave, Intel, Micron, & other tech stocks are plummeting. Here's why.](https://finnhub.io/api/news?id=9a972fc3dfa397990af772db13828e08a255962c3dcea4be101de858b338f981)**  
+*Yahoo · 2h前*  
+Baird tech strategist, Ted Mortonson, sits down with Yahoo Finance Senior Reporter Brooke DiPalma to explain what's going on in the markets with tech names like…
 
-- **[Stock Market Today: Big Banks Earn Billions, Bumble Soars on Buyout](https://finnhub.io/api/news?id=8cb73376d702b0ea1d04a80d3f05facddbcb644066296993edbdbf296a1d3a20)**  
-*ChartMill · 2h前*  
-JPMorgan, Goldman, Citi and Wells Fargo earned nearly $32 billion but trading desks sent mixed signals. Bumble jumped 57% on a buyout; ASML beat this morning.
-
-- **[Tesla (TSLA), What Is Behind The Fresh Attention?](https://finnhub.io/api/news?id=f33fa5187f44189f3959625bf83007013373976ca81cb8fc4dc7b6fecace2727)**  
+- **[Can Marvell Stock Drop From Here?](https://finnhub.io/api/news?id=d375696a458186d7e68421673a7de0988cde2108a608d9d99e62f21bef4dd037)**  
 *Yahoo · 3h前*  
-Tesla (TSLA) is back in the spotlight after confirming a new Roadster livestream, teasing SpaceX powered features, and outlining the Terafab chip venture with I…
+Over the past twelve months, Marvell Technology (MRVL) stock has returned 216%, easily outpacing a roughly 18% return for the S&P 500. On October 6, management …
+
+- **[Is Micron Still The Business You Bought?](https://finnhub.io/api/news?id=0f48c2f78de55fa64f266f59656d1840e54928178f731ec4b37281fbe15aad43)**  
+*Yahoo · 3h前*  
+Investors who own Micron Technology (MU) likely bought into a memory chip maker whose sales and profits rise and fall with the broader chip cycle. The company r…
 
 ---
 
@@ -48,7 +48,7 @@ Tesla (TSLA) is back in the spotlight after confirming a new Roadster livestream
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-14 | 監控 | $102.81 | — | 自動更新 |
+| 2026-10-15 | 監控 | $98.12 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Tesla (TSLA) is back in the spotlight after confirming a new Roadster livestream
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
