@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$353.78** |
-| 今日變動 | ▲ $1.06　(+0.30%) |
+| 現價 | **$347.64** |
+| 今日變動 | ▼ $6.14　(-1.74%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $2,175　(▲44.4%) |
+| 未實現盈虧 | ▲ $2,052　(▲41.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $339.34 | — |
-| Put Wall（支撐） | $350.00 | -1.1% |
-| Call Wall（阻力） | $370.00 | +4.6% |
+| Gamma Flip | $342.88 | — |
+| Put Wall（支撐） | $340.00 | -2.2% |
+| Call Wall（阻力） | $350.00 | +0.7% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Trade Rotation: Software and Cloud Stocks Outpace Chipmakers Ahead of Nvidia Earnings](https://finnhub.io/api/news?id=d7f3da997e09184ffeb64870a1ae539dcb9a965e65271c2358d573922cddcc42)**  
-*ChartMill · 0h前*  
-AI stocks are rotating, not retreating. Software and cloud names lead while chip giants cool. See key valuations, growth, and risks across Nvidia, Palantir, and…
-
-- **[The S&P 500 Is Dangerously Concentrated in 5 Tech Giants. Are They Still Buys?](https://finnhub.io/api/news?id=f5bc56b8af9fba13877c9de385db378b3a73f293dd588365f352721d6c7f9ef3)**  
+- **[Ambani’s Jio seeks to raise $3.2B in what could be India’s biggest IPO](https://finnhub.io/api/news?id=1cee901db1323bf3a65e4d3604fde4df548a395ae4e56b0fd6b20a4fdb389328)**  
 *Yahoo · 1h前*  
-Nvidia, Apple, Microsoft, Alphabet, and Amazon make up nearly 30% of the S&P 500's holdings.
+Jio plans to use most of its IPO proceeds to repay debt as it expands beyond telecom.
 
-- **[Prediction: Alphabet Stock Is Going to Soar After Oct. 28](https://finnhub.io/api/news?id=2e4758b3cb2a0e950baa90abfa2459a3b53bdfcf5540de5ba2fb4ed6e32ef067)**  
+- **[Gene Munster Flags Meta’s Muse As A Bigger Risk To Google Search Than ChatGPT](https://finnhub.io/api/news?id=ddffb5481b1b0ae8fb15c87dc6bb06573d3b001877a8059cf0e53218a67ddf66)**  
 *Yahoo · 1h前*  
-Alphabet looks attractively valued heading into its upcoming quarterly earnings report.
+Conversational tools like ChatGPT primarily fielded questions that search engines had not heavily monetized, according to Munster and his co-managing partner Do…
+
+- **[Global X Investments Canada Inc. Closes the Market](https://finnhub.io/api/news?id=485974371363c4f246ad64396587f5693e16cd313c619b26d9a546c34671e965)**  
+*Yahoo · 1h前*  
+Toronto, Ontario--(Newsfile Corp. - October 14, 2026) - Rohit Mehta, President and Chief Executive Officer, Global X Investments Canada Inc. ("Global X") joined…
 
 ---
 
@@ -48,7 +48,7 @@ Alphabet looks attractively valued heading into its upcoming quarterly earnings 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-14 | 監控 | $353.78 | — | 自動更新 |
+| 2026-10-15 | 監控 | $347.64 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Alphabet looks attractively valued heading into its upcoming quarterly earnings 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 07:03 HKT*
