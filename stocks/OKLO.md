@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Oklo To Advance Groves Isotope Production Facility As Part Of US DOE’s National Reactor Innovation Center Nuclear Energy Launch Pad Initiative](https://finnhub.io/api/news?id=2003b4053cce5e995791cd6a916d256612449beaf1c5e13bcc17c2e81d8796ed)**  
-*Benzinga · 15h前*  
-U.S. Department of Energy’s National Reactor Innovation Center picks 12 developers on 13 new projects to take part in the Nuclear Energy Launch Pad initiative.O…
+- **[Should This One Number Scare You About NuScale Power Stock?](https://finnhub.io/api/news?id=14b22d454b1e25f1d5aa0cacdbf2ada28a9197d35f37c50b1315bc1e0d651a0d)**  
+*Yahoo · 14h前*  
+NuScale Power (SMR) reported revenue of $0.1 million for the three months ended June 30, 2026, compared with $8.1 million a year earlier. That number matters be…
 
-- **[NuScale Power Sinks 7% as Nuclear Names Give Back a Month of Ground; Oklo Falls 6%, Centrus Energy Drops 4%](https://finnhub.io/api/news?id=be2ec253a4e710d8fdd97be8d9255674abfad044ddcfa468dbb24de06c5d6928)**  
-*Yahoo · 1d前*  
-Nuclear reactor stocks are handing back a month of gains in a single session, and the steepest drops are falling on the companies still years away from a dollar…
+- **[Oklo Stock Hits a New 52-Week Low: Time to Buy?](https://finnhub.io/api/news?id=554e9935994772e1c2f9f4ea5bad83ec609bcc2c24c3d636d61096c9293046b3)**  
+*Yahoo · 17h前*  
+The energy stock is down 84% from its high, with its valuation falling below $6 billion.
 
-- **[Nuclear ETFs in Spotlight as Google and Constellation Sign 3.6 GW Deal](https://finnhub.io/api/news?id=5ada70bb74ba4cbfdd8b1a7cb59ae2d5c44bcfa262db7955cb5c5e4351842352)**  
-*Yahoo · 1d前*  
-Google and Constellation's 3.59-GW nuclear deal signals a long-term industry shift, putting nuclear ETFs in focus as AI drives demand for reliable power.
+- **[3 Nuclear Stocks With Revenue Growth Up To 68%](https://finnhub.io/api/news?id=458b6f884042b3a358cde4dccaefcd1a2e3547845a00c7abfb41a2d03c0d447a)**  
+*Yahoo · 18h前*  
+Energy prices are back in focus after the IMF flagged the Middle East war driven energy shock as a major risk to global growth. When oil and gas look less secur…
 
 ---
 
@@ -59,4 +59,4 @@ Google and Constellation's 3.59-GW nuclear deal signals a long-term industry shi
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
