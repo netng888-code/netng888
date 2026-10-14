@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$380.29** |
-| 今日變動 | ▼ $3.56　(-0.93%) |
+| 現價 | **$359.44** |
+| 今日變動 | ▼ $20.85　(-5.48%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,441　(▲313.4%) |
+| 未實現盈虧 | ▲ $1,337　(▲290.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $401.06 | — |
-| Put Wall（支撐） | $370.00 | -2.7% |
-| Call Wall（阻力） | $410.00 | +7.8% |
+| Gamma Flip | $399.08 | — |
+| Put Wall（支撐） | $350.00 | -2.6% |
+| Call Wall（阻力） | $370.00 | +2.9% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Chips Need Testing, and Teradyne (TER) Is Winning. Is the Valuation Too High?](https://finnhub.io/api/news?id=387059904245df473a84861135fee850ded20f77a11e93e7fc35275cc6bc1683)**  
-*Yahoo · 14h前*  
-Robots get the headlines at Teradyne (NASDAQ:TER). Chip testers pay the bills. In the second quarter of 2026, the company’s robotics arm brought in $100 million…
+- **[Is Teradyne (TER) Using Edge AI Test Expansion To Redefine Its Long‑Term Competitive Moat?](https://finnhub.io/api/news?id=534373288ba6b5eaf6967b533d4844be6099b6edd510a27decedda0cc5b989cb)**  
+*Yahoo · 2h前*  
+Earlier this week, FormFactor, Inc. and Teradyne, Inc. announced a broad technology collaboration, including a US$300 million Teradyne equity investment, alongs…
 
-- **[Teradyne to Announce Third Quarter 2026 Results](https://finnhub.io/api/news?id=89d22f423a5afa56d73eeaa2fea5a43684531d21cadfae869680763647735d46)**  
-*Yahoo · 16h前*  
-NORTH READING, Mass., October 13, 2026--Teradyne, Inc. (NASDAQ: TER) will release financial results for the third quarter 2026 on Tuesday, October 27, 2026 at 4…
+- **[Teradyne (TER) Launches Edge AI Test Platform, Is The Upside Already Priced In?](https://finnhub.io/api/news?id=775896cd94260186e0ee96b7cf498ab2fed96ba9ca364184059dff718c687f68)**  
+*Yahoo · 3h前*  
+Teradyne (TER) is in focus after a broad technology collaboration with FormFactor and the launch of its UltraFLEXplus S test platform for edge AI, with both upd…
 
-- **[Data Reveals Next Big AI Robotics Stock Investments](https://finnhub.io/api/news?id=ac16810eee766376c7b99fe73d6bc4b25bc151644337d4557392f19999c3228e)**  
-*Yahoo · 16h前*  
-If you're looking for a smart, lower-risk way to invest in the booming robotics and AI infrastructure sector, Eric Bleeker, the co-host of The AI Investor Podca…
+- **[Teradyne (TER) Deepens Edge AI Test Push](https://finnhub.io/api/news?id=9904cc160e52f71b99fb51f01fdb91f53b76bcee217d64db609e947eb4fa3e1d)**  
+*Yahoo · 4h前*  
+Teradyne (NasdaqGS:TER) has introduced the UltraFLEXplus S series, a test platform tailored for edge AI chips and high mix production. The UltraFLEXplus S syste…
 
 ---
 
@@ -48,7 +48,7 @@ If you're looking for a smart, lower-risk way to invest in the booming robotics
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-14 | 監控 | $380.29 | — | 自動更新 |
+| 2026-10-15 | 監控 | $359.44 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ If you're looking for a smart, lower-risk way to invest in the booming robotics
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
