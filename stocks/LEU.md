@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[3 Stocks to Buy If You Think the Nuclear Fuel Shortage Is the Real Story, Not the Reactors](https://finnhub.io/api/news?id=ae0d66c76e821ba0f3eb1c6ecbc361faabc2b983c0a4035fa57bb032ec9355b2)**  
+*Yahoo · 20h前*  
+Forget the reactors: The real nuclear bottleneck might be fuel. Three stocks give investors exposure to mining, enrichment, and supply.
+
 - **[NuScale Power Sinks 7% as Nuclear Names Give Back a Month of Ground; Oklo Falls 6%, Centrus Energy Drops 4%](https://finnhub.io/api/news?id=be2ec253a4e710d8fdd97be8d9255674abfad044ddcfa468dbb24de06c5d6928)**  
 *Yahoo · 1d前*  
 Nuclear reactor stocks are handing back a month of gains in a single session, and the steepest drops are falling on the companies still years away from a dollar…
@@ -55,4 +59,4 @@ The nuclear energy company faces daunting near-term challenges.
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
