@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[AI Chips Need Testing, and Teradyne (TER) Is Winning. Is the Valuation Too High?](https://finnhub.io/api/news?id=387059904245df473a84861135fee850ded20f77a11e93e7fc35275cc6bc1683)**  
+*Yahoo · 14h前*  
+Robots get the headlines at Teradyne (NASDAQ:TER). Chip testers pay the bills. In the second quarter of 2026, the company’s robotics arm brought in $100 million…
+
 - **[Teradyne to Announce Third Quarter 2026 Results](https://finnhub.io/api/news?id=89d22f423a5afa56d73eeaa2fea5a43684531d21cadfae869680763647735d46)**  
-*Yahoo · 2h前*  
+*Yahoo · 16h前*  
 NORTH READING, Mass., October 13, 2026--Teradyne, Inc. (NASDAQ: TER) will release financial results for the third quarter 2026 on Tuesday, October 27, 2026 at 4…
 
 - **[Data Reveals Next Big AI Robotics Stock Investments](https://finnhub.io/api/news?id=ac16810eee766376c7b99fe73d6bc4b25bc151644337d4557392f19999c3228e)**  
-*Yahoo · 2h前*  
+*Yahoo · 16h前*  
 If you're looking for a smart, lower-risk way to invest in the booming robotics and AI infrastructure sector, Eric Bleeker, the co-host of The AI Investor Podca…
-
-- **[ASML Earnings Put Semiconductor Equipment Stocks' Momentum to the Test After Sharp Pullback](https://finnhub.io/api/news?id=adc386d7638d79620a3a78f93b3d0c22274363e9d219950a490b6513c180ade5)**  
-*ChartMill · 10h前*  
-Semiconductor equipment stocks face a key ASML earnings test after a sharp pullback, with strong long-term gains but elevated valuations.
 
 ---
 
@@ -59,4 +59,4 @@ Semiconductor equipment stocks face a key ASML earnings test after a sharp pullb
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
