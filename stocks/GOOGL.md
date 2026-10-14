@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-14 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Disney strikes $20-million deal for Character.ai's assets as AI startup files for bankruptcy](https://finnhub.io/api/news?id=4ff145b84bdbef140f3c31d2ba00e7500856ae85ff48d23437d5348b2f54e877)**  
-*Yahoo · 1h前*  
-The AI company has faced lawsuits over child safety and copyright issues involving Disney.
+- **[AI Trade Rotation: Software and Cloud Stocks Outpace Chipmakers Ahead of Nvidia Earnings](https://finnhub.io/api/news?id=d7f3da997e09184ffeb64870a1ae539dcb9a965e65271c2358d573922cddcc42)**  
+*ChartMill · 0h前*  
+AI stocks are rotating, not retreating. Software and cloud names lead while chip giants cool. See key valuations, growth, and risks across Nvidia, Palantir, and…
 
-- **[Does the Risk-Reward Profile Still Favor Alphabet (GOOGL) Investors?](https://finnhub.io/api/news?id=90e311ecb163e0e2633cb21a36293336d180874915f3b3e005ab3d2939ff1adc)**  
+- **[The S&P 500 Is Dangerously Concentrated in 5 Tech Giants. Are They Still Buys?](https://finnhub.io/api/news?id=f5bc56b8af9fba13877c9de385db378b3a73f293dd588365f352721d6c7f9ef3)**  
 *Yahoo · 1h前*  
-Alphabet Inc. (NASDAQ:GOOGL) has outpaced the market by more than 26 percentage points during the last 1 year, and a massive gap between its operating cash flow…
+Nvidia, Apple, Microsoft, Alphabet, and Amazon make up nearly 30% of the S&P 500's holdings.
 
-- **[Has IBM Stock Become A Different Bet?](https://finnhub.io/api/news?id=7a60e94db7d4232b90f6724f2239f5bf44333ccb2643e04f5658315d3100a673)**  
-*Yahoo · 2h前*  
-Shares of IBM (IBM) currently trade at 19.9 times earnings, while the S&P 500 sits at 21.9. Investors buying at that multiple need to understand the underlying …
+- **[Prediction: Alphabet Stock Is Going to Soar After Oct. 28](https://finnhub.io/api/news?id=2e4758b3cb2a0e950baa90abfa2459a3b53bdfcf5540de5ba2fb4ed6e32ef067)**  
+*Yahoo · 1h前*  
+Alphabet looks attractively valued heading into its upcoming quarterly earnings report.
 
 ---
 
@@ -59,4 +59,4 @@ Shares of IBM (IBM) currently trade at 19.9 times earnings, while the S&P 500 si
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
