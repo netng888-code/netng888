@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Data Center Chillers Market to Reach $2.81B by 2032 as AI and GPU Heat Loads Push Hyperscale Cooling Capacity](https://finnhub.io/api/news?id=054b050f58bba6054b853dac1014ad9ec0642d18dfd36282ede6bf268f452dc1)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 Report Ranks Johnson Controls, Trane, Carrier, Daikin and Vertiv, With 2025 Market Share, Buyer Criteria by Data Center Type and the Shift to Low-GWP Refrigeran…
 
 - **[3 Dividend Paying Stocks Offering AI Exposure](https://finnhub.io/api/news?id=f7ed4dedfe5bb54bff0a14f84566c034d1031cb47a76a82ad116d600395c80dd)**  
@@ -59,4 +59,4 @@ Sandisk stock (SNDK) has soared over 3,000% since its IPO a year and a half ago.
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
