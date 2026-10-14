@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-14 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-14 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today, Oct. 13: BigBear.ai Shares Gain on $225 Million Contract Awards](https://finnhub.io/api/news?id=c46a73b474894f3d1508becdbd1bf35e1c7818de6be94eaa5aa9de3352a8ebd6)**  
+- **[AI Trade Rotation: Software and Cloud Stocks Outpace Chipmakers Ahead of Nvidia Earnings](https://finnhub.io/api/news?id=d7f3da997e09184ffeb64870a1ae539dcb9a965e65271c2358d573922cddcc42)**  
+*ChartMill · 0h前*  
+AI stocks are rotating, not retreating. Software and cloud names lead while chip giants cool. See key valuations, growth, and risks across Nvidia, Palantir, and…
+
+- **[Michael Burry Is Bearish on Palantir, Which Is Up 19% Over the Past Year, but His Oracle Short Just Got a Boost From a 53% Stock Drop. Is His AI Bubble Bet Still Worth Following?](https://finnhub.io/api/news?id=42ca1e142ae62da5ca8cda275cc472f454eef7f4d6994963ba444ac7b944f9de)**  
 *Yahoo · 1h前*  
-Today, Oct. 13, 2026, the defense AI provider announced more than $225 million in contract wins since July, bolstering its federal backlog ahead of earnings.
+He's also bearish on Nvidia, which is up 24% over the past year.
 
-- **[If Palantir Stock Looks Expensive, You Need To Read This](https://finnhub.io/api/news?id=06ea8f5a6ee2238f68a839074dcb871f45f01cc435ea7e418d6dd185a1b245ab)**  
+- **[Palantir Billionaire Peter Thiel Buys 2 Brilliant AI Stocks (Hint: Not Nvidia or Micron)](https://finnhub.io/api/news?id=1dd75aca30f4448b39f059ae8a66295d318b2076fb1db362c23d3f4b851dc686)**  
 *Yahoo · 3h前*  
-Shares of Palantir Technologies (PLTR) currently trade at 137.7 times its adjusted earnings over the past twelve months, a metric that adds stock-based pay back…
-
-- **[Is Snowflake Stock Riskier Than It Looks?](https://finnhub.io/api/news?id=c8cbac5682ddf94c74e3bb1ed5204b3fba5b0e217fbc754b361211c319b8f7e5)**  
-*Yahoo · 3h前*  
-Snowflake (SNOW) stock has returned 169% over the past six months, against 14.0% for the S&P 500. Investors appear to believe artificial intelligence has put th…
+Billionaire investor Peter Thiel is betting heavily on two artificial intelligence stocks.
 
 ---
 
@@ -59,4 +59,4 @@ Snowflake (SNOW) stock has returned 169% over the past six months, against 14.0%
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-14 21:04 HKT*
