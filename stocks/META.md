@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-14 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$762.50** |
-| 今日變動 | ▲ $19.54　(+2.63%) |
+| 現價 | **$737.54** |
+| 今日變動 | ▼ $24.96　(-3.27%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $469　(▲25.8%) |
+| 未實現盈虧 | ▲ $394　(▲21.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $614.89 | — |
-| Put Wall（支撐） | $740.00 | -3.0% |
-| Call Wall（阻力） | $800.00 | +4.9% |
+| Gamma Flip | $617.01 | — |
+| Put Wall（支撐） | $730.00 | -1.0% |
+| Call Wall（阻力） | $750.00 | +1.7% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Rise, Techs Fall With ASML, BofA, Dell, HPE Early Movers; CPI Inflation Due](https://finnhub.io/api/news?id=29d32ca512a627743b4d5f03423c05375179d4856fe00b0cc9e7e6ddefc79e7a)**  
+- **[Ambani’s Jio seeks to raise $3.2B in what could be India’s biggest IPO](https://finnhub.io/api/news?id=1cee901db1323bf3a65e4d3604fde4df548a395ae4e56b0fd6b20a4fdb389328)**  
 *Yahoo · 1h前*  
-Dow futures rose with yields falling. Chip-gear giant ASML beat on earnings with the CPI inflation report due.. Meta and AMD are buys.
+Jio plans to use most of its IPO proceeds to repay debt as it expands beyond telecom.
 
-- **[Is AMD Even a Real Threat to Nvidia or Just a Pricing Lever?](https://finnhub.io/api/news?id=2c551b6be517a9221f191f61f76b65868b5f6655849b4dfabf202ce978775331)**  
+- **[Gene Munster Flags Meta’s Muse As A Bigger Risk To Google Search Than ChatGPT](https://finnhub.io/api/news?id=ddffb5481b1b0ae8fb15c87dc6bb06573d3b001877a8059cf0e53218a67ddf66)**  
 *Yahoo · 1h前*  
-AMD just posted record Data Center revenue and claims its Helios racks deliver cheaper tokens than anything NVIDIA sells. Whether that disrupts the world's most…
+Conversational tools like ChatGPT primarily fielded questions that search engines had not heavily monetized, according to Munster and his co-managing partner Do…
 
-- **[Meta Is Back in the AI Race. Muse Wonder Just Ranked #2 for Accounting, According to DualEntry Accounting AI Benchmark](https://finnhub.io/api/news?id=6278e22c30b3d0c373ba8258b0f4face1c814baa1b006f84924c944762221ecb)**  
+- **[3 Trillion-Dollar Giants That Could Be the Next Big Stock-Split Plays](https://finnhub.io/api/news?id=9d1b7840e9fdaeb6f0fa10727807cae1ab43b4eaf29b4c5e9182076bbca8c48b)**  
 *Yahoo · 2h前*  
-NEW YORK, October 14, 2026--Meta's new Muse Wonder model got 83.2% of tasks right on the DualEntry Accounting AI Benchmark, tying for second place among 57 AI m…
+Micron, Microsoft, and Meta Platforms could soon split their shares, and investors have different reasons to keep watching each of them.
 
 ---
 
@@ -48,7 +48,7 @@ NEW YORK, October 14, 2026--Meta's new Muse Wonder model got 83.2% of tasks righ
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-14 | 監控 | $762.50 | — | 自動更新 |
+| 2026-10-15 | 監控 | $737.54 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ NEW YORK, October 14, 2026--Meta's new Muse Wonder model got 83.2% of tasks righ
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-14 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
