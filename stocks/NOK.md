@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[Eastlink completes state-of-the-art core mobile network upgrade](https://finnhub.io/api/news?id=edb3b1fa3a484403e7da4e7fc146bfdafffd53b4865276ed67e94d6ddf681a0d)**  
+*Yahoo · 22h前*  
+Eastlink announced today that the company has completed a multi-million dollar, state-of-the-art core mobile network transformation using Nokia 5G Standalone Co…
+
 - **[What To Do As Nokia Shares Trade In A Narrow Range](https://finnhub.io/api/news?id=6bd86063691f5045aa9191ef2d0b1f8567c59ee4f664d74879425bc4b439bcdf)**  
-*SeekingAlpha · 18h前*
+*SeekingAlpha · 1d前*
 
 - **[Which stocks are most active on Tuesday?](https://finnhub.io/api/news?id=a17ad523b84dd67056cf3f54c8b26ba43420d2dffa3a07b672a313f3a42b6b65)**  
 *ChartMill · 1d前*  
 These stocks are making the most noise in today's session. Stay tuned for the latest updates!
-
-- **[Inseego Targets New Broadband Opportunities with Licensed Band Radio Technology](https://finnhub.io/api/news?id=f8b01466583101cdb1be001a3e0c98bfc4bf8fe165c114109d7b620afbce659a)**  
-*Yahoo · 1d前*  
-Building on FastMile™ mmWave expertise to support carrier evaluations of emerging Licensed Band Radio deployment modelsVIENNA, Oct. 13, 2026 (GLOBE NEWSWIRE) --…
 
 ---
 
@@ -58,4 +58,4 @@ Building on FastMile™ mmWave expertise to support carrier evaluations of emerg
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
