@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $179.02 | — |
-| Put Wall（支撐） | $200.00 | -0.5% |
-| Call Wall（阻力） | $210.00 | +4.5% |
+| Put Wall（支撐） | $190.00 | -5.5% |
+| Call Wall（阻力） | $200.00 | +-0.5% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir Technologies Inc. (PLTR) Registers a Bigger Fall Than the Market: Important Facts to Note](https://finnhub.io/api/news?id=ab60131264e7ee4cb843500473fa55b8dc353b7fbc8db2652140e5e37f8837b3)**  
+- **[Customers Bank and Palantir Collaborate to Build an AI-Native Future for Banking](https://finnhub.io/api/news?id=5adc7e3df553cb26f24965645c821da1252ab7504f201f06f96b50028b0dd66b)**  
+*Yahoo · 0h前*  
+WEST READING, Pa. & MIAMI, October 15, 2026--Customers Bank ("Bank"), the subsidiary of Customers Bancorp, Inc. (NYSE: CUBI) and one of the nation's top-perform…
+
+- **[3 Unpopular Stocks That Deserve Some Love](https://finnhub.io/api/news?id=77202284761e14481e768cd7794a3ab387db1716f256fbb22f532c8deb9bf642)**  
+*Yahoo · 1h前*  
+Wall Street has issued downbeat forecasts for the stocks in this article. These predictions are rare - financial institutions typically hesitate to say bad thin…
+
+- **[Surf Air Mobility Signs OperatorOS Contract with Flying Zebra](https://finnhub.io/api/news?id=e4b089057995dfc27b754ad3474c54f70dc9c15a8a116ebbbb60ff1eeee9678a)**  
 *Yahoo · 2h前*  
-Palantir Technologies Inc. (PLTR) reached $200.97 at the closing of the latest trading day, reflecting a -3.69% change compared to its last close.
-
-- **[Palantir Is Up 16% in a Month but It’s Falling Today: Take Profits, or Buy More?](https://finnhub.io/api/news?id=6cfe77f903eb9f3975b3aa3eb8062e787cb7dd96b13ebc2cea4f0135cb67d93d)**  
-*Yahoo · 4h前*  
-Palantir has outpaced every major software peer over the past month, and a sudden pullback is forcing investors to make a call that depends entirely on what is …
-
-- **[Sector Update: Tech Stocks Fall Wednesday Afternoon](https://finnhub.io/api/news?id=53c8ff4d9a25ae53624e21c937718998f7fd33d4340bd02d471476f3b5296874)**  
-*Yahoo · 5h前*  
-Tech stocks were lower Wednesday afternoon, with the State Street Technology Select Sector SPDR ETF
+LOS ANGELES, October 15, 2026--Surf Air Mobility Inc. (NYSE: SRFM) ("Surf Air Mobility" or the "Company") today announced that the Company has signed a definiti…
 
 ---
 
@@ -59,4 +59,4 @@ Tech stocks were lower Wednesday afternoon, with the State Street Technology Sel
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
