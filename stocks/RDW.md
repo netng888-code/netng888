@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $10.53 | — |
-| Put Wall（支撐） | $8.50 | -1.4% |
+| Put Wall（支撐） | $8.00 | -7.2% |
 | Call Wall（阻力） | $10.00 | +16.0% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Air Launch Is Back on the Space Industry's Flight Plan](https://finnhub.io/api/news?id=572c2038f17fbbdc5574fccd5e9e47e57d156908b685afd54112fe3469a5e9b1)**  
-*Yahoo · 1d前*  
-American News Group News Commentary - The global space launch services market was valued at $16.9 billion in 2022 and is projected to reach $29.6 billion by 202…
+- **[2 Volatile Stocks with Promising Prospects and 1 We Ignore](https://finnhub.io/api/news?id=1a382f95a0517ab4472f83ee312349176f0736546a3f6bca55db19d81d06e5bf)**  
+*Yahoo · 1h前*  
+A highly volatile stock can deliver big gains - or just as easily wipe out a portfolio if things go south. While some investors embrace risk, mistakes can be co…
 
-- **[Can Redwire's VLEO Spacecraft Expand Mission Opportunities?](https://finnhub.io/api/news?id=62509956b3eaf97057eb2b4b78bf4182f5bd3deeedb6cdb348a2e8114c5f4ffb)**  
-*Yahoo · 1d前*  
-RDW expands its VLEO spacecraft portfolio with SabreSat and Phantom, targeting specialized missions that benefit from proximity to Earth.
+- **[Redwire Secures Additional Orders to Deliver Stalker UAS to U.S. National Guard for the Army’s Next-Generation Drone Operators](https://finnhub.io/api/news?id=8776c622385f7613d1cc1f58bcd7f1230803c19edc66f859fc9fab7e0cc3fc36)**  
+*Yahoo · 2h前*  
+JACKSONVILLE, Fla., October 15, 2026--Redwire Corporation (NYSE: RDW), a global leader in space and defense technology solutions, today announced it will delive…
 
-- **[Final Pair of Redwire ROSA Wings Launch to the ISS, Completing Historic Power Modernization Effort](https://finnhub.io/api/news?id=1521cf93269b1a666d4abdd8324f645077c52268b4590a39392194ade1a0a735)**  
-*Yahoo · 2d前*  
-JACKSONVILLE, Fla., October 12, 2026--Redwire Corporation (NYSE: RDW), a leader in space infrastructure for the next generation space economy, announced today t…
+- **[RDW, YSS Stocks Extend Losing Streaks: Piper Sandler Sees Competition, Growth Risks](https://finnhub.io/api/news?id=456ba78af95b415d89e651229af606bbd9f9ba2634d9aa44ea5243c72f14a572)**  
+*Yahoo · 2h前*  
+Piper Sandler began coverage on Redwire and York Space Systems with a cautious stance, highlighting issues on competition and growth prospects.
 
 ---
 
@@ -59,4 +59,4 @@ JACKSONVILLE, Fla., October 12, 2026--Redwire Corporation (NYSE: RDW), a leader 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
