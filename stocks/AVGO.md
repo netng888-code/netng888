@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$346.25** |
-| 今日變動 | ▼ $11.06　(-3.10%) |
+| 現價 | **$344.33** |
+| 今日變動 | ▼ $1.92　(-0.55%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $324　(▼8.5%) |
+| 未實現盈虧 | ▼ $343　(▼9.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $358.83 | — |
-| Put Wall（支撐） | $340.00 | -1.8% |
-| Call Wall（阻力） | $360.00 | +4.0% |
+| Gamma Flip | $357.61 | — |
+| Put Wall（支撐） | $340.00 | -1.3% |
+| Call Wall（阻力） | $350.00 | +1.6% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Big Tech Will Spend $745 Billion on AI This Year. These Stocks Get Paid on Every Dollar.](https://finnhub.io/api/news?id=29b3c98e09cd11bbd2c951c482bfdec5f20c5ef1cfd7ae9d658a8c39cecb1524)**  
-*Yahoo · 1h前*  
-These top hardware suppliers are capitalizing on surging data center investment.
-
-- **[Broadcom vs. SK Hynix: Which Technology Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=7f34d406ecfeb55b9024dd67e7734cba92536b11355ff86b5ccd6df3d4894f96)**  
-*Yahoo · 1h前*  
-SK Hynix trades at a fraction of Broadcom's valuation despite stronger profit margins, but faces steeper cyclical risks in the memory market.
-
-- **[Applied Optoelectronics Stock Fell 12% on Hot Inflation. Opportunity or Falling Knife?](https://finnhub.io/api/news?id=3f6b6dff5d59677c587ac63b11415be955e4b7cd26dc4a9781d796b849309b20)**  
+- **[AI Stocks Are Hurting. Look at These Other Sectors for Protection.](https://finnhub.io/api/news?id=1acfb8f181fa92d06970adec64ca819ba0b9d8103d77fe0fefad6234be53ccb8)**  
 *Yahoo · 2h前*  
-Key Takeaways for Applied OptoelectronicsFunding Scare: Applied Optoelectronics stock fell 11. 82% to $86.
+Investors are fleeing tech stocks due to artificial-intelligence worries. But many other sectors of the market look like a good bet.
+
+- **[This AI rout is just another scare for investors](https://finnhub.io/api/news?id=b051688628c53b16eac79d22654015658fbaa567b12c28393735809ceebc7786)**  
+*Yahoo · 3h前*  
+Moor Insights & Strategy founder, CEO, and chief analyst Patrick Moorhead comes on Market Domination to explain why the latest AI stock sell-off could just be a…
+
+- **[Should You Buy The Dip In Marvell Stock?](https://finnhub.io/api/news?id=cd357f699bba8f3af8a7829fa988e11aa1a5a242af45f948d6d975e9d0ad31df)**  
+*Yahoo · 4h前*  
+Marvell Technology (MRVL) stock closed at $245.28 on October 14, 2026, down 14.5% from its October 6 close. That close came the day the shares rallied after the…
 
 ---
 
@@ -48,7 +48,7 @@ Key Takeaways for Applied OptoelectronicsFunding Scare: Applied Optoelectronics 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-15 | 監控 | $346.25 | — | 自動更新 |
+| 2026-10-16 | 監控 | $344.33 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key Takeaways for Applied OptoelectronicsFunding Scare: Applied Optoelectronics 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 07:03 HKT*
