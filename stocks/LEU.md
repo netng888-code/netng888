@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[No One Owns A Stock That Beat The S&P 500 Every Year](https://finnhub.io/api/news?id=1cb4f27c3d9cd74067bf0127e4a1f25e39024a0db7104268aa126b32acda0b04)**  
+*Yahoo · 1d前*  
+Here's a trick S&P 500 investors dream about — a stock that beats the index every year like clockwork. Too bad it doesn't exist.
+
 - **[3 Stocks to Buy If You Think the Nuclear Fuel Shortage Is the Real Story, Not the Reactors](https://finnhub.io/api/news?id=ae0d66c76e821ba0f3eb1c6ecbc361faabc2b983c0a4035fa57bb032ec9355b2)**  
 *Yahoo · 1d前*  
 Forget the reactors: The real nuclear bottleneck might be fuel. Three stocks give investors exposure to mining, enrichment, and supply.
@@ -55,4 +59,4 @@ Nuclear reactor stocks are handing back a month of gains in a single session, an
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
