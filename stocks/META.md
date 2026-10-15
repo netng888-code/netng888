@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,8 +20,8 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $617.01 | — |
-| Put Wall（支撐） | $730.00 | -1.0% |
+| Gamma Flip | $616.62 | — |
+| Put Wall（支撐） | $720.00 | -2.4% |
 | Call Wall（阻力） | $750.00 | +1.7% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Ambani’s Jio seeks to raise $3.2B in what could be India’s biggest IPO](https://finnhub.io/api/news?id=1cee901db1323bf3a65e4d3604fde4df548a395ae4e56b0fd6b20a4fdb389328)**  
-*Yahoo · 1h前*  
-Jio plans to use most of its IPO proceeds to repay debt as it expands beyond telecom.
+- **[What Wall Street may be forgetting about Meta's AI business](https://finnhub.io/api/news?id=00ff35eaef87e68005d2bc9489074f846eac7377f11ccf3956e4acca92ea3af6)**  
+*Yahoo · 0h前*  
+Wall Street may be asleep at the wheel on modeling out a more AI-fueled Meta business model.
 
-- **[Gene Munster Flags Meta’s Muse As A Bigger Risk To Google Search Than ChatGPT](https://finnhub.io/api/news?id=ddffb5481b1b0ae8fb15c87dc6bb06573d3b001877a8059cf0e53218a67ddf66)**  
-*Yahoo · 1h前*  
-Conversational tools like ChatGPT primarily fielded questions that search engines had not heavily monetized, according to Munster and his co-managing partner Do…
+- **[The Home Agent Subscription: Parsing the Fine Print on Apple and Meta’s Metered Services](https://finnhub.io/api/news?id=46b6d7c0c5f1013e102b6da6018dcc741742ff6649bfed31bdbc8dd5ef1c04ed)**  
+*Yahoo · 0h前*  
+The Metered Horizon Two of the biggest names in the smart home just revealed how they plan to charge for the agents that will eventually run your house. The mon…
 
-- **[3 Trillion-Dollar Giants That Could Be the Next Big Stock-Split Plays](https://finnhub.io/api/news?id=9d1b7840e9fdaeb6f0fa10727807cae1ab43b4eaf29b4c5e9182076bbca8c48b)**  
-*Yahoo · 2h前*  
-Micron, Microsoft, and Meta Platforms could soon split their shares, and investors have different reasons to keep watching each of them.
+- **[Big Tech Will Spend $745 Billion on AI This Year. These Stocks Get Paid on Every Dollar.](https://finnhub.io/api/news?id=29b3c98e09cd11bbd2c951c482bfdec5f20c5ef1cfd7ae9d658a8c39cecb1524)**  
+*Yahoo · 1h前*  
+These top hardware suppliers are capitalizing on surging data center investment.
 
 ---
 
@@ -59,4 +59,4 @@ Micron, Microsoft, and Meta Platforms could soon split their shares, and investo
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
