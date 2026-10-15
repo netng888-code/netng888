@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,14 +31,14 @@
 ## 📰 最新新聞
 
 - **[ISRG Gains Nearly 12% in a Month: Should You Buy, Hold or Sell?](https://finnhub.io/api/news?id=52b9192413945d0a0a6604766abffa8725bc7164e4bd7aebb78648b5beee6fea)**  
-*Yahoo · 6h前*  
+*Yahoo · 20h前*  
 Intuitive Surgical shares have surged nearly 12% in a month ahead of Q3 earnings. Strong da Vinci 5 adoption and Ion growth fuel momentum, but valuation and ris…
 
 - **[UFP Technologies: Re-Rated As Organic Growth Returns](https://finnhub.io/api/news?id=8cfb673e9d02748ead865fd03180b4fb79526916cd22918f84ae65a04af296f8)**  
-*SeekingAlpha · 9h前*
+*SeekingAlpha · 23h前*
 
 - **[Zacks.com featured highlights include Chipotle Mexican Grill, BP and Intuitive Surgical](https://finnhub.io/api/news?id=12c0cbf3f5dcfe6506779b2f7c642f0f8476ff11b7ea185cba807dcfb53f7235)**  
-*Yahoo · 10h前*  
+*Yahoo · 1d前*  
 Chipotle, BP and Intuitive Surgical stand out as sales growth stocks to watch, with 2026 revenue forecasts ranging from 9% to 28.9% as Q3 earnings begin.
 
 ---
@@ -58,4 +58,4 @@ Chipotle, BP and Intuitive Surgical stand out as sales growth stocks to watch, w
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
