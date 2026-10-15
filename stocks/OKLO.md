@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Should This One Number Scare You About NuScale Power Stock?](https://finnhub.io/api/news?id=14b22d454b1e25f1d5aa0cacdbf2ada28a9197d35f37c50b1315bc1e0d651a0d)**  
+- **[Oklo Launched Another $1 Billion Stock Sale. Here's How Much Dilution Shareholders Have Absorbed Since It Went Public.](https://finnhub.io/api/news?id=3ef5f2b0087062f7ce5f9cb9a4cfdbed2a75bd80a056b6e5798dc9e9b620e4b0)**  
 *Yahoo · 1d前*  
-NuScale Power (SMR) reported revenue of $0.1 million for the three months ended June 30, 2026, compared with $8.1 million a year earlier. That number matters be…
+The nuclear energy company is selling stock again but at a much lower share price than its last funding round.
 
-- **[Oklo Stock Hits a New 52-Week Low: Time to Buy?](https://finnhub.io/api/news?id=554e9935994772e1c2f9f4ea5bad83ec609bcc2c24c3d636d61096c9293046b3)**  
+- **[A Year Ago We Said the SMR Rally Was Just Heating Up. Oklo and NuScale Both Fell Sharply.](https://finnhub.io/api/news?id=1ed7a39c1ecd7b455085ea1fbaaefcdac4dab433ee67b1de4cb8ba3cbcedf259)**  
 *Yahoo · 1d前*  
-The energy stock is down 84% from its high, with its valuation falling below $6 billion.
+We called Oklo a buy and NuScale a strong buy when nuclear fever gripped the market, and the trade collapsed spectacularly. Here is what the bull case looks lik…
 
-- **[3 Nuclear Stocks With Revenue Growth Up To 68%](https://finnhub.io/api/news?id=458b6f884042b3a358cde4dccaefcd1a2e3547845a00c7abfb41a2d03c0d447a)**  
+- **[Micron Technology and Krispy Kreme have been highlighted as Zacks Bull and Bear of the Day](https://finnhub.io/api/news?id=d80c428cea6e17c5361aa1200d860c38df4f46934e5e4b2c449f85eb697bcbdd)**  
 *Yahoo · 1d前*  
-Energy prices are back in focus after the IMF flagged the Middle East war driven energy shock as a major risk to global growth. When oil and gas look less secur…
+Micron Technology benefits from surging AI-driven memory demand, tight DRAM supply and soaring margins, while Krispy Kreme faces mounting pressure from GLP-1 ad…
 
 ---
 
@@ -59,4 +59,4 @@ Energy prices are back in focus after the IMF flagged the Middle East war driven
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
