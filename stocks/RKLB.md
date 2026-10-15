@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-15 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $67.29 | — |
-| Put Wall（支撐） | $55.00 | -7.1% |
+| Put Wall（支撐） | $50.00 | -15.5% |
 | Call Wall（阻力） | $65.00 | +9.8% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab stock falls after delaying Neutron rocket to 2027](https://finnhub.io/api/news?id=2aaa04ce1ab252021e8abab162d6e42d481dcc9fbd8369c658fcc54d2632cf1b)**  
-*Yahoo · 1h前*  
-Investing.com -- Rocket Lab Corporation (NASDAQ:RKLB) shares fell 7% in after-hours trading Wednesday after the company announced it was pushing back the debut …
-
-- **[These stocks are moving in today's after hours session](https://finnhub.io/api/news?id=a8e58a17885b827bad1dc2e60fb00a232ab159ede3aa49503db00c05476e9497)**  
-*ChartMill · 2h前*  
-After the conclusion of the US market's regular session on Wednesday, let's examine the after-hours session and unveil the notable performers among the top gain…
-
-- **[Rocket Lab Provides Update on Neutron Development and Adjusts Target Launch Timing](https://finnhub.io/api/news?id=e35471cf395d7a3ed71e642d00b530f2723d85ec0de4704d213d75162d1f9854)**  
+- **[Social Buzz: Wallstreetbets Stocks Fall Pre-Bell Thursday; Rocket Lab, CoreWeave to Open Lower](https://finnhub.io/api/news?id=bbb31f3fcb4bd4f5732765a0be2963bd7985cbf547850d84e29733503ad5be7d)**  
 *Yahoo · 2h前*  
-LONG BEACH, Calif., Oct. 14, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB) (“Rocket Lab” or “the Company”), a global leader in launch services …
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were falling hours before Thursda
+
+- **[Intel, Marvell, CoreWeave, TSMC, Apple, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=71cfe2135e8ab4e784459e25cfcf142b2d658af8c100a0915bf9f50a609c4f05)**  
+*Yahoo · 2h前*  
+AI stocks tumble as a hot inflation reading and Anthropic’s slowing revenue growth extend the tech selloff.
+
+- **[Rocket Lab Shares Slide 15% as Neutron Rocket Launch Delayed Until 2027](https://finnhub.io/api/news?id=3d7eb1a8543fc985ea8ba92ea40397674f951d26a82255d0c8f8baa48cfb176e)**  
+*Yahoo · 2h前*  
+Rocket Lab (NASDAQ:RKLB) shares came under heavy selling pressure on Wednesday, 14 October, falling 7. 85% during regular trading before declining a further 7.
 
 ---
 
@@ -59,4 +59,4 @@ LONG BEACH, Calif., Oct. 14, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Na
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
