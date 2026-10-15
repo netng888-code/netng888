@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$98.12** |
-| 今日變動 | ▼ $4.69　(-4.56%) |
+| 現價 | **$95.37** |
+| 今日變動 | ▼ $2.75　(-2.80%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $89　(▼8.3%) |
+| 未實現盈虧 | ▼ $116　(▼10.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $103.51 | — |
-| Put Wall（支撐） | $90.00 | -8.3% |
-| Call Wall（阻力） | $100.00 | +1.9% |
+| Gamma Flip | $101.99 | — |
+| Put Wall（支撐） | $90.00 | -5.6% |
+| Call Wall（阻力） | $100.00 | +4.9% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Premarket movers: CoreWeave tumbles; Penske Automotive surges](https://finnhub.io/api/news?id=ac38e590f869fab33b168f93f7f3e6b440fd66d938849b10e7e207e09266aa5b)**  
-*Yahoo · 0h前*  
-Investing.com - Global semiconductor stocks fell sharply on Thursday, extending the previous session’s selloff after fresh U.S. inflation data fueled concerns t…
+- **[Intel (INTC) Stock Dropped, So What Is Driving Attention Now?](https://finnhub.io/api/news?id=b67b284f3d78dd72f7147c8d2695a0eeebffebc8d33991423a6fafd54f182d1a)**  
+*Yahoo · 3h前*  
+Intel (INTC) stock slipped alongside the wider chip sector as investors reacted to Chinese rival CXMT’s reported progress and fresh warnings about how long AI i…
 
-- **[Netlist Introduces Next-Generation LIGHTNING™ ULL DDR5 RDIMMs for Agentic AI](https://finnhub.io/api/news?id=38d9d8cd397edf7edf857735fd9a798fc7fc0474f3db813920738a7df89fa767)**  
-*Yahoo · 1h前*  
-Netlist, Inc. (OTCQB: NLST), a leading innovator in advanced memory and storage solutions, today announced the expansion of its LIGHTNING Ultra-Low Latency (ULL…
+- **[Should You Buy The Dip In Marvell Stock?](https://finnhub.io/api/news?id=cd357f699bba8f3af8a7829fa988e11aa1a5a242af45f948d6d975e9d0ad31df)**  
+*Yahoo · 4h前*  
+Marvell Technology (MRVL) stock closed at $245.28 on October 14, 2026, down 14.5% from its October 6 close. That close came the day the shares rallied after the…
 
-- **[Applied Optoelectronics Stock Fell 12% on Hot Inflation. Opportunity or Falling Knife?](https://finnhub.io/api/news?id=3f6b6dff5d59677c587ac63b11415be955e4b7cd26dc4a9781d796b849309b20)**  
-*Yahoo · 2h前*  
-Key Takeaways for Applied OptoelectronicsFunding Scare: Applied Optoelectronics stock fell 11. 82% to $86.
+- **[Stay informed about the most active stocks in the S&P500 index on Thursday's session.](https://finnhub.io/api/news?id=dd86a0c2e65b0e975dd45ee39418b1734f57cb7dac809bde94735e179281157c)**  
+*ChartMill · 4h前*  
+Explore the S&P500 index on Thursday and find out which stocks are the most active in today's session. Stay updated with the stocks that are capturing market in…
 
 ---
 
@@ -48,7 +48,7 @@ Key Takeaways for Applied OptoelectronicsFunding Scare: Applied Optoelectronics 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-15 | 監控 | $98.12 | — | 自動更新 |
+| 2026-10-16 | 監控 | $95.37 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key Takeaways for Applied OptoelectronicsFunding Scare: Applied Optoelectronics 
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 07:04 HKT*
