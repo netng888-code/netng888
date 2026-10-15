@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-15 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$200.97** |
-| 今日變動 | ▼ $7.70　(-3.69%) |
+| 現價 | **$200.50** |
+| 今日變動 | ▼ $0.47　(-0.23%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $442　(▲57.9%) |
+| 未實現盈虧 | ▲ $439　(▲57.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $179.02 | — |
-| Put Wall（支撐） | $190.00 | -5.5% |
-| Call Wall（阻力） | $200.00 | +-0.5% |
+| Gamma Flip | $178.85 | — |
+| Put Wall（支撐） | $200.00 | -0.2% |
+| Call Wall（阻力） | $210.00 | +4.7% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Customers Bank and Palantir Collaborate to Build an AI-Native Future for Banking](https://finnhub.io/api/news?id=5adc7e3df553cb26f24965645c821da1252ab7504f201f06f96b50028b0dd66b)**  
-*Yahoo · 0h前*  
-WEST READING, Pa. & MIAMI, October 15, 2026--Customers Bank ("Bank"), the subsidiary of Customers Bancorp, Inc. (NYSE: CUBI) and one of the nation's top-perform…
+- **[ServiceNow Climbs 5% After Denying Decagon Acquisition Interest; Salesforce Rises 4%, Palantir Dips](https://finnhub.io/api/news?id=24a08430a1903e9c68e61d678fa56845d62e2c080e5e8c8927cd09f54fbcaf4e)**  
+*Yahoo · 6h前*  
+A flat denial from ServiceNow's president sent the stock surging, but the real question is whether shutting down acquisition rumors actually strengthens the com…
 
-- **[3 Unpopular Stocks That Deserve Some Love](https://finnhub.io/api/news?id=77202284761e14481e768cd7794a3ab387db1716f256fbb22f532c8deb9bf642)**  
-*Yahoo · 1h前*  
-Wall Street has issued downbeat forecasts for the stocks in this article. These predictions are rare - financial institutions typically hesitate to say bad thin…
+- **[Simply Put, Palantir Remains a Valuation Trap](https://finnhub.io/api/news?id=e80a223d168efc1ffb28b70a36be77cb47829d83a4dbe5da4b17ec7c06f6e54f)**  
+*Yahoo · 6h前*  
+Palantir's revenue is exploding and its AI pitch has Wall Street buzzing, yet the analysts who cover it most closely see almost no room left to run. Here is wha…
 
-- **[Surf Air Mobility Signs OperatorOS Contract with Flying Zebra](https://finnhub.io/api/news?id=e4b089057995dfc27b754ad3474c54f70dc9c15a8a116ebbbb60ff1eeee9678a)**  
-*Yahoo · 2h前*  
-LOS ANGELES, October 15, 2026--Surf Air Mobility Inc. (NYSE: SRFM) ("Surf Air Mobility" or the "Company") today announced that the Company has signed a definiti…
+- **[ServiceNow vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=9420d5e1b3f41d4bb1e37d9475eb2e5af89fa3ac0834818b094b7b475a183d31)**  
+*Yahoo · 7h前*  
+Palantir posted explosive U.S. commercial revenue growth in Q2 2026 and raised guidance for the second straight quarter. ServiceNow is compounding steadily with…
 
 ---
 
@@ -48,7 +48,7 @@ LOS ANGELES, October 15, 2026--Surf Air Mobility Inc. (NYSE: SRFM) ("Surf Air Mo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-15 | 監控 | $200.97 | — | 自動更新 |
+| 2026-10-16 | 監控 | $200.50 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ LOS ANGELES, October 15, 2026--Surf Air Mobility Inc. (NYSE: SRFM) ("Surf Air Mo
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-15 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 07:03 HKT*
