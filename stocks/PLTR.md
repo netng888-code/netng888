@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[ServiceNow Climbs 5% After Denying Decagon Acquisition Interest; Salesforce Rises 4%, Palantir Dips](https://finnhub.io/api/news?id=24a08430a1903e9c68e61d678fa56845d62e2c080e5e8c8927cd09f54fbcaf4e)**  
-*Yahoo · 6h前*  
-A flat denial from ServiceNow's president sent the stock surging, but the real question is whether shutting down acquisition rumors actually strengthens the com…
+- **[Palantir Technologies (NASDAQ:PLTR) Screens Strong on Accelerating Growth and Improving Fundamentals](https://finnhub.io/api/news?id=e7c5d81fc1b38f863feca496e6d4980d989860d6787ca62bf102f88fa51a431b)**  
+*ChartMill · 1h前*  
+Palantir clears all eight Little Book growth rules with strong earnings, sales, margins, and ROE, but its high valuation remains a key risk.
 
-- **[Simply Put, Palantir Remains a Valuation Trap](https://finnhub.io/api/news?id=e80a223d168efc1ffb28b70a36be77cb47829d83a4dbe5da4b17ec7c06f6e54f)**  
-*Yahoo · 6h前*  
-Palantir's revenue is exploding and its AI pitch has Wall Street buzzing, yet the analysts who cover it most closely see almost no room left to run. Here is wha…
+- **[Palantir, Apple and Microsoft Brace for Democrats to Go on Offensive](https://finnhub.io/api/news?id=069472e281214a2063e98df48514ca6211c4cc4c5e395f766fb235bea3881af8)**  
+*Yahoo · 2h前*  
+For two years, congressional Democrats furious over corporate America’s cooperation with the Trump administration have been limited to the sternly worded letter…
 
-- **[ServiceNow vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=9420d5e1b3f41d4bb1e37d9475eb2e5af89fa3ac0834818b094b7b475a183d31)**  
-*Yahoo · 7h前*  
-Palantir posted explosive U.S. commercial revenue growth in Q2 2026 and raised guidance for the second straight quarter. ServiceNow is compounding steadily with…
+- **[Innodata vs. Nebius: Here's What Revenue Trends Tell Investors About These Artificial Intelligence Companies](https://finnhub.io/api/news?id=c62939b494216bd54d059e4c231f155dcb85c19a21860fdda95e7182a54a5fc2)**  
+*Yahoo · 5h前*  
+Nebius has tripled revenue in just two years while Innodata grew at a steadier pace, but the gap between them tells a more nuanced story about growth trajectori…
 
 ---
 
@@ -59,4 +59,4 @@ Palantir posted explosive U.S. commercial revenue growth in Q2 2026 and raised g
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 21:04 HKT*
