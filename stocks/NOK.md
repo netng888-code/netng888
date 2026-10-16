@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[11% Undervalued Motorola Solutions (MSI) Following Nokia Value Comparison?](https://finnhub.io/api/news?id=0655ce63769ced4b0e22e46417aee8d6c2ae284a4fb72fffc5f5802d8ed861e9)**  
+*Yahoo · 12h前*  
+Fresh research comparing Motorola Solutions (MSI) with Nokia has put valuation back in focus. Both carry the same Zacks Rank, yet Nokia is being highlighted as …
+
+- **[European Equities Traded in the US as American Depositary Receipts Rise Sharply in Thursday Trading](https://finnhub.io/api/news?id=8e0a8ef954c016e7bdd7ff12fa974f4ae0921a58795ddda7059a72c7b363b69e)**  
+*Yahoo · 21h前*  
+European equities traded in the US as American depositary receipts were sharply higher late Thursday
+
 - **[Why Ericsson Rose 8% After The Q3 Report](https://finnhub.io/api/news?id=868e5f97e92d724896c76338a239093ebaeea5e89b72e0d8ce8938c5214fbf11)**  
-*SeekingAlpha · 8h前*  
+*SeekingAlpha · 22h前*  
 Ericsson (ERIC) Q3 beat: 5.9% revenue growth and 17% EBITA margin. Read the latest analysis on the stock here.
-
-- **[Ericsson Plans Price Hikes As AI Boom Drives Up Equipment Costs](https://finnhub.io/api/news?id=f0d8401de3e10aaecbccb1a491c1e7359694d33348292dfbae92dcce286a8840)**  
-*Benzinga · 12h前*  
-Ericsson stock surges nearly 10% after an earnings beat, but rising AI-driven equipment costs threaten profits through 2027.
-
-- **[Global chipmakers sink as inflation data fuels rate-hike fears, AI rout](https://finnhub.io/api/news?id=bf60ed8cd5068c99bb15d4d60ce536825a6da8ada0fc6a8097547fa91f59daa0)**  
-*Yahoo · 14h前*  
-Investing.com -- Global semiconductor stocks fell sharply Thursday, extending a rout from a day earlier after fresh U.S. inflation data stoked fears of further …
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Global semiconductor stocks fell sharply Thursday, extending a 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 21:04 HKT*
