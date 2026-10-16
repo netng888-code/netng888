@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Stocktwits Space Race Weekly: SPCX Weathers Selloff Better Than ASTS, RKLB And FLY — RDW Fares Best](https://finnhub.io/api/news?id=8d76b4140c9d7bd4cd55377c14e82fa19c0677a421c3fa9d8d372222eef6e5c8)**  
+*Yahoo · 6h前*  
+SpaceX faced Ukraine-related satellite-service scrutiny as Barclays’ merger speculation and the flying Roadster revealed renewed attention on its Tesla ties.
+
+- **[Stock Market Today, Oct. 15: Rocket Lab Pushes Neutron Launch to 2027, Stock Falls 7%](https://finnhub.io/api/news?id=c387e2a67ff2ac143410d3f98c5494345647373d2f639bbd74a2d770f0bf4e59)**  
+*Yahoo · 15h前*  
+Shares fell 6.64% as the company delayed its next-generation rocket, shifting investor focus to manufacturing progress and flight cadence, today, Oct. 15, 2026.
+
 - **[2 Volatile Stocks with Promising Prospects and 1 We Ignore](https://finnhub.io/api/news?id=1a382f95a0517ab4472f83ee312349176f0736546a3f6bca55db19d81d06e5bf)**  
-*Yahoo · 11h前*  
+*Yahoo · 1d前*  
 A highly volatile stock can deliver big gains - or just as easily wipe out a portfolio if things go south. While some investors embrace risk, mistakes can be co…
-
-- **[Redwire Secures Additional Orders to Deliver Stalker UAS to U.S. National Guard for the Army’s Next-Generation Drone Operators](https://finnhub.io/api/news?id=8776c622385f7613d1cc1f58bcd7f1230803c19edc66f859fc9fab7e0cc3fc36)**  
-*Yahoo · 12h前*  
-JACKSONVILLE, Fla., October 15, 2026--Redwire Corporation (NYSE: RDW), a global leader in space and defense technology solutions, today announced it will delive…
-
-- **[RDW, YSS Stocks Extend Losing Streaks: Piper Sandler Sees Competition, Growth Risks](https://finnhub.io/api/news?id=456ba78af95b415d89e651229af606bbd9f9ba2634d9aa44ea5243c72f14a572)**  
-*Yahoo · 12h前*  
-Piper Sandler began coverage on Redwire and York Space Systems with a cautious stance, highlighting issues on competition and growth prospects.
 
 ---
 
@@ -59,4 +59,4 @@ Piper Sandler began coverage on Redwire and York Space Systems with a cautious s
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 21:04 HKT*
