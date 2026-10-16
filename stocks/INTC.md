@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-16 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intel (INTC) Stock Dropped, So What Is Driving Attention Now?](https://finnhub.io/api/news?id=b67b284f3d78dd72f7147c8d2695a0eeebffebc8d33991423a6fafd54f182d1a)**  
+- **[Why AMD’s CUDA-Challenging AI Playbook Makes It the Ultimate Asymmetric Buy.](https://finnhub.io/api/news?id=3c441d36f8645e0e3f02947bebfd5bffd7ca41a1169fd6d94bcf91da78d88be0)**  
+*Yahoo · 1h前*  
+AMD just absorbed a brutal sell-off and an $800 million export hit, yet its biggest customers keep signing billion-dollar commitments. Here is why the pain migh…
+
+- **[Why Nvidia Stock Is Rising While the Broader Chip Sector Keeps Falling](https://finnhub.io/api/news?id=10cfc4497529722d01337ad8737b428adc2f1ce1226d4b39b72c12591433892a)**  
 *Yahoo · 3h前*  
-Intel (INTC) stock slipped alongside the wider chip sector as investors reacted to Chinese rival CXMT’s reported progress and fresh warnings about how long AI i…
+The AI chip leader was defying the ongoing sector slump early Friday.
 
-- **[Should You Buy The Dip In Marvell Stock?](https://finnhub.io/api/news?id=cd357f699bba8f3af8a7829fa988e11aa1a5a242af45f948d6d975e9d0ad31df)**  
+- **[NVDA Bucks Selloff As MU, INTC, AMD Slide Premarket Amid Chip Rout](https://finnhub.io/api/news?id=85dcc4a699c9c7fb15a18938090c05f00eec0deba13a2b3b4ce83f5b0684a6d3)**  
 *Yahoo · 4h前*  
-Marvell Technology (MRVL) stock closed at $245.28 on October 14, 2026, down 14.5% from its October 6 close. That close came the day the shares rallied after the…
-
-- **[Stay informed about the most active stocks in the S&P500 index on Thursday's session.](https://finnhub.io/api/news?id=dd86a0c2e65b0e975dd45ee39418b1734f57cb7dac809bde94735e179281157c)**  
-*ChartMill · 4h前*  
-Explore the S&P500 index on Thursday and find out which stocks are the most active in today's session. Stay updated with the stocks that are capturing market in…
+AI infrastructure demand remains in focus as investors reassess chip valuations.
 
 ---
 
@@ -59,4 +59,4 @@ Explore the S&P500 index on Thursday and find out which stocks are the most acti
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 21:04 HKT*
