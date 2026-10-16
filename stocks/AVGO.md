@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Stocks Are Hurting. Look at These Other Sectors for Protection.](https://finnhub.io/api/news?id=1acfb8f181fa92d06970adec64ca819ba0b9d8103d77fe0fefad6234be53ccb8)**  
+- **[Capital Over Chips: Broadcom CEO Warns Financing Costs Could Slow AI Expansion](https://finnhub.io/api/news?id=864738688ea3b31edc5f173f1d3714403ce755a2b66c49ad7d601fc788da27b8)**  
 *Yahoo · 2h前*  
-Investors are fleeing tech stocks due to artificial-intelligence worries. But many other sectors of the market look like a good bet.
+Broadcom Inc. stock traded lower in premarket trading on Thursday as investors balanced robust artificial-intelligence demand against concerns about the enormou…
 
-- **[This AI rout is just another scare for investors](https://finnhub.io/api/news?id=b051688628c53b16eac79d22654015658fbaa567b12c28393735809ceebc7786)**  
+- **[Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching](https://finnhub.io/api/news?id=304ad190cf154f14cff266532ba49d7342f717d1218e00844959485aa2406399)**  
 *Yahoo · 3h前*  
-Moor Insights & Strategy founder, CEO, and chief analyst Patrick Moorhead comes on Market Domination to explain why the latest AI stock sell-off could just be a…
+Nvidia can't win without this chip designer.
 
-- **[Should You Buy The Dip In Marvell Stock?](https://finnhub.io/api/news?id=cd357f699bba8f3af8a7829fa988e11aa1a5a242af45f948d6d975e9d0ad31df)**  
-*Yahoo · 4h前*  
-Marvell Technology (MRVL) stock closed at $245.28 on October 14, 2026, down 14.5% from its October 6 close. That close came the day the shares rallied after the…
+- **[Broadcom Stock Is Down 28%, And The Bar To Hit Its Target Is Lower Than You Think](https://finnhub.io/api/news?id=be96a79dc4d7a69e284d44a1b699837684e83f84c7c1b80001770b86dda85ceb)**  
+*SeekingAlpha · 5h前*  
+Broadcom Inc. maintains a Strong Buy rating, with robust AI revenue growth and a clear path to its $115B 2027 target. Read more on AVGO stock here.
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology (MRVL) stock closed at $245.28 on October 14, 2026, down 14.5
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 21:03 HKT*
