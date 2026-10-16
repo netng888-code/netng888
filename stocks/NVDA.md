@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Deutsche Bank has blunt advice after NVIDIA-linked stock sinks 15%](https://finnhub.io/api/news?id=c12cac0c14a575c6f5b2580b92addb7dbc7e05ab2527bf42d11aa07267cc09c0)**  
+- **[Germany Reportedly Picks Nvidia for Its Industrial AI Push, but the Money Barely Matters](https://finnhub.io/api/news?id=dad4a6918e7649c4022150986432a571f76052889033b6f5e9075fab4faf567a)**  
 *Yahoo · 1h前*  
-Deutsche Bank stands by its CoreWeave call while bond markets flash warning signs over the AI firm’s heavy debt load.
+Nvidia (NVDA) is reportedly lining up another government partnership in Europe. Germany plans a wide-ranging cooperation agreement with Nvidia to push AI deeper…
 
-- **[Is Apple the Ultimate Stock to Buy Right Now?](https://finnhub.io/api/news?id=f71f28e99aeb9d57c0ae9a2b30f40d2f9f45124040fd7bf690c5a79a75ac46bf)**  
+- **[Even Tesla’s Flying Car Can’t Lift the Tech Stock Gloom](https://finnhub.io/api/news?id=611a24f156557a28fe955e88638ca35ffb266e720cb64ca6451cb632682fb617)**  
 *Yahoo · 1h前*  
-The iPhone maker's stock is gaining popularity specifically because the company isn't pouring money into AI.
+All the news you need to start your day.
 
-- **[Boeing Fell Back Below $200 Ahead of a Strike Deadline. Here's Why I'd Buy the Fear After New Contracts Were Signed](https://finnhub.io/api/news?id=ee8ce29ee1c12da218ade7e3ae7e2ef1a6b2e4ef8e2647ec90e49506b78edbe5)**  
+- **[CFTC Chairman Michael Selig Says New Crypto Rules Are Coming Soon. Here's What Crypto Investors Need to Know.](https://finnhub.io/api/news?id=fb87b3433897228f8a73b05bcac6287f04853625d08f82f9959cd340cc7aab44)**  
 *Yahoo · 1h前*  
-Boeing stock is losing altitude, but the pullback may be a buying opportunity for intrepid investors.
+The first set of new regulations could make the market more volatile if implemented.
 
 ---
 
@@ -59,4 +59,4 @@ Boeing stock is losing altitude, but the pullback may be a buying opportunity fo
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 21:03 HKT*
