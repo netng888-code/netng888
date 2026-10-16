@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Which S&P500 stocks are moving on Thursday?](https://finnhub.io/api/news?id=0a55e4262ba83c57add2dd4522f58e0401ec7c209d2260b3cb61b9795f28f103)**  
-*ChartMill · 3h前*  
+*ChartMill · 17h前*  
 Curious about the top performers within the S&P500 index one hour before the close of the markets on Thursday? Dive into the list of today's session's top gaine…
 
 - **[FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know](https://finnhub.io/api/news?id=6cc178efc4c11fa0f16b6115ba0fcae460e042ec5b5ad7607f5abb0cfee00528)**  
-*Yahoo · 5h前*  
+*Yahoo · 19h前*  
 A number of stocks fell in the morning session after hotter-than-expected inflation data compounded fears that elevated borrowing costs will curb artificial int…
 
 - **[Discover which S&P500 stocks are making waves on Thursday.](https://finnhub.io/api/news?id=5f62ae2ffc34d09948943f0a9e59acd49547181c65388b6c0146533f57da300c)**  
-*ChartMill · 6h前*  
+*ChartMill · 20h前*  
 Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Thursday.
 
 ---
@@ -59,4 +59,4 @@ Wondering what's happening in today's session for the S&P500 index? Stay informe
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 21:04 HKT*
