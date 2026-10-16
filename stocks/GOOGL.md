@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[JPMorgan's Chicago Office Renovation Costing Bank Over $800M, Dimon Says](https://finnhub.io/api/news?id=1a19b1109a5c0f931139231509bf303c0cc7a9206349d1fa8241ef0c47605ac7)**  
+- **[Morning Minute: Google Clears a Major Quantum Hurdle, Bitcoin Still Safe](https://finnhub.io/api/news?id=66efda7912ce05c2f029c9f4f2aac4f712d340766de5904755098e34bdfa71cd)**  
 *Yahoo · 1h前*  
-JPMorgan announced the renovation in February 2024, but at the time, it declined to disclose a full cost estimate for the major overhaul of the building.
+Plus, crypto majors rebound despite hot PPI and Saylor’s Strategy is at risk of removal from a major index.
 
-- **[3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans](https://finnhub.io/api/news?id=aed5d3110786b7e996da57c15fc87811bf6a8e3a6f32ccdae11b8dd53979632d)**  
-*Yahoo · 2h前*  
-Four of the largest data center spenders have budgeted over $700 billion for 2026. Microsoft's update comes Oct. 28.
+- **[Google Just Cut a Major Quantum Computing Error Rate by 40 Times](https://finnhub.io/api/news?id=af21dffc9b275171dcb107f0512ad4b3f94f98dfcc0dc5789ab23730cc47ffa5)**  
+*Yahoo · 1h前*  
+Google's quantum lab just cleared a barrier that has quietly set the ceiling on how powerful a quantum computer can ever get, and the implications reach well be…
 
-- **[AI Stocks Are Hurting. Look at These Other Sectors for Protection.](https://finnhub.io/api/news?id=1acfb8f181fa92d06970adec64ca819ba0b9d8103d77fe0fefad6234be53ccb8)**  
+- **[As Robotaxis Spread, Carmakers Must Choose Between Owning the Customer and Selling the Car](https://finnhub.io/api/news?id=23101597e7efe01bec4486085545076f9ef68de290b5ee64da708c6763f5a741)**  
 *Yahoo · 2h前*  
-Investors are fleeing tech stocks due to artificial-intelligence worries. But many other sectors of the market look like a good bet.
+Will robotaxis dominate transportation in the future, or will individual consumers demand to own their own vehicles?
 
 ---
 
@@ -59,4 +59,4 @@ Investors are fleeing tech stocks due to artificial-intelligence worries. But ma
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-16 21:03 HKT*
