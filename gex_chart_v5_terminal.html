@@ -649,13 +649,19 @@
     持倉股同時留喺watchlist，唔算重複）。其餘五檔（CSV／index.html／futu_bridge_v2.py US_STOCKS／
     telegram_bot.py／github_gex_updater.py）同步。⚠️ futu_bridge_v2.py要升級（US_STOCKS換INTC）先會喺
     持倉總覽見到INTC報價。
+  v5.39（2026-10-17）：持倉更新——CIFR（Cipher Digital）買入100股@$10.00（新增持倉）。PORTFOLIO新增
+    CIFR；HOLDINGS quicklinks喺INTC之後加CIFR（粗略對應市值排序）；持倉數17→18隻，tab標題「(17)」→
+    「(18)」，scard「17隻美股」→「18隻美股」，到期日曆說明文字「全部17隻」→「全部18隻」。港股07709
+    加倉100股@HK$19.50（200→300股）只影響index.html／港股CSV，呢個檔案冇港股持倉清單，唔使改。其餘五檔
+    （CSV／index.html／futu_bridge_v2.py US_STOCKS／telegram_bot.py／github_gex_updater.py BATCH2）同步。
+    ⚠️ futu_bridge_v2.py要升級（US_STOCKS加US.CIFR）先會喺持倉總覽／到期日曆見到CIFR。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.38)</title>
+<title>GEX Chart — Futu Bridge (v5.39)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -1234,7 +1240,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 
 <!-- Tabs（v6：持倉總覽排第一位，並做預設開啟分頁） -->
 <div class="tabs">
-  <button class="tab active" onclick="setTab('holdings')">💼 持倉總覽 (17)</button>
+  <button class="tab active" onclick="setTab('holdings')">💼 持倉總覽 (18)</button>
   <button class="tab" onclick="setTab('gex')">📊 GEX + K線</button>
   <button class="tab" onclick="setTab('calendar')">📅 到期日曆</button>
   <button class="tab" onclick="setTab('fi')">🔬 Field Inspector</button>
@@ -1484,7 +1490,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <div class="pane active" id="pane-holdings">
 
   <div class="scards">
-    <div class="scard"><div class="sc-label">總市值 (USD)</div><div class="sc-val" id="s-mv">—</div><div class="sc-sub">17隻美股</div></div>
+    <div class="scard"><div class="sc-label">總市值 (USD)</div><div class="sc-val" id="s-mv">—</div><div class="sc-sub">18隻美股</div></div>
     <div class="scard"><div class="sc-label">未實現盈虧</div><div class="sc-val" id="s-pnl">—</div><div class="sc-sub" id="s-pnlpct">—</div></div>
     <div class="scard"><div class="sc-label">今日盈虧 (T1-T2)</div><div class="sc-val" id="s-td">—</div><div class="sc-sub" id="s-tdsub">vs 今日收盤</div></div>
     <div class="scard"><div class="sc-label">報價時段</div><div class="sc-val" style="font-size:14px" id="s-sess">—</div><div class="sc-sub" id="s-sessub">—</div></div>
@@ -1520,7 +1526,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <div class="line"></div>
   </div>
   <div style="font-size:11px;color:var(--muted);margin-bottom:14px;line-height:1.6">
-    整合全部17隻持倉嘅期權到期日（未來45日內）。GEX Wall建基於期權OI，OPEX一過相關到期日嘅OI會「roll off」，Call/Put Wall好可能大幅跳動——留意🟢Monthly／🟣Quarterly（Triple Witching）呢兩類，OI通常最大、Max Pain磁吸效應最明顯。
+    整合全部18隻持倉嘅期權到期日（未來45日內）。GEX Wall建基於期權OI，OPEX一過相關到期日嘅OI會「roll off」，Call/Put Wall好可能大幅跳動——留意🟢Monthly／🟣Quarterly（Triple Witching）呢兩類，OI通常最大、Max Pain磁吸效應最明顯。
   </div>
   <div class="ctrl">
     <button class="refresh-btn primary" onclick="fetchOptionsCalendar()">↻ 刷新</button>
@@ -1744,7 +1750,7 @@ let lastMoneyFlow  = null;
 
 // ── Futu 持倉 + Watchlist（quicklinks 來源）────────────────────
 // 持倉：holdings_US CSV（依市值降序）。改持倉後記得同步更新呢度。
-const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','RDW','ISRG','INTC','RKLB','VRT','RR','SERV'];
+const HOLDINGS = ['GOOGL','AVGO','NVDA','MRVL','TER','META','PLTR','LEU','NOK','OKLO','RDW','ISRG','INTC','CIFR','RKLB','VRT','RR','SERV'];
 // Watchlist：GitHub live mywatchlist.html（21隻）+ 用戶另外要求加入嘅5隻（GLD/KLAC/LRCX/AMAT/ASML）
 // + 2026-07-10新增5隻生物科技/製藥股（LLY/VRTX/REGN/MRNA/BNTX）
 // + 2026-07-18新增SKHY（SK海力士ADR，2026年7月NASDAQ新上市，原代碼SKHYV
@@ -1788,6 +1794,7 @@ const PORTFOLIO = {
   'PLTR': {qty:6,   cost:127.304 },
   'ISRG': {qty:2,   cost:453.10  },
   'INTC': {qty:10,  cost:107.00  },
+  'CIFR': {qty:100, cost:10.00   },
   'RR':   {qty:300, cost:2.445   },
   'VRT':  {qty:2,   cost:303.76  },
   'SERV': {qty:30,  cost:11.743  },

@@ -239,8 +239,8 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="summary-grid">
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
-      <div class="summary-value" id="sum-us-mktval">USD 32,816.38</div>
-      <div class="summary-sub" id="sum-us-count">17 個持倉</div>
+      <div class="summary-value" id="sum-us-mktval">USD 33,816.38</div>
+      <div class="summary-sub" id="sum-us-count">18 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
@@ -261,7 +261,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
   <!-- Status -->
   <div class="status-bar">
-    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">Finnhub 已載入 17/17 個報價 · 11:09:38</span></div>
+    <div class="status-pill"><div class="status-dot live" id="us-dot"></div><span id="us-status">Finnhub 已載入 18/18 個報價 · 11:09:38</span></div>
     <div class="status-pill">來源: <span style="color:var(--text);margin-left:4px">Finnhub</span></div>
     <div class="status-pill" style="color:var(--amber);"><span id="refresh-countdown">次更新 42s</span></div>
     <div class="status-pill">更新: <span id="last-updated" style="color:var(--text);margin-left:4px">11:09:38</span></div>
@@ -551,7 +551,24 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
           <a class="finviz-link" href="https://finviz.com/quote.ashx?t=INTC" target="_blank">FV</a>
           <a class="ge-link" href="https://www.barchart.com/stocks/quotes/INTC/gamma-exposure" target="_blank">GE</a>
         </div>
-      <</td></tr><tr>
+      </td></tr><tr>
+      <td><span class="sym-badge" onclick="openFlipTo('CIFR')">CIFR</span></td>
+      <td class="name-cell">Cipher Digital</td>
+      <td style="color:var(--muted)">100</td>
+      <td><span class="price-cell price-live">10.00</span></td>
+      <td><span class="ext-price-cell">—</span></td>
+      <td style="color:var(--muted)">10.00</td>
+      <td class="mktval-cell">1,000.00</td>
+      <td class="pnl-neu">+0.00</td>
+      <td><span class="pct-badge neu">+0.00%</span></td>
+      <td class="pnl-neu today-pnl-cell">+0.00</td>
+      <td>
+        <div class="action-links">
+          <button class="chart-link" onclick="openFlipTo('CIFR')">📈</button>
+          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=CIFR" target="_blank">FV</a>
+          <a class="ge-link" href="https://www.barchart.com/stocks/quotes/CIFR/gamma-exposure" target="_blank">GE</a>
+        </div>
+      </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('RR')">RR</span></td>
       <td class="name-cell">Richtech Robotics</td>
       <td style="color:var(--muted)">300</td>
@@ -631,14 +648,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <tbody id="hk-tbody"><tr>
       <td><span class="sym-badge" onclick="openFlipTo('7709')" style="color:var(--amber)">7709</span></td>
       <td class="name-cell">南方兩倍做多海力士</td>
-      <td style="color:var(--muted)">200</td>
-      <td class="price-cell ">132.50</td>
-      <td style="color:var(--muted)">15.80</td>
-      <td class="mktval-cell">26,500.00</td>
-      <td class="pnl-pos">+23,340.00</td>
-      <td><span class="pct-badge pos">+738.61%</span></td>
+      <td style="color:var(--muted)">300</td>
+      <td class="price-cell ">19.50</td>
+      <td style="color:var(--muted)">17.03</td>
+      <td class="mktval-cell">5,850.00</td>
+      <td class="pnl-pos">+740.00</td>
+      <td><span class="pct-badge pos">+14.48%</span></td>
       <td class="pnl-neu today-pnl-cell">+0.00</td>
-      <td style="color:var(--muted);font-size:11px">46.8%</td>
+      <td style="color:var(--muted);font-size:11px">16.3%</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('7709')">📈</button>
@@ -654,7 +671,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td class="pnl-neg">-4,764.00</td>
       <td><span class="pct-badge neg">-20.89%</span></td>
       <td class="pnl-pos today-pnl-cell">+1,824.00</td>
-      <td style="color:var(--muted);font-size:11px">31.9%</td>
+      <td style="color:var(--muted);font-size:11px">50.1%</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('2367')">📈</button>
@@ -670,7 +687,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <td class="pnl-neg">-4,410.00</td>
       <td><span class="pct-badge neg">-26.73%</span></td>
       <td class="pnl-neg today-pnl-cell">-90.00</td>
-      <td style="color:var(--muted);font-size:11px">21.4%</td>
+      <td style="color:var(--muted);font-size:11px">33.6%</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('9988')">📈</button>
@@ -685,7 +702,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
   <div class="risk-grid">
     <div class="risk-card"><div class="risk-icon">⚡</div><div class="risk-title">科技股集中度高</div><div class="risk-body">GOOGL / NVDA / AVGO / MRVL 佔美股市值約 52%+ ｜ AI相關持倉偏重，注意板塊輪動風險</div></div>
     <div class="risk-card"><div class="risk-icon">⚠️</div><div class="risk-title">LEU 虧損持倉</div><div class="risk-body">Centrus Energy 成本$197.50，現$161.78，-18.09%。核能板塊持續弱勢，已深度虧損，留意$150止蝕位</div></div>
-    <div class="risk-card"><div class="risk-icon">🇭🇰</div><div class="risk-title">港股持倉概覽</div><div class="risk-body">07709 +738% ✅ ｜ 02367 -21% ⚠️ ｜ 09988 -27% ⚠️ ｜ 巨子生物及阿里均處虧損，留意</div></div>
+    <div class="risk-card"><div class="risk-icon">🇭🇰</div><div class="risk-title">港股持倉概覽</div><div class="risk-body">07709 +14%（300股，加倉後成本$17.03，現價約$19.5，已由高位大幅回落）｜ 02367 -21% ⚠️ ｜ 09988 -27% ⚠️ ｜ 巨子生物及阿里均處虧損，留意</div></div>
     <div class="risk-card"><div class="risk-icon">🔴</div><div class="risk-title">小市值倉位</div><div class="risk-body">SERV -34% ｜ RR -12% ｜ 市值細，流動性較低，波動性高。兩者均虧損，SERV損幅較大</div></div>
     <div class="risk-card"><div class="risk-icon">🚀</div><div class="risk-title">航天股持倉</div><div class="risk-body">RDW剩40股 ｜ RKLB剩5股（已減半鎖利） ｜ LITE已於$940全數沽出鎖利+$120，倉位已清</div></div>
     <div class="risk-card"><div class="risk-icon">✅</div><div class="risk-title">強勢持倉</div><div class="risk-body">TER +289% ｜ MRVL +34% ｜ RKLB +162% ｜ OKLO +176% ｜ GOOGL +39% ｜ MU已於$1,000沽清（+$442.14）鎖定利潤 ｜ 可考慮分批鎖定利潤</div></div>
@@ -704,13 +721,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <button class="close-btn" onclick="switchTab('main')">✕ 關閉</button>
       <div class="flip-nav">
         <button class="flip-arrow" id="flip-prev">‹</button>
-        <div class="flip-counter" id="flip-counter">1 / 20</div>
+        <div class="flip-counter" id="flip-counter">1 / 21</div>
         <button class="flip-arrow" id="flip-next">›</button>
       </div>
     </div>
   </div>
 
-  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip active" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-INTC">INTC</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
+  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip active" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-INTC">INTC</div><div class="flip-sym-chip" id="chip-CIFR">CIFR</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
 
   <div class="flip-interval-bar">
     <span>Interval:</span>
@@ -746,7 +763,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-10-10：INTC買入10股@$107.00（新增持倉）｜ PLTR沽出6股@$203.00（12→6股，成本不變$127.304，已實現+$454.18）｜ LYTE沽出10股@$26.00（成本$25.00，已全數沽清，已實現+$10，累計+$37）｜ 2026-10-07：LYTE沽出20股（10股@$26.2＋10股@$26.5，成本$25.00，30→10股，已實現+$27）｜ 2026-10-01：GOOGL買入4股@$340.00（16→20股，成本加權至$245.04）｜ 2026-09-19：GOOGL買入4股@$350.00（12→16股，成本加權至$221.30）｜ 2026-09-18：OKLO買入10股@$37.00（30→40股，成本加權至$30.05875）｜ 2026-09-03：MU沽出1股@$1,000.00（限價單，成本$557.857，已沽清倉，已實現+$442.14）｜ 2026-08-26：NVDA Q2業績後盤後加倉10股@$218.00（10→20股，成本加權至$189.0625）｜ 2026-08-21：LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
+  <span>持倉更新：2026-10-17：CIFR（Cipher Digital）買入100股@$10.00（新增持倉）｜ 港股07709加倉100股@HK$19.50（200→300股，成本加權至HK$17.0333）｜ 2026-10-10：INTC買入10股@$107.00（新增持倉）｜ PLTR沽出6股@$203.00（12→6股，成本不變$127.304，已實現+$454.18）｜ LYTE沽出10股@$26.00（成本$25.00，已全數沽清，已實現+$10，累計+$37）｜ 2026-10-07：LYTE沽出20股（10股@$26.2＋10股@$26.5，成本$25.00，30→10股，已實現+$27）｜ 2026-10-01：GOOGL買入4股@$340.00（16→20股，成本加權至$245.04）｜ 2026-09-19：GOOGL買入4股@$350.00（12→16股，成本加權至$221.30）｜ 2026-09-18：OKLO買入10股@$37.00（30→40股，成本加權至$30.05875）｜ 2026-09-03：MU沽出1股@$1,000.00（限價單，成本$557.857，已沽清倉，已實現+$442.14）｜ 2026-08-26：NVDA Q2業績後盤後加倉10股@$218.00（10→20股，成本加權至$189.0625）｜ 2026-08-21：LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -819,6 +836,7 @@ const US_HOLDINGS = [
   { symbol:'PLTR',  name:'Palantir',             qty:6,   cost:127.304,  mktval:1218.00,  pnl:454.18,   pnlPct:'+59.46%',  realized:566.37,  todayPnL:0       },
   { symbol:'ISRG',  name:'直覺外科公司',            qty:2,   cost:453.10,   mktval:855.16,   pnl:-51.04,   pnlPct:'-5.63%',   realized:0,       todayPnL:1.94    },
   { symbol:'INTC',  name:'英特爾',                qty:10,  cost:107.00,   mktval:1070.00,  pnl:0,        pnlPct:'+0.00%',   realized:0,       todayPnL:0       },
+  { symbol:'CIFR',  name:'Cipher Digital',       qty:100, cost:10.00,    mktval:1000.00,  pnl:0,        pnlPct:'+0.00%',   realized:0,       todayPnL:0       },
   { symbol:'RR',    name:'Richtech Robotics',    qty:300, cost:2.445,    mktval:687.00,   pnl:-46.50,   pnlPct:'-6.34%',   realized:52.09,   todayPnL:-3.00   },
   { symbol:'VRT',   name:'Vertiv Holdings',      qty:2,   cost:303.76,   mktval:579.04,   pnl:-28.48,   pnlPct:'-4.69%',   realized:0,       todayPnL:0.00    },
   { symbol:'SERV',  name:'Serve Robotics',       qty:30,  cost:11.743,   mktval:213.00,   pnl:-139.30,  pnlPct:'-39.54%',  realized:0,       todayPnL:4.80    },
@@ -826,9 +844,9 @@ const US_HOLDINGS = [
 
 // ── 港股持倉（手動維護）────────────────────────────────────────────────────────
 const HK_HOLDINGS = [
-  { symbol:'7709',  yahooSym:'7709.HK',  name:'南方兩倍做多海力士', qty:200, cost:15.80,  seedPrice:132.50, mktval:26500.00, pnl:23340.00, pnlPct:'+738.61%', todayPnL:0,      pctOfHK:'46.8%' },
-  { symbol:'2367',  yahooSym:'2367.HK',  name:'巨子生物',          qty:600, cost:38.00,  seedPrice:30.06,  mktval:18036.00, pnl:-4764.00, pnlPct:'-20.89%',  todayPnL:1824.00,pctOfHK:'31.9%' },
-  { symbol:'9988',  yahooSym:'9988.HK',  name:'阿里巴巴-W',        qty:100, cost:165.00, seedPrice:120.90, mktval:12090.00, pnl:-4410.00, pnlPct:'-26.73%',  todayPnL:-90.00, pctOfHK:'21.4%' },
+  { symbol:'7709',  yahooSym:'7709.HK',  name:'南方兩倍做多海力士', qty:300, cost:17.0333, seedPrice:19.50, mktval:5850.00,  pnl:740.00,   pnlPct:'+14.48%',  todayPnL:0,      pctOfHK:'16.3%' },
+  { symbol:'2367',  yahooSym:'2367.HK',  name:'巨子生物',          qty:600, cost:38.00,  seedPrice:30.06,  mktval:18036.00, pnl:-4764.00, pnlPct:'-20.89%',  todayPnL:1824.00,pctOfHK:'50.1%' },
+  { symbol:'9988',  yahooSym:'9988.HK',  name:'阿里巴巴-W',        qty:100, cost:165.00, seedPrice:120.90, mktval:12090.00, pnl:-4410.00, pnlPct:'-26.73%',  todayPnL:-90.00, pctOfHK:'33.6%' },
 ];
 
 // Live price cache
