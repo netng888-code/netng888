@@ -1,6 +1,6 @@
 # 持倉監控系統 — 技術參考與版本記錄
 
-> 最後更新：2026-10-02　｜　取代舊版（舊版只涵蓋 index.html，停留喺 2026-06-15、18隻持倉）
+> 最後更新：2026-10-17　｜　取代舊版（舊版只涵蓋 index.html，停留喺 2026-06-15、18隻持倉）
 > **呢份係「格式規格＋歷史記錄」，唔等於任何檔案嘅現時實際內容。兩者有出入時，以檔案本身（Project Files 或 GitHub live）為準。**
 > 唔好喺呢份文件入面放任何真實 API key／token／密碼（GitHub repo 公開）。
 
@@ -69,9 +69,9 @@ telegram_bot.py（長期運行）← 讀 Futu bridge / GitHub md → Telegram
 
 | 組件 | 版本 | 備註 |
 |---|---|---|
-| gex_chart_v5_terminal.html | **v5.34**（本次交付）；GitHub 上係 v5.33 | v5.34 修正「點解升跌」新聞截斷 |
-| futu_bridge_v2.py | Project Files 係 v3.16；本機運行版已包含 why_moving 區塊（v3.17.x） | 區塊獨立存喺 `why_moving_bridge_patch.py`，最新 **v3.17.2** |
-| telegram_bot.py | v1.24（Project Files）；GitHub 備份 v1.9 ⚠️ | 改 bot 前以 Project Files 為準 |
+| gex_chart_v5_terminal.html | **v5.39**（2026-10-17，加 CIFR） | 之前 v5.34 修正「點解升跌」新聞截斷 |
+| futu_bridge_v2.py | Project Files 檔案本身係 v3.21（2026-10-17，US_STOCKS 加 CIFR），已包含 why_moving 區塊 | 區塊獨立存喺 `why_moving_bridge_patch.py`，最新 **v3.17.2** |
+| telegram_bot.py | v1.27（Project Files）；GitHub 備份只係 v1.9 ⚠️ | 改 bot 前以 Project Files 為準 |
 | cftc_cot_updater.py | v1.2（含 REQUIRED_FIELDS schema 診斷） | |
 | global-indices.html | v7 | |
 | premarket-rates-monitor.html | v5 | 美債 + JGB + 美日息差 + 重疊圖 |
@@ -82,7 +82,7 @@ telegram_bot.py（長期運行）← 讀 Futu bridge / GitHub md → Telegram
 
 ---
 
-## 3. 持倉快照（Futu CSV 2026-10-01，美股 17 隻）
+## 3. 持倉快照（Futu CSV 2026-10-17，美股 18 隻；以下表格為 2026-10-01 舊快照，最新以 `holdings_US_20261017.csv` 為準）
 
 | 代碼 | 持股 | 平均成本 |
 |---|---|---|
@@ -99,12 +99,13 @@ telegram_bot.py（長期運行）← 讀 Futu bridge / GitHub md → Telegram
 | RKLB | 10 | 76.00 |
 | PLTR | 12 | 127.304 |
 | ISRG | 2 | 453.10 |
-| LYTE | 30 | 25.00 |
+| LYTE | 30 | 25.00（已於 2026-10-10 清倉，見 §7） |
+| CIFR | 100 | 10.00（2026-10-17 新增） |
 | RR | 300 | 2.445 |
 | VRT | 2 | 303.76 |
 | SERV | 30 | 11.743 |
 
-港股（CSV 係 2026-05-27，**已過時**；index.html 手動維護）：07709 200@15.80、02367 600@38.00、09988 100@165.00。
+港股（`…20261017港股.csv` 只有 07709 一行係最新；02367／09988 仍係 2026-05-27 舊數字，需用 Futu 重新匯出；index.html 手動維護）：07709 300@17.0333（2026-10-17 加倉100股@HK$19.50）、02367 600@38.00、09988 100@165.00。
 
 已清倉：MU（2026-09-03 @1,000，已實現 +442.14）、LITE（2026-08 @940，+120）。
 
@@ -170,6 +171,8 @@ telegram_bot.py（長期運行）← 讀 Futu bridge / GitHub md → Telegram
 ---
 
 ## 7. 近期版本記錄（新→舊）
+
+- **2026-10-17** html v5.39／bridge v3.21／bot v1.27：美股 CIFR（Cipher Digital）買入100股@$10.00（新增，18隻，BATCH2 quota 18/20，再加要開第三個 Barchart 帳戶）；港股 07709 加倉100股@HK$19.50（200→300股，成本加權 HK$17.0333，只影響 index.html＋港股 CSV）。
 
 - **2026-10-02** html v5.34／bridge 區塊 v3.17.2：修正「點解升跌」手動新聞唔顯示（見 §6）；同日重寫本文件同 `telegram/telegram.md`。html v5.33：美股表刪「名稱」欄、操作欄統一 TV／FV／GE／SEC／OC 文字掣。
 - **2026-10-01** html v5.31／v5.32、bridge v3.17.1（歸因窗口＋新聞時間分類）、bot v1.24（GOOGL 20 股、NVDA 20 股、移除 MU）。
