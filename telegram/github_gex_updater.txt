@@ -3,7 +3,7 @@ github_gex_updater.py
 ═══════════════════════════════════════════════════
 每日開盤前自動：
   1. 抓 Barchart GEX（Playwright，雙帳戶分批：BATCH1/BATCH2）
-  2. 抓 Finnhub 報價 + 新聞（全部17隻一齊攞，唔受Barchart quota限制）
+  2. 抓 Finnhub 報價 + 新聞（全部18隻一齊攞，唔受Barchart quota限制）
   3. 生成 Markdown 內容
   4. 用 GitHub API 寫入 stocks/TICKER.md
 
@@ -53,6 +53,9 @@ github_gex_updater.py
 2026-10-10：BATCH2一換一——LYTE已於$26全數沽清（成本$25.00，累計已實現+$37）移除，新增INTC（買入10股
 @$107.00）；PLTR沽出6股@$203.00（12→6股，成本不變$127.304，已實現+$454.18）。BATCH2維持8隻、
 quota維持16/20唔變。五檔同步（CSV／index.html／gex_chart v5.38／futu_bridge v3.20／telegram_bot v1.26）。
+2026-10-17：BATCH2新增CIFR（Cipher Digital，買入100股@$10.00，新增持倉）。BATCH2由8隻變9隻
+（quota由16/20升到18/20，剩約1隻緩衝，同BATCH1一樣；再加持倉要開第三個Barchart帳戶）。
+ALL_HOLDINGS現時18隻。五檔同步（CSV／index.html／gex_chart v5.39／futu_bridge v3.21／telegram_bot v1.27）。
 ═══════════════════════════════════════════════════
 """
 
@@ -69,7 +72,7 @@ FINNHUB_KEY     = "YOUR_FINNHUB_KEY"           # ← finnhub.io 申請嗰串（�
 BARCHART_EMAIL  = "YOUR_BARCHART_EMAIL"        # ← 你嘅Barchart帳戶1 email
 BARCHART_PASS   = "YOUR_BARCHART_PASSWORD"     # ← 帳戶1密碼
 
-# Barchart 帳戶2 → 負責 BATCH2（新增8隻，quota用16/20，剩約2隻緩衝）
+# Barchart 帳戶2 → 負責 BATCH2（新增9隻，quota用18/20，剩約1隻緩衝）
 BARCHART_EMAIL2 = "YOUR_BARCHART_EMAIL2"       # ← 你嘅Barchart帳戶2 email（agent20268964@proton.me）
 BARCHART_PASS2  = "YOUR_BARCHART_PASSWORD2"    # ← 帳戶2密碼
 
@@ -93,7 +96,7 @@ BATCH1 = [
     {"sym": "LEU",   "name": "Centrus Energy",  "qty": 8,   "cost": 197.50 },
 ]
 
-# BATCH2（Barchart帳戶2，8隻，quota用16/20，剩約2隻緩衝，加持倉應加呢度）
+# BATCH2（Barchart帳戶2，9隻，quota用18/20，剩約1隻緩衝；再加持倉要開第三個帳戶）
 # 2026-08-21：LITE（已於$940全數沽出清倉，見gex_chart_v5_terminal.html
 # v5.13／telegram_bot.py v1.10／index.html changelog記錄嗰筆交易）換做
 # LYTE（Roundhill Photonics & Optics ETF，2026-08-20買入30股@$25.00）
@@ -109,12 +112,13 @@ BATCH2 = [
     {"sym": "PLTR",  "name": "Palantir",          "qty": 6,    "cost": 127.304},
     {"sym": "ISRG",  "name": "直覺外科公司",     "qty": 2,   "cost": 453.10 },
     {"sym": "INTC",  "name": "英特爾 Intel",       "qty": 10, "cost": 107.00 },
+    {"sym": "CIFR",  "name": "Cipher Digital",    "qty": 100, "cost": 10.00  },
     {"sym": "RR",    "name": "Richtech Robotics", "qty": 300, "cost": 2.445  },
     {"sym": "VRT",   "name": "Vertiv Holdings",   "qty": 2,   "cost": 303.76 },
     {"sym": "SERV",  "name": "Serve Robotics",    "qty": 30,  "cost": 11.743 },
 ]
 
-# 全部17隻（Finnhub報價/新聞 + 寫入GitHub stocks/*.md 用；
+# 全部18隻（Finnhub報價/新聞 + 寫入GitHub stocks/*.md 用；
 # Barchart GEX唔用呢個變量，分開行BATCH1/BATCH2各自login）
 ALL_HOLDINGS = BATCH1 + BATCH2
 
@@ -439,7 +443,7 @@ async def fetch_all_gex_two_accounts(batch1_symbols: list, batch2_symbols: list)
     """
     2026-07-23新增：雙Barchart帳戶版本，取代原本單帳戶嘅fetch_all_gex()。
     帳戶1負責batch1_symbols（現時9隻，quota用18/20），帳戶2負責
-    batch2_symbols（8隻，quota用16/20，留返約2隻緩衝）。兩個帳戶之間
+    batch2_symbols（9隻，quota用18/20，留返約1隻緩衝）。兩個帳戶之間
     刻意加asyncio.sleep(3)間隔（唔好太似自動化，同時俾第一個帳戶個
     session/連線完全收尾），符合telegram.md記錄嘅雙帳戶架構備忘。
     Browser只launch一次，兩個batch共用（各自獨立context登入）。
@@ -466,9 +470,9 @@ async def fetch_all_gex_two_accounts(batch1_symbols: list, batch2_symbols: list)
 # ═══════════════════════════════════════════════════
 async def main():
     now      = datetime.datetime.now()
-    symbols  = [h["sym"] for h in ALL_HOLDINGS]      # 全部17隻，Finnhub/寫入用
+    symbols  = [h["sym"] for h in ALL_HOLDINGS]      # 全部18隻，Finnhub/寫入用
     b1_syms  = [h["sym"] for h in BATCH1]            # 帳戶1負責嘅9隻
-    b2_syms  = [h["sym"] for h in BATCH2]            # 帳戶2負責嘅8隻
+    b2_syms  = [h["sym"] for h in BATCH2]            # 帳戶2負責嘅9隻
     date_str = now.strftime("%Y-%m-%d")
 
     print(f"\n{'═'*60}")
@@ -476,7 +480,7 @@ async def main():
     print(f"  （BATCH1 {len(b1_syms)}隻 · BATCH2 {len(b2_syms)}隻 · 合共{len(symbols)}隻）")
     print(f"{'═'*60}")
 
-    # Step 1: 報價（全部17隻，Finnhub唔受Barchart quota限制）
+    # Step 1: 報價（全部18隻，Finnhub唔受Barchart quota限制）
     print("\n⏳ [1/4]  Finnhub 報價...")
     quotes = get_finnhub_quotes(symbols)
     print(f"  ✅ {len(quotes)} 隻")
@@ -487,12 +491,12 @@ async def main():
     ok = sum(1 for g in gex_all.values() if g.get("call_wall"))
     print(f"  ✅ {ok}/{len(symbols)} 隻 GEX 成功")
 
-    # Step 3: 新聞（全部17隻）
+    # Step 3: 新聞（全部18隻）
     print("\n⏳ [3/4]  Finnhub 新聞...")
     news_all = {sym: get_news(sym) for sym in symbols}
     print(f"  ✅ 完成")
 
-    # Step 4: 寫入 GitHub（全部17隻）
+    # Step 4: 寫入 GitHub（全部18隻）
     print("\n⏳ [4/4]  寫入 GitHub stocks/*.md ...")
     success = 0
     for h in ALL_HOLDINGS:
@@ -513,7 +517,7 @@ async def main():
             success += 1
         time.sleep(1)  # GitHub API rate limit 禮貌間隔
 
-    # 同時更新 stocks/README.md（索引，全部17隻）
+    # 同時更新 stocks/README.md（索引，全部18隻）
     idx_md = f"# 持倉 GEX 快照索引\n\n最後更新：{date_str}\n\n"
     idx_md += "| 股票 | 名稱 | 連結 |\n|------|------|------|\n"
     for h in ALL_HOLDINGS:

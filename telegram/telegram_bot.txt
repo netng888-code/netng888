@@ -572,6 +572,10 @@ v1.26（2026-10-10）：ALL_HOLDINGS同步三項交易——(1) INTC買入10股@
       (3) LYTE沽出10股@$26.00，成本$25.00，已全數沽清（已實現+$10，累計+$37），移除。
       VALID_SYMS自動跟隨（/alert LYTE將唔再接受，/gex LYTE仍然可查）。持倉維持17隻。
       五檔同步（CSV／index.html／gex_chart v5.38／futu_bridge v3.20／github_gex_updater）。
+v1.27（2026-10-17）：ALL_HOLDINGS新增CIFR（Cipher Digital，買入100股@$10.00，新增持倉）。VALID_SYMS
+      自動跟隨（/alert CIFR可用）。持倉17→18隻，/report、/ask prompt等顯示字串同步改18隻。
+      港股07709加倉100股@HK$19.50唔影響呢個bot（bot只管美股）。五檔同步（CSV／index.html／
+      gex_chart v5.39／futu_bridge v3.21／github_gex_updater）。
 ═══════════════════════════════════════════════════
 架構：
   Telegram指令
@@ -628,7 +632,7 @@ v1.26（2026-10-10）：ALL_HOLDINGS同步三項交易——(1) INTC買入10股@
 ═══════════════════════════════════════════════════
 """
 
-BOT_VERSION = "1.26"
+BOT_VERSION = "1.27"
 
 import re
 import json
@@ -695,7 +699,7 @@ FUTU_BRIDGE_URL = "http://127.0.0.1:8888"
 ANALYSIS_MODEL = "deepseek/deepseek-v4-flash-0731"  # 主，穩定pin
 FALLBACK_MODEL = "z-ai/glm-5.3-flash"               # 備（v1.23由kimi-k2.5換入）
 
-# 全部17大持倉（同 github_gex_updater.py 保持一致；
+# 全部18大持倉（同 github_gex_updater.py 保持一致；
 # GEX數據嗰邊由兩個Barchart帳戶分批攞，呢度純粹係顯示用清單）
 ALL_HOLDINGS = [
     {"sym": "GOOGL", "name": "谷歌-A",         "qty": 20,  "cost": 245.04 },
@@ -712,6 +716,7 @@ ALL_HOLDINGS = [
     {"sym": "PLTR",  "name": "Palantir",          "qty": 6,   "cost": 127.304},
     {"sym": "ISRG",  "name": "直覺外科公司",     "qty": 2,   "cost": 453.10 },
     {"sym": "INTC",  "name": "英特爾 Intel",        "qty": 10,  "cost": 107.00 },
+    {"sym": "CIFR",  "name": "Cipher Digital",    "qty": 100, "cost": 10.00  },
     {"sym": "VRT",   "name": "Vertiv Holdings",   "qty": 2,   "cost": 303.76 },
     {"sym": "RR",    "name": "Richtech Robotics", "qty": 300, "cost": 2.445  },
     {"sym": "SERV",  "name": "Serve Robotics",    "qty": 30,  "cost": 11.743 },
@@ -2127,13 +2132,13 @@ async def cmd_cot(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await safe_reply_markdown(update.message, "\n".join(lines))
 
 # ═══════════════════════════════════════════════════
-# /report 指令：今日全部17隻摘要
+# /report 指令：今日全部18隻摘要
 # ═══════════════════════════════════════════════════
 async def cmd_report(update: Update, context: ContextTypes.DEFAULT_TYPE):
     register_chat(update.effective_chat.id)
-    await update.message.reply_text("⏳ 生成今日報告（17隻持倉）...")
+    await update.message.reply_text("⏳ 生成今日報告（18隻持倉）...")
 
-    # ── 一個call攞晒17隻即時報價（Futu T1，最高效）──
+    # ── 一個call攞晒18隻即時報價（Futu T1，最高效）──
     quotes = fetch_all_quotes_futu()
     futu_ok = bool(quotes)
 
@@ -2229,7 +2234,7 @@ async def cmd_pnl(update: Update, context: ContextTypes.DEFAULT_TYPE):
     register_chat(update.effective_chat.id)
     await update.message.reply_text("⏳ 計算總盈虧（Futu T1 即時報價）...")
 
-    # 一個call攞晒17隻報價
+    # 一個call攞晒18隻報價
     quotes  = fetch_all_quotes_futu()
     futu_ok = bool(quotes)
 
@@ -3137,7 +3142,7 @@ async def cmd_ask(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     prompt = f"""你是一位專業投資分析師，正在協助一位已退休的保守型投資者（風險承受能力中低，關注下跌風險多於追求最高回報）。
 
-用戶持倉（17隻美股）：{portfolio_brief}
+用戶持倉（18隻美股）：{portfolio_brief}
 {gex_section}{news_section}
 
 用戶問題：{question}

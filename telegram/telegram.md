@@ -1,6 +1,6 @@
 # Telegram GEX Bot 模組
 
-> 最後更新：2026-10-02（Bot v1.24，持倉 17 隻）｜ 取代 2026-06-21 舊版
+> 最後更新：2026-10-17（Bot v1.27，持倉 18 隻）｜ 取代 2026-06-21 舊版
 > 呢份係架構／備忘文件；實際行為以 `telegram_bot.py`（Project Files）頁首 changelog 為準。
 > ⚠️ GitHub 上嘅 `telegram/telegram_bot.txt` 備份只係 **v1.9**，已嚴重過時——改 bot 前一律以 Project Files（v1.24）為 base，改完先更新 GitHub 備份。
 
@@ -40,11 +40,11 @@ Telegram 指令 / 背景 job
 
 ---
 
-## 📋 持倉與 Barchart 帳戶分配（17 隻）
+## 📋 持倉與 Barchart 帳戶分配（18 隻）
 
 - **BATCH1（帳戶1，9 隻，quota 18/20，剩約 1 隻緩衝）**：GOOGL、AVGO、NVDA、MRVL、TER、META、NOK、RDW、LEU
-- **BATCH2（帳戶2，8 隻，quota 16/20，剩約 2 隻緩衝）**：OKLO、RKLB、PLTR、ISRG、LYTE、RR、VRT、SERV
-- 新持倉加落 BATCH2 或開第三個帳戶，**唔好加落帳戶1**。兩帳戶之間有 `asyncio.sleep(3)`。
+- **BATCH2（帳戶2，9 隻，quota 18/20，剩約 1 隻緩衝）**：OKLO、RKLB、PLTR、ISRG、INTC、CIFR、RR、VRT、SERV（LYTE 已於 2026-10-10 清倉）
+- 兩個帳戶而家都 18/20，再加持倉要開第三個 Barchart 帳戶。新持倉加落 BATCH2 或第三個帳戶，**唔好加落帳戶1**。兩帳戶之間有 `asyncio.sleep(3)`。
 - 持倉數字以最新 Futu CSV 為準（2026-10-01：GOOGL 20@245.04、NVDA 20@189.0625、NOK 200@12.458、PLTR 12@127.304 等）。
 - 已清倉：MU（2026-09-03）、LITE（2026-08）。
 
