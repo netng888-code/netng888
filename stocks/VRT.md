@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$214.75** |
-| 今日變動 | ▼ $8.08　(-3.63%) |
+| 現價 | **$206.42** |
+| 今日變動 | ▼ $8.33　(-3.88%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $178　(▼29.3%) |
+| 未實現盈虧 | ▼ $195　(▼32.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $247.34 | — |
-| Put Wall（支撐） | $185.00 | -13.9% |
-| Call Wall（阻力） | $230.00 | +7.1% |
+| Gamma Flip | $245.36 | — |
+| Put Wall（支撐） | $185.00 | -10.4% |
+| Call Wall（阻力） | $230.00 | +11.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Innio And 2 Other AI Infrastructure Stocks To Own](https://finnhub.io/api/news?id=86b050a02b5252bdf02bd7d984a4730381b708b4c42137f5eaacfede4d1d99bd)**  
-*Yahoo · 10h前*  
-Blackstone’s decision to pour capital into data centers and power infrastructure signals how quickly AI is moving from hype to hardware. The real money is shift…
+- **[Arista vs. Vertiv: Which AI Infrastructure Business Has the Bigger Profit Cushion?](https://finnhub.io/api/news?id=8d8308fbcd3a71f9082fccf1ab0d70e46819fbeb9244fb844777700ecf9aa22c)**  
+*Yahoo · 1d前*  
+Arista and Vertiv rank tenth and ninth in our 10 Best AI Infrastructure Stocks to Buy for the Long Term. The list shows which eight infrastructure businesses at…
 
-- **[Which S&P500 stocks are moving on Thursday?](https://finnhub.io/api/news?id=0a55e4262ba83c57add2dd4522f58e0401ec7c209d2260b3cb61b9795f28f103)**  
-*ChartMill · 17h前*  
-Curious about the top performers within the S&P500 index one hour before the close of the markets on Thursday? Dive into the list of today's session's top gaine…
+- **[Arista vs. Vertiv: Which Cash Flow Depends More on Customer Advances?](https://finnhub.io/api/news?id=b584e82595b78949365b9e2d6d9b6043d3a9977ee5aa4d9f6a3e934599fce496)**  
+*Yahoo · 1d前*  
+Arista Networks, Inc. (NYSE:ANET) and Vertiv Holdings Co (NYSE:VRT) both benefited from rising deferred revenue during the first half of 2026, but the contribut…
 
-- **[These S&P500 stocks have an unusual volume in today's session](https://finnhub.io/api/news?id=614c3a2c80c8b4525beb4538340d83aa7d5bbd79aa057d5eb8e743cfcbac15c1)**  
-*ChartMill · 19h前*  
-Let's take a closer look at the S&P500 stocks with an unusual volume in today's session on Thursday. Stay informed about the market activity below.
+- **[ClearBridge Large Cap Growth ESG Strategy Q3 2026 Portfolio Update](https://finnhub.io/api/news?id=4263c4d4f9a2b1ba91f9c7a8164e61cee7c7a448eafee5c99b9dee3175b7bcec)**  
+*SeekingAlpha · 1d前*  
+Microsoft, a holding in several ClearBridge portfolios, offers a good example of how hyperscalers are responding. Read more here.
 
 ---
 
@@ -48,7 +48,7 @@ Let's take a closer look at the S&P500 stocks with an unusual volume in today's 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-16 | 監控 | $214.75 | — | 自動更新 |
+| 2026-10-19 | 監控 | $206.42 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Let's take a closer look at the S&P500 stocks with an unusual volume in today's 
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 07:05 HKT*
