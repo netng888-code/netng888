@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$217.23** |
-| 今日變動 | ▼ $4.07　(-1.84%) |
+| 現價 | **$214.13** |
+| 今日變動 | ▼ $3.10　(-1.43%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $563　(▲14.9%) |
+| 未實現盈虧 | ▲ $501　(▲13.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $215.74 | — |
-| Put Wall（支撐） | $210.00 | -3.3% |
-| Call Wall（阻力） | $220.00 | +1.3% |
+| Gamma Flip | $210.74 | — |
+| Put Wall（支撐） | $200.00 | -6.6% |
+| Call Wall（阻力） | $230.00 | +7.4% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Germany Reportedly Picks Nvidia for Its Industrial AI Push, but the Money Barely Matters](https://finnhub.io/api/news?id=dad4a6918e7649c4022150986432a571f76052889033b6f5e9075fab4faf567a)**  
+- **[Where Will CRISPR Therapeutics Stock Be in 2030?](https://finnhub.io/api/news?id=8ae1de6b77f1f2be62e02ddf0d9e22e7d0ebc2669ad0c16e08ae042407132ad9)**  
 *Yahoo · 1h前*  
-Nvidia (NVDA) is reportedly lining up another government partnership in Europe. Germany plans a wide-ranging cooperation agreement with Nvidia to push AI deeper…
+The company's expertise in gene editing could lead to more breakthroughs.
 
-- **[Even Tesla’s Flying Car Can’t Lift the Tech Stock Gloom](https://finnhub.io/api/news?id=611a24f156557a28fe955e88638ca35ffb266e720cb64ca6451cb632682fb617)**  
+- **[Some Investors Are Questioning the AI Trade. Microsoft Is Bucking the Trend](https://finnhub.io/api/news?id=ff35a4a3386611f185444efefec578170d0e502541a8bd27f6b93751b1fc61b7)**  
 *Yahoo · 1h前*  
-All the news you need to start your day.
+Azure's growth and Copilot's position in enterprise AI make Microsoft a smart AI play.
 
-- **[CFTC Chairman Michael Selig Says New Crypto Rules Are Coming Soon. Here's What Crypto Investors Need to Know.](https://finnhub.io/api/news?id=fb87b3433897228f8a73b05bcac6287f04853625d08f82f9959cd340cc7aab44)**  
-*Yahoo · 1h前*  
-The first set of new regulations could make the market more volatile if implemented.
+- **[Is Citigroup Stock a Buy 13% Below Its 52-Week High?](https://finnhub.io/api/news?id=b9a28514298cff306eb328292b2a8a7f2ef3d556bc44dfc067b4df650acdb712)**  
+*Yahoo · 2h前*  
+Is Citigroup the best big bank stock right now? You could make a case for it.
 
 ---
 
@@ -48,7 +48,7 @@ The first set of new regulations could make the market more volatile if implemen
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-16 | 監控 | $217.23 | — | 自動更新 |
+| 2026-10-19 | 監控 | $214.13 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The first set of new regulations could make the market more volatile if implemen
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 07:04 HKT*
