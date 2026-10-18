@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$344.33** |
-| 今日變動 | ▼ $1.92　(-0.55%) |
+| 現價 | **$328.75** |
+| 今日變動 | ▼ $15.58　(-4.52%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $343　(▼9.1%) |
+| 未實現盈虧 | ▼ $499　(▼13.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $357.61 | — |
-| Put Wall（支撐） | $340.00 | -1.3% |
-| Call Wall（阻力） | $350.00 | +1.6% |
+| Gamma Flip | $356.36 | — |
+| Put Wall（支撐） | $300.00 | -8.7% |
+| Call Wall（阻力） | $400.00 | +21.7% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Capital Over Chips: Broadcom CEO Warns Financing Costs Could Slow AI Expansion](https://finnhub.io/api/news?id=864738688ea3b31edc5f173f1d3714403ce755a2b66c49ad7d601fc788da27b8)**  
-*Yahoo · 2h前*  
-Broadcom Inc. stock traded lower in premarket trading on Thursday as investors balanced robust artificial-intelligence demand against concerns about the enormou…
+- **[Nine Companies, Including Broadcom and Verizon, Object to Their Shares Being Tokenized. Can They Stop It?](https://finnhub.io/api/news?id=57f743c8f642271987dae6f5e86d7fcda59985d7b89227a395e3cb591f5c0007)**  
+*Yahoo · 4h前*  
+OKX and Intercontinental Exchange want to tokenize shares from 63 public companies, but nine of them have formally pushed back. Whether corporations can actuall…
 
-- **[Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching](https://finnhub.io/api/news?id=304ad190cf154f14cff266532ba49d7342f717d1218e00844959485aa2406399)**  
-*Yahoo · 3h前*  
-Nvidia can't win without this chip designer.
+- **[What Does Broadcom (AVGO) Face As AI Chip Supply Turns Into A Bottleneck?](https://finnhub.io/api/news?id=99ada1d69d367f1bd75eb62c3b665b465fed7b42122097d0c519a376c3167313)**  
+*Yahoo · 6h前*  
+Broadcom (NasdaqGS:AVGO) is competing with other AI chip clients for Taiwan Semiconductor Manufacturing Co.'s expanding advanced capacity in 2026. TSMC is repor…
 
-- **[Broadcom Stock Is Down 28%, And The Bar To Hit Its Target Is Lower Than You Think](https://finnhub.io/api/news?id=be96a79dc4d7a69e284d44a1b699837684e83f84c7c1b80001770b86dda85ceb)**  
-*SeekingAlpha · 5h前*  
-Broadcom Inc. maintains a Strong Buy rating, with robust AI revenue growth and a clear path to its $115B 2027 target. Read more on AVGO stock here.
+- **[Broadcom (AVGO) Went Nowhere for a Year. Analysts Think It Is Worth 50% More](https://finnhub.io/api/news?id=1532391aa5c0969c751fa1194019116d039c167e1aee3cf8d61c122e45fa5420)**  
+*Yahoo · 8h前*  
+Broadcom Inc. (NASDAQ:AVGO) closed at $344.33 on October 15. The stock has returned -13.59% over the last six months, compared to a 15.4% return for the Insider…
 
 ---
 
@@ -48,7 +48,7 @@ Broadcom Inc. maintains a Strong Buy rating, with robust AI revenue growth and a
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-16 | 監控 | $344.33 | — | 自動更新 |
+| 2026-10-19 | 監控 | $328.75 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom Inc. maintains a Strong Buy rating, with robust AI revenue growth and a
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 07:04 HKT*
