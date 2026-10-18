@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$95.37** |
-| 今日變動 | ▼ $2.75　(-2.80%) |
+| 現價 | **$89.85** |
+| 今日變動 | ▼ $5.52　(-5.79%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $116　(▼10.9%) |
+| 未實現盈虧 | ▼ $172　(▼16.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $101.99 | — |
-| Put Wall（支撐） | $90.00 | -5.6% |
-| Call Wall（阻力） | $100.00 | +4.9% |
+| Gamma Flip | $100.66 | — |
+| Put Wall（支撐） | $80.00 | -11.0% |
+| Call Wall（阻力） | $100.00 | +11.3% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why AMD’s CUDA-Challenging AI Playbook Makes It the Ultimate Asymmetric Buy.](https://finnhub.io/api/news?id=3c441d36f8645e0e3f02947bebfd5bffd7ca41a1169fd6d94bcf91da78d88be0)**  
-*Yahoo · 1h前*  
-AMD just absorbed a brutal sell-off and an $800 million export hit, yet its biggest customers keep signing billion-dollar commitments. Here is why the pain migh…
+- **[Intel (INTC) Lands A Major Customer For Its 14A Foundry Process](https://finnhub.io/api/news?id=bf38862e3ff00e62c969aa6be700ecb30acee5237891c13ab3b2baeec2ca5ea9)**  
+*Yahoo · 7h前*  
+Intel (NasdaqGS: INTC) said Tesla has agreed to use its upcoming 14A manufacturing process as a foundry customer. The chipmaker reported progress on output from…
 
-- **[Why Nvidia Stock Is Rising While the Broader Chip Sector Keeps Falling](https://finnhub.io/api/news?id=10cfc4497529722d01337ad8737b428adc2f1ce1226d4b39b72c12591433892a)**  
-*Yahoo · 3h前*  
-The AI chip leader was defying the ongoing sector slump early Friday.
+- **[Jim Cramer On Micron (MU) & Intel (INTC): Nothing Is Working Despite Good Businesses & Strong Quarters](https://finnhub.io/api/news?id=88136d4215634bd483ccf099695ebbd38de8fd8c117fd71b25c4a7dd9b84a634)**  
+*Yahoo · 1d前*  
+Semiconductor giants Intel Corporation (NASDAQ:INTC) and Micron Technology, Inc. (NASDAQ:MU)’s shares have ended the week as part of yet another historic bloodb…
 
-- **[NVDA Bucks Selloff As MU, INTC, AMD Slide Premarket Amid Chip Rout](https://finnhub.io/api/news?id=85dcc4a699c9c7fb15a18938090c05f00eec0deba13a2b3b4ce83f5b0684a6d3)**  
-*Yahoo · 4h前*  
-AI infrastructure demand remains in focus as investors reassess chip valuations.
+- **[Intel Stock Fell Nearly 6% as TSMC Took Aim at Its Packaging Business. Here’s What It Means for Intel’s Margins](https://finnhub.io/api/news?id=ca2bf16f5b630348dcff0278e595af4431925ee990afbac5440c39d89b96268b)**  
+*Yahoo · 1d前*  
+Key Stats for Intel StockCurrent Price: $89. 85Target Price (Mid): ~$390Street Target: ~$118Potential Total Return: ~336%Annualized IRR: ~42% / yearWhat Happene…
 
 ---
 
@@ -48,7 +48,7 @@ AI infrastructure demand remains in focus as investors reassess chip valuations.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-16 | 監控 | $95.37 | — | 自動更新 |
+| 2026-10-19 | 監控 | $89.85 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ AI infrastructure demand remains in focus as investors reassess chip valuations.
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 07:05 HKT*
