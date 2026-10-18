@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$55.25** |
-| 今日變動 | ▼ $3.93　(-6.64%) |
+| 現價 | **$50.84** |
+| 今日變動 | ▼ $4.41　(-7.98%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $208　(▼27.3%) |
+| 未實現盈虧 | ▼ $252　(▼33.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $65.93 | — |
-| Put Wall（支撐） | $55.00 | -0.5% |
-| Call Wall（阻力） | $85.00 | +53.8% |
+| Gamma Flip | $67.51 | — |
+| Put Wall（支撐） | $50.00 | -1.7% |
+| Call Wall（阻力） | $85.00 | +67.2% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Tumbles on Yet Another Neutron Delay. Time to Bail?](https://finnhub.io/api/news?id=162b680b368ca32dce4bf3e445bf6ad7e6a0ed1c9652870d361a257e33e3ccbf)**  
-*Yahoo · 1h前*  
-Rocket Lab just pushed its biggest growth engine into 2027 while posting record revenue, leaving investors to decide whether the selloff is a buying opportunity…
+- **[Rocket Lab Stock Erases $57 Billion in Value as Headwinds Mount](https://finnhub.io/api/news?id=f7225c92f71674fd5592873573bca43991740db5687aa01f9b98e15fb3a90b4c)**  
+*Benzinga · 1d前*  
+Rocket Lab stock broke below a key support level and fell to its lowest point since December 9 after it delayed its Neutron product.
 
-- **[ARK Investment Management Purchases Rocket Lab Shares Following Sharp Declines Amid Rocket Delay to 2027](https://finnhub.io/api/news?id=a511a8f75ba3fef31355ac4b68cfc1fb0c34f0a0ec3f8b7e65f618eeded50b47)**  
-*Yahoo · 3h前*  
-Cathy Woods' ARK Investment Management bought Rocket Lab (RKLB) shares Thursday after the company sa
+- **[Rocket Lab's Neutron Delay Leaves Wall Street Bullish But Raises the Stakes for 2027](https://finnhub.io/api/news?id=ce3b4b4d51005eadd32c386526cf35a49f99bbe6caa7af709c25cd9ff9a7d1c2)**  
+*Yahoo · 1d前*  
+Rocket Lab shares fell nearly 7% after the company delayed Neutron rocket's debut to 2027, breaking key technical support as analysts trimmed price targets but …
 
-- **[Why Are Nasdaq Futures Edging Higher Premarket? TSLA, CRWV, TSM, NVDA, RKLB, ASST, PEP Stocks In Focus](https://finnhub.io/api/news?id=6c83f09e227a013c8ccaeef4ba7ab8c62139f4f135aa9b75b622254ed16ff28f)**  
-*Yahoo · 4h前*  
-On Stocktwits, retail sentiment toward SPY has moderated to ‘neutral,’ but remained ‘bullish’ on QQQ.
+- **[Jim Cramer says it's a 'great opportunity to sell' RKLB stock](https://finnhub.io/api/news?id=4a5f7f3d9e6ce419dd161bb69478c4a41c1c44e7d6ef398b28e363aff7f137ec)**  
+*Yahoo · 1d前*  
+Rocket Lab disclosed that inspections revealed a flaw that requires a full redesign and process change.
 
 ---
 
@@ -48,7 +48,7 @@ On Stocktwits, retail sentiment toward SPY has moderated to ‘neutral,’ but r
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-16 | 監控 | $55.25 | — | 自動更新 |
+| 2026-10-19 | 監控 | $50.84 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ On Stocktwits, retail sentiment toward SPY has moderated to ‘neutral,’ but r
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 07:05 HKT*
