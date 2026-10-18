@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$736.72** |
-| 今日變動 | ▼ $0.82　(-0.11%) |
+| 現價 | **$709.33** |
+| 今日變動 | ▼ $27.39　(-3.72%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $391　(▲21.5%) |
+| 未實現盈虧 | ▲ $309　(▲17.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $619.67 | — |
-| Put Wall（支撐） | $730.00 | -0.9% |
-| Call Wall（阻力） | $750.00 | +1.8% |
+| Gamma Flip | $619.32 | — |
+| Put Wall（支撐） | $700.00 | -1.3% |
+| Call Wall（阻力） | $750.00 | +5.7% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Apple and Meta Just Teamed Up on AI, and Zuckerberg Thanked Apple’s CEO by Name](https://finnhub.io/api/news?id=e10c57f0f52248224973dd58c17d9b2418a680dce8fc984a37756253380524f5)**  
-*Yahoo · 1h前*  
-Mark Zuckerberg publicly thanked an Apple executive by name, ending years of bitter silence between the two tech giants. What the two companies quietly built to…
+- **[Meta Earnings Puts Adobe Stock And AI Ad Software Names In Focus](https://finnhub.io/api/news?id=370bf879c132dd8ac54bd65574fb82a73e36aa843c0f3e84c24c7e4f793369b9)**  
+*Yahoo · 2h前*  
+AI hype is colliding with earnings season, and Meta’s upcoming report has suddenly become a live stress test for the whole trade. After the sharp pullback in Nv…
 
-- **[Meta Platforms (NASDAQ:META) Offers Strong Growth and a Constructive Technical Setup](https://finnhub.io/api/news?id=c58102362fbcf72ebc83b5e79ddc1e58f230005016fbe629f14d5337ee4a8515)**  
-*ChartMill · 1h前*  
-Meta’s strong growth, solid margins and healthy balance sheet meet a constructive chart setup, offering a defined breakout watch.
+- **[Oil Futures Likely to React to Ukraine’s Attack on Russian Oil, Lifting of Diesel Sanctions](https://finnhub.io/api/news?id=2de825ae32f2e49eeca1610625dd9f49b37f02df626b6cda3d0494161957390c)**  
+*Yahoo · 4h前*  
+Ukraine launched a drone attack and struck a major oil terminal in Russia, according to reports.
 
-- **[Stock market today: Dow, S&P 500, Nasdaq futures mixed amid volatile week](https://finnhub.io/api/news?id=094d32a33af2c2d95c7904d0b7c47bb49da96ae271642ecdfc80b0c5669b8801)**  
-*Yahoo · 1h前*  
-Stocks futures were mixed on Friday, with the S&P 500 and Nasdaq on track for weekly losses, capping a volatile week.
+- **[Tesla, Meta, GE Aerospace, GM,  IBM, and More Stocks to Watch This Week](https://finnhub.io/api/news?id=3b9b65ee48be8769aa35d4a77ac8d2b59e32c0318a3ffda6a015e232e33f52ae)**  
+*Yahoo · 5h前*  
+It’s a heavy week for earnings, with reports also coming from Lockheed Martin, Spotify, Abbott, and many more. This week will also bring data on manufacturing, …
 
 ---
 
@@ -48,7 +48,7 @@ Stocks futures were mixed on Friday, with the S&P 500 and Nasdaq on track for we
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-16 | 監控 | $736.72 | — | 自動更新 |
+| 2026-10-19 | 監控 | $709.33 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Stocks futures were mixed on Friday, with the S&P 500 and Nasdaq on track for we
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 07:04 HKT*
