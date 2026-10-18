@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-16 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$349.22** |
-| 今日變動 | ▲ $1.58　(+0.45%) |
+| 現價 | **$340.59** |
+| 今日變動 | ▼ $8.63　(-2.47%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $2,084　(▲42.5%) |
+| 未實現盈虧 | ▲ $1,911　(▲39.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $342.18 | — |
-| Put Wall（支撐） | $340.00 | -2.6% |
-| Call Wall（阻力） | $350.00 | +0.2% |
+| Gamma Flip | $336.30 | — |
+| Put Wall（支撐） | $330.00 | -3.1% |
+| Call Wall（阻力） | $350.00 | +2.8% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Morning Minute: Google Clears a Major Quantum Hurdle, Bitcoin Still Safe](https://finnhub.io/api/news?id=66efda7912ce05c2f029c9f4f2aac4f712d340766de5904755098e34bdfa71cd)**  
-*Yahoo · 1h前*  
-Plus, crypto majors rebound despite hot PPI and Saylor’s Strategy is at risk of removal from a major index.
+- **[Zohran Mamdani Says Quantum Is Poised to Become a ‘Multi-Trillion Dollar Industry’ and New Yorkers Should ‘Share in That Profit’](https://finnhub.io/api/news?id=8426fe3a8dd0c3452ce45b52eb9928d0a7f1a9453eb125acb64a983263322e7f)**  
+*Yahoo · 5h前*  
+New York City Mayor Zohran Mamdani said Thursday that the city will receive a 15% share of the intellectual property proceeds from a new quantum facility, addin…
 
-- **[Google Just Cut a Major Quantum Computing Error Rate by 40 Times](https://finnhub.io/api/news?id=af21dffc9b275171dcb107f0512ad4b3f94f98dfcc0dc5789ab23730cc47ffa5)**  
-*Yahoo · 1h前*  
-Google's quantum lab just cleared a barrier that has quietly set the ceiling on how powerful a quantum computer can ever get, and the implications reach well be…
+- **[1 Analyst Thinks Alphabet Stock Could Jump 20% on AI Chip Demand. Is He Right?](https://finnhub.io/api/news?id=80d29ab300b81a73b4c0c3361668af1e85d4de8994c9fd48d45a49d22e13135f)**  
+*Yahoo · 6h前*  
+There's a good reason to be optimistic about Alphabet's chip opportunities.
 
-- **[As Robotaxis Spread, Carmakers Must Choose Between Owning the Customer and Selling the Car](https://finnhub.io/api/news?id=23101597e7efe01bec4486085545076f9ef68de290b5ee64da708c6763f5a741)**  
-*Yahoo · 2h前*  
-Will robotaxis dominate transportation in the future, or will individual consumers demand to own their own vehicles?
+- **[Verizon launches generous customer perks after raising prices](https://finnhub.io/api/news?id=d5ae848f6317f89a74e9831a13be514ef02e6d4f447d230f5092a6f02b3ff018)**  
+*Yahoo · 7h前*  
+Verizon is offering customers new benefits that extend beyond its core service as wireless competition intensifies.
 
 ---
 
@@ -48,7 +48,7 @@ Will robotaxis dominate transportation in the future, or will individual consume
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-16 | 監控 | $349.22 | — | 自動更新 |
+| 2026-10-19 | 監控 | $340.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Will robotaxis dominate transportation in the future, or will individual consume
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 07:04 HKT*
