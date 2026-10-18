@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$30.01** |
-| 今日變動 | ▲ $0.97　(+3.34%) |
+| 現價 | **$27.97** |
+| 今日變動 | ▼ $2.04　(-6.80%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▼ $2　(▼0.2%) |
+| 未實現盈虧 | ▼ $84　(▼6.9%) |
 
 ---
 
@@ -20,26 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $35.17 | — |
-| Put Wall（支撐） | $25.00 | -16.7% |
-| Call Wall（阻力） | $30.00 | +-0.0% |
+| Gamma Flip | $36.63 | — |
+| Put Wall（支撐） | $25.00 | -10.6% |
+| Call Wall（阻力） | $40.00 | +43.0% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[5 Growth Stocks With Home Run Potential](https://finnhub.io/api/news?id=fa7b30f21fc963252d5369c738f69fe8d823bea1e9c9496c0dc29b89f6d5f547)**  
-*Yahoo · 21h前*  
-Each of these aspiring players has big potential in a massive market, but each has some clear weak spots, too.
+- **[Should You Sell Your NuScale Power Stock Now?](https://finnhub.io/api/news?id=3e2de53449c3695f4ad9a2d1399cf150699e5d15f8742a8e31878c6837654e87)**  
+*Yahoo · 1d前*  
+Investors holding NuScale Power (SMR) stock have faced a punishing year. While the broader S&P 500 returned 17.9%, the shares lost 86.6%. That decline is firmly…
 
-- **[Talen Energy shares are trading lower after Barclays lowered its price target on the stock from $425 to $408.](https://finnhub.io/api/news?id=be3a2e14988b35c699e3e1273962c450b1d7973899330ce652d27ab23bc2d103)**  
-*Benzinga · 1d前*
-
-- **[Oklo Launched Another $1 Billion Stock Sale. Here's How Much Dilution Shareholders Have Absorbed Since It Went Public.](https://finnhub.io/api/news?id=3ef5f2b0087062f7ce5f9cb9a4cfdbed2a75bd80a056b6e5798dc9e9b620e4b0)**  
+- **[Constellation Energy And 2 Nuclear Stocks To Watch](https://finnhub.io/api/news?id=dc0b31ef09e0cb0374db70eacef6ec1d176caf1481e063326439e36690f3bd57)**  
 *Yahoo · 2d前*  
-The nuclear energy company is selling stock again but at a much lower share price than its last funding round.
+Oil back above US$100 and renewed attacks on energy infrastructure keep reminding markets how fragile fuel supplies can be. That spotlight on energy security is…
+
+- **[Research Frontiers shares are trading higher after the company reported a year-over-year increase in Q3 sales results.](https://finnhub.io/api/news?id=d964c763d7c6487cdfb247f741aa98e76aac77ecdccd7875354627fbbfc074a0)**  
+*Benzinga · 2d前*
 
 ---
 
@@ -47,7 +47,7 @@ The nuclear energy company is selling stock again but at a much lower share pric
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-16 | 監控 | $30.01 | — | 自動更新 |
+| 2026-10-19 | 監控 | $27.97 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ The nuclear energy company is selling stock again but at a much lower share pric
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 07:05 HKT*
