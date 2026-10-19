@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nine Companies, Including Broadcom and Verizon, Object to Their Shares Being Tokenized. Can They Stop It?](https://finnhub.io/api/news?id=57f743c8f642271987dae6f5e86d7fcda59985d7b89227a395e3cb591f5c0007)**  
-*Yahoo · 4h前*  
-OKX and Intercontinental Exchange want to tokenize shares from 63 public companies, but nine of them have formally pushed back. Whether corporations can actuall…
+- **[Objections to ICE and OKX’s Tokenized Stock Venue Climb to Nine as Broadcom, Verizon Opt Out](https://finnhub.io/api/news?id=bca012de5ecd32d01dc42e0fdcd54b83444df57889c4ed6d608df881eb680bf5)**  
+*Yahoo · 2h前*  
+The ICE and OKX joint venture’s Oct. 15 notice to the public shows the roster of companies refusing tokenized trading on its pools is rising quickly.
 
-- **[What Does Broadcom (AVGO) Face As AI Chip Supply Turns Into A Bottleneck?](https://finnhub.io/api/news?id=99ada1d69d367f1bd75eb62c3b665b465fed7b42122097d0c519a376c3167313)**  
-*Yahoo · 6h前*  
-Broadcom (NasdaqGS:AVGO) is competing with other AI chip clients for Taiwan Semiconductor Manufacturing Co.'s expanding advanced capacity in 2026. TSMC is repor…
+- **[Stock Market Today: Chip Selloff Hits Day Eight as Nasdaq Logs Its Worst Week Since June](https://finnhub.io/api/news?id=7813c90551bed2a1596a8d1552963cf3cc125b7182c3e4c82dc3b7c6f5ac0807)**  
+*ChartMill · 4h前*  
+The SOX fell for an eighth straight session, its longest losing run since 2006, as neoclouds, cybersecurity and Big Tech slid. Oil jumped 10% on the week and St…
 
-- **[Broadcom (AVGO) Went Nowhere for a Year. Analysts Think It Is Worth 50% More](https://finnhub.io/api/news?id=1532391aa5c0969c751fa1194019116d039c167e1aee3cf8d61c122e45fa5420)**  
-*Yahoo · 8h前*  
-Broadcom Inc. (NASDAQ:AVGO) closed at $344.33 on October 15. The stock has returned -13.59% over the last six months, compared to a 15.4% return for the Insider…
+- **[Arista Networks' Share Price Slump: To Buy Or Not To Buy](https://finnhub.io/api/news?id=602c9f618f1e75cc79fbc8e4d1e391dd5248a61dd415a7a151b89afc6546c264)**  
+*SeekingAlpha · 4h前*  
+Arista Networks has declined nearly 20% from October highs, driven by broad AI sector sentiment rather than company-specific issues. See why I rate ANET stock a…
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom Inc. (NASDAQ:AVGO) closed at $344.33 on October 15. The stock has retur
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
