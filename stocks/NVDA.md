@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Where Will CRISPR Therapeutics Stock Be in 2030?](https://finnhub.io/api/news?id=8ae1de6b77f1f2be62e02ddf0d9e22e7d0ebc2669ad0c16e08ae042407132ad9)**  
+- **[Microsoft exits data centre deal in blow to UK AI ambitions](https://finnhub.io/api/news?id=2a7f02a10b43860ec6a0fae245d843a9ee3d13da61aff1e45082988362ed4699)**  
 *Yahoo · 1h前*  
-The company's expertise in gene editing could lead to more breakthroughs.
+Microsoft confirmed Monday that it has pulled out of a UK AI data centre deal with British start-up Nscale, in a blow to the country's artificial intelligence a…
 
-- **[Some Investors Are Questioning the AI Trade. Microsoft Is Bucking the Trend](https://finnhub.io/api/news?id=ff35a4a3386611f185444efefec578170d0e502541a8bd27f6b93751b1fc61b7)**  
+- **[The S&P 500's Worst Day Was 39 Years Ago Today. Should You Buy When Stocks Crash?](https://finnhub.io/api/news?id=055a957755032353bdc405b9d099e0416ef5b0eafc8226acde45e08b1389cd39)**  
 *Yahoo · 1h前*  
-Azure's growth and Copilot's position in enterprise AI make Microsoft a smart AI play.
+Black Monday buyers got in around a third under the index's August 1987 record. Did it feel like a bargain?
 
-- **[Is Citigroup Stock a Buy 13% Below Its 52-Week High?](https://finnhub.io/api/news?id=b9a28514298cff306eb328292b2a8a7f2ef3d556bc44dfc067b4df650acdb712)**  
-*Yahoo · 2h前*  
-Is Citigroup the best big bank stock right now? You could make a case for it.
+- **[All It Takes Is 472 Shares of Coca-Cola Stock to Earn $1,000 a Year in Dividends. Is It Worth It?](https://finnhub.io/api/news?id=5a964107e22938f8ae9ef7448ac379442e92547b2595a1c8cfd82bafd1eef85c)**  
+*Yahoo · 1h前*  
+Generating $1,000 a year in dividends with Coca-Cola stock isn't cheap, but it is a worthy endeavor.
 
 ---
 
@@ -59,4 +59,4 @@ Is Citigroup the best big bank stock right now? You could make a case for it.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
