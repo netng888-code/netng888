@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[S&P 500 Premarket Movers: Gainers and Losers on Oct. 19, 2026](https://finnhub.io/api/news?id=0c9d1cca5c75581761f42ca2abf92c95b06d611e34185f4fde9cdead51cd00c2)**  
+*ChartMill · 0h前*  
+S&P 500 premarket trading on Oct. 19, 2026, shows tech and semiconductor stocks rebounding while financial, payments, beverage and energy shares lag.
+
+- **[Applied Materials Cratered 20% Since July: Multiple Wall Street Firms Predict It’s Going to More Than Double From Here](https://finnhub.io/api/news?id=0d45f0502e7885a4923cbfc1f33746accdfb7bcf4f02d5931b61327ba1c5b02a)**  
+*Yahoo · 1h前*  
+Applied Materials just suffered one of its steepest drops in years, yet analysts keep raising their earnings estimates and some price targets sit nearly double …
+
 - **[3 AI Infrastructure Stocks Retail Investors Are Watching In US Tech](https://finnhub.io/api/news?id=e87b2bfda0706b794773d369aa3d12e1c2289e384f092b15d09074cce989f1ff)**  
-*Yahoo · 4h前*  
+*Yahoo · 18h前*  
 Government-backed “Innovation Accounts” that pour fresh cash into tech and AI index funds would not just tweak the market, they could gradually reshape who part…
-
-- **[SoftBank Wants to Buy America’s Biggest Security Guard Company and Use Robots](https://finnhub.io/api/news?id=af67078aff295958f93376b50d73aec10b203bc4e1012a6b551b3e7daf746b90)**  
-*Yahoo · 1d前*  
-SoftBank is eyeing an $18 billion deal to take over the largest private security firm in America, with plans to swap out guards for robots at scale. The math on…
-
-- **[Teradyne (NASDAQ:TER) Shows High-Growth Fundamentals as Earnings Revisions and Sales Surge](https://finnhub.io/api/news?id=726d4da3575d173a303380a56be6e169fe4d1445d472f59259929899d23ed1f5)**  
-*ChartMill · 1d前*  
-Teradyne (TER) clears Navellier’s growth screen with strong EPS revisions, earnings beats, sales growth, margins, cash flow and high ROE.
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne (TER) clears Navellier’s growth screen with strong EPS revisions, ear
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
