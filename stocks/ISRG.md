@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Zacks Investment Ideas feature highlights: Intuitive Surgical](https://finnhub.io/api/news?id=68c9321c0027ea4ceddf4569dd92eef5969ebf0757baddb131e653b18db46ae1)**  
+*Yahoo · 4h前*  
+Intuitive Surgical has rebounded from recent lows, with double-digit sales growth projected and potential 43% upside as its robotic surgery business expands.
+
+- **[Intuitive Surgical Earnings: What To Look For From ISRG](https://finnhub.io/api/news?id=a14703401b8c841024958b2e7c0ae42360175dc567c76473a8868605fc607639)**  
+*Yahoo · 9h前*  
+Medical technology company Intuitive Surgical (NASDAQ:ISRG) will be announcing earnings results this Tuesday after market hours. Here’s what investors should kn…
+
 - **[Intuitive Surgical (ISRG) Stock Is Down 25% Year to Date. History Says Patient Investors Get Rewarded.](https://finnhub.io/api/news?id=13b7fc1a129237e6bd7974e8106c69b79d2eb7408bda7a8d371aec27bb065fce)**  
 *Yahoo · 1d前*  
 I'm a shareholder, myself, with no plans to sell.
-
-- **[Forget AI Stocks: Buy Med-Tech Stock ISRG Now for 40% Upside](https://finnhub.io/api/news?id=4db4de74806b0e5104f5f77118d9ce95cdc886f0252f7f43af6b42e9db72fde1)**  
-*Yahoo · 2d前*  
-Intuitive Surgical stock earns a Zacks Rank #2 (Buy) and looks poised for a potential technical breakout as it overtakes vital long-term levels heading into its…
-
-- **[Intuitive Surgical is Down this Year Despite Double-Digit Growth. Is Its 33x Valuation Still Justified?](https://finnhub.io/api/news?id=b4988f1da6135a1523e488ef50d7508f8a70055597620067a6b10e1a3da70f3c)**  
-*Yahoo · 2d前*  
-Intuitive Surgical, Inc. (NASDAQ:ISRG) is underperforming the broader market, with shares declining by nearly 24% since the start of 2026. That underperformance…
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical, Inc. (NASDAQ:ISRG) is underperforming the broader market, wi
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:05 HKT*
