@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Stalker Drone Contract Could Change The Case For Redwire Stock](https://finnhub.io/api/news?id=fbde22393767dfa05fefebc9d48da85f00987acb332546ef8c00044899366a37)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Redwire Corporation reported in October 2026 that it will deliver its Stalker Group 2 Uncrewed Aircraft Systems to support the U.S. National Guard Bureau’s trai…
 
 - **[Redwire (RDW) Lands New Drone Orders, Is It Still Below Fair Value?](https://finnhub.io/api/news?id=765c86749dff51e27819fa741737e59dd1051da063e42ba7f9593501a3d2f275)**  
@@ -39,7 +39,7 @@ Redwire Corporation reported in October 2026 that it will deliver its Stalker Gr
 Redwire (RDW) just picked up fresh attention after announcing approximately US$13.8 million in orders for its Stalker uncrewed aircraft systems to support the N…
 
 - **[Stocktwits Space Race Weekly: SPCX Weathers Selloff Better Than ASTS, RKLB And FLY — RDW Fares Best](https://finnhub.io/api/news?id=8d76b4140c9d7bd4cd55377c14e82fa19c0677a421c3fa9d8d372222eef6e5c8)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 SpaceX faced Ukraine-related satellite-service scrutiny as Barclays’ merger speculation and the flying Roadster revealed renewed attention on its Tesla ties.
 
 ---
@@ -59,4 +59,4 @@ SpaceX faced Ukraine-related satellite-service scrutiny as Barclays’ merger sp
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
