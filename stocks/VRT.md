@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-19 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$206.42** |
-| 今日變動 | ▼ $8.33　(-3.88%) |
+| 現價 | **$206.08** |
+| 今日變動 | ▼ $0.34　(-0.16%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $195　(▼32.0%) |
+| 未實現盈虧 | ▼ $195　(▼32.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $245.36 | — |
-| Put Wall（支撐） | $185.00 | -10.4% |
-| Call Wall（阻力） | $230.00 | +11.4% |
+| Gamma Flip | $243.40 | — |
+| Put Wall（支撐） | $185.00 | -10.2% |
+| Call Wall（阻力） | $230.00 | +11.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Would Stop The AI Selloff](https://finnhub.io/api/news?id=f81e56ca69a5fcfaacd77d3a9630d96359897268651205c32cb90015cce769d2)**  
-*SeekingAlpha · 11h前*
+- **[Morgan Stanley’s favorite AI stock is 92% exposed to the $1.6 trillion build-out it’s bullish on](https://finnhub.io/api/news?id=d27b5b736dc8bcdccd3acb1b216792153a2bba70bd019db1b06f8c2ceddfc221)**  
+*Yahoo · 4h前*  
+The bank calls Nvidia the best risk/reward in AI. Its own report lays out what happens to suppliers when a capital cycle turns.
 
-- **[Arista vs. Vertiv: Which AI Infrastructure Business Has the Bigger Profit Cushion?](https://finnhub.io/api/news?id=8d8308fbcd3a71f9082fccf1ab0d70e46819fbeb9244fb844777700ecf9aa22c)**  
-*Yahoo · 1d前*  
-Arista and Vertiv rank tenth and ninth in our 10 Best AI Infrastructure Stocks to Buy for the Long Term. The list shows which eight infrastructure businesses at…
+- **[Where Will Vertiv Stock Be in 1 Year?](https://finnhub.io/api/news?id=98b26193ea3693ccac8d7387ce196d9b2b973cc9712f3c2ac7e8f2c8b5ae6a25)**  
+*Yahoo · 5h前*  
+The provider of data center cooling and power supply systems has a bright future.
 
-- **[Arista vs. Vertiv: Which Cash Flow Depends More on Customer Advances?](https://finnhub.io/api/news?id=b584e82595b78949365b9e2d6d9b6043d3a9977ee5aa4d9f6a3e934599fce496)**  
-*Yahoo · 1d前*  
-Arista Networks, Inc. (NYSE:ANET) and Vertiv Holdings Co (NYSE:VRT) both benefited from rising deferred revenue during the first half of 2026, but the contribut…
+- **[What Could Vertiv Stock Be Worth In Three Years?](https://finnhub.io/api/news?id=a64c0bf5ec311d652a647e458573f59f437856c2193b36b2cbd16e095f4a7706)**  
+*Yahoo · 6h前*  
+Vertiv (VRT) sells power and cooling equipment to data centers. The stock has dropped 29.2% since July 20—compounding losses for investors who bought near the M…
 
 ---
 
@@ -47,7 +48,7 @@ Arista Networks, Inc. (NYSE:ANET) and Vertiv Holdings Co (NYSE:VRT) both benefit
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-19 | 監控 | $206.42 | — | 自動更新 |
+| 2026-10-20 | 監控 | $206.08 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ Arista Networks, Inc. (NYSE:ANET) and Vertiv Holdings Co (NYSE:VRT) both benefit
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 07:05 HKT*
