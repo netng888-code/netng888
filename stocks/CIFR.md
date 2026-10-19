@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-10-19 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$8.98** |
-| 今日變動 | ▼ $1.06　(-10.56%) |
+| 現價 | **$8.94** |
+| 今日變動 | ▼ $0.04　(-0.45%) |
 | 持倉數量 | 100 股 |
 | 平均成本 | $10.000 |
-| 未實現盈虧 | ▼ $102　(▼10.2%) |
+| 未實現盈虧 | ▼ $106　(▼10.6%) |
 
 ---
 
@@ -20,18 +20,18 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $8.91 | — |
-| Put Wall（支撐） | $9.00 | --0.2% |
-| Call Wall（阻力） | $15.00 | +67.0% |
+| Gamma Flip | $8.94 | — |
+| Put Wall（支撐） | $8.00 | -10.5% |
+| Call Wall（阻力） | $15.00 | +67.8% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
 - **[WGMI's Pivot: From Bitcoin Miner To AI Power Play (Upgrade)](https://finnhub.io/api/news?id=474b7ba458680480ebd920a2ebe01da858c5dc84a1ee1ed0006d0660258865de)**  
-*SeekingAlpha · 9h前*  
+*SeekingAlpha · 19h前*  
 WGMI ETF now includes AI infrastructure and digital power, lowering bitcoin correlation.
 
 - **[Cipher Digital: After The 70% Wipeout](https://finnhub.io/api/news?id=73954330692150a017f7646ed93a6d9ff2b472abd920e8f6a6856689db2c6847)**  
@@ -48,7 +48,7 @@ Shares of Cipher Digital (CIFR) fell 26.4% in the five trading days from October
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-19 | 監控 | $8.98 | — | 自動更新 |
+| 2026-10-20 | 監控 | $8.94 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Shares of Cipher Digital (CIFR) fell 26.4% in the five trading days from October
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 07:05 HKT*
