@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-10-19 07:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,7 +35,7 @@
 One analyst sees Serve Robotics continuing to serve up net losses through 2028.
 
 - **[Meta, Tesla Headline Earnings In Busy Week For Markets](https://finnhub.io/api/news?id=3dcbe5a8689c76a628f51ae4c5084970467aab6b7f0f374e353ded8fe09592d4)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Wall Street Week Ahead: key earnings (Meta, Tesla, Netflix), IPOs & economic data. Read here for more details.
 
 ---
@@ -55,4 +55,4 @@ Wall Street Week Ahead: key earnings (Meta, Tesla, Netflix), IPOs & economic dat
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:06 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:05 HKT*
