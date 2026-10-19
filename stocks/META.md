@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Earnings Puts Adobe Stock And AI Ad Software Names In Focus](https://finnhub.io/api/news?id=370bf879c132dd8ac54bd65574fb82a73e36aa843c0f3e84c24c7e4f793369b9)**  
-*Yahoo · 2h前*  
-AI hype is colliding with earnings season, and Meta’s upcoming report has suddenly become a live stress test for the whole trade. After the sharp pullback in Nv…
+- **[Stock market today: Dow, S&P 500, Nasdaq futures mixed as the AI trade rebounds](https://finnhub.io/api/news?id=a544e4a22e98a5dfff52695d5303a2c93bd1e3968837414b0536a0604db4fee5)**  
+*Yahoo · 1h前*  
+Stocks were poised to gain on Monday after the worst week for the tech-heavy Nasdaq since June.
 
-- **[Oil Futures Likely to React to Ukraine’s Attack on Russian Oil, Lifting of Diesel Sanctions](https://finnhub.io/api/news?id=2de825ae32f2e49eeca1610625dd9f49b37f02df626b6cda3d0494161957390c)**  
-*Yahoo · 4h前*  
-Ukraine launched a drone attack and struck a major oil terminal in Russia, according to reports.
+- **[Dow Jones, Nasdaq, S&P 500 preview: All eyes on Meta, Tesla, SpaceX earnings](https://finnhub.io/api/news?id=f9e5fff88c04d11ecc618af68074c1486f7db00a0976d7b755bca47d51e5a9c5)**  
+*Yahoo · 1h前*  
+Investing.com -- U.S. stocks fell Friday, closing out a mostly losing week as investors retreated from technology and AI-linked names while oil prices rose.
 
-- **[Tesla, Meta, GE Aerospace, GM,  IBM, and More Stocks to Watch This Week](https://finnhub.io/api/news?id=3b9b65ee48be8769aa35d4a77ac8d2b59e32c0318a3ffda6a015e232e33f52ae)**  
-*Yahoo · 5h前*  
-It’s a heavy week for earnings, with reports also coming from Lockheed Martin, Spotify, Abbott, and many more. This week will also bring data on manufacturing, …
+- **[Spotlight on Levered Chip Financing Heightens: What is Happening at Nvidia and AMD?](https://finnhub.io/api/news?id=2219ec1c384a32060b7f005e469b58946367b6724325e7a9a22f9d69e82ff0ac)**  
+*Yahoo · 1h前*  
+CoreWeave's stumble has put a spotlight on how Nvidia and AMD are bankrolling the AI chip boom, and the two approaches carry very different kinds of danger lurk…
 
 ---
 
@@ -59,4 +59,4 @@ It’s a heavy week for earnings, with reports also coming from Lockheed Martin,
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
