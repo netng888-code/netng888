@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$328.75** |
-| 今日變動 | ▼ $15.58　(-4.52%) |
+| 現價 | **$334.59** |
+| 今日變動 | ▲ $5.84　(+1.78%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $499　(▼13.2%) |
+| 未實現盈虧 | ▼ $440　(▼11.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $356.36 | — |
-| Put Wall（支撐） | $300.00 | -8.7% |
-| Call Wall（阻力） | $400.00 | +21.7% |
+| Gamma Flip | $353.01 | — |
+| Put Wall（支撐） | $300.00 | -10.3% |
+| Call Wall（阻力） | $350.00 | +4.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Objections to ICE and OKX’s Tokenized Stock Venue Climb to Nine as Broadcom, Verizon Opt Out](https://finnhub.io/api/news?id=bca012de5ecd32d01dc42e0fdcd54b83444df57889c4ed6d608df881eb680bf5)**  
-*Yahoo · 2h前*  
-The ICE and OKX joint venture’s Oct. 15 notice to the public shows the roster of companies refusing tokenized trading on its pools is rising quickly.
+- **[Companies object to tokenized listings on OKX-ICE platform](https://finnhub.io/api/news?id=1fadcc65cffb60276d17ee821d38e56f29d490f1ae2d51475fa46665722b8ae4)**  
+*Yahoo · 4h前*  
+Scott Melker discusses how companies like Broadcom (AVGO) and Verizon (VZ) are objecting to being traded on the tokenized OKX-ICE index. "The Daily Wolf with Sc…
 
-- **[Stock Market Today: Chip Selloff Hits Day Eight as Nasdaq Logs Its Worst Week Since June](https://finnhub.io/api/news?id=7813c90551bed2a1596a8d1552963cf3cc125b7182c3e4c82dc3b7c6f5ac0807)**  
-*ChartMill · 4h前*  
-The SOX fell for an eighth straight session, its longest losing run since 2006, as neoclouds, cybersecurity and Big Tech slid. Oil jumped 10% on the week and St…
+- **[Broadcom (AVGO) vs. Texas Instruments (TXN): Higher Income or Stronger Dividend Coverage?](https://finnhub.io/api/news?id=454e47d91d5fd21acf448868707b822ffa0c1b22fb0316e68a661209dd03da96)**  
+*Yahoo · 4h前*  
+Our 10 Best Semiconductor Stocks to Buy for the Next Decade ranks durable franchises using weighted sentiment, business resilience and valuation. Two names rais…
 
-- **[Arista Networks' Share Price Slump: To Buy Or Not To Buy](https://finnhub.io/api/news?id=602c9f618f1e75cc79fbc8e4d1e391dd5248a61dd415a7a151b89afc6546c264)**  
-*SeekingAlpha · 4h前*  
-Arista Networks has declined nearly 20% from October highs, driven by broad AI sector sentiment rather than company-specific issues. See why I rate ANET stock a…
+- **[Broadcom vs. Applied Materials: Which Buybacks Are Actually Shrinking the Share Count?](https://finnhub.io/api/news?id=990bb730158de625359e55ca897d8e70bc3f9aa916e94bc4c5447511b2e2a1d1)**  
+*Yahoo · 4h前*  
+Broadcom and Applied Materials both generate cash and repurchase shares, but shareholders ultimately own a fraction of a business. Our 10 Best Semiconductor Sto…
 
 ---
 
@@ -48,7 +48,7 @@ Arista Networks has declined nearly 20% from October highs, driven by broad AI s
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-19 | 監控 | $328.75 | — | 自動更新 |
+| 2026-10-20 | 監控 | $334.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Arista Networks has declined nearly 20% from October highs, driven by broad AI s
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 07:04 HKT*
