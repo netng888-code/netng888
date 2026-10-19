@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-19 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$89.85** |
-| 今日變動 | ▼ $5.52　(-5.79%) |
+| 現價 | **$92.03** |
+| 今日變動 | ▲ $2.18　(+2.43%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $172　(▼16.0%) |
+| 未實現盈虧 | ▼ $150　(▼14.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $100.66 | — |
-| Put Wall（支撐） | $80.00 | -11.0% |
-| Call Wall（阻力） | $100.00 | +11.3% |
+| Gamma Flip | $97.51 | — |
+| Put Wall（支撐） | $90.00 | -2.2% |
+| Call Wall（阻力） | $100.00 | +8.7% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[S&P 500 Premarket Movers: Gainers and Losers on Oct. 19, 2026](https://finnhub.io/api/news?id=0c9d1cca5c75581761f42ca2abf92c95b06d611e34185f4fde9cdead51cd00c2)**  
-*ChartMill · 0h前*  
-S&P 500 premarket trading on Oct. 19, 2026, shows tech and semiconductor stocks rebounding while financial, payments, beverage and energy shares lag.
-
-- **[Why Intel stock just got a big upgrade](https://finnhub.io/api/news?id=8726f01e78f6b2e969e661d60a63c31218a1f3374f8f51e84c6a8c7118fb4606)**  
+- **[Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=26a51fb6e21c2d5b2b0627b55b2c1993b3071882e3470a4099fceb9d1cfe6c59)**  
 *Yahoo · 1h前*  
-Intel catches some love.
+A number of stocks jumped in the morning session after investors cautiously returned to beaten-down stocks following the previous week's technology retreat, hel…
 
-- **[AI Stocks Bounce Back but It’s Nothing to Celebrate](https://finnhub.io/api/news?id=1e4b1f07be51ae765777d7982c3089d435bb7ea5cfe8dffb816138865be6859a)**  
+- **[FormFactor, Teradyne, Entegris, Kulicke and Soffa, and Seagate Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=4464fc708eb1e906f4a60f16724ad358b064c041cc885327a0294888f8ffd8d4)**  
 *Yahoo · 1h前*  
-The tech gloom has lifted and the market is staging a comeback on the anniversary of the 1987 Black Monday stock market crash.
+A number of stocks jumped in the morning session after investors cautiously returned to beaten-down stocks following the previous week's technology retreat, hel…
+
+- **[Why Western Digital (WDC) Stock Is Up Today](https://finnhub.io/api/news?id=a7653aec6d259cd6117f607d06b75ad1418d00ed6b51495f3141e8e6d808896c)**  
+*Yahoo · 1h前*  
+Shares of leading data storage manufacturer Western Digital (NASDAQ: WDC) jumped 4.8% in the morning session after investors cautiously returned to beaten-down …
 
 ---
 
@@ -48,7 +48,7 @@ The tech gloom has lifted and the market is staging a comeback on the anniversar
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-19 | 監控 | $89.85 | — | 自動更新 |
+| 2026-10-20 | 監控 | $92.03 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The tech gloom has lifted and the market is staging a comeback on the anniversar
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 07:05 HKT*
