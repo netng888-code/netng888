@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Stock Erases $57 Billion in Value as Headwinds Mount](https://finnhub.io/api/news?id=f7225c92f71674fd5592873573bca43991740db5687aa01f9b98e15fb3a90b4c)**  
-*Benzinga · 1d前*  
-Rocket Lab stock broke below a key support level and fell to its lowest point since December 9 after it delayed its Neutron product.
+- **[Objections to ICE and OKX’s Tokenized Stock Venue Climb to Nine as Broadcom, Verizon Opt Out](https://finnhub.io/api/news?id=bca012de5ecd32d01dc42e0fdcd54b83444df57889c4ed6d608df881eb680bf5)**  
+*Yahoo · 2h前*  
+The ICE and OKX joint venture’s Oct. 15 notice to the public shows the roster of companies refusing tokenized trading on its pools is rising quickly.
 
-- **[Rocket Lab's Neutron Delay Leaves Wall Street Bullish But Raises the Stakes for 2027](https://finnhub.io/api/news?id=ce3b4b4d51005eadd32c386526cf35a49f99bbe6caa7af709c25cd9ff9a7d1c2)**  
-*Yahoo · 1d前*  
-Rocket Lab shares fell nearly 7% after the company delayed Neutron rocket's debut to 2027, breaking key technical support as analysts trimmed price targets but …
+- **[RKLB Stock Suffers Worst Week Ever: AST SpaceMobile Partner Challenges Iridium Deal — Claims Rival Uses FCC To Block Competitors](https://finnhub.io/api/news?id=df47c8deddd3371f4dbaa79fc9b18e10893fc85113c15a4777b5c85aa95db539)**  
+*Yahoo · 7h前*  
+Ligado accused Iridium of using regulatory filings to obstruct competitors, including its SkyTerra Next service with AST SpaceMobile.
 
-- **[Jim Cramer says it's a 'great opportunity to sell' RKLB stock](https://finnhub.io/api/news?id=4a5f7f3d9e6ce419dd161bb69478c4a41c1c44e7d6ef398b28e363aff7f137ec)**  
-*Yahoo · 1d前*  
-Rocket Lab disclosed that inspections revealed a flaw that requires a full redesign and process change.
+- **[AAPL, TSLA, NFLX, GME, RKLB: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week](https://finnhub.io/api/news?id=033f4af5f4f91b753316232bf70e79ea449c1cd8db506f803ae8705ec9c6f0fa)**  
+*Yahoo · 10h前*  
+Developments across technology, entertainment, retail investing, and the commercial space industry drew interest last week.
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab disclosed that inspections revealed a flaw that requires a full redes
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
