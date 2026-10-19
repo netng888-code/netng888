@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$27.97** |
-| 今日變動 | ▼ $2.04　(-6.80%) |
+| 現價 | **$27.24** |
+| 今日變動 | ▼ $0.73　(-2.61%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▼ $84　(▼6.9%) |
+| 未實現盈虧 | ▼ $113　(▼9.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $36.63 | — |
-| Put Wall（支撐） | $25.00 | -10.6% |
-| Call Wall（阻力） | $40.00 | +43.0% |
+| Gamma Flip | $35.77 | — |
+| Put Wall（支撐） | $25.00 | -8.2% |
+| Call Wall（阻力） | $40.00 | +46.8% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -34,20 +34,13 @@
 *Yahoo · 2d前*  
 Investors holding NuScale Power (SMR) stock have faced a punishing year. While the broader S&P 500 returned 17.9%, the shares lost 86.6%. That decline is firmly…
 
-- **[Constellation Energy And 2 Nuclear Stocks To Watch](https://finnhub.io/api/news?id=dc0b31ef09e0cb0374db70eacef6ec1d176caf1481e063326439e36690f3bd57)**  
-*Yahoo · 2d前*  
-Oil back above US$100 and renewed attacks on energy infrastructure keep reminding markets how fragile fuel supplies can be. That spotlight on energy security is…
-
-- **[Research Frontiers shares are trading higher after the company reported a year-over-year increase in Q3 sales results.](https://finnhub.io/api/news?id=d964c763d7c6487cdfb247f741aa98e76aac77ecdccd7875354627fbbfc074a0)**  
-*Benzinga · 2d前*
-
 ---
 
 ## 📝 操作記錄
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-19 | 監控 | $27.97 | — | 自動更新 |
+| 2026-10-20 | 監控 | $27.24 | — | 自動更新 |
 
 ---
 
@@ -58,4 +51,4 @@ Oil back above US$100 and renewed attacks on energy infrastructure keep remindin
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 07:04 HKT*
