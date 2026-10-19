@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intel (INTC) Lands A Major Customer For Its 14A Foundry Process](https://finnhub.io/api/news?id=bf38862e3ff00e62c969aa6be700ecb30acee5237891c13ab3b2baeec2ca5ea9)**  
-*Yahoo · 7h前*  
-Intel (NasdaqGS: INTC) said Tesla has agreed to use its upcoming 14A manufacturing process as a foundry customer. The chipmaker reported progress on output from…
+- **[S&P 500 Premarket Movers: Gainers and Losers on Oct. 19, 2026](https://finnhub.io/api/news?id=0c9d1cca5c75581761f42ca2abf92c95b06d611e34185f4fde9cdead51cd00c2)**  
+*ChartMill · 0h前*  
+S&P 500 premarket trading on Oct. 19, 2026, shows tech and semiconductor stocks rebounding while financial, payments, beverage and energy shares lag.
 
-- **[Jim Cramer On Micron (MU) & Intel (INTC): Nothing Is Working Despite Good Businesses & Strong Quarters](https://finnhub.io/api/news?id=88136d4215634bd483ccf099695ebbd38de8fd8c117fd71b25c4a7dd9b84a634)**  
-*Yahoo · 1d前*  
-Semiconductor giants Intel Corporation (NASDAQ:INTC) and Micron Technology, Inc. (NASDAQ:MU)’s shares have ended the week as part of yet another historic bloodb…
+- **[Why Intel stock just got a big upgrade](https://finnhub.io/api/news?id=8726f01e78f6b2e969e661d60a63c31218a1f3374f8f51e84c6a8c7118fb4606)**  
+*Yahoo · 1h前*  
+Intel catches some love.
 
-- **[Intel Stock Fell Nearly 6% as TSMC Took Aim at Its Packaging Business. Here’s What It Means for Intel’s Margins](https://finnhub.io/api/news?id=ca2bf16f5b630348dcff0278e595af4431925ee990afbac5440c39d89b96268b)**  
-*Yahoo · 1d前*  
-Key Stats for Intel StockCurrent Price: $89. 85Target Price (Mid): ~$390Street Target: ~$118Potential Total Return: ~336%Annualized IRR: ~42% / yearWhat Happene…
+- **[AI Stocks Bounce Back but It’s Nothing to Celebrate](https://finnhub.io/api/news?id=1e4b1f07be51ae765777d7982c3089d435bb7ea5cfe8dffb816138865be6859a)**  
+*Yahoo · 1h前*  
+The tech gloom has lifted and the market is staging a comeback on the anniversary of the 1987 Black Monday stock market crash.
 
 ---
 
@@ -59,4 +59,4 @@ Key Stats for Intel StockCurrent Price: $89. 85Target Price (Mid): ~$390Street T
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:05 HKT*
