@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Should You Sell Your NuScale Power Stock Now?](https://finnhub.io/api/news?id=3e2de53449c3695f4ad9a2d1399cf150699e5d15f8742a8e31878c6837654e87)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Investors holding NuScale Power (SMR) stock have faced a punishing year. While the broader S&P 500 returned 17.9%, the shares lost 86.6%. That decline is firmly…
 
 - **[Constellation Energy And 2 Nuclear Stocks To Watch](https://finnhub.io/api/news?id=dc0b31ef09e0cb0374db70eacef6ec1d176caf1481e063326439e36690f3bd57)**  
@@ -58,4 +58,4 @@ Oil back above US$100 and renewed attacks on energy infrastructure keep remindin
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
