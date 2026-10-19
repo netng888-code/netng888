@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,7 +30,13 @@
 
 ## 📰 最新新聞
 
-- 暫無新聞
+- **[Centrus Energy Is Down 58% Even Though Sales Rose](https://finnhub.io/api/news?id=4402f8b7742d0865442bdc35b67f7658740f4999b641703e668597a6fc02c16f)**  
+*Yahoo · 1d前*  
+If you had only skimmed headlines about Centrus Energy winning a US$900 million Department of Energy HALEU contract and securing a place in the S&P SmallCap 600…
+
+- **[Is Centrus Energy Stock a Millionaire Maker?](https://finnhub.io/api/news?id=54dfb9c245b4f34c3e9efc8067980032174f9a4e0c9daa0be00527da5d1087b3)**  
+*Yahoo · 1d前*  
+The nuclear fuel producer faces many near-term challenges.
 
 ---
 
@@ -49,4 +55,4 @@
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
