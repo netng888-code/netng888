@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-19 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$426.70** |
-| 今日變動 | ▼ $1.16　(-0.27%) |
+| 現價 | **$433.18** |
+| 今日變動 | ▲ $6.48　(+1.52%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $53　(▼5.8%) |
+| 未實現盈虧 | ▼ $40　(▼4.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $404.66 | — |
-| Put Wall（支撐） | $350.00 | -18.0% |
-| Call Wall（阻力） | $500.00 | +17.2% |
+| Gamma Flip | $404.00 | — |
+| Put Wall（支撐） | $350.00 | -19.2% |
+| Call Wall（阻力） | $500.00 | +15.4% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Zacks Investment Ideas feature highlights: Intuitive Surgical](https://finnhub.io/api/news?id=68c9321c0027ea4ceddf4569dd92eef5969ebf0757baddb131e653b18db46ae1)**  
-*Yahoo · 4h前*  
-Intuitive Surgical has rebounded from recent lows, with double-digit sales growth projected and potential 43% upside as its robotic surgery business expands.
-
-- **[Intuitive Surgical Earnings: What To Look For From ISRG](https://finnhub.io/api/news?id=a14703401b8c841024958b2e7c0ae42360175dc567c76473a8868605fc607639)**  
+- **[3 Wall Street Analysts See Intuitive Surgical Hitting $500. Here's the Bull Case.](https://finnhub.io/api/news?id=6fc1de7203db33a2382cf4d66bd9c541645c0bb4b1b60dee288f463e9e04e5c0)**  
 *Yahoo · 9h前*  
-Medical technology company Intuitive Surgical (NASDAQ:ISRG) will be announcing earnings results this Tuesday after market hours. Here’s what investors should kn…
+Robotic surgery is growing, procedures are climbing, and da Vinci 5 is rolling out. Is Intuitive Surgical's premium valuation worth paying?
 
-- **[Intuitive Surgical (ISRG) Stock Is Down 25% Year to Date. History Says Patient Investors Get Rewarded.](https://finnhub.io/api/news?id=13b7fc1a129237e6bd7974e8106c69b79d2eb7408bda7a8d371aec27bb065fce)**  
-*Yahoo · 1d前*  
-I'm a shareholder, myself, with no plans to sell.
+- **[Stryker Enters Soft-Tissue Robotics With $400 Million CMR Deal](https://finnhub.io/api/news?id=f4eaaedff97b4972d50dc0563b022d88089a838a0b6e9ab48df93d50dbe497ea)**  
+*Yahoo · 9h前*  
+SYK's $400 million investment in CMR Surgical marks its entry into soft-tissue robotics, expanding its surgical portfolio with Versius technology.
+
+- **[Zacks Investment Ideas feature highlights: Intuitive Surgical](https://finnhub.io/api/news?id=68c9321c0027ea4ceddf4569dd92eef5969ebf0757baddb131e653b18db46ae1)**  
+*Yahoo · 14h前*  
+Intuitive Surgical has rebounded from recent lows, with double-digit sales growth projected and potential 43% upside as its robotic surgery business expands.
 
 ---
 
@@ -48,7 +48,7 @@ I'm a shareholder, myself, with no plans to sell.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-19 | 監控 | $426.70 | — | 自動更新 |
+| 2026-10-20 | 監控 | $433.18 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ I'm a shareholder, myself, with no plans to sell.
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 07:05 HKT*
