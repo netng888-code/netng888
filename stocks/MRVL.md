@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Do the 8% of Analysts Who Will Not Buy Marvell (MRVL) See?](https://finnhub.io/api/news?id=83662333237c2ace79511a546d211c6d513cffbe19f11b9eb023f1330c034ae4)**  
-*Yahoo · 8h前*  
-Marvell Technology, Inc. (NASDAQ:MRVL) closed at $241.24 on October 15. The stock has returned 80.88% over the last six months, compared to a 15.4% return for t…
+- **[S&P 500 Premarket Movers: Gainers and Losers on Oct. 19, 2026](https://finnhub.io/api/news?id=0c9d1cca5c75581761f42ca2abf92c95b06d611e34185f4fde9cdead51cd00c2)**  
+*ChartMill · 0h前*  
+S&P 500 premarket trading on Oct. 19, 2026, shows tech and semiconductor stocks rebounding while financial, payments, beverage and energy shares lag.
 
-- **[Top Wall Street analysts are bullish on the growth potential of these 3 stocks](https://finnhub.io/api/news?id=1f05a314e8c24c956f20b643bd4454b08b6fe66f623d412b14715e8cccd372b6)**  
-*CNBC · 14h前*  
-Amid fear of rate hikes and oil prices, investors can look past volatility and track Street analysts' stock picks with strong long-term growth potential.
+- **[Marvel Biosciences Advances MB-204 Toward First-in Human Testing, Selects CMAX as Phase I Clinical Trial Site](https://finnhub.io/api/news?id=daa108d3a0f2d5d5689464c3bbbd4c8abc091d454102402cadfe4492db681b44)**  
+*Yahoo · 2h前*  
+CALGARY, Alberta , Oct. 19, 2026 (GLOBE NEWSWIRE) -- Marvel Biosciences Corp. (TSXV: MRVL | OTCQB: MBCOF), and its wholly-owned subsidiary, Marvel Biotechnology…
 
-- **[Martin Shkreli Says New Photonic Chips Could Run Circles Around Nvidia](https://finnhub.io/api/news?id=a55799b189b2362335d693078d3d43619116969e9f33037b07b968c3592f7c9e)**  
-*Yahoo · 1d前*  
-Martin Shkreli just named three private startups he believes could threaten Nvidia's dominance in AI chips, and his reasoning involves a technology that compute…
+- **[CoreWeave, Sandisk, Marvell, Tesla, SpaceX, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=3e9584c229e7864639f8b2be8f60867f83d7d791979b398c2605e7999304e6ab)**  
+*Yahoo · 2h前*  
+AI stocks including Intel, Sandisk, and CoreWeave all rise, while shares of oil majors dip amid a retreat in crude prices.
 
 ---
 
@@ -59,4 +59,4 @@ Martin Shkreli just named three private startups he believes could threaten Nvid
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
