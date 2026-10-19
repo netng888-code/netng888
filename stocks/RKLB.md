@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$50.84** |
-| 今日變動 | ▼ $4.41　(-7.98%) |
+| 現價 | **$51.36** |
+| 今日變動 | ▲ $0.52　(+1.02%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $252　(▼33.1%) |
+| 未實現盈虧 | ▼ $246　(▼32.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $67.51 | — |
-| Put Wall（支撐） | $50.00 | -1.7% |
-| Call Wall（阻力） | $85.00 | +67.2% |
+| Gamma Flip | $66.41 | — |
+| Put Wall（支撐） | $50.00 | -2.6% |
+| Call Wall（阻力） | $55.00 | +7.1% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Objections to ICE and OKX’s Tokenized Stock Venue Climb to Nine as Broadcom, Verizon Opt Out](https://finnhub.io/api/news?id=bca012de5ecd32d01dc42e0fdcd54b83444df57889c4ed6d608df881eb680bf5)**  
-*Yahoo · 2h前*  
-The ICE and OKX joint venture’s Oct. 15 notice to the public shows the roster of companies refusing tokenized trading on its pools is rising quickly.
+- **[Last Week’s Stock Market Losers Are Bouncing Back—With CoreWeave an Exception](https://finnhub.io/api/news?id=cb343bb4acc78e015a46a79c04f2b857622281a31dbf44e4c03596104a0de0fa)**  
+*Yahoo · 3h前*  
+Sandisk and Lumentum recover some ground Monday, while CoreWeave falls despite a Goldman Sachs upgrade as AI financing concerns linger.
 
-- **[RKLB Stock Suffers Worst Week Ever: AST SpaceMobile Partner Challenges Iridium Deal — Claims Rival Uses FCC To Block Competitors](https://finnhub.io/api/news?id=df47c8deddd3371f4dbaa79fc9b18e10893fc85113c15a4777b5c85aa95db539)**  
-*Yahoo · 7h前*  
-Ligado accused Iridium of using regulatory filings to obstruct competitors, including its SkyTerra Next service with AST SpaceMobile.
+- **[Companies object to tokenized listings on OKX-ICE platform](https://finnhub.io/api/news?id=1fadcc65cffb60276d17ee821d38e56f29d490f1ae2d51475fa46665722b8ae4)**  
+*Yahoo · 4h前*  
+Scott Melker discusses how companies like Broadcom (AVGO) and Verizon (VZ) are objecting to being traded on the tokenized OKX-ICE index. "The Daily Wolf with Sc…
 
-- **[AAPL, TSLA, NFLX, GME, RKLB: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week](https://finnhub.io/api/news?id=033f4af5f4f91b753316232bf70e79ea449c1cd8db506f803ae8705ec9c6f0fa)**  
-*Yahoo · 10h前*  
-Developments across technology, entertainment, retail investing, and the commercial space industry drew interest last week.
+- **[Why Some of America’s Biggest Companies Are Objecting to Tokenized Shares](https://finnhub.io/api/news?id=6b696838ce199f88a1f3bdc8550aedad41ae9110c59d1cfc5aa9169fc5568371)**  
+*Yahoo · 4h前*  
+Nine companies, including Verizon, Broadcom and UnitedHealth, have objected to having their shares traded on the planned OKX-ICE tokenized stock venue.
 
 ---
 
@@ -48,7 +48,7 @@ Developments across technology, entertainment, retail investing, and the commerc
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-19 | 監控 | $50.84 | — | 自動更新 |
+| 2026-10-20 | 監控 | $51.36 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Developments across technology, entertainment, retail investing, and the commerc
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-19 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 07:05 HKT*
