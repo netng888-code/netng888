@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,12 @@
 
 ## 📰 最新新聞
 
+- **[Up-Link Summit Co-Founder Walter Charnizon on SpaceTech Growth, Investment and Innovation](https://finnhub.io/api/news?id=eac0710ed162cf753cedbcf52d8dec9ed8c3a82226b315b27c28ed3daa4657ca)**  
+*Yahoo · 22h前*  
+How is the space economy evolving from scientific exploration into a rapidly growing commercial industry? In this NYSE Live interview, Walter Charnizon, Co-Foun…
+
 - **[Stalker Drone Contract Could Change The Case For Redwire Stock](https://finnhub.io/api/news?id=fbde22393767dfa05fefebc9d48da85f00987acb332546ef8c00044899366a37)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 Redwire Corporation reported in October 2026 that it will deliver its Stalker Group 2 Uncrewed Aircraft Systems to support the U.S. National Guard Bureau’s trai…
 
 ---
@@ -51,4 +55,4 @@ Redwire Corporation reported in October 2026 that it will deliver its Stalker Gr
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
