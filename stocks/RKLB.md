@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-20 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $66.41 | — |
-| Put Wall（支撐） | $50.00 | -2.6% |
+| Put Wall（支撐） | $45.00 | -12.4% |
 | Call Wall（阻力） | $55.00 | +7.1% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Last Week’s Stock Market Losers Are Bouncing Back—With CoreWeave an Exception](https://finnhub.io/api/news?id=cb343bb4acc78e015a46a79c04f2b857622281a31dbf44e4c03596104a0de0fa)**  
-*Yahoo · 3h前*  
-Sandisk and Lumentum recover some ground Monday, while CoreWeave falls despite a Goldman Sachs upgrade as AI financing concerns linger.
+- **[Why Rocket Lab's Recent Fall Is Overblown](https://finnhub.io/api/news?id=8b743850388b26b9311c189baa4efa54cf7da93558bbf2e119b62c0712828347)**  
+*Yahoo · 1h前*  
+The space company delayed its Neutron rocket launch until 2027.
 
-- **[Companies object to tokenized listings on OKX-ICE platform](https://finnhub.io/api/news?id=1fadcc65cffb60276d17ee821d38e56f29d490f1ae2d51475fa46665722b8ae4)**  
-*Yahoo · 4h前*  
-Scott Melker discusses how companies like Broadcom (AVGO) and Verizon (VZ) are objecting to being traded on the tokenized OKX-ICE index. "The Daily Wolf with Sc…
+- **[Iridium Announces Third Quarter 2026 Results](https://finnhub.io/api/news?id=3f9b312ab8ceb363a54248bbdaf99a89df98ac876b8507d8621b78104c188191)**  
+*Yahoo · 2h前*  
+Iridium Communications Inc. (Nasdaq: IRDM) ("Iridium" or the "Company"), a leading provider of global voice, data, aircraft surveillance, and positioning, navig…
 
-- **[Why Some of America’s Biggest Companies Are Objecting to Tokenized Shares](https://finnhub.io/api/news?id=6b696838ce199f88a1f3bdc8550aedad41ae9110c59d1cfc5aa9169fc5568371)**  
-*Yahoo · 4h前*  
-Nine companies, including Verizon, Broadcom and UnitedHealth, have objected to having their shares traded on the planned OKX-ICE tokenized stock venue.
+- **[1 of Wall Street’s Favorite Stocks Worth Your Attention and 2 We Question](https://finnhub.io/api/news?id=5c19a427b1cd4355fc5d0e093e62741a06f1136d67f426c2cde7246b5d0c082a)**  
+*Yahoo · 2h前*  
+Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it’s important to remain skeptical …
 
 ---
 
@@ -59,4 +59,4 @@ Nine companies, including Verizon, Broadcom and UnitedHealth, have objected to h
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
