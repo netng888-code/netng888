@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-20 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=26a51fb6e21c2d5b2b0627b55b2c1993b3071882e3470a4099fceb9d1cfe6c59)**  
-*Yahoo · 1h前*  
-A number of stocks jumped in the morning session after investors cautiously returned to beaten-down stocks following the previous week's technology retreat, hel…
+- **[Stock Market Today: Amazon and Chipmakers Lift the Nasdaq as the 10-Year Yield Climbs Above 5.1%](https://finnhub.io/api/news?id=b966dbb00d17593a80a8ddd13fa3680f2ec768cf6308e000361ddb3bdc0b8fc4)**  
+*ChartMill · 1h前*  
+The Nasdaq won back part of last week’s losses as chip stocks rebounded and Amazon jumped 5% on a Morgan Stanley top pick. Meanwhile, the 10-year yield rose to …
 
-- **[FormFactor, Teradyne, Entegris, Kulicke and Soffa, and Seagate Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=4464fc708eb1e906f4a60f16724ad358b064c041cc885327a0294888f8ffd8d4)**  
-*Yahoo · 1h前*  
-A number of stocks jumped in the morning session after investors cautiously returned to beaten-down stocks following the previous week's technology retreat, hel…
+- **[Industrial Semiconductors - Global Strategic Business Report 2026 | Secure Share of the US$156.1 Billion 2032 Market as Infineon, Intel, STMicroelectronics, NXP, and Texas Instruments Lead](https://finnhub.io/api/news?id=ddd06b07b3aca572d83581e023722de47e18eb9f6a7aec2763791f4e2229d534)**  
+*Yahoo · 2h前*  
+Target automation, IoT, energy-efficient power electronics and resilient supply chains to unlock revenue across smart manufacturing and harsh-environment applic…
 
-- **[Why Western Digital (WDC) Stock Is Up Today](https://finnhub.io/api/news?id=a7653aec6d259cd6117f607d06b75ad1418d00ed6b51495f3141e8e6d808896c)**  
-*Yahoo · 1h前*  
-Shares of leading data storage manufacturer Western Digital (NASDAQ: WDC) jumped 4.8% in the morning session after investors cautiously returned to beaten-down …
+- **[Extreme Ultraviolet Lithography (EUVL) - Global Strategic Business Report: As Conventional Lithography Reaches its Limits, EUV heads for a $34.1bn Market](https://finnhub.io/api/news?id=24634557357f1d0ae3004a13cb653fa12556edbaf533d2feb195200f1c427f3d)**  
+*Yahoo · 4h前*  
+Latest Report values extreme ultraviolet lithography at $15.4bn in 2025, with light sources reaching $15.7bn by 2032 as AI, data centres and government chip inv…
 
 ---
 
@@ -59,4 +59,4 @@ Shares of leading data storage manufacturer Western Digital (NASDAQ: WDC) jumped
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
