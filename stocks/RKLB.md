@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$51.36** |
-| 今日變動 | ▲ $0.52　(+1.02%) |
+| 現價 | **$50.90** |
+| 今日變動 | ▼ $0.46　(-0.90%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $246　(▼32.4%) |
+| 未實現盈虧 | ▼ $251　(▼33.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $66.41 | — |
-| Put Wall（支撐） | $45.00 | -12.4% |
-| Call Wall（阻力） | $55.00 | +7.1% |
+| Gamma Flip | $64.57 | — |
+| Put Wall（支撐） | $50.00 | -1.8% |
+| Call Wall（阻力） | $55.00 | +8.1% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Rocket Lab's Recent Fall Is Overblown](https://finnhub.io/api/news?id=8b743850388b26b9311c189baa4efa54cf7da93558bbf2e119b62c0712828347)**  
+- **[Stock Market Today, Oct. 20: SpaceX Stock Gains After Market Close on Q3 Earnings Report](https://finnhub.io/api/news?id=a531e10d29cc433c8a8cbbb4984ea6390d2f06727546d4ef01c0373867f35f33)**  
 *Yahoo · 1h前*  
-The space company delayed its Neutron rocket launch until 2027.
+Today, Oct. 20, 2026, options traders priced in an 8% post-earnings swing as investors focus on launch cadence and government demand.
 
-- **[Iridium Announces Third Quarter 2026 Results](https://finnhub.io/api/news?id=3f9b312ab8ceb363a54248bbdaf99a89df98ac876b8507d8621b78104c188191)**  
+- **[Rocket Lab Announces Date of Third Quarter 2026 Financial Results](https://finnhub.io/api/news?id=38f268db8980a74c5d4c93c68a440c70be03b0cd9d5b9d1bdd9048e485b06280)**  
 *Yahoo · 2h前*  
-Iridium Communications Inc. (Nasdaq: IRDM) ("Iridium" or the "Company"), a leading provider of global voice, data, aircraft surveillance, and positioning, navig…
+LONG BEACH, Calif., Oct. 20, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in launch services and space systems, today announc…
 
-- **[1 of Wall Street’s Favorite Stocks Worth Your Attention and 2 We Question](https://finnhub.io/api/news?id=5c19a427b1cd4355fc5d0e093e62741a06f1136d67f426c2cde7246b5d0c082a)**  
+- **[Microsoft, Alphabet, Goldman Sachs Join Growing List of Companies Objecting to Tokenized Stocks](https://finnhub.io/api/news?id=ff421581c018f3402bb5ad1299329d569d3dd4c647b80838d83c89620729be28)**  
 *Yahoo · 2h前*  
-Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it’s important to remain skeptical …
+Sixteen companies have now objected to having their shares traded on the planned OKX-ICE tokenized stock venue, up from nine just four days earlier, according t…
 
 ---
 
@@ -48,7 +48,7 @@ Wall Street has set ambitious price targets for the stocks in this article. Whil
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-20 | 監控 | $51.36 | — | 自動更新 |
+| 2026-10-21 | 監控 | $50.90 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street has set ambitious price targets for the stocks in this article. Whil
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
