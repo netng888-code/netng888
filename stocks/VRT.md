@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-20 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Morgan Stanley’s favorite AI stock is 92% exposed to the $1.6 trillion build-out it’s bullish on](https://finnhub.io/api/news?id=d27b5b736dc8bcdccd3acb1b216792153a2bba70bd019db1b06f8c2ceddfc221)**  
-*Yahoo · 4h前*  
-The bank calls Nvidia the best risk/reward in AI. Its own report lays out what happens to suppliers when a capital cycle turns.
+- **[Bitzero Taps Top General Contractor Skanska for the Delivery of its Flagship Data Center in Norway](https://finnhub.io/api/news?id=0cb94e7db59ef85786d9524f2ddb38b21e44fab49e6bf4e2943922c953745492)**  
+*Yahoo · 2h前*  
+Agreement adds institutional-caliber construction expertise and supports delivery planning as Bitzero advances its site toward tenant readinessVancouver, Britis…
 
-- **[Where Will Vertiv Stock Be in 1 Year?](https://finnhub.io/api/news?id=98b26193ea3693ccac8d7387ce196d9b2b973cc9712f3c2ac7e8f2c8b5ae6a25)**  
+- **[If I Could Only Buy One Sector Right Now, It Wouldn't Be Tech](https://finnhub.io/api/news?id=58373275e3d7aa7b0494cc4bccd61823aa1a6050a037e05b78161efb6132137f)**  
+*SeekingAlpha · 5h前*  
+Industrials benefit from hard-asset TOLL advantages, AI exposure without pure-play risk, and ignored cyclical tailwinds. Read more on industrial stocks here.
+
+- **[Vertiv Lost 13% in a Week. Morgan Stanley Sees 60% Upside From Here](https://finnhub.io/api/news?id=683370ce9a74a120b54c8543adafefc65b141286872ebc2f0dfcaf729ee2ffce)**  
 *Yahoo · 5h前*  
-The provider of data center cooling and power supply systems has a bright future.
-
-- **[What Could Vertiv Stock Be Worth In Three Years?](https://finnhub.io/api/news?id=a64c0bf5ec311d652a647e458573f59f437856c2193b36b2cbd16e095f4a7706)**  
-*Yahoo · 6h前*  
-Vertiv (VRT) sells power and cooling equipment to data centers. The stock has dropped 29.2% since July 20—compounding losses for investors who bought near the M…
+Key TakeawaysVertiv shares fell nearly 14% in the past week (through Monday’s close), and Bloom Energy fell about as much, while the S&P 500 lost 1. 5%.
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv (VRT) sells power and cooling equipment to data centers. The stock has dr
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
