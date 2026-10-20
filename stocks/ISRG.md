@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-20 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Stocks Mostly Down Pre-Bell as Earnings Take Center Stage](https://finnhub.io/api/news?id=374f2a930003269475bd56610671bcec4ebb00007e191180f5892552c8764d6b)**  
+*Yahoo · 1h前*  
+US equity futures were mostly pointing lower on Tuesday as investors await a fresh round of corporat
+
+- **[Learn Why The Bull Case For Intuitive Surgical Stock Could Change Following Earnings Report](https://finnhub.io/api/news?id=6aafb86e1c9708a8e634ec2d94381e8f0c369391edad3c4f567301657e5896b2)**  
+*Yahoo · 6h前*  
+Intuitive Surgical is set to report earnings after market close, with the market expecting 15.6% year on year revenue growth compared with 22.9% in the same qua…
+
 - **[3 Wall Street Analysts See Intuitive Surgical Hitting $500. Here's the Bull Case.](https://finnhub.io/api/news?id=6fc1de7203db33a2382cf4d66bd9c541645c0bb4b1b60dee288f463e9e04e5c0)**  
-*Yahoo · 9h前*  
+*Yahoo · 23h前*  
 Robotic surgery is growing, procedures are climbing, and da Vinci 5 is rolling out. Is Intuitive Surgical's premium valuation worth paying?
-
-- **[Stryker Enters Soft-Tissue Robotics With $400 Million CMR Deal](https://finnhub.io/api/news?id=f4eaaedff97b4972d50dc0563b022d88089a838a0b6e9ab48df93d50dbe497ea)**  
-*Yahoo · 9h前*  
-SYK's $400 million investment in CMR Surgical marks its entry into soft-tissue robotics, expanding its surgical portfolio with Versius technology.
-
-- **[Zacks Investment Ideas feature highlights: Intuitive Surgical](https://finnhub.io/api/news?id=68c9321c0027ea4ceddf4569dd92eef5969ebf0757baddb131e653b18db46ae1)**  
-*Yahoo · 14h前*  
-Intuitive Surgical has rebounded from recent lows, with double-digit sales growth projected and potential 43% upside as its robotic surgery business expands.
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical has rebounded from recent lows, with double-digit sales growt
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
