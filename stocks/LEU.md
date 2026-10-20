@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$110.12** |
-| 今日變動 | ▼ $4.82　(-4.19%) |
+| 現價 | **$109.88** |
+| 今日變動 | ▼ $0.24　(-0.22%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $699　(▼44.2%) |
+| 未實現盈虧 | ▼ $701　(▼44.4%) |
 
 ---
 
@@ -20,15 +20,19 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $160.79 | — |
-| Put Wall（支撐） | $100.00 | -9.2% |
-| Call Wall（阻力） | $150.00 | +36.2% |
+| Gamma Flip | $158.53 | — |
+| Put Wall（支撐） | $100.00 | -9.0% |
+| Call Wall（阻力） | $150.00 | +36.5% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
+
+- **[Needham Maintains Buy on Centrus Energy, Lowers Price Target to $206](https://finnhub.io/api/news?id=290146567854da3ad4f70210f0bf81f4f2b9bee24f8aeb48100ad502730728e6)**  
+*Benzinga · 15h前*  
+Needham  analyst Sean Milligan   maintains Centrus Energy (NYSE:LEU) with a Buy and lowers the price target from $262 to $206.
 
 - **[Centrus Energy Acquires Westerman Holdings for $116 Million to Expand Manufacturing Capacity](https://finnhub.io/api/news?id=5a55793831ff0c23edead0af754fb5a986c8cd19c1f631a6b376d5099b71fff8)**  
 *Yahoo · 1d前*  
@@ -38,17 +42,13 @@ Centrus Energy Corp. (NYSE:LEU) announced the acquisition of Westerman Holdings 
 *Yahoo · 1d前*  
 Small-cap stocks in the Russell 2000 (^RUT) can be a goldmine for investors looking beyond the usual large-cap names. But with less stability and fewer resource…
 
-- **[Centrus Acquires Westerman Holdings, LLC, Bringing a Key Supplier In-House and Diversifying Its Manufacturing Capacity](https://finnhub.io/api/news?id=ee58ed83a9184e0b6b25bec6e57cc4d852a4f7a3cac608764d53f6c79152ba73)**  
-*Yahoo · 1d前*  
-Centrus Energy Corp. (NYSE: LEU) ("Centrus"), a trusted supplier of nuclear fuel and services, today announced that it has acquired Westerman Holdings, LLC ("We…
-
 ---
 
 ## 📝 操作記錄
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-20 | 監控 | $110.12 | — | 自動更新 |
+| 2026-10-21 | 監控 | $109.88 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Centrus Energy Corp. (NYSE: LEU) ("Centrus"), a trusted supplier of nuclear fuel
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
