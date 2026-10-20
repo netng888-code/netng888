@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-10-20 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[WGMI's Pivot: From Bitcoin Miner To AI Power Play (Upgrade)](https://finnhub.io/api/news?id=474b7ba458680480ebd920a2ebe01da858c5dc84a1ee1ed0006d0660258865de)**  
-*SeekingAlpha · 19h前*  
+*SeekingAlpha · 1d前*  
 WGMI ETF now includes AI infrastructure and digital power, lowering bitcoin correlation.
 
 - **[Cipher Digital: After The 70% Wipeout](https://finnhub.io/api/news?id=73954330692150a017f7646ed93a6d9ff2b472abd920e8f6a6856689db2c6847)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 Cipher Digital trades near 8x the projected 2027 NOI, but execution and financing risks limit current upside asymmetry. Click to read more about CIFR.
 
 - **[What Changed For Cipher Digital Stock, And What Did Not?](https://finnhub.io/api/news?id=2e9f4e7e4beddfcd0d80119b6fb0e6e42384814b4515e400502eb88dc40744c0)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 Shares of Cipher Digital (CIFR) fell 26.4% in the five trading days from October 8 to October 15, 2026. The S&P 500 slipped 0.25% over the same period. The stoc…
 
 ---
@@ -59,4 +59,4 @@ Shares of Cipher Digital (CIFR) fell 26.4% in the five trading days from October
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
