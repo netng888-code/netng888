@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=26a51fb6e21c2d5b2b0627b55b2c1993b3071882e3470a4099fceb9d1cfe6c59)**  
-*Yahoo · 1h前*  
-A number of stocks jumped in the morning session after investors cautiously returned to beaten-down stocks following the previous week's technology retreat, hel…
+- **[Micron Stock Falls Amid Three Warning Signals](https://finnhub.io/api/news?id=4f3d3c086a6b9938922fa96649f76e3204f01b9d890535beaee32f622c65b4e9)**  
+*Yahoo · 2h前*  
+Chip stocks have come under intense pressure with valuations that had been stretched by an AI-fueled rally.
 
-- **[What Just Happened To Marvell Stock?](https://finnhub.io/api/news?id=f6b17263c2c2e4315ce60178c169671be83f8394d388727646b1e11f979ed042)**  
+- **[Is Marvell Technology a Millionaire-Maker Stock?](https://finnhub.io/api/news?id=211972ce97348b8cad5fd276e261fa56b7986b96df5d54f56757c4377944aec6)**  
 *Yahoo · 4h前*  
-Shares of Marvell Technology (MRVL) fell 17.2% over the five trading days from October 9 to October 16, 2026. The broader market saw far less movement during th…
+While Nvidia and Broadcom are grabbing more headlines, Marvell Technology is quietly beating both of them.
 
-- **[Stock Market Today: Dow Firm, Nasdaq Rallies; Amazon Surges As These Stocks Test Entries (Live Coverage)](https://finnhub.io/api/news?id=ecbe5b52205b499c0f97c0666490e6bce8801c6978d22197090dc906176ea7f6)**  
-*Yahoo · 5h前*  
-The Dow Jones index is steady as techs jump on stock market today. Amazon and Nvidia climb while a biotech stock tests a buy point.
+- **[Marvell Stock Is Still 17% Below Its Investor Day Close. Here’s What the AI Funding Scare Means for 2031](https://finnhub.io/api/news?id=cd42d10496cf241d9fa51cfcab1c0b632a51b21388c7b5b0f22d67d188d6fcc0)**  
+*Yahoo · 9h前*  
+Key Stats for Marvell StockCurrent Price: $237. 09Target Price (Mid): ~$1,710Street Target: ~$339Potential Total Return: ~620%Annualized IRR: ~59% / yearWhat Ha…
 
 ---
 
@@ -59,4 +59,4 @@ The Dow Jones index is steady as techs jump on stock market today. Amazon and Nv
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:03 HKT*
