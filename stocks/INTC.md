@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$92.03** |
-| 今日變動 | ▲ $2.18　(+2.43%) |
+| 現價 | **$91.69** |
+| 今日變動 | ▼ $0.34　(-0.37%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $150　(▼14.0%) |
+| 未實現盈虧 | ▼ $153　(▼14.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $97.51 | — |
-| Put Wall（支撐） | $90.00 | -2.2% |
-| Call Wall（阻力） | $100.00 | +8.7% |
+| Gamma Flip | $96.47 | — |
+| Put Wall（支撐） | $90.00 | -1.8% |
+| Call Wall（阻力） | $100.00 | +9.1% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today: Amazon and Chipmakers Lift the Nasdaq as the 10-Year Yield Climbs Above 5.1%](https://finnhub.io/api/news?id=b966dbb00d17593a80a8ddd13fa3680f2ec768cf6308e000361ddb3bdc0b8fc4)**  
-*ChartMill · 1h前*  
-The Nasdaq won back part of last week’s losses as chip stocks rebounded and Amazon jumped 5% on a Morgan Stanley top pick. Meanwhile, the 10-year yield rose to …
+- **[Major gold holder backs NVIDIA challenger](https://finnhub.io/api/news?id=051c6dd9f8f62ceba74591218953033eb7b944ec3cc7cbeac9777e83d0458be7)**  
+*Yahoo · 1h前*  
+The funding gives another boost to an up-and-coming AI chipmaker.
 
-- **[Industrial Semiconductors - Global Strategic Business Report 2026 | Secure Share of the US$156.1 Billion 2032 Market as Infineon, Intel, STMicroelectronics, NXP, and Texas Instruments Lead](https://finnhub.io/api/news?id=ddd06b07b3aca572d83581e023722de47e18eb9f6a7aec2763791f4e2229d534)**  
-*Yahoo · 2h前*  
-Target automation, IoT, energy-efficient power electronics and resilient supply chains to unlock revenue across smart manufacturing and harsh-environment applic…
+- **[Most Active S&P 500 Stocks in Today's Session](https://finnhub.io/api/news?id=7a8988392bd2d135c2ac2c92d98b1a5b3a99249e4b33855c229ecd63766a3596)**  
+*ChartMill · 4h前*  
+Intel leads today's most-active S&P 500 scan by volume as price moves are mixed and most names trade below their 50-day average volume.
 
-- **[Extreme Ultraviolet Lithography (EUVL) - Global Strategic Business Report: As Conventional Lithography Reaches its Limits, EUV heads for a $34.1bn Market](https://finnhub.io/api/news?id=24634557357f1d0ae3004a13cb653fa12556edbaf533d2feb195200f1c427f3d)**  
-*Yahoo · 4h前*  
-Latest Report values extreme ultraviolet lithography at $15.4bn in 2025, with light sources reaching $15.7bn by 2032 as AI, data centres and government chip inv…
+- **[Silicom: Attractively Poised Ahead Of Q3 Earnings](https://finnhub.io/api/news?id=7dca0e61e970312cbc17f0b43b65d6949cf812fea39cc9616ad1e607aaa3e7eb)**  
+*SeekingAlpha · 5h前*  
+SILC Q3 earnings preview (Oct 29): +66% sales growth, AI inference upside, inventory/FCF risks & valuation at 2.1â2.5x sales.
 
 ---
 
@@ -48,7 +48,7 @@ Latest Report values extreme ultraviolet lithography at $15.4bn in 2025, with li
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-20 | 監控 | $92.03 | — | 自動更新 |
+| 2026-10-21 | 監控 | $91.69 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Latest Report values extreme ultraviolet lithography at $15.4bn in 2025, with li
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
