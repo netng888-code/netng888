@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,16 +31,16 @@
 ## 📰 最新新聞
 
 - **[FormFactor, Teradyne, Entegris, Kulicke and Soffa, and Seagate Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=4464fc708eb1e906f4a60f16724ad358b064c041cc885327a0294888f8ffd8d4)**  
-*Yahoo · 1h前*  
+*Yahoo · 15h前*  
 A number of stocks jumped in the morning session after investors cautiously returned to beaten-down stocks following the previous week's technology retreat, hel…
 
-- **[S&P 500 Premarket Movers: Gainers and Losers on Oct. 19, 2026](https://finnhub.io/api/news?id=0c9d1cca5c75581761f42ca2abf92c95b06d611e34185f4fde9cdead51cd00c2)**  
-*ChartMill · 10h前*  
-S&P 500 premarket trading on Oct. 19, 2026, shows tech and semiconductor stocks rebounding while financial, payments, beverage and energy shares lag.
+- **[S&P 500 Top Movers: Gainers and Losers in Today's Session](https://finnhub.io/api/news?id=3362613351db4d6a74448bb963f75ec36210e4268fca8dcaeb4513a8fdfebbae)**  
+*ChartMill · 20h前*  
+S&P 500 top movers for today's session: SNDK, MRVL and DDOG led gainers, while NRG, MOS and AMP led losers.
 
-- **[Applied Materials Cratered 20% Since July: Multiple Wall Street Firms Predict It’s Going to More Than Double From Here](https://finnhub.io/api/news?id=0d45f0502e7885a4923cbfc1f33746accdfb7bcf4f02d5931b61327ba1c5b02a)**  
-*Yahoo · 11h前*  
-Applied Materials just suffered one of its steepest drops in years, yet analysts keep raising their earnings estimates and some price targets sit nearly double …
+- **[S&P 500 Premarket Movers: Gainers and Losers on Oct. 19, 2026](https://finnhub.io/api/news?id=0c9d1cca5c75581761f42ca2abf92c95b06d611e34185f4fde9cdead51cd00c2)**  
+*ChartMill · 1d前*  
+S&P 500 premarket trading on Oct. 19, 2026, shows tech and semiconductor stocks rebounding while financial, payments, beverage and energy shares lag.
 
 ---
 
@@ -59,4 +59,4 @@ Applied Materials just suffered one of its steepest drops in years, yet analysts
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
