@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $338.15 | — |
+| Gamma Flip | $335.32 | — |
 | Put Wall（支撐） | $340.00 | -1.2% |
 | Call Wall（阻力） | $350.00 | +1.7% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Update: Tech-Heavy Nasdaq Leads Wall Street's Relief Rally Ahead of Key Earnings](https://finnhub.io/api/news?id=a139c8e472ae6059b9be8564cf6efbe69069460e8698377098c7300a062d83a7)**  
-*Yahoo · 2h前*  
-(Updates with market moves at the end of the day, and other changes, if any.) The Nasdaq Composit
+- **[AI Stocks: SpaceX 2027 Data Center Expansion Could Be Game Changer](https://finnhub.io/api/news?id=bbe06dee58a45482ef5d945b898222dee6e50e9522dec14574d42d8f56090684)**  
+*Yahoo · 1h前*  
+AI stocks face an earnings test, with SpaceX and Meta due, as investors question massive spending and look for return on investments.
 
-- **[Alphabet (GOOGL) Pushes Into Carbon Removal Power Markets And Quantum AI](https://finnhub.io/api/news?id=a1acc452505d211b7347123461ac729ef4cf2bbf0fa8605b9bed30db56ce503c)**  
-*Yahoo · 2h前*  
-Alphabet (NasdaqGS:GOOGL) announced new carbon-removal commitments with McKinsey, expanding its climate-focused initiatives beyond internal operations. Google l…
+- **[Anthropic sets aside 5% stake for public benefit fund ahead of November IPO](https://finnhub.io/api/news?id=9b6e65b920b2b71484f31dcd664fdb3225b678bd0a5cc3472e9c48de9a2c5d2e)**  
+*Yahoo · 1h前*  
+Before a single public share trades, Anthropic is already giving a slice of itself away, and the structure means the better the stock performs, the more new sha…
 
-- **[Anthropic IPO, MANGOS ETFs and the Future of the AI Trade](https://finnhub.io/api/news?id=d5f7d0acebde1c89a965d70facc1819c8bb35e8c329c5df40d267d2c491cb5ad)**  
-*Yahoo · 3h前*  
-What should investors know about the Anthropic IPO and ETFs investing in private AI companies?
+- **[Elon Musk And Alphabet Have $979 Billion Riding On The Same Stock](https://finnhub.io/api/news?id=5b38c088b8220c458d85c44f310930505c3cc168de54f0f4d9f73cf1d41ad030)**  
+*Yahoo · 1h前*  
+Elon Musk and Google's parent Alphabet may compete vigorously in some businesses — but there's one stock they both agree on.
 
 ---
 
@@ -59,4 +59,4 @@ What should investors know about the Anthropic IPO and ETFs investing in private
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:03 HKT*
