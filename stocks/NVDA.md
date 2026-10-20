@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $211.93 | — |
+| Gamma Flip | $210.40 | — |
 | Put Wall（支撐） | $200.00 | -7.9% |
 | Call Wall（阻力） | $220.00 | +1.3% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Pfizer's Stock Is Finally Showing Signs of Life. Could This Be the Start of a Much Bigger Rally?](https://finnhub.io/api/news?id=77759d1ec4bc5a7bdfa717de130bd443250a2d353c6e10c8bec9c6ce8ff292d2)**  
+- **[llm-d 1.0 Advances Open, Cost-Efficient AI Inference for Production Scale](https://finnhub.io/api/news?id=299d7f6a2630a33c9e97ede89fecd6d6beb61b1b3c341bed4de45fe488d71cc8)**  
 *Yahoo · 1h前*  
-The stock has outperformed the market this year, and it still looks heavily undervalued.
+Today, llm-d project contributors announced the release of llm-d 1.0, a major milestone for the open source project designed to help organizations deploy and sc…
 
-- **[Where Will VTI Be in 20 Years? Here's What History Suggests](https://finnhub.io/api/news?id=43d9eb7fc6a53496074d521aa474f67828c84250ab6d1af4e30d014450c0bcc2)**  
+- **[Wall Street Gave Micron Back Its $1 Trillion Crown Just One Session Later](https://finnhub.io/api/news?id=7c7386fd9b59eb3861fcdc59afffa1d330696e0ded83b36fe8521919bb133477)**  
 *Yahoo · 1h前*  
-The Vanguard Morningstar Total Stock Market ETF delivered a steady 9.44% annualized return over the past 25 years.
+Micron crossed back into trillion-dollar territory without a single announcement or earnings update, leaving investors to figure out whether the violent swing b…
 
-- **[Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck](https://finnhub.io/api/news?id=0e89d884f4dae74cae42a9e4c1ebd99c70ba069b9909f908a2dbd34d54a36a5a)**  
-*Yahoo · 1h前*  
-Dow Jones Futures: AMD and Nvidia led the AI trade higher Monday following Friday's big losses. Meta, Netflix, SpaceX and Tesla have earnings due.
+- **[Stock Market Today: Amazon and Chipmakers Lift the Nasdaq as the 10-Year Yield Climbs Above 5.1%](https://finnhub.io/api/news?id=b966dbb00d17593a80a8ddd13fa3680f2ec768cf6308e000361ddb3bdc0b8fc4)**  
+*ChartMill · 1h前*  
+The Nasdaq won back part of last week’s losses as chip stocks rebounded and Amazon jumped 5% on a Morgan Stanley top pick. Meanwhile, the 10-year yield rose to …
 
 ---
 
@@ -59,4 +59,4 @@ Dow Jones Futures: AMD and Nvidia led the AI trade higher Monday following Frida
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:03 HKT*
