@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$705.44** |
-| 今日變動 | ▼ $3.88　(-0.55%) |
+| 現價 | **$694.25** |
+| 今日變動 | ▼ $11.19　(-1.59%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $297　(▲16.3%) |
+| 未實現盈虧 | ▲ $264　(▲14.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $623.67 | — |
-| Put Wall（支撐） | $680.00 | -3.6% |
-| Call Wall（阻力） | $750.00 | +6.3% |
+| Gamma Flip | $626.09 | — |
+| Put Wall（支撐） | $650.00 | -6.4% |
+| Call Wall（阻力） | $750.00 | +8.0% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Stocks: SpaceX 2027 Data Center Expansion Could Be Game Changer](https://finnhub.io/api/news?id=bbe06dee58a45482ef5d945b898222dee6e50e9522dec14574d42d8f56090684)**  
+- **[Dow Jones Futures Rise As SpaceX Crushes Views, Eyes Tesla Merger; Meta Looms](https://finnhub.io/api/news?id=514e5ced8a575e9d239671a711d97708460e8f3944db5d2aee88c6e36b85e8c6)**  
 *Yahoo · 1h前*  
-AI stocks face an earnings test, with SpaceX and Meta due, as investors question massive spending and look for return on investments.
+The Dow and S&P 500 reclaimed their 50-day line. SpaceX crushed earnings views and is mulling a Tesla merger. Meta looms.
 
-- **[AI Trade Rotation Favors Mag 7 Over Neoclouds, Analysts Say Ahead Of SPCX, META, NFLX Results](https://finnhub.io/api/news?id=a9c432a14fd5de41ca29a7b37c903dacc74b3bb95e9eb1ffaf7372df4913e101)**  
-*Yahoo · 1h前*  
-In a CNBC interview, analysts said funding concerns are pushing investors to favor cash-rich technology companies over debt-dependent AI infrastructure business…
+- **[Meta vs. Alphabet: Meta Is Better Built for AGI](https://finnhub.io/api/news?id=f1c4aa67a58085ff0a6e9fd3d57419722e104fba0ba45ff92d4680b35c0a366e)**  
+*Yahoo · 2h前*  
+People open social apps to keep up with friends and enjoy content, which is not something they’ll hand off to AI agents. That gives Meta's ad revenue firmer pro…
 
-- **[Stock market today: Dow, S&P 500, Nasdaq futures mixed as AI trade rebound stalls](https://finnhub.io/api/news?id=a6531a5ab384c4d4c9e505325988f285d22776bbea43c8b03a73ad0b2a689f6e)**  
-*Yahoo · 1h前*  
-The S&P 500 and Nasdaq pointed lower as the AI trade rebound stalled.
+- **[Why Anthropic's $80.7B in net losses shouldn't worry IPO investors](https://finnhub.io/api/news?id=4d7f4ba6d5cfe7dd62ac6dfece4279f8d55268315415ac33eb55598d47c7a3de)**  
+*Yahoo · 2h前*  
+B. Riley Wealth Chief Market Strategist Art Hogan joins Market Domination Overtime host Brooke DiPalma to discuss Anthropic's (ANTH.PVT) reported IPO draft disc…
 
 ---
 
@@ -48,7 +48,7 @@ The S&P 500 and Nasdaq pointed lower as the AI trade rebound stalled.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-20 | 監控 | $705.44 | — | 自動更新 |
+| 2026-10-21 | 監控 | $694.25 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The S&P 500 and Nasdaq pointed lower as the AI trade rebound stalled.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
