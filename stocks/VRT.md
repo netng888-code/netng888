@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$206.08** |
-| 今日變動 | ▼ $0.34　(-0.16%) |
+| 現價 | **$203.56** |
+| 今日變動 | ▼ $2.52　(-1.22%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $195　(▼32.2%) |
+| 未實現盈虧 | ▼ $200　(▼33.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $243.40 | — |
-| Put Wall（支撐） | $185.00 | -10.2% |
-| Call Wall（阻力） | $230.00 | +11.6% |
+| Gamma Flip | $241.21 | — |
+| Put Wall（支撐） | $185.00 | -9.1% |
+| Call Wall（阻力） | $230.00 | +13.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Bitzero Taps Top General Contractor Skanska for the Delivery of its Flagship Data Center in Norway](https://finnhub.io/api/news?id=0cb94e7db59ef85786d9524f2ddb38b21e44fab49e6bf4e2943922c953745492)**  
+- **[Vertiv Holdings Co. (VRT) Stock Sinks As Market Gains: What You Should Know](https://finnhub.io/api/news?id=a64f00fa6735b88d29debef7c244d6c4bc7132406c1ea7e9c6f3b4357185b76b)**  
 *Yahoo · 2h前*  
+Vertiv Holdings Co. (VRT) concluded the recent trading session at $203.56, signifying a -1.22% move from its prior day's close.
+
+- **[Can EPC Power Acquisition Boost Flex's AI Infrastructure Growth?](https://finnhub.io/api/news?id=6d9c6ee62f18450d554d64cf63afb745b41f12b9f4fe72ad8e73da90ff0f71ec)**  
+*Yahoo · 9h前*  
+FLEX's buyout of EPC Power strengthens its AI data center infrastructure portfolio, boosting power capabilities ahead of the planned CPI separation in 2027.
+
+- **[Bitzero Taps Top General Contractor Skanska for the Delivery of its Flagship Data Center in Norway](https://finnhub.io/api/news?id=0cb94e7db59ef85786d9524f2ddb38b21e44fab49e6bf4e2943922c953745492)**  
+*Yahoo · 12h前*  
 Agreement adds institutional-caliber construction expertise and supports delivery planning as Bitzero advances its site toward tenant readinessVancouver, Britis…
-
-- **[If I Could Only Buy One Sector Right Now, It Wouldn't Be Tech](https://finnhub.io/api/news?id=58373275e3d7aa7b0494cc4bccd61823aa1a6050a037e05b78161efb6132137f)**  
-*SeekingAlpha · 5h前*  
-Industrials benefit from hard-asset TOLL advantages, AI exposure without pure-play risk, and ignored cyclical tailwinds. Read more on industrial stocks here.
-
-- **[Vertiv Lost 13% in a Week. Morgan Stanley Sees 60% Upside From Here](https://finnhub.io/api/news?id=683370ce9a74a120b54c8543adafefc65b141286872ebc2f0dfcaf729ee2ffce)**  
-*Yahoo · 5h前*  
-Key TakeawaysVertiv shares fell nearly 14% in the past week (through Monday’s close), and Bloom Energy fell about as much, while the S&P 500 lost 1. 5%.
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysVertiv shares fell nearly 14% in the past week (through Monday’s 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-20 | 監控 | $206.08 | — | 自動更新 |
+| 2026-10-21 | 監控 | $203.56 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysVertiv shares fell nearly 14% in the past week (through Monday’s 
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
