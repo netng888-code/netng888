@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $624.29 | — |
-| Put Wall（支撐） | $700.00 | -0.8% |
+| Gamma Flip | $623.67 | — |
+| Put Wall（支撐） | $680.00 | -3.6% |
 | Call Wall（阻力） | $750.00 | +6.3% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck](https://finnhub.io/api/news?id=0e89d884f4dae74cae42a9e4c1ebd99c70ba069b9909f908a2dbd34d54a36a5a)**  
+- **[AI Stocks: SpaceX 2027 Data Center Expansion Could Be Game Changer](https://finnhub.io/api/news?id=bbe06dee58a45482ef5d945b898222dee6e50e9522dec14574d42d8f56090684)**  
 *Yahoo · 1h前*  
-Dow Jones Futures: AMD and Nvidia led the AI trade higher Monday following Friday's big losses. Meta, Netflix, SpaceX and Tesla have earnings due.
+AI stocks face an earnings test, with SpaceX and Meta due, as investors question massive spending and look for return on investments.
 
-- **[Shots Fired: Meta Is Developers on Outside AI Tools “in Half”. That’s a Big Problem for Anthropic](https://finnhub.io/api/news?id=467fb18747d8d43365f7254bf730d1cf8b988c145ff08eb8372d047493e288d5)**  
-*Yahoo · 2h前*  
-Key TakeawaysMeta has reportedly cut the number of employees using Anthropic’s Claude Code in half, from about 60,000 earlier this year to about 30,000, and is …
+- **[AI Trade Rotation Favors Mag 7 Over Neoclouds, Analysts Say Ahead Of SPCX, META, NFLX Results](https://finnhub.io/api/news?id=a9c432a14fd5de41ca29a7b37c903dacc74b3bb95e9eb1ffaf7372df4913e101)**  
+*Yahoo · 1h前*  
+In a CNBC interview, analysts said funding concerns are pushing investors to favor cash-rich technology companies over debt-dependent AI infrastructure business…
 
-- **[Update: Tech-Heavy Nasdaq Leads Wall Street's Relief Rally Ahead of Key Earnings](https://finnhub.io/api/news?id=a139c8e472ae6059b9be8564cf6efbe69069460e8698377098c7300a062d83a7)**  
-*Yahoo · 2h前*  
-(Updates with market moves at the end of the day, and other changes, if any.) The Nasdaq Composit
+- **[Stock market today: Dow, S&P 500, Nasdaq futures mixed as AI trade rebound stalls](https://finnhub.io/api/news?id=a6531a5ab384c4d4c9e505325988f285d22776bbea43c8b03a73ad0b2a689f6e)**  
+*Yahoo · 1h前*  
+The S&P 500 and Nasdaq pointed lower as the AI trade rebound stalled.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysMeta has reportedly cut the number of employees using Anthropic’s
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-20 21:04 HKT*
