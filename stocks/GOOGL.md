@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$340.27** |
-| 今日變動 | ▼ $3.90　(-1.13%) |
+| 現價 | **$334.76** |
+| 今日變動 | ▼ $5.51　(-1.62%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $1,905　(▲38.9%) |
+| 未實現盈虧 | ▲ $1,794　(▲36.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $335.28 | — |
-| Put Wall（支撐） | $330.00 | -3.0% |
-| Call Wall（阻力） | $350.00 | +2.9% |
+| Gamma Flip | $337.08 | — |
+| Put Wall（支撐） | $330.00 | -1.4% |
+| Call Wall（阻力） | $350.00 | +4.6% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nuclear needs ‘humility’: Kairos Power CTO on Hermes 2, safety, costs and scaling](https://finnhub.io/api/news?id=78899feb526a3c5610310a82bb740ae9f7c0051918400274527daad5ed566932)**  
+- **[Prediction: This Artificial Intelligence (AI) Stock Will Be the Biggest Winner of 2027](https://finnhub.io/api/news?id=72d5327b3d54600f1d9ec7f0b61b3d43362c51c0fdecdadb39568820c9455550)**  
 *Yahoo · 1h前*  
-Kairos Power has broken ground on its Hermes 2 demonstration plant. CTO and co-founder Edward Blanford discusses key learnings and what it will take to deliver …
+Alphabet has the potential to be the best-performing AI mega-cap in 2027.
 
-- **[If Alphabet Does This on Oct. 28, the Stock Could Skyrocket](https://finnhub.io/api/news?id=ce761aefc96281d456d017fee6c23ae3b6d5bf66a0ef2e876b43106807c32e0f)**  
-*Yahoo · 1h前*  
-Google Cloud will be the focus for many investors.
+- **[Why Meta didn't offer 2027 revenue guidance: Q3 earnings takeaways](https://finnhub.io/api/news?id=ca88020fef488eacece103c3012651aef4ccfc774f800df4015354b83bb15ae2)**  
+*Yahoo · 2h前*  
+Meta's (META) third quarter earnings results were posted on Wednesday, beating Wall Street's estimates. Revenue came in at $64.6 billion, topping Wall Street's …
 
-- **[DeepSeek's Latest Update Scores Lower on Accounting Work as Open Models Trail on Consistency, DualEntry Benchmark Finds.](https://finnhub.io/api/news?id=5a36509b51f915ba7ea918764eea48a37dfab112c883b93559a47924e9235052)**  
-*Yahoo · 1h前*  
-NEW YORK, October 21, 2026--DeepSeek's V4.1 Flash 1017 got 82.2% of tasks right on the DualEntry Accounting AI Benchmark, down from 84.2% for the earlier DeepSe…
+- **[Kazakhstan’s AIFC Regulator Turns to Apple and Google to Enforce Coinbase, HTX Injunctions](https://finnhub.io/api/news?id=0537f70210129aee0bbb1e00c5dc17da8c4b3f81a75e14c6007f42e0ce6c56a8)**  
+*Yahoo · 2h前*  
+After a court declined to order Apple and Google directly, the regulator of Astana's financial center says it will serve them the injunctions it won against Coi…
 
 ---
 
@@ -48,7 +48,7 @@ NEW YORK, October 21, 2026--DeepSeek's V4.1 Flash 1017 got 82.2% of tasks right 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-21 | 監控 | $340.27 | — | 自動更新 |
+| 2026-10-22 | 監控 | $334.76 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ NEW YORK, October 21, 2026--DeepSeek's V4.1 Flash 1017 got 82.2% of tasks right 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 07:03 HKT*
