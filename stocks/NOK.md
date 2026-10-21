@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[European Equities Traded in the US as American Depositary Receipts Decline in Monday Trading](https://finnhub.io/api/news?id=cb86bc745a06b6c6eb6d567f594a5a142f5ac7d4233b70874015c7d2a430eba6)**  
-*Yahoo · 1d前*  
-European equities traded in the US as American depositary receipts opened the week lower late Monday
+- **[Supermicro Brings NVIDIA Aerial RAN Computer Solutions to the Network Edge with Nokia to Enable Low-latency AI Services](https://finnhub.io/api/news?id=7bb14150e6b7fede459086e3d2980fa3879df4d941527f971876ddd718a48f7c)**  
+*Yahoo · 1h前*  
+Super Micro Computer, Inc. (NASDAQ: SMCI), an AI, Enterprise, Storage, and 5G/Edge Total IT Solution Provider featuring Data Center Building Block Solutions® (D…
 
-- **[Can Ericsson's Latest 6G Milestone Strengthen Its Growth Outlook?](https://finnhub.io/api/news?id=0e9e649e7c86814948ca48740c5c05017e7c75d48547b7cf559dd00faa83bbec)**  
-*Yahoo · 1d前*  
-ERIC's first pre-standard 6G field call with Verizon in the 7 GHz band advances real-world testing as the company navigates uneven telecom spending and competit…
+- **[Nokia advances AI-RAN toward commercial deployment and physical AI, launches sovereign agentic AI platform for telco autonomy with NVIDIA](https://finnhub.io/api/news?id=558dcae02a6ce5d2743fee32732fd3a01889b733437af1c2a0ed2a420c6c52f5)**  
+*Yahoo · 1h前*  
+Press Release Nokia advances AI-RAN toward commercial deployment and physical AI, launches sovereign agentic AI platform for telco autonomy with NVIDIA New capa…
 
-- **[Global Network Repeaters Market Size, Share, Trends, and Forecast, 2026-2033 | 5G Rollout and Wireless Dead Zones Drive Demand for Network Repeaters](https://finnhub.io/api/news?id=cad43b7ffac1d3680fea38a0b99924fff73145eff7c76af77e96e3c4ba1f6a2d)**  
-*Yahoo · 1d前*  
-The global network repeaters market is projected to more than double from $8.15 billion in 2025 to $16.75 billion by 2033, a new Research and Markets report fin…
+- **[Cadence AI Super Agents Enable Nokia to Accelerate Electronic System Design on Millennium M2000 Supercomputer](https://finnhub.io/api/news?id=c20ff9cf8ba2cbb453ae44199aff633e70cb5c00dc1306efb11db3de03fb747b)**  
+*Yahoo · 1h前*  
+SAN JOSE, Calif., October 21, 2026--Cadence (Nasdaq: CDNS) today announced that Nokia is deploying the Cadence® AuraStack™ AI Super Agent on the Cadence Millenn…
 
 ---
 
@@ -59,4 +59,4 @@ The global network repeaters market is projected to more than double from $8.15 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
