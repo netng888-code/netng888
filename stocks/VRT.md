@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Vertiv Holdings Co. (VRT) Stock Sinks As Market Gains: What You Should Know](https://finnhub.io/api/news?id=a64f00fa6735b88d29debef7c244d6c4bc7132406c1ea7e9c6f3b4357185b76b)**  
-*Yahoo · 2h前*  
-Vertiv Holdings Co. (VRT) concluded the recent trading session at $203.56, signifying a -1.22% move from its prior day's close.
+- **[Vertiv Targets Up to 30% More Cumulative AI Token Output in First 12 Months Using NVIDIA DSX, Polar Deploys Approach at Norway Site](https://finnhub.io/api/news?id=9a6e9cb6170016f04219621ac098148d7e5f28f49799d4e4e504a4905ce68432)**  
+*Yahoo · 1h前*  
+At NVIDIA GTC Berlin, Vertiv Holdings Co. (NYSE: VRT) and NVIDIA today introduced an AI factory approach that combines rapid configuration and virtual validatio…
 
-- **[Can EPC Power Acquisition Boost Flex's AI Infrastructure Growth?](https://finnhub.io/api/news?id=6d9c6ee62f18450d554d64cf63afb745b41f12b9f4fe72ad8e73da90ff0f71ec)**  
-*Yahoo · 9h前*  
-FLEX's buyout of EPC Power strengthens its AI data center infrastructure portfolio, boosting power capabilities ahead of the planned CPI separation in 2027.
+- **[NVIDIA Introduces DSX POD AI Factories to Accelerate Europe’s Infrastructure Deployment](https://finnhub.io/api/news?id=8b09c6f5614cb86bd0c4ac9365b692ae8a3807e4985051da31d164660c7a728c)**  
+*Yahoo · 3h前*  
+Factory-Built With a Global Ecosystem Including Bull, Dell Technologies, HPE, Lenovo, Schneider Electric and Vertiv, the New Reference Design Speeds Infrastruct…
 
-- **[Bitzero Taps Top General Contractor Skanska for the Delivery of its Flagship Data Center in Norway](https://finnhub.io/api/news?id=0cb94e7db59ef85786d9524f2ddb38b21e44fab49e6bf4e2943922c953745492)**  
-*Yahoo · 12h前*  
-Agreement adds institutional-caliber construction expertise and supports delivery planning as Bitzero advances its site toward tenant readinessVancouver, Britis…
+- **[The Ithaka Group Q3 2026 Portfolio Review](https://finnhub.io/api/news?id=7ed8143d513c7418fe4ccdd8805188eb848aa008fce727befa4a2db4a3caed9c)**  
+*SeekingAlpha · 8h前*  
+During the quarter The Ithaka Group initiated two new positions, Micron and Sandisk, and eliminated one position, Oracle. Read more here.
 
 ---
 
@@ -59,4 +59,4 @@ Agreement adds institutional-caliber construction expertise and supports deliver
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
