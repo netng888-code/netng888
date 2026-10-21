@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-21 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[If I Could Only Buy 1 Artificial Intelligence (AI) Semiconductor Stock to Buy Before 2027, It Would Be This One](https://finnhub.io/api/news?id=7ae5c92e525f49303fd4ef894bf08a31ed7ca51dd5b8a651eb71ba6ea75d2559)**  
+*Yahoo · 5h前*  
+Marvell's AI-driven growth prospects and forecast of nearly 10x revenue by 2031 make the recent chip-stock sell-off look like a buying opportunity.
+
+- **[Marvell Technology (MRVL) Surpasses Market Returns: Some Facts Worth Knowing](https://finnhub.io/api/news?id=b1be2d6578eeba02b3f1204108ba3a209a34d9b2177596240a7a20e0a0e3a894)**  
+*Yahoo · 16h前*  
+The latest trading day saw Marvell Technology (MRVL) settling at $240.42, representing a +1.4% change from its previous close.
+
 - **[Will AI Data Center Launches Change Marvell Stock Narrative](https://finnhub.io/api/news?id=69e1350d9f3a81af3a2d5abb23f319b9a64a3270732e077930f69915806f99c1)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 In October 2026, Marvell Technology expanded its AI data center portfolio with new CXL memory expanders, 224G copper connectivity parts and cloud security and n…
-
-- **[The AI Trade Is Changing. These Stocks Could Be Next.](https://finnhub.io/api/news?id=0b3e8fa948f5853cf0b95a52e468d0dab2104193cbb72ee72572f05b9a351b27)**  
-*Yahoo · 8h前*  
-GPU stocks dominated the first wave of AI spending, but the money is quietly shifting toward a different set of chipmakers. Three names are positioned right in …
-
-- **[Micron Stock Rises to Defy 3 Warning Signals](https://finnhub.io/api/news?id=bb3cf6052063b1766e62e6dc71bdc1a7f4abadabd25c9864763e1446d279ba5c)**  
-*Yahoo · 8h前*  
-Chip stocks have come under intense pressure with valuations that had been stretched by an AI-fueled rally.
 
 ---
 
@@ -59,4 +59,4 @@ Chip stocks have come under intense pressure with valuations that had been stret
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:03 HKT*
