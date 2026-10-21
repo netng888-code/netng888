@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,9 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Up-Link Summit Co-Founder Walter Charnizon on SpaceTech Growth, Investment and Innovation](https://finnhub.io/api/news?id=eac0710ed162cf753cedbcf52d8dec9ed8c3a82226b315b27c28ed3daa4657ca)**  
-*Yahoo · 1d前*  
-How is the space economy evolving from scientific exploration into a rapidly growing commercial industry? In this NYSE Live interview, Walter Charnizon, Co-Foun…
+- **[Redwire and EnduroSat Sign MOU to Strengthen European Space Infrastructure](https://finnhub.io/api/news?id=f0587782abab480e01a573af07eaf61ea98aabf2ea3227b34762bc5878d54e03)**  
+*Yahoo · 2h前*  
+KRUIBEKE, Belgium, October 21, 2026--Redwire Corporation (NYSE: RDW), a global leader in space and defence technology solutions, and EnduroSat, a space company …
+
+- **[Could Investing $5,000 in Redwire Stock Make You a Millionaire?](https://finnhub.io/api/news?id=cdc5a81b8c2eea2a189d3c9600ee82fa73b954dc6fa3f451e4933182cfcf9e23)**  
+*Yahoo · 14h前*  
+What comes next for this space and defense company?
+
+- **[Chips Bounced, Builders Sank and Crude Sent Mixed Signals Heading Into Tuesday](https://finnhub.io/api/news?id=69e87228364bd3eba76e2311f2fa4701f1ed3c9170e2fc21cbd521288e32649a)**  
+*Yahoo · 23h前*  
+Technology stocks led a partial recovery on Monday after last week's AI-driven selloff. The Nasdaq Composite rose about 1.1%, the S&P 500 gained about 0.4% and …
 
 ---
 
@@ -51,4 +59,4 @@ How is the space economy evolving from scientific exploration into a rapidly gro
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
