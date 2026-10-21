@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Rise As SpaceX Crushes Views, Eyes Tesla Merger; Meta Looms](https://finnhub.io/api/news?id=514e5ced8a575e9d239671a711d97708460e8f3944db5d2aee88c6e36b85e8c6)**  
+- **[Arista Networks Vs. Cisco Systems: Modern AI Data Center Networking vs. Legacy Enterprise Switch Leader](https://finnhub.io/api/news?id=601124bb4e1bc9c5049eed96b5a2eccdbf28b38d20fa6b77ae5d32015b9bd436)**  
 *Yahoo · 1h前*  
-The Dow and S&P 500 reclaimed their 50-day line. SpaceX crushed earnings views and is mulling a Tesla merger. Meta looms.
+Both Arista and Cisco just posted record AI-driven results, yet their stocks sold off hard. One company offers margin-rich focus while the other controls its ow…
 
-- **[Meta vs. Alphabet: Meta Is Better Built for AGI](https://finnhub.io/api/news?id=f1c4aa67a58085ff0a6e9fd3d57419722e104fba0ba45ff92d4680b35c0a366e)**  
-*Yahoo · 2h前*  
-People open social apps to keep up with friends and enjoy content, which is not something they’ll hand off to AI agents. That gives Meta's ad revenue firmer pro…
+- **[SpaceX Earnings Reignite AI Optimism on Wall Street Pre-Bell; Asia Mixed, Europe Up](https://finnhub.io/api/news?id=a2776ed726889deb072869fd7aebfb7a1c7eb87136c97b00a75912ea1333f3f8)**  
+*Yahoo · 1h前*  
+Wall Street futures pointed moderately higher pre-bell Wednesday after the SpaceX (SPCX) rocket and
 
-- **[Why Anthropic's $80.7B in net losses shouldn't worry IPO investors](https://finnhub.io/api/news?id=4d7f4ba6d5cfe7dd62ac6dfece4279f8d55268315415ac33eb55598d47c7a3de)**  
-*Yahoo · 2h前*  
-B. Riley Wealth Chief Market Strategist Art Hogan joins Market Domination Overtime host Brooke DiPalma to discuss Anthropic's (ANTH.PVT) reported IPO draft disc…
+- **[Stocks Rise Pre-Bell as Traders Await Meta, Tesla Earnings](https://finnhub.io/api/news?id=23739d33ff5a05b518c946212e3e306b7ec75f880ccbdfbad7e8445e837da725)**  
+*Yahoo · 1h前*  
+The main US stock measures were moving higher in Wednesday's premarket activity as traders await the
 
 ---
 
@@ -59,4 +59,4 @@ B. Riley Wealth Chief Market Strategist Art Hogan joins Market Domination Overti
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
