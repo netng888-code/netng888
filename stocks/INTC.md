@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Major gold holder backs NVIDIA challenger](https://finnhub.io/api/news?id=051c6dd9f8f62ceba74591218953033eb7b944ec3cc7cbeac9777e83d0458be7)**  
+- **[Anthropic Lost More Money Than All Other Major Companies Combined](https://finnhub.io/api/news?id=1bcb1d4c4c44ec6a4c450ce9b4ee520fb35e4f5e803a46c097be80c408c4608f)**  
 *Yahoo · 1h前*  
-The funding gives another boost to an up-and-coming AI chipmaker.
+Investors are getting a taste of just how much AI companies can lose. And it's an obscene amount.
 
-- **[Most Active S&P 500 Stocks in Today's Session](https://finnhub.io/api/news?id=7a8988392bd2d135c2ac2c92d98b1a5b3a99249e4b33855c229ecd63766a3596)**  
-*ChartMill · 4h前*  
-Intel leads today's most-active S&P 500 scan by volume as price moves are mixed and most names trade below their 50-day average volume.
+- **[Entravision Appoints Brian Krzanich and Gary Ferrera to Board of Directors](https://finnhub.io/api/news?id=d464a195f472795aa250d40cd5384d796cdbf73a4cec445f4f5bb6341d2897a1)**  
+*Yahoo · 3h前*  
+BURBANK, Calif., October 21, 2026--Entravision Communications Corporation (NYSE: EVC) announced that Brian Krzanich and Gary Ferrera have joined its Board of Di…
 
-- **[Silicom: Attractively Poised Ahead Of Q3 Earnings](https://finnhub.io/api/news?id=7dca0e61e970312cbc17f0b43b65d6949cf812fea39cc9616ad1e607aaa3e7eb)**  
-*SeekingAlpha · 5h前*  
-SILC Q3 earnings preview (Oct 29): +66% sales growth, AI inference upside, inventory/FCF risks & valuation at 2.1â2.5x sales.
+- **[North America Semiconductor Silicon Wafer Market - Share, Trends, and Forecasts (2026-2031) | AI Fabs, CHIPS Act Incentives, and 300 mm Wafers Fuel Growth](https://finnhub.io/api/news?id=14a9497736601a5a5a2865fc50e07fb2a2b8f5655fc102010b5d0a336e4ca602)**  
+*Yahoo · 4h前*  
+Wafer makers boost ROI via CHIPS Act incentives, fab co-location, advance-payment contracts, 300 mm migration and portfolio diversification to improve margins a…
 
 ---
 
@@ -59,4 +59,4 @@ SILC Q3 earnings preview (Oct 29): +66% sales growth, AI inference upside, inven
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
