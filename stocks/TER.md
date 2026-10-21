@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$336.59** |
-| 今日變動 | ▲ $1.06　(+0.32%) |
+| 現價 | **$345.49** |
+| 今日變動 | ▲ $8.90　(+2.64%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,223　(▲265.9%) |
+| 未實現盈虧 | ▲ $1,267　(▲275.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $357.94 | — |
-| Put Wall（支撐） | $295.00 | -12.4% |
-| Call Wall（阻力） | $352.50 | +4.7% |
+| Gamma Flip | $352.49 | — |
+| Put Wall（支撐） | $295.00 | -14.6% |
+| Call Wall（阻力） | $352.50 | +2.0% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
+- **[5 Strong Buy Growth Stocks With High Margins to Grab Before Earnings](https://finnhub.io/api/news?id=20e7034c34acac7dc4f09bb5e60ded3c6ef038487ad6564a6f9c131d1a69fbc8)**  
+*Yahoo · 5h前*  
+Five Strong Buy stocks stand out ahead of earnings, combining high operating margins, revenue growth and exposure to AI, healthcare, energy and digital payments…
+
+- **[Teradyne Robotics and Sereact Partner to Scale Physical AI Solutions for Retail and Logistics](https://finnhub.io/api/news?id=f5bcec68f4f640cda99d68ddaa1baeb336af02ccb89cef2b61c8134b2641639b)**  
+*Yahoo · 10h前*  
+BERLIN, October 21, 2026--Sereact and Teradyne Robotics to scale unpredictable, hard-to-automate tasks such as processing fashion item returns. Announcement tod…
+
 - **[Chip Equipment Stocks Face Earnings Test as Strong Fundamentals Meet Weak Momentum](https://finnhub.io/api/news?id=15fd6acc1faf6e64f9a332d67c6c8eb230b5328a9da8ce6103316ce164cfd3b1)**  
-*ChartMill · 0h前*  
+*ChartMill · 10h前*  
 Chip equipment stocks LRCX, KLAC and TER face earnings tests after sharp pullbacks, as strong profits and growth battle weak technical momentum.
-
-- **[FormFactor, Teradyne, Entegris, Kulicke and Soffa, and Seagate Shares Skyrocket, What You Need To Know](https://finnhub.io/api/news?id=4464fc708eb1e906f4a60f16724ad358b064c041cc885327a0294888f8ffd8d4)**  
-*Yahoo · 1d前*  
-A number of stocks jumped in the morning session after investors cautiously returned to beaten-down stocks following the previous week's technology retreat, hel…
-
-- **[S&P 500 Top Movers: Gainers and Losers in Today's Session](https://finnhub.io/api/news?id=3362613351db4d6a74448bb963f75ec36210e4268fca8dcaeb4513a8fdfebbae)**  
-*ChartMill · 1d前*  
-S&P 500 top movers for today's session: SNDK, MRVL and DDOG led gainers, while NRG, MOS and AMP led losers.
 
 ---
 
@@ -48,7 +48,7 @@ S&P 500 top movers for today's session: SNDK, MRVL and DDOG led gainers, while N
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-21 | 監控 | $336.59 | — | 自動更新 |
+| 2026-10-22 | 監控 | $345.49 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ S&P 500 top movers for today's session: SNDK, MRVL and DDOG led gainers, while N
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
