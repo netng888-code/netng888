@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Elite Nuclear Stocks To Own In October 2026](https://finnhub.io/api/news?id=c8c2402d57a74fff0719c5e06f25469d35fb750eca078d74ef5b9638ccb4a618)**  
-*Yahoo · 23h前*  
-Amazon’s decision to fund 12 small nuclear reactors at a former Indiana coal plant turns a long running debate about atomic power into a live commercial test. A…
+- **[BE Stock Leads Energy Rally After SpaceX CEO Elon Musk Says AI’s Real Constraint Is Power And Cooling, Not Chips](https://finnhub.io/api/news?id=b2dae608d19f7468857e723c7cb48b098105a7e402e363e493d2330a93b099f4)**  
+*Yahoo · 11h前*  
+Musk said power, cooling, and electrical equipment infrastructure are “somewhat of a limiting factor” for the AI buildout.
 
-- **[Nuclear Stock X-energy Ends A Losing Streak. Oklo Makes A New Low.](https://finnhub.io/api/news?id=17235f65f32220d0ff6fea632a4b605661e5f5e8b65cddb969fcbc1ee620d97e)**  
-*Yahoo · 1d前*  
-An agreement involving AEP and Amazon could put X-Energy further along the path to profitability.
+- **[This Nuclear Stock Could Be Your Ticket to Millionaire Status -- and It Didn't Even Need to Build a Reactor First](https://finnhub.io/api/news?id=53351a9280ce49ea2ad0eb0ccce048b65ae5060e3f51679734e8aa854d736490)**  
+*Yahoo · 14h前*  
+Looking for a wealth-building opportunity? Power your portfolio with this nuclear fuel specialist.
 
-- **[Piper Sandler Maintains Overweight on Oklo, Lowers Price Target to $49](https://finnhub.io/api/news?id=103532a31d1679f66a1d8b6025457db1813b439ad28bb8c8adf1d09bfc655cbe)**  
-*Benzinga · 1d前*  
-Piper Sandler  analyst Dimple Gosai   maintains Oklo (NYSE:OKLO) with a Overweight and lowers the price target from $55 to $49.
+- **[Oklo and NuScale Sink 15% in a Week: Is the Nuclear Selling Overdone?](https://finnhub.io/api/news?id=23aadcf9ae975cb1bfb8631c674cd5b7b06e46d3c97a9f5536010aeb94290f96)**  
+*Yahoo · 18h前*  
+Key TakeawaysOklo stock fell 15% in the past week (through Monday’s close) to a new 52-week low. NuScale Power fell 15% over the same week.
 
 ---
 
@@ -59,4 +59,4 @@ Piper Sandler  analyst Dimple Gosai   maintains Oklo (NYSE:OKLO) with a Overweig
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
