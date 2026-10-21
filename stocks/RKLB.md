@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today, Oct. 20: SpaceX Stock Gains After Market Close on Q3 Earnings Report](https://finnhub.io/api/news?id=a531e10d29cc433c8a8cbbb4984ea6390d2f06727546d4ef01c0373867f35f33)**  
-*Yahoo · 1h前*  
-Today, Oct. 20, 2026, options traders priced in an 8% post-earnings swing as investors focus on launch cadence and government demand.
-
-- **[Rocket Lab Announces Date of Third Quarter 2026 Financial Results](https://finnhub.io/api/news?id=38f268db8980a74c5d4c93c68a440c70be03b0cd9d5b9d1bdd9048e485b06280)**  
+- **[Rocket Lab Just Had Another Setback. Here’s Why I’m Finally Buying the Stock Anyway](https://finnhub.io/api/news?id=5e81a515fe831c3fa4dd0f816b3843605995fe307c58485bcce986c89bc8a63c)**  
 *Yahoo · 2h前*  
-LONG BEACH, Calif., Oct. 20, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in launch services and space systems, today announc…
+The flagship rocket is late, but the business behind it is moving in the right direction.
 
-- **[Microsoft, Alphabet, Goldman Sachs Join Growing List of Companies Objecting to Tokenized Stocks](https://finnhub.io/api/news?id=ff421581c018f3402bb5ad1299329d569d3dd4c647b80838d83c89620729be28)**  
+- **[Why Is Rocket Lab Stock Rising in Pre-Market Trading?](https://finnhub.io/api/news?id=a7887d5aa433a6fa1af39a356922826b14b46c80fc4c48eabd4b2d044540ae02)**  
 *Yahoo · 2h前*  
-Sixteen companies have now objected to having their shares traded on the planned OKX-ICE tokenized stock venue, up from nine just four days earlier, according t…
+Rocket Lab Corporation (NASDAQ:RKLB) shares advanced 3. 9% to $52.
+
+- **[2 Nasdaq-100 Stocks to Buy Before They Soar 105% and 130%, According to Wall Street](https://finnhub.io/api/news?id=ca69c7559c78cb0e1b6f1e0f6fa85e731e3273e7e65170a2e69e254474c299a5)**  
+*Yahoo · 3h前*  
+Wall Street analysts see substantial upside in CoreWeave and Rocket Lab.
 
 ---
 
@@ -59,4 +59,4 @@ Sixteen companies have now objected to having their shares traded on the planned
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
