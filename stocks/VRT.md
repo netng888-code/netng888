@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$203.56** |
-| 今日變動 | ▼ $2.52　(-1.22%) |
+| 現價 | **$212.15** |
+| 今日變動 | ▲ $8.59　(+4.22%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $200　(▼33.0%) |
+| 未實現盈虧 | ▼ $183　(▼30.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $241.21 | — |
-| Put Wall（支撐） | $185.00 | -9.1% |
-| Call Wall（阻力） | $230.00 | +13.0% |
+| Gamma Flip | $240.57 | — |
+| Put Wall（支撐） | $185.00 | -12.8% |
+| Call Wall（阻力） | $230.00 | +8.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Vertiv Targets Up to 30% More Cumulative AI Token Output in First 12 Months Using NVIDIA DSX, Polar Deploys Approach at Norway Site](https://finnhub.io/api/news?id=9a6e9cb6170016f04219621ac098148d7e5f28f49799d4e4e504a4905ce68432)**  
-*Yahoo · 1h前*  
-At NVIDIA GTC Berlin, Vertiv Holdings Co. (NYSE: VRT) and NVIDIA today introduced an AI factory approach that combines rapid configuration and virtual validatio…
+- **[Vertiv (VRT) stock is up, what you need to know](https://finnhub.io/api/news?id=4d0d96fb831bdc6d099558c63bdeaa810216dbe0e7736dfe88255b4c2094ac0a)**  
+*Yahoo · 2h前*  
+Shares of data center products and services company Vertiv (NYSE:VRT) jumped 4.2% in the afternoon session after the company and NVIDIA launched an artificial i…
 
-- **[NVIDIA Introduces DSX POD AI Factories to Accelerate Europe’s Infrastructure Deployment](https://finnhub.io/api/news?id=8b09c6f5614cb86bd0c4ac9365b692ae8a3807e4985051da31d164660c7a728c)**  
-*Yahoo · 3h前*  
-Factory-Built With a Global Ecosystem Including Bull, Dell Technologies, HPE, Lenovo, Schneider Electric and Vertiv, the New Reference Design Speeds Infrastruct…
+- **[Super Micro Soars 12% as Preliminary Revenue Blows Past Guidance on “Increased Demand for AI Platforms”](https://finnhub.io/api/news?id=aeba9ccc537ee8e2a88a8ca49a10181de4748914ea88bc8154ce36e733df65de)**  
+*Yahoo · 8h前*  
+Key TakeawaysSuper Micro shares jumped 12% today after the company said fiscal first-quarter revenue should come in at $18. 5 billion to $19.
 
-- **[The Ithaka Group Q3 2026 Portfolio Review](https://finnhub.io/api/news?id=7ed8143d513c7418fe4ccdd8805188eb848aa008fce727befa4a2db4a3caed9c)**  
-*SeekingAlpha · 8h前*  
-During the quarter The Ithaka Group initiated two new positions, Micron and Sandisk, and eliminated one position, Oracle. Read more here.
+- **[NVIDIA unveils modular AI factories to cut data centre deployment to 14 days](https://finnhub.io/api/news?id=674a70a617158bc831373dc38e83f3fec9b354516a06db943ad8f1794b6db198)**  
+*Yahoo · 9h前*  
+Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) has unveiled a modular AI factory design that could reduce on-site deployment from 6 months to 14 days, as chief executive …
 
 ---
 
@@ -48,7 +48,7 @@ During the quarter The Ithaka Group initiated two new positions, Micron and Sand
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-21 | 監控 | $203.56 | — | 自動更新 |
+| 2026-10-22 | 監控 | $212.15 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ During the quarter The Ithaka Group initiated two new positions, Micron and Sand
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
