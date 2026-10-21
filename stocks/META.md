@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$694.25** |
-| 今日變動 | ▼ $11.19　(-1.59%) |
+| 現價 | **$697.52** |
+| 今日變動 | ▲ $3.27　(+0.47%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $264　(▲14.5%) |
+| 未實現盈虧 | ▲ $274　(▲15.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $626.09 | — |
-| Put Wall（支撐） | $650.00 | -6.4% |
-| Call Wall（阻力） | $750.00 | +8.0% |
+| Gamma Flip | $630.15 | — |
+| Put Wall（支撐） | $680.00 | -2.5% |
+| Call Wall（阻力） | $750.00 | +7.5% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Arista Networks Vs. Cisco Systems: Modern AI Data Center Networking vs. Legacy Enterprise Switch Leader](https://finnhub.io/api/news?id=601124bb4e1bc9c5049eed96b5a2eccdbf28b38d20fa6b77ae5d32015b9bd436)**  
+- **[Meta Platforms, Inc. Q3 2026 Earnings: Live Updates of $META Earnings Call, Stock Forecast](https://finnhub.io/api/news?id=4d96e59eac0bd5409785a7a619254c817894003de8868e0e9e94a67c9c0ae1b7)**  
 *Yahoo · 1h前*  
-Both Arista and Cisco just posted record AI-driven results, yet their stocks sold off hard. One company offers margin-rich focus while the other controls its ow…
+Investors will focus on Meta’s 2027 capital expenditure (CapEx) guidance, AI monetization and adoption of its Muse AI assistant.
 
-- **[SpaceX Earnings Reignite AI Optimism on Wall Street Pre-Bell; Asia Mixed, Europe Up](https://finnhub.io/api/news?id=a2776ed726889deb072869fd7aebfb7a1c7eb87136c97b00a75912ea1333f3f8)**  
+- **[Dow Jones Futures: Meta, Tesla Are Earnings Movers After SpaceX, Super Micro Lead Bullish Nasdaq Move](https://finnhub.io/api/news?id=d796648a70cd93bb9d69077effdc1e44d2da419c8828b50e49ed45b9488a40d2)**  
 *Yahoo · 1h前*  
-Wall Street futures pointed moderately higher pre-bell Wednesday after the SpaceX (SPCX) rocket and
+The Nasdaq moved above its 50-day line, led by SpaceX and SuperMicro. Tesla and Meta headlined big earnings late.
 
-- **[Stocks Rise Pre-Bell as Traders Await Meta, Tesla Earnings](https://finnhub.io/api/news?id=23739d33ff5a05b518c946212e3e306b7ec75f880ccbdfbad7e8445e837da725)**  
+- **[META Stock Jumps 3% After-Hours After Q3 Revenue Beats Expectations, With A Narrowed AI Capex Outlook And New Non-Voting Class C Stock](https://finnhub.io/api/news?id=7fd9fc050818426fc2656dd07b8e72bd56c66c0618d7d1327983f1a7ef2ceed6)**  
 *Yahoo · 1h前*  
-The main US stock measures were moving higher in Wednesday's premarket activity as traders await the
+"Our AI investments are paying off," CEO Zuckerberg said.
 
 ---
 
@@ -48,7 +48,7 @@ The main US stock measures were moving higher in Wednesday's premarket activity 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-21 | 監控 | $694.25 | — | 自動更新 |
+| 2026-10-22 | 監控 | $697.52 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The main US stock measures were moving higher in Wednesday's premarket activity 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
