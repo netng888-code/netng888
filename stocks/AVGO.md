@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$334.37** |
-| 今日變動 | ▼ $0.22　(-0.07%) |
+| 現價 | **$337.80** |
+| 今日變動 | ▲ $3.43　(+1.03%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $442　(▼11.7%) |
+| 未實現盈虧 | ▼ $408　(▼10.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $349.02 | — |
-| Put Wall（支撐） | $330.00 | -1.3% |
-| Call Wall（阻力） | $350.00 | +4.7% |
+| Gamma Flip | $343.85 | — |
+| Put Wall（支撐） | $330.00 | -2.3% |
+| Call Wall（阻力） | $350.00 | +3.6% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[This Week In AI Chips - Advancing AI Network Management Through Enhanced GigaSMART Technology](https://finnhub.io/api/news?id=cc6089198c834d28c241ed7e69e6a1136396c39960fd1e6fc35dcf37c2e41308)**  
-*Yahoo · 1h前*  
-Gigamon has announced enhancements to its Deep Observability Pipeline, which now features distributed GigaSMART processing capabilities to bolster AI-enabled ne…
+- **[$4,000 in These 4 Non-Nvidia Chip Stocks Could Be Worth This Much by 2030](https://finnhub.io/api/news?id=d0c759bc0b2734f12369419546688171c3fab1c4552fbb7f0ba0210ecd512734)**  
+*Yahoo · 2h前*  
+Investing today in Broadcom, Marvell, AMD, and Arm could produce big returns by 2030.
 
-- **[Top 3 Growth Stocks To Watch In October 2026](https://finnhub.io/api/news?id=bc62bcf883b00e92761fcedd5d9f4de98567200097da58a4871d27493b21bd19)**  
-*Yahoo · 7h前*  
-Artificial intelligence spending is still pulling huge orders through chip supply chains, with Japan’s September export data highlighting strong demand for semi…
+- **[Microsoft and Alphabet opt out of tokenized stocks in latest blow to ambitious plan from OKK and NYSE parent firm](https://finnhub.io/api/news?id=713ef4752a76965c5b1fdf5a33d63d62336e22e1062899b8e5d65030cb6d74a1)**  
+*Yahoo · 5h前*  
+Sixteen companies have opposed plans to trade tokenized versions of their shares on Cuomo-backed platform OKXICE.
 
-- **[Broadcom fought AT&T over VMware: Now a telecom giant is all in](https://finnhub.io/api/news?id=5e3d12ead082ff22f46c14758e72de1796e9ecd69185bbf80464338587ab6dd4)**  
-*Yahoo · 11h前*  
-A 10-year VMware deal won’t move Broadcom’s numbers much, but it hands the company a strong answer to its licensing critics.
+- **[The Cheapest NVIDIA Has Looked All Month: What the Price Target Says](https://finnhub.io/api/news?id=7b73d9ea8d3c7531c399c4ca2de9558dbfa0b53ade2748f795f360a230778882)**  
+*Yahoo · 6h前*  
+A brutal week of selling left NVIDIA at its cheapest valuation in months, but the fundamentals tell a completely different story than the price action suggests.
 
 ---
 
@@ -48,7 +48,7 @@ A 10-year VMware deal won’t move Broadcom’s numbers much, but it hands the c
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-21 | 監控 | $334.37 | — | 自動更新 |
+| 2026-10-22 | 監控 | $337.80 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A 10-year VMware deal won’t move Broadcom’s numbers much, but it hands the c
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
