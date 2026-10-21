@@ -18,7 +18,7 @@
 | PLTR | Palantir | [查看](PLTR.md) |
 | ISRG | 直覺外科公司 | [查看](ISRG.md) |
 | INTC | 英特爾 Intel | [查看](INTC.md) |
-| CIFR | Cipher Digital | [查看](CIFR.md) |
 | RR | Richtech Robotics | [查看](RR.md) |
 | VRT | Vertiv Holdings | [查看](VRT.md) |
+| CIFR | Cipher Digital | [查看](CIFR.md) |
 | SERV | Serve Robotics | [查看](SERV.md) |
