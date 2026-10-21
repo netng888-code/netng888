@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Mural, a startup founded by former Palantir engineers, raises $15 million bid to connect banks to the emerging bot economy](https://finnhub.io/api/news?id=4fb5604d8a4c8dd091a7807985d801111e02d9c53928d999a37003380da3c22f)**  
+- **[Palantir (NASDAQ:PLTR): High Growth Momentum Meets a Breakout Setup](https://finnhub.io/api/news?id=14453b8df51869aa2464a124a5218ab3f758c9bfaf3696a58f3343c621c86b4c)**  
+*ChartMill · 4h前*  
+Palantir (PLTR) pairs strong growth momentum with technical strength and constructive pullback setup, though volatility and slowing momentum pose risks.
+
+- **[Will Federal Cloud Partnership Change Palantir Stock Narrative](https://finnhub.io/api/news?id=6609ad07a119dbe75c27d4276330b3cfc0b4c33d63c0446a3b547d95767df9e0)**  
+*Yahoo · 8h前*  
+In October 2026, Knox Systems announced a partnership with Palantir Technologies to combine Palantir's accredited infrastructure with Knox's fast FedRAMP and IL…
+
+- **[Palantir Technologies (PLTR) Signs Knox Partnership, Is The Stock Fully Priced?](https://finnhub.io/api/news?id=4f4d49c9f26a81da3c76ad11024ad47d7fc60da283b010ce88561eac2f0643e0)**  
 *Yahoo · 9h前*  
-Tether led the round in the New York-based startup, which helps businesses manage payments across currencies and borders.
-
-- **[Palantir: Wall Street Expects Shrinking Margins, I See The Opposite](https://finnhub.io/api/news?id=25dd8e131aad34cc77be28135566b08422b16fe845d55c997f7699a0cd09f2f5)**  
-*SeekingAlpha · 10h前*  
-Palantir could benefit from falling AI compute costs and partner-led deployments. Read what investors should know about the company.
-
-- **[Not Palantir. Not Snowflake. This AI Software Stock Could Be the Biggest Winner of 2027.](https://finnhub.io/api/news?id=c715948989cf4024b71a86181fd43f69852f5e5484b196aed8dd6a5f7a78d176)**  
-*Yahoo · 13h前*  
-You might not think of CrowdStrike as an obvious artificial intelligence play, but the AI tailwinds for cybersecurity are real.
+Palantir Technologies (PLTR) just signed a new partnership with Knox Systems that targets highly secure FedRAMP and IL5 government cloud environments, putting f…
 
 ---
 
@@ -59,4 +59,4 @@ You might not think of CrowdStrike as an obvious artificial intelligence play, b
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
