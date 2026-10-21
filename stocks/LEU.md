@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[This Nuclear Stock Could Be Your Ticket to Millionaire Status -- and It Didn't Even Need to Build a Reactor First](https://finnhub.io/api/news?id=53351a9280ce49ea2ad0eb0ccce048b65ae5060e3f51679734e8aa854d736490)**  
+*Yahoo · 14h前*  
+Looking for a wealth-building opportunity? Power your portfolio with this nuclear fuel specialist.
+
+- **[NuScale Power Sinks 7% to New 52-Week Low as Barclays Cuts to Underweight; Oklo Falls 5%, Centrus Energy Drops 3%](https://finnhub.io/api/news?id=233ca8c69ecdd292d0a233cfef43b1344002efe4c17698f42b5e65d9b8ad712f)**  
+*Yahoo · 1d前*  
+A fresh analyst downgrade is hitting one small modular reactor developer much harder than the rest of the nuclear group. NuScale Power (NYSE:SMR) stock is down …
+
 - **[Needham Maintains Buy on Centrus Energy, Lowers Price Target to $206](https://finnhub.io/api/news?id=290146567854da3ad4f70210f0bf81f4f2b9bee24f8aeb48100ad502730728e6)**  
-*Benzinga · 15h前*  
+*Benzinga · 1d前*  
 Needham  analyst Sean Milligan   maintains Centrus Energy (NYSE:LEU) with a Buy and lowers the price target from $262 to $206.
-
-- **[Centrus Energy Acquires Westerman Holdings for $116 Million to Expand Manufacturing Capacity](https://finnhub.io/api/news?id=5a55793831ff0c23edead0af754fb5a986c8cd19c1f631a6b376d5099b71fff8)**  
-*Yahoo · 1d前*  
-Centrus Energy Corp. (NYSE:LEU) announced the acquisition of Westerman Holdings for approximately $116 million, as the nuclear fuel supplier seeks to expand its…
-
-- **[1 Russell 2000 Stock for Long-Term Investors and 2 We Question](https://finnhub.io/api/news?id=75e760c16e7ef878eca2ed45f282ea6781679b0870bbd7908d30ec0df90f3faf)**  
-*Yahoo · 1d前*  
-Small-cap stocks in the Russell 2000 (^RUT) can be a goldmine for investors looking beyond the usual large-cap names. But with less stability and fewer resource…
 
 ---
 
@@ -59,4 +59,4 @@ Small-cap stocks in the Russell 2000 (^RUT) can be a goldmine for investors look
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
