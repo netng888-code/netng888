@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-21 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $211.03 | — |
 | Put Wall（支撐） | $200.00 | -7.6% |
-| Call Wall（阻力） | $220.00 | +1.6% |
+| Call Wall（阻力） | $230.00 | +6.3% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[SpaceX Crushes Q3 with Some Help From Musk](https://finnhub.io/api/news?id=671e31bda042a32f2c18bc99c14a3961fcd5257bf224c2c4722811f77330ed8b)**  
+- **[AI will 'amplify your capabilities': Jensen Huang](https://finnhub.io/api/news?id=94c83aca6ebb224cca162938c6c28da74fc96b077136834e942e3c4c2c487bf9)**  
 *Yahoo · 1h前*  
-Musk’s other companies came to SpaceX’s rescue in latest earnings.
+Nvidia (NVDA) CEO Jensen Huang sits down with Deirdre Bosa at Nvidia GTC Berlin to discuss how the world is already using AI and how the improvement of AI will …
 
-- **[Major gold holder backs NVIDIA challenger](https://finnhub.io/api/news?id=051c6dd9f8f62ceba74591218953033eb7b944ec3cc7cbeac9777e83d0458be7)**  
+- **['People are now recognizing Nvidia's compute has a great deal of residual value,' CEO Jensen Huang tells Deirdre Bosa](https://finnhub.io/api/news?id=b9a25f977e752e74c4c24ea5af2cce9140e72789af7c5e33b84e26b17d06593f)**  
 *Yahoo · 1h前*  
-The funding gives another boost to an up-and-coming AI chipmaker.
+Nvidia CEO Jensen Huang says people are beginning to recognize the usefulness of the company's chips as an asset.
 
-- **[The U.S. Army Is Spending $2.2 Billion on Micro Nuclear Reactors. This Stock Could Benefit.](https://finnhub.io/api/news?id=47fc48672efdc823eb618b98610653ef270e100d9b786584a4c4a46cde245850)**  
+- **[If I Could Only Invest $500 in AI This Month, I'd Buy This 1 Stock.](https://finnhub.io/api/news?id=63f6fd3a7dcc9c488e5f02f2fdd496b1f29c1b6767ecbd36ef937741a7a21528)**  
 *Yahoo · 1h前*  
-The U.S. Army's Janus Program is bringing opportunities to nuclear energy investors.
+Netlist has won several major court battles that set it up to expand its market share in the memory industry.
 
 ---
 
@@ -59,4 +59,4 @@ The U.S. Army's Janus Program is bringing opportunities to nuclear energy invest
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:03 HKT*
