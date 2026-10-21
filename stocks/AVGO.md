@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-21 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Did The Market Read Texas Instruments Stock Right?](https://finnhub.io/api/news?id=9ce0e58746633c410ba484248fb19cbad755b58b229ecf7b39be2d531c41fee5)**  
+- **[This Week In AI Chips - Advancing AI Network Management Through Enhanced GigaSMART Technology](https://finnhub.io/api/news?id=cc6089198c834d28c241ed7e69e6a1136396c39960fd1e6fc35dcf37c2e41308)**  
 *Yahoo · 1h前*  
-Shares of Texas Instruments (TXN) rose 60.4% in the twelve months to October 19, 2026, against 16.8% for the S&P 500. The stock posted its largest one-day gain …
+Gigamon has announced enhancements to its Deep Observability Pipeline, which now features distributed GigaSMART processing capabilities to bolster AI-enabled ne…
 
-- **[Microsoft, Alphabet, Goldman Sachs Join Growing List of Companies Objecting to Tokenized Stocks](https://finnhub.io/api/news?id=ff421581c018f3402bb5ad1299329d569d3dd4c647b80838d83c89620729be28)**  
-*Yahoo · 2h前*  
-Sixteen companies have now objected to having their shares traded on the planned OKX-ICE tokenized stock venue, up from nine just four days earlier, according t…
+- **[Top 3 Growth Stocks To Watch In October 2026](https://finnhub.io/api/news?id=bc62bcf883b00e92761fcedd5d9f4de98567200097da58a4871d27493b21bd19)**  
+*Yahoo · 7h前*  
+Artificial intelligence spending is still pulling huge orders through chip supply chains, with Japan’s September export data highlighting strong demand for semi…
 
-- **[3 Artificial Intelligence (AI) Stocks That Look Like Great Buys Right Now](https://finnhub.io/api/news?id=eb33510996c9c7086cb736662e61c8ea526eeebbfa662967092ccbdbcccb8aa5)**  
-*Yahoo · 3h前*  
-These stocks are leaders in tech, have been generating incredible growth, and have some promising long-term upside.
+- **[Broadcom fought AT&T over VMware: Now a telecom giant is all in](https://finnhub.io/api/news?id=5e3d12ead082ff22f46c14758e72de1796e9ecd69185bbf80464338587ab6dd4)**  
+*Yahoo · 11h前*  
+A 10-year VMware deal won’t move Broadcom’s numbers much, but it hands the company a strong answer to its licensing critics.
 
 ---
 
@@ -59,4 +59,4 @@ These stocks are leaders in tech, have been generating incredible growth, and ha
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:03 HKT*
