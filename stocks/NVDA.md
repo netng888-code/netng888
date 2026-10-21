@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$216.47** |
-| 今日變動 | ▼ $0.62　(-0.29%) |
+| 現價 | **$221.97** |
+| 今日變動 | ▲ $5.50　(+2.54%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $548　(▲14.5%) |
+| 未實現盈虧 | ▲ $658　(▲17.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $211.03 | — |
-| Put Wall（支撐） | $200.00 | -7.6% |
-| Call Wall（阻力） | $230.00 | +6.3% |
+| Gamma Flip | $213.24 | — |
+| Put Wall（支撐） | $220.00 | -0.9% |
+| Call Wall（阻力） | $230.00 | +3.6% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI will 'amplify your capabilities': Jensen Huang](https://finnhub.io/api/news?id=94c83aca6ebb224cca162938c6c28da74fc96b077136834e942e3c4c2c487bf9)**  
+- **[This $40 Gold Mining Stock Could Turn $5,000 Into a Fortune](https://finnhub.io/api/news?id=5a13e37cb3ff395af6878be498273122f868c65549bb5fb5beac42378fe7a6f3)**  
 *Yahoo · 1h前*  
-Nvidia (NVDA) CEO Jensen Huang sits down with Deirdre Bosa at Nvidia GTC Berlin to discuss how the world is already using AI and how the improvement of AI will …
+Barrick Mining's shares are down more than 6% this year, but all signs point to growth for the tier 1 gold mining company.
 
-- **['People are now recognizing Nvidia's compute has a great deal of residual value,' CEO Jensen Huang tells Deirdre Bosa](https://finnhub.io/api/news?id=b9a25f977e752e74c4c24ea5af2cce9140e72789af7c5e33b84e26b17d06593f)**  
+- **[Prediction: This Artificial Intelligence (AI) Stock Will Be the Biggest Winner of 2027](https://finnhub.io/api/news?id=72d5327b3d54600f1d9ec7f0b61b3d43362c51c0fdecdadb39568820c9455550)**  
 *Yahoo · 1h前*  
-Nvidia CEO Jensen Huang says people are beginning to recognize the usefulness of the company's chips as an asset.
+Alphabet has the potential to be the best-performing AI mega-cap in 2027.
 
-- **[If I Could Only Invest $500 in AI This Month, I'd Buy This 1 Stock.](https://finnhub.io/api/news?id=63f6fd3a7dcc9c488e5f02f2fdd496b1f29c1b6767ecbd36ef937741a7a21528)**  
+- **[Why Danaher Stock Bounced Higher Today](https://finnhub.io/api/news?id=c67c19b7512cc5cccfb274a173709c1078f28898009cbac2560bbbfa016b712f)**  
 *Yahoo · 1h前*  
-Netlist has won several major court battles that set it up to expand its market share in the memory industry.
+The conglomerate posted its latest set of quarterly earnings that morning.
 
 ---
 
@@ -48,7 +48,7 @@ Netlist has won several major court battles that set it up to expand its market 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-21 | 監控 | $216.47 | — | 自動更新 |
+| 2026-10-22 | 監控 | $221.97 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Netlist has won several major court battles that set it up to expand its market 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
