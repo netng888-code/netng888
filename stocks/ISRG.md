@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-21 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Rise As SpaceX Crushes Views, Eyes Tesla Merger; Meta Looms](https://finnhub.io/api/news?id=514e5ced8a575e9d239671a711d97708460e8f3944db5d2aee88c6e36b85e8c6)**  
+- **[ISRG, NFLX, ACN Stocks Slide Before The Bell: Why Intuitive Surgical, Netflix And Accenture Are Heading Lower](https://finnhub.io/api/news?id=407d06e0db4ced3f213727281836f3bff1d69fbdceab889e136681916dcdbe33)**  
 *Yahoo · 1h前*  
-The Dow and S&P 500 reclaimed their 50-day line. SpaceX crushed earnings views and is mulling a Tesla merger. Meta looms.
+A $450-million litigation charge weighs on Intuitive Surgical, while Netflix faces fresh concerns over growth visibility and Baird turns cautious on Accenture.
 
-- **[Intuitive Surgical Tumbles After Robotic Surgery Behemoth Narrows 2026 Outlook](https://finnhub.io/api/news?id=662c96d482611a0a1334b0971c189cccd38f24b080c3b26747987958aaeed58b)**  
-*Yahoo · 1h前*  
-Intuitive Surgical stock tumbled late Tuesday after the company narrowed its guidance for 2026 da Vinci procedure growth.
+- **[Why Is Intuitive Surgical Stock Falling in Pre-Market Trading?](https://finnhub.io/api/news?id=9fbd312588651e1d7d92499231fa826b623b2928ee9180fb29e1a90622f644e9)**  
+*Yahoo · 2h前*  
+Intuitive Surgical (NASDAQ:ISRG) shares declined 7. 5% to $404.
 
-- **[After-Hours Movers: Postmarket Gainers and Losers](https://finnhub.io/api/news?id=99a696fb28c0788ceb543b5c88db7d2f7170ae356ff2e0ee5490fe6b0212ef86)**  
-*ChartMill · 2h前*  
-After the US close, SHFS, GFAI, SPHL and NCPL led after-hours gainers, while TKNO, RFAIR, PRSO and INLF led postmarket losers.
+- **[Update: Intuitive Surgical Drops as 2026 Global da Vinci Growth Outlook Tweak, $450 Million Charge Chip Away at Q3 Adjusted Earnings, Revenue Beats](https://finnhub.io/api/news?id=4a2d8a23b5de4028c408880d6ffdf0a841c6686e5fbce1d0d7af2eb9bcfcca59)**  
+*Yahoo · 2h前*  
+(Updates with the stock move, outlook, and the legal charge in the headline, first and last two para
 
 ---
 
@@ -59,4 +59,4 @@ After the US close, SHFS, GFAI, SPHL and NCPL led after-hours gainers, while TKN
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
