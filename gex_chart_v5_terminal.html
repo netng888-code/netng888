@@ -655,13 +655,21 @@
     加倉100股@HK$19.50（200→300股）只影響index.html／港股CSV，呢個檔案冇港股持倉清單，唔使改。其餘五檔
     （CSV／index.html／futu_bridge_v2.py US_STOCKS／telegram_bot.py／github_gex_updater.py BATCH2）同步。
     ⚠️ futu_bridge_v2.py要升級（US_STOCKS加US.CIFR）先會喺持倉總覽／到期日曆見到CIFR。
+  v5.40（2026-10-21）：兩項改動——(1)「持倉總覽」美股表格每隻股票代碼下面加「📅 業績日」標籤：
+    未來30日內有業績公布先顯示（日期＋幾日後＋盤前/盤後/盤中），7日內amber、3日內紅色加粗，
+    冇業績就唔顯示（唔會佔位）。Futu OpenAPI冇業績日曆介面，數據源用Finnhub /calendar/earnings，
+    經bridge新增嘅/api/earnings（futu_bridge_v2.py v3.21，17/18隻sequential+0.15秒間隔，
+    12小時cache）攞；前端loadEarnings()隨fetchNow()一齊call（backend有cache，唔加重負擔），
+    攞到即刻重畫table。(2) 港股持倉表「最新價(HKD)」後面加「前收市價」欄（讀snapshot嘅
+    prev_close_price，同美股T3同一欄位來源）。⚠️ 需要futu_bridge_v2.py升級到v3.21先有業績日；
+    未升級時業績標籤唔顯示，其餘功能不受影響。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.39)</title>
+<title>GEX Chart — Futu Bridge (v5.40)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -1081,6 +1089,9 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .tbl-wrap tbody tr:hover td:first-child{background:linear-gradient(var(--hover),var(--hover)),var(--bg2);}
 .tbl-wrap tbody tr.total-row td:first-child{background:linear-gradient(rgba(0,212,170,.04),rgba(0,212,170,.04)),var(--bg2);}
 .sym{font-weight:700;color:var(--blue);cursor:pointer;}
+.earn-tag{display:block;font-size:9.5px;font-weight:500;color:var(--muted);margin-top:2px;white-space:nowrap;letter-spacing:0;}
+.earn-tag.soon{color:var(--amber);}
+.earn-tag.urgent{color:var(--red);font-weight:700;}
 .sym:hover{color:var(--accent);}
 .t1-cell{font-weight:600;color:var(--white);}
 .chg-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;margin-left:4px;}
@@ -1995,6 +2006,29 @@ const hCls = v => v==null?'neu':Number(v)>0?'pos':Number(v)<0?'neg':'neu';
 let fundamentalsBySym = {};
 let lastUSRows = [];
 
+// ── 業績日（v5.40新增）── Finnhub /calendar/earnings，經bridge /api/earnings
+// earningsBySym: {sym: {date:'YYYY-MM-DD', hour:'amc'|'bmo'|'dmh'|'', days:N}}
+let earningsBySym = {};
+function earnTagHtml(sym) {
+  const e = earningsBySym[sym];
+  if (!e || !e.date || e.days == null || e.days < 0 || e.days > 30) return '';
+  const hr = e.hour === 'bmo' ? '盤前' : e.hour === 'amc' ? '盤後' : e.hour === 'dmh' ? '盤中' : '';
+  const cls = e.days <= 3 ? 'urgent' : e.days <= 7 ? 'soon' : '';
+  const when = e.days === 0 ? '今日' : `${e.days}日後`;
+  return `<span class="earn-tag ${cls}" title="預計業績公布日（Finnhub，日期可能調整）">📅 業績 ${e.date.slice(5).replace('-','/')}（${when}${hr?'·'+hr:''}）</span>`;
+}
+async function loadEarnings() {
+  try {
+    const r = await fetch(`${BRIDGE}/api/earnings?days_ahead=30`, {signal: AbortSignal.timeout(60000)});
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    earningsBySym = d.earnings || {};
+    if (lastUSRows.length) renderUS(lastUSRows);
+  } catch (e) {
+    console.warn('loadEarnings failed:', e);
+  }
+}
+
 function fmtFund(sym, r) {
   const fh = fundamentalsBySym[sym] || {};
 
@@ -2181,7 +2215,7 @@ function renderUS(rows) {
     const fund = fmtFund(sym, r);
 
     html += `<tr class="${cfg.rowCls}">
-      <td><span class="sym">${sym}</span></td>
+      <td><span class="sym">${sym}</span>${earnTagHtml(sym)}</td>
       <td style="color:var(--muted)">${qty}</td>
       <td><span class="t1-cell">${fmv(T1)}</span>${T1badge}</td>
       <td class="t2-cell">${fmv(T2)}${T2badge}</td>
@@ -2234,7 +2268,7 @@ function renderHK(rows) {
   }
   let html=`<div class="tbl-wrap"><table class="hk-table">
   <thead><tr>
-    <th>Code</th><th>名稱</th><th>最新價(HKD)</th><th>升跌</th><th>升跌%</th>
+    <th>Code</th><th>名稱</th><th>最新價(HKD)</th><th>前收市價</th><th>升跌</th><th>升跌%</th>
     <th>開/高/低</th><th>成交量</th><th>Bid×Ask</th><th>狀態</th><th>更新</th>
   </tr></thead><tbody>`;
   for (const r of rows) {
@@ -2245,6 +2279,7 @@ function renderHK(rows) {
       <td><span class="sym">${code}</span></td>
       <td title="${r.name||''}">${(r.name||'').substring(0,16)}</td>
       <td class="mv-cell">${hF2(r.last_price)}</td>
+      <td style="color:var(--muted)">${hF2(r.prev_close_price)}</td>
       <td class="${chgc==='pos'?'pnl-pos':chgc==='neg'?'pnl-neg':'pnl-neu'}">${r.change_val!=null?(Number(r.change_val)>=0?'+':'')+hF2(r.change_val):'—'}</td>
       <td><span class="pct-badge ${chgc}">${hFp(r.change_rate)}</span></td>
       <td style="font-size:10px;color:var(--muted)">${hF2(r.open_price)}/${hF2(r.high_price)}/${hF2(r.low_price)}</td>
@@ -2300,6 +2335,7 @@ async function fetchNow() {
     lastUSRows = d.us||[];
     renderHK(d.hk||[]);
     if ((d.columns||[]).length) renderFI(d.columns,(d.us||[])[0]||null);
+    loadEarnings();      // v5.40新增：業績日（backend 12小時cache）
     loadFundamentals();  // v5.26新增：P/E TTM／EPS TTM／Div Yield／Growth／Sector，backend有6小時cache，唔會加重負擔
   } catch(e) {
     setStatus(false,false);
