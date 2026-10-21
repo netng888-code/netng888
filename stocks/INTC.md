@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-21 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$91.69** |
-| 今日變動 | ▼ $0.34　(-0.37%) |
+| 現價 | **$92.96** |
+| 今日變動 | ▲ $1.27　(+1.39%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $153　(▼14.3%) |
+| 未實現盈虧 | ▼ $140　(▼13.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $96.47 | — |
-| Put Wall（支撐） | $90.00 | -1.8% |
-| Call Wall（阻力） | $100.00 | +9.1% |
+| Gamma Flip | $95.03 | — |
+| Put Wall（支撐） | $90.00 | -3.2% |
+| Call Wall（阻力） | $100.00 | +7.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Anthropic Lost More Money Than All Other Major Companies Combined](https://finnhub.io/api/news?id=1bcb1d4c4c44ec6a4c450ce9b4ee520fb35e4f5e803a46c097be80c408c4608f)**  
-*Yahoo · 1h前*  
-Investors are getting a taste of just how much AI companies can lose. And it's an obscene amount.
+- **[Texas Instruments (TXN) Q3 Earnings and Revenues Top Estimates](https://finnhub.io/api/news?id=6417efee5303527c2c2402563fdcc1a9d113b847e402acd900471d062f672e3d)**  
+*Yahoo · 2h前*  
+Texas Instruments (TXN) delivered earnings and revenue surprises of +9.17% and +2.17%, respectively, for the quarter ended September 2026. Do the numbers hold c…
 
-- **[Entravision Appoints Brian Krzanich and Gary Ferrera to Board of Directors](https://finnhub.io/api/news?id=d464a195f472795aa250d40cd5384d796cdbf73a4cec445f4f5bb6341d2897a1)**  
-*Yahoo · 3h前*  
-BURBANK, Calif., October 21, 2026--Entravision Communications Corporation (NYSE: EVC) announced that Brian Krzanich and Gary Ferrera have joined its Board of Di…
+- **[2 Reasons Why Dell Stock Is Having a Super Day](https://finnhub.io/api/news?id=96b863cead7c0a8af72f20570edcfdb2815883a633f2d56299769b793f67f0ab)**  
+*Yahoo · 5h前*  
+Dell stock is on pace for its best daily percentage gain since Sept. 11.
 
-- **[North America Semiconductor Silicon Wafer Market - Share, Trends, and Forecasts (2026-2031) | AI Fabs, CHIPS Act Incentives, and 300 mm Wafers Fuel Growth](https://finnhub.io/api/news?id=14a9497736601a5a5a2865fc50e07fb2a2b8f5655fc102010b5d0a336e4ca602)**  
-*Yahoo · 4h前*  
-Wafer makers boost ROI via CHIPS Act incentives, fab co-location, advance-payment contracts, 300 mm migration and portfolio diversification to improve margins a…
+- **[Intel’s $28B Ohio Chip Project Hits Construction Milestone After Years Of Delays — Arizona Fab Targets 2028 Start](https://finnhub.io/api/news?id=09a241c5532847859dd335abef472930a78c2640d951d6c94ea750d0fc53fe6f)**  
+*Yahoo · 5h前*  
+Intel's Ohio factory, originally expected to begin production in 2025, is now targeting operations in 2030–2031 as the chipmaker looks to expand U.S. manufactur…
 
 ---
 
@@ -48,7 +48,7 @@ Wafer makers boost ROI via CHIPS Act incentives, fab co-location, advance-paymen
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-21 | 監控 | $91.69 | — | 自動更新 |
+| 2026-10-22 | 監控 | $92.96 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wafer makers boost ROI via CHIPS Act incentives, fab co-location, advance-paymen
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
