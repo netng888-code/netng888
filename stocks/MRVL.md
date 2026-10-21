@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-21 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$240.42** |
-| 今日變動 | ▲ $3.33　(+1.40%) |
+| 現價 | **$244.76** |
+| 今日變動 | ▲ $4.34　(+1.81%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $169　(▼6.6%) |
+| 未實現盈虧 | ▼ $125　(▼4.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $241.92 | — |
-| Put Wall（支撐） | $200.00 | -16.8% |
-| Call Wall（阻力） | $250.00 | +4.0% |
+| Gamma Flip | $240.70 | — |
+| Put Wall（支撐） | $200.00 | -18.3% |
+| Call Wall（阻力） | $250.00 | +2.1% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[If I Could Only Buy 1 Artificial Intelligence (AI) Semiconductor Stock to Buy Before 2027, It Would Be This One](https://finnhub.io/api/news?id=7ae5c92e525f49303fd4ef894bf08a31ed7ca51dd5b8a651eb71ba6ea75d2559)**  
-*Yahoo · 5h前*  
-Marvell's AI-driven growth prospects and forecast of nearly 10x revenue by 2031 make the recent chip-stock sell-off look like a buying opportunity.
+- **[Marvell Technology (MRVL) Rises Higher Than Market: Key Facts](https://finnhub.io/api/news?id=9502b675a9d0cf2690716ce7acd0d2d047941a27a3632f1f5208e5b1d53c30c1)**  
+*Yahoo · 2h前*  
+In the latest trading session, Marvell Technology (MRVL) closed at $244.67, marking a +1.77% move from the previous day.
 
-- **[Marvell Technology (MRVL) Surpasses Market Returns: Some Facts Worth Knowing](https://finnhub.io/api/news?id=b1be2d6578eeba02b3f1204108ba3a209a34d9b2177596240a7a20e0a0e3a894)**  
-*Yahoo · 16h前*  
-The latest trading day saw Marvell Technology (MRVL) settling at $240.42, representing a +1.4% change from its previous close.
+- **[$4,000 in These 4 Non-Nvidia Chip Stocks Could Be Worth This Much by 2030](https://finnhub.io/api/news?id=d0c759bc0b2734f12369419546688171c3fab1c4552fbb7f0ba0210ecd512734)**  
+*Yahoo · 2h前*  
+Investing today in Broadcom, Marvell, AMD, and Arm could produce big returns by 2030.
 
-- **[Will AI Data Center Launches Change Marvell Stock Narrative](https://finnhub.io/api/news?id=69e1350d9f3a81af3a2d5abb23f319b9a64a3270732e077930f69915806f99c1)**  
-*Yahoo · 21h前*  
-In October 2026, Marvell Technology expanded its AI data center portfolio with new CXL memory expanders, 224G copper connectivity parts and cloud security and n…
+- **[Marvell Stock Is Bouncing Back. 3 Reasons the Bulls Aren’t Backing Down.](https://finnhub.io/api/news?id=af8b0e1867c611e10ef5a71089742e982b76a5e89c07ba72d7c59ed49b80bef5)**  
+*Yahoo · 7h前*  
+Marvell's ambitious revenue targets and expanding AI opportunities give investors reasons to remain bullish despite market volatility.
 
 ---
 
@@ -48,7 +48,7 @@ In October 2026, Marvell Technology expanded its AI data center portfolio with n
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-21 | 監控 | $240.42 | — | 自動更新 |
+| 2026-10-22 | 監控 | $244.76 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ In October 2026, Marvell Technology expanded its AI data center portfolio with n
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-21 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
