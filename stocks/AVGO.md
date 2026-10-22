@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$337.80** |
-| 今日變動 | ▲ $3.43　(+1.03%) |
+| 現價 | **$323.24** |
+| 今日變動 | ▼ $14.56　(-4.31%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $408　(▼10.8%) |
+| 未實現盈虧 | ▼ $554　(▼14.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $349.68 | — |
-| Put Wall（支撐） | $300.00 | -11.2% |
-| Call Wall（阻力） | $350.00 | +3.6% |
+| Gamma Flip | $346.14 | — |
+| Put Wall（支撐） | $300.00 | -7.2% |
+| Call Wall（阻力） | $350.00 | +8.3% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Should You Trim Or Add To Your Intel Position Now?](https://finnhub.io/api/news?id=c2db46b151533de950aebf22a235917384f0fc1e6789f9e69c62d63811c963fe)**  
-*Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
-
-- **[3 AI Stocks That Could Split in 2027](https://finnhub.io/api/news?id=edf2872b58c26e180eb3a83bae94b8c1b24fd14899400e1b3f70993816c109b9)**  
+- **[Broadcom Inc. (AVGO) Suffers a Larger Drop Than the General Market: Key Insights](https://finnhub.io/api/news?id=0b460043e15e048f3c1c7c210937e919c79034d7bf8722b58b03a9db6f3dcac7)**  
 *Yahoo · 2h前*  
-These stocks all trade at share prices that could make a split attractive.
+Broadcom Inc. (AVGO) concluded the recent trading session at $323.24, signifying a -4.31% move from its prior day's close.
 
-- **[Is Product Launches And US Supply Deals Altering The Investment Case For Apple (AAPL)?](https://finnhub.io/api/news?id=bd0f6da674a6ee3d6dcffb01e7f3f17e88573eb48b3e4f4f58b6d45ee9470dca)**  
+- **[Stock Market Today: Nasdaq Hit As Meta, Alphabet Slide Below Key Levels (Live Coverage)](https://finnhub.io/api/news?id=3ad6fac4998feaf7a3cce36de4f079b979912e8ef0c1d8452532ab163439766d)**  
+*Yahoo · 2h前*  
+The Dow Jones index drops as oil prices jump on new planned U.S.,-Israel strikes on Iran. Meta and Tesla fall on earnings.
+
+- **[Stock Market Today: Nasdaq-100 Drop Tops 3%; FirstCash, Southern Copper, Meta Lead Sell-Off (Live Coverage)](https://finnhub.io/api/news?id=a28a1706345bc9a53f7e6e82ee8c36e6e1a40add7558e2547dfe0eb9119e1dec)**  
 *Yahoo · 3h前*  
-Apple has rolled out a packed roster of new hardware and home devices, including iPhone 18 Pro, the foldable iPhone Duo, HomeView smart displays, HomePod mini 2…
+The Dow Jones index drops as oil prices jump amid new planned U.S.,-Israel strikes on Iran. Meta and Tesla fall on earnings.
 
 ---
 
@@ -48,7 +48,7 @@ Apple has rolled out a packed roster of new hardware and home devices, including
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-22 | 監控 | $337.80 | — | 自動更新 |
+| 2026-10-23 | 監控 | $323.24 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Apple has rolled out a packed roster of new hardware and home devices, including
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
