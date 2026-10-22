@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today, Oct. 21: Space Exploration Technologies Surges on Q3 Earnings Beat](https://finnhub.io/api/news?id=bd0ffa14b98fb9cd74cea4f9d4dd5c5291da84890bc643cd68cb4133476091e8)**  
-*Yahoo · 1h前*  
-On Oct. 21, 2026, the rocket and satellite broadband provider posted $14.6 billion in quarterly revenue with $4.4 billion net income, rewarding investors with a…
+- **[RKLB Is Among Nasdaq’s Top 5 Losers So Far This Month, Yet Analysts See 90% Upside — Can Neutron Justify Its SpaceX Premium?](https://finnhub.io/api/news?id=4f5e53531702b6fd12aa424dba5a8ffdfe92e41b9d93ba4daeb1f892ae8f3f67)**  
+*Yahoo · 6h前*  
+RKLB trades at 26.6x forward EV/sales, about 89% above SpaceX, while Redwire has the lowest valuation multiples.
 
-- **[Rocket Lab Just Had the Worst Week in Its History. Here's What I'd Do With the Stock Now.](https://finnhub.io/api/news?id=cb9280dc7177a3f11357a78f747268c632089ba75700f01a057638a57871c616)**  
-*Yahoo · 5h前*  
-The growing space company suffered two significant setbacks.
+- **[Rocket Lab (RKLB) Stock Could Be Above Fair Value As Neutron Launch Slips To 2027](https://finnhub.io/api/news?id=92281ff703c29573c7f1ee119eba045e637e3b816c6e6b40447c56ee66086d78)**  
+*Yahoo · 10h前*  
+Rocket Lab has had a rough stretch on the screen this year, yet over a three year horizon the stock is still up a very large amount, which puts a spotlight on w…
 
-- **[Rocket Lab Sets Another Spacecraft Milestone As Viasat Advances $81M NASA Program](https://finnhub.io/api/news?id=7cc9ce45f0fed7f1e54d10a02bcc5968cee80d561d00e79e63c64740838dad96)**  
-*Yahoo · 5h前*  
-The mission will test commercial satellite communications services for low Earth orbit operations as NASA prepares to retire its existing Tracking and Data Rela…
+- **[Cathie Wood Trimmed Ark's Alphabet Stake Even as Google Search Revenue Grew, While Ark Piled Into Rocket Lab Even After Its Neutron Launch Delay. Is Ark Betting Against the Wrong AI Winner?](https://finnhub.io/api/news?id=028ad676e5d15edc6914371c7fd5b34a6468974233aaf327cfc19b1cadf00b52)**  
+*Yahoo · 13h前*  
+Cathie Wood is buying more Rocket Lab despite its Neutron launch delay while trimming stake in Alphabet.
 
 ---
 
@@ -59,4 +59,4 @@ The mission will test commercial satellite communications services for low Earth
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
