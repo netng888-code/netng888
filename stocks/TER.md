@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $352.49 | — |
 | Put Wall（支撐） | $295.00 | -14.6% |
-| Call Wall（阻力） | $352.50 | +2.0% |
+| Call Wall（阻力） | $342.50 | +-0.9% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[5 Strong Buy Growth Stocks With High Margins to Grab Before Earnings](https://finnhub.io/api/news?id=20e7034c34acac7dc4f09bb5e60ded3c6ef038487ad6564a6f9c131d1a69fbc8)**  
-*Yahoo · 5h前*  
-Five Strong Buy stocks stand out ahead of earnings, combining high operating margins, revenue growth and exposure to AI, healthcare, energy and digital payments…
+- **[S&P 500 Premarket Movers on Oct. 22: Allegion and Lockheed Martin Gain, Snap-on and Lam Research Fall](https://finnhub.io/api/news?id=0e6587981db268f781dd617f08e9b6416cccf336af78afa043bf6ad90d8ac194)**  
+*ChartMill · 0h前*  
+S&P 500 premarket movers on Oct. 22: Allegion and Lockheed Martin among gainers, while Snap-on and Lam Research led declines.
 
-- **[Teradyne Robotics and Sereact Partner to Scale Physical AI Solutions for Retail and Logistics](https://finnhub.io/api/news?id=f5bcec68f4f640cda99d68ddaa1baeb336af02ccb89cef2b61c8134b2641639b)**  
-*Yahoo · 10h前*  
-BERLIN, October 21, 2026--Sereact and Teradyne Robotics to scale unpredictable, hard-to-automate tasks such as processing fashion item returns. Announcement tod…
+- **[The Zacks Analyst Blog Highlights Chord Energy, Halozyme, Sezzle, SanDisk and Teradyne](https://finnhub.io/api/news?id=01a4c87fb3ec89903f179fac71117398638a8ddf857c49d3aa47e756181a5f4f)**  
+*Yahoo · 3h前*  
+CHRD, HALO, SEZL, SNDK and TER boast strong margins and growth prospects, with earnings catalysts ahead as October 2026 results roll in.
 
-- **[Chip Equipment Stocks Face Earnings Test as Strong Fundamentals Meet Weak Momentum](https://finnhub.io/api/news?id=15fd6acc1faf6e64f9a332d67c6c8eb230b5328a9da8ce6103316ce164cfd3b1)**  
-*ChartMill · 10h前*  
-Chip equipment stocks LRCX, KLAC and TER face earnings tests after sharp pullbacks, as strong profits and growth battle weak technical momentum.
+- **[Teradyne, Vishay Intertechnology, Allegro MicroSystems, Entegris, and AMD shares are soaring, what you need to know](https://finnhub.io/api/news?id=9c16256bf7810db8a068f4b7675cb5e907b1469fdd3a824ee1c0a29e605ef853)**  
+*Yahoo · 13h前*  
+A number of stocks jumped in the afternoon session after strong demand for artificial intelligence hardware and robust corporate earnings reignited investor opt…
 
 ---
 
@@ -59,4 +59,4 @@ Chip equipment stocks LRCX, KLAC and TER face earnings tests after sharp pullbac
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
