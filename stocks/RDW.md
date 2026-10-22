@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $9.93 | — |
-| Put Wall（支撐） | $8.50 | -0.7% |
+| Put Wall（支撐） | $8.00 | -6.5% |
 | Call Wall（阻力） | $9.00 | +5.1% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Forget the Anthropic IPO. Here Are 6 Stocks Worth Watching.](https://finnhub.io/api/news?id=d0ded66a8888d2c2801b0720e5c0a2e9eb9b43179121dc59d66aa4b5834abe28)**  
+*Yahoo · 10h前*  
+What would it take for these six next-generation tech stocks to double?
+
+- **[Redwire's New European Space Partnership Targets Orbital Data Centers, Defense And Satellite Navigation](https://finnhub.io/api/news?id=187a3a6f20c6b30bb00a62b0db5562d9ae38d80ec762dc0b0588ffac10d308bd)**  
+*Yahoo · 22h前*  
+Redwire and EnduroSat plan to combine satellite manufacturing and space technology capabilities to pursue opportunities in European defense and commercial space…
+
 - **[Redwire and EnduroSat Sign MOU to Strengthen European Space Infrastructure](https://finnhub.io/api/news?id=f0587782abab480e01a573af07eaf61ea98aabf2ea3227b34762bc5878d54e03)**  
-*Yahoo · 12h前*  
+*Yahoo · 1d前*  
 KRUIBEKE, Belgium, October 21, 2026--Redwire Corporation (NYSE: RDW), a global leader in space and defence technology solutions, and EnduroSat, a space company …
-
-- **[Could Investing $5,000 in Redwire Stock Make You a Millionaire?](https://finnhub.io/api/news?id=cdc5a81b8c2eea2a189d3c9600ee82fa73b954dc6fa3f451e4933182cfcf9e23)**  
-*Yahoo · 1d前*  
-What comes next for this space and defense company?
-
-- **[Chips Bounced, Builders Sank and Crude Sent Mixed Signals Heading Into Tuesday](https://finnhub.io/api/news?id=69e87228364bd3eba76e2311f2fa4701f1ed3c9170e2fc21cbd521288e32649a)**  
-*Yahoo · 1d前*  
-Technology stocks led a partial recovery on Monday after last week's AI-driven selloff. The Nasdaq Composite rose about 1.1%, the S&P 500 gained about 0.4% and …
 
 ---
 
@@ -59,4 +59,4 @@ Technology stocks led a partial recovery on Monday after last week's AI-driven s
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
