@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Cathie Wood's ARK Invest Adds These Nuclear Names For A Second Straight Day Even As Their Shares Have Plummeted More Than 60% In 2026](https://finnhub.io/api/news?id=ca22a5b048cb45b177b9da66424d471121492fd6267ad1d864514a6c0f10035d)**  
+*Yahoo · 7h前*  
+On Wednesday, ARK Investment Management reported purchasing Oklo and X-Energy stocks for a combined value of $3.42 million across multiple exchange-traded funds…
+
+- **[Nuclear Energy Analyst Roundup: Wall Street Weighs In On OKLO, SMR, CEG, VST, LEU Stocks](https://finnhub.io/api/news?id=c06c25c1f058f70ec4593dd906f41f5b9f37329c2a91d15677856d45031a3757)**  
+*Yahoo · 11h前*  
+Oklo, NuScale Power, Constellation Energy, Vistra, and Centrus Energy are in focus on Wall Street amid the ongoing third-quarter earnings season.
+
 - **[BE Stock Leads Energy Rally After SpaceX CEO Elon Musk Says AI’s Real Constraint Is Power And Cooling, Not Chips](https://finnhub.io/api/news?id=b2dae608d19f7468857e723c7cb48b098105a7e402e363e493d2330a93b099f4)**  
-*Yahoo · 21h前*  
+*Yahoo · 1d前*  
 Musk said power, cooling, and electrical equipment infrastructure are “somewhat of a limiting factor” for the AI buildout.
-
-- **[This Nuclear Stock Could Be Your Ticket to Millionaire Status -- and It Didn't Even Need to Build a Reactor First](https://finnhub.io/api/news?id=53351a9280ce49ea2ad0eb0ccce048b65ae5060e3f51679734e8aa854d736490)**  
-*Yahoo · 1d前*  
-Looking for a wealth-building opportunity? Power your portfolio with this nuclear fuel specialist.
-
-- **[Oklo and NuScale Sink 15% in a Week: Is the Nuclear Selling Overdone?](https://finnhub.io/api/news?id=23aadcf9ae975cb1bfb8631c674cd5b7b06e46d3c97a9f5536010aeb94290f96)**  
-*Yahoo · 1d前*  
-Key TakeawaysOklo stock fell 15% in the past week (through Monday’s close) to a new 52-week low. NuScale Power fell 15% over the same week.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysOklo stock fell 15% in the past week (through Monday’s close) to 
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
