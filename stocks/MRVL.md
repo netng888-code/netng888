@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell Technology (MRVL) Rises Higher Than Market: Key Facts](https://finnhub.io/api/news?id=9502b675a9d0cf2690716ce7acd0d2d047941a27a3632f1f5208e5b1d53c30c1)**  
-*Yahoo · 2h前*  
-In the latest trading session, Marvell Technology (MRVL) closed at $244.67, marking a +1.77% move from the previous day.
+- **[S&P 500 Premarket Movers on Oct. 22: Allegion and Lockheed Martin Gain, Snap-on and Lam Research Fall](https://finnhub.io/api/news?id=0e6587981db268f781dd617f08e9b6416cccf336af78afa043bf6ad90d8ac194)**  
+*ChartMill · 0h前*  
+S&P 500 premarket movers on Oct. 22: Allegion and Lockheed Martin among gainers, while Snap-on and Lam Research led declines.
 
-- **[$4,000 in These 4 Non-Nvidia Chip Stocks Could Be Worth This Much by 2030](https://finnhub.io/api/news?id=d0c759bc0b2734f12369419546688171c3fab1c4552fbb7f0ba0210ecd512734)**  
-*Yahoo · 2h前*  
-Investing today in Broadcom, Marvell, AMD, and Arm could produce big returns by 2030.
+- **[Stock Market Today: SpaceX and Super Micro Revive the AI Trade as Meta Lifts Its Capex Floor and Tesla Beats on a Shrinking Car Business](https://finnhub.io/api/news?id=d5df35fb2fd8f77c3ef3e05888cdbd1aab8ca92c62737317b74072bc48857b1c)**  
+*ChartMill · 2h前*  
+The Nasdaq gained 1.1% as SpaceX and Super Micro reignited the AI trade. After the bell, Meta beat and raised the low end of its capex range, Tesla topped estim…
 
-- **[Marvell Stock Is Bouncing Back. 3 Reasons the Bulls Aren’t Backing Down.](https://finnhub.io/api/news?id=af8b0e1867c611e10ef5a71089742e982b76a5e89c07ba72d7c59ed49b80bef5)**  
-*Yahoo · 7h前*  
-Marvell's ambitious revenue targets and expanding AI opportunities give investors reasons to remain bullish despite market volatility.
+- **[MACOM, Semtech, FormFactor, Penguin Solutions, and Seagate stocks trade up, what you need to know](https://finnhub.io/api/news?id=1018d0f1eea16329a3ccf653a61cb5348be8708c052c9ed0f31a4416cc97f2aa)**  
+*Yahoo · 13h前*  
+A number of stocks jumped in the afternoon session after strong demand for artificial intelligence hardware and robust corporate earnings reignited investor opt…
 
 ---
 
@@ -59,4 +59,4 @@ Marvell's ambitious revenue targets and expanding AI opportunities give investor
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:03 HKT*
