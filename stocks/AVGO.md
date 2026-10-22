@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,8 +20,8 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $343.85 | — |
-| Put Wall（支撐） | $330.00 | -2.3% |
+| Gamma Flip | $349.68 | — |
+| Put Wall（支撐） | $300.00 | -11.2% |
 | Call Wall（阻力） | $350.00 | +3.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[$4,000 in These 4 Non-Nvidia Chip Stocks Could Be Worth This Much by 2030](https://finnhub.io/api/news?id=d0c759bc0b2734f12369419546688171c3fab1c4552fbb7f0ba0210ecd512734)**  
+- **[Should You Trim Or Add To Your Intel Position Now?](https://finnhub.io/api/news?id=c2db46b151533de950aebf22a235917384f0fc1e6789f9e69c62d63811c963fe)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
+
+- **[3 AI Stocks That Could Split in 2027](https://finnhub.io/api/news?id=edf2872b58c26e180eb3a83bae94b8c1b24fd14899400e1b3f70993816c109b9)**  
 *Yahoo · 2h前*  
-Investing today in Broadcom, Marvell, AMD, and Arm could produce big returns by 2030.
+These stocks all trade at share prices that could make a split attractive.
 
-- **[Microsoft and Alphabet opt out of tokenized stocks in latest blow to ambitious plan from OKK and NYSE parent firm](https://finnhub.io/api/news?id=713ef4752a76965c5b1fdf5a33d63d62336e22e1062899b8e5d65030cb6d74a1)**  
-*Yahoo · 5h前*  
-Sixteen companies have opposed plans to trade tokenized versions of their shares on Cuomo-backed platform OKXICE.
-
-- **[The Cheapest NVIDIA Has Looked All Month: What the Price Target Says](https://finnhub.io/api/news?id=7b73d9ea8d3c7531c399c4ca2de9558dbfa0b53ade2748f795f360a230778882)**  
-*Yahoo · 6h前*  
-A brutal week of selling left NVIDIA at its cheapest valuation in months, but the fundamentals tell a completely different story than the price action suggests.
+- **[Is Product Launches And US Supply Deals Altering The Investment Case For Apple (AAPL)?](https://finnhub.io/api/news?id=bd0f6da674a6ee3d6dcffb01e7f3f17e88573eb48b3e4f4f58b6d45ee9470dca)**  
+*Yahoo · 3h前*  
+Apple has rolled out a packed roster of new hardware and home devices, including iPhone 18 Pro, the foldable iPhone Duo, HomeView smart displays, HomePod mini 2…
 
 ---
 
@@ -59,4 +59,4 @@ A brutal week of selling left NVIDIA at its cheapest valuation in months, but th
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:03 HKT*
