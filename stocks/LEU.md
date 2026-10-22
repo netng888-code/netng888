@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Centrus vs. BWX Technologies: Which Nuclear Supply Chain Stock Is the Better Buy After the Sell-Off?](https://finnhub.io/api/news?id=22078804279aee33f207612511f148cba6e8564927af6b71d571f2fbd7a99544)**  
+*Yahoo · 10h前*  
+Nuclear power is in the spotlight, but these two stocks have tumbled over the past year. Here's which sold-off stock is a better buy right now.
+
+- **[Nuclear Energy Analyst Roundup: Wall Street Weighs In On OKLO, SMR, CEG, VST, LEU Stocks](https://finnhub.io/api/news?id=c06c25c1f058f70ec4593dd906f41f5b9f37329c2a91d15677856d45031a3757)**  
+*Yahoo · 11h前*  
+Oklo, NuScale Power, Constellation Energy, Vistra, and Centrus Energy are in focus on Wall Street amid the ongoing third-quarter earnings season.
+
 - **[HC Wainwright & Co. Reiterates Buy on Centrus Energy, Maintains $300 Price Target](https://finnhub.io/api/news?id=4b8f488c29add80229a4c1c9a614054bc45b894e316168f8c5e09873086e5b85)**  
-*Benzinga · 14h前*  
+*Benzinga · 1d前*  
 HC Wainwright &amp; Co.  analyst Sameer Joshi   reiterates Centrus Energy (NYSE:LEU) with a Buy and maintains $300 price target.
-
-- **[This Nuclear Stock Could Be Your Ticket to Millionaire Status -- and It Didn't Even Need to Build a Reactor First](https://finnhub.io/api/news?id=53351a9280ce49ea2ad0eb0ccce048b65ae5060e3f51679734e8aa854d736490)**  
-*Yahoo · 1d前*  
-Looking for a wealth-building opportunity? Power your portfolio with this nuclear fuel specialist.
-
-- **[NuScale Power Sinks 7% to New 52-Week Low as Barclays Cuts to Underweight; Oklo Falls 5%, Centrus Energy Drops 3%](https://finnhub.io/api/news?id=233ca8c69ecdd292d0a233cfef43b1344002efe4c17698f42b5e65d9b8ad712f)**  
-*Yahoo · 1d前*  
-A fresh analyst downgrade is hitting one small modular reactor developer much harder than the rest of the nuclear group. NuScale Power (NYSE:SMR) stock is down …
 
 ---
 
@@ -59,4 +59,4 @@ A fresh analyst downgrade is hitting one small modular reactor developer much ha
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
