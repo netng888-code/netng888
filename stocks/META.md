@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,8 +20,8 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $630.15 | — |
-| Put Wall（支撐） | $680.00 | -2.5% |
+| Gamma Flip | $630.13 | — |
+| Put Wall（支撐） | $650.00 | -6.8% |
 | Call Wall（阻力） | $750.00 | +7.5% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Platforms, Inc. Q3 2026 Earnings: Live Updates of $META Earnings Call, Stock Forecast](https://finnhub.io/api/news?id=4d96e59eac0bd5409785a7a619254c817894003de8868e0e9e94a67c9c0ae1b7)**  
+- **[Dow Jones Futures Fall, Nasdaq Back Below Key Level Amid Meta, Tesla, Oil Prices](https://finnhub.io/api/news?id=2211c8437ab6747405cbe6b86ed05d383bdc83e058590f7c602050455407c899)**  
 *Yahoo · 1h前*  
-Investors will focus on Meta’s 2027 capital expenditure (CapEx) guidance, AI monetization and adoption of its Muse AI assistant.
+Dow futures fell while Nasdaq futures tumbled in the wake of Tesla, Meta and other big earnings overnight.
 
-- **[Dow Jones Futures: Meta, Tesla Are Earnings Movers After SpaceX, Super Micro Lead Bullish Nasdaq Move](https://finnhub.io/api/news?id=d796648a70cd93bb9d69077effdc1e44d2da419c8828b50e49ed45b9488a40d2)**  
+- **[Stocks Fall Pre-Bell as Traders Digest Meta, Tesla Earnings](https://finnhub.io/api/news?id=1cdc3fbcb636ab1856a97b1db064381558ce0b780c9ac0f373ff11ae3cc02187)**  
 *Yahoo · 1h前*  
-The Nasdaq moved above its 50-day line, led by SpaceX and SuperMicro. Tesla and Meta headlined big earnings late.
+US equity markets were down before the opening bell Thursday as traders digested the latest financia
 
-- **[META Stock Jumps 3% After-Hours After Q3 Revenue Beats Expectations, With A Narrowed AI Capex Outlook And New Non-Voting Class C Stock](https://finnhub.io/api/news?id=7fd9fc050818426fc2656dd07b8e72bd56c66c0618d7d1327983f1a7ef2ceed6)**  
+- **[Zuckerberg Says He May Leave California Over a 5% Billionaire Tax](https://finnhub.io/api/news?id=52f140112804059503a624378e6eb85eb03754d8475144f9e9f3e30e58b78802)**  
 *Yahoo · 1h前*  
-"Our AI investments are paying off," CEO Zuckerberg said.
+When Mark Zuckerberg privately told Meta's board he planned to sell his Palo Alto home and leave California, the board did not try to change his mind. It rewrot…
 
 ---
 
@@ -59,4 +59,4 @@ The Nasdaq moved above its 50-day line, led by SpaceX and SuperMicro. Tesla and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
