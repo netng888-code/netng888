@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$92.96** |
-| 今日變動 | ▲ $1.27　(+1.39%) |
+| 現價 | **$85.49** |
+| 今日變動 | ▼ $7.47　(-8.04%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $140　(▼13.1%) |
+| 未實現盈虧 | ▼ $215　(▼20.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $95.03 | — |
-| Put Wall（支撐） | $80.00 | -13.9% |
-| Call Wall（阻力） | $100.00 | +7.6% |
+| Gamma Flip | $94.33 | — |
+| Put Wall（支撐） | $85.00 | -0.6% |
+| Call Wall（阻力） | $100.00 | +17.0% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Should You Trim Or Add To Your Intel Position Now?](https://finnhub.io/api/news?id=c2db46b151533de950aebf22a235917384f0fc1e6789f9e69c62d63811c963fe)**  
-*Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
-
-- **[What Intel, Boeing, Nike Have In Common With Each Other — And Apple](https://finnhub.io/api/news?id=93501ae263c4a65a24587bcf55b27ed550437430d4706725baf5013a461b0a79)**  
+- **[Intel vs. Qualcomm: A Widening Gap in Revenue](https://finnhub.io/api/news?id=29b9fa56f5808b68b18027a3e11472f8520e87b60c011c5bdc9074703bc4bde2)**  
 *Yahoo · 2h前*  
-Three S&P 500 ccompanies in different stages of comebacks show why it's important to pay attention to corporate turnounds.
+Intel's latest quarter hit $16.1 billion while Qualcomm fell to $9.9 billion—the largest gap in the eight-quarter comparison.
 
-- **[Chip Stock Rebound Comes Undone After Lam Research Stokes Spending Fears](https://finnhub.io/api/news?id=3d13cb6e99262c55c56433177ae1b40e466a291855e0e1d04001a6cb3bd763df)**  
-*Yahoo · 2h前*  
-Stock market sentiment is sensitive to AI spending fears which have returned on Thursday, with chip stocks falling across the board.
+- **[Meta stock falls despite Wall Street analysts raising price targets](https://finnhub.io/api/news?id=00f3b6822563f8c9ab80f47603d3869b30ceea3ee38a944f1e817a6235965cb9)**  
+*Yahoo · 3h前*  
+Meta beat third-quarter revenue estimates, but its aggressive AI spending plans raised concerns.
+
+- **[What Does an AI Agent Need a CPU For? Why Nvidia Wants In on the Business Dominated by AMD and Intel](https://finnhub.io/api/news?id=880f03ba7e81048e0aebf80b9e558d26a95dadedeeeb78a657d262fb3ef5dfaa)**  
+*Yahoo · 4h前*  
+The GPU giant expects almost $20 billion in CPU sales this year.
 
 ---
 
@@ -48,7 +48,7 @@ Stock market sentiment is sensitive to AI spending fears which have returned on 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-22 | 監控 | $92.96 | — | 自動更新 |
+| 2026-10-23 | 監控 | $85.49 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Stock market sentiment is sensitive to AI spending fears which have returned on 
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
