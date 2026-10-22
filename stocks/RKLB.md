@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$53.67** |
-| 今日變動 | ▲ $2.77　(+5.44%) |
+| 現價 | **$51.22** |
+| 今日變動 | ▼ $2.45　(-4.56%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $223　(▼29.4%) |
+| 未實現盈虧 | ▼ $248　(▼32.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $63.52 | — |
-| Put Wall（支撐） | $50.00 | -6.8% |
-| Call Wall（阻力） | $55.00 | +2.5% |
+| Gamma Flip | $54.36 | — |
+| Put Wall（支撐） | $50.00 | -2.4% |
+| Call Wall（阻力） | $55.00 | +7.4% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[RKLB Is Among Nasdaq’s Top 5 Losers So Far This Month, Yet Analysts See 90% Upside — Can Neutron Justify Its SpaceX Premium?](https://finnhub.io/api/news?id=4f5e53531702b6fd12aa424dba5a8ffdfe92e41b9d93ba4daeb1f892ae8f3f67)**  
-*Yahoo · 6h前*  
-RKLB trades at 26.6x forward EV/sales, about 89% above SpaceX, while Redwire has the lowest valuation multiples.
+- **[Stock Market Today, Oct. 22: SpaceX Earnings Beat Sparks Profit-Taking](https://finnhub.io/api/news?id=fe716435121167a75c4f19bf3b7d8637bea6dd9fab554b522b2b047276bd93a4)**  
+*Yahoo · 1h前*  
+Quarterly revenue jumped 161% and beat estimates, but a share unlock and profit-taking erased gains by close, today, Oct. 22, 2026.
 
-- **[Rocket Lab (RKLB) Stock Could Be Above Fair Value As Neutron Launch Slips To 2027](https://finnhub.io/api/news?id=92281ff703c29573c7f1ee119eba045e637e3b816c6e6b40447c56ee66086d78)**  
-*Yahoo · 10h前*  
-Rocket Lab has had a rough stretch on the screen this year, yet over a three year horizon the stock is still up a very large amount, which puts a spotlight on w…
+- **[If I Could Only Buy 1 Space Stock After the Rocket Lab Crash, It Would Be This One](https://finnhub.io/api/news?id=f954d74d5a704bf6aab528c77be7f12f370ed2063bca90e3b96c14f268ac42c3)**  
+*Yahoo · 5h前*  
+Intuitive Machines is growing faster and trades at a much lower valuation.
 
-- **[Cathie Wood Trimmed Ark's Alphabet Stake Even as Google Search Revenue Grew, While Ark Piled Into Rocket Lab Even After Its Neutron Launch Delay. Is Ark Betting Against the Wrong AI Winner?](https://finnhub.io/api/news?id=028ad676e5d15edc6914371c7fd5b34a6468974233aaf327cfc19b1cadf00b52)**  
-*Yahoo · 13h前*  
-Cathie Wood is buying more Rocket Lab despite its Neutron launch delay while trimming stake in Alphabet.
+- **[SpaceX and AST SpaceMobile Sink 6%, Rocket Lab Falls 5% as Tech Selloff Hits High-Flying Space Stocks](https://finnhub.io/api/news?id=3585fc1514cd1317afac9d1b4764fa6cf2739fd78b449a1708d9a985ac768eff)**  
+*Yahoo · 7h前*  
+High-flying tech stocks are sliding on a risk-off turn, and space names are falling hardest. SpaceX (NASDAQ:SPCX) stock is leading the drop just days after the …
 
 ---
 
@@ -48,7 +48,7 @@ Cathie Wood is buying more Rocket Lab despite its Neutron launch delay while tri
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-22 | 監控 | $53.67 | — | 自動更新 |
+| 2026-10-23 | 監控 | $51.22 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Cathie Wood is buying more Rocket Lab despite its Neutron launch delay while tri
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
