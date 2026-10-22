@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $9.20 | — |
-| Put Wall（支撐） | $9.00 | -2.7% |
+| Put Wall（支撐） | $8.00 | -13.5% |
 | Call Wall（阻力） | $10.00 | +8.1% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Supermicro Brings NVIDIA Aerial RAN Computer Solutions to the Network Edge with Nokia to Enable Low-latency AI Services](https://finnhub.io/api/news?id=7bb14150e6b7fede459086e3d2980fa3879df4d941527f971876ddd718a48f7c)**  
-*Yahoo · 11h前*  
-Super Micro Computer, Inc. (NASDAQ: SMCI), an AI, Enterprise, Storage, and 5G/Edge Total IT Solution Provider featuring Data Center Building Block Solutions® (D…
+- **[Nokia Q3 profit rises on AI-driven network demand, outlook unchanged](https://finnhub.io/api/news?id=d1e656b7bf7d14003e63aa4248dd02c82c8a827563625ab8865be3c08bc4d617)**  
+*Yahoo · 6h前*  
+Investing.com-- Nokia Oyj (ST:NOKIA) reported a 35% rise in third-quarter comparable operating profit on Thursday, driven by strong demand for network infrastru…
 
-- **[Nokia advances AI-RAN toward commercial deployment and physical AI, launches sovereign agentic AI platform for telco autonomy with NVIDIA](https://finnhub.io/api/news?id=558dcae02a6ce5d2743fee32732fd3a01889b733437af1c2a0ed2a420c6c52f5)**  
-*Yahoo · 11h前*  
-Press Release Nokia advances AI-RAN toward commercial deployment and physical AI, launches sovereign agentic AI platform for telco autonomy with NVIDIA New capa…
+- **[NOK Stock Heads For A Green Week After A 10% Jump In Q3 Sales As AI And Cloud Demand Drives Growth](https://finnhub.io/api/news?id=3302c822f06a2bbb8732849a5e59d4beebd807bbf531c7b99344408d50dfc485)**  
+*Yahoo · 6h前*  
+Nokia’s comparable operating profit jumped 35%, driven by AI and cloud demand.
 
-- **[Cadence AI Super Agents Enable Nokia to Accelerate Electronic System Design on Millennium M2000 Supercomputer](https://finnhub.io/api/news?id=c20ff9cf8ba2cbb453ae44199aff633e70cb5c00dc1306efb11db3de03fb747b)**  
-*Yahoo · 11h前*  
-SAN JOSE, Calif., October 21, 2026--Cadence (Nasdaq: CDNS) today announced that Nokia is deploying the Cadence® AuraStack™ AI Super Agent on the Cadence Millenn…
+- **[Nokia: Q3 Earnings Snapshot](https://finnhub.io/api/news?id=14741e294cd80ef0356504a7bf67c078181cf9dc2cd27388a443a5a8ba66254b)**  
+*Yahoo · 7h前*  
+ESPOO, Finland (AP) — ESPOO, Finland (AP) — Nokia Corp. (NOK) on Thursday reported third-quarter net income of $174.
 
 ---
 
@@ -59,4 +59,4 @@ SAN JOSE, Calif., October 21, 2026--Cadence (Nasdaq: CDNS) today announced that 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
