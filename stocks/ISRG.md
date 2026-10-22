@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$428.12** |
-| 今日變動 | ▼ $9.88　(-2.26%) |
+| 現價 | **$443.85** |
+| 今日變動 | ▲ $15.73　(+3.67%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $50　(▼5.5%) |
+| 未實現盈虧 | ▼ $18　(▼2.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $421.45 | — |
-| Put Wall（支撐） | $400.00 | -6.6% |
-| Call Wall（阻力） | $435.00 | +1.6% |
+| Gamma Flip | $420.94 | — |
+| Put Wall（支撐） | $430.00 | -3.1% |
+| Call Wall（阻力） | $450.00 | +1.4% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought](https://finnhub.io/api/news?id=28a95d10a4f0e1d323fc0351e20b62acb5676612d8445d4eda03b103924f16db)**  
+*Yahoo · 7h前*  
+Ark Invest bought into some market laggards on Wednesday.
+
+- **[Revvity Launches Signals LabGistics to Coordinate Scientific Workflows](https://finnhub.io/api/news?id=a76f0ed353a1c120d797e571e941ea44b4c416e3059d34b06d12f5e99c709e26)**  
+*Yahoo · 9h前*  
+RVTY's AI-first Signals LabGistics aims to streamline scientific workflows, enhance R&D-to-manufacturing coordination and expand software growth opportunities.
+
 - **[How Has Intuitive Surgical's Story Changed?](https://finnhub.io/api/news?id=fdbe53f2595a5de5919ca73be85ac9673fb0d02bf0496e8d5d803d017c5d89b4)**  
-*Yahoo · 1h前*  
+*Yahoo · 11h前*  
 For questions about this article or underlying research, email help@trefis.com.
-
-- **[Intuitive Surgical (ISRG) Stock Faces A Q3 Earnings Valuation Reality Check](https://finnhub.io/api/news?id=762c77612a0876132157b10f3a76f519103ca734b917bf560d75db8ae7917fe3)**  
-*Yahoo · 2h前*  
-Intuitive Surgical stock came into Thursday with strong recent momentum, then slipped about 2% after the market had its first clean look at Q3 2026 numbers. The…
-
-- **[2 Healthcare Stocks to Buy After Crushing Q3 Earnings Expectations: ELV & ISRG](https://finnhub.io/api/news?id=9f0ab54d9a8a48c4749e2d0c32b39d7ff080f86fd0d18c9bdcb5686978ed15e5)**  
-*Yahoo · 16h前*  
-Intuitive Surgical (ISRG) and Elevance Health (ELV) delivered impressive Q3 earnings beats, making both healthcare stocks worth considering as their growth outl…
 
 ---
 
@@ -48,7 +48,7 @@ Intuitive Surgical (ISRG) and Elevance Health (ELV) delivered impressive Q3 earn
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-22 | 監控 | $428.12 | — | 自動更新 |
+| 2026-10-23 | 監控 | $443.85 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical (ISRG) and Elevance Health (ELV) delivered impressive Q3 earn
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
