@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-22 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $337.08 | — |
-| Put Wall（支撐） | $330.00 | -1.4% |
+| Gamma Flip | $334.91 | — |
+| Put Wall（支撐） | $320.00 | -4.4% |
 | Call Wall（阻力） | $350.00 | +4.6% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Prediction: This Artificial Intelligence (AI) Stock Will Be the Biggest Winner of 2027](https://finnhub.io/api/news?id=72d5327b3d54600f1d9ec7f0b61b3d43362c51c0fdecdadb39568820c9455550)**  
+- **[Guidance Raise And Momentum - Garmin Stock Has Both](https://finnhub.io/api/news?id=c5856fb01d45610bcbda3c033f8c735a05698594e88bd2c43f6c5849a6811c57)**  
 *Yahoo · 1h前*  
-Alphabet has the potential to be the best-performing AI mega-cap in 2027.
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Why Meta didn't offer 2027 revenue guidance: Q3 earnings takeaways](https://finnhub.io/api/news?id=ca88020fef488eacece103c3012651aef4ccfc774f800df4015354b83bb15ae2)**  
-*Yahoo · 2h前*  
-Meta's (META) third quarter earnings results were posted on Wednesday, beating Wall Street's estimates. Revenue came in at $64.6 billion, topping Wall Street's …
+- **[Google and Voltus Announce One Gigawatt Bring Your Own Capacity Agreement in PJM](https://finnhub.io/api/news?id=28f0f7d58390b6a6ec48febb634c08b4c7d5582d93e0e1717b161da9246a92bd)**  
+*Yahoo · 1h前*  
+Google-funded virtual power plant to strengthen the grid, support energy affordability, and deliver financial value to homes and businesses Google-funded virtua…
 
-- **[Kazakhstan’s AIFC Regulator Turns to Apple and Google to Enforce Coinbase, HTX Injunctions](https://finnhub.io/api/news?id=0537f70210129aee0bbb1e00c5dc17da8c4b3f81a75e14c6007f42e0ce6c56a8)**  
+- **[AI just saved SpaceX: record $14.6B quarter, possible merger](https://finnhub.io/api/news?id=42fe9eb5deb82ea56b55b03c61ea85a4a93ff67a8e82b6415fe305e4034c44dd)**  
 *Yahoo · 2h前*  
-After a court declined to order Apple and Google directly, the regulator of Astana's financial center says it will serve them the injunctions it won against Coi…
+SpaceX just reported $14.6 billion in quarterly revenue and the first profit in its history, and the surprise is where the money came from: AI. Host Ejaaz Ahama…
 
 ---
 
@@ -59,4 +59,4 @@ After a court declined to order Apple and Google directly, the regulator of Asta
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:03 HKT*
