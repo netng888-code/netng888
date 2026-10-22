@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $213.24 | — |
-| Put Wall（支撐） | $220.00 | -0.9% |
+| Gamma Flip | $211.56 | — |
+| Put Wall（支撐） | $200.00 | -9.9% |
 | Call Wall（阻力） | $230.00 | +3.6% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[This $40 Gold Mining Stock Could Turn $5,000 Into a Fortune](https://finnhub.io/api/news?id=5a13e37cb3ff395af6878be498273122f868c65549bb5fb5beac42378fe7a6f3)**  
+- **[Zadara Achieves NVIDIA AI Cloud Ready Validation and Will Showcase its AI-Optimized Platform at NVIDIA GTC Berlin 2026](https://finnhub.io/api/news?id=1bc483f5a5562bb8d59762e8d2fa14751e8d773d1362af0e29c93fcaa7e60529)**  
 *Yahoo · 1h前*  
-Barrick Mining's shares are down more than 6% this year, but all signs point to growth for the tier 1 gold mining company.
+NVIDIA confirmed that Zadara's full-stack platform passed NVIDIA AI Cloud Ready validation for ISV partners for sovereign, multi-tenant AI clouds and AI Factori…
 
-- **[Prediction: This Artificial Intelligence (AI) Stock Will Be the Biggest Winner of 2027](https://finnhub.io/api/news?id=72d5327b3d54600f1d9ec7f0b61b3d43362c51c0fdecdadb39568820c9455550)**  
+- **[How QNX software is fueling BlackBerry's next act](https://finnhub.io/api/news?id=9456ee0cc24c64f527465769796c2776325f9a2e7aac37a9286200161f329b18)**  
 *Yahoo · 1h前*  
-Alphabet has the potential to be the best-performing AI mega-cap in 2027.
+QNX president, John Wall, sits down with Yahoo Finance Senior Reporter Brooke DiPalma to take a closer look at BlackBerry's (BB) upcoming revival.
 
-- **[Why Danaher Stock Bounced Higher Today](https://finnhub.io/api/news?id=c67c19b7512cc5cccfb274a173709c1078f28898009cbac2560bbbfa016b712f)**  
+- **[LG Innotek is Collaborating with NVIDIA, Taking One Step Closer to Securing a Leading Position in the Physical AI Market](https://finnhub.io/api/news?id=2d4bd2c2999a73e4c30fef987f2ca1d8edc6c6605d4eaecf3b0f213910c4d7b8)**  
 *Yahoo · 1h前*  
-The conglomerate posted its latest set of quarterly earnings that morning.
+LG Innotek (CEO Moon Hyuksoo, 011070) is collaborating with NVIDIA to build sensing solution for physical AI and robotics. This marks a significant step forward…
 
 ---
 
@@ -59,4 +59,4 @@ The conglomerate posted its latest set of quarterly earnings that morning.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:03 HKT*
