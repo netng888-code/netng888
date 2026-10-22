@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$244.76** |
-| 今日變動 | ▲ $4.34　(+1.81%) |
+| 現價 | **$223.47** |
+| 今日變動 | ▼ $21.29　(-8.70%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $125　(▼4.9%) |
+| 未實現盈虧 | ▼ $338　(▼13.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $240.70 | — |
-| Put Wall（支撐） | $200.00 | -18.3% |
-| Call Wall（阻力） | $250.00 | +2.1% |
+| Gamma Flip | $239.92 | — |
+| Put Wall（支撐） | $200.00 | -10.5% |
+| Call Wall（阻力） | $300.00 | +34.2% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[S&P 500 Premarket Movers on Oct. 22: Allegion and Lockheed Martin Gain, Snap-on and Lam Research Fall](https://finnhub.io/api/news?id=0e6587981db268f781dd617f08e9b6416cccf336af78afa043bf6ad90d8ac194)**  
-*ChartMill · 0h前*  
-S&P 500 premarket movers on Oct. 22: Allegion and Lockheed Martin among gainers, while Snap-on and Lam Research led declines.
+- **[1 of Wall Street’s favorite stocks to research further and 2 we ignore](https://finnhub.io/api/news?id=43736caa17b1a2fd4dc0dcf261dcaead9f2fc7b48c49a291fcc43a967da7224a)**  
+*Yahoo · 4h前*  
+Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it’s important to remain skeptical …
 
-- **[Stock Market Today: SpaceX and Super Micro Revive the AI Trade as Meta Lifts Its Capex Floor and Tesla Beats on a Shrinking Car Business](https://finnhub.io/api/news?id=d5df35fb2fd8f77c3ef3e05888cdbd1aab8ca92c62737317b74072bc48857b1c)**  
-*ChartMill · 2h前*  
-The Nasdaq gained 1.1% as SpaceX and Super Micro reignited the AI trade. After the bell, Meta beat and raised the low end of its capex range, Tesla topped estim…
+- **[Chip Stocks Fall as Supply Warning Deepens AI Selloff: Marvell and AMD Sink 8%, Intel Drops 7%](https://finnhub.io/api/news?id=5f60df6060f5377484118df074e70e99b09cbb1e2c929d709401ed6890e3622e)**  
+*Yahoo · 7h前*  
+A chipmaking equipment maker’s supply warning is turning the artificial intelligence (AI) trade into a broad semiconductor selloff, and the chip designers most …
 
-- **[MACOM, Semtech, FormFactor, Penguin Solutions, and Seagate stocks trade up, what you need to know](https://finnhub.io/api/news?id=1018d0f1eea16329a3ccf653a61cb5348be8708c052c9ed0f31a4416cc97f2aa)**  
-*Yahoo · 13h前*  
-A number of stocks jumped in the afternoon session after strong demand for artificial intelligence hardware and robust corporate earnings reignited investor opt…
+- **[MRVL Taps Into AI Infrastructure Growth: What's Next for Investors?](https://finnhub.io/api/news?id=684a46bcd007305ce6429ab78c1b5f587c61fe7f85c239fac32026fb12dffe89)**  
+*Yahoo · 9h前*  
+Marvell Technology is riding AI infrastructure demand as custom silicon, optical connectivity and switching solutions expand.
 
 ---
 
@@ -48,7 +48,7 @@ A number of stocks jumped in the afternoon session after strong demand for artif
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-22 | 監控 | $244.76 | — | 自動更新 |
+| 2026-10-23 | 監控 | $223.47 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks jumped in the afternoon session after strong demand for artif
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
