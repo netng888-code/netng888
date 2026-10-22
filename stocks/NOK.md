@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$9.25** |
-| 今日變動 | ▲ $0.23　(+2.55%) |
+| 現價 | **$7.88** |
+| 今日變動 | ▼ $1.37　(-14.81%) |
 | 持倉數量 | 200 股 |
 | 平均成本 | $12.458 |
-| 未實現盈虧 | ▼ $642　(▼25.8%) |
+| 未實現盈虧 | ▼ $916　(▼36.7%) |
 
 ---
 
@@ -20,27 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.20 | — |
-| Put Wall（支撐） | $8.00 | -13.5% |
-| Call Wall（阻力） | $10.00 | +8.1% |
+| Gamma Flip | $9.15 | — |
+| Put Wall（支撐） | $7.00 | -11.2% |
+| Call Wall（阻力） | $10.00 | +26.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nokia Q3 profit rises on AI-driven network demand, outlook unchanged](https://finnhub.io/api/news?id=d1e656b7bf7d14003e63aa4248dd02c82c8a827563625ab8865be3c08bc4d617)**  
-*Yahoo · 6h前*  
-Investing.com-- Nokia Oyj (ST:NOKIA) reported a 35% rise in third-quarter comparable operating profit on Thursday, driven by strong demand for network infrastru…
+- **[Most-Active US Stocks on Oct. 22: SHFS Has Heaviest Volume](https://finnhub.io/api/news?id=3460d13cfd2a6e8972de0b7b010e57e826db83784725b707b053368c2a0c2b29)**  
+*ChartMill · 5h前*  
+Oct. 22 most-active US stocks included SHFS, NOK, SDST, CJMB, XXII, RBNE, STAK, INTC, NVDA and CRWV, with several names trading far above or below usual volume.
 
-- **[NOK Stock Heads For A Green Week After A 10% Jump In Q3 Sales As AI And Cloud Demand Drives Growth](https://finnhub.io/api/news?id=3302c822f06a2bbb8732849a5e59d4beebd807bbf531c7b99344408d50dfc485)**  
-*Yahoo · 6h前*  
-Nokia’s comparable operating profit jumped 35%, driven by AI and cloud demand.
+- **[Nokia Oyj Reports Q3 2026 Financial Results and Declares EUR 0.03 Dividend](https://finnhub.io/api/news?id=b7ffd29067a1fb1c2fc5fbb75edb4560c5ff48b49c50ba282bd67d6cc7e96655)**  
+*Fintel · 6h前*
 
-- **[Nokia: Q3 Earnings Snapshot](https://finnhub.io/api/news?id=14741e294cd80ef0356504a7bf67c078181cf9dc2cd27388a443a5a8ba66254b)**  
-*Yahoo · 7h前*  
-ESPOO, Finland (AP) — ESPOO, Finland (AP) — Nokia Corp. (NOK) on Thursday reported third-quarter net income of $174.
+- **[Nokia's AI Business Soars 126%, Data Center Boom Is Becoming a Big Profit Story](https://finnhub.io/api/news?id=d4661326bbc51426dceb63cdfb28506fe806b566d2d3be7393ed99223caeaa17)**  
+*Benzinga · 15h前*  
+Nokia beats Q3 expectations with $5.93B in sales and 10c EPS, driven by surging AI demand despite telecom slowdowns.
 
 ---
 
@@ -48,7 +47,7 @@ ESPOO, Finland (AP) — ESPOO, Finland (AP) — Nokia Corp. (NOK) on Thursday re
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-22 | 監控 | $9.25 | — | 自動更新 |
+| 2026-10-23 | 監控 | $7.88 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ ESPOO, Finland (AP) — ESPOO, Finland (AP) — Nokia Corp. (NOK) on Thursday re
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
