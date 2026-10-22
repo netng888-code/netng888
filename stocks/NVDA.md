@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$221.97** |
-| 今日變動 | ▲ $5.50　(+2.54%) |
+| 現價 | **$212.21** |
+| 今日變動 | ▼ $9.76　(-4.40%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $658　(▲17.4%) |
+| 未實現盈虧 | ▲ $463　(▲12.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $211.56 | — |
-| Put Wall（支撐） | $200.00 | -9.9% |
-| Call Wall（阻力） | $230.00 | +3.6% |
+| Gamma Flip | $212.52 | — |
+| Put Wall（支撐） | $200.00 | -5.8% |
+| Call Wall（阻力） | $220.00 | +3.7% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Zadara Achieves NVIDIA AI Cloud Ready Validation and Will Showcase its AI-Optimized Platform at NVIDIA GTC Berlin 2026](https://finnhub.io/api/news?id=1bc483f5a5562bb8d59762e8d2fa14751e8d773d1362af0e29c93fcaa7e60529)**  
+- **[Why Spotify Stock Popped Today](https://finnhub.io/api/news?id=15914c7f59a293dabcafe195080a4b394a11e1339fe43bad634e0053c65f1b82)**  
 *Yahoo · 1h前*  
-NVIDIA confirmed that Zadara's full-stack platform passed NVIDIA AI Cloud Ready validation for ISV partners for sovereign, multi-tenant AI clouds and AI Factori…
+The streaming platform has a simple formula for success.
 
-- **[How QNX software is fueling BlackBerry's next act](https://finnhub.io/api/news?id=9456ee0cc24c64f527465769796c2776325f9a2e7aac37a9286200161f329b18)**  
+- **[Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries](https://finnhub.io/api/news?id=468b448105d7fd3d73979c524a079d021603b30583eb8b266a4028d76ab9d3ab)**  
 *Yahoo · 1h前*  
-QNX president, John Wall, sits down with Yahoo Finance Senior Reporter Brooke DiPalma to take a closer look at BlackBerry's (BB) upcoming revival.
+Bernstein cut its price target as debt concerns weigh on the AI infrastructure provider, today, Oct. 22, 2026.
 
-- **[LG Innotek is Collaborating with NVIDIA, Taking One Step Closer to Securing a Leading Position in the Physical AI Market](https://finnhub.io/api/news?id=2d4bd2c2999a73e4c30fef987f2ca1d8edc6c6605d4eaecf3b0f213910c4d7b8)**  
+- **[Up 3,700%, Should You Buy Sandisk Right Now?](https://finnhub.io/api/news?id=c380d3e0754099b3cdbcc893decdeebc3d3d5ebd0c5cc9c87c46de5e3f65c10c)**  
 *Yahoo · 1h前*  
-LG Innotek (CEO Moon Hyuksoo, 011070) is collaborating with NVIDIA to build sensing solution for physical AI and robotics. This marks a significant step forward…
+Sandisk looks intriguing, but the long-term memory of its investors could bode poorly for the stock.
 
 ---
 
@@ -48,7 +48,7 @@ LG Innotek (CEO Moon Hyuksoo, 011070) is collaborating with NVIDIA to build sens
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-22 | 監控 | $221.97 | — | 自動更新 |
+| 2026-10-23 | 監控 | $212.21 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ LG Innotek (CEO Moon Hyuksoo, 011070) is collaborating with NVIDIA to build sens
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
