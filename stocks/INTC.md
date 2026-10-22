@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $95.03 | — |
-| Put Wall（支撐） | $90.00 | -3.2% |
+| Put Wall（支撐） | $80.00 | -13.9% |
 | Call Wall（阻力） | $100.00 | +7.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Texas Instruments (TXN) Q3 Earnings and Revenues Top Estimates](https://finnhub.io/api/news?id=6417efee5303527c2c2402563fdcc1a9d113b847e402acd900471d062f672e3d)**  
+- **[Should You Trim Or Add To Your Intel Position Now?](https://finnhub.io/api/news?id=c2db46b151533de950aebf22a235917384f0fc1e6789f9e69c62d63811c963fe)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
+
+- **[What Intel, Boeing, Nike Have In Common With Each Other — And Apple](https://finnhub.io/api/news?id=93501ae263c4a65a24587bcf55b27ed550437430d4706725baf5013a461b0a79)**  
 *Yahoo · 2h前*  
-Texas Instruments (TXN) delivered earnings and revenue surprises of +9.17% and +2.17%, respectively, for the quarter ended September 2026. Do the numbers hold c…
+Three S&P 500 ccompanies in different stages of comebacks show why it's important to pay attention to corporate turnounds.
 
-- **[2 Reasons Why Dell Stock Is Having a Super Day](https://finnhub.io/api/news?id=96b863cead7c0a8af72f20570edcfdb2815883a633f2d56299769b793f67f0ab)**  
-*Yahoo · 5h前*  
-Dell stock is on pace for its best daily percentage gain since Sept. 11.
-
-- **[Intel’s $28B Ohio Chip Project Hits Construction Milestone After Years Of Delays — Arizona Fab Targets 2028 Start](https://finnhub.io/api/news?id=09a241c5532847859dd335abef472930a78c2640d951d6c94ea750d0fc53fe6f)**  
-*Yahoo · 5h前*  
-Intel's Ohio factory, originally expected to begin production in 2025, is now targeting operations in 2030–2031 as the chipmaker looks to expand U.S. manufactur…
+- **[Chip Stock Rebound Comes Undone After Lam Research Stokes Spending Fears](https://finnhub.io/api/news?id=3d13cb6e99262c55c56433177ae1b40e466a291855e0e1d04001a6cb3bd763df)**  
+*Yahoo · 2h前*  
+Stock market sentiment is sensitive to AI spending fears which have returned on Thursday, with chip stocks falling across the board.
 
 ---
 
@@ -59,4 +59,4 @@ Intel's Ohio factory, originally expected to begin production in 2025, is now ta
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
