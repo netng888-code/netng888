@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-10-22 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $3.17 | — |
-| Put Wall（支撐） | $3.00 | -2.0% |
+| Put Wall（支撐） | $2.50 | -18.3% |
 | Call Wall（阻力） | $5.00 | +63.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
@@ -51,4 +51,4 @@ A Coco spokesperson said the company is ‘confident that this frivolous lawsuit
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
