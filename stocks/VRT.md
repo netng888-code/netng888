@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Vertiv (VRT) stock is up, what you need to know](https://finnhub.io/api/news?id=4d0d96fb831bdc6d099558c63bdeaa810216dbe0e7736dfe88255b4c2094ac0a)**  
-*Yahoo · 2h前*  
-Shares of data center products and services company Vertiv (NYSE:VRT) jumped 4.2% in the afternoon session after the company and NVIDIA launched an artificial i…
+- **[What Is Vertiv Holdings Co (VRT) Really Changing With 14 Day AI Factory Builds?](https://finnhub.io/api/news?id=ed7eb72f8c95bc0471a011de269b57c53145e33dec6c0b4ca83e6debb67dab53)**  
+*Yahoo · 6h前*  
+Vertiv Holdings Co (NYSE:VRT) and NVIDIA launched a DSX POD modular AI factory reference design that targets 14 day deployment cycles. The DSX POD uses pre engi…
 
-- **[Super Micro Soars 12% as Preliminary Revenue Blows Past Guidance on “Increased Demand for AI Platforms”](https://finnhub.io/api/news?id=aeba9ccc537ee8e2a88a8ca49a10181de4748914ea88bc8154ce36e733df65de)**  
+- **[Dassault Systèmes and Vertiv Team to Accelerate AI Factory Design and Deployment](https://finnhub.io/api/news?id=0323c54be3854b236e5c694defcaa2338ca4623c77921360bc7102d8cdf3a8e9)**  
 *Yahoo · 8h前*  
-Key TakeawaysSuper Micro shares jumped 12% today after the company said fiscal first-quarter revenue should come in at $18. 5 billion to $19.
+BERLIN, October 22, 2026--Dassault Systèmes (Euronext Paris: FR0014003TT8, DSY.PA) and Vertiv Holdings Co. (NYSE: VRT) today announced a collaboration to enable…
 
-- **[NVIDIA unveils modular AI factories to cut data centre deployment to 14 days](https://finnhub.io/api/news?id=674a70a617158bc831373dc38e83f3fec9b354516a06db943ad8f1794b6db198)**  
-*Yahoo · 9h前*  
-Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) has unveiled a modular AI factory design that could reduce on-site deployment from 6 months to 14 days, as chief executive …
+- **[Vertiv (VRT) stock is up, what you need to know](https://finnhub.io/api/news?id=4d0d96fb831bdc6d099558c63bdeaa810216dbe0e7736dfe88255b4c2094ac0a)**  
+*Yahoo · 16h前*  
+Shares of data center products and services company Vertiv (NYSE:VRT) jumped 4.2% in the afternoon session after the company and NVIDIA launched an artificial i…
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) has unveiled a modular AI factory design th
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
