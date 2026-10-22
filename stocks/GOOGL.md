@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-22 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$334.76** |
-| 今日變動 | ▼ $5.51　(-1.62%) |
+| 現價 | **$324.22** |
+| 今日變動 | ▼ $10.54　(-3.15%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $1,794　(▲36.6%) |
+| 未實現盈虧 | ▲ $1,584　(▲32.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $334.91 | — |
-| Put Wall（支撐） | $320.00 | -4.4% |
-| Call Wall（阻力） | $350.00 | +4.6% |
+| Gamma Flip | $333.33 | — |
+| Put Wall（支撐） | $320.00 | -1.3% |
+| Call Wall（阻力） | $350.00 | +8.0% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Guidance Raise And Momentum - Garmin Stock Has Both](https://finnhub.io/api/news?id=c5856fb01d45610bcbda3c033f8c735a05698594e88bd2c43f6c5849a6811c57)**  
-*Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
-
-- **[Google and Voltus Announce One Gigawatt Bring Your Own Capacity Agreement in PJM](https://finnhub.io/api/news?id=28f0f7d58390b6a6ec48febb634c08b4c7d5582d93e0e1717b161da9246a92bd)**  
-*Yahoo · 1h前*  
-Google-funded virtual power plant to strengthen the grid, support energy affordability, and deliver financial value to homes and businesses Google-funded virtua…
-
-- **[AI just saved SpaceX: record $14.6B quarter, possible merger](https://finnhub.io/api/news?id=42fe9eb5deb82ea56b55b03c61ea85a4a93ff67a8e82b6415fe305e4034c44dd)**  
+- **[Meta Eyes an Early Equity Deal for Its AI War Chest—and Berkshire Could Be a Buyer](https://finnhub.io/api/news?id=03304755e1669e8fa539e66a0f637158ca3612fb620abed9e8de2eade97bf3b5)**  
 *Yahoo · 2h前*  
-SpaceX just reported $14.6 billion in quarterly revenue and the first profit in its history, and the surprise is where the money came from: AI. Host Ejaaz Ahama…
+Berkshire participated in Alphabet’s $85 billion equity fund deal in June that could be a model for any Meta equity raise.
+
+- **[Roundtable CEO, Coinbase's D'Agostino discuss USDC "forcing function" partnership](https://finnhub.io/api/news?id=8918fe9b02dcaac773f9afd01247d9275f4396c6f76b0963a58492a348dc920f)**  
+*Yahoo · 2h前*  
+Roundtable CEO James Heckman and Coinbase Head of Institutional Strategy John D’Agostino told The Block’s that real-time USDC settlement is the forcing function…
+
+- **[Apple’s foldable iPhone has a $2,000 app problem](https://finnhub.io/api/news?id=44f7e2c85ac670d2eca210b86d3ddd07a722d4b77e3c3685c25fb464e0f88e87)**  
+*Yahoo · 2h前*  
+Apple's (AAPL) new foldable iPhone Duo hits stores Friday. Yahoo Finance Tech Editor Dan Howley got his hands on one and joins Brooke DiPalma on Market Dominati…
 
 ---
 
@@ -48,7 +48,7 @@ SpaceX just reported $14.6 billion in quarterly revenue and the first profit in 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-22 | 監控 | $334.76 | — | 自動更新 |
+| 2026-10-23 | 監控 | $324.22 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ SpaceX just reported $14.6 billion in quarterly revenue and the first profit in 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
