@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-22 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-22 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $182.97 | — |
 | Put Wall（支撐） | $190.00 | -5.8% |
-| Call Wall（阻力） | $205.00 | +1.6% |
+| Call Wall（阻力） | $200.00 | +-0.9% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir Accelerates Delivery of Sovereign AI to New Wave of Customers](https://finnhub.io/api/news?id=f34613f45d1e10f39a82cac2bc38e5c62045531a2b6e8ac313d2a540478a68be)**  
+- **[Palantir Elevates Aplos Data to Vanguard: Elite](https://finnhub.io/api/news?id=82470ff8c631aa3100e5784d46c506322808773e192086ee894325650ab7328b)**  
+*Yahoo · 2h前*  
+COLUMBUS, Ohio & MIAMI, October 22, 2026--Palantir Technologies Inc. (NASDAQ: PLTR) and Aplos Data, LLC, today announced that Palantir has named Aplos Data, the…
+
+- **[If a Market Correction Is Coming, History Says This Is the Smartest Investing Move You Can Make](https://finnhub.io/api/news?id=0d4dc3065332fe29f2cac69c24272305b2189cf93c48aba86887a445e6c70c00)**  
 *Yahoo · 3h前*  
-MIAMI, October 21, 2026--Palantir Technologies Inc. (NASDAQ: PLTR) today announced the delivery of critical sovereign AI outcomes to flagship customers. Since P…
+It might happen soon, and you should prepare now.
 
-- **[Palantir Rises 4% as Software Stocks Rally; ServiceNow Gains 3%, Salesforce Holds Flat](https://finnhub.io/api/news?id=311496efe7500bc9c1abecb0f74f4921ce9161abca586d8584117491974514b7)**  
-*Yahoo · 6h前*  
-Palantir is pulling away from its software peers as buyers chase AI platform names, but a steep valuation and an undisclosed federal partnership deal leave the …
-
-- **[What Could Surprise Palantir Stock Investors On The Upside?](https://finnhub.io/api/news?id=62dff5932122913ae5c89c298d61b5312530e2587b41b0f6332586cf7204e603)**  
-*Yahoo · 10h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[Michael Burry Is Betting Against These 4 AI Stocks. Is He Right?](https://finnhub.io/api/news?id=c52692b0eaec770322041cf971a6f7f181cd7240665e126ae71987ece5361034)**  
+*Yahoo · 7h前*  
+He made his fortune shorting the market, and he's preparing for a similar pullback.
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-22 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-22 21:04 HKT*
