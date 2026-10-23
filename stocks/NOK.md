@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,25 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $9.15 | — |
-| Put Wall（支撐） | $7.00 | -11.2% |
+| Put Wall（支撐） | $8.00 | --1.5% |
 | Call Wall（阻力） | $10.00 | +26.9% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Most-Active US Stocks on Oct. 22: SHFS Has Heaviest Volume](https://finnhub.io/api/news?id=3460d13cfd2a6e8972de0b7b010e57e826db83784725b707b053368c2a0c2b29)**  
-*ChartMill · 5h前*  
-Oct. 22 most-active US stocks included SHFS, NOK, SDST, CJMB, XXII, RBNE, STAK, INTC, NVDA and CRWV, with several names trading far above or below usual volume.
+- **[Graco Sinks 15% as Q3 Miss and Light Q4 Outlook Overshadow “A Solid Quarter”](https://finnhub.io/api/news?id=5bcddafa63d4182aa5ac497201e4a0445ac9f3178f4e293abd6c7ff764037f49)**  
+*Yahoo · 6h前*  
+Key TakeawaysGraco shares fell 15% on Thursday after its third-quarter adjusted EPS and revenue missed estimates and its fourth-quarter revenue outlook came in …
 
-- **[Nokia Oyj Reports Q3 2026 Financial Results and Declares EUR 0.03 Dividend](https://finnhub.io/api/news?id=b7ffd29067a1fb1c2fc5fbb75edb4560c5ff48b49c50ba282bd67d6cc7e96655)**  
-*Fintel · 6h前*
+- **[Nokia Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=37de4769e1aa83707e81630c0886c5466b013daa7bb3074df658f503d183d809)**  
+*Yahoo · 15h前*  
+Nokia (NYSE:NOK) reported third-quarter 2026 net sales growth of 9% on a constant-currency basis and said comparable operating margin expanded 220 basis points …
 
-- **[Nokia's AI Business Soars 126%, Data Center Boom Is Becoming a Big Profit Story](https://finnhub.io/api/news?id=d4661326bbc51426dceb63cdfb28506fe806b566d2d3be7393ed99223caeaa17)**  
-*Benzinga · 15h前*  
-Nokia beats Q3 expectations with $5.93B in sales and 10c EPS, driven by surging AI demand despite telecom slowdowns.
+- **[Nokia (NOK) Q3 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=ca29719291d932f1e2b58181f0892038c13ab97d645fd079a9f92ffeb6f816e8)**  
+*Yahoo · 16h前*  
+AI and cloud revenue surged 123% as Nokia accelerated infrastructure expansion.
 
 ---
 
@@ -58,4 +59,4 @@ Nokia beats Q3 expectations with $5.93B in sales and 10c EPS, driven by surging 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
