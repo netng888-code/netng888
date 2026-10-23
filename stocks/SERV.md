@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-10-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[Serve Robotics to Report Third Quarter 2026 Financial Results, Host Conference Call and Webcast on November 5](https://finnhub.io/api/news?id=47e1c4de3a1e210be72f05cdf37fd14461f1cff29c6cc0586bec2e323b343a19)**  
+*Yahoo · 1d前*  
+SAN FRANCISCO, Oct. 22, 2026 (GLOBE NEWSWIRE) -- Serve Robotics Inc. (“Serve”) (Nasdaq: SERV), a leading autonomous robotics company, today announced that it wi…
+
 - **[Battle over Chicago's delivery robots reaches the courts after outcry over alleged face scans](https://finnhub.io/api/news?id=e033e1e9d050388094db2bb6acb0099d9f1884b557f8b9096d4a0e8fa8cea565)**  
 *Yahoo · 2d前*  
 A Coco spokesperson said the company is ‘confident that this frivolous lawsuit will go away’
@@ -51,4 +55,4 @@ A Coco spokesperson said the company is ‘confident that this frivolous lawsuit
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
