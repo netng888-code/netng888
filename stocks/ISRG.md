@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[New Strong Buy Stocks for October 23rd](https://finnhub.io/api/news?id=e336868a2db5442772bf3d89ee96d915c8123bbcefdc8a95bffee1687ab5ff78)**  
+*Yahoo · 5h前*  
+UVE, HAS, TXN, URI and ISRG have been added to the Zacks Rank #1 (Strong Buy) List on October 23, 2026.
+
 - **[Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought](https://finnhub.io/api/news?id=28a95d10a4f0e1d323fc0351e20b62acb5676612d8445d4eda03b103924f16db)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 Ark Invest bought into some market laggards on Wednesday.
 
 - **[Revvity Launches Signals LabGistics to Coordinate Scientific Workflows](https://finnhub.io/api/news?id=a76f0ed353a1c120d797e571e941ea44b4c416e3059d34b06d12f5e99c709e26)**  
-*Yahoo · 9h前*  
+*Yahoo · 23h前*  
 RVTY's AI-first Signals LabGistics aims to streamline scientific workflows, enhance R&D-to-manufacturing coordination and expand software growth opportunities.
-
-- **[How Has Intuitive Surgical's Story Changed?](https://finnhub.io/api/news?id=fdbe53f2595a5de5919ca73be85ac9673fb0d02bf0496e8d5d803d017c5d89b4)**  
-*Yahoo · 11h前*  
-For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
