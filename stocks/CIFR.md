@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-10-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[Should You Wait Before Buying Cipher Digital Stock?](https://finnhub.io/api/news?id=25c1ca7bcdf1e89bf9960c891ac3607dea11a4bdc836649b6f0a3c911c2c7a0e)**  
-*Yahoo · 20h前*  
+*Yahoo · 1d前*  
 For questions about this article or underlying research, email help@trefis.com.
 
 - **[October 2026 Crypto Stocks To Watch](https://finnhub.io/api/news?id=2a6d4b5a2f7a2997406d1972ffc90f3cd59d4a1c50dfb7e9fdbb9b489e98dc23)**  
-*Yahoo · 20h前*  
+*Yahoo · 1d前*  
 Regulators just gave crypto platforms the green light to keep paying interest style rewards on certain digital assets, which keeps fresh oxygen flowing into thi…
 
 - **[Cipher Digital Inc. (CIFR) Rises Higher Than Market: Key Facts](https://finnhub.io/api/news?id=8c52d385f6cf79372392666ae44497ed571cfd8320b97820afc7c23e0bfa031f)**  
@@ -59,4 +59,4 @@ The latest trading day saw Cipher Digital Inc. (CIFR) settling at $9.13, represe
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
