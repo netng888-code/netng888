@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: Moderna Crashes, Meta Fuels AI Meltdown, But Warren Buffett Market Thriving](https://finnhub.io/api/news?id=f2043248724c6702d304287d04dbb5fe81c19e5c040b5136715db0bbddd5dc4f)**  
+- **[Dow Jones Futures Fall After Moderna Crashes, Meta Fuels AI Meltdown. Warren Buffett Market Is Thriving.](https://finnhub.io/api/news?id=842775a4a00dd1343a36615933b5601d7e4c8059640d2be7c19396a352aeedeb)**  
 *Yahoo · 1h前*  
 The S&P 500 and Nasdaq tumbled below 50-day lines as Meta led an AI stock rout. But the Warren Buffett market is thriving.
 
-- **[Bill Ackman Says Meta Can Finance 'Whatever They Want,' Points to $82 Billion Cash](https://finnhub.io/api/news?id=bc40abf7d2c78d49fb4ac2b1cd3d9b2231a8e81bdb017bf635e0e017179f1331)**  
+- **[3 Investment Grade Bond Ideas Riding Big Tech AI Capex Plans](https://finnhub.io/api/news?id=10484f97b5b04ec706bf39dbae4ee6a1f5602644fdd0d973936c3d601c58713d)**  
 *Yahoo · 1h前*  
-Billionaire investor Bill Ackman says Meta Platforms Inc. (NASDAQ:META) has the financial firepower to fund its massive artificial intelligence ambitions, point…
+Big Tech just put eye watering long term spending on the table, with Meta, Tesla and SpaceX sketching hundreds of billions in future AI and chip infrastructure …
 
-- **[Shopify Down 3% as ATB Cormark Downgrades the Stock After a 56% Three-Month Run](https://finnhub.io/api/news?id=eeecb26bb54da5aad107515eeb1db63c70addbe4ef05259670c060c9883335fc)**  
+- **[Nebius Has Cratered Over The Last 3 Months: This Wall Street Ratings Firm Says 2.5X Returns Will Materialize Soon](https://finnhub.io/api/news?id=4b99e7ab90fd03f5f1cefe0c67db417215322697ab9e50376774ec67092cbddc)**  
 *Yahoo · 1h前*  
-Key TakeawaysShopify shares fell 3% today after ATB Cormark downgraded the stock to Sector Perform from Outperform, with a C$234 price target. The downgrade fol…
+A Gartner forecast just sparked a brutal selloff that wiped nearly half of Nebius Group's value from its peak, yet one Wall Street firm now sees shares more tha…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysShopify shares fell 3% today after ATB Cormark downgraded the stock
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
