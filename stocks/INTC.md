@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intel vs. Qualcomm: A Widening Gap in Revenue](https://finnhub.io/api/news?id=29b9fa56f5808b68b18027a3e11472f8520e87b60c011c5bdc9074703bc4bde2)**  
+- **[The Foundry Disconnect: Intel Nails the Transistor, But TSMC Holds the Keys to Yield and Scale.](https://finnhub.io/api/news?id=fbca34c34dde68eada86d9fca42fbd0932fd97b7b5a19e23c6f2ef800dafddee)**  
+*Yahoo · 1h前*  
+Intel can now build a transistor that rivals anyone in the world, yet its foundry business is bleeding billions while TSMC signs hundreds of outside customers. …
+
+- **[AMD Has a High Floor, High Volatility Trajectory Through the End of 2026](https://finnhub.io/api/news?id=940976cedf38d97f43bc7665d07a84a5c6245b85200d15d76bde41d32bab98ac)**  
+*Yahoo · 1h前*  
+AMD has booked gigawatts of AI accelerator commitments and posted a 50% revenue jump, yet the stock shed nearly 19% in a single month. Whether the next earnings…
+
+- **[SK Hynix Scraps U.S. IPO of Memory-Chip Unit. Why the Stock Is Jumping.](https://finnhub.io/api/news?id=9b83f90e4cd43bcb7419abf1d6c31b7e1fb040283a5ed483f608a90a228d9c3b)**  
 *Yahoo · 2h前*  
-Intel's latest quarter hit $16.1 billion while Qualcomm fell to $9.9 billion—the largest gap in the eight-quarter comparison.
-
-- **[Meta stock falls despite Wall Street analysts raising price targets](https://finnhub.io/api/news?id=00f3b6822563f8c9ab80f47603d3869b30ceea3ee38a944f1e817a6235965cb9)**  
-*Yahoo · 3h前*  
-Meta beat third-quarter revenue estimates, but its aggressive AI spending plans raised concerns.
-
-- **[What Does an AI Agent Need a CPU For? Why Nvidia Wants In on the Business Dominated by AMD and Intel](https://finnhub.io/api/news?id=880f03ba7e81048e0aebf80b9e558d26a95dadedeeeb78a657d262fb3ef5dfaa)**  
-*Yahoo · 4h前*  
-The GPU giant expects almost $20 billion in CPU sales this year.
+The memory-chip giant sent out another warning signal for the AI trade overnight.
 
 ---
 
@@ -59,4 +59,4 @@ The GPU giant expects almost $20 billion in CPU sales this year.
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
