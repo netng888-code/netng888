@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Spotify Stock Popped Today](https://finnhub.io/api/news?id=15914c7f59a293dabcafe195080a4b394a11e1339fe43bad634e0053c65f1b82)**  
+- **[OpenAI Just Cut Its Valuation Target by $150 Billion](https://finnhub.io/api/news?id=7c30730525b6b95435c1333510759a4ff7303d7b31f1d403e826f3d520c0f952)**  
 *Yahoo · 1h前*  
-The streaming platform has a simple formula for success.
+OpenAI slashed its funding ask by a staggering amount just as public AI stocks cratered, and the timing raises serious questions about what private investors kn…
 
-- **[Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries](https://finnhub.io/api/news?id=468b448105d7fd3d73979c524a079d021603b30583eb8b266a4028d76ab9d3ab)**  
+- **[CrowdStrike vs. SentinelOne: Which Cybersecurity Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=381b53b98f77e6c696302c9c80c9add3b8aa8797ca130a5ffcfdc340f807069a)**  
 *Yahoo · 1h前*  
-Bernstein cut its price target as debt concerns weigh on the AI infrastructure provider, today, Oct. 22, 2026.
+CrowdStrike has scale, profitability, and accelerating growth on its side. SentinelOne has strong momentum and improving economics, but is still in the red.
 
-- **[Up 3,700%, Should You Buy Sandisk Right Now?](https://finnhub.io/api/news?id=c380d3e0754099b3cdbcc893decdeebc3d3d5ebd0c5cc9c87c46de5e3f65c10c)**  
+- **[AI Chips Today - Boosting AI Compute Efficiency Without Extra Power Consumption](https://finnhub.io/api/news?id=6cdbcd5221a763b96870ab8dc5dfb8b464a8d7a2c73b0e50389e4531201ddbe6)**  
 *Yahoo · 1h前*  
-Sandisk looks intriguing, but the long-term memory of its investors could bode poorly for the stock.
+Karman, previously known as Utilidata, has enabled NexGen Cloud, a leading European AI cloud provider, to achieve a 60% increase in AI compute capacity using th…
 
 ---
 
@@ -59,4 +59,4 @@ Sandisk looks intriguing, but the long-term memory of its investors could bode p
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:03 HKT*
