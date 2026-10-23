@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tesla To Rally Around 23%? Here Are 10 Top Analyst Forecasts For Thursday](https://finnhub.io/api/news?id=70724a2039233e9490da28cd0965ba6eb75da54ee47071e1b9cbbd39b3839635)**  
-*Benzinga · 13h前*  
-Analysts raised targets for Tesla, Thermo Fisher, SentinelOne, Meta and Philip Morris; cut targets for Pegasystems, AT&amp;T and Oklo.
+- **[Constellation Energy And 2 Other Top Nuclear Power Stocks](https://finnhub.io/api/news?id=0226bb897b558cb9c9ce6ff63c57bf5d1f8e0ab8408de1ac4afca3026cd69bf5)**  
+*Yahoo · 12h前*  
+Oil prices recently jumped above US$111 as attacks on Saudi energy facilities disrupted a key source of global supply. When fossil fuel routes look fragile, rel…
 
-- **[Truist Securities Maintains Hold on Oklo, Lowers Price Target to $31](https://finnhub.io/api/news?id=3bdc4f273e29ca15b69f2192048c83dd1c2613c25d93ce403097cf6886e324a9)**  
-*Benzinga · 14h前*  
-Truist Securities  analyst Christopher Souther   maintains Oklo (NYSE:OKLO) with a Hold and lowers the price target from $51 to $31.
+- **[Oklo Sinks 4% as Truist Slashes Price Target 39% to $31 Ahead of Q3 Earnings](https://finnhub.io/api/news?id=00406159cd8a6d2f13b62b0ade22f40d8978f688a36767e60b5bdbf12ab361ee)**  
+*Yahoo · 19h前*  
+Key TakeawaysOklo shares fell 4% today after Truist cut its price target to $31 from $51 and kept its Hold rating ahead of third-quarter results. Truist is the …
 
-- **[Cathie Wood's ARK Invest Adds These Nuclear Names For A Second Straight Day Even As Their Shares Have Plummeted More Than 60% In 2026](https://finnhub.io/api/news?id=ca22a5b048cb45b177b9da66424d471121492fd6267ad1d864514a6c0f10035d)**  
-*Yahoo · 17h前*  
-On Wednesday, ARK Investment Management reported purchasing Oklo and X-Energy stocks for a combined value of $3.42 million across multiple exchange-traded funds…
+- **[Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought](https://finnhub.io/api/news?id=28a95d10a4f0e1d323fc0351e20b62acb5676612d8445d4eda03b103924f16db)**  
+*Yahoo · 21h前*  
+Ark Invest bought into some market laggards on Wednesday.
 
 ---
 
@@ -59,4 +59,4 @@ On Wednesday, ARK Investment Management reported purchasing Oklo and X-Energy st
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
