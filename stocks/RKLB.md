@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today, Oct. 22: SpaceX Earnings Beat Sparks Profit-Taking](https://finnhub.io/api/news?id=fe716435121167a75c4f19bf3b7d8637bea6dd9fab554b522b2b047276bd93a4)**  
-*Yahoo · 1h前*  
-Quarterly revenue jumped 161% and beat estimates, but a share unlock and profit-taking erased gains by close, today, Oct. 22, 2026.
+- **[HawkEye 360 Successfully Launches Cluster 16 with Advanced Collection and Downlink Capabilities](https://finnhub.io/api/news?id=82f93903c8d54f9b6ada99d0bcab0d7ee50afc8be3a7e03abb1b4ad91d8a814b)**  
+*Yahoo · 2h前*  
+HawkEye 360, Inc. (NYSE: HAWK), the global leader in signals intelligence data and analytics, today announced the successful launch of Cluster 16, a three-satel…
 
-- **[If I Could Only Buy 1 Space Stock After the Rocket Lab Crash, It Would Be This One](https://finnhub.io/api/news?id=f954d74d5a704bf6aab528c77be7f12f370ed2063bca90e3b96c14f268ac42c3)**  
+- **[MISSION SUCCESS: Rocket Lab Launches 98th Electron Mission](https://finnhub.io/api/news?id=ceaee2530c0b639bc55600ff268825d9a26087c1398d380b3c561574a5b8a9cb)**  
+*Yahoo · 4h前*  
+MAHIA, New Zealand, Oct. 23, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in launch services and space systems, today launche…
+
+- **[Stocktwits Space Race Weekly: RKLB, VSAT Beat SPCX With Modest Gains — ASTS And PL Sink Deeper](https://finnhub.io/api/news?id=2f4b3d183e81016fa2ce8a170deda86f68b4b2c2e26077a3c59d1fc7c7f1872f)**  
 *Yahoo · 5h前*  
-Intuitive Machines is growing faster and trades at a much lower valuation.
-
-- **[SpaceX and AST SpaceMobile Sink 6%, Rocket Lab Falls 5% as Tech Selloff Hits High-Flying Space Stocks](https://finnhub.io/api/news?id=3585fc1514cd1317afac9d1b4764fa6cf2739fd78b449a1708d9a985ac768eff)**  
-*Yahoo · 7h前*  
-High-flying tech stocks are sliding on a risk-off turn, and space names are falling hardest. SpaceX (NASDAQ:SPCX) stock is leading the drop just days after the …
+SpaceX continued Tesla merger talks and is reportedly exploring access to 80,000 U.S. cellular sites for a potential nationwide wireless network.
 
 ---
 
@@ -59,4 +59,4 @@ High-flying tech stocks are sliding on a risk-off turn, and space names are fall
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
