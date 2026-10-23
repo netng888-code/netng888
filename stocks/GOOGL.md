@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Eyes an Early Equity Deal for Its AI War Chest—and Berkshire Could Be a Buyer](https://finnhub.io/api/news?id=03304755e1669e8fa539e66a0f637158ca3612fb620abed9e8de2eade97bf3b5)**  
-*Yahoo · 2h前*  
-Berkshire participated in Alphabet’s $85 billion equity fund deal in June that could be a model for any Meta equity raise.
+- **[Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company](https://finnhub.io/api/news?id=cad8ba691c56aa10c19e18b4ea348d1d5da4d5b1e0ba290409c2dd73b52fafd0)**  
+*Yahoo · 1h前*  
+Apple just hit a record close while Nvidia shed billions in a brutal sector selloff, and the gap between the two most valuable companies on earth has shrunk to …
 
-- **[Roundtable CEO, Coinbase's D'Agostino discuss USDC "forcing function" partnership](https://finnhub.io/api/news?id=8918fe9b02dcaac773f9afd01247d9275f4396c6f76b0963a58492a348dc920f)**  
-*Yahoo · 2h前*  
-Roundtable CEO James Heckman and Coinbase Head of Institutional Strategy John D’Agostino told The Block’s that real-time USDC settlement is the forcing function…
+- **[Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight](https://finnhub.io/api/news?id=6fb95c865bd2c74d559dbc605bf94ab9112f464d85b7b6c0776ff2f765a66d87)**  
+*Yahoo · 1h前*  
+Azure just crossed a milestone that has analysts quietly raising their ceiling for Microsoft, but the real story is buried in a contract number that almost nobo…
 
-- **[Apple’s foldable iPhone has a $2,000 app problem](https://finnhub.io/api/news?id=44f7e2c85ac670d2eca210b86d3ddd07a722d4b77e3c3685c25fb464e0f88e87)**  
-*Yahoo · 2h前*  
-Apple's (AAPL) new foldable iPhone Duo hits stores Friday. Yahoo Finance Tech Editor Dan Howley got his hands on one and joins Brooke DiPalma on Market Dominati…
+- **[Alphabet (NASDAQ:GOOGL) Screens as a GARP-Friendly Quality Compounder](https://finnhub.io/api/news?id=f3099306cd9273504b979dcccff483bd8bbfb4d780fef9483c68ce1b0a780694)**  
+*ChartMill · 2h前*  
+Alphabet fits Peter Lynch’s GARP screen with strong EPS growth, low debt, high ROE, and a PEG below 1, though valuation and ROIC trends warrant monitoring
 
 ---
 
@@ -59,4 +59,4 @@ Apple's (AAPL) new foldable iPhone Duo hits stores Friday. Yahoo Finance Tech Ed
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:03 HKT*
