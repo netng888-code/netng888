@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Vertiv to Participate in Upcoming Investor Conference](https://finnhub.io/api/news?id=113bed1387d515cc275d96200bb525f11246daac9518c1f7eefead8b955db63d)**  
+*Yahoo · 1h前*  
+Vertiv Holdings Co (NYSE: VRT), a global leader in critical digital infrastructure, today announced its participation in an upcoming investor conference in Nove…
+
+- **[3 Investment Grade Bond Ideas Riding Big Tech AI Capex Plans](https://finnhub.io/api/news?id=10484f97b5b04ec706bf39dbae4ee6a1f5602644fdd0d973936c3d601c58713d)**  
+*Yahoo · 1h前*  
+Big Tech just put eye watering long term spending on the table, with Meta, Tesla and SpaceX sketching hundreds of billions in future AI and chip infrastructure …
+
 - **[Vertiv, Nvidia target 10-week cut in AI power, cooling setup](https://finnhub.io/api/news?id=8a50ebd79af547e0ca96287af0003f685083379d3157a8a03ca0ed9baa654b68)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 Vertiv’s model cuts design and infrastructure deployment days as AI data centers race to come online faster.
-
-- **[GE Vernova Slumps 11% as Meta’s Spending Outlook Stokes AI Financing Worries; Vertiv Holdings Drops 7%, Eaton Slides 6%](https://finnhub.io/api/news?id=25ff6ac0db9451ddb385916b421d330e512ea445530eb263ac90f7f2edd2963a)**  
-*Yahoo · 4h前*  
-Meta's latest earnings call left a key question unanswered about how the next wave of AI infrastructure gets paid for, and power-equipment suppliers are taking …
-
-- **[GE Vernova Sinks 11%, Vertiv 14%, Bloom Energy 15% in a Week as AI Power Stocks Slide](https://finnhub.io/api/news?id=2de3c5d8e5f4f5c014570bb5f74c53f66fdf480163c6697899324705b4ba4900)**  
-*Yahoo · 9h前*  
-Key TakeawaysGE Vernova stock fell 11% in the past week (through Tuesday’s close), while Vertiv lost 14% and Bloom Energy 15%, as investors sold AI-infrastructu…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysGE Vernova stock fell 11% in the past week (through Tuesday’s clo
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
