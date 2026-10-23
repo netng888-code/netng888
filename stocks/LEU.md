@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Centrus to Webcast Conference Call on November 5 at 8:30 a.m. ET](https://finnhub.io/api/news?id=e6b1ea6c12c77aaf157cc0388b7daacf7d161a504467a764bbf404fa2ccd8f6a)**  
+*Yahoo · 16h前*  
+Centrus Energy Corp. (NYSE: LEU) will broadcast its quarterly conference call with shareholders and the financial community over the Internet on Thursday, Novem…
+
+- **[Oklo Could Have a Huge Opportunity as Demand for Advanced Nuclear Energy Grows](https://finnhub.io/api/news?id=e93f607b2b78e105885180da672d9657a3995eba2730c221561a32e4a18d7c61)**  
+*Yahoo · 1d前*  
+Oklo has shed more than 60% of its value this year and sits near a 52-week low, yet its customer pipeline spans gigawatts and its regulatory path just cleared a…
+
 - **[Truist Securities Maintains Buy on Centrus Energy, Lowers Price Target to $178](https://finnhub.io/api/news?id=474e60b394239c81a29102f6261644e057ced29ce3179a6911b1ab166ecacf2e)**  
-*Benzinga · 14h前*  
+*Benzinga · 1d前*  
 Truist Securities  analyst Christopher Souther   maintains Centrus Energy (NYSE:LEU) with a Buy and lowers the price target from $215 to $178.
-
-- **[Centrus vs. BWX Technologies: Which Nuclear Supply Chain Stock Is the Better Buy After the Sell-Off?](https://finnhub.io/api/news?id=22078804279aee33f207612511f148cba6e8564927af6b71d571f2fbd7a99544)**  
-*Yahoo · 20h前*  
-Nuclear power is in the spotlight, but these two stocks have tumbled over the past year. Here's which sold-off stock is a better buy right now.
-
-- **[Nuclear Energy Analyst Roundup: Wall Street Weighs In On OKLO, SMR, CEG, VST, LEU Stocks](https://finnhub.io/api/news?id=c06c25c1f058f70ec4593dd906f41f5b9f37329c2a91d15677856d45031a3757)**  
-*Yahoo · 21h前*  
-Oklo, NuScale Power, Constellation Energy, Vistra, and Centrus Energy are in focus on Wall Street amid the ongoing third-quarter earnings season.
 
 ---
 
@@ -59,4 +59,4 @@ Oklo, NuScale Power, Constellation Energy, Vistra, and Centrus Energy are in foc
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
