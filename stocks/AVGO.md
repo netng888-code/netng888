@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom Inc. (AVGO) Suffers a Larger Drop Than the General Market: Key Insights](https://finnhub.io/api/news?id=0b460043e15e048f3c1c7c210937e919c79034d7bf8722b58b03a9db6f3dcac7)**  
-*Yahoo · 2h前*  
-Broadcom Inc. (AVGO) concluded the recent trading session at $323.24, signifying a -4.31% move from its prior day's close.
+- **[AI Chips Today - Boosting AI Compute Efficiency Without Extra Power Consumption](https://finnhub.io/api/news?id=6cdbcd5221a763b96870ab8dc5dfb8b464a8d7a2c73b0e50389e4531201ddbe6)**  
+*Yahoo · 1h前*  
+Karman, previously known as Utilidata, has enabled NexGen Cloud, a leading European AI cloud provider, to achieve a 60% increase in AI compute capacity using th…
 
-- **[Stock Market Today: Nasdaq Hit As Meta, Alphabet Slide Below Key Levels (Live Coverage)](https://finnhub.io/api/news?id=3ad6fac4998feaf7a3cce36de4f079b979912e8ef0c1d8452532ab163439766d)**  
+- **[Is Texas Instruments Stock Really Expensive?](https://finnhub.io/api/news?id=4a30b9ad53ff5798f63f0dca9d68ba404861a6abe65a00caf20ed4ad8b29a813)**  
 *Yahoo · 2h前*  
-The Dow Jones index drops as oil prices jump on new planned U.S.,-Israel strikes on Iran. Meta and Tesla fall on earnings.
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Stock Market Today: Nasdaq-100 Drop Tops 3%; FirstCash, Southern Copper, Meta Lead Sell-Off (Live Coverage)](https://finnhub.io/api/news?id=a28a1706345bc9a53f7e6e82ee8c36e6e1a40add7558e2547dfe0eb9119e1dec)**  
-*Yahoo · 3h前*  
-The Dow Jones index drops as oil prices jump amid new planned U.S.,-Israel strikes on Iran. Meta and Tesla fall on earnings.
+- **[What Would It Take For Qualcomm Stock To Move Higher?](https://finnhub.io/api/news?id=ba53e6f05664d62315d14a0c51ee1f1e419e0c19d18202c93a5778abfc2e0a61)**  
+*Yahoo · 4h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ The Dow Jones index drops as oil prices jump amid new planned U.S.,-Israel strik
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:03 HKT*
