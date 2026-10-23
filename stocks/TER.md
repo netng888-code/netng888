@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Could Go Wrong With Symbotic Stock?](https://finnhub.io/api/news?id=10bb258a3296048ca22b7b702b2dfb894343be0ffccb62061d9438e94ffa6c29)**  
-*Yahoo · 3h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[Teradyne Stock Faces A New Test As Warehouse Robotics Partnership Expands](https://finnhub.io/api/news?id=cbb298e4f2f144d31d294bb516e029b85b2f98a731d2b6e1f5eae2516ebb5669)**  
+*Yahoo · 8h前*  
+Teradyne Robotics and Sereact announced a partnership that pairs Sereact’s Cortex physical AI platform with Universal Robots’ collaborative arms to automate com…
 
-- **[S&P 500 Top Movers: Gainers and Losers for Oct. 22, 2026](https://finnhub.io/api/news?id=391c657cf8b8bd35500edd8dd058ed723150150e5d1af02abfbbe21633204915)**  
-*ChartMill · 3h前*  
-Roper Technologies, Allegion and Lennar led S&P 500 gainers on Oct. 22, 2026, while Moderna, Coherent and Lumentum were among the biggest decliners.
+- **[Allegro MicroSystems, Lattice Semiconductor, Amkor, Teradyne, and Entegris shares plummet, what you need to know](https://finnhub.io/api/news?id=e8fc29fcdfb52a7e2be2177484ef152ae9c45cac3adef583bed12340b810e2bf)**  
+*Yahoo · 12h前*  
+A number of stocks fell in the afternoon session after warnings emerged that ongoing component supply chain bottlenecks and cleanroom space constraints will res…
 
-- **[S&P 500 Top Movers: Gainers and Losers in Today's Session](https://finnhub.io/api/news?id=51f992e7d1a0d25e891ecf23d9ee9e29de2639e286d463e8e3dcaab8e7305397)**  
-*ChartMill · 6h前*  
-S&P 500 top movers for today's session, led by ALLE, ROP, LEN, NDAQ and BX among gainers, while COHR, LRCX, FLEX, VST and CIEN ranked among losers.
+- **[Teradyne (TER) Registers a Bigger Fall Than the Market: Important Facts to Note](https://finnhub.io/api/news?id=148cc42edc9e9f538cd0b96bb046290f2bdba0fe0d694ce42c960b1ad19462dc)**  
+*Yahoo · 15h前*  
+Teradyne (TER) closed the most recent trading day at $308.75, moving 10.63% from the previous trading session.
 
 ---
 
@@ -59,4 +59,4 @@ S&P 500 top movers for today's session, led by ALLE, ROP, LEN, NDAQ and BX among
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
