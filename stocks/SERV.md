@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$2.88** |
-| 今日變動 | ▼ $0.18　(-5.88%) |
+| 現價 | **$2.78** |
+| 今日變動 | ▼ $0.10　(-3.47%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $11.743 |
-| 未實現盈虧 | ▼ $266　(▼75.5%) |
+| 未實現盈虧 | ▼ $269　(▼76.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $3.17 | — |
-| Put Wall（支撐） | $2.50 | -13.2% |
-| Call Wall（阻力） | $5.00 | +73.6% |
+| Gamma Flip | $3.18 | — |
+| Put Wall（支撐） | $2.50 | -10.1% |
+| Call Wall（阻力） | $5.00 | +79.9% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,13 +30,7 @@
 
 ## 📰 最新新聞
 
-- **[Serve Robotics to Report Third Quarter 2026 Financial Results, Host Conference Call and Webcast on November 5](https://finnhub.io/api/news?id=47e1c4de3a1e210be72f05cdf37fd14461f1cff29c6cc0586bec2e323b343a19)**  
-*Yahoo · 1d前*  
-SAN FRANCISCO, Oct. 22, 2026 (GLOBE NEWSWIRE) -- Serve Robotics Inc. (“Serve”) (Nasdaq: SERV), a leading autonomous robotics company, today announced that it wi…
-
-- **[Battle over Chicago's delivery robots reaches the courts after outcry over alleged face scans](https://finnhub.io/api/news?id=e033e1e9d050388094db2bb6acb0099d9f1884b557f8b9096d4a0e8fa8cea565)**  
-*Yahoo · 2d前*  
-A Coco spokesperson said the company is ‘confident that this frivolous lawsuit will go away’
+- 暫無新聞
 
 ---
 
@@ -44,7 +38,7 @@ A Coco spokesperson said the company is ‘confident that this frivolous lawsuit
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-23 | 監控 | $2.88 | — | 自動更新 |
+| 2026-10-26 | 監控 | $2.78 | — | 自動更新 |
 
 ---
 
@@ -55,4 +49,4 @@ A Coco spokesperson said the company is ‘confident that this frivolous lawsuit
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-26 07:04 HKT*
