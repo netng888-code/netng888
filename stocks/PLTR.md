@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$196.19** |
-| 今日變動 | ▼ $5.53　(-2.74%) |
+| 現價 | **$196.75** |
+| 今日變動 | ▲ $0.56　(+0.29%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $413　(▲54.1%) |
+| 未實現盈虧 | ▲ $417　(▲54.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $184.61 | — |
-| Put Wall（支撐） | $190.00 | -3.2% |
-| Call Wall（阻力） | $200.00 | +1.9% |
+| Gamma Flip | $182.57 | — |
+| Put Wall（支撐） | $190.00 | -3.4% |
+| Call Wall（阻力） | $200.00 | +1.7% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Interview: REDLattice CEO Boyd, Bold Eagle CEO Baker Plus IPO Edge Valuation Analysis](https://finnhub.io/api/news?id=5dbf6e4566ff8c492993b3ad4052023235dc6d2b7b9b0762b20a20afe94fb7d8)**  
-*Yahoo · 2h前*  
-By John Jannarone CorpGov’s IPO Edge recently sat down to speak with both Andy Boyd, CEO of REDLattice and Eli Baker, CEO of Bold Eagle Acquisition Corp. (Nasda…
+- **[I Said Palantir Stock Would Top $220 This Year. Here's What It Has to Prove on Nov. 2.](https://finnhub.io/api/news?id=dee66797c1642b9e93263b53dd92de6986d8684af0a14ddabc08aff318c66d64)**  
+*Yahoo · 6h前*  
+The AI data analytics giant's third-quarter report provides a golden opportunity for it to show investors that its growth narrative is still strong.
 
-- **[The Week in Canadian Press Releases: 10 Stories You Need to See](https://finnhub.io/api/news?id=c3db64f5232f0c42223f90dbf36dfa17f808dcdcc1707800067b12b8f4483982)**  
-*Yahoo · 2h前*  
-With thousands of press releases published each week, it can be difficult to keep up with everything on Cision. To help journalists and consumers stay on top of…
+- **[Here's What a $10,000 Investment in Palantir Could Be Worth in 10 Years](https://finnhub.io/api/news?id=b7473520102c4f2e1b464e633f28967a526e4ca1e0be27f28f465fa9a435d4b6)**  
+*Yahoo · 10h前*  
+It's up more than 1,000% over the past three years.
 
-- **[Palantir Technologies (NASDAQ:PLTR): High-Growth Leadership and Momentum in Focus](https://finnhub.io/api/news?id=053125a378e0d1277a2fbb0dc341bc224123824ef14926fdeaac5f53f2d31b94)**  
-*ChartMill · 4h前*  
-Palantir (PLTR) scores well in CANSLIM on strong growth and technical leadership, but premium valuation remains a key risk for investors.
+- **[The Next Palantir? Why This Under-the-Radar Software Stock Could Be the Biggest Surprise of 2027](https://finnhub.io/api/news?id=5b17592f10dda651366c7db5a20e8cde92972282fe5c0965105cae205bd2817f)**  
+*Yahoo · 12h前*  
+For its stock to take off, Samsara must transform customer value into profitable growth.
 
 ---
 
@@ -48,7 +48,7 @@ Palantir (PLTR) scores well in CANSLIM on strong growth and technical leadership
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-23 | 監控 | $196.19 | — | 自動更新 |
+| 2026-10-26 | 監控 | $196.75 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir (PLTR) scores well in CANSLIM on strong growth and technical leadership
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-26 07:04 HKT*
