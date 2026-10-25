@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$104.15** |
-| 今日變動 | ▼ $4.76　(-4.37%) |
+| 現價 | **$102.45** |
+| 今日變動 | ▼ $1.70　(-1.63%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $747　(▼47.3%) |
+| 未實現盈虧 | ▼ $760　(▼48.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $156.56 | — |
-| Put Wall（支撐） | $100.00 | -4.0% |
-| Call Wall（阻力） | $110.00 | +5.6% |
+| Gamma Flip | $155.76 | — |
+| Put Wall（支撐） | $100.00 | -2.4% |
+| Call Wall（阻力） | $110.00 | +7.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Centrus to Webcast Conference Call on November 5 at 8:30 a.m. ET](https://finnhub.io/api/news?id=e6b1ea6c12c77aaf157cc0388b7daacf7d161a504467a764bbf404fa2ccd8f6a)**  
-*Yahoo · 16h前*  
-Centrus Energy Corp. (NYSE: LEU) will broadcast its quarterly conference call with shareholders and the financial community over the Internet on Thursday, Novem…
-
-- **[Oklo Could Have a Huge Opportunity as Demand for Advanced Nuclear Energy Grows](https://finnhub.io/api/news?id=e93f607b2b78e105885180da672d9657a3995eba2730c221561a32e4a18d7c61)**  
+- **[MarketBeat Week in Review – 10/19 - 10/23](https://finnhub.io/api/news?id=7c98aef69dc9fa8ac289a42b47811016e0ac37976738cdf148d4f1e459a2be6f)**  
 *Yahoo · 1d前*  
-Oklo has shed more than 60% of its value this year and sits near a 52-week low, yet its customer pipeline spans gigawatts and its regulatory path just cleared a…
+A market sell-off spread beyond tech as oil prices surged and AI concerns grew. MarketBeat analysts recap the week's top stories on earnings, from Halliburton t…
 
-- **[Truist Securities Maintains Buy on Centrus Energy, Lowers Price Target to $178](https://finnhub.io/api/news?id=474e60b394239c81a29102f6261644e057ced29ce3179a6911b1ab166ecacf2e)**  
-*Benzinga · 1d前*  
-Truist Securities  analyst Christopher Souther   maintains Centrus Energy (NYSE:LEU) with a Buy and lowers the price target from $215 to $178.
+- **[UBS Maintains Neutral on Centrus Energy, Lowers Price Target to $120](https://finnhub.io/api/news?id=3faa875f9312ed164936f84bf90b68387fe9d2f66040d5631e1f36a1497d72e5)**  
+*Benzinga · 2d前*  
+UBS  analyst Jon Windham   maintains Centrus Energy (NYSE:LEU) with a Neutral and lowers the price target from $185 to $120.
+
+- **[Barclays Maintains Equal-Weight on Centrus Energy, Lowers Price Target to $150](https://finnhub.io/api/news?id=74683a650f73b21edef7d1983c12e58410fa9df6bd2ab88e8c8a842227d4ed7a)**  
+*Benzinga · 2d前*  
+Barclays  analyst Christine Cho   maintains Centrus Energy (NYSE:LEU) with a Equal-Weight and lowers the price target from $207 to $150.
 
 ---
 
@@ -48,7 +48,7 @@ Truist Securities  analyst Christopher Souther   maintains Centrus Energy (NYSE:
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-23 | 監控 | $104.15 | — | 自動更新 |
+| 2026-10-26 | 監控 | $102.45 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Truist Securities  analyst Christopher Souther   maintains Centrus Energy (NYSE:
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-26 07:04 HKT*
