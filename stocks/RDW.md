@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$8.14** |
-| 今日變動 | ▼ $0.42　(-4.91%) |
+| 現價 | **$8.36** |
+| 今日變動 | ▲ $0.22　(+2.70%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $300　(▼48.0%) |
+| 未實現盈虧 | ▼ $292　(▼46.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $9.43 | — |
-| Put Wall（支撐） | $8.00 | -1.7% |
-| Call Wall（阻力） | $9.00 | +10.6% |
+| Gamma Flip | $9.82 | — |
+| Put Wall（支撐） | $8.00 | -4.3% |
+| Call Wall（阻力） | $10.00 | +19.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,13 @@
 
 ## 📰 最新新聞
 
-- **[SpaceX Rallied, but These 6 Space Stocks Are Still Waiting for Liftoff](https://finnhub.io/api/news?id=8e68f72a2278b951e856ebbecc2ab7fc6282eea75c85f832c6f2eeb3c6821a69)**  
-*Yahoo · 23h前*  
-SpaceX surged after a blowout quarter and a blockbuster merger hint, yet six space stocks that were supposed to ride its coattails are all sitting on double-dig…
-
-- **[Forget the Anthropic IPO. Here Are 6 Stocks Worth Watching.](https://finnhub.io/api/news?id=d0ded66a8888d2c2801b0720e5c0a2e9eb9b43179121dc59d66aa4b5834abe28)**  
+- **[Could Redwire Be the Next Rocket Lab?](https://finnhub.io/api/news?id=02f68a8523fc537c1272a52cf200f025b3d29eda1931ff4c2087a607c267de36)**  
 *Yahoo · 1d前*  
-What would it take for these six next-generation tech stocks to double?
+Rocket Lab's Neutron delay has the stock sliding, but Redwire is building a broader space and defense business. Profits remain its real test.
 
-- **[Redwire's New European Space Partnership Targets Orbital Data Centers, Defense And Satellite Navigation](https://finnhub.io/api/news?id=187a3a6f20c6b30bb00a62b0db5562d9ae38d80ec762dc0b0588ffac10d308bd)**  
-*Yahoo · 1d前*  
-Redwire and EnduroSat plan to combine satellite manufacturing and space technology capabilities to pursue opportunities in European defense and commercial space…
+- **[AUSA: Redwire Co-President & CGO Josh Stinson](https://finnhub.io/api/news?id=62d343833a734252a3612fbe470301703f8857f74941ec58c50d70e357c291d2)**  
+*Yahoo · 2d前*  
+Redwire Co-President & CGO Josh Stinson joins J.D. Durkin at AUSA 2026.
 
 ---
 
@@ -48,7 +44,7 @@ Redwire and EnduroSat plan to combine satellite manufacturing and space technolo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-23 | 監控 | $8.14 | — | 自動更新 |
+| 2026-10-26 | 監控 | $8.36 | — | 自動更新 |
 
 ---
 
@@ -59,4 +55,4 @@ Redwire and EnduroSat plan to combine satellite manufacturing and space technolo
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-26 07:04 HKT*
