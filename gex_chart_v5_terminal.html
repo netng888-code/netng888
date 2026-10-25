@@ -672,13 +672,15 @@
     扮成TTM。範圍：只改「持倉總覽」；「GEX + K線」／「到期日曆」兩個tab未加（如需要同款
     可以照fmtFund()新增嘅fcfTxt直接用）。⚠️ 需要futu_bridge_v2.py升級到v3.22先有FCF數據；
     未升級時FCF唔顯示，其餘功能不受影響。
+  v5.41c（2026-10-25）：Finnhub攞唔到FCF時bridge v3.23改用SEC最近4季加總，批量fundamentals冷cache
+    要逐隻打SEC，前端timeout 60→150秒；基本面欄頭加診斷提示（bridge未升級／Finnhub冇FCF key）。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.41)</title>
+<title>GEX Chart — Futu Bridge (v5.41c)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -2120,7 +2122,7 @@ async function loadFundamentals() {
     // 唔會加重Finnhub負擔（backend命中cache即刻返，唔會重新打
     // Finnhub）；60秒timeout係俾冷cache嗰陣17隻sequential+delay
     // 用（約17×2×0.15秒+network，留返充足buffer）。
-    const r = await fetch(`${BRIDGE}/api/fundamentals`, {signal: AbortSignal.timeout(60000)});
+    const r = await fetch(`${BRIDGE}/api/fundamentals`, {signal: AbortSignal.timeout(150000)});  // v5.41c：冷cache時Finnhub+SEC fallback逐隻sequential，放寬到150秒
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const d = await r.json();
     fundamentalsBySym = d.fundamentals || {};
@@ -2179,6 +2181,14 @@ function renderUS(rows) {
   const cfg  = SESS_CFG[sess];
   let totalMV=0, totalPNL=0, totalTD=0, totalCost=0, hasData=0;
 
+  // v5.41b：FCF診斷提示——bridge回應冇fcf_ttm呢個key＝bridge未升級v3.22／未重啟；
+  // 有key但全部null＝Finnhub冇對應metric，睇bridge終端「診斷（xxx FCF）」印出嘅key。
+  const _fhVals = Object.values(fundamentalsBySym);
+  let fcfHint = '';
+  if (_fhVals.length) {
+    if (!_fhVals.some(v => v && 'fcf_ttm' in v)) fcfHint = '⚠ bridge未升級v3.22／未重啟';
+    else if (!_fhVals.some(v => v && v.fcf_ttm != null)) fcfHint = '⚠ Finnhub冇FCF key，睇bridge終端';
+  }
   let html = `<div class="tbl-wrap"><table class="us-table">
   <thead><tr>
     <th>代碼</th><th>持股</th>
@@ -2187,7 +2197,7 @@ function renderUS(rows) {
     <th style="min-width:100px">T3 前日收盤<br><span style="font-size:8px;color:var(--muted)">不變，每天一次</span></th>
     <th>成本價</th><th>市值 (USD)</th><th>未實現盈虧</th><th>未實 %</th>
     <th>今日盈虧<br><span style="font-size:8px;color:var(--muted)">(T1−T2)×持股</span></th>
-    <th style="text-align:left;min-width:190px">基本面<br><span style="font-size:8px;color:var(--muted)">P/E・EPS・Div・FCF・Growth・Sector</span></th>
+    <th style="text-align:left;min-width:190px">基本面<br><span style="font-size:8px;color:var(--muted)">P/E・EPS・Div・FCF・Growth・Sector${fcfHint?`<br><span style="color:var(--red)">${fcfHint}</span>`:''}</span></th>
     <th>操作</th>
   </tr></thead><tbody>`;
 
