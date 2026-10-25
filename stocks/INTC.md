@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$85.49** |
-| 今日變動 | ▼ $7.47　(-8.04%) |
+| 現價 | **$86.96** |
+| 今日變動 | ▲ $1.47　(+1.72%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $215　(▼20.1%) |
+| 未實現盈虧 | ▼ $200　(▼18.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $94.33 | — |
-| Put Wall（支撐） | $85.00 | -0.6% |
-| Call Wall（阻力） | $100.00 | +17.0% |
+| Gamma Flip | $98.69 | — |
+| Put Wall（支撐） | $80.00 | -8.0% |
+| Call Wall（阻力） | $100.00 | +15.0% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[The Foundry Disconnect: Intel Nails the Transistor, But TSMC Holds the Keys to Yield and Scale.](https://finnhub.io/api/news?id=fbca34c34dde68eada86d9fca42fbd0932fd97b7b5a19e23c6f2ef800dafddee)**  
-*Yahoo · 1h前*  
-Intel can now build a transistor that rivals anyone in the world, yet its foundry business is bleeding billions while TSMC signs hundreds of outside customers. …
+- **[Intel vs. SK Hynix: Revenue Trends to Help Investors Weigh Which Artificial Intelligence Stock to Buy](https://finnhub.io/api/news?id=ffda0ae6e8520210cae6d7e706dc0a11f6912ff37f403783eb40dd7bea6cd486)**  
+*Yahoo · 5h前*  
+SK Hynix's revenue has surged to over $52 billion in the latest quarter, while Intel has remained relatively flat.
 
-- **[AMD Has a High Floor, High Volatility Trajectory Through the End of 2026](https://finnhub.io/api/news?id=940976cedf38d97f43bc7665d07a84a5c6245b85200d15d76bde41d32bab98ac)**  
-*Yahoo · 1h前*  
-AMD has booked gigawatts of AI accelerator commitments and posted a 50% revenue jump, yet the stock shed nearly 19% in a single month. Whether the next earnings…
+- **[Intel’s Make-or-Break Margin Test Is Arriving on Oct. 29](https://finnhub.io/api/news?id=f36f4ee3d83e1f20147cc55f64bf35246ab98034cf07527ce226f20201d15baa)**  
+*Yahoo · 7h前*  
+Intel (NASDAQ:INTC) reports third-quarter results on Oct. 29, and margins will shape how the market responds. Shares have slipped 13.24% since the July report. …
 
-- **[SK Hynix Scraps U.S. IPO of Memory-Chip Unit. Why the Stock Is Jumping.](https://finnhub.io/api/news?id=9b83f90e4cd43bcb7419abf1d6c31b7e1fb040283a5ed483f608a90a228d9c3b)**  
-*Yahoo · 2h前*  
-The memory-chip giant sent out another warning signal for the AI trade overnight.
+- **[What To Expect In Markets This Week: GOOGL, MSFT, AMZN, INTC, HOOD, LLY Earnings, Fed Meeting And More](https://finnhub.io/api/news?id=25694c6ec753dccea4acbd0b562f93a8870de57c25547169bd93e569276feda2)**  
+*Yahoo · 7h前*  
+The spotlight will be particularly intense as several of the biggest names in technology report quarterly results, while the Federal Reserve prepares to make it…
 
 ---
 
@@ -48,7 +48,7 @@ The memory-chip giant sent out another warning signal for the AI trade overnight
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-23 | 監控 | $85.49 | — | 自動更新 |
+| 2026-10-26 | 監控 | $86.96 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The memory-chip giant sent out another warning signal for the AI trade overnight
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-26 07:04 HKT*
