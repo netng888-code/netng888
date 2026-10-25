@@ -672,6 +672,10 @@
     扮成TTM。範圍：只改「持倉總覽」；「GEX + K線」／「到期日曆」兩個tab未加（如需要同款
     可以照fmtFund()新增嘅fcfTxt直接用）。⚠️ 需要futu_bridge_v2.py升級到v3.22先有FCF數據；
     未升級時FCF唔顯示，其餘功能不受影響。
+  v5.42（2026-10-25）：基本面欄加FCF趨勢行——最新季FCF（附截至日期）＋QoQ（對上季）＋YoY（對去年
+    同季）＋TTM YoY（對上個TTM），正綠負紅；上期為負數時唔計%，改顯示「轉正／虧損收窄／虧損擴大」。
+    數據來自bridge v3.24新增fcf_trend（SEC近8季）。fcf_basis新增derived→金額後加「(估)」。
+    同步bridge v3.24：NVDA冇FCF（capex用PaymentsToAcquireProductiveAssets tag）已補。
   v5.41c（2026-10-25）：Finnhub攞唔到FCF時bridge v3.23改用SEC最近4季加總，批量fundamentals冷cache
     要逐隻打SEC，前端timeout 60→150秒；基本面欄頭加診斷提示（bridge未升級／Finnhub冇FCF key）。
   ═══════════════════════════════════════════════════
@@ -680,7 +684,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.41c)</title>
+<title>GEX Chart — Futu Bridge (v5.42)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -2040,6 +2044,23 @@ async function loadEarnings() {
   }
 }
 
+// v5.42新增：FCF金額／變化格式化（百萬USD）。變化%只喺上期為正數先有意義；
+// 上期<=0：本期轉正→「轉正」，仍然<=0→比較虧損收窄／擴大，唔計%（負基數嘅%會誤導）。
+function fcfMoney(v) {
+  if (v == null || isNaN(Number(v))) return null;
+  v = Number(v); const a = Math.abs(v);
+  const amt = a >= 1000 ? `$${(a/1000).toFixed(2)}B` : `$${a.toFixed(0)}M`;
+  return {txt: `${v>0?'+':v<0?'-':''}${amt}`, cls: v>0?'pnl-pos':v<0?'pnl-neg':'pnl-neu'};
+}
+function fcfChg(cur, prev) {
+  if (cur == null || prev == null) return null;
+  let txt, cls;
+  if (prev > 0) { const p = (cur/prev-1)*100; txt = `${p>=0?'+':''}${p.toFixed(0)}%`; cls = p>=0?'pnl-pos':'pnl-neg'; }
+  else if (cur > 0) { txt = '轉正'; cls = 'pnl-pos'; }
+  else { txt = cur >= prev ? '虧損收窄' : '虧損擴大'; cls = cur >= prev ? 'pnl-pos' : 'pnl-neg'; }
+  return `<span class="${cls}">${txt}</span>`;
+}
+
 function fmtFund(sym, r) {
   const fh = fundamentalsBySym[sym] || {};
 
@@ -2072,21 +2093,30 @@ function fmtFund(sym, r) {
   const sectorTxt = fh.sector
     ? `<span style="color:var(--muted);font-size:11px">${fh.sector}</span>` : '—';
 
-  // FCF（v5.41新增）：Finnhub freeCashFlowTTM，單位百萬美元；正數綠、負數紅，
-  // 同EPS Growth一樣用pnl-pos／pnl-neg class。fcf_basis==='annual'表示TTM缺值、
-  // bridge fallback用咗年度數字，金額後面加「(年)」標明，唔扮成TTM。
-  const fcf = fh.fcf_ttm;
+  // FCF（v5.41新增，v5.42擴展）：fcf_ttm單位百萬美元，正綠負紅。fcf_basis：
+  //   ttm／sec_ttm＝真TTM（唔加標籤）；annual＝年度數字「(年)」；derived＝Finnhub市值÷P/FCF推算「(估)」
   let fcfTxt = '—';
-  if (fcf != null && !isNaN(Number(fcf))) {
-    const v = Number(fcf), a = Math.abs(v);
-    const amt = a >= 1000 ? `$${(a/1000).toFixed(2)}B` : `$${a.toFixed(0)}M`;
-    const sign = v > 0 ? '+' : v < 0 ? '-' : '';
-    const cls  = v > 0 ? 'pnl-pos' : v < 0 ? 'pnl-neg' : 'pnl-neu';
-    const basisTag = fh.fcf_basis === 'annual' ? '<span style="color:var(--muted);font-size:10px">(年)</span>' : '';
-    fcfTxt = `<span class="${cls}" style="font-weight:600">${sign}${amt}</span>${basisTag}`;
+  const fm0 = fcfMoney(fh.fcf_ttm);
+  if (fm0) {
+    const tag = fh.fcf_basis === 'annual' ? '(年)' : fh.fcf_basis === 'derived' ? '(估)' : '';
+    const basisTag = tag ? `<span style="color:var(--muted);font-size:10px">${tag}</span>` : '';
+    fcfTxt = `<span class="${fm0.cls}" style="font-weight:600">${fm0.txt}</span>${basisTag}`;
   }
 
-  return {peTxt, epsTxt, divTxt, growthTxt, sectorTxt, fcfTxt};
+  // FCF趨勢（v5.42新增）：最新季 + QoQ（對上季）+ YoY（對去年同季）+ TTM YoY（對上個TTM），全部來自SEC
+  let fcfTrendTxt = '—';
+  const t = fh.fcf_trend;
+  if (t && t.q != null) {
+    const fq = fcfMoney(t.q);
+    const parts = [`最新季 <span class="${fq.cls}" style="font-weight:600">${fq.txt}</span>` +
+      (t.end ? `<span style="font-size:10px">（截至${t.end.slice(5)}）</span>` : '')];
+    const qoq = fcfChg(t.q, t.prev_q);   if (qoq) parts.push(`QoQ ${qoq}`);
+    const yoy = fcfChg(t.q, t.yoy_q);    if (yoy) parts.push(`YoY ${yoy}`);
+    const ty  = fcfChg(t.ttm, t.ttm_prev); if (ty) parts.push(`TTM YoY ${ty}`);
+    fcfTrendTxt = parts.join(' · ');
+  }
+
+  return {peTxt, epsTxt, divTxt, growthTxt, sectorTxt, fcfTxt, fcfTrendTxt};
 }
 
 // v5.29新增：將fmtFund()嘅5個獨立欄位（P/E TTM／EPS TTM／Div Yield
@@ -2112,7 +2142,10 @@ function fundCellHtml(fund) {
   if (fund.sectorTxt !== '—') line2Parts.push(fund.sectorTxt);
   const line2 = line2Parts.join(' · ');
 
-  return line2 ? `${line1}<br>${line2}` : line1;
+  const out = [line1];
+  if (line2) out.push(line2);
+  if (fund.fcfTrendTxt && fund.fcfTrendTxt !== '—') out.push(fund.fcfTrendTxt);   // v5.42新增：FCF趨勢行
+  return out.join('<br>');
 }
 
 async function loadFundamentals() {
