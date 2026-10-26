@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-26 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock-Split Watch: Is Sandisk Next?](https://finnhub.io/api/news?id=03574311c8fcdce81e4d474fb2ef7dacaf0bdd56d5ab6f680d55593435d1d5fc)**  
+- **[If You'd Held VTI Through Every Recession Since 2001, Here's Exactly How Much You'd Have Today](https://finnhub.io/api/news?id=8a2cfec1b8579678be19c22725e07ce94aaef5c8117c976cf0569e007ab4fddd)**  
 *Yahoo · 1h前*  
-Sandisk stock has risen more than 3,000% since its February 2025 IPO.
+Over the past 25 years, this ETF has beaten the S&P 500.
 
-- **[3 Genius Quantum Computing Stocks to Buy Now](https://finnhub.io/api/news?id=dcaef46b947be7e43230b4a22c07aaa809d4f0a3ceb2bc7325a9e322de8cdf92)**  
+- **[Meta reverses losses to rise as investors weigh $35 billion AI funding plan](https://finnhub.io/api/news?id=5a84d77eb678328aaf6500f837aca7525a49f32d716c525903fbc59a3031fb05)**  
 *Yahoo · 1h前*  
-Useful quantum computing is just years away.
+Investing.com -- Meta Platforms shares rose 1% after falling as much as 4% earlier in the session, reversing an initial selloff following the company’s launch o…
 
-- **[5 Insurance Stocks to Buy for a Decade of Rising Dividends](https://finnhub.io/api/news?id=ffb806edae3fd6126fd0dfff843978cb4154f7acb55b80dc3060d771861acb8d)**  
-*Yahoo · 2h前*  
-These five insurance stocks each sport decades-long track records of consecutive annual dividend growth.
+- **[AI Chips Today - Advancements In Embodied AI Boost Robot Reliability And Adaptability](https://finnhub.io/api/news?id=e53472e67fa65dec18fc378006716bf4dde9024bf0129f040b43c77bec073790)**  
+*Yahoo · 1h前*  
+DEEP Robotics recently unveiled five research advancements in embodied AI, focusing on developing the DEEPRobotics-Brain architecture for real-world robotic ope…
 
 ---
 
@@ -59,4 +59,4 @@ These five insurance stocks each sport decades-long track records of consecutive
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-26 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-26 21:04 HKT*
