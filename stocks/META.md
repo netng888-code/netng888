@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$642.62** |
-| 今日變動 | ▼ $6.23　(-0.96%) |
+| 現價 | **$630.56** |
+| 今日變動 | ▼ $12.06　(-1.88%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $109　(▲6.0%) |
+| 未實現盈虧 | ▲ $73　(▲4.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $627.61 | — |
-| Put Wall（支撐） | $600.00 | -6.6% |
-| Call Wall（阻力） | $750.00 | +16.7% |
+| Gamma Flip | $631.72 | — |
+| Put Wall（支撐） | $600.00 | -4.8% |
+| Call Wall（阻力） | $750.00 | +18.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[The 10 biggest stocks are faltering, and it's dragging the S&P 500 down](https://finnhub.io/api/news?id=e87f912f31e719239c25d15bff5ede75c4a5bfc0340b4f356d950c0a0f71253d)**  
-*Yahoo · 0h前*  
-The markets have seen a downward bias for months, in large part because of the biggest stocks.
+- **[Why Google might avoid an earnings 'reckoning' this week](https://finnhub.io/api/news?id=47de72553eee5bcec9dab5a9cf8d27e60b5deb952d3a48a6d7eae500c4e60395)**  
+*Yahoo · 2h前*  
+The negative surprise factor may not be there with Google as it was with Meta's earnings.
 
-- **[Update: Meta Launches $35 Billion Stock, Preferred Offerings; Plans Potential $60 Billion ATM Stock Offering](https://finnhub.io/api/news?id=12100600faf5d24b1834d8d1ac4fdda930da575f6bd66bb09c7e3e36afd22c3c)**  
-*Yahoo · 0h前*  
-(Updates with stock price moves in the first paragraph and details of the potential offering in the
+- **[CleanSpark Stock Fell 39% in October. Its Landlord Bet Now Rides on Meta’s Credit](https://finnhub.io/api/news?id=64783c7093188844cdfc68a8f501c1229dc68c7775a9581e9d55ec98aa4b779c)**  
+*Yahoo · 2h前*  
+Key Stats for CleanSpark StockCurrent Price: $7. 88Street Target (Mean): ~$23Street Target (Low): ~$19__Now Live: Discover how much upside your favorite stocks …
 
-- **[Meta Launches $35B Stock Offering, Plans Another $60B Program In 2027: Nvidia, AMD, Broadcom Eye Up To $5B Investment](https://finnhub.io/api/news?id=860ce716d2ea0a1bf05134e0bd0074b39b55e27ec7afb515f86874ef571d7d20)**  
-*Yahoo · 0h前*  
-Meta on Monday launched around $35 billion in concurrent stock offerings to help finance its AI infrastructure and personal superintelligence investments.
+- **[1 small-cap stock to target this week and 2 we find risky](https://finnhub.io/api/news?id=cf5bcec519a6e7721e52283988efba1f99f386994736e6fe768b89732031b1a9)**  
+*Yahoo · 2h前*  
+Small-cap stocks can be incredibly lucrative investments because their lack of analyst coverage leads to frequent mispricings. However, these businesses (and th…
 
 ---
 
@@ -48,7 +48,7 @@ Meta on Monday launched around $35 billion in concurrent stock offerings to help
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-26 | 監控 | $642.62 | — | 自動更新 |
+| 2026-10-27 | 監控 | $630.56 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Meta on Monday launched around $35 billion in concurrent stock offerings to help
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 07:04 HKT*
