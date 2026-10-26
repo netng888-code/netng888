@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-26 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Wells Fargo, Cisco, Intuit Among 6 More Companies Objecting to Tokenized Stocks](https://finnhub.io/api/news?id=5163ce18942b895f4e4b097d7595eb2c4b40eccba1b2953b30ce4795c2fbca01)**  
-*Yahoo · 7h前*  
-Twenty-two companies have now objected to having their shares traded on the planned OKX-ICE tokenized stock venue, after Wells Fargo, Cisco, Marvell, Arm, Moder…
+- **[SMH’s Price Has Soared, but Its Payout Is Still Below 2022 Levels](https://finnhub.io/api/news?id=cf7a40f1014520bebd5d44d7de45dc95114e0baed509d989a8f3ed33028cd73f)**  
+*Yahoo · 0h前*  
+SMH has handed long-term holders a staggering price run, yet the fund's annual payout tells a quietly unsettling story that most investors overlook when the sha…
 
-- **[Does enough capital exist to finance everyone’s ambitious AI spending plans?](https://finnhub.io/api/news?id=ffdbd0659b514bbb7acd64327012a1f799f98b5682b669581e4f64e802f4d945)**  
-*Yahoo · 7h前*  
-Investing.com -- Meta last week said that recent capital raises by peers such as Alphabet and SpaceX, and expected fundraising by Anthropic and OpenAI, have cre…
+- **[The 10 biggest stocks are faltering, and it's dragging the S&P 500 down](https://finnhub.io/api/news?id=e87f912f31e719239c25d15bff5ede75c4a5bfc0340b4f356d950c0a0f71253d)**  
+*Yahoo · 0h前*  
+The markets have seen a downward bias for months, in large part because of the biggest stocks.
 
-- **[Here's What $10,000 Invested Equally in Nvidia, AMD, and Broadcom Could Be Worth by 2030](https://finnhub.io/api/news?id=e79f7f843040d301b578346a1e7f88a5d68bfd0ca166081ed49d7be1c1b07875)**  
-*Yahoo · 9h前*  
-An investment in these three stocks could more than triple in value by 2030.
+- **[Update: Meta Launches $35 Billion Stock, Preferred Offerings; Plans Potential $60 Billion ATM Stock Offering](https://finnhub.io/api/news?id=12100600faf5d24b1834d8d1ac4fdda930da575f6bd66bb09c7e3e36afd22c3c)**  
+*Yahoo · 0h前*  
+(Updates with stock price moves in the first paragraph and details of the potential offering in the
 
 ---
 
@@ -59,4 +59,4 @@ An investment in these three stocks could more than triple in value by 2030.
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-26 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-26 21:04 HKT*
