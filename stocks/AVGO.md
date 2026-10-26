@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$321.68** |
-| 今日變動 | ▼ $1.56　(-0.48%) |
+| 現價 | **$329.17** |
+| 今日變動 | ▲ $7.49　(+2.33%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $569　(▼15.0%) |
+| 未實現盈虧 | ▼ $494　(▼13.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $353.19 | — |
-| Put Wall（支撐） | $300.00 | -6.7% |
-| Call Wall（阻力） | $350.00 | +8.8% |
+| Gamma Flip | $350.13 | — |
+| Put Wall（支撐） | $320.00 | -2.8% |
+| Call Wall（阻力） | $350.00 | +6.3% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SMH’s Price Has Soared, but Its Payout Is Still Below 2022 Levels](https://finnhub.io/api/news?id=cf7a40f1014520bebd5d44d7de45dc95114e0baed509d989a8f3ed33028cd73f)**  
-*Yahoo · 0h前*  
-SMH has handed long-term holders a staggering price run, yet the fund's annual payout tells a quietly unsettling story that most investors overlook when the sha…
+- **[Broadcom secures $63 billion from banks to finance AI compute sales to Anthropic](https://finnhub.io/api/news?id=8890ae2b873890170dbe240920765c05486b05559a3555f5ede45fd19b547272)**  
+*Yahoo · 2h前*  
+Investing.com -- Bank of America, Blackstone, Citi and Morgan Stanley announced Monday a $63 billion transaction to deploy AI compute capacity using Broadcom In…
 
-- **[The 10 biggest stocks are faltering, and it's dragging the S&P 500 down](https://finnhub.io/api/news?id=e87f912f31e719239c25d15bff5ede75c4a5bfc0340b4f356d950c0a0f71253d)**  
-*Yahoo · 0h前*  
-The markets have seen a downward bias for months, in large part because of the biggest stocks.
+- **[Bank of America, Blackstone, Citi and Morgan Stanley Announce Landmark $63 Billion Financing Structure to Enable AI Compute Capacity in Partnership with Broadcom](https://finnhub.io/api/news?id=c2fac6294a35585cd1f47a0825c125352e588991546f8036493a7d2922839429)**  
+*Yahoo · 2h前*  
+Bank of America (NYSE: BAC), Blackstone (NYSE: BX), Citi (NYSE: C) and Morgan Stanley (NYSE: MS) (the "Lead Financial Partners") today announced a $63 billion t…
 
-- **[Update: Meta Launches $35 Billion Stock, Preferred Offerings; Plans Potential $60 Billion ATM Stock Offering](https://finnhub.io/api/news?id=12100600faf5d24b1834d8d1ac4fdda930da575f6bd66bb09c7e3e36afd22c3c)**  
-*Yahoo · 0h前*  
-(Updates with stock price moves in the first paragraph and details of the potential offering in the
+- **[Vertiv to Report Q3 Earnings: Should You Buy, Sell, or Hold the Stock?](https://finnhub.io/api/news?id=e6beb19dbd9f7a8ee0b5312890dcaddb02aa7daa3f46967943fb4f8598cb009d)**  
+*Yahoo · 5h前*  
+VRT's Q3 earnings are likely to benefit from strong AI infrastructure demand and margin expansion despite a premium valuation.
 
 ---
 
@@ -48,7 +48,7 @@ The markets have seen a downward bias for months, in large part because of the b
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-26 | 監控 | $321.68 | — | 自動更新 |
+| 2026-10-27 | 監控 | $329.17 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The markets have seen a downward bias for months, in large part because of the b
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 07:04 HKT*
