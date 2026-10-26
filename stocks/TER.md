@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[FormFactor (FORM) Opens Texas Facility, But Is The Valuation Story Still Compelling](https://finnhub.io/api/news?id=9a1a53fd3f6a9560ff64ef5e9adb51ddf2a95fb75dcbb68796e65c627065484a)**  
+*Yahoo · 0h前*  
+FormFactor (FORM) just opened its new manufacturing facility in Farmers Branch, a move aimed at adding capacity for advanced probe card production as semiconduc…
+
+- **[Teradyne (TER) to report earnings tomorrow: here is what to expect](https://finnhub.io/api/news?id=4f3261832d2b56667411e58088cf9a6a15713a094d3448b0d7c4aa0902ac3610)**  
+*Yahoo · 4h前*  
+Semiconductor testing company Teradyne (NASDAQ:TER) will be reporting results this Tuesday after the bell. Here’s what to look for.
+
 - **[Should You Buy, Sell, or Hold TER Stock Before Q3 Earnings Release?](https://finnhub.io/api/news?id=54b9dda99218e2cb8da758d99be542a9d3807b3ce1595f8ec772addc0a093f26)**  
 *Yahoo · 2d前*  
 Teradyne's strong AI-driven demand, expanding semiconductor testing opportunities, and upbeat Q3 earnings outlook make the stock an attractive investment choice…
-
-- **[TER vs. AMD: Which AI Component Supplier Stock Is the Better Buy?](https://finnhub.io/api/news?id=7bb4a5450df076e9533e5d40868789c086b056481e4ecf223b97d0a39c226779)**  
-*Yahoo · 2d前*  
-Teradyne offers greater growth potential than Advanced Micro Devices, backed by stronger earnings surprises, a diversified AI-focused portfolio, and surging sem…
-
-- **[How Rare Is Keysight's Record Sales Growth?](https://finnhub.io/api/news?id=a8f16d04ebd10f851decdf3bd32dd52699fb28698cd9b0e7ccc2148e79f4b752)**  
-*Yahoo · 2d前*  
-For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-26 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-26 21:04 HKT*
