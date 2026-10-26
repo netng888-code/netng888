@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nokia: The Growth Of AI Networks Offers Strong Opportunities](https://finnhub.io/api/news?id=bc82353a37d8b749e9e7c6314e4bbf7c525b90a501d4919c424332d4d8ed7ec2)**  
-*SeekingAlpha · 17h前*
+- **[L&T Technology Services and Nokia Forge Engineering Collaboration](https://finnhub.io/api/news?id=af99c45f46bd8dbcd04f2de7564cc8908c889d393d953b6e5ce7aded00121bf3)**  
+*Yahoo · 9h前*  
+BENGALURU, India, October 26, 2026--L&T Technology Services announced it has established a five-year contract with Nokia to support engineering and R&D activiti…
 
-- **[Cadence Design Systems (CDNS) Debuts Europe’s First Sovereign AI Platform](https://finnhub.io/api/news?id=aa75e5b03a990fa695e0ce8be8efaf37fd350f707c4e352090420af7dfe5a698)**  
-*Yahoo · 1d前*  
-Cadence Design Systems (NasdaqGS:CDNS) launched what it describes as Europe's first sovereign AI platform for semiconductor and system design in Munich, in part…
+- **[SPCX, SMCI, NOK, TSLA, NFLX: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week](https://finnhub.io/api/news?id=0a9aacbbfc68d45ab3d6177c52a8cf5c12d104c44d4c50d3d2bf734a23f3e9f1)**  
+*Yahoo · 11h前*  
+Strong AI demand supported growth at some technology companies last week, while merger speculation lifted interest in others.
 
-- **[SpaceX’s 80,000 Cell Site Push A Win For ASTS, Ericsson, Nokia, NextNav, Among Others, Says Roth Capital](https://finnhub.io/api/news?id=239415d60d9c91010b25277b787551c6118bd0609bbc6fdc2257ce64162ee46d)**  
-*Yahoo · 1d前*  
-SpaceX is reportedly pursuing agreements for a minimum of 80,000 cell sites across the United States as it advances plans to build a fourth nationwide wireless …
+- **[3 AI Infrastructure Stocks Riding The Tesla And SpaceX Compute Buildout](https://finnhub.io/api/news?id=180595253696fc3402c9b65225d9330339c5ecb2b4f8e0730ef17fafa191bb00)**  
+*Yahoo · 17h前*  
+AI infrastructure is suddenly more than a buzzword, with Tesla and SpaceX now talked about in the same breath as hyperscalers and trillion dollar opportunities.…
 
 ---
 
@@ -58,4 +59,4 @@ SpaceX is reportedly pursuing agreements for a minimum of 80,000 cell sites acro
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-26 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-26 21:04 HKT*
