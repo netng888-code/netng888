@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Strikes 8-Year Deal to Keep Mark Zuckerberg in California as Billionaire Tax Looms: ‘Critically Important’ for Him to Remain in Leadership](https://finnhub.io/api/news?id=5d6c348b4f6f1c6d90eab72796452901c171fe7ce72916adf01fa786790fa6e1)**  
-*Yahoo · 2h前*  
-Meta Platforms Inc. has struck an agreement designed to keep CEO Mark Zuckerberg in California, addressing the possibility that a proposed billionaire wealth ta…
+- **[The 10 biggest stocks are faltering, and it's dragging the S&P 500 down](https://finnhub.io/api/news?id=e87f912f31e719239c25d15bff5ede75c4a5bfc0340b4f356d950c0a0f71253d)**  
+*Yahoo · 0h前*  
+The markets have seen a downward bias for months, in large part because of the biggest stocks.
 
-- **[Dow Jones Futures Due With Microsoft, Google, Amazon Ahead; Will Doom Or Bloom Control Market?](https://finnhub.io/api/news?id=113cecb05a3df99f75cf890a02cbfd5909256fef04c79314b3e628fbf4ac126a)**  
-*Yahoo · 3h前*  
-The S&P 500 and Nasdaq are below key levels, but many non-AI stocks are flashing buy signals. Microsoft, Google, Amazon loom.
+- **[Update: Meta Launches $35 Billion Stock, Preferred Offerings; Plans Potential $60 Billion ATM Stock Offering](https://finnhub.io/api/news?id=12100600faf5d24b1834d8d1ac4fdda930da575f6bd66bb09c7e3e36afd22c3c)**  
+*Yahoo · 0h前*  
+(Updates with stock price moves in the first paragraph and details of the potential offering in the
 
-- **[Did Elon Musk Just Admit to Slowing Starlink in Ukraine?](https://finnhub.io/api/news?id=6ebda5c197dda25dd6bafc007a49e945a7c3f9f3747670fa5f26a275f8de01f3)**  
-*Yahoo · 4h前*  
-SpaceX CEO Elon Musk had some thoughts about the Ukraine war that he posted on X this weekend.
+- **[Meta Launches $35B Stock Offering, Plans Another $60B Program In 2027: Nvidia, AMD, Broadcom Eye Up To $5B Investment](https://finnhub.io/api/news?id=860ce716d2ea0a1bf05134e0bd0074b39b55e27ec7afb515f86874ef571d7d20)**  
+*Yahoo · 0h前*  
+Meta on Monday launched around $35 billion in concurrent stock offerings to help finance its AI infrastructure and personal superintelligence investments.
 
 ---
 
@@ -59,4 +59,4 @@ SpaceX CEO Elon Musk had some thoughts about the Ukraine war that he posted on X
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-26 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-26 21:04 HKT*
