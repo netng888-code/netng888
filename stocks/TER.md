@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$309.00** |
-| 今日變動 | ▲ $0.15　(+0.05%) |
+| 現價 | **$323.68** |
+| 今日變動 | ▲ $14.68　(+4.75%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $1,085　(▲235.9%) |
+| 未實現盈虧 | ▲ $1,158　(▲251.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $382.48 | — |
-| Put Wall（支撐） | $275.00 | -11.0% |
-| Call Wall（阻力） | $325.00 | +5.2% |
+| Gamma Flip | $372.51 | — |
+| Put Wall（支撐） | $260.00 | -19.7% |
+| Call Wall（阻力） | $335.00 | +3.5% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Teradyne: Accelerating ATE Growth Supports Further Upside (Upgrade)](https://finnhub.io/api/news?id=7699440f9c6b821dac53e54920c583f04670a9aee9f06f9bae9e1a55daf27a70)**  
-*SeekingAlpha · 6h前*  
-Teradyne's H1 2026 revenue surged 95.3% YoY, outpacing consensus and supported by new product launches and hyperscaler customer wins.
+- **[Teradyne (NASDAQ:TER) Falls After Hours Despite Q3 Beat as AI Expectations Remain High](https://finnhub.io/api/news?id=10efa47015d4d76df64f5857abf23d9c662b572d45133ee22b40fd7b56abb995)**  
+*ChartMill · 1h前*  
+Teradyne beat Q3 estimates with 69.8% revenue growth but shares fell after hours as in-line Q4 guidance met high AI-driven expectations.
 
-- **[3 AI Infrastructure Stocks to Watch If Data Center Spending Slows](https://finnhub.io/api/news?id=ea85792b708df7bb0ef61a1c9a7a8c4160abe3532a9bfe3afe6605b8e76126d7)**  
-*Yahoo · 7h前*  
-AI infrastructure looked like the surest growth story of the decade, until the Bank of Korea flagged how quickly the mood could change if US tech giants trim da…
+- **[Teradyne Stock Falls Despite Chip-Gear Maker Beating Q3 Goals](https://finnhub.io/api/news?id=cb55d11418ed911327a35358d06a3996826f0392a4a3e637eaad3e4d6daf53fb)**  
+*Yahoo · 1h前*  
+Teradyne topped Wall Street's targets for the third quarter and with its guidance for Q4. But Teradyne stock fell.
 
-- **[Is Lam Research Stock Cheap Enough Yet?](https://finnhub.io/api/news?id=42fc5cfc27e456c4977db7cf96550184f050cbb5ade2ffad3362cefd872b2021)**  
-*Yahoo · 15h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[Teradyne (NASDAQ:TER) exceeds Q3 expectations but stock drops](https://finnhub.io/api/news?id=f767b851b55bd3847505436e07ef3e483fda346b75c151767ed450e25e738dad)**  
+*Yahoo · 2h前*  
+Semiconductor testing company Teradyne (NASDAQ:TER) announced better-than-expected revenue in Q3 2026, with revenue up 69.8% year on year to $1.31 billion. Guid…
 
 ---
 
@@ -48,7 +48,7 @@ For questions about this article or underlying research, email help@trefis.com.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-27 | 監控 | $309.00 | — | 自動更新 |
+| 2026-10-28 | 監控 | $323.68 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
