@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Vertiv Simplifies High-Density AI Infrastructure Deployment Across Data Center Environments](https://finnhub.io/api/news?id=218add4d2d3573610cb88bc7e3aa73ccae70726747ddb329d69b37bf675151cd)**  
+- **[What Equinix, KLA, and Vertiv Earnings Could Signal About Data Center Demand](https://finnhub.io/api/news?id=8764b09e20fc81f9c55f83649055a2cf61db1088baeaf7dd987572e54ef1392e)**  
 *Yahoo · 1h前*  
-Vertiv Holdings Co. (NYSE: VRT), a global leader in critical digital infrastructure, today introduced the Vertiv™ SmartIT solution, a pre-engineered architectur…
+Three companies reporting on the same day cover every layer of the AI data center stack, from chips to cooling to leased floor space, and their combined results…
 
-- **[Vertiv to Report Q3 Earnings: Should You Buy, Sell, or Hold the Stock?](https://finnhub.io/api/news?id=e6beb19dbd9f7a8ee0b5312890dcaddb02aa7daa3f46967943fb4f8598cb009d)**  
-*Yahoo · 5h前*  
-VRT's Q3 earnings are likely to benefit from strong AI infrastructure demand and margin expansion despite a premium valuation.
+- **[Vertiv Completes Acquisition of UtilityInnovation Group](https://finnhub.io/api/news?id=fc974165968fd9bcd657d2de40092745fed2ed53400d5d450d6d738dd3f121f6)**  
+*Yahoo · 2h前*  
+Vertiv Holdings Co. (NYSE: VRT) ("Vertiv"), a global leader in critical digital infrastructure, today announced its wholly-owned subsidiary, Vertiv Corporation,…
 
-- **[S&P 500 Premarket Movers: Gainers and Losers Before the Open](https://finnhub.io/api/news?id=25ba0a16c32b25a6eb4091c6ac82b41a620415d56cc52a92aa6a7b0097715d3c)**  
-*ChartMill · 9h前*  
-S&P 500 premarket movers include COHR, ROST, LITE, TSLA, FICO, MRNA, EQT and others, with premarket gains and declines ahead of the opening bell.
+- **[Vertiv (VRT) reports Q3: everything you need to know ahead of earnings](https://finnhub.io/api/news?id=7abb300dd2a5247767d0e4b3065f38bf60207b73d5a807a9ead123930c163bfc)**  
+*Yahoo · 3h前*  
+Data center products and services company Vertiv (NYSE:VRT) will be announcing earnings results this Wednesday before market open. Here’s what to expect.
 
 ---
 
@@ -59,4 +59,4 @@ S&P 500 premarket movers include COHR, ROST, LITE, TSLA, FICO, MRNA, EQT and oth
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
