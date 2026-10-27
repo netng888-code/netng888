@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Teradyne: Accelerating ATE Growth Supports Further Upside (Upgrade)](https://finnhub.io/api/news?id=7699440f9c6b821dac53e54920c583f04670a9aee9f06f9bae9e1a55daf27a70)**  
+*SeekingAlpha · 6h前*  
+Teradyne's H1 2026 revenue surged 95.3% YoY, outpacing consensus and supported by new product launches and hyperscaler customer wins.
+
+- **[3 AI Infrastructure Stocks to Watch If Data Center Spending Slows](https://finnhub.io/api/news?id=ea85792b708df7bb0ef61a1c9a7a8c4160abe3532a9bfe3afe6605b8e76126d7)**  
+*Yahoo · 7h前*  
+AI infrastructure looked like the surest growth story of the decade, until the Bank of Korea flagged how quickly the mood could change if US tech giants trim da…
+
 - **[Is Lam Research Stock Cheap Enough Yet?](https://finnhub.io/api/news?id=42fc5cfc27e456c4977db7cf96550184f050cbb5ade2ffad3362cefd872b2021)**  
-*Yahoo · 1h前*  
+*Yahoo · 15h前*  
 For questions about this article or underlying research, email help@trefis.com.
-
-- **[FormFactor Stock Before Q3 Earnings: Smart Buy or Risky Move?](https://finnhub.io/api/news?id=754ddb72f2360ec34bd33ee0d4b9746c2c6eb691fe76d2dda95c141960e6ecc5)**  
-*Yahoo · 6h前*  
-FORM's Q3 earnings outlook is buoyed by AI-driven demand and strong DRAM activity, but stretched valuation and capacity constraints raise concerns.
-
-- **[FormFactor (FORM) Opens Texas Facility, But Is The Valuation Story Still Compelling](https://finnhub.io/api/news?id=9a1a53fd3f6a9560ff64ef5e9adb51ddf2a95fb75dcbb68796e65c627065484a)**  
-*Yahoo · 10h前*  
-FormFactor (FORM) just opened its new manufacturing facility in Farmers Branch, a move aimed at adding capacity for advanced probe card production as semiconduc…
 
 ---
 
@@ -59,4 +59,4 @@ FormFactor (FORM) just opened its new manufacturing facility in Farmers Branch, 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
