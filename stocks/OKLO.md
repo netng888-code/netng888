@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Here Are Monday’s Top Wall Street Analyst Research Calls: Block, Boise Cascade, Equifax, FirstEnergy, Lockheed Martin, Lumentum Holdings, NetApp, Roper Technologies, Spotify, Technology, and More](https://finnhub.io/api/news?id=645be5240719f0bfb8637e24ad7ff89962905300a709d133cc8f9a73ef89949a)**  
-*Yahoo · 11h前*  
-Pre-Market Stock Futures: Futures are trading higher as we head into a new week that will finish out October, with traders trying to rally stocks after last wee…
+- **[TD Cowen Initiates Coverage of Oklo at Hold](https://finnhub.io/api/news?id=8ab990f48609b45c14925c8a930a7de226c0a3c7cdf33bfee833a8092e54d865)**  
+*Fintel · 12h前*
 
-- **[Top 3 Nuclear Stocks To Watch In October 2026](https://finnhub.io/api/news?id=9edb7a1381c042fda5c9e31c758a2d609cbb9daf232a9baced47ad44956a6981)**  
+- **[Oklo Is Now Down 63% This Year: Is OKLO Stock Dead Money or Due for a Bounce?](https://finnhub.io/api/news?id=a4bd9c875ed39cc5ae9c1dd18cb550599e9926c5a01c4c78fa0ee7b7d6f682a1)**  
+*Yahoo · 18h前*  
+Oklo has shed more than half its value this year while peers bleed out alongside it, yet some investors see a setup for a sharp reversal. The question is whethe…
+
+- **[Oklo Sinks, then Rebounds as TD Cowen Starts Coverage at Hold Despite a “Unique Way” to Invest](https://finnhub.io/api/news?id=9590d18ef02605c1df75ca720a6c6d65aed5ca5c8099d15ea2aef012bd3afbd7)**  
 *Yahoo · 21h前*  
-Britain’s struggle to plug huge gaps in its power grid as renewable energy projects queue for connections highlights a simple fact: reliable, low carbon electri…
-
-- **[Oklo Is Down 86% From Its High. Screaming Bargain or More Downside Ahead?](https://finnhub.io/api/news?id=0e1d0f37786d32d63a19061a8d11f125c0700dd555fed248ccbd9486ad4672f2)**  
-*Yahoo · 1d前*  
-Oklo trades at about $28 a share. Will it ever return to $190?
+Key TakeawaysOklo shares fell but are now up today after TD Cowen initiated coverage at Hold with a $26 price target, and Centrus Energy fell 1% after getting a…
 
 ---
 
@@ -59,4 +58,4 @@ Oklo trades at about $28 a share. Will it ever return to $190?
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
