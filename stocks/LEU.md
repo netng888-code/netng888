@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,22 +21,25 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $154.13 | — |
-| Put Wall（支撐） | $95.00 | -3.5% |
+| Put Wall（支撐） | $100.00 | --1.6% |
 | Call Wall（阻力） | $110.00 | +11.7% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Stocktwits M&A Watch: CRM, BRZE, TW, LEU Stocks In Focus](https://finnhub.io/api/news?id=e1cbea94e10a043fe785803552b575c7404c001198ed5028d57665fd6bf6e0af)**  
-*Yahoo · 15h前*  
-Salesforce’s $5.66 billion Braze deal, Tradeweb’s Trumid acquisition, and Centrus Energy’s Westerman Holdings takeover are in focus this week.
+- **[Centrus Energy (LEU) Stock May Trade At A Premium Following Its Westerman Deal](https://finnhub.io/api/news?id=fc6aa552de63f0aca187a2607d836ebc3783689f386145486bf8ac3aaafbd622)**  
+*Yahoo · 2h前*  
+Centrus Energy has seen its share price fall sharply over the past year even after a very strong three year stretch, which puts a spotlight on what investors ar…
 
-- **[MarketBeat Week in Review – 10/19 - 10/23](https://finnhub.io/api/news?id=7c98aef69dc9fa8ac289a42b47811016e0ac37976738cdf148d4f1e459a2be6f)**  
-*Yahoo · 2d前*  
-A market sell-off spread beyond tech as oil prices surged and AI concerns grew. MarketBeat analysts recap the week's top stories on earnings, from Halliburton t…
+- **[Centrus Energy (LEU) Slides On HALEU Hopes, Is It Still 48% Below Fair Value?](https://finnhub.io/api/news?id=778dc3be69bc2cdf89b64f598b506db9e4b14448b7e7ab6cee0442329ff06480)**  
+*Yahoo · 3h前*  
+Centrus Energy (LEU) has drawn fresh attention after its recent share slide, with the stock down 33% over the past month and 42% in the past 3 months through th…
+
+- **[TD Cowen Initiates Coverage of Centrus Energy at Hold](https://finnhub.io/api/news?id=4108971c64e132a6c8ee78e0d6cf28e841681026ca843393c8ea3caa79d68e1f)**  
+*Fintel · 13h前*
 
 ---
 
@@ -55,4 +58,4 @@ A market sell-off spread beyond tech as oil prices surged and AI concerns grew. 
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
