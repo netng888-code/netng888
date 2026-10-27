@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $325.01 | — |
+| Gamma Flip | $327.69 | — |
 | Put Wall（支撐） | $300.00 | -5.3% |
 | Call Wall（阻力） | $350.00 | +10.5% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tech Earnings Are the Market’s Biggest Story This Week: Here’s Why Microsoft, Amazon, Intel, SanDisk, and Alphabet Will Drive the Stock Market’s Next Move](https://finnhub.io/api/news?id=3ba45970045d616ae03d3cc67e7f9f6059a35dc49bdd2be6aa520a0bc20af7bf)**  
+- **[What Mattered Most In IBM's Latest Quarter?](https://finnhub.io/api/news?id=f347fdb63b3813eaf7a6111b1354ab2abd91d931b17768731e32e6f34bcb75f6)**  
 *Yahoo · 1h前*  
-This could be the most important week of 2026 for AI stocks. Microsoft (NASDAQ: MSFT), Amazon (NASDAQ: AMZN), Alphabet (NASDAQ: GOOGL), Intel (NASDAQ: INTC), an…
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Why Google might avoid an earnings 'reckoning' this week](https://finnhub.io/api/news?id=47de72553eee5bcec9dab5a9cf8d27e60b5deb952d3a48a6d7eae500c4e60395)**  
+- **[Prediction: Broadcom Stock Could Be Worth Twice as Much by 2030](https://finnhub.io/api/news?id=1e6ad0d8a469d3e7f84961a00ef250fa4ff3d046f2d50768b5015cc26b37c608)**  
 *Yahoo · 1h前*  
-The negative surprise factor may not be there with Google as it was with Meta's earnings.
+Broadcom just posted AI revenue growth of 221% year over year while its stock sits near a 52-week low, and the gap between where shares trade today and where ea…
 
-- **[Dow Jones Futures: Elon Musk-Led Tesla Leads Market Higher; Amazon, Alphabet, Microsoft Earnings On Deck](https://finnhub.io/api/news?id=3b2d826d4224b88b65aa89d13aa8ce95e4974df5a4937e2979af21b4625a932c)**  
-*Yahoo · 2h前*  
-Dow Jones Futures: Elon Musk-led Tesla stock led the market higher Monday. Amazon, Alphabet and Microsoft earnings are due this week.
+- **[Can Adobe Stock Jump 50%?](https://finnhub.io/api/news?id=c81ab75a84467a20aef58c94ab191798dfb35fdc28ee016ad165021837b6a29a)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ Dow Jones Futures: Elon Musk-led Tesla stock led the market higher Monday. Amazo
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:03 HKT*
