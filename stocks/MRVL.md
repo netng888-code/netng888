@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$233.78** |
-| 今日變動 | ▲ $5.27　(+2.31%) |
+| 現價 | **$243.57** |
+| 今日變動 | ▲ $9.79　(+4.19%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $235　(▼9.1%) |
+| 未實現盈虧 | ▼ $137　(▼5.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $241.51 | — |
-| Put Wall（支撐） | $200.00 | -14.4% |
-| Call Wall（阻力） | $300.00 | +28.3% |
+| Gamma Flip | $237.57 | — |
+| Put Wall（支撐） | $200.00 | -17.9% |
+| Call Wall（阻力） | $270.00 | +10.9% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Is Broadcom Stock Too Dependent On One Business?](https://finnhub.io/api/news?id=87d64087e23526c9bc94fc75ef20465e11a3630526ecc24e3d5224b69a15f458)**  
-*Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[Intel, Oracle, IBM Join Objections to OKX-ICE Tokenized Stock Venue, Bringing Total to 26](https://finnhub.io/api/news?id=c6a7556c6173bb894e29cb5d494ed7949e64d5905d0c3208797a77c208301a09)**  
+*Yahoo · 4h前*  
+Intel, Oracle, IBM, and IonQ became the latest companies to object to trading of their shares on the planned OKX-ICE tokenized stock venue, bringing the total t…
 
-- **[Oracle, IBM and Intel Have Opted Out of OKX-ICE Stock Tokens, Venue’s Own Notice Shows](https://finnhub.io/api/news?id=c4bf353cc032fa4c0563d9965f3ed5da711c5973878ff0198e925b2d6de78825)**  
-*Yahoo · 3h前*  
-The venue’s Oct. 26 notice also restates its risk warnings: its access-token contract had no external audit, upgrades skip a timelock and SIPC coverage for self…
+- **[Prediction: Marvell Stock Could Have Much More Upside Than Investors Think](https://finnhub.io/api/news?id=90064c3df79d7801bc73a4e2a731b47964902670f8c2a45fcffdb0fa6694d067)**  
+*Yahoo · 5h前*  
+Marvell shares just cratered while management raised its revenue outlook, creating a rare tension between Wall Street's confidence and the market's sudden cold …
 
-- **[Marvell Stock Is Bouncing Back From a Near 9% Drop. Its COO Says It Has “All the Demand and the Supply” to Hit $20 Billion in Revenue Next Year](https://finnhub.io/api/news?id=1359a52a2a32a419abb4f08bcde43eb012c4cb48a6a96fb6ec1597b60290ecb6)**  
-*Yahoo · 16h前*  
-Key Stats for Marvell StockCurrent Price: $228. 51Target Price (Mid): ~$1,710Street Target: ~$341Potential Total Return: ~650%Annualized IRR: ~60% / year__Now L…
+- **[SCI Stock Surges More Than 111% in 6 Months: Can the Momentum Continue?](https://finnhub.io/api/news?id=d75d8792c6e05bfc8f684e10837fff807db94d84a4ced72c702f18780f0674a2)**  
+*Yahoo · 5h前*  
+SCIA is benefiting from stronger demand, new customers, higher volumes and advanced-materials expansion, but customer concentration and raw material cost risks …
 
 ---
 
@@ -48,7 +48,7 @@ Key Stats for Marvell StockCurrent Price: $228. 51Target Price (Mid): ~$1,710Str
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-27 | 監控 | $233.78 | — | 自動更新 |
+| 2026-10-28 | 監控 | $243.57 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key Stats for Marvell StockCurrent Price: $228. 51Target Price (Mid): ~$1,710Str
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
