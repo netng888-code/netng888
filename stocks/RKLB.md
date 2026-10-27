@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[RKLB Stock Edges Up Overnight: Neutron’s Second Stage Heads To Launch Site — Analyst Eyes Q2 2027 Debut And Shares Doubling](https://finnhub.io/api/news?id=01c9c53710d12531704b849d83569f1be1d68639d9801b4cf3d51446c8554ab4)**  
+*Yahoo · 9h前*  
+Cantor reiterated its ‘Overweight’ rating and $122 target, implying a 127% upside from current levels.
+
+- **[Rocket Lab Corporation (RKLB) Outpaces Stock Market Gains: What You Should Know](https://finnhub.io/api/news?id=943a8583a864920ae276f969a6f28ea313d034fe789faaad263aef927fe03774)**  
+*Yahoo · 15h前*  
+Rocket Lab Corporation (RKLB) closed the most recent trading day at $53.82, moving +2.32% from the previous trading session.
+
 - **[Intuitive Machines Just Dropped 30% in a Month. Is It Time to Sell?](https://finnhub.io/api/news?id=c7a26a80b48e91b98a3eb40be5ce9141ee59aec540aacad9d5ef05d0386a7262)**  
-*Yahoo · 4h前*  
+*Yahoo · 18h前*  
 Intuitive Machines stock has cratered while the broader space sector barely flinched, and the reasons behind that gap reveal a company walking a very fine line …
-
-- **[The picks for non-AI investments: Healthcare, space, and aging populations](https://finnhub.io/api/news?id=7881fcc172851e52f5d6b0c199b9d648efe6843401581b9f31254aa2be0b9533)**  
-*Yahoo · 4h前*  
-Laffer Tengler Investments CEO and CIO Nancy Tengler and her panel of experts weigh in on where they'd put their money, instead of AI, with space, healthcare, a…
-
-- **[Beyond the AI boom: 3 sectors investors should watch](https://finnhub.io/api/news?id=f03744b50ce3c91641a16102db18876615894ef0b4f0136e5a257006c54412b0)**  
-*Yahoo · 4h前*  
-Laffer Tengler Investments CEO and CIO Nancy Tengler and her panel look beyond the AI boom to uncover investment opportunities in energy, healthcare, and space.…
 
 ---
 
@@ -59,4 +59,4 @@ Laffer Tengler Investments CEO and CIO Nancy Tengler and her panel look beyond t
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
