@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$451.63** |
-| 今日變動 | ▼ $0.66　(-0.15%) |
+| 現價 | **$445.88** |
+| 今日變動 | ▼ $5.75　(-1.27%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $3　(▼0.3%) |
+| 未實現盈虧 | ▼ $14　(▼1.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $414.59 | — |
-| Put Wall（支撐） | $400.00 | -11.4% |
-| Call Wall（阻力） | $450.00 | +-0.4% |
+| Gamma Flip | $416.18 | — |
+| Put Wall（支撐） | $440.00 | -1.3% |
+| Call Wall（阻力） | $450.00 | +0.9% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[2 large-cap stocks for long-term investors and 1 we brush off](https://finnhub.io/api/news?id=febd46ffeb2686ae1657d58376881c0fb00058b26f9724bec56ecfd7a544dd53)**  
-*Yahoo · 16h前*  
-Large-cap stocks are known for their staying power and ability to weather market storms better than smaller competitors. However, their sheer size makes it more…
+- **[2 unpopular stocks that deserve a second chance and 1 that underwhelm](https://finnhub.io/api/news?id=1bcb98b1094f367b447fdbe30d9bf5f6966162a86411ba309dd772458da67fcd)**  
+*Yahoo · 6h前*  
+Wall Street’s bearish price targets for the stocks in this article signal serious concerns. Such forecasts are uncommon in an industry where maintaining cordial…
 
-- **[Intuitive Surgical (ISRG) is an Incredible Growth Stock: 3 Reasons Why](https://finnhub.io/api/news?id=6ce9dbe984568e73495db2f531a5dcca8da8a2e33347cf6df21a6c4d10f30ed2)**  
-*Yahoo · 21h前*  
-Intuitive Surgical (ISRG) possesses solid growth attributes, which could help it handily outperform the market.
+- **[Waters & Labcorp Expand Access to FDA-Approved HPV Screening Tests](https://finnhub.io/api/news?id=123b58ad24fb079a3b83666a65de7d0245153a3ccc25616bf707bddfad20d273)**  
+*Yahoo · 7h前*  
+WAT partners with Labcorp to expand access to FDA-approved HPV testing by late 2026, potentially boosting diagnostics adoption and cervical cancer screening.
 
-- **[Earnings Estimates Moving Higher for Intuitive Surgical (ISRG): Time to Buy?](https://finnhub.io/api/news?id=7b9c5f2b1e4d22adc9b03a9a79e91ef3ac0efc8b42809993326becdab0e5bd8c)**  
-*Yahoo · 21h前*  
-Intuitive Surgical, Inc. (ISRG) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions…
+- **[Is It Worth Investing in Intuitive Surgical (ISRG) Based on Wall Street's Bullish Views?](https://finnhub.io/api/news?id=4e4d45ca45587cb34d78a36b253745267497abad84f165fa6350771561eba0ad)**  
+*Yahoo · 10h前*  
+The average brokerage recommendation (ABR) for Intuitive Surgical (ISRG) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts m…
 
 ---
 
@@ -48,7 +48,7 @@ Intuitive Surgical, Inc. (ISRG) shares have started gaining and might continue m
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-27 | 監控 | $451.63 | — | 自動更新 |
+| 2026-10-28 | 監控 | $445.88 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical, Inc. (ISRG) shares have started gaining and might continue m
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
