@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$630.56** |
-| 今日變動 | ▼ $12.06　(-1.88%) |
+| 現價 | **$620.19** |
+| 今日變動 | ▼ $10.37　(-1.64%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $73　(▲4.0%) |
+| 未實現盈虧 | ▲ $42　(▲2.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $625.04 | — |
-| Put Wall（支撐） | $600.00 | -4.8% |
-| Call Wall（阻力） | $750.00 | +18.9% |
+| Gamma Flip | $624.69 | — |
+| Put Wall（支撐） | $600.00 | -3.3% |
+| Call Wall（阻力） | $750.00 | +20.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nvidia (NASDAQ:NVDA) to Invest $3 Billion in Meta (NASDAQ:META) Share Offering as AI Partnership Expands](https://finnhub.io/api/news?id=1f8441efa20cf710414f4be100782fe2f84ab040313e064b60f62b24f1c4dda2)**  
+- **[Nvidia’s New $3 Billion AI Bet Is on One of Its Own Customers](https://finnhub.io/api/news?id=995b09e1776ebfbb47f422fd5d6dadf7dcb149e84ac3a45287398f342a51db9e)**  
 *Yahoo · 1h前*  
-Nvidia (NASDAQ:NVDA) announced Tuesday that it will invest $3 billion in an equity offering by Meta Platforms (NASDAQ:META), alongside an expansion of the compa…
+Nvidia’s $3 billion investment in Meta strengthens an important partnership. It also raises familiar questions about who is funding the AI boom.
 
-- **[Anthropic renews a certain kind of AI investors' faith](https://finnhub.io/api/news?id=23fd6fcb21cc4bd079de4abe9e5fb3d765b0a714cd67d86fb054272610ecbe82)**  
+- **[Stock Market Today, Oct. 27: Meta Raises Largest-Ever Equity Offering to Nearly $98 Billion to Fund AI Infrastructure Bet](https://finnhub.io/api/news?id=d8a00036d046a15237a68479e7cf1e499c211e45810a35fe286c0604e4aab05b)**  
 *Yahoo · 1h前*  
-Stocks are the new bonds in AI — Anthropic and Meta have turned to equity investors in looking for billions of dollars.
+Nvidia and AMD pledged investment backing as Meta prices its stock offering at $625 per share, today, Oct. 27, 2026.
 
-- **[Is Broadcom Stock Too Dependent On One Business?](https://finnhub.io/api/news?id=87d64087e23526c9bc94fc75ef20465e11a3630526ecc24e3d5224b69a15f458)**  
+- **[News of the day: Canadian dollar, Bell sells wireless tower stake, investors ignoring risks, federal budget winners and losers, Meta's new terms and more](https://finnhub.io/api/news?id=a071f5082b17b81696339b3f2e9f41e6625b81a51a1868d3350af264e91ad1bf)**  
 *Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Catch up on the stories we’re following today
 
 ---
 
@@ -48,7 +48,7 @@ For questions about this article or underlying research, email help@trefis.com.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-27 | 監控 | $630.56 | — | 自動更新 |
+| 2026-10-28 | 監控 | $620.19 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
