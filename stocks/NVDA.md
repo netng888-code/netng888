@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $210.78 | — |
+| Gamma Flip | $208.11 | — |
 | Put Wall（支撐） | $200.00 | -7.4% |
 | Call Wall（阻力） | $220.00 | +1.9% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Boost Run stock surges on AI infrastructure deployment](https://finnhub.io/api/news?id=c614f224e20ca9ee7c3bc4ecdac170d88d47df7bfc21c5313dd3aac6510ddee4)**  
+- **[Bloom Energy Stock Has Plunged Despite Explosive Growth. Is It Time to Buy?](https://finnhub.io/api/news?id=690f4eb2d6c63b17af7a896f0295d384d5cfe3853dad3f2ecdf1f6c14e58bc8c)**  
 *Yahoo · 1h前*  
-Investing.com -- Boost Run Inc (NASDAQ:BRUN) shares rose 6.7% in after-hours trading Monday following the company's announcement of AI infrastructure deployment…
+Diagnosing the recent disconnect between Bloom Energy's earnings and stock price.
 
-- **[Will Palantir Technologies Stock Hit $300 Before the End of 2026?](https://finnhub.io/api/news?id=90dfb5ab699650921423b1902c33a242267aba6eda1084938cebfc5b1b055f9f)**  
+- **[Amazon’s ‘Safe’ Retail Business Earns Less Than AWS Does. Is the Stock Still a Good Buy for Cautious Investors?](https://finnhub.io/api/news?id=0036dfe61387509967dcda677d4ab0070b31cbe898443f0b4ebe5909518bcde6)**  
 *Yahoo · 1h前*  
-Palantir's earnings are coming up next week, and another strong performance could send the stock higher.
+AWS is the profit engine behind the stock.
 
-- **[Why Arcos Dorados Stock Got Socked Today](https://finnhub.io/api/news?id=d313f1c6350af7d6d93a7d35b44c45841326d568897964e33b0eb0e80c6b3caa)**  
+- **[Inflation Beaters: 10 S&P 500 Stocks Charge A Premium](https://finnhub.io/api/news?id=095f02979b736561e19fe0f144085507c36402d3834023acbe3d8d44baa4fa77)**  
 *Yahoo · 1h前*  
-Investors were caught off-guard by the result of Brazil's presidential election.
+Inflation is usually a bad development if you're buying what's rising in price. But it's a potential boon for the sellers and their investors.
 
 ---
 
@@ -59,4 +59,4 @@ Investors were caught off-guard by the result of Brazil's presidential election.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
