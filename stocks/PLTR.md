@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$198.84** |
-| 今日變動 | ▲ $2.09　(+1.06%) |
+| 現價 | **$198.73** |
+| 今日變動 | ▼ $0.11　(-0.06%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $429　(▲56.2%) |
+| 未實現盈虧 | ▲ $429　(▲56.1%) |
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $184.79 | — |
+| Gamma Flip | $186.18 | — |
 | Put Wall（支撐） | $190.00 | -4.4% |
 | Call Wall（阻力） | $200.00 | +0.6% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[2 Standout AI Stocks That Can Plunge Up to 93%, According to Select Wall Street Analysts](https://finnhub.io/api/news?id=e5e9a0420e98e5728773f07535b2223b13a6109fd6842cbb17b3d688441f222f)**  
-*Yahoo · 1h前*  
-Optimism for individual artificial intelligence (AI) stocks isn’t universal on Wall Street.
+- **[Disruptive raises $10B fund to make big bets on at least 10 companies](https://finnhub.io/api/news?id=e8433a7581fdbf79ef509ddeb47229927e08687b066ceff69b0bba9930f3c9f6)**  
+*Yahoo · 4h前*  
+Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.
 
-- **[The AI ROI Panic Is Palantir's Best Sales Pitch](https://finnhub.io/api/news?id=149c3a5041f97a0d9af511ba73afffd57d7fe0e8c23bf9a0f8ea8c35d1b54314)**  
-*SeekingAlpha · 5h前*  
-Palantir (PLTR) is reiterated as a Strong Buy ahead of its November 2nd earnings, driven by robust AI enterprise adoption trends.
+- **[Gorilla Is Still Down 16% in 2026: Did GRRR Stock Just Find a Bottom?](https://finnhub.io/api/news?id=eaa4eb3df894411a0d7e6ffa436c268aa2c69ec5d13a0ff6c818dc4d38a2f671)**  
+*Yahoo · 4h前*  
+Gorilla Technology's stock bounced hard after signing a letter of intent for its first U.S. data center, but the company's operating losses are growing and its …
 
-- **[Palantir Technologies (PLTR) Deepens U.S. Reach With New Vanguard Elite Partner](https://finnhub.io/api/news?id=e3497619bef23b8d8d69de1562f226b609b20dd00dc75ef0adb907a7d15e6028)**  
-*Yahoo · 8h前*  
-Palantir Technologies (NasdaqGS:PLTR) has recognized Aplos Data as a Vanguard: Elite partner in its U.S. partner program. The partnership centers on wider deplo…
+- **[Palantir is one of just 3 crushed S&P 500 stocks up for the year](https://finnhub.io/api/news?id=6d3e3be0f7c8f63578764812c5808f87a4b4b157f1d83c743f19d5cf753021c2)**  
+*Yahoo · 6h前*  
+Wall Street’s worst first-half stocks rallied hard. Most of them are still underwater, and a few popular brands kept falling.
 
 ---
 
@@ -48,7 +48,7 @@ Palantir Technologies (NasdaqGS:PLTR) has recognized Aplos Data as a Vanguard: E
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-27 | 監控 | $198.84 | — | 自動更新 |
+| 2026-10-28 | 監控 | $198.73 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies (NasdaqGS:PLTR) has recognized Aplos Data as a Vanguard: E
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
