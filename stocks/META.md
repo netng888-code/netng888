@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $631.72 | — |
+| Gamma Flip | $625.04 | — |
 | Put Wall（支撐） | $600.00 | -4.8% |
 | Call Wall（阻力） | $750.00 | +18.9% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Google might avoid an earnings 'reckoning' this week](https://finnhub.io/api/news?id=47de72553eee5bcec9dab5a9cf8d27e60b5deb952d3a48a6d7eae500c4e60395)**  
-*Yahoo · 2h前*  
-The negative surprise factor may not be there with Google as it was with Meta's earnings.
+- **[Nvidia (NASDAQ:NVDA) to Invest $3 Billion in Meta (NASDAQ:META) Share Offering as AI Partnership Expands](https://finnhub.io/api/news?id=1f8441efa20cf710414f4be100782fe2f84ab040313e064b60f62b24f1c4dda2)**  
+*Yahoo · 1h前*  
+Nvidia (NASDAQ:NVDA) announced Tuesday that it will invest $3 billion in an equity offering by Meta Platforms (NASDAQ:META), alongside an expansion of the compa…
 
-- **[CleanSpark Stock Fell 39% in October. Its Landlord Bet Now Rides on Meta’s Credit](https://finnhub.io/api/news?id=64783c7093188844cdfc68a8f501c1229dc68c7775a9581e9d55ec98aa4b779c)**  
-*Yahoo · 2h前*  
-Key Stats for CleanSpark StockCurrent Price: $7. 88Street Target (Mean): ~$23Street Target (Low): ~$19__Now Live: Discover how much upside your favorite stocks …
+- **[Anthropic renews a certain kind of AI investors' faith](https://finnhub.io/api/news?id=23fd6fcb21cc4bd079de4abe9e5fb3d765b0a714cd67d86fb054272610ecbe82)**  
+*Yahoo · 1h前*  
+Stocks are the new bonds in AI — Anthropic and Meta have turned to equity investors in looking for billions of dollars.
 
-- **[1 small-cap stock to target this week and 2 we find risky](https://finnhub.io/api/news?id=cf5bcec519a6e7721e52283988efba1f99f386994736e6fe768b89732031b1a9)**  
-*Yahoo · 2h前*  
-Small-cap stocks can be incredibly lucrative investments because their lack of analyst coverage leads to frequent mispricings. However, these businesses (and th…
+- **[Is Broadcom Stock Too Dependent On One Business?](https://finnhub.io/api/news?id=87d64087e23526c9bc94fc75ef20465e11a3630526ecc24e3d5224b69a15f458)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ Small-cap stocks can be incredibly lucrative investments because their lack of a
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
