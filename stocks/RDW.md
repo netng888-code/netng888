@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,12 @@
 
 ## 📰 最新新聞
 
+- **[What Put Rocket Lab Ahead Of Its Industry?](https://finnhub.io/api/news?id=bbb0e2b1839987e4c16af27e7a80e9c18bc26e6f596e2b2ee147842835498a1d)**  
+*Yahoo · 1d前*  
+For questions about this article or underlying research, email help@trefis.com.
+
 - **[RDW Stock Slips Premarket: Exec Says Drone Tactics That Worked ‘Maybe Two Weeks Ago’ No Longer Work In Ukraine](https://finnhub.io/api/news?id=424beee392ccca83dff6b8762eafd3d22c0fdf0503b9ff8cda7ba157379254aa)**  
-*Yahoo · 14h前*  
+*Yahoo · 1d前*  
 Redwire targets rising defense demand with over 300 Penguin aircraft delivered to Ukraine, and $13.8 million in National Guard orders.
 
 - **[Could Redwire Be the Next Rocket Lab?](https://finnhub.io/api/news?id=02f68a8523fc537c1272a52cf200f025b3d29eda1931ff4c2087a607c267de36)**  
@@ -55,4 +59,4 @@ Rocket Lab's Neutron delay has the stock sliding, but Redwire is building a broa
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
