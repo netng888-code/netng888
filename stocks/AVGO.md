@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $350.13 | — |
+| Gamma Flip | $352.82 | — |
 | Put Wall（支撐） | $320.00 | -2.8% |
 | Call Wall（阻力） | $350.00 | +6.3% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom secures $63 billion from banks to finance AI compute sales to Anthropic](https://finnhub.io/api/news?id=8890ae2b873890170dbe240920765c05486b05559a3555f5ede45fd19b547272)**  
-*Yahoo · 2h前*  
-Investing.com -- Bank of America, Blackstone, Citi and Morgan Stanley announced Monday a $63 billion transaction to deploy AI compute capacity using Broadcom In…
+- **[Broadcom (NASDAQ:AVGO): A Dividend Quality Candidate for Income Investors](https://finnhub.io/api/news?id=12945d1f0636b2b32c18e69268808976a7ed36a69d9bcde3d836f27902119a69)**  
+*ChartMill · 0h前*  
+A dividend screen combining health, profitability and dividend ratings flags Broadcom (AVGO), though valuation and balance-sheet risks warrant review.
 
-- **[Bank of America, Blackstone, Citi and Morgan Stanley Announce Landmark $63 Billion Financing Structure to Enable AI Compute Capacity in Partnership with Broadcom](https://finnhub.io/api/news?id=c2fac6294a35585cd1f47a0825c125352e588991546f8036493a7d2922839429)**  
-*Yahoo · 2h前*  
-Bank of America (NYSE: BAC), Blackstone (NYSE: BX), Citi (NYSE: C) and Morgan Stanley (NYSE: MS) (the "Lead Financial Partners") today announced a $63 billion t…
+- **[Here Are Tuesday’s Top Wall Street Analyst Research Calls: Broadcom, Conoco Phillips, HubSpot, MercadoLibre, Moderna, Occidental Petroleum, PNC Financial, Trimble, and More](https://finnhub.io/api/news?id=eabb2f98e7f2ecff723614995ba1dc771f6c77d34f6f77966c32a172dd679608)**  
+*Yahoo · 1h前*  
+Pre-Market Stock Futures: Futures are trading higher after a Monday bounce that saw all major indices finish higher; stocks closed well below their intraday hig…
 
-- **[Vertiv to Report Q3 Earnings: Should You Buy, Sell, or Hold the Stock?](https://finnhub.io/api/news?id=e6beb19dbd9f7a8ee0b5312890dcaddb02aa7daa3f46967943fb4f8598cb009d)**  
-*Yahoo · 5h前*  
-VRT's Q3 earnings are likely to benefit from strong AI infrastructure demand and margin expansion despite a premium valuation.
+- **[Broadcom: DA Davidson upgrades AVGO, says Anthropic S-1 shows AI cycle isn’t over](https://finnhub.io/api/news?id=67ff6d80b8f4b27838946ace2443231ec475c0ebec2708f2b528e0156405d498)**  
+*Yahoo · 1h前*  
+Investing.com -- DA Davidson upgraded Broadcom to Buy from Neutral and raised its price target for the stock to $400 from $350 in a note Tuesday, saying Anthrop…
 
 ---
 
@@ -59,4 +59,4 @@ VRT's Q3 earnings are likely to benefit from strong AI infrastructure demand and
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:03 HKT*
