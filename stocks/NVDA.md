@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$216.00** |
-| 今日變動 | ▲ $5.04　(+2.39%) |
+| 現價 | **$217.94** |
+| 今日變動 | ▲ $1.94　(+0.90%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $539　(▲14.2%) |
+| 未實現盈虧 | ▲ $578　(▲15.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $208.11 | — |
-| Put Wall（支撐） | $200.00 | -7.4% |
-| Call Wall（阻力） | $220.00 | +1.9% |
+| Gamma Flip | $209.36 | — |
+| Put Wall（支撐） | $200.00 | -8.2% |
+| Call Wall（阻力） | $220.00 | +0.9% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Bloom Energy Stock Has Plunged Despite Explosive Growth. Is It Time to Buy?](https://finnhub.io/api/news?id=690f4eb2d6c63b17af7a896f0295d384d5cfe3853dad3f2ecdf1f6c14e58bc8c)**  
+- **[Nvidia’s New $3 Billion AI Bet Is on One of Its Own Customers](https://finnhub.io/api/news?id=995b09e1776ebfbb47f422fd5d6dadf7dcb149e84ac3a45287398f342a51db9e)**  
 *Yahoo · 1h前*  
-Diagnosing the recent disconnect between Bloom Energy's earnings and stock price.
+Nvidia’s $3 billion investment in Meta strengthens an important partnership. It also raises familiar questions about who is funding the AI boom.
 
-- **[Amazon’s ‘Safe’ Retail Business Earns Less Than AWS Does. Is the Stock Still a Good Buy for Cautious Investors?](https://finnhub.io/api/news?id=0036dfe61387509967dcda677d4ab0070b31cbe898443f0b4ebe5909518bcde6)**  
+- **[Jensen Huang's Late-Night Calls With President Trump Come as Nvidia's China AI Chip Shipments Fall 44% in the First Half of 2026. Here's Why His Access Matters.](https://finnhub.io/api/news?id=2bd5147d1bbd37ead4a993d669e21660010ab4ba55377370ce14f8c7ee422eff)**  
 *Yahoo · 1h前*  
-AWS is the profit engine behind the stock.
+Chinese companies reportedly want billions in Nvidia chips, but shipments have still fallen 44% in the first half of 2026.
 
-- **[Inflation Beaters: 10 S&P 500 Stocks Charge A Premium](https://finnhub.io/api/news?id=095f02979b736561e19fe0f144085507c36402d3834023acbe3d8d44baa4fa77)**  
+- **[Why Noble Stock Tumbled on Tuesday](https://finnhub.io/api/news?id=4da90b1ccec4100fd423b694bcc179267f47ab1f1419cb54bef134987c307db9)**  
 *Yahoo · 1h前*  
-Inflation is usually a bad development if you're buying what's rising in price. But it's a potential boon for the sellers and their investors.
+It flipped to a surprise net loss in its third quarter.
 
 ---
 
@@ -48,7 +48,7 @@ Inflation is usually a bad development if you're buying what's rising in price. 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-27 | 監控 | $216.00 | — | 自動更新 |
+| 2026-10-28 | 監控 | $217.94 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Inflation is usually a bad development if you're buying what's rising in price. 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
