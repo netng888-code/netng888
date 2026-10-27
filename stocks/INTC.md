@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tech Earnings Are the Market’s Biggest Story This Week: Here’s Why Microsoft, Amazon, Intel, SanDisk, and Alphabet Will Drive the Stock Market’s Next Move](https://finnhub.io/api/news?id=3ba45970045d616ae03d3cc67e7f9f6059a35dc49bdd2be6aa520a0bc20af7bf)**  
+- **[Did The Market Read Intel Right?](https://finnhub.io/api/news?id=f3005d98348eb449c22fe64de85ef0ad98b50b72ca8d8a31ebc01fb42c43a6dc)**  
 *Yahoo · 1h前*  
-This could be the most important week of 2026 for AI stocks. Microsoft (NASDAQ: MSFT), Amazon (NASDAQ: AMZN), Alphabet (NASDAQ: GOOGL), Intel (NASDAQ: INTC), an…
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Intel to Acquire Classiq to Create a Full-stack Quantum Computing Platform](https://finnhub.io/api/news?id=3f5e55e541513c0b99caefa208f59f95a84d2f781c7f223638e7e93b17c76ebf)**  
-*Yahoo · 2h前*  
-SANTA CLARA, Calif. & TEL AVIV, Israel, October 26, 2026--Intel to Acquire Classiq to Create a Full-stack Quantum Computing Platform
+- **[OH.io Partners with CVAT to Accelerate Growth of the Open-Source Data Labeling Platform to Train AI at Scale](https://finnhub.io/api/news?id=11cae654b7023830c88d0558b3236490461bccd85fac99b332463b13e220995d)**  
+*Yahoo · 1h前*  
+COLUMBUS, Ohio, October 27, 2026--OH.io, the first-of-its-kind go-to-market performance venture firm, and CVAT, the open-source platform for labeling image, vid…
 
-- **[Earnings live updates: Whirlpool stock drops on softer quarter as inflation weighs on sales](https://finnhub.io/api/news?id=fd806ad649263591473af903fa05722a938f016e9fd4a728b9f5f337317e0dac)**  
-*Yahoo · 2h前*  
-Third quarter earnings season is in full swing this week. Follow along for live updates.
+- **[Oracle, IBM and Intel Have Opted Out of OKX-ICE Stock Tokens, Venue’s Own Notice Shows](https://finnhub.io/api/news?id=c4bf353cc032fa4c0563d9965f3ed5da711c5973878ff0198e925b2d6de78825)**  
+*Yahoo · 3h前*  
+The venue’s Oct. 26 notice also restates its risk warnings: its access-token contract had no external audit, upgrades skip a timelock and SIPC coverage for self…
 
 ---
 
@@ -59,4 +59,4 @@ Third quarter earnings season is in full swing this week. Follow along for live 
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
