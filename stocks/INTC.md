@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$93.74** |
-| 今日變動 | ▲ $3.27　(+3.61%) |
+| 現價 | **$95.53** |
+| 今日變動 | ▲ $1.79　(+1.91%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $133　(▼12.4%) |
+| 未實現盈虧 | ▼ $115　(▼10.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $96.22 | — |
-| Put Wall（支撐） | $80.00 | -14.7% |
-| Call Wall（阻力） | $100.00 | +6.7% |
+| Gamma Flip | $96.15 | — |
+| Put Wall（支撐） | $80.00 | -16.3% |
+| Call Wall（阻力） | $100.00 | +4.7% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Applied Materials: Top Quality And Undervalued AI Leader](https://finnhub.io/api/news?id=0734994590dc54495b48efa9e0deee1da0bc04c15349b6150bdbbb7cae5c3090)**  
-*SeekingAlpha · 5h前*  
-Applied Materials has an impeccable track record of growth and profitability, along with a history of buybacks. Learn more about AMAT stock here.
+- **[Intel (INTC) reports earnings tomorrow: what to expect](https://finnhub.io/api/news?id=2c3fe6213bc24829cae3c845d7650a11e4ec4de05ab3c689d18a32c267262421)**  
+*Yahoo · 2h前*  
+Computer processor maker Intel (NASDAQ:INTC) will be reporting earnings this Thursday after the bell. Here’s what to look for.
 
-- **[CoreWeave: The Warning Sign AI Investors Shouldn't Ignore](https://finnhub.io/api/news?id=57c8f9ca937ba8ff0fbed5846dbf4a74ea2c1e45e269397f6d2f72dd8157b20a)**  
-*SeekingAlpha · 9h前*  
-CoreWeave revenue jumped 112% and backlog hit $104B, but high bond yields and AI infrastructure costs cloud returns. Read why CRWV stock is a sell.
+- **[S&P 500 Most Active Stocks for October 28, 2026](https://finnhub.io/api/news?id=3bad6005d5f06ce4a41dd4c36043b94dfe3b7ab2e58b7cfc068ee44edf4725ae)**  
+*ChartMill · 3h前*  
+S&P 500 trading volume on October 28, 2026 was led by INTC, BSX, ORCL, T and HOOD, with Oracle up 11.8% and Boston Scientific down 4.34%.
 
-- **[Intel, Microchip Technology, Marvell Technology, onsemi, and Seagate stocks trade up, what you need to know](https://finnhub.io/api/news?id=90f2bbd3f35cfebf5056b2e591a4b63fd9ecdcf8546e65ea039ab255d609756b)**  
-*Yahoo · 13h前*  
-A number of stocks jumped in the afternoon session after major artificial intelligence deals and landmark financing agreements reinforced investor confidence in…
+- **[Most Active Stocks in the 2026-10-28 US Session](https://finnhub.io/api/news?id=6dd00f7beebaf2b4ac44b90b2bf915a12b85e9f7be926f582a2065d8dbbc0504)**  
+*ChartMill · 4h前*  
+The 2026-10-28 US most-active list covers heavy-volume stocks including DVLT, CDT, STLA, BBD, GERN, SOFI, SHFS, INTC, NVDA and NOK with price moves and context.
 
 ---
 
@@ -48,7 +48,7 @@ A number of stocks jumped in the afternoon session after major artificial intell
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-28 | 監控 | $93.74 | — | 自動更新 |
+| 2026-10-29 | 監控 | $95.53 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ A number of stocks jumped in the afternoon session after major artificial intell
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 07:05 HKT*
