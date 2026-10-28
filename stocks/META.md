@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia’s New $3 Billion AI Bet Is on One of Its Own Customers](https://finnhub.io/api/news?id=995b09e1776ebfbb47f422fd5d6dadf7dcb149e84ac3a45287398f342a51db9e)**  
+- **[AMD Jumped 5% and Is Closing In on $1 Trillion Again](https://finnhub.io/api/news?id=ea9e200ace62a7e23e769d610a44f8372ade0c2981f4e7e9749b98a62227d007)**  
 *Yahoo · 1h前*  
-Nvidia’s $3 billion investment in Meta strengthens an important partnership. It also raises familiar questions about who is funding the AI boom.
+AMD crossed into trillion-dollar territory once before and lost it fast, but a surprise partnership announcement just sent the stock surging again with earnings…
 
-- **[Stock Market Today, Oct. 27: Meta Raises Largest-Ever Equity Offering to Nearly $98 Billion to Fund AI Infrastructure Bet](https://finnhub.io/api/news?id=d8a00036d046a15237a68479e7cf1e499c211e45810a35fe286c0604e4aab05b)**  
+- **[Meta’s $25 Billion Stock Sale Drew Five Times the Demand](https://finnhub.io/api/news?id=7f979e1c44d364d7795ed645bc4192e7912c2e3560cfa34e606e3092a49a4927)**  
 *Yahoo · 1h前*  
-Nvidia and AMD pledged investment backing as Meta prices its stock offering at $625 per share, today, Oct. 27, 2026.
+Meta pulled in far more investor demand than it had shares to sell, yet buyers still watched the stock fall the moment trading opened. What convinced NVIDIA and…
 
-- **[News of the day: Canadian dollar, Bell sells wireless tower stake, investors ignoring risks, federal budget winners and losers, Meta's new terms and more](https://finnhub.io/api/news?id=a071f5082b17b81696339b3f2e9f41e6625b81a51a1868d3350af264e91ad1bf)**  
-*Yahoo · 1h前*  
-Catch up on the stories we’re following today
+- **[The hidden opportunity in the tech stock crash](https://finnhub.io/api/news?id=d9f12da8e029bb11fc70315f46da444f50599f51f7e53f01f68b413b8f2b551f)**  
+*Yahoo · 2h前*  
+Resonate Wealth Partners CIO Alex Giuliano and TPW Advisory Founder Jay Pelosky reveal why the recent sell-off in semiconductor stocks is actually a massive fak…
 
 ---
 
@@ -59,4 +59,4 @@ Catch up on the stories we’re following today
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
