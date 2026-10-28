@@ -672,6 +672,17 @@
     扮成TTM。範圍：只改「持倉總覽」；「GEX + K線」／「到期日曆」兩個tab未加（如需要同款
     可以照fmtFund()新增嘅fcfTxt直接用）。⚠️ 需要futu_bridge_v2.py升級到v3.22先有FCF數據；
     未升級時FCF唔顯示，其餘功能不受影響。
+  v5.43（2026-10-28）：「GEX + K線」tab基本面row加第5張卡「FCF」，並喺卡內標明數據來源——用戶睇TSLA時
+    搵唔到FCF（v5.41/v5.42淨係加咗落「持倉總覽」table），自己要去Investing.com睇；但Investing嘅
+    「Levered FCF」口徑同Finnhub freeCashFlowTTM／SEC加總唔同（TSLA 2025年：Investing 3,733M，
+    CFO−Capex約6,220M），兩邊數字撞咗會令人以為出錯，所以卡內明確寫「來源」。來源標籤跟bridge回傳嘅
+    fcf_basis動態切換（唔係寫死「Finnhub」，因為v3.23起Finnhub冇數時會改用SEC加總，寫死會講錯）：
+    ttm＝Finnhub TTM／annual＝Finnhub年度（TTM缺值）／derived＝Finnhub推算（市值÷P/FCF）／
+    sec_ttm＝SEC近4季加總。有fcf_trend（bridge v3.24）就喺卡內第二行顯示最新季＋QoQ／YoY／TTM YoY。
+    同步改「🔎 今日點解升跌」：請求帶埋搜尋列揀嘅到期日數量（max_expirations），近8個時timeout 120→220秒。
+    ⚠️ 需要futu_bridge_v2.py打v3.25補丁（patch_bridge_v325.py），否則bridge會忽略max_expirations，
+    歸因卡仍然用近2個，其餘功能不受影響。
+    fund-row由4欄改5欄。數字邏輯全部重用v5.42嘅fmtFund()／fcfMoney()／fcfChg()，冇重複開發。
   v5.42（2026-10-25）：基本面欄加FCF趨勢行——最新季FCF（附截至日期）＋QoQ（對上季）＋YoY（對去年
     同季）＋TTM YoY（對上個TTM），正綠負紅；上期為負數時唔計%，改顯示「轉正／虧損收窄／虧損擴大」。
     數據來自bridge v3.24新增fcf_trend（SEC近8季）。fcf_basis新增derived→金額後加「(估)」。
@@ -684,7 +695,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.42)</title>
+<title>GEX Chart — Futu Bridge (v5.43)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -802,7 +813,8 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 
 /* Key levels cards */
 .levels{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:20px;}
-.fund-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;}
+.fund-row{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:20px;}
+.fund-src{font-size:9.5px;color:var(--muted);margin-top:5px;line-height:1.5;font-weight:400;font-family:var(--font-mono);}
 .lcard{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;text-align:center;position:relative;}
 .lcard::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;border-radius:0 0 8px 8px;}
 .lcard.spot::after{background:var(--white);}
@@ -1365,6 +1377,11 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
   <div class="lcard fund">
     <div class="lc-label">EPS Growth YoY</div>
     <div class="lc-val" id="fund-growth">—</div>
+  </div>
+  <div class="lcard fund">
+    <div class="lc-label">FCF（自由現金流）</div>
+    <div class="lc-val" id="fund-fcf">—</div>
+    <div class="fund-src" id="fund-fcf-src">—</div>
   </div>
 </div>
 
@@ -2194,6 +2211,19 @@ async function loadFundamentalsFor(sym) {
 // 零額外API成本）；EPS Growth YoY讀fundamentalsBySym[sym]（Finnhub，
 // 由loadFundamentalsFor()填入）。Sector呢個tab冇要求顯示，跟返
 // fmtFund()原有輸出但淨係揀用四個欄位。
+// v5.43：FCF來源標籤——跟bridge回傳嘅fcf_basis切換，唔寫死「Finnhub」
+// （v3.23起Finnhub冇FCF時bridge會改用SEC近4季加總，寫死會講錯來源）。
+function fcfSourceLabel(fh) {
+  if (!fh || fh.fcf_ttm == null) return null;
+  switch (fh.fcf_basis) {
+    case 'ttm':     return '來源 Finnhub（TTM）';
+    case 'annual':  return '來源 Finnhub（年度數字，TTM缺值）';
+    case 'derived': return '來源 Finnhub 推算（市值÷P/FCF）';
+    case 'sec_ttm': return '來源 SEC 近4季加總（Finnhub冇數）';
+    default:        return '來源 Finnhub';
+  }
+}
+
 function renderFundRow(sym, gexData) {
   const fund = fmtFund(sym, gexData || {});
   document.getElementById('fund-row').style.display = '';
@@ -2201,6 +2231,21 @@ function renderFundRow(sym, gexData) {
   document.getElementById('fund-eps').textContent = fund.epsTxt;
   document.getElementById('fund-div').textContent = fund.divTxt;
   document.getElementById('fund-growth').innerHTML = fund.growthTxt;
+
+  // FCF卡（v5.43新增）：金額重用fmtFund()嘅fcfTxt（已含(年)／(估)標籤）；
+  // 第二行＝來源 + SEC趨勢（有fcf_trend先顯示）。tooltip講明同Investing「Levered FCF」口徑唔同。
+  const fh = fundamentalsBySym[sym] || {};
+  const fcfEl = document.getElementById('fund-fcf');
+  const srcEl = document.getElementById('fund-fcf-src');
+  const srcLbl = fcfSourceLabel(fh);
+  fcfEl.innerHTML = fund.fcfTxt;
+  const srcParts = [];
+  if (srcLbl) srcParts.push(srcLbl);
+  else if (fh.fcf_trend && fh.fcf_trend.q != null) srcParts.push('TTM缺數，下面為SEC單季數字');
+  else srcParts.push(Object.keys(fh).length ? 'Finnhub／SEC 冇FCF數據' : '基本面載入中…');
+  if (fund.fcfTrendTxt && fund.fcfTrendTxt !== '—') srcParts.push(fund.fcfTrendTxt);
+  srcEl.innerHTML = srcParts.join('<br>');
+  srcEl.title = '單位：美元。口徑同Investing.com「Levered FCF」唔同（後者係扣債務後嘅另一個定義），兩邊數字唔好直接比較。';
 }
 
 // ── Render US table（移植自futu.html，T1/T2/T3三層報價模型）───
@@ -3187,9 +3232,12 @@ async function runWhyMoving() {
     const params = new URLSearchParams();
     const extra = document.getElementById('why-extra').value.trim();
     if (extra) params.set('extra_news', extra.slice(0, 1500));
+    // v5.43：歸因卡跟返搜尋列揀嘅到期日數量（bridge v3.25起支援max_expirations），Dealer倉位先會同主卡一致
+    const whyExp = document.getElementById('exp-select').value || '2';
+    params.set('max_expirations', whyExp);
     // 並行攞多個外部源 + GEX + AI(最多30秒+fallback30秒)，worst case可去到約90秒，前端放寬到120秒
     // （同v3.1教訓一致：前端等待時間一定要大過backend理論worst-case）
-    const r = await fetch(`${BRIDGE}/api/why_moving/${sym}?${params.toString()}`, {signal: AbortSignal.timeout(120000)});
+    const r = await fetch(`${BRIDGE}/api/why_moving/${sym}?${params.toString()}`, {signal: AbortSignal.timeout(whyExp === '8' ? 220000 : 120000)});   // v5.43：近8個到期日GEX最多約100秒＋AI最多60秒
     const j = await r.json();
     if (j.error) throw new Error(j.error);
     const ev = j.evidence;
