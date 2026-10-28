@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$198.73** |
-| 今日變動 | ▼ $0.11　(-0.06%) |
+| 現價 | **$196.81** |
+| 今日變動 | ▼ $1.92　(-0.97%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $429　(▲56.1%) |
+| 未實現盈虧 | ▲ $417　(▲54.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $186.18 | — |
-| Put Wall（支撐） | $190.00 | -4.4% |
-| Call Wall（阻力） | $200.00 | +0.6% |
+| Gamma Flip | $187.70 | — |
+| Put Wall（支撐） | $190.00 | -3.5% |
+| Call Wall（阻力） | $200.00 | +1.6% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[BMO Launches Canada's First Single Stock Autocallable Income ETFs](https://finnhub.io/api/news?id=4be4d580cf6cb4d0f9f0f78c70f02e66298b664cb82278a79650c45bfa1ffe17)**  
-*Yahoo · 1h前*  
-BMO Asset Management Inc., the manager of the BMO ETFs, today announced the launch of BMO Autocallable Income NVIDIA (NVDA) ETF – Series 1 (Cboe Canada: NVIA), …
+- **[Palantir Technologies Inc. (PLTR) Stock Sinks As Market Gains: Here's Why](https://finnhub.io/api/news?id=8be56a5e24e248007e03dba2d5b5f68bae9992c0ce56a3df3f642d1dc51bbf1c)**  
+*Yahoo · 2h前*  
+In the closing of the recent trading day, Palantir Technologies Inc. (PLTR) stood at $196.26, denoting a -1.24% move from the preceding trading day.
 
-- **[2 Popular AI Stocks to Sell Before They Drop 57% and 60%, According to Wall Street Analysts](https://finnhub.io/api/news?id=c8ecff488dceef0b9d227d943106a495f1c69b5a67832a2bdbc4061abd5a12cc)**  
-*Yahoo · 3h前*  
-Certain analysts believe shares of Palantir and Super Micro Computer are significantly overvalued.
+- **[Palantir Technologies vs. SentinelOne: Which Technology Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=89ae5143253af9126c0988f446ee057be3f4a4addb6157e8d3859770d9264110)**  
+*Yahoo · 4h前*  
+Palantir’s AI platform is winning customers across government and enterprise at a remarkable rate. SentinelOne is executing well but has yet to reach consistent…
 
-- **[Palantir Technologies and Yum! Brands have been highlighted as Zacks Bull and Bear of the Day](https://finnhub.io/api/news?id=8364e63d5ae7dfbaf006c00e7dd96cf18ff15ba1a7a074b0eae74b07e001eaf7)**  
+- **[Gorilla Rallies 5% as Rebound Extends and Bottom Case Builds; Palantir and BigBear.ai Slip](https://finnhub.io/api/news?id=dfab02a0d71a17c2fc432f362f6d2d28d5a86e5b774448a2fa31205788e0a007)**  
 *Yahoo · 5h前*  
-Palantir's AI growth and government demand bolster its outlook, while Yum! Brands faces food-safety fallout, consumer pressures and brand concentration risks.
+Gorilla Technology is surging while its AI software peers slide, and the gap between them comes down to a business model that trades code for concrete. Whether …
 
 ---
 
@@ -48,7 +48,7 @@ Palantir's AI growth and government demand bolster its outlook, while Yum! Brand
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-28 | 監控 | $198.73 | — | 自動更新 |
+| 2026-10-29 | 監控 | $196.81 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir's AI growth and government demand bolster its outlook, while Yum! Brand
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 07:05 HKT*
