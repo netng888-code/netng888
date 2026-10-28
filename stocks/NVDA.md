@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia’s New $3 Billion AI Bet Is on One of Its Own Customers](https://finnhub.io/api/news?id=995b09e1776ebfbb47f422fd5d6dadf7dcb149e84ac3a45287398f342a51db9e)**  
+- **['We'll be out of business': Jensen Huang bet his last dollars on a chip he never held in his hands — and it saved Nvidia](https://finnhub.io/api/news?id=1562f749b40570a3af1196f61e3cab5b1c3b131f779775e61cfad0ce7fff6943)**  
 *Yahoo · 1h前*  
-Nvidia’s $3 billion investment in Meta strengthens an important partnership. It also raises familiar questions about who is funding the AI boom.
+The chip was the RIVA 128 and Huang made the decision when Nvidia had "about six months of cash left.”
 
-- **[Jensen Huang's Late-Night Calls With President Trump Come as Nvidia's China AI Chip Shipments Fall 44% in the First Half of 2026. Here's Why His Access Matters.](https://finnhub.io/api/news?id=2bd5147d1bbd37ead4a993d669e21660010ab4ba55377370ce14f8c7ee422eff)**  
+- **[AMD Jumped 5% and Is Closing In on $1 Trillion Again](https://finnhub.io/api/news?id=ea9e200ace62a7e23e769d610a44f8372ade0c2981f4e7e9749b98a62227d007)**  
 *Yahoo · 1h前*  
-Chinese companies reportedly want billions in Nvidia chips, but shipments have still fallen 44% in the first half of 2026.
+AMD crossed into trillion-dollar territory once before and lost it fast, but a surprise partnership announcement just sent the stock surging again with earnings…
 
-- **[Why Noble Stock Tumbled on Tuesday](https://finnhub.io/api/news?id=4da90b1ccec4100fd423b694bcc179267f47ab1f1419cb54bef134987c307db9)**  
+- **[AI Chips Update - AI-Driven Robots Revolutionize Retail Logistics Automation](https://finnhub.io/api/news?id=d02b1513e12cc8ed0c21415513756aca2bc722eb79b236989e3d80b7abb63d78)**  
 *Yahoo · 1h前*  
-It flipped to a surprise net loss in its third quarter.
+Recent advancements in AI chip technology are being demonstrated through a collaborative initiative between Otto Group and Sereact. The partners are deploying u…
 
 ---
 
@@ -59,4 +59,4 @@ It flipped to a surprise net loss in its third quarter.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:03 HKT*
