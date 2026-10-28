@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intel, Oracle, IBM Join Objections to OKX-ICE Tokenized Stock Venue, Bringing Total to 26](https://finnhub.io/api/news?id=c6a7556c6173bb894e29cb5d494ed7949e64d5905d0c3208797a77c208301a09)**  
+- **[Was There Any Sign Astera Labs Stock Would Run?](https://finnhub.io/api/news?id=59927de20174700050187cdc5cfdcb1b5b7d5ae70fc47f5703b0bfcf4d084f15)**  
 *Yahoo · 4h前*  
+For questions about this article or underlying research, email help@trefis.com.
+
+- **[Intel, Microchip Technology, Marvell Technology, onsemi, and Seagate stocks trade up, what you need to know](https://finnhub.io/api/news?id=90f2bbd3f35cfebf5056b2e591a4b63fd9ecdcf8546e65ea039ab255d609756b)**  
+*Yahoo · 13h前*  
+A number of stocks jumped in the afternoon session after major artificial intelligence deals and landmark financing agreements reinforced investor confidence in…
+
+- **[Intel, Oracle, IBM Join Objections to OKX-ICE Tokenized Stock Venue, Bringing Total to 26](https://finnhub.io/api/news?id=c6a7556c6173bb894e29cb5d494ed7949e64d5905d0c3208797a77c208301a09)**  
+*Yahoo · 18h前*  
 Intel, Oracle, IBM, and IonQ became the latest companies to object to trading of their shares on the planned OKX-ICE tokenized stock venue, bringing the total t…
-
-- **[Prediction: Marvell Stock Could Have Much More Upside Than Investors Think](https://finnhub.io/api/news?id=90064c3df79d7801bc73a4e2a731b47964902670f8c2a45fcffdb0fa6694d067)**  
-*Yahoo · 5h前*  
-Marvell shares just cratered while management raised its revenue outlook, creating a rare tension between Wall Street's confidence and the market's sudden cold …
-
-- **[SCI Stock Surges More Than 111% in 6 Months: Can the Momentum Continue?](https://finnhub.io/api/news?id=d75d8792c6e05bfc8f684e10837fff807db94d84a4ced72c702f18780f0674a2)**  
-*Yahoo · 5h前*  
-SCIA is benefiting from stronger demand, new customers, higher volumes and advanced-materials expansion, but customer concentration and raw material cost risks …
 
 ---
 
@@ -59,4 +59,4 @@ SCIA is benefiting from stronger demand, new customers, higher volumes and advan
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:03 HKT*
