@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[RKLB Stock Climbs Overnight: Rocket Lab Touts $515M Military Push — 8 Of 18 Satellites In Production](https://finnhub.io/api/news?id=fea3f1636dc7a764800c7e5310d4e15019da8c2aae5b070e19e1a6dcb0ef7c1d)**  
+*Yahoo · 8h前*  
+Rocket Lab is building key satellite systems in-house, including solar panels, radios, avionics and flight software.
+
+- **[Lincoln Electric, Rocket Lab, Fluence Energy, ChargePoint, and American Superconductor shares skyrocket, what you need to know](https://finnhub.io/api/news?id=cebb7b26ee2957d8cce79053747518c00e88170bc5ef6acf0335a21c5c8ef40b)**  
+*Yahoo · 13h前*  
+A number of stocks jumped in the afternoon session after The Federal Reserve opened its two-day meeting with the 10-year Treasury yield at 4.995%, and futures p…
+
 - **[Why Rocket Lab Stock Took Flight on Tuesday](https://finnhub.io/api/news?id=13b8f33dbaa25c8ddeca41dcaa2ecf8673d7002dea885c129985739c9729528f)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 Investors got a positive update on Rocket Lab's Neutron launch vehicle.
-
-- **[Rocket Lab Just Dropped 29% in a Month. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=fb8d64a5f3af0a841c7ff6b2b4a67873f7b5b933c11df0a23aebc626e8920728)**  
-*Yahoo · 5h前*  
-Key TakeawaysRocket Lab stock fell 29% in the month through October 22, largely reflecting concerns over the delayed launch of its Neutron rocket. Management ha…
-
-- **[Intuitive Machines Surges 9% as Small-Cap Space Selloff Reverses; Rocket Lab Climbs 7%, SpaceX Lags](https://finnhub.io/api/news?id=7ad784725b4a14bc1dfca4e699f54057f7485560ac4b507f93d2521c2f220719)**  
-*Yahoo · 7h前*  
-Small-cap space stocks are staging a sharp reversal, but the biggest bounces belong to the names that fell hardest, and a record backlog and Golden Dome defense…
 
 ---
 
@@ -59,4 +59,4 @@ Small-cap space stocks are staging a sharp reversal, but the biggest bounces bel
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
