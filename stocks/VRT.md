@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$199.78** |
-| 今日變動 | ▲ $5.46　(+2.81%) |
+| 現價 | **$208.56** |
+| 今日變動 | ▲ $8.78　(+4.39%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $208　(▼34.2%) |
+| 未實現盈虧 | ▼ $190　(▼31.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $236.83 | — |
-| Put Wall（支撐） | $185.00 | -7.4% |
-| Call Wall（阻力） | $230.00 | +15.1% |
+| Gamma Flip | $231.78 | — |
+| Put Wall（支撐） | $210.00 | --0.7% |
+| Call Wall（阻力） | $250.00 | +19.9% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What Equinix, KLA, and Vertiv Earnings Could Signal About Data Center Demand](https://finnhub.io/api/news?id=8764b09e20fc81f9c55f83649055a2cf61db1088baeaf7dd987572e54ef1392e)**  
+- **[Can nVent Electric Become the Next Vertiv?](https://finnhub.io/api/news?id=1f076bffe5e61e2576eeeaeba0dd8dc19971fb1476b3e5e94f6efc5e8f8b129b)**  
 *Yahoo · 1h前*  
-Three companies reporting on the same day cover every layer of the AI data center stack, from chips to cooling to leased floor space, and their combined results…
+nVent is a smaller company that specializes in liquid cooling solutions, and it may be a better stock than Vertiv right now.
 
-- **[Vertiv Completes Acquisition of UtilityInnovation Group](https://finnhub.io/api/news?id=fc974165968fd9bcd657d2de40092745fed2ed53400d5d450d6d738dd3f121f6)**  
+- **[Vertiv Soars 16% and Enphase Sinks 17%: 6 Stocks Moving Before the Bell](https://finnhub.io/api/news?id=b63bcbed67ab895ac1c3251b1d6b35535040c0dde384bee8a52afe7da7d1d2ee)**  
 *Yahoo · 2h前*  
-Vertiv Holdings Co. (NYSE: VRT) ("Vertiv"), a global leader in critical digital infrastructure, today announced its wholly-owned subsidiary, Vertiv Corporation,…
+Earnings season is drawing a sharp line between AI infrastructure winners and clean energy losers, and the gap between them widened dramatically before the open…
 
-- **[Vertiv (VRT) reports Q3: everything you need to know ahead of earnings](https://finnhub.io/api/news?id=7abb300dd2a5247767d0e4b3065f38bf60207b73d5a807a9ead123930c163bfc)**  
-*Yahoo · 3h前*  
-Data center products and services company Vertiv (NYSE:VRT) will be announcing earnings results this Wednesday before market open. Here’s what to expect.
+- **[Vertiv (NYSE:VRT) beats expectations in strong Q3 2026, stock jumps 15.2%](https://finnhub.io/api/news?id=0e312ae79534d799643c6891f7ab325eec3b8e53f2b6d92c8efcdd82f4349bf7)**  
+*Yahoo · 2h前*  
+Data center products and services company Vertiv (NYSE:VRT) reported Q3 2026 results beating Wall Street’s revenue expectations, with revenue up 61.2% year on y…
 
 ---
 
@@ -48,7 +48,7 @@ Data center products and services company Vertiv (NYSE:VRT) will be announcing e
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-27 | 監控 | $199.78 | — | 自動更新 |
+| 2026-10-28 | 監控 | $208.56 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Data center products and services company Vertiv (NYSE:VRT) will be announcing e
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-27 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
