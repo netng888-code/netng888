@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$342.33** |
-| 今日變動 | ▲ $13.16　(+4.00%) |
+| 現價 | **$351.81** |
+| 今日變動 | ▲ $9.48　(+2.77%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $363　(▼9.6%) |
+| 未實現盈虧 | ▼ $268　(▼7.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $347.54 | — |
-| Put Wall（支撐） | $340.00 | -0.7% |
-| Call Wall（阻力） | $350.00 | +2.2% |
+| Gamma Flip | $343.75 | — |
+| Put Wall（支撐） | $350.00 | -0.5% |
+| Call Wall（阻力） | $360.00 | +2.3% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Chips Update - AI-Driven Robots Revolutionize Retail Logistics Automation](https://finnhub.io/api/news?id=d02b1513e12cc8ed0c21415513756aca2bc722eb79b236989e3d80b7abb63d78)**  
-*Yahoo · 1h前*  
-Recent advancements in AI chip technology are being demonstrated through a collaborative initiative between Otto Group and Sereact. The partners are deploying u…
+- **[Broadcom Inc. (AVGO) Laps the Stock Market: Here's Why](https://finnhub.io/api/news?id=cd6aeca780a8ab1612583b0bca8de9de40bc1be5d634eeab2be352664eaeb2d0)**  
+*Yahoo · 2h前*  
+The latest trading day saw Broadcom Inc. (AVGO) settling at $351.81, representing a +2.77% change from its previous close.
 
-- **[Seagate Technology Fell 25% in The Last Month But One Wall Street Analyst Says 140% Gains to Come](https://finnhub.io/api/news?id=f247f4b6d9847bd8c9a7fcddbd747bec8cd71687add5d057bb3945f470e0cf44)**  
-*Yahoo · 1h前*  
-Seagate just posted record earnings and guided well above Wall Street expectations, yet the stock cratered anyway. One analyst sees a path to 140% gains from he…
+- **[Chip Earnings Power Averages Higher as Nasdaq Volatility Cools Midweek](https://finnhub.io/api/news?id=8cca93701c445fbd05ef06cb5b774bdb990789cddf3626317ce31c2df490756e)**  
+*Yahoo · 4h前*  
+Stock Preachers News Commentary - Major U.S. indices pushed higher midweek, with the S&P 500 up 1.51% and the Nasdaq Composite up 1.98% over the week's three se…
 
-- **[Meta’s $25 Billion Stock Sale Drew Five Times the Demand](https://finnhub.io/api/news?id=7f979e1c44d364d7795ed645bc4192e7912c2e3560cfa34e606e3092a49a4927)**  
-*Yahoo · 1h前*  
-Meta pulled in far more investor demand than it had shares to sell, yet buyers still watched the stock fall the moment trading opened. What convinced NVIDIA and…
+- **[Lumentum Shares Jump 135% YTD: Can AI Momentum Sustain the Rally?](https://finnhub.io/api/news?id=261ebe20bc2be22623851d3adeceff81d0dd5db5de296a372b1eb082d1a8e5f9)**  
+*Yahoo · 6h前*  
+LITE shares have surged 135% YTD on AI-driven optical demand, but premium valuation, customer concentration and capacity constraints raise concerns.
 
 ---
 
@@ -48,7 +48,7 @@ Meta pulled in far more investor demand than it had shares to sell, yet buyers s
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-28 | 監控 | $342.33 | — | 自動更新 |
+| 2026-10-29 | 監控 | $351.81 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Meta pulled in far more investor demand than it had shares to sell, yet buyers s
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 07:04 HKT*
