@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$620.19** |
-| 今日變動 | ▼ $10.37　(-1.64%) |
+| 現價 | **$612.49** |
+| 今日變動 | ▼ $7.70　(-1.24%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $42　(▲2.3%) |
+| 未實現盈虧 | ▲ $18　(▲1.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $624.69 | — |
-| Put Wall（支撐） | $600.00 | -3.3% |
-| Call Wall（阻力） | $750.00 | +20.9% |
+| Gamma Flip | $621.60 | — |
+| Put Wall（支撐） | $600.00 | -2.0% |
+| Call Wall（阻力） | $750.00 | +22.5% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AMD Jumped 5% and Is Closing In on $1 Trillion Again](https://finnhub.io/api/news?id=ea9e200ace62a7e23e769d610a44f8372ade0c2981f4e7e9749b98a62227d007)**  
+- **[Bessent Plays Down Concerns Over AI Financing, Fed Rate Policy](https://finnhub.io/api/news?id=a0641912c0ebdfcb0edcefe940558c67445ea33646b52570ccd0ac2db7017936)**  
 *Yahoo · 1h前*  
-AMD crossed into trillion-dollar territory once before and lost it fast, but a surprise partnership announcement just sent the stock surging again with earnings…
+Treasury Secretary Scott Bessent said he and his team are keeping tabs on the state of financing for the artificial intelligence build-out, and played down rece…
 
-- **[Meta’s $25 Billion Stock Sale Drew Five Times the Demand](https://finnhub.io/api/news?id=7f979e1c44d364d7795ed645bc4192e7912c2e3560cfa34e606e3092a49a4927)**  
-*Yahoo · 1h前*  
-Meta pulled in far more investor demand than it had shares to sell, yet buyers still watched the stock fall the moment trading opened. What convinced NVIDIA and…
-
-- **[The hidden opportunity in the tech stock crash](https://finnhub.io/api/news?id=d9f12da8e029bb11fc70315f46da444f50599f51f7e53f01f68b413b8f2b551f)**  
+- **[Red-Hot Nvidia Just Received A 100% Buy Rating… But Is That A Bad Thing?](https://finnhub.io/api/news?id=440cab411ef5ea17b7fe900b8b2b8d62711dc4cea09c1681d7639c9d5e946afd)**  
 *Yahoo · 2h前*  
-Resonate Wealth Partners CIO Alex Giuliano and TPW Advisory Founder Jay Pelosky reveal why the recent sell-off in semiconductor stocks is actually a massive fak…
+What happens to the stock market when every single analyst points in the exact same direction and there isn't a single contrarian left? 24/7 Wall St. Analysts D…
+
+- **[Meta Just Priced a Stock Sale at $625 a Share. I'd Consider Buying at the Same Price.](https://finnhub.io/api/news?id=1f4734a24fab05e191a2c8b50eea4f086d7a18ddc868be49f4c633636719dbbd)**  
+*Yahoo · 2h前*  
+Existing holders give up a little over 2% of the company. What do they get for it?
 
 ---
 
@@ -48,7 +48,7 @@ Resonate Wealth Partners CIO Alex Giuliano and TPW Advisory Founder Jay Pelosky 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-28 | 監控 | $620.19 | — | 自動更新 |
+| 2026-10-29 | 監控 | $612.49 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Resonate Wealth Partners CIO Alex Giuliano and TPW Advisory Founder Jay Pelosky 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 07:04 HKT*
