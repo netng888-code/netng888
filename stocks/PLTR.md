@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Disruptive raises $10B fund to make big bets on at least 10 companies](https://finnhub.io/api/news?id=e8433a7581fdbf79ef509ddeb47229927e08687b066ceff69b0bba9930f3c9f6)**  
-*Yahoo · 4h前*  
-Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.
+- **[BMO Launches Canada's First Single Stock Autocallable Income ETFs](https://finnhub.io/api/news?id=4be4d580cf6cb4d0f9f0f78c70f02e66298b664cb82278a79650c45bfa1ffe17)**  
+*Yahoo · 1h前*  
+BMO Asset Management Inc., the manager of the BMO ETFs, today announced the launch of BMO Autocallable Income NVIDIA (NVDA) ETF – Series 1 (Cboe Canada: NVIA), …
 
-- **[Gorilla Is Still Down 16% in 2026: Did GRRR Stock Just Find a Bottom?](https://finnhub.io/api/news?id=eaa4eb3df894411a0d7e6ffa436c268aa2c69ec5d13a0ff6c818dc4d38a2f671)**  
-*Yahoo · 4h前*  
-Gorilla Technology's stock bounced hard after signing a letter of intent for its first U.S. data center, but the company's operating losses are growing and its …
+- **[2 Popular AI Stocks to Sell Before They Drop 57% and 60%, According to Wall Street Analysts](https://finnhub.io/api/news?id=c8ecff488dceef0b9d227d943106a495f1c69b5a67832a2bdbc4061abd5a12cc)**  
+*Yahoo · 3h前*  
+Certain analysts believe shares of Palantir and Super Micro Computer are significantly overvalued.
 
-- **[Palantir is one of just 3 crushed S&P 500 stocks up for the year](https://finnhub.io/api/news?id=6d3e3be0f7c8f63578764812c5808f87a4b4b157f1d83c743f19d5cf753021c2)**  
-*Yahoo · 6h前*  
-Wall Street’s worst first-half stocks rallied hard. Most of them are still underwater, and a few popular brands kept falling.
+- **[Palantir Technologies and Yum! Brands have been highlighted as Zacks Bull and Bear of the Day](https://finnhub.io/api/news?id=8364e63d5ae7dfbaf006c00e7dd96cf18ff15ba1a7a074b0eae74b07e001eaf7)**  
+*Yahoo · 5h前*  
+Palantir's AI growth and government demand bolster its outlook, while Yum! Brands faces food-safety fallout, consumer pressures and brand concentration risks.
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street’s worst first-half stocks rallied hard. Most of them are still und
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
