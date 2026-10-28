@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-28 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: Growth Stocks Rally, Tesla Clears Buy Point; Fed, Microsoft, Google On Tap](https://finnhub.io/api/news?id=363fe5f026f80084da7451505ae7875524746e78d1f0ea26c24554aeddd0a3fe)**  
+- **[OpenAI Is Buying Google’s AI Chips, a Hit to Nvidia’s Biggest Customer Bond](https://finnhub.io/api/news?id=9d42b9c2dbd1cf8957b97cbf6005f35711cfbe7ad5608d1bf40520e40e3145d3)**  
 *Yahoo · 1h前*  
-The S&P 500 reclaimed a key level as Tesla and growth stocks rallied. The Federal Reserve, Microsoft, Google on deck.
+OpenAI reportedly buying Google's custom AI chips would quietly shift leverage in one of the most lucrative vendor relationships in tech, and the fallout for NV…
 
-- **[Stock Market Today, Oct. 27: Meta Raises Largest-Ever Equity Offering to Nearly $98 Billion to Fund AI Infrastructure Bet](https://finnhub.io/api/news?id=d8a00036d046a15237a68479e7cf1e499c211e45810a35fe286c0604e4aab05b)**  
+- **[Tesla Closed Up 4% at $407. Here’s What a SpaceX Merger Could Mean for Your Shares.](https://finnhub.io/api/news?id=88a696280e07849cd2e11ae0206edf4c6a8bbd173fbbca37364391c0b5a24f4c)**  
 *Yahoo · 1h前*  
-Nvidia and AMD pledged investment backing as Meta prices its stock offering at $625 per share, today, Oct. 27, 2026.
+A possible Tesla and SpaceX combination has Elon Musk calling it a good idea, Wall Street assigning a 52% probability, and at least one prominent critic labelin…
 
-- **[Artificial Intelligence (AI) in Pharmacovigilance Global Market Report 2026 | Capitalize on 19.6% CAGR to 2030 as Oracle, Microsoft, Google and IQVIA Accelerate Automation](https://finnhub.io/api/news?id=1c79530695d2e9d5090330d0bd015375fec18faf4d5acc083878152523df9e9b)**  
-*Yahoo · 1h前*  
-Boost ROI by automating safety workflows, integrating multisource data, improving signal detection, and retaining human oversight for compliance.Dublin, Oct. 27…
+- **[Three billionaires called the AI top. Each has a reason to.](https://finnhub.io/api/news?id=fd6447ed6a1257459943764c2e605a8671da325bb043e924d219870a98ee1354)**  
+*Yahoo · 2h前*  
+Elon Musk, Ken Griffin and Chamath Palihapitiya all called the top of the AI trade in the same week, as CoreWeave, Nebius and IREN fell more than 30% in a month…
 
 ---
 
@@ -59,4 +59,4 @@ Boost ROI by automating safety workflows, integrating multisource data, improvin
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:03 HKT*
