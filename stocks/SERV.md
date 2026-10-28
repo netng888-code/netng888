@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 07:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$2.94** |
-| 今日變動 | ▲ $0.30　(+11.36%) |
+| 現價 | **$3.02** |
+| 今日變動 | ▲ $0.08　(+2.72%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $11.743 |
-| 未實現盈虧 | ▼ $264　(▼75.0%) |
+| 未實現盈虧 | ▼ $262　(▼74.3%) |
 
 ---
 
@@ -20,11 +20,11 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $2.68 | — |
-| Put Wall（支撐） | $2.50 | -15.0% |
-| Call Wall（阻力） | $5.00 | +70.1% |
+| Gamma Flip | $2.55 | — |
+| Put Wall（支撐） | $3.00 | -0.7% |
+| Call Wall（阻力） | $5.00 | +65.6% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
@@ -40,7 +40,7 @@ Serve Robotics faces revenue cuts, cash burn, and dilution after losing Uber. Cl
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-28 | 監控 | $2.94 | — | 自動更新 |
+| 2026-10-29 | 監控 | $3.02 | — | 自動更新 |
 
 ---
 
@@ -51,4 +51,4 @@ Serve Robotics faces revenue cuts, cash burn, and dilution after losing Uber. Cl
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 07:06 HKT*
