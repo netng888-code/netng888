@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Oklo: Stalking An Entry As The Boom And Bust Cycle Concludes](https://finnhub.io/api/news?id=be6d7c304ec4e6c141750fbd13e15e2121afd2955ef949c6cc243cbd45bcb962)**  
-*SeekingAlpha · 14h前*  
-Oklo stock has erased most 2025 gains as valuation outpaces fundamentals. Read here for a detailed investment analysis.
+- **[OKLO Stock Set To Snap 4-Week Losing Streak: Analyst Calls It ‘Conceptually Very Attractive’ But Flags Execution Risk](https://finnhub.io/api/news?id=85135ee7032ac2c021e25b395fcc1ed35c0fba3e211e6e877db3cf48698b368e)**  
+*Yahoo · 9h前*  
+TD Cowen analyst Marc Bianchi initiated coverage of Oklo with a ‘Hold’ rating and a $26 price target.
 
-- **[TD Cowen Initiates Coverage of Oklo at Hold](https://finnhub.io/api/news?id=8ab990f48609b45c14925c8a930a7de226c0a3c7cdf33bfee833a8092e54d865)**  
-*Fintel · 22h前*
+- **[AI Power Stocks Fell 7% to 13% in a Week While Exxon and Chevron Just Hit Record Highs. Here's Which Side I'd Rather Own.](https://finnhub.io/api/news?id=a683b0ebc2bf18c26a410344c9c98d159aacec1d7dce91e8a13e074b5feae1c1)**  
+*Yahoo · 10h前*  
+Stocks like Oklo are high-risk, and the opportunity may not pan out, but Exxon and Chevron are built to survive hard times.
 
-- **[Oklo Is Now Down 63% This Year: Is OKLO Stock Dead Money or Due for a Bounce?](https://finnhub.io/api/news?id=a4bd9c875ed39cc5ae9c1dd18cb550599e9926c5a01c4c78fa0ee7b7d6f682a1)**  
-*Yahoo · 1d前*  
-Oklo has shed more than half its value this year while peers bleed out alongside it, yet some investors see a setup for a sharp reversal. The question is whethe…
+- **[Energy Fuels Jumps 9% on $126M Australian Financing for Rare Earth Project; NuScale Power Climbs 7%, Oklo Gains 6%](https://finnhub.io/api/news?id=bd81e3a7a98c28b24233c5aecd8aa1fb4731265d73be0eec1f98ffb6178c6084)**  
+*Yahoo · 21h前*  
+Australian government lenders just handed Energy Fuels a conditional lifeline for a rare earth project that could redefine the company as something far bigger t…
 
 ---
 
@@ -58,4 +59,4 @@ Oklo has shed more than half its value this year while peers bleed out alongside
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
