@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$445.88** |
-| 今日變動 | ▼ $5.75　(-1.27%) |
+| 現價 | **$444.18** |
+| 今日變動 | ▼ $1.70　(-0.38%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $14　(▼1.6%) |
+| 未實現盈虧 | ▼ $18　(▼2.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $416.18 | — |
-| Put Wall（支撐） | $440.00 | -1.3% |
-| Call Wall（阻力） | $450.00 | +0.9% |
+| Gamma Flip | $416.46 | — |
+| Put Wall（支撐） | $440.00 | -0.9% |
+| Call Wall（阻力） | $450.00 | +1.3% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Would A Short Seller Say About Stryker?](https://finnhub.io/api/news?id=b097ef726609b34ae25a1dd428a94232e38826f497f6eeaee167dd3a6d22cad7)**  
-*Yahoo · 2h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[BSX Q3 Earnings Meet Estimates, Revenues Rise Y/Y, Stock Down](https://finnhub.io/api/news?id=8bdea02545d8cf5421ddf537c2f4795d01270c15cfb12ad789cec751e56599fb)**  
+*Yahoo · 7h前*  
+Boston Scientific's third-quarter revenues beat estimates, but contracting margins, weaker segment sales and reduced 2026 guidance weigh on shares.
 
-- **[Is Intuitive Surgical (ISRG) Undervalued As Upbeat Earnings Lifted Sentiment?](https://finnhub.io/api/news?id=a05a315107b5fc646f7f8a917c48a0869969ae09b8ff5758fbcc81faa6ba1644)**  
-*Yahoo · 4h前*  
-Intuitive Surgical (ISRG) is back in focus after its latest earnings report, which paired higher quarterly revenue with lower net income and earnings per share,…
+- **[GEHC Q3 Earnings Beat Estimates on Strong Growth, '26 View Raised](https://finnhub.io/api/news?id=fcab308b57bc03a3bd201273e286443279b70eff9eb32974e876f554b588bcd1)**  
+*Yahoo · 8h前*  
+GE HealthCare's Q3 earnings and revenues beat estimates on strong segment growth and higher margins, driving raised 2026 guidance as shares gain 8.3%.
 
-- **[2 unpopular stocks that deserve a second chance and 1 that underwhelm](https://finnhub.io/api/news?id=1bcb98b1094f367b447fdbe30d9bf5f6966162a86411ba309dd772458da67fcd)**  
-*Yahoo · 20h前*  
-Wall Street’s bearish price targets for the stocks in this article signal serious concerns. Such forecasts are uncommon in an industry where maintaining cordial…
+- **[Cencora to Acquire AON in $2.4B Deal to Expand Oncology Network](https://finnhub.io/api/news?id=800ca77ecea004d6239357c8f0ba9702f5505b082312536843e13fefe1cad206)**  
+*Yahoo · 10h前*  
+COR's $2.4B acquisition of AON aims to expand its oncology services platform, strengthen community cancer care and support long-term growth.
 
 ---
 
@@ -48,7 +48,7 @@ Wall Street’s bearish price targets for the stocks in this article signal seri
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-28 | 監控 | $445.88 | — | 自動更新 |
+| 2026-10-29 | 監控 | $444.18 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street’s bearish price targets for the stocks in this article signal seri
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 07:05 HKT*
