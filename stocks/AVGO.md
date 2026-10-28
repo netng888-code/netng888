@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-28 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Update: Equity Indexes Rise as Technology Tops Sector Charts Ahead of Hyperscaler Earnings](https://finnhub.io/api/news?id=fdfecb87149f15b61a72fc2753234f6df6235337ae9b2b919425898071bfe3f6)**  
-*Yahoo · 2h前*  
-(Updates with index/price moves, macroeconomic data and geopolitical news from the first paragraph.)
+- **[AI Chips Update - AI-Driven Robots Revolutionize Retail Logistics Automation](https://finnhub.io/api/news?id=d02b1513e12cc8ed0c21415513756aca2bc722eb79b236989e3d80b7abb63d78)**  
+*Yahoo · 1h前*  
+Recent advancements in AI chip technology are being demonstrated through a collaborative initiative between Otto Group and Sereact. The partners are deploying u…
 
-- **[Stock Market Today: Dow Up Ahead Of Fed Decision; Nasdaq Jumps, Broadcom Pops On This (Live Coverage)](https://finnhub.io/api/news?id=6c2dd95c70da43f3436277e7f57cdc30df160e49234ac700473513e8bc7e56ec)**  
-*Yahoo · 2h前*  
-The Dow Jones index rose on the stock market today ahead of the Fed decision on interest rates. Boeing stock tumbles but Broadcom rallies.
+- **[Seagate Technology Fell 25% in The Last Month But One Wall Street Analyst Says 140% Gains to Come](https://finnhub.io/api/news?id=f247f4b6d9847bd8c9a7fcddbd747bec8cd71687add5d057bb3945f470e0cf44)**  
+*Yahoo · 1h前*  
+Seagate just posted record earnings and guided well above Wall Street expectations, yet the stock cratered anyway. One analyst sees a path to 140% gains from he…
 
-- **[Tech stocks post best 3-day rally in 5 weeks](https://finnhub.io/api/news?id=6cbfdd72331af7a73dc7463f592135c6c38abf8b6d7bb9d8aeb2816f1ebbb38b)**  
-*Yahoo · 2h前*  
-Yahoo Finance Data and Markets Editor Jared Blikre joins host Brooke DiPalma on Market Domination Overtime to break down tech's strongest three-day stretch in f…
+- **[Meta’s $25 Billion Stock Sale Drew Five Times the Demand](https://finnhub.io/api/news?id=7f979e1c44d364d7795ed645bc4192e7912c2e3560cfa34e606e3092a49a4927)**  
+*Yahoo · 1h前*  
+Meta pulled in far more investor demand than it had shares to sell, yet buyers still watched the stock fall the moment trading opened. What convinced NVIDIA and…
 
 ---
 
@@ -59,4 +59,4 @@ Yahoo Finance Data and Markets Editor Jared Blikre joins host Brooke DiPalma on 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:03 HKT*
