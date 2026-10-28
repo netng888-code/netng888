@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-10-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$217.94** |
-| 今日變動 | ▲ $1.94　(+0.90%) |
+| 現價 | **$215.38** |
+| 今日變動 | ▼ $2.56　(-1.17%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $578　(▲15.3%) |
+| 未實現盈虧 | ▲ $526　(▲13.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $209.36 | — |
-| Put Wall（支撐） | $200.00 | -8.2% |
-| Call Wall（阻力） | $220.00 | +0.9% |
+| Gamma Flip | $210.48 | — |
+| Put Wall（支撐） | $200.00 | -7.1% |
+| Call Wall（阻力） | $220.00 | +2.1% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **['We'll be out of business': Jensen Huang bet his last dollars on a chip he never held in his hands — and it saved Nvidia](https://finnhub.io/api/news?id=1562f749b40570a3af1196f61e3cab5b1c3b131f779775e61cfad0ce7fff6943)**  
+- **[AI Spending Is Nearing $1 Trillion Annually. These 2 Stocks Are Most at Risk If It Slows.](https://finnhub.io/api/news?id=457a2dce64698a4d8cc92750d597e4910d68705c663cb61206d833e571f4d710)**  
 *Yahoo · 1h前*  
-The chip was the RIVA 128 and Huang made the decision when Nvidia had "about six months of cash left.”
+Nvidia and Micron are riding record AI demand, but both depend on tech giants keeping up their spending. Here's what could go wrong if that cools.
 
-- **[AMD Jumped 5% and Is Closing In on $1 Trillion Again](https://finnhub.io/api/news?id=ea9e200ace62a7e23e769d610a44f8372ade0c2981f4e7e9749b98a62227d007)**  
+- **[Frontier Group Holdings, Inc. Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=efa1cea09397c87e4c35a08f8059341d49a99690136b208c44a507ee0842d38e)**  
 *Yahoo · 1h前*  
-AMD crossed into trillion-dollar territory once before and lost it fast, but a surprise partnership announcement just sent the stock surging again with earnings…
+Moby summary of Frontier Group Holdings, Inc.'s Q3 2026 earnings call
 
-- **[AI Chips Update - AI-Driven Robots Revolutionize Retail Logistics Automation](https://finnhub.io/api/news?id=d02b1513e12cc8ed0c21415513756aca2bc722eb79b236989e3d80b7abb63d78)**  
+- **[Smurfit Westrock Plc Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=e42efb7c4aa82fde53c52e4855ab75ceb2bebaa947cb005c9ec69cd07ba4886b)**  
 *Yahoo · 1h前*  
-Recent advancements in AI chip technology are being demonstrated through a collaborative initiative between Otto Group and Sereact. The partners are deploying u…
+Moby summary of Smurfit Westrock Plc's Q3 2026 earnings call
 
 ---
 
@@ -48,7 +48,7 @@ Recent advancements in AI chip technology are being demonstrated through a colla
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-28 | 監控 | $217.94 | — | 自動更新 |
+| 2026-10-29 | 監控 | $215.38 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Recent advancements in AI chip technology are being demonstrated through a colla
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 07:04 HKT*
