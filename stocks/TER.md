@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Teradyne (NASDAQ:TER) Falls After Hours Despite Q3 Beat as AI Expectations Remain High](https://finnhub.io/api/news?id=10efa47015d4d76df64f5857abf23d9c662b572d45133ee22b40fd7b56abb995)**  
-*ChartMill · 1h前*  
-Teradyne beat Q3 estimates with 69.8% revenue growth but shares fell after hours as in-line Q4 guidance met high AI-driven expectations.
+- **[The Case For Lam Research Stock Rests On One Thing](https://finnhub.io/api/news?id=ccd6c58ad1b88dc9e938066a0bf0c8baeeacef900a76720a80f07a8875e9fa64)**  
+*Yahoo · 3h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Teradyne Stock Falls Despite Chip-Gear Maker Beating Q3 Goals](https://finnhub.io/api/news?id=cb55d11418ed911327a35358d06a3996826f0392a4a3e637eaad3e4d6daf53fb)**  
-*Yahoo · 1h前*  
-Teradyne topped Wall Street's targets for the third quarter and with its guidance for Q4. But Teradyne stock fell.
+- **[Zacks Investment Ideas feature highlights: Teradyne, Lam Research and ATI](https://finnhub.io/api/news?id=e1a246979d14e2f0a4d13418020d8b58ea7949eddd15666ca5a4fa4a0cab7251)**  
+*Yahoo · 5h前*  
+Teradyne, Lam Research and ATI offer exposure to AI infrastructure, semiconductor equipment and aerospace growth, with projected earnings gains and PEG ratios b…
 
-- **[Teradyne (NASDAQ:TER) exceeds Q3 expectations but stock drops](https://finnhub.io/api/news?id=f767b851b55bd3847505436e07ef3e483fda346b75c151767ed450e25e738dad)**  
-*Yahoo · 2h前*  
-Semiconductor testing company Teradyne (NASDAQ:TER) announced better-than-expected revenue in Q3 2026, with revenue up 69.8% year on year to $1.31 billion. Guid…
+- **[Teradyne (TER) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates](https://finnhub.io/api/news?id=d7f681d7c0337f383f911e1b46e4dce216924632e917d3b51fc502052e8cb3ee)**  
+*Yahoo · 14h前*  
+While the top- and bottom-line numbers for Teradyne (TER) give a sense of how the business performed in the quarter ended September 2026, it could be worth look…
 
 ---
 
@@ -59,4 +59,4 @@ Semiconductor testing company Teradyne (NASDAQ:TER) announced better-than-expect
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:03 HKT*
