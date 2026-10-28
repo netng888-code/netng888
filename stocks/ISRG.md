@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-28 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-28 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[What Would A Short Seller Say About Stryker?](https://finnhub.io/api/news?id=b097ef726609b34ae25a1dd428a94232e38826f497f6eeaee167dd3a6d22cad7)**  
+*Yahoo · 2h前*  
+For questions about this article or underlying research, email help@trefis.com.
+
+- **[Is Intuitive Surgical (ISRG) Undervalued As Upbeat Earnings Lifted Sentiment?](https://finnhub.io/api/news?id=a05a315107b5fc646f7f8a917c48a0869969ae09b8ff5758fbcc81faa6ba1644)**  
+*Yahoo · 4h前*  
+Intuitive Surgical (ISRG) is back in focus after its latest earnings report, which paired higher quarterly revenue with lower net income and earnings per share,…
+
 - **[2 unpopular stocks that deserve a second chance and 1 that underwhelm](https://finnhub.io/api/news?id=1bcb98b1094f367b447fdbe30d9bf5f6966162a86411ba309dd772458da67fcd)**  
-*Yahoo · 6h前*  
+*Yahoo · 20h前*  
 Wall Street’s bearish price targets for the stocks in this article signal serious concerns. Such forecasts are uncommon in an industry where maintaining cordial…
-
-- **[Waters & Labcorp Expand Access to FDA-Approved HPV Screening Tests](https://finnhub.io/api/news?id=123b58ad24fb079a3b83666a65de7d0245153a3ccc25616bf707bddfad20d273)**  
-*Yahoo · 7h前*  
-WAT partners with Labcorp to expand access to FDA-approved HPV testing by late 2026, potentially boosting diagnostics adoption and cervical cancer screening.
-
-- **[Is It Worth Investing in Intuitive Surgical (ISRG) Based on Wall Street's Bullish Views?](https://finnhub.io/api/news?id=4e4d45ca45587cb34d78a36b253745267497abad84f165fa6350771561eba0ad)**  
-*Yahoo · 10h前*  
-The average brokerage recommendation (ABR) for Intuitive Surgical (ISRG) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts m…
 
 ---
 
@@ -59,4 +59,4 @@ The average brokerage recommendation (ABR) for Intuitive Surgical (ISRG) is equi
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-28 21:04 HKT*
