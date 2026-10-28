@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-28 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$243.57** |
-| 今日變動 | ▲ $9.79　(+4.19%) |
+| 現價 | **$251.65** |
+| 今日變動 | ▲ $8.08　(+3.32%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $137　(▼5.3%) |
+| 未實現盈虧 | ▼ $57　(▼2.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $237.57 | — |
-| Put Wall（支撐） | $200.00 | -17.9% |
-| Call Wall（阻力） | $270.00 | +10.9% |
+| Gamma Flip | $236.92 | — |
+| Put Wall（支撐） | $200.00 | -20.5% |
+| Call Wall（阻力） | $270.00 | +7.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Was There Any Sign Astera Labs Stock Would Run?](https://finnhub.io/api/news?id=59927de20174700050187cdc5cfdcb1b5b7d5ae70fc47f5703b0bfcf4d084f15)**  
+- **[Where Will Marvell Technology Stock Be in 2030?](https://finnhub.io/api/news?id=e241d20762e93e32442c28e000157cdb449007df3cc61f22eceff44b40b25ab3)**  
 *Yahoo · 4h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Marvell Technology anticipates its growth rate to accelerate significantly through the end of the decade.
 
-- **[Intel, Microchip Technology, Marvell Technology, onsemi, and Seagate stocks trade up, what you need to know](https://finnhub.io/api/news?id=90f2bbd3f35cfebf5056b2e591a4b63fd9ecdcf8546e65ea039ab255d609756b)**  
-*Yahoo · 13h前*  
-A number of stocks jumped in the afternoon session after major artificial intelligence deals and landmark financing agreements reinforced investor confidence in…
+- **[The AI Trade Is Back. Why Sandisk Stock Is Rising Before Big Tech Earnings.](https://finnhub.io/api/news?id=01eecf2fdb9f17e137bf813ff38b0ab8498cfbf9397b21236cdcd61f7161b5ca)**  
+*Yahoo · 8h前*  
+The chip and memory trade is back in style ahead of the most crucial set of earnings of the quarter.
 
-- **[Intel, Oracle, IBM Join Objections to OKX-ICE Tokenized Stock Venue, Bringing Total to 26](https://finnhub.io/api/news?id=c6a7556c6173bb894e29cb5d494ed7949e64d5905d0c3208797a77c208301a09)**  
-*Yahoo · 18h前*  
-Intel, Oracle, IBM, and IonQ became the latest companies to object to trading of their shares on the planned OKX-ICE tokenized stock venue, bringing the total t…
+- **[Wall Street Analysts See Marvell (MRVL) as a Buy: Should You Invest?](https://finnhub.io/api/news?id=731a3b216ca94386b64a3512b2347c26c5a89222d6d530ad1e2c87d662518820)**  
+*Yahoo · 10h前*  
+Based on the average brokerage recommendation (ABR), Marvell (MRVL) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations …
 
 ---
 
@@ -48,7 +48,7 @@ Intel, Oracle, IBM, and IonQ became the latest companies to object to trading of
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-28 | 監控 | $243.57 | — | 自動更新 |
+| 2026-10-29 | 監控 | $251.65 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intel, Oracle, IBM, and IonQ became the latest companies to object to trading of
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-28 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 07:04 HKT*
