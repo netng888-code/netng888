@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-29 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $621.60 | — |
+| Gamma Flip | $619.37 | — |
 | Put Wall（支撐） | $600.00 | -2.0% |
 | Call Wall（阻力） | $750.00 | +22.5% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Bessent Plays Down Concerns Over AI Financing, Fed Rate Policy](https://finnhub.io/api/news?id=a0641912c0ebdfcb0edcefe940558c67445ea33646b52570ccd0ac2db7017936)**  
+- **[This Under-the-Radar Utility Just Signed a Massive Data Center Deal Without Anyone Noticing](https://finnhub.io/api/news?id=1b6e0d5216c5363381a2480773752efef47ebcd1576d677b890dac097e40238a)**  
 *Yahoo · 1h前*  
-Treasury Secretary Scott Bessent said he and his team are keeping tabs on the state of financing for the artificial intelligence build-out, and played down rece…
+If you look beyond the biggest names in the business, you'll find smaller players are cashing in on the AI revolution just as well.
 
-- **[Red-Hot Nvidia Just Received A 100% Buy Rating… But Is That A Bad Thing?](https://finnhub.io/api/news?id=440cab411ef5ea17b7fe900b8b2b8d62711dc4cea09c1681d7639c9d5e946afd)**  
-*Yahoo · 2h前*  
-What happens to the stock market when every single analyst points in the exact same direction and there isn't a single contrarian left? 24/7 Wall St. Analysts D…
+- **[Aehr Test Systems Appoints Former Meta Infrastructure Executive Vijay Rao to Board of Directors](https://finnhub.io/api/news?id=f713a428f36ca79cc0f6a40b478cfa66e0a7860c3ae480b9d6e1924933390e61)**  
+*Yahoo · 1h前*  
+Appointment Adds Hyperscale AI Infrastructure Expertise as Aehr Expands in Semiconductor Test and Burn-In MarketsFREMONT, CA / ACCESS Newswire / October 29, 202…
 
-- **[Meta Just Priced a Stock Sale at $625 a Share. I'd Consider Buying at the Same Price.](https://finnhub.io/api/news?id=1f4734a24fab05e191a2c8b50eea4f086d7a18ddc868be49f4c633636719dbbd)**  
-*Yahoo · 2h前*  
-Existing holders give up a little over 2% of the company. What do they get for it?
+- **[Alphabet Sinks 10% on $9 Billion Cash Burn and “Significant Miss” in Search](https://finnhub.io/api/news?id=627f6836786ec5ac7f159182498d45e049c367bc7dc65bb853c54871a54d73a5)**  
+*Yahoo · 1h前*  
+Key TakeawaysAlphabet fell 9. 6% after third-quarter EPS of $2.
 
 ---
 
@@ -59,4 +59,4 @@ Existing holders give up a little over 2% of the company. What do they get for i
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:05 HKT*
