@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-29 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$351.81** |
-| 今日變動 | ▲ $9.48　(+2.77%) |
+| 現價 | **$345.00** |
+| 今日變動 | ▼ $6.81　(-1.94%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $268　(▼7.1%) |
+| 未實現盈虧 | ▼ $336　(▼8.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $348.14 | — |
-| Put Wall（支撐） | $340.00 | -3.4% |
-| Call Wall（阻力） | $350.00 | +-0.5% |
+| Gamma Flip | $346.66 | — |
+| Put Wall（支撐） | $340.00 | -1.4% |
+| Call Wall（阻力） | $350.00 | +1.4% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Alphabet Sinks 10% on $9 Billion Cash Burn and “Significant Miss” in Search](https://finnhub.io/api/news?id=627f6836786ec5ac7f159182498d45e049c367bc7dc65bb853c54871a54d73a5)**  
+- **[Stock Market Today, Oct. 29: Marvell Falls on Lumentum Acquisition Talks](https://finnhub.io/api/news?id=4fb53acb1e9766b6ae9d4fde8742d44f130d8def3b4db32309990e93d99d648f)**  
 *Yahoo · 1h前*  
-Key TakeawaysAlphabet fell 9. 6% after third-quarter EPS of $2.
+Today, Oct. 29, 2026, investors weighed financing risks as the semiconductor maker pursued an optics supplier deal to bolster its AI infrastructure strategy.
 
-- **[INTC, AMD, AVGO, MU Decline On Samsung’s Profit Miss, Lighter Capex From Microsoft, Alphabet](https://finnhub.io/api/news?id=a5e88b0346364384c58a7fb369d2f830a360eef7cef8b41e98884b02870191c7)**  
-*Yahoo · 6h前*  
-Investors would now turn to quarterly reports from Amazon and Intel, due after markets close on Thursday, for cues.
+- **[Jim Cramer Says Buy Coca-Cola. Is Its Dividend Still Worth It After a 35% Rally?](https://finnhub.io/api/news?id=85203110da0a0eebbef970ae1e16deb5126b56dc05fc8281d5f1dbeecc917c2b)**  
+*Yahoo · 1h前*  
+Coca-Cola just posted its sixth straight earnings beat and Jim Cramer is pounding the table, but a 35% rally changes the math for retirees counting on that divi…
 
-- **[Broadcom And 2 More Quality Value Stocks To Watch](https://finnhub.io/api/news?id=cdde958536d9ab6de5d9502cc1244a3519208d130bf976219f337f0f9fe7a7bd)**  
-*Yahoo · 8h前*  
-Cash is suddenly the main character again. Recent market action has rewarded companies that can fund big AI and growth ambitions out of their own cash flow inst…
+- **[Amazon Stock Tanks After Earnings Miss](https://finnhub.io/api/news?id=adc4f6be97057d970f3ecbef10a002ef4a061b8acb5b19c482743abca1df87b1)**  
+*Yahoo · 2h前*  
+The retail and cloud services giant reports weaker-than-expected earnings and revenue in the third quarter.
 
 ---
 
@@ -48,7 +48,7 @@ Cash is suddenly the main character again. Recent market action has rewarded com
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-29 | 監控 | $351.81 | — | 自動更新 |
+| 2026-10-30 | 監控 | $345.00 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Cash is suddenly the main character again. Recent market action has rewarded com
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 07:04 HKT*
