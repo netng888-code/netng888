@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-29 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$95.53** |
-| 今日變動 | ▲ $1.79　(+1.91%) |
+| 現價 | **$92.07** |
+| 今日變動 | ▼ $3.46　(-3.62%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $115　(▼10.7%) |
+| 未實現盈虧 | ▼ $149　(▼14.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $96.15 | — |
-| Put Wall（支撐） | $80.00 | -16.3% |
-| Call Wall（阻力） | $100.00 | +4.7% |
+| Gamma Flip | $95.75 | — |
+| Put Wall（支撐） | $80.00 | -13.1% |
+| Call Wall（阻力） | $100.00 | +8.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Oracle, Intel, and IBM are saying no to blockchain-based stock trading](https://finnhub.io/api/news?id=44a6c73bcec328bc3ebb3b4616f229a3c5392763caceabe6aa0eff23c4d6b887)**  
+- **[Dow Jones Futures: Amazon, Intel Lead Earnings Losers After Google, ServiceNow, Fortinet Hit Nasdaq](https://finnhub.io/api/news?id=29af632925ef1c1bbde9c465d3cd7dd95bf05d1bfc0f26c90a8c49f1868c2534)**  
 *Yahoo · 1h前*  
-As tokenized stock trading continues to gain traction, so too does the list of companies that object to it. In the video above, Scott Melker outlines key detail…
+Amazon, Intel and Illumina were earnings losers overnight after Google, ServiceNow and Fortinet slammed techs. Much of the market is doing fine.
 
-- **[Is Micron Stock Riskier Than It Looks?](https://finnhub.io/api/news?id=d8c6e5a5d5ab84001ccce5ef607d2134d274fbfce421da99a191ed9d38c48f1e)**  
-*Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[Intel Corp (NASDAQ:INTC) Falls on Weak Q4 Guidance as PC Slowdown Persists](https://finnhub.io/api/news?id=d46249117fe27e71ef522d844ee6ced32395a94f692de349dfa51e5d0f147961)**  
+*ChartMill · 1h前*  
+Intel Q3 revenue met estimates and EPS beat, but weak Q4 guidance and a prolonged PC slowdown sent INTC shares sharply lower.
 
-- **[Can NVIDIA Stock Jump 50%?](https://finnhub.io/api/news?id=3ece432cc7a983897d25495403ea9cfb94290ea01ef0d12e96f215e0bab4abb9)**  
+- **[Supply Constraints a Swing Factor for Intel, Seaport's Goldberg Says](https://finnhub.io/api/news?id=ac27f09352f979645b170bf4b77182f189583f11c92aa3799e525fa906f1cdde)**  
 *Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Jay Goldberg, Seaport Research Partners semiconductors and electronics senior analyst, reacts to Intel's revenue forecast missing analysts' estimates due to spu…
 
 ---
 
@@ -48,7 +48,7 @@ For questions about this article or underlying research, email help@trefis.com.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-29 | 監控 | $95.53 | — | 自動更新 |
+| 2026-10-30 | 監控 | $92.07 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 07:05 HKT*
