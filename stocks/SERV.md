@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-10-29 07:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:07 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,12 @@
 
 ## 📰 最新新聞
 
+- **[Serve Robotics: Failing To Scale Fast Enough](https://finnhub.io/api/news?id=4cc1c7ec76260720e1d43bfabfb56fa7c53b0bbdfe031c02681320947948e37d)**  
+*SeekingAlpha · 6h前*  
+Serve Robotics stock remains a "Hold" as it cuts 2026 revenue guidance and robot use slumps. Click to read what investors need to know.
+
 - **[Serve Robotics: The Robots Are Here, But The Revenue Isn't](https://finnhub.io/api/news?id=806b7f7f38967cf761562a89b171d3ba0b7dcdcf804dda7437b9f8dab06e7e92)**  
-*SeekingAlpha · 2d前*  
+*SeekingAlpha · 3d前*  
 Serve Robotics faces revenue cuts, cash burn, and dilution after losing Uber. Click here to see why SERV's new partnerships may not offset near-term risks.
 
 ---
@@ -51,4 +55,4 @@ Serve Robotics faces revenue cuts, cash burn, and dilution after losing Uber. Cl
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:06 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:07 HKT*
