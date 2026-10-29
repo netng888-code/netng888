@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-29 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$251.65** |
-| 今日變動 | ▲ $8.08　(+3.32%) |
+| 現價 | **$218.34** |
+| 今日變動 | ▼ $33.31　(-13.24%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $57　(▼2.2%) |
+| 未實現盈虧 | ▼ $390　(▼15.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $236.92 | — |
-| Put Wall（支撐） | $200.00 | -20.5% |
-| Call Wall（阻力） | $270.00 | +7.3% |
+| Gamma Flip | $237.27 | — |
+| Put Wall（支撐） | $200.00 | -8.4% |
+| Call Wall（阻力） | $270.00 | +23.7% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Can NVIDIA Stock Jump 50%?](https://finnhub.io/api/news?id=3ece432cc7a983897d25495403ea9cfb94290ea01ef0d12e96f215e0bab4abb9)**  
+- **[Stock Market Today, Oct. 29: Marvell Falls on Lumentum Acquisition Talks](https://finnhub.io/api/news?id=4fb53acb1e9766b6ae9d4fde8742d44f130d8def3b4db32309990e93d99d648f)**  
 *Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Today, Oct. 29, 2026, investors weighed financing risks as the semiconductor maker pursued an optics supplier deal to bolster its AI infrastructure strategy.
 
-- **[Marvell’s Lumentum Bid Is a Bet That Light, Not Copper, Wins the AI Data Center](https://finnhub.io/api/news?id=3ad010e976514445305ce0b882f029a29e5a4ded3022a19185d6638911cb9a83)**  
+- **[Marvell Technology (MRVL) Sees a More Significant Dip Than Broader Market: Some Facts to Know](https://finnhub.io/api/news?id=b0342f966bb42f252c6e6d6a90f6711950c571e894bd515278a71c685042e565)**  
 *Yahoo · 2h前*  
-Marvell is reportedly close to a deal that would make it one of the biggest buyers of laser factories in tech history, and the market reaction on both sides of …
+The latest trading day saw Marvell Technology (MRVL) settling at $218.34, representing a -13.24% change from its previous close.
 
-- **[Alphabet, Microsoft, Marvell, Amazon, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=c9b5060ece253c067eef50ec6704a7ee98395b35426ad7df9c3e67551873fae1)**  
+- **[Alphabet drops 12% in deepening tech and semiconductor rout](https://finnhub.io/api/news?id=72e0361ff7e4b220470440c65fec45a4ac3c17e6ac9d58d208c9c2a819085cb8)**  
 *Yahoo · 2h前*  
-Alphabet heads for its worst day in more than six years after weak earnings, while Microsoft’s solid results push shares higher.
+A steep 12.6% sell-off in Alphabet (GOOGL) dragged down the broader market, pulling semiconductor and software names like Micron (MU), Intel (INTC), and Marvell…
 
 ---
 
@@ -48,7 +48,7 @@ Alphabet heads for its worst day in more than six years after weak earnings, whi
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-29 | 監控 | $251.65 | — | 自動更新 |
+| 2026-10-30 | 監控 | $218.34 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Alphabet heads for its worst day in more than six years after weak earnings, whi
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 07:04 HKT*
