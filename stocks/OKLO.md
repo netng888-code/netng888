@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-29 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Oklo: Bullish On Nuclear Energy, Skeptical Of Execution](https://finnhub.io/api/news?id=678368ca02c48baf4659d7dd45d3a3e9a24a999cbad0cb2ce032660ddda634a7)**  
-*SeekingAlpha · 13h前*
+- **[Nuclear Power Is Back, But Only a Few Stocks Have Customers Signed](https://finnhub.io/api/news?id=f28a1555764c80961c3c484bbaba68869c791bdecc50c4d11af62bdfd0f60998)**  
+*Yahoo · 6h前*  
+Eight nuclear stocks are in the spotlight, but contracts, licenses, and valuations separate established suppliers from early-stage developers.
 
-- **[B. Riley Securities Maintains Buy on Oklo, Lowers Price Target to $61](https://finnhub.io/api/news?id=2c3cc48d28dde3b841e6ad5a240dadd7ca396be89e7a1945559ff890ac5e1c45)**  
-*Benzinga · 14h前*  
-B. Riley Securities  analyst Ryan Pfingst   maintains Oklo (NYSE:OKLO) with a Buy and lowers the price target from $92 to $61.
+- **[OKLO Vs SMR: How Two Battered Nuclear Stocks Stack Up Before Q3 Earnings](https://finnhub.io/api/news?id=db2250e5acf8e9eeea8a529204875910005473207cc5c8ec3a614c18a0213b13)**  
+*Yahoo · 8h前*  
+NuScale Power stock is up more than 5% this week, overtaking Oklo stock’s gains of about 3%.
 
-- **[OKLO Stock Set To Snap 4-Week Losing Streak: Analyst Calls It ‘Conceptually Very Attractive’ But Flags Execution Risk](https://finnhub.io/api/news?id=85135ee7032ac2c021e25b395fcc1ed35c0fba3e211e6e877db3cf48698b368e)**  
-*Yahoo · 19h前*  
-TD Cowen analyst Marc Bianchi initiated coverage of Oklo with a ‘Hold’ rating and a $26 price target.
+- **[NextEra Energy And 2 Other Nuclear Power Stocks To Watch](https://finnhub.io/api/news?id=7bbd6f4fda6e258763165d40ebaa035d4b30e31667fd4973b1a765925edd9bde)**  
+*Yahoo · 10h前*  
+Oil refineries have become direct targets in current conflicts, and that puts long term pressure on fuel supplies and energy security. When liquid fuels look fr…
 
 ---
 
@@ -58,4 +59,4 @@ TD Cowen analyst Marc Bianchi initiated coverage of Oklo with a ‘Hold’ ratin
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:06 HKT*
