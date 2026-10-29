@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-29 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $322.70 | — |
-| Put Wall（支撐） | $300.00 | -7.7% |
+| Put Wall（支撐） | $280.00 | -13.8% |
 | Call Wall（阻力） | $350.00 | +7.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: Microsoft Rises Late, But Google, ServiceNow And Fortinet Dive On Earnings](https://finnhub.io/api/news?id=7d0657df8f92023442fe524cbc7163fd485d0a7b262edc5f2a9ebf7af0b7fb75)**  
+- **[Dow Jones Futures Fall; Microsoft Rises, But Google, ServiceNow, Fortinet Dive On Earnings](https://finnhub.io/api/news?id=fda5c06099cf8bfe09156f2324fc43bc15ee8170c17704cbe55f35cd0a352f08)**  
 *Yahoo · 1h前*  
 After the stock market rose for a third day, Microsoft rose late on strong earnings. But Google, ServiceNow and Fortinet dived.
 
-- **[Alphabet CFO walks through the company's Q3 results](https://finnhub.io/api/news?id=66dba1bcc6c73810ad6ed9b12632cd4be0512f82399ec11ecb8745eefd2ac373)**  
+- **[Caterpillar Revenue Miss, Outlook Dig Hole For Dow Jones Industrial Average](https://finnhub.io/api/news?id=920719e0a27352709d18dcc17dc5b95dd769a72e8d1a7c76468d7e3608687fdb)**  
 *Yahoo · 1h前*  
-Alphabet (GOOGL, GOOG) CFO Anat Ashkenazi outlined the tech giant's third quarter financial results during its Q3 earnings call, breaking down revenue growth, o…
+Caterpillar expects "moderate" revenue growth in Q4, not what analysts expected.
 
-- **[Shares in Google owner Alphabet plummet on profit miss, ad slowdown](https://finnhub.io/api/news?id=1531f7755665caf7b8c1baff5942832bbd9df37ecc4d8ee753ea3b92b2f2ae20)**  
+- **[Bond Yields, Crude Prices Lift European Bourses Midday Ahead of ECB Rate Decision](https://finnhub.io/api/news?id=184812ee99e237d1d0d874dfed86cff886d4bb97c45219c6623b9355706b78c5)**  
 *Yahoo · 1h前*  
-Shares in Google parent Alphabet fell more than 10 percent in after-hours trading Wednesday as the company reported lower-than-expected profit and a slowdown in…
+European bourses tracked moderately higher midday Thursday as traders weighed the continued flow of
 
 ---
 
@@ -59,4 +59,4 @@ Shares in Google parent Alphabet fell more than 10 percent in after-hours tradin
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:05 HKT*
