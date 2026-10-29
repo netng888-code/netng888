@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-10-29 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[What Is Going On With MARA Stock After Its Steep Fall?](https://finnhub.io/api/news?id=2a83c9d148ff6833c84a383f38d6015ce1c7e63339d44d1f0a8db652e1c27cfe)**  
+*Yahoo · 12h前*  
+For questions about this article or underlying research, email help@trefis.com.
+
+- **[Morgan Stanley reiterates Overweight on five AI data center stocks, with 441% TeraWulf upside](https://finnhub.io/api/news?id=f31a69d8c30adf41317def73788860243c33980b52825f6a19d04c802c9fa642)**  
+*Yahoo · 22h前*  
+Morgan Stanley argues TeraWulf, Cipher, Hut 8, Riot and Galaxy are priced like neoclouds while operating as landlords. It sketches a TeraWulf asset sale worth $…
+
 - **[Cipher’s Earnings Are Days Away: Here’s What Investors Need to Know](https://finnhub.io/api/news?id=cb4d4c4eef90d7f8c3e212785604046b4a6c1cea07b31e6cbece5241655ebfe7)**  
-*Benzinga · 13h前*  
-Cipher Digital shares are in focus Wednesday ahead of earnings amid data center developments, analyst calls and an oversold technical setup.
-
-- **[IREN Limited Fell by 33% in 2026 But 3 Analysts Believe It Will Nearly Quadruple in Price From Here](https://finnhub.io/api/news?id=c0bddaebcc6b1638f9bd7635c378c5b2c4700e336c8c5121f45695f47d3cfa9e)**  
-*Yahoo · 1d前*  
-A neocloud panic wiped out a third of IREN's value in months, yet every analyst covering the stock refuses to issue a sell rating. The reason comes down to a se…
-
-- **[Why Is Cipher Digital Stock Surging on Tuesday?](https://finnhub.io/api/news?id=7d1c4c7189288b60f1966ffc7bc0f596ec9ba8707fd97574e7677737131f1de5)**  
 *Benzinga · 1d前*  
-Cipher Digital Inc. (NASDAQ: CIFR) stock climbs on Tuesday during broader data center relief and positioning ahead of third-quarter financial results.
+Cipher Digital shares are in focus Wednesday ahead of earnings amid data center developments, analyst calls and an oversold technical setup.
 
 ---
 
@@ -59,4 +59,4 @@ Cipher Digital Inc. (NASDAQ: CIFR) stock climbs on Tuesday during broader data c
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:06 HKT*
