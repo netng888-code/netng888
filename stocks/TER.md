@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-10-29 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Teradyne (TER) Stock May Be Above Fair Value Despite Record AI Demand](https://finnhub.io/api/news?id=cbf4de2510f613e40f1e101a88e67a0deae22f8f385da9c8545c55c5741569d3)**  
+*Yahoo · 4h前*  
+Teradyne has enjoyed a powerful share price run in recent years, helped by rising interest in AI hardware and factory automation, and that puts a sharper spotli…
+
 - **[FormFactor, Inc. Reports 2026 Third Quarter Results](https://finnhub.io/api/news?id=864a1f95969cedaeb98f633a9e158a06aa5daf1375879bc34b34584b623c55ef)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 Delivers Revenue, Gross Margin, and Earnings Per Share Exceeding the High End of the Outlook Range; Sees Continued Strong Broad Based DemandLIVERMORE, Calif., O…
 
 - **[Teradyne: Q3 Earnings Snapshot](https://finnhub.io/api/news?id=03cd720cf8c43d6b0801760c9dad15250f2f9efc8e801d44df14c3d942a4844f)**  
-*Yahoo · 4h前*  
+*Yahoo · 18h前*  
 (TER) on Tuesday reported third-quarter net income of $342.The North Reading, Massachusetts-based company said it had profit of $2.
-
-- **[Teradyne (TER) Q3 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=ca05d41de59ffd4bb5a2b844155821c38bad48f920d4e700ede2055a4b58dd2d)**  
-*Yahoo · 5h前*  
-AI demand drove 70% revenue growth and 150% EPS surge.
 
 ---
 
@@ -59,4 +59,4 @@ AI demand drove 70% revenue growth and 150% EPS surge.
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:05 HKT*
