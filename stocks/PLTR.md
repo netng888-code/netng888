@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-29 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$196.81** |
-| 今日變動 | ▼ $1.92　(-0.97%) |
+| 現價 | **$196.42** |
+| 今日變動 | ▼ $0.39　(-0.20%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $417　(▲54.6%) |
+| 未實現盈虧 | ▲ $415　(▲54.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $187.70 | — |
-| Put Wall（支撐） | $190.00 | -3.5% |
-| Call Wall（阻力） | $200.00 | +1.6% |
+| Gamma Flip | $189.55 | — |
+| Put Wall（支撐） | $190.00 | -3.3% |
+| Call Wall（阻力） | $200.00 | +1.8% |
 
 **狀態：✅ 正Gamma區 🟡 接近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Is Everybody Paying A Premium For Palantir Stock?](https://finnhub.io/api/news?id=02dc5e0425ff798d8d20c71f988294c82d77f32a9e5ef8f421d62866726660c3)**  
-*Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
-
-- **[Surf Air Mobility Provides SurfOS Business Update, Highlighting OperatorOS Commercial Launch and Enterprise Growth Priorities](https://finnhub.io/api/news?id=32038fe192bb917b6154591ce6b40341eb256bde4f18bbc717540d9d1402fdeb)**  
+- **[Could $1,000 Invested in Palantir Turn Into $100,000?](https://finnhub.io/api/news?id=9b21bf4d675cba69f7ed13d4475d3314fa3931fdbbaa1498ebfa2c7db1757637)**  
 *Yahoo · 2h前*  
-LOS ANGELES, October 29, 2026--Surf Air Mobility Inc. (NYSE: SRFM) ("Surf Air Mobility" or "the Company") today provided an update on recent achievements and pr…
+The high-growth tech stock still has a bright future.
 
-- **[Undercovered Dozen: Micron, i-80 Gold, Hercules Capital, And More](https://finnhub.io/api/news?id=3b343baed84ef797cf865ff0f70af43b45b14e2a22e2068dec3754ec73081374)**  
-*SeekingAlpha · 8h前*  
-Discover 12 undercovered stocks with actionable investment theses, fresh catalysts, and income ideas.
+- **[Palantir Seen Beating Revenue Estimates, Raising Guidance, Oppenheimer Says](https://finnhub.io/api/news?id=e6f253f3aa08b0fd256392bb9e1f4c6d03b26ccd5eb1ce43305bdd345705123c)**  
+*Yahoo · 6h前*  
+Palantir Technologies (PLTR) is poised for another revenue beat and annual guidance raise in its upc
+
+- **[Why J.P. Morgan Believes Palantir Stock Is Just Getting Going After a Lackluster 2026](https://finnhub.io/api/news?id=5e4e006f498c4d61dbab908a8f05ed9ebff91293a3328c5dafa8d72acca26889)**  
+*Yahoo · 7h前*  
+Palantir stock is in the midst of a modest 2026, but that could all change soon, according to J.P. Morgan.
 
 ---
 
@@ -48,7 +48,7 @@ Discover 12 undercovered stocks with actionable investment theses, fresh catalys
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-29 | 監控 | $196.81 | — | 自動更新 |
+| 2026-10-30 | 監控 | $196.42 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Discover 12 undercovered stocks with actionable investment theses, fresh catalys
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 07:05 HKT*
