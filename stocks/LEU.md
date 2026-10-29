@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-29 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[B. Riley Securities Maintains Buy on Centrus Energy, Lowers Price Target to $188](https://finnhub.io/api/news?id=43cc07b33e3d8973ffeb1a905392ebae7cd9b66b95252a7ed9d4ccffec5ccd7b)**  
-*Benzinga · 14h前*  
-B. Riley Securities  analyst Alex Rygiel   maintains Centrus Energy (NYSE:LEU) with a Buy and lowers the price target from $295 to $188.
+- **[CCJ Falls 27.6% in 6 Months as Execution Risks Test the Nuclear Thesis](https://finnhub.io/api/news?id=dfe875ea83641169072392cb52979fbf3a32f7e841ac0805ae4037f34daa009e)**  
+*Yahoo · 20h前*  
+Cameco shares have fallen 27.6% in six months as earnings volatility, mine disruptions and rising costs challenge its exposure to strong nuclear demand.
 
-- **[Centrus Energy (LEU) Stock May Trade At A Premium Following Its Westerman Deal](https://finnhub.io/api/news?id=fc6aa552de63f0aca187a2607d836ebc3783689f386145486bf8ac3aaafbd622)**  
-*Yahoo · 1d前*  
-Centrus Energy has seen its share price fall sharply over the past year even after a very strong three year stretch, which puts a spotlight on what investors ar…
+- **[Cameco's Raised Revenue Outlook Faces a Crucial Execution Test Ahead](https://finnhub.io/api/news?id=c644828d68f146861ab673654534d0b7f9ed22c367e4021773f03c3453dd7005)**  
+*Yahoo · 20h前*  
+CCJ raised its 2026 revenue outlook to C$3.32-C$3.57 billion, but production disruptions, rising costs and Westinghouse execution will test its ability to deliv…
 
-- **[Centrus Energy (LEU) Slides On HALEU Hopes, Is It Still 48% Below Fair Value?](https://finnhub.io/api/news?id=778dc3be69bc2cdf89b64f598b506db9e4b14448b7e7ab6cee0442329ff06480)**  
-*Yahoo · 1d前*  
-Centrus Energy (LEU) has drawn fresh attention after its recent share slide, with the stock down 33% over the past month and 42% in the past 3 months through th…
+- **[Top nuclear stocks to watch amid sector pullback, says B Riley](https://finnhub.io/api/news?id=df4ceadc28ea254c5f01464f03420e4345bdb29eaf01e07c3b80537635b47f42)**  
+*Yahoo · 20h前*  
+Investing.com -- Nuclear and uranium stocks have declined an average of 43% since the Russell 2000's peak on August 14, compared to the broader index's 8% decli…
 
 ---
 
@@ -59,4 +59,4 @@ Centrus Energy (LEU) has drawn fresh attention after its recent share slide, wit
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:06 HKT*
