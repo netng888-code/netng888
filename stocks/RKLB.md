@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-29 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Soars 15% in a Week as Space Stocks Rebound and Neutron Heads to the Pad](https://finnhub.io/api/news?id=3094667660a79f47e2a60178a74db8f584ad82dc652129dd6570771aa85534ef)**  
-*Yahoo · 11h前*  
-Key TakeawaysRocket Lab stock rose 15% in the past week as SpaceX’s stronger third quarter lifted space stocks and Neutron’s second stage and thrust module ship…
+- **[Is Rocket Lab Stock Increasing Your Market Risk?](https://finnhub.io/api/news?id=ff5edfaa0006bc54f93e283f86d16204eb38e1fde6497a546315477e0d9bfa6d)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Google Earnings Prediction Market Preview: What Will Sundar Pichai Say?](https://finnhub.io/api/news?id=55216b48702e85b1bd37eb58ad6f21774d7728c1ae47520d636dc10b085449c5)**  
-*Benzinga · 13h前*  
-Google reports earnings Wednesday as prediction markets bet on Gemini, AI Mode, Nvidia, Wiz and Sundar Pichai’s remarks
+- **[FTAI Aviation (FTAI) Q3 Earnings and Revenues Beat Estimates](https://finnhub.io/api/news?id=02a370fcc7ab50d4108b09293b6bb85518db5922e1a4b774aaf4035551b5dbf7)**  
+*Yahoo · 2h前*  
+FTAI Aviation (FTAI) delivered earnings and revenue surprises of +9.16% and +0.25%, respectively, for the quarter ended September 2026. Do the numbers hold clue…
 
-- **[RKLB Stock Climbs Overnight: Rocket Lab Touts $515M Military Push — 8 Of 18 Satellites In Production](https://finnhub.io/api/news?id=fea3f1636dc7a764800c7e5310d4e15019da8c2aae5b070e19e1a6dcb0ef7c1d)**  
-*Yahoo · 18h前*  
-Rocket Lab is building key satellite systems in-house, including solar panels, radios, avionics and flight software.
+- **[RKLB Stock Eyes Best Week In A Month: Neutron, Electron And NASA Updates Stack Up — Why Is Retail Still On The Fence?](https://finnhub.io/api/news?id=1c1fe346d720651ba8110152bdb2db5b520bff177a5647f532943225d9d97699)**  
+*Yahoo · 9h前*  
+Neutron’s second stage and thrust module reached Wallops Island for checks ahead of ground testing.
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab is building key satellite systems in-house, including solar panels, r
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:06 HKT*
