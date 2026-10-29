@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-29 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[US Equity Markets End Higher After Federal Reserve Votes to Keep Policy Rate Unchanged](https://finnhub.io/api/news?id=17ec4040b1af222396fbb1e8bd2a28e48411ea4e6517d5dd8705053660d4c9a8)**  
-*Yahoo · 2h前*  
-US equity indexes ended higher Wednesday after the Federal Reserve decided to maintain policy rates
+- **[Vertiv Holdings (NYSE:VRT): High-Growth Leadership With Momentum Awaiting Confirmation](https://finnhub.io/api/news?id=02cd4b9aaba2983b4faef908beaebc85035a0f677d83a94f18a56e2a7b3f31d0)**  
+*ChartMill · 0h前*  
+VRT clears CANSLIM growth and profitability filters with strong fundamentals, but mixed technicals signal waiting for confirmation and strict risk controls.
 
-- **[S&P 500 Top Movers: Gainers and Losers in Today's US Session](https://finnhub.io/api/news?id=c7bece92ad49ddf180f89ace994421e825d2749a9395fb64593a0464e0f2060f)**  
-*ChartMill · 2h前*  
-S&P 500 top movers in today's US session: Vertiv, Flex and Oracle led gainers, while F5, CoStar and C.H. Robinson led decliners.
+- **[Caterpillar Beat Earnings and Still Dropped 9%. The AI Power Trade Just Hit the Same Wall as Software.](https://finnhub.io/api/news?id=b1c398cb1796cd149fb8af96e5f8f744b0fecb660342d4aa11d7ccac87169359)**  
+*Yahoo · 1h前*  
+Caterpillar (NYSE:CAT) reported third-quarter results before the open on October 29, 2026. It beat on adjusted EPS, and the stock still fell 9% before the bell …
 
-- **[Vertiv Guides for 38% Growth, GE Vernova's Orders Jumped 96%. Which AI Power Stock Is the Better Buy After the Sell-off?](https://finnhub.io/api/news?id=bcb3ba0e2712f369075122d6cf1d863a693f029ab21d49a1b7a9220a988d4267)**  
-*Yahoo · 3h前*  
-Both AI infrastructure stocks are trading far below their all-time highs.
+- **[What Vertiv (VRT) Said on Its Q3 Earnings Call](https://finnhub.io/api/news?id=381166fe44d39f18192b8cf00acc813c33aff69e7ddfe945c8cfbae1f8321f93)**  
+*Yahoo · 5h前*  
+Vertiv (NYSE:VRT) reported third-quarter 2026 results that exceeded its guidance, as demand for data center power, cooling and infrastructure systems remained s…
 
 ---
 
@@ -59,4 +59,4 @@ Both AI infrastructure stocks are trading far below their all-time highs.
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:06 HKT*
