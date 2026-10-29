@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-29 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$324.89** |
-| 今日變動 | ▲ $4.31　(+1.34%) |
+| 現價 | **$283.82** |
+| 今日變動 | ▼ $41.07　(-12.64%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $1,597　(▲32.6%) |
+| 未實現盈虧 | ▲ $776　(▲15.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $322.70 | — |
-| Put Wall（支撐） | $280.00 | -13.8% |
-| Call Wall（阻力） | $350.00 | +7.7% |
+| Gamma Flip | $322.18 | — |
+| Put Wall（支撐） | $280.00 | -1.3% |
+| Call Wall（阻力） | $300.00 | +5.7% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Fall; Microsoft Rises, But Google, ServiceNow, Fortinet Dive On Earnings](https://finnhub.io/api/news?id=fda5c06099cf8bfe09156f2324fc43bc15ee8170c17704cbe55f35cd0a352f08)**  
+- **[Dow Jones Futures: Amazon, Intel Lead Earnings Losers After Google, ServiceNow, Fortinet Hit Nasdaq](https://finnhub.io/api/news?id=29af632925ef1c1bbde9c465d3cd7dd95bf05d1bfc0f26c90a8c49f1868c2534)**  
 *Yahoo · 1h前*  
-After the stock market rose for a third day, Microsoft rose late on strong earnings. But Google, ServiceNow and Fortinet dived.
+Amazon, Intel and Illumina were earnings losers overnight after Google, ServiceNow and Fortinet slammed techs. Much of the market is doing fine.
 
-- **[Caterpillar Revenue Miss, Outlook Dig Hole For Dow Jones Industrial Average](https://finnhub.io/api/news?id=920719e0a27352709d18dcc17dc5b95dd769a72e8d1a7c76468d7e3608687fdb)**  
+- **[Google's AI chips could change what ChatGPT costs you](https://finnhub.io/api/news?id=d7cc1fcfecbec67ead472009306140eb2bc60e6ee041212ff19fe2a8de430fb5)**  
 *Yahoo · 1h前*  
-Caterpillar expects "moderate" revenue growth in Q4, not what analysts expected.
+As the cost of serving billions of AI requests rises, OpenAI may look beyond Nvidia.
 
-- **[Bond Yields, Crude Prices Lift European Bourses Midday Ahead of ECB Rate Decision](https://finnhub.io/api/news?id=184812ee99e237d1d0d874dfed86cff886d4bb97c45219c6623b9355706b78c5)**  
+- **[Morningstar Releases New Details On Over 350K SF In Q3 Office Leases](https://finnhub.io/api/news?id=15befdf5baae2c6f077e3c6f810b1b43100ec9b64424ba066593a065dd484fb4)**  
 *Yahoo · 1h前*  
-European bourses tracked moderately higher midday Thursday as traders weighed the continued flow of
+Between the company's three leases in Chicago, London and Frankfurt, the total term length is nearly four decades.
 
 ---
 
@@ -48,7 +48,7 @@ European bourses tracked moderately higher midday Thursday as traders weighed th
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-29 | 監控 | $324.89 | — | 自動更新 |
+| 2026-10-30 | 監控 | $283.82 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ European bourses tracked moderately higher midday Thursday as traders weighed th
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 07:04 HKT*
