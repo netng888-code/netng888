@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-29 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir Technologies Inc. (PLTR) Stock Sinks As Market Gains: Here's Why](https://finnhub.io/api/news?id=8be56a5e24e248007e03dba2d5b5f68bae9992c0ce56a3df3f642d1dc51bbf1c)**  
+- **[Why Is Everybody Paying A Premium For Palantir Stock?](https://finnhub.io/api/news?id=02dc5e0425ff798d8d20c71f988294c82d77f32a9e5ef8f421d62866726660c3)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
+
+- **[Surf Air Mobility Provides SurfOS Business Update, Highlighting OperatorOS Commercial Launch and Enterprise Growth Priorities](https://finnhub.io/api/news?id=32038fe192bb917b6154591ce6b40341eb256bde4f18bbc717540d9d1402fdeb)**  
 *Yahoo · 2h前*  
-In the closing of the recent trading day, Palantir Technologies Inc. (PLTR) stood at $196.26, denoting a -1.24% move from the preceding trading day.
+LOS ANGELES, October 29, 2026--Surf Air Mobility Inc. (NYSE: SRFM) ("Surf Air Mobility" or "the Company") today provided an update on recent achievements and pr…
 
-- **[Palantir Technologies vs. SentinelOne: Which Technology Stock Is a Better Buy in 2026?](https://finnhub.io/api/news?id=89ae5143253af9126c0988f446ee057be3f4a4addb6157e8d3859770d9264110)**  
-*Yahoo · 4h前*  
-Palantir’s AI platform is winning customers across government and enterprise at a remarkable rate. SentinelOne is executing well but has yet to reach consistent…
-
-- **[Gorilla Rallies 5% as Rebound Extends and Bottom Case Builds; Palantir and BigBear.ai Slip](https://finnhub.io/api/news?id=dfab02a0d71a17c2fc432f362f6d2d28d5a86e5b774448a2fa31205788e0a007)**  
-*Yahoo · 5h前*  
-Gorilla Technology is surging while its AI software peers slide, and the gap between them comes down to a business model that trades code for concrete. Whether …
+- **[Undercovered Dozen: Micron, i-80 Gold, Hercules Capital, And More](https://finnhub.io/api/news?id=3b343baed84ef797cf865ff0f70af43b45b14e2a22e2068dec3754ec73081374)**  
+*SeekingAlpha · 8h前*  
+Discover 12 undercovered stocks with actionable investment theses, fresh catalysts, and income ideas.
 
 ---
 
@@ -59,4 +59,4 @@ Gorilla Technology is surging while its AI software peers slide, and the gap bet
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:06 HKT*
