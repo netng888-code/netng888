@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-29 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Where Will Marvell Technology Stock Be in 2030?](https://finnhub.io/api/news?id=e241d20762e93e32442c28e000157cdb449007df3cc61f22eceff44b40b25ab3)**  
-*Yahoo · 4h前*  
-Marvell Technology anticipates its growth rate to accelerate significantly through the end of the decade.
+- **[Can NVIDIA Stock Jump 50%?](https://finnhub.io/api/news?id=3ece432cc7a983897d25495403ea9cfb94290ea01ef0d12e96f215e0bab4abb9)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[The AI Trade Is Back. Why Sandisk Stock Is Rising Before Big Tech Earnings.](https://finnhub.io/api/news?id=01eecf2fdb9f17e137bf813ff38b0ab8498cfbf9397b21236cdcd61f7161b5ca)**  
-*Yahoo · 8h前*  
-The chip and memory trade is back in style ahead of the most crucial set of earnings of the quarter.
+- **[Marvell’s Lumentum Bid Is a Bet That Light, Not Copper, Wins the AI Data Center](https://finnhub.io/api/news?id=3ad010e976514445305ce0b882f029a29e5a4ded3022a19185d6638911cb9a83)**  
+*Yahoo · 2h前*  
+Marvell is reportedly close to a deal that would make it one of the biggest buyers of laser factories in tech history, and the market reaction on both sides of …
 
-- **[Wall Street Analysts See Marvell (MRVL) as a Buy: Should You Invest?](https://finnhub.io/api/news?id=731a3b216ca94386b64a3512b2347c26c5a89222d6d530ad1e2c87d662518820)**  
-*Yahoo · 10h前*  
-Based on the average brokerage recommendation (ABR), Marvell (MRVL) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations …
+- **[Alphabet, Microsoft, Marvell, Amazon, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=c9b5060ece253c067eef50ec6704a7ee98395b35426ad7df9c3e67551873fae1)**  
+*Yahoo · 2h前*  
+Alphabet heads for its worst day in more than six years after weak earnings, while Microsoft’s solid results push shares higher.
 
 ---
 
@@ -59,4 +59,4 @@ Based on the average brokerage recommendation (ABR), Marvell (MRVL) should be ad
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:05 HKT*
