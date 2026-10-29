@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-29 21:06 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$444.18** |
-| 今日變動 | ▼ $1.70　(-0.38%) |
+| 現價 | **$448.76** |
+| 今日變動 | ▲ $4.58　(+1.03%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $18　(▼2.0%) |
+| 未實現盈虧 | ▼ $9　(▼1.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $416.46 | — |
-| Put Wall（支撐） | $440.00 | -0.9% |
-| Call Wall（阻力） | $480.00 | +8.1% |
+| Gamma Flip | $416.69 | — |
+| Put Wall（支撐） | $440.00 | -2.0% |
+| Call Wall（阻力） | $480.00 | +7.0% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Is Intuitive Surgical Stock's Market Price Justified?](https://finnhub.io/api/news?id=e14303edfa0e7af312b6688243b3cc43ce63894301a9c845c600c57c9b1adadf)**  
-*Yahoo · 1h前*  
+- **[ISRG Sales Jump 22%: Can Growth Stay Ahead of Procedure Volumes?](https://finnhub.io/api/news?id=c48b3920f53b67bc694a0170eb5e2c106dd27724134e2be551b8b59b2def6e78)**  
+*Yahoo · 8h前*  
+Intuitive Surgical's third-quarter sales surged 22%, outpacing procedure growth. Can system placements, new technologies and recurring revenues offset pricing p…
+
+- **[Baxter Q3 Earnings Beat on Broad-Based Growth, '26 Outlook Raised](https://finnhub.io/api/news?id=80575e527b1e2a59fe2995516081d5e3c57e66e72ce3ccdeea84ba093e70e938)**  
+*Yahoo · 8h前*  
+BAX beats Q3 earnings and revenue estimates, driven by broad-based segment growth, and raises its 2026 outlook despite continued margin pressure.
+
+- **[What Sent GE HealthCare Stock Higher?](https://finnhub.io/api/news?id=6d6112464353e7744caf82df02d17909b41867ac51692195afed55c4d6a4964d)**  
+*Yahoo · 9h前*  
 For questions about this article or underlying research, email help@trefis.com.
-
-- **[BSX Q3 Earnings Meet Estimates, Revenues Rise Y/Y, Stock Down](https://finnhub.io/api/news?id=8bdea02545d8cf5421ddf537c2f4795d01270c15cfb12ad789cec751e56599fb)**  
-*Yahoo · 21h前*  
-Boston Scientific's third-quarter revenues beat estimates, but contracting margins, weaker segment sales and reduced 2026 guidance weigh on shares.
-
-- **[GEHC Q3 Earnings Beat Estimates on Strong Growth, '26 View Raised](https://finnhub.io/api/news?id=fcab308b57bc03a3bd201273e286443279b70eff9eb32974e876f554b588bcd1)**  
-*Yahoo · 22h前*  
-GE HealthCare's Q3 earnings and revenues beat estimates on strong segment growth and higher margins, driving raised 2026 guidance as shares gain 8.3%.
 
 ---
 
@@ -48,7 +48,7 @@ GE HealthCare's Q3 earnings and revenues beat estimates on strong segment growth
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-29 | 監控 | $444.18 | — | 自動更新 |
+| 2026-10-30 | 監控 | $448.76 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ GE HealthCare's Q3 earnings and revenues beat estimates on strong segment growth
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 21:06 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 07:05 HKT*
