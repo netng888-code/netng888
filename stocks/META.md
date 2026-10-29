@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-29 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$612.49** |
-| 今日變動 | ▼ $7.70　(-1.24%) |
+| 現價 | **$624.52** |
+| 今日變動 | ▲ $12.03　(+1.96%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $18　(▲1.0%) |
+| 未實現盈虧 | ▲ $55　(▲3.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $619.37 | — |
-| Put Wall（支撐） | $600.00 | -2.0% |
-| Call Wall（阻力） | $750.00 | +22.5% |
+| Gamma Flip | $616.66 | — |
+| Put Wall（支撐） | $600.00 | -3.9% |
+| Call Wall（阻力） | $750.00 | +20.1% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[This Under-the-Radar Utility Just Signed a Massive Data Center Deal Without Anyone Noticing](https://finnhub.io/api/news?id=1b6e0d5216c5363381a2480773752efef47ebcd1576d677b890dac097e40238a)**  
+- **[News of the day: Anthropic's IPO windfall, Whitecap banks cash, Ottawa invests in Cohere, FINTRAC failing, Meta promises consultations and more](https://finnhub.io/api/news?id=78228402e1c49efdf96d678438fb888e03418887fff1c5afa289f1cbee22fd65)**  
 *Yahoo · 1h前*  
-If you look beyond the biggest names in the business, you'll find smaller players are cashing in on the AI revolution just as well.
+Catch up on the stories we’re following today
 
-- **[Aehr Test Systems Appoints Former Meta Infrastructure Executive Vijay Rao to Board of Directors](https://finnhub.io/api/news?id=f713a428f36ca79cc0f6a40b478cfa66e0a7860c3ae480b9d6e1924933390e61)**  
-*Yahoo · 1h前*  
-Appointment Adds Hyperscale AI Infrastructure Expertise as Aehr Expands in Semiconductor Test and Burn-In MarketsFREMONT, CA / ACCESS Newswire / October 29, 202…
+- **[S4 Capital's Monks Boosts Media Acceleration Offering with Executive Appointments in North America and Returning Global Partnership Leaders](https://finnhub.io/api/news?id=4dc2a7511b2a5f46454a5857a2747535d7a9b1d31cb7a7428800bed56f743289)**  
+*Yahoo · 2h前*  
+Monks, the global, digital-first operating brand of S4Capital plc, today announced a strategic expansion of its Data & Media practice leadership. The agency has…
 
-- **[Alphabet Sinks 10% on $9 Billion Cash Burn and “Significant Miss” in Search](https://finnhub.io/api/news?id=627f6836786ec5ac7f159182498d45e049c367bc7dc65bb853c54871a54d73a5)**  
-*Yahoo · 1h前*  
-Key TakeawaysAlphabet fell 9. 6% after third-quarter EPS of $2.
+- **[Microsoft Issues $25 Billion in New Bonds, Adding to AI Debt Spree](https://finnhub.io/api/news?id=0e8b23cc6e38e4f5ca2de4c8ffd91749ffb675cf5cbd992a55e0f1402a5a55e2)**  
+*Yahoo · 2h前*  
+Microsoft, with a market value of nearly $4 trillion, has the right credentials and the timing looks ripe.
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysAlphabet fell 9. 6% after third-quarter EPS of $2.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-29 | 監控 | $612.49 | — | 自動更新 |
+| 2026-10-30 | 監控 | $624.52 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysAlphabet fell 9. 6% after third-quarter EPS of $2.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 07:04 HKT*
