@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-29 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-29 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,25 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $9.04 | — |
 | Put Wall（支撐） | $8.00 | -11.2% |
-| Call Wall（阻力） | $10.00 | +11.0% |
+| Call Wall（阻力） | $9.00 | +-0.1% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Redwire Corporation (RDW) May Report Negative Earnings: Know the Trend Ahead of Q3 Release](https://finnhub.io/api/news?id=345467ea30418cfb0647178a61a40e07d50864764a6a1206160bb23d0932e943)**  
+*Yahoo · 1d前*  
+Redwire Corporation (RDW) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with …
+
 - **[Redwire, Methode Electronics, and EVgo shares skyrocket, what you need to know](https://finnhub.io/api/news?id=88e6992f014a93a938ea8a22dafef68ffaa706ec06e859d2b8fa8408d2e84fc0)**  
-*Yahoo · 23h前*  
+*Yahoo · 1d前*  
 A number of stocks jumped in the afternoon session after The Federal Reserve opened its two-day meeting with the 10-year Treasury yield at 4.995%, and futures p…
 
 - **[What Put Rocket Lab Ahead Of Its Industry?](https://finnhub.io/api/news?id=bbb0e2b1839987e4c16af27e7a80e9c18bc26e6f596e2b2ee147842835498a1d)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 For questions about this article or underlying research, email help@trefis.com.
-
-- **[RDW Stock Slips Premarket: Exec Says Drone Tactics That Worked ‘Maybe Two Weeks Ago’ No Longer Work In Ukraine](https://finnhub.io/api/news?id=424beee392ccca83dff6b8762eafd3d22c0fdf0503b9ff8cda7ba157379254aa)**  
-*Yahoo · 2d前*  
-Redwire targets rising defense demand with over 300 Penguin aircraft delivered to Ukraine, and $13.8 million in National Guard orders.
 
 ---
 
@@ -59,4 +59,4 @@ Redwire targets rising defense demand with over 300 Penguin aircraft delivered t
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-29 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-29 21:05 HKT*
