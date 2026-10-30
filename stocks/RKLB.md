@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-10-30 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab (RKLB) Stock Gets Fair Value Trim After Neutron Delay Raises Execution Risk](https://finnhub.io/api/news?id=785bb6b267edfef79202644beadcb33dda022ed002ae0b60cfc7f666b97b578a)**  
-*Yahoo · 5h前*  
-Rocket Lab’s updated analyst models show a small trim in fair value, with the price target shifting from about US$105.05 to roughly US$102.15, a move of around …
+- **[Rocket Lab: Is It Finally Time to Buy Below $60?](https://finnhub.io/api/news?id=d03c916e82f7021589387f5ec6fe43c7d97ddcf9b85eb77accb7e93532dc6ff3)**  
+*Yahoo · 2h前*  
+The stock has been on an extended slide, and a recent setback further fueled the selling.
 
-- **[Is Rocket Lab Stock Increasing Your Market Risk?](https://finnhub.io/api/news?id=ff5edfaa0006bc54f93e283f86d16204eb38e1fde6497a546315477e0d9bfa6d)**  
-*Yahoo · 11h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[NASA: A Primer On This Actively Managed Portfolio Of Stocks From The Space Economy](https://finnhub.io/api/news?id=b5068163d939fe021012930f04856bc58145044d9aa683e90bf2f77d0a31cb7e)**  
+*SeekingAlpha · 4h前*  
+Choose Tema Space Innovators ETF for active exposure to the space economy. See more on NASA ETF's risks, valuations, and alternatives like MARS and WARP.
 
-- **[FTAI Aviation (FTAI) Q3 Earnings and Revenues Beat Estimates](https://finnhub.io/api/news?id=02a370fcc7ab50d4108b09293b6bb85518db5922e1a4b774aaf4035551b5dbf7)**  
-*Yahoo · 12h前*  
-FTAI Aviation (FTAI) delivered earnings and revenue surprises of +9.16% and +0.25%, respectively, for the quarter ended September 2026. Do the numbers hold clue…
+- **[Stocktwits Space Race Monthly: SPCX Holds Up Better Than ASTS, RKLB And PL In October — But VSAT Takes The Crown](https://finnhub.io/api/news?id=4709028e3a24dba3a38e8902f3326b8c6e3dfa0ee5776023d357dae444af0426)**  
+*Yahoo · 7h前*  
+Viasat drew Amazon takeover speculation, while advancing NASA work and satellite-connectivity partnerships.
 
 ---
 
@@ -59,4 +59,4 @@ FTAI Aviation (FTAI) delivered earnings and revenue surprises of +9.16% and +0.2
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
