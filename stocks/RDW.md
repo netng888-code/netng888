@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-10-30 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,21 +22,25 @@
 |------|------|---------|
 | Gamma Flip | $8.86 | — |
 | Put Wall（支撐） | $8.00 | -12.7% |
-| Call Wall（阻力） | $10.00 | +9.2% |
+| Call Wall（阻力） | $9.00 | +-1.7% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Redwire Corporation (RDW) May Report Negative Earnings: Know the Trend Ahead of Q3 Release](https://finnhub.io/api/news?id=345467ea30418cfb0647178a61a40e07d50864764a6a1206160bb23d0932e943)**  
-*Yahoo · 1d前*  
-Redwire Corporation (RDW) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with …
+- **[Redwire (RDW) Stock May Be 40% Undervalued After European Space Deal](https://finnhub.io/api/news?id=3ab1eef496f938015d84fe3dd64e63918e2a49b62a5c3858c880bc5b27288dee)**  
+*Yahoo · 6h前*  
+Redwire has delivered a long run of strong share-price gains, yet the real test for investors is whether the current valuation is backed up by the cash the busi…
 
-- **[Redwire, Methode Electronics, and EVgo shares skyrocket, what you need to know](https://finnhub.io/api/news?id=88e6992f014a93a938ea8a22dafef68ffaa706ec06e859d2b8fa8408d2e84fc0)**  
+- **[Redwire Corporation to Report Third Quarter 2026 Results on November 4, 2026](https://finnhub.io/api/news?id=8401ccab6e083a36ed2522ce172151c776ec79ea47f9f3d90c18aa6392b906b4)**  
+*Yahoo · 16h前*  
+JACKSONVILLE, Fla., October 29, 2026--Redwire Corporation (NYSE: RDW; "Redwire" or "the Company") today announced that it will report financial results for the …
+
+- **[StandardAero, Inc. (SARO) Earnings Expected to Grow: Should You Buy?](https://finnhub.io/api/news?id=d64ff3a806a42313c21f4321249620689c27b98828bd364d4463399b7735c1d7)**  
 *Yahoo · 1d前*  
-A number of stocks jumped in the afternoon session after The Federal Reserve opened its two-day meeting with the 10-year Treasury yield at 4.995%, and futures p…
+StandardAero, Inc. (SARO) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with …
 
 ---
 
@@ -55,4 +59,4 @@ A number of stocks jumped in the afternoon session after The Federal Reserve ope
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
