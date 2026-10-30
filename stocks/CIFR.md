@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-10-30 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $7.90 | — |
-| Put Wall（支撐） | $8.00 | -1.2% |
+| Put Wall（支撐） | $7.00 | -13.6% |
 | Call Wall（阻力） | $10.00 | +23.5% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What Is Going On With MARA Stock After Its Steep Fall?](https://finnhub.io/api/news?id=2a83c9d148ff6833c84a383f38d6015ce1c7e63339d44d1f0a8db652e1c27cfe)**  
-*Yahoo · 22h前*  
+- **[Can Cipher Digital Stock Fall 50%?](https://finnhub.io/api/news?id=aed08d5937f324eae35018ba553e1998f7e6e37d7c3865767b5f0926bdbf0101)**  
+*Yahoo · 13h前*  
 For questions about this article or underlying research, email help@trefis.com.
 
-- **[Morgan Stanley reiterates Overweight on five AI data center stocks, with 441% TeraWulf upside](https://finnhub.io/api/news?id=f31a69d8c30adf41317def73788860243c33980b52825f6a19d04c802c9fa642)**  
-*Yahoo · 1d前*  
-Morgan Stanley argues TeraWulf, Cipher, Hut 8, Riot and Galaxy are priced like neoclouds while operating as landlords. It sketches a TeraWulf asset sale worth $…
+- **[Cipher Digital Inc. (CIFR) Registers a Bigger Fall Than the Market: Important Facts to Note](https://finnhub.io/api/news?id=850f5ff68ee8ca410bfa5ec69b259228b1c52887a99ed5c79a9e73811cd9530c)**  
+*Yahoo · 16h前*  
+Cipher Digital Inc. (CIFR) closed the most recent trading day at $8.05, moving 9.24% from the previous trading session.
 
-- **[Cipher’s Earnings Are Days Away: Here’s What Investors Need to Know](https://finnhub.io/api/news?id=cb4d4c4eef90d7f8c3e212785604046b4a6c1cea07b31e6cbece5241655ebfe7)**  
-*Benzinga · 1d前*  
-Cipher Digital shares are in focus Wednesday ahead of earnings amid data center developments, analyst calls and an oversold technical setup.
+- **[Cipher Digital Gears Up to Report Q3 Earnings: What's in Store?](https://finnhub.io/api/news?id=ffd5f66d2b023be26645b7a5babe2430a102da550a884600b973487e17007a8b)**  
+*Yahoo · 21h前*  
+Cipher Digital's Q3 results may reflect its shift to HPC leasing, with new data center rental income, declining mining revenues and rising construction costs in…
 
 ---
 
@@ -59,4 +59,4 @@ Cipher Digital shares are in focus Wednesday ahead of earnings amid data center 
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
