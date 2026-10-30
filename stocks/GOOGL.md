@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-10-30 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: Amazon, Intel Lead Earnings Losers After Google, ServiceNow, Fortinet Hit Nasdaq](https://finnhub.io/api/news?id=29af632925ef1c1bbde9c465d3cd7dd95bf05d1bfc0f26c90a8c49f1868c2534)**  
+- **[A Big Tech Selloff and Crypto Heist to Start the Day. Next Week Brings Apple Earnings and Midterms.](https://finnhub.io/api/news?id=b0c6aaea5f318197caea59c46b122b3388a65f5007e7e43db6359fa3c84ae8d9)**  
+*Yahoo · 1h前*  
+Amazon and Intel spark another big tech selloff, a huge crypto heist, and more things to know about the stock market today.
+
+- **[Stocks Mostly Down Pre-Bell as Traders Parse Amazon, Intel Earnings](https://finnhub.io/api/news?id=1ad4b3517b7153052b58a59b4efe023ef28cec5e2df764be1db04966f024af15)**  
+*Yahoo · 1h前*  
+The benchmark US stock measures were mostly tracking in the red before the open Friday as traders di
+
+- **[Dow Jones Futures: Nasdaq Futures Plunge 2% On Amazon, Intel After Google, ServiceNow, Fortinet Dive](https://finnhub.io/api/news?id=0fdf39e489331a1f170e179d499c839e0751206a22675c9e124cb900788002a8)**  
 *Yahoo · 1h前*  
 Amazon, Intel and Illumina were earnings losers overnight after Google, ServiceNow and Fortinet slammed techs. Much of the market is doing fine.
-
-- **[Google's AI chips could change what ChatGPT costs you](https://finnhub.io/api/news?id=d7cc1fcfecbec67ead472009306140eb2bc60e6ee041212ff19fe2a8de430fb5)**  
-*Yahoo · 1h前*  
-As the cost of serving billions of AI requests rises, OpenAI may look beyond Nvidia.
-
-- **[Morningstar Releases New Details On Over 350K SF In Q3 Office Leases](https://finnhub.io/api/news?id=15befdf5baae2c6f077e3c6f810b1b43100ec9b64424ba066593a065dd484fb4)**  
-*Yahoo · 1h前*  
-Between the company's three leases in Chicago, London and Frankfurt, the total term length is nearly four decades.
 
 ---
 
@@ -59,4 +59,4 @@ Between the company's three leases in Chicago, London and Frankfurt, the total t
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:03 HKT*
