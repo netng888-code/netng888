@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-30 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $95.75 | — |
-| Put Wall（支撐） | $80.00 | -13.1% |
+| Put Wall（支撐） | $65.00 | -29.4% |
 | Call Wall（阻力） | $100.00 | +8.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: Amazon, Intel Lead Earnings Losers After Google, ServiceNow, Fortinet Hit Nasdaq](https://finnhub.io/api/news?id=29af632925ef1c1bbde9c465d3cd7dd95bf05d1bfc0f26c90a8c49f1868c2534)**  
+- **[AI Anxiety, French Tensions Pressure European Bourses Midday](https://finnhub.io/api/news?id=9ecd8d58892544f1ecef38c6a9a37e7d58525353a3d124c726b7fdc59c1d4e9e)**  
 *Yahoo · 1h前*  
-Amazon, Intel and Illumina were earnings losers overnight after Google, ServiceNow and Fortinet slammed techs. Much of the market is doing fine.
+European bourses tracked modestly lower midday Friday after US tech giants Amazon.com (AMZN) and Int
 
-- **[Intel Corp (NASDAQ:INTC) Falls on Weak Q4 Guidance as PC Slowdown Persists](https://finnhub.io/api/news?id=d46249117fe27e71ef522d844ee6ced32395a94f692de349dfa51e5d0f147961)**  
-*ChartMill · 1h前*  
-Intel Q3 revenue met estimates and EPS beat, but weak Q4 guidance and a prolonged PC slowdown sent INTC shares sharply lower.
-
-- **[Supply Constraints a Swing Factor for Intel, Seaport's Goldberg Says](https://finnhub.io/api/news?id=ac27f09352f979645b170bf4b77182f189583f11c92aa3799e525fa906f1cdde)**  
+- **[Nasdaq-100 On Track For First Monthly Loss Since July — Here's What's Weighing On Tech Stocks](https://finnhub.io/api/news?id=2a72af78c30ec80d6659ecde523fa76ab632459ea2253c1b68238b12e4c70ccf)**  
 *Yahoo · 1h前*  
-Jay Goldberg, Seaport Research Partners semiconductors and electronics senior analyst, reacts to Intel's revenue forecast missing analysts' estimates due to spu…
+Disappointing Big Tech earnings, rising AI financing costs and semiconductor weakness have weighed on the index despite continued optimism about AI demand.
+
+- **[A Big Tech Selloff and Crypto Heist to Start the Day. Next Week Brings Apple Earnings and Midterms.](https://finnhub.io/api/news?id=b0c6aaea5f318197caea59c46b122b3388a65f5007e7e43db6359fa3c84ae8d9)**  
+*Yahoo · 1h前*  
+Amazon and Intel spark another big tech selloff, a huge crypto heist, and more things to know about the stock market today.
 
 ---
 
@@ -59,4 +59,4 @@ Jay Goldberg, Seaport Research Partners semiconductors and electronics senior an
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
