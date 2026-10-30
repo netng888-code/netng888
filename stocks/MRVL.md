@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-30 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today, Oct. 29: Marvell Falls on Lumentum Acquisition Talks](https://finnhub.io/api/news?id=4fb53acb1e9766b6ae9d4fde8742d44f130d8def3b4db32309990e93d99d648f)**  
+- **[Marvell in advanced talks to buy Nvidia-backed Lumentum – report](https://finnhub.io/api/news?id=29d468164ccbc994798daf836dd36039ac9e18777165b1f7c29d51a170f1c2eb)**  
 *Yahoo · 1h前*  
+The report said the discussions are private and the proposed deal could be announced as soon as next week.
+
+- **[Got $1,000? This Monster Growth Stock Is on Sale Right Now and Targets 10X Sales Growth By 2031](https://finnhub.io/api/news?id=fd88b87bde3e610dfde708556cc69282dfd3d1d9930e48bc2ca91515f8d21cc8)**  
+*Yahoo · 14h前*  
+MRVL stock is down from its recent highs, but management's recent growth targets signal opportunity.
+
+- **[Stock Market Today, Oct. 29: Marvell Falls on Lumentum Acquisition Talks](https://finnhub.io/api/news?id=4fb53acb1e9766b6ae9d4fde8742d44f130d8def3b4db32309990e93d99d648f)**  
+*Yahoo · 15h前*  
 Today, Oct. 29, 2026, investors weighed financing risks as the semiconductor maker pursued an optics supplier deal to bolster its AI infrastructure strategy.
-
-- **[Marvell Technology (MRVL) Sees a More Significant Dip Than Broader Market: Some Facts to Know](https://finnhub.io/api/news?id=b0342f966bb42f252c6e6d6a90f6711950c571e894bd515278a71c685042e565)**  
-*Yahoo · 2h前*  
-The latest trading day saw Marvell Technology (MRVL) settling at $218.34, representing a -13.24% change from its previous close.
-
-- **[Alphabet drops 12% in deepening tech and semiconductor rout](https://finnhub.io/api/news?id=72e0361ff7e4b220470440c65fec45a4ac3c17e6ac9d58d208c9c2a819085cb8)**  
-*Yahoo · 2h前*  
-A steep 12.6% sell-off in Alphabet (GOOGL) dragged down the broader market, pulling semiconductor and software names like Micron (MU), Intel (INTC), and Marvell…
 
 ---
 
@@ -59,4 +59,4 @@ A steep 12.6% sell-off in Alphabet (GOOGL) dragged down the broader market, pull
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
