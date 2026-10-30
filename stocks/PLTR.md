@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-30 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Could $1,000 Invested in Palantir Turn Into $100,000?](https://finnhub.io/api/news?id=9b21bf4d675cba69f7ed13d4475d3314fa3931fdbbaa1498ebfa2c7db1757637)**  
-*Yahoo · 2h前*  
-The high-growth tech stock still has a bright future.
-
-- **[Palantir Seen Beating Revenue Estimates, Raising Guidance, Oppenheimer Says](https://finnhub.io/api/news?id=e6f253f3aa08b0fd256392bb9e1f4c6d03b26ccd5eb1ce43305bdd345705123c)**  
+- **[Palantir Technologies vs. Figma: Comparing Revenue Growth Trends](https://finnhub.io/api/news?id=c4307294b13ae8ebd5fdb33d1e5df7817aa75c5431cf718989f481e0c6aed367)**  
 *Yahoo · 6h前*  
-Palantir Technologies (PLTR) is poised for another revenue beat and annual guidance raise in its upc
+Palantir's quarterly revenue has nearly tripled Figma's, yet both companies posted consistent growth over eight quarters -- a rare alignment that raises questio…
 
-- **[Why J.P. Morgan Believes Palantir Stock Is Just Getting Going After a Lackluster 2026](https://finnhub.io/api/news?id=5e4e006f498c4d61dbab908a8f05ed9ebff91293a3328c5dafa8d72acca26889)**  
-*Yahoo · 7h前*  
-Palantir stock is in the midst of a modest 2026, but that could all change soon, according to J.P. Morgan.
+- **[Nasdaq 100 Futures Dip On Weak Intel, Amazon Earnings With Bloated Capex Worries Weighing On Sentiment —  AMZN, INTC, SBUX, PLTR, ASTS In Focus](https://finnhub.io/api/news?id=80c21737b1138c6ad62c38672635cfe30947864df39d74f72e7ca6ee2eba3857)**  
+*Yahoo · 13h前*  
+Amazon’s Q3 earnings and revenue fell short of expectations.
+
+- **[JPMorgan Is Bullish on Palantir, Predicts Over 30% Rally on Strong AI Demand](https://finnhub.io/api/news?id=aa5bcabb5da72c6b1f65299987ce2fa55b1ba19b79b9bf2d9511c6905ff3ca8a)**  
+*Yahoo · 14h前*  
+JPMorgan has initiated coverage on Palantir Technologies with an ‘overweight rating and a $262 price target.
 
 ---
 
@@ -59,4 +59,4 @@ Palantir stock is in the midst of a modest 2026, but that could all change soon,
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
