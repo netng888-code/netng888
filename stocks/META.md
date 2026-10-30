@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-10-30 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[News of the day: Anthropic's IPO windfall, Whitecap banks cash, Ottawa invests in Cohere, FINTRAC failing, Meta promises consultations and more](https://finnhub.io/api/news?id=78228402e1c49efdf96d678438fb888e03418887fff1c5afa289f1cbee22fd65)**  
+- **[Satya Nadella Just Took a Shot at Oracle and CoreWeave](https://finnhub.io/api/news?id=61a5ce9b32f7a42b7da1de1e0ddc31477aac623e03ce3546f813fce72bdc308e)**  
 *Yahoo · 1h前*  
-Catch up on the stories we’re following today
+Satya Nadella described a business model he called no business at all, named no company, and watched a handful of AI cloud stocks drop after hours. The comment …
 
-- **[S4 Capital's Monks Boosts Media Acceleration Offering with Executive Appointments in North America and Returning Global Partnership Leaders](https://finnhub.io/api/news?id=4dc2a7511b2a5f46454a5857a2747535d7a9b1d31cb7a7428800bed56f743289)**  
-*Yahoo · 2h前*  
-Monks, the global, digital-first operating brand of S4Capital plc, today announced a strategic expansion of its Data & Media practice leadership. The agency has…
+- **[Why Meta and Alphabet Don’t Care That Q3 Earnings Paints Them as Laggards](https://finnhub.io/api/news?id=12d7c8515d664785a6299b4a3884dfbec67110490b29c5c3f01627ac68c137e5)**  
+*Yahoo · 1h前*  
+Both Meta and Alphabet missed earnings estimates this quarter, yet their management teams are betting billions that the headline numbers completely misrepresent…
 
-- **[Microsoft Issues $25 Billion in New Bonds, Adding to AI Debt Spree](https://finnhub.io/api/news?id=0e8b23cc6e38e4f5ca2de4c8ffd91749ffb675cf5cbd992a55e0f1402a5a55e2)**  
+- **[Amazon and Intel Tank the AI Trade. The One Factor Linking Big Tech’s Underwhelming Earnings.](https://finnhub.io/api/news?id=51eacd42c724d7eedfc61b68e1a9968d8deb71fc564cfa22004e0ce56b4ef920)**  
 *Yahoo · 2h前*  
-Microsoft, with a market value of nearly $4 trillion, has the right credentials and the timing looks ripe.
+Amazon stock and Intel were leading drops across the technology sector amid shrinking cash flows.
 
 ---
 
@@ -59,4 +59,4 @@ Microsoft, with a market value of nearly $4 trillion, has the right credentials 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
