@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-30 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $346.66 | — |
-| Put Wall（支撐） | $340.00 | -1.4% |
+| Put Wall（支撐） | $330.00 | -4.3% |
 | Call Wall（阻力） | $350.00 | +1.4% |
 
 **狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today, Oct. 29: Marvell Falls on Lumentum Acquisition Talks](https://finnhub.io/api/news?id=4fb53acb1e9766b6ae9d4fde8742d44f130d8def3b4db32309990e93d99d648f)**  
+- **[Broadcom’s $63B Anthropic Deal Could Be The One That Finally Gets it Into Gear](https://finnhub.io/api/news?id=00f864c323fcb147a4dfe1eaabfb1dc30088024ec6594a25beca5de93e6cd56e)**  
 *Yahoo · 1h前*  
-Today, Oct. 29, 2026, investors weighed financing risks as the semiconductor maker pursued an optics supplier deal to bolster its AI infrastructure strategy.
+A $63 billion financing deal just handed Broadcom a funded customer for its most ambitious revenue forecast yet, but Wall Street is still waiting to see if the …
 
-- **[Jim Cramer Says Buy Coca-Cola. Is Its Dividend Still Worth It After a 35% Rally?](https://finnhub.io/api/news?id=85203110da0a0eebbef970ae1e16deb5126b56dc05fc8281d5f1dbeecc917c2b)**  
-*Yahoo · 1h前*  
-Coca-Cola just posted its sixth straight earnings beat and Jim Cramer is pounding the table, but a 35% rally changes the math for retirees counting on that divi…
-
-- **[Amazon Stock Tanks After Earnings Miss](https://finnhub.io/api/news?id=adc4f6be97057d970f3ecbef10a002ef4a061b8acb5b19c482743abca1df87b1)**  
+- **[Should You Buy Texas Instruments Stock Now Or Wait?](https://finnhub.io/api/news?id=d4ba6a4c765fc0efcf426baeb4e52d0f5aaa5822a2a5cde872bf6f6830d3bddd)**  
 *Yahoo · 2h前*  
-The retail and cloud services giant reports weaker-than-expected earnings and revenue in the third quarter.
+For questions about this article or underlying research, email help@trefis.com.
+
+- **[Stocktwits Wall Street Wrap — Tesla, Broadcom, MercadoLibre Get Bullish Calls As Alphabet, Enphase Face Downgrades](https://finnhub.io/api/news?id=3c5c2950ec23adfded7279946ece523231db65c988c21898a7d230997b282d3d)**  
+*Yahoo · 4h前*  
+This week's analyst moves highlighted select technology and e-commerce companies gaining confidence while solar, search advertising and appliance businesses fac…
 
 ---
 
@@ -59,4 +59,4 @@ The retail and cloud services giant reports weaker-than-expected earnings and re
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:03 HKT*
