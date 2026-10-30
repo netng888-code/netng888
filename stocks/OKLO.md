@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-10-30 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nuclear Power Is Back, But Only a Few Stocks Have Customers Signed](https://finnhub.io/api/news?id=f28a1555764c80961c3c484bbaba68869c791bdecc50c4d11af62bdfd0f60998)**  
-*Yahoo · 16h前*  
-Eight nuclear stocks are in the spotlight, but contracts, licenses, and valuations separate established suppliers from early-stage developers.
+- **[NuScale Power Rises 7% on Doosan Manufacturing Deal; Oklo and BWX Technologies Trail](https://finnhub.io/api/news?id=f8821b323d6a9cb08d2c83879711a163ef163a4b2945dc75fba1453595fb4011)**  
+*Yahoo · 19h前*  
+NuScale just signed a South Korean manufacturing deal that moves its reactor from blueprint to physical hardware, but the company still has no paying customer f…
 
-- **[OKLO Vs SMR: How Two Battered Nuclear Stocks Stack Up Before Q3 Earnings](https://finnhub.io/api/news?id=db2250e5acf8e9eeea8a529204875910005473207cc5c8ec3a614c18a0213b13)**  
-*Yahoo · 18h前*  
-NuScale Power stock is up more than 5% this week, overtaking Oklo stock’s gains of about 3%.
-
-- **[NextEra Energy And 2 Other Nuclear Power Stocks To Watch](https://finnhub.io/api/news?id=7bbd6f4fda6e258763165d40ebaa035d4b30e31667fd4973b1a765925edd9bde)**  
+- **[NuScale Jumps 7% on Doosan Contract “Converting Our Approved Design Into Deliverable Modules”](https://finnhub.io/api/news?id=238cbb3466f8840a0d3fca33b673a55144360f9545bcacbe3a82fdabcd030b56)**  
 *Yahoo · 20h前*  
-Oil refineries have become direct targets in current conflicts, and that puts long term pressure on fuel supplies and energy security. When liquid fuels look fr…
+Key TakeawaysNuScale Power stock rose 7% today after it hired Doosan Enerbility to build the first upper reactor coolant system for its power module, outpacing …
+
+- **[Nuclear Power Is Back, But Only a Few Stocks Have Customers Signed](https://finnhub.io/api/news?id=f28a1555764c80961c3c484bbaba68869c791bdecc50c4d11af62bdfd0f60998)**  
+*Yahoo · 1d前*  
+Eight nuclear stocks are in the spotlight, but contracts, licenses, and valuations separate established suppliers from early-stage developers.
 
 ---
 
@@ -59,4 +59,4 @@ Oil refineries have become direct targets in current conflicts, and that puts lo
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
