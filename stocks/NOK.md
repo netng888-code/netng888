@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-10-30 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -21,7 +21,7 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $8.77 | — |
-| Put Wall（支撐） | $9.00 | -3.3% |
+| Put Wall（支撐） | $8.00 | -14.1% |
 | Call Wall（阻力） | $10.00 | +7.4% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
@@ -31,16 +31,16 @@
 ## 📰 最新新聞
 
 - **[Most Active Stocks Today: BURU, WFF, INLF and ADT Lead Volume](https://finnhub.io/api/news?id=139c2df4c9e8e6f77299d7aa812d352b603f43a06eadcf6b78d4fce5282c68f5)**  
-*ChartMill · 4h前*  
+*ChartMill · 18h前*  
 US most-active stocks today include BURU, WFF, INLF and ADT, with BURU up 131% on 767.17 million shares and Alphabet down 13.09%.
 
-- **[Most Active Stocks in the 2026-10-28 US Session](https://finnhub.io/api/news?id=6dd00f7beebaf2b4ac44b90b2bf915a12b85e9f7be926f582a2065d8dbbc0504)**  
-*ChartMill · 1d前*  
-The 2026-10-28 US most-active list covers heavy-volume stocks including DVLT, CDT, STLA, BBD, GERN, SOFI, SHFS, INTC, NVDA and NOK with price moves and context.
+- **[ERIC vs. NOK: Which 5G Infrastructure Stock is the Better Buy Now?](https://finnhub.io/api/news?id=e6bd9dc23a7f962a97171a51374363d9bb7ca53fb72c39d4fcc44921da8c8ea3)**  
+*Yahoo · 22h前*  
+Nokia edges out Ericsson as the better 5G infrastructure stock, backed by stronger 2026 growth estimates and stock gains, despite its higher valuation.
 
-- **[TrustScale Acquires RagMetrics AI Configuration and Evaluation Systems, Expanding Its Portfolio for Safer and Better AI](https://finnhub.io/api/news?id=f026f7fed0f9b7d683312b7f6daf5b4b2f0c0d436d014a7ff0c82ee11e88d212)**  
+- **[At Brooklyn AI-Native 6G Summit, InterDigital Champions Wireless Research in the Age of AI](https://finnhub.io/api/news?id=037eaff4fa042fcc253766b069f1c086c919780d2fd3c37bfd3b81cfa40f7d40)**  
 *Yahoo · 1d前*  
-Acquisition expands 's Nuance Configurability and Rubrics alongside Argus Evaluation Automations; RagMetrics CEO Olivier Cohen and CTO Hernan Lardiez join LOS A…
+InterDigital to showcase pioneering AI innovation that could shape the 6G experienceWILMINGTON, Del., Oct. 29, 2026 (GLOBE NEWSWIRE) -- InterDigital, Inc. (Nasd…
 
 ---
 
@@ -59,4 +59,4 @@ Acquisition expands 's Nuance Configurability and Rubrics alongside Argus Evalua
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
