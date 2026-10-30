@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-10-30 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -22,24 +22,24 @@
 |------|------|---------|
 | Gamma Flip | $149.73 | — |
 | Put Wall（支撐） | $100.00 | -9.5% |
-| Call Wall（阻力） | $140.00 | +26.6% |
+| Call Wall（阻力） | $110.00 | +-0.5% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
 - **[Centrus Energy Corp. Ships First New Centrifuge for Uranium Enrichment Expansion](https://finnhub.io/api/news?id=05a8b3a7ab2ff319ae6b7e7d04404b22f9e0125ba8e30d20b7c8e93de708bdae)**  
-*Fintel · 1h前*
+*Fintel · 15h前*
+
+- **[Centrus Begins Shipping Centrifuges to Ohio to Support Major Expansion of Uranium Enrichment Capacity](https://finnhub.io/api/news?id=3ee588640f9b9fd15a7103a2a110e9ea9c0690abe325f2e3f7511b5910b7061d)**  
+*Yahoo · 1d前*  
+Centrus Energy's (NYSE: LEU) Oak Ridge manufacturing plant has completed and is shipping the first new centrifuge today as part of the company's multibillion-do…
 
 - **[Centrus Energy's Oak Ridge Manufacturing Plant Completes And Begins Shipping Its First New Centrifuge To Ohio](https://finnhub.io/api/news?id=44431ca5b841b1f3be5395ed9fe419d11ddfd331436c0589cc86619cbda88479)**  
-*Benzinga · 16h前*  
+*Benzinga · 1d前*  
 This milestone marks the next phase of the project where completed centrifuges manufactured in Tennessee will be shipped to Ohio for final assembly, with the ma…
-
-- **[CCJ Falls 27.6% in 6 Months as Execution Risks Test the Nuclear Thesis](https://finnhub.io/api/news?id=dfe875ea83641169072392cb52979fbf3a32f7e841ac0805ae4037f34daa009e)**  
-*Yahoo · 1d前*  
-Cameco shares have fallen 27.6% in six months as earnings volatility, mine disruptions and rising costs challenge its exposure to strong nuclear demand.
 
 ---
 
@@ -58,4 +58,4 @@ Cameco shares have fallen 27.6% in six months as earnings volatility, mine disru
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
