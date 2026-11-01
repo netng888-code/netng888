@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$448.76** |
-| 今日變動 | ▲ $4.58　(+1.03%) |
+| 現價 | **$432.01** |
+| 今日變動 | ▼ $16.75　(-3.73%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $9　(▼1.0%) |
+| 未實現盈虧 | ▼ $42　(▼4.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $416.69 | — |
-| Put Wall（支撐） | $450.00 | --0.3% |
-| Call Wall（阻力） | $480.00 | +7.0% |
+| Gamma Flip | $414.65 | — |
+| Put Wall（支撐） | $420.00 | -2.8% |
+| Call Wall（阻力） | $480.00 | +11.1% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[RMD Stock Up on Q1 Earnings and Revenue Beat, Gross Margin Climbs](https://finnhub.io/api/news?id=7fef578c9d60cfcce3de115efdfe0dd5034dfcce3642c534f665bba1d99b8227)**  
+- **[Intuitive Surgical Stock Just Fell Despite a 22% Revenue Jump. Here's What Investors Are Missing.](https://finnhub.io/api/news?id=dbaaecaf210141bb97e9169e1e81898751549fef3cda6b754c6291f582c008a6)**  
 *Yahoo · 2h前*  
-ResMed's first-quarter fiscal 2027 earnings and revenues top estimates as sustained sleep device demand, productivity gains and gross margin expansion drive gro…
+Selling surgical robots is not the largest source of Intuitive Surgical's revenue.
 
-- **[ISRG Sales Jump 22%: Can Growth Stay Ahead of Procedure Volumes?](https://finnhub.io/api/news?id=c48b3920f53b67bc694a0170eb5e2c106dd27724134e2be551b8b59b2def6e78)**  
-*Yahoo · 22h前*  
-Intuitive Surgical's third-quarter sales surged 22%, outpacing procedure growth. Can system placements, new technologies and recurring revenues offset pricing p…
+- **[Robotics Stocks Diverge as Strong Earnings Meet Uneven Price Action](https://finnhub.io/api/news?id=5fa872ffb1b98303d87800faf843447ca48e4ec7441c37c5bce7c00dd4ace35a)**  
+*ChartMill · 1d前*  
+Robotics automation theme cools as investors get selective, with earnings-price disconnects and healthcare robotics holding up as quality counterweight.
 
-- **[Baxter Q3 Earnings Beat on Broad-Based Growth, '26 Outlook Raised](https://finnhub.io/api/news?id=80575e527b1e2a59fe2995516081d5e3c57e66e72ce3ccdeea84ba093e70e938)**  
-*Yahoo · 22h前*  
-BAX beats Q3 earnings and revenue estimates, driven by broad-based segment growth, and raises its 2026 outlook despite continued margin pressure.
+- **[Intuitive Surgical vs. Boston Scientific: Which Stock Is a Better Buy Now?](https://finnhub.io/api/news?id=7736309c7aebb9f1109967201f110f19e6296cd3d331549dc4dbd813ac209063)**  
+*Yahoo · 2d前*  
+Intuitive Surgical's surging robotic surgery demand and stronger earnings momentum make it a better buy than Boston Scientific despite its valuation premium.
 
 ---
 
@@ -48,7 +48,7 @@ BAX beats Q3 earnings and revenue estimates, driven by broad-based segment growt
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-30 | 監控 | $448.76 | — | 自動更新 |
+| 2026-11-02 | 監控 | $432.01 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ BAX beats Q3 earnings and revenue estimates, driven by broad-based segment growt
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
