@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-10-30 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$345.00** |
-| 今日變動 | ▼ $6.81　(-1.94%) |
+| 現價 | **$326.08** |
+| 今日變動 | ▼ $18.92　(-5.48%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $336　(▼8.9%) |
+| 未實現盈虧 | ▼ $525　(▼13.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $346.66 | — |
-| Put Wall（支撐） | $330.00 | -4.3% |
-| Call Wall（阻力） | $350.00 | +1.4% |
+| Gamma Flip | $351.21 | — |
+| Put Wall（支撐） | $300.00 | -8.0% |
+| Call Wall（阻力） | $350.00 | +7.3% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Broadcom’s $63B Anthropic Deal Could Be The One That Finally Gets it Into Gear](https://finnhub.io/api/news?id=00f864c323fcb147a4dfe1eaabfb1dc30088024ec6594a25beca5de93e6cd56e)**  
-*Yahoo · 1h前*  
-A $63 billion financing deal just handed Broadcom a funded customer for its most ambitious revenue forecast yet, but Wall Street is still waiting to see if the …
+- **[5 Huge Winners From Anthropic's IPO](https://finnhub.io/api/news?id=760ede8e33b4b9c9a20b9d851e3ad0897c8fce99a7cf9a6be9fd568289d67c0c)**  
+*Yahoo · 6h前*  
+Anthropic is spending big to bring its AI vision to reality.
 
-- **[Should You Buy Texas Instruments Stock Now Or Wait?](https://finnhub.io/api/news?id=d4ba6a4c765fc0efcf426baeb4e52d0f5aaa5822a2a5cde872bf6f6830d3bddd)**  
-*Yahoo · 2h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[SCHD Vs. FDVV: Which Dividend ETF Wins Into 2027](https://finnhub.io/api/news?id=f63f4fad68b29c86f3bb86d5084aa35f46d297982358472e34f4df5ff0e15c2b)**  
+*SeekingAlpha · 9h前*  
+Compare SCHD and FDVV for dividend growth, defensive income, and tech exposure amid AI spending fears.
 
-- **[Stocktwits Wall Street Wrap — Tesla, Broadcom, MercadoLibre Get Bullish Calls As Alphabet, Enphase Face Downgrades](https://finnhub.io/api/news?id=3c5c2950ec23adfded7279946ece523231db65c988c21898a7d230997b282d3d)**  
-*Yahoo · 4h前*  
-This week's analyst moves highlighted select technology and e-commerce companies gaining confidence while solar, search advertising and appliance businesses fac…
+- **[I'm Not Swayed By AI Bubble Burst Doomerism](https://finnhub.io/api/news?id=57d1f90f6c602355fad20bd02a0339c61272b83ba71a21bd3633591b67db0cd6)**  
+*SeekingAlpha · 13h前*  
+See why Microsoft, Amazon, Google, and Meta lead AI infrastructure growth post-earnings despite CapEx risks. Click for an updated market outlook.
 
 ---
 
@@ -48,7 +48,7 @@ This week's analyst moves highlighted select technology and e-commerce companies
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-30 | 監控 | $345.00 | — | 自動更新 |
+| 2026-11-02 | 監控 | $326.08 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ This week's analyst moves highlighted select technology and e-commerce companies
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
