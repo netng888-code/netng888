@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$8.10** |
-| 今日變動 | ▼ $0.77　(-8.68%) |
+| 現價 | **$7.29** |
+| 今日變動 | ▼ $0.81　(-10.00%) |
 | 持倉數量 | 100 股 |
 | 平均成本 | $10.000 |
-| 未實現盈虧 | ▼ $190　(▼19.0%) |
+| 未實現盈虧 | ▼ $271　(▼27.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $7.90 | — |
-| Put Wall（支撐） | $7.00 | -13.6% |
-| Call Wall（阻力） | $10.00 | +23.5% |
+| Gamma Flip | $8.26 | — |
+| Put Wall（支撐） | $7.00 | -4.0% |
+| Call Wall（阻力） | $10.00 | +37.2% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Can Cipher Digital Stock Fall 50%?](https://finnhub.io/api/news?id=aed08d5937f324eae35018ba553e1998f7e6e37d7c3865767b5f0926bdbf0101)**  
-*Yahoo · 13h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[Cipher Digital And TeraWulf Vs. CoreWeave: Less Debt, More Upside](https://finnhub.io/api/news?id=2e15f2dcd4adbbf1064f8e8f6202c8b5011625c940ebec8a6ea2a39287cacdf3)**  
+*SeekingAlpha · 1d前*  
+Cipher Digital and TeraWulf are rated BUY due to stronger balance sheets and significant available capacity versus CoreWave. Click here to read in detail.
 
-- **[Cipher Digital Inc. (CIFR) Registers a Bigger Fall Than the Market: Important Facts to Note](https://finnhub.io/api/news?id=850f5ff68ee8ca410bfa5ec69b259228b1c52887a99ed5c79a9e73811cd9530c)**  
-*Yahoo · 16h前*  
-Cipher Digital Inc. (CIFR) closed the most recent trading day at $8.05, moving 9.24% from the previous trading session.
+- **[Has Cipher Digital (CIFR) Fallen Far Enough On Sales?](https://finnhub.io/api/news?id=6b4093bd58531ad64b3f8c933a632ef7e9779734d963c7febfa855cf42e83c5e)**  
+*Yahoo · 2d前*  
+Cipher Digital has swung sharply over the past few years, and with the stock last closing at US$8.10 after a steep pullback this year, investors are asking whet…
 
-- **[Cipher Digital Gears Up to Report Q3 Earnings: What's in Store?](https://finnhub.io/api/news?id=ffd5f66d2b023be26645b7a5babe2430a102da550a884600b973487e17007a8b)**  
-*Yahoo · 21h前*  
-Cipher Digital's Q3 results may reflect its shift to HPC leasing, with new data center rental income, declining mining revenues and rising construction costs in…
+- **[Cipher Digital Stock Faces Debt Questions Before Earnings](https://finnhub.io/api/news?id=e03ca93f317919c7f00e31a27562cc147bb6506aa695f9d35092aa283c31d0b4)**  
+*Yahoo · 2d前*  
+Cipher Digital recently announced an $850 million zero coupon convertible notes offering, in addition to earlier borrowings that lifted total debt to about $5.6…
 
 ---
 
@@ -48,7 +48,7 @@ Cipher Digital's Q3 results may reflect its shift to HPC leasing, with new data 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-30 | 監控 | $8.10 | — | 自動更新 |
+| 2026-11-02 | 監控 | $7.29 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Cipher Digital's Q3 results may reflect its shift to HPC leasing, with new data 
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 07:05 HKT*
