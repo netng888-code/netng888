@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$196.42** |
-| 今日變動 | ▼ $0.39　(-0.20%) |
+| 現價 | **$184.11** |
+| 今日變動 | ▼ $12.31　(-6.27%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $415　(▲54.3%) |
+| 未實現盈虧 | ▲ $341　(▲44.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $189.55 | — |
-| Put Wall（支撐） | $190.00 | -3.3% |
-| Call Wall（阻力） | $200.00 | +1.8% |
+| Gamma Flip | $178.20 | — |
+| Put Wall（支撐） | $160.00 | -13.1% |
+| Call Wall（阻力） | $200.00 | +8.6% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir Technologies vs. Figma: Comparing Revenue Growth Trends](https://finnhub.io/api/news?id=c4307294b13ae8ebd5fdb33d1e5df7817aa75c5431cf718989f481e0c6aed367)**  
+- **[Jobs, Midterm Elections, Apple, Palantir, McDonald’s, Moderna, and More to Watch This Week](https://finnhub.io/api/news?id=296f1b1163841a1dc813faa8e77cf25dc03e4939ab3a3f7042d94234d9df6bc4)**  
+*Yahoo · 4h前*  
+In another busy earnings week, AMD, Estée Lauder, Qualcomm, Pfizer, and many more will report results. We’ll see three readings on jobs this week, as well as da…
+
+- **[Prediction: 3 Stocks That Will Be Worth More Than Palantir 5 Years From Now](https://finnhub.io/api/news?id=fad08a9b3c6989a62d6c2d168e157feff91678c068a2a0f4e6d8a5fd445071b9)**  
 *Yahoo · 6h前*  
-Palantir's quarterly revenue has nearly tripled Figma's, yet both companies posted consistent growth over eight quarters -- a rare alignment that raises questio…
+Celestica, CrowdStrike, and AppLovin are growing fast.
 
-- **[Nasdaq 100 Futures Dip On Weak Intel, Amazon Earnings With Bloated Capex Worries Weighing On Sentiment —  AMZN, INTC, SBUX, PLTR, ASTS In Focus](https://finnhub.io/api/news?id=80c21737b1138c6ad62c38672635cfe30947864df39d74f72e7ca6ee2eba3857)**  
-*Yahoo · 13h前*  
-Amazon’s Q3 earnings and revenue fell short of expectations.
-
-- **[JPMorgan Is Bullish on Palantir, Predicts Over 30% Rally on Strong AI Demand](https://finnhub.io/api/news?id=aa5bcabb5da72c6b1f65299987ce2fa55b1ba19b79b9bf2d9511c6905ff3ca8a)**  
-*Yahoo · 14h前*  
-JPMorgan has initiated coverage on Palantir Technologies with an ‘overweight rating and a $262 price target.
+- **[Palantir Technologies (PLTR) Deepens Sovereign AI Deployments Across Sensitive Industries](https://finnhub.io/api/news?id=e13a781570f49cfee67acc250a2f29d00504e9319ab86afb76841feacb91a3ce)**  
+*Yahoo · 6h前*  
+Palantir Technologies (NasdaqGS:PLTR) announced a new wave of sovereign AI deployments with partners including L3Harris, McCarthy, NVIDIA, Ondas, and Tampa Gene…
 
 ---
 
@@ -48,7 +48,7 @@ JPMorgan has initiated coverage on Palantir Technologies with an ‘overweight r
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-30 | 監控 | $196.42 | — | 自動更新 |
+| 2026-11-02 | 監控 | $184.11 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ JPMorgan has initiated coverage on Palantir Technologies with an ‘overweight r
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
