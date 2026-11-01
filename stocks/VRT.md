@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$245.92** |
-| 今日變動 | ▲ $2.98　(+1.23%) |
+| 現價 | **$232.50** |
+| 今日變動 | ▼ $13.42　(-5.46%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $116　(▼19.0%) |
+| 未實現盈虧 | ▼ $143　(▼23.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $223.17 | — |
-| Put Wall（支撐） | $230.00 | -6.5% |
-| Call Wall（阻力） | $250.00 | +1.7% |
+| Gamma Flip | $232.13 | — |
+| Put Wall（支撐） | $210.00 | -9.7% |
+| Call Wall（阻力） | $250.00 | +7.5% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What Is Behind The Move In Vertiv Stock?](https://finnhub.io/api/news?id=c77e328ae9ae67b0ffec9dcaeca2d573e0fde73aa1c81235b57d952e148493be)**  
-*Yahoo · 17h前*  
+- **[Nvidia Partner Vertiv Soars as Orders Double: “Evolving Faster Than Ever”](https://finnhub.io/api/news?id=7d12b8738c6c2fc79e67ef284d1eb8680dae8b6c09383220d836c9199fa50918)**  
+*Yahoo · 16h前*  
+Key TakeawaysVertiv shares jumped 16% on October 28 after its third-quarter organic orders more than doubled and it raised its 2026 sales outlook by $650 millio…
+
+- **[Vertiv: 3 Key Takeaways for Long-Term Investors](https://finnhub.io/api/news?id=d61962c3023f245b90d7956fd7d0703c3ac8d3588d7603ae16da57f08e716c3c)**  
+*Yahoo · 20h前*  
+Aggressive reinvestment is expanding Vertiv's manufacturing scale while the company maintains high profitability, a balance that could define its competitive mo…
+
+- **[Is Vertiv Stock Safer Or Riskier Than A Year Ago?](https://finnhub.io/api/news?id=966772707b28c5d6a4d544832cee47e4a4277b51507282f9919aa2ef997fc3c5)**  
+*Yahoo · 1d前*  
 For questions about this article or underlying research, email help@trefis.com.
-
-- **[nVent Electric Earnings Ahead: What Past Reactions Say About The Stock](https://finnhub.io/api/news?id=06c1b181d5d5d7109edbe278336a5afb8d7a696487fd25f9fa9b2e6a30260496)**  
-*Yahoo · 18h前*  
-nVent Electric (NYSE:NVT) is scheduled to report its earnings on Friday, October 30, 2026. The company has a market value of about $22.7 billion. Over the last …
-
-- **[Vertiv Is Up 15% in a Week. Are Doubled Orders Really That Good?](https://finnhub.io/api/news?id=8c1773f248e572f8f8b94ad22467b80dd6fb5d4babd5fda0fbbf16e45ebc4450)**  
-*Yahoo · 19h前*  
-Key TakeawaysVertiv stock is up 15% in the past week after third-quarter sales rose 61% and organic orders more than doubled. The results ease October’s worries…
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysVertiv stock is up 15% in the past week after third-quarter sales r
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-30 | 監控 | $245.92 | — | 自動更新 |
+| 2026-11-02 | 監控 | $232.50 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysVertiv stock is up 15% in the past week after third-quarter sales r
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 07:05 HKT*
