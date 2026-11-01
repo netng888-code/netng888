@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$92.07** |
-| 今日變動 | ▼ $3.46　(-3.62%) |
+| 現價 | **$65.76** |
+| 今日變動 | ▼ $26.31　(-28.58%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $149　(▼14.0%) |
+| 未實現盈虧 | ▼ $412　(▼38.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $95.75 | — |
-| Put Wall（支撐） | $65.00 | -29.4% |
-| Call Wall（阻力） | $100.00 | +8.6% |
+| Gamma Flip | $98.46 | — |
+| Put Wall（支撐） | $65.00 | -1.2% |
+| Call Wall（阻力） | $70.00 | +6.4% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Anxiety, French Tensions Pressure European Bourses Midday](https://finnhub.io/api/news?id=9ecd8d58892544f1ecef38c6a9a37e7d58525353a3d124c726b7fdc59c1d4e9e)**  
-*Yahoo · 1h前*  
-European bourses tracked modestly lower midday Friday after US tech giants Amazon.com (AMZN) and Int
+- **[Jobs, Midterm Elections, Apple, Palantir, McDonald’s, Moderna, and More to Watch This Week](https://finnhub.io/api/news?id=296f1b1163841a1dc813faa8e77cf25dc03e4939ab3a3f7042d94234d9df6bc4)**  
+*Yahoo · 4h前*  
+In another busy earnings week, AMD, Estée Lauder, Qualcomm, Pfizer, and many more will report results. We’ll see three readings on jobs this week, as well as da…
 
-- **[Nasdaq-100 On Track For First Monthly Loss Since July — Here's What's Weighing On Tech Stocks](https://finnhub.io/api/news?id=2a72af78c30ec80d6659ecde523fa76ab632459ea2253c1b68238b12e4c70ccf)**  
-*Yahoo · 1h前*  
-Disappointing Big Tech earnings, rising AI financing costs and semiconductor weakness have weighed on the index despite continued optimism about AI demand.
+- **[A Wall Street Firm Modeled Out an AI Crash: S&P 500 Down 30%, $20 Trillion Gone. But Here's What Happens Next](https://finnhub.io/api/news?id=a845f5722fef6492c26af2817c44855c546965b0e4e3db7d475cd1160c930f4c)**  
+*Yahoo · 6h前*  
+Tech stocks just finished their worst month since March 2025, so what could a full AI crash actually look like?
 
-- **[A Big Tech Selloff and Crypto Heist to Start the Day. Next Week Brings Apple Earnings and Midterms.](https://finnhub.io/api/news?id=b0c6aaea5f318197caea59c46b122b3388a65f5007e7e43db6359fa3c84ae8d9)**  
-*Yahoo · 1h前*  
-Amazon and Intel spark another big tech selloff, a huge crypto heist, and more things to know about the stock market today.
+- **[Sandisk Sinks 13% Last Friday After a Beat: Kioxia Says the Flash Price Surge Is Fading](https://finnhub.io/api/news?id=20f9d899fab4f29d6f0b5b84554626c7e8a753e229e3d9de6ad71480fc669eed)**  
+*Yahoo · 6h前*  
+Sandisk (SNDK:NASDAQ) shares fell 13. 47% to $1,150.
 
 ---
 
@@ -48,7 +48,7 @@ Amazon and Intel spark another big tech selloff, a huge crypto heist, and more t
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-30 | 監控 | $92.07 | — | 自動更新 |
+| 2026-11-02 | 監控 | $65.76 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Amazon and Intel spark another big tech selloff, a huge crypto heist, and more t
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 07:05 HKT*
