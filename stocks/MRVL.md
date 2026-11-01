@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-10-30 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$218.34** |
-| 今日變動 | ▼ $33.31　(-13.24%) |
+| 現價 | **$196.40** |
+| 今日變動 | ▼ $21.94　(-10.05%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $390　(▼15.1%) |
+| 未實現盈虧 | ▼ $609　(▼23.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $237.27 | — |
-| Put Wall（支撐） | $200.00 | -8.4% |
-| Call Wall（阻力） | $270.00 | +23.7% |
+| Gamma Flip | $238.39 | — |
+| Put Wall（支撐） | $190.00 | -3.3% |
+| Call Wall（阻力） | $220.00 | +12.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell in advanced talks to buy Nvidia-backed Lumentum – report](https://finnhub.io/api/news?id=29d468164ccbc994798daf836dd36039ac9e18777165b1f7c29d51a170f1c2eb)**  
-*Yahoo · 1h前*  
-The report said the discussions are private and the proposed deal could be announced as soon as next week.
+- **[Earnings Volatility Watch: 10 Stocks Are Set to Swing More Than 10% This Week](https://finnhub.io/api/news?id=11580ea46adbde2a6243b452b62d658eeaae614850c1595b883ece0ea213f70f)**  
+*Benzinga · 14h前*  
+Ten stocks carry implied earnings moves above 10% next week, led by Moderna and AppLovin. Five are tech names hit in Friday&#39;s chip rout.
 
-- **[Got $1,000? This Monster Growth Stock Is on Sale Right Now and Targets 10X Sales Growth By 2031](https://finnhub.io/api/news?id=fd88b87bde3e610dfde708556cc69282dfd3d1d9930e48bc2ca91515f8d21cc8)**  
-*Yahoo · 14h前*  
-MRVL stock is down from its recent highs, but management's recent growth targets signal opportunity.
+- **[Lumentum Is Up 11% in a Week. Will Marvell Pay “Close to $100 Billion”?](https://finnhub.io/api/news?id=f5ca7ddf54214de92b35c22baa24864ec3b01f8d92b4063dfa4f2e141a2b0952)**  
+*Yahoo · 1d前*  
+Key TakeawaysLumentum rose 11% in a week on an optics rebound and a Bloomberg report that Marvell Technology is in advanced talks to buy it. A deal reportedly p…
 
-- **[Stock Market Today, Oct. 29: Marvell Falls on Lumentum Acquisition Talks](https://finnhub.io/api/news?id=4fb53acb1e9766b6ae9d4fde8742d44f130d8def3b4db32309990e93d99d648f)**  
-*Yahoo · 15h前*  
-Today, Oct. 29, 2026, investors weighed financing risks as the semiconductor maker pursued an optics supplier deal to bolster its AI infrastructure strategy.
+- **[Wall Street Is Getting More Interested in Credo. Here’s My Price Prediction](https://finnhub.io/api/news?id=61a88af2acea16be66f786ec09fbcafe997896f7dc73405d438724dc97c45e01)**  
+*Yahoo · 1d前*  
+Credo just posted triple-digit revenue growth and still trades at a steeper discount than its closest rivals, yet the stock has fallen nearly 20% in a single mo…
 
 ---
 
@@ -48,7 +48,7 @@ Today, Oct. 29, 2026, investors weighed financing risks as the semiconductor mak
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-10-30 | 監控 | $218.34 | — | 自動更新 |
+| 2026-11-02 | 監控 | $196.40 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Today, Oct. 29, 2026, investors weighed financing risks as the semiconductor mak
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-10-30 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
