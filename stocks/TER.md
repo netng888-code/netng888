@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -59,4 +59,4 @@ FormFactor's HBM4 testing and growing foundry business are benefiting from AI ch
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
