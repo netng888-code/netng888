@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Micron Stock Bounces Back, but the Market Needs More as AI Fears Linger](https://finnhub.io/api/news?id=5b461aace7b9e66b821dc536b5bde07aef840d73e5105afdcfb4ca3732000529)**  
+*Yahoo · 2h前*  
+There wasn’t an obvious catalyst driving shares higher, but they were probably just benefiting from a broader market rebound.
+
+- **[Stock Market Today: Intel’s Worst Day in Four Decades Drags Chips and the Nasdaq to a Rough October Finish](https://finnhub.io/api/news?id=0d242a5bdd68598220ecbb4487968bad8e58473bdcbfe5ae732396b4ffa34819)**  
+*ChartMill · 4h前*  
+Intel lost nearly 29% and dragged chip stocks lower as the Nasdaq had its worst day since June. Oil rose about 15% in October, Treasury yields fell, and Regener…
+
 - **[Earnings Volatility Watch: 10 Stocks Are Set to Swing More Than 10% This Week](https://finnhub.io/api/news?id=11580ea46adbde2a6243b452b62d658eeaae614850c1595b883ece0ea213f70f)**  
-*Benzinga · 14h前*  
+*Benzinga · 1d前*  
 Ten stocks carry implied earnings moves above 10% next week, led by Moderna and AppLovin. Five are tech names hit in Friday&#39;s chip rout.
-
-- **[Lumentum Is Up 11% in a Week. Will Marvell Pay “Close to $100 Billion”?](https://finnhub.io/api/news?id=f5ca7ddf54214de92b35c22baa24864ec3b01f8d92b4063dfa4f2e141a2b0952)**  
-*Yahoo · 1d前*  
-Key TakeawaysLumentum rose 11% in a week on an optics rebound and a Bloomberg report that Marvell Technology is in advanced talks to buy it. A deal reportedly p…
-
-- **[Wall Street Is Getting More Interested in Credo. Here’s My Price Prediction](https://finnhub.io/api/news?id=61a88af2acea16be66f786ec09fbcafe997896f7dc73405d438724dc97c45e01)**  
-*Yahoo · 1d前*  
-Credo just posted triple-digit revenue growth and still trades at a steeper discount than its closest rivals, yet the stock has fallen nearly 20% in a single mo…
 
 ---
 
@@ -59,4 +59,4 @@ Credo just posted triple-digit revenue growth and still trades at a steeper disc
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
