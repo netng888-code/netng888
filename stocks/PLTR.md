@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jobs, Midterm Elections, Apple, Palantir, McDonald’s, Moderna, and More to Watch This Week](https://finnhub.io/api/news?id=296f1b1163841a1dc813faa8e77cf25dc03e4939ab3a3f7042d94234d9df6bc4)**  
-*Yahoo · 4h前*  
-In another busy earnings week, AMD, Estée Lauder, Qualcomm, Pfizer, and many more will report results. We’ll see three readings on jobs this week, as well as da…
+- **[Palantir Faces Q3 Earnings Test as Wall Street Splits on Valuation](https://finnhub.io/api/news?id=ba8a836effaf5de8edcc15ef6760333e29ca6a049f81708d567a6bbdc70c4b92)**  
+*Yahoo · 0h前*  
+Wall Street expects Q3 EPS of $0.41 on revenue of $2.18 billion.
 
-- **[Prediction: 3 Stocks That Will Be Worth More Than Palantir 5 Years From Now](https://finnhub.io/api/news?id=fad08a9b3c6989a62d6c2d168e157feff91678c068a2a0f4e6d8a5fd445071b9)**  
-*Yahoo · 6h前*  
-Celestica, CrowdStrike, and AppLovin are growing fast.
+- **[Palantir Earnings On Tap. Can Software Maker Buck AI Sell-Off?](https://finnhub.io/api/news?id=fc7ed4d7a505f7cfc60ca597cc192ebfbeb320a73caabde4981f7e6daee28251)**  
+*Yahoo · 1h前*  
+Palantir earnings are due late Monday amid a sell-off in AI stocks. Palantir stock, which rallied on Q2 results, broke key support Friday.
 
-- **[Palantir Technologies (PLTR) Deepens Sovereign AI Deployments Across Sensitive Industries](https://finnhub.io/api/news?id=e13a781570f49cfee67acc250a2f29d00504e9319ab86afb76841feacb91a3ce)**  
-*Yahoo · 6h前*  
-Palantir Technologies (NasdaqGS:PLTR) announced a new wave of sovereign AI deployments with partners including L3Harris, McCarthy, NVIDIA, Ondas, and Tampa Gene…
+- **[Tech Rebound, Crude Slide Lift Wall Street Pre-Bell; Asia Mixed, Europe Up](https://finnhub.io/api/news?id=cef85ff0937c7ac1cb4d2d41b349f1b8b3d40b853689a124eadd8ab27530af3b)**  
+*Yahoo · 1h前*  
+Wall Street futures pointed moderately higher pre-bell Monday as traders waded back into tech shares
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies (NasdaqGS:PLTR) announced a new wave of sovereign AI deplo
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
