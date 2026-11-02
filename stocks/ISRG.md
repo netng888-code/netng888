@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Is This Number The Biggest Risk To Intuitive Surgical Stock?](https://finnhub.io/api/news?id=54aa0f8263d9795ba62a3d221bf198322aeafa27ccef3e62c68c8c8b62e656a3)**  
+*Yahoo · 4h前*  
+For questions about this article or underlying research, email help@trefis.com.
+
 - **[Intuitive Surgical Stock Just Fell Despite a 22% Revenue Jump. Here's What Investors Are Missing.](https://finnhub.io/api/news?id=dbaaecaf210141bb97e9169e1e81898751549fef3cda6b754c6291f582c008a6)**  
-*Yahoo · 2h前*  
+*Yahoo · 16h前*  
 Selling surgical robots is not the largest source of Intuitive Surgical's revenue.
 
 - **[Robotics Stocks Diverge as Strong Earnings Meet Uneven Price Action](https://finnhub.io/api/news?id=5fa872ffb1b98303d87800faf843447ca48e4ec7441c37c5bce7c00dd4ace35a)**  
 *ChartMill · 1d前*  
 Robotics automation theme cools as investors get selective, with earnings-price disconnects and healthcare robotics holding up as quality counterweight.
-
-- **[Intuitive Surgical vs. Boston Scientific: Which Stock Is a Better Buy Now?](https://finnhub.io/api/news?id=7736309c7aebb9f1109967201f110f19e6296cd3d331549dc4dbd813ac209063)**  
-*Yahoo · 2d前*  
-Intuitive Surgical's surging robotic surgery demand and stronger earnings momentum make it a better buy than Boston Scientific despite its valuation premium.
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical's surging robotic surgery demand and stronger earnings moment
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:05 HKT*
