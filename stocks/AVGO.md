@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[5 Huge Winners From Anthropic's IPO](https://finnhub.io/api/news?id=760ede8e33b4b9c9a20b9d851e3ad0897c8fce99a7cf9a6be9fd568289d67c0c)**  
-*Yahoo · 6h前*  
-Anthropic is spending big to bring its AI vision to reality.
+- **[AI Chips Today - Dual-Use Tech Drives Mobility And Defense Innovation](https://finnhub.io/api/news?id=d04a4c8151a375898d3fe13d3ad96938b00dc9c9d5436d3b9799e49ba201c5dc)**  
+*Yahoo · 1h前*  
+Recent developments in AI chips highlight the dual-use potential of commercially developed technologies for defense applications, as explored in the Ontario Veh…
 
-- **[SCHD Vs. FDVV: Which Dividend ETF Wins Into 2027](https://finnhub.io/api/news?id=f63f4fad68b29c86f3bb86d5084aa35f46d297982358472e34f4df5ff0e15c2b)**  
-*SeekingAlpha · 9h前*  
-Compare SCHD and FDVV for dividend growth, defensive income, and tech exposure amid AI spending fears.
+- **[iShares Russell 1000 Growth (IWF) Adds NVIDIA and Apple on Oct. 29](https://finnhub.io/api/news?id=e67ca9b996d48da34431e791adcc97fad1f19b1ec4703d11db6a727f014c0077)**  
+*Yahoo · 1h前*  
+The fund bought $199.4 million of stock in Thursday's session, led by $30.3 million of NVIDIA and $16.6 million of Apple.
 
-- **[I'm Not Swayed By AI Bubble Burst Doomerism](https://finnhub.io/api/news?id=57d1f90f6c602355fad20bd02a0339c61272b83ba71a21bd3633591b67db0cd6)**  
-*SeekingAlpha · 13h前*  
-See why Microsoft, Amazon, Google, and Meta lead AI infrastructure growth post-earnings despite CapEx risks. Click for an updated market outlook.
+- **[iShares PHLX SOX Semiconductor (SOXX) Adds AMD and Micron on Oct. 29](https://finnhub.io/api/news?id=36dd3d690afc0df3d4ead3b8eb05cb1c9478300b920621466d6c5e408795b261)**  
+*Yahoo · 1h前*  
+The fund bought $212.3 million of stock, led by $22.0 million in AMD and $17.8 million in Micron.
 
 ---
 
@@ -59,4 +59,4 @@ See why Microsoft, Amazon, Google, and Meta lead AI infrastructure growth post-e
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
