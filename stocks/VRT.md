@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-11-02 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Partner Vertiv Soars as Orders Double: “Evolving Faster Than Ever”](https://finnhub.io/api/news?id=7d12b8738c6c2fc79e67ef284d1eb8680dae8b6c09383220d836c9199fa50918)**  
-*Yahoo · 16h前*  
-Key TakeawaysVertiv shares jumped 16% on October 28 after its third-quarter organic orders more than doubled and it raised its 2026 sales outlook by $650 millio…
+- **[Vertiv (NYSE:VRT) Shows Strong Growth Momentum Across Earnings, Sales, and Cash Flow](https://finnhub.io/api/news?id=955153f3605175327061c29dacb108cd0cff9f608b49d631d3d7b3ab24a8ecbf)**  
+*ChartMill · 2h前*  
+Vertiv (VRT) clears all eight Little Book growth-screen rules, with strong EPS revisions, sales growth, margins, cash flow, and ROE momentum.
 
-- **[Vertiv: 3 Key Takeaways for Long-Term Investors](https://finnhub.io/api/news?id=d61962c3023f245b90d7956fd7d0703c3ac8d3588d7603ae16da57f08e716c3c)**  
-*Yahoo · 20h前*  
-Aggressive reinvestment is expanding Vertiv's manufacturing scale while the company maintains high profitability, a balance that could define its competitive mo…
+- **[New Strong Buy Stocks for November 2nd](https://finnhub.io/api/news?id=f59925fbdc9b88a119e1d0fd24d86c9038d16e0643099f44220aef135a6f08e0)**  
+*Yahoo · 2h前*  
+YPF, PBR, BLCO, LFUS and VRT have been added to the Zacks Rank #1 (Strong Buy) List on November 2, 2026.
 
-- **[Is Vertiv Stock Safer Or Riskier Than A Year Ago?](https://finnhub.io/api/news?id=966772707b28c5d6a4d544832cee47e4a4277b51507282f9919aa2ef997fc3c5)**  
-*Yahoo · 1d前*  
+- **[What Is Behind The Move In nVent Stock?](https://finnhub.io/api/news?id=c6a92f8ca231207881f3fc7f419d95b6aabb9cd590412c0839320b8d2ab440b7)**  
+*Yahoo · 11h前*  
 For questions about this article or underlying research, email help@trefis.com.
 
 ---
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:05 HKT*
