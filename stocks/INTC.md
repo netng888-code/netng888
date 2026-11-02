@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$65.76** |
-| 今日變動 | ▼ $26.31　(-28.58%) |
+| 現價 | **$59.97** |
+| 今日變動 | ▼ $5.79　(-8.80%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $412　(▼38.5%) |
+| 未實現盈虧 | ▼ $470　(▼44.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $98.46 | — |
-| Put Wall（支撐） | $65.00 | -1.2% |
-| Call Wall（阻力） | $70.00 | +6.4% |
+| Gamma Flip | $93.89 | — |
+| Put Wall（支撐） | $50.00 | -16.6% |
+| Call Wall（阻力） | $70.00 | +16.7% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Is this the dot-com bubble again? Nearly $1 trillion gone](https://finnhub.io/api/news?id=826d8b97aeb47b98de65a34300c750ff493c660731067da18446fa2adb44ff30)**  
+- **[Stocks kick off November lower as AI sell-off hits Tech](https://finnhub.io/api/news?id=40ce51a9480bbed184e2d3240be76aa83bb6449420d848b314d2690b3d90fc47)**  
 *Yahoo · 1h前*  
-AI stocks just had a brutal week, with nearly $1 trillion wiped off Google, Amazon and Intel even as Big Tech posted record cloud revenue. Host Ejaaz Ahamadeen …
+Yahoo Finance Markets and Data Editor Jared Blikre breaks down Wall Street's rocky start to November as a continued sell-off in AI-related stocks weighs on the …
 
-- **[Apple Earnings, Midterms, Jobs Data Put Markets To The Test: 3 Charts To Watch This Week](https://finnhub.io/api/news?id=e47525850df9d1fc44094b34d39168749a4bc7270bc11552be87195fe8a47f6c)**  
-*Yahoo · 1h前*  
-Monday’s earnings report will test whether investors continue to treat Apple as a relative safe haven.
-
-- **[Markets Rebound. Elections and Earnings Threaten to Reignite Fears.](https://finnhub.io/api/news?id=19a3a54fffadd292d2ce544025bc4635405550bfeefb96dd86be79dbc8c9bb3a)**  
+- **[The Intel stock collapse is getting worse — and the $3.7 trillion chip rout is spreading](https://finnhub.io/api/news?id=e044dd3dafb7cbb4d8553a2ccad1270fb8186b5d36f8c53eda58a65c4a8ea14d)**  
 *Yahoo · 2h前*  
-Good morning and welcome to a massive week for markets and the wider economy, as midterm elections loom and traders brace for another heavy slate of corporate e…
+Intel's slide spread through memory and storage stocks Monday as most of Wall Street moved on from last week's tech sell-off.
+
+- **[Dell Technologies vs. Intel: Which Technology Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=461b2211e5ff9bdf89592c28060ab0f6c402f0e6eae12b26cea8cdbbb02c0b6e)**  
+*Yahoo · 3h前*  
+Dell's free cash flow engine contrasts sharply with Intel's negative cash burn, reshaping how investors should weigh growth against restructuring risk.
 
 ---
 
@@ -48,7 +48,7 @@ Good morning and welcome to a massive week for markets and the wider economy, as
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-02 | 監控 | $65.76 | — | 自動更新 |
+| 2026-11-03 | 監控 | $59.97 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Good morning and welcome to a massive week for markets and the wider economy, as
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 07:05 HKT*
