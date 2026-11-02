@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$326.08** |
-| 今日變動 | ▼ $18.92　(-5.48%) |
+| 現價 | **$322.23** |
+| 今日變動 | ▼ $3.85　(-1.18%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $525　(▼13.9%) |
+| 未實現盈虧 | ▼ $564　(▼14.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $351.21 | — |
-| Put Wall（支撐） | $300.00 | -8.0% |
-| Call Wall（阻力） | $350.00 | +7.3% |
+| Gamma Flip | $346.50 | — |
+| Put Wall（支撐） | $300.00 | -6.9% |
+| Call Wall（阻力） | $350.00 | +8.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Chips Today - Dual-Use Tech Drives Mobility And Defense Innovation](https://finnhub.io/api/news?id=d04a4c8151a375898d3fe13d3ad96938b00dc9c9d5436d3b9799e49ba201c5dc)**  
-*Yahoo · 1h前*  
-Recent developments in AI chips highlight the dual-use potential of commercially developed technologies for defense applications, as explored in the Ontario Veh…
+- **[This Earnings Season’s Biggest Beats Are Coming From Outside Tech](https://finnhub.io/api/news?id=0e43fd5977b3d173f6efc9e11bc2ced6b7f233b42cc71a94a3b0ad2d05ef8584)**  
+*Yahoo · 2h前*  
+Energy, utilities and industrials are delivering bigger earnings surprises as technology stocks struggle to exceed expectations.
 
-- **[iShares Russell 1000 Growth (IWF) Adds NVIDIA and Apple on Oct. 29](https://finnhub.io/api/news?id=e67ca9b996d48da34431e791adcc97fad1f19b1ec4703d11db6a727f014c0077)**  
-*Yahoo · 1h前*  
-The fund bought $199.4 million of stock in Thursday's session, led by $30.3 million of NVIDIA and $16.6 million of Apple.
+- **[Why Free Cash Flow Matters More Than Ever: 5 Tech Stocks to Watch](https://finnhub.io/api/news?id=d306d763b0bd297c81bc4d46a061e3d2778c8e7af7b57a23c72dbe61260695d2)**  
+*Yahoo · 3h前*  
+Free cash flow (FCF) is becoming one of the most important metrics for evaluating technology stocks heading into 2027.
 
-- **[iShares PHLX SOX Semiconductor (SOXX) Adds AMD and Micron on Oct. 29](https://finnhub.io/api/news?id=36dd3d690afc0df3d4ead3b8eb05cb1c9478300b920621466d6c5e408795b261)**  
-*Yahoo · 1h前*  
-The fund bought $212.3 million of stock, led by $22.0 million in AMD and $17.8 million in Micron.
+- **[Active Fund Managers Staged a Big Comeback. Can It Last?](https://finnhub.io/api/news?id=7d414e07a302bc95fc9016a7968a59fbfdb8881f8176b852a038cd5bd195a1b1)**  
+*Yahoo · 4h前*  
+The recent tech selloff serves a reminder that stockpickers can shine when concentrated indexes like the S&P 500 are pulling back.
 
 ---
 
@@ -48,7 +48,7 @@ The fund bought $212.3 million of stock, led by $22.0 million in AMD and $17.8 m
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-02 | 監控 | $326.08 | — | 自動更新 |
+| 2026-11-03 | 監控 | $322.23 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund bought $212.3 million of stock, led by $22.0 million in AMD and $17.8 m
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
