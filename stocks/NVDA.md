@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[MPLX Reports Earnings on Nov. 3, 2026. Here's What Investors Should Be Watching.](https://finnhub.io/api/news?id=c22f964050220e627765ddd033f4202dd91e4968c1ca146c5c4518b5b7b90734)**  
-*Yahoo · 1h前*  
-MPLX has promised a stronger second half and just raised its payout by 12.5%. Here’s what to watch in its Nov. 3 report.
+- **[Should You Invest $1,000 in BridgeBio Pharma Right Now?](https://finnhub.io/api/news?id=9b77162c75fd93600b2bfd9ae6ef31749800c859137a7d55e7d29932d0c43dd5)**  
+*Yahoo · 0h前*  
+The pharmaceutical company has only two approved therapies, but others should be on the way soon.
 
-- **[Starlink's Subscriber Growth Is Explosive. Could SpaceX Unlock a Second Growth Engine?](https://finnhub.io/api/news?id=d9528a177bc8d7a4eb625bea056bfd9a31f096980b2df27490ba5814c6e7069a)**  
+- **[YieldMax® ETFs Announces Distributions on MSST, NVIT, and TEST](https://finnhub.io/api/news?id=fc22f55b2d2591c0e033712917df71f947310b29384bfec8bb44b3b6913b0608)**  
 *Yahoo · 1h前*  
-Most SpaceX investors understand that Starlink currently pays the bills. The intriguing thing is that Starlink has its own growth engine in the form of improvin…
+CHICAGO and MILWAUKEE and NEW YORK, Nov. 02, 2026 (GLOBE NEWSWIRE) -- YieldMax® today announced distributions for the YieldMax® Performance & Distribution Targe…
 
-- **[Barclays Says a SpaceX Merger Is Now "a Key Part" of the Tesla Bull Case. Here's Who Actually Wins if It Happens -- and Who Pays.](https://finnhub.io/api/news?id=bd3f88ac456fcaf4decb061e7e61e6100b2aa8ec471a83096350fb887480ba20)**  
+- **[Prediction: Netflix Will Begin Paying a Dividend in 2027 and Beat the S&P 500 During the Next Decade](https://finnhub.io/api/news?id=abf2c156fc9dad357e2644db18dfedeb7e771fd14cc25679312885ee2fb412bd)**  
 *Yahoo · 1h前*  
-SpaceX and Tesla could be on track for the biggest merger in stock market history.
+Netflix's high-margin business model and slowing growth rate set the stage for the introduction of a dividend program.
 
 ---
 
@@ -59,4 +59,4 @@ SpaceX and Tesla could be on track for the biggest merger in stock market histor
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
