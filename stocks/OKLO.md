@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Oklo Is 86% Below Its All-Time High. Should You Buy at $27 or Wait?](https://finnhub.io/api/news?id=ccc5bf12437f46660e14febf551e01144bcde95222d3217e25dd3ad3ba411b10)**  
+- **[NuScale Just Dropped 39% in a Month, Oklo 33%. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=433f625fa981d387ebe316dc17b7af3cb74affa74d1fb44e8cac74ee21668577)**  
+*Yahoo · 17h前*  
+Key TakeawaysNuScale Power (SMR) fell 39% in the month through October 22, closing at $5. 38, while Oklo (OKLO) declined 33% and the Nasdaq 100 lost 6%.
+
+- **[NextEra Energy Heads These 3 Nuclear Stocks To Watch](https://finnhub.io/api/news?id=3b99d146a00f089651a2e7b367b1d961b39361abb860d1e90afd35c1c5ae7e4b)**  
 *Yahoo · 1d前*  
-Oklo has fallen hard from its all-time high of $194. Could today's price of $27 imply immense upside?
+South Korea’s exports nearly doubled in October, with semiconductor shipments playing a big role. That surge highlights how hungry the world is for reliable ele…
 
-- **[Not Oklo. Not NuScale. The Army Picked This Nuclear Stock to Power Fort Campbell.](https://finnhub.io/api/news?id=5277bfa9203be35f05be83ab3188d4aa8de780ba381a254f71fd77287ea17fb8)**  
-*Yahoo · 2d前*  
-BWXT brings an established nuclear business to the Army's microreactor program.
-
-- **[Cameco Sinks 9% on Q3 Adjusted Loss as CEO Insists “Customer Requirements Do Not Disappear”](https://finnhub.io/api/news?id=4ba1e502425dd80802a6461460a4ec565f82e595603ac4377f5166283b567ff9)**  
-*Yahoo · 2d前*  
-Key TakeawaysCameco shares fell 9% today after a third-quarter adjusted net loss of C$2 million, against adjusted net earnings of C$32 million a year earlier. M…
+- **[Nuclear Stocks Have Crashed 35% to 88% From Their Highs. Here's What $1,000 in Each of These 5 Could Be Worth by 2030.](https://finnhub.io/api/news?id=df2733b85996473e4277c5417adc06eacdd7aa921fbd37e5ebcca6f4f014142e)**  
+*Yahoo · 1d前*  
+Building industrial power for artificial intelligence is going to require nuclear energy, and these stocks may be able to deliver it.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysCameco shares fell 9% today after a third-quarter adjusted net loss
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
