@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$8.39** |
-| 今日變動 | ▼ $0.77　(-8.41%) |
+| 現價 | **$7.83** |
+| 今日變動 | ▼ $0.56　(-6.67%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $290　(▼46.4%) |
+| 未實現盈虧 | ▼ $313　(▼50.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $7.92 | — |
-| Put Wall（支撐） | $8.00 | -4.6% |
-| Call Wall（阻力） | $10.00 | +19.2% |
+| Gamma Flip | $8.00 | — |
+| Put Wall（支撐） | $7.00 | -10.6% |
+| Call Wall（阻力） | $10.00 | +27.7% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
 - **[You Can Do Better Than SpaceX: 2 Industrial Stocks to Buy Instead](https://finnhub.io/api/news?id=82dd80997bbfa84e4dbe719f1d591ba824dbafa1dc06cf26a4735fb628a09bae)**  
-*Yahoo · 2h前*  
+*Yahoo · 12h前*  
 SpaceX gets the headlines, but Rocket Lab and Redwire offer other ways to invest in the space boom, with very different valuations and risks.
+
+- **[Redwire In Play Ahead of Earnings: Here’s What Investors Need to Know](https://finnhub.io/api/news?id=f3cbf6171919a95fa3ff4b9f2a0952fc449bc19640df9a21098b0b8518ee6eaf)**  
+*Benzinga · 13h前*  
+Redwire shares are in the spotlight Monday ahead of earnings, with backlog growth, gross margins and improving technical momentum in focus.
 
 - **[Partnership Deal Could Change The Case For Redwire Stock](https://finnhub.io/api/news?id=6ac3d8bd2f955ab698484ec37c11ae18ebb44259f997ada7e4ec8199e039eba7)**  
 *Yahoo · 2d前*  
 Redwire Corporation and EnduroSat recently signed a memorandum of understanding to combine Redwire’s power systems and prime contractor experience with EnduroSa…
-
-- **[Redwire (RDW) Signs EnduroSat Pact, Is It Still 28% Undervalued?](https://finnhub.io/api/news?id=18fa59a43d981c8526464cc31d801adb7fac5b18ba48c59f8a4cb8b94f0b7f23)**  
-*Yahoo · 2d前*  
-Redwire (RDW) has signed a memorandum of understanding with EnduroSat to integrate high-volume European spacecraft production with Redwire power systems and pri…
 
 ---
 
@@ -48,7 +48,7 @@ Redwire (RDW) has signed a memorandum of understanding with EnduroSat to integra
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-02 | 監控 | $8.39 | — | 自動更新 |
+| 2026-11-03 | 監控 | $7.83 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Redwire (RDW) has signed a memorandum of understanding with EnduroSat to integra
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
