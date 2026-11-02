@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-11-02 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[CIFR Stock Gets Biggest Price-Target Cut In Sector-Wide Reset Amid Keefe Bruyette’s AI Hosting Valuation Concerns](https://finnhub.io/api/news?id=918737153f1daa9acecd01032f4eedb72758a41681e64ec9784bfb790222f645)**  
+*Yahoo · 0h前*  
+Keefe Bruyette lowered price targets on seven bitcoin miners and AI hosting companies on Monday.
+
 - **[Cipher Digital And TeraWulf Vs. CoreWeave: Less Debt, More Upside](https://finnhub.io/api/news?id=2e15f2dcd4adbbf1064f8e8f6202c8b5011625c940ebec8a6ea2a39287cacdf3)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Cipher Digital and TeraWulf are rated BUY due to stronger balance sheets and significant available capacity versus CoreWave. Click here to read in detail.
 
 - **[Has Cipher Digital (CIFR) Fallen Far Enough On Sales?](https://finnhub.io/api/news?id=6b4093bd58531ad64b3f8c933a632ef7e9779734d963c7febfa855cf42e83c5e)**  
 *Yahoo · 2d前*  
 Cipher Digital has swung sharply over the past few years, and with the stock last closing at US$8.10 after a steep pullback this year, investors are asking whet…
-
-- **[Cipher Digital Stock Faces Debt Questions Before Earnings](https://finnhub.io/api/news?id=e03ca93f317919c7f00e31a27562cc147bb6506aa695f9d35092aa283c31d0b4)**  
-*Yahoo · 2d前*  
-Cipher Digital recently announced an $850 million zero coupon convertible notes offering, in addition to earlier borrowings that lifted total debt to about $5.6…
 
 ---
 
@@ -59,4 +59,4 @@ Cipher Digital recently announced an $850 million zero coupon convertible notes 
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:05 HKT*
