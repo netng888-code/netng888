@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jobs, Midterm Elections, Apple, Palantir, McDonald’s, Moderna, and More to Watch This Week](https://finnhub.io/api/news?id=296f1b1163841a1dc813faa8e77cf25dc03e4939ab3a3f7042d94234d9df6bc4)**  
-*Yahoo · 4h前*  
-In another busy earnings week, AMD, Estée Lauder, Qualcomm, Pfizer, and many more will report results. We’ll see three readings on jobs this week, as well as da…
+- **[Entergy reports third quarter 2026 financial results](https://finnhub.io/api/news?id=4fa52f771ea7f7d8cd98a56ec416edebc8d301e6fb91720c0a932a29cc8e0456)**  
+*Yahoo · 1h前*  
+Entergy Corporation (NYSE: ETR) reported third quarter 2026 earnings per share of $1.98 on an as-reported and an adjusted (non-GAAP) basis.
 
-- **[Why Did Alphabet (GOOGL) Shares Fall After Its $500 Billion Value Wipeout?](https://finnhub.io/api/news?id=d905681cc62753e68d7454680c9d0c65fc4786a36a86fee302fd0efdae4ffcfc)**  
-*Yahoo · 5h前*  
-Alphabet (NasdaqGS: GOOGL) shed about US$500b in market value after its Q3 update, with the stock falling over 12%. Management reported slower-than-expected tre…
+- **[JPMorgan Global Select Equity ETF (JGLO) Adds Microsoft and NXP on Oct. 29](https://finnhub.io/api/news?id=861a0684bd25e90d30a32cc43c16838a89438b6c0d19ed354004dbd0fa575538)**  
+*Yahoo · 1h前*  
+The fund bought $18.9 million of Microsoft and $6.6 million of NXP Semiconductors while selling $22.0 million of Alphabet and $21.0 million of Apple.
 
-- **[ICE And OKX's Tokenized Stock Venue Hits A Wall As Nvidia, Nike Join Growing List Of Objectors](https://finnhub.io/api/news?id=ba33dd86bcf8ef35db0525dca4f22a652e4d3873ea62e17b14253d720436c1bb)**  
-*Yahoo · 6h前*  
-OKXICE plans 24/7 trading of tokenized stocks against stablecoins, under a temporary SEC exemption.
+- **[iShares Russell 1000 Growth (IWF) Adds NVIDIA and Apple on Oct. 29](https://finnhub.io/api/news?id=e67ca9b996d48da34431e791adcc97fad1f19b1ec4703d11db6a727f014c0077)**  
+*Yahoo · 1h前*  
+The fund bought $199.4 million of stock in Thursday's session, led by $30.3 million of NVIDIA and $16.6 million of Apple.
 
 ---
 
@@ -59,4 +59,4 @@ OKXICE plans 24/7 trading of tokenized stocks against stablecoins, under a tempo
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
