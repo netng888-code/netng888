@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-02 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jobs, Midterm Elections, Apple, Palantir, McDonald’s, Moderna, and More to Watch This Week](https://finnhub.io/api/news?id=296f1b1163841a1dc813faa8e77cf25dc03e4939ab3a3f7042d94234d9df6bc4)**  
-*Yahoo · 4h前*  
-In another busy earnings week, AMD, Estée Lauder, Qualcomm, Pfizer, and many more will report results. We’ll see three readings on jobs this week, as well as da…
+- **[Is this the dot-com bubble again? Nearly $1 trillion gone](https://finnhub.io/api/news?id=826d8b97aeb47b98de65a34300c750ff493c660731067da18446fa2adb44ff30)**  
+*Yahoo · 1h前*  
+AI stocks just had a brutal week, with nearly $1 trillion wiped off Google, Amazon and Intel even as Big Tech posted record cloud revenue. Host Ejaaz Ahamadeen …
 
-- **[A Wall Street Firm Modeled Out an AI Crash: S&P 500 Down 30%, $20 Trillion Gone. But Here's What Happens Next](https://finnhub.io/api/news?id=a845f5722fef6492c26af2817c44855c546965b0e4e3db7d475cd1160c930f4c)**  
-*Yahoo · 6h前*  
-Tech stocks just finished their worst month since March 2025, so what could a full AI crash actually look like?
+- **[Apple Earnings, Midterms, Jobs Data Put Markets To The Test: 3 Charts To Watch This Week](https://finnhub.io/api/news?id=e47525850df9d1fc44094b34d39168749a4bc7270bc11552be87195fe8a47f6c)**  
+*Yahoo · 1h前*  
+Monday’s earnings report will test whether investors continue to treat Apple as a relative safe haven.
 
-- **[Sandisk Sinks 13% Last Friday After a Beat: Kioxia Says the Flash Price Surge Is Fading](https://finnhub.io/api/news?id=20f9d899fab4f29d6f0b5b84554626c7e8a753e229e3d9de6ad71480fc669eed)**  
-*Yahoo · 6h前*  
-Sandisk (SNDK:NASDAQ) shares fell 13. 47% to $1,150.
+- **[Markets Rebound. Elections and Earnings Threaten to Reignite Fears.](https://finnhub.io/api/news?id=19a3a54fffadd292d2ce544025bc4635405550bfeefb96dd86be79dbc8c9bb3a)**  
+*Yahoo · 2h前*  
+Good morning and welcome to a massive week for markets and the wider economy, as midterm elections loom and traders brace for another heavy slate of corporate e…
 
 ---
 
@@ -59,4 +59,4 @@ Sandisk (SNDK:NASDAQ) shares fell 13. 47% to $1,150.
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:05 HKT*
