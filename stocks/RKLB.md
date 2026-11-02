@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[You Can Do Better Than SpaceX: 2 Industrial Stocks to Buy Instead](https://finnhub.io/api/news?id=82dd80997bbfa84e4dbe719f1d591ba824dbafa1dc06cf26a4735fb628a09bae)**  
+*Yahoo · 2h前*  
+SpaceX gets the headlines, but Rocket Lab and Redwire offer other ways to invest in the space boom, with very different valuations and risks.
+
+- **[Rocket Lab’s 64% Collapse Tests Its Space Infrastructure Strategy](https://finnhub.io/api/news?id=cb9f602b7f3eba1201ee362c7ad769c4c368217ca4185fb7367f9ee687fe5bd9)**  
+*Yahoo · 10h前*  
+Rocket Lab has shed nearly two-thirds of its value since May, yet its backlog is growing faster than its revenue and its spacecraft manufacturing already dwarfs…
+
 - **[2 Space Stocks Down More Than 50% That Could Be the Best Buys of Q4](https://finnhub.io/api/news?id=9db9cae643180fa25a20cdc87ff598c48153cf4730222bc21cea79a929b6aa27)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 AST SpaceMobile and Rocket Lab have each lost over 60% from their peaks. Here's how their growth plans, risks, and valuations compare.
-
-- **[Nebex CEO: NASA wants a commercial space economy. Here’s how it can enable one](https://finnhub.io/api/news?id=52cc2cb791cf380ecb8c92f3aef1bae2e1bda0b6b51e5a3710b4f58e2af35698)**  
-*Yahoo · 9h前*  
-NASA has the leverage to build a real space market.
-
-- **[$10,000 in Rocket Lab at Its Record High Is Worth About $3,900 Today. Here's What Gets That Money Back.](https://finnhub.io/api/news?id=4e0b1a4efbbbae1ff375ae7d7411a2a29bea1cd6c63bdc01e285c33d93667ea6)**  
-*Yahoo · 11h前*  
-Rocket Lab has posted big revenue growth, but its stock has still seen a huge pullback.
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab has posted big revenue growth, but its stock has still seen a huge pu
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
