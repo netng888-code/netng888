@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SpaceX Stock Is Nearly 30% Below Its Post-IPO High. Here's What Facebook's Stock Did From the Same Spot.](https://finnhub.io/api/news?id=6b84e4e7c0ff8c9cec2b7ad7b35a348af4e4ece00986fa941a1d085a6e18715d)**  
-*Yahoo · 3h前*  
-The social network's stock spent months about that far below its own high. What finally brought it back?
+- **[Why investors are dumping tech stocks, in one image](https://finnhub.io/api/news?id=121e0ff355e62af8b86fbecf18152a9cae77be7f2daeb031758126775d3d4335)**  
+*Yahoo · 0h前*  
+Tech stocks aren't getting shredded for any old reason. It's actually very fundamental: Free cash flow is drying up for Big Tech leaders, and capex is rising dr…
 
-- **[AI Stocks Are Getting a Reality Check, But Don’t Count the Trade Out Just Yet. Here’s Why.](https://finnhub.io/api/news?id=9af05fe07b887e1f36664d4037cbb7e15f3603af54898753e6f37ce2e3d92b08)**  
-*Yahoo · 7h前*  
-AI stocks have come under pressure amid disappointing September quarter earnings. However, while there are signs of a bubble in the AI space, the trade is not d…
+- **[Meta's AI Spending Push Triggers Negative S&P Outlook](https://finnhub.io/api/news?id=436fec1f10cc32e3c027b06d6b4c7207cd4df1a463fedf6fa404c4f33aa41f8d)**  
+*Yahoo · 0h前*  
+Meta expects annual capital spending of $135 billion to $145 billion.
 
-- **[AppLovin Stock Is Struggling: 3 Things to Watch in Q3 Earnings That Could Get APP Back on Track](https://finnhub.io/api/news?id=b474035ef1b24a712ddfa201479c1b2e0b0b8725458c5b29c3a74bed11b136f2)**  
-*Yahoo · 8h前*  
-AppLovin's 58% plunge may be painful, but its AI advertising engine still has room to drive long-term growth.
+- **[Capital Power reports third quarter 2026 results](https://finnhub.io/api/news?id=f4955fb06654d5a923935178eeddb7bc3aad5d5453b567826bf8bda84aee85d2)**  
+*Yahoo · 1h前*  
+EDMONTON, Alberta, Nov. 02, 2026 (GLOBE NEWSWIRE) -- Capital Power Corporation (TSX: CPX) today released financial results for the quarter ended September 30, 2…
 
 ---
 
@@ -59,4 +59,4 @@ AppLovin's 58% plunge may be painful, but its AI advertising engine still has ro
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
