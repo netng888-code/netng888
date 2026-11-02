@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$54.73** |
-| 今日變動 | ▼ $4.37　(-7.39%) |
+| 現價 | **$52.07** |
+| 今日變動 | ▼ $2.66　(-4.86%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $213　(▼28.0%) |
+| 未實現盈虧 | ▼ $239　(▼31.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $61.67 | — |
-| Put Wall（支撐） | $50.00 | -8.6% |
-| Call Wall（阻力） | $65.00 | +18.8% |
+| Gamma Flip | $59.84 | — |
+| Put Wall（支撐） | $50.00 | -4.0% |
+| Call Wall（阻力） | $60.00 | +15.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[You Can Do Better Than SpaceX: 2 Industrial Stocks to Buy Instead](https://finnhub.io/api/news?id=82dd80997bbfa84e4dbe719f1d591ba824dbafa1dc06cf26a4735fb628a09bae)**  
-*Yahoo · 2h前*  
-SpaceX gets the headlines, but Rocket Lab and Redwire offer other ways to invest in the space boom, with very different valuations and risks.
+- **[MISSION SUCCESS: Rocket Lab Launches 99th Electron Mission](https://finnhub.io/api/news?id=6aa7cb03c372d7d010e93e3dc78b70325b83c34c001f8ad49f0fd88e4c2075c9)**  
+*Yahoo · 4h前*  
+MAHIA, New Zealand, Nov. 02, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in launch services and space systems, today success…
 
-- **[Rocket Lab’s 64% Collapse Tests Its Space Infrastructure Strategy](https://finnhub.io/api/news?id=cb9f602b7f3eba1201ee362c7ad769c4c368217ca4185fb7367f9ee687fe5bd9)**  
-*Yahoo · 10h前*  
-Rocket Lab has shed nearly two-thirds of its value since May, yet its backlog is growing faster than its revenue and its spacecraft manufacturing already dwarfs…
+- **[Rocket Lab (RKLB) Is Emerging As A Key Launch Option For Commercial Stations](https://finnhub.io/api/news?id=3942ac3bb012b399cbea5ef8ae05a8bbad595087de885b0c663e4c3a53089f3d)**  
+*Yahoo · 5h前*  
+Rocket Lab (NasdaqGS:RKLB) is being cited by NASA as a launch option for future commercial space station missions as the ISS approaches retirement. NASA is shif…
 
-- **[2 Space Stocks Down More Than 50% That Could Be the Best Buys of Q4](https://finnhub.io/api/news?id=9db9cae643180fa25a20cdc87ff598c48153cf4730222bc21cea79a929b6aa27)**  
-*Yahoo · 21h前*  
-AST SpaceMobile and Rocket Lab have each lost over 60% from their peaks. Here's how their growth plans, risks, and valuations compare.
+- **[SpaceX Climbs 4% on Reported Boost Mobile Talks; AST SpaceMobile Falls 4%, Rocket Lab Dips](https://finnhub.io/api/news?id=7a10598f1fa3372f5d2e776c214cef59e4d04ece6918acb3afb2d57642570803)**  
+*Yahoo · 7h前*  
+The race to put a satellite company inside Americans’ phone plans picked up speed. SpaceX (NASDAQ:SPCX) stock trades at $140.02, up 4% in early action. The gain…
 
 ---
 
@@ -48,7 +48,7 @@ AST SpaceMobile and Rocket Lab have each lost over 60% from their peaks. Here's 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-02 | 監控 | $54.73 | — | 自動更新 |
+| 2026-11-03 | 監控 | $52.07 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ AST SpaceMobile and Rocket Lab have each lost over 60% from their peaks. Here's 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
