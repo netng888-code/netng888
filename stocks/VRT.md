@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-11-02 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$232.50** |
-| 今日變動 | ▼ $13.42　(-5.46%) |
+| 現價 | **$224.24** |
+| 今日變動 | ▼ $8.26　(-3.55%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $143　(▼23.5%) |
+| 未實現盈虧 | ▼ $159　(▼26.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $232.13 | — |
-| Put Wall（支撐） | $210.00 | -9.7% |
-| Call Wall（阻力） | $250.00 | +7.5% |
+| Gamma Flip | $232.67 | — |
+| Put Wall（支撐） | $200.00 | -10.8% |
+| Call Wall（阻力） | $230.00 | +2.6% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Vertiv (NYSE:VRT) Shows Strong Growth Momentum Across Earnings, Sales, and Cash Flow](https://finnhub.io/api/news?id=955153f3605175327061c29dacb108cd0cff9f608b49d631d3d7b3ab24a8ecbf)**  
-*ChartMill · 2h前*  
-Vertiv (VRT) clears all eight Little Book growth-screen rules, with strong EPS revisions, sales growth, margins, cash flow, and ROE momentum.
+- **[Bernstein names stocks to buy as data centre political risks appear overstated](https://finnhub.io/api/news?id=9afb918f37dd154643d4d828958f7583028a05a569612ad9bd76539ffcfe19c8)**  
+*Yahoo · 1h前*  
+Investing.com -- Bernstein has recommended buying shares of Quanta Services, Eaton, Vertiv and Equinix, among other companies exposed to artificial intelligence…
 
-- **[New Strong Buy Stocks for November 2nd](https://finnhub.io/api/news?id=f59925fbdc9b88a119e1d0fd24d86c9038d16e0643099f44220aef135a6f08e0)**  
-*Yahoo · 2h前*  
-YPF, PBR, BLCO, LFUS and VRT have been added to the Zacks Rank #1 (Strong Buy) List on November 2, 2026.
+- **[Vertiv Holdings Co (VRT) Was Among Clough Capital’s Industrial Detractors in Q3 2026](https://finnhub.io/api/news?id=ffc3dafac3f7438584f5b127450ef9be114583002064e674db3c4b3615d85d30)**  
+*Yahoo · 3h前*  
+Clough Capital Partners L.P., an investment management company, recently released its Q3 2026 investor letter. A copy of the letter can be downloaded here. The …
 
-- **[What Is Behind The Move In nVent Stock?](https://finnhub.io/api/news?id=c6a92f8ca231207881f3fc7f419d95b6aabb9cd590412c0839320b8d2ab440b7)**  
-*Yahoo · 11h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[3 AI Power Stocks to Hold for the Next 10 Years](https://finnhub.io/api/news?id=adcc3217d354a351ce63f2380125fab7612d41514b364d12ca151f92a7085ebb)**  
+*Yahoo · 6h前*  
+AI can't scale without electricity -- here are three power stocks built to profit from the demand over the next decade.
 
 ---
 
@@ -48,7 +48,7 @@ For questions about this article or underlying research, email help@trefis.com.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-02 | 監控 | $232.50 | — | 自動更新 |
+| 2026-11-03 | 監控 | $224.24 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 07:05 HKT*
