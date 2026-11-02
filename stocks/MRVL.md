@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$196.40** |
-| 今日變動 | ▼ $21.94　(-10.05%) |
+| 現價 | **$171.41** |
+| 今日變動 | ▼ $24.99　(-12.72%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $609　(▼23.7%) |
+| 未實現盈虧 | ▼ $859　(▼33.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $238.39 | — |
-| Put Wall（支撐） | $190.00 | -3.3% |
-| Call Wall（阻力） | $220.00 | +12.0% |
+| Gamma Flip | $232.70 | — |
+| Put Wall（支撐） | $170.00 | -0.8% |
+| Call Wall（阻力） | $200.00 | +16.7% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Micron Stock Bounces Back, but the Market Needs More as AI Fears Linger](https://finnhub.io/api/news?id=5b461aace7b9e66b821dc536b5bde07aef840d73e5105afdcfb4ca3732000529)**  
-*Yahoo · 2h前*  
-There wasn’t an obvious catalyst driving shares higher, but they were probably just benefiting from a broader market rebound.
+- **[Stock Market Today: Dow Up, Nasdaq Dives As Seagate Sinks; These Stocks Clear Entries](https://finnhub.io/api/news?id=7cecfc8936b9c71353ec710dcfa5c428a3a3811e9c20e6123d74048381b4e3c2)**  
+*Yahoo · 1h前*  
+Stock Market Today: The Dow Jones index rises but the Nasdaq falls as tech struggles. Amazon pops, but Lumentum and Marvell Technology plunge.
 
-- **[Stock Market Today: Intel’s Worst Day in Four Decades Drags Chips and the Nasdaq to a Rough October Finish](https://finnhub.io/api/news?id=0d242a5bdd68598220ecbb4487968bad8e58473bdcbfe5ae732396b4ffa34819)**  
-*ChartMill · 4h前*  
-Intel lost nearly 29% and dragged chip stocks lower as the Nasdaq had its worst day since June. Oil rose about 15% in October, Treasury yields fell, and Regener…
+- **[Cramer: “All the Copper in Data Centers Will Eventually Be Replaced” by Fiber. Lumentum Wins](https://finnhub.io/api/news?id=f89b451f37468db14f58f2d92b86c2467c975ee01758c6bdea16ee6d6da78922)**  
+*Yahoo · 1h前*  
+Key TakeawaysMarvell agreed today Monday to buy Lumentum in an all-stock deal worth about $115 billion, three days after Jim Cramer said on Mad Money that the d…
 
-- **[Earnings Volatility Watch: 10 Stocks Are Set to Swing More Than 10% This Week](https://finnhub.io/api/news?id=11580ea46adbde2a6243b452b62d658eeaae614850c1595b883ece0ea213f70f)**  
-*Benzinga · 1d前*  
-Ten stocks carry implied earnings moves above 10% next week, led by Moderna and AppLovin. Five are tech names hit in Friday&#39;s chip rout.
+- **[Stocks kick off November lower as AI sell-off hits Tech](https://finnhub.io/api/news?id=40ce51a9480bbed184e2d3240be76aa83bb6449420d848b314d2690b3d90fc47)**  
+*Yahoo · 1h前*  
+Yahoo Finance Markets and Data Editor Jared Blikre breaks down Wall Street's rocky start to November as a continued sell-off in AI-related stocks weighs on the …
 
 ---
 
@@ -48,7 +48,7 @@ Ten stocks carry implied earnings moves above 10% next week, led by Moderna and 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-02 | 監控 | $196.40 | — | 自動更新 |
+| 2026-11-03 | 監控 | $171.41 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Ten stocks carry implied earnings moves above 10% next week, led by Moderna and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
