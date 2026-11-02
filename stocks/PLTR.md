@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$184.11** |
-| 今日變動 | ▼ $12.31　(-6.27%) |
+| 現價 | **$178.34** |
+| 今日變動 | ▼ $5.77　(-3.13%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $341　(▲44.6%) |
+| 未實現盈虧 | ▲ $306　(▲40.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $178.20 | — |
-| Put Wall（支撐） | $160.00 | -13.1% |
-| Call Wall（阻力） | $200.00 | +8.6% |
+| Gamma Flip | $175.12 | — |
+| Put Wall（支撐） | $160.00 | -10.3% |
+| Call Wall（阻力） | $200.00 | +12.1% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir Faces Q3 Earnings Test as Wall Street Splits on Valuation](https://finnhub.io/api/news?id=ba8a836effaf5de8edcc15ef6760333e29ca6a049f81708d567a6bbdc70c4b92)**  
-*Yahoo · 0h前*  
-Wall Street expects Q3 EPS of $0.41 on revenue of $2.18 billion.
-
-- **[Palantir Earnings On Tap. Can Software Maker Buck AI Sell-Off?](https://finnhub.io/api/news?id=fc7ed4d7a505f7cfc60ca597cc192ebfbeb320a73caabde4981f7e6daee28251)**  
+- **[Palantir Earnings Top Views. Revenue Beat Slightly Smaller.](https://finnhub.io/api/news?id=44c84ee0ecb3b0ee1fa2ba04a1702120db9ebfbe6b8772cccab2229b140808d0)**  
 *Yahoo · 1h前*  
-Palantir earnings are due late Monday amid a sell-off in AI stocks. Palantir stock, which rallied on Q2 results, broke key support Friday.
+Palantir stock climbed amid Q3 earnings and revenue that topped consensus estimates. Sales growth accelerated for the 13th straight quarter.
 
-- **[Tech Rebound, Crude Slide Lift Wall Street Pre-Bell; Asia Mixed, Europe Up](https://finnhub.io/api/news?id=cef85ff0937c7ac1cb4d2d41b349f1b8b3d40b853689a124eadd8ab27530af3b)**  
+- **[Palantir raises 2026 revenue outlook after quarterly revenue nearly doubles on AI](https://finnhub.io/api/news?id=0518d88687b161dd6e71a27470a774fc1be41d263e22a1c413f01d12070d88dd)**  
 *Yahoo · 1h前*  
-Wall Street futures pointed moderately higher pre-bell Monday as traders waded back into tech shares
+Investing.com -- Palantir Technologies raised its full-year revenue forecast on Monday after reporting a 96% jump in third-quarter revenue, driven by accelerati…
+
+- **[Palantir Grows Revenue 96% as New Deals Slow: Rapid Earnings Reaction](https://finnhub.io/api/news?id=c90ebdd3234b07b3fbd1bf1767782769525476909d97f3a4adb8ce922bff9d2c)**  
+*Yahoo · 1h前*  
+Palantir's latest quarter showed a business turning rapid growth into heavy profit. Here's what drove it and where the numbers look softer.
 
 ---
 
@@ -48,7 +48,7 @@ Wall Street futures pointed moderately higher pre-bell Monday as traders waded b
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-02 | 監控 | $184.11 | — | 自動更新 |
+| 2026-11-03 | 監控 | $178.34 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street futures pointed moderately higher pre-bell Monday as traders waded b
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 07:05 HKT*
