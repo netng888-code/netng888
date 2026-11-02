@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-02 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-02 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[You Can Do Better Than SpaceX: 2 Industrial Stocks to Buy Instead](https://finnhub.io/api/news?id=82dd80997bbfa84e4dbe719f1d591ba824dbafa1dc06cf26a4735fb628a09bae)**  
+*Yahoo · 2h前*  
+SpaceX gets the headlines, but Rocket Lab and Redwire offer other ways to invest in the space boom, with very different valuations and risks.
+
 - **[Partnership Deal Could Change The Case For Redwire Stock](https://finnhub.io/api/news?id=6ac3d8bd2f955ab698484ec37c11ae18ebb44259f997ada7e4ec8199e039eba7)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Redwire Corporation and EnduroSat recently signed a memorandum of understanding to combine Redwire’s power systems and prime contractor experience with EnduroSa…
 
 - **[Redwire (RDW) Signs EnduroSat Pact, Is It Still 28% Undervalued?](https://finnhub.io/api/news?id=18fa59a43d981c8526464cc31d801adb7fac5b18ba48c59f8a4cb8b94f0b7f23)**  
 *Yahoo · 2d前*  
 Redwire (RDW) has signed a memorandum of understanding with EnduroSat to integrate high-volume European spacecraft production with Redwire power systems and pri…
-
-- **[Sidus Space shares are trading lower after the company announced the pricing of its $58.5 million offering of 13,453,700 shares at $4.35 per share.](https://finnhub.io/api/news?id=580f32351e8390f6987d4de1982cfa2b5a776bac2a1f0c3eb6e2819cdfff01ff)**  
-*Benzinga · 2d前*
 
 ---
 
@@ -58,4 +59,4 @@ Redwire (RDW) has signed a memorandum of understanding with EnduroSat to integra
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-02 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-02 21:04 HKT*
