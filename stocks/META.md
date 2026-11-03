@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$606.73** |
-| 今日變動 | ▼ $8.26　(-1.34%) |
+| 現價 | **$621.03** |
+| 今日變動 | ▲ $14.30　(+2.36%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $1　(▲0.1%) |
+| 未實現盈虧 | ▲ $44　(▲2.4%) |
 
 ---
 
@@ -21,26 +21,26 @@
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
 | Gamma Flip | $612.72 | — |
-| Put Wall（支撐） | $600.00 | -1.1% |
-| Call Wall（阻力） | $750.00 | +23.6% |
+| Put Wall（支撐） | $600.00 | -3.4% |
+| Call Wall（阻力） | $750.00 | +20.8% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Investors Are Fleeing to Apple and Selling NVIDIA and Tesla: Here’s Why It’s the Only Magnificent 7 Stock to Outperform in 2026](https://finnhub.io/api/news?id=426301d63039bc669f09a9a98a08126a7ad9b3600e0efdf9c1ba55783f81ec9f)**  
+- **[Do You Know How Much of Your 401(k) Is Riding on the AI Trade Voters Want Paused?](https://finnhub.io/api/news?id=b82ceb28034c91dd44a7f5f232cfc45fa1846a4b4730aa7bc76ba527d8d050f1)**  
 *Yahoo · 1h前*  
-Apple (Nasdaq: AAOL) is up 27.1% in 2026 while six of the Magnificent Seven stocks ranging from NVIDIA (Nasdaq: NVDA) to Tesla (Nasdaq: TSLA) trail the S&P 500.…
+Picture a married near-retiree with $720,000 of their 401(k) in an S&P 500 index fund. That one fund puts roughly $345,600 into the AI trade without a single st…
 
-- **[Meta Platforms (META) Sees $140.6 Million in Net ETF Buying on Oct. 30](https://finnhub.io/api/news?id=52fbabe8a92f673778aae67296a6724050ee61d5337eedf6e80804506bd52058)**  
-*Yahoo · 2h前*  
-ETFs bought $140.6 million of Meta Platforms stock last Friday, with 48 funds buying and 25 selling.
+- **[AMD Changes the Mood With Big Earnings Beat](https://finnhub.io/api/news?id=518c20ee3cbb23dac66a42c4f9fcf6833dc7dd72916467d70326d6c699c50780)**  
+*Yahoo · 1h前*  
+The chip maker reports better-than-expected earnings for the third quarter and issues strong guidance for the rest of the year.
 
-- **[AMD Will Try to Change the Mood With Earnings](https://finnhub.io/api/news?id=001ce68212311b86ff65f5d2ff26b441ebe1d7c9dd17ec592107060728d2eec2)**  
-*Yahoo · 2h前*  
-Wall Street analysts project the company will have $13 billion in third-quarter sales, rising 42% from last year.
+- **[Nvidia vs. SK Hynix: Comparing Quarterly Revenue Trajectories](https://finnhub.io/api/news?id=218f4c36a3e764fa1f8866a4065c2c13ff3cc2d1e2bc4a90116b57a10d2be746)**  
+*Yahoo · 1h前*  
+SK Hynix's revenue has surged 420% in two years, yet Nvidia still holds a commanding lead -- here's what the gap reveals about their competitive positioning.
 
 ---
 
@@ -48,7 +48,7 @@ Wall Street analysts project the company will have $13 billion in third-quarter 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-03 | 監控 | $606.73 | — | 自動更新 |
+| 2026-11-04 | 監控 | $621.03 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street analysts project the company will have $13 billion in third-quarter 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
