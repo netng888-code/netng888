@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$171.41** |
-| 今日變動 | ▼ $24.99　(-12.72%) |
+| 現價 | **$171.97** |
+| 今日變動 | ▲ $0.56　(+0.33%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $859　(▼33.4%) |
+| 未實現盈虧 | ▼ $853　(▼33.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $232.70 | — |
-| Put Wall（支撐） | $170.00 | -0.8% |
-| Call Wall（阻力） | $200.00 | +16.7% |
+| Gamma Flip | $221.51 | — |
+| Put Wall（支撐） | $170.00 | -1.1% |
+| Call Wall（阻力） | $200.00 | +16.3% |
 
 **狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Social Buzz: Wallstreetbets Stocks Mixed Premarket Tuesday; Intel to Advance, Palantir Technologies to Decline](https://finnhub.io/api/news?id=656455d831b32aeae1ad8d95f20a8bac140eaa18cc8e63e5d6c0b1101c99c0c7)**  
-*Yahoo · 1h前*  
-The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Tuesday's
-
-- **[MRVL Stock Price Target Slashed In Half: ‘Material Headwinds’ After Lumentum Deal, TD Cowen Says In Downgrade](https://finnhub.io/api/news?id=5fdabbf162942e4ba5a81129757e283adbc18f9b6bab02f01de72eb39280912e)**  
-*Yahoo · 1h前*  
-TD Cowen downgraded Marvell to ‘Hold’ from ‘Buy’ and slashed its price target down to $175 from $350.
-
-- **[Want a Tesla-SpaceX Merger? Look at the Marvell-Lumentum Deal.](https://finnhub.io/api/news?id=ea9144d060dd9830095aac17e1e097511a9da6e0b12a73cdb053f8c1f4998434)**  
+- **[Fabrinet Lost 32% in a Month. Barclays Sees 58% Upside From Here](https://finnhub.io/api/news?id=d1c4cb2e700eeaf8845af3a4c569c82861a7d043b1f90595379f70b40d8b1c52)**  
 *Yahoo · 2h前*  
-With all stock M&A, be careful what you wish for.
+Key TakeawaysFabrinet shares fell 32% in the past month as AI optics stocks, including Coherent, Lumentum and Marvell, sold off on fears about AI funding and hy…
+
+- **[Did The Market Read Cerebras Stock Right?](https://finnhub.io/api/news?id=7a7f53556ad9a08fe67c7ead69fd2f5d77b96602ee7d7f1b6cb3c1b555643ffa)**  
+*Yahoo · 2h前*  
+For questions about this article or underlying research, email help@trefis.com.
+
+- **[Marvell to Acquire Lumentum in Historic $115B Tech Deal](https://finnhub.io/api/news?id=75638c7805549cdb7a033a5344423db553a233499530c9342fa9eaad4b5d806c)**  
+*Yahoo · 2h前*  
+Bloomberg's Liana Baker joins Dani Burger on "Bloomberg Deals." Marvell agreed to buy Lumentum Holdings at an enterprise value of $115 billion, clinching one of…
 
 ---
 
@@ -48,7 +48,7 @@ With all stock M&A, be careful what you wish for.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-03 | 監控 | $171.41 | — | 自動更新 |
+| 2026-11-04 | 監控 | $171.97 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ With all stock M&A, be careful what you wish for.
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
