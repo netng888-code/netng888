@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$436.87** |
-| 今日變動 | ▲ $4.86　(+1.12%) |
+| 現價 | **$440.75** |
+| 今日變動 | ▲ $3.88　(+0.89%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $32　(▼3.6%) |
+| 未實現盈虧 | ▼ $25　(▼2.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $416.74 | — |
-| Put Wall（支撐） | $420.00 | -3.9% |
-| Call Wall（阻力） | $480.00 | +9.9% |
+| Gamma Flip | $417.04 | — |
+| Put Wall（支撐） | $420.00 | -4.7% |
+| Call Wall（阻力） | $480.00 | +8.9% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intuitive Appoints Aaron Martin to its Board of Directors](https://finnhub.io/api/news?id=358b534e0e5e55422b4c9dac3e1001cb58536fee7a84d18cca0db037df337fef)**  
-*Yahoo · 15h前*  
-SUNNYVALE, Calif., Nov. 02, 2026 (GLOBE NEWSWIRE) -- Intuitive (NASDAQ: ISRG), a global technology leader in minimally invasive care and the pioneer of robotic-…
+- **[Intuitive Surgical (ISRG) Stock May Be Near Fair Value On Cash Flow](https://finnhub.io/api/news?id=bd5ae2fbcf65907ad4b3900aecc9c91a629a47a114b31e080e39afb5c413ee7d)**  
+*Yahoo · 6h前*  
+Intuitive Surgical has had a mixed run, with the share price climbing over the past three years but giving back ground more recently. This puts the focus square…
 
-- **[BrightSpring Q3 Earnings Beat on Specialty Growth, '26 View Raised](https://finnhub.io/api/news?id=312cf26bb1721d00e5ce3a3fc89e94f71ca5fda7f81357b9c19bad45d31fc78f)**  
-*Yahoo · 19h前*  
-BTSG's Q3 2026 earnings surge 80% as strong pharmacy and home health growth fuel a revenue beat, margin expansion and higher full-year guidance.
+- **[RVTY Q3 Earnings Beat Estimates on Life Sciences Strength, '26 View Up](https://finnhub.io/api/news?id=78a517859e6bc312df52cbe68104f6f7673d0e5e4186214b96b7928b8c6650d7)**  
+*Yahoo · 7h前*  
+Revvity's Q3 2026 earnings and revenues beat estimates, fueled by Life Sciences growth and margin expansion, prompting an upward revision to its annual outlook.
 
-- **[BD Launches Liverty TIPS Stent Graft to Expand U.S. Treatment](https://finnhub.io/api/news?id=ae922aa56ea11dab7fdc402c73f4395b94993d07b8e25bab050580051f0e0eb7)**  
-*Yahoo · 19h前*  
-BDX launches its Liverty TIPS Stent Graft in the United States, offering greater precision and flexibility in portal hypertension treatment.
+- **[DexCom to Launch 15-Day G7 CGM System in Canada This November](https://finnhub.io/api/news?id=347869f2b0c17e14f41787d6c08f85e85e9d39be3da092cfc458a3384d106b36)**  
+*Yahoo · 7h前*  
+DXCM's upcoming Canadian launch of the G7 15 Day CGM, offering longer sensor wear and improved convenience, could boost international growth and patient access.
 
 ---
 
@@ -48,7 +48,7 @@ BDX launches its Liverty TIPS Stent Graft in the United States, offering greater
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-03 | 監控 | $436.87 | — | 自動更新 |
+| 2026-11-04 | 監控 | $440.75 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ BDX launches its Liverty TIPS Stent Graft in the United States, offering greater
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 07:05 HKT*
