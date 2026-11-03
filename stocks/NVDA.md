@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $203.29 | — |
+| Gamma Flip | $203.20 | — |
 | Put Wall（支撐） | $200.00 | -1.0% |
 | Call Wall（阻力） | $210.00 | +3.9% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Flashes Sell Signals As Earnings Loom; Is Nvidia A Buy Now?](https://finnhub.io/api/news?id=13dbf8ab3af692103a08b63ac90c7a1f22ab33524811ba09eb5c7948157c7bda)**  
+- **[The S&P 500's Record Profits Are Hiding a Problem Investors Haven't Seen Before](https://finnhub.io/api/news?id=175b1597375433c9a018ce8544a3ed1f998769edc28d68fe0a72e4af9d5e9a1f)**  
 *Yahoo · 1h前*  
-Nvidia stock fell below its 200-day moving average as of Monday. The AI chip titan has scheduled its third-quarter results for Nov. 17.
+Companies are recognizing revenue now. But the costs are only likely to start showing up in the years ahead.
 
-- **[Advanced Energy Doubles Its Operating Margin: Rapid Earnings Reaction](https://finnhub.io/api/news?id=8c98378ea6deefe3960cc0e225c29178c1cff603d4a945795c1a33ced3fdd1fd)**  
+- **[Nvidia Reportedly Restricts Chinese Access to AI Computing Through Overseas Data Centers](https://finnhub.io/api/news?id=6570864bdef8cc8ed20886932a14d100eb87517ef02e5f878b126205a7af43fa)**  
 *Yahoo · 1h前*  
-The power-systems supplier is riding the AI buildout and turning it into real profit. Here's what's driving the margin gains and the one number that deserves a …
+Nvidia (NASDAQ:NVDA) has reportedly instructed its data center partners to reduce their exposure to Chinese customers, introducing new requirements that could m…
 
-- **[Information Services Group, Inc. Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=c4a7cee6117571a460c384983be1c381ab9e2ae790e481fc1d14ea52a4c47716)**  
+- **[Prediction: Rigetti Computing Stock Is Going to Sink After Nov. 10](https://finnhub.io/api/news?id=55ed22c0dcac399a1ba3adb13b1e84ceb79a3dff55c49785620f434eaf1197be)**  
 *Yahoo · 1h前*  
-Moby summary of Information Services Group, Inc.'s Q3 2026 earnings call
+Meaningful revenue from quantum computers could be many years away.
 
 ---
 
@@ -59,4 +59,4 @@ Moby summary of Information Services Group, Inc.'s Q3 2026 earnings call
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
