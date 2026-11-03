@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-11-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$6.86** |
-| 今日變動 | ▼ $0.43　(-5.90%) |
+| 現價 | **$8.12** |
+| 今日變動 | ▲ $1.26　(+18.37%) |
 | 持倉數量 | 100 股 |
 | 平均成本 | $10.000 |
-| 未實現盈虧 | ▼ $314　(▼31.4%) |
+| 未實現盈虧 | ▼ $188　(▼18.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $7.11 | — |
-| Put Wall（支撐） | $6.00 | -12.5% |
-| Call Wall（阻力） | $10.00 | +45.8% |
+| Gamma Flip | $6.82 | — |
+| Put Wall（支撐） | $8.00 | -1.5% |
+| Call Wall（阻力） | $10.00 | +23.2% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Cipher Digital Inc (CIFR) (Q3 2026) Earnings Call Highlights: $16. ...](https://finnhub.io/api/news?id=e4d35d76d38912acf9eee37f2a2a3e9a340fff7e73d3a6a7271d9d79bb531e14)**  
-*Yahoo · 10h前*  
-Cipher Digital Inc (CIFR) swung to $32 million GAAP net income on its first HPC lease revenue while locking in $16.6 billion of contracted revenue across three …
+- **[Cipher Digital Analysts Cut Their Forecasts After Q3 Results](https://finnhub.io/api/news?id=94c459b6bf41d659adadf785705623724742fe378443e41a81d6d44412fb8a2b)**  
+*Benzinga · 13h前*  
+Cipher Digital&#39;s Q3 revenue fell 62.8% to $26.7M, missing estimates; EPS loss matched forecasts. Analysts cut targets, shares rose 5%.
 
-- **[Did Cipher Digital Just Turn It Around? KBW Sees 50% Upside](https://finnhub.io/api/news?id=c731b440bcdfdaa6c52621e4c48a96d194ecd5c807aaa41ca639e427822772b7)**  
-*Yahoo · 14h前*  
-In this clip, Will from Blockspace discusses with Charlie about a recent banking report from KBW on why Cipher Digital could rebound, despite its short term str…
+- **[Rosenblatt Maintains Buy on Cipher Digital, Lowers Price Target to $19](https://finnhub.io/api/news?id=f06cc9bbd511fe23724622a14da44e3779b9879d806ca304741b367421903843)**  
+*Benzinga · 14h前*  
+Rosenblatt  analyst Chris Brendler   maintains Cipher Digital (NASDAQ:CIFR) with a Buy and lowers the price target from $30 to $19.
 
-- **[Will US Elections Gut AI Stocks? Plus, Cipher Digital’s Earnings & SpaceX’s Lawsuit](https://finnhub.io/api/news?id=8600e7583cd8e089f9dc9ccf776f8f8175798fd41883ab9707246bb4fba045e7)**  
-*Yahoo · 14h前*  
-Can AI stocks fall any further? We might find out after the US elections conclude, with big implications for data center stocks. Plus, a review of Cipher's earn…
+- **[Cantor Fitzgerald Maintains Overweight on Cipher Digital, Lowers Price Target to $15](https://finnhub.io/api/news?id=5efc3aab48b4b42f3cacd1ec731436718359882b7ffe3d4ef0df59de2e6aa050)**  
+*Benzinga · 15h前*  
+Cantor Fitzgerald  analyst Brett Knoblauch   maintains Cipher Digital (NASDAQ:CIFR) with a Overweight and lowers the price target from $19 to $15.
 
 ---
 
@@ -48,7 +48,7 @@ Can AI stocks fall any further? We might find out after the US elections conclud
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-03 | 監控 | $6.86 | — | 自動更新 |
+| 2026-11-04 | 監控 | $8.12 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Can AI stocks fall any further? We might find out after the US elections conclud
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 07:05 HKT*
