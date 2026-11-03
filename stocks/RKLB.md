@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[MISSION SUCCESS: Rocket Lab Launches 99th Electron Mission](https://finnhub.io/api/news?id=6aa7cb03c372d7d010e93e3dc78b70325b83c34c001f8ad49f0fd88e4c2075c9)**  
-*Yahoo · 4h前*  
-MAHIA, New Zealand, Nov. 02, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in launch services and space systems, today success…
+- **[The 10-Year Treasury Eased to 4.9%. Here's Why Oklo, Archer, and Rocket Lab All Got Crushed -- and Which One I'd Buy Anyway.](https://finnhub.io/api/news?id=4dfaa12d77729dd621f8b16837597a4438ebc363dc61beca3a2fa7ad12bbf95d)**  
+*Yahoo · 1h前*  
+Rising Treasury yields were bad news for many companies.
 
-- **[Rocket Lab (RKLB) Is Emerging As A Key Launch Option For Commercial Stations](https://finnhub.io/api/news?id=3942ac3bb012b399cbea5ef8ae05a8bbad595087de885b0c663e4c3a53089f3d)**  
-*Yahoo · 5h前*  
-Rocket Lab (NasdaqGS:RKLB) is being cited by NASA as a launch option for future commercial space station missions as the ISS approaches retirement. NASA is shif…
+- **[RKLB’s Iridium Deal Draws Heat As Globalstar Echoes SpaceX Concerns — Rocket Lab Seeks Fast FCC Approval](https://finnhub.io/api/news?id=2775421af30557aa76027f2216b9204c93643ba0db74eef8964fcfe025c2cfbe)**  
+*Yahoo · 6h前*  
+Globalstar warned that Rocket Lab’s supplier relationship could give it an incentive to favor Iridium at Globalstar’s expense.
 
-- **[SpaceX Climbs 4% on Reported Boost Mobile Talks; AST SpaceMobile Falls 4%, Rocket Lab Dips](https://finnhub.io/api/news?id=7a10598f1fa3372f5d2e776c214cef59e4d04ece6918acb3afb2d57642570803)**  
-*Yahoo · 7h前*  
-The race to put a satellite company inside Americans’ phone plans picked up speed. SpaceX (NASDAQ:SPCX) stock trades at $140.02, up 4% in early action. The gain…
+- **[RKLB Stock Rises Overnight Despite CFO’s $7.7M Sale Plan — This Analyst Sticks To $90 Target Even Amid Neutron Setback](https://finnhub.io/api/news?id=5b39dc0c540a1a86cadd13105ef05b5e1a203e707d1947aeaeed420043dc7a51)**  
+*Yahoo · 10h前*  
+Citizens expects Neutron’s debut in late fiscal second-quarter 2027 but says the delay leaves its investment case intact.
 
 ---
 
@@ -59,4 +59,4 @@ The race to put a satellite company inside Americans’ phone plans picked up sp
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
