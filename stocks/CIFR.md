@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-11-03 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Cipher Digital Inc. 2026 Q3 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=7c06a6a530f35cd11c86a8609c0a4e719c8bdb76d1ebaf44c48245a5c2401382)**  
-*SeekingAlpha · 9h前*  
-2026-11-02. The following slide deck was published by Cipher Digital Inc.
-
-- **[Cipher Digital Inc. (CIFR) Q3 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=2e576ad340386a5890a03d00bedeb33a587c0fdfd3198b19cfdb543de236a6db)**  
-*SeekingAlpha · 10h前*
-
-- **[CIFR Stock Gets Biggest Price-Target Cut In Sector-Wide Reset Amid Keefe Bruyette’s AI Hosting Valuation Concerns](https://finnhub.io/api/news?id=918737153f1daa9acecd01032f4eedb72758a41681e64ec9784bfb790222f645)**  
+- **[Cipher Digital Inc (CIFR) (Q3 2026) Earnings Call Highlights: $16. ...](https://finnhub.io/api/news?id=e4d35d76d38912acf9eee37f2a2a3e9a340fff7e73d3a6a7271d9d79bb531e14)**  
 *Yahoo · 10h前*  
-Keefe Bruyette lowered price targets on seven bitcoin miners and AI hosting companies on Monday.
+Cipher Digital Inc (CIFR) swung to $32 million GAAP net income on its first HPC lease revenue while locking in $16.6 billion of contracted revenue across three …
+
+- **[Did Cipher Digital Just Turn It Around? KBW Sees 50% Upside](https://finnhub.io/api/news?id=c731b440bcdfdaa6c52621e4c48a96d194ecd5c807aaa41ca639e427822772b7)**  
+*Yahoo · 14h前*  
+In this clip, Will from Blockspace discusses with Charlie about a recent banking report from KBW on why Cipher Digital could rebound, despite its short term str…
+
+- **[Will US Elections Gut AI Stocks? Plus, Cipher Digital’s Earnings & SpaceX’s Lawsuit](https://finnhub.io/api/news?id=8600e7583cd8e089f9dc9ccf776f8f8175798fd41883ab9707246bb4fba045e7)**  
+*Yahoo · 14h前*  
+Can AI stocks fall any further? We might find out after the US elections conclude, with big implications for data center stocks. Plus, a review of Cipher's earn…
 
 ---
 
@@ -58,4 +59,4 @@ Keefe Bruyette lowered price targets on seven bitcoin miners and AI hosting comp
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:05 HKT*
