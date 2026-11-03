@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-03 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Intuitive Appoints Aaron Martin to its Board of Directors](https://finnhub.io/api/news?id=358b534e0e5e55422b4c9dac3e1001cb58536fee7a84d18cca0db037df337fef)**  
-*Yahoo · 1h前*  
+*Yahoo · 15h前*  
 SUNNYVALE, Calif., Nov. 02, 2026 (GLOBE NEWSWIRE) -- Intuitive (NASDAQ: ISRG), a global technology leader in minimally invasive care and the pioneer of robotic-…
 
 - **[BrightSpring Q3 Earnings Beat on Specialty Growth, '26 View Raised](https://finnhub.io/api/news?id=312cf26bb1721d00e5ce3a3fc89e94f71ca5fda7f81357b9c19bad45d31fc78f)**  
-*Yahoo · 5h前*  
+*Yahoo · 19h前*  
 BTSG's Q3 2026 earnings surge 80% as strong pharmacy and home health growth fuel a revenue beat, margin expansion and higher full-year guidance.
 
 - **[BD Launches Liverty TIPS Stent Graft to Expand U.S. Treatment](https://finnhub.io/api/news?id=ae922aa56ea11dab7fdc402c73f4395b94993d07b8e25bab050580051f0e0eb7)**  
-*Yahoo · 5h前*  
+*Yahoo · 19h前*  
 BDX launches its Liverty TIPS Stent Graft in the United States, offering greater precision and flexibility in portal hypertension treatment.
 
 ---
@@ -59,4 +59,4 @@ BDX launches its Liverty TIPS Stent Graft in the United States, offering greater
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:05 HKT*
