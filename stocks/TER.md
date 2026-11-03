@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$261.01** |
-| 今日變動 | ▼ $13.36　(-4.87%) |
+| 現價 | **$269.35** |
+| 今日變動 | ▲ $8.34　(+3.20%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $845　(▲183.7%) |
+| 未實現盈虧 | ▲ $887　(▲192.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $145.20 | — |
-| Put Wall（支撐） | $260.00 | -0.4% |
-| Call Wall（阻力） | $270.00 | +3.4% |
+| Gamma Flip | $367.91 | — |
+| Put Wall（支撐） | $260.00 | -3.5% |
+| Call Wall（阻力） | $270.00 | +0.2% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Cathie Wood Dumps $32.6 Million of AMD Stock Ahead of Earnings](https://finnhub.io/api/news?id=1f88d6f926ed0ec0dad3f1c60973288d847f1764a6c0585442d26c71e03727f5)**  
-*Yahoo · 1h前*  
-Cathie Wood Cashes Out $32.6 Million of Surging AMD Stock
+- **[Teradyne Lost 17% in a Week. UBS Still Sees 61% Upside](https://finnhub.io/api/news?id=b283bbb08d320558fc511432a883035f561fe31a7073b52308d66bfa8dac0a08)**  
+*Yahoo · 2h前*  
+Key TakeawaysTeradyne stock fell 17% in a week despite a third quarter that beat estimates, with revenue up 70% to $1. 31 billion.
 
-- **[Cathie Wood Makes Major Shift After Big Tech Gains](https://finnhub.io/api/news?id=9aa524d27bb2de01af5b77da7c2d74c0ecb33bf7c3b0151da8e72138ad309b2a)**  
-*Yahoo · 18h前*  
-ARK loaded Teradyne and AeroVironment while trimming AMD, TSMC and Eli Lilly.
+- **[Teradyne (TER) is an Incredible Growth Stock: 3 Reasons Why](https://finnhub.io/api/news?id=4f32c9d264cae8425401bf7894bd962db1d1d7e352d73b380f7353a90b97214f)**  
+*Yahoo · 6h前*  
+Teradyne (TER) possesses solid growth attributes, which could help it handily outperform the market.
 
-- **[Down 38.9% in 4 Weeks, Here's Why You Should You Buy the Dip in Teradyne (TER)](https://finnhub.io/api/news?id=9913719fbf1a0c5c596942db982f7f6bff4013e05736f69ea2a8500241da205e)**  
-*Yahoo · 23h前*  
-The heavy selling pressure might have exhausted for Teradyne (TER) as it is technically in oversold territory now. In addition to this technical measure, strong…
+- **[FLEX or TER: Which Is the Better Value Stock Right Now?](https://finnhub.io/api/news?id=911b78c07a0bcc33c84612162e9a737105f4883c2875ea216d83730ebbc2f4f8)**  
+*Yahoo · 7h前*  
+FLEX vs. TER: Which Stock Is the Better Value Option?
 
 ---
 
@@ -48,7 +48,7 @@ The heavy selling pressure might have exhausted for Teradyne (TER) as it is tech
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-03 | 監控 | $261.01 | — | 自動更新 |
+| 2026-11-04 | 監控 | $269.35 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The heavy selling pressure might have exhausted for Teradyne (TER) as it is tech
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
