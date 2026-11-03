@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-03 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stocks kick off November lower as AI sell-off hits Tech](https://finnhub.io/api/news?id=40ce51a9480bbed184e2d3240be76aa83bb6449420d848b314d2690b3d90fc47)**  
+- **[Social Buzz: Wallstreetbets Stocks Mixed Premarket Tuesday; Intel to Advance, Palantir Technologies to Decline](https://finnhub.io/api/news?id=656455d831b32aeae1ad8d95f20a8bac140eaa18cc8e63e5d6c0b1101c99c0c7)**  
 *Yahoo · 1h前*  
-Yahoo Finance Markets and Data Editor Jared Blikre breaks down Wall Street's rocky start to November as a continued sell-off in AI-related stocks weighs on the …
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Tuesday's
 
-- **[The Intel stock collapse is getting worse — and the $3.7 trillion chip rout is spreading](https://finnhub.io/api/news?id=e044dd3dafb7cbb4d8553a2ccad1270fb8186b5d36f8c53eda58a65c4a8ea14d)**  
-*Yahoo · 2h前*  
-Intel's slide spread through memory and storage stocks Monday as most of Wall Street moved on from last week's tech sell-off.
+- **[Apple earnings beat expectations, but rising chip costs worry investors](https://finnhub.io/api/news?id=fe05defd490e575be45867c8a7a4bdb68cd2edd832b9498f308a1b47439d4a63)**  
+*Yahoo · 1h前*  
+Better-than-expected results from Apple for the last quarter of the company’s fiscal year 2026 were overshadowed by rising memory chip costs and a forecast for …
 
-- **[Dell Technologies vs. Intel: Which Technology Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=461b2211e5ff9bdf89592c28060ab0f6c402f0e6eae12b26cea8cdbbb02c0b6e)**  
-*Yahoo · 3h前*  
-Dell's free cash flow engine contrasts sharply with Intel's negative cash burn, reshaping how investors should weigh growth against restructuring risk.
+- **[iShares A.I. Innovation ETF (BAI) Adds Twist and Entegris on Friday](https://finnhub.io/api/news?id=d83a9ed7857c356f7295200df97867fbc844ebee796b459f35d66837332c3892)**  
+*Yahoo · 1h前*  
+The fund bought $39.8 million of Twist Bioscience and $37.6 million of Entegris while selling $114.0 million of Intel, with net sales of $174.1 million.
 
 ---
 
@@ -59,4 +59,4 @@ Dell's free cash flow engine contrasts sharply with Intel's negative cash burn, 
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:05 HKT*
