@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-11-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$224.24** |
-| 今日變動 | ▼ $8.26　(-3.55%) |
+| 現價 | **$235.97** |
+| 今日變動 | ▲ $11.73　(+5.23%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $159　(▼26.2%) |
+| 未實現盈虧 | ▼ $136　(▼22.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $232.67 | — |
-| Put Wall（支撐） | $200.00 | -10.8% |
-| Call Wall（阻力） | $230.00 | +2.6% |
+| Gamma Flip | $232.42 | — |
+| Put Wall（支撐） | $210.00 | -11.0% |
+| Call Wall（阻力） | $250.00 | +5.9% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What Vanguard U.S. Momentum Factor ETF (VFMO) Sold: Vertiv Leads on Oct. 30](https://finnhub.io/api/news?id=84b6d97de8243c6173f82d2cb96631d330ce944ab32d8b2907a967ea0d0ab8a9)**  
-*Yahoo · 1h前*  
-The fund sold $196.0 million of stock on Friday, cutting 115 positions and adding none.
+- **[Eaton Just Dropped 16% in a Month. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=93fcd4d8f0385f2d7ae8774b30141a77e90cfef2b437d1430a6501caaf7b7e13)**  
+*Yahoo · 4h前*  
+Key TakeawaysEaton stock fell 16% in the past month as AI-power stocks sold off, and GE Vernova and Vertiv fell too. The worst drop came after Meta raised its 2…
 
-- **[Vertiv Soars 12% in a Week: “The More Technology Changes, the Better It Is for Us”](https://finnhub.io/api/news?id=4f390a9550b03c5161b2a999be3478aa7709a633a8c7d7e8604314c0f087ef9b)**  
-*Yahoo · 10h前*  
-Key TakeawaysVertiv shares rose 12% in the past week after its orders more than doubled and it raised its 2026 guidance. Its $1.
+- **[Vistra Gains 5% as Talen Guides 2027 EBITDA Up 26% on “Strong PJM Fundamentals”](https://finnhub.io/api/news?id=2c2730ef9e22b9d9da5b6da093b7399626baf2c6d27a83df180a949663c8d375)**  
+*Yahoo · 6h前*  
+Key TakeawaysVistra gained 5% today after Talen Energy guided 2027 adjusted EBITDA about 26% higher on PJM demand. Constellation Energy rose on the same news, a…
 
-- **[Vertiv: AI Panic Creates Golden Buying Opportunity (Rating Upgrade)](https://finnhub.io/api/news?id=62cb7b924f77ae0b2b2608cb7be78fb821c349644628db6e1baea306c70c2cd8)**  
-*SeekingAlpha · 14h前*  
-Vertiv remains a concentrated play on North American data center buildouts, with 88% of revenue from the region. Read why VRT stock is a Strong Buy.
+- **[Oracle Rebounds 5% as $20 Billion Raise Prices: Baird Says It’s “Exactly What They Previewed”](https://finnhub.io/api/news?id=5a1f4e3980f7abff023b6238b95ef68d743d567366ba52a80caaae43d5ec0b71)**  
+*Yahoo · 6h前*  
+Key TakeawaysOracle shares rose 5% after pricing the $20 billion stock and bond sale its own cap allowed through fiscal 2030. About 86 million new shares and $1…
 
 ---
 
@@ -48,7 +48,7 @@ Vertiv remains a concentrated play on North American data center buildouts, with
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-03 | 監控 | $224.24 | — | 自動更新 |
+| 2026-11-04 | 監控 | $235.97 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Vertiv remains a concentrated play on North American data center buildouts, with
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 07:05 HKT*
