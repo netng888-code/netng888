@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[Centrus Spent $116 Million on a Supplier With Oil and Gas Customers. Here's the Nuclear Reason Why.](https://finnhub.io/api/news?id=1fa34a44d465b33d31f43ff8337decc8743d68f04c099a9dd9290290498fda9d)**  
+*Yahoo · 22h前*  
+Centrus Energy's recent acquisition boosts its nuclear supply chain and diversifies earnings.
+
 - **[Zacks Industry Outlook Highlights Southern Copper, Freeport-McMoRan, First Quantum Minerals, Lundin Mining and Centrus Energy](https://finnhub.io/api/news?id=589628f6041bdc6e0c85795cffd69a1a21d6866afe3b3a44ec7d00520809e546)**  
-*Yahoo · 13h前*  
+*Yahoo · 1d前*  
 SCCO, FCX, FQVLF, LUNMF and LEU offer growth opportunities amid metal price volatility, rising production costs and supply challenges, supported by energy-trans…
 
 - **[Centrus Energy Consensus Price Target Decreased by 13.62% to $205.19](https://finnhub.io/api/news?id=3ac089a5c27deed7134c33effb3d9abee97fd476c49c44a4f2fa8c7437f6ed23)**  
-*Fintel · 18h前*
-
-- **[What Is Behind The Move In Cameco Stock?](https://finnhub.io/api/news?id=75ab6163e501c7d797a4f9b2fecbf02c8dbe9b2ac39fa4f72e90a9da545ff52e)**  
-*Yahoo · 21h前*  
-For questions about this article or underlying research, email help@trefis.com.
+*Fintel · 1d前*
 
 ---
 
@@ -58,4 +58,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
