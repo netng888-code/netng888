@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[You Can Do Better Than SpaceX: 2 Industrial Stocks to Buy Instead](https://finnhub.io/api/news?id=82dd80997bbfa84e4dbe719f1d591ba824dbafa1dc06cf26a4735fb628a09bae)**  
-*Yahoo · 12h前*  
+*Yahoo · 1d前*  
 SpaceX gets the headlines, but Rocket Lab and Redwire offer other ways to invest in the space boom, with very different valuations and risks.
 
 - **[Redwire In Play Ahead of Earnings: Here’s What Investors Need to Know](https://finnhub.io/api/news?id=f3cbf6171919a95fa3ff4b9f2a0952fc449bc19640df9a21098b0b8518ee6eaf)**  
-*Benzinga · 13h前*  
+*Benzinga · 1d前*  
 Redwire shares are in the spotlight Monday ahead of earnings, with backlog growth, gross margins and improving technical momentum in focus.
 
 - **[Partnership Deal Could Change The Case For Redwire Stock](https://finnhub.io/api/news?id=6ac3d8bd2f955ab698484ec37c11ae18ebb44259f997ada7e4ec8199e039eba7)**  
-*Yahoo · 2d前*  
+*Yahoo · 3d前*  
 Redwire Corporation and EnduroSat recently signed a memorandum of understanding to combine Redwire’s power systems and prime contractor experience with EnduroSa…
 
 ---
@@ -59,4 +59,4 @@ Redwire Corporation and EnduroSat recently signed a memorandum of understanding 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
