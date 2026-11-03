@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $346.50 | — |
+| Gamma Flip | $350.23 | — |
 | Put Wall（支撐） | $300.00 | -6.9% |
 | Call Wall（阻力） | $350.00 | +8.6% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[This Earnings Season’s Biggest Beats Are Coming From Outside Tech](https://finnhub.io/api/news?id=0e43fd5977b3d173f6efc9e11bc2ced6b7f233b42cc71a94a3b0ad2d05ef8584)**  
-*Yahoo · 2h前*  
-Energy, utilities and industrials are delivering bigger earnings surprises as technology stocks struggle to exceed expectations.
+- **[SPDR Portfolio S&P 500 Growth ETF (SPYG) Sells NVIDIA and Microsoft on Oct. 30](https://finnhub.io/api/news?id=b3720e242c272da4454fac2626f7a2329a1cee52decf03fa3c8ae6882ff78e47)**  
+*Yahoo · 1h前*  
+The fund sold $180.5 million of stock and bought nothing, cutting all 152 of its positions.
 
-- **[Why Free Cash Flow Matters More Than Ever: 5 Tech Stocks to Watch](https://finnhub.io/api/news?id=d306d763b0bd297c81bc4d46a061e3d2778c8e7af7b57a23c72dbe61260695d2)**  
-*Yahoo · 3h前*  
-Free cash flow (FCF) is becoming one of the most important metrics for evaluating technology stocks heading into 2027.
+- **[What iShares S&P 500 Growth ETF (IVW) Sold: NVIDIA Leads on Oct. 30](https://finnhub.io/api/news?id=02bc171c7e8ecd2881a2435a569c44b8d253e0bf7afeeb3d48fe011c3e285f8d)**  
+*Yahoo · 1h前*  
+The fund cut 151 positions and bought none, with $335.6 million in gross trading and a net outflow of $335.6 million.
 
-- **[Active Fund Managers Staged a Big Comeback. Can It Last?](https://finnhub.io/api/news?id=7d414e07a302bc95fc9016a7968a59fbfdb8881f8176b852a038cd5bd195a1b1)**  
-*Yahoo · 4h前*  
-The recent tech selloff serves a reminder that stockpickers can shine when concentrated indexes like the S&P 500 are pulling back.
+- **[iShares PHLX SOX Semiconductor (SOXX) Adds AMD and NVDA on Oct. 30](https://finnhub.io/api/news?id=a31d7e4010c446f9c0820854ba5dfe537232c35274276b21c33a7093e4a47bdd)**  
+*Yahoo · 1h前*  
+The fund bought $973.8 million of stock, adding to all 29 of its increased positions and selling nothing.
 
 ---
 
@@ -59,4 +59,4 @@ The recent tech selloff serves a reminder that stockpickers can shine when conce
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
