@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-11-03 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Bernstein names stocks to buy as data centre political risks appear overstated](https://finnhub.io/api/news?id=9afb918f37dd154643d4d828958f7583028a05a569612ad9bd76539ffcfe19c8)**  
+- **[What Vanguard U.S. Momentum Factor ETF (VFMO) Sold: Vertiv Leads on Oct. 30](https://finnhub.io/api/news?id=84b6d97de8243c6173f82d2cb96631d330ce944ab32d8b2907a967ea0d0ab8a9)**  
 *Yahoo · 1h前*  
-Investing.com -- Bernstein has recommended buying shares of Quanta Services, Eaton, Vertiv and Equinix, among other companies exposed to artificial intelligence…
+The fund sold $196.0 million of stock on Friday, cutting 115 positions and adding none.
 
-- **[Vertiv Holdings Co (VRT) Was Among Clough Capital’s Industrial Detractors in Q3 2026](https://finnhub.io/api/news?id=ffc3dafac3f7438584f5b127450ef9be114583002064e674db3c4b3615d85d30)**  
-*Yahoo · 3h前*  
-Clough Capital Partners L.P., an investment management company, recently released its Q3 2026 investor letter. A copy of the letter can be downloaded here. The …
+- **[Vertiv Soars 12% in a Week: “The More Technology Changes, the Better It Is for Us”](https://finnhub.io/api/news?id=4f390a9550b03c5161b2a999be3478aa7709a633a8c7d7e8604314c0f087ef9b)**  
+*Yahoo · 10h前*  
+Key TakeawaysVertiv shares rose 12% in the past week after its orders more than doubled and it raised its 2026 guidance. Its $1.
 
-- **[3 AI Power Stocks to Hold for the Next 10 Years](https://finnhub.io/api/news?id=adcc3217d354a351ce63f2380125fab7612d41514b364d12ca151f92a7085ebb)**  
-*Yahoo · 6h前*  
-AI can't scale without electricity -- here are three power stocks built to profit from the demand over the next decade.
+- **[Vertiv: AI Panic Creates Golden Buying Opportunity (Rating Upgrade)](https://finnhub.io/api/news?id=62cb7b924f77ae0b2b2608cb7be78fb821c349644628db6e1baea306c70c2cd8)**  
+*SeekingAlpha · 14h前*  
+Vertiv remains a concentrated play on North American data center buildouts, with 88% of revenue from the region. Read why VRT stock is a Strong Buy.
 
 ---
 
@@ -59,4 +59,4 @@ AI can't scale without electricity -- here are three power stocks built to profi
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:05 HKT*
