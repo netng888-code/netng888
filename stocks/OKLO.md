@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[X-Energy Has Amazon as an Anchor Customer and Went Public in April. Is It a Better SMR Stock Than Oklo?](https://finnhub.io/api/news?id=a42bcef9535bb0a150bb31b70cf4cf16c12c1fa532f7624ead8be8e5c3e1dc24)**  
+*Yahoo · 21h前*  
+Amazon's big bet on X-Energy could give this nuclear IPO stock a crucial advantage over rival Oklo.
+
+- **[Here's How to Play NuScale Stock Before Q3 Earnings Release](https://finnhub.io/api/news?id=824dbddd1e75d0be8b3e14296a94d80d1542885a93f7104cfc8b77fbb6515f59)**  
+*Yahoo · 23h前*  
+As SMR gears up to report third-quarter earnings, let's find out how the expectations stack up. Also, learn how to play the stock ahead of results.
+
 - **[NuScale Just Dropped 39% in a Month, Oklo 33%. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=433f625fa981d387ebe316dc17b7af3cb74affa74d1fb44e8cac74ee21668577)**  
 *Yahoo · 1d前*  
 Key TakeawaysNuScale Power (SMR) fell 39% in the month through October 22, closing at $5. 38, while Oklo (OKLO) declined 33% and the Nasdaq 100 lost 6%.
-
-- **[NextEra Energy Heads These 3 Nuclear Stocks To Watch](https://finnhub.io/api/news?id=3b99d146a00f089651a2e7b367b1d961b39361abb860d1e90afd35c1c5ae7e4b)**  
-*Yahoo · 1d前*  
-South Korea’s exports nearly doubled in October, with semiconductor shipments playing a big role. That surge highlights how hungry the world is for reliable ele…
-
-- **[Nuclear Stocks Have Crashed 35% to 88% From Their Highs. Here's What $1,000 in Each of These 5 Could Be Worth by 2030.](https://finnhub.io/api/news?id=df2733b85996473e4277c5417adc06eacdd7aa921fbd37e5ebcca6f4f014142e)**  
-*Yahoo · 1d前*  
-Building industrial power for artificial intelligence is going to require nuclear energy, and these stocks may be able to deliver it.
 
 ---
 
@@ -59,4 +59,4 @@ Building industrial power for artificial intelligence is going to require nuclea
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
