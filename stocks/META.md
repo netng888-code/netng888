@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $613.41 | — |
+| Gamma Flip | $612.72 | — |
 | Put Wall（支撐） | $600.00 | -1.1% |
 | Call Wall（阻力） | $750.00 | +23.6% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Constellation Energy vs. NextEra Energy: Which Utilities Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=c4ec679f6db9beccdf6172a976420812da1c10b9dbf5f9a61aebb65f4c57f9a5)**  
+- **[Investors Are Fleeing to Apple and Selling NVIDIA and Tesla: Here’s Why It’s the Only Magnificent 7 Stock to Outperform in 2026](https://finnhub.io/api/news?id=426301d63039bc669f09a9a98a08126a7ad9b3600e0efdf9c1ba55783f81ec9f)**  
 *Yahoo · 1h前*  
-Constellation's nuclear dominance and higher leverage contrast sharply with NextEra's renewable scale and superior margins, each path carries distinct risks and…
+Apple (Nasdaq: AAOL) is up 27.1% in 2026 while six of the Magnificent Seven stocks ranging from NVIDIA (Nasdaq: NVDA) to Tesla (Nasdaq: TSLA) trail the S&P 500.…
 
-- **[Micron Expected to Launch Massive Stock Buybacks in December. What to Know.](https://finnhub.io/api/news?id=356523a0ce128d0f947486d5cbdb3a6ddced2f0ce0d9603a2d2e396836756303)**  
-*Yahoo · 1h前*  
-Micron Technology is likely to increase its stock repurchases starting Dec. 9 after federal Chips Act restrictions on buybacks expire.
-
-- **[Oracle Stock Tumbles. Its $20B Funding Plan Wasn’t the Surprise—the Speed Was.](https://finnhub.io/api/news?id=18973adba309c112c9b3719869f393a46053b317c5c20cbf6feef95c57d653b3)**  
+- **[Meta Platforms (META) Sees $140.6 Million in Net ETF Buying on Oct. 30](https://finnhub.io/api/news?id=52fbabe8a92f673778aae67296a6724050ee61d5337eedf6e80804506bd52058)**  
 *Yahoo · 2h前*  
-Oracle says it would raise the full amount it earmarked for additional financing through fiscal 2030, just days after outlining those plans.
+ETFs bought $140.6 million of Meta Platforms stock last Friday, with 48 funds buying and 25 selling.
+
+- **[AMD Will Try to Change the Mood With Earnings](https://finnhub.io/api/news?id=001ce68212311b86ff65f5d2ff26b441ebe1d7c9dd17ec592107060728d2eec2)**  
+*Yahoo · 2h前*  
+Wall Street analysts project the company will have $13 billion in third-quarter sales, rising 42% from last year.
 
 ---
 
@@ -59,4 +59,4 @@ Oracle says it would raise the full amount it earmarked for additional financing
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
