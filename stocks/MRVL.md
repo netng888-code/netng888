@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today: Dow Up, Nasdaq Dives As Seagate Sinks; These Stocks Clear Entries](https://finnhub.io/api/news?id=7cecfc8936b9c71353ec710dcfa5c428a3a3811e9c20e6123d74048381b4e3c2)**  
+- **[Social Buzz: Wallstreetbets Stocks Mixed Premarket Tuesday; Intel to Advance, Palantir Technologies to Decline](https://finnhub.io/api/news?id=656455d831b32aeae1ad8d95f20a8bac140eaa18cc8e63e5d6c0b1101c99c0c7)**  
 *Yahoo · 1h前*  
-Stock Market Today: The Dow Jones index rises but the Nasdaq falls as tech struggles. Amazon pops, but Lumentum and Marvell Technology plunge.
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Tuesday's
 
-- **[Cramer: “All the Copper in Data Centers Will Eventually Be Replaced” by Fiber. Lumentum Wins](https://finnhub.io/api/news?id=f89b451f37468db14f58f2d92b86c2467c975ee01758c6bdea16ee6d6da78922)**  
+- **[MRVL Stock Price Target Slashed In Half: ‘Material Headwinds’ After Lumentum Deal, TD Cowen Says In Downgrade](https://finnhub.io/api/news?id=5fdabbf162942e4ba5a81129757e283adbc18f9b6bab02f01de72eb39280912e)**  
 *Yahoo · 1h前*  
-Key TakeawaysMarvell agreed today Monday to buy Lumentum in an all-stock deal worth about $115 billion, three days after Jim Cramer said on Mad Money that the d…
+TD Cowen downgraded Marvell to ‘Hold’ from ‘Buy’ and slashed its price target down to $175 from $350.
 
-- **[Stocks kick off November lower as AI sell-off hits Tech](https://finnhub.io/api/news?id=40ce51a9480bbed184e2d3240be76aa83bb6449420d848b314d2690b3d90fc47)**  
-*Yahoo · 1h前*  
-Yahoo Finance Markets and Data Editor Jared Blikre breaks down Wall Street's rocky start to November as a continued sell-off in AI-related stocks weighs on the …
+- **[Want a Tesla-SpaceX Merger? Look at the Marvell-Lumentum Deal.](https://finnhub.io/api/news?id=ea9144d060dd9830095aac17e1e097511a9da6e0b12a73cdb053f8c1f4998434)**  
+*Yahoo · 2h前*  
+With all stock M&A, be careful what you wish for.
 
 ---
 
@@ -59,4 +59,4 @@ Yahoo Finance Markets and Data Editor Jared Blikre breaks down Wall Street's roc
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
