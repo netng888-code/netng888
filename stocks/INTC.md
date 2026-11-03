@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$59.97** |
-| 今日變動 | ▼ $5.79　(-8.80%) |
+| 現價 | **$60.55** |
+| 今日變動 | ▲ $0.58　(+0.97%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $470　(▼44.0%) |
+| 未實現盈虧 | ▼ $464　(▼43.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $93.89 | — |
-| Put Wall（支撐） | $50.00 | -16.6% |
-| Call Wall（阻力） | $70.00 | +16.7% |
+| Gamma Flip | $90.26 | — |
+| Put Wall（支撐） | $60.00 | -0.9% |
+| Call Wall（阻力） | $70.00 | +15.6% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Social Buzz: Wallstreetbets Stocks Mixed Premarket Tuesday; Intel to Advance, Palantir Technologies to Decline](https://finnhub.io/api/news?id=656455d831b32aeae1ad8d95f20a8bac140eaa18cc8e63e5d6c0b1101c99c0c7)**  
+- **[AMD beats Q3 estimates with data center business booming](https://finnhub.io/api/news?id=30d3699df63673d8a3320932a847c8eab8d05a22d531979cc7ad6c1395497892)**  
 *Yahoo · 1h前*  
-The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Tuesday's
+Patrick Moorhead, Moor Insights & Strategy Founder, CEO, and Chief Analyst, joins Yahoo Finance Breaking Business News Reporter Jake Conley to discuss AMD's (AM…
 
-- **[Apple earnings beat expectations, but rising chip costs worry investors](https://finnhub.io/api/news?id=fe05defd490e575be45867c8a7a4bdb68cd2edd832b9498f308a1b47439d4a63)**  
-*Yahoo · 1h前*  
-Better-than-expected results from Apple for the last quarter of the company’s fiscal year 2026 were overshadowed by rising memory chip costs and a forecast for …
+- **[Did The Market Read Cerebras Stock Right?](https://finnhub.io/api/news?id=7a7f53556ad9a08fe67c7ead69fd2f5d77b96602ee7d7f1b6cb3c1b555643ffa)**  
+*Yahoo · 2h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[iShares A.I. Innovation ETF (BAI) Adds Twist and Entegris on Friday](https://finnhub.io/api/news?id=d83a9ed7857c356f7295200df97867fbc844ebee796b459f35d66837332c3892)**  
-*Yahoo · 1h前*  
-The fund bought $39.8 million of Twist Bioscience and $37.6 million of Entegris while selling $114.0 million of Intel, with net sales of $174.1 million.
+- **[Tower Semiconductor Sinks 14% in a Week Despite “The Strongest Growth Phase in Our History”](https://finnhub.io/api/news?id=abd688f746d4e57eebac3b8fbdf116beb3d10c75c398a4d983cd36ce95a1134b)**  
+*Yahoo · 2h前*  
+Key TakeawaysTower Semiconductor fell 14% in the past week, mostly in a chip selloff after Intel’s weak forecast that also hit Lumentum and Coherent. Tower then…
 
 ---
 
@@ -48,7 +48,7 @@ The fund bought $39.8 million of Twist Bioscience and $37.6 million of Entegris 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-03 | 監控 | $59.97 | — | 自動更新 |
+| 2026-11-04 | 監控 | $60.55 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund bought $39.8 million of Twist Bioscience and $37.6 million of Entegris 
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 07:05 HKT*
