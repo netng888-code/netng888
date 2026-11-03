@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$202.06** |
-| 今日變動 | ▼ $2.58　(-1.26%) |
+| 現價 | **$206.69** |
+| 今日變動 | ▲ $4.63　(+2.29%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $260　(▲6.9%) |
+| 未實現盈虧 | ▲ $353　(▲9.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $203.20 | — |
-| Put Wall（支撐） | $200.00 | -1.0% |
-| Call Wall（阻力） | $210.00 | +3.9% |
+| Gamma Flip | $202.83 | — |
+| Put Wall（支撐） | $200.00 | -3.2% |
+| Call Wall（阻力） | $210.00 | +1.6% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[The S&P 500's Record Profits Are Hiding a Problem Investors Haven't Seen Before](https://finnhub.io/api/news?id=175b1597375433c9a018ce8544a3ed1f998769edc28d68fe0a72e4af9d5e9a1f)**  
+- **[Cinemark Holdings, Inc. Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=7457712f478b5a7d624fe36e62e49ced7f2d023f2e7b2a0ec5edd53fb6ef1548)**  
 *Yahoo · 1h前*  
-Companies are recognizing revenue now. But the costs are only likely to start showing up in the years ahead.
+Moby summary of Cinemark Holdings, Inc.'s Q3 2026 earnings call
 
-- **[Nvidia Reportedly Restricts Chinese Access to AI Computing Through Overseas Data Centers](https://finnhub.io/api/news?id=6570864bdef8cc8ed20886932a14d100eb87517ef02e5f878b126205a7af43fa)**  
+- **[Do You Know How Much of Your 401(k) Is Riding on the AI Trade Voters Want Paused?](https://finnhub.io/api/news?id=b82ceb28034c91dd44a7f5f232cfc45fa1846a4b4730aa7bc76ba527d8d050f1)**  
 *Yahoo · 1h前*  
-Nvidia (NASDAQ:NVDA) has reportedly instructed its data center partners to reduce their exposure to Chinese customers, introducing new requirements that could m…
+Picture a married near-retiree with $720,000 of their 401(k) in an S&P 500 index fund. That one fund puts roughly $345,600 into the AI trade without a single st…
 
-- **[Prediction: Rigetti Computing Stock Is Going to Sink After Nov. 10](https://finnhub.io/api/news?id=55ed22c0dcac399a1ba3adb13b1e84ceb79a3dff55c49785620f434eaf1197be)**  
+- **[Stock Market Election Night Live Coverage: Dow Futures, AI Stocks, Elon Musk In Focus; AMD, Arista, Amgen, Astera Move On Earnings](https://finnhub.io/api/news?id=69838ae550f572e3d3d578dbf2ce8c7dab10dbec7d2071ccc398abf0eb71aacc)**  
 *Yahoo · 1h前*  
-Meaningful revenue from quantum computers could be many years away.
+IBD's stock market election night coverage will focus on midterm results' impact on Dow Jones futures, Treasury yields, AI and more.
 
 ---
 
@@ -48,7 +48,7 @@ Meaningful revenue from quantum computers could be many years away.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-03 | 監控 | $202.06 | — | 自動更新 |
+| 2026-11-04 | 監控 | $206.69 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Meaningful revenue from quantum computers could be many years away.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
