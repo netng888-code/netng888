@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-03 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir Earnings Top Views. Revenue Beat Slightly Smaller.](https://finnhub.io/api/news?id=44c84ee0ecb3b0ee1fa2ba04a1702120db9ebfbe6b8772cccab2229b140808d0)**  
+- **[Social Buzz: Wallstreetbets Stocks Mixed Premarket Tuesday; Intel to Advance, Palantir Technologies to Decline](https://finnhub.io/api/news?id=656455d831b32aeae1ad8d95f20a8bac140eaa18cc8e63e5d6c0b1101c99c0c7)**  
 *Yahoo · 1h前*  
-Palantir stock climbed amid Q3 earnings and revenue that topped consensus estimates. Sales growth accelerated for the 13th straight quarter.
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Tuesday's
 
-- **[Palantir raises 2026 revenue outlook after quarterly revenue nearly doubles on AI](https://finnhub.io/api/news?id=0518d88687b161dd6e71a27470a774fc1be41d263e22a1c413f01d12070d88dd)**  
+- **[Morgan Stanley Raises Palantir Target to $233 After Blowout Q3](https://finnhub.io/api/news?id=990962029c79b1d542f2dc1374b803748c075d76b0933f33d42f5300d36c04d6)**  
 *Yahoo · 1h前*  
-Investing.com -- Palantir Technologies raised its full-year revenue forecast on Monday after reporting a 96% jump in third-quarter revenue, driven by accelerati…
+Palantir topped third-quarter expectations and delivered another quarter of accelerating growth, but valuation concerns kept pressure on the stock.
 
-- **[Palantir Grows Revenue 96% as New Deals Slow: Rapid Earnings Reaction](https://finnhub.io/api/news?id=c90ebdd3234b07b3fbd1bf1767782769525476909d97f3a4adb8ce922bff9d2c)**  
+- **[Palantir Is Concerned About Europe's Slow AI Adoption](https://finnhub.io/api/news?id=d4f86e408685cedddb75ebe4ef33424f5ece88b2b644a879106930f95946139e)**  
 *Yahoo · 1h前*  
-Palantir's latest quarter showed a business turning rapid growth into heavy profit. Here's what drove it and where the numbers look softer.
+Louis Mosley, who oversees Palantir's business in the UK and Europe, says, "blue chips on this side of the Atlantic are not yet adopting AI." He made the commen…
 
 ---
 
@@ -59,4 +59,4 @@ Palantir's latest quarter showed a business turning rapid growth into heavy prof
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:05 HKT*
