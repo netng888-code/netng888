@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-03 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-03 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Cathie Wood Dumps $32.6 Million of AMD Stock Ahead of Earnings](https://finnhub.io/api/news?id=1f88d6f926ed0ec0dad3f1c60973288d847f1764a6c0585442d26c71e03727f5)**  
+*Yahoo · 1h前*  
+Cathie Wood Cashes Out $32.6 Million of Surging AMD Stock
+
 - **[Cathie Wood Makes Major Shift After Big Tech Gains](https://finnhub.io/api/news?id=9aa524d27bb2de01af5b77da7c2d74c0ecb33bf7c3b0151da8e72138ad309b2a)**  
-*Yahoo · 4h前*  
+*Yahoo · 18h前*  
 ARK loaded Teradyne and AeroVironment while trimming AMD, TSMC and Eli Lilly.
 
 - **[Down 38.9% in 4 Weeks, Here's Why You Should You Buy the Dip in Teradyne (TER)](https://finnhub.io/api/news?id=9913719fbf1a0c5c596942db982f7f6bff4013e05736f69ea2a8500241da205e)**  
-*Yahoo · 9h前*  
+*Yahoo · 23h前*  
 The heavy selling pressure might have exhausted for Teradyne (TER) as it is technically in oversold territory now. In addition to this technical measure, strong…
-
-- **[Robotics Stocks Diverge as Strong Earnings Meet Uneven Price Action](https://finnhub.io/api/news?id=5fa872ffb1b98303d87800faf843447ca48e4ec7441c37c5bce7c00dd4ace35a)**  
-*ChartMill · 2d前*  
-Robotics automation theme cools as investors get selective, with earnings-price disconnects and healthcare robotics holding up as quality counterweight.
 
 ---
 
@@ -59,4 +59,4 @@ Robotics automation theme cools as investors get selective, with earnings-price 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-03 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-03 21:04 HKT*
