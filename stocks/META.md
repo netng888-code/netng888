@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Do You Know How Much of Your 401(k) Is Riding on the AI Trade Voters Want Paused?](https://finnhub.io/api/news?id=b82ceb28034c91dd44a7f5f232cfc45fa1846a4b4730aa7bc76ba527d8d050f1)**  
+- **[State Street Comm Services SPDR (XLC) Sells $38.1 Million of Meta on Nov. 2](https://finnhub.io/api/news?id=ffd03f8a805e9b59ddb1632f830e5b9b52f83d349104f1b18d05145e034c03c4)**  
 *Yahoo · 1h前*  
-Picture a married near-retiree with $720,000 of their 401(k) in an S&P 500 index fund. That one fund puts roughly $345,600 into the AI trade without a single st…
+The fund sold $175.5 million of stock and bought nothing, trimming all 22 positions in its portfolio.
 
-- **[AMD Changes the Mood With Big Earnings Beat](https://finnhub.io/api/news?id=518c20ee3cbb23dac66a42c4f9fcf6833dc7dd72916467d70326d6c699c50780)**  
+- **[What Direxion Daily S&P 500 Bull 3X ETF (SPXL) Sold: Apple Leads on Nov. 2](https://finnhub.io/api/news?id=7df12524c91aca0df2409466c57dc18f0285224517d9133f66aca43485fcdd97)**  
 *Yahoo · 1h前*  
-The chip maker reports better-than-expected earnings for the third quarter and issues strong guidance for the rest of the year.
+The fund sold $252.0 million of stock and bought nothing, cutting 380 positions while its assets stood at $6.48 billion.
 
-- **[Nvidia vs. SK Hynix: Comparing Quarterly Revenue Trajectories](https://finnhub.io/api/news?id=218f4c36a3e764fa1f8866a4065c2c13ff3cc2d1e2bc4a90116b57a10d2be746)**  
+- **[Capital Group Dividend Value (CGDV) Buys $146.3 Million More AMAT on Nov. 2](https://finnhub.io/api/news?id=4ff6f94f25101cd1e2e9b98e9280f5a8a1819f0372d7a0796d56b91eb88a2187)**  
 *Yahoo · 1h前*  
-SK Hynix's revenue has surged 420% in two years, yet Nvidia still holds a commanding lead -- here's what the gap reveals about their competitive positioning.
+The fund bought $146.3 million of Applied Materials and $135.8 million of FTAI Aviation while selling $558.0 million of Alphabet, for net sales of $328.8 millio…
 
 ---
 
@@ -59,4 +59,4 @@ SK Hynix's revenue has surged 420% in two years, yet Nvidia still holds a comman
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
