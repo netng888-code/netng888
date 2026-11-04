@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[X-Energy Has Amazon as an Anchor Customer and Went Public in April. Is It a Better SMR Stock Than Oklo?](https://finnhub.io/api/news?id=a42bcef9535bb0a150bb31b70cf4cf16c12c1fa532f7624ead8be8e5c3e1dc24)**  
-*Yahoo · 1d前*  
-Amazon's big bet on X-Energy could give this nuclear IPO stock a crucial advantage over rival Oklo.
+- **[X-energy Lost 23% in a Month. Wedbush Sees 54% Upside From Here](https://finnhub.io/api/news?id=90e214b516cd1df6683d5d3ee2a74573abe213ea300a2222a947ce9a11334a5b)**  
+*Yahoo · 16h前*  
+Key TakeawaysX-energy stock fell 23% in the past month as investors sold small-reactor stocks, Oklo and NuScale Power among them. The company’s own news was goo…
 
-- **[Here's How to Play NuScale Stock Before Q3 Earnings Release](https://finnhub.io/api/news?id=824dbddd1e75d0be8b3e14296a94d80d1542885a93f7104cfc8b77fbb6515f59)**  
-*Yahoo · 1d前*  
-As SMR gears up to report third-quarter earnings, let's find out how the expectations stack up. Also, learn how to play the stock ahead of results.
+- **[Oklo (OKLO) Dropped, So What Is Driving Attention Now?](https://finnhub.io/api/news?id=59c68cec8b20acd418833c8e7a9d9fe5c7dbda138f9c622956cc9ccb0d2571d4)**  
+*Yahoo · 17h前*  
+Oklo (OKLO) is back in focus after Wedbush began covering the stock with an Outperform rating, spotlighting the advanced nuclear developer as investors reassess…
 
-- **[NuScale Just Dropped 39% in a Month, Oklo 33%. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=433f625fa981d387ebe316dc17b7af3cb74affa74d1fb44e8cac74ee21668577)**  
-*Yahoo · 2d前*  
-Key TakeawaysNuScale Power (SMR) fell 39% in the month through October 22, closing at $5. 38, while Oklo (OKLO) declined 33% and the Nasdaq 100 lost 6%.
+- **[Cloudflare upgraded, Marvell downgraded: Wall Street's top analyst calls](https://finnhub.io/api/news?id=c3e9b505b42487c4a069bc6e89f75eaa229f3186e37cfbd9b5a49e8fd98968fa)**  
+*Yahoo · 22h前*  
+Cloudflare upgraded, Marvell downgraded: Wall Street's top analyst calls
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysNuScale Power (SMR) fell 39% in the month through October 22, closi
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
