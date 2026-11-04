@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-11-04 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Cipher Digital Analysts Cut Their Forecasts After Q3 Results](https://finnhub.io/api/news?id=94c459b6bf41d659adadf785705623724742fe378443e41a81d6d44412fb8a2b)**  
-*Benzinga · 13h前*  
-Cipher Digital&#39;s Q3 revenue fell 62.8% to $26.7M, missing estimates; EPS loss matched forecasts. Analysts cut targets, shares rose 5%.
+- **[Wall Street Breakfast Podcast: Blue Tsunami Hits Wall Street](https://finnhub.io/api/news?id=576c192c1debdc1408f0ef316583b2c6a60659c9f743900270ffbc69f246ebf7)**  
+*SeekingAlpha · 6h前*  
+Futures erase losses with Dems taking Congress in midterms. Texas results raise fresh questions for AI data centers. AMD rallies as booming AI chip sales lift i…
 
-- **[Rosenblatt Maintains Buy on Cipher Digital, Lowers Price Target to $19](https://finnhub.io/api/news?id=f06cc9bbd511fe23724622a14da44e3779b9879d806ca304741b367421903843)**  
-*Benzinga · 14h前*  
-Rosenblatt  analyst Chris Brendler   maintains Cipher Digital (NASDAQ:CIFR) with a Buy and lowers the price target from $30 to $19.
+- **[Cipher Digital (CIFR) Stock Jumps On Q3 Earnings Profit Turn](https://finnhub.io/api/news?id=385d17a60b38a46b09c2befb45280292d9f63a73e1b1c0aa833b012c0454655d)**  
+*Yahoo · 13h前*  
+Cipher Digital came into this Q3 2026 print with a bruised chart and a big growth story, as the stock had fallen sharply over the past three months even as bull…
 
-- **[Cantor Fitzgerald Maintains Overweight on Cipher Digital, Lowers Price Target to $15](https://finnhub.io/api/news?id=5efc3aab48b4b42f3cacd1ec731436718359882b7ffe3d4ef0df59de2e6aa050)**  
-*Benzinga · 15h前*  
-Cantor Fitzgerald  analyst Brett Knoblauch   maintains Cipher Digital (NASDAQ:CIFR) with a Overweight and lowers the price target from $19 to $15.
+- **[Hut 8 Lost 5% in a Week Before Earnings. B. Riley Still Sees $134](https://finnhub.io/api/news?id=c707534c4ebb05cb354f7ac018756248ba3780c1c9dc1ce0d3865708f79e90cd)**  
+*Yahoo · 16h前*  
+Key TakeawaysHut 8 stock fell 5% in the past week, mostly after a record Binance hack and a tech selloff that also hit Coinbase, IREN and Cipher Digital. B.
 
 ---
 
@@ -59,4 +59,4 @@ Cantor Fitzgerald  analyst Brett Knoblauch   maintains Cipher Digital (NASDAQ:CI
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:05 HKT*
