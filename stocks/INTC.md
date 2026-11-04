@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$60.55** |
-| 今日變動 | ▲ $0.58　(+0.97%) |
+| 現價 | **$58.27** |
+| 今日變動 | ▼ $2.28　(-3.77%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $464　(▼43.4%) |
+| 未實現盈虧 | ▼ $487　(▼45.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $90.26 | — |
-| Put Wall（支撐） | $60.00 | -0.9% |
-| Call Wall（阻力） | $70.00 | +15.6% |
+| Gamma Flip | $65.56 | — |
+| Put Wall（支撐） | $55.00 | -5.6% |
+| Call Wall（阻力） | $70.00 | +20.1% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What iShares PHLX SOX Semiconductor (SOXX) Bought: AMD Leads on Nov. 2](https://finnhub.io/api/news?id=212962b7f82c5f4051e1b79f6de5e26a53ad55a21c56ef0ade6860eef9f22e36)**  
+- **[INTC Stock Dips Even After CEO Lip-Bu Tan Buys $9.7M Worth Of Intel Shares](https://finnhub.io/api/news?id=ee0369fd8ecf0f282f4b93059c28a02c2fe6c74763a8f7a2d5304113ae4e2b71)**  
 *Yahoo · 1h前*  
-The fund added $195.8 million in new buying across 29 positions on Monday, with Advanced Micro Devices topping the list at $18.1 million.
+Intel CEO Lip-Bu Tan has acquired roughly $9.7 million worth of company shares through a family trust, following an extensive stock selloff and a turbulent thir…
 
-- **[Qualcomm’s Smartphone Business Is Hurting. Data Centers Could Fuel Its Next Act.](https://finnhub.io/api/news?id=36f7df94766f297a1edd3af78ce9479d812bb6998d879be49b0b71701fb1da68)**  
+- **[Goldman Sachs’ $675 Target Says AMD’s Selloff Went Too Far](https://finnhub.io/api/news?id=b60876f202e67e3738324c11b142720df9362bf4b06698f85a75668af9315d57)**  
 *Yahoo · 2h前*  
-Qualcomm reports earnings Wednesday as smartphone weakness weighs on chip sales and the company bets on automotive growth and data centers.
+Key TakeawaysGoldman Sachs trimmed its AMD price target to $675 from $700 and kept its Buy rating, a target 40% above Tuesday’s close. AMD shares are 28% below …
 
-- **[Where Could NVIDIA's Next Growth Come From?](https://finnhub.io/api/news?id=05affbb5ec77cc793d9cca7f1b1194038f8165471d9fd2ed672b5bae0caf549c)**  
-*Yahoo · 2h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[Strategy Gains 7% as Bitcoin Rallies After Midterms, CEO Touts “Bitcoin Capital Cycle”](https://finnhub.io/api/news?id=ec27e699dbd8ab609ca47bbff51aae222c695f8562ec155a53b72c86a8a9e82d)**  
+*Yahoo · 3h前*  
+Key TakeawaysStrategy shares rose 7% today as Bitcoin and the broader market rallied after the midterm elections. CEO Phong Le ranked Strategy fourth among US s…
 
 ---
 
@@ -48,7 +48,7 @@ For questions about this article or underlying research, email help@trefis.com.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-04 | 監控 | $60.55 | — | 自動更新 |
+| 2026-11-05 | 監控 | $58.27 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
