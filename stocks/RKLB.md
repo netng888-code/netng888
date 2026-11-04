@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$54.43** |
-| 今日變動 | ▲ $2.36　(+4.53%) |
+| 現價 | **$52.37** |
+| 今日變動 | ▼ $2.06　(-3.78%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $216　(▼28.4%) |
+| 未實現盈虧 | ▼ $236　(▼31.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $57.67 | — |
-| Put Wall（支撐） | $50.00 | -8.1% |
-| Call Wall（阻力） | $60.00 | +10.2% |
+| Gamma Flip | $56.18 | — |
+| Put Wall（支撐） | $50.00 | -4.5% |
+| Call Wall（阻力） | $60.00 | +14.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab (RKLB) Launched Three Satellites, Is The Upside Already Priced In?](https://finnhub.io/api/news?id=ee185ee4ebe9e98663a1ccd6d20f8a2a14556ed9154011ddec7ec3e621673a9c)**  
-*Yahoo · 3h前*  
-Rocket Lab (RKLB) just added another mission to its launch record, sending three HawkEye 360 HAWK satellites to a 520 km low Earth orbit from New Zealand on 23 …
+- **[Rocket Lab Falls 4%, SpaceX Down 4% as Midterms Make Musk the “Biggest Loser”](https://finnhub.io/api/news?id=52406f7d101ae1da14af05a2410d2b930c81671b7f3a025d7084fc765947a0d9)**  
+*Yahoo · 1h前*  
+Key TakeawaysRocket Lab shares fell 4% after Democrats swept Tuesday’s midterms and the backlash against Elon Musk spread across space stocks. AST SpaceMobile a…
 
-- **[Rocket Lab Stock Has Crashed Even Harder Before. Here's How Long the Last Comeback Took.](https://finnhub.io/api/news?id=927d8d924373ef89c5881d0541b6b560e864107cb6d7878d0c4a587a315c60f2)**  
-*Yahoo · 3h前*  
-The space stock once shed 83% of its value and still rose back past its old high. Could this slump end the same way?
+- **[Got $5,000? 2 Growth Stocks Powering the Next Phase of the Space Economy.](https://finnhub.io/api/news?id=266dd9e726b6d7b14354d672eb851eb63259410d0c19fca5708789f8eec658ff)**  
+*Yahoo · 5h前*  
+Rocket Lab and Planet Labs offer distinct growth opportunities as satellite infrastructure expands and demand for space-based intelligence increases.
 
-- **[Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny](https://finnhub.io/api/news?id=ab7445f3ab674db3bd4b2d1759bc98c28cb059825382c2c8b0cdaf25e9831c86)**  
-*Yahoo · 6h前*  
-Morgan Stanley valued SpaceX slightly below the S&P 500 on projected 2028 earnings and forecast positive free cash flow by 2031.
+- **[Rocket Lab to Report Q3 Earnings: Should Investors Hold or Fold?](https://finnhub.io/api/news?id=b3be26e735fd2b41591c5e4666eab3b38355dc5d7fcb972e7f283311e0192759)**  
+*Yahoo · 7h前*  
+RKLB Q3 earnings outlook signals strong revenue growth, but margin pressure, premium valuation and a 27.3% stock decline raise questions for investors.
 
 ---
 
@@ -48,7 +48,7 @@ Morgan Stanley valued SpaceX slightly below the S&P 500 on projected 2028 earnin
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-04 | 監控 | $54.43 | — | 自動更新 |
+| 2026-11-05 | 監控 | $52.37 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Morgan Stanley valued SpaceX slightly below the S&P 500 on projected 2028 earnin
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
