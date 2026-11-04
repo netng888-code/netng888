@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-04 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir's Report Moved My Buy Price for the Stock. Here's the New Number.](https://finnhub.io/api/news?id=c1b4fcdc9607c3d3c15a6a156f9dd6b224c8754d9bc4db64abe8ef744aaafa07)**  
-*Yahoo · 1h前*  
-Has the AI software specialist's stock finally dropped to the price where I'd consider buying it?
-
-- **[Hiding inside Palantir’s skyrocketing quarter is a foreboding signal](https://finnhub.io/api/news?id=1f325839875bfcf783093cbf633c255e727f848e0d9c8e8aad2919ac780a8a5f)**  
-*Yahoo · 1h前*  
-Palantir delivered such a huge third-quarter earnings report on Monday that its press release even bragged that the numbers were “crushing consensus expectation…
-
-- **[Buy the Dip in Apple or Palantir Stock After Earnings?](https://finnhub.io/api/news?id=11f30d6704f0138afa42be646ec9f7b88d96f104e5dcbcc9dcdbe7ec7acde81e)**  
+- **[ETFs Bought $108.2 Million of Palantir (PLTR) on Monday](https://finnhub.io/api/news?id=74c21e0dc99883793f8a8b7c7b665c0aafe6f8730304eeece285b44083bf335d)**  
 *Yahoo · 2h前*  
-Apple (AAPL) and Palantir (PLTR) stocks are retreating despite strong quarterly results, raising the question of which offers the better buy-the-dip opportunity…
+ETFs added $108.2 million of Palantir shares on Monday, with 39 funds buying and 21 selling.
+
+- **[Palantir Just Did This for the First Time Ever. Is the Stock a Buy?](https://finnhub.io/api/news?id=ca2272b61726b7b296398f89884c7ebf0e7d7c84aed973d236c8286ed5156cd9)**  
+*Yahoo · 2h前*  
+Palantir just delivered another blowout earnings report.
+
+- **[Is Snowflake Stock A Buy Today?](https://finnhub.io/api/news?id=9a3fbd9d9072ed5ea547c71188e49464616a384b38ca932fe0eef3380a0dc92c)**  
+*Yahoo · 3h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ Apple (AAPL) and Palantir (PLTR) stocks are retreating despite strong quarterly 
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
