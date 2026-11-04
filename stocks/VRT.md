@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-11-04 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Eaton Just Dropped 16% in a Month. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=93fcd4d8f0385f2d7ae8774b30141a77e90cfef2b437d1430a6501caaf7b7e13)**  
-*Yahoo · 4h前*  
-Key TakeawaysEaton stock fell 16% in the past month as AI-power stocks sold off, and GE Vernova and Vertiv fell too. The worst drop came after Meta raised its 2…
+- **[Eaton Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=dce2ac597ffa64b6d02ee2a4d344060432f485db9682a4f37a17d2a9c62f7649)**  
+*Yahoo · 7h前*  
+Eaton (NYSE:ETN) reported record third-quarter 2026 revenue, earnings and segment margins, as strong demand across its electrical businesses and data-center mar…
 
-- **[Vistra Gains 5% as Talen Guides 2027 EBITDA Up 26% on “Strong PJM Fundamentals”](https://finnhub.io/api/news?id=2c2730ef9e22b9d9da5b6da093b7399626baf2c6d27a83df180a949663c8d375)**  
-*Yahoo · 6h前*  
-Key TakeawaysVistra gained 5% today after Talen Energy guided 2027 adjusted EBITDA about 26% higher on PJM demand. Constellation Energy rose on the same news, a…
+- **[Bloom Energy Is Up 146% in 2026: Take Profits, or Buy More?](https://finnhub.io/api/news?id=0becaaf23fda4498ed00d5178c2a0d6e777f0da5a3976cf589dea0e374a243f6)**  
+*Yahoo · 8h前*  
+Key TakeawaysBloom Energy shares are up 146% in 2026 as AI data centers’ demand for onsite power drove three guidance raises, to $4. 4 billion to $4.
 
-- **[Oracle Rebounds 5% as $20 Billion Raise Prices: Baird Says It’s “Exactly What They Previewed”](https://finnhub.io/api/news?id=5a1f4e3980f7abff023b6238b95ef68d743d567366ba52a80caaae43d5ec0b71)**  
-*Yahoo · 6h前*  
-Key TakeawaysOracle shares rose 5% after pricing the $20 billion stock and bond sale its own cap allowed through fiscal 2030. About 86 million new shares and $1…
+- **[Flex: Stronger Fundamentals And New AI Opportunities Make The Selloff Attractive](https://finnhub.io/api/news?id=76d4ffa110bbe6c0ff91f8350f52ccbffdc91084983e49a3c158afe8f3d625cf)**  
+*SeekingAlpha · 14h前*  
+Flex's Cloud and Power Infrastructure segment is experiencing robust AI-driven growth. Find out why I reaffirm my Buy rating on FLEX stock.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysOracle shares rose 5% after pricing the $20 billion stock and bond 
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:05 HKT*
