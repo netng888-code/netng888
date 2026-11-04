@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,11 +35,11 @@
 Centrus Energy's recent acquisition boosts its nuclear supply chain and diversifies earnings.
 
 - **[Zacks Industry Outlook Highlights Southern Copper, Freeport-McMoRan, First Quantum Minerals, Lundin Mining and Centrus Energy](https://finnhub.io/api/news?id=589628f6041bdc6e0c85795cffd69a1a21d6866afe3b3a44ec7d00520809e546)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 SCCO, FCX, FQVLF, LUNMF and LEU offer growth opportunities amid metal price volatility, rising production costs and supply challenges, supported by energy-trans…
 
 - **[Centrus Energy Consensus Price Target Decreased by 13.62% to $205.19](https://finnhub.io/api/news?id=3ac089a5c27deed7134c33effb3d9abee97fd476c49c44a4f2fa8c7437f6ed23)**  
-*Fintel · 1d前*
+*Fintel · 2d前*
 
 ---
 
@@ -58,4 +58,4 @@ SCCO, FCX, FQVLF, LUNMF and LEU offer growth opportunities amid metal price vola
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
