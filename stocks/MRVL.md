@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Fabrinet Lost 32% in a Month. Barclays Sees 58% Upside From Here](https://finnhub.io/api/news?id=d1c4cb2e700eeaf8845af3a4c569c82861a7d043b1f90595379f70b40d8b1c52)**  
-*Yahoo · 2h前*  
-Key TakeawaysFabrinet shares fell 32% in the past month as AI optics stocks, including Coherent, Lumentum and Marvell, sold off on fears about AI funding and hy…
-
-- **[Did The Market Read Cerebras Stock Right?](https://finnhub.io/api/news?id=7a7f53556ad9a08fe67c7ead69fd2f5d77b96602ee7d7f1b6cb3c1b555643ffa)**  
+- **[Where Could NVIDIA's Next Growth Come From?](https://finnhub.io/api/news?id=05affbb5ec77cc793d9cca7f1b1194038f8165471d9fd2ed672b5bae0caf549c)**  
 *Yahoo · 2h前*  
 For questions about this article or underlying research, email help@trefis.com.
 
-- **[Marvell to Acquire Lumentum in Historic $115B Tech Deal](https://finnhub.io/api/news?id=75638c7805549cdb7a033a5344423db553a233499530c9342fa9eaad4b5d806c)**  
+- **[Ciena Is Up 58% in a Year. Its Next Report Has to Show Margins Can Keep Up](https://finnhub.io/api/news?id=0e357beac44d90179dfa2a2a40674ae6a87298f3ac348bf5eb5261dee10a6523)**  
 *Yahoo · 2h前*  
-Bloomberg's Liana Baker joins Dani Burger on "Bloomberg Deals." Marvell agreed to buy Lumentum Holdings at an enterprise value of $115 billion, clinching one of…
+Key TakeawaysCiena stock is up 58% in the past year, and its fiscal third-quarter revenue rose 37% to $1. 67 billion.
+
+- **[Can Broadcom Stock Fall Further?](https://finnhub.io/api/news?id=30840949d3f9476a79424a7a7e1340fe4aeb0741474d38886153d8836e805646)**  
+*Yahoo · 3h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ Bloomberg's Liana Baker joins Dani Burger on "Bloomberg Deals." Marvell agreed t
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
