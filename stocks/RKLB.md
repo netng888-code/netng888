@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-04 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Redwire Just Dropped 25% in a Month. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=d844e0516c89a5cb37341a84a51aec5dea56cd14aa868752dd9584b0a19ca300)**  
-*Yahoo · 1h前*  
-Key TakeawaysRedwire stock is down 25% in the past month with no bad news of its own, as space stocks and high-flying tech sold off together. The company kept w…
+- **[Rocket Lab (RKLB) Launched Three Satellites, Is The Upside Already Priced In?](https://finnhub.io/api/news?id=ee185ee4ebe9e98663a1ccd6d20f8a2a14556ed9154011ddec7ec3e621673a9c)**  
+*Yahoo · 3h前*  
+Rocket Lab (RKLB) just added another mission to its launch record, sending three HawkEye 360 HAWK satellites to a 520 km low Earth orbit from New Zealand on 23 …
 
-- **[RKLB Stock’s Next Big Breakthrough Could Change Its Long-Term Growth Outlook](https://finnhub.io/api/news?id=14d9735542d25c1af0623b0568d30e35bb6daadfb9080b456c76ff849abc08e9)**  
-*Yahoo · 9h前*  
-Rocket Lab's backlog just hit a record and revenue is surging, yet the stock sits near its yearly lows while one unflown rocket holds the power to revalue the e…
+- **[Rocket Lab Stock Has Crashed Even Harder Before. Here's How Long the Last Comeback Took.](https://finnhub.io/api/news?id=927d8d924373ef89c5881d0541b6b560e864107cb6d7878d0c4a587a315c60f2)**  
+*Yahoo · 3h前*  
+The space stock once shed 83% of its value and still rose back past its old high. Could this slump end the same way?
 
-- **[Rocket Lab Plunged 7% Amid Amazon Fears — but That Could Be the Best Reason to Buy](https://finnhub.io/api/news?id=fd61dc3fb7495d6dc8d830c70e6648009f269712842cc54dc9724c245e7da465)**  
-*Yahoo · 10h前*  
-RKLB stock plunged 7% as Amazon expands its satellite business, but Rocket Lab's $8 billion Iridium deal and $2.36 billion backlog could turn growing competitio…
+- **[Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny](https://finnhub.io/api/news?id=ab7445f3ab674db3bd4b2d1759bc98c28cb059825382c2c8b0cdaf25e9831c86)**  
+*Yahoo · 6h前*  
+Morgan Stanley valued SpaceX slightly below the S&P 500 on projected 2028 earnings and forecast positive free cash flow by 2031.
 
 ---
 
@@ -59,4 +59,4 @@ RKLB stock plunged 7% as Amazon expands its satellite business, but Rocket Lab's
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
