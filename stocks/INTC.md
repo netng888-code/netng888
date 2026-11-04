@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-04 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AMD beats Q3 estimates with data center business booming](https://finnhub.io/api/news?id=30d3699df63673d8a3320932a847c8eab8d05a22d531979cc7ad6c1395497892)**  
+- **[What iShares PHLX SOX Semiconductor (SOXX) Bought: AMD Leads on Nov. 2](https://finnhub.io/api/news?id=212962b7f82c5f4051e1b79f6de5e26a53ad55a21c56ef0ade6860eef9f22e36)**  
 *Yahoo · 1h前*  
-Patrick Moorhead, Moor Insights & Strategy Founder, CEO, and Chief Analyst, joins Yahoo Finance Breaking Business News Reporter Jake Conley to discuss AMD's (AM…
+The fund added $195.8 million in new buying across 29 positions on Monday, with Advanced Micro Devices topping the list at $18.1 million.
 
-- **[Did The Market Read Cerebras Stock Right?](https://finnhub.io/api/news?id=7a7f53556ad9a08fe67c7ead69fd2f5d77b96602ee7d7f1b6cb3c1b555643ffa)**  
+- **[Qualcomm’s Smartphone Business Is Hurting. Data Centers Could Fuel Its Next Act.](https://finnhub.io/api/news?id=36f7df94766f297a1edd3af78ce9479d812bb6998d879be49b0b71701fb1da68)**  
+*Yahoo · 2h前*  
+Qualcomm reports earnings Wednesday as smartphone weakness weighs on chip sales and the company bets on automotive growth and data centers.
+
+- **[Where Could NVIDIA's Next Growth Come From?](https://finnhub.io/api/news?id=05affbb5ec77cc793d9cca7f1b1194038f8165471d9fd2ed672b5bae0caf549c)**  
 *Yahoo · 2h前*  
 For questions about this article or underlying research, email help@trefis.com.
-
-- **[Tower Semiconductor Sinks 14% in a Week Despite “The Strongest Growth Phase in Our History”](https://finnhub.io/api/news?id=abd688f746d4e57eebac3b8fbdf116beb3d10c75c398a4d983cd36ce95a1134b)**  
-*Yahoo · 2h前*  
-Key TakeawaysTower Semiconductor fell 14% in the past week, mostly in a chip selloff after Intel’s weak forecast that also hit Lumentum and Coherent. Tower then…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysTower Semiconductor fell 14% in the past week, mostly in a chip sel
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
