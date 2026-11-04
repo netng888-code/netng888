@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Cinemark Holdings, Inc. Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=7457712f478b5a7d624fe36e62e49ced7f2d023f2e7b2a0ec5edd53fb6ef1548)**  
-*Yahoo · 1h前*  
-Moby summary of Cinemark Holdings, Inc.'s Q3 2026 earnings call
+- **[Stock Market Today: Democrats Take Congress as AMD’s Blowout Quarter Pulls Chip Stocks Back Into the Light](https://finnhub.io/api/news?id=6c01e2cdb186899dc3b21da399897f24a4b372a5902347b18559b73ec6358c7a)**  
+*ChartMill · 0h前*  
+Nasdaq futures dropped overnight as the midterm results came in, then recovered after one sentence from the president. That tells you how much of this market co…
 
-- **[Do You Know How Much of Your 401(k) Is Riding on the AI Trade Voters Want Paused?](https://finnhub.io/api/news?id=b82ceb28034c91dd44a7f5f232cfc45fa1846a4b4730aa7bc76ba527d8d050f1)**  
+- **[Why SK Hynix Plunged in October](https://finnhub.io/api/news?id=e94f2b8ed0806c8eee0b072cf8ea2e253ce105c40cc1b7aa15af58cedff9635f)**  
 *Yahoo · 1h前*  
-Picture a married near-retiree with $720,000 of their 401(k) in an S&P 500 index fund. That one fund puts roughly $345,600 into the AI trade without a single st…
+Outstanding earnings and soaring profits weren't enough to defy last month's AI stock selloff.
 
-- **[Stock Market Election Night Live Coverage: Dow Futures, AI Stocks, Elon Musk In Focus; AMD, Arista, Amgen, Astera Move On Earnings](https://finnhub.io/api/news?id=69838ae550f572e3d3d578dbf2ce8c7dab10dbec7d2071ccc398abf0eb71aacc)**  
+- **[Stock Market Election News: Dow Futures Reverse Higher, AMD, Arista Rally After Democrats Sweep; SpaceX, Tesla Are Losers (Live)](https://finnhub.io/api/news?id=6510cc2abd04c55df2e7f57276f982d458162adee560f2957dcf02cb336437da)**  
 *Yahoo · 1h前*  
-IBD's stock market election night coverage will focus on midterm results' impact on Dow Jones futures, Treasury yields, AI and more.
+Stock market today: Dow futures and many AI stocks reversed higher after Democrats' big election night. But Elon Musk's Tesla, SpaceX are losers.
 
 ---
 
@@ -59,4 +59,4 @@ IBD's stock market election night coverage will focus on midterm results' impact
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
