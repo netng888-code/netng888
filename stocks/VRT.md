@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-11-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$235.97** |
-| 今日變動 | ▲ $11.73　(+5.23%) |
+| 現價 | **$205.55** |
+| 今日變動 | ▼ $30.42　(-12.89%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $303.760 |
-| 未實現盈虧 | ▼ $136　(▼22.3%) |
+| 未實現盈虧 | ▼ $196　(▼32.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $232.42 | — |
-| Put Wall（支撐） | $210.00 | -11.0% |
-| Call Wall（阻力） | $250.00 | +5.9% |
+| Gamma Flip | $230.86 | — |
+| Put Wall（支撐） | $200.00 | -2.7% |
+| Call Wall（阻力） | $230.00 | +11.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Eaton Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=dce2ac597ffa64b6d02ee2a4d344060432f485db9682a4f37a17d2a9c62f7649)**  
-*Yahoo · 7h前*  
-Eaton (NYSE:ETN) reported record third-quarter 2026 revenue, earnings and segment margins, as strong demand across its electrical businesses and data-center mar…
+- **[Vertiv Holdings Co (VRT) Locked In Three Years Of AI Power Chip Supply](https://finnhub.io/api/news?id=83a868378ac8498f009e0f9d2ac7a7fd1dc77865360be2bc15812d34d6c1b8b5)**  
+*Yahoo · 3h前*  
+Vertiv Holdings Co (NYSE:VRT) agreed to a three-year partnership with Infineon Technologies to secure power semiconductor supply for AI infrastructure. The Infi…
 
-- **[Bloom Energy Is Up 146% in 2026: Take Profits, or Buy More?](https://finnhub.io/api/news?id=0becaaf23fda4498ed00d5178c2a0d6e777f0da5a3976cf589dea0e374a243f6)**  
-*Yahoo · 8h前*  
-Key TakeawaysBloom Energy shares are up 146% in 2026 as AI data centers’ demand for onsite power drove three guidance raises, to $4. 4 billion to $4.
+- **[Why a Democratic Sweep Is Crushing GE Vernova and More Industrial Stocks](https://finnhub.io/api/news?id=026c664429645f63f5905e8fe576b92ddc71435bd5a8433b88dfb958e2fceb8b)**  
+*Yahoo · 4h前*  
+Remember the rule of three before buying into popular industrial stocks after the postelection, AI backlash wipe out.
 
-- **[Flex: Stronger Fundamentals And New AI Opportunities Make The Selloff Attractive](https://finnhub.io/api/news?id=76d4ffa110bbe6c0ff91f8350f52ccbffdc91084983e49a3c158afe8f3d625cf)**  
-*SeekingAlpha · 14h前*  
-Flex's Cloud and Power Infrastructure segment is experiencing robust AI-driven growth. Find out why I reaffirm my Buy rating on FLEX stock.
+- **[Should You Buy, Sell, or Hold TER Stock After a 53% Rise in One Year?](https://finnhub.io/api/news?id=dce42e63cb3ea2a78742ff5009f5f45cf07362f1ed68c2df0591175074e9895a)**  
+*Yahoo · 4h前*  
+Teradyne stock rallies 53% in a year, driven by strong AI infrastructure demand, semiconductor testing growth, and robotics momentum, supporting a positive outl…
 
 ---
 
@@ -48,7 +48,7 @@ Flex's Cloud and Power Infrastructure segment is experiencing robust AI-driven g
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-04 | 監控 | $235.97 | — | 自動更新 |
+| 2026-11-05 | 監控 | $205.55 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Flex's Cloud and Power Infrastructure segment is experiencing robust AI-driven g
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
