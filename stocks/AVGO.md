@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AMD Changes the Mood With Big Earnings Beat](https://finnhub.io/api/news?id=518c20ee3cbb23dac66a42c4f9fcf6833dc7dd72916467d70326d6c699c50780)**  
-*Yahoo · 1h前*  
-The chip maker reports better-than-expected earnings for the third quarter and issues strong guidance for the rest of the year.
+- **[Stock Market Today: Democrats Take Congress as AMD’s Blowout Quarter Pulls Chip Stocks Back Into the Light](https://finnhub.io/api/news?id=6c01e2cdb186899dc3b21da399897f24a4b372a5902347b18559b73ec6358c7a)**  
+*ChartMill · 0h前*  
+Nasdaq futures dropped overnight as the midterm results came in, then recovered after one sentence from the president. That tells you how much of this market co…
 
-- **[JFrog Closes the Patching Gap with Universal Zero-Touch Remediation, Bringing Leading Patching Vendors into One Source of Truth](https://finnhub.io/api/news?id=bd3a411d0a5390eaf646301ce24d4000c97863b01810f1a9928cbeeebbbc55f5)**  
+- **[This Week In AI Chips - Unlocking North America's AI-Driven Semiconductor Potential](https://finnhub.io/api/news?id=88094abe31422c08a0e04dcb334806571ef156ed2eb010a367d8cfacbd31e78b)**  
 *Yahoo · 1h前*  
-SUNNYVALE, Calif., November 03, 2026--JFrog Closes the Patching Gap with Universal Zero-Touch Remediation, Bringing Leading Patching Vendors into One Source of …
+An international forum recently focused on the future of supply chains in North America, highlighting the critical role of artificial intelligence, advanced man…
 
-- **[Arista Networks, Inc. Reports Third Quarter 2026 Financial Results](https://finnhub.io/api/news?id=5beac86232fc5b916d3c1f5bd6621f42fa22494a91029caab3f5f6f39d5db3a4)**  
+- **[Capital Group Cons. Equity (CGCV) Adds Microsoft and Philip Morris on Monday](https://finnhub.io/api/news?id=ded18f82131191a23b4b991d08be723869d8113d0c9803e69a8f6c86d7345033)**  
 *Yahoo · 1h前*  
-SANTA CLARA, Calif., November 03, 2026--Arista Networks, Inc. (NYSE: ANET), an industry leader in data-driven, client-to-cloud networking for large AI, data cen…
+The fund bought $158.6 million of stock, lifting all 69 of its increased positions with no sales.
 
 ---
 
@@ -59,4 +59,4 @@ SANTA CLARA, Calif., November 03, 2026--Arista Networks, Inc. (NYSE: ANET), an i
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:03 HKT*
