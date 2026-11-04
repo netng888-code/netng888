@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$175.40** |
-| 今日變動 | ▼ $2.94　(-1.65%) |
+| 現價 | **$171.70** |
+| 今日變動 | ▼ $3.70　(-2.11%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $289　(▲37.8%) |
+| 未實現盈虧 | ▲ $266　(▲34.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $178.51 | — |
-| Put Wall（支撐） | $160.00 | -8.8% |
-| Call Wall（阻力） | $200.00 | +14.0% |
+| Gamma Flip | $174.71 | — |
+| Put Wall（支撐） | $170.00 | -1.0% |
+| Call Wall（阻力） | $200.00 | +16.5% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[ETFs Bought $108.2 Million of Palantir (PLTR) on Monday](https://finnhub.io/api/news?id=74c21e0dc99883793f8a8b7c7b665c0aafe6f8730304eeece285b44083bf335d)**  
+- **[Cathie Wood buys $10.9 million of tumbling tech stock](https://finnhub.io/api/news?id=74c956f9d3c3d12349a37dfe30ea31571b899d82ea4f66fccce5e94ac29d8cb5)**  
 *Yahoo · 2h前*  
-ETFs added $108.2 million of Palantir shares on Monday, with 39 funds buying and 21 selling.
+Here are Cathie Wood’s latest moves.
 
-- **[Palantir Just Did This for the First Time Ever. Is the Stock a Buy?](https://finnhub.io/api/news?id=ca2272b61726b7b296398f89884c7ebf0e7d7c84aed973d236c8286ed5156cd9)**  
-*Yahoo · 2h前*  
-Palantir just delivered another blowout earnings report.
-
-- **[Is Snowflake Stock A Buy Today?](https://finnhub.io/api/news?id=9a3fbd9d9072ed5ea547c71188e49464616a384b38ca932fe0eef3380a0dc92c)**  
+- **[Cathie Wood Picks a Side Between Palantir and Google](https://finnhub.io/api/news?id=05933ca5e95d88ce6b1218cf650726df8ff9135754ae7c3f690bb51adc4b23b9)**  
 *Yahoo · 3h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Both stocks fell after earnings, but ARK responded very differently.
+
+- **[Why Palantir Technologies Stock Dropped Today](https://finnhub.io/api/news?id=74250aa1aabdc5600ccf6bfe9c98bfdc5b628116125fc55fd24681a4509ed926)**  
+*Yahoo · 5h前*  
+Election 2026 wasn't good news for Palantir stock -- but it might not be horrible news, either.
 
 ---
 
@@ -48,7 +48,7 @@ For questions about this article or underlying research, email help@trefis.com.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-04 | 監控 | $175.40 | — | 自動更新 |
+| 2026-11-05 | 監控 | $171.70 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
