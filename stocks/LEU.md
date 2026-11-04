@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$95.67** |
-| 今日變動 | ▲ $0.77　(+0.81%) |
+| 現價 | **$92.58** |
+| 今日變動 | ▼ $3.09　(-3.23%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $815　(▼51.6%) |
+| 未實現盈虧 | ▼ $839　(▼53.1%) |
 
 ---
 
@@ -20,18 +20,18 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $148.58 | — |
-| Put Wall（支撐） | $95.00 | -0.7% |
-| Call Wall（阻力） | $110.00 | +15.0% |
+| Gamma Flip | $148.66 | — |
+| Put Wall（支撐） | $90.00 | -2.8% |
+| Call Wall（阻力） | $110.00 | +18.8% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
 - **[Centrus Spent $116 Million on a Supplier With Oil and Gas Customers. Here's the Nuclear Reason Why.](https://finnhub.io/api/news?id=1fa34a44d465b33d31f43ff8337decc8743d68f04c099a9dd9290290498fda9d)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Centrus Energy's recent acquisition boosts its nuclear supply chain and diversifies earnings.
 
 - **[Zacks Industry Outlook Highlights Southern Copper, Freeport-McMoRan, First Quantum Minerals, Lundin Mining and Centrus Energy](https://finnhub.io/api/news?id=589628f6041bdc6e0c85795cffd69a1a21d6866afe3b3a44ec7d00520809e546)**  
@@ -47,7 +47,7 @@ SCCO, FCX, FQVLF, LUNMF and LEU offer growth opportunities amid metal price vola
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-04 | 監控 | $95.67 | — | 自動更新 |
+| 2026-11-05 | 監控 | $92.58 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ SCCO, FCX, FQVLF, LUNMF and LEU offer growth opportunities amid metal price vola
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
