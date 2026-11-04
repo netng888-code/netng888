@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-11-04 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$2.61** |
-| 今日變動 | ▲ $0.10　(+3.98%) |
+| 現價 | **$2.65** |
+| 今日變動 | ▲ $0.04　(+1.53%) |
 | 持倉數量 | 30 股 |
 | 平均成本 | $11.743 |
-| 未實現盈虧 | ▼ $274　(▼77.8%) |
+| 未實現盈虧 | ▼ $273　(▼77.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $2.55 | — |
-| Put Wall（支撐） | $2.50 | -4.2% |
-| Call Wall（阻力） | $5.00 | +91.6% |
+| Gamma Flip | $2.53 | — |
+| Put Wall（支撐） | $2.50 | -5.7% |
+| Call Wall（阻力） | $5.00 | +88.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -40,7 +40,7 @@ Clarivate (CLVT) delivered earnings and revenue surprises of +10.53% and -17.23%
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-04 | 監控 | $2.61 | — | 自動更新 |
+| 2026-11-05 | 監控 | $2.65 | — | 自動更新 |
 
 ---
 
@@ -51,4 +51,4 @@ Clarivate (CLVT) delivered earnings and revenue surprises of +10.53% and -17.23%
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 07:05 HKT*
