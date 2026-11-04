@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,9 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AT&T and AST SpaceMobile: Engineering the Connected World, One Handoff at a Time](https://finnhub.io/api/news?id=02815fb558db87647ac4625f2eb2bd9761260736bd02905cf4f4412f9e82b782)**  
-*Yahoo · 1d前*  
-DALLAS & MIDLAND, Texas, November 02, 2026--AT&T and AST SpaceMobile, with supporting ground-based technology from Ericsson and Nokia, have achieved what we bel…
+- **[Nokia vs. AT&T: Comparing Cyclical Sales Patterns vs. Steady Revenue](https://finnhub.io/api/news?id=18e9d95337f37fb5f39703f3f95182a48ad34017501d938d0fb57dc022019207)**  
+*Yahoo · 8h前*  
+AT&T's revenue base dwarfs Nokia's by roughly five times, but Nokia's sharp Q4 spikes reveal a business model that operates on a different rhythm entirely.
+
+- **[Nokia vs. Verizon: A Contrast in Revenue Scale and Seasonality](https://finnhub.io/api/news?id=1b33a630f2140819f050e5441f0691116a7c653258d2990105a74a28590b2925)**  
+*Yahoo · 15h前*  
+Verizon's revenue runs 6x larger, but Nokia's year-end surges reveal a pattern that could signal timing opportunities for contrarian investors.
+
+- **[Moody’s lifts Nokia to Baa3 investment grade on AI and cloud momentum](https://finnhub.io/api/news?id=a9ebc8f2e065eeae475e7b8817f011e0c9c6a117ebabc99139df83faf420a8e8)**  
+*Yahoo · 20h前*  
+Investing.com -- Moody’s Ratings upgraded Nokia (NYSE:NOK) to investment-grade territory on Tuesday, lifting its long-term issuer and senior unsecured ratings t…
 
 ---
 
@@ -51,4 +59,4 @@ DALLAS & MIDLAND, Texas, November 02, 2026--AT&T and AST SpaceMobile, with suppo
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
