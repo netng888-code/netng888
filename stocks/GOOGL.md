@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Do You Know How Much of Your 401(k) Is Riding on the AI Trade Voters Want Paused?](https://finnhub.io/api/news?id=b82ceb28034c91dd44a7f5f232cfc45fa1846a4b4730aa7bc76ba527d8d050f1)**  
+- **[Social Buzz: Wallstreetbets Stocks Mostly Higher Premarket Wednesday; Super Micro Computer, AMD to Advance](https://finnhub.io/api/news?id=f85c64af21c48183ee83bb2cb5a93d24d1f197ca2767899c4cee350ee4c5f949)**  
 *Yahoo · 1h前*  
-Picture a married near-retiree with $720,000 of their 401(k) in an S&P 500 index fund. That one fund puts roughly $345,600 into the AI trade without a single st…
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mostly higher hours before W
 
-- **[Alphabet's Free Cash Flow Just Turned Negative. Should Investors Sell the Stock Now?](https://finnhub.io/api/news?id=31d3b7be9c04fd10290afd7ff68d7cc2d67fcebab8d448722721c656da8ae4bc)**  
+- **[Classrooms face tech nightmare as Google holds basic search hostage over AI backlash](https://finnhub.io/api/news?id=82ced60e758567f18f9e911da338f565c5b433f746d5bb1ef7e8c2d15e2ed9c5)**  
 *Yahoo · 1h前*  
-Alphabet is spending hundreds of billions of dollars to build its AI infrastructure. But with free cash flow turning negative, should investors be worried about…
+Students using Google software in schools will not be allowed to use Google search unless their school system also provides them access to artificial intelligen…
 
-- **[Uber president Jill Hazelbaker joins OpenAI as communications chief](https://finnhub.io/api/news?id=d4fad8047257a94e81f7d0f7b413ccde7390ccb28498c4447bee95d44ef601ed)**  
-*Yahoo · 2h前*  
-Investing.com -- Uber Technologies Inc. announced Tuesday that President Jill Hazelbaker will leave the ride-hailing company to become chief corporate affairs o…
+- **[Market Chatter: Alphabet's Google Expands Voluntary Employee Exit Packages to Five More Countries](https://finnhub.io/api/news?id=76e66856a605d29ccd7ad77e2447abec3c99ce06a29dd4127ee761189376417e)**  
+*Yahoo · 1h前*  
+Alphabet's Google (GOOGL, GOOG) expanded its voluntary employee exit program to certain workers in C
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Uber Technologies Inc. announced Tuesday that President Jill Ha
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:03 HKT*
