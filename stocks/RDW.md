@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-04 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SpaceX Launch Customer Varda Says a Single Flight Could Help Make Medicine for Millions](https://finnhub.io/api/news?id=a339b12c1279388065ee46aa3433a0e98aebd3b567c9dd56e56b2e6230bdc6a7)**  
-*Benzinga · 1d前*  
-Varda says one SpaceX flight could produce drug crystals capable of supporting medicine for millions of patients.
+- **[Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny](https://finnhub.io/api/news?id=ab7445f3ab674db3bd4b2d1759bc98c28cb059825382c2c8b0cdaf25e9831c86)**  
+*Yahoo · 6h前*  
+Morgan Stanley valued SpaceX slightly below the S&P 500 on projected 2028 earnings and forecast positive free cash flow by 2031.
 
-- **[You Can Do Better Than SpaceX: 2 Industrial Stocks to Buy Instead](https://finnhub.io/api/news?id=82dd80997bbfa84e4dbe719f1d591ba824dbafa1dc06cf26a4735fb628a09bae)**  
-*Yahoo · 1d前*  
-SpaceX gets the headlines, but Rocket Lab and Redwire offer other ways to invest in the space boom, with very different valuations and risks.
+- **[Redwire Just Dropped 25% in a Month. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=d844e0516c89a5cb37341a84a51aec5dea56cd14aa868752dd9584b0a19ca300)**  
+*Yahoo · 15h前*  
+Key TakeawaysRedwire stock is down 25% in the past month with no bad news of its own, as space stocks and high-flying tech sold off together. The company kept w…
 
-- **[Redwire In Play Ahead of Earnings: Here’s What Investors Need to Know](https://finnhub.io/api/news?id=f3cbf6171919a95fa3ff4b9f2a0952fc449bc19640df9a21098b0b8518ee6eaf)**  
-*Benzinga · 1d前*  
-Redwire shares are in the spotlight Monday ahead of earnings, with backlog growth, gross margins and improving technical momentum in focus.
+- **[Redwire Exec at AUSA: Some Defense Solutions Worth More Than the Price Tag](https://finnhub.io/api/news?id=dabe67d482dd148994e56491a44394bc5bca3847c6c8024725e8d396b00d3fbb)**  
+*Yahoo · 21h前*  
+What matters most when military organizations evaluate autonomous systems: cost, capability, reliability, or battlefield performance? In this NYSE Live intervie…
 
 ---
 
@@ -59,4 +59,4 @@ Redwire shares are in the spotlight Monday ahead of earnings, with backlog growt
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
