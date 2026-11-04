@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-04 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$206.69** |
-| 今日變動 | ▲ $4.63　(+2.29%) |
+| 現價 | **$200.13** |
+| 今日變動 | ▼ $6.56　(-3.17%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▲ $353　(▲9.3%) |
+| 未實現盈虧 | ▲ $221　(▲5.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $202.83 | — |
-| Put Wall（支撐） | $200.00 | -3.2% |
-| Call Wall（阻力） | $210.00 | +1.6% |
+| Gamma Flip | $204.26 | — |
+| Put Wall（支撐） | $200.00 | -0.1% |
+| Call Wall（阻力） | $210.00 | +4.9% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Stock Market Today: Democrats Take Congress as AMD’s Blowout Quarter Pulls Chip Stocks Back Into the Light](https://finnhub.io/api/news?id=6c01e2cdb186899dc3b21da399897f24a4b372a5902347b18559b73ec6358c7a)**  
-*ChartMill · 0h前*  
-Nasdaq futures dropped overnight as the midterm results came in, then recovered after one sentence from the president. That tells you how much of this market co…
-
-- **[Why SK Hynix Plunged in October](https://finnhub.io/api/news?id=e94f2b8ed0806c8eee0b072cf8ea2e253ce105c40cc1b7aa15af58cedff9635f)**  
+- **[2 ETFs I'm Buying and Holding for Decades -- No Matter What the Market Does](https://finnhub.io/api/news?id=3913e98ddb1ef80c181a4d2d357b8317040178eb3a2f9cae60874e2fac9bcafe)**  
 *Yahoo · 1h前*  
-Outstanding earnings and soaring profits weren't enough to defy last month's AI stock selloff.
+Instead of picking stocks, I buy all the stocks. These two ETFs seem like solid long-term choices for buy-and-hold investors.
 
-- **[Stock Market Election News: Dow Futures Reverse Higher, AMD, Arista Rally After Democrats Sweep; SpaceX, Tesla Are Losers (Live)](https://finnhub.io/api/news?id=6510cc2abd04c55df2e7f57276f982d458162adee560f2957dcf02cb336437da)**  
+- **[Colliers International Group Inc. Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=3a1e23c2f873492f34ccc4dd4a689bc4a438f63373d96e42ceb982e55c9d06c1)**  
 *Yahoo · 1h前*  
-Stock market today: Dow futures and many AI stocks reversed higher after Democrats' big election night. But Elon Musk's Tesla, SpaceX are losers.
+Moby summary of Colliers International Group Inc.'s Q3 2026 earnings call
+
+- **[Walmart (WMT) Stock Is Down 3%. Here's Why I'd Buy in November and Hold for a Decade.](https://finnhub.io/api/news?id=7091c5284efe7a64c8c63e2b7307e2e9ed6fa48b294bf783d241193dad7348bc)**  
+*Yahoo · 1h前*  
+The retail giant is still an evergreen investment.
 
 ---
 
@@ -48,7 +48,7 @@ Stock market today: Dow futures and many AI stocks reversed higher after Democra
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-04 | 監控 | $206.69 | — | 自動更新 |
+| 2026-11-05 | 監控 | $200.13 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Stock market today: Dow futures and many AI stocks reversed higher after Democra
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-04 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
