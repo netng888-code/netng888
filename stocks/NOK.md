@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nokia vs. AT&T: Comparing Cyclical Sales Patterns vs. Steady Revenue](https://finnhub.io/api/news?id=18e9d95337f37fb5f39703f3f95182a48ad34017501d938d0fb57dc022019207)**  
-*Yahoo · 18h前*  
-AT&T's revenue base dwarfs Nokia's by roughly five times, but Nokia's sharp Q4 spikes reveal a business model that operates on a different rhythm entirely.
+- **[Inseego Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=cf4f7c8a9439f660f3b1f1eac47895fe21af9693e931715fb14c518b9cc1e39f)**  
+*Yahoo · 9h前*  
+Inseego (NASDAQ:INSG) reported third-quarter revenue of $33.3 million and outlined a weaker near-term outlook for its North American business as a delayed fixed…
 
-- **[Nokia vs. Verizon: A Contrast in Revenue Scale and Seasonality](https://finnhub.io/api/news?id=1b33a630f2140819f050e5441f0691116a7c653258d2990105a74a28590b2925)**  
-*Yahoo · 1d前*  
-Verizon's revenue runs 6x larger, but Nokia's year-end surges reveal a pattern that could signal timing opportunities for contrarian investors.
+- **[Inseego Reports Third Quarter 2026 Financial Results](https://finnhub.io/api/news?id=1f4fa0c60328b68dd6e1181d017494c84a3013730e32ba979ee20b63e416d695)**  
+*Yahoo · 15h前*  
+Q3 2026 revenue of $33.3 millionQ3 2026 Adjusted EBITDA* of Negative $1.0 million and GAAP Net Loss of $8.1 millionAnnounced completion of the acquisition of No…
 
-- **[Moody’s lifts Nokia to Baa3 investment grade on AI and cloud momentum](https://finnhub.io/api/news?id=a9ebc8f2e065eeae475e7b8817f011e0c9c6a117ebabc99139df83faf420a8e8)**  
-*Yahoo · 1d前*  
-Investing.com -- Moody’s Ratings upgraded Nokia (NYSE:NOK) to investment-grade territory on Tuesday, lifting its long-term issuer and senior unsecured ratings t…
+- **[Can ASTS' Handoff Test With AT&T Strengthen Its Growth Prospects?](https://finnhub.io/api/news?id=45d401eaa55bf29116bff187650c8a9cf2cc1cb87e39354616ea749ad4cbc4e5)**  
+*Yahoo · 22h前*  
+AST SpaceMobile successfully demonstrates seamless switching between cellular towers and satellites with AT&T, advancing its push toward commercial satellite co…
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Moody’s Ratings upgraded Nokia (NYSE:NOK) to investment-grade
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
