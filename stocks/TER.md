@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$250.99** |
-| 今日變動 | ▼ $18.36　(-6.82%) |
+| 現價 | **$212.74** |
+| 今日變動 | ▼ $38.25　(-15.24%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $795　(▲172.8%) |
+| 未實現盈虧 | ▲ $604　(▲131.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $141.89 | — |
-| Put Wall（支撐） | $220.00 | -12.3% |
-| Call Wall（阻力） | $270.00 | +7.6% |
+| Gamma Flip | $139.18 | — |
+| Put Wall（支撐） | $195.00 | -8.3% |
+| Call Wall（阻力） | $310.00 | +45.7% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Has The Market Missed In Lam Research Stock's Drop?](https://finnhub.io/api/news?id=b3baae2729b43421ca14560fb3573ab1d894fe8da7766326cfb561c96c50c0cf)**  
+- **[4 Strong Buy AI Stocks to Consider Amid the Tech Selloff: CLS, DELL, TER & AXTI](https://finnhub.io/api/news?id=616376f59e8341143f45536a15aa336dac1054a7c236b808e33da94cb7a35e62)**  
 *Yahoo · 2h前*  
-For questions about this article or underlying research, email help@trefis.com.
+The tech selloff is presenting compelling buying opportunities in these four Strong Buy stocks that are benefiting from booming demand for AI infrastructure and…
 
-- **[Teradyne: Profit Taking Continues - AI Meltdown Is A Contrarian Gift](https://finnhub.io/api/news?id=6a85a4fc6dea19ed1914699a8297a2863ac083d0584f5ba39f56c7564234e360)**  
-*SeekingAlpha · 8h前*  
-Teradyneâs AI revenue, higher memory exposure and anticipated fab ramps position it for outsized 2027 growth. Read why TER stock is a buy.
+- **[Applied Materials Sinks 12%, Lam Research Down 14% as Chip Stock Rout Deepens After Midterms](https://finnhub.io/api/news?id=5db09675ebe4fefdea33cf21acdc3422be3945f0b8e147e3e859392e89b0f576)**  
+*Yahoo · 4h前*  
+Key TakeawaysApplied Materials fell 12% today as the chip sell-off that began after the midterms deepened, pulling down Lam Research, KLA and Teradyne. Investor…
 
-- **[Should You Buy, Sell, or Hold TER Stock After a 53% Rise in One Year?](https://finnhub.io/api/news?id=dce42e63cb3ea2a78742ff5009f5f45cf07362f1ed68c2df0591175074e9895a)**  
-*Yahoo · 18h前*  
-Teradyne stock rallies 53% in a year, driven by strong AI infrastructure demand, semiconductor testing growth, and robotics momentum, supporting a positive outl…
+- **[Rockwell Automation Q4 Earnings Beat Estimates on Margin Gains](https://finnhub.io/api/news?id=ce7119c063575a40a00f3f3e9a548a97b1d76e9fd117857bb744ee5b706fd62e)**  
+*Yahoo · 6h前*  
+ROK beats Q4 earnings estimates as margin gains and strong segment performance support profit growth.
 
 ---
 
@@ -48,7 +48,7 @@ Teradyne stock rallies 53% in a year, driven by strong AI infrastructure demand,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-05 | 監控 | $250.99 | — | 自動更新 |
+| 2026-11-06 | 監控 | $212.74 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne stock rallies 53% in a year, driven by strong AI infrastructure demand,
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
