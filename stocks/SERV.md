@@ -1,6 +1,6 @@
 # SERV — Serve Robotics
 
-> 最後更新：2026-11-05 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Clarivate PLC (CLVT) Beats Q3 Earnings Estimates](https://finnhub.io/api/news?id=8a2ad0f3765a4029df3a6c1748bf2298f96f2455de103e2bcf7c11c901e4cd6f)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Clarivate (CLVT) delivered earnings and revenue surprises of +10.53% and -17.23%, respectively, for the quarter ended September 2026. Do the numbers hold clues …
 
 ---
@@ -51,4 +51,4 @@ Clarivate (CLVT) delivered earnings and revenue surprises of +10.53% and -17.23%
 - [TradingView](https://www.tradingview.com/chart/?symbol=SERV)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:05 HKT*
