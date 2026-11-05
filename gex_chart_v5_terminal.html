@@ -689,13 +689,17 @@
     同步bridge v3.24：NVDA冇FCF（capex用PaymentsToAcquireProductiveAssets tag）已補。
   v5.41c（2026-10-25）：Finnhub攞唔到FCF時bridge v3.23改用SEC最近4季加總，批量fundamentals冷cache
     要逐隻打SEC，前端timeout 60→150秒；基本面欄頭加診斷提示（bridge未升級／Finnhub冇FCF key）。
+  v5.44（2026-11-05）：持倉更新——MRVL按紀律（跌穿$177.7考慮減）已沽出3股@$170.00（10→7股，成本不變$257.303，
+    已實現約-$261.91＝(170−257.303)×3；假設成交價即$170.00，實際以Futu成交紀錄為準）。PORTFOLIO.MRVL.qty 10→7；
+    持倉仍18隻（MRVL未清倉），tab標題／HOLDINGS quicklinks／bridge US_STOCKS不變。其餘五檔（CSV／index.html／
+    telegram_bot v1.28／github_gex_updater）同步；futu_bridge_v2.py只存symbol唔存股數，唔使改。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.43)</title>
+<title>GEX Chart — Futu Bridge (v5.44)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -1826,7 +1830,7 @@ const PORTFOLIO = {
   'GOOGL':{qty:20,  cost:245.04  },
   'NVDA': {qty:20,  cost:189.0625},
   'AVGO': {qty:10,  cost:378.602 },
-  'MRVL': {qty:10,  cost:257.303 },
+  'MRVL': {qty:7,   cost:257.303 },
   'TER':  {qty:5,   cost:92.00   },
   'META': {qty:3,   cost:606.333 },
   'NOK':  {qty:200, cost:12.458  },
