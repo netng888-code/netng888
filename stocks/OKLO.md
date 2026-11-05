@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$22.12** |
-| 今日變動 | ▼ $1.37　(-5.83%) |
+| 現價 | **$19.20** |
+| 今日變動 | ▼ $2.92　(-13.20%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▼ $318　(▼26.4%) |
+| 未實現盈虧 | ▼ $434　(▼36.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $25.38 | — |
-| Put Wall（支撐） | $20.00 | -9.6% |
-| Call Wall（阻力） | $35.00 | +58.2% |
+| Gamma Flip | $24.45 | — |
+| Put Wall（支撐） | $17.50 | -8.9% |
+| Call Wall（阻力） | $35.00 | +82.3% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Better Nuclear Energy Stock to Buy After the Sell-Off: Oklo vs. BWX Technologies](https://finnhub.io/api/news?id=1ae3500ca30b6ff58476dd1556c9ad5ba03487f2644a0eba5c1ef3e5622d838c)**  
-*Yahoo · 8h前*  
-Nuclear stocks are in a sell-off, and there might be opportunities for investors at these prices.
+- **[Oklo Sank 10% a Day After the Democratic Sweep Rattled AI Power Stocks. Here’s What Friday’s Report Has to Settle](https://finnhub.io/api/news?id=d422372b73906de75f448896a7d97c15aad9cd6b8344686db5cf757665ec608a)**  
+*Yahoo · 7h前*  
+Key TakeawaysOklo fell 10% on Thursday morning to another 52-week low, a day after a 6% drop when Democrats were projected to win Congress. That’s about 15% in …
 
-- **[Mine, Enrich, Build, Operate: Which Link in the Nuclear Supply Chain Is the Best Stock Right Now?](https://finnhub.io/api/news?id=dea8ef004012cf5c0f4ca588ca62947ca93c5e02c157cf83dc83312f415abc15)**  
+- **[NuScale's Modular Reactors Offer Flexible Clean Energy Supply](https://finnhub.io/api/news?id=277aa0b91820e267947f6a16a8d4795db074ff2fe451dd02fa49c829f5fd0c02)**  
 *Yahoo · 9h前*  
-With demand for electricity growing at a rapid clip, nuclear power is increasingly important.
+SMR's NRC-approved reactor technology, passive safety features and expanding commercialization plans position it to serve rising industrial electricity needs.
 
-- **[NuScale Hit a 52-Week Low as Barclays Turned Bearish. Here’s What Thursday’s Report Must Show](https://finnhub.io/api/news?id=2e00a6d9c670c0aece45691540a3680366b62e6c83eba8e787ece619c8c9360f)**  
-*Yahoo · 16h前*  
-Key TakeawaysNuScale Power hit a 52-week low on Oct. 20 after Barclays downgraded it to Underweight and cut its target to $5 from $11, and it reports third-quar…
+- **[Better Nuclear Energy Stock to Buy After the Sell-Off: Oklo vs. BWX Technologies](https://finnhub.io/api/news?id=1ae3500ca30b6ff58476dd1556c9ad5ba03487f2644a0eba5c1ef3e5622d838c)**  
+*Yahoo · 18h前*  
+Nuclear stocks are in a sell-off, and there might be opportunities for investors at these prices.
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysNuScale Power hit a 52-week low on Oct. 20 after Barclays downgrade
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-05 | 監控 | $22.12 | — | 自動更新 |
+| 2026-11-06 | 監控 | $19.20 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysNuScale Power hit a 52-week low on Oct. 20 after Barclays downgrade
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
