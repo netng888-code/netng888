@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $615.63 | — |
+| Gamma Flip | $613.81 | — |
 | Put Wall（支撐） | $600.00 | -4.8% |
 | Call Wall（阻力） | $750.00 | +19.0% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: Elections, Plunging Oil Fuel Big Rally; Apple, Microsoft, Amazon Flash Buy Signals. CoreWeave, SpaceX Skid.](https://finnhub.io/api/news?id=52279df7ab8987a60569cafcbfad0ecbaf0a195517a6c27e52b0b5dd73208f7f)**  
+- **[Massive market rotation raises question: Is the sell-AI trade here to stay?](https://finnhub.io/api/news?id=3ce2470bd15956d59ed8b005dece062785272576d526810ee4396f6181fd8a61)**  
 *Yahoo · 1h前*  
-Elections and diving oil prices sparked a stock market surge. Stocks from many sectors flash buy signals, but avoid this area.
+Investing.com - Tech saw a sharp rotation into hyperscalers on Wednesday, while semiconductors and data center infrastructure stocks came under pressure as a De…
 
-- **[TV Veteran Rich Latour To Head Meta's Branding Strategy](https://finnhub.io/api/news?id=7fb14aa3be7841f5ca64db4819e82b0f4d36c28375c742c8afd5f58553e37810)**  
+- **[Dow Jones Futures Rise As Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals](https://finnhub.io/api/news?id=22d3420505da267288919568aa0918efb5652b523890bdbdbe088df0977a206f)**  
 *Yahoo · 1h前*  
-Latour will run Meta's social media and content teams within the company's communications and public affairs division, reporting to division head Tucker Bounds.
+The Dow is still leading the postelection rally. Stocks from many sectors flash buy signals, but avoid this area.
 
-- **[Apple Reportedly Tightens the Belt On Employee AI Budgets Amid Cost-Cutting Drive](https://finnhub.io/api/news?id=a99462b27454107a4ea7ed17b64f0cc236dc02686a28f07b2233f6fcbfa8a976)**  
+- **[The Wait Is Over: 2 Historic Artificial Intelligence (AI) Stock Splits Were Just Announced](https://finnhub.io/api/news?id=c1a7cab955a9af215d252447118bb98d8c13a164267ff1fd869f9fc279413cf9)**  
 *Yahoo · 1h前*  
-Apple Inc. is scaling back daily AI usage budgets for engineers and staff as part of a broader push to trim corporate spending, Bloomberg reported.
+These industry titans are conducting their first-ever forward stock splits.
 
 ---
 
@@ -59,4 +59,4 @@ Apple Inc. is scaling back daily AI usage budgets for engineers and staff as par
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
