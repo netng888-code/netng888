@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Falls 4%, SpaceX Down 4% as Midterms Make Musk the “Biggest Loser”](https://finnhub.io/api/news?id=52406f7d101ae1da14af05a2410d2b930c81671b7f3a025d7084fc765947a0d9)**  
-*Yahoo · 1h前*  
-Key TakeawaysRocket Lab shares fell 4% after Democrats swept Tuesday’s midterms and the backlash against Elon Musk spread across space stocks. AST SpaceMobile a…
+- **[Why Rocket Lab Stock Plunged 15% in October and Why Its Decline Might Be Short-Lived](https://finnhub.io/api/news?id=2e512781e89df72916f78120d1bba9927f5740e036b021f53b2ff54452fcc0e6)**  
+*Yahoo · 4h前*  
+Volatility is part of the cost of admission for the rocket launch and satellite specialist.
 
-- **[Got $5,000? 2 Growth Stocks Powering the Next Phase of the Space Economy.](https://finnhub.io/api/news?id=266dd9e726b6d7b14354d672eb851eb63259410d0c19fca5708789f8eec658ff)**  
-*Yahoo · 5h前*  
-Rocket Lab and Planet Labs offer distinct growth opportunities as satellite infrastructure expands and demand for space-based intelligence increases.
+- **[SpaceX Targets Wireless And AI Riches, Rocket Lab Nears 100 Launches — What’s Moving Space Stocks](https://finnhub.io/api/news?id=6758f859d592a66f59940af1faefbfb13af96b64927aa720d5852e0cca17f2dd)**  
+*Yahoo · 6h前*  
+RDW missed revenue estimates, while VOYG beat sales forecasts and added NASA work.
 
-- **[Rocket Lab to Report Q3 Earnings: Should Investors Hold or Fold?](https://finnhub.io/api/news?id=b3be26e735fd2b41591c5e4666eab3b38355dc5d7fcb972e7f283311e0192759)**  
-*Yahoo · 7h前*  
-RKLB Q3 earnings outlook signals strong revenue growth, but margin pressure, premium valuation and a 27.3% stock decline raise questions for investors.
+- **[Intuitive Machines and Rocket Lab: A Comparison of Spiking Sales Versus Steady Revenue](https://finnhub.io/api/news?id=1121cd25c78f418eab444987d00e1a48463469048b2ceed3f37476623544719e)**  
+*Yahoo · 8h前*  
+Intuitive Machines went flat for two years before tripling revenue, while Rocket Lab grew steadily -- but the gap is closing fast.
 
 ---
 
@@ -59,4 +59,4 @@ RKLB Q3 earnings outlook signals strong revenue growth, but margin pressure, pre
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
