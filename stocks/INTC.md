@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$58.27** |
-| 今日變動 | ▼ $2.28　(-3.77%) |
+| 現價 | **$52.25** |
+| 今日變動 | ▼ $6.02　(-10.33%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $487　(▼45.5%) |
+| 未實現盈虧 | ▼ $548　(▼51.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $65.56 | — |
-| Put Wall（支撐） | $55.00 | -5.6% |
-| Call Wall（阻力） | $70.00 | +20.1% |
+| Gamma Flip | $62.99 | — |
+| Put Wall（支撐） | $50.00 | -4.3% |
+| Call Wall（阻力） | $70.00 | +34.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AMD Faces Nvidia Software Hurdle, While Intel Could Reclaim PC Market Share, Morningstar Says](https://finnhub.io/api/news?id=96f046623a2f6ab59316d93d7c6782e18c28ac88bee632896232773a9c8285bf)**  
+- **[Intel's stock crash shares an uncanny resemblance to its 2000 bust](https://finnhub.io/api/news?id=125b955ef01ed09f0fef76163ef2ce6bf18871ef40a324a043ccb82ff981f7d9)**  
 *Yahoo · 1h前*  
-Morningstar senior analyst Brian Colello said AMD needs to strengthen its software capabilities to challenge Nvidia’s AI dominance.
+Intel stock's 26-year comeback and subsequent reckoning this year carry an eerie echo of its dot-com days.
 
-- **[Intel CEO Just Bought Nearly $10 Million in Stock](https://finnhub.io/api/news?id=7c6fa9ffaacda264946d0e98a3ccc4593eae27886e79a10db04817757a5ea3e8)**  
+- **[Nasdaq Stock Market Correction: History Says This Is What Happens Next](https://finnhub.io/api/news?id=8d6b0f4e82fa1b3a8e884771daa7d717f6c776fbf4ebd5ded47bd77c70bdb920)**  
 *Yahoo · 1h前*  
-Intel Stock Sinks 50% in a Month as CEO Makes Surprise $9.7 Million Purchase
+The Nasdaq Composite is officially in correction territory. Here's what past corrections suggest about the months ahead.
 
-- **[Capital Group Global Growth (CGGO) Buys $51.3 Million More ICE on Nov. 3](https://finnhub.io/api/news?id=c95b400bb1cc28f925cc0d1b43347020c3b39f14440b2c4c05b33a9019c5755d)**  
-*Yahoo · 1h前*  
-The ETF added a new Intercontinental Exchange stake worth $51.3 million, part of $70.6 million in net buying across 51 increased positions.
+- **[Is AMD Stock a Buy as AI Revenue Soars?](https://finnhub.io/api/news?id=60ff0562859a02ca3ea6023b4717548b8724d9426baf05cb64b9517498bfd362)**  
+*Yahoo · 2h前*  
+AMD expects its revenue to surge 80% next year.
 
 ---
 
@@ -48,7 +48,7 @@ The ETF added a new Intercontinental Exchange stake worth $51.3 million, part of
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-05 | 監控 | $58.27 | — | 自動更新 |
+| 2026-11-06 | 監控 | $52.25 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The ETF added a new Intercontinental Exchange stake worth $51.3 million, part of
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
