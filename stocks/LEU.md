@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Centrus Spent $116 Million on a Supplier With Oil and Gas Customers. Here's the Nuclear Reason Why.](https://finnhub.io/api/news?id=1fa34a44d465b33d31f43ff8337decc8743d68f04c099a9dd9290290498fda9d)**  
-*Yahoo · 2d前*  
-Centrus Energy's recent acquisition boosts its nuclear supply chain and diversifies earnings.
+- **[Centrus Q3 Profit Surges on Warrant Gain as Fuel Expansion Advances](https://finnhub.io/api/news?id=818792da408fe93c32c0166bc0ae8a51cee530470e491236d9aef48d2f4c696e)**  
+*Yahoo · 10h前*  
+Centrus Energy reports higher quarterly net income and accelerates its U.S. uranium enrichment expansion despite declining revenue and an adjusted loss.
 
-- **[Zacks Industry Outlook Highlights Southern Copper, Freeport-McMoRan, First Quantum Minerals, Lundin Mining and Centrus Energy](https://finnhub.io/api/news?id=589628f6041bdc6e0c85795cffd69a1a21d6866afe3b3a44ec7d00520809e546)**  
-*Yahoo · 2d前*  
-SCCO, FCX, FQVLF, LUNMF and LEU offer growth opportunities amid metal price volatility, rising production costs and supply challenges, supported by energy-trans…
+- **[Centrus Energy Corp. (LEU) Beats Q3 Earnings and Revenue Estimates](https://finnhub.io/api/news?id=74e6ab22a1140c282469195500eaaa3057768228e28d99bf6ec58730782e89d0)**  
+*Yahoo · 13h前*  
+Centrus Energy (LEU) delivered earnings and revenue surprises of +435.71% and +10.96%, respectively, for the quarter ended September 2026. Do the numbers hold c…
 
-- **[Centrus Energy Consensus Price Target Decreased by 13.62% to $205.19](https://finnhub.io/api/news?id=3ac089a5c27deed7134c33effb3d9abee97fd476c49c44a4f2fa8c7437f6ed23)**  
-*Fintel · 2d前*
+- **[Centrus Energy (NYSE:LEU) Slides After Q3 Revenue Miss and Adjusted Loss](https://finnhub.io/api/news?id=57481a807da00996c477aec8c92c61dc870379f2bd2828a27d41c501d92c0763)**  
+*ChartMill · 13h前*  
+Centrus Energy's Q3 2026 revenue missed estimates, with an adjusted loss overshadowing GAAP EPS and triggering a sharp after-hours selloff.
 
 ---
 
@@ -58,4 +59,4 @@ SCCO, FCX, FQVLF, LUNMF and LEU offer growth opportunities amid metal price vola
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
