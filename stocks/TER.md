@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[What Has The Market Missed In Lam Research Stock's Drop?](https://finnhub.io/api/news?id=b3baae2729b43421ca14560fb3573ab1d894fe8da7766326cfb561c96c50c0cf)**  
+*Yahoo · 2h前*  
+For questions about this article or underlying research, email help@trefis.com.
+
+- **[Teradyne: Profit Taking Continues - AI Meltdown Is A Contrarian Gift](https://finnhub.io/api/news?id=6a85a4fc6dea19ed1914699a8297a2863ac083d0584f5ba39f56c7564234e360)**  
+*SeekingAlpha · 8h前*  
+Teradyneâs AI revenue, higher memory exposure and anticipated fab ramps position it for outsized 2027 growth. Read why TER stock is a buy.
+
 - **[Should You Buy, Sell, or Hold TER Stock After a 53% Rise in One Year?](https://finnhub.io/api/news?id=dce42e63cb3ea2a78742ff5009f5f45cf07362f1ed68c2df0591175074e9895a)**  
-*Yahoo · 4h前*  
+*Yahoo · 18h前*  
 Teradyne stock rallies 53% in a year, driven by strong AI infrastructure demand, semiconductor testing growth, and robotics momentum, supporting a positive outl…
-
-- **[Is Teradyne (TER) Changing The Robotics Story With Its New Physical AI Push?](https://finnhub.io/api/news?id=b56d7a331690f3b9591960c0ca65af1400a5385c71f348167ae1cea3afaea8a2)**  
-*Yahoo · 7h前*  
-Teradyne (NasdaqGS:TER) unit Teradyne Robotics has partnered with German AI firm Sereact to deploy physical AI systems for retail and logistics operations. The …
-
-- **[S&P 500 After-Hours Gainers: Tuesday Postmarket Movers](https://finnhub.io/api/news?id=b841c0cf723b24b85d977911a7fc41eb245d56271544418191a11d5cc383e566)**  
-*ChartMill · 1d前*  
-S&P 500 after-hours gainers from Tuesday's US close, led by ANET, SMCI, AMD, XYZ, HPE, BE, CIEN, COHR, DELL and TER, measured from Tuesday closing prices.
 
 ---
 
@@ -59,4 +59,4 @@ S&P 500 after-hours gainers from Tuesday's US close, led by ANET, SMCI, AMD, XYZ
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
