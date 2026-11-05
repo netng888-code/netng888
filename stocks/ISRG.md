@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$482.10** |
-| 今日變動 | ▲ $41.35　(+9.38%) |
+| 現價 | **$468.52** |
+| 今日變動 | ▼ $13.58　(-2.82%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▲ $58　(▲6.4%) |
+| 未實現盈虧 | ▲ $31　(▲3.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $419.01 | — |
-| Put Wall（支撐） | $440.00 | -8.7% |
-| Call Wall（阻力） | $500.00 | +3.7% |
+| Gamma Flip | $420.84 | — |
+| Put Wall（支撐） | $440.00 | -6.1% |
+| Call Wall（阻力） | $480.00 | +2.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Here's Why You Should Retain BTSG Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=75a3914eb1d63ca9b9bea2b202c9ed40e184173f24f5b6acb0bac6b9d97a2104)**  
-*Yahoo · 20h前*  
-BrightSpring's specialty pharmacy growth, Provider Services expansion and operational gains fuel optimism, but IRA pressures and integration risks remain.
+- **[ISRG System Placements Rise 28%: Is Capital Equipment Demand Rising?](https://finnhub.io/api/news?id=199a55f479c39c03533bf20d84723efd7daa24835e50f3d6d612811ffd030f05)**  
+*Yahoo · 5h前*  
+Intuitive Surgical's Q3 system placements surge 28%, fueled by multisystem orders and upgrades, but does this signal sustained capital equipment demand?
 
-- **[Philips Launches HyperVue Integrated System to Improve PCI Workflows](https://finnhub.io/api/news?id=1f6b820b5aa36f6a8239b513a04ae3969a76a85c296e087cde2df398c4388394)**  
-*Yahoo · 21h前*  
-PHG launches HyperVue Integrated in the U.S., combining advanced coronary imaging and AI-driven physiology assessment to streamline cath lab workflows.
+- **[2 Growth Stocks to Buy in November Without Any Hesitation](https://finnhub.io/api/news?id=48158e38d59ae2908eadc529946f93f96bf6a01a5f649f977fb29a4779dab1c7)**  
+*Yahoo · 5h前*  
+They have both outperformed the broader equity market over the long run.
 
-- **[Today's S&P 500 Gap Movers: XYZ and ZBH Lead Gap-Ups, FIS and TRMB Top Gap-Downs](https://finnhub.io/api/news?id=e529c5258033b90232cc48825b175958f03281b5b20038d1a63260517485474d)**  
-*ChartMill · 21h前*  
-S&P 500 gap movers today: XYZ, ZBH, SWK and FSLR led gap-ups, while FIS, TRMB, FIX and SWKS topped gap-downs, with opening gaps, percentage changes and prices.
+- **[BDX Stock Down in Pre-Market Despite Q4 Earnings & Revenue Beat](https://finnhub.io/api/news?id=15cf4bc37c4724026172bc93b933b0adc5ac5cfe5ade560f8f41cfda6ecf1430)**  
+*Yahoo · 6h前*  
+BD stock lost 6.4% in pre-market trading despite Q4 earnings and revenue beat, as its subdued fiscal 2027 revenue growth outlook raises investor concerns.
 
 ---
 
@@ -48,7 +48,7 @@ S&P 500 gap movers today: XYZ, ZBH, SWK and FSLR led gap-ups, while FIS, TRMB, F
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-05 | 監控 | $482.10 | — | 自動更新 |
+| 2026-11-06 | 監控 | $468.52 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ S&P 500 gap movers today: XYZ, ZBH, SWK and FSLR led gap-ups, while FIS, TRMB, F
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
