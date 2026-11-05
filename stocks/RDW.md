@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Midterm Election Impact: SPCX, ASTS, RKLB Stocks Sink As Musk’s Political Ties Put Tesla-SpaceX Merger Under Fresh Scrutiny](https://finnhub.io/api/news?id=ab7445f3ab674db3bd4b2d1759bc98c28cb059825382c2c8b0cdaf25e9831c86)**  
-*Yahoo · 16h前*  
-Morgan Stanley valued SpaceX slightly below the S&P 500 on projected 2028 earnings and forecast positive free cash flow by 2031.
+- **[SpaceX Targets Wireless And AI Riches, Rocket Lab Nears 100 Launches — What’s Moving Space Stocks](https://finnhub.io/api/news?id=6758f859d592a66f59940af1faefbfb13af96b64927aa720d5852e0cca17f2dd)**  
+*Yahoo · 6h前*  
+RDW missed revenue estimates, while VOYG beat sales forecasts and added NASA work.
 
-- **[Redwire Just Dropped 25% in a Month. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=d844e0516c89a5cb37341a84a51aec5dea56cd14aa868752dd9584b0a19ca300)**  
-*Yahoo · 1d前*  
-Key TakeawaysRedwire stock is down 25% in the past month with no bad news of its own, as space stocks and high-flying tech sold off together. The company kept w…
+- **[RDW Stock Drops Overnight Despite Record Margins And Backlog – Here’s Why Retail Bulls Are Betting On 2027](https://finnhub.io/api/news?id=8dc8f027f595b6b447a272fe10062521424e26d7fbad321c3903de1fe6d4120e)**  
+*Yahoo · 11h前*  
+Retail investors see Redwire's rising profit margins and growing defense business as signs of stronger growth.
 
-- **[Redwire Exec at AUSA: Some Defense Solutions Worth More Than the Price Tag](https://finnhub.io/api/news?id=dabe67d482dd148994e56491a44394bc5bca3847c6c8024725e8d396b00d3fbb)**  
-*Yahoo · 1d前*  
-What matters most when military organizations evaluate autonomous systems: cost, capability, reliability, or battlefield performance? In this NYSE Live intervie…
+- **[Redwire (NYSE:RDW) misses Q3 2026 revenue estimates](https://finnhub.io/api/news?id=aa7f890123c214328afe613d43334b7389a05980fb7c62bbbb22e5091c16b836)**  
+*Yahoo · 14h前*  
+Aerospace and defense company Redwire (NYSE:RDW) missed Wall Street’s revenue expectations in Q3 2026, but revenue rose 5.4% year on year to $109 million. On th…
 
 ---
 
@@ -59,4 +59,4 @@ What matters most when military organizations evaluate autonomous systems: cost,
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
