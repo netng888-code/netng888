@@ -1,6 +1,6 @@
 # VRT — Vertiv Holdings
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Vertiv Holdings Co (VRT) Locked In Three Years Of AI Power Chip Supply](https://finnhub.io/api/news?id=83a868378ac8498f009e0f9d2ac7a7fd1dc77865360be2bc15812d34d6c1b8b5)**  
-*Yahoo · 3h前*  
-Vertiv Holdings Co (NYSE:VRT) agreed to a three-year partnership with Infineon Technologies to secure power semiconductor supply for AI infrastructure. The Infi…
+- **[3 Undervalued Stocks To Own In November 2026](https://finnhub.io/api/news?id=3e4c289a69604dbd2534b5cb79f949020c310c3b7232e3e473ca012a34c70fd9)**  
+*Yahoo · 7h前*  
+Energy prices have become a political story again after the US midterm elections, with expectations of tougher oversight for AI data centers and fresh support f…
 
-- **[Why a Democratic Sweep Is Crushing GE Vernova and More Industrial Stocks](https://finnhub.io/api/news?id=026c664429645f63f5905e8fe576b92ddc71435bd5a8433b88dfb958e2fceb8b)**  
-*Yahoo · 4h前*  
-Remember the rule of three before buying into popular industrial stocks after the postelection, AI backlash wipe out.
+- **[Top 3 AI Infrastructure Stocks To Watch In November 2026](https://finnhub.io/api/news?id=c9700700977f02d643725e4ebe3c4ac7fc5363820c84b8aae5b230d795b23367)**  
+*Yahoo · 7h前*  
+AI data center stocks recently dipped while renewables surged after Democratic wins in the US midterms, as investors reacted to talk of tighter oversight for ar…
 
-- **[Should You Buy, Sell, or Hold TER Stock After a 53% Rise in One Year?](https://finnhub.io/api/news?id=dce42e63cb3ea2a78742ff5009f5f45cf07362f1ed68c2df0591175074e9895a)**  
-*Yahoo · 4h前*  
-Teradyne stock rallies 53% in a year, driven by strong AI infrastructure demand, semiconductor testing growth, and robotics momentum, supporting a positive outl…
+- **[Vistra Sinks 16% in a Week to a New 52-Week Low. Is the Texas Selloff Overdone?](https://finnhub.io/api/news?id=cca577ec2263c600077207da31de45ce4d84d14608e408b50352225d729b9834)**  
+*Yahoo · 10h前*  
+Key TakeawaysVistra fell 16% in a week to a new 52-week low, with Vertiv, after Texas elected a governor who promised to halt new data centers. Vistra had hedge…
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne stock rallies 53% in a year, driven by strong AI infrastructure demand,
 - [TradingView](https://www.tradingview.com/chart/?symbol=VRT)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
