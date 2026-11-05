@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$171.70** |
-| 今日變動 | ▼ $3.70　(-2.11%) |
+| 現價 | **$154.99** |
+| 今日變動 | ▼ $16.71　(-9.73%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $266　(▲34.9%) |
+| 未實現盈虧 | ▲ $166　(▲21.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $174.71 | — |
-| Put Wall（支撐） | $170.00 | -1.0% |
-| Call Wall（阻力） | $200.00 | +16.5% |
+| Gamma Flip | $174.20 | — |
+| Put Wall（支撐） | $150.00 | -3.2% |
+| Call Wall（阻力） | $200.00 | +29.0% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Palantir Just Made Company History. Is the Stock a Buy?](https://finnhub.io/api/news?id=16af570968fb478a9f772d44c76f5898b4de311567e721ac39b8eba7a81a04da)**  
+- **[Why Palantir Stock (PLTR) Is Still a Buy After Its Q3 Pullback](https://finnhub.io/api/news?id=5118a403d0a694afa1848388217aa1252d2575943d081c29ad13cc25f6649e6f)**  
 *Yahoo · 1h前*  
-Palantir's business is booming, but I'm concerned about the stock.
+Palantir Technologies’ (PLTR) stock is still a Buy after its Q3 pullback, in my view, because the market may be underestimating the strength of its underlying b…
 
-- **[Cathie Wood Snaps Up $11 Million of Palantir Stock in 'Buy-the-Dip' Move](https://finnhub.io/api/news?id=b86371ccd3434753df3708765dca9dbe8a337bd04bc081d5e29c54df281b93f3)**  
-*Yahoo · 1h前*  
-Cathie Wood Snaps Up $11.2 Million of Palantir Stock Amid Selloff
+- **[Ondas Just Dropped 38% in a Month: Is ONDS Stock a Falling Knife or Poised for a Comeback?](https://finnhub.io/api/news?id=cc1ab825f3c7ec4d625bcfa71f3199d9055cc77b8d2e80f62c1017a61161d046)**  
+*Yahoo · 3h前*  
+Revenue is surging, the backlog keeps growing, and a billion-dollar cash pile sits on the balance sheet, yet Ondas shareholders are watching the stock crater al…
 
-- **[Does Palantir Technologies (PLTR) Have A New Overseas Growth Engine In AI Manufacturing?](https://finnhub.io/api/news?id=1e40ceeb2350b2ef59239073b36ee2769188b24875e19a2c9f28261e01018be6)**  
-*Yahoo · 2h前*  
-Palantir Technologies (NasdaqGS:PLTR) said footwear producer Changshin is adopting Palantir Foundry and AIP for AI-driven manufacturing. The partnership will ap…
+- **[Prediction: These Will Be Nvidia's and Palantir's Stock Prices by 2027 (Hint: Only 1 Is a Buy)](https://finnhub.io/api/news?id=aab2da6c0c3262fca9563ac24325839f4b4c9ae055d36b615cbfd445c12f14b1)**  
+*Yahoo · 3h前*  
+Nvidia and Palantir are two popular AI picks, but only one makes sense right now.
 
 ---
 
@@ -48,7 +48,7 @@ Palantir Technologies (NasdaqGS:PLTR) said footwear producer Changshin is adopti
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-05 | 監控 | $171.70 | — | 自動更新 |
+| 2026-11-06 | 監控 | $154.99 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies (NasdaqGS:PLTR) said footwear producer Changshin is adopti
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
