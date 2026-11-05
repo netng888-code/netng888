@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $204.26 | — |
+| Gamma Flip | $203.16 | — |
 | Put Wall（支撐） | $200.00 | -0.1% |
 | Call Wall（阻力） | $210.00 | +4.9% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[2 ETFs I'm Buying and Holding for Decades -- No Matter What the Market Does](https://finnhub.io/api/news?id=3913e98ddb1ef80c181a4d2d357b8317040178eb3a2f9cae60874e2fac9bcafe)**  
+- **[Microsoft walks away from AI deal as $170 billion question grows](https://finnhub.io/api/news?id=599f82e2c2f637b451a7b59ac4e6b9a474c525aeaccb94d45b568becf4573eee)**  
 *Yahoo · 1h前*  
-Instead of picking stocks, I buy all the stocks. These two ETFs seem like solid long-term choices for buy-and-hold investors.
+The company passed on additional computing capacity in Texas as infrastructure delays complicate its AI spending plans.
 
-- **[Colliers International Group Inc. Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=3a1e23c2f873492f34ccc4dd4a689bc4a438f63373d96e42ceb982e55c9d06c1)**  
+- **[Could Archer Aviation Stock Make You a Millionaire by 2036?](https://finnhub.io/api/news?id=0114fce64170e7f43c46ce86845ae98c78335b508267f6d71039f33332da4c8f)**  
 *Yahoo · 1h前*  
-Moby summary of Colliers International Group Inc.'s Q3 2026 earnings call
+A multitrillion-dollar opportunity in aviation, an eVTOL that ferries passengers in the sky: Could Archer mint new millionaires?
 
-- **[Walmart (WMT) Stock Is Down 3%. Here's Why I'd Buy in November and Hold for a Decade.](https://finnhub.io/api/news?id=7091c5284efe7a64c8c63e2b7307e2e9ed6fa48b294bf783d241193dad7348bc)**  
+- **[Palantir Just Made Company History. Is the Stock a Buy?](https://finnhub.io/api/news?id=16af570968fb478a9f772d44c76f5898b4de311567e721ac39b8eba7a81a04da)**  
 *Yahoo · 1h前*  
-The retail giant is still an evergreen investment.
+Palantir's business is booming, but I'm concerned about the stock.
 
 ---
 
@@ -59,4 +59,4 @@ The retail giant is still an evergreen investment.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
