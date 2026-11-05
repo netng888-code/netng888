@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Cathie Wood buys $10.9 million of tumbling tech stock](https://finnhub.io/api/news?id=74c956f9d3c3d12349a37dfe30ea31571b899d82ea4f66fccce5e94ac29d8cb5)**  
+- **[Palantir Just Made Company History. Is the Stock a Buy?](https://finnhub.io/api/news?id=16af570968fb478a9f772d44c76f5898b4de311567e721ac39b8eba7a81a04da)**  
+*Yahoo · 1h前*  
+Palantir's business is booming, but I'm concerned about the stock.
+
+- **[Cathie Wood Snaps Up $11 Million of Palantir Stock in 'Buy-the-Dip' Move](https://finnhub.io/api/news?id=b86371ccd3434753df3708765dca9dbe8a337bd04bc081d5e29c54df281b93f3)**  
+*Yahoo · 1h前*  
+Cathie Wood Snaps Up $11.2 Million of Palantir Stock Amid Selloff
+
+- **[Does Palantir Technologies (PLTR) Have A New Overseas Growth Engine In AI Manufacturing?](https://finnhub.io/api/news?id=1e40ceeb2350b2ef59239073b36ee2769188b24875e19a2c9f28261e01018be6)**  
 *Yahoo · 2h前*  
-Here are Cathie Wood’s latest moves.
-
-- **[Cathie Wood Picks a Side Between Palantir and Google](https://finnhub.io/api/news?id=05933ca5e95d88ce6b1218cf650726df8ff9135754ae7c3f690bb51adc4b23b9)**  
-*Yahoo · 3h前*  
-Both stocks fell after earnings, but ARK responded very differently.
-
-- **[Why Palantir Technologies Stock Dropped Today](https://finnhub.io/api/news?id=74250aa1aabdc5600ccf6bfe9c98bfdc5b628116125fc55fd24681a4509ed926)**  
-*Yahoo · 5h前*  
-Election 2026 wasn't good news for Palantir stock -- but it might not be horrible news, either.
+Palantir Technologies (NasdaqGS:PLTR) said footwear producer Changshin is adopting Palantir Foundry and AIP for AI-driven manufacturing. The partnership will ap…
 
 ---
 
@@ -59,4 +59,4 @@ Election 2026 wasn't good news for Palantir stock -- but it might not be horribl
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
