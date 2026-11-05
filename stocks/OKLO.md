@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[X-energy Lost 23% in a Month. Wedbush Sees 54% Upside From Here](https://finnhub.io/api/news?id=90e214b516cd1df6683d5d3ee2a74573abe213ea300a2222a947ce9a11334a5b)**  
-*Yahoo · 1d前*  
-Key TakeawaysX-energy stock fell 23% in the past month as investors sold small-reactor stocks, Oklo and NuScale Power among them. The company’s own news was goo…
+- **[Better Nuclear Energy Stock to Buy After the Sell-Off: Oklo vs. BWX Technologies](https://finnhub.io/api/news?id=1ae3500ca30b6ff58476dd1556c9ad5ba03487f2644a0eba5c1ef3e5622d838c)**  
+*Yahoo · 8h前*  
+Nuclear stocks are in a sell-off, and there might be opportunities for investors at these prices.
 
-- **[Oklo (OKLO) Dropped, So What Is Driving Attention Now?](https://finnhub.io/api/news?id=59c68cec8b20acd418833c8e7a9d9fe5c7dbda138f9c622956cc9ccb0d2571d4)**  
-*Yahoo · 1d前*  
-Oklo (OKLO) is back in focus after Wedbush began covering the stock with an Outperform rating, spotlighting the advanced nuclear developer as investors reassess…
+- **[Mine, Enrich, Build, Operate: Which Link in the Nuclear Supply Chain Is the Best Stock Right Now?](https://finnhub.io/api/news?id=dea8ef004012cf5c0f4ca588ca62947ca93c5e02c157cf83dc83312f415abc15)**  
+*Yahoo · 9h前*  
+With demand for electricity growing at a rapid clip, nuclear power is increasingly important.
 
-- **[Cloudflare upgraded, Marvell downgraded: Wall Street's top analyst calls](https://finnhub.io/api/news?id=c3e9b505b42487c4a069bc6e89f75eaa229f3186e37cfbd9b5a49e8fd98968fa)**  
-*Yahoo · 1d前*  
-Cloudflare upgraded, Marvell downgraded: Wall Street's top analyst calls
+- **[NuScale Hit a 52-Week Low as Barclays Turned Bearish. Here’s What Thursday’s Report Must Show](https://finnhub.io/api/news?id=2e00a6d9c670c0aece45691540a3680366b62e6c83eba8e787ece619c8c9360f)**  
+*Yahoo · 16h前*  
+Key TakeawaysNuScale Power hit a 52-week low on Oct. 20 after Barclays downgraded it to Underweight and cut its target to $5 from $11, and it reports third-quar…
 
 ---
 
@@ -59,4 +59,4 @@ Cloudflare upgraded, Marvell downgraded: Wall Street's top analyst calls
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
