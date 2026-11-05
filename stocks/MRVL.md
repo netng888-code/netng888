@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -10,9 +10,9 @@
 |------|------|
 | 現價 | **$159.80** |
 | 今日變動 | ▼ $12.17　(-7.08%) |
-| 持倉數量 | 10 股 |
+| 持倉數量 | 7 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $975　(▼37.9%) |
+| 未實現盈虧 | ▼ $683　(▼37.9%) |
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Lumentum Fell to $750 With Marvell’s Offer Worth $820. Its November 5 Report Tests the Floor](https://finnhub.io/api/news?id=b64c482432c8a914dcbed67c231ae26e33d3ab29b10f1e97b49d73b05ee4620c)**  
+- **[Is NVIDIA Stock A Buy Right Now?](https://finnhub.io/api/news?id=9f6f52ad6b84378ab569d12049356b6b62a929a33f2e345bc4bcce872b925672)**  
 *Yahoo · 2h前*  
-Key TakeawaysLumentum fell to $750 on Monday after agreeing to an all-stock sale to Marvell for 4. 5 Marvell shares apiece, which were worth $820 at Marvell’s p…
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Top Research Reports for Microsoft, SpaceX & Marvell](https://finnhub.io/api/news?id=2229ed9c420b9f0425a952b065d7e7a13514eafd745c423921cbd5fd47b8db32)**  
-*Yahoo · 2h前*  
-Microsoft, SpaceX and Marvell headline today's research reports, with AI-driven growth, expanding infrastructure and rising demand balanced by capital spending …
+- **[AI Roundup: AMD, Apple Results Puzzle Investors, Democrats’ Midterm Win Weighs On Traders](https://finnhub.io/api/news?id=f09e3452b79edd02bf61c563d49d5b1681c8c00e6cea4b54065e7d03ce48e682)**  
+*Yahoo · 4h前*  
+Shares of chipmakers, neocloud operators, and key AI infrastructure firms fell as Democrats, who back AI regulations, won in both the House and Senate.
 
-- **[Lumentum Sinks 10% With Marvell as Blue Wave Hits Data-Center Stocks: “Premium Can Quickly Go Negative”](https://finnhub.io/api/news?id=1cdceec657cbed53cfa2bd887931d3c3f56bc03fe74c6f4e321f5c81643ce669)**  
-*Yahoo · 3h前*  
-Key TakeawaysLumentum fell 10% today as AI data-center stocks sold off after the election, with Marvell and Coherent down too. Marvell is paying in its own stoc…
+- **[After an 11% tech sell-off, are AI valuations attractive again?](https://finnhub.io/api/news?id=3cb0f58492463579a819045710ae6eeaa73a82021b5c9f5aab848f60d28a1956)**  
+*Yahoo · 4h前*  
+Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysLumentum fell 10% today as AI data-center stocks sold off after the
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:04 HKT*
