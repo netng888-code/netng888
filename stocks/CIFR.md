@@ -1,6 +1,6 @@
 # CIFR — Cipher Digital
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Amdocs Posts Downbeat Q4 Earnings, Joins Skyworks Solutions, Tesla And Other Big Stocks Moving Lower In Wednesday’s Pre-Market Session](https://finnhub.io/api/news?id=b6defc66bb6a3883ff694d3a02838d4597ad7e80f4dcb2b198261a95b650ec55)**  
-*Benzinga · 14h前*  
-U.S. stock futures rose, while Amdocs plunged 39% after missing Q4 estimates and issuing weak FY27 guidance; several other stocks also fell premarket.
+- **[CleanSpark Lost 21% in a Week to a New 52-Week Low. Bernstein Still Sees 62% Upside](https://finnhub.io/api/news?id=e784ee5913c219b9c55a4dcf9d4476e09f46837d4b0ee93704179875e919236c)**  
+*Yahoo · 8h前*  
+Key TakeawaysCleanSpark fell 21% in the week to Nov. 4, closing at a new 52-week low, mostly after Gina Hinojosa won the Texas governor’s race.
 
-- **[Wall Street Breakfast Podcast: Blue Tsunami Hits Wall Street](https://finnhub.io/api/news?id=576c192c1debdc1408f0ef316583b2c6a60659c9f743900270ffbc69f246ebf7)**  
-*SeekingAlpha · 16h前*  
-Futures erase losses with Dems taking Congress in midterms. Texas results raise fresh questions for AI data centers. AMD rallies as booming AI chip sales lift i…
+- **[A Major Neocloud Stock Rally May Be Coming. These 3 Stocks Could Be the Biggest Winners.](https://finnhub.io/api/news?id=6864aad8ea600a315cef92a17eb81ca2706b6161d9980b8fb3bfaf00140fa307)**  
+*Yahoo · 13h前*  
+The impacts of tariffs and trade wars brought neocloud stocks to a low point in 2025 before potent rallies put them back in the spotlight on Wall Street. The en…
 
-- **[Cipher Digital (CIFR) Stock Jumps On Q3 Earnings Profit Turn](https://finnhub.io/api/news?id=385d17a60b38a46b09c2befb45280292d9f63a73e1b1c0aa833b012c0454655d)**  
-*Yahoo · 23h前*  
-Cipher Digital came into this Q3 2026 print with a bruised chart and a big growth story, as the stock had fallen sharply over the past three months even as bull…
+- **[What Just Happened To MARA Stock?](https://finnhub.io/api/news?id=aeb24d58bb50155bbbf7b76fc149df7642a83153a96b4f95549a32cce3f6722a)**  
+*Yahoo · 15h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ Cipher Digital came into this Q3 2026 print with a bruised chart and a big growt
 - [TradingView](https://www.tradingview.com/chart/?symbol=CIFR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:05 HKT*
