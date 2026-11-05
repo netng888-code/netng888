@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-05 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $287.76 | — |
+| Gamma Flip | $298.00 | — |
 | Put Wall（支撐） | $280.00 | -3.1% |
 | Call Wall（阻力） | $300.00 | +3.8% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: Elections, Plunging Oil Fuel Big Rally; Apple, Microsoft, Amazon Flash Buy Signals. CoreWeave, SpaceX Skid.](https://finnhub.io/api/news?id=52279df7ab8987a60569cafcbfad0ecbaf0a195517a6c27e52b0b5dd73208f7f)**  
+- **[DTE Energy announces strategic sale of its non-utility DTE Vantage business; reports third quarter accomplishments including advancing data center growth that delivers unprecedented customer affordability benefits and filing long-term generation plan](https://finnhub.io/api/news?id=b20d342543ddd9fdbaabc50b1b93ec03e668b85f5358b1dbe9fd946a7c5d8d5b)**  
 *Yahoo · 1h前*  
-Elections and diving oil prices sparked a stock market surge. Stocks from many sectors flash buy signals, but avoid this area.
+DTE Energy (NYSE: DTE) has entered into an agreement to sell its non-utility DTE Vantage business1 for approximately $3 billion to institutional investors advis…
 
-- **[Adobe (ADBE) Brings CX Enterprise Coworker to Major AI Platforms](https://finnhub.io/api/news?id=5b7a121ac4bcdefe7ed5ac028fa47c560c6e189ff7e5cb44ed2623d6278a0608)**  
+- **[Massive market rotation raises question: Is the sell-AI trade here to stay?](https://finnhub.io/api/news?id=3ce2470bd15956d59ed8b005dece062785272576d526810ee4396f6181fd8a61)**  
 *Yahoo · 1h前*  
-Adobe (NasdaqGS: ADBE) introduced its CX Enterprise Coworker agentic AI into leading third party AI platforms from Anthropic, Google, Microsoft, OpenAI, and Dat…
+Investing.com - Tech saw a sharp rotation into hyperscalers on Wednesday, while semiconductors and data center infrastructure stocks came under pressure as a De…
 
-- **[The Nasdaq-100 Is Outperforming Nvidia, Microsoft, Amazon, Meta Platforms, Alphabet, and Tesla This Year. Here's My Favorite Low-Cost ETF to Buy the Dip.](https://finnhub.io/api/news?id=3e864c54862b78871716f65b53263fd9dd276aeafdf847e2b98d59c3e7e3101a)**  
+- **[Eos Energy Enterprises Reports Third Quarter 2026 Revenue of $82.7 Million, Up 171% Year Over Year, with Gross Margin Improving 58 Percentage Points](https://finnhub.io/api/news?id=16242f9e4eca03f9b5eefbf8e101573b42c8e501844b2f2a1714c51c044b9214)**  
 *Yahoo · 1h前*  
-Many megacap growth stocks are underperforming the major indexes this year.
+Delivered record revenue of $82.7 million through deliveries to 10 projects Gross margin improved 58 percentage points and adjusted EBITDA margin improved 96 pe…
 
 ---
 
@@ -59,4 +59,4 @@ Many megacap growth stocks are underperforming the major indexes this year.
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:03 HKT*
