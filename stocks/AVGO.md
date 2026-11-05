@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-05 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-05 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $342.73 | — |
+| Gamma Flip | $346.94 | — |
 | Put Wall（支撐） | $300.00 | -7.8% |
 | Call Wall（阻力） | $350.00 | +7.5% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[5 Cheapest AI Data Center Stocks to Buy According to Billionaires](https://finnhub.io/api/news?id=21060c2f450b6422cd274209a65c948056a6224d7db75f3f004f84fb51c3e2e9)**  
+- **[iShares PHLX SOX Semiconductor (SOXX) Sells AMD and NVDA on Nov. 3](https://finnhub.io/api/news?id=c596adfcb06168c3db077985a24884d46a0f7ba7a723175da151dd19afb3fc59)**  
+*Yahoo · 1h前*  
+The fund sold $356.9 million of stock on Tuesday, trimming 29 positions and adding none.
+
+- **[Goldman Sachs S&P 500 Premium Income (GPIX) Adds Meta and Alphabet on Nov. 3](https://finnhub.io/api/news?id=614a976cbabcdcb52cf442815c7fe01f207d3e2ad153850278237668414f643a)**  
+*Yahoo · 1h前*  
+The fund bought $234.4 million more than it sold, lifting 244 positions and trimming 117.
+
+- **[ETFs Bought $104.3 Million of Broadcom (AVGO) on Nov. 3](https://finnhub.io/api/news?id=a20019f2bddfdfda7540a1bfc9a22c34b094422a8ae536c706e0081d3edd01fa)**  
 *Yahoo · 2h前*  
-AI data center investment keeps expanding, but the companies supplying that capacity face different paths to profit. The International Energy Agency’s October 2…
-
-- **[Is Broadcom Stock a Buy Now?](https://finnhub.io/api/news?id=e2fbe43f53a5ca261cad7ea8eb0a4057ba4dceb491cb5c78132e42d294021e48)**  
-*Yahoo · 4h前*  
-Broadcom beat its own AI target and guided higher, yet the stock has lagged.
-
-- **[Broadcom Stocks Decline 1.49% as $63 Billion AI Financing Carries Residual-Value Risk](https://finnhub.io/api/news?id=35a3c2e03337a42d01832172a5ceea1b377d5964134e84ecf4747980db3a4a45)**  
-*Yahoo · 4h前*  
-The financing vehicle purchases equipment for leasing, with deliveries expected to begin in 2027.
+ETFs added $104.3 million of Broadcom on Tuesday, with 46 funds buying and 20 selling.
 
 ---
 
@@ -59,4 +59,4 @@ The financing vehicle purchases equipment for leasing, with deliveries expected 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-05 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-05 21:03 HKT*
