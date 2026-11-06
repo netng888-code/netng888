@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SpaceX Sinks 9% as AI Stocks Crater: “Absolute Slaughter”](https://finnhub.io/api/news?id=e7776650213fcccb9d5d929c4614f543cc6b844cd8c5133e5364274deabe2793)**  
-*Yahoo · 4h前*  
-Key TakeawaysSpaceX shares fell 9% today in a broad sell-off in AI and chip stocks. More than half of SpaceX’s third-quarter revenue came from its AI compute bu…
-
-- **[Better Space Stock: Rocket Lab vs. AST SpaceMobile (Hint: It Comes Down to Dilution)](https://finnhub.io/api/news?id=9dbf2aeda32cab3533ba0ecedec0c8181a99fcdff2bb308cb0b95f9507d3b175)**  
+- **[Rocket Lab Stock Slides As Neutron Delay Puts Focus On Earnings](https://finnhub.io/api/news?id=bb51c53d61543f9f5b824021b23a4a53b74b7a72c9be823e479a59116a745436)**  
 *Yahoo · 7h前*  
-Sustainable business models are the key to staying alive in the commercial space race.
+Rocket Lab completed a dedicated Electron launch for HawkEye 360 in October 2026, delivering three HAWK satellites to a 520 km low Earth orbit as part of its gr…
 
-- **[SpaceX vs. Rocket Lab vs. AST SpaceMobile: 3 Space Stocks Compared on the Only Numbers That Matter](https://finnhub.io/api/news?id=77b9c902496ab9cae7e60acef61bad727a2273e25ef151b2ccde891d59d6796f)**  
-*Yahoo · 8h前*  
-The three companies face different cash flow challenges and valuation risks that could shape investor returns.
+- **[Rocket Lab Stock Has Lost About 70% From Its Record. Is It Finally a Buy?](https://finnhub.io/api/news?id=01be17b47af24457e6ff9f9593dcebb4ece2d37369890a3f41f825d54481ad41)**  
+*Yahoo · 10h前*  
+Thursday's drop sent the space stock even lower. Is it cheap enough to buy before Monday's report?
+
+- **[Why Rocket Lab Stock Dropped Today](https://finnhub.io/api/news?id=a5a1695910f4af37292d00228ff57a2670eae8fe770c14623811e02f468ed76d)**  
+*Yahoo · 14h前*  
+Rocket Lab isn't an AI company, but the post-election sell-off in AI stocks is dragging it down anyway because it's viewed as speculative and high-risk.
 
 ---
 
@@ -59,4 +59,4 @@ The three companies face different cash flow challenges and valuation risks that
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
