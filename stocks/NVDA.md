@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-06 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Certara, Inc. Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=24373599ce85b08139194e678745bf4af8f0a76865fabca9cca729647fc1fefa)**  
+- **[Visa Has Grown Earnings per Share by 17% a Year for a Decade. Can the Stock Keep Compounding?](https://finnhub.io/api/news?id=3f34f09bd3c4d283bb14601fda3bb41fddd1954dc77f7f1f7de4dacd0427c38d)**  
 *Yahoo · 1h前*  
-Moby summary of Certara, Inc.'s Q3 2026 earnings call
+Analysts expect the company to continue its streak of double-digit net income growth over the next three fiscal years.
 
-- **[Stocks slide as Wall Street's post-election rally fizzles](https://finnhub.io/api/news?id=ae31a30e4968cce694dc866cb65131dabff08fe771bdf2adfc4191f4b5b25500)**  
+- **[Dow Jones Futures Fall, AI Stocks Nvidia, Sandisk, CoreWeave, SpaceX Bounce After Nasdaq Dives 5.5%](https://finnhub.io/api/news?id=95b59bd8f47de260d46738b64c90e844408c54863d178e678537dbd953e4560b)**  
 *Yahoo · 1h前*  
-Yahoo Finance Markets and Data Editor Jared Blikre breaks down all of today's market moves, which largely trended downward as markets reversed the gains and opt…
+Nvidia, CoreWeave, SpaceX plunged, but the stock market sell-off spread far beyond AI. The October jobs report looms.
 
-- **[If I Could Put $10,000 Into Just 1 Dividend Grower in November, It'd Be This One](https://finnhub.io/api/news?id=1058f3749fe73b2e00d47ca356c3b9036a59bdd040cbc84b27ffff69b8730ce1)**  
+- **[Asia’s Chip Stocks Crashed Overnight, With SK Hynix Down 11.7% And Taiwan Off More Than 8%. Now Nasdaq Futures Are Pointing Higher](https://finnhub.io/api/news?id=d45bbdfe0391faae9c7c75d4fa92e5fc5cfc83019261f95a6195a2d86cdf3e1f)**  
 *Yahoo · 1h前*  
-Vici Properties is still an evergreen income play for patient investors.
+SK Hynix supplies the memory that sits on the world’s top AI chips, and it lost more than a tenth of its value before most Americans woke up. The stock fell 11.…
 
 ---
 
@@ -59,4 +59,4 @@ Vici Properties is still an evergreen income play for patient investors.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
