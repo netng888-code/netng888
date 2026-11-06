@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Inseego Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=cf4f7c8a9439f660f3b1f1eac47895fe21af9693e931715fb14c518b9cc1e39f)**  
-*Yahoo · 19h前*  
-Inseego (NASDAQ:INSG) reported third-quarter revenue of $33.3 million and outlined a weaker near-term outlook for its North American business as a delayed fixed…
+- **[Nokia (HLSE:NOKIA) Stock Looks Fully Valued After Its 129% Run](https://finnhub.io/api/news?id=9425609a881512ce345f5694deda087773ab6a09dd5cbd1358fa42a16206d4a6)**  
+*Yahoo · 14h前*  
+Nokia Oyj has delivered a sharp multi year share price gain, yet the recent pullback now puts a spotlight on a simpler question for investors. Do the current ea…
 
-- **[Inseego Reports Third Quarter 2026 Financial Results](https://finnhub.io/api/news?id=1f4fa0c60328b68dd6e1181d017494c84a3013730e32ba979ee20b63e416d695)**  
-*Yahoo · 1d前*  
-Q3 2026 revenue of $33.3 millionQ3 2026 Adjusted EBITDA* of Negative $1.0 million and GAAP Net Loss of $8.1 millionAnnounced completion of the acquisition of No…
+- **[Most Active US Stocks for Nov. 5, 2026](https://finnhub.io/api/news?id=a35d562b7f7e778752a74e640dc0b45f08f2e2ea6268a7f307e7cead1e123f51)**  
+*ChartMill · 18h前*  
+Volume leaders on Nov. 5, 2026 included LABT, BDMD and NVDA, with LABT up 228.0%, BDMD up 21.36% and NVDA down 8.64%.
 
-- **[Can ASTS' Handoff Test With AT&T Strengthen Its Growth Prospects?](https://finnhub.io/api/news?id=45d401eaa55bf29116bff187650c8a9cf2cc1cb87e39354616ea749ad4cbc4e5)**  
-*Yahoo · 1d前*  
-AST SpaceMobile successfully demonstrates seamless switching between cellular towers and satellites with AT&T, advancing its push toward commercial satellite co…
+- **[European Equities Traded in the US as American Depositary Receipts Fall in Thursday Trading](https://finnhub.io/api/news?id=844f31e0f9783618b6fe064b34b9ba8039c36c86beca823227bdeb92ea51d92b)**  
+*Yahoo · 20h前*  
+European equities traded in the US as American depositary receipts were sharply lower late Thursday
 
 ---
 
@@ -59,4 +59,4 @@ AST SpaceMobile successfully demonstrates seamless switching between cellular to
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
