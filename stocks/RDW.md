@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Redwire Awarded $20M DARPA Contract To Complete Additional Testing And Experimentation On Scaled Version Of Its SabreSat Spacecraft For A Precursor Flight Test](https://finnhub.io/api/news?id=ef694a0332fa4d1733b4d04c41d6c196b404ddbfcf8fae45f0d2f775ae53ce97)**  
-*Benzinga · 14h前*  
-Contract from the Defense Advanced Research Projects Agency (DARPA) to complete additional testing and experimentation on a scaled version of Redwire’s SabreSat…
+- **[Redwire Corporation 2026 Q3 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=5b7ca58adea7212b88fd6479728e83749bf45acca35e15f2d1aa4f61e36cc800)**  
+*SeekingAlpha · 7h前*  
+2026-11-06. The following slide deck was published by Redwire Corporation in conjunction with their 2026 Q3 earnings call.
 
-- **[Redwire Stock Hits Turbulence After Mixed Quarter: EPS Beats, Revenue Misses Estimates](https://finnhub.io/api/news?id=15f30b0f972a8e506b199655efc5850d5c693894e69658b0364bf37ad7651b6a)**  
-*Benzinga · 15h前*  
-Redwire Corporation (NYSE: RDW) shares are trading lower Thursday after the company reported mixed Q3 financial results late Wednesday.
+- **[Redwire (RDW) Stock Price Tumbles As Q3 Earnings Losses Persist](https://finnhub.io/api/news?id=53677649814ad80ef82568f9c301c650994e9349792dec30ba98e4da135d998c)**  
+*Yahoo · 13h前*  
+Redwire just reported Q3 2026 results and the share price dropped almost 20% in a single session. That is a sharp reaction for a space infrastructure stock that…
 
-- **[SpaceX Targets Wireless And AI Riches, Rocket Lab Nears 100 Launches — What’s Moving Space Stocks](https://finnhub.io/api/news?id=6758f859d592a66f59940af1faefbfb13af96b64927aa720d5852e0cca17f2dd)**  
-*Yahoo · 16h前*  
-RDW missed revenue estimates, while VOYG beat sales forecasts and added NASA work.
+- **[Redwire Corp (RDW) (Q3 2026) Earnings Call Highlights: Record Backlog and Gross Margins Offset ...](https://finnhub.io/api/news?id=d2f2d2a054d19154cdaacfb637cd0efbcdc71b566681b3aef15b643fb6709e96)**  
+*Yahoo · 13h前*  
+Redwire Corp (RDW) posted record 32.3% gross margins and a $619.7 million backlog in Q3 2026, but heavy R&D spending drove a $23.2 million net loss.
 
 ---
 
@@ -59,4 +59,4 @@ RDW missed revenue estimates, while VOYG beat sales forecasts and added NASA wor
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
