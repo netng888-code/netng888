@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-06 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nasdaq Stock Market Correction: History Says This Is What Happens Next](https://finnhub.io/api/news?id=8d6b0f4e82fa1b3a8e884771daa7d717f6c776fbf4ebd5ded47bd77c70bdb920)**  
+- **[Latest News In AI Chips - Race to Dominate AI Infrastructure Accelerates Globally](https://finnhub.io/api/news?id=798c4762789a0177b366dde5edca840df8049d16a0525c3e67aee60d3e89668e)**  
 *Yahoo · 1h前*  
-The Nasdaq Composite is officially in correction territory. Here's what past corrections suggest about the months ahead.
+The global race for AI infrastructure supremacy is intensifying as major technology players significantly increase their investments in next-generation data cen…
 
-- **[USA TODAY: The Newspaper That Sued the Toll Collector](https://finnhub.io/api/news?id=f39738d133b72fe00682a5db4e8b646e171f66fdcd91536f64b6b20506c4ae84)**  
+- **[Why Amazon and Other AI Data-Center Stocks Will Be Post-Midterm Winners](https://finnhub.io/api/news?id=f2155ac7109e98ca00d4d3fc763a75de751625a020d5c56d97600ad8d5fc8c62)**  
 *Yahoo · 1h前*  
-Search pressure touches less than 5% of revenue, so the real test is whether direct-sold ads and digital subscriptions can carry growth.
+A forced slowdown on AI spending could prove beneficial for the hyperscalers and enable them to shore up their balance sheets.
 
-- **[dYdX Team’s Arcus Opens Stock-Token Collateral to All Perps Traders, With a $20,000 Cap](https://finnhub.io/api/news?id=13ff6bb5b8375e26be743847499187be89c107dc4d2d1dc77c272c3742ccce27)**  
-*Yahoo · 1h前*  
-The Robinhood Chain exchange dropped the $25 million volume requirement from its October early access, but non-USDG deposits stay capped at $20,000 per trader a…
+- **[Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff](https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9)**  
+*ChartMill · 1h前*  
+The Nasdaq fell 5.5% in its worst day since April 2025 as investors dumped AI chip stocks on fears of tighter regulation after the Democratic midterm win. AppLo…
 
 ---
 
@@ -59,4 +59,4 @@ The Robinhood Chain exchange dropped the $25 million volume requirement from its
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
