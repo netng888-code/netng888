@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Palantir Stock (PLTR) Is Still a Buy After Its Q3 Pullback](https://finnhub.io/api/news?id=5118a403d0a694afa1848388217aa1252d2575943d081c29ad13cc25f6649e6f)**  
+- **[Not Nvidia. Not Palantir. The Midterms Just Made This Magnificent Artificial Intelligence (AI) Stock the Safer Bet.](https://finnhub.io/api/news?id=cf36cb07f9d2a26b85a2031925f9e1e3c8e462497b14c80c1793115da61da40a)**  
 *Yahoo · 1h前*  
-Palantir Technologies’ (PLTR) stock is still a Buy after its Q3 pullback, in my view, because the market may be underestimating the strength of its underlying b…
+The Democratic Party won control of both the House of Representatives and the Senate in the midterm elections.
 
-- **[Ondas Just Dropped 38% in a Month: Is ONDS Stock a Falling Knife or Poised for a Comeback?](https://finnhub.io/api/news?id=cc1ab825f3c7ec4d625bcfa71f3199d9055cc77b8d2e80f62c1017a61161d046)**  
-*Yahoo · 3h前*  
-Revenue is surging, the backlog keeps growing, and a billion-dollar cash pile sits on the balance sheet, yet Ondas shareholders are watching the stock crater al…
+- **[iShares Expanded Tech-Software (IGV) Adds Oracle, Trims Microsoft on Nov. 4](https://finnhub.io/api/news?id=122810f39a46d2509af2106c2745109e5a3ce5cef9a1481239e386da4e7d14ef)**  
+*Yahoo · 1h前*  
+The $12.41 billion fund bought $105.8 million of Oracle while selling $10.0 million of Microsoft and $9.2 million of Palo Alto Networks.
 
-- **[Prediction: These Will Be Nvidia's and Palantir's Stock Prices by 2027 (Hint: Only 1 Is a Buy)](https://finnhub.io/api/news?id=aab2da6c0c3262fca9563ac24325839f4b4c9ae055d36b615cbfd445c12f14b1)**  
-*Yahoo · 3h前*  
-Nvidia and Palantir are two popular AI picks, but only one makes sense right now.
+- **[ETFs Are Net Sellers of Palantir (PLTR) on Wednesday](https://finnhub.io/api/news?id=81b8ca368b607773221aa9890ad84464893f0da2a249d7515cfd4e5111799d97)**  
+*Yahoo · 2h前*  
+ETFs sold a net $16.9 million of Palantir on Wednesday, Nov. 4.
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia and Palantir are two popular AI picks, but only one makes sense right now
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
