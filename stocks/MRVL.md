@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Marvell Stock Is Falling Today](https://finnhub.io/api/news?id=788fd5bdeb8c650bad508a41bd744f8ef422da086afd928db2e2e69e0a682963)**  
+- **[U.S. chip stocks rebound sharply after Thursday’s brutal selloff](https://finnhub.io/api/news?id=32994cc30fb0b293a4c339746be18356b6f76e437132b50c7b3fb8aafc8551bd)**  
 *Yahoo · 2h前*  
-Marvell is getting hit twice: investors are fleeing AI data center stocks after the midterms, and its all-stock Lumentum deal could mean significant dilution.
+Investing.com -- U.S. chip stocks rebounded in premarket trading Friday, recovering some ground after a sweeping AI-driven selloff Thursday that followed the De…
 
-- **[Marvell Just Dropped 49% in a Month: Is MRVL Stock Hopeless or Ready for a Rebound?](https://finnhub.io/api/news?id=62c01bf8c245a147750755373aee48ac3b487aaf8c40eb712399e464c51ad965)**  
-*Yahoo · 3h前*  
-Marvell's results keep improving, yet its shares have been gutted by an all-stock acquisition and an election night shock for AI spending. Two analysts looked a…
+- **[nLight (LASR) Beats Q3 Earnings and Revenue Estimates](https://finnhub.io/api/news?id=4e2564b074a4aa4c0dab3334a8d47527e05052288c932b253525e291b6c9ad07)**  
+*Yahoo · 13h前*  
+nLight (LASR) delivered earnings and revenue surprises of +166.67% and +8.55%, respectively, for the quarter ended September 2026. Do the numbers hold clues to …
 
-- **[Equities Plunge in Tech-Led Sell-Off Amid Data Center Restriction Fears](https://finnhub.io/api/news?id=e80e15f4a9115bdf480d8cf8b85f947765e79615e89086537816973d248680e5)**  
-*Yahoo · 3h前*  
-Stocks on Wall Street plummeted intraday with the technology sector getting hammered the most, as tr
+- **[What Insight Enterprises (NSIT) Said on Its Q3 Earnings Call](https://finnhub.io/api/news?id=f962a0b26ec4972c858b50561cc3e8733b13163ba9b8daaaa2923de8c55925de)**  
+*Yahoo · 14h前*  
+Insight Enterprises (NASDAQ:NSIT) reported 22% revenue growth in the third quarter of 2026 and raised its full-year outlook, as demand for infrastructure hardwa…
 
 ---
 
@@ -59,4 +59,4 @@ Stocks on Wall Street plummeted intraday with the technology sector getting hamm
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
