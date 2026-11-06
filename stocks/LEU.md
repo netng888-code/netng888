@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $144.86 | — |
+| Gamma Flip | $144.85 | — |
 | Put Wall（支撐） | $85.00 | -4.5% |
 | Call Wall（阻力） | $100.00 | +12.3% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Centrus Q3 Profit Surges on Warrant Gain as Fuel Expansion Advances](https://finnhub.io/api/news?id=818792da408fe93c32c0166bc0ae8a51cee530470e491236d9aef48d2f4c696e)**  
-*Yahoo · 20h前*  
-Centrus Energy reports higher quarterly net income and accelerates its U.S. uranium enrichment expansion despite declining revenue and an adjusted loss.
+- **[Centrus Energy Corp (LEU) (Q3 2026) Earnings Call Highlights: First Centrifuge Completed Ahead ...](https://finnhub.io/api/news?id=de22b02d8e13eacb11d1791b08b0056313888e291c54a0f8c5fa80c32b216669)**  
+*Yahoo · 13h前*  
+Centrus Energy Corp (LEU) delivered its first U.S.-built centrifuge early and nearly doubled its backlog, even as quarterly revenue fell 26% year over year.
 
-- **[Centrus Energy Corp. (LEU) Beats Q3 Earnings and Revenue Estimates](https://finnhub.io/api/news?id=74e6ab22a1140c282469195500eaaa3057768228e28d99bf6ec58730782e89d0)**  
-*Yahoo · 23h前*  
-Centrus Energy (LEU) delivered earnings and revenue surprises of +435.71% and +10.96%, respectively, for the quarter ended September 2026. Do the numbers hold c…
+- **[Centrus Energy (LEU) Q3 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=91954ab4bea945fc7cea185815c7e9bd60befcac706544994d0d66695cf46eaa)**  
+*Yahoo · 16h前*  
+Centrus finishes its first centrifuge early and reaffirms full-year guidance.
 
-- **[Centrus Energy (NYSE:LEU) Slides After Q3 Revenue Miss and Adjusted Loss](https://finnhub.io/api/news?id=57481a807da00996c477aec8c92c61dc870379f2bd2828a27d41c501d92c0763)**  
-*ChartMill · 23h前*  
-Centrus Energy's Q3 2026 revenue missed estimates, with an adjusted loss overshadowing GAAP EPS and triggering a sharp after-hours selloff.
+- **[Centrus Energy Corp. (LEU) Q3 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=33340be1f0ba5f8a9d82dd2fcbc903652b580f351dc0f28f5818bdce0dc39ba0)**  
+*SeekingAlpha · 18h前*  
+Centrus Energy Corp. (LEU) Q3 2026 Earnings Call November 5, 2026 8:30 AM ESTCompany ParticipantsNeal Nagarajan - Senior VP & Head of Investor...
 
 ---
 
@@ -59,4 +59,4 @@ Centrus Energy's Q3 2026 revenue missed estimates, with an adjusted loss oversha
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
