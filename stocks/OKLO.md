@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Bloom Energy Sinks 16% Despite 900 MW NTT DATA Deal as Midterm Fears Hit AI Power Stocks](https://finnhub.io/api/news?id=aae5889124372912dfdb07d31ee0388d6fca755eb980f9aff3328d0bd9f807dd)**  
+*Yahoo · 13h前*  
+Key TakeawaysBloom Energy fell 16% today, even after NTT DATA agreed to deploy 900 megawatts of Bloom’s onsite power. Investors fear Democrats’ win in Congress …
+
 - **[Oklo Sank 10% a Day After the Democratic Sweep Rattled AI Power Stocks. Here’s What Friday’s Report Has to Settle](https://finnhub.io/api/news?id=d422372b73906de75f448896a7d97c15aad9cd6b8344686db5cf757665ec608a)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 Key TakeawaysOklo fell 10% on Thursday morning to another 52-week low, a day after a 6% drop when Democrats were projected to win Congress. That’s about 15% in …
 
-- **[NuScale's Modular Reactors Offer Flexible Clean Energy Supply](https://finnhub.io/api/news?id=277aa0b91820e267947f6a16a8d4795db074ff2fe451dd02fa49c829f5fd0c02)**  
-*Yahoo · 9h前*  
-SMR's NRC-approved reactor technology, passive safety features and expanding commercialization plans position it to serve rising industrial electricity needs.
-
-- **[Better Nuclear Energy Stock to Buy After the Sell-Off: Oklo vs. BWX Technologies](https://finnhub.io/api/news?id=1ae3500ca30b6ff58476dd1556c9ad5ba03487f2644a0eba5c1ef3e5622d838c)**  
-*Yahoo · 18h前*  
-Nuclear stocks are in a sell-off, and there might be opportunities for investors at these prices.
+- **[Dear Oklo Stock Fans, Mark Your Calendars for November 6](https://finnhub.io/api/news?id=07baf6cf6c445bc91d698a32a60d5da202c50b8605055b792b220162af623963)**  
+*Yahoo · 21h前*  
+With Oklo’s shares under pressure, its Q3 earnings results might reveal whether its nuclear vision is gaining traction.
 
 ---
 
@@ -59,4 +59,4 @@ Nuclear stocks are in a sell-off, and there might be opportunities for investors
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
