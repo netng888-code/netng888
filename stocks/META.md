@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[dYdX Team’s Arcus Opens Stock-Token Collateral to All Perps Traders, With a $20,000 Cap](https://finnhub.io/api/news?id=13ff6bb5b8375e26be743847499187be89c107dc4d2d1dc77c272c3742ccce27)**  
+- **[Why Amazon and Other AI Data-Center Stocks Will Be Post-Midterm Winners](https://finnhub.io/api/news?id=f2155ac7109e98ca00d4d3fc763a75de751625a020d5c56d97600ad8d5fc8c62)**  
 *Yahoo · 1h前*  
-The Robinhood Chain exchange dropped the $25 million volume requirement from its October early access, but non-USDG deposits stay capped at $20,000 per trader a…
+A forced slowdown on AI spending could prove beneficial for the hyperscalers and enable them to shore up their balance sheets.
 
-- **[Best Mag7 dip buys: NVIDIA leads on valuation, Alphabet on RSI](https://finnhub.io/api/news?id=496eac2bb303ceb2a17a87dc0bb8ab068c59af155a51972a772f76d316dff50c)**  
+- **[Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff](https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9)**  
+*ChartMill · 1h前*  
+The Nasdaq fell 5.5% in its worst day since April 2025 as investors dumped AI chip stocks on fears of tighter regulation after the Democratic midterm win. AppLo…
+
+- **[What State Street Comm Services SPDR (XLC) Bought: Meta Leads on Wednesday](https://finnhub.io/api/news?id=f5e758049d9047460ef374d1f848a992eaafd1b44f3d65e84cdd10082d8cad45)**  
 *Yahoo · 1h前*  
-Investing.com -- The Mag7 are being sold off together today, but they aren’t equally cheap. Roundhill Magnificent Seven ETF (MAGS) is -4.61% at $67.04 (as of No…
-
-- **[Reddit Sinks 8% as Social Ad Worries Deepen in Tech Rout](https://finnhub.io/api/news?id=6191b8e02e60b4fd11cb66451cc10b1f73abc1d81b816402145f6977ed5a1825)**  
-*Yahoo · 2h前*  
-Key TakeawaysReddit shares fell 8% today after Snap reported just 4% ad revenue growth, in a broad tech selloff. Meta’s 26% revenue growth last quarter suggests…
+The fund sold $195.6 million of stock, cutting 21 positions and adding none, with Meta Platforms the largest sale at $44.1 million.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysReddit shares fell 8% today after Snap reported just 4% ad revenue 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
