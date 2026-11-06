@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-06 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stocks slide as Wall Street's post-election rally fizzles](https://finnhub.io/api/news?id=ae31a30e4968cce694dc866cb65131dabff08fe771bdf2adfc4191f4b5b25500)**  
+- **[Asia’s Chip Stocks Crashed Overnight, With SK Hynix Down 11.7% And Taiwan Off More Than 8%. Now Nasdaq Futures Are Pointing Higher](https://finnhub.io/api/news?id=d45bbdfe0391faae9c7c75d4fa92e5fc5cfc83019261f95a6195a2d86cdf3e1f)**  
 *Yahoo · 1h前*  
-Yahoo Finance Markets and Data Editor Jared Blikre breaks down all of today's market moves, which largely trended downward as markets reversed the gains and opt…
+SK Hynix supplies the memory that sits on the world’s top AI chips, and it lost more than a tenth of its value before most Americans woke up. The stock fell 11.…
 
-- **[The AI Trade Just Had Its Worst Day Since The Pandemic](https://finnhub.io/api/news?id=988f77e04ab051ec88c3aa97d592f2a43dc88fef31c9e628f63cdce30a7dffb0)**  
+- **[Latest News In AI Chips - Race to Dominate AI Infrastructure Accelerates Globally](https://finnhub.io/api/news?id=798c4762789a0177b366dde5edca840df8049d16a0525c3e67aee60d3e89668e)**  
 *Yahoo · 1h前*  
-Nvidia gave back its entire 2026 gain in one session as Wall Street reprices the AI buildout after the midterms.
+The global race for AI infrastructure supremacy is intensifying as major technology players significantly increase their investments in next-generation data cen…
 
-- **[Marvell Just Dropped 49% in a Month: Is MRVL Stock Hopeless or Ready for a Rebound?](https://finnhub.io/api/news?id=62c01bf8c245a147750755373aee48ac3b487aaf8c40eb712399e464c51ad965)**  
-*Yahoo · 3h前*  
-Marvell's results keep improving, yet its shares have been gutted by an all-stock acquisition and an election night shock for AI spending. Two analysts looked a…
+- **[3 Great AI Infrastructure Stocks To Own In November 2026](https://finnhub.io/api/news?id=3d324ec01f04b10f45720bc35c19903a48aad9bae37615e5897269eb24d7787f)**  
+*Yahoo · 1h前*  
+AI focused stocks just had a brutal reset after the worst US chip sell off since 2020, as investors suddenly questioned how far data centre build outs can reall…
 
 ---
 
@@ -59,4 +59,4 @@ Marvell's results keep improving, yet its shares have been gutted by an all-stoc
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
