@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-06 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-06 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intel's stock crash shares an uncanny resemblance to its 2000 bust](https://finnhub.io/api/news?id=125b955ef01ed09f0fef76163ef2ce6bf18871ef40a324a043ccb82ff981f7d9)**  
+- **[Stocks lost $2 trillion. The market is wrong about AI](https://finnhub.io/api/news?id=6ce252ca54e71cd4290aa68849e43bd803536c59b8c6f582b0552649b88ac35b)**  
 *Yahoo · 1h前*  
-Intel stock's 26-year comeback and subsequent reckoning this year carry an eerie echo of its dot-com days.
+The stock market lost $2 trillion in 40 minutes, and AI stocks took the worst of it, with Intel down more than half since October and AMD off 17% in a day. Host…
 
-- **[Nasdaq Stock Market Correction: History Says This Is What Happens Next](https://finnhub.io/api/news?id=8d6b0f4e82fa1b3a8e884771daa7d717f6c776fbf4ebd5ded47bd77c70bdb920)**  
+- **[3 Great AI Infrastructure Stocks To Own In November 2026](https://finnhub.io/api/news?id=3d324ec01f04b10f45720bc35c19903a48aad9bae37615e5897269eb24d7787f)**  
 *Yahoo · 1h前*  
-The Nasdaq Composite is officially in correction territory. Here's what past corrections suggest about the months ahead.
+AI focused stocks just had a brutal reset after the worst US chip sell off since 2020, as investors suddenly questioned how far data centre build outs can reall…
 
-- **[Is AMD Stock a Buy as AI Revenue Soars?](https://finnhub.io/api/news?id=60ff0562859a02ca3ea6023b4717548b8724d9426baf05cb64b9517498bfd362)**  
-*Yahoo · 2h前*  
-AMD expects its revenue to surge 80% next year.
+- **[Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff](https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9)**  
+*ChartMill · 1h前*  
+The Nasdaq fell 5.5% in its worst day since April 2025 as investors dumped AI chip stocks on fears of tighter regulation after the Democratic midterm win. AppLo…
 
 ---
 
@@ -59,4 +59,4 @@ AMD expects its revenue to surge 80% next year.
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-06 21:05 HKT*
