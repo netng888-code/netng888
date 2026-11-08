@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$6.19** |
-| 今日變動 | ▼ $1.53　(-19.82%) |
+| 現價 | **$7.21** |
+| 今日變動 | ▲ $1.02　(+16.48%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $378　(▼60.4%) |
+| 未實現盈虧 | ▼ $338　(▼53.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $7.18 | — |
-| Put Wall（支撐） | $6.00 | -3.1% |
-| Call Wall（阻力） | $10.00 | +61.6% |
+| Gamma Flip | $7.23 | — |
+| Put Wall（支撐） | $7.00 | -2.9% |
+| Call Wall（阻力） | $10.00 | +38.7% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Redwire Corporation 2026 Q3 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=5b7ca58adea7212b88fd6479728e83749bf45acca35e15f2d1aa4f61e36cc800)**  
-*SeekingAlpha · 7h前*  
-2026-11-06. The following slide deck was published by Redwire Corporation in conjunction with their 2026 Q3 earnings call.
+- **[Consumer Tech (Oct 2-6): Big Earnings Dominate Headline, Meta, Google Face Political And Regulatory Pressure Over AI Expansion & More](https://finnhub.io/api/news?id=ec1338be3aebd5819f0885edec9c8dbc4bbd179f681c4e8187e4050fc245cade)**  
+*Benzinga · 12h前*  
+Meta faces political pressure over data center development, while Google encounters criticism over AI in schools and major technology stocks report quarterly re…
 
-- **[Redwire (RDW) Stock Price Tumbles As Q3 Earnings Losses Persist](https://finnhub.io/api/news?id=53677649814ad80ef82568f9c301c650994e9349792dec30ba98e4da135d998c)**  
-*Yahoo · 13h前*  
-Redwire just reported Q3 2026 results and the share price dropped almost 20% in a single session. That is a sharp reaction for a space infrastructure stock that…
+- **[Redwire Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=b4480e4b9401f544cc276d949b144d891d7a35b423f53712709700769c99317b)**  
+*Yahoo · 1d前*  
+Redwire (NYSE:RDW) reported higher third-quarter revenue and a record gross margin as growth in its space business offset a decline in defense technology sales …
 
-- **[Redwire Corp (RDW) (Q3 2026) Earnings Call Highlights: Record Backlog and Gross Margins Offset ...](https://finnhub.io/api/news?id=d2f2d2a054d19154cdaacfb637cd0efbcdc71b566681b3aef15b643fb6709e96)**  
-*Yahoo · 13h前*  
-Redwire Corp (RDW) posted record 32.3% gross margins and a $619.7 million backlog in Q3 2026, but heavy R&D spending drove a $23.2 million net loss.
+- **[RDW Q3 Earnings Call Highlights Backlog Growth and Revenue Delays](https://finnhub.io/api/news?id=6b722ece201dcf3d0c81c1b38c649dbe33cfd1eecda7942e728a716c86970541)**  
+*Yahoo · 2d前*  
+Redwire's Q3 loss narrowed versus estimates, but revenues missed forecasts. Record backlog, improved margins and shipment delays shape its 2026 outlook.
 
 ---
 
@@ -48,7 +48,7 @@ Redwire Corp (RDW) posted record 32.3% gross margins and a $619.7 million backlo
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $6.19 | — | 自動更新 |
+| 2026-11-09 | 監控 | $7.21 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Redwire Corp (RDW) posted record 32.3% gross margins and a $619.7 million backlo
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
