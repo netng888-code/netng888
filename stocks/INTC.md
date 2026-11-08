@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-06 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$52.25** |
-| 今日變動 | ▼ $6.02　(-10.33%) |
+| 現價 | **$56.28** |
+| 今日變動 | ▲ $4.03　(+7.71%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $548　(▼51.2%) |
+| 未實現盈虧 | ▼ $507　(▼47.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $62.99 | — |
-| Put Wall（支撐） | $50.00 | -4.3% |
-| Call Wall（阻力） | $70.00 | +34.0% |
+| Gamma Flip | $82.13 | — |
+| Put Wall（支撐） | $50.00 | -11.2% |
+| Call Wall（阻力） | $70.00 | +24.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stocks lost $2 trillion. The market is wrong about AI](https://finnhub.io/api/news?id=6ce252ca54e71cd4290aa68849e43bd803536c59b8c6f582b0552649b88ac35b)**  
-*Yahoo · 1h前*  
-The stock market lost $2 trillion in 40 minutes, and AI stocks took the worst of it, with Intel down more than half since October and AMD off 17% in a day. Host…
+- **[AMD Stock Dropped 11% Last Week. Is Intel’s PC Warning Really That Bad?](https://finnhub.io/api/news?id=6adcfdccc834f1c76c4c8e305d026b46e1b5b49dbe79284d0ced25dc8d4b0a2a)**  
+*Yahoo · 4h前*  
+Key TakeawaysAdvanced Micro Devices (AMD) stock declined approximately 11% from October 30 to November 6, closing near $449 as semiconductor valuations came und…
 
-- **[3 Great AI Infrastructure Stocks To Own In November 2026](https://finnhub.io/api/news?id=3d324ec01f04b10f45720bc35c19903a48aad9bae37615e5897269eb24d7787f)**  
-*Yahoo · 1h前*  
-AI focused stocks just had a brutal reset after the worst US chip sell off since 2020, as investors suddenly questioned how far data centre build outs can reall…
+- **[Intel Stock Has Gone Nowhere in 8 Years. Why This Time Could Be Different](https://finnhub.io/api/news?id=8b2977094380ab101f904badd75209baae987dfea1c1ebab6c4961f3bcb48000)**  
+*Yahoo · 6h前*  
+Intel just posted its strongest data center growth in 15 years, and the stock got cut in half anyway. Foundry losses, a cash-hungry 2027, and a few unnamed cust…
 
-- **[Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff](https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9)**  
-*ChartMill · 1h前*  
-The Nasdaq fell 5.5% in its worst day since April 2025 as investors dumped AI chip stocks on fears of tighter regulation after the Democratic midterm win. AppLo…
+- **[What Intel Doubters Got Wrong](https://finnhub.io/api/news?id=ffa22322a67fcb2b38959992ad59b17b1f950e284ca33f29889fa771f169d9db)**  
+*Yahoo · 7h前*  
+If you had been weighing Intel in early November 2025, the headlines were already split between a complex restructuring plan and questions about whether AI-focu…
 
 ---
 
@@ -48,7 +48,7 @@ The Nasdaq fell 5.5% in its worst day since April 2025 as investors dumped AI ch
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $52.25 | — | 自動更新 |
+| 2026-11-09 | 監控 | $56.28 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The Nasdaq fell 5.5% in its worst day since April 2025 as investors dumped AI ch
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
