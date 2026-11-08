@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$605.08** |
-| 今日變動 | ▼ $24.92　(-3.96%) |
+| 現價 | **$610.15** |
+| 今日變動 | ▲ $5.07　(+0.84%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $4　(▼0.2%) |
+| 未實現盈虧 | ▲ $11　(▲0.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $612.82 | — |
-| Put Wall（支撐） | $600.00 | -0.8% |
-| Call Wall（阻力） | $750.00 | +24.0% |
+| Gamma Flip | $606.58 | — |
+| Put Wall（支撐） | $600.00 | -1.7% |
+| Call Wall（阻力） | $750.00 | +22.9% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Amazon and Other AI Data-Center Stocks Will Be Post-Midterm Winners](https://finnhub.io/api/news?id=f2155ac7109e98ca00d4d3fc763a75de751625a020d5c56d97600ad8d5fc8c62)**  
-*Yahoo · 1h前*  
-A forced slowdown on AI spending could prove beneficial for the hyperscalers and enable them to shore up their balance sheets.
+- **[Should You Buy Meta Platforms Before Its Stock Split?](https://finnhub.io/api/news?id=3668e9c835343307dc8b74d0181ffe572397d84ba423f5665b87653aa38b347f)**  
+*Yahoo · 2h前*  
+Meta Platforms is creating a new share class as part of its upcoming stock split.
 
-- **[Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff](https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9)**  
-*ChartMill · 1h前*  
-The Nasdaq fell 5.5% in its worst day since April 2025 as investors dumped AI chip stocks on fears of tighter regulation after the Democratic midterm win. AppLo…
+- **[This Is the Best-Performing Magnificent Seven Stock of 2026. Is It Still a Buy?](https://finnhub.io/api/news?id=1d48e3a793e3b8cd9704132729a6cda17a0b4740df050cb1c993eeb8ba36152e)**  
+*Yahoo · 3h前*  
+Apple has crushed other members of the Magnificent Seven in 2026.
 
-- **[What State Street Comm Services SPDR (XLC) Bought: Meta Leads on Wednesday](https://finnhub.io/api/news?id=f5e758049d9047460ef374d1f848a992eaafd1b44f3d65e84cdd10082d8cad45)**  
-*Yahoo · 1h前*  
-The fund sold $195.6 million of stock, cutting 21 positions and adding none, with Meta Platforms the largest sale at $44.1 million.
+- **[Not Bloom Energy. Not Vistra. This AI Power Stock Just Posted a 96% Jump in Orders.](https://finnhub.io/api/news?id=785b51a23a857c469b3ddfaf14dc4060002763c17eeb79315093a4c7615388f9)**  
+*Yahoo · 4h前*  
+The impending change in the political backdrop isn't apt to actually affect the growing demand for its equipment, either.
 
 ---
 
@@ -48,7 +48,7 @@ The fund sold $195.6 million of stock, cutting 21 positions and adding none, wit
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $605.08 | — | 自動更新 |
+| 2026-11-09 | 監控 | $610.15 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund sold $195.6 million of stock, cutting 21 positions and adding none, wit
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
