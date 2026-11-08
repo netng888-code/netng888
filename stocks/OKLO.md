@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$19.20** |
-| 今日變動 | ▼ $2.92　(-13.20%) |
+| 現價 | **$23.55** |
+| 今日變動 | ▲ $4.35　(+22.66%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▼ $434　(▼36.1%) |
+| 未實現盈虧 | ▼ $260　(▼21.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $24.45 | — |
-| Put Wall（支撐） | $17.50 | -8.9% |
-| Call Wall（阻力） | $35.00 | +82.3% |
+| Gamma Flip | $26.39 | — |
+| Put Wall（支撐） | $20.00 | -15.1% |
+| Call Wall（阻力） | $35.00 | +48.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Bloom Energy Sinks 16% Despite 900 MW NTT DATA Deal as Midterm Fears Hit AI Power Stocks](https://finnhub.io/api/news?id=aae5889124372912dfdb07d31ee0388d6fca755eb980f9aff3328d0bd9f807dd)**  
-*Yahoo · 13h前*  
-Key TakeawaysBloom Energy fell 16% today, even after NTT DATA agreed to deploy 900 megawatts of Bloom’s onsite power. Investors fear Democrats’ win in Congress …
+- **[Why Is Oklo (OKLO) Locking In Domestic Reactor Manufacturing Capacity?](https://finnhub.io/api/news?id=c0183cd043dc35e2641924107df34dfe552c68ab9a5294511a4bc59aba762861)**  
+*Yahoo · 1d前*  
+Oklo (NYSE:OKLO) agreed a new supply partnership with U.S. Forged Rings to support Aurora reactor component manufacturing in the U.S. The arrangement secures do…
 
-- **[Oklo Sank 10% a Day After the Democratic Sweep Rattled AI Power Stocks. Here’s What Friday’s Report Has to Settle](https://finnhub.io/api/news?id=d422372b73906de75f448896a7d97c15aad9cd6b8344686db5cf757665ec608a)**  
-*Yahoo · 21h前*  
-Key TakeawaysOklo fell 10% on Thursday morning to another 52-week low, a day after a 6% drop when Democrats were projected to win Congress. That’s about 15% in …
+- **[Oklo Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=a1dd13ce46f370f2a23056d7c0a62d732b3fce0937680c632ce232154beba5c7)**  
+*Yahoo · 1d前*  
+Oklo (NYSE:OKLO) is building in additional time for commissioning and startup of its first Aurora powerhouse in Idaho, with its filing indicating the plant coul…
 
-- **[Dear Oklo Stock Fans, Mark Your Calendars for November 6](https://finnhub.io/api/news?id=07baf6cf6c445bc91d698a32a60d5da202c50b8605055b792b220162af623963)**  
-*Yahoo · 21h前*  
-With Oklo’s shares under pressure, its Q3 earnings results might reveal whether its nuclear vision is gaining traction.
+- **[NuScale Jumps 16% as CEO Hails Shift “From Development to Physical Production”](https://finnhub.io/api/news?id=375e2af3bc55cf1161a173305e377caff8793a2fca486302de878f94194c0736)**  
+*Yahoo · 1d前*  
+Key TakeawaysNuScale Power shares rose 16. 3% after its third-quarter loss of $0.
 
 ---
 
@@ -48,7 +48,7 @@ With Oklo’s shares under pressure, its Q3 earnings results might reveal whethe
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $19.20 | — | 自動更新 |
+| 2026-11-09 | 監控 | $23.55 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ With Oklo’s shares under pressure, its Q3 earnings results might reveal whethe
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
