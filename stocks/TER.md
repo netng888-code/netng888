@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$212.74** |
-| 今日變動 | ▼ $38.25　(-15.24%) |
+| 現價 | **$218.22** |
+| 今日變動 | ▲ $5.47　(+2.57%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $604　(▲131.2%) |
+| 未實現盈虧 | ▲ $631　(▲137.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $139.18 | — |
-| Put Wall（支撐） | $195.00 | -8.3% |
-| Call Wall（阻力） | $310.00 | +45.7% |
+| Gamma Flip | $110.76 | — |
+| Put Wall（支撐） | $195.00 | -10.6% |
+| Call Wall（阻力） | $227.50 | +4.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 AI Stocks With Revenue Growth Over 12%](https://finnhub.io/api/news?id=91fca2876a8420d6a2635c3e685c4c0c6bf750a2b9286f69d548b8758a852bb6)**  
-*Yahoo · 14h前*  
-Robots are quietly stepping into one of the least glamorous problems in markets right now. A global shortage of diesel and jet fuel is pushing refiners to squee…
+- **[FormFactor’s $300 Million Vote of Confidence from Teradyne Suggests Billionaires Are Right](https://finnhub.io/api/news?id=aa54907957ac13bff9b51ef0b33791925cb3792473cdddd738cfb0e69cdb97ca)**  
+*Yahoo · 1d前*  
+We just published the list of 10 Best Memory Stocks to Buy According to Billionaires and FormFactor Inc (NASDAQ:FORM) ranked 7th on the list. In the first half …
 
-- **[4 Strong Buy AI Stocks to Consider Amid the Tech Selloff: CLS, DELL, TER & AXTI](https://finnhub.io/api/news?id=616376f59e8341143f45536a15aa336dac1054a7c236b808e33da94cb7a35e62)**  
-*Yahoo · 16h前*  
-The tech selloff is presenting compelling buying opportunities in these four Strong Buy stocks that are benefiting from booming demand for AI infrastructure and…
+- **[What Just Lifted Lam Research Stock?](https://finnhub.io/api/news?id=d85e266727d069aea615299ee2586ec948bdb7781c6d3902db0020a7fccaee6b)**  
+*Yahoo · 1d前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Applied Materials Sinks 12%, Lam Research Down 14% as Chip Stock Rout Deepens After Midterms](https://finnhub.io/api/news?id=5db09675ebe4fefdea33cf21acdc3422be3945f0b8e147e3e859392e89b0f576)**  
-*Yahoo · 18h前*  
-Key TakeawaysApplied Materials fell 12% today as the chip sell-off that began after the midterms deepened, pulling down Lam Research, KLA and Teradyne. Investor…
+- **[What Is The True Hidden Price Of Lam Research Stock?](https://finnhub.io/api/news?id=28584fb759a3a63fc87dc5ef7aafa1d15fbea20b01f16fc4ce9d63ad00a2dff0)**  
+*Yahoo · 2d前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysApplied Materials fell 12% today as the chip sell-off that began af
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $212.74 | — | 自動更新 |
+| 2026-11-09 | 監控 | $218.22 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysApplied Materials fell 12% today as the chip sell-off that began af
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
