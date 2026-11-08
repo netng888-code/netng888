@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$291.53** |
-| 今日變動 | ▼ $33.95　(-10.43%) |
+| 現價 | **$293.69** |
+| 今日變動 | ▲ $2.16　(+0.74%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $871　(▼23.0%) |
+| 未實現盈虧 | ▼ $849　(▼22.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $345.54 | — |
-| Put Wall（支撐） | $290.00 | -0.5% |
-| Call Wall（阻力） | $350.00 | +20.1% |
+| Gamma Flip | $349.19 | — |
+| Put Wall（支撐） | $280.00 | -4.7% |
+| Call Wall（阻力） | $350.00 | +19.2% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Asia’s Chip Stocks Crashed Overnight, With SK Hynix Down 11.7% And Taiwan Off More Than 8%. Now Nasdaq Futures Are Pointing Higher](https://finnhub.io/api/news?id=d45bbdfe0391faae9c7c75d4fa92e5fc5cfc83019261f95a6195a2d86cdf3e1f)**  
-*Yahoo · 1h前*  
-SK Hynix supplies the memory that sits on the world’s top AI chips, and it lost more than a tenth of its value before most Americans woke up. The stock fell 11.…
+- **[Anthropic’s $895 Billion AI Gamble Could Become Wall Street’s Next Debt Nightmare](https://finnhub.io/api/news?id=3c9fd35628ddbb54e240ea72060692c87817ae644ff46644ba6b407f65cc44df)**  
+*Yahoo · 6h前*  
+Anthropic's IPO filing reveals a staggering web of contracts, and the companies on the other side are already burning cash to honor them. Six stocks have starte…
 
-- **[Latest News In AI Chips - Race to Dominate AI Infrastructure Accelerates Globally](https://finnhub.io/api/news?id=798c4762789a0177b366dde5edca840df8049d16a0525c3e67aee60d3e89668e)**  
-*Yahoo · 1h前*  
-The global race for AI infrastructure supremacy is intensifying as major technology players significantly increase their investments in next-generation data cen…
+- **[America’s AI Spending Boom Just Crossed a Staggering $1 Trillion Milestone](https://finnhub.io/api/news?id=9cc50155db1a3a7c3ae63ca64d9d1fc1ca2652bad546af0319939cbb62ac2282)**  
+*Yahoo · 6h前*  
+Record shipments of AI hardware are pouring into American data centers, yet NVIDIA's stock has dropped more than 21% in a month. What does the import data revea…
 
-- **[3 Great AI Infrastructure Stocks To Own In November 2026](https://finnhub.io/api/news?id=3d324ec01f04b10f45720bc35c19903a48aad9bae37615e5897269eb24d7787f)**  
-*Yahoo · 1h前*  
-AI focused stocks just had a brutal reset after the worst US chip sell off since 2020, as investors suddenly questioned how far data centre build outs can reall…
+- **[Broadcom Stock Has Lost Nearly 40% From Its Record. I'd Buy It Now.](https://finnhub.io/api/news?id=8dbb9db305872f03f3245c71bef19f16a0edff119ccd1572ad1bbfd9db0b8bbc)**  
+*Yahoo · 7h前*  
+The AI chip giant's stock is back at its August 2025 price. Should buyers wait for December's results?
 
 ---
 
@@ -48,7 +48,7 @@ AI focused stocks just had a brutal reset after the worst US chip sell off since
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $291.53 | — | 自動更新 |
+| 2026-11-09 | 監控 | $293.69 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ AI focused stocks just had a brutal reset after the worst US chip sell off since
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:03 HKT*
