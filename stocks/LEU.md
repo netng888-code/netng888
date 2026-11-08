@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$89.03** |
-| 今日變動 | ▼ $3.55　(-3.83%) |
+| 現價 | **$104.60** |
+| 今日變動 | ▲ $15.57　(+17.49%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $868　(▼54.9%) |
+| 未實現盈虧 | ▼ $743　(▼47.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $144.85 | — |
-| Put Wall（支撐） | $85.00 | -4.5% |
-| Call Wall（阻力） | $100.00 | +12.3% |
+| Gamma Flip | $139.70 | — |
+| Put Wall（支撐） | $100.00 | -4.4% |
+| Call Wall（阻力） | $110.00 | +5.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[Centrus Energy Corp (LEU) (Q3 2026) Earnings Call Highlights: First Centrifuge Completed Ahead ...](https://finnhub.io/api/news?id=de22b02d8e13eacb11d1791b08b0056313888e291c54a0f8c5fa80c32b216669)**  
-*Yahoo · 13h前*  
-Centrus Energy Corp (LEU) delivered its first U.S.-built centrifuge early and nearly doubled its backlog, even as quarterly revenue fell 26% year over year.
+- **[What Centrus Energy (LEU) Said on Its Q3 Earnings Call](https://finnhub.io/api/news?id=6ebe05ae1d632930c21b7ce301c377dfc6559d40698226b2a47d6cd080bcca57)**  
+*Yahoo · 18h前*  
+Centrus Energy (NYSE:LEU) reported lower third-quarter revenue and a normalized net loss as it advanced its uranium enrichment expansion, completed its first ne…
 
-- **[Centrus Energy (LEU) Q3 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=91954ab4bea945fc7cea185815c7e9bd60befcac706544994d0d66695cf46eaa)**  
-*Yahoo · 16h前*  
-Centrus finishes its first centrifuge early and reaffirms full-year guidance.
+- **[What Is Behind The Move In Oklo Stock?](https://finnhub.io/api/news?id=48cfb649f20f38eb2207a74510e397c1ed075926557bf92ab7cecf56c89e641c)**  
+*Yahoo · 1d前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Centrus Energy Corp. (LEU) Q3 2026 Earnings Call Transcript](https://finnhub.io/api/news?id=33340be1f0ba5f8a9d82dd2fcbc903652b580f351dc0f28f5818bdce0dc39ba0)**  
-*SeekingAlpha · 18h前*  
-Centrus Energy Corp. (LEU) Q3 2026 Earnings Call November 5, 2026 8:30 AM ESTCompany ParticipantsNeal Nagarajan - Senior VP & Head of Investor...
+- **[Roth Capital Upgrades Centrus Energy to Buy from Neutral](https://finnhub.io/api/news?id=ec161e72ee1086ac98b1494f25b4535a2ec0d0ccbd4ecb96f8bf111ca160b9b3)**  
+*Fintel · 1d前*
 
 ---
 
@@ -48,7 +47,7 @@ Centrus Energy Corp. (LEU) Q3 2026 Earnings Call November 5, 2026 8:30 AM ESTCom
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $89.03 | — | 自動更新 |
+| 2026-11-09 | 監控 | $104.60 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ Centrus Energy Corp. (LEU) Q3 2026 Earnings Call November 5, 2026 8:30 AM ESTCom
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
