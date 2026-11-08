@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$282.57** |
-| 今日變動 | ▼ $6.36　(-2.20%) |
+| 現價 | **$284.78** |
+| 今日變動 | ▲ $2.21　(+0.78%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $751　(▲15.3%) |
+| 未實現盈虧 | ▲ $795　(▲16.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $295.32 | — |
-| Put Wall（支撐） | $280.00 | -0.9% |
-| Call Wall（阻力） | $300.00 | +6.2% |
+| Gamma Flip | $298.89 | — |
+| Put Wall（支撐） | $280.00 | -1.7% |
+| Call Wall（阻力） | $300.00 | +5.3% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Latest News In AI Chips - Race to Dominate AI Infrastructure Accelerates Globally](https://finnhub.io/api/news?id=798c4762789a0177b366dde5edca840df8049d16a0525c3e67aee60d3e89668e)**  
-*Yahoo · 1h前*  
-The global race for AI infrastructure supremacy is intensifying as major technology players significantly increase their investments in next-generation data cen…
+- **[Tesla Isn’t a Mag-7 Stock. This Is.](https://finnhub.io/api/news?id=20ea7793c01218522a8165d0e48c334d81e3794d4702c1fbfa6effe2caab0f91)**  
+*Yahoo · 3h前*  
+SpaceX is a much better tech stock than Tesla.
 
-- **[Why Amazon and Other AI Data-Center Stocks Will Be Post-Midterm Winners](https://finnhub.io/api/news?id=f2155ac7109e98ca00d4d3fc763a75de751625a020d5c56d97600ad8d5fc8c62)**  
-*Yahoo · 1h前*  
-A forced slowdown on AI spending could prove beneficial for the hyperscalers and enable them to shore up their balance sheets.
+- **[What Tenaris (TS) Said on Its Q3 Earnings Call](https://finnhub.io/api/news?id=a87c563b070538160931c16c376287792b60dfe95fdb716917b4826ab91821e1)**  
+*Yahoo · 3h前*  
+Tenaris (NYSE:TS) expects fourth-quarter revenue to rise by close to 10% sequentially and its EBITDA margin to reach around 25%, as higher volumes build on a th…
 
-- **[Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff](https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9)**  
-*ChartMill · 1h前*  
-The Nasdaq fell 5.5% in its worst day since April 2025 as investors dumped AI chip stocks on fears of tighter regulation after the Democratic midterm win. AppLo…
+- **[Why AI investors may favor established data-center owners](https://finnhub.io/api/news?id=30a0e00aaf87eeb397f0f9dcc10c7369b6f3b443b35252b5c74e8b872246ced5)**  
+*Yahoo · 4h前*  
+James Demmert, chief investment officer at Main Street Research, sees value in AI but draws a sharp line between dominant operators with existing data centers a…
 
 ---
 
@@ -48,7 +48,7 @@ The Nasdaq fell 5.5% in its worst day since April 2025 as investors dumped AI ch
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $282.57 | — | 自動更新 |
+| 2026-11-09 | 監控 | $284.78 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The Nasdaq fell 5.5% in its worst day since April 2025 as investors dumped AI ch
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:03 HKT*
