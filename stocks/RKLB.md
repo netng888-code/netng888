@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$45.99** |
-| 今日變動 | ▼ $6.38　(-12.18%) |
+| 現價 | **$53.07** |
+| 今日變動 | ▲ $7.08　(+15.39%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $300　(▼39.5%) |
+| 未實現盈虧 | ▼ $229　(▼30.2%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $55.67 | — |
-| Put Wall（支撐） | $45.00 | -2.2% |
-| Call Wall（阻力） | $85.00 | +84.8% |
+| Gamma Flip | $60.76 | — |
+| Put Wall（支撐） | $50.00 | -5.8% |
+| Call Wall（阻力） | $65.00 | +22.5% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Stock Slides As Neutron Delay Puts Focus On Earnings](https://finnhub.io/api/news?id=bb51c53d61543f9f5b824021b23a4a53b74b7a72c9be823e479a59116a745436)**  
-*Yahoo · 7h前*  
-Rocket Lab completed a dedicated Electron launch for HawkEye 360 in October 2026, delivering three HAWK satellites to a 520 km low Earth orbit as part of its gr…
+- **[Billionaires Are Loading Up on Space Stocks: Does Rocket Lab (RKLB) Make the Cut?](https://finnhub.io/api/news?id=4d147085bce6200d63195f0fd49e076df759cf81962139254d2c6ab5cfcd4a5f)**  
+*Yahoo · 1h前*  
+We just published a list of the 10 Best Satellite and Space Stocks Billionaires Are Buying and Rocket Lab Corporation (NASDAQ:RKLB) ranked 7th on this list. Ove…
 
-- **[Rocket Lab Stock Has Lost About 70% From Its Record. Is It Finally a Buy?](https://finnhub.io/api/news?id=01be17b47af24457e6ff9f9593dcebb4ece2d37369890a3f41f825d54481ad41)**  
-*Yahoo · 10h前*  
-Thursday's drop sent the space stock even lower. Is it cheap enough to buy before Monday's report?
+- **[Why Nov. 9 Could Be a Huge Day for Rocket Lab Investors](https://finnhub.io/api/news?id=d6abe7b25f5262e025d026c47f2e1da1cb75759bb48374590445213f3f5078a7)**  
+*Yahoo · 1h前*  
+Can Rocket Lab's next big business update help spur a rebound for its beaten-down stock?
 
-- **[Why Rocket Lab Stock Dropped Today](https://finnhub.io/api/news?id=a5a1695910f4af37292d00228ff57a2670eae8fe770c14623811e02f468ed76d)**  
-*Yahoo · 14h前*  
-Rocket Lab isn't an AI company, but the post-election sell-off in AI stocks is dragging it down anyway because it's viewed as speculative and high-risk.
+- **[Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week](https://finnhub.io/api/news?id=53eafaa6d7567da956f75d5176cad1565abdbbf1e3fbb642ce4d919a12c52482)**  
+*Yahoo · 4h前*  
+This week will bring the consumer and producer price indexes, as well as earnings from Rocket Lab, Occidental, CoreWeave, and more.
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab isn't an AI company, but the post-election sell-off in AI stocks is d
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $45.99 | — | 自動更新 |
+| 2026-11-09 | 監控 | $53.07 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab isn't an AI company, but the post-election sell-off in AI stocks is d
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
