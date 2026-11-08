@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-06 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$468.52** |
-| 今日變動 | ▼ $13.58　(-2.82%) |
+| 現價 | **$452.80** |
+| 今日變動 | ▼ $15.72　(-3.36%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▲ $31　(▲3.4%) |
+| 未實現盈虧 | ▼ $1　(▼0.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $420.84 | — |
-| Put Wall（支撐） | $440.00 | -6.1% |
-| Call Wall（阻力） | $480.00 | +2.5% |
+| Gamma Flip | $417.95 | — |
+| Put Wall（支撐） | $440.00 | -2.8% |
+| Call Wall（阻力） | $500.00 | +10.4% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[ISRG System Placements Rise 28%: Is Capital Equipment Demand Rising?](https://finnhub.io/api/news?id=199a55f479c39c03533bf20d84723efd7daa24835e50f3d6d612811ffd030f05)**  
-*Yahoo · 19h前*  
-Intuitive Surgical's Q3 system placements surge 28%, fueled by multisystem orders and upgrades, but does this signal sustained capital equipment demand?
+- **[Intuitive Surgical Placed 546 da Vinci Systems Last Quarter. Why Wall Street's Sell-Off Misses the Point.](https://finnhub.io/api/news?id=8a0da48f86eab96b284cebfe2b09b5bf48ef891954c4230f5f2fe1283c8a0ab5)**  
+*Yahoo · 3h前*  
+Intuitive Surgical sells the da Vinci surgical robot, but that's actually not how it generates most of its revenue.
 
-- **[2 Growth Stocks to Buy in November Without Any Hesitation](https://finnhub.io/api/news?id=48158e38d59ae2908eadc529946f93f96bf6a01a5f649f977fb29a4779dab1c7)**  
-*Yahoo · 19h前*  
-They have both outperformed the broader equity market over the long run.
+- **[Why Intuitive Surgical (ISRG) Just Cracked the Top 10 Best Healthcare Stocks List](https://finnhub.io/api/news?id=9d086c4262659f74dccced81d2a9af42080caf992427141739e5635d98f5a9a0)**  
+*Yahoo · 7h前*  
+We just published the list of the 10 Best Healthcare and Insurance Stocks To Buy Following the 2026 Democratic Midterm Sweep and Intuitive Surgical (ISRG) takes…
 
-- **[BDX Stock Down in Pre-Market Despite Q4 Earnings & Revenue Beat](https://finnhub.io/api/news?id=15cf4bc37c4724026172bc93b933b0adc5ac5cfe5ade560f8f41cfda6ecf1430)**  
-*Yahoo · 20h前*  
-BD stock lost 6.4% in pre-market trading despite Q4 earnings and revenue beat, as its subdued fiscal 2027 revenue growth outlook raises investor concerns.
+- **[Is Intuitive Surgical's Next Big Thing Already Here?](https://finnhub.io/api/news?id=565abe922a38cf0e4ae1f621d5a6ec89e9641576353b2458fb817ef6d5c97fc6)**  
+*Yahoo · 1d前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -48,7 +48,7 @@ BD stock lost 6.4% in pre-market trading despite Q4 earnings and revenue beat, a
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $468.52 | — | 自動更新 |
+| 2026-11-09 | 監控 | $452.80 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ BD stock lost 6.4% in pre-market trading despite Q4 earnings and revenue beat, a
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
