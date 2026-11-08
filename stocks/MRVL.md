@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-06 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$133.55** |
-| 今日變動 | ▼ $26.25　(-16.43%) |
+| 現價 | **$141.20** |
+| 今日變動 | ▲ $7.65　(+5.73%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $866　(▼48.1%) |
+| 未實現盈虧 | ▼ $813　(▼45.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $204.25 | — |
-| Put Wall（支撐） | $130.00 | -2.7% |
-| Call Wall（阻力） | $200.00 | +49.8% |
+| Gamma Flip | $214.47 | — |
+| Put Wall（支撐） | $140.00 | -0.8% |
+| Call Wall（阻力） | $150.00 | +6.2% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[U.S. chip stocks rebound sharply after Thursday’s brutal selloff](https://finnhub.io/api/news?id=32994cc30fb0b293a4c339746be18356b6f76e437132b50c7b3fb8aafc8551bd)**  
-*Yahoo · 2h前*  
-Investing.com -- U.S. chip stocks rebounded in premarket trading Friday, recovering some ground after a sweeping AI-driven selloff Thursday that followed the De…
+- **[Marvell Is 57% Below Its High After a $115 Billion Deal: Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=ab73d84e0d8d95bb655e92bfd3f8db5f439b7183a13cf9189b86507205bd90ce)**  
+*Yahoo · 7h前*  
+Key TakeawaysMarvell shares have fallen about 44% since October 28, after it agreed to buy Lumentum in an all-stock deal valued at $115 billion. The fixed 4.
 
-- **[nLight (LASR) Beats Q3 Earnings and Revenue Estimates](https://finnhub.io/api/news?id=4e2564b074a4aa4c0dab3334a8d47527e05052288c932b253525e291b6c9ad07)**  
+- **[This Week in TSLA: Elon Musk Loses Big in Midterms, Cybertruck Ends Production and More](https://finnhub.io/api/news?id=ddc02e79ee8f929dd264f12067abe41060b8207d2efb2a13476558b07d5dc5bf)**  
+*Benzinga · 13h前*  
+This week in Tesla sees Elon Musk confirming the Cybertruck&#39;s production sunset as Republicans cede ground to Democrats in midterms.
+
+- **[Coherent Is Up 21% in a Year as AI Goes “From Copper to Optical.” Is It a Buy?](https://finnhub.io/api/news?id=20a4f74fbba500d3e4cb41a88e300b331cdba654b512f057a9d08b61491f9b97)**  
 *Yahoo · 13h前*  
-nLight (LASR) delivered earnings and revenue surprises of +166.67% and +8.55%, respectively, for the quarter ended September 2026. Do the numbers hold clues to …
-
-- **[What Insight Enterprises (NSIT) Said on Its Q3 Earnings Call](https://finnhub.io/api/news?id=f962a0b26ec4972c858b50561cc3e8733b13163ba9b8daaaa2923de8c55925de)**  
-*Yahoo · 14h前*  
-Insight Enterprises (NASDAQ:NSIT) reported 22% revenue growth in the third quarter of 2026 and raised its full-year outlook, as demand for infrastructure hardwa…
+Key TakeawaysCoherent stock is up 21% in the past year, but it’s about 56% below the peak it set in June, a run helped by Nvidia’s $2 billion investment. Revenu…
 
 ---
 
@@ -48,7 +48,7 @@ Insight Enterprises (NASDAQ:NSIT) reported 22% revenue growth in the third quart
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-06 | 監控 | $133.55 | — | 自動更新 |
+| 2026-11-09 | 監控 | $141.20 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Insight Enterprises (NASDAQ:NSIT) reported 22% revenue growth in the third quart
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-06 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 07:03 HKT*
