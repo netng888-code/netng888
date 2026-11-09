@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$56.28** |
-| 今日變動 | ▲ $4.03　(+7.71%) |
+| 現價 | **$59.37** |
+| 今日變動 | ▲ $3.09　(+5.49%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $507　(▼47.4%) |
+| 未實現盈虧 | ▼ $476　(▼44.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $82.13 | — |
-| Put Wall（支撐） | $50.00 | -11.2% |
-| Call Wall（阻力） | $70.00 | +24.4% |
+| Gamma Flip | $62.16 | — |
+| Put Wall（支撐） | $55.00 | -7.4% |
+| Call Wall（阻力） | $70.00 | +17.9% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jensen Huang just handed Wall Street its first $4.5 trillion CEO scandal](https://finnhub.io/api/news?id=94cde516a396c9e069afc7744673d51d745cb555ba7ef6e065dcb65da9f73300)**  
-*Yahoo · 3h前*  
-Wall Street has priced plenty of CEO scandals. It has never priced one at a company worth $4.5 trillion that makes up nearly 7% of the S&P 500.
+- **[Where To Buy The Dip](https://finnhub.io/api/news?id=1de6de4f66d69d15239bb692fe7ff113bf3716dc7fe15f652fa5dff1254b200e)**  
+*SeekingAlpha · 6h前*  
+Gary Vaughan from Daily Stock PicksÂ argues that the recent market selloff presents buying opportunities.
 
-- **[NVDA Stock Slides Premarket: Beijing Reportedly Rejects Jensen Huang Spy Allegations As ‘Smears Against China'](https://finnhub.io/api/news?id=38495a9e2f828916fd333c83767f1615c03271cfd2aabd200e415e43ee6e1657)**  
-*Yahoo · 3h前*  
-Nvidia stock drops, even as those of rivals such as Intel and AMD rise.
+- **[AMD Just Eased Wall Street’s AI Spending Scare. Here’s What It Means for the Stock](https://finnhub.io/api/news?id=9e0c3094e1ee38ece7f481a00d81360b84313ef34777a0f07b47f1e9bd53b94b)**  
+*Yahoo · 6h前*  
+AMD's blowout quarter calmed Wall Street's AI jitters and sent shares soaring, but one valuation gap with NVIDIA and a pile of rising inventory could decide whe…
 
-- **[Stock Market Today: Nvidia Board Opens Probe Into Jensen Huang as Wall Street Licks Its AI Wounds](https://finnhub.io/api/news?id=037d5a7497094658b8f5ca3f4adab844ede8aff4ac0d2ad7143c0d53e11672dd)**  
-*ChartMill · 4h前*  
-Nvidia’s board launched an independent investigation into CEO Jensen Huang’s relationship with a suspected Chinese spy. On Friday, chip stocks bounced, a strong…
+- **[BC-Most Active Stocks](https://finnhub.io/api/news?id=59c254b5812179c368cfddf6c79f837528650664d9af92f1729bceb2d8ff240b)**  
+*Yahoo · 7h前*  
+NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Cha…
 
 ---
 
@@ -48,7 +48,7 @@ Nvidia’s board launched an independent investigation into CEO Jensen Huang’s
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-09 | 監控 | $56.28 | — | 自動更新 |
+| 2026-11-10 | 監控 | $59.37 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia’s board launched an independent investigation into CEO Jensen Huang’s
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
