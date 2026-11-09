@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$452.80** |
-| 今日變動 | ▼ $15.72　(-3.36%) |
+| 現價 | **$460.56** |
+| 今日變動 | ▲ $7.76　(+1.71%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $1　(▼0.1%) |
+| 未實現盈虧 | ▲ $15　(▲1.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $417.95 | — |
-| Put Wall（支撐） | $440.00 | -2.8% |
-| Call Wall（阻力） | $500.00 | +10.4% |
+| Gamma Flip | $418.07 | — |
+| Put Wall（支撐） | $440.00 | -4.5% |
+| Call Wall（阻力） | $480.00 | +4.2% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Physical AI: Robotics Heading Into 2027](https://finnhub.io/api/news?id=32c7c07ffb23e348a9cba8d942c721bb254d57b9c9377fe5064dcb237d209e9c)**  
-*SeekingAlpha · 5h前*
+- **[Top Research Reports for ASML, Alibaba & Intuitive Surgical](https://finnhub.io/api/news?id=8997313777850e60e73f1cdf370abadfa53a7d6fea09b3fe69ff661dd51bff50)**  
+*Yahoo · 2h前*  
+Today's Research Daily features new research reports on 16 major stocks, including ASML Holding N.V. (ASML), Alibaba Group Holding Limited (BABA), Intuitive Sur…
 
-- **[Intuitive Surgical Placed 546 da Vinci Systems Last Quarter. Why Wall Street's Sell-Off Misses the Point.](https://finnhub.io/api/news?id=8a0da48f86eab96b284cebfe2b09b5bf48ef891954c4230f5f2fe1283c8a0ab5)**  
-*Yahoo · 17h前*  
-Intuitive Surgical sells the da Vinci surgical robot, but that's actually not how it generates most of its revenue.
+- **[ISRG Gains 7.8% in 6 Months: Will the Share Price Recovery Continue?](https://finnhub.io/api/news?id=ebd6822af6b7901b3ecf01dcb3471432221723fcb59d7dcc752ffe13f139a8ce)**  
+*Yahoo · 5h前*  
+Intuitive Surgical shares gained 7.8% in six months as robust procedure growth and da Vinci 5 adoption offset litigation costs, competition and valuation concer…
 
-- **[Why Intuitive Surgical (ISRG) Just Cracked the Top 10 Best Healthcare Stocks List](https://finnhub.io/api/news?id=9d086c4262659f74dccced81d2a9af42080caf992427141739e5635d98f5a9a0)**  
-*Yahoo · 21h前*  
-We just published the list of the 10 Best Healthcare and Insurance Stocks To Buy Following the 2026 Democratic Midterm Sweep and Intuitive Surgical (ISRG) takes…
+- **[Waters Expands Proteomics Reach With MOBILion Systems Acquisition](https://finnhub.io/api/news?id=8d91a038441f7df232982f9dab889d322511e19a1a4e59a6657b1095f752e3b1)**  
+*Yahoo · 7h前*  
+WAT expands its proteomics footprint with the MOBILion acquisition, boosting mass spectrometry capabilities, AI-driven research and clinical testing prospects.
 
 ---
 
@@ -47,7 +48,7 @@ We just published the list of the 10 Best Healthcare and Insurance Stocks To Buy
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-09 | 監控 | $452.80 | — | 自動更新 |
+| 2026-11-10 | 監控 | $460.56 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ We just published the list of the 10 Best Healthcare and Insurance Stocks To Buy
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
