@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Teradyne (NASDAQ:TER): Affordable Growth at a Reasonable Valuation](https://finnhub.io/api/news?id=402670759e6885c2b4efc3e6abead230282e5e94b44890e18778faba6dcd42be)**  
+*ChartMill · 1h前*  
+Teradyne (TER) blends strong EPS growth with reasonable valuation and solid financial health, making it a compelling Affordable Growth candidate.
+
+- **[Teradyne Introduces Omnyx Edge, Inline Board Test for Physical and Edge AI](https://finnhub.io/api/news?id=2356ae0658715b1c88732c083b01886e01c24a0cadb174163880c819d19592c2)**  
+*Yahoo · 5h前*  
+NORTH READING, Mass., November 09, 2026--Teradyne introduces Omnyx Edge, bringing inline board test to the compute, sensing, and motion boards behind physical a…
+
 - **[FormFactor’s $300 Million Vote of Confidence from Teradyne Suggests Billionaires Are Right](https://finnhub.io/api/news?id=aa54907957ac13bff9b51ef0b33791925cb3792473cdddd738cfb0e69cdb97ca)**  
 *Yahoo · 1d前*  
 We just published the list of 10 Best Memory Stocks to Buy According to Billionaires and FormFactor Inc (NASDAQ:FORM) ranked 7th on the list. In the first half …
-
-- **[What Just Lifted Lam Research Stock?](https://finnhub.io/api/news?id=d85e266727d069aea615299ee2586ec948bdb7781c6d3902db0020a7fccaee6b)**  
-*Yahoo · 1d前*  
-For questions about this article or underlying research, email help@trefis.com.
-
-- **[What Is The True Hidden Price Of Lam Research Stock?](https://finnhub.io/api/news?id=28584fb759a3a63fc87dc5ef7aafa1d15fbea20b01f16fc4ce9d63ad00a2dff0)**  
-*Yahoo · 2d前*  
-For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:03 HKT*
