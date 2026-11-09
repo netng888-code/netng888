@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Centrus Energy (LEU) Said on Its Q3 Earnings Call](https://finnhub.io/api/news?id=6ebe05ae1d632930c21b7ce301c377dfc6559d40698226b2a47d6cd080bcca57)**  
-*Yahoo · 18h前*  
-Centrus Energy (NYSE:LEU) reported lower third-quarter revenue and a normalized net loss as it advanced its uranium enrichment expansion, completed its first ne…
+- **[Wall Street Breakfast Podcast: The Spy Who Loved Nvidia](https://finnhub.io/api/news?id=c2a64147185315ce3fef75d6784d724cd2acddc78567762af30d444b7b0fce74)**  
+*SeekingAlpha · 6h前*  
+Nvidia finds itself in a real-life spy drama. NASA has big plans for the Moon. The nuclear comeback gathered steam Friday.
 
-- **[What Is Behind The Move In Oklo Stock?](https://finnhub.io/api/news?id=48cfb649f20f38eb2207a74510e397c1ed075926557bf92ab7cecf56c89e641c)**  
-*Yahoo · 1d前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[The top 5 analyst questions from Centrus Energy’s Q3 2026 earnings call](https://finnhub.io/api/news?id=2c23c57804a0b0d7a5a9efcccf79fe904ff07fb38016f9bc3658e47bdba1fe2a)**  
+*Yahoo · 9h前*  
+Centrus Energy’s third quarter performance was met with a negative market response as the company missed Wall Street’s revenue and non-GAAP earnings expectation…
 
-- **[Roth Capital Upgrades Centrus Energy to Buy from Neutral](https://finnhub.io/api/news?id=ec161e72ee1086ac98b1494f25b4535a2ec0d0ccbd4ecb96f8bf111ca160b9b3)**  
-*Fintel · 1d前*
+- **[Don’t Miss Out: 5 Stocks Getting Major Upgrades From Top Analysts](https://finnhub.io/api/news?id=8474b4c6ecd621e8de7b6b5aed36eb70e163fbf504082d2b35ca13d333408ef9)**  
+*Yahoo · 13h前*  
+Wall Street ended a punishing week on Friday with a partial recovery. The Nasdaq Composite rose 1.09% to 24,579.42 and the S&P 500 gained 0.31% to 7,376.86, whi…
 
 ---
 
@@ -58,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
