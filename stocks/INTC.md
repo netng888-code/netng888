@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AMD Stock Dropped 11% Last Week. Is Intel’s PC Warning Really That Bad?](https://finnhub.io/api/news?id=6adcfdccc834f1c76c4c8e305d026b46e1b5b49dbe79284d0ced25dc8d4b0a2a)**  
-*Yahoo · 4h前*  
-Key TakeawaysAdvanced Micro Devices (AMD) stock declined approximately 11% from October 30 to November 6, closing near $449 as semiconductor valuations came und…
+- **[Jensen Huang just handed Wall Street its first $4.5 trillion CEO scandal](https://finnhub.io/api/news?id=94cde516a396c9e069afc7744673d51d745cb555ba7ef6e065dcb65da9f73300)**  
+*Yahoo · 3h前*  
+Wall Street has priced plenty of CEO scandals. It has never priced one at a company worth $4.5 trillion that makes up nearly 7% of the S&P 500.
 
-- **[Intel Stock Has Gone Nowhere in 8 Years. Why This Time Could Be Different](https://finnhub.io/api/news?id=8b2977094380ab101f904badd75209baae987dfea1c1ebab6c4961f3bcb48000)**  
-*Yahoo · 6h前*  
-Intel just posted its strongest data center growth in 15 years, and the stock got cut in half anyway. Foundry losses, a cash-hungry 2027, and a few unnamed cust…
+- **[NVDA Stock Slides Premarket: Beijing Reportedly Rejects Jensen Huang Spy Allegations As ‘Smears Against China'](https://finnhub.io/api/news?id=38495a9e2f828916fd333c83767f1615c03271cfd2aabd200e415e43ee6e1657)**  
+*Yahoo · 3h前*  
+Nvidia stock drops, even as those of rivals such as Intel and AMD rise.
 
-- **[What Intel Doubters Got Wrong](https://finnhub.io/api/news?id=ffa22322a67fcb2b38959992ad59b17b1f950e284ca33f29889fa771f169d9db)**  
-*Yahoo · 7h前*  
-If you had been weighing Intel in early November 2025, the headlines were already split between a complex restructuring plan and questions about whether AI-focu…
+- **[Stock Market Today: Nvidia Board Opens Probe Into Jensen Huang as Wall Street Licks Its AI Wounds](https://finnhub.io/api/news?id=037d5a7497094658b8f5ca3f4adab844ede8aff4ac0d2ad7143c0d53e11672dd)**  
+*ChartMill · 4h前*  
+Nvidia’s board launched an independent investigation into CEO Jensen Huang’s relationship with a suspected Chinese spy. On Friday, chip stocks bounced, a strong…
 
 ---
 
@@ -59,4 +59,4 @@ If you had been weighing Intel in early November 2025, the headlines were alread
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
