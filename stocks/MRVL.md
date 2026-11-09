@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$141.17** |
-| 今日變動 | ▲ $7.62　(+5.71%) |
+| 現價 | **$154.60** |
+| 今日變動 | ▲ $13.40　(+9.49%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $813　(▼45.1%) |
+| 未實現盈虧 | ▼ $719　(▼39.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $214.47 | — |
-| Put Wall（支撐） | $140.00 | -0.8% |
-| Call Wall（阻力） | $150.00 | +6.3% |
+| Gamma Flip | $211.82 | — |
+| Put Wall（支撐） | $150.00 | -3.0% |
+| Call Wall（阻力） | $160.00 | +3.5% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[ETFs Bought $13.1 Million of Marvell (MRVL) on Thursday](https://finnhub.io/api/news?id=59061a112b2b844c3a2dc13cf53d820f9a6b47ada440dea9247b4460b2a57491)**  
+- **[Why Marvell Technology Stock Fell Hard in October](https://finnhub.io/api/news?id=f14ff4fd2aa3c2ed3e0995ad80a9b00078a070c95b123024f1a46aac7ed86bdb)**  
 *Yahoo · 2h前*  
-Forty-four ETFs bought Marvell shares while 19 sold on Nov. 5.
+Investors continued to exit AI positions, and news of a new Marvell acquisition sent shares falling.
 
-- **[Marvell Stock Fell 58% From Its Record. History Says What Followed Its Last 4 Drops This Deep.](https://finnhub.io/api/news?id=fc37c4cff7e9a8c84d3b156f447081d4891febd2f4249321d05017739f4c8025)**  
-*Yahoo · 2h前*  
-Two of the chip designer's past rebounds from a crash this deep took over five years. Is this one different?
+- **[Marvell Sinks 36%, Lumentum Drops 31% on $115 Billion Deal: Is the Selloff Overdone?](https://finnhub.io/api/news?id=5c1a43936d383cffaecd209658d3e2acc1022de03a107756ed25d5c8501414b7)**  
+*Yahoo · 3h前*  
+Key TakeawaysMarvell Technology (MRVL) shares declined approximately 36% between October 28 and November 4, closing near $160 as investors questioned its propos…
 
-- **[Marvell Vs. Coherent: Now I'm Buying Only One](https://finnhub.io/api/news?id=3e13bb1587ec27590fdb9a730da09249a926ebcc047bead520a787a7597e425c)**  
-*SeekingAlpha · 5h前*  
-Why Coherent Corp. looks like an opportunity: rising revenue growth, margin gains, and peer discount. Click for a COHR comparison with MRVL.
+- **[Marvell (MRVL) Stock Looks Undervalued After Its 166% Three Year Run](https://finnhub.io/api/news?id=06334bd1a57c268ea92063ddaf9831760ff6473490f3fe0cdef1ef8fb11c02af)**  
+*Yahoo · 3h前*  
+Marvell Technology has given shareholders a powerful multi year ride, yet the recent slide in the share price and a major AI focused deal leave a simple questio…
 
 ---
 
@@ -48,7 +48,7 @@ Why Coherent Corp. looks like an opportunity: rising revenue growth, margin gain
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-09 | 監控 | $141.17 | — | 自動更新 |
+| 2026-11-10 | 監控 | $154.60 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Why Coherent Corp. looks like an opportunity: rising revenue growth, margin gain
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 07:03 HKT*
