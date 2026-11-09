@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,8 +8,8 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$610.15** |
-| 今日變動 | ▲ $5.07　(+0.84%) |
+| 現價 | **$610.09** |
+| 今日變動 | ▲ $5.01　(+0.83%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
 | 未實現盈虧 | ▲ $11　(▲0.6%) |
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Should You Buy Meta Platforms Before Its Stock Split?](https://finnhub.io/api/news?id=3668e9c835343307dc8b74d0181ffe572397d84ba423f5665b87653aa38b347f)**  
-*Yahoo · 2h前*  
-Meta Platforms is creating a new share class as part of its upcoming stock split.
+- **[“Don’t Come Begging To Taxpayers,” Bernie Sanders Warns Big Tech “You Won’t Be Bailed Out” If AI Bet Fueled By $3 Trillion In Debt Blows Up](https://finnhub.io/api/news?id=79af20c634b59bc2646141107ca3748d6f9d4ec1bc4abfe5c193b3855389973b)**  
+*Yahoo · 1h前*  
+Bernie Sanders drew a hard line for Big Tech as a brutal month hammered the Nasdaq. Behind the AI spending boom, the cash flow numbers at the biggest spenders r…
 
-- **[This Is the Best-Performing Magnificent Seven Stock of 2026. Is It Still a Buy?](https://finnhub.io/api/news?id=1d48e3a793e3b8cd9704132729a6cda17a0b4740df050cb1c993eeb8ba36152e)**  
-*Yahoo · 3h前*  
-Apple has crushed other members of the Magnificent Seven in 2026.
+- **[AMD's $100 billion AI opportunity raises a Wall Street question](https://finnhub.io/api/news?id=a7266edf07ac8515d4d41ccce182046fa86e8e5ae59c5a713f6c14d19722eee3)**  
+*Yahoo · 1h前*  
+Stone Fox Capital projects approximately $94 billion in 2027 revenue, approaching $100 billion.
 
-- **[Not Bloom Energy. Not Vistra. This AI Power Stock Just Posted a 96% Jump in Orders.](https://finnhub.io/api/news?id=785b51a23a857c469b3ddfaf14dc4060002763c17eeb79315093a4c7615388f9)**  
-*Yahoo · 4h前*  
-The impending change in the political backdrop isn't apt to actually affect the growing demand for its equipment, either.
+- **[Google warns millions of Gmail users could face new restrictions](https://finnhub.io/api/news?id=1c9273187a50f26d0e6ae5fc65980475a519d33a5b92a37cc783152a6b278b56)**  
+*Yahoo · 1h前*  
+Google says proposed online safety requirements could extend age verification to everyday communication services.
 
 ---
 
@@ -48,7 +48,7 @@ The impending change in the political backdrop isn't apt to actually affect the 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-09 | 監控 | $610.15 | — | 自動更新 |
+| 2026-11-09 | 監控 | $610.09 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The impending change in the political backdrop isn't apt to actually affect the 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
