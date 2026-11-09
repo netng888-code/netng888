@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-09 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[The Top 5 Biotech Stocks I'd Buy Right Now Without Any Hesitation](https://finnhub.io/api/news?id=7139128692423f9547bfcea9275e9b326d02e30bbb9548b16934adaf8f182e76)**  
-*Yahoo · 1h前*  
-These are among the best the industry has to offer.
+- **[Buy, Sell, or Hold? Monday’s Top Upgrades and Downgrades: Advanced Micro Devices, Airbnb, DraftKings, L3 Harris Technologies, Molson-Coors, Nvidia,  Take-Two Interactive, Uber Technologies, and More](https://finnhub.io/api/news?id=a3fcbc84839c478f1ba4900cbbf785a8e3317742321e16cb107cea57beefd5c9)**  
+*Yahoo · 0h前*  
+Pre-Market Stock Futures: Futures are trading higher after a wild week that saw stocks rally after the election, then the Nasdaq post its biggest loss in 18 mon…
 
-- **[Jensen Huang Just Handed Nvidia Shareholders a Warning No Earnings Report Can Fix](https://finnhub.io/api/news?id=019affeaea676f6ed0d02fb02a410568d794119de81b59ecf9ab0a6d797c3ecf)**  
-*Yahoo · 1h前*  
-Nvidia's board opened an independent investigation of CEO Jensen Huang on Sunday after he wrote in a letter to staff that he was unfaithful to his wife. Here is…
+- **[Nvidia braces for $200bn hit over ‘Chinese spy’ affair](https://finnhub.io/api/news?id=3940c1082a2c3aff84097bc4a743791ab0ca43a5f9e1141cb38bc69c7897cd4d)**  
+*Yahoo · 0h前*  
+The boss of Nvidia is fighting to keep his job after he admitted to an affair with a woman suspected of being a Chinese spy.
 
-- **[Why ASML Holdings Fell in October](https://finnhub.io/api/news?id=b402035181f44e97d7c06857f7cbc519abd93ecd830a698bca1d2c125465f8e4)**  
-*Yahoo · 1h前*  
-A big earnings beat wasn't enough to offset broader fears that drove the AI stock sell-off last month and into November.
+- **[When the Next Bear Market Arrives, History Says to Avoid This 1 Costly Mistake](https://finnhub.io/api/news?id=e79871bc20ce4646ddb117ceed7abf5d57a2fe15e3fbadaab6c5d481ad2f71ac)**  
+*Yahoo · 0h前*  
+Oftentimes, staying put is the answer.
 
 ---
 
@@ -59,4 +59,4 @@ A big earnings beat wasn't enough to offset broader fears that drove the AI stoc
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:03 HKT*
