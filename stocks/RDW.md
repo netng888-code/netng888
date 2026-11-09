@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[5 revealing analyst questions from Redwire’s Q3 2026 earnings call](https://finnhub.io/api/news?id=80792336015bbfc41484b0a8ebf698f7d95aa250c0e915de5605d346b1c1760d)**  
+*Yahoo · 15h前*  
+Redwire’s third quarter results were met with a significant negative market reaction, following a revenue miss relative to Wall Street expectations despite year…
+
+- **[Redwire Corporation (RDW): An Opportunity For Patient Investors As Backlog Grows](https://finnhub.io/api/news?id=ef2da27b7f84a5bfdb7e10ac5d37a2d151b1c3dad6db2ebc7a71ecc24d91ea40)**  
+*Yahoo · 15h前*  
+We just published a list of the 10 Best Satellite and Space Stocks Billionaires Are Buying and Redwire Corporation (NYSE:RDW) ranked 10th on this list. Over the…
+
 - **[Consumer Tech (Oct 2-6): Big Earnings Dominate Headline, Meta, Google Face Political And Regulatory Pressure Over AI Expansion & More](https://finnhub.io/api/news?id=ec1338be3aebd5819f0885edec9c8dbc4bbd179f681c4e8187e4050fc245cade)**  
-*Benzinga · 12h前*  
+*Benzinga · 1d前*  
 Meta faces political pressure over data center development, while Google encounters criticism over AI in schools and major technology stocks report quarterly re…
-
-- **[Redwire Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=b4480e4b9401f544cc276d949b144d891d7a35b423f53712709700769c99317b)**  
-*Yahoo · 1d前*  
-Redwire (NYSE:RDW) reported higher third-quarter revenue and a record gross margin as growth in its space business offset a decline in defense technology sales …
-
-- **[RDW Q3 Earnings Call Highlights Backlog Growth and Revenue Delays](https://finnhub.io/api/news?id=6b722ece201dcf3d0c81c1b38c649dbe33cfd1eecda7942e728a716c86970541)**  
-*Yahoo · 2d前*  
-Redwire's Q3 loss narrowed versus estimates, but revenues missed forecasts. Record backlog, improved margins and shipment delays shape its 2026 outlook.
 
 ---
 
@@ -59,4 +59,4 @@ Redwire's Q3 loss narrowed versus estimates, but revenues missed forecasts. Reco
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
