@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[Physical AI: Robotics Heading Into 2027](https://finnhub.io/api/news?id=32c7c07ffb23e348a9cba8d942c721bb254d57b9c9377fe5064dcb237d209e9c)**  
+*SeekingAlpha · 5h前*
+
 - **[Intuitive Surgical Placed 546 da Vinci Systems Last Quarter. Why Wall Street's Sell-Off Misses the Point.](https://finnhub.io/api/news?id=8a0da48f86eab96b284cebfe2b09b5bf48ef891954c4230f5f2fe1283c8a0ab5)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 Intuitive Surgical sells the da Vinci surgical robot, but that's actually not how it generates most of its revenue.
 
 - **[Why Intuitive Surgical (ISRG) Just Cracked the Top 10 Best Healthcare Stocks List](https://finnhub.io/api/news?id=9d086c4262659f74dccced81d2a9af42080caf992427141739e5635d98f5a9a0)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 We just published the list of the 10 Best Healthcare and Insurance Stocks To Buy Following the 2026 Democratic Midterm Sweep and Intuitive Surgical (ISRG) takes…
-
-- **[Is Intuitive Surgical's Next Big Thing Already Here?](https://finnhub.io/api/news?id=565abe922a38cf0e4ae1f621d5a6ec89e9641576353b2458fb817ef6d5c97fc6)**  
-*Yahoo · 1d前*  
-For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +58,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
