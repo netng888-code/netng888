@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Is Oklo (OKLO) Locking In Domestic Reactor Manufacturing Capacity?](https://finnhub.io/api/news?id=c0183cd043dc35e2641924107df34dfe552c68ab9a5294511a4bc59aba762861)**  
-*Yahoo · 1d前*  
-Oklo (NYSE:OKLO) agreed a new supply partnership with U.S. Forged Rings to support Aurora reactor component manufacturing in the U.S. The arrangement secures do…
+- **[Wall Street Breakfast Podcast: The Spy Who Loved Nvidia](https://finnhub.io/api/news?id=c2a64147185315ce3fef75d6784d724cd2acddc78567762af30d444b7b0fce74)**  
+*SeekingAlpha · 6h前*  
+Nvidia finds itself in a real-life spy drama. NASA has big plans for the Moon. The nuclear comeback gathered steam Friday.
 
-- **[Oklo Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=a1dd13ce46f370f2a23056d7c0a62d732b3fce0937680c632ce232154beba5c7)**  
+- **[Fervo Energy Just Dropped 35% in a Month. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=1033fcab043102b94b678f831b0f833f10ae90158c5a227b1caf98d38909d6d4)**  
 *Yahoo · 1d前*  
-Oklo (NYSE:OKLO) is building in additional time for commissioning and startup of its first Aurora powerhouse in Idaho, with its filing indicating the plant coul…
+Key TakeawaysFervo Energy stock fell 35% in the past month, a bit less than Bloom Energy and Oklo, as AI power stocks sold off and a short seller’s report added…
 
-- **[NuScale Jumps 16% as CEO Hails Shift “From Development to Physical Production”](https://finnhub.io/api/news?id=375e2af3bc55cf1161a173305e377caff8793a2fca486302de878f94194c0736)**  
+- **[NuScale Just Hit a New 52-Week Low After Losing 26% in a Week. Is the Selling Overdone?](https://finnhub.io/api/news?id=1111af467f7b2f2492a24ea62b3ab1a81c89eca88cf0ad65cb665d108bcfe6d5)**  
 *Yahoo · 1d前*  
-Key TakeawaysNuScale Power shares rose 16. 3% after its third-quarter loss of $0.
+Key TakeawaysNuScale Power fell 26% in a week to a new 52-week low as power and nuclear stocks, Oklo and Vistra among them, sold off around the election. NuScal…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysNuScale Power shares rose 16. 3% after its third-quarter loss of $0
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
