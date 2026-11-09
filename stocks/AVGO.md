@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-09 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Anthropic’s $895 Billion AI Gamble Could Become Wall Street’s Next Debt Nightmare](https://finnhub.io/api/news?id=3c9fd35628ddbb54e240ea72060692c87817ae644ff46644ba6b407f65cc44df)**  
-*Yahoo · 6h前*  
-Anthropic's IPO filing reveals a staggering web of contracts, and the companies on the other side are already burning cash to honor them. Six stocks have starte…
+- **[AI Chips Today - AI Tech Leaders Gather to Define Future Innovation](https://finnhub.io/api/news?id=afc79a9c53fbecad52617ea2e037362ba199b4ceb2d90ebee91af410dd744e49)**  
+*Yahoo · 1h前*  
+The 1st Annual Tennessee C-Level Technology Leadership Summit, hosted by HMG Strategy, is set to take place in Nashville on November 13. This event will convene…
 
-- **[America’s AI Spending Boom Just Crossed a Staggering $1 Trillion Milestone](https://finnhub.io/api/news?id=9cc50155db1a3a7c3ae63ca64d9d1fc1ca2652bad546af0319939cbb62ac2282)**  
-*Yahoo · 6h前*  
-Record shipments of AI hardware are pouring into American data centers, yet NVIDIA's stock has dropped more than 21% in a month. What does the import data revea…
+- **[iShares Expanded Tech Sector ETF (IGM) Sells Apple and Microsoft on Nov. 5](https://finnhub.io/api/news?id=8f91be023bdb73930f74dd1115d07fbe7693bc37f34bc2d722864a9912fc849d)**  
+*Yahoo · 1h前*  
+The $9.59 billion fund sold $152.9 million of stock, cutting 288 positions and adding none.
 
-- **[Broadcom Stock Has Lost Nearly 40% From Its Record. I'd Buy It Now.](https://finnhub.io/api/news?id=8dbb9db305872f03f3245c71bef19f16a0edff119ccd1572ad1bbfd9db0b8bbc)**  
-*Yahoo · 7h前*  
-The AI chip giant's stock is back at its August 2025 price. Should buyers wait for December's results?
+- **[U.S. Core Equity 2 (DFAC) Adds Dow and International Paper on Nov. 5](https://finnhub.io/api/news?id=18924086d24d938b5bf1914331fb860e4b947251843d07d8a1398bb4b7244a66)**  
+*Yahoo · 1h前*  
+The fund bought $4.3 million of Dow and $3.9 million of International Paper while selling $69.4 million of Visa.
 
 ---
 
@@ -59,4 +59,4 @@ The AI chip giant's stock is back at its August 2025 price. Should buyers wait f
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:03 HKT*
