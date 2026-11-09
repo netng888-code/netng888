@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir’s business beyond government just got a lot bigger](https://finnhub.io/api/news?id=3e202e1e4cab76b6b4d34a3f7493c636a970c9bd8de08a69eae9d5934009bd06)**  
-*Yahoo · 4h前*  
-Bank of America says Palantir’s commercial AI business just got bigger, and the shift could matter a lot.
+- **[Nvidia, Palantir, and Tesla Are Sending Shockwaves Through Wall Street With This $53 Billion Warning](https://finnhub.io/api/news?id=2815bd63bf1bc0378254d5574a4b3271abc0f0dbc2b76ebaea75a25d9a202d29)**  
+*Yahoo · 0h前*  
+The people who know this artificial intelligence (AI) trio best are sending all the wrong signals.
 
-- **[Adobe vs. Palantir Technologies: Which Technology Stock Is a Better Buy Going Into 2027?](https://finnhub.io/api/news?id=05fab4e406bff64f56df5e7cab35c93b19d9c4e2985c081db2cc2d4bce19f61b)**  
-*Yahoo · 4h前*  
-Adobe trades at a much lower forward earnings multiple compared to Palantir, yet the growth gap between them may matter more than the price tag.
+- **[Micron Technology And 2 High Growth Stocks To Watch](https://finnhub.io/api/news?id=d751bd4f8100316a2d1ac9f479132a263c1516aee44cc40b5830d0e35a677f08)**  
+*Yahoo · 8h前*  
+Rising concern about US government debt and higher Treasury yields has pushed many investors to rethink where they want growth exposure. Strong balance sheets a…
 
-- **[Wall Street Is Dumping AI Stocks Even as Business Booms. Something Doesn’t Add Up.](https://finnhub.io/api/news?id=1e6720f37fae5bed61c37d3c45ef60ba3a6a009a99ff308c71ea66b89757cdd9)**  
-*Yahoo · 6h前*  
-Both AMD and Palantir just posted record quarters, yet both stocks are sinking. For a retirement portfolio with no dividends to cushion the blow, one metric dec…
+- **[Palantir vs. Snowflake: The AI Sell-Off Is Exposing a Critical Difference for 2027](https://finnhub.io/api/news?id=889f05b2a6858703544c8e09bacfe80df44a94493ea48360a44281f9c1e9dde9)**  
+*Yahoo · 8h前*  
+Palantir and Snowflake continue to deliver impressive growth, but soaring AI expectations and renewed market volatility are putting their valuations under scrut…
 
 ---
 
@@ -59,4 +59,4 @@ Both AMD and Palantir just posted record quarters, yet both stocks are sinking. 
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
