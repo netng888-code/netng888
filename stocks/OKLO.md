@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$23.55** |
-| 今日變動 | ▲ $4.35　(+22.66%) |
+| 現價 | **$26.84** |
+| 今日變動 | ▲ $3.29　(+13.97%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▼ $260　(▼21.7%) |
+| 未實現盈虧 | ▼ $129　(▼10.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $26.39 | — |
-| Put Wall（支撐） | $20.00 | -15.1% |
-| Call Wall（阻力） | $35.00 | +48.6% |
+| Gamma Flip | $24.56 | — |
+| Put Wall（支撐） | $25.00 | -6.9% |
+| Call Wall（阻力） | $35.00 | +30.4% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[HC Wainwright & Co. Reiterates Buy on Oklo, Maintains $90 Price Target](https://finnhub.io/api/news?id=e44565a9d724d4e8ad5f5457b53c728bfd460f0b9613304c61903795604cf420)**  
+*Benzinga · 14h前*  
+HC Wainwright &amp; Co.  analyst Sameer Joshi   reiterates Oklo (NYSE:OKLO) with a Buy and maintains $90 price target.
+
 - **[Wall Street Breakfast Podcast: The Spy Who Loved Nvidia](https://finnhub.io/api/news?id=c2a64147185315ce3fef75d6784d724cd2acddc78567762af30d444b7b0fce74)**  
-*SeekingAlpha · 6h前*  
+*SeekingAlpha · 16h前*  
 Nvidia finds itself in a real-life spy drama. NASA has big plans for the Moon. The nuclear comeback gathered steam Friday.
 
-- **[Fervo Energy Just Dropped 35% in a Month. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=1033fcab043102b94b678f831b0f833f10ae90158c5a227b1caf98d38909d6d4)**  
-*Yahoo · 1d前*  
-Key TakeawaysFervo Energy stock fell 35% in the past month, a bit less than Bloom Energy and Oklo, as AI power stocks sold off and a short seller’s report added…
-
-- **[NuScale Just Hit a New 52-Week Low After Losing 26% in a Week. Is the Selling Overdone?](https://finnhub.io/api/news?id=1111af467f7b2f2492a24ea62b3ab1a81c89eca88cf0ad65cb665d108bcfe6d5)**  
-*Yahoo · 1d前*  
-Key TakeawaysNuScale Power fell 26% in a week to a new 52-week low as power and nuclear stocks, Oklo and Vistra among them, sold off around the election. NuScal…
+- **[Oklo: 3 Key Takeaways for Long-Term Investors](https://finnhub.io/api/news?id=cd6f104f0739fd4e6a40b3f6b377d425a1d012883d1af0a88add6b1b1c9c0eb8)**  
+*Yahoo · 21h前*  
+Oklo's plan to sell fuel-fabrication capacity to external reactor operators could turn its fuel business into a standalone revenue stream.
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysNuScale Power fell 26% in a week to a new 52-week low as power and 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-09 | 監控 | $23.55 | — | 自動更新 |
+| 2026-11-10 | 監控 | $26.84 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysNuScale Power fell 26% in a week to a new 52-week low as power and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
