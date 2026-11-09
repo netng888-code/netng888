@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$53.07** |
-| 今日變動 | ▲ $7.08　(+15.39%) |
+| 現價 | **$58.86** |
+| 今日變動 | ▲ $5.79　(+10.91%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $229　(▼30.2%) |
+| 未實現盈虧 | ▼ $171　(▼22.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $60.76 | — |
-| Put Wall（支撐） | $50.00 | -5.8% |
-| Call Wall（阻力） | $65.00 | +22.5% |
+| Gamma Flip | $58.96 | — |
+| Put Wall（支撐） | $50.00 | -15.1% |
+| Call Wall（阻力） | $65.00 | +10.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[RKLB Stock Climbs Overnight Ahead Of Earnings — Bulls Bet Neutron Delay Is Priced In Amid Fresh Progress](https://finnhub.io/api/news?id=df1fdc95fa4a3da7b997af9bb5608f07fbd49e3ac984c68614a2afebe5698187)**  
-*Yahoo · 7h前*  
-Rocket Lab completed construction and curing of Neutron’s first-stage forward dome.
+- **[Rocket Lab (NASDAQ:RKLB) reports bullish Q3 2026, guides for strong sales next quarter](https://finnhub.io/api/news?id=a94ebdb02d410d326b5b685ab89f7ae7534674a0ddbd0e43ba03e99a688a31a4)**  
+*Yahoo · 1h前*  
+Aerospace and defense company Rocket Lab (NASDAQ:RKLB) reported Q3 2026 results exceeding the market’s revenue expectations, with revenue up 72.7% year on year …
 
-- **[Billionaires Are Loading Up on Space Stocks: Does Rocket Lab (RKLB) Make the Cut?](https://finnhub.io/api/news?id=4d147085bce6200d63195f0fd49e076df759cf81962139254d2c6ab5cfcd4a5f)**  
-*Yahoo · 15h前*  
-We just published a list of the 10 Best Satellite and Space Stocks Billionaires Are Buying and Rocket Lab Corporation (NASDAQ:RKLB) ranked 7th on this list. Ove…
+- **[Rocket Lab Lands Over $515M in Neutron Launch Deals from Constellation Operators in Q3](https://finnhub.io/api/news?id=946c68841a817cfb3a6688816fb83f3969e4747d2e91b001722516ca8ec325ff)**  
+*Yahoo · 1h前*  
+Neutron backlog grows to 16 missions, and base launch price rises to $70M, reflecting strong customer confidence ahead of debut as launch capacity tightens acro…
 
-- **[Why Nov. 9 Could Be a Huge Day for Rocket Lab Investors](https://finnhub.io/api/news?id=d6abe7b25f5262e025d026c47f2e1da1cb75759bb48374590445213f3f5078a7)**  
-*Yahoo · 15h前*  
-Can Rocket Lab's next big business update help spur a rebound for its beaten-down stock?
+- **[Rocket Lab Announces Third Quarter 2026 Financial Results: Posts Record Revenue, $1.2 Billion or 52% Sequential Quarterly Backlog Growth, Positive GAAP Operating Cash Flow, and Guides to Record Revenue and Gross Margin Expansion in Q4 2026](https://finnhub.io/api/news?id=a01ba05a67fe1ff1fdd603a15e38a18464e278695cda07269902c9a8c6765af9)**  
+*Yahoo · 1h前*  
+RKLB Q3 2026 highlights RKLB Q3 2026 highlights LONG BEACH, Calif., Nov. 09, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in …
 
 ---
 
@@ -48,7 +48,7 @@ Can Rocket Lab's next big business update help spur a rebound for its beaten-dow
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-09 | 監控 | $53.07 | — | 自動更新 |
+| 2026-11-10 | 監控 | $58.86 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Can Rocket Lab's next big business update help spur a rebound for its beaten-dow
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
