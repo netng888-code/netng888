@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$293.69** |
-| 今日變動 | ▲ $2.16　(+0.74%) |
+| 現價 | **$319.48** |
+| 今日變動 | ▲ $25.79　(+8.78%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $849　(▼22.4%) |
+| 未實現盈虧 | ▼ $591　(▼15.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $349.19 | — |
-| Put Wall（支撐） | $280.00 | -4.7% |
-| Call Wall（阻力） | $350.00 | +19.2% |
+| Gamma Flip | $341.72 | — |
+| Put Wall（支撐） | $300.00 | -6.1% |
+| Call Wall（阻力） | $350.00 | +9.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Chips Today - AI Tech Leaders Gather to Define Future Innovation](https://finnhub.io/api/news?id=afc79a9c53fbecad52617ea2e037362ba199b4ceb2d90ebee91af410dd744e49)**  
-*Yahoo · 1h前*  
-The 1st Annual Tennessee C-Level Technology Leadership Summit, hosted by HMG Strategy, is set to take place in Nashville on November 13. This event will convene…
+- **[The Real Winner of Google’s $135 Billion Chip Forecast: Broadcom](https://finnhub.io/api/news?id=a065a8051441fa680ca88a0ec2258e95c9f66aaa4b769a9737e929fd1099284b)**  
+*Yahoo · 2h前*  
+Key TakeawaysGoogle unveiled two new versions of its TPUs today, and Bloomberg Intelligence expects TPU sales to grow from about $12 billion this year to more t…
 
-- **[iShares Expanded Tech Sector ETF (IGM) Sells Apple and Microsoft on Nov. 5](https://finnhub.io/api/news?id=8f91be023bdb73930f74dd1115d07fbe7693bc37f34bc2d722864a9912fc849d)**  
-*Yahoo · 1h前*  
-The $9.59 billion fund sold $152.9 million of stock, cutting 288 positions and adding none.
+- **[Unless Nvidia Removes Jensen Huang, the Stock Is Worth Holding](https://finnhub.io/api/news?id=ff1f5e82a0b56aed13a89473450541705b11f42443f0be9a89500181a7e99723)**  
+*Yahoo · 3h前*  
+Despite recent headlines the reasons Nvidia is the dominant AI player remain unchanged.
 
-- **[U.S. Core Equity 2 (DFAC) Adds Dow and International Paper on Nov. 5](https://finnhub.io/api/news?id=18924086d24d938b5bf1914331fb860e4b947251843d07d8a1398bb4b7244a66)**  
-*Yahoo · 1h前*  
-The fund bought $4.3 million of Dow and $3.9 million of International Paper while selling $69.4 million of Visa.
+- **[Broadcom Stocks Jump 8.21% as Investors Eye $21.7 Billion AI Revenue Guide](https://finnhub.io/api/news?id=64ad890bd7f0d75385cc0a2999fbfe387d759715b8199bc043890c2b50057bb5)**  
+*Yahoo · 4h前*  
+Broadcom set December 9 for fiscal fourth-quarter results, when it must deliver AI chip revenue guided up 236% year over year.
 
 ---
 
@@ -48,7 +48,7 @@ The fund bought $4.3 million of Dow and $3.9 million of International Paper whil
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-09 | 監控 | $293.69 | — | 自動更新 |
+| 2026-11-10 | 監控 | $319.48 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund bought $4.3 million of Dow and $3.9 million of International Paper whil
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 07:03 HKT*
