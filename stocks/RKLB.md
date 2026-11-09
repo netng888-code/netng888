@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-09 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[RKLB Stock Climbs Overnight Ahead Of Earnings — Bulls Bet Neutron Delay Is Priced In Amid Fresh Progress](https://finnhub.io/api/news?id=df1fdc95fa4a3da7b997af9bb5608f07fbd49e3ac984c68614a2afebe5698187)**  
+*Yahoo · 7h前*  
+Rocket Lab completed construction and curing of Neutron’s first-stage forward dome.
+
 - **[Billionaires Are Loading Up on Space Stocks: Does Rocket Lab (RKLB) Make the Cut?](https://finnhub.io/api/news?id=4d147085bce6200d63195f0fd49e076df759cf81962139254d2c6ab5cfcd4a5f)**  
-*Yahoo · 1h前*  
+*Yahoo · 15h前*  
 We just published a list of the 10 Best Satellite and Space Stocks Billionaires Are Buying and Rocket Lab Corporation (NASDAQ:RKLB) ranked 7th on this list. Ove…
 
 - **[Why Nov. 9 Could Be a Huge Day for Rocket Lab Investors](https://finnhub.io/api/news?id=d6abe7b25f5262e025d026c47f2e1da1cb75759bb48374590445213f3f5078a7)**  
-*Yahoo · 1h前*  
+*Yahoo · 15h前*  
 Can Rocket Lab's next big business update help spur a rebound for its beaten-down stock?
-
-- **[Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week](https://finnhub.io/api/news?id=53eafaa6d7567da956f75d5176cad1565abdbbf1e3fbb642ce4d919a12c52482)**  
-*Yahoo · 4h前*  
-This week will bring the consumer and producer price indexes, as well as earnings from Rocket Lab, Occidental, CoreWeave, and more.
 
 ---
 
@@ -59,4 +59,4 @@ This week will bring the consumer and producer price indexes, as well as earning
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
