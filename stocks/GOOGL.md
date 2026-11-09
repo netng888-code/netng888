@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$284.78** |
-| 今日變動 | ▲ $2.21　(+0.78%) |
+| 現價 | **$288.15** |
+| 今日變動 | ▲ $3.37　(+1.18%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $795　(▲16.2%) |
+| 未實現盈虧 | ▲ $862　(▲17.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $298.89 | — |
-| Put Wall（支撐） | $280.00 | -1.7% |
-| Call Wall（阻力） | $300.00 | +5.3% |
+| Gamma Flip | $293.68 | — |
+| Put Wall（支撐） | $280.00 | -2.8% |
+| Call Wall（阻力） | $300.00 | +4.1% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Constellation Reports Third Quarter 2026 Results](https://finnhub.io/api/news?id=2904ab70c2ce16b2eba2437c69bcdf16065a7048099d256c19cb4137a2ba18f9)**  
+- **[Why Alphabet Stock Was Moving Higher Today](https://finnhub.io/api/news?id=1678ad4fdf3a05760e3d4d811aaf665e3b7abb80d3da778d6def39ed545eae5a)**  
 *Yahoo · 1h前*  
-BALTIMORE, November 09, 2026--Constellation Energy Corporation (Nasdaq: CEG) today reported its financial results for the third quarter of 2026.
+Alphabet introduced two new chips this morning.
 
-- **[“Don’t Come Begging To Taxpayers,” Bernie Sanders Warns Big Tech “You Won’t Be Bailed Out” If AI Bet Fueled By $3 Trillion In Debt Blows Up](https://finnhub.io/api/news?id=79af20c634b59bc2646141107ca3748d6f9d4ec1bc4abfe5c193b3855389973b)**  
-*Yahoo · 1h前*  
-Bernie Sanders drew a hard line for Big Tech as a brutal month hammered the Nasdaq. Behind the AI spending boom, the cash flow numbers at the biggest spenders r…
+- **[Fervo now has $12B in orders for its geothermal power tech](https://finnhub.io/api/news?id=23357df109baa0328aac1ac28eb477a23ace343b83d1c23a72959c35bfb3715c)**  
+*Yahoo · 2h前*  
+Geothermal company Fervo is targeting natural gas as it brings down geothermal drilling costs at its 8.4 GW resource in Utah.
 
-- **[Google warns millions of Gmail users could face new restrictions](https://finnhub.io/api/news?id=1c9273187a50f26d0e6ae5fc65980475a519d33a5b92a37cc783152a6b278b56)**  
-*Yahoo · 1h前*  
-Google says proposed online safety requirements could extend age verification to everyday communication services.
+- **[Nvidia vs. Alphabet: The AI Revolution Is Big Enough for Both. Here's the Better Buy.](https://finnhub.io/api/news?id=79894a5a16958a2ef9febc194edbaeb6c47f72a2fc83efe072bed2a52f055ed5)**  
+*Yahoo · 2h前*  
+Which part of the AI trade is more likely to better serve investors?
 
 ---
 
@@ -48,7 +48,7 @@ Google says proposed online safety requirements could extend age verification to
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-09 | 監控 | $284.78 | — | 自動更新 |
+| 2026-11-10 | 監控 | $288.15 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Google says proposed online safety requirements could extend age verification to
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 07:03 HKT*
