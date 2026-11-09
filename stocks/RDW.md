@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-09 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$7.21** |
-| 今日變動 | ▲ $1.02　(+16.48%) |
+| 現價 | **$8.15** |
+| 今日變動 | ▲ $0.94　(+13.04%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $338　(▼53.9%) |
+| 未實現盈虧 | ▼ $300　(▼47.9%) |
 
 ---
 
@@ -20,27 +20,26 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $7.23 | — |
-| Put Wall（支撐） | $7.00 | -2.9% |
-| Call Wall（阻力） | $10.00 | +38.7% |
+| Gamma Flip | $6.55 | — |
+| Put Wall（支撐） | $8.00 | -1.8% |
+| Call Wall（阻力） | $10.00 | +22.7% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
+- **[Redwire: The Strongest Demand We've Seen](https://finnhub.io/api/news?id=0e3747f20a56eebc38f578b5c2cb00d9b989c881999f9d699a6ba90feac8b325)**  
+*SeekingAlpha · 7h前*  
+Redwire shows backlog growth, record margins, and strong liquidity, but profitability is still unproven.
+
+- **[Redwire Consensus Price Target Cut by 10.9% to $12.98](https://finnhub.io/api/news?id=89c7dd71f5ae877293617c65222417b3d1880c738ac826a416a3fd5599a776b0)**  
+*Fintel · 10h前*
+
 - **[5 revealing analyst questions from Redwire’s Q3 2026 earnings call](https://finnhub.io/api/news?id=80792336015bbfc41484b0a8ebf698f7d95aa250c0e915de5605d346b1c1760d)**  
-*Yahoo · 15h前*  
+*Yahoo · 1d前*  
 Redwire’s third quarter results were met with a significant negative market reaction, following a revenue miss relative to Wall Street expectations despite year…
-
-- **[Redwire Corporation (RDW): An Opportunity For Patient Investors As Backlog Grows](https://finnhub.io/api/news?id=ef2da27b7f84a5bfdb7e10ac5d37a2d151b1c3dad6db2ebc7a71ecc24d91ea40)**  
-*Yahoo · 15h前*  
-We just published a list of the 10 Best Satellite and Space Stocks Billionaires Are Buying and Redwire Corporation (NYSE:RDW) ranked 10th on this list. Over the…
-
-- **[Consumer Tech (Oct 2-6): Big Earnings Dominate Headline, Meta, Google Face Political And Regulatory Pressure Over AI Expansion & More](https://finnhub.io/api/news?id=ec1338be3aebd5819f0885edec9c8dbc4bbd179f681c4e8187e4050fc245cade)**  
-*Benzinga · 1d前*  
-Meta faces political pressure over data center development, while Google encounters criticism over AI in schools and major technology stocks report quarterly re…
 
 ---
 
@@ -48,7 +47,7 @@ Meta faces political pressure over data center development, while Google encount
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-09 | 監控 | $7.21 | — | 自動更新 |
+| 2026-11-10 | 監控 | $8.15 | — | 自動更新 |
 
 ---
 
@@ -59,4 +58,4 @@ Meta faces political pressure over data center development, while Google encount
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
