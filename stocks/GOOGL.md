@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-09 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-09 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tesla Isn’t a Mag-7 Stock. This Is.](https://finnhub.io/api/news?id=20ea7793c01218522a8165d0e48c334d81e3794d4702c1fbfa6effe2caab0f91)**  
-*Yahoo · 3h前*  
-SpaceX is a much better tech stock than Tesla.
+- **[Constellation Reports Third Quarter 2026 Results](https://finnhub.io/api/news?id=2904ab70c2ce16b2eba2437c69bcdf16065a7048099d256c19cb4137a2ba18f9)**  
+*Yahoo · 1h前*  
+BALTIMORE, November 09, 2026--Constellation Energy Corporation (Nasdaq: CEG) today reported its financial results for the third quarter of 2026.
 
-- **[What Tenaris (TS) Said on Its Q3 Earnings Call](https://finnhub.io/api/news?id=a87c563b070538160931c16c376287792b60dfe95fdb716917b4826ab91821e1)**  
-*Yahoo · 3h前*  
-Tenaris (NYSE:TS) expects fourth-quarter revenue to rise by close to 10% sequentially and its EBITDA margin to reach around 25%, as higher volumes build on a th…
+- **[“Don’t Come Begging To Taxpayers,” Bernie Sanders Warns Big Tech “You Won’t Be Bailed Out” If AI Bet Fueled By $3 Trillion In Debt Blows Up](https://finnhub.io/api/news?id=79af20c634b59bc2646141107ca3748d6f9d4ec1bc4abfe5c193b3855389973b)**  
+*Yahoo · 1h前*  
+Bernie Sanders drew a hard line for Big Tech as a brutal month hammered the Nasdaq. Behind the AI spending boom, the cash flow numbers at the biggest spenders r…
 
-- **[Why AI investors may favor established data-center owners](https://finnhub.io/api/news?id=30a0e00aaf87eeb397f0f9dcc10c7369b6f3b443b35252b5c74e8b872246ced5)**  
-*Yahoo · 4h前*  
-James Demmert, chief investment officer at Main Street Research, sees value in AI but draws a sharp line between dominant operators with existing data centers a…
+- **[Google warns millions of Gmail users could face new restrictions](https://finnhub.io/api/news?id=1c9273187a50f26d0e6ae5fc65980475a519d33a5b92a37cc783152a6b278b56)**  
+*Yahoo · 1h前*  
+Google says proposed online safety requirements could extend age verification to everyday communication services.
 
 ---
 
@@ -59,4 +59,4 @@ James Demmert, chief investment officer at Main Street Research, sees value in A
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-09 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-09 21:03 HKT*
