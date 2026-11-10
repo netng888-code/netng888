@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$59.37** |
-| 今日變動 | ▲ $3.09　(+5.49%) |
+| 現價 | **$58.13** |
+| 今日變動 | ▼ $1.24　(-2.09%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $476　(▼44.5%) |
+| 未實現盈虧 | ▼ $489　(▼45.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $62.16 | — |
-| Put Wall（支撐） | $55.00 | -7.4% |
-| Call Wall（阻力） | $70.00 | +17.9% |
+| Gamma Flip | $60.52 | — |
+| Put Wall（支撐） | $55.00 | -5.4% |
+| Call Wall（阻力） | $60.00 | +3.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Goldman Sachs Nasdaq-100 Premium Income (GPIQ) Bought: Honeywell Leads on Nov. 6](https://finnhub.io/api/news?id=629a1d053698c2944faa2b11736bcd908bce9fd9afae80f987b8ea4725277d8e)**  
-*Yahoo · 1h前*  
-The fund traded $236.7 million in all, adding $30.7 million net across 47 increases and 28 decreases.
+- **[SQC Expands Executive Team With Appointment of Chief Manufacturing Officer](https://finnhub.io/api/news?id=fa92aa03d6f827a974548e8ac456957a3a9c1fbce1fdaafcd3a40f84aca6e99a)**  
+*Yahoo · 3h前*  
+Silicon Quantum Computing (SQC), a pioneer in quantum computing and atomic-precision manufacturing, today announced the appointment of W.H. Teh as Chief Manufac…
 
-- **[What iShares PHLX SOX Semiconductor (SOXX) Sold: AMD Leads on Nov. 6](https://finnhub.io/api/news?id=406eb320bb8b8f3cb5f61fe7e9bcfeb828832415f541b17da1e68c63a100a397)**  
-*Yahoo · 1h前*  
-The fund sold $3.95 billion of stock and bought nothing, cutting 29 positions while increasing none.
+- **[Intel Stocks Fall 1.82% as Chip Rally Fades and PC Slump Clouds Q4](https://finnhub.io/api/news?id=f00d1ba35af215fe7ede776414480d6785e2d19ae6ecee18e4d71be132f40bdc)**  
+*Yahoo · 3h前*  
+Shares give back part of Monday's 5.49% rebound as hot inflation data and a guided gross-margin drop weigh on the chipmaker.
 
-- **[ETFs Are Net Sellers of Intel (INTC) on Friday](https://finnhub.io/api/news?id=d2490973cbe89a001be652f6a32a20762ac86371bea13947d1f79b184af0bd13)**  
-*Yahoo · 2h前*  
-ETFs sold a net $212.2 million of Intel on Friday, Nov. 6.
+- **[Buy the Dip: 5 Stocks Insiders Are Loading Up On After the Recent Market Sell-Off](https://finnhub.io/api/news?id=2e11465ca183524bc3ff11e83ca7c6c12f7f0e698a5ad37059fc5b46f481ae45)**  
+*Yahoo · 3h前*  
+Thursday, November 5 represented the worst trading session for the U.S. market in over a year. the Nasdaq Composite dropped 5.52%, the S&P 500 fell 4.36%, and t…
 
 ---
 
@@ -48,7 +48,7 @@ ETFs sold a net $212.2 million of Intel on Friday, Nov. 6.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-10 | 監控 | $59.37 | — | 自動更新 |
+| 2026-11-11 | 監控 | $58.13 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ ETFs sold a net $212.2 million of Intel on Friday, Nov. 6.
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
