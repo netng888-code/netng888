@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Centrus Energy Corp. 2026 Q3 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=f92378fd8f5d432d8c8f300a1c9ec139853a4379059e8cb9225c856c076bc4de)**  
+*SeekingAlpha · 18h前*  
+2026-11-09. The following slide deck was published by Centrus Energy Corp.
+
+- **[UUUU Q3 Earnings Miss on Investment Losses, Uranium Sales Rise](https://finnhub.io/api/news?id=d000400bdcfcd5c4084c939c626ab5fedb8e0fe0ddc0170dc3a0d96877dfce80)**  
+*Yahoo · 22h前*  
+Energy Fuels' Q3 loss widens on investment losses and acquisition costs, even as revenues surge 64.8% on higher uranium sales and stronger realized prices.
+
 - **[Wall Street Breakfast Podcast: The Spy Who Loved Nvidia](https://finnhub.io/api/news?id=c2a64147185315ce3fef75d6784d724cd2acddc78567762af30d444b7b0fce74)**  
-*SeekingAlpha · 16h前*  
+*SeekingAlpha · 1d前*  
 Nvidia finds itself in a real-life spy drama. NASA has big plans for the Moon. The nuclear comeback gathered steam Friday.
-
-- **[The top 5 analyst questions from Centrus Energy’s Q3 2026 earnings call](https://finnhub.io/api/news?id=2c23c57804a0b0d7a5a9efcccf79fe904ff07fb38016f9bc3658e47bdba1fe2a)**  
-*Yahoo · 19h前*  
-Centrus Energy’s third quarter performance was met with a negative market response as the company missed Wall Street’s revenue and non-GAAP earnings expectation…
-
-- **[Don’t Miss Out: 5 Stocks Getting Major Upgrades From Top Analysts](https://finnhub.io/api/news?id=8474b4c6ecd621e8de7b6b5aed36eb70e163fbf504082d2b35ca13d333408ef9)**  
-*Yahoo · 23h前*  
-Wall Street ended a punishing week on Friday with a partial recovery. The Nasdaq Composite rose 1.09% to 24,579.42 and the S&P 500 gained 0.31% to 7,376.86, whi…
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street ended a punishing week on Friday with a partial recovery. The Nasdaq
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
