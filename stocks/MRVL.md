@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-10 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Marvell Technology Stock Fell Hard in October](https://finnhub.io/api/news?id=f14ff4fd2aa3c2ed3e0995ad80a9b00078a070c95b123024f1a46aac7ed86bdb)**  
+- **[ETFs Are Net Sellers of Marvell Technology (MRVL) on Nov. 6](https://finnhub.io/api/news?id=cf456a1115967fd48c7e9893426ab98657bb470c283c5d5cbf835c764a5201cc)**  
+*Yahoo · 1h前*  
+ETFs sold a net $134.4 million of Marvell Technology on Friday, Nov. 6.
+
+- **[Marvel Announces Final Shank3 Data: MB-204 Highly Effective at Reversing Autism Behaviours](https://finnhub.io/api/news?id=2dc511a99e78c9c17d22a0ca93b18bc1c258df32d24ae920036859be8939e317)**  
 *Yahoo · 2h前*  
-Investors continued to exit AI positions, and news of a new Marvell acquisition sent shares falling.
+CALGARY, Alberta, Nov. 10, 2026 (GLOBE NEWSWIRE) -- Marvel Biosciences Corp. (TSXV: MRVL | OTCQB: MBCOF), and its wholly-owned subsidiary, Marvel Biotechnology …
 
-- **[Marvell Sinks 36%, Lumentum Drops 31% on $115 Billion Deal: Is the Selloff Overdone?](https://finnhub.io/api/news?id=5c1a43936d383cffaecd209658d3e2acc1022de03a107756ed25d5c8501414b7)**  
-*Yahoo · 3h前*  
-Key TakeawaysMarvell Technology (MRVL) shares declined approximately 36% between October 28 and November 4, closing near $160 as investors questioned its propos…
-
-- **[Marvell (MRVL) Stock Looks Undervalued After Its 166% Three Year Run](https://finnhub.io/api/news?id=06334bd1a57c268ea92063ddaf9831760ff6473490f3fe0cdef1ef8fb11c02af)**  
-*Yahoo · 3h前*  
-Marvell Technology has given shareholders a powerful multi year ride, yet the recent slide in the share price and a major AI focused deal leave a simple questio…
+- **[As AI hardware sells off, is this chip designer now deeply undervalued?](https://finnhub.io/api/news?id=22d7a684fb7aa4f96e905895541f7d0b62f8625e9363b2d02e1b8d4498eec400)**  
+*Yahoo · 2h前*  
+Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology has given shareholders a powerful multi year ride, yet the re
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:03 HKT*
