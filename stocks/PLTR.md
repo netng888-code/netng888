@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir Stocks Rise 5.96% as Former Senator Jon Tester Joins as Adviser](https://finnhub.io/api/news?id=448af44b9c0bc84f9a8f98e4ef11a35f814d6cbbb3047c32b9e27f60c88c347d)**  
-*Yahoo · 4h前*  
-Palantir is preparing for closer scrutiny from the new Congress, even as U.S. commercial revenue more than doubled last quarter.
+- **[ETFs Are Buying Palantir (PLTR) on Nov. 6](https://finnhub.io/api/news?id=138a5f8e88583f7a7e40d95433e41e71a5b7be014f9709ecaf0dc7e2bcd64fd8)**  
+*Yahoo · 2h前*  
+ETFs bought $75.3 million of Palantir stock, with 54 buyers against 19 sellers.
 
-- **[Palantir Rises 5%, Snowflake Up 6% as AI Stocks Rebound After Market Was “Freaking Out”](https://finnhub.io/api/news?id=cd3d8294a3324b2017582a1cc7eb0b7d23c51fcab839895a1a239d1bfb0bae96)**  
-*Yahoo · 4h前*  
-Key TakeawaysPalantir rose 5% today with no news of its own, as Cloudflare, Snowflake and other AI stocks rebounded from last week’s selloff. That selloff came …
+- **[As Democrats Take Over Congress, Is Palantir Stock at Risk?](https://finnhub.io/api/news?id=ab813bc9dda6a82ef1abd2ff982abd6b4d9be783be02489afdac82618991124a)**  
+*Yahoo · 3h前*  
+The AI data analytics stock is now trading 19% below its October high.
 
-- **[Defense Realignment: Lockheed Martin vs. Palantir](https://finnhub.io/api/news?id=d804865af3409be22ea4b3a2f33d9623690d297f1920c29a05a77d21bb79e131)**  
-*Yahoo · 5h前*  
-Both companies crushed earnings, then the midterms hit and both stocks tumbled. One defense giant built contracts to survive a budget fight, while the other bet…
+- **[What Zeta Global (ZETA) Said on Its Q3 Earnings Call](https://finnhub.io/api/news?id=298182aa4d2c53ddd7497b9f8267aa6bcca8887dcf10de884dc9b8f2340cfe6a)**  
+*Yahoo · 6h前*  
+Zeta Global (NYSE:ZETA) reported third-quarter 2026 revenue of $493 million, up 46% from a year earlier, and raised its full-year outlook as customers increased…
 
 ---
 
@@ -59,4 +59,4 @@ Both companies crushed earnings, then the midterms hit and both stocks tumbled. 
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
