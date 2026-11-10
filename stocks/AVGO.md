@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-10 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$319.48** |
-| 今日變動 | ▲ $25.79　(+8.78%) |
+| 現價 | **$331.98** |
+| 今日變動 | ▲ $12.50　(+3.91%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $591　(▼15.6%) |
+| 未實現盈虧 | ▼ $466　(▼12.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $345.19 | — |
-| Put Wall（支撐） | $300.00 | -6.1% |
-| Call Wall（阻力） | $350.00 | +9.6% |
+| Gamma Flip | $338.37 | — |
+| Put Wall（支撐） | $300.00 | -9.6% |
+| Call Wall（阻力） | $350.00 | +5.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Broadcom Heads These 3 Top Undervalued Stocks](https://finnhub.io/api/news?id=403e82be22f45c37f0e11e4070d5164b670dc2ca54c47ac93216bcefa3c65058)**  
-*Yahoo · 1h前*  
-With the Federal Reserve openly weighing a larger interest rate hike if inflation stays sticky, investors are again reminded that borrowing is never guaranteed …
+- **[5 Best Tech Stocks That Pay Dividends](https://finnhub.io/api/news?id=deac1c09e5d675c435bf5b2fe037f6d37b584ea7d0c5bee2b944b2e6f6050a8e)**  
+*Yahoo · 3h前*  
+The idea that technology companies don’t pay dividends comes from the industry’s early years, when most businesses focused on growing as quickly as possible. Du…
 
-- **[iShares Global Tech ETF (IXN) Sells $26.8 Million of Apple on Nov. 6](https://finnhub.io/api/news?id=44d9f619dcbb274b7a92bbb415450d9c14f54d0793b9d4c9877369cf303606d1)**  
-*Yahoo · 1h前*  
-The fund sold $143.7 million of stock and bought nothing on Friday, cutting 77 positions.
+- **[Will Broadcom Inc. (AVGO) Beat Estimates Again in Its Next Earnings Report?](https://finnhub.io/api/news?id=93247fed5168ea262d0d22a595fd5fbd7a39c976fd9c8f3444c67f8f01c2bfdb)**  
+*Yahoo · 3h前*  
+Broadcom Inc. (AVGO) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in i…
 
-- **[What Direxion Daily Technology Bull 3X ETF (TECL) Bought: AAPL Leads on Nov. 6](https://finnhub.io/api/news?id=e76e396f3a0d71e64f944232d177f96e41634f51209a041552c1a076a7b813db)**  
-*Yahoo · 1h前*  
-The fund sold $482.3 million of stock and bought nothing, cutting all 76 positions while holding $3.74 billion in assets.
+- **[Should You Buy, Sell, or Hold Cerebras Systems Stock Before Q3 Earnings?](https://finnhub.io/api/news?id=47cbb5792cedf3355996e1c3fa5de48640916bdc8c6464175d22ccb5c48ea194)**  
+*Yahoo · 3h前*  
+CBRS Q3 results are likely to reflect strong AI inference demand and growing cloud adoption, but margin pressure, persistent losses, and valuation risks remain.
 
 ---
 
@@ -48,7 +48,7 @@ The fund sold $482.3 million of stock and bought nothing, cutting all 76 positio
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-10 | 監控 | $319.48 | — | 自動更新 |
+| 2026-11-11 | 監控 | $331.98 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund sold $482.3 million of stock and bought nothing, cutting all 76 positio
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 07:03 HKT*
