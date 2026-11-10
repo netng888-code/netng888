@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-10 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $293.68 | — |
+| Gamma Flip | $296.97 | — |
 | Put Wall（支撐） | $280.00 | -2.8% |
 | Call Wall（阻力） | $300.00 | +4.1% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Alphabet Stock Was Moving Higher Today](https://finnhub.io/api/news?id=1678ad4fdf3a05760e3d4d811aaf665e3b7abb80d3da778d6def39ed545eae5a)**  
+- **[Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Tuesday; Rocket Lab, AMD to Open Lower](https://finnhub.io/api/news?id=480796c6a022cd797fa25450b24a0cf5015d266ab35ac5b55498ae1289e91fe2)**  
 *Yahoo · 1h前*  
-Alphabet introduced two new chips this morning.
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Tuesday's
 
-- **[Fervo now has $12B in orders for its geothermal power tech](https://finnhub.io/api/news?id=23357df109baa0328aac1ac28eb477a23ace343b83d1c23a72959c35bfb3715c)**  
-*Yahoo · 2h前*  
-Geothermal company Fervo is targeting natural gas as it brings down geothermal drilling costs at its 8.4 GW resource in Utah.
+- **[Michael Burry refuses to chase AMD's 13% stock surge](https://finnhub.io/api/news?id=9ff048c7dfdbcf6cc38473c8e8f46cb92ca729d27b4138fdce1ba2e24287daf5)**  
+*Yahoo · 1h前*  
+The chipmaker posted its strongest daily gain in six months as analysts pointed to opportunities from Nvidia's regulatory uncertainty.
 
-- **[Nvidia vs. Alphabet: The AI Revolution Is Big Enough for Both. Here's the Better Buy.](https://finnhub.io/api/news?id=79894a5a16958a2ef9febc194edbaeb6c47f72a2fc83efe072bed2a52f055ed5)**  
-*Yahoo · 2h前*  
-Which part of the AI trade is more likely to better serve investors?
+- **[Anthropic Cuts IPO 7% After Pricing Mix-Up, Jim Cramer’s ‘Most Consequential Deal’ Wobbles](https://finnhub.io/api/news?id=55c5914541f60629e24546f07af7198ea730d211d8a24ba69a641afe955e1d85)**  
+*Yahoo · 1h前*  
+Anthropic cut its IPO 7% after a pricing mix-up, as Jim Cramer calls it the most consequential deal of our time.
 
 ---
 
@@ -59,4 +59,4 @@ Which part of the AI trade is more likely to better serve investors?
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:03 HKT*
