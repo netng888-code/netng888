@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-10 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $625.28 | — |
+| Gamma Flip | $612.55 | — |
 | Put Wall（支撐） | $600.00 | -6.5% |
 | Call Wall（阻力） | $700.00 | +9.1% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Platforms Stock: Is it a Steal of a Deal at $650?](https://finnhub.io/api/news?id=be954609229223ac426b4472aec06b3df4a68427cabf988e6e767f6603d7f39a)**  
-*Yahoo · 2h前*  
-The social media stock has been declining since posting its latest earnings numbers last month.
+- **[Lydian Energy Brings 150 MW Faraday Battery Storage Project Online in Utah Under Long-term Agreement with PacifiCorp](https://finnhub.io/api/news?id=40ddff604beea696b9a4648265a84520baf5444845344c256750a22a39c3d3f0)**  
+*Yahoo · 1h前*  
+WASHINGTON, November 10, 2026--Lydian Energy ("Lydian"), an Excelsior Energy Capital-backed developer, owner, and operator of energy infrastructure projects, to…
 
-- **[Trump’s Former AI Czar Says “I Get Really Worried About 2028”: That’s a Big Problem for Nvidia](https://finnhub.io/api/news?id=ea5b2a3315f2bb9b2f6293214de91dbf0ca5a535e56e733ab15edb072d3924e8)**  
-*Yahoo · 3h前*  
-Key TakeawaysOn the Nov. 7 episode of All-In, Trump’s former AI czar David Sacks said data center spending should still be meaningful in 2027, but he gets “real…
+- **[Direxion Daily S&P 500 Bull 3X (SPXL) Adds Apple and Nvidia on Friday](https://finnhub.io/api/news?id=6920625cfdae13824b5c8070f469b657f7f053c22c49558e3bf0bd16b354bc77)**  
+*Yahoo · 1h前*  
+The fund bought $136.7 million of stock and increased 381 positions, with no decreases.
 
-- **[Eaton Lost 23% in a Month. RBC Sees 58% Upside From Here](https://finnhub.io/api/news?id=bdddc912998a04a6557924c7a06bc9d8fd4089271a591b332fdcfbd679b276c3)**  
-*Yahoo · 3h前*  
-Key TakeawaysEaton stock is down 23% in the past month. Meta Platforms’ spending plans and the Democrats’ midterm sweep hit AI power-equipment stocks across the…
+- **[First Trust NASDAQ-100 Tech (QTEC) Buys $5.1 Million More AppLovin on Friday](https://finnhub.io/api/news?id=e382bcd841eb2a3325256dfc5930679763a5888df859bd4923f5bd2161351be4)**  
+*Yahoo · 1h前*  
+The fund added $145.7 million across 42 positions and sold nothing, led by a $5.1 million increase in AppLovin.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysEaton stock is down 23% in the past month. Meta Platforms’ spendi
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
