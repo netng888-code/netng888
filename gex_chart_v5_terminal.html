@@ -693,13 +693,22 @@
     已實現約-$261.91＝(170−257.303)×3；假設成交價即$170.00，實際以Futu成交紀錄為準）。PORTFOLIO.MRVL.qty 10→7；
     持倉仍18隻（MRVL未清倉），tab標題／HOLDINGS quicklinks／bridge US_STOCKS不變。其餘五檔（CSV／index.html／
     telegram_bot v1.28／github_gex_updater）同步；futu_bridge_v2.py只存symbol唔存股數，唔使改。
+  v5.45（2026-11-09）：「🔎 今日點解升跌」輸入框支援「publish_time｜來源｜標題」格式——配合futu_bridge_v2.py
+    why_moving區塊v3.17.3（patch_why_news_v3173.py）。背景：2026-11-08實測Futu MCP news_search原始回傳，
+    publish_time係13位epoch毫秒；舊版手動新聞一律「時間未知」，唔可以按走勢窗口分類（窗口內／收市後／窗口前）。
+    前端改動（純顯示／提示，唔改請求參數同其他功能）：(1) 輸入框placeholder換做新格式說明＋例子（rows 2→3）；
+    (2)「已收到N條」確認加埋「其中M條有發布時間（已按窗口分類）」，全部冇認到時間就提示正確格式；
+    (3) 手動新聞標題行改做「有發布時間嘅已按走勢窗口分類，冇時間嘅當時間未知，一律只當候選」；
+    (4) 貼入超過1500字（送出時會截短）加琥珀色提示；(5) 兩處「升級到v3.17.2」字樣改v3.17.3。
+    向後兼容：純標題舊格式bridge照收，當時間未知。⚠️ 要bridge打咗patch_why_news_v3173.py先有窗口分類；
+    未打補丁嘅話，新格式整行會被當成純標題（時間未知），唔會壞。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.44)</title>
+<title>GEX Chart — Futu Bridge (v5.45)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -1412,7 +1421,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <span class="ai-title">🔎 今日點解升跌 · 歸因（Python統計 + AI解釋）</span>
     <button class="ai-btn" id="why-btn" onclick="runWhyMoving()">🔎 分析最近交易日走勢</button>
   </div>
-  <textarea id="why-extra" rows="2" placeholder="（可選）貼上牛牛或其他新聞標題，每行一條——例如：OpenAI 發布新模型，由 chat 升級至 AI agent"
+  <textarea id="why-extra" rows="3" placeholder="（可選）貼上新聞，每行一條。建議格式：publish_time｜來源｜標題&#10;publish_time 用 Futu MCP news_search 回傳嘅13位數字原樣貼，系統會按走勢窗口分類（窗口內／收市後／窗口前）&#10;例：1793989860000｜Barron's｜Why the Marvell and Lumentum Megadeal ...&#10;純標題都收，但會當「時間未知」；建議一次貼10行以內"
     style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--text);font-family:var(--font-mono);font-size:11px;padding:8px 10px;margin-bottom:10px;resize:vertical;outline:none"></textarea>
   <div class="ai-body" id="why-body">
     <span class="ai-placeholder">按「分析」——系統會先用統計拆開：大市 / 板塊 / 公司特定 / 10Y / WTI / BTC / Dealer倉位，每個因素俾出「主要／次要／不支持／證據不足」，再由AI按證據講解。證據唔夠就會明講，唔會硬編原因。</span>
@@ -3269,13 +3278,22 @@ async function runWhyMoving() {
       const sentLines = extra.split('\n').filter(l => l.trim()).length;
       const gotN = (ev.manual_news_count != null) ? ev.manual_news_count : manualNews.length;
       if (gotN === 0) {
-        html += `<div style="font-size:11px;color:var(--red);margin-bottom:8px">⚠ 你貼入咗 ${sentLines} 行，但 bridge 收到 0 條手動新聞——futu_bridge_v2.py 可能未升級到 v3.17.2（或參數冇傳到）</div>`;
+        html += `<div style="font-size:11px;color:var(--red);margin-bottom:8px">⚠ 你貼入咗 ${sentLines} 行，但 bridge 收到 0 條手動新聞——futu_bridge_v2.py 可能未升級到 v3.17.3（或參數冇傳到）</div>`;
       } else {
-        html += `<div style="font-size:11px;color:var(--green);margin-bottom:8px">✔ 已收到 ${gotN} 條手動新聞（你貼入 ${sentLines} 行，backend最多收15行／每行200字）</div>`;
+        // v5.45：bridge v3.17.3起，格式「publish_time｜來源｜標題」嘅行會有發布時間（age_h唔係null），按窗口分類
+        const gotT = manualNews.filter(n => n.age_h != null).length;
+        const noT  = Math.max(gotN - gotT, 0);
+        const timeNote = noT === 0 ? '，全部有發布時間，已按走勢窗口分類'
+          : gotT === 0 ? '，但全部冇認到發布時間（想按窗口分類，格式要係 publish_time｜來源｜標題，bridge要v3.17.3）'
+          : `，其中 ${gotT} 條有發布時間（已按窗口分類）、${noT} 條冇（當時間未知）`;
+        html += `<div style="font-size:11px;color:var(--green);margin-bottom:8px">✔ 已收到 ${gotN} 條手動新聞${timeNote}（你貼入 ${sentLines} 行，backend最多收15行／每行200字）</div>`;
+        if (extra.length > 1500) {
+          html += '<div style="font-size:11px;color:var(--amber);margin-bottom:8px">⚠ 貼入內容超過1500字，只送出頭1500字（最後一行可能被截斷），建議減到10行以內</div>';
+        }
       }
     }
     if (manualNews.length) {
-      html += '<div style="font-size:10px;color:var(--amber);text-transform:uppercase;letter-spacing:.08em;margin:6px 0 4px">你貼入嘅新聞（發布時間未知，只當候選）</div>';
+      html += '<div style="font-size:10px;color:var(--amber);text-transform:uppercase;letter-spacing:.08em;margin:6px 0 4px">你貼入嘅新聞（有發布時間嘅已按走勢窗口分類；冇時間嘅當時間未知；一律只當候選）</div>';
       manualNews.forEach(n => { html += renderNewsRow(n); });
     }
     if (autoNews.length) {
@@ -3291,7 +3309,7 @@ async function runWhyMoving() {
     body.innerHTML = html;
     meta.textContent = `數據日期 ${ev.as_of}${ev.is_today ? '（今日）' : '（最近交易日，非今日）'} · 模型：${j.model || '—'} · 耗時 ${j.elapsed_s}s · 基於日線收市價，唔係盤中即時`;
   } catch (e) {
-    body.innerHTML = `<span class="err-msg">⚠ 分析失敗：${escHtml(e.message)}</span><br><span style="font-size:10px;color:var(--muted)">確認 futu_bridge_v2.py 已升級到 v3.17.2</span>`;
+    body.innerHTML = `<span class="err-msg">⚠ 分析失敗：${escHtml(e.message)}</span><br><span style="font-size:10px;color:var(--muted)">確認 futu_bridge_v2.py 已升級到 v3.17.3</span>`;
   }
   btn.disabled = false; btn.textContent = '🔎 重新分析';
 }
