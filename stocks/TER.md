@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-10 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Teradyne Declares Quarterly Cash Dividend](https://finnhub.io/api/news?id=9603607523d4d33ed0719d2c10b3a76725cc3fb570100db083d11e9b6b8db806)**  
+- **[ETFs Are Net Sellers of Teradyne (TER) on Nov. 6](https://finnhub.io/api/news?id=9fff5ac50238ce40c0c6bd5bf9616420d9772bdabc69a5084eaa40a07e1d56ba)**  
 *Yahoo · 1h前*  
+ETFs sold a net $93.9 million of Teradyne (TER) on Nov. 6.
+
+- **[Micron, FormFactor, Amkor, Teradyne, and Nvidia shares skyrocket, what you need to know](https://finnhub.io/api/news?id=07e702414a8c613e9a89306945ba102fb49818e3c02807b7b9e401aa5e1307e9)**  
+*Yahoo · 10h前*  
+A number of stocks jumped in the morning session after dip-buyers moved into beaten-down semiconductor and hardware names following the sector's steepest one-da…
+
+- **[Teradyne Declares Quarterly Cash Dividend](https://finnhub.io/api/news?id=9603607523d4d33ed0719d2c10b3a76725cc3fb570100db083d11e9b6b8db806)**  
+*Yahoo · 15h前*  
 NORTH READING, Mass., November 09, 2026--Teradyne, Inc. (NASDAQ:TER) today announced a quarterly cash dividend of $0.13 per share, payable on December 16, 2026,…
-
-- **[Teradyne (TER) Upgraded to Strong Buy: Here's Why](https://finnhub.io/api/news?id=93841808f7c09c54f235e69f42823756dea628ca5e6e9b4f7a1f15f9d77ed8a8)**  
-*Yahoo · 7h前*  
-Teradyne (TER) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #1 (Strong Buy).
-
-- **[Teradyne (NASDAQ:TER): Affordable Growth at a Reasonable Valuation](https://finnhub.io/api/news?id=402670759e6885c2b4efc3e6abead230282e5e94b44890e18778faba6dcd42be)**  
-*ChartMill · 11h前*  
-Teradyne (TER) blends strong EPS growth with reasonable valuation and solid financial health, making it a compelling Affordable Growth candidate.
 
 ---
 
@@ -59,4 +59,4 @@ Teradyne (TER) blends strong EPS growth with reasonable valuation and solid fina
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:03 HKT*
