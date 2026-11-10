@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab (NASDAQ:RKLB) reports bullish Q3 2026, guides for strong sales next quarter](https://finnhub.io/api/news?id=a94ebdb02d410d326b5b685ab89f7ae7534674a0ddbd0e43ba03e99a688a31a4)**  
+- **[Rocket Lab Shares Fall Over 5% After Q3 Earnings Miss Despite 73% Revenue Growth and Record Backlog](https://finnhub.io/api/news?id=2a06ea33115bbd06cede59af3c0f2f7e2f4c26d908cb05b060997f75d80f3a89)**  
 *Yahoo · 1h前*  
-Aerospace and defense company Rocket Lab (NASDAQ:RKLB) reported Q3 2026 results exceeding the market’s revenue expectations, with revenue up 72.7% year on year …
+Rocket Lab Corp (NASDAQ:RKLB) shares declined more than 5% in Tuesday’s premarket trading after the aerospace company reported a wider-than-expected adjusted lo…
 
-- **[Rocket Lab Lands Over $515M in Neutron Launch Deals from Constellation Operators in Q3](https://finnhub.io/api/news?id=946c68841a817cfb3a6688816fb83f3969e4747d2e91b001722516ca8ec325ff)**  
+- **[Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Tuesday; Rocket Lab, AMD to Open Lower](https://finnhub.io/api/news?id=480796c6a022cd797fa25450b24a0cf5015d266ab35ac5b55498ae1289e91fe2)**  
 *Yahoo · 1h前*  
-Neutron backlog grows to 16 missions, and base launch price rises to $70M, reflecting strong customer confidence ahead of debut as launch capacity tightens acro…
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Tuesday's
 
-- **[Rocket Lab Announces Third Quarter 2026 Financial Results: Posts Record Revenue, $1.2 Billion or 52% Sequential Quarterly Backlog Growth, Positive GAAP Operating Cash Flow, and Guides to Record Revenue and Gross Margin Expansion in Q4 2026](https://finnhub.io/api/news?id=a01ba05a67fe1ff1fdd603a15e38a18464e278695cda07269902c9a8c6765af9)**  
+- **[Why Rocket Lab Stock Crashed After Earnings](https://finnhub.io/api/news?id=88421815dc8928ec22edfb13bf6d2a93e3bea954ed4f92529092977b3fb3eef6)**  
 *Yahoo · 1h前*  
-RKLB Q3 2026 highlights RKLB Q3 2026 highlights LONG BEACH, Calif., Nov. 09, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in …
+Rocket Lab Stock Slips Despite a Strong Sales Outlook
 
 ---
 
@@ -59,4 +59,4 @@ RKLB Q3 2026 highlights RKLB Q3 2026 highlights LONG BEACH, Calif., Nov. 09, 202
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
