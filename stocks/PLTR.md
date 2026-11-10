@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$169.20** |
-| 今日變動 | ▲ $8.82　(+5.50%) |
+| 現價 | **$168.82** |
+| 今日變動 | ▼ $0.38　(-0.22%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $251　(▲32.9%) |
+| 未實現盈虧 | ▲ $249　(▲32.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $159.45 | — |
-| Put Wall（支撐） | $160.00 | -5.4% |
-| Call Wall（阻力） | $170.00 | +0.5% |
+| Gamma Flip | $159.63 | — |
+| Put Wall（支撐） | $160.00 | -5.2% |
+| Call Wall（阻力） | $170.00 | +0.7% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[ETFs Are Buying Palantir (PLTR) on Nov. 6](https://finnhub.io/api/news?id=138a5f8e88583f7a7e40d95433e41e71a5b7be014f9709ecaf0dc7e2bcd64fd8)**  
+- **[Supporting Your CFO in the AI Era, 6th Palm Beach CorpGov Forum](https://finnhub.io/api/news?id=7de5ee7a3b5e1954545ca762f731499c27624385b2a24827b2aa78d6de04884e)**  
 *Yahoo · 2h前*  
-ETFs bought $75.3 million of Palantir stock, with 54 buyers against 19 sellers.
+CorpGov hosted the sixth annual Palm Beach CorpGov Forum on Nov. 4-5, 2026, at the Palm Beach Lake Pavilion and The Cove Club, both located waterfront with swee…
 
-- **[As Democrats Take Over Congress, Is Palantir Stock at Risk?](https://finnhub.io/api/news?id=ab813bc9dda6a82ef1abd2ff982abd6b4d9be783be02489afdac82618991124a)**  
+- **[Rackspace Technology Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=b34dfe5be3e37fc7c5604d52a8c4046a2e4e36776854ae603bf7af074f658cf4)**  
 *Yahoo · 3h前*  
-The AI data analytics stock is now trading 19% below its October high.
+Rackspace Technology (NASDAQ:RXT) raised its full-year revenue forecast after reporting stronger Public Cloud consumption, while maintaining its profitability o…
 
-- **[What Zeta Global (ZETA) Said on Its Q3 Earnings Call](https://finnhub.io/api/news?id=298182aa4d2c53ddd7497b9f8267aa6bcca8887dcf10de884dc9b8f2340cfe6a)**  
-*Yahoo · 6h前*  
-Zeta Global (NYSE:ZETA) reported third-quarter 2026 revenue of $493 million, up 46% from a year earlier, and raised its full-year outlook as customers increased…
+- **[This Software Stock Bull Signal Has Never Been Wrong](https://finnhub.io/api/news?id=6b08b27e492a0a265137c2c33767e85611c7bb3c109c8cd03e18fc0b6d31de32)**  
+*Yahoo · 4h前*  
+The historically bullish signal has yielded significant surges
 
 ---
 
@@ -48,7 +48,7 @@ Zeta Global (NYSE:ZETA) reported third-quarter 2026 revenue of $493 million, up 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-10 | 監控 | $169.20 | — | 自動更新 |
+| 2026-11-11 | 監控 | $168.82 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Zeta Global (NYSE:ZETA) reported third-quarter 2026 revenue of $493 million, up 
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
