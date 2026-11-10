@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[Stocks making big moves this week: Sprout Social, Redwire, Inspire Medical Systems, Fastly, and Marvell Technology](https://finnhub.io/api/news?id=71b6e3e90f3f31670ab8da7663a928d8e7419d3587e82ee9588542b803e412f2)**  
+*Yahoo · 10h前*  
+Check out the companies making headlines this week:
+
 - **[Redwire: The Strongest Demand We've Seen](https://finnhub.io/api/news?id=0e3747f20a56eebc38f578b5c2cb00d9b989c881999f9d699a6ba90feac8b325)**  
-*SeekingAlpha · 7h前*  
+*SeekingAlpha · 21h前*  
 Redwire shows backlog growth, record margins, and strong liquidity, but profitability is still unproven.
 
 - **[Redwire Consensus Price Target Cut by 10.9% to $12.98](https://finnhub.io/api/news?id=89c7dd71f5ae877293617c65222417b3d1880c738ac826a416a3fd5599a776b0)**  
-*Fintel · 10h前*
-
-- **[5 revealing analyst questions from Redwire’s Q3 2026 earnings call](https://finnhub.io/api/news?id=80792336015bbfc41484b0a8ebf698f7d95aa250c0e915de5605d346b1c1760d)**  
-*Yahoo · 1d前*  
-Redwire’s third quarter results were met with a significant negative market reaction, following a revenue miss relative to Wall Street expectations despite year…
+*Fintel · 1d前*
 
 ---
 
@@ -58,4 +58,4 @@ Redwire’s third quarter results were met with a significant negative market re
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
