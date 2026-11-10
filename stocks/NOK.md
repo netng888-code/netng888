@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$8.18** |
-| 今日變動 | ▲ $0.52　(+6.79%) |
+| 現價 | **$8.25** |
+| 今日變動 | ▲ $0.07　(+0.86%) |
 | 持倉數量 | 200 股 |
 | 平均成本 | $12.458 |
-| 未實現盈虧 | ▼ $856　(▼34.3%) |
+| 未實現盈虧 | ▼ $842　(▼33.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $8.92 | — |
-| Put Wall（支撐） | $8.00 | -2.2% |
-| Call Wall（阻力） | $10.00 | +22.2% |
+| Gamma Flip | $8.85 | — |
+| Put Wall（支撐） | $8.00 | -3.0% |
+| Call Wall（阻力） | $10.00 | +21.2% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -31,14 +31,14 @@
 ## 📰 最新新聞
 
 - **[Nokia Oyj Transfers 847 057 Own Shares to Incentive Plan Participants](https://finnhub.io/api/news?id=18fcffc8984d5ee4a6dad8dfc80ccf4d38328ddb3bee3f7911b0349fa70ee6c8)**  
-*Fintel · 15h前*
+*Fintel · 1d前*
 
 - **[Jaggaer Advisor and Product Leader Recognized at SIG’s 2026 Future of Sourcing Awards](https://finnhub.io/api/news?id=8a20fb2081d8c087da598062aded46fd5275edb5fe0bc335c13305228898a2cf)**  
-*Yahoo · 20h前*  
+*Yahoo · 1d前*  
 DURHAM, N.C., November 09, 2026--Jaggaer, a global leader in AI-powered source-to-pay and supplier collaboration, today announced a double win: Luc Broussaud, S…
 
 - **[European Equities Traded in the US as American Depositary Receipts Surge in Monday Trading](https://finnhub.io/api/news?id=df31d49e4ed0dd3fb74cb07b859f7cec9c2a7cd332522c3aec3f29dad07b4599)**  
-*Yahoo · 20h前*  
+*Yahoo · 1d前*  
 European equities traded in the US as American depositary receipts kicked off the week on a strong n
 
 ---
@@ -47,7 +47,7 @@ European equities traded in the US as American depositary receipts kicked off th
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-10 | 監控 | $8.18 | — | 自動更新 |
+| 2026-11-11 | 監控 | $8.25 | — | 自動更新 |
 
 ---
 
@@ -58,4 +58,4 @@ European equities traded in the US as American depositary receipts kicked off th
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
