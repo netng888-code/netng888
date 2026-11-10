@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-10 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $191.77 | — |
+| Gamma Flip | $192.63 | — |
 | Put Wall（支撐） | $150.00 | -16.0% |
 | Call Wall（阻力） | $200.00 | +11.9% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia's Jensen Huang scandal raises questions for AI leaders](https://finnhub.io/api/news?id=ec11ad4ac9fafc55bad9534fac8eb2a3172ebbaa01e8cc39325312ba5d05e227)**  
+- **[Nvidia Stock Rises as President Trump Backs Huang in China Spy Storm](https://finnhub.io/api/news?id=9ca73b87218732728f55df4906d79b28acd060d85c88adf8bbd466ab141a3270)**  
 *Yahoo · 1h前*  
-Deirdre Bosa Live host Deirdre Bosa examines the developing controversy surrounding Nvidia (NVDA) CEO Jensen Huang amid allegations involving a woman suspected …
+Trump Defends Jensen Huang as Nvidia Espionage Probe Rattles Investors
 
-- **[Update: Wall Street Rebounds From Last Week's Sell-Off; Nvidia Tumbles](https://finnhub.io/api/news?id=9c82082bcbca3d40b72d0137fa709666450fe3136bfc138ab92e2d7e7276b7d0)**  
+- **[Nvidia and Jensen Huang Just Got Sued by Shareholders Over His Ties to a Suspected Spy](https://finnhub.io/api/news?id=e87dab68c0a06fa4ee70978afbb884bb2e7cce4656c7993028cef0fc1ee747d9)**  
 *Yahoo · 1h前*  
-(Updates with market moves at the end of the day, and other changes, if any.) US benchmark equity
+A shareholder lawsuit landed minutes after the closing bell, accusing Nvidia of hiding a CEO's link to a suspected Chinese spy. The stock was already sliding, a…
 
-- **[Why Cinemark Stock Is Up Today](https://finnhub.io/api/news?id=5962f8fb73a6a605f1c76065ace031c718f0d3e00420e24742bfbbd3096c4451)**  
+- **[Nvidia is worth nearly 30% less if Jensen Huang is no longer CEO: tech analyst](https://finnhub.io/api/news?id=47160708b3d1b749f7b6a9568a7da11ca2ad4ea5f1c2f2d6ff0f62d88d4533ed)**  
 *Yahoo · 1h前*  
-Movie fans are flocking to theaters.
+Nvidia's future hangs in the balance.
 
 ---
 
@@ -59,4 +59,4 @@ Movie fans are flocking to theaters.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:03 HKT*
