@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Where To Buy The Dip](https://finnhub.io/api/news?id=1de6de4f66d69d15239bb692fe7ff113bf3716dc7fe15f652fa5dff1254b200e)**  
-*SeekingAlpha · 6h前*  
-Gary Vaughan from Daily Stock PicksÂ argues that the recent market selloff presents buying opportunities.
+- **[What Goldman Sachs Nasdaq-100 Premium Income (GPIQ) Bought: Honeywell Leads on Nov. 6](https://finnhub.io/api/news?id=629a1d053698c2944faa2b11736bcd908bce9fd9afae80f987b8ea4725277d8e)**  
+*Yahoo · 1h前*  
+The fund traded $236.7 million in all, adding $30.7 million net across 47 increases and 28 decreases.
 
-- **[AMD Just Eased Wall Street’s AI Spending Scare. Here’s What It Means for the Stock](https://finnhub.io/api/news?id=9e0c3094e1ee38ece7f481a00d81360b84313ef34777a0f07b47f1e9bd53b94b)**  
-*Yahoo · 6h前*  
-AMD's blowout quarter calmed Wall Street's AI jitters and sent shares soaring, but one valuation gap with NVIDIA and a pile of rising inventory could decide whe…
+- **[What iShares PHLX SOX Semiconductor (SOXX) Sold: AMD Leads on Nov. 6](https://finnhub.io/api/news?id=406eb320bb8b8f3cb5f61fe7e9bcfeb828832415f541b17da1e68c63a100a397)**  
+*Yahoo · 1h前*  
+The fund sold $3.95 billion of stock and bought nothing, cutting 29 positions while increasing none.
 
-- **[BC-Most Active Stocks](https://finnhub.io/api/news?id=59c254b5812179c368cfddf6c79f837528650664d9af92f1729bceb2d8ff240b)**  
-*Yahoo · 7h前*  
-NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks. Nasdaq most active stocks:Stock Name Volume High Low Last Cha…
+- **[ETFs Are Net Sellers of Intel (INTC) on Friday](https://finnhub.io/api/news?id=d2490973cbe89a001be652f6a32a20762ac86371bea13947d1f79b184af0bd13)**  
+*Yahoo · 2h前*  
+ETFs sold a net $212.2 million of Intel on Friday, Nov. 6.
 
 ---
 
@@ -59,4 +59,4 @@ NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
