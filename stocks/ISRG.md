@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Intuitive Surgical (NASDAQ:ISRG): Strong Growth Meets a Constructive Technical Setup](https://finnhub.io/api/news?id=b11ef7bad2b87b46ca290d8c606c013f259eb64d810cb1fc653466cb7941fe1b)**  
+*ChartMill · 1h前*  
+Intuitive Surgical pairs strong growth, high margins and a debt-free balance sheet with a tight technical setup near resistance, though valuation risk remains.
+
+- **[The Zacks Analyst Blog Highlights ASML, Alibaba, Intuitive Surgical, Paul Mueller and Presurance](https://finnhub.io/api/news?id=72e017f7664d6b7f10ed7b82843f957de6eb4e58ee210881d6796a1f0038c907)**  
+*Yahoo · 6h前*  
+ASML, BABA, ISRG, MUEL and PRHI feature in Zacks reports, highlighting growth drivers, challenges and performance outlooks.
+
 - **[Top Research Reports for ASML, Alibaba & Intuitive Surgical](https://finnhub.io/api/news?id=8997313777850e60e73f1cdf370abadfa53a7d6fea09b3fe69ff661dd51bff50)**  
-*Yahoo · 2h前*  
+*Yahoo · 16h前*  
 Today's Research Daily features new research reports on 16 major stocks, including ASML Holding N.V. (ASML), Alibaba Group Holding Limited (BABA), Intuitive Sur…
-
-- **[ISRG Gains 7.8% in 6 Months: Will the Share Price Recovery Continue?](https://finnhub.io/api/news?id=ebd6822af6b7901b3ecf01dcb3471432221723fcb59d7dcc752ffe13f139a8ce)**  
-*Yahoo · 5h前*  
-Intuitive Surgical shares gained 7.8% in six months as robust procedure growth and da Vinci 5 adoption offset litigation costs, competition and valuation concer…
-
-- **[Waters Expands Proteomics Reach With MOBILion Systems Acquisition](https://finnhub.io/api/news?id=8d91a038441f7df232982f9dab889d322511e19a1a4e59a6657b1095f752e3b1)**  
-*Yahoo · 7h前*  
-WAT expands its proteomics footprint with the MOBILion acquisition, boosting mass spectrometry capabilities, AI-driven research and clinical testing prospects.
 
 ---
 
@@ -59,4 +59,4 @@ WAT expands its proteomics footprint with the MOBILion acquisition, boosting mas
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
