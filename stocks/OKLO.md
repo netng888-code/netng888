@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-10 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-10 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,16 @@
 
 ## 📰 最新新聞
 
-- **[HC Wainwright & Co. Reiterates Buy on Oklo, Maintains $90 Price Target](https://finnhub.io/api/news?id=e44565a9d724d4e8ad5f5457b53c728bfd460f0b9613304c61903795604cf420)**  
-*Benzinga · 14h前*  
-HC Wainwright &amp; Co.  analyst Sameer Joshi   reiterates Oklo (NYSE:OKLO) with a Buy and maintains $90 price target.
+- **[Oklo Average Price Target Decreased by 11.98% to $61.10](https://finnhub.io/api/news?id=3cf5f7e328497ebb222ef4be3ab564325d4a72f30333f2aac71555efb03c22ba)**  
+*Fintel · 10h前*
 
-- **[Wall Street Breakfast Podcast: The Spy Who Loved Nvidia](https://finnhub.io/api/news?id=c2a64147185315ce3fef75d6784d724cd2acddc78567762af30d444b7b0fce74)**  
-*SeekingAlpha · 16h前*  
-Nvidia finds itself in a real-life spy drama. NASA has big plans for the Moon. The nuclear comeback gathered steam Friday.
+- **[OKLO Stock Is On Track To Reverse 6 Weeks Of Losses, But This Analyst Warns Nuclear Euphoria Is Fading](https://finnhub.io/api/news?id=e55946f2f706c4b29dbc4cd7d032470a4a6486b47ae5174df8c05543dcb6558c)**  
+*Yahoo · 11h前*  
+OKLO stock is headed higher on strong third-quarter earnings and a manufacturing agreement with U.S. Forged Rings to support the long-term deployment of its Aur…
 
-- **[Oklo: 3 Key Takeaways for Long-Term Investors](https://finnhub.io/api/news?id=cd6f104f0739fd4e6a40b3f6b377d425a1d012883d1af0a88add6b1b1c9c0eb8)**  
-*Yahoo · 21h前*  
-Oklo's plan to sell fuel-fabrication capacity to external reactor operators could turn its fuel business into a standalone revenue stream.
+- **[Should You Buy Oklo Stock While It's Under $30?](https://finnhub.io/api/news?id=2720e2a63115c5b0c893e3e39e2064a0c6dbbc2bdc790fd23fc698497e6e00c8)**  
+*Yahoo · 15h前*  
+The energy stock has been in free fall this year.
 
 ---
 
@@ -59,4 +58,4 @@ Oklo's plan to sell fuel-fabrication capacity to external reactor operators coul
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-10 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-10 21:04 HKT*
