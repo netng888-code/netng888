@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[European Equities Traded in the US as American Depositary Receipts Decline in Tuesday Trading](https://finnhub.io/api/news?id=78692d41c7a879fa680a93054a4d850653bfd1b1bc09213f4a18d54915d106a9)**  
+*Yahoo · 20h前*  
+European equities traded in the US as American depositary receipts were tracking lower late Tuesday
+
 - **[Nokia Oyj Transfers 847 057 Own Shares to Incentive Plan Participants](https://finnhub.io/api/news?id=18fcffc8984d5ee4a6dad8dfc80ccf4d38328ddb3bee3f7911b0349fa70ee6c8)**  
 *Fintel · 1d前*
 
 - **[Jaggaer Advisor and Product Leader Recognized at SIG’s 2026 Future of Sourcing Awards](https://finnhub.io/api/news?id=8a20fb2081d8c087da598062aded46fd5275edb5fe0bc335c13305228898a2cf)**  
 *Yahoo · 1d前*  
 DURHAM, N.C., November 09, 2026--Jaggaer, a global leader in AI-powered source-to-pay and supplier collaboration, today announced a double win: Luc Broussaud, S…
-
-- **[European Equities Traded in the US as American Depositary Receipts Surge in Monday Trading](https://finnhub.io/api/news?id=df31d49e4ed0dd3fb74cb07b859f7cec9c2a7cd332522c3aec3f29dad07b4599)**  
-*Yahoo · 1d前*  
-European equities traded in the US as American depositary receipts kicked off the week on a strong n
 
 ---
 
@@ -58,4 +58,4 @@ European equities traded in the US as American depositary receipts kicked off th
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
