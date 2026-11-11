@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-11 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta's Ember is a bet on cheaper models with competitors](https://finnhub.io/api/news?id=bc239ea631cadf14b381b77d11d651f1333fb0c72a053a7b89c1c232a62f58f5)**  
+- **[State Street Comm Services SPDR (XLC) Sells $29.9 Million of Meta on Monday](https://finnhub.io/api/news?id=8bc6a80a3287fc7684867f88cd30cd338ec7eacfbd39119fd67309cc2627cc2b)**  
 *Yahoo · 1h前*  
-Yahoo Finance's Deirdre Bosa and "In the Loop" host Ejaaz Ahamadeen discuss Meta's  (META) new Ember model, designed as a low-cost, quick option to compete with…
+The $22.12 billion fund sold $139.5 million of stock and bought nothing, cutting all 22 of its positions.
 
-- **[Why the Data Center Backlash Could Fall Flat: Increased Costs “a Trade That These Hyperscalers Are Still Going to Want to Make”](https://finnhub.io/api/news?id=cf864062aaf5c72f00a31cc670f1bf590fcd669ca6f44e80ee9534cb46a79e5a)**  
-*Yahoo · 1h前*  
-Key TakeawaysTexas governor-elect Gina Hinojosa plans to make newly permitted data centers pay taxes, avoid raising consumer power prices and use union labor. G…
+- **[‘This Whole Thing’s Crumbling’: Scott Galloway Says AI Capex Now Rests on Just 2 Companies and Feels Exactly Like 1999](https://finnhub.io/api/news?id=e2e50a0e3450471f91daa5e4fb63cecd9a3b1fd3db52e9ac381a59bade4e4013)**  
+*Yahoo · 2h前*  
+Building an AI empire takes an extraordinary amount of computing power. Finding enough customers to pay for it might be the harder part. New York University pro…
 
-- **[Amdocs Announces First Quarter Fiscal 2027 Investor Conference Schedule](https://finnhub.io/api/news?id=60582a3eb6eccb8e8b6a547d74f702001a85869187b648e956adf336eafbd6ce)**  
-*Yahoo · 1h前*  
-With more than 40 years of experience serving the world's leading communications companies, we combine proprietary technology, deep industry expertise and end-t…
+- **[Hims & Hers Health Faces Expanded FTC Lawsuit Over Privacy, Billing Practices](https://finnhub.io/api/news?id=0476a57ed1b1d5e5175993dddacaa372b4b555e561731f347d389e02b561f5bb)**  
+*Yahoo · 3h前*  
+The Federal Trade Commission (FTC) said Wednesday it has amended its lawsuit against Hims & Hers Hea
 
 ---
 
@@ -59,4 +59,4 @@ With more than 40 years of experience serving the world's leading communications
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
