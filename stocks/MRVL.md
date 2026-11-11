@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-11 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Lumentum Sinks 11% in a Week as Marvell’s All-Stock Offer Shrinks: “Our Demand Couldn’t Be Stronger”](https://finnhub.io/api/news?id=bacd426c428d0421b82dad2f1637561f04161e7320d7fe0927cba4f01534015c)**  
-*Yahoo · 7h前*  
-Key TakeawaysLumentum fell 11% in the past week as the AI hardware selloff hit Marvell, whose all-stock offer drives its price, and it lagged Coherent’s rebound…
+- **[Marvell (MRVL) Sees $222.6 Million in Net ETF Buying on Monday](https://finnhub.io/api/news?id=cb9901028e7ef5d5d4f2fea2d3312199c6d0a68ba221a8b0066c31bfead60ddb)**  
+*Yahoo · 2h前*  
+ETFs bought $222.6 million of Marvell (MRVL) shares on Monday, Nov. 9.
 
-- **[Can Lumentum Holdings (LITE) Stay Reasonable If Cash Flow Delivers?](https://finnhub.io/api/news?id=0e6af3ccc125be1178d6565fb4d2c0d8a2ce8cf5d7873d9f59b0f4a965dd40e0)**  
-*Yahoo · 7h前*  
-Lumentum Holdings has been on an eye catching multi year run, and with an agreed all stock acquisition by Marvell now in play, the real question for you is whet…
+- **[Cigna Group Targets $45 EPS by 2030 as Specialty Growth Offsets Pharmacy Headwinds](https://finnhub.io/api/news?id=76e40854f16ca0e909869eabdc4a520647fbed41c7f144d3c6984e41ed554102)**  
+*Yahoo · 5h前*  
+Cigna Group (NYSE:CI) expects its specialty business to account for a larger share of earnings by 2030, as the company pursues a long-term growth target and pre…
 
-- **[S&P 500 Premarket Losers: GEV, CAT, VRT Fall After Yesterday's Gains](https://finnhub.io/api/news?id=f17d401fae34a1d9ee203ac968a63655755792f5520d52d6ee6c97e343e3b847)**  
-*ChartMill · 9h前*  
-S&P 500 premarket losers include GEV, CAT, VRT, COHR, BE, GNRC, LITE, MRVL, CIEN and INTC, each down after gains in yesterday's session.
+- **[Credo and Lumentum Sink 14% in a Week as Democrats’ Sweep Hits AI Data Centers](https://finnhub.io/api/news?id=fce7999ef88a4c46a589cc234da14c147fbca00f8223138ad8bbe3a510eb63ec)**  
+*Yahoo · 10h前*  
+Key TakeawaysCredo Technology stock fell 14% in the past week after Democrats’ midterm sweep hit AI data center stocks, and Lumentum and Marvell fell with it. C…
 
 ---
 
@@ -59,4 +59,4 @@ S&P 500 premarket losers include GEV, CAT, VRT, COHR, BE, GNRC, LITE, MRVL, CIEN
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
