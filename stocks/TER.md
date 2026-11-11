@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-11 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[ETFs Are Net Sellers of Teradyne (TER) on Nov. 6](https://finnhub.io/api/news?id=9fff5ac50238ce40c0c6bd5bf9616420d9772bdabc69a5084eaa40a07e1d56ba)**  
-*Yahoo · 11h前*  
+*Yahoo · 1d前*  
 ETFs sold a net $93.9 million of Teradyne (TER) on Nov. 6.
 
 - **[Micron, FormFactor, Amkor, Teradyne, and Nvidia shares skyrocket, what you need to know](https://finnhub.io/api/news?id=07e702414a8c613e9a89306945ba102fb49818e3c02807b7b9e401aa5e1307e9)**  
-*Yahoo · 20h前*  
+*Yahoo · 1d前*  
 A number of stocks jumped in the morning session after dip-buyers moved into beaten-down semiconductor and hardware names following the sector's steepest one-da…
 
 - **[Teradyne Declares Quarterly Cash Dividend](https://finnhub.io/api/news?id=9603607523d4d33ed0719d2c10b3a76725cc3fb570100db083d11e9b6b8db806)**  
@@ -59,4 +59,4 @@ NORTH READING, Mass., November 09, 2026--Teradyne, Inc. (NASDAQ:TER) today annou
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
