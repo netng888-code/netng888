@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab and The Trade Desk Are 2 Beaten-Down Stocks to Buy Before 2027](https://finnhub.io/api/news?id=7c13b14a703e8653f5d30fb212f617cb0c461938abe657a65b2ff2581de1d0d3)**  
-*Yahoo · 2h前*  
-Both stocks have shed most of their value. Did Monday night's reports finally make them worth owning?
+- **[Cathie Wood Just Bought $3.4 Million of This Surging Space Stock](https://finnhub.io/api/news?id=3f8718ea814a16004c29b9728fc93623b6cb1ba33d59538df820d70aa1e8c889)**  
+*Yahoo · 1h前*  
+ARK Invest Loads Up on Rocket Lab as Earnings Miss Raises Fresh Questions
 
-- **[Rocket Lab Rebounds After Mixed Q3 Report, Analysts Say Neutron Timing Is Key](https://finnhub.io/api/news?id=9d31dbc2b537508d5b9290804675a7055c3aec09a81c836b73932fd7bc184b0a)**  
-*Yahoo · 3h前*  
-Analysts cut price targets on Rocket Lab stock as earnings miss outweighs record revenue. Debut Neutron mission ahead.
-
-- **[Space stocks Rocket Lab, AST SpaceMobile on the move following earnings, operational updates](https://finnhub.io/api/news?id=8902779d5098de4c579140a79232d6164914abfdfb6d77598d2eb6a24631983b)**  
+- **[SpaceX Wins NASA Moon Base Awards, but Government Is “Less Than 10%” of Its Revenue](https://finnhub.io/api/news?id=287e6cf2e99686b9ba85ce18352e9475b58276caafd845285932599e0e641a8d)**  
 *Yahoo · 5h前*  
-Space sector stocks Rocket Lab and AST SpaceMobile are on the move, with earnings and big operational news the drivers.
+Key TakeawaysSpaceX shares rose about 6% on Monday after NASA named it one of eight companies that can compete for up to $10 billion of lunar delivery work over…
+
+- **[3 Growth Stocks With Earnings Growth Reaching 120%](https://finnhub.io/api/news?id=43ca7fbfa34b59d67799c6bf4c38f0148cd2baba2cdd8709d685a3d29689c7f8)**  
+*Yahoo · 6h前*  
+Hotter than expected US inflation and talk of larger rate hikes have hit bonds and pushed borrowing costs higher. Expensive money can punish weaker balance shee…
 
 ---
 
@@ -59,4 +59,4 @@ Space sector stocks Rocket Lab and AST SpaceMobile are on the move, with earning
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
