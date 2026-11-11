@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Centrus Energy Appoints Kevin Graney to Board of Directors](https://finnhub.io/api/news?id=31555ff23bc60c4677498e295e073a278f922c486d0053fb5094c770c0057590)**  
+*Yahoo · 15h前*  
+Centrus Energy (NYSE: LEU), a trusted supplier of nuclear fuel and services, today announced the appointment of Kevin Graney to its Board of Directors (the "Boa…
+
 - **[Uranium Enrichment Finds Its Own Renaissance](https://finnhub.io/api/news?id=442b1b7543d652c6699271cf23165668496e0c98417d43b97fe671eebfdeb010)**  
-*SeekingAlpha · 9h前*  
+*SeekingAlpha · 23h前*  
 The enrichment industry is having a renaissance. The two public companies working to expand US domestic enrichment capacity are included in the VettaFi Nuclear …
 
 - **[Centrus Energy Corp. 2026 Q3 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=f92378fd8f5d432d8c8f300a1c9ec139853a4379059e8cb9225c856c076bc4de)**  
 *SeekingAlpha · 1d前*  
 2026-11-09. The following slide deck was published by Centrus Energy Corp.
-
-- **[UUUU Q3 Earnings Miss on Investment Losses, Uranium Sales Rise](https://finnhub.io/api/news?id=d000400bdcfcd5c4084c939c626ab5fedb8e0fe0ddc0170dc3a0d96877dfce80)**  
-*Yahoo · 1d前*  
-Energy Fuels' Q3 loss widens on investment losses and acquisition costs, even as revenues surge 64.8% on higher uranium sales and stronger realized prices.
 
 ---
 
@@ -59,4 +59,4 @@ Energy Fuels' Q3 loss widens on investment losses and acquisition costs, even as
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
