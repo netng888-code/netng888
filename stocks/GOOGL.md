@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-11 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why the Data Center Backlash Could Fall Flat: Increased Costs “a Trade That These Hyperscalers Are Still Going to Want to Make”](https://finnhub.io/api/news?id=cf864062aaf5c72f00a31cc670f1bf590fcd669ca6f44e80ee9534cb46a79e5a)**  
+- **[Social Buzz: Wallstreetbets Stocks Advance Premarket Wednesday; CoreWeave, Nebius Group to Open Higher](https://finnhub.io/api/news?id=79a225141f472a0086c3518bb8d40cb191a20e47bec4c92fb0f3a7d9e1d94f7d)**  
 *Yahoo · 1h前*  
-Key TakeawaysTexas governor-elect Gina Hinojosa plans to make newly permitted data centers pay taxes, avoid raising consumer power prices and use union labor. G…
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were advancing hours before Wedne
 
-- **[Alphabet Inc. (GOOGL) Is Part of a Massive AI Spending Race: Can the Investment Deliver Enough Returns?](https://finnhub.io/api/news?id=0b31db05b3ac3c67edcc351d9c0f1481d085c7b8ce23d34f2bcfc3201b58a136)**  
+- **[Anthropic targets valuation of up to $1.4tn in IPO – report](https://finnhub.io/api/news?id=d0f74346ac7470abb4180cdc31aa4deb79e4a1d56dd1ca8a3e8502aa6ad806d0)**  
 *Yahoo · 1h前*  
-Moon Capital Management an investment management company, recently released its Q3 2026 investor letter. A copy of the letter can be downloaded here. The letter…
+Anthropic is seeking a fully diluted valuation of up to $1.4tn through its initial public offering (IPO), with Nasdaq trading expected to begin on 19 November, …
 
-- **[“Five-Nines”: Larry Page Reportedly Sees 99.999% of Compute in Orbit, and Musk Agrees](https://finnhub.io/api/news?id=b1bb0e66019dbb725c19a4c2070948a50b9e2aea07c95258614e73ec7ffd1fd6)**  
+- **[State Street Comm Services SPDR (XLC) Sells $29.9 Million of Meta on Monday](https://finnhub.io/api/news?id=8bc6a80a3287fc7684867f88cd30cd338ec7eacfbd39119fd67309cc2627cc2b)**  
 *Yahoo · 1h前*  
-Key TakeawaysInvestor Patrick O’Shaughnessy said he heard secondhand that Larry Page, co-founder of Google and its parent Alphabet, expects 99. 999% of compute …
+The $22.12 billion fund sold $139.5 million of stock and bought nothing, cutting all 22 of its positions.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysInvestor Patrick O’Shaughnessy said he heard secondhand that Larr
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:03 HKT*
