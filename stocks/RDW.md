@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Redwire Selected For ~$40M Award To Provide Integrated Power Generation System To Support NASA’s Pioneering Moon Base Efforts](https://finnhub.io/api/news?id=600261f79ee3e61f948c9a7e68170381f064d3d7dd488e44f19d4dee37a5ff38)**  
-*Benzinga · 14h前*  
-Following the installation of the eighth and final Roll Out Solar Array on the International Space Station, Redwire will embark on a bold new NASA initiative to…
+- **[Redwire: 3 Key Takeaways for Long-Term Investors](https://finnhub.io/api/news?id=b2e333545a53b4b26a1305d459d7496136c0747cbdd16c0f900ca5f85831772e)**  
+*Yahoo · 7h前*  
+Internal research spending of $14.4 million produced the ELSA solar array line, which already drew $27.8 million in contract awards in its first year.
 
-- **[Stocks making big moves this week: Sprout Social, Redwire, Inspire Medical Systems, Fastly, and Marvell Technology](https://finnhub.io/api/news?id=71b6e3e90f3f31670ab8da7663a928d8e7419d3587e82ee9588542b803e412f2)**  
-*Yahoo · 20h前*  
-Check out the companies making headlines this week:
+- **[A $40 Million Reason to Watch Redwire Stock Today](https://finnhub.io/api/news?id=f0791745e3510d5368561ee037aab46f99ee89dc2c47fc43ef980b34a49c6fed)**  
+*Yahoo · 16h前*  
+Redwire shares are in focus on a $40 million NASA award. But does that warrant buying RDW stock? Let’s find out!
 
-- **[Redwire: The Strongest Demand We've Seen](https://finnhub.io/api/news?id=0e3747f20a56eebc38f578b5c2cb00d9b989c881999f9d699a6ba90feac8b325)**  
-*SeekingAlpha · 1d前*  
-Redwire shows backlog growth, record margins, and strong liquidity, but profitability is still unproven.
+- **[Redwire Secures $40 Million NASA Contract for Lunar Solar Power Demonstration](https://finnhub.io/api/news?id=078133d8addd4e8ea789d063d7f4989f3dafa94ef9482ae4fd074a9980cc88df)**  
+*Yahoo · 21h前*  
+Redwire Corporation (NYSE:RDW) has been awarded a contract valued at approximately $40 million to develop an integrated power generation system for NASA’s Moon …
 
 ---
 
@@ -59,4 +59,4 @@ Redwire shows backlog growth, record margins, and strong liquidity, but profitab
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
