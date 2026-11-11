@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-11 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[5 Best Tech Stocks That Pay Dividends](https://finnhub.io/api/news?id=deac1c09e5d675c435bf5b2fe037f6d37b584ea7d0c5bee2b944b2e6f6050a8e)**  
-*Yahoo · 3h前*  
-The idea that technology companies don’t pay dividends comes from the industry’s early years, when most businesses focused on growing as quickly as possible. Du…
+- **[Latest News In AI Chips - Advancing Data Centers with AMD's New EPYC Processors](https://finnhub.io/api/news?id=833bd9b9346e48697ac6458a895076daf698945529ded29e3d7a3023c6196418)**  
+*Yahoo · 1h前*  
+Recent advancements in AI chip technology continue to reshape the landscape of data center computing, with AMD announcing the availability of its 6th Gen EPYC s…
 
-- **[Will Broadcom Inc. (AVGO) Beat Estimates Again in Its Next Earnings Report?](https://finnhub.io/api/news?id=93247fed5168ea262d0d22a595fd5fbd7a39c976fd9c8f3444c67f8f01c2bfdb)**  
-*Yahoo · 3h前*  
-Broadcom Inc. (AVGO) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in i…
+- **[What State Street Tech Select SPDR (XLK) Sold: Apple Leads on Nov. 9](https://finnhub.io/api/news?id=5694dd3f6ccbc633d5fe2f387ec1e09bbeea3489686d30ce985ca7e715528398)**  
+*Yahoo · 1h前*  
+The fund sold $136.7 million of stock, cutting all 76 positions and adding nothing new.
 
-- **[Should You Buy, Sell, or Hold Cerebras Systems Stock Before Q3 Earnings?](https://finnhub.io/api/news?id=47cbb5792cedf3355996e1c3fa5de48640916bdc8c6464175d22ccb5c48ea194)**  
-*Yahoo · 3h前*  
-CBRS Q3 results are likely to reflect strong AI inference demand and growing cloud adoption, but margin pressure, persistent losses, and valuation risks remain.
+- **[US High Relative Profitability (DUHP) Adds Broadcom and Micron on Nov. 9](https://finnhub.io/api/news?id=08e739707fd6c3c576d9b2d5410f7b08569074fc95ae4dc35a9f0eff475f105b)**  
+*Yahoo · 1h前*  
+The fund bought $125.9 million more than it sold, lifting 75 positions and trimming 4.
 
 ---
 
@@ -59,4 +59,4 @@ CBRS Q3 results are likely to reflect strong AI inference demand and growing clo
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:03 HKT*
