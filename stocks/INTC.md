@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SQC Expands Executive Team With Appointment of Chief Manufacturing Officer](https://finnhub.io/api/news?id=fa92aa03d6f827a974548e8ac456957a3a9c1fbce1fdaafcd3a40f84aca6e99a)**  
-*Yahoo · 3h前*  
-Silicon Quantum Computing (SQC), a pioneer in quantum computing and atomic-precision manufacturing, today announced the appointment of W.H. Teh as Chief Manufac…
+- **[iShares PHLX SOX Semiconductor (SOXX) Buys $394.7 Million More AMD on Nov. 9](https://finnhub.io/api/news?id=ee45bf9288a8b6121a5258c419344caccf37d85468941664dc05b39ee212ecd3)**  
+*Yahoo · 2h前*  
+The fund added $394.7 million of AMD and $315.3 million of Broadcom, with $3.66 billion in net buying across 29 increased positions.
 
-- **[Intel Stocks Fall 1.82% as Chip Rally Fades and PC Slump Clouds Q4](https://finnhub.io/api/news?id=f00d1ba35af215fe7ede776414480d6785e2d19ae6ecee18e4d71be132f40bdc)**  
-*Yahoo · 3h前*  
-Shares give back part of Monday's 5.49% rebound as hot inflation data and a guided gross-margin drop weigh on the chipmaker.
+- **[ETFs Bought $360.9 Million of Intel (INTC) on Nov. 9](https://finnhub.io/api/news?id=83d4056231bc1c0d11c20422deeaa55afe850bfdee5199850fc87f96b4e18574)**  
+*Yahoo · 2h前*  
+ETFs bought $360.9 million of Intel stock, with 47 funds buying and 19 selling.
 
-- **[Buy the Dip: 5 Stocks Insiders Are Loading Up On After the Recent Market Sell-Off](https://finnhub.io/api/news?id=2e11465ca183524bc3ff11e83ca7c6c12f7f0e698a5ad37059fc5b46f481ae45)**  
-*Yahoo · 3h前*  
-Thursday, November 5 represented the worst trading session for the U.S. market in over a year. the Nasdaq Composite dropped 5.52%, the S&P 500 fell 4.36%, and t…
+- **[“Demand Is Higher Than Supply”: AMD Has Ripped 141% in 2026. Is It Too Late to Buy?](https://finnhub.io/api/news?id=c9477d227322df478ff50752a32734c66cf11edc9e9e4ecc0fd4cf9febf07d54)**  
+*Yahoo · 5h前*  
+Key TakeawaysAMD stock is up 141% in 2026 on Meta’s 6-gigawatt GPU deal and back-to-back record quarters, though it’s still 21% below its October closing high. …
 
 ---
 
@@ -59,4 +59,4 @@ Thursday, November 5 represented the worst trading session for the U.S. market i
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
