@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Intuitive Surgical (ISRG) Dropped, So What Is Driving Attention Now?](https://finnhub.io/api/news?id=b6bcd60aee0e4aafad1ff2be9ef23ec6fb1e8ec7c3684dd362fd6c43a251b136)**  
+*Yahoo · 3h前*  
+Intuitive Surgical (ISRG) is back in focus after fresh quarterly results showed 22% revenue growth, rising use of its da Vinci 5 and Ion systems, and a sizable …
+
+- **[Intuitive Surgical (ISRG) Stock Fair Value Edges Higher After Mixed Q3 Analyst Revisions](https://finnhub.io/api/news?id=cb74e74a205c6aec29053fed3f85c9664fe76688c4518cdb953945f3e7de68e0)**  
+*Yahoo · 12h前*  
+Intuitive Surgical is back on many investors’ radar after a fresh tweak to its fair value estimate, which has shifted from about US$476.34 to roughly US$486.57 …
+
 - **[GEHC Expands Vscan Air AI Capabilities With Lung Guidance & AutoAS](https://finnhub.io/api/news?id=adf402b6822ad408d7f965b517380ff38d462dbe9ef17447a302ccfa37f2327b)**  
-*Yahoo · 5h前*  
+*Yahoo · 19h前*  
 GE HealthCare expands Vscan Air's AI capabilities with Lung Guidance and AutoAS, enhancing cardiopulmonary assessments and point-of-care diagnostic support.
-
-- **[Is Current Price Of Stryker Stock A Strong Support?](https://finnhub.io/api/news?id=68b0aee21a86199e38276207ddbb1621137a3b81914d056caad961c785cd4893)**  
-*Yahoo · 6h前*  
-For questions about this article or underlying research, email help@trefis.com.
-
-- **[Nasdaq-100 Correction: 2 Proven Winners That Can Buck Historic Volatility](https://finnhub.io/api/news?id=9b03a498425f0d2644a6ebe56322a5094919b704a20460fabc3c50851e6d2c0c)**  
-*Yahoo · 10h前*  
-Two non-tech stocks are the perfect buys amid a 15% correction in the Nasdaq-100.
 
 ---
 
@@ -59,4 +59,4 @@ Two non-tech stocks are the perfect buys amid a 15% correction in the Nasdaq-100
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
