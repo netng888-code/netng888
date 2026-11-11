@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Supporting Your CFO in the AI Era, 6th Palm Beach CorpGov Forum](https://finnhub.io/api/news?id=7de5ee7a3b5e1954545ca762f731499c27624385b2a24827b2aa78d6de04884e)**  
-*Yahoo · 2h前*  
-CorpGov hosted the sixth annual Palm Beach CorpGov Forum on Nov. 4-5, 2026, at the Palm Beach Lake Pavilion and The Cove Club, both located waterfront with swee…
+- **[Cathie Wood Trims Palantir Stake. The Bigger Concern Is Slowing Business Growth](https://finnhub.io/api/news?id=de706248a54adacd8056af4db79593d1fe94290e7e8a5660637ef78eac20d8e5)**  
+*Yahoo · 1h前*  
+Palantir's Growth Story Faces New Questions After a Sharp Slowdown in Contract Wins
 
-- **[Rackspace Technology Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=b34dfe5be3e37fc7c5604d52a8c4046a2e4e36776854ae603bf7af074f658cf4)**  
-*Yahoo · 3h前*  
-Rackspace Technology (NASDAQ:RXT) raised its full-year revenue forecast after reporting stronger Public Cloud consumption, while maintaining its profitability o…
+- **[iShares Expanded Tech-Software (IGV) Buys $22.9 Million More Microsoft on Nov. 9](https://finnhub.io/api/news?id=e51fbcbd0f057490a3fdd7f587f5edb32e5d0c349e3dd5357aa6f02594e2ed42)**  
+*Yahoo · 1h前*  
+The fund added $242.6 million across 103 positions in Monday's session, led by a $22.9 million increase in Microsoft.
 
-- **[This Software Stock Bull Signal Has Never Been Wrong](https://finnhub.io/api/news?id=6b08b27e492a0a265137c2c33767e85611c7bb3c109c8cd03e18fc0b6d31de32)**  
-*Yahoo · 4h前*  
-The historically bullish signal has yielded significant surges
+- **[Can Palantir Technologies (PLTR) Still Match Its Price With Cash Flow?](https://finnhub.io/api/news?id=794a6e78d9d22035fef4dcf5ac0e288eb96169cb0c303d47b2fc711c3ea68f76)**  
+*Yahoo · 6h前*  
+Palantir Technologies has delivered a very large 3 year share price gain. After a choppy few months the core question for investors is whether the current valua…
 
 ---
 
@@ -59,4 +59,4 @@ The historically bullish signal has yielded significant surges
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
