@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-11 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Brightstar Lottery Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=6027df710e6f53f4aa92e1c07cf165ed547bf18435af2160695b9c5cc67dd840)**  
+- **[TSMC’s Sales Jumped 15% in October. Nvidia’s Supplier Isn’t Seeing the AI Slowdown Yet](https://finnhub.io/api/news?id=5e8ad7e5d3e22c254563b932367bbfbc37724718a1e20b0c6d9036a1a7767415)**  
 *Yahoo · 1h前*  
-Moby summary of Brightstar Lottery's Q3 2026 earnings call
+Key TakeawaysTSMC’s October revenue rose 14. 7% from September and 59.
 
-- **[Update: Equities Fall as Nvidia Leads Tech Sell-Off](https://finnhub.io/api/news?id=f33553abd92e7de18d5372b4986ef9049f915d12d306815fbafe655fff9e096b)**  
+- **[Is Nvidia a Bad-News Buy or a Stock to Avoid?](https://finnhub.io/api/news?id=c0368ae4fc623b7800d8407ffecfd1d1466b6a2873f286f37925941db72df47c)**  
 *Yahoo · 1h前*  
-(Updates with market moves at the end of the day, and other changes, if any.) Wall Street closed
+Nvidia has been a key winner in the AI boom.
 
-- **[Gilat Satellite Networks Ltd. Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=5d97c49e2c9f83b654c96a2bbb330c3164310c9dd6fc3bea9ffedf1e97d57553)**  
+- **[A Short Seller Says China Drove “Over 20%” of Nvidia’s Compute Sales. Why Nvidia’s “Under 1%” Doesn’t Settle It](https://finnhub.io/api/news?id=e1182799c23bc875f2eea2e3ca93bb55765d0bc2e8cfdb572bc0d0f08f57a4a5)**  
 *Yahoo · 1h前*  
-Moby summary of Gilat Satellite Networks Ltd.'s Q3 2026 earnings call
+Key TakeawaysCulper Research, which is short NVIDIA, says more than 20% of NVIDIA’s fiscal 2026 compute revenue came from China through diverted chips. NVIDIA s…
 
 ---
 
@@ -59,4 +59,4 @@ Moby summary of Gilat Satellite Networks Ltd.'s Q3 2026 earnings call
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:03 HKT*
