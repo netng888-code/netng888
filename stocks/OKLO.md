@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-11 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Oklo Average Price Target Decreased by 11.98% to $61.10](https://finnhub.io/api/news?id=3cf5f7e328497ebb222ef4be3ab564325d4a72f30333f2aac71555efb03c22ba)**  
-*Fintel · 20h前*
+- **[GE Vernova Falls 4% as SoftBank’s Ohio Data Center Undergoes “A Thorough Reassessment”](https://finnhub.io/api/news?id=935af7772999bfda72f511a6c4fae4bf6dbdf2623a86a033858d57accbd434b3)**  
+*Yahoo · 15h前*  
+Key TakeawaysGE Vernova fell 4% today after SoftBank booked a $3. 7 billion charge on power equipment for its US data center sites.
 
-- **[OKLO Stock Is On Track To Reverse 6 Weeks Of Losses, But This Analyst Warns Nuclear Euphoria Is Fading](https://finnhub.io/api/news?id=e55946f2f706c4b29dbc4cd7d032470a4a6486b47ae5174df8c05543dcb6558c)**  
-*Yahoo · 21h前*  
-OKLO stock is headed higher on strong third-quarter earnings and a manufacturing agreement with U.S. Forged Rings to support the long-term deployment of its Aur…
+- **[These Nuclear Energy Stocks Are Top Of The Class For November 2026](https://finnhub.io/api/news?id=a20ec829abbd494bbc1db1823b65adfc2b4117544bcbd5206a6af7a6000d89dd)**  
+*Yahoo · 19h前*  
+China plans to spend about US$940b on low carbon power and grid upgrades in 2026, and nuclear energy sits right in that conversation about reliable electricity.…
 
-- **[Should You Buy Oklo Stock While It's Under $30?](https://finnhub.io/api/news?id=2720e2a63115c5b0c893e3e39e2064a0c6dbbc2bdc790fd23fc698497e6e00c8)**  
-*Yahoo · 1d前*  
-The energy stock has been in free fall this year.
+- **[Oklo Soars 14% in a Week on a Narrower Loss and a Deal for 27 Reactors’ Worth of Forgings](https://finnhub.io/api/news?id=ee4daba3cd711da95f5e01162196019bfb9f35e226a38d515ab0682c69625a29)**  
+*Yahoo · 23h前*  
+Key TakeawaysOklo stock rose 14% in the week to Nov. 9 on a narrower third-quarter loss and a forging deal for 27 reactors.
 
 ---
 
@@ -58,4 +59,4 @@ The energy stock has been in free fall this year.
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
