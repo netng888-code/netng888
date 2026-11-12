@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Rocket Lab CEO Says It Could Be ‘Extremely Profitable’ Without Neutron — But SpaceX Is Not The Only Reason It’s Building The Rocket](https://finnhub.io/api/news?id=00825287888f16048a30aa90a43e771a6859f881935a0f719f60cb7a897b98fa)**  
+*Yahoo · 11h前*  
+Even if SpaceX launches for less, Beck wants to reserve half of Neutron’s capacity over time for Rocket Lab’s own missions.
+
 - **[Stock Market Today, Nov. 11: SpaceX Shares Slip Amid Upcoming Starship Test Flight Jitters](https://finnhub.io/api/news?id=d7aa37fa8e9996c9c6fdad842d490c6764a024973e1e2a196e6e1557f9842a83)**  
-*Yahoo · 3h前*  
+*Yahoo · 14h前*  
 Today, Nov. 11, 2026, SpaceX's stock finished lower ahead of Friday's planned Starship launch.
 
-- **[RKLB Stock Price Forecast: How Much Upside Do Analysts See Post-Q3 Earnings?](https://finnhub.io/api/news?id=20661a89f5537d15d6f78d4758420c16f25a6d454838b9ee3c0a5d9b2018af09)**  
-*Yahoo · 4h前*  
-U.S.-based aerospace company Rocket Lab USA (RKLB) reported an EPS loss of $0.12, missing analysts’ estimate of a $0.07 loss. However, revenue jumped 73% year-o…
-
-- **[Piper Sandler Sees 13% Downside in Rocket Lab Even After a Record Quarter](https://finnhub.io/api/news?id=84bf982c2a798473cb9fd15ee84b7fc62b5a78ac865f4214d113447884c7c087)**  
-*Yahoo · 4h前*  
-Key TakeawaysPiper Sandler kept its Neutral rating on Rocket Lab and cut its price target to $58 from $83. That target is 13% below the stock’s price.
+- **[Rocket Lab: Strong Buy As Neutron Gives Investors More Reasons To Be Bullish](https://finnhub.io/api/news?id=6ab125f9af4e6c21f50a4944d8db7548e4dae464e176ae9cec0cce880360ba56)**  
+*SeekingAlpha · 14h前*  
+Rocket Lab is rated Strong Buy: Q3 revenue hit $267.8 million, and backlog reached $3.57 billion; Neutron slips to 2027. See more on RKLB stock.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysPiper Sandler kept its Neutral rating on Rocket Lab and cut its pri
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:05 HKT*
