@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 Possible Paths Forward for AI Stocks (Bull Case, Bear Case, Base Case) -- and How to Invest for Each](https://finnhub.io/api/news?id=3f8f6dede083fdf64b33c3845bc74dd1fc5b0addc890208e0bdc81da8268d8cc)**  
-*Yahoo · 6h前*  
-No matter how you feel about AI stocks, there is room for optimism about the future of the stock market.
+- **[Who are Europe’s startup alternatives to Palantir?](https://finnhub.io/api/news?id=8f6f5839282509b1671235cd2cd896f1ccf13666872c9375c3b66fd4bb04040c)**  
+*Yahoo · 1h前*  
+Europe’s desire for tech sovereignty is giving homegrown startups a chance at contracts held by US suppliers, and Palantir is a key target for disruption. On We…
 
-- **[Helsing debuts Clarity military AI to challenge Palantir in Europe](https://finnhub.io/api/news?id=bd59a19f4fa059d208e7eef807ee2b26840b85f5c1bb613ffe10742b1e61be0e)**  
-*Yahoo · 9h前*  
-Investing.com -- Helsing GmbH has unveiled an artificial intelligence platform designed to process battlefield data in seconds, positioning the German defense c…
+- **[ETFs Are Buying Palantir (PLTR) on Tuesday](https://finnhub.io/api/news?id=219b39c638a68413153bcf32144d2f3160db72821ee2307d70ce825c39eda3c8)**  
+*Yahoo · 2h前*  
+ETFs bought $65.5 million of Palantir stock on Tuesday, Nov. 10.
 
-- **[One Investor Says Anthropic Would Cost “Less Than Palantir on Sales.” That’s a Problem for Palantir](https://finnhub.io/api/news?id=375c815cb927a6efd906160b0a560351f1d1d3fbf123040e5a767e8185fdc587)**  
-*Yahoo · 9h前*  
-Key TakeawaysAnthropic set its IPO range at $70 to $78 a share. One investor on Reddit works that out to 35x to 39x trailing sales, compared with 53x for Palant…
+- **[Palantir Grew Revenue 96%. The Stock Fell 5%. Here's What I'm Doing.](https://finnhub.io/api/news?id=14faac155e22780b89a1e90afe99212f74c26ed506f94e583792dacf420d03e2)**  
+*Yahoo · 3h前*  
+Palantir's stock is very pricey.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysAnthropic set its IPO range at $70 to $78 a share. One investor on 
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:05 HKT*
