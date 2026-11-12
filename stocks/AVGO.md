@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$345.22** |
-| 今日變動 | ▲ $13.24　(+3.99%) |
+| 現價 | **$364.36** |
+| 今日變動 | ▲ $19.14　(+5.54%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $334　(▼8.8%) |
+| 未實現盈虧 | ▼ $142　(▼3.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $340.14 | — |
-| Put Wall（支撐） | $340.00 | -1.5% |
-| Call Wall（阻力） | $350.00 | +1.4% |
+| Gamma Flip | $342.23 | — |
+| Put Wall（支撐） | $350.00 | -3.9% |
+| Call Wall（阻力） | $400.00 | +9.8% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nvidia CEO Exit Reports Sends Shockwaves Through AI Chip Stocks --  AMD and Broadcom Stocks Jump](https://finnhub.io/api/news?id=730caf34cba65a93b679925f0a06b138b5c37ac65f155a9ff8bb6b5f6e3d6ef4)**  
+- **[S&P 500 Recovered $1 Trillion in 90 Minutes Despite Wider Market Crash](https://finnhub.io/api/news?id=e9d62ca4f64b0199f2062265b9aa4d9255ec8f18f1511c411e103638e5a16ff9)**  
 *Yahoo · 1h前*  
-Nvidia's Leadership Drama Opens Door for AMD, Broadcom and Google's AI Chips
+The S&P 500 erased early losses as $1 trillion returned to US stocks. See the key levels on the path to a record high.
 
-- **[Nvidia, Dell, Super Micro, Sandisk, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=0eaefc71f2790e079e92514ad21c87a8095b7b18841531ba7a8308c402955ede)**  
-*Yahoo · 1h前*  
-Nvidia and other stocks tumble as reports of a leadership crisis at the chip maker dent the AI trade.
+- **[Analog Devices Vs NVIDIA: Which Stock Is The Better Buy?](https://finnhub.io/api/news?id=4e4fd9732c697cabdcd5b4b374e60ffe898ed1330e34cd8d2aa671a4503e4614)**  
+*Yahoo · 2h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Why Has Ark Invest Repeatedly Added to Broadcom (AVGO)? Its Big Ideas Report Offers a Clue](https://finnhub.io/api/news?id=f4710a2df5a4f0904b9f0bba4b69d952808d38adc70311e2739a63e63ad7839b)**  
-*Yahoo · 1h前*  
-We just published the list of the 10 Best Growth Stocks to Buy for the Next Decade, and Broadcom (NASDAQ:AVGO) ranks 7th on it. On November 5, the S&P 500 fell …
+- **[Why Broadcom Stock Rallied Thursday Morning](https://finnhub.io/api/news?id=a46fb39d55b54266e76b9309d454d6035ed336638f521564f117354800c20242)**  
+*Yahoo · 2h前*  
+Nvidia's CEO is out. That might represent an opportunity for the alternative chipmaker.
 
 ---
 
@@ -48,7 +48,7 @@ We just published the list of the 10 Best Growth Stocks to Buy for the Next Deca
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-12 | 監控 | $345.22 | — | 自動更新 |
+| 2026-11-13 | 監控 | $364.36 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ We just published the list of the 10 Best Growth Stocks to Buy for the Next Deca
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
