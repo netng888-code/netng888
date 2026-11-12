@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-12 09:47 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Directors Reportedly Consider Ousting CEO Jensen Huang, WSJ Reports](https://finnhub.io/api/news?id=1e793578e568123606a1dba9e23dcb0b7bd1782b4c32c2fe5131b9884b13917d)**  
+- **[Nvidia's $164 billion AI strategy faces an unexpected threat](https://finnhub.io/api/news?id=626babc9d94e6e6c03698a3c2f7f218140e6509dbcc716af88d2b6a6b74350dc)**  
 *Yahoo · 1h前*  
-AI chipmaker Nvidia (NASDAQ: $NVDA) is preparing to oust founder and CEO Jensen Huang after reports that he had two...
+Investors worry a leadership change could disrupt Nvidia's financial support for AI infrastructure projects and its long-term strategy.
 
-- **[Nvidia sinks after report implicates CEO Jensen Huang in 2nd affair](https://finnhub.io/api/news?id=662fac808e5b9135fda0044b0cb23b925a9a75eea16b7433eb00a6b66f7dda91)**  
+- **[Dow Jones Futures: Techs Fall As Nvidia Board Mulls Ousting CEO Jensen Huang](https://finnhub.io/api/news?id=115e1d4bb0f4ce443fda8f7dad6e09cab5193b536c24c3d6a9e0591eca37de48)**  
 *Yahoo · 1h前*  
-Shares in Nvidia sank Wednesday night after the New York Times reported CEO Jensen Huang had a second affair with a senior executive who reports to him.
+Techs fell as Nvidia dived on news that it may oust CEO Jensen Huang. AMD extended gains. Will the Nvidia woes sink the new market rally?
 
-- **[Nvidia's stock dives as board weighs move to oust Jensen Huang](https://finnhub.io/api/news?id=2411578ee09832557fc1387c6f2181677be979b7b64e1ced2e6a1e0e00fa567c)**  
+- **[Nvidia shares plunge as spy scandal threatens chief executive](https://finnhub.io/api/news?id=14dd88eadc2e973244b78171c883ca1368a84c10aae73135dcd1b239d7d88c74)**  
 *Yahoo · 1h前*  
-Nvidia shares fall sharply in after-hours trading as the company's board considers whether to remove Jensen Huang as CEO.
+Jensen Huang could be ousted from the company he co-founded after an affair with an alleged Chinese spy
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia shares fall sharply in after-hours trading as the company's board conside
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:47 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:04 HKT*
