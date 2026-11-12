@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 09:47 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$154.39** |
-| 今日變動 | ▼ $0.21　(-0.14%) |
+| 現價 | **$168.80** |
+| 今日變動 | ▲ $14.41　(+9.33%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $720　(▼40.0%) |
+| 未實現盈虧 | ▼ $620　(▼34.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $209.80 | — |
-| Put Wall（支撐） | $150.00 | -2.8% |
-| Call Wall（阻力） | $160.00 | +3.6% |
+| Gamma Flip | $207.56 | — |
+| Put Wall（支撐） | $160.00 | -5.2% |
+| Call Wall（阻力） | $170.00 | +0.7% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Marvell (MRVL) Sees $222.6 Million in Net ETF Buying on Monday](https://finnhub.io/api/news?id=cb9901028e7ef5d5d4f2fea2d3312199c6d0a68ba221a8b0066c31bfead60ddb)**  
-*Yahoo · 2h前*  
-ETFs bought $222.6 million of Marvell (MRVL) shares on Monday, Nov. 9.
+- **[Jensen Huang’s Shattered Credibility](https://finnhub.io/api/news?id=21c16546459393154b61bdaf6a40306e7c0bafcfd3b7ec4d97c4ce1c990ab005)**  
+*Yahoo · 3h前*  
+The Nvidia chief has lost his most powerful weapon: his word.
 
-- **[Cigna Group Targets $45 EPS by 2030 as Specialty Growth Offsets Pharmacy Headwinds](https://finnhub.io/api/news?id=76e40854f16ca0e909869eabdc4a520647fbed41c7f144d3c6984e41ed554102)**  
+- **[Marvell Acquires Lumentum in Blockbuster $80 Billion Deal](https://finnhub.io/api/news?id=d4bd92908d146b4356e44b56a87682db36c2216bbc72c1a5c246cb4cb799f9a3)**  
 *Yahoo · 5h前*  
-Cigna Group (NYSE:CI) expects its specialty business to account for a larger share of earnings by 2030, as the company pursues a long-term growth target and pre…
+There has been no shortage of news these last few weeks coming out of the memory and optics sectors in regards to AI investing. Eric Bleeker and Austin Smith ar…
 
-- **[Credo and Lumentum Sink 14% in a Week as Democrats’ Sweep Hits AI Data Centers](https://finnhub.io/api/news?id=fce7999ef88a4c46a589cc234da14c147fbca00f8223138ad8bbe3a510eb63ec)**  
-*Yahoo · 10h前*  
-Key TakeawaysCredo Technology stock fell 14% in the past week after Democrats’ midterm sweep hit AI data center stocks, and Lumentum and Marvell fell with it. C…
+- **[S&P 500 Top Movers: Nov. 11, 2026 Session Gainers and Losers](https://finnhub.io/api/news?id=b6edd76c9f28a0250a1d0e93dd4e23366891419b67e1158365a3fb327561a645)**  
+*ChartMill · 5h前*  
+S&P 500 top movers for the Nov. 11, 2026 US session, including gainers SNDK, BE, MU, DELL and STX, and losers BF.B, ABNB, CLX, MSFT and LDOS.
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysCredo Technology stock fell 14% in the past week after Democrats’
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-11 | 監控 | $154.39 | — | 自動更新 |
+| 2026-11-12 | 監控 | $168.80 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysCredo Technology stock fell 14% in the past week after Democrats’
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 09:47 HKT*
