@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 09:47 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$641.39** |
-| 今日變動 | ▲ $0.02　(+0.00%) |
+| 現價 | **$628.77** |
+| 今日變動 | ▼ $12.62　(-1.97%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $105　(▲5.8%) |
+| 未實現盈虧 | ▲ $67　(▲3.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $620.36 | — |
-| Put Wall（支撐） | $600.00 | -6.5% |
-| Call Wall（阻力） | $700.00 | +9.1% |
+| Gamma Flip | $619.05 | — |
+| Put Wall（支撐） | $600.00 | -4.6% |
+| Call Wall（阻力） | $700.00 | +11.3% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[State Street Comm Services SPDR (XLC) Sells $29.9 Million of Meta on Monday](https://finnhub.io/api/news?id=8bc6a80a3287fc7684867f88cd30cd338ec7eacfbd39119fd67309cc2627cc2b)**  
-*Yahoo · 1h前*  
-The $22.12 billion fund sold $139.5 million of stock and bought nothing, cutting all 22 of its positions.
-
-- **[‘This Whole Thing’s Crumbling’: Scott Galloway Says AI Capex Now Rests on Just 2 Companies and Feels Exactly Like 1999](https://finnhub.io/api/news?id=e2e50a0e3450471f91daa5e4fb63cecd9a3b1fd3db52e9ac381a59bade4e4013)**  
+- **[Meta Platforms (META) Braces For EU Rules With 6% Revenue Penalty Risk](https://finnhub.io/api/news?id=4b64b204118cba523b53ba2318eca3ab53e88eaa9d61fd815e1f9f56cbecd210)**  
 *Yahoo · 2h前*  
-Building an AI empire takes an extraordinary amount of computing power. Finding enough customers to pay for it might be the harder part. New York University pro…
+Meta Platforms (NasdaqGS:META) faces new EU rules that target addictive social media features and simulated AI relationships, with potential fines of up to 6% o…
 
-- **[Hims & Hers Health Faces Expanded FTC Lawsuit Over Privacy, Billing Practices](https://finnhub.io/api/news?id=0476a57ed1b1d5e5175993dddacaa372b4b555e561731f347d389e02b561f5bb)**  
+- **[Hugging Face co-founder says AI hacks show even the biggest labs haven't figured out AI alignment](https://finnhub.io/api/news?id=8d0d2feb72798790606b29b9f0b84c66c519f56ca616d297445fa9347d1a7bbe)**  
 *Yahoo · 3h前*  
-The Federal Trade Commission (FTC) said Wednesday it has amended its lawsuit against Hims & Hers Hea
+Hugging Face cofounder Thomas Wolf says AI alignment is a key issue the company is focusing on following OpenAI hack.
+
+- **[FIS to Present at Upcoming Conference](https://finnhub.io/api/news?id=a8327829ad956bddd035ca2bdc8395e77acf29d0545c7f2d9065b2eeb1bbb2da)**  
+*Yahoo · 4h前*  
+JACKSONVILLE, Fla., November 11, 2026--FIS® (NYSE: FIS), a global leader in financial technology, will present on Thursday, November 12th at the KBW Fintech Eco…
 
 ---
 
@@ -48,7 +48,7 @@ The Federal Trade Commission (FTC) said Wednesday it has amended its lawsuit aga
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-11 | 監控 | $641.39 | — | 自動更新 |
+| 2026-11-12 | 監控 | $628.77 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The Federal Trade Commission (FTC) said Wednesday it has amended its lawsuit aga
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 09:47 HKT*
