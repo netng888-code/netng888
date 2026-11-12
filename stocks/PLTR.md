@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-12 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$172.40** |
-| 今日變動 | ▲ $3.58　(+2.12%) |
+| 現價 | **$171.58** |
+| 今日變動 | ▼ $0.82　(-0.48%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $271　(▲35.4%) |
+| 未實現盈虧 | ▲ $266　(▲34.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $159.68 | — |
-| Put Wall（支撐） | $160.00 | -7.2% |
-| Call Wall（阻力） | $180.00 | +4.4% |
+| Gamma Flip | $160.57 | — |
+| Put Wall（支撐） | $170.00 | -0.9% |
+| Call Wall（阻力） | $175.00 | +2.0% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Who are Europe’s startup alternatives to Palantir?](https://finnhub.io/api/news?id=8f6f5839282509b1671235cd2cd896f1ccf13666872c9375c3b66fd4bb04040c)**  
-*Yahoo · 1h前*  
-Europe’s desire for tech sovereignty is giving homegrown startups a chance at contracts held by US suppliers, and Palantir is a key target for disruption. On We…
+- **[Defense Tech: Investors and Operators, 6th Palm Beach CorpGov Forum](https://finnhub.io/api/news?id=10fb1aa2e797562503b2c59466adb3cab0077850721089858e801fe0cd34ecaa)**  
+*Yahoo · 4h前*  
+CorpGov hosted the sixth annual Palm Beach CorpGov Forum on Nov. 4-5, 2026, at the Palm Beach Lake Pavilion and The Cove Club, both located waterfront with swee…
 
-- **[ETFs Are Buying Palantir (PLTR) on Tuesday](https://finnhub.io/api/news?id=219b39c638a68413153bcf32144d2f3160db72821ee2307d70ce825c39eda3c8)**  
-*Yahoo · 2h前*  
-ETFs bought $65.5 million of Palantir stock on Tuesday, Nov. 10.
+- **[Palantir (PLTR) Faces A European Rival In Defense AI](https://finnhub.io/api/news?id=c617f35a2078862bce02cb9014f4102855509466d683d17d1ddabb6199417c30)**  
+*Yahoo · 4h前*  
+Palantir Technologies (NasdaqGS:PLTR) faces fresh European competition as Helsing GmbH unveils its Clarity AI defense platform. Clarity is being introduced as a…
 
-- **[Palantir Grew Revenue 96%. The Stock Fell 5%. Here's What I'm Doing.](https://finnhub.io/api/news?id=14faac155e22780b89a1e90afe99212f74c26ed506f94e583792dacf420d03e2)**  
-*Yahoo · 3h前*  
-Palantir's stock is very pricey.
+- **[Palantir’s Growth Story Could Be Just Getting Started](https://finnhub.io/api/news?id=e131fb867fdb6fcb81600962a8fefd5f44cc85f901e0d679dd7e431489db705f)**  
+*Yahoo · 6h前*  
+Palantir just posted the fastest growth in its public history, yet shares dropped over 20% in a week. Behind the selloff sit a puzzling bookings number, rising …
 
 ---
 
@@ -48,7 +48,7 @@ Palantir's stock is very pricey.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-12 | 監控 | $172.40 | — | 自動更新 |
+| 2026-11-13 | 監控 | $171.58 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir's stock is very pricey.
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
