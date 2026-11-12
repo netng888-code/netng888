@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-12 09:47 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jensen Huang’s Shattered Credibility](https://finnhub.io/api/news?id=21c16546459393154b61bdaf6a40306e7c0bafcfd3b7ec4d97c4ce1c990ab005)**  
-*Yahoo · 3h前*  
-The Nvidia chief has lost his most powerful weapon: his word.
+- **[Nvidia, Dell, Super Micro, Sandisk, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=0eaefc71f2790e079e92514ad21c87a8095b7b18841531ba7a8308c402955ede)**  
+*Yahoo · 1h前*  
+Nvidia and other stocks tumble as reports of a leadership crisis at the chip maker dent the AI trade.
 
-- **[Marvell Acquires Lumentum in Blockbuster $80 Billion Deal](https://finnhub.io/api/news?id=d4bd92908d146b4356e44b56a87682db36c2216bbc72c1a5c246cb4cb799f9a3)**  
-*Yahoo · 5h前*  
-There has been no shortage of news these last few weeks coming out of the memory and optics sectors in regards to AI investing. Eric Bleeker and Austin Smith ar…
+- **[Weak SpaceX Stock Is Complicating Elon Musk’s Merger Math](https://finnhub.io/api/news?id=5f11b52e4d8520cc5360e83512bb7c0d1506b2972921b743d7b717370638cedc)**  
+*Yahoo · 1h前*  
+What percentage each shareholder base would have in a Tesla-SpaceX merger isn’t an easy question to answer.
 
-- **[S&P 500 Top Movers: Nov. 11, 2026 Session Gainers and Losers](https://finnhub.io/api/news?id=b6edd76c9f28a0250a1d0e93dd4e23366891419b67e1158365a3fb327561a645)**  
+- **[Stock Market Today: CoreWeave (CRWV) Reignites the AI Trade, Then Nvidia’s (NVDA) Boardroom Takes Over the Story](https://finnhub.io/api/news?id=be813dc75e05c53c78c607bd19f1247dd4df8998b9c835176607ad77de1bf268)**  
 *ChartMill · 5h前*  
-S&P 500 top movers for the Nov. 11, 2026 US session, including gainers SNDK, BE, MU, DELL and STX, and losers BF.B, ABNB, CLX, MSFT and LDOS.
+CoreWeave’s strong quarter sent AI and chip stocks sharply higher, but a report that Nvidia’s board is preparing to remove CEO Jensen Huang hit the stock after …
 
 ---
 
@@ -59,4 +59,4 @@ S&P 500 top movers for the Nov. 11, 2026 US session, including gainers SNDK, BE,
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:47 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:04 HKT*
