@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$450.04** |
-| 今日變動 | ▼ $10.52　(-2.28%) |
+| 現價 | **$449.53** |
+| 今日變動 | ▼ $0.51　(-0.11%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $6　(▼0.7%) |
+| 未實現盈虧 | ▼ $7　(▼0.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $419.06 | — |
-| Put Wall（支撐） | $440.00 | -2.2% |
-| Call Wall（阻力） | $480.00 | +6.7% |
+| Gamma Flip | $420.11 | — |
+| Put Wall（支撐） | $440.00 | -2.1% |
+| Call Wall（阻力） | $450.00 | +0.1% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical (ISRG) Dropped, So What Is Driving Attention Now?](https://finnhub.io/api/news?id=b6bcd60aee0e4aafad1ff2be9ef23ec6fb1e8ec7c3684dd362fd6c43a251b136)**  
-*Yahoo · 3h前*  
-Intuitive Surgical (ISRG) is back in focus after fresh quarterly results showed 22% revenue growth, rising use of its da Vinci 5 and Ion systems, and a sizable …
+- **[Is Intuitive Surgical (ISRG) a Solid Growth Stock? 3 Reasons to Think "Yes"](https://finnhub.io/api/news?id=8b07355a6fa6d4a698a08c2b10afdaa350eae8d2816991f04bc94883c98a5bf6)**  
+*Yahoo · 9h前*  
+Intuitive Surgical (ISRG) could produce exceptional returns because of its solid growth attributes.
 
-- **[Intuitive Surgical (ISRG) Stock Fair Value Edges Higher After Mixed Q3 Analyst Revisions](https://finnhub.io/api/news?id=cb74e74a205c6aec29053fed3f85c9664fe76688c4518cdb953945f3e7de68e0)**  
-*Yahoo · 12h前*  
-Intuitive Surgical is back on many investors’ radar after a fresh tweak to its fair value estimate, which has shifted from about US$476.34 to roughly US$486.57 …
+- **[ALC's Q3 Earnings Beat, Revenues Miss, '26 Outlook Narrows, Stock Down](https://finnhub.io/api/news?id=1fb8db014faf0370433d03d2354152ba2953646ef38fa8b85491c0ce0c734ee7)**  
+*Yahoo · 9h前*  
+Alcon's Q3 earnings top estimates as sales miss, margins expand and 2026 growth targets narrow; shares slip after the report.
 
-- **[GEHC Expands Vscan Air AI Capabilities With Lung Guidance & AutoAS](https://finnhub.io/api/news?id=adf402b6822ad408d7f965b517380ff38d462dbe9ef17447a302ccfa37f2327b)**  
-*Yahoo · 19h前*  
-GE HealthCare expands Vscan Air's AI capabilities with Lung Guidance and AutoAS, enhancing cardiopulmonary assessments and point-of-care diagnostic support.
+- **[Here's Why You Should Retain INSP Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=8215f97049889a73f5b63787e064bb8d6ea2dbd8af224fd32dcde39a5066598b)**  
+*Yahoo · 9h前*  
+Inspire Medical's strong Inspire V adoption, improving reimbursement clarity and patient access initiatives support growth despite near-term headwinds.
 
 ---
 
@@ -48,7 +48,7 @@ GE HealthCare expands Vscan Air's AI capabilities with Lung Guidance and AutoAS,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-11 | 監控 | $450.04 | — | 自動更新 |
+| 2026-11-12 | 監控 | $449.53 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ GE HealthCare expands Vscan Air's AI capabilities with Lung Guidance and AutoAS,
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
