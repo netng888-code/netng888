@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-12 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$66.15** |
-| 今日變動 | ▲ $3.44　(+5.49%) |
+| 現價 | **$64.07** |
+| 今日變動 | ▼ $2.08　(-3.14%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $98　(▼13.0%) |
+| 未實現盈虧 | ▼ $119　(▼15.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $57.63 | — |
-| Put Wall（支撐） | $60.00 | -9.3% |
-| Call Wall（阻力） | $70.00 | +5.8% |
+| Gamma Flip | $59.49 | — |
+| Put Wall（支撐） | $60.00 | -6.4% |
+| Call Wall（阻力） | $65.00 | +1.5% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Rocket Lab CEO Says It Could Be ‘Extremely Profitable’ Without Neutron — But SpaceX Is Not The Only Reason It’s Building The Rocket](https://finnhub.io/api/news?id=00825287888f16048a30aa90a43e771a6859f881935a0f719f60cb7a897b98fa)**  
-*Yahoo · 11h前*  
-Even if SpaceX launches for less, Beck wants to reserve half of Neutron’s capacity over time for Rocket Lab’s own missions.
+- **[Rocket Lab’s Neutron Slips To 2027. Its Stock Still Ripped Anyway.](https://finnhub.io/api/news?id=5394f5c49695b1e145e0ee21beef5d3a3186cee2834e479c221ba8af3b810c4d)**  
+*Yahoo · 4h前*  
+Wall Street Forgives Rocket Lab’s Broken Fuel Tank And Then Some.
 
-- **[Stock Market Today, Nov. 11: SpaceX Shares Slip Amid Upcoming Starship Test Flight Jitters](https://finnhub.io/api/news?id=d7aa37fa8e9996c9c6fdad842d490c6764a024973e1e2a196e6e1557f9842a83)**  
-*Yahoo · 14h前*  
-Today, Nov. 11, 2026, SpaceX's stock finished lower ahead of Friday's planned Starship launch.
+- **[Should I Buy Rocket Lab Stock Now?](https://finnhub.io/api/news?id=bb4d517e4a710a33e2e5b1453857124c24c3586e3f21cb8cbc4829661bbb525d)**  
+*Yahoo · 7h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Rocket Lab: Strong Buy As Neutron Gives Investors More Reasons To Be Bullish](https://finnhub.io/api/news?id=6ab125f9af4e6c21f50a4944d8db7548e4dae464e176ae9cec0cce880360ba56)**  
-*SeekingAlpha · 14h前*  
-Rocket Lab is rated Strong Buy: Q3 revenue hit $267.8 million, and backlog reached $3.57 billion; Neutron slips to 2027. See more on RKLB stock.
+- **[Intuitive Machines Surges 16% on Record Quarter and Positive Free Cash Flow; AST SpaceMobile Falls 3%, Rocket Lab Slips 2%](https://finnhub.io/api/news?id=4c28c7ca8c195ef512f8c11639e570913bef69c99789c3e3eb323d3bd141aa82)**  
+*Yahoo · 8h前*  
+While its space peers sink with the rest of the growth trade, one lunar contractor posts a record quarter that bulls and skeptics read in opposite ways. What hi…
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab is rated Strong Buy: Q3 revenue hit $267.8 million, and backlog reach
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-12 | 監控 | $66.15 | — | 自動更新 |
+| 2026-11-13 | 監控 | $64.07 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab is rated Strong Buy: Q3 revenue hit $267.8 million, and backlog reach
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
