@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Is Intuitive Surgical (ISRG) a Solid Growth Stock? 3 Reasons to Think "Yes"](https://finnhub.io/api/news?id=8b07355a6fa6d4a698a08c2b10afdaa350eae8d2816991f04bc94883c98a5bf6)**  
-*Yahoo · 9h前*  
+*Yahoo · 20h前*  
 Intuitive Surgical (ISRG) could produce exceptional returns because of its solid growth attributes.
 
 - **[ALC's Q3 Earnings Beat, Revenues Miss, '26 Outlook Narrows, Stock Down](https://finnhub.io/api/news?id=1fb8db014faf0370433d03d2354152ba2953646ef38fa8b85491c0ce0c734ee7)**  
-*Yahoo · 9h前*  
+*Yahoo · 20h前*  
 Alcon's Q3 earnings top estimates as sales miss, margins expand and 2026 growth targets narrow; shares slip after the report.
 
 - **[Here's Why You Should Retain INSP Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=8215f97049889a73f5b63787e064bb8d6ea2dbd8af224fd32dcde39a5066598b)**  
-*Yahoo · 9h前*  
+*Yahoo · 20h前*  
 Inspire Medical's strong Inspire V adoption, improving reimbursement clarity and patient access initiatives support growth despite near-term headwinds.
 
 ---
@@ -59,4 +59,4 @@ Inspire Medical's strong Inspire V adoption, improving reimbursement clarity and
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:05 HKT*
