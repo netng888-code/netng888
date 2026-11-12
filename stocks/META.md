@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-12 09:47 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Platforms (META) Braces For EU Rules With 6% Revenue Penalty Risk](https://finnhub.io/api/news?id=4b64b204118cba523b53ba2318eca3ab53e88eaa9d61fd815e1f9f56cbecd210)**  
-*Yahoo · 2h前*  
-Meta Platforms (NasdaqGS:META) faces new EU rules that target addictive social media features and simulated AI relationships, with potential fines of up to 6% o…
+- **[Pershing Square Calls Meta’s (META) Business Model “One of the Clearest Beneficiaries of AI Integration”](https://finnhub.io/api/news?id=fa82a053e137987b2fd05acaa505f6fcaede6d81a14aca58cb0e19b21993dd41)**  
+*Yahoo · 1h前*  
+We just published a list of the 10 Best Growth Stocks to Buy for the Next Decade and Meta Platforms (NASDAQ:META) ranked 6th on this list. On November 5, the S&…
 
-- **[Hugging Face co-founder says AI hacks show even the biggest labs haven't figured out AI alignment](https://finnhub.io/api/news?id=8d0d2feb72798790606b29b9f0b84c66c519f56ca616d297445fa9347d1a7bbe)**  
-*Yahoo · 3h前*  
-Hugging Face cofounder Thomas Wolf says AI alignment is a key issue the company is focusing on following OpenAI hack.
+- **[State Street SPDR Portfolio S&P 500 (SPYM) Buys $15.2 Million More Apple on Tuesday](https://finnhub.io/api/news?id=bb7d32495d91e09112da576a81ee29d775528078c339dcbc871bc305ba9bd0ca)**  
+*Yahoo · 1h前*  
+The fund added $196.0 million across 501 positions on Tuesday, with Apple, Nvidia and Microsoft leading the buys.
 
-- **[FIS to Present at Upcoming Conference](https://finnhub.io/api/news?id=a8327829ad956bddd035ca2bdc8395e77acf29d0545c7f2d9065b2eeb1bbb2da)**  
-*Yahoo · 4h前*  
-JACKSONVILLE, Fla., November 11, 2026--FIS® (NYSE: FIS), a global leader in financial technology, will present on Thursday, November 12th at the KBW Fintech Eco…
+- **[What State Street Comm Services SPDR (XLC) Bought: No Buys, META Sold on Tuesday](https://finnhub.io/api/news?id=9bd3f6648825a575abb9418d718992545d5e78c70b1f413dec5637633bed5048)**  
+*Yahoo · 1h前*  
+The $22.24 billion fund sold $221.5 million of stock in Tuesday's session, cutting 21 positions and adding none.
 
 ---
 
@@ -59,4 +59,4 @@ JACKSONVILLE, Fla., November 11, 2026--FIS® (NYSE: FIS), a global leader in fin
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:47 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:04 HKT*
