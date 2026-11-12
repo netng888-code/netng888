@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$58.13** |
-| 今日變動 | ▼ $1.24　(-2.09%) |
+| 現價 | **$62.50** |
+| 今日變動 | ▲ $4.37　(+7.52%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $489　(▼45.7%) |
+| 未實現盈虧 | ▼ $445　(▼41.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $60.52 | — |
-| Put Wall（支撐） | $55.00 | -5.4% |
-| Call Wall（阻力） | $60.00 | +3.2% |
+| Gamma Flip | $59.76 | — |
+| Put Wall（支撐） | $60.00 | -4.0% |
+| Call Wall（阻力） | $65.00 | +4.0% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[iShares PHLX SOX Semiconductor (SOXX) Buys $394.7 Million More AMD on Nov. 9](https://finnhub.io/api/news?id=ee45bf9288a8b6121a5258c419344caccf37d85468941664dc05b39ee212ecd3)**  
+- **[Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got Opposite Results](https://finnhub.io/api/news?id=fffb4e76d93a0e08167eea3a0746446c12793b434698c221801c4f9ecd1ac8ad)**  
 *Yahoo · 2h前*  
-The fund added $394.7 million of AMD and $315.3 million of Broadcom, with $3.66 billion in net buying across 29 increased positions.
+Nvidia's board is preparing to oust Jensen Huang, the Wall Street Journal reported, after a Times report of his relationship with executive Kimberly Powell; Nvi…
 
-- **[ETFs Bought $360.9 Million of Intel (INTC) on Nov. 9](https://finnhub.io/api/news?id=83d4056231bc1c0d11c20422deeaa55afe850bfdee5199850fc87f96b4e18574)**  
+- **[Stock Market Today, Nov. 11: Intel Climbs on Broader Chip Rally as AI Infrastructure Demand Lifts Semiconductor Stocks](https://finnhub.io/api/news?id=5775ee9f1287376cba33fcb8173fb8e9a0f9145346349f7677d1a575333a6c60)**  
 *Yahoo · 2h前*  
-ETFs bought $360.9 million of Intel stock, with 47 funds buying and 19 selling.
+Today, Nov. 11, 2026, Intel shares rallied as CoreWeave's stronger results reinforced AI chip demand across the semiconductor group.
 
-- **[“Demand Is Higher Than Supply”: AMD Has Ripped 141% in 2026. Is It Too Late to Buy?](https://finnhub.io/api/news?id=c9477d227322df478ff50752a32734c66cf11edc9e9e4ecc0fd4cf9febf07d54)**  
-*Yahoo · 5h前*  
-Key TakeawaysAMD stock is up 141% in 2026 on Meta’s 6-gigawatt GPU deal and back-to-back record quarters, though it’s still 21% below its October closing high. …
+- **[Stock Market Today, Nov. 11: Advanced Micro Devices Jumps -- and Not Only Because of CoreWeave's Results](https://finnhub.io/api/news?id=7195c819b4f2a74bca3f973ac14594dea12a4f9e6de7c2cb7706c41766f96fab)**  
+*Yahoo · 2h前*  
+On Nov. 11, 2026, shares climbed as investors weighed fresh signs of AI chip demand and what comes next for server growth.
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysAMD stock is up 141% in 2026 on Meta’s 6-gigawatt GPU deal and ba
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-11 | 監控 | $58.13 | — | 自動更新 |
+| 2026-11-12 | 監控 | $62.50 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysAMD stock is up 141% in 2026 on Meta’s 6-gigawatt GPU deal and ba
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
