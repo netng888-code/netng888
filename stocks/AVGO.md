@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 09:47 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$331.98** |
-| 今日變動 | ▲ $12.50　(+3.91%) |
+| 現價 | **$345.22** |
+| 今日變動 | ▲ $13.24　(+3.99%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $466　(▼12.3%) |
+| 未實現盈虧 | ▼ $334　(▼8.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $338.37 | — |
-| Put Wall（支撐） | $300.00 | -9.6% |
-| Call Wall（阻力） | $350.00 | +5.4% |
+| Gamma Flip | $340.14 | — |
+| Put Wall（支撐） | $340.00 | -1.5% |
+| Call Wall（阻力） | $350.00 | +1.4% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Latest News In AI Chips - Advancing Data Centers with AMD's New EPYC Processors](https://finnhub.io/api/news?id=833bd9b9346e48697ac6458a895076daf698945529ded29e3d7a3023c6196418)**  
-*Yahoo · 1h前*  
-Recent advancements in AI chip technology continue to reshape the landscape of data center computing, with AMD announcing the availability of its 6th Gen EPYC s…
+- **[S&P 500 After-Hours Movers: MNST, RDDT Among Gainers; VEEV, LLY Among Losers in Latest Session](https://finnhub.io/api/news?id=06de5c4551d7b705cba423430683dacc7cdf38df3419851f1401334c05734b82)**  
+*ChartMill · 3h前*  
+S&P 500 after-hours movers from the latest U.S. session include MNST and RDDT among gainers, while VEEV and LLY posted sharp after-hours declines.
 
-- **[What State Street Tech Select SPDR (XLK) Sold: Apple Leads on Nov. 9](https://finnhub.io/api/news?id=5694dd3f6ccbc633d5fe2f387ec1e09bbeea3489686d30ce985ca7e715528398)**  
-*Yahoo · 1h前*  
-The fund sold $136.7 million of stock, cutting all 76 positions and adding nothing new.
+- **[Cathie Wood, Brad Gerstner and 8 Other Big Funds Bought Cerebras. Is It a Buy Before Earnings?](https://finnhub.io/api/news?id=68f60a3ede1ca172a9ff4199fcbc654822ad3aeef0402c46f30c85662e8fe5ed)**  
+*Yahoo · 5h前*  
+Key TakeawaysCathie Wood’s ARK Invest, Brad Gerstner’s Altimeter Capital and eight other big funds reported new Cerebras stakes as of June 30, and the stock is …
 
-- **[US High Relative Profitability (DUHP) Adds Broadcom and Micron on Nov. 9](https://finnhub.io/api/news?id=08e739707fd6c3c576d9b2d5410f7b08569074fc95ae4dc35a9f0eff475f105b)**  
-*Yahoo · 1h前*  
-The fund bought $125.9 million more than it sold, lifting 75 positions and trimming 4.
+- **[Anthropic’s IPO Prospectus by the Head-Spinning Numbers](https://finnhub.io/api/news?id=09e76893412cb427fdcfea0bca7bc8c9bcf4678903f790c38246dfd90b99f939)**  
+*Yahoo · 5h前*  
+The AI lab’s initial public offering documents are packed with fantastic figures.
 
 ---
 
@@ -48,7 +48,7 @@ The fund bought $125.9 million more than it sold, lifting 75 positions and trimm
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-11 | 監控 | $331.98 | — | 自動更新 |
+| 2026-11-12 | 監控 | $345.22 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund bought $125.9 million more than it sold, lifting 75 positions and trimm
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 09:47 HKT*
