@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$8.25** |
-| 今日變動 | ▲ $0.07　(+0.86%) |
+| 現價 | **$8.44** |
+| 今日變動 | ▲ $0.19　(+2.30%) |
 | 持倉數量 | 200 股 |
 | 平均成本 | $12.458 |
-| 未實現盈虧 | ▼ $842　(▼33.8%) |
+| 未實現盈虧 | ▼ $804　(▼32.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $8.85 | — |
-| Put Wall（支撐） | $8.00 | -3.0% |
-| Call Wall（阻力） | $10.00 | +21.2% |
+| Gamma Flip | $8.74 | — |
+| Put Wall（支撐） | $8.00 | -5.2% |
+| Call Wall（阻力） | $10.00 | +18.5% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[European Equities Traded in the US as American Depositary Receipts Decline in Tuesday Trading](https://finnhub.io/api/news?id=78692d41c7a879fa680a93054a4d850653bfd1b1bc09213f4a18d54915d106a9)**  
-*Yahoo · 20h前*  
-European equities traded in the US as American depositary receipts were tracking lower late Tuesday
+- **[One New Zealand expands Nokia partnership to accelerate its autonomous networks transformation](https://finnhub.io/api/news?id=a4f3a48d321145930a8f2cc81fa71bfa81d4c1f767204fec6b4a99af19dae93d)**  
+*Yahoo · 4h前*  
+One New Zealand expands Nokia partnership to accelerate its autonomous networks transformation Agreement advances AI-native operations and network autonomy thro…
 
-- **[Nokia Oyj Transfers 847 057 Own Shares to Incentive Plan Participants](https://finnhub.io/api/news?id=18fcffc8984d5ee4a6dad8dfc80ccf4d38328ddb3bee3f7911b0349fa70ee6c8)**  
-*Fintel · 1d前*
+- **[Nokia vs. Verizon: Which Telecommunications Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=7fda6927e3716fca536623089971bafec6f1a2df8b7df82d88bf4f62927c111a)**  
+*Yahoo · 8h前*  
+Verizon commands massive cash flows but carries heavy debt; Nokia offers leaner finances but faces cyclical spending risks. Which profile suits your 2027 strate…
 
-- **[Jaggaer Advisor and Product Leader Recognized at SIG’s 2026 Future of Sourcing Awards](https://finnhub.io/api/news?id=8a20fb2081d8c087da598062aded46fd5275edb5fe0bc335c13305228898a2cf)**  
-*Yahoo · 1d前*  
-DURHAM, N.C., November 09, 2026--Jaggaer, a global leader in AI-powered source-to-pay and supplier collaboration, today announced a double win: Luc Broussaud, S…
+- **[Nokia’s Rebound Faces One Big Test Before the End of 2026](https://finnhub.io/api/news?id=eec0b09f0814d1008703d7562f54852bb9b8cda9989320dde87f203af917dd63)**  
+*Yahoo · 9h前*  
+Nokia clawed back from a brutal November slide, yet one price floor stands between the stock and a year-end revival. Record AI orders and a credit upgrade fuel …
 
 ---
 
@@ -47,7 +48,7 @@ DURHAM, N.C., November 09, 2026--Jaggaer, a global leader in AI-powered source-t
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-11 | 監控 | $8.25 | — | 自動更新 |
+| 2026-11-12 | 監控 | $8.44 | — | 自動更新 |
 
 ---
 
@@ -58,4 +59,4 @@ DURHAM, N.C., November 09, 2026--Jaggaer, a global leader in AI-powered source-t
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
