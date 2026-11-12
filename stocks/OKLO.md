@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Oklo Receives U.S. Department Of Energy For Final Operations Hold Point At Its Groves Isotope Test Reactor, Allowing Move Into Research, Testing, And Training Phase](https://finnhub.io/api/news?id=78a211834c15beb840b7bfe113cd25e933dda4c5c48644a3b58e1c2cb2ba0c0d)**  
-*Benzinga · 17h前*  
-With the facility cleared for unrestricted operations, Oklo will test its capabilities relevant to future isotope reactors and Oklo’s fast fission reactors, the…
+- **[Can Oklo (OKLO) Be Below Fair Value After Groves Progress?](https://finnhub.io/api/news?id=7bb5dcd4820162eaa90480ad6c7305a17078878387653f475b6d51fc590374b1)**  
+*Yahoo · 9h前*  
+Oklo has been volatile, with big gains over the past few years and fresh attention on its advanced nuclear projects. The obvious question now is whether the cur…
 
-- **[GE Vernova Falls 4% as SoftBank’s Ohio Data Center Undergoes “A Thorough Reassessment”](https://finnhub.io/api/news?id=935af7772999bfda72f511a6c4fae4bf6dbdf2623a86a033858d57accbd434b3)**  
-*Yahoo · 1d前*  
-Key TakeawaysGE Vernova fell 4% today after SoftBank booked a $3. 7 billion charge on power equipment for its US data center sites.
+- **[What Happened To NuScale Power Stock Over The Past Year?](https://finnhub.io/api/news?id=1d30615cb32f8a005742a84db16124f214367b655dfdbd1c139d5fa43480b2c1)**  
+*Yahoo · 11h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[These Nuclear Energy Stocks Are Top Of The Class For November 2026](https://finnhub.io/api/news?id=a20ec829abbd494bbc1db1823b65adfc2b4117544bcbd5206a6af7a6000d89dd)**  
-*Yahoo · 1d前*  
-China plans to spend about US$940b on low carbon power and grid upgrades in 2026, and nuclear energy sits right in that conversation about reliable electricity.…
+- **[GE Vernova’s Ontario Nuclear Plant Is Facing Delays And Rising Costs](https://finnhub.io/api/news?id=c7e1f3d82109d908059d93c2c104efacc828deede20a0780a34866de7a63c92f)**  
+*Yahoo · 13h前*  
+North America’s small modular nuclear reactor project in Ontario is encountering construction delays and cost overruns.
 
 ---
 
@@ -59,4 +59,4 @@ China plans to spend about US$940b on low carbon power and grid upgrades in 2026
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:04 HKT*
