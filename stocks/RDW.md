@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Redwire Scores Fresh US Army Deal to Support High-Stakes Drone Training Missions](https://finnhub.io/api/news?id=8fd80be30a70c7bc7817b7139a9d1ddcfc74f3f387046c49bb9f8d5b1670c3f5)**  
-*Benzinga · 15h前*  
-Redwire (RDW) stock rose after securing a U.S. Army drone order, adding to major contract wins with NASA and DARPA. Read more.
+- **[Redwire (RDW) Won A $40 Million NASA Moon Base Contract](https://finnhub.io/api/news?id=c74063cf38bb939518e99e60bb25b084066ddc9c3a333767e8d43516d18a8416)**  
+*Yahoo · 18h前*  
+Redwire (NYSE:RDW) secured a $40 million NASA contract to supply Roll-Out Solar Array technology for a planned Moon base. The award extends ROSA power systems f…
 
-- **[Redwire Receives Q3 FY2026 Follow On Order From 1st Aviation Brigade, US Army AVCOE, For Sustainment And Support Of AVCOE’s Fleet Of Combat Proven Stalker UAS](https://finnhub.io/api/news?id=6160903576de7635ed161ed6ddea87bc2897bd1e6c2494e342f1efd9388745fe)**  
-*Benzinga · 17h前*  
-Redwire Corporation (NYSE:RDW), a global leader in space and defense technology solutions, today announced it received a Q3 FY2026 follow on order from the 1st …
+- **[Redwire Secures New US Army Order For Stalker Drone Sustainment, Training Support – What Investors Need To Know](https://finnhub.io/api/news?id=897d855ec912827586e920d507b01c3067d92cd2142d3d4103c6df0f6be5f871)**  
+*Yahoo · 22h前*  
+The award follows a $15 million order from the same brigade in May, which Redwire said was its third AVCOE order in eight months.
 
-- **[Redwire: 3 Key Takeaways for Long-Term Investors](https://finnhub.io/api/news?id=b2e333545a53b4b26a1305d459d7496136c0747cbdd16c0f900ca5f85831772e)**  
-*Yahoo · 20h前*  
-Internal research spending of $14.4 million produced the ELSA solar array line, which already drew $27.8 million in contract awards in its first year.
+- **[Redwire Secures Follow‑On Order from U.S. Army AVCOE to Support Advanced Soldier Training on Mission-Ready Stalker UAS](https://finnhub.io/api/news?id=36ec3c315becba1c2da00ae36d59c36b18e5016d73413ae11ce9c4572412b6fd)**  
+*Yahoo · 1d前*  
+JACKSONVILLE, Fla., November 11, 2026--Redwire Corporation (NYSE: RDW), a global leader in space and defense technology solutions, today announced it received a…
 
 ---
 
@@ -59,4 +59,4 @@ Internal research spending of $14.4 million produced the ELSA solar array line, 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:04 HKT*
