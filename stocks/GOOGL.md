@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$293.45** |
-| 今日變動 | ▲ $6.07　(+2.11%) |
+| 現價 | **$298.70** |
+| 今日變動 | ▲ $5.25　(+1.79%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $968　(▲19.8%) |
+| 未實現盈虧 | ▲ $1,073　(▲21.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $293.48 | — |
-| Put Wall（支撐） | $290.00 | -1.2% |
-| Call Wall（阻力） | $300.00 | +2.2% |
+| Gamma Flip | $292.31 | — |
+| Put Wall（支撐） | $290.00 | -2.9% |
+| Call Wall（阻力） | $300.00 | +0.4% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[5 Best Growth Stocks to Buy for the Next Decade](https://finnhub.io/api/news?id=2192ae397c35dc1f91d891a2ad045489e8b098ee34cf7de416375cafcd94a1cc)**  
+- **[2 No-Brainer Warren Buffett Stocks to Buy in the Post-Election Market Sell-Off and Hold Forever](https://finnhub.io/api/news?id=ae04a92c68088971daa1da6c5a1be973dcf2f33db7d88a9ae10a0459aef98bdf)**  
 *Yahoo · 1h前*  
-On November 5, the S&P 500 fell 4.36%, its worst day since the April 2025 tariff crash, with roughly $3 trillion in value wiped off S&P 500 companies. The Nasda…
+As Buffett once said, it’s important to be greedy while others are fearful.
 
-- **[SpaceX's IPO reveals a $19 billion opportunity for Anthropic](https://finnhub.io/api/news?id=d398a0651e2a7113804cd7726de2d631b27a285c3c61a2a45adb6d296263a92f)**  
+- **[AI Debt Binge Hits a Wall As Global Bond Markets Reach Saturation Point, Wells Fargo Warns](https://finnhub.io/api/news?id=9cc5160a2ebbc741b7bb755b0106c2e460c494be74f1523adbd24f7348b85482)**  
 *Yahoo · 1h前*  
-The Claude developer's planned IPO could follow SpaceX's market debut, with index funds expected to drive substantial early buying.
+Wells Fargo warns that massive corporate borrowing to fund AI infrastructure is straining the $15 trillion investment-grade bond market, and investors are pushi…
 
-- **[Google parent draws $5 billion in orders for AI debt sale](https://finnhub.io/api/news?id=73bdc9d4f10bf2ec95917a945e7dca8e117eb55307bbac0cf4b79771e2eb3774)**  
+- **[Billionaire investor Bill Ackman on why he's staying bullish on Netflix](https://finnhub.io/api/news?id=494d53ce91bfa517de80779ecf12199e5fd5bcbbd9d8ae3626526155046f25ff)**  
 *Yahoo · 1h前*  
-The Google parent is tapping Asian debt markets through seven bond tranches, with HSBC and JPMorgan coordinating the offerings.
+An impassioned defense of Netflix from one of its highest profile investors.
 
 ---
 
@@ -48,7 +48,7 @@ The Google parent is tapping Asian debt markets through seven bond tranches, wit
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-12 | 監控 | $293.45 | — | 自動更新 |
+| 2026-11-13 | 監控 | $298.70 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The Google parent is tapping Asian debt markets through seven bond tranches, wit
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 07:03 HKT*
