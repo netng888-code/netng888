@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got Opposite Results](https://finnhub.io/api/news?id=fffb4e76d93a0e08167eea3a0746446c12793b434698c221801c4f9ecd1ac8ad)**  
-*Yahoo · 2h前*  
-Nvidia's board is preparing to oust Jensen Huang, the Wall Street Journal reported, after a Times report of his relationship with executive Kimberly Powell; Nvi…
+- **[AMD's AI Sales Set to Overtake Server CPUs, William Blair Says](https://finnhub.io/api/news?id=cd86d2815bc2e1e201f46cceae23726bf0e46cdf1becb303896d357e2c939951)**  
+*Yahoo · 1h前*  
+AMD's valuation multiple now sits near its three-year forward median
 
-- **[Stock Market Today, Nov. 11: Intel Climbs on Broader Chip Rally as AI Infrastructure Demand Lifts Semiconductor Stocks](https://finnhub.io/api/news?id=5775ee9f1287376cba33fcb8173fb8e9a0f9145346349f7677d1a575333a6c60)**  
+- **[NVDA Turmoil Weighs On Nasdaq Futures — INTC, BABA, NBIS, ONDS In Focus](https://finnhub.io/api/news?id=4ca9442221563252cf7a789351a56ae04254986dfd260bdb64fafb9b0da067e1)**  
 *Yahoo · 2h前*  
-Today, Nov. 11, 2026, Intel shares rallied as CoreWeave's stronger results reinforced AI chip demand across the semiconductor group.
+Investors are navigating a mix of corporate uncertainty and fresh earnings catalysts on Thursday, as reports about Nvidia’s leadership and personal controversie…
 
-- **[Stock Market Today, Nov. 11: Advanced Micro Devices Jumps -- and Not Only Because of CoreWeave's Results](https://finnhub.io/api/news?id=7195c819b4f2a74bca3f973ac14594dea12a4f9e6de7c2cb7706c41766f96fab)**  
-*Yahoo · 2h前*  
-On Nov. 11, 2026, shares climbed as investors weighed fresh signs of AI chip demand and what comes next for server growth.
+- **[Intel's CEO Bought $9.7 Million of Stock Right After It Plunged 29%. I'm Not Ready to Follow Him In.](https://finnhub.io/api/news?id=cc4b005e0bbbd230a4ed965fa2a742e4fbfa4828efdf70bf8b2249408a265867)**  
+*Yahoo · 4h前*  
+The chipmaker's CEO bought around $9.7 million of its stock in early November. Did his predecessors' buys pay off?
 
 ---
 
@@ -59,4 +59,4 @@ On Nov. 11, 2026, shares climbed as investors weighed fresh signs of AI chip dem
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:05 HKT*
