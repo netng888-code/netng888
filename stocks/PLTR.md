@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$168.82** |
-| 今日變動 | ▼ $0.38　(-0.22%) |
+| 現價 | **$172.40** |
+| 今日變動 | ▲ $3.58　(+2.12%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $249　(▲32.6%) |
+| 未實現盈虧 | ▲ $271　(▲35.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $159.63 | — |
-| Put Wall（支撐） | $160.00 | -5.2% |
-| Call Wall（阻力） | $170.00 | +0.7% |
+| Gamma Flip | $159.68 | — |
+| Put Wall（支撐） | $160.00 | -7.2% |
+| Call Wall（阻力） | $180.00 | +4.4% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Cathie Wood Trims Palantir Stake. The Bigger Concern Is Slowing Business Growth](https://finnhub.io/api/news?id=de706248a54adacd8056af4db79593d1fe94290e7e8a5660637ef78eac20d8e5)**  
-*Yahoo · 1h前*  
-Palantir's Growth Story Faces New Questions After a Sharp Slowdown in Contract Wins
-
-- **[iShares Expanded Tech-Software (IGV) Buys $22.9 Million More Microsoft on Nov. 9](https://finnhub.io/api/news?id=e51fbcbd0f057490a3fdd7f587f5edb32e5d0c349e3dd5357aa6f02594e2ed42)**  
-*Yahoo · 1h前*  
-The fund added $242.6 million across 103 positions in Monday's session, led by a $22.9 million increase in Microsoft.
-
-- **[Can Palantir Technologies (PLTR) Still Match Its Price With Cash Flow?](https://finnhub.io/api/news?id=794a6e78d9d22035fef4dcf5ac0e288eb96169cb0c303d47b2fc711c3ea68f76)**  
+- **[3 Possible Paths Forward for AI Stocks (Bull Case, Bear Case, Base Case) -- and How to Invest for Each](https://finnhub.io/api/news?id=3f8f6dede083fdf64b33c3845bc74dd1fc5b0addc890208e0bdc81da8268d8cc)**  
 *Yahoo · 6h前*  
-Palantir Technologies has delivered a very large 3 year share price gain. After a choppy few months the core question for investors is whether the current valua…
+No matter how you feel about AI stocks, there is room for optimism about the future of the stock market.
+
+- **[Helsing debuts Clarity military AI to challenge Palantir in Europe](https://finnhub.io/api/news?id=bd59a19f4fa059d208e7eef807ee2b26840b85f5c1bb613ffe10742b1e61be0e)**  
+*Yahoo · 9h前*  
+Investing.com -- Helsing GmbH has unveiled an artificial intelligence platform designed to process battlefield data in seconds, positioning the German defense c…
+
+- **[One Investor Says Anthropic Would Cost “Less Than Palantir on Sales.” That’s a Problem for Palantir](https://finnhub.io/api/news?id=375c815cb927a6efd906160b0a560351f1d1d3fbf123040e5a767e8185fdc587)**  
+*Yahoo · 9h前*  
+Key TakeawaysAnthropic set its IPO range at $70 to $78 a share. One investor on Reddit works that out to 35x to 39x trailing sales, compared with 53x for Palant…
 
 ---
 
@@ -48,7 +48,7 @@ Palantir Technologies has delivered a very large 3 year share price gain. After 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-11 | 監控 | $168.82 | — | 自動更新 |
+| 2026-11-12 | 監控 | $172.40 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies has delivered a very large 3 year share price gain. After 
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
