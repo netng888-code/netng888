@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$62.71** |
-| 今日變動 | ▲ $3.85　(+6.54%) |
+| 現價 | **$66.15** |
+| 今日變動 | ▲ $3.44　(+5.49%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $133　(▼17.5%) |
+| 未實現盈虧 | ▼ $98　(▼13.0%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $57.16 | — |
-| Put Wall（支撐） | $60.00 | -4.3% |
-| Call Wall（阻力） | $65.00 | +3.7% |
+| Gamma Flip | $57.63 | — |
+| Put Wall（支撐） | $60.00 | -9.3% |
+| Call Wall（阻力） | $70.00 | +5.8% |
 
 **狀態：✅ 正Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Cathie Wood Just Bought $3.4 Million of This Surging Space Stock](https://finnhub.io/api/news?id=3f8718ea814a16004c29b9728fc93623b6cb1ba33d59538df820d70aa1e8c889)**  
-*Yahoo · 1h前*  
-ARK Invest Loads Up on Rocket Lab as Earnings Miss Raises Fresh Questions
+- **[Stock Market Today, Nov. 11: SpaceX Shares Slip Amid Upcoming Starship Test Flight Jitters](https://finnhub.io/api/news?id=d7aa37fa8e9996c9c6fdad842d490c6764a024973e1e2a196e6e1557f9842a83)**  
+*Yahoo · 3h前*  
+Today, Nov. 11, 2026, SpaceX's stock finished lower ahead of Friday's planned Starship launch.
 
-- **[SpaceX Wins NASA Moon Base Awards, but Government Is “Less Than 10%” of Its Revenue](https://finnhub.io/api/news?id=287e6cf2e99686b9ba85ce18352e9475b58276caafd845285932599e0e641a8d)**  
-*Yahoo · 5h前*  
-Key TakeawaysSpaceX shares rose about 6% on Monday after NASA named it one of eight companies that can compete for up to $10 billion of lunar delivery work over…
+- **[RKLB Stock Price Forecast: How Much Upside Do Analysts See Post-Q3 Earnings?](https://finnhub.io/api/news?id=20661a89f5537d15d6f78d4758420c16f25a6d454838b9ee3c0a5d9b2018af09)**  
+*Yahoo · 4h前*  
+U.S.-based aerospace company Rocket Lab USA (RKLB) reported an EPS loss of $0.12, missing analysts’ estimate of a $0.07 loss. However, revenue jumped 73% year-o…
 
-- **[3 Growth Stocks With Earnings Growth Reaching 120%](https://finnhub.io/api/news?id=43ca7fbfa34b59d67799c6bf4c38f0148cd2baba2cdd8709d685a3d29689c7f8)**  
-*Yahoo · 6h前*  
-Hotter than expected US inflation and talk of larger rate hikes have hit bonds and pushed borrowing costs higher. Expensive money can punish weaker balance shee…
+- **[Piper Sandler Sees 13% Downside in Rocket Lab Even After a Record Quarter](https://finnhub.io/api/news?id=84bf982c2a798473cb9fd15ee84b7fc62b5a78ac865f4214d113447884c7c087)**  
+*Yahoo · 4h前*  
+Key TakeawaysPiper Sandler kept its Neutral rating on Rocket Lab and cut its price target to $58 from $83. That target is 13% below the stock’s price.
 
 ---
 
@@ -48,7 +48,7 @@ Hotter than expected US inflation and talk of larger rate hikes have hit bonds a
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-11 | 監控 | $62.71 | — | 自動更新 |
+| 2026-11-12 | 監控 | $66.15 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Hotter than expected US inflation and talk of larger rate hikes have hit bonds a
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
