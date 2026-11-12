@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-12 09:48 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[Centrus' Backlog Hit $5.4 Billion. Its Quarterly Revenue Was $55 Million. Here's How Those Numbers Fit Together.](https://finnhub.io/api/news?id=d5d35237e3ca4684617f13e5c593fe127e7a282df862303894f4455580614fce)**  
+*Yahoo · 14h前*  
+Investors shouldn't conflate its backlog with its actual revenue.
+
 - **[Centrus Energy Appoints Kevin Graney to Board of Directors](https://finnhub.io/api/news?id=31555ff23bc60c4677498e295e073a278f922c486d0053fb5094c770c0057590)**  
 *Yahoo · 1d前*  
 Centrus Energy (NYSE: LEU), a trusted supplier of nuclear fuel and services, today announced the appointment of Kevin Graney to its Board of Directors (the "Boa…
@@ -37,10 +41,6 @@ Centrus Energy (NYSE: LEU), a trusted supplier of nuclear fuel and services, tod
 - **[Uranium Enrichment Finds Its Own Renaissance](https://finnhub.io/api/news?id=442b1b7543d652c6699271cf23165668496e0c98417d43b97fe671eebfdeb010)**  
 *SeekingAlpha · 1d前*  
 The enrichment industry is having a renaissance. The two public companies working to expand US domestic enrichment capacity are included in the VettaFi Nuclear …
-
-- **[Centrus Energy Corp. 2026 Q3 - Results - Earnings Call Presentation](https://finnhub.io/api/news?id=f92378fd8f5d432d8c8f300a1c9ec139853a4379059e8cb9225c856c076bc4de)**  
-*SeekingAlpha · 2d前*  
-2026-11-09. The following slide deck was published by Centrus Energy Corp.
 
 ---
 
@@ -59,4 +59,4 @@ The enrichment industry is having a renaissance. The two public companies workin
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:48 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:04 HKT*
