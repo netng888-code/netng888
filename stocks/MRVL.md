@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$168.80** |
-| 今日變動 | ▲ $14.41　(+9.33%) |
+| 現價 | **$164.45** |
+| 今日變動 | ▼ $4.35　(-2.58%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $620　(▼34.4%) |
+| 未實現盈虧 | ▼ $650　(▼36.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $207.56 | — |
-| Put Wall（支撐） | $160.00 | -5.2% |
-| Call Wall（阻力） | $170.00 | +0.7% |
+| Gamma Flip | $199.98 | — |
+| Put Wall（支撐） | $160.00 | -2.7% |
+| Call Wall（阻力） | $170.00 | +3.4% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Nvidia, Dell, Super Micro, Sandisk, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=0eaefc71f2790e079e92514ad21c87a8095b7b18841531ba7a8308c402955ede)**  
-*Yahoo · 1h前*  
-Nvidia and other stocks tumble as reports of a leadership crisis at the chip maker dent the AI trade.
+- **[Marvell makes major board move ahead of $115 billion AI deal](https://finnhub.io/api/news?id=5f7b91e4ce34e1f3b948f3cfe93f31d903fe42f161c72ed5700b07b924c666ab)**  
+*Yahoo · 3h前*  
+The chipmaker expands its board to 10 members as it prepares for a major deal in optical networking.
 
-- **[Weak SpaceX Stock Is Complicating Elon Musk’s Merger Math](https://finnhub.io/api/news?id=5f11b52e4d8520cc5360e83512bb7c0d1506b2972921b743d7b717370638cedc)**  
-*Yahoo · 1h前*  
-What percentage each shareholder base would have in a Tesla-SpaceX merger isn’t an easy question to answer.
+- **[ALAB Benefits From Strong PCIe Demand: Can It Beat MRVL & CRDO?](https://finnhub.io/api/news?id=e6e4571af7dd9abb97be38c0ad5053e3bbd653bac2ec805e770d797cc130be74)**  
+*Yahoo · 5h前*  
+Astera Labs rides on strong PCIe demand and AI infrastructure growth, with Aries and Scorpio driving momentum amid rising competition from Marvell and Credo.
 
-- **[Stock Market Today: CoreWeave (CRWV) Reignites the AI Trade, Then Nvidia’s (NVDA) Boardroom Takes Over the Story](https://finnhub.io/api/news?id=be813dc75e05c53c78c607bd19f1247dd4df8998b9c835176607ad77de1bf268)**  
-*ChartMill · 5h前*  
-CoreWeave’s strong quarter sent AI and chip stocks sharply higher, but a report that Nvidia’s board is preparing to remove CEO Jensen Huang hit the stock after …
+- **[Nvidia, AMD, CoreWeave, Nebius, Tesla, Strategy, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=70f13ef23f96413dc789a38f244a443b04be18620e75dc257d47ff4199bb9927)**  
+*Yahoo · 7h前*  
+Nvidia stock tumbles after CEO Jensen Huang resigns.
 
 ---
 
@@ -48,7 +48,7 @@ CoreWeave’s strong quarter sent AI and chip stocks sharply higher, but a repor
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-12 | 監控 | $168.80 | — | 自動更新 |
+| 2026-11-13 | 監控 | $164.45 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ CoreWeave’s strong quarter sent AI and chip stocks sharply higher, but a repor
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
