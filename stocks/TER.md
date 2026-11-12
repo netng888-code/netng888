@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-11 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 09:47 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$245.40** |
-| 今日變動 | ▼ $0.60　(-0.24%) |
+| 現價 | **$265.78** |
+| 今日變動 | ▲ $20.38　(+8.30%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $767　(▲166.7%) |
+| 未實現盈虧 | ▲ $869　(▲188.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $341.27 | — |
-| Put Wall（支撐） | $195.00 | -20.5% |
-| Call Wall（阻力） | $270.00 | +10.0% |
+| Gamma Flip | $338.98 | — |
+| Put Wall（支撐） | $260.00 | -2.2% |
+| Call Wall（阻力） | $270.00 | +1.6% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[ETFs Are Net Sellers of Teradyne (TER) on Nov. 6](https://finnhub.io/api/news?id=9fff5ac50238ce40c0c6bd5bf9616420d9772bdabc69a5084eaa40a07e1d56ba)**  
-*Yahoo · 1d前*  
-ETFs sold a net $93.9 million of Teradyne (TER) on Nov. 6.
+- **[Wall Street’s Newest Teradyne Bull Just Sent a $2 Billion Signal That the Stock’s 56% Crash Went Too Far](https://finnhub.io/api/news?id=f68086907dc09a1b431114a9e617981dc5d150c1b8bd146826e2a01b1eb7bd18)**  
+*Yahoo · 2h前*  
+Teradyne jumped 8.3% to $265.78 on Wednesday after Jefferies started coverage at buy with a $284 target, calling it a compute test company with a possible $2 bi…
 
-- **[Micron, FormFactor, Amkor, Teradyne, and Nvidia shares skyrocket, what you need to know](https://finnhub.io/api/news?id=07e702414a8c613e9a89306945ba102fb49818e3c02807b7b9e401aa5e1307e9)**  
-*Yahoo · 1d前*  
-A number of stocks jumped in the morning session after dip-buyers moved into beaten-down semiconductor and hardware names following the sector's steepest one-da…
+- **[Why Teradyne Stock Is Getting Attention After Edge AI Test Platform Launch](https://finnhub.io/api/news?id=528ef0ab2fab188151b0cd59d718e3e8d1c60369a211c0982b4675c215f4cd28)**  
+*Yahoo · 3h前*  
+Teradyne announced a quarterly cash dividend of US$0.13 per share, payable on December 16, 2026 to shareholders of record on November 23, 2026. The launch of th…
 
-- **[Teradyne Declares Quarterly Cash Dividend](https://finnhub.io/api/news?id=9603607523d4d33ed0719d2c10b3a76725cc3fb570100db083d11e9b6b8db806)**  
-*Yahoo · 1d前*  
-NORTH READING, Mass., November 09, 2026--Teradyne, Inc. (NASDAQ:TER) today announced a quarterly cash dividend of $0.13 per share, payable on December 16, 2026,…
+- **[13 Big Funds Sold Applied Materials. Should You Follow Them Before Earnings?](https://finnhub.io/api/news?id=52c1ee2d059c2912202916419fa2926d9d55449126e18113b2d6d44b96b55639)**  
+*Yahoo · 5h前*  
+Key TakeawaysThirteen big funds held fewer Applied Materials shares on June 30 than at the end of March, and four of them sold every share, according to their l…
 
 ---
 
@@ -48,7 +48,7 @@ NORTH READING, Mass., November 09, 2026--Teradyne, Inc. (NASDAQ:TER) today annou
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-11 | 監控 | $245.40 | — | 自動更新 |
+| 2026-11-12 | 監控 | $265.78 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ NORTH READING, Mass., November 09, 2026--Teradyne, Inc. (NASDAQ:TER) today annou
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 09:47 HKT*
