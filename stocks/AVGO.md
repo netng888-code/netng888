@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-12 09:47 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[S&P 500 After-Hours Movers: MNST, RDDT Among Gainers; VEEV, LLY Among Losers in Latest Session](https://finnhub.io/api/news?id=06de5c4551d7b705cba423430683dacc7cdf38df3419851f1401334c05734b82)**  
-*ChartMill · 3h前*  
-S&P 500 after-hours movers from the latest U.S. session include MNST and RDDT among gainers, while VEEV and LLY posted sharp after-hours declines.
+- **[Nvidia CEO Exit Reports Sends Shockwaves Through AI Chip Stocks --  AMD and Broadcom Stocks Jump](https://finnhub.io/api/news?id=730caf34cba65a93b679925f0a06b138b5c37ac65f155a9ff8bb6b5f6e3d6ef4)**  
+*Yahoo · 1h前*  
+Nvidia's Leadership Drama Opens Door for AMD, Broadcom and Google's AI Chips
 
-- **[Cathie Wood, Brad Gerstner and 8 Other Big Funds Bought Cerebras. Is It a Buy Before Earnings?](https://finnhub.io/api/news?id=68f60a3ede1ca172a9ff4199fcbc654822ad3aeef0402c46f30c85662e8fe5ed)**  
-*Yahoo · 5h前*  
-Key TakeawaysCathie Wood’s ARK Invest, Brad Gerstner’s Altimeter Capital and eight other big funds reported new Cerebras stakes as of June 30, and the stock is …
+- **[Nvidia, Dell, Super Micro, Sandisk, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=0eaefc71f2790e079e92514ad21c87a8095b7b18841531ba7a8308c402955ede)**  
+*Yahoo · 1h前*  
+Nvidia and other stocks tumble as reports of a leadership crisis at the chip maker dent the AI trade.
 
-- **[Anthropic’s IPO Prospectus by the Head-Spinning Numbers](https://finnhub.io/api/news?id=09e76893412cb427fdcfea0bca7bc8c9bcf4678903f790c38246dfd90b99f939)**  
-*Yahoo · 5h前*  
-The AI lab’s initial public offering documents are packed with fantastic figures.
+- **[Why Has Ark Invest Repeatedly Added to Broadcom (AVGO)? Its Big Ideas Report Offers a Clue](https://finnhub.io/api/news?id=f4710a2df5a4f0904b9f0bba4b69d952808d38adc70311e2739a63e63ad7839b)**  
+*Yahoo · 1h前*  
+We just published the list of the 10 Best Growth Stocks to Buy for the Next Decade, and Broadcom (NASDAQ:AVGO) ranks 7th on it. On November 5, the S&P 500 fell …
 
 ---
 
@@ -59,4 +59,4 @@ The AI lab’s initial public offering documents are packed with fantastic figur
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-12 09:47 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 21:04 HKT*
