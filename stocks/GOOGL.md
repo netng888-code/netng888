@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-11 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-12 09:47 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$287.38** |
-| 今日變動 | ▼ $0.77　(-0.27%) |
+| 現價 | **$293.45** |
+| 今日變動 | ▲ $6.07　(+2.11%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $847　(▲17.3%) |
+| 未實現盈虧 | ▲ $968　(▲19.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $293.32 | — |
-| Put Wall（支撐） | $280.00 | -2.6% |
-| Call Wall（阻力） | $300.00 | +4.4% |
+| Gamma Flip | $293.48 | — |
+| Put Wall（支撐） | $290.00 | -1.2% |
+| Call Wall（阻力） | $300.00 | +2.2% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Social Buzz: Wallstreetbets Stocks Advance Premarket Wednesday; CoreWeave, Nebius Group to Open Higher](https://finnhub.io/api/news?id=79a225141f472a0086c3518bb8d40cb191a20e47bec4c92fb0f3a7d9e1d94f7d)**  
-*Yahoo · 1h前*  
-The most-talked-about stocks in the Reddit subforum Wallstreetbets were advancing hours before Wedne
+- **[Zelda remake becomes fastest-selling Nintendo Switch 2 game ever](https://finnhub.io/api/news?id=02b4e9466697e379c3d95bb527b6c2b774aa9fb40c2eb2789b5b19747da80abc)**  
+*Yahoo · 2h前*  
+Yahoo Finance's Deirdre Bosa reports on "The Legend of Zelda: Ocarina of Time" selling 5.2 million copies in its first four days on Nintendo (NTDOY) Switch 2, t…
 
-- **[Anthropic targets valuation of up to $1.4tn in IPO – report](https://finnhub.io/api/news?id=d0f74346ac7470abb4180cdc31aa4deb79e4a1d56dd1ca8a3e8502aa6ad806d0)**  
-*Yahoo · 1h前*  
-Anthropic is seeking a fully diluted valuation of up to $1.4tn through its initial public offering (IPO), with Nasdaq trading expected to begin on 19 November, …
+- **[Nvidia and Alphabet Just Agreed to Buy $10 Billion Each of Anthropic Stock at Its IPO Price](https://finnhub.io/api/news?id=13132d03c5b8d69d4f31c02910a3f58b434d3e8ce498d01778b6101fa2f7c561)**  
+*Yahoo · 2h前*  
+Anthropic's filing ties two of the seven checks to deals already in place -- though not the chipmaker's.
 
-- **[State Street Comm Services SPDR (XLC) Sells $29.9 Million of Meta on Monday](https://finnhub.io/api/news?id=8bc6a80a3287fc7684867f88cd30cd338ec7eacfbd39119fd67309cc2627cc2b)**  
-*Yahoo · 1h前*  
-The $22.12 billion fund sold $139.5 million of stock and bought nothing, cutting all 22 of its positions.
+- **[Fusion's Next Race Is Over Superconducting Tape, Not Plasma](https://finnhub.io/api/news?id=5deaac082d38d7e5742c95f8543b43b792bc36f8e813b5ab3b043c25f0219979)**  
+*Yahoo · 2h前*  
+Proxima Fusion signed deals with Japan's Fujikura and Kyoto Fusioneering to build a European fusion supply chain, starting with superconducting tape.
 
 ---
 
@@ -48,7 +48,7 @@ The $22.12 billion fund sold $139.5 million of stock and bought nothing, cutting
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-11 | 監控 | $287.38 | — | 自動更新 |
+| 2026-11-12 | 監控 | $293.45 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The $22.12 billion fund sold $139.5 million of stock and bought nothing, cutting
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-11 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-12 09:47 HKT*
