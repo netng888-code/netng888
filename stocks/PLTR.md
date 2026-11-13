@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Defense Tech: Investors and Operators, 6th Palm Beach CorpGov Forum](https://finnhub.io/api/news?id=10fb1aa2e797562503b2c59466adb3cab0077850721089858e801fe0cd34ecaa)**  
-*Yahoo · 4h前*  
-CorpGov hosted the sixth annual Palm Beach CorpGov Forum on Nov. 4-5, 2026, at the Palm Beach Lake Pavilion and The Cove Club, both located waterfront with swee…
+- **[JPMorgan Active Growth ETF (JGRO) Buys $12.6 Million More Tesla on Nov. 11](https://finnhub.io/api/news?id=d901bb3fcb493fb03516aa06c793be0fe438107fb667c01c021e534b706199f0)**  
+*Yahoo · 1h前*  
+JGRO sold a net $124.0 million of stock, lifting 37 positions and trimming 68, with Tesla its largest buy at $12.6 million.
 
-- **[Palantir (PLTR) Faces A European Rival In Defense AI](https://finnhub.io/api/news?id=c617f35a2078862bce02cb9014f4102855509466d683d17d1ddabb6199417c30)**  
+- **[These 6 Data Software Stocks Help Companies Put AI to Work](https://finnhub.io/api/news?id=31b1dc5342db4cc202de7088cf4e961779216a8dacddd1af92ba488dc3a791cd)**  
 *Yahoo · 4h前*  
-Palantir Technologies (NasdaqGS:PLTR) faces fresh European competition as Helsing GmbH unveils its Clarity AI defense platform. Clarity is being introduced as a…
+Revenue growth across these six companies ranges from 15% to 96%. Where is AI showing up in their results?
 
-- **[Palantir’s Growth Story Could Be Just Getting Started](https://finnhub.io/api/news?id=e131fb867fdb6fcb81600962a8fefd5f44cc85f901e0d679dd7e431489db705f)**  
-*Yahoo · 6h前*  
-Palantir just posted the fastest growth in its public history, yet shares dropped over 20% in a week. Behind the selloff sit a puzzling bookings number, rising …
+- **[Cathie Wood Boosts Bets On 2 AI Firms Amid Nvidia’s Huang Upheaval — Here’s How Her Trading Week Unfolded](https://finnhub.io/api/news?id=2ceaa673498a0b0e177e5e9565441a00c84636d2320c5488df93b3fc76f4fe9a)**  
+*Yahoo · 8h前*  
+ARK bought about $8.79 million in Archer, $5.59 million in Rocket Lab and $4.74 million in Kratos, with Archer leading purchases by share count.
 
 ---
 
@@ -59,4 +59,4 @@ Palantir just posted the fastest growth in its public history, yet shares droppe
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:04 HKT*
