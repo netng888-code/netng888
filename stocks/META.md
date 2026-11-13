@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Debt Binge Hits a Wall As Global Bond Markets Reach Saturation Point, Wells Fargo Warns](https://finnhub.io/api/news?id=9cc5160a2ebbc741b7bb755b0106c2e460c494be74f1523adbd24f7348b85482)**  
+- **[State Street Comm Services SPDR (XLC) Adds Meta and Alphabet on Nov. 11](https://finnhub.io/api/news?id=8ea5111aec6cdf4061a273abadeb86ffa8de53cb837edf6824c492ec71586451)**  
 *Yahoo · 1h前*  
-Wells Fargo warns that massive corporate borrowing to fund AI infrastructure is straining the $15 trillion investment-grade bond market, and investors are pushi…
+The fund bought $84.3 million of stock, lifting 21 positions and trimming none, with Meta and both Alphabet share classes the largest additions.
 
-- **[5 Best Stocks to Buy After Democrats’ Election Sweep, According to CIBC](https://finnhub.io/api/news?id=233d081d7fbdbbf5050d52e6733f63763896f7d1e3d008944f49f5ab8040d182)**  
-*Yahoo · 1h前*  
-CIBC Capital Markets recommended a list of top stock picks after the Democratic sweep of Congress, according to CNBC, citing a potentially tougher regulatory en…
+- **[55 ETFs Add to Meta Platforms (META) on Nov. 11](https://finnhub.io/api/news?id=c7a48a7df380859c0d92acd74a1280af490938eb0d2b64eb81b0072697581034)**  
+*Yahoo · 2h前*  
+ETFs bought $102.4 million of Meta Platforms stock in Wednesday's session.
 
-- **[Pimco CEO Warns: AI Companies Risk Borrowing "Too Much" ($10 Trillion)](https://finnhub.io/api/news?id=d9b0e8b8af52ed260f3e543f1c19ca0ac0abdeb6a47f16a61940306ea30680a4)**  
-*Yahoo · 3h前*  
-AI companies are on track to borrow so much money that it might nearly match the size of the overall $12 trillion U.S. corporate bond market.
+- **[Meta Platforms (NASDAQ:META): A Lynch-Style GARP Case Study](https://finnhub.io/api/news?id=a5ca9a2f314b73db2448cd8aa21d9fe5dd5c99976a3be715534bf536d7e4afaa)**  
+*ChartMill · 3h前*  
+Meta fits Peter Lynch’s GARP checklist with strong growth, high ROE and modest leverage, but valuation and slower future EPS growth remain key risks.
 
 ---
 
@@ -59,4 +59,4 @@ AI companies are on track to borrow so much money that it might nearly match the
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:04 HKT*
