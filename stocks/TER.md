@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[3 Robotics Stocks To Own In November 2026](https://finnhub.io/api/news?id=7a97c6e865ce15c71e859756670aa880edcade1484e8e82ef2be94c3dfb47777)**  
+*Yahoo · 13h前*  
+The sudden 10% drop in Nvidia after Jensen Huang’s resignation has shaken confidence in pure software and AI chip stories, pushing attention toward companies th…
+
+- **[Why Jefferies’ Dushyant Ailani Calls Teradyne (TER) a “Compute Test Company”](https://finnhub.io/api/news?id=b3e31468ff1995760822c3ca9c087656f698e4c313d448b2e7d22dd2d105ba2b)**  
+*Yahoo · 13h前*  
+We just published a list of the 10 Best AI Stocks to Buy After Wells Fargo’s Outlook Upgrade and Teradyne (NASDAQ:TER) ranked 8th on this list. Wells Fargo is n…
+
 - **[Is Lam Research Stock Paying You Enough For The Swings?](https://finnhub.io/api/news?id=aa84045b2c04f68355baec22b5cc582e257f6399e8fc3e819deeb84ca3a41e51)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 For questions about this article or underlying research, email help@trefis.com.
-
-- **[Cathie Wood Dumps the Last of Teradyne From Her Flagship Fund](https://finnhub.io/api/news?id=52fef309c5d1913e004d15d4a1f7e6bc10f2bf7436071470726f719921487701)**  
-*Yahoo · 5h前*  
-ARK's flagship fund exited a chip-testing stock just as it surged on a fresh Buy rating, and Wood offered no explanation. Another ARK fund still holds millions …
-
-- **[Teradyne Stock Falls 21% in a Week as Applied Materials Drops 15%. Is the Chip-Equipment Selloff Overdone?](https://finnhub.io/api/news?id=9da642db39357d9eddbb1ee006eba5dfd1e52811e975de0869c3051d5d1d4329)**  
-*Yahoo · 9h前*  
-Key TakeawaysTeradyne (TER) fell approximately 21% during the week ended November 6, while Applied Materials (AMAT) declined nearly 15% as concerns about AI reg…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysTeradyne (TER) fell approximately 21% during the week ended Novembe
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:04 HKT*
