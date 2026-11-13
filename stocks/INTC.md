@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intel (INTC) Could Be 88% Undervalued Following AI Partnerships And Sector Volatility](https://finnhub.io/api/news?id=3f042f5d4a7bfd1bf42b48b85d044de506b64dd44db6108852011fbcf66213e6)**  
+- **[What Capital Group Growth ETF (CGGR) Bought: SpaceX Leads on Wednesday](https://finnhub.io/api/news?id=841a68264d90ac4df93b91ef2d9f03ceab80ad0fa64b62bf697f68255dfce4ef)**  
 *Yahoo · 1h前*  
-Intel (INTC) has been pulled in two directions lately. New collaborations in AI infrastructure and edge computing land alongside sharp sector swings tied to Nvi…
+The fund bought $48.0 million more than it sold, with SpaceX's $43.6 million increase the largest buy and Nvidia's $58.1 million cut the largest sell.
 
-- **[Analog Devices Vs NVIDIA: Which Stock Is The Better Buy?](https://finnhub.io/api/news?id=4e4fd9732c697cabdcd5b4b374e60ffe898ed1330e34cd8d2aa671a4503e4614)**  
+- **[What iShares PHLX SOX Semiconductor (SOXX) Bought: AMD Leads on Nov. 11](https://finnhub.io/api/news?id=f4679b1fb00828035b0f156389a54027908dd5b4711244b6ea67831f1d4c701a)**  
 *Yahoo · 2h前*  
-For questions about this article or underlying research, email help@trefis.com.
+The fund added $1.05 billion in net purchases on Wednesday, Nov. 11, increasing 29 positions and selling none.
 
-- **[Intel, RadixArk Collaborate to Advance Open AI Inference on Intel Platforms](https://finnhub.io/api/news?id=6a0ad236f85932071f5f3753df9df655fb3adfd86ffefc9d9a78e59e211b9feb)**  
+- **[Intel (INTC) Sees $79.2 Million in Net ETF Buying on Nov. 11](https://finnhub.io/api/news?id=5e2a26fd9135a25694f50e7f87f907c3e14d920abde6e4e37413f9a78b5ab877)**  
 *Yahoo · 2h前*  
-SANTA CLARA, Calif., November 12, 2026--Expanding developer choice and performance for leading AI models across Intel infrastructure through upstreamed SGLang o…
+54 ETFs bought Intel shares while 11 sold, for a net inflow of $79.2 million.
 
 ---
 
@@ -59,4 +59,4 @@ SANTA CLARA, Calif., November 12, 2026--Expanding developer choice and performan
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:04 HKT*
