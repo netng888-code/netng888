@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[If the Fed Keeps Cutting Rates, History Says These 3 Industrial Stocks Win](https://finnhub.io/api/news?id=62e92b2a233bd2313af1b9d9ab36b89c8d5da2ba297942c8d66ea6ca370a21be)**  
+- **[Elon Musk Eyes Jensen Huang After Stunning Nvidia Departure](https://finnhub.io/api/news?id=23cda1e793d4464c1a57a0a940a614bc160285488ce8f862fbc4a215d14939d4)**  
 *Yahoo · 1h前*  
-SpaceX, Rivian, and Joby Aviation will bounce back if the Fed cuts rates again.
+A historic leadership shakeup could reshape the AI industry's future.
 
-- **[Jensen Huang Is Out as Nvidia CEO. Could These 3 Industrial Stocks Pay the Price?](https://finnhub.io/api/news?id=f5711c68af11a0805d8c5dfc570d970f75b0b87684dafe0080a597994c9e82ef)**  
+- **[Lumentum Stocks Edge Higher as Marvell Deal Spread Widens to 19.7%](https://finnhub.io/api/news?id=614acc0d339a56813f52ed977ae9ec7f0ba3c5bf5f6f19b3e96f4b774050ba74)**  
 *Yahoo · 1h前*  
-The fallout from Jensen Huang's resignation could send ripples across the industrial sector.
+Lumentum trades well below the value of the 4.5 Marvell shares it will receive, with closing not expected until 2028.
 
-- **[2 No-Brainer Warren Buffett Stocks to Buy in the Post-Election Market Sell-Off and Hold Forever](https://finnhub.io/api/news?id=ae04a92c68088971daa1da6c5a1be973dcf2f33db7d88a9ae10a0459aef98bdf)**  
+- **[A Once-in-a-Decade Opportunity: 1 Magnificent Dividend Stock Down 30% to Buy Right Now](https://finnhub.io/api/news?id=a92f7caa2662f197353789b1a71adb89637abebf9eb3c51ccca6dd9f5578a0cb)**  
 *Yahoo · 1h前*  
-As Buffett once said, it’s important to be greedy while others are fearful.
+Cheerios, Pillsbury, and Blue Buffalo aren't going anywhere, but General Mills stock is priced as if they might.
 
 ---
 
@@ -59,4 +59,4 @@ As Buffett once said, it’s important to be greedy while others are fearful.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:03 HKT*
