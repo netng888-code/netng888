@@ -1,6 +1,6 @@
 # NQ — E-mini納指100 · CFTC Leveraged Funds COT
 
-> 最後更新：2026-11-07 07:00 HKT　｜　數據來源：CFTC官方 Socrata Open Data API（TFF Futures Only, `gpe5-46if`）
+> 最後更新：2026-11-14 07:00 HKT　｜　數據來源：CFTC官方 Socrata Open Data API（TFF Futures Only, `gpe5-46if`）
 > 數據截至（Report Date，週二倉位截止）：**2026-11-03**　｜　合約代碼：209742（CME）
 
 ---
@@ -48,4 +48,4 @@
 - [CFTC Public Reporting（原始數據源）](https://publicreporting.cftc.gov/d/gpe5-46if)
 
 ---
-*由 cftc_cot_updater.py v1.1 自動生成　2026-11-07 07:00 HKT*
+*由 cftc_cot_updater.py v1.1 自動生成　2026-11-14 07:00 HKT*
