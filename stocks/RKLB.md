@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab’s Neutron Slips To 2027. Its Stock Still Ripped Anyway.](https://finnhub.io/api/news?id=5394f5c49695b1e145e0ee21beef5d3a3186cee2834e479c221ba8af3b810c4d)**  
-*Yahoo · 4h前*  
-Wall Street Forgives Rocket Lab’s Broken Fuel Tank And Then Some.
+- **[Space Stocks Had A Stellar Week, But SpaceX Rivals Flew Higher — What Powered LUNR, FLY, RKLB And ASTS Ahead?](https://finnhub.io/api/news?id=2a596a549f5160eb810ee2a5394cbbdeec32e6670b4c01388cd73b57bc533652)**  
+*Yahoo · 5h前*  
+AST SpaceMobile announced its Japanese venture and detailed Blacklift’s development, spending needs, and potential launch-cost savings.
 
-- **[Should I Buy Rocket Lab Stock Now?](https://finnhub.io/api/news?id=bb4d517e4a710a33e2e5b1453857124c24c3586e3f21cb8cbc4829661bbb525d)**  
-*Yahoo · 7h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[What Does Rocket Lab (RKLB) Reaching Mars Bound Orbit Mean For Investors?](https://finnhub.io/api/news?id=851c38c301eedfa20dc45fa04c7bc4e0a315570b39cd299adc297d56903cbd83)**  
+*Yahoo · 11h前*  
+Rocket Lab (NasdaqGS:RKLB) confirmed that its twin ESCAPADE spacecraft for NASA and UC Berkeley completed precise trans-Mars injection burns. The autonomous man…
 
-- **[Intuitive Machines Surges 16% on Record Quarter and Positive Free Cash Flow; AST SpaceMobile Falls 3%, Rocket Lab Slips 2%](https://finnhub.io/api/news?id=4c28c7ca8c195ef512f8c11639e570913bef69c99789c3e3eb323d3bd141aa82)**  
-*Yahoo · 8h前*  
-While its space peers sink with the rest of the growth trade, one lunar contractor posts a record quarter that bulls and skeptics read in opposite ways. What hi…
+- **[ACHR, RKLB: Cathie Wood Buys More of Archer Aviation and Rocket Lab Stocks](https://finnhub.io/api/news?id=ad885518d0be922e5bf837a93a365ea476551ac4c2140b34642e5e382abd5ce9)**  
+*Yahoo · 14h前*  
+On Wednesday, Cathie Wood’s ARK Invest bought 18,086 shares of Rocket Lab (RKLB) worth about $1.2 million, according to ARK’s daily trade disclosures. ARK also …
 
 ---
 
@@ -59,4 +59,4 @@ While its space peers sink with the rest of the growth trade, one lunar contract
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:04 HKT*
