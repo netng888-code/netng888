@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[S&P 500 Recovered $1 Trillion in 90 Minutes Despite Wider Market Crash](https://finnhub.io/api/news?id=e9d62ca4f64b0199f2062265b9aa4d9255ec8f18f1511c411e103638e5a16ff9)**  
+- **[Michael Burry Sends Stark Warning on Chip Stocks After Huang's exit](https://finnhub.io/api/news?id=dc6e2c54ce1ff6924f4ec0b0e0b17cd34665890d674c5ce892173ad3c86c44ae)**  
 *Yahoo · 1h前*  
-The S&P 500 erased early losses as $1 trillion returned to US stocks. See the key levels on the path to a record high.
+Burry warns Nvidia-linked stars like CoreWeave and Nebius could lose their edge
 
-- **[Analog Devices Vs NVIDIA: Which Stock Is The Better Buy?](https://finnhub.io/api/news?id=4e4fd9732c697cabdcd5b4b374e60ffe898ed1330e34cd8d2aa671a4503e4614)**  
-*Yahoo · 2h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[AI Chips Update - Micron Highlights AI Leadership At Investor Events](https://finnhub.io/api/news?id=0d9b346d455f3220475ea12e6bfd8a4c07e840c28901704a84c385871cb7ee7a)**  
+*Yahoo · 1h前*  
+Micron Technology, Inc. has announced its participation in several upcoming investor events, including the TomorrowX Summit and the 30th Annual UBS Global Techn…
 
-- **[Why Broadcom Stock Rallied Thursday Morning](https://finnhub.io/api/news?id=a46fb39d55b54266e76b9309d454d6035ed336638f521564f117354800c20242)**  
-*Yahoo · 2h前*  
-Nvidia's CEO is out. That might represent an opportunity for the alternative chipmaker.
+- **[Nvidia's Rivals Are Cashing in on Jensen Huang's Exit. AMD Shares Have Jumped 30% This Week](https://finnhub.io/api/news?id=1361d953a2f79a32501097e77d355067f943a6d4ee403fdc78e018e9063beed7)**  
+*Yahoo · 1h前*  
+Analysts say Huang's relationships with major suppliers helped Nvidia secure manufacturing capacity that competitors have struggled to obtain.
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia's CEO is out. That might represent an opportunity for the alternative chi
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:03 HKT*
