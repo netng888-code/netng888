@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-13 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[2 No-Brainer Warren Buffett Stocks to Buy in the Post-Election Market Sell-Off and Hold Forever](https://finnhub.io/api/news?id=ae04a92c68088971daa1da6c5a1be973dcf2f33db7d88a9ae10a0459aef98bdf)**  
+- **[Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Friday; Nvidia to Advance, Microsoft to Decline](https://finnhub.io/api/news?id=28327e992d4459e6c0416db1bba51434f49f3a92ea8074b5a563e4bf2a2cd457)**  
 *Yahoo · 1h前*  
-As Buffett once said, it’s important to be greedy while others are fearful.
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mixed hours before Friday's
 
-- **[AI Debt Binge Hits a Wall As Global Bond Markets Reach Saturation Point, Wells Fargo Warns](https://finnhub.io/api/news?id=9cc5160a2ebbc741b7bb755b0106c2e460c494be74f1523adbd24f7348b85482)**  
+- **[Google faces renewed challenge over $1.66bn advertising fine](https://finnhub.io/api/news?id=7ca6499bdc1b006cc60d0481fdc64ebac1c46995b6df27419b900dfcd33c40e6)**  
 *Yahoo · 1h前*  
-Wells Fargo warns that massive corporate borrowing to fund AI infrastructure is straining the $15 trillion investment-grade bond market, and investors are pushi…
+Advocate General Juliane Kokott has advised the Court of Justice of the EU to set aside the General Court's September 2024 judgment and return the case for a ne…
 
-- **[Billionaire investor Bill Ackman on why he's staying bullish on Netflix](https://finnhub.io/api/news?id=494d53ce91bfa517de80779ecf12199e5fd5bcbbd9d8ae3626526155046f25ff)**  
+- **[State Street Comm Services SPDR (XLC) Adds Meta and Alphabet on Nov. 11](https://finnhub.io/api/news?id=8ea5111aec6cdf4061a273abadeb86ffa8de53cb837edf6824c492ec71586451)**  
 *Yahoo · 1h前*  
-An impassioned defense of Netflix from one of its highest profile investors.
+The fund bought $84.3 million of stock, lifting 21 positions and trimming none, with Meta and both Alphabet share classes the largest additions.
 
 ---
 
@@ -59,4 +59,4 @@ An impassioned defense of Netflix from one of its highest profile investors.
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:03 HKT*
