@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[One New Zealand expands Nokia partnership to accelerate its autonomous networks transformation](https://finnhub.io/api/news?id=a4f3a48d321145930a8f2cc81fa71bfa81d4c1f767204fec6b4a99af19dae93d)**  
-*Yahoo · 1d前*  
-One New Zealand expands Nokia partnership to accelerate its autonomous networks transformation Agreement advances AI-native operations and network autonomy thro…
+- **[Stock Market Today: Nvidia (NVDA) Loses Jensen Huang, and the Chip Sector Starts Picking Winners](https://finnhub.io/api/news?id=62b6223c2eb17956d6d3fe6eb115de70c55d070558f4516d8295ef53a09c53ba)**  
+*ChartMill · 2h前*  
+Nvidia’s board removed CEO Jensen Huang, and the stock recovered most of a 13% opening drop. AMD and Broadcom gained, Super Micro sank on a DOJ report, oil jump…
 
-- **[Nokia vs. Verizon: Which Telecommunications Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=7fda6927e3716fca536623089971bafec6f1a2df8b7df82d88bf4f62927c111a)**  
-*Yahoo · 1d前*  
-Verizon commands massive cash flows but carries heavy debt; Nokia offers leaner finances but faces cyclical spending risks. Which profile suits your 2027 strate…
+- **[What Does Nokia Oyj (HLSE:NOKIA) Winning An AI Network Deal Signal?](https://finnhub.io/api/news?id=3c66ea360d68659cf17c667390a3866cc56a260d09bdf61d4e2ae8b37b074148)**  
+*Yahoo · 14h前*  
+Nokia Oyj (HLSE:NOKIA) has been selected by One New Zealand to deploy autonomous networks solutions for its telecom operations. The agreement focuses on AI nati…
 
-- **[Nokia’s Rebound Faces One Big Test Before the End of 2026](https://finnhub.io/api/news?id=eec0b09f0814d1008703d7562f54852bb9b8cda9989320dde87f203af917dd63)**  
-*Yahoo · 1d前*  
-Nokia clawed back from a brutal November slide, yet one price floor stands between the stock and a year-end revival. Record AI orders and a credit upgrade fuel …
+- **[CoreWeave and Other Stocks in the Nvidia Danger Zone](https://finnhub.io/api/news?id=ccf1b23170959cf27347bac0075f54d5a7a6f5dc14daf9cee21eba9fa19ba3ab)**  
+*Yahoo · 18h前*  
+Shares of companies with ties to the $4 trillion chip maker are dropping as investors wonder what will happen next.
 
 ---
 
@@ -59,4 +59,4 @@ Nokia clawed back from a brutal November slide, yet one price floor stands betwe
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:04 HKT*
