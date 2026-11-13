@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Shares of uranium stocks are trading higher. It was reported last week the US will offer up to $3.4 billion for domestic uranium enrichment.](https://finnhub.io/api/news?id=d6489271bc716b179776330f10d7900771738b73c1014b585c9e965a445aede5)**  
-*Benzinga · 14h前*
-
-- **[Can Oklo (OKLO) Be Below Fair Value After Groves Progress?](https://finnhub.io/api/news?id=7bb5dcd4820162eaa90480ad6c7305a17078878387653f475b6d51fc590374b1)**  
-*Yahoo · 19h前*  
-Oklo has been volatile, with big gains over the past few years and fresh attention on its advanced nuclear projects. The obvious question now is whether the cur…
-
-- **[What Happened To NuScale Power Stock Over The Past Year?](https://finnhub.io/api/news?id=1d30615cb32f8a005742a84db16124f214367b655dfdbd1c139d5fa43480b2c1)**  
-*Yahoo · 21h前*  
+- **[Will NuScale Power Stock's Jump After Earnings Last?](https://finnhub.io/api/news?id=972f9b36678645d5503e7873e0bba76152fd6a9a6569e1b494f136a354c370b6)**  
+*Yahoo · 16h前*  
 For questions about this article or underlying research, email help@trefis.com.
+
+- **[NuScale Power Just Dropped 25% in a Month: Nuke Your Shares Now, or Hunker Down and Hold?](https://finnhub.io/api/news?id=3db196f7da24e74665b1c61454661537e38094251f5c5758dd6e08252c3e0cc2)**  
+*Yahoo · 17h前*  
+NuScale holds the only NRC-certified small modular reactor design and just started building its first commercial module, yet the stock keeps sliding. One pendin…
+
+- **[AMD Soars 6%, Broadcom Up 6% as Nvidia CEO Jensen Huang Exits](https://finnhub.io/api/news?id=3228204b6e8fe0eef48d9eb4f1b0348782120c2fe7e32b9781da8676eab32fc1)**  
+*Yahoo · 19h前*  
+Key TakeawaysAMD shares jumped 6% after Jensen Huang resigned as Nvidia’s CEO, and Broadcom rose with it. IonQ, SoundHound and Oklo fell instead, as investors c…
 
 ---
 
@@ -58,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:04 HKT*
