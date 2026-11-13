@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-13 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Redwire (RDW) Won A $40 Million NASA Moon Base Contract](https://finnhub.io/api/news?id=c74063cf38bb939518e99e60bb25b084066ddc9c3a333767e8d43516d18a8416)**  
-*Yahoo · 1d前*  
-Redwire (NYSE:RDW) secured a $40 million NASA contract to supply Roll-Out Solar Array technology for a planned Moon base. The award extends ROSA power systems f…
+- **[Intuitive Machines Q3 Earnings Call Highlights](https://finnhub.io/api/news?id=10d429f185998b0563f4afed03470b35a14126d002f87537603000b876999c58)**  
+*Yahoo · 15h前*  
+Intuitive Machines (NASDAQ:LUNR) reported third-quarter revenue of $269 million, up 31% from the preceding quarter, as satellite production, lunar delivery and …
 
-- **[Virgin Galactic Holdings shares are trading higher after the company reported better-than-expected Q4 EPS results. Also, it expects the ground test phase for its two new spacecraft in April, with flight test phase in Q3 2026.](https://finnhub.io/api/news?id=73b5c1cc07c61c2ce59e956a296466f8e249475aac91de67fb4ff14efaab4a68)**  
-*Benzinga · 1d前*
+- **[Redwire Space Exec on Significance of Winning $40 Million NASA Moon Base Deal](https://finnhub.io/api/news?id=6c5b8d42eba47af66eaa3a0e3e59c24f4cc9e3759cbe59513b172f7af6d88ad9)**  
+*Yahoo · 20h前*  
+Redwire Space President Mike Gold joins NYSE Live to discuss the company's approximately $40 million NASA award to provide an integrated power generation system…
 
-- **[Redwire Secures New US Army Order For Stalker Drone Sustainment, Training Support – What Investors Need To Know](https://finnhub.io/api/news?id=897d855ec912827586e920d507b01c3067d92cd2142d3d4103c6df0f6be5f871)**  
-*Yahoo · 1d前*  
-The award follows a $15 million order from the same brigade in May, which Redwire said was its third AVCOE order in eight months.
+- **[Should I Buy Rocket Lab Stock Now?](https://finnhub.io/api/news?id=bb4d517e4a710a33e2e5b1453857124c24c3586e3f21cb8cbc4829661bbb525d)**  
+*Yahoo · 21h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -58,4 +59,4 @@ The award follows a $15 million order from the same brigade in May, which Redwir
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-13 21:04 HKT*
