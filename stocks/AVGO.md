@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-13 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$364.36** |
-| 今日變動 | ▲ $19.14　(+5.54%) |
+| 現價 | **$347.01** |
+| 今日變動 | ▼ $17.35　(-4.76%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $142　(▼3.8%) |
+| 未實現盈虧 | ▼ $316　(▼8.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $342.23 | — |
-| Put Wall（支撐） | $350.00 | -3.9% |
-| Call Wall（阻力） | $400.00 | +9.8% |
+| Gamma Flip | $350.76 | — |
+| Put Wall（支撐） | $340.00 | -2.0% |
+| Call Wall（阻力） | $350.00 | +0.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Michael Burry Sends Stark Warning on Chip Stocks After Huang's exit](https://finnhub.io/api/news?id=dc6e2c54ce1ff6924f4ec0b0e0b17cd34665890d674c5ce892173ad3c86c44ae)**  
+- **[Jensen Huang Considers Returning To Nvidia: FT](https://finnhub.io/api/news?id=856aeeff1aeac7e6029821f7e07bba421c2e711a0ee63887355959bb2b6690cc)**  
 *Yahoo · 1h前*  
-Burry warns Nvidia-linked stars like CoreWeave and Nebius could lose their edge
+Jensen Huang reportedly is mulling a return to the chip giant he founded, days after resigning as Nvidia CEO in scandal. How will Nvidia stock react?
 
-- **[AI Chips Update - Micron Highlights AI Leadership At Investor Events](https://finnhub.io/api/news?id=0d9b346d455f3220475ea12e6bfd8a4c07e840c28901704a84c385871cb7ee7a)**  
-*Yahoo · 1h前*  
-Micron Technology, Inc. has announced its participation in several upcoming investor events, including the TomorrowX Summit and the 30th Annual UBS Global Techn…
+- **[Nvidia’s Problem: OpenAI Is “90 Plus Percent Nvidia,” and It’s the Lab Burning Cash](https://finnhub.io/api/news?id=f373592a9b43826f58bad7f61b2f82fb7fc0b1604518e1ffbbe05428883b5a17)**  
+*Yahoo · 4h前*  
+Key TakeawaysOpenAI’s adjusted operating margin is negative 109%; Anthropic’s is about 15% positive on an adjusted basis. OpenAI runs 90-plus percent on NVIDIA;…
 
-- **[Nvidia's Rivals Are Cashing in on Jensen Huang's Exit. AMD Shares Have Jumped 30% This Week](https://finnhub.io/api/news?id=1361d953a2f79a32501097e77d355067f943a6d4ee403fdc78e018e9063beed7)**  
-*Yahoo · 1h前*  
-Analysts say Huang's relationships with major suppliers helped Nvidia secure manufacturing capacity that competitors have struggled to obtain.
+- **[Broadcom Heads 3 Top Growth Stocks To Watch](https://finnhub.io/api/news?id=e56632803684741cf9bff40d6927be171b96e0b7952176dd03aea934bb652645)**  
+*Yahoo · 4h前*  
+Global banks and asset managers are racing to build onchain dollars, as heavily regulated stablecoins move closer to the financial mainstream. That shift puts a…
 
 ---
 
@@ -48,7 +48,7 @@ Analysts say Huang's relationships with major suppliers helped Nvidia secure man
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-13 | 監控 | $364.36 | — | 自動更新 |
+| 2026-11-16 | 監控 | $347.01 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Analysts say Huang's relationships with major suppliers helped Nvidia secure man
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 07:03 HKT*
