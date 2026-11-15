@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-13 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$166.19** |
-| 今日變動 | ▼ $7.54　(-4.34%) |
+| 現價 | **$162.85** |
+| 今日變動 | ▼ $3.34　(-2.01%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▼ $457　(▼12.1%) |
+| 未實現盈虧 | ▼ $524　(▼13.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $178.30 | — |
-| Put Wall（支撐） | $150.00 | -9.7% |
-| Call Wall（阻力） | $200.00 | +20.3% |
+| Gamma Flip | $174.68 | — |
+| Put Wall（支撐） | $150.00 | -7.9% |
+| Call Wall（阻力） | $200.00 | +22.8% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Elon Musk Eyes Jensen Huang After Stunning Nvidia Departure](https://finnhub.io/api/news?id=23cda1e793d4464c1a57a0a940a614bc160285488ce8f862fbc4a215d14939d4)**  
+- **[Nvidia CEO Jensen Huang Resigns as Stock Tanks. Here Are the Next Steps for Investors.](https://finnhub.io/api/news?id=d3898f1e3229a07a933fc07025b85d127ffc6a8f81d5131e8f343d69df2088aa)**  
 *Yahoo · 1h前*  
-A historic leadership shakeup could reshape the AI industry's future.
+In a largely unprecedented development for one of the worldʻs largest companies, hereʻs what investors should do.
 
-- **[Lumentum Stocks Edge Higher as Marvell Deal Spread Widens to 19.7%](https://finnhub.io/api/news?id=614acc0d339a56813f52ed977ae9ec7f0ba3c5bf5f6f19b3e96f4b774050ba74)**  
+- **[Jensen Huang Considers Returning To Nvidia: FT](https://finnhub.io/api/news?id=856aeeff1aeac7e6029821f7e07bba421c2e711a0ee63887355959bb2b6690cc)**  
 *Yahoo · 1h前*  
-Lumentum trades well below the value of the 4.5 Marvell shares it will receive, with closing not expected until 2028.
+Jensen Huang reportedly is mulling a return to the chip giant he founded, days after resigning as Nvidia CEO in scandal. How will Nvidia stock react?
 
-- **[A Once-in-a-Decade Opportunity: 1 Magnificent Dividend Stock Down 30% to Buy Right Now](https://finnhub.io/api/news?id=a92f7caa2662f197353789b1a71adb89637abebf9eb3c51ccca6dd9f5578a0cb)**  
+- **[Jensen Huang may return as Nvidia chief executive - report](https://finnhub.io/api/news?id=8a9ac816922668a56eb6a00fffe0ee30a8ef7590f5757727bbd45c99ae18a271)**  
 *Yahoo · 1h前*  
-Cheerios, Pillsbury, and Blue Buffalo aren't going anywhere, but General Mills stock is priced as if they might.
+Investing.com -- Jensen Huang is weighing a return as Nvidia’s chief executive after resigning last week, as supporters in Silicon Valley push the company’s boa…
 
 ---
 
@@ -48,7 +48,7 @@ Cheerios, Pillsbury, and Blue Buffalo aren't going anywhere, but General Mills s
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-13 | 監控 | $166.19 | — | 自動更新 |
+| 2026-11-16 | 監控 | $162.85 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Cheerios, Pillsbury, and Blue Buffalo aren't going anywhere, but General Mills s
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 07:03 HKT*
