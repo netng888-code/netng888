@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$439.89** |
-| 今日變動 | ▼ $9.64　(-2.14%) |
+| 現價 | **$443.59** |
+| 今日變動 | ▲ $3.70　(+0.84%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $26　(▼2.9%) |
+| 未實現盈虧 | ▼ $19　(▼2.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $422.03 | — |
-| Put Wall（支撐） | $420.00 | -4.5% |
-| Call Wall（阻力） | $440.00 | +0.0% |
+| Gamma Flip | $419.14 | — |
+| Put Wall（支撐） | $440.00 | -0.8% |
+| Call Wall（阻力） | $450.00 | +1.4% |
 
 **狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[10x Genomics' Xenium Platform to Support Breast Cancer Biomarker Study](https://finnhub.io/api/news?id=0ba3db4efc73b7b1e6563da580a03f156ceb09bd7bf165daae908f021d1db607)**  
-*Yahoo · 19h前*  
-TXG's Xenium platform is set to power a 500-patient breast cancer biomarker study, expanding its oncology research footprint and precision diagnostics potential…
+- **[Intuitive Surgical (ISRG) Adds Aaron Martin To Its Board](https://finnhub.io/api/news?id=c80a95f3ae71e5e2b8f5f27834fb015b42b5caf41c42986bf345401969fbc6b1)**  
+*Yahoo · 13h前*  
+Intuitive Surgical (NasdaqGS: ISRG) has appointed Aaron Martin to its board of directors, expanding board membership with a healthcare technology leader. Martin…
 
-- **[Here's Why You Should Retain AMN Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=b099953a770fe4a06764ae42d5fed763d39dfdd434b8a01e977052d7b91ad0e8)**  
-*Yahoo · 21h前*  
-AMN Healthcare's rising staffing demand, expanding MSP opportunities and AI investments support growth, while visa delays and pricing pressures pose challenges.
+- **[GE HealthCare Forms MAGNUS Neuro Alliance to Advance MRI Research](https://finnhub.io/api/news?id=382545d0a955c341c70d9e465641d43b2bc1e7483c82ae6160b1777a5878fe4a)**  
+*Yahoo · 2d前*  
+GEHC's MAGNUS Neuro Alliance aims to advance neuroscience research, expand MRI applications and develop imaging biomarkers for neurological conditions.
 
-- **[Merit Medical Reports Strong Real-World Data for WRAPSODY Device](https://finnhub.io/api/news?id=eddba7ad502b23143be87e5c14bba3171755f5c7e84004aa66c8ec5672a84c9e)**  
-*Yahoo · 21h前*  
-MMSI's WRAPSODY device delivers strong real-world clinical results, outperforming pivotal trial benchmarks and bolstering dialysis access growth prospects.
+- **[Reasons to Hold AngioDynamics Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=fac26e914feb8de06115f95c3e744a8858c01d2c7f72f99fad64b2738b6cb669)**  
+*Yahoo · 2d前*  
+ANGO's strong NanoKnife sales, expanding Med Tech portfolio and solid fiscal Q1 results support growth prospects, despite tariff and inflation pressures.
 
 ---
 
@@ -48,7 +48,7 @@ MMSI's WRAPSODY device delivers strong real-world clinical results, outperformin
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-13 | 監控 | $439.89 | — | 自動更新 |
+| 2026-11-16 | 監控 | $443.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ MMSI's WRAPSODY device delivers strong real-world clinical results, outperformin
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 07:04 HKT*
