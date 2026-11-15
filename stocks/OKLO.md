@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-13 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$24.45** |
-| 今日變動 | ▼ $1.41　(-5.45%) |
+| 現價 | **$23.92** |
+| 今日變動 | ▼ $0.53　(-2.17%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $30.059 |
-| 未實現盈虧 | ▼ $224　(▼18.7%) |
+| 未實現盈虧 | ▼ $246　(▼20.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $24.16 | — |
-| Put Wall（支撐） | $20.00 | -18.2% |
-| Call Wall（阻力） | $25.00 | +2.2% |
+| Gamma Flip | $24.83 | — |
+| Put Wall（支撐） | $20.00 | -16.4% |
+| Call Wall（阻力） | $25.00 | +4.5% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Will NuScale Power Stock's Jump After Earnings Last?](https://finnhub.io/api/news?id=972f9b36678645d5503e7873e0bba76152fd6a9a6569e1b494f136a354c370b6)**  
-*Yahoo · 16h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[Oklo Has Lost 76% in a Year. Wall Street Still Sees $56. Bullish Wedbush Sees Just $36](https://finnhub.io/api/news?id=2f8332a03647ed259cf3010dce5ca190363c29f52f4b3987b47a8f8e8d8d6123)**  
+*Yahoo · 1d前*  
+Key TakeawaysOklo has lost 76% in a year, and analysts’ average price target has fallen from $103 to $56. Wedbush repeated its Outperform rating and $36 target …
 
-- **[NuScale Power Just Dropped 25% in a Month: Nuke Your Shares Now, or Hunker Down and Hold?](https://finnhub.io/api/news?id=3db196f7da24e74665b1c61454661537e38094251f5c5758dd6e08252c3e0cc2)**  
-*Yahoo · 17h前*  
-NuScale holds the only NRC-certified small modular reactor design and just started building its first commercial module, yet the stock keeps sliding. One pendin…
+- **[Centrus Energy (LEU) Lands Multiyear HALEU Deal Backed By Customer Prepayments](https://finnhub.io/api/news?id=3bfce9314cac4e25d5b137ff6c1e892b86a197db0c748209d8c49b8e518106f6)**  
+*Yahoo · 1d前*  
+Centrus Energy (NYSE:LEU) and Oklo signed definitive multi year HALEU supply contracts to support Aurora power projects in Ohio. Meta is providing prepayments t…
 
-- **[AMD Soars 6%, Broadcom Up 6% as Nvidia CEO Jensen Huang Exits](https://finnhub.io/api/news?id=3228204b6e8fe0eef48d9eb4f1b0348782120c2fe7e32b9781da8676eab32fc1)**  
-*Yahoo · 19h前*  
-Key TakeawaysAMD shares jumped 6% after Jensen Huang resigned as Nvidia’s CEO, and Broadcom rose with it. IonQ, SoundHound and Oklo fell instead, as investors c…
+- **[Centrus Energy (LEU) Stock May Look Rich Despite A New Fuel Supply Deal](https://finnhub.io/api/news?id=95475bd88ee2427f367e2d65dd53aef5857359ed0988f81b2483a3d1a03ca413)**  
+*Yahoo · 1d前*  
+Centrus Energy has swung sharply in recent years, and the question now is whether the current share price still matches what its earnings can justify. After a l…
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysAMD shares jumped 6% after Jensen Huang resigned as Nvidia’s CEO,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-13 | 監控 | $24.45 | — | 自動更新 |
+| 2026-11-16 | 監控 | $23.92 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysAMD shares jumped 6% after Jensen Huang resigned as Nvidia’s CEO,
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-13 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 07:04 HKT*
