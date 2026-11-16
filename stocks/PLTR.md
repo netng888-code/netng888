@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$167.99** |
-| 今日變動 | ▼ $3.59　(-2.09%) |
+| 現價 | **$160.39** |
+| 今日變動 | ▼ $7.60　(-4.52%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $244　(▲32.0%) |
+| 未實現盈虧 | ▲ $199　(▲26.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $166.80 | — |
-| Put Wall（支撐） | $160.00 | -4.8% |
-| Call Wall（阻力） | $180.00 | +7.1% |
+| Gamma Flip | $163.94 | — |
+| Put Wall（支撐） | $160.00 | -0.2% |
+| Call Wall（阻力） | $165.00 | +2.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[ETFs Are Buying Palantir (PLTR) on Nov. 12](https://finnhub.io/api/news?id=aaebea80a27a01438dd1a70ae0b782d6a3be815a0305eea20e7184ee7ca1aad1)**  
+- **[Top 3 Growth Stocks To Watch In November 2026](https://finnhub.io/api/news?id=c2914eb58b5706d4977d906bb6fc0f6c552d7315ef29a01355f0cf194a403ad3)**  
+*Yahoo · 1h前*  
+Higher US inflation has kept Treasury yields elevated, which has made some risk assets less appealing and pushed investors to be more selective. That backdrop p…
+
+- **[Direxion and Anthony Pompliano's Silvia Join Forces to Help Investors Rethink Income](https://finnhub.io/api/news?id=a3f5087a794d25eefb10fe2b9ebe7ba696b273ee8307192ea6f0aa85c8ed468f)**  
 *Yahoo · 2h前*  
-ETFs bought $55.4 million of Palantir stock on Thursday, Nov. 12.
+Direxion, a leading provider of specialized ETFs with approximately $70.8 billion in assets under management (as of September 30, 2026), today announced a partn…
 
-- **[Top 3 Quality Stocks To Watch In November 2026](https://finnhub.io/api/news?id=dffc17610724a200f9db6836c3b379b2e54d977eb2c05d21e83766f25917a244)**  
-*Yahoo · 1d前*  
-Credit is getting tighter worldwide as higher interest rates make life harder for heavily indebted borrowers, which puts a spotlight on financially resilient bu…
-
-- **[Top 3 AI Stocks To Watch In November 2026](https://finnhub.io/api/news?id=144d4bf029b734cdd3d28fee4ce042f6e16a8205f176936fe68b5375c89eb034)**  
-*Yahoo · 1d前*  
-Wholesale inflation running at a 6.5% annual rate has put a fresh spotlight on costs, pricing power, and who actually earns real money from AI rather than just …
+- **[Cathie Wood Just Bought $16 Million of Tumbling AI Stock](https://finnhub.io/api/news?id=315050fa5fb173a2b144a200208e9f4f82c04fdc9e6ac9595dc78aaa48524b44)**  
+*Yahoo · 3h前*  
+Cathie Wood Just Poured $16 Million Into CoreWeave After Its Stock Plunged
 
 ---
 
@@ -48,7 +48,7 @@ Wholesale inflation running at a 6.5% annual rate has put a fresh spotlight on c
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-16 | 監控 | $167.99 | — | 自動更新 |
+| 2026-11-17 | 監控 | $160.39 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Wholesale inflation running at a 6.5% annual rate has put a fresh spotlight on c
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 07:05 HKT*
