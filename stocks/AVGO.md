@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$347.01** |
-| 今日變動 | ▼ $17.35　(-4.76%) |
+| 現價 | **$333.40** |
+| 今日變動 | ▼ $13.61　(-3.92%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $316　(▼8.3%) |
+| 未實現盈虧 | ▼ $452　(▼11.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $350.76 | — |
-| Put Wall（支撐） | $340.00 | -2.0% |
-| Call Wall（阻力） | $350.00 | +0.9% |
+| Gamma Flip | $348.48 | — |
+| Put Wall（支撐） | $320.00 | -4.0% |
+| Call Wall（阻力） | $350.00 | +5.0% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What Has Changed About Owning Intel Stock?](https://finnhub.io/api/news?id=fb0ef93d4a3489af2b50fbdc395a54a92a9ef44ade7e79cd4f95555053812e3f)**  
-*Yahoo · 1h前*  
+- **[INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%](https://finnhub.io/api/news?id=1c62335723868c483e22a6ee74ea08e056bfd5df0228ab9486a41ff961d572c2)**  
+*Yahoo · 3h前*  
+Intel is up big this year, yet the fund built to double its moves is sitting in the red. A daily reset quirk explains the gap, and it matters for anyone tempted…
+
+- **[What Mattered Most In Cerebras's Latest Quarter?](https://finnhub.io/api/news?id=271d753a65a39338b956ad4be0dc4ea16d1a6edf746262c2625df3d6b3e0a0f1)**  
+*Yahoo · 3h前*  
 For questions about this article or underlying research, email help@trefis.com.
 
-- **[If Phone Sales Keep Shrinking, What Happens To Your Qualcomm Stock?](https://finnhub.io/api/news?id=fb7d26f11c3fada460f0ef2bf5c704494387a3f46d747ff47f6c6ef7edb8c248)**  
-*Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
-
-- **[Why Did Credo Technology Stock Fall?](https://finnhub.io/api/news?id=d8fd5d216447148d945a24b922b6bf6ddbf2bce4c0e0eae41b4d7dae0536b8f0)**  
-*Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[ACC Granted Leave to Intervene Before EU General Court in Broadcom Legal Privilege Case](https://finnhub.io/api/news?id=78f722ee6a57aa33384e6eb3fa738b111e8564b187afab89fd097f6c48c44151)**  
+*Yahoo · 4h前*  
+The Association of Corporate Counsel will share the perspective of in-house counsel as the Court considers how legal professional privilege applies to legal adv…
 
 ---
 
@@ -48,7 +48,7 @@ For questions about this article or underlying research, email help@trefis.com.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-16 | 監控 | $347.01 | — | 自動更新 |
+| 2026-11-17 | 監控 | $333.40 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
