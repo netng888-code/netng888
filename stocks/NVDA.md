@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia CEO Jensen Huang Resigns as Stock Tanks. Here Are the Next Steps for Investors.](https://finnhub.io/api/news?id=d3898f1e3229a07a933fc07025b85d127ffc6a8f81d5131e8f343d69df2088aa)**  
+- **[Greg Abel's Berkshire Hathaway Still Holds About $18.6 Billion of Chevron Stock After Selling More Than a Third of It](https://finnhub.io/api/news?id=1a813de501f1d26e6e4ccddd9133acba48df0ff7a08c02db10fc4243ab2d61ef)**  
 *Yahoo · 1h前*  
-In a largely unprecedented development for one of the worldʻs largest companies, hereʻs what investors should do.
+Berkshire still holds Chevron as its sixth-largest investment in its equity portfolio.
 
-- **[Jensen Huang Considers Returning To Nvidia: FT](https://finnhub.io/api/news?id=856aeeff1aeac7e6029821f7e07bba421c2e711a0ee63887355959bb2b6690cc)**  
+- **[What Explains The Move In AST SpaceMobile Stock?](https://finnhub.io/api/news?id=c4ccd6ee12203813621f9503a1b3504c930bd353297c248e138df6b361416353)**  
 *Yahoo · 1h前*  
-Jensen Huang reportedly is mulling a return to the chip giant he founded, days after resigning as Nvidia CEO in scandal. How will Nvidia stock react?
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Jensen Huang may return as Nvidia chief executive - report](https://finnhub.io/api/news?id=8a9ac816922668a56eb6a00fffe0ee30a8ef7590f5757727bbd45c99ae18a271)**  
+- **[Why Is Unity Stock Going Up?](https://finnhub.io/api/news?id=1022280d0d1c02da7f9db0a0802da6bce3c54b3bda39a3aefb69aa426b97607d)**  
 *Yahoo · 1h前*  
-Investing.com -- Jensen Huang is weighing a return as Nvidia’s chief executive after resigning last week, as supporters in Silicon Valley push the company’s boa…
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Jensen Huang is weighing a return as Nvidia’s chief executive
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
