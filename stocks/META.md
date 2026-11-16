@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-16 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[By The Way: Headlines You May Have Missed](https://finnhub.io/api/news?id=c4cbc0adef751322c1f07a2adc687e93c5b5b346499e48b76c98df1643800ba9)**  
-*Yahoo · 7h前*  
-AI bots using credit cards, Meta and TikTok's confidential payments to teens, how the wealthy are trying to keep kids at home, and a fundraising drunk raccoon: …
+- **[WisdomTree U.S. Dividend Growth (DGRW) Adds Microsoft and Nvidia on Nov. 12](https://finnhub.io/api/news?id=c7aa21c941604787be28ac6c875d7cf9d92425d6190d75c5dd0850fdd0d1fd2b)**  
+*Yahoo · 1h前*  
+The fund bought $586.1 million of stock and sold nothing, lifting 184 positions.
 
-- **[Italy Fines Meta €805 Million. Why the Legal Route Matters More Than the Money](https://finnhub.io/api/news?id=a498936e53ea3ed4fdca6a85bd53253ce2a008e36c1be9adb80bf7e4f5e2ebb7)**  
-*Yahoo · 9h前*  
-Key TakeawaysItaly fined Meta €805 million (about $887 million) over a Facebook Android feature that accessed users’ photo galleries without specific consent. M…
+- **[ETFs Bought $39.6 Million of Meta (META) on Thursday](https://finnhub.io/api/news?id=bf5d8cd74d1062103d01acc4f4322d32c1d225c42271093d711f7d199f074715)**  
+*Yahoo · 2h前*  
+Invesco QQQ led the buying as 56 ETFs added shares and 14 sold.
 
-- **[Meta (META) Faces $880 Million Italy Fine Over User Photo Access](https://finnhub.io/api/news?id=fad859429428149cf5d992f71ad5b79bbb0b6c98a3ab4207d2d90e88a85d6776)**  
-*Yahoo · 9h前*  
-Meta Platforms (NasdaqGS:META) faces a proposed €880 million fine in Italy over alleged misuse of users' photos and metadata. Italy's data protection authority …
+- **[Global Launch of MatterSeek: Redefining the Materials R&D Paradigm with a Focus on Industrial Viability](https://finnhub.io/api/news?id=a849c6c83e024885eff50877c759805694ebcfd1d3a88b70ab4734d59ab17768)**  
+*Yahoo · 2h前*  
+Yuyao Technology today announced the global launch of MatterSeek, a general-purpose AI platform for the research, design and development of new materials.
 
 ---
 
@@ -59,4 +59,4 @@ Meta Platforms (NasdaqGS:META) faces a proposed €880 million fine in Italy ove
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
