@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$249.55** |
-| 今日變動 | ▼ $14.20　(-5.38%) |
+| 現價 | **$231.90** |
+| 今日變動 | ▼ $17.65　(-7.07%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $788　(▲171.2%) |
+| 未實現盈虧 | ▲ $700　(▲152.1%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $337.67 | — |
-| Put Wall（支撐） | $195.00 | -21.9% |
-| Call Wall（阻力） | $270.00 | +8.2% |
+| Gamma Flip | $332.96 | — |
+| Put Wall（支撐） | $195.00 | -15.9% |
+| Call Wall（阻力） | $270.00 | +16.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[S&P 500 Top Movers for Nov. 13, 2026: Charter Communications Leads Gainers, AMD Leads Losers](https://finnhub.io/api/news?id=be3fdb8d07915e0be2cd4515b98267b2b4974a4811a7553772ecbabacec06658)**  
-*ChartMill · 2d前*  
-S&P 500 top movers on Nov. 13, 2026: Charter Communications led gainers at 4.58%, while Advanced Micro Devices led losers at -9.42%.
+- **[Teradyne to Present at the 2026 UBS Global Technology and AI Conference](https://finnhub.io/api/news?id=7749535313e13b0c1a63de87dad3b73234f8e94e5e7dbd33faa2209bf92e0b44)**  
+*Yahoo · 3h前*  
+NORTH READING, Mass., November 16, 2026--Teradyne, Inc. (NASDAQ:TER) today announced that Greg Smith, Chief Executive Officer, is scheduled to participate in a …
 
-- **[S&P 500 Top Movers: Today's US Session Gainers and Losers](https://finnhub.io/api/news?id=efc0c08c5a5019a16ad710e064b263e08fed80d34e428ee716c24e13eaa6035e)**  
-*ChartMill · 2d前*  
-S&P 500 top movers for today's US session: Charter Communications and Texas Pacific Land lead gainers, while Advanced Micro Devices and Dell lead decliners.
+- **[Teradyne Stocks Drop 6.14% as Advantest's 11% Tokyo Plunge Hits Chip Testers](https://finnhub.io/api/news?id=fef456eab15a9c2129fde9cefdededbe85234335416bf2ce0fd0a5c2d760e396)**  
+*Yahoo · 5h前*  
+Teradyne fell in sympathy with its largest rival after Tokyo's chip selloff, a quarter after AI demand lifted its revenue 70%.
 
-- **[S&P 500 Gap-Down Stocks in the Nov. 13 Session](https://finnhub.io/api/news?id=ebe545aa5ebce7afb67bfb2416115341c53558ac02b667d06d0b106099a69eae)**  
-*ChartMill · 2d前*  
-Nov. 13 S&P 500 gap-down stocks include AMD, Coherent, Dell, Sandisk, Marvell, Lumentum and others, with session losses and several double-digit gaps.
+- **[Vertiv vs. Teradyne: Which AI Infrastructure Stock Is the Better Buy?](https://finnhub.io/api/news?id=26dc9e9db743e7e5653c0703646ea10986a5b4a07c4543967dfc9574c3185e03)**  
+*Yahoo · 7h前*  
+VRT emerges as a stronger AI infrastructure stock than TER, supported by robust order growth, a diversified portfolio, and stronger earnings estimate revisions.
 
 ---
 
@@ -48,7 +48,7 @@ Nov. 13 S&P 500 gap-down stocks include AMD, Coherent, Dell, Sandisk, Marvell, L
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-16 | 監控 | $249.55 | — | 自動更新 |
+| 2026-11-17 | 監控 | $231.90 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nov. 13 S&P 500 gap-down stocks include AMD, Coherent, Dell, Sandisk, Marvell, L
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
