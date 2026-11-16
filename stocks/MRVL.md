@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Why Did Credo Technology Stock Fall?](https://finnhub.io/api/news?id=d8fd5d216447148d945a24b922b6bf6ddbf2bce4c0e0eae41b4d7dae0536b8f0)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
+
+- **[Marvell’s Trillion-Dollar Target](https://finnhub.io/api/news?id=1e7b9d4be69140363f7f827ad1fcb1c798bf60be17ab934c4ec283261e6d3a7a)**  
+*Yahoo · 12h前*  
+Custom silicon company Marvell wants to acquire Lumentum at $115 billion, dwarfing many previous deals in the publicly traded tech space.
+
 - **[Consumer Tech (Nov 9-13): Jensen Resigns From Nvidia Amid Affair Controvery, Microsoft Faces Massive Outage & More](https://finnhub.io/api/news?id=893a165d0928fdc58d83ee73bf65ef865c793c1778bd5f82b7e6a30bbb97d1bb)**  
-*Benzinga · 13h前*  
+*Benzinga · 1d前*  
 Zelenskyy blames Starshield limits for drone threats as AI chip curbs, data-center backlash and Nvidia turmoil reshape tech and auto policy.
-
-- **[Lumentum Holdings (LITE) Heads Into An $82.1 Billion All Stock Takeover](https://finnhub.io/api/news?id=610abd569b8d235f9967d912808768b732cf7f996eb5540fb092a0d46debcf9f)**  
-*Yahoo · 13h前*  
-Lumentum Holdings (NasdaqGS:LITE) agreed to be acquired by Marvell Technology in an all stock transaction valued at $82.1b. Both boards unanimously approved a d…
-
-- **[Marvell CEO Defends $115 Billion Lumentum Deal: “Sometimes Being Unorthodox” Pays Off](https://finnhub.io/api/news?id=ea7b989306f9e5017e485a1e75682f5de954f4cfb0d298145bc468ddb16fcedd)**  
-*Yahoo · 18h前*  
-Key TakeawaysMarvell agreed on November 2 to buy Lumentum in an all-stock deal valuing it at $115 billion, leaving Lumentum holders with about a third of the co…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysMarvell agreed on November 2 to buy Lumentum in an all-stock deal v
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
