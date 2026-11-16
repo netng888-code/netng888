@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Fervo Energy Stock Surged This Week](https://finnhub.io/api/news?id=136a8fcef04f1c9b3b3aa9bf45315a5c9f88dd5aca05f8db9e72e09386884cd5)**  
-*Yahoo · 4h前*  
-The company's signing of an agreement with an industry powerhouse led to fervent investor enthusiasm for Fervo stock.
+- **[Why Is Unity Stock Going Up?](https://finnhub.io/api/news?id=1022280d0d1c02da7f9db0a0802da6bce3c54b3bda39a3aefb69aa426b97607d)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Nvidia’s Problem: OpenAI Is “90 Plus Percent Nvidia,” and It’s the Lab Burning Cash](https://finnhub.io/api/news?id=f373592a9b43826f58bad7f61b2f82fb7fc0b1604518e1ffbbe05428883b5a17)**  
-*Yahoo · 4h前*  
-Key TakeawaysOpenAI’s adjusted operating margin is negative 109%; Anthropic’s is about 15% positive on an adjusted basis. OpenAI runs 90-plus percent on NVIDIA;…
+- **[What Sent CoreWeave Shares Lower?](https://finnhub.io/api/news?id=e096afb1ee8bde545132dfd3649753f13925eedb3cedc7af273290976f9e43d9)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[SpaceX caught Starship from orbit with ‘robot chopsticks’ in a world 1st — but lost its booster in the Gulf of Mexico](https://finnhub.io/api/news?id=d6da09e81d986bd3e0e36c533b314401a7763bf13c8fad26304d4c785bce04ec)**  
-*Yahoo · 4h前*  
-Elon Musk’s company caught its returning Starship in the arms of its Mechazilla launch tower on Nov. 14, but the Super Heavy booster never made it back.
+- **[Reddit Is Down 60% This Year. Time to Buy?](https://finnhub.io/api/news?id=2181007f1e1129e69555f99601635a5cfccb19ee72d7e532c560c4ad1ae204df)**  
+*Yahoo · 1h前*  
+Key TakeawaysReddit stock is down 57% this year as Google’s AI search sends it fewer visitors. Reddit still guided to about 40% fourth-quarter growth, and free …
 
 ---
 
@@ -59,4 +59,4 @@ Elon Musk’s company caught its returning Starship in the arms of its Mechazill
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
