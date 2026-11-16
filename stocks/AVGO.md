@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-16 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jensen Huang Considers Returning To Nvidia: FT](https://finnhub.io/api/news?id=856aeeff1aeac7e6029821f7e07bba421c2e711a0ee63887355959bb2b6690cc)**  
+- **[What Has Changed About Owning Intel Stock?](https://finnhub.io/api/news?id=fb0ef93d4a3489af2b50fbdc395a54a92a9ef44ade7e79cd4f95555053812e3f)**  
 *Yahoo · 1h前*  
-Jensen Huang reportedly is mulling a return to the chip giant he founded, days after resigning as Nvidia CEO in scandal. How will Nvidia stock react?
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Nvidia’s Problem: OpenAI Is “90 Plus Percent Nvidia,” and It’s the Lab Burning Cash](https://finnhub.io/api/news?id=f373592a9b43826f58bad7f61b2f82fb7fc0b1604518e1ffbbe05428883b5a17)**  
-*Yahoo · 4h前*  
-Key TakeawaysOpenAI’s adjusted operating margin is negative 109%; Anthropic’s is about 15% positive on an adjusted basis. OpenAI runs 90-plus percent on NVIDIA;…
+- **[If Phone Sales Keep Shrinking, What Happens To Your Qualcomm Stock?](https://finnhub.io/api/news?id=fb7d26f11c3fada460f0ef2bf5c704494387a3f46d747ff47f6c6ef7edb8c248)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Broadcom Heads 3 Top Growth Stocks To Watch](https://finnhub.io/api/news?id=e56632803684741cf9bff40d6927be171b96e0b7952176dd03aea934bb652645)**  
-*Yahoo · 4h前*  
-Global banks and asset managers are racing to build onchain dollars, as heavily regulated stablecoins move closer to the financial mainstream. That shift puts a…
+- **[Why Did Credo Technology Stock Fall?](https://finnhub.io/api/news?id=d8fd5d216447148d945a24b922b6bf6ddbf2bce4c0e0eae41b4d7dae0536b8f0)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ Global banks and asset managers are racing to build onchain dollars, as heavily 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
