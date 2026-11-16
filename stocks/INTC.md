@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-16 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intel (INTC) Stock Sees Fair Value Falls After Guidance And Operational Issues](https://finnhub.io/api/news?id=882c900a0c1e85029f0f3b62ff747548813166754c78081ab2feb6f965a6cb6b)**  
-*Yahoo · 19h前*  
-Intel’s latest valuation reset has pulled estimated fair value down from about US$107.21 to about US$90.65, putting fresh focus on how much risk investors are w…
+- **[What Has Changed About Owning Intel Stock?](https://finnhub.io/api/news?id=fb0ef93d4a3489af2b50fbdc395a54a92a9ef44ade7e79cd4f95555053812e3f)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Why Intel CEO Lip-Bu Tan has 22 meetings a day — and what you can learn from it](https://finnhub.io/api/news?id=d7e201fe748ad8b16b3b083c8d6450b3d10d440111fa6f4c54d96cc108d56d52)**  
-*Yahoo · 1d前*  
-Intel CEO Lip-Bu Tan is a tech warrior. Learn from him.
+- **[What Is Micron Building That Investors Should Watch?](https://finnhub.io/api/news?id=e94800c4ff77fb6952704d8dec35c17ac394e982a7b4e34004ef50d44a97d6cf)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Soros’ Fund Made Intel Its Biggest Stock Bet Right Before It Halved](https://finnhub.io/api/news?id=0e5b6f1f3bcdf3e10aa6115575ebd127f9a7e22d02e5dab7ce75677221235749)**  
-*Yahoo · 1d前*  
-Soros Fund Management bought Intel aggressively over the summer, then watched a guidance shock wipe out the thesis. The filing reveals what the fund held, but t…
+- **[If Phone Sales Keep Shrinking, What Happens To Your Qualcomm Stock?](https://finnhub.io/api/news?id=fb7d26f11c3fada460f0ef2bf5c704494387a3f46d747ff47f6c6ef7edb8c248)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ Soros Fund Management bought Intel aggressively over the summer, then watched a 
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
