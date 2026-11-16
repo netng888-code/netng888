@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-16 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Where Will Intuitive Surgical Be in 10 Years? Hint: Its da Vinci 5 Installed Base Just Topped 2,000](https://finnhub.io/api/news?id=20d4f6ecf6e4e20de9a503a91849234743d99902b7d1b0faaf7f5e268b686b27)**  
+*Yahoo · 14h前*  
+Intuitive Surgical is struggling. Its newest da Vinci system is.
+
 - **[Intuitive Surgical (ISRG) Adds Aaron Martin To Its Board](https://finnhub.io/api/news?id=c80a95f3ae71e5e2b8f5f27834fb015b42b5caf41c42986bf345401969fbc6b1)**  
-*Yahoo · 13h前*  
+*Yahoo · 1d前*  
 Intuitive Surgical (NasdaqGS: ISRG) has appointed Aaron Martin to its board of directors, expanding board membership with a healthcare technology leader. Martin…
 
 - **[GE HealthCare Forms MAGNUS Neuro Alliance to Advance MRI Research](https://finnhub.io/api/news?id=382545d0a955c341c70d9e465641d43b2bc1e7483c82ae6160b1777a5878fe4a)**  
 *Yahoo · 2d前*  
 GEHC's MAGNUS Neuro Alliance aims to advance neuroscience research, expand MRI applications and develop imaging biomarkers for neurological conditions.
-
-- **[Reasons to Hold AngioDynamics Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=fac26e914feb8de06115f95c3e744a8858c01d2c7f72f99fad64b2738b6cb669)**  
-*Yahoo · 2d前*  
-ANGO's strong NanoKnife sales, expanding Med Tech portfolio and solid fiscal Q1 results support growth prospects, despite tariff and inflation pressures.
 
 ---
 
@@ -59,4 +59,4 @@ ANGO's strong NanoKnife sales, expanding Med Tech portfolio and solid fiscal Q1 
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
