@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$295.77** |
-| 今日變動 | ▼ $2.93　(-0.98%) |
+| 現價 | **$283.72** |
+| 今日變動 | ▼ $12.05　(-4.07%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $1,015　(▲20.7%) |
+| 未實現盈虧 | ▲ $774　(▲15.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $297.43 | — |
-| Put Wall（支撐） | $290.00 | -2.0% |
-| Call Wall（阻力） | $300.00 | +1.4% |
+| Gamma Flip | $295.85 | — |
+| Put Wall（支撐） | $280.00 | -1.3% |
+| Call Wall（阻力） | $300.00 | +5.7% |
 
-**狀態：⚠️ 負Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Is Unity Stock Going Up?](https://finnhub.io/api/news?id=1022280d0d1c02da7f9db0a0802da6bce3c54b3bda39a3aefb69aa426b97607d)**  
+- **[What's dragging down the S&P 500? Apple in focus](https://finnhub.io/api/news?id=247299d1ab30b189136329f7a2f877cabe730885cc260e39bc2ee29038a00a3f)**  
 *Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Yahoo Finance Markets and Data Editor Jared Blikre joins Deirdre Bosa on Deirdre Bosa Live to discuss Apple's (AAPL) influence on the S&P 500 (^GSPC). Blikre ex…
 
-- **[What Sent CoreWeave Shares Lower?](https://finnhub.io/api/news?id=e096afb1ee8bde545132dfd3649753f13925eedb3cedc7af273290976f9e43d9)**  
+- **[The cost of ousting a founder: Is the 'bank of Nvidia' at risk?](https://finnhub.io/api/news?id=6efbcfd3ef79aa754c5377906727bca8e3d8b534fb19688829cd30eb2af4ba06)**  
 *Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Benchmark Company general partner Bill Gurley sits down with Deirdre Bosa to share his thoughts on circular financing concerns surrounding Nvidia (NVDA), especi…
 
-- **[Reddit Is Down 60% This Year. Time to Buy?](https://finnhub.io/api/news?id=2181007f1e1129e69555f99601635a5cfccb19ee72d7e532c560c4ad1ae204df)**  
+- **[ServiceNow Stock’s (NOW) Historic Sell-Off May Have Gone Too Far](https://finnhub.io/api/news?id=dc235adc1b3d4da11003739d3be80fe7f0351ca22024054cc5e706c7d27c4633)**  
 *Yahoo · 1h前*  
-Key TakeawaysReddit stock is down 57% this year as Google’s AI search sends it fewer visitors. Reddit still guided to about 40% fourth-quarter growth, and free …
+ServiceNow (NOW) stock’s historic sell-off looks excessive to me. The enterprise workflow software provider disappointed investors with its Q3 earnings and outl…
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysReddit stock is down 57% this year as Google’s AI search sends it
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-16 | 監控 | $295.77 | — | 自動更新 |
+| 2026-11-17 | 監控 | $283.72 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysReddit stock is down 57% this year as Google’s AI search sends it
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
