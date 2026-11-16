@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-16 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -39,7 +39,7 @@ Redwire (NYSE:RDW) appointed William Mahoney as Chief Technology Officer to lead
 Firefly's $1.4 billion backlog and Redwire's 45.8% revenue growth point to very different bets, and the valuation gap may be the deciding factor.
 
 - **[Did Revenue Miss Just Shift Redwire (RDW) Investment Narrative?](https://finnhub.io/api/news?id=0f48d7b8c5ebac84bf1888bc7f028ba58e9004fad399d8744899d207251f45c9)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Redwire Corporation recently reported third quarter 2026 sales of US$109.04 million and a net loss of US$23.18 million, reaffirming full year revenue guidance o…
 
 ---
@@ -59,4 +59,4 @@ Redwire Corporation recently reported third quarter 2026 sales of US$109.04 mill
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
