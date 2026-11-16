@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-16 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -59,4 +59,4 @@ Nov. 13 S&P 500 gap-down stocks include AMD, Coherent, Dell, Sandisk, Marvell, L
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
