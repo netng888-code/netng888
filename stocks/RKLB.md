@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-16 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Just Hit 100 Launches. A Successful Neutron Debut Could Make 2027 Its Biggest Year Yet](https://finnhub.io/api/news?id=a5a4cbed756848f33286ad46b4dd50cb92946725a332f09eda4d25ca8e9fb4b7)**  
-*Yahoo · 6h前*  
-Rocket Lab's Electron has proved the business can repeat, yet the stock trails the rocket. One delayed vehicle, a flawed tank dome, and a punishing valuation st…
+- **[Not SpaceX. Not Blue Origin. The Space Stock That Just Raised Its Launch Price to $70 Million -- and Still Sold Out.](https://finnhub.io/api/news?id=8248554c6cc93582bf12f72ac9a2b448ac37e930ef0a2b02d94a8330394be333)**  
+*Yahoo · 2h前*  
+Rocket Lab raised its prices on a rocket that hasn’t even flown, and customers are still lining up.
 
-- **[SpaceX Just Lost a Starship Booster. Is Rocket Lab Stock the Better Bet?](https://finnhub.io/api/news?id=7077ab8af49d4b9662accd8565a3185902a74515e20bef72ad74e1ee566d0391)**  
-*Yahoo · 1d前*  
-SpaceX stumbled on a booster catch while Rocket Lab's rival rocket still sits on the ground. Record backlog and billions in cash say one thing, but a sky-high m…
+- **[ASTS, RKLB, LUNR And FLY Fall After ULA Rocket Failure Strands 40 Amazon Satellites — Why One Analyst Wants Musk To Free Up Falcon 9 Flights](https://finnhub.io/api/news?id=43965a616900b3643519d96518c0e9882e3aa923d9afc1d45027bb641bf91230)**  
+*Yahoo · 7h前*  
+Satellite industry analyst Tim Farrar urged Elon Musk to guarantee Falcon 9 flights for outside customers, suggesting 50 or more a year.
 
-- **[Cathie Wood and 7 Others Bought Aerospace Stocks. Rocket Lab Is 59% Below Its High. Time to Buy?](https://finnhub.io/api/news?id=b0e1baacb8b8609c7887a21a227a9d708c8f3507832901dfb131afbd3621c878)**  
-*Yahoo · 1d前*  
-Key TakeawaysCathie Wood’s ARK Invest more than doubled its Rocket Lab stake in the third quarter, and seven other funds bought SpaceX or Honeywell Aerospace, a…
+- **[Rocket Lab (RKLB) Nears Its 100th Electron Launch](https://finnhub.io/api/news?id=4e3f80145bc205872cb8fb634e6d85b6846162d1f1fdb4a58a77010189a20853)**  
+*Yahoo · 10h前*  
+Rocket Lab (NasdaqGS:RKLB) is preparing for its 100th Electron rocket launch, marking a new global benchmark for small-lift orbital vehicles. The Electron miles…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysCathie Wood’s ARK Invest more than doubled its Rocket Lab stake i
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
