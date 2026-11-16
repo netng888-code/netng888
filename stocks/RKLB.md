@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-16 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$61.53** |
-| 今日變動 | ▼ $2.54　(-3.96%) |
+| 現價 | **$57.37** |
+| 今日變動 | ▼ $4.16　(-6.76%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $145　(▼19.0%) |
+| 未實現盈虧 | ▼ $186　(▼24.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $60.97 | — |
-| Put Wall（支撐） | $60.00 | -2.5% |
-| Call Wall（阻力） | $65.00 | +5.6% |
+| Gamma Flip | $60.55 | — |
+| Put Wall（支撐） | $50.00 | -12.8% |
+| Call Wall（阻力） | $65.00 | +13.3% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Not SpaceX. Not Blue Origin. The Space Stock That Just Raised Its Launch Price to $70 Million -- and Still Sold Out.](https://finnhub.io/api/news?id=8248554c6cc93582bf12f72ac9a2b448ac37e930ef0a2b02d94a8330394be333)**  
+- **[Rocket Lab Sinks 7%, AST SpaceMobile Down 12% as Tech Selloff and Vulcan Failure Hit Space Stocks](https://finnhub.io/api/news?id=46513ff84ef9fbea9d77b8b89270556444a3211ecab3f513e95f19f3569689bd)**  
+*Yahoo · 1h前*  
+Key TakeawaysRocket Lab fell 7% in a tech selloff, two days after its 100th Electron launch, and AST SpaceMobile fell harder. A United Launch Alliance Vulcan fa…
+
+- **[Air Traffic Control Is Complex. Ground Stop Impact Goes Beyond L3Harris Stock.](https://finnhub.io/api/news?id=8945b16b646c58d5258e69437022a54d5c6afbd7eb81f9b33a0f9aff521f211f)**  
 *Yahoo · 2h前*  
-Rocket Lab raised its prices on a rocket that hasn’t even flown, and customers are still lining up.
+Overall, 65% of analysts covering L3Harris stock rate shares Buy. Shares have fallen, however, following Friday’s airport paralysis.
 
-- **[ASTS, RKLB, LUNR And FLY Fall After ULA Rocket Failure Strands 40 Amazon Satellites — Why One Analyst Wants Musk To Free Up Falcon 9 Flights](https://finnhub.io/api/news?id=43965a616900b3643519d96518c0e9882e3aa923d9afc1d45027bb641bf91230)**  
-*Yahoo · 7h前*  
-Satellite industry analyst Tim Farrar urged Elon Musk to guarantee Falcon 9 flights for outside customers, suggesting 50 or more a year.
-
-- **[Rocket Lab (RKLB) Nears Its 100th Electron Launch](https://finnhub.io/api/news?id=4e3f80145bc205872cb8fb634e6d85b6846162d1f1fdb4a58a77010189a20853)**  
-*Yahoo · 10h前*  
-Rocket Lab (NasdaqGS:RKLB) is preparing for its 100th Electron rocket launch, marking a new global benchmark for small-lift orbital vehicles. The Electron miles…
+- **[Down 60% From Its 52-Week High, Is Rocket Lab Stock a Bargain Buy?](https://finnhub.io/api/news?id=9dce65a9c75019dbc19658014fff81472552378b597ac53ae322ce1000716201)**  
+*Yahoo · 2h前*  
+Rocket Lab is coming off an impressive quarter, which highlighted its tremendous growth opportunities in space.
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab (NasdaqGS:RKLB) is preparing for its 100th Electron rocket launch, ma
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-16 | 監控 | $61.53 | — | 自動更新 |
+| 2026-11-17 | 監控 | $57.37 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab (NasdaqGS:RKLB) is preparing for its 100th Electron rocket launch, ma
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-16 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
