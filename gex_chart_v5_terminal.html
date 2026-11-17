@@ -702,13 +702,27 @@
     (4) 貼入超過1500字（送出時會截短）加琥珀色提示；(5) 兩處「升級到v3.17.2」字樣改v3.17.3。
     向後兼容：純標題舊格式bridge照收，當時間未知。⚠️ 要bridge打咗patch_why_news_v3173.py先有窗口分類；
     未打補丁嘅話，新格式整行會被當成純標題（時間未知），唔會壞。
+  v5.46（2026-11-10）：四項改動，配合futu_bridge_v2.py v3.17.4（patch_bridge_gexguard_v3174.py）。
+    (1)【GEX Wall失真防呆】Put Wall高過Call Wall，或任一Wall偏離現價>40%（同telegram_bot.py v1.25
+       check_gex_proximity同一邏輯）→ Key Levels狀態卡顯示「⚠️ GEX 水平失真」+原因，Call/Put卡唔再寫
+       「已確認突破／跌穿」，到期日曆「持倉快照」同K線GEX橫線標題（加⚠）同步。背景：2026-11-10 MRVL近2個到期日
+       Put Wall $175高過Call Wall $149同現價$152.5，狀態卡同時顯示「已確認突破Call牆」＋「已確認跌穿Put牆」。
+    (2)【趨勢橫幅口徑】橫幅尾加「口徑：近N個到期日」。bridge v3.17.4起快照按到期日數分開記錄，唔再出現
+       「Net GEX −1.8M → −16.1M（↓793%）」（近2個同近8個混比）。
+    (3)【AI文字 markdown】新增renderAiText()：`**粗體**`轉<b>、去掉`### 標題`同反引號，AI分析卡同「點解升跌」卡共用；
+       AI分析卡順手加HTML escape。
+    (4)【暗色主題可讀性】--muted由#4a5568（對暗色底對比度約2.4～2.6:1）改#94a3b8（約6.9～7.6:1）；新增--faint做「更淡嘅輔助文字」
+       （暗#7d8aa3／白#5d697a／陰#566070，對各底色對比度約4.9～5.6:1），取代舊版11處color:var(--border2)（border2本身係邊框色，用做字色對比度極低，
+       白天主題亦睇唔清）；全檔font-size<12px嘅宣告一律+0.5～2px（8→10、9→10.5、9.5→11、10→11、10.5→11.5、11→12、
+       11.5→12.5），Chart.js刻度字體9→10、10→11；GEX by Strike圖Spot/Flip/Call/Put標籤改按文字闊度畫底，11px字唔會爆框。
+    ⚠️ (1)(2)嘅bridge部分要打patch_bridge_gexguard_v3174.py先完整；未打嘅話，前端失真提示照常，但AI分析文字仍可能引用失真Wall。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.45)</title>
+<title>GEX Chart — Futu Bridge (v5.46)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -730,7 +744,7 @@
   --blue:#2563eb;--purple:#7c3aed;--white:#0f172a;
   --accent:#0d9488;--pink:#db2777;--magenta:#a21caf;
   --hover:rgba(0,0,0,.04);--neu-bg:rgba(0,0,0,.05);--shadow-edge:rgba(0,0,0,.15);
-  --grid:rgba(0,0,0,.08);--badge-ink:#ffffff;
+  --grid:rgba(0,0,0,.08);--badge-ink:#ffffff;--faint:#5d697a;
   --font-mono:'JetBrains Mono',monospace;
   --font-display:'Syne',sans-serif;
   color-scheme:light;
@@ -743,7 +757,7 @@
 :root[data-theme="dark"] {
   --bg:#0a0c10;--bg2:#0f1218;--bg3:#141820;
   --border:#1e2430;--border2:#252d3a;
-  --text:#c8d4e8;--muted:#4a5568;
+  --text:#c8d4e8;--muted:#94a3b8;--faint:#7d8aa3;
   --green:#00d4aa;--red:#ff4d6d;--amber:#f5a623;
   --blue:#4a9eff;--purple:#a78bfa;--white:#ffffff;
   --accent:#00d4aa;--pink:#ec4899;--magenta:#d946ef;
@@ -759,13 +773,13 @@
   --blue:#3468b8;--purple:#6d4fc2;--white:#1b2430;
   --accent:#2f8f86;--pink:#be2a73;--magenta:#8f1a9c;
   --hover:rgba(0,0,0,.05);--neu-bg:rgba(0,0,0,.06);--shadow-edge:rgba(0,0,0,.2);
-  --grid:rgba(0,0,0,.09);--badge-ink:#ffffff;
+  --grid:rgba(0,0,0,.09);--badge-ink:#ffffff;--faint:#566070;
   color-scheme:light;
 }
 /* 主題掣（v5.30） */
 .theme-switch{display:flex;gap:6px;justify-content:flex-end;margin-bottom:8px;}
 .theme-btn{background:var(--bg2);border:1px solid var(--border);color:var(--muted);
-  font-family:var(--font-mono);font-size:11px;padding:5px 11px;border-radius:6px;
+  font-family:var(--font-mono);font-size:12px;padding:5px 11px;border-radius:6px;
   cursor:pointer;transition:all .15s;white-space:nowrap;}
 .theme-btn:hover{border-color:var(--accent);color:var(--text);}
 .theme-btn.active{border-color:var(--accent);color:var(--accent);background:var(--bg3);font-weight:700;}
@@ -781,7 +795,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 header{display:flex;align-items:flex-end;justify-content:space-between;
   border-bottom:1px solid var(--border);padding-bottom:16px;margin-bottom:20px;}
 .h-left h1{font-family:var(--font-display);font-size:24px;font-weight:800;color:var(--white);}
-.h-left .sub{font-size:10px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:3px;}
+.h-left .sub{font-size:11px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:3px;}
 #clock{font-size:18px;color:var(--green);letter-spacing:.05em;}
 
 /* Search bar */
@@ -793,15 +807,15 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 .sym-input::placeholder{color:var(--muted);font-weight:400;text-transform:none;}
 .t1live-pill{display:flex;align-items:center;gap:10px;background:var(--bg2);border:1px solid var(--border);
   border-radius:6px;padding:8px 16px;white-space:nowrap;}
-.t1live-pill .t1l-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;line-height:1.3;}
+.t1live-pill .t1l-label{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;line-height:1.3;}
 .t1live-pill .t1l-price{font-size:17px;font-weight:700;color:var(--white);font-family:var(--font-display);line-height:1.3;}
-.t1live-pill .t1l-chg{font-size:11px;font-weight:600;margin-left:2px;}
+.t1live-pill .t1l-chg{font-size:12px;font-weight:600;margin-left:2px;}
 /* 到期日數量選擇器（v5.4新增，配合bridge v2.7嘅max_expirations參數） */
 .exp-select-wrap{display:flex;align-items:center;gap:6px;background:var(--bg2);border:1px solid var(--border);
   border-radius:6px;padding:0 10px;height:38px;}
-.exp-select-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;}
+.exp-select-label{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;}
 .exp-select{background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--text);
-  font-family:var(--font-mono);font-size:11px;padding:5px 6px;outline:none;cursor:pointer;}
+  font-family:var(--font-mono);font-size:12px;padding:5px 6px;outline:none;cursor:pointer;}
 .exp-select:focus{border-color:var(--green);}
 .btn{background:rgba(0,212,170,.1);border:1px solid var(--green);border-radius:6px;
   color:var(--green);font-family:var(--font-mono);font-size:13px;font-weight:700;
@@ -811,14 +825,14 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 .btn-sec:hover{border-color:var(--amber);color:var(--amber);}
 .quick-btns{display:flex;gap:6px;flex-wrap:wrap;}
 .qbtn{background:var(--bg3);border:1px solid var(--border);border-radius:4px;
-  color:var(--muted);font-family:var(--font-mono);font-size:11px;
+  color:var(--muted);font-family:var(--font-mono);font-size:12px;
   padding:6px 10px;cursor:pointer;transition:all .2s;}
 .qbtn:hover{border-color:var(--blue);color:var(--blue);}
 
 /* Status pill */
 .status-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px;align-items:center;}
 .pill{display:flex;align-items:center;gap:5px;background:var(--bg3);
-  border:1px solid var(--border);border-radius:4px;padding:4px 10px;font-size:11px;color:var(--muted);}
+  border:1px solid var(--border);border-radius:4px;padding:4px 10px;font-size:12px;color:var(--muted);}
 .dot{width:6px;height:6px;border-radius:50%;background:var(--muted);}
 .dot.live{background:var(--green);animation:blink 2s infinite;}
 .dot.err{background:var(--red);}
@@ -827,7 +841,7 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 /* Key levels cards */
 .levels{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:20px;}
 .fund-row{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:20px;}
-.fund-src{font-size:9.5px;color:var(--muted);margin-top:5px;line-height:1.5;font-weight:400;font-family:var(--font-mono);}
+.fund-src{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.5;font-weight:400;font-family:var(--font-mono);}
 .lcard{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;text-align:center;position:relative;}
 .lcard::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;border-radius:0 0 8px 8px;}
 .lcard.spot::after{background:var(--white);}
@@ -836,9 +850,9 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 .lcard.put::after{background:var(--red);}
 .lcard.status-card::after{background:var(--purple);}
 .lcard.fund::after{background:var(--blue);}
-.lc-label{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;}
+.lc-label{font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;}
 .lc-val{font-size:20px;font-weight:700;font-family:var(--font-display);line-height:1;}
-.lc-sub{font-size:10px;color:var(--muted);margin-top:4px;}
+.lc-sub{font-size:11px;color:var(--muted);margin-top:4px;}
 .lc-val.spot-clr{color:var(--white);}
 .lc-val.flip-clr{color:var(--amber);}
 .lc-val.call-clr{color:var(--green);}
@@ -847,19 +861,19 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 /* Chart */
 .chart-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:10px;
   padding:20px;margin-bottom:16px;position:relative;}
-.chart-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px;
+.chart-title{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px;
   display:flex;align-items:center;justify-content:space-between;}
 .chart-canvas-wrap{position:relative;height:420px;}
 canvas{width:100%!important;}
 
 /* Legend */
 .chart-legend{display:flex;gap:16px;margin-top:12px;flex-wrap:wrap;}
-.leg-item{display:flex;align-items:center;gap:6px;font-size:10px;color:var(--muted);}
+.leg-item{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted);}
 .leg-swatch{width:24px;height:10px;border-radius:2px;}
 .leg-line{width:24px;height:2px;border-top:2px dashed var(--muted);}
 
 /* Range filter */
-.range-bar{display:flex;align-items:center;gap:10px;font-size:11px;color:var(--muted);}
+.range-bar{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);}
 .range-bar label{color:var(--muted);}
 input[type=range]{accent-color:var(--green);width:120px;}
 
@@ -871,7 +885,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .err-msg{color:var(--red);}
 
 /* Info table */
-.info-table{width:100%;border-collapse:collapse;font-size:11px;}
+.info-table{width:100%;border-collapse:collapse;font-size:12px;}
 .info-table td{padding:6px 10px;border-bottom:1px solid var(--border);}
 .info-table tr:last-child td{border-bottom:none;}
 .info-table .k{color:var(--muted);width:140px;}
@@ -881,12 +895,12 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .qlinks{margin-bottom:18px;}
 .qlink-group{margin-bottom:10px;}
 .qlink-group:last-child{margin-bottom:0;}
-.qlink-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;
+.qlink-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;
   margin-bottom:6px;display:flex;align-items:center;gap:8px;}
-.qlink-label .cnt{color:var(--border2);font-weight:400;}
+.qlink-label .cnt{color:var(--faint);font-weight:400;}
 .qlink-row{display:flex;gap:6px;flex-wrap:wrap;}
 .qbtn2{background:var(--bg3);border:1px solid var(--border);border-radius:4px;
-  color:var(--muted);font-family:var(--font-mono);font-size:11px;font-weight:600;
+  color:var(--muted);font-family:var(--font-mono);font-size:12px;font-weight:600;
   padding:6px 11px;cursor:pointer;transition:all .15s;letter-spacing:.02em;}
 .qbtn2:hover{border-color:var(--blue);color:var(--blue);}
 .qbtn2.active{background:rgba(0,212,170,.12);border-color:var(--green);color:var(--green);}
@@ -896,57 +910,57 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .hold-item .qbtn2{border-radius:4px 0 0 4px;}
 .rbtn{display:inline-flex;align-items:center;justify-content:center;width:26px;height:28px;
   background:var(--bg3);border:1px solid var(--border);border-left:none;border-radius:0 4px 4px 0;
-  color:var(--muted);text-decoration:none;font-size:11px;transition:all .15s;}
+  color:var(--muted);text-decoration:none;font-size:12px;transition:all .15s;}
 .rbtn:hover{border-color:var(--purple);color:var(--purple);}
 /* v5.30：OptionCharts外鏈（OC）——同📄並排，中間掣冇右圓角 */
 .hold-item .rbtn:not(:last-child){border-radius:0;}
-.rbtn.oc{width:30px;font-size:9px;font-weight:700;letter-spacing:.02em;}
+.rbtn.oc{width:30px;font-size:10.5px;font-weight:700;letter-spacing:.02em;}
 .rbtn.oc:hover{border-color:var(--blue);color:var(--blue);}
 .lnk.oc:hover{border-color:var(--blue);color:var(--blue);}
 
 /* Section divider / eyebrow */
 .section-eyebrow{display:flex;align-items:center;gap:10px;margin:22px 0 12px;}
-.section-eyebrow .txt{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;}
+.section-eyebrow .txt{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;}
 .section-eyebrow .line{height:1px;background:var(--border);flex:1;}
-.section-eyebrow .tag{font-size:9px;color:var(--bg);background:var(--purple);border-radius:3px;padding:2px 6px;font-weight:700;letter-spacing:.04em;}
+.section-eyebrow .tag{font-size:10.5px;color:var(--bg);background:var(--purple);border-radius:3px;padding:2px 6px;font-weight:700;letter-spacing:.04em;}
 
 /* AI 分析（v5.4新增，bridge v2.7 /api/ai_analysis endpoint） */
 .ai-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:16px 18px;margin-bottom:16px;position:relative;overflow:hidden;}
 .ai-wrap::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--purple);}
 .ai-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;flex-wrap:wrap;gap:8px;}
-.ai-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;}
+.ai-title{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;}
 .ai-btn{background:rgba(167,139,250,.1);border:1px solid var(--purple);border-radius:6px;color:var(--purple);
   font-family:var(--font-mono);font-size:12px;font-weight:700;padding:8px 18px;cursor:pointer;transition:all .2s;letter-spacing:.03em;}
 .ai-btn:hover{background:rgba(167,139,250,.2);}
 .ai-btn:disabled{opacity:.5;cursor:not-allowed;}
 .ai-body{font-size:12.5px;color:var(--text);line-height:1.75;min-height:24px;}
-.ai-placeholder{color:var(--muted);font-size:11.5px;}
-.ai-meta{font-size:9.5px;color:var(--border2);margin-top:10px;text-align:right;}
+.ai-placeholder{color:var(--muted);font-size:12.5px;}
+.ai-meta{font-size:11px;color:var(--faint);margin-top:10px;text-align:right;}
 
 /* Money Flow Dashboard */
 .mf-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px;}
 .mf-card{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;position:relative;overflow:hidden;}
 .mf-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--purple);}
-.mf-label{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:8px;
+.mf-label{font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:8px;
   display:flex;justify-content:space-between;align-items:center;}
-.mf-src{font-size:8px;color:var(--border2);text-transform:none;letter-spacing:0;}
+.mf-src{font-size:10px;color:var(--faint);text-transform:none;letter-spacing:0;}
 .mf-val{font-size:19px;font-weight:700;font-family:var(--font-display);line-height:1;margin-bottom:4px;}
-.mf-sub{font-size:10px;color:var(--muted);}
+.mf-sub{font-size:11px;color:var(--muted);}
 .mf-bar-track{height:6px;border-radius:3px;background:var(--bg3);margin-top:9px;overflow:hidden;display:flex;}
 .mf-bar-fill{height:100%;transition:width .3s;}
-.mf-empty{color:var(--border2);font-size:10px;padding:10px 2px;}
+.mf-empty{color:var(--faint);font-size:11px;padding:10px 2px;}
 
 /* Price Chart（Lightweight Charts v5：K線+MA+MACD+GEX橫線）*/
 .pc-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:10px;
   padding:16px 16px 12px;margin-bottom:16px;}
 .pc-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;}
-.pc-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;}
+.pc-title{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;}
 .pc-interval-row{display:flex;gap:5px;}
 .pc-ibtn{background:var(--bg3);border:1px solid var(--border);border-radius:3px;color:var(--muted);
-  font-family:var(--font-mono);font-size:10px;padding:5px 10px;cursor:pointer;transition:all .15s;}
+  font-family:var(--font-mono);font-size:11px;padding:5px 10px;cursor:pointer;transition:all .15s;}
 .pc-ibtn:hover{color:var(--text);}
 .pc-ibtn.active{background:rgba(74,158,255,.12);border-color:var(--blue);color:var(--blue);}
-.pc-legend{display:flex;gap:14px;margin-top:10px;flex-wrap:wrap;font-size:10px;color:var(--muted);}
+.pc-legend{display:flex;gap:14px;margin-top:10px;flex-wrap:wrap;font-size:11px;color:var(--muted);}
 .pc-legend .sw{display:inline-block;width:18px;height:2px;margin-right:5px;vertical-align:middle;}
 /* K線圖height由480→640px（v5.4）：加咗RSI做第3個pane，原本480px
    俾K線+MACD兩個pane已經夠迫，加多個pane唔加高會全部擠埋。 */
@@ -954,7 +968,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 /* 布林線/RSI 顯示切換掣（v5.4新增） */
 .pc-toggle-row{display:flex;gap:5px;}
 .pc-toggle-btn{background:var(--bg3);border:1px solid var(--border);border-radius:3px;color:var(--muted);
-  font-family:var(--font-mono);font-size:10px;padding:5px 10px;cursor:pointer;transition:all .15s;}
+  font-family:var(--font-mono);font-size:11px;padding:5px 10px;cursor:pointer;transition:all .15s;}
 .pc-toggle-btn:hover{color:var(--text);}
 .pc-toggle-btn.on{background:rgba(167,139,250,.12);border-color:var(--purple);color:var(--purple);}
 
@@ -1020,11 +1034,11 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .rt-ticker-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;
   margin-bottom:14px;overflow:hidden;}
 .rt-ticker-label{display:flex;align-items:center;justify-content:space-between;gap:10px;
-  font-size:8px;color:var(--border2);text-transform:uppercase;letter-spacing:.1em;
+  font-size:10px;color:var(--faint);text-transform:uppercase;letter-spacing:.1em;
   padding:6px 12px 0;}
 .rt-ticker-label a{color:var(--blue);text-decoration:none;letter-spacing:.06em;
   border:1px solid var(--border);border-radius:3px;padding:2px 7px;text-transform:none;
-  font-size:9px;}
+  font-size:10.5px;}
 .rt-ticker-label a:hover{border-color:var(--blue);}
 .rt-ticker-body{overflow:hidden;}
 .rt-ticker-track-outer{overflow:hidden;padding:9px 0 11px;}
@@ -1035,24 +1049,24 @@ input[type=range]{accent-color:var(--green);width:120px;}
   font-family:var(--font-mono);font-size:12px;border-right:1px solid var(--border);}
 .rt-flag{font-size:12px;}
 .rt-code{color:var(--white);font-weight:700;letter-spacing:.02em;}
-.rt-name{color:var(--muted);font-size:10.5px;}
+.rt-name{color:var(--muted);font-size:11.5px;}
 .rt-price{color:var(--text);font-feature-settings:'tnum';}
-.rt-chg{font-weight:600;font-size:11px;font-feature-settings:'tnum';}
+.rt-chg{font-weight:600;font-size:12px;font-feature-settings:'tnum';}
 .rt-chg.pos{color:var(--green);} .rt-chg.neg{color:var(--red);}
-.rt-proxy-tag{font-size:9px;color:var(--amber);}
-.rt-ticker-offline{padding:13px 16px;font-size:11.5px;color:var(--muted);
+.rt-proxy-tag{font-size:10.5px;color:var(--amber);}
+.rt-ticker-offline{padding:13px 16px;font-size:12.5px;color:var(--muted);
   text-align:center;line-height:1.6;}
 
 /* 快速連結 Bar（v6新增） */
 .quicklinks-bar{display:flex;align-items:center;gap:10px;background:var(--bg2);
   border:1px solid var(--border);border-radius:8px;padding:10px 16px;
   margin-bottom:14px;flex-wrap:wrap;}
-.ql-label{font-size:11px;color:var(--muted);text-transform:uppercase;
+.ql-label{font-size:12px;color:var(--muted);text-transform:uppercase;
   letter-spacing:.08em;white-space:nowrap;margin-right:2px;}
 .ql-divider{width:1px;height:18px;background:var(--border2);}
 .ql-link{display:flex;align-items:center;gap:7px;background:var(--bg3);
   border:1px solid var(--border);border-radius:6px;padding:7px 13px;
-  text-decoration:none;color:var(--text);font-size:11.5px;font-weight:500;
+  text-decoration:none;color:var(--text);font-size:12.5px;font-weight:500;
   transition:all .15s;white-space:nowrap;font-family:var(--font-mono);}
 .ql-link:hover{border-color:var(--green);color:var(--green);}
 .ql-icon{font-size:13px;}
@@ -1060,12 +1074,12 @@ input[type=range]{accent-color:var(--green);width:120px;}
 /* 全域狀態列 */
 .sbar{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap;}
 .reset-btn{background:var(--bg3);border:1px solid var(--border);border-radius:4px;
-  color:var(--muted);font-family:var(--font-mono);font-size:11px;padding:5px 12px;
+  color:var(--muted);font-family:var(--font-mono);font-size:12px;padding:5px 12px;
   cursor:pointer;transition:all .2s;margin-left:auto;}
 .reset-btn:hover{border-color:var(--amber);color:var(--amber);}
 .reset-btn:disabled{opacity:.5;cursor:not-allowed;}
 .dot.warn{background:var(--amber);animation:blink 2s infinite;}
-.sess{padding:2px 8px;border-radius:3px;font-size:10px;font-weight:600;letter-spacing:.03em;}
+.sess{padding:2px 8px;border-radius:3px;font-size:11px;font-weight:600;letter-spacing:.03em;}
 .sess-pre{background:rgba(74,158,255,.12);color:var(--blue);}
 .sess-regular{background:rgba(0,212,170,.12);color:var(--green);}
 .sess-after{background:rgba(245,166,35,.12);color:var(--amber);}
@@ -1084,19 +1098,19 @@ input[type=range]{accent-color:var(--green);width:120px;}
 /* 持倉總覽：Summary Cards */
 .scards{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px;}
 .scard{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;}
-.sc-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;}
+.sc-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;}
 .sc-val{font-size:20px;font-weight:700;font-family:var(--font-display);color:var(--white);}
-.sc-sub{font-size:11px;color:var(--muted);margin-top:3px;}
+.sc-sub{font-size:12px;color:var(--muted);margin-top:3px;}
 
 /* 持倉總覽：控制列 + 圖例 */
 .ctrl{display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap;}
 .refresh-btn{background:var(--bg2);border:1px solid var(--border);border-radius:4px;color:var(--text);
-  font-family:var(--font-mono);font-size:10px;padding:5px 12px;cursor:pointer;transition:all .2s;}
+  font-family:var(--font-mono);font-size:11px;padding:5px 12px;cursor:pointer;transition:all .2s;}
 .refresh-btn:hover{border-color:var(--accent);color:var(--accent);}
 .refresh-btn.primary{background:rgba(0,212,170,.08);border-color:var(--accent);color:var(--accent);}
-.legend{display:flex;gap:12px;margin-left:auto;font-size:10px;color:var(--muted);flex-wrap:wrap;}
+.legend{display:flex;gap:12px;margin-left:auto;font-size:11px;color:var(--muted);flex-wrap:wrap;}
 .leg{display:flex;align-items:center;gap:4px;}
-.leg::before{content:'●';font-size:8px;}
+.leg::before{content:'●';font-size:10px;}
 .leg-pre::before{color:var(--blue);} .leg-reg::before{color:var(--green);}
 .leg-aft::before{color:var(--amber);} .leg-ovn::before{color:var(--purple);}
 
@@ -1104,7 +1118,7 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .tbl-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;overflow-x:auto;margin-bottom:16px;}
 .tbl-wrap table{width:100%;border-collapse:collapse;font-size:12px;}
 .tbl-wrap thead tr{background:var(--bg3);border-bottom:1px solid var(--border2);}
-.tbl-wrap thead th{padding:9px 12px;text-align:right;font-size:10px;font-weight:500;letter-spacing:.06em;
+.tbl-wrap thead th{padding:9px 12px;text-align:right;font-size:11px;font-weight:500;letter-spacing:.06em;
   text-transform:uppercase;color:var(--muted);white-space:nowrap;}
 .tbl-wrap thead th:first-child,.tbl-wrap thead th:nth-child(2){text-align:left;}
 .tbl-wrap tbody tr{border-bottom:1px solid var(--border);}
@@ -1129,12 +1143,12 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .tbl-wrap tbody tr:hover td:first-child{background:linear-gradient(var(--hover),var(--hover)),var(--bg2);}
 .tbl-wrap tbody tr.total-row td:first-child{background:linear-gradient(rgba(0,212,170,.04),rgba(0,212,170,.04)),var(--bg2);}
 .sym{font-weight:700;color:var(--blue);cursor:pointer;}
-.earn-tag{display:block;font-size:9.5px;font-weight:500;color:var(--muted);margin-top:2px;white-space:nowrap;letter-spacing:0;}
+.earn-tag{display:block;font-size:11px;font-weight:500;color:var(--muted);margin-top:2px;white-space:nowrap;letter-spacing:0;}
 .earn-tag.soon{color:var(--amber);}
 .earn-tag.urgent{color:var(--red);font-weight:700;}
 .sym:hover{color:var(--accent);}
 .t1-cell{font-weight:600;color:var(--white);}
-.chg-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;margin-left:4px;}
+.chg-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:12px;margin-left:4px;}
 .chg-badge.pos{background:rgba(0,212,170,.12);color:var(--green);}
 .chg-badge.neg{background:rgba(255,77,109,.12);color:var(--red);}
 .chg-badge.neu{background:var(--neu-bg);color:var(--muted);}
@@ -1142,20 +1156,20 @@ input[type=range]{accent-color:var(--green);width:120px;}
 .cost-cell{color:var(--muted);}
 .mv-cell{color:var(--white);font-weight:500;}
 .pnl-pos{color:var(--green);} .pnl-neg{color:var(--red);} .pnl-neu{color:var(--muted);}
-.pct-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;}
+.pct-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:12px;}
 .pct-badge.pos{background:rgba(0,212,170,.1);color:var(--green);}
 .pct-badge.neg{background:rgba(255,77,109,.1);color:var(--red);}
 .pct-badge.neu{background:var(--neu-bg);color:var(--muted);}
 .act{display:flex;gap:4px;}
-.lnk{font-size:9px;color:var(--muted);text-decoration:none;border:1px solid var(--border);border-radius:3px;
+.lnk{font-size:10.5px;color:var(--muted);text-decoration:none;border:1px solid var(--border);border-radius:3px;
   padding:2px 5px;transition:all .15s;}
 .lnk:hover{border-color:var(--amber);color:var(--amber);}
 .loading{padding:30px;text-align:center;color:var(--muted);font-size:12px;}
 
 /* 到期日曆：距今日子分級底色（v5.20新增） + 持倉快照欄 */
-.cal-daylegend{display:flex;gap:14px;flex-wrap:wrap;font-size:10px;color:var(--muted);margin:2px 0 12px;}
+.cal-daylegend{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:var(--muted);margin:2px 0 12px;}
 .cal-daylegend .dl-swatch{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:4px;vertical-align:-2px;}
-.tbl-wrap td.cal-snap-td{text-align:left;white-space:normal;line-height:1.6;max-width:260px;min-width:200px;font-size:11px;vertical-align:top;}
+.tbl-wrap td.cal-snap-td{text-align:left;white-space:normal;line-height:1.6;max-width:260px;min-width:200px;font-size:12px;vertical-align:top;}
 /* v5.21新增：cal-table用table-layout:fixed令頭4欄（股票/到期日/距今/
    類型）固定較窄闊度，唔會因為持倉快照欄好闊而被auto layout拉到
    同樣咁闊、令欄與欄之間睇落好似隔好遠（用戶反映嘅Bug 1）。淨係
@@ -1171,14 +1185,14 @@ input[type=range]{accent-color:var(--green);width:120px;}
 /* Field Inspector */
 .fi-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:16px;}
 .col-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;margin-bottom:16px;}
-.col-item{background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:8px 10px;font-size:11px;}
+.col-item{background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:8px 10px;font-size:12px;}
 .col-item.hi-pre{border-color:var(--blue);} .col-item.hi-aft{border-color:var(--amber);}
 .col-item.hi-ovn{border-color:var(--purple);}
-.raw-j{background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:12px;font-size:11px;
+.raw-j{background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:12px;font-size:12px;
   color:var(--muted);white-space:pre-wrap;word-break:break-all;max-height:400px;overflow-y:auto;}
 
 footer{margin-top:20px;display:flex;align-items:center;justify-content:space-between;
-  font-size:10px;color:var(--muted);letter-spacing:.04em;padding-top:14px;border-top:1px solid var(--border);}
+  font-size:11px;color:var(--muted);letter-spacing:.04em;padding-top:14px;border-top:1px solid var(--border);}
 
 @media(max-width:1100px){.scards{grid-template-columns:repeat(2,1fr);}}
 @media(max-width:900px){.levels{grid-template-columns:repeat(3,1fr);}.fund-row{grid-template-columns:repeat(2,1fr);}.mf-grid{grid-template-columns:1fr;}}
@@ -1201,7 +1215,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
       <button class="theme-btn" data-theme="cloudy" title="陰天主題">☁️ 陰天</button>
     </div>
     <div id="clock">--:--:--</div>
-    <div id="datep" style="font-size:10px;color:var(--muted);margin-top:2px">讀取中...</div>
+    <div id="datep" style="font-size:11px;color:var(--muted);margin-top:2px">讀取中...</div>
   </div>
 </header>
 
@@ -1400,7 +1414,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 
 <!-- Dealer Gamma / 資金流趨勢（v5.11新增，同上次快照day-over-day比較） -->
 <div class="ai-wrap" id="trend-banner" style="display:none;padding:12px 18px">
-  <div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px">📈 Dealer Gamma／資金流趨勢 <span style="color:var(--border2);text-transform:none;letter-spacing:0">· 同上次有記錄嘅交易日比較</span></div>
+  <div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px">📈 Dealer Gamma／資金流趨勢 <span style="color:var(--faint);text-transform:none;letter-spacing:0">· 同上次有記錄嘅交易日比較</span></div>
   <div id="trend-banner-body" style="font-size:12.5px;color:var(--text);line-height:1.9"></div>
 </div>
 
@@ -1422,7 +1436,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <button class="ai-btn" id="why-btn" onclick="runWhyMoving()">🔎 分析最近交易日走勢</button>
   </div>
   <textarea id="why-extra" rows="3" placeholder="（可選）貼上新聞，每行一條。建議格式：publish_time｜來源｜標題&#10;publish_time 用 Futu MCP news_search 回傳嘅13位數字原樣貼，系統會按走勢窗口分類（窗口內／收市後／窗口前）&#10;例：1793989860000｜Barron's｜Why the Marvell and Lumentum Megadeal ...&#10;純標題都收，但會當「時間未知」；建議一次貼10行以內"
-    style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--text);font-family:var(--font-mono);font-size:11px;padding:8px 10px;margin-bottom:10px;resize:vertical;outline:none"></textarea>
+    style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--text);font-family:var(--font-mono);font-size:12px;padding:8px 10px;margin-bottom:10px;resize:vertical;outline:none"></textarea>
   <div class="ai-body" id="why-body">
     <span class="ai-placeholder">按「分析」——系統會先用統計拆開：大市 / 板塊 / 公司特定 / 10Y / WTI / BTC / Dealer倉位，每個因素俾出「主要／次要／不支持／證據不足」，再由AI按證據講解。證據唔夠就會明講，唔會硬編原因。</span>
   </div>
@@ -1481,7 +1495,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <div class="pc-wrap" id="pc-wrap" style="display:none">
   <div class="pc-head">
     <span class="pc-title" id="pc-title">K線 + GEX橫線</span>
-    <span style="font-size:9px;color:var(--blue);background:rgba(74,158,255,.1);border:1px solid var(--blue);border-radius:3px;padding:2px 6px;letter-spacing:.04em" title="分鐘線x軸時間已轉做香港時間顯示（日/週/月線維持美股交易日期）">🕐 時間軸：HKT</span>
+    <span style="font-size:10.5px;color:var(--blue);background:rgba(74,158,255,.1);border:1px solid var(--blue);border-radius:3px;padding:2px 6px;letter-spacing:.04em" title="分鐘線x軸時間已轉做香港時間顯示（日/週/月線維持美股交易日期）">🕐 時間軸：HKT</span>
     <div class="pc-toggle-row">
       <button class="pc-toggle-btn on" id="pc-toggle-bb">布林線</button>
       <button class="pc-toggle-btn on" id="pc-toggle-rsi">RSI</button>
@@ -1503,8 +1517,8 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <span><span class="sw" style="background:var(--blue)"></span>MA20</span>
     <span><span class="sw" style="background:var(--purple)"></span>MA60</span>
     <span><span class="sw" style="background:var(--muted);border-top:1px dashed var(--muted);height:0"></span>布林線(20,2σ)</span>
-    <span><span class="sw" style="background:rgba(0,212,170,0.5)"></span>成交量 <span style="color:var(--border2)">· 貼pane底部</span></span>
-    <span><span class="sw" style="background:var(--magenta)"></span>RSI(14) <span style="color:var(--border2)">· 獨立pane，30/70參考線</span></span>
+    <span><span class="sw" style="background:rgba(0,212,170,0.5)"></span>成交量 <span style="color:var(--faint)">· 貼pane底部</span></span>
+    <span><span class="sw" style="background:var(--magenta)"></span>RSI(14) <span style="color:var(--faint)">· 獨立pane，30/70參考線</span></span>
     <span><span class="sw" style="background:var(--white);border-top:2px dashed var(--white);height:0"></span>Gamma Flip</span>
     <span><span class="sw" style="background:var(--green);border-top:2px dashed var(--green);height:0"></span>Call Wall</span>
     <span><span class="sw" style="background:var(--red);border-top:2px dashed var(--red);height:0"></span>Put Wall</span>
@@ -1561,7 +1575,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
       <span class="leg leg-aft">盤後</span>
       <span class="leg leg-ovn">夜盤</span>
     </div>
-    <span style="font-size:10px;color:var(--muted);margin-left:auto" id="us-src">—</span>
+    <span style="font-size:11px;color:var(--muted);margin-left:auto" id="us-src">—</span>
   </div>
   <div id="us-content"><div class="loading"><span class="spin"></span>連接 Bridge...</div></div>
 
@@ -1581,7 +1595,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <span class="tag">NEW</span>
     <div class="line"></div>
   </div>
-  <div style="font-size:11px;color:var(--muted);margin-bottom:14px;line-height:1.6">
+  <div style="font-size:12px;color:var(--muted);margin-bottom:14px;line-height:1.6">
     整合全部18隻持倉嘅期權到期日（未來45日內）。GEX Wall建基於期權OI，OPEX一過相關到期日嘅OI會「roll off」，Call/Put Wall好可能大幅跳動——留意🟢Monthly／🟣Quarterly（Triple Witching）呢兩類，OI通常最大、Max Pain磁吸效應最明顯。
   </div>
   <div class="ctrl">
@@ -1591,7 +1605,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
       <span class="leg" style="color:var(--green)">🟢 Monthly OPEX</span>
       <span class="leg" style="color:var(--muted)">⚪ Weekly</span>
     </div>
-    <span style="font-size:10px;color:var(--muted);margin-left:auto" id="cal-src">—</span>
+    <span style="font-size:11px;color:var(--muted);margin-left:auto" id="cal-src">—</span>
   </div>
   <div class="cal-daylegend">
     <span>距今日子（顯示喺「股票」欄）：</span>
@@ -1608,12 +1622,12 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
 <!-- ══════════════ FIELD INSPECTOR TAB ══════════════ -->
 <div class="pane" id="pane-fi">
   <div class="fi-wrap">
-    <div style="font-size:10px;color:var(--muted);margin-bottom:6px">
+    <div style="font-size:11px;color:var(--muted);margin-bottom:6px">
       Futu <code style="color:var(--amber)">get_market_snapshot()</code> 所有欄位。高亮：
       <span style="color:var(--amber)">盤前</span> · <span style="color:var(--blue)">盤後</span> · <span style="color:var(--purple)">夜盤</span>
     </div>
     <div class="col-grid" id="col-grid">等待 API 回應...</div>
-    <div style="font-size:10px;color:var(--muted);margin:10px 0 4px">第一隻美股原始 JSON（T1/T2/T3 確認）</div>
+    <div style="font-size:11px;color:var(--muted);margin:10px 0 4px">第一隻美股原始 JSON（T1/T2/T3 確認）</div>
     <div class="raw-j" id="raw-json">—</div>
   </div>
 </div>
@@ -1660,6 +1674,20 @@ function applyTheme(t, persist) {
 // BREAKOUT_BUFFER_PCT（AI prompt/compute_wall_status()用嗰個）
 // 保持同一數值，兩邊人手同步。
 const BREAKOUT_BUFFER_PCT = 0.5;
+
+// v5.46：GEX Wall失真防呆——同telegram_bot.py v1.25 check_gex_proximity、futu_bridge_v2.py v3.17.4
+// gex_walls_distorted()同一邏輯（三個檔案各自一份，人手同步）。Put Wall高過Call Wall，或任一Wall偏離
+// 現價>40%，Wall概念已經失效，唔應該再顯示「已確認突破／跌穿」（MRVL 2026-11-10：近2個到期日
+// Put Wall $175高過Call Wall $149同現價，狀態卡同時顯示突破同跌穿）。
+const GEX_WALL_MAX_DEV_PCT = 40;
+function gexWallsDistorted(price, putWall, callWall) {
+  if (!price || price <= 0 || !putWall || !callWall) return null;
+  if (putWall > callWall) return `Put Wall $${Number(putWall).toFixed(2)} 高過 Call Wall $${Number(callWall).toFixed(2)}`;
+  const dc = Math.abs(callWall - price) / price * 100;
+  const dp = Math.abs(price - putWall) / price * 100;
+  if (dc > GEX_WALL_MAX_DEV_PCT || dp > GEX_WALL_MAX_DEV_PCT) return `Wall偏離現價超過${GEX_WALL_MAX_DEV_PCT}%`;
+  return null;
+}
 
 // ── Global Indices Ticker（v5.3新增，取代TradingView widget）──────
 // poll futu_bridge_v2.py /api/real_indices，同global-indices.html
@@ -2121,7 +2149,7 @@ function fmtFund(sym, r) {
 
   // Sector：淨係Finnhub有
   const sectorTxt = fh.sector
-    ? `<span style="color:var(--muted);font-size:11px">${fh.sector}</span>` : '—';
+    ? `<span style="color:var(--muted);font-size:12px">${fh.sector}</span>` : '—';
 
   // FCF（v5.41新增，v5.42擴展）：fcf_ttm單位百萬美元，正綠負紅。fcf_basis：
   //   ttm／sec_ttm＝真TTM（唔加標籤）；annual＝年度數字「(年)」；derived＝Finnhub市值÷P/FCF推算「(估)」
@@ -2129,7 +2157,7 @@ function fmtFund(sym, r) {
   const fm0 = fcfMoney(fh.fcf_ttm);
   if (fm0) {
     const tag = fh.fcf_basis === 'annual' ? '(年)' : fh.fcf_basis === 'derived' ? '(估)' : '';
-    const basisTag = tag ? `<span style="color:var(--muted);font-size:10px">${tag}</span>` : '';
+    const basisTag = tag ? `<span style="color:var(--muted);font-size:11px">${tag}</span>` : '';
     fcfTxt = `<span class="${fm0.cls}" style="font-weight:600">${fm0.txt}</span>${basisTag}`;
   }
 
@@ -2139,7 +2167,7 @@ function fmtFund(sym, r) {
   if (t && t.q != null) {
     const fq = fcfMoney(t.q);
     const parts = [`最新季 <span class="${fq.cls}" style="font-weight:600">${fq.txt}</span>` +
-      (t.end ? `<span style="font-size:10px">（截至${t.end.slice(5)}）</span>` : '')];
+      (t.end ? `<span style="font-size:11px">（截至${t.end.slice(5)}）</span>` : '')];
     const qoq = fcfChg(t.q, t.prev_q);   if (qoq) parts.push(`QoQ ${qoq}`);
     const yoy = fcfChg(t.q, t.yoy_q);    if (yoy) parts.push(`YoY ${yoy}`);
     const ty  = fcfChg(t.ttm, t.ttm_prev); if (ty) parts.push(`TTM YoY ${ty}`);
@@ -2284,11 +2312,11 @@ function renderUS(rows) {
   <thead><tr>
     <th>代碼</th><th>持股</th>
     <th class="${cfg.rowCls}" style="min-width:130px">${cfg.icon} T1 LIVE（時段輪動）</th>
-    <th style="min-width:100px">T2 收盤<br><span style="font-size:8px;color:var(--muted)">不變，每天一次</span></th>
-    <th style="min-width:100px">T3 前日收盤<br><span style="font-size:8px;color:var(--muted)">不變，每天一次</span></th>
+    <th style="min-width:100px">T2 收盤<br><span style="font-size:10px;color:var(--muted)">不變，每天一次</span></th>
+    <th style="min-width:100px">T3 前日收盤<br><span style="font-size:10px;color:var(--muted)">不變，每天一次</span></th>
     <th>成本價</th><th>市值 (USD)</th><th>未實現盈虧</th><th>未實 %</th>
-    <th>今日盈虧<br><span style="font-size:8px;color:var(--muted)">(T1−T2)×持股</span></th>
-    <th style="text-align:left;min-width:190px">基本面<br><span style="font-size:8px;color:var(--muted)">P/E・EPS・Div・FCF・Growth・Sector${fcfHint?`<br><span style="color:var(--red)">${fcfHint}</span>`:''}</span></th>
+    <th>今日盈虧<br><span style="font-size:10px;color:var(--muted)">(T1−T2)×持股</span></th>
+    <th style="text-align:left;min-width:190px">基本面<br><span style="font-size:10px;color:var(--muted)">P/E・EPS・Div・FCF・Growth・Sector${fcfHint?`<br><span style="color:var(--red)">${fcfHint}</span>`:''}</span></th>
     <th>操作</th>
   </tr></thead><tbody>`;
 
@@ -2335,7 +2363,7 @@ function renderUS(rows) {
     const T1badge = T1_chg_pct!=null
       ? `<span class="chg-badge ${hCls(T1_chg_pct)}">${T1_chg_pct>=0?'+':''}${T1_chg_pct.toFixed(2)}% ${T1_chg_lbl}</span>` : '';
     const T2badge = T2_chg_pct!=null
-      ? `<span style="font-size:9px;color:var(--muted);margin-left:4px">${T2_chg_pct>=0?'+':''}${T2_chg_pct.toFixed(2)}%</span>` : '';
+      ? `<span style="font-size:10.5px;color:var(--muted);margin-left:4px">${T2_chg_pct>=0?'+':''}${T2_chg_pct.toFixed(2)}%</span>` : '';
 
     const fund = fmtFund(sym, r);
 
@@ -2350,7 +2378,7 @@ function renderUS(rows) {
       <td class="${uCls==='pos'?'pnl-pos':uCls==='neg'?'pnl-neg':'pnl-neu'}">${fm(unrealized)}</td>
       <td><span class="pct-badge ${uCls}">${unrPct>=0?'+':''}${unrPct.toFixed(2)}%</span></td>
       <td class="td-pnl ${tCls==='pos'?'pnl-pos':tCls==='neg'?'pnl-neg':'pnl-neu'}">${fm(todayPnl)}</td>
-      <td style="text-align:left;font-size:11px;line-height:1.6;white-space:normal;color:var(--muted)">${fundCellHtml(fund)}</td>
+      <td style="text-align:left;font-size:12px;line-height:1.6;white-space:normal;color:var(--muted)">${fundCellHtml(fund)}</td>
       <td><div class="act">
         <a class="lnk" href="https://www.tradingview.com/chart/?symbol=${sym}" target="_blank" rel="noopener" title="${sym} TradingView圖表">TV</a>
         <a class="lnk" href="https://finviz.com/quote.ashx?t=${sym}" target="_blank" rel="noopener" title="${sym} Finviz">FV</a>
@@ -2407,11 +2435,11 @@ function renderHK(rows) {
       <td style="color:var(--muted)">${hF2(r.prev_close_price)}</td>
       <td class="${chgc==='pos'?'pnl-pos':chgc==='neg'?'pnl-neg':'pnl-neu'}">${r.change_val!=null?(Number(r.change_val)>=0?'+':'')+hF2(r.change_val):'—'}</td>
       <td><span class="pct-badge ${chgc}">${hFp(r.change_rate)}</span></td>
-      <td style="font-size:10px;color:var(--muted)">${hF2(r.open_price)}/${hF2(r.high_price)}/${hF2(r.low_price)}</td>
-      <td style="color:var(--muted);font-size:10px">${fvol(r.volume)}</td>
-      <td style="font-size:10px;color:var(--muted)">${r.bid_price?hF2(r.bid_price):'—'} × ${r.ask_price?hF2(r.ask_price):'—'}</td>
-      <td style="font-size:9px;color:var(--muted)">${r.sec_status||''}</td>
-      <td style="font-size:9px;color:var(--muted)">${upd}</td>
+      <td style="font-size:11px;color:var(--muted)">${hF2(r.open_price)}/${hF2(r.high_price)}/${hF2(r.low_price)}</td>
+      <td style="color:var(--muted);font-size:11px">${fvol(r.volume)}</td>
+      <td style="font-size:11px;color:var(--muted)">${r.bid_price?hF2(r.bid_price):'—'} × ${r.ask_price?hF2(r.ask_price):'—'}</td>
+      <td style="font-size:10.5px;color:var(--muted)">${r.sec_status||''}</td>
+      <td style="font-size:10.5px;color:var(--muted)">${upd}</td>
     </tr>`;
   }
   html+='</tbody></table></div>';
@@ -2466,7 +2494,7 @@ async function fetchNow() {
     setStatus(false,false);
     const msg=`<div class="loading" style="color:var(--red)">
       ⚠ 無法連接 Bridge (127.0.0.1:8888)<br>
-      <span style="font-size:10px;color:var(--muted)">
+      <span style="font-size:11px;color:var(--muted)">
         1. pip install futu-api fastapi uvicorn<br>
         2. python futu_bridge.py<br>
         3. 確保 OpenD 已開啟並登入<br>
@@ -2871,11 +2899,12 @@ function renderGexPriceLines(d, priceRange) {
     }
   });
 
+  const _wallsBad = gexWallsDistorted(d.spot, d.put_wall, d.call_wall);   // v5.46
   merged.forEach(l => {
     pcPriceLines.push(pcCandle.createPriceLine({
       price: l.price, color: l.color, lineWidth: 4,
       lineStyle: LightweightCharts.LineStyle.LargeDashed,
-      axisLabelVisible: true, title: l.title,
+      axisLabelVisible: true, title: (_wallsBad && /Call|Put|Flip/.test(l.title)) ? l.title + '⚠' : l.title,
     }));
   });
 }
@@ -2945,7 +2974,7 @@ async function loadGex(sym) {
     document.getElementById('d-br').className='dot err';
     document.getElementById('t-br').textContent='Bridge: 失敗';
     setMsg(`<span class="err-msg">⚠ 查詢失敗：${e.message}</span><br>
-      <span style="font-size:11px;color:var(--muted)">確認 futu_bridge.py 正在運行，OpenD 已登入</span>`);
+      <span style="font-size:12px;color:var(--muted)">確認 futu_bridge.py 正在運行，OpenD 已登入</span>`);
   }
 }
 
@@ -3051,8 +3080,17 @@ function renderAll(d, lq, sym) {
     else if (underPutPct > 0) statusStr += `\n🟠 測試Put牆支撐中（僅低${underPutPct.toFixed(2)}%，屬雜訊範圍）`;
     else if (-underPutPct < 1.5) statusStr += '\n🟢 逼近Put牆';
   }
+  // v5.46：GEX失真防呆——Put Wall高過Call Wall或Wall偏離現價>40%，唔作突破／跌穿／Gamma判斷
+  const wallsBad = gexWallsDistorted(spot, putWall, callWall);
+  if (wallsBad) {
+    statusStr = '⚠️ GEX 水平失真\n唔作突破／跌穿／Gamma判斷';
+    const cwNote = cwDist != null ? (cwDist >= 0 ? `低${cwDist.toFixed(1)}%` : `高${Math.abs(cwDist).toFixed(1)}%`) : '';
+    const pwNote = pwDist != null ? (pwDist >= 0 ? `高${pwDist.toFixed(1)}%` : `低${Math.abs(pwDist).toFixed(1)}%`) : '';
+    document.getElementById('lv-call-sub').textContent = `⚠ 失真，唔作突破判斷（現價${cwNote}）`;
+    document.getElementById('lv-put-sub').textContent  = `⚠ 失真，唔作跌穿判斷（現價${pwNote}）`;
+  }
   document.getElementById('lv-status').innerHTML = statusStr.replace(/\n/g,'<br>');
-  document.getElementById('lv-status-sub').textContent = `Futu Live GEX`;
+  document.getElementById('lv-status-sub').textContent = wallsBad ? wallsBad : `Futu Live GEX`;
 
   // Chart
   document.getElementById('chart-wrap').style.display='';
@@ -3116,6 +3154,8 @@ function renderTrendBanner(gexTrend, mfTrend) {
     el.style.display = '';
     return;
   }
+  const _expN = (document.getElementById('exp-select') || {}).value || '2';   // v5.46
+  parts.push(`<span style="color:var(--faint);font-size:12px">（口徑：近${_expN}個到期日，唔同到期日數分開比較）</span>`);
   body.innerHTML = parts.join('&nbsp;&nbsp;·&nbsp;&nbsp;');
   el.style.display = '';
 }
@@ -3204,7 +3244,7 @@ async function runAiAnalysis() {
     const r = await fetch(`${BRIDGE}/api/ai_analysis/${sym}?${params.toString()}`, {signal:AbortSignal.timeout(70000)});
     const j = await r.json();
     if (j.error) throw new Error(j.error);
-    body.innerHTML = (j.analysis || '（AI冇回覆內容）').replace(/\n/g, '<br>');
+    body.innerHTML = renderAiText(j.analysis || '（AI冇回覆內容）');
     // v5.16：「數據時間」= 呢次攞GEX/現價嗰一刻bridge server端嘅
     // 時間戳（d.ts，epoch秒），「分析生成」= AI回覆返嚟嗰一刻，兩者
     // 理應只相差幾秒（fetch+分析耗時），一律用fmtHKT()標註做HKT，
@@ -3213,7 +3253,7 @@ async function runAiAnalysis() {
     const genTimeHKT  = fmtHKT(new Date());
     meta.textContent = `模型：${j.model || '—'} · 數據時間 ${dataTimeHKT} HKT · 分析生成 ${genTimeHKT} HKT`;
   } catch(e) {
-    body.innerHTML = `<span class="err-msg">⚠ AI分析失敗：${e.message}</span><br><span style="font-size:10px;color:var(--muted)">確認futu_bridge_v2.py已填OPENROUTER_API_KEY並運行緊</span>`;
+    body.innerHTML = `<span class="err-msg">⚠ AI分析失敗：${e.message}</span><br><span style="font-size:11px;color:var(--muted)">確認futu_bridge_v2.py已填OPENROUTER_API_KEY並運行緊</span>`;
   }
   btn.disabled = false;
   btn.textContent = '🤖 重新分析';
@@ -3226,6 +3266,15 @@ const WHY_VERDICT_STYLE = {
   '證據不足':'color:var(--muted);font-style:italic'
 };
 function escHtml(s){ return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+// v5.46：AI文字輕量markdown處理——模型有時輸出 **粗體**／### 標題／`code`，前端只換行會直接顯示符號。
+// 先escape再轉換，所以AI文字入面嘅<>唔會被當HTML。
+function renderAiText(s) {
+  let t = escHtml(String(s ?? ''));
+  t = t.replace(/^[ \t]{0,3}#{1,6}[ \t]*/gm, '').replace(/`([^`\n]+)`/g, '$1');
+  t = t.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  return t.replace(/\n/g, '<br>');
+}
 
 function resetWhySection() {
   const b = document.getElementById('why-body'), m = document.getElementById('why-meta'), btn = document.getElementById('why-btn');
@@ -3256,7 +3305,7 @@ async function runWhyMoving() {
     const ev = j.evidence;
 
     let html = `<div style="font-size:12.5px;line-height:1.7;margin-bottom:10px"><b>${escHtml(ev.headline)}</b></div>`;
-    html += '<div style="display:grid;grid-template-columns:auto 70px 1fr;gap:4px 12px;font-size:11.5px;margin-bottom:12px">';
+    html += '<div style="display:grid;grid-template-columns:auto 70px 1fr;gap:4px 12px;font-size:12.5px;margin-bottom:12px">';
     ev.hypotheses.forEach(h => {
       html += `<div>${escHtml(h.label)}</div><div style="${WHY_VERDICT_STYLE[h.verdict] || ''}">${escHtml(h.verdict)}</div><div style="color:var(--muted)">${escHtml(h.detail)}</div>`;
     });
@@ -3272,13 +3321,13 @@ async function runWhyMoving() {
       const tags = (n.tags && n.tags.length) ? `<span style="color:var(--purple)">[${escHtml(n.tags.join('/'))}]</span> ` : '';
       const age = n.age_h != null ? `${Math.round(n.age_h)}小時前` : '手動·時間未知';
       const t = n.url ? `<a href="${escHtml(n.url)}" target="_blank" rel="noopener" style="color:var(--text);text-decoration:none">${escHtml(n.title)}</a>` : escHtml(n.title);
-      return `<div style="font-size:11px;line-height:1.6">${tags}${t} <span style="color:var(--muted)">· ${escHtml(n.source)} · ${age}</span></div>`;
+      return `<div style="font-size:12px;line-height:1.6">${tags}${t} <span style="color:var(--muted)">· ${escHtml(n.source)} · ${age}</span></div>`;
     };
     if (extra) {
       const sentLines = extra.split('\n').filter(l => l.trim()).length;
       const gotN = (ev.manual_news_count != null) ? ev.manual_news_count : manualNews.length;
       if (gotN === 0) {
-        html += `<div style="font-size:11px;color:var(--red);margin-bottom:8px">⚠ 你貼入咗 ${sentLines} 行，但 bridge 收到 0 條手動新聞——futu_bridge_v2.py 可能未升級到 v3.17.3（或參數冇傳到）</div>`;
+        html += `<div style="font-size:12px;color:var(--red);margin-bottom:8px">⚠ 你貼入咗 ${sentLines} 行，但 bridge 收到 0 條手動新聞——futu_bridge_v2.py 可能未升級到 v3.17.3（或參數冇傳到）</div>`;
       } else {
         // v5.45：bridge v3.17.3起，格式「publish_time｜來源｜標題」嘅行會有發布時間（age_h唔係null），按窗口分類
         const gotT = manualNews.filter(n => n.age_h != null).length;
@@ -3286,30 +3335,30 @@ async function runWhyMoving() {
         const timeNote = noT === 0 ? '，全部有發布時間，已按走勢窗口分類'
           : gotT === 0 ? '，但全部冇認到發布時間（想按窗口分類，格式要係 publish_time｜來源｜標題，bridge要v3.17.3）'
           : `，其中 ${gotT} 條有發布時間（已按窗口分類）、${noT} 條冇（當時間未知）`;
-        html += `<div style="font-size:11px;color:var(--green);margin-bottom:8px">✔ 已收到 ${gotN} 條手動新聞${timeNote}（你貼入 ${sentLines} 行，backend最多收15行／每行200字）</div>`;
+        html += `<div style="font-size:12px;color:var(--green);margin-bottom:8px">✔ 已收到 ${gotN} 條手動新聞${timeNote}（你貼入 ${sentLines} 行，backend最多收15行／每行200字）</div>`;
         if (extra.length > 1500) {
-          html += '<div style="font-size:11px;color:var(--amber);margin-bottom:8px">⚠ 貼入內容超過1500字，只送出頭1500字（最後一行可能被截斷），建議減到10行以內</div>';
+          html += '<div style="font-size:12px;color:var(--amber);margin-bottom:8px">⚠ 貼入內容超過1500字，只送出頭1500字（最後一行可能被截斷），建議減到10行以內</div>';
         }
       }
     }
     if (manualNews.length) {
-      html += '<div style="font-size:10px;color:var(--amber);text-transform:uppercase;letter-spacing:.08em;margin:6px 0 4px">你貼入嘅新聞（有發布時間嘅已按走勢窗口分類；冇時間嘅當時間未知；一律只當候選）</div>';
+      html += '<div style="font-size:11px;color:var(--amber);text-transform:uppercase;letter-spacing:.08em;margin:6px 0 4px">你貼入嘅新聞（有發布時間嘅已按走勢窗口分類；冇時間嘅當時間未知；一律只當候選）</div>';
       manualNews.forEach(n => { html += renderNewsRow(n); });
     }
     if (autoNews.length) {
-      html += '<div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:8px 0 4px">相關新聞（候選催化劑，未證明因果）</div>';
+      html += '<div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:8px 0 4px">相關新聞（候選催化劑，未證明因果）</div>';
       autoNews.slice(0, 12).forEach(n => { html += renderNewsRow(n); });
     }
 
     if (j.analysis) {
-      html += `<div style="border-top:1px solid var(--border);margin-top:12px;padding-top:10px;font-size:12.5px;line-height:1.75">${escHtml(j.analysis).replace(/\n/g,'<br>')}</div>`;
+      html += `<div style="border-top:1px solid var(--border);margin-top:12px;padding-top:10px;font-size:12.5px;line-height:1.75">${renderAiText(j.analysis)}</div>`;
     } else if (j.ai_error) {
-      html += `<div style="margin-top:10px;font-size:11px;color:var(--muted)">⚠ AI解釋失敗（上面統計結果仍然有效）：${escHtml(j.ai_error)}</div>`;
+      html += `<div style="margin-top:10px;font-size:12px;color:var(--muted)">⚠ AI解釋失敗（上面統計結果仍然有效）：${escHtml(j.ai_error)}</div>`;
     }
     body.innerHTML = html;
     meta.textContent = `數據日期 ${ev.as_of}${ev.is_today ? '（今日）' : '（最近交易日，非今日）'} · 模型：${j.model || '—'} · 耗時 ${j.elapsed_s}s · 基於日線收市價，唔係盤中即時`;
   } catch (e) {
-    body.innerHTML = `<span class="err-msg">⚠ 分析失敗：${escHtml(e.message)}</span><br><span style="font-size:10px;color:var(--muted)">確認 futu_bridge_v2.py 已升級到 v3.17.3</span>`;
+    body.innerHTML = `<span class="err-msg">⚠ 分析失敗：${escHtml(e.message)}</span><br><span style="font-size:11px;color:var(--muted)">確認 futu_bridge_v2.py 已升級到 v3.17.3</span>`;
   }
   btn.disabled = false; btn.textContent = '🔎 重新分析';
 }
@@ -3373,7 +3422,7 @@ function renderCapDist(d) {
     const sum = inV + outV;
     const inPct = sum ? (inV / sum * 100) : 50;
     html += `<div style="margin-bottom:9px">
-      <div style="display:flex;justify-content:space-between;font-size:10.5px;color:var(--muted);margin-bottom:3px">
+      <div style="display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted);margin-bottom:3px">
         <span>${b.label}</span>
         <span><span style="color:var(--green)">入${fmtWan(inV)}萬</span> / <span style="color:var(--red)">出${fmtWan(outV)}萬</span></span>
       </div>
@@ -3382,12 +3431,12 @@ function renderCapDist(d) {
   });
   const netFlow = totalIn - totalOut;
   const netCls  = netFlow >= 0 ? 'var(--green)' : 'var(--red)';
-  const staleTag = d.update_time ? `<span style="color:var(--border2)">· ${d.update_time}</span>` : '';
+  const staleTag = d.update_time ? `<span style="color:var(--faint)">· ${d.update_time}</span>` : '';
   distEl.className = '';
-  distEl.innerHTML = `<div style="font-size:11px;color:var(--muted);margin-bottom:9px">
+  distEl.innerHTML = `<div style="font-size:12px;color:var(--muted);margin-bottom:9px">
       淨流入 <span style="color:${netCls};font-weight:700">${netFlow>=0?'+':''}${fmtWan(netFlow)}萬</span> ${staleTag}
     </div>${html}
-    <div style="font-size:9.5px;color:var(--border2);margin-top:4px">僅反映Regular Trading Hours（09:30-16:00 ET），盤前/盤後不更新</div>`;
+    <div style="font-size:11px;color:var(--faint);margin-top:4px">僅反映Regular Trading Hours（09:30-16:00 ET），盤前/盤後不更新</div>`;
 }
 
 function renderCapFlowChart(d) {
@@ -3396,7 +3445,7 @@ function renderCapFlowChart(d) {
   const rows = d.rows;
   flowEl.className = '';
   flowEl.innerHTML = '<canvas id="capflow-canvas" style="max-height:150px"></canvas>' +
-    '<div style="font-size:9.5px;color:var(--border2);margin-top:4px">僅反映Regular Trading Hours（09:30-16:00 ET），盤前/盤後不更新'
+    '<div style="font-size:11px;color:var(--faint);margin-top:4px">僅反映Regular Trading Hours（09:30-16:00 ET），盤前/盤後不更新'
     + (d.last_valid_time ? ` · 最後更新 ${d.last_valid_time}` : '') + '</div>';
   const ctx = document.getElementById('capflow-canvas').getContext('2d');
   const vals   = rows.map(r => r.in_flow || 0);
@@ -3417,8 +3466,8 @@ function renderCapFlowChart(d) {
       plugins: { legend: {display:false},
         tooltip: { callbacks: { label: item => `淨流入: ${(item.raw/1e4).toFixed(0)}萬` } } },
       scales: {
-        x: { ticks:{color:cssVar('--muted'), font:{size:9}, maxTicksLimit:8}, grid:{display:false} },
-        y: { ticks:{color:cssVar('--muted'), font:{size:9}, callback:v=>(v/1e4).toFixed(0)+'萬'}, grid:{color:cssVar('--grid')} },
+        x: { ticks:{color:cssVar('--muted'), font:{size:10}, maxTicksLimit:8}, grid:{display:false} },
+        y: { ticks:{color:cssVar('--muted'), font:{size:10}, callback:v=>(v/1e4).toFixed(0)+'萬'}, grid:{color:cssVar('--grid')} },
       }
     }
   });
@@ -3478,10 +3527,11 @@ function drawChart(d, spot, flip, callWall, putWall) {
         // Label
         c.setLineDash([]);
         c.fillStyle = color;
-        c.font = '700 10px JetBrains Mono, monospace';
+        c.font = '700 11px JetBrains Mono, monospace';
         c.textAlign = 'center';
         const yOff = idx===spotIdx ? top+12 : idx===flipIdx ? top+28 : idx===callIdx ? top+44 : top+60;
-        c.fillRect(xPos-24, yOff-10, 48, 13);
+        const _w = c.measureText(label).width + 10;   // v5.46：按文字闊度畫底，11px字唔會爆框
+        c.fillRect(xPos-_w/2, yOff-11, _w, 15);
         c.fillStyle = cssVar('--badge-ink');
         c.fillText(label, xPos, yOff);
         c.restore();
@@ -3532,7 +3582,7 @@ function drawChart(d, spot, flip, callWall, putWall) {
           ticks: {
             color: cssVar('--muted'),
             maxTicksLimit: 20,
-            font: {size:10, family:'JetBrains Mono'},
+            font: {size:11, family:'JetBrains Mono'},
             callback: (val,idx) => {
               // Show fewer labels
               const step = Math.max(1, Math.floor(filtered.length/20));
@@ -3544,7 +3594,7 @@ function drawChart(d, spot, flip, callWall, putWall) {
         y: {
           ticks: {
             color: cssVar('--muted'),
-            font: {size:10, family:'JetBrains Mono'},
+            font: {size:11, family:'JetBrains Mono'},
             callback: v => `${v>=0?'+':''}${v.toFixed(1)}M`
           },
           grid: {color: cssVar('--grid')},
@@ -3613,7 +3663,7 @@ async function fetchOptionsCalendar() {
   } catch (e) {
     contentEl.innerHTML = `<div class="loading" style="color:var(--red)">
       ⚠ 無法連接 Bridge (127.0.0.1:8888)<br>
-      <span style="font-size:10px;color:var(--muted)">確認 futu_bridge_v2.py 正在運行，OpenD 已登入。Error: ${e.message}</span>
+      <span style="font-size:11px;color:var(--muted)">確認 futu_bridge_v2.py 正在運行，OpenD 已登入。Error: ${e.message}</span>
     </div>`;
     document.getElementById('cal-src').textContent = '連接失敗';
   }
@@ -3676,18 +3726,20 @@ function calSnapshotCellHtml(sym) {
   if (s.price != null && (s.flip != null || s.call_wall != null || s.put_wall != null)) {
     let gammaTxt = s.flip != null ? (s.price >= s.flip ? '✅正Gamma' : '⚠️負Gamma') : '';
     let wallNote = '';
-    if (s.call_wall != null) {
+    const _bad = gexWallsDistorted(s.price, s.put_wall, s.call_wall);   // v5.46：失真防呆
+    if (!_bad && s.call_wall != null) {
       const dd = (s.price - s.call_wall) / s.price * 100;
       if (dd >= BREAKOUT_BUFFER_PCT) wallNote = ' 🚀已突破Call';
       else if (dd > 0) wallNote = ' 🟠測試Call阻力';
       else if (-dd < 1.5) wallNote = ' 🔴逼近Call';
     }
-    if (!wallNote && s.put_wall != null) {
+    if (!_bad && !wallNote && s.put_wall != null) {
       const dd = (s.put_wall - s.price) / s.price * 100;
       if (dd >= BREAKOUT_BUFFER_PCT) wallNote = ' 💥已跌穿Put';
       else if (dd > 0) wallNote = ' 🟠測試Put支撐';
       else if (-dd < 1.5) wallNote = ' 🟢逼近Put';
     }
+    if (_bad) { gammaTxt = '⚠️GEX失真'; wallNote = ` ${_bad}，唔作突破判斷`; }
     const biasTag = s.dealer_bias ? ` <span style="color:var(--muted)">(${s.dealer_bias==='LONG_GAMMA'?'Long':'Short'}Gamma)</span>` : '';
     lines.push(`${gammaTxt}${wallNote}${biasTag}`);
   }
@@ -3846,7 +3898,7 @@ function renderOptionsCalendar(d) {
 
   if (d.errors && Object.keys(d.errors).length) {
     const errSyms = Object.keys(d.errors).join('、');
-    contentEl.innerHTML += `<div style="font-size:10px;color:var(--muted);margin-top:8px">⚠ ${errSyms} 未能攞到到期日數據</div>`;
+    contentEl.innerHTML += `<div style="font-size:11px;color:var(--muted);margin-top:8px">⚠ ${errSyms} 未能攞到到期日數據</div>`;
   }
 
   // v5.20：背景批量攞每隻唯一symbol嘅現價/GEX/Money Flow快照，
