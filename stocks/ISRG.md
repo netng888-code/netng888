@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-18 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$437.75** |
-| 今日變動 | ▼ $5.84　(-1.32%) |
+| 現價 | **$430.53** |
+| 今日變動 | ▼ $7.22　(-1.65%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $31　(▼3.4%) |
+| 未實現盈虧 | ▼ $45　(▼5.0%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $419.73 | — |
-| Put Wall（支撐） | $420.00 | -4.1% |
-| Call Wall（阻力） | $450.00 | +2.8% |
+| Gamma Flip | $420.42 | — |
+| Put Wall（支撐） | $420.00 | -2.4% |
+| Call Wall（阻力） | $450.00 | +4.5% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[DOCS Expands Clinical AI Tools Across Three Major U.S. Health Systems](https://finnhub.io/api/news?id=a7f2213e5ad6e0cdfedd5e023eafea09b43dd13d771b44293604959618c1966e)**  
-*Yahoo · 20h前*  
-Doximity expands its AI tools across three major healthcare institutions, bringing clinical decision support and documentation into existing workflows.
+- **[What Makes Intuitive Surgical (ISRG) a Compelling Investment?](https://finnhub.io/api/news?id=d76b3bef374223cb2f6d39088a797a22bbc93bd6ba5de800e8c56f5b4afc159d)**  
+*Yahoo · 6h前*  
+Jensen Investment Management, a US-based asset management company, released its third-quarter 2026 investor letter for “Jensen Quality Growth Equity Strategy”. …
 
-- **[Here's Why You Should Retain PHG Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=5ff484cda3b072cc7fc798424f5c41fcf2007d3c9790ce55ef9b2feb77edacd3)**  
-*Yahoo · 22h前*  
-Philips' strong order momentum, market share gains and expanding service revenue support growth, despite manufacturing delays and pricing pressures.
+- **[Ecolab Launches Integrated Cooling Platform to Tap AI Growth](https://finnhub.io/api/news?id=ff241048c9ba1434774fca1ef65a2768b5a1265dc8f9bfc9d0466c05e1c91bd0)**  
+*Yahoo · 7h前*  
+ECL's new AI data center cooling platform boosts its High-Tech growth prospects as the company targets $4 billion in annual sales by 2030.
 
-- **[Where Will Intuitive Surgical Be in 10 Years? Hint: Its da Vinci 5 Installed Base Just Topped 2,000](https://finnhub.io/api/news?id=20d4f6ecf6e4e20de9a503a91849234743d99902b7d1b0faaf7f5e268b686b27)**  
-*Yahoo · 1d前*  
-Intuitive Surgical is struggling. Its newest da Vinci system is.
+- **[Why Medtronic’s Surgical Robot Is Poised for a Massive Market Expansion](https://finnhub.io/api/news?id=238c93aa7a4b8bbd1f8e18fef549328795c73d5633d9da61f5c26732c4c90ab5)**  
+*Yahoo · 7h前*  
+Regulatory approval expands the addressable market for Medtronic’s robot to millions of more surgeries.
 
 ---
 
@@ -48,7 +48,7 @@ Intuitive Surgical is struggling. Its newest da Vinci system is.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-17 | 監控 | $437.75 | — | 自動更新 |
+| 2026-11-18 | 監控 | $430.53 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Intuitive Surgical is struggling. Its newest da Vinci system is.
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-18 07:04 HKT*
