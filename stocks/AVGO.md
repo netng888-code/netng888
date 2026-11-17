@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $348.48 | — |
+| Gamma Flip | $347.97 | — |
 | Put Wall（支撐） | $320.00 | -4.0% |
 | Call Wall（阻力） | $350.00 | +5.0% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[INTW 2X Intel ETF Tumbles 13% as Intel Drops Amid Shareholder Lawsuit and AI Chip Selloff; Taiwan Semiconductor Falls 5%](https://finnhub.io/api/news?id=1c62335723868c483e22a6ee74ea08e056bfd5df0228ab9486a41ff961d572c2)**  
-*Yahoo · 3h前*  
-Intel is up big this year, yet the fund built to double its moves is sitting in the red. A daily reset quirk explains the gap, and it matters for anyone tempted…
+- **[Billionaire David Tepper Dumps AMD Stock, Makes $172 Million Bet on Oracle](https://finnhub.io/api/news?id=4a3a3f0921c93030082eb2f5f7c6d8fac4a60597d4bc3face162de1a4b4eaa01)**  
+*Yahoo · 1h前*  
+The investment firm expanded positions in SpaceX, Micron and Lam Research while reducing its holdings in Alphabet and Amazon.
 
-- **[What Mattered Most In Cerebras's Latest Quarter?](https://finnhub.io/api/news?id=271d753a65a39338b956ad4be0dc4ea16d1a6edf746262c2625df3d6b3e0a0f1)**  
-*Yahoo · 3h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[A $1.2 Billion Fund Just Bought These 3 Stocks](https://finnhub.io/api/news?id=166965b625fea2eda5b366add99444f4b45ff96cb39907559f73c1ead4e9bed0)**  
+*Yahoo · 1h前*  
+Key TakeawaysTensor Edge Capital, a $1. 2 billion fund, made Broadcom (AVGO:NASDAQ), Alphabet (GOOGL:NASDAQ) and Viavi Solutions (VIAV:NASDAQ) its three biggest…
 
-- **[ACC Granted Leave to Intervene Before EU General Court in Broadcom Legal Privilege Case](https://finnhub.io/api/news?id=78f722ee6a57aa33384e6eb3fa738b111e8564b187afab89fd097f6c48c44151)**  
-*Yahoo · 4h前*  
-The Association of Corporate Counsel will share the perspective of in-house counsel as the Court considers how legal professional privilege applies to legal adv…
+- **[Billionaire David Tepper Dumps AMD and Broadcom, Loads Up on Oracle and Nvidia](https://finnhub.io/api/news?id=67ac8f9d221eee54abcfe2c56113e2e3cd657e6017c3ae7aead05b6a2c521c9b)**  
+*Yahoo · 1h前*  
+David Tepper Doubles Down on Nvidia and SpaceX as Appaloosa Makes a Major Bet on Oracle
 
 ---
 
@@ -59,4 +59,4 @@ The Association of Corporate Counsel will share the perspective of in-house coun
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 21:03 HKT*
