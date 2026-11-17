@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $167.75 | — |
+| Gamma Flip | $172.63 | — |
 | Put Wall（支撐） | $150.00 | -3.9% |
 | Call Wall（阻力） | $200.00 | +28.1% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Earnings Preview: Can Data Center Growth Sustain Its Profit Boom?](https://finnhub.io/api/news?id=2edf526c53fffb489b4fd932383622e04c631b5767a07e7b220bcac87dfa74ad)**  
+- **[Billionaire David Tepper Dumps AMD Stock, Makes $172 Million Bet on Oracle](https://finnhub.io/api/news?id=4a3a3f0921c93030082eb2f5f7c6d8fac4a60597d4bc3face162de1a4b4eaa01)**  
 *Yahoo · 1h前*  
-Nvidia (NVDA) is set to report its fiscal third-quarter 2027 results on November 17, after the market closes. Investors will be closely watching its Data Center…
+The investment firm expanded positions in SpaceX, Micron and Lam Research while reducing its holdings in Alphabet and Amazon.
 
-- **[Update: Nasdaq, S&P 500 Fall For Third Day as Nvidia Sell-Off Continues](https://finnhub.io/api/news?id=9a5d663c0841a474a9d06c1cb3a2d3a640322fa8a9246b7e99320ae21dad28c2)**  
+- **[Is Alphabet Stock a Buy After the Dip?](https://finnhub.io/api/news?id=a1199854963cb680b2dfd8b7e3a308aedf968a8e8f6646d6344d86db8d3add20)**  
 *Yahoo · 1h前*  
-(Updates with market moves at the end of the day, and other changes, if any.) The Nasdaq Composit
+Alphabet has been caught up in the valuation pullback for AI stocks and is down more than 25% from its high.
 
-- **[What's dragging down the S&P 500? Apple in focus](https://finnhub.io/api/news?id=247299d1ab30b189136329f7a2f877cabe730885cc260e39bc2ee29038a00a3f)**  
+- **[Nvidia’s first post-Huang earnings loom large. Here’s what it could mean for AI.](https://finnhub.io/api/news?id=83b083bdd357ef519cd1e4b60b0e2d712a49e5e9639b5ae3fcdf042309b5c96d)**  
 *Yahoo · 1h前*  
-Yahoo Finance Markets and Data Editor Jared Blikre joins Deirdre Bosa on Deirdre Bosa Live to discuss Apple's (AAPL) influence on the S&P 500 (^GSPC). Blikre ex…
+Investing.com - As Nvidia prepares to unveil its third-quarter results after the closing bell on Tuesday, one of the key words analysts are using in their previ…
 
 ---
 
@@ -59,4 +59,4 @@ Yahoo Finance Markets and Data Editor Jared Blikre joins Deirdre Bosa on Deirdre
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 21:03 HKT*
