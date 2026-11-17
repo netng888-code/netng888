@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls](https://finnhub.io/api/news?id=272e7a6098ebd7fbb6bf854362273b58af3a077e1518ddcdf442288e59af7132)**  
+*Yahoo · 22h前*  
+Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls
+
 - **[This Centrus Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Monday](https://finnhub.io/api/news?id=25a9de26c37efd1d41729e57f1a63af478c7d679a9b2cdc2ab9928a20fd6c2fa)**  
-*Benzinga · 13h前*  
+*Benzinga · 1d前*  
 Analysts initiated coverage on CI (In-Line, $290), LEU (Overweight, $130), YARW (Buy, $40), SGHC (Equal-Weight, $13) and OFG (Sell, $50).
 
-- **[Cantor Fitzgerald Initiates Coverage On Centrus Energy with Overweight Rating, Announces Price Target of $130](https://finnhub.io/api/news?id=752bca24ade3bbf299b834dfd4da556fea52ee5bc3fd480ce6eaad539068cf22)**  
-*Benzinga · 15h前*  
-Cantor Fitzgerald  analyst Derek Soderberg   initiates coverage on Centrus Energy (NYSE:LEU) with a Overweight rating and announces Price Target of $130.
-
-- **[Centrus Energy (LEU) Lands Multiyear HALEU Deal Backed By Customer Prepayments](https://finnhub.io/api/news?id=3bfce9314cac4e25d5b137ff6c1e892b86a197db0c748209d8c49b8e518106f6)**  
-*Yahoo · 2d前*  
-Centrus Energy (NYSE:LEU) and Oklo signed definitive multi year HALEU supply contracts to support Aurora power projects in Ohio. Meta is providing prepayments t…
+- **[Oklo Sits Near Its 52-Week Low After a 5-Reactor Fuel Deal. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=45acccf672dd527a3fddc2cbdec781f4e79f1409a6238a6cd923e0421b5ad6f3)**  
+*Yahoo · 1d前*  
+Key TakeawaysOklo signed definitive contracts with Centrus Energy for enough HALEU to run up to five Aurora powerhouses, with deliveries starting in 2029. Meta’…
 
 ---
 
@@ -59,4 +59,4 @@ Centrus Energy (NYSE:LEU) and Oklo signed definitive multi year HALEU supply con
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 21:04 HKT*
