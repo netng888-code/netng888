@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Sinks 7%, AST SpaceMobile Down 12% as Tech Selloff and Vulcan Failure Hit Space Stocks](https://finnhub.io/api/news?id=46513ff84ef9fbea9d77b8b89270556444a3211ecab3f513e95f19f3569689bd)**  
+- **[Rocket Lab Says Adjusted EBITDA Turns Positive Within 6 Months of Neutron’s First Flight. Here’s the Date That Implies.](https://finnhub.io/api/news?id=6bb9c1d5362653e25f40492506627d65c7ba474c2df478e7944e5c0aeb4b25da)**  
 *Yahoo · 1h前*  
-Key TakeawaysRocket Lab fell 7% in a tech selloff, two days after its 100th Electron launch, and AST SpaceMobile fell harder. A United Launch Alliance Vulcan fa…
+The space services company plans to launch its Neutron rocket next year.
 
-- **[Air Traffic Control Is Complex. Ground Stop Impact Goes Beyond L3Harris Stock.](https://finnhub.io/api/news?id=8945b16b646c58d5258e69437022a54d5c6afbd7eb81f9b33a0f9aff521f211f)**  
-*Yahoo · 2h前*  
-Overall, 65% of analysts covering L3Harris stock rate shares Buy. Shares have fallen, however, following Friday’s airport paralysis.
+- **[Here's What $1,000 in Each of These 3 Space Stocks Could Be Worth by 2030](https://finnhub.io/api/news?id=a7aeafeb842e1050c73047ac1803e49c680485dad2443c1041243f4cc2391000)**  
+*Yahoo · 1h前*  
+These are high-potential and high-risk stocks that investors could consider adding to their portfolios if they want exposure to the space economy.
 
-- **[Down 60% From Its 52-Week High, Is Rocket Lab Stock a Bargain Buy?](https://finnhub.io/api/news?id=9dce65a9c75019dbc19658014fff81472552378b597ac53ae322ce1000716201)**  
-*Yahoo · 2h前*  
-Rocket Lab is coming off an impressive quarter, which highlighted its tremendous growth opportunities in space.
+- **[A 100 Reason to Buy Rocket Lab Stock Right Now](https://finnhub.io/api/news?id=d9108e60e64e229d586114591a10b0ed06981f17259f23dc856fd9fde25c69e5)**  
+*Yahoo · 1h前*  
+Rocket Lab's Electron Marks 100th Launch as Neutron Development Continues
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab is coming off an impressive quarter, which highlighted its tremendous
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 21:04 HKT*
