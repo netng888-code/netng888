@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $295.85 | — |
+| Gamma Flip | $296.65 | — |
 | Put Wall（支撐） | $280.00 | -1.3% |
 | Call Wall（阻力） | $300.00 | +5.7% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What's dragging down the S&P 500? Apple in focus](https://finnhub.io/api/news?id=247299d1ab30b189136329f7a2f877cabe730885cc260e39bc2ee29038a00a3f)**  
+- **[Quaise Energy Signs 50 MW Geothermal Power Purchase Agreement with Google](https://finnhub.io/api/news?id=3fc2c09b3f868f0e44af7c2c6707b74524873dcb491bec7ba3914aeae4c4a4c0)**  
 *Yahoo · 1h前*  
-Yahoo Finance Markets and Data Editor Jared Blikre joins Deirdre Bosa on Deirdre Bosa Live to discuss Apple's (AAPL) influence on the S&P 500 (^GSPC). Blikre ex…
+BEND, Ore., November 17, 2026--Quaise Energy, a leading developer of utility-scale superhot geothermal energy, today announced that Google has signed a power pu…
 
-- **[The cost of ousting a founder: Is the 'bank of Nvidia' at risk?](https://finnhub.io/api/news?id=6efbcfd3ef79aa754c5377906727bca8e3d8b534fb19688829cd30eb2af4ba06)**  
+- **[Is Alphabet Stock a Buy After the Dip?](https://finnhub.io/api/news?id=a1199854963cb680b2dfd8b7e3a308aedf968a8e8f6646d6344d86db8d3add20)**  
 *Yahoo · 1h前*  
-Benchmark Company general partner Bill Gurley sits down with Deirdre Bosa to share his thoughts on circular financing concerns surrounding Nvidia (NVDA), especi…
+Alphabet has been caught up in the valuation pullback for AI stocks and is down more than 25% from its high.
 
-- **[ServiceNow Stock’s (NOW) Historic Sell-Off May Have Gone Too Far](https://finnhub.io/api/news?id=dc235adc1b3d4da11003739d3be80fe7f0351ca22024054cc5e706c7d27c4633)**  
+- **[A $1.2 Billion Fund Just Bought These 3 Stocks](https://finnhub.io/api/news?id=166965b625fea2eda5b366add99444f4b45ff96cb39907559f73c1ead4e9bed0)**  
 *Yahoo · 1h前*  
-ServiceNow (NOW) stock’s historic sell-off looks excessive to me. The enterprise workflow software provider disappointed investors with its Q3 earnings and outl…
+Key TakeawaysTensor Edge Capital, a $1. 2 billion fund, made Broadcom (AVGO:NASDAQ), Alphabet (GOOGL:NASDAQ) and Viavi Solutions (VIAV:NASDAQ) its three biggest…
 
 ---
 
@@ -59,4 +59,4 @@ ServiceNow (NOW) stock’s historic sell-off looks excessive to me. The enterpri
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 21:03 HKT*
