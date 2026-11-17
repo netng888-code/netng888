@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-17 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Top 3 Growth Stocks To Watch In November 2026](https://finnhub.io/api/news?id=c2914eb58b5706d4977d906bb6fc0f6c552d7315ef29a01355f0cf194a403ad3)**  
+- **[Defense-tech tester Valkryn emerges with $17 million](https://finnhub.io/api/news?id=2907f659ba6c0b849fd5ccc609974c39059b310c9a80563d49516fc5d5b94c4b)**  
 *Yahoo · 1h前*  
-Higher US inflation has kept Treasury yields elevated, which has made some risk assets less appealing and pushed investors to be more selective. That backdrop p…
+Valkryn exited stealth with $17 million raised and a workforce with ties to some of America's buzziest businesses — including Applied Intuition , Palantir Techn…
 
-- **[Direxion and Anthony Pompliano's Silvia Join Forces to Help Investors Rethink Income](https://finnhub.io/api/news?id=a3f5087a794d25eefb10fe2b9ebe7ba696b273ee8307192ea6f0aa85c8ed468f)**  
+- **[Palantir (PLTR) Sees $117.4 Million in Net ETF Buying on Nov. 13](https://finnhub.io/api/news?id=36a4593e95cd1caf2f8abe4b53a0ef6541f74eee47d960f64bc7b58d8cfd8993)**  
 *Yahoo · 2h前*  
-Direxion, a leading provider of specialized ETFs with approximately $70.8 billion in assets under management (as of September 30, 2026), today announced a partn…
+ETFs bought $117.4 million in Palantir stock on Friday, Nov. 13.
 
-- **[Cathie Wood Just Bought $16 Million of Tumbling AI Stock](https://finnhub.io/api/news?id=315050fa5fb173a2b144a200208e9f4f82c04fdc9e6ac9595dc78aaa48524b44)**  
-*Yahoo · 3h前*  
-Cathie Wood Just Poured $16 Million Into CoreWeave After Its Stock Plunged
+- **[The Zacks Analyst Blog Highlights Taiwan, Johnson & Johnson, Palantir, Title and Altigen](https://finnhub.io/api/news?id=c35d185887088581847493a64355036920f2ce733c3ea9f596fc3eb4ea16b32c)**  
+*Yahoo · 2h前*  
+Taiwan, Johnson & Johnson, Palantir, Title and Altigen are included in this Analyst Blog.
 
 ---
 
@@ -59,4 +59,4 @@ Cathie Wood Just Poured $16 Million Into CoreWeave After Its Stock Plunged
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 21:04 HKT*
