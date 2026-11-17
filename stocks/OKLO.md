@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Oklo Has Lost 76% in a Year. Wall Street Still Sees $56. Bullish Wedbush Sees Just $36](https://finnhub.io/api/news?id=2f8332a03647ed259cf3010dce5ca190363c29f52f4b3987b47a8f8e8d8d6123)**  
-*Yahoo · 2d前*  
-Key TakeawaysOklo has lost 76% in a year, and analysts’ average price target has fallen from $103 to $56. Wedbush repeated its Outperform rating and $36 target …
+- **[NuScale Has $1.9 Billion in Cash. A Signed TVA Deal Could Send $1.2 Billion of It to ENTRA1](https://finnhub.io/api/news?id=a0fb2b642bada4657b8b70c451ec98775f193809232ee3ae1c409f1a8211f2d7)**  
+*Yahoo · 16h前*  
+Key TakeawaysNuScale Power’s filings imply that a binding TVA deal for all 72 modules would trigger a milestone payment to ENTRA1 of roughly $1. 2 billion.
 
-- **[Centrus Energy (LEU) Lands Multiyear HALEU Deal Backed By Customer Prepayments](https://finnhub.io/api/news?id=3bfce9314cac4e25d5b137ff6c1e892b86a197db0c748209d8c49b8e518106f6)**  
-*Yahoo · 2d前*  
-Centrus Energy (NYSE:LEU) and Oklo signed definitive multi year HALEU supply contracts to support Aurora power projects in Ohio. Meta is providing prepayments t…
+- **[Meta’s Prepayment Is Buying Oklo’s Nuclear Fuel for Up to Five Reactors](https://finnhub.io/api/news?id=6ff51f6d4931c70fb076d8842a7614d5b706979d29000c8009956c6012451958)**  
+*Yahoo · 19h前*  
+Key TakeawaysOklo (OKLO) signed definitive agreements with Centrus Energy (LEU) on November 12 to secure enough nuclear fuel for up to five Aurora powerhouses, …
 
-- **[Centrus Energy (LEU) Stock May Look Rich Despite A New Fuel Supply Deal](https://finnhub.io/api/news?id=95475bd88ee2427f367e2d65dd53aef5857359ed0988f81b2483a3d1a03ca413)**  
-*Yahoo · 2d前*  
-Centrus Energy has swung sharply in recent years, and the question now is whether the current share price still matches what its earnings can justify. After a l…
+- **[Oklo Sits Near Its 52-Week Low After a 5-Reactor Fuel Deal. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=45acccf672dd527a3fddc2cbdec781f4e79f1409a6238a6cd923e0421b5ad6f3)**  
+*Yahoo · 1d前*  
+Key TakeawaysOklo signed definitive contracts with Centrus Energy for enough HALEU to run up to five Aurora powerhouses, with deliveries starting in 2029. Meta’…
 
 ---
 
@@ -59,4 +59,4 @@ Centrus Energy has swung sharply in recent years, and the question now is whethe
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 21:04 HKT*
