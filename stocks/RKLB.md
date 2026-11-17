@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-18 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$57.37** |
-| 今日變動 | ▼ $4.16　(-6.76%) |
+| 現價 | **$55.05** |
+| 今日變動 | ▼ $2.32　(-4.04%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $186　(▼24.5%) |
+| 未實現盈虧 | ▼ $210　(▼27.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $60.55 | — |
-| Put Wall（支撐） | $50.00 | -12.8% |
-| Call Wall（阻力） | $65.00 | +13.3% |
+| Gamma Flip | $60.26 | — |
+| Put Wall（支撐） | $50.00 | -9.2% |
+| Call Wall（阻力） | $65.00 | +18.1% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Says Adjusted EBITDA Turns Positive Within 6 Months of Neutron’s First Flight. Here’s the Date That Implies.](https://finnhub.io/api/news?id=6bb9c1d5362653e25f40492506627d65c7ba474c2df478e7944e5c0aeb4b25da)**  
-*Yahoo · 1h前*  
-The space services company plans to launch its Neutron rocket next year.
+- **[Rocket Lab's Stock Price Keeps Falling While Its Revenue and Backlog Keep Growing. Which Trend Should Investors Trust?](https://finnhub.io/api/news?id=99f83cfc42dfd2cf692269ab9c0fdb436dbbe7692105296e284c24a1e3671521)**  
+*Yahoo · 6h前*  
+There’s something of a disconnect here, but it won’t last forever.
 
-- **[Here's What $1,000 in Each of These 3 Space Stocks Could Be Worth by 2030](https://finnhub.io/api/news?id=a7aeafeb842e1050c73047ac1803e49c680485dad2443c1041243f4cc2391000)**  
-*Yahoo · 1h前*  
-These are high-potential and high-risk stocks that investors could consider adding to their portfolios if they want exposure to the space economy.
+- **[Rocket Lab: Record $3.6B Backlog Can't Outrun Widening Losses](https://finnhub.io/api/news?id=71cd2479d6bb7b11f3ed03b889378d5feef47df7ff6db6772102aae14dab1dfe)**  
+*SeekingAlpha · 6h前*  
+Analyst rates Rocket Lab Corporation a Sell as its $79.8 million Q3 net loss and Neutron launch uncertainty leave the near-term setup weak.
 
-- **[A 100 Reason to Buy Rocket Lab Stock Right Now](https://finnhub.io/api/news?id=d9108e60e64e229d586114591a10b0ed06981f17259f23dc856fd9fde25c69e5)**  
-*Yahoo · 1h前*  
-Rocket Lab's Electron Marks 100th Launch as Neutron Development Continues
+- **[Rocket Lab Slides 4% as SpaceX Shares a $985 Million Launch Award: Are Cathie Wood and David Tepper Picking SpaceX Over Rocket Lab?](https://finnhub.io/api/news?id=b4eb63b44fd2452f991c82e743975d341aa8268f1be2adc6280ca9e68d64c0c8)**  
+*Yahoo · 7h前*  
+SpaceX collected a slice of a nearly billion-dollar launch award while Rocket Lab got shut out, and two famous investors kept buying the winner. Rocket Lab stil…
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab's Electron Marks 100th Launch as Neutron Development Continues
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-17 | 監控 | $57.37 | — | 自動更新 |
+| 2026-11-18 | 監控 | $55.05 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab's Electron Marks 100th Launch as Neutron Development Continues
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-18 07:04 HKT*
