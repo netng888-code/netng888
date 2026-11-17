@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Risky Nvidia Is Cheaper Than 'Safe' Walmart](https://finnhub.io/api/news?id=785b4e0b1a79751251841d5600c5fabd655c1817457a8f7e04a7fb48f30c83c8)**  
+*Yahoo · 2h前*  
+Everyone knows the cast: Nvidia is the AI growth stock, and Walmart and Costco are the safe places to hide. Nvidia reports today, Tuesday, Nov 17, with its resu…
+
+- **[5 Unstoppable Stocks to Buy According to Analysts](https://finnhub.io/api/news?id=d81bbda61b253312b352ed34fe0ff9fc6076a2d085469359739d3d14ce13b193)**  
+*Yahoo · 15h前*  
+AI stocks had a brutal week. Last Thursday, the S&P 500 fell 4.4%, its biggest one-day drop since the April 2025 tariff shock. The Dow Jones Industrial Average …
+
 - **[What Mattered Most In Cerebras's Latest Quarter?](https://finnhub.io/api/news?id=271d753a65a39338b956ad4be0dc4ea16d1a6edf746262c2625df3d6b3e0a0f1)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 For questions about this article or underlying research, email help@trefis.com.
-
-- **[CoreWeave, Oracle and Nebius Plunge as Nvidia Fallout Rattles AI Stocks](https://finnhub.io/api/news?id=3dea76cc860ce05190f5d004c1ebf08bfcb6af058b484295a33656a16508f9c5)**  
-*Yahoo · 3h前*  
-Nvidia's CEO Shake-Up Sends Shockwaves Through AI Stocks Ahead of Earnings
-
-- **[Marvell Technology (MRVL) Adds Three Directors After AI Memory Reveal At SC26](https://finnhub.io/api/news?id=a8adc27df20847ed4af368f5a82487a5874a6389158ba8fc310b8374f3b99601)**  
-*Yahoo · 3h前*  
-Marvell Technology (NasdaqGS:MRVL) unveiled new memory and connectivity solutions for AI and high performance computing at Supercomputing 2026. The company intr…
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology (NasdaqGS:MRVL) unveiled new memory and connectivity solution
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 21:03 HKT*
