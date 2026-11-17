@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,16 +31,16 @@
 ## 📰 最新新聞
 
 - **[Teradyne to Present at the 2026 UBS Global Technology and AI Conference](https://finnhub.io/api/news?id=7749535313e13b0c1a63de87dad3b73234f8e94e5e7dbd33faa2209bf92e0b44)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 NORTH READING, Mass., November 16, 2026--Teradyne, Inc. (NASDAQ:TER) today announced that Greg Smith, Chief Executive Officer, is scheduled to participate in a …
 
 - **[Teradyne Stocks Drop 6.14% as Advantest's 11% Tokyo Plunge Hits Chip Testers](https://finnhub.io/api/news?id=fef456eab15a9c2129fde9cefdededbe85234335416bf2ce0fd0a5c2d760e396)**  
-*Yahoo · 5h前*  
+*Yahoo · 19h前*  
 Teradyne fell in sympathy with its largest rival after Tokyo's chip selloff, a quarter after AI demand lifted its revenue 70%.
 
-- **[Vertiv vs. Teradyne: Which AI Infrastructure Stock Is the Better Buy?](https://finnhub.io/api/news?id=26dc9e9db743e7e5653c0703646ea10986a5b4a07c4543967dfc9574c3185e03)**  
-*Yahoo · 7h前*  
-VRT emerges as a stronger AI infrastructure stock than TER, supported by robust order growth, a diversified portfolio, and stronger earnings estimate revisions.
+- **[Today's S&P 500 Top Movers: Tyson Foods Leads Gainers, Lumentum Leads Decliners](https://finnhub.io/api/news?id=a2e236280063d46ee7cda89927cec9b802faa698e4aeed1dc459bd552cd43a9d)**  
+*ChartMill · 19h前*  
+Tyson Foods led S&P 500 gainers, up 7.41%, while Lumentum led decliners, down 7.5%; food and health-insurance stocks rose as semiconductor and data-center share…
 
 ---
 
@@ -59,4 +59,4 @@ VRT emerges as a stronger AI infrastructure stock than TER, supported by robust 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 21:03 HKT*
