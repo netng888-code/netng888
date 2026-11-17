@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-17 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-18 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$333.40** |
-| 今日變動 | ▼ $13.61　(-3.92%) |
+| 現價 | **$341.60** |
+| 今日變動 | ▲ $8.20　(+2.46%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $452　(▼11.9%) |
+| 未實現盈虧 | ▼ $370　(▼9.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $347.97 | — |
-| Put Wall（支撐） | $320.00 | -4.0% |
-| Call Wall（阻力） | $350.00 | +5.0% |
+| Gamma Flip | $345.71 | — |
+| Put Wall（支撐） | $320.00 | -6.3% |
+| Call Wall（阻力） | $350.00 | +2.5% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Billionaire David Tepper Dumps AMD Stock, Makes $172 Million Bet on Oracle](https://finnhub.io/api/news?id=4a3a3f0921c93030082eb2f5f7c6d8fac4a60597d4bc3face162de1a4b4eaa01)**  
+- **[3 Undervalued AI Stocks For November 2026](https://finnhub.io/api/news?id=97a6fe1f14c1f8d46e1153e3b69d7ed876bb93559ae7be6a974a11336c56b6e9)**  
 *Yahoo · 1h前*  
-The investment firm expanded positions in SpaceX, Micron and Lam Research while reducing its holdings in Alphabet and Amazon.
+Fresh restrictions on China’s access to advanced AI chips have put a spotlight on where the real power sits in this new computing race: the companies that build…
 
-- **[A $1.2 Billion Fund Just Bought These 3 Stocks](https://finnhub.io/api/news?id=166965b625fea2eda5b366add99444f4b45ff96cb39907559f73c1ead4e9bed0)**  
+- **[Billionaire David Tepper Grew His SpaceX Stake 17-Fold While Dumping AMD and Broadcom](https://finnhub.io/api/news?id=96b28296df10427d3891f3ffca116e460b1be77aa5b1c77081fe638bb797d466)**  
 *Yahoo · 1h前*  
-Key TakeawaysTensor Edge Capital, a $1. 2 billion fund, made Broadcom (AVGO:NASDAQ), Alphabet (GOOGL:NASDAQ) and Viavi Solutions (VIAV:NASDAQ) its three biggest…
+David Tepper's latest 13F shows a rocket-fueled bet on one hot stock and two quiet exits from AI chip winners that were still posting blowout numbers. The filin…
 
-- **[Billionaire David Tepper Dumps AMD and Broadcom, Loads Up on Oracle and Nvidia](https://finnhub.io/api/news?id=67ac8f9d221eee54abcfe2c56113e2e3cd657e6017c3ae7aead05b6a2c521c9b)**  
-*Yahoo · 1h前*  
-David Tepper Doubles Down on Nvidia and SpaceX as Appaloosa Makes a Major Bet on Oracle
+- **[Worried About Nvidia? 3 Artificial Intelligence (AI) Stocks That May Be Safer Buys Right Now](https://finnhub.io/api/news?id=bf5cb75a6c66f2caa82cdcacc58a909be580efacfa25b7f7fae384eea471a67b)**  
+*Yahoo · 2h前*  
+These stocks have tremendous growth potential due to AI, modest valuations, and have less risk than Nvidia these days.
 
 ---
 
@@ -48,7 +48,7 @@ David Tepper Doubles Down on Nvidia and SpaceX as Appaloosa Makes a Major Bet on
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-17 | 監控 | $333.40 | — | 自動更新 |
+| 2026-11-18 | 監控 | $341.60 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ David Tepper Doubles Down on Nvidia and SpaceX as Appaloosa Makes a Major Bet on
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-18 07:03 HKT*
