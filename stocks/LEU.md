@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-18 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$97.53** |
-| 今日變動 | ▼ $6.25　(-6.02%) |
+| 現價 | **$94.19** |
+| 今日變動 | ▼ $3.34　(-3.42%) |
 | 持倉數量 | 8 股 |
 | 平均成本 | $197.500 |
-| 未實現盈虧 | ▼ $800　(▼50.6%) |
+| 未實現盈虧 | ▼ $826　(▼52.3%) |
 
 ---
 
@@ -20,18 +20,18 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $126.65 | — |
-| Put Wall（支撐） | $95.00 | -2.6% |
-| Call Wall（阻力） | $100.00 | +2.5% |
+| Gamma Flip | $121.77 | — |
+| Put Wall（支撐） | $90.00 | -4.4% |
+| Call Wall（阻力） | $100.00 | +6.2% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
 - **[Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls](https://finnhub.io/api/news?id=272e7a6098ebd7fbb6bf854362273b58af3a077e1518ddcdf442288e59af7132)**  
-*Yahoo · 22h前*  
+*Yahoo · 1d前*  
 Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls
 
 - **[This Centrus Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Monday](https://finnhub.io/api/news?id=25a9de26c37efd1d41729e57f1a63af478c7d679a9b2cdc2ab9928a20fd6c2fa)**  
@@ -48,7 +48,7 @@ Key TakeawaysOklo signed definitive contracts with Centrus Energy for enough HAL
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-17 | 監控 | $97.53 | — | 自動更新 |
+| 2026-11-18 | 監控 | $94.19 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysOklo signed definitive contracts with Centrus Energy for enough HAL
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-18 07:04 HKT*
