@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-17 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $622.20 | — |
+| Gamma Flip | $619.91 | — |
 | Put Wall（支撐） | $600.00 | -4.2% |
 | Call Wall（阻力） | $700.00 | +11.7% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What's dragging down the S&P 500? Apple in focus](https://finnhub.io/api/news?id=247299d1ab30b189136329f7a2f877cabe730885cc260e39bc2ee29038a00a3f)**  
+- **[A Fund With $1 Billion in US Equities Just Bought These 3 Stocks](https://finnhub.io/api/news?id=8dc311b874c9ef7238f546838c91ffaab681c817ead5425b85e81c830fe86f95)**  
 *Yahoo · 1h前*  
-Yahoo Finance Markets and Data Editor Jared Blikre joins Deirdre Bosa on Deirdre Bosa Live to discuss Apple's (AAPL) influence on the S&P 500 (^GSPC). Blikre ex…
+Key TakeawaysA fund with $1. 04 billion in US stocks nearly doubled its Meta Platforms (META:NASDAQ) stake in the Q3, added around 70% more Danaher (DHR:NYSE) s…
 
-- **[The cost of ousting a founder: Is the 'bank of Nvidia' at risk?](https://finnhub.io/api/news?id=6efbcfd3ef79aa754c5377906727bca8e3d8b534fb19688829cd30eb2af4ba06)**  
+- **[Meta Stock Plunges After Italy Hits Facebook With $887 Million Fine](https://finnhub.io/api/news?id=26ebf9f2d35b1c46620d3bab67087672b7f85e2474db217a4a359e55069bd979)**  
 *Yahoo · 1h前*  
-Benchmark Company general partner Bill Gurley sits down with Deirdre Bosa to share his thoughts on circular financing concerns surrounding Nvidia (NVDA), especi…
+Meta Shares Fall 2.7% After Italy Hits Company With $887 Million Fine
 
-- **[Direxion and Anthony Pompliano's Silvia Join Forces to Help Investors Rethink Income](https://finnhub.io/api/news?id=a3f5087a794d25eefb10fe2b9ebe7ba696b273ee8307192ea6f0aa85c8ed468f)**  
-*Yahoo · 2h前*  
-Direxion, a leading provider of specialized ETFs with approximately $70.8 billion in assets under management (as of September 30, 2026), today announced a partn…
+- **[Can Trade Desk Stock Double From Here?](https://finnhub.io/api/news?id=f56f24ddc58cf90cb2369e8c043cd365e9b734e52e7d9f609263bb6d3c239c38)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ Direxion, a leading provider of specialized ETFs with approximately $70.8 billio
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-17 21:04 HKT*
