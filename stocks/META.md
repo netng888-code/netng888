@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-17 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-18 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$626.41** |
-| 今日變動 | ▼ $15.28　(-2.38%) |
+| 現價 | **$618.87** |
+| 今日變動 | ▼ $7.54　(-1.20%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $60　(▲3.3%) |
+| 未實現盈虧 | ▲ $38　(▲2.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $619.91 | — |
-| Put Wall（支撐） | $600.00 | -4.2% |
-| Call Wall（阻力） | $700.00 | +11.7% |
+| Gamma Flip | $621.53 | — |
+| Put Wall（支撐） | $600.00 | -3.0% |
+| Call Wall（阻力） | $700.00 | +13.1% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[A Fund With $1 Billion in US Equities Just Bought These 3 Stocks](https://finnhub.io/api/news?id=8dc311b874c9ef7238f546838c91ffaab681c817ead5425b85e81c830fe86f95)**  
+- **[Nvidia's Complex Orbit](https://finnhub.io/api/news?id=bd12f3fc93ef3750dbf604401e92c842d34b7046ec40e9a269dc6903ac1a9b86)**  
 *Yahoo · 1h前*  
-Key TakeawaysA fund with $1. 04 billion in US stocks nearly doubled its Meta Platforms (META:NASDAQ) stake in the Q3, added around 70% more Danaher (DHR:NYSE) s…
+Nvidia has built a sprawling network of financial ties across the technology industry.
 
-- **[Meta Stock Plunges After Italy Hits Facebook With $887 Million Fine](https://finnhub.io/api/news?id=26ebf9f2d35b1c46620d3bab67087672b7f85e2474db217a4a359e55069bd979)**  
-*Yahoo · 1h前*  
-Meta Shares Fall 2.7% After Italy Hits Company With $887 Million Fine
+- **[Meta Platforms, Inc. (META): Strong Advertising Growth Supports Its Long-Term Investment Case](https://finnhub.io/api/news?id=45237b2c77d9310c8f611e7411f42c78a4b0e86bc2ce4212c3c3e5cc9e557537)**  
+*Yahoo · 2h前*  
+We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Meta Platforms, Inc. ranked 9th on th…
 
-- **[Can Trade Desk Stock Double From Here?](https://finnhub.io/api/news?id=f56f24ddc58cf90cb2369e8c043cd365e9b734e52e7d9f609263bb6d3c239c38)**  
-*Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[Nvidia Bet Big on AI Stocks. Now They’re Getting Hit.](https://finnhub.io/api/news?id=5df64cd5e281d09f944d3c03585b12d84f72a5806be123a05a699fb9e669796a)**  
+*Yahoo · 2h前*  
+Billion-dollar investments have linked dozens of companies to Nvidia’s success—and now its stumbles.
 
 ---
 
@@ -48,7 +48,7 @@ For questions about this article or underlying research, email help@trefis.com.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-17 | 監控 | $626.41 | — | 自動更新 |
+| 2026-11-18 | 監控 | $618.87 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-17 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-18 07:03 HKT*
