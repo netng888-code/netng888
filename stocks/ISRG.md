@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-18 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$430.53** |
-| 今日變動 | ▼ $7.22　(-1.65%) |
+| 現價 | **$420.95** |
+| 今日變動 | ▼ $9.58　(-2.23%) |
 | 持倉數量 | 2 股 |
 | 平均成本 | $453.100 |
-| 未實現盈虧 | ▼ $45　(▼5.0%) |
+| 未實現盈虧 | ▼ $64　(▼7.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $420.42 | — |
-| Put Wall（支撐） | $420.00 | -2.4% |
-| Call Wall（阻力） | $450.00 | +4.5% |
+| Gamma Flip | $420.96 | — |
+| Put Wall（支撐） | $410.00 | -2.6% |
+| Call Wall（阻力） | $450.00 | +6.9% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What Makes Intuitive Surgical (ISRG) a Compelling Investment?](https://finnhub.io/api/news?id=d76b3bef374223cb2f6d39088a797a22bbc93bd6ba5de800e8c56f5b4afc159d)**  
+- **[Here's Why You Should Retain OPK Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=8e9eb43bc772935d23816d69980dbadd741886db908387c1534bae551adc7825)**  
 *Yahoo · 6h前*  
-Jensen Investment Management, a US-based asset management company, released its third-quarter 2026 investor letter for “Jensen Quality Growth Equity Strategy”. …
+OPKO Health's Global Products growth, partnered therapies and advancing pipeline support its outlook, but clinical risks and market headwinds pose challenges.
 
-- **[Ecolab Launches Integrated Cooling Platform to Tap AI Growth](https://finnhub.io/api/news?id=ff241048c9ba1434774fca1ef65a2768b5a1265dc8f9bfc9d0466c05e1c91bd0)**  
-*Yahoo · 7h前*  
-ECL's new AI data center cooling platform boosts its High-Tech growth prospects as the company targets $4 billion in annual sales by 2030.
+- **[GE HealthCare Expands Global Research Network for Photon-Counting CT](https://finnhub.io/api/news?id=3bc5d0373dd59b4af30ef213022fd0101b3dbf9ad27d6dae93638356e87d272a)**  
+*Yahoo · 6h前*  
+GEHC expands its global research network for Photonova Spectra to advance photon-counting CT applications, clinical adoption and diagnostic capabilities.
 
-- **[Why Medtronic’s Surgical Robot Is Poised for a Massive Market Expansion](https://finnhub.io/api/news?id=238c93aa7a4b8bbd1f8e18fef549328795c73d5633d9da61f5c26732c4c90ab5)**  
-*Yahoo · 7h前*  
-Regulatory approval expands the addressable market for Medtronic’s robot to millions of more surgeries.
+- **[Surgical Robotics for Gynecology Global Market Report 2026 | Capitalize on 14.5% CAGR as Intuitive Surgical, Medtronic and CMR Surgical Scale Single Port Systems](https://finnhub.io/api/news?id=fd51c05f54fcb592104a3b8e9dcd33b19722fc34d6eb7bf6fb816e0b9d7087d1)**  
+*Yahoo · 8h前*  
+Boost ROI via regional assembly, local manufacturing, domestic service networks, surgeon training, and platforms that improve precision, efficiency, and recover…
 
 ---
 
@@ -48,7 +48,7 @@ Regulatory approval expands the addressable market for Medtronic’s robot to mi
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-18 | 監控 | $430.53 | — | 自動更新 |
+| 2026-11-19 | 監控 | $420.95 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Regulatory approval expands the addressable market for Medtronic’s robot to mi
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 07:05 HKT*
