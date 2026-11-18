@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-18 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -9,7 +9,7 @@
 | 項目 | 數值 |
 |------|------|
 | 現價 | **$7.59** |
-| 今日變動 | ▼ $0.10　(-1.30%) |
+| 今日變動 | ▲ $0.00　(+0.00%) |
 | 持倉數量 | 200 股 |
 | 平均成本 | $12.458 |
 | 未實現盈虧 | ▼ $974　(▼39.1%) |
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $8.80 | — |
+| Gamma Flip | $8.75 | — |
 | Put Wall（支撐） | $7.00 | -7.8% |
 | Call Wall（阻力） | $10.00 | +31.8% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nokia stock tumbles after Nvidia cuts stake by more than half](https://finnhub.io/api/news?id=a6d16850897c6252ff96a55788fc77eb703ed09411f0c7bf6d25487c6a5ed6a8)**  
-*Yahoo · 13h前*  
-Investing.com -- Nokia shares fell more than 4% Tuesday after Nvidia disclosed it cut its stake in the Finnish telecom-equipment maker by 56% in the third quart…
+- **[Uniti Group (UNIT) Suddenly Gets Hammered — Here’s Why](https://finnhub.io/api/news?id=d2c8933be88e2307a49cd897d8a3b16e5370543fac9ff8b8d642c49168138aed)**  
+*Yahoo · 17h前*  
+Uniti Group Inc. (NASDAQ:UNIT) is one of the 10 Stocks Investors Are Fleeing. Uniti Group saw its share price fall by 10.86 percent on Tuesday to finish at $4.2…
 
-- **[NOK Slides After-Hours: Nvidia Dumps More Than Half Its Nokia Stake — Retail Bears Eye $5 Despite AI Push, ASUS Deal](https://finnhub.io/api/news?id=50d23e742050624a90a60e5972c58cce28e70b86d9176a7b83745dd70fda6843)**  
-*Yahoo · 20h前*  
-Nvidia sold 93.5 million Nokia shares in Q3, cutting its stake by 56%. Its remaining 72.9 million shares were worth $738.8 million at quarter-end.
-
-- **[European Equities Traded in the US as American Depositary Receipts Kick Off Week Lower in Monday Trading](https://finnhub.io/api/news?id=6576b71d677815f2ba32890ad03418d3c999e644519f040be23a576f299a8c83)**  
+- **[Nvidia Sold a Quarter of Its Intel Shares and More Than Half Its Nokia Stake. SpaceX Is Now Its Biggest Investment](https://finnhub.io/api/news?id=76de27f39084a9f39e86b33955a5e200aea700800379e9d24e060a33a4bd0cce)**  
 *Yahoo · 1d前*  
-European equities traded in the US as American depositary receipts kicked off the week tracking lowe
+Nvidia's own SEC filing shows it sold a quarter of its Intel shares and more than half of its Nokia stake last quarter, while SpaceX became its biggest holding.
+
+- **[Intel Stock Slips as Nvidia Sells a Quarter of Its Stake](https://finnhub.io/api/news?id=19311ac2f5826d77585df0917eca7416d23e71b64831ea4e71298ff481a2b307)**  
+*Yahoo · 1d前*  
+Nvidia still holds 161.1 million Intel shares, worth $19.37 billion at the end of September
 
 ---
 
@@ -48,7 +48,7 @@ European equities traded in the US as American depositary receipts kicked off th
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-18 | 監控 | $7.59 | — | 自動更新 |
+| 2026-11-19 | 監控 | $7.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ European equities traded in the US as American depositary receipts kicked off th
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
