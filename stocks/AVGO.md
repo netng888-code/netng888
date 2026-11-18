@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-18 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$341.60** |
-| 今日變動 | ▲ $8.20　(+2.46%) |
+| 現價 | **$354.05** |
+| 今日變動 | ▲ $12.45　(+3.64%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $370　(▼9.8%) |
+| 未實現盈虧 | ▼ $246　(▼6.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $345.71 | — |
-| Put Wall（支撐） | $320.00 | -6.3% |
-| Call Wall（阻力） | $350.00 | +2.5% |
+| Gamma Flip | $342.76 | — |
+| Put Wall（支撐） | $350.00 | -1.1% |
+| Call Wall（阻力） | $360.00 | +1.7% |
 
-**狀態：⚠️ 負Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🟡 接近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures: Techs Jump On Nvidia Earnings; Target Beats, Anthropic IPO Ahead](https://finnhub.io/api/news?id=cf99ddd9b55d761e5a2f63cece33b62b87344a5f08fddd53b20acbf4a87a18cb)**  
+- **[Marvell And Intel Halved: How Long Until They Recover?](https://finnhub.io/api/news?id=f420c4766f645ef3812eddd29f56178e64b96e1bce97e43554b503dc5976abf8)**  
 *Yahoo · 1h前*  
-Nvidia earnings beat after the major indexes broke below recent lows. Target also topped views, with the Anthropic IPO set to price Wednesday night.
+Marvell and Intel have both lost more than half their value since June. At Tuesday's close on Nov 17, Marvell stood at $148.74. That is 53.0% below its high clo…
 
-- **[AI Chips Update - Unlocking AI Potential Through Supercomputing Partnerships](https://finnhub.io/api/news?id=3e641cd49b5191916f81311a931645021988bce7ba0f88073b297c90f56c59cb)**  
+- **[Amazon and Google Have a Stake](https://finnhub.io/api/news?id=8b2145bf38a6664ab367dc2a40b3ffedb16c8864f3c997df8c898995e5e4dd7b)**  
 *Yahoo · 1h前*  
-The Lux supercomputer, developed through a collaboration between AMD, Oak Ridge National Laboratory (ORNL), and the U.S. Department of Energy (DOE), has been op…
+Amazon.com and Google could soon own more than 35% of Anthropic stock.
 
-- **[How Far Could Applied Optoelectronics Stock Fall?](https://finnhub.io/api/news?id=4e9ea5582a0183e1c5db15919fa5b9a75b813eb65b0773e1989c34de549bccb1)**  
+- **[Taiwan Semiconductor Stock (TSM) Looks Too Cheap for Its Growth Outlook](https://finnhub.io/api/news?id=577b730dc54eeee20d2020cd6580cd5560e373c9c34c7849e191068b5a5900a3)**  
 *Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Taiwan Semiconductor Manufacturing (TSM) stock looks too cheap for its growth outlook. The leading semiconductor foundry has fallen with the wider artificial in…
 
 ---
 
@@ -48,7 +48,7 @@ For questions about this article or underlying research, email help@trefis.com.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-18 | 監控 | $341.60 | — | 自動更新 |
+| 2026-11-19 | 監控 | $354.05 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
