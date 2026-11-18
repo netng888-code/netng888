@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-18 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-18 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Credo Reaches Settlement in Patent Dispute](https://finnhub.io/api/news?id=b85dba13bf842692ad14810560ea9e3a6c11e108f65afe710cd8e9fa7d6e6d6d)**  
+- **[How Far Could Applied Optoelectronics Stock Fall?](https://finnhub.io/api/news?id=4e9ea5582a0183e1c5db15919fa5b9a75b813eb65b0773e1989c34de549bccb1)**  
 *Yahoo · 1h前*  
-SAN JOSE, Calif., November 17, 2026--Credo reaches settlement in patent dispute.
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Nvidia Bet Big on AI Stocks. Now They’re Getting Hit.](https://finnhub.io/api/news?id=5df64cd5e281d09f944d3c03585b12d84f72a5806be123a05a699fb9e669796a)**  
-*Yahoo · 2h前*  
-Billion-dollar investments have linked dozens of companies to Nvidia’s success—and now its stumbles.
+- **[Nvidia Directors Clash Over Jensen Huang Comeback as Two Rival CEOs Emerge](https://finnhub.io/api/news?id=07f648aaeb8611e54aa3f99fb599371acbd95ea1fe1c1a10d66c00cc718f84fc)**  
+*Yahoo · 1h前*  
+Nvidia Board Faces Major Leadership Battle as Arm and Marvell CEOs Enter the Picture
 
-- **[A $2.7 Billion Fund Dumps These 3 Stocks](https://finnhub.io/api/news?id=54c071afd94709d862aab48ab26fe8fbe2c8a088a8ae61b6bbaa807406968dbb)**  
-*Yahoo · 3h前*  
-Key TakeawaysAnalog Century Management, a $2. 7 billion fund, sold all of its Applied Materials, Insight Enterprises and STMicroelectronics shares in the third …
+- **[Do You Even Have An AMD Tax Loss?](https://finnhub.io/api/news?id=4ab551549ea3d975a96de095b85b5f99ff3f8a0be57f184de9ecfcadc5132d0b)**  
+*Yahoo · 1h前*  
+Yes, but only if you bought AMD after late May. A share bought at the start of 2026 is up 135.1%. That is a gain, not a loss. AMD closed at $503.41 on Tuesday, …
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysAnalog Century Management, a $2. 7 billion fund, sold all of its Ap
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-18 21:05 HKT*
