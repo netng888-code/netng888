@@ -572,10 +572,12 @@ v1.26（2026-10-10）：ALL_HOLDINGS同步三項交易——(1) INTC買入10股@
       (3) LYTE沽出10股@$26.00，成本$25.00，已全數沽清（已實現+$10，累計+$37），移除。
       VALID_SYMS自動跟隨（/alert LYTE將唔再接受，/gex LYTE仍然可查）。持倉維持17隻。
       五檔同步（CSV／index.html／gex_chart v5.38／futu_bridge v3.20／github_gex_updater）。
-v1.27（2026-10-17）：ALL_HOLDINGS新增CIFR（Cipher Digital，買入100股@$10.00，新增持倉）。VALID_SYMS
-      自動跟隨（/alert CIFR可用）。持倉17→18隻，/report、/ask prompt等顯示字串同步改18隻。
-      港股07709加倉100股@HK$19.50唔影響呢個bot（bot只管美股）。五檔同步（CSV／index.html／
-      gex_chart v5.39／futu_bridge v3.21／github_gex_updater）。
+v1.27（2026-10-21）：ALL_HOLDINGS新增CIFR（Cipher Digital，2026-10-17買入100股@$10.00）。
+      VALID_SYMS自動跟隨（/alert CIFR可用）。持倉17→18隻，/report、/ask字樣同步改18隻。
+      五檔同步（CSV／index.html／gex_chart v5.39／futu_bridge v3.21／github_gex_updater）。
+v1.28（2026-11-05）：ALL_HOLDINGS同步——MRVL按紀律（跌穿$177.7考慮減）沽出3股@$170.00（10→7股，成本不變$257.303，
+      已實現約-$261.91）。持倉維持18隻（MRVL未清倉），VALID_SYMS／/report／/ask字樣不變。
+      五檔同步（CSV／index.html／gex_chart v5.44／github_gex_updater；futu_bridge只存symbol，唔使改）。
 ═══════════════════════════════════════════════════
 架構：
   Telegram指令
@@ -632,7 +634,7 @@ v1.27（2026-10-17）：ALL_HOLDINGS新增CIFR（Cipher Digital，買入100股@$
 ═══════════════════════════════════════════════════
 """
 
-BOT_VERSION = "1.27"
+BOT_VERSION = "1.28"
 
 import re
 import json
@@ -705,7 +707,7 @@ ALL_HOLDINGS = [
     {"sym": "GOOGL", "name": "谷歌-A",         "qty": 20,  "cost": 245.04 },
     {"sym": "AVGO",  "name": "博通",            "qty": 10,  "cost": 378.602},
     {"sym": "NVDA",  "name": "英偉達",          "qty": 20,  "cost": 189.0625},
-    {"sym": "MRVL",  "name": "邁威爾科技",     "qty": 10,  "cost": 257.303},
+    {"sym": "MRVL",  "name": "邁威爾科技",     "qty": 7,   "cost": 257.303},
     {"sym": "TER",   "name": "泰瑞達",          "qty": 5,   "cost": 92.00  },
     {"sym": "META",  "name": "Meta Platforms",  "qty": 3,   "cost": 606.333},
     {"sym": "NOK",   "name": "諾基亞",          "qty": 200, "cost": 12.458 },
