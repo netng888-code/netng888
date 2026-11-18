@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-18 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$55.17** |
-| 今日變動 | ▼ $0.30　(-0.54%) |
+| 現價 | **$54.67** |
+| 今日變動 | ▼ $0.50　(-0.91%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $518　(▼48.4%) |
+| 未實現盈虧 | ▼ $523　(▼48.9%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $62.25 | — |
-| Put Wall（支撐） | $50.00 | -9.4% |
-| Call Wall（阻力） | $60.00 | +8.8% |
+| Gamma Flip | $60.09 | — |
+| Put Wall（支撐） | $50.00 | -8.5% |
+| Call Wall（阻力） | $60.00 | +9.7% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[ASUS Showcases Full-Stack AI Infrastructure at SC26, Featuring Intel and AMD Platforms](https://finnhub.io/api/news?id=626dc9d991aeac9b4dcb02b7836ea45435504bbed4c9f727842951934852a6e1)**  
-*Yahoo · 2h前*  
-CHICAGO, November 17, 2026--At SC26, ASUS unveils a unified AI Factory blueprint that gives enterprises the flexibility to build AI infrastructure around their …
+- **[Marvell And Intel Halved: How Long Until They Recover?](https://finnhub.io/api/news?id=f420c4766f645ef3812eddd29f56178e64b96e1bce97e43554b503dc5976abf8)**  
+*Yahoo · 1h前*  
+Marvell and Intel have both lost more than half their value since June. At Tuesday's close on Nov 17, Marvell stood at $148.74. That is 53.0% below its high clo…
 
-- **[Nvidia Bet Big on AI Stocks. Now They’re Getting Hit.](https://finnhub.io/api/news?id=5df64cd5e281d09f944d3c03585b12d84f72a5806be123a05a699fb9e669796a)**  
-*Yahoo · 2h前*  
-Billion-dollar investments have linked dozens of companies to Nvidia’s success—and now its stumbles.
+- **[How Much Upside Is Left In Micron Stock?](https://finnhub.io/api/news?id=dd2d5f0be61142f36353c00ef63693634cf8d2706e00079667b16725cd70d541)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[The 5 Best Stocks in George Soros’s Portfolio](https://finnhub.io/api/news?id=edfcd25423c6e10ecefab2cc76bf1171c4aa5ea4d8a7342502e39a112e406300)**  
-*Yahoo · 3h前*  
-Key TakeawaysSoros Fund Management’s latest 13F shows its five biggest positions at Sept. 30 were Intel, Amazon, Taiwan Semiconductor, Alphabet and NVIDIA.
+- **[What Sent Intel Stock Lower Since May?](https://finnhub.io/api/news?id=2e361b60156fe80ca06d3197a8ddb079a6af079fc289c6538ea5ff526d66624c)**  
+*Yahoo · 2h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysSoros Fund Management’s latest 13F shows its five biggest positio
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-18 | 監控 | $55.17 | — | 自動更新 |
+| 2026-11-19 | 監控 | $54.67 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysSoros Fund Management’s latest 13F shows its five biggest positio
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 07:05 HKT*
