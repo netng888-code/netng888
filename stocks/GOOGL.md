@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-18 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-18 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Alphabet vs. Amazon: Which Is the Better AI Cloud Stock to Own for the Next 5 Years?](https://finnhub.io/api/news?id=01307103916ee4152bc8edc598454be09db567d64df46755e6050235a229f151)**  
+- **[Isomorphic Labs raises $5bn to advance drug pipeline](https://finnhub.io/api/news?id=a8df2def170bae1f6cdf13b01049f4c513290e2a05ea5310af111b96e749dfce)**  
 *Yahoo · 1h前*  
-It's hard not to like both businesses, but one offers the potential for a better return.
+The company will use the capital to scale its drug design engine, IsoDDE, and expand its pipeline.
 
-- **[3 Undervalued AI Stocks For November 2026](https://finnhub.io/api/news?id=97a6fe1f14c1f8d46e1153e3b69d7ed876bb93559ae7be6a974a11336c56b6e9)**  
+- **[Is Reddit Stock's Fall A Bargain Or A Warning?](https://finnhub.io/api/news?id=585980e4b80f6411959478abbae359edb7c5a712024250faf37221c40de7b0e1)**  
 *Yahoo · 1h前*  
-Fresh restrictions on China’s access to advanced AI chips have put a spotlight on where the real power sits in this new computing race: the companies that build…
+For questions about this article or underlying research, email help@trefis.com.
 
-- **[Ibotta Appoints Kamelia Aryafar to Board of Directors](https://finnhub.io/api/news?id=95a296503bec76009f6d4459df5c07809198c2c8a4a991d9a3bc5da9fb5e2609)**  
-*Yahoo · 1h前*  
-DENVER, November 17, 2026--Ibotta, Inc. (NYSE: IBTA), North America’s leading digital promotions network, today announced the appointment of Kamelia Aryafar to …
+- **[State Street SPDR Portfolio S&P 500 (SPYM) Adds Apple and Microsoft on Nov. 16](https://finnhub.io/api/news?id=bdcd583efd4ac74ebe91da7dd402ffd0d096815b24b6a0b051e4d30cd2397111)**  
+*Yahoo · 2h前*  
+The fund bought $398.0 million of stock, lifting all 503 positions and adding $32.5 million of Apple and $24.6 million of Microsoft.
 
 ---
 
@@ -59,4 +59,4 @@ DENVER, November 17, 2026--Ibotta, Inc. (NYSE: IBTA), North America’s leading 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-18 21:05 HKT*
