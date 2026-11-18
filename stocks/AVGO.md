@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-18 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-18 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 Undervalued AI Stocks For November 2026](https://finnhub.io/api/news?id=97a6fe1f14c1f8d46e1153e3b69d7ed876bb93559ae7be6a974a11336c56b6e9)**  
+- **[Dow Jones Futures: Techs Jump On Nvidia Earnings; Target Beats, Anthropic IPO Ahead](https://finnhub.io/api/news?id=cf99ddd9b55d761e5a2f63cece33b62b87344a5f08fddd53b20acbf4a87a18cb)**  
 *Yahoo · 1h前*  
-Fresh restrictions on China’s access to advanced AI chips have put a spotlight on where the real power sits in this new computing race: the companies that build…
+Nvidia earnings beat after the major indexes broke below recent lows. Target also topped views, with the Anthropic IPO set to price Wednesday night.
 
-- **[Billionaire David Tepper Grew His SpaceX Stake 17-Fold While Dumping AMD and Broadcom](https://finnhub.io/api/news?id=96b28296df10427d3891f3ffca116e460b1be77aa5b1c77081fe638bb797d466)**  
+- **[AI Chips Update - Unlocking AI Potential Through Supercomputing Partnerships](https://finnhub.io/api/news?id=3e641cd49b5191916f81311a931645021988bce7ba0f88073b297c90f56c59cb)**  
 *Yahoo · 1h前*  
-David Tepper's latest 13F shows a rocket-fueled bet on one hot stock and two quiet exits from AI chip winners that were still posting blowout numbers. The filin…
+The Lux supercomputer, developed through a collaboration between AMD, Oak Ridge National Laboratory (ORNL), and the U.S. Department of Energy (DOE), has been op…
 
-- **[Worried About Nvidia? 3 Artificial Intelligence (AI) Stocks That May Be Safer Buys Right Now](https://finnhub.io/api/news?id=bf5cb75a6c66f2caa82cdcacc58a909be580efacfa25b7f7fae384eea471a67b)**  
-*Yahoo · 2h前*  
-These stocks have tremendous growth potential due to AI, modest valuations, and have less risk than Nvidia these days.
+- **[How Far Could Applied Optoelectronics Stock Fall?](https://finnhub.io/api/news?id=4e9ea5582a0183e1c5db15919fa5b9a75b813eb65b0773e1989c34de549bccb1)**  
+*Yahoo · 1h前*  
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ These stocks have tremendous growth potential due to AI, modest valuations, and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-18 21:05 HKT*
