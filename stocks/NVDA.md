@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-18 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-18 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Stock Rises On Fiscal Q3 Beat-And-Raise Report (Live Coverage)](https://finnhub.io/api/news?id=77ae0515b89988860599b56afffe978f2e66186603e530c5cd958758af1fbb5c)**  
-*Yahoo · 1h前*  
-Nvidia beat Wall Street’s targets for its fiscal third quarter and guided above views for the current quarter.
+- **[Nvidia gets Yorkville Ives backing as broker maintains $225 target despite leadership turmoil](https://finnhub.io/api/news?id=5c2ca4a2b0ceab6edd43e24dd41db1623e51e4d3ae9edc05d0f415fb826be183)**  
+*Yahoo · 0h前*  
+Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) has retained an 'outperform' rating with Yorkville Ives, which outlined a $225 price target following record quarterly earn…
 
-- **[Nvidia’s Q3 earnings show its advantage as the bank of the AI boom](https://finnhub.io/api/news?id=52105c2cd32f02dd910d74eec8cf577b21b0ed4a49a4335bedd27c326dd029ce)**  
-*Yahoo · 1h前*  
-Yahoo Finance's Deirdre Bosa explains that Nvidia's (NVDA) role as a quasi-lender to smaller neo cloud customers means that part of its sales depends on custome…
+- **[One AI Power Stock Burned $181 Million in Free Cash Flow Last Quarter. Another Generated $5.4 Billion. 1 Metric Explains Both.](https://finnhub.io/api/news?id=51dc3b62907d426cf57414fdcf5c8f509ba98fc690cc565c62b6f0e893341c94)**  
+*Yahoo · 0h前*  
+These power equipment companies are seeing strong earnings growth, but only one is generating positive cash flow. Here's why.
 
-- **[Warren Buffett Buys: 3 Forever Stocks the Billionaire Investor Has Invested In](https://finnhub.io/api/news?id=3f89e84a3d2d65d79c31d09b7cae6f9e28ba200e86cfeead281655e395f80ab1)**  
-*Yahoo · 1h前*  
-These stocks have incredibly strong brands and robust financials, making them among the safest investments to own over the long haul.
+- **[Apple Is the Only Magnificent Seven Stock Near a Record](https://finnhub.io/api/news?id=c38ffb4639561465d0a0c0c62b27134530739f6e512de7321f9b0440c62a156b)**  
+*Yahoo · 0h前*  
+While the S&P 500 stumbled through a fourth straight loss, one megacap barely flinched and left its six peers far behind. Its premium price, a memory cost squee…
 
 ---
 
@@ -59,4 +59,4 @@ These stocks have incredibly strong brands and robust financials, making them am
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-18 21:05 HKT*
