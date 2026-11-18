@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-18 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$618.87** |
-| 今日變動 | ▼ $7.54　(-1.20%) |
+| 現價 | **$616.38** |
+| 今日變動 | ▼ $2.49　(-0.40%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $38　(▲2.1%) |
+| 未實現盈虧 | ▲ $30　(▲1.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $621.53 | — |
-| Put Wall（支撐） | $600.00 | -3.0% |
-| Call Wall（阻力） | $700.00 | +13.1% |
+| Gamma Flip | $621.81 | — |
+| Put Wall（支撐） | $600.00 | -2.7% |
+| Call Wall（阻力） | $700.00 | +13.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia's Complex Orbit](https://finnhub.io/api/news?id=bd12f3fc93ef3750dbf604401e92c842d34b7046ec40e9a269dc6903ac1a9b86)**  
+- **[Will Apollo's $40 billion for SpaceX to rent GPUs pay off?](https://finnhub.io/api/news?id=e5bbc005df9d945b8cb0b4511d2c9395ae3fd94c79708395d6badb134f945313)**  
 *Yahoo · 1h前*  
-Nvidia has built a sprawling network of financial ties across the technology industry.
+Yahoo Finance's Deirdre Bosa and In the Loop host Ejaaz Ahamadeen discuss Apollo (APO) is lining up $40 billion in financing so SpaceX (SPCX) can rent GPUs as a…
 
-- **[Meta Platforms, Inc. (META): Strong Advertising Growth Supports Its Long-Term Investment Case](https://finnhub.io/api/news?id=45237b2c77d9310c8f611e7411f42c78a4b0e86bc2ce4212c3c3e5cc9e557537)**  
+- **[GoodRx's $32 million privacy settlement: See if you qualify for a payment](https://finnhub.io/api/news?id=b87de6895c5f4cf0a642c49af507b1fc8118aa37751f4b9ef960696e7aeb8c82)**  
 *Yahoo · 2h前*  
-We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Meta Platforms, Inc. ranked 9th on th…
+Used GoodRx? You may qualify for money from a $32 million settlement. Here's how to check.
 
-- **[Nvidia Bet Big on AI Stocks. Now They’re Getting Hit.](https://finnhub.io/api/news?id=5df64cd5e281d09f944d3c03585b12d84f72a5806be123a05a699fb9e669796a)**  
-*Yahoo · 2h前*  
-Billion-dollar investments have linked dozens of companies to Nvidia’s success—and now its stumbles.
+- **[Should Booking Holdings Stock Investors Worry About Its Outlook?](https://finnhub.io/api/news?id=0f5945c5628f940bf4d94563090d693926313f4758c962be247dcab9a0dcaab9)**  
+*Yahoo · 3h前*  
+Today's big story: Anthropic IPO: Priced For 2031, Or 2036.
 
 ---
 
@@ -48,7 +48,7 @@ Billion-dollar investments have linked dozens of companies to Nvidia’s success
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-18 | 監控 | $618.87 | — | 自動更新 |
+| 2026-11-19 | 監控 | $616.38 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Billion-dollar investments have linked dozens of companies to Nvidia’s success
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
