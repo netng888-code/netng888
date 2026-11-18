@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-18 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$280.20** |
-| 今日變動 | ▼ $3.52　(-1.24%) |
+| 現價 | **$282.44** |
+| 今日變動 | ▲ $2.24　(+0.80%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $703　(▲14.3%) |
+| 未實現盈虧 | ▲ $748　(▲15.3%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $294.18 | — |
-| Put Wall（支撐） | $280.00 | -0.1% |
-| Call Wall（阻力） | $300.00 | +7.1% |
+| Gamma Flip | $288.97 | — |
+| Put Wall（支撐） | $280.00 | -0.9% |
+| Call Wall（阻力） | $300.00 | +6.2% |
 
 **狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Isomorphic Labs raises $5bn to advance drug pipeline](https://finnhub.io/api/news?id=a8df2def170bae1f6cdf13b01049f4c513290e2a05ea5310af111b96e749dfce)**  
+- **[Why Anthropic says cybersecurity is one of its 'most important' opportunities](https://finnhub.io/api/news?id=efae2816fa04de2869c7da6d26e41a249554a1593d0873967fdbbc3a263d2a29)**  
 *Yahoo · 1h前*  
-The company will use the capital to scale its drug design engine, IsoDDE, and expand its pipeline.
+Deirdre Bosa outlines some thoughts on cybersecurity risks just ahead of Anthropic's (ANTH.PVT) long-awaited IPO.
 
-- **[Is Reddit Stock's Fall A Bargain Or A Warning?](https://finnhub.io/api/news?id=585980e4b80f6411959478abbae359edb7c5a712024250faf37221c40de7b0e1)**  
+- **[Will Apollo's $40 billion for SpaceX to rent GPUs pay off?](https://finnhub.io/api/news?id=e5bbc005df9d945b8cb0b4511d2c9395ae3fd94c79708395d6badb134f945313)**  
 *Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Yahoo Finance's Deirdre Bosa and In the Loop host Ejaaz Ahamadeen discuss Apollo (APO) is lining up $40 billion in financing so SpaceX (SPCX) can rent GPUs as a…
 
-- **[State Street SPDR Portfolio S&P 500 (SPYM) Adds Apple and Microsoft on Nov. 16](https://finnhub.io/api/news?id=bdcd583efd4ac74ebe91da7dd402ffd0d096815b24b6a0b051e4d30cd2397111)**  
-*Yahoo · 2h前*  
-The fund bought $398.0 million of stock, lifting all 503 positions and adding $32.5 million of Apple and $24.6 million of Microsoft.
+- **[AI agent swarms could turn major outages into identity risks: Anthropic investor](https://finnhub.io/api/news?id=949546e4e9eee68dd441567df847854add3e6e8db561475a7fe9caa62f957404)**  
+*Yahoo · 1h前*  
+Deirdre Bosa sits down with IVP General Partner Somesh Dash to discuss how evolving AI agents could turn outages into heightened identity risks. IVP is an inves…
 
 ---
 
@@ -48,7 +48,7 @@ The fund bought $398.0 million of stock, lifting all 503 positions and adding $3
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-18 | 監控 | $280.20 | — | 自動更新 |
+| 2026-11-19 | 監控 | $282.44 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund bought $398.0 million of stock, lifting all 503 positions and adding $3
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
