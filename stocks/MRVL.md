@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-18 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$148.74** |
-| 今日變動 | ▲ $3.38　(+2.33%) |
+| 現價 | **$145.54** |
+| 今日變動 | ▼ $3.20　(-2.15%) |
 | 持倉數量 | 7 股 |
 | 平均成本 | $257.303 |
-| 未實現盈虧 | ▼ $760　(▼42.2%) |
+| 未實現盈虧 | ▼ $782　(▼43.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $200.66 | — |
-| Put Wall（支撐） | $140.00 | -5.9% |
-| Call Wall（阻力） | $160.00 | +7.6% |
+| Gamma Flip | $197.87 | — |
+| Put Wall（支撐） | $140.00 | -3.8% |
+| Call Wall（阻力） | $160.00 | +9.9% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[How Far Could Applied Optoelectronics Stock Fall?](https://finnhub.io/api/news?id=4e9ea5582a0183e1c5db15919fa5b9a75b813eb65b0773e1989c34de549bccb1)**  
+- **[Marvell And Intel Halved: How Long Until They Recover?](https://finnhub.io/api/news?id=f420c4766f645ef3812eddd29f56178e64b96e1bce97e43554b503dc5976abf8)**  
 *Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Marvell and Intel have both lost more than half their value since June. At Tuesday's close on Nov 17, Marvell stood at $148.74. That is 53.0% below its high clo…
 
-- **[Nvidia Directors Clash Over Jensen Huang Comeback as Two Rival CEOs Emerge](https://finnhub.io/api/news?id=07f648aaeb8611e54aa3f99fb599371acbd95ea1fe1c1a10d66c00cc718f84fc)**  
-*Yahoo · 1h前*  
-Nvidia Board Faces Major Leadership Battle as Arm and Marvell CEOs Enter the Picture
+- **[Lumentum Is Down 33% in a Month as Marvell’s Slide Shrinks Its Buyout Value. Can LITE Stock Get Back to Bernstein’s $700 Target?](https://finnhub.io/api/news?id=3e0219bf840c157217aa58ff78d7da53d8f10dfec1757e713c8b884bc27187e9)**  
+*Yahoo · 3h前*  
+Lumentum posted record revenue and a blockbuster outlook, yet its stock keeps sinking anyway. A fixed-ratio merger clause ties its fate to someone else's share …
 
-- **[Do You Even Have An AMD Tax Loss?](https://finnhub.io/api/news?id=4ab551549ea3d975a96de095b85b5f99ff3f8a0be57f184de9ecfcadc5132d0b)**  
-*Yahoo · 1h前*  
-Yes, but only if you bought AMD after late May. A share bought at the start of 2026 is up 135.1%. That is a gain, not a loss. AMD closed at $503.41 on Tuesday, …
+- **[Credo Technology Stock Jumps After Reaching Major Patent Deal With Marvell](https://finnhub.io/api/news?id=df2faa373f7135912d318da0da7b554f5ffb959595df559bdfc48eb812cc6730)**  
+*Yahoo · 3h前*  
+Marvell Just Gave Credo Technology Stock a Major Boost
 
 ---
 
@@ -48,7 +48,7 @@ Yes, but only if you bought AMD after late May. A share bought at the start of 2
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-18 | 監控 | $148.74 | — | 自動更新 |
+| 2026-11-19 | 監控 | $145.54 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Yes, but only if you bought AMD after late May. A share bought at the start of 2
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-18 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
