@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $288.97 | — |
+| Gamma Flip | $294.37 | — |
 | Put Wall（支撐） | $280.00 | -0.9% |
 | Call Wall（阻力） | $300.00 | +6.2% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Anthropic says cybersecurity is one of its 'most important' opportunities](https://finnhub.io/api/news?id=efae2816fa04de2869c7da6d26e41a249554a1593d0873967fdbbc3a263d2a29)**  
-*Yahoo · 1h前*  
-Deirdre Bosa outlines some thoughts on cybersecurity risks just ahead of Anthropic's (ANTH.PVT) long-awaited IPO.
+- **[Anthropic IPO Should Spark ‘Relief Rally’ In AI Stocks, Analyst Expects ‘Modest Hop’ On Day One](https://finnhub.io/api/news?id=b1fab480d33e62c4ff9d828325351529fe80debe65c31919aa48e68fd20038f8)**  
+*Yahoo · 0h前*  
+Paul Meeks, head of tech research at Freedom Capital Markets, told CNBC he does not expect Anthropic to reach a $2 trillion market cap by the end of day one.
 
-- **[Will Apollo's $40 billion for SpaceX to rent GPUs pay off?](https://finnhub.io/api/news?id=e5bbc005df9d945b8cb0b4511d2c9395ae3fd94c79708395d6badb134f945313)**  
-*Yahoo · 1h前*  
-Yahoo Finance's Deirdre Bosa and In the Loop host Ejaaz Ahamadeen discuss Apollo (APO) is lining up $40 billion in financing so SpaceX (SPCX) can rent GPUs as a…
+- **[Why Did Fastly Stock Jump?](https://finnhub.io/api/news?id=9beab400096e16b36bf14d297117b94c1a2baf8cb61f461ac06bed74c1ed6cb0)**  
+*Yahoo · 0h前*  
+Today's big story: Could Anthropic Stock Fall 25.
 
-- **[AI agent swarms could turn major outages into identity risks: Anthropic investor](https://finnhub.io/api/news?id=949546e4e9eee68dd441567df847854add3e6e8db561475a7fe9caa62f957404)**  
-*Yahoo · 1h前*  
-Deirdre Bosa sits down with IVP General Partner Somesh Dash to discuss how evolving AI agents could turn outages into heightened identity risks. IVP is an inves…
+- **[Anthropic Tops SpaceX For The Biggest IPO Ever](https://finnhub.io/api/news?id=8fb37112843778fde01e20525e9aa987b1f3eef9598e203b04fcbe553f99ccef)**  
+*Yahoo · 0h前*  
+Anthropic Stock Looks Set To Jump At The Open After A Record Breaking IPO
 
 ---
 
@@ -59,4 +59,4 @@ Deirdre Bosa sits down with IVP General Partner Somesh Dash to discuss how evolv
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:03 HKT*
