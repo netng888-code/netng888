@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia highlights open models amid leadership shakeup](https://finnhub.io/api/news?id=91774330e2770f0fc4665b48e92ed16cd7d6ad6df09bb033686d6ef08c227b65)**  
+- **[iShares Expanded Tech-Software (IGV) Sells $17.3 Million More Microsoft on Nov. 17](https://finnhub.io/api/news?id=6ef3a40516d892ece69f0a6e09f5840ff61a48110d704b11dd270421b31dbc85)**  
 *Yahoo · 1h前*  
-In its first earnings call since Jensen Huang’s resignation, Nvidia shed light on the growth of open models and the ecosystem it’s helping to build around them.
+The fund sold $186.2 million of stock and bought nothing, cutting 103 positions while adding no new ones.
 
-- **[Edison Scientific Hires Former Palantir Healthcare Leader Lewis Woolfson as Head of Forward Deployed Engineering](https://finnhub.io/api/news?id=16611efe4c5aeb7678f37c86921de7d54eb6c595ccf06ab5c000b9467d32e0d0)**  
+- **[ETFs Are Net Sellers of Palantir (PLTR) on Nov. 17](https://finnhub.io/api/news?id=6da4ccee0669bd80803bee50bf4c502cdc0650174d9aa9d48dcd5cf100f25a36)**  
 *Yahoo · 2h前*  
-NEW YORK & SAN FRANCISCO, November 18, 2026--Edison Scientific hires former Palantir healthcare leader Lewis Woolfson as Head of Forward Deployed Engineering
+ETFs sold a net $50.2 million of Palantir (PLTR) on Nov. 17, with 39 buyers and 19 sellers.
 
-- **[Anthropic Valuation Is 8.5 Times Next Year’s Sales: Multiples More Like Microsoft, Alphabet Than Palantir, New Street Analyst Says](https://finnhub.io/api/news?id=898336ca58d701ee9e2c393582ed2021ad52a8b67dcfa63291aea7e46632a8fa)**  
-*Yahoo · 4h前*  
-The valuation structure is supportive of downside risk, Pierre Ferragu said in an interview with CNBC.
+- **[Palantir just posted a record quarter—so why did the stock sink?](https://finnhub.io/api/news?id=34a94f6efc5794e69085d2cc9dd4ccf405cc960c9e7bb522fa0cd8a0e5dc3d6d)**  
+*Yahoo · 3h前*  
+Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.
 
 ---
 
@@ -59,4 +59,4 @@ The valuation structure is supportive of downside risk, Pierre Ferragu said in a
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:04 HKT*
