@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$150.96** |
-| 今日變動 | ▼ $4.50　(-2.89%) |
+| 現價 | **$145.98** |
+| 今日變動 | ▼ $4.98　(-3.30%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $189.062 |
-| 未實現盈虧 | ▼ $762　(▼20.2%) |
+| 未實現盈虧 | ▼ $862　(▼22.8%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $164.86 | — |
-| Put Wall（支撐） | $150.00 | -0.6% |
-| Call Wall（阻力） | $200.00 | +32.5% |
+| Gamma Flip | $160.43 | — |
+| Put Wall（支撐） | $140.00 | -4.1% |
+| Call Wall（阻力） | $200.00 | +37.0% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dow Jones Futures Rise, Techs Jump 2%: Anthropic To Debut After Strong IPO; Palo Alto, Everpure Rally On Earnings](https://finnhub.io/api/news?id=83f837c7c398382d2c98327698cd4d84f6b0e1a187afd7f899d2a41f00896332)**  
+- **[The Crypto Bear Market Could Be Back. Here’s What I’m Doing About It.](https://finnhub.io/api/news?id=b4ca2b67322a7d8ca50e0b0fb52548804c1f2ab7402487d53f5fc46f1a436dcf)**  
 *Yahoo · 1h前*  
-Tech futures jumped on Palo Alto, Everpure and a strong Anthropic IPO , which will start trading as ANT. Walmart looms.
+With Bitcoin's spectacular breakdown over the last weeks, a lot of questions about the crypto market's short-term prospects are being raised.
 
-- **[Jim Cramer Isn't Buying SpaceX Stock Yet. Cathie Wood Keeps Buying. Here’s Who’s Right.](https://finnhub.io/api/news?id=64c36f56bc43069717d992850489a8ba7cf89248c7cd50567d6025cffe6e8e02)**  
+- **[Dow Jones Futures Fall After Ugly Market Reversal To New Lows; Anthropic IPO Debuts, AMD Dives](https://finnhub.io/api/news?id=69bbf58b91dbdb01dff38a7d669d331425154da8f5881991f205ab376c7c0be3)**  
 *Yahoo · 1h前*  
-Your investing goals are more important than who is right.
+The stock market suffered an ugly reversal as AMD dived and the Anthropic IPO debuted. The S&P 500 and Nasdaq hit new lows.
 
-- **[This "Unstoppable" Cryptocurrency Is Ready to Deliver Massive Gains in 2027](https://finnhub.io/api/news?id=3bb36209e08eb53049750b0a5e49920ededf98980c800b92572f58a57c9f377b)**  
+- **[Is a Bloom Energy Stock Crash Coming? 1 Warning Sign Investors Shouldn’t Ignore.](https://finnhub.io/api/news?id=a82fe4732c9d5f1880ec5f5e0698cd5b9ee475dd4db153b0f27ee14970858830)**  
 *Yahoo · 1h前*  
-This fast-rising cryptocurrency is at the intersection of AI and blockchain infrastructure.
+Bloom Energy stock has nearly doubled in price this year.
 
 ---
 
@@ -48,7 +48,7 @@ This fast-rising cryptocurrency is at the intersection of AI and blockchain infr
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-19 | 監控 | $150.96 | — | 自動更新 |
+| 2026-11-20 | 監控 | $145.98 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ This fast-rising cryptocurrency is at the intersection of AI and blockchain infr
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 07:03 HKT*
