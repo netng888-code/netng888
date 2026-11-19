@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $161.73 | — |
+| Gamma Flip | $164.86 | — |
 | Put Wall（支撐） | $150.00 | -0.6% |
 | Call Wall（阻力） | $200.00 | +32.5% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 Energy Stocks With Dividends Built to Last the Next 10 Years](https://finnhub.io/api/news?id=9362caffbffe7fb441e6b19f7be7a453cc591a703c830ed6177028249672e829)**  
+- **[Dow Jones Futures Rise, Techs Jump 2%: Anthropic To Debut After Strong IPO; Palo Alto, Everpure Rally On Earnings](https://finnhub.io/api/news?id=83f837c7c398382d2c98327698cd4d84f6b0e1a187afd7f899d2a41f00896332)**  
 *Yahoo · 1h前*  
-Chevron, Brookfield Renewable, and Williams are all reliable income investments.
+Tech futures jumped on Palo Alto, Everpure and a strong Anthropic IPO , which will start trading as ANT. Walmart looms.
 
-- **[Cathie Wood Keeps Buying Archer Aviation Stock. Should You?](https://finnhub.io/api/news?id=5c7592e6208158bfb310f034c05c1e3db1fcd52389cf708e6ad6166f13a751a3)**  
+- **[Jim Cramer Isn't Buying SpaceX Stock Yet. Cathie Wood Keeps Buying. Here’s Who’s Right.](https://finnhub.io/api/news?id=64c36f56bc43069717d992850489a8ba7cf89248c7cd50567d6025cffe6e8e02)**  
 *Yahoo · 1h前*  
-The tech-focused investor sees promise in electric vertical takeoff vehicles.
+Your investing goals are more important than who is right.
 
-- **[Stock Market Today: Dow Ends In Red On Rate 'Shock' Fears; Nvidia Sinks As Anthropic IPO Looms](https://finnhub.io/api/news?id=376af3ccc406b1c2d77058d5ec111788d87a926c4c05754a70a798ff8bf06076)**  
+- **[This "Unstoppable" Cryptocurrency Is Ready to Deliver Massive Gains in 2027](https://finnhub.io/api/news?id=3bb36209e08eb53049750b0a5e49920ededf98980c800b92572f58a57c9f377b)**  
 *Yahoo · 1h前*  
-The Dow Jones index falls Wednesday as a Fed official calls for a "shock" in rate hikes to cool inflation. Nvidia ends lower.
+This fast-rising cryptocurrency is at the intersection of AI and blockchain infrastructure.
 
 ---
 
@@ -59,4 +59,4 @@ The Dow Jones index falls Wednesday as a Fed official calls for a "shock" in rat
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:03 HKT*
