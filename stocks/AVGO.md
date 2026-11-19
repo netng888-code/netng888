@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$354.05** |
-| 今日變動 | ▲ $12.45　(+3.64%) |
+| 現價 | **$346.65** |
+| 今日變動 | ▼ $7.40　(-2.09%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $246　(▼6.5%) |
+| 未實現盈虧 | ▼ $320　(▼8.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $345.89 | — |
-| Put Wall（支撐） | $350.00 | -1.1% |
-| Call Wall（阻力） | $360.00 | +1.7% |
+| Gamma Flip | $345.51 | — |
+| Put Wall（支撐） | $340.00 | -1.9% |
+| Call Wall（阻力） | $350.00 | +1.0% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Dividend Stocks Or AI Stocks: Which Fits Now?](https://finnhub.io/api/news?id=d9349e4d51772408de291aad50f00f40dd524388452ce292607139db8fc7c62e)**  
-*Yahoo · 1h前*  
+- **[Marvell Stock Halved Again. What Does Its Cash Say?](https://finnhub.io/api/news?id=f3322dde19d40e487f107591348708021fa0d0a87d295e32e3ef8be40eb1beb7)**  
+*Yahoo · 2h前*  
 Today's big story: Could Anthropic Stock Fall 25.
 
-- **[Is Broadcom “a Momentum Stock Wearing a Value Costume”? Its December 9 Report Will Tell](https://finnhub.io/api/news?id=144c04ec86b418d4fb28020bcf314161ae792971000b6563e92ba5458f181b20)**  
-*Yahoo · 1h前*  
-Key TakeawaysBroadcom’s revenue rose 86% last quarter, and management expects AI revenue to double to about $115 billion in fiscal 2027. One investor questions …
+- **[Why Broadcom Stock Took a Wild Ride on Thursday](https://finnhub.io/api/news?id=d77f52f8399a52b4b30d22b88899487be4453dbf376381910e6ffcd3752f840d)**  
+*Yahoo · 3h前*  
+Hint: It has to do with Anthropic.
 
-- **[Global chip stocks rally as Anthropic’s record IPO boosts confidence in AI trade](https://finnhub.io/api/news?id=4e96ad63d3c470ef559e6a8c235dd438defa812133a80fd750a9d8942038adcb)**  
-*Yahoo · 1h前*  
-Investing.com -- Global semiconductor stocks rallied Thursday after Anthropic priced the largest initial public offering (IPO) on record, boosting confidence in…
+- **[Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”](https://finnhub.io/api/news?id=1f281dc036256170fd5d3feed9ac00ed4852b8a89caaffeacef04fd37367db80)**  
+*Yahoo · 3h前*  
+Key TakeawaysAnthropic rose 16% in its Nasdaq debut after pricing its IPO at $83, above its range, and raising a record $107. 3 billion.
 
 ---
 
@@ -48,7 +48,7 @@ Investing.com -- Global semiconductor stocks rallied Thursday after Anthropic pr
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-19 | 監控 | $354.05 | — | 自動更新 |
+| 2026-11-20 | 監控 | $346.65 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Global semiconductor stocks rallied Thursday after Anthropic pr
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 07:03 HKT*
