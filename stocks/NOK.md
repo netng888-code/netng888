@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$7.59** |
-| 今日變動 | ▲ $0.00　(+0.00%) |
+| 現價 | **$7.50** |
+| 今日變動 | ▼ $0.09　(-1.19%) |
 | 持倉數量 | 200 股 |
 | 平均成本 | $12.458 |
-| 未實現盈虧 | ▼ $974　(▼39.1%) |
+| 未實現盈虧 | ▼ $992　(▼39.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $8.75 | — |
-| Put Wall（支撐） | $7.00 | -7.8% |
-| Call Wall（阻力） | $10.00 | +31.8% |
+| Gamma Flip | $8.50 | — |
+| Put Wall（支撐） | $7.00 | -6.7% |
+| Call Wall（阻力） | $10.00 | +33.3% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Nokia Oyj (NOK) Presents at Morgan Stanley European Technology, Media and Telecom Conference Transcript](https://finnhub.io/api/news?id=a195c141a6adbcc464c826289341c28be685bbd0c40da4d837949bf2e2f82f44)**  
+*SeekingAlpha · 8h前*  
+Nokia Oyj (NOK) Morgan Stanley European Technology, Media and Telecom Conference November 19, 2026 10:00 AM ESTCompany ParticipantsMarco Wiren - Chief...
+
+- **[What Is Nokia Oyj (HLSE:NOKIA) Gaining From The AI Gigafactory Northern Push?](https://finnhub.io/api/news?id=3ccd3e272d2352b6e49d790e9aa2817cfcefdf8d87941cdff12393fa20c5ed2e)**  
+*Yahoo · 17h前*  
+Nokia Oyj (HLSE:NOKIA) has joined Telia and other regional groups to form the AI Gigafactory Northern consortium in Northern Europe. The consortium aims to buil…
+
 - **[Global Router Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 5G, Wi-Fi 6 and AI as Cisco, Huawei, HPE and Nokia Drive Market to $42.93B](https://finnhub.io/api/news?id=b92f409f4ca1b41ce069979dbe8f430ced4ab7ae05217d9ecd6ef839d1c4011e)**  
-*Yahoo · 22h前*  
+*Yahoo · 1d前*  
 Profiles Huawei, Cisco, Xiaomi, HPE and Nokia, covering router offerings, market share, segments, trends, regional presence and competitive positioning.Dublin, …
-
-- **[Global Grid Edge Cellular Router Market Size, Share, Trends, and Forecast 2026-2030 | Capture 14.3% CAGR as Cisco, Siemens, Nokia, and Digi International Scale 5G Edge Security](https://finnhub.io/api/news?id=45e860725dec339ca83ffc92c6eaad09d35502a20ccab3262f6d3893d7d3faa1)**  
-*Yahoo · 22h前*  
-Boost ROI with 5G edge computing, ruggedized dual-SIM routers, secure remote management, predictive maintenance, regional assembly and diversified sourcing.Dubl…
-
-- **[Global Optical Transport Network Equipment Market Report 2026: Size, Trends, and Forecast to 2030 | Capitalize on 5G and AI Network Demand with Nokia, Ciena, Huawei, and Ekinops](https://finnhub.io/api/news?id=b9209f76cdf80d901aba43a1eb10cf2e45b516594faa22b1a3c5f7e3f13893b8)**  
-*Yahoo · 22h前*  
-Boost ROI by upgrading 5G and AI-ready optical networks with coherent, flexible, software-defined automation to increase capacity, efficiency and scalability wh…
 
 ---
 
@@ -48,7 +48,7 @@ Boost ROI by upgrading 5G and AI-ready optical networks with coherent, flexible,
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-19 | 監控 | $7.59 | — | 自動更新 |
+| 2026-11-20 | 監控 | $7.50 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Boost ROI by upgrading 5G and AI-ready optical networks with coherent, flexible,
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
