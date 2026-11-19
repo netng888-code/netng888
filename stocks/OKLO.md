@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Who Is Paying For X-Energy's Cash Burn?](https://finnhub.io/api/news?id=1a615529626617d6bde74984cb053259a82e05fb3a6bf71fdd12297a85f6d943)**  
+*Yahoo · 19h前*  
+Today's big story: Anthropic IPO: Priced For 2031, Or 2036.
+
 - **[NuScale Sinks 22% in a Week to a 52-Week Low as Canada’s First SMR Runs Late. Is the Selling Overdone?](https://finnhub.io/api/news?id=ba55e441cae0d7c70253436f96bdf69476858828c96de7978dd5b1446f5c799e)**  
-*Yahoo · 20h前*  
+*Yahoo · 1d前*  
 Key TakeawaysNuScale fell 22% in a week to a 52-week low after Canada’s first GE Vernova Hitachi small modular reactor ran late and over budget. Oklo fell too, …
 
 - **[How to Play OKLO Stock as Oklo Secures Key Fuel Supply for Its Ohio Plant](https://finnhub.io/api/news?id=14558fe169b6046570ddaeafa89c3add6f1c57a0a4b54edc1e1bac5fff8b187c)**  
 *Yahoo · 1d前*  
 Oklo’s deal with Centrus secures a supply of HALEU for its Aurora powerhouses.
-
-- **[Will OKLO's $3.1B Liquidity Cushion Advance Its Nuclear Plans?](https://finnhub.io/api/news?id=bbf4bc6bd8e801fb6cfa3a8c1c94a1e24f8307ecacd6e6838925d82642dbf41e)**  
-*Yahoo · 1d前*  
-With fuel supply secured and DOE clearance in hand, OKLO faces a critical test: turning deployment milestones into customer deliveries while keeping spending on…
 
 ---
 
@@ -59,4 +59,4 @@ With fuel supply secured and DOE clearance in hand, OKLO faces a critical test: 
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:04 HKT*
