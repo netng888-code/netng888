@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[How Much Did Medtronic Stock Really Pay Its Holders?](https://finnhub.io/api/news?id=b18a9c1f9ce3f56d14afcb6e9e5a4c0417ecadc9d1599cb5c2066b97089946a9)**  
+*Yahoo · 0h前*  
+Today's big story: Could Anthropic Stock Fall 25.
+
+- **[Why Is Intuitive Surgical (ISRG) At The Center Of The Robotics Boom?](https://finnhub.io/api/news?id=538ea3f4384f38737545be1a16c210b2079ca545d704aaeadf54df708dc2a564)**  
+*Yahoo · 1h前*  
+Intuitive Surgical (NasdaqGS:ISRG) is highlighted in new industry research as a primary beneficiary of accelerating surgical robotics adoption. Reports point to…
+
 - **[Here's Why You Should Retain OPK Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=8e9eb43bc772935d23816d69980dbadd741886db908387c1534bae551adc7825)**  
-*Yahoo · 6h前*  
+*Yahoo · 20h前*  
 OPKO Health's Global Products growth, partnered therapies and advancing pipeline support its outlook, but clinical risks and market headwinds pose challenges.
-
-- **[GE HealthCare Expands Global Research Network for Photon-Counting CT](https://finnhub.io/api/news?id=3bc5d0373dd59b4af30ef213022fd0101b3dbf9ad27d6dae93638356e87d272a)**  
-*Yahoo · 6h前*  
-GEHC expands its global research network for Photonova Spectra to advance photon-counting CT applications, clinical adoption and diagnostic capabilities.
-
-- **[Surgical Robotics for Gynecology Global Market Report 2026 | Capitalize on 14.5% CAGR as Intuitive Surgical, Medtronic and CMR Surgical Scale Single Port Systems](https://finnhub.io/api/news?id=fd51c05f54fcb592104a3b8e9dcd33b19722fc34d6eb7bf6fb816e0b9d7087d1)**  
-*Yahoo · 8h前*  
-Boost ROI via regional assembly, local manufacturing, domestic service networks, surgeon training, and platforms that improve precision, efficiency, and recover…
 
 ---
 
@@ -59,4 +59,4 @@ Boost ROI via regional assembly, local manufacturing, domestic service networks,
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:04 HKT*
