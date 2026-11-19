@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Who Is Paying For X-Energy's Cash Burn?](https://finnhub.io/api/news?id=1a615529626617d6bde74984cb053259a82e05fb3a6bf71fdd12297a85f6d943)**  
+*Yahoo · 19h前*  
+Today's big story: Anthropic IPO: Priced For 2031, Or 2036.
+
 - **[Centrus Energy: 4 Reasons For Optimism After Weak Results](https://finnhub.io/api/news?id=e10bf10bc8344ba5f18478193503cd2d34702880c9096affa7dfdc5368225e47)**  
-*SeekingAlpha · 23h前*  
+*SeekingAlpha · 1d前*  
 Centrus Energy's results for Q3 2026 might have disappointed with both revenue and income contraction.
 
 - **[How to Play OKLO Stock as Oklo Secures Key Fuel Supply for Its Ohio Plant](https://finnhub.io/api/news?id=14558fe169b6046570ddaeafa89c3add6f1c57a0a4b54edc1e1bac5fff8b187c)**  
 *Yahoo · 1d前*  
 Oklo’s deal with Centrus secures a supply of HALEU for its Aurora powerhouses.
-
-- **[Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls](https://finnhub.io/api/news?id=272e7a6098ebd7fbb6bf854362273b58af3a077e1518ddcdf442288e59af7132)**  
-*Yahoo · 2d前*  
-Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls
 
 ---
 
@@ -59,4 +59,4 @@ Airbnb upgraded, Zscaler downgraded: Wall Street's top analyst calls
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:04 HKT*
