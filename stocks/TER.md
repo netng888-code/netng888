@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Why Jefferies Calls Teradyne (TER) a “Compute Test Company”](https://finnhub.io/api/news?id=f7d024c95977c813cff91e1138d215565718a93731d7d1dbe38d2131ba94758c)**  
-*Yahoo · 6h前*  
+*Yahoo · 20h前*  
 We just published a list of the Forget Nvidia: 10 Stocks Wall Street is Betting on Right Now and Teradyne (NASDAQ:TER) ranked 8th on this list. Stocks ended a j…
 
 - **[What Is Lam Research No Longer Stressing?](https://finnhub.io/api/news?id=f7fc3e13ca2c23c0051626c3fda1e9e71680892ee7bc389e80da23599eafacbe)**  
-*Yahoo · 9h前*  
+*Yahoo · 23h前*  
 Today's big story: Anthropic IPO: Priced For 2031, Or 2036.
 
 - **[Teradyne (NASDAQ:TER) Screens as a High-Growth Standout on Strong Earnings and Cash Flow Gains](https://finnhub.io/api/news?id=46c28bf60f0b6f00aaa64f93fe0439ad3531930223b6af72b07f1b2e78f61e1e)**  
-*ChartMill · 11h前*  
+*ChartMill · 1d前*  
 Teradyne clears all eight Navellier growth-stock rules, with strong earnings, sales, cash flow and ROE—plus key risks and valuation to watch.
 
 ---
@@ -59,4 +59,4 @@ Teradyne clears all eight Navellier growth-stock rules, with strong earnings, sa
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:03 HKT*
