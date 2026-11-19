@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Uniti Group (UNIT) Suddenly Gets Hammered — Here’s Why](https://finnhub.io/api/news?id=d2c8933be88e2307a49cd897d8a3b16e5370543fac9ff8b8d642c49168138aed)**  
-*Yahoo · 17h前*  
-Uniti Group Inc. (NASDAQ:UNIT) is one of the 10 Stocks Investors Are Fleeing. Uniti Group saw its share price fall by 10.86 percent on Tuesday to finish at $4.2…
+- **[Global Router Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 5G, Wi-Fi 6 and AI as Cisco, Huawei, HPE and Nokia Drive Market to $42.93B](https://finnhub.io/api/news?id=b92f409f4ca1b41ce069979dbe8f430ced4ab7ae05217d9ecd6ef839d1c4011e)**  
+*Yahoo · 22h前*  
+Profiles Huawei, Cisco, Xiaomi, HPE and Nokia, covering router offerings, market share, segments, trends, regional presence and competitive positioning.Dublin, …
 
-- **[Nvidia Sold a Quarter of Its Intel Shares and More Than Half Its Nokia Stake. SpaceX Is Now Its Biggest Investment](https://finnhub.io/api/news?id=76de27f39084a9f39e86b33955a5e200aea700800379e9d24e060a33a4bd0cce)**  
-*Yahoo · 1d前*  
-Nvidia's own SEC filing shows it sold a quarter of its Intel shares and more than half of its Nokia stake last quarter, while SpaceX became its biggest holding.
+- **[Global Grid Edge Cellular Router Market Size, Share, Trends, and Forecast 2026-2030 | Capture 14.3% CAGR as Cisco, Siemens, Nokia, and Digi International Scale 5G Edge Security](https://finnhub.io/api/news?id=45e860725dec339ca83ffc92c6eaad09d35502a20ccab3262f6d3893d7d3faa1)**  
+*Yahoo · 22h前*  
+Boost ROI with 5G edge computing, ruggedized dual-SIM routers, secure remote management, predictive maintenance, regional assembly and diversified sourcing.Dubl…
 
-- **[Intel Stock Slips as Nvidia Sells a Quarter of Its Stake](https://finnhub.io/api/news?id=19311ac2f5826d77585df0917eca7416d23e71b64831ea4e71298ff481a2b307)**  
-*Yahoo · 1d前*  
-Nvidia still holds 161.1 million Intel shares, worth $19.37 billion at the end of September
+- **[Global Optical Transport Network Equipment Market Report 2026: Size, Trends, and Forecast to 2030 | Capitalize on 5G and AI Network Demand with Nokia, Ciena, Huawei, and Ekinops](https://finnhub.io/api/news?id=b9209f76cdf80d901aba43a1eb10cf2e45b516594faa22b1a3c5f7e3f13893b8)**  
+*Yahoo · 22h前*  
+Boost ROI by upgrading 5G and AI-ready optical networks with coherent, flexible, software-defined automation to increase capacity, efficiency and scalability wh…
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia still holds 161.1 million Intel shares, worth $19.37 billion at the end o
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:03 HKT*
