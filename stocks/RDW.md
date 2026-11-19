@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Redwire Corporation (RDW): Wall Street Sees Upside to this Drone Stock](https://finnhub.io/api/news?id=0b04beef4f7cc008ffa87d085dfbd5f6d9645c050d1cfd070c1313a0ed51593f)**  
+*Yahoo · 13h前*  
+We just published the list of the 10 Best Drone Stocks to Buy According to Wall Street Analysts and Redwire Corporation (NYSE:RDW) ranked 7th on this list. Mode…
+
+- **[Can Redwire's Paragon MOU Expand Its Space Life-Support Role?](https://finnhub.io/api/news?id=986ebd3f7bc210ea36d7513fe8b910dce0306f8c3eac9cf90a933f522495a6b8)**  
+*Yahoo · 1d前*  
+RDW's partnership with Paragon targets integrated life-support systems for space stations and lunar habitats as demand for crewed infrastructure grows.
+
 - **[Redwire: This Bear Turns (Cautiously) Bullish](https://finnhub.io/api/news?id=a0fd405247b43c4827d26d6db45292af28557fc07c0518ddf000b2ce91be7f57)**  
 *SeekingAlpha · 1d前*  
 Analyst rates Redwire a Buy: 1.73 quarterly book-to-bill and backlog growth above 50% could support stronger 2027 results and upside from about $7.
-
-- **[Rocket Lab: Record $3.6B Backlog Can't Outrun Widening Losses](https://finnhub.io/api/news?id=71cd2479d6bb7b11f3ed03b889378d5feef47df7ff6db6772102aae14dab1dfe)**  
-*SeekingAlpha · 1d前*  
-Analyst rates Rocket Lab Corporation a Sell as its $79.8 million Q3 net loss and Neutron launch uncertainty leave the near-term setup weak.
-
-- **[Rocket Lab Stock Is Down 62% But Not Cheap](https://finnhub.io/api/news?id=dfdc564b152c82bfebb35430a2ae05f711bd9207d28b0273baceb5d82ab183d2)**  
-*Yahoo · 1d前*  
-Today's big story: Could Nvidia Stock Fall 50%? Follow The Cash.
 
 ---
 
@@ -59,4 +59,4 @@ Today's big story: Could Nvidia Stock Fall 50%? Follow The Cash.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:04 HKT*
