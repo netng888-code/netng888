@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$616.38** |
-| 今日變動 | ▼ $2.49　(-0.40%) |
+| 現價 | **$596.22** |
+| 今日變動 | ▼ $20.16　(-3.27%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▲ $30　(▲1.7%) |
+| 未實現盈虧 | ▼ $30　(▼1.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $623.19 | — |
-| Put Wall（支撐） | $600.00 | -2.7% |
-| Call Wall（阻力） | $700.00 | +13.6% |
+| Gamma Flip | $621.74 | — |
+| Put Wall（支撐） | $585.00 | -1.9% |
+| Call Wall（阻力） | $700.00 | +17.4% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Is Alphabet Stock Down 30%?](https://finnhub.io/api/news?id=80cd57b921ed014c8e15fe91c1602dcd662f8bcc97d1dd61e9a14009cbe2da0f)**  
+- **[Intuit Beats Fiscal Q1 Goals, Gives Soft Outlook, Sells Mailchimp](https://finnhub.io/api/news?id=0d6864adb4124b36ab69caef8f0f680eaf3771227e064104784ab4d6266e8792)**  
 *Yahoo · 1h前*  
-Today's big story: Could Anthropic Stock Fall 25.
+Financial software firm Intuit beat Wall Street's estimates for its fiscal first quarter but missed with its outlook.
 
-- **[Could Anthropic Stock Fall 25%?](https://finnhub.io/api/news?id=b696fcf8d3d10af5f10ca1ed1ed2389b0b007ae78738aa637e1e6adb57291bef)**  
-*Yahoo · 1h前*  
-Anthropic priced its IPO at $83 a share on Wednesday evening. Its shares start trading today under the ticker ANT. At that price, could the stock fall 25% in it…
+- **[Meta trades at 21x P/E, yet shareholders face a massive new bill](https://finnhub.io/api/news?id=4c978823529e3b521d8c43c053a30b1781bb985fe7c725f99fd83765d83191d9)**  
+*Yahoo · 2h前*  
+Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.
 
-- **[First Trust NASDAQ-100 Tech (QTEC) Sells AppLovin and Texas Instruments on Tuesday](https://finnhub.io/api/news?id=05e873c00446501c6096195b25a55dfcd6e0e7dd9b04c87e8a5bfe962babb97c)**  
-*Yahoo · 1h前*  
-The fund sold $146.3 million of stock, with no buys and 42 positions reduced.
+- **[Turkey’s monopolies watchdog takes on all comers](https://finnhub.io/api/news?id=7b75d239b5f09e0f235e7cfa6f7888408264298c1447651feb118e4c8cc02a27)**  
+*Yahoo · 2h前*  
+From Meta, Adidas and Coca-Cola to poultry packers and hazelnut traders, the list of companies that have run up against Turkey’s Competition Authority (Rekabet …
 
 ---
 
@@ -48,7 +48,7 @@ The fund sold $146.3 million of stock, with no buys and 42 positions reduced.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-19 | 監控 | $616.38 | — | 自動更新 |
+| 2026-11-20 | 監控 | $596.22 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund sold $146.3 million of stock, with no buys and 42 positions reduced.
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
