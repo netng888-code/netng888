@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $342.76 | — |
+| Gamma Flip | $345.89 | — |
 | Put Wall（支撐） | $350.00 | -1.1% |
 | Call Wall（阻力） | $360.00 | +1.7% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell And Intel Halved: How Long Until They Recover?](https://finnhub.io/api/news?id=f420c4766f645ef3812eddd29f56178e64b96e1bce97e43554b503dc5976abf8)**  
+- **[Dividend Stocks Or AI Stocks: Which Fits Now?](https://finnhub.io/api/news?id=d9349e4d51772408de291aad50f00f40dd524388452ce292607139db8fc7c62e)**  
 *Yahoo · 1h前*  
-Marvell and Intel have both lost more than half their value since June. At Tuesday's close on Nov 17, Marvell stood at $148.74. That is 53.0% below its high clo…
+Today's big story: Could Anthropic Stock Fall 25.
 
-- **[Amazon and Google Have a Stake](https://finnhub.io/api/news?id=8b2145bf38a6664ab367dc2a40b3ffedb16c8864f3c997df8c898995e5e4dd7b)**  
+- **[Is Broadcom “a Momentum Stock Wearing a Value Costume”? Its December 9 Report Will Tell](https://finnhub.io/api/news?id=144c04ec86b418d4fb28020bcf314161ae792971000b6563e92ba5458f181b20)**  
 *Yahoo · 1h前*  
-Amazon.com and Google could soon own more than 35% of Anthropic stock.
+Key TakeawaysBroadcom’s revenue rose 86% last quarter, and management expects AI revenue to double to about $115 billion in fiscal 2027. One investor questions …
 
-- **[Taiwan Semiconductor Stock (TSM) Looks Too Cheap for Its Growth Outlook](https://finnhub.io/api/news?id=577b730dc54eeee20d2020cd6580cd5560e373c9c34c7849e191068b5a5900a3)**  
+- **[Global chip stocks rally as Anthropic’s record IPO boosts confidence in AI trade](https://finnhub.io/api/news?id=4e96ad63d3c470ef559e6a8c235dd438defa812133a80fd750a9d8942038adcb)**  
 *Yahoo · 1h前*  
-Taiwan Semiconductor Manufacturing (TSM) stock looks too cheap for its growth outlook. The leading semiconductor foundry has fallen with the wider artificial in…
+Investing.com -- Global semiconductor stocks rallied Thursday after Anthropic priced the largest initial public offering (IPO) on record, boosting confidence in…
 
 ---
 
@@ -59,4 +59,4 @@ Taiwan Semiconductor Manufacturing (TSM) stock looks too cheap for its growth ou
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:03 HKT*
