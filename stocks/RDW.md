@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$6.82** |
-| 今日變動 | ▲ $0.04　(+0.59%) |
+| 現價 | **$6.51** |
+| 今日變動 | ▼ $0.31　(-4.55%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $353　(▼56.4%) |
+| 未實現盈虧 | ▼ $366　(▼58.4%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $7.97 | — |
-| Put Wall（支撐） | $6.50 | -4.7% |
-| Call Wall（阻力） | $10.00 | +46.6% |
+| Gamma Flip | $7.87 | — |
+| Put Wall（支撐） | $6.50 | -0.2% |
+| Call Wall（阻力） | $10.00 | +53.6% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Redwire Corporation (RDW): Wall Street Sees Upside to this Drone Stock](https://finnhub.io/api/news?id=0b04beef4f7cc008ffa87d085dfbd5f6d9645c050d1cfd070c1313a0ed51593f)**  
-*Yahoo · 13h前*  
-We just published the list of the 10 Best Drone Stocks to Buy According to Wall Street Analysts and Redwire Corporation (NYSE:RDW) ranked 7th on this list. Mode…
+- **[Redwire Awarded $15 Million Contract to Deliver ELSA High-Performance, Low-Mass Solar Array Wings to AscendArc for GEO Communications Satellite](https://finnhub.io/api/news?id=66cad0161bac2b17b9e2f05bd21b1096bc52a1c566640bb1ede9def26c1d7495)**  
+*Yahoo · 11h前*  
+JACKSONVILLE, Fla., November 19, 2026--Redwire Corporation (NYSE: RDW), a global leader in aerospace and defense technology solutions, today announced it was aw…
 
-- **[Can Redwire's Paragon MOU Expand Its Space Life-Support Role?](https://finnhub.io/api/news?id=986ebd3f7bc210ea36d7513fe8b910dce0306f8c3eac9cf90a933f522495a6b8)**  
-*Yahoo · 1d前*  
-RDW's partnership with Paragon targets integrated life-support systems for space stations and lunar habitats as demand for crewed infrastructure grows.
+- **[Redwire Stock Rises After $15M Solar Array Contract with AscendArc](https://finnhub.io/api/news?id=2c5e0f68b058c200b4d9a5330eab0799a210992a2857983ccff55997ff1177a6)**  
+*Benzinga · 13h前*  
+Redwire is trading higher Thursday after announcing a contract to supply solar array wings for a geosynchronous communications satellite.
 
-- **[Redwire: This Bear Turns (Cautiously) Bullish](https://finnhub.io/api/news?id=a0fd405247b43c4827d26d6db45292af28557fc07c0518ddf000b2ce91be7f57)**  
-*SeekingAlpha · 1d前*  
-Analyst rates Redwire a Buy: 1.73 quarterly book-to-bill and backlog growth above 50% could support stronger 2027 results and upside from about $7.
+- **[Redwire Awarded ~$15M Contract To Deliver Its Extensible Low-Profile Solar Array Wings To GEO Satellite Maker AscendArc](https://finnhub.io/api/news?id=e4ce535f45d5581e2b75a34e9fe6b35acca64910b92835fe2fbd2830746c2667)**  
+*Benzinga · 14h前*  
+The ELSA wings will be used to power AscendArc’s GEO communications stackable satellite. ELSA expands Redwire’s power technology portfolio to support customers …
 
 ---
 
@@ -48,7 +48,7 @@ Analyst rates Redwire a Buy: 1.73 quarterly book-to-bill and backlog growth abov
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-19 | 監控 | $6.82 | — | 自動更新 |
+| 2026-11-20 | 監控 | $6.51 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Analyst rates Redwire a Buy: 1.73 quarterly book-to-bill and backlog growth abov
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
