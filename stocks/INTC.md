@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell And Intel Halved: How Long Until They Recover?](https://finnhub.io/api/news?id=f420c4766f645ef3812eddd29f56178e64b96e1bce97e43554b503dc5976abf8)**  
+- **[Global chip stocks rally as Anthropic’s record IPO boosts confidence in AI trade](https://finnhub.io/api/news?id=4e96ad63d3c470ef559e6a8c235dd438defa812133a80fd750a9d8942038adcb)**  
 *Yahoo · 1h前*  
-Marvell and Intel have both lost more than half their value since June. At Tuesday's close on Nov 17, Marvell stood at $148.74. That is 53.0% below its high clo…
+Investing.com -- Global semiconductor stocks rallied Thursday after Anthropic priced the largest initial public offering (IPO) on record, boosting confidence in…
 
-- **[How Much Upside Is Left In Micron Stock?](https://finnhub.io/api/news?id=dd2d5f0be61142f36353c00ef63693634cf8d2706e00079667b16725cd70d541)**  
+- **[Your Nvidia Weight Sets How Much A Fall Hurts](https://finnhub.io/api/news?id=72710ea9c69325b2840785396f772b8e69a9b0bfd11760f276df9bc871aac250)**  
 *Yahoo · 1h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Nvidia closed at $150.96 on Wednesday, Nov 18. That is 36.9% below its record close of $239.24 on Oct 6. Wednesday's 2.9% drop came the day after Nvidia's third…
 
-- **[What Sent Intel Stock Lower Since May?](https://finnhub.io/api/news?id=2e361b60156fe80ca06d3197a8ddb079a6af079fc289c6538ea5ff526d66624c)**  
+- **[ETFs Are Net Sellers of Intel (INTC) on Tuesday](https://finnhub.io/api/news?id=5c7094ab406b183a5df414fce3caafa918427a4cce021741187ee5a6f8edd221)**  
 *Yahoo · 2h前*  
-For questions about this article or underlying research, email help@trefis.com.
+Intel ETFs saw a net $51.7 million outflow on Tuesday, with 21 funds selling versus 40 buying.
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:04 HKT*
