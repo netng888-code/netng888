@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-19 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell And Intel Halved: How Long Until They Recover?](https://finnhub.io/api/news?id=f420c4766f645ef3812eddd29f56178e64b96e1bce97e43554b503dc5976abf8)**  
+- **[Is Broadcom “a Momentum Stock Wearing a Value Costume”? Its December 9 Report Will Tell](https://finnhub.io/api/news?id=144c04ec86b418d4fb28020bcf314161ae792971000b6563e92ba5458f181b20)**  
 *Yahoo · 1h前*  
-Marvell and Intel have both lost more than half their value since June. At Tuesday's close on Nov 17, Marvell stood at $148.74. That is 53.0% below its high clo…
+Key TakeawaysBroadcom’s revenue rose 86% last quarter, and management expects AI revenue to double to about $115 billion in fiscal 2027. One investor questions …
 
-- **[Lumentum Is Down 33% in a Month as Marvell’s Slide Shrinks Its Buyout Value. Can LITE Stock Get Back to Bernstein’s $700 Target?](https://finnhub.io/api/news?id=3e0219bf840c157217aa58ff78d7da53d8f10dfec1757e713c8b884bc27187e9)**  
-*Yahoo · 3h前*  
-Lumentum posted record revenue and a blockbuster outlook, yet its stock keeps sinking anyway. A fixed-ratio merger clause ties its fate to someone else's share …
+- **[Global chip stocks rally as Anthropic’s record IPO boosts confidence in AI trade](https://finnhub.io/api/news?id=4e96ad63d3c470ef559e6a8c235dd438defa812133a80fd750a9d8942038adcb)**  
+*Yahoo · 1h前*  
+Investing.com -- Global semiconductor stocks rallied Thursday after Anthropic priced the largest initial public offering (IPO) on record, boosting confidence in…
 
-- **[Credo Technology Stock Jumps After Reaching Major Patent Deal With Marvell](https://finnhub.io/api/news?id=df2faa373f7135912d318da0da7b554f5ffb959595df559bdfc48eb812cc6730)**  
-*Yahoo · 3h前*  
-Marvell Just Gave Credo Technology Stock a Major Boost
+- **[Your Nvidia Weight Sets How Much A Fall Hurts](https://finnhub.io/api/news?id=72710ea9c69325b2840785396f772b8e69a9b0bfd11760f276df9bc871aac250)**  
+*Yahoo · 1h前*  
+Nvidia closed at $150.96 on Wednesday, Nov 18. That is 36.9% below its record close of $239.24 on Oct 6. Wednesday's 2.9% drop came the day after Nvidia's third…
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Just Gave Credo Technology Stock a Major Boost
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:03 HKT*
