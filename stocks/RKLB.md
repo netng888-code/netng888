@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-19 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-19 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AST SpaceMobile Just Touched a 52-Week Low. Will ASTS Stock Hit $20 or $40 First?](https://finnhub.io/api/news?id=6e6c1276f118d6bc84f615e77e014e8386a126ef62f488947b3cd464336e5117)**  
-*Yahoo · 4h前*  
-A homegrown rocket, a ballooning spending plan, and a stock that has erased most of its 2026 gains. AST SpaceMobile's bulls and bears now disagree sharply on wh…
-
-- **[Will 798 Million Unlocked SpaceX Shares on December 8 Swamp Starship’s Catch?](https://finnhub.io/api/news?id=62852bebb8d009f6a827016b9358165eafccfa4252ff7342be2cb5b2bfd3c8c8)**  
-*Yahoo · 4h前*  
-Key TakeawaysSpaceX’s 180-day IPO lock-up ends Dec. 8, when up to 797.
-
-- **[How To Structure Rocket Lab and Planet Labs as a Space Play Flywheel in a $40 Billion Addressable Market](https://finnhub.io/api/news?id=23bd970539367e5e03a1379eb35e9eab8e1e10f4f14340ca6c9c5e8e90c6b74f)**  
+- **[RKLB Stock Rises Overnight: Jim Cramer Likes SpaceX But Calls Rocket Lab ‘Too Cheap’ — Electron Tops Falcon 9 In 100 Launches](https://finnhub.io/api/news?id=7125260a47817591a0004ffab651e600c2e60111e09990d8317d75f2baf9a484)**  
 *Yahoo · 5h前*  
-One company builds the rockets and spacecraft, the other sells what the satellites see, and their margins could not look more different. Before you buy either, …
+Electron reached 100 launches in about nine and a half years, around a year faster than SpaceX’s Falcon 9.
+
+- **[Top 3 Growth Stocks To Watch In November 2026](https://finnhub.io/api/news?id=9311e118162b5ddbcfff226256856120472ab3a922c4cbe8bdabd49734f4c4fb)**  
+*Yahoo · 12h前*  
+Anthropic’s planned US$1.4t IPO has put fast growing, financially solid businesses back in the spotlight. Investors are watching how quickly earnings power can …
+
+- **[Ken Griffin Dumps SpaceX, Amazon; Buys ARKK and Bets Big on Marvell](https://finnhub.io/api/news?id=67a5d3be9d437380861d3d9e01fdb22a61927b759f97c5ff6f6c5a2c52f8b329)**  
+*Yahoo · 14h前*  
+Ken Griffin’s Citadel reshaped its $900 billion portfolio in the third quarter. It added 2,490 positions and fully exited 2,219 across 13,843 holdings, accordin…
 
 ---
 
@@ -59,4 +59,4 @@ One company builds the rockets and spacecraft, the other sells what the satellit
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-19 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-19 21:04 HKT*
