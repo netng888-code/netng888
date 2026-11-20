@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-20 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[The Crypto Bear Market Could Be Back. Here’s What I’m Doing About It.](https://finnhub.io/api/news?id=b4ca2b67322a7d8ca50e0b0fb52548804c1f2ab7402487d53f5fc46f1a436dcf)**  
+- **[Jensen Huang's Sudden Resignation Has Created a Flash Sale For These 3 AI Stocks](https://finnhub.io/api/news?id=8849a76a0547371a6ca89670c846aaee5f83534aa79d3259341313a3f47b1f35)**  
 *Yahoo · 1h前*  
-With Bitcoin's spectacular breakdown over the last weeks, a lot of questions about the crypto market's short-term prospects are being raised.
+Huang's sudden departure has caused a meltdown across AI stocks. These three picks look like good buys.
 
-- **[Dow Jones Futures Fall After Ugly Market Reversal To New Lows; Anthropic IPO Debuts, AMD Dives](https://finnhub.io/api/news?id=69bbf58b91dbdb01dff38a7d669d331425154da8f5881991f205ab376c7c0be3)**  
+- **[If You Had Invested $5,000 in Amazon Stock 20 Years Ago, Here's How Much You'd Have Today](https://finnhub.io/api/news?id=03ed66304a56c4a1146c3eaf0092a2693dbb8e5462520df32845c725b125f304)**  
 *Yahoo · 1h前*  
-The stock market suffered an ugly reversal as AMD dived and the Anthropic IPO debuted. The S&P 500 and Nasdaq hit new lows.
+It's more than just the largest company in the world by sales.
 
-- **[Is a Bloom Energy Stock Crash Coming? 1 Warning Sign Investors Shouldn’t Ignore.](https://finnhub.io/api/news?id=a82fe4732c9d5f1880ec5f5e0698cd5b9ee475dd4db153b0f27ee14970858830)**  
+- **[AI Chips Today - AI Revolution Drives VR and AR Market Expansion](https://finnhub.io/api/news?id=58fbd9a4bf76c37940de8e2d95c5932fc5f61e7e3ce3a18971347f93468e47f3)**  
 *Yahoo · 1h前*  
-Bloom Energy stock has nearly doubled in price this year.
+The virtual and augmented reality (VR and AR) market is set for substantial growth, expected to expand from $32.3 billion in 2025 to $156.2 billion by 2031, mar…
 
 ---
 
@@ -59,4 +59,4 @@ Bloom Energy stock has nearly doubled in price this year.
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:03 HKT*
