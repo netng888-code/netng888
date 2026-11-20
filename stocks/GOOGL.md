@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-20 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Trump’s Latest Media Lawsuit Can Proceed, Judge Rules. What Could Happen If He Prevails.](https://finnhub.io/api/news?id=5c95b8fb484dd1220d366b600005bd2165d72c4bd5cc50e3ed4eea209ed78952)**  
+- **[Social Buzz: Wallstreetbets Stocks Mostly Lower Pre-Bell Friday; Sandisk, AMD to Decline](https://finnhub.io/api/news?id=6cea752d99f7675722bad4e293e50ec7947edb437eeff15c04573fa711940265)**  
 *Yahoo · 1h前*  
-Shares of the New York Times fell 3% Thursday, but the negative sentiment may be premature, based on past court case outcomes.
+The most-talked-about stocks in the Reddit subforum Wallstreetbets were mostly lower hours before Fr
 
-- **[Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=95b7d457c2f06088bbba42d7f818bf650bbf4afb8c98db8ab1e3103814fb6d5e)**  
+- **[iShares Russell 1000 Growth (IWF) Buys $15.6 Million More NVIDIA on Wednesday](https://finnhub.io/api/news?id=8bf45524543dffb28fe0d2df39f8c7945f3a28035dba3598eda854aabcb9759c)**  
 *Yahoo · 1h前*  
-Anthropic makes its hotly anticipated trading debut.
+The fund added $132.8 million in new positions on Wednesday, led by a $15.6 million purchase of NVIDIA.
 
-- **[Google’s SpaceX Stake Lost More Than $10 Billion in Value Last Quarter While Its Share Count Edged Up](https://finnhub.io/api/news?id=17465fe88f66f99ed48f9c5ee7afd564448d171d38996a1f044063ff93b0e4fe)**  
+- **[State Street Comm Services SPDR (XLC) Buys $54.7 Million More META on Nov. 18](https://finnhub.io/api/news?id=0847ea0b14612949d8c34f051f336bd3af2a5705de936c6a2bc1566d13278320)**  
 *Yahoo · 1h前*  
-One stock makes up nearly all of Alphabet's disclosed portfolio, and its latest filing shows the company quietly adding to it while the price slid. Why is the b…
+The fund added $264.0 million across all 22 of its positions, led by a $54.7 million increase in Meta Platforms.
 
 ---
 
@@ -59,4 +59,4 @@ One stock makes up nearly all of Alphabet's disclosed portfolio, and its latest 
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:03 HKT*
