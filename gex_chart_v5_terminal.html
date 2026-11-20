@@ -716,13 +716,37 @@
        白天主題亦睇唔清）；全檔font-size<12px嘅宣告一律+0.5～2px（8→10、9→10.5、9.5→11、10→11、10.5→11.5、11→12、
        11.5→12.5），Chart.js刻度字體9→10、10→11；GEX by Strike圖Spot/Flip/Call/Put標籤改按文字闊度畫底，11px字唔會爆框。
     ⚠️ (1)(2)嘅bridge部分要打patch_bridge_gexguard_v3174.py先完整；未打嘅話，前端失真提示照常，但AI分析文字仍可能引用失真Wall。
+  v5.47（2026-11-19）：Cursor檢查v5.46嘅8個bug（逐項對原文核實，全部屬實）＋3項Money Flow／Gamma／K線標籤改動：
+    1.【Bug1】GEX頁漲跌喺盤中／週末永遠+0.00%——T1同T2都係last_price。getLiveT1()週末路徑補回T3（前日收盤）；
+      renderAll()盤中／週末用T3做基準、延長時段用T2，標籤分「vs前日收盤」／「vs今日收盤」，同持倉表T1_chg_base一致。
+    2.【Bug2】「今日盈虧」標籤同公式相反——盤中／週末實際係(T2−T3)×持股，卻寫(T1−T2)／vs今日收盤。摘要卡副標題同表頭
+      改為隨時段動態顯示；合計行／摘要卡盈虧剛好0改用中性色（舊版0當紅色／綠色）。
+    3.【Bug3】轉股票時舊請求寫入新股票——loadGex／loadKline／runAiAnalysis／runWhyMoving／loadCapFlow／
+      getMoneyFlow／loadFundamentalsFor全部加請求序號（gexReqSeq／klineReqSeq／aiReqSeq／whyReqSeq），回應返嚟時
+      symbol或序號已變就丟棄；renderPriceChart()只喺lastData.sym===currentSym先畫GEX橫線。
+    4.【Bug4】假期成日當週末——detectSession()重寫為detectSessionAt(et)：(a)假期只覆蓋當日正規時段；20:00 ET後
+      如果下一個日曆日係交易日就判overnight（例：感恩節後嗰晚）；(b)提早收市日（2026-11-27、2026-12-24、
+      2027-11-26，NYSE官方13:00 ET收市）13:00後改判afterhours。getLiveT1()唔再複製session邏輯，直接用detectSession()。
+      ⚠️ 提早收市表係人手維護（同假期表一樣），2028年後要補。
+    5.【Bug5】到期日曆快照「延長時段價＋正規時段漲跌%」——百分比改由價格計：盤中／週末對T3，延長時段對T2。
+    6.【Bug6】正Gamma邊界兩邊唔同——GEX頁改為spot>=flip算正Gamma，同到期日曆／bridge一致。
+    7.【Bug7】資金流文案寫死「Call主導」——按callP>=putP寫Call主導／Put主導。
+    8.【Bug8】單隻基本面失敗被永久快取——有error或冇任何有效欄位唔寫入fundamentalsBySym，另加60秒負快取避免狂打。
+    A. Money Flow樣本不足：Call+Put premium合計<$1M（MF_MIN_PREMIUM_USD，同bridge v3.26一致）→ 卡片標「樣本不足」，
+       唔作多空判斷、唔計趨勢、唔傳畀AI；趨勢橫幅顯示原因；到期日曆Flow顯示「樣本不足」。前端自己都會判斷，
+       未升級bridge都生效。細價股（RR／SERV／CIFR）正常盤中都可能<$1M，想放寬改MF_MIN_PREMIUM_USD。
+    B. Gamma訊號分歧：現價>=Flip（局部正Gamma）但Net GEX為負（Short Gamma），或相反，狀態卡顯示「⚠️ Gamma訊號分歧」，
+       到期日曆顯示「⚠️Gamma分歧」，唔再單憑Flip話「正Gamma區」。AI／歸因卡嘅對應處理喺bridge v3.26。
+    C. K線GEX橫線合併標籤唔再顯示平均價——每條線喺真實價位畫，同一組只第一條顯示axis label，title列出全部真實價位
+       （例：「Gamma Flip 135.98 / Put Wall 140.00」）。
+    ⚠️ A、B嘅AI文字部分要升級futu_bridge_v2.py v3.26先完整；Cursor清單「未當bug」三項（LYTE、INTC/NOK/TER重複、跑馬燈複製）照舊。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.46)</title>
+<title>GEX Chart — Futu Bridge (v5.47)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -1562,7 +1586,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
   <div class="scards">
     <div class="scard"><div class="sc-label">總市值 (USD)</div><div class="sc-val" id="s-mv">—</div><div class="sc-sub">18隻美股</div></div>
     <div class="scard"><div class="sc-label">未實現盈虧</div><div class="sc-val" id="s-pnl">—</div><div class="sc-sub" id="s-pnlpct">—</div></div>
-    <div class="scard"><div class="sc-label">今日盈虧 (T1-T2)</div><div class="sc-val" id="s-td">—</div><div class="sc-sub" id="s-tdsub">vs 今日收盤</div></div>
+    <div class="scard"><div class="sc-label">今日盈虧</div><div class="sc-val" id="s-td">—</div><div class="sc-sub" id="s-tdsub">—</div></div>
     <div class="scard"><div class="sc-label">報價時段</div><div class="sc-val" style="font-size:14px" id="s-sess">—</div><div class="sc-sub" id="s-sessub">—</div></div>
   </div>
 
@@ -1674,6 +1698,36 @@ function applyTheme(t, persist) {
 // BREAKOUT_BUFFER_PCT（AI prompt/compute_wall_status()用嗰個）
 // 保持同一數值，兩邊人手同步。
 const BREAKOUT_BUFFER_PCT = 0.5;
+
+// v5.47（A）：Money Flow樣本不足門檻（Call+Put premium合計，美元）——同futu_bridge_v2.py v3.26嘅
+// MF_MIN_PREMIUM_USD同值，兩邊人手同步。bridge有回sample_low就用bridge嘅，冇（舊bridge）就前端自己判斷。
+const MF_MIN_PREMIUM_USD = 1000000;
+function mfPremiumSampleLow(pf) {
+  if (!pf) return false;
+  if (pf.sample_low != null) return !!pf.sample_low;
+  const tot = (pf.call_premium || 0) + (pf.put_premium || 0);
+  return tot > 0 && tot < MF_MIN_PREMIUM_USD;
+}
+// 樣本不足時，趨勢一律換成「樣本不足」提示（唔管bridge有冇升級），唔會顯示「40%→97%轉強」呢類誤導字句
+function mfTrendSafe(mf) {
+  if (!mf) return null;
+  const pf = mf.premium_flow;
+  if (mfPremiumSampleLow(pf)) {
+    if (mf.trend && mf.trend.sample_low) return mf.trend;
+    const tot = ((pf.call_premium || 0) + (pf.put_premium || 0)) / 1e6;
+    return {available: false, sample_low: true,
+      note: `期權成交額太細（Call+Put合共約$${tot.toFixed(2)}M，低過$${MF_MIN_PREMIUM_USD/1e6}M門檻），佔比唔具代表性，唔計趨勢`};
+  }
+  return mf.trend;
+}
+
+// v5.47（B）：Gamma訊號分歧——Flip睇價位（現價>=Flip＝局部正Gamma），Net GEX睇總量（dealer_bias）。
+// 兩者方向相反先算分歧；price==flip當正Gamma（同bridge gamma_signal_conflict()一致）。
+function gammaSignalConflict(spot, flip, bias) {
+  if (!spot || !flip || (bias !== 'LONG_GAMMA' && bias !== 'SHORT_GAMMA')) return null;
+  const above = spot >= flip, isLong = bias === 'LONG_GAMMA';
+  return above === isLong ? null : {above};
+}
 
 // v5.46：GEX Wall失真防呆——同telegram_bot.py v1.25 check_gex_proximity、futu_bridge_v2.py v3.17.4
 // gex_walls_distorted()同一邏輯（三個檔案各自一份，人手同步）。Put Wall高過Call Wall，或任一Wall偏離
@@ -1831,6 +1885,8 @@ let pcInited = false;
 // 嗰陣直接讀嚟用，唔使重新fetch。
 let lastKlineStats = null;
 let lastMoneyFlow  = null;
+// v5.47（Bug3）：請求序號——快速轉股票時，舊請求後到唔可以蓋住新結果
+let gexReqSeq = 0, klineReqSeq = 0, aiReqSeq = 0, whyReqSeq = 0;
 
 // ── Futu 持倉 + Watchlist（quicklinks 來源）────────────────────
 // 持倉：holdings_US CSV（依市值降序）。改持倉後記得同步更新呢度。
@@ -1920,28 +1976,33 @@ function isNyseHolidayET(et) {
   return _NYSE_HOLIDAYS_ET.has(`${y}-${m}-${d}`);
 }
 
-function detectSession() {
-  // v6修正（2026-07-25）：補返「owning trading day」邏輯，同
-  // telegram_bot.py v1.4已經修正嘅detect_et_session()對齊——舊版
-  // 淨係checkday===0||day===6就當weekend，冇考慮「週五20:00 ET後
-  // 其實冇夜盤」（要等週日20:00 ET先重開），導致週五收市後
-  // （HK時間週六日）成日誤判做「夜盤」，攞錯咗停留喺舊值嘅
-  // overnight_price去顯示T1，同真實現價（last_price/T2）對唔上。
-  const et = new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
-  // v5.16新增：公眾假期（例如感恩節9:30-16:00 ET期間）優先當weekend
-  // 處理——'weekend'呢個標籤本身喺SESS_CFG/UI已經係「休市」通用意思，
-  // 唔使加多一個新state。
-  if (isNyseHolidayET(et)) return 'weekend';
-  const day = et.getDay();   // 0=週日 … 6=週六
+// v5.47（Bug4）：提早收市日（NYSE官方13:00 ET收市；2026-11-27、2026-12-24、2027-11-26，
+// 來源NYSE Holidays & Trading Hours）。人手維護，同_NYSE_HOLIDAYS_ET一樣要逐年補。
+const _NYSE_EARLY_CLOSE_ET = new Set(['2026-11-27','2026-12-24','2027-11-26']);
+function etDateKey(et) {
+  return `${et.getFullYear()}-${String(et.getMonth()+1).padStart(2,'0')}-${String(et.getDate()).padStart(2,'0')}`;
+}
+function isNyseTradingDayET(et) {
+  const wd = et.getDay();
+  return wd >= 1 && wd <= 5 && !isNyseHolidayET(et);
+}
+// et：一個「本地欄位＝美東牆鐘時間」嘅Date（純函數，方便測試）
+// 規則：假期／週末只覆蓋當日正規＋延長時段；20:00 ET後嘅夜盤屬「下一個日曆日」，
+// 下一日係交易日先有夜盤（週五晚→週六、感恩節前一晚都冇；週日晚→週一、感恩節當晚→週五先有）。
+function detectSessionAt(et) {
   const m = et.getHours()*60 + et.getMinutes();
-  if (day===6) return 'weekend';                          // 週六全日休市
-  if (day===0) return m>=1200 ? 'overnight' : 'weekend';   // 週日20:00前=weekend；20:00後=週一夜盤已開始
-  if (day===5 && m>=1200) return 'weekend';                // 週五20:00後冇夜盤，要等週日20:00先重開
-  if (m < 240)  return 'overnight';
-  if (m < 570)  return 'premarket';
-  if (m < 960)  return 'regular';
-  if (m < 1200) return 'afterhours';
-  return 'overnight';
+  if (m >= 1200) {
+    const nxt = new Date(et.getFullYear(), et.getMonth(), et.getDate() + 1);
+    return isNyseTradingDayET(nxt) ? 'overnight' : 'weekend';
+  }
+  if (!isNyseTradingDayET(et)) return 'weekend';
+  if (m < 240) return 'overnight';
+  if (m < 570) return 'premarket';
+  const closeMin = _NYSE_EARLY_CLOSE_ET.has(etDateKey(et)) ? 780 : 960;
+  return m < closeMin ? 'regular' : 'afterhours';
+}
+function detectSession() {
+  return detectSessionAt(new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'})));
 }
 
 function getT1(rec, sess) {
@@ -2231,16 +2292,26 @@ async function loadFundamentals() {
 // 批量（loadFundamentals，持倉總覽用）定呢度（單symbol）填入，
 // 格式一致，fmtFund()可以共用，唔使查詢緊持倉symbol時重複再攞
 // 一次（下面已經有cache check）。
+// v5.47（Bug8）：失敗（error／冇任何有效欄位）唔寫入fundamentalsBySym（否則錯誤物件係truthy，之後永遠用呢個錯誤快取）；
+// 另加60秒負快取，避免失敗嗰隻每次重畫都狂打bridge。
+const _fundFailAt = {};
+function _fundHasData(d) {
+  return !!d && ['pe_ttm_fh','div_yield_fh','eps_ttm_fh','eps_growth_yoy','sector','fcf_ttm','fcf_trend'].some(k => d[k] != null);
+}
 async function loadFundamentalsFor(sym) {
   if (fundamentalsBySym[sym]) return fundamentalsBySym[sym];  // 已有（持倉批量或之前查過），唔使再fetch
+  if (_fundFailAt[sym] && Date.now() - _fundFailAt[sym] < 60000) return {};
   try {
     const r = await fetch(`${BRIDGE}/api/fundamentals/${sym}`, {signal: AbortSignal.timeout(15000)});
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const d = await r.json();
+    if (d.error || !_fundHasData(d)) { _fundFailAt[sym] = Date.now(); return d || {}; }
+    delete _fundFailAt[sym];
     fundamentalsBySym[sym] = d;
     return d;
   } catch (e) {
     console.warn('loadFundamentalsFor failed:', sym, e);
+    _fundFailAt[sym] = Date.now();
     return {};
   }
 }
@@ -2315,7 +2386,7 @@ function renderUS(rows) {
     <th style="min-width:100px">T2 收盤<br><span style="font-size:10px;color:var(--muted)">不變，每天一次</span></th>
     <th style="min-width:100px">T3 前日收盤<br><span style="font-size:10px;color:var(--muted)">不變，每天一次</span></th>
     <th>成本價</th><th>市值 (USD)</th><th>未實現盈虧</th><th>未實 %</th>
-    <th>今日盈虧<br><span style="font-size:10px;color:var(--muted)">(T1−T2)×持股</span></th>
+    <th>今日盈虧<br><span style="font-size:10px;color:var(--muted)">${(sess==='regular'||sess==='weekend')?'(T2−T3)×持股':'(T1−T2)×持股'}</span></th>
     <th style="text-align:left;min-width:190px">基本面<br><span style="font-size:10px;color:var(--muted)">P/E・EPS・Div・FCF・Growth・Sector${fcfHint?`<br><span style="color:var(--red)">${fcfHint}</span>`:''}</span></th>
     <th>操作</th>
   </tr></thead><tbody>`;
@@ -2395,9 +2466,9 @@ function renderUS(rows) {
     <td colspan="2" style="text-align:left;font-weight:700;color:var(--accent)">合計 (${hasData}隻)</td>
     <td colspan="3"></td><td></td>
     <td class="mv-cell" style="font-weight:700">${fmv(totalMV)}</td>
-    <td class="${tunrCls==='pos'?'pnl-pos':'pnl-neg'}" style="font-weight:700">${fm(totalPNL)}</td>
+    <td class="${tunrCls==='pos'?'pnl-pos':tunrCls==='neg'?'pnl-neg':'pnl-neu'}" style="font-weight:700">${fm(totalPNL)}</td>
     <td><span class="pct-badge ${tunrCls}">${totalUnrPct>=0?'+':''}${totalUnrPct.toFixed(2)}%</span></td>
-    <td class="${ttdCls==='pos'?'pnl-pos':'pnl-neg'}" style="font-weight:700">${fm(totalTD)}</td>
+    <td class="${ttdCls==='pos'?'pnl-pos':ttdCls==='neg'?'pnl-neg':'pnl-neu'}" style="font-weight:700">${fm(totalTD)}</td>
     <td></td>
     <td></td>
   </tr>`;
@@ -2406,11 +2477,12 @@ function renderUS(rows) {
   document.getElementById('us-src').textContent = `${hasData}隻 · T1=${cfg.icon} · T2=今日收盤 · T3=前日收盤`;
 
   document.getElementById('s-mv').textContent    = fmv(totalMV);
-  document.getElementById('s-pnl').style.color   = totalPNL>=0?'var(--green)':'var(--red)';
+  document.getElementById('s-pnl').style.color   = totalPNL>0?'var(--green)':totalPNL<0?'var(--red)':'var(--muted)';
   document.getElementById('s-pnl').textContent   = fm(totalPNL);
   document.getElementById('s-pnlpct').textContent= `${totalUnrPct>=0?'+':''}${totalUnrPct.toFixed(2)}%`;
-  document.getElementById('s-td').style.color    = totalTD>=0?'var(--green)':'var(--red)';
+  document.getElementById('s-td').style.color    = totalTD>0?'var(--green)':totalTD<0?'var(--red)':'var(--muted)';
   document.getElementById('s-td').textContent    = fm(totalTD);
+  document.getElementById('s-tdsub').textContent = (sess==='regular'||sess==='weekend') ? '相對前日收盤 (T2−T3)' : '相對今日收盤 (T1−T2)';   // v5.47（Bug2）
 }
 
 // ── Render HK（移植自futu.html）─────────────────────────────
@@ -2533,23 +2605,11 @@ async function getLiveT1(sym) {
     const d = await r.json();
     for (const rec of (d.us||[])) {
       if ((rec.code||'').replace('US.','').toUpperCase() !== sym) continue;
-      // session detection（v6修正：owning trading day邏輯，同detectSession()
-      // 同步——舊版wd===0||wd===6判斷冇考慮週五20:00 ET後其實冇夜盤，
-      // 週五晚/週六會誤讀overnight_price呢個停留喺舊值嘅欄位）
-      const et  = new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
-      const h = et.getHours(); const m = et.getMinutes(); const wd = et.getDay();
-      const mins = h*60+m;
-      // v5.16新增：加返isNyseHolidayET()檢查，同detectSession()同步——
-      // 舊版呢度冇理會公眾假期，令假期（例如感恩節）仍然被判做
-      // regular/pre/after，T1會錯誤讀返last_price而唔係「凍結」狀態
-      if (isNyseHolidayET(et) || wd===6 || (wd===0 && mins<1200) || (wd===5 && mins>=1200)) {
-        return {T1:rec.last_price, T2:rec.last_price, sess:'weekend', icon:'🗓',
-                chgRate:rec.change_rate, name:rec.name};
-      }
-      let T1=rec.last_price, sess='regular', icon='☀️';
-      if (h<4||(h>=20))                              {T1=rec.overnight_price||rec.last_price;sess='overnight';icon='🌙';}
-      else if (h<9||(h===9&&m<30))                   {T1=rec.pre_price||rec.last_price;     sess='premarket';icon='🌅';}
-      else if (h>=16)                                {T1=rec.after_price||rec.last_price;   sess='afterhours';icon='🌆';}
+      // v5.47：session一律由detectSession()判斷（假期／提早收市／夜盤owning-day邏輯只維護一份，唔再複製）；
+      // 週末／假期路徑亦帶T3（前日收盤），俾renderAll()計漲跌（Bug1）
+      const sess = detectSession();
+      const icon = {premarket:'🌅', regular:'☀️', afterhours:'🌆', overnight:'🌙', weekend:'🗓'}[sess] || '☀️';
+      const T1 = getT1(rec, sess).price || rec.last_price;
       return {T1, T2:rec.last_price, T3:rec.prev_close_price, sess, icon,
               chgRate:rec.change_rate, name:rec.name};
     }
@@ -2589,12 +2649,17 @@ function renderMoneyFlow(mf) {
   const callP = cp.call_premium||0, putP = cp.put_premium||0;
   const totalP = callP+putP;
   const callPct = totalP ? (callP/totalP*100) : 50;
+  // v5.47：A——樣本不足（合計<$1M，例如盤前）唔作多空判斷；Bug7——Call主導／Put主導按實際方向寫
+  const sampleLow = mfPremiumSampleLow(cp);
   document.getElementById('mf-premium-val').innerHTML =
     totalP ? `<span style="color:var(--green)">Call $${(callP/1e6).toFixed(2)}M</span> / <span style="color:var(--red)">Put $${(putP/1e6).toFixed(2)}M</span>`
            : '無數據';
   document.getElementById('mf-premium-sub').textContent =
-    totalP ? `Call佔${callPct.toFixed(0)}% · 淨額 ${(callP-putP)>=0?'+':''}$${((callP-putP)/1e6).toFixed(2)}M（Call主導）→${callP>=putP?'偏多':'偏空'}` : '—';
-  document.getElementById('mf-premium-bar').style.width = `${callPct}%`;
+    !totalP ? '—'
+    : sampleLow ? `⚠ 樣本不足（合共$${(totalP/1e6).toFixed(2)}M，低過$${MF_MIN_PREMIUM_USD/1e6}M門檻）· 佔比唔具代表性，唔作多空判斷`
+    : `Call佔${callPct.toFixed(0)}% · 淨額 ${(callP-putP)>=0?'+':''}$${((callP-putP)/1e6).toFixed(2)}M（${callP>=putP?'Call':'Put'}主導）→${callP>=putP?'偏多':'偏空'}`;
+  document.getElementById('mf-premium-bar').style.width = sampleLow ? '50%' : `${callPct}%`;
+  document.getElementById('mf-premium-bar').style.background = sampleLow ? 'var(--muted)' : 'var(--green)';
 
   // Order Book Imbalance
   const ob = mf.order_book || {};
@@ -2733,10 +2798,12 @@ function applyPriceChartTheme() {
 
 // ── Price Chart：攞K線 ───────────────────────────────────────
 async function loadKline(sym, period) {
+  const mySeq = ++klineReqSeq;               // v5.47（Bug3）：連續撳唔同週期／轉股票，舊回應唔可以蓋住新嘅
   try {
     const r = await fetch(`${BRIDGE}/api/kline/${sym}?period=${period}&count=250`, {signal:AbortSignal.timeout(15000)});
     if (!r.ok) return;
     const d = await r.json();
+    if (mySeq !== klineReqSeq || sym !== currentSym || period !== pcPeriod) return;
     if (d.error) { console.warn('kline error:', d.error); return; }
     renderPriceChart(d);
   } catch (e) { console.warn('kline fetch failed:', e); }
@@ -2823,7 +2890,7 @@ function renderPriceChart(d) {
   // 1分鐘圖幅度細、merge距離自動縮細，唔會過度合併相近但仍然分得
   // 開嘅Wall。每次interval切換（loadKline重新fetch）都會經呢度
   // 重新計算+重畫，確保切圖後都啱。
-  if (lastData && lastData.d && d.bars && d.bars.length) {
+  if (lastData && lastData.d && lastData.sym === currentSym && d.bars && d.bars.length) {   // v5.47（Bug3）
     const highs = d.bars.map(b => b.high);
     const lows  = d.bars.map(b => b.low);
     const priceRange = Math.max(...highs) - Math.min(...lows);
@@ -2878,34 +2945,40 @@ function renderGexPriceLines(d, priceRange) {
     : (ref > 0 ? ref * 0.012 : 0);
 
   raw.sort((a, b) => a.price - b.price);
-  const merged = [];
+  // v5.47（C）：舊版將疊埋嘅線合併成一條、畫喺「平均價」（例：Flip 135.98＋Put Wall 140.00 → 137.99），
+  // 線同標籤都唔係真實價位。而家每條線都喺真實價位畫；同一組（螢幕上會疊）只有第一條顯示axis label，
+  // title列出全部真實價位。
+  const clusters = [];
   raw.forEach(l => {
-    const last = merged[merged.length - 1];
+    const grp = clusters[clusters.length - 1];
     let shouldMerge = false;
-    if (last) {
-      const yLast = pcCandle.priceToCoordinate(last.price);
+    if (grp) {
+      const prev = grp[grp.length - 1];
+      const yLast = pcCandle.priceToCoordinate(prev.price);
       const yCurr = pcCandle.priceToCoordinate(l.price);
       if (yLast != null && yCurr != null) {
         shouldMerge = Math.abs(yCurr - yLast) < MIN_PX_GAP;   // 像素準確判斷
       } else {
-        shouldMerge = fallbackAbs > 0 && Math.abs(l.price - last.price) < fallbackAbs;
+        shouldMerge = fallbackAbs > 0 && Math.abs(l.price - prev.price) < fallbackAbs;
       }
     }
-    if (last && shouldMerge) {
-      last.title = `${last.title}/${l.title}`;
-      last.price = (last.price + l.price) / 2;
-    } else {
-      merged.push({ ...l });
-    }
+    if (grp && shouldMerge) grp.push(l); else clusters.push([l]);
   });
 
   const _wallsBad = gexWallsDistorted(d.spot, d.put_wall, d.call_wall);   // v5.46
-  merged.forEach(l => {
-    pcPriceLines.push(pcCandle.createPriceLine({
-      price: l.price, color: l.color, lineWidth: 4,
-      lineStyle: LightweightCharts.LineStyle.LargeDashed,
-      axisLabelVisible: true, title: (_wallsBad && /Call|Put|Flip/.test(l.title)) ? l.title + '⚠' : l.title,
-    }));
+  clusters.forEach(grp => {
+    const label = grp.length > 1
+      ? grp.map(l => `${l.title} ${Number(l.price).toFixed(2)}`).join(' / ')
+      : grp[0].title;
+    grp.forEach((l, idx) => {
+      const head = idx === 0;
+      pcPriceLines.push(pcCandle.createPriceLine({
+        price: l.price, color: l.color, lineWidth: 4,
+        lineStyle: LightweightCharts.LineStyle.LargeDashed,
+        axisLabelVisible: head,
+        title: head ? ((_wallsBad && /Call|Put|Flip/.test(label)) ? label + '⚠' : label) : '',
+      }));
+    });
   });
 }
 
@@ -2914,6 +2987,8 @@ async function loadGex(sym) {
   setMsg(`<span class="spin"></span>查詢 ${sym} GEX 數據中...`);
   hideAll();
   currentSym = sym;
+  const mySeq = ++gexReqSeq;                 // v5.47（Bug3）
+  const stale = () => mySeq !== gexReqSeq;
   updateOcLink(sym);
   highlightActiveQlink(sym);
   // v5.10：新symbol查詢時清空舊symbol嘅散戶K線/Money Flow context，
@@ -2940,6 +3015,7 @@ async function loadGex(sym) {
     ]);
     if (!gexResp.ok) throw new Error(`HTTP ${gexResp.status}`);
     const d = await gexResp.json();
+    if (stale()) return;                      // v5.47（Bug3）：已經轉咗股票，丟棄舊回應
 
     if (d.error) throw new Error(d.error);
     if (!d.call_wall) throw new Error('GEX計算失敗，期權行情LV1可能不足');
@@ -2954,14 +3030,14 @@ async function loadGex(sym) {
     // （loadFundamentalsFor），獨立fetch，唔阻住主GEX顯示，攞到之後
     // 先重新render一次補埋growth個位。
     renderFundRow(sym, d);
-    loadFundamentalsFor(sym).then(() => renderFundRow(sym, d));
+    loadFundamentalsFor(sym).then(() => { if (!stale()) renderFundRow(sym, d); });
 
     // Money Flow：唔影響主GEX顯示，失敗都唔throw。v5.10：連埋存低
     // lastMoneyFlow俾runAiAnalysis()結合散戶行為用
-    getMoneyFlow(sym).then(mf => { lastMoneyFlow = mf; renderMoneyFlow(mf); renderTrendBanner(lastData?.d?.trend, mf?.trend); });
+    getMoneyFlow(sym).then(mf => { if (stale()) return; lastMoneyFlow = mf; renderMoneyFlow(mf); renderTrendBanner(lastData?.d?.trend, mfTrendSafe(mf)); });
 
     // 資金分佈 + 資金流向（v5.10新增），獨立fetch，失敗都唔影響主GEX顯示
-    loadCapFlow(sym);
+    loadCapFlow(sym, mySeq);
 
     // Price Chart：K線+MA+MACD+GEX橫線，獨立fetch，失敗都唔影響主GEX顯示
     initPriceChart();
@@ -2971,6 +3047,7 @@ async function loadGex(sym) {
     loadKline(sym, pcPeriod);
 
   } catch(e) {
+    if (stale()) return;
     document.getElementById('d-br').className='dot err';
     document.getElementById('t-br').textContent='Bridge: 失敗';
     setMsg(`<span class="err-msg">⚠ 查詢失敗：${e.message}</span><br>
@@ -3003,7 +3080,12 @@ function renderAll(d, lq, sym) {
   document.getElementById('why-section').style.display='';
 
   // Spot
-  const spotChg = T2 ? (spot-T2)/T2*100 : null;
+  // v5.47（Bug1）：盤中／週末T1==T2（都係last_price），舊版對T2計漲跌永遠+0.00%。
+  // 同持倉表T1_chg_base一致：盤中／週末對T3（前日收盤），延長時段對T2（今日收盤）。
+  const _regLike = (lq?.sess === 'regular' || lq?.sess === 'weekend');
+  const _chgBase = _regLike ? (lq?.T3 || null) : T2;
+  const _chgLbl  = _regLike ? 'vs前日收盤' : 'vs今日收盤';
+  const spotChg = (lq && _chgBase) ? (spot-_chgBase)/_chgBase*100 : null;
   // v5.16新增（Bug 1a）：休市（週末/假期）期間「T1 LIVE」呢個字眼
   // 會誤導用戶以為市場依然實時交易緊——lq.sess喺getLiveT1()／
   // detectSession()已經識判斷weekend，呢度直接攞嚟決定顯示邊句
@@ -3012,7 +3094,7 @@ function renderAll(d, lq, sym) {
   const t1LabelTxt = isClosed ? 'T1 收盤價' : 'T1 LIVE 股價';
   const lvSpotLabelTxt = isClosed ? 'T1 收盤價' : 'T1 Live 現價';
   document.getElementById('lv-spot').textContent = `$${f2(spot)}`;
-  document.getElementById('lv-spot-sub').textContent = `${sessIcon} ${sessLabel} ${spotChg!=null?fp(spotChg)+' vs收盤':''}`;
+  document.getElementById('lv-spot-sub').textContent = `${sessIcon} ${sessLabel} ${spotChg!=null?fp(spotChg)+' '+_chgLbl:''}`;
   const lvSpotLabelEl = document.getElementById('lv-spot-label');
   if (lvSpotLabelEl) lvSpotLabelEl.textContent = lvSpotLabelTxt;
 
@@ -3032,7 +3114,7 @@ function renderAll(d, lq, sym) {
   const flipDist = spot && flip ? (flip-spot)/spot*100 : null;
   document.getElementById('lv-flip').textContent = flip ? `$${f2(flip)}` : 'N/A';
   document.getElementById('lv-flip-sub').textContent = flipDist!=null
-    ? (spot>flip ? `現價 ▲${Math.abs(flipDist).toFixed(1)}% above Flip` : `現價 ▼${Math.abs(flipDist).toFixed(1)}% below Flip`)
+    ? (spot>=flip ? `現價 ▲${Math.abs(flipDist).toFixed(1)}% above Flip` : `現價 ▼${Math.abs(flipDist).toFixed(1)}% below Flip`)
     : '—';
 
   // Call Wall
@@ -3065,8 +3147,16 @@ function renderAll(d, lq, sym) {
   // 發生緊。而家分三層：確認突破/跌穿（>=0.5%）→ 逼近（仍喺wall
   // 嗰邊，<1.5%）→ 測試阻力/支撐中（過咗界但喺0.5%緩衝區內）。
   let statusStr = '', statusSub = '';
+  // v5.47：Bug6——邊界統一用>=（同到期日曆／bridge一致）；B——Flip同Net GEX方向相反就明講分歧
+  const gconf = (spot && flip) ? gammaSignalConflict(spot, flip, d.dealer_bias) : null;
   if (spot && flip) {
-    statusStr = spot > flip ? '✅ 正Gamma區' : '⚠️ 負Gamma區';
+    if (gconf) {
+      const netTxt = (d.net_gex != null) ? `Net GEX ${d.net_gex>=0?'+':''}${Number(d.net_gex).toFixed(1)}M` : 'Net GEX';
+      statusStr = '⚠️ Gamma訊號分歧\n' + (gconf.above ? '現價≥Flip（局部正Gamma）' : '現價<Flip（局部負Gamma）')
+                + `\n但${netTxt}（${d.dealer_bias==='LONG_GAMMA'?'偏Long Gamma':'偏Short Gamma'}）`;
+    } else {
+      statusStr = spot >= flip ? '✅ 正Gamma區' : '⚠️ 負Gamma區';
+    }
   }
   if (spot && callWall) {
     const overCallPct = (spot - callWall) / spot * 100;   // 正數=已過界
@@ -3090,7 +3180,7 @@ function renderAll(d, lq, sym) {
     document.getElementById('lv-put-sub').textContent  = `⚠ 失真，唔作跌穿判斷（現價${pwNote}）`;
   }
   document.getElementById('lv-status').innerHTML = statusStr.replace(/\n/g,'<br>');
-  document.getElementById('lv-status-sub').textContent = wallsBad ? wallsBad : `Futu Live GEX`;
+  document.getElementById('lv-status-sub').textContent = wallsBad ? wallsBad : (gconf ? 'Flip睇價位、Net GEX睇總量，兩者方向相反' : `Futu Live GEX`);
 
   // Chart
   document.getElementById('chart-wrap').style.display='';
@@ -3101,7 +3191,7 @@ function renderAll(d, lq, sym) {
   // Dealer Gamma／資金流趨勢（v5.11新增）——GEX trend呢個時候已經有
   // （bridge/api/gex response本身帶埋），Money Flow trend遲吓resolve
   // 先再merge埋一齊重render一次（見loadGex()嗰句getMoneyFlow().then）
-  renderTrendBanner(d.trend, lastMoneyFlow?.trend);
+  renderTrendBanner(d.trend, mfTrendSafe(lastMoneyFlow));
 }
 
 // ── Dealer Gamma／資金流趨勢橫幅（v5.11新增）─────────────────────
@@ -3147,6 +3237,8 @@ function renderTrendBanner(gexTrend, mfTrend) {
   if (mfTrend && mfTrend.available && mfTrend.call_pct_delta != null) {
     const d = mfTrend.call_pct_delta;
     parts.push(`期權Call Premium佔比：${mfTrend.call_pct_prev.toFixed(0)}% → ${mfTrend.call_pct_curr.toFixed(0)}%（${d>0?'轉強':d<0?'轉弱':'持平'}）`);
+  } else if (mfTrend && mfTrend.sample_low) {
+    parts.push(`<span style="color:var(--muted)">${escHtml(mfTrend.note || '期權成交額太細，唔計趨勢')}</span>`);
   }
 
   if (!parts.length) {
@@ -3165,6 +3257,7 @@ function renderTrendBanner(gexTrend, mfTrend) {
 // 先傳畀DeepSeek（同telegram_bot.py嘅AVGO事件修正原則一致），前端
 // 呢度純粹負責攞返嚟嘅文字顯示，唔做任何計算。
 function resetAiSection() {
+  aiReqSeq++;                                // v5.47（Bug3）：作廢進行中嘅分析
   const body = document.getElementById('ai-body');
   const btn  = document.getElementById('ai-btn');
   const meta = document.getElementById('ai-meta');
@@ -3176,6 +3269,7 @@ function resetAiSection() {
 async function runAiAnalysis() {
   if (!lastData) return;
   const {sym} = lastData;
+  const mySeq = ++aiReqSeq;                  // v5.47（Bug3）
   const btn  = document.getElementById('ai-btn');
   const body = document.getElementById('ai-body');
   const meta = document.getElementById('ai-meta');
@@ -3202,6 +3296,7 @@ async function runAiAnalysis() {
     ]);
     if (!gexResp.ok) throw new Error(`HTTP ${gexResp.status}`);
     const d = await gexResp.json();
+    if (mySeq !== aiReqSeq || sym !== currentSym) return;   // v5.47（Bug3）
     if (d.error) throw new Error(d.error);
 
     lastData = {d, liveQuote, sym};
@@ -3232,17 +3327,20 @@ async function runAiAnalysis() {
       const td = lastMoneyFlow.tick_delta, ob = lastMoneyFlow.order_book, pf = lastMoneyFlow.premium_flow;
       if (td && td.tick_delta   != null) params.set('tick_delta', td.tick_delta);
       if (ob && ob.imbalance    != null) params.set('book_imbalance', ob.imbalance);
-      if (pf && pf.call_premium != null) params.set('call_premium', pf.call_premium);
-      if (pf && pf.put_premium  != null) params.set('put_premium', pf.put_premium);
+      // v5.47（A）：樣本不足（合計<$1M）唔傳call/put premium畀AI，避免「Call佔97%」呢類誤導
+      if (pf && pf.call_premium != null && !mfPremiumSampleLow(pf)) params.set('call_premium', pf.call_premium);
+      if (pf && pf.put_premium  != null && !mfPremiumSampleLow(pf)) params.set('put_premium', pf.put_premium);
     }
     // v5.11：加埋Dealer Gamma／資金流day-over-day趨勢（bridge嘅
     // /api/gex同/api/moneyflow response而家帶埋"trend"欄位，見
     // futu_bridge_v2.py v2.11）。用JSON.stringify()傳，backend
     // 用json.loads()解返，避免將巢狀object逐個field拆做URL param。
     if (d.trend)                params.set('gex_trend', JSON.stringify(d.trend));
-    if (lastMoneyFlow?.trend)   params.set('mf_trend',   JSON.stringify(lastMoneyFlow.trend));
+    const _mft = mfTrendSafe(lastMoneyFlow);
+    if (_mft && !_mft.sample_low) params.set('mf_trend', JSON.stringify(_mft));
     const r = await fetch(`${BRIDGE}/api/ai_analysis/${sym}?${params.toString()}`, {signal:AbortSignal.timeout(70000)});
     const j = await r.json();
+    if (mySeq !== aiReqSeq || sym !== currentSym) return;   // v5.47（Bug3）
     if (j.error) throw new Error(j.error);
     body.innerHTML = renderAiText(j.analysis || '（AI冇回覆內容）');
     // v5.16：「數據時間」= 呢次攞GEX/現價嗰一刻bridge server端嘅
@@ -3253,6 +3351,7 @@ async function runAiAnalysis() {
     const genTimeHKT  = fmtHKT(new Date());
     meta.textContent = `模型：${j.model || '—'} · 數據時間 ${dataTimeHKT} HKT · 分析生成 ${genTimeHKT} HKT`;
   } catch(e) {
+    if (mySeq !== aiReqSeq) return;
     body.innerHTML = `<span class="err-msg">⚠ AI分析失敗：${e.message}</span><br><span style="font-size:11px;color:var(--muted)">確認futu_bridge_v2.py已填OPENROUTER_API_KEY並運行緊</span>`;
   }
   btn.disabled = false;
@@ -3277,6 +3376,7 @@ function renderAiText(s) {
 }
 
 function resetWhySection() {
+  whyReqSeq++;                               // v5.47（Bug3）
   const b = document.getElementById('why-body'), m = document.getElementById('why-meta'), btn = document.getElementById('why-btn');
   if (b) b.innerHTML = '<span class="ai-placeholder">按「分析」——系統會先用統計拆開各因素，再由AI按證據講解。證據唔夠就會明講。</span>';
   if (m) m.textContent = '';
@@ -3286,6 +3386,7 @@ function resetWhySection() {
 async function runWhyMoving() {
   if (!lastData) return;
   const {sym} = lastData;
+  const mySeq = ++whyReqSeq;                 // v5.47（Bug3）
   const btn = document.getElementById('why-btn'), body = document.getElementById('why-body'), meta = document.getElementById('why-meta');
   btn.disabled = true; btn.textContent = '⏳ 分析中...';
   body.innerHTML = '<span class="spin"></span> 攞日線／宏觀／新聞／GEX，再交畀AI，約15-60秒...';
@@ -3301,6 +3402,7 @@ async function runWhyMoving() {
     // （同v3.1教訓一致：前端等待時間一定要大過backend理論worst-case）
     const r = await fetch(`${BRIDGE}/api/why_moving/${sym}?${params.toString()}`, {signal: AbortSignal.timeout(whyExp === '8' ? 220000 : 120000)});   // v5.43：近8個到期日GEX最多約100秒＋AI最多60秒
     const j = await r.json();
+    if (mySeq !== whyReqSeq || sym !== currentSym) return;   // v5.47（Bug3）
     if (j.error) throw new Error(j.error);
     const ev = j.evidence;
 
@@ -3358,6 +3460,7 @@ async function runWhyMoving() {
     body.innerHTML = html;
     meta.textContent = `數據日期 ${ev.as_of}${ev.is_today ? '（今日）' : '（最近交易日，非今日）'} · 模型：${j.model || '—'} · 耗時 ${j.elapsed_s}s · 基於日線收市價，唔係盤中即時`;
   } catch (e) {
+    if (mySeq !== whyReqSeq) return;
     body.innerHTML = `<span class="err-msg">⚠ 分析失敗：${escHtml(e.message)}</span><br><span style="font-size:11px;color:var(--muted)">確認 futu_bridge_v2.py 已升級到 v3.17.3</span>`;
   }
   btn.disabled = false; btn.textContent = '🔎 重新分析';
@@ -3371,7 +3474,8 @@ async function runWhyMoving() {
 // 係Futu平台本身嘅限制（同K線舊版嗰個extended_time問題屬同一類，
 // 但呢兩個endpoint官方完全冇提供盤前盤後版本），非regular時段會
 // 喺卡片度加提示文字講明。
-async function loadCapFlow(sym) {
+async function loadCapFlow(sym, seq) {
+  const stale = () => sym !== currentSym || (seq != null && seq !== gexReqSeq);   // v5.47（Bug3）
   const section = document.getElementById('capflow-section');
   const distEl  = document.getElementById('capdist-body');
   const flowEl  = document.getElementById('capflow-body');
@@ -3383,24 +3487,28 @@ async function loadCapFlow(sym) {
   try {
     const r = await fetch(`${BRIDGE}/api/capital_dist/${sym}`, {signal:AbortSignal.timeout(15000)});
     const d = await r.json();
+    if (stale()) return;
     if (d.error || d.capital_in_super == null) {
       distEl.innerHTML = `<span style="color:var(--muted)">⚠ ${d.error || '暫無資金分佈數據'}</span>`;
     } else {
       renderCapDist(d);
     }
   } catch(e) {
+    if (stale()) return;
     distEl.innerHTML = `<span style="color:var(--muted)">⚠ 連接失敗</span>`;
   }
 
   try {
     const r2 = await fetch(`${BRIDGE}/api/capital_flow/${sym}`, {signal:AbortSignal.timeout(15000)});
     const d2 = await r2.json();
+    if (stale()) return;
     if (d2.error || !d2.rows || !d2.rows.length) {
       flowEl.innerHTML = `<span style="color:var(--muted)">⚠ ${d2.error || '暫無資金流向數據'}</span>`;
     } else {
       renderCapFlowChart(d2);
     }
   } catch(e) {
+    if (stale()) return;
     flowEl.innerHTML = `<span style="color:var(--muted)">⚠ 連接失敗</span>`;
   }
 }
@@ -3725,6 +3833,7 @@ function calSnapshotCellHtml(sym) {
   // 「GEX + K線」tab嘅renderAll()一致，唔會出現兩邊講法唔同）
   if (s.price != null && (s.flip != null || s.call_wall != null || s.put_wall != null)) {
     let gammaTxt = s.flip != null ? (s.price >= s.flip ? '✅正Gamma' : '⚠️負Gamma') : '';
+    if (s.flip != null && gammaSignalConflict(s.price, s.flip, s.dealer_bias)) gammaTxt = '⚠️Gamma分歧';   // v5.47（B）
     let wallNote = '';
     const _bad = gexWallsDistorted(s.price, s.put_wall, s.call_wall);   // v5.46：失真防呆
     if (!_bad && s.call_wall != null) {
@@ -3752,6 +3861,7 @@ function calSnapshotCellHtml(sym) {
   // Money Flow：Call/Put Premium Flow佔比 · Order Book Imbalance · Tick Delta
   const mfBits = [];
   if (s.call_pct != null) mfBits.push(`Flow:<span style="color:${s.call_pct>=50?'var(--green)':'var(--red)'}">${s.call_pct.toFixed(0)}%Call</span>`);
+  else if (s.flow_low) mfBits.push(`Flow:<span style="color:var(--muted)">樣本不足</span>`);   // v5.47（A）
   if (s.book_imbalance != null) mfBits.push(`OB:<span style="color:${s.book_imbalance>=0?'var(--green)':'var(--red)'}">${(s.book_imbalance*100>=0?'+':'')}${(s.book_imbalance*100).toFixed(1)}%</span>`);
   if (s.tick_delta != null) mfBits.push(`Tick:<span style="color:${s.tick_delta>=0?'var(--green)':'var(--red)'}">${s.tick_delta>=0?'+':''}${s.tick_delta.toLocaleString()}</span>`);
   if (mfBits.length) lines.push(`<span style="color:var(--muted)">${mfBits.join(' · ')}</span>`);
@@ -3798,7 +3908,11 @@ async function fetchCalSnapshotBatch(symbols) {
       (dq.us||[]).forEach(rec => {
         const sym = (rec.code||'').replace('US.','');
         const {price} = getT1(rec, sess);
-        quotesBySym[sym] = { price: price || rec.last_price, pct: rec.change_rate };
+        // v5.47（Bug5）：舊版現價跟盤前／盤後／夜盤，百分比卻用rec.change_rate（正規時段漲跌）。
+        // 改為由價格計：盤中／週末對T3（前日收盤），延長時段對T2（今日收盤），同持倉表一致。
+        const _px = price || rec.last_price;
+        const _base = (sess === 'regular' || sess === 'weekend') ? rec.prev_close_price : rec.last_price;
+        quotesBySym[sym] = { price: _px, pct: (_px && _base) ? (_px - _base) / _base * 100 : null };
       });
     }
   } catch(e) {}
@@ -3832,7 +3946,8 @@ async function fetchCalSnapshotBatch(symbols) {
 
       const q = quotesBySym[sym] || {};
       const pf = mf && mf.premium_flow;
-      const callPct = (pf && (pf.call_premium + pf.put_premium) > 0)
+      const flowLow = mfPremiumSampleLow(pf);   // v5.47（A）
+      const callPct = (pf && !flowLow && (pf.call_premium + pf.put_premium) > 0)
         ? pf.call_premium / (pf.call_premium + pf.put_premium) * 100 : null;
 
       calSnapshots[sym] = {
@@ -3843,6 +3958,7 @@ async function fetchCalSnapshotBatch(symbols) {
         put_wall: gex ? gex.put_wall : null,
         dealer_bias: gex ? gex.dealer_bias : null,
         call_pct: callPct,
+        flow_low: flowLow,
         book_imbalance: (mf && mf.order_book) ? mf.order_book.imbalance : null,
         tick_delta: (mf && mf.tick_delta) ? mf.tick_delta.tick_delta : null,
         fund: fmtFund(sym, gex || {}),
