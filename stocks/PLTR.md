@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Palantir Technologies (PLTR) Gets A Fresh AI Signal From A Key Platform Partner](https://finnhub.io/api/news?id=0e522bdf8fa0c4acbaf8ed2bac3b50b130d9821b4b71f4194049a99aa1786fe2)**  
-*Yahoo · 2h前*  
+*Yahoo · 16h前*  
 On Nvidia's latest earnings call in November 2026, management highlighted Palantir Technologies (NasdaqGS:PLTR) as a key AI partner. Nvidia stressed its commitm…
 
 - **[Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=7b243e0f3ce1e35750512f29909a8232d664c469c4dfe22fa8c0358a4183209e)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 Salesforce's AI agent push and Palantir's commercial surge carry very different price tags, and that gap may decide the debate.
 
 - **[How Does Palantir Technologies (PLTR) FedStart Milestone Change Its Federal AI Case?](https://finnhub.io/api/news?id=7408ecd46a6954c3d1fe6d2c82ffe8b17de91312ef3fbb3f96ec69f5806d5a1e)**  
-*Yahoo · 3h前*  
+*Yahoo · 17h前*  
 Palantir Technologies (NasdaqGS:PLTR) supported OLIGO Security in achieving FedRAMP Class D (High) certification through its FedStart program. The FedRAMP Class…
 
 ---
@@ -59,4 +59,4 @@ Palantir Technologies (NasdaqGS:PLTR) supported OLIGO Security in achieving FedR
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
