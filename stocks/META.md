@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intuit Beats Fiscal Q1 Goals, Gives Soft Outlook, Sells Mailchimp](https://finnhub.io/api/news?id=0d6864adb4124b36ab69caef8f0f680eaf3771227e064104784ab4d6266e8792)**  
+- **[Direxion Daily S&P 500 Bull 3X (SPXL) Sells $16.2 Million of Apple on Nov. 18](https://finnhub.io/api/news?id=9f1d821a228996b6cae42d0f1e3a30d4c90478180a4bbab518ac3c2d19937d73)**  
 *Yahoo · 1h前*  
-Financial software firm Intuit beat Wall Street's estimates for its fiscal first quarter but missed with its outlook.
+The leveraged ETF sold $154.1 million of stock and bought nothing, cutting 382 positions while increasing none.
 
-- **[Meta trades at 21x P/E, yet shareholders face a massive new bill](https://finnhub.io/api/news?id=4c978823529e3b521d8c43c053a30b1781bb985fe7c725f99fd83765d83191d9)**  
-*Yahoo · 2h前*  
-Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.
+- **[What Capital Group Growth ETF (CGGR) Bought: Meta Leads on Wednesday](https://finnhub.io/api/news?id=683c003008e00a6b52a1afa0f2aad63de2dd88ee6c2e402381eef490e2594778)**  
+*Yahoo · 1h前*  
+Capital Group Growth ETF (CGGR) added $183.5 million in new buying across 88 positions on Wednesday, with Meta Platforms topping the list at $11.9 million.
 
-- **[Turkey’s monopolies watchdog takes on all comers](https://finnhub.io/api/news?id=7b75d239b5f09e0f235e7cfa6f7888408264298c1447651feb118e4c8cc02a27)**  
-*Yahoo · 2h前*  
-From Meta, Adidas and Coca-Cola to poultry packers and hazelnut traders, the list of companies that have run up against Turkey’s Competition Authority (Rekabet …
+- **[What JPMorgan U.S. Tech Leaders ETF (JTEK) Bought: Meta Leads on Wednesday](https://finnhub.io/api/news?id=2c30cf2a26f769752da0e2f3d9cf95b006468dee9845d42e2657e1ebce8632d9)**  
+*Yahoo · 1h前*  
+The fund added $190.3 million across all 37 holdings, with Meta Platforms' $12.5 million purchase the largest.
 
 ---
 
@@ -59,4 +59,4 @@ From Meta, Adidas and Coca-Cola to poultry packers and hazelnut traders, the lis
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
