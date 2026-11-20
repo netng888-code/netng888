@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Lumentum’s sales surged 137%—so why is its stock crashing?](https://finnhub.io/api/news?id=c4eececc499cf014ee3a60cd7aab2f64fa008224806aa2f6263401c45c887c5d)**  
-*Yahoo · 2h前*  
-Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.
+- **[Lumentum: The Drawdown Might Have Gone Too Far (Rating Upgrade)](https://finnhub.io/api/news?id=21a93d4405a2b0c82ee5b9304ebd2e0ab1fdc7c7344d6723f41eb556250ffeee)**  
+*SeekingAlpha · 6h前*  
+Analyst rates Lumentum a Hold: a nearly 35% decline and 136% Q1 revenue growth correct prior overvaluation; shares trade 16.5% below deal value.
 
-- **[Marvell Stock Halved Again. What Does Its Cash Say?](https://finnhub.io/api/news?id=f3322dde19d40e487f107591348708021fa0d0a87d295e32e3ef8be40eb1beb7)**  
-*Yahoo · 2h前*  
-Today's big story: Could Anthropic Stock Fall 25.
+- **[Could Tesla Become The Next Lumentum? Gary Black Warns A SpaceX Stock Deal Could Send TSLA Down 25%](https://finnhub.io/api/news?id=46feb6668559c19dbff069b07f3317bcd75f6d14ce9e1623683098aa706e207b)**  
+*Yahoo · 6h前*  
+Lumentum CEO Michael Hurlston said upcoming earnings and a merger filing could help win back shareholders.
 
-- **[Cathie Wood Says Nvidia’s Interim CEO Is “Not a Tech Expert.” Kevin O’Leary Disagrees. Who’s Right?](https://finnhub.io/api/news?id=c496ebc90056f73c2e67c5df93310b09394659ef67d35b9b6f2aa99ad5aea232)**  
-*Yahoo · 3h前*  
-Key TakeawaysNVIDIA reported $115. 8 billion of revenue in its first quarter since Jensen Huang left, and interim CEO Colette Kress raised the fiscal 2028 growt…
+- **[AI sell-off: These sectors held firm as tech slumped in Oct, Nov](https://finnhub.io/api/news?id=f495f8db97fb4f933d5c17e934cebb09d1be507454f4b3d31d31a26efb598188)**  
+*Yahoo · 8h前*  
+Investing.com -- Semiconductors, software, and memory stocks fell hard through October and early-November amid mounting questions over the long-term artificial …
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysNVIDIA reported $115. 8 billion of revenue in its first quarter sin
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
