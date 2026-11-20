@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Is Teradyne (TER) a Solid Growth Stock? 3 Reasons to Think "Yes"](https://finnhub.io/api/news?id=dd1fa2d72241e5c90a71523d4d70f08c777fc415868a124e3c6d9312c2e49cd9)**  
+- **[What Is Teradyne (TER) Bringing To Edge AI With Omnyx Edge?](https://finnhub.io/api/news?id=5d4e16d6ecc3356ea79ff2c653ee08844a1cb1a534fe153b6b297aac8efc8d9c)**  
 *Yahoo · 6h前*  
+Teradyne (NasdaqGS:TER) introduced Omnyx Edge, an inline board test platform for physical and edge AI devices. The new system extends the existing Omnyx family,…
+
+- **[Is Teradyne (TER) a Solid Growth Stock? 3 Reasons to Think "Yes"](https://finnhub.io/api/news?id=dd1fa2d72241e5c90a71523d4d70f08c777fc415868a124e3c6d9312c2e49cd9)**  
+*Yahoo · 20h前*  
 Teradyne (TER) could produce exceptional returns because of its solid growth attributes.
 
 - **[Build, Run, Harvest: The Just-In-Case Cycle Is Moving On](https://finnhub.io/api/news?id=8b33239fb09822a7bc5ee23997318134f1d60d7d22e2625f0e545bc220915d43)**  
-*SeekingAlpha · 14h前*  
+*SeekingAlpha · 1d前*  
 Analyst sees the supply-chain cycle maturing six years into the just-in-case era: inventories are at a record high, while the tracking ratio falls.
-
-- **[Why Jefferies Calls Teradyne (TER) a “Compute Test Company”](https://finnhub.io/api/news?id=f7d024c95977c813cff91e1138d215565718a93731d7d1dbe38d2131ba94758c)**  
-*Yahoo · 1d前*  
-We just published a list of the Forget Nvidia: 10 Stocks Wall Street is Betting on Right Now and Teradyne (NASDAQ:TER) ranked 8th on this list. Stocks ended a j…
 
 ---
 
@@ -59,4 +59,4 @@ We just published a list of the Forget Nvidia: 10 Stocks Wall Street is Betting 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
