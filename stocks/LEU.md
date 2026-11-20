@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $103.00 | — |
+| Gamma Flip | $103.01 | — |
 | Put Wall（支撐） | $85.00 | -5.2% |
 | Call Wall（阻力） | $100.00 | +11.5% |
 
@@ -35,7 +35,7 @@
 Today's big story: Anthropic IPO: Priced For 2031, Or 2036.
 
 - **[Centrus Energy: 4 Reasons For Optimism After Weak Results](https://finnhub.io/api/news?id=e10bf10bc8344ba5f18478193503cd2d34702880c9096affa7dfdc5368225e47)**  
-*SeekingAlpha · 1d前*  
+*SeekingAlpha · 2d前*  
 Centrus Energy's results for Q3 2026 might have disappointed with both revenue and income contraction.
 
 - **[How to Play OKLO Stock as Oklo Secures Key Fuel Supply for Its Ohio Plant](https://finnhub.io/api/news?id=14558fe169b6046570ddaeafa89c3add6f1c57a0a4b54edc1e1bac5fff8b187c)**  
@@ -59,4 +59,4 @@ Oklo’s deal with Centrus secures a supply of HALEU for its Aurora powerhouses.
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
