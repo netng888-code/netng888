@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[GE HealthCare Wins FDA Nod for AI Feeding Tube Detection Software](https://finnhub.io/api/news?id=6e82a9bde5a7df1692b6c4740ee9d0c1ec45e78c69eaeab944e764fd571e7663)**  
-*Yahoo · 6h前*  
+*Yahoo · 20h前*  
 GEHC secures FDA clearance for AI-powered feeding tube detection software, expanding bedside X-ray capabilities for adult and pediatric patients.
 
 - **[Intuitive Surgical (ISRG) Down 1.7% Since Last Earnings Report: Can It Rebound?](https://finnhub.io/api/news?id=7c86e4683e569cbf0694e281810bb3fd9f780f3a3d6c5867ecddec8b3bd691b5)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 Intuitive Surgical (ISRG) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
 
 - **[Here's Why You Should Retain NeuroPace Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=647b2d37b640dfd6a69e37bf69f35a0c71fcc4813a84376c7b98f698d41cf590)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 NPCE's RNS adoption, new indications and reimbursement gains offer growth potential, but weak sales execution and regulatory hurdles pose near-term risks.
 
 ---
@@ -59,4 +59,4 @@ NPCE's RNS adoption, new indications and reimbursement gains offer growth potent
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
