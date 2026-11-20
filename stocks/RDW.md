@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Redwire Awarded $15 Million Contract to Deliver ELSA High-Performance, Low-Mass Solar Array Wings to AscendArc for GEO Communications Satellite](https://finnhub.io/api/news?id=66cad0161bac2b17b9e2f05bd21b1096bc52a1c566640bb1ede9def26c1d7495)**  
-*Yahoo · 11h前*  
-JACKSONVILLE, Fla., November 19, 2026--Redwire Corporation (NYSE: RDW), a global leader in aerospace and defense technology solutions, today announced it was aw…
+- **[How Much Downside Is Left In Rocket Lab Stock?](https://finnhub.io/api/news?id=19348ee2578fdb12bd64912f2733dcb301dbda77939922d32bfbe10b5712b806)**  
+*Yahoo · 22h前*  
+Today's big story: Could Anthropic Stock Fall 25.
 
-- **[Redwire Stock Rises After $15M Solar Array Contract with AscendArc](https://finnhub.io/api/news?id=2c5e0f68b058c200b4d9a5330eab0799a210992a2857983ccff55997ff1177a6)**  
-*Benzinga · 13h前*  
-Redwire is trading higher Thursday after announcing a contract to supply solar array wings for a geosynchronous communications satellite.
+- **[Redwire Climbs 4% on $15 Million AscendArc Solar Deal and Oppenheimer Initiation; AST SpaceMobile Jumps 8%, Rocket Lab Gains 3%](https://finnhub.io/api/news?id=be0df7e84db5fe57578c95f7bd3a5686d63345f6950830298b603ba05a215265)**  
+*Yahoo · 22h前*  
+Redwire is stacking up contract wins and a record backlog, yet its revenue keeps missing the mark. Why a supplier to the space boom lags louder peers, and what …
 
-- **[Redwire Awarded ~$15M Contract To Deliver Its Extensible Low-Profile Solar Array Wings To GEO Satellite Maker AscendArc](https://finnhub.io/api/news?id=e4ce535f45d5581e2b75a34e9fe6b35acca64910b92835fe2fbd2830746c2667)**  
-*Benzinga · 14h前*  
-The ELSA wings will be used to power AscendArc’s GEO communications stackable satellite. ELSA expands Redwire’s power technology portfolio to support customers …
+- **[Redwire Wins Fourth Contract This Month — RDW Signs New $15M Satellite Panel Order](https://finnhub.io/api/news?id=f463614990cd7ee8d4131d53fc5ad4e35104613b1fcde1c39969318492452714)**  
+*Yahoo · 23h前*  
+Redwire will supply its ELSA wings to power AscendArc’s geosynchronous communications satellite
 
 ---
 
@@ -59,4 +59,4 @@ The ELSA wings will be used to power AscendArc’s GEO communications stackable 
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
