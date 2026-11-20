@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-20 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nokia Oyj (NOK) Presents at Morgan Stanley European Technology, Media and Telecom Conference Transcript](https://finnhub.io/api/news?id=a195c141a6adbcc464c826289341c28be685bbd0c40da4d837949bf2e2f82f44)**  
-*SeekingAlpha · 8h前*  
-Nokia Oyj (NOK) Morgan Stanley European Technology, Media and Telecom Conference November 19, 2026 10:00 AM ESTCompany ParticipantsMarco Wiren - Chief...
+- **[Is Nokia Oyj (HLSE:NOKIA) Trading At A Premium On Earnings?](https://finnhub.io/api/news?id=e093616d4da4464033ab30334c29ac8001a92db7c01e59fbcb8363613af5d17f)**  
+*Yahoo · 12h前*  
+Nokia Oyj has delivered a strong multi year run for shareholders, even as recent weeks have been choppy. This naturally raises the question of whether the curre…
 
-- **[What Is Nokia Oyj (HLSE:NOKIA) Gaining From The AI Gigafactory Northern Push?](https://finnhub.io/api/news?id=3ccd3e272d2352b6e49d790e9aa2817cfcefdf8d87941cdff12393fa20c5ed2e)**  
-*Yahoo · 17h前*  
-Nokia Oyj (HLSE:NOKIA) has joined Telia and other regional groups to form the AI Gigafactory Northern consortium in Northern Europe. The consortium aims to buil…
+- **[Top Analyst Reports for Berkshire Hathaway, JPMorgan & Procter & Gamble](https://finnhub.io/api/news?id=be95547f88c20c682a3b26b94c02418d57626889f77bfab94041a2bb521c7257)**  
+*Yahoo · 16h前*  
+Berkshire Hathaway, JPMorgan and Procter & Gamble benefit from strong business fundamentals, but rising costs and growth challenges create risks.
 
-- **[Global Router Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 5G, Wi-Fi 6 and AI as Cisco, Huawei, HPE and Nokia Drive Market to $42.93B](https://finnhub.io/api/news?id=b92f409f4ca1b41ce069979dbe8f430ced4ab7ae05217d9ecd6ef839d1c4011e)**  
-*Yahoo · 1d前*  
-Profiles Huawei, Cisco, Xiaomi, HPE and Nokia, covering router offerings, market share, segments, trends, regional presence and competitive positioning.Dublin, …
+- **[Nokia Sees Up to 30% IP and Optical Growth in 2027 as AI Orders Surge, Despite Supply Constraints](https://finnhub.io/api/news?id=e03d3f5a4acd3a9295157a58322c99d0141d8644846284ffa474d882d328e3a4)**  
+*Yahoo · 19h前*  
+Nokia (NYSE:NOK) expects its IP and optical businesses to grow 25% to 30% in 2027 as demand from artificial intelligence and cloud customers rises, though suppl…
 
 ---
 
@@ -59,4 +59,4 @@ Profiles Huawei, Cisco, Xiaomi, HPE and Nokia, covering router offerings, market
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
