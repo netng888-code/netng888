@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-20 07:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-20 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Marvell Stock Halved Again. What Does Its Cash Say?](https://finnhub.io/api/news?id=f3322dde19d40e487f107591348708021fa0d0a87d295e32e3ef8be40eb1beb7)**  
-*Yahoo · 2h前*  
-Today's big story: Could Anthropic Stock Fall 25.
+- **[AI Chips Today - AI Revolution Drives VR and AR Market Expansion](https://finnhub.io/api/news?id=58fbd9a4bf76c37940de8e2d95c5932fc5f61e7e3ce3a18971347f93468e47f3)**  
+*Yahoo · 1h前*  
+The virtual and augmented reality (VR and AR) market is set for substantial growth, expected to expand from $32.3 billion in 2025 to $156.2 billion by 2031, mar…
 
-- **[Why Broadcom Stock Took a Wild Ride on Thursday](https://finnhub.io/api/news?id=d77f52f8399a52b4b30d22b88899487be4453dbf376381910e6ffcd3752f840d)**  
-*Yahoo · 3h前*  
-Hint: It has to do with Anthropic.
+- **[What iShares Global Tech ETF (IXN) Bought: Apple Leads on Wednesday](https://finnhub.io/api/news?id=8951f22a6a13c5fb93ee44685e28cead8e8c001d09f5a68760c10bcd7967e355)**  
+*Yahoo · 1h前*  
+The fund added $118.6 million in new positions, led by a $23.0 million purchase of Apple, with 77 positions increased and none decreased.
 
-- **[Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”](https://finnhub.io/api/news?id=1f281dc036256170fd5d3feed9ac00ed4852b8a89caaffeacef04fd37367db80)**  
-*Yahoo · 3h前*  
-Key TakeawaysAnthropic rose 16% in its Nasdaq debut after pricing its IPO at $83, above its range, and raising a record $107. 3 billion.
+- **[iShares Russell 1000 Growth (IWF) Buys $15.6 Million More NVIDIA on Wednesday](https://finnhub.io/api/news?id=8bf45524543dffb28fe0d2df39f8c7945f3a28035dba3598eda854aabcb9759c)**  
+*Yahoo · 1h前*  
+The fund added $132.8 million in new positions on Wednesday, led by a $15.6 million purchase of NVIDIA.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysAnthropic rose 16% in its Nasdaq debut after pricing its IPO at $83
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 07:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-20 21:03 HKT*
