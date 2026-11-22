@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$596.22** |
-| 今日變動 | ▼ $20.16　(-3.27%) |
+| 現價 | **$560.84** |
+| 今日變動 | ▼ $35.38　(-5.93%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $30　(▼1.7%) |
+| 未實現盈虧 | ▼ $136　(▼7.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $621.74 | — |
-| Put Wall（支撐） | $585.00 | -1.9% |
-| Call Wall（阻力） | $700.00 | +17.4% |
+| Gamma Flip | $614.92 | — |
+| Put Wall（支撐） | $550.00 | -1.9% |
+| Call Wall（阻力） | $700.00 | +24.8% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Direxion Daily S&P 500 Bull 3X (SPXL) Sells $16.2 Million of Apple on Nov. 18](https://finnhub.io/api/news?id=9f1d821a228996b6cae42d0f1e3a30d4c90478180a4bbab518ac3c2d19937d73)**  
-*Yahoo · 1h前*  
-The leveraged ETF sold $154.1 million of stock and bought nothing, cutting 382 positions while increasing none.
+- **[Alphabet vs. Meta Platforms: Which Media Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=83bcd34257734583b57be45d2714d1ce7ecc075e594d7adfa308b8f4c7e0c124)**  
+*Yahoo · 5h前*  
+Alphabet's 13.9x forward P/E sits well below Meta's 20.5x, but Meta's 27.5% revenue jump makes the growth-versus-value trade-off harder to call.
 
-- **[What Capital Group Growth ETF (CGGR) Bought: Meta Leads on Wednesday](https://finnhub.io/api/news?id=683c003008e00a6b52a1afa0f2aad63de2dd88ee6c2e402381eef490e2594778)**  
-*Yahoo · 1h前*  
-Capital Group Growth ETF (CGGR) added $183.5 million in new buying across 88 positions on Wednesday, with Meta Platforms topping the list at $11.9 million.
+- **[Wall Street Brunch: Can AI Bulls Get Up Off The Canvas?](https://finnhub.io/api/news?id=5e0c5cd7a281c2d643fbf2341ff6b195283da1a1951876bd3f75f993e6a94dec)**  
+*SeekingAlpha · 9h前*  
+Wall Street suffers its worst tech selloff in years. Anthropic loses $109B in value after IPO. October inflation data sets stage for Fed decision.
 
-- **[What JPMorgan U.S. Tech Leaders ETF (JTEK) Bought: Meta Leads on Wednesday](https://finnhub.io/api/news?id=2c30cf2a26f769752da0e2f3d9cf95b006468dee9845d42e2657e1ebce8632d9)**  
-*Yahoo · 1h前*  
-The fund added $190.3 million across all 37 holdings, with Meta Platforms' $12.5 million purchase the largest.
+- **[A $14 Billion Fund Just Bought These 3 Stocks](https://finnhub.io/api/news?id=52a8b350ea4356950bde0f362041c14ca179032b77cc756d92d737a76db86c57)**  
+*Yahoo · 10h前*  
+Key TakeawaysSRS Investment Management, a $14 billion firm, added to Roblox and Meta Platforms and opened a new stake in SK hynix in the third quarter, its late…
 
 ---
 
@@ -48,7 +48,7 @@ The fund added $190.3 million across all 37 holdings, with Meta Platforms' $12.5
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-20 | 監控 | $596.22 | — | 自動更新 |
+| 2026-11-23 | 監控 | $560.84 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund added $190.3 million across all 37 holdings, with Meta Platforms' $12.5
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
