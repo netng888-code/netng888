@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-20 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$272.66** |
-| 今日變動 | ▼ $9.78　(-3.46%) |
+| 現價 | **$265.29** |
+| 今日變動 | ▼ $7.37　(-2.70%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $552　(▲11.3%) |
+| 未實現盈虧 | ▲ $405　(▲8.3%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $292.31 | — |
-| Put Wall（支撐） | $270.00 | -1.0% |
-| Call Wall（阻力） | $300.00 | +10.0% |
+| Gamma Flip | $289.64 | — |
+| Put Wall（支撐） | $250.00 | -5.8% |
+| Call Wall（阻力） | $300.00 | +13.1% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Social Buzz: Wallstreetbets Stocks Mostly Lower Pre-Bell Friday; Sandisk, AMD to Decline](https://finnhub.io/api/news?id=6cea752d99f7675722bad4e293e50ec7947edb437eeff15c04573fa711940265)**  
+- **[Her $420,000 in Employer Stock Inside Her 401(k) Lost 11% in a Day. Rolling It Into an IRA Would Turn Her Long-Term Gain Into Ordinary Income](https://finnhub.io/api/news?id=0a946c2f5ef5a2f8c26bc1bfa550a824e208b43ebb5931753ed5d06c1d3cfa19)**  
 *Yahoo · 1h前*  
-The most-talked-about stocks in the Reddit subforum Wallstreetbets were mostly lower hours before Fr
+A retiree sitting on a big Broadcom position in her 401(k) is one routine rollover form away from a tax bill she never saw coming. A little-known IRS rule offer…
 
-- **[iShares Russell 1000 Growth (IWF) Buys $15.6 Million More NVIDIA on Wednesday](https://finnhub.io/api/news?id=8bf45524543dffb28fe0d2df39f8c7945f3a28035dba3598eda854aabcb9759c)**  
-*Yahoo · 1h前*  
-The fund added $132.8 million in new positions on Wednesday, led by a $15.6 million purchase of NVIDIA.
+- **[Google’s 2027 chip plan is bad news for Broadcom](https://finnhub.io/api/news?id=5b2072b921c43dc83744caba2fb305c4b2115dd3f9135dd9f113596e028ef960)**  
+*Yahoo · 3h前*  
+A top supply-chain analyst says Google is changing what it buys, and Broadcom’s higher-priced chip is taking most of the hit.
 
-- **[State Street Comm Services SPDR (XLC) Buys $54.7 Million More META on Nov. 18](https://finnhub.io/api/news?id=0847ea0b14612949d8c34f051f336bd3af2a5705de936c6a2bc1566d13278320)**  
-*Yahoo · 1h前*  
-The fund added $264.0 million across all 22 of its positions, led by a $54.7 million increase in Meta Platforms.
+- **[Google Backs Superhot Geothermal in 50 MW Oregon Power Deal](https://finnhub.io/api/news?id=346d964a26bcd66493578fa2101887fbe1f9c722bf5286d592625df3868c4e09)**  
+*Yahoo · 5h前*  
+Google signed a 50 MW power deal with Quaise Energy for superhot geothermal in Oregon, but the drilling technology still has to prove it can scale.
 
 ---
 
@@ -48,7 +48,7 @@ The fund added $264.0 million across all 22 of its positions, led by a $54.7 mil
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-20 | 監控 | $272.66 | — | 自動更新 |
+| 2026-11-23 | 監控 | $265.29 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund added $264.0 million across all 22 of its positions, led by a $54.7 mil
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 07:04 HKT*
