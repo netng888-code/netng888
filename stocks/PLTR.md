@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$153.68** |
-| 今日變動 | ▼ $2.99　(-1.91%) |
+| 現價 | **$143.49** |
+| 今日變動 | ▼ $10.19　(-6.63%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $158　(▲20.7%) |
+| 未實現盈虧 | ▲ $97　(▲12.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $160.23 | — |
-| Put Wall（支撐） | $150.00 | -2.4% |
-| Call Wall（阻力） | $165.00 | +7.4% |
+| Gamma Flip | $159.05 | — |
+| Put Wall（支撐） | $140.00 | -2.4% |
+| Call Wall（阻力） | $165.00 | +15.0% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir Technologies (PLTR) Gets A Fresh AI Signal From A Key Platform Partner](https://finnhub.io/api/news?id=0e522bdf8fa0c4acbaf8ed2bac3b50b130d9821b4b71f4194049a99aa1786fe2)**  
-*Yahoo · 16h前*  
-On Nvidia's latest earnings call in November 2026, management highlighted Palantir Technologies (NasdaqGS:PLTR) as a key AI partner. Nvidia stressed its commitm…
+- **[Palantir Technologies (PLTR) Co Hosts Sovereign AI Defense Summit](https://finnhub.io/api/news?id=a133296558af0a552ab5384522468dabdb75aeba24cdbbd020bc77e151541980)**  
+*Yahoo · 1h前*  
+Palantir Technologies (NasdaqGS:PLTR) co hosted the Ondas Defense Technology Summit focused on sovereign AI for mission critical defense. The summit brought tog…
 
-- **[Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=7b243e0f3ce1e35750512f29909a8232d664c469c4dfe22fa8c0358a4183209e)**  
-*Yahoo · 17h前*  
-Salesforce's AI agent push and Palantir's commercial surge carry very different price tags, and that gap may decide the debate.
+- **[Palantir Stock Could Finish 2026 Lower. Its Only 2 Losing Years Ended Very Differently.](https://finnhub.io/api/news?id=c445a9e33fff8e802116f67bd0749b0b38e2f4a0f3c81d0ee4a3409fefacf190)**  
+*Yahoo · 4h前*  
+Which of the AI software company's two down years does 2026 look more like?
 
-- **[How Does Palantir Technologies (PLTR) FedStart Milestone Change Its Federal AI Case?](https://finnhub.io/api/news?id=7408ecd46a6954c3d1fe6d2c82ffe8b17de91312ef3fbb3f96ec69f5806d5a1e)**  
-*Yahoo · 17h前*  
-Palantir Technologies (NasdaqGS:PLTR) supported OLIGO Security in achieving FedRAMP Class D (High) certification through its FedStart program. The FedRAMP Class…
+- **[UiPath vs. Palantir Technologies: Which AI Automation Platform Makes a Better Stock Buy for 2027?](https://finnhub.io/api/news?id=8f661f716b8184e306fa834d1f54d758453eb1f748a84a68558b601fc54f90ae)**  
+*Yahoo · 4h前*  
+UiPath and Palantir post very different growth profiles, but their valuations tell an even sharper story for investors weighing 2027 exposure.
 
 ---
 
@@ -48,7 +48,7 @@ Palantir Technologies (NasdaqGS:PLTR) supported OLIGO Security in achieving FedR
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-20 | 監控 | $153.68 | — | 自動更新 |
+| 2026-11-23 | 監控 | $143.49 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir Technologies (NasdaqGS:PLTR) supported OLIGO Security in achieving FedR
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
