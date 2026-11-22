@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$55.72** |
-| 今日變動 | ▲ $1.05　(+1.92%) |
+| 現價 | **$51.28** |
+| 今日變動 | ▼ $4.44　(-7.97%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $107.000 |
-| 未實現盈虧 | ▼ $513　(▼47.9%) |
+| 未實現盈虧 | ▼ $557　(▼52.1%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $58.71 | — |
-| Put Wall（支撐） | $55.00 | -1.3% |
-| Call Wall（阻力） | $60.00 | +7.7% |
+| Gamma Flip | $66.77 | — |
+| Put Wall（支撐） | $50.00 | -2.5% |
+| Call Wall（阻力） | $60.00 | +17.0% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Capital Group Core Equity (CGUS) Buys $25.4 Million More Intel on Nov. 18](https://finnhub.io/api/news?id=1176c97f177551ce62437edc7471fdcfc40e6ff3c63d4d49bcf73e4606d9ee13)**  
-*Yahoo · 1h前*  
-The ETF bought $25.4 million of Intel and $16.8 million of Meta while selling $37.6 million of Nvidia.
+- **[Intel announces more layoffs as workforce shrinks by 7,300](https://finnhub.io/api/news?id=aaba7e08cdea21f851661b6ae01bde2ea2dc40e255f11a3e9c08ac9878e92eb9)**  
+*Yahoo · 3h前*  
+The chipmaking giant is eliminating more positions even as quarterly revenue jumps 21% and demand for its data-center processors surges.
 
-- **[When Nvidia Falls 30%, How Far Does AMD Fall?](https://finnhub.io/api/news?id=9bf69ce1b2b7f0a7d524e1e952504bbcc7ffd0ed12d6c75eccd23eef7ac3ec21)**  
-*Yahoo · 2h前*  
-Today's big story: Will 2027 Be A 2022 Repeat For Stocks.
+- **[A $37 Billion Fund Just Bought These 3 Stocks](https://finnhub.io/api/news?id=2d653a8c491ce0073feebaa9861a6d4d04dcb5181bb0722e6d67c60badb23738)**  
+*Yahoo · 11h前*  
+Key TakeawaysDragoneer Investment Group, which manages $37 billion, made new stakes in SK hynix and Intel its two biggest holdings by Sept. 30, and it bought mo…
 
-- **[AI sell-off: These sectors held firm as tech slumped in Oct, Nov](https://finnhub.io/api/news?id=f495f8db97fb4f933d5c17e934cebb09d1be507454f4b3d31d31a26efb598188)**  
-*Yahoo · 8h前*  
-Investing.com -- Semiconductors, software, and memory stocks fell hard through October and early-November amid mounting questions over the long-term artificial …
+- **[Intel Says It Just Signed Its First Customer for Its Most Advanced Chipmaking Process. The Stock Is Still More Than 60% Below Its June Record.](https://finnhub.io/api/news?id=9da631e80e30508784efe73bb4559fdd2e74e44add45a4f95759119710a31cce)**  
+*Yahoo · 20h前*  
+The chipmaker isn't naming the customer. What would the deal need to become to matter?
 
 ---
 
@@ -48,7 +48,7 @@ Investing.com -- Semiconductors, software, and memory stocks fell hard through O
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-20 | 監控 | $55.72 | — | 自動更新 |
+| 2026-11-23 | 監控 | $51.28 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Semiconductors, software, and memory stocks fell hard through O
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
