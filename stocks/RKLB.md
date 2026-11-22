@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$50.99** |
-| 今日變動 | ▼ $2.08　(-3.92%) |
+| 現價 | **$45.42** |
+| 今日變動 | ▼ $5.57　(-10.92%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $250　(▼32.9%) |
+| 未實現盈虧 | ▼ $306　(▼40.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $58.06 | — |
-| Put Wall（支撐） | $50.00 | -1.9% |
-| Call Wall（阻力） | $55.00 | +7.9% |
+| Gamma Flip | $61.27 | — |
+| Put Wall（支撐） | $45.00 | -0.9% |
+| Call Wall（阻力） | $85.00 | +87.1% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[ARK Autonomous Tech & Robotics (ARKQ) Buys $34.6 Million More Tesla on Nov. 18](https://finnhub.io/api/news?id=c5caddf10a5e5b83d0f4edc2f528e2ddb7d5e131f2bc935a7177ec69c9352679)**  
-*Yahoo · 1h前*  
-The fund added $248.6 million across 33 positions, led by Tesla, SpaceX and Nvidia, with no sales.
+- **[Cathie Wood Just Bought $22 Million of SpaceX Across 2 ARK Funds](https://finnhub.io/api/news?id=99f9cbd66fa0bc898636a64b25fe4c320291d95d733236840f46b7a026ab5d04)**  
+*Yahoo · 3h前*  
+Key TakeawaysCathie Wood’s ARK Invest bought 174,991 shares of SpaceX across two ETFs on Friday, about $22 million at Friday’s close. The analysts’ numbers back…
 
-- **[SpaceX Holds Its Orbit As Space Stocks Fall Back To Earth — Inside A Rough Week For FLY, ASTS, RKLB And RDW](https://finnhub.io/api/news?id=d1e0cd407b75ef6dd2cb350fdf0b367bdf07ddecc06eb9b1819e5b96689622a0)**  
-*Yahoo · 6h前*  
-Rocket Lab completed its 100th Electron launch, and CEO Peter Beck explained how its larger Neutron rocket could approach a 50% gross margin.
+- **[Citi Says SpaceX’s Launch Lead Is “Increasingly Becoming a 20 Year Advantage.” Starlink Is Where It Pays Off](https://finnhub.io/api/news?id=880982f975a4d527a5a7dd791c1995aa3480fa2651a15505909f1be9e52541b1)**  
+*Yahoo · 7h前*  
+Key TakeawaysCiti says SpaceX’s launch lead is growing from a 10-to-15-year advantage to a 20-year one after its tower caught a Starship upper stage. Starlink’s…
 
-- **[Rocket Lab (RKLB) Stock Could Be Overvalued On Record Backlog Growth](https://finnhub.io/api/news?id=b56da9841a0834fef94a408521d0650d885ec8219a09a13c0db544b2faace0e3)**  
-*Yahoo · 18h前*  
-Rocket Lab has delivered a very large 3 year share price gain, yet the recent pullback leaves a simple question on the table for investors: how much sales suppo…
+- **[If You’d Invested $10,000 in Rocket Lab 5 Years Ago, Here’s How Much You’d Have Today -- Even After a 60% Crash](https://finnhub.io/api/news?id=b3bc919523a20fcffad91aa657885060063fa088ab5f223b003b4c341e942a57)**  
+*Yahoo · 1d前*  
+SpaceX is the industry leader, but Rocket Lab is proving that there's room for more than one space company.
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab has delivered a very large 3 year share price gain, yet the recent pu
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-20 | 監控 | $50.99 | — | 自動更新 |
+| 2026-11-23 | 監控 | $45.42 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab has delivered a very large 3 year share price gain, yet the recent pu
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
