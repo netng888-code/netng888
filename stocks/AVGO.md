@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-20 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$346.65** |
-| 今日變動 | ▼ $7.40　(-2.09%) |
+| 現價 | **$304.41** |
+| 今日變動 | ▼ $42.24　(-12.19%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $320　(▼8.4%) |
+| 未實現盈虧 | ▼ $742　(▼19.6%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $345.51 | — |
-| Put Wall（支撐） | $340.00 | -1.9% |
-| Call Wall（阻力） | $350.00 | +1.0% |
+| Gamma Flip | $348.69 | — |
+| Put Wall（支撐） | $300.00 | -1.4% |
+| Call Wall（阻力） | $350.00 | +15.0% |
 
-**狀態：✅ 正Gamma區 🔴 逼近Call牆**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[AI Chips Today - AI Revolution Drives VR and AR Market Expansion](https://finnhub.io/api/news?id=58fbd9a4bf76c37940de8e2d95c5932fc5f61e7e3ce3a18971347f93468e47f3)**  
+- **[Her $420,000 in Employer Stock Inside Her 401(k) Lost 11% in a Day. Rolling It Into an IRA Would Turn Her Long-Term Gain Into Ordinary Income](https://finnhub.io/api/news?id=0a946c2f5ef5a2f8c26bc1bfa550a824e208b43ebb5931753ed5d06c1d3cfa19)**  
 *Yahoo · 1h前*  
-The virtual and augmented reality (VR and AR) market is set for substantial growth, expected to expand from $32.3 billion in 2025 to $156.2 billion by 2031, mar…
+A retiree sitting on a big Broadcom position in her 401(k) is one routine rollover form away from a tax bill she never saw coming. A little-known IRS rule offer…
 
-- **[What iShares Global Tech ETF (IXN) Bought: Apple Leads on Wednesday](https://finnhub.io/api/news?id=8951f22a6a13c5fb93ee44685e28cead8e8c001d09f5a68760c10bcd7967e355)**  
-*Yahoo · 1h前*  
-The fund added $118.6 million in new positions, led by a $23.0 million purchase of Apple, with 77 positions increased and none decreased.
+- **[Google’s 2027 chip plan is bad news for Broadcom](https://finnhub.io/api/news?id=5b2072b921c43dc83744caba2fb305c4b2115dd3f9135dd9f113596e028ef960)**  
+*Yahoo · 3h前*  
+A top supply-chain analyst says Google is changing what it buys, and Broadcom’s higher-priced chip is taking most of the hit.
 
-- **[iShares Russell 1000 Growth (IWF) Buys $15.6 Million More NVIDIA on Wednesday](https://finnhub.io/api/news?id=8bf45524543dffb28fe0d2df39f8c7945f3a28035dba3598eda854aabcb9759c)**  
-*Yahoo · 1h前*  
-The fund added $132.8 million in new positions on Wednesday, led by a $15.6 million purchase of NVIDIA.
+- **[Here's What a $1,000 Investment in Broadcom Stock Could Be Worth By 2035](https://finnhub.io/api/news?id=735178f64ff6039f6a4c770cf0fb7f6ede1e4e7f7a09ab753ee0cfeac52215c7)**  
+*Yahoo · 3h前*  
+Broadcom's AI chip business is growing at an extraordinary pace. Here's how much a $1,000 investment could be worth by 2035 if the company delivers on its growt…
 
 ---
 
@@ -48,7 +48,7 @@ The fund added $132.8 million in new positions on Wednesday, led by a $15.6 mill
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-20 | 監控 | $346.65 | — | 自動更新 |
+| 2026-11-23 | 監控 | $304.41 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund added $132.8 million in new positions on Wednesday, led by a $15.6 mill
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 07:04 HKT*
