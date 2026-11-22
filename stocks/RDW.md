@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-20 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$6.51** |
-| 今日變動 | ▼ $0.31　(-4.55%) |
+| 現價 | **$5.65** |
+| 今日變動 | ▼ $0.86　(-13.21%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $366　(▼58.4%) |
+| 未實現盈虧 | ▼ $400　(▼63.9%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $7.87 | — |
-| Put Wall（支撐） | $6.50 | -0.2% |
-| Call Wall（阻力） | $10.00 | +53.6% |
+| Gamma Flip | $7.32 | — |
+| Put Wall（支撐） | $5.00 | -11.5% |
+| Call Wall（阻力） | $10.00 | +77.0% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[How Much Downside Is Left In Rocket Lab Stock?](https://finnhub.io/api/news?id=19348ee2578fdb12bd64912f2733dcb301dbda77939922d32bfbe10b5712b806)**  
-*Yahoo · 22h前*  
-Today's big story: Could Anthropic Stock Fall 25.
+- **[3 Space Stocks With Revenue Growth Up To 16%](https://finnhub.io/api/news?id=e0e642dd089acbbb2071c26e05c8b204c00c002deaea640d2456397c40309213)**  
+*Yahoo · 1d前*  
+A historic selloff has pulled major AI and chip stocks into correction territory, yet the race to build launch systems, satellites, and space defence hardware h…
 
-- **[Redwire Climbs 4% on $15 Million AscendArc Solar Deal and Oppenheimer Initiation; AST SpaceMobile Jumps 8%, Rocket Lab Gains 3%](https://finnhub.io/api/news?id=be0df7e84db5fe57578c95f7bd3a5686d63345f6950830298b603ba05a215265)**  
-*Yahoo · 22h前*  
-Redwire is stacking up contract wins and a record backlog, yet its revenue keeps missing the mark. Why a supplier to the space boom lags louder peers, and what …
+- **[What Could Send Rocket Lab Stock Higher?](https://finnhub.io/api/news?id=a5bac2b6a6e3304f76ae3b87c81a965477b65a08436fcee04e4220bdfd6834fd)**  
+*Yahoo · 2d前*  
+Today's big story: Will 2027 Be A 2022 Repeat For Stocks.
 
-- **[Redwire Wins Fourth Contract This Month — RDW Signs New $15M Satellite Panel Order](https://finnhub.io/api/news?id=f463614990cd7ee8d4131d53fc5ad4e35104613b1fcde1c39969318492452714)**  
-*Yahoo · 23h前*  
-Redwire will supply its ELSA wings to power AscendArc’s geosynchronous communications satellite
+- **[AST SpaceMobile vs. Redwire: Which Space Infrastructure Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=ff4aa58451f3fb71fc7662e9b90ad371bc528bf667ee257c8e7f96b256456fea)**  
+*Yahoo · 2d前*  
+Redwire's revenue grew nearly 46% while AST SpaceMobile's sales soared over 670%, but one balance sheet gap separates these two space stocks sharply.
 
 ---
 
@@ -48,7 +48,7 @@ Redwire will supply its ELSA wings to power AscendArc’s geosynchronous communi
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-20 | 監控 | $6.51 | — | 自動更新 |
+| 2026-11-23 | 監控 | $5.65 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Redwire will supply its ELSA wings to power AscendArc’s geosynchronous communi
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-20 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
