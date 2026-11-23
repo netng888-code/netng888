@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Teradyne (TER) Falls 36% Despite 70% Revenue Growth: Is a Recovery Ahead?](https://finnhub.io/api/news?id=5bf49b57a9f6cc281032e8652cac7438389fb763dac418c9623b3d60797eecb6)**  
-*Yahoo · 6h前*  
+*Yahoo · 20h前*  
 Among the companies highlighted in our recent list of 10 Oversold Stocks With 50%+ Upside Potential, Teradyne, Inc. (NASDAQ:TER) claimed the ninth position. Has…
 
 - **[3 US AI Infrastructure Stocks With Earnings Growth Investors Should Watch](https://finnhub.io/api/news?id=cde1f052e94558a51db326a424848ac2c32dcc0081d0d3785b62ecad684a566d)**  
@@ -59,4 +59,4 @@ Memory supply constraints are forcing chipmakers to increase test volume per waf
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:03 HKT*
