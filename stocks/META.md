@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Alphabet vs. Meta Platforms: Which Media Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=83bcd34257734583b57be45d2714d1ce7ecc075e594d7adfa308b8f4c7e0c124)**  
-*Yahoo · 5h前*  
-Alphabet's 13.9x forward P/E sits well below Meta's 20.5x, but Meta's 27.5% revenue jump makes the growth-versus-value trade-off harder to call.
+- **[What ARK Blockchain & Fintech (ARKF) Bought: Block Leads on Nov. 19](https://finnhub.io/api/news?id=bd274196f48f7ff457017e7ed10d38a22a4108c60d3baab8d24c62c32e2156e1)**  
+*Yahoo · 1h前*  
+The fund bought $209.5 million of stock and sold nothing, increasing 30 positions.
 
-- **[Wall Street Brunch: Can AI Bulls Get Up Off The Canvas?](https://finnhub.io/api/news?id=5e0c5cd7a281c2d643fbf2341ff6b195283da1a1951876bd3f75f993e6a94dec)**  
-*SeekingAlpha · 9h前*  
-Wall Street suffers its worst tech selloff in years. Anthropic loses $109B in value after IPO. October inflation data sets stage for Fed decision.
+- **[What Capital Group Growth ETF (CGGR) Bought: Anthropic Leads on Nov. 19](https://finnhub.io/api/news?id=61537290a78db3de16affcfa53417852045149d35ea7e5d2a2b7635a16118c7b)**  
+*Yahoo · 1h前*  
+Capital Group Growth ETF (CGGR) bought $741.5 million of Anthropic as gross trading reached $1.02 billion against $24.49 billion in assets.
 
-- **[A $14 Billion Fund Just Bought These 3 Stocks](https://finnhub.io/api/news?id=52a8b350ea4356950bde0f362041c14ca179032b77cc756d92d737a76db86c57)**  
-*Yahoo · 10h前*  
-Key TakeawaysSRS Investment Management, a $14 billion firm, added to Roblox and Meta Platforms and opened a new stake in SK hynix in the third quarter, its late…
+- **[ETFs Are Net Sellers of Meta Platforms (META) on Thursday](https://finnhub.io/api/news?id=5ed3d1b16e6b89517d9dc15f21304a8c78a0c2ce121f144d63da1250ce771c3a)**  
+*Yahoo · 2h前*  
+ETFs sold a net $40.9 million of Meta Platforms on a second straight day of net selling.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysSRS Investment Management, a $14 billion firm, added to Roblox and 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:03 HKT*
