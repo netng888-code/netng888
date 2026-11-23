@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intel announces more layoffs as workforce shrinks by 7,300](https://finnhub.io/api/news?id=aaba7e08cdea21f851661b6ae01bde2ea2dc40e255f11a3e9c08ac9878e92eb9)**  
-*Yahoo · 3h前*  
-The chipmaking giant is eliminating more positions even as quarterly revenue jumps 21% and demand for its data-center processors surges.
+- **[Why Did AMD Stock Move?](https://finnhub.io/api/news?id=4d322c22e77ddc092c0a5e1ae38bb8b04392400af49482ad517fd04821de0ca5)**  
+*Yahoo · 1h前*  
+Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
 
-- **[A $37 Billion Fund Just Bought These 3 Stocks](https://finnhub.io/api/news?id=2d653a8c491ce0073feebaa9861a6d4d04dcb5181bb0722e6d67c60badb23738)**  
-*Yahoo · 11h前*  
-Key TakeawaysDragoneer Investment Group, which manages $37 billion, made new stakes in SK hynix and Intel its two biggest holdings by Sept. 30, and it bought mo…
+- **[What Triggered The Drop In Marvell Stock?](https://finnhub.io/api/news?id=2aa0aeffb06310ae6edc13c5910b4f7276f31055306210cdd6a78d0e53b4e980)**  
+*Yahoo · 1h前*  
+Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
 
-- **[Intel Says It Just Signed Its First Customer for Its Most Advanced Chipmaking Process. The Stock Is Still More Than 60% Below Its June Record.](https://finnhub.io/api/news?id=9da631e80e30508784efe73bb4559fdd2e74e44add45a4f95759119710a31cce)**  
-*Yahoo · 20h前*  
-The chipmaker isn't naming the customer. What would the deal need to become to matter?
+- **[U.S. chip and neocloud stocks rally premarket after last week’s selloff](https://finnhub.io/api/news?id=fa3fe3f7e146eb3b0052d55dae042789232da49311c7452a19e89b3b2308f83f)**  
+*Yahoo · 2h前*  
+Investing.com -- U.S. chip and neocloud stocks surged in premarket trading Monday, rebounding from a rout that gave the Nasdaq its worst week since 2020.
 
 ---
 
@@ -59,4 +59,4 @@ The chipmaker isn't naming the customer. What would the deal need to become to m
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:04 HKT*
