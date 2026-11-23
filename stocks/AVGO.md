@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Her $420,000 in Employer Stock Inside Her 401(k) Lost 11% in a Day. Rolling It Into an IRA Would Turn Her Long-Term Gain Into Ordinary Income](https://finnhub.io/api/news?id=0a946c2f5ef5a2f8c26bc1bfa550a824e208b43ebb5931753ed5d06c1d3cfa19)**  
+- **[Why Did AMD Stock Move?](https://finnhub.io/api/news?id=4d322c22e77ddc092c0a5e1ae38bb8b04392400af49482ad517fd04821de0ca5)**  
 *Yahoo · 1h前*  
-A retiree sitting on a big Broadcom position in her 401(k) is one routine rollover form away from a tax bill she never saw coming. A little-known IRS rule offer…
+Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
 
-- **[Google’s 2027 chip plan is bad news for Broadcom](https://finnhub.io/api/news?id=5b2072b921c43dc83744caba2fb305c4b2115dd3f9135dd9f113596e028ef960)**  
-*Yahoo · 3h前*  
-A top supply-chain analyst says Google is changing what it buys, and Broadcom’s higher-priced chip is taking most of the hit.
+- **[What Triggered The Drop In Marvell Stock?](https://finnhub.io/api/news?id=2aa0aeffb06310ae6edc13c5910b4f7276f31055306210cdd6a78d0e53b4e980)**  
+*Yahoo · 1h前*  
+Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
 
-- **[Here's What a $1,000 Investment in Broadcom Stock Could Be Worth By 2035](https://finnhub.io/api/news?id=735178f64ff6039f6a4c770cf0fb7f6ede1e4e7f7a09ab753ee0cfeac52215c7)**  
-*Yahoo · 3h前*  
-Broadcom's AI chip business is growing at an extraordinary pace. Here's how much a $1,000 investment could be worth by 2035 if the company delivers on its growt…
+- **[Alphabet Trades at “Just 18 Times Forward Earnings.” Its SpaceX and Anthropic Stakes Top $200 Billion](https://finnhub.io/api/news?id=dc403d28370aaa6929685dbe8f6b8c21d8781034d1be77e9d56ee8d4d1b89817)**  
+*Yahoo · 1h前*  
+Key TakeawaysAlphabet trades at about 19x forward earnings and passed Nvidia in market value on Friday. Its SpaceX and Anthropic stakes are worth about $230 bil…
 
 ---
 
@@ -59,4 +59,4 @@ Broadcom's AI chip business is growing at an extraordinary pace. Here's how much
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:03 HKT*
