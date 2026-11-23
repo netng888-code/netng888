@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir Technologies (PLTR) Co Hosts Sovereign AI Defense Summit](https://finnhub.io/api/news?id=a133296558af0a552ab5384522468dabdb75aeba24cdbbd020bc77e151541980)**  
+- **[Trump's Portfolio Discloses Up to $148 Million in September Trading](https://finnhub.io/api/news?id=1c4e9e826772585cf7e5bcd3dc5af7f166cce28f3dd1765edba61d33e5e44ffa)**  
 *Yahoo · 1h前*  
+The White House says independent managers control the portfolio and Trump has no involvement in trading decisions.
+
+- **[ETFs Are Buying Palantir (PLTR) on Nov. 19](https://finnhub.io/api/news?id=039f9e93dac28b88a7881cf58821c50d83abb4c8d6354a6705259a1488f5afcc)**  
+*Yahoo · 2h前*  
+ETFs bought $57.2 million of Palantir stock on Nov. 19.
+
+- **[Palantir Technologies (PLTR) Co Hosts Sovereign AI Defense Summit](https://finnhub.io/api/news?id=a133296558af0a552ab5384522468dabdb75aeba24cdbbd020bc77e151541980)**  
+*Yahoo · 15h前*  
 Palantir Technologies (NasdaqGS:PLTR) co hosted the Ondas Defense Technology Summit focused on sovereign AI for mission critical defense. The summit brought tog…
-
-- **[Palantir Stock Could Finish 2026 Lower. Its Only 2 Losing Years Ended Very Differently.](https://finnhub.io/api/news?id=c445a9e33fff8e802116f67bd0749b0b38e2f4a0f3c81d0ee4a3409fefacf190)**  
-*Yahoo · 4h前*  
-Which of the AI software company's two down years does 2026 look more like?
-
-- **[UiPath vs. Palantir Technologies: Which AI Automation Platform Makes a Better Stock Buy for 2027?](https://finnhub.io/api/news?id=8f661f716b8184e306fa834d1f54d758453eb1f748a84a68558b601fc54f90ae)**  
-*Yahoo · 4h前*  
-UiPath and Palantir post very different growth profiles, but their valuations tell an even sharper story for investors weighing 2027 exposure.
 
 ---
 
@@ -59,4 +59,4 @@ UiPath and Palantir post very different growth profiles, but their valuations te
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:04 HKT*
