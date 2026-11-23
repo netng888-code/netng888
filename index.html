@@ -240,7 +240,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
     <div class="summary-card">
       <div class="summary-label">美股市值 (USD)</div>
       <div class="summary-value" id="sum-us-mktval">USD 33,816.38</div>
-      <div class="summary-sub" id="sum-us-count">18 個持倉</div>
+      <div class="summary-sub" id="sum-us-count">19 個持倉</div>
     </div>
     <div class="summary-card">
       <div class="summary-label">美股未實現盈虧</div>
@@ -351,14 +351,14 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('NVDA')">NVDA</span></td>
       <td class="name-cell">英偉達</td>
-      <td style="color:var(--muted)">20</td>
-      <td><span class="price-cell price-live">218.21</span></td>
-      <td><span class="ext-price-cell">+8.56 (+4.08%)</span></td>
-      <td style="color:var(--muted)">189.063</td>
-      <td class="mktval-cell">4,364.20</td>
-      <td class="pnl-pos">+582.95</td>
-      <td><span class="pct-badge pos">+15.42%</span></td>
-      <td class="pnl-pos today-pnl-cell">+171.20</td>
+      <td style="color:var(--muted)">30</td>
+      <td><span class="price-cell price-live">150.00</span></td>
+      <td><span class="ext-price-cell">—</span></td>
+      <td style="color:var(--muted)">176.042</td>
+      <td class="mktval-cell">4,500.00</td>
+      <td class="pnl-neg">-781.25</td>
+      <td><span class="pct-badge neg">-14.79%</span></td>
+      <td class="pnl-neu today-pnl-cell">+0.00</td>
       <td>
         <div class="action-links">
           <button class="chart-link" onclick="openFlipTo('NVDA')">📈</button>
@@ -366,15 +366,32 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
           <a class="ge-link" href="https://www.barchart.com/stocks/quotes/NVDA/gamma-exposure" target="_blank">GE</a>
         </div>
       </td></tr><tr>
+      <td><span class="sym-badge" onclick="openFlipTo('TSM')">TSM</span></td>
+      <td class="name-cell">台積電</td>
+      <td style="color:var(--muted)">10</td>
+      <td><span class="price-cell price-live">360.00</span></td>
+      <td><span class="ext-price-cell">—</span></td>
+      <td style="color:var(--muted)">360.00</td>
+      <td class="mktval-cell">3,600.00</td>
+      <td class="pnl-neu">+0.00</td>
+      <td><span class="pct-badge neu">+0.00%</span></td>
+      <td class="pnl-neu today-pnl-cell">+0.00</td>
+      <td>
+        <div class="action-links">
+          <button class="chart-link" onclick="openFlipTo('TSM')">📈</button>
+          <a class="finviz-link" href="https://finviz.com/quote.ashx?t=TSM" target="_blank">FV</a>
+          <a class="ge-link" href="https://www.barchart.com/stocks/quotes/TSM/gamma-exposure" target="_blank">GE</a>
+        </div>
+      </td></tr><tr>
       <td><span class="sym-badge" onclick="openFlipTo('MRVL')">MRVL</span></td>
       <td class="name-cell">邁威爾科技</td>
-      <td style="color:var(--muted)">7</td>
-      <td><span class="price-cell price-live">276.70</span></td>
+      <td style="color:var(--muted)">10</td>
+      <td><span class="price-cell price-live">146.00</span></td>
       <td><span class="ext-price-cell">—</span></td>
-      <td style="color:var(--muted)">257.30</td>
-      <td class="mktval-cell">1,936.90</td>
-      <td class="pnl-pos">+135.78</td>
-      <td><span class="pct-badge pos">+7.54%</span></td>
+      <td style="color:var(--muted)">223.91</td>
+      <td class="mktval-cell">1,460.00</td>
+      <td class="pnl-neg">-779.12</td>
+      <td><span class="pct-badge neg">-34.80%</span></td>
       <td class="pnl-neu today-pnl-cell">+0.00</td>
       <td>
         <div class="action-links">
@@ -722,13 +739,13 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
       <button class="close-btn" onclick="switchTab('main')">✕ 關閉</button>
       <div class="flip-nav">
         <button class="flip-arrow" id="flip-prev">‹</button>
-        <div class="flip-counter" id="flip-counter">1 / 21</div>
+        <div class="flip-counter" id="flip-counter">1 / 22</div>
         <button class="flip-arrow" id="flip-next">›</button>
       </div>
     </div>
   </div>
 
-  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip active" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-INTC">INTC</div><div class="flip-sym-chip" id="chip-CIFR">CIFR</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
+  <div class="flip-sym-strip" id="flip-sym-strip"><div class="flip-sym-chip active" id="chip-GOOGL">GOOGL</div><div class="flip-sym-chip" id="chip-AVGO">AVGO</div><div class="flip-sym-chip" id="chip-NVDA">NVDA</div><div class="flip-sym-chip" id="chip-TSM">TSM</div><div class="flip-sym-chip" id="chip-MRVL">MRVL</div><div class="flip-sym-chip" id="chip-TER">TER</div><div class="flip-sym-chip" id="chip-META">META</div><div class="flip-sym-chip" id="chip-NOK">NOK</div><div class="flip-sym-chip" id="chip-RDW">RDW</div><div class="flip-sym-chip" id="chip-LEU">LEU</div><div class="flip-sym-chip" id="chip-OKLO">OKLO</div><div class="flip-sym-chip" id="chip-RKLB">RKLB</div><div class="flip-sym-chip" id="chip-PLTR">PLTR</div><div class="flip-sym-chip" id="chip-ISRG">ISRG</div><div class="flip-sym-chip" id="chip-INTC">INTC</div><div class="flip-sym-chip" id="chip-CIFR">CIFR</div><div class="flip-sym-chip" id="chip-VRT">VRT</div><div class="flip-sym-chip" id="chip-RR">RR</div><div class="flip-sym-chip" id="chip-SERV">SERV</div><div class="flip-sym-chip" id="chip-7709">7709</div><div class="flip-sym-chip" id="chip-2367">2367</div><div class="flip-sym-chip" id="chip-9988">9988</div></div>
 
   <div class="flip-interval-bar">
     <span>Interval:</span>
@@ -764,7 +781,7 @@ footer{margin-top:24px;display:flex;align-items:center;justify-content:space-bet
 
 <footer>
   <span>美股：Finnhub 實時報價 ｜ Yahoo Finance（備用）｜ 港股：Yahoo Finance ｜ 圖表：TradingView</span>
-  <span>持倉更新：2026-11-05：MRVL按紀律（跌穿$177.7考慮減）沽出3股@$170.00（10→7股，成本不變$257.303，已實現約-$261.91）｜ 2026-10-17：CIFR（Cipher Digital）買入100股@$10.00（新增持倉）｜ 港股07709加倉100股@HK$19.50（200→300股，成本加權至HK$17.0333）｜ 2026-10-10：INTC買入10股@$107.00（新增持倉）｜ PLTR沽出6股@$203.00（12→6股，成本不變$127.304，已實現+$454.18）｜ LYTE沽出10股@$26.00（成本$25.00，已全數沽清，已實現+$10，累計+$37）｜ 2026-10-07：LYTE沽出20股（10股@$26.2＋10股@$26.5，成本$25.00，30→10股，已實現+$27）｜ 2026-10-01：GOOGL買入4股@$340.00（16→20股，成本加權至$245.04）｜ 2026-09-19：GOOGL買入4股@$350.00（12→16股，成本加權至$221.30）｜ 2026-09-18：OKLO買入10股@$37.00（30→40股，成本加權至$30.05875）｜ 2026-09-03：MU沽出1股@$1,000.00（限價單，成本$557.857，已沽清倉，已實現+$442.14）｜ 2026-08-26：NVDA Q2業績後盤後加倉10股@$218.00（10→20股，成本加權至$189.0625）｜ 2026-08-21：LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
+  <span>持倉更新：2026-11-23：MRVL買入3股@$146.00（7→10股，成本加權至$223.9121）｜ NVDA買入10股@$150.00（20→30股，成本加權至$176.0417）｜ TSM（台積電ADR）買入10股@$360.00（新增持倉）｜ 2026-11-05：MRVL按紀律（跌穿$177.7考慮減）沽出3股@$170.00（10→7股，成本不變$257.303，已實現約-$261.91）｜ 2026-10-17：CIFR（Cipher Digital）買入100股@$10.00（新增持倉）｜ 港股07709加倉100股@HK$19.50（200→300股，成本加權至HK$17.0333）｜ 2026-10-10：INTC買入10股@$107.00（新增持倉）｜ PLTR沽出6股@$203.00（12→6股，成本不變$127.304，已實現+$454.18）｜ LYTE沽出10股@$26.00（成本$25.00，已全數沽清，已實現+$10，累計+$37）｜ 2026-10-07：LYTE沽出20股（10股@$26.2＋10股@$26.5，成本$25.00，30→10股，已實現+$27）｜ 2026-10-01：GOOGL買入4股@$340.00（16→20股，成本加權至$245.04）｜ 2026-09-19：GOOGL買入4股@$350.00（12→16股，成本加權至$221.30）｜ 2026-09-18：OKLO買入10股@$37.00（30→40股，成本加權至$30.05875）｜ 2026-09-03：MU沽出1股@$1,000.00（限價單，成本$557.857，已沽清倉，已實現+$442.14）｜ 2026-08-26：NVDA Q2業績後盤後加倉10股@$218.00（10→20股，成本加權至$189.0625）｜ 2026-08-21：LYTE買入30股@$25.00（Roundhill Photonics & Optics ETF，新增持倉）｜ 2026-08-14：AVGO沽出3股@$394.9576（13→10股，觸發價$395，成本不變$378.602，已實現+$49.07）｜ NOK買入50股@$10.33（150→200股，成本$12.458）｜ LITE沽出1股@$940（已清倉，已實現+$120）｜ AVGO買入3股@約$388（10→13股，成本$378.602）</span>
 </footer>
 <div class="disclaimer">⚠ 本儀表板僅供參考，不構成投資建議。所有投資涉及風險，過往表現不代表將來回報。</div>
 
@@ -824,9 +841,10 @@ const FINNHUB_KEY = 'd83t8khr01qkm5c9fr50d83t8khr01qkm5c9fr5g';
 // ── 美股持倉（由Futu CSV 2026-06-29 匯出，按市值降序）────────────────────────
 const US_HOLDINGS = [
   { symbol:'GOOGL', name:'谷歌-A',                qty:20,  cost:245.04,   mktval:6798.80,  pnl:1898.00,  pnlPct:'+38.73%',  realized:1776.20, todayPnL:-0.24   },
-  { symbol:'NVDA',  name:'英偉達',                qty:20,  cost:189.0625, mktval:4364.20,  pnl:582.95,   pnlPct:'+15.42%',  realized:1268.05, todayPnL:171.20  },
+  { symbol:'NVDA',  name:'英偉達',                qty:30,  cost:176.0417, mktval:4500.00,  pnl:-781.25,  pnlPct:'-14.79%',  realized:1268.05, todayPnL:0       },
   { symbol:'AVGO',  name:'博通',                  qty:10,  cost:378.602,  mktval:4160.00,  pnl:373.98,   pnlPct:'+9.88%',   realized:52.85,   todayPnL:-39.54  },
-  { symbol:'MRVL',  name:'邁威爾科技',             qty:7,   cost:257.303,  mktval:1936.90,  pnl:135.78,   pnlPct:'+7.54%',   realized:-261.55, todayPnL:0       },
+  { symbol:'TSM',   name:'台積電',                qty:10,  cost:360.00,   mktval:3600.00,  pnl:0,        pnlPct:'+0.00%',   realized:0,       todayPnL:0       },
+  { symbol:'MRVL',  name:'邁威爾科技',             qty:10,  cost:223.9121, mktval:1460.00,  pnl:-779.12,  pnlPct:'-34.80%',  realized:-261.55, todayPnL:0       },
   { symbol:'NOK',   name:'諾基亞',                qty:200, cost:12.458,   mktval:2066.00,  pnl:-425.55,  pnlPct:'-17.08%',  realized:0,       todayPnL:0       },
   { symbol:'TER',   name:'泰瑞達',                qty:5,   cost:92.00,    mktval:1846.65,  pnl:1386.65,  pnlPct:'+301.45%', realized:1356.54, todayPnL:0.60    },
   { symbol:'META',  name:'Meta Platforms',       qty:3,   cost:606.333,  mktval:1758.15,  pnl:-60.85,   pnlPct:'-3.35%',   realized:3.15,    todayPnL:4.38    },
