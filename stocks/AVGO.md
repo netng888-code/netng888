@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$304.41** |
-| 今日變動 | ▼ $42.24　(-12.19%) |
+| 現價 | **$313.55** |
+| 今日變動 | ▲ $9.14　(+3.00%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $742　(▼19.6%) |
+| 未實現盈虧 | ▼ $651　(▼17.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $348.69 | — |
-| Put Wall（支撐） | $300.00 | -1.4% |
-| Call Wall（阻力） | $350.00 | +15.0% |
+| Gamma Flip | $341.19 | — |
+| Put Wall（支撐） | $300.00 | -4.3% |
+| Call Wall（阻力） | $350.00 | +11.6% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Why Did AMD Stock Move?](https://finnhub.io/api/news?id=4d322c22e77ddc092c0a5e1ae38bb8b04392400af49482ad517fd04821de0ca5)**  
+- **[Plot Twist: Cathie Wood Sold Nvidia Over “Losing Jensen.” Nvidia Just Rehired Him, but Her Other Worry Remains](https://finnhub.io/api/news?id=2d415468040bde72ff572d8e686b7ce97389157d61f5d83bdf29c0835a1782b3)**  
 *Yahoo · 1h前*  
-Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
+Key TakeawaysNvidia shares jumped 31% today after its board reinstated Jensen Huang as CEO. Huang’s return removes the reason Cathie Wood gave for ARK’s swap ou…
 
-- **[What Triggered The Drop In Marvell Stock?](https://finnhub.io/api/news?id=2aa0aeffb06310ae6edc13c5910b4f7276f31055306210cdd6a78d0e53b4e980)**  
-*Yahoo · 1h前*  
-Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
+- **[Apple vs. Broadcom: Comparing Revenue Trends Amid the Artificial Intelligence Boom](https://finnhub.io/api/news?id=79634169220a98f79344de85b7fbc26f860646f0ddd42c1ff9a5957d506213b6)**  
+*Yahoo · 2h前*  
+Broadcom's quarterly revenue has climbed for seven straight periods, while Apple's has swung up and down, and the next report could change the picture.
 
-- **[Alphabet Trades at “Just 18 Times Forward Earnings.” Its SpaceX and Anthropic Stakes Top $200 Billion](https://finnhub.io/api/news?id=dc403d28370aaa6929685dbe8f6b8c21d8781034d1be77e9d56ee8d4d1b89817)**  
-*Yahoo · 1h前*  
-Key TakeawaysAlphabet trades at about 19x forward earnings and passed Nvidia in market value on Friday. Its SpaceX and Anthropic stakes are worth about $230 bil…
+- **[Jensen Huang’s Return Just Added About $500 Billion to Micron, Dell, TSMC and the AI Stocks That Depend on Nvidia](https://finnhub.io/api/news?id=d0e13968a9cd407de3bbd6e4281847394f71cf489c6693620b7cd21d19ebe70a)**  
+*Yahoo · 2h前*  
+Jensen Huang's return added about $500 billion to 10 companies tied to Nvidia on Monday. Broadcom rose 2% and AMD 7%, the reverse of the day his resignation was…
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysAlphabet trades at about 19x forward earnings and passed Nvidia in 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-23 | 監控 | $304.41 | — | 自動更新 |
+| 2026-11-24 | 監控 | $313.55 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysAlphabet trades at about 19x forward earnings and passed Nvidia in 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
