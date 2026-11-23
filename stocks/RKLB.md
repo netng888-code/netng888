@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Cathie Wood Just Bought $22 Million of SpaceX Across 2 ARK Funds](https://finnhub.io/api/news?id=99f9cbd66fa0bc898636a64b25fe4c320291d95d733236840f46b7a026ab5d04)**  
+- **[What ARK Autonomous Technology & Robotics ETF (ARKQ) Bought: Tesla Leads on Thursday](https://finnhub.io/api/news?id=01e719acd2d779df5e85be57765da2be46b60a5e73680f435b063bcb747a79f6)**  
+*Yahoo · 1h前*  
+ARKQ added to all 33 of its increased positions on Thursday, with $410.8 million in gross purchases and no sales.
+
+- **[Rocket Lab and Nebius Are Each About 66% Below Their Highs. I'd Buy Both and Hold Through 2030.](https://finnhub.io/api/news?id=4e5a1ac1ae187952dd7117e9fa01f77bd733830847dfdacc2afe0f6a0d3547a4)**  
 *Yahoo · 3h前*  
-Key TakeawaysCathie Wood’s ARK Invest bought 174,991 shares of SpaceX across two ETFs on Friday, about $22 million at Friday’s close. The analysts’ numbers back…
+Is a two-thirds discount enough to hold a space stock and an AI cloud stock for four years?
 
-- **[Citi Says SpaceX’s Launch Lead Is “Increasingly Becoming a 20 Year Advantage.” Starlink Is Where It Pays Off](https://finnhub.io/api/news?id=880982f975a4d527a5a7dd791c1995aa3480fa2651a15505909f1be9e52541b1)**  
-*Yahoo · 7h前*  
-Key TakeawaysCiti says SpaceX’s launch lead is growing from a 10-to-15-year advantage to a 20-year one after its tower caught a Starship upper stage. Starlink’s…
-
-- **[If You’d Invested $10,000 in Rocket Lab 5 Years Ago, Here’s How Much You’d Have Today -- Even After a 60% Crash](https://finnhub.io/api/news?id=b3bc919523a20fcffad91aa657885060063fa088ab5f223b003b4c341e942a57)**  
-*Yahoo · 1d前*  
-SpaceX is the industry leader, but Rocket Lab is proving that there's room for more than one space company.
+- **[RKLB Stock Has Its Worst Week Ever — But CFO Sees ‘Very Strong Uplift’ In Electron Prices As SpaceX Rideshare Slots Tighten](https://finnhub.io/api/news?id=eddb4125b8711c06b4c8ea59eb284a0e98277f5733c1ca4357bc2509cef18e49)**  
+*Yahoo · 5h前*  
+CFO Adam Spice sees room to raise Electron prices within six to nine months as SpaceX rideshare slots for 2029 grow scarce.
 
 ---
 
@@ -59,4 +59,4 @@ SpaceX is the industry leader, but Rocket Lab is proving that there's room for m
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:04 HKT*
