@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Altria Yields 5.9%. Here's How Many Shares You'd Need for $5,000 in Yearly Dividend Income.](https://finnhub.io/api/news?id=f43690d936244ee07538b37cea1a8989247f543b3ca4ba594bfdb57f17aa05ce)**  
+- **[Here’s How Many Shares of Costco You’d Need for $5,000 in Yearly Dividends.](https://finnhub.io/api/news?id=8c3384d8da911aba67adeeb6cee5d7499510a0364115d9faf7432c13283668f8)**  
 *Yahoo · 1h前*  
-The cigarette giant has reliably raised its payouts annually for decades.
+With Costco shares, stay focused on future stock price growth rather than on the dividend.
 
-- **[Procter & Gamble Has Raised Its Dividend 70 Straight Years. Here's Why I'd Buy Before 2027.](https://finnhub.io/api/news?id=a1ade3c65a3ba52a8e3883b1c248982c9ef1f67806f2dbf0b1b9905d00a60c64)**  
+- **[Donald Trump urges Nvidia to rehire former CEO Jensen Huang](https://finnhub.io/api/news?id=2101c63b1e9101815ef942080d154c2c55d40c60fdaf98a448e926ad20fb1d79)**  
 *Yahoo · 1h前*  
-P&G's 70-year dividend streak is the headline, but what the company is changing right now is the real reason I'd buy.
+US President Donald Trump has urged Nvidia's board to rehire Jensen Huang, joining calls for his return that include a petition with more than 200,000 signature…
 
-- **[Charlie Bilello Flags the Nasdaq 100’s First Bear Market Since April 2025](https://finnhub.io/api/news?id=8339cf7d94d109471a793cc2be503ef621a1b3784d5d750468f2bd797bff8bcb)**  
+- **[Best Buy Reports Earnings Tomorrow. Here's What Investors Should Be Watching.](https://finnhub.io/api/news?id=04b139ede2a972b8e332bd796d8c3186b360b0245f04d554987b6c0c3c9277f2)**  
 *Yahoo · 1h前*  
-The Nasdaq 100 slipped past a line it hasn't touched in over a year, then barely escaped at the closing bell. If you hold no Nasdaq fund, your retirement accoun…
+Revenue and net income figures are only the start.
 
 ---
 
@@ -59,4 +59,4 @@ The Nasdaq 100 slipped past a line it hasn't touched in over a year, then barely
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:03 HKT*
