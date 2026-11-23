@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[Nokia vs. AT&T: Which Telecom Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=8c23e7f8ba52409e9c5ae7ad771b702a312dde55f35ba027f6ce7ed24f9b195a)**  
+*Yahoo · 11h前*  
+Nokia's 130-country network reach meets AT&T's 145 million wireless subscribers, but a sharp valuation gap may tip the scales for 2027.
+
 - **[If NVIDIA Tightens Its Wallet, These 3 Stocks Could Feel It](https://finnhub.io/api/news?id=7439fd629ef2fb8e5dd80a84634a668716c59ec227eb1d607001b627b2146636)**  
 *Yahoo · 2d前*  
 NVIDIA's 13F showed a $15.1 billion portfolio decline and reduced Intel stake, raising questions about future support for CoreWeave, Nebius, and IREN, three NVI…
@@ -37,9 +41,6 @@ NVIDIA's 13F showed a $15.1 billion portfolio decline and reduced Intel stake, r
 - **[European Equities Traded in the US as American Depositary Receipts Track Lower in Friday Trading; Down More Than 7% for Week](https://finnhub.io/api/news?id=b07107863e29ddee5c9c4b920b629f94e1a2eebab70324766539c4b3574f6477)**  
 *Yahoo · 2d前*  
 European equities traded in the US as American depositary receipts were tracking lower late Friday m
-
-- **[On June 30, ClearOne Declared A One-time Special Stock Dividend To Provide Its Legacy Stockholders With A 100% Stake In The Proceeds From An Eventual Sale, The Board Of Directors Fixed July 11, 2025 As The Record Date For The Special Stock Dividend, And Will Be Payable On July 18, 2025](https://finnhub.io/api/news?id=60ace17f87a81cfaebed9f22dfdef47c76e3335e320f0f9f19e3983120d26a8f)**  
-*Benzinga · 2d前*
 
 ---
 
@@ -58,4 +59,4 @@ European equities traded in the US as American depositary receipts were tracking
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:03 HKT*
