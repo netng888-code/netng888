@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$204.78** |
-| 今日變動 | ▼ $22.66　(-9.96%) |
+| 現價 | **$233.51** |
+| 今日變動 | ▲ $28.73　(+14.03%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $564　(▲122.6%) |
+| 未實現盈虧 | ▲ $708　(▲153.8%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $294.21 | — |
-| Put Wall（支撐） | $195.00 | -4.8% |
-| Call Wall（阻力） | $260.00 | +27.0% |
+| Gamma Flip | $277.91 | — |
+| Put Wall（支撐） | $195.00 | -16.5% |
+| Call Wall（阻力） | $260.00 | +11.3% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Teradyne (TER) Falls 36% Despite 70% Revenue Growth: Is a Recovery Ahead?](https://finnhub.io/api/news?id=5bf49b57a9f6cc281032e8652cac7438389fb763dac418c9623b3d60797eecb6)**  
-*Yahoo · 20h前*  
-Among the companies highlighted in our recent list of 10 Oversold Stocks With 50%+ Upside Potential, Teradyne, Inc. (NASDAQ:TER) claimed the ninth position. Has…
+- **[Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?](https://finnhub.io/api/news?id=2ca642d2b1d57785f65229383921dbd0398e0bdfea05b178bc0639582dcdd92b)**  
+*Yahoo · 6h前*  
+TER's AI-powered robotics growth, expanding automation demand, and strategic partnerships boost its competitive edge against KLA and Cohu.
 
-- **[3 US AI Infrastructure Stocks With Earnings Growth Investors Should Watch](https://finnhub.io/api/news?id=cde1f052e94558a51db326a424848ac2c32dcc0081d0d3785b62ecad684a566d)**  
-*Yahoo · 1d前*  
-AI infrastructure has moved from niche theme to household talking point, with data centers, chips and cloud capacity now sitting at the crossroads of growth hop…
+- **[FORM Drops 28% in a Month: Should You Buy the Stock on the Dip?](https://finnhub.io/api/news?id=79c7e3a157c0a28523ea934738aa9031ddc2d651ecdf120458704b240c21f90b)**  
+*Yahoo · 7h前*  
+FormFactor shares plunge 27.8% in a month, but AI infrastructure demand, GPU testing opportunities and capacity expansion offer long-term upside potential.
 
-- **[Teradyne: 3 Key Takeaways for Long-Term Investors](https://finnhub.io/api/news?id=cdbcacbabfe29b5a012a1769b414797331a9fa3f5638e5ece08986ee5589fae6)**  
-*Yahoo · 2d前*  
-Memory supply constraints are forcing chipmakers to increase test volume per wafer, a potential tailwind for Teradyne's core business.
+- **[Premarket Movers: Nvidia, Dell, HPE Gain; CrowdStrike, UnitedHealth Slide](https://finnhub.io/api/news?id=ec07e5dc041b7fa4bdae54192db66181218072d0d93055406ae6bcae196b1f42)**  
+*ChartMill · 9h前*  
+Premarket movers: Nvidia rose 8.66%, Dell 8.27%, and HPE 7.46%, while CrowdStrike fell 6.76% and UnitedHealth 6.28%.
 
 ---
 
@@ -48,7 +48,7 @@ Memory supply constraints are forcing chipmakers to increase test volume per waf
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-23 | 監控 | $204.78 | — | 自動更新 |
+| 2026-11-24 | 監控 | $233.51 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Memory supply constraints are forcing chipmakers to increase test volume per waf
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 21:03 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
