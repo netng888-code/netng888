@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -39,7 +39,7 @@ Two nuclear upstarts with very different paths to market.
 Key TakeawaysNuScale shares are down 40% in the past month to a new 52-week low, falling further than Oklo as AI-power and nuclear stocks sold off after the ele…
 
 - **[Wall Street Has Cut Its Oklo Target Nearly in Half. Guggenheim Still Sees 91% Upside](https://finnhub.io/api/news?id=09febd667cb37048ef712d0e2f98e6a29bbbe29e1eeb1f034fcc2fef1adfd590)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Key TakeawaysGuggenheim upgraded Oklo to Buy with a $38 target, 91% above the Nov. 20 close.
 
 ---
@@ -59,4 +59,4 @@ Key TakeawaysGuggenheim upgraded Oklo to Buy with a $38 target, 91% above the No
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:04 HKT*
