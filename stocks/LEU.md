@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-23 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -35,7 +35,7 @@
 The analyst fair value estimate for Centrus Energy has been reset from US$206.36 to US$180.00, which is a reduction of about 13% in the stated price target. Rec…
 
 - **[Wall Street Has Cut Its Oklo Target Nearly in Half. Guggenheim Still Sees 91% Upside](https://finnhub.io/api/news?id=09febd667cb37048ef712d0e2f98e6a29bbbe29e1eeb1f034fcc2fef1adfd590)**  
-*Yahoo · 1d前*  
+*Yahoo · 2d前*  
 Key TakeawaysGuggenheim upgraded Oklo to Buy with a $38 target, 91% above the Nov. 20 close.
 
 - **[Can Energy Fuels Sustain Its Expansion Plans Amid Cash Outflows?](https://finnhub.io/api/news?id=cc20aaca0b491e1f4c69a02ccf912a876e33e490630cd44b6b53c9d9a328a760)**  
@@ -59,4 +59,4 @@ Energy Fuels' $932.3M working capital and lower operating cash burn support uran
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:04 HKT*
