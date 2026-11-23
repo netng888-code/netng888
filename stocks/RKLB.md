@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-23 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$45.42** |
-| 今日變動 | ▼ $5.57　(-10.92%) |
+| 現價 | **$49.63** |
+| 今日變動 | ▲ $4.21　(+9.27%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $306　(▼40.2%) |
+| 未實現盈虧 | ▼ $264　(▼34.7%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $61.27 | — |
-| Put Wall（支撐） | $45.00 | -0.9% |
-| Call Wall（阻力） | $85.00 | +87.1% |
+| Gamma Flip | $59.49 | — |
+| Put Wall（支撐） | $45.00 | -9.3% |
+| Call Wall（阻力） | $65.00 | +31.0% |
 
-**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[What ARK Autonomous Technology & Robotics ETF (ARKQ) Bought: Tesla Leads on Thursday](https://finnhub.io/api/news?id=01e719acd2d779df5e85be57765da2be46b60a5e73680f435b063bcb747a79f6)**  
-*Yahoo · 1h前*  
-ARKQ added to all 33 of its increased positions on Thursday, with $410.8 million in gross purchases and no sales.
+- **[Rocket Lab Rallies 11% After Its Worst Week Ever as CFO Eyes Higher Electron Prices; AST SpaceMobile Jumps 14%, SpaceX Surges 9%](https://finnhub.io/api/news?id=2479642f2ad58670a55bef66a14df7350d3f28c69e0013e4b13841af603d7ada)**  
+*Yahoo · 7h前*  
+Space stocks are snapping back from a brutal week. Rocket Lab (NASDAQ:RKLB) is indicating that its rockets are about to command higher prices. Rocket Lab stock …
 
-- **[Rocket Lab and Nebius Are Each About 66% Below Their Highs. I'd Buy Both and Hold Through 2030.](https://finnhub.io/api/news?id=4e5a1ac1ae187952dd7117e9fa01f77bd733830847dfdacc2afe0f6a0d3547a4)**  
-*Yahoo · 3h前*  
-Is a two-thirds discount enough to hold a space stock and an AI cloud stock for four years?
+- **[Rocket Lab Soars 10% After Its Worst Week Ever as Space Stocks Rebound](https://finnhub.io/api/news?id=9ef4e605b173bcc28df80075f28f3d8efe997a3f01f8e21edcba5371b47e89bc)**  
+*Yahoo · 8h前*  
+Key TakeawaysRocket Lab rose 10% this morning with Firefly Aerospace and AST SpaceMobile after its worst week on record. None had news, so the market likely dro…
 
-- **[RKLB Stock Has Its Worst Week Ever — But CFO Sees ‘Very Strong Uplift’ In Electron Prices As SpaceX Rideshare Slots Tighten](https://finnhub.io/api/news?id=eddb4125b8711c06b4c8ea59eb284a0e98277f5733c1ca4357bc2509cef18e49)**  
-*Yahoo · 5h前*  
-CFO Adam Spice sees room to raise Electron prices within six to nine months as SpaceX rideshare slots for 2029 grow scarce.
+- **[Space Stocks Soar. They Have a Long Way to Go.](https://finnhub.io/api/news?id=ce831e039257a4a1316d48c370405704e863047ad513c2414b257c1a7fafb653)**  
+*Yahoo · 9h前*  
+Space investors got some needed relief early on Monday.
 
 ---
 
@@ -48,7 +48,7 @@ CFO Adam Spice sees room to raise Electron prices within six to nine months as S
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-23 | 監控 | $45.42 | — | 自動更新 |
+| 2026-11-24 | 監控 | $49.63 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ CFO Adam Spice sees room to raise Electron prices within six to nine months as S
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 07:05 HKT*
