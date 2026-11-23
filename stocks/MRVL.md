@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Missed the First AI Rally? 5 Oversold Stocks With 50%+ Upside Potential](https://finnhub.io/api/news?id=c2b9391d11e4425070b67a677d0d61531404e9bb33c9dbe2917beeedf2d26b2b)**  
-*Yahoo · 6h前*  
-The AI boom has rewarded early investors handsomely, but the opportunity now looks considerably less straightforward. After months of enthusiasm surrounding art…
+- **[Why Did AMD Stock Move?](https://finnhub.io/api/news?id=4d322c22e77ddc092c0a5e1ae38bb8b04392400af49482ad517fd04821de0ca5)**  
+*Yahoo · 1h前*  
+Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
 
-- **[Lumentum’s CEO Says “the Laws of Physics Are Working in Favor of Fiber.” Marvell Holders Are Buying It Cheap](https://finnhub.io/api/news?id=ff1ef5057c36996143647c96cd249056755ccbdd79f77937b649fdbe2454e5b3)**  
-*Yahoo · 11h前*  
-Key TakeawaysMarvell’s all-stock offer for Lumentum was worth $1,132 a share at Marvell’s Oct. 28 price, before talks were reported, and about $550 at Friday’s …
+- **[What Triggered The Drop In Marvell Stock?](https://finnhub.io/api/news?id=2aa0aeffb06310ae6edc13c5910b4f7276f31055306210cdd6a78d0e53b4e980)**  
+*Yahoo · 1h前*  
+Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
 
-- **[150% Upside for Credo Technology? Stifel Thinks So, and Here’s How](https://finnhub.io/api/news?id=6b01987afbeca44fafe90fd6590e3cd728b840615635e6937a962299b5413298)**  
-*Yahoo · 12h前*  
-Key TakeawaysStifel cut its Credo Technology price target to $250 from $310 on Nov. 20 but kept its Buy rating, and the new target is 150% above Friday’s close.
+- **[3 Millionaire-Maker AI Chip Stocks Wall Street Isn't Talking About](https://finnhub.io/api/news?id=6cb44bccfa6c97a619d22213fca19cb660cd5bfa5c792e8660ec1caec08027e1)**  
+*Yahoo · 2h前*  
+You can make more money with smaller AI chipmakers than by investing in the giants.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysStifel cut its Credo Technology price target to $250 from $310 on N
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:03 HKT*
