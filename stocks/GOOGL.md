@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-23 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-23 21:03 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Her $420,000 in Employer Stock Inside Her 401(k) Lost 11% in a Day. Rolling It Into an IRA Would Turn Her Long-Term Gain Into Ordinary Income](https://finnhub.io/api/news?id=0a946c2f5ef5a2f8c26bc1bfa550a824e208b43ebb5931753ed5d06c1d3cfa19)**  
+- **[CrowdStrike explores acquisition of Zscaler – report](https://finnhub.io/api/news?id=5b0fe56de11eb9cc3f9557d18f8a6b1e0ba9e89520febdb443fab7c6eb702778)**  
 *Yahoo · 1h前*  
-A retiree sitting on a big Broadcom position in her 401(k) is one routine rollover form away from a tax bill she never saw coming. A little-known IRS rule offer…
+The talks are continuing, and sources cited by Bloomberg said there is no certainty that they will result in an agreement.
 
-- **[Google’s 2027 chip plan is bad news for Broadcom](https://finnhub.io/api/news?id=5b2072b921c43dc83744caba2fb305c4b2115dd3f9135dd9f113596e028ef960)**  
-*Yahoo · 3h前*  
-A top supply-chain analyst says Google is changing what it buys, and Broadcom’s higher-priced chip is taking most of the hit.
+- **[Claude “May Have Just Proved” the Riemann Hypothesis. Anthropic’s Stock Fell Toward Its IPO Price Anyway](https://finnhub.io/api/news?id=f7c8d165aa815bf99f6e3c239798ec13fe93ef320c624827db2c19acf03a3e28)**  
+*Yahoo · 1h前*  
+Key TakeawaysAnthropic shares fell 8. 5% on Friday, the same day an Anthropic mathematician said he had used Claude to prove the Riemann Hypothesis.
 
-- **[Google Backs Superhot Geothermal in 50 MW Oregon Power Deal](https://finnhub.io/api/news?id=346d964a26bcd66493578fa2101887fbe1f9c722bf5286d592625df3868c4e09)**  
-*Yahoo · 5h前*  
-Google signed a 50 MW power deal with Quaise Energy for superhot geothermal in Oregon, but the drilling technology still has to prove it can scale.
+- **[Alphabet Trades at “Just 18 Times Forward Earnings.” Its SpaceX and Anthropic Stakes Top $200 Billion](https://finnhub.io/api/news?id=dc403d28370aaa6929685dbe8f6b8c21d8781034d1be77e9d56ee8d4d1b89817)**  
+*Yahoo · 1h前*  
+Key TakeawaysAlphabet trades at about 19x forward earnings and passed Nvidia in market value on Friday. Its SpaceX and Anthropic stakes are worth about $230 bil…
 
 ---
 
@@ -59,4 +59,4 @@ Google signed a 50 MW power deal with Quaise Energy for superhot geothermal in O
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-23 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-23 21:03 HKT*
