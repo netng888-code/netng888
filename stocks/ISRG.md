@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-24 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Reasons to Hold QuidelOrtho Stock in Your Portfolio for Now](https://finnhub.io/api/news?id=f20a9cdcbe66fd54c1eeeef11fa3aaf1195d65918cd155a0c6843652a8110201)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 QDEL's diversified product portfolio, cost-saving initiatives and R&D investments support growth prospects, but respiratory testing weakness remains a concern.
 
 - **[GE HealthCare Adds AI Features to Enhance Imaging 360 Workflows](https://finnhub.io/api/news?id=138d381240d025e946a3e65f0fd3b91d63a7ac6e777e7d1a1c3622ba2d94db3a)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 GEHC expands Imaging 360 with an AI assistant and AI-assisted protocoling to streamline radiology workflows, improve consistency and boost efficiency.
 
 - **[Here's Why You Should Add McKesson Stock to Your Portfolio Now](https://finnhub.io/api/news?id=47ed2e4ce1d818ef76e1c2a9d821ecd4b5800e02235071f02bc832bc5ee7fca6)**  
-*Yahoo · 8h前*  
+*Yahoo · 22h前*  
 McKesson's specialty pharmaceutical growth, rising GLP-1 demand and strategic acquisitions strengthen its earnings outlook, despite profitability and pricing ch…
 
 ---
@@ -59,4 +59,4 @@ McKesson's specialty pharmaceutical growth, rising GLP-1 demand and strategic ac
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:05 HKT*
