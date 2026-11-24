@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-24 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Oklo vs. NuScale Power: Which Nuclear Stock Is a Better Buy?](https://finnhub.io/api/news?id=80c6acd009b53c88be0176289e1eab62288fddbb664da3b9574d3d6475ef6b81)**  
-*Yahoo · 2d前*  
-Two nuclear upstarts with very different paths to market.
+- **[This Space ETF Breaks Past Its Seven-Day Decline Amid NASA’s Partnership Call For Moon Nuclear Reactor](https://finnhub.io/api/news?id=715cb0bff3b01eed891c7fd1bbef82851065ea96c0d97f9da866614249e179b8)**  
+*Yahoo · 14h前*  
+The National Aeronautics and Space Administration (NASA) has formally invited private-sector partners to design, test, and build a 20-kilowatt nuclear fission r…
 
-- **[NuScale Is Down 40% in a Month and Just Hit a New 52-Week Low. Is the Selling Overdone?](https://finnhub.io/api/news?id=689b784fa00f57eeb24b7b4f8c6cb451fb25e0b6d26a90d254ab5f3dea31fc39)**  
-*Yahoo · 2d前*  
-Key TakeawaysNuScale shares are down 40% in the past month to a new 52-week low, falling further than Oklo as AI-power and nuclear stocks sold off after the ele…
+- **[Nvidia, Dell, Micron, Anthropic, CrowdStrike, UnitedHealth, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=09cf19af0fe9a0487238ba27a10caf366fe163161448fa75ad70d74e6b741720)**  
+*Yahoo · 15h前*  
+Nvidia surges after saying it will reinstate Jensen Huang as CEO.
 
-- **[Wall Street Has Cut Its Oklo Target Nearly in Half. Guggenheim Still Sees 91% Upside](https://finnhub.io/api/news?id=09febd667cb37048ef712d0e2f98e6a29bbbe29e1eeb1f034fcc2fef1adfd590)**  
-*Yahoo · 2d前*  
-Key TakeawaysGuggenheim upgraded Oklo to Buy with a $38 target, 91% above the Nov. 20 close.
+- **[AI Energy Stocks, From Fuel Cells To Uranium, Leap As Nvidia Soars](https://finnhub.io/api/news?id=aa0053252499cd11fa5921efffe5e9e5114f2632df5883280b3714da03c49d63)**  
+*Yahoo · 15h前*  
+Beaten-down Bloom Energy led the relief rally among AI energy stocks on Monday. But there were plenty of big winners.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysGuggenheim upgraded Oklo to Buy with a $38 target, 91% above the No
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
