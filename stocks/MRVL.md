@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Coherent Is the Real Winner of Huang’s Return. Nvidia Paid $2 Billion for Its Stock](https://finnhub.io/api/news?id=33a3af7399c69e09df2f8a05b656b6e8c0dd3a66f2f1296346dc819415dbcc90)**  
-*Yahoo · 1h前*  
-Key TakeawaysCoherent shares jumped 15% after Nvidia’s board reinstated Jensen Huang as CEO, a week after Coherent fell 9% on Nvidia’s leadership turmoil. Nvidi…
+- **[Marvell Stock Fell Almost 12% in a Single Day. I'd Consider Buying Shares Now.](https://finnhub.io/api/news?id=62a239a5060d2101ab581294b51011f75612bedd3447218fa9441fb8700262bb)**  
+*Yahoo · 2h前*  
+The chipmaker's shares are priced close to an average stock. Is its data center business average?
 
-- **[Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100](https://finnhub.io/api/news?id=28d1af4b27f817969c4333a489d9b1688b6e6e9ce643c75317be27d2352362d5)**  
-*Yahoo · 3h前*  
-US technology stocks staged a broad rally Monday, with gains across chipmakers, AI infrastructure providers and software companies adding nearly $2 trillion to …
+- **[Coherent Is Up 55% in a Year, and Its CEO Says 2027 Is “Basically Booked Out.” Time to Buy?](https://finnhub.io/api/news?id=d8f1a7ee5cef5a4478b4ebe6b3910475af8de437dadab197fd4081288e333094)**  
+*Yahoo · 10h前*  
+Key TakeawaysCoherent stock is up 55% in a year but about half below its June high, as AI hardware swung on spending fears, the midterms and Nvidia’s turmoil. S…
 
-- **[Why Did Broadcom Stock Drop On Friday?](https://finnhub.io/api/news?id=157db50b19f7a78b19d0a3fe32a1fed14d92e6059ceb930bf796c65492cc1041)**  
-*Yahoo · 3h前*  
-Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
+- **[Marvell (MRVL) Stock Looks Reasonable Following Its 161% Three Year Run](https://finnhub.io/api/news?id=705af8289d6e831ffe65e406d7f47107806e62151872c9820842cc746c12ab37)**  
+*Yahoo · 13h前*  
+Marvell Technology has delivered a powerful multiyear run in its share price, and the question now is whether the current market value can be explained by the e…
 
 ---
 
@@ -59,4 +59,4 @@ Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
