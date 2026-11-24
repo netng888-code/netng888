@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$144.74** |
-| 今日變動 | ▲ $22.46　(+18.37%) |
+| 現價 | **$131.57** |
+| 今日變動 | ▼ $13.17　(-9.10%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $223.912 |
-| 未實現盈虧 | ▼ $792　(▼35.4%) |
+| 未實現盈虧 | ▼ $923　(▼41.2%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $202.49 | — |
-| Put Wall（支撐） | $140.00 | -3.3% |
-| Call Wall（阻力） | $150.00 | +3.6% |
+| Gamma Flip | $199.03 | — |
+| Put Wall（支撐） | $130.00 | -1.2% |
+| Call Wall（阻力） | $150.00 | +14.0% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Marvell Stock Fell Almost 12% in a Single Day. I'd Consider Buying Shares Now.](https://finnhub.io/api/news?id=62a239a5060d2101ab581294b51011f75612bedd3447218fa9441fb8700262bb)**  
+- **[Morgan Stanley’s 4 Best Semiconductor and Server Stocks to Buy for 2027](https://finnhub.io/api/news?id=a66f85ee57836f6dec6e6bc9f29a3be0ee862162bce3aeaa8666a6336e8505ce)**  
 *Yahoo · 2h前*  
-The chipmaker's shares are priced close to an average stock. Is its data center business average?
+The semiconductor industry’s investment cycle has advanced: The Semiconductor Industry Association’s November 3 release put global third-quarter sales at $517.7…
 
-- **[Coherent Is Up 55% in a Year, and Its CEO Says 2027 Is “Basically Booked Out.” Time to Buy?](https://finnhub.io/api/news?id=d8f1a7ee5cef5a4478b4ebe6b3910475af8de437dadab197fd4081288e333094)**  
-*Yahoo · 10h前*  
-Key TakeawaysCoherent stock is up 55% in a year but about half below its June high, as AI hardware swung on spending fears, the midterms and Nvidia’s turmoil. S…
+- **[CrowdStrike’s all-stock bid for Zscaler: deal structure shifts risk to target holders](https://finnhub.io/api/news?id=d17d92fd60b24f9b01456c2ca98da05d4e601bd4c529ddf34f155b3713893b63)**  
+*Yahoo · 2h前*  
+Investing.com -- CrowdStrike’s all-stock bid for Zscaler puts the price risk squarely on Zscaler shareholders, and the market is already pricing that in.
 
-- **[Marvell (MRVL) Stock Looks Reasonable Following Its 161% Three Year Run](https://finnhub.io/api/news?id=705af8289d6e831ffe65e406d7f47107806e62151872c9820842cc746c12ab37)**  
-*Yahoo · 13h前*  
-Marvell Technology has delivered a powerful multiyear run in its share price, and the question now is whether the current market value can be explained by the e…
+- **[Megadeals Are Back. Why More Takeovers Could Be Coming.](https://finnhub.io/api/news?id=80add5c863d1fd588de9ba826eb0fab44f7bfad65713a1708f4c83a76d193c8a)**  
+*Yahoo · 3h前*  
+Two deals worth more than $40 billion apiece put big-ticket M&A back in focus as buyers weigh higher borrowing costs and greater scrutiny from Congress.
 
 ---
 
@@ -48,7 +48,7 @@ Marvell Technology has delivered a powerful multiyear run in its share price, an
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-24 | 監控 | $144.74 | — | 自動更新 |
+| 2026-11-25 | 監控 | $131.57 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Marvell Technology has delivered a powerful multiyear run in its share price, an
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
