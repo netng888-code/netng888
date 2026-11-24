@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,9 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 Space Stocks With Revenue Growth Up To 16%](https://finnhub.io/api/news?id=e0e642dd089acbbb2071c26e05c8b204c00c002deaea640d2456397c40309213)**  
-*Yahoo · 2d前*  
-A historic selloff has pulled major AI and chip stocks into correction territory, yet the race to build launch systems, satellites, and space defence hardware h…
+- **[NASA Is Handing Out Moon Contracts Again. Intuitive Machines, Firefly, and Redwire All Got Paid. Only 1 Has the Balance Sheet to Keep Winning.](https://finnhub.io/api/news?id=254c579abae69ada3ae187ae9b34643f16f9325a2503efbdf9a3ab1fb4d0d796)**  
+*Yahoo · 9h前*  
+Not all NASA contractors are equally positioned to succeed.
+
+- **[RDW Stock Rises Overnight: Redwire CEO Keeps Buying Shares, But Mizuho Sees 22% Downside](https://finnhub.io/api/news?id=cfd9b52b625df92c2b80af06906091cb9e1b3993a5400a499492ebb792ef9642)**  
+*Yahoo · 10h前*  
+Redwire CEO Peter Cannito made another insider purchase worth $51,000.
+
+- **[Intuitive Machines vs. Redwire: Which Space Infrastructure Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=62b6dcc30cd070f0d1af120c5fc0a3cb36db9e1a45b7b04206aba43ee6817bb0)**  
+*Yahoo · 20h前*  
+Intuitive Machines leans heavily on NASA contracts for its lunar missions, while Redwire's business is anchored by national security work, a very different risk…
 
 ---
 
@@ -51,4 +59,4 @@ A historic selloff has pulled major AI and chip stocks into correction territory
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
