@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$49.63** |
-| 今日變動 | ▲ $4.21　(+9.27%) |
+| 現價 | **$45.98** |
+| 今日變動 | ▼ $3.65　(-7.35%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $76.000 |
-| 未實現盈虧 | ▼ $264　(▼34.7%) |
+| 未實現盈虧 | ▼ $300　(▼39.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $59.49 | — |
-| Put Wall（支撐） | $45.00 | -9.3% |
-| Call Wall（阻力） | $65.00 | +31.0% |
+| Gamma Flip | $55.11 | — |
+| Put Wall（支撐） | $45.00 | -2.1% |
+| Call Wall（阻力） | $50.00 | +8.7% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Three Reasons To Rethink AST SpaceMobile Stock Now](https://finnhub.io/api/news?id=ae365beeec5f80976676555c000ed26d75cd37980046fd24e8bcbd12b2f71f1c)**  
-*Yahoo · 2h前*  
-AST SpaceMobile is building a network of satellites that connect directly to everyday smartphones. Its customers are mobile phone companies and the U.S. governm…
+- **[Mizuho Sees 14% Downside in Rocket Lab Even After Its 69% Fall From May’s High](https://finnhub.io/api/news?id=fb570c679808836962440cf5ce0fe08e92951e6d0ec122d6a472f74fcff90fe4)**  
+*Yahoo · 1h前*  
+Key TakeawaysMizuho initiated coverage of Rocket Lab with an Underperform rating and a $40 price target, 14% below the last close. Mizuho’s call looks right for…
 
-- **[Proto Labs Stock After Board Appointment What Frank Klein Could Mean](https://finnhub.io/api/news?id=a2b2cbb0be2ba33dbedde6759f86ba577d3a23bb588cc2b919278623453469a8)**  
+- **[Rocket Lab (RKLB) Has 117 Launches Booked. Barclays Has a View](https://finnhub.io/api/news?id=abd46a2c10c27560ecf34326bae3484ac2ed32f4d14fba036988ec62843a43f2)**  
+*Yahoo · 3h前*  
+We just published a list of the 10 Best Affordable Growth Stocks to Buy for 2027 and Rocket Lab (NASDAQ:RKLB) ranked 7th on this list. The Dow Jones Industrial …
+
+- **[Why Rocket Lab Demand News Could Make ETFs Worth A Look](https://finnhub.io/api/news?id=13e5df50b036c5bbd0268fca5216829fe1f17b727bccbb8ab223ed14d2cfaae6)**  
 *Yahoo · 7h前*  
-Proto Labs appointed Frank Klein to its Board of Directors in November 2026, adding a leader with decades of global manufacturing and operations experience acro…
-
-- **[Why Rocket Lab (RKLB) Is Up 9.2% And What's Next After $515 Million Launch Orders](https://finnhub.io/api/news?id=1dbb6f87e34248a39ef89a8351f61f25a2a56fef893f180733bba245e2bc50ab)**  
-*Yahoo · 10h前*  
-Rocket Lab secured more than US$515 million in Neutron launch contracts covering eight missions, alongside a record US$268 million in third quarter 2026 revenue…
+You can own Rocket Lab directly or through a fund that also holds other businesses. Holding just Rocket Lab leaves you carrying company specific issues on your …
 
 ---
 
@@ -48,7 +48,7 @@ Rocket Lab secured more than US$515 million in Neutron launch contracts covering
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-24 | 監控 | $49.63 | — | 自動更新 |
+| 2026-11-25 | 監控 | $45.98 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Rocket Lab secured more than US$515 million in Neutron launch contracts covering
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 07:05 HKT*
