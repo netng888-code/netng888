@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,8 +30,16 @@
 
 ## 📰 最新新聞
 
+- **[Cargo Thieves Are Chasing AI Hardware Down the Dirt Road to the Data Center](https://finnhub.io/api/news?id=41ae76fc82ede6b2024865fd454bfc50207c746addfbfa005de5e8d07a4e4557)**  
+*Yahoo · 20h前*  
+As AI infrastructure spending surges, cargo thieves are targeting Blackwell chips and scarce data center components. Overhaul’s David Warrick shares how the the…
+
+- **[European Equities Traded in the US as American Depositary Receipts Surge in Monday Trading](https://finnhub.io/api/news?id=7fd6fe99e5bd3fa3eaec4f48c881b32286dd35900234b5a51d1732c4314bd005)**  
+*Yahoo · 20h前*  
+European equities traded in the US as American depositary receipts were surging higher late Monday m
+
 - **[Nokia vs. AT&T: Which Telecom Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=8c23e7f8ba52409e9c5ae7ad771b702a312dde55f35ba027f6ce7ed24f9b195a)**  
-*Yahoo · 21h前*  
+*Yahoo · 1d前*  
 Nokia's 130-country network reach meets AT&T's 145 million wireless subscribers, but a sharp valuation gap may tip the scales for 2027.
 
 ---
@@ -51,4 +59,4 @@ Nokia's 130-country network reach meets AT&T's 145 million wireless subscribers,
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
