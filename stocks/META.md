@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $596.92 | — |
+| Gamma Flip | $605.36 | — |
 | Put Wall（支撐） | $550.00 | -8.0% |
 | Call Wall（阻力） | $700.00 | +17.1% |
 
-**狀態：✅ 正Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Meta’s AI Chief Warns “Superintelligence Is Arriving.” Lawmakers Are Now Quoting Him to Push a Ban](https://finnhub.io/api/news?id=c04e6bcd641c3c5a85100b2fc4c43d221fb9b5d107d6320aeafeddfb855249c8)**  
-*Yahoo · 1h前*  
-Key TakeawaysMeta’s chief AI officer, Alexandr Wang, wrote that “superintelligence is arriving,” and lawmakers calling for a ban shared his essay within hours. …
+- **[Meta Platforms (META) Sees $240.4 Million in Net ETF Buying on Friday](https://finnhub.io/api/news?id=81ef37dcacb377f1f4d0844f0644a3e1834123d720f1b6d424ad05d78aa8ac60)**  
+*Yahoo · 2h前*  
+ETFs bought $240.4 million of Meta Platforms stock on Friday, with 59 funds adding shares against 22 selling.
 
-- **[AMD’s Blockbuster Q3 Report Is Getting Lost in the Pullback](https://finnhub.io/api/news?id=b6f8562fc76e50d714924252a35e4a7a1f823db98a9fb57cda2ce980af617bc0)**  
-*Yahoo · 1h前*  
-Advanced Micro Devices (AMD) delivered a blockbuster Q3 FY2026 report, but the broader pullback in semiconductor stocks is overshadowing its strong results. Rev…
+- **[Monroe Capital Supports Waveborn’s Acquisition of Jake Rosen Entertainment](https://finnhub.io/api/news?id=4645872fa9492525435535e72e45cf4b7df5658fd810a67cff4e864c6653c0d5)**  
+*Yahoo · 2h前*  
+CHICAGO, November 24, 2026--Monroe Capital LLC ("Monroe") announced it acted as sole lead arranger and administrative agent on the funding of a senior credit fa…
 
-- **[Emerging Growth Research Releases Q2:FY27 Quarterly Update on Virtuix Holdings](https://finnhub.io/api/news?id=48926e3631ae9313a1e580ec9ff666f8947a17efab0563d0bc06133ec376a2f8)**  
-*Yahoo · 1h前*  
-Highlights 21% Revenue Growth, 105% Omni One Revenue Growth, and Momentum from Meta Partnership and Defense InitiativesNEW YORK CITY, NY / ACCESS Newswire / Nov…
+- **[Why 1 Billionaire Investor Just Poured $3 Billion Into Amazon, Meta, and Alphabet](https://finnhub.io/api/news?id=25fb2922ee50e89e5904cde1880e4c22a733ce503eba07a5b5d3a92f34f25f3f)**  
+*Yahoo · 2h前*  
+Steve Mandel's Lone Pine was betting big on this trio of "Magnificent Seven" stocks in Q3.
 
 ---
 
@@ -59,4 +59,4 @@ Highlights 21% Revenue Growth, 105% Omni One Revenue Growth, and Momentum from M
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
