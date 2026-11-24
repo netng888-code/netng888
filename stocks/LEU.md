@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,13 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[What Sent Cameco Stock Lower Again?](https://finnhub.io/api/news?id=bcc19ff5a9a865c15e5efc75f54ab7ffb3b96f5c7d7b82164722605f7441435e)**  
+*Yahoo · 18h前*  
+Today’s big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
+
+- **[Can UUUU's Uranium Ramp-Up Strengthen Its Long-Term Growth Story?](https://finnhub.io/api/news?id=7a5a11f5e099443c903f7fc38b4194271ba51c876f0a83ce741977ab71dfc57d)**  
+*Yahoo · 19h前*  
+Energy Fuels targets 1 million pounds of uranium output from its White Mesa Mill campaign as rising utility deliveries and new projects support its growth outlo…
+
 - **[Centrus Energy (LEU) Stock Sees Fair Value Cut As Analysts Reset Nuclear Growth Expectations](https://finnhub.io/api/news?id=1fb29f5053255a12c6fd9ef448ce2569607d64ce148c3dd0abee85e59ce934b4)**  
 *Yahoo · 2d前*  
 The analyst fair value estimate for Centrus Energy has been reset from US$206.36 to US$180.00, which is a reduction of about 13% in the stated price target. Rec…
-
-- **[Wall Street Has Cut Its Oklo Target Nearly in Half. Guggenheim Still Sees 91% Upside](https://finnhub.io/api/news?id=09febd667cb37048ef712d0e2f98e6a29bbbe29e1eeb1f034fcc2fef1adfd590)**  
-*Yahoo · 2d前*  
-Key TakeawaysGuggenheim upgraded Oklo to Buy with a $38 target, 91% above the Nov. 20 close.
 
 ---
 
@@ -55,4 +59,4 @@ Key TakeawaysGuggenheim upgraded Oklo to Buy with a $38 target, 91% above the No
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
