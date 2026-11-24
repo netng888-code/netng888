@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Watch these chip stocks for bargain buys after Nvidia’s post-reinstatement rally](https://finnhub.io/api/news?id=32d3efd4f8e2b8560c0c5e9fa268869ff25ae9c5ca71aeeae4607e6a01554c12)**  
+*Yahoo · 9h前*  
+Investing.com -- Jensen Huang was reinstated as Nvidia CEO on Nov 23, 2026, 11 days after he resigned, sparking a broad-based rally across battered chipmaking a…
+
+- **[What Just Happened To Lam Research Stock Since May?](https://finnhub.io/api/news?id=7ec837bc4c9557fb2085dd9ce023152c2331c8e8501d4398051ef63af0113290)**  
+*Yahoo · 12h前*  
+Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
+
 - **[Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?](https://finnhub.io/api/news?id=2ca642d2b1d57785f65229383921dbd0398e0bdfea05b178bc0639582dcdd92b)**  
-*Yahoo · 6h前*  
+*Yahoo · 20h前*  
 TER's AI-powered robotics growth, expanding automation demand, and strategic partnerships boost its competitive edge against KLA and Cohu.
-
-- **[FORM Drops 28% in a Month: Should You Buy the Stock on the Dip?](https://finnhub.io/api/news?id=79c7e3a157c0a28523ea934738aa9031ddc2d651ecdf120458704b240c21f90b)**  
-*Yahoo · 7h前*  
-FormFactor shares plunge 27.8% in a month, but AI infrastructure demand, GPU testing opportunities and capacity expansion offer long-term upside potential.
-
-- **[Premarket Movers: Nvidia, Dell, HPE Gain; CrowdStrike, UnitedHealth Slide](https://finnhub.io/api/news?id=ec07e5dc041b7fa4bdae54192db66181218072d0d93055406ae6bcae196b1f42)**  
-*ChartMill · 9h前*  
-Premarket movers: Nvidia rose 8.66%, Dell 8.27%, and HPE 7.46%, while CrowdStrike fell 6.76% and UnitedHealth 6.28%.
 
 ---
 
@@ -59,4 +59,4 @@ Premarket movers: Nvidia rose 8.66%, Dell 8.27%, and HPE 7.46%, while CrowdStrik
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
