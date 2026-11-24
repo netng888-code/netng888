@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-24 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Rallies 11% After Its Worst Week Ever as CFO Eyes Higher Electron Prices; AST SpaceMobile Jumps 14%, SpaceX Surges 9%](https://finnhub.io/api/news?id=2479642f2ad58670a55bef66a14df7350d3f28c69e0013e4b13841af603d7ada)**  
+- **[Three Reasons To Rethink AST SpaceMobile Stock Now](https://finnhub.io/api/news?id=ae365beeec5f80976676555c000ed26d75cd37980046fd24e8bcbd12b2f71f1c)**  
+*Yahoo · 2h前*  
+AST SpaceMobile is building a network of satellites that connect directly to everyday smartphones. Its customers are mobile phone companies and the U.S. governm…
+
+- **[Proto Labs Stock After Board Appointment What Frank Klein Could Mean](https://finnhub.io/api/news?id=a2b2cbb0be2ba33dbedde6759f86ba577d3a23bb588cc2b919278623453469a8)**  
 *Yahoo · 7h前*  
-Space stocks are snapping back from a brutal week. Rocket Lab (NASDAQ:RKLB) is indicating that its rockets are about to command higher prices. Rocket Lab stock …
+Proto Labs appointed Frank Klein to its Board of Directors in November 2026, adding a leader with decades of global manufacturing and operations experience acro…
 
-- **[Rocket Lab Soars 10% After Its Worst Week Ever as Space Stocks Rebound](https://finnhub.io/api/news?id=9ef4e605b173bcc28df80075f28f3d8efe997a3f01f8e21edcba5371b47e89bc)**  
-*Yahoo · 8h前*  
-Key TakeawaysRocket Lab rose 10% this morning with Firefly Aerospace and AST SpaceMobile after its worst week on record. None had news, so the market likely dro…
-
-- **[Space Stocks Soar. They Have a Long Way to Go.](https://finnhub.io/api/news?id=ce831e039257a4a1316d48c370405704e863047ad513c2414b257c1a7fafb653)**  
-*Yahoo · 9h前*  
-Space investors got some needed relief early on Monday.
+- **[Why Rocket Lab (RKLB) Is Up 9.2% And What's Next After $515 Million Launch Orders](https://finnhub.io/api/news?id=1dbb6f87e34248a39ef89a8351f61f25a2a56fef893f180733bba245e2bc50ab)**  
+*Yahoo · 10h前*  
+Rocket Lab secured more than US$515 million in Neutron launch contracts covering eight missions, alongside a record US$268 million in third quarter 2026 revenue…
 
 ---
 
@@ -59,4 +59,4 @@ Space investors got some needed relief early on Monday.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
