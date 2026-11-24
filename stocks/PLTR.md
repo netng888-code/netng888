@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-24 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[3 AI Stocks Billionaire Stanley Druckenmiller Has Been Quietly Buying](https://finnhub.io/api/news?id=b7c87bcd2c8611ccad496f571ef01a99900fa3ecaccbb017f3c77cb60372cdb1)**  
-*Yahoo · 2h前*  
-Druckenmiller started new positions in SpaceX, Palantir, and AppLovin in Q3.
+- **[Zeta Global Sees Athena Adoption Climb as Customer Growth and Spending Accelerate](https://finnhub.io/api/news?id=b9ca664fc0074c38e29c956301fbfdbde44fafc4b84a9d25965d27aaae977e15)**  
+*Yahoo · 1h前*  
+Zeta Global (NYSE:ZETA) executives said adoption of the company’s Athena platform accelerated in the third quarter, as more of its largest customers used the ma…
 
-- **[Palantir Rips 10% to Lead Software Stocks. Cloudflare and ServiceNow Also Join ‘Jensen Rally’](https://finnhub.io/api/news?id=29cae95436dfbe92b60836af8703c316d047501108ae5e43fb4ad24e8f9fa28c)**  
-*Yahoo · 2h前*  
-Eric Bleeker, Chief Investment Officer at 24/7 Wall St., says Jensen Huang's return to NVIDIA is lifting technology stocks on Monday. The NASDAQ was up more tha…
+- **[Tesla Leads Goldman's Hedge Fund Short List With $26.4 Billion in Bearish Bets](https://finnhub.io/api/news?id=a6675af294f06b6a01bf0ffa495822b88499d3f756dde70235c39b7bc0b1aa5c)**  
+*Yahoo · 1h前*  
+Palantir and Walmart follow as Goldman identifies the largest short positions among S&P 500 companies.
 
-- **[If You Invest $7,500 Into These 3 Stocks, You Could Have $15,000 by 2030](https://finnhub.io/api/news?id=91d4eace9bfd4b64f6f171fe9a6e58c3f5c6668ae8dc8ed5cad8dd7f8e2198b5)**  
-*Yahoo · 4h前*  
-CrowdStrike, Palantir and Cloudflare all posted record quarters, yet one of them does most of the heavy lifting in this basket. A five-year model tests whether …
+- **[What iShares Expanded Tech-Software (IGV) Sold: Palo Alto Leads on Friday](https://finnhub.io/api/news?id=c47aba9ac16ec81021d634e54f81379741021333ba8e375ae2505405c3fdeded)**  
+*Yahoo · 1h前*  
+The fund sold $264.3 million of stock, trimming 103 positions and adding none, with Palo Alto Networks the largest sale at $25.5 million.
 
 ---
 
@@ -59,4 +59,4 @@ CrowdStrike, Palantir and Cloudflare all posted record quarters, yet one of them
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
