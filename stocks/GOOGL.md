@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $280.81 | — |
+| Gamma Flip | $286.26 | — |
 | Put Wall（支撐） | $280.00 | -0.7% |
 | Call Wall（阻力） | $300.00 | +6.3% |
 
-**狀態：✅ 正Gamma區 🟢 逼近Put牆支撐**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Plot Twist: Cathie Wood Sold Nvidia Over “Losing Jensen.” Nvidia Just Rehired Him, but Her Other Worry Remains](https://finnhub.io/api/news?id=2d415468040bde72ff572d8e686b7ce97389157d61f5d83bdf29c0835a1782b3)**  
+- **[Who Pays P&G? The American Shopper In Four Lines](https://finnhub.io/api/news?id=87ebbf5ba5349650791445a4871fb75096f365f57e2d6577aa98e80e00979551)**  
 *Yahoo · 1h前*  
-Key TakeawaysNvidia shares jumped 31% today after its board reinstated Jensen Huang as CEO. Huang’s return removes the reason Cathie Wood gave for ARK’s swap ou…
+Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.
 
-- **[Google AI Bridges Search And Wallet To Unlock Spending Signals](https://finnhub.io/api/news?id=389a0e7a9bbd383ea1652904f98e6a7e2b3d9dbf2be525ff4180c9ae557e1d21)**  
+- **[Jim Cramer Calls CrowdStrike’s Zscaler Deal the Biggest in Cybersecurity History. What It Means for Both Stocks](https://finnhub.io/api/news?id=176cfad69f07ac93f9d595e93368355303e717d06c69ade2d4eeeb7e5e478a0b)**  
 *Yahoo · 1h前*  
-Google Search's AI Mode can now access a consumer's Google Wallet spending habits and card data when opted in to provide personalized answers based on actual pu…
+One stock sank while the other soared the moment CrowdStrike unveiled its all-stock bid for a rival. Behind the split reaction sit dilution fears, a thin spread…
 
-- **[Jensen Huang's reinstatement changes how politics, business interact forever](https://finnhub.io/api/news?id=a4e50d5d77f3243aa38967cccdc2446d87c653bfd50741fa82087f6e93907f54)**  
+- **[Can Adobe Stock Rise 30% From Here?](https://finnhub.io/api/news?id=d546adc86ec00d9595ae7295f1e778437b231f70deb0ed2ebf75a008e1a324a4)**  
 *Yahoo · 1h前*  
-The White House played a role in pressing Nvidia's (NVDA) board to reinstate Jensen Huang as CEO, president, and chairman, all of which came just hours after Pr…
+For questions about this article or underlying research, email help@trefis.com.
 
 ---
 
@@ -59,4 +59,4 @@ The White House played a role in pressing Nvidia's (NVDA) board to reinstate Jen
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
