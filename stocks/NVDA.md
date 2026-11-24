@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $149.07 | — |
+| Gamma Flip | $153.60 | — |
 | Put Wall（支撐） | $150.00 | -9.1% |
 | Call Wall（阻力） | $200.00 | +21.2% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia's Jensen Huang - the indispensable godfather of AI](https://finnhub.io/api/news?id=df5ed2cc75e821793def9619ce6dba382c42abda95ff6fd141ff9b0d1ef1b0b2)**  
+- **[Nvidia staff chant, holler and hug at Huang's triumphant return](https://finnhub.io/api/news?id=6c06187266610846c2015296e16c05db0282dd3a4e5f07305ab8def99158debe)**  
 *Yahoo · 1h前*  
-Chips designed by Nvidia push the boundaries of artificial intelligence, and its leather-jacket-wearing co-founder Jensen Huang built the company into one of th…
+Nvidia staff have given their returning boss Jensen Huang a rapturous welcome, chanting his name and crowding around as the AI pioneer told them: "I'm going to …
 
-- **[Freightos Limited Ordinary shares Q3 2026 Earnings Call Summary](https://finnhub.io/api/news?id=e8e0e1aae78070b84f039aba3a90fc77cda96071cd15115ef4065dc2c7fa9a80)**  
+- **[Tech Shares Give Back Some Gains on European Bourse Midday](https://finnhub.io/api/news?id=a22f33274e221ce97a8535d4f4d9986e89884129dae057d88eeb50fa8b5c99f8)**  
 *Yahoo · 1h前*  
-Moby summary of Freightos Limited Ordinary shares's Q3 2026 earnings call
+European bourses tracked moderately lower midday Tuesday as tech issues gave back some of Monday's l
 
-- **[Plot Twist: Cathie Wood Sold Nvidia Over “Losing Jensen.” Nvidia Just Rehired Him, but Her Other Worry Remains](https://finnhub.io/api/news?id=2d415468040bde72ff572d8e686b7ce97389157d61f5d83bdf29c0835a1782b3)**  
+- **[Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire?](https://finnhub.io/api/news?id=d4b8c5da574d04b1866d33a13a5b87b91b737bed8671a5f832713754a5a185c8)**  
 *Yahoo · 1h前*  
-Key TakeawaysNvidia shares jumped 31% today after its board reinstated Jensen Huang as CEO. Huang’s return removes the reason Cathie Wood gave for ARK’s swap ou…
+After the 2008 financial crisis, Washington decided that some banks were too big to fail. Between Nov 12 and Nov 23, the White House showed it holds the same vi…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysNvidia shares jumped 31% today after its board reinstated Jensen Hu
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
