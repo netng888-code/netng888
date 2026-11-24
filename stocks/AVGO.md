@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-24 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $341.19 | — |
+| Gamma Flip | $343.61 | — |
 | Put Wall（支撐） | $300.00 | -4.3% |
 | Call Wall（阻力） | $350.00 | +11.6% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Plot Twist: Cathie Wood Sold Nvidia Over “Losing Jensen.” Nvidia Just Rehired Him, but Her Other Worry Remains](https://finnhub.io/api/news?id=2d415468040bde72ff572d8e686b7ce97389157d61f5d83bdf29c0835a1782b3)**  
+- **[Prediction: This Is What Will Happen to Broadcom’s Stock Price in December](https://finnhub.io/api/news?id=ba0b241a030febfd32df2d10656d6057da6d381bd1178559f5e748273ba6c4db)**  
 *Yahoo · 1h前*  
-Key TakeawaysNvidia shares jumped 31% today after its board reinstated Jensen Huang as CEO. Huang’s return removes the reason Cathie Wood gave for ARK’s swap ou…
+Broadcom stock has pulled back significantly, but it could go on a bull run following its upcoming results.
 
-- **[Apple vs. Broadcom: Comparing Revenue Trends Amid the Artificial Intelligence Boom](https://finnhub.io/api/news?id=79634169220a98f79344de85b7fbc26f860646f0ddd42c1ff9a5957d506213b6)**  
-*Yahoo · 2h前*  
-Broadcom's quarterly revenue has climbed for seven straight periods, while Apple's has swung up and down, and the next report could change the picture.
+- **[Most Of Nvidia's Drop Came Before Huang Left](https://finnhub.io/api/news?id=0f94a8d9a135f9b30cbb28c69d2ba422b5e3345bd84c22167ac3fcfe0fae52de)**  
+*Yahoo · 1h前*  
+Nvidia's board reinstated Jensen Huang as CEO on Monday, Nov 23. He had resigned after the board opened an investigation into reports that he was the target of …
 
-- **[Jensen Huang’s Return Just Added About $500 Billion to Micron, Dell, TSMC and the AI Stocks That Depend on Nvidia](https://finnhub.io/api/news?id=d0e13968a9cd407de3bbd6e4281847394f71cf489c6693620b7cd21d19ebe70a)**  
-*Yahoo · 2h前*  
-Jensen Huang's return added about $500 billion to 10 companies tied to Nvidia on Monday. Broadcom rose 2% and AMD 7%, the reverse of the day his resignation was…
+- **[iShares Russell 1000 Growth (IWF) Buys $22.7 Million More Apple on Nov. 20](https://finnhub.io/api/news?id=6fba7b9a7071104e6c967a50fd0a1e52cf6802fe31060b788a3794a83e4aaa32)**  
+*Yahoo · 1h前*  
+The fund added $208.7 million in new positions on Friday, Nov. 20, with Apple, Microsoft and Alphabet leading the buys.
 
 ---
 
@@ -59,4 +59,4 @@ Jensen Huang's return added about $500 billion to 10 companies tied to Nvidia on
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
