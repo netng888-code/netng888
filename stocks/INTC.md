@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-24 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-24 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intel Corporation to Participate in Upcoming Investor Conferences](https://finnhub.io/api/news?id=d8fc17d1bb6b81a8da3cf9bd2987d0b7ff1a69868784bbdfbf268f9ead7c9cdf)**  
+- **[JPMorgan U.S. Tech Leaders (JTEK) Sells $27.7 Million of Broadcom on Nov. 20](https://finnhub.io/api/news?id=4dddb594391fc8a5cdabca653bf577e6e1771e1fc08a98f1e2e124702bff336b)**  
 *Yahoo · 1h前*  
-SANTA CLARA, Calif., November 23, 2026--Intel Corporation to Participate in Upcoming Investor Conferences
+The fund's $208.9 million net outflow came from cuts to 35 positions and a single $9.6 million add.
 
-- **[ASML Stock’s Sell-Off Looks Excessive Against Its Growth Outlook](https://finnhub.io/api/news?id=da40d89c99f9ba0c8106f8ac8ad515a5f800aadda784aa0d1e52cdb0b239f422)**  
-*Yahoo · 1h前*  
-ASML Holding’s (ASML) stock sell-off looks excessive against its growth outlook, in my view. The lithography equipment manufacturer reported record quarterly sa…
+- **[iShares PHLX SOX Semiconductor (SOXX) Adds AMD and AVGO on Nov. 20](https://finnhub.io/api/news?id=2c43d350dfbfb92fad9af83b6529b3369758b00df8673cdd88381d8b1329a902)**  
+*Yahoo · 2h前*  
+The fund added $1.52 billion in net new positions on Friday, lifting all 29 of its increased holdings and selling nothing.
 
-- **[Why Does AMD Trade at 30x When Nvidia Is at 10x Forward Earnings? AMD’s China Exposure Is Bigger](https://finnhub.io/api/news?id=8103cc02a5cd6d653387695cca9520b634679a495847db7f4b155d622e9f49fa)**  
-*Yahoo · 3h前*  
-Key TakeawaysNvidia stock jumped 31% today after its board reinstated Jensen Huang as CEO, lifting its forward P/E off a three-year low of 8. 7x.
+- **[56 ETFs Add to Intel (INTC) Holdings on Friday](https://finnhub.io/api/news?id=5cc09004ce639a8e034d5cfd5b009be36eb15dc21e7cd1b7de5cdc5d95a94da2)**  
+*Yahoo · 2h前*  
+ETFs bought $125.8 million of Intel stock on balance.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysNvidia stock jumped 31% today after its board reinstated Jensen Hua
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-24 21:05 HKT*
