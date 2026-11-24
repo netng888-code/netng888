@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-24 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$597.60** |
-| 今日變動 | ▲ $36.76　(+6.55%) |
+| 現價 | **$589.82** |
+| 今日變動 | ▼ $7.78　(-1.30%) |
 | 持倉數量 | 3 股 |
 | 平均成本 | $606.333 |
-| 未實現盈虧 | ▼ $26　(▼1.4%) |
+| 未實現盈虧 | ▼ $50　(▼2.7%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $605.36 | — |
-| Put Wall（支撐） | $550.00 | -8.0% |
-| Call Wall（阻力） | $700.00 | +17.1% |
+| Gamma Flip | $599.20 | — |
+| Put Wall（支撐） | $550.00 | -6.8% |
+| Call Wall（阻力） | $700.00 | +18.7% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Meta Platforms (META) Sees $240.4 Million in Net ETF Buying on Friday](https://finnhub.io/api/news?id=81ef37dcacb377f1f4d0844f0644a3e1834123d720f1b6d424ad05d78aa8ac60)**  
-*Yahoo · 2h前*  
-ETFs bought $240.4 million of Meta Platforms stock on Friday, with 59 funds adding shares against 22 selling.
+- **[Anthropic IPO Shares: Flip Now Or Hold A Year?](https://finnhub.io/api/news?id=5a23e4a80d0782ecb442026abb3d5cbbe40b4179467cf4bd26e3194efa744a1d)**  
+*Yahoo · 1h前*  
+Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.
 
-- **[Monroe Capital Supports Waveborn’s Acquisition of Jake Rosen Entertainment](https://finnhub.io/api/news?id=4645872fa9492525435535e72e45cf4b7df5658fd810a67cff4e864c6653c0d5)**  
-*Yahoo · 2h前*  
-CHICAGO, November 24, 2026--Monroe Capital LLC ("Monroe") announced it acted as sole lead arranger and administrative agent on the funding of a senior credit fa…
+- **[5 High-Conviction Stocks Billionaire Philippe Laffont Is Betting On for 2027](https://finnhub.io/api/news?id=386301cfc9900fee580f01e77c4a78a52f04c4f90919ae2ae0a96a9ecd6d4cda)**  
+*Yahoo · 1h前*  
+Coatue Management’s November 16 regulatory filing puts billionaire Philippe Laffont’s positioning back in focus as investors look toward 2027. Its ten largest d…
 
-- **[Why 1 Billionaire Investor Just Poured $3 Billion Into Amazon, Meta, and Alphabet](https://finnhub.io/api/news?id=25fb2922ee50e89e5904cde1880e4c22a733ce503eba07a5b5d3a92f34f25f3f)**  
-*Yahoo · 2h前*  
-Steve Mandel's Lone Pine was betting big on this trio of "Magnificent Seven" stocks in Q3.
+- **[Could Meta Actually Climb 30%? Or Is J.P. Morgan Totally Wrong?](https://finnhub.io/api/news?id=7df3519a4d00fefb4facd0391b28944f097b41bba2ed575d66f485928e3fc8f5)**  
+*Yahoo · 1h前*  
+Key TakeawaysJ. P. Morgan cut its Meta Platforms price target to $775 from $940 on Nov.
 
 ---
 
@@ -48,7 +48,7 @@ Steve Mandel's Lone Pine was betting big on this trio of "Magnificent Seven" sto
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-24 | 監控 | $597.60 | — | 自動更新 |
+| 2026-11-25 | 監控 | $589.82 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Steve Mandel's Lone Pine was betting big on this trio of "Magnificent Seven" sto
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-24 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
