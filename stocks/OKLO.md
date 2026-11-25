@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Big Tech Dollars Flow To The Nuclear Supply Chain](https://finnhub.io/api/news?id=0bf9cbdf40d27d92e38c23c44a385678a859d0d88eabfb69147fc7a187c1daaf)**  
-*SeekingAlpha · 7h前*  
-Activity is picking up across the nuclear fuel and supply chain, with updates from multiple companies in the VettaFi Nuclear Renaissance Index (NUKZX).
+- **[1 Reason I Haven’t Bought Oklo Stock -- and Probably Never Will](https://finnhub.io/api/news?id=4446961a226493de5fbe27f73812b52af7f4f82a2d1ce270c1c7753f8af00679)**  
+*Yahoo · 10h前*  
+Oklo still faces a cash flow dilemma.
 
-- **[This Space ETF Breaks Past Its Seven-Day Decline Amid NASA’s Partnership Call For Moon Nuclear Reactor](https://finnhub.io/api/news?id=715cb0bff3b01eed891c7fd1bbef82851065ea96c0d97f9da866614249e179b8)**  
-*Yahoo · 1d前*  
-The National Aeronautics and Space Administration (NASA) has formally invited private-sector partners to design, test, and build a 20-kilowatt nuclear fission r…
+- **[Groves 1 Approval Could Open NASA Opportunity For Oklo Stock](https://finnhub.io/api/news?id=dc1da84a0d1bf5eb5bdb7ef4986659711ab3f25c79bc673dd23f132d2f2f8031)**  
+*Yahoo · 18h前*  
+Oklo reported that the U.S. Department of Energy cleared the final operations hold point for its Groves-1 test reactor, allowing full research, testing, and tra…
 
-- **[Nvidia, Dell, Micron, Anthropic, CrowdStrike, UnitedHealth, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=09cf19af0fe9a0487238ba27a10caf366fe163161448fa75ad70d74e6b741720)**  
-*Yahoo · 1d前*  
-Nvidia surges after saying it will reinstate Jensen Huang as CEO.
+- **[Oklo Slides 7% as Monday’s Nuclear Rebound Fades; NuScale Power and Energy Fuels Drop 6%](https://finnhub.io/api/news?id=f941887632d5200bb708cde5dcad120c4459f31ddeabe9f36dc850dee3993b8f)**  
+*Yahoo · 20h前*  
+One day after a uranium announcement lit up the sector, nuclear stocks are surrendering their gains as tech sells off. Can the AI power trade hold a rally for m…
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia surges after saying it will reinstate Jensen Huang as CEO.
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:05 HKT*
