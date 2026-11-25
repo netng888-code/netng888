@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-25 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Mizuho Sees 14% Downside in Rocket Lab Even After Its 69% Fall From May’s High](https://finnhub.io/api/news?id=fb570c679808836962440cf5ce0fe08e92951e6d0ec122d6a472f74fcff90fe4)**  
-*Yahoo · 1h前*  
-Key TakeawaysMizuho initiated coverage of Rocket Lab with an Underperform rating and a $40 price target, 14% below the last close. Mizuho’s call looks right for…
+- **[ARK Autonomous Technology & Robotics ETF (ARKQ) Sells Tesla and SpaceX on Monday](https://finnhub.io/api/news?id=cf92665b73c4b18543d481c9375fda1b25734da36a56608171b9119836a71754)**  
+*Yahoo · 2h前*  
+The fund sold $2.13 billion of stock on Monday, cutting 32 positions and adding none.
 
-- **[Rocket Lab (RKLB) Has 117 Launches Booked. Barclays Has a View](https://finnhub.io/api/news?id=abd46a2c10c27560ecf34326bae3484ac2ed32f4d14fba036988ec62843a43f2)**  
-*Yahoo · 3h前*  
-We just published a list of the 10 Best Affordable Growth Stocks to Buy for 2027 and Rocket Lab (NASDAQ:RKLB) ranked 7th on this list. The Dow Jones Industrial …
+- **[ETFs Sold $96.9 Million of Rocket Lab (RKLB) on Monday](https://finnhub.io/api/news?id=183012cfad1d5400e9559436576766da7a6d2e87685a70c3a95edd944a4f55dd)**  
+*Yahoo · 2h前*  
+Sixteen ETFs sold Rocket Lab shares against sixteen buyers, for a net outflow of $96.9 million.
 
-- **[Why Rocket Lab Demand News Could Make ETFs Worth A Look](https://finnhub.io/api/news?id=13e5df50b036c5bbd0268fca5216829fe1f17b727bccbb8ab223ed14d2cfaae6)**  
-*Yahoo · 7h前*  
-You can own Rocket Lab directly or through a fund that also holds other businesses. Holding just Rocket Lab leaves you carrying company specific issues on your …
+- **[World's Best Space Company SpaceX Will Soon Be 40% Better](https://finnhub.io/api/news?id=fe62d79e019a670fd85acc827532c8993988cd4544d17fa67affb2f973685f78)**  
+*Yahoo · 9h前*  
+Fresh off Starship Flight 15, Elon Musk promises a Starship 40% bigger -- and with 3x as many engines.
 
 ---
 
@@ -59,4 +59,4 @@ You can own Rocket Lab directly or through a fund that also holds other business
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:05 HKT*
