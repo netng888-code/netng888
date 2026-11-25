@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Morgan Stanley’s 4 Best Semiconductor and Server Stocks to Buy for 2027](https://finnhub.io/api/news?id=a66f85ee57836f6dec6e6bc9f29a3be0ee862162bce3aeaa8666a6336e8505ce)**  
-*Yahoo · 2h前*  
-The semiconductor industry’s investment cycle has advanced: The Semiconductor Industry Association’s November 3 release put global third-quarter sales at $517.7…
+- **[Tradr to Launch Six New Leveraged ETFs](https://finnhub.io/api/news?id=1c15d9504848d001cb83aedff936426abaddd8d19be9ee9fcf701929febf3da9)**  
+*Yahoo · 1h前*  
+Tradr ETFs, a provider of ETFs designed for sophisticated investors and professional traders, expects to launch six new leveraged ETFs on December 2, 2026, all …
 
-- **[CrowdStrike’s all-stock bid for Zscaler: deal structure shifts risk to target holders](https://finnhub.io/api/news?id=d17d92fd60b24f9b01456c2ca98da05d4e601bd4c529ddf34f155b3713893b63)**  
-*Yahoo · 2h前*  
-Investing.com -- CrowdStrike’s all-stock bid for Zscaler puts the price risk squarely on Zscaler shareholders, and the market is already pricing that in.
+- **[Own Credo Stock? Watch Its Inventory On Dec 1](https://finnhub.io/api/news?id=92a34e52c162f49a26f04ef018b0ec23940d7327cf032225a259db4a9dec496a)**  
+*Yahoo · 1h前*  
+Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
 
-- **[Megadeals Are Back. Why More Takeovers Could Be Coming.](https://finnhub.io/api/news?id=80add5c863d1fd588de9ba826eb0fab44f7bfad65713a1708f4c83a76d193c8a)**  
-*Yahoo · 3h前*  
-Two deals worth more than $40 billion apiece put big-ticket M&A back in focus as buyers weigh higher borrowing costs and greater scrutiny from Congress.
+- **[Oppenheimer Cut Its Marvell Target by $100. It Still Sees 147% Upside](https://finnhub.io/api/news?id=a04d9d1a32851e8f0e4098fa22d9dca208d9face22ea722fdc86c5a4e9004abb)**  
+*Yahoo · 2h前*  
+Key TakeawaysOppenheimer cut its Marvell Technology price target to $325 from $425 on Nov. 24 and kept its Outperform rating, and the new target is still 147% a…
 
 ---
 
@@ -59,4 +59,4 @@ Two deals worth more than $40 billion apiece put big-ticket M&A back in focus as
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
