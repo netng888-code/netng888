@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Why KLA (KLAC) Stock Is Falling Today: Chip Sector Selloff](https://finnhub.io/api/news?id=095f7586757e6785537e3f1cd5fa02157fa60a5460f3f0ec1abd3ca218a61755)**  
-*Yahoo · 2h前*  
+*Yahoo · 16h前*  
 KLA shares fell 10.5% on Tuesday, Nov. 24, as a selloff in chip stocks hit semiconductor equipment makers, with no company-specific news.
 
 - **[Why Ichor Holdings (ICHR) Stock Is Plunging Today: Semiconductor Equipment Selloff](https://finnhub.io/api/news?id=a4a088e2d6fb8d86020f1870aed1e9ea79210203be9e3427c725e1ef4665a2a2)**  
-*Yahoo · 2h前*  
+*Yahoo · 16h前*  
 On Tuesday, Nov. 24, the stock fell 16.4% as semiconductor equipment stocks sold off, according to GuruFocus
 
 - **[What Did Lam Research Say Before Shares Took Off?](https://finnhub.io/api/news?id=f8801e8db9b00a578d457b277a0bb187143243b90f6e4cffa6d0f06a3bc50fee)**  
-*Yahoo · 4h前*  
+*Yahoo · 18h前*  
 Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.
 
 ---
@@ -59,4 +59,4 @@ Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big T
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
