@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$5.90** |
-| 今日變動 | ▼ $0.52　(-8.10%) |
+| 現價 | **$5.89** |
+| 今日變動 | ▼ $0.01　(-0.17%) |
 | 持倉數量 | 40 股 |
 | 平均成本 | $15.650 |
-| 未實現盈虧 | ▼ $390　(▼62.3%) |
+| 未實現盈虧 | ▼ $390　(▼62.4%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $7.81 | — |
-| Put Wall（支撐） | $5.50 | -6.8% |
-| Call Wall（阻力） | $10.00 | +69.5% |
+| Gamma Flip | $7.76 | — |
+| Put Wall（支撐） | $5.00 | -15.1% |
+| Call Wall（阻力） | $10.00 | +69.8% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Can Redwire's ELSA Contract Expand Its Satellite Power Business?](https://finnhub.io/api/news?id=dc6a815cf63dcf3c940a716ac7ee6fe7714903cf59191c5a300c6892cb38191e)**  
-*Yahoo · 23h前*  
+*Yahoo · 1d前*  
 RDW's ELSA contract with AscendArc is likely to expand its satellite power business as its modular solar array technology supports scalable manufacturing.
 
 - **[Mizuho Initiates Coverage On Redwire with Underperform Rating, Announces Price Target of $5](https://finnhub.io/api/news?id=65237056d3547f85b06f93a684705be06dac4e61983b1b19a7854e2740e113da)**  
@@ -48,7 +48,7 @@ Not all NASA contractors are equally positioned to succeed.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-25 | 監控 | $5.90 | — | 自動更新 |
+| 2026-11-26 | 監控 | $5.89 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Not all NASA contractors are equally positioned to succeed.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 07:05 HKT*
