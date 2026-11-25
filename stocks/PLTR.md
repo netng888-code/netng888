@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-25 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$161.18** |
-| 今日變動 | ▲ $1.82　(+1.14%) |
+| 現價 | **$163.59** |
+| 今日變動 | ▲ $2.41　(+1.50%) |
 | 持倉數量 | 6 股 |
 | 平均成本 | $127.304 |
-| 未實現盈虧 | ▲ $203　(▲26.6%) |
+| 未實現盈虧 | ▲ $218　(▲28.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $152.86 | — |
-| Put Wall（支撐） | $160.00 | -0.7% |
-| Call Wall（阻力） | $165.00 | +2.4% |
+| Gamma Flip | $152.99 | — |
+| Put Wall（支撐） | $160.00 | -2.2% |
+| Call Wall（阻力） | $165.00 | +0.9% |
 
-**狀態：✅ 正Gamma區 🟡 接近Call牆**
+**狀態：✅ 正Gamma區 🔴 逼近Call牆**
 
 ---
 
 ## 📰 最新新聞
 
-- **[iShares Expanded Tech-Software (IGV) Buys $15 Million More Palo Alto on Nov. 23](https://finnhub.io/api/news?id=eb0d514c640460949110e7a186a79412f9ae36d2f86c1fafba9d4461b552a0f1)**  
-*Yahoo · 1h前*  
-The fund added $156.5 million of stock across 103 positions, with no decreases, led by a $15.0 million purchase of Palo Alto Networks.
-
-- **[ETFs Are Net Sellers of Palantir (PLTR) on Monday](https://finnhub.io/api/news?id=3a80cce9f649cac74f0d8d63c326f418120c2ac86330d61ec522d33c3347ae1b)**  
+- **[Goldman Sachs bets on Palantir's 'mega customers' after NYC demo](https://finnhub.io/api/news?id=ebbe5ee0678026fd0f9dd4a7e0ae4d9a6fc4a9bb9427238aee1219be66a29ea5)**  
 *Yahoo · 2h前*  
-ETFs sold a net $88.2 million of Palantir on Monday, Nov. 23.
+Palantir walked Goldman through how small pilot deals grow into bigger contracts. The pace caught analysts’ attention.
 
-- **[Palantir: The AI Profit Pool Is Shifting](https://finnhub.io/api/news?id=bbd9536a4ed8e1c1e45a5e96267971ad4a5b2acd6b27252d62ff276cb667d1ab)**  
-*SeekingAlpha · 5h前*  
-Palantir (PLTR) stock is a buy, as a beneficiary of AI commoditization; $2.85 in 2027 EPS supports a $242 target and 52% potential upside.
+- **[Michael Burry Bets on Stock Market Recovery After Thanksgiving](https://finnhub.io/api/news?id=1946a4ce316c83bf8555e378aa4558b38abfc39cd1adadacdd1506a6888f0a44)**  
+*Yahoo · 2h前*  
+Michael Burry says he is almost entirely long as new tariffs and AI fears drag the Nasdaq 100 toward a bear market.
+
+- **[Peter Thiel Buys $122M of PLTR After Years Of Selling — And He Could Buy Millions More Shares](https://finnhub.io/api/news?id=b17f7ab9cbc25eb5608d79f2a58bcc178cefbaab9b9741948d80e394b81a2d9a)**  
+*Yahoo · 4h前*  
+Billionaire investor Peter Thiel has sold nearly $2.6 billion worth of Palantir Technologies Inc. (NASDAQ:PLTR) stock since the company went public in 2020, but…
 
 ---
 
@@ -48,7 +48,7 @@ Palantir (PLTR) stock is a buy, as a beneficiary of AI commoditization; $2.85 in
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-25 | 監控 | $161.18 | — | 自動更新 |
+| 2026-11-26 | 監控 | $163.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Palantir (PLTR) stock is a buy, as a beneficiary of AI commoditization; $2.85 in
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 07:05 HKT*
