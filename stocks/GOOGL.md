@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Microsoft (MSFT) Is One of the Safest Ways to Own AI](https://finnhub.io/api/news?id=9aa1af5cde1f80df15defb23a49c78fd10431b8481290fa3e4da10008fa9a1d0)**  
+- **[Market Chatter: Australia's New Digital Duty of Care Law Targets Harmful Online Content](https://finnhub.io/api/news?id=8d039f854dbf3fcba4ecf30e79a41a1ae6a6bf4a980583b65fed18afc61b1fff)**  
 *Yahoo · 1h前*  
-Microsoft (MSFT) seems to be one of the safest ways to invest in artificial intelligence (AI). The cloud and software giant posted $45.9 billion in operating in…
+Australia has passed legislation requiring internet platforms to proactively address harmful content
 
-- **[Intuit vs. Palo Alto Networks: Which Technology Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=03777831029ca31c6ed286695ceaf38dd7b2a863cdc80524c1f7da432bcf15bb)**  
-*Yahoo · 3h前*  
-Intuit's valuation sits well below Palo Alto's, yet their growth and margin profiles tell very different stories.
+- **[Indian startup Intrinsic Foundries crowned winner of L'Oréal's 2026 Big Bang Beauty Tech Innovation Program; Hector earns Special Mention](https://finnhub.io/api/news?id=0c9b64f4cf42a86b1ffe3af43b288165be1aa49b062c944d92be066b684af3ab)**  
+*Yahoo · 1h前*  
+Intrinsic Foundries, an Indian biomanufacturing startup that turns industrial carbon waste into beauty actives, has been named one of the three winners of L'Oré…
 
-- **[Billionaire David Abrams’ Top 5 Stock Picks for 2027](https://finnhub.io/api/news?id=12f4afc27513113fd49cd70fe231cf728b05e25bb853d119eb24653895899492)**  
-*Yahoo · 3h前*  
-Billionaire David Abrams has established a reputation on Wall Street as a value-oriented investor who seeks out undervalued businesses with strong fundamentals …
+- **[State Street SPDR Portfolio S&P 500 (SPYM) Buys $14.2 Million More Apple on Monday](https://finnhub.io/api/news?id=20551411ce44a70d7002ebd37a8695e55b934ac07ccd53cce656c823d66c17ba)**  
+*Yahoo · 1h前*  
+The fund added $174.1 million across 502 positions, led by Apple, Nvidia and Microsoft, with no sales.
 
 ---
 
@@ -59,4 +59,4 @@ Billionaire David Abrams has established a reputation on Wall Street as a value-
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
