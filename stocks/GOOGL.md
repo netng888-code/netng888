@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$279.05** |
-| 今日變動 | ▼ $3.05　(-1.08%) |
+| 現價 | **$273.10** |
+| 今日變動 | ▼ $5.95　(-2.13%) |
 | 持倉數量 | 20 股 |
 | 平均成本 | $245.040 |
-| 未實現盈虧 | ▲ $680　(▲13.9%) |
+| 未實現盈虧 | ▲ $561　(▲11.5%) |
 
 ---
 
@@ -20,27 +20,27 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $284.27 | — |
-| Put Wall（支撐） | $270.00 | -3.2% |
-| Call Wall（阻力） | $300.00 | +7.5% |
+| Gamma Flip | $282.85 | — |
+| Put Wall（支撐） | $270.00 | -1.1% |
+| Call Wall（阻力） | $300.00 | +9.8% |
 
-**狀態：⚠️ 負Gamma區 🔵 中間地帶**
+**狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
 ---
 
 ## 📰 最新新聞
 
-- **[Market Chatter: Australia's New Digital Duty of Care Law Targets Harmful Online Content](https://finnhub.io/api/news?id=8d039f854dbf3fcba4ecf30e79a41a1ae6a6bf4a980583b65fed18afc61b1fff)**  
+- **[These 5 Tech Stocks are Sidestepping the AI Downturn](https://finnhub.io/api/news?id=e4d4b2acba68d2651242e6a6e5e58cbccf7f40dfa9c8aa8afc8e00afdc777ea6)**  
 *Yahoo · 1h前*  
-Australia has passed legislation requiring internet platforms to proactively address harmful content
+Apple, Gen Digital, and Take-Two, are just some of the tech stocks bucking the AI selloff.
 
-- **[Indian startup Intrinsic Foundries crowned winner of L'Oréal's 2026 Big Bang Beauty Tech Innovation Program; Hector earns Special Mention](https://finnhub.io/api/news?id=0c9b64f4cf42a86b1ffe3af43b288165be1aa49b062c944d92be066b684af3ab)**  
-*Yahoo · 1h前*  
-Intrinsic Foundries, an Indian biomanufacturing startup that turns industrial carbon waste into beauty actives, has been named one of the three winners of L'Oré…
+- **[Anthropic’s Chip Choices Could Change the Nvidia Story. Here’s How.](https://finnhub.io/api/news?id=8c8a08d0f2cbd872b6c211544867e4baa07b47dcef0577605a7e71d78c45f600)**  
+*Yahoo · 2h前*  
+Anthropic is spreading out its demand for AI accelerators across multiple companies.
 
-- **[State Street SPDR Portfolio S&P 500 (SPYM) Buys $14.2 Million More Apple on Monday](https://finnhub.io/api/news?id=20551411ce44a70d7002ebd37a8695e55b934ac07ccd53cce656c823d66c17ba)**  
-*Yahoo · 1h前*  
-The fund added $174.1 million across 502 positions, led by Apple, Nvidia and Microsoft, with no sales.
+- **[Megadeals Defy Selloff, Head Toward Record](https://finnhub.io/api/news?id=da9a797fee7954547a521aa2ec2dbf3cabc3e245fb9896443c335eb902596f02)**  
+*Yahoo · 2h前*  
+Wall Street is taking a big step toward a record year for mergers and acquisitions as some of the world's largest companies defy a tech-induced selloff in globa…
 
 ---
 
@@ -48,7 +48,7 @@ The fund added $174.1 million across 502 positions, led by Apple, Nvidia and Mic
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-25 | 監控 | $279.05 | — | 自動更新 |
+| 2026-11-26 | 監控 | $273.10 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund added $174.1 million across 502 positions, led by Apple, Nvidia and Mic
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 07:04 HKT*
