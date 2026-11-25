@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-25 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Even After Big Gains, Insiders Are Loading Up on These 5 Stocks](https://finnhub.io/api/news?id=eaed2b35c9adabbd6d200e31a1b224226cb68db46ed12dc3156188437667a4c6)**  
+- **[Franklin Systematic Style Premia (FLSP) Sells $8.1 Million of Costco on Monday](https://finnhub.io/api/news?id=a8674a9ac7f8cb7ba630f2a165fd9c504ddb6fbdf62b6f199c308812bd35f375)**  
+*Yahoo · 1h前*  
+The fund sold $442.2 million of stock and bought nothing on Monday, Nov. 23, cutting 161 positions with no increases.
+
+- **[iShares PHLX SOX Semiconductor (SOXX) Buys $46.9 Million More AMD on Nov. 23](https://finnhub.io/api/news?id=0874b0597505ddedf46355e0ff39fa88a5855b5a9a5cfa580360611842eafcf4)**  
+*Yahoo · 1h前*  
+The fund added $504.6 million across all 30 of its positions, with no sales, in a day of broad buying.
+
+- **[ETFs Bought $73.8 Million of Intel (INTC) on Nov. 23](https://finnhub.io/api/news?id=8d02aa619b7b4f138e0eb96f02881294b3a67514e8c96a98762b5fa3bd1d7c28)**  
 *Yahoo · 2h前*  
-Purchasing a stock following a sharp decline is easy to justify. However, buying it after a bullish run makes it harder. For that reason, insider purchases that…
-
-- **[Trump Warns of “Paying 200 Percent on Chips” in Two Years. That Pushes TSMC Toward a $22.6 Billion Texas Plant](https://finnhub.io/api/news?id=71854de2d805bbf0febeb62e0e9e1b935c7249c3fd4840afc9852c05d6d170df)**  
-*Yahoo · 3h前*  
-Key TakeawaysPresident Trump said foreign chips will face 200% tariffs in two years, and a filing shows TSMC weighing a $22. 6 billion Texas plant.
-
-- **[Applied Materials vs. Intel: Which Technology Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=0bfe8206232df7e673ddff8c19707e6a1bbb8633aeca76ed1d889864f0fcb2fb)**  
-*Yahoo · 3h前*  
-Intel looks cheaper on sales, yet its forward earnings multiple is more than double Applied Materials', and a sizable net loss complicates the picture.
+Intel drew net ETF buying of $73.8 million as 45 funds added shares and 28 trimmed.
 
 ---
 
@@ -59,4 +59,4 @@ Intel looks cheaper on sales, yet its forward earnings multiple is more than dou
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:05 HKT*
