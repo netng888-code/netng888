@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Cargo Thieves Are Chasing AI Hardware Down the Dirt Road to the Data Center](https://finnhub.io/api/news?id=41ae76fc82ede6b2024865fd454bfc50207c746addfbfa005de5e8d07a4e4557)**  
-*Yahoo · 1d前*  
-As AI infrastructure spending surges, cargo thieves are targeting Blackwell chips and scarce data center components. Overhaul’s David Warrick shares how the the…
+- **[European Equities Traded in the US as American Depositary Receipts Slip in Tuesday Trading](https://finnhub.io/api/news?id=53e497c35c71744e93da034f64bd6adf6a4d7042bc9ce4802c6cf8a06c44273f)**  
+*Yahoo · 20h前*  
+European equities traded in the US as American depositary receipts were tracking slightly lower late
 
-- **[European Equities Traded in the US as American Depositary Receipts Surge in Monday Trading](https://finnhub.io/api/news?id=7fd6fe99e5bd3fa3eaec4f48c881b32286dd35900234b5a51d1732c4314bd005)**  
-*Yahoo · 1d前*  
-European equities traded in the US as American depositary receipts were surging higher late Monday m
+- **[Nokia's Impact in the Age of AI](https://finnhub.io/api/news?id=df7268b9fac828c6c306b1c3af63abd8ef179bba43fc0c1d923c84b29561c6a6)**  
+*Yahoo · 21h前*  
+by Subho MukherjeeNORTHAMPTON, MA / ACCESS Newswire / November 24, 2026 / Sustainability is an engine for innovation, collaboration, and long-term impact. As AI…
 
-- **[Whitefiber shares are trading higher after BTIG initiated coverage on the stock with a Buy rating and a $20 price target.](https://finnhub.io/api/news?id=977ca2ad4404829965de371071b87aacaa4d711e144ab39977f544f38f286949)**  
-*Benzinga · 1d前*
+- **[3 AI Infrastructure Stocks Retail Investors Are Watching After Nvidia’s Return](https://finnhub.io/api/news?id=00ce805363f17e0e295c39c6838801c28cd059fab58da263bc3a9c7697385676)**  
+*Yahoo · 1d前*  
+Nvidia’s 32% surge and near US$1 trillion jump in market value after Jensen Huang’s swift return as CEO has yanked AI data-center stocks back into the spotlight…
 
 ---
 
@@ -58,4 +59,4 @@ European equities traded in the US as American depositary receipts were surging 
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
