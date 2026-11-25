@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$301.08** |
-| 今日變動 | ▼ $12.47　(-3.98%) |
+| 現價 | **$300.86** |
+| 今日變動 | ▼ $0.22　(-0.07%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $378.602 |
-| 未實現盈虧 | ▼ $775　(▼20.5%) |
+| 未實現盈虧 | ▼ $777　(▼20.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $335.99 | — |
-| Put Wall（支撐） | $300.00 | -0.4% |
-| Call Wall（阻力） | $350.00 | +16.2% |
+| Gamma Flip | $328.84 | — |
+| Put Wall（支撐） | $300.00 | -0.3% |
+| Call Wall（阻力） | $400.00 | +33.0% |
 
 **狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AI Chips Update - NVIDIA Reinstates Huang Amid Compliance and Leadership Focus](https://finnhub.io/api/news?id=715df2fd9dfcd04b3b0b578e5c2746331bd9596534ec6d0901f02faf7c90bac8)**  
+- **[Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December](https://finnhub.io/api/news?id=9e9fdcec0d8d8ce7757ec8d3b8a19d598cdd5093796319915bbc49881e3daf7f)**  
 *Yahoo · 1h前*  
-NVIDIA has reinstated Jensen Huang as President, CEO, and Board Director following unanimous board approval. The decision came after consultations and considera…
+Marvell's earnings growth is poised to accelerate sharply, making the stock a no-brainer buy ahead of its quarterly report.
 
-- **[Broadcom Bought $1 Billion Worth of Anthropic’s IPO, and It Has Tens of Billions More Riding on Its Success.](https://finnhub.io/api/news?id=3f551b24ccd3b89b1384abd08dc9232c219cc9822c91e2d765f25591009dcbfe)**  
+- **[Why Is Credo Stock Going Up?](https://finnhub.io/api/news?id=f94f2d4f17fcbdccb5a89a0f1e686d896b408355077966a7dd2751643766fb78)**  
 *Yahoo · 1h前*  
-Broadcom's deals with Anthropic are much more valuable than its equity stake.
+Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
 
-- **[State Street Technology SPDR (XLK) Adds Apple and Nvidia on Monday](https://finnhub.io/api/news?id=8ef4c4560edb50120191dbf6e7443ccf1e3445aecb08bd0d6ef2c6079d183584)**  
+- **[AI spending leads the biggest market risks heading into 2027](https://finnhub.io/api/news?id=360c6719249495ca7847b67198f49304d70b61c49845dc746254dced8ba8161f)**  
 *Yahoo · 1h前*  
-The $109.53 billion fund bought $227.3 million of stock on Monday, lifting all 76 positions and selling nothing.
+Investing.com -- Of the four major narratives driving market fear currently, AI spending looks the most concerning. Rate hikes are a close second because they a…
 
 ---
 
@@ -48,7 +48,7 @@ The $109.53 billion fund bought $227.3 million of stock on Monday, lifting all 7
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-25 | 監控 | $301.08 | — | 自動更新 |
+| 2026-11-26 | 監控 | $300.86 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The $109.53 billion fund bought $227.3 million of stock on Monday, lifting all 7
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 07:04 HKT*
