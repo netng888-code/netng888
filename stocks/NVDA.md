@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Embecta Corp. Q4 2026 Earnings Call Summary](https://finnhub.io/api/news?id=10f32a6e432c537f252eb8402620c479cdd06a28da2bd13f355cb10b3029ea40)**  
+- **[Dow Jones Futures Fall, Techs Tumble; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake](https://finnhub.io/api/news?id=7a77e79b293e523a9935367d1c2b147c58c1598fa4944f95c911e1412c024540)**  
 *Yahoo · 1h前*  
-Moby summary of Embecta Corp.'s Q4 2026 earnings call
+Futures fell after AI stocks tumbled but medicals, retailers and more rose. President Trump mused about an Nvidia stake. Fed inflation data looms.
 
-- **[Is Jensen Huang the AI 'spirit animal' who will save the stock market?](https://finnhub.io/api/news?id=bbcfea52a760a2d105a779ef5f579c20d72cb8bb2ed41383b74e89a84d7ba8ad)**  
+- **[AI Chips Update - NVIDIA Reinstates Huang Amid Compliance and Leadership Focus](https://finnhub.io/api/news?id=715df2fd9dfcd04b3b0b578e5c2746331bd9596534ec6d0901f02faf7c90bac8)**  
 *Yahoo · 1h前*  
-Nvidia optimists say Jensen Huang's return will lift the stock market from its doldrums. Pessimists say his ouster was the right move all along.
+NVIDIA has reinstated Jensen Huang as President, CEO, and Board Director following unanimous board approval. The decision came after consultations and considera…
 
-- **[Best Buy Co., Inc. Q3 2027 Earnings Call Summary](https://finnhub.io/api/news?id=aed4c0a9c7e6a9d69ba32d8e174af7e51b9f8fd618cf1c7eaa0c9e00ada91323)**  
+- **[Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.](https://finnhub.io/api/news?id=cf8fb51cb6dab0b63d13acbb10365543fe09504596082b5a1c9ac068c1cc6d8f)**  
 *Yahoo · 1h前*  
-Moby summary of Best Buy Co., Inc.'s Q3 2027 earnings call
+Nvidia isn't just achieving higher revenue per gigawatt through increased GPU selling prices.
 
 ---
 
@@ -59,4 +59,4 @@ Moby summary of Best Buy Co., Inc.'s Q3 2027 earnings call
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
