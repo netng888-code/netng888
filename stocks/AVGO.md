@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today, Nov. 24: Nvidia Gives Back $240 Billion in Market Value Despite Wall Street Upgrade Signaling 29% Upside](https://finnhub.io/api/news?id=87c01a0d326b808a66c91722566102ccc69b08dc02c0786b32959296397be6b1)**  
+- **[AI Chips Update - NVIDIA Reinstates Huang Amid Compliance and Leadership Focus](https://finnhub.io/api/news?id=715df2fd9dfcd04b3b0b578e5c2746331bd9596534ec6d0901f02faf7c90bac8)**  
 *Yahoo · 1h前*  
-After staging its biggest rally in more than two decades, Nvidia is surrendering some of those gains as renewed selling pressure casts doubt on the sustainabili…
+NVIDIA has reinstated Jensen Huang as President, CEO, and Board Director following unanimous board approval. The decision came after consultations and considera…
 
-- **[Billionaire Philippe Laffont’s 10 High-Conviction Stock Bets for 2027](https://finnhub.io/api/news?id=08d3ab0dac0b0d3b71962d813d0edcc2b3314d3bf48356ca62881cb405f66f23)**  
+- **[Broadcom Bought $1 Billion Worth of Anthropic’s IPO, and It Has Tens of Billions More Riding on Its Success.](https://finnhub.io/api/news?id=3f551b24ccd3b89b1384abd08dc9232c219cc9822c91e2d765f25591009dcbfe)**  
 *Yahoo · 1h前*  
-Coatue Management’s November 16 regulatory filing puts billionaire Philippe Laffont’s positioning back in focus as investors look toward 2027. Its ten largest d…
+Broadcom's deals with Anthropic are much more valuable than its equity stake.
 
-- **[What Is The True Hidden Price Of Texas Instruments Stock?](https://finnhub.io/api/news?id=51e302721fe38adf1f8b8f3027d018612e5b04871b6a7e5ea348f5dcf241f10c)**  
+- **[State Street Technology SPDR (XLK) Adds Apple and Nvidia on Monday](https://finnhub.io/api/news?id=8ef4c4560edb50120191dbf6e7443ccf1e3445aecb08bd0d6ef2c6079d183584)**  
 *Yahoo · 1h前*  
-Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.
+The $109.53 billion fund bought $227.3 million of stock on Monday, lifting all 76 positions and selling nothing.
 
 ---
 
@@ -59,4 +59,4 @@ Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big T
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
