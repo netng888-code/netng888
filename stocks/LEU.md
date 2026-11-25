@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,16 +31,16 @@
 ## 📰 最新新聞
 
 - **[Big Tech Dollars Flow To The Nuclear Supply Chain](https://finnhub.io/api/news?id=0bf9cbdf40d27d92e38c23c44a385678a859d0d88eabfb69147fc7a187c1daaf)**  
-*SeekingAlpha · 7h前*  
+*SeekingAlpha · 21h前*  
 Activity is picking up across the nuclear fuel and supply chain, with updates from multiple companies in the VettaFi Nuclear Renaissance Index (NUKZX).
+
+- **[Centrus Energy to Host Investor Day on December 7, 2026](https://finnhub.io/api/news?id=afbccb7b539f02ba3df4c6563bb582b8db9e60d91caac87486d728fe1328de09)**  
+*Yahoo · 1d前*  
+Centrus Energy (NYSE: LEU) today announced that it will host an Investor Day on Monday, December 7, 2026, at its American Centrifuge Plant in Piketon, Ohio.
 
 - **[What Sent Cameco Stock Lower Again?](https://finnhub.io/api/news?id=bcc19ff5a9a865c15e5efc75f54ab7ffb3b96f5c7d7b82164722605f7441435e)**  
 *Yahoo · 1d前*  
 Today’s big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
-
-- **[Can UUUU's Uranium Ramp-Up Strengthen Its Long-Term Growth Story?](https://finnhub.io/api/news?id=7a5a11f5e099443c903f7fc38b4194271ba51c876f0a83ce741977ab71dfc57d)**  
-*Yahoo · 1d前*  
-Energy Fuels targets 1 million pounds of uranium output from its White Mesa Mill campaign as rising utility deliveries and new projects support its growth outlo…
 
 ---
 
@@ -59,4 +59,4 @@ Energy Fuels targets 1 million pounds of uranium output from its White Mesa Mill
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
