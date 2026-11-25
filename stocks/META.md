@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-25 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Anthropic IPO Shares: Flip Now Or Hold A Year?](https://finnhub.io/api/news?id=5a23e4a80d0782ecb442026abb3d5cbbe40b4179467cf4bd26e3194efa744a1d)**  
+- **[Could Meta Be A Value Stock For Your Portfolio?](https://finnhub.io/api/news?id=f73bfeabb7045921480ca119ad4beaa96cbebbca8afddb94a74df330d5172d6e)**  
 *Yahoo · 1h前*  
-Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.
+Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
 
-- **[5 High-Conviction Stocks Billionaire Philippe Laffont Is Betting On for 2027](https://finnhub.io/api/news?id=386301cfc9900fee580f01e77c4a78a52f04c4f90919ae2ae0a96a9ecd6d4cda)**  
+- **[Market Chatter: Australia's New Digital Duty of Care Law Targets Harmful Online Content](https://finnhub.io/api/news?id=8d039f854dbf3fcba4ecf30e79a41a1ae6a6bf4a980583b65fed18afc61b1fff)**  
 *Yahoo · 1h前*  
-Coatue Management’s November 16 regulatory filing puts billionaire Philippe Laffont’s positioning back in focus as investors look toward 2027. Its ten largest d…
+Australia has passed legislation requiring internet platforms to proactively address harmful content
 
-- **[Could Meta Actually Climb 30%? Or Is J.P. Morgan Totally Wrong?](https://finnhub.io/api/news?id=7df3519a4d00fefb4facd0391b28944f097b41bba2ed575d66f485928e3fc8f5)**  
+- **[Indian startup Intrinsic Foundries crowned winner of L'Oréal's 2026 Big Bang Beauty Tech Innovation Program; Hector earns Special Mention](https://finnhub.io/api/news?id=0c9b64f4cf42a86b1ffe3af43b288165be1aa49b062c944d92be066b684af3ab)**  
 *Yahoo · 1h前*  
-Key TakeawaysJ. P. Morgan cut its Meta Platforms price target to $775 from $940 on Nov.
+Intrinsic Foundries, an Indian biomanufacturing startup that turns industrial carbon waste into beauty actives, has been named one of the three winners of L'Oré…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysJ. P. Morgan cut its Meta Platforms price target to $775 from $940 
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
