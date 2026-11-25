@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$213.22** |
-| 今日變動 | ▼ $20.29　(-8.69%) |
+| 現價 | **$212.15** |
+| 今日變動 | ▼ $1.07　(-0.50%) |
 | 持倉數量 | 5 股 |
 | 平均成本 | $92.000 |
-| 未實現盈虧 | ▲ $606　(▲131.8%) |
+| 未實現盈虧 | ▲ $601　(▲130.6%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $269.18 | — |
-| Put Wall（支撐） | $195.00 | -8.5% |
-| Call Wall（阻力） | $260.00 | +21.9% |
+| Gamma Flip | $262.77 | — |
+| Put Wall（支撐） | $195.00 | -8.1% |
+| Call Wall（阻力） | $260.00 | +22.6% |
 
 **狀態：⚠️ 負Gamma區 🔵 中間地帶**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why KLA (KLAC) Stock Is Falling Today: Chip Sector Selloff](https://finnhub.io/api/news?id=095f7586757e6785537e3f1cd5fa02157fa60a5460f3f0ec1abd3ca218a61755)**  
-*Yahoo · 16h前*  
-KLA shares fell 10.5% on Tuesday, Nov. 24, as a selloff in chip stocks hit semiconductor equipment makers, with no company-specific news.
+- **[Why Applied Materials (AMAT) Stock Is Falling Today: AI-Led Chip Selloff](https://finnhub.io/api/news?id=c7b869d38d3bc404701242dbe50053417e6afa7303c0ec746114b16213a770af)**  
+*Yahoo · 6h前*  
+Applied Materials shares fell 10.1% on Wednesday, Nov. 25, as an AI-led selloff hit chip stocks and pushed the Nasdaq 100 into a bear market.
 
-- **[Why Ichor Holdings (ICHR) Stock Is Plunging Today: Semiconductor Equipment Selloff](https://finnhub.io/api/news?id=a4a088e2d6fb8d86020f1870aed1e9ea79210203be9e3427c725e1ef4665a2a2)**  
-*Yahoo · 16h前*  
-On Tuesday, Nov. 24, the stock fell 16.4% as semiconductor equipment stocks sold off, according to GuruFocus
+- **[Lam Research (LRCX) Stock Is Down 10.6% Today: AI-Led Chip Selloff](https://finnhub.io/api/news?id=50011b037cc4b646da193475792e6377682810792a44cc991aab6676db9997cd)**  
+*Yahoo · 7h前*  
+Lam Research shares fell 10.6% on Wednesday, Nov. 25, as an AI-led selloff in tech and chip stocks deepened, with no company-specific news.
 
-- **[What Did Lam Research Say Before Shares Took Off?](https://finnhub.io/api/news?id=f8801e8db9b00a578d457b277a0bb187143243b90f6e4cffa6d0f06a3bc50fee)**  
-*Yahoo · 18h前*  
-Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.
+- **[KLA Rides on Strong AI Infrastructure Demand: Can It Beat ALAB & TER?](https://finnhub.io/api/news?id=91b93203d4807dc8e3e314fd139f7a6db3ca050117acdf44757ce85273958583)**  
+*Yahoo · 7h前*  
+KLAC's competitive position is strengthened by surging AI infrastructure investments, rising wafer inspection demand, and advanced packaging growth.
 
 ---
 
@@ -48,7 +48,7 @@ Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big T
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-25 | 監控 | $213.22 | — | 自動更新 |
+| 2026-11-26 | 監控 | $212.15 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big T
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 07:04 HKT*
