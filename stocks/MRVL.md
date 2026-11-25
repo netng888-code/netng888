@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-25 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -8,11 +8,11 @@
 
 | 項目 | 數值 |
 |------|------|
-| 現價 | **$131.57** |
-| 今日變動 | ▼ $13.17　(-9.10%) |
+| 現價 | **$130.93** |
+| 今日變動 | ▼ $0.64　(-0.49%) |
 | 持倉數量 | 10 股 |
 | 平均成本 | $223.912 |
-| 未實現盈虧 | ▼ $923　(▼41.2%) |
+| 未實現盈虧 | ▼ $930　(▼41.5%) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $199.03 | — |
-| Put Wall（支撐） | $130.00 | -1.2% |
-| Call Wall（阻力） | $150.00 | +14.0% |
+| Gamma Flip | $192.73 | — |
+| Put Wall（支撐） | $130.00 | -0.7% |
+| Call Wall（阻力） | $150.00 | +14.6% |
 
 **狀態：⚠️ 負Gamma區 🟢 逼近Put牆支撐**
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Tradr to Launch Six New Leveraged ETFs](https://finnhub.io/api/news?id=1c15d9504848d001cb83aedff936426abaddd8d19be9ee9fcf701929febf3da9)**  
-*Yahoo · 1h前*  
-Tradr ETFs, a provider of ETFs designed for sophisticated investors and professional traders, expects to launch six new leveraged ETFs on December 2, 2026, all …
-
-- **[Own Credo Stock? Watch Its Inventory On Dec 1](https://finnhub.io/api/news?id=92a34e52c162f49a26f04ef018b0ec23940d7327cf032225a259db4a9dec496a)**  
+- **[Why Is Credo Stock Going Up?](https://finnhub.io/api/news?id=f94f2d4f17fcbdccb5a89a0f1e686d896b408355077966a7dd2751643766fb78)**  
 *Yahoo · 1h前*  
 Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
 
-- **[Oppenheimer Cut Its Marvell Target by $100. It Still Sees 147% Upside](https://finnhub.io/api/news?id=a04d9d1a32851e8f0e4098fa22d9dca208d9face22ea722fdc86c5a4e9004abb)**  
-*Yahoo · 2h前*  
-Key TakeawaysOppenheimer cut its Marvell Technology price target to $325 from $425 on Nov. 24 and kept its Outperform rating, and the new target is still 147% a…
+- **[Why Did Nvidia Stock Jump So Much?](https://finnhub.io/api/news?id=6551907c443e424ec02725fdbae8025a45b7e2ab50205d854e05cb7595613b03)**  
+*Yahoo · 3h前*  
+Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
+
+- **[Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=e90ca90663abae20139ce2648b22ce7adbf2bd644711c46aac6dfa4457875169)**  
+*Yahoo · 4h前*  
+Nvidia trades lower while Anthropic stock rebounds.
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysOppenheimer cut its Marvell Technology price target to $325 from $4
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-25 | 監控 | $131.57 | — | 自動更新 |
+| 2026-11-26 | 監控 | $130.93 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysOppenheimer cut its Marvell Technology price target to $325 from $4
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 07:04 HKT*
