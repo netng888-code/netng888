@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-25 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-25 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Dropbox (DBX) Stock Is Up 5.8% Today Without Company News](https://finnhub.io/api/news?id=fc8035e845f9ab86fa9ad1c51afc9caeffa8e31485a6eb2a6ac7a0429276347f)**  
-*Yahoo · 2h前*  
-Dropbox shares rose 5.8% on Tuesday, Nov. 24, without company-specific news, while the S&P 500 fell and tech stocks sold off.
+- **[iShares Expanded Tech-Software (IGV) Buys $15 Million More Palo Alto on Nov. 23](https://finnhub.io/api/news?id=eb0d514c640460949110e7a186a79412f9ae36d2f86c1fafba9d4461b552a0f1)**  
+*Yahoo · 1h前*  
+The fund added $156.5 million of stock across 103 positions, with no decreases, led by a $15.0 million purchase of Palo Alto Networks.
 
-- **[Axon Enterprise vs. Palantir Technologies: Which Law Enforcement Stock Is a Better Buy for 2027?](https://finnhub.io/api/news?id=633a25b0d9127bec17a20e979a33c0d9ec2c52f43448722b297d87b3a189e6ac)**  
+- **[ETFs Are Net Sellers of Palantir (PLTR) on Monday](https://finnhub.io/api/news?id=3a80cce9f649cac74f0d8d63c326f418120c2ac86330d61ec522d33c3347ae1b)**  
 *Yahoo · 2h前*  
-Axon's revenue jumped 33.6% while Palantir's surged 87.1%, but the valuation gap between the two is hard to ignore.
+ETFs sold a net $88.2 million of Palantir on Monday, Nov. 23.
 
-- **[What Will Decide Snowflake Stock Over The Next Six Months?](https://finnhub.io/api/news?id=8f80ae5f0097c209973c58ee6c7410412b963bf9920931945399d2b309d53658)**  
-*Yahoo · 5h前*  
-For questions about this article or underlying research, email help@trefis.com.
+- **[Palantir: The AI Profit Pool Is Shifting](https://finnhub.io/api/news?id=bbd9536a4ed8e1c1e45a5e96267971ad4a5b2acd6b27252d62ff276cb667d1ab)**  
+*SeekingAlpha · 5h前*  
+Palantir (PLTR) stock is a buy, as a beneficiary of AI commoditization; $2.85 in 2027 EPS supports a $242 target and 52% potential upside.
 
 ---
 
@@ -59,4 +59,4 @@ For questions about this article or underlying research, email help@trefis.com.
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-25 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-25 21:05 HKT*
