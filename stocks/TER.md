@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Teradyne (TER) Stock Could Be 14% Undervalued As Omnyx Edge Expands AI Testing](https://finnhub.io/api/news?id=50c6484883dc3ecef345a6ec894432c85d23f96b1a211f5e4f233bb5bc373430)**  
+- **[3 Great Automation Stocks To Own In November 2026](https://finnhub.io/api/news?id=01a77a4691c669a7873da50832388036adfc1e4a4f05f74985314127d4d5acca)**  
 *Yahoo · 2h前*  
-Teradyne has delivered a powerful run for long term holders, yet the recent pullback puts a sharper spotlight on a simple question for you as an investor. Is th…
+Semiconductor chips recently overtook oil and gas in global export value, which indicates a shift in where economic influence is growing. Hardware that runs AI …
 
-- **[Learn Why The Bull Case For Teradyne Stock Could Change Following Built In AI Vision](https://finnhub.io/api/news?id=92e303a3286329eb4d20ef1a2269b4260dfcbe7e03f5582a277deb124b3ab2c1)**  
-*Yahoo · 8h前*  
-Universal Robots, part of Teradyne, recently integrated Inbolt's AI-powered 3D vision guidance software directly into its Gen 7 robot platform, removing the nee…
+- **[FormFactor And 2 Other AI Chip Stocks To Watch](https://finnhub.io/api/news?id=a7e8b79b0275db1a675eea1858fee7940d5b508829cad0d3af5768eaa421a49c)**  
+*Yahoo · 6h前*  
+Semiconductors recently overtook oil and gas in global export value, turning the AI hardware supply chain into one of the clearest battlegrounds for capital. Th…
 
-- **[Why Applied Materials (AMAT) Stock Is Falling Today: AI-Led Chip Selloff](https://finnhub.io/api/news?id=c7b869d38d3bc404701242dbe50053417e6afa7303c0ec746114b16213a770af)**  
-*Yahoo · 20h前*  
-Applied Materials shares fell 10.1% on Wednesday, Nov. 25, as an AI-led selloff hit chip stocks and pushed the Nasdaq 100 into a bear market.
+- **[Why Is Teradyne (TER) Down 32.3% Since Last Earnings Report?](https://finnhub.io/api/news?id=445d3e2cb1d7d9fd51b5e4c4fe531d27ef97f31da21e1b29634ef2b85aaf5212)**  
+*Yahoo · 7h前*  
+Teradyne (TER) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
 
 ---
 
@@ -48,7 +48,7 @@ Applied Materials shares fell 10.1% on Wednesday, Nov. 25, as an AI-led selloff 
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $212.15 | — | 自動更新 |
+| 2026-11-27 | 監控 | $212.15 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Applied Materials shares fell 10.1% on Wednesday, Nov. 25, as an AI-led selloff 
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
