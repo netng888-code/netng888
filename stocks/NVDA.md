@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $156.87 | — |
+| Gamma Flip | $154.23 | — |
 | Put Wall（支撐） | $140.00 | -6.2% |
 | Call Wall（阻力） | $200.00 | +34.0% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Nvidia Makes A Record $115.8 Billion In Revenue. Now S&P Warns Its Credit Rating Could Be Cut In 90 Days.](https://finnhub.io/api/news?id=d33c229a85652a12b8cb8bf6d2da6a47bfe1163bfd1e45c874be59045ae5fc1d)**  
+- **[The Nasdaq Composite Is in a Correction, but These 3 Dividend Stocks Are Near 52-Week Highs. Here's Why They're Still Worth Buying Right Now.](https://finnhub.io/api/news?id=3a1d0862f827c6c657a91ba818520876b8edb92a070d7acab98e15bfc9f2cf26)**  
 *Yahoo · 1h前*  
-S&P Global Ratings placed Nvidia's AA credit rating on negative CreditWatch, warning of a possible downgrade within 90 days as governance concerns persist despi…
+Johnson & Johnson, Visa, and Coca-Cola have held up during the market's recent turbulence.
 
-- **[Warren Buffett Told Savers to "Rejoice When Markets Decline." After the 2000-2002 Bear Market, the S&P 500 Doubled in 5 Years.](https://finnhub.io/api/news?id=b027d95a7e487371110b9e3f4c53b9af012941d1ee8ff4900ef87e4ba4aa2e73)**  
+- **[Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy](https://finnhub.io/api/news?id=b0ac8bb3dace73cd41b4bef182a77951706cdc8225f5b141c4ff618953132724)**  
 *Yahoo · 1h前*  
-Given enough time, the stock market’s track record for recovering losses remains perfect.
+Jensen Huang’s return as CEO doesn’t make Nvidia (NVDA) stock a Buy, despite the market’s positive reaction. Shares of the leading semiconductor manufacturer ju…
 
-- **[3 Investing Moves All Investors Should Make Right Now if a Bear Market Is Coming](https://finnhub.io/api/news?id=64f846884848445ccf0ef245755ea8e1cecfed265ec08e9229e25df3ab24cdec)**  
+- **[Sandisk’s 8-for-1 Split Is Done. Here’s What Investors Should Do Next.](https://finnhub.io/api/news?id=2ba10ce1374d8d897df8718e3ba8345534c51f110dcfba2ee6cace52fab2c884)**  
 *Yahoo · 1h前*  
-Nobody can time the next bear market, but cash reserves, diversification, and sturdy businesses can help investors prepare for volatility.
+Sandisk's stock split is finished, so the only question left is whether its AI-fueled flash memory business can hold up as prices cool.
 
 ---
 
@@ -48,7 +48,7 @@ Nobody can time the next bear market, but cash reserves, diversification, and st
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $149.30 | — | 自動更新 |
+| 2026-11-27 | 監控 | $149.30 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Nobody can time the next bear market, but cash reserves, diversification, and st
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
