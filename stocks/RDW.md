@@ -1,6 +1,6 @@
 # RDW — Redwire
 
-> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,6 +30,10 @@
 
 ## 📰 最新新聞
 
+- **[Watching Space-Telecom Companies; FCC Authorizes 1 Million Satellites For Data Centers In Space'](https://finnhub.io/api/news?id=f27e1f17195d903c5f5f64f250e3157c3cce6adb099d1d97c08f3e0fed35dcc0)**  
+*Benzinga · 1d前*  
+https://www.fcc.gov/document/fcc-authorizes-1-million-satellites-data-centers-space-0
+
 - **[PL Expands European Defense Footprint: A New Growth Opportunity Ahead?](https://finnhub.io/api/news?id=9cca0312e2ccec68c8405351484d92a54388364c9328c4207b2994b4ada6bc08)**  
 *Yahoo · 1d前*  
 Planet Labs expands a European defense contract as rising demand for satellite intelligence and infrastructure security creates new revenue opportunities.
@@ -38,17 +42,13 @@ Planet Labs expands a European defense contract as rising demand for satellite i
 *Yahoo · 1d前*  
 Redwire (NYSE:RDW) announced a major contract win for its next-generation Extensible Low-Profile Solar Array wings with AscendArc. The agreement covers deployme…
 
-- **[Can Redwire's ELSA Contract Expand Its Satellite Power Business?](https://finnhub.io/api/news?id=dc6a815cf63dcf3c940a716ac7ee6fe7714903cf59191c5a300c6892cb38191e)**  
-*Yahoo · 1d前*  
-RDW's ELSA contract with AscendArc is likely to expand its satellite power business as its modular solar array technology supports scalable manufacturing.
-
 ---
 
 ## 📝 操作記錄
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $5.89 | — | 自動更新 |
+| 2026-11-27 | 監控 | $5.89 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ RDW's ELSA contract with AscendArc is likely to expand its satellite power busin
 - [TradingView](https://www.tradingview.com/chart/?symbol=RDW)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
