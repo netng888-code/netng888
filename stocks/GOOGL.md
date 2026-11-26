@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $282.85 | — |
+| Gamma Flip | $283.90 | — |
 | Put Wall（支撐） | $270.00 | -1.1% |
 | Call Wall（阻力） | $300.00 | +9.8% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[These 5 Tech Stocks are Sidestepping the AI Downturn](https://finnhub.io/api/news?id=e4d4b2acba68d2651242e6a6e5e58cbccf7f40dfa9c8aa8afc8e00afdc777ea6)**  
+- **[iShares MSCI ACWI (ACWI) Adds Apple and Nvidia on Tuesday](https://finnhub.io/api/news?id=32362a9cbd1cf8c55ba20bd33148a5f3dc54c1d70eee8d3633bdb3609176a3e6)**  
 *Yahoo · 1h前*  
-Apple, Gen Digital, and Take-Two, are just some of the tech stocks bucking the AI selloff.
+The $31.78 billion fund bought $327.8 million more than it sold, lifting 551 positions and trimming one.
 
-- **[Anthropic’s Chip Choices Could Change the Nvidia Story. Here’s How.](https://finnhub.io/api/news?id=8c8a08d0f2cbd872b6c211544867e4baa07b47dcef0577605a7e71d78c45f600)**  
+- **[SPDR S&P 500 ETF (SPY) Sells $400.1 Million of Apple on Nov. 24](https://finnhub.io/api/news?id=18f96e0307e050a7405cce44839e8a51224217d4882eec6003723930e9fa0e39)**  
 *Yahoo · 2h前*  
-Anthropic is spreading out its demand for AI accelerators across multiple companies.
+The $769.73 billion fund sold $4.80 billion across all 503 holdings, with no buys and no new positions.
 
-- **[Megadeals Defy Selloff, Head Toward Record](https://finnhub.io/api/news?id=da9a797fee7954547a521aa2ec2dbf3cabc3e245fb9896443c335eb902596f02)**  
+- **[ETFs Are Net Sellers of Alphabet (GOOGL) on Nov. 24](https://finnhub.io/api/news?id=7bf7b022311789cd6ef2b9589ab58095ae84e408f6ce03347189bd78cdac2920)**  
 *Yahoo · 2h前*  
-Wall Street is taking a big step toward a record year for mergers and acquisitions as some of the world's largest companies defy a tech-induced selloff in globa…
+ETFs sold a net $48.8 million of Alphabet (GOOGL) on Tuesday, Nov. 24.
 
 ---
 
@@ -59,4 +59,4 @@ Wall Street is taking a big step toward a record year for mergers and acquisitio
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 21:04 HKT*
