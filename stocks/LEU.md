@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,11 +31,11 @@
 ## 📰 最新新聞
 
 - **[What Triggered The Move In Cameco Stock?](https://finnhub.io/api/news?id=59151c402489be5f46d0f85c32da76030444306ab926734988cc148e0e54ae2c)**  
-*Yahoo · 15h前*  
+*Yahoo · 1d前*  
 Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
 
 - **[Prediction: Oklo Stock Could Have a Huge Year as Nuclear Energy Demand Accelerates](https://finnhub.io/api/news?id=16763cd3b7cf45e2b648ccf59564d58d82fc6f622f0697c7dcba2cf9b3c60078)**  
-*Yahoo · 18h前*  
+*Yahoo · 1d前*  
 Oklo has lost most of its value this year, yet it sits on billions in cash and a reactor already taking shape in Idaho. Why one model still sees a discount hidi…
 
 - **[Oklo Sinks 14% in a Week, NuScale Down 19%, as the AI Selloff Hits Nuclear Stocks. Time to Buy?](https://finnhub.io/api/news?id=431b049420e388a644e5496b26a813fcfa5b12826bc96a4ea59b0f9ec962860c)**  
@@ -48,7 +48,7 @@ Key TakeawaysOklo fell 14% in a week with no bad news of its own, as the AI sell
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $83.19 | — | 自動更新 |
+| 2026-11-27 | 監控 | $83.19 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysOklo fell 14% in a week with no bad news of its own, as the AI sell
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
