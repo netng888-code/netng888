@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Why Is Credo Stock Going Up?](https://finnhub.io/api/news?id=f94f2d4f17fcbdccb5a89a0f1e686d896b408355077966a7dd2751643766fb78)**  
-*Yahoo · 1h前*  
-Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
+- **[Stock Market Today: Nasdaq (QQQ) Plunges 4.5%, Then Claws Back Most of It as Hot PCE Data Meets an AI Scare](https://finnhub.io/api/news?id=4a578c7ae1c96f5e9fa759786c2763f8c090772ee280803389f1c81f88177d5b)**  
+*ChartMill · 3h前*  
+A wild pre-Thanksgiving session saw the Nasdaq drop 4.5% before recovering most of the loss. Core PCE came in hot, Treasury yields fell anyway, HP jumped on str…
 
-- **[Why Did Nvidia Stock Jump So Much?](https://finnhub.io/api/news?id=6551907c443e424ec02725fdbae8025a45b7e2ab50205d854e05cb7595613b03)**  
-*Yahoo · 3h前*  
-Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
-
-- **[Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=e90ca90663abae20139ce2648b22ce7adbf2bd644711c46aac6dfa4457875169)**  
+- **[Broadcom Sinks 15% in a Week to a 52-Week Low as Google Reportedly Cuts TPU Orders. Is the Selling Overdone?](https://finnhub.io/api/news?id=9f3e25b8b6dc31052278b99a543bbc59832541a1aad00ce40a8ece1e6c868983)**  
 *Yahoo · 4h前*  
-Nvidia trades lower while Anthropic stock rebounds.
+Key TakeawaysBroadcom fell 15% in the past week and hit a 52-week low, mostly after analyst Ming-Chi Kuo said Alphabet’s Google cut 2027 shipments of one Broadc…
+
+- **[Lumentum Sinks 14% in a Week as AI Stocks Slide, but Its CEO Says “We Haven’t Seen Any Slowdown”](https://finnhub.io/api/news?id=79733b3fe30ffb3b3000e0713f8043abdba8bc82becd03b538c4d3f202f6cc59)**  
+*Yahoo · 4h前*  
+Key TakeawaysLumentum fell 13. 5% in the past week as AI chip stocks sold off, and Marvell Technology, which is paying 4.
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia trades lower while Anthropic stock rebounds.
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 21:04 HKT*
