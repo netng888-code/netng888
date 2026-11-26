@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $336.03 | — |
+| Gamma Flip | $328.84 | — |
 | Put Wall（支撐） | $300.00 | -0.3% |
 | Call Wall（阻力） | $400.00 | +33.0% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[State Street Tech Select SPDR (XLK) Adds Apple and Nvidia on Nov. 24](https://finnhub.io/api/news?id=69f950715b68f9ce8c96cc68ba59b40e3a8382fdc6bff3faa5b6cdfe342f01db)**  
-*Yahoo · 1h前*  
-The fund bought $306.2 million of stock and sold nothing, lifting all 76 positions.
+- **[5 Most Oversold Semiconductor Stocks to Buy for 2027](https://finnhub.io/api/news?id=fa057cfaa6d4b6f84e00b6750e77a3e98ee6958427ced12d2322a66917f8a24f)**  
+*Yahoo · 3h前*  
+The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullba…
 
-- **[Direxion Daily Technology Bull 3X (TECL) Adds Apple and Nvidia on Nov. 24](https://finnhub.io/api/news?id=ad7f8dbe5262c50afa20558faf438f536b32cea1e654bd1d47aeaea40e39581d)**  
-*Yahoo · 1h前*  
-The 3x leveraged tech ETF bought $413.2 million of stock on Tuesday, Nov. 24, increasing all 76 of its positions.
+- **[Goldman Sachs resets Broadcom's 12-month price target before earnings](https://finnhub.io/api/news?id=80537e2bf13e004e0435ea7bf99051454e99d00295589f87735aee2c7aea9c86)**  
+*Yahoo · 3h前*  
+AVGO AI funding and 2028 data center concerns grow.
 
-- **[What iShares PHLX SOX Semi (SOXX) Sold: AMD Leads on Nov. 24](https://finnhub.io/api/news?id=7452f51d58b804c2e38c65b62766e286eb35ac78d03cc0093981b7294fa597b3)**  
-*Yahoo · 1h前*  
-The fund sold $792.7 million of stock and bought nothing, cutting 29 positions while adding none.
+- **[Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278](https://finnhub.io/api/news?id=20293754165b732c4daa2b3fd0e28d7a92e12843ae62234831a59d659a3da32f)**  
+*Yahoo · 4h前*  
+Shares erased a 7.7% intraday slide to their lowest level since July 2025 as Google and Anthropic exposure stays in focus.
 
 ---
 
@@ -48,7 +48,7 @@ The fund sold $792.7 million of stock and bought nothing, cutting 29 positions w
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $300.86 | — | 自動更新 |
+| 2026-11-27 | 監控 | $300.86 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ The fund sold $792.7 million of stock and bought nothing, cutting 29 positions w
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
