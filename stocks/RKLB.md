@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-26 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[AST SpaceMobile Surges 9%, Erasing Early Losses as Space Stocks Diverge; SpaceX Eases, Rocket Lab Holds Steady](https://finnhub.io/api/news?id=4541db3e4c52fd046321f88f2955ff19b6b79ad19f8bc9f14156faed290740c5)**  
+- **[SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving](https://finnhub.io/api/news?id=5fc40a5e5f00a72e63eb2115ee996417a1502f2db651ebf8756b69ea7da59d5a)**  
 *Yahoo · 4h前*  
-While SpaceX slips and Rocket Lab barely moves, one space stock is staging a sharp comeback in a falling market. The bounce has a likely trigger, but one unreso…
+ASTS led the group, gaining nearly 12% over the past week. It rebounded from a 52-week low after a director disclosed that she and her family purchased about $1…
 
-- **[5 Beaten-Down Stocks Insiders Are Still Dumping (Even After a 50% Crash)](https://finnhub.io/api/news?id=f85914ac3edefec9fa345c3a303bf071dc3c2cdac90de358caf7e0d5d7f16214)**  
-*Yahoo · 4h前*  
-Say you bought a stock near its high this year and watched it lose half its value and then you learn that an executive at the company has just sold shares. The …
+- **[Rocket Lab: The Last Chance To Buy Before Neutron Takes Flight](https://finnhub.io/api/news?id=0d225ebe7488d4c12ccbfd940b82de01b0ba0971026b8f2c7ea62845717047ab)**  
+*SeekingAlpha · 7h前*  
+Rocket Lab (RKLB) stock is a buy, as revenue rose 73% to $267.8 million; Neutron slips to 2027, with shares at 27.2x forward EV/sales.
 
-- **[Mizuho Calls Rocket Lab’s Business Model “Among Our Favorites.” It Still Sees 6% Downside](https://finnhub.io/api/news?id=e52cbab4231d88764c55e1839cf3f94f1be0cf53fcf6e42d9d78b17fd4a0c5f9)**  
-*Yahoo · 5h前*  
-Key TakeawaysMizuho initiated coverage of Rocket Lab with an Underperform rating and a $40 price target, 6% below the stock’s price. Mizuho likes Rocket Lab’s b…
+- **[RKLB Stock Rebounds Into Thanksgiving: CFO, COO And Other Execs Sell Nearly $4M In Shares Ahead Of Electron Launch](https://finnhub.io/api/news?id=716673a003d52e62148bb808e24ebb2524ebe0862d3eb3ea3cf7f1486eb29d68)**  
+*Yahoo · 11h前*  
+COO Frank Klein accounted for 58% of the sales, selling $2.23 million in shares.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysMizuho initiated coverage of Rocket Lab with an Underperform rating
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
