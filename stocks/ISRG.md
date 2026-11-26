@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[iShares U.S. Medical Devices (IHI) Sells $39.2 Million of Abbott on Nov. 24](https://finnhub.io/api/news?id=4f0bfce7180487bb67f9dbd7732b3a93b9c966b3a3f4bd376a8def79b49bca15)**  
-*Yahoo · 1h前*  
-The fund sold $229.5 million of stock and bought nothing on Tuesday, trimming all 47 of its positions.
-
-- **[ETFs Are Net Sellers of Intuitive Surgical (ISRG) on Nov. 24](https://finnhub.io/api/news?id=7f49104c2ad276359c8826e2b0a0389c8d2e5b56d52dcf4274928a7993a36788)**  
+- **[Intuitive Surgical, Inc. (ISRG)’s Recurring Revenue and da Vinci 5 Platform Support Its 2027 Outlook](https://finnhub.io/api/news?id=749118849ee16deca11602df6812707eb51314ce0cef28d126b1894424270ab7)**  
 *Yahoo · 2h前*  
-ETFs sold $38.8 million of Intuitive Surgical stock on Tuesday, with 36 funds buying and 14 selling.
+We just published our list, 10 Best Healthcare Stocks To Buy for 2027, and Intuitive Surgical, Inc. ranked 6th on this list. The healthcare sector is emerging a…
 
-- **[Here's Why You Should Add Revvity Stock to Your Portfolio Now](https://finnhub.io/api/news?id=80eb24e219be35537d6ac42d1b0357aea697e539b804bfcf5c2100089fc13739)**  
-*Yahoo · 20h前*  
-Revvity's improving demand, AI-driven research opportunities, software innovation and stronger Diagnostics outlook support its growth prospects.
+- **[Can ISRG's XiR Drive Growth as Ambulatory Surgery Center Expands?](https://finnhub.io/api/news?id=749ce37d9b681ce051fa47330fe2a66731bd67d541c6c88a16073a7332fe4a35)**  
+*Yahoo · 5h前*  
+XiR could help Intuitive Surgical tap the expanding ASC market, but adoption remains a multiyear growth opportunity rather than an immediate revenue driver.
+
+- **[Smith+Nephew's TENDON SEAM Shows Superior Rotator Cuff Repair Strength](https://finnhub.io/api/news?id=66bf569f2f1718b3788632de4716809161beec1c5d5a013650f76a8cf0044525)**  
+*Yahoo · 6h前*  
+SNN's TENDON SEAM demonstrates superior rotator cuff repair strength and stability, potentially unlocking new growth opportunities in sports medicine.
 
 ---
 
@@ -48,7 +48,7 @@ Revvity's improving demand, AI-driven research opportunities, software innovatio
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $427.18 | — | 自動更新 |
+| 2026-11-27 | 監控 | $427.18 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Revvity's improving demand, AI-driven research opportunities, software innovatio
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
