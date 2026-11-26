@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-26 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Sent Qualcomm Stock Higher?](https://finnhub.io/api/news?id=3174d5f4d1a555431bfcbb478ec4cb411cb23290d41d8c0957c9a6834654d628)**  
+- **[What iShares PHLX SOX Semi (SOXX) Sold: AMD Leads on Nov. 24](https://finnhub.io/api/news?id=7452f51d58b804c2e38c65b62766e286eb35ac78d03cc0093981b7294fa597b3)**  
 *Yahoo · 2h前*  
-Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
+The fund sold $792.7 million of stock and bought nothing, cutting 29 positions while adding none.
 
-- **[Why Did Nvidia Stock Jump So Much?](https://finnhub.io/api/news?id=6551907c443e424ec02725fdbae8025a45b7e2ab50205d854e05cb7595613b03)**  
-*Yahoo · 3h前*  
-Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
+- **[Stock Market Today: Nasdaq (QQQ) Plunges 4.5%, Then Claws Back Most of It as Hot PCE Data Meets an AI Scare](https://finnhub.io/api/news?id=4a578c7ae1c96f5e9fa759786c2763f8c090772ee280803389f1c81f88177d5b)**  
+*ChartMill · 3h前*  
+A wild pre-Thanksgiving session saw the Nasdaq drop 4.5% before recovering most of the loss. Core PCE came in hot, Treasury yields fell anyway, HP jumped on str…
 
-- **[How Nvidia's Jensen Huang Survived the Kind of Scandal That Ends CEO Careers](https://finnhub.io/api/news?id=ac0e8df2a8e7ad689d67a79d04677288065e810371ee3541afcda9ee23e74c3b)**  
+- **[Bad News for Intel: Dell Says Companies Are “Deferring Their PC Purchases” for AI Servers](https://finnhub.io/api/news?id=cf806c87bc09f123ed7e89090174206ef3f2ff7c28eeed0b167f418ebbe3d8a5)**  
 *Yahoo · 4h前*  
-Nvidia (NASDAQ:NVDA) CEO Jensen Huang got his job back on Monday after resigning amid reports of undisclosed relationships with employees. Other CEOs haven’t be…
+Key TakeawaysDell’s PC revenue grew 3% last quarter as its infrastructure revenue nearly tripled, and its COO said companies are “deferring their PC purchases” …
 
 ---
 
@@ -59,4 +59,4 @@ Nvidia (NASDAQ:NVDA) CEO Jensen Huang got his job back on Monday after resigning
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
