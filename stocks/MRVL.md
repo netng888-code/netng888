@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Stock Market Today: Nasdaq (QQQ) Plunges 4.5%, Then Claws Back Most of It as Hot PCE Data Meets an AI Scare](https://finnhub.io/api/news?id=4a578c7ae1c96f5e9fa759786c2763f8c090772ee280803389f1c81f88177d5b)**  
-*ChartMill · 3h前*  
-A wild pre-Thanksgiving session saw the Nasdaq drop 4.5% before recovering most of the loss. Core PCE came in hot, Treasury yields fell anyway, HP jumped on str…
+- **[Is Marvell Technology, Inc. (MRVL) a Hidden AI Infrastructure Winner for 2027?](https://finnhub.io/api/news?id=a323500467ad724808c84084f0042a90ee570cbe9af176a30d4300cde07f939e)**  
+*Yahoo · 3h前*  
+We just published our list, 10 Most Oversold Semiconductor Stocks to Buy for 2027, and Marvell Technology, Inc. ranked 7th on this list. The semiconductor secto…
 
-- **[Broadcom Sinks 15% in a Week to a 52-Week Low as Google Reportedly Cuts TPU Orders. Is the Selling Overdone?](https://finnhub.io/api/news?id=9f3e25b8b6dc31052278b99a543bbc59832541a1aad00ce40a8ece1e6c868983)**  
-*Yahoo · 4h前*  
-Key TakeawaysBroadcom fell 15% in the past week and hit a 52-week low, mostly after analyst Ming-Chi Kuo said Alphabet’s Google cut 2027 shipments of one Broadc…
+- **[Marvell Options Price In 16% Earnings-Day Stock Swing](https://finnhub.io/api/news?id=4feb138a881237cdc526a5d4425cc2ac5dbd2473e6e2d4d0f67a6bb3245bc6a7)**  
+*Yahoo · 5h前*  
+Wall Street expects quarterly revenue growth of 52.2% as investors assess the company's AI expansion strategy.
 
-- **[Lumentum Sinks 14% in a Week as AI Stocks Slide, but Its CEO Says “We Haven’t Seen Any Slowdown”](https://finnhub.io/api/news?id=79733b3fe30ffb3b3000e0713f8043abdba8bc82becd03b538c4d3f202f6cc59)**  
-*Yahoo · 4h前*  
-Key TakeawaysLumentum fell 13. 5% in the past week as AI chip stocks sold off, and Marvell Technology, which is paying 4.
+- **[Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock?](https://finnhub.io/api/news?id=0df6cbd623d96a018581f02d25745574aef4c6871827c7a50171c23a691d64c6)**  
+*Yahoo · 6h前*  
+LITE stock soars 55% in a year on strong AI-driven optical networking demand, but rising costs, premium valuation, and acquisition uncertainty cloud its outlook…
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysLumentum fell 13. 5% in the past week as AI chip stocks sold off, a
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $130.93 | — | 自動更新 |
+| 2026-11-27 | 監控 | $130.93 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysLumentum fell 13. 5% in the past week as AI chip stocks sold off, a
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
