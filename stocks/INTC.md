@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What iShares PHLX SOX Semi (SOXX) Sold: AMD Leads on Nov. 24](https://finnhub.io/api/news?id=7452f51d58b804c2e38c65b62766e286eb35ac78d03cc0093981b7294fa597b3)**  
-*Yahoo · 2h前*  
-The fund sold $792.7 million of stock and bought nothing, cutting 29 positions while adding none.
+- **[5 Most Oversold Semiconductor Stocks to Buy for 2027](https://finnhub.io/api/news?id=fa057cfaa6d4b6f84e00b6750e77a3e98ee6958427ced12d2322a66917f8a24f)**  
+*Yahoo · 3h前*  
+The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullba…
 
-- **[Stock Market Today: Nasdaq (QQQ) Plunges 4.5%, Then Claws Back Most of It as Hot PCE Data Meets an AI Scare](https://finnhub.io/api/news?id=4a578c7ae1c96f5e9fa759786c2763f8c090772ee280803389f1c81f88177d5b)**  
-*ChartMill · 3h前*  
-A wild pre-Thanksgiving session saw the Nasdaq drop 4.5% before recovering most of the loss. Core PCE came in hot, Treasury yields fell anyway, HP jumped on str…
-
-- **[Bad News for Intel: Dell Says Companies Are “Deferring Their PC Purchases” for AI Servers](https://finnhub.io/api/news?id=cf806c87bc09f123ed7e89090174206ef3f2ff7c28eeed0b167f418ebbe3d8a5)**  
+- **[Intel Stocks Slip After Erasing a 10.3% Plunge Below $50](https://finnhub.io/api/news?id=674f5bafbef8d0c4cf9dc83c77a09237323d07bb781cea39e25fa2b0a6068502)**  
 *Yahoo · 4h前*  
-Key TakeawaysDell’s PC revenue grew 3% last quarter as its infrastructure revenue nearly tripled, and its COO said companies are “deferring their PC purchases” …
+Shares hit $49.16 in the morning chip rout, then recovered almost all the loss as buyers defended the $50 level.
+
+- **[Nvidia Now Has 41% of Its Stock Portfolio in SpaceX. Here’s What That Means for Nvidia Shareholders](https://finnhub.io/api/news?id=a5b0a987f43f745cd28fa0cf80045e0524489618f270c52db273a3f24f0da2b4)**  
+*Yahoo · 4h前*  
+Key TakeawaysNvidia’s 13F for the quarter ended Sept. 30 shows SpaceX as its largest holding, at 41% of its US stocks, just ahead of Intel.
 
 ---
 
@@ -48,7 +48,7 @@ Key TakeawaysDell’s PC revenue grew 3% last quarter as its infrastructure reve
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $54.47 | — | 自動更新 |
+| 2026-11-27 | 監控 | $54.47 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysDell’s PC revenue grew 3% last quarter as its infrastructure reve
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
