@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Michael Burry Turns Bullish, Exits Nasdaq Shorts but Eyes Nvidia at $200](https://finnhub.io/api/news?id=374b58b20b032873ee701b469960f1de8d415a16564283e1f4d425475d08e221)**  
-*Yahoo · 1h前*  
-The Big Short investor unwinds Nasdaq 100 put options while retaining Nvidia calls that have doubled in value.
+- **[Palantir Stocks Rise 1.5% After Peter Thiel Discloses a $122 Million Share Purchase](https://finnhub.io/api/news?id=82cbe9ab8a81b0f2a64b120ca62272f8b5f7b1724f768834d7f0ee673af08e8c)**  
+*Yahoo · 4h前*  
+The director bought 850,100 shares on November 20 under a trading plan, and the shares have since climbed 14%.
 
-- **[Michael Burry flips mostly long as tech stocks slide](https://finnhub.io/api/news?id=0e860baa742bbb4ec1d41dc48fd0e17de4d820d679ce924b40c529c1bf763b26)**  
-*Yahoo · 1h前*  
-Big Short investor Michael Burry is sitting on a pile of cash and hunting for places to put it
+- **[Palantir Closed 212 Deals Worth at Least $1 Million. Here’s What That Means for Its Growth](https://finnhub.io/api/news?id=9c817d10f82c6db0f79e431bc217627194450b62f4dda53e6891a4847634169f)**  
+*Yahoo · 7h前*  
+Palantir just posted its best quarter ever, yet the stock has still tumbled more than 20% in a month. One lagging metric may explain why investors are nervous, …
 
-- **[Palantir (PLTR) Sees $45.5 Million in Net ETF Buying on Nov. 24](https://finnhub.io/api/news?id=15b9985f76a1cb9283d03e074fd56a442f7bf2813ddd171bb695a0d07ea78950)**  
-*Yahoo · 2h前*  
-ETFs bought $45.5 million of Palantir stock on Tuesday, Nov. 24, with 56 funds buying and 15 selling.
+- **[Michael Burry exits Nasdaq-100 short](https://finnhub.io/api/news?id=ca7082fe5ada2b11982be893cc1dc466d40fc2bb591f054101fa1792be804657)**  
+*Yahoo · 8h前*  
+Michael Burry disclosed Wednesday that he had exited his Nasdaq-100 short by selling the last of his put options on the tech-heavy index, while keeping puts on …
 
 ---
 
@@ -48,7 +48,7 @@ ETFs bought $45.5 million of Palantir stock on Tuesday, Nov. 24, with 56 funds b
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $163.59 | — | 自動更新 |
+| 2026-11-27 | 監控 | $163.59 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ ETFs bought $45.5 million of Palantir stock on Tuesday, Nov. 24, with 56 funds b
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
