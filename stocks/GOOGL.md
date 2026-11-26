@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $283.90 | — |
+| Gamma Flip | $282.85 | — |
 | Put Wall（支撐） | $270.00 | -1.1% |
 | Call Wall（阻力） | $300.00 | +9.8% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[iShares MSCI ACWI (ACWI) Adds Apple and Nvidia on Tuesday](https://finnhub.io/api/news?id=32362a9cbd1cf8c55ba20bd33148a5f3dc54c1d70eee8d3633bdb3609176a3e6)**  
+- **[Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy](https://finnhub.io/api/news?id=b0ac8bb3dace73cd41b4bef182a77951706cdc8225f5b141c4ff618953132724)**  
 *Yahoo · 1h前*  
-The $31.78 billion fund bought $327.8 million more than it sold, lifting 551 positions and trimming one.
+Jensen Huang’s return as CEO doesn’t make Nvidia (NVDA) stock a Buy, despite the market’s positive reaction. Shares of the leading semiconductor manufacturer ju…
 
-- **[SPDR S&P 500 ETF (SPY) Sells $400.1 Million of Apple on Nov. 24](https://finnhub.io/api/news?id=18f96e0307e050a7405cce44839e8a51224217d4882eec6003723930e9fa0e39)**  
-*Yahoo · 2h前*  
-The $769.73 billion fund sold $4.80 billion across all 503 holdings, with no buys and no new positions.
+- **[Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278](https://finnhub.io/api/news?id=20293754165b732c4daa2b3fd0e28d7a92e12843ae62234831a59d659a3da32f)**  
+*Yahoo · 4h前*  
+Shares erased a 7.7% intraday slide to their lowest level since July 2025 as Google and Anthropic exposure stays in focus.
 
-- **[ETFs Are Net Sellers of Alphabet (GOOGL) on Nov. 24](https://finnhub.io/api/news?id=7bf7b022311789cd6ef2b9589ab58095ae84e408f6ce03347189bd78cdac2920)**  
-*Yahoo · 2h前*  
-ETFs sold a net $48.8 million of Alphabet (GOOGL) on Tuesday, Nov. 24.
+- **[Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn](https://finnhub.io/api/news?id=ae9e88ef1e837fac6a58973cd527b3b26ddb55424cb9fd5cbcd7dce5990d0ae3)**  
+*Yahoo · 4h前*  
+Five-year default swaps reached a record as third-quarter capex of $51.4 billion pushed free cash flow below zero.
 
 ---
 
@@ -48,7 +48,7 @@ ETFs sold a net $48.8 million of Alphabet (GOOGL) on Tuesday, Nov. 24.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $273.10 | — | 自動更新 |
+| 2026-11-27 | 監控 | $273.10 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ ETFs sold a net $48.8 million of Alphabet (GOOGL) on Tuesday, Nov. 24.
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
