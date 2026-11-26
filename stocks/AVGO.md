@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $328.84 | — |
+| Gamma Flip | $336.03 | — |
 | Put Wall（支撐） | $300.00 | -0.3% |
 | Call Wall（阻力） | $400.00 | +33.0% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December](https://finnhub.io/api/news?id=9e9fdcec0d8d8ce7757ec8d3b8a19d598cdd5093796319915bbc49881e3daf7f)**  
+- **[State Street Tech Select SPDR (XLK) Adds Apple and Nvidia on Nov. 24](https://finnhub.io/api/news?id=69f950715b68f9ce8c96cc68ba59b40e3a8382fdc6bff3faa5b6cdfe342f01db)**  
 *Yahoo · 1h前*  
-Marvell's earnings growth is poised to accelerate sharply, making the stock a no-brainer buy ahead of its quarterly report.
+The fund bought $306.2 million of stock and sold nothing, lifting all 76 positions.
 
-- **[Why Is Credo Stock Going Up?](https://finnhub.io/api/news?id=f94f2d4f17fcbdccb5a89a0f1e686d896b408355077966a7dd2751643766fb78)**  
+- **[Direxion Daily Technology Bull 3X (TECL) Adds Apple and Nvidia on Nov. 24](https://finnhub.io/api/news?id=ad7f8dbe5262c50afa20558faf438f536b32cea1e654bd1d47aeaea40e39581d)**  
 *Yahoo · 1h前*  
-Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
+The 3x leveraged tech ETF bought $413.2 million of stock on Tuesday, Nov. 24, increasing all 76 of its positions.
 
-- **[AI spending leads the biggest market risks heading into 2027](https://finnhub.io/api/news?id=360c6719249495ca7847b67198f49304d70b61c49845dc746254dced8ba8161f)**  
+- **[What iShares PHLX SOX Semi (SOXX) Sold: AMD Leads on Nov. 24](https://finnhub.io/api/news?id=7452f51d58b804c2e38c65b62766e286eb35ac78d03cc0093981b7294fa597b3)**  
 *Yahoo · 1h前*  
-Investing.com -- Of the four major narratives driving market fear currently, AI spending looks the most concerning. Rate hikes are a close second because they a…
+The fund sold $792.7 million of stock and bought nothing, cutting 29 positions while adding none.
 
 ---
 
@@ -59,4 +59,4 @@ Investing.com -- Of the four major narratives driving market fear currently, AI 
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 21:04 HKT*
