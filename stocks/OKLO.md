@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-26 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[1 Reason I Haven’t Bought Oklo Stock -- and Probably Never Will](https://finnhub.io/api/news?id=4446961a226493de5fbe27f73812b52af7f4f82a2d1ce270c1c7753f8af00679)**  
+- **[Prediction: Oklo Stock Could Have a Huge Year as Nuclear Energy Demand Accelerates](https://finnhub.io/api/news?id=16763cd3b7cf45e2b648ccf59564d58d82fc6f622f0697c7dcba2cf9b3c60078)**  
+*Yahoo · 18h前*  
+Oklo has lost most of its value this year, yet it sits on billions in cash and a reactor already taking shape in Idaho. Why one model still sees a discount hidi…
+
+- **[Oklo and NuScale Power Retreat 8% as AI Power Selloff Deepens; Energy Fuels Drops 6%](https://finnhub.io/api/news?id=fbf474e9b1764037439967ec7d14def84cb2cb5e276f959ad2ff685b1fc0914f)**  
 *Yahoo · 20h前*  
-Oklo still faces a cash flow dilemma.
+Nuclear stocks that rode the AI power boom are now bleeding, and hot inflation and fresh tariffs are only part of the story. Why do three nuclear names fall by …
 
-- **[Groves 1 Approval Could Open NASA Opportunity For Oklo Stock](https://finnhub.io/api/news?id=dc1da84a0d1bf5eb5bdb7ef4986659711ab3f25c79bc673dd23f132d2f2f8031)**  
+- **[OKLO Has More Cash, But Is NuScale the Better Nuclear Stock?](https://finnhub.io/api/news?id=70d025e4783af29b3d14383d7eb588ffa02101d63fbc3e0bd11cd1d3ef73e3dc)**  
 *Yahoo · 1d前*  
-Oklo reported that the U.S. Department of Energy cleared the final operations hold point for its Groves-1 test reactor, allowing full research, testing, and tra…
-
-- **[Oklo Slides 7% as Monday’s Nuclear Rebound Fades; NuScale Power and Energy Fuels Drop 6%](https://finnhub.io/api/news?id=f941887632d5200bb708cde5dcad120c4459f31ddeabe9f36dc850dee3993b8f)**  
-*Yahoo · 1d前*  
-One day after a uranium announcement lit up the sector, nuclear stocks are surrendering their gains as tech sells off. Can the AI power trade hold a rally for m…
+OKLO and SMR are targeting the growing power needs of data centers, but their contrasting business models could shape how and when they generate revenues.
 
 ---
 
@@ -59,4 +59,4 @@ One day after a uranium announcement lit up the sector, nuclear stocks are surre
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
