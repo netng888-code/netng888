@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
+- **[Teradyne (TER) Stock Could Be 14% Undervalued As Omnyx Edge Expands AI Testing](https://finnhub.io/api/news?id=50c6484883dc3ecef345a6ec894432c85d23f96b1a211f5e4f233bb5bc373430)**  
+*Yahoo · 2h前*  
+Teradyne has delivered a powerful run for long term holders, yet the recent pullback puts a sharper spotlight on a simple question for you as an investor. Is th…
+
+- **[Learn Why The Bull Case For Teradyne Stock Could Change Following Built In AI Vision](https://finnhub.io/api/news?id=92e303a3286329eb4d20ef1a2269b4260dfcbe7e03f5582a277deb124b3ab2c1)**  
+*Yahoo · 8h前*  
+Universal Robots, part of Teradyne, recently integrated Inbolt's AI-powered 3D vision guidance software directly into its Gen 7 robot platform, removing the nee…
+
 - **[Why Applied Materials (AMAT) Stock Is Falling Today: AI-Led Chip Selloff](https://finnhub.io/api/news?id=c7b869d38d3bc404701242dbe50053417e6afa7303c0ec746114b16213a770af)**  
-*Yahoo · 6h前*  
+*Yahoo · 20h前*  
 Applied Materials shares fell 10.1% on Wednesday, Nov. 25, as an AI-led selloff hit chip stocks and pushed the Nasdaq 100 into a bear market.
-
-- **[Lam Research (LRCX) Stock Is Down 10.6% Today: AI-Led Chip Selloff](https://finnhub.io/api/news?id=50011b037cc4b646da193475792e6377682810792a44cc991aab6676db9997cd)**  
-*Yahoo · 7h前*  
-Lam Research shares fell 10.6% on Wednesday, Nov. 25, as an AI-led selloff in tech and chip stocks deepened, with no company-specific news.
-
-- **[KLA Rides on Strong AI Infrastructure Demand: Can It Beat ALAB & TER?](https://finnhub.io/api/news?id=91b93203d4807dc8e3e314fd139f7a6db3ca050117acdf44757ce85273958583)**  
-*Yahoo · 7h前*  
-KLAC's competitive position is strengthened by surging AI infrastructure investments, rising wafer inspection demand, and advanced packaging growth.
 
 ---
 
@@ -59,4 +59,4 @@ KLAC's competitive position is strengthened by surging AI infrastructure investm
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 21:04 HKT*
