@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving](https://finnhub.io/api/news?id=5fc40a5e5f00a72e63eb2115ee996417a1502f2db651ebf8756b69ea7da59d5a)**  
-*Yahoo · 4h前*  
-ASTS led the group, gaining nearly 12% over the past week. It rebounded from a 52-week low after a director disclosed that she and her family purchased about $1…
+- **[Rocket Lab Stock Just Fell to Its Lowest Price in About a Year. Is It a Buy Now?](https://finnhub.io/api/news?id=321013b5d87b7af2e0dea405c3d2a0b23bacfe10c24793420f90dd7d8a586383)**  
+*Yahoo · 7h前*  
+Shares are back where they were a year ago, but the business behind them is much bigger.
 
-- **[Rocket Lab: The Last Chance To Buy Before Neutron Takes Flight](https://finnhub.io/api/news?id=0d225ebe7488d4c12ccbfd940b82de01b0ba0971026b8f2c7ea62845717047ab)**  
-*SeekingAlpha · 7h前*  
-Rocket Lab (RKLB) stock is a buy, as revenue rose 73% to $267.8 million; Neutron slips to 2027, with shares at 27.2x forward EV/sales.
+- **[SpaceX Just Slid 11% in a Week. Can Elon Musk’s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?](https://finnhub.io/api/news?id=530ba3b219c6f2d412805eda6d73daaa98404a1be450f735426cbc1549970117)**  
+*Yahoo · 7h前*  
+The FCC just handed SpaceX permission for a constellation no regulator has ever approved, yet the stock keeps sliding. Between orbital AI dreams, cooling doubts…
 
-- **[RKLB Stock Rebounds Into Thanksgiving: CFO, COO And Other Execs Sell Nearly $4M In Shares Ahead Of Electron Launch](https://finnhub.io/api/news?id=716673a003d52e62148bb808e24ebb2524ebe0862d3eb3ea3cf7f1486eb29d68)**  
-*Yahoo · 11h前*  
-COO Frank Klein accounted for 58% of the sales, selling $2.23 million in shares.
+- **[AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40?](https://finnhub.io/api/news?id=729972c99b877ea7221b02e9855775bdae777431244025caec695cae068849c1)**  
+*Yahoo · 7h前*  
+A director just put $500,000 of her own money into a stock that has lost most of its value this year, and an analyst has flipped bullish. One bottleneck at Cape…
 
 ---
 
@@ -48,7 +48,7 @@ COO Frank Klein accounted for 58% of the sales, selling $2.23 million in shares.
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $47.02 | — | 自動更新 |
+| 2026-11-27 | 監控 | $47.02 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ COO Frank Klein accounted for 58% of the sales, selling $2.23 million in shares.
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
