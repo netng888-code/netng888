@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,16 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Ainos shares are trading lower. The company announced interim results from its ongoing multi-dose clinical trial evaluating VELDONA for the treatment of Feline Chronic Gingivostomatitis.](https://finnhub.io/api/news?id=9223f2cde1bdaf792d10b376971c210695eeead8df0b6cb78b232c9d7fa911d1)**  
-*Benzinga · 1d前*
+- **[Nokia: AI Growth Is Accelerating While The Valuation Becomes Attractive (Rating Upgrade)](https://finnhub.io/api/news?id=9d7ee18672c0d7af123f71a338d0cb41b638639025f2c467d8dbe788a30ad661)**  
+*SeekingAlpha · 10h前*  
+Nokia Oyj is upgraded to Buy, as the attractive valuation supports a more compelling margin of safety.
 
-- **[European Equities Traded in the US as American Depositary Receipts Slip in Tuesday Trading](https://finnhub.io/api/news?id=53e497c35c71744e93da034f64bd6adf6a4d7042bc9ce4802c6cf8a06c44273f)**  
-*Yahoo · 1d前*  
-European equities traded in the US as American depositary receipts were tracking slightly lower late
+- **[European Equities Traded in the US as American Depositary Receipts Fall Sharply in Wednesday Trading](https://finnhub.io/api/news?id=2826196bc236ecbb7d48154b84e435e318411d420269d16cb6fdc38f63148e4b)**  
+*Yahoo · 20h前*  
+European equities traded in the US as American depositary receipts were sharply lower late Wednesday
 
-- **[Nokia's Impact in the Age of AI](https://finnhub.io/api/news?id=df7268b9fac828c6c306b1c3af63abd8ef179bba43fc0c1d923c84b29561c6a6)**  
-*Yahoo · 1d前*  
-by Subho MukherjeeNORTHAMPTON, MA / ACCESS Newswire / November 24, 2026 / Sustainability is an engine for innovation, collaboration, and long-term impact. As AI…
+- **[Software-Defined Networking and Network Function Virtualization Market Report 2026 | Secure $172.49B as Cisco, Microsoft, Huawei, HPE and Nokia Drive Cloud Automation by 2030](https://finnhub.io/api/news?id=bba45405499e8b54686e265a9e816fa4ce158a39b1f302ceb7ef5d2856125cb6)**  
+*Yahoo · 22h前*  
+Boost ROI with cloud-based SDN/NFV, centralized automation and scalable virtualized services to cut IT costs, optimize resources and improve application perform…
 
 ---
 
@@ -58,4 +59,4 @@ by Subho MukherjeeNORTHAMPTON, MA / ACCESS Newswire / November 24, 2026 / Sustai
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
