@@ -749,13 +749,41 @@
     ⚠️ futu_bridge_v2.py要升級到v3.27（US_STOCKS加US.TSM）先會喺持倉總覽／到期日曆／業績日見到TSM；未升級嘅話，
     PORTFOLIO有TSM但/api/quote冇TSM，持倉表唔會出現呢隻。TSM係20-F外國發行人，預期SEC路線（FCF、secreport.html）
     攞唔到數據（同NOK一樣）；Futu snapshot嘅P/E／EPS／Div照常。
+  v5.49（2026-11-26）：新增「信用風險」指標（CDS替代）——單一公司CDS係OTC收費數據（S&P／LSEG／ICE），免費冇，亦冇Futu接口；
+    改用Futu MCP quote_financials_statements(statement_type=4關鍵指標)嘅最新季財報指標推算：利息覆蓋、長期債務／權益(LTD/E)、
+    Quick Ratio、營運利潤率。燈號規則：🟠燒錢（營運利潤率<-20%且LTD/E<10%，風險係燒錢／攤薄，唔係違約）；🔴紅（利息覆蓋<0且LTD/E>100%，
+    或Quick<0.5）；🟡黃（利息覆蓋<0，或LTD/E>100%，或Quick<1）；否則🟢。顯示三處：(1)「持倉總覽」基本面cell加一行「信用」；
+    (2)「GEX + K線」基本面row加第6張卡；(3)「到期日曆」持倉快照加一行。數據：內嵌CREDIT快照（2026-11-26）；另外頁面載入時
+    會試fetch同目錄credit.json覆蓋（file://或冇該檔就靜默跳過，繼續用內嵌版），日後只需更新credit.json，唔使改HTML。
+    ⚠️ 快照唔係實時：每季財報後要重拉；INTC嘅Futu利息覆蓋(-7.8)同營運利潤率(+10%)互相矛盾，燈號僅作參考；SERV利息覆蓋異常值已剔除；
+    非持倉股票冇資料，顯示「—」。唔使升級futu_bridge。
+  v5.50（2026-11-26）：「持倉總覽」table闊度修正——v5.49加咗信用行之後基本面cell更闊，「操作」欄（TV／FV／GE／SEC／OC）被推出畫面右邊，
+    要橫向scroll先見到。修正三點：(1)「操作」欄凍結（sticky right），同「代碼」欄一樣永遠喺畫面邊，唔使scroll；(2) 5個按鈕改3＋2兩行
+    排列，欄闊由約190px縮到約95px；(3) us-table儲存格左右padding 12→8px，T1／T2／T3欄min-width收窄（130→116／100→84）。
+    只影響「持倉總覽」table（table.us-table），到期日曆／港股table冇變。
+  v5.51（2026-11-26）【到期日曆tab「每次打開都困難、部分開唔到」——根源同修正】
+    根源（對照futu_bridge_v2 v3.19／v3.27）：
+    (a) bridge冷cache時/api/options_calendar要19次get_option_expiration_date，Futu限「每30秒10次」、bridge限流9次／30.5秒，
+        最少要約61秒；舊前端timeout只有30秒→必定超時，仲誤報「無法連接Bridge」。bridge其實仲跑緊，用戶再撳刷新就開第2個
+        request，雙倍燒quota，愈撳愈慢。
+    (b) 每次切入呢個tab都重新開一輪全部19隻GEX快照（sequential，冷cache每隻都要排隊＋限流，全程1-3分鐘），冇「已經跑緊就唔好
+        再開」嘅保護，切換tab／撳刷新會疊多輪，排隊嘅request互相拖到timeout；睇唔到進度，失敗要自己逐隻撞運氣。
+    (c) 失敗原因被「無法連接Bridge」蓋住；到期日曆結果冇本機緩存，bridge冇回應就成頁空白。
+    修正：(1) 到期日曆結果存localStorage（6小時內直接用，唔使再call；超時／失敗就顯示舊緩存＋警告，唔會空白），日期距今日數
+    每次渲染重新計；(2) options_calendar timeout 30→180秒，single-flight（已經喺度攞就唔開第2個），錯誤分類：超時／連唔到Bridge／HTTP；
+    (3) 快照改成單一worker＋queue：已經跑緊唔會重開，切換tab只係重畫；5分鐘內攞過而成功嘅唔再攞（對齊bridge GEX 5分鐘cache）；
+    (4) 新增進度行「持倉快照 n/19·失敗x」＋「🔁重試失敗」掣，每個失敗cell有「🔁重試」；跑完一輪自動補打失敗嘅1次；
+    GEX失敗後舊數據保留（標示失敗），唔會變返空白；(5) 失敗重試等待：期權鏈為空／ret類錯誤等35秒（限流視窗30.5秒），其他8秒；
+    moneyflow timeout 15→45秒；(6) 刷新掣：如果上次結果有errors（bridge會將部分失敗結果緩存24小時），改用days_ahead=46／45交替
+    避開bridge嘅cache key，令刷新真係重查。
+    ⚠️ 建議bridge另外改：options_calendar有errors就唔好緩存（見對話內patch），否則部分symbol會24小時缺席。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.48)</title>
+<title>GEX Chart — Futu Bridge (v5.51)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -873,7 +901,20 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 
 /* Key levels cards */
 .levels{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:20px;}
-.fund-row{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:20px;}
+.fund-row{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:20px;}
+.cr-badge{display:inline-block;font-weight:700;font-size:11.5px;padding:1px 7px;border-radius:9px;border:1px solid var(--border);white-space:nowrap;cursor:help;}
+.cr-green{color:var(--green);border-color:var(--green);}
+.cr-yellow{color:var(--amber);border-color:var(--amber);}
+.cr-red{color:var(--red);border-color:var(--red);}
+.cr-burn{color:#d9730d;border-color:#d9730d;}
+.cr-det{color:var(--muted);font-size:11px;}
+/* v5.50：持倉總覽table收窄＋「操作」欄凍結喺右邊 */
+.tbl-wrap table.us-table th,.tbl-wrap table.us-table td{padding:9px 8px;}
+.tbl-wrap table.us-table td:last-child .act{display:grid;grid-template-columns:repeat(3,auto);gap:3px;justify-content:start;}
+.tbl-wrap table.us-table thead th:last-child{position:sticky;right:0;z-index:3;background:var(--bg3);box-shadow:-2px 0 4px -2px var(--shadow-edge);}
+.tbl-wrap table.us-table tbody td:last-child{position:sticky;right:0;z-index:1;background:var(--bg2);box-shadow:-2px 0 4px -2px var(--shadow-edge);}
+.tbl-wrap table.us-table tbody tr:hover td:last-child{background:linear-gradient(var(--hover),var(--hover)),var(--bg2);}
+.tbl-wrap table.us-table tbody tr.total-row td:last-child{background:linear-gradient(rgba(0,212,170,.04),rgba(0,212,170,.04)),var(--bg2);}
 .fund-src{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.5;font-weight:400;font-family:var(--font-mono);}
 .lcard{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 16px;text-align:center;position:relative;}
 .lcard::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;border-radius:0 0 8px 8px;}
@@ -1443,6 +1484,11 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <div class="lc-val" id="fund-fcf">—</div>
     <div class="fund-src" id="fund-fcf-src">—</div>
   </div>
+  <div class="lcard fund">
+    <div class="lc-label">信用風險（財報推算，非CDS）</div>
+    <div class="lc-val" id="fund-credit" style="font-size:16px">—</div>
+    <div class="fund-src" id="fund-credit-src">—</div>
+  </div>
 </div>
 
 <!-- Dealer Gamma / 資金流趨勢（v5.11新增，同上次快照day-over-day比較） -->
@@ -1632,7 +1678,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     整合全部19隻持倉嘅期權到期日（未來45日內）。GEX Wall建基於期權OI，OPEX一過相關到期日嘅OI會「roll off」，Call/Put Wall好可能大幅跳動——留意🟢Monthly／🟣Quarterly（Triple Witching）呢兩類，OI通常最大、Max Pain磁吸效應最明顯。
   </div>
   <div class="ctrl">
-    <button class="refresh-btn primary" onclick="fetchOptionsCalendar()">↻ 刷新</button>
+    <button class="refresh-btn primary" onclick="calRefreshAll()">↻ 刷新</button>
     <div class="legend">
       <span class="leg" style="color:var(--purple)">🟣 Quarterly</span>
       <span class="leg" style="color:var(--green)">🟢 Monthly OPEX</span>
@@ -1649,6 +1695,7 @@ footer{margin-top:20px;display:flex;align-items:center;justify-content:space-bet
     <span><span class="dl-swatch" style="background:transparent;border:1px solid var(--border)"></span>14日以上</span>
   </div>
   <div id="cal-summary"></div>
+  <div id="cal-progress" style="font-size:12px;color:var(--muted);margin:0 0 10px;line-height:1.7"></div>
   <div id="cal-content"><div class="loading"><span class="spin"></span>連接 Bridge...</div></div>
 </div>
 
@@ -2150,6 +2197,293 @@ const hCls = v => v==null?'neu':Number(v)>0?'pos':Number(v)<0?'neg':'neu';
 let fundamentalsBySym = {};
 let lastUSRows = [];
 
+// ── 信用風險（v5.49新增，CDS替代）──────────────────────────────────
+// 單一公司CDS係OTC收費數據，免費冇。改用財報指標推算燈號（Futu MCP statement_type=4最新季）。
+// CREDIT內嵌快照；loadCreditJson()會試fetch同目錄credit.json覆蓋（失敗就靜默用內嵌版）。
+let CREDIT = {
+ "asof": "2026-11-26",
+ "rule": "burn: 營運利潤率<-20% 且 LTD/Equity<10% (風險係燒錢/稀釋,唔係違約); red: 利息覆蓋<0 且 LTD/Equity>100%, 或 Quick<0.5; yellow: 利息覆蓋<0, 或 LTD/Equity>100%, 或 Quick<1; 否則 green",
+ "data": {
+  "GOOGL": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": 94.5,
+   "ltd_equity_pct": 21.5,
+   "debt_asset_pct": 14.1,
+   "current": 2.79,
+   "quick": 2.51,
+   "op_margin_pct": 33.3,
+   "flag": "green"
+  },
+  "NVDA": {
+   "period": "2027/Q3",
+   "ccy": "USD",
+   "int_cov": null,
+   "ltd_equity_pct": 14.3,
+   "debt_asset_pct": 10.2,
+   "current": 4.08,
+   "quick": 3.29,
+   "op_margin_pct": 66.1,
+   "flag": "green"
+  },
+  "TSM": {
+   "period": "2026/Q3",
+   "ccy": "TWD",
+   "int_cov": 255.4,
+   "ltd_equity_pct": 12.2,
+   "debt_asset_pct": 10.6,
+   "current": 2.58,
+   "quick": 2.33,
+   "op_margin_pct": 58.0,
+   "flag": "green"
+  },
+  "AVGO": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": 14.0,
+   "ltd_equity_pct": 57.3,
+   "debt_asset_pct": 31.6,
+   "current": 2.5,
+   "quick": 2.15,
+   "op_margin_pct": 48.5,
+   "flag": "green"
+  },
+  "META": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": 29.4,
+   "ltd_equity_pct": 40.2,
+   "debt_asset_pct": 24.0,
+   "current": 1.9,
+   "quick": 1.67,
+   "op_margin_pct": 32.9,
+   "flag": "green"
+  },
+  "NOK": {
+   "period": "2026/Q3",
+   "ccy": "EUR",
+   "int_cov": null,
+   "ltd_equity_pct": 12.3,
+   "debt_asset_pct": 9.0,
+   "current": 1.46,
+   "quick": 1.18,
+   "op_margin_pct": 2.9,
+   "flag": "green"
+  },
+  "MRVL": {
+   "period": "2027/Q2",
+   "ccy": "USD",
+   "int_cov": 8.1,
+   "ltd_equity_pct": 28.2,
+   "debt_asset_pct": 19.2,
+   "current": 3.17,
+   "quick": 2.46,
+   "op_margin_pct": 16.8,
+   "flag": "green"
+  },
+  "TER": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": 147.8,
+   "ltd_equity_pct": 3.3,
+   "debt_asset_pct": 2.5,
+   "current": 2.08,
+   "quick": 1.18,
+   "op_margin_pct": 32.6,
+   "flag": "green"
+  },
+  "PLTR": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": null,
+   "ltd_equity_pct": 2.0,
+   "debt_asset_pct": 1.7,
+   "current": 7.1,
+   "quick": 6.92,
+   "op_margin_pct": 45.6,
+   "flag": "green"
+  },
+  "ISRG": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": null,
+   "ltd_equity_pct": null,
+   "debt_asset_pct": null,
+   "current": 3.33,
+   "quick": 2.32,
+   "op_margin_pct": 32.3,
+   "flag": "green"
+  },
+  "OKLO": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": null,
+   "ltd_equity_pct": 0.08,
+   "debt_asset_pct": 0.11,
+   "current": 31.2,
+   "quick": 28.7,
+   "op_margin_pct": -8587.1,
+   "flag": "burn"
+  },
+  "LEU": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": 6.2,
+   "ltd_equity_pct": 106.7,
+   "debt_asset_pct": 41.1,
+   "current": 8.61,
+   "quick": 7.84,
+   "op_margin_pct": -1.3,
+   "flag": "yellow"
+  },
+  "INTC": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": -7.8,
+   "ltd_equity_pct": 40.3,
+   "debt_asset_pct": 21.9,
+   "current": 2.21,
+   "quick": 1.55,
+   "op_margin_pct": 10.1,
+   "flag": "yellow"
+  },
+  "CIFR": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": -4.0,
+   "ltd_equity_pct": 916.2,
+   "debt_asset_pct": 73.3,
+   "current": 1.69,
+   "quick": 0.46,
+   "op_margin_pct": -294.4,
+   "flag": "red"
+  },
+  "RKLB": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": -28.0,
+   "ltd_equity_pct": 2.1,
+   "debt_asset_pct": 1.8,
+   "current": 8.55,
+   "quick": 7.95,
+   "op_margin_pct": -27.6,
+   "flag": "burn"
+  },
+  "VRT": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": 73.5,
+   "ltd_equity_pct": 59.3,
+   "debt_asset_pct": 18.5,
+   "current": 1.39,
+   "quick": 0.93,
+   "op_margin_pct": 20.4,
+   "flag": "yellow"
+  },
+  "RDW": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": null,
+   "ltd_equity_pct": 4.8,
+   "debt_asset_pct": 4.7,
+   "current": 4.2,
+   "quick": 3.5,
+   "op_margin_pct": -38.0,
+   "flag": "burn"
+  },
+  "RR": {
+   "period": "2026/Q3 (截至2026-06)",
+   "ccy": "USD",
+   "int_cov": -71.8,
+   "ltd_equity_pct": 0.09,
+   "debt_asset_pct": 0.17,
+   "current": 93.6,
+   "quick": 92.5,
+   "op_margin_pct": -525.8,
+   "flag": "burn"
+  },
+  "SERV": {
+   "period": "2026/Q3",
+   "ccy": "USD",
+   "int_cov": null,
+   "ltd_equity_pct": 2.2,
+   "debt_asset_pct": 2.9,
+   "current": 10.85,
+   "quick": 10.52,
+   "op_margin_pct": -2207.5,
+   "flag": "burn"
+  }
+ }
+};
+const CR_META = {
+  green:  {ico:'🟢', lbl:'穩健',   cls:'cr-green'},
+  yellow: {ico:'🟡', lbl:'留意',   cls:'cr-yellow'},
+  red:    {ico:'🔴', lbl:'高槓桿', cls:'cr-red'},
+  burn:   {ico:'🟠', lbl:'燒錢型', cls:'cr-burn'}
+};
+function crNum(v, d) { return (v == null || isNaN(Number(v))) ? null : Number(v).toFixed(d); }
+function crLtdTxt(v) { if (v == null) return null; v = Number(v); return v < 10 ? v.toFixed(1) : v.toFixed(0); }
+function creditInfo(sym) {
+  const c = CREDIT && CREDIT.data ? CREDIT.data[sym] : null;
+  if (!c) return null;
+  const m = CR_META[c.flag] || CR_META.green;
+  // 利息覆蓋異常值（例如SERV -211052）唔顯示
+  const ic = (c.int_cov != null && Math.abs(c.int_cov) < 1000) ? crNum(c.int_cov, 1) : null;
+  const ltd = crLtdTxt(c.ltd_equity_pct);
+  const q = crNum(c.quick, 2);
+  const om = crNum(c.op_margin_pct, 0);
+  const short = [];
+  if (c.flag === 'burn') {
+    if (om != null) short.push(`營運利潤率 ${om}%`);
+    if (q != null) short.push(`Quick ${q}`);
+  } else {
+    if (ic != null) short.push(`利息覆蓋 ${ic}x`);
+    if (ltd != null) short.push(`LTD/E ${ltd}%`);
+    if (q != null) short.push(`Quick ${q}`);
+  }
+  const full = [];
+  if (ic != null) full.push(`利息覆蓋 ${ic}x（負數＝營運虧損，未夠賺利息）`);
+  if (ltd != null) full.push(`長期債務/權益 ${ltd}%`);
+  if (c.debt_asset_pct != null) full.push(`負債/資產 ${crNum(c.debt_asset_pct,1)}%`);
+  if (c.current != null) full.push(`流動比率 ${crNum(c.current,2)}`);
+  if (q != null) full.push(`Quick ${q}`);
+  if (om != null) full.push(`營運利潤率 ${om}%`);
+  let stale = '';
+  try {
+    const days = (Date.now() - new Date(CREDIT.asof).getTime()) / 86400000;
+    if (days > 60) stale = `\n⚠ 快照已逾${Math.floor(days)}日，請更新credit.json`;
+  } catch (e) {}
+  const title = `財報推算信用風險（非CDS報價）｜${c.period}｜${c.ccy}\n` + full.join('\n') +
+    (c.flag === 'burn' ? '\n燒錢型：風險係現金耗盡／股權攤薄，唔係債務違約' : '') +
+    `\n快照日期 ${CREDIT.asof}${stale}`;
+  return {c, m, short: short.join(' · '), title: title.replace(/"/g, '&quot;')};
+}
+function creditBadgeHtml(sym) {
+  const i = creditInfo(sym);
+  if (!i) return '';
+  return `<span class="cr-badge ${i.m.cls}" title="${i.title}">${i.m.ico} ${i.m.lbl}</span>`;
+}
+function creditLineHtml(sym) {
+  const i = creditInfo(sym);
+  if (!i) return '';
+  return `信用 ${creditBadgeHtml(sym)} <span class="cr-det">${i.short}</span>`;
+}
+let _creditJsonTried = false;
+async function loadCreditJson() {
+  if (_creditJsonTried) return;
+  _creditJsonTried = true;
+  try {
+    const r = await fetch('credit.json?_=' + Date.now(), {signal: AbortSignal.timeout(8000)});
+    if (!r.ok) return;
+    const d = await r.json();
+    if (d && d.data && Object.keys(d.data).length) {
+      CREDIT = {asof: d.generated || CREDIT.asof, rule: d.rule || CREDIT.rule, data: d.data};
+      if (lastUSRows.length) renderUS(lastUSRows);
+      if (currentSym && lastData && lastData.sym === currentSym) renderFundRow(currentSym, lastData);
+    }
+  } catch (e) { /* file://或冇credit.json：用內嵌快照 */ }
+}
+
 // ── 業績日（v5.40新增）── Finnhub /calendar/earnings，經bridge /api/earnings
 // earningsBySym: {sym: {date:'YYYY-MM-DD', hour:'amc'|'bmo'|'dmh'|'', days:N}}
 let earningsBySym = {};
@@ -2258,7 +2592,7 @@ function fmtFund(sym, r) {
 // tab嘅「持倉快照」cell（calSnapshotCellHtml()）同一設計原則——
 // 多個指標擠入一個靠左對齊、細字、可換行嘅cell，唔使逐個開獨立
 // 欄位，大幅收窄table總闊度。
-function fundCellHtml(fund) {
+function fundCellHtml(fund, sym) {
   const line1Parts = [];
   if (fund.peTxt !== '—')  line1Parts.push(`P/E ${fund.peTxt}`);
   if (fund.epsTxt !== '—') line1Parts.push(`EPS ${fund.epsTxt}`);
@@ -2274,6 +2608,8 @@ function fundCellHtml(fund) {
   const out = [line1];
   if (line2) out.push(line2);
   if (fund.fcfTrendTxt && fund.fcfTrendTxt !== '—') out.push(fund.fcfTrendTxt);   // v5.42新增：FCF趨勢行
+  const _cl = sym ? creditLineHtml(sym) : '';
+  if (_cl) out.push(_cl);   // v5.49新增：信用風險行
   return out.join('<br>');
 }
 
@@ -2368,6 +2704,20 @@ function renderFundRow(sym, gexData) {
   if (fund.fcfTrendTxt && fund.fcfTrendTxt !== '—') srcParts.push(fund.fcfTrendTxt);
   srcEl.innerHTML = srcParts.join('<br>');
   srcEl.title = '單位：美元。口徑同Investing.com「Levered FCF」唔同（後者係扣債務後嘅另一個定義），兩邊數字唔好直接比較。';
+
+  // 信用風險卡（v5.49新增）：只涵蓋持倉；非持倉股票顯示「—」
+  const crEl = document.getElementById('fund-credit');
+  const crSrc = document.getElementById('fund-credit-src');
+  const ci = creditInfo(sym);
+  if (ci) {
+    crEl.innerHTML = creditBadgeHtml(sym);
+    crSrc.innerHTML = `${ci.short}<br>${ci.c.period}（${ci.c.ccy}）· 快照${CREDIT.asof}`;
+    crSrc.title = ci.title.replace(/&quot;/g, '"');
+  } else {
+    crEl.textContent = '—';
+    crSrc.textContent = '只涵蓋持倉股票（財報推算，非CDS）';
+    crSrc.title = '';
+  }
 }
 
 // ── Render US table（移植自futu.html，T1/T2/T3三層報價模型）───
@@ -2392,9 +2742,9 @@ function renderUS(rows) {
   let html = `<div class="tbl-wrap"><table class="us-table">
   <thead><tr>
     <th>代碼</th><th>持股</th>
-    <th class="${cfg.rowCls}" style="min-width:130px">${cfg.icon} T1 LIVE（時段輪動）</th>
-    <th style="min-width:100px">T2 收盤<br><span style="font-size:10px;color:var(--muted)">不變，每天一次</span></th>
-    <th style="min-width:100px">T3 前日收盤<br><span style="font-size:10px;color:var(--muted)">不變，每天一次</span></th>
+    <th class="${cfg.rowCls}" style="min-width:116px">${cfg.icon} T1 LIVE（時段輪動）</th>
+    <th style="min-width:84px">T2 收盤<br><span style="font-size:10px;color:var(--muted)">不變，每天一次</span></th>
+    <th style="min-width:84px">T3 前日收盤<br><span style="font-size:10px;color:var(--muted)">不變，每天一次</span></th>
     <th>成本價</th><th>市值 (USD)</th><th>未實現盈虧</th><th>未實 %</th>
     <th>今日盈虧<br><span style="font-size:10px;color:var(--muted)">${(sess==='regular'||sess==='weekend')?'(T2−T3)×持股':'(T1−T2)×持股'}</span></th>
     <th style="text-align:left;min-width:190px">基本面<br><span style="font-size:10px;color:var(--muted)">P/E・EPS・Div・FCF・Growth・Sector${fcfHint?`<br><span style="color:var(--red)">${fcfHint}</span>`:''}</span></th>
@@ -2459,7 +2809,7 @@ function renderUS(rows) {
       <td class="${uCls==='pos'?'pnl-pos':uCls==='neg'?'pnl-neg':'pnl-neu'}">${fm(unrealized)}</td>
       <td><span class="pct-badge ${uCls}">${unrPct>=0?'+':''}${unrPct.toFixed(2)}%</span></td>
       <td class="td-pnl ${tCls==='pos'?'pnl-pos':tCls==='neg'?'pnl-neg':'pnl-neu'}">${fm(todayPnl)}</td>
-      <td style="text-align:left;font-size:12px;line-height:1.6;white-space:normal;color:var(--muted)">${fundCellHtml(fund)}</td>
+      <td style="text-align:left;font-size:12px;line-height:1.6;white-space:normal;color:var(--muted)">${fundCellHtml(fund, sym)}</td>
       <td><div class="act">
         <a class="lnk" href="https://www.tradingview.com/chart/?symbol=${sym}" target="_blank" rel="noopener" title="${sym} TradingView圖表">TV</a>
         <a class="lnk" href="https://finviz.com/quote.ashx?t=${sym}" target="_blank" rel="noopener" title="${sym} Finviz">FV</a>
@@ -2571,6 +2921,7 @@ async function fetchNow() {
     renderHK(d.hk||[]);
     if ((d.columns||[]).length) renderFI(d.columns,(d.us||[])[0]||null);
     loadEarnings();      // v5.40新增：業績日（backend 12小時cache）
+    loadCreditJson();    // v5.49新增：試fetch credit.json覆蓋內嵌信用快照（只試一次）
     loadFundamentals();  // v5.26新增：P/E TTM／EPS TTM／Div Yield／Growth／Sector，backend有6小時cache，唔會加重負擔
   } catch(e) {
     setStatus(false,false);
@@ -2604,7 +2955,7 @@ function setTab(name) {
   // v5.17：到期日曆lazy load——淨係喺用戶真正撳入呢個tab先call bridge，
   // 唔喺頁面init就攞（backend有24小時cache，重複切換tab唔會加負擔，
   // 但都冇必要每個用戶一開頁就攞埋呢份唔一定會睇嘅數據）。
-  if (name==='calendar') fetchOptionsCalendar();
+  if (name==='calendar') openCalendarTab();   // v5.51：緩存優先＋single-flight
 }
 
 // ── T1 from live quote ─────────────────────────────────────────
@@ -3767,24 +4118,102 @@ const OPEX_TYPE_CFG = {
   weekly:    {label:'Weekly',       icon:'⚪', color:'var(--muted)'},
 };
 
-async function fetchOptionsCalendar() {
+// ── v5.51：到期日曆載入重寫（緩存優先＋single-flight＋錯誤分類）──────────
+const CAL_LS_KEY = 'gexcal_events_v1';
+const CAL_FRESH_MS = 6 * 3600 * 1000;      // 本機緩存6小時內直接用（bridge自己有24小時cache）
+const CAL_FRESH_ERR_MS = 10 * 60 * 1000;   // 結果帶errors（部分symbol失敗）只信10分鐘
+let calEventsMem = null;                    // {ts, data}
+let calFetchPromise = null;                 // single-flight
+let calDaysAhead = 45;
+
+function calLoadLS() {
+  try {
+    const o = JSON.parse(localStorage.getItem(CAL_LS_KEY) || 'null');
+    if (o && o.data && Array.isArray(o.data.events)) return o;
+  } catch (e) {}
+  return null;
+}
+function calSaveLS(data) {
+  try { localStorage.setItem(CAL_LS_KEY, JSON.stringify({ts: Date.now(), data})); } catch (e) {}
+}
+function calErrText(e) {
+  if (e && (e.name === 'TimeoutError' || e.name === 'AbortError'))
+    return 'Bridge超過3分鐘冇回應。Futu期權API限流（每30秒9次），冷cache要1-2分鐘；等多陣再撳「刷新」';
+  if (e instanceof TypeError)
+    return '連唔到Bridge (127.0.0.1:8888)——確認futu_bridge_v2.py運行中、OpenD已登入';
+  return (e && e.message) ? e.message : String(e);
+}
+// 日期距今日數每次渲染重新計（緩存可能係昨日攞嘅），已過期嘅到期日剔除
+function calRecalcEvents(events) {
+  const t = new Date(); const today = Date.UTC(t.getFullYear(), t.getMonth(), t.getDate());
+  return (events || []).map(e => {
+    const p = String(e.date).split('-').map(Number);
+    const days = Math.round((Date.UTC(p[0], p[1]-1, p[2]) - today) / 86400000);
+    return Object.assign({}, e, {days_to_expiry: days});
+  }).filter(e => e.days_to_expiry >= 0);
+}
+
+function openCalendarTab() {
+  const cached = calEventsMem || calLoadLS();
+  if (cached) {
+    calEventsMem = cached;
+    const age = Date.now() - cached.ts;
+    const hasErr = cached.data.errors && Object.keys(cached.data.errors).length;
+    renderOptionsCalendar(cached.data, {ageMs: age});
+    if (age > (hasErr ? CAL_FRESH_ERR_MS : CAL_FRESH_MS)) fetchOptionsCalendar(false, true);  // 背景更新
+    return;
+  }
+  fetchOptionsCalendar(false, false);
+}
+
+// 「刷新」掣：強制重攞到期日＋將全部快照標為過期重攞
+function calRefreshAll() {
+  calQueue.length = 0;
+  Object.keys(calSnapshots).forEach(k => { if (calSnapshots[k]) calSnapshots[k].loadedAt = 0; });
+  calAutoRetried = false;
+  return fetchOptionsCalendar(true, false);
+}
+
+function fetchOptionsCalendar(force = true, background = false) {
+  if (calFetchPromise) return calFetchPromise;     // 已經喺度攞，唔開第2個（雙倍燒Futu quota）
   const contentEl = document.getElementById('cal-content');
   const summaryEl = document.getElementById('cal-summary');
-  contentEl.innerHTML = '<div class="loading"><span class="spin"></span>載入期權到期日曆...</div>';
-  summaryEl.innerHTML = '';
-  document.getElementById('cal-src').textContent = '載入中...';
-  try {
-    const r = await fetch(`${BRIDGE}/api/options_calendar?days_ahead=45`, {signal:AbortSignal.timeout(30000)});
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    const d = await r.json();
-    renderOptionsCalendar(d);
-  } catch (e) {
-    contentEl.innerHTML = `<div class="loading" style="color:var(--red)">
-      ⚠ 無法連接 Bridge (127.0.0.1:8888)<br>
-      <span style="font-size:11px;color:var(--muted)">確認 futu_bridge_v2.py 正在運行，OpenD 已登入。Error: ${e.message}</span>
-    </div>`;
-    document.getElementById('cal-src').textContent = '連接失敗';
+  if (!background) {
+    contentEl.innerHTML = '<div class="loading"><span class="spin"></span>載入期權到期日曆...<br><span style="font-size:11px;color:var(--muted)">Bridge冷cache時要逐隻查19隻持倉（Futu限流），約1-2分鐘，請唔好重覆撳刷新</span></div>';
+    summaryEl.innerHTML = '';
+    document.getElementById('cal-src').textContent = '載入中...';
+  } else {
+    document.getElementById('cal-src').textContent += ' · 背景更新中...';
   }
+  // 上次結果有errors，bridge會緩存24小時；換days_ahead（46／45）避開cache key
+  if (force && calEventsMem && calEventsMem.data.errors && Object.keys(calEventsMem.data.errors).length)
+    calDaysAhead = (calDaysAhead === 45 ? 46 : 45);
+  calFetchPromise = (async () => {
+    try {
+      const r = await fetch(`${BRIDGE}/api/options_calendar?days_ahead=${calDaysAhead}`, {signal: AbortSignal.timeout(180000)});
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const d = await r.json();
+      if (d.error && !(d.events || []).length) throw new Error(d.error);
+      calEventsMem = {ts: Date.now(), data: d};
+      if ((d.events || []).length) calSaveLS(d);
+      renderOptionsCalendar(d, {ageMs: 0});
+    } catch (e) {
+      const cached = calEventsMem || calLoadLS();
+      if (cached) {
+        renderOptionsCalendar(cached.data, {ageMs: Date.now() - cached.ts, warn: calErrText(e)});
+      } else {
+        contentEl.innerHTML = `<div class="loading" style="color:var(--red)">
+          ⚠ 到期日曆載入失敗<br>
+          <span style="font-size:11px;color:var(--muted)">${calErrText(e)}</span><br>
+          <button class="refresh-btn primary" style="margin-top:10px" onclick="fetchOptionsCalendar(true,false)">↻ 重試</button>
+        </div>`;
+        document.getElementById('cal-src').textContent = '載入失敗';
+      }
+    } finally {
+      calFetchPromise = null;
+    }
+  })();
+  return calFetchPromise;
 }
 
 // v5.20新增，v5.21修正：距今日子分級底色——舊版將呢個顏色淋喺
@@ -3817,7 +4246,7 @@ let calSnapshots = {};
 
 function calSnapshotCellHtml(sym) {
   const s = calSnapshots[sym];
-  if (!s) return `<span style="color:var(--muted)">載入中...</span>`;
+  if (!s) return `<span style="color:var(--muted)">${calQueue.includes(sym) ? '排隊中...' : '載入中...'}</span>`;
   if (s.price == null && s.flip == null) return `<span style="color:var(--muted)">快照暫缺</span>`;
 
   const lines = [];
@@ -3865,7 +4294,7 @@ function calSnapshotCellHtml(sym) {
 
   // v5.35：GEX攞失敗要明講，唔再靜靜雞冇Flip/Call/Put
   if (s.flip == null && s.call_wall == null && s.put_wall == null && s.gexErr) {
-    lines.push(`<span style="color:var(--red)">⚠ GEX攞失敗（${String(s.gexErr).slice(0,90)}）· 撳股票代碼可重試</span>`);
+    lines.push(`<span style="color:var(--red)">⚠ GEX攞失敗${s.stale ? '（下面Wall係舊數據）' : ''}（${String(s.gexErr).slice(0,90)}）</span> <a href="#" class="lnk" onclick="calEnqueue(['${sym}'],true);return false">🔁重試</a>`);
   }
 
   // Money Flow：Call/Put Premium Flow佔比 · Order Book Imbalance · Tick Delta
@@ -3889,6 +4318,9 @@ function calSnapshotCellHtml(sym) {
     if (fundBits.length) lines.push(`<span style="color:var(--muted)">${fundBits.join(' · ')}</span>`);
   }
 
+  const _crl = creditLineHtml(sym);   // v5.49新增：信用風險行
+  if (_crl) lines.push(`<span style="color:var(--muted)">${_crl}</span>`);
+
   return lines.join('<br>');
 }
 
@@ -3908,82 +4340,147 @@ function applyCalSnapshotToRows(sym) {
 // 每隻symbol攞完即刻applyCalSnapshotToRows()更新返嗰幾行cell，
 // 唔使等全部攞晒先顯示；個別symbol失敗（gex/moneyflow任一個攞
 // 唔到）唔會累到其他symbol，仍會用攞到嗰部分數據顯示。
-async function fetchCalSnapshotBatch(symbols) {
-  let quotesBySym = {};
+// v5.51：快照改成「單一worker＋queue」。舊版每次開tab／撳刷新都開一輪新嘅sequential loop，
+// 可以疊多輪、冇進度、失敗要自己撞運氣。而家：同一時間只得1個worker；已經喺queue／跑緊嘅唔會重複加；
+// 5分鐘內攞過而成功嘅唔再攞；失敗嘅可以逐隻或者一鍵重試，每輪跑完自動補打失敗嘅1次。
+const CAL_SNAP_TTL_MS = 5 * 60 * 1000;   // 同bridge GEX 5分鐘cache對齊
+let calQueue = [];
+let calWorkerRunning = false;
+let calAutoRetried = false;
+let calAllSyms = [];
+let calQuotes = {};
+
+function calSnapFresh(sym) {
+  const s = calSnapshots[sym];
+  return !!(s && !s.gexErr && s.loadedAt && (Date.now() - s.loadedAt) < CAL_SNAP_TTL_MS);
+}
+function calEnqueue(syms, front) {
+  (syms || []).forEach(sym => {
+    if (calQueue.includes(sym)) return;
+    if (front) calQueue.unshift(sym); else calQueue.push(sym);
+  });
+  calUpdateProgress();
+  calWorker();
+}
+function calUpdateProgress() {
+  const el = document.getElementById('cal-progress');
+  if (!el || !calAllSyms.length) return;
+  const total = calAllSyms.length;
+  const ok = calAllSyms.filter(sym => calSnapshots[sym] && !calSnapshots[sym].gexErr).length;
+  const failed = calAllSyms.filter(sym => calSnapshots[sym] && calSnapshots[sym].gexErr);
+  const pending = total - ok - failed.length;
+  if (calWorkerRunning || calQueue.length) {
+    el.innerHTML = `⏳ 持倉快照 ${ok}/${total} 完成${failed.length ? ` · 失敗 ${failed.length}` : ''}${pending > 0 ? ` · 等待 ${pending}` : ''}`
+      + ` <span style="color:var(--faint)">（Futu期權API限流，冷cache約1-3分鐘；背景跑緊，切換分頁唔會重新開始）</span>`;
+  } else if (failed.length) {
+    el.innerHTML = `⚠ ${failed.length}隻快照失敗：${failed.join('、')} `
+      + `<button class="btn-sec" onclick="calEnqueue(calAllSyms.filter(s=>calSnapshots[s]&&calSnapshots[s].gexErr),true)">🔁 重試失敗</button>`;
+  } else {
+    el.innerHTML = `✅ 持倉快照 ${ok}/${total} 已載入`;
+  }
+}
+async function calRefreshQuotes() {
   try {
-    const r = await fetch(`${BRIDGE}/api/quote`, {signal:AbortSignal.timeout(10000)});
-    if (r.ok) {
-      const dq = await r.json();
-      const sess = curSession;
-      (dq.us||[]).forEach(rec => {
-        const sym = (rec.code||'').replace('US.','');
-        const {price} = getT1(rec, sess);
-        // v5.47（Bug5）：舊版現價跟盤前／盤後／夜盤，百分比卻用rec.change_rate（正規時段漲跌）。
-        // 改為由價格計：盤中／週末對T3（前日收盤），延長時段對T2（今日收盤），同持倉表一致。
-        const _px = price || rec.last_price;
-        const _base = (sess === 'regular' || sess === 'weekend') ? rec.prev_close_price : rec.last_price;
-        quotesBySym[sym] = { price: _px, pct: (_px && _base) ? (_px - _base) / _base * 100 : null };
-      });
+    const r = await fetch(`${BRIDGE}/api/quote`, {signal: AbortSignal.timeout(10000)});
+    if (!r.ok) return;
+    const dq = await r.json();
+    const sess = curSession;
+    (dq.us || []).forEach(rec => {
+      const sym = (rec.code || '').replace('US.', '');
+      const {price} = getT1(rec, sess);
+      // v5.47（Bug5）：百分比由價格計：盤中／週末對T3，延長時段對T2
+      const _px = price || rec.last_price;
+      const _base = (sess === 'regular' || sess === 'weekend') ? rec.prev_close_price : rec.last_price;
+      calQuotes[sym] = {price: _px, pct: (_px && _base) ? (_px - _base) / _base * 100 : null};
+    });
+  } catch (e) {}
+}
+async function calFetchOneSnapshot(sym) {
+  let gex = null, mf = null, gexErr = null;
+  // GEX失敗自動重試1次；期權鏈為空／ret類＝Futu限流，等35秒（限流視窗30.5秒），其他錯誤等8秒
+  for (let attempt = 0; attempt < 2 && !gex; attempt++) {
+    try {
+      const rg = await fetch(`${BRIDGE}/api/gex/${sym}?max_expirations=2`, {signal: AbortSignal.timeout(150000)});
+      const dg = await rg.json();
+      if (!dg.error && dg.call_wall) gex = dg; else gexErr = dg.error || 'no call_wall';
+    } catch (e) { gexErr = (e && (e.name === 'TimeoutError' || e.name === 'AbortError')) ? '超時（Bridge排隊／限流）' : e.message; }
+    if (!gex && attempt === 0) {
+      const wait = /期權鏈為空|ret=|限流|超時/.test(String(gexErr)) ? 35000 : 8000;
+      await new Promise(r => setTimeout(r, wait));
     }
-  } catch(e) {}
+  }
+  try {
+    const rm = await fetch(`${BRIDGE}/api/moneyflow/${sym}`, {signal: AbortSignal.timeout(45000)});   // v5.51：15→45秒
+    if (rm.ok) { const dm = await rm.json(); if (!dm.error) mf = dm; }
+  } catch (e) {}
+  await loadFundamentalsFor(sym);
 
-  // v5.35：BATCH 4→1。bridge v3.18有_futu_lock令Futu call排隊，前端並行只會令
-  // timeout計時白白浪費（冷cache排後面嗰隻會等到超時）
-  const BATCH = 1;
-  for (let i = 0; i < symbols.length; i += BATCH) {
-    const chunk = symbols.slice(i, i + BATCH);
-    await Promise.all(chunk.map(async sym => {
-      let gex = null, mf = null, gexErr = null;
-      // v5.35：GEX失敗自動重試1次，並記低原因（舊版靜音，見頁首changelog）
-      for (let attempt = 0; attempt < 2 && !gex; attempt++) {
-        try {
-          const rg = await fetch(`${BRIDGE}/api/gex/${sym}?max_expirations=2`, {signal:AbortSignal.timeout(150000)});
-          const dg = await rg.json();
-          if (!dg.error && dg.call_wall) gex = dg; else gexErr = dg.error || 'no call_wall';
-        } catch(e) { gexErr = e.message; }
-        if (!gex && attempt === 0) await new Promise(r => setTimeout(r, 8000));  // v5.36：重試前等8秒，避開Futu期權API頻率限制
+  const q = calQuotes[sym] || {};
+  const prev = calSnapshots[sym];
+  const pf = mf && mf.premium_flow;
+  const flowLow = mfPremiumSampleLow(pf);   // v5.47（A）
+  const callPct = (pf && !flowLow && (pf.call_premium + pf.put_premium) > 0)
+    ? pf.call_premium / (pf.call_premium + pf.put_premium) * 100 : null;
+
+  const snap = {
+    price: q.price ?? (gex ? gex.spot : (prev ? prev.price : null)),
+    pct: q.pct ?? (prev ? prev.pct : null),
+    flip: gex ? gex.flip : null,
+    call_wall: gex ? gex.call_wall : null,
+    put_wall: gex ? gex.put_wall : null,
+    dealer_bias: gex ? gex.dealer_bias : null,
+    call_pct: callPct,
+    flow_low: flowLow,
+    book_imbalance: (mf && mf.order_book) ? mf.order_book.imbalance : null,
+    tick_delta: (mf && mf.tick_delta) ? mf.tick_delta.tick_delta : null,
+    fund: fmtFund(sym, gex || {}),
+    gexErr: gex ? null : gexErr,
+    loadedAt: Date.now(),
+  };
+  // GEX今次失敗但之前攞過：保留舊Wall／Flip（連同失敗標示），唔好變返空白
+  if (!gex && prev && prev.flip != null) {
+    snap.flip = prev.flip; snap.call_wall = prev.call_wall; snap.put_wall = prev.put_wall;
+    snap.dealer_bias = prev.dealer_bias; snap.stale = true;
+  }
+  calSnapshots[sym] = snap;
+  applyCalSnapshotToRows(sym);
+  return !!gex;
+}
+async function calWorker() {
+  if (calWorkerRunning) return;
+  calWorkerRunning = true;
+  try {
+    await calRefreshQuotes();
+    while (true) {
+      while (calQueue.length) {
+        const sym = calQueue.shift();
+        if (calSnapFresh(sym)) { calUpdateProgress(); continue; }
+        try { await calFetchOneSnapshot(sym); } catch (e) { console.warn('cal snapshot', sym, e); }
+        calUpdateProgress();
       }
-      try {
-        const rm = await fetch(`${BRIDGE}/api/moneyflow/${sym}`, {signal:AbortSignal.timeout(15000)});
-        if (rm.ok) { const dm = await rm.json(); if (!dm.error) mf = dm; }
-      } catch(e) {}
-      // 基本面（v5.27新增）：P/E TTM／EPS TTM／Div Yield TTM讀gex
-      // response（bridge v3.14已加pe_ttm_ratio等欄位，零額外API
-      // call）；EPS Growth YoY要另外call Finnhub（loadFundamentalsFor，
-      // 內部有cache，持倉symbol如果之前已經喺「持倉總覽」攞過就
-      // 唔會重複fetch）。
-      await loadFundamentalsFor(sym);
-
-      const q = quotesBySym[sym] || {};
-      const pf = mf && mf.premium_flow;
-      const flowLow = mfPremiumSampleLow(pf);   // v5.47（A）
-      const callPct = (pf && !flowLow && (pf.call_premium + pf.put_premium) > 0)
-        ? pf.call_premium / (pf.call_premium + pf.put_premium) * 100 : null;
-
-      calSnapshots[sym] = {
-        price: q.price ?? (gex ? gex.spot : null),
-        pct: q.pct ?? null,
-        flip: gex ? gex.flip : null,
-        call_wall: gex ? gex.call_wall : null,
-        put_wall: gex ? gex.put_wall : null,
-        dealer_bias: gex ? gex.dealer_bias : null,
-        call_pct: callPct,
-        flow_low: flowLow,
-        book_imbalance: (mf && mf.order_book) ? mf.order_book.imbalance : null,
-        tick_delta: (mf && mf.tick_delta) ? mf.tick_delta.tick_delta : null,
-        fund: fmtFund(sym, gex || {}),
-        gexErr: gex ? null : gexErr,
-      };
-      applyCalSnapshotToRows(sym);
-    }));
+      // 一輪跑完：自動補打失敗嘅1次
+      const failed = calAllSyms.filter(sym => calSnapshots[sym] && calSnapshots[sym].gexErr);
+      if (!calAutoRetried && failed.length) {
+        calAutoRetried = true;
+        await new Promise(r => setTimeout(r, 5000));
+        failed.forEach(sym => calQueue.push(sym));
+        continue;
+      }
+      break;
+    }
+  } finally {
+    calWorkerRunning = false;
+    calUpdateProgress();
   }
 }
 
-function renderOptionsCalendar(d) {
-  const events   = d.events || [];
+function renderOptionsCalendar(d, opts) {
+  opts = opts || {};
+  const events   = calRecalcEvents(d.events || []);   // v5.51：距今日數每次重新計，剔除已過期
   const contentEl = document.getElementById('cal-content');
   const summaryEl = document.getElementById('cal-summary');
-  const srcTag = d.cached ? '（緩存，24小時TTL）' : '（剛從Futu OpenD攞）';
+  let srcTag = d.cached ? '（Bridge緩存，24小時TTL）' : '（剛從Futu OpenD攞）';
+  if (opts.ageMs > 60000) srcTag = `（本機緩存 ${opts.ageMs >= 3600000 ? Math.floor(opts.ageMs/3600000) + '小時' : Math.floor(opts.ageMs/60000) + '分鐘'}前）`;
   document.getElementById('cal-src').textContent = `Futu · 未來${d.days_ahead || 45}日 ${srcTag}`;
 
   if (!events.length) {
@@ -4030,8 +4527,13 @@ function renderOptionsCalendar(d) {
   // v5.20：背景批量攞每隻唯一symbol嘅現價/GEX/Money Flow快照，
   // 攞完即刻update返對應嘅cell（見fetchCalSnapshotBatch()同
   // applyCalSnapshotToRows()），唔阻住上面表格已經顯示晒嘅日期。
+  if (opts.warn) {
+    contentEl.insertAdjacentHTML('afterbegin', `<div class="realized-banner" style="border-color:rgba(255,77,109,.35);background:rgba(255,77,109,.07);margin-bottom:12px">
+      ⚠ 今次更新失敗，以下係本機緩存嘅到期日曆：${opts.warn}</div>`);
+  }
   const uniqueSyms = [...new Set(events.map(e => e.sym))];
-  fetchCalSnapshotBatch(uniqueSyms);
+  calAllSyms = uniqueSyms;
+  calEnqueue(uniqueSyms.filter(sym => !calSnapFresh(sym)), false);   // v5.51：queue＋single worker
 }
 
 // ── Init ─────────────────────────────────────────────────────
