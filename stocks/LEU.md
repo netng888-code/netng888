@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-26 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Big Tech Dollars Flow To The Nuclear Supply Chain](https://finnhub.io/api/news?id=0bf9cbdf40d27d92e38c23c44a385678a859d0d88eabfb69147fc7a187c1daaf)**  
-*SeekingAlpha · 1d前*  
-Activity is picking up across the nuclear fuel and supply chain, with updates from multiple companies in the VettaFi Nuclear Renaissance Index (NUKZX).
+- **[What Triggered The Move In Cameco Stock?](https://finnhub.io/api/news?id=59151c402489be5f46d0f85c32da76030444306ab926734988cc148e0e54ae2c)**  
+*Yahoo · 15h前*  
+Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
 
-- **[Centrus Energy to Host Investor Day on December 7, 2026](https://finnhub.io/api/news?id=afbccb7b539f02ba3df4c6563bb582b8db9e60d91caac87486d728fe1328de09)**  
+- **[Prediction: Oklo Stock Could Have a Huge Year as Nuclear Energy Demand Accelerates](https://finnhub.io/api/news?id=16763cd3b7cf45e2b648ccf59564d58d82fc6f622f0697c7dcba2cf9b3c60078)**  
+*Yahoo · 18h前*  
+Oklo has lost most of its value this year, yet it sits on billions in cash and a reactor already taking shape in Idaho. Why one model still sees a discount hidi…
+
+- **[Oklo Sinks 14% in a Week, NuScale Down 19%, as the AI Selloff Hits Nuclear Stocks. Time to Buy?](https://finnhub.io/api/news?id=431b049420e388a644e5496b26a813fcfa5b12826bc96a4ea59b0f9ec962860c)**  
 *Yahoo · 1d前*  
-Centrus Energy (NYSE: LEU) today announced that it will host an Investor Day on Monday, December 7, 2026, at its American Centrifuge Plant in Piketon, Ohio.
-
-- **[What Sent Cameco Stock Lower Again?](https://finnhub.io/api/news?id=bcc19ff5a9a865c15e5efc75f54ab7ffb3b96f5c7d7b82164722605f7441435e)**  
-*Yahoo · 2d前*  
-Today’s big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
+Key TakeawaysOklo fell 14% in a week with no bad news of its own, as the AI selloff hit NuScale Power and Bloom Energy too. Oklo’s own news was good: a test rea…
 
 ---
 
@@ -59,4 +59,4 @@ Today’s big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
