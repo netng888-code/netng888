@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-26 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[Nokia: AI Growth Is Accelerating While The Valuation Becomes Attractive (Rating Upgrade)](https://finnhub.io/api/news?id=9d7ee18672c0d7af123f71a338d0cb41b638639025f2c467d8dbe788a30ad661)**  
-*SeekingAlpha · 10h前*  
+*SeekingAlpha · 20h前*  
 Nokia Oyj is upgraded to Buy, as the attractive valuation supports a more compelling margin of safety.
 
 - **[European Equities Traded in the US as American Depositary Receipts Fall Sharply in Wednesday Trading](https://finnhub.io/api/news?id=2826196bc236ecbb7d48154b84e435e318411d420269d16cb6fdc38f63148e4b)**  
-*Yahoo · 20h前*  
+*Yahoo · 1d前*  
 European equities traded in the US as American depositary receipts were sharply lower late Wednesday
 
 - **[Software-Defined Networking and Network Function Virtualization Market Report 2026 | Secure $172.49B as Cisco, Microsoft, Huawei, HPE and Nokia Drive Cloud Automation by 2030](https://finnhub.io/api/news?id=bba45405499e8b54686e265a9e816fa4ce158a39b1f302ceb7ef5d2856125cb6)**  
-*Yahoo · 22h前*  
+*Yahoo · 1d前*  
 Boost ROI with cloud-based SDN/NFV, centralized automation and scalable virtualized services to cut IT costs, optimize resources and improve application perform…
 
 ---
@@ -48,7 +48,7 @@ Boost ROI with cloud-based SDN/NFV, centralized automation and scalable virtuali
 
 | 日期 | 動作 | 價格 | 數量 | 備註 |
 |------|------|------|------|------|
-| 2026-11-26 | 監控 | $7.30 | — | 自動更新 |
+| 2026-11-27 | 監控 | $7.30 | — | 自動更新 |
 
 ---
 
@@ -59,4 +59,4 @@ Boost ROI with cloud-based SDN/NFV, centralized automation and scalable virtuali
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 21:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
