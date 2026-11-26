@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-26 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-26 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $596.49 | — |
+| Gamma Flip | $599.24 | — |
 | Put Wall（支撐） | $600.00 | -1.6% |
 | Call Wall（阻力） | $700.00 | +14.8% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Anthropic Broke Its $83 IPO Price. Most Giants Recovered](https://finnhub.io/api/news?id=ec22ad20f7080ace31b67693f84f8fa1912a6c9f8107347cfed163b9d9639fc5)**  
+- **[Anthropic Broke Its $83 IPO Price. What Did Facebook Do Next?](https://finnhub.io/api/news?id=94d179dd3d173552dd2aa43bdbb1843d6a2bfc50438be70c6bd0dad1fab492b9)**  
+*Yahoo · 1h前*  
+Anthropic (ANT) closed at $82.79 on Wednesday, Nov 25. That is 0.3% below its $83 IPO price. It is also 14.8% below its $97.17 first close, only five trading da…
+
+- **[What Direxion Daily S&P 500 Bull 3X ETF (SPXL) Bought: Apple Leads on Tuesday](https://finnhub.io/api/news?id=8547da7c79d35caa79b21c1285e1c30435762edc348fe64b95cfe263654c93fd)**  
+*Yahoo · 1h前*  
+The fund added $217.2 million in gross buys across 397 positions, with Apple's $22.1 million purchase the largest.
+
+- **[ETFs Are Net Sellers of Meta Platforms (META) on Tuesday](https://finnhub.io/api/news?id=9e6590911d02a67030e1b814c17583f4a40660a7c904b9e7101c1714e7fb7cd2)**  
 *Yahoo · 2h前*  
-Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
-
-- **[Nvidia is cheap on paper, so why won't the market buy it?](https://finnhub.io/api/news?id=6f7b910f4effa634856b55ef8cddb0da1edcbabefe30a96aad309e3931e472ea)**  
-*Yahoo · 3h前*  
-Market Hang tackles the top stories of the day. Including Nvidia giving back about half of its Jensen Huang rally and why a stock growing sales 60% to 70% can t…
-
-- **[Meta Says Muse “Raises Conversions for Advertisers.” It Already Places 51% of AI Agent Orders](https://finnhub.io/api/news?id=66377c41610ddd5a64a9b229988bc955c6db5c28b75c02b72b702f8f91b9c47f)**  
-*Yahoo · 3h前*  
-Key TakeawaysMeta was behind 51% of the AI agents placing orders over the past week, ahead of SpaceX’s Grok at 24%, and Muse can now shop Walmart’s Black Friday…
+ETFs sold a net $65.1 million of Meta Platforms (META) on Tuesday, Nov. 24.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysMeta was behind 51% of the AI agents placing orders over the past w
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-26 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-26 21:04 HKT*
