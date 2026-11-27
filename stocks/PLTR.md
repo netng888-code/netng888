@@ -1,6 +1,6 @@
 # PLTR — Palantir
 
-> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Palantir Stocks Rise 1.5% After Peter Thiel Discloses a $122 Million Share Purchase](https://finnhub.io/api/news?id=82cbe9ab8a81b0f2a64b120ca62272f8b5f7b1724f768834d7f0ee673af08e8c)**  
-*Yahoo · 4h前*  
-The director bought 850,100 shares on November 20 under a trading plan, and the shares have since climbed 14%.
+- **[Palantir Nears AI Defense Deal With Poland's Defense Ministry](https://finnhub.io/api/news?id=b55134f66b56bf9b71d0e457e91e3272482658a40bad9d1bba90f239e1223830)**  
+*Yahoo · 1h前*  
+The agreement expands Palantir's cooperation with Poland in artificial intelligence and defense technology.
 
-- **[Palantir Closed 212 Deals Worth at Least $1 Million. Here’s What That Means for Its Growth](https://finnhub.io/api/news?id=9c817d10f82c6db0f79e431bc217627194450b62f4dda53e6891a4847634169f)**  
-*Yahoo · 7h前*  
-Palantir just posted its best quarter ever, yet the stock has still tumbled more than 20% in a month. One lagging metric may explain why investors are nervous, …
+- **[What ARK Autonomous Technology & Robotics ETF (ARKQ) Sold: Tesla Leads on Nov. 25](https://finnhub.io/api/news?id=d69369fa7e4f13e57ca523452239620d2d5bdd59a7e8bc461c5962a8d5e05108)**  
+*Yahoo · 1h前*  
+The fund sold $149.6 million of stock, cutting 33 positions and adding none, with Tesla and SpaceX the largest reductions.
 
-- **[Michael Burry exits Nasdaq-100 short](https://finnhub.io/api/news?id=ca7082fe5ada2b11982be893cc1dc466d40fc2bb591f054101fa1792be804657)**  
-*Yahoo · 8h前*  
-Michael Burry disclosed Wednesday that he had exited his Nasdaq-100 short by selling the last of his put options on the tech-heavy index, while keeping puts on …
+- **[ETFs Are Buying Palantir (PLTR) on Wednesday](https://finnhub.io/api/news?id=b9875d0d0b31e64d7b5caccad290ba77e60e6749582c5b038787ebe65204ccda)**  
+*Yahoo · 2h前*  
+ETFs bought $59.2 million of Palantir stock on Wednesday, with 38 buyers against 23 sellers.
 
 ---
 
@@ -59,4 +59,4 @@ Michael Burry disclosed Wednesday that he had exited his Nasdaq-100 short by sel
 - [TradingView](https://www.tradingview.com/chart/?symbol=PLTR)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:05 HKT*
