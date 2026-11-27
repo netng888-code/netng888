@@ -1,6 +1,6 @@
 # ISRG — 直覺外科公司
 
-> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Intuitive Surgical, Inc. (ISRG)’s Recurring Revenue and da Vinci 5 Platform Support Its 2027 Outlook](https://finnhub.io/api/news?id=749118849ee16deca11602df6812707eb51314ce0cef28d126b1894424270ab7)**  
-*Yahoo · 2h前*  
-We just published our list, 10 Best Healthcare Stocks To Buy for 2027, and Intuitive Surgical, Inc. ranked 6th on this list. The healthcare sector is emerging a…
+- **[iShares U.S. Medical Devices (IHI) Buys $18.6 Million More ABT on Nov. 25](https://finnhub.io/api/news?id=c055f99a2a3d179072beec891e1a95629f5b0f0a5d8c628fb294c6716b4887c9)**  
+*Yahoo · 1h前*  
+The fund added $106.9 million across all 47 of its positions, led by an $18.6 million increase in Abbott Laboratories.
 
-- **[Can ISRG's XiR Drive Growth as Ambulatory Surgery Center Expands?](https://finnhub.io/api/news?id=749ce37d9b681ce051fa47330fe2a66731bd67d541c6c88a16073a7332fe4a35)**  
-*Yahoo · 5h前*  
-XiR could help Intuitive Surgical tap the expanding ASC market, but adoption remains a multiyear growth opportunity rather than an immediate revenue driver.
-
-- **[Smith+Nephew's TENDON SEAM Shows Superior Rotator Cuff Repair Strength](https://finnhub.io/api/news?id=66bf569f2f1718b3788632de4716809161beec1c5d5a013650f76a8cf0044525)**  
+- **[Minimally Invasive Surgery Market to Reach USD 217.3 Billion by 2031, Growing at 15.2% CAGR as Robotic Rivals Challenge Intuitive's Lead: Wissen Research](https://finnhub.io/api/news?id=04f5d7a8455598d7f5b69e2c5c262b40d1c3094f1668cbb371e13174c008b91f)**  
 *Yahoo · 6h前*  
-SNN's TENDON SEAM demonstrates superior rotator cuff repair strength and stability, potentially unlocking new growth opportunities in sports medicine.
+The global minimally invasive surgery market is valued at USD 106.9 billion in 2026 and is projected to reach USD 217.3 billion by 2031, growing at a CAGR of 15…
+
+- **[Intuitive Surgical, Inc. (ISRG)’s Recurring Revenue and da Vinci 5 Platform Support Its 2027 Outlook](https://finnhub.io/api/news?id=749118849ee16deca11602df6812707eb51314ce0cef28d126b1894424270ab7)**  
+*Yahoo · 16h前*  
+We just published our list, 10 Best Healthcare Stocks To Buy for 2027, and Intuitive Surgical, Inc. ranked 6th on this list. The healthcare sector is emerging a…
 
 ---
 
@@ -59,4 +59,4 @@ SNN's TENDON SEAM demonstrates superior rotator cuff repair strength and stabili
 - [TradingView](https://www.tradingview.com/chart/?symbol=ISRG)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:05 HKT*
