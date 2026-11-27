@@ -1,6 +1,6 @@
 # LEU — Centrus Energy
 
-> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[What Triggered The Move In Cameco Stock?](https://finnhub.io/api/news?id=59151c402489be5f46d0f85c32da76030444306ab926734988cc148e0e54ae2c)**  
-*Yahoo · 1d前*  
-Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.
+- **[Top 3 Nuclear Power Stocks To Watch In November 2026](https://finnhub.io/api/news?id=58fbeceb03a8a88008b0eae54cfbcc2dfc34f9247642f7946f46b2f737dbd9f7)**  
+*Yahoo · 19h前*  
+Rising oil supply worries after reported attacks on ships in the Strait of Hormuz have pushed energy security back to the forefront. When fuel routes look fragi…
 
-- **[Prediction: Oklo Stock Could Have a Huge Year as Nuclear Energy Demand Accelerates](https://finnhub.io/api/news?id=16763cd3b7cf45e2b648ccf59564d58d82fc6f622f0697c7dcba2cf9b3c60078)**  
-*Yahoo · 1d前*  
-Oklo has lost most of its value this year, yet it sits on billions in cash and a reactor already taking shape in Idaho. Why one model still sees a discount hidi…
+- **[Energy Fuels vs. Centrus Energy: Which Uranium Stock Has The Edge Now?](https://finnhub.io/api/news?id=bf251b9f95e155bb8bf15cb982035a5a354bff65eb7880c2a2d91a76068255b1)**  
+*Yahoo · 23h前*  
+UUUU and LEU offer promising uranium growth prospects, but profitability pressures and execution risks raise questions about which stock has the edge.
 
-- **[Oklo Sinks 14% in a Week, NuScale Down 19%, as the AI Selloff Hits Nuclear Stocks. Time to Buy?](https://finnhub.io/api/news?id=431b049420e388a644e5496b26a813fcfa5b12826bc96a4ea59b0f9ec962860c)**  
+- **[Can BWXT's Antares Deal Boost Its Advanced Nuclear Fuel Business?](https://finnhub.io/api/news?id=9a3adc4c4bc85dcf433d2af12ec41608cb0b5c154e686530a1a373657725e4fc)**  
 *Yahoo · 1d前*  
-Key TakeawaysOklo fell 14% in a week with no bad news of its own, as the AI selloff hit NuScale Power and Bloom Energy too. Oklo’s own news was good: a test rea…
+BWX Technologies' multi-year TRISO fuel agreement with Antares opens new growth opportunities in the emerging microreactor market as advanced reactor deployment…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysOklo fell 14% in a week with no bad news of its own, as the AI sell
 - [TradingView](https://www.tradingview.com/chart/?symbol=LEU)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:05 HKT*
