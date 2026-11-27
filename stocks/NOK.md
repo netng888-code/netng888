@@ -1,6 +1,6 @@
 # NOK — 諾基亞
 
-> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📰 最新新聞
 
 - **[Nokia: AI Growth Is Accelerating While The Valuation Becomes Attractive (Rating Upgrade)](https://finnhub.io/api/news?id=9d7ee18672c0d7af123f71a338d0cb41b638639025f2c467d8dbe788a30ad661)**  
-*SeekingAlpha · 20h前*  
+*SeekingAlpha · 1d前*  
 Nokia Oyj is upgraded to Buy, as the attractive valuation supports a more compelling margin of safety.
 
 - **[European Equities Traded in the US as American Depositary Receipts Fall Sharply in Wednesday Trading](https://finnhub.io/api/news?id=2826196bc236ecbb7d48154b84e435e318411d420269d16cb6fdc38f63148e4b)**  
@@ -59,4 +59,4 @@ Boost ROI with cloud-based SDN/NFV, centralized automation and scalable virtuali
 - [TradingView](https://www.tradingview.com/chart/?symbol=NOK)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:04 HKT*
