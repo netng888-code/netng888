@@ -1,6 +1,6 @@
 # RKLB — Rocket Lab
 
-> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Rocket Lab Stock Just Fell to Its Lowest Price in About a Year. Is It a Buy Now?](https://finnhub.io/api/news?id=321013b5d87b7af2e0dea405c3d2a0b23bacfe10c24793420f90dd7d8a586383)**  
-*Yahoo · 7h前*  
-Shares are back where they were a year ago, but the business behind them is much bigger.
+- **[Rocket Lab Secures $515 Million in Neutron Launch Orders Ahead of 2027 Debut](https://finnhub.io/api/news?id=8d0a852ed523dbf40af64db3742b30615b37a3f2732444645d9bdb18faf51507)**  
+*Yahoo · 1h前*  
+The company's total order backlog reaches $3.57 billion despite delays in its next-generation rocket program.
 
-- **[SpaceX Just Slid 11% in a Week. Can Elon Musk’s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?](https://finnhub.io/api/news?id=530ba3b219c6f2d412805eda6d73daaa98404a1be450f735426cbc1549970117)**  
-*Yahoo · 7h前*  
-The FCC just handed SpaceX permission for a constellation no regulator has ever approved, yet the stock keeps sliding. Between orbital AI dreams, cooling doubts…
+- **[Huge News For Rocket Lab Stock Investors](https://finnhub.io/api/news?id=a67a986f9e323fcd072809108ed89f1c652258f8098b3dcbc2a0f9f9fa309b69)**  
+*Yahoo · 1h前*  
+Rocket Lab Completes 101st Mission With Fresh Japanese Satellite Deployment
 
-- **[AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40?](https://finnhub.io/api/news?id=729972c99b877ea7221b02e9855775bdae777431244025caec695cae068849c1)**  
-*Yahoo · 7h前*  
-A director just put $500,000 of her own money into a stock that has lost most of its value this year, and an analyst has flipped bullish. One bottleneck at Cape…
+- **[MISSION SUCCESS: Rocket Lab Launches 101st Electron Mission](https://finnhub.io/api/news?id=7f4c06a79b739e4b4910ff1082d74ccddd5a22a727ea907deb4dee205f17d80f)**  
+*Yahoo · 11h前*  
+MAHIA, New Zealand, Nov. 27, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in launch services and space systems, today success…
 
 ---
 
@@ -59,4 +59,4 @@ A director just put $500,000 of her own money into a stock that has lost most of
 - [TradingView](https://www.tradingview.com/chart/?symbol=RKLB)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:05 HKT*
