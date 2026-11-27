@@ -1,6 +1,6 @@
 # NVDA — 英偉達
 
-> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $154.23 | — |
+| Gamma Flip | $156.87 | — |
 | Put Wall（支撐） | $140.00 | -6.2% |
 | Call Wall（阻力） | $200.00 | +34.0% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[The Nasdaq Composite Is in a Correction, but These 3 Dividend Stocks Are Near 52-Week Highs. Here's Why They're Still Worth Buying Right Now.](https://finnhub.io/api/news?id=3a1d0862f827c6c657a91ba818520876b8edb92a070d7acab98e15bfc9f2cf26)**  
+- **[If You Put $10,000 in the Schwab U.S. Dividend Equity ETF 10 Years Ago, Here’s What You’d Have Now](https://finnhub.io/api/news?id=928870140d060923f869f362db0baa691de7c4fbf19d7078d8ba712dfac354ef)**  
 *Yahoo · 1h前*  
-Johnson & Johnson, Visa, and Coca-Cola have held up during the market's recent turbulence.
+This popular dividend-focused ETF is demonstrating its value in 2026.
 
-- **[Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy](https://finnhub.io/api/news?id=b0ac8bb3dace73cd41b4bef182a77951706cdc8225f5b141c4ff618953132724)**  
+- **[AI Chips Update - AI Surge Accelerates Semiconductor Growth Through 2026](https://finnhub.io/api/news?id=1661ea804403eefe9f26a0c77ee161d65959e4fd55065545cebb707a709d5ecd)**  
 *Yahoo · 1h前*  
-Jensen Huang’s return as CEO doesn’t make Nvidia (NVDA) stock a Buy, despite the market’s positive reaction. Shares of the leading semiconductor manufacturer ju…
+The artificial intelligence (AI) industry is experiencing a significant transformation as it moves from experimental phases to large-scale enterprise integratio…
 
-- **[Sandisk’s 8-for-1 Split Is Done. Here’s What Investors Should Do Next.](https://finnhub.io/api/news?id=2ba10ce1374d8d897df8718e3ba8345534c51f110dcfba2ee6cace52fab2c884)**  
+- **[Is Meta Stock a Buy as Amazon Reportedly Weighs Letting Its AI Shopping Agent Back In?](https://finnhub.io/api/news?id=6d0a569afff0aed9d27cb9a7eb0bb81e9aa5de357792b91faa80eb57370ea8a2)**  
 *Yahoo · 1h前*  
-Sandisk's stock split is finished, so the only question left is whether its AI-fueled flash memory business can hold up as prices cool.
+A deal would bring Muse back into Amazon's store. But Muse's shopping fees are still just a plan.
 
 ---
 
@@ -59,4 +59,4 @@ Sandisk's stock split is finished, so the only question left is whether its AI-f
 - [TradingView](https://www.tradingview.com/chart/?symbol=NVDA)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:04 HKT*
