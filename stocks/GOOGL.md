@@ -1,6 +1,6 @@
 # GOOGL — 谷歌-A
 
-> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $282.85 | — |
+| Gamma Flip | $283.90 | — |
 | Put Wall（支撐） | $270.00 | -1.1% |
 | Call Wall（阻力） | $300.00 | +9.8% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy](https://finnhub.io/api/news?id=b0ac8bb3dace73cd41b4bef182a77951706cdc8225f5b141c4ff618953132724)**  
+- **[Alphabet Faces School Backlash as Los Angeles Blocks Google AI Search](https://finnhub.io/api/news?id=7763a04b7a9029bb6124a37986bc5208e6763f57d177be9cfc13139e77bcfed5)**  
 *Yahoo · 1h前*  
-Jensen Huang’s return as CEO doesn’t make Nvidia (NVDA) stock a Buy, despite the market’s positive reaction. Shares of the leading semiconductor manufacturer ju…
+School districts are considering alternative search providers amid concerns about artificial intelligence's impact on student learning.
 
-- **[Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278](https://finnhub.io/api/news?id=20293754165b732c4daa2b3fd0e28d7a92e12843ae62234831a59d659a3da32f)**  
-*Yahoo · 4h前*  
-Shares erased a 7.7% intraday slide to their lowest level since July 2025 as Google and Anthropic exposure stays in focus.
+- **[iShares Russell 3000 ETF (IWV) Adds Apple and Microsoft on Nov. 25](https://finnhub.io/api/news?id=18b4d245e018e333027c6021fa5b2b811bf5ba52847944ce17d2db12cfd331db)**  
+*Yahoo · 1h前*  
+The fund bought $80.9 million of stocks, lifting 2,471 positions and trimming none, on assets of $19.74 billion.
 
-- **[Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn](https://finnhub.io/api/news?id=ae9e88ef1e837fac6a58973cd527b3b26ddb55424cb9fd5cbcd7dce5990d0ae3)**  
-*Yahoo · 4h前*  
-Five-year default swaps reached a record as third-quarter capex of $51.4 billion pushed free cash flow below zero.
+- **[iShares S&P 500 Growth (IVW) Adds Microsoft and Nvidia on Wednesday](https://finnhub.io/api/news?id=922cd43078cecc7d50f40599b0259ab3751c615140a4fa2aee8c3d00fa06a490)**  
+*Yahoo · 1h前*  
+The fund bought $98.5 million of stock, lifting all 152 positions and selling nothing.
 
 ---
 
@@ -59,4 +59,4 @@ Five-year default swaps reached a record as third-quarter capex of $51.4 billion
 - [TradingView](https://www.tradingview.com/chart/?symbol=GOOGL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:04 HKT*
