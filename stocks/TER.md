@@ -1,6 +1,6 @@
 # TER — 泰瑞達
 
-> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -31,15 +31,15 @@
 ## 📰 最新新聞
 
 - **[3 Great Automation Stocks To Own In November 2026](https://finnhub.io/api/news?id=01a77a4691c669a7873da50832388036adfc1e4a4f05f74985314127d4d5acca)**  
-*Yahoo · 2h前*  
+*Yahoo · 16h前*  
 Semiconductor chips recently overtook oil and gas in global export value, which indicates a shift in where economic influence is growing. Hardware that runs AI …
 
 - **[FormFactor And 2 Other AI Chip Stocks To Watch](https://finnhub.io/api/news?id=a7e8b79b0275db1a675eea1858fee7940d5b508829cad0d3af5768eaa421a49c)**  
-*Yahoo · 6h前*  
+*Yahoo · 20h前*  
 Semiconductors recently overtook oil and gas in global export value, turning the AI hardware supply chain into one of the clearest battlegrounds for capital. Th…
 
 - **[Why Is Teradyne (TER) Down 32.3% Since Last Earnings Report?](https://finnhub.io/api/news?id=445d3e2cb1d7d9fd51b5e4c4fe531d27ef97f31da21e1b29634ef2b85aaf5212)**  
-*Yahoo · 7h前*  
+*Yahoo · 21h前*  
 Teradyne (TER) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.
 
 ---
@@ -59,4 +59,4 @@ Teradyne (TER) reported earnings 30 days ago. What's next for the stock? We take
 - [TradingView](https://www.tradingview.com/chart/?symbol=TER)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:04 HKT*
