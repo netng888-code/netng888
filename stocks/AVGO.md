@@ -1,6 +1,6 @@
 # AVGO — 博通
 
-> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $328.84 | — |
+| Gamma Flip | $336.03 | — |
 | Put Wall（支撐） | $300.00 | -0.3% |
 | Call Wall（阻力） | $400.00 | +33.0% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[5 Most Oversold Semiconductor Stocks to Buy for 2027](https://finnhub.io/api/news?id=fa057cfaa6d4b6f84e00b6750e77a3e98ee6958427ced12d2322a66917f8a24f)**  
-*Yahoo · 3h前*  
-The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullba…
+- **[AI Chips Update - AI Surge Accelerates Semiconductor Growth Through 2026](https://finnhub.io/api/news?id=1661ea804403eefe9f26a0c77ee161d65959e4fd55065545cebb707a709d5ecd)**  
+*Yahoo · 1h前*  
+The artificial intelligence (AI) industry is experiencing a significant transformation as it moves from experimental phases to large-scale enterprise integratio…
 
-- **[Goldman Sachs resets Broadcom's 12-month price target before earnings](https://finnhub.io/api/news?id=80537e2bf13e004e0435ea7bf99051454e99d00295589f87735aee2c7aea9c86)**  
-*Yahoo · 3h前*  
-AVGO AI funding and 2028 data center concerns grow.
+- **[iShares S&P 500 Growth (IVW) Adds Microsoft and Nvidia on Wednesday](https://finnhub.io/api/news?id=922cd43078cecc7d50f40599b0259ab3751c615140a4fa2aee8c3d00fa06a490)**  
+*Yahoo · 1h前*  
+The fund bought $98.5 million of stock, lifting all 152 positions and selling nothing.
 
-- **[Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278](https://finnhub.io/api/news?id=20293754165b732c4daa2b3fd0e28d7a92e12843ae62234831a59d659a3da32f)**  
-*Yahoo · 4h前*  
-Shares erased a 7.7% intraday slide to their lowest level since July 2025 as Google and Anthropic exposure stays in focus.
+- **[iShares A.I. Innovation and Tech Active ETF (BAI) Sells Broadcom and AMD on Wednesday](https://finnhub.io/api/news?id=c1ed9b1c436c526a150988a83de60721e77c4d149fa9b4710244f98d29c2dcf2)**  
+*Yahoo · 1h前*  
+The fund sold $218.2 million of stock and bought nothing, cutting 40 positions while adding none.
 
 ---
 
@@ -59,4 +59,4 @@ Shares erased a 7.7% intraday slide to their lowest level since July 2025 as Goo
 - [TradingView](https://www.tradingview.com/chart/?symbol=AVGO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:04 HKT*
