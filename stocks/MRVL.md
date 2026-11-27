@@ -1,6 +1,6 @@
 # MRVL — 邁威爾科技
 
-> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Is Marvell Technology, Inc. (MRVL) a Hidden AI Infrastructure Winner for 2027?](https://finnhub.io/api/news?id=a323500467ad724808c84084f0042a90ee570cbe9af176a30d4300cde07f939e)**  
-*Yahoo · 3h前*  
-We just published our list, 10 Most Oversold Semiconductor Stocks to Buy for 2027, and Marvell Technology, Inc. ranked 7th on this list. The semiconductor secto…
+- **[Marvell Faces Critical Earnings Test Amid AI Chip Market Turmoil](https://finnhub.io/api/news?id=ce72e435d1a5bf91ac789bc3cbec97f5d488b7b718b915405356e54778be6567)**  
+*Yahoo · 1h前*  
+Upcoming quarterly results could provide insight into semiconductor demand as credit concerns and market volatility pressure technology stocks.
 
-- **[Marvell Options Price In 16% Earnings-Day Stock Swing](https://finnhub.io/api/news?id=4feb138a881237cdc526a5d4425cc2ac5dbd2473e6e2d4d0f67a6bb3245bc6a7)**  
+- **[Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market](https://finnhub.io/api/news?id=9bb45b86cb3da2379dcef195dc537265f208bd334a3d6a810336047c98ebe3ae)**  
+*Yahoo · 2h前*  
+AI stocks are flying on Black Friday, with memory-card supplier Sandisk and data-center power provider Bloom Energy leading the way.
+
+- **[Top 3 Undervalued Tech Stocks To Watch In November 2026](https://finnhub.io/api/news?id=109eeebafb3dc3df6d46e1b892bcb63839e9eec34d18bc9491a6aad5ce7d0fe8)**  
 *Yahoo · 5h前*  
-Wall Street expects quarterly revenue growth of 52.2% as investors assess the company's AI expansion strategy.
-
-- **[Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock?](https://finnhub.io/api/news?id=0df6cbd623d96a018581f02d25745574aef4c6871827c7a50171c23a691d64c6)**  
-*Yahoo · 6h前*  
-LITE stock soars 55% in a year on strong AI-driven optical networking demand, but rising costs, premium valuation, and acquisition uncertainty cloud its outlook…
+Oil prices have been climbing as supply risks in the Middle East draw more attention than worries about a glut. Higher energy costs can squeeze profit margins f…
 
 ---
 
@@ -59,4 +59,4 @@ LITE stock soars 55% in a year on strong AI-driven optical networking demand, bu
 - [TradingView](https://www.tradingview.com/chart/?symbol=MRVL)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:04 HKT*
