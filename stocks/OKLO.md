@@ -1,6 +1,6 @@
 # OKLO — Oklo Inc
 
-> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Prediction: Oklo Stock Could Have a Huge Year as Nuclear Energy Demand Accelerates](https://finnhub.io/api/news?id=16763cd3b7cf45e2b648ccf59564d58d82fc6f622f0697c7dcba2cf9b3c60078)**  
-*Yahoo · 1d前*  
-Oklo has lost most of its value this year, yet it sits on billions in cash and a reactor already taking shape in Idaho. Why one model still sees a discount hidi…
+- **[NuScale Just Dropped 17% in a Week to a New 52-Week Low. Is It Time to Sell, or Load Up?](https://finnhub.io/api/news?id=1d239de4db749463d736e8b1c5f10a11e8fc71db697be2e1fd5ebf2efaf9a80d)**  
+*Yahoo · 21h前*  
+Key TakeawaysNuScale shares fell 17% in a week to a new 52-week low as the AI selloff hit power stocks, including Oklo. NuScale had no news, but with almost no …
 
-- **[Oklo and NuScale Power Retreat 8% as AI Power Selloff Deepens; Energy Fuels Drops 6%](https://finnhub.io/api/news?id=fbf474e9b1764037439967ec7d14def84cb2cb5e276f959ad2ff685b1fc0914f)**  
-*Yahoo · 1d前*  
-Nuclear stocks that rode the AI power boom are now bleeding, and hot inflation and fresh tariffs are only part of the story. Why do three nuclear names fall by …
+- **[NuScale Power (SMR) Draws Fresh Investor Focus As AI Power Demand Lifts SMR Appeal](https://finnhub.io/api/news?id=0206ec4884800afb47487dcb0dfba62530211854cb7915019d4ef95d43bc0131)**  
+*Yahoo · 22h前*  
+NuScale Power (NYSE: SMR) is drawing increased investor interest as AI power demand raises the profile of advanced nuclear options. The company holds a federall…
 
-- **[OKLO Has More Cash, But Is NuScale the Better Nuclear Stock?](https://finnhub.io/api/news?id=70d025e4783af29b3d14383d7eb588ffa02101d63fbc3e0bd11cd1d3ef73e3dc)**  
-*Yahoo · 1d前*  
-OKLO and SMR are targeting the growing power needs of data centers, but their contrasting business models could shape how and when they generate revenues.
+- **[Energy Fuels vs. Centrus Energy: Which Uranium Stock Has The Edge Now?](https://finnhub.io/api/news?id=bf251b9f95e155bb8bf15cb982035a5a354bff65eb7880c2a2d91a76068255b1)**  
+*Yahoo · 23h前*  
+UUUU and LEU offer promising uranium growth prospects, but profitability pressures and execution risks raise questions about which stock has the edge.
 
 ---
 
@@ -59,4 +59,4 @@ OKLO and SMR are targeting the growing power needs of data centers, but their co
 - [TradingView](https://www.tradingview.com/chart/?symbol=OKLO)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:05 HKT*
