@@ -1,6 +1,6 @@
 # INTC — 英特爾 Intel
 
-> 最後更新：2026-11-27 07:05 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:05 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[5 Most Oversold Semiconductor Stocks to Buy for 2027](https://finnhub.io/api/news?id=fa057cfaa6d4b6f84e00b6750e77a3e98ee6958427ced12d2322a66917f8a24f)**  
-*Yahoo · 3h前*  
-The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullba…
+- **[JPMorgan Active Value ETF (JAVA) Buys $30.3 Million More Cencora on Nov. 25](https://finnhub.io/api/news?id=77c63fc95559601304940abf2b574dd3b729e72352a744b634536fef3a2dc587)**  
+*Yahoo · 2h前*  
+The fund's $424.5 million of gross trading on Wednesday left it with a net outflow of $115.2 million, as 60 positions rose and 62 fell.
 
-- **[Intel Stocks Slip After Erasing a 10.3% Plunge Below $50](https://finnhub.io/api/news?id=674f5bafbef8d0c4cf9dc83c77a09237323d07bb781cea39e25fa2b0a6068502)**  
-*Yahoo · 4h前*  
-Shares hit $49.16 in the morning chip rout, then recovered almost all the loss as buyers defended the $50 level.
+- **[iShares PHLX SOX Semiconductor (SOXX) Sells AMD and Broadcom on Nov. 25](https://finnhub.io/api/news?id=73b4f3bdb0a18f0ec049df01ab4168bb9c8279349686e9630e988e17c04ebf90)**  
+*Yahoo · 2h前*  
+The fund sold $688.8 million of stock, cutting all 30 positions and adding nothing new.
 
-- **[Nvidia Now Has 41% of Its Stock Portfolio in SpaceX. Here’s What That Means for Nvidia Shareholders](https://finnhub.io/api/news?id=a5b0a987f43f745cd28fa0cf80045e0524489618f270c52db273a3f24f0da2b4)**  
-*Yahoo · 4h前*  
-Key TakeawaysNvidia’s 13F for the quarter ended Sept. 30 shows SpaceX as its largest holding, at 41% of its US stocks, just ahead of Intel.
+- **[Intel’s (INTC) AI Opportunity Is Growing, But There’s One Big Problem Holding It Back](https://finnhub.io/api/news?id=9e8998a125498db01d623e63ed034b21696dcfe38040610bbe21c91e9d98a6e7)**  
+*Yahoo · 9h前*  
+We just published the list of the 10 Best Tech Stocks to Buy for 2027 According to Hedge Funds, and Intel Corporation (NASDAQ:INTC) ranked 7th on this list. Tec…
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysNvidia’s 13F for the quarter ended Sept. 30 shows SpaceX as its l
 - [TradingView](https://www.tradingview.com/chart/?symbol=INTC)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:05 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:05 HKT*
