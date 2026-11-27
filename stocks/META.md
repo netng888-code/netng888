@@ -1,6 +1,6 @@
 # META — Meta Platforms
 
-> 最後更新：2026-11-27 07:04 HKT　｜　數據來源：Barchart GEX + Finnhub
+> 最後更新：2026-11-27 21:04 HKT　｜　數據來源：Barchart GEX + Finnhub
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 指標 | 數值 | 距離現價 |
 |------|------|---------|
-| Gamma Flip | $596.49 | — |
+| Gamma Flip | $599.24 | — |
 | Put Wall（支撐） | $600.00 | -1.6% |
 | Call Wall（阻力） | $700.00 | +14.8% |
 
@@ -30,17 +30,17 @@
 
 ## 📰 最新新聞
 
-- **[Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy](https://finnhub.io/api/news?id=b0ac8bb3dace73cd41b4bef182a77951706cdc8225f5b141c4ff618953132724)**  
+- **[Is Meta Stock a Buy as Amazon Reportedly Weighs Letting Its AI Shopping Agent Back In?](https://finnhub.io/api/news?id=6d0a569afff0aed9d27cb9a7eb0bb81e9aa5de357792b91faa80eb57370ea8a2)**  
 *Yahoo · 1h前*  
-Jensen Huang’s return as CEO doesn’t make Nvidia (NVDA) stock a Buy, despite the market’s positive reaction. Shares of the leading semiconductor manufacturer ju…
+A deal would bring Muse back into Amazon's store. But Muse's shopping fees are still just a plan.
 
-- **[AMD Stocks Slip 1.75% After Filing Registers 337 Million Shares for Resale](https://finnhub.io/api/news?id=4967515dbded388ae59f3d685e4f12cffa01de15238585f7370f4e5b839d5978)**  
-*Yahoo · 4h前*  
-Up to 320 million of those shares are tied to penny warrants held by OpenAI and Meta that vest on GPU deployments.
+- **[The Anatomy of an AI Rally: Anthropic Stock Quickly Finds Its Place](https://finnhub.io/api/news?id=7b3d88aaed3047005147174b1fc347f3740fb2fbbae26d099e8ae98e26088222)**  
+*Yahoo · 2h前*  
+By now, we’re all familiar with how an artificial-intelligence rally works. Less so, when it comes to Anthropic's role in it all.
 
-- **[Stanley Druckenmiller, Bill Ackman and 7 Other Famous Investors Own Amazon. Here’s Who Bought and Sold Recently](https://finnhub.io/api/news?id=4cd8554f5708fcd6cfae1095fee78b8b9880f5e8cff5534fd45fb1f5e84f8876)**  
-*Yahoo · 4h前*  
-Key TakeawaysNine famous investors held Amazon at Sept. 30, per their latest 13Fs, and Stanley Druckenmiller’s family office added 43% to its stake in the quart…
+- **[ETFs Bought $162.2 Million of Meta (META) on Nov. 25](https://finnhub.io/api/news?id=611169730ca954362f71407452d77c7441e8956dc0c68e71a02c81cc91302242)**  
+*Yahoo · 2h前*  
+46 ETFs bought Meta stock versus 20 that sold, for a net inflow of $162.2 million.
 
 ---
 
@@ -59,4 +59,4 @@ Key TakeawaysNine famous investors held Amazon at Sept. 30, per their latest 13F
 - [TradingView](https://www.tradingview.com/chart/?symbol=META)
 
 ---
-*由 morning_monitor.py 自動生成　2026-11-27 07:04 HKT*
+*由 morning_monitor.py 自動生成　2026-11-27 21:04 HKT*
