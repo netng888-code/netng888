@@ -777,13 +777,17 @@
     moneyflow timeout 15→45秒；(6) 刷新掣：如果上次結果有errors（bridge會將部分失敗結果緩存24小時），改用days_ahead=46／45交替
     避開bridge嘅cache key，令刷新真係重查。
     ⚠️ 建議bridge另外改：options_calendar有errors就唔好緩存（見對話內patch），否則部分symbol會24小時缺席。
+  v5.52（2026-11-28）：信用風險加「CDS新聞」行（只GOOGL／NVDA／AVGO／META／INTC有）——Futu MCP冇CDS數據接口，改用news_search
+    搵到嘅CDS新聞快照（新聞引述，非自家報價，唔參與燈號計算）。顯示：(1)「持倉總覽」同「到期日曆」信用行下面加一行「CDS新聞 約129bp · 11-25」，
+    撳入去開新聞連結，滑鼠停喺上面睇多條新聞要點；(2)「GEX + K線」信用風險卡細字加同一行。數據優先用credit.json入面嘅cds_news
+    （http打開先fetch到），fetch唔到就用內嵌CDS_NEWS_EMBED。其餘14隻冇CDS新聞嘅股票畫面冇變。唔使升級futu_bridge。
   ═══════════════════════════════════════════════════
 -->
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEX Chart — Futu Bridge (v5.51)</title>
+<title>GEX Chart — Futu Bridge (v5.52)</title>
 <script>
 // v5.30：render前先set好data-theme，避免先閃一下預設色（flash of wrong theme）
 (function(){
@@ -908,6 +912,7 @@ header{display:flex;align-items:flex-end;justify-content:space-between;
 .cr-red{color:var(--red);border-color:var(--red);}
 .cr-burn{color:#d9730d;border-color:#d9730d;}
 .cr-det{color:var(--muted);font-size:11px;}
+.cds-news{color:var(--muted);font-size:11px;text-decoration:underline dotted;cursor:help;}
 /* v5.50：持倉總覽table收窄＋「操作」欄凍結喺右邊 */
 .tbl-wrap table.us-table th,.tbl-wrap table.us-table td{padding:9px 8px;}
 .tbl-wrap table.us-table td:last-child .act{display:grid;grid-template-columns:repeat(3,auto);gap:3px;justify-content:start;}
@@ -2466,7 +2471,132 @@ function creditBadgeHtml(sym) {
 function creditLineHtml(sym) {
   const i = creditInfo(sym);
   if (!i) return '';
-  return `信用 ${creditBadgeHtml(sym)} <span class="cr-det">${i.short}</span>`;
+  const _cds = cdsNewsHtml(sym);   // v5.52新增：CDS新聞行
+  return `信用 ${creditBadgeHtml(sym)} <span class="cr-det">${i.short}</span>` + (_cds ? `<br>${_cds}` : '');
+}
+// ── CDS新聞快照（v5.52新增）：新聞引述，非自家CDS報價；credit.json有cds_news就優先用，否則用內嵌版 ──
+const CDS_NEWS_EMBED = {
+ "GOOGL": {
+  "level_bp": null,
+  "level_note": "新聞冇提供絕對水平",
+  "items": [
+   {
+    "date": "2026-11-25",
+    "source": "智通財經",
+    "title": "黃仁勛復職救不了AI債！科技巨頭CDS利差集體飆升，信貸市場對「AI敘事回歸」不買賬",
+    "url": "https://news.futunn.com/post/1005572719",
+    "fact": "5年期CDS創紀錄高位（未載bp）"
+   },
+   {
+    "date": "2026-11-11",
+    "source": "JQman科技網（轉述高盛信用周報）",
+    "title": "AI信用風險正向上游遷移？芯片巨頭CDS利差三個月來首超雲廠商",
+    "url": "https://news.futunn.com/post/1004111309",
+    "fact": "過去兩個月較區間低點只擴闊約15bp，升幅遠細過芯片商"
+   }
+  ]
+ },
+ "NVDA": {
+  "level_bp": 129,
+  "level_note": "約11月下旬水平（Groundbreaker引述）；辭任消息公布時曾觸及145bp",
+  "items": [
+   {
+    "date": "2026-11-25",
+    "source": "華爾街見聞（引述Groundbreaker研究）",
+    "title": "次貸危機的味道？甲骨文CDS利差已超越2008年的貝爾斯登，AI數據中心股權被抹去近半",
+    "url": "https://news.futunn.com/post/1005609443",
+    "fact": "CDS約129bp，隱含評級約BBB-，距垃圾級界線（約135bp）只差約6bp；自6月底擴闊約130%"
+   },
+   {
+    "date": "2026-11-11",
+    "source": "JQman科技網（轉述高盛信用周報）",
+    "title": "AI信用風險正向上游遷移？芯片巨頭CDS利差三個月來首超雲廠商",
+    "url": "https://news.futunn.com/post/1004111309",
+    "fact": "過去兩個月較區間低點擴闊約50bp"
+   },
+   {
+    "date": "2026-10-08",
+    "source": "財聯社",
+    "title": "CDS狂飆！SpaceX、博通、甲骨文都在伸手「要錢」",
+    "url": "https://news.futunn.com/post/1000685221",
+    "fact": "5年期CDS由7月初約45bp升至約81bp（10月上旬）"
+   }
+  ]
+ },
+ "AVGO": {
+  "level_bp": null,
+  "level_note": "新聞冇提供絕對水平",
+  "items": [
+   {
+    "date": "2026-11-25",
+    "source": "華爾街見聞（引述Groundbreaker研究）",
+    "title": "次貸危機的味道？甲骨文CDS利差已超越2008年的貝爾斯登，AI數據中心股權被抹去近半",
+    "url": "https://news.futunn.com/post/1005609443",
+    "fact": "5年期CDS自6月底擴闊約155%（年初起約315%）；按CDS隱含評級，成交價對應高收益級，紙面評級仍係投資級"
+   },
+   {
+    "date": "2026-11-11",
+    "source": "JQman科技網（轉述高盛信用周報）",
+    "title": "AI信用風險正向上游遷移？芯片巨頭CDS利差三個月來首超雲廠商",
+    "url": "https://news.futunn.com/post/1004111309",
+    "fact": "過去兩個月較區間低點擴闊約70bp，係芯片商入面擴闊最多"
+   },
+   {
+    "date": "2026-11-06",
+    "source": "智通財經",
+    "title": "AI拋售燒到債市：軟銀領跌亞洲美元債，CoreWeave、博通CDS創歷史新高",
+    "url": "https://news.futunn.com/post/1003683084",
+    "fact": "CDS創歷史新高（未載bp）"
+   }
+  ]
+ },
+ "META": {
+  "level_bp": 120,
+  "level_note": "約11月下旬水平（Groundbreaker引述）；首宗CDS交易時約45bp",
+  "items": [
+   {
+    "date": "2026-11-25",
+    "source": "華爾街見聞（引述Groundbreaker研究）",
+    "title": "次貸危機的味道？甲骨文CDS利差已超越2008年的貝爾斯登，AI數據中心股權被抹去近半",
+    "url": "https://news.futunn.com/post/1005609443",
+    "fact": "為Hyperion／El Paso園區債務出具殘值擔保後，CDS升至約120bp；自6月底擴闊約60%；隱含評級約BBB-（機構評級AA-）"
+   },
+   {
+    "date": "2026-11-11",
+    "source": "JQman科技網（轉述高盛信用周報）",
+    "title": "AI信用風險正向上游遷移？芯片巨頭CDS利差三個月來首超雲廠商",
+    "url": "https://news.futunn.com/post/1004111309",
+    "fact": "過去兩個月較區間低點只擴闊約15bp"
+   }
+  ]
+ },
+ "INTC": {
+  "level_bp": null,
+  "level_note": "新聞冇提供絕對水平，只有單周升幅",
+  "items": [
+   {
+    "date": "2026-11-11",
+    "source": "JQman科技網（轉述高盛信用周報）",
+    "title": "AI信用風險正向上游遷移？芯片巨頭CDS利差三個月來首超雲廠商",
+    "url": "https://news.futunn.com/post/1004111309",
+    "fact": "截至11月5日一周，CDX IG成份入面擴闊最多（約+40bp），三大擴闊者全部係芯片商"
+   }
+  ]
+ }
+};
+function cdsNewsData(sym) {
+  const c = CREDIT && CREDIT.data ? CREDIT.data[sym] : null;
+  return (c && c.cds_news) || CDS_NEWS_EMBED[sym] || null;
+}
+function cdsNewsHtml(sym) {
+  const n = cdsNewsData(sym);
+  if (!n || !n.items || !n.items.length) return '';
+  const it = n.items[0];
+  const lvl = (n.level_bp != null) ? `約${n.level_bp}bp` : '見新聞';
+  const tip = n.items.map(i => `${i.date} ${i.source}：${i.fact}`).join('\n') +
+    (n.level_note ? `\n水平：${n.level_note}` : '') + '\n（新聞引述，非自家CDS報價，唔參與燈號）';
+  const href = /^https:\/\//.test(it.url || '') ? it.url : '#';
+  return `<a class="cds-news" href="${escHtml(href)}" target="_blank" rel="noopener" title="${escHtml(tip)}">CDS新聞 ${escHtml(lvl)} · ${escHtml(String(it.date || '').slice(5))}</a>`;
 }
 let _creditJsonTried = false;
 async function loadCreditJson() {
@@ -2711,7 +2841,7 @@ function renderFundRow(sym, gexData) {
   const ci = creditInfo(sym);
   if (ci) {
     crEl.innerHTML = creditBadgeHtml(sym);
-    crSrc.innerHTML = `${ci.short}<br>${ci.c.period}（${ci.c.ccy}）· 快照${CREDIT.asof}`;
+    crSrc.innerHTML = `${ci.short}<br>${ci.c.period}（${ci.c.ccy}）· 快照${CREDIT.asof}` + (cdsNewsHtml(sym) ? `<br>${cdsNewsHtml(sym)}` : '');   // v5.52：加CDS新聞行
     crSrc.title = ci.title.replace(/&quot;/g, '"');
   } else {
     crEl.textContent = '—';

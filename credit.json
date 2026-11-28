@@ -1,6 +1,8 @@
 {
- "source": "Futu MCP quote_financials_statements statement_type=4 (key indicators), latest quarter",
+ "source": "Futu MCP quote_financials_statements statement_type=4 (key indicators), latest quarter + Futu MCP news_search (CDS新聞快照)",
  "generated": "2026-11-26",
+ "cds_news_generated": "2026-11-28",
+ "cds_news_disclaimer": "新聞引述，唔係Futu或自家CDS報價；日期參差，冇新聞嘅股票唔會有cds_news欄位；只作事件提示，唔參與flag計算",
  "rule": "burn: 營運利潤率<-20% 且 LTD/Equity<10% (風險係燒錢/稀釋,唔係違約); red: 利息覆蓋<0 且 LTD/Equity>100%, 或 Quick<0.5; yellow: 利息覆蓋<0, 或 LTD/Equity>100%, 或 Quick<1; 否則 green",
  "data": {
   "GOOGL": {
@@ -12,7 +14,27 @@
    "current": 2.79,
    "quick": 2.51,
    "op_margin_pct": 33.3,
-   "flag": "green"
+   "flag": "green",
+   "cds_news": {
+    "level_bp": null,
+    "level_note": "新聞冇提供絕對水平",
+    "items": [
+     {
+      "date": "2026-11-25",
+      "source": "智通財經",
+      "title": "黃仁勛復職救不了AI債！科技巨頭CDS利差集體飆升，信貸市場對「AI敘事回歸」不買賬",
+      "url": "https://news.futunn.com/post/1005572719",
+      "fact": "5年期CDS創紀錄高位（未載bp）"
+     },
+     {
+      "date": "2026-11-11",
+      "source": "JQman科技網（轉述高盛信用周報）",
+      "title": "AI信用風險正向上游遷移？芯片巨頭CDS利差三個月來首超雲廠商",
+      "url": "https://news.futunn.com/post/1004111309",
+      "fact": "過去兩個月較區間低點只擴闊約15bp，升幅遠細過芯片商"
+     }
+    ]
+   }
   },
   "NVDA": {
    "period": "2027/Q3",
@@ -23,7 +45,34 @@
    "current": 4.08,
    "quick": 3.29,
    "op_margin_pct": 66.1,
-   "flag": "green"
+   "flag": "green",
+   "cds_news": {
+    "level_bp": 129,
+    "level_note": "約11月下旬水平（Groundbreaker引述）；辭任消息公布時曾觸及145bp",
+    "items": [
+     {
+      "date": "2026-11-25",
+      "source": "華爾街見聞（引述Groundbreaker研究）",
+      "title": "次貸危機的味道？甲骨文CDS利差已超越2008年的貝爾斯登，AI數據中心股權被抹去近半",
+      "url": "https://news.futunn.com/post/1005609443",
+      "fact": "CDS約129bp，隱含評級約BBB-，距垃圾級界線（約135bp）只差約6bp；自6月底擴闊約130%"
+     },
+     {
+      "date": "2026-11-11",
+      "source": "JQman科技網（轉述高盛信用周報）",
+      "title": "AI信用風險正向上游遷移？芯片巨頭CDS利差三個月來首超雲廠商",
+      "url": "https://news.futunn.com/post/1004111309",
+      "fact": "過去兩個月較區間低點擴闊約50bp"
+     },
+     {
+      "date": "2026-10-08",
+      "source": "財聯社",
+      "title": "CDS狂飆！SpaceX、博通、甲骨文都在伸手「要錢」",
+      "url": "https://news.futunn.com/post/1000685221",
+      "fact": "5年期CDS由7月初約45bp升至約81bp（10月上旬）"
+     }
+    ]
+   }
   },
   "TSM": {
    "period": "2026/Q3",
@@ -45,7 +94,34 @@
    "current": 2.5,
    "quick": 2.15,
    "op_margin_pct": 48.5,
-   "flag": "green"
+   "flag": "green",
+   "cds_news": {
+    "level_bp": null,
+    "level_note": "新聞冇提供絕對水平",
+    "items": [
+     {
+      "date": "2026-11-25",
+      "source": "華爾街見聞（引述Groundbreaker研究）",
+      "title": "次貸危機的味道？甲骨文CDS利差已超越2008年的貝爾斯登，AI數據中心股權被抹去近半",
+      "url": "https://news.futunn.com/post/1005609443",
+      "fact": "5年期CDS自6月底擴闊約155%（年初起約315%）；按CDS隱含評級，成交價對應高收益級，紙面評級仍係投資級"
+     },
+     {
+      "date": "2026-11-11",
+      "source": "JQman科技網（轉述高盛信用周報）",
+      "title": "AI信用風險正向上游遷移？芯片巨頭CDS利差三個月來首超雲廠商",
+      "url": "https://news.futunn.com/post/1004111309",
+      "fact": "過去兩個月較區間低點擴闊約70bp，係芯片商入面擴闊最多"
+     },
+     {
+      "date": "2026-11-06",
+      "source": "智通財經",
+      "title": "AI拋售燒到債市：軟銀領跌亞洲美元債，CoreWeave、博通CDS創歷史新高",
+      "url": "https://news.futunn.com/post/1003683084",
+      "fact": "CDS創歷史新高（未載bp）"
+     }
+    ]
+   }
   },
   "META": {
    "period": "2026/Q3",
@@ -56,7 +132,27 @@
    "current": 1.9,
    "quick": 1.67,
    "op_margin_pct": 32.9,
-   "flag": "green"
+   "flag": "green",
+   "cds_news": {
+    "level_bp": 120,
+    "level_note": "約11月下旬水平（Groundbreaker引述）；首宗CDS交易時約45bp",
+    "items": [
+     {
+      "date": "2026-11-25",
+      "source": "華爾街見聞（引述Groundbreaker研究）",
+      "title": "次貸危機的味道？甲骨文CDS利差已超越2008年的貝爾斯登，AI數據中心股權被抹去近半",
+      "url": "https://news.futunn.com/post/1005609443",
+      "fact": "為Hyperion／El Paso園區債務出具殘值擔保後，CDS升至約120bp；自6月底擴闊約60%；隱含評級約BBB-（機構評級AA-）"
+     },
+     {
+      "date": "2026-11-11",
+      "source": "JQman科技網（轉述高盛信用周報）",
+      "title": "AI信用風險正向上游遷移？芯片巨頭CDS利差三個月來首超雲廠商",
+      "url": "https://news.futunn.com/post/1004111309",
+      "fact": "過去兩個月較區間低點只擴闊約15bp"
+     }
+    ]
+   }
   },
   "NOK": {
    "period": "2026/Q3",
@@ -144,7 +240,20 @@
    "current": 2.21,
    "quick": 1.55,
    "op_margin_pct": 10.1,
-   "flag": "yellow"
+   "flag": "yellow",
+   "cds_news": {
+    "level_bp": null,
+    "level_note": "新聞冇提供絕對水平，只有單周升幅",
+    "items": [
+     {
+      "date": "2026-11-11",
+      "source": "JQman科技網（轉述高盛信用周報）",
+      "title": "AI信用風險正向上游遷移？芯片巨頭CDS利差三個月來首超雲廠商",
+      "url": "https://news.futunn.com/post/1004111309",
+      "fact": "截至11月5日一周，CDX IG成份入面擴闊最多（約+40bp），三大擴闊者全部係芯片商"
+     }
+    ]
+   }
   },
   "CIFR": {
    "period": "2026/Q3",
